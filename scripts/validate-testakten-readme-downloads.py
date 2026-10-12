@@ -5,18 +5,29 @@ Jede nutzerseitige Akte unter testakten/<slug>/ braucht im README den
 autogenerierten Downloadblock mit Gesamt-PDF, Akten-ZIP und Einzel-PDF-ZIP.
 Zusätzlich muss die zentrale testakten/README.md dieselben drei Ziele je Akte
 aufführen. Der Check läuft ohne externe Abhängigkeiten und eignet sich damit
-als frühes Release-Gate.
+als frühes Release-Gate. Auf Root-, Index-, Akten- und Plugin-Seiten muss der
+unveränderte DE/EN-Warnhinweis unmittelbar vor jeder Downloadgruppe stehen.
+Versionsfeste Aktenrouten werden außerdem in allen nutzerseitigen HTML-Seiten
+des Repositories geprüft.
 """
 
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
+from release_routing import case_asset_url, rewrite_case_asset_urls
+
+from testakte_download_notices import (
+    download_group_starts,
+    download_readmes,
+    is_case_readme,
+    missing_notice_positions,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 TESTAKTEN = ROOT / "testakten"
 OVERVIEW = TESTAKTEN / "README.md"
-REPO_SLUG = "Klotzkette/" + "cla" + "ude-fuer-deutsches-recht"
 
 BEGIN_MARKER = "<!-- BEGIN gesamt-pdf-section (autogen) -->"
 END_MARKER = "<!-- END gesamt-pdf-section (autogen) -->"
@@ -26,11 +37,33 @@ SKIP_DIRS = {
     "formatvorlagen-paradebeispiele",
     "megaprompts",
 }
+HTML_SKIP_PARTS = {
+    ".git",
+    ".venv",
+    "dist",
+    "node_modules",
+    "release-staging",
+    "venv",
+}
 
 EXPECTED_LABELS = (
     "Gesamt-PDF",
     "Akten-ZIP",
     "Einzel-PDF-ZIP",
+)
+TREE_FILE_PATTERN = re.compile(
+    r"^[\s│]*(?:├──|└──)\s+"
+    r"(?P<path>.+?\.(?:csv|docx|eml|ics|jpeg|jpg|json|odt|pdf|png|rtf|"
+    r"tsv|txt|xlsm|xlsx|xml))"
+    r"(?=\s{2,}|\s+(?:#|<-|←|—)|$)",
+    re.IGNORECASE,
+)
+TABLE_FILE_PATTERN = re.compile(
+    r"^\s*\|\s*`"
+    r"(?P<path>[^`]+?\.(?:csv|docx|eml|ics|jpeg|jpg|json|odt|pdf|png|rtf|"
+    r"tsv|txt|xlsm|xlsx|xml))"
+    r"`\s*\|",
+    re.IGNORECASE,
 )
 
 
@@ -55,10 +88,36 @@ def read_text(path: Path) -> str:
 
 
 def release_url(slug: str, suffix: str = "") -> str:
-    return (
-        f"https://github.com/{REPO_SLUG}/"
-        f"releases/latest/download/testakte-{slug}{suffix}.zip"
+    return case_asset_url(slug, suffix, root=ROOT)
+
+
+def validate_release_routes(label: str, text: str, errors: list[str]) -> None:
+    rewritten = rewrite_case_asset_urls(text, root=ROOT)
+    for number, (actual, expected) in enumerate(zip(text.splitlines(), rewritten.splitlines()), start=1):
+        if actual != expected:
+            errors.append(f"{label}:{number}: Akten-ZIP verweist nicht auf den versionsgleichen Begleitrelease")
+
+
+def user_facing_html(root: Path) -> list[Path]:
+    """Find checked-in HTML surfaces while ignoring local/build dependencies."""
+    return sorted(
+        path
+        for suffix in ("*.html", "*.htm")
+        for path in root.rglob(suffix)
+        if path.is_file()
+        and not (set(path.relative_to(root).parts) & HTML_SKIP_PARTS)
     )
+
+
+def validate_html_release_routes(root: Path, errors: list[str]) -> int:
+    pages = user_facing_html(root)
+    for page in pages:
+        validate_release_routes(
+            page.relative_to(root).as_posix(),
+            read_text(page),
+            errors,
+        )
+    return len(pages)
 
 
 def expected_targets(slug: str) -> tuple[str, str, str]:
@@ -69,6 +128,59 @@ def expected_targets(slug: str) -> tuple[str, str, str]:
     )
 
 
+def validate_file_reference(
+    slug: str,
+    directory: Path,
+    raw_path: str,
+    line_number: int,
+    errors: list[str],
+) -> None:
+    """Prüft einen relativen README-Dateieintrag gegen den Aktenbestand."""
+    reference = Path(raw_path)
+    if reference.is_absolute() or ".." in reference.parts:
+        errors.append(
+            f"{slug}: README-Zeile {line_number} enthält unsicheren Pfad {raw_path}"
+        )
+        return
+    if any(char in raw_path for char in "*?["):
+        found = any(path.is_file() for path in directory.glob(raw_path))
+    elif len(reference.parts) > 1:
+        found = path_exists(directory / reference)
+    else:
+        found = any(
+            path.is_file() and path.name == reference.name
+            for path in directory.rglob(reference.name)
+        )
+    if not found:
+        errors.append(
+            f"{slug}: README-Zeile {line_number} nennt fehlende Datei {raw_path}"
+        )
+
+
+def validate_readme_file_references(
+    slug: str,
+    directory: Path,
+    text: str,
+    errors: list[str],
+) -> None:
+    """Prüft Dateieinträge in README-Baumansichten und Dateitabellen."""
+    for line_number, line in enumerate(text.splitlines(), start=1):
+        matches = [
+            match
+            for pattern in (TREE_FILE_PATTERN, TABLE_FILE_PATTERN)
+            if (match := pattern.match(line))
+        ]
+        if not matches:
+            continue
+        validate_file_reference(
+            slug,
+            directory,
+            matches[0].group("path").strip(),
+            line_number,
+            errors,
+        )
+
+
 def validate_local_readme(slug: str, directory: Path, errors: list[str]) -> int:
     readme = directory / "README.md"
     if not path_exists(readme):
@@ -76,6 +188,8 @@ def validate_local_readme(slug: str, directory: Path, errors: list[str]) -> int:
         return 0
 
     text = read_text(readme)
+    validate_download_notices(slug, text, errors, case_readme=True)
+    validate_readme_file_references(slug, directory, text, errors)
     begin_count = text.count(BEGIN_MARKER)
     end_count = text.count(END_MARKER)
     if begin_count != 1 or end_count != 1:
@@ -109,6 +223,18 @@ def validate_local_readme(slug: str, directory: Path, errors: list[str]) -> int:
     return hits
 
 
+def validate_download_notices(
+    label: str, text: str, errors: list[str], *, case_readme: bool = False
+) -> int:
+    for position in missing_notice_positions(text, case_readme=case_readme):
+        line = text.count("\n", 0, position) + 1
+        errors.append(
+            f"{label}: unveränderter DE/EN-Hinweis fehlt unmittelbar vor "
+            f"Downloadgruppe in Zeile {line}"
+        )
+    return len(download_group_starts(text, case_readme=case_readme))
+
+
 def validate_overview(slug: str, overview: str, errors: list[str]) -> int:
     hits = 0
     overview_targets = (
@@ -138,6 +264,18 @@ def main() -> int:
         checked_links += validate_local_readme(slug, directory, errors)
         checked_links += validate_overview(slug, overview, errors)
 
+    central_readmes = {directory / "README.md" for directory in dirs}
+    checked_groups = 0
+    for readme in download_readmes(ROOT):
+        validate_release_routes(readme.relative_to(ROOT).as_posix(), read_text(readme), errors)
+        if readme in central_readmes:
+            continue
+        checked_groups += validate_download_notices(
+            readme.relative_to(ROOT).as_posix(), read_text(readme), errors,
+            case_readme=is_case_readme(readme, ROOT),
+        )
+    checked_html = validate_html_release_routes(ROOT, errors)
+
     if errors:
         print("validate-testakten-readme-downloads: FEHLER", file=sys.stderr)
         for err in errors[:80]:
@@ -146,7 +284,11 @@ def main() -> int:
             print(f" - ... {len(errors) - 80} weitere Fehler", file=sys.stderr)
         return 1
 
-    print(f"validate-testakten-readme-downloads OK ({len(dirs)} Akten, {checked_links} Treffer)")
+    print(
+        f"validate-testakten-readme-downloads OK ({len(dirs)} Akten, "
+        f"{checked_links} Treffer, {checked_groups} weitere Downloadgruppen, "
+        f"{checked_html} HTML-Seiten)"
+    )
     return 0
 
 

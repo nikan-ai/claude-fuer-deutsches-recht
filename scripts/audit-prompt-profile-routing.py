@@ -4,20 +4,49 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import sys
 from collections import Counter
 from pathlib import Path
 
+from prompt_profiles import standalone_kinds
+
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 
 from themen_profile import EXACT_PROFILE_KEYS, profile_for  # noqa: E402
+from quality_lab import load, validate_profile
+from prompt_limits import mini_within_limits, MAX_WORKSHOP_BYTES, MAX_MINI_BYTES
+from bauwirtschaft_hoai import PHASEN, werkstatt_path
+
+
+def expected_prompt_files(slug: str, plugin_dir: Path) -> dict[str, Path]:
+    expected = {kind: plugin_dir / f"{slug}-{kind}.md" for kind in standalone_kinds(slug)}
+    if slug == "bauwirtschaft":
+        expected.update({
+            f"werkstatt-{phase}": plugin_dir / Path(werkstatt_path(phase)).name
+            for phase, *_ in PHASEN
+        })
+    if slug == "betreuungsrecht":
+        # Im Plugin-README veröffentlichte, eigenständige Spezialwerkstatt.
+        expected["werkstatt-unterlagen"] = plugin_dir / "betreuungsrecht-unterlagen-werkstatt.md"
+    return expected
 
 
 CRITICAL_ROUTES = dict(EXACT_PROFILE_KEYS)
+# Fachlich begrenzte Routensätze ohne zusätzliche Füllrouten.
+EXPECTED_ROUTE_COUNTS = {"arbeitszeugnisgenerator": 9, "notariat-alltag": 10, "schadensregulierung": 10, "grundsteuerrecht": 10, "zugewinnausgleich": 10, "strassennutzung-genehmigungen": 10, "vertragserstellung": 10, "wirtschaftsanwalt": 10, "bauwirtschaft": 29}
 
 PROMPT_ASSERTIONS: dict[str, dict[str, tuple[str, ...]]] = {
+    "grosskanzlei-corporate-ma": {
+        "required": ("V ZR 77/22", "C-746/21 P"),
+        "forbidden": ("Das Arbeitsprodukt „Garantiekatalog-Zeile“",),
+    },
+    "arbeitszeugnisgenerator": {
+        "required": ("8 AZB 25/25", "9 AZR 272/22", "9 AZR 584/13"),
+        "forbidden": ("Elektronische Form ist ausgeschlossen",),
+    },
     "fachanwalt-agrarrecht": {
         "required": ("54.000 EUR", "60 Prozent", "BLw 12/11", "LwVfG"),
         "forbidden": (
@@ -53,6 +82,144 @@ PROMPT_ASSERTIONS: dict[str, dict[str, tuple[str, ...]]] = {
         "forbidden": ("(Geheimhaltung)", "Paragraf 76 GVG (Mitwirkung)"),
     },
 }
+
+PROMPT_BRANDS: tuple[str, ...] = (
+    "Open" + "AI",
+    "Chat" + "GPT",
+    "Clau" + "de",
+    "Per" + "plexity",
+    "Copi" + "lot",
+)
+
+# Fachlich geprüfte Absätze: konkrete Bedienung, Fähigkeitsgrenzen und Quellen
+# dürfen Anbieter benennen. Die Ausnahme ist an Datei UND vollständigen Absatz
+# gebunden; zusätzliche oder geänderte Markenpassagen müssen neu geprüft werden.
+# Nur Leerraum wird normalisiert, damit ein Zeilenumbruch keine neue Prüfung
+# erzwingt. Rechtsfehler und generische Rollenwerbung bleiben immer gesperrt.
+REVIEWED_BRAND_PARAGRAPHS: dict[str, dict[str, str]] = {
+    "ki-native-kanzlei/ki-native-kanzlei-werkstatt.md": {
+        "3b3471faa8b6203ed8342f78517640bb27d7bc5bc22b1f1fea0c177e38e61f9a": "Tatsächlicher Skill-, Datei- und Exportzugriff je Umgebung.",
+        "5286c633af47ec699da0049e5706606078ef88ca649bf9b42c617f74a130391a": "Statusfortsetzung im Textmodus ohne behauptete Speicherung.",
+        "d36287ab83815a124c7e45a4346204f692316dbf644d4d3fe956f3119a55b6fe": "Konkrete Befehlsaufrufe und gleichwertige Texteingaben.",
+        "ea191d300e3169c80c538ab064e462c974a1219afc500fe890f315d3d0b1de07": "Freigabeprüfung gilt auch ohne lokalen Helfer im Textmodus.",
+        "a5e073ae0661ab6463f15d003640673f216c667c54964f2b3b36db42ae6e8455": "Verlinkte Anbieterdokumentation zu Computer Use und Browsergrenzen.",
+    },
+    "ki-verordnung-verbotene-praktiken/ki-verordnung-verbotene-praktiken-werkstatt.md": {
+        "903f12f54a66574e00d1ad80566848e48e490616efc50cadc83acda9dc4da589": "Verwendbare Umgebungen und tatsächliche Datei- und Browserfunktionen.",
+        "9931ab7883264f1c1f5435a20a1a763932c6b4df9b7510d2aaa5b4298d25c24f": "Die Bezeichnung Copilot ersetzt keine Prüfung der gesetzlichen Ausnahme.",
+    },
+}
+
+GLOBAL_PROMPT_FORBIDDEN: tuple[str, ...] = (
+    "Indizien glaubhaft machen",
+    "Paragraf 4 RVG — Vergütungsvereinbarung",
+    "Paragraf 51b BRAO",
+    "Paragraf 33 SGB XI: Pflegeheimbetreuung",
+    "Paragraf 73 Absatz 5 SGB V: Wirtschaftlichkeitsgebot",
+    "Paragraf 25h KWG – Anzeigepflichten bei Geldwäscheverdacht",
+    "100 € Erstattungsdeckelung",
+    "Paragraf 309 Nr. 7 Buchst;",
+    "Paragraf 16a BNotO",
+    "Schutzfrist 50 Jahre ab Entstehung",
+    "Schutzfrist: 50 Jahre ab Aufnahme",
+    "Briefkraftloserklärung ohne FamFG ermöglichen",
+    "Antrag beim Amtsgericht (Paragraf 470 FamFG)",
+    "Prüfschritte: Paragraf 5c IfSG nach Pandemienovelle",
+    "Bei dinglich übertragener Lizenz kein Wahlrecht",
+    "Paragraf 8 EnWG: Anschlusspflicht",
+    "Paragraf 2 Nummer 5 AFIR-VO",
+    "Übersetzung ist stets Bearbeitung",
+    "5–10 Jahre Standardlizenz",
+    "Pflichtbestandteil der Wirtschaftsprüfung (Paragraf 320 HGB)",
+    "Entschädigung nach dem Verkehrswert; enteignungsrechtliche Entschädigung",
+    "Paragrafen 148, 246 ZPO analog",
+    "Cape Town Aircraft Protocol Art. XII",
+    "Automatische Herausgabepflicht in Insolvenz nach 60 Tagen",
+    "typisch 6-12 Monate Nach-Deckung",
+    "Paragraf 93 II 3 AktG / analog GmbHG",
+    "Paragraf 12 VVG Klagefrist",
+    "Paragraf 12 VVG: 1 Monat",
+    "Auswahlstichwort:",
+    "Au. Output:",
+    "Materienbezogene Arbeitsfelder",
+    "Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.",
+    "ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt",
+    "prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen",
+    "routet Rolle, Frist, Unterlagen und Fachschritt",
+    "erstellt Entwurf mit Antrag, Beweis und Anlagen",
+    "prüft Ergebnis, Beweislast und Gegenposition",
+    "prüft Frist, Form, Zuständigkeit und Eilbedarf",
+    "ordnet Akte, Belege und Lücken",
+    "rechnet Beträge, Schwellen und Varianten",
+    "entwickelt Ziel, Vergleich und Eskalation",
+    "ordnet Norm, Beweislast und Gegenargument",
+    "Prüfprodukt mit Risiko und nächstem Schritt",
+    "einsatzfertiges Arbeitsprodukt für",
+    "P092",
+    "Pflichtversto)",
+    "Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung",
+)
+
+
+def prompt_anchor_problems(text: str, relative_path: str) -> list[str]:
+    reviewed = REVIEWED_BRAND_PARAGRAPHS.get(relative_path, {})
+    paragraphs = re.split(r"\n\s*\n", text)
+    unreviewed = [
+        paragraph for paragraph in paragraphs
+        if hashlib.sha256(" ".join(paragraph.split()).encode("utf-8")).hexdigest() not in reviewed
+    ]
+    rejected = [marker for marker in GLOBAL_PROMPT_FORBIDDEN if marker in text]
+    rejected.extend(marker for marker in PROMPT_BRANDS if any(marker in paragraph for paragraph in unreviewed))
+    return [f"veralteter oder falscher Promptanker {marker!r}" for marker in rejected]
+
+GENERIC_ROUTE_ASSIGNMENT_BITS: tuple[str, ...] = (
+    "welches konkrete ziel soll erreicht oder verhindert werden",
+    "wenn ein fachskill eindeutig passt",
+    "streitige und unstreitige tatsachen trennen, lückentafel",
+    "fristen und zuständigkeit sichern: rechtsbehelfsfrist",
+    "einschlägige normen, zuständige stellen, verfahrensart",
+    "nur einschlägige normen, verifizierte rechtsprechung",
+    "arbeitsmodus: erst gesellschaftsform, organ, beschlussweg",
+    "welche einheit ist betroffen und welches recht gilt wirklich",
+    "arbeitsmodus: zuerst insolvenzgrund, frist, organpflicht",
+    "verfahrensarbeit: zuständigkeit, form, frist, anhörung",
+    "unsichere tatsachen als offen markieren und nicht durch modellwissen ersetzen",
+    "rolle klären: antragstellende person, behörde, verband",
+    "rechtsfrage, gewünschtes produkt, empfänger, frist und entscheidungsschwelle",
+    "nächste handlung erzeugen: liefere bei bedarf nachreichungsschreiben",
+    "hindernisse benennen: formuliere jedes hindernis konkret",
+    "frage nur nach, wenn es die rechtliche weiche wirklich verändert",
+    "datei, typ, datum, autor, fassung, signatur, dublette",
+    "chronologie, beteiligte, dokumentfundstellen, unstreitige tatsachen",
+    "arbeitsmodus: immer verwaltungsakt, frist, widerspruch",
+    "welche frist, behörde, vertragspartei, kundengruppe",
+    "prüfschritt: fristen, zustellung, rolle, zuständigkeit",
+    "symptom: falsche zuständigkeit adressiert",
+    "symptom: frist falsch berechnet oder übersehen",
+    "form und zuständigkeit prüfen: trenne materielle rechtslage",
+    "erstelle für entscheidungsvorlage eine entscheidungsreife fassung",
+    "rechtsabteilungsfähige kurzentscheidung mit ampel",
+    "fristen, zustellungen, aktenzeichen, anhörungen, mahnungen",
+    "fristen, registerstand, veröffentlichungen, vertragslage",
+    "beteiligte, rolle und kommunikationskanal klären",
+    "bearbeite prozessuale kniffe und rechtsprechungsanker entlang",
+    "er führt durch dokumentenmatrix",
+    "ziel ist nicht ein abstrakter lexikontext",
+    "nach parteien, regelungsziel, definitionen, leistung und gegenleistung",
+    "als vollständigen melde- oder dokumentationsvorgang",
+    "eine entscheidungsreife fassung mit rubrum oder adressat",
+    "eine beweis- und zugriffsakte",
+    "vom angegriffenen verfügungssatz oder antrag aus",
+    "schriftbild: wenn ein schriftsatz",
+    "arbeitsmodus: immer erst",
+    "welche behörde handelt:",
+    "welche behörde, welches gericht, welches register",
+    "prüfachse: ordne den konkreten auftrag",
+    "trenne sachverhalt, zuständigkeit, zustimmung",
+    "transaktionsstruktur, datenraumfund, wertwirkung",
+    "auslöser, zugang, fristart, beginn",
+    "arbeite zuerst die tragende rechtsfrage heraus",
+)
 
 SOURCE_FORBIDDEN: tuple[tuple[Path, tuple[str, ...]], ...] = (
     (
@@ -120,6 +287,82 @@ SOURCE_FORBIDDEN: tuple[tuple[Path, tuple[str, ...]], ...] = (
             "§ 43 DRiG (Eid)",
         ),
     ),
+    (
+        REPO / "notariat-alltag" / "skills",
+        (
+            "Briefkraftloserklärung ohne FamFG ermöglichen",
+            "Antrag beim Amtsgericht (§ 470 FamFG)",
+            "§ 16a BNotO (Videobeurkundung",
+            "§ 12 BeurkG muss sie in öffentlich beglaubigter Form vorliegen",
+            "Liste mindestens 3 Jahre alt ist oder der Berechtigte die Unrichtigkeit nicht kannte",
+            "§ 50a EStG (beschränkte Steuerpflicht)",
+            "§ 50a EStG: Einbehaltungspflicht des Käufers",
+            "Paragraf 50a EStG: Einbehaltungspflicht des Käufers",
+            "AO §§ 10–14 (Steuerliche Identifikation)",
+        ),
+    ),
+    (
+        REPO / "verlagsrecht-buchpreisbindung" / "skills",
+        (
+            "Schutzfrist 50 Jahre ab Entstehung",
+            "Schutzfrist: 50 Jahre ab Aufnahme",
+            "§ 79b UrhG (seit 2014): Öffentliche Einrichtungen dürfen verwaiste Werke",
+            "OpenStreetMap: CC BY-SA 2.0",
+            "Übersetzung ist stets Bearbeitung",
+            "5–10 Jahre Standardlizenz",
+            "VerlG § 35 | Übersetzungsrecht",
+        ),
+    ),
+    (
+        REPO
+        / "fachanwalt-gewerblicher-rechtsschutz"
+        / "skills"
+        / "dpma-mehrparteien-konflikt-und-interessen"
+        / "SKILL.md",
+        (
+            "§ 41 MarkenG | Widerspruch gegen Markeneintragung",
+            "§ 55 MarkenG: Unterlassung",
+            "§ 10 MarkenG (ältere Markenpolitik)",
+            "§§ 148, 246 ZPO analog",
+        ),
+    ),
+    (
+        REPO / "steuerrecht-anwalt-und-berater" / "skills",
+        (
+            "Saldenabstimmung ist Pflichtbestandteil der Wirtschaftspruefung",
+            "Saldenabstimmung ist Pflicht bei Wirtschaftspruefung",
+            "§ 320 HGB — Prüfungspflicht; Abstimmung Pflicht für WP",
+        ),
+    ),
+    (
+        REPO / "luftrecht-flughafenrecht" / "skills",
+        (
+            "Cape Town Aircraft Protocol Art. XII",
+            "ICAO-Register",
+            "IDERA nicht im Cape-Town-Register eingetragen",
+            "Aircraft Protocol Art. IX**: Rangverhältnis",
+            "Art. 30 Aircraft Protocol",
+            "Automatische Herausgabepflicht in Insolvenz nach 60 Tagen",
+        ),
+    ),
+    (
+        REPO / "fachanwalt-versicherungsrecht" / "skills",
+        (
+            "§ 12 VVG Klagefrist",
+            "Paragraf 12 VVG Klagefrist",
+            "typisch 6-12 Monate Nach-Deckung",
+            "§ 93 II 3 AktG / analog GmbHG",
+            "Selbstbehalt-Pflicht börsennotiert",
+            "nur börsennotierte AG; GmbH vertraglich",
+        ),
+    ),
+    (
+        REPO / "patentrecht" / "skills",
+        (
+            "TT-GVO (EU) 316/2014:",
+            "TT-GVO (EU 316/2014, Auflauf",
+        ),
+    ),
 )
 
 GLOBAL_MD_FORBIDDEN: tuple[tuple[re.Pattern[str], str], ...] = (
@@ -128,20 +371,41 @@ GLOBAL_MD_FORBIDDEN: tuple[tuple[re.Pattern[str], str], ...] = (
 )
 
 REQUIRED_WERKSTATT = (
-    "Rolle und Auftrag",
-    "Rechtsprechungs-Fallkarte",
-    "Normenanker, Tatbestandswichtigkeiten und Beweislast",
-    "Rechtsprechungsanker, Quellenstatus und Rechtsfolgen",
-    "Outputvarianten und Empfängerwunsch",
+    ("Rolle und Auftrag",),
+    (
+        "Rechtsprechungs-Fallkarte",
+        "Quellen- und Deutungsfallkarte",
+        "Prüf- und Evidenzfallkarte",
+        "Produktions- und Übergabekarte",
+        "Regelungs- und Vollzugsfallkarte",
+        "Verfahrens- und Entscheidungsfallkarte",
+    ),
+    (
+        "Normenanker, Tatbestandswichtigkeiten und Beweislast",
+        "Quellenanker, Textstufe, Deutungslast und Wirkung",
+        "Maßstäbe, Kernfragen, Evidenz und Folgerung",
+        "Anforderungen, Qualitätsmerkmale, Nachweis und Ausgabe",
+        "Rechtsanker, Regelungsmechanik, Nachweis und Vollzug",
+        "Rechtsanker, Entscheidungsmerkmale, Beweislast und Tenorfolge",
+    ),
+    (
+        "Rechtsprechungsanker, Quellenstatus und Rechtsfolgen",
+        "Quellenstatus, Gegenlesarten und Rezeptionswirkung",
+        "Quellen-, Rechtsprechungs- und Belastbarkeitsstatus",
+        "Vorgaben, Quellenstatus und technische Folge",
+        "Rechtsprechungsanker, Quellenstatus und Risikozuweisung",
+        "Rechtsprechungsanker, Quellenstatus und Entscheidungswirkung",
+    ),
+    ("Outputvarianten und Empfängerwunsch",),
 )
 REQUIRED_SCHNELLSTART = (
-    "Schnellmodus",
-    "Direktstart",
-    "Kernroute",
-    "Fallkarte",
-    "Anker",
-    "Antwortform",
-    "Stop",
+    ("Schnellmodus", "Sofortstart nach Eingangslage"),
+    ("Direktstart", "Fachlicher Direktstart"),
+    ("Kernroute",),
+    ("Fallkarte",),
+    ("Anker",),
+    ("Antwortform",),
+    ("Stop",),
 )
 
 
@@ -174,19 +438,55 @@ def marketplace_plugins() -> list[tuple[str, Path, str]]:
     return plugins
 
 
-def decimal_h2_problems(text: str) -> list[str]:
+def decimal_heading_problems(text: str) -> list[str]:
     problems: list[str] = []
     numbers: list[int] = []
+    current_h2 = 0
+    expected_h3 = 0
     for line in text.splitlines():
+        if line.startswith("### "):
+            match = re.match(r"^### (\d+)\.(\d+)\.\s+\S", line)
+            if not match:
+                problems.append(f"H3 nicht dezimal: {line[:100]}")
+                continue
+            major, minor = map(int, match.groups())
+            expected_h3 += 1
+            if major != current_h2 or minor != expected_h3:
+                problems.append(
+                    f"H3-Folge unpassend zu H2 {current_h2}: {line[:100]}"
+                )
+            continue
         if not line.startswith("## "):
             continue
         match = re.match(r"^## (\d+)\.\s+\S", line)
         if not match:
             problems.append(f"nicht dezimal: {line[:100]}")
             continue
-        numbers.append(int(match.group(1)))
+        current_h2 = int(match.group(1))
+        expected_h3 = 0
+        numbers.append(current_h2)
     if numbers and numbers != list(range(1, len(numbers) + 1)):
         problems.append(f"H2-Folge nicht lückenlos: {numbers}")
+    return problems
+
+
+def individual_workshop_structure_problems(text: str) -> list[str]:
+    """Dateistruktur ohne Mindestvolumen oder vorgeschriebene Fachüberschriften."""
+    problems = []
+    if not text.startswith("# ") or len(re.findall(r"^# ", text, flags=re.M)) != 1:
+        problems.append("eindeutige H1 am Dateianfang fehlt")
+    sections = re.split(r"^## [^\r\n]+\r?$", text, flags=re.M)[1:]
+    if not sections or any(not re.sub(r"^#{1,6} .*$", "", re.sub(r"<!--.*?-->", "", part, flags=re.S), flags=re.M).strip() for part in sections):
+        problems.append("gegliederter Abschnitt mit Inhalt fehlt")
+    numbers = []
+    for label in re.findall(r"^#{2,6} (.+)$", text, flags=re.M):
+        number = re.match(r"(\d+(?:\.\d+)*)(?:\.)?\s+\S", label)
+        if number is None:
+            problems.append(f"nicht dezimale Überschrift: {label}")
+        else:
+            numbers.append(tuple(map(int, number.group(1).split('.'))))
+    if not numbers or numbers != sorted(set(numbers)):
+        problems.append("fehlende, doppelte oder ungeordnete Abschnittsnummern")
     return problems
 
 
@@ -195,7 +495,7 @@ def source_anchor_problems() -> list[str]:
     for root, forbidden_bits in SOURCE_FORBIDDEN:
         files = [root] if root.is_file() else sorted(root.rglob("*.md"))
         for path in files:
-            text = path.read_text(encoding="utf-8", errors="ignore")
+            text = path.read_text(encoding="utf-8")
             for bit in forbidden_bits:
                 if bit in text:
                     problems.append(
@@ -223,18 +523,18 @@ def main() -> int:
         problems.append("Marketplace enthält doppelte Plugin-Slugs")
 
     for slug, plugin_dir, description in plugins:
-        profile = profile_for(slug, description)
-        profile_counts[profile.key] += 1
-        expected_route = CRITICAL_ROUTES.get(slug)
-        if expected_route and profile.key != expected_route:
-            problems.append(
-                f"{slug}: Fachroute {profile.key!r}, erwartet {expected_route!r}"
-            )
+        expected = expected_prompt_files(slug, plugin_dir)
+        # App-Pakete ohne Standalone-Prompts brauchen keine Generator-Fachroute.
+        # Unerwartete Promptdateien werden unten trotzdem zurückgewiesen.
+        if expected:
+            profile = profile_for(slug, description)
+            profile_counts[profile.key] += 1
+            expected_route = CRITICAL_ROUTES.get(slug)
+            if expected_route and profile.key != expected_route:
+                problems.append(
+                    f"{slug}: Fachroute {profile.key!r}, erwartet {expected_route!r}"
+                )
 
-        expected = {
-            "werkstatt": plugin_dir / f"{slug}-werkstatt.md",
-            "schnellstart": plugin_dir / f"{slug}-schnellstart.md",
-        }
         actual = set(plugin_dir.glob("*-werkstatt.md")) | set(
             plugin_dir.glob("*-schnellstart.md")
         )
@@ -243,27 +543,277 @@ def main() -> int:
             for path in sorted(extras):
                 problems.append(f"{path.relative_to(REPO)}: verwaister Prompt-Dateiname")
 
-        for kind, path in expected.items():
+        for label, path in expected.items():
+            kind = "werkstatt" if label.startswith("werkstatt") else label
             checked_files += 1
             if not path.exists():
                 problems.append(f"{path.relative_to(REPO)}: fehlt")
                 continue
             text = path.read_text(encoding="utf-8", errors="ignore")
             size = len(text.encode("utf-8"))
-            if kind == "schnellstart" and size > 7500:
-                problems.append(f"{path.relative_to(REPO)}: {size} Bytes statt höchstens 7500")
-            if kind == "werkstatt" and not 12 * 1024 <= size <= 22 * 1024:
+            review_path = REPO / "quality" / "evals" / f"{slug}.json"
+            review_profile = load(review_path) if review_path.is_file() else {}
+            individual_review = (
+                kind == "schnellstart" and review_path.is_file()
+            ) or (
+                kind == "werkstatt"
+                and isinstance(review_profile.get("workshop_review"), dict)
+            ) or (
+                kind == "hauptproblem"
+                and isinstance(review_profile.get("focus_review"), dict)
+            )
+            for issue in prompt_anchor_problems(text, path.relative_to(REPO).as_posix()):
+                problems.append(f"{path.relative_to(REPO)}: {issue}")
+            if re.search(r"Pflichtverstoßß+", text, flags=re.IGNORECASE):
                 problems.append(
-                    f"{path.relative_to(REPO)}: {size} Bytes außerhalb 12 bis 22 KiB"
+                    f"{path.relative_to(REPO)}: wiederholt angehängtes scharfes S"
                 )
+            if kind in {"schnellstart", "hauptproblem"} and not mini_within_limits(slug, text.encode("utf-8")):
+                problems.append(f"{path.relative_to(REPO)}: außerhalb der konfigurierten Byte-/Zeichengrenze")
+            if kind == "werkstatt" and size > MAX_WORKSHOP_BYTES:
+                problems.append(
+                    f"{path.relative_to(REPO)}: {size} Bytes statt höchstens {MAX_WORKSHOP_BYTES} Bytes für einen eigenständigen Werkstatt-Download"
+                )
+            if kind == "werkstatt":
+                for issue in individual_workshop_structure_problems(text):
+                    problems.append(f"{path.relative_to(REPO)}: {issue}")
+                review_path = REPO / "quality" / "evals" / f"{slug}.json"
+                if review_path.is_file():
+                    try:
+                        # Validiert auch einen vorhandenen Werkstatt-Hash;
+                        # er ersetzt weder Strukturprüfung noch Größenlimit.
+                        validate_profile(load(review_path), slug, plugin_dir, REPO)
+                    except (ValueError, OSError, TypeError, KeyError) as exc:
+                        problems.append(f"{path.relative_to(REPO)}: individuelle Prüfung ungültig: {exc}")
+                if review_path.is_file() or slug in protected:
+                    # Keine feste Routenzahl oder Pflichtbausteine in individuell
+                    # bearbeiteten Werkstätten. Fachbewertung bleibt gesondert.
+                    for marker in PROMPT_ASSERTIONS.get(slug, {}).get("forbidden", ()):
+                        if marker in text:
+                            problems.append(f"{path.relative_to(REPO)}: falscher Anker {marker!r}")
+                    continue
+                if re.search(r"^## \d+\. \d+(?:\.\d+)*\. ", text, flags=re.M):
+                    problems.append(
+                        f"{path.relative_to(REPO)}: mehrfach nummerierte Hauptüberschrift"
+                    )
+                route_block = re.search(
+                    r"^## (\d+)\. Fachspezifische Praxisrouten\s*$"
+                    r"(?P<body>[\s\S]*?)(?=^## \d+\.|<!-- END fachrouten-werkstatt|\Z)",
+                    text,
+                    flags=re.M,
+                )
+                route_count = 0
+                if route_block:
+                    major = route_block.group(1)
+                    route_count = len(
+                        re.findall(
+                            rf"^### {re.escape(major)}\.\d+\. ",
+                            route_block.group("body"),
+                            flags=re.M,
+                        )
+                    )
+                expected_count = EXPECTED_ROUTE_COUNTS.get(slug, 12)
+                if route_count != expected_count:
+                    problems.append(
+                        f"{path.relative_to(REPO)}: {route_count} statt {expected_count} Fachrouten"
+                    )
+                route_titles = re.findall(
+                    rf"^### {re.escape(major)}\.\d+\. (.+)$",
+                    route_block.group("body") if route_block else "",
+                    flags=re.M,
+                ) if route_block else []
+                generic_titles = {
+                    "aktenvermerk",
+                    "arbeitsprodukt",
+                    "beschwerdemanagement",
+                    "chronologie und belegmatrix",
+                    "fristen- und risikoampel",
+                    "fristen- und zuständigkeitscockpit",
+                    "mandantenkommunikation",
+                    "materielle prüfung",
+                    "rechtsschutz",
+                    "workflow",
+                }
+                if any(title.strip().lower() in generic_titles for title in route_titles):
+                    problems.append(
+                        f"{path.relative_to(REPO)}: generischer Fachroutentitel"
+                    )
+                generic_title_bits = (
+                    "abschlussprodukt und übergabe",
+                    "automation",
+                    "automationen",
+                    "billing",
+                    "checkliste",
+                    "copilot",
+                    "cowork",
+                    "dashboard",
+                    "design und ausgabestandard",
+                    "einsteiger",
+                    "einstieg in den skill",
+                    "fehlerkatalog",
+                    "finder",
+                    "hauptworkflow",
+                    "intake",
+                    "look",
+                    "mandantenkommunikation",
+                    "monitoring",
+                    "policy pack",
+                    "simulation",
+                    "skill-verbund",
+                    "staffing",
+                    "schulungsmaterial",
+                    "tooling",
+                    "training",
+                    "überblick",
+                    "drift-detektor",
+                    "schaufenster-pattern",
+                    "adversarial test",
+                    "beweislast, darlegungslast und substantiierung",
+                    "compliance-dokumentation und aktenvermerk",
+                    "tatbestandsmerkmale, beweisfragen und beleglage",
+                    "verhandlung, vergleich und eskalation",
+                    "fristennotiz und nächster schritt",
+                    "internationaler bezug und schnittstellen",
+                    "mehrparteienkonflikt und interessenmatrix",
+                    "formular, portal und einreichungslogik",
+                    "behörden-, gerichts- oder registerweg",
+                    "risikoampel, gegenargumente und verteidigungslinien",
+                    "formulare, portale und einreichungswege",
+                    "schriftsatz-, brief- und memo-bausteine",
+                    "sonderfälle und edge cases",
+                    "sonderfall und edge-case-prüfung",
+                    "zahlen, schwellen und berechnung",
+                    "zahlen, schwellenwerte und berechnung",
+                    "quality gate",
+                    "einarbeitung:",
+                    "erstprüfung, rollenklärung und mandatsziel",
+                    "anfänger",
+                    "quality-gate",
+                    "dokumentenmatrix, lückenliste und nachforderung",
+                    "paragraf 280 inso",
+                    "workflow",
+                )
+                if any(
+                    bit in title.lower()
+                    for title in route_titles
+                    for bit in generic_title_bits
+                ):
+                    problems.append(
+                        f"{path.relative_to(REPO)}: Meta-Skill statt Fachroute"
+                    )
+                normalized_titles = [
+                    re.sub(r"\W+", "", title.lower()) for title in route_titles
+                ]
+                if len(normalized_titles) != len(set(normalized_titles)):
+                    problems.append(
+                        f"{path.relative_to(REPO)}: doppelte Fachroutentitel"
+                    )
+                assignments = re.findall(
+                    r"^Bearbeitungsauftrag: (.+)$",
+                    route_block.group("body") if route_block else "",
+                    flags=re.M,
+                ) if route_block else []
+                for assignment in assignments:
+                    lowered_assignment = assignment.lower()
+                    generic_bit = next(
+                        (
+                            bit
+                            for bit in GENERIC_ROUTE_ASSIGNMENT_BITS
+                            if bit in lowered_assignment
+                        ),
+                        None,
+                    )
+                    if generic_bit:
+                        problems.append(
+                            f"{path.relative_to(REPO)}: universeller statt fachlicher "
+                            f"Bearbeitungsauftrag {generic_bit!r}"
+                        )
+                normalized_assignments = [
+                    re.sub(r"\W+", "", assignment.lower()) for assignment in assignments
+                ]
+                if len(normalized_assignments) != len(set(normalized_assignments)):
+                    problems.append(
+                        f"{path.relative_to(REPO)}: doppelte Bearbeitungsaufträge in Fachrouten"
+                    )
+                if "Werkstatt-Assistent" in text:
+                    problems.append(
+                        f"{path.relative_to(REPO)}: Rollenrest 'Werkstatt-Assistent'"
+                    )
+                if ("clau" + "de-für-deutsches-recht") in text:
+                    problems.append(
+                        f"{path.relative_to(REPO)}: technischer Pfad durch Umlaut verändert"
+                    )
+                if "Problemfokus dieses Skills" in text:
+                    problems.append(
+                        f"{path.relative_to(REPO)}: generischer Problemfokus im Werkstatt-Prompt"
+                    )
+                if "Tatsachen, Frist, Norm, Beweislast, stärkstes Gegenargument" in text:
+                    problems.append(
+                        f"{path.relative_to(REPO)}: universelle Fachroute statt Fachauftrag"
+                    )
+                if "von der ersten Aktenordnung bis zur belastbaren Empfehlung" in text:
+                    problems.append(
+                        f"{path.relative_to(REPO)}: generischer Aktenordnungs-Platzhalter"
+                    )
+                route_text = route_block.group("body") if route_block else ""
+                if re.search(
+                    r"^Bearbeitungsauftrag: Ordne Akteninhalt|"
+                    r"^Bearbeitungsauftrag: .*; liefert|"
+                    r"^Bearbeitungsauftrag: ([^:\n]+): \1\.$",
+                    route_text,
+                    flags=re.M,
+                ):
+                    problems.append(
+                        f"{path.relative_to(REPO)}: Schablonentext in Fachroute"
+                    )
+                for fragment in (
+                    "Prüfschritte: atz ",
+                    "Prüfschritte: bester nächster Arbeitsschritt",
+                    "Bearbeitungsauftrag: Beginne nicht mit einem Fragenkatalog",
+                    "Problemfokus dieses Skills",
+                    "Abs..",
+                    ".. Verbinde den Punkt",
+                    "Bearbeitungsauftrag: 1. Scope:",
+                    "Bearbeitungsauftrag: 1. Rolle und Ziel:",
+                    "Bearbeitungsauftrag: 1. Sachverhalt in einem Satz",
+                    "Bearbeitungsauftrag: Wenn Unterlagen vorhanden sind",
+                    "Bearbeitungsauftrag: Wenn ein Dokument vorliegt",
+                    "Bearbeitungsauftrag: Wenn Material vorliegt",
+                    "Bearbeitungsauftrag: Nutze diesen Skill, wenn",
+                    "Bearbeitungsauftrag: Normen:",
+                    "Bearbeitungsauftrag: Ständige Rechtsprechung",
+                ):
+                    if fragment in route_text:
+                        problems.append(
+                            f"{path.relative_to(REPO)}: beschädigte oder generische Fachroute {fragment!r}"
+                        )
+            if individual_review:
+                if kind == "hauptproblem":
+                    for issue in individual_workshop_structure_problems(text):
+                        problems.append(f"{path.relative_to(REPO)}: {issue}")
+                try:
+                    validate_profile(review_profile, slug, plugin_dir, REPO)
+                except (ValueError, OSError, TypeError, KeyError) as exc:
+                    problems.append(f"{path.relative_to(REPO)}: individuelle Prüfung ungültig: {exc}")
+            for issue in ([] if individual_review else decimal_heading_problems(text)):
+                problems.append(f"{path.relative_to(REPO)}: {issue}")
+            if individual_review:
+                # Aufbau und Wortlaut folgen dem Fachauftrag. Strukturprüfung
+                # übernimmt audit-quickstart-usability, Ergebnisprüfung das Labor.
+                for marker in PROMPT_ASSERTIONS.get(slug, {}).get("forbidden", ()):
+                    if marker in text:
+                        problems.append(f"{path.relative_to(REPO)}: falscher Anker {marker!r}")
+                continue
             if slug in protected:
                 continue
             required = REQUIRED_WERKSTATT if kind == "werkstatt" else REQUIRED_SCHNELLSTART
-            for marker in required:
-                if marker not in text:
-                    problems.append(f"{path.relative_to(REPO)}: Abschnitt {marker!r} fehlt")
-            for issue in decimal_h2_problems(text):
-                problems.append(f"{path.relative_to(REPO)}: {issue}")
+            for alternatives in required:
+                if not any(marker in text for marker in alternatives):
+                    label = " oder ".join(repr(marker) for marker in alternatives)
+                    problems.append(
+                        f"{path.relative_to(REPO)}: fachlich entsprechender Abschnitt "
+                        f"({label}) fehlt"
+                    )
             assertions = PROMPT_ASSERTIONS.get(slug)
             if assertions:
                 for marker in assertions["required"]:
@@ -284,7 +834,8 @@ def main() -> int:
 
     problems.extend(source_anchor_problems())
 
-    expected_file_count = len(plugins) * 2
+    expected_file_count = sum(len(expected_prompt_files(slug, directory))
+                              for slug, directory, _ in plugins)
     if checked_files != expected_file_count:
         problems.append(
             f"Prompt-Zählung abweichend: {checked_files} statt {expected_file_count}"
