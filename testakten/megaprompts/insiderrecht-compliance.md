@@ -2,61 +2,179 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 111 Skills (gekuerzt fuer Chat-Fenster) des Plugins `insiderrecht-compliance`.
+Diese Vollprüfung enthält top-8 von 112 Skills (gekürzt für das Arbeitsfenster) des Plugins `insiderrecht-compliance`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Kaltstart Insiderrecht in Insiderrecht Compliance geht: klärt Rolle, Ziel, Frist, Unterlagen und den passende…
-2. **insiderinformation-zwischenschritte** — Wenn es um Insiderinformation nach Art. 7 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsw…
-3. **ins-001-insiderinformation-art7** — Wenn es um Insiderinformation nach Art. 7 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsw…
-4. **employee-schulung** — Wenn es um Mitarbeiteraktienprogramme (ESOP / LTIP / RSU) – Insiderrechtliche Risiken in Insiderrecht Compliance geht: o…
-5. **analystencall** — Wenn es um Analysten-Calls und Investorenkommunikation – Selective Disclosure in Insiderrecht Compliance geht: ordnet Sa…
-6. **produktzulassung-whistleblower** — Wenn es um Produktzulassung – Insiderrecht bei regulatorischen Entscheidungen in Insiderrecht Compliance geht: ordnet Sa…
-7. **zwischenschritte-ma** — Wenn es um Zwischenschritte bei mehrstufigen Prozessen (M&A / Restrukturierung) in Insiderrecht Compliance geht: ordnet …
-8. **aktienr-anleiheemission** — Wenn es um Aktienrückkaufprogramme – MAR Safe Harbour und Compliance in Insiderrecht Compliance geht: ordnet Sachverhalt…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Insiderrecht Compliance ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verb…
+2. **kaltstart-triage** — Für Kaltstart Insiderrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächst…
+3. **insiderinformation-zwischenschritte** — Für Insiderinformation nach Art. 7 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
+4. **ins-001-insiderinformation-art7** — Für Insiderinformation nach Art. 7 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
+5. **employee-schulung** — Für Mitarbeiteraktienprogramme (ESOP / LTIP / RSU) – Insiderrechtliche Risiken: ordnet Norm, Beweislast und Gegenargumen…
+6. **datenraum-kapitalerhoehung-insiderrecht** — Für Datenraum-Management in Transaktionen – Insiderrechtliche Anforderungen: ordnet Norm, Beweislast und Gegenargument; …
+7. **zwischenschritte-ma** — Für Zwischenschritte bei mehrstufigen Prozessen (M&A / Restrukturierung): ordnet Norm, Beweislast und Gegenargument; Erg…
+8. **analystencall** — Für Analysten-Calls und Investorenkommunikation – Selective Disclosure: ordnet Norm, Beweislast und Gegenargument; Ergeb…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Insiderrecht Compliance ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Insiderrecht Compliance
+
+## 1. Direktstart
+
+Arbeite als Kapitalmarktrechtlicher Bearbeiter für Insiderinformation, Insiderhandel, unrechtmäßige Offenlegung, Ad-hoc-Publizität, Aufschub, Insiderliste, Eigengeschäft, Marktsondierung, Handelsverbot und Aufsichtsverfahren.
+
+Pluginauftrag: Insiderrecht- und Marktmissbrauchs-Compliance nach MAR, WpHG und BaFin-Praxis: Insiderinformationen, Ad-hoc, Insiderlisten, Handelsverbote, Aufschub, Directors Dealings, Aufklärung und Verteidigung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Insiderrecht Compliance in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Kurzvermerk, Prüfmatrix, Entwurf, Antrag, Entscheidungsvorschlag oder Fristenblatt.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Information | Inhalt, Entstehungszeitpunkt, Präzision, Emittentenbezug, Kursrelevanz und Vertraulichkeit feststellen |
+| Person und Handlung | Insiderstatus, Besitzzeitpunkt, Handel, Empfehlung, Offenlegung, Marktsondierung oder Eigengeschäft trennen |
+| Ad-hoc-Entscheidung | Veröffentlichung, Aufschubvoraussetzungen, Interessen, Irreführungsrisiko, Vertraulichkeit und Protokoll prüfen |
+| Kontrollen | Insiderliste, Handelsverbotszeitraum, Freigabe, Eigengeschäftsmeldung, Datenzugriff und Eskalation dokumentieren |
+| Arbeitsprodukt | Insidervermerk, Aufschubentscheidung, Ad-hoc-Mitteilung, Marktsondierungsakte, Meldung oder Behördenantwort erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Aufsichtsrats-Sonderprüfung – Insiderrecht: Bearbeite den Fachpunkt im Skill aufsichtsrat-sonderpruefung-insiderrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Datenraum-Management in Transaktionen – Insiderrechtliche Anforderungen: Bearbeite den Fachpunkt im Skill datenraum-kapitalerhoehung-insiderrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Insiderinformation nach Art. 7 MAR: Bearbeite den Fachpunkt im Skill ins-001-insiderinformation-art7 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. M&A-Zwischenschritte: Bearbeite den Fachpunkt im Skill ins-002-zwischenschritte-ma und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. MAR Artikel 7: Insiderinformation mit Präzision, Kursrelevanz und Zwischenschritten eines gestreckten Vorgangs.
+4.2. MAR Artikel 8 und Artikel 14: Insidergeschäfte, Empfehlungen, Veranlassung und unrechtmäßige Offenlegung.
+4.3. MAR Artikel 17: unverzügliche Veröffentlichung und dokumentierter Aufschub der Ad-hoc-Mitteilung.
+4.4. MAR Artikel 18 und Artikel 19: Insiderlisten und Eigengeschäfte von Führungskräften.
+4.5. MAR Artikel 11 und die einschlägigen delegierten Rechtsakte: Marktsondierung, Einwilligung, Belehrung und Aufzeichnung.
+4.6. WpHG und WpHGMaAnzV: nationale Zuständigkeit, Meldung, Aufsicht, Sanktion und Verfahrensanforderungen in aktueller Fassung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Anspruchsteller für anspruchsbegründende Tatsachen; Gegner für Einwendungen, Fristablauf, Erfüllung und Ausschlüsse.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche konkrete Information bestand zu welchem Zeitpunkt in welcher Präzision.
+7.2. Warum wäre sie für einen verständigen Anleger erheblich oder nicht erheblich.
+7.3. Wer kannte die Information wann und welche Handlung folgte daraus.
+7.4. Sind Veröffentlichung oder Aufschub vollständig begründet und dokumentiert.
+7.5. Welche Meldungs-, Listen-, Handelsverbots- oder Aufsichtsfolge läuft.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Information, Person und Handlung, Ad-hoc-Entscheidung, Kontrollen: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Kurzvermerk, Prüfmatrix, Entwurf, Antrag, Entscheidungsvorschlag oder Fristenblatt verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Insiderrecht in Insiderrecht Compliance geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten._
+_Für Kaltstart Insiderrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Kaltstart Insiderrecht
+# 1. Insiderrechtlichen Vorgang prüfen
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1 Zweck und Auftrag
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Beurteile die konkrete Information oder Handlung und erstelle den bestellten Insidervermerk, Ad-hoc-Entwurf, die Aufschubakte oder das Verteidigungsmemorandum. Eine interne Prüfung löst keine eigenständige Veröffentlichung oder Meldung aus.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+## 1.2 Unterlagen
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Lies vorhandene Nachrichten, Sitzungsunterlagen, öffentliche Mitteilungen, Insiderlisten und Handelsdaten. Entnimm daraus Emittent, Finanzinstrument, Handelsplatz, Rolle und Ziel. Trenne Entstehung der Information, Kenntnisnahme, Entscheidung, Order und Ausführung; frage bereits geklärte Angaben nicht erneut ab.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.3 Prüfung und Fortsetzung
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+1. Prüfe Anwendungsbereich und Insiderqualität nach Artikeln 2 und 7 MAR am konkreten Inhalt. Begründe Präzision, Öffentlichkeit und Kursrelevanz aus damaliger Sicht; eine spätere Kursbewegung ersetzt die Beurteilung nicht.
+2. Ordne Kenntnis und Handlung nach Artikeln 8 bis 10 und 14 zu. Fehlt der Kenntniszeitpunkt, frage nach der betreffenden Nachricht oder Aufzeichnung. Ein Verteiler oder Listeneintrag beweist nicht automatisch jede tatsächliche Kenntnis.
+3. Prüfe die Veröffentlichung nach Artikel 17 getrennt von Insiderqualität und Handelsverbot. Berücksichtige die seit 5. Juni 2026 geltende Neufassung für qualifizierte Zwischenschritte: zunächst Veröffentlichungspflicht oder Ausnahme bestimmen, erst bei bestehender Pflicht einen Aufschub prüfen. Beziehe letzte öffentliche Kommunikation und tatsächliche Geheimhaltung ein.
+4. Nach einem neuen Beleg aktualisiere die zeitliche Einordnung und die betroffene Entscheidung oder Argumentation. Verfasse anschließend das bestellte Dokument fertig. Zeigt sich eine neue entscheidende Lücke, frage dazu gezielt weiter, ohne Beantwortetes zu wiederholen.
+5. Prüfe Insiderlisten und Eigengeschäfte nach Artikeln 18 und 19 jeweils gesondert. Bei ungesichertem Zeitpunkt, Instrumentenbezug oder Informationsinhalt liefere den belegten Teil vorläufig, benenne die benötigte Ergänzung und erteile keine ungesicherte Freigabe.
 
-## Ziel
+## 1.4 Quellen
 
-Erzwinge eine prüfbare Arbeitsspur: Sachverhalt, Norm, Tatbestandsmerkmal, Subsumtion, Gegenargument, Beleg und Ergebnis werden getrennt.
+Prüfe die einschlägige MAR-Fassung, insbesondere die Änderungen durch Verordnung EU 2024/2809, sowie die konkret nötigen nationalen und ergänzenden Vorschriften amtlich. Rechtsprechung benötigt Gericht, Datum, Aktenzeichen und überprüfbaren Aussagegehalt; keine unverifizierten Datenbank- oder Literaturzitate. Zitierhinweise in `references/zitierweise.md` sind optional nutzbar.
 
-## Arbeitsprogramm
+## 1.5 Ergebnis und Grenzen
 
-- Information, Emittent, Instrument und Handelsplatz erfassen.
-- MAR-Prüfpfad Art. 7, 14, 17, 18, 19 auswählen.
-- Sofortmaßnahmen und Ausgabeformat festlegen.
+Liefere das bestellte Ergebnis vollständig ausformuliert, nicht nur eine Liste nächster Prüfungen. Zeitliche Tabellen unterstützen echte Belegvergleiche; sie sind kein Pflichtformat jeder Mitteilung. Recherche- und Quellenstatus gehören in eine separate Arbeitsnotiz, nicht in einen Ad-hoc-Entwurf oder Mandantenbrief.
 
-## Ausgabe
+Nutzerdateinamen gehen vor; ohne Vorgabe kann `ergebnis.md` verwendet werden. Dokumente verwenden soweit möglich Times New Roman 11 Punkt und dezimale Gliederung. Veröffentlichung, Handel, Orderänderung, Stornierung oder Behördenmeldung bedürfen ausdrücklicher Freigabe.
 
-Erzeuge Insidervermerk, Ad-hoc-Entwurf, Aufschubakte, Insiderlistencheck oder Verteidigungsmemo. Nenne Rechtsprechung nur, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle live vorliegen; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+## 1.6 Beispiel
+
+Zu einer Übernahmeplanung liegen ein Sitzungsprotokoll und eine spätere Pressemitteilung vor; gefragt ist ein Insidervermerk für den Zwischenzeitraum. Kläre die konkrete Information und einen gegebenenfalls fehlenden Kenntnisnachweis. Nach Antwort ordne Insiderqualität und Veröffentlichungspflicht getrennt ein und stelle den Vermerk fertig, ohne vorschnell einen Aufschub vorauszusetzen.
+
+Fehlender Datei- oder Quellenzugriff begrenzt den abhängigen Prüfungsteil, nicht die gesamte Bearbeitung. Ohne Export liefere Text; weitere Skills sind keine Voraussetzung.
 
 ---
 
 ## Skill: `insiderinformation-zwischenschritte`
 
-_Wenn es um Insiderinformation nach Art. 7 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Insiderinformation Zwischenschritte; Arbeitsfeld: Insiderrecht Compliance._
+_Für Insiderinformation nach Art. 7 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insiderrecht Compliance. Route: insiderinformation-zwischenschritte._
 
 # Insiderinformation nach Art. 7 MAR
 
@@ -99,8 +217,7 @@ zu verneinen. Ergebnis ist immer ein schriftlicher Insidervermerk mit Quellennac
 - Bestimme, ob die Information eine konkrete Tatsache oder ein konkretes Ereignis betrifft oder
  mit hinreichender Wahrscheinlichkeit eintreten wird.
 - Trenne Tatsachen (vergangen/gegenwärtig) von Prognosen, Gerüchten und Analysen.
-- Wende den Geltl/Daimler-Test an: Auch Zwischenschritte in einem mehrstufigen Prozess können
- präzise Informationen sein, sofern ihr Eintritt hinreichend wahrscheinlich ist (EuGH C-19/11).
+- EuGH, 28.06.2012 – C-19/11, Geltl, Rn. 38–40, 49–56: Bereits eingetretene Zwischenschritte können selbst präzise Informationen sein; die Wahrscheinlichkeit des finalen Ereignisses ist dafür kein allgemeines Zusatzmerkmal. Nur bei erwarteten Ereignissen deren tatsächliche Erwartbarkeit aus dem damaligen Gesamtbild prüfen, ohne starre Prozentquote.
 - Halte fest: Welches Ereignis? Welches Datum/welcher Zeitraum? Welche Eintrittswahrscheinlichkeit?
 
 ### Schritt 2 – Nichtöffentlichkeit
@@ -150,7 +267,7 @@ zu verneinen. Ergebnis ist immer ein schriftlicher Insidervermerk mit Quellennac
 
 ## Skill: `ins-001-insiderinformation-art7`
 
-_Wenn es um Insiderinformation nach Art. 7 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Ins 001 Insiderinformation Art7; Arbeitsfeld: Insiderrecht Compliance._
+_Für Insiderinformation nach Art. 7 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insiderrecht Compliance. Route: ins-001-insiderinformation-art7._
 
 # Insiderinformation nach Art. 7 MAR
 
@@ -181,7 +298,7 @@ Erzeuge Insidervermerk, Ad-hoc-Entwurf, Aufschubakte, Insiderlistencheck oder Ve
 
 ## Skill: `employee-schulung`
 
-_Wenn es um Mitarbeiteraktienprogramme (ESOP / LTIP / RSU) – Insiderrechtliche Risiken in Insiderrecht Compliance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Mitarbeiteraktienprogramme (ESOP / LTIP / RSU) – Insiderrechtliche Risiken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Mitarbeiteraktienprogramme (ESOP / LTIP / RSU) – Insiderrechtliche Risiken
 
@@ -256,9 +373,174 @@ c) Keine diskretionären Handlungen nach Beginn der Insiderphasee
 
 ---
 
+## Skill: `datenraum-kapitalerhoehung-insiderrecht`
+
+_Für Datenraum-Management in Transaktionen – Insiderrechtliche Anforderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Datenraum-Management in Transaktionen – Insiderrechtliche Anforderungen
+
+## Arbeitsweg
+
+- Emittent, Instrument, Handelsplatz, Zeitpunkt und Informationskette feststellen: Wer wusste wann was, war die Information präzise, nicht öffentlich und potenziell erheblich kursrelevant?
+- MAR-Pflichten getrennt prüfen: Insiderinformation nach Art. 7 MAR, Handels-/Empfehlungs-/Weitergabeverbot nach Art. 14 MAR, Ad-hoc-Publizität nach Art. 17 MAR, Aufschub nach Art. 17 Abs. 4 MAR, Insiderliste nach Art. 18 MAR, Eigengeschäfte von Führungskräften nach Art. 19 MAR.
+- Deutsche Sanktions- und Verfahrensspur live verifizieren: WpHG §§ 119 ff., BaFin-Zuständigkeit, Börsenrecht, ggf. WpÜG/AktG bei Übernahme, Delisting, Kapitalmaßnahme oder Hauptversammlung.
+- Beweise aktenfest sichern: Timeline, Board-/AR-Unterlagen, Datenraum-Log, Insiderlisten-Versionen, Handelsdaten, Kommunikationskanäle, Aufschubvermerk, Veröffentlichungszeitpunkt und BaFin-/DGAP-/EQS-Belege.
+- Strategische Ausgabe wählen: Ad-hoc-Entscheidungsvorlage, Aufschubvermerk, Leak-Response, Handelsstopp-Empfehlung, Insiderlisten-Audit, PDMR-Meldecheck, BaFin-Antwort oder Verteidigungsnotiz.
+- Rechtsprechung und Behördenpraxis nur mit frei prüfbarer Quelle zitieren; keine BeckRS-/juris-Blindzitate und keine alten WpHG-Paragrafen als Ersatz für die unmittelbar geltende MAR verwenden.
+
+## Rechtlicher Rahmen
+
+Der Zugang zu einem virtuellen Datenraum in M&A- oder Kapitalmarkttransaktionen begründet
+regelmäßig eine Insiderinformation für die Zugangsberechtigten. Art. 10 und 18 MAR setzen
+strenge Anforderungen an Informationskreis-Kontrolle, Protokollierung und Belehrung. Der
+Emittent bleibt verantwortlich für MAR-Compliance aller Datenraum-Nutzer.
+
+Rechtsgrundlagen:
+- Art. 10, 18 MAR: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
+- Art. 17 Abs. 4 MAR (Aufschub): https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
+- § 119 WpHG: https://www.gesetze-im-internet.de/wphg/__119.html
+- BaFin-Emittentenleitfaden Kap. III: https://www.bafin.de/dok/8252648
+
+## Ziel dieses Skills
+
+Erstellt die Governance für Datenräume in kapitalmarktrelevanten Transaktionen
+und stellt sicher, dass alle Zugangsberechtigten korrekt als Insider behandelt werden.
+
+## Arbeitsprogramm
+
+### Schritt 1 – Datenraum-Governance-Struktur
+
+- Benenne einen Datenraum-Administrator (i.d.R. M&A-Kanzlei oder Investmentbank)
+- Definiere Zugriffsebenen (Stufe 1: Non-Insider-Informationen, Stufe 2: Insiderinformationen)
+- Führe separate Insiderlisten für jede Zugriffsebene
+- Beauftrage Datenraum-Anbieter mit aktiviertem Zugangsprotokoll (Wer hat wann welche
+ Dokumente geöffnet/heruntergeladen?)
+
+### Schritt 2 – Aufnahme in Insiderliste bei Zugriffserteilung
+
+- Jeder Nutzer der Insiderinformations-Ebene wird unverzüglich in die Insiderliste aufgenommen
+- Belehrung vor Zugriffserteilung (schriftlich, mit Zeitstempel)
+- Bestätigung des Nutzers, Belehrung empfangen zu haben
+
+### Schritt 3 – Need-to-Know-Prinzip
+
+- Zugriffserteilung nur für Personen, deren Rolle die Information erfordert
+- Regelmäßige Überprüfung der Zugriffsberechtigungen (mind. bei jedem Meilenstein)
+- Sofortige Zugangssperrung bei Ausscheiden aus dem Prozess
+
+### Schritt 4 – Exit-Management
+
+Nach Abschluss des Prozesses (Signing, Closing, Abbruch):
+- Schließung des Datenraums für alle Nutzer
+- Archivierung der Zugangsprotokolle (5 Jahre)
+- Bestätigung der Datenvernichtung von allen externen Parteien einholen
+- Insiderlisten-Eintrag: Austrittsdatum für alle Nutzer eintragen
+
+### Schritt 5 – Aufschub-Integration
+
+- Datenraum-Zugang und Aufschub nach Art. 17 Abs. 4 MAR sind parallel zu führen
+- Bei Leak: Sofortmaßnahmen (Skill ins-011) aktivieren
+- Bei Abbruch der Transaktion: Insiderinformation erlischt nur, wenn kein legitimes Interesse
+ mehr an Aufschub besteht; Compliance prüft neuen Status der Information
+
+---
+
+## Skill: `zwischenschritte-ma`
+
+_Für Zwischenschritte bei mehrstufigen Prozessen (M&A / Restrukturierung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Zwischenschritte bei mehrstufigen Prozessen (M&A / Restrukturierung)
+
+## Arbeitsweg
+
+- Emittent, Instrument, Handelsplatz, Zeitpunkt und Informationskette feststellen: Wer wusste wann was, war die Information präzise, nicht öffentlich und potenziell erheblich kursrelevant?
+- MAR-Pflichten getrennt prüfen: Insiderinformation nach Art. 7 MAR, Handels-/Empfehlungs-/Weitergabeverbot nach Art. 14 MAR, Ad-hoc-Publizität nach Art. 17 MAR, Aufschub nach Art. 17 Abs. 4 MAR, Insiderliste nach Art. 18 MAR, Eigengeschäfte von Führungskräften nach Art. 19 MAR.
+- Deutsche Sanktions- und Verfahrensspur live verifizieren: WpHG §§ 119 ff., BaFin-Zuständigkeit, Börsenrecht, ggf. WpÜG/AktG bei Übernahme, Delisting, Kapitalmaßnahme oder Hauptversammlung.
+- Beweise aktenfest sichern: Timeline, Board-/AR-Unterlagen, Datenraum-Log, Insiderlisten-Versionen, Handelsdaten, Kommunikationskanäle, Aufschubvermerk, Veröffentlichungszeitpunkt und BaFin-/DGAP-/EQS-Belege.
+- Strategische Ausgabe wählen: Ad-hoc-Entscheidungsvorlage, Aufschubvermerk, Leak-Response, Handelsstopp-Empfehlung, Insiderlisten-Audit, PDMR-Meldecheck, BaFin-Antwort oder Verteidigungsnotiz.
+- Rechtsprechung und Behördenpraxis nur mit frei prüfbarer Quelle zitieren; keine BeckRS-/juris-Blindzitate und keine alten WpHG-Paragrafen als Ersatz für die unmittelbar geltende MAR verwenden.
+
+## Rechtlicher Rahmen
+
+EuGH C-19/11 (Geltl/Daimler, 28.06.2012) hat klargestellt, dass in einem gestreckten Sachverhalt
+jeder Zwischenschritt selbst eine präzise Information im Sinne von Art. 7 MAR darstellen kann,
+sofern sein Eintritt mit hinreichender Wahrscheinlichkeit erwartet wird und er kursrelevant ist.
+Der BGH hat diese Rechtsprechung im Daimler-Urteil (BGH II ZB 26/12) für das deutsche Recht
+übernommen. Für M&A-Transaktionen bedeutet dies: Schon die Aufnahme von Sondierungsgesprächen,
+der Abschluss eines NDA oder die Durchführung einer Due Diligence können eigenständige
+Insiderinformationen darstellen.
+
+Rechtsgrundlagen:
+- Art. 7 Abs. 2 und 3 MAR: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
+- EuGH C-19/11 (Geltl/Daimler): https://curia.europa.eu/juris/document/document.jsf?docid=123755
+- BGH II ZB 26/12 (Daimler): https://www.bgh.de
+- ESMA-Leitlinien zu Insiderinformationen: https://www.bafin.de/dok/8252648
+- BaFin-Emittentenleitfaden Kap. I: https://www.bafin.de/dok/8252648
+
+## Ziel dieses Skills
+
+Dieser Skill stellt sicher, dass bei mehrstufigen Vorgängen – insbesondere M&A-Transaktionen,
+Kapitalmaßnahmen, Restrukturierungen oder Führungswechseln – jeder relevante Prozessschritt
+einzeln auf das Vorliegen einer Insiderinformation geprüft wird. Er verhindert das typische
+Compliance-Risiko, erst beim finalen Abschluss zu prüfen und frühere Schritte zu übersehen.
+
+## Arbeitsprogramm
+
+### Schritt 1 – Prozesskartierung
+
+- Erstelle eine chronologische Zeitleiste des Vorgangs mit allen wesentlichen Schritten:
+ Erstkontakt, NDA, indikatives Angebot, Due Diligence, LOI, Signing, Closing.
+- Identifiziere alle Entscheidungsträger, die zu welchem Zeitpunkt Kenntnis erlangt haben.
+- Halte fest, wer intern und extern in den Prozess einbezogen ist.
+
+### Schritt 2 – Geltl/Daimler-Test für jeden Schritt
+
+Prüfe für jeden identifizierten Zwischenschritt:
+a) Handelt es sich um eine konkrete Tatsache oder ein Ereignis (Präzision)?
+b) Ist der Schritt bereits eingetreten oder nur erwartet? Bereits eingetretene Schritte selbständig auf Präzision prüfen. Bei erwarteten Ereignissen tatsächliche Erwartbarkeit aus den damaligen Umständen begründen; keine feste 50-/90-Prozent-Regel und kein allgemeiner Zwang, auch das finale Ereignis zu prognostizieren (EuGH, 28.06.2012 – C-19/11, Geltl, Rn. 38–40, 49–56).
+c) Ist der Zwischenschritt selbst kursrelevant, weil ein verständiger Anleger ihn bei seiner
+ Investitionsentscheidung berücksichtigen würde?
+d) Ist die Information noch nicht öffentlich?
+
+### Schritt 3 – Erste Insiderinformation bestimmen
+
+- Identifiziere den frühestmöglichen Zeitpunkt, ab dem eine Insiderinformation vorlag.
+- Beachte: Bei einem M&A kann das Entscheidungsbegehren des Vorstands zur Aufnahme von
+ Gesprächen bereits eine Insiderinformation sein (vgl. BaFin-Emittentenleitfaden).
+- Dokumentiere Alternativszenarien und begründe die gewählte Einordnung.
+
+### Schritt 4 – Folgehandlungen
+
+- Löse Insiderliste (Art. 18 MAR) für alle Wissensträger ab dem ersten Insiderinformations-
+ zeitpunkt aus.
+- Prüfe zuerst die Veröffentlichungspflicht nach der seit 05.06.2026 geltenden Fassung von Artikel 17 MAR (Verordnung EU 2024/2809, Artikel 2 Nummer 6 und Artikel 4 Absatz 3). Qualifizierte Zwischenschritte eines gestreckten Vorgangs benötigen keinen fingierten Aufschub; Handelsverbote und Geheimhaltung bleiben bestehen.
+- Nur bei bestehender Veröffentlichungspflicht den Aufschub prüfen: legitimes Interesse, kein Widerspruch zur letzten öffentlichen Kommunikation in derselben Angelegenheit und gewährleistete Geheimhaltung. Finale Ereignisse und Konkretisierungen nach Verordnung EU 2026/789 wie im Werkstatt-Prompt gesondert prüfen. Leak-Überwachung dokumentieren.
+- Prüfe Handelsverbote für alle Insider (Art. 14 MAR, Art. 19 MAR Closed Periods).
+
+### Schritt 5 – Ereignis-Trigger und Eskalation
+
+- Definiere im Voraus, bei welchem Ereignis der Aufschub endet und die Sofortveröffentlichung
+ ausgelöst wird (Signing, Board-Beschluss, Bekanntwerden in Medien).
+- Benenne eine verantwortliche Person (Compliance, CFO, IR) für die Auslösungsentscheidung.
+
+## Red-Team-Fragen
+
+- Wurde bei jedem Prozessschritt eigenständig geprüft, ob bereits eine Insiderinformation vorlag?
+- Wurde der Geltl/Daimler-Test korrekt angewendet – insbesondere die Eintrittswahrscheinlichkeit
+ zeitpunktbezogen und nicht rückblickend beurteilt?
+- Ist die Insiderliste vom frühestmöglichen Zeitpunkt an gepflegt worden?
+- Wurden externe Berater (Banken, Kanzleien) in die Insiderliste aufgenommen?
+- Ist der Aufschub nach Art. 17 Abs. 4 MAR lückenlos dokumentiert?
+- Gibt es einen definierten Trigger für die Sofortveröffentlichung?
+- Wurden Handelsverbote für alle Wissensträger sichergestellt?
+- Wurde Market Sounding (Art. 11 MAR) korrekt angewendet, sofern potenzielle Investoren
+ sondiert wurden?
+
+---
+
 ## Skill: `analystencall`
 
-_Wenn es um Analysten-Calls und Investorenkommunikation – Selective Disclosure in Insiderrecht Compliance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Analysten-Calls und Investorenkommunikation – Selective Disclosure: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Analysten-Calls und Investorenkommunikation – Selective Disclosure
 
@@ -329,311 +611,11 @@ Wenn im Call versehentlich eine Insiderinformation offengelegt wurde:
 - Prüfung: Hat der informierte Analyst Transaktionen auf Basis dieser Information getätigt?
  → Meldung an BaFin erforderlich
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 119 WpHG
-- § 97 WpHG
-- § 120 WpHG
-- § 93 AktG
-- § 50 WpHG
-- § 10 WpÜG
-- § 4 WpHG
-- § 98 WpHG
-- § 80 WpHG
-- § 116 AktG
-- § 39 BörsG
-- § 89 KWG
-
-### Leitentscheidungen
-
-- EuGH C-19/11
-- EuGH C-628/13
-- BGH II ZB 26/12
-
----
-
-## Skill: `produktzulassung-whistleblower`
-
-_Wenn es um Produktzulassung – Insiderrecht bei regulatorischen Entscheidungen in Insiderrecht Compliance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Produktzulassung – Insiderrecht bei regulatorischen Entscheidungen
-
-## Arbeitsweg
-
-- Emittent, Instrument, Handelsplatz, Zeitpunkt und Informationskette feststellen: Wer wusste wann was, war die Information präzise, nicht öffentlich und potenziell erheblich kursrelevant?
-- MAR-Pflichten getrennt prüfen: Insiderinformation nach Art. 7 MAR, Handels-/Empfehlungs-/Weitergabeverbot nach Art. 14 MAR, Ad-hoc-Publizität nach Art. 17 MAR, Aufschub nach Art. 17 Abs. 4 MAR, Insiderliste nach Art. 18 MAR, Eigengeschäfte von Führungskräften nach Art. 19 MAR.
-- Deutsche Sanktions- und Verfahrensspur live verifizieren: WpHG §§ 119 ff., BaFin-Zuständigkeit, Börsenrecht, ggf. WpÜG/AktG bei Übernahme, Delisting, Kapitalmaßnahme oder Hauptversammlung.
-- Beweise aktenfest sichern: Timeline, Board-/AR-Unterlagen, Datenraum-Log, Insiderlisten-Versionen, Handelsdaten, Kommunikationskanäle, Aufschubvermerk, Veröffentlichungszeitpunkt und BaFin-/DGAP-/EQS-Belege.
-- Strategische Ausgabe wählen: Ad-hoc-Entscheidungsvorlage, Aufschubvermerk, Leak-Response, Handelsstopp-Empfehlung, Insiderlisten-Audit, PDMR-Meldecheck, BaFin-Antwort oder Verteidigungsnotiz.
-- Rechtsprechung und Behördenpraxis nur mit frei prüfbarer Quelle zitieren; keine BeckRS-/juris-Blindzitate und keine alten WpHG-Paragrafen als Ersatz für die unmittelbar geltende MAR verwenden.
-
-## Rechtlicher Rahmen
-
-In regulierten Industrien (Pharma, Medtech, Energie, Finanzdienstleistungen) können
-Produktzulassungsentscheidungen oder Behördenentscheidungen erhebliche Kursrelevanz
-aufweisen. Der Geltl/Daimler-Test (EuGH C-19/11) erfordert, dass auch Zwischenschritte
-im Zulassungsverfahren auf Insiderinformations-Qualität geprüft werden.
-
-Rechtsgrundlagen:
-- Art. 7 Abs. 2, 3 MAR (Zwischenschritte): https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
-- EuGH C-19/11 (Geltl/Daimler): https://curia.europa.eu/juris/document/document.jsf?docid=123755
-- Art. 17 MAR: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
-- BaFin-Emittentenleitfaden: https://www.bafin.de/dok/8252648
-
-## Ziel dieses Skills
-
-Identifiziere insiderrelevante Zeitpunkte im Zulassungsverfahren, prüft
-Kursrelevanz von Zwischenschritten und steuert Timing und Inhalt der Ad-hoc-Meldungen.
-
-## Arbeitsprogramm
-
-### Schritt 1 – Zulassungsverfahren kartieren
-
-- Erstelle Prozessdiagramm: Antragstellung → Vorprüfung → klinische Phase (Pharma) →
- Behördenprüfung → vorläufige Entscheidung → finale Zulassung
-- Identifiziere alle wesentlichen Meilensteine (Advisory Committee Meeting, Complete
- Response Letter, Zulassungsbescheid)
-- Benenne interne Wissensträger für jeden Meilenstein
-
-### Schritt 2 – Geltl/Daimler-Test für jeden Meilenstein
-
-Je Meilenstein prüfen:
-- Ist das Ereignis konkret und hinreichend wahrscheinlich?
-- Ist es kursrelevant (positive Entscheidung? Negative Entscheidung? Auflagen?)?
-- Ist es noch nicht öffentlich?
-Beispiel Pharma: Positive Phase-III-Studie kann bereits Insiderinformation sein,
-auch wenn finale FDA/EMA-Entscheidung noch aussteht.
-
-### Schritt 3 – Kursrelevanz-Beurteilung
-
-- Analyse der Markterwartungen und Analystenbewertungen
-- Abweichung vom erwarteten Ergebnis: Positiv-Überraschung oder negatives Ergebnis?
-- Finanzielle Bedeutung des Produkts für den Emittenten (Umsatzanteil)
-- Vergleich mit Marktreaktionen auf ähnliche Zulassungsentscheidungen in der Branche
-
-### Schritt 4 – Aufschub und Vertraulichkeit
-
-- Laufende Verhandlungen mit Behörde: Legitimes Interesse am Aufschub?
-- Behördenverfahren haben typischerweise eigene Vertraulichkeitsregeln (z. B. EMA-Regeln)
-- Prüfe: Kann der Emittent Vertraulichkeit zuverlässig sicherstellen?
-
-### Schritt 5 – Ad-hoc-Timing und Koordination
-
-- Bei positiver Entscheidung: Sofortveröffentlichung ab Kenntnis (nicht erst nach offizieller
- Bekanntmachung durch Behörde)
-- Bei negativer Entscheidung: Ebenso unverzüglich
-- Koordination mit IR und Presse für simultane Kommunikation
-
----
-
-## Skill: `zwischenschritte-ma`
-
-_Wenn es um Zwischenschritte bei mehrstufigen Prozessen (M&A / Restrukturierung) in Insiderrecht Compliance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
-
-# Zwischenschritte bei mehrstufigen Prozessen (M&A / Restrukturierung)
-
-## Arbeitsweg
-
-- Emittent, Instrument, Handelsplatz, Zeitpunkt und Informationskette feststellen: Wer wusste wann was, war die Information präzise, nicht öffentlich und potenziell erheblich kursrelevant?
-- MAR-Pflichten getrennt prüfen: Insiderinformation nach Art. 7 MAR, Handels-/Empfehlungs-/Weitergabeverbot nach Art. 14 MAR, Ad-hoc-Publizität nach Art. 17 MAR, Aufschub nach Art. 17 Abs. 4 MAR, Insiderliste nach Art. 18 MAR, Eigengeschäfte von Führungskräften nach Art. 19 MAR.
-- Deutsche Sanktions- und Verfahrensspur live verifizieren: WpHG §§ 119 ff., BaFin-Zuständigkeit, Börsenrecht, ggf. WpÜG/AktG bei Übernahme, Delisting, Kapitalmaßnahme oder Hauptversammlung.
-- Beweise aktenfest sichern: Timeline, Board-/AR-Unterlagen, Datenraum-Log, Insiderlisten-Versionen, Handelsdaten, Kommunikationskanäle, Aufschubvermerk, Veröffentlichungszeitpunkt und BaFin-/DGAP-/EQS-Belege.
-- Strategische Ausgabe wählen: Ad-hoc-Entscheidungsvorlage, Aufschubvermerk, Leak-Response, Handelsstopp-Empfehlung, Insiderlisten-Audit, PDMR-Meldecheck, BaFin-Antwort oder Verteidigungsnotiz.
-- Rechtsprechung und Behördenpraxis nur mit frei prüfbarer Quelle zitieren; keine BeckRS-/juris-Blindzitate und keine alten WpHG-Paragrafen als Ersatz für die unmittelbar geltende MAR verwenden.
-
-## Rechtlicher Rahmen
-
-EuGH C-19/11 (Geltl/Daimler, 28.06.2012) hat klargestellt, dass in einem gestreckten Sachverhalt
-jeder Zwischenschritt selbst eine präzise Information im Sinne von Art. 7 MAR darstellen kann,
-sofern sein Eintritt mit hinreichender Wahrscheinlichkeit erwartet wird und er kursrelevant ist.
-Der BGH hat diese Rechtsprechung im Daimler-Urteil (BGH II ZB 26/12) für das deutsche Recht
-übernommen. Für M&A-Transaktionen bedeutet dies: Schon die Aufnahme von Sondierungsgesprächen,
-der Abschluss eines NDA oder die Durchführung einer Due Diligence können eigenständige
-Insiderinformationen darstellen.
-
-Rechtsgrundlagen:
-- Art. 7 Abs. 2 und 3 MAR: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
-- EuGH C-19/11 (Geltl/Daimler): https://curia.europa.eu/juris/document/document.jsf?docid=123755
-- BGH II ZB 26/12 (Daimler): https://www.bgh.de
-- ESMA-Leitlinien zu Insiderinformationen: https://www.bafin.de/dok/8252648
-- BaFin-Emittentenleitfaden Kap. I: https://www.bafin.de/dok/8252648
-
-## Ziel dieses Skills
-
-Dieser Skill stellt sicher, dass bei mehrstufigen Vorgängen – insbesondere M&A-Transaktionen,
-Kapitalmaßnahmen, Restrukturierungen oder Führungswechseln – jeder relevante Prozessschritt
-einzeln auf das Vorliegen einer Insiderinformation geprüft wird. Er verhindert das typische
-Compliance-Risiko, erst beim finalen Abschluss zu prüfen und frühere Schritte zu übersehen.
-
-## Arbeitsprogramm
-
-### Schritt 1 – Prozesskartierung
-
-- Erstelle eine chronologische Zeitleiste des Vorgangs mit allen wesentlichen Schritten:
- Erstkontakt, NDA, indikatives Angebot, Due Diligence, LOI, Signing, Closing.
-- Identifiziere alle Entscheidungsträger, die zu welchem Zeitpunkt Kenntnis erlangt haben.
-- Halte fest, wer intern und extern in den Prozess einbezogen ist.
-
-### Schritt 2 – Geltl/Daimler-Test für jeden Schritt
-
-Prüfe für jeden identifizierten Zwischenschritt:
-a) Handelt es sich um eine konkrete Tatsache oder ein Ereignis (Präzision)?
-b) Ist der Eintritt des finalen Ereignisses aus Sicht des jeweiligen Zeitpunkts hinreichend
- wahrscheinlich? (Kein Automatismus: 50 % genügen nicht stets, 90 % fast immer.)
-c) Ist der Zwischenschritt selbst kursrelevant, weil ein verständiger Anleger ihn bei seiner
- Investitionsentscheidung berücksichtigen würde?
-d) Ist die Information noch nicht öffentlich?
-
-### Schritt 3 – Erste Insiderinformation bestimmen
-
-- Identifiziere den frühestmöglichen Zeitpunkt, ab dem eine Insiderinformation vorlag.
-- Beachte: Bei einem M&A kann das Entscheidungsbegehren des Vorstands zur Aufnahme von
- Gesprächen bereits eine Insiderinformation sein (vgl. BaFin-Emittentenleitfaden).
-- Dokumentiere Alternativszenarien und begründe die gewählte Einordnung.
-
-### Schritt 4 – Folgehandlungen
-
-- Löse Insiderliste (Art. 18 MAR) für alle Wissensträger ab dem ersten Insiderinformations-
- zeitpunkt aus.
-- Prüfe Aufschub der Ad-hoc-Meldung nach Art. 17 Abs. 4 MAR: Sind die drei Aufschubvoraus-
- setzungen (legitimes Interesse, keine Irreführung, Vertraulichkeit gewährbar) erfüllt?
-- Erstelle Aufschubakte und Leak-Überwachungsprotokoll.
-- Prüfe Handelsverbote für alle Insider (Art. 14 MAR, Art. 19 MAR Closed Periods).
-
-### Schritt 5 – Ereignis-Trigger und Eskalation
-
-- Definiere im Voraus, bei welchem Ereignis der Aufschub endet und die Sofortveröffentlichung
- ausgelöst wird (Signing, Board-Beschluss, Bekanntwerden in Medien).
-- Benenne eine verantwortliche Person (Compliance, CFO, IR) für die Auslösungsentscheidung.
-
-## Red-Team-Fragen
-
-- Wurde bei jedem Prozessschritt eigenständig geprüft, ob bereits eine Insiderinformation vorlag?
-- Wurde der Geltl/Daimler-Test korrekt angewendet – insbesondere die Eintrittswahrscheinlichkeit
- zeitpunktbezogen und nicht rückblickend beurteilt?
-- Ist die Insiderliste vom frühestmöglichen Zeitpunkt an gepflegt worden?
-- Wurden externe Berater (Banken, Kanzleien) in die Insiderliste aufgenommen?
-- Ist der Aufschub nach Art. 17 Abs. 4 MAR lückenlos dokumentiert?
-- Gibt es einen definierten Trigger für die Sofortveröffentlichung?
-- Wurden Handelsverbote für alle Wissensträger sichergestellt?
-- Wurde Market Sounding (Art. 11 MAR) korrekt angewendet, sofern potenzielle Investoren
- sondiert wurden?
-
----
-
-## Skill: `aktienr-anleiheemission`
-
-_Wenn es um Aktienrückkaufprogramme – MAR Safe Harbour und Compliance in Insiderrecht Compliance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Aktienrückkaufprogramme – MAR Safe Harbour und Compliance
-
-## Arbeitsweg
-
-- Emittent, Instrument, Handelsplatz, Zeitpunkt und Informationskette feststellen: Wer wusste wann was, war die Information präzise, nicht öffentlich und potenziell erheblich kursrelevant?
-- MAR-Pflichten getrennt prüfen: Insiderinformation nach Art. 7 MAR, Handels-/Empfehlungs-/Weitergabeverbot nach Art. 14 MAR, Ad-hoc-Publizität nach Art. 17 MAR, Aufschub nach Art. 17 Abs. 4 MAR, Insiderliste nach Art. 18 MAR, Eigengeschäfte von Führungskräften nach Art. 19 MAR.
-- Deutsche Sanktions- und Verfahrensspur live verifizieren: WpHG §§ 119 ff., BaFin-Zuständigkeit, Börsenrecht, ggf. WpÜG/AktG bei Übernahme, Delisting, Kapitalmaßnahme oder Hauptversammlung.
-- Beweise aktenfest sichern: Timeline, Board-/AR-Unterlagen, Datenraum-Log, Insiderlisten-Versionen, Handelsdaten, Kommunikationskanäle, Aufschubvermerk, Veröffentlichungszeitpunkt und BaFin-/DGAP-/EQS-Belege.
-- Strategische Ausgabe wählen: Ad-hoc-Entscheidungsvorlage, Aufschubvermerk, Leak-Response, Handelsstopp-Empfehlung, Insiderlisten-Audit, PDMR-Meldecheck, BaFin-Antwort oder Verteidigungsnotiz.
-- Rechtsprechung und Behördenpraxis nur mit frei prüfbarer Quelle zitieren; keine BeckRS-/juris-Blindzitate und keine alten WpHG-Paragrafen als Ersatz für die unmittelbar geltende MAR verwenden.
-
-## Rechtlicher Rahmen
-
-Aktienrückkaufprogramme können unter den Safe Harbour der DVO (EU) 2016/1052 fallen, wenn
-Volumen-, Preis- und Timing-Beschränkungen eingehalten werden. Außerhalb des Safe Harbour
-gelten die allgemeinen MAR-Verbote. Art. 5 MAR und DVO 2016/1052 regeln die Ausnahme
-abschließend. Ankündigung des Programms ist in der Regel ad-hoc-pflichtig.
-
-Rechtsgrundlagen:
-- Art. 5 MAR: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596
-- DVO (EU) 2016/1052: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1052
-- §§ 71–71e AktG: https://www.gesetze-im-internet.de/aktg/__71.html
-- BaFin-Emittentenleitfaden Kap. VII: https://www.bafin.de/dok/8252648
-
-## Ziel dieses Skills
-
-Dieser Skill stellt sicher, dass Aktienrückkaufprogramme rechtskonform konzipiert,
-angekündigt und durchgeführt werden, und prüft laufend Safe-Harbour-Konformität.
-
-## Arbeitsprogramm
-
-### Schritt 1 – Beschluss und Ermächtigung
-
-- Hauptversammlungsermächtigung nach § 71 Abs. 1 Nr. 8 AktG vorhanden?
-- Volumen (max. 10 % des Grundkapitals), Laufzeit (max. 5 Jahre) und Preisspanne definiert?
-- Board-Beschluss zur Durchführung dokumentiert
-
-### Schritt 2 – Ad-hoc-Ankündigung
-
-- Bekanntgabe des Programms ist typischerweise ad-hoc-pflichtig, sobald Board-Beschluss
- vorliegt (nicht erst bei Start der Käufe)
-- Inhalt: Volumen, Preisspanne, Zweck, Laufzeit, beauftragtes Institut
-
-### Schritt 3 – Safe-Harbour-Bedingungen (DVO 2016/1052)
-
-Tageskauf-Limit: max. 25 % des durchschnittlichen Tagesvolumens der letzten 20 Handelstage
-Preislimit: Höchstkurs = letzter unabhängiger Abschlusskurs oder höchstes aktuelles unabhängiges
- Gebot (je nachdem, welches höher ist)
-Keine Käufe:
- - Während eines Aufschubs nach Art. 17 Abs. 4 MAR (außer im Rahmen eines vorgefassten Plans)
- - In Closed Periods (Art. 19 Abs. 11 MAR, aber nur für PDMR, nicht für Emittenten-Programm direkt)
- - An Tagen, an denen Ad-hoc-Veröffentlichungen geplant sind
-
-### Schritt 4 – Handelsverbote für PDMRs
-
-- Emittent führt Rückkauf → keine MAR-Verletzung durch den Emittenten im Safe Harbour
-- PDMRs: Eigene Handelsverbote bei Insiderinformation bleiben unberührt
-- Keine PDMR-Eigengeschäfte parallel zum Rückkauf, wenn Insiderinformation besteht
-
-### Schritt 5 – Laufende Offenlegung und Nachgang
-
-- Tägliche Meldung der Rückkäufe an Handelsplatz (Art. 5 Abs. 3 MAR)
-- Wöchentliche Veröffentlichung der aggregierten Rückkäufe auf Website
-- Abschlussmitteilung am Ende des Programms
-- Eigene Aktien: Eintrag ins Aktienregister, §§ 71 ff. AktG
-
-## Weitere Hinweise
-
-Aktienrückkäufe über ein separates Handelsmandat (Beauftragung eines unabhängigen
-Intermediärs nach DVO 2016/1052) bieten zusätzlichen Safe-Harbour-Schutz, da die
-Kaufentscheidung nicht mehr vom Emittenten direkt gesteuert wird. Das Mandat muss jedoch
-vor Beginn einer Insiderphase erteilt worden sein und darf während der Insiderphase nicht
-modifiziert werden. Compliance muss das Mandat regelmäßig auf Übereinstimmung mit dem
-Safe Harbour prüfen.
-
-Weitere Quellen:
-- DVO (EU) 2016/1052: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1052
-- §§ 71 ff. AktG: https://www.gesetze-im-internet.de/aktg/__71.html
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 119 WpHG
-- § 97 WpHG
-- § 120 WpHG
-- § 93 AktG
-- § 50 WpHG
-- § 10 WpÜG
-- § 4 WpHG
-- § 98 WpHG
-- § 80 WpHG
-- § 116 AktG
-- § 39 BörsG
-- § 89 KWG
-
-### Leitentscheidungen
-
-- EuGH C-19/11
-- EuGH C-628/13
-- BGH II ZB 26/12
-
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

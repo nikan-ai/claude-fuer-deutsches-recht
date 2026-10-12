@@ -1,37 +1,59 @@
 # China-Wirtschaftsakte Morgenstern
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 113 KB) | PDF | [`gesamt-pdf/festlandchina-wirtschaftsverkehr-fabrik-import-investition_gesamt.pdf`](gesamt-pdf/festlandchina-wirtschaftsverkehr-fabrik-import-investition_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/festlandchina-wirtschaftsverkehr-fabrik-import-investition_gesamt.pdf`](gesamt-pdf/festlandchina-wirtschaftsverkehr-fabrik-import-investition_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-festlandchina-wirtschaftsverkehr-fabrik-import-investition-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 Fabrikbetrieb, Import/Export, De-Risking, IP, Daten, Lieferkette, Exportkontrolle und politisches Risiko.
 
-## Dateien
+## Kernunterlagen
 
 | Datei | Inhalt |
-|---|---|
-| `01-sachverhalt-und-akte.docx` | Ausgangslage, Personen, Dokumente und Problemkern |
-| `02-fristen-risiken-dashboard.csv` | Fristen-, Risiko- und Entscheidungsübersicht |
-| `03-email-mandat-und-rueckfrage.eml` | E-Mail aus dem Mandat |
-| `04-arbeitsvermerk.docx` | Word-Vermerk für die Bearbeitung |
-| `05-dashboard.xlsx` | Excel-/Tracker-Arbeitsblatt |
-| `06-lagekarte.jpg` | Bildanlage als Whiteboard-/Lagekarte |
-| `07-quellen-und-streitpunkte.pdf` | PDF-Memo mit Streitpunkten und Quellenlogik |
-| `08-entwurf-naechster-schritt.docx` | Entwurf für Memo, Antrag, Klausel oder Strategie |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
-
+| --- | --- |
+| `01_zollbeschau_tghu7712049.docx` | Beschau Container TGHU7712049, Sensoren RS-440 |
+| `02_container_seriennummern_und_bom_abgleich.xlsx` | Tabellarische Rohdaten Serienabgleich mit 7 Datensätzen |
+| `03_email_lanhai_funkmodul_revision.eml` | E-Mail mit vollständigem Header: TGHU7712049 / R6 module and revised documents |
+| `04_werkzeuginventur_shenzhen_lanhai.docx` | Inventur der bezahlten Spritzgusswerkzeuge und Zugriff am Standort Bao'an |
+| `05_container_packliste_und_zollbefund_roh.csv` | Rohdatenexport mit 6 Einträgen und unveränderten Quellenangaben |
+| `06_email_qualitaet_seriennummern.eml` | E-Mail mit vollständigem Header: RS-26 / Abgleich R6-Seriennummern und Fotos aus der Beschau |
+| `07_compliance_nachfrage_coordination_fee.docx` | Position local coordination fee in der Beteiligungskalkulation |
 ## Passende Plugins
 
 `festlandchina-wirtschaftsverkehr`
+
+---
+
+<!-- BEGIN nachgereichte-originalunterlagen -->
+## Nachgereichte Originalunterlagen
+
+Diese Dateien ergänzen den Datenraum um später eingegangene Primärunterlagen. Sie enthalten Tatsachen, Rohdaten und Korrespondenz, aber keine rechtliche Lösung.
+
+| Datei | Herkunft und Inhalt |
+| --- | --- |
+| [`12_zollbeschau_container_shenzhen_hamburg.docx`](12_zollbeschau_container_shenzhen_hamburg.docx) | Zollbeschau mit konkreten Modell- und Serienabweichungen |
+| [`13_email_lieferant_funkmodul_seriennummern.eml`](13_email_lieferant_funkmodul_seriennummern.eml) | Lieferantenmail aus der Produktionsakte |
+| [`14_container_packliste_seriennummern_roh.csv`](14_container_packliste_seriennummern_roh.csv) | Unbereinigte Pack- und Seriennummernliste |
+| [`15_telefonvermerk_zollstelle_standgeld.docx`](15_telefonvermerk_zollstelle_standgeld.docx) | Telefonvermerk Morgenstern/Köster zu Nachreichungen, Mustern und Standgeld |
+| [`16_email_ufer_wendler_chen_bo_rueckmeldung.eml`](16_email_ufer_wendler_chen_bo_rueckmeldung.eml) | Interne Mail zu erneutem Anruf Chen Bo, Werkzeug M24 und verschobener Videoinspektion |
+| [`17_zwischenabrechnung_hanseport_standgeld_roh.csv`](17_zwischenabrechnung_hanseport_standgeld_roh.csv) | Rohdaten der Hanseport-Zwischenabrechnung mit Standgeld, Beschaubegleitung und Lagergeld |
+
+<!-- END nachgereichte-originalunterlagen -->

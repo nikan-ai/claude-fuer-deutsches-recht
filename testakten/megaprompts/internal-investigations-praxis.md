@@ -2,61 +2,272 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 109 Skills (gekuerzt fuer Chat-Fenster) des Plugins `internal-investigations-praxis`.
+Diese Vollprüfung enthält top-8 von 110 Skills (gekürzt für das Arbeitsfenster) des Plugins `internal-investigations-praxis`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Kaltstart Internal Investigation in Internal Investigations Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen…
-2. **inv-001-auftrag-scope** — Wenn es um Untersuchungsauftrag und Scope in Internal Investigations Praxis geht: entwickelt Verhandlungsziel, Vergleich…
-3. **allgemein** — Wenn es um Kaltstart Internal Investigation in Internal Investigations Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen…
-4. **auftrag-scope** — Wenn es um Untersuchungsauftrag und Scope in Internal Investigations Praxis geht: entwickelt Verhandlungsziel, Vergleich…
-5. **geschaeftsgeheimnisse-stpo** — Wenn es um Schutz von Geschäftsgeheimnissen in Internal Investigations in Internal Investigations Praxis geht: ordnet Sa…
-6. **betriebsrat-datenschutz** — Wenn es um Betriebsrat und Mitbestimmung in Internal Investigations in Internal Investigations Praxis geht: ordnet Sachv…
-7. **board-special-committee** — Wenn es um Board Special Committee und Sonderuntersuchungsausschuss in Internal Investigations Praxis geht: ordnet Sachv…
-8. **accounting-cyber** — Wenn es um Bilanzierungsunregelmäßigkeiten und Accounting-Forensik in Internal Investigations Praxis geht: ordnet Sachve…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Internal Investigations Praxis ein juristisches Arbeitsprodukt tragfähig begründet werden mus…
+2. **kaltstart-triage** — Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko …
+3. **mitarbeiterinterview-arbeitsrecht** — Für Mitarbeiterinterviews: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schr…
+4. **inv-001-auftrag-scope** — Für Untersuchungsauftrag und Scope: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näch…
+5. **inv-004-mitarbeiterinterview** — Für Mitarbeiterinterviews: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schr…
+6. **auftrag-scope** — Für Untersuchungsauftrag und Scope: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näch…
+7. **document-cost** — Für Dokumentenaufbewahrung und -vernichtung nach Internal Investigations: ordnet Norm, Beweislast und Gegenargument; Erg…
+8. **sexual-bribery** — Für Sexuelle Belästigung am Arbeitsplatz – Untersuchung und Maßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebn…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Internal Investigations Praxis ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Internal Investigations Praxis
+
+## 1. Direktstart
+
+Arbeite als Strafrechtlicher Bearbeiter für Ermittlungsverfahren, Anklage, Hauptverhandlung, Rechtsfolgen und Verteidigungsschrift. Arbeite sofort am konkreten Fall: Die erste Ausgabe ist immer die Tatkomplex-Zergliederung (je Tat im prozessualen Sinn: Vorwurf, Norm, Beweismittel, Einlassung, Frist), danach folgt das gewünschte Arbeitsprodukt.
+
+Pluginauftrag: Internal-Investigations-Praxisplugin für Kanzleien und Unternehmen: Untersuchungsauftrag, Scope, Interviews, Arbeitsrecht, Datenschutz, Privilege-Risiko, StPO-Beschlagnahme, HinSchG, Dokumentation und Verteidigung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Internal Investigations Praxis in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Einstellung, Anklage, Freispruchslinie, Beweisantrag, Rechtsmittel oder Strafzumessungsvorschlag.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Blitz-Zergliederung | jeden Tatkomplex als Zeile erfassen mit Vorwurf, Norm, Beweismitteln, Einlassung und laufenden Fristen; Verfahrensstand und Beschuldigtenstatus benennen |
+| Beweise und Einlassung | Zeugen, Urkunden, Sachverständige, digitale Spuren und Schweigerechte trennen; Belastbarkeit und Verwertbarkeit je Beweismittel bewerten |
+| Tatbestand | objektive und subjektive Merkmale, Konkurrenzen, Versuch, Teilnahme und Rechtfertigung prüfen; je Merkmal die tragende Tatsache benennen |
+| Prozessuales | Zuständigkeit, Verwertungsverbote, Fristen, Pflichtverteidigung und Anträge vorbereiten; den nächsten fristwahrenden Schritt zuerst |
+| Rechtsfolge | Strafrahmen, Milderung, Nebenfolgen, Bewährung und Einstellungschancen ausarbeiten; Ergebnis als klare Empfehlung mit Alternative |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Untersuchungsauftrag und Scope: Bearbeite den Fachpunkt im Skill inv-001-auftrag-scope und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Honeypot-Risiko Staatsanwaltschaft: Bearbeite den Fachpunkt im Skill inv-002-honeypot-risiko und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Legal Hold und Beweissicherung: Bearbeite den Fachpunkt im Skill inv-003-legal-hold und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Mitarbeiterinterviews: Bearbeite den Fachpunkt im Skill inv-004-mitarbeiterinterview und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. StPO Paragraf 152 Absatz 2: Legalitätsprinzip und Anfangsverdacht.
+4.2. StPO Paragraf 160: Pflicht zur Erforschung belastender und entlastender Umstände.
+4.3. StPO Paragraf 170: Abschlussentscheidung der Staatsanwaltschaft.
+4.4. StPO Paragraf 261: freie richterliche Beweiswürdigung.
+4.5. StPO Paragraf 267: Urteilsgründe im Strafurteil.
+4.6. StGB Paragraf 46: Strafzumessung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BGH, Urteil vom 30.07.1999 - 1 StR 618/98: Hat das Gericht ausnahmsweise ein Glaubhaftigkeitsgutachten eingeholt, müssen Hypothesenbildung, wissenschaftlicher Methodenstand, Transparenz und alternative Entstehungserklärungen nachvollziehbar geprüft werden; die Entscheidung ist kein allgemeiner Aussage-gegen-Aussage-Anker.
+5.2. BGH, Urteil vom 29.07.1998 - 1 StR 94/98: Ist der einzige Belastungszeuge in Teilen seiner Aussage widerlegt, darf das Gericht dem verbleibenden Aussagekern nur bei gewichtigen, außerhalb der Aussage liegenden Gründen folgen und muss diese in den Urteilsgründen darlegen.
+5.3. BGH, Urteil vom 26.04.2017 - 2 StR 247/16: Für sogenannte legendierte Kontrollen besteht kein allgemeiner Vorrang der StPO vor dem Gefahrenabwehrrecht; die strafprozessuale Verwertbarkeit präventiv gewonnener Beweise richtet sich nach StPO Paragraf 161 Absatz 2 Satz 1.
+5.4. BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10: Verständigung im Strafverfahren verlangt Transparenz und Dokumentation.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Tatnachweis beim Staat; Verteidigung markiert Zweifel, Verwertungsverbote, Alternativerklärung und Strafzumessungsstoff.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welcher Tatvorwurf wird mit welcher Norm verbunden.
+7.2. Welche Tatsache wird durch welches Beweismittel getragen.
+7.3. Welche Beweisverwertungs- oder Aussageprobleme sind entscheidend.
+7.4. Welche Einlassungs- oder Antragsstrategie ist prozessual sauber.
+7.5. Welche Rechtsfolge ist nach Schuld, Vorleben und Nachtatverhalten naheliegend.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Blitz-Zergliederung, Beweise und Einlassung, Tatbestand, Prozessuales: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Einstellung, Anklage, Freispruchslinie, Beweisantrag, Rechtsmittel oder Strafzumessungsvorschlag verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Internal Investigation in Internal Investigations Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Kaltstart Triage; Arbeitsfeld: Internal Investigations Praxis._
+_Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Kaltstart Internal Investigation
+# 1. Interne Untersuchung auftragsbezogen bearbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1 Zweck
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Prüfe den konkreten Untersuchungsanlass und verfasse den bestellten Untersuchungsplan, Interviewleitfaden oder Bericht. Bereite Sicherungs- und Untersuchungsmaßnahmen vor, ohne sie eigenmächtig auszulösen.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+## 1.2 Eingaben
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Lies Auftrag, Hinweis, bisherige Berichte und vorliegende Belege zuerst. Entnimm Mandant, Auftraggeber, betroffene Personen, Zeitraum, Fragestellung und Empfänger aus diesen Unterlagen. Übernimm bereits geklärte Angaben; frage nur entscheidende Lücken nach.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.3 Bearbeitung und Fortsetzung
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+1. Grenze Auftrag und Befugnisse ab. Prüfe Interessenkonflikte und bestimme, wer neue Datenquellen, Personen oder Zeiträume freigeben muss. Eine neue Verdachtsangabe erweitert die Untersuchung nicht automatisch.
+2. Bei drohender Löschung bereite einen rechtlich begrenzten Sicherungsvorschlag vor. Trenne Sicherung und Auswertung und prüfe Rechtsgrundlage, Verhältnismäßigkeit, Beteiligungsrechte und Zugriffskreis. Kein automatischer Löschstopp und keine vollständige Kopie aller Konten.
+3. Formuliere überprüfbare Tatsachenfragen und suche auch entlastende Belege. Fehlt etwa eine Zahlungsfreigabe oder die Herkunft einer Datei, fordere genau den entsprechenden Nachweis an. Behauptung, Suchtreffer und Interviewaussage sind nach ihrer tatsächlichen Aussagekraft zu beurteilen.
+4. Gleiche neue Angaben mit der bisherigen Beweislage ab. Überarbeite die betroffene Feststellung und schreibe das bestellte Dokument weiter. Ergibt sich ein neuer entscheidender Widerspruch, frage gezielt nach, ohne bereits beantwortete Punkte zu wiederholen.
+5. Bleibt eine zulässige Erhebung oder ein Beleg aus, liefere die unabhängig bearbeitbaren Teile vorläufig und benenne den konkret benötigten nächsten Beitrag. Nach Klärung setze bis zur Endfassung fort.
 
-## Ziel
+## 1.4 Fachliche Grenzen und Quellen
 
-Erzwinge eine prüfbare Arbeitsspur: Sachverhalt, Norm, Tatbestandsmerkmal, Subsumtion, Gegenargument, Beleg und Ergebnis werden getrennt.
+Prüfe Organpflichten, Arbeitsrecht, Datenschutz und Hinweisgeberschutz nach der konkreten Maßnahme. Insbesondere Paragraf 26 BDSG ist bei Beschäftigtendaten nicht als pauschale Untersuchungserlaubnis zu behandeln. Interne Mitwirkungspflichten, Selbstbelastungsrisiken und strafprozessuale Rechte sind gesondert zu beurteilen.
+
+Schweigen im Interview ist kein Schuldeingeständnis. Verändere keine Originalbelege und rekonstruiere keine fehlenden Aussagen. Ein anwaltlicher Auftrag garantiert keinen Beschlagnahmeschutz; Mandat, Gewahrsam und Verfahren müssen geprüft werden.
+
+Verifiziere tragende Normen amtlich. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und überprüfbarem Aussagegehalt; keine unverifizierten Literatur- oder Datenbankzitate. Zitierhinweise in `references/zitierweise.md` sind optional nutzbar.
+
+## 1.5 Ausgabe
+
+Liefere das bestellte Dokument vollständig ausformuliert. Ein Bericht trennt Feststellungen, entlastende Umstände und Unsicherheit; ein Interviewleitfaden enthält konkrete, ergebnisoffene Fragen. Interne Quellen- und Zugriffsvermerke stehen getrennt vom Empfängerbrief.
+
+Nutzerdateinamen gehen vor; ohne Vorgabe kann `ergebnis.md` verwendet werden. Formatierte Dokumente nutzen soweit möglich Times New Roman 11 Punkt und dezimale Gliederung. Datenerhebung, Befragung, Kündigung, Anzeige und Weitergabe benötigen ausdrückliche Freigabe.
+
+## 1.6 Beispiel
+
+Ein Hinweis behauptet eine unzulässige Beraterzahlung, Rechnung und Vertrag liegen vor. Prüfe Leistung, Zahlungsfluss und Freigabe und fordere nur die fehlenden entscheidenden Belege an. Nach Eingang aktualisiere die Feststellung und vervollständige den beauftragten Bericht, ohne den Vorwurf vorweg als erwiesen darzustellen.
+
+Ohne zugängliche Datei oder Quelle benenne die konkrete Prüfgrenze und bearbeite unabhängige Teile. Ohne Export liefere Text; weitere Skills sind keine Voraussetzung.
+
+---
+
+## Skill: `mitarbeiterinterview-arbeitsrecht`
+
+_Für Mitarbeiterinterviews: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Internal Investigations Praxis. Route: mitarbeiterinterview-arbeitsrecht._
+
+# Mitarbeiterinterviews
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; StPO §§ 53, 97, 102, 110, 136, 137, 152, 153a, BGB §§ 280, 626, BRAO § 43a, GwG, AntiDopG, HinSchG; StPO; HinSchG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Rechtlicher Rahmen
+
+Mitarbeiterinterviews bewegen sich zwischen arbeitsvertraglicher Auskunfts- und Rücksichtnahmepflicht, Persönlichkeitsrecht, Beschäftigtendatenschutz und möglicher Selbstbelastung. Eine private Befragung durch den Arbeitgeber ist keine Beschuldigtenvernehmung nach den Paragrafen 136 und 163a StPO; strafprozessuale Belehrungspflichten dürfen daher nicht ungeprüft „analog“ behauptet werden. Vor dem Interview sind Rolle, Freiwilligkeit oder konkrete arbeitsvertragliche Mitwirkungspflicht, persönlicher Rechtsbeistand, Vertraulichkeit, Protokollierung und mögliche Weitergabe an Behörden transparent zu klären.
+
+## Ziel dieses Skills
+
+Strukturiert die Vorbereitung, Durchführung und Nachbereitung von Mitarbeiterinterviews so, dass Aussagen verwertbar sind, Fehler bei der Belehrung keine Verfahrenshindernisse schaffen und der Interviewte weiß, in welcher Rolle er spricht.
 
 ## Arbeitsprogramm
 
-- Anlass, Mandant, Auftraggeber und mögliche Betroffene klären.
-- Untersuchungsziel eng formulieren.
-- Sofort Legal Hold, Datenfreeze und Kommunikationsdisziplin setzen.
+### 1. Rollendefinition vor dem Interview
+- Ist der Interviewte **Zeuge**, **Betroffener** oder **Beschuldigter**?
+- Unterschied: Zeuge hat Mitwirkungspflicht aus dem Arbeitsvertrag; Beschuldigter kann die Aussage verweigern (nemo tenetur se ipsum accusare).
+- Rollenwechsel während des Interviews dokumentieren und Interview ggf. unterbrechen.
 
-## Ausgabe
+### 2. Belehrung des Mitarbeiters
+- **Zeugen**: Hinweis auf arbeitsrechtliche Mitwirkungspflicht, kein allgemeines Schweigerecht, aber Zeugnisverweigerungsrecht bei selbstbelastenden Aussagen (analog § 55 StPO, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__55.html)).
+- **Betroffene/Beschuldigte**: Belehrung über Schweigerecht, Recht auf Hinzuziehung eines eigenen Anwalts (§ 136 StPO analog), Hinweis auf mögliche strafrechtliche Relevanz.
+- **Upjohn-Warnung** (US-Praxis): Klarstellen, dass der ermittelnde Anwalt das Unternehmen, nicht den Mitarbeiter, vertritt; der Mitarbeiter sollte einen eigenen Anwalt hinzuziehen.
+- Belehrungstext schriftlich festhalten und von Interviewtem unterzeichnen lassen.
 
-Erzeuge Untersuchungsplan, Interviewleitfaden, Risikoampel, Board Memo oder Verteidigungsdossier. Nenne Rechtsprechung nur, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle live vorliegen; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+### 3. Betriebsratsbeteiligung
+- § 82 Abs. 2 BetrVG: Arbeitnehmer kann Betriebsratsmitglied als Beistand hinzuziehen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__82.html)).
+- § 87 Abs. 1 Nr. 1 BetrVG: Mitbestimmung bei Ordnungsmaßnahmen; gilt das Interview als Vorstufe zu einer Abmahnung oder Kündigung?
+- Betriebsrat darf nicht zum Kronzeugen gegen eigene Mitglieder gemacht werden.
+
+### 4. Interviewvorbereitung
+- Faktenanalyse: Welche Dokumente, E-Mails, Transaktionen wurden bereits forensisch gesichert?
+- Hypothesenkatalog: Welche Versionen des Sachverhalts sind möglich?
+- Fragenkatalog: offen → geschlossen → konfrontativ (sog. PEACE-Methode oder Reid-Kritik beachten).
+- Keine Vorhaltungen ohne Dokumentengrundlage – jede Konfrontation muss belegbar sein.
+
+### 5. Durchführung
+- Zwei Interviewer (Fragender + Protokollant), kein Einzelinterview.
+- Keine Tonaufnahme ohne informierte Einwilligung (§ 201 StGB, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__201.html)); schriftliches Protokoll ist Standard.
+- Zeitstempel, Ort, Anwesende, Rollendefinition im Protokoll festhalten.
+- Pausen dokumentieren; Druckausübung oder Täuschung vermeiden (Verwertungsverbot!).
+
+### 6. Protokoll und Freigabe
+- Zusammenfassung vs. wörtliches Protokoll: Letzteres für Schlüsselpersonen empfohlen.
+- Interviewter erhält Gelegenheit zur Korrektur (Gegendarstellung); keine Pflicht zur Unterschrift.
+- Privilegiertes Dokument: Protokoll unter Anwaltsgeheimnis halten.
+- DSGVO: Interviewprotokoll ist personenbezogenes Datum; Zugangsbeschränkung und Löschplan festlegen.
+
+### 7. Verwertbarkeit und Beweisverwertungsverbote
+- Aussage unter Drohung (Kündigung) erzwungen → Beweisverwertungsverbot in Strafverfahren (BGH-Grundsatz; vgl. BGH, Urt. v. 3.5.2018 – 3 StR 390/17, [bgh.de](https://www.bgh.de/)).
+- Keine unmittelbare Weitergabe von Interviewprotokollen an Staatsanwaltschaft ohne Prüfung der eigenen Interessen.
+- § 161a StPO: Zeugenpflicht gegenüber Staatsanwaltschaft; Arbeitgeber kann Mitarbeiter nicht anweisen, gegenüber Staatsanwalt zu schweigen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__161a.html)).
+
+## Normenregister
+
+| Norm | Inhalt | Quelle |
+|---|---|---|
+| § 136 StPO | Belehrung Beschuldigter | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__136.html) |
+| § 55 StPO | Auskunftsverweigerungsrecht | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__55.html) |
+| § 161a StPO | Zeugenpflicht gegenüber StA | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__161a.html) |
+| § 82 BetrVG | Recht auf Betriebsratsbeistand | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__82.html) |
+| § 201 StGB | Verletzung der Vertraulichkeit | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__201.html) |
+| § 26 BDSG | Beschäftigtendatenschutz | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/bdsg_2018/__26.html) |
+
+## Ausgabeformate
+
+- **Belehrungsvorlage** (Zeuge / Betroffener / Beschuldigter)
+- **Interviewleitfaden** mit Fragenkatalog (offen → konfrontativ)
+- **Protokollvorlage** (Zeitstempel, Anwesende, Rollenklarstellung)
+- **Upjohn-Warnung** (Mustertext Englisch/Deutsch)
+- **Beweisverwertungsanalyse** für vorliegende Protokolle
+
+Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
 
 ---
 
 ## Skill: `inv-001-auftrag-scope`
 
-_Wenn es um Untersuchungsauftrag und Scope in Internal Investigations Praxis geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. Auswahlstichwort: Inv 001 Auftrag Scope; Arbeitsfeld: Internal Investigations Praxis._
+_Für Untersuchungsauftrag und Scope: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Internal Investigations Praxis. Route: inv-001-auftrag-scope._
 
 # Untersuchungsauftrag und Scope
 
@@ -93,22 +304,22 @@ Erzeuge Untersuchungsplan, Interviewleitfaden, Risikoampel, Board Memo oder Vert
 
 ---
 
-## Skill: `allgemein`
+## Skill: `inv-004-mitarbeiterinterview`
 
-_Wenn es um Kaltstart Internal Investigation in Internal Investigations Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Allgemein; Arbeitsfeld: Internal Investigations Praxis._
+_Für Mitarbeiterinterviews: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Internal Investigations Praxis. Route: inv-004-mitarbeiterinterview._
 
-# Kaltstart Internal Investigation
+# Mitarbeiterinterviews
 
 
 ## Ziel
 
-Dieser Skill führt nicht schematisch durch Kaltstart Internal Investigation, sondern zwingt zu einer prüfbaren Arbeitsspur: Sachverhalt, Norm, Tatbestandsmerkmal, Subsumtion, Gegenargument, Beleg und Ergebnis werden getrennt.
+Dieser Skill führt nicht schematisch durch Mitarbeiterinterviews, sondern zwingt zu einer prüfbaren Arbeitsspur: Sachverhalt, Norm, Tatbestandsmerkmal, Subsumtion, Gegenargument, Beleg und Ergebnis werden getrennt.
 
 ## Arbeitsprogramm
 
-- Anlass, Mandant, Auftraggeber und mögliche Betroffene klären.
-- Untersuchungsziel eng formulieren.
-- Sofort Legal Hold, Datenfreeze und Kommunikationsdisziplin setzen.
+- Interviewzweck und Fragerecht bestimmen.
+- Hinweise zu Verwendung, Vertraulichkeit und Grenzen geben.
+- Protokollstil risikoangemessen wählen.
 
 ## Red-Team-Fragen
 
@@ -122,11 +333,19 @@ Dieser Skill führt nicht schematisch durch Kaltstart Internal Investigation, so
 
 Erzeuge Untersuchungsplan, Interviewleitfaden, Risikoampel, Board Memo oder Verteidigungsdossier. Nenne Rechtsprechung nur, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle live vorliegen; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ---
 
 ## Skill: `auftrag-scope`
 
-_Wenn es um Untersuchungsauftrag und Scope in Internal Investigations Praxis geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. Auswahlstichwort: Auftrag Scope; Arbeitsfeld: Internal Investigations Praxis._
+_Für Untersuchungsauftrag und Scope: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Internal Investigations Praxis. Route: auftrag-scope._
 
 # Untersuchungsauftrag und Scope
 
@@ -140,7 +359,7 @@ _Wenn es um Untersuchungsauftrag und Scope in Internal Investigations Praxis geh
 
 ## Rechtlicher Rahmen
 
-Der Untersuchungsauftrag legt die normative Grundlage jeder Internal Investigation fest. Ohne präzise Scope-Definition drohen Beweismittelüberschuss, Privilegverlust und Verwertungsprobleme. Die Pflicht des Vorstands zur Einleitung einer Untersuchung folgt aus § 93 Abs. 1 AktG (Business Judgment Rule) in Verbindung mit der BGH-Linie „Siemens/Neubürger" (BGH, Urt. v. 10.7.2012 – II ZR 234/09; [openjur](https://openjur.de/o/577696.html)), wonach der Vorstand ein Compliance-Management-System einzurichten hat, das Verstöße verhindert und aufklärt. Bei Verstößen durch Leitungspersonen greift § 130 OWiG (Aufsichtspflichtverletzung) gegenüber der Gesellschaft, Sanktion nach § 30 OWiG (Verbandsgeldbuße bis 10 Mio. EUR, zuzüglich Abschöpfung nach § 17 Abs. 4 OWiG); vgl. [gesetze-im-internet.de/owig/__130.html](https://www.gesetze-im-internet.de/owig/__130.html) und [gesetze-im-internet.de/owig/__30.html](https://www.gesetze-im-internet.de/owig/__30.html).
+Der Untersuchungsauftrag legt Ziel, Gegenstand und Grenzen der Untersuchung fest. Ohne präzise Scope-Definition drohen unverhältnismäßige Datenerhebung, Verlust geschützter Vertraulichkeit und unklare Verwertbarkeit. Eine mögliche Organpflicht zur Aufklärung ist fallbezogen aus Paragraf 93 Absatz 1 AktG, bei Aufsichtsratszuständigkeit aus den Paragrafen 107 und 111 AktG sowie aus konkreten Verdachtsmomenten und dem Unternehmensinteresse herzuleiten. Die Paragrafen 30 und 130 OWiG betreffen Verbandsgeldbuße und Aufsichtspflichtverletzung, ersetzen aber nicht die Prüfung von Zuständigkeit, Erforderlichkeit und Verhältnismäßigkeit der einzelnen Maßnahme.
 
 ## Ziel dieses Skills
 
@@ -192,7 +411,6 @@ Dieser Skill erzwingt eine prüfbare Arbeitsspur: Sachverhalt → Norm → Tatbe
 | § 30 OWiG | Verbandsgeldbuße | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/owig/__30.html) |
 | § 26 BDSG | Beschäftigtendatenschutz | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/bdsg_2018/__26.html) |
 | HinSchG | Hinweisgeberschutz 2023 | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hinschg/) |
-| BGH II ZR 234/09 | Siemens/Neubürger | [openjur.de](https://openjur.de/o/577696.html) |
 
 ## Ausgabeformate
 
@@ -220,36 +438,13 @@ Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Q
 - Parallelverfahren: wenn zeitgleich strafrechtliche oder aufsichtsrechtliche Verfahren laufen, muss der Untersuchungsauftrag diese berücksichtigen und Informationsflüsse kontrollieren.
 - Scope-Creep-Protokoll: jede Erweiterung des Scope wird schriftlich vom Auftraggeber freigegeben und dokumentiert.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 93 AktG
-- § 26 BDSG
-- § 130 OWiG
-- § 102 BetrVG
-- § 87 BetrVG
-- § 203 StGB
-- § 266 StGB
-- Art. 33 DSGVO
-- § 30 OWiG
-- § 80 BetrVG
-- § 84 AktG
-- § 107 AktG
-
-### Leitentscheidungen
-
-- BGH II ZR 234/09
-- EuGH C-550/07
-- EuGH C-311/18
-
 ---
 
-## Skill: `geschaeftsgeheimnisse-stpo`
+## Skill: `document-cost`
 
-_Wenn es um Schutz von Geschäftsgeheimnissen in Internal Investigations in Internal Investigations Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Dokumentenaufbewahrung und -vernichtung nach Internal Investigations: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Schutz von Geschäftsgeheimnissen in Internal Investigations
+# Dokumentenaufbewahrung und -vernichtung nach Internal Investigations
 
 ## Arbeitsweg
 
@@ -261,77 +456,86 @@ _Wenn es um Schutz von Geschäftsgeheimnissen in Internal Investigations in Inte
 
 ## Rechtlicher Rahmen
 
-Untersuchungsberichte, Interviewprotokolle und forensische Analyseergebnisse können Geschäftsgeheimnisse des Unternehmens sein und genießen Schutz nach dem Gesetz zum Schutz von Geschäftsgeheimnissen (GeschGehG, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/geschgehg/)), das die EU-Richtlinie 2016/943 ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L0943)) umsetzt. Der strafrechtliche Schutz ergibt sich aus §§ 203, 204 StGB sowie aus § 23 GeschGehG. Gleichzeitig können Mitarbeiter, die im Rahmen einer Untersuchung rechtswidrig erlangte Geheimnisse weitergeben, sich nach § 4 GeschGehG haftbar machen, es sei denn, sie sind durch das HinSchG oder § 5 GeschGehG geschützt.
+Dokumentenaufbewahrung unterliegt einem komplexen Spannungsfeld: Handelsrechtliche Aufbewahrungspflichten (§ 257 HGB: 10 Jahre für Buchführung, 6 Jahre für Handelsbriefe, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__257.html)) und steuerrechtliche Pflichten (§ 147 AO) stehen im Konflikt mit dem DSGVO-Löschungsgebot (Art. 17 DSGVO). Im Rahmen einer Internal Investigation wird dieser Konflikt durch den Legal Hold verschärft: Dokumente müssen trotz DSGVO-Löschpflicht aufbewahrt werden, bis die Untersuchung abgeschlossen ist.
 
 ## Ziel dieses Skills
 
-Kläre, welche Untersuchungsergebnisse als Geschäftsgeheimnisse zu qualifizieren sind, welche Schutzmaßnahmen erforderlich sind und wo der Schutz an Grenzen stößt – insbesondere wenn Whistleblower oder Behörden involviert sind.
+Dieser Skill definiert für alle relevanten Dokumentenkategorien klare Aufbewahrungs- und Löschregeln, die sowohl handelsrechtliche Pflichten als auch DSGVO-Anforderungen erfüllen.
 
 ## Arbeitsprogramm
 
-### 1. Definition Geschäftsgeheimnis nach GeschGehG
-- § 2 Nr. 1 GeschGehG: Information muss (a) geheim sein, (b) wirtschaftlichen Wert haben und (c) durch angemessene Geheimhaltungsmaßnahmen geschützt sein.
-- Praxistest: Ist der Untersuchungsbericht als „Confidential – Attorney-Client Privilege" gekennzeichnet? Sind Zugriffsrechte beschränkt? Gibt es NDAs für externe Berater?
-- Keine Schutzfähigkeit ohne Schutzmaßnahmen – passive Geheimhaltung reicht nicht.
+### 1. Aufbewahrungspflichten-Übersicht
+| Dokumentenart | Frist | Norm |
+|---|---|---|
+| Buchführungsunterlagen, Jahresabschlüsse | 10 Jahre | § 257 Abs. 4 HGB |
+| Handelsbriefe (inkl. E-Mail) | 6 Jahre | § 257 Abs. 4 HGB |
+| Steuerunterlagen | 10 Jahre | § 147 AO |
+| Lohnunterlagen | 6–10 Jahre | § 147 AO |
+| Personalakten (nach Austritt) | 3–5 Jahre | § 195 BGB |
+| Verträge | 10 Jahre nach Vertragsende | § 195 BGB |
 
-### 2. Schutzmaßnahmen für Untersuchungsunterlagen
-- Wasserzeichen und Versionskontrolle auf allen Berichten.
-- Zugriffsbeschränkung: nur Need-to-know-Verteiler; technische Zugangsbeschränkung (DRM, Passwortschutz).
-- NDAs für alle externen Berater, Forensiker, Wirtschaftsprüfer (§ 5 Nr. 2 GeschGehG: Offenbarung im Rahmen einer beruflichen Schweigepflicht ggf. erlaubt).
-- Physische Sicherung: ausgedruckte Berichte in Tresor; keine Ablage auf ungesicherten Netzlaufwerken.
+### 2. Legal Hold – Vorrang vor Löschpflicht
+- Art. 17 Abs. 3 lit. e DSGVO: Löschungsrecht entfällt, wenn Verarbeitung zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist.
+- Automatische Löschroutinen für Legal-Hold-Dokumente deaktivieren.
+- Legal-Hold-Register führen: welche Dokumente stehen unter Hold, seit wann, weshalb?
+- Aufhebung des Legal Hold: nach Abschluss aller Verfahren (Untersuchung, Behördenverfahren, Gerichtsverfahren).
 
-### 3. Offenbarung gegenüber Behörden
-- Selbst-Reporting an BaFin, Staatsanwaltschaft, DOJ: Offenbarung von Geschäftsgeheimnissen an Behörden ist nach § 5 Nr. 2 GeschGehG zulässig, wenn dies zur Aufdeckung einer rechtswidrigen Handlung erforderlich ist.
-- Vorbereitung: Vor Herausgabe klären, welche Teile des Berichts Geschäftsgeheimnisse enthalten, und Schutzantrag (In-camera-Verfahren) stellen.
-- Drittstaatliche Behörden (DOJ, SEC): Herausgabe bedarf DSGVO-Rechtsgrundlage und ist mit Unternehmensinteressen abzuwägen.
+### 3. Untersuchungsspezifische Aufbewahrung
+- Interviewprotokolle: solange verfahrensrelevant; danach DSGVO-konforme Löschung.
+- Forensic Images: bis zur Beendigung aller Verfahren; danach sicheres Löschen (NIST SP 800-88).
+- Untersuchungsbericht (Vollbericht): strategische Entscheidung; kann dauerhaft archiviert werden, wenn er keine personenbezogenen Daten enthält; Pseudonymisierung möglich.
+- Korrespondenz mit Behörden: 10 Jahre nach Abschluss des Verfahrens.
 
-### 4. Whistleblower-Schutz und GeschGehG-Grenze
-- § 5 Nr. 2 GeschGehG: Kein Geheimnisschutz, wenn Offenbarung zur Aufdeckung rechtswidrigen Verhaltens dient (Whistleblower-Ausnahme).
-- HinSchG 2023 ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/hinschg/)): Hinweisgeber sind vor Repressalien geschützt, wenn sie in gutem Glauben berichten.
-- EU-Richtlinie 2019/1937 ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L1937)): Schutz auch bei Weitergabe von Geschäftsgeheimnissen, wenn Whistleblower zur Aufdeckung eines Verstoßes handelt.
-- BGH-Rechtsprechung zum Whistleblower-Schutz: BGH, Urt. v. 3.7.2003 – I ZR 4/01 (zu § 17 UWG a. F.): Arbeitnehmer, der Straftaten anzeigt, handelt nicht pflichtwidrig.
+### 4. DSGVO-konforme Löschung
+- Art. 17 DSGVO: Recht auf Löschung muss nach Wegfall des Legal Hold beachtet werden.
+- Technisches Löschen: sichere Überschreibung oder Zerstörung von Datenträgern (NIST SP 800-88).
+- Löschprotokoll: Dokumentation, was wann wie gelöscht wurde.
+- Backups: Löschung muss sich auch auf Backup-Systeme erstrecken (Art. 5 Abs. 1 lit. c DSGVO).
 
-### 5. Kriminelle Nutzung von Untersuchungsergebnissen
-- Konkurrent, der durch Social Engineering oder Datenleck an Untersuchungsbericht gelangt: § 23 GeschGehG (strafrechtlicher Schutz).
-- Insiderhandel: wenn Untersuchungsergebnis kursrelevante Information enthält und unkontrolliert bekannt wird → § 119 WpHG i. V. m. MAR Art. 14 ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32014R0596)).
+### 5. Aufbewahrung für US-Discovery
+- Dokumente unter US-Litigation-Hold: bis zum Abschluss des US-Verfahrens.
+- Spoliation-Risiko: vorzeitige Vernichtung kann Sanktionen auslösen (FRCP 37(e)).
+- Koordination zwischen deutschem Handelsrecht (Aufbewahrungspflicht) und DSGVO-Löschpflicht und US-Litigation-Hold.
 
-### 6. § 203 StGB und externe Berater
-- Anwälte, Steuerberater, Ärzte: berufliche Schweigepflicht schützt auch in Untersuchungen erhaltene Informationen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__203.html)).
-- IT-Forensiker ohne Berufsgeheimnis: brauchen NDA und vertragliche Geheimhaltungspflicht.
-- Strafbarkeit nach § 203 StGB bei unbefugter Offenbarung; Strafantrag durch das Unternehmen möglich.
+### 6. Aufbewahrung in der Praxis
+- Dokumentenmanagement-System: automatische Fristen und Erinnerungen.
+- Records-Management-Policy: welche Dokumente werden wie lange aufbewahrt?
+- Jährliche Aufbewahrungs-Reviews: abgelaufene Dokumente identifizieren und vernichten.
+- Ausnahmen dokumentieren: warum wird ein Dokument über die Standardfrist hinaus aufbewahrt?
 
-### 7. Datenräume und sichere Bereitstellung
-- Aufbau eines Secure Data Room für Berater, Behörden, US-Counsel (vgl. inv-022-data-room-for-counsel).
-- Technische Sicherheit: End-to-end-Verschlüsselung, keine Downloadmöglichkeit, Wasserzeichen.
-- Protokollierung jedes Zugriffs für spätere Nachweisführung.
+### 7. Vernichtungsstrategie nach Untersuchungsabschluss
+- Nach Aufhebung des Legal Hold: Überprüfung jedes Dokuments auf verbleibende Aufbewahrungspflichten.
+- Priorisierung: personenbezogene Daten zuerst löschen (DSGVO-Sensibilität).
+- Keine selektive Vernichtung: alle Kopien (lokal, Cloud, Backup) müssen erfasst sein.
+- Zeuge der Vernichtung: Protokollierung der sicheren Löschung durch IT-Abteilung.
 
 ## Normenregister
 
 | Norm | Inhalt | Quelle |
 |---|---|---|
-| GeschGehG | Geschäftsgeheimnisschutz | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/geschgehg/) |
-| § 203 StGB | Verletzung von Privatgeheimnissen | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__203.html) |
-| § 23 GeschGehG | Strafbarkeit Geheimnisverrat | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/geschgehg/__23.html) |
-| HinSchG § 5 | Schutz des Hinweisgebers | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hinschg/) |
-| EU-RL 2016/943 | Geschäftsgeheimnisrichtlinie | [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L0943) |
+| § 257 HGB | Aufbewahrungspflichten | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__257.html) |
+| § 147 AO | Steuerrechtliche Aufbewahrung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/ao_1977/__147.html) |
+| Art. 17 DSGVO | Recht auf Löschung | [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679) |
+| Art. 5 DSGVO | Datensparsamkeit | [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679) |
+| FRCP Rule 37(e) | Spoliation Sanctions | US Federal Courts |
 
 ## Ausgabeformate
 
-- **Geschäftsgeheimnis-Schutzkonzept** für Untersuchungsunterlagen
-- **NDA-Vorlage** für externe Berater und Forensiker
-- **Geheimhaltungs-Checkliste** (GeschGehG § 2 Nr. 1)
-- **Whistleblower-Risikoanalyse** (§ 5 GeschGehG vs. HinSchG)
-- **Secure-Data-Room-Anforderungsliste**
+- **Aufbewahrungsfristen-Matrix** (Dokumententyp × Norm × Frist)
+- **Legal-Hold-Register-Vorlage**
+- **Löschprotokoll-Vorlage**
+- **Records-Management-Policy-Template**
+- **Aufbewahrungskonzept** für Untersuchungsunterlagen
 
 Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
 
 ---
 
-## Skill: `betriebsrat-datenschutz`
+## Skill: `sexual-bribery`
 
-_Wenn es um Betriebsrat und Mitbestimmung in Internal Investigations in Internal Investigations Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Sexuelle Belästigung am Arbeitsplatz – Untersuchung und Maßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Betriebsrat und Mitbestimmung in Internal Investigations
+# Sexuelle Belästigung am Arbeitsplatz – Untersuchung und Maßnahmen
 
 ## Arbeitsweg
 
@@ -343,290 +547,83 @@ _Wenn es um Betriebsrat und Mitbestimmung in Internal Investigations in Internal
 
 ## Rechtlicher Rahmen
 
-Der Betriebsrat ist in Internal Investigations ein zentraler Akteur, dessen Rechte zwingend zu beachten sind. Missachtung von Mitbestimmungsrechten führt zur Unverwertbarkeit von Beweismitteln in Arbeitsgerichtsverfahren und kann das gesamte Untersuchungsergebnis delegitimieren. Die einschlägigen Normen sind §§ 80, 87, 99, 102 BetrVG ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/)). Gleichzeitig hat der Betriebsrat eine Verschwiegenheitspflicht nach § 79 BetrVG, die in Untersuchungen relevant ist, wenn er sensible Informationen über Betroffene erhält.
+Sexuelle Belästigung am Arbeitsplatz ist nach § 3 Abs. 4 AGG (Allgemeines Gleichbehandlungsgesetz, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__3.html)) verboten und begründet Schutzpflichten des Arbeitgebers nach § 12 AGG. Bei Untätigkeit haftet der Arbeitgeber für Entschädigungsansprüche (§ 15 AGG) und kann sich im strafrechtlichen Rahmen nach § 184i StGB (sexuelle Belästigung, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__184i.html)) strafbar machen, wenn er Übergriffe duldet oder fördert. Die Besonderheit dieser Untersuchungen liegt im Opferschutz, der mit dem Aufklärungsinteresse in Einklang gebracht werden muss.
 
 ## Ziel dieses Skills
 
-Dieser Skill stellt sicher, dass der Betriebsrat rechtzeitig, vollständig und in rechtlich gebotener Form einbezogen wird, ohne dass die Untersuchung durch überschießende Mitbestimmungsrechte faktisch blockiert wird.
+Dieser Skill stellt sicher, dass Untersuchungen bei sexueller Belästigung opfergerecht, rechtskonform und ergebnisoffen geführt werden und die richtigen arbeitsrechtlichen Maßnahmen folgen.
 
 ## Arbeitsprogramm
 
-### 1. Allgemeines Überwachungsrecht (§ 80 BetrVG)
-- § 80 Abs. 1 BetrVG: Der Betriebsrat hat das Recht, darüber zu wachen, dass zugunsten der Arbeitnehmer geltende Gesetze, Tarifverträge und Betriebsvereinbarungen durchgeführt werden ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__80.html)).
-- Folge: Betriebsrat hat ein allgemeines Auskunftsrecht über laufende Untersuchungen, nicht aber ein Einsichtsrecht in privilegierte Anwaltsdokumente.
-- Grenze: § 80 Abs. 2 BetrVG erfordert ausreichende Unterrichtung, aber keine Offenlegung von Berufsgeheimnissen oder personenbezogenen Daten unbeteiligter Dritter.
+### 1. Sofortmaßnahmen bei Eingang einer Beschwerde
+- Beschwerde aufnehmen: Beschwerdekanal nach § 13 AGG sicherstellen; jede Beschwerde muss ernst genommen werden.
+- Opferschutz: Betroffene vor weiterem Kontakt mit dem Täter schützen (Versetzung, Freistellung des Täters).
+- Vertraulichkeit: Identität der betroffenen Person schützen; keine Information an potenzielle Täter ohne Notwendigkeit.
+- Zeitplan: § 12 Abs. 3 AGG verlangt sofortiges Einschreiten; Untätigkeit begründet Schadensersatz.
 
-### 2. Mitbestimmung bei technischer Überwachung (§ 87 Abs. 1 Nr. 6 BetrVG)
-- Technische Einrichtungen, die das Verhalten oder die Leistung von Arbeitnehmern überwachen, bedürfen der Zustimmung des Betriebsrats ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__87.html)).
-- Anwendungsfälle: E-Mail-Auswertung, Keylogger, GPS-Tracking, Videoüberwachung, Chat-Monitoring.
-- Keine Mitbestimmung bei anlassbezogener forensischer Auswertung bereits existierender Daten, wenn kein fortlaufendes Überwachungssystem eingerichtet wird (BAG, Beschl. v. 26.8.2008 – 1 ABR 16/07).
-- Betriebsvereinbarung als Erlaubnisgrundlage und Schranke (§ 26 Abs. 1 S. 2 BDSG, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/bdsg_2018/__26.html)).
+### 2. Untersuchungsplanung
+- Unabhängige Ermittler: keine hierarchische Verbindung zu Täter oder Opfer.
+- Gendersensibles Vorgehen: ggf. Interviewerin für Befragung der betroffenen Person.
+- Scope: Zeitraum, Orte, weitere potenzielle Betroffene oder Zeugen.
+- Betriebsrat informieren: Mitbestimmung bei Ordnungsmaßnahmen (§ 87 Abs. 1 Nr. 1 BetrVG).
 
-### 3. Mitbestimmung bei Ordnungsmaßnahmen (§ 87 Abs. 1 Nr. 1 BetrVG)
-- Verhaltensregeln, die Ordnung oder Verhalten im Betrieb betreffen, unterliegen der Mitbestimmung.
-- Interviewobliegenheiten (z. B. Pflicht zur Teilnahme an Befragungen) können als Ordnungsmaßnahme qualifizieren.
-- Mitbestimmungspflicht gilt nicht für Maßnahmen des konkreten Einzelfalls bei konkretem Verdacht.
+### 3. Beweiserhebung
+- **Aussage der betroffenen Person**: Trauma-informiert befragen; keine Wiederholung traumatischer Details ohne Notwendigkeit; Protokoll mit Einverständnis.
+- **Aussage des beschuldigten Täters**: Belehrung über Schweigerecht bei strafrechtlicher Relevanz; keine Konfrontation ohne Vorlage konkreter Tatsachen.
+- **Zeugen**: zeitlich nah befragt; Erinnerungsfehler und soziale Beeinflussung berücksichtigen.
+- **Digitale Beweise**: Nachrichten, E-Mails, Chat-Logs (§ 26 BDSG beachten).
+- **Strukturelle Beweise**: Organigramm, Hierarchie, frühere Beschwerden gegen dieselbe Person.
 
-### 4. Anhörung vor Kündigung (§ 102 BetrVG)
-- Jede ordentliche und außerordentliche Kündigung ist vorher dem Betriebsrat mitzuteilen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__102.html)).
-- Kündigung ohne ordnungsgemäße Anhörung ist unwirksam (§ 102 Abs. 1 S. 3 BetrVG).
-- Inhalt der Mitteilung: alle für die Kündigungsentscheidung maßgeblichen Umstände – nicht mehr, nicht weniger.
-- Problematik: Kann der Betriebsrat aus der Anhörungsmitteilung Rückschlüsse auf noch laufende Untersuchungsmaßnahmen ziehen?
+### 4. Beweiswürdigung
+- Keine Anforderung an Beweisstandard über AGG-Maßstab hinaus: § 22 AGG – Indizwirkung bei Glaubhaftmachung.
+- Glaubwürdigkeit der Aussagen bewerten: Konsistenz, Detailreichtum, Fehler ohne Eigennutz (DRV-Kriterien).
+- Gegenaussage des Täters: pauschalem Bestreiten kein gleiches Gewicht wie konkreter Aussage mit Details.
+- Strukturmuster: gibt es mehrere frühere Beschwerden gegen dieselbe Person?
 
-### 5. Zustimmung bei Versetzung und Eingruppierung (§§ 99, 100 BetrVG)
-- Versetzung eines verdächtigen Mitarbeiters zur Beweissicherung: § 99 BetrVG-Zustimmung erforderlich ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__99.html)).
-- Vorläufige Maßnahmen nach § 100 BetrVG möglich, wenn dringende betriebliche Erfordernisse vorliegen.
+### 5. Arbeitsrechtliche Konsequenzen
+- Abmahnung: bei einmaliger, weniger schwerer Belästigung.
+- Außerordentliche Kündigung: bei schwerer sexueller Belästigung (§ 626 BGB); BAG hat mehrfach Kündigung bestätigt.
+- Betriebsratsanhörung (§ 102 BetrVG): auch hier zwingend.
+- Hausverbote, Versetzung, Beförderungsstopp als mildere Mittel.
 
-### 6. Verschwiegenheitspflicht des Betriebsrats (§ 79 BetrVG)
-- Betriebsratsmitglieder sind zur Verschwiegenheit über Betriebs- und Geschäftsgeheimnisse verpflichtet ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__79.html)).
-- Personenbezogene Daten von Betroffenen: Betriebsrat darf diese nicht an Dritte weitergeben.
-- Verletzung kann zur Amtsenthebung und Strafbarkeit nach § 203 StGB führen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__203.html)).
+### 6. Schutzmaßnahmen nach § 12 AGG
+- Arbeitgeber muss geeignete Maßnahmen ergreifen, um die Belästigung zu unterbinden und künftige Vorfälle zu verhindern.
+- Schulung, Sensibilisierung, klare Richtlinien (Code of Conduct).
+- Beschwerdestelle (§ 13 AGG): Mitarbeiter müssen informiert sein, wo sie sich beschweren können.
+- Psychologische Unterstützung für Betroffene anbieten (Employee Assistance Program).
 
-### 7. Betriebsrat als Konfliktpartei
-- Was tun, wenn der Betriebsrat selbst in den Untersuchungsgegenstand involviert ist (z. B. Betriebsratsmitglied als Beschuldigter)?
-- Sonderregelung § 103 BetrVG: Außerordentliche Kündigung von Betriebsratsmitglied bedarf Zustimmung des Betriebsrats oder Ersetzung durch Arbeitsgericht ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__103.html)).
-- Befangenheit des Betriebsrats bei Interessenkollision: Mitglied muss sich für betreffende Beschlüsse enthalten.
-
-## Red-Team-Fragen
-
-- Wurde der Betriebsrat über die Untersuchung informiert, bevor technische Überwachungsmaßnahmen ergriffen wurden?
-- Liegt für alle eingesetzten Überwachungstools eine Betriebsvereinbarung oder eine ad-hoc-Zustimmung des Betriebsrats vor?
-- Wurde die Betriebsratsanhörung nach § 102 BetrVG korrekt durchgeführt, bevor Kündigungen ausgesprochen wurden?
-- Hat der Betriebsrat Zugang zu vertraulichen Ermittlungsdokumenten erhalten, der über sein § 80-Recht hinausgeht?
-- Ist ein Betriebsratsmitglied selbst Beschuldigter, und wurde das Verfahren nach § 103 BetrVG eingeleitet?
-- Wurde die Verschwiegenheitspflicht des Betriebsrats in die Informationsweitergabe eingepreist?
+### 7. Strafanzeige und externe Behörden
+- § 184i StGB: Strafverfolgung von Amts wegen oder auf Antrag; Strafantragsfrist 3 Monate.
+- Unternehmen hat keine Pflicht zur Strafanzeige; aber die betroffene Person kann selbst Anzeige erstatten.
+- Parallele straf- und arbeitsrechtliche Verfahren sind möglich und müssen koordiniert werden.
 
 ## Normenregister
 
 | Norm | Inhalt | Quelle |
 |---|---|---|
-| § 80 BetrVG | Überwachungsrecht | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__80.html) |
-| § 87 BetrVG | Mitbestimmung Ordnung / Überwachung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__87.html) |
-| § 99 BetrVG | Mitbestimmung Versetzung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__99.html) |
-| § 102 BetrVG | Anhörung vor Kündigung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__102.html) |
-| § 103 BetrVG | Kündigung Betriebsratsmitglied | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__103.html) |
-| § 79 BetrVG | Schweigepflicht Betriebsrat | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__79.html) |
+| § 3 Abs. 4 AGG | Definition sexuelle Belästigung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__3.html) |
+| § 12 AGG | Maßnahmen des Arbeitgebers | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__12.html) |
+| § 13 AGG | Beschwerderecht | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__13.html) |
+| § 15 AGG | Entschädigungsanspruch | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__15.html) |
+| § 22 AGG | Beweislast | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__22.html) |
+| § 184i StGB | Sexuelle Belästigung (Straf) | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__184i.html) |
+| § 626 BGB | Außerordentliche Kündigung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__626.html) |
 
 ## Ausgabeformate
 
-- **Mitbestimmungsmatrix**: Maßnahme × BetrVG-Norm × Zustimmungserfordernis
-- **Informationsschreiben** an Betriebsrat (§ 80 BetrVG)
-- **Betriebsratsanhörung** nach § 102 BetrVG (Kündigungsfall)
-- **Checkliste** Betriebsratsbeteiligung für jede Untersuchungsphase
+- **Beschwerdeprotokoll** für betroffene Personen (trauma-informiert)
+- **Untersuchungsplan** (Zeugen, Dokumente, Zeitplan)
+- **AGG-Schutzmaßnahmen-Checkliste** (§ 12 AGG)
+- **Kündigungsschreiben** bei schwerer sexueller Belästigung
+- **Betriebsratsanhörung** nach § 102 BetrVG
 
 Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
-
----
-
-## Skill: `board-special-committee`
-
-_Wenn es um Board Special Committee und Sonderuntersuchungsausschuss in Internal Investigations Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Board Special Committee und Sonderuntersuchungsausschuss
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; StPO §§ 53, 97, 102, 110, 136, 137, 152, 153a, BGB §§ 280, 626, BRAO § 43a, GwG, AntiDopG, HinSchG; StPO; HinSchG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Rechtlicher Rahmen
-
-Ein Sonderuntersuchungsausschuss (Special Committee) ist ein Unterorgan des Vorstands oder Aufsichtsrats, das mit der unabhängigen Untersuchung eines spezifischen Sachverhalts beauftragt wird. Im deutschen Recht folgt die Befugnis des Aufsichtsrats zur Einrichtung von Ausschüssen aus § 107 Abs. 3 AktG ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__107.html)), die des Vorstands aus § 77 AktG. Das Special Committee dient der Unabhängigkeit von der regulären Unternehmensführung und ist insbesondere dann erforderlich, wenn Vorstandsmitglieder selbst Gegenstand der Untersuchung sind.
-
-## Ziel dieses Skills
-
-Dieser Skill stellt sicher, dass das Special Committee ordnungsgemäß eingerichtet wird, die richtigen Personen besetzt, ein klares Mandat hat und seine Ergebnisse verwertbar sind.
-
-## Arbeitsprogramm
-
-### 1. Wann ist ein Special Committee erforderlich?
-- Vorstandsmitglieder sind selbst in den Untersuchungsgegenstand involviert (Interessenkonflikt).
-- Betrag des potenziellen Schadens ist materiell (erhebliche D&O-Haftungsrisiken).
-- US-Börsennotierung: SEC-Anforderungen und Delaware Corporate Law verlangen häufig Independent Committee für Derivative Actions.
-- DOJ/SEC erwarten unabhängige Untersuchung als Teil einer Kooperationsstrategie.
-
-### 2. Einrichtungsbeschluss
-- Aufsichtsrat: Beschluss nach § 107 Abs. 3 AktG mit klarem Mandat (Untersuchungsgegenstand, Befugnisse, Berichtspflicht, Zeitrahmen).
-- Vorstand: nur wenn kein Aufsichtsratsmitglied involviert; anderenfalls liegt die Initiative beim Aufsichtsrat.
-- Dokumentation: Beschluss im Board-Protokoll mit vollständigem Mandat.
-
-### 3. Besetzung und Unabhängigkeit
-- Mindestens zwei unabhängige Mitglieder (ohne Interessenkonflikt zu Untersuchungsgegenstand).
-- Unabhängigkeitskriterien: keine frühere Geschäftsbeziehung mit Beschuldigten, kein familiäres Verhältnis, keine anderen Loyalitätskonflikte.
-- Externer Anwalt dem Special Committee direkt mandatiert (nicht dem Gesamtvorstand).
-- Unabhängigkeit ist Voraussetzung für Glaubwürdigkeit bei DOJ, SEC und BaFin.
-
-### 4. Mandat des Special Committee
-- Klarer Scope: was darf/muss das Committee untersuchen?
-- Befugnisse: Zugang zu allen Dokumenten, Recht zur Beauftragung externer Berater auf Unternehmenskosten, Interviewrecht gegenüber allen Mitarbeitern.
-- Berichtspflicht: ausschließlich an Aufsichtsrat (nicht an Vorstand, wenn dieser involviert ist).
-- Handlungskompetenzen: darf das Committee Sofortmaßnahmen veranlassen (z. B. Freistellung)?
-
-### 5. Privilegeschutz des Special Committee
-- Anwalt des Special Committee ist nur dem Committee verantwortlich; Kommunikation ist privilegiert.
-- Vorstand hat keinen Anspruch auf Einsicht in Anwaltsdokumente des Special Committee.
-- Attorney-Client Privilege: bei US-Bezug klären, ob Special-Committee-Privilege dem Unternehmen oder dem Committee selbst gehört.
-
-### 6. Berichterstattung
-- Zwischenberichte an Aufsichtsrat: regelmäßig und bei wesentlichen Ergebnissen.
-- Abschlussbericht: analog zur allgemeinen Berichtsstruktur (vgl. inv-011-reporting), aber Adressat ist ausschließlich der Aufsichtsrat.
-- Maßnahmenempfehlungen: klar benannte Verantwortlichkeiten, Fristen, Nachverfolgung.
-
-### 7. Abberufung und Reorganisation
-- Falls Vorstandsmitglied freigestellt werden soll: § 84 Abs. 3 AktG (Abberufung bei wichtigem Grund, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__84.html)).
-- Special Committee kann Empfehlung zur Abberufung an Aufsichtsrat aussprechen.
-- Interim-Management: wer führt die Geschäfte während der Freistellung?
-
-## Normenregister
-
-| Norm | Inhalt | Quelle |
-|---|---|---|
-| § 107 AktG | Ausschüsse des Aufsichtsrats | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__107.html) |
-| § 84 AktG | Abberufung Vorstand | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__84.html) |
-| § 77 AktG | Geschäftsführung Vorstand | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__77.html) |
-| § 93 AktG | Sorgfaltspflicht | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__93.html) |
-| BGH II ZR 234/09 | Siemens/Neubürger | [openjur.de](https://openjur.de/o/577696.html) |
-
-## Ausgabeformate
-
-- **Special-Committee-Beschlussvorlage** (Mandat, Besetzung, Befugnisse)
-- **Unabhängigkeitsprüfungs-Matrix** für Committee-Mitglieder
-- **Mandatierungsschreiben** für externen Anwalt des Committee
-- **Berichtspflichten-Schema** (Häufigkeit, Format, Adressat)
-- **Freistellungsbeschluss-Vorlage** (§ 84 AktG)
-
-Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
----
-
-## Skill: `accounting-cyber`
-
-_Wenn es um Bilanzierungsunregelmäßigkeiten und Accounting-Forensik in Internal Investigations Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Bilanzierungsunregelmäßigkeiten und Accounting-Forensik
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; StPO §§ 53, 97, 102, 110, 136, 137, 152, 153a, BGB §§ 280, 626, BRAO § 43a, GwG, AntiDopG, HinSchG; StPO; HinSchG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Rechtlicher Rahmen
-
-Bilanzmanipulationen sind strafbar nach § 331 HGB (Unrichtige Darstellung, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__331.html)) und § 400 AktG (Unrichtige Darstellung in Lageberichten, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__400.html)). Bei kapitalmarktorientierten Gesellschaften kommt § 38 WpHG in Verbindung mit MAR Art. 15 (Marktmanipulation) hinzu. Der Abschlussprüfer haftet nach §§ 323, 321 HGB. Bei US-Listing gelten SOX Section 302/906 (CEO/CFO-Zertifizierungspflicht) und SEC Rule 10b-5.
-
-## Ziel dieses Skills
-
-Strukturiert die forensische Buchprüfung und klärt die strafrechtlichen, regulatorischen und haftungsrechtlichen Konsequenzen von Bilanzierungsunregelmäßigkeiten.
-
-## Arbeitsprogramm
-
-### 1. Kategorisierung der Unregelmäßigkeit
-- **Revenue Recognition Fraud**: vorzeitige oder fiktive Umsatzverbuchung (channel stuffing, bill-and-hold).
-- **Expense Deferral**: Kosten in Folgejahre verschoben, um Jahresergebnis zu verbessern.
-- **Asset Overstatement**: Überbewertung von Vorräten, Forderungen, immateriellen Vermögenswerten.
-- **Liability Understatement**: Verbindlichkeiten oder Rückstellungen verschwiegen oder unterbewertet.
-- **Round-Tripping**: Zahlungen hin und zurück, um fiktive Einnahmen zu generieren.
-- **Off-Balance-Sheet Transactions**: Schulden in Zweckgesellschaften ausgelagert.
-
-### 2. Forensische Buchprüfungsmethoden
-- **Journal Entry Testing**: Analyse aller manuellen Buchungen (wer hat wann gebucht?); Ausreißer außerhalb normaler Genehmigungsprozesse.
-- **Analytical Procedures**: Branchenvergleich; Margin-Analyse; Wachstumsraten; Verhältnis Forderungen zu Umsatz.
-- **Three-Way-Match**: Bestellung, Lieferschein, Rechnung abgleichen.
-- **Bank Reconciliation**: Banksaldo vs. Buchsaldo; zeitliche Diskrepanzen (Kiting).
-- **Benford's Law**: Verteilung erster Ziffern in Buchungsbeträgen.
-
-### 3. Schlüsseldokumente
-- Buchführungsunterlagen (§ 257 HGB: 10 Jahre aufzubewahren, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__257.html)).
-- Kontenpläne, Journalbücher, Hauptbuch.
-- E-Mail-Kommunikation zwischen CFO, Controller, Vertrieb zu Quartalsabschlüssen.
-- Abschlussprüfer-Arbeitspapiere (§ 51b WPO: Herausgabepflicht, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/wpo/__51b.html)).
-- Aufsichtsratsprotokolle zu Bilanzierungsfragen.
-
-### 4. Abschlussprüfer-Koordination
-- § 321 HGB: Abschlussprüfer hat Unregelmäßigkeiten im Prüfungsbericht zu beschreiben.
-- Abschlussprüfer als Zeuge: kann Arbeitspapiere vorlegen (mit Einschränkungen nach § 43 WPO – Berufsverschwiegenheit).
-- Austauschmöglichkeiten: bei laufender Untersuchung direkten Kontakt mit Prüfer suchen.
-- Wechsel des Abschlussprüfers: strategisches Risiko (Signal an Markt und Regulatoren).
-
-### 5. Ad-hoc-Meldepflicht
-- Kapitalmarktrelevante Unregelmäßigkeiten lösen Ad-hoc-Pflicht nach Art. 17 MAR aus.
-- Keine verzögerte Meldung, wenn die Information kursrelevant ist.
-- Selbstbefreiung (Art. 17 Abs. 4 MAR): temporäre Verzögerung bei laufender Untersuchung möglich, wenn Offenlegung die Untersuchung gefährdet.
-
-### 6. SEC-Meldungen (US-Listing)
-- SOX Section 302/906: CEO und CFO zertifizieren Korrektheit der Finanzberichte.
-- Fehlerhafter Bericht → Form 8-K und ggf. Restatement (SEC-Meldung).
-- SEC Whistleblower: Mitarbeiter können Manipulation direkt der SEC melden (Prämie bis 30 %).
-- DOJ/SEC-Exposure: SOX Section 807 (Strafbarkeit für Wertpapierbetrug).
-
-### 7. Strafrechtliche und zivilrechtliche Konsequenzen
-- § 331 HGB, § 400 AktG: Freiheitsstrafe bis 3 Jahre oder Geldstrafe für Vorstand/Aufsichtsrat.
-- § 93 Abs. 2 AktG: Schadensersatz der Gesellschaft gegen Vorstandsmitglieder.
-- D&O-Versicherung prüfen: Deckungsausschlüsse bei vorsätzlichem Handeln.
-- Aktionärsklagen, Kapitalmarkthaftung nach §§ 37b, 37c WpHG.
-
-## Normenregister
-
-| Norm | Inhalt | Quelle |
-|---|---|---|
-| § 331 HGB | Unrichtige Darstellung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__331.html) |
-| § 400 AktG | Strafbarkeit Falschdarstellung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__400.html) |
-| § 321 HGB | Prüfungsbericht | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__321.html) |
-| Art. 17 MAR | Ad-hoc-Meldepflicht | [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32014R0596) |
-| § 93 AktG | Haftung Vorstand | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/aktg/__93.html) |
-
-## Ausgabeformate
-
-- **Forensic-Accounting-Analyse-Template** (Journal-Entry-Tests, Benford, Ratio-Analyse)
-- **Unregelmäßigkeits-Klassifizierungsmatrix**
-- **Ad-hoc-Meldungs-Entscheidungsbaum**
-- **Abschlussprüfer-Kommunikations-Protokoll**
-- **Restatement-Szenarioanalyse**
-
-Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 93 AktG
-- § 26 BDSG
-- § 130 OWiG
-- § 102 BetrVG
-- § 87 BetrVG
-- § 203 StGB
-- § 266 StGB
-- Art. 33 DSGVO
-- § 30 OWiG
-- § 80 BetrVG
-- § 84 AktG
-- § 107 AktG
-
-### Leitentscheidungen
-
-- BGH II ZR 234/09
-- EuGH C-550/07
-- EuGH C-311/18
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

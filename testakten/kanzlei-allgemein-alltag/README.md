@@ -1,29 +1,39 @@
 # Akte Kanzlei-Allgemein-Plugin
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 148 KB) | PDF | [`gesamt-pdf/kanzlei-allgemein-alltag_gesamt.pdf`](gesamt-pdf/kanzlei-allgemein-alltag_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-kanzlei-allgemein-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-allgemein-alltag.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-kanzlei-allgemein-alltag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-allgemein-alltag-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/kanzlei-allgemein-alltag_gesamt.pdf`](gesamt-pdf/kanzlei-allgemein-alltag_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-kanzlei-allgemein-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kanzlei-allgemein-alltag.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-kanzlei-allgemein-alltag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kanzlei-allgemein-alltag-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-kanzlei-allgemein-alltag` (Akte) | [testakte-kanzlei-allgemein-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-allgemein-alltag.zip) |
+| `testakte-kanzlei-allgemein-alltag` (Akte) | [testakte-kanzlei-allgemein-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kanzlei-allgemein-alltag.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Kanzlei-Alltag der **Kanzlei Lindenstraße Rechtsanwältin Jana Reuter**, Berlin. Die Akte ist als Arbeitsmappe für **Kanzlei-Allgemein-Plugin** (`kanzlei-allgemein`) gebaut: edles Claude-Cowork-Dashboard, Nachtblau/Silber/Orange-Look, Kommandocenter, freundlicher Copilot, Integrationscheck, Simulationsmodus, Mandatsannahme/GwG, KYC, PEP, Kontoblatt, Schreib-Canvas, Klage-/Replik-Turbo, Rechtsprechungsrecherche, Vertragsentwurf, Handelsregisterabruf, Qualitätsgate, beA-Journal, EB, Fristen, Kanzleikalender, HR, Urlaub, Krankheit, Payroll, Zeitnarrative, Rechnung, Geschäftskonto, Bankmatching, E-Rechnung, UStVA und Tagesabschluss.
 
@@ -71,7 +81,7 @@ Am Nachmittag beschäftigt Jana Reuter die monatliche Buchhaltung: Eingangsrechn
 
 | Datei | Inhalt |
 |-------|--------|
-| [01_posteingang/email_mandantin_meyer.txt](01_posteingang/email_mandantin_meyer.txt) | E-Mail von Clara Meyer mit Schilderung des Schlössertauschs |
+| [01_posteingang/email_mandantin_meyer.eml](01_posteingang/email_mandantin_meyer.eml) | E-Mail von Clara Meyer mit Schilderung des Schlössertauschs |
 | [01_posteingang/fax_verfügung_amtsgericht.txt](01_posteingang/fax_verfuegung_amtsgericht.txt) | Fax-Verfügung des AG Mitte mit Fristsetzung 23.05.2026 |
 | [01_posteingang/Chatverlauf_Meyer_Kranz_Beschreibung.docx](01_posteingang/Chatverlauf_Meyer_Kranz_Beschreibung.docx) | Beschreibung eines abgeschnittenen WhatsApp-Screenshots (Anlage K5) |
 
@@ -139,6 +149,7 @@ Am Nachmittag beschäftigt Jana Reuter die monatliche Buchhaltung: Eingangsrechn
 |-------|--------|
 | [09_buchhaltung_konto/geschaeftskonto_mai_2026.csv](09_buchhaltung_konto/geschaeftskonto_mai_2026.csv) | Simulierter Kontoauszug Geschäftskonto Mai 2026 |
 | [09_buchhaltung_konto/offene_posten_debitoren.csv](09_buchhaltung_konto/offene_posten_debitoren.csv) | Offene-Posten-Liste Debitoren |
+| [09_buchhaltung_konto/telefonnotiz_klaerfall_lindner_2026-05-22.docx](09_buchhaltung_konto/telefonnotiz_klaerfall_lindner_2026-05-22.docx) | Telefonnotiz zum ungeklärten Zahlungseingang 228,00 EUR von W. Lindner |
 | [09_buchhaltung_konto/zahlungsmatching_erwartung.docx](09_buchhaltung_konto/zahlungsmatching_erwartung.docx) | Erwartetes Matching-Ergebnis zwischen Kontoauszug und offenen Posten |
 | [09_buchhaltung_konto/bankanbindung_simulation.docx](09_buchhaltung_konto/bankanbindung_simulation.docx) | Aktenvermerk Bankanbindungs-Simulation — Systemgrenzen, Workflow in 6 Schritten, Matching-Logik, Klärfall 228 EUR, Datenschutz |
 | [09_buchhaltung_konto/datev_uebergabe_simulation.docx](09_buchhaltung_konto/datev_uebergabe_simulation.docx) | DATEV-ähnliche Übergabe Mai 2026 — Ausgangsrechnungen, Eingangsrechnungen, Zahlungsabstimmung, §13b AI Vendor, fehlende Angaben, Monatsabschluss-Zusammenfassung |
@@ -148,7 +159,6 @@ Am Nachmittag beschäftigt Jana Reuter die monatliche Buchhaltung: Eingangsrechn
 | Datei | Inhalt |
 |-------|--------|
 | [10_output_turbo/klage_replik_schnellstart.docx](10_output_turbo/klage_replik_schnellstart.docx) | Schnellstart-Vorlage Klage / Replik mit Rubrum, Antragsmuster und Strukturvorgaben |
-| [10_output_turbo/replik_pruefmatrix.docx](10_output_turbo/replik_pruefmatrix.docx) | Prüfmatrix für Repliken — Checkliste inhaltliche und formale Qualitätsanforderungen |
 | [10_output_turbo/anlagenverzeichnis_meyer.docx](10_output_turbo/anlagenverzeichnis_meyer.docx) | Anlagenverzeichnis für Sache Meyer ./. Kranz |
 | [10_output_turbo/qualitaetsgate_erwartung.docx](10_output_turbo/qualitaetsgate_erwartung.docx) | Erwartetes Qualitätsgate-Ergebnis für Schriftsatzentwurf |
 | [10_output_turbo/vertragsentwurf_saas_kanzlei.docx](10_output_turbo/vertragsentwurf_saas_kanzlei.docx) | Entwurf Kanzlei-SaaS-Vertrag mit Datenschutzklausel und KI-Nutzungsbedingungen |
@@ -228,5 +238,3 @@ Bitte starte Kanzlei-Allgemein-Plugin mit dieser Akte. Nutze zuerst das edle Cow
 15. 18:30 Tagesabschluss mit Fristen, offenen Punkten, Zeiten, Personal, Buchhaltung und Rechnungsstatus.
 
 ---
-
-## Disclaimer

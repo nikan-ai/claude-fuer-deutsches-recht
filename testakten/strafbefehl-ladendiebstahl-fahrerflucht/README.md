@@ -1,29 +1,39 @@
 # Akte: Strafbefehl – Ladendiebstahl und Fahrerflucht
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 100 KB) | PDF | [`gesamt-pdf/strafbefehl-ladendiebstahl-fahrerflucht_gesamt.pdf`](gesamt-pdf/strafbefehl-ladendiebstahl-fahrerflucht_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafbefehl-ladendiebstahl-fahrerflucht_gesamt.pdf`](gesamt-pdf/strafbefehl-ladendiebstahl-fahrerflucht_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-strafbefehl-ladendiebstahl-fahrerflucht` (Akte) | [testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip) |
+| `testakte-strafbefehl-ladendiebstahl-fahrerflucht` (Akte) | [testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 ---
 
@@ -103,7 +113,6 @@ Die Anwältin erkennt die Fristkritikalität: Einspruchsfrist läuft am **25. Ma
 
 | Datei | Inhalt |
 |---|---|
-| [01_mandatsaufnahme_telefonnotiz.docx](01_mandatsaufnahme_telefonnotiz.docx) | Telefonnotiz Erstkontakt, Sachverhaltsaufnahme, Sofortmaßnahmen |
 | [02_strafbefehl_amtsgericht.docx](02_strafbefehl_amtsgericht.docx) | Vollständiger Strafbefehl: Rubrum, Tenor, Vorschriften, Rechtsbehelfsbelehrung |
 | [02_strafbefehl_amtsgericht.docx](02_strafbefehl_amtsgericht.docx) | DOCX-Version des Strafbefehls |
 | [03_zustellungsumschlag_fristscan.docx](03_zustellungsumschlag_fristscan.docx) | Zustellungsvermerk, Fristberechnung, Risikovermerk |
@@ -123,6 +132,8 @@ Die Anwältin erkennt die Fristkritikalität: Einspruchsfrist läuft am **25. Ma
 | [14_zeugenbefragung_fragenkatalog.docx](14_zeugenbefragung_fragenkatalog.docx) | 43 Fragen für 3 Zeugen, taktisch geordnet |
 | [15_einstellungsstrategie_153_153a.docx](15_einstellungsstrategie_153_153a.docx) | Strategiepapier §§ 153, 153a StPO; Zeitplan; Mandantenbelehrung |
 | [16_wiedereinsetzung_notfall.docx](16_wiedereinsetzung_notfall.docx) | Notfall-Wiedereinsetzungsantrag §§ 44, 45 StPO (3 Varianten) |
+| [17_email_mandantin_probezeit_fahrverbot.eml](17_email_mandantin_probezeit_fahrverbot.eml) | Mandantinnenmail zu Termin, Fahrverbotssorgen, Schulweg der Tochter und Schramme am eigenen Fahrzeug |
+| [18_kostenvoranschlag_werkstatt_golf_froehlich.docx](18_kostenvoranschlag_werkstatt_golf_froehlich.docx) | Kostenvoranschlag der Werkstatt für den beschädigten VW Golf der Zeugin Fröhlich über 1.180 EUR |
 | [README.md](README.md) | Diese Übersichtsdatei |
 
 ---
@@ -145,7 +156,6 @@ Diese Arbeitsakte bildet das vollständige Workflow eines **Strafbefehlsverfahre
 ---
 
 ## Disclaimer
-
 
 ---
 

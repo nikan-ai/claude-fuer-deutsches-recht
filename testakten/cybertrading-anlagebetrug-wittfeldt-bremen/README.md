@@ -1,18 +1,25 @@
 # Cybertrading-Anlagebetrug Wittfeldt – Bremen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 802 KB) | PDF | [`gesamt-pdf/cybertrading-anlagebetrug-wittfeldt-bremen_gesamt.pdf`](gesamt-pdf/cybertrading-anlagebetrug-wittfeldt-bremen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-cybertrading-anlagebetrug-wittfeldt-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-cybertrading-anlagebetrug-wittfeldt-bremen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-cybertrading-anlagebetrug-wittfeldt-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-cybertrading-anlagebetrug-wittfeldt-bremen-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/cybertrading-anlagebetrug-wittfeldt-bremen_gesamt.pdf`](gesamt-pdf/cybertrading-anlagebetrug-wittfeldt-bremen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-cybertrading-anlagebetrug-wittfeldt-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-cybertrading-anlagebetrug-wittfeldt-bremen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-cybertrading-anlagebetrug-wittfeldt-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-cybertrading-anlagebetrug-wittfeldt-bremen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -91,6 +98,7 @@ Diese Testakte demonstriert den vollständigen Mandatszyklus eines komplexen Ban
 | `20_strategiememorandum_pflueger.docx` | Internes Strategiememo Dr. Pflüger (Stärken/Schwächen, Vergleichsstrategie) |
 | `21_email_kette_pflueger_bafin_polizei.docx` | Behördenkommunikation: BaFin-Eingang, Polizei Bremen ZKD-Antwort |
 | `22_fristenuebersicht.docx` | Vollständige Fristenkontrolle inkl. Verjährungsfristen und Notfallprotokoll |
+| `23_chat_export_whatsapp_volkmann.txt` | Gesicherter WhatsApp-Chat-Auszug Mandantin ./. „Account-Manager Volkmann" (Sept. 2024 – Apr. 2025) |
 
 ### Anhänge
 
@@ -162,14 +170,12 @@ Diese Testakte referenziert ausschließlich folgende gerichtlich verlässliche Q
 
 ---
 
-## Verwendungshinweise
+## Bearbeitungshinweise
 
-- Diese Testakte ist **fiktiv**. Alle Personen, Aktenzeichen und Sachverhalte sind erfunden.
-- Keine echten Kontonummern, keine echten Adressen von Opfern.
-- IBAN-Fragmente sind zufällig generiert und entsprechen keinen echten Konten.
-- Die Plattform CryptoFutureMax.io ist fiktiv (als Aktenstand-Konstrukt).
-- Die Telefonnummern folgen dem UK-Reserveformat (+44 7700 900 xxx = Aktenstand gemäß Ofcom).
+- Kontonummern und Adressen sind nur in dem Umfang wiedergegeben, der für die Zahlungsstromanalyse erforderlich ist.
+- IBAN-Fragmente müssen über Bankauskünfte und Sicherungsunterlagen vervollständigt werden.
+- Der Plattformname und die britischen Telefonnummern sind als Ermittlungsansätze in die Provider- und Zahlungsdienstleisteranfragen zu übernehmen.
 
 ---
 
-*Erstellt für Plugin `fachanwalt-bank-kapitalmarktrecht` – Testakten-Vollbestand v51.0.0*
+*Zugeordnetes Plugin: `fachanwalt-bank-kapitalmarktrecht`*

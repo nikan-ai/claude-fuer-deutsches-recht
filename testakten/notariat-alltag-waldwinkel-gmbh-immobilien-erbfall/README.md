@@ -1,24 +1,35 @@
 # Akte Waldwinkel: GmbH-Anteile, Hofgrundstück, Erbfolge und drei Registerrückfragen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 125 KB) | PDF | [`gesamt-pdf/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall_gesamt.pdf`](gesamt-pdf/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall_gesamt.pdf`](gesamt-pdf/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-notariat-alltag-waldwinkel-gmbh-immobilien-erbfall-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 Diese Akte gehört zu den Plugins `notariat-alltag`, `berufsrecht-notare`.
 
 ## Downloads
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 - [Gesamt-PDF](gesamt-pdf/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall_gesamt.pdf)
 - Die Einzeldateien in diesem Ordner bilden den Aktenwust aus E-Mail, Tabelle, Vermerk, Bild und Anlagen ab.
@@ -27,14 +38,24 @@ Diese Akte gehört zu den Plugins `notariat-alltag`, `berufsrecht-notare`.
 
 | Datei | Inhalt |
 | --- | --- |
-| `01-sachverhalt-und-offene-punkte.docx` | Chronologie, Rollen, erste Streitpunkte |
-| `02-risiko-und-fristenmatrix.xlsx` | Fristen, Zuständigkeiten, Risikoampel |
-| `03-email-auftakt.eml` | Mandats-/Projektauftakt mit Rückfragen |
-| `04-arbeitsvermerk.docx` | interner Arbeitsvermerk |
-| `05-dashboard.csv` | strukturierte Prüfspur |
-| `06-screenshot-notizen.jpg` | Foto/Screenshot einer chaotischen Arbeitsnotiz |
-| `gesamt-pdf/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall_gesamt.pdf` | Gesamt-PDF der Akte |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
+| `01-notariat-einladung-beurkundungstermin.docx` | Einladung mit Beteiligten, Terminablauf und konkret benannten Beurkundungsunterlagen |
+| `02-entwurf-anteilskauf-und-abtretung.docx` | ausführlicher Entwurf zur Übertragung des Geschäftsanteils aus dem Nachlass |
+| `03-email-eva-falk-vollmacht-kurier.eml` | Nachricht der Erbin aus Porto mit Kurierdaten und Anlagenverzeichnis |
+| `04-registergericht-zwischenverfuegung.docx` | Zwischenverfügung zu Nennbeträgen, Einziehung und Gesellschafterliste |
+| `05-gesellschafterliste-rohdaten.csv` | Listenstände, Nennbeträge, Prozentangaben und Veränderungsvermerke |
+| `06-grundbuch-bestandsdaten.csv` | Bestandsverzeichnis sowie Eintragungen in den Abteilungen I bis III |
+| `07-weserland-bank-finanzierungsbestaetigung.docx` | Finanzierungsbestätigung mit Rang- und Auszahlungsvoraussetzungen |
+| `08-notariat-auskunftsersuchen-wirtschaftlich-berechtigte.docx` | Unterlagenanforderung zur norwegischen Holding und zum Trust |
+| `09-dolmetscherin-bestaetigung-und-personalien.docx` | Auftragsbestätigung, Personaldaten und Leistungsumfang der Dolmetscherin |
+| `10-email-bank-auszahlungsvoraussetzungen.eml` | E-Mail-Verlauf zur Kaufpreisauszahlung und Rangbestätigung |
+| `11-aktennotiz-telefonat-eva-falk.docx` | ausführliche Gesprächsnotiz zum Nachlass, zur Vollmacht und zum Gesellschafterdarlehen |
+| `12-email-nachforderung-register-und-trustunterlagen.eml` | konkrete Nachforderung fehlender Register-, Trust- und Zahlungsunterlagen |
+| `13-entwurf-grundstueckskaufvertrag.docx` | ausführlicher Kaufvertragsentwurf zum Hofgrundstück in Gertenbach |
+| `14-notariat-vollzugsmitteilung-grundbuchunterlagen.docx` | Anforderung von Löschungsbewilligung und Ablösemitteilung |
+| `15-nachlassgericht-eroeffnungsniederschrift.docx` | Eröffnungsniederschrift zum Testament Karl-Heinz Falk |
+| `16-kaufpreis-zahlungsdaten.csv` | Zahlungswege, Beträge, Konten und Fälligkeitsbezüge beider Vorgänge |
+| `17-kuriersendung-verlauf-vollmacht.csv` | Sendungsverlauf des Kurierumschlags mit der Originalvollmacht von Porto bis zur Zustellung in Witzenhausen |
+| `18-email-anwalt-dorn-einziehung.eml` | Anwaltsschreiben für Felix Dorn: fehlende Einladung, Widerspruch gegen die Einziehung, Klageankündigung |
 
 ## Sachstand
 

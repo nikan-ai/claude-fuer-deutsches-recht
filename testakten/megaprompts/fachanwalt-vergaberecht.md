@@ -2,24 +2,188 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 120 Skills (gekuerzt fuer Chat-Fenster) des Plugins `fachanwalt-vergaberecht`.
+Diese Vollprüfung enthält top-8 von 123 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-vergaberecht`.
 
 ## Inhaltsverzeichnis
 
-1. **vergaberechtliche-pruefung-anwaltlich-vollpruefung** — Wenn es um Vergaberechtliche Prüfung aus anwaltlicher Sicht: Vollprüfung in Fachanwalt Vergaberecht geht: rechnet Schwel…
-2. **einstieg-routing** — Wenn es um Einstieg und Routing in Fachanwalt Vergaberecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden …
-3. **kaltstart-triage** — Wenn es um Kaltstart Triage in Fachanwalt Vergaberecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden näch…
-4. **mandat-triage-vergaberecht** — Wenn es um Mandat Triage Vergaberecht in Fachanwalt Vergaberecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den pass…
-5. **orientierung-mandat-fachanwaltschaft** — Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Vergaberecht geht: rechnet Schwellen, Beträge, Varianten u…
-6. **spezial-orientierung-red-team-und-qualitaetskontrolle** — Wenn es um Orientierung: Red-Team und Qualitätskontrolle in Fachanwalt Vergaberecht geht: zerlegt Ergebnis, Frist, Zustä…
-7. **fachanwalt-vergaberecht-orientierung** — Wenn es um Fachanwalt für Vergaberecht — Orientierung in Fachanwalt Vergaberecht geht: prüft Frist, Form, Zuständigkeit,…
-8. **orientierung-fehlerkatalog** — Wenn es um Orientierung Fehlerkatalog in Fachanwalt Vergaberecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und S…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Vergaberecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verb…
+2. **vergaberechtliche-versandmappe-endfertigen** — Endfertigt Rüge, Nachprüfungsantrag, Schutzschrift und sofortige Beschwerde im Vergaberecht: trennt Vergabeplattform, Ve…
+3. **vergaberechtliche-pruefung-anwaltlich-vollpruefung** — Für Vergaberechtliche Prüfung aus anwaltlicher Sicht: Vollprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: …
+4. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+5. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+6. **mandat-triage-vergaberecht** — Für Mandat Triage Vergaberecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nä…
+7. **orientierung-mandat-fachanwaltschaft** — Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+8. **spezial-orientierung-red-team-und-qualitaetskontrolle** — Für Orientierung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung …
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Vergaberecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Vergaberecht
+
+## 1. Direktstart
+
+Arbeite als Vergaberechtlicher Bearbeiter für Ausschreibung, Rüge, Nachprüfungsverfahren, Zuschlagsverbot, Wertung und strategische Korrektur von Vergabefehlern.
+
+Pluginauftrag: Fachanwalt Vergaberecht als Vergabe-Workbench: GWB 97 ff., VgV, UVgO, SektVO, KonzVgV, VOB/A, Schwellenwerte, Vergabeakte, Rüge, vorgerichtliche Abhilfe, Nachprüfungsantrag, Vergabekammer-Sachverhalt, Paragraf 168-GWB-Abstellungsanträge, TED/eForms und Wettbewerbsregister.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Vergaberecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Rüge, Bieterfrage, Nachprüfungsantrag, Wertungskorrektur, Zuschlagsstopp oder Dokumentationsvermerk.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Vergabeart und Schwelle | Auftraggeber, Auftragsgegenstand, Schätzung, Verfahrensart und Fristen klären |
+| Vergabeunterlagen | Eignung, Zuschlagskriterien, Leistungsbeschreibung, Vertragsbedingungen und Nebenangebote prüfen |
+| Rüge | erkennbaren Fehler, Kenntnisdatum, Frist und konkrete Abhilfe sauber formulieren |
+| Nachprüfung | Antragsbefugnis, Rügepräklusion, Zuschlagsverbot und Sachantrag vor Vergabekammer aufbauen |
+| Arbeitsprodukt | Rügeschreiben, Nachprüfungsantrag, Auftraggebervermerk oder Wertungsmemo erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Rügeschriftsatz Paragraf 160 III GWB: Bearbeite den Fachpunkt im Skill fachanwalt-vergaberecht-ruegeschriftsatz-160-gwb und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. De-facto-Vergabe-Klage: Bearbeite den Fachpunkt im Skill fachanwalt-vergaberecht-de-facto-vergabe-klage und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Nachprüfungsantrag VK: Bearbeite den Fachpunkt im Skill fachanwalt-vergaberecht-nachpruefungsantrag-vk und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Sofortige Beschwerde OLG-Vergabesenat: Bearbeite den Fachpunkt im Skill fachanwalt-vergaberecht-olg-sofortige-beschwerde und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. GWB Paragraf 97: Grundsätze des Vergaberechts.
+4.2. GWB Paragraf 134: Informations- und Wartepflicht vor Zuschlag.
+4.3. GWB Paragraf 160: Nachprüfungsantrag und Rügeobliegenheit.
+4.4. VgV Paragraf 57: Ausschluss von Angeboten.
+4.5. VgV Paragraf 58: Zuschlag und Wertung.
+4.6. GWB Paragraf 168: Entscheidung der Vergabekammer.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. EuGH, Urteil vom 11.01.2005 - C-26/03: Stadt Halle begrenzt vergabefreie Inhouse-Vergaben.
+5.2. EuGH, Urteil vom 13.10.2005 - C-458/03: Parking Brixen konkretisiert Transparenzpflichten bei Konzessionen.
+5.3. EuGH, Urteil vom 19.06.2008 - C-454/06: Pressetext grenzt wesentliche Vertragsänderungen nach Zuschlag ab.
+5.4. EuGH, Urteil vom 10.09.2009 - C-206/08: Eurawasser ordnet Dienstleistungskonzessionen anhand des Betriebsrisikos ein.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+[EuGH, Urteil vom 16.04.2026 – C-568/24, Sof Medica](https://juris.curia.europa.eu/juris/document/document.jsf?docid=310678&doclang=EN), Rn. 33–64: Eine objektive Rechtfertigung jeder technischen Vorgabe muss unionsrechtlich nicht schon mit der Bekanntmachung veröffentlicht werden. Die Vorgabe muss gleichwohl sachlich erforderlich und verhältnismäßig sein; nationale Dokumentationspflichten bleiben. Prüfe bei Produkttyp, Maßen oder Bauart den konkreten Bedarf und alternative Lösungen. Ohne Zusatz „oder gleichwertig“ ist eine solche Typbindung nur eng zulässig, wenn sie zwangsläufig aus dem Auftragsgegenstand folgt. Im Fall des OP-Roboters waren Räume und deren Anordnung zu prüfen. Fehlende Veröffentlichung der Gründe, fehlende Rechtfertigung und unzulässige Nachänderung der Anforderungen sind unterschiedliche Fehler.
+
+[EuGH, Beschluss vom 03.02.2026 – C-316/25, Regione Umbria](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A62025CO0316), Rn. 16–24: Bloßer Leistungseinkauf gegen Entgelt wird nicht allein durch einen öffentlichen Vertragspartner zur ausschreibungsfreien Zusammenarbeit nach Artikel 12 Absatz 4 Richtlinie 2014/24/EU. Prüfe gemeinsame Ziele und tatsächliche Beiträge aller Beteiligten; bloße Kostenerstattung genügt nicht. Im deutschen Fall zusätzlich Paragraf 108 Absatz 6 GWB vollständig prüfen und von Inhouse nach Absätzen 1 bis 5 trennen. Der amtliche italienische Volltext betrifft ein Kraftfahrzeugsteuerregister, nicht jede Zusammenarbeit.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Auftraggeber für Dokumentation und Wertung; Bieter für Rüge, Interesse, Rechtsverletzung und drohenden Schaden.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Ist der Auftraggeber und Auftragswert vergaberechtlich gebunden.
+7.2. Welcher Fehler ist wann erkennbar geworden.
+7.3. Ist die Rüge konkret, fristgerecht und auf Abhilfe gerichtet.
+7.4. Welche Wertungsentscheidung ist dokumentiert und nachprüfbar.
+7.5. Welcher Antrag vor Vergabekammer verhindert oder korrigiert den Zuschlag.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Vergabeart und Schwelle, Vergabeunterlagen, Rüge, Nachprüfung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Rüge, Bieterfrage, Nachprüfungsantrag, Wertungskorrektur, Zuschlagsstopp oder Dokumentationsvermerk verwendbar?
+
+---
+
+## Skill: `vergaberechtliche-versandmappe-endfertigen`
+
+_Endfertigt Rüge, Nachprüfungsantrag, Schutzschrift und sofortige Beschwerde im Vergaberecht: trennt Vergabeplattform, Vergabekammer und Vergabesenat, prüft Rüge- und Notfristen, Beteiligte, Anträge und Zuschlagshemmung, ordnet Bekanntmachung, Vergabeunterlagen, Bieterfragen, Angebot und Wertung zu und liefert portalgerechte oder beA-fertige Einzeldateien._
+
+# Vergaberechtliche Versandmappe endfertigen
+
+## 1. Drei Versandwege trennen
+
+Lies Rüge, Vergabeunterlagen, Plattformnachrichten, Nachprüfungsantrag, Kammerbeschluss und Beschwerdeentwurf zuerst. Bestimme vor jeder Dateiproduktion:
+
+1. Kommunikation mit Auftraggeber über die Vergabeplattform,
+2. Nachprüfungsantrag an die zuständige Vergabekammer nach GWB Paragraf 161,
+3. sofortige Beschwerde an den zuständigen Vergabesenat nach GWB Paragraf 172.
+
+Übertrage den beA-Standard nicht auf eine Plattform oder Kammer, deren veröffentlichter Empfangsweg anders geregelt ist. Für den Vergabesenat prüfe den aktuellen elektronischen Gerichtsweg und die konkrete Rechtsbehelfsbelehrung.
+
+## 2. Frist- und Beteiligtenkontrolle
+
+1. Rügezeitpunkt und Antwort des Auftraggebers belegen.
+2. Fristen nach GWB Paragraf 160 Absatz 3 sowie die Zweiwochenfrist des GWB Paragrafen 172 getrennt berechnen.
+3. Auftraggeber, Antragsteller, Beigeladene, Vergabekammer und zuständigen Vergabesenat exakt bezeichnen.
+4. Nachprüfungsantrag mit Rechtsverletzung, Schaden, Rüge und verfügbaren Beweismitteln abstimmen.
+5. Beschwerdeschrift enthält Anfechtungsumfang, konkreten Antrag, Tatsachen und Beweismittel; Unterrichtung der übrigen Beteiligten nach GWB Paragraf 172 Absatz 4 mitplanen.
+
+## 3. Vergabeakte und Anlagen
+
+Ordne Bekanntmachung, Teilnahme- und Vergabeunterlagen, Bieterfragen, Rügen, Plattformprotokolle, Angebotsteile, Aufklärung, Wertungsmatrix, Informationsschreiben und Kammerbeschluss chronologisch. Geschäftsgeheimnisse werden in öffentlicher und vertraulicher Fassung getrennt; die Vertraulichkeitsbegründung bleibt ein eigenes Dokument.
+
+Nutze AST, AG und BG nur entsprechend bestehender Akte oder Vorgabe. Jede Anlagenseite wird bezeichnet; Plattformexporte bleiben mit Zeitstempel und Nachrichtenkennung vollständig.
+
+## 4. Form- und Versandanker
+
+- GWB Paragraf 161 erlaubt schriftliche oder elektronische Einreichung bei der Vergabekammer und verlangt eine Eingangsbestätigung; den tatsächlich eröffneten Kanal der Kammer prüfen.
+- GWB Paragraf 172 verlangt Beschwerde und Begründung binnen zwei Wochen beim zuständigen Beschwerdegericht.
+- BayObLG, Beschluss vom 13. Juni 2022, Verg 4/22: Versand an das falsche Gericht und fehlende Schlusskontrolle tragen keine Wiedereinsetzung; der richtige Empfänger und die finale Fassung sind vor Versand eigenständig zu prüfen.
+
+## 5. Auslieferung
+
+Liefere getrennte Ordner `plattform/`, `vergabekammer/`, `vergabesenat/` nur für tatsächlich benötigte Wege. Jeder enthält Hauptdokument, Einzelanlagen, Fristenblatt, Beteiligten- und Zustellplan, Geheimnismatrix, Manifest und Eingangscheck. Stoppe bei ungeklärter Kammer, falschem Vergabesenat, fehlender Rüge, nicht finalem Antrag oder vermischten vertraulichen Fassungen.
 
 ---
 
 ## Skill: `vergaberechtliche-pruefung-anwaltlich-vollpruefung`
 
-_Wenn es um Vergaberechtliche Prüfung aus anwaltlicher Sicht: Vollprüfung in Fachanwalt Vergaberecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
+_Für Vergaberechtliche Prüfung aus anwaltlicher Sicht: Vollprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix._
 
 # Vergaberechtliche Prüfung aus anwaltlicher Sicht: Vollprüfung
 
@@ -467,363 +631,15 @@ Folgen fuer die Mandatsfuehrung:
 
 ---
 
-## Phase 10 — Sofortige Beschwerde (§§ 171 ff. GWB)
+## Phase 10 bis 24 — Vertiefung gezielt laden
 
-### 10.1 Statthaftigkeit und Frist
-
-- Statthaft gegen Entscheidung der Vergabekammer.
-- **Frist 2 Wochen** ab Zustellung der Entscheidung (§ 172 Abs. 1 GWB).
-- **Begruendungsfrist** zugleich 2 Wochen ab Einlegung (§ 172 Abs. 3 GWB).
-- Beschwerde **muss begruendet** sein und konkrete Beschwerdegruende benennen.
-
-### 10.2 Suspensiveffekt der Beschwerde
-
-- **Aufschiebende Wirkung** kraft Gesetzes hinsichtlich der Vergabekammerentscheidung (§ 173 GWB).
-- Auftraggeber kann **Aufhebung** der aufschiebenden Wirkung beim OLG-Vergabesenat beantragen (Eilantrag).
-
-### 10.3 Beschwerdeverfahren
-
-- Vergabesenat des **OLG** entscheidet. Sechs Vergabesenate sind besonders prominent: OLG Duesseldorf (VII-Verg), OLG Karlsruhe (15 Verg), OLG Muenchen (Verg), OLG Celle (13 Verg), OLG Frankfurt (11 Verg), OLG Brandenburg (Verg).
-- Streitwert wird nach **§ 50 Abs. 2 GKG iVm § 182 Abs. 3 GWB** ermittelt: typischerweise **5 Prozent** des Bruttoauftragswertes; Mindestwert 2.500 Euro.
-
-### 10.4 Vorlage an EuGH und BVerfG
-
-- Vorlage an EuGH bei unionsrechtlichen Auslegungsfragen ist regelmaessig **letztinstanzliche Pflicht** des OLG-Vergabesenats (Art. 267 Abs. 3 AEUV), sofern die Frage entscheidungserheblich ist.
-- Verfassungsbeschwerde gegen vergaberechtliche OLG-Entscheidungen ist im Einzelfall moeglich, in der Praxis selten erfolgreich.
-
----
-
-## Phase 11 — De-facto-Vergabe und Unwirksamkeit (§ 135 GWB)
-
-### 11.1 Tatbestand
-
-§ 135 Abs. 1 GWB erklaert oeffentliche Auftraege fuer **von Anfang an unwirksam**, wenn
-
-- **Nr. 1**: der Auftraggeber gegen § 134 GWB (Vorabinformation, Stillhaltefrist) verstossen hat **und** dies in einem Nachpruefungsverfahren festgestellt wird;
-- **Nr. 2**: der Auftraggeber **ohne vorherige Veroeffentlichung** einer Bekanntmachung im EU-Amtsblatt einen Auftrag vergeben hat, ohne dass dies nach GWB **gestattet** war (klassische De-facto-Vergabe).
-
-### 11.2 Frist (§ 135 Abs. 2 GWB)
-
-- **30 Kalendertage** ab Kenntnis des Verstosses, **spaetestens 6 Monate** nach Vertragsschluss.
-- **Verkuerzung auf 30 Tage** ab Veroeffentlichung der Ex-ante-Bekanntmachung im EU-Amtsblatt (§ 135 Abs. 3 GWB) — Auftraggeber-Schutz-Mechanismus.
-
-### 11.3 Rechtsfolge
-
-- **Anfangsunwirksamkeit** ex tunc.
-- Rueckabwicklung in Geld nach Bereicherungsrecht; gleichzeitig **Schadensersatzansprueche** des uebergangenen Bieters (§ 181 GWB iVm § 311 BGB analog).
-
-### 11.4 Verteidigung des Auftraggebers
-
-- **Inhouse-Argument** (§ 108 GWB): kein Vertragspartner ist ein "Unternehmen" im Sinne des Vergaberechts.
-- **Eilbeduerftigkeit nach § 14 Abs. 4 Nr. 3 VgV**: "ausserordentliche Umstaende, die nicht von dem Auftraggeber zu vertreten sind" und die kein Verfahren mit Bekanntmachung zulassen.
-- **Bagatell-Schwellenwert-Argument**: Auftragswertschaetzung unterhalb der EU-Schwelle.
-
----
-
-## Phase 12 — Vergaberechtskonforme Vertragsanpassung (§ 132 GWB)
-
-### 12.1 Grundsatz
-
-Vertragsanpassung waehrend der Laufzeit ist **nicht frei**, sondern durch § 132 GWB **vergaberechtlich** begrenzt. Wesentliche Aenderungen sind **neue Auftraege** und muessen wiederum ausgeschrieben werden.
-
-### 12.2 Tatbestaende der zulaessigen Aenderung
-
-§ 132 Abs. 2 GWB nennt sechs Tatbestaende:
-
-- Nr. 1: Aenderung war in den **urspruenglichen Vergabeunterlagen klar und eindeutig** vorgesehen (Optionsklausel, Preisgleitklausel).
-- Nr. 2: **Zusatzleistungen** durch denselben Auftragnehmer, die wegen wirtschaftlicher oder technischer Verflechtung **erforderlich** sind; Wertgrenze 50 Prozent des urspruenglichen Auftragswertes je Aenderung.
-- Nr. 3: **Unvorhersehbare Umstaende** (Naturkatastrophe, gesetzliche Aenderung).
-- Nr. 4: Wesensaenderung **nicht** vorgenommen.
-- Nr. 5: **De-Minimis**: Aenderung unter 10 Prozent des urspruenglichen Auftragswertes bei Liefer- und Dienstleistungsauftraegen, 15 Prozent bei Bauauftraegen und unterhalb des EU-Schwellenwertes.
-- Nr. 6: Wechsel des Auftragnehmers durch **Insolvenz, Umwandlung, Restrukturierung**, wobei der Rechtsnachfolger die urspruenglichen Eignungsanforderungen erfuellt.
-
-### 12.3 Wesentliche Aenderung (§ 132 Abs. 1 GWB)
-
-Eine Aenderung ist **wesentlich**, wenn:
-
-- die Bedingungen das Verfahren so geaendert haetten, dass andere Bieter zugelassen worden waeren;
-- ein anderer Bieter den Zuschlag erhalten haette;
-- das wirtschaftliche Gleichgewicht erheblich zugunsten des Auftragnehmers verschoben wird;
-- der Auftrag erheblich erweitert wird;
-- der Vertragspartner durch einen neuen ersetzt wird, soweit Nr. 6 oben nicht greift.
-
-### 12.4 Rechtsfolge unzulaessiger Aenderung
-
-- Behandlung als **De-facto-Vergabe** nach § 135 GWB.
-- Nachpruefungsantragsmoeglichkeit fuer uebergangenen Marktteilnehmer mit 6-Monats-Frist (§ 135 Abs. 2 GWB).
-
----
-
-## Phase 13 — Sektorenvergabe (SektVO) und Konzessionen (KonzVgV)
-
-### 13.1 Sektorenauftraggeber (SektVO)
-
-- Anwendung der SektVO oberhalb der **Sektoren-Schwellenwerte** (regelmaessig hoeher als die "klassischen" Schwellen).
-- Anwendungsbereiche: Wasser, Energie (Strom, Gas, Waerme), Verkehr (Eisenbahn, Strassenbahn, Bus, Hafen, Flughafen), Postdienste.
-- **Verfahrensarten** sind **freier** waehlbar: offenes Verfahren, nicht offenes Verfahren **und** Verhandlungsverfahren mit Bekanntmachung sind **gleichwertig**.
-- **Eignung, Wertung, Zuschlag, Vorabinformation, Stillhaltefrist** sind analog zur VgV geregelt, mit sektorenspezifischen Abweichungen.
-
-### 13.2 Konzessionen (KonzVgV)
-
-- Bau- und Dienstleistungskonzessionen oberhalb der Konzessions-Schwelle.
-- **Wesentlich**: Konzessionsgeber traegt **nicht** das Hauptrisiko; das **Betriebsrisiko** muss beim Konzessionsnehmer liegen (§ 105 GWB, EuGH C-274/09 "Privater Rettungsdienst Stadler"-Linie).
-- Verfahrensregeln **flexibel**, aber Grundsaetze des Wettbewerbs, der Transparenz und der Gleichbehandlung gelten zwingend.
-- **Schaedlich** in der Praxis: ueberproportionale Risikoabwaelzung auf den Konzessionsgeber durch versteckte Mindestumsatzgarantien oder Defizithaftungsklauseln — dann liegt **kein Konzessionsvertrag**, sondern **Dienstleistungsauftrag** vor.
-
----
-
-## Phase 14 — Unterschwellenbereich und Haushaltsvergaberecht
-
-### 14.1 UVgO und Landesrecht
-
-- **UVgO 2017**: bundesweit eingefuehrt im Liefer- und Dienstleistungsbereich des Bundes und in den meisten Laendern.
-- Landesvergabegesetze (LVergabeG): regeln zusaetzliche soziale und oekologische Anforderungen, Mindestloehne, Tariftreue, Frauenfoerderung.
-- Bauauftraege im Unterschwellenbereich: **VOB/A Abschnitt 1**.
-
-### 14.2 Verfahren im Unterschwellenbereich
-
-- **Direktauftrag** (UVgO § 14): bis zur jeweiligen landes- bzw. bundesrechtlichen Wertgrenze.
-- **Verhandlungsvergabe** (UVgO § 12): wenn die naechsten Bieter nicht ueber Direktauftrag erreichbar sind.
-- **Beschraenkte Ausschreibung** (UVgO § 11): mit oder ohne Teilnahmewettbewerb.
-- **Oeffentliche Ausschreibung** (UVgO § 9): Grundregel oberhalb der landes-/bundesrechtlichen Wertgrenze.
-
-### 14.3 Rechtsschutz im Unterschwellenbereich
-
-- **Kein GWB-Nachpruefungsverfahren**.
-- Rechtsschutz ueber:
-  - **Verwaltungsrecht** (Anfechtungs- oder Verpflichtungsklage gegen einen Verwaltungsakt, soweit der Vergabevorgang als Verwaltungsakt gestaltet ist).
-  - **Zivilrecht** (Vertragsanbahnungshaftung, § 311 BGB iVm § 280 BGB).
-  - **Verfassungsbeschwerde** bei evidenter Willkuer (BVerfG 1 BvR 1387/16 "Saechsische Vergabekammer" und Folgerspr.).
-  - **Schadensersatz** ueber landeshaftungsrechtliche oder zivilrechtliche Anspruchsgrundlagen.
-
----
-
-## Phase 15 — Schadensersatz (§ 181 GWB, § 280 BGB, § 33a, 33f GWB)
-
-### 15.1 Anspruchsgrundlagen
-
-- **§ 181 GWB** — **Vertrauensschadenersatz**: Anspruch des uebergangenen Bieters auf Ersatz der **Aufwendungen fuer die Vorbereitung des Angebots und die Teilnahme am Vergabeverfahren**, wenn der Auftraggeber gegen Vergabevorschriften verstossen hat, die den Schutz der Bieter bezwecken (§ 97 Abs. 6 GWB), und der Bieter **eine echte Chance** auf den Zuschlag hatte, die durch den Verstoss **beeintraechtigt** wurde. **Verschulden ist nach dem Gesetzeswortlaut nicht erforderlich**; ebenso wenig muss der Bieter beweisen, dass er **tatsaechlich** den Zuschlag erhalten haette. Es genuegt die Beeintraechtigung der **Zuschlagschance**. Diese Anspruchsgrundlage ist daher gerade in Faellen wertvoll, in denen Verschulden des Auftraggebers schwer nachzuweisen ist oder die Zuschlagskausalitaet nicht zwingend feststeht.
-- **§ 280 Abs. 1 iVm §§ 311 Abs. 2, 241 Abs. 2 BGB** — **vorvertragliche Pflichtverletzung** (culpa in contrahendo): Anspruch auf negatives oder ggf. positives Interesse, **setzt Verschulden voraus**. Anwendbar neben § 181 GWB; in der Praxis insbesondere fuer den Ersatz **entgangenen Gewinns** (positives Interesse) bedeutsam, soweit die strenge Kausalitaetsanforderung gefuehrt werden kann.
-- **§§ 33a, 33f GWB** — **kartellrechtlicher Schadensersatz** bei kollusivem Zusammenwirken (Submissionsabsprache, Bieterkartell): Anspruchsgrundlage auch fuer den uebergangenen Bieter, der durch die Absprache benachteiligt wurde.
-
-### 15.2 Schadensumfang
-
-- **§ 181 GWB — Vertrauensschaden**: Aufwendungen fuer die Angebotserstellung, Reisekosten fuer Besichtigungstermine, externe Fachberatung, anwaltliche Vorpruefung der Vergabeunterlagen, konkret nachgewiesene anteilige Gemeinkosten. **Kein** entgangener Gewinn (das ist nicht der Schutzzweck von § 181 GWB).
-- **Entgangener Gewinn** (positives Interesse): nur ueber § 280 BGB iVm § 311 BGB **und** nur, wenn der Mandant **mit hoher Wahrscheinlichkeit** den Zuschlag erhalten haette (in der Rechtsprechung sehr hohe Kausalitaetsanforderungen).
-- **Vorhaltepauschale** und kalkulatorische Gemeinkosten sind nur ersatzfaehig, soweit **konkret** nachweisbar (Mitarbeiterstunden, Materialkosten, Reise- und Besichtigungskosten).
-
-### 15.3 Beweislast
-
-- **§ 181 GWB**: Anspruchsteller muss den **Vergaberechtsverstoss**, die **echte Zuschlagschance** und den **konkreten Vertrauensschaden** beweisen. **Kein** Vollbeweis erforderlich, dass der Bieter den Zuschlag tatsaechlich erhalten haette — die Beeintraechtigung der **realen Chance** genuegt.
-- **§ 280 BGB iVm § 311 BGB**: zusaetzlich Verschulden und Kausalitaet zum entgangenen Gewinn beweisen.
-- **Beweiserleichterung** ueber Anscheinsbeweis bei dokumentierten Vergaberechtsverstoessen und naheliegender Bestplatzierung.
-- **Akteneinsicht** in die Vergabeakte ist regelmaessig zentral fuer den Schadensnachweis; § 165 GWB-Akteneinsicht im Nachpruefungsverfahren bewahren und sichern.
-
-### 15.4 Verjaehrung
-
-- **3 Jahre** ab Schluss des Jahres, in dem der Anspruchsteller von dem Anspruch Kenntnis erlangt hat oder ohne grobe Fahrlaessigkeit haette erlangen muessen (§ 195 iVm § 199 BGB).
-
----
-
-## Phase 16 — Akteneinsicht, Geschaeftsgeheimnis, Whistleblower
-
-### 16.1 Akteneinsicht
-
-- **Vergabekammerverfahren**: § 165 GWB; Antragsteller hat Anspruch, Beigeladene koennen Geheimhaltung verlangen.
-- **Vor** Nachpruefungsverfahren: Auskunfts- und Akteneinsichtsanspruch nach UVI G (Bundesinformationsfreiheitsgesetz) oder Landes-Transparenzgesetzen; teilweise eingeschraenkt durch Geschaeftsgeheimnis-Vorbehalt.
-- **VgV § 8 Vergabeakte**: Auftraggeber muss eine vollstaendige Vergabeakte fuehren; das ist die wichtigste Beweisquelle.
-
-### 16.2 Geschaeftsgeheimnis (GeschGehG)
-
-- Bieterangaben zu Preiskalkulation, Subunternehmerstruktur, Personalmodellen koennen Geschaeftsgeheimnisse darstellen.
-- Auftraggeber muss bei Vorabinformation und Akteneinsicht **Schutz** und **Transparenz** abwaegen.
-
-### 16.3 Whistleblower- und Hinweisgeberschutzgesetz (HinSchG)
-
-- Hinweise auf Vergaberechtsverstoesse fallen in den sachlichen Anwendungsbereich des HinSchG (§ 2 Abs. 1 Nr. 4 HinSchG, Verstoesse gegen Vergaberecht).
-- Schutz vor Repressalien fuer Hinweisgeber relevant fuer Mitarbeiter und Subunternehmer des Auftraggebers oder Zuschlagsbieters.
-
----
-
-## Phase 17 — Outputformate und Schriftsatzbausteine
-
-### 17.1 Pruefgutachten
-
-Standardstruktur des Pruefgutachtens:
-
-1. Sachverhalt mit Beleg-Verweisen (Bekanntmachung TED-Nr., Aufforderungsschreiben, Bietererklaerungen).
-2. Anwendungsbereich (Phase 1).
-3. Verfahrensart und Verfahrensschritte (Phase 0 B).
-4. Pruefung nach den Phasen 2 bis 11.
-5. Fristen-Sofortcheck mit kalendarischer Aufstellung.
-6. Rechtliche Bewertung (Subsumtion).
-7. Empfehlung (Ruege, Nachpruefungsantrag, Schadensersatzanspruch, Verteidigung).
-8. Disclaimer.
-
-### 17.2 Ruegeschreiben
-
-- Adressat: Vergabestelle des Auftraggebers.
-- Betreff: Vergabeverfahren <Bezeichnung>, <TED-Nr.>, Ruege gemaess § 160 Abs. 3 GWB.
-- Sachverhalt knapp.
-- Konkrete Verstossbenennung mit Norm.
-- Abhilfeforderung mit Frist.
-- Hinweis: Nachpruefungsantrag wird angekuendigt, falls Abhilfe nicht erfolgt.
-- Unterschrift Rechtsanwalt mit Vollmacht.
-
-### 17.3 Nachpruefungsantragsschrift
-
-- Rubrum: Antragsteller, Antragsgegner, Beigeladener (vorgesehener Zuschlagsbieter).
-- Antrag (Tenor): konkrete Massnahmen, z. B. "Es wird festgestellt, dass die Wertungsentscheidung vom <Datum> rechtswidrig ist. Die Antragsgegnerin wird verpflichtet, die Wertung unter Beachtung der Rechtsauffassung der Vergabekammer zu wiederholen."
-- Sachverhalt.
-- Zulaessigkeit: Antragsbefugnis § 160 Abs. 2 GWB, Ruege, Frist § 160 Abs. 3 Satz 1 Nr. 4 GWB.
-- Begruendetheit: konkret nach Phasen 1 bis 11.
-- Beweisangebote: Akteneinsicht, Zeugen, Sachverstaendige.
-- Antrag auf Akteneinsicht.
-- Antrag auf Beibehaltung des Suspensiveffekts (§ 169 GWB).
-- Anlagen.
-
-### 17.4 Sofortige Beschwerde
-
-- Rubrum mit Verfahrensbezeichnung der Vergabekammer.
-- Beschwerdeantrag.
-- Beschwerdegruende: prozessuale Maengel der Vergabekammerentscheidung, materielle Rechtsfehler, Beweiswuerdigungsfehler.
-- Antrag auf Beibehaltung der aufschiebenden Wirkung.
-
-### 17.5 Schadensersatzklage
-
-- Zustaendiges Gericht: Landgericht am Sitz des Auftraggebers.
-- Klageantrag: Zahlung einer konkreten Geldsumme oder Feststellung der Schadensersatzpflicht.
-- Klagegrund: § 181 GWB iVm § 280 BGB.
-- Bezifferung mit Anlagen (Angebotskosten, Vorhaltepauschalen, ggf. entgangener Gewinn).
-
----
-
-## Phase 18 — Vermeidung typischer Mandatsfehler
-
-Diese Fehler treten in der Praxis besonders oft auf — und sie sind **alle vermeidbar**:
-
-1. **Frist verpasst** — Ruege nicht innerhalb der gesetzlichen 10-Kalendertage-Frist des § 160 Abs. 3 Satz 1 Nr. 1 GWB ab Kenntnis. Folge: Nachpruefungsantrag wird als unzulaessig verworfen, **ohne** Ermessensspielraum der Vergabekammer.
-2. **Ruege zu allgemein** — "Das Verfahren ist intransparent" reicht nicht. Konkreter Verstoss, konkrete Norm.
-3. **Falsches Verfahren** — Antrag an Verwaltungsgericht statt Vergabekammer im Oberschwellenbereich.
-4. **Falsche Zustaendigkeit** — Vergabekammer des Bundes statt Land oder umgekehrt.
-5. **Antragsschrift unschluessig** — Antragsbefugnis nicht konkret dargelegt, Schaden nicht behauptet.
-6. **Akteneinsicht zu spaet** — wer erst in der muendlichen Verhandlung Einsicht beantragt, kann nicht mehr substantiieren.
-7. **Begruendung schwammig** — keine konkrete Bezugnahme auf die Vergabeakte.
-8. **Mandant ueberraschend nicht angehoert** — bei Vorabinformation Mandant innerhalb der Stillhaltefrist nicht erreicht, Frist verstrichen.
-9. **Selbstreinigung nicht vorbereitet** — bei drohendem Ausschluss nach §§ 123, 124 GWB die § 125 GWB-Selbstreinigung nicht dokumentiert.
-10. **Zu langsame Reaktion auf Nichtabhilfemitteilung** — 15 Kalendertage sind keine Empfehlung, sondern Praeklusion.
-
----
-
-## Phase 19 — Verwendung dieses Vollprüfungs
-
-### 19.1 Mandatsannahme-Check
-
-Bevor dieser Vollprüfung auf einen konkreten Sachverhalt angewendet wird:
-
-- Liegen alle relevanten Unterlagen vor? (Bekanntmachung, Vergabeunterlagen, eigenes Angebot, Vorabinformation, ggf. Vergabeakte-Auszug.)
-- Ist die Mandantenrolle eindeutig?
-- Ist die naechste Frist bekannt?
-- Ist die Honorarvereinbarung (RVG Anlage 1 Nr. 3200, 3201 Berufungsgebuehr, ggf. Stundenhonorar) abgeschlossen?
-
-### 19.2 Anwendung in der Reihenfolge
-
-Phasen 0 bis 19 werden **in der Reihenfolge** angewendet. Phase 0 ist **immer** zuerst zu pruefen — Fristen entscheiden ueber alles andere. Wenn die naechste Frist binnen weniger Tage ablaeuft, hat **Ruege** Vorrang vor weiterer Sachverhaltsaufklaerung; lieber unvollstaendig fristwahrend ruegen als verspaetet vollstaendig.
-
-### 19.3 Ausgabe
-
-Der Vollprüfung erzeugt aus dem Sachverhalt heraus:
-
-- Eine **Fristenkarte** (Was, Wann, Bis Wann, Naechster Schritt).
-- Ein **Pruefgutachten** in Gutachtenstil mit Subsumtion.
-- **Schriftsatzbausteine** (Ruege, Nachpruefungsantrag, Beschwerde, Klage, je nach Mandantenrolle und Phase).
-- Eine **Empfehlung** mit Eskalationsstufen.
-- Einen **Aktenvermerk** zur Vergabeakte (bei Auftraggeber-Mandat).
-
----
-
-## Phase 20 — Verifizierte Rechtsprechung — Hinweis
-
-Die in diesem Vollprüfung zitierten Aktenzeichen und Entscheidungen sind als **bekannte Linien-Entscheidungen** kenntlich gemacht und nicht abschliessend. Vor Verwendung in einem realen Mandat ist jede Entscheidung **eigenstaendig zu verifizieren** ueber:
-
-- BGH-Entscheidungsdatenbank (bundesgerichtshof.de).
-- BVerfG-Entscheidungssammlung (bundesverfassungsgericht.de).
-- EuGH-Entscheidungssammlung (curia.europa.eu).
-- juris oder dejure mit gepruefter Volltextfreigabe.
-- OLG-Vergabesenat-Datenbanken der einzelnen Bundeslaender.
-
-**Verboten** ist die Verwendung von **BeckRS**, **IBR**, **VergabeR-Aufsaetzen**, **NZBau-Anmerkungen** oder **Kommentar-Zitaten** ohne eigene Verifikation der Primaerquelle. Diese Vergaberechts-Quellenhygiene ist im Berufsrecht (BORA, FAO) und in der RVG-Vereinbarung mit dem Mandanten dokumentiert.
-
----
-
-## Phase 21 — Glossar wesentlicher Begriffe
-
-- **eForms**: EU-weites maschinenlesbares Schema fuer Bekanntmachungen im TED, verpflichtend seit 25.10.2023.
-- **TED**: Tenders Electronic Daily, EU-Amtsblatt-Bekanntmachungsdienst (ted.europa.eu).
-- **DVAL**: Datenservice oeffentlicher Einkauf, deutscher Bekanntmachungsservice ueber bund.de.
-- **eVergabe**: elektronische Vergabeplattform (eVergabe-Plattform des Bundes, deutsche Vergabeplattform DVAL der Laender, kommerzielle Plattformen).
-- **VHB**: Vergabe- und Vertragshandbuch des Bundes.
-- **VOB/A**: Vergabe- und Vertragsordnung Bauleistungen, Abschnitt A; gilt fuer das Vergabeverfahren bei Bauauftraegen.
-- **VOB/B**: Vergabe- und Vertragsordnung Bauleistungen, Abschnitt B; gilt fuer den Bauvertrag.
-- **SektVO**: Sektorenvergabeverordnung (Wasser, Energie, Verkehr, Postdienste).
-- **KonzVgV**: Konzessionsvergabeverordnung.
-- **VSVgV**: Vergabeverordnung Verteidigung und Sicherheit.
-- **EEE**: Einheitliche Europaeische Eigenerklaerung.
-- **Stillhaltefrist**: § 134 Abs. 2 GWB, 15 bzw. 10 Kalendertage zwischen Vorabinformation und Zuschlag.
-- **Beigeladene**: vorgesehener Zuschlagsbieter im Nachpruefungsverfahren.
-- **De-facto-Vergabe**: Vergabe ohne vorherige Bekanntmachung, vom Gesetz als anfangsunwirksam angesehen.
-- **Inhouse-Geschaeft**: § 108 GWB; Auftragsvergabe an kontrollierte juristische Person ohne Anwendung des Vergaberechts.
-- **Wettbewerbsregister**: § 6 WRegG; Abfragepflicht des Auftraggebers zur Identifikation rechtskraeftig festgestellter Wirtschaftskriminalitaet.
-
----
-
-## Phase 22 — Zusammenfassende Pruefmatrix
-
-| Phase | Pruefkriterium | Norm | Frist |
-| --- | --- | --- | --- |
-| 0 | Mandantenrolle, Verfahrensart, Frist-Sofortcheck | gesamt | sofort |
-| 1 | Anwendungsbereich, Auftraggebereigenschaft, Auftragstyp | §§ 99, 100, 101, 103 GWB | — |
-| 2 | Bekanntmachung, Vergabeunterlagen | §§ 121, 127 GWB, §§ 29 ff. VgV | bis Angebotsfrist |
-| 3 | Eignung, Eignungsleihe | § 122 GWB, §§ 42 ff. VgV | bis Angebotsfrist |
-| 4 | Angebotsoeffnung, Aufklaerung, Nachforderung | §§ 56, 57 VgV | nach Angebotsoeffnung |
-| 5 | Ausschlussgruende, Selbstreinigung | §§ 123, 124, 125 GWB | bis Wertung |
-| 6 | Wertungsentscheidung, Zuschlagskriterien | § 127 GWB, § 58 VgV | bis Vorabinformation |
-| 7 | Vorabinformation, Stillhaltefrist | § 134 GWB | 10 bzw. 15 Kalendertage |
-| 8 | Ruege | § 160 Abs. 3 GWB | 10 Kalendertage (gesetzlich, Nr. 1) |
-| 9 | Nachpruefungsverfahren | §§ 155 ff. GWB | 15 Kalendertage nach Nichtabhilfe |
-| 10 | Sofortige Beschwerde | §§ 171 ff. GWB | 2 Wochen |
-| 11 | De-facto-Vergabe, Unwirksamkeit | § 135 GWB | 30 Kalendertage, max. 6 Monate |
-| 12 | Vertragsanpassung | § 132 GWB | — |
-| 13 | Sektoren, Konzessionen | SektVO, KonzVgV | analog |
-| 14 | Unterschwellenbereich | UVgO, VOB/A 1. Abschnitt | landesrechtlich |
-| 15 | Schadensersatz | § 181 GWB, § 280 BGB | 3 Jahre |
-| 16 | Akteneinsicht, Geschaeftsgeheimnis, Hinweisgeber | § 165 GWB, GeschGehG, HinSchG | verfahrensbezogen |
-
----
-
-## Phase 23 — Schnellverwendung in einem fremden Chatbot
-
-Wer diesen Skill in ChatGPT, Gemini, Mistral, Le Chat oder einem aehnlichen Chatbot ausserhalb von Claude Code nutzt, geht so vor:
-
-1. Diese gesamte Markdown-Datei in den Chatbot-Kontext laden (als Anhang oder per Copy-Paste in die erste Nachricht).
-2. Ergaenzen: "Du bist Volljurist und arbeitest streng nach diesem Pruefraster. Halte die Quellenhygiene ein."
-3. Mit dem Sachverhalt fortfahren: Bekanntmachung TED-Nr., Aufforderungsschreiben, Vergabeunterlagen, Angebot, Vorabinformation, ggf. Nichtabhilfemitteilung, ggf. Vergabekammer-Entscheidung.
-4. Bei jedem Output **Frist** zuerst pruefen, dann Sache.
-5. Zitierte Aktenzeichen vor Verwendung im realen Mandat **selbst** in BGH-, BVerfG-, EuGH-, juris- oder dejure-Datenbank verifizieren.
-
----
-
-## Phase 24 — Abschluss-Disclaimer
-
-Dieser Vollprüfung ersetzt **nicht** die anwaltliche Pruefung der Originalunterlagen, **nicht** die Mandatsuebernahme im Einzelfall und **nicht** die Verifikation aller Tatsachen, Aktenzeichen und Fristen. Er ist ein **Pruefraster zur Vorbereitung der anwaltlichen Bearbeitung**.
-
-Verwendung im realen Mandat **nur** durch zugelassenen Rechtsanwalt mit eigener Sachverhaltskenntnis, eigener Fristenkontrolle und eigener Quellenverifikation.
+Öffne die [Vertiefungsphasen 10 bis 24](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-vergaberecht/skills/vergaberechtliche-pruefung-anwaltlich-vollpruefung/references/phasen-10-bis-24.md) nur, wenn der Auftrag Rechtsmittel, De-facto-Vergabe, Vertragsanpassung, besondere Vergabearten, Schadensersatz, Akteneinsicht, Schriftsatzbausteine oder die erweiterte Prüfmatrix verlangt.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Fachanwalt Vergaberecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Vergaberecht._
 
 # Einstieg und Routing
 
@@ -870,7 +686,9 @@ Dieser Einstieg routet **Fachanwalt Vergaberecht** vom ersten Sachverhalt zu Rol
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Fachanwalt Vergaberecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Vergaberecht._
+
+# Vergabeunterlagen, Beteiligtenrolle und Fristen einordnen
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -884,8 +702,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Schnellstart-Workflow
 
@@ -943,7 +759,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -979,25 +795,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `erstgespraech-mandatsannahme` | Strukturierter Erstgespraechsleitfaden für Vergaberecht (Oberschwellen- und Unterschwellenvergabe): Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose… |
-| `fachanwalt-vergaberecht-de-facto-vergabe-klage` | De-facto-Vergabe ohne Ausschreibung angreifen: Bieter stellt fest dass öffentlicher Auftraggeber Auftrag direkt vergeben hat. Normen: § 135 GWB (Unwirksamkeit), §§ 160 ff. GWB (Nachprüfungsantrag VK), § 132 GWB… |
-| `fachanwalt-vergaberecht-eignungspruefung` | Bieter-Eignungsprüfung im Vergabeverfahren prüfen: Bieter wurde ausgeschlossen oder will Eignung nachweisen. Normen: § 122 GWB (Eignungskriterien), §§ 123 und 124 GWB (Ausschlussgründe), § 125 GWB (Selbstreinigung), §… |
-| `fachanwalt-vergaberecht-it-sicherheits-vergabe-bsi-it-sig-2` | IT-Sicherheits-Vergabe für KRITIS-Betreiber und Bundesbehoerden: Auftraggeber oder Bieter bei öffentlichen IT-Ausschreibungen mit erhoehten Sicherheitsanforderungen. Normen: §§ 122 und 124 GWB, IT-Sicherheitsgesetz 2.0… |
-| `fachanwalt-vergaberecht-nachpruefungsantrag-vk` | Nachprüfungsantrag bei der Vergabekammer nach §§ 160 ff. GWB stellen: Bieter ist unzulässig ausgeschlossen worden oder Zuschlag soll verhindert werden. Normen: § 160 Abs. 1 GWB (Nachprüfungsantrag), § 160 Abs. 2 GWB… |
-| `fachanwalt-vergaberecht-nachpruefungsverfahren-vk` | Nachprüfungsverfahren bei der Vergabekammer durchführen: Laufendes VK-Verfahren oder Beschluss der VK liegt vor. Normen: §§ 160 ff. GWB, § 169 GWB (Suspensiveffekt Zuschlagsverbot), § 171 GWB (Sofortige Beschwerde… |
-| `fachanwalt-vergaberecht-orientierung` | Orientierung im Fachanwaltsrecht Vergaberecht: FAO-Voraussetzungen, EU-Schwellen, Nachprüfungsverfahren, Kernliteratur überblicken. Normen: GWB §§ 97 ff. (Vergaberecht), VgV, SektVO, KonzVgV, UVgO (Unterschwelle),… |
-| `fachanwalt-vergaberecht-ruege-vor-zuschlag` | Vergaberechtliche Ruege nach § 160 Abs. 3 GWB vor Zuschlag erheben: Bieter hat Vergabeverstoesse erkannt und muss rügen bevor Zuschlag erteilt wird. Normen: § 160 Abs. 3 GWB (Ruegerobliegenheit als… |
-| `fachanwalt-vergaberecht-ruegeschriftsatz-160-gwb` | Ruegeschriftsatz im Vergabeverfahren nach § 160 Abs. 3 GWB ausarbeiten: Bieter will Ruege inhaltlich stark begründen. Normen: § 160 Abs. 3 GWB (Ruege als Zulassigkeitsvoraussetzung), §§ 97 ff. GWB. Prüfraster: Konkrete… |
-| `fachanwalt-vergaberecht-vk-aufklaerung-vergleich` | Vergabekammer-Erörterung, Akteneinsicht, Abhilfeverhandlung und Vergleichskorridor im Nachprüfungsverfahren: Sachverhalt schärfen, Aufklärungsverlangen beantworten, § 168-GWB-Abstellungsziel formulieren, Kosten- und OLG-Risiko bewerten. |
-| `mandat-triage-vergaberecht` | Eingangs-Triage für vergaberechtliche Mandate: Mandantenrolle, Schwellenwert, Verfahrensstand und Frist-Sofort-Check. Normen: § 106 GWB (EU-Schwellen), § 134 GWB (Vorabinformation 10 Kalendertage Stillhaltefrist), §… |
-| `ruegeschriftsatz-erstellen` | Ruegeschriftsatz nach § 160 Abs. 3 GWB als Pflichtvoraussetzung jeder Vergabenachprüfung. Adressat öffentlicher Auftraggeber. Konkret bezeichneter Vergabeverstoß mit Norm und Sachverhalt. Antrag auf Abhilfe und… |
-| `schriftsatzkern-substantiierung` | Substantiierter Schriftsatzkern für Nachprüfungsantrag VK, Sofortige Beschwerde OLG, Schadensersatzklage § 181 GWB: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge,… |
-| `vergabe-nachpruefung-aussicht` | Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten einschaetzen. Normen: §§ 155 ff. GWB (Rechtsschutz), § 160 Abs. 2 GWB (Antragsbefugnis), § 160 Abs. 3 GWB… |
-| `vergleichsverhandlung-strategie` | Vergleichsverhandlungs-Strategie für Vergaberecht (Oberschwellen- und Unterschwellenvergabe): ZOPA, BATNA, Verhandlungsfenster, Druckmittel, Settlement-Skript, Vergleichsentwurf und prozessuale Absicherung… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-vergaberecht/skills/kaltstart-triage/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Qualitätsversprechen
 
@@ -1025,7 +829,7 @@ Hinweis: Dieser Skill stärkt die anwaltliche Arbeit, indem er Workflow, Intake 
 
 ## Skill: `mandat-triage-vergaberecht`
 
-_Wenn es um Mandat Triage Vergaberecht in Fachanwalt Vergaberecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Mandat Triage Vergaberecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Eingangs-Triage für vergaberechtliche Mandate: Mandantenrolle, Schwellenwert, Verfahrensstand und Frist-Sofort-Check
 
@@ -1042,8 +846,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -1142,7 +944,6 @@ Bei Stillhaltefrist § 134 GWB läuft:
 ## Mandatsannahme
 
 - **Konflikt-Check** — kein Doppel-Mandat unter Bietern
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Komplexität** Sachverständigen-Bedarf technisch Kalkulationen
 - **Versicherungs-Deckung** Bietern selten — Berufshaftpflicht Anwalt prüfen
 
@@ -1201,7 +1002,6 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 
 ### Triage-Vertiefung — kritische Vergaberecht-Fristen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Output-Template Triage-Protokoll Vergaberecht
 **Adressat:** Intern — Tonfall: schnell, fristorientiert
@@ -1237,11 +1037,13 @@ Naechster Schritt: [Ruege / NPA / §181-Klage]
 - Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
 - Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `orientierung-mandat-fachanwaltschaft`
 
-_Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Vergaberecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
+_Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Vergaberecht._
 
 # Orientierung im Fachanwaltsrecht Vergaberecht: FAO-Voraussetzungen, EU-Schwellen, Nachprüfungsverfahren, Kernliteratur überblicken
 
@@ -1320,7 +1122,6 @@ _Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Vergaberecht geht
 
 ### Schlüssel-Leitsaetze Vergaberecht 2020-2024
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Überblick Vergaberecht
 | Regelwerk | Anwendungsbereich |
@@ -1348,11 +1149,13 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
 - Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `spezial-orientierung-red-team-und-qualitaetskontrolle`
 
-_Wenn es um Orientierung: Red-Team und Qualitätskontrolle in Fachanwalt Vergaberecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck._
 
 # Orientierung: Red-Team und Qualitätskontrolle
 
@@ -1419,177 +1222,9 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `fachanwalt-vergaberecht-orientierung`
-
-_Wenn es um Fachanwalt für Vergaberecht — Orientierung in Fachanwalt Vergaberecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt für Vergaberecht — Orientierung
-
-## FAO-Voraussetzungen
-
-- Lehrgang 120 Stunden + drei Klausuren.
-- 40 Fälle in den letzten drei Jahren, davon mindestens 20 streitige.
-
-## Wichtige Normen
-
-| Bereich | Norm |
-|---|---|
-| Vergaberecht Oberschwellig | GWB §§ 97 ff. (Vergaberecht) §§ 155 ff. (Nachprüfung) |
-| Vergabeverordnung | VgV (Liefer- und Dienstleistungen) |
-| Sektoren | SektVO |
-| Konzessionen | KonzVgV |
-| Bauleistungen oberschwellig | VgV-Baubereich VOB-A Abschnitt 2 |
-| Unterschwellig | UVgO (Unterschwellenvergabeordnung) VOB-A Abschnitt 1 |
-| EU-Schwellenwerte | Delegierte Verordnungen (alle zwei Jahre); ab 01.01.2026 (DelVO (EU) 2025/2150/2151/2152): Liefer-/Dienstleistung Kommunen EUR 216000 Bund EUR 140000 Sektoren EUR 432000 Bau und Konzessionen EUR 5404000; Soziale/besondere Dienstleistungen unverändert EUR 750000 (Bund) bzw. EUR 1000000 (Sektoren) |
-| Verteidigung und Sicherheit | VSVgV |
-| EU-RL | RL 2014/24 (allgemein) RL 2014/25 (Sektoren) RL 2014/23 (Konzessionen) RL 2007/66 Rechtsmittel |
-
-## Typische Mandate
-
-- Vertretung Bieter im Vergabeverfahren
-- Ruege bei der Vergabestelle (§ 160 Abs. 3 GWB)
-- Nachprüfungsantrag bei der Vergabekammer
-- Beschwerde gegen Entscheidung der Vergabekammer beim OLG-Vergabesenat
-- Vertretung Auftraggeber (Vergabestelle) bei Streitigkeiten
-- Korruption und Compliance bei öffentlichen Aufträgen
-- Schadensersatz nach § 181 GWB bei vergaberechtswidriger Vergabe
-
-## Fristen
-
-- **Ruegefrist** § 160 Abs. 3 GWB:
-  - **erkannte Verstöße** unverzueglich nach Kenntnis (in der Praxis bis zu zehn Kalendertage).
-  - **erkennbare Verstöße** vor Ablauf der Angebotsfrist.
-  - **in der Bekanntmachung erkennbare Verstöße** bis zum Ablauf der Angebotsfrist.
-- **Nachprüfungsantrag** § 160 GWB binnen 15 Kalendertagen nach Mitteilung der Vergabestelle dass der Ruege nicht abgeholfen wird.
-- **Beschwerde** § 171 GWB binnen zwei Wochen nach Zustellung der Vergabekammer-Entscheidung.
-- **Stillhaltefrist § 134 GWB** zehn Kalendertage (15 bei nicht-elektronischer Information) zwischen Vorinformation und Zuschlag.
-
-## Hauptforen
-
-- **Vergabekammer** (Bund: BKartA Vergabekammer; Land: Vergabekammer der Bezirksregierung / Landesvergabekammer).
-- **OLG-Vergabesenat** Beschwerdeinstanz.
-- **BGH** (XIII. Zivilsenat seit 01.01.2021) bei Divergenzvorlage § 179 Abs. 2 GWB des OLG-Vergabesenats.
-- **EuGH** bei EU-rechtlichen Vorabentscheidungen.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Berufsverband
-
-- ARGE Vergaberecht DAV.
-- DVNW Deutsches Vergabenetzwerk.
-
-## Schnittstellen
-
-- **fachanwalt-bau-architektenrecht** bei Bauaufträgen.
-- **regulatorisches-recht** bei Beihilferecht.
-- **gesellschaftsrecht** bei Bieterkonsortien.
-- **kanzlei-allgemein** Notfristen Versand.
-
-## Vertiefung: Aktuelle Rechtsprechung und Normen
-
-### Schluessel-Leitsaetze Vergaberecht 2020-2024
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Normen-Ueberblick Vergaberecht
-| Regelwerk | Anwendungsbereich |
-|---|---|
-| GWB §§ 97-131 | Grundsaetze (Oberschwelle) |
-| GWB §§ 155-186 | Nachpruefungsverfahren |
-| VgV | Liefer-/Dienstleistungen (Bund/Laender) |
-| SektVO | Versorgungsunternehmen (Wasser/Energie/OEPNV) |
-| KonzVgV | Konzessionsvergaben |
-| UVgO | Unterschwellige Lieferungen/Dienstleistungen |
-| VOB/A Abschnitt 1 | Unterschwellige Bauleistungen |
-| VOB/A Abschnitt 2 | EU-Bauleistungen |
-
-### Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
-
-## Vergabe-Workbench-Boost v61.2
-
-- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
-- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
-- Fuer Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
-- Fuer Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
-- Pruefe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
-- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
-- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
-
----
-
-## Skill: `orientierung-fehlerkatalog`
-
-_Wenn es um Orientierung Fehlerkatalog in Fachanwalt Vergaberecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Orientierung Fehlerkatalog
-
-## Zweck
-
-Dieser Fehlerkatalog prüft Arbeitsergebnisse für **Fachanwalt Vergaberecht** vor Abgabe, Versand oder Mandantenfreigabe gegen die im Sachgebiet typischen Fehlerquellen — jeweils mit Symptom, Diagnose und Heilung.
-
-## Fehlerkatalog
-
-### 1. Frist falsch berechnet oder übersehen (§ 160 III GWB Rüge unverzüglich (10 Tage))
-
-- **Symptom:** Frist falsch berechnet oder übersehen (§ 160 III GWB Rüge unverzüglich (10 Tage))
-- **Diagnose:** Fristbeginn ab falschem Ereignis gerechnet (Zugang vs. Datum des Schreibens) oder Vorfrist im Kanzleisystem fehlt
-- **Heilung:** Fristenkette aus dem Originaldokument rekonstruieren, Zugangsnachweis sichern, Vorfrist mit zwei Wochen setzen
-
-### 2. Parallelfrist vergessen (Nachprüfungsantrag 15 Tage)
-
-- **Symptom:** Parallelfrist vergessen (Nachprüfungsantrag 15 Tage)
-- **Diagnose:** Zweite, unabhängig laufende Frist wird von der ersten verdeckt
-- **Heilung:** Alle Fristen des Vorgangs tabellarisch erfassen und einzeln verfügen
-
-### 3. Falsche Zuständigkeit adressiert (richtig: Vergabekammer Bund/Länder)
-
-- **Symptom:** Falsche Zuständigkeit adressiert (richtig: Vergabekammer Bund/Länder)
-- **Diagnose:** Schriftsatz oder Antrag an unzuständige Stelle — Fristwahrung gefährdet
-- **Heilung:** Zuständigkeit vor Versand gegen Gesetz und aktuelle Organisationsverfügung prüfen; bei Zweifel fristwahrend bei beiden Stellen einreichen
-
-### 4. Beweismittel nicht gesichert (Submissionsprotokoll)
-
-- **Symptom:** Beweismittel nicht gesichert (Submissionsprotokoll)
-- **Diagnose:** Tatsachenbehauptung im Schriftsatz ohne verfügbares Beweismittel
-- **Heilung:** Pro Behauptung Beweismittel und Fundstelle notieren; fehlende Belege als Lücke ausweisen und beschaffen
-
-### 5. Schlüsseldokument fehlt oder veraltet (Vergabeunterlagen)
-
-- **Symptom:** Schlüsseldokument fehlt oder veraltet (Vergabeunterlagen)
-- **Diagnose:** Arbeit mit Entwurfs- oder Altfassung statt der maßgeblichen Version
-- **Heilung:** Versionsstand und Datum jedes Dokuments prüfen; maßgebliche Fassung in der Akte markieren
-
-### 6. Normzitat ohne Fassungsprüfung (GWB §§ 97 ff.)
-
-- **Symptom:** Normzitat ohne Fassungsprüfung (GWB §§ 97 ff.)
-- **Diagnose:** Zitierte Norm wurde geändert, verschoben oder aufgehoben
-- **Heilung:** Vor Abgabe jeden Paragraphen gegen gesetze-im-internet.de prüfen; Übergangsvorschriften beachten
-
-### 7. Rechtsprechung aus Modellwissen zitiert
-
-- **Symptom:** Rechtsprechung aus Modellwissen zitiert
-- **Diagnose:** Aktenzeichen oder Fundstelle nicht live verifiziert — Risiko halluzinierter Zitate
-- **Heilung:** Jede Entscheidung mit Gericht, Datum, Az und frei prüfbarer Quelle gegenchecken; sonst als Prüfpunkt markieren
-
-### 8. Mandantengeheimnis bei Tool-Einsatz verletzt
-
-- **Symptom:** Mandantengeheimnis bei Tool-Einsatz verletzt
-- **Diagnose:** Klartext-Mandantendaten in Werkzeug ohne Auftragsverarbeitungsvertrag
-- **Heilung:** Vor Upload anonymisieren oder AVV-gedeckte Umgebung nutzen (§ 43a Abs. 2 BRAO, § 203 StGB)
-
-## Ausgabe
-
-Roter/gelber/grüner Befund je Fehlerachse; jeder rote Punkt mit konkreter Korrektur und verbleibendem Restrisiko. Quellenhygiene nach `references/quellenhygiene.md`.
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

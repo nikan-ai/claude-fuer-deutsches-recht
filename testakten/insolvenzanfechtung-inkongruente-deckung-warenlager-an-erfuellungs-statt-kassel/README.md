@@ -1,18 +1,25 @@
 # Testakte: Insolvenzanfechtung — Warenlager an Erfüllungs statt an den Hauptlieferanten (Kassel)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 186 KB) | PDF | [`gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -61,6 +68,7 @@ insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel/
 ├── 20_replik_verwalterin_2026-11-09.docx            — Replik zum Klageverfahren: Vertiefung Liquiditätslage und Kenntnisindizien
 ├── 21_duplik_appelt_2026-11-30.docx                 — Duplik: Angriff auf Sanierungsgutachten und Bewertungsansatz
 ├── 22_beweisbeschluss_lg_kassel_2026-12-14.docx      — Beweisbeschluss: Zeugenvernehmung Kurrle, Sachverständigengutachten zur Zahlungsunfähigkeit
+├── 22a_protokollauszug_zeugenvernehmung_kurrle_2027-01-21.docx — Protokollauszug des Beweistermins: Aussage Kurrle mit Vorhalten aus dem Chatverlauf
 ├── 23_sachverstaendigengutachten_osterhage_2027-03-08.docx — Gutachten Osterhage: Zahlungsunfähigkeit bereits ab 01.02.2025 belegt
 ├── 24_urteil_lg_kassel_2027-06-21.docx              — Urteil: Verurteilung zur Rückgewähr dem Grunde und ganz überwiegend der Höhe nach
 ├── 25_schlussvermerk_verwalterin_2027-08-16.docx     — Schlussvermerk: Zahlungseingang, Verfahrensabschluss, Massequote
@@ -70,7 +78,6 @@ insolvenzanfechtung-inkongruente-deckung-warenlager-an-erfuellungs-statt-kassel/
 │   ├── 2025-11-27_daemmtec_lieferstopp.eml          — Lieferstopp und Gesprächsangebot mit Bitte um Lagerliste
 │   ├── 2025-12-09_hillebrand_intern_ware_sichern.eml — Interne Weisung des Lieferanten-GF („bevor die Bude kippt, nehmen wir Ware")
 │   ├── 2025-12-16_wenzel_uebereignung_entwurf.eml   — Entwurfsabstimmung mit offenem Hinweis auf das Brandau-Risiko
-│   ├── 2026-07-06_sachstand_nachforderung.eml       — Sachstandsanfrage der Verwalterin vor Klageerhebung
 │   ├── 2026-12-08_ladung_zeuge_kurrle.eml           — Ladung des Zeugen Kurrle zum Beweistermin
 │   ├── 2027-06-22_urteilszustellung_salzwedel.eml   — Zustellungsmitteilung des Urteils an die Verwalterin
 │   └── 2027-08-10_zahlungsbestaetigung_daemmtec.eml — Zahlungsbestätigung der Dämmtec Werra GmbH nach Rechtskraft

@@ -1,18 +1,25 @@
 # Akte: Patentstreit Vellbruck Medizintechnik ./. TitanOrtho / Bochstädt — Hüftimplantat Titan EP 3 218 922 B1
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 804 KB) | PDF | [`gesamt-pdf/patent-verletzung-implantat-titan-vellbruck-stuttgart_gesamt.pdf`](gesamt-pdf/patent-verletzung-implantat-titan-vellbruck-stuttgart_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/patent-verletzung-implantat-titan-vellbruck-stuttgart_gesamt.pdf`](gesamt-pdf/patent-verletzung-implantat-titan-vellbruck-stuttgart_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-patent-verletzung-implantat-titan-vellbruck-stuttgart-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -90,7 +97,6 @@ Zusätzlicher FRAND-Konflikt mit US-Schwesterfirma Vellbruck MedTech Inc. wegen 
 |-----|-------|--------|
 | 01 | [`01_mandatsannahme_patent_birkenhainer.docx`](01_mandatsannahme_patent_birkenhainer.docx) | Mandatsannahme, Vollmacht, Beteiligte, Honorarvereinbarung (18.01.2026) |
 | 02 | [`02_beteiligte_und_verfahren.docx`](02_beteiligte_und_verfahren.docx) | Verfahrensübersicht, Detaildarstellung Beklagte, Kanzleiteam, Fristen |
-| 03 | [`03_patent_ep_3218922_anspruchsanalyse_aequivalenz.docx`](03_patent_ep_3218922_anspruchsanalyse_aequivalenz.docx) | Hauptanspruch 1, Verletzungsanalyse (alle 5 Merkmale), Äquivalenz, Stand der Technik |
 | 04 | [`04_upc_klage_act_0188_2026_duesseldorf.docx`](04_upc_klage_act_0188_2026_duesseldorf.docx) | UPC-Klageschrift, Anträge, Streitwert 4,5 Mio. EUR, Verfahrensablauf |
 | 05 | [`05_bpatg_nichtigkeitsklage_4ni18_26.docx`](05_bpatg_nichtigkeitsklage_4ni18_26.docx) | BPatG-Nichtigkeitsklage Bochstädt, Widerlegung NK1/NK2, Hilfsanträge |
 | 06 | [`06_markenrecht_titanflex_uwg.docx`](06_markenrecht_titanflex_uwg.docx) | Marke TITANFLEX vs. TitanFlex Pro, Verwechslungsgefahr, UWG-Ansprüche, Abmahnung |
@@ -127,7 +133,6 @@ Zusätzlicher FRAND-Konflikt mit US-Schwesterfirma Vellbruck MedTech Inc. wegen 
 
 | Datei | Inhalt |
 |-------|--------|
-| [`xlsx/patentmatrix_anspruch_verletzung_aequivalenz.xlsx`](xlsx/patentmatrix_anspruch_verletzung_aequivalenz.xlsx) | Verletzungsmatrix für alle 5 Merkmale des Anspruchs 1; Unteransprüche-Tab; Messwerte µ-CT |
 | [`xlsx/schadensberechnung_lizenzanalogie_p139.xlsx`](xlsx/schadensberechnung_lizenzanalogie_p139.xlsx) | Quartalsumsätze Bochstädt Q4 2024–Q1 2026; Lizenzanalogie 5,5 % Patent; 1,0 % Marke; entgangener Gewinn |
 
 ---
@@ -141,10 +146,15 @@ Zusätzlicher FRAND-Konflikt mit US-Schwesterfirma Vellbruck MedTech Inc. wegen 
 | [`emails/2026-03-10_zoll_frankfurt_grenzbeschlagnahme_anzeige.eml`](emails/2026-03-10_zoll_frankfurt_grenzbeschlagnahme_anzeige.eml) | HZA Frankfurt: amtswegige Zuückhaltung 14 Titanschäfte aus China (Zhejiang MedTech) |
 | [`emails/2026-04-02_titanortho_an_kanzlei_settlement_proposal.eml`](emails/2026-04-02_titanortho_an_kanzlei_settlement_proposal.eml) | TitanOrtho (RA Kowalczyk, Wroclaw): Vergleichsangebot (2 % Lizenz, 180.000 EUR Schadensersatz) |
 | [`emails/2026-04-18_drostmann_zeugenvorladung.eml`](emails/2026-04-18_drostmann_zeugenvorladung.eml) | RA Dr. Karstens an RA Stierle (Bev. Drostmann): Zeugenvorladung GeschG-Verfahren, § 23 GeschG |
+| [`emails/2026-04-27_zoll_frankfurt_zweite_zurueckhaltung.eml`](emails/2026-04-27_zoll_frankfurt_zweite_zurueckhaltung.eml) | HZA Frankfurt: Bewilligung des Antrags auf Tätigwerden und Zurückhaltung weiterer 40 Titanschäfte, Frist zehn Arbeitstage |
 
 ---
 
 ## PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |-------|--------|
@@ -157,7 +167,6 @@ Zusätzlicher FRAND-Konflikt mit US-Schwesterfirma Vellbruck MedTech Inc. wegen 
 
 | Datei | Inhalt |
 |-------|--------|
-| [`jpg/patent_anspruchsdiagramm.jpg`](jpg/patent_anspruchsdiagramm.jpg) | Strukturdiagramm EP 3 218 922 B1: alle 5 Merkmale, Unteransprüche, Stand der Technik NK1/NK2 |
 | [`jpg/hueftimplantat_titan_oberflaeche_makro.jpg`](jpg/hueftimplantat_titan_oberflaeche_makro.jpg) | Simulierte Makroaufnahme Hüftschaft-Implantat: poröse Oberfläche proximal, Fins distal, Maßstab |
 | [`jpg/kollisionsschlachtfeld_ip_uebersicht_diagramm.jpg`](jpg/kollisionsschlachtfeld_ip_uebersicht_diagramm.jpg) | Diagramm IP-Kollisionsschlachtfeld: alle Schutzrechte, Gerichte, Beklagte, Verfahren |
 

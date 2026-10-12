@@ -1,0 +1,49 @@
+# BGB: Smartphone-Reparatur und verlorene Familienfotos in Jena
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bgb-smartphone-reparatur-datenverlust-jena_gesamt.pdf`](gesamt-pdf/bgb-smartphone-reparatur-datenverlust-jena_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bgb-smartphone-reparatur-datenverlust-jena.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-smartphone-reparatur-datenverlust-jena.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bgb-smartphone-reparatur-datenverlust-jena-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-smartphone-reparatur-datenverlust-jena-einzelpdfs.zip) |
+
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+Arbeitsakte zu den Plugins `bgb-bt-pruefer`, `verbraucherschutzrecht-pruefer`.
+
+## Kurzbild
+
+Nach einem Displaybruch gibt Nadine Krüger ihr Smartphone bei PhoneDock Jena ab. Die Werkstatt tauscht nach einem Startfehler zusätzlich die Hauptplatine; lokale Fotos, Sprachnachrichten und Zugangsdaten sind danach weg, während Auftrag, Sicherungshinweis und telefonische Freigabe unterschiedlich dokumentiert sind.
+
+## Aktenstücke
+
+| Datei | Inhalt |
+| --- | --- |
+| `01_reparaturauftrag_display.docx` | Auftrag, Datensicherungshinweis und Kostengrenze |
+| `02_werkstattprotokoll_hauptplatine.docx` | Technischer Ablauf und Altteilrücksendung |
+| `03_maengelanzeige_datenverlust.docx` | Datenbestand und konkrete Beanstandung |
+| `04_antwort_werkstatt_und_versicherung.docx` | Werkstattantwort und Versicherungsanforderungen |
+| `05_email_cloudspeicher_status.eml` | Cloudübersicht mit letzter vollständiger Sicherung |
+| `06_email_datenrettung_kostenvoranschlag.eml` | Fachlabor erläutert Voraussetzungen und Kosten |
+| `07_telefonnotiz_freigabe_14_mai.txt` | Zeitnahe Erinnerung an den Freigabeanruf |
+| `08_dateibestand_cloud_lokal.csv` | Abgleich lokaler und gesicherter Dateien |
+| `09_reparaturzeiten_teile_kosten.csv` | Technik- und Kostenchronologie |
+| `10_foto_auftrag_tablet_unterschrift.jpg` | Foto der Kundenkopie mit leeren Feldern |
+
+## Bearbeitung
+
+Auftrag, Kostengrenze, Diagnoselog, Anrufdaten, Datensicherungen und Schadenaufstellung ermöglichen die Prüfung von Werkleistung und Nebenpflichten. Wert und Kausalität des Datenverlusts bleiben offen.

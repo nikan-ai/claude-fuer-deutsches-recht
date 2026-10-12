@@ -1,18 +1,25 @@
 # Testakte: Insolvenzanfechtung Vondering Metallform — Grundstücksverkauf und „Vermittlungsprovision" (Mönchengladbach)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 201 KB) | PDF | [`gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -77,6 +84,7 @@ insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladba
 └── eml/
     ├── 2025-09-29_rheinpark_erstkontakt.eml                Erstkontakt der Erwerberin direkt beim Geschäftsführer aus eigener Ankaufsrecherche
     ├── 2025-11-03_vondering_provision.eml                  E-Mail des Geschäftsführers an den Bruder zur Ausgestaltung der „Provision"
+    ├── 2026-06-24_stefan_vondering_antwort_anfechtung.eml  Antwort des Bruders auf die Anfechtung: Golfclub-Kontakt, behauptete Leistungen, Entreicherung, Ratenangebot
     ├── 2026-09-08_terminsladung_gutachterin.eml            Terminsladung mit mündlicher Gutachtenerläuterung
     ├── 2026-11-24_vergleichsannahme_rheinpark.eml          Vergleichsannahme der Beklagten
     └── 2027-02-02_zahlungseingang_zweite_rate.eml          Bestätigung des vollständigen Zahlungseingangs
