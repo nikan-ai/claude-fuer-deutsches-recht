@@ -3,15 +3,23 @@
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 758 KB) | PDF | [`gesamt-pdf/insolvenz-asset-deal-chaincortex-ai-berlin_gesamt.pdf`](gesamt-pdf/insolvenz-asset-deal-chaincortex-ai-berlin_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenz-asset-deal-chaincortex-ai-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenz-asset-deal-chaincortex-ai-berlin.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenz-asset-deal-chaincortex-ai-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenz-asset-deal-chaincortex-ai-berlin-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenz-asset-deal-chaincortex-ai-berlin_gesamt.pdf`](gesamt-pdf/insolvenz-asset-deal-chaincortex-ai-berlin_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenz-asset-deal-chaincortex-ai-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenz-asset-deal-chaincortex-ai-berlin.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenz-asset-deal-chaincortex-ai-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenz-asset-deal-chaincortex-ai-berlin-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -53,13 +61,13 @@ Diese Akte ist eine Arbeitsakte für die Plugins `fachanwalt-insolvenz-sanierung
                   v
         Voracis Ventures GmbH (NEWCO, gegruendet 2 Monate vor Closing)
                   |
-                  | Asset Deal nach $$ 160, 162 InsO
+                  | Asset Deal nach Paragrafen 160, 162 InsO
                   v
         [Assets aus Insolvenzmasse ChainCortex AI GmbH]
         - Software-IP (3 Repos)
         - Marken (DPMA: ChainCortex, BlockSight)
         - Domains, Know-how
-        - 10 Arbeitsverhaeltnisse $ 613a BGB
+        - 10 Arbeitsverhaeltnisse Paragraf 613a BGB
         - Kundendaten B2B + B2C (DSGVO!)
                   |
                   v
@@ -105,10 +113,10 @@ Diese Akte ist eine Arbeitsakte für die Plugins `fachanwalt-insolvenz-sanierung
 |---|---|
 | `docx/` | Asset-Purchase-Agreement ChainCortex ↔ Voracis (Times New Roman, ausgefüllt); § 613a V BGB-Unterrichtungs-Mustertext (Times New Roman); Beschlussvorlage Gläubigerausschuss § 160 InsO (Times New Roman) |
 | `pdfs/` | Asset-Purchase-Agreement (Times Roman); Eröffnungsbeschluss AG Charlottenburg; DSGVO-Informationsschreiben Privatkunden; § 613a V-Unterrichtungsschreiben; Schlussbericht Insolvenzverwalter (Auszug) |
-| `xlsx/` | Kundendaten-B2B (12 juristische Personen), Kundendaten-B2C (8 natürliche Personen, davon 1 Widerspruch); Asset-Inventur; AN-Liste mit Übernahmestatus; Massekostenkalkulation nach Closing |
+| `xlsx/` | Kundendaten-B2B (12 juristische Personen); Asset-Inventur; AN-Liste mit Übernahmestatus; Massekostenkalkulation nach Closing. Eine B2C-Übertragungsliste wird wegen der beendeten Verträge nicht als Erwerberanlage geführt. |
 | `csv/` | Liquiditätsplan 12 Monate; Bieter-Vergleich (4 Bieter, ausgewählter Voracis fett); Kaufpreisraten-Zahlungsplan |
 | `jpg/` | Transaktionsstruktur (Organigramm), Asset-Verwertungsmatrix (Verwalter-Tafel), Closing-Workshop-Whiteboard, Eingangsbestätigung beA + AG-Stempel, Closing-Unterzeichnung im Notariat |
-| `eml/` | DSGVO-Information an Privatkunden (Entwurf); § 613a-Unterrichtung an AN; Gläubigerausschuss-Einberufung 17.06.2026; LOI-Übersendung an Voracis; Treuhandkonto-Zahlungsbestätigung; Widerspruch Frau Kettlitz; IT-Gutachter-Rückfrage GPL; Mangelanzeige Käuferin; IV-Antwort Gewährleistung |
+| `eml/` | DSGVO-Information an Privatkunden (Entwurf); § 613a-Unterrichtung an AN; Gläubigerausschuss-Einberufung 17.06.2026; LOI-Übersendung an Voracis; Treuhandkonto-Zahlungsbestätigung; Widerspruch Frau Kettlitz; IT-Gutachter-Rückfrage GPL; Mangelanzeige Käuferin; IV-Antwort Gewährleistung; Käuferin-Bestätigung Retention-Freigabe mit offenem Domain-Transfer (`11_kaeuferin_bestaetigung_retention_freigabe.eml`) |
 
 ## Relevante Normen (Stand 06/2026)
 
@@ -116,7 +124,7 @@ Diese Akte ist eine Arbeitsakte für die Plugins `fachanwalt-insolvenz-sanierung
 - **BGB** §§ 433 ff. (Kaufvertrag), § 311b III BGB i. V. m. § 419 BGB a. F. nicht mehr einschlägig (1999 aufgehoben), § 613a BGB (Betriebsübergang), §§ 280 ff. (Haftung), § 134 BGB (Verbotsgesetz)
 - **HGB** § 25 HGB Firmenfortführung — bei Asset Deal aus Insolvenz: § 25 II HGB Haftungsausschluss in HR-Eintragung erforderlich; BGH-Linie zur Eintragung des Haftungsausschlusses (II. Zivilsenat, live verifizieren auf bundesgerichtshof.de)
 - **UStG** § 1 Abs. 1a (Geschäftsveräußerung im Ganzen — GiG); §§ 14, 14a (Rechnung)
-- **DSGVO** Art. 6 I lit. f, Art. 14, Art. 28 i. V. m. **§ 26 BDSG** (Beschäftigtendaten) — speziell EuGH **C-732/22** (Urteil v. 26.09.2024, Bonprix) zur Datenübermittlung im Asset Deal: Rechtsgrundlage muss vorab geprüft sein
+- DSGVO Artikel 6 Absatz 1 Buchstabe f, Artikel 14 und Artikel 28 in Verbindung mit BDSG Paragraf 26 bei Beschäftigtendaten. EuGH, Urteil vom 04.10.2024 - C-621/22 (KNLTB) bestätigt nur, dass ein rechtmäßiges kommerzielles Interesse grundsätzlich in Betracht kommt; Erforderlichkeit, Datenminimierung und Interessenabwägung sind für den Asset Deal eigenständig zu prüfen.
 - **MarkenG** §§ 27 ff. (Umschreibung Marken im Register); für DPMA-Marken: §§ 28, 50, 27 MarkenG i. V. m. § 31 DPMAV
 - **GeschGehG** §§ 2, 3, 7 (Schutz und Übertragung von Geschäftsgeheimnissen — Know-how-Komponente)
 - **UrhG** §§ 31, 34 (Übertragung von Nutzungsrechten an Software)
@@ -130,7 +138,7 @@ Diese Akte ist eine Arbeitsakte für die Plugins `fachanwalt-insolvenz-sanierung
 - [dejure.org — BGB § 613a](https://dejure.org/gesetze/BGB/613a.html)
 - [dejure.org — UStG § 1](https://dejure.org/gesetze/UStG/1.html)
 - [dejure.org — MarkenG § 27](https://dejure.org/gesetze/MarkenG/27.html)
-- EuGH C-732/22 (Bonprix) — Urteil v. 26.09.2024 — Datenübertragung im Asset Deal: https://curia.europa.eu (Suchmaske, Rs. C-732/22)
+- EuGH, Urteil vom 04.10.2024 - C-621/22 (KNLTB) — kommerzielles Interesse, Erforderlichkeit und Interessenabwägung nach Artikel 6 Absatz 1 Buchstabe f DSGVO: https://curia.europa.eu/juris/liste.jsf?num=C-621/22
 
 ## Hinweis
 

@@ -3,15 +3,23 @@
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 594 KB) | PDF | [`gesamt-pdf/exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim_gesamt.pdf`](gesamt-pdf/exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim_gesamt.pdf`](gesamt-pdf/exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-exportkontrolle-dual-use-anlagentechnik-werkmann-mannheim-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -69,7 +77,7 @@ Arbeitsakte zum Plugin `fachanwalt-internationales-wirtschaftsrecht`.
 
 | Nr. | Datei | Inhalt |
 |---|---|---|
-| 01 | [`01_mandatsaufnahme_erstbesprechung.docx`](01_mandatsaufnahme_erstbesprechung.docx) | Mandatsaufnahme, Vollmacht, Sachverhaltsüberblick alle Komplexe |
+| 01a | [`01a_vollmacht_anlage_01a.docx`](01a_vollmacht_anlage_01a.docx) | Notariell beglaubigte Vollmacht der Mandantin (Anlage 01/A) |
 | 02 | [`02_bafa_owi_verfahren_dual_use.docx`](02_bafa_owi_verfahren_dual_use.docx) | BAFA OWi-Verfahren § 18 AWG, Rechtsrahmen, Chronologie, Strategie |
 | 03 | [`03_mfr3400x_technische_analyse_dual_use.docx`](03_mfr3400x_technische_analyse_dual_use.docx) | Technische Analyse MFR-3400X, Listungsprüfung Dual-Use-VO |
 | 04 | [`04_spengler_engineering_lieferkette_ermittlung.docx`](04_spengler_engineering_lieferkette_ermittlung.docx) | Lieferkettenermittlung, Spengler/Transcaucasia/Razi, Red Flags |
@@ -91,6 +99,7 @@ Arbeitsakte zum Plugin `fachanwalt-internationales-wirtschaftsrecht`.
 | 20 | [`20_gesamtstrategie_verfahrenskoordination.docx`](20_gesamtstrategie_verfahrenskoordination.docx) | Gesamtstrategie, Verfahrensübersicht, Risikomatrix |
 | 21 | [`21_verfahrensstand_september_2026.docx`](21_verfahrensstand_september_2026.docx) | Stichtagsbericht September 2026, alle Verfahren |
 | 22 | [`22_qualitaetssicherung_lehren_compliance_neuaufstellung.docx`](22_qualitaetssicherung_lehren_compliance_neuaufstellung.docx) | Lehren, Compliance-Neuaufstellung, Aufsichtsratspräsentation |
+| 23 | [`23_chatprotokoll_meusel_spengler_whatsapp.txt`](23_chatprotokoll_meusel_spengler_whatsapp.txt) | Gesicherter WhatsApp-Verlauf Meusel/Spengler-Roth Juni bis September 2024, Zürich-Teheran-Hinweis |
 
 ---
 
@@ -121,6 +130,10 @@ Arbeitsakte zum Plugin `fachanwalt-internationales-wirtschaftsrecht`.
 | [`eml/al_quwairy_riad_provision_anfrage.eml`](eml/al_quwairy_riad_provision_anfrage.eml) | E-Mail Al-Quwairy Trading LLC, Riad, Provisionsforderung |
 
 ### PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|

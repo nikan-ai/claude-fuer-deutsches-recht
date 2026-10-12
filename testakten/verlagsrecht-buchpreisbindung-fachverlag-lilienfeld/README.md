@@ -1,18 +1,25 @@
 # Akte Lilienfeld Verlag: Fachbuch, E-Book-Bundle, Remittenden und Preisbindungsabmahnung
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 118 KB) | PDF | [`gesamt-pdf/verlagsrecht-buchpreisbindung-fachverlag-lilienfeld_gesamt.pdf`](gesamt-pdf/verlagsrecht-buchpreisbindung-fachverlag-lilienfeld_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/verlagsrecht-buchpreisbindung-fachverlag-lilienfeld_gesamt.pdf`](gesamt-pdf/verlagsrecht-buchpreisbindung-fachverlag-lilienfeld_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-verlagsrecht-buchpreisbindung-fachverlag-lilienfeld-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -20,27 +27,37 @@ Diese Akte gehört zu den Plugins `verlagsrecht-buchpreisbindung`, `verlagsredak
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 - [Gesamt-PDF](gesamt-pdf/verlagsrecht-buchpreisbindung-fachverlag-lilienfeld_gesamt.pdf)
-- Die Einzeldateien in diesem Ordner bilden den Aktenwust aus E-Mail, Tabelle, Vermerk, Bild und Anlagen ab.
+- Die Einzeldateien enthalten Verlagsvertrag, Produkt- und Preisstamm, Lagerschadenprotokoll, Abmahnung, Autoren- und Bibliothekskorrespondenz sowie Verkaufsrohdaten.
 
 ## Aktenstücke
 
 | Datei | Inhalt |
 | --- | --- |
-| `01-sachverhalt-und-offene-punkte.docx` | Chronologie, Rollen, erste Streitpunkte |
-| `02-risiko-und-fristenmatrix.xlsx` | Fristen, Zuständigkeiten, Risikoampel |
-| `03-email-auftakt.eml` | Mandats-/Projektauftakt mit Rückfragen |
-| `04-arbeitsvermerk.docx` | interner Arbeitsvermerk |
-| `05-dashboard.csv` | strukturierte Prüfspur |
-| `06-screenshot-notizen.jpg` | Foto/Screenshot einer chaotischen Arbeitsnotiz |
+| `01-verlagsvertrag-bremer-12-09-2023.docx` | Unterzeichneter Verlagsvertrag LV-2023-119 für Print, E-Book und Datenbank |
+| `02-preisfestsetzung-und-produktstammblatt-02-03-2026.docx` | Preis- und Produktmeldung für Einzelausgaben, Pakete und Campuslizenz |
+| `03-lagerschadenprotokoll-remittenden-23-03-2026.docx` | Gemeinsames Sortierprotokoll zu 180 Exemplaren nach einem Transportschaden |
+| `04-abmahnung-preisbindung-05-05-2026.docx` | Abmahnung zu Händlerangebot und vergünstigtem PraxisPlus-Paket |
+| `05-autorenschreiben-abrechnung-13-05-2026.docx` | Auskunftsverlangen des Autors zu Print-, E-Book-, Datenbank- und Lizenzverkäufen |
+| `06-campuslizenzanfrage-hsm-20-05-2026.docx` | Beschaffungsanfrage einer Hochschulbibliothek mit Nutzerkreis und technischen Anforderungen |
+| `07-email-aktionsbundle-freigabe-07-04-2026.eml` | Interne Freigabeanfrage zum abweichenden Aktionspreis |
+| `08-email-haendler-maengelexemplare-27-04-2026.eml` | Händleranfrage zu 64 als B-Ware gelieferten Exemplaren und 17 Verkäufen |
+| `09-email-bildrechte-und-datenbankupdate-18-05-2026.eml` | Lektoratsnachfrage zur Freigabe einer Abbildung für Print und digitale Nutzung |
+| `10-plattformverkaeufe-q1-q2-2026.csv` | Rohdaten nach Kanal, Artikel, Menge, Erlös und Retouren |
+| `11-lagerbewegungsjournal-auszug-16-03-bis-30-04-2026.csv` | Nordbuch-Bewegungsjournal zur ISBN mit Sperrung, Umbuchungen und Auslieferung der 64 Exemplare |
+| `12-telefonvermerk-ebner-nordbuch-28-04-2026.docx` | Telefonvermerk zur Frage, wer den Abruf der B-Ware veranlasst hat, mit abweichenden Angaben |
+| `13-email-intern-krisenrunde-06-05-2026.eml` | Interne Mail der Geschäftsführerin nach Eingang der Abmahnung mit Rechercheaufträgen |
 | `gesamt-pdf/verlagsrecht-buchpreisbindung-fachverlag-lilienfeld_gesamt.pdf` | Gesamt-PDF der Akte |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
 
 ## Sachstand
 
-- Ein Fachverlag verkauft Printbuch, E-Book und Datenbankzugang als Bundle mit wechselnden Aktionspreisen.
-- Der Autor verlangt Nachvergütung und Auskunft über Plattformverkäufe.
-- Ein Händler bietet Mängelexemplare online zu früh und zu billig an.
-- Die Redaktion will ein Kapitel mit KI-Unterstützung aktualisieren und Drittgrafiken übernehmen.
-- Eine Bibliothek fordert Campuslizenz und E-Lending-Rechte.
-- Eine Abmahnung behauptet Verstoß gegen die Buchpreisbindung.
+- Der Lilienfeld Fachverlag veröffentlicht die dritte Auflage von „Praxis der kommunalen Wärmewende“ als Printbuch, E-Book und Datenbankangebot.
+- Produktstammblatt und interne Freigabekorrespondenz weisen für das Paket PraxisPlus unterschiedliche Preise aus.
+- Nach einem Transportschaden werden 64 äußerlich unauffällige Exemplare als B-Ware an einen Händler geliefert und dort vergünstigt angeboten.
+- Der Autor fordert kanalbezogene Abrechnungsdaten und eine Klärung der Lagerbewegungen.
+- Eine Hochschulbibliothek fragt eine Campuslizenz mit Fernzugriff, Kapiteldownload und Semesterapparat an.
+- Für ein Datenbankupdate fehlt eine eindeutig dokumentierte Freigabe einer übernommenen Abbildung.

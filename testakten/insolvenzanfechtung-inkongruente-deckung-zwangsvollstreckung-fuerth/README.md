@@ -1,18 +1,25 @@
 # Testakte: Insolvenzanfechtung — Inkongrünte Deckung durch Zwangsvollstreckung (Fürth)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 185 KB) | PDF | [`gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -68,6 +75,7 @@ insolvenzanfechtung-inkongruente-deckung-zwangsvollstreckung-fuerth/
 ├── eml/
 │   ├── 2025-11-10_ratenzahlungsbitte_frankenletter.eml — Ratenzahlungsbitte der Schuldnerin mit offener Krisenschilderung
 │   ├── 2025-11-14_karow_ablehnung_raten.eml            — Ablehnung der Raten unter Hinweis auf die Warenkreditversicherung
+│   ├── 2026-02-19_ebner_intern_bericht_vollstreckung.eml — Interner Bericht der Gläubigerin nach der Barzahlung an der Rampe („solange bei denen noch Geld reinkommt")
 │   ├── 2026-03-03_pflugbeil_intern_freigabe_gv_zahlung.eml — Interne Freigabe der 20.000-EUR-Zahlung („sonst stehen die am 11.03. wieder auf dem Hof")
 │   ├── 2026-11-05_ladung_zeuge_karow.eml            — Ladung des Zeugen Karow zum Beweistermin
 │   ├── 2027-07-12_urteilszustellung_wehrfritz.eml   — Zustellungsmitteilung des Urteils an den Verwalter

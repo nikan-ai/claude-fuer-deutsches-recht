@@ -10,6 +10,22 @@ expected_use:
   - Antwortschreiben an das Sozialamt und Vergleichs- oder Ratenangebot entwerfen
 
 checks:
+  - id: datei-01c-heimvertrag
+    check_type: file_exists
+    description: Der Heimvertrag mit dem Seniorenzentrum St. Gertrud ist als eigenes Aktenstück vorhanden.
+    path: 01c_heimvertrag_st_gertrud_auszug.docx
+  - id: datei-01d-pflegegradbescheid
+    check_type: file_exists
+    description: Der Pflegegradbescheid der Pflegekasse ist als eigenes Aktenstück vorhanden.
+    path: 01d_pflegegradbescheid_mutter.docx
+  - id: datei-01e-dezemberabrechnung
+    check_type: file_exists
+    description: Die Heimkosten-Dezemberabrechnung 2025 ist als eigenes Aktenstück vorhanden.
+    path: 01e_heimkosten_dezemberabrechnung_2025.docx
+  - id: datei-01f-est-bescheid
+    check_type: file_exists
+    description: Der Einkommensteuerbescheid 2024 des Mandanten ist als eigenes Aktenstück vorhanden.
+    path: 01f_einkommensteuerbescheid_2024.docx
   - id: r01-readme-vorhanden
     check_type: file_exists
     description: "README.md vorhanden"
@@ -22,29 +38,29 @@ checks:
 
   - id: r03-mindestens-zehn-aktenstuecke
     check_type: file_count
-    description: "mindestens zehn Markdown-Aktenstücke"
-    glob: "*.md"
+    description: "mindestens zehn ausformulierte Word-Aktenstücke"
+    glob: "*.docx"
     min: 10
 
   - id: r04-sozialamtsregress-94-sgb-xii
     check_type: text_contains
-    description: "Überleitung des Anspruchs nach § 94 SGB XII erkannt"
-    path: "01_mandatsnotiz_und_rechtswahrungsanzeige_sozialamt.docx"
+    description: "Überleitung des Anspruchs nach Paragraf 94 SGB XII erkannt"
+    path: "03_einkommen_mandant_jahresbruttogrenze.docx"
     contains: "94 SGB XII"
 
   - id: r05-entlastungsgesetz-grenze
     check_type: text_contains
     description: "Jahresbruttogrenze 100.000 EUR (Angehörigen-Entlastungsgesetz) berücksichtigt"
-    path: "01_mandatsnotiz_und_rechtswahrungsanzeige_sozialamt.docx"
+    path: "03_einkommen_mandant_jahresbruttogrenze.docx"
     contains: "100.000"
 
   - id: r06-schenkungsrueckforderung-528
     check_type: text_contains
-    description: "Schenkungsrückforderung nach § 528 BGB als alternativer Weg geprüft"
+    description: "Schenkungsrückforderung nach Paragraf 528 BGB als alternativer Weg geprüft"
     path: "08_fruehere_schenkungen_mutter.docx"
     contains: "528"
 
   - id: r07-fachspezifische-wuerdigung
     check_type: human_review
     description: "Leistungsfähigkeit, erhöhter Selbstbehalt und Einwendungen sind fachlich tragfähig zu würdigen"
-    note: "Erhöhten Selbstbehalt und Schonvermögen ansetzen; Verwirkung § 1611 BGB nur bei schwerer Verfehlung"
+    note: "Erhöhten Selbstbehalt und Schonvermögen ansetzen; Verwirkung nach Paragraf 1611 BGB nur bei schwerer Verfehlung"

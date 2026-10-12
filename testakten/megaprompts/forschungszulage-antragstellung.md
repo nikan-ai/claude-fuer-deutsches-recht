@@ -2,26 +2,145 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 84 Skills des Plugins `forschungszulage-antragstellung`.
+Diese Vollprüfung enthält top-10 von 85 Skills des Plugins `forschungszulage-antragstellung`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Forschungszulage-Antragstellung geht: klärt Rolle, Ziel, Frist, Unterlagen und den pa…
-2. **kaltstart-triage** — Wenn es um Forschungszulage — Allgemein in Forschungszulage-Antragstellung geht: klärt Rolle, Ziel, Frist, Unterlagen un…
-3. **insolvenz-forsch-konzernverbund** — Wenn es um Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel in Forschungszulage-Antragstellung g…
-4. **insolvenz-verlust-liquiditaet** — Wenn es um Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel in Forschungszulage-Antragstellung g…
-5. **plaedoyer-begruendung-und-verteidigung** — Wenn es um Plädoyer, Begründung und Verteidigung der Forschungszulage in Forschungszulage-Antragstellung geht: erstellt …
-6. **forschungszulage-projektbeschreibung-bescheinigung** — Wenn es um Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel in Forschungszulage-Antragstellung geht: erstell…
-7. **forschungszulage-insolvenzlage-red-team-korrektur** — Wenn es um Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel in Forschungszulage-Antragstellung geht: erstell…
-8. **foerdercheck-risikoampel-und-gegenargumente** — Wenn es um Foerdercheck: Risikoampel, Gegenargumente und Verteidigungslinien in Forschungszulage-Antragstellung geht: er…
-9. **plaedoyer-begruendung-roadmap** — Wenn es um Plädoyer, Begründung und Verteidigung der Forschungszulage in Forschungszulage-Antragstellung geht: erstellt …
-10. **mehrjahresroadmap-fristennotiz-naechster** — Wenn es um Mehrjahresroadmap: Fristennotiz und nächster Schritt in Forschungszulage-Antragstellung geht: erstellt den pa…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Forschungszulage Antragstellung ein juristisches Arbeitsprodukt tragfähig begründet werden mu…
+2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+3. **kaltstart-triage** — Für Forschungszulage — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und …
+4. **portaltexte-schriftsatz-brief-und-memo-bausteine** — Für Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Er…
+5. **auszahlung-internationaler-bezug-und-schnittstellen** — Für Auszahlung: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittst…
+6. **tatbestand-beweis-belege-antragstellung** — Für Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Er…
+7. **antragstellung-auszahlung-beihilfen** — Für Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Er…
+8. **insolvenz-forsch-konzernverbund** — Für Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel: ordnet Norm, Beweislast und Gegenargument;…
+9. **insolvenz-verlust-liquiditaet** — Für Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel: ordnet Norm, Beweislast und Gegenargument;…
+10. **portaltexte-schriftsatz-brief** — Für Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Er…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Forschungszulage Antragstellung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Forschungszulage Antragstellung
+
+## 1. Direktstart
+
+Begründe die Förderfähigkeit eines konkreten Forschungs- und Entwicklungsvorhabens und dessen berücksichtigungsfähige Aufwendungen. Trenne die fachliche Bescheinigung der BSFZ von der wirtschaftsjahrbezogenen Festsetzung beim Finanzamt.
+
+Pluginauftrag: Forschungszulage-Antragstellung nach FZulG: adaptiver Fördercheck, BSFZ-Portaltexte mit Zeichenbudgets, Finanzamt-Antrag, FuE-Abgrenzung, Bemessungsgrundlage 2026, Auszahlung, Verlust-/Insolvenzlage, Dokumentation, Beihilfen, Einspruch und Mehrjahresroadmap.
+
+1.1. Sichte zuerst Projektbeschreibung, Arbeitspakete, Versuchsnachweise, Bescheinigung, Kostenbelege und erkennbare Fristen. Öffne zusätzliche Unterlagen gezielt für die jeweils ungeklärte Fördervoraussetzung.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere, welches Vorhaben in welchem Zeitraum bescheinigt oder welche Aufwendung in welchem Wirtschaftsjahr berücksichtigt werden soll. Benenne als Engpass etwa die wissenschaftlich-technische Unsicherheit, die Abgrenzung zur Routineentwicklung, einen nicht belegten Personalaufwand oder die Antragstellung innerhalb der maßgeblichen Frist.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Anspruchsberechtigung | Unternehmen, Steuerpflicht, Wirtschaftsjahr und Beginn des Vorhabens bestimmen |
+| Forschungsvorhaben | Neuheit, Unsicherheit, planmäßiges Vorgehen, Arbeitspakete und Erkenntnisziel anhand zeitnaher Projektunterlagen belegen |
+| Aufwendungen | Personal, Eigenleistung, Auftragsforschung und weitere zulässige Kostenarten nach zeitlich geltender Fassung getrennt berechnen |
+| Zwei Verfahrensstufen | Bescheinigungsgegenstand der BSFZ und Festsetzungsgegenstand des Finanzamts auseinanderhalten; jeweiligen Bescheid und Rechtsbehelf bestimmen |
+| Beihilfen und Obergrenzen | Verbund, Doppelförderung, Kumulation und Höchstbetrag mit anderen Förderungen abstimmen |
+| Arbeitsprodukt | BSFZ-Projekttext, Kostenüberleitung, Festsetzungsantrag, Nachreichung oder bescheidbezogenen Rechtsbehelf erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Antrag: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill antrag-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: Bearbeite den Fachpunkt im Skill antragstellung-auszahlung-beihilfen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Dokumentation: Mandantenkommunikation und Entscheidungsvorlage: Bearbeite den Fachpunkt im Skill forschungszulage-mandantenentscheidung-antragspfad und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: Bearbeite den Fachpunkt im Skill tatbestand-beweis-belege-antragstellung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. FZulG Paragraf 1: Anspruchsberechtigung.
+4.2. FZulG Paragraf 2: begünstigte Forschungs- und Entwicklungsvorhaben.
+4.3. FZulG Paragrafen 3 und 4: förderfähige Aufwendungen, Bemessungsgrundlage und Höhe nach dem maßgeblichen Zeitraum.
+4.4. FZulG Paragrafen 5 und 6: Antrag beim Finanzamt und gesonderte Bescheinigung der Begünstigungsfähigkeit.
+4.5. FZulG Paragraf 7: Festsetzung und Anrechnung; Paragraf 12: Anwendung der AO.
+4.6. AO Paragrafen 88, 90, 169 ff. und 347 ff.: Amtsermittlung, Mitwirkung, Festsetzungsfrist und Einspruch auf der steuerlichen Verfahrensstufe. Für den BSFZ-Bescheid Rechtsweg und Rechtsbehelfsbelehrung gesondert prüfen.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Ausgangspunkt ist das [geltende FZulG](https://www.gesetze-im-internet.de/fzulg/), bei älteren Aufwendungen ergänzt um die zeitlich maßgebliche Fassung. Der Höchstbetrag der Bemessungsgrundlage beträgt für ab 2026 entstandene förderfähige Aufwendungen 12 Millionen Euro; die Anwendung bei abweichendem Wirtschaftsjahr und verbundenen Unternehmen ist gesondert zu prüfen.
+5.2. Die [BMF-Verfahrensübersicht](https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerliche_Themengebiete/Forschungszulage/forschungszulage.html) erläutert die zwei Antragsstufen. Eine Bescheinigung ersetzt den Antrag auf Festsetzung nicht.
+5.3. Beim Fristproblem für Altjahre sind die konkret veröffentlichten Übergangsregelungen und deren Voraussetzungen zu prüfen. Ein Referentenentwurf ist keine geltende Fristverlängerung.
+5.4. Eine Entscheidung wird nur aufgenommen, wenn sie die konkrete Streitfrage der Forschungszulage oder des einschlägigen Verfahrensrechts trägt. Vorsteuer-, DBA- und Umsatzsteuerbetrugsentscheidungen sind keine Belege für die Begünstigung des Forschungsvorhabens.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Der Antragsteller muss die Begünstigung und die geltend gemachten Aufwendungen nachvollziehbar belegen. Amtsermittlung entbindet nicht von der Mitwirkung. Prüfe gesondert, was durch die Bescheinigung gebunden ist und welche Kostentatsache das Finanzamt noch festzustellen hat.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Vorhaben, Antragsteller, Projektbeginn und Wirtschaftsjahr abgrenzen.
+7.2. Forschungsmerkmale aus Arbeitspaketen, Entwicklungsrisiken und Versuchsnachweisen ableiten.
+7.3. Kosten aus Lohnkonto, Zeitaufzeichnung, Auftrag und Rechnung zum Vorhaben überleiten.
+7.4. Bescheinigung, Festsetzungsantrag, Bindungsumfang und getrennte Fristen kontrollieren.
+7.5. Höchstbetrag, Verbund, Kumulation, Anrechnung und beantragte Rechtsfolge abstimmen.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Liefere einen vollständig ausformulierten Projekttext mit Erkenntnisziel, Unsicherheit, Methode und Arbeitspaketen, eine belegte Kostenüberleitung oder einen auf den jeweiligen Bescheid zugeschnittenen Rechtsbehelf. Formatierte Texte verwenden Times New Roman 11 pt und dezimale Gliederung.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar für die konkrete Bescheinigungs- oder Festsetzungsstufe verwendbar, und trägt jeder geltend gemachte Betrag einen Beleg?
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Forschungszulage-Antragstellung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung._
 
 # Einstieg und Routing
 
@@ -80,7 +199,7 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Forschungszulage — Allgemein in Forschungszulage-Antragstellung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Forschungszulage — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Forschungszulage — Allgemein
 
@@ -96,8 +215,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Worum geht es
 
@@ -264,9 +381,201 @@ Konkrete Beträge, Fristen und KMU-Definition vom Antragsteller vor Einreichung 
 
 ---
 
+## Skill: `portaltexte-schriftsatz-brief-und-memo-bausteine`
+
+_Für Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Forschungszulage-Antragstellung. Route: portaltexte-schriftsatz-brief-und-memo-bausteine._
+
+# Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine
+
+## Normenanker
+
+Arbeitsfokus: **Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 1 FZulG` — Anspruchsberechtigung.
+- `§ 2 Abs. 1 FZulG` — begünstigtes F&E-Vorhaben.
+- `§ 3 FZulG` — förderfähige Aufwendungen.
+- `§ 4 FZulG` — Höhe der Zulage.
+- `§ 5 FZulG` — Antrag.
+- `§ 6 FZulG` — Bescheinigung.
+- `§ 10 FZulG` — Festsetzung/Auszahlung.
+- `§ 90 Abs. 1 AO` — Mitwirkung und Belege.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FZulG § 5 Antrag nach Ablauf des Wirtschaftsjahres, 4-jährige Festsetzungsverjährung, BSFZ-Bescheinigung Voraussetzung, Anrechnung beim FA.
+- Tragende Normen verifizieren: FZulG §§ 1-12, BsGav Forschungszulagen-Verordnung, EStG, KStG, GewStG (Anrechnung), EU-AGVO (VO 651/2014), Frascati-Handbuch, BSFZ-Richtlinien — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anspruchsberechtigtes Unternehmen, Bescheinigungsstelle Forschungszulage (BSFZ), Finanzamt (Festsetzung/Verrechnung), Wirtschaftsprüfer/Steuerberater.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: BSFZ-Antrag, FuE-Projektbeschreibung, Personalstundenaufzeichnung, Auftragsforschungsvertrag, FA-Antrag auf Forschungszulage, BSFZ-Bescheinigung, FA-Bescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen: Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine
+- **Normen-/Quellenanker:** FZulG, BSFZ.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Portaltexte** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+---
+
+## Skill: `auszahlung-internationaler-bezug-und-schnittstellen`
+
+_Für Auszahlung: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Forschungszulage-Antragstellung. Route: auszahlung-internationaler-bezug-und-schnittstellen._
+
+# Auszahlung: Internationaler Bezug und Schnittstellen
+
+## Normenanker
+
+Arbeitsfokus: **Auszahlung: Internationaler Bezug und Schnittstellen**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 1 FZulG` — Anspruchsberechtigung.
+- `§ 2 Abs. 1 FZulG` — begünstigtes F&E-Vorhaben.
+- `§ 3 FZulG` — förderfähige Aufwendungen.
+- `§ 4 FZulG` — Höhe der Zulage.
+- `§ 5 FZulG` — Antrag.
+- `§ 6 FZulG` — Bescheinigung.
+- `§ 10 FZulG` — Festsetzung/Auszahlung.
+- `§ 90 Abs. 1 AO` — Mitwirkung und Belege.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FZulG § 5 Antrag nach Ablauf des Wirtschaftsjahres, 4-jährige Festsetzungsverjährung, BSFZ-Bescheinigung Voraussetzung, Anrechnung beim FA.
+- Tragende Normen verifizieren: FZulG §§ 1-12, BsGav Forschungszulagen-Verordnung, EStG, KStG, GewStG (Anrechnung), EU-AGVO (VO 651/2014), Frascati-Handbuch, BSFZ-Richtlinien — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anspruchsberechtigtes Unternehmen, Bescheinigungsstelle Forschungszulage (BSFZ), Finanzamt (Festsetzung/Verrechnung), Wirtschaftsprüfer/Steuerberater.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: BSFZ-Antrag, FuE-Projektbeschreibung, Personalstundenaufzeichnung, Auftragsforschungsvertrag, FA-Antrag auf Forschungszulage, BSFZ-Bescheinigung, FA-Bescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen: Auszahlung: Internationaler Bezug und Schnittstellen
+- **Normen-/Quellenanker:** FZulG, BSFZ.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Auszahlung** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+---
+
+## Skill: `tatbestand-beweis-belege-antragstellung`
+
+_Für Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Forschungszulage-Antragstellung. Route: tatbestand-beweis-belege-antragstellung._
+
+# Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage
+
+## Normenanker
+
+Arbeitsfokus: **Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 1 FZulG` — Anspruchsberechtigung.
+- `§ 2 Abs. 1 FZulG` — begünstigtes F&E-Vorhaben.
+- `§ 3 FZulG` — förderfähige Aufwendungen.
+- `§ 4 FZulG` — Höhe der Zulage.
+- `§ 5 FZulG` — Antrag.
+- `§ 6 FZulG` — Bescheinigung.
+- `§ 10 FZulG` — Festsetzung/Auszahlung.
+- `§ 90 Abs. 1 AO` — Mitwirkung und Belege.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Spezialwissen: Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage
+- **Normen-/Quellenanker:** FZulG, BSFZ.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Antragstellung** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+---
+
+## Skill: `antragstellung-auszahlung-beihilfen`
+
+_Für Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Forschungszulage-Antragstellung. Route: antragstellung-auszahlung-beihilfen._
+
+# Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage
+
+## Normenanker
+
+Arbeitsfokus: **Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 7 FZulG` — Kumulierung und Beihilfebezug.
+- `Art. 107 Abs. 1 AEUV` — Beihilfebegriff.
+- `Art. 25 AGVO` — Forschungs- und Entwicklungsbeihilfen.
+- `§ 46 AO` — Abtretung/Verpfändung von Steuererstattungs- und Vergütungsansprüchen.
+- `§ 80 Abs. 1 InsO` — Verwaltungs- und Verfügungsbefugnis des Insolvenzverwalters.
+- `§ 94 InsO` — Aufrechnungslage vor Verfahrenseröffnung.
+- `§ 96 InsO` — unzulässige Aufrechnung.
+- `§ 1 Abs. 1 AStG` — Konzern-/Verrechnungspreisnähe bei grenzüberschreitenden F&E-Strukturen.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FZulG § 5 Antrag nach Ablauf des Wirtschaftsjahres, 4-jährige Festsetzungsverjährung, BSFZ-Bescheinigung Voraussetzung, Anrechnung beim FA.
+- Tragende Normen verifizieren: FZulG §§ 1-12, BsGav Forschungszulagen-Verordnung, EStG, KStG, GewStG (Anrechnung), EU-AGVO (VO 651/2014), Frascati-Handbuch, BSFZ-Richtlinien — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anspruchsberechtigtes Unternehmen, Bescheinigungsstelle Forschungszulage (BSFZ), Finanzamt (Festsetzung/Verrechnung), Wirtschaftsprüfer/Steuerberater.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: BSFZ-Antrag, FuE-Projektbeschreibung, Personalstundenaufzeichnung, Auftragsforschungsvertrag, FA-Antrag auf Forschungszulage, BSFZ-Bescheinigung, FA-Bescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen: Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage
+- **Normen-/Quellenanker:** FZulG, BSFZ.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Antragstellung** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+---
+
 ## Skill: `insolvenz-forsch-konzernverbund`
 
-_Wenn es um Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Insolvenz Forsch Konzernverbund; Arbeitsfeld: Forschungszulage-Antragstellung._
+_Für Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung. Route: insolvenz-forsch-konzernverbund._
 
 # Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel
 
@@ -397,7 +706,7 @@ Praktisch wertvoll wird die Auszahlung bei:
 
 ## Skill: `insolvenz-verlust-liquiditaet`
 
-_Wenn es um Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Insolvenz Verlust Liquiditaet; Arbeitsfeld: Forschungszulage-Antragstellung._
+_Für Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung. Route: insolvenz-verlust-liquiditaet._
 
 # Verlust, Krise und Insolvenz — die Forschungszulage als Liquiditätshebel
 
@@ -518,368 +827,15 @@ Praktisch wertvoll wird die Auszahlung bei:
 
 ---
 
-## Skill: `plaedoyer-begruendung-und-verteidigung`
+## Skill: `portaltexte-schriftsatz-brief`
 
-_Wenn es um Plädoyer, Begründung und Verteidigung der Forschungszulage in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Plaedoyer Begruendung Und Verteidigung; Arbeitsfeld: Forschungszulage-Antragstellung._
+_Für Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Forschungszulage-Antragstellung. Route: portaltexte-schriftsatz-brief._
 
-# Plädoyer, Begründung und Verteidigung der Forschungszulage
-
-## Worum geht es
-
-Dieser Skill baut das eigentliche **Plädoyer für die Forschungszulage**: nicht als werblichen Fördermitteltext, sondern als knappe, aktenfeste und behördenfähige Argumentation. Er verbindet vier Ebenen:
-
-1. **Warum ist das Vorhaben FuE?** Neuheit, Ungewissheit, systematisches Vorgehen, Reproduzierbarkeit, Abgrenzung zu Routine.
-2. **Warum ist der Antragsteller anspruchsberechtigt?** Steuerpflicht, Einkunftsart, Unternehmen, Mitunternehmerschaft, verbundene Unternehmen.
-3. **Warum sind die Aufwendungen förderfähig?** Personal, Eigenleistung, Auftragsforschung, Wirtschaftsgüter, Gemein- und Betriebskostenpauschale, Wirtschaftsjahr.
-4. **Warum ist die konkrete Förderhöhe belastbar?** Bemessungsgrundlage, Kumulierung, Belege, Stundennachweise, Finanzamt-Route, Liquidität.
-
-Das Plädoyer ist immer **adressatenspezifisch**: Die BSFZ will eine technische FuE-Geschichte; das Finanzamt will Zahlen und Belege; die Geschäftsführung will Cash, Risiko und Aufwand; das Gericht will Zuständigkeit, Verwaltungsakt, Rechtsweg und Substantiierung.
-
-## Wann dieses Modul hilft
-
-- Wenn ein BSFZ-Portaltext schon vorliegt, aber zu flach, werblich oder nicht beweisbar klingt.
-- Wenn eine Rückfrage oder Ablehnung in eine überzeugende Stellungnahme übersetzt werden muss.
-- Wenn ein Finanzamt die Bemessungsgrundlage kürzt und ein Einspruch begründet werden soll.
-- Wenn Geschäftsführung, CFO, Insolvenzverwaltung oder Investor verstehen müssen, warum sich der Antrag lohnt.
-- Wenn ein Antrag strategisch priorisiert werden soll: schlank einreichen, vertiefen, splitten, bündeln, zurückstellen oder neu aufsetzen.
-
-## Kaltstart in sieben Fragen
-
-1. **Adressat:** BSFZ, Finanzamt, Mandant/CFO, Insolvenzverwaltung, Einspruchsstelle, Finanzgericht?
-2. **Anlass:** Erstantrag, Rückfrage, Ablehnung, Kürzung, Betriebsprüfung, Liquiditätsplanung, interner Beschluss?
-3. **Vorhaben:** Was ist das technische oder wissenschaftliche Problem, nicht nur das Produkt?
-4. **FuE-Kern:** Was ist neu, ungewiss, systematisch untersucht und nicht bloße Routine?
-5. **Zahlen:** Welche Wirtschaftsjahre, Kostenarten, Stunden, Auftragsforschung, Wirtschaftsgüter und Förderungen?
-6. **Belege:** Welche Dokumente beweisen welchen Satz?
-7. **Ziel:** Positive Bescheinigung, höhere Bemessungsgrundlage, fristwahrender Einspruch, Auszahlung, Vorauszahlungssenkung, Vorstandsbeschluss?
-
-Wenn Unterlagen hochgeladen sind, zuerst aus ihnen arbeiten und die sieben Fragen nur dort stellen, wo die nächste Weiche sonst offen bleibt.
-
-## Quellen-Gate vor jedem Plädoyer
-
-Vor tragenden Aussagen live prüfen und im Output als Quellenanker führen:
-
-- FZulG auf `gesetze-im-internet.de`, insbesondere §§ 1 bis 7, § 10 und § 12 FZulG.
-- BSFZ-Antragsverfahren und aktuelle BSFZ-Hilfen, insbesondere zweistufiges Verfahren und Portal-/ELSTER-Authentifizierung.
-- BMF-Seite Forschungszulage und BMF-Schreiben vom 07.02.2023, soweit nicht durch neuere finale Verwaltungsanweisung ersetzt.
-- Aktuelle Änderungen ab 2026: Bemessungsgrundlagenhöchstbetrag, Eigenleistungsstundensatz, Gemein-/Betriebskostenpauschale, Auftragsforschung.
-- Bei Kumulierung: AGVO, De-minimis, Bewilligungsbescheide anderer Programme und konkrete Kostenidentität.
-
-Keine Rechtsprechung oder Literatur aus Modellwissen zitieren. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle.
-
-## Argumentationsarchitektur
-
-### 1. Ein-Satz-Kern
-
-Formuliere zuerst einen Satz, der das Vorhaben trägt:
-
-> Das Vorhaben ist förderfähige experimentelle Entwicklung, weil [konkretes technisches Ziel] unter [unbekannter Randbedingung] mit dem vorhandenen Stand der Technik nicht sicher erreichbar war und die Antragstellerin deshalb in [Arbeitspaketen] systematisch [Hypothesen/Varianten] untersucht hat.
-
-Wenn dieser Satz nicht gelingt, ist das Plädoyer noch nicht reif. Dann zuerst `fz-fue-definition-frascati-abgrenzung` oder `fz-bsfz-bescheinigung-projektbeschreibung` nutzen.
-
-### 2. FuE-Kern
-
-| Element | Starke Formulierung | Schwache Formulierung |
-| --- | --- | --- |
-| Neuheit | "Die Kombination aus A/B/C war im Stand der Technik nicht beschrieben und sollte Zielwert X erreichen." | "Das Produkt ist innovativ." |
-| Ungewissheit | "Ob Zielwert X unter Randbedingung Y erreichbar ist, war offen; Vorversuch Z scheiterte." | "Es bestand ein Entwicklungsrisiko." |
-| Systematik | "AP-1 bis AP-5 testen Hypothesen H1-H3 mit messbaren Abbruchkriterien." | "Wir entwickeln iterativ." |
-| Routineabgrenzung | "Serienpflege, UI-Anpassung und reine Integration sind ausgeklammert." | "Es ist keine Routine." |
-| Reproduzierbarkeit | "Versuchsaufbau, Messwerte und Versionen sind in Anlage X dokumentiert." | "Die Ergebnisse sind nachvollziehbar." |
-
-### 3. Anspruch und Verfahren
-
-Das Plädoyer trennt immer:
-
-- **BSFZ-Stufe:** FuE-Eigenschaft des Vorhabens; die BSFZ beurteilt nicht die Höhe der Bemessungsgrundlage.
-- **Finanzamt-Stufe:** wirtschaftsjahrbezogene Festsetzung; Bemessungsgrundlage, Kosten, Kumulierung und Auszahlung/Anrechnung.
-- **Liquiditätswirkung:** Die Zulage wird auf Einkommen- oder Körperschaftsteuer angerechnet; ein Überschuss wird erstattet. Das ist gerade in Verlust- und Krisenlagen praktisch wichtig, aber nicht auf Insolvenzfälle beschränkt.
-
-### 4. Kosten- und Beleglogik
-
-Jede Zahl braucht eine Belegkette:
-
-| Kostenart | Behauptung | Beleg | Risiko |
-| --- | --- | --- | --- |
-| FuE-Personal | Arbeitslohn anteilig im Vorhaben | Lohnkonto, Stundennachweis, Projektzuordnung | Pauschalschätzung ohne Tätigkeitsbezug |
-| Eigenleistung | Stunden des Einzel-/Mitunternehmers | Stundenliste, Tätigkeitsbeschreibung, Wochen-Cap | Doppelansatz mit Lohn / Überschreitung |
-| Auftragsforschung | 70 % des Entgelts bei geeigneter EU/EWR-Konstellation | Vertrag, Rechnung, Leistungsbeschreibung, Sitz/Geschäftsleitung | Auftragnehmer außerhalb EU/EWR oder bloße Fertigung |
-| Wirtschaftsgüter | anteilige AfA/Wertminderung für FuE-Nutzung | Anlagenverzeichnis, Nutzungsnachweis, Arbeitsplan | Mitbenutzung im Regelbetrieb |
-| Gemein-/Betriebskosten | Pauschalansatz bei einschlägigen 2026-Regeln | Jahreszuordnung, übrige förderfähige Aufwendungen | falscher Vorhabenbeginn / falsches Jahr |
-| Andere Förderung | keine doppelte Förderung derselben Kosten | Bewilligungsbescheid, Kostenplan, Abgrenzungsmatrix | Kostenidentität übersehen |
-
-## Plädoyer-Formate
-
-### A. BSFZ-Stellungnahme
-
-**Ziel:** FuE-Eigenschaft verteidigen.
-
-Aufbau:
-
-1. Antrag und Rückfrage kurz einordnen.
-2. Forschungsfrage und Zielwert nennen.
-3. Stand der Technik knapp und konkret abgrenzen.
-4. Technische Ungewissheit scharf herausarbeiten.
-5. Arbeitspakete als systematisches Vorgehen darstellen.
-6. Routine-Anteile offen ausklammern.
-7. Anlagen bezeichnen, nicht überfrachten.
-
-Ton: technisch, sachlich, knapp. Keine Fördermittelrhetorik.
-
-### B. Finanzamt-Einspruchsbegründung
-
-**Ziel:** Kürzung oder Ablehnung der Bemessungsgrundlage angreifen.
-
-Aufbau:
-
-1. Bescheid, Datum, Steuernummer, Streitpunkt.
-2. BSFZ-Bescheinigung als Grundlagenanker benennen.
-3. Finanzamt-Streitpunkt auf Kostenebene isolieren.
-4. Kostenart für Kostenart mit Belegkette durchgehen.
-5. Kumulierung und andere Förderungen aktiv offenlegen.
-6. Antrag: Änderung des Bescheids, hilfsweise Teilabhilfe, ggf. Aussetzung der Vollziehung nur bei Rückforderung/Belastung.
-
-Ton: ruhig, rechenbar, belegverliebt.
-
-### C. Geschäftsführungs-/CFO-Plädoyer
-
-**Ziel:** Entscheidung über Antragstellung, Budget, Dokumentation und Berateraufwand.
-
-Aufbau:
-
-1. Förderchance in Euro-Bandbreite.
-2. Antragspfad und Zeitplan.
-3. Engpass: BSFZ-Text, Stundenerfassung, Belege, Kumulierung.
-4. Aufwand vs. erwartete Zulage.
-5. Risikoampel.
-6. Beschlussvorschlag.
-
-Ton: knapp, entscheidungsfähig, ohne Paragrafenwand.
-
-### D. Insolvenz-/Krisen-Plädoyer
-
-**Ziel:** Zulage als Liquiditäts- und Massebaustein sichern.
-
-Aufbau:
-
-1. Anspruchsjahr und Verfahrensstand.
-2. Wer handelt: Geschäftsleitung, vorläufige Verwaltung, Insolvenzverwaltung?
-3. Massezugehörigkeit, Steuerkonto, Aufrechnung, Abtretung, Sicherungsrechte prüfen.
-4. Priorität: BSFZ-Bescheinigung, Finanzamt-Antrag, Vorauszahlungssenkung, Erstattungszeitpunkt.
-5. Belegpaket trotz Krisenaktenlage sichern.
-
-Ton: vorsichtig, fristen- und kontenorientiert.
-
-## Muster: Kurzes Plädoyer an die BSFZ
-
-```text
-Sehr geehrte Damen und Herren,
-
-die Rückfrage vom [Datum] nehmen wir zum Anlass, den FuE-Kern des Vorhabens [Titel] zu präzisieren.
-
-Das Vorhaben erschöpft sich nicht in Produktanpassung oder Implementierung. Gegenstand ist die systematische Untersuchung, ob [konkrete technische Lösung] unter [Randbedingung] den Zielwert [Messgröße] erreichen kann. Der Stand der Technik [Quelle/Patent/Norm/Publikation kurz bezeichnen] zeigt zwar [bekannte Lösung], löst aber nicht [konkrete Lücke].
-
-Die technische Ungewissheit lag darin, dass [Hürde] bei [Versuchsbedingung] zum Scheitern führen konnte. Diese Unsicherheit wurde nicht durch bloße Erfahrung oder Routinearbeit behoben, sondern durch die Arbeitspakete AP-1 bis AP-[x]: [Kurzbeschreibung]. Die Routineanteile [Beispiele] wurden bewusst nicht als FuE-Anteile geltend gemacht.
-
-Wir bitten daher, das Vorhaben als begünstigtes FuE-Vorhaben im Sinne des FZulG zu bescheinigen. Die ergänzenden Belege sind als Anlagen [A1-Ax] beigefügt.
-```
-
-## Muster: Plädoyer für die Finanzamt-Ebene
-
-```text
-Sehr geehrte Damen und Herren,
-
-Gegenstand des Einspruchs ist nicht die FuE-Eigenschaft des Vorhabens [Titel]; diese ist durch die BSFZ-Bescheinigung vom [Datum], Az. [AZ], positiv beschieden. Streitpunkt ist allein die Bemessungsgrundlage für das Wirtschaftsjahr [Jahr].
-
-Die geltend gemachten Personalkosten beruhen auf tagesbezogenen Stundenaufzeichnungen, die jedem Vorhaben und Arbeitspaket zugeordnet sind. Die Lohnaufwendungen wurden aus den Lohnkonten [Anlage] abgeleitet und nur anteilig im Umfang der dokumentierten FuE-Tätigkeit angesetzt. Nicht förderfähige Routine-, Serien- und Verwaltungszeiten wurden ausgeschieden.
-
-Soweit Auftragsforschung einbezogen ist, betrifft sie die in Vertrag [Anlage] beschriebene FuE-Leistung [Kurzinhalt]. Der Auftragnehmer erfüllt nach den vorliegenden Unterlagen die erforderlichen Sitz-/Geschäftsleitungsanforderungen. In der Bemessungsgrundlage wurde nur der gesetzlich berücksichtigungsfähige Anteil des Entgelts angesetzt.
-
-Wir beantragen daher, den Forschungszulagenbescheid vom [Datum] zu ändern und die Forschungszulage auf Grundlage der beigefügten Berechnung auf [Betrag] festzusetzen.
-```
-
-## Red-Team vor Abgabe
-
-Prüfe vor jeder Ausgabe:
-
-1. Klingt das Vorhaben wie Marketing statt Forschung?
-2. Ist die technische Ungewissheit wirklich konkret?
-3. Sind Routineanteile aktiv ausgeschlossen?
-4. Gibt es für jede Zahl einen Beleg?
-5. Sind BSFZ- und Finanzamt-Ebene sauber getrennt?
-6. Ist die aktuelle Gesetzesfassung geprüft?
-7. Ist bei Auftragsforschung EU/EWR/Geschäftsleitung/Subunternehmer sauber geprüft?
-8. Sind andere Förderungen und Beihilfen abgegrenzt?
-9. Wird keine Auszahlung versprochen, bevor § 10 FZulG zeitlich geprüft ist?
-10. Ist das Plädoyer so kurz, dass die zuständige Person es lesen will?
-
-## Quellen Stand 06/2026
-
-- FZulG: https://www.gesetze-im-internet.de/fzulg/
-- BMF Forschungszulage: https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerliche_Themengebiete/Forschungszulage/forschungszulage.html
-- BSFZ-Antragsverfahren: https://www.bescheinigung-forschungszulage.de/antragsverfahren/ueber-das-antragsverfahren
-- BSFZ steuerliches Investitionssofortprogramm: https://www.bescheinigung-forschungszulage.de/steuerliches-investitionssofortprogramm
-- `references/forschungszulage-quellen-und-zahlen.md`
-
----
-
-## Skill: `forschungszulage-projektbeschreibung-bescheinigung`
-
-_Wenn es um Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Forschungszulage Projektbeschreibung Bescheinigung; Arbeitsfeld: Forschungszulage-Antragstellung._
-
-# Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel
-
-## Spezialwissen: Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel
-- **Normen-/Quellenanker:** FZulG, BSFZ.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Forschungszulage** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## FZulG-Anspruchsvoraussetzungen (Erstprüfung)
-
-| Tatbestandsmerkmal | Norm | Prüffrage |
-|---|---|---|
-| Anspruchsberechtigter | § 1 FZulG | Steuerpflichtige nach EStG / KStG mit FuE-Aktivität in DE; auch Personengesellschaften, mit Sonderregeln für nicht-steuerpflichtige Mitunternehmer |
-| FuE-Vorhaben | § 2 FZulG i.V.m. Frascati-Manual | Grundlagenforschung, industrielle Forschung oder experimentelle Entwicklung |
-| Begünstigte Aufwendungen | § 3 FZulG | Lohnaufwendungen FuE-Personal + 25 % Pauschale für Personalnebenkosten + Auftragsforschungs-Anteil + bestimmte Einzelunternehmer-Eigenleistung |
-| Bemessungsgrundlage | § 3 FZulG | maximal förderfähig pro Jahr (Höchstgrenze vor Ausgabe verifizieren - ab 2024/2025 erhöht) |
-| Zulagensatz | § 4 FZulG | regelmäßig 25 %, für KMU + 10 % (auf Antrag) |
-
-## Norm-Bezug konkret
-
-- § 1 FZulG: Anspruchsvoraussetzung.
-- § 2 FZulG: begünstigte FuE-Tätigkeiten.
-- § 3 FZulG: förderfähige Aufwendungen und Bemessungsgrundlage.
-- § 4 FZulG: Höhe der Forschungszulage.
-- §§ 5, 6 FZulG: Bescheinigungsverfahren BSFZ.
-- §§ 9, 10 FZulG: Festsetzung beim Finanzamt.
-- BMF-Schreiben zum FZulG (Datum und AZ vor Ausgabe verifizieren auf bundesfinanzministerium.de).
-- AGVO (EU) 651/2014: beihilferechtliche Grundlage; Art. 25 Forschungs- und Entwicklungsvorhaben.
-
-## Praktischer Tipp
-
-- Forschungszulage ist eine **steuerliche Förderung mit Verrechnung gegen die Einkommen-/Körperschaftsteuerschuld**; bei Verlusten oder zu niedriger Steuerschuld erfolgt **Auszahlung des überschießenden Betrags** (§ 10 Abs. 1 Satz 4 FZulG). Das ist der zentrale Liquiditätsvorteil gegenüber klassischen Sonderabschreibungen.
-- BSFZ-Bescheinigung ist **rückwirkend möglich** für vier Jahre nach Ende des Wirtschaftsjahres (Antrag bei BSFZ); die Festsetzung beim Finanzamt erfolgt **mit der Einkommen-/Körperschaftsteuererklärung** des jeweiligen Wirtschaftsjahres.
-- Forschungszulage ist beihilferechtlich vereinbar mit anderen Beihilfen, aber **bei kumulativer Anwendung Höchstintensitäten der AGVO Art. 25 prüfen** (Grundlagenforschung 100 %, industrielle Forschung 50 %, experimentelle Entwicklung 25 %; KMU-Aufschläge).
-
-## Trade-off: FZulG vs. andere Förderinstrumente
-
-| Pfad | Vorteil | Nachteil |
-|---|---|---|
-| FZulG | rechtssicherer Anspruch (kein Antragsglück), auch in Verlustlage liquiditätswirksam | engerer FuE-Begriff, Verfahren in zwei Stufen |
-| ZIM, Horizon Europe | höhere Förderquoten bei Zuschuss | konkurrenzbasiert, Antragsaufwand hoch |
-| Investitionsabzugsbetrag § 7g EStG | breit anwendbar | nur Stundung, kein "echter" Zuschuss |
-
-Empfehlung: FZulG immer prüfen, weil rechtssicher; nicht alternativ, sondern **kumulativ** zu klassischen Projektförderungen denken.
-
-## Typische Fehler (Erstprüfung)
-
-- Antragsteller hält Routinetätigkeiten (Software-Wartung, marginale Produktverbesserung) für FuE - Bescheinigung wird abgelehnt.
-- Eigenleistung des Einzelunternehmers wird nicht angesetzt, obwohl nach § 3 Abs. 3 FZulG erlaubt (pauschal 70 EUR/Std., maximal 40 Std./Woche, vor Ausgabe verifizieren).
-- Antrag beim Finanzamt ohne vorherige BSFZ-Bescheinigung - das Finanzamt setzt nicht fest, bis die Bescheinigung vorliegt.
-
----
-
-## Skill: `forschungszulage-insolvenzlage-red-team-korrektur`
-
-_Wenn es um Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Forschungszulage Insolvenzlage Red Team Korrektur; Arbeitsfeld: Forschungszulage-Antragstellung._
-
-# Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: FZulG § 5 Antrag nach Ablauf des Wirtschaftsjahres, 4-jährige Festsetzungsverjährung, BSFZ-Bescheinigung Voraussetzung, Anrechnung beim FA.
-- Tragende Normen verifizieren: FZulG §§ 1-12, BsGav Forschungszulagen-Verordnung, EStG, KStG, GewStG (Anrechnung), EU-AGVO (VO 651/2014), Frascati-Handbuch, BSFZ-Richtlinien — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anspruchsberechtigtes Unternehmen, Bescheinigungsstelle Forschungszulage (BSFZ), Finanzamt (Festsetzung/Verrechnung), Wirtschaftsprüfer/Steuerberater.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: BSFZ-Antrag, FuE-Projektbeschreibung, Personalstundenaufzeichnung, Auftragsforschungsvertrag, FA-Antrag auf Forschungszulage, BSFZ-Bescheinigung, FA-Bescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Spezialwissen: Forschungszulage: Erstprüfung, Rollenklärung und Mandatsziel
-- **Normen-/Quellenanker:** FZulG, BSFZ.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Forschungszulage** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## FZulG-Anspruchsvoraussetzungen (Erstprüfung)
-
-| Tatbestandsmerkmal | Norm | Prüffrage |
-|---|---|---|
-| Anspruchsberechtigter | § 1 FZulG | Steuerpflichtige nach EStG / KStG mit FuE-Aktivität in DE; auch Personengesellschaften, mit Sonderregeln für nicht-steuerpflichtige Mitunternehmer |
-| FuE-Vorhaben | § 2 FZulG i.V.m. Frascati-Manual | Grundlagenforschung, industrielle Forschung oder experimentelle Entwicklung |
-| Begünstigte Aufwendungen | § 3 FZulG | Lohnaufwendungen FuE-Personal + 25 % Pauschale für Personalnebenkosten + Auftragsforschungs-Anteil + bestimmte Einzelunternehmer-Eigenleistung |
-| Bemessungsgrundlage | § 3 FZulG | maximal förderfähig pro Jahr (Höchstgrenze vor Ausgabe verifizieren - ab 2024/2025 erhöht) |
-| Zulagensatz | § 4 FZulG | regelmäßig 25 %, für KMU + 10 % (auf Antrag) |
-
-## Norm-Bezug konkret
-
-- § 1 FZulG: Anspruchsvoraussetzung.
-- § 2 FZulG: begünstigte FuE-Tätigkeiten.
-- § 3 FZulG: förderfähige Aufwendungen und Bemessungsgrundlage.
-- § 4 FZulG: Höhe der Forschungszulage.
-- §§ 5, 6 FZulG: Bescheinigungsverfahren BSFZ.
-- §§ 9, 10 FZulG: Festsetzung beim Finanzamt.
-- BMF-Schreiben zum FZulG (Datum und AZ vor Ausgabe verifizieren auf bundesfinanzministerium.de).
-- AGVO (EU) 651/2014: beihilferechtliche Grundlage; Art. 25 Forschungs- und Entwicklungsvorhaben.
-
-## Praktischer Tipp
-
-- Forschungszulage ist eine **steuerliche Förderung mit Verrechnung gegen die Einkommen-/Körperschaftsteuerschuld**; bei Verlusten oder zu niedriger Steuerschuld erfolgt **Auszahlung des überschießenden Betrags** (§ 10 Abs. 1 Satz 4 FZulG). Das ist der zentrale Liquiditätsvorteil gegenüber klassischen Sonderabschreibungen.
-- BSFZ-Bescheinigung ist **rückwirkend möglich** für vier Jahre nach Ende des Wirtschaftsjahres (Antrag bei BSFZ); die Festsetzung beim Finanzamt erfolgt **mit der Einkommen-/Körperschaftsteuererklärung** des jeweiligen Wirtschaftsjahres.
-- Forschungszulage ist beihilferechtlich vereinbar mit anderen Beihilfen, aber **bei kumulativer Anwendung Höchstintensitäten der AGVO Art. 25 prüfen** (Grundlagenforschung 100 %, industrielle Forschung 50 %, experimentelle Entwicklung 25 %; KMU-Aufschläge).
-
-## Trade-off: FZulG vs. andere Förderinstrumente
-
-| Pfad | Vorteil | Nachteil |
-|---|---|---|
-| FZulG | rechtssicherer Anspruch (kein Antragsglück), auch in Verlustlage liquiditätswirksam | engerer FuE-Begriff, Verfahren in zwei Stufen |
-| ZIM, Horizon Europe | höhere Förderquoten bei Zuschuss | konkurrenzbasiert, Antragsaufwand hoch |
-| Investitionsabzugsbetrag § 7g EStG | breit anwendbar | nur Stundung, kein "echter" Zuschuss |
-
-Empfehlung: FZulG immer prüfen, weil rechtssicher; nicht alternativ, sondern **kumulativ** zu klassischen Projektförderungen denken.
-
-## Typische Fehler (Erstprüfung)
-
-- Antragsteller hält Routinetätigkeiten (Software-Wartung, marginale Produktverbesserung) für FuE - Bescheinigung wird abgelehnt.
-- Eigenleistung des Einzelunternehmers wird nicht angesetzt, obwohl nach § 3 Abs. 3 FZulG erlaubt (pauschal 70 EUR/Std., maximal 40 Std./Woche, vor Ausgabe verifizieren).
-- Antrag beim Finanzamt ohne vorherige BSFZ-Bescheinigung - das Finanzamt setzt nicht fest, bis die Bescheinigung vorliegt.
-
----
-
-## Skill: `foerdercheck-risikoampel-und-gegenargumente`
-
-_Wenn es um Foerdercheck: Risikoampel, Gegenargumente und Verteidigungslinien in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Foerdercheck Risikoampel Und Gegenargumente; Arbeitsfeld: Forschungszulage-Antragstellung._
-
-# Foerdercheck: Risikoampel, Gegenargumente und Verteidigungslinien
+# Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine
 
 ## Normenanker
 
-Arbeitsfokus: **Foerdercheck: Risikoampel, Gegenargumente und Verteidigungslinien**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+Arbeitsfokus: **Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
 
 - `§ 1 FZulG` — Anspruchsberechtigung.
 - `§ 2 Abs. 1 FZulG` — begünstigtes F&E-Vorhaben.
@@ -892,15 +848,7 @@ Arbeitsfokus: **Foerdercheck: Risikoampel, Gegenargumente und Verteidigungslinie
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: FZulG § 5 Antrag nach Ablauf des Wirtschaftsjahres, 4-jährige Festsetzungsverjährung, BSFZ-Bescheinigung Voraussetzung, Anrechnung beim FA.
-- Tragende Normen verifizieren: FZulG §§ 1-12, BsGav Forschungszulagen-Verordnung, EStG, KStG, GewStG (Anrechnung), EU-AGVO (VO 651/2014), Frascati-Handbuch, BSFZ-Richtlinien — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anspruchsberechtigtes Unternehmen, Bescheinigungsstelle Forschungszulage (BSFZ), Finanzamt (Festsetzung/Verrechnung), Wirtschaftsprüfer/Steuerberater.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: BSFZ-Antrag, FuE-Projektbeschreibung, Personalstundenaufzeichnung, Auftragsforschungsvertrag, FA-Antrag auf Forschungszulage, BSFZ-Bescheinigung, FA-Bescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Spezialwissen: Foerdercheck: Risikoampel, Gegenargumente und Verteidigungslinien
+## Spezialwissen: Portaltexte: Schriftsatz-, Brief-, Memo- und Plädoyer-Bausteine
 - **Normen-/Quellenanker:** FZulG, BSFZ.
 
 ## Fallweichen
@@ -914,262 +862,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Arbeitsworkflow
 1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Foerdercheck** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
----
-
-## Skill: `plaedoyer-begruendung-roadmap`
-
-_Wenn es um Plädoyer, Begründung und Verteidigung der Forschungszulage in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Plaedoyer Begruendung Roadmap; Arbeitsfeld: Forschungszulage-Antragstellung._
-
-# Plädoyer, Begründung und Verteidigung der Forschungszulage
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: FZulG § 5 Antrag nach Ablauf des Wirtschaftsjahres, 4-jährige Festsetzungsverjährung, BSFZ-Bescheinigung Voraussetzung, Anrechnung beim FA.
-- Tragende Normen verifizieren: FZulG §§ 1-12, BsGav Forschungszulagen-Verordnung, EStG, KStG, GewStG (Anrechnung), EU-AGVO (VO 651/2014), Frascati-Handbuch, BSFZ-Richtlinien — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anspruchsberechtigtes Unternehmen, Bescheinigungsstelle Forschungszulage (BSFZ), Finanzamt (Festsetzung/Verrechnung), Wirtschaftsprüfer/Steuerberater.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: BSFZ-Antrag, FuE-Projektbeschreibung, Personalstundenaufzeichnung, Auftragsforschungsvertrag, FA-Antrag auf Forschungszulage, BSFZ-Bescheinigung, FA-Bescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Worum geht es
-
-Dieser Skill baut das eigentliche **Plädoyer für die Forschungszulage**: nicht als werblichen Fördermitteltext, sondern als knappe, aktenfeste und behördenfähige Argumentation. Er verbindet vier Ebenen:
-
-1. **Warum ist das Vorhaben FuE?** Neuheit, Ungewissheit, systematisches Vorgehen, Reproduzierbarkeit, Abgrenzung zu Routine.
-2. **Warum ist der Antragsteller anspruchsberechtigt?** Steuerpflicht, Einkunftsart, Unternehmen, Mitunternehmerschaft, verbundene Unternehmen.
-3. **Warum sind die Aufwendungen förderfähig?** Personal, Eigenleistung, Auftragsforschung, Wirtschaftsgüter, Gemein- und Betriebskostenpauschale, Wirtschaftsjahr.
-4. **Warum ist die konkrete Förderhöhe belastbar?** Bemessungsgrundlage, Kumulierung, Belege, Stundennachweise, Finanzamt-Route, Liquidität.
-
-Das Plädoyer ist immer **adressatenspezifisch**: Die BSFZ will eine technische FuE-Geschichte; das Finanzamt will Zahlen und Belege; die Geschäftsführung will Cash, Risiko und Aufwand; das Gericht will Zuständigkeit, Verwaltungsakt, Rechtsweg und Substantiierung.
-
-## Wann dieses Modul hilft
-
-- Wenn ein BSFZ-Portaltext schon vorliegt, aber zu flach, werblich oder nicht beweisbar klingt.
-- Wenn eine Rückfrage oder Ablehnung in eine überzeugende Stellungnahme übersetzt werden muss.
-- Wenn ein Finanzamt die Bemessungsgrundlage kürzt und ein Einspruch begründet werden soll.
-- Wenn Geschäftsführung, CFO, Insolvenzverwaltung oder Investor verstehen müssen, warum sich der Antrag lohnt.
-- Wenn ein Antrag strategisch priorisiert werden soll: schlank einreichen, vertiefen, splitten, bündeln, zurückstellen oder neu aufsetzen.
-
-## Kaltstart in sieben Fragen
-
-1. **Adressat:** BSFZ, Finanzamt, Mandant/CFO, Insolvenzverwaltung, Einspruchsstelle, Finanzgericht?
-2. **Anlass:** Erstantrag, Rückfrage, Ablehnung, Kürzung, Betriebsprüfung, Liquiditätsplanung, interner Beschluss?
-3. **Vorhaben:** Was ist das technische oder wissenschaftliche Problem, nicht nur das Produkt?
-4. **FuE-Kern:** Was ist neu, ungewiss, systematisch untersucht und nicht bloße Routine?
-5. **Zahlen:** Welche Wirtschaftsjahre, Kostenarten, Stunden, Auftragsforschung, Wirtschaftsgüter und Förderungen?
-6. **Belege:** Welche Dokumente beweisen welchen Satz?
-7. **Ziel:** Positive Bescheinigung, höhere Bemessungsgrundlage, fristwahrender Einspruch, Auszahlung, Vorauszahlungssenkung, Vorstandsbeschluss?
-
-Wenn Unterlagen hochgeladen sind, zuerst aus ihnen arbeiten und die sieben Fragen nur dort stellen, wo die nächste Weiche sonst offen bleibt.
-
-## Quellen-Gate vor jedem Plädoyer
-
-Vor tragenden Aussagen live prüfen und im Output als Quellenanker führen:
-
-- FZulG auf `gesetze-im-internet.de`, insbesondere §§ 1 bis 7, § 10 und § 12 FZulG.
-- BSFZ-Antragsverfahren und aktuelle BSFZ-Hilfen, insbesondere zweistufiges Verfahren und Portal-/ELSTER-Authentifizierung.
-- BMF-Seite Forschungszulage und BMF-Schreiben vom 07.02.2023, soweit nicht durch neuere finale Verwaltungsanweisung ersetzt.
-- Aktuelle Änderungen ab 2026: Bemessungsgrundlagenhöchstbetrag, Eigenleistungsstundensatz, Gemein-/Betriebskostenpauschale, Auftragsforschung.
-- Bei Kumulierung: AGVO, De-minimis, Bewilligungsbescheide anderer Programme und konkrete Kostenidentität.
-
-Keine Rechtsprechung oder Literatur aus Modellwissen zitieren. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle.
-
-## Argumentationsarchitektur
-
-### 1. Ein-Satz-Kern
-
-Formuliere zuerst einen Satz, der das Vorhaben trägt:
-
-> Das Vorhaben ist förderfähige experimentelle Entwicklung, weil [konkretes technisches Ziel] unter [unbekannter Randbedingung] mit dem vorhandenen Stand der Technik nicht sicher erreichbar war und die Antragstellerin deshalb in [Arbeitspaketen] systematisch [Hypothesen/Varianten] untersucht hat.
-
-Wenn dieser Satz nicht gelingt, ist das Plädoyer noch nicht reif. Dann zuerst `fz-fue-definition-frascati-abgrenzung` oder `fz-bsfz-bescheinigung-projektbeschreibung` nutzen.
-
-### 2. FuE-Kern
-
-| Element | Starke Formulierung | Schwache Formulierung |
-| --- | --- | --- |
-| Neuheit | "Die Kombination aus A/B/C war im Stand der Technik nicht beschrieben und sollte Zielwert X erreichen." | "Das Produkt ist innovativ." |
-| Ungewissheit | "Ob Zielwert X unter Randbedingung Y erreichbar ist, war offen; Vorversuch Z scheiterte." | "Es bestand ein Entwicklungsrisiko." |
-| Systematik | "AP-1 bis AP-5 testen Hypothesen H1-H3 mit messbaren Abbruchkriterien." | "Wir entwickeln iterativ." |
-| Routineabgrenzung | "Serienpflege, UI-Anpassung und reine Integration sind ausgeklammert." | "Es ist keine Routine." |
-| Reproduzierbarkeit | "Versuchsaufbau, Messwerte und Versionen sind in Anlage X dokumentiert." | "Die Ergebnisse sind nachvollziehbar." |
-
-### 3. Anspruch und Verfahren
-
-Das Plädoyer trennt immer:
-
-- **BSFZ-Stufe:** FuE-Eigenschaft des Vorhabens; die BSFZ beurteilt nicht die Höhe der Bemessungsgrundlage.
-- **Finanzamt-Stufe:** wirtschaftsjahrbezogene Festsetzung; Bemessungsgrundlage, Kosten, Kumulierung und Auszahlung/Anrechnung.
-- **Liquiditätswirkung:** Die Zulage wird auf Einkommen- oder Körperschaftsteuer angerechnet; ein Überschuss wird erstattet. Das ist gerade in Verlust- und Krisenlagen praktisch wichtig, aber nicht auf Insolvenzfälle beschränkt.
-
-### 4. Kosten- und Beleglogik
-
-Jede Zahl braucht eine Belegkette:
-
-| Kostenart | Behauptung | Beleg | Risiko |
-| --- | --- | --- | --- |
-| FuE-Personal | Arbeitslohn anteilig im Vorhaben | Lohnkonto, Stundennachweis, Projektzuordnung | Pauschalschätzung ohne Tätigkeitsbezug |
-| Eigenleistung | Stunden des Einzel-/Mitunternehmers | Stundenliste, Tätigkeitsbeschreibung, Wochen-Cap | Doppelansatz mit Lohn / Überschreitung |
-| Auftragsforschung | 70 % des Entgelts bei geeigneter EU/EWR-Konstellation | Vertrag, Rechnung, Leistungsbeschreibung, Sitz/Geschäftsleitung | Auftragnehmer außerhalb EU/EWR oder bloße Fertigung |
-| Wirtschaftsgüter | anteilige AfA/Wertminderung für FuE-Nutzung | Anlagenverzeichnis, Nutzungsnachweis, Arbeitsplan | Mitbenutzung im Regelbetrieb |
-| Gemein-/Betriebskosten | Pauschalansatz bei einschlägigen 2026-Regeln | Jahreszuordnung, übrige förderfähige Aufwendungen | falscher Vorhabenbeginn / falsches Jahr |
-| Andere Förderung | keine doppelte Förderung derselben Kosten | Bewilligungsbescheid, Kostenplan, Abgrenzungsmatrix | Kostenidentität übersehen |
-
-## Plädoyer-Formate
-
-### A. BSFZ-Stellungnahme
-
-**Ziel:** FuE-Eigenschaft verteidigen.
-
-Aufbau:
-
-1. Antrag und Rückfrage kurz einordnen.
-2. Forschungsfrage und Zielwert nennen.
-3. Stand der Technik knapp und konkret abgrenzen.
-4. Technische Ungewissheit scharf herausarbeiten.
-5. Arbeitspakete als systematisches Vorgehen darstellen.
-6. Routine-Anteile offen ausklammern.
-7. Anlagen bezeichnen, nicht überfrachten.
-
-Ton: technisch, sachlich, knapp. Keine Fördermittelrhetorik.
-
-### B. Finanzamt-Einspruchsbegründung
-
-**Ziel:** Kürzung oder Ablehnung der Bemessungsgrundlage angreifen.
-
-Aufbau:
-
-1. Bescheid, Datum, Steuernummer, Streitpunkt.
-2. BSFZ-Bescheinigung als Grundlagenanker benennen.
-3. Finanzamt-Streitpunkt auf Kostenebene isolieren.
-4. Kostenart für Kostenart mit Belegkette durchgehen.
-5. Kumulierung und andere Förderungen aktiv offenlegen.
-6. Antrag: Änderung des Bescheids, hilfsweise Teilabhilfe, ggf. Aussetzung der Vollziehung nur bei Rückforderung/Belastung.
-
-Ton: ruhig, rechenbar, belegverliebt.
-
-### C. Geschäftsführungs-/CFO-Plädoyer
-
-**Ziel:** Entscheidung über Antragstellung, Budget, Dokumentation und Berateraufwand.
-
-Aufbau:
-
-1. Förderchance in Euro-Bandbreite.
-2. Antragspfad und Zeitplan.
-3. Engpass: BSFZ-Text, Stundenerfassung, Belege, Kumulierung.
-4. Aufwand vs. erwartete Zulage.
-5. Risikoampel.
-6. Beschlussvorschlag.
-
-Ton: knapp, entscheidungsfähig, ohne Paragrafenwand.
-
-### D. Insolvenz-/Krisen-Plädoyer
-
-**Ziel:** Zulage als Liquiditäts- und Massebaustein sichern.
-
-Aufbau:
-
-1. Anspruchsjahr und Verfahrensstand.
-2. Wer handelt: Geschäftsleitung, vorläufige Verwaltung, Insolvenzverwaltung?
-3. Massezugehörigkeit, Steuerkonto, Aufrechnung, Abtretung, Sicherungsrechte prüfen.
-4. Priorität: BSFZ-Bescheinigung, Finanzamt-Antrag, Vorauszahlungssenkung, Erstattungszeitpunkt.
-5. Belegpaket trotz Krisenaktenlage sichern.
-
-Ton: vorsichtig, fristen- und kontenorientiert.
-
-## Muster: Kurzes Plädoyer an die BSFZ
-
-```text
-Sehr geehrte Damen und Herren,
-
-die Rückfrage vom [Datum] nehmen wir zum Anlass, den FuE-Kern des Vorhabens [Titel] zu präzisieren.
-
-Das Vorhaben erschöpft sich nicht in Produktanpassung oder Implementierung. Gegenstand ist die systematische Untersuchung, ob [konkrete technische Lösung] unter [Randbedingung] den Zielwert [Messgröße] erreichen kann. Der Stand der Technik [Quelle/Patent/Norm/Publikation kurz bezeichnen] zeigt zwar [bekannte Lösung], löst aber nicht [konkrete Lücke].
-
-Die technische Ungewissheit lag darin, dass [Hürde] bei [Versuchsbedingung] zum Scheitern führen konnte. Diese Unsicherheit wurde nicht durch bloße Erfahrung oder Routinearbeit behoben, sondern durch die Arbeitspakete AP-1 bis AP-[x]: [Kurzbeschreibung]. Die Routineanteile [Beispiele] wurden bewusst nicht als FuE-Anteile geltend gemacht.
-
-Wir bitten daher, das Vorhaben als begünstigtes FuE-Vorhaben im Sinne des FZulG zu bescheinigen. Die ergänzenden Belege sind als Anlagen [A1-Ax] beigefügt.
-```
-
-## Muster: Plädoyer für die Finanzamt-Ebene
-
-```text
-Sehr geehrte Damen und Herren,
-
-Gegenstand des Einspruchs ist nicht die FuE-Eigenschaft des Vorhabens [Titel]; diese ist durch die BSFZ-Bescheinigung vom [Datum], Az. [AZ], positiv beschieden. Streitpunkt ist allein die Bemessungsgrundlage für das Wirtschaftsjahr [Jahr].
-
-Die geltend gemachten Personalkosten beruhen auf tagesbezogenen Stundenaufzeichnungen, die jedem Vorhaben und Arbeitspaket zugeordnet sind. Die Lohnaufwendungen wurden aus den Lohnkonten [Anlage] abgeleitet und nur anteilig im Umfang der dokumentierten FuE-Tätigkeit angesetzt. Nicht förderfähige Routine-, Serien- und Verwaltungszeiten wurden ausgeschieden.
-
-Soweit Auftragsforschung einbezogen ist, betrifft sie die in Vertrag [Anlage] beschriebene FuE-Leistung [Kurzinhalt]. Der Auftragnehmer erfüllt nach den vorliegenden Unterlagen die erforderlichen Sitz-/Geschäftsleitungsanforderungen. In der Bemessungsgrundlage wurde nur der gesetzlich berücksichtigungsfähige Anteil des Entgelts angesetzt.
-
-Wir beantragen daher, den Forschungszulagenbescheid vom [Datum] zu ändern und die Forschungszulage auf Grundlage der beigefügten Berechnung auf [Betrag] festzusetzen.
-```
-
-## Red-Team vor Abgabe
-
-Prüfe vor jeder Ausgabe:
-
-1. Klingt das Vorhaben wie Marketing statt Forschung?
-2. Ist die technische Ungewissheit wirklich konkret?
-3. Sind Routineanteile aktiv ausgeschlossen?
-4. Gibt es für jede Zahl einen Beleg?
-5. Sind BSFZ- und Finanzamt-Ebene sauber getrennt?
-6. Ist die aktuelle Gesetzesfassung geprüft?
-7. Ist bei Auftragsforschung EU/EWR/Geschäftsleitung/Subunternehmer sauber geprüft?
-8. Sind andere Förderungen und Beihilfen abgegrenzt?
-9. Wird keine Auszahlung versprochen, bevor § 10 FZulG zeitlich geprüft ist?
-10. Ist das Plädoyer so kurz, dass die zuständige Person es lesen will?
-
-## Quellen Stand 06/2026
-
-- FZulG: https://www.gesetze-im-internet.de/fzulg/
-- BMF Forschungszulage: https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerliche_Themengebiete/Forschungszulage/forschungszulage.html
-- BSFZ-Antragsverfahren: https://www.bescheinigung-forschungszulage.de/antragsverfahren/ueber-das-antragsverfahren
-- BSFZ steuerliches Investitionssofortprogramm: https://www.bescheinigung-forschungszulage.de/steuerliches-investitionssofortprogramm
-- `references/forschungszulage-quellen-und-zahlen.md`
-
----
-
-## Skill: `mehrjahresroadmap-fristennotiz-naechster`
-
-_Wenn es um Mehrjahresroadmap: Fristennotiz und nächster Schritt in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Mehrjahresroadmap Fristennotiz Naechster; Arbeitsfeld: Forschungszulage-Antragstellung._
-
-# Mehrjahresroadmap: Fristennotiz und nächster Schritt
-
-## Normenanker
-
-Arbeitsfokus: **Mehrjahresroadmap: Fristennotiz und nächster Schritt**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
-
-- `§ 1 FZulG` — Anspruchsberechtigung.
-- `§ 2 Abs. 1 FZulG` — begünstigtes F&E-Vorhaben.
-- `§ 3 FZulG` — förderfähige Aufwendungen.
-- `§ 4 FZulG` — Höhe der Zulage.
-- `§ 5 FZulG` — Antrag.
-- `§ 6 FZulG` — Bescheinigung.
-- `§ 10 FZulG` — Festsetzung/Auszahlung.
-- `§ 90 Abs. 1 AO` — Mitwirkung und Belege.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Spezialwissen: Mehrjahresroadmap: Fristennotiz und nächster Schritt
-- **Normen-/Quellenanker:** FZulG, BSFZ.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Mehrjahresroadmap** prüfen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Portaltexte** prüfen.
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
@@ -1178,7 +871,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

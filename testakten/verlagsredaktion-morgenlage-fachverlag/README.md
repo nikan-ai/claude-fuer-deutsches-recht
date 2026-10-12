@@ -1,18 +1,25 @@
 # Akte: Verlagsredaktion Morgenlage Fachverlag
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 80 KB) | PDF | [`gesamt-pdf/verlagsredaktion-morgenlage-fachverlag_gesamt.pdf`](gesamt-pdf/verlagsredaktion-morgenlage-fachverlag_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-verlagsredaktion-morgenlage-fachverlag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verlagsredaktion-morgenlage-fachverlag.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-verlagsredaktion-morgenlage-fachverlag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verlagsredaktion-morgenlage-fachverlag-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/verlagsredaktion-morgenlage-fachverlag_gesamt.pdf`](gesamt-pdf/verlagsredaktion-morgenlage-fachverlag_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-verlagsredaktion-morgenlage-fachverlag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-verlagsredaktion-morgenlage-fachverlag.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-verlagsredaktion-morgenlage-fachverlag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-verlagsredaktion-morgenlage-fachverlag-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -31,12 +38,13 @@ Die Akte simuliert den Montagmorgen einer Sachbearbeiterin im juristischen Fachv
 | `05_bildrechte_tabellen_screenshots.docx` | Abbildungen, Screenshots, Tabellen, Credits, Rechteampel und Lizenzlaufzeiten |
 | `06_satzfahne_korrekturlauf.docx` | Satzfahnennotiz mit 16 Auffälligkeiten, Freigabematrix, Vorschlag Korrekturlauf |
 | `07_metadaten_marketing_vertrieb.docx` | Klappentext, Schlagworte, Newsletter, Tonalitätsvorgaben, Vergleich 1./2. Auflage |
-| `08_erwarteter_output.docx` | Qualitätsanforderungen für die redaktionelle Bearbeitung, Bewertungsmaßstab |
 | `09_eml_seidenpfennig_kuerzung.eml` | Originalmail Prof. Seidenpfennig vom Fr 29.05. mit Manuskript v7 |
 | `10_eml_rabenau_screenshot.eml` | Originalmail RA Rabenau vom Fr 29.05. zu Bildrechten Folie 12 |
 | `11_vertriebs_jourfixe_notiz.docx` | Tagesordnung und Notizen Vertriebs-Jour-fixe Do 04.06. |
 | `12_heftumbruch_konflikt_lektorat.docx` | Konflikt Redaktion vs. Lektorat zu Schlusskorrektur, Streichung IV.3, "Datenraum" |
 | `13_honorarrechnung_diskussion_niemczyk.docx` | Honorarmahnung Stufe 2 -- Konflikt zwischen Vertragsklausel und mündlicher Pauschalzusage |
+| `14_eml_aulich_fahnenstatus.eml` | Montagsmail der Herstellung: Druckslot-Bestätigung, fehlende Abbildung Seite 47, Titel-Diskrepanz, Paginierungsfehler |
+| `15_mahnlauf_export_lichtblau.csv` | Rohexport des Mahnservice Lichtblau mit fünf offenen Vorgängen, darunter RG 2026/0218 (Niemczyk) |
 
 ## Testziele
 

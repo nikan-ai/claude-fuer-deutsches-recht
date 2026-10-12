@@ -1,36 +1,44 @@
 # BtM-Akte
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 79 KB) | PDF | [`gesamt-pdf/betaeubungsmittelrecht-apotheke-substitution-festival_gesamt.pdf`](gesamt-pdf/betaeubungsmittelrecht-apotheke-substitution-festival_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-betaeubungsmittelrecht-apotheke-substitution-festival.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-betaeubungsmittelrecht-apotheke-substitution-festival.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-betaeubungsmittelrecht-apotheke-substitution-festival-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-betaeubungsmittelrecht-apotheke-substitution-festival-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/betaeubungsmittelrecht-apotheke-substitution-festival_gesamt.pdf`](gesamt-pdf/betaeubungsmittelrecht-apotheke-substitution-festival_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-betaeubungsmittelrecht-apotheke-substitution-festival.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-betaeubungsmittelrecht-apotheke-substitution-festival.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-betaeubungsmittelrecht-apotheke-substitution-festival-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-betaeubungsmittelrecht-apotheke-substitution-festival-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 BtM-Akte: Apotheke, Substitution, Festivalfund, nicht geringe Menge, BtM-Rezept, Fahrerlaubnis und Therapiepfad.
 
-## Dateien
+## Kernunterlagen
 
 | Datei | Inhalt |
-|---|---|
-| `01-sachverhalt-und-akte.docx` | Ausgangslage, Personen, Behörden/Gegner und Problemkern |
-| `02-fristen-kosten-risiken.csv` | Fristen-, Kosten- und Risikomatrix |
-| `03-email-anfrage-oder-behoerdenpost.eml` | E-Mail/Behördenpost aus der Akte |
-| `04-arbeitsvermerk.docx` | Arbeitsvermerk als Word-Datei |
-| `05-dashboard.xlsx` | Tracker-/Dashboard-Tabelle |
-| `06-bildanlage-lagekarte.jpg` | Bildanlage/Lagekarte als JPG |
-| `07-entwurf-naechster-schritt.docx` | Entwurf für Antrag, Widerspruch, Klagebaustein oder Strategie |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
-
+| --- | --- |
+| `01_apothekenaufsicht_kontrollniederschrift.docx` | Kontrolle des Betäubungsmittelbestands am 10. Juli 2026 |
+| `02_btm_bestandsjournal_buprenorphin.xlsx` | Tabellarische Rohdaten Bestand BUP 8 mit 7 Datensätzen |
+| `03_email_apotheke_verlustmeldung_2026-07-10.eml` | E-Mail mit vollständigem Header: Bestandsdifferenz Buprenorphin 8 mg / Adler-Apotheke / APO-BTM 26/771 |
+| `04_polizei_sicherstellungsprotokoll_uferklang.docx` | Sicherstellung am Sanitätszelt Festival Uferklang |
+| `05_aservate_rezepte_und_telefonzeiten.csv` | Rohdatenexport mit 6 Einträgen und unveränderten Quellenangaben |
+| `06_email_festival_sanitaetsdienst_fund_2026-07-12.eml` | E-Mail mit vollständigem Header: Fund Buprenorphin mit Apothekenquittung / Uferklang 11. Juli |
+| `07_arztpraxis_telefonvermerk_takehome.docx` | Telefon- und Verordnungsvermerk zur Take-home-Abgabe |
+| `08_chatexport_jonas_ruess_2026-07-11.txt` | Polizeilich gesicherter Nachrichtenexport: Blister-Weitergabe an „Cem F." und Verlust der Gürteltasche |
+| `09_email_apotheke_nachreichung_2026-07-16.eml` | E-Mail mit vollständigem Header: Nachreichung Warenbewegungen, Videoauszug, fehlende Stellungnahme Rüß |
+| `10_abschrift_notizzettel_tresorbuch.docx` | Abschrift eines handschriftlichen Zählzettels aus dem BtM-Journal mit Bestandsnotizen vom 8. bis 10. Juli |
 ## Passende Plugins
 
 `betaeubungsmittelrecht`

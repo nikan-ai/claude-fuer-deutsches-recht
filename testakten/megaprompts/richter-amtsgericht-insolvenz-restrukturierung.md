@@ -2,125 +2,141 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt alle 12 Skills des Plugins `richter-amtsgericht-insolvenz-restrukturierung`.
+Diese Vollprüfung enthält alle 13 Skills des Plugins `richter-amtsgericht-insolvenz-restrukturierung`.
 
 ## Inhaltsverzeichnis
 
-1. **99-finale-entscheidung-volltext** — Wenn es um Finale Entscheidung als Volltext (Beschluss Insolvenz oder Restrukturierung) in Insolvenz- und Restrukturieru…
-2. **prozessuale-kniffe-und-rechtsprechungsanker** — Wenn es um Prozessuale Kniffe und Rechtsprechungsanker in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: o…
-3. **02-sicherungsmassnahmen-vor-eroeffnung** — Wenn es um 02 Sicherungsmaßnahmen Vor Eröffnung in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: ordnet S…
-4. **03-eroeffnungsbeschluss-und-verwalterbestellung** — Wenn es um 03 Eröffnungsbeschluss und Verwalterbestellung in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht…
-5. **01-eroeffnungsantrag-pruefen-insolvenz** — Wenn es um 01 Eröffnungsantrag Prüfen Insolvenz in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: erstellt…
-6. **04-glaeubigerversammlung-und-pruefungstermin** — Wenn es um 04 Gläubigerversammlung und Prüfungstermin in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: pr…
-7. **08-starug-restrukturierungssache-anzeigen** — Wenn es um 08 StaRUG Restrukturierungssache Anzeigen in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prü…
-8. **05-restschuldbefreiung-und-schlusstermin** — Wenn es um 05 Restschuldbefreiung und Schlusstermin in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüf…
-9. **10-starug-planbestaetigung-und-folgen** — Wenn es um 10 StaRUG Planbestätigung und Folgen in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Fr…
-10. **06-eigenverwaltung-und-schutzschirm** — Wenn es um 06 Eigenverwaltung und Schutzschirm in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Fri…
-11. **09-starug-stabilisierungsanordnung** — Wenn es um 09 StaRUG Stabilisierungsanordnung in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Fris…
-12. **07-insolvenzplan-bestaetigen** — Wenn es um 07 Insolvenzplan Bestaetigen in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, For…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Richter Amtsgericht Insolvenz Restrukturierung ein juristisches Arbeitsprodukt tragfähig begr…
+2. **prozessuale-kniffe-und-rechtsprechungsanker** — Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Ri…
+3. **99-finale-entscheidung-volltext** — Für Finale Entscheidung als Volltext (Beschluss Insolvenz oder Restrukturierung): ordnet Norm, Beweislast und Gegenargum…
+4. **04-glaeubigerversammlung-und-pruefungstermin** — Für 04 Gläubigerversammlung und Prüfungstermin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte…
+5. **03-eroeffnungsbeschluss-und-verwalterbestellung** — Für 03 Eröffnungsbeschluss und Verwalterbestellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit…
+6. **01-eroeffnungsantrag-pruefen-insolvenz** — Für 01 Eröffnungsantrag Prüfen Insolvenz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Beg…
+7. **08-starug-restrukturierungssache-anzeigen** — Für 08 StaRUG Restrukturierungssache Anzeigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risi…
+8. **05-restschuldbefreiung-und-schlusstermin** — Für 05 Restschuldbefreiung und Schlusstermin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
+9. **02-sicherungsmassnahmen-vor-eroeffnung** — Für 02 Sicherungsmaßnahmen vor Eröffnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+10. **10-starug-planbestaetigung-und-folgen** — Für 10 StaRUG Planbestätigung und Folgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+11. **06-eigenverwaltung-und-schutzschirm** — Für 06 Eigenverwaltung und Schutzschirm: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und…
+12. **09-starug-stabilisierungsanordnung** — Für 09 StaRUG Stabilisierungsanordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
+13. **07-insolvenzplan-bestaetigen** — Für 07 Insolvenzplan Bestätigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
 
 ---
 
-## Skill: `99-finale-entscheidung-volltext`
+## Skill: `juristischer-argumentationskern`
 
-_Wenn es um Finale Entscheidung als Volltext (Beschluss Insolvenz oder Restrukturierung) in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
+_Schaltet sich ein, wenn in Richter Amtsgericht Insolvenz Restrukturierung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
 
-# Finale Entscheidung als Volltext (Beschluss Insolvenz oder Restrukturierung)
+# Juristischer Argumentationskern - Richter Amtsgericht Insolvenz Restrukturierung
 
-## Zweck
+## 1. Direktstart
 
-Dieser Skill erzeugt die finale Entscheidung des Spruchkörpers nicht als bloßen Vorschlag oder Votum, sondern als versandfertigen Volltext im richtigen Layout — so, wie er das Gericht verlassen würde. Die Entscheidung wird zur Unterschrift fertig gebaut: mit Rubrum, vollständigem Tenor, Tatbestand oder Sachverhalt, Entscheidungsgründen, Nebenentscheidungen und Rechtsmittelbelehrung.
+Arbeite als Insolvenzrechtlicher Bearbeiter für Krisenfrüherkennung, Insolvenzantrag, Forderungsanmeldung, Anfechtung, Plan und Sanierung.
 
-Gegenstand: Beschluss in einer Insolvenz- oder Restrukturierungssache.
+Pluginauftrag: Insolvenz- und Restrukturierungsgericht: Eröffnungsverfahren Sicherungsmaßnahmen Verwalterauswahl Gläubigerversammlung Prüfungstermin Schlusstermin Restschuldbefreiung Restrukturierungssache nach StaRUG mit Stabilisierungsanordnung und Planbestätigung.
 
-## Rechtlicher Rahmen
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
-Paragrafen 27, 270, 270b InsO für Eröffnung, Eigenverwaltung und Schutzschirm; Paragrafen 38, 39 FamFG für Beschlussform; Paragrafen 31 ff. StaRUG für Restrukturierungsplan.
+## 2. Die tragende These
 
-## Eingangsvoraussetzungen
+Formuliere das Ergebnis für Richter Amtsgericht Insolvenz Restrukturierung in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt.
 
-Vor der Volltext-Erstellung müssen die vorbereitenden Skills dieses Plugins durchlaufen sein. Insbesondere müssen vorliegen:
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
-- Rubrum mit allen Parteien, Vertretern und Aktenzeichen;
-- vollständig erfasster Sachverhalt und Streitstand;
-- geprüfte Anspruchsgrundlagen oder Tatbestandsmerkmale mit Subsumtion;
-- gewürdigte Beweise oder Akten;
-- Tenor-Skizze mit Entscheidungsformel zu Hauptsache, Kosten und vorläufiger Vollstreckbarkeit oder Rechtsmittelbelehrung.
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
 
-Fehlt eines dieser Stücke, weist der Skill darauf hin und unterbricht die Volltext-Erstellung, bevor er Phantasie produziert.
+## 3. Materienspezifische Tatbestandsarbeit
 
-## Aufbau des Volltextes
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Krise feststellen | Liquiditätsstatus, Fälligkeiten, Fortbestehensprognose und Zahlungsstockung trennen |
+| Pflichten zuordnen | Geschäftsleitung, Gläubiger, Berater, Insolvenzgericht und Verwalterrolle klären |
+| Antrag und Sicherung | Insolvenzantrag, vorläufige Maßnahmen, Masseerhalt und Kommunikation vorbereiten |
+| Forderung und Tabelle | Anmeldung, Bestreiten, Feststellung, Sicherheiten und Aussonderung aufbereiten |
+| Anfechtung und Plan | Rechtshandlung, Kenntnis, Gläubigerbenachteiligung, Sanierungsvergleich und Planlogik prüfen |
 
-### 1. Briefkopf und Rubrum
+### 3.1. Verknüpfung mit den tragenden Fachskills
 
-Gerichtsbezeichnung in der ersten Zeile (zum Beispiel „Amtsgericht München"), Aktenzeichen, Verkündungsdatum, vollständiges Rubrum mit Parteien, Prozessbevollmächtigten, Streitgegenstand und Spruchkörper.
+3.1.1. 01 Eröffnungsantrag Prüfen Insolvenz: Bearbeite den Fachpunkt im Skill 01-eroeffnungsantrag-pruefen-insolvenz und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. 07 Insolvenzplan Bestätigen: Bearbeite den Fachpunkt im Skill 07-insolvenzplan-bestaetigen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. 08 StaRUG Restrukturierungssache Anzeigen: Bearbeite den Fachpunkt im Skill 08-starug-restrukturierungssache-anzeigen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. 02 Sicherungsmaßnahmen Vor Eröffnung: Bearbeite den Fachpunkt im Skill 02-sicherungsmassnahmen-vor-eroeffnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
 
-### 2. Tenor (Entscheidungsformel)
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
-Der Tenor wird vollständig ausformuliert. Er ist die rechtskraftfähige Anordnung. Beispiel für diesen Spruchkörper:
+## 4. Normenanker
 
-1. Über das Vermögen der Schuldnerin wird das Insolvenzverfahren eröffnet.
-2. Zum Insolvenzverwalter wird Rechtsanwalt N.N. bestellt.
-3. Die Insolvenzgläubiger werden aufgefordert, ihre Forderungen bis zum [Datum] anzumelden.
-4. Erster Berichts- und Prüfungstermin wird auf den [Datum, Uhrzeit] anberaumt.
+4.1. InsO Paragraf 17: Zahlungsunfähigkeit.
+4.2. InsO Paragraf 18: drohende Zahlungsunfähigkeit.
+4.3. InsO Paragraf 19: Überschuldung.
+4.4. InsO Paragraf 129 bis Paragraf 147: Insolvenzanfechtung.
+4.5. InsO Paragraf 174: Forderungsanmeldung.
+4.6. StaRUG Paragraf 1: Krisenfrüherkennungspflichten.
 
-Der Tenor enthält zwingend: Hauptausspruch zur Sache, Kostenentscheidung, ggf. Aussprache zur vorläufigen Vollstreckbarkeit, ggf. Streitwertfestsetzung.
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
-### 3. Tatbestand oder Sachverhalt
+## 5. Rechtsprechung und Quellenstatus
 
-Knappe, sachlich-distanzierte Darstellung des unstreitigen Sachverhalts und des streitigen Parteivortrags. Bei Beschlüssen entsprechend „Gründe I."; bei Strafurteilen die Feststellungen zum Tatgeschehen. Verwende den Imperfekt für Geschehensschilderung, das Präsens für Antrag und Verfahrensstand.
+5.1. BGH, Urteil vom 24.05.2005 - IX ZR 123/04: Eine Liquiditätslücke von zehn Prozent oder mehr spricht regelmäßig für Zahlungsunfähigkeit; eine bloße Zahlungsstockung setzt eine nahezu vollständige Schließung binnen drei Wochen voraus.
+5.2. BGH, Urteil vom 19.12.2017 - II ZR 88/16: In den Liquiditätsstatus gehören auch die binnen drei Wochen fällig werdenden und eingeforderten Verbindlichkeiten; ein Geschäftsführer darf buchhalterisch ausgewiesene Passiva nicht pauschal bestreiten.
+5.3. BGH, Urteil vom 06.05.2021 - IX ZR 72/20: Erkannte Zahlungsunfähigkeit allein beweist den Benachteiligungsvorsatz nicht; erforderlich ist die Kenntnis oder Billigung, die übrigen Gläubiger auch künftig nicht vollständig befriedigen zu können.
+5.4. BGH, Urteil vom 10.02.2022 - IX ZR 148/19: Dauerhaft schleppendes Zahlen belegt keine spätere Zahlungseinstellung, wenn dieses Verhalten schon in einer unstreitig zahlungsfähigen Zeit bestand; die Fortdauervermutung verlangt belastbaren Vortrag.
 
-### 4. Entscheidungsgründe
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
 
-Strenge Subsumtionsstruktur: Anspruchsgrundlage oder Tatbestandsmerkmal, Tatbestandsvoraussetzungen, Subsumtion mit Belegen aus den Akten, Ergebnis. Einreden und Einwendungen am Ende der jeweiligen Prüfungsebene. Bei Strafurteilen Beweiswürdigung und Strafzumessung getrennt darstellen.
+## 6. Beweislast und Gegenangriff
 
-### 5. Nebenentscheidungen
+Ausgangspunkt für dieses Plugin: Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation.
 
-Kosten, vorläufige Vollstreckbarkeit, Streitwertfestsetzung. Bei Familien- und Sozialsachen die jeweils einschlägigen Kostenregeln.
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-### 6. Rechtsmittelbelehrung
+## 7. Prüffolge
 
-Vollstaendige Belehrung über statthaftes Rechtsmittel, Frist, Form und Adressat. Niemals weglassen, niemals abkuerzen.
+7.1. Liegt Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit oder Überschuldung vor.
+7.2. Welche Frist oder Pflicht trifft welche Person.
+7.3. Welche Zahlung oder Sicherheit ist anfechtbar.
+7.4. Welche Forderung ist mit welchem Rang anzumelden.
+7.5. Welche Sanierungsoption ist realistisch belegbar.
 
-### 7. Unterschriftenzeile
+## 8. Juristisches Schreiben
 
-Ort, Datum, Name(n) der entscheidenden Berufs- und Laienrichter mit Funktionsbezeichnung. Bei Verhinderung Vertretungsvermerk.
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Krise feststellen, Pflichten zuordnen, Antrag und Sicherung, Forderung und Tabelle: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
 
-## Prozessuale Glanzkontrolle
+## 9. Ausgabemodi
 
-Vor der finalen Entscheidung wird zwingend geprüft:
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
 
-1. Antrag, Eröffnungsgrund, Zuständigkeit, Gläubigerinteresse und Massekostendeckung sind getrennt.
-2. Sicherungsmaßnahmen nach Paragraf 21 InsO sind erforderlich, geeignet, verhältnismäßig und befristet.
-3. Gutachtenauftrag, Anhörung und vorläufige Verwaltung sind aktenkundig begründet.
-4. Eigenverwaltung, Schutzschirm, Plan oder Restrukturierungspfad werden nicht vermischt.
-5. Beschlusswirkungen, Bekanntmachung, Rechtsmittel und Vollzug sind eindeutig.
+## 10. Qualitätskontrolle
 
-## Format und Stil
-
-- Echte Umlaute (ae, oe, ue, ss als ae-Umschrift nur in Slugs; im Volltext durchgehend echte ae, oe, ue, ss).
-- Sachlich, knapp, in deutscher Gerichtssprache.
-- Generisches Maskulinum.
-- Paragrafenzeichen ausgeschrieben als „Paragraf".
-- Aktenzeichen Punkt- oder Schrägstrich-Stil, niemals Komma.
-- Keine Doppelsterne für Fettschrift im Fliesstext.
-
-## Ergebnis
-
-Ein vollständiger, versandfertiger Entscheidungstext, der von Rubrum bis Unterschrift alles enthält. Der Spruchkörper kann ihn unterschreiben — oder vor der Unterschrift redaktionell pruefen. Bei offenen Lückenpunkten bleibt der Volltext stehen, die Lücken werden in eckigen Klammern markiert und am Ende in einer Lücken-Liste zusammengefasst.
-
-## Eigenkontrolle
-
-Bevor der Volltext freigegeben wird, durchlaeuft der Skill eine Eigenkontrolle:
-
-1. Stimmt der Tenor mit den Entscheidungsgründen überein?
-2. Ist die Kostenentscheidung folgerichtig?
-3. Ist die Rechtsmittelbelehrung vollständig und richtig?
-4. Sind alle Parteibezeichnungen einheitlich?
-5. Sind alle Daten, Aktenzeichen und Betraege widerspruchsfrei?
-6. Sind alle Lückenpunkte explizit markiert?
-
-Erst nach bestandener Eigenkontrolle wird der Volltext als final ausgegeben.
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt verwendbar?
 
 ## Beitrag zum Streitstoff in diesem Verfahren
 
@@ -130,7 +146,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `prozessuale-kniffe-und-rechtsprechungsanker`
 
-_Wenn es um Prozessuale Kniffe und Rechtsprechungsanker in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenz- und Restrukturierungsgericht am Amtsgericht._
 
 # Prozessuale Kniffe und Rechtsprechungsanker
 
@@ -180,15 +196,69 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ---
 
-## Skill: `02-sicherungsmassnahmen-vor-eroeffnung`
+## Skill: `99-finale-entscheidung-volltext`
 
-_Wenn es um 02 Sicherungsmaßnahmen Vor Eröffnung in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Finale Entscheidung als Volltext (Beschluss Insolvenz oder Restrukturierung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# 02 Sicherungsmaßnahmen Vor Eröffnung
+# 1. Insolvenz- oder Restrukturierungsbeschluss vollständig entwerfen
+
+## 1.1. Entscheidungsauftrag und Aktenstand
+
+Formuliere die konkret beauftragte gerichtliche Entscheidung als vollständigen Entwurf zur richterlichen Prüfung. Lies Antrag, Aktenfeststellungen, Anhörungen, Gutachten und vorhandenen Tenorentwurf; andere Skills müssen nicht zuvor durchlaufen werden.
+
+Bestimme, ob Eröffnung, Sicherung, Eigenverwaltung, Schutzschirm, Planbestätigung oder eine andere Verfahrensentscheidung ansteht. Ein vollständiger Text ist keine erlassene Entscheidung. Nicht für jeden Beschluss eine aus Zivilurteilen übernommene Kosten-, Vollstreckbarkeits- und Streitwertformel verwenden.
+
+## 1.2. Fehlende Grundlage aufklären
+
+Gleiche Antrag, Zuständigkeit, Eröffnungsgrund und Kostendeckung getrennt ab. Bei Sicherungsmaßnahmen konkretes Risiko, Geeignetheit und Umfang feststellen. Bei Planentscheidungen Vergleichsrechnung, Beteiligung und Einwendungen prüfen.
+
+Fehlt eine entscheidende Zahl oder Anhörung, benenne die erforderliche gerichtliche Aufklärung und arbeite den bereits tragfähigen Textteil vorläufig aus. Nach Eingang der Antwort aktualisiere Feststellungen, Würdigung und Ausspruch und vollende den bestellten Beschluss. Neue entscheidende Lücken dürfen weitere gezielte Fragen erfordern; keine erfundenen Tatsachen und kein pauschaler Abbruch des gesamten Dokuments.
+
+## 1.3. Passender Rechtsrahmen
+
+Für Eröffnung Paragraf 27 InsO, für Eigenverwaltung Paragrafen 270 ff. und für den Schutzschirm die aktuelle Regelung in Paragraf 270d InsO prüfen. Restrukturierungssachen und Planinstrumente nach den jeweils einschlägigen StaRUG-Vorschriften behandeln.
+
+Für das Insolvenzverfahren gilt ergänzend die ZPO nach Paragraf 4 InsO. FamFG Paragrafen 38 und 39 nicht ungeprüft als allgemeine Grundlage dieser Beschlüsse verwenden. Rechtliche Aussagen, Rechtsbehelf und Fristen am geltenden amtlichen Text verifizieren; `references/zitierweise.md` bei Zugriff beachten.
+
+## 1.4. Entscheidungsaufbau
+
+Verwende die zutreffende Gerichtsbezeichnung, Aktenzeichen und Beteiligtenangaben aus der Akte. Datum und Namen nicht erfinden. Rubrum, Ausspruch, Gründe, erforderliche Nebenentscheidungen und Belehrung richten sich nach dem konkreten Verfahren; Strafurteils- oder Familiensachenbausteine gehören nicht hierher.
+
+Formuliere den Ausspruch bestimmt und widerspruchsfrei. Beim Eröffnungsentwurf Schuldner, Eröffnungsgrund, Verwalterbestellung sowie tatsächlich erforderliche Aufforderungen, Termine und Bekanntmachungsangaben anhand der geprüften Voraussetzungen aufnehmen. Eine unbekannte Person nicht als bestellt ausweisen.
+
+Stelle in den Gründen feststehenden Sachverhalt, Einwendungen, Belege und rechtliche Würdigung nachvollziehbar dar. Offene Streitpunkte nicht in vermeintlich unstreitige Feststellungen umwandeln. Bei einer abweichenden Gutachtenbewertung die tragende Begründung ausführen, nicht nur das Ergebnis austauschen.
+
+Rechtsbehelf, Frist, Form, Adressat und erforderliche Belehrung für gerade diese Entscheidung prüfen. Kein nicht statthaftes Rechtsmittel erfinden. Unterschriftszeile und gegebenenfalls Vertretungsvermerk nur anhand tatsächlicher Angaben vorbereiten.
+
+## 1.5. Kontrolle und Endfassung
+
+Kontrolliere Übereinstimmung von Ausspruch und Gründen, zutreffende Beteiligte, Beträge, Daten, Bedingungen und Nebenentscheidungen. Neue Antworten müssen in allen betroffenen Abschnitten berücksichtigt sein. Materiell entscheidende offene Punkte verhindern die Bezeichnung als entscheidungsreif, nicht die weitere Ausarbeitung des belastbaren Teils.
+
+Liefere den vollständig ausformulierten Entwurf, keine bloße Gliederung oder Votumsliste. Nutzerdateinamen gehen vor; `ergebnis.md` ist nur ein Standard ohne Vorgabe. Technische Quellenstatus und verbleibende Bearbeitungshinweise separat, nicht als Teil der Entscheidungsgründe ausgeben.
+
+Sachliche deutsche Gerichtssprache, echte Umlaute, ausgeschriebenes Wort Paragraf und ausschließlich dezimale Gliederung verwenden. Formatierte Texte in Times New Roman 11 Punkt; bei Markdown als Exporthinweis. Kein Erlass, Versand oder keine Veröffentlichung ohne zuständige richterliche Prüfung und ausdrückliche Freigabe.
+
+## 1.6. Beispiel und Zugriff
+
+Ändert eine ergänzende Bankauskunft die verfügbaren Mittel, rechne die betroffenen Positionen neu und prüfe, ob der bisher vorbereitete Eröffnungsausspruch noch trägt. Passe Feststellungen und Begründung gemeinsam an.
+
+Bei unlesbaren Akten einen geeigneten anderen Zugriff versuchen oder den benötigten Ausschnitt anfordern. Zugängliche Teile weiterbearbeiten; keine vollständige Aktenprüfung oder erfolgreiche Dateierzeugung behaupten.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sicherungsbedarf, Schuldnereinwand und Beschlussfolge. Er macht sichtbar, ob eine Aufklärungsverfügung, Sicherungsmaßnahme, Gutachterbestellung, Eröffnung oder Abweisung vorzubereiten ist.
+
+---
+
+## Skill: `04-glaeubigerversammlung-und-pruefungstermin`
+
+_Für 04 Gläubigerversammlung und Prüfungstermin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# 04 Gläubigerversammlung und Prüfungstermin
 
 ## Zweck
 
-Sicherungsmaßnahmen Paragraf 21 InsO: vorläufiger Insolvenzverwalter (stark oder schwach), Verfügungsbeschraenkungen, Vollstreckungsverbote, Postsperre, Globalsicherheiten
+Gläubigerversammlung Paragrafen 74 ff. InsO, Berichtstermin Paragraf 156, Prüfungstermin Paragraf 176, Feststellung zur Tabelle Paragrafen 174 ff.
 
 ## Rolle
 
@@ -215,18 +285,16 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- BGH, Beschluss vom 15.07.2010 - IX ZB 65/10: Eine Gläubigerversammlung ist so durchzuführen, dass geordnete Willensbildung und Abstimmung möglich sind; bei bestrittenen Forderungen sind Tabellenfeststellung, Stimmrecht und eine etwaige planbedingte Klagefrist sauber zu trennen.
+- Das Protokoll hält Anwesenheit und Vollmachten, Stimmrechtsentscheidungen, Anträge, Abstimmungsergebnisse, Widersprüche und gerichtliche Entscheidungen so fest, dass Beschlussinhalt und Mehrheit nachprüfbar bleiben.
 
 ## Prüfungsschema in Stufen
 
-1. Sicherungsmaßnahmen Vor Eröffnung: Antrag, Antragsbefugnis, Insolvenzgrund und Massekostendeckung zuerst prüfen.
-2. Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit und Überschuldung anhand Aktenzahlen, Gutachten und Liquiditätsstatus trennen.
-3. Sicherungsmaßnahmen nur nach Erforderlichkeit, Verhältnismäßigkeit und konkreter Massegefährdung anordnen.
-4. Verwalterauswahl, Eigenverwaltung oder Schutzschirm mit Unabhängigkeit, Eignung und Gläubigerschutz begründen.
-5. Eröffnungsbeschluss mit Forderungsanmeldung, Berichtstermin, Prüfungstermin und Bekanntmachung vollzugsfähig fassen.
+1. Gläubigerversammlung und Prüfungstermin: Verfahrensphase, Beteiligtenrechte und konkrete Beschlusszuständigkeit festlegen.
+2. Gläubigerrechte, Prüfungstermin, Schlusstermin, Restschuldbefreiung und Versagungsgründe getrennt prüfen.
+3. Masseinteresse, Verfahrensökonomie und rechtliches Gehör dokumentieren.
+4. Beschluss mit Tenor, Gründen, Zustellung und Rechtsmittelbelehrung formulieren.
+5. Bei Verbraucher- oder Regelinsolvenz Besonderheiten nicht vermengen.
 
 ## Typische Fallstricke
 
@@ -251,8 +319,8 @@ Das Insolvenzverfahren über das Vermögen des Schuldners wird wegen [Zahlungsun
 
 ## Benachbarte Skills
 
-- **Davor**: `01-eroeffnungsantrag-pruefen-insolvenz` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Sicherungsmaßnahmen Vor Eröffnung trägt.
-- **Danach**: `03-eroeffnungsbeschluss-und-verwalterbestellung` - Folgeskill nutzen, sobald Sicherungsmaßnahmen Vor Eröffnung entscheidungs- oder verfügungsreif vorbereitet ist.
+- **Davor**: `03-eroeffnungsbeschluss-und-verwalterbestellung` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Gläubigerversammlung und Prüfungstermin trägt.
+- **Danach**: `05-restschuldbefreiung-und-schlusstermin` - Folgeskill nutzen, sobald Gläubigerversammlung und Prüfungstermin entscheidungs- oder verfügungsreif vorbereitet ist.
 
 ## Gerichtliche Arbeitsprodukt-Schärfung
 
@@ -269,7 +337,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `03-eroeffnungsbeschluss-und-verwalterbestellung`
 
-_Wenn es um 03 Eröffnungsbeschluss und Verwalterbestellung in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck._
+_Für 03 Eröffnungsbeschluss und Verwalterbestellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 03 Eröffnungsbeschluss und Verwalterbestellung
 
@@ -302,10 +370,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- BVerfG, Beschluss vom 23.05.2006 - 1 BvR 2530/04: Der Bewerber um das Amt des Insolvenzverwalters hat aus Artikel 3 Absatz 1 GG einen Anspruch auf fehlerfreie Ausübung des Auswahlermessens nach InsO Paragraf 56 Absatz 1.
+- Auswahlvermerk und Eröffnungsbeschluss müssen Einzelfalleignung, Geschäftskunde, Unabhängigkeit, Interessenkonflikte und die gesetzlichen Beteiligungsrechte des vorläufigen Gläubigerausschusses getrennt dokumentieren.
 
 ## Prüfungsschema in Stufen
 
@@ -356,194 +422,55 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `01-eroeffnungsantrag-pruefen-insolvenz`
 
-_Wenn es um 01 Eröffnungsantrag Prüfen Insolvenz in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für 01 Eröffnungsantrag Prüfen Insolvenz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik._
 
-# 01 Eröffnungsantrag Prüfen Insolvenz
+# 1. Eröffnungsantrag aus gerichtlicher Sicht prüfen
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1. Auftrag und Akte
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Erarbeite die beauftragte Prüfverfügung oder Entscheidungsvorlage anhand des Insolvenzantrags, der Anlagen und der bereits eingeholten Stellungnahmen. Die Rolle ist das Insolvenzgericht, nicht die Geschäftsleitung, der Antragsteller oder der Verwalter.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Erfasse Schuldner, Antragsteller, Antragseingang, Vertretung, internationale und örtliche Zuständigkeit sowie funktionelle Geschäftsverteilung. InsO, EuInsVO 2015/848, ZPO, GVG und RPflG nur für die einschlägige Frage anwenden; Kosten und Vergütung nach GKG beziehungsweise InsVV gesondert behandeln. Vertrauliche Akten nur im zugelassenen Rahmen verwenden.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+## 1.2. Antrag und Eröffnungsgrund
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+Prüfe Eigen- und Gläubigerantrag nach Paragrafen 13 bis 15 InsO getrennt. Bei Paragraf 14 InsO rechtliches Interesse, Forderung und glaubhaft gemachten Eröffnungsgrund untersuchen. Ein Titel belegt nicht zugleich Zahlungsunfähigkeit; nachträgliche Forderungszahlung macht den Antrag nicht allein unzulässig.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Bei zulässigem Gläubigerantrag Schuldneranhörung vorbereiten und Einwendungen auswerten. Die Kostenfolge gesondert prüfen. Paragrafen 17 bis 19 InsO nach der jeweiligen Antragsart zuordnen; Bilanzverlust, Zahlungsunfähigkeit und negative Fortbestehensprognose nicht gleichsetzen.
 
-## Zweck
+Fehlt eine Fälligkeit oder widerspricht ein Bankbeleg dem Gutachten, benenne die konkrete Aufklärungsfrage. Nach Eingang der Antwort Rechnung und rechtliche Würdigung aktualisieren und den bestellten Entwurf weiter ausarbeiten. Weitere entscheidende Lücken gezielt klären, ohne feste Fragenzahl oder erneute Aufnahme bekannter Tatsachen.
 
-Prüfung des Eröffnungsantrags Paragrafen 13-15 InsO, Zulässigkeit, Insolvenzgrund (Paragrafen 17-19 InsO), Verfahrenskostendeckung, Anhörung des Schuldners
+## 1.3. Sicherung, Kosten und Entscheidung
 
-## Rolle
+Prüfe Maßnahmen nach Paragraf 21 InsO anhand der konkreten Massegefährdung auf Geeignetheit und erforderlichen Umfang. Keine automatische vorläufige Verwaltung oder Postsperre mit jedem Antrag. Ein Sachverständigenauftrag muss die noch zu klärenden Tatsachen benennen.
 
+Eröffnungsgrund und Verfahrenskostendeckung trennen; Paragrafen 26 und 27 InsO entsprechend dem erreichten Stand prüfen. Bei Verwalterauswahl Paragraf 56 InsO, Eignung, Unabhängigkeit und Beteiligungsrechte beachten. Vorläufige Maßnahme, Eröffnung, Eigenverwaltung und Schutzschirm sind unterschiedliche Entscheidungen.
 
-Werkstatt-Assistent für den Insolvenzrichter am Amtsgericht (Paragraf 2 InsO) und für Restrukturierungssachen nach Paragrafen 30 ff. StaRUG. Eröffnungsverfahren, vorläufige Maßnahmen, Verfahrensführung bis Schlusstermin und Restschuldbefreiung.
+Ist eine Restrukturierungssache betroffen, die Anzeige und beantragten Instrumente nach Paragrafen 29 ff. StaRUG eigenständig prüfen. Nicht allein wegen Krisennähe denselben Beschluss verwenden. Im eröffneten Verfahren Aufsicht, Berichts-, Prüfungs- und Schlusstermin nur bearbeiten, soweit der Auftrag diese Schritte erfasst.
 
-## Rechtsrahmen
+## 1.4. Quellen und bestehende Anker
 
-InsO, StaRUG, EuInsVO 2015/848, ZPO, GVG, RPflG, GKG, InsVV
+Tragende Normen und Entscheidungen amtlich prüfen; `references/zitierweise.md` bei Zugriff beachten. Die bisherigen Anker vor Zitierung nach Volltext, Verfahrensrolle und Reichweite verifizieren:
+- BGH, Urteil vom 24.05.2005, IX ZR 123/04: Zahlungsstockung und Liquiditätslücke.
+- BGH, Urteil vom 19.12.2017, II ZR 88/16: innerhalb des Zeitraums fällige Verbindlichkeiten und Bestreiten von Passiva.
+- BGH, Urteil vom 23.01.2025, IX ZR 229/22: streitige Forderungen und vorläufig vollstreckbare Titel.
+- BGH, Beschluss vom 11.03.2025, II ZR 139/23: Nichtzulassungsbeschwerde; nicht als eigenständiges Grundsatzurteil ausgeben.
 
-## Pflichtschritte
+Aktengeheimnis, richterliche Unabhängigkeit und Befangenheit wahren. Die im Altbestand genannten Paragrafen 353b StGB und 43 DRiG nach ihrem tatsächlichen Regelungsbereich prüfen, nicht als austauschbare pauschale Geheimnisnormen behandeln. Bei ungeklärter Zuständigkeit oder Eingriffsgrundlage eine konkrete Prüf- oder Vorlageverfügung ausarbeiten; keine unbelegte Anordnung als fertig ausgeben.
 
-1. Antrag, Zuständigkeit und Eröffnungsgrund prüfen (Zahlungsunfähigkeit Paragraf 17, drohende Zahlungsunfähigkeit Paragraf 18, Überschuldung Paragraf 19 InsO).
-2. Sicherungsmaßnahmen (Paragraf 21 InsO) und vorläufige Verwaltung anordnen; Sachverständigengutachten zur Masse einholen.
-3. Eröffnungsbeschluss fassen oder Abweisung mangels Masse (Paragraf 26 InsO) prüfen.
-4. Bei StaRUG Restrukturierungssache, Stabilisierungsanordnung und Planabstimmung trennen und prüfen.
-5. Aufsicht über Verwalter und Folgeentscheidungen (Berichts-, Prüfungs- und Schlusstermin) strukturieren.
-6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
-7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
+## 1.5. Vollständiger Entwurf
 
-## Output
+Liefere das bestellte Dokument in vollständigen Sätzen mit dem konkret begründeten nächsten gerichtlichen Schritt. Bei einem Hindernis den belastbaren Teil und die benötigte Aufklärung benennen. Nach deren Eingang weiterarbeiten, bis die angeforderte Verfügung oder Entscheidung ausformuliert vorliegt.
 
-Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+Eine Sicherungsanordnung benennt tatsächliches Risiko und Befugnisumfang; ein Eröffnungsentwurf setzt geprüfte Voraussetzungen voraus. Namen, Termine, Anhörung oder Bestellung nicht erfinden. Die Letztentscheidung und der Erlass bleiben den zuständigen Menschen vorbehalten; Zustellung oder Veröffentlichung nur nach ausdrücklicher Freigabe.
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+Nutzerdateinamen gehen vor, `ergebnis.md` ist nur ein Standard ohne Vorgabe. Technische Quellenstatus getrennt vom Entscheidungstext halten. Formatierte Dokumente verwenden Times New Roman 11 Punkt und dezimale Gliederung, bei Markdown als Exporthinweis; keine Stichwortskelette als Endprodukt.
 
-## Anker-Rechtsprechung
+## 1.6. Beispiel und optionale Vertiefung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+Wird eine Gläubigerforderung nach Antragstellung beglichen, prüfe die übrigen Voraussetzungen und den weiteren Eröffnungsgrund statt automatisch Unzulässigkeit anzunehmen. Nach einer ergänzenden Schuldnerstellungnahme die betroffenen Feststellungen und die bestellte Entscheidung aktualisieren.
 
-## Prüfungsschema in Stufen
-
-1. Eröffnungsantrag Prüfen Insolvenz: Antrag, Antragsbefugnis, Insolvenzgrund und Massekostendeckung zuerst prüfen.
-2. Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit und Überschuldung anhand Aktenzahlen, Gutachten und Liquiditätsstatus trennen.
-3. Sicherungsmaßnahmen nur nach Erforderlichkeit, Verhältnismäßigkeit und konkreter Massegefährdung anordnen.
-4. Verwalterauswahl, Eigenverwaltung oder Schutzschirm mit Unabhängigkeit, Eignung und Gläubigerschutz begründen.
-5. Eröffnungsbeschluss mit Forderungsanmeldung, Berichtstermin, Prüfungstermin und Bekanntmachung vollzugsfähig fassen.
-
-## Typische Fallstricke
-
-- Ein Fremdantrag wird ohne ausreichende Glaubhaftmachung wie ein Eigenantrag behandelt.
-- Sicherungsmaßnahmen werden pauschal statt verhältnismäßig angeordnet.
-- StaRUG-Sache und Insolvenzreife werden nicht sauber getrennt.
-- Vertrauliche Restrukturierungsdaten unterliegen Paragraf 353b StGB und Paragraf 43 DRiG.
-
-## Tenor-Bausteine bzw. Beschluss-Bausteine
-
-### Baustein A
-
-```text
-Zur Sicherung der Masse wird angeordnet, dass Verfügungen des Schuldners nur mit Zustimmung des vorläufigen Insolvenzverwalters wirksam sind. Die Maßnahme ist erforderlich, weil [konkretes Sicherungsrisiko].
-```
-
-### Baustein B
-
-```text
-Das Insolvenzverfahren über das Vermögen des Schuldners wird wegen [Zahlungsunfähigkeit/Überschuldung] eröffnet. Zum Insolvenzverwalter wird [Name] bestellt.
-```
-
-## Benachbarte Skills
-
-- **Einstieg**: Erster Arbeitsschritt dieses Plugins; ein vorgelagerter Skill existiert nicht.
-- **Danach**: `02-sicherungsmassnahmen-vor-eroeffnung` - Folgeskill nutzen, sobald Eröffnungsantrag Prüfen Insolvenz entscheidungs- oder verfügungsreif vorbereitet ist.
-
-## Gerichtliche Arbeitsprodukt-Schärfung
-
-- Rolle: Insolvenz- und Restrukturierungsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Sicherungsbeschluss, Eröffnungsbeschluss, Hinweisverfügung oder StaRUG-Entscheidung; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
-- Pflichtstamm: Paragrafen 2, 13, 21, 27, 56 InsO sowie Paragrafen 29 ff. StaRUG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
-- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
-- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
-
-## Beitrag zum Streitstoff in diesem Verfahren
-
-Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sicherungsbedarf, Schuldnereinwand und Beschlussfolge. Er macht sichtbar, ob eine Aufklärungsverfügung, Sicherungsmaßnahme, Gutachterbestellung, Eröffnung oder Abweisung vorzubereiten ist.
-
----
-
-## Skill: `04-glaeubigerversammlung-und-pruefungstermin`
-
-_Wenn es um 04 Gläubigerversammlung und Prüfungstermin in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# 04 Gläubigerversammlung und Prüfungstermin
-
-## Zweck
-
-Gläubigerversammlung Paragrafen 74 ff. InsO, Berichtstermin Paragraf 156, Prüfungstermin Paragraf 176, Feststellung zur Tabelle Paragrafen 174 ff.
-
-## Rolle
-
-
-Werkstatt-Assistent für den Insolvenzrichter am Amtsgericht (Paragraf 2 InsO) und für Restrukturierungssachen nach Paragrafen 30 ff. StaRUG. Eröffnungsverfahren, vorläufige Maßnahmen, Verfahrensführung bis Schlusstermin und Restschuldbefreiung.
-
-## Rechtsrahmen
-
-InsO, StaRUG, EuInsVO 2015/848, ZPO, GVG, RPflG, GKG, InsVV
-
-## Pflichtschritte
-
-1. Antrag, Zuständigkeit und Eröffnungsgrund prüfen (Zahlungsunfähigkeit Paragraf 17, drohende Zahlungsunfähigkeit Paragraf 18, Überschuldung Paragraf 19 InsO).
-2. Sicherungsmaßnahmen (Paragraf 21 InsO) und vorläufige Verwaltung anordnen; Sachverständigengutachten zur Masse einholen.
-3. Eröffnungsbeschluss fassen oder Abweisung mangels Masse (Paragraf 26 InsO) prüfen.
-4. Bei StaRUG Restrukturierungssache, Stabilisierungsanordnung und Planabstimmung trennen und prüfen.
-5. Aufsicht über Verwalter und Folgeentscheidungen (Berichts-, Prüfungs- und Schlusstermin) strukturieren.
-6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
-7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
-
-## Output
-
-Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
-
-## Anker-Rechtsprechung
-
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
-
-## Prüfungsschema in Stufen
-
-1. Gläubigerversammlung und Prüfungstermin: Verfahrensphase, Beteiligtenrechte und konkrete Beschlusszuständigkeit festlegen.
-2. Gläubigerrechte, Prüfungstermin, Schlusstermin, Restschuldbefreiung und Versagungsgründe getrennt prüfen.
-3. Masseinteresse, Verfahrensökonomie und rechtliches Gehör dokumentieren.
-4. Beschluss mit Tenor, Gründen, Zustellung und Rechtsmittelbelehrung formulieren.
-5. Bei Verbraucher- oder Regelinsolvenz Besonderheiten nicht vermengen.
-
-## Typische Fallstricke
-
-- Ein Fremdantrag wird ohne ausreichende Glaubhaftmachung wie ein Eigenantrag behandelt.
-- Sicherungsmaßnahmen werden pauschal statt verhältnismäßig angeordnet.
-- StaRUG-Sache und Insolvenzreife werden nicht sauber getrennt.
-- Vertrauliche Restrukturierungsdaten unterliegen Paragraf 353b StGB und Paragraf 43 DRiG.
-
-## Tenor-Bausteine bzw. Beschluss-Bausteine
-
-### Baustein A
-
-```text
-Zur Sicherung der Masse wird angeordnet, dass Verfügungen des Schuldners nur mit Zustimmung des vorläufigen Insolvenzverwalters wirksam sind. Die Maßnahme ist erforderlich, weil [konkretes Sicherungsrisiko].
-```
-
-### Baustein B
-
-```text
-Das Insolvenzverfahren über das Vermögen des Schuldners wird wegen [Zahlungsunfähigkeit/Überschuldung] eröffnet. Zum Insolvenzverwalter wird [Name] bestellt.
-```
-
-## Benachbarte Skills
-
-- **Davor**: `03-eroeffnungsbeschluss-und-verwalterbestellung` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Gläubigerversammlung und Prüfungstermin trägt.
-- **Danach**: `05-restschuldbefreiung-und-schlusstermin` - Folgeskill nutzen, sobald Gläubigerversammlung und Prüfungstermin entscheidungs- oder verfügungsreif vorbereitet ist.
-
-## Gerichtliche Arbeitsprodukt-Schärfung
-
-- Rolle: Insolvenz- und Restrukturierungsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Sicherungsbeschluss, Eröffnungsbeschluss, Hinweisverfügung oder StaRUG-Entscheidung; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
-- Pflichtstamm: Paragrafen 2, 13, 21, 27, 56 InsO sowie Paragrafen 29 ff. StaRUG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
-- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
-- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+`02-sicherungsmassnahmen-vor-eroeffnung` ist eine optionale Vertiefung bei konkretem Sicherungsbedarf, kein zwingender Folgeschritt jedes Antrags. Bei fehlendem Zugriff einen geeigneten anderen Weg versuchen oder den entscheidenden Ausschnitt anfordern; zugängliche Teile weiterbearbeiten und keine vollständige Prüfung behaupten.
 
 ## Beitrag zum Streitstoff in diesem Verfahren
 
@@ -553,7 +480,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `08-starug-restrukturierungssache-anzeigen`
 
-_Wenn es um 08 StaRUG Restrukturierungssache Anzeigen in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 08 StaRUG Restrukturierungssache Anzeigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 08 StaRUG Restrukturierungssache Anzeigen
 
@@ -586,10 +513,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- Für die bloße Anzeige der Restrukturierungssache wird kein fachfremder höchstrichterlicher Anker behauptet. Maßgeblich sind zunächst StaRUG Paragrafen 31 bis 35, der konkrete Verfahrensstand, die drohende Zahlungsunfähigkeit und die Vollständigkeit der Anzeige.
+- BVerfG, Beschluss vom 28.02.2025 - 1 BvR 418/25: Die Nichtannahmeentscheidung zur Bestätigung eines Restrukturierungsplans betrifft die Substantiierung einer Verfassungsbeschwerde und trägt keine allgemeine Aussage über Zulässigkeit oder Erfolg einer Anzeige nach StaRUG Paragraf 31.
 
 ## Prüfungsschema in Stufen
 
@@ -640,7 +565,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `05-restschuldbefreiung-und-schlusstermin`
 
-_Wenn es um 05 Restschuldbefreiung und Schlusstermin in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 05 Restschuldbefreiung und Schlusstermin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 05 Restschuldbefreiung und Schlusstermin
 
@@ -673,10 +598,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- BGH, Beschluss vom 29.09.2011 - IX ZB 219/10: Die Entscheidung betrifft die vorzeitige Beendigung der damaligen Wohlverhaltensphase nach Vergleich mit sämtlichen Insolvenzgläubigern sowie Teilzahlung und Teilerlass; sie darf nur nach Prüfung des heute anwendbaren Rechts und des Übergangsrechts verwendet werden.
+- Im Schlusstermin Versagungsantrag, Antragsberechtigung, Versagungsgrund, Glaubhaftmachung, rechtliches Gehör und die zeitlich anwendbare Fassung der InsO einzeln ausweisen; eine alte Wohlverhaltensphasenentscheidung ersetzt diese Prüfung nicht.
 
 ## Prüfungsschema in Stufen
 
@@ -725,9 +648,95 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ---
 
+## Skill: `02-sicherungsmassnahmen-vor-eroeffnung`
+
+_Für 02 Sicherungsmaßnahmen vor Eröffnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# 02 Sicherungsmaßnahmen Vor Eröffnung
+
+## Zweck
+
+Sicherungsmaßnahmen Paragraf 21 InsO: vorläufiger Insolvenzverwalter (stark oder schwach), Verfügungsbeschraenkungen, Vollstreckungsverbote, Postsperre, Globalsicherheiten
+
+## Rolle
+
+
+Werkstatt-Assistent für den Insolvenzrichter am Amtsgericht (Paragraf 2 InsO) und für Restrukturierungssachen nach Paragrafen 30 ff. StaRUG. Eröffnungsverfahren, vorläufige Maßnahmen, Verfahrensführung bis Schlusstermin und Restschuldbefreiung.
+
+## Rechtsrahmen
+
+InsO, StaRUG, EuInsVO 2015/848, ZPO, GVG, RPflG, GKG, InsVV
+
+## Pflichtschritte
+
+1. Antrag, Zuständigkeit und Eröffnungsgrund prüfen (Zahlungsunfähigkeit Paragraf 17, drohende Zahlungsunfähigkeit Paragraf 18, Überschuldung Paragraf 19 InsO).
+2. Sicherungsmaßnahmen (Paragraf 21 InsO) und vorläufige Verwaltung anordnen; Sachverständigengutachten zur Masse einholen.
+3. Eröffnungsbeschluss fassen oder Abweisung mangels Masse (Paragraf 26 InsO) prüfen.
+4. Bei StaRUG Restrukturierungssache, Stabilisierungsanordnung und Planabstimmung trennen und prüfen.
+5. Aufsicht über Verwalter und Folgeentscheidungen (Berichts-, Prüfungs- und Schlusstermin) strukturieren.
+6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
+7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
+
+## Output
+
+Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+
+## Anker-Rechtsprechung
+
+- BGH, Beschluss vom 01.12.2005 - IX ZB 208/05: Das Insolvenzgericht prüft von Amts wegen anhand des Einzelfalls, ob und welche Sicherungsmaßnahmen erforderlich sind, um gläubigernachteilige Vermögensveränderungen bis zur Eröffnungsentscheidung zu verhindern.
+- BGH, Beschluss vom 22.03.2007 - IX ZB 164/06: Das bei Antragseingang international und örtlich zuständige Insolvenzgericht bleibt für Eröffnung und Sicherungsmaßnahmen zuständig, wenn der Schuldner den Mittelpunkt seiner hauptsächlichen Interessen erst danach verlegt.
+- Jeder Tenor muss Maßnahme, Verfügungsbereich, Dauer, Bekanntmachung, Anhörung und Rechtsmittel so bestimmen, dass Reichweite und Vollzug ohne Rückgriff auf interne Erwägungen erkennbar sind.
+
+## Prüfungsschema in Stufen
+
+1. Sicherungsmaßnahmen Vor Eröffnung: Antrag, Antragsbefugnis, Insolvenzgrund und Massekostendeckung zuerst prüfen.
+2. Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit und Überschuldung anhand Aktenzahlen, Gutachten und Liquiditätsstatus trennen.
+3. Sicherungsmaßnahmen nur nach Erforderlichkeit, Verhältnismäßigkeit und konkreter Massegefährdung anordnen.
+4. Verwalterauswahl, Eigenverwaltung oder Schutzschirm mit Unabhängigkeit, Eignung und Gläubigerschutz begründen.
+5. Eröffnungsbeschluss mit Forderungsanmeldung, Berichtstermin, Prüfungstermin und Bekanntmachung vollzugsfähig fassen.
+
+## Typische Fallstricke
+
+- Ein Fremdantrag wird ohne ausreichende Glaubhaftmachung wie ein Eigenantrag behandelt.
+- Sicherungsmaßnahmen werden pauschal statt verhältnismäßig angeordnet.
+- StaRUG-Sache und Insolvenzreife werden nicht sauber getrennt.
+- Vertrauliche Restrukturierungsdaten unterliegen Paragraf 353b StGB und Paragraf 43 DRiG.
+
+## Tenor-Bausteine bzw. Beschluss-Bausteine
+
+### Baustein A
+
+```text
+Zur Sicherung der Masse wird angeordnet, dass Verfügungen des Schuldners nur mit Zustimmung des vorläufigen Insolvenzverwalters wirksam sind. Die Maßnahme ist erforderlich, weil [konkretes Sicherungsrisiko].
+```
+
+### Baustein B
+
+```text
+Das Insolvenzverfahren über das Vermögen des Schuldners wird wegen [Zahlungsunfähigkeit/Überschuldung] eröffnet. Zum Insolvenzverwalter wird [Name] bestellt.
+```
+
+## Benachbarte Skills
+
+- **Davor**: `01-eroeffnungsantrag-pruefen-insolvenz` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Sicherungsmaßnahmen Vor Eröffnung trägt.
+- **Danach**: `03-eroeffnungsbeschluss-und-verwalterbestellung` - Folgeskill nutzen, sobald Sicherungsmaßnahmen Vor Eröffnung entscheidungs- oder verfügungsreif vorbereitet ist.
+
+## Gerichtliche Arbeitsprodukt-Schärfung
+
+- Rolle: Insolvenz- und Restrukturierungsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Sicherungsbeschluss, Eröffnungsbeschluss, Hinweisverfügung oder StaRUG-Entscheidung; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
+- Pflichtstamm: Paragrafen 2, 13, 21, 27, 56 InsO sowie Paragrafen 29 ff. StaRUG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
+- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
+- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sicherungsbedarf, Schuldnereinwand und Beschlussfolge. Er macht sichtbar, ob eine Aufklärungsverfügung, Sicherungsmaßnahme, Gutachterbestellung, Eröffnung oder Abweisung vorzubereiten ist.
+
+---
+
 ## Skill: `10-starug-planbestaetigung-und-folgen`
 
-_Wenn es um 10 StaRUG Planbestätigung und Folgen in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 10 StaRUG Planbestätigung und Folgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 10 StaRUG Planbestätigung und Folgen
 
@@ -760,10 +769,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- BVerfG, Beschluss vom 28.02.2025 - 1 BvR 418/25: Die Verfassungsbeschwerde gegen die Bestätigung des Restrukturierungsplans wurde wegen unzureichender Substantiierung nicht zur Entscheidung angenommen; die Nichtannahme trifft weder eine allgemeine Aussage zur Verfassungsmäßigkeit des StaRUG noch zur materiellen Richtigkeit des Plans.
+- Für eine Beschwerde nach StaRUG Paragraf 66 Absatz 2 Nummer 3 sind realistische günstigere Alternativszenarien konkret darzustellen und mit der Vergleichsrechnung des Plans auseinanderzusetzen. Diesen prozessualen Maßstab nicht in eine allgemeine Bestätigung von Kapitalherabsetzung, Bezugsrechtsausschluss oder gruppenübergreifender Mehrheitsentscheidung umdeuten.
 
 ## Prüfungsschema in Stufen
 
@@ -814,7 +821,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `06-eigenverwaltung-und-schutzschirm`
 
-_Wenn es um 06 Eigenverwaltung und Schutzschirm in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 06 Eigenverwaltung und Schutzschirm: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 06 Eigenverwaltung und Schutzschirm
 
@@ -847,10 +854,9 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- BGH, Urteil vom 22.11.2018 - IX ZR 167/16: Im vorläufigen Eigenverwaltungsverfahren begründet der Schuldner auch außerhalb des damaligen Schutzschirmverfahrens Masseverbindlichkeiten nur im Umfang einer gerichtlichen Ermächtigung; die Entscheidung ist mit dem heute anwendbaren Normstand abzugleichen.
+- BGH, Beschluss vom 27.01.2022 - IX ZB 41/21: Die Aufhebung der vorläufigen Eigenverwaltung auf Antrag des vorläufigen Gläubigerausschusses ist nicht mit der sofortigen Beschwerde anfechtbar; die Entscheidung betont die Gläubigerautonomie als tragendes Steuerungsprinzip.
+- Prüfvermerk und Tenor trennen Eigenverwaltungsplanung, Liquiditätsplanung, Nachteile für Gläubiger, Sachwalterrolle, Ermächtigungen zu Masseverbindlichkeiten und Aufhebungsgründe.
 
 ## Prüfungsschema in Stufen
 
@@ -901,7 +907,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `09-starug-stabilisierungsanordnung`
 
-_Wenn es um 09 StaRUG Stabilisierungsanordnung in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 09 StaRUG Stabilisierungsanordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 09 StaRUG Stabilisierungsanordnung
 
@@ -934,10 +940,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- Für Voraussetzungen, Reichweite und Dauer der Stabilisierungsanordnung werden keine Entscheidungen aus Insolvenzanfechtung, Restschuldbefreiung oder Verwalterauswahl übertragen. Primär zu prüfen sind StaRUG Paragrafen 49 bis 59 und die aktuelle Fassung der betroffenen Vollstreckungs- und Verwertungssperren.
+- Der Beschluss begründet für jede betroffene Forderung oder Sicherung Planbezug, Erforderlichkeit, Eignung, Dauer, Gläubigernachteil und Aufhebungsmechanismus; nicht amtlich verifizierte Instanzrechtsprechung bleibt unzitiert.
 
 ## Prüfungsschema in Stufen
 
@@ -988,7 +992,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Skill: `07-insolvenzplan-bestaetigen`
 
-_Wenn es um 07 Insolvenzplan Bestaetigen in Insolvenz- und Restrukturierungsgericht am Amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 07 Insolvenzplan Bestätigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 07 Insolvenzplan Bestaetigen
 
@@ -1021,10 +1025,9 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 26.01.2017 - IX ZR 285/14, frei nachweisbar über dejure/openJur: Zahlungsunfähigkeit ist aus Liquiditätsstatus, Liquiditätslücke und Prognosezeitraum konkret herzuleiten.
-- BGH, Urteil vom 12.05.2016 - IX ZR 65/14, frei nachweisbar über dejure/openJur: Vorsatzanfechtung verlangt tragfähige Indizien für Benachteiligungsvorsatz und Kenntnis des Gegners.
-- BGH, Beschluss vom 19.09.2013 - IX ZB 219/10, frei nachweisbar über dejure/openJur: Auswahl und Kontrolle des Insolvenzverwalters müssen nachvollziehbar, sachbezogen und verfahrensdienlich erfolgen.
-- Ständige Rechtsprechung zu Sicherungsmaßnahmen im Eröffnungsverfahren: Eingriffstiefe, Erforderlichkeit und Verhältnismäßigkeit sind im Beschluss sichtbar zu begründen; aktuelles Aktenzeichen vor Verwendung verifizieren.
+- BGH, Beschluss vom 20.07.2017 - IX ZB 13/16: Ein offensichtlich erfolgreicher Minderheitenschutzantrag kann die Zurückweisung schon in der Vorprüfung tragen; eine Kompensationsregelung muss finanziert sein und die Schlechterstellung vollständig ausgleichen.
+- BGH, Beschluss vom 26.04.2018 - IX ZB 49/17: Ein wesentlicher Verfahrensmangel genügt, wenn sein Einfluss auf die Planannahme ernsthaft möglich ist; die gerichtliche Prüfung nach InsO Paragraf 250 ist von einer wirtschaftlichen Zweckmäßigkeitskontrolle zu trennen.
+- BGH, Beschluss vom 19.05.2022 - IX ZB 6/21: Der darstellende Teil muss einen sachgerechten Vergleich der Befriedigungsaussichten mit dem Regelverfahren ermöglichen und bei natürlichen Personen die für die Prognose erforderlichen Einkommens-, Vermögens- und Familienverhältnisse offenlegen.
 
 ## Prüfungsschema in Stufen
 
@@ -1075,7 +1078,7 @@ Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sic
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

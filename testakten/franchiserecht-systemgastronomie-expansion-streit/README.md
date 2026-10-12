@@ -1,18 +1,25 @@
 # Akte Knusperkrone: Franchise-Expansion, Gebietsschutz und Systemhandbuch-Streit
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 120 KB) | PDF | [`gesamt-pdf/franchiserecht-systemgastronomie-expansion-streit_gesamt.pdf`](gesamt-pdf/franchiserecht-systemgastronomie-expansion-streit_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-franchiserecht-systemgastronomie-expansion-streit.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-franchiserecht-systemgastronomie-expansion-streit.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-franchiserecht-systemgastronomie-expansion-streit-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-franchiserecht-systemgastronomie-expansion-streit-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/franchiserecht-systemgastronomie-expansion-streit_gesamt.pdf`](gesamt-pdf/franchiserecht-systemgastronomie-expansion-streit_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-franchiserecht-systemgastronomie-expansion-streit.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-franchiserecht-systemgastronomie-expansion-streit.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-franchiserecht-systemgastronomie-expansion-streit-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-franchiserecht-systemgastronomie-expansion-streit-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -20,27 +27,36 @@ Diese Akte gehört zu den Plugins `franchiserecht-praxis`, `kartellrecht`, `gese
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 - [Gesamt-PDF](gesamt-pdf/franchiserecht-systemgastronomie-expansion-streit_gesamt.pdf)
-- Die Einzeldateien in diesem Ordner bilden den Aktenwust aus E-Mail, Tabelle, Vermerk, Bild und Anlagen ab.
+- Die Einzeldateien enthalten Vertrag und Gebietsanlage, vorvertragliche Prognose, Systemschreiben, Abmahnung, Originalkorrespondenz und Kassendaten.
 
 ## Aktenstücke
 
 | Datei | Inhalt |
 | --- | --- |
-| `01-sachverhalt-und-offene-punkte.docx` | Chronologie, Rollen, erste Streitpunkte |
-| `02-risiko-und-fristenmatrix.xlsx` | Fristen, Zuständigkeiten, Risikoampel |
-| `03-email-auftakt.eml` | Mandats-/Projektauftakt mit Rückfragen |
-| `04-arbeitsvermerk.docx` | interner Arbeitsvermerk |
-| `05-dashboard.csv` | strukturierte Prüfspur |
-| `06-screenshot-notizen.jpg` | Foto/Screenshot einer chaotischen Arbeitsnotiz |
+| `01-franchisevertrag-knusperkrone-karaca.docx` | Unterzeichneter Franchisevertrag KK-FR-2022-017 für den Standort Münster-Süd |
+| `02-standortfreigabe-und-gebietsanlage.docx` | Vertragliche Gebietsanlage mit Adressen, Radius, Begehungsdaten und Konkurrenzstandorten |
+| `03-investitions-und-ertragsvorschau-2022.docx` | Vorvertragliche Investitions- und Ertragsvorschau mit Vergleichsbetrieben und Eingabewerten |
+| `04-systemrundschreiben-06-2026-lieferantenwechsel.docx` | Rundschreiben zum Lieferantenwechsel, zu neuen Preisen und zur betrieblichen Umstellung |
+| `05-auditaufforderung-kassendaten-03-06-2026.docx` | Schreiben des Partnercontrollings mit konkreten Umsatzabweichungen und angeforderten Exporten |
+| `06-abmahnung-kuendigungsandrohung-11-06-2026.docx` | Kanzleischreiben wegen Kassendaten, Preisaktion und öffentlicher Äußerung |
+| `07-email-expansionsankuendigung-28-05-2026.eml` | Expansionsankündigung für den Standort Münster-Hafen |
+| `08-email-karaca-umsatz-und-gebietsschutz-02-06-2026.eml` | Antwort der Franchisenehmerin mit Umsatzdaten und konkretem Gebietsbezug |
+| `09-email-lieferqualitaet-social-media-10-06-2026.eml` | Betriebliche Nachricht zu Kühlkette, Verpackungen, Beschwerden und Standortkonto |
+| `10-kassenexport-2025-2026.csv` | Rohdatenexport nach Monat und Verkaufskanal mit Bons, Umsatz, Rabatten und Stornos |
+| `11-gespraechsvermerk-handelshof-16-06-2026.docx` | Abgetippter, unvollständiger Gesprächsvermerk zum Termin im Handelshof mit Positionen beider Seiten |
+| `12-email-goldkorn-reklamation-98271-12-06-2026.eml` | Antwort des Lieferanten Goldkorn zur Reklamation der Lieferung 98271 mit Teilgutschrift |
+| `13-offene-posten-lieferanten-06-2026.csv` | Offene-Posten-Liste zu Goldkorn-Rechnungen und Verpackungsabrechnungen der Zentrale |
 | `gesamt-pdf/franchiserecht-systemgastronomie-expansion-streit_gesamt.pdf` | Gesamt-PDF der Akte |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
 
 ## Sachstand
 
-- Ein Franchisegeber will in derselben Stadt zwei neue Standorte eröffnen; der erste Franchisenehmer beruft sich auf Gebietsschutz.
-- Die Rentabilitätsprognose aus der Anbahnung war viel optimistischer als die tatsächlichen Umsätze.
-- Das Systemhandbuch wurde geändert; neue Lieferanten sind teurer und schlechter.
-- Eine Social-Media-Aktion eines Franchisenehmers beschädigt die Marke.
-- Der Franchisegeber verlangt Auditdaten aus dem Kassensystem.
-- Nach Kündigungsandrohung streitet man über Rückbau, Warenbestand und Wettbewerbsverbot.
+- Elif Karaca betreibt seit März 2023 den Standort Münster-Süd auf Grundlage des Vertrags KK-FR-2022-017 und einer gesondert unterzeichneten Gebietsanlage.
+- Die Zentrale prüft einen weiteren Betrieb am Hafenweg 21, der nach der vorliegenden Routenmessung 2,1 Kilometer entfernt liegt.
+- Investitionsplanung, tatsächliche Kanalumsätze und gemeldete Monatswerte lassen sich anhand voneinander unabhängiger Unterlagen nachvollziehen.
+- Ein Lieferantenwechsel führt zu Preissteigerungen, Kühlkettenbeanstandungen und Problemen mit neuen Verpackungen.
+- Das Partnercontrolling verlangt Kassendaten; parallel stehen eine unangemeldete Preisaktion und eine Äußerung auf dem Standortkonto im Streit.

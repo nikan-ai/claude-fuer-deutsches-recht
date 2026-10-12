@@ -2,433 +2,486 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 463 Skills (gekuerzt fuer Chat-Fenster) des Plugins `preussisches-allgemeines-landrecht-pralr`.
+Diese Vollprüfung enthält top-10 von 69 Skills des Plugins `preussisches-allgemeines-landrecht-pralr`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um PrALR - Allgemeiner Einstieg in Preußisches Allgemeines Landrecht geht: klärt Rolle, Ziel, Frist, Unterlagen …
-2. **pralr-005-historische-anwendung-vs-heutiges-recht** — Wenn es um Historisch oder heute? in Preußisches Allgemeines Landrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegen…
-3. **sklaverei-aufhebung-und-edikte-1807-1857** — Wenn es um Aufhebung Sklaverei und Erbuntertaenigkeit in Preussen 1794-1857 in Preußisches Allgemeines Landrecht geht: p…
-4. **historische-anwendung-vs-heutiges-recht** — Wenn es um Historisch oder heute? in Preußisches Allgemeines Landrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegen…
-5. **pralr-046-nachbarrecht-heutiger-schriftsatz** — Wenn es um Nachbarrecht im Schriftsatz in Preußisches Allgemeines Landrecht geht: erstellt den passenden Entwurf aus Sac…
-6. **pralr-045-aufopferung-heutiger-schriftsatz** — Wenn es um Aufopferung im Schriftsatz in Preußisches Allgemeines Landrecht geht: erstellt den passenden Entwurf aus Sach…
-7. **sklaverei-aufhebung-edikte-1807** — Wenn es um Aufhebung Sklaverei und Erbuntertaenigkeit in Preussen 1794-1857 in Preußisches Allgemeines Landrecht geht: p…
-8. **aufopferung-historische-faelle-pockenimpfung** — Wenn es um Pralr Aufopferung Historische Faelle Pockenimpfung in Preußisches Allgemeines Landrecht geht: prüft Frist, Fo…
+1. **altrechte-und-rechtsueberleitung-pruefen** — Prüft eine heutige Akte mit PrALR-Wurzeln auf Entstehung, spätere Rechtsänderungen und belegbare Fortgeltung. Liefert ei…
+2. **textzeugen-vergleichen** — Vergleicht PrALR-Drucke, Digitalisate und OCR einschließlich der Abgrenzung zum Gesetzbuchdruck von 1792. Liefert eine b…
+3. **historische-arbeitsverhaeltnisse-unterscheiden** — Ordnet bezahlte Arbeit im PrALR-Kontext als Gesindedienst, Tagelohn, kaufmännische Tätigkeit oder besonderen Dienst ein.…
+4. **historische-kodifikationen-vergleichen** — Vergleicht eine konkrete PrALR-Regel mit ABGB, Code civil oder BGB in bestimmten Fassungen. Untersucht Funktion, Richter…
+5. **nachbarrechtliche-altrechte-heute-pruefen** — Prüft eine heutige Grundstücksstreitigkeit mit behauptetem PrALR-Altrecht, besonders bei pommerschen Bezügen. Liefert ei…
+6. **aufopferungsargument-heute-pruefen** — Prüft die Verwendung der PrALR-Aufopferung in einem heutigen Vermerk oder Schriftsatz. Trennt historische Herkunft, heut…
+7. **historische-rueckforderung-pruefen** — Untersucht Rückforderungen rechtsgrundloser Leistungen im PrALR. Prüft Zahlungsgrund, Irrtum und konkrete Rückabwicklung…
+8. **historisches-sklavereirecht-vergleichen** — Vergleicht PrALR-Regeln über Sklaverei mit einer konkret ausgewählten historischen Rechtsordnung. Trennt Aufenthaltsrech…
+9. **historische-geschlechtszuordnung-untersuchen** — Untersucht die historischen Geschlechtszuordnungsregeln in Teil 1 Titel 1 des PrALR. Trennt elterliche Erziehung, Wahlre…
+10. **historische-schadenshaftung-pruefen** — Prüft unerlaubte Schädigungen im PrALR nach Handlung, Verschulden, Schaden und Sonderregel. Verhindert erfundene Kasuist…
 
 ---
 
-## Skill: `kaltstart-triage`
+## Skill: `altrechte-und-rechtsueberleitung-pruefen`
 
-_Wenn es um PrALR - Allgemeiner Einstieg in Preußisches Allgemeines Landrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Kaltstart Triage; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+_Prüft eine heutige Akte mit PrALR-Wurzeln auf Entstehung, spätere Rechtsänderungen und belegbare Fortgeltung. Liefert eine Rechtsüberleitungskette statt eines bloßen Geschichtsvergleichs._
 
-# PrALR - Allgemeiner Einstieg
+# Altrechte und Rechtsüberleitung prüfen
 
-## Direktstart: lesen, entscheiden, liefern
+## 1. Zweck und Anwendungsfall
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Prüft eine heutige Akte mit PrALR-Wurzeln auf Entstehung, spätere Rechtsänderungen und belegbare Fortgeltung. Liefert eine Rechtsüberleitungskette statt eines bloßen Geschichtsvergleichs.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+## 2. Eingaben
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Entstehungsurkunde, historischer und heutiger Ort, Rechtsnachfolge, Registerstand und begehrte heutige Rechtsfolge. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 3. Ablauf
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+### 3.1. Fachprüfung
 
-## Normenanker
+Entstehung, Bestand, Ausübung und Erlöschen zeitlich trennen. Für jede Zwischenstufe einschlägiges Übergangs- und Bereinigungsrecht feststellen. BGB-Einführung nicht als pauschale Aufhebung sämtlichen ALR-Rechts behandeln. Alte Eintragung beweist weder ungebrochenen Bestand noch heutige Durchsetzbarkeit.
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+### 3.2. Zeit- und Geltungsgrenze
 
-- `§ 241 Abs. 2 BGB` — Rücksichtnahme-, Schutz- und Organisationspflichten.
-- `§ 242 BGB` — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit.
-- `§ 280 Abs. 1 BGB` — Pflichtverletzung, Vertretenmuessen, Schaden.
-- `§ 286 Abs. 1 BGB` — Verzug und Fristlogik.
-- `§ 195 BGB` — regelmäßige Verjährung.
-- `§ 199 Abs. 1 BGB` — Beginn der regelmäßigen Verjährung.
-- `§ 253 Abs. 2 ZPO` — Bestimmtheit von Antrag und Klagegrund.
-- `§ 138 Abs. 1 ZPO` — Wahrheitspflicht und vollstaendiger Tatsachenvortrag.
+Historische Entstehung und heutige Rechtswirkung sind zwei Prüfungen. Heutige Anspruchsgrundlagen, Übergangsrecht und Rechtsprechung am für den Auftrag maßgeblichen Stand gesondert verifizieren. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+### 3.3. Vertiefung bei Bedarf
 
-## Startfragen
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
 
-1. Welche Quelle liegt vor: Scan, OCR, PDF, Transkription, Sekundärtext, Urteil oder Aktenvermerk?
-2. Welches Jahr, welcher Band, welcher Teil, welcher Titel und welcher Paragraph sind sicher?
-3. Geht es um historische Erklärung, heutige Fortwirkung, Dogmengeschichte, Unterricht oder Schriftsatzargument?
-4. Welcher Ort und welches Jahr sind für den Sachverhalt maßgeblich?
-5. Brauchen wir einen Live-Check, weil heutiges Recht, Landesrecht oder Rechtsprechung betroffen ist?
+- Bei Fragen zu „Normkarte Altrecht In Heutiger Akte“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/altrechte-und-rechtsueberleitung-pruefen/references/normkarte-altrecht-aufopferung.md).
+- Bei Fragen zu „Übergang zum BGB“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/altrechte-und-rechtsueberleitung-pruefen/references/pralr-028-uebergang-zum-bgb-1900.md).
+- Bei Fragen zu „Übergang zum BGB“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/altrechte-und-rechtsueberleitung-pruefen/references/uebergang-bgb-abgb-code-roemisches-gemeines.md).
+- Bei Fragen zu „Fortwirkung in Praxis“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/altrechte-und-rechtsueberleitung-pruefen/references/pralr-044-rechtsfortwirkung-in-praxis-check.md).
+- Bei Fragen zu „Fortwirkung in Praxis“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/altrechte-und-rechtsueberleitung-pruefen/references/rechtsfortwirkung-in-praxis-check.md).
 
-## Prüfroutine
+## 4. Quellenpflicht
 
-1. **Textzeuge sichern:** Ausgabe, Druck, Band, Seite/Scan, OCR-Fassung und Fundstelle erfassen.
-2. **Systemstelle finden:** Einleitung, Teil, Titel, Paragraph und Nachbarvorschriften bestimmen.
-3. **Geltung trennen:** historisch geltendes Recht, subsidiäre Anwendung, lokale Abweichung und heutige Fortwirkung unterscheiden.
-4. **Begriffe entschlüsseln:** alte Orthographie, ständische Begriffe und heutige Übersetzung offenlegen.
-5. **Anachronismus prüfen:** moderne Kategorien nur als Vergleich verwenden, nicht in den Normtext hineinlesen.
-6. **Output bauen:** Quellenmatrix, Kurzvermerk, Gutachtenbaustein, Unterrichtsfolie oder Schriftsatzpassage erstellen.
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Ein Hutungsrecht wird über Entstehungsurkunde, Rechtsnachfolge und mögliche Ablösung verfolgt; allgemeine Hinweise auf Sachenrechtsbereinigung genügen nicht.
 
 ---
 
-## Skill: `pralr-005-historische-anwendung-vs-heutiges-recht`
+## Skill: `textzeugen-vergleichen`
 
-_Wenn es um Historisch oder heute? in Preußisches Allgemeines Landrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Pralr 005 Historische Anwendung Vs Heutiges Recht; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+_Vergleicht PrALR-Drucke, Digitalisate und OCR einschließlich der Abgrenzung zum Gesetzbuchdruck von 1792. Liefert eine belegte Variantensynopse statt vermuteter Editionsunterschiede._
 
-# Historisch oder heute?
+# Ausgaben und Textzeugen vergleichen
 
-## Aufgabe
+## 1. Zweck und Anwendungsfall
 
-Trenne drei Ebenen: damals geltendes Recht, heute fortwirkendes Landes-/Gewohnheitsrecht, dogmengeschichtliches Argument ohne unmittelbare Normgeltung.
+Vergleicht PrALR-Drucke, Digitalisate und OCR einschließlich der Abgrenzung zum Gesetzbuchdruck von 1792. Liefert eine belegte Variantensynopse statt vermuteter Editionsunterschiede.
 
-Dieser Skill arbeitet mit dem Allgemeinen Landrecht für die Preußischen Staaten als historischer Normquelle. Er behandelt das PrALR nicht als dekorativen Alttext, sondern als konkrete Quelle mit Ausgabejahr, Textzeugen, Geltungsraum, systematischem Ort und möglicher heutiger Fortwirkung.
+## 2. Eingaben
 
-## Startfragen
+Titelblätter, Druck- und Verlagsangaben, Ausgabejahr, Seitenbilder und korrespondierende Textstellen. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
 
-1. Welche Quelle liegt vor: Scan, OCR, PDF, Transkription, Sekundärtext, Urteil oder Aktenvermerk?
-2. Welches Jahr, welcher Band, welcher Teil, welcher Titel und welcher Paragraph sind sicher?
-3. Geht es um historische Erklärung, heutige Fortwirkung, Dogmengeschichte, Unterricht oder Schriftsatzargument?
-4. Welcher Ort und welches Jahr sind für den Sachverhalt maßgeblich?
-5. Brauchen wir einen Live-Check, weil heutiges Recht, Landesrecht oder Rechtsprechung betroffen ist?
+## 3. Ablauf
 
-## Prüfroutine
+### 3.1. Fachprüfung
 
-1. **Textzeuge sichern:** Ausgabe, Druck, Band, Seite/Scan, OCR-Fassung und Fundstelle erfassen.
-2. **Systemstelle finden:** Einleitung, Teil, Titel, Paragraph und Nachbarvorschriften bestimmen.
-3. **Geltung trennen:** historisch geltendes Recht, subsidiäre Anwendung, lokale Abweichung und heutige Fortwirkung unterscheiden.
-4. **Begriffe entschlüsseln:** alte Orthographie, ständische Begriffe und heutige Übersetzung offenlegen.
-5. **Anachronismus prüfen:** moderne Kategorien nur als Vergleich verwenden, nicht in den Normtext hineinlesen.
-6. **Output bauen:** Quellenmatrix, Kurzvermerk, Gutachtenbaustein, Unterrichtsfolie oder Schriftsatzpassage erstellen.
+Zuerst bibliografische Identität bestimmen. Anschließend dieselbe Systemstelle kollationieren und Satzfehler, Orthographie, redaktionelle Änderungen und Rechtsänderungen trennen. Jahreszahlen oder Verlegernamen nicht aus dem Dateinamen ergänzen; ein späterer Druck beweist keine Änderung des Rechts.
 
-## Ausgabeformat
+### 3.2. Zeit- und Geltungsgrenze
 
-- **Kurzbefund:** Was sagt die Quelle sicher?
-- **Textzeugenstand:** Welche Fassung wurde benutzt und wo ist sie unsicher?
-- **Historische Einordnung:** Systemstelle, Geltungsraum, gesellschaftliche Funktion.
-- **Heutiger Anschluss:** Fortwirkung, Gewohnheitsrecht, bloße Dogmengeschichte oder keine heutige Relevanz.
-- **Nächster Schritt:** zweite Quelle, Scan-Gegenprobe, aktuelles Landesrecht oder Rechtsprechungsrecherche.
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
 
----
+### 3.3. Vertiefung bei Bedarf
 
-## Skill: `sklaverei-aufhebung-und-edikte-1807-1857`
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
 
-_Wenn es um Aufhebung Sklaverei und Erbuntertaenigkeit in Preussen 1794-1857 in Preußisches Allgemeines Landrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Sklaverei Aufhebung Und Edikte 1807 1857; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+- Bei Fragen zu „Drucke und Verleger“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/textzeugen-vergleichen/references/drucke-pauli-decker-nauck.md).
+- Bei Fragen zu „Drucke und Verleger“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/textzeugen-vergleichen/references/pralr-042-drucke-pauli-decker-nauck.md).
+- Bei Fragen zu „Editionsvergleich und Digitalisat“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/textzeugen-vergleichen/references/editionsvergleich-pdf-digitalisat.md).
+- Bei Fragen zu „Editionsvergleich und Digitalisat“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/textzeugen-vergleichen/references/pralr-002-editionsvergleich-pdf-digitalisat.md).
+- Bei Fragen zu „1792 vs. 1794“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/textzeugen-vergleichen/references/pralr-041-1792-agb-vs-1794-pralr.md).
+- Bei Fragen zu „Textzeugenvergleich 1794 1804 Ausgabe und OCR“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/textzeugen-vergleichen/references/pralr-neu-002-textzeugenvergleich-1794-1804-ausgabe-und-ocr.md).
 
-# Aufhebung Sklaverei und Erbuntertaenigkeit in Preussen 1794-1857
+## 4. Quellenpflicht
 
-## Arbeitsweg
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: historisch — Verjährung nach ALR-Vorschriften (z. B. 30-jährige actio); heutige Anwendung über Art. 184 ff. EGBGB und § 195 BGB.
-- Tragende Normen verifizieren: ALR Einleitung §§ 1-100, Erster Teil (Personen-/Sachenrecht), Zweiter Teil (Personenstand, Familie, Erbrecht), Allgemeine Gerichtsordnung; abgelöst durch BGB (1900), aber dogmenhistorisch fortwirkend — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Rechtshistoriker, Lehrstühle, Restitutionsverfahren mit Altrecht-Bezug, Boden- und Erbschaftsstreite mit historischer Wurzel.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Rechtsvergleichende Stellungnahme, ALR-Auszug aus historischer Edition, dogmatische Untersuchung, Restitutionsgutachten, Erbschaftsgutachten — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 5. Ausgabeformat
 
-## Begriffliche Trennung
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
 
-- **Sklaverei**: Person ist als res Eigentum eines anderen.
-- **Erbuntertaenigkeit / Gutsuntertaenigkeit / Leibeigenschaft**: persönliche Bindung der baeuerlichen Bevoelkerung an einen Grundherrn mit Bewegungs-, Heirats- und Berufsbeschraenkungen, aber ohne Eigentumsstellung des Herrn am Menschen.
+## 6. Beispiel
 
-Beide Institute werden umgangssprachlich vermengt, sind rechtshistorisch aber zu trennen.
-
-## ALR 1794
-
-- ALR II 5 §§ 196 ff. (vor Zitat verifizieren): Sklaverei in Preussen nicht geduldet; sofortige Befreiung bei Grenzuebertritt.
-- ALR II 7 (Bauernstand): Gutsuntertaenigkeit der baeuerlichen Bevoelkerung als reale Lebenslage Preussens. Modifikation, aber keine Aufhebung.
-
-## Oktoberedikt 09.10.1807
-
-- "Edikt den erleichterten Besitz und den freien Gebrauch des Grundeigenthums sowie die persönlichen Verhältnisse der Land-Bewohner betreffend" — bekannt als **Stein-Hardenbergsches Oktoberedikt**.
-- Inhalt: Aufhebung der Erbuntertaenigkeit der Bauern in Preussen mit Wirkung **St. Martini 1810**.
-- Wirkung: Bauern werden persoenlich frei; Berufswahl und Eheschliessung frei; Mobilitaet hergestellt.
-- Inhaltlich: Frondienste und Reallasten bleiben zunaechst, werden in Folge-Edikten abgeloest.
-
-## Folge-Edikte
-
-- **Regulierungsedikt 14.09.1811**: Loesung der gutsherrlichen Lasten gegen Entschaedigung.
-- **Gemeinheitsteilungsordnung 1821**: Aufteilung der Allmenden und Gemeinheiten.
-- **Ablooesungsordnung 1850**: vollstaendige Beseitigung der Restlasten.
-
-## Gesetz vom 09.03.1857
-
-- Bestaetigung des Sklavereiverbots reichseinheitlich (in Preussen).
-- Klarstellung gegenueber den Auswanderungs- und Einwanderungsverhaeltnissen.
-- Reaktion auch auf die internationale Diskussion (Abolition USA 1865, England 1833).
-
-## Reichsweite Folge
-
-- Reichsverfassung 1871 — kein Sklavereirecht.
-- BGB 1900 — Personenrecht ohne Sklavenstatus; § 138 BGB sittenwidrig.
-- Reichsgesetze gegen Menschenhandel ab 19. Jh.
-
-## Heute
-
-- Art. 1, 2 GG.
-- Art. 4 EMRK.
-- §§ 232-233a StGB Menschenhandel und Sklaverei.
-- UN-Slavery Convention 1926, ergaenzendes Uebereinkommen 1956.
-
-## Prüfraster
-
-1. Welche Norm welcher Epoche?
-2. Sklaverei oder Erbuntertaenigkeit (begriffliche Trennung!)?
-3. Welches Folge-Edikt einschlaegig?
-4. Heutige Äquivalenz?
+Zwei abweichende Wörter im Scan von 1794 und einer späteren Ausgabe werden mit Seitenbeleg gegenübergestellt; ihre rechtliche Bedeutung bleibt eine eigene Prüfung.
 
 ---
 
-## Skill: `historische-anwendung-vs-heutiges-recht`
+## Skill: `historische-arbeitsverhaeltnisse-unterscheiden`
 
-_Wenn es um Historisch oder heute? in Preußisches Allgemeines Landrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Historische Anwendung Vs Heutiges Recht; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+_Ordnet bezahlte Arbeit im PrALR-Kontext als Gesindedienst, Tagelohn, kaufmännische Tätigkeit oder besonderen Dienst ein. Verhindert die ungeprüfte Übernahme heutigen Arbeitsrechts._
 
-# Historisch oder heute?
+# Historische Arbeitsverhältnisse unterscheiden
 
-## Normenanker
+## 1. Zweck und Anwendungsfall
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Ordnet bezahlte Arbeit im PrALR-Kontext als Gesindedienst, Tagelohn, kaufmännische Tätigkeit oder besonderen Dienst ein. Verhindert die ungeprüfte Übernahme heutigen Arbeitsrechts.
 
-- `§ 241 Abs. 2 BGB` — Rücksichtnahme-, Schutz- und Organisationspflichten.
-- `§ 242 BGB` — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit.
-- `§ 280 Abs. 1 BGB` — Pflichtverletzung, Vertretenmuessen, Schaden.
-- `§ 286 Abs. 1 BGB` — Verzug und Fristlogik.
-- `§ 195 BGB` — regelmäßige Verjährung.
-- `§ 199 Abs. 1 BGB` — Beginn der regelmäßigen Verjährung.
-- `§ 253 Abs. 2 ZPO` — Bestimmtheit von Antrag und Klagegrund.
-- `§ 138 Abs. 1 ZPO` — Wahrheitspflicht und vollstaendiger Tatsachenvortrag.
+## 2. Eingaben
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+Tätigkeit, Haushaltsaufnahme, Status, Vergütung, Vertrag, Ort und Dienstzeitraum. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
 
-## Arbeitsweg
+## 3. Ablauf
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: historisch — Verjährung nach ALR-Vorschriften (z. B. 30-jährige actio); heutige Anwendung über Art. 184 ff. EGBGB und § 195 BGB.
-- Tragende Normen verifizieren: ALR Einleitung §§ 1-100, Erster Teil (Personen-/Sachenrecht), Zweiter Teil (Personenstand, Familie, Erbrecht), Allgemeine Gerichtsordnung; abgelöst durch BGB (1900), aber dogmenhistorisch fortwirkend — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Rechtshistoriker, Lehrstühle, Restitutionsverfahren mit Altrecht-Bezug, Boden- und Erbschaftsstreite mit historischer Wurzel.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Rechtsvergleichende Stellungnahme, ALR-Auszug aus historischer Edition, dogmatische Untersuchung, Restitutionsgutachten, Erbschaftsgutachten — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+### 3.1. Fachprüfung
 
-## Startfragen
+Persönliche Einbindung und geschuldete Leistung vor einer rechtlichen Kategorie bestimmen. Dienstrecht und spätere Gewerbe- oder Sozialgesetzgebung zeitlich auseinanderhalten. Gesinderecht nur bei passender historischer Einordnung laden; heutige Kündigungsschutzfristen nicht zurückprojizieren.
 
-1. Welche Quelle liegt vor: Scan, OCR, PDF, Transkription, Sekundärtext, Urteil oder Aktenvermerk?
-2. Welches Jahr, welcher Band, welcher Teil, welcher Titel und welcher Paragraph sind sicher?
-3. Geht es um historische Erklärung, heutige Fortwirkung, Dogmengeschichte, Unterricht oder Schriftsatzargument?
-4. Welcher Ort und welches Jahr sind für den Sachverhalt maßgeblich?
-5. Brauchen wir einen Live-Check, weil heutiges Recht, Landesrecht oder Rechtsprechung betroffen ist?
+### 3.2. Zeit- und Geltungsgrenze
 
-## Prüfroutine
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
 
-1. **Textzeuge sichern:** Ausgabe, Druck, Band, Seite/Scan, OCR-Fassung und Fundstelle erfassen.
-2. **Systemstelle finden:** Einleitung, Teil, Titel, Paragraph und Nachbarvorschriften bestimmen.
-3. **Geltung trennen:** historisch geltendes Recht, subsidiäre Anwendung, lokale Abweichung und heutige Fortwirkung unterscheiden.
-4. **Begriffe entschlüsseln:** alte Orthographie, ständische Begriffe und heutige Übersetzung offenlegen.
-5. **Anachronismus prüfen:** moderne Kategorien nur als Vergleich verwenden, nicht in den Normtext hineinlesen.
-6. **Output bauen:** Quellenmatrix, Kurzvermerk, Gutachtenbaustein, Unterrichtsfolie oder Schriftsatzpassage erstellen.
+### 3.3. Vertiefung bei Bedarf
+
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
+
+- Bei Fragen zu „Arbeitsrecht Vorgaenger Im Alr“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-arbeitsverhaeltnisse-unterscheiden/references/arbeitsrecht-aufopferung.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Für einen Hauslehrer und einen Tagelöhner werden unterschiedliche Status- und Vertragsquellen gesucht, obwohl beide gegen Entgelt arbeiten.
 
 ---
 
-## Skill: `pralr-046-nachbarrecht-heutiger-schriftsatz`
+## Skill: `historische-kodifikationen-vergleichen`
 
-_Wenn es um Nachbarrecht im Schriftsatz in Preußisches Allgemeines Landrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Pralr 046 Nachbarrecht Heutiger Schriftsatz; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+_Vergleicht eine konkrete PrALR-Regel mit ABGB, Code civil oder BGB in bestimmten Fassungen. Untersucht Funktion, Richterrolle und soziale Reichweite statt bloßer Wortähnlichkeit._
 
-# Nachbarrecht im Schriftsatz
+# Historische Kodifikationen vergleichen
 
-## Aufgabe
+## 1. Zweck und Anwendungsfall
 
-Frage: Grundstücksort, Landesrecht, alte Provinz, lokale Fortgeltung, einschlägige Norm, aktuelle Gerichtsentscheidung.
+Vergleicht eine konkrete PrALR-Regel mit ABGB, Code civil oder BGB in bestimmten Fassungen. Untersucht Funktion, Richterrolle und soziale Reichweite statt bloßer Wortähnlichkeit.
 
-Dieser Skill arbeitet mit dem Allgemeinen Landrecht für die Preußischen Staaten als historischer Normquelle. Er behandelt das PrALR nicht als dekorativen Alttext, sondern als konkrete Quelle mit Ausgabejahr, Textzeugen, Geltungsraum, systematischem Ort und möglicher heutiger Fortwirkung.
+## 2. Eingaben
 
-## Startfragen
+Gleiche Sachfrage, ausgewählte Kodifikationen und Fassungen, Rechtsraum und Vergleichsziel. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
 
-1. Welche Quelle liegt vor: Scan, OCR, PDF, Transkription, Sekundärtext, Urteil oder Aktenvermerk?
-2. Welches Jahr, welcher Band, welcher Teil, welcher Titel und welcher Paragraph sind sicher?
-3. Geht es um historische Erklärung, heutige Fortwirkung, Dogmengeschichte, Unterricht oder Schriftsatzargument?
-4. Welcher Ort und welches Jahr sind für den Sachverhalt maßgeblich?
-5. Brauchen wir einen Live-Check, weil heutiges Recht, Landesrecht oder Rechtsprechung betroffen ist?
+## 3. Ablauf
 
-## Prüfroutine
+### 3.1. Fachprüfung
 
-1. **Textzeuge sichern:** Ausgabe, Druck, Band, Seite/Scan, OCR-Fassung und Fundstelle erfassen.
-2. **Systemstelle finden:** Einleitung, Teil, Titel, Paragraph und Nachbarvorschriften bestimmen.
-3. **Geltung trennen:** historisch geltendes Recht, subsidiäre Anwendung, lokale Abweichung und heutige Fortwirkung unterscheiden.
-4. **Begriffe entschlüsseln:** alte Orthographie, ständische Begriffe und heutige Übersetzung offenlegen.
-5. **Anachronismus prüfen:** moderne Kategorien nur als Vergleich verwenden, nicht in den Normtext hineinlesen.
-6. **Output bauen:** Quellenmatrix, Kurzvermerk, Gutachtenbaustein, Unterrichtsfolie oder Schriftsatzpassage erstellen.
+Funktionsgleichheit vor Textvergleich prüfen. Regel, Ausnahme und institutionelle Voraussetzungen pro Rechtsordnung erfassen. Keine umfassende Überlegenheit einer Kodifikation aus einer Einzelvorschrift folgern; heutige Fassungen nicht mit historischen vermengen.
 
-## Ausgabeformat
+### 3.2. Zeit- und Geltungsgrenze
 
-- **Kurzbefund:** Was sagt die Quelle sicher?
-- **Textzeugenstand:** Welche Fassung wurde benutzt und wo ist sie unsicher?
-- **Historische Einordnung:** Systemstelle, Geltungsraum, gesellschaftliche Funktion.
-- **Heutiger Anschluss:** Fortwirkung, Gewohnheitsrecht, bloße Dogmengeschichte oder keine heutige Relevanz.
-- **Nächster Schritt:** zweite Quelle, Scan-Gegenprobe, aktuelles Landesrecht oder Rechtsprechungsrecherche.
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+### 3.3. Vertiefung bei Bedarf
+
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
+
+- Bei Fragen zu „Kodifikationsvergleich“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-kodifikationen-vergleichen/references/pralr-029-vergleich-abgb-code-civil-bgb.md).
+- Bei Fragen zu „Kodifikationsvergleich“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-kodifikationen-vergleichen/references/vergleich-abgb-code-civil-bgb.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Für eheliches Vermögen dieselbe Verfügungssituation in zwei historischen Kodifikationen vergleichen.
 
 ---
 
-## Skill: `pralr-045-aufopferung-heutiger-schriftsatz`
+## Skill: `nachbarrechtliche-altrechte-heute-pruefen`
 
-_Wenn es um Aufopferung im Schriftsatz in Preußisches Allgemeines Landrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Pralr 045 Aufopferung Heutiger Schriftsatz; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+_Prüft eine heutige Grundstücksstreitigkeit mit behauptetem PrALR-Altrecht, besonders bei pommerschen Bezügen. Liefert eine belegte Fortgeltungsprüfung oder Schriftsatzpassage._
 
-# Aufopferung im Schriftsatz
+# Nachbarrechtliche Altrechte heute prüfen
 
-## Aufgabe
+## 1. Zweck und Anwendungsfall
 
-Verwende PrALR als historische/dogmatische Herkunft, nicht als alleinige Anspruchsgrundlage ohne heutige Herleitung.
+Prüft eine heutige Grundstücksstreitigkeit mit behauptetem PrALR-Altrecht, besonders bei pommerschen Bezügen. Liefert eine belegte Fortgeltungsprüfung oder Schriftsatzpassage.
 
-Dieser Skill arbeitet mit dem Allgemeinen Landrecht für die Preußischen Staaten als historischer Normquelle. Er behandelt das PrALR nicht als dekorativen Alttext, sondern als konkrete Quelle mit Ausgabejahr, Textzeugen, Geltungsraum, systematischem Ort und möglicher heutiger Fortwirkung.
+## 2. Eingaben
 
-## Startfragen
+Heutiger Grundstücksort, frühere Provinz, Entstehungsurkunde, Register, Nutzung und begehrter Anspruch. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
 
-1. Welche Quelle liegt vor: Scan, OCR, PDF, Transkription, Sekundärtext, Urteil oder Aktenvermerk?
-2. Welches Jahr, welcher Band, welcher Teil, welcher Titel und welcher Paragraph sind sicher?
-3. Geht es um historische Erklärung, heutige Fortwirkung, Dogmengeschichte, Unterricht oder Schriftsatzargument?
-4. Welcher Ort und welches Jahr sind für den Sachverhalt maßgeblich?
-5. Brauchen wir einen Live-Check, weil heutiges Recht, Landesrecht oder Rechtsprechung betroffen ist?
+## 3. Ablauf
 
-## Prüfroutine
+### 3.1. Fachprüfung
 
-1. **Textzeuge sichern:** Ausgabe, Druck, Band, Seite/Scan, OCR-Fassung und Fundstelle erfassen.
-2. **Systemstelle finden:** Einleitung, Teil, Titel, Paragraph und Nachbarvorschriften bestimmen.
-3. **Geltung trennen:** historisch geltendes Recht, subsidiäre Anwendung, lokale Abweichung und heutige Fortwirkung unterscheiden.
-4. **Begriffe entschlüsseln:** alte Orthographie, ständische Begriffe und heutige Übersetzung offenlegen.
-5. **Anachronismus prüfen:** moderne Kategorien nur als Vergleich verwenden, nicht in den Normtext hineinlesen.
-6. **Output bauen:** Quellenmatrix, Kurzvermerk, Gutachtenbaustein, Unterrichtsfolie oder Schriftsatzpassage erstellen.
+Historische Entstehung von heutiger Geltung trennen. Landesrecht, Übergangsrecht, Ablösung und aktuelle Rechtsprechung zur konkreten Rechtsposition prüfen. Pommern ist kein pauschaler Fortgeltungsnachweis. Bei Grundstücken außerhalb Deutschlands auch die tatsächlich zuständige Rechtsordnung klären.
 
-## Ausgabeformat
+### 3.2. Zeit- und Geltungsgrenze
 
-- **Kurzbefund:** Was sagt die Quelle sicher?
-- **Textzeugenstand:** Welche Fassung wurde benutzt und wo ist sie unsicher?
-- **Historische Einordnung:** Systemstelle, Geltungsraum, gesellschaftliche Funktion.
-- **Heutiger Anschluss:** Fortwirkung, Gewohnheitsrecht, bloße Dogmengeschichte oder keine heutige Relevanz.
-- **Nächster Schritt:** zweite Quelle, Scan-Gegenprobe, aktuelles Landesrecht oder Rechtsprechungsrecherche.
+Historische Entstehung und heutige Rechtswirkung sind zwei Prüfungen. Heutige Anspruchsgrundlagen, Übergangsrecht und Rechtsprechung am für den Auftrag maßgeblichen Stand gesondert verifizieren. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+### 3.3. Vertiefung bei Bedarf
 
----
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
 
-## Skill: `sklaverei-aufhebung-edikte-1807`
+- Bei Fragen zu „Nachbarrecht im Schriftsatz“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/nachbarrechtliche-altrechte-heute-pruefen/references/nachbarrecht-heutiger-schriftsatz.md).
+- Bei Fragen zu „Nachbarrecht im Schriftsatz“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/nachbarrechtliche-altrechte-heute-pruefen/references/pralr-046-nachbarrecht-heutiger-schriftsatz.md).
+- Bei Fragen zu „Nachbarrechtliche Fortwirkung“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/nachbarrechtliche-altrechte-heute-pruefen/references/nachbarrecht-pommern-fortwirkung.md).
+- Bei Fragen zu „Nachbarrechtliche Fortwirkung“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/nachbarrechtliche-altrechte-heute-pruefen/references/pralr-014-nachbarrecht-und-pommern-fortwirkung.md).
+- Bei Fragen zu „Normkarte Nachbarrecht heutiger Fortwirkungscheck“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/nachbarrechtliche-altrechte-heute-pruefen/references/pralr-neu-029-normkarte-nachbarrecht-heutiger-fortwirkungscheck.md).
 
-_Wenn es um Aufhebung Sklaverei und Erbuntertaenigkeit in Preussen 1794-1857 in Preußisches Allgemeines Landrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Sklaverei Aufhebung Edikte 1807; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+## 4. Quellenpflicht
 
-# Aufhebung Sklaverei und Erbuntertaenigkeit in Preussen 1794-1857
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
 
-## Begriffliche Trennung
+## 5. Ausgabeformat
 
-- **Sklaverei**: Person ist als res Eigentum eines anderen.
-- **Erbuntertaenigkeit / Gutsuntertaenigkeit / Leibeigenschaft**: persönliche Bindung der baeuerlichen Bevoelkerung an einen Grundherrn mit Bewegungs-, Heirats- und Berufsbeschraenkungen, aber ohne Eigentumsstellung des Herrn am Menschen.
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
 
-Beide Institute werden umgangssprachlich vermengt, sind rechtshistorisch aber zu trennen.
+## 6. Beispiel
 
-## ALR 1794
-
-- ALR II 5 §§ 196 ff. (vor Zitat verifizieren): Sklaverei in Preussen nicht geduldet; sofortige Befreiung bei Grenzuebertritt.
-- ALR II 7 (Bauernstand): Gutsuntertaenigkeit der baeuerlichen Bevoelkerung als reale Lebenslage Preussens. Modifikation, aber keine Aufhebung.
-
-## Oktoberedikt 09.10.1807
-
-- "Edikt den erleichterten Besitz und den freien Gebrauch des Grundeigenthums sowie die persönlichen Verhältnisse der Land-Bewohner betreffend" — bekannt als **Stein-Hardenbergsches Oktoberedikt**.
-- Inhalt: Aufhebung der Erbuntertaenigkeit der Bauern in Preussen mit Wirkung **St. Martini 1810**.
-- Wirkung: Bauern werden persoenlich frei; Berufswahl und Eheschliessung frei; Mobilitaet hergestellt.
-- Inhaltlich: Frondienste und Reallasten bleiben zunaechst, werden in Folge-Edikten abgeloest.
-
-## Folge-Edikte
-
-- **Regulierungsedikt 14.09.1811**: Loesung der gutsherrlichen Lasten gegen Entschaedigung.
-- **Gemeinheitsteilungsordnung 1821**: Aufteilung der Allmenden und Gemeinheiten.
-- **Ablooesungsordnung 1850**: vollstaendige Beseitigung der Restlasten.
-
-## Gesetz vom 09.03.1857
-
-- Bestaetigung des Sklavereiverbots reichseinheitlich (in Preussen).
-- Klarstellung gegenueber den Auswanderungs- und Einwanderungsverhaeltnissen.
-- Reaktion auch auf die internationale Diskussion (Abolition USA 1865, England 1833).
-
-## Reichsweite Folge
-
-- Reichsverfassung 1871 — kein Sklavereirecht.
-- BGB 1900 — Personenrecht ohne Sklavenstatus; § 138 BGB sittenwidrig.
-- Reichsgesetze gegen Menschenhandel ab 19. Jh.
-
-## Heute
-
-- Art. 1, 2 GG.
-- Art. 4 EMRK.
-- §§ 232-233a StGB Menschenhandel und Sklaverei.
-- UN-Slavery Convention 1926, ergaenzendes Uebereinkommen 1956.
-
-## Prüfraster
-
-1. Welche Norm welcher Epoche?
-2. Sklaverei oder Erbuntertaenigkeit (begriffliche Trennung!)?
-3. Welches Folge-Edikt einschlaegig?
-4. Heutige Äquivalenz?
+Ein behauptetes altes Traufrecht trägt einen heutigen Antrag erst nach Nachweis seines Bestands und seiner aktuellen Durchsetzbarkeit.
 
 ---
 
-## Skill: `aufopferung-historische-faelle-pockenimpfung`
+## Skill: `aufopferungsargument-heute-pruefen`
 
-_Wenn es um Pralr Aufopferung Historische Faelle Pockenimpfung in Preußisches Allgemeines Landrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Aufopferung Historische Faelle Pockenimpfung; Arbeitsfeld: Preußisches Allgemeines Landrecht._
+_Prüft die Verwendung der PrALR-Aufopferung in einem heutigen Vermerk oder Schriftsatz. Trennt historische Herkunft, heutige Anspruchsgrundlage und einschlägiges Spezialrecht._
 
-# Pralr Aufopferung Historische Faelle Pockenimpfung
+# Aufopferungsargument für heutige Akte prüfen
 
-## Arbeitsweg
+## 1. Zweck und Anwendungsfall
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: historisch — Verjährung nach ALR-Vorschriften (z. B. 30-jährige actio); heutige Anwendung über Art. 184 ff. EGBGB und § 195 BGB.
-- Tragende Normen verifizieren: ALR Einleitung §§ 1-100, Erster Teil (Personen-/Sachenrecht), Zweiter Teil (Personenstand, Familie, Erbrecht), Allgemeine Gerichtsordnung; abgelöst durch BGB (1900), aber dogmenhistorisch fortwirkend — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Rechtshistoriker, Lehrstühle, Restitutionsverfahren mit Altrecht-Bezug, Boden- und Erbschaftsstreite mit historischer Wurzel.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Rechtsvergleichende Stellungnahme, ALR-Auszug aus historischer Edition, dogmatische Untersuchung, Restitutionsgutachten, Erbschaftsgutachten — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Prüft die Verwendung der PrALR-Aufopferung in einem heutigen Vermerk oder Schriftsatz. Trennt historische Herkunft, heutige Anspruchsgrundlage und einschlägiges Spezialrecht.
 
-## Historischer Hintergrund
+## 2. Eingaben
 
-- Pockenimpfpflicht ab Mitte 19. Jh. in einzelnen Staaten Preussens.
-- Reichsimpfgesetz 08.04.1874 fuehrte Pflichtimpfung gegen Pocken reichsweit ein.
-- Bei Impfschaeden Ansprueche der Geschaedigten auf Aufopferungsentschaedigung.
+Heutiger Eingriff, betroffene Rechtsposition, Schaden, handelnder Hoheitsträger, Ort und Ereignisdatum. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
 
-## Aufopferungsanspruch
+## 3. Ablauf
 
-- Anker: Einl. §§ 74-75 ALR.
-- "Sonderopfer" — der Buerger erbringt eine Sonderlast für die Allgemeinheit (Schutz gegen Seuchen).
-- Entschaedigung verlangt rechtshistorisch zuerst die rechtliche Anerkennung des Eingriffs.
+### 3.1. Fachprüfung
 
-## Frueheste Klagen
+Heutiges Anspruchssystem eigenständig bestimmen. Rechtmäßigkeit allein trennt die Anspruchsarten nicht zuverlässig; Spezialgesetz, Schutzgut und Anspruchsvoraussetzungen gesondert prüfen. Einleitung Paragrafen 74 und 75 nur für die belegte Herkunft verwenden. Keine veralteten Impfschadensnormen aus den Materialien übernehmen.
 
-- Preussische Gerichte erkannten erste Aufopferungsansprueche im Zusammenhang mit der Impfung.
-- Erlass des Preussischen Innenministers (Daten und Inhalte vor Zitat verifizieren).
+### 3.2. Zeit- und Geltungsgrenze
 
-## Fortwirkung im 20. Jahrhundert
+Historische Entstehung und heutige Rechtswirkung sind zwei Prüfungen. Heutige Anspruchsgrundlagen, Übergangsrecht und Rechtsprechung am für den Auftrag maßgeblichen Stand gesondert verifizieren. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
 
-- BGHZ 9 Seite 83 — Aufopferungsanspruch im Polizeischadensfall.
-- Reichsversorgungsgesetz und spaetere Reform.
-- Heute IfSG §§ 60 ff. für Impfschaeden.
+### 3.3. Vertiefung bei Bedarf
 
-## Prüfraster
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
 
-1. Hoheitliche Maßnahme im Allgemeininteresse?
-2. Sonderbelastung des Einzelnen?
-3. Spezialgesetz greift (IfSG, POG)?
-4. Allgemeiner Aufopferungsanspruch subsidiaer?
-5. Quellenstellen Einl. §§ 74-75 ALR; BGHZ 9.
+- Bei Fragen zu „Aufopferung Fortwirkung Bgb Und Polizei“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/aufopferungsargument-heute-pruefen/references/aufopferung-fortwirkung-bgb.md).
+- Bei Fragen zu „Aufopferung im Schriftsatz“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/aufopferungsargument-heute-pruefen/references/aufopferung-heutiger-schriftsatz.md).
+- Bei Fragen zu „Aufopferung im Schriftsatz“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/aufopferungsargument-heute-pruefen/references/pralr-045-aufopferung-heutiger-schriftsatz.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Bei einer Verletzung durch einen Polizeieinsatz zuerst das einschlägige heutige Entschädigungsrecht prüfen; erst danach eine tragende historische Herleitung formulieren.
+
+---
+
+## Skill: `historische-rueckforderung-pruefen`
+
+_Untersucht Rückforderungen rechtsgrundloser Leistungen im PrALR. Prüft Zahlungsgrund, Irrtum und konkrete Rückabwicklung ohne ein modernes Bereicherungsschema vorauszusetzen._
+
+# Historische Rückforderung prüfen
+
+## 1. Zweck und Anwendungsfall
+
+Untersucht Rückforderungen rechtsgrundloser Leistungen im PrALR. Prüft Zahlungsgrund, Irrtum und konkrete Rückabwicklung ohne ein modernes Bereicherungsschema vorauszusetzen.
+
+## 2. Eingaben
+
+Leistung, behaupteter Rechtsgrund, Irrtum, Empfang, fortbestehender Vorteil und historische Fundstelle. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
+
+## 3. Ablauf
+
+### 3.1. Fachprüfung
+
+Zahlung ohne Schuld von ausgebliebenem Zweck und verbotenem Geschäft unterscheiden. Die lateinischen Kondiktionen sind Suchbegriffe, kein Nachweis einer identischen ALR-Regel. Herausgabe, Wertersatz und Einwendungen am einschlägigen historischen Normabschnitt prüfen.
+
+### 3.2. Zeit- und Geltungsgrenze
+
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
+
+### 3.3. Vertiefung bei Bedarf
+
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
+
+- Bei Fragen zu „Bereicherungsrecht Im Alr Condictiones“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-rueckforderung-pruefen/references/bereicherungsrecht-alr.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Eine versehentliche Doppelzahlung wird zuerst anhand der damaligen Zahlungs- und Rückforderungsregeln untersucht.
+
+---
+
+## Skill: `historisches-sklavereirecht-vergleichen`
+
+_Vergleicht PrALR-Regeln über Sklaverei mit einer konkret ausgewählten historischen Rechtsordnung. Trennt Aufenthaltsrecht, Status, Transportverbot und tatsächliche Befreiung._
+
+# Historisches Sklavereirecht vergleichen
+
+## 1. Zweck und Anwendungsfall
+
+Vergleicht PrALR-Regeln über Sklaverei mit einer konkret ausgewählten historischen Rechtsordnung. Trennt Aufenthaltsrecht, Status, Transportverbot und tatsächliche Befreiung.
+
+## 2. Eingaben
+
+Ausgewählte Rechtsordnungen, Zeitraum, Statusfrage und erreichbare Norm- oder Entscheidungstexte. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
+
+## 3. Ablauf
+
+### 3.1. Fachprüfung
+
+Für Preußen die Ausnahmen in Teil 2 Titel 5 mitlesen. Somerset-Entscheidung, französische Kolonialregel und Metropolitanrecht jeweils aus eigenem Primärtext erschließen. Kein pauschales Gleichheitszeichen zwischen Freilassung, fehlender Abschiebungsbefugnis und allgemeiner Abschaffung setzen; alte Vergleichsdaten bleiben ungeprüft.
+
+### 3.2. Zeit- und Geltungsgrenze
+
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
+
+### 3.3. Vertiefung bei Bedarf
+
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
+
+- Bei Fragen zu „Rechtsvergleich Sklavenrecht : Preussen, England, Frankreich“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historisches-sklavereirecht-vergleichen/references/sklavenrecht-rechtsvergleich.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Eine Gegenüberstellung beantwortet für jede Rechtsordnung dieselbe Frage nach dem Status einer reisenden versklavten Person.
+
+---
+
+## Skill: `historische-geschlechtszuordnung-untersuchen`
+
+_Untersucht die historischen Geschlechtszuordnungsregeln in Teil 1 Titel 1 des PrALR. Trennt elterliche Erziehung, Wahlrecht, Drittinteressen und belegte Anwendungspraxis._
+
+# Historische Geschlechtszuordnung untersuchen
+
+## 1. Zweck und Anwendungsfall
+
+Untersucht die historischen Geschlechtszuordnungsregeln in Teil 1 Titel 1 des PrALR. Trennt elterliche Erziehung, Wahlrecht, Drittinteressen und belegte Anwendungspraxis.
+
+## 2. Eingaben
+
+Historische Statusfrage, Alter, betroffene Drittinteressen, Normfassung und etwaige Register- oder Gerichtsakte. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
+
+## 3. Ablauf
+
+### 3.1. Fachprüfung
+
+Teil 1 Titel 1 Paragrafen 19 bis 23 lesen, nicht Teil 2 Titel 1. Das Wahlrecht nach zurückgelegtem 18. Jahr nicht mit allgemeiner Volljährigkeit gleichsetzen. Paragraf 23 begrenzt die Wahl durch den Sachverständigenbefund bei Drittinteressen. Registeränderung, Ehe und Wehrdienst benötigen eigene Anwendungsquellen.
+
+### 3.2. Zeit- und Geltungsgrenze
+
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
+
+### 3.3. Vertiefung bei Bedarf
+
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
+
+- Bei Fragen zu „Historische Begutachtung und ihre noch zu belegende Praxis“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-geschlechtszuordnung-untersuchen/references/pralr-spez-zwitterrecht-historisch-medizinisch-rechtsfolgen.md).
+- Bei Fragen zu „Geschlechtszuordnung in Teil 1 Titel 1 Paragrafen 19 bis 23“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-geschlechtszuordnung-untersuchen/references/zwitterrecht-alr-ii-1-19-bis-22.md).
+- Bei Fragen zu „Register, Ehe, Erbe und Wehrdienst als gesonderte Folgefragen“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-geschlechtszuordnung-untersuchen/references/zwitterrecht-historisch.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Eine Darstellung des historischen Wahlrechts muss auch den möglichen Vorrang des Sachverständigenbefunds nennen; heutige Personenstandsfolgen folgen daraus nicht.
+
+---
+
+## Skill: `historische-schadenshaftung-pruefen`
+
+_Prüft unerlaubte Schädigungen im PrALR nach Handlung, Verschulden, Schaden und Sonderregel. Verhindert erfundene Kasuistik und die Rückprojektion heutiger Deliktshaftung._
+
+# Historische Schadenshaftung prüfen
+
+## 1. Zweck und Anwendungsfall
+
+Prüft unerlaubte Schädigungen im PrALR nach Handlung, Verschulden, Schaden und Sonderregel. Verhindert erfundene Kasuistik und die Rückprojektion heutiger Deliktshaftung.
+
+## 2. Eingaben
+
+Schädigung, Beteiligte, Status, Kausalverlauf, Schadenspositionen und maßgeblicher Zeitpunkt. Vorhandenes Material zuerst lesen. Nur eine entscheidende Lücke gebündelt nachfragen; ungesicherte Angaben sichtbar offenlassen.
+
+## 3. Ablauf
+
+### 3.1. Fachprüfung
+
+Teil 1 Titel 6 als Ausgangspunkt verwenden; den konkreten Paragrafen erst am Text feststellen. Allgemeine und besondere Haftung trennen, Verschuldensgrade aus der passenden Norm bestimmen. Behauptete Tierhalter- oder Brieftaubenregeln nicht aus den Altbeispielen zitieren.
+
+### 3.2. Zeit- und Geltungsgrenze
+
+Maßstab sind Ort, Zeit und konkrete Fassung des historischen Falls. Heutiges Recht nur bei ausdrücklich verlangtem Vergleich oder einer tatsächlichen Anschlussfrage gesondert prüfen. Kein festes Gegenwartsjahr und kein allgemeiner BGB-Normenradar. Normtext, damalige Anwendungspraxis und spätere Rezeption getrennt ausweisen.
+
+### 3.3. Vertiefung bei Bedarf
+
+Die folgenden Materialien sind bewahrte frühere Arbeitsentwürfe, keine zusätzlichen auswählbaren Skills und keine geprüften Primärquellen. Nur die zur konkreten Teilfrage passende Datei laden, nicht alle Fassungen vorsorglich. Fachfremde Normenradare wurden entfernt; verbliebene Altzitate, Fristen und Falllösungen müssen vor Verwendung verifiziert werden.
+
+- Bei Fragen zu „Deliktsrecht“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-schadenshaftung-pruefen/references/deliktsrecht-generalklausel.md).
+- Bei Fragen zu „Deliktsrecht“: [ergänzende Fassung 2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-schadenshaftung-pruefen/references/pralr-017-deliktsrecht-generalklausel.md).
+- Bei Fragen zu „Erster Teil Titel 6 Unerlaubte Handlungen und Versehen“: [Fachmaterial](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/skills/historische-schadenshaftung-pruefen/references/pralr-neu-009-erster-teil-titel-6-delikt-handlungen-versehen.md).
+
+## 4. Quellenpflicht
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md) und [historischer Quellenprüfvermerk](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/preussisches-allgemeines-landrecht-pralr/references/historische-quellenpruefung.md) beachten. Ausgabe, Teil, Titel, Paragraf und konkrete Fundstelle nennen. Für tragende Wörter Seitenbild und Transkription abgleichen; ohne verfügbares Seitenbild den begrenzten Textzeugenstatus offenlegen. Nur neu oder entscheidend verwendete historische Primärstellen gezielt prüfen, keine sachfremde Aktualitätsrecherche erzwingen. Literatur nur aus bereitgestelltem oder tatsächlich verifiziertem Text verwenden.
+
+## 5. Ausgabeformat
+
+Das verlangte Arbeitsprodukt in vollständigen, ausformulierten Sätzen liefern; keine Skelette, Halbsätze oder reine Stichwortausgabe. Gesicherten Textbefund, historische Bewertung, Gegenbefund und offene Quelle erkennbar trennen. Tabellen nur für echte Vergleiche oder Belege verwenden. Formatierte Dokumente: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown als Exporthinweis nennen.
+
+## 6. Beispiel
+
+Bei einer Verletzung durch ein gehaltenes Tier zuerst die tatsächlich einschlägige Sonderregel sichern, bevor eine Haftungsverschärfung gegenüber dem BGB behauptet wird.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

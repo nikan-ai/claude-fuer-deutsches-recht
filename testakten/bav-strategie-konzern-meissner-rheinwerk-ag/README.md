@@ -1,29 +1,39 @@
 # Akte: Betriebliche Altersversorgung – MEISSNER RHEINWERK AG
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 723 KB) | PDF | [`gesamt-pdf/bav-strategie-konzern-meissner-rheinwerk-ag_gesamt.pdf`](gesamt-pdf/bav-strategie-konzern-meissner-rheinwerk-ag_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bav-strategie-konzern-meissner-rheinwerk-ag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bav-strategie-konzern-meissner-rheinwerk-ag-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bav-strategie-konzern-meissner-rheinwerk-ag_gesamt.pdf`](gesamt-pdf/bav-strategie-konzern-meissner-rheinwerk-ag_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bav-strategie-konzern-meissner-rheinwerk-ag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bav-strategie-konzern-meissner-rheinwerk-ag-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-bav-strategie-konzern-meissner-rheinwerk-ag` (Akte) | [testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip) |
+| `testakte-bav-strategie-konzern-meissner-rheinwerk-ag` (Akte) | [testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bav-strategie-konzern-meissner-rheinwerk-ag.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 ---
 
@@ -145,6 +155,8 @@ Der Vorstand verfolgt drei parallele Maßnahmen zur Entlastung der Bilanz:
 | `Bilanzielle_Auswirkungen_HGB_IFRS.xlsx` | Excel | Pensionsrückstellungen HGB/IFRS/§ 6a EStG; Sensitivitätsanalyse; Meilensteine | 5 Tabs: Rollforward IAS 19; HGB; § 6a; Sensitivität; Meilensteine |
 | `Notiz_Mandantengespraech_Vorstand.txt` | Text | Chaotische handschriftliche Mitschrift Kick-off 14.01.2026 | Nicht autorisiert; enthält Hintergrundinfos COO, BR-Lage, Kyoto-Video |
 | `Aktenvermerk_WhatsApp_CFO_an_Partner_2026-04-08.docx` | Beschreibung | WhatsApp CFO → Sompeh-Ostermann (08.04.2026, 21:37 Uhr) | Original aus Datenschutzgründen nicht in Akte; Inhalt sinngemäß dokumentiert |
+| `Stundenreport_Q1_2026_Treuenfels_Yamamoto.csv` | CSV | Interner Stundenreport Januar bis 08.04.2026 je Berufsträger mit Stundensätzen | Summe ca. EUR 2,38 Mio. netto; Grundlage der WhatsApp-Nachfrage des CFO |
+| `Email_PSVaG_Rueckfragen_Buyout_2026-05-12.eml` | E-Mail | PSVaG-Rückfragen zum Buyout Hanseatica, Bestandsliste und Gleichwertigkeitsbescheinigung | Frist 12.06.2026; Bezug Vorbehaltszahlung EUR 2.777.060 |
 
 ---
 

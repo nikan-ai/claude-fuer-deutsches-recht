@@ -1,29 +1,39 @@
 # Akte: Zwangsverwaltung ZVG – Mietshaus Parkstraße 18, Leipzig
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 143 KB) | PDF | [`gesamt-pdf/zwangsverwaltung-zvg-mietshaus-parkstrasse_gesamt.pdf`](gesamt-pdf/zwangsverwaltung-zvg-mietshaus-parkstrasse_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/zwangsverwaltung-zvg-mietshaus-parkstrasse_gesamt.pdf`](gesamt-pdf/zwangsverwaltung-zvg-mietshaus-parkstrasse_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse` (Akte) | [testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip) |
+| `testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse` (Akte) | [testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Arbeitsakte einer gerichtlichen Zwangsverwaltung über ein vermietetes Mehrfamilienhaus mit Gewerbeanteilen. Die Akte deckt den vollständigen Verfahrensablauf ab: Anordnungsbeschluss, Besitzübernahme, Mietverhältnisse, Betriebskosten, Instandhaltungsnotfälle, Gläubigerkorrespondenz, Schuldnerwiderspruch, Insolvenzschnittstelle und Schlussrechnung.
 
@@ -86,6 +96,8 @@ Im Verlauf des Verfahrens (Mai 2026 – Februar 2027) wurden alle Notfallmaßnah
 | [13_schuldnerwiderspruch.docx](13_schuldnerwiderspruch.docx) | Schuldner Feldmanns Behauptung von Vorausverfügungen (§ 1124 BGB); rechtliche Bewertung; Schriftverkehr mit RA Dr. Krahl; Vergleich Bäckerei Kranz |
 | [14_insolvenz_schnittstelle.docx](14_insolvenz_schnittstelle.docx) | Ankündigung Insolvenzantrag durch Schuldner (20.06.2026); Rechtslage Insolvenz vs. Zwangsverwaltung; Monitoring; Vorsorgeplan; Ergebnis: kein Antrag gestellt |
 | [15_schlussrechnung.docx](15_schlussrechnung.docx) | Vollständige Schlussrechnung 07.05.2026 – 28.02.2027; Gesamteinnahmen und -ausgaben; Vergütungsabrechnung; Kautionsspiegel; Schlussauskehr; Entlastungsantrag |
+| [16_email_baeckerei_kranz_feuchtigkeit.eml](16_email_baeckerei_kranz_feuchtigkeit.eml) | E-Mail Werner Kranz (GE01) vom 15.06.2026: Feuchtigkeit Backstube, Zahlungsstopp, Teilzahlungsangebot 1.500 EUR |
+| [17_telefonvermerk_matuschek_we02.docx](17_telefonvermerk_matuschek_we02.docx) | Telefonvermerk vom 27.05.2026: Barzahlung der Maimiete WE02 an den Schuldner, fehlende Quittung, Umstellung auf Treuhandkonto |
 | [mieterinformation.docx](mieterinformation.docx) | Formelles Anschreiben an alle Mieter über Anordnung der Zwangsverwaltung und Treuhandkonto |
 | [quartalsbericht_q2_2026.docx](quartalsbericht_q2_2026.docx) | Quartalsbericht Q2/2026 (Apr–Jun 2026) an das Vollstreckungsgericht |
 | [genehmigungsantrag_instandhaltung.docx](genehmigungsantrag_instandhaltung.docx) | Antrag an das AG Leipzig auf Genehmigung der Instandhaltungsmaßnahmen M04–M06 |
@@ -108,5 +120,3 @@ Diese Akte vermittelt das vollständige Instrumentarium der gerichtlichen **Zwan
 - **Schlussrechnung:** § 155 ZVG, abgebrochene Jahresrechnung, Konto-Nullstellung, Kautionsübergabe
 
 ---
-
-## Disclaimer

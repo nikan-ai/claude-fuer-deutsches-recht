@@ -1,6 +1,6 @@
-variante,gesetzliche_abkoemmlinge,pflichtteilsquote_nele,unternehmenswert_100,wert_anteil_86,nachlass_vor_schulden,kommentar
-jonas_zaehlt_als_kind,3,0.1667,2400000.00,2064000.00,3292000.00,Jonas Nele Peer als Abkoemmlinge
-jonas_zaehlt_als_kind_hochwert,3,0.1667,5800000.00,4988000.00,6216000.00,Bewertungsstreit dominiert Pflichtteil
-jonas_zaehlt_nicht_mit,2,0.2500,2400000.00,2064000.00,3292000.00,nur Pruefvariante fuer Streitgespraech
-jonas_zaehlt_nicht_mit_hochwert,2,0.2500,5800000.00,4988000.00,6216000.00,maximale Forderungslinie
-
+Quelle;Stand;Personenannahme;Behauptete Quote Nele;Unternehmenswert 100 Prozent EUR;Wert Anteil 86 Prozent EUR;Übriges Vermögen vor Schulden EUR;Belegstatus;Offener Punkt
+Arbeitsrechnung Kanzlei;30.06.2026;Nele, Peer und Jonas als Kinder;0.1666667;2400000.00;2064000.00;1740800.00;Unternehmenswert bestritten;Wirkung Adoption und Passiva
+Arbeitsrechnung Kanzlei;30.06.2026;Nele, Peer und Jonas als Kinder;0.1666667;5800000.00;4988000.00;1740800.00;Ertragswert grob;Bewertungsstandard
+Stellungnahme Jonas;25.06.2026;Quote nicht beziffert;offen;2400000.00;2064000.00;1228000.00;Ferienwohnung und Forderungen fehlen;Vollständigkeit
+Steuerberater Hesse;22.06.2026;keine Quotenprüfung;offen;4800000.00;4128000.00;1740800.00;grobe Bandbreite;unabhängiges Gutachten
+Steuerberater Hesse;22.06.2026;keine Quotenprüfung;offen;6200000.00;5332000.00;1740800.00;grobe Bandbreite;unabhängiges Gutachten
