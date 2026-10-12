@@ -1,6 +1,6 @@
 ---
 name: sanktions-compliance-pruefung
-description: "Wenn es um Sanktions Compliance Prüfung in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sanktions Compliance Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste, UK-HMT/OFSI, UN-Sicherheitsrat-Resolutionen
@@ -50,7 +50,6 @@ description: "Wenn es um Sanktions Compliance Prüfung in Fachanwalt Internation
 
 | Gericht | AZ | Datum | Kernaussage |
 |---------|----|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | OFAC | TSECO 2023 | 2023 | Secondary-Sanctions-Enforcement: nicht-US-Unternehmen mit USD-Transaktionen zu sanktionierten Einheiten; Bußgeld ohne Strafverfolgung in USA |
 
 ## Prüfschema
@@ -232,12 +231,7 @@ Compliance-Kosten (Prävention): Screening-Software 5.000–50.000 EUR/Jahr; Rec
 - EG-VO 428/2009 (Dual-Use-VO)
 - OFAC Regulations 31 CFR Part 500 ff.; SDN List (treasury.gov)
 - UK Sanctions and Anti-Money Laundering Act 2018; OFSI
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BAFA-Merkblätter Embargorecht (bafa.de), Stand 2024
-
-## Vertiefung: Aktuelle Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette Sanktions-Compliance
 
@@ -293,3 +287,5 @@ Naechster Review: [DATUM — z.B. bei Erneuerung/Zahlungseingang]
 [KANZLEI], [ORT], [DATUM]
 [RECHTSANWAELTIN NAME], LL.M.
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,13 +1,13 @@
 ---
 name: 02-ehesache-scheidung-paragraf-1565
-description: "Wenn es um 02 Ehesache Scheidung Paragraf 1565 in Familiengericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 02 Ehesache Scheidung Paragraf 1565: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 02 Ehesache Scheidung Paragraf 1565
 
 ## Zweck
 
-Scheidungsverfahren Paragrafen 1564 ff. BGB i.V.m. Paragrafen 121 ff. FamFG: Trennungsjahr Paragraf 1566, Zerruettung Paragraf 1565, Versorgungsausgleich Paragraf 1587, Folgesachen Paragraf 137 FamFG (Unterhalt, Sorgerecht, Zugewinn, Hausrat, Ehewohnung)
+Scheidungsverfahren nach den Paragrafen 1564 bis 1568 BGB in Verbindung mit den Paragrafen 121 bis 150 FamFG: Trennungsjahr und Scheiternsvermutung nach Paragraf 1566 BGB, Scheitern der Ehe nach Paragraf 1565 BGB, Versorgungsausgleich nach dem VersAusglG sowie Folgesachen und Verbund nach Paragraf 137 FamFG.
 
 ## Rolle
 
@@ -35,7 +35,7 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 ## Anker-Rechtsprechung
 
 - BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02: Rechtliches Gehör verlangt, dass der entscheidungserhebliche Vortrag sichtbar zur Kenntnis genommen und in die Entscheidungsbildung einbezogen wird.
-- BGH, Beschluss vom 24.07.2013 - XII ZB 340/11: Der Scheidungsverbund darf Versorgungsausgleich und Folgesachen nicht mechanisch mitschleppen, sondern muss verfahrensökonomisch und teilhabegerecht gesteuert werden.
+- BGH, Beschluss vom 21.07.2021 - XII ZB 21/21: Die von FamFG Paragraf 137 Absatz 2 erfassten Folgesachen gehören während des Scheidungsverfahrens zwingend in den Verbund; eine Abtrennung ist nur unter den Voraussetzungen des FamFG Paragraf 140 zulässig.
 - Ständige Rechtsprechung des BGH (XII. Zivilsenat) zum Scheidungsverbund: Trennungsunterhalt und Folgesachen sind in ihrer prozessualen Eigenständigkeit sauber vom Scheidungsausspruch zu trennen. Ein konkretes Aktenzeichen wird hier nicht ungeprüft behauptet; es ist vor Verwendung live über die BGH-Quelle zu verifizieren.
 - Paragrafen 1565, 1566, 1567 BGB sowie Paragrafen 113, 114, 128, 137, 140 FamFG bilden den Pflichtstamm: Scheitern, Trennung, persönliches Erscheinen, Anwaltszwang, Verbund und Abtrennung.
 

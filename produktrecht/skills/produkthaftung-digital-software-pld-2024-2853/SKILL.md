@@ -1,6 +1,6 @@
 ---
 name: produkthaftung-digital-software-pld-2024-2853
-description: "Wenn es um Produkthaftung für Software und digitale Komponenten in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Produkthaftung für Software und digitale Komponenten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Produkthaftung für Software und digitale Komponenten
@@ -40,3 +40,4 @@ description: "Wenn es um Produkthaftung für Software und digitale Komponenten i
 ## Anschluss-Skills
 
 Nach der Erstprüfung je nach Schwerpunkt `produkthaftung-grundlagen`, `produktbeobachtung-software-ota`, `produktbeobachtung-feldueberwachung`, `prodr-produktrueckruf-leitfaden`, `rueckruf-strategie-konzern`, `marktueberwachung-kommunikation`, `prodr-gpsr-cra-fitness-spezial` oder `ki-act-produktintegration` ziehen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: norm-zerlegen-mandantenbrief
-description: "Wenn es um Norm zerlegen in Tatbestandsmerkmale in Subsumtions-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Norm zerlegen in Tatbestandsmerkmale: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Norm zerlegen in Tatbestandsmerkmale
@@ -44,8 +44,6 @@ Das System liest den Normtext und unterteilt in:
 1. Wirksamer Kaufvertrag (§§ 145 ff. BGB: Angebot und Annahme)
 2. Fälligkeit des Anspruchs (§§ 271 ff. BGB)
 3. Nicht erfüllt (§ 362 BGB: noch keine Erfüllung)
-
-### Schritt 3 — Definitionen aus h.M. und Rechtsprechung
 
 ## Quellen für Definitionen und Methodik
 

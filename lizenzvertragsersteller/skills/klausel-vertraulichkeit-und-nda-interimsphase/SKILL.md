@@ -1,6 +1,6 @@
 ---
 name: klausel-vertraulichkeit-und-nda-interimsphase
-description: "Wenn es um Klausel Vertraulichkeit + NDA-Interimsphase in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Klausel Vertraulichkeit + NDA-Interimsphase: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klausel Vertraulichkeit + NDA-Interimsphase
@@ -25,7 +25,7 @@ Standardtext für die Verhandlungs-/DD-Phase:
 
 ## Vertraulichkeitsklausel im Lizenzvertrag
 
-> **$ 13 Vertraulichkeit.**
+> **Paragraf 13 Vertraulichkeit.**
 >
 > (1) Beide Parteien verpflichten sich, alle im Zusammenhang mit diesem Vertrag erhaltenen vertraulichen Informationen der jeweils anderen Partei geheim zu halten.
 >

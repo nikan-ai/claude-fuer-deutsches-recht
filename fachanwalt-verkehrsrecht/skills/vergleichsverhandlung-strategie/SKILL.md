@@ -1,6 +1,6 @@
 ---
 name: vergleichsverhandlung-strategie
-description: "Wenn es um Vergleichsverhandlung Strategie in Fachanwalt Verkehrsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleichsverhandlung Strategie: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: Fachanwalt Verkehrsrecht."
 ---
 
 # Vergleichsverhandlungs-Strategie für Verkehrsrecht (Unfall-, OWi- und Verkehrsstrafrecht): ZOPA, BATNA, Verhandlungsfenster, Druckmittel, Settlement-Skript, Vergleichsentwurf und prozessuale Absicherung (Protokoll-/Anwaltsvergleich).
@@ -170,6 +170,4 @@ Klassische Stolperfalle in Verkehrsrecht (Unfall-, OWi- und Verkehrsstrafrecht):
 
 ## Aktuelle Rechtsprechung Vergleich Verkehrsrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026: BGH VI ZR 217/21 (NOT_FOUND dejure.org), BGH VI ZR 440/13 (NOT_FOUND dejure.org) und BGH VI ZR 314/10 (WRONG_TOPIC: Stasi/Persoenlichkeitsrecht, NJW 2013, 790, nicht Direktanspruch) entfernt. Ersatzlos geloescht gemäß Reparaturauftrag task_275. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,66 +1,39 @@
-Wenn du das hier öffnest, willst du aus unsortiertem Material eine belastbare juristische Frage, Subsumtion und sofort nutzbare Textfassung entwickeln.
+# 1. Rechtstheoretische Argumente am konkreten Problem prüfen
 
-# Rechtstheorie Rechtsphilosophie — Schnellstart
+Ohne Eingabe biete Argumentkritik, Theorievergleich oder Rechtsfortbildungsanalyse an. Texte ohne Auftrag still lesen, dann nur passende zwei oder drei Ziele erfragen; keine Autorenübersicht ausgeben. Klaren Auftrag unmittelbar erfüllen. Folgeantworten ändern die bisherige These und den bestellten Text, ohne Neustart. Keine lokale Bibliothek oder besondere Werkzeuge voraussetzen.
 
-Ziel: Rechtstheorie- und Rechtsphilosophie-Plugin für juristische Praxis: Rechtsbegriff, Kelsen-orientierte Normgeltung, Demokratie, Rechtsrealismus, Systemdenken, Besitzdogmatik, Law-and-Economics, Hayek-Wissensproblem, spontane Ordnung, Machtkritik und anti-dezisionistische Red-Team-Prüfung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Beispiel: „Mit ungültig meinte ich moralisch nicht verbindlich.“ Trenne nun Gehorsamspflicht von rechtlicher Geltung und schreibe Kritik und Fazit neu. „Der nächste Absatz enthält eine Ausnahme.“ Begrenze die rekonstruierte These und prüfe, ob das Gegenbeispiel sie noch trifft. „Es ist nur meine Paraphrase.“ Bewerte genau diese Argumentation, ohne sie als authentisches Zitat eines Autors auszugeben. Bei reiner Theorieprüfung keine gesetzlichen Fristen oder gerichtlichen Beweislasten erfinden; bei heutiger Rechtsanwendung die zusätzliche Rechtsgrundlage gesondert prüfen.
 
-## 1. Schnellmodus
+Prüfe, ob ein vorgelegtes Argument rechtliche Geltung, moralische Rechtfertigung oder tatsächliche Wirkung begründet. Rekonstruiere aus dem vorhandenen Text die These und ihre Voraussetzungen; verfasse danach die bestellte Kritik, Begriffsanalyse oder Gegenargumentation. Bereits beantwortete Fragen nicht erneut stellen.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Erzwinge weder eine zivilrechtliche Anspruchsprüfung noch den Gutachtenstil für einen philosophischen Essay. Frage nur nach fehlendem Material, das für die konkrete Rekonstruktion entscheidend ist; entwickle aus einem vollständigen Nutzerargument sofort die Analyse.
 
-## 2. Direktstart
+## 1.1. Ebenen auseinanderhalten
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Unterscheide die behauptete rechtliche Geltung einer Regel, ihre tatsächliche Befolgung, ihre institutionelle Durchsetzung und ihre moralische Rechtfertigung. Notiere für jede Behauptung, welche dieser Fragen sie beantwortet. Aus häufigem Befolgen folgt ohne weitere Prämisse keine rechtliche Erzeugungskompetenz; aus rechtlicher Geltung ohne weitere Prämisse keine moralische Zustimmung. Umgekehrt eine kritisierte Regel nicht allein wegen der Kritik als rechtlich nicht existent behandeln.
 
-## 3. Kernroute
+Wenn eine Theorie bestimmte Verbindungen zwischen diesen Ebenen behauptet, rekonstruiere genau diese Verbindung. Verwende nicht die begriffliche Trennung selbst schon als Widerlegung jeder Gegenposition. Unterscheide die Beschreibung einer Theorie von ihrer Verteidigung. Ein Autorname ersetzt weder den Gedankengang noch die Angabe der verwendeten Textstelle.
 
-1. Auftrag und Adressat: Rechtsfrage, gewünschtes Produkt, Empfänger, Frist und Entscheidungsschwelle in einem Satz festlegen.
-2. Sachverhalt: Chronologie, Beteiligte, Dokumentfundstellen, unstreitige Tatsachen, Behauptungen und Lücken sauber trennen.
-3. Normstruktur: Anspruchsgrundlage oder Prüfungsmaßstab in Tatbestandsmerkmale, Rechtsfolge, Einwendungen und Beweislast zerlegen.
-4. Subsumtion und Gegenprobe: für jedes Merkmal Tatsache, Beleg, Schluss, stärkstes Gegenargument und Gegenbeweis ausweisen.
-5. Arbeitsprodukt: Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief, Entscheidungsbaum oder Zitierkontrolle vollständig ausformulieren.
-6. Fallnarrativ, Tatsachen, Beweis: Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen.
+## 1.2. Argument rekonstruieren und testen
 
-## 4. Fallkarte
+Formuliere die tragende These, ausdrücklich gegebene Prämissen und die Schlussfolgerung. Ergänze eine fehlende Brückenprämisse nur als eigene Rekonstruktion. Prüfe, ob die Folgerung bei unterstellten Prämissen tatsächlich trägt und ob die Prämissen selbst begründet sind. Ein empirischer Befund kann eine Wirkungsannahme stützen; er beantwortet nicht allein, welche Verteilung von Lasten gerechtfertigt ist.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | GG Artikel 20 Absatz 3; BGB Paragraf 133 und Paragraf 157; ZPO Paragraf 138 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen |
-| Beweislast | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen |
-| Rechtsfolge | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei einem Theorievergleich dieselbe Frage und denselben Beispielsfall für beide Positionen verwenden. Nicht eine ausgearbeitete Position mit einer Karikatur der anderen vergleichen. Stelle den stärksten Einwand dar und prüfe, ob die Erwiderung die These verteidigt oder sie unbemerkt abschwächt. Ein Gegenbeispiel muss die behaupteten Voraussetzungen erfüllen, sonst testet es eine andere Aussage.
 
-## 5. Einsatzfelder
+Fehlt die Textstelle für eine zugeschriebene Position, frage nach Passage und Ausgabe und bearbeite die vorhandene Paraphrase vorläufig als solche. Nach der Antwort gleiche These und Prämissen mit dem Wortlaut ab, korrigiere die betroffene Rekonstruktion und schreibe den bestellten Abschnitt fertig. Weitere entscheidende Kontextlücken gezielt klären, bereits beantwortete Fragen nicht wiederholen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Fallnarrativ, Tatsachen, Beweis | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Abwägung und Rationalität | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Adressatenwürde und Rechtssteuerung | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Besitz und Law & Economics: Transaktionskosten | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Besitz, Rechtsrealismus und praktische Bedürfnisse | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Prüft Besitzschutz rechtsrealistisch: faktische Kontrolle, Streitvermeidung, Friedensfunktion, Beweislast. | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Praxisbezug ohne Scheinzwang
 
-## 6. Anker
+Bei richterlicher Rechtsfortbildung Artikel 20 Absatz 3 und 97 Absatz 1 GG zugrunde legen. BVerfG, Beschluss vom 25.01.2011, [1 BvR 918/10](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/01/rs20110125_1bvr091810.html), Leitsatz: Die damalige unterhaltsrechtliche Dreiteilungsmethode ersetzte das Gesetzesmodell durch ein eigenes und überschritt damit die Grenzen der Rechtsfortbildung. Prüfe am vorgelegten Argument, welche gesetzliche Wertung gewahrt oder ausgetauscht wird. Das ist kein allgemeines Verbot richterlicher Fortbildung und kein Urteil über die Wahrheit einer abstrakten Theorie.
 
-- GG Artikel 20 Absatz 3: Bindung an Gesetz und Recht als Ausgangspunkt juristischer Begründung.
-- BGB Paragraf 133 und Paragraf 157: Auslegung nach wirklichem Willen, Treu und Glauben sowie Verkehrssitte.
-- ZPO Paragraf 138: vollständiger und wahrheitsgemäßer Tatsachenvortrag sowie Erklärungslast.
-- ZPO Paragraf 139: richterliche Erörterungs- und Hinweispflicht als Kontrollmaßstab für lückenhaften Vortrag.
-- Art. 1 Abs. 1 GG — normative Grenze jeder Rechtsanwendung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 20 Abs. 3 GG — Gesetzesbindung und Rechtsbindung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 19 Abs. 4 GG — effektiver Rechtsschutz: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 97 Abs. 1 GG — richterliche Unabhängigkeit: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Bei Gesetzgebung oder Rechtsanwendung offenlegen, welche Folgerung aus dem theoretischen Ansatz gewonnen werden soll: etwa ein bestimmter Auslegungsmaßstab, eine institutionelle Zuständigkeit oder die Berücksichtigung von Folgen. Prüfe die zusätzliche rechtliche Grundlage gesondert. Eine Effizienzsteigerung kann ein relevantes Argument sein, aber die Auswahl des Effizienzmaßstabs und die Verteilung von Kosten bleiben erklärungsbedürftig.
 
-## 7. Antwortform
+Bei behaupteten Sachzwängen mögliche Handlungsalternativen und Informationsgrenzen benennen. Trenne „nicht beobachtet“, „nicht bekannt“ und „nicht möglich“. Keine empirischen Wirkungen, historischen Positionen oder Originalzitate erfinden. Wenn nur eine Nutzerparaphrase vorliegt, bewerte diese als Paraphrase und nicht als abschließend authentische Darstellung des bezeichneten Werks.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Subsumtionszeile: Normmerkmal, Definition, Tatsache, Aktenfund, Schluss, Gegenargument, Beweislast und Zwischenergebnis; Kurzvermerk: Frage, Kurzantwort, tragende Tatsachen, Rechtsanker, Risiko, Empfehlung und nächster Schritt.
+## 1.4. Präzise Textfassung liefern
 
-## 8. Stop
+Das Ergebnis enthält eine klare These, nachvollziehbare Begründung, Gegenargument und begrenztes Fazit. Eine Tabelle kann Vergleichsachsen ordnen, ersetzt aber nicht die ausformulierte Argumentation. Bei einem Hindernis den tragfähigen Teil und die benötigte Passage benennen; nach Eingang bis zum bestellten Text fortsetzen, nicht bei einer Quellenanforderung stehenbleiben.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Für abstrakte logische Prüfung keine Rechtsprechung erzwingen. Historische Zuschreibungen anhand der Originaltexte, heutige Rechtsbehauptungen anhand amtlicher Quellen verifizieren; ohne Zugriff die Zuschreibung offenlassen. Nutzerdateinamen gehen vor, `ergebnis.md` ist nur ein Standard ohne Vorgabe. Technische Quellenstatus getrennt von der Argumentation halten. Dezimal gliedern, Export in Times New Roman 11 pt; Veröffentlichung und Einreichung nur mit ausdrücklicher Freigabe.
+
+Weiterführende Skills und Referenzen sind optional; die Ebenentrennung und Argumentprüfung stehen vollständig hier. Bei fehlendem Zugriff einen geeigneten anderen Weg versuchen und die konkrete Lücke nennen. Keine gelesene Originalquelle oder erzeugte Datei behaupten, die tatsächlich nicht vorliegt.

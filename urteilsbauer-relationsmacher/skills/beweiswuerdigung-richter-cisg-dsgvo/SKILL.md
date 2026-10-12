@@ -1,6 +1,6 @@
 ---
 name: beweiswuerdigung-richter-cisg-dsgvo
-description: "Wenn es um Beweiswürdigung mit haendischem Richter-Input in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Beweiswuerdigung Richter Cisg Dsgvo; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Beweiswürdigung mit händischem Richter-Input: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix. Fachgebiet: Urteilsbauer und Relationsmacher. Route: beweiswuerdigung-richter-cisg-dsgvo."
 ---
 
 # Beweiswürdigung mit haendischem Richter-Input
@@ -27,12 +27,6 @@ Die Beweiswürdigung ist Kernkompetenz der Richterin oder des Richters. Sie läs
 2. Hat die Richterin/der Richter konkrete Eindrücke zur Glaubwürdigkeit der Zeugen?
 3. Widersprechen sich Zeugenaussagen oder Urkunde und Aussage?
 4. Ist das Sachverständigengutachten vollständig oder besteht Ergänzungsbedarf (§ 411 ZPO)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026: BGH VI ZR 96/11 geloescht – AZ auf dejure.org nicht auffindbar (NOT_FOUND). BGH VI ZR 113/17 korrigiert – Thema war falsch angegeben (Parteivernehmung § 448 ZPO statt Beweismaß § 287 ZPO) und NJW-Fundstelle korrigiert (2019, 2092 statt 2019, 1668). -->
 
 ## Zentrale Normen
 
@@ -86,3 +80,5 @@ Im Urteil immer:
 ## Bezugnahme
 
 Auf das Sitzungsprotokoll und auf das Sachverständigengutachten ist nach Paragraf 313 II 2 ZPO konkret Bezug zu nehmen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

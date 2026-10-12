@@ -1,6 +1,6 @@
 ---
 name: ausschlussfristen-bestandskraft
-description: "Wenn es um Ausschlussfristen Und Bestandskraft in Einigungsvertrag und Vermögensrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ausschlussfristen und Bestandskraft: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Ausschlussfristen Und Bestandskraft
@@ -27,14 +27,3 @@ description: "Wenn es um Ausschlussfristen Und Bestandskraft in Einigungsvertrag
 3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 30 VermG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: wahlverteidiger-mandat
-description: "Wenn es um Wahlverteidiger Mandat in Fachanwalt Strafrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Wahlverteidiger Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wahlverteidiger-Mandat im Strafrecht beginnen: Anwendungsfall Beschuldigter waehlt Strafverteidiger und Erstgespraeach muss Schweigerecht Akteneinsicht Honorar und Strategie klären
@@ -149,17 +149,12 @@ description: "Wenn es um Wahlverteidiger Mandat in Fachanwalt Strafrecht geht: o
 
 ## 8) BGH-Linien
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anschluss
 
 - `fachanwalt-strafrecht-untersuchungshaft-haftpruefung` — bei U-Haft
 - `fachanwalt-strafrecht-anklage-reaktion` — bei Anklage
 - `aktenaufbereiter-strafrecht` — bei Akten-Aufbereitung
-
-## Aktuelle Rechtsprechung Wahlverteidigung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen Wahlverteidigung
 
@@ -169,3 +164,5 @@ description: "Wenn es um Wahlverteidiger Mandat in Fachanwalt Strafrecht geht: o
 - § 146 StPO — Verbot der Mehrfachverteidigung bei Mitbeschuldigten
 - § 43a II BRAO — Verschwiegenheitspflicht
 - § 53 StPO — Zeugnisverweigerungsrecht
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

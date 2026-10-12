@@ -1,6 +1,6 @@
 ---
 name: ust-vorsteuerabzug-15-ustg
-description: "Wenn es um Vorsteuerabzug — Paragraf 15 UStG materielle und formelle Voraussetzungen in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vorsteuerabzug — Paragraf 15 UStG materielle und formelle Voraussetzungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Vorsteuerabzug — § 15 UStG materielle und formelle Voraussetzungen
@@ -30,7 +30,9 @@ description: "Wenn es um Vorsteuerabzug — Paragraf 15 UStG materielle und form
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesfinanzhof.de, bundesverfassungsgericht.de, dejure.org, openjur.de, gesetze-im-internet.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- EuGH, Urteil vom 01.03.2012 - C-280/10, Polski Trawertyn: Vorbereitungshandlungen und erste Investitionsausgaben können bereits wirtschaftliche Tätigkeit sein; die Entscheidung betrifft zudem die besondere Gründungskonstellation mit vor Eintragung ausgestellten Rechnungen und ist nicht pauschal auf jede Fremdrechnung übertragbar.
+- EuGH, Urteil vom 15.09.2016 - C-518/14, Senatex: Eine berichtigungsfähige Rechnung kann hinsichtlich der dort geprüften Pflichtangaben mit Rückwirkung berichtigt werden.
+- EuGH, Urteil vom 15.09.2016 - C-516/14, Barlis 06: Fehlen bestimmte Rechnungsangaben, darf der Vorsteuerabzug nicht allein deshalb versagt werden, wenn die Finanzverwaltung aus den verfügbaren ergänzenden Informationen die materiellen Voraussetzungen prüfen kann.
 - Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
 
 ## Zentrale Normen
@@ -42,3 +44,5 @@ description: "Wenn es um Vorsteuerabzug — Paragraf 15 UStG materielle und form
 - Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
 - Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
 - Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

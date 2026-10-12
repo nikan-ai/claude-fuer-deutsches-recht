@@ -1,6 +1,6 @@
 ---
 name: ce-zeichen-fehlgebrauch-und-abmahnung
-description: "Wenn es um CE-Kennzeichnung, Fehlgebrauch und Abmahnung in robotik-recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für CE-Kennzeichnung, Fehlgebrauch und Abmahnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # CE-Kennzeichnung, Fehlgebrauch und Abmahnung
@@ -48,7 +48,7 @@ Falsche CE-Kennzeichnung, fehlende EU-Konformitätserklärung, irreführende Wer
 
 | Verstoß | Schwere | Sanktionen | Strategie |
 |---|---|---|---|
-| Komplett fehlendes CE | sehr hoch | Marktverbot, Bußgeld bis 30 Mio. KI-VO | sofortiger Rückzug, Konformitätsbewertung |
+| Erforderliche CE-Kennzeichnung fehlt | Konkrete Produkt-/KI-Pflicht und Datum prüfen | Maßnahmen nach Sachverhalt und einschlägigem Recht; keine erfundene 30-Millionen-Grenze | Bereitstellung prüfen, verantwortliche Person und Abhilfe festlegen |
 | Werbung mit Notified Body, der nicht beteiligt war | hoch | UWG, ggf. § 263 StGB | sofortiger Stopp |
 | CE-Anbringung zu klein/unleserlich | mittel | Bußgeld; Mängelbeseitigung | korrigieren, ggf. RAPEX |
 | Konformitätserklärung formell unvollständig | gering | Mängelbeseitigung | nachholen, Akte aktualisieren |
@@ -69,7 +69,7 @@ Falsche CE-Kennzeichnung, fehlende EU-Konformitätserklärung, irreführende Wer
 
 **Mahnschreiben (Mitbewerber, Auszug):**
 
-> Sehr geehrte Damen und Herren, wir machen Sie auf einen Verstoß gegen § 3a UWG i. V. m. Art. 16, 47 KI-VO und Art. 16 MaschinenVO aufmerksam. Sie bewerben den Roboter Typ Z auf Ihrer Website (URL) mit dem Hinweis "CE-zertifiziert nach KI-VO". Eine EU-Konformitätserklärung gemäß Art. 47 KI-VO ist nicht beigefügt; die Notified-Body-Kennnummer NB 0123 ist in NANDO nicht für den Anhang VI KI-VO gelistet. Wir fordern Sie auf, Werbung und Inverkehrbringen bis [Frist] zu unterlassen und eine strafbewehrte Unterlassungserklärung beigefügten Musters abzugeben.
+> Sehr geehrte Damen und Herren, Ihre Werbung bezeichnet den Roboter Typ [X] als „CE-zertifiziert nach KI-Verordnung“. Bitte erläutern Sie bis [angemessene Frist] den konkreten System- und Versionsbezug, das angewandte Verfahren und die zugrunde liegende Erklärung beziehungsweise Bescheinigung. Eine benannte Stelle ist nicht in jedem Verfahren erforderlich; Anhang VI beschreibt interne Kontrolle. Wir behalten uns nach Prüfung der Nachweise eine rechtliche Beanstandung vor. Eine tatsächliche Recherche zur Stelle und ihrem Benennungsumfang wird gesondert dokumentiert; eine reale Kennnummer wird hier nicht als ungeprüftes Negativbeispiel verwendet.
 
 ## Typische Fehler
 
@@ -91,3 +91,4 @@ Falsche CE-Kennzeichnung, fehlende EU-Konformitätserklärung, irreführende Wer
 - UWG §§ 3, 3a, 5, 8, 8c, 13.
 - NANDO-Datenbank der EU-Kommission.
 - Live-Verifikation auf eur-lex.europa.eu, BAuA, ec.europa.eu/growth (NANDO); lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: sage-buchhalter-bwa-konfiguration
-description: "Wenn es um Sage Buchhalter BWA in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Sage Buchhalter Bwa Konfiguration; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Sage Buchhalter BWA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: sage-buchhalter-bwa-konfiguration."
 ---
 
 # Sage Buchhalter BWA
@@ -77,5 +77,3 @@ Stand: 05/2026.
 - Sage Programm- und Bedienungsdokumentation (aktuelle Version prüfen).
 - AO § 146 (Update-Pflicht der Buchfuehrungsprogramme).
 - Hinweis: konkrete Programmpfade und Modulbezeichnungen können je Sage-Version abweichen; aktuelle Informationen in der Sage-Onlinehilfe prüfen.
-
-<!-- AUDIT 27.05.2026 | welle 6 | 1 Marker aufgeloest: 1 ersetzt (Sage-Programmpfad nicht versionsspezifisch belegbar, Verweis auf Sage-Onlinehilfe) -->

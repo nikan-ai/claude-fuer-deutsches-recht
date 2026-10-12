@@ -1,13 +1,13 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Memorandums-Ersteller geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Memorandums-Ersteller."
 ---
 
 # Einstieg und Routing
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Memorandums Ersteller** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Erstelle das bestellte Memorandum mit Sachverhalt, entscheidbaren Fragen, zugeordneten Kurzantworten und rechtlichen Ausführungen. Nutze vorhandenen Auftrag und Unterlagen; eine Auswahl weiterer Skills ersetzt die Bearbeitung nicht.
 
 ## Fachlandkarte dieses Plugins
 
@@ -20,7 +20,7 @@ Dieser Einstieg routet **Memorandums Ersteller** vom ersten Sachverhalt zu Rolle
 - `juristisches-questions-fristennotiz` — Juristisches Questions Fristennotiz
 - `laenge-formate-mandantenfreundliche-fassung` — Laenge Formate Mandantenfreundliche Fassung
 - `mandantenanfrage-schnell` — Mandantenanfrage Schnell
-- `workflow-mandantenkommunikation` — Mandantenkommunikation Redteam
+- `mandantenkommunikation-redteam` — Mandantenkommunikation
 - `mandantenunterlagen-tatbestand-beweis-und-belege` — Mandantenunterlagen Tatbestand Beweis und Belege
 - `memo-board-pack-besondere-anlaesse-spezial` — Memo Board Pack Besondere Anlaesse Spezial
 - `memo-compliance-vorfall-intern` — Memo Compliance Vorfall Intern
@@ -35,8 +35,14 @@ Dieser Einstieg routet **Memorandums Ersteller** vom ersten Sachverhalt zu Rolle
 - Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
 - Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
 
+### Nachlieferungen in das Memo einarbeiten
+
+Fehlt eine tragende Vertragsanlage oder widersprechen sich zwei Fassungen, frage nach dem genau bezeichneten Dokument beziehungsweise Widerspruch. Nach Eingang aktualisiere Sachverhalt, betroffene Kurzantwort und rechtliche Begründung gemeinsam. Weitere gezielte Runden nur bei neuen entscheidenden Lücken; bekannte Angaben nicht erneut aufnehmen.
+
+Beantworte unabhängige Fragen vorläufig und vervollständige nach der Klärung das bestellte Memo. Ein Rechtsmittel- oder Vertragsmemo bleibt ein Memo, sofern kein zusätzlicher Schriftsatz oder Vertrag bestellt ist. Externe Übermittlung bedarf der Freigabe.
+
 ## Qualitätsanker
 
-- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
-- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Normen am einschlägigen Geltungsstand und Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle sichern; `references/quellenhygiene.md` und `references/zitierweise.md` sind optionale Vertiefungen.
+- Spezialskills nur bei Bedarf verwenden. Das fertige Memo wird vollständig ausformuliert, unter dem gewünschten Dateinamen und bei formatiertem Export in Times New Roman 11 Punkt mit dezimaler Gliederung geliefert. Technische Arbeitsnotizen bleiben getrennt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

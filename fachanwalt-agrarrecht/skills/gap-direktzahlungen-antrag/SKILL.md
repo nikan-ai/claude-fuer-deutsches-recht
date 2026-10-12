@@ -1,6 +1,6 @@
 ---
 name: gap-direktzahlungen-antrag
-description: "Wenn es um Beratung zum Sammelantrag GAP-Direktzahlungen nach der GAP-Reform 2023 in Fachanwalt Agrarrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Beratung zum Sammelantrag GAP-Direktzahlungen nach der GAP-Reform 2023: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Beratung zum Sammelantrag GAP-Direktzahlungen nach der GAP-Reform 2023
@@ -114,14 +114,6 @@ Bei laufender Antragsbegleitung: Rahmenvereinbarung empfohlen. Bei Widerspruch /
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 VO (EU) 2021/2115 Art. 14-17 (GLÖZ-Standards, Konditionalität) → VO (EU) 2021/2116 Art. 84-87 (Sanktionen) → Art. 3 VO (EU) 2021/2116 (höhere Gewalt) → GAPDirektZahlV (deutsches Durchführungsrecht) → § 70 VwGO (Widerspruchsfrist) → § 80 Abs. 5 VwGO (einstweiliger Rechtsschutz bei Rückforderung)
@@ -129,3 +121,5 @@ VO (EU) 2021/2115 Art. 14-17 (GLÖZ-Standards, Konditionalität) → VO (EU) 202
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

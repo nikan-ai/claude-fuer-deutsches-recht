@@ -1,6 +1,6 @@
 ---
 name: wirtschaftsverkehr
-description: "Wenn es um Wirtschaftsverkehr — Liefer- und Ladezonen, Logistikrecht in Verkehrs- und Infrastrukturrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wirtschaftsverkehr — Liefer- und Ladezonen, Logistikrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wirtschaftsverkehr — Liefer- und Ladezonen, Logistikrecht
@@ -37,10 +37,6 @@ Wirtschaftsverkehr und Lieferverkehr in der Stadt rechtlich gestalten: Logistiku
 - § 21a StVZO — Ladungssicherung; Haftung bei Ladungsrutsch
 - VO (EG) 561/2006 — Lenk- und Ruhezeiten Gueterverkehr
 - § 22 StVO — Ladung; Hoechstgewicht, Breite, Laenge
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -126,5 +122,4 @@ Mit freundlichen Gruessen
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-> **Audit-Hinweis (27.05.2026):** BGH VI ZR 281/13, NJW 2014, 2878 entfernt. Tatsaechliches Thema: BGH VI ZR 281/13 (Urt. v. 17.06.2014) betrifft kein Mitverschulden (§ 254 BGB) eines Fahrradfahrers wegen Nichttragens eines Fahrradhelms, NJW 2014, 2493 — kein Bezug zu Frachtfuehrer-Haftung oder Verkehrssicherungspflicht beim Entladen. NJW 2014, 2878 gehoert nicht zu diesem Urteil. Quelle: dejure.org/2014,13360.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: subsumtion-schritt-verfassungsrecht
-description: "Wenn es um Subsumtion Schritt für Schritt in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Subsumtion Schritt für Schritt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Subsumtion Schritt für Schritt
@@ -18,9 +18,6 @@ description: "Wenn es um Subsumtion Schritt für Schritt in hausarbeitenmacher �
 2. Liegt eine Definition aus Kommentar, Gesetz oder Lehrbuch vor?
 3. Welche konkreten Sachverhaltsstellen belegen die Subsumtion?
 4. Ist das Tatbestandsmerkmal streitig — gibt es verschiedene Definitionen oder Abgrenzungen?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 133, 157 BGB — Auslegungsgrundsaetze als Maßstab für Tatbestandsmerkmal-Definitionen
@@ -228,3 +225,5 @@ Z.B. "Sache", "Person":
 ## Sanft, ermutigend, fördernd
 
 Das Plugin steht an Deiner Seite. Wenn etwas schiefgeht: Atme durch, lies die Norm nochmal, frag das Plugin nach einer anderen Sichtweise. Subsumtion ist eine Übungs-Sache. Du wirst Schritt für Schritt sicherer.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

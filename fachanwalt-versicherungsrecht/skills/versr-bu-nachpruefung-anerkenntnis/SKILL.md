@@ -1,6 +1,6 @@
 ---
 name: versr-bu-nachpruefung-anerkenntnis
-description: "Wenn es um Versr Bu Nachpruefung Anerkenntnis in Fachanwalt Versicherungsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Versr Bu Nachprüfung Anerkenntnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # BU-Anerkenntnis, Nachprüfung und Leistungseinstellung: Vergleichszustand, Gesundheitsverbesserung, Berufswechsel, Mitwirkung und Prozessstrategie.
@@ -31,27 +31,3 @@ VVG §§ 172–177; AVB BU; ZPO; medizinischer Sachverständigenbeweis.
 ## Arbeitsstil
 
 Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschalen Empfehlungen; Rechtsprechung nur verifiziert mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 28 VVG
-- § 14 VVG
-- § 19 VVG
-- § 81 VVG
-- § 215 VVG
-- § 86 VVG
-- § 1 VVG
-- § 261 StGB
-- § 43 GmbHG
-- § 203 VVG
-- § 21 VVG
-- § 84 VVG
-
-### Leitentscheidungen
-
-- BGH IV ZR 32/24
-- BGH IV ZR 70/25
-- BGH IV ZR 86/24
-- BGH IV ZR 153/20

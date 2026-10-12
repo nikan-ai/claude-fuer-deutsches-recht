@@ -1,66 +1,51 @@
-Wenn du das hier öffnest, willst du aus einem Titel schnell den richtigen Vollstreckungsweg, Antrag, Zustellungsnachweis und Schuldnerschutzpunkt bauen.
+# 1. Zwangsvollstreckung: Restforderung und zulässiger Zugriff
 
-# Zwangsvollstreckung — Schnellstart
+Gleiche Titel, Zinslauf und Kosten mit den eingegangenen Zahlungen ab. Bestimme den offenen Betrag und den zulässigen Zugriff oder Abwehrweg; formuliere die verlangte Beratung, Forderungsrechnung oder den beauftragten Antrag einschließlich Zustellungsnachweis und Schuldnerschutz.
 
-Ziel: Plugin Zwangsvollstreckung Paragrafen 704 ff. ZPO: Mahn-/Vollstreckungsbescheid, PfÜB Bank/Arbeit, Paragraf 802l Kontensuche, Vermögensauskunft, Räumung, Paragraf 800 ZPO Notar, Paragraf 201 InsO, ZVG, EU-Kontenpfändung VO 655/2014, Paragraf 765a Härtefall, Schuldnerschutz. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Bei leerer Eingabe biete Forderungsaufstellung mit Vollstreckungsauftrag, PfÜB-Entwurf oder Vollstreckungsabwehr an. Dateien ohne Aufgabe zunächst still lesen; nur bei unklarem Ziel zwei oder drei passende Wege anbieten, keine Materialschau. Bei klarem Auftrag sofort arbeiten und nur entscheidende Lücken klären. Folgeantworten ändern Antrag und Rechnung.
 
-## 1. Schnellmodus
+## 1.1. Titel und Zahlungsbelege zuerst
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Lies Titel, erforderliche Klausel, Zustellungsnachweise, Forderungsaufstellung, Zahlungen und bisherige Vollstreckungsprotokolle. Entnimm ihnen Rolle, Ziel, Parteien und Verfahrensstand; frage bekannte Angaben nicht erneut ab. Unterscheide Titelerlangung, Vollstreckungsauftrag und Schuldnerabwehr.
 
-## 2. Direktstart
+## 1.2. Fehlende Nachweise und Fortsetzung
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Fehlt die Zustellungsurkunde oder ein Rechtsnachfolgenachweis, fordere genau ihn an und bearbeite die belegte Rechnung weiter. Prüfe den Eingang auf rechtliche Eignung für diesen Titel. Nachreichung ändert Parteien oder Vollstreckungsreife, nicht automatisch den Betrag.
 
-## 3. Kernroute
+Bestätigt ein Zahlungsbeleg eine vereinbarte Hauptforderungstilgung, ändere Resthauptforderung, späteren Zinslauf und Antragssumme gemeinsam. Bei streitigem Zahlungszweck die entscheidende Vereinbarung klären. Liefere das vollständige Dokument; verbleibende Hindernisse konkret bezeichnen und nach Antwort dort fortsetzen.
 
-1. Titelcheck: vollstreckbarer Inhalt, Klausel, Zustellung, Rechtskraft, Bedingung, Sicherheitsleistung und Forderungsstand prüfen.
-2. Vollstreckungsweg: bewegliche Sache, Forderung, Konto, Arbeitseinkommen, Herausgabe, Räumung, Grundstück oder Auskunft bestimmen.
-3. Antrag: Gerichtsvollzieherauftrag, Pfändungs- und Überweisungsbeschluss, Drittauskunft, Verhaftungsauftrag oder Vollstreckungsschutz passgenau ausfüllen.
-4. Schuldnerschutz und Rang: Pfändungsgrenzen, P-Konto, Vorpfändung, Priorität, Insolvenz, Drittwiderspruch und Erinnerung kontrollieren.
-5. Arbeitsprodukt: Vollstreckungsauftrag, PfÜB-Entwurf, Forderungsaufstellung, Schuldneranschreiben, Erinnerung oder Schutzantrag erstellen.
-6. Mahn: Fristen, Form, Zuständigkeit und Rechtsweg: Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen.
+## 1.3. Titelvoraussetzungen und Auswahl der Maßnahme
 
-## 4. Fallkarte
+Ist eine Bank bekannt, prüfe den konkreten Pfändungsantrag und seine Forderungsbezeichnung; fehlende Kontonummer und unbekannter Drittschuldner sind verschiedene Lücken. Ohne Vermögensspur vorhandenes Vermögensverzeichnis auswerten. Ein alter Arbeitgeber ist kein belegter aktueller Drittschuldner. Bestätigt die Antwort Arbeitgeberwechsel oder neue Bank, Maßnahme und Antrag ändern. Bei mehreren Titeln Forderungspositionen und Zustellungsnachweise getrennt zuordnen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | ZPO Paragraf 704 bis Paragraf 750; ZPO Paragraf 753 bis Paragraf 802l; ZPO Paragraf 808 ff |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen |
-| Beweislast | Gläubiger für Titel, Klausel, Zustellung und Forderungsstand; Schuldner oder Dritter für Schutz, Erfüllung, Insolvenz und Gegenrechte |
-| Rechtsfolge | Titelcheck, Vollstreckungsauftrag, PfÜB-Entwurf, Forderungsaufstellung, Erinnerung oder Schutzantrag |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.4. Zugriff und Gegenrechte
 
-## 5. Einsatzfelder
+Prüfe Titel, Zustellung und Forderungsstand sowie konkrete Einwendungen zu Erfüllung, Schutz, Insolvenz und Drittberechtigung. Ordne Nachweispflichten der jeweiligen Voraussetzung zu. Wähle den Vollstreckungsgegenstand anhand bekannter Vermögenswerte, Rang, Kosten und Schutzregeln statt ungefragt alle Maßnahmen zu beantragen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Mahn: Fristen, Form, Zuständigkeit und Rechtsweg | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mahnbescheid: Fristennotiz und nächster Schritt | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mahnbescheid online | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Pfueb: Risikoampel, Gegenargumente und Verteidigungslinien | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Schuldnerschutz: Beweislast, Darlegungslast und Substantiierung | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Zwangsvollstreckung — Allgemein | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Bei Räumung Terminmitteilung und Entstehung des Schutzgrunds lesen. Paragraf 765a Absatz 3 ZPO verlangt grundsätzlich den Antrag spätestens zwei Wochen vor dem festgesetzten Termin; spätere Gründe oder unverschuldete Verhinderung gesondert begründen. Neue ärztliche Angaben ändern Gefahrenvortrag und beantragten Schutz, nicht nur die Anlagen. Gläubigerbelange mitprüfen; Antrag ist noch keine Einstellung.
 
-## 6. Anker
+## 1.5. Titelart und offener Betrag
 
-- ZPO Paragraf 704 bis Paragraf 750: Titel, Klausel, Zustellung und Vollstreckungsvoraussetzungen.
-- ZPO Paragraf 753 bis Paragraf 802l: Gerichtsvollzieherauftrag, Vermögensauskunft, Haftbefehl und Drittauskünfte.
-- ZPO Paragraf 808 ff.: Pfändung körperlicher Sachen.
-- ZPO Paragraf 829 bis Paragraf 835: Pfändung und Überweisung von Forderungen.
-- Paragraf 688 ZPO — Statthaftigkeit des Mahnverfahrens: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 689 ZPO — Zuständigkeit (zentrales Mahngericht im jeweiligen Bundesland): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 690 ZPO — Antragsinhalt (Individualisierung der Forderung): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 692 ZPO — Erlass des Mahnbescheids; Zustellung von Amts wegen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Ein Mahnbescheid ist vom Vollstreckungsbescheid zu unterscheiden. Nach [Paragraf 796 Absatz 1 ZPO](https://www.gesetze-im-internet.de/zpo/__796.html) benötigt der Vollstreckungsbescheid eine Klausel nur bei Vollstreckung für einen anderen Gläubiger oder gegen einen anderen Schuldner als im Bescheid bezeichnet. Bei identischen Parteien nicht allein wegen fehlender Klausel stoppen. Bei Rechtsnachfolge dagegen den erforderlichen Nachweis und Klauselweg prüfen.
 
-## 7. Antwortform
+Berechne den offenen Betrag aus titulierter Hauptforderung, titulierten Zinsen nach Zeitabschnitten, festgesetzten oder nachgewiesenen Vollstreckungskosten und Zahlungen mit Datum und Tilgungszuordnung. Keine Zinsen oder Gebühren ergänzen, die der Titel oder die einschlägige Grundlage nicht trägt. Teilzahlungen aus Kontobelegen abgleichen; bestehende Pfändungen nicht als erhaltenes Geld buchen. Bei streitiger Tilgungsbestimmung Varianten sichtbar halten.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Titelcheck: Titelart, Datum, Tenor, Klausel, Zustellung, Betrag, Zinsen, Kosten, Bedingung und Anlage; Vollstreckungsauftrag: Forderung, Vollstreckungsart, bekannte Vermögenswerte, Anlagen, Auskunftsstufen und Zustellungswunsch.
+Prüfe Zustellung, besondere Bedingungen, Sicherheitsleistung und etwaige Wartefrist titelbezogen, keine pauschale Zweiwochenfrist für jede Vollstreckung annehmen. Bei einem Antragsauftrag den am vorgesehenen Antragstag geltenden Formular- und Übermittlungsstand amtlich prüfen; angekündigte Änderungen nicht vorzeitig als geltendes Recht anwenden. Ergebnis dieses Auftrags ist ein antragsfähiger Entwurf mit aktuellem Forderungsstand und benannten Anlagen, keine bereits ausgelöste Pfändung. Eine reine Beratung oder Forderungsrechnung benötigt keinen zusätzlichen Antrag.
 
-## 8. Stop
+## 1.6. Verrechnung und materieller Einwand
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Nach Paragraf 367 BGB sind Zahlungszweck und Anrechnung zu klären; Paragraf 788 Absatz 1 ZPO erlaubt nur notwendige Vollstreckungskosten. BGH, Beschluss vom 15. Juni 2016, VII ZB 58/15 ([amtlicher Leitsatz](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2015/VII_ZB__58-15.pdf?__blob=publicationFile&v=1)), schließt die materielle Kontrolle der Gläubigerverrechnung nach Paragraf 367 Absatz 1 BGB durch das Vollstreckungsgericht aus. Bei behauptet falsch verrechneter Überweisung deshalb Zahlungszweck, Annahme und Gegenrechnung belegen und den Abwehrweg nach Paragraf 767 ZPO prüfen. Das bestätigt weder den Saldo noch jede Kostenposition; keine Doppelbeitreibung. Die damaligen Formularvorgaben nicht übernehmen.
+
+Für Kontopfändung gelten Paragraf 829 bis Paragraf 835 ZPO, für Vermögensauskunft und Drittauskunft Paragraf 802c und Paragraf 802l ZPO. Ohne Titel sind Statthaftigkeit, Gericht, Forderungsindividualisierung und Zustellung nach Paragraf 688 bis Paragraf 692 ZPO gesondert zu prüfen, nicht als schon erfüllte Vollstreckungsvoraussetzung.
+
+## 1.7. Dokument fertigstellen
+
+Liefere den bestellten Antrag, die Forderungsaufstellung oder Beratung vollständig ausformuliert. Ein Antrag bezeichnet Parteien, konkrete Maßnahme und Anlagen; eine rechtliche Bewertung beantwortet die gestellte Frage einschließlich des stärksten Gegenarguments. Ein bloßes Prüfprotokoll ersetzt keinen bestellten Schriftsatz, ein Beratungsauftrag verlangt nicht ungefragt einen Vollstreckungsantrag.
+
+Kontrolliere Titelumfang, Parteiidentität, Summen, Zustellungsbelege und Schutzregeln. Verwende den gewünschten Dateinamen, sonst `ergebnis.md`; verifiziere tragende Normen und Rechtsprechung und halte Quellenstatus in einer gesonderten Arbeitsnotiz.
+
+## 1.8. Freigabe und technische Grenzen
+
+Nur einen tatsächlich erforderlichen fehlenden Nachweis als Vollstreckungshindernis behandeln. Belegte Forderungsrechnung und Entwurf weiterbearbeiten. Keine Pfändung, Vermögensauskunft oder Verhaftung selbst veranlassen. Werkstatt und weitere Skills sind optionale Vertiefung, kein notwendiger Repositoryzugriff.
+
+Nutze nur verfügbare Unterlagen und benenne fehlenden Zugriff, ohne Vollständigkeit vorzutäuschen. Ohne Export liefere Text statt eines erfundenen Links und setze nach Behebung am offenen Punkt fort. Amtliche Formulare gehen vor; sonst formatiere Dokumente soweit möglich in Times New Roman 11 pt mit dezimaler Gliederung und halte Exporthinweise gesondert.

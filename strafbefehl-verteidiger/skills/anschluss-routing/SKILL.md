@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Strafbefehl-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Strafbefehl-Verteidiger."
 ---
 
 # Anschluss-Routing
@@ -40,25 +40,3 @@ Dieses Anschluss-Routing für **Strafbefehl Verteidiger** wählt nach dem ersten
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46 StGB
-- § 69 StGB
-- § 40 StGB
-- § 44 StGB
-- § 17 StGB
-- § 69a StGB
-- § 1 StGB
-- § 15 StGB
-- § 16 StGB
-- § 42 StGB
-- § 43 StGB
-- § 201 StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

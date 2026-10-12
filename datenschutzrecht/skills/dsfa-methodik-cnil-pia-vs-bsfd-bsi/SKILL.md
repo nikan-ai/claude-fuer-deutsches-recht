@@ -1,6 +1,6 @@
 ---
 name: dsfa-methodik-cnil-pia-vs-bsfd-bsi
-description: "Wenn es um DSFA-Methodik CNIL PIA versus SDM/BSI in Datenschutzrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für DSFA-Methodik CNIL PIA versus SDM/BSI: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSFA-Methodik CNIL PIA versus SDM/BSI
@@ -110,5 +110,6 @@ Unterschrift DSB: ____________________
 - CNIL: cnil.fr — PIA Software, Knowledge Base, Methodology, Templates
 - DSK Datenschutzkonferenz: datenschutzkonferenz-online.de — SDM V3.0
 - BSI: bsi.bund.de — Grundschutz-Fachüberblick, Baustein zum Datenschutz
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -3,22 +3,68 @@
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
-Erstellt deutsche Arbeitszeugnisse Schritt für Schritt: Rolle, Stammdaten, Tätigkeiten, Leistungs- und Verhaltensbewertung, Notenwahl per Ampelsystem, Schlussformeln. Wahlweise vorgegebene Note oder geführte Einschätzung. Mehrere Harnesses: qualifiziert, einfach, Ausbildung.
+Erstellt, prüft und berichtigt einfache, qualifizierte, Zwischen- und Ausbildungszeugnisse aus vorhandenen Unterlagen. Verknüpft Tätigkeitsbild, Tatsachenbelege, Beweislast, klare Formulierungen, Vergleich und Vollstreckung zu einem verwendbaren Arbeitsprodukt.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 284 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`arbeitszeugnisgenerator.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitszeugnisgenerator.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/arbeitszeugnisgenerator.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/arbeitszeugnisgenerator-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/arbeitszeugnisgenerator-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/arbeitszeugnisgenerator.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/arbeitszeugnisgenerator.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Arbeitszeugnisgenerator:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
 | Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`arbeitszeugnisgenerator.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitszeugnisgenerator.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/arbeitszeugnisgenerator/arbeitszeugnisgenerator-werkstatt.md" download><code>arbeitszeugnisgenerator-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/arbeitszeugnisgenerator/arbeitszeugnisgenerator-schnellstart.md" download><code>arbeitszeugnisgenerator-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [Gesamt-PDF](testakte/gesamt-pdf/testakte_gesamt.pdf), [`arbeitszeugnisgenerator-testakte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitszeugnisgenerator-testakte.zip), [`arbeitszeugnisgenerator-testakte-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitszeugnisgenerator-testakte-einzelpdfs.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`arbeitszeugnisgenerator-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/arbeitszeugnisgenerator-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`arbeitszeugnisgenerator-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/arbeitszeugnisgenerator-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 284 Plugins. Wer alle Plugins auf einmal will, nimmt [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip). Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| Pluginlokale Akte | [Gesamt-PDF](testakte/gesamt-pdf/testakte_gesamt.pdf) | [`arbeitszeugnisgenerator-testakte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitszeugnisgenerator-testakte.zip) | [`arbeitszeugnisgenerator-testakte-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/arbeitszeugnisgenerator-testakte-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du ein deutsches Arbeitszeugnis Schritt für Schritt erstellen — rechtssicher, mit korrekter Zeugnissprache, in der gewünschten Notenstufe.
@@ -32,27 +78,27 @@ Wenn du das hier öffnest, willst du ein deutsches Arbeitszeugnis Schritt für S
 
 ## Was du am Ende in der Hand hast
 
-Ein vollständiges Arbeitszeugnis im richtigen Format — qualifiziertes Zeugnis, einfaches Zeugnis, Zwischenzeugnis oder Ausbildungszeugnis — mit Kopfdaten, Tätigkeitsbeschreibung, Leistungs- und Verhaltensbewertung in der Wunschnote, Schlussformel und Beendigungsgrund. Auf Wunsch mit Begründung pro Satz, welche Notenwirkung er entfaltet.
+Ein vollständiges einfaches, qualifiziertes, Zwischen- oder Ausbildungszeugnis mit belegten Kopfdaten, individuellem Tätigkeitsbild sowie einer wahrheitsgemäßen Leistungs- und Verhaltensbeurteilung. Alternativ erhältst du eine Berichtigungsmatrix, ein Aufforderungsschreiben, einen bestimmten Klageantrag oder eine vollstreckbare Vergleichsklausel. Beendigungsgrund und Schlussformel werden nur aufgenommen, wenn sie sachlich passen.
 
 ## Der Weg dorthin
 
-Rolle und Anliegen klären → Zeugnisart und Harness wählen → Stammdaten erfassen → Tätigkeiten erheben → Notenwahl (vorgeben oder durch Fragen ermitteln lassen) → satzweise Generierung mit Ampel-Vorschau → Schlussformel und Beendigungsgrund → Revision und Feinschliff.
+Vorhandene Unterlagen lesen → Rolle und Zeugnisart bestimmen → Rollen- und Tätigkeitsverlauf belegen → Leistungs- und Verhaltensaussagen mit Tatsachen verbinden → Gesamtformel und Beweislast prüfen → Form, freiwillige Angaben und Aussteller kontrollieren → fertiges Arbeitsprodukt ausgeben.
 
 ## Workflows
 
 Drei Modi zur Wahl:
 
-- **Direkt-Modus**: Du gibst die Wunschnote pro Bewertungsfeld vor (Leistung, Verhalten, Führung). Der Generator setzt die passenden Formeln.
-- **Geführter Modus**: Der Generator stellt gezielte Fragen zu Leistung, Engagement, Verhalten — und schlägt am Ende eine Note vor ("das klingt nach Note 2 bis 3, soll ich so schreiben?"). Du bestätigst oder korrigierst.
-- **Hybrid-Modus**: Du gibst die Gesamtnote vor, der Generator fragt nur noch die offenen Details ab (typische Tätigkeiten, besondere Projekte, Beendigungsgrund).
+- **Direkt-Modus**: Vorhandene Unterlagen werden ohne Vorfrage ausgewertet und sofort in einen Entwurf oder eine Änderungsmatrix überführt. Eine gewünschte Bewertung wird an den Belegen geprüft.
+- **Geführter Modus**: Nur bei fehlendem Material werden Funktion, Aufgaben, Leistungsbelege, Verhalten und Sonderzweck in einer gebündelten Rückfrage erhoben.
+- **Prozess-Modus**: Eine bereits erteilte Fassung wird Satz für Satz mit Tatsachengrundlage, Beweislast und konkretem Änderungsziel bearbeitet.
 
 ## Was dich aufhält
 
 - **Wohlwollensgrundsatz versus Wahrheitspflicht**: Beides muss eingehalten werden, kein Schönschreiben um den Preis der Wahrheit.
-- **Geheimcodes**: Versehentlich eingebaute Negativcodes ("bemüht sich", "im Großen und Ganzen", "lernte schnell kennen und schätzen") kippen die Note. Der Generator vermeidet sie aktiv.
-- **Zeugnisklarheit (objektiver Empfängerhorizont, BAG 9 AZR 352.04)**: Keine doppelten Böden, keine widersprüchlichen Aussagen.
+- **Vermeintliche Geheimcodes**: Einzelne Wendungen werden nicht nach Internetlisten übersetzt. Maßgeblich sind objektiver Empfängerhorizont, Funktion und Gesamtzusammenhang, insbesondere BAG 9 AZR 386/10.
+- **Zeugnisklarheit**: Das Zeugnis wird als einheitliches Ganzes geprüft; tabellarische Schulnoten genügen für ein qualifiziertes Zeugnis regelmäßig nicht, BAG 9 AZR 262/20.
 - **Äußere Form**: Briefkopf, Datum, Unterschrift, kein Knick, keine Streichungen.
-- **Schlussformel-Wirkung**: Schlussformeln wirken oft stärker als die Bewertungssätze. Eine schwache Schlussformel zieht die Gesamtnote.
+- **Schlussformel**: Dank, Bedauern und Zukunftswünsche sind grundsätzlich freiwillig und werden nicht mechanisch in eine Schulnote umgerechnet, BAG 9 AZR 146/21.
 
 ## Rechtlicher Anker
 
@@ -61,29 +107,23 @@ Drei Modi zur Wahl:
 - Paragrafen 241 Absatz 2, 280 Absatz 1 BGB (Nebenpflicht und Schadensersatz)
 - BAG-Leitentscheidungen zu Notenstufen, Beweislast, Schlussformel und Zeugnisklarheit (im Werkstatt-Prompt ausführlich)
 
-## KI-Verordnung: mögliche Einstufung als Hochrisiko-KI
-
-Wird dieses Plugin im Personalwesen produktiv eingesetzt, kann es ein Hochrisiko-KI-System nach Artikel 6 Absatz 2 in Verbindung mit Anhang III Nummer 4 Buchstabe b der Verordnung (EU) 2024/1689 (KI-Verordnung) sein. Anhang III Nummer 4 Buchstabe b erfasst KI-Systeme, die bestimmungsgemäß für Entscheidungen über die Bedingungen von Arbeitsverhältnissen, für die Bewertung der Arbeitsleistung und des Arbeitsverhaltens oder für vergleichbare Personalentscheidungen verwendet werden. Ein automatisiert erstelltes Arbeitszeugnis betrifft genau diese Bewertungs- und Bedingungsdimension. Anhang III Nummer 4 Buchstabe a erfasst dagegen die Personalauswahl und Bewerbungsphase und greift hier in der Regel nicht.
-
-Folgen einer Einstufung als Hochrisiko-KI können sein: Pflicht zu menschlicher Aufsicht, Dokumentations- und Transparenzpflichten, Risikomanagement, Information der Beschäftigten beziehungsweise des Betriebsrats und gegebenenfalls eine Grundrechte-Folgenabschätzung. Die genaue Reichweite hängt vom Einsatzkontext, von der Rolle als Anbieter oder Betreiber und vom Geltungsbeginn nach Artikel 113 KI-VO ab. Diese Hinweise sind keine Rechtsberatung; im Zweifel ist eine arbeitsrechtliche und KI-rechtliche Bewertung im Einzelfall geboten.
-
 ## Hinweise
 
-Generischer Entwurfsstand, alle Angaben ohne Gewähr. Jede Nutzerin und jeder Nutzer prüft den generierten Text auf Plausibilität und Eignung im konkreten Einzelfall. Keine Rechtsberatung. Keine Garantie für Vollständigkeit oder Aktualität der Rechtsprechung. Bei streitigen Fällen Fachanwalt für Arbeitsrecht hinzuziehen.
+Entscheidungszitate werden vor einer Verwendung im Schriftsatz am amtlichen Volltext geprüft. Offene Tatsachen und nicht verifizierte Fundstellen bleiben sichtbar; sie werden nicht durch plausible Ergänzungen ersetzt.
 
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 2. Unterlagen, Sachverhalt und Quellen | `bag-leitentscheidungen-beweislast`, `kopfdaten-und-aussere-form`, `stammdaten-erhebung` |
-| 3. Prüfung, Anspruch und Subsumtion | `fuehrungskraft-bewertung` |
-| 4. Gestaltung, Strategie und Verhandlung | `compliance-integritaet-formeln` |
-| 8. Spezialmodule und Schnittstellen | `auslassungen-vermeiden`, `bag-leitentscheidungen-notenstufen`, `beendigungsgrund-formulieren`, `belastbarkeit-formeln`, `besondere-leistungen-projekte`, `drift-und-schaufenster-vermeiden`, `einfuehrung-mandantenanliegen`, `engagement-motivation-formeln`, `frequenzadverbien-katalog`, `geheimcodes-vermeiden`, `langzeit-arbeitsverhaeltnis`, `mehrere-positionen-im-zeugnis`, `note-1-formeln-leistung`, `note-2-formeln-leistung`, `note-3-formeln-leistung`, `note-4-formeln-leistung`, `note-5-formeln-leistung`, `notenwahl-modus`, ... plus 17 weitere |
+| 6. Ergebnis, Schreiben und Kommunikation | [`zeugnis-pruefen-und-berichtigen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/zeugnis-pruefen-und-berichtigen/SKILL.md) |
+| 8. Spezialmodule und Schnittstellen | [`arbeitszeugnis-erstellen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/arbeitszeugnis-erstellen/SKILL.md), [`ausbildungs-und-praktikumszeugnis-erstellen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/ausbildungs-und-praktikumszeugnis-erstellen/SKILL.md), [`leistung-und-verhalten-formulieren`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/leistung-und-verhalten-formulieren/SKILL.md), [`zeugnisabschluss-und-form-gestalten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/zeugnisabschluss-und-form-gestalten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -91,49 +131,16 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 40 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 5 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `auslassungen-vermeiden` | Wenn es um Auslassungen vermeiden in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bag-leitentscheidungen-beweislast` | Wenn es um BAG-Leitentscheidungen zur Beweislast in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bag-leitentscheidungen-notenstufen` | Wenn es um BAG-Leitentscheidungen zu Notenstufen in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beendigungsgrund-formulieren` | Wenn es um Beendigungsgrund formulieren in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `belastbarkeit-formeln` | Wenn es um Belastbarkeit-Formeln in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `besondere-leistungen-projekte` | Wenn es um Besondere Leistungen und Projekte in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `compliance-integritaet-formeln` | Wenn es um Compliance- und Integritäts-Formeln in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `drift-und-schaufenster-vermeiden` | Wenn es um Drift und Schaufenster vermeiden in Arbeitszeugnisgenerator geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `einfuehrung-mandantenanliegen` | Wenn es um Einführung und Mandantenanliegen in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `engagement-motivation-formeln` | Wenn es um Engagement- und Motivations-Formeln in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `frequenzadverbien-katalog` | Wenn es um Frequenzadverbien-Katalog in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fuehrungskraft-bewertung` | Wenn es um Führungskraft-Bewertung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geheimcodes-vermeiden` | Wenn es um Geheimcodes vermeiden in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kopfdaten-und-aussere-form` | Wenn es um Kopfdaten und äußere Form in Arbeitszeugnisgenerator geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `langzeit-arbeitsverhaeltnis` | Wenn es um Langzeit-Arbeitsverhältnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mehrere-positionen-im-zeugnis` | Wenn es um Mehrere Positionen im Zeugnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `note-1-formeln-leistung` | Wenn es um Note 1 — Formeln Leistung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `note-2-formeln-leistung` | Wenn es um Note 2 — Formeln Leistung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `note-3-formeln-leistung` | Wenn es um Note 3 — Formeln Leistung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `note-4-formeln-leistung` | Wenn es um Note 4 — Formeln Leistung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `note-5-formeln-leistung` | Wenn es um Note 5 — Formeln Leistung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notenwahl-modus` | Wenn es um Notenwahl-Modus in Arbeitszeugnisgenerator geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `rechtlicher-anker-109-gewo` | Wenn es um Rechtlicher Anker — Paragraf 109 GewO und verwandte Normen in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `revision-und-aenderungswuensche` | Wenn es um Revision und Änderungswünsche in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rollen-und-harness-wahl` | Wenn es um Rollen und Harness-Wahl in Arbeitszeugnisgenerator geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `schlussformel-baukasten` | Wenn es um Schlussformel-Baukasten in Arbeitszeugnisgenerator geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `schlussformel-notenwirkung` | Wenn es um Schlussformel-Notenwirkung in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stammdaten-erhebung` | Wenn es um Stammdaten-Erhebung in Arbeitszeugnisgenerator geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `steigerungsadverbien-katalog` | Wenn es um Steigerungsadverbien-Katalog in Arbeitszeugnisgenerator geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `taetigkeitsbeschreibung-erheben` | Wenn es um Tätigkeitsbeschreibung erheben in Arbeitszeugnisgenerator geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `teamarbeit-formeln` | Wenn es um Teamarbeit-Formeln in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `teilzeit-elternzeit-darstellung` | Wenn es um Teilzeit und Elternzeit im Zeugnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verhalten-vorgesetzte-kollegen-kunden` | Wenn es um Verhalten gegenüber Vorgesetzten, Kollegen und Kunden in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wohlwollensgrundsatz-und-wahrheit` | Wenn es um Wohlwollensgrundsatz und Wahrheit in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugnisart-ausbildungszeugnis-16-bbig` | Wenn es um Zeugnisart: Ausbildungszeugnis nach Paragraf 16 BBiG in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugnisart-einfach` | Wenn es um Zeugnisart: Einfaches Arbeitszeugnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugnisart-praktikum` | Wenn es um Zeugnisart: Praktikumszeugnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugnisart-qualifiziert` | Wenn es um Zeugnisart: Qualifiziertes Arbeitszeugnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugnisart-zwischenzeugnis` | Wenn es um Zeugnisart: Zwischenzeugnis in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugnisklarheit-objektiver-empfaengerhorizont` | Wenn es um Zeugnisklarheit — objektiver Empfängerhorizont (BAG 9 AZR 352/04; 9 AZR 386/10) in Arbeitszeugnisgenerator geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
+English: Complete list of all 5 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitszeugnis-erstellen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/arbeitszeugnis-erstellen/SKILL.md) | Erstellt einfache, qualifizierte und Zwischenzeugnisse aus Personalunterlagen. Erfasst tatsächliche Aufgaben, Rollenwechsel und Beurteilungszeiträume und liefert einen individuellen Entwurf mit getrennten Beleglücken. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/arbeitszeugnis-erstellen/SKILL.md) |
+| [`ausbildungs-und-praktikumszeugnis-erstellen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/ausbildungs-und-praktikumszeugnis-erstellen/SKILL.md) | Erstellt Ausbildungszeugnisse und Praktikumsnachweise nach dem tatsächlichen Rechtsstatus. Trennt gesetzlichen Grundinhalt, gewünschte Bewertung und Prüfungszeugnis und formuliert belegte Lernfortschritte. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/ausbildungs-und-praktikumszeugnis-erstellen/SKILL.md) |
+| [`leistung-und-verhalten-formulieren`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/leistung-und-verhalten-formulieren/SKILL.md) | Formuliert belegte Leistungs-, Führungs- und Verhaltensbeurteilungen. Gewichtet Ergebnisse und Gegenbelege, wählt passende Gesamtformeln und erhält sachliche Unterschiede statt alle Sätze auf eine Wunschnote zu bringen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/leistung-und-verhalten-formulieren/SKILL.md) |
+| [`zeugnis-pruefen-und-berichtigen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/zeugnis-pruefen-und-berichtigen/SKILL.md) | Prüft und berichtigt vorhandene Zeugnisse anhand von Wortlaut, Akte und Rechtslage. Liefert gezielte Änderungen oder Anspruchsschreiben und trennt Bewertungsstreit, Maßregelung, Vergleich und Vollstreckung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/zeugnis-pruefen-und-berichtigen/SKILL.md) |
+| [`zeugnisabschluss-und-form-gestalten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/zeugnisabschluss-und-form-gestalten/SKILL.md) | Gestaltet Beendigungssatz und freiwilligen Zeugnisabschluss und prüft Datum, Unterzeichnung sowie Papier- oder elektronische Form. Unterscheidet persönliche Wünsche, vertragliche Zusagen und bereits erteilte Fassungen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=arbeitszeugnisgenerator/skills/zeugnisabschluss-und-form-gestalten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

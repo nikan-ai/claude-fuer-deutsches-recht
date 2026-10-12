@@ -1,6 +1,6 @@
 ---
 name: anlagenverzeichnis-extrakt
-description: "Wenn es um Anlagenverzeichnis-Extrakt in aktenauszug-gerichtsverfahren geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anlagenverzeichnis-Extrakt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anlagenverzeichnis-Extrakt
@@ -28,10 +28,6 @@ description: "Wenn es um Anlagenverzeichnis-Extrakt in aktenauszug-gerichtsverfa
 - § 142 ZPO — Anordnung der Urkundenvorlage durch Gericht (richterliche Vorlageanordnung)
 - § 422 ZPO — Vorlegungspflicht für Urkunden (Parteibesitz)
 - § 432 ZPO — Anforderung von Urkunden durch das Gericht bei Behörden
-
-## Rechtsprechung zu Anlagen und Schriftsatz-Bezugnahmen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anlagenbezeichnungen
 
@@ -109,5 +105,4 @@ Anlage ist im Schriftsatz bezeichnet aber fehlt körperlich in Akte?
 - [ ] Fundstelle (Schriftsatz und Blatt) angegeben?
 - [ ] Vorlageanordnungen nach § 142 ZPO berücksichtigt?
 
-<!-- AUDIT 27.05.2026 -->
-<!-- BGH VI ZR 396/18 (claimed: Fehlende Anlage kann nachgereicht werden, NJW 2020, 404): WRONG_TOPIC. Urteil existiert (dejure.org/2019,38295), behandelt aber Kfz-Unfall Beilackierungskosten/§287 ZPO Schaetzungsermessen, NJW 2020, 236. Kein Bezug zu ZPO-Anlagenrecht. Eintrag geloescht. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

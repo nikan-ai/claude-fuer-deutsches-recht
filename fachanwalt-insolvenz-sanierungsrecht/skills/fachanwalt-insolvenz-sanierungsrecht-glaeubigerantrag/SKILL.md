@@ -1,7 +1,13 @@
 ---
 name: fachanwalt-insolvenz-sanierungsrecht-glaeubigerantrag
-description: "Wenn es um Fachanwalt Insolvenz Sanierungsrecht Glaeubigerantrag in Fachanwalt Insolvenz- und Sanierungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Fachanwalt Insolvenz Sanierungsrecht Gläubigerantrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
+
+# Gläubigerantrag auf Insolvenzeröffnung mit Glaubhaftmachungsbelegen vorbereiten
+
+Lies zuerst Forderungsunterlagen, Titel, Vollstreckungsprotokolle, Zahlungsnachweise und die Korrespondenz zur Schuldnerin. Ordne Forderung, Fälligkeit, Einwendungen und Hinweise auf einen Eröffnungsgrund mit Belegstellen zu. Liefere einen ausformulierten Gläubigerantragsentwurf mit fallbezogener Begründung und Anlagenzuordnung; reichen die Belege nicht, benenne die konkreten Glaubhaftmachungslücken und kennzeichne den Entwurf als noch nicht einreichungsreif.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -37,7 +43,7 @@ description: "Wenn es um Fachanwalt Insolvenz Sanierungsrecht Glaeubigerantrag i
 |---------|----|-------|-------------|
 | BGH | IX ZR 229/22 | 23.01.2025 | Zahlungsunfähigkeit objektiv; streitige nicht titulierte Forderung nach objektiver Rechtslage; vorläufig vollstreckbare fällige Forderung bei eingeleiteter Vollstreckung nominal in die Liquiditätsbilanz; keine Prozessrisikoquote |
 | BGH | IX ZR 129/22 | 18.04.2024 | Liquiditätsstatus muss gegenüber außenstehenden Dritten einzelpostenfähig belegt sein; pauschale Summen können einfach bestritten werden |
-| BGH | II ZR 139/23 | 11.03.2025 | Bestand und Fälligkeit der Forderung richten sich nach materieller Rechtslage |
+| BGH | II ZR 139/23 | 11.03.2025 | Beschluss über eine Nichtzulassungsbeschwerde: materieller Bestand der Verbindlichkeit ist maßgeblich; kein eigenständiges Grundsatzurteil |
 | BGH | IX ZB 38/24 | 22.05.2025 | Vorläufige Einstellung der Vollstreckung kann die Belegwirkung eines Titels für den Insolvenzantrag entkräften |
 
 ## Prüfschema
@@ -214,7 +220,7 @@ Haftungsrisiko: Gläubiger, der mutwillig oder leichtfertig Antrag stellt, hafte
 | Forderung tituliert, Vollstreckung erfolglos | Gläubigerantrag stellen; Indizien für ZU aus Vollstreckungsprotokollen |
 | Mehrere Gläubiger haben gleichartige Situation | Koordination mit anderen Gläubigern vor Antragstellung; Lead-Gläubiger festlegen |
 | Schuldnerin bietet kurzfristige Zahlung | Vergleich mit Zahlungsplan prüfen; § 14-Antrag als Druckmittel wirksam |
-| Schuldnerin versucht § 270b-Schutzschirm | Gläubigerantrag ist weiter zulässig; Schutzschirm schließt Gläubigerantrag nicht aus |
+| Schuldnerin versucht § 270d-Schutzschirm | Gläubigerantrag ist weiter zulässig; Schutzschirm schließt Gläubigerantrag nicht aus |
 | Masselosigkeit befürchtet | Kostenvorschuss § 26 InsO anbieten; sichert Verfahrensdurchführung + Anfechtungsrecht des Verwalters |
 | Gesellschafter der Schuldnerin haften persönlich (GbR, OHG) | Simultane Pfändung Gesellschaftervermögen erwägen |
 | Staatsanwaltschaft ermittelt wegen Insolvenzverschleppung | Gläubigerantrag unabhängig von Strafverfahren; ggf. koordinieren |

@@ -1,6 +1,6 @@
 ---
 name: spezial-zustellung-red-team-und-qualitaetskontrolle
-description: "Wenn es um Zustellung: Red-Team und Qualitätskontrolle in DSA, DMA und Digitalregulierung der EU geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zustellung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Zustellung: Red-Team und Qualitätskontrolle
@@ -80,3 +80,4 @@ Externe Dienstleister als DSA-Vertreter (Spezialagenturen) entlasten organisator
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Paywall-Literatur nur verwerten, wenn sie von der Nutzerin oder dem Nutzer als Text bereitgestellt wurde; dann nicht als frei verifizierte Quelle ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Plattformdienst, GPAI-Modell und konkrete Systemfunktion auseinander. Aus VLOP-Eigenschaft folgt weder eine beliebige KI-VO-Risikoklasse noch dieselbe Zuständigkeit für jede Betreiberfunktion. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

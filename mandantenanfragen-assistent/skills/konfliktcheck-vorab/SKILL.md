@@ -1,6 +1,6 @@
 ---
 name: konfliktcheck-vorab
-description: "Wenn es um Konfliktcheck-Vorab in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Konfliktcheck-Vorab: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Konfliktcheck-Vorab
@@ -26,9 +26,6 @@ Dieser Skill erinnert an die berufsrechtliche Pflicht zum Interessenkonflikt-Che
 2. Ist die anfragende Person oder die Gegenseite ein bekannter oder ehemaliger Mandant (auch Sozietaetsmitglieder prüfen)?
 3. Gibt es Anzeichen für einen Gesamtkonflikt (Sozietaet als Ganzes betroffen, § 3 Abs. 2 BORA)?
 4. Bei Interessenkonflikt: welche Konsequenz (Mandatsablehnug, Hinweis an Suchenden auf andere Kanzlei)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 4 BRAO — Verbot der Vertretung widerstreitender Interessen
@@ -136,3 +133,5 @@ Mit freundlichen Grüßen
 - `folgekorrespondenz-vorbereiten` — enthält Konfliktcheck-Statusfeld
 - `mandatsverhaeltnis-hinweis` — parallel relevanter Disclaimer
 - `vertraulichkeit-erinnerung` — nach erfolgreichem Check und Mandatsbegründung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

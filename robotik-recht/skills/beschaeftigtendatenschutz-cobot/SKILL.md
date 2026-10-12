@@ -1,6 +1,6 @@
 ---
 name: beschaeftigtendatenschutz-cobot
-description: "Wenn es um Beschäftigtendatenschutz bei Cobot-Einsatz in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Beschäftigtendatenschutz bei Cobot-Einsatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beschäftigtendatenschutz bei Cobot-Einsatz
@@ -75,7 +75,7 @@ Cobots erfassen regelmäßig Beschäftigtendaten: Pickrate je Schicht, Standortd
 
 - **Permanent-Video** für Sicherheit – unverhältnismäßig.
 - **Telemetrie an Hersteller** ohne AVV.
-- **Emotionserkennung** als Bedienkomfort – seit 02.02.2025 nach Art. 5 KI-VO verboten am Arbeitsplatz.
+- **Emotionserkennung am Arbeitsplatz:** Artikel 5 Absatz 1 Buchstabe f prüfen; medizinische oder sicherheitsbezogene Zwecke sind eng und anhand der tatsächlichen Funktion zu untersuchen. Ein Werbeetikett „Sicherheit“ genügt nicht. Körperliche Zustände und Emotionen anhand der Definition unterscheiden. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **BV nicht aktualisiert** bei Software-Update mit neuen Funktionen.
 - **Schicht-Performance individualisiert** – Mitbestimmung verletzt.
 
@@ -86,3 +86,4 @@ Cobots erfassen regelmäßig Beschäftigtendaten: Pickrate je Schicht, Standortd
 - VO (EU) 2024/1689 (KI-VO), Art. 5, Art. 26 Abs. 7.
 - EuGH, Urteil vom 30. März 2023, Rs. C-34/21 - Hauptpersonalrat Hessen, ECLI:EU:C:2023:270.
 - Live-Verifikation auf bfdi.bund.de, edpb.europa.eu, eur-lex.europa.eu; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

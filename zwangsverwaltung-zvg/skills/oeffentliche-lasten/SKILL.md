@@ -1,6 +1,6 @@
 ---
 name: oeffentliche-lasten
-description: "Wenn es um Öffentliche Lasten und grundstücksbezogene Abgaben in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Öffentliche Lasten und grundstücksbezogene Abgaben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Öffentliche Lasten und grundstücksbezogene Abgaben
@@ -64,10 +64,6 @@ description: "Wenn es um Öffentliche Lasten und grundstücksbezogene Abgaben in
 - § 3 Abs. 1 Nr. 5 ZwVwV
 - § 15 ZwVwV
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Öffentliche Lasten
 
 § 10 Abs. 1 Nr. 3 ZVG (Vorrang öffentlicher Lasten) → § 12 GrStG (Grundsteuerpflicht) → §§ 10-12 ZwVwV (Ausgaben und Rangfolge) → § 155 ZVG (Verteilungsplan) → § 80 AO (Steuerpflichten bei Vermögensverwaltung)
@@ -90,3 +86,5 @@ description: "Wenn es um Öffentliche Lasten und grundstücksbezogene Abgaben in
 | Erschließungs-/Anliegerbeiträge | gem. Bescheid | [...] | [ ] |
 | Müllgebühren/Straßenreinigung | gem. Bescheid | [...] | [ ] |
 | Kanalgebühren/Wasserversorgung | gem. Bescheid | [...] | [ ] |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

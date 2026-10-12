@@ -1,6 +1,6 @@
 ---
 name: dsfa-update-bei-aenderungen-und-revision
-description: "Wenn es um DSFA Update bei Änderungen und Revision in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DSFA Update bei Änderungen und Revision: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSFA Update bei Änderungen und Revision
@@ -117,5 +117,6 @@ Versionshistorie
 - EDSA-Leitlinien WP 248 rev.01
 - EDSA-Stellungnahme 28/2024 zu KI-Modellen (Update-Trigger)
 - BfDI / Landesbehoerden — Verfahrenshinweise
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

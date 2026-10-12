@@ -1,6 +1,6 @@
 ---
 name: parallelnormen-andere-ai-act-art-vo
-description: "Wenn es um Parallelnormen — alle fünf Berufe in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Parallelnormen Andere Ai Act Art Vo."
+description: "Für Parallelnormen — alle fünf Berufe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: parallelnormen-andere-ai-act-art-vo."
 ---
 
 # Parallelnormen — alle fünf Berufe
@@ -94,10 +94,6 @@ Folgende Felder sollten in jeder Skill-Ausgabe gefüllt sein:
 - Einzelfall-Variante: Mandat oder Amtsgeschäft
 ```
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - § 43a Abs. 2 BRAO / § 43e BRAO — Rechtsanwalt
@@ -135,9 +131,5 @@ Anzuwendende Norm (strengste bei gemischter Sozietät): § [NORM]
 Besonderheiten: [SONDERREGELN]
 ```
 
-<!-- AUDIT 27.05.2026
-Task: Bundle 016 – Halluzinations-Reparatur
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Maßnahme: Eintrag vollständig gelöscht (nicht verifizierbare Entscheidung – Halluzination).
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=08.03.2022&Aktenzeichen=X+ARZ+148/22
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

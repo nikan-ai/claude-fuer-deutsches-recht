@@ -1,6 +1,6 @@
 ---
 name: anlageberatungsfehler-pruefen
-description: "Wenn es um Anlageberatungsfehler Pruefen in Fachanwalt Bank Kapitalmarktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anlageberatungsfehler Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anlageberatungsfehler Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -75,7 +75,7 @@ Vor Versand jeweils Volltext in offener Quelle (juris.bundesgerichtshof.de, deju
 | Gericht | Aktenzeichen | Datum | Kernaussage | Offene Quelle |
 |---|---|---|---|---|
 | BGH XI. ZS | XI ZR 22/24 | 20.5.2025 | Verbraucherdarlehen Immobilien: AGB-Klausel zur Vorfälligkeitsentschädigung muss Berechnung transparent darstellen; intransparente Klausel führt zum Verlust des Anspruchs auf Vorfälligkeitsentschädigung | juris.bundesgerichtshof.de |
-| BGH XI. ZS | XI ZR 133/24 | 21.10.2025 | Referenzzins für Zinsanpassungen in Prämiensparverträgen (Folgeentscheidung) | bundesgerichtshof.de PM Nr. 225/2025 |
+| BGH XI. ZS | XI ZR 133/24 | 21.10.2025 | Pflichtangaben und Effektivzins beim Immobiliar-Verbraucherdarlehen; Bedeutung für Widerrufsfrist und Abwicklung | bundesgerichtshof.de |
 | BGH XI. ZS | XI ZR 553/19 | 2024 | Stärkung der Rechte von Darlehensnehmern bei Altforderungen — Volltext und Datum vor Versand verifizieren | juris.bundesgerichtshof.de |
 
 Hinweis: Es gibt keine Praejudizienbindung im deutschen Recht (Ausnahme § 31 BVerfGG). BGH-Linien werden zitiert als Auslegungshilfe, nicht als verbindliches Recht.
@@ -219,7 +219,7 @@ Kapitalmarktrecht]
 ## Streitwert und Kosten
 
 - **Streitwert**: Schadensumme + entgangene Zinsen = klageweiser Gesamtanspruch.
-- **LG-Zuständigkeit**: ab 5.000 EUR Streitwert § 23 GVG; Bankrecht-Fälle fast immer LG.
+- Sachliche Zuständigkeit: kapitalmarktrechtliche Sonderzuweisungen zuerst prüfen; sonst Amtsgericht bis einschließlich 10.000 Euro, Landgericht darüber. Weder die Beteiligung einer Bank noch die Bezeichnung als Anlagesache begründet für sich allein eine Landgerichtszuständigkeit.
 - **Kostenrisiko**: Bei 100.000 EUR Streitwert: ca. 7.000 EUR Gerichtsgebühren (3 Instanzen); Anwalt nach RVG.
 - **Ombudsstelle**: kostenfrei, hemmt Verjährung; Empfehlung als erste Stufe wenn Bank ggf. verhandlungsbereit.
 
@@ -238,9 +238,6 @@ Kapitalmarktrecht]
 - PRIIPs-VO (EU) Nr. 1286/2014 — KID-Pflicht für verpackte Anlageprodukte
 - Aktuelle Aktenzeichen (Volltext jeweils vor Versand prüfen in juris.bundesgerichtshof.de, dejure.org, openjur.de, curia.europa.eu):
  - BGH XI ZR 22/24, Urt. v. 20.5.2025 — Vorfälligkeitsentschädigung intransparente AGB
- - BGH XI ZR 133/24, Urt. v. 21.10.2025 — Referenzzins Prämiensparvertrag
+ - BGH XI ZR 133/24, Urt. v. 21.10.2025 — Pflichtangaben und Effektivzins beim Immobiliar-Verbraucherdarlehen
  - LG Nürnberg-Fürth, Urt. v. 21.2.2025 — PRIIPs-KID Gesamtrisikoindikator bei offenem Immobilienfonds (nicht rechtskräftig; instanzgerichtlich)
 - Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; nicht aus Modellwissen.
-
-<!-- AUDIT 27.05.2026 bundle_021
--->

@@ -1,6 +1,6 @@
 ---
 name: methodenlehre-zivilrecht
-description: "Wenn es um Methodenlehre — Zivilrecht in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Methodenlehre — Zivilrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Methodenlehre — Zivilrecht
@@ -18,9 +18,6 @@ description: "Wenn es um Methodenlehre — Zivilrecht in Jurastudium geht: prüf
 2. Gibt es ein konkretes Fallbeispiel oder wird die Methodik abstrakt geuebt?
 3. Ist die Konkurrenz-Frage relevant (z.B. § 823 BGB neben vertraglichem Anspruch)?
 4. Geht es um objektive oder subjektive Auslegung einer Willenserklärung?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 133, 157 BGB — Auslegungsmethoden: Grundlage der zivilrechtlichen Methodenlehre
@@ -107,3 +104,5 @@ Prüfungsschritte:
 
 - Sie schreibt keine Lösungsskizze.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

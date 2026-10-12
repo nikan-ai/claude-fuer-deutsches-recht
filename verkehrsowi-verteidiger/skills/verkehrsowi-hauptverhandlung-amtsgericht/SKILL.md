@@ -1,6 +1,6 @@
 ---
 name: verkehrsowi-hauptverhandlung-amtsgericht
-description: "Wenn es um Hauptverhandlung OWi am Amtsgericht in VerkehrsOWi-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Hauptverhandlung OWi am Amtsgericht: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Hauptverhandlung OWi am Amtsgericht
@@ -12,7 +12,7 @@ Hauptverhandlung in OWi-Sache am Amtsgericht vorbereiten und führen: Termin nac
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen, § 31 OWiG Verjährung 3/6 Monate, § 26 StVG Fahrverbot 4 Monate, § 79 OWiG Rechtsbeschwerde 1 Woche.
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
 - Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -35,10 +35,6 @@ Hauptverhandlung in OWi-Sache am Amtsgericht vorbereiten und führen: Termin nac
 - **§ 17 OWiG** — Geldbusse: Zubemassung nach Schwere und Einkommen
 - **§ 79 OWiG** — Rechtsbeschwerde: zulässig bei Geldbusse > 250 EUR oder Fahrverbot
 - **§ 80 OWiG** — Zulassung der Rechtsbeschwerde bei grundsaetzlicher Bedeutung
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorbererungs-Checkliste (1 Woche vor HV)
 
@@ -124,3 +120,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - Entbindungsantrag rechtzeitig (vor HV) stellen.
 - Rechtsbeschwerde nur bei Geldbusse > 250 EUR oder Fahrverbot; sonst kein Rechtsmittel.
 - Anwaltliche Endkontrolle bei Plaedoyer und Antraegen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

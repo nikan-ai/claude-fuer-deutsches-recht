@@ -1,6 +1,6 @@
 ---
 name: aufstellungsbeschluss-bekanntmachung
-description: "Wenn es um Aufstellungsbeschluss und Bekanntmachung in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufstellungsbeschluss und Bekanntmachung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aufstellungsbeschluss und Bekanntmachung
@@ -143,4 +143,4 @@ description: "Wenn es um Aufstellungsbeschluss und Bekanntmachung in Normenkontr
 
 ## Aktuelle Rechtsprechung — Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

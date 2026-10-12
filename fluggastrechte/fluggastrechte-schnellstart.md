@@ -1,69 +1,58 @@
-Wenn du das hier öffnest, willst du Unfall, Bußgeld, Fahrerlaubnis, Reisendenrechte oder Regulierung schnell nach Haftung, Beweis und Frist sortieren.
+# 1. Ausgleich und Mehrkosten nach Flugstörung verlangen
 
-# Fluggastrechte — Schnellstart
+Berechne nach Annullierung, Nichtbeförderung oder erheblicher Ankunftsverspätung den Ausgleich je Fluggast und prüfe Erstattung und belegte Mehrkosten gesondert. Entkräfte oder bestätige die konkreten Ablehnungsgründe des ausführenden Luftfahrtunternehmens und formuliere das verlangte Forderungsschreiben oder die Beratung.
 
-Ziel: Fluggastrechte selber geltend machen nach VO (EG) Nr. 261/2004. Tickets erfassen, Annullierung oder Verspätung prüfen, außergewoehnliche Umstände, Distanz, Ausgleich, Forderungsschreiben, Mahnung und Klage. Rechtsprechung nur nach Live-Verifikation. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Maßgeblich ist die am Reisetag anwendbare VO (EG) Nr. 261/2004. Reformvorschläge zu anderen Verspätungsschwellen nicht als geltendes Recht behandeln.
 
-## 1. Schnellmodus
+## 1.1. Buchung und Auftrag auswerten
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ohne Eingabe fragen: „Möchten Sie Ausgleich berechnen, eine Airline-Ablehnung beantworten oder Hotel- und Ersatzflugkosten verlangen?“ Dateien ohne Auftrag zunächst still lesen, dann nur passende Wege anbieten, etwa Forderung oder Antwort auf den Wetter-Einwand. Keine Materialzusammenfassung. Bei klarem Auftrag direkt schreiben, ohne Pflichtdialog. Bekannte Flugdaten nicht erneut erfragen; nur entscheidende Lücken klären. Der Text benötigt keine weiteren Plugin-Dateien.
 
-## 2. Direktstart
+Frage nach entscheidenden fehlenden Nachweisen auch dann, wenn Dateien vorliegen. Eine planmäßige Landezeit belegt nicht die tatsächliche Ankunft am Endziel. Liefere die bereits begründbaren Teile vorläufig, ohne einen offenen Zeitpunkt als Tatsache einzusetzen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2. Fehlende Angaben und Fortsetzung
 
-## 3. Kernroute
+Fehlt bei Verspätung die tatsächliche Ankunftszeit, frage nach Mitteilungen, Fotos oder konkreten Wahrnehmungen zur Türöffnung. Gleiche die Antwort mit dem Flugverlauf ab, berechne den Zeitverlust und die betroffene Ausgleichsposition neu und schreibe die Forderung oder Erwiderung fertig. Bei Annullierung kläre den Zugang der Mitteilung sowie angebotene Ersatzzeiten. Ergibt sich daraus eine neue entscheidende Unklarheit, frage dazu gezielt nach.
 
-1. Ereignis und Frist: Unfall, Messung, Bescheid, Flug, Bahnreise, Ablehnung und Zugang kalendarisch sichern.
-2. Haftung und Anspruch: Beteiligte, Halter, Fahrer, Versicherer, Beförderer, Ursache, Quote und Anspruchsziel trennen.
-3. Schaden und Beleg: Reparatur, Mietwagen, Nutzungsausfall, Gutachten, Haushaltsführung, Personenschaden oder Ausgleichsbetrag nachrechnen.
-4. Verteidigung: Messakte, Bedienungsanleitung, Rohdaten, Zeugen, Anscheinsbeweis, außergewöhnlicher Umstand oder Mitverschulden prüfen.
-5. Arbeitsprodukt: Regulierungsschreiben, Einspruch, Klage, Anspruchstabelle, Vergleich oder Mandantenbrief erstellen.
-6. Flug: Massenklage RDG: Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren.
+Bei außergewöhnlichen Umständen Ereignis, Flugbezug und Gegenmaßnahmen belegen lassen. EuG, 04.03.2026 – T-656/24, laut amtlicher PM 26/26, S. 1–2: Eigenständiges, nicht zwingendes Warten auf verspätete Passagiere kann als entscheidende Ursache die Kausalität zum früheren Umlauf unterbrechen. Rotationszeiten und Wartegrund nachfordern, dann den Einwand neu beurteilen. Keine automatische Entlastung; Betreuung bleibt separat.
 
-## 4. Fallkarte
+## 1.3. Störung, Anspruch und Betrag
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | StVG Paragraf 7, Paragraf 17 und Paragraf 18; BGB Paragraf 249, Paragraf 251 und Paragraf 253; PflVG Paragraf 115 |
-| Rechtsprechung | EuGH C-204/08 (Rehder); EuGH, Urt. v. 19.11.2009, C-402/07 und C-432/07 (Sturgeon u.a.) — |
-| Tatbestand | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren |
-| Beweislast | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände |
-| Rechtsfolge | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+1. Buchung und Reichweite: Fluggast, Buchungscode, ausführendes Unternehmen, Abflug, Ziel, einheitliche Buchung und Anwendungsbereich sichern.
+2. Ereignis und Zeit: Nichtbeförderung, Annullierung oder Verspätung trennen und tatsächliche Öffnung der Flugzeugtür am Endziel belegen.
+3. Anspruch: Entfernung zwischen Ausgangs- und Endziel bei einheitlicher Buchung, Ankunftsverlust, Vorabinformation und Ersatzbeförderung prüfen. Ausgleich pro anspruchsberechtigter Person rechnen; Ticketpreis ist nicht seine Bemessungsgrundlage. Erstattung und Betreuung separat ausweisen, Rückzahlungen nur der passenden Position zuordnen.
+4. Entlastung: behauptetes Ereignis, externe Beherrschbarkeit, Ursächlichkeit und jede konkret zumutbare Maßnahme des Unternehmens prüfen.
+5. Verfahren: Anspruchsgegner, Abtretung, Verjährung oder Ausschlussfrist, Gerichtsstand, Belege und Zustellung ordnen.
 
-## 5. Einsatzfelder
+## 1.4. Beweis und Quellen
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Flug: Massenklage RDG | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fluggastrechte: Erstprüfung, Rollenklärung und Mandatsziel | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Forderungsschreiben — Mahnung (zweite Stufe) | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen- und Risikoampel | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Geltend: Fristen, Form, Zuständigkeit und Rechtsweg | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klage: Mandantenkommunikation und Entscheidungsvorlage | Ereignis, Frist, Haftungsquote, Beweismittel, Schaden, Einwand und Zahlungs- oder Einspruchsziel sofort sortieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Ordne streitige Tatsachen und Nachweise dem jeweiligen Anspruch zu. Trenne Angaben, Bestätigungen und eigene Berechnungen. Bei mindestens drei Stunden Ankunftsverlust gilt EuGH, Urteil vom 19.11.2009, C-402/07 und C-432/07, Sturgeon, [Rn. 61–63](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62007CJ0402): Ausgleich nach Artikel 7 grundsätzlich auch bei Verspätung, aber Entlastung und zulässige Kürzung gesondert prüfen. Der Flug wird deshalb nicht rechtlich zur Annullierung. Quellenstatus getrennt vom Forderungstext halten.
 
-## 6. Anker
+## 1.5. Folgeantwort verarbeiten
 
-- StVG Paragraf 7, Paragraf 17 und Paragraf 18: Halter- und Fahrerhaftung sowie Haftungsverteilung.
-- BGB Paragraf 249, Paragraf 251 und Paragraf 253: Naturalrestitution, Geldersatz und Schmerzensgeld.
-- PflVG Paragraf 115: Direktanspruch gegen den Haftpflichtversicherer.
-- OWiG Paragraf 66 und Paragraf 67: Bußgeldbescheid und Einspruch.
-- Paragraf 29 ZPO (Erfüllungsort): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 286 Abs. 1 BGB — Verzug bei fruchtlosem Fristablauf: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 288 Abs. 1 BGB — Verzugszinsen 5 Prozentpunkte über Basiszinssatz: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 195 BGB — Regelmäßige Verjährungsfrist drei Jahre: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- EuGH C-204/08 (Rehder)
-- EuGH, Urt. v. 19.11.2009, C-402/07 und C-432/07 (Sturgeon u.a.) — 3-Stunden-Schwelle
-- EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — techn. Defekt kein außergewöhnlicher Umstand
+„Die Airline hat 180 Euro gezahlt“ führt zur Frage nach dem Zahlungszweck, sofern unbekannt: Ticketpreis, Ausgleich oder Kostenersatz? Danach nur die passende Position kürzen und den offenen Betrag ins fertige Schreiben übernehmen. „Es war ein eigener Tarifstreik“ verlangt eine andere Entlastungsprüfung als ein Flughafenstreik; keine identische Standarderwiderung.
 
-## 7. Antwortform
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Regulierungstabelle: Position, Betrag, Beleg, Rechtsgrund, Einwand, Risiko und Zahlungsziel; Bußgeld-Einspruch: Bescheid, Zustellung, Messverfahren, Akteneinsicht, konkreter Angriff und Frist.
+## 1.6. Ausgleichsstufen und Entlastung
 
-## 8. Stop
+- VO (EG) 261/2004 Artikel 3: räumlicher und persönlicher Anwendungsbereich sowie ausführendes Luftfahrtunternehmen.
+- VO (EG) 261/2004 Artikel 4 bis Artikel 7: Nichtbeförderung, Annullierung, Verspätung und Ausgleichsleistung.
+- VO (EG) 261/2004 Artikel 5 Absatz 3: außergewöhnliche Umstände und Nachweis aller zumutbaren Maßnahmen.
+- VO (EG) 261/2004 Artikel 8 und Artikel 9: Erstattung, anderweitige Beförderung und Betreuungsleistungen.
+- [VO 261/2004, Artikel 5 und 7 bis 9](https://eur-lex.europa.eu/eli/reg/2004/261/oj/deu): Eine nachgewiesene Ausnahme vom Ausgleich beseitigt nicht automatisch Betreuung und Beförderungswahlrechte. Für eine Annullierung vor weniger als sieben Tagen Mitteilung und konkrete Zeiten des Ersatzangebots prüfen.
+- Nach Artikel 7 Absatz 1: 250 Euro bis 1.500 km; 400 Euro für innergemeinschaftliche Flüge über 1.500 km und sonstige Flüge zwischen 1.500 und 3.500 km; sonst 600 Euro. Kürzung nach Absatz 2 separat prüfen. Bei zwei Personen, 880 km und fünf Stunden späterem Ersatzflug nach kurzfristiger Annullierung ohne Ausnahme: 500 Euro, unabhängig vom Ticketpreis.
+- Paragrafen 286 und 288 Absatz 1 BGB: Mahnung, Zugang, Fälligkeit und Verzugsbeginn konkret prüfen; fünf Prozentpunkte über Basiszinssatz sind kein pauschaler Zuschlag auf jede Forderung.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Bei technischem Defekt EuGH, Urteil vom 22.12.2008, C-549/07, Wallentin-Hermann, [Rn. 23–27, 39–43](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=ecli:ECLI:EU:C:2008:771), anwenden: Übliche Betriebs- und Wartungsprobleme sind nicht schon außergewöhnlich. Ein externer verdeckter Fabrikationsfehler kann anders liegen, verlangt aber konkreten Nachweis; selbst dann sind zumutbare Abwendungsmaßnahmen zu belegen. Mindestwartung allein genügt nicht. Keine pauschale Entlastung aus dem Wort „Sicherheit“, aber auch keine schrankenlose Pflicht zu wirtschaftlich untragbaren Maßnahmen.
+
+## 1.7. Antwortform
+
+Liefere das bestellte Forderungsschreiben, die Erwiderung oder Beratung in vollständigen Sätzen mit konkreten Einzelbeträgen und Begründung. Eine Flugübersicht nur ergänzen, wenn mehrere Segmente oder Reisende sie sinnvoll machen. Prüfe vor Abschluss neue Angaben, Zahlungen und Kostenbelege gegen die Rechnung; eine Nachforderung ist kein Endprodukt. Nach Eingang an der betroffenen Stelle bis zur fertigen Fassung fortsetzen.
+
+## 1.8. Grenzen
+
+Bei unklarer Ankunft belegte Zeitspanne und deren Betragsfolgen zeigen. Airline statt bloßem Buchungsportal als Anspruchsgegner prüfen; gegen eine Abtretung nicht nochmals im eigenen Namen verfügen. Werkstatt optional. Keine Buchung, Abtretung, Klage oder Forderung selbst versenden. Ausformulierte Forderung mit Einzelbeträgen, amtlicher Quellenprüfung, dezimaler Gliederung und Markdown-Exporthinweis Times New Roman 11 pt.
+
+## 1.9. Technische Grenzen
+
+Ohne Datei- oder Quellenzugriff die konkrete Lücke in einer getrennten Arbeitsnotiz benennen; ohne Export vollständigen Text liefern. Ohne weitere Skills hier weiterarbeiten und bei Werkzeugfehlern einen begründeten Ersatzweg versuchen. Ungelesene Unterlagen nicht als geprüft bezeichnen und keinen erfolgreichen Versand oder Dateiexport vortäuschen.

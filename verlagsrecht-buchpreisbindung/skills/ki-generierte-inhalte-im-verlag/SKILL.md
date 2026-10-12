@@ -1,6 +1,6 @@
 ---
 name: ki-generierte-inhalte-im-verlag
-description: "Wenn es um Verl-019 · digitale Werkzeuge-generierte Inhalte im Verlag in Verlagsrecht und Buchpreisbindung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verl-019 · digitale Werkzeuge-generierte Inhalte im Verlag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verl-019 · KI-generierte Inhalte im Verlag
@@ -46,7 +46,9 @@ KI-Werkzeuge (GPT-4, Claude, Midjourney, DeepL etc.) werden zunehmend in der Ver
 
 ## Kennzeichnungspflichten
 
-### EU AI Act Art. 50 (ab 2025/2026)
+### Artikel 50 KI-Verordnung: Funktion, Rolle und Übergang prüfen
+
+Artikel 50 trennt Anbieter- und Betreiberpflichten: Interaktionsinformation, technische Kennzeichnung synthetischer Ausgaben, Information bei Emotions-/Biometriekategorisierung sowie Offenlegung bei Deepfakes und Texten zu Angelegenheiten öffentlichen Interesses. Die redaktionelle Ausnahme des Absatzes 4 betrifft den dortigen Textfall, nicht pauschal Deepfakes. Artikel 113 nennt grundsätzlich den 02.08.2026; Artikel 111 Absatz 4 verschiebt nur Artikel 50 Absatz 2 für vor diesem Datum in Verkehr gebrachte generative Systeme auf den 02.12.2026. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Betreiber von KI-Systemen, die Texte, Bilder oder audiovisuelle Inhalte erzeugen, müssen diese als **KI-generiert kennzeichnen**.
 - Machine-readable Marking: KI-generierte Inhalte sollen mit maschinenlesbaren Markierungen versehen werden (Watermarking).
 - Ausnahmen: Wenn Inhalte redaktionell bearbeitet wurden und die KI nur Hilfsmittel war (keine automatische Erzeugung).
@@ -95,7 +97,7 @@ KI-Werkzeuge (GPT-4, Claude, Midjourney, DeepL etc.) werden zunehmend in der Ver
 
 ## Typische Fallen
 
-- **KI-Bild ohne Kennzeichnung**: Covergestaltung mit KI-Bild; Leser beschwert sich über fehlende Transparenz; Abmahnpotenzial nach EU AI Act.
+- **KI-Cover:** Fehlendes Wasserzeichen allein belegt keinen Verstoß des Verlags. Technische Anbieterkennzeichnung nach Artikel 50 Absatz 2, Betreiber-Offenlegung bei einem tatsächlichen Deepfake nach Absatz 4 und angepasste Form für künstlerische Werke unterscheiden. Wettbewerbsrechtliche Folgen gesondert begründen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Autorenvertrag ohne KI-Klausel**: Autor liefert zu 80 % KI-Text; Verlag entdeckt dies erst im Lektorat; kein vertragliches Instrument.
 - **TDM-Opt-Out vergessen**: Verlag hat keinen robots.txt für KI-Abrufwerkzeuge → Texte werden für Training genutzt, ohne dass Verlag es merkt.
 - **DeepL-Übersetzung als Übersetzerwerk deklariert**: KI-Übersetzung ohne menschliche Bearbeitung hat kein Urheberrecht; Übersetzer-Nennung ist irreführend.
@@ -133,3 +135,4 @@ KI-Werkzeuge (GPT-4, Claude, Midjourney, DeepL etc.) werden zunehmend in der Ver
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie lektorierende Bearbeitung, synthetische Beiträge und Veröffentlichungsverantwortung. Prüfen Sie die Ausnahme für redaktionell kontrollierte Informationstexte anhand des tatsächlichen Ablaufs, ohne sie auf Bilder zu übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

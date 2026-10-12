@@ -1,6 +1,6 @@
 ---
 name: assistierter-suizid-beratung
-description: "Wenn es um Assistierter Suizid Beratung in Fachanwalt Medizinrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Assistierter Suizid Beratung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Assistierter Suizid Beratung: moderner Medizinrechts-Skill für Ärztliche Beratung, Freiverantwortlichkeit, Berufsrecht, Strafrechtsgrenzen und Dokumentation
@@ -59,24 +59,3 @@ Vor tragenden Aussagen live prüfen: amtliche Normfassung, zuständige Behörde/
 - BGB §§ 630a ff.: https://www.gesetze-im-internet.de/bgb/__630a.html
 - BGB § 630h: https://www.gesetze-im-internet.de/bgb/__630h.html
 - Product Liability Directive EU 2024/2853: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 86b SGG
-- § 80 VwGO
-- § 4b AMG
-- § 87 SGG
-- § 51 SGG
-- § 84 SGG
-- § 70 VwGO
-- § 74 VwGO
-- § 203 StGB
-- § 3a RVG
-- § 229 StGB
-- § 78 StGB
-
-### Leitentscheidungen
-
-- BGH VI ZR 323/04

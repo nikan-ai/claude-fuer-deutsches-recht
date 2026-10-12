@@ -1,6 +1,6 @@
 ---
 name: kuendigung-wegen-nichtausuebung
-description: "Wenn es um Verl-045 · Kündigung wegen Nichtausübung (UrhG Paragraf 41) in Verlagsrecht und Buchpreisbindung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verl-045 · Kündigung wegen Nichtausübung (UrhG Paragraf 41): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verl-045 · Kündigung wegen Nichtausübung (UrhG § 41)
@@ -123,7 +123,7 @@ Der **Rückruf wegen Nichtausübung** nach UrhG § 41 ist das wichtigste gesetzl
 
 - UrhG § 41: https://dejure.org/gesetze/UrhG/41.html
 - DSM-RL Art. 22: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0790
-- § 41 UrhG / Rückruf wegen Nichtausübung nicht mit ungeprüften Fundstellen blind belegen. Als frei prüfbarer Anker kommt BGH, Urteil vom 26.03.2009 - I ZR 153/06 (Reifen Progressiv) in Betracht; vor Ausgabe stets Sachverhalt, Datum, Aktenzeichen und Quelle live verifizieren.
+- BGH, Urteil vom 26.03.2009 - I ZR 153/06 (Reifen Progressiv): Ein vom ausschließlichen Nutzungsrecht abgeleitetes einfaches Nutzungsrecht erlischt nicht allein deshalb, weil das ausschließliche Recht nach Paragraph 41 UrhG wirksam zurückgerufen wird. Den Anker nur für die Wirkung auf abgeleitete Rechte verwenden, nicht als Ersatz für Rückruffrist, Nachfrist und Ausübungsprüfung.
 - VerlG § 17: https://www.gesetze-im-internet.de/verlg/__17.html
 - OLG München (Rückruf E-Book-Recht, 2019): https://openjur.de
 
@@ -142,4 +142,3 @@ Der **Rückruf wegen Nichtausübung** nach UrhG § 41 ist das wichtigste gesetzl
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-

@@ -1,6 +1,6 @@
 ---
 name: konsistenzpruefung-marktdefinition
-description: "Wenn es um Konsistenzprüfung der Marktdefinition in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Konsistenzprüfung der Marktdefinition: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Konsistenzprüfung der Marktdefinition
@@ -76,4 +76,4 @@ Konsistenz: **hoch / mittel / gering** — mit Hauptwiderspruch in einem Satz.
 
 ## Leitentscheidungen Konsistenzpruefung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

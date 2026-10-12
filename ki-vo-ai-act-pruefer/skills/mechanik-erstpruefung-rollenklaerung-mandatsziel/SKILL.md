@@ -1,6 +1,6 @@
 ---
 name: mechanik-erstpruefung-rollenklaerung-mandatsziel
-description: "Wenn es um Mechanik: Erstprüfung, Rollenklärung und Mandatsziel in europäischem Technikregulierungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Mechanik Erstpruefung Rollenklaerung Mandatsziel; Arbeitsfeld: europäischem Technikregulierungsrecht."
+description: "Für Mechanik: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: europäischem Technikregulierungsrecht. Route: mechanik-erstpruefung-rollenklaerung-mandatsziel."
 ---
 
 # Mechanik: Erstprüfung, Rollenklärung und Mandatsziel
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Spezialwissen: Mechanik: Erstprüfung, Rollenklärung und Mandatsziel
 - **Normen-/Quellenanker:** KI, VO, EU, GPAI, Art. 43, CE, DB.
@@ -51,8 +49,8 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Art. 5 Verbote**: gilt ab **02.02.2025**.
 - **GPAI-Pflichten (Art. 51-55)** und **Governance (Art. 57 ff.)**: gilt ab **02.08.2025**.
 - **Art. 50 Transparenzpflichten** und nicht verschobene allgemeine Pflichten: ab **02.08.2026** einplanen.
-- **Anhang III Hochrisiko**: nach aktuellem Digital-Omnibus-Zeitstrahl spätestens ab **02.12.2027** einplanen; endgültigen Normtext und Kommissionsstand prüfen.
-- **Hochrisiko unter Anhang I (Sicherheitsbauteile bestehender Produktrichtlinien)**: nach aktuellem Digital-Omnibus-Zeitstrahl spätestens ab **02.08.2028** einplanen; sektorale Produktregeln gesondert prüfen.
+- **Anhang III Hochrisiko**: nach Artikel 113 in der Fassung 2026/1744 ab **02.12.2027** einplanen; Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 und Bestand nach Artikel 111 getrennt prüfen.
+- **Hochrisiko unter Anhang I (Sicherheitsbauteile bestehender Produktrichtlinien)**: nach Artikel 113 in der Fassung 2026/1744 ab **02.08.2028** einplanen; sektorale Produktregeln gesondert prüfen. Die verschobenen Pflichten betreffen Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5; Bestand nach Artikel 111 getrennt prüfen.
 
 ## Mandatsziel präzisieren
 - **Compliance-Roadmap** für Anbieter: typischerweise 6-18 Monate je nach Risikoklasse.

@@ -1,6 +1,6 @@
 ---
 name: aktenintake-zivil
-description: "Wenn es um Aktenintake Zivilprozess in Urteilsbauer und Relationsmacher geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Aktenintake Zivilprozess: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aktenintake Zivilprozess
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Triage zu Beginn
 
 1. Welche Schriftsätze liegen vor — Klagschrift, Klageerwiderung, Replik, Duplik, Nachreichungen?
@@ -27,10 +25,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 3. Gibt es Beweisbeschlüsse oder Protokolle früherer Verhandlungen?
 4. Liegen Sachverständigengutachten oder Zeugenaussagen vor, die auszuwerten sind?
 5. Sind Erledigungserklärungen, Widerklagen oder Aufrechnung im Akt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -151,27 +145,9 @@ Als Berichterstatter:
 - `tatbestand-zivil-schreiben` übernimmt unstreitige Tatsachen
 - `beschluss-bauen-zpo` bei Hinweisbedarf oder Beweisbeschluss
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 38 FamFG
-- § 13 GVG
-- § 137 FamFG
-- Art. 3 DSGVO
-- Art. 9 DSGVO
-- Art. 6 DSGVO
-- § 70 VwGO
-- § 123 VwGO
-- § 71 GVG
-- § 63 GKG
-- Art. 103 GG
-- § 111 FamFG
+Für die Relation gelten keine universellen materiell-rechtlichen Leitentscheidungen. Zuerst Anspruchsgrundlage und Einwendungen des konkreten Streitstoffs bestimmen; pro Rechtssatz nur eine Entscheidung mit Gericht, Datum, Aktenzeichen, tragender Aussage und Quelle verwenden. Verfahrensrechtlich insbesondere Paragraf 138, Paragraf 139, Paragraf 253 Absatz 2 Nummer 2, Paragraf 286, Paragraf 296 und Paragraf 308 ZPO fallbezogen prüfen.
 
-### Leitentscheidungen
-
-- BGH VI ZR 96/11
-- BGH VI ZR 113/17
-- BGH VII ZR 213/10
-- BGH VI ZR 39/20
-- BGH VI ZR 40/20
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

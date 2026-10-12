@@ -1,6 +1,6 @@
 ---
 name: redteam-qualitygate
-description: "Wenn es um Red-Team Qualitygate in anwaltlichem Berufsrecht und Vertragsprüfung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung."
 ---
 
 # Red-Team Qualitygate
@@ -44,3 +44,4 @@ Dieser Arbeitsgang macht **Red-Team Qualitygate** im Bereich **berufsrecht-ki-ve
 
 ## Praxis-Tipp
 Die zentrale Empfehlung für KI-Vertragsprüfung bei Berufsträgern: Kategorisiere zuerst die Datenarten (a) keine Mandantendaten, b) anonymisierte/pseudonymisierte Mandantendaten, c) identifizierbare Mandantendaten). Für (c) reicht Standard-AVV nicht — es braucht zusätzlich die Mitwirkenden-Verpflichtung nach § 203 Abs. 4 StGB und ggf. Mandanteneinwilligung. Default für (c) bei US-Cloud: nicht freigeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

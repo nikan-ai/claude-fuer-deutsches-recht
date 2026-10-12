@@ -1,6 +1,6 @@
 ---
 name: betreuungsgericht-kommunikation-fuer-angehoerige
-description: "Wenn es um Betreuungsgericht-Kommunikation für Angehörige in Betreuungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Betreuungsgericht Kommunikation für Angehoerige; Arbeitsfeld: Betreuungsrecht."
+description: "Für Betreuungsgericht-Kommunikation für Angehörige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: betreuungsgericht-kommunikation-fuer-angehoerige."
 ---
 
 # Betreuungsgericht-Kommunikation für Angehörige
@@ -29,6 +29,10 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - Tragende Normen verifizieren: BtOG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## 1. Anhörung und begrenzte Beschwerde
+
+Bei Beschwerden zuerst das angegriffene Entscheidungsstück feststellen: Eine ausdrücklich auf die Betreuerauswahl beschränkte Beschwerde eröffnet keine spätere Rechtsbeschwerde gegen die Betreuung als solche. BGH, Beschluss vom 29.07.2026 – XII ZB 171/26, [Rn. 5–11](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2026/XII_ZB_171-26.pdf?__blob=publicationFile&v=1), verlangt außerdem rechtzeitige Benachrichtigung und Teilnahmemöglichkeit des bestellten Verfahrenspflegers an der Anhörung. Ein später beauftragter Rechtsanwalt beendet dessen Bestellung nicht automatisch. Ladung, Anhörungsprotokoll und etwaigen Aufhebungsbeschluss anfordern; danach konkret die Verfahrensrüge und den zulässigen Beschwerdeumfang ausarbeiten. Die Zurückverweisung zur Betreuerauswahl bedeutet keine Aufhebung der Betreuung insgesamt.
 
 ## Grundton
 

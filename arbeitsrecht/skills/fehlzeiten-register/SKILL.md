@@ -1,6 +1,6 @@
 ---
 name: fehlzeiten-register
-description: "Wenn es um Fehlzeiten Register in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fehlzeiten Register: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Überprüft offene Abwesenheiten und Fristen – Urlaubsanspruch (BUrlG), Entgeltfortzahlung (EFZG), Mutterschutz (MuSchG), Elternzeit (BEEG)
@@ -20,8 +20,6 @@ description: "Wenn es um Fehlzeiten Register in Arbeitsrecht geht: prüft Frist,
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `/arbeitsrecht:fehlzeiten-register` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -41,14 +39,12 @@ Falls HRIS verbunden: Abwesenheitsdaten abrufen. Falls nicht: `urlaubsregister.y
 
 **A – Urlaub (BUrlG):**
 - Gesetzlicher Mindesturlaub: 20 Werktage (Paragraf 3 Abs. 1 BUrlG bei 5-Tage-Woche) bzw. 24 Werktage (Paragraf 3 Abs. 1 BUrlG bei 6-Tage-Woche)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Wartefrist:** Voller Urlaubsanspruch erst nach 6-monatigem Bestehen (Paragraf 4 BUrlG); vorher anteiliger Anspruch (Paragraf 5 BUrlG)
 - **Urlaubsabgeltung** bei Beendigung des Arbeitsverhältnisses (Paragraf 7 Abs. 4 BUrlG); steuer- und sozialversicherungspflichtig
 
 **B – Entgeltfortzahlung (EFZG):**
 - 6-Wochen-Frist pro Erkrankung (Paragraf 3 Abs. 1 EFZG)
 - **Beginn neuer Anspruch bei gleicher Krankheit:** Erst nach 6-monatiger Unterbrechung oder 12-Monats-Zeitraum seit letzter AU (Paragraf 3 Abs. 1 S. 2 EFZG)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Wiedereingliederung (stufenweise):** Paragraf 74 SGB V, Paragraf 28 SGB IX; Anspruch auf Zustimmung zur stufenweisen Wiedereingliederung
 
 **C – Mutterschutz (MuSchG):**
@@ -80,8 +76,6 @@ Zitierstandard: `../references/zitierweise.md`. Methodik: `../references/methodi
 
 Wesentliche Quellen:
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 ## Beispiele
 
@@ -109,7 +103,8 @@ Aktive Abwesenheiten: 8 gesamt | Handlungsbedarf: 2
 
 ## Risiken / typische Fehler
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **BEEG-Anmeldefrist verpasst** – Elternzeit kann nicht rückwirkend genommen werden; späteste Anmeldung 7 Wochen vor Beginn.
 - **BEM-Pflicht vor Kündigung** – ohne BEM erhöhte Darlegungslast des Arbeitgebers bei krankheitsbedingter Kündigung.
 - **Mutterschutzfristen falsch berechnet** – bei Mehrlingsbirth oder Frühgeburt gelten abweichende Schutzfristen (Paragraf 3 Abs. 2 S. 2 MuSchG: 12 Wochen statt 8 Wochen).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

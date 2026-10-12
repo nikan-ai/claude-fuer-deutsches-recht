@@ -1,6 +1,6 @@
 ---
 name: klauselvorschlaege
-description: "Wenn es um Klauselvorschläge — Bausteine in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Klauselvorschlaege."
+description: "Für Klauselvorschläge — Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: klauselvorschlaege."
 ---
 
 # Klauselvorschläge — Bausteine
@@ -107,10 +107,6 @@ Anlage 1 zum Vertrag — Strafrechtliche Belehrung
 - Beim Subunternehmer-Zustimmungsvorbehalt (Baustein 4) wehren sich Anbieter, weil ihre Lieferkette dann statisch wird; ein Widerspruchsrecht mit kurzer Frist ist ein realistischer Kompromiss.
 - "no training" (Baustein 5) ist heute Marktstandard und sollte verbindlich werden, nicht nur Default-Setting in einem Account.
 
-## Aktuelle Rechtsprechung zur AGB-Kontrolle
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - §§ 305–310 BGB — AGB-Kontrolle; § 307 BGB (Unangemessene Benachteiligung)
@@ -159,3 +155,4 @@ Bei Nichtunterzeichnung bis [FRIST]: Vertragskuendigung zum [DATUM].
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

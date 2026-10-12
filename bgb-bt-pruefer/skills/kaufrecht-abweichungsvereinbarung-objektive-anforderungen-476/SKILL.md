@@ -1,13 +1,13 @@
 ---
 name: kaufrecht-abweichungsvereinbarung-objektive-anforderungen-476
-description: "Wenn es um Kaufrecht: Abweichung von objektiven Anforderungen Paragraf 476 BGB in BGB BT Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Kaufrecht: Abweichung von objektiven Anforderungen Paragraf 476 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kaufrecht: Abweichung von objektiven Anforderungen § 476 BGB
 
 ## Aufgabe
 
-Schwerpunkt: keine versteckte AGB-Aushebelung. Prüfe eigene Vorabinformation und ausdrückliche gesonderte Vereinbarung; einfache Klausel, Checkbox-Salat oder technische Fußnote reicht nicht automatisch.
+Schwerpunkt: keine verdeckte Umgehung durch AGB. Prüfe eigene Vorabinformation und ausdrückliche gesonderte Vereinbarung; eine einfache Klausel, unübersichtliche Auswahlfelder oder eine technische Fußnote reichen nicht automatisch.
 
 ## Sofort klären
 

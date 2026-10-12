@@ -1,6 +1,6 @@
 ---
 name: parallel-und-konkurrenz-pruefung
-description: "Wenn es um Parallel- und Konkurrenzprüfung in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Parallel- und Konkurrenzprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Parallel- und Konkurrenzprüfung
@@ -16,16 +16,6 @@ description: "Wenn es um Parallel- und Konkurrenzprüfung in bereicherungs-und-a
 ## Zentrale Normen
 
 § 812 Abs. 1 BGB (Leistungs-/Nichtleistungskondiktion) — §§ 129 ff. InsO (Insolvenzanfechtung) — §§ 1–13 AnfG (Gläubigeranfechtung) — § 985 BGB (Vindikation) — § 826 BGB (sittenwidrige Schädigung) — § 55 InsO (Masseverbindlichkeiten) — § 144 InsO (Gegenleistungsrückgewähr)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Konstellation 1: § 812 BGB neben AnfG
 
@@ -69,3 +59,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

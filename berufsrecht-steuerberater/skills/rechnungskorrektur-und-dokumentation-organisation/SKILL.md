@@ -1,6 +1,6 @@
 ---
 name: rechnungskorrektur-und-dokumentation-organisation
-description: "Wenn es um Rechnungskorrektur Und Dokumentation Organisation in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechnungskorrektur und Dokumentation Organisation: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Steuerberater: rechnungskorrektur und dokumentation - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

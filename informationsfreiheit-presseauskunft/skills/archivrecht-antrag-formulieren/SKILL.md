@@ -1,6 +1,6 @@
 ---
 name: archivrecht-antrag-formulieren
-description: "Wenn es um Archivrecht Antrag Formulieren in Informationsfreiheit und Presseauskunft geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Archivrecht Antrag Formulieren: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Archivrecht Antrag Formulieren
@@ -40,24 +40,3 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 IFG
-- § 3 IFG
-- § 5 IFG
-- § 6 IFG
-- § 7 IFG
-- § 10 IFG
-- § 70 VwGO
-- § 74 VwGO
-- § 123 VwGO
-- Art. 5 GG
-- Art. 10 EMRK
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

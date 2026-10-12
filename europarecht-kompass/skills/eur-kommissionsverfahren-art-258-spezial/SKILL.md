@@ -1,6 +1,6 @@
 ---
 name: eur-kommissionsverfahren-art-258-spezial
-description: "Wenn es um EU: Vertragsverletzung Art. 258 in Europarecht-Kompass für deutsche Juristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für EU: Vertragsverletzung Art. 258: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # EU: Vertragsverletzung Art. 258
@@ -56,3 +56,4 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

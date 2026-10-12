@@ -1,6 +1,6 @@
 ---
 name: nachtragsmanagement-650b
-description: "Wenn es um Nachtragsmanagement 650b in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Nachtragsmanagement 650b: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Änderungsanordnung
@@ -19,13 +19,11 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: HOAI §§ 1-13, 14-37 (Objektplanung), 38-52 (Flachbau, Ingenieurbauwerke), BGB §§ 631 ff., VOB/B — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -113,7 +111,6 @@ Live-Verifikation Pflicht über dejure.org / bundesgerichtshof.de / olg-...nrw.d
 - Anwendbar bei wirksam einbezogener VOB/B
 - Mehrvergütung bei Änderung des Bauentwurfs
 - Basis: Kalkulationsgrundlagen des ursprünglichen Angebots
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 2 — Vergütungsberechnung § 650c BGB
 
@@ -168,7 +165,6 @@ GESAMTBRUTTO: EUR [Summe]
 
 - Bei > 10 % Mengenabweichung einer Position: Preisanpassungsrecht
 - Auf Antrag einer der Parteien
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 3 — 80-Prozent-Abrechnungsrecht § 650c Abs. 3 BGB
 
@@ -198,7 +194,6 @@ GESAMTBRUTTO: EUR [Summe]
 
 **Ohne Behinderungsanzeige:**
 - Anspruch auf Bauzeitverlängerung entfällt (§ 6 Abs. 1 Satz 2 VOB/B)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Schadenersatzanspruch § 6 Abs. 6 VOB/B bleibt bei Verschulden AG bestehen
 
 **§ 642 BGB — Annahmeverzug (BGB-Vertrag):**
@@ -339,11 +334,9 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 | Gegenargument Auftraggeber | Reaktion |
 |---------------------------|---------|
 | "Leistung war bereits im Vertrag enthalten" | LV-Analyse: Positionsbeschreibung, Leistungsverzeichnis — Abgrenzung zu tatsächlicher Mehrleistung |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Keine schriftliche Anordnung, nur mündlich" | Baubesprechungsprotokoll, E-Mail-Bestätigung als Beweis; bei VOB/B § 1 Abs. 4: auch konkludente Anordnung |
 | "80-Prozent-Abrechnung zu früh" | § 650c Abs. 3 BGB: 30 Tage Verhandlung oder Ablehnung genügt; keine weiteren Fristen |
 | "Behinderungsanzeige fehlte" | Offenkundigkeit der Behinderung entbindet von Anzeigepflicht; Dokumentation durch Bautagebuch |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Streitwert und Kosten
 
@@ -370,7 +363,6 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 | Bautagebuch | Täglich führen mit Unterschrift Bauleitung beider Seiten | Entscheidender Beweis für Behinderung und Kausalität |
 | 80-%-Recht | Bei stockenden Verhandlungen frühzeitig anwenden | Liquiditätssicherung; AG ist unter Zugzwang |
 | Eilantrag | Bei > EUR 50.000 Nachtragssumme und stockenden Verhandlungen | § 650d BGB als starkes Druckmittel |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
@@ -382,8 +374,9 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 
 - BGB §§ 650a–650d, 650i–650v, 642
 - VOB/B §§ 1, 2, 6
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Werner/Pastor, Der Bauprozess, 16. Aufl.
 - Kniffka/Koeble, Fachüberblick des Baurechts, 5. Aufl.
 - Kapellmann/Schiffers, Vergütung und Bauablauf
 - Stand: 05/2026
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um Ersteinrichtungs-Interview in Gesellschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ersteinrichtungs-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ersteinrichtungs-Interview
@@ -18,12 +18,9 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Ersteinrichtungs-Interview` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -148,7 +145,7 @@ Bei AG zusätzlich: Hauptversammlung (Präsenz, virtuelle HV nach Paragraf 118a 
 
 Zusammenfassung zeigen, Praxisprofil erstellen, Pflege erläutern:
 
-> Ihr Praxisprofil liegt in CLAUDE.md. Änderungen jederzeit direkt oder per `/gesellschaftsrecht:gesellschaftsrecht-kaltstart-interview --redo` möglich. Am häufigsten angepasst: Wesentlichkeitsschwellen, Hausstil für Beschlüsse, Eskalationsmatrix.
+> Ihr Praxisprofil liegt in CLAUDE.md. Änderungen jederzeit direkt oder per `/gesellschaftsrecht:kaltstart-interview --redo` möglich. Am häufigsten angepasst: Wesentlichkeitsschwellen, Hausstil für Beschlüsse, Eskalationsmatrix.
 
 ## Output-Template
 
@@ -203,8 +200,8 @@ Jahresabschluss-Pflichten: [HGB / IFRS]
 | [VDR-NAME] | [VERBUNDEN / NICHT VERBUNDEN] | [DATUM] |
 | Handelsregister | [VERBUNDEN / NICHT VERBUNDEN] | [DATUM] |
 
-_Profil-Pflege: Einzelne Aenderungen per `/gesellschaftsrecht:gesellschaftsrecht-anpassen`.
-Vollstaendige Neueinrichtung per `/gesellschaftsrecht:gesellschaftsrecht-kaltstart-interview --redo`._
+_Profil-Pflege: Einzelne Aenderungen per `/gesellschaftsrecht:anpassen`.
+Vollstaendige Neueinrichtung per `/gesellschaftsrecht:kaltstart-interview --redo`._
 ```
 
 ## Rote Schwellen

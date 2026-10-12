@@ -1,0 +1,1535 @@
+{
+  "method": "pypdf-Textpositionen je Seite gegen die Mediabox; inside_page true, wenn jeder Textanker innerhalb der Seite liegt",
+  "font": "Liberation Serif (metrisch kompatibel zu Times New Roman)",
+  "visual_review": "pending",
+  "pages": [
+    {
+      "pdf": "abrechnung-e-rechnung.pdf",
+      "pdf_sha256": "b014c1e4726a3f244f237a1d9d8622248cf98ad04dc2fcd09a8b86c53566b0bb",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3468,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2430,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 2540,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3853,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4087,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3949,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3394,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 4070,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3342,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1302,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1790,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3668,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3197,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4098,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3834,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 1648,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "akte-fristen-anlegen.pdf",
+      "pdf_sha256": "57bf12b8d19db5f30495e3c40c430797c065d682c677883a833163030e691810",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3421,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2070,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 2312,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3615,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 3688,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3941,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4163,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3636,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 4057,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3043,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1403,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 1986,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3541,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 3386,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3963,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 3982,
+          "inside_page": true
+        },
+        {
+          "page": 17,
+          "characters": 1695,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "anwaltsberufsrecht-pruefen.pdf",
+      "pdf_sha256": "8a3831877c38c6dfc411ab0e2b606b553ff2ab63dd2beceb61da248404694879",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3619,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1748,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 1820,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3914,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 3968,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4117,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3992,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3916,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3364,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3410,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 2547,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3539,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4105,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4234,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3352,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 2557,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "bea-anlagen-vorbereiten.pdf",
+      "pdf_sha256": "7ce0b305c7c7de3ace1d806319c9fe2b92ea79dcd05b0c97b9a93014c311dbf7",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3644,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2428,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3240,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3613,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 3280,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3845,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4093,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3981,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3944,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 2257,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 3578,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3799,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4065,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4154,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 1823,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "fristen-berechnen-ueberwachen.pdf",
+      "pdf_sha256": "0ae1236220e28d23447069528b08f2887f681b5040df2485ac852f42e18d7cee",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 2829,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2918,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3739,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 4253,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4060,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4010,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3873,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 2263,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 1163,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3299,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 3376,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 1874,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3694,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 2704,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3964,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 3875,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "geldwaesche-pruefen.pdf",
+      "pdf_sha256": "32efd5e9c977f2de4e30549a3ffed72e0623dea5975df39dddbf9f8bffdd30d8",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3290,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1570,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3016,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 4202,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4248,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3964,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3958,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3208,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3995,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 2681,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 2823,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3116,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4129,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 3739,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3729,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 594,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "honorar-budget-vereinbaren.pdf",
+      "pdf_sha256": "4f1d3a858fec0ec2ac765b38f364ddb06094bb9679c28f2ee6593d8b768728a4",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3664,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1227,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 1966,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 4091,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4386,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4380,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3911,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 4246,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3291,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1641,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1896,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 4059,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 2871,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4396,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 4171,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 2444,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "ki-kanzlei-steuern.pdf",
+      "pdf_sha256": "03a713233d8bd85c5c25ecbebf7f169a34f4fe26209f84bff0789ce997b06209",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3394,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1195,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 2742,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 1704,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 1892,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 2159,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4123,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3438,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 4066,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3067,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 2090,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 1890,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3654,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 3794,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3565,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 4497,
+          "inside_page": true
+        },
+        {
+          "page": 17,
+          "characters": 3795,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "mandantenkommunikation.pdf",
+      "pdf_sha256": "b4705505c3dd51ac13f8f115879649756079dcae3180c5094faaa4477b1a142e",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3160,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2262,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 1688,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3820,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 3780,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4190,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3736,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3450,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3141,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 2518,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 3909,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 2998,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4140,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4264,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3734,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "mandat-abschliessen.pdf",
+      "pdf_sha256": "78575fcf06eca5e1d89f01295e1a62541a7f2899838c1c886303352394fc81ac",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3465,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2909,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3362,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 4049,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 3805,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3927,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3041,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3292,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3237,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3605,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 2342,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3851,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3136,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4301,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3718,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 688,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "mandatsannahme-interessenkollision.pdf",
+      "pdf_sha256": "6ff0b3b5e326eef409303043205cfc674da2bfee7f4a5d01e8be3176902d0f8f",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3781,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1853,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 2856,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3630,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4037,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4085,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4168,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 4022,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3943,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1995,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1762,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3826,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3566,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4273,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 4199,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 863,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "recht-recherchieren.pdf",
+      "pdf_sha256": "d34ac3e0059d95f8f5f82442a4f67539b30781e7a749520686e5a21222ca8cb5",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3361,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1460,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 2833,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3044,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 2406,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4015,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4060,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3260,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3214,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 2352,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1703,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3945,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3842,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4111,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 4317,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 3792,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "schriftsaetze-entwerfen.pdf",
+      "pdf_sha256": "8a24908ad68ed73a1b8c47241521fb8c154ce6563f0628de8fe0f7a06b80b3cb",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3435,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2637,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 4020,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3978,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4014,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4276,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3947,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3149,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 2014,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1673,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 3810,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3440,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4334,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4076,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 910,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "vertraege-agb-pruefen.pdf",
+      "pdf_sha256": "d6422211872ff5544bd19eddb0afb22e72d883bf5b4ac4a67f4029a06cdd616d",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3467,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2575,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3966,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 4116,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4093,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3707,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4385,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3845,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3140,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1534,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 2881,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3130,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4020,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4178,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3683,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "vertraege-gestalten.pdf",
+      "pdf_sha256": "ea1c757ce116ee53373ef9577dc11cb8bcd227ab26e4620ffdc6ec42afe22407",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3504,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1793,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3410,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3840,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4023,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3536,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4324,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 4122,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3793,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 1673,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1780,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3787,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3835,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4320,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 4343,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 717,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "workflow-uebergabe.pdf",
+      "pdf_sha256": "2051e83dee66f9b045c1831f624f4f83935b47fe3b6787b0fdc85c50f7601e82",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3536,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2258,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 3581,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3495,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4104,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 4107,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3872,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 4025,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 2187,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3739,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 3504,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 4066,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 4324,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 3544,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 709,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "zahlungen-buchhaltung.pdf",
+      "pdf_sha256": "f6e8e28179f5f446c9600665f6c3cd3158a1706a191901f285bd6239ed5cfc18",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3170,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 2453,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 2712,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3869,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 4033,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3902,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 4314,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 3705,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3668,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 3096,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 2393,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3387,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3701,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 4317,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 3831,
+          "inside_page": true
+        }
+      ]
+    },
+    {
+      "pdf": "zeiten-erfassen.pdf",
+      "pdf_sha256": "4420c1e7d42060af0dbb758558cf712e6ffbcf7d13c74825ac8ce92130fbde19",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3802,
+          "inside_page": true
+        },
+        {
+          "page": 2,
+          "characters": 1111,
+          "inside_page": true
+        },
+        {
+          "page": 3,
+          "characters": 1763,
+          "inside_page": true
+        },
+        {
+          "page": 4,
+          "characters": 3682,
+          "inside_page": true
+        },
+        {
+          "page": 5,
+          "characters": 3923,
+          "inside_page": true
+        },
+        {
+          "page": 6,
+          "characters": 3678,
+          "inside_page": true
+        },
+        {
+          "page": 7,
+          "characters": 3931,
+          "inside_page": true
+        },
+        {
+          "page": 8,
+          "characters": 4023,
+          "inside_page": true
+        },
+        {
+          "page": 9,
+          "characters": 3879,
+          "inside_page": true
+        },
+        {
+          "page": 10,
+          "characters": 2540,
+          "inside_page": true
+        },
+        {
+          "page": 11,
+          "characters": 1974,
+          "inside_page": true
+        },
+        {
+          "page": 12,
+          "characters": 3770,
+          "inside_page": true
+        },
+        {
+          "page": 13,
+          "characters": 3090,
+          "inside_page": true
+        },
+        {
+          "page": 14,
+          "characters": 2606,
+          "inside_page": true
+        },
+        {
+          "page": 15,
+          "characters": 4059,
+          "inside_page": true
+        },
+        {
+          "page": 16,
+          "characters": 4185,
+          "inside_page": true
+        }
+      ]
+    }
+  ]
+}

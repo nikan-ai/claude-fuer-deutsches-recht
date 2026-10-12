@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-migrationsrecht-bamf-anhoerung-strategie
-description: "Wenn es um BAMF-Anhörung / Ausländerbehörde-Kommunikation in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für BAMF-Anhörung / Ausländerbehörde-Kommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # BAMF-Anhörung / Ausländerbehörde-Kommunikation
@@ -83,7 +83,6 @@ Im Migrationsrecht gibt es kein klassisches Schiedsverfahren / ADR — Verfahren
 
 - Anhörungs-Protokoll prüfen
 - Korrektur-Schriftsatz fristgerecht
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Phase 5 — Bei Erfolg
 
@@ -113,9 +112,7 @@ Stand: 05/2026. AsylG, AufenthG. GEAS-Reform ab 12.6.2026 wirksam.
 
 ## Vertiefung: Rechtsprechung und Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette BAMF-Anhoerung
 
@@ -204,11 +201,6 @@ Anlagen: K1 [Beschreibung], K2 [...]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
-<!-- AUDIT 27.05.2026
-Normenreferenz (Art. 15 Qualifikations-RL 2011/95/EU = subsidiärer Schutz / erheblicher Schaden),
-kein halluziniertes Urteil. Kein Loeschungs- oder Aenderungsbedarf;
-die Formulierung bleibt unveraendert.
--->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -218,3 +210,4 @@ die Formulierung bleibt unveraendert.
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

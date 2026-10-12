@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "plugin": "lizenzvertragsersteller",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "checked_on": "2026-09-14",
+      "supports": "Einfaches oder ausschließliches Nutzungsrecht mit räumlicher, zeitlicher oder inhaltlicher Beschränkung."
+    },
+    {
+      "url": "https://www.wipo.int/wipolex/en/text/597188",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 19.07.2012, Az. I ZR 70/10, M2Trade, Randnummern 19 und 26 bis 30. Anwendung: Bei Ende des Hauptlizenzvertrags Rückfall des Hauptrechts und grundsätzlich fortbestehende wirksame Unterlizenzen getrennt regeln. Grenze und Prüfzugang: Keine Heilung unwirksamer Rechteeinräumung und keine pauschale Insolvenzfestigkeit; vollständige gerichtliche Gründe in WIPO Lex gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "checked_on": "2026-09-22",
+      "supports": "Rechteeinräumung und Zweckübertragung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__35.html",
+      "checked_on": "2026-09-22",
+      "supports": "Einräumung weiterer Nutzungsrechte."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__103.html",
+      "checked_on": "2026-09-22",
+      "supports": "Wahlrecht bei beiderseits nicht vollständig erfülltem Vertrag."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32026R0877",
+      "checked_on": "2026-09-22",
+      "supports": "Neue Technologietransfer-Gruppenfreistellung; Anwendung ab 01.05.2026, Artikel 10 Übergang und Artikel 11 Laufzeit geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__32a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Weitere Beteiligung nach Erlösstufe und unmittelbarem Anspruchsgegner konkretisiert. Amtlichen Normtext gelesen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini individuell um drei Einstiegsmodi, zusammengesetzte Rechte, Exklusivitätsfolgen und konkrete Änderung der Vertragsdatei ergänzt; M2Trade-Abgrenzung erhalten. Desk-Review ohne Live-Ausführung.",
+    "changes": [
+      "M2Trade für wirksame Unterlizenzen und Rückfall der Hauptrechte integriert",
+      "Escrow nicht als fehlende Rechte ersetzende Insolvenzsicherung behandelt",
+      "TTBER 2026 mit Übergang statt abgelaufener Pauschalfreistellung berücksichtigt",
+      "Neue Freigabe mit Bearbeitungsausschluss führt zu abgestimmter Rechteanlage, Unterlizenzklausel und Anpassung entgegenstehender Leistungszusagen."
+    ],
+    "sha256": "4e5dc0ccf31c7012f800d6b32c96dcd8054d3bb78ac065ab80ac32ca1054d449"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig gelesen und um Rechtepakete, konkrete Vertriebswege, Exklusivitätsgegenleistung, Folgejahresretouren, Vertragsendbestände und technische Escrow-Prüfung vertieft. Bestehende TTBER- und Insolvenzgrenzen erhalten; kein Live-Vertragstest.",
+    "changes": [
+      "M2Trade für wirksame Unterlizenzen und Rückfall der Hauptrechte integriert",
+      "Escrow nicht als fehlende Rechte ersetzende Insolvenzsicherung behandelt",
+      "TTBER 2026 mit Übergang statt abgelaufener Pauschalfreistellung berücksichtigt",
+      "Weitere Beteiligung nach Erlösstufe und unmittelbarem Anspruchsgegner konkretisiert.",
+      "Kombinierte Software-, Bild- und Musikbeiträge getrennt zuordnen; Freistellung nicht als Ersatz fehlender Rechte verwenden.",
+      "Auftragsfertiger, Vertriebspartner und Endkundenlizenz unterscheiden; Mindestleistung und Folge einer verfehlten Exklusivitätsgegenleistung ausformulieren.",
+      "Bündelerlös, spätere Retoure, Abverkauf, fortbestehende Kundenrechte und Support getrennt bearbeiten; Escrow-Build und Komponentenrechte nicht gleichsetzen."
+    ],
+    "sha256": "be1a6aa9999e4ebe04a0a4eccb90ad5596f007865ddfbc8f12136b5585519149"
+  },
+  "selection": {
+    "positive": [
+      "Entwerfen Sie eine Umsatzlizenz mit abschnittsweise sinkenden Sätzen und Mindestbetrag.",
+      "Stimmen Sie Nutzungsarten und Rechteverzeichnis unseres Bildlizenzvertrags ab."
+    ],
+    "negative": [
+      "Recherchieren Sie entgegenstehende Patente ohne Vertragsgestaltung.",
+      "Prüfen Sie nur die Vertraulichkeitsabweichungen zweier NDA-Fassungen."
+    ]
+  },
+  "cases": [
+    {
+      "id": "staffel-mindestlizenz-anrechnung",
+      "request": "Formulieren Sie in ergebnis.md die Vergütungs- und Abrechnungsklausel einer Bildlizenz zwischen zwei deutschen Unternehmen mit Kontrollrechnung. Nutzungsrechte sind bereits geklärt. Bemessungsgrundlage ist der kalenderjährliche Nettoerlös aus lizenzierten Kalendern nach Umsatzsteuer, tatsächlichen Retouren und tatsächlich gewährten Rabatten; weitere Abzüge sollen ausgeschlossen sein. Vereinbart sind 8 Prozent für die ersten 100000 EUR und 5 Prozent für den darüberliegenden Erlösanteil. Jährliche Mindestvergütung 10000 EUR, auf die Jahresvergütung anrechenbar, ohne Vortrag ins nächste Jahr. Jahresmeldung und Zahlung binnen 30 Tagen nach Jahresende. Rechnen Sie mit 180000 EUR Bemessungsgrundlage.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Staffel ergibt 12000 EUR, ohne den niedrigeren Satz rückwirkend auf den gesamten Umsatz anzuwenden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Mindestbetrag wird angerechnet und nicht zusätzlich zu 12000 EUR gefordert; ein Folgejahresvortrag ist ausgeschlossen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die ausformulierte Klausel begrenzt Abzüge auf die vereinbarten Positionen und regelt Meldung sowie Fälligkeit konkret.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "klausel-verguetung-pauschale-royalty-tiered"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "lizenzvertragsersteller/lizenzvertragsersteller-schnellstart.md",
+      "lizenzvertragsersteller/lizenzvertragsersteller-werkstatt.md",
+      "lizenzvertragsersteller/README.md",
+      "quality/evals/lizenzvertragsersteller.json"
+    ],
+    "opening_change": "Lizenzgegenstand, Rechtebestand und konkret bezahlte Nutzung bestimmen die Vertragsfassung.",
+    "norms": [
+      "Paragrafen 31 und 35 UrhG",
+      "Paragraf 103 InsO",
+      "Artikel 3 bis 5, 10 und 11 Verordnung (EU) 2026/877"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 19.07.2012, Az. I ZR 70/10, M2Trade, Randnummern 19 und 26 bis 30",
+        "url": "https://www.wipo.int/wipolex/en/text/597188",
+        "application": "Bei Ende des Hauptlizenzvertrags Rückfall des Hauptrechts und grundsätzlich fortbestehende wirksame Unterlizenzen getrennt regeln.",
+        "limit": "Keine Heilung unwirksamer Rechteeinräumung und keine pauschale Insolvenzfestigkeit; vollständige gerichtliche Gründe in WIPO Lex gelesen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "Keine vollständige kartell-, steuer- oder ausfuhrrechtliche Prüfung eines konkreten Lizenzvertrags.",
+      "Nachprüfung am 2026-09-23: Alle Profilquellen erneut geöffnet. Paragrafen 31, 35 und 32a UrhG sowie Paragraf 103 InsO lesbar; M2Trade-Gründe in WIPO Lex erneut im maßgeblichen Abschnitt gelesen. Die Verordnung 2026/877 war beim erneuten EUR-Lex-Abruf durch eine JavaScript-Sperre unzugänglich. Frühere Verifikation und Rechtsänderung bleiben erhalten; keine erneute Bestätigung des Verordnungsvolltexts und keine technische Escrow-Ausführung behauptet."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Lizenzvertrag, Vergütungsklausel oder Prüfung von Rechtekette und Vertragsende als kurze Wahl.",
+      "Dateien ohne Aufgabe: Vertrag und Rechtebelege still lesen, nur Entwurfs- oder Prüfziel klären.",
+      "Klarer Auftrag: sofort die bestellte Vertragsfassung bearbeiten, nur entscheidende Rechte-, Vergütungs- oder Risikoverteilungsfragen stellen."
+    ],
+    "continuation": "Erlaubte Weiterlizenzierung bei ausgeschlossenem Bearbeitungsrecht verändert im vereinbarten Pfad, beispielsweise vertraege/lizenzvertrag.md, Rechteanlage, Unterlizenzregel, Bearbeitungs- und davon abhängige Leistungszusagen.",
+    "enrichment": "Zusammengesetzte Lizenzprodukte, Fertigungs- und Vertriebswege, Exklusivitätsgegenleistung, Bündelabrechnung und spätere Retouren, Bestände bei Beendigung sowie technischer und rechtlicher Umfang einer Escrow-Hinterlegung.",
+    "limits": "desk review; no live client execution"
+  }
+}

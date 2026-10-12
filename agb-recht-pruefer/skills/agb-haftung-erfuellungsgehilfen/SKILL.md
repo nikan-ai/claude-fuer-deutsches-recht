@@ -1,6 +1,6 @@
 ---
 name: agb-haftung-erfuellungsgehilfen
-description: "Wenn es um Agb Haftung Erfuellungsgehilfen in AGB-Recht-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für AGB Haftung Erfüllungsgehilfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Agb Haftung Erfuellungsgehilfen
@@ -14,8 +14,8 @@ description: "Wenn es um Agb Haftung Erfuellungsgehilfen in AGB-Recht-Prüfer ge
 
 ## Norm
 
-- § 278 BGB: Schuldner haftet für Erfuellungsgehilfen wie für eigenes Handeln.
-- § 309 Nr. 7 Buchst. a, b BGB: Haftungsausschluss für Vorsatz und Verletzung Leben/Koerper/Gesundheit unwirksam.
+- § 278 BGB: Der Schuldner hat das Verschulden seiner Erfüllungsgehilfen in gleichem Umfang wie eigenes Verschulden zu vertreten.
+- § 309 Nummer 7 Buchstaben a und b BGB: Die Klauselverbote erfassen Haftungsbeschränkungen bei Verletzung von Leben, Körper oder Gesundheit sowie bei grobem Verschulden; Vorsatz ist zusätzlich nach § 276 Absatz 3 BGB nicht im Voraus erlassbar.
 
 ## Klauseltypen
 

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "plugin": "status-navigator-step-plan",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__130.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 130 Absatz 1 BGB gelesen; Bezug: Unterschriebene Fassung, Änderungsabsicht und Aufgabenboard konkret abgleichen. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-68-24/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Urteil vom 30.01.2025, 2 AZR 68/24: Register unterscheidet bloßen Trackingstatus und Auslieferungsnachweis, davon abhängige Fristannahmen bleiben zur Prüfung offen. Amtlicher Volltext gelesen, Rn. 15 bis 20. Kündigungszugang, keine Entscheidung über Vertragsfreigabe; kein Beweis des Nichtzugangs und keine abschließende Beweiswürdigung durch Dokumentenregister."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Preisfreigabe und Anlagenwechsel gezielt zuordnen; Stichtage und Bezugsgrößen im Register trennen; Auslieferungsnachweis mit konkreter Sendung abgleichen; Arbeitsfassung und freigegebenen Export unterscheiden.",
+    "changes": [
+      "Registereintrag zu Einwurf-Einschreiben nach Nachweisarten getrennt; fehlenden Auslieferungsbeleg beschaffen statt Zugang oder Nichtzugang fingieren; Form- und Aufbewahrungsfragen auf betroffene Dokumente beschränkt.",
+      "Register unterscheidet bloßen Trackingstatus und Auslieferungsnachweis, davon abhängige Fristannahmen bleiben zur Prüfung offen.",
+      "Leerstart: Fassungsabgleich, Nachforderungsbrief oder abhängigen Schrittplan wählen.",
+      "Eine nur auf den Preis bezogene Zustimmung verändert diesen Freigabestand und abhängige Aufgaben, nicht automatisch Anlagen oder Haftungsklauseln.",
+      "Preisfreigabe und Anlagenwechsel gezielt zuordnen; Stichtage und Bezugsgrößen im Register trennen; Auslieferungsnachweis mit konkreter Sendung abgleichen; Arbeitsfassung und freigegebenen Export unterscheiden."
+    ],
+    "sha256": "a76f2cabc6d94ce66766c32102995dedcb9c1066fb192e217c1c0a5de7ff85d2",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Preisfreigabe und Anlagenwechsel gezielt zuordnen; Stichtage und Bezugsgrößen im Register trennen; Auslieferungsnachweis mit konkreter Sendung abgleichen; Arbeitsfassung und freigegebenen Export unterscheiden.",
+    "changes": [
+      "Unterschriebene Fassung, Änderungsabsicht und Aufgabenboard konkret abgleichen.",
+      "Register unterscheidet bloßen Trackingstatus und Auslieferungsnachweis, davon abhängige Fristannahmen bleiben zur Prüfung offen.",
+      "Leerstart: Fassungsabgleich, Nachforderungsbrief oder abhängigen Schrittplan wählen.",
+      "Eine nur auf den Preis bezogene Zustimmung verändert diesen Freigabestand und abhängige Aufgaben, nicht automatisch Anlagen oder Haftungsklauseln.",
+      "Preisfreigabe und Anlagenwechsel gezielt zuordnen; Stichtage und Bezugsgrößen im Register trennen; Auslieferungsnachweis mit konkreter Sendung abgleichen; Arbeitsfassung und freigegebenen Export unterscheiden."
+    ],
+    "sha256": "b14452e345f9d4cee537b54668cffb845127690035e0674d1cd6c81127fa4f82",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Ordnen Sie unsere widersprüchlichen Vertragsfassungen und erstellen Sie einen belegbaren nächsten Arbeitsplan.",
+      "Ermitteln Sie aus Freigaben und offenen Aufgaben den aktuellen Bearbeitungsstand eines Vorgangs."
+    ],
+    "negative": [
+      "Entscheiden Sie abschließend über die Wirksamkeit einer unbekannten Vertragsklausel.",
+      "Berechnen Sie ohne Projektunterlagen eine gesetzliche Rechtsmittelfrist."
+    ]
+  },
+  "cases": [
+    {
+      "id": "unterschrift-gegen-dateiname-final",
+      "request": "Erstellen Sie ergebnis.md als Statusbericht mit genau drei priorisierten nächsten Schritten. Im Vorgang liegt Version 1 eines Angebots über 20.000 Euro, von beiden Seiten unterschrieben am 2. September. Version 2 über 18.000 Euro wurde intern am 8. September erstellt und trägt den Dateinamen final, ist aber weder unterschrieben noch freigegeben. Eine E-Mail vom 9. September schlägt der Gegenseite die Preissenkung vor; eine Antwort liegt nicht vor. Die Projektleitung behauptet im Aufgabenboard bereits 18.000 Euro vereinbart. Originale dürfen nicht verändert werden. Es soll zunächst der dokumentierte Bearbeitungsstand geklärt werden, keine abschließende rechtliche Wirksamkeitsprüfung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Bericht unterscheidet die beidseitig unterschriebene Version 1 von dem internen Vorschlag Version 2 und behandelt dessen Dateinamen nicht als Freigabe oder Annahmenachweis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Widerspruch zwischen Aufgabenboard und vorhandenen Dokumenten bleibt nachvollziehbar mit Herkunft dokumentiert; Originale werden weder überschrieben noch als korrigiert ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die drei nächsten Schritte adressieren gezielt Annahmenachweis, interne Freigabe und anschließende Statusberichtigung mit Verantwortlichkeit beziehungsweise Abhängigkeit, ohne eine endgültige Vertragsauslegung vorzutäuschen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "status-navigator-einstieg"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "status-navigator-step-plan/README.md",
+      "status-navigator-step-plan/status-navigator-step-plan-werkstatt.md",
+      "status-navigator-step-plan/status-navigator-step-plan-schnellstart.md",
+      "quality/evals/status-navigator-step-plan.json"
+    ],
+    "opening_change": "Unterschriebene Fassung, Änderungsabsicht und Aufgabenboard konkret abgleichen",
+    "norms": [
+      "Paragraf 130 Absatz 1 BGB",
+      "Paragraf 126a BGB",
+      "Paragraf 130a ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BAG, Urteil vom 30.01.2025, 2 AZR 68/24",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-68-24/",
+        "application": "Register unterscheidet bloßen Trackingstatus und Auslieferungsnachweis, davon abhängige Fristannahmen bleiben zur Prüfung offen.",
+        "limit": "Amtlicher Volltext gelesen, Rn. 15 bis 20. Kündigungszugang, keine Entscheidung über Vertragsfreigabe; kein Beweis des Nichtzugangs und keine abschließende Beweiswürdigung durch Dokumentenregister.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Volltext gelesen, Rn. 15 bis 20. Kündigungszugang, keine Entscheidung über Vertragsfreigabe; kein Beweis des Nichtzugangs und keine abschließende Beweiswürdigung durch Dokumentenregister.",
+      "Keine Anbindung an ein tatsächliches Aufgabenboard; keine pauschale Aussage zu Aufbewahrungsfristen oder Freigabekompetenzen.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: Aktueller Direktabruf zu Paragraf 130 BGB scheiterte; Suchindex bestätigte nur die Normfundstelle, keine neue Volltextprüfung. Vorhandene Prüfung vom 22.09.2026 und BAG 2 AZR 68/24 mit ihren Grenzen erhalten. Keine materiellrechtlichen Zusatzfälle, DMS-Anbindung oder Signaturprüfung erfunden. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Fassungsabgleich, Nachforderungsbrief oder abhängigen Schrittplan wählen.",
+      "Dateien: Vertragsfassungen und Freigaben still lesen, keine automatische Inventarliste.",
+      "Klarer Auftrag: bestelltes Register oder Dokument liefern, keinen ungefragten Vertragswirksamkeitsentscheid."
+    ],
+    "continuation": "Eine nur auf den Preis bezogene Zustimmung verändert diesen Freigabestand und abhängige Aufgaben, nicht automatisch Anlagen oder Haftungsklauseln.",
+    "enrichment": "Preisfreigabe und Anlagenwechsel gezielt zuordnen; Stichtage und Bezugsgrößen im Register trennen; Auslieferungsnachweis mit konkreter Sendung abgleichen; Arbeitsfassung und freigegebenen Export unterscheiden.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: klage-drafting-mandantenmemo-partner
-description: "Wenn es um Klage-Drafting nach Paragraf 253 ZPO in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Klage-Drafting nach Paragraf 253 ZPO: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Klage-Drafting nach § 253 ZPO
@@ -12,7 +12,7 @@ Drafting einer Klageschrift nach § 253 Abs. 2 ZPO. Bestimmter Antrag plus Sachv
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: DSGVO Art. 33 Datenpanne 72h, ZPO § 130d aktive beA-Nutzung seit 01.01.2022, GwG § 8 Aufbewahrung 5 Jahre, KI-VO Art. 50 Kennzeichnung.
+- Fristen und Eilrisiken zuerst markieren: DSGVO Art. 33 Datenpanne 72h, ZPO § 130d aktive beA-Nutzung seit 01.01.2022, GwG § 8 Aufbewahrung 5 Jahre, KI-VO Art. 50 funktionsabhängige Transparenz.
 - Tragende Normen verifizieren: BRAO §§ 43a, 49b, DSGVO Art. 6, 28, 32, 35, BORA § 19a (technische Sorgfalt), beA-Bedingungen, ZPO § 130a (eVa), § 130d (aktive Nutzungspflicht), GwG § 8 Aufbewahrung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anwalt, Sekretariat, IT-Verantwortlicher, Datenschutzbeauftragter, KI-Anbieter (Auftragsverarbeiter), Kammer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Word-Dokumentvorlage, beA-Schriftsatz, AV-Vertrag mit KI-Anbieter, DSFA, Sicherheitskonzept, AGB-/Mandantenklauseln zu KI-Einsatz — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -33,7 +33,7 @@ Drafting einer Klageschrift nach § 253 Abs. 2 ZPO. Bestimmter Antrag plus Sachv
 - § 253 Abs. 3 ZPO: Wert des Streitgegenstands soll angegeben werden, wenn der Anspruch nicht auf eine bestimmte Geldsumme gerichtet ist.
 - § 130 ZPO: Allgemeine Anforderungen an vorbereitende Schriftsätze (Parteien, Anträge, Tatsachen, Beweismittel, Urkunden, Unterschrift).
 - § 3 ZPO: Streitwertfestsetzung durch das Gericht nach freiem Ermessen.
-- §§ 23, 71 GVG: Sachliche Zuständigkeit AG bis 5000 Euro, sonst LG.
+- Paragrafen 23 Nummer 1, 71 Absatz 1 GVG: sachliche Zuständigkeit grundsätzlich Amtsgericht bis einschließlich 10.000 Euro, Landgericht darüber; wertunabhängige Sonderzuweisungen vorab prüfen.
 - §§ 12 ff. ZPO: Örtliche Zuständigkeit.
 - §§ 78 ff. ZPO: Anwaltszwang vor Landgericht und höheren Instanzen.
 - Methodik: Urteilsstil. Knapp, indikativ, ohne Lehrbuchprosa.
@@ -140,3 +140,4 @@ Rechtsanwältin
 - § 286 BGB für Verzugszinsen; § 288 BGB für Verzugszinssatz.
 - Rechtsprechung des BGH zur Bestimmtheit von Anträgen: vom Nutzer zu verifizieren. Keine Aktenzeichen aus Modellwissen.
 - `references/zitierweise.md` für Belegpflicht.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie interne Entwurfsarbeit, Veröffentlichung und unmittelbaren Mandantendialog. Artikel 50 enthält funktionsabhängige Pflichten und keine pauschale Kennzeichnungspflicht für jeden intern mit KI bearbeiteten Schriftsatz. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

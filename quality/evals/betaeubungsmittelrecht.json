@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "plugin": "betaeubungsmittelrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/btmg_1981/__29a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Nicht geringe Menge als eigenes Merkmal der dort genannten Tatvarianten; keine Grenzwerte im Gesetzestext."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/1_StS/2024/1_StR_106-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 18.04.2024, 1 StR 106/24, Randnummern 6 bis 10. Amtliche tragende Entscheidungsgründe gelesen. Anwendung: Nach Feststellung einer strafbaren Cannabishandlung die nicht geringe Menge von 7,5 Gramm THC für das Regelbeispiel des Paragrafen 34 Absatz 3 Satz 2 Nummer 4 KCanG prüfen; Wirkstoffmenge nachvollziehbar berechnen. Grenze: Keine Besitzfreigrenze, keine automatische Strafbarkeit allein aus der Schwelle und kein Grenzwert für Kokain oder andere Stoffe; kein Ersatz für belastbare Wirkstoffbestimmung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/btmg_1981/__29a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Nicht geringe Menge im BtMG eigenständig einordnen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/kcang/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Erlaubte Besitzmengen von Strafbarkeitsschwellen unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/kcang/__34.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Straftatbestand und Regelbeispiel der nicht geringen Menge unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__2.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Zeitliche Geltung und mildestes Gesetz."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/btmg_1981/__35.html",
+      "checked_on": "2026-09-23",
+      "supports": "Zurückstellung verlangt passende Vollstreckungsvoraussetzungen und gesicherten Behandlungsbeginn; Warteliste und Antrag ersetzen keine Entscheidung, Absatz 4 erfasst Behandlungsnachweise."
+    }
+  ],
+  "mini_review": {
+    "sha256": "0834eaa77482b37cd1908980b4219db2d3705097eda07ad223647afd0a390e85",
+    "verdict": "revised",
+    "reason": "Wirkstoffrechnung um eine tatsächlich geprüfte Cannabisentscheidung ergänzt; Kern bleibt beweisgestützte Mengen- und Tatzuordnung, keine erfundene Reinheit. Individueller Ganztext- und Quellenreview, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert.",
+    "changes": [
+      "7,5 Gramm THC aus 1 StR 106/24 erst nach Tatbestand nach Paragraf 34 Absatz 1 KCanG anwenden.",
+      "Beispiel 80 Gramm Trockenmasse bei 10 Prozent THC mit belegabhängiger Rechnung; keine Brutto- oder Kokainübertragung.",
+      "Tatzeitrecht, mildestes Gesetz und unterschiedliche medizinische sowie betriebliche Aufgaben präzisiert.",
+      "Leer: Mengenprüfung, Verteidigung/Therapie oder Bestandsklärung. Dateien: still lesen und asservat- oder betriebsbezogene Dokumentwege anbieten. Klar: direkt bestellten Vermerk oder Antrag bearbeiten.",
+      "Laborwert ändert nach Zuordnung Rechnung und Tatbewertung; Therapieplatzzusage führt zur Prüfung des gesicherten Beginns im Vollstreckungsantrag."
+    ],
+    "reviewed_on": "2026-09-22",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie den Vorwurf einer nicht geringen Kokainmenge anhand von Sicherstellung und Laborbericht.",
+      "Bewerten Sie eine betäubungsmittelrechtliche Verschreibungsdokumentation in unserer ärztlichen Praxis."
+    ],
+    "negative": [
+      "Prüfen Sie einen allgemeinen Betrugsvorwurf ohne Stoffbezug.",
+      "Erstellen Sie eine Werbekampagne für Nahrungsergänzungsmittel ohne arzneimittelrechtliche Fragestellung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "nettomenge-ohne-laborwert",
+      "request": "Gegen Herrn Adler wird wegen Besitzes von Kokain in nicht geringer Menge ermittelt. Das Sicherstellungsprotokoll nennt einen Beutel mit weißem Pulver, 12 Gramm einschließlich Verpackung. Das Verpackungsgewicht wurde nicht ermittelt. Ein Schnelltest reagierte positiv auf Kokain; ein Laborbericht ist noch nicht vorhanden. Der Polizeivermerk setzt die 12 Gramm als reine Kokainmenge an. Adler hat sich nicht geäußert. Es gibt keine Angaben zu Verkauf, weiteren Asservaten oder einer Erlaubnis. Erstellen Sie für die Verteidigung einen internen Prüfvermerk und eine gezielte Anforderung der noch nötigen Untersuchungsunterlagen. Keine Einlassung formulieren und keine Reinheit schätzen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Vermerk behandelt 12 Gramm einschließlich Verpackung nicht als Nettostoff- oder reine Wirkstoffmenge und legt die fehlenden Bezugsgrößen offen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die positive Schnelltestreaktion wird nicht als quantitativer Laborbefund behandelt; angefordert werden konkret Nettowägung und quantitative Wirkstoffbestimmung samt Probenzuordnung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Ergebnis lässt den qualifizierten Mengennachweis offen, ohne daraus automatisch erwiesene Unschuld, Handel oder ein Geständnis abzuleiten; es enthält keine erfundene Reinheitsannahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "kokain-menge-einordnen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Cannabis-Regelbeispiel, erlaubter Besitz und Straftat getrennt; konkrete Rechenprobe und Grenzen gegenüber Kokain ergänzt. Ärztliche, Apotheken-, Erlaubnis-, Einfuhr- und Therapieaufträge erhalten. Individueller Ganztext- und Quellenreview, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen.",
+    "changes": [
+      "7,5 Gramm THC aus 1 StR 106/24 erst nach Tatbestand nach Paragraf 34 Absatz 1 KCanG anwenden.",
+      "Beispiel 80 Gramm Trockenmasse bei 10 Prozent THC mit belegabhängiger Rechnung; keine Brutto- oder Kokainübertragung.",
+      "Tatzeitrecht, mildestes Gesetz und unterschiedliche medizinische sowie betriebliche Aufgaben präzisiert.",
+      "Probenrepräsentativität, individuelle Zurechnung, Doppelzählungsvermeidung, Therapieaufnahme und dokumentierte Bestandsklärung ausgearbeitet.",
+      "Laborwert ändert nach Zuordnung Rechnung und Tatbewertung; Therapieplatzzusage führt zur Prüfung des gesicherten Beginns im Vollstreckungsantrag."
+    ],
+    "sha256": "a1b8b0bd2bbd3729b46997a6147cd7bbfaeb04c9b56ddf0144b40c9328437318",
+    "reviewed_on": "2026-09-22",
+    "method": "desk_review"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Mengenprüfung, Verteidigung/Therapie oder Bestandsklärung.",
+      "Dateien: still lesen und asservat- oder betriebsbezogene Dokumentwege anbieten.",
+      "Klar: direkt bestellten Vermerk oder Antrag bearbeiten."
+    ],
+    "continuation": "Laborwert ändert nach Zuordnung Rechnung und Tatbewertung; Therapieplatzzusage führt zur Prüfung des gesicherten Beginns im Vollstreckungsantrag.",
+    "enrichment": "Probenrepräsentativität, individuelle Zurechnung, Doppelzählungsvermeidung, Therapieaufnahme und dokumentierte Bestandsklärung ausgearbeitet.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "betaeubungsmittelrecht/betaeubungsmittelrecht-schnellstart.md",
+      "betaeubungsmittelrecht/betaeubungsmittelrecht-werkstatt.md"
+    ],
+    "opening_change": "Asservatbezogene Stoff- und Wirkstoffprüfung sowie individuelle Besitz-, Handels- oder Abgabehandlung; betriebliche Fälle über Befugnis und Bestandsbelege eröffnen.",
+    "norms": [
+      "Paragraf 29a BtMG",
+      "Paragrafen 3 und 34 KCanG",
+      "Paragraf 2 Absatz 3 StGB",
+      "Paragrafen 35 und 36 BtMG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 18.04.2024, 1 StR 106/24, Randnummern 6 bis 10",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/1_StS/2024/1_StR_106-24.pdf?__blob=publicationFile&v=1",
+        "application": "Nach Feststellung einer strafbaren Cannabishandlung die nicht geringe Menge von 7,5 Gramm THC für das Regelbeispiel des Paragrafen 34 Absatz 3 Satz 2 Nummer 4 KCanG prüfen; Wirkstoffmenge nachvollziehbar berechnen.",
+        "limit": "Keine Besitzfreigrenze, keine automatische Strafbarkeit allein aus der Schwelle und kein Grenzwert für Kokain oder andere Stoffe; kein Ersatz für belastbare Wirkstoffbestimmung."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Primärquellenreview, kein Live-Client- oder Modelltest.",
+      "Geprüfter Mengenanker betrifft Cannabis, nicht stoffbezogene Grenzwerte sämtlicher BtM.",
+      "Keine Vollverifikation aller BtMVV-, MedCanG-, Therapie- und Betriebserlaubnisfragen.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  }
+}

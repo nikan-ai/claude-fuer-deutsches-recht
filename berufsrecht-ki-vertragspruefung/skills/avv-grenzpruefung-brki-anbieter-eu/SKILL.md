@@ -1,6 +1,6 @@
 ---
 name: avv-grenzpruefung-brki-anbieter-eu
-description: "Wenn es um AVV-Grenzprüfung Datenschutz in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Avv Grenzpruefung Brki Anbieter EU."
+description: "Für AVV-Grenzprüfung Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # AVV-Grenzprüfung Datenschutz
@@ -63,10 +63,6 @@ Die AVV regelt **nicht** das Berufsgeheimnis. Sie schützt nicht die Verschwiege
 - **§§ 43e BRAO, 62a StBerG, 50a WPO, 39c PAO, 26a BNotO** — Berufsrecht läuft parallel
 - **§§ 203, 204 StGB** — Strafrecht: Verschwiegenheitspflicht als Straftatbestand
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Was das Berufsrecht zusätzlich verlangt
 
 Die berufsrechtliche Dienstleisterregelung (§§ 43e BRAO, 62a StBerG, 50a WPO, 39c PAO, 26a BNotO) verlangt darüber hinaus:
@@ -121,7 +117,7 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zu
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — AVV-Grenzfall prüfen ob AV oder gemeinsame Verantwortlichkeit | Prüfschema unten; Template für Ergebnis-Memo |
-| Variante A — AVV eindeutig erforderlich | Direkt zu AVV-Erstellung (skill avv-prüfung) wechseln |
+| Variante A — AVV eindeutig erforderlich | Direkt zu AVV-Erstellung (skill avv-pruefung) wechseln |
 | Variante B — gemeinsame Verantwortlichkeit wahrscheinlich | Art. 26 DSGVO Vereinbarung statt AVV; Template anpassen |
 | Variante C — kein Auftragsverhaeltnis sondern eigenstaendige Verarbeitung | Keine AVV; separate Datenschutzvereinbarung prüfen |
 
@@ -161,27 +157,11 @@ Unterschrift: [SACHBEARBEITER]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
-<!-- AUDIT 27.05.2026 -->
-<!-- BGH VI ZR 36/20 (claimed: Berufsgeheimnis §43a BRAO, NJW 2021, 1008): NOT_FOUND auf dejure.org. NJW 2021, 1008 gehoert zu BGH VIII ZR 78/20 (Gebrauchtwagenhandel/Verjaehnungsfrist) – thematisch unverwandt. Eintrag geloescht. -->
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
 
-- § 203 StGB
-- Art. 28 DSGVO
-- § 204 StGB
-- § 62a StBerG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- Art. 32 DSGVO
+## Quellenkontrolle
 
-### Leitentscheidungen
+Berufsrecht, Geheimnisschutz und Datenschutz getrennt prüfen: Paragraf 43a Absatz 2 und Paragraf 43e BRAO, Paragraf 2 BORA, Paragraf 203 StGB sowie Artikel 28 und 32 DSGVO. Eine Gerichtsentscheidung nur einsetzen, wenn ihr Sachverhalt die konkrete Vertrags-, Verschwiegenheits- oder Sicherheitsfrage trägt; ein nicht erläutertes Aktenzeichen ist kein Rechtsanker.
 
-- BGH VI ZR 36/20
-- BGH VIII ZR 78/20
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: selbstanzeige-mandat-risiko-organisationspflicht
-description: "Wenn es um Selbstanzeige Mandat Risiko Organisationspflicht in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Selbstanzeige Mandat Risiko Organisationspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Steuerberater: selbstanzeige mandat risiko - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

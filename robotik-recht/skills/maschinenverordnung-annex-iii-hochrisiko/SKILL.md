@@ -1,6 +1,6 @@
 ---
 name: maschinenverordnung-annex-iii-hochrisiko
-description: "Wenn es um Maschinenverordnung Anhang III in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Maschinenverordnung Anhang III: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Maschinenverordnung Anhang III
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft, ob Robotik unter besondere Maschinenkategorien und strengere Konformitätsbewertung fällt.**
 
 Quellen-/Normenanker: Maschinenverordnung Anhang I/III; Konformitätsbewertung.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

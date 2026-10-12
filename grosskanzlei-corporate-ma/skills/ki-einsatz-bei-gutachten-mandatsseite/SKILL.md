@@ -1,6 +1,6 @@
 ---
 name: ki-einsatz-bei-gutachten-mandatsseite
-description: "Wenn es um digitale Werkzeuge-Einsatz bei Gutachten — Mandatsseite (Großkanzlei) in Großkanzlei Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für digitale Werkzeuge-Einsatz bei Gutachten — Mandatsseite (Großkanzlei): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Einsatz bei Gutachten — Mandatsseite (Großkanzlei)
@@ -8,7 +8,6 @@ description: "Wenn es um digitale Werkzeuge-Einsatz bei Gutachten — Mandatssei
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: KI-Einsatz bei Gutachten — Mandatsseite (Großkanzlei)
@@ -52,7 +51,6 @@ Im Zivilprozess, in Schiedsverfahren und bei behördlichen Gutachten besteht die
 
 | Gericht | Az. | Datum | Leitsatz (kurz) |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema
 
@@ -255,9 +253,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
 - Paragraf 406, 407a, 411, 412, 1059 ZPO; Paragraf 4, 8a JVEG
-
-## Ergaenzende Rechtsprechung (v14.2)
-
-<!-- AUDIT 27.05.2026: 3 halluzinierte Entscheidungen entfernt.
-- BGH VI ZR 480/19 (23.11.2021): AZ existiert, aber Datum falsch (korrekt: 27.07.2021) und Thema falsch (tatsaechlich: Dieselfall VW EA189, Paragraf 826 BGB); kein Bezug zu Paragraf 407a ZPO; NJW 2022, 302 nicht belegt. Ersatzlos geloescht.
-Prüfmethode: dejure.org-Direktabfrage je AZ. Keine Ersatzentscheidungen ergaenzt mangels verifizierbarer themenkonformer Alternativen. -->
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Kundenlösungen, Basismodelle und Eigenentwicklungen getrennt ein. Eine Zusicherung zur KI-Konformität muss betroffene Produkte, maßgebliche Stichtage und bekannte Nachweislücken erkennen lassen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

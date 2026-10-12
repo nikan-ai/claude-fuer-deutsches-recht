@@ -1,6 +1,6 @@
 ---
 name: kaltstart-china-geschaeft-sortieren
-description: "Wenn es um Kaltstart China-Mandat: Erstaufnahme und Routing in China-Wirtschaftsverkehr geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart China-Mandat: Erstaufnahme und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kaltstart China-Mandat: Erstaufnahme und Routing
@@ -14,11 +14,9 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Fehlen Identitätsbelege des Vertragspartners, die Rechtsbeziehung zum Zahlungsempfänger oder die technische Güterbeschreibung, genau danach fragen. Nach Eingang Parteien, Zahlungsweg oder Exportkontrollbewertung aktualisieren und das bestellte Gutachten, Schreiben oder die Vertragsfassung fertigstellen. Neue entscheidende Widersprüche erlauben weitere gezielte Rückfragen, keine Wiederholung bekannter Angaben. Fehlende Belege nicht durch angenommene Beteiligungs- oder Lieferverhältnisse ersetzen.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Fachkern: Kaltstart China-Mandat: Erstaufnahme und Routing
 - **Normen-/Quellenanker:** AWG/AWV, EU-Dual-Use, Sanktionen, Zoll/USt, Incoterms, Lieferkette/LkSG/CSDDD, IP-/Know-how-Schutz, Datenschutz/Cybersecurity und lokale China-Compliance live prüfen.
@@ -39,10 +37,10 @@ Ausgangspunkt ist der konkrete Mandantenfall; Ergebnis ist stets ein verwertbare
 
 1. Rolle des Mandanten bestimmen: Importeur, Exporteur, Investor, Zielunternehmen oder Dienstleister.
 2. Unterlagen sichten: Vertragsentwurf, Lieferschein, Beteiligungsstruktur, Produktliste.
-3. De-risking-Checkliste abarbeiten: Kritische Infrastruktur, kritische Technologie, staatliche Beteiligung CN-Seite.
+3. Für das konkrete Geschäft Risiken aus kritischer Infrastruktur, kritischer Technologie und staatlicher Beteiligung prüfen; keinen allgemeinen Länderbericht vor einen Einzelauftrag stellen.
 4. AWG/AWV-Relevanz prüfen: §§ 55 ff. AWG, §§ 55-62a AWV, Sektoren gem. AWV-Anlage.
 5. BAFA-Dual-Use-Prüfung einleiten: AL-Listung, Catch-All-Klausel, End-User-Zertifikat.
-6. Mandats-Routing: Fachmodul für den dominierenden Rechtsrahmen identifizieren.
+6. Passende Fachmodule optional nutzen und bis zum bestellten Dokument weiterarbeiten. Bei einem Hindernis den bearbeitbaren Teil und benötigten Beitrag nennen, nach Eingang dort fortsetzen. Quellenprüfvermerke getrennt vom Empfängertext halten; keine Zahlung, Bestellung, Anmeldung oder Zustellung ohne Freigabe auslösen.
 
 ## Rechtsrahmen
 

@@ -1,6 +1,6 @@
 ---
 name: soundaufnahme-tontraeger-titel-slogan
-description: "Wenn es um Tonaufnahme und Leistungsschutzrechte in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Tonaufnahme und Leistungsschutzrechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Tonaufnahme und Leistungsschutzrechte
@@ -20,7 +20,7 @@ description: "Wenn es um Tonaufnahme und Leistungsschutzrechte in Urheberrecht D
 
 ## Wofür dieser Arbeitsgang da ist
 
-Dieser Arbeitsgang verhindert den typischen Fehler, nur Komposition und Text zu prüfen, obwohl die Tonaufnahme separat geschützt ist. Er arbeitet nicht mit Bauchgefühl, sondern baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe die Tonaufnahme als eigenständigen Schutzgegenstand neben Komposition und Text. Berücksichtige menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise und bereite das verlangte Ergebnis zu Aufnahme- und Verwertungsrechten vor.
 
 ## Sofortstart
 

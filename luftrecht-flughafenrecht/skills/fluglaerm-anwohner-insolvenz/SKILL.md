@@ -1,6 +1,6 @@
 ---
 name: fluglaerm-anwohner-insolvenz
-description: "Wenn es um Fluglärm und Anwohner – Lärmschutzbereiche und Schallschutzansprüche in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fluglärm und Anwohner – Lärmschutzbereiche und Schallschutzansprüche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fluglärm und Anwohner – Lärmschutzbereiche und Schallschutzansprüche
@@ -76,7 +76,7 @@ Für Mandate im Bereich Luftrecht sind folgende Dokumente regelmäßig anzuforde
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

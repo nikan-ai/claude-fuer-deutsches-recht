@@ -1,6 +1,6 @@
 ---
 name: gema-gvl-verwertungsgesellschaften
-description: "Wenn es um GEMA, GVL und Verwertungsgesellschaften in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für GEMA, GVL und Verwertungsgesellschaften: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # GEMA, GVL und Verwertungsgesellschaften
@@ -20,7 +20,7 @@ description: "Wenn es um GEMA, GVL und Verwertungsgesellschaften in Urheberrecht
 
 ## Wofür dieser Arbeitsgang da ist
 
-GEMA, GVL und Verwertungsgesellschaften schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Kläre die kollektive Rechtewahrnehmung durch GEMA, GVL oder andere Verwertungsgesellschaften. Prüfe dafür Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise und bereite die verlangte Meldungs-, Ausschüttungs- oder Tarifprüfung vor.
 
 ## Sofortstart
 

@@ -1,6 +1,6 @@
 ---
 name: software-dokumentation-gui-api-schutz
-description: "Wenn es um Dokumentation, GUI und API-Schutz in Softwarerecht Deutschland/EU/International/USA geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Dokumentation, GUI und API-Schutz: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Dokumentation, GUI und API-Schutz
@@ -54,3 +54,4 @@ Aktuelle Fassungen, Behördenhinweise, Formulare, Guidance und Rechtsprechung vo
 - Rechtekette, tatsächliche technische Architektur und Vertragstext immer gemeinsam prüfen; eines allein reicht bei Software fast nie.
 - Open Source, AI-Code, Freelancer und Drittland-/US-Bezug immer aktiv suchen, auch wenn die Anfrage nur nach Lizenzvertrag klingt.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen/Docket und frei prüfbarer Quelle nennen; keine BeckRS-/Juris-/Kommentar-Blindzitate.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie Vertrag, Anleitung und tatsächlich ausgelieferten Funktionsumfang. Modellanpassung, Änderung der Zweckbestimmung und wesentliche Systemänderung sind verschiedene Fragen und benötigen jeweils technische Belege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

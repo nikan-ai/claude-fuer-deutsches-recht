@@ -1,6 +1,6 @@
 ---
 name: arbeitsgericht-klage-arbeitsschutz-audit
-description: "Wenn es um Arbeitsgericht Klage in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Arbeitsgericht Klage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Arbeitsgericht Klage
@@ -54,14 +54,3 @@ Erzeuge bevorzugt: Klagebausteine. Wenn der Nutzer nur eine Kurzantwort möchte,
 ## Qualitätsfilter
 
 Vor Ausgabe kontrollieren: Norm aktuell, Quelle frei prüfbar, Sachverhalt nicht ergänzt, Gegenargument genannt, Umsetzungsfolge klar, kein blindes Zitat, keine Scheinsicherheit.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 203 StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

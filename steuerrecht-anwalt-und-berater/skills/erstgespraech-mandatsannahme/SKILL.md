@@ -1,6 +1,6 @@
 ---
 name: erstgespraech-mandatsannahme
-description: "Wenn es um Erstgespraech und Mandatsannahme im Steuerrecht (Beratung und Prozess) in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch und Mandatsannahme im Steuerrecht (Beratung und Prozess): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erstgespraech und Mandatsannahme im Steuerrecht (Beratung und Prozess)
@@ -17,9 +17,6 @@ description: "Wenn es um Erstgespraech und Mandatsannahme im Steuerrecht (Beratu
 3. Interessenkonflikt (§ 43a Abs. 4 BRAO, § 3 BORA): Gegnerin oder Sachzusammenhang bekannt?
 4. Streitwert grob abschätzbar? Stundenhonorar oder RVG (§ 3a RVG: schriftliche Vereinbarung zwingend)?
 5. Ist die Steuersache beim FA, FG oder BFH anhängig — oder noch im Vorverfahren (Einspruchsphase)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Wann dieser Arbeitsgang greift
 

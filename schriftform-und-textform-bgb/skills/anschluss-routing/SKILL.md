@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Schriftform und Textform im BGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Schriftform und Textform im BGB."
 ---
 
 # Anschluss-Routing
@@ -40,25 +40,3 @@ Dieses Anschluss-Routing für **Schriftform Und Textform Bgb** wählt nach dem e
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 46h ArbGG
-- Paragraf 14 TzBfG
-- Paragraf 16 TzBfG
-- Paragraf 15 GmbHG
-- Paragraf 46c ArbGG
-- Paragraf 17 TzBfG
-- Paragraf 16a BeurkG
-- Paragraf 23a GVG
-- Paragraf 113 FamFG
-- Paragraf 2 HRG
-- Paragraf 4 HRG
-- Paragraf 7 HRG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

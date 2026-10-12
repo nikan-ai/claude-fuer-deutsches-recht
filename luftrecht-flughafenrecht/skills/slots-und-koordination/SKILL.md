@@ -1,6 +1,6 @@
 ---
 name: slots-und-koordination
-description: "Wenn es um Slots und Koordination – Slotzuweisung, Verlust und Rechtsschutz in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Slots und Koordination – Slotzuweisung, Verlust und Rechtsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Slots und Koordination – Slotzuweisung, Verlust und Rechtsschutz
@@ -85,7 +85,7 @@ Für Mandate im Bereich Slot-Koordination und Flughafenkapazität sind folgende 
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

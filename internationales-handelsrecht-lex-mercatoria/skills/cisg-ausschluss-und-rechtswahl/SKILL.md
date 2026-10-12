@@ -1,6 +1,6 @@
 ---
 name: cisg-ausschluss-und-rechtswahl
-description: "Wenn es um CISG-Ausschluss und Rechtswahl in Internationales Handelsrecht und Lex Mercatoria geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für CISG-Ausschluss und Rechtswahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # CISG-Ausschluss und Rechtswahl
@@ -24,7 +24,7 @@ Art. 6 CISG erlaubt Parteien, das gesamte CISG oder einzelne Bestimmungen auszus
 - **Rom I VO Art. 3**: Ausdrückliche oder konkludente Rechtswahl
 - **Rom I VO Art. 4**: Subsidiäre Anknüpfung (Verkäuferstatut)
 - **Rom I VO Art. 10 Abs. 1**: Formwirksamkeit nach Vertragsstatut
-- **BGH VIII ZR 304/00 v. 25.11.2002**: Deutsches Recht ohne expliziten CISG-Ausschluss lässt CISG bestehen
+- **BGH, Urteil vom 09.01.2002 - VIII ZR 304/00**: Kollidierende AGB führen im CISG-Anwendungsbereich nicht automatisch zum Dissens; nur die nicht widersprechenden Klauseln gelten, im Übrigen bleibt das CISG maßgeblich
 
 ## Schlüsselbegriffe
 

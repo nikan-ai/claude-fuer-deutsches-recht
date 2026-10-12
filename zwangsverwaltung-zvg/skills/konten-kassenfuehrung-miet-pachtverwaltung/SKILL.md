@@ -1,6 +1,6 @@
 ---
 name: konten-kassenfuehrung-miet-pachtverwaltung
-description: "Wenn es um Konten, Kasse und Buchführung in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Konten, Kasse und Buchführung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Konten, Kasse und Buchführung
@@ -60,10 +60,6 @@ description: "Wenn es um Konten, Kasse und Buchführung in ZVG-Zwangsverwaltung 
 - § 13 ZwVwV
 - § 14 ZwVwV
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Konten/Kassenführung
 
 § 153 ZVG (Einnahmen aus Nutzungen) → § 152 ZVG (Pflichten Verwaltung) → § 13 ZwVwV (Buchführung) → § 14 ZwVwV (Jahresrechnung) → § 675 BGB (Geschäftsbesorgungsvertrag) → § 667 BGB (Herausgabe Treuhandgelder) → § 280 BGB (Schadensersatz Treuhandvermischung)
@@ -90,3 +86,5 @@ Saldo per [DATUM]: [BETRAG] EUR
 Rücklage laufende Kosten: [BETRAG] EUR
 Ausschüttungsfähiger Betrag: [BETRAG] EUR
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

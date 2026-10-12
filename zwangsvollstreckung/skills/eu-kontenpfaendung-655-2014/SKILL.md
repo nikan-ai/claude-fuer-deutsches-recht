@@ -1,13 +1,13 @@
 ---
 name: eu-kontenpfaendung-655-2014
-description: "Wenn es um Europäische Kontenpfändung (EuKtPVO, VO (EU) 655/2014) in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Europäische Kontenpfändung (EuKtPVO, VO (EU) 655/2014): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Europäische Kontenpfändung (EuKtPVO, VO (EU) 655/2014)
 
 ## Arbeitsbereich
 
-Gläubiger hat Schuldner der im EU-Ausland ein Bankkonto haelt und moechte dieses vorlaeufig sichern. EuKtPVO VO (EU) 655/2014 §§ 946 ff. ZPO. Prüfraster: Antrag deutsches Gericht Glaubhaftmachung Anspruch Sicherungsbedürfnis Sicherheitsleistung Drittstaaten-Wirkung alle EU-Mitgliedstaaten außer Daenemark anschließender PfUeB national § 829 ZPO. Output: Antrag Europaeische Kontenpfaendung und Folgepfaendung. Abgrenzung zu zv-pfueb-bank (inlaendisches Konto) und zv-kommandocenter. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Gläubiger hat Schuldner der im EU-Ausland ein Bankkonto haelt und moechte dieses vorlaeufig sichern. EuKtPVO VO (EU) 655/2014 §§ 946 ff. ZPO. Prüfraster: Antrag deutsches Gericht Glaubhaftmachung Anspruch Sicherungsbedürfnis Sicherheitsleistung Drittstaaten-Wirkung alle EU-Mitgliedstaaten außer Daenemark anschließender PfUeB national § 829 ZPO. Output: Antrag Europaeische Kontenpfaendung und Folgepfaendung. Abgrenzung zu pfueb-bank (inlaendisches Konto) und kommandocenter. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -23,10 +23,6 @@ Gläubiger hat Schuldner der im EU-Ausland ein Bankkonto haelt und moechte diese
 2. Liegt ein vollstreckbarer Titel vor oder ist die Hauptsache noch anhängig?
 3. Besteht Sicherungsbedürfnis — droht der Schuldner Vermögen zu verbringen?
 4. Ist die Forderung bezifferbar und fällig?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -143,9 +139,7 @@ Gläubiger hat Schuldner der im EU-Ausland ein Bankkonto haelt und moechte diese
 
 ## Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Schlussanträge GA Szpunar v. 29.7.2019 in C-555/18
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Praxis 2026
 
@@ -156,3 +150,5 @@ Gläubiger hat Schuldner der im EU-Ausland ein Bankkonto haelt und moechte diese
 ## Quellen und Updates
 
 Stand: 05/2026. VO (EU) 655/2014 in Kraft seit 18.1.2017. Durchführungsverordnung (EU) 2016/1823 für Formblätter. §§ 946–959 ZPO als DurchführungsRecht. Bei Reform / DAC9-Erweiterung aktualisieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

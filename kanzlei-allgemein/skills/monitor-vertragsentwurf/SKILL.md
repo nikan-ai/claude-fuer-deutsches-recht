@@ -1,6 +1,6 @@
 ---
 name: monitor-vertragsentwurf
-description: "Wenn es um Fristen- und Action-Monitor in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fristen- und Action-Monitor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fristen- und Action-Monitor
@@ -22,9 +22,6 @@ Scannt Akteninhalt auf Fristen Action-Items Wiedervorlagen und Zustellungen. Anw
 2. Handelt es sich um eine Notfrist (Berufung, Revision, Klage) oder eine einfache Wiedervorfrist?
 3. Welche Verfahrensordnung gilt (ZPO, VwGO, StPO, SGG, FGO, FamFG) — für korrekte Fristberechnung?
 4. Sind alle relevanten Akten-Eingaenge seit dem letzten Fristen-Scan erfasst?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 187-193 BGB — Fristberechnung: Allgemeine Regeln auch für prozessuale Fristen
@@ -82,3 +79,5 @@ Wenn Fristberechnung unsicher ist, nicht stehen bleiben:
 1. konservativ früheste mögliche Frist markieren,
 2. Rückfrage formulieren,
 3. sofortige manuelle Prüfung verlangen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

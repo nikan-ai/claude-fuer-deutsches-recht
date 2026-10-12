@@ -1,6 +1,6 @@
 ---
 name: auslandsschule-rueckkehr
-description: "Wenn es um Auslandsschule und Rückkehr in Schulrecht der Bundesländer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Auslandsschule und Rückkehr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Auslandsschule und Rückkehr
@@ -64,14 +64,3 @@ Auslandsschule und Rückkehr wird als eigenständiger schulrechtlicher Arbeitsga
 - **Angriffspunkte:** Zuständigkeit, Verfahren, Begründung, Tatsachenbasis, Ermessen/Bewertungsspielraum, Verhältnismäßigkeit.
 - **Dokumentenbedarf:** fehlende Akten, Protokolle, Ordnungen, Atteste, Gremienbeschlüsse und Zustellnachweise.
 - **Entwurf:** präziser Antrag oder Schriftsatzbaustein mit Frist, Ziel und Begründung.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 3 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

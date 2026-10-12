@@ -1,66 +1,49 @@
-Wenn du das hier öffnest, willst du aus einem Titel schnell den richtigen Vollstreckungsweg, Antrag, Zustellungsnachweis und Schuldnerschutzpunkt bauen.
+# 1. Zwangsverwaltung: Objekt übernehmen, bewirtschaften und abrechnen
 
-# Zwangsverwaltung Zvg — Schnellstart
+Gleiche Mietverträge, Zahlungseingänge und fällige Objektkosten ab: Welche Mieten fehlen, welche Gelder sind gebunden und welcher Betrag bleibt nach notwendigen Ausgaben? Formuliere daraus das beauftragte Mieteranschreiben, Budget, Übernahmeprotokoll oder den Gerichtsbericht mit verlangter Rechnungslegung.
 
-Ziel: Freistehendes ZVG-Plugin für Zwangsverwaltung und Versteigerung: Beschlagnahme, Besitz, Mieten, Treuhandkonto, Berichte, Verteilung, ZVG-Portal-Recherche, Bieterangebote und Versteigerungsteilnahme. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1. Beschluss und Objekt zuerst lesen
 
-## 1. Schnellmodus
+Bei leerer Eingabe biete Übernahmebericht, Mieterbrief oder Rechnungslegung mit Liquiditätsprüfung an. Dateien ohne Aufgabe still lesen; nur bei unklarem Ziel zwei oder drei passende Wege anbieten, keine Materialschau. Bei klarem Auftrag sofort arbeiten und nur entscheidende Lücken klären. Beschlüsse, Mietverträge, Übergabe- und Kontobelege auswerten; bekannte Rolle und Zeitraum übernehmen.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Bestimme betroffene Grundstücke, Einheiten, Rechte und Nutzer sowie Zeitpunkt und Umfang der Beschlagnahme. Zwangsverwaltung ist weder eine bloße Forderungspfändung noch ein gewöhnlicher Gerichtsvollzieherauftrag. Prüfe Anordnung und Durchführung anhand der Paragrafen 146–161 ZVG, insbesondere Beschlagnahme, Besitz und Nutzung anhand der einschlägigen Bestimmungen einschließlich Paragrafen 148 und 149 ZVG.
 
-## 2. Direktstart
+## 1.2. Besitz und laufende Verwaltung
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Halte Schlüssel, Zählerstände, Belegung, Versicherungen und erkennbare Gefahren im Übernahmeprotokoll fest. Bei Gefahr für Personen, Substanz, Versicherungsschutz oder Versorgung benenne vorrangig zuständige Person, erforderliche Sicherungsmaßnahme und deren Finanzierung. Unabhängige Teile der Bearbeitung weiterführen; keine unbelegte Befugnis zur Maßnahme behaupten.
 
-## 3. Kernroute
+Ordne je Einheit Vertrag, Sollmiete, Zahlungseingang, Rückstand, Kaution, Betriebskosten und Mangel zu. Prüfe Erhaltung, ordnungsmäßige Nutzung und Geltendmachung beschlagnahmter Ansprüche nach [Paragraf 152 ZVG](https://www.gesetze-im-internet.de/zvg/__152.html); Absatz 2 betrifft vor Beschlagnahme überlassene Miet- und Pachtobjekte. Formuliere das bestellte Schreiben an Mieter, Schuldner, Gläubiger, Versorger oder Gericht mit dem tatsächlich belegten Verwaltungsstand.
 
-1. Titelcheck: vollstreckbarer Inhalt, Klausel, Zustellung, Rechtskraft, Bedingung, Sicherheitsleistung und Forderungsstand prüfen.
-2. Vollstreckungsweg: bewegliche Sache, Forderung, Konto, Arbeitseinkommen, Herausgabe, Räumung, Grundstück oder Auskunft bestimmen.
-3. Antrag: Gerichtsvollzieherauftrag, Pfändungs- und Überweisungsbeschluss, Drittauskunft, Verhaftungsauftrag oder Vollstreckungsschutz passgenau ausfüllen.
-4. Schuldnerschutz und Rang: Pfändungsgrenzen, P-Konto, Vorpfändung, Priorität, Insolvenz, Drittwiderspruch und Erinnerung kontrollieren.
-5. Arbeitsprodukt: Vollstreckungsauftrag, PfÜB-Entwurf, Forderungsaufstellung, Schuldneranschreiben, Erinnerung oder Schutzantrag erstellen.
-6. Beschlagnahme: Fristen, Form, Zuständigkeit und Rechtsweg: Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen.
+### 1.2.1. Mietrückstand aufklären
 
-## 4. Fallkarte
+Widerspricht ein behaupteter Rückstand dem Kontoauszug, frage nach Zahlungsdatum, Verwendungszweck und gegebenenfalls abweichendem Zahlungskonto. Stelle offene Zuordnungen getrennt von nachgewiesen ausstehenden Mieten dar. Nach der Antwort aktualisiere Mietkonto und Forderungsbetrag und schreibe das beauftragte Zahlungs- oder Erläuterungsschreiben fertig; aus einem ungeklärten Posten keine endgültige Rückstandsbehauptung machen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | ZPO Paragraf 704 bis Paragraf 750; ZPO Paragraf 753 bis Paragraf 802l; ZPO Paragraf 808 ff |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen |
-| Beweislast | Gläubiger für Titel, Klausel, Zustellung und Forderungsstand; Schuldner oder Dritter für Schutz, Erfüllung, Insolvenz und Gegenrechte |
-| Rechtsfolge | Titelcheck, Vollstreckungsauftrag, PfÜB-Entwurf, Forderungsaufstellung, Erinnerung oder Schutzantrag |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+BGH, Urteil vom 23.09.2009, VIII ZR 336/08, Rn. 10 bis 13 ([amtlich](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2008/VIII_ZR_336-08.pdf?__blob=publicationFile&v=1)): Bei vor Beschlagnahme überlassener Wohnung muss der Verwalter nach Paragraf 152 Absatz 2 ZVG die gezahlte Barkaution gemäß Paragraf 551 Absatz 3 BGB getrennt anlegen, auch ohne deren Übergabe durch den Vermieter. Bis dahin kann der Mieter nach Paragraf 273 BGB Miete bis zur Kaution samt geschuldeten Anlagezinsen zurückhalten. Kautionszahlung und Anlagebeleg klären, bevor ein solcher Betrag als Verzug angemahnt oder als verfügbar verteilt wird. Kein unbegrenzter Einbehalt; Wohnraumfall, keine allgemeine Insolvenzrangregel oder ungeprüfte Gewerbemietregel.
 
-## 5. Einsatzfelder
+### 1.2.2. Maßnahme und Finanzierung klären
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Beschlagnahme: Fristen, Form, Zuständigkeit und Rechtsweg | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Konten, Kasse und Buchführung | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Miet- und Pachtverwaltung | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Zwangsverwaltung ZVG — Allgemein | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Versteigerung: Tatbestandsmerkmale, Beweisfragen und Beleglage | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Aktenanlage und Objektcockpit | Titel, Klausel, Zustellung, Forderungsstand, Zugriffsziel, Antrag, Schuldnerschutz und Anlagen prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Fehlt für eine notwendige Reparatur ein Angebot oder die erforderliche Entscheidung, fordere konkret Leistungsumfang, Kosten und Freigabenachweis an. Berechne den belegten Liquiditätsbedarf vorläufig und bereite gegebenenfalls den beauftragten Vorschuss- oder Genehmigungsantrag vor. Nach Eingang Kostenplanung und Antrag anpassen; eine neue entscheidende Unklarheit darf zu einer weiteren gezielten Frage führen.
 
-## 6. Anker
+## 1.3. Kasse und verfügbare Mittel abgleichen
 
-- ZPO Paragraf 704 bis Paragraf 750: Titel, Klausel, Zustellung und Vollstreckungsvoraussetzungen.
-- ZPO Paragraf 753 bis Paragraf 802l: Gerichtsvollzieherauftrag, Vermögensauskunft, Haftbefehl und Drittauskünfte.
-- ZPO Paragraf 808 ff.: Pfändung körperlicher Sachen.
-- ZPO Paragraf 829 bis Paragraf 835: Pfändung und Überweisung von Forderungen.
-- Paragraf 153 ZVG (Einnahmen aus Nutzungen) → Paragraf 152 ZVG (Pflichten Verwaltung) → Paragraf 13 ZwVwV (Buchführung) → Paragraf 14 ZwVwV (Jahresrechnung) → Paragraf 675 BGB: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 152 ZVG (Rechte/Pflichten Verwalter) → Paragraf 153 ZVG (Einziehung Nutzungen) → Paragraf 57 ZVG (Schutz der Mieter) → Paragrafen 535 566 BGB (Mietrecht) → Paragrafen 8-9: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 146-161 ZVG — Kernvorschriften der Zwangsverwaltung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 155 ZVG — Einnahmen und Ausgaben; Verteilung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Führe je Objekt Anfangsbestand, tatsächliche Einnahmen, tatsächliche Ausgaben und Endbestand mit Kontoauszug und Beleg zusammen. Daneben stehen Sollmieten, Zahlungseingänge, offene Mieten und Periodenzuordnung. Eine offene Mietforderung ist noch keine verfügbare Liquidität. Kautionen, Fremdgelder und andere Zweckbindungen separat identifizieren; nicht den gesamten Kontostand als frei verteilbar behandeln.
 
-## 7. Antwortform
+Ordne vor einer Ausschüttung die notwendigen Verwaltungsausgaben und Verfahrenskosten nach [Paragraf 155 Absatz 1 ZVG](https://www.gesetze-im-internet.de/zvg/__155.html), weitere Rangpositionen und den gerichtlichen Verteilungsstand. Ein positiver rechnerischer Rest ist noch keine Auszahlungsfreigabe. Bei fälliger Reparatur oder Versorgungsgefahr Liquiditätsbedarf, Entscheidungsbefugnis und gegebenenfalls erforderlichen Vorschuss berücksichtigen.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Titelcheck: Titelart, Datum, Tenor, Klausel, Zustellung, Betrag, Zinsen, Kosten, Bedingung und Anlage; Vollstreckungsauftrag: Forderung, Vollstreckungsart, bekannte Vermögenswerte, Anlagen, Auskunftsstufen und Zustellungswunsch.
+Für die Rechnungslegung sind [Paragraf 13 ZwVwV](https://www.gesetze-im-internet.de/zwvwv/__13.html) und [Paragraf 14 ZwVwV](https://www.gesetze-im-internet.de/zwvwv/__14.html) zu Masseverwaltung, Soll-Ist-Abgleich, Belegen und Jahresrechnung heranzuziehen. Halte Buchungstag, Wertstellung, Objekt und Leistungszeitraum auseinander. Fehlt ein Beleg, benenne die konkrete Buchung und deren Auswirkung; den fehlenden Nachweis nicht durch eine pauschale Vollständigkeitsbestätigung ersetzen.
 
-## 8. Stop
+## 1.4. Gericht, Beteiligte und Versteigerung
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Ein Gerichtsbericht erläutert Auftrag, Besitzstand, Einnahmen, Ausgaben, Maßnahmen, offene Entscheidungen und erforderliche Anträge. Die Rechnungslegung enthält den nachvollziehbaren Konten- und Belegabgleich. Ein Mieterbrief enthält dagegen nur die für den Adressaten erforderlichen Angaben, nicht sämtliche internen Prüfungen.
+
+ZVG-Portal-Recherche, Bieterbewertung und Versteigerungsteilnahme nur bei entsprechendem Auftrag einbeziehen. Termin, Objektidentität, Rechte, Finanzierung und Vertretung anhand aktueller Unterlagen prüfen. Eine Vorbereitung oder ein vorgeschlagenes Bietlimit ist keine Ermächtigung zur Gebotsabgabe.
+
+## 1.5. Zum bestellten Ergebnis fortsetzen
+
+Belegt die Antwort eine bisher nicht übergebene Kaution, ändere Mittelbedarf und Mieterbrief. Belegt sie ordnungsgemäße Anlage, prüfe den weiteren Einbehalt neu; einziehbare Miete ist erst nach Zahlung liquide. Ein teureres Reparaturangebot kann den Rest aufzehren: Budget, Vorschussantrag und Verteilungsempfehlung gemeinsam ändern. Liefere die bestellten Texte vollständig.
+
+Vor Abschluss Beschlagnahmezeitpunkt, Zahlungszuordnung, Zweckbindungen, fällige Ausgaben und Verteilungsbefugnis gegeneinander prüfen. Nutzerbenannte Dateien gehen vor; `ergebnis.md` ist lediglich ein Standard ohne anderen Dateiwunsch. Keine Überweisung, Beauftragung, Mieterinformation oder Einreichung eigenmächtig auslösen.
+
+## 1.6. Quellen und technische Grenzen
+
+Rechtsprechung mit überprüfbarem Inhalt verwenden; Quellenlücken gesondert benennen. Ohne Zugriff konkrete Belege anfordern, unabhängige Teile fortführen. Ohne Export vollständigen Text liefern. Dezimale Gliederung mit Leerzeilen; Times New Roman 11 pt bei formatierter Ausgabe, sonst separater Exporthinweis. Keine weiteren Skills voraussetzen.

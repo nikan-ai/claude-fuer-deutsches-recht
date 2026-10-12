@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kartellrecht — Marktabgrenzungsprüfung."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Kartellrecht Marktabgrenzung Prüfung** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -36,7 +34,7 @@ Dieser Dokumenten-Intake für **Kartellrecht Marktabgrenzung Prüfung** ordnet A
 - `alternative-marktdefinition-weit` — Alternative Marktdefinition Weit
 - `angebotsumstellung-evidenz-flags-red-team-korrektur` — Angebotsumstellung Evidenz Flags RED Team Korrektur
 - `anmeldepflicht-joint-venture` — Anmeldepflicht Joint Venture
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `einstieg-routing` — 1. Kartellrechtlichen Prüfauftrag bearbeiten
 - `art-101-aeuv-kooperationspruefung-einstieg` — ART 101 Aeuv Kooperationspruefung Einstieg
 - `art-101-aeuv-tatbestand-vereinbarung-beschluss-abgestimmte-verha` — ART 101 Aeuv Tatbestand Vereinbarung Beschluss Abgestimmte Verha
 - `einstieg-routing` — Einstieg Routing

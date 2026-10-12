@@ -1,6 +1,6 @@
 ---
 name: aggregation-spaltenprompts-definieren
-description: "Wenn es um /tabellenreview-3d:risikoampel-aggregation in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Aggregation Spaltenprompts Definieren; Arbeitsfeld: Tabellenreview 3D."
+description: "Für /tabellenreview-3d:risikoampel-aggregation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /tabellenreview-3d:risikoampel-aggregation
@@ -22,7 +22,6 @@ description: "Wenn es um /tabellenreview-3d:risikoampel-aggregation in Tabellenr
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Aggregationsstufen
 
@@ -52,7 +51,7 @@ Worst-of-Worst-Konsolidierung: wenn irgendein Arbeitsblatt rot ist und irgendein
 
 ## Schweregrad-Boden
 
-Wenn ein Skill ein Finding mit einem Schweregrad produziert und ein anderer Skill (z. B. `kreuzblatt-konsistenzpruefung`) ihn ändern will, gilt der vorgelagerte Schweregrad als BODEN — eine rote Zelle kann nicht still nach gelb verschoben werden, nur dokumentiert überschrieben.
+Wenn ein Skill einen Befund mit einem Schweregrad ausgibt und ein anderer Skill (z. B. `kreuzblatt-konsistenzpruefung`) ihn ändern will, gilt der zuvor festgelegte Schweregrad als Untergrenze: Eine rote Zelle kann nicht stillschweigend auf Gelb herabgestuft, sondern nur mit Dokumentation überschrieben werden.
 
 ## Ausgabe
 
@@ -67,24 +66,4 @@ Wenn ein Skill ein Finding mit einem Schweregrad produziert und ein anderer Skil
 
 Vor Mandatsabnahme müssen ALLE Zellen mit `prüfer-flag` durch den Prüfer abgehakt sein. Ohne Prüfer-Abnahme darf das Aggregat nicht an Mandanten gehen.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 2 JVEG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- § 29 VwVfG
-- § 1 KSchG
-- § 7 KSchG
-- § 102 BetrVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

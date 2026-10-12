@@ -1,6 +1,6 @@
 ---
 name: orientierung-mandat-fachanwaltschaft
-description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Vergaberecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Vergaberecht."
 ---
 
 # Orientierung im Fachanwaltsrecht Vergaberecht: FAO-Voraussetzungen, EU-Schwellen, Nachprüfungsverfahren, Kernliteratur überblicken
@@ -80,7 +80,6 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Verg
 
 ### Schlüssel-Leitsaetze Vergaberecht 2020-2024
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Überblick Vergaberecht
 | Regelwerk | Anwendungsbereich |
@@ -107,3 +106,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Prüfe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
 - Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
 - Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

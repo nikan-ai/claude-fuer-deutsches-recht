@@ -1,6 +1,6 @@
 ---
 name: vergleichsverhandlung-strategie
-description: "Wenn es um Vergleichsverhandlung Strategie in Fachanwalt Transport Speditionsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleichsverhandlung Strategie: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: Fachanwalt Transport Speditionsrecht."
 ---
 
 # Vergleichsverhandlung im Transport- und Speditionsrecht strategisch vorbereiten: BATNA, Angebotsstrategie
@@ -170,4 +170,4 @@ Klassische Stolperfalle in Transport-, Speditions- und Logistikrecht:
 
 ## Aktuelle Rechtsprechung Vergleich Transportrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

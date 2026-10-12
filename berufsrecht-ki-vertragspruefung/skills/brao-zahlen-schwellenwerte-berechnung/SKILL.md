@@ -1,6 +1,6 @@
 ---
 name: brao-zahlen-schwellenwerte-berechnung
-description: "Wenn es um Brao: Zahlen, Schwellenwerte und Berechnung in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für BRAO: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: brao-zahlen-schwellenwerte-berechnung."
 ---
 
 # Brao: Zahlen, Schwellenwerte und Berechnung
@@ -41,4 +41,5 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 Berufshaftpflicht wird typischerweise nach Sozietätsgröße und Schadensvolumen kalkuliert; KI-Einsatz erhöht die Schadensanfälligkeit, kann aber durch Hinweispflicht (Aufklärung des Mandanten) abgemildert werden. Versicherer fragen zunehmend nach Tool-Inventar; falsche Angabe kann Leistungsfreiheit auslösen (§ 19 VVG).
 
 ## Bußgeldrahmen DSGVO (parallel anwendbar)
-Bei DSGVO-Verstoß durch KI-Einsatz: bis **20 Mio. EUR oder 4 % weltweiter Konzernumsatz** (Art. 83 Abs. 5). KI-VO addiert bei verbotenen Praktiken bis **35 Mio. EUR oder 7 % weltweiter Konzernumsatz** (Art. 99 Abs. 3 KI-VO).
+Datenschutz- und KI-Sanktionen getrennt nach Tatbestand, Rolle, Zeitraum und Konkurrenzregeln prüfen. Artikel 99 Absatz 3 KI-Verordnung betrifft Artikel-5-Verstöße, Absatz 4 die dort genannten weiteren Pflichten. Höchstbeträge nicht mechanisch addieren; Absätze 6 und 6a enthalten Unternehmensgrößen-Sonderregeln. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

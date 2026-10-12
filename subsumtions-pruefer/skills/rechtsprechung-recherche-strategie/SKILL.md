@@ -1,6 +1,6 @@
 ---
 name: rechtsprechung-recherche-strategie
-description: "Wenn es um Rechtsprechung-Recherche-Strategie in Subsumtions-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Rechtsprechung-Recherche-Strategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Rechtsprechung-Recherche-Strategie
@@ -58,7 +58,7 @@ BGH-Entscheidungen haben grundsätzlich Vorrang; OLG-Rechtsprechung nur relevant
 
 ### Schritt 5 — Zitierweise
 - Gericht + Entscheidungsform + Datum + Aktenzeichen + Fundstelle
-- Beispiel: BGH, Urteil v. TT.MM.JJJJ, Az. X ZR 123/45, dejure.org [Prüfpunkt: live verifiziert?]
+- Zitiermuster: [Gericht], [Entscheidungsform] vom [Datum], [Aktenzeichen], [amtliche URL] [Prüfpunkt: Volltext und tragende Aussage live verifiziert?]
 
 ## Wann reicht das Systemwissen?
 

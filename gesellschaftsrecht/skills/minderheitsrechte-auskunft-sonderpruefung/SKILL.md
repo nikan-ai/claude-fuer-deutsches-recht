@@ -1,6 +1,6 @@
 ---
 name: minderheitsrechte-auskunft-sonderpruefung
-description: "Wenn es um Minderheitsrechte, Auskunft und Sonderprüfung in Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Minderheitsrechte, Auskunft und Sonderprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 # Minderheitsrechte, Auskunft und Sonderprüfung
 
@@ -41,4 +41,4 @@ Nutze diesen Skill, wenn Minderheitsgesellschafter Informationen verlangen, Miss
 
 ## Output
 
-Gib ein Anspruchsschreiben, eine Einwandmatrix und einen gerichtlichen Durchsetzungsfahrplan in Stichpunkten aus.
+Gib ein vollständig ausformuliertes Anspruchsschreiben, eine Einwandmatrix und einen gerichtlichen Durchsetzungsfahrplan mit konkreten Anträgen, Fristen und Belegen aus.

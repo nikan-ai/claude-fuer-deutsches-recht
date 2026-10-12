@@ -1,6 +1,6 @@
 ---
 name: mahnschreiben-aufnahme
-description: "Wenn es um Mahnschreiben-Intake in Prozessrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mahnschreiben-Intake: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mahnschreiben-Intake
@@ -81,7 +81,6 @@ description: "Wenn es um Mahnschreiben-Intake in Prozessrecht geht: prüft Frist
 Verbindlich: `../references/zitierweise.md`.
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Risiken / typische Fehler
 

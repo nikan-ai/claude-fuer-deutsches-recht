@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "plugin": "venture-capital-geber",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/BJNR004770892.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtliche Gesamtausgabe, Paragrafen 53 bis 55 gelesen, nachdem Einzelabrufe gestört waren: Beschluss, Form, zusätzliche Leistungspflichten, Registerwirkung und Übernahmeerklärung bleiben von wirtschaftlicher Rechenquote getrennt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Volltext gelesen: Umfang von Nutzungsrechten und Vertragszweck als Grundlage der konkreten IP-Nachforderung; Bezahlung allein ersetzt keinen nachgewiesenen Rechteumfang."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__55.html",
+      "checked_on": "2026-09-14",
+      "supports": "Geöffneter Volltext: Form der Übernahmeerklärung bei Kapitalerhöhung; Cap-Table-Rechnung ersetzt den rechtlichen Vollzug nicht."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_275-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 12.04.2016 - II ZR 275/14, Rn. 13 bis 19 und 23: Erzwungene Zustimmung nur bei objektiv unabweisbarer Maßnahme zur Werterhaltung oder Schadensvermeidung und Zumutbarkeit prüfen; Alternativen und Eigeninteressen des Abstimmenden konkret würdigen. Grenze: Bloße Zweckmäßigkeit und Mehrheitswille genügen nicht. Der Standortfall entscheidet keine generelle Nachschuss- oder Finanzierungsverpflichtung; missbräuchlicher Sondervorteil war dort nicht festgestellt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Bei blockiertem Follow-on wird ein Zustimmungsanspruch nicht aus wirtschaftlicher Nützlichkeit abgeleitet; II ZR 275/14 verlangt Unabweisbarkeit und Zumutbarkeit. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Am 23. September vollständig erneut gelesen: drei Dokumenteinstiege und vollständiges Poolbeispiel ergänzt, pauschale Aufnahmefragen ersetzt; unter 7500 Bytes und Zeichen.",
+    "changes": [
+      "Standortentscheidung nur begründet auf die Blockadeprüfung übertragen, nicht als VC-Finanzierungsurteil ausgegeben.",
+      "Alternative Finanzierung, konkrete drohende Nachteile und Belastung des Investors prüfen.",
+      "Gesellschaftsrechtliche Mehrheit und Zustimmung zu erhöhten Leistungspflichten auseinandergehalten.",
+      "Pooldefinition führt zur korrigierten Beteiligungsrechnung und Klausel; wirtschaftliche Recheneinheiten bleiben vom GmbH-Nennkapital getrennt."
+    ],
+    "sha256": "3304e432ed52b508eca455f27b1407bde981beddcd390763bb6e6e85c92f98e5"
+  },
+  "selection": {
+    "positive": [
+      "Rechne die Verwässerung unseres VC-Tickets einschließlich der Poolaufstockung vor der Runde nach.",
+      "Bereite eine Investitionsvorlage mit Cap Table, Kontrollrechten und Closing-Lücken vor."
+    ],
+    "negative": [
+      "Erstelle ausschließlich die Steuererklärung eines privaten Aktionärs.",
+      "Prüfe einen vollständigen Asset Deal ohne Finanzierungsrunde oder Minderheitsbeteiligung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "pool-pre-money-verwasserung",
+      "request": "Erstelle ergebnis.md als Investitionsvorlage mit rechnerischem Cap Table. Die Gründer halten zusammen 8.000 wirtschaftliche Recheneinheiten. Das Term Sheet definiert 8 Millionen Euro Pre-Money ausdrücklich einschließlich eines vor der Runde neu einzurichtenden Pools von 2.000 weiteren Recheneinheiten. Ein Investor zahlt 2 Millionen Euro ausschließlich als Primärkapital. Es gibt keine Wandeldarlehen, weiteren Optionen, Transaktionskosten oder Sekundärverkäufe. Die Einheiten sind nur eine Bewertungsrechnung, keine behaupteten GmbH-Nennbeträge. Zeige Preis pro Einheit, neue Investoreneinheiten, Quoten und die erforderliche Abgrenzung zum rechtlichen Vollzug. Es liegen noch keine notariellen Erklärungen vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Rechnung verwendet 10.000 Einheiten vor der Runde und 800 Euro je Einheit; der Investor erhält rechnerisch 2.500 Einheiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Post-Runden-Quoten werden mit Gründer 64 Prozent, Pool 16 Prozent und Investor 20 Prozent konsistent auf 12.500 Einheiten berechnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Ergebnis setzt die Recheneinheiten nicht mit Nennkapital gleich und behauptet ohne formgerechte Übernahme und weitere Vollzugsprüfung keinen bereits entstandenen Geschäftsanteil.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "cap-table-grundlagen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt bindet den Treuepflichtmaßstab in Down-Round- und Follow-on-Entscheidungen ein und unterscheidet bestehende Mitwirkungspflichten von neuer Kapitalbereitstellung. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Am 23. September vollständig erneut gelesen: Pool, Primär-/Secondary-Geldfluss, Erlösverteilung, Follow-on-Alternativen und IP-Closing-Bedingung als konkrete Antwortpfade ausgebaut.",
+    "changes": [
+      "Standortentscheidung nur begründet auf die Blockadeprüfung übertragen, nicht als VC-Finanzierungsurteil ausgegeben.",
+      "Alternative Finanzierung, konkrete drohende Nachteile und Belastung des Investors prüfen.",
+      "Gesellschaftsrechtliche Mehrheit und Zustimmung zu erhöhten Leistungspflichten auseinandergehalten.",
+      "Abweichende Poolbasis und Sekundärkaufpreis verändern Cap Table, Liquiditätsreichweite und Term-Sheet-Definition.",
+      "Finanzierungsalternative verändert begrenzte Treuepflichtbewertung; IP-Vertrag oder Nutzungsbeanstandung verändert Offenlegung, Absicherung und konkrete Closing-Bedingung."
+    ],
+    "sha256": "e6241384de08bcddf5b2a74196f7f66c66441b42566b5ad430c216668acbe6e8"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Investitionsvorlage mit Verwässerungsrechnung, Term-Sheet-Klausel oder Closing-Vermerk anbieten.",
+      "Dateien ohne Aufgabe: Term Sheet, Cap Table und Beteiligungsbelege still lesen; nur bei offenem Ziel passende Dokumentwege anbieten.",
+      "Klarer Auftrag: sofort rechnen oder entwerfen; ausschließlich entscheidenden Pool-, Wandlungs-, Rechte- oder Vollzugsparameter erfragen."
+    ],
+    "continuation": "Pooldefinition -> Beteiligungsrechnung und Term-Sheet-Klausel; Finanzierungsalternative -> Follow-on-Vermerk; IP-Nachtrag oder Beanstandung -> Offenlegung, Freistellung und Closing-Bedingung.",
+    "enrichment": "Konkretes 64/16/20-Poolbeispiel, Primär-/Secondary-Trennung, nicht teilnehmende Präferenz, enge Zustimmungspflicht bei Veto und IP-Befund bis zur überprüfbaren Vollzugsbedingung.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "venture-capital-geber/README.md",
+      "venture-capital-geber/venture-capital-geber-schnellstart.md",
+      "venture-capital-geber/venture-capital-geber-werkstatt.md",
+      "quality/evals/venture-capital-geber.json"
+    ],
+    "opening_change": "Post-Money-Beteiligung, Option Pool, Mittelverwendung und vertragliche Mitwirkungsrechte bestimmen den Investmentfall.",
+    "norms": [
+      "BGB Paragraf 242",
+      "GmbHG Paragraf 47",
+      "GmbHG Paragraf 53 Absatz 2 bis 4"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 12.04.2016 - II ZR 275/14, Rn. 13 bis 19 und 23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_275-14.pdf?__blob=publicationFile&v=1",
+        "application": "Erzwungene Zustimmung nur bei objektiv unabweisbarer Maßnahme zur Werterhaltung oder Schadensvermeidung und Zumutbarkeit prüfen; Alternativen und Eigeninteressen des Abstimmenden konkret würdigen.",
+        "limit": "Bloße Zweckmäßigkeit und Mehrheitswille genügen nicht. Der Standortfall entscheidet keine generelle Nachschuss- oder Finanzierungsverpflichtung; missbräuchlicher Sondervorteil war dort nicht festgestellt."
+      }
+    ],
+    "remaining_limits": [
+      "KAGB-/BaFin-, US-Securities- und ausländische SAFE-Fragen nicht umfassend geprüft; keine allgemeine Follow-on-Finanzierungspflicht.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen."
+    ]
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "venture-capital-geber/references/ki-normen-und-fallpruefung.md",
+    "focus": "Verbinden Sie Aussagen zur Produktreife mit belastbaren Systemtests, Rollen und geltenden Pflichtenterminen. Ein ISO-Zertifikat des Dienstleisters darf keine unbeschränkte Garantie des Startups begründen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

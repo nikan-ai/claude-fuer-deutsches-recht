@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "plugin": "richter-bverfg-verfassungsbeschwerden",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bverfgg/__93a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Annahmegründe grundsätzlicher Bedeutung und angezeigter Grundrechtsdurchsetzung sind eigenständig zu prüfen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2024/05/rk20240517_2bvr145723.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Kammerbeschluss vom 17. Mai 2024, 2 BvR 1457/23, Rn. 9 bis 16: Fehlender tragfähiger Schluss von Haltereigenschaft auf Täterschaft als Willkür; auch geringer Betrag schließt Annahme nicht aus. Grenze: Keine erneute freie Beweiswürdigung; begründete Zeugenabwägung nicht gleichsetzen und andere Grundrechtsmaßstäbe nicht auf Willkür reduzieren. Amtliche tragende Gründe gelesen; keine Vollverifikation der gesamten Materie."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/09/rk20250923_2bvr062525.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Kammerbeschluss vom 23. September 2025, 2 BvR 625/25, Rn. 18 bis 23: Pauschale Anlagenverweise und abweichender Sachverhalt ersetzen keine Auseinandersetzung mit tragenden Gründen. Grenze: ANOM-Verfahren; Darlegungsmaßstab übertragbar, keine allgemeine Billigung fremder Datenerhebung. Amtliche tragende Gründe gelesen; keine Vollverifikation der gesamten Materie."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gg/art_94.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktuelle Zuständigkeitsnorm für Verfassungsbeschwerden in Absatz 1 Nummer 4a."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bverfgg/__93a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Annahmegründe von Zulässigkeit und materieller Grundrechtsprüfung unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bverfgg/__93.html",
+      "checked_on": "2026-09-23",
+      "supports": "Tragende Alternativgründe, Anlagen versus Substantiierung, interne Annahmeprüfung versus Beschlusstext und zeitgebundener Eiltenor. Quellenstatus: Paragrafen 93 und 93a erneut amtlich gelesen; vorhandene Entscheidungsnachweise mit ihren Anwendungsgrenzen erhalten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bverfgg/__93a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Tragende Alternativgründe, Anlagen versus Substantiierung, interne Annahmeprüfung versus Beschlusstext und zeitgebundener Eiltenor. Quellenstatus: Paragrafen 93 und 93a erneut amtlich gelesen; vorhandene Entscheidungsnachweise mit ihren Anwendungsgrenzen erhalten."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Lektüre und Workflow-Vertiefung: Eingangsnachweis -> zeitgerechte Rügen und neue Ergänzungen trennen; Vollzugsverschiebung -> Eilfolgen ändern. Desk review, keine Live-Client-Ausführung.",
+    "changes": [
+      "Rechtzeitig erhobene Grundrechtsrügen mit tragenden Urteilsgründen statt erneuter Fachrechtsinstanz abgleichen.",
+      "Aktuelle Zuständigkeitsnorm Artikel 94 GG und fallbezogene Willkürprüfung in beide Prompts aufgenommen.",
+      "Unverifizierte Klassikerliste durch gezielte materielle Recherche ersetzt; gerichtliche Neutralität, Annahme, Eilrechtsschutz und Entscheidungsbefugnisse bewahrt.",
+      "Eingangsnachweis -> zeitgerechte Rügen und neue Ergänzungen trennen; Vollzugsverschiebung -> Eilfolgen ändern.",
+      "Tragende Alternativgründe, Anlagen versus Substantiierung, interne Annahmeprüfung versus Beschlusstext und zeitgebundener Eiltenor."
+    ],
+    "sha256": "d90d8efb7f7a543759b6a5d9199688c4da9b043cac864f7444ac98c32a15acdc",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie ein Kammervotum zur Annahme dieser Verfassungsbeschwerde.",
+      "Prüfen Sie aus gerichtlicher Sicht die Substantiierung anhand der Anlagen."
+    ],
+    "negative": [
+      "Verfassen Sie meine Verfassungsbeschwerde gegen das Mieturteil.",
+      "Entwerfen Sie eine abstrakte Normenkontrolle einer Landesregierung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "fachfehler-ohne-grundrechtsbezug",
+      "request": "Erstellen Sie ergebnis.md als internen Kammervermerk. Die fristgerecht eingegangene Verfassungsbeschwerde richtet sich gegen ein letztinstanzliches Zivilurteil über 4.000 Euro. Rechtsweg und sonstige Formvoraussetzungen sind für den Auftrag als erfüllt zu behandeln. Beschwerdeschrift und Urteil liegen inhaltlich vollständig vor: Das Urteil würdigt zwei widersprüchliche Zeugen und begründet, weshalb es Zeugin T folgt. Die Beschwerde lautet in der Sache ausschließlich, Zeuge S sei glaubwürdiger; genannt werden Artikel 3 und 103 GG ohne weitere Ausführung. Ein übergangener Beweisantrag, eine unterbliebene Anhörung oder eine grundsätzliche Rechtsfrage werden nicht behauptet. Prüfen Sie Darlegung und Annahme, ohne neue Tatsachen hinzuzufügen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt das Fehlen einer konkret dargelegten spezifischen Verfassungsverletzung und ersetzt dies nicht durch eigene neue Rügen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft Annahmegründe getrennt von der allgemeinen Unzufriedenheit mit der Beweiswürdigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert einen neutralen Vermerk und keine erneute vollständige fachgerichtliche Zeugenbewertung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "01-annahme-pruefung-paragraf-93a"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Lektüre und Workflow-Vertiefung: Tragende Alternativgründe, Anlagen versus Substantiierung, interne Annahmeprüfung versus Beschlusstext und zeitgebundener Eiltenor. Desk review, keine Live-Client-Ausführung.",
+    "changes": [
+      "Aktuelle Zuständigkeitsnorm Artikel 94 GG und fallbezogene Willkürprüfung in beide Prompts aufgenommen.",
+      "Unverifizierte Klassikerliste durch gezielte materielle Recherche ersetzt; gerichtliche Neutralität, Annahme, Eilrechtsschutz und Entscheidungsbefugnisse bewahrt.",
+      "Eingangsnachweis -> zeitgerechte Rügen und neue Ergänzungen trennen; Vollzugsverschiebung -> Eilfolgen ändern.",
+      "Tragende Alternativgründe, Anlagen versus Substantiierung, interne Annahmeprüfung versus Beschlusstext und zeitgebundener Eiltenor."
+    ],
+    "sha256": "d6159e51b2f548155867a23697906937b33cd254b5000098536a8c934d2ee293",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "gerichtsplugins/richter-bverfg-verfassungsbeschwerden/README.md",
+      "gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-werkstatt.md",
+      "gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-schnellstart.md",
+      "quality/evals/richter-bverfg-verfassungsbeschwerden.json"
+    ],
+    "opening_change": "Rechtzeitig erhobene Grundrechtsrügen mit tragenden Urteilsgründen statt erneuter Fachrechtsinstanz abgleichen.",
+    "norms": [
+      "Artikel 94 Absatz 1 Nummer 4a, 3 Absatz 1 und 103 Absatz 1 GG",
+      "Paragrafen 23 Absatz 1 Satz 2, 90, 92, 93, 93a bis 93d und 95 BVerfGG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Kammerbeschluss vom 17. Mai 2024, 2 BvR 1457/23, Rn. 9 bis 16",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2024/05/rk20240517_2bvr145723.html",
+        "application": "Fehlender tragfähiger Schluss von Haltereigenschaft auf Täterschaft als Willkür; auch geringer Betrag schließt Annahme nicht aus.",
+        "limit": "Keine erneute freie Beweiswürdigung; begründete Zeugenabwägung nicht gleichsetzen und andere Grundrechtsmaßstäbe nicht auf Willkür reduzieren.",
+        "checked_on": "2026-09-22"
+      },
+      {
+        "citation": "BVerfG, Kammerbeschluss vom 23. September 2025, 2 BvR 625/25, Rn. 18 bis 23",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/09/rk20250923_2bvr062525.html",
+        "application": "Pauschale Anlagenverweise und abweichender Sachverhalt ersetzen keine Auseinandersetzung mit tragenden Gründen.",
+        "limit": "ANOM-Verfahren; Darlegungsmaßstab übertragbar, keine allgemeine Billigung fremder Datenerhebung.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Amtliche Entscheidungsgründe und Annahmenorm geprüft; nicht sämtliche materiellen Grundrechtsgebiete oder interne Geschäftsverteilung verifiziert.",
+      "Desk-/Quellenreview, kein Live-Gerichts- oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: Paragrafen 93 und 93a erneut amtlich gelesen; vorhandene Entscheidungsnachweise mit ihren Anwendungsgrenzen erhalten. Desk review; kein Live-Client-Test."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-schnellstart.md",
+        "gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-werkstatt.md"
+      ],
+      "result": "Haltereigenschaft allein und qualifizierte Tatsachenwürdigung werden getrennt. ANOM-Beschwerde liefert Darlegungsanforderungen, keine allgemeine Billigung ausländischer Ermittlungsmaßnahmen.",
+      "search_2026": "Amtliche Pressemitteilung 20/26 vom 18.03.2026 gefunden, kein gelesener einschlägiger Volltext zu den bestehenden Halter-/ANOM-Ankern. Nicht als neue Entscheidung ausgegeben.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Annahmevotum, Grundrechtsprüfung oder Eilentwurf auswählen.",
+      "Beschwerde, Anlagen und Eingangsbelege still lesen; nur Ziel klären.",
+      "Bestellte Rügen- oder Annahmeprüfung unmittelbar bearbeiten."
+    ],
+    "continuation": "Eingangsnachweis -> zeitgerechte Rügen und neue Ergänzungen trennen; Vollzugsverschiebung -> Eilfolgen ändern.",
+    "enrichment": "Tragende Alternativgründe, Anlagen versus Substantiierung, interne Annahmeprüfung versus Beschlusstext und zeitgebundener Eiltenor.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/richter-bverfg-verfassungsbeschwerden/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für Verfassungsbeschwerde technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

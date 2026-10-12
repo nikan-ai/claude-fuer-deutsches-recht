@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "plugin": "franchiserecht-praxis",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R0720",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 3 Marktanteilsschwelle und Artikel 4 Buchstabe a Preisbindung einschließlich durch Druck wirkender Preisempfehlungen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_109-13.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 05.02.2015, VII ZR 109/13, Rn. 13–21: Im anonymen Massengeschäft kein Ausgleich allein wegen fortbestehender Laufkundschaft oder Ladenrückgabe; Kundenidentifizierbarkeit, Eingliederung und Überlassungspflicht prüfen. Grenze: Allgemeine Analogiefrage offengelassen; kein pauschaler Ausschluss für sämtliche Franchisesysteme oder wegen Eigenkaufmodells."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__89b.html",
+      "checked_on": "2026-09-22",
+      "supports": "Vorteile, Billigkeit, Höchstbetrag, Ausschlussgründe und einjährige Geltendmachungsfrist; Franchiseanalogie folgt nicht aus dem Normwortlaut."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gesamten Mini von allgemeinen Vertragsstationen auf Systemleistung, Kosten, Kartellgrenzen und Kundenausgleich neu gefasst; gezielte Rückfragen und Fortsetzung erhalten. Individuelle redaktionelle Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "VII ZR 109/13 mit anonymem Kundenstamm, Ladenrückgabe und offener allgemeiner Analogiefrage eingebaut.",
+      "Jahresfrist nach Paragraf 89b als Geltendmachung statt Verjährung erklärt.",
+      "Franchisegebühren, Preisbindung, digitale Gebiete, CRM, Branche, Eilverfahren und Beschäftigungsstatus konkret geprüft.",
+      "Handbuchgebühren, Preisbindung oder Ausstieg wählen. Dateien still lesen, klare Aufträge direkt bearbeiten, Folgeantwort dokumentbezogen umsetzen."
+    ],
+    "sha256": "c6d0c3b58f38a90e0d6025bbf38c743d35ba61f12569275da346798ef53b9f7f"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt individuell neu geordnet; alle zwölf alten Spezialthemen in konkreten Abschnitten erhalten. Unbrauchbare Muster- und Normduplikate, automatische Kündigungspriorität, GeschGehG-Anmeldung und falsche Statuszuordnung korrigiert. Individuelle redaktionelle Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "VII ZR 109/13 mit anonymem Kundenstamm, Ladenrückgabe und offener allgemeiner Analogiefrage eingebaut.",
+      "Jahresfrist nach Paragraf 89b als Geltendmachung statt Verjährung erklärt.",
+      "Franchisegebühren, Preisbindung, digitale Gebiete, CRM, Branche, Eilverfahren und Beschäftigungsstatus konkret geprüft.",
+      "Handbuchinvestitionen, verdeckte Preisbindung, Plattformgebühren, Prognosekausalität und konkrete Abwicklung ergänzt."
+    ],
+    "sha256": "86d1fa67233ed2cf3000fc99cc470a0d6f937b697fe531bf0b9abfdbd3983b08"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Preis- und Bezugsbindung im Handbuch unseres Franchise-Systems.",
+      "Vergleiche Eintrittsgebühr, Werbefonds und laufende Umsatzgebühr für den Standortvertrag."
+    ],
+    "negative": [
+      "Entwerfe nur eine Software-Endnutzerlizenz ohne Vertriebssystem.",
+      "Berechne den Schadensersatz aus einer einzelnen unbezahlten Warenlieferung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "preisempfehlung-mit-rabattstrafe",
+      "request": "Erstelle ergebnis.md als Verhandlungsvermerk für eine Franchisenehmerin eines grenzüberschreitend tätigen Imbisssystems. Beide Parteien haben auf ihren zutreffend abgegrenzten relevanten Märkten jeweils 10 Prozent Marktanteil. Der Entwurf nennt 9,90 Euro für das Standardmenü eine unverbindliche Empfehlung. Eine weitere Klausel verlangt vorherige schriftliche Zustimmung des Gebers zu jedem niedrigeren Preis und sieht bei Verstoß 1000 Euro Vertragsstrafe vor. Eine individuelle Effizienzbegründung liegt nicht vor. Beurteile die Vertragsmechanik und formuliere eine verhandlungsfähige Alternative; nichts versenden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Prüfung bewertet Genehmigungsvorbehalt und Strafe zusammen mit der Preisempfehlung als tatsächlichen Druck zur Preisbindung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Marktanteile von 10 Prozent führen nicht zu einer vorbehaltlosen Gruppenfreistellung trotz Kernbeschränkung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Ersatzregel wahrt echte selbständige Preisentscheidung ohne verdeckte Rabattstrafe und unterscheidet Gruppenfreistellung von einer gesonderten Einzelfallprüfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "bezugsbindung-lieferanten-und-kartellrecht"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "franchiserecht-praxis/franchiserecht-praxis-schnellstart.md",
+      "franchiserecht-praxis/franchiserecht-praxis-werkstatt.md",
+      "franchiserecht-praxis/README.md",
+      "quality/evals/franchiserecht-praxis.json",
+      "franchiserecht-praxis/skills/bezugsbindung-lieferanten-und-kartellrecht/SKILL.md",
+      "franchiserecht-praxis/skills/handelsvertreterausgleich-analog-pruefen/SKILL.md"
+    ],
+    "opening_change": "Zugesagte Systemleistungen mit Gebühren, Pflichtbezug und Standortbindung vergleichen statt universeller Vertragsauftrag.",
+    "norms": [
+      "Paragrafen 241 Absatz 2, 280 und 311 Absatz 2 BGB",
+      "Paragrafen 305c, 307, 310 und 314 BGB",
+      "Paragraf 89b HGB",
+      "Artikel 101 Absätze 1 bis 3 AEUV",
+      "Artikel 2 bis 5 der Verordnung (EU) 2022/720",
+      "Paragraf 2 Nummer 1 GeschGehG",
+      "Artikel 26 und 28 DSGVO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 05.02.2015, VII ZR 109/13, Rn. 13–21",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_109-13.pdf?__blob=publicationFile&v=1",
+        "application": "Im anonymen Massengeschäft kein Ausgleich allein wegen fortbestehender Laufkundschaft oder Ladenrückgabe; Kundenidentifizierbarkeit, Eingliederung und Überlassungspflicht prüfen.",
+        "limit": "Allgemeine Analogiefrage offengelassen; kein pauschaler Ausschluss für sämtliche Franchisesysteme oder wegen Eigenkaufmodells."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenreview, kein Live-Modelltest.",
+      "BGH-Volltext vollständig gelesen und Paragraf 89b aktuell geprüft. Erneuter EUR-Lex-Abruf der Vertikal-GVO gesperrt; früherer Quellenstand unverändert, keine neue Gesamtverifikation behauptet.",
+      "Gewöhnliche Skills außerhalb Schreibbereich unverändert: Ausgleichsskill enthält weiter falsche Verjährungs-/Berechnungsbehauptungen; Bezugsskill verkürzt Schwelle und Wettbewerbsverbote. Gesundheits-, Bildungs- und Lebensmittelsonderrecht nicht vollständig neu verifiziert.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Handbuchgebühren, Preisbindung oder Ausstieg wählen.",
+      "Vertrag und Handbuch still lesen; Investitionseinwand oder Klauseländerung anbieten.",
+      "Bestellte Einzelklausel oder Ausstiegsberatung unmittelbar bearbeiten."
+    ],
+    "continuation": "Kostenbeteiligung -> Investitionsregel; Rabattbonus -> gesamte Preisregel; identifizierbare Stammkunden -> andere Ausgleichsprüfung.",
+    "enrichment": "Handbuchinvestitionen, verdeckte Preisbindung, Plattformgebühren, Prognosekausalität und konkrete Abwicklung ergänzt.",
+    "limits": "desk review; no live client execution"
+  }
+}

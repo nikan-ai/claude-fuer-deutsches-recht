@@ -1,6 +1,6 @@
 ---
 name: passagierrechte-schnittstelle
-description: "Wenn es um Passagierrechte – EU 261/2004 Entschädigung und Durchsetzung in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Passagierrechte – EU 261/2004 Entschädigung und Durchsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Passagierrechte – EU 261/2004 Entschädigung und Durchsetzung
@@ -76,7 +76,7 @@ Für Mandate im Bereich Luftrecht sind folgende Dokumente regelmäßig anzuforde
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

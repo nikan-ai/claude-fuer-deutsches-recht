@@ -1,66 +1,62 @@
-Wenn du das hier öffnest, willst du einen Behandlungs-, Abrechnungs-, Krankenhaus-, Apotheken- oder Leistungsfall medizinrechtlich so ordnen, dass Gutachten, Frist und Anspruch sofort sichtbar werden.
+# 1. Krankenhausrecht: Schnellstart
 
-# Krankenhausrecht — Schnellstart
+Prüfe den beanspruchten Versorgungsumfang, die gesicherte Finanzierung oder die konkrete Entgeltkürzung des Krankenhauses anhand von Bescheid, Vertrag und Leistungsnachweis. Begründe daraus das beauftragte Schreiben, Gutachten oder Verhandlungsdokument; behandle den Vorgang nicht ohne Anlass als Behandlungsfehlerfall.
 
-Ziel: Super-Plugin für deutsches Krankenhausrecht: Planung, Finanzierung, Entgelte, Reform, Qualität, MD-Prüfung, Klinikbetrieb und Rechtsstreit. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1. Auftrag und Unterlagen einordnen
 
-## 1. Schnellmodus
+Bei leerem Eingang frage knapp: „Planaufnahme, Investitionsförderung oder Entgeltkürzung?“ Bei Dateien ohne Auftrag lies sie still und frage nur nach dem gewünschten Arbeitsprodukt. Bei klarem Auftrag beginne direkt damit; keine Materialübersicht oder Pflichtfragerunde. Lies die betroffenen Bescheide, Verträge und Abrechnungen; übernimm bekannte Angaben zu Träger, Standort, Fachabteilung und Verfahren.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Stelle fest, welches Budgetjahr, welcher Behandlungszeitraum oder welcher Planungsstichtag maßgeblich ist. Erfasse laufende Fristen anhand von Bekanntgabe, Zustellung oder vertraglicher Regelung; ein Datum auf dem Dokument belegt seinen Zugang nicht.
 
-## 2. Direktstart
+## 1.2. Planung und Versorgungsauftrag
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Vergleiche Planstatus, Zulassung und Versorgungsvertrag mit der konkret betroffenen Leistung. Prüfe Bedarf, Erreichbarkeit, Personal, Struktur, Kooperationen, Qualität und gegebenenfalls die Auswahl zwischen Bewerbern. Unterscheide die tatsächliche Versorgung von einer rechtlich gesicherten Berechtigung.
 
-## 3. Kernroute
+Ein Versorgungsvertrag ersetzt die Planaufnahme nicht: BVerwG, Urteil vom 14.04.2011, 3 C 17.10, Rn. 18 bis 23 ([Volltext](https://www.bverwg.de/140411U3C17.10.0)), verlangt die eigenständige Prüfung nach Paragraf 8 KHG trotz Vertrags nach Paragraf 109 SGB V. Bedarf und Auswahl daher gesondert belegen. Das schließt einen Aufnahmeanspruch bei erfüllten Voraussetzungen nicht aus und ist weder Förderzusage noch Nachweis heutiger Leistungsgruppenanforderungen.
 
-1. Falltyp: Behandlungsfehler, Aufklärung, Abrechnung, Zulassung, Leistungspflicht, Apotheke oder Krankenhausaufsicht bestimmen.
-2. Medizinischer Kern: Befund, Indikation, Standard, Leitlinie, Dokumentation, Kausalität und Schaden in eine Zeitachse bringen.
-3. Beweislast: grober Fehler, Befunderhebungsfehler, Aufklärung, hypothetische Einwilligung und Dokumentationslücke gesondert prüfen.
-4. Verfahren: Gutachten, MD/MDK, Schlichtungsstelle, Kasse, Behörde, Sozialgericht oder Zivilgericht richtig routen.
-5. Arbeitsprodukt: Gutachterfragen, Anspruchsschreiben, Klage, Widerspruch, Eilantrag, Abrechnungsprüfung oder Behördenantwort erstellen.
-6. Dokumentation Aufbewahrung Beweislast: Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen.
+Fehlt die Anlage zum Planbescheid oder ist eine Leistungsgruppe nicht eindeutig zugeordnet, fordere genau diese Unterlage an. Fehlt ein Personal- oder Kooperationsnachweis, benenne die betroffene Voraussetzung und frage nach dem Nachweis für den maßgeblichen Zeitraum. Nach Eingang passe die Bewertung und den beauftragten Planantrag, die Stellungnahme oder das Gutachten an. Eine vorhandene Datei genügt nicht, wenn sie die Voraussetzung inhaltlich nicht belegt.
 
-## 4. Fallkarte
+## 1.3. Investitionsförderung und Finanzierung
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 630a bis Paragraf 630h; BGB Paragraf 280, Paragraf 823 und Paragraf 253; SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen |
-| Beweislast | Patient oder Versicherter für Befund, Schaden und Kausalität; Behandler oder Träger für Aufklärung, Dokumentation, Standard und Entlastung |
-| Rechtsfolge | Gutachterfragen, Anspruchsschreiben, Widerspruch, Eilantrag, Klage, Abrechnungsprüfung oder Behördenantwort |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Erfasse Krankenhausplan, Investitionsprogramm, Förderbescheid und tatsächliche Auszahlung getrennt. Nach [Paragraf 8 Absatz 1 KHG](https://www.gesetze-im-internet.de/khg/__8.html) ist bei Investitionen nach Paragraf 9 Absatz 1 Nummer 1 auch die Aufnahme in das Investitionsprogramm maßgeblich. Die Planaufnahme allein bewilligt keinen beliebigen Baubetrag.
 
-## 5. Einsatzfelder
+Rechne Projektkosten minus belegte Förderung minus zugesagte Eigen- und Drittmittel. Förderfähige Kosten und Gesamtprojektkosten müssen nicht übereinstimmen. Unverbindliche Förderhoffnungen bleiben offene Finanzierung; aus einer Nachforderung darf keine vermeintliche Förderzusage werden.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Dokumentation Aufbewahrung Beweislast | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Geburtshilfe Haftung Hebammen Schnittstelle | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klage gegen Budgetbescheid oder Schiedsstellenentscheidung | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klinikakten und Bescheide sortieren | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Output Vorstandsvorlage Behördenbrief Klage | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Patientenbeschwerde und Risikomanagement | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Fehlen Bewilligung, Kostenaufteilung oder Finanzierungszusage, frage nach dem konkret fehlenden Beleg und berechne die noch ungesicherte Finanzierung vorläufig getrennt. Nach der Antwort aktualisiere Betrag und Begründung des bestellten Finanzierungsvermerks oder Förderschreibens. Prüfe Förderauflagen, vorzeitigen Maßnahmenbeginn, Zweckbindung und Verwendungsnachweis anhand des Bescheids und Landesrechts; unterstelle keine einheitliche Förderquote oder Frist.
 
-## 6. Anker
+## 1.4. Budget, Entgelt und Prüfverfahren
 
-- BGB Paragraf 630a bis Paragraf 630h: Behandlungsvertrag, Aufklärung, Einwilligung, Dokumentation, Einsicht und Beweislast.
-- BGB Paragraf 280, Paragraf 823 und Paragraf 253: Schadensersatz, deliktische Haftung und Schmerzensgeld.
-- SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 und Paragraf 135: Krankenbehandlung, Krankenhaus, Vertragsarzt und Methodenbewertung.
-- SGB X Paragraf 20 und Paragraf 25: Amtsermittlung und Akteneinsicht im Sozialverwaltungsverfahren.
-- BGB Paragraf 630f Dokumentationspflicht des Behandelnden, Sofort, dauerhaft, vollständig: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGB Paragraf 630h Abs. 3 Beweislastumkehr bei Dokumentationsfehlern (vermutet: nicht durchgeführt): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- SGB X Paragraf 84 Aufbewahrung sozialrechtliche Unterlagen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGB Paragrafen 630a-630h: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Trenne Investitionsfinanzierung von Betriebskosten, Budgetvereinbarung und Abrechnung einzelner Behandlungsfälle. Bestimme zunächst das einschlägige Entgeltregime und den Streitgegenstand: etwa Budgetposition, Pflegekosten, Zu- oder Abschlag, Leistungsberechtigung oder Abrechnungskürzung.
 
-## 7. Antwortform
+Gleiche die streitige Position mit Vereinbarung, Kalkulation, Leistungsnachweis und Prüfmitteilung ab. Ordne jedem Einwand die entscheidende Tatsache und den dafür benötigten Nachweis zu. Fehlt beispielsweise die Berechnungsgrundlage eines Abschlags, fordere sie an, statt einen Betrag zu schätzen. Nach Eingang rechne die betroffene Position neu und vervollständige die beauftragte Verhandlungsbegründung, Erwiderung oder den Schiedsstellenantrag.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Gutachterfrage: War [Maßnahme] am [Datum] nach dem damaligen fachärztlichen Standard indiziert, durchgeführt und dokumentiert; Behandlungsfehlermatrix: Standard, Abweichung, Befund, Dokument, Kausalität, Schaden, Beweislast und Gutachtenfrage.
+Zuständigkeit, Rechtsweg und Frist richten sich nach dem konkreten Verfahren und angegriffenen Akt. Leite sie nicht allein daraus ab, dass eine Krankenkasse beteiligt ist. Ein gerichtlicher Antrag wird nur ausgearbeitet, wenn er zum Auftrag gehört.
 
-## 8. Stop
+## 1.5. Betrieb, Qualität und Aufsicht
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Unterscheide Organisationsmangel, Qualitätsabweichung, Hygienefrage, Notfallversorgung und konkrete aufsichtsrechtliche Maßnahme. Vergleiche die beanstandete Situation mit den maßgeblichen Anforderungen und den Belegen aus dem betroffenen Zeitraum.
+
+Fehlt etwa der Dienstplan für die beanstandete Schicht, frage danach und bearbeite unabhängig davon belegbare Punkte der Aufsichtsantwort weiter. Nach Eingang prüfe, ob der Vorwurf entkräftet, nur eingegrenzt oder bestätigt wird. Formuliere Maßnahmen nur als zugesagt, wenn die Einrichtung sie tatsächlich beschlossen hat.
+
+## 1.6. Rechtliche Prüfung und Quellen
+
+Verwende die für Zeitraum und Sachverhalt einschlägige Fassung:
+
+- KHG Paragraf 1, Paragraf 6 und Paragraf 8 für Versorgung, Krankenhausplanung und Investitionsförderung.
+- KHEntgG oder BPflV für Budget, Entgelte, Zu- und Abschläge sowie Vereinbarungs- und Schiedsstellenverfahren.
+- SGB V Paragraf 39 für Krankenhausbehandlung sowie Paragraf 108 und Paragraf 109 für Zulassung und Versorgungsvertrag.
+- Landesrecht, konkrete Bescheide und einschlägige Qualitätsvorgaben für die Anforderungen an den Standort.
+
+Trenne Reformvorhaben, geltendes Recht und Übergangsregelungen. Verifiziere konkrete Jahresvorgaben amtlich und verwende nur nachprüfbare Entscheidungen. Behandle den stärksten Einwand gegen die Position der Einrichtung einschließlich Beweis- und Prognoserisiken.
+
+## 1.7. Ergebnis fertigstellen
+
+Liefere das bestellte Dokument in vollständigen Sätzen, nicht sämtliche denkbaren Tabellen und Anträge. Tabellen dienen nur dort der Darstellung, wo etwa Kosten, Leistungsumfang oder Auswahlkriterien verglichen werden müssen. Nutzerseitige Dateinamen gehen vor; ohne Vorgabe kann die Ausgabe ergebnis.md heißen.
+
+Neue Antwort, gleicher Dokumentpfad: Geht der Förderbescheid ein, ändere in der vorhandenen `finanzierung.md` bewilligten Betrag, Auszahlungsvoraussetzungen und Finanzierungslücke. Bei anderem Nutzerpfad dort fortsetzen. Nur entscheidende neue Lücken nachfragen; keine feste Rundenzahl. Abrufvermerke getrennt vom Empfängerbrief halten.
+
+Keine eigenmächtige Förderbeantragung, Bestellung, Mittelverwendung oder Einreichung. Externe Handlungen benötigen eine ausdrückliche Freigabe.
+
+## 1.8. Technische Grenzen
+
+Weitere Skills sind optional. Ohne Zugriff benenne die fehlende Passage und bearbeite den zugänglichen Teil. Ohne Export liefere Text statt eines Dateilinks. Formatierte Dokumente: Times New Roman, 11 Punkt, dezimale Gliederung.

@@ -1,6 +1,6 @@
 ---
 name: feldinventar-fragebogen-input
-description: "Wenn es um Feldinventar in Vertragsausfüller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Feldinventar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Feldinventar
@@ -16,21 +16,18 @@ description: "Wenn es um Feldinventar in Vertragsausfüller geht: prüft Frist, 
 ## Triage zu Beginn
 
 1. Welcher Vertragstyp liegt vor — Kauf, Miete, Werk, Dienstleistung, Lizenz?
-2. Gibt es Pflichtfelder nach Gesetz (z.B. § 550 BGB Schriftform, § 2 NachwG bei Arbeitsvertrag)?
+2. Gibt es gesetzlich formrelevante Angaben, etwa die Textform einer langfristigen Gewerberaummiete nach Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB oder Nachweispflichten nach Paragraf 2 NachwG?
 3. Welche Felder kommen aus dem Term Sheet direkt — welche müssen erfragt werden?
 4. Sind Felder vorhanden, die nur bei bestimmten Vertragsoptionen relevant sind (bedingte Felder)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
 - §§ 145, 150 BGB — Angebot und Annahme (essentialia negotii)
-- § 126 BGB — Schriftform
-- § 550 BGB — Schriftform bei langfristiger Miete
-- § 2 NachwG — Mindestinhalt Arbeitsvertrag
-- § 481 ff. BGB — Verbrauchsgüterkauf (Pflichtangaben)
+- Paragraf 126 BGB — Schriftform
+- Paragraf 126b BGB — Textform
+- Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB — Textform langfristiger Grundstücks- und Gewerberaummiete
+- Paragraf 2 NachwG — Nachweispflichten im Arbeitsverhältnis
+- Paragraf 474 folgende BGB — Verbrauchsgüterkauf
 
 ## Startet bei
 
@@ -71,8 +68,4 @@ description: "Wenn es um Feldinventar in Vertragsausfüller geht: prüft Frist, 
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-
-## Audit-Hinweis (27.05.2026)
-
-Dieser Skill wurde im Rahmen von Bundle 046 auf halluzinierte Rechtsprechungsnachweise geprüft und korrigiert.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

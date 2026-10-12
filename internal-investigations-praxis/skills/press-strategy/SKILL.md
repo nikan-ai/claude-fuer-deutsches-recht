@@ -1,6 +1,6 @@
 ---
 name: press-strategy
-description: "Wenn es um Pressestrategie und Krisenkommunikation in Internal Investigations Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Pressestrategie und Krisenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Pressestrategie und Krisenkommunikation
@@ -31,8 +31,8 @@ Entwickle eine kontrollierte Kommunikationsstrategie, die Reputationsschäden mi
 
 ### 2. Kommunikationsstrategie-Optionen
 - **No comment**: sinnvoll, wenn Ermittlungen noch nicht abgeschlossen sind; signalisiert aber Schweigen.
-- **Reaktive Stellungnahme**: nur auf konkrete Anfragen reagieren; kein proaktives Herausgehen.
-- **Proaktive Pressemitteilung**: nach Abschluss der Untersuchung oder bei unvermeidlichem Bekanntwerden; Kontrolle über das Narrativ.
+- **Reaktive Stellungnahme**: nur auf konkrete Anfragen reagieren; keine Veröffentlichung ohne vorherige Anfrage.
+- **Proaktive Pressemitteilung**: nach Abschluss der Untersuchung oder bei unvermeidlichem Bekanntwerden; die eigene Sachverhaltsdarstellung öffentlich erläutern.
 - **Board Statement**: bei schwerwiegenden Fällen mit öffentlichem Interesse.
 
 ### 3. Kernbotschaften

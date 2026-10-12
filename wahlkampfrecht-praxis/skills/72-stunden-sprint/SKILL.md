@@ -1,6 +1,6 @@
 ---
 name: 72-stunden-sprint
-description: "Wenn es um 72 Stunden Sprint in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 72 Stunden Sprint: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 72 Stunden Sprint
@@ -74,22 +74,3 @@ Priorisiert rechtlich sichere Maßnahmen mit hoher Wirkung und streicht riskante
 - Keine BeckRS-, juris-, Kommentar- oder Aufsatzfundstellen aus Modellwissen.
 - Bei politischer Online-Werbung die Verordnung (EU) 2024/900, Plattformregeln, DSGVO/BDSG und die konkrete Anzeigenbibliothek prüfen.
 - Bei Spenden, Sponsoring und Sachleistungen das Parteiengesetz, Bundestagsverwaltungshinweise und interne Schatzmeisterei-Regeln prüfen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 BWahlG
-- § 18 BWahlG
-- § 19 BWahlG
-- § 26 BWahlG
-- § 32 BWahlG
-- § 49a BWahlG
-- § 5 PartG
-- § 25 PartG
-- § 31d PartG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

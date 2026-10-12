@@ -1,6 +1,6 @@
 ---
 name: leitfaden-erstellen
-description: "Wenn es um /leitfaden-erstellen in Plugin für die studentische Rechtsberatungsstelle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /leitfaden-erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /leitfaden-erstellen
@@ -31,9 +31,6 @@ description: "Wenn es um /leitfaden-erstellen in Plugin für die studentische Re
 2. Welche Paedagogikhaltung soll der Leitfaden vorgeben: ausfuehren, anleiten oder lehren?
 3. Gibt es einen bestehenden Leitfaden, der ueberarbeitet werden soll, oder wird er neu erstellt?
 4. Welche spezifischen Prüfungsgates und RDG-Grenzen sollen für diesen Fachbereich konfiguriert werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 6 Abs. 2 Nr. 2 RDG — Erlaubnisfreie Rechtsberatung in Beratungsstellen unter Anleitung eines Volljuristen; Leitfaden konfiguriert den Anleitungsrahmen
@@ -67,7 +64,7 @@ Biete dies als Checkliste an, die der Anleiter durcharbeiten oder als Inhaltsver
 
 Dies ist ein Anleiter-Skill. Lies `CLAUDE.md` → `Rolle`. Wenn die Rolle nicht "Anleitender Volljurist" ist:
 
-> Dieser Skill ist für Anleiter – er konfiguriert das Verhalten der studierendengerichteten Skills. Wenn Sie der Anleiter sind, stellen Sie sicher, dass Ihre Rolle in `/rechtsberatungsstelle:rechtsberatungsstelle-kaltstart-interview` auf "Anleitender Volljurist" gesetzt ist. Wenn Sie Studenten/r sind, ist dies nicht der richtige Skill für Sie – starten Sie mit `/rechtsberatungsstelle:einarbeitung`.
+> Dieser Skill ist für Anleiter – er konfiguriert das Verhalten der studierendengerichteten Skills. Wenn Sie der Anleiter sind, stellen Sie sicher, dass Ihre Rolle in `/rechtsberatungsstelle:kaltstart-interview` auf "Anleitender Volljurist" gesetzt ist. Wenn Sie Studenten/r sind, ist dies nicht der richtige Skill für Sie – starten Sie mit `/rechtsberatungsstelle:einarbeitung`.
 
 Stopp, wenn Rolle nicht Anleiter.
 
@@ -172,3 +169,5 @@ Ausgabe: `guides/<fachbereich>.md` mit den Sektionen:
 - **RDG-Grenzen nicht klar kommuniziert:** Studenten ohne klare Anleitungsstruktur überschreiten versehentlich § 3 RDG.
 - **Fehlende Konfliktprüfung:** Ohne explizite Gate-Regel übersehen Studenten, wann sie den Anleiter einschalten müssen.
 - **Sprachbarrieren bei Geflüchteten:** Leitfaden sollte Dolmetscherressourcen und Sprach-Level-Anforderungen an Mandantenbriefe festlegen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

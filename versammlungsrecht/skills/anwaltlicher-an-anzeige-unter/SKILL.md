@@ -1,6 +1,6 @@
 ---
 name: anwaltlicher-an-anzeige-unter
-description: "Wenn es um Klar, fest, ohne Theater in Versammlungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Klar, fest, ohne Theater: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klar, fest, ohne Theater
@@ -41,23 +41,3 @@ Der Brief soll nicht eskalieren um der Eskalation willen, sondern die Behörde a
 - Rechtsprechung nur zitieren, wenn Gericht, Entscheidungsform, Datum, Aktenzeichen und eine frei zugängliche Quelle vorliegen.
 - Keine BeckRS-, juris-, Kommentar- oder Aufsatzfundstellen aus Modellwissen.
 - Bei Behördenformularen immer die konkrete Stadt, den Landkreis oder das Land prüfen, weil Zuständigkeit und Portale stark abweichen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 8 GG
-- § 201 StGB
-- § 23 KunstUrhG
-- § 201a StGB
-- § 33 KunstUrhG
-- § 80 VwGO
-- § 123 VwGO
-- Art. 5 GG
-- § 22 KunstUrhG
-- § 14 VersG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

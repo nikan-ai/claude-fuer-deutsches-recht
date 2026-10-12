@@ -1,17 +1,20 @@
 ---
 name: account-sperre-soziales-netzwerk-rechtsbehelfe-art-20-23-dsa
-description: "Wenn es um Account-Sperre — Rechtsbehelfe nach Art. 20 bis 23 DSA in DSA, DMA und Digitalregulierung der EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Prüft Kontosperre, Inhaltsentfernung, Reichweiten- oder Monetarisierungsbeschränkung nach DSA Artikel 14 sowie 17 und 20 bis 23 sowie Vertragsrecht. Erstellt Beweissicherung, interne Beschwerde, Antrag zur Streitbeilegung und bei Eilbedarf einen gerichtlichen Freischaltungs- oder Unterlassungsantrag."
 ---
 
 # Account-Sperre — Rechtsbehelfe nach Art. 20 bis 23 DSA
 
-## Arbeitsweg
+## Direktauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: DSA Art. 16 Notice-and-Action unverzügliche Reaktion, Art. 24 jährlicher Transparenzbericht, Art. 34 Risikoassessment jährlich/bei Bedarf, DMA Art. 11 Compliance-Bericht 6 Monate nach Benennung.
-- Tragende Normen verifizieren: Digital Services Act (VO 2022/2065) Art. 4-15 (Haftung), 16-22 (Meldung), 24-32 (mittelgroße/VLOP), 33-43 (sehr große), 50-66 (Aufsicht), Digital Markets Act (VO 2022/1925) Art. 3 (Gatekeeper), 5-7 (Pflichten), DDG, TMG (außer Kraft), NetzDG (auslaufend) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter Vermittlungsdienst / Hosting / Online-Plattform / sehr große Online-Plattform (VLOP) / Suchmaschine (VLOSE), BNetzA als DSC, EU-KOM (DMA-Vollzug), nationaler Koordinator, Beschwerdeführer.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: AGB nach Art. 14 DSA, Transparenzbericht, Risikoassessment, Compliance-Officer-Konzept, Streitbeilegung Art. 21 DSA, DSC-Meldung, DMA-Compliance-Bericht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Prüfe die Kontosperre oder Inhaltsbeschränkung anhand der Plattformentscheidung, des betroffenen Inhalts und der Nutzungsbedingungen. Verfasse die bestellte interne Beschwerde, Beratung oder gerichtliche Antragsschrift; ein Beratungsauftrag berechtigt nicht zum Wechsel in ein Gerichtsverfahren.
+
+- Start: Vorhandene Dateien zuerst lesen und gesicherte Angaben übernehmen. Fehlen die vollständige Sperrmitteilung oder der beanstandete Beitrag samt Kontext, gezielt danach fragen. Nach Eingang die Sperrbegründung und die Gegenargumente aktualisieren und das bestellte Dokument fertigschreiben. Eine neue entscheidende Unklarheit darf eine weitere kurze Rückfrage auslösen; keine erneute Aufnahme bereits geklärter Angaben.
+- Tatbestand und Beweis: Ordne jedem entscheidungserheblichen Merkmal einen Aktenfund oder eine ausdrücklich bezeichnete Lücke zu; bloße Plausibilität ersetzt weder Vortrag noch Beweis.
+- Kernnormen: DSA Artikel 3 bis Artikel 6: Rollen, Vermittlungsdienste und Haftungsprivilegien nach Dienstetyp. DSA Artikel 20 bis Artikel 23: internes Beschwerdesystem, außergerichtliche Streitbeilegung, vertrauenswürdige Hinweisgeber und Missbrauchsschutz.
+- Rechtsprechung: EuGH, Urteil vom 12.07.2011 - C-324/09: L'Oréal gegen eBay betrifft die frühere unionsrechtliche Haftungs- und Unterlassungsordnung für Online-Marktplätze; die Aussage ist bei heutigen Fällen mit dem DSA abzugleichen.
+- Einsatzgrenze: Normfassung und tragende Aussage am amtlichen Volltext prüfen; eine Entscheidung nicht auf andere Tatbestands-, Beweis- oder Verfahrensstufen übertragen.
+- Abschluss: Das Ergebnis muss `Account-Sperre — Rechtsbehelfe nach Art. 20 bis 23 DSA` konkret beantworten, die stärkste Gegenposition verarbeiten und den nächsten verwendbaren Text, Antrag, Rechenweg oder Vollzugsschritt liefern.
 
 ## Ausgangslage
 
@@ -28,13 +31,13 @@ Nutzer wird auf einer Online-Plattform gesperrt (Account-Sperre, Schattensperre,
  - **Rechtliche oder vertragliche Grundlage** und Erklärung warum sie passt
  - Information über **Beschwerdemöglichkeiten** (Art. 20, 21)
 - Versand in **DSA Transparency Database** (öffentlich)
-- **Fehlt eine wirksame Begründung, ist die Sperre formal rechtswidrig** — schon hier ansetzen
+- Eine fehlende oder unzureichende Begründung ist ein eigenständiger Verfahrensverstoß. Ob auch die Sperre aufzuheben ist, wird gesondert nach Vertrag, anwendbarem Recht und materieller Berechtigung geprüft.
 
 ### Stufe 2 — Internes Beschwerdesystem (Art. 20 DSA)
 
-- Plattform muss **wirksames, leicht zugängliches, kostenfreies, sechsmonatiges Beschwerdesystem** bereithalten
-- **Menschliche Überprüfung** in nicht-automatisierter Form bei manueller Beschwerde
-- Frist: zügig zu entscheiden; keine starre Frist im DSA, aber **unverzüglich** und in der Regel innerhalb weniger Wochen
+- Plattform muss ein wirksames, leicht zugängliches und kostenfreies elektronisches Beschwerdesystem anbieten. Die Beschwerdemöglichkeit besteht mindestens sechs Monate ab Mitteilung der Entscheidung.
+- Die Entscheidung darf nicht ausschließlich automatisiert getroffen werden und muss unter Aufsicht angemessen qualifizierten Personals erfolgen.
+- Über Beschwerden ist zeitnah, sorgfältig, nicht willkürlich und objektiv zu entscheiden. Der DSA setzt keine feste Bearbeitungsfrist von wenigen Wochen.
 - Entscheidung wieder begründet und mit Hinweis auf Art. 21
 
 ### Stufe 3 — Außergerichtliche Streitbeilegung (Art. 21 DSA)
@@ -65,7 +68,7 @@ Nutzer wird auf einer Online-Plattform gesperrt (Account-Sperre, Schattensperre,
 
 - **Verbrauchersache:** Art. 17 ff. Brüssel-Ia-VO — Klage am Wohnsitz des Verbrauchers
 - **Gewerbliche Sache:** Erfüllungsort, Art. 7 Nr. 1 Brüssel-Ia
-- Wenn Plattform außerhalb EU: nationale Zustellungsregeln; **Art. 13 DSA-Vertreter** dient nicht zwingend als Zustellungsadresse für Zivilklagen, kann aber als Anhaltspunkt für Niederlassung dienen (siehe Skill `zustellung-und-vertreter-art-13-dsa-art-37-dma`)
+- Wenn die Plattform keine Niederlassung in der Union hat: Zustellungsrecht und internationale Zuständigkeit eigenständig prüfen. Der Vertreter nach DSA Artikel 13 ist nicht automatisch Zustellungsbevollmächtigter für eine Zivilklage und begründet keine Niederlassung.
 
 ## Anspruchspaket
 
@@ -76,14 +79,14 @@ Nutzer wird auf einer Online-Plattform gesperrt (Account-Sperre, Schattensperre,
 5. **Schadensersatz** bei nachweisbarem Vermögensschaden (entgangene Einnahmen, Folgeschäden); Geldentschädigung wegen Persönlichkeitsrechtsverletzung möglich, aber Hürden hoch
 6. **Erstattung** außergerichtlicher Rechtsanwaltskosten
 
-## Praktischer Mandantenfahrplan
+## Bearbeitung nach Auftrag und Verfahrensstand
 
 1. **Beweissicherung**: Screenshots, E-Mails, Sperrmitteilung, betroffene Beiträge archiviert (Wayback / lokale Speicherung)
 2. **Begründung anfordern** (falls nicht ausreichend nach Art. 17)
-3. **Interne Beschwerde** einlegen (Art. 20) — Frist und Inhalt dokumentieren
-4. **Parallele DSGVO-Auskunft** Art. 15 zu Sperrgrund und Profiling
-5. Bei Eilbedürftigkeit: **Eilantrag** vorbereiten; ADR-Schritt darf nicht vorausgesetzt werden, weil DSA Eilrechtsschutz nicht ausschließt
-6. ADR-Verfahren oder Klage je nach Aussicht und wirtschaftlichem Volumen
+3. Interne Beschwerde nach Art. 20 bei entsprechendem Auftrag ausformulieren; Frist und Inhalt dokumentieren. Eine tatsächliche Einreichung setzt Freigabe voraus.
+4. Prüfen, ob eine gesonderte DSGVO-Auskunft nach Art. 15 zu Sperrgrund und Profiling dem Ziel dient; nicht automatisch ein weiteres Verfahren beginnen.
+5. Bei Eilbedürftigkeit den konkreten drohenden Nachteil ermitteln und im beauftragten Eilantrag verarbeiten; ADR-Schritt darf nicht vorausgesetzt werden, weil DSA Eilrechtsschutz nicht ausschließt.
+6. ADR-Verfahren oder Klage anhand von Aussicht, wirtschaftlichem Volumen und Auftrag beurteilen. Geht eine Antwort der Plattform ein, deren Gründe mit den Belegen abgleichen und die betroffene Argumentation bis zur Endfassung überarbeiten. Bei fehlendem Nachweis nur die betroffenen Teile vorläufig lassen, nicht das gesamte Mandat abbrechen.
 
 ## Sonderfälle
 
@@ -95,22 +98,18 @@ Nutzer wird auf einer Online-Plattform gesperrt (Account-Sperre, Schattensperre,
 
 ## Schnittstelle Strafrecht
 
-Bei Sperrgrund "illegal content" prüfen, ob tatsächlich Straftatbestand erfüllt (§§ 185 ff., 86, 86a, 130 StGB, § 33 BDSG). Anwaltsstrategie: Sperre angreifen, ohne dem Mandanten neuen Strafvorwurf zu generieren.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Bei Sperrgrund "rechtswidriger Inhalt" die konkret behauptete zivil-, straf- oder öffentlich-rechtliche Verbotsnorm prüfen. Äußerungsdelikte können insbesondere StGB Paragrafen 86, 86a, 130 und 185 ff. betreffen. BDSG Paragraf 33 ist keine Strafnorm. Eine Stellungnahme darf keine unnötigen neuen Tatsachen einräumen.
 
 ## Zentrale Normen (Paragrafenkette)
 
-- Art. 17, 20, 21, 23 DSA (VO 2022/2065) — Begründungspflicht, internes Beschwerdesystem, außergerichtliche Streitbeilegung, Transparenzberichte
+- DSA Artikel 17, 20, 21 und 23 - Begründungspflicht, internes Beschwerdesystem, außergerichtliche Streitbeilegung und Maßnahmen gegen missbräuchliche Nutzung; Transparenzberichte folgen insbesondere aus DSA Artikel 15 und 24.
 - §§ 307, 241 Abs. 2 BGB — AGB-Kontrolle und Rücksichtnahmepflichten
 - §§ 935, 940 ZPO — Einstweilige Verfügung
 - Art. 11 GRCh — Meinungsfreiheit
 
 ## Faktische Updates (Stand 05/2026)
 
-- **DSA — vollumfaenglich anwendbar:** DSA-Pflichten sind seit dem 17.02.2024 verbindlich. Art. 20-23 DSA (interne Beschwerde, ADR, vetted flaggers, Maßnahmen gegen Missbrauch) gelten für alle Online-Plattformen und Hosting-Dienste.
+- DSA - anwendbar seit dem 17.02.2024: DSA Artikel 20 bis 23 gelten für Online-Plattformen, vorbehaltlich der Ausnahme für Kleinst- und Kleinunternehmen nach DSA Artikel 19; für sehr große Online-Plattformen greift diese Ausnahme nicht. Ein bloßer Hostingdienst ist nicht allein deshalb Online-Plattform.
 - **DDG (Digitale-Dienste-Gesetz):** Das deutsche DDG ist 14.05.2024 in Kraft getreten (BGBl 2024 I Nr. 149); enthaelt nationale Durchfuehrungsbestimmungen, Bestimmung der BNetzA als DSC, Sanktionsregime, Klagebefugnisse, Verbraucher- und Datenschutz-Schnittstellen. Quelle: bgbl.de, bundesnetzagentur.de.
 - **ADR-Stellen Art. 21 DSA:** Liste der von der BNetzA zertifizierten Streitbeilegungsstellen live über bundesnetzagentur.de prüfen.
 - **BGH-Linie zu Account-Sperren:** Aktuelle Rechtsprechung zur AGB-Kontrolle der Sperr-Klauseln (BGH III. ZS) live über dejure.org prüfen. DSA ergaenzt die BGH-Linie (insb. zu Verfahrenspflichten, Begruendungstiefe, Art. 14 Abs. 4 DSA).
@@ -139,12 +138,12 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 
 ## Output-Template — Account-Sperre-Mandat
 
-**Adressat:** Gericht / Plattform — Tonfall: sachlich-juristisch
+Dieses Gerüst gilt nur für eine beauftragte gerichtliche Antragsschrift. Für eine interne Beschwerde die konkrete Entscheidung, den beanstandeten Inhalt, die Gründe gegen die Beschränkung und das verlangte Abhilfeziel in einem vollständigen Schreiben an die Plattform darstellen. Quellenprüfvermerke und technische Zugriffshinweise getrennt halten; weder das Gerüst noch bloße Stichworte sind ein Endprodukt.
 
 ```
 Verfügungsantrag / Klage wegen Account-Sperre [DATUM]
 Antragsteller/Klaeger: [NAME MANDANT, ANSCHRIFT]
-Antragsgegnerin/Beklagte: [PLATTFORM, EU-VERTRETER]
+Antragsgegnerin/Beklagte: [GEPRÜFTE VERTRAGSPARTEI, ANSCHRIFT]
 Az.: [AKTENZEICHEN]
 
 Sachverhalt:
@@ -163,29 +162,9 @@ Antrag: Wiederherstellung des Accounts / Inhalts unverzüglich
 Streitwert: [BETRAG EUR]
 ```
 
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+Vor Fertigstellung nur noch offene entscheidende Punkte klären:
+1. Wird die Wiederherstellung des Kontos, eines bestimmten Beitrags oder der Monetarisierung verlangt?
+2. Welche konkreten Nachteile und Zeitabläufe sind für eine behauptete Eilbedürftigkeit belegt?
+3. Ist nur die interne Beschwerde oder bereits ein gerichtlicher Entwurf beauftragt? Vorhandene Antworten übernehmen; Versand und Einreichung gesondert freigeben lassen.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 263 AEUV
-- Art. 11 GRCh
-- Art. 102 AEUV
-- Art. 296 AEUV
-- Art. 89 DSGVO
-- Art. 22 DSGVO
-- § 9 VDG
-- § 269 StGB
-- § 268 StGB
-- § 8b BSIG
-- § 29 VwVfG
-- Art. 267 AEUV
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

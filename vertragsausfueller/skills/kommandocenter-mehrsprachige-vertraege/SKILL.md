@@ -1,6 +1,6 @@
 ---
 name: kommandocenter-mehrsprachige-vertraege
-description: "Wenn es um Kommandocenter in Vertragsausfüller geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Vertragsausfüller."
 ---
 
 # Kommandocenter
@@ -19,10 +19,6 @@ description: "Wenn es um Kommandocenter in Vertragsausfüller geht: ordnet Akten
 2. Was ist das Ausgabeziel — Clean-Entwurf, Redline, Track Changes oder nur Ausfüllprotokoll?
 3. Soll ein bestehender Vertrag ergänzt oder ein neuer erstellt werden?
 4. Welche Parteien und welcher Vertragstyp (Kauf, Miete, Werk, Dienstleistung)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -67,3 +63,5 @@ description: "Wenn es um Kommandocenter in Vertragsausfüller geht: ordnet Akten
 - Track Changes, Redline oder Vergleichsfassung nur nach ausdrücklicher Rückfrage und Bestätigung.
 - Offene Werte bleiben sichtbar; sie werden nicht erfunden.
 - Juristische Wahlentscheidungen werden erklärt und protokolliert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

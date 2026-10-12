@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "plugin": "insiderrecht-compliance",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R2809",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Artikel 2 Nummer 6 und Artikel 4 Absatz 3 gelesen: Zwischenschritte, Geheimhaltung, Aufschub und Vertraulichkeitsverlust; Geltung ab 5. Juni 2026. Keine vollständige Prüfung aller nachfolgenden delegierten Konkretisierungen behauptet."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62011CJ0019",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 28.06.2012, C-19/11, Geltl, EU:C:2012:397, Rn. 38–40, 49–56: Bei mehrstufigen Vorhaben Zwischenschritte auf eigene Präzision prüfen; realistische Erwartung anhand vorhandener Tatsachen bestimmen, nicht durch große Kurswirkung eine beliebig geringe Wahrscheinlichkeit ausgleichen. Grenze: Entscheidung zu Vorgängerrichtlinien; keine unmittelbare Aussage zu den seit Juni/Juli 2026 geänderten Veröffentlichungspflichten nach Artikel 17 MAR."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ:L_202402809",
+      "checked_on": "2026-09-22",
+      "supports": "Artikel 2 Nummer 6 und Artikel 4: Änderungen des Artikels 17 MAR, insbesondere Zwischenschritte, finale Ereignisse, Aufschub und Geheimhaltung; einschlägige Anwendung ab 05.06.2026."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2026/789/oj/deu",
+      "checked_on": "2026-09-22",
+      "supports": "Artikel 1 bis 3 und Anhänge I bis III amtlich gelesen: beispielhafte finale Ereignisse, Widerspruch zu öffentlichen Voräußerungen, Inkrafttreten am dritten Tag nach Veröffentlichung vom 16.07.2026; geltendes Recht, kein Entwurf."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Kernfall unterscheidet präzise Zwischeninformation, Handelsverbot und Veröffentlichungspflicht nach aktuellem Artikel 17 MAR. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "Geltl C-19/11 auf Präzision und realistische Erwartung begrenzt; keine Kompensation geringer Wahrscheinlichkeit durch große Kurswirkung.",
+      "Geänderten Artikel 17 MAR und geltende Delegierte Verordnung (EU) 2026/789 mit Ereignislisten und Inkrafttreten eingeordnet, nicht als Entwurf behandelt.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "8794c154c03d351ce14d38f6dddfe61405a9b5b4384327be0af2760e55bda1bc"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe im September 2026 die MAR-Folgen eines vertraulichen M&A-Zwischenschritts.",
+      "Erstelle eine Kenntnis- und Ereigniszeitleiste nach einem präzisen Transaktionsgerücht."
+    ],
+    "negative": [
+      "Empfiehl mir anhand öffentlicher Kursdaten eine Aktie.",
+      "Entwirf einen Grundstückskauf ohne Kapitalmarktbezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "september-zwischenschritt-vertraulich",
+      "request": "Wir beraten eine deutsche börsennotierte AG am 14. September 2026. Die MAR-Anwendbarkeit ist unstreitig. Für diesen Auftrag steht nach abgeschlossener Prüfung fest: Die vertraulich vereinbarte Exklusivität in laufenden Erwerbsverhandlungen ist eine Insiderinformation nach Artikel 7 und ein qualifizierter Zwischenschritt eines gestreckten Vorgangs, kein finales Ereignis. Der Vertraulichkeitskreis ist dokumentiert; es gibt weder Leak noch Gerücht. Ein Mitarbeiter mit Kenntnis will Aktien kaufen, weil noch keine Ad-hoc-Mitteilung veröffentlicht wurde. Erstelle ergebnis.md als Entscheidungsvorlage zu Veröffentlichung, Aufschub und seinem Kaufwunsch auf aktuellem Rechtsstand. Kein Handel und keine Veröffentlichung auslösen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Leitet aus dem feststehenden qualifizierten Zwischenschritt keine aktuelle Veröffentlichungspflicht oder notwendige Aufschubentscheidung nach Absatz 4 ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Gibt den Aktienkauf nicht wegen fehlender Ad-hoc-Mitteilung frei, sondern trennt die bestehende Insiderqualität vom Publizitätsregime.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Benennt fortdauernde Geheimhaltung sowie Neubewertung bei finalem Ereignis oder Vertraulichkeitsverlust, ohne einen tatsächlich vorhandenen Leak zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "zwischenschritte-ma"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Mehrstufige Vorgänge und Aufschubgründe mit finalem Ereignis, öffentlichen Voräußerungen und tatsächlicher Geheimhaltung verbunden. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "Geltl C-19/11 auf Präzision und realistische Erwartung begrenzt; keine Kompensation geringer Wahrscheinlichkeit durch große Kurswirkung.",
+      "Geänderten Artikel 17 MAR und geltende Delegierte Verordnung (EU) 2026/789 mit Ereignislisten und Inkrafttreten eingeordnet, nicht als Entwurf behandelt.",
+      "Damals vorhandene Hindernisse, konkreter Gerüchteinhalt, Widerspruch zu öffentlicher Kommunikation, Prognosevalidierung und Order vor Kenntnis."
+    ],
+    "sha256": "3a7f14cbea598cc2fa6be4e04c2ec3a4c6c1f95c8145787b563d77915ec17ffd"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "insiderrecht-compliance/insiderrecht-compliance-werkstatt.md",
+      "insiderrecht-compliance/insiderrecht-compliance-schnellstart.md",
+      "insiderrecht-compliance/README.md",
+      "quality/evals/insiderrecht-compliance.json"
+    ],
+    "opening_change": "Zeitpunkt und Inhalt einer Übernahme-, Prognose- oder Personalinformation sowie Geheimhaltung und Veröffentlichung bestimmen.",
+    "norms": [
+      "Artikel 7, 14, 17 und 18 MAR",
+      "Artikel 2 Nummer 6 und Artikel 4 Verordnung (EU) 2024/2809",
+      "Artikel 1 bis 3 und Anhänge I bis III Delegierte Verordnung (EU) 2026/789"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 28.06.2012, C-19/11, Geltl, EU:C:2012:397, Rn. 38–40, 49–56",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62011CJ0019",
+        "application": "Bei mehrstufigen Vorhaben Zwischenschritte auf eigene Präzision prüfen; realistische Erwartung anhand vorhandener Tatsachen bestimmen, nicht durch große Kurswirkung eine beliebig geringe Wahrscheinlichkeit ausgleichen.",
+        "limit": "Entscheidung zu Vorgängerrichtlinien; keine unmittelbare Aussage zu den seit Juni/Juli 2026 geänderten Veröffentlichungspflichten nach Artikel 17 MAR."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Geltl betraf Vorgängerrichtlinien und entscheidet die neue Veröffentlichungsausnahme nicht; WpHG-Sanktionen und sämtliche Spezialfälle nicht vollständig neu geprüft.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen.",
+      "Erneuter Abruf der ELI-Fassung 2026/789 am 2026-09-23 durch JavaScript-Prüfseite blockiert; dokumentierte Vorprüfung vom 2026-09-22 nicht als neue Volltextprüfung ausgegeben."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Transaktionsinformation, Prognoseänderung oder Handelswunsch anbieten.",
+      "Zeitbelege still lesen; Insidervermerk oder Ad-hoc-Entwurf anbieten.",
+      "Bestellte Entscheidungsvorlage direkt ausarbeiten."
+    ],
+    "continuation": "Ältere Vorstandsvorlage -> Informationsbeginn; präzises Gerücht -> Geheimhaltung/Publizität; neue Zahlen -> Prognose; Brokerbeleg -> Orderbewertung ändern.",
+    "enrichment": "Damals vorhandene Hindernisse, konkreter Gerüchteinhalt, Widerspruch zu öffentlicher Kommunikation, Prognosevalidierung und Order vor Kenntnis.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "insiderrecht-compliance/skills/aufschubentscheidung-market/SKILL.md",
+      "insiderrecht-compliance/skills/insiderinformation-zwischenschritte/SKILL.md",
+      "insiderrecht-compliance/skills/zwischenschritte-ma/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "insiderrecht-compliance/references/ki-normen-und-fallpruefung.md",
+    "focus": "Ermitteln Sie, ob das System Handelsmuster auffindet oder Personenprofile für Entscheidungen erstellt. Die bloße Verwendung im Finanzsektor macht nicht jedes Überwachungssystem zu Anhang-III-Hochrisiko-KI.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

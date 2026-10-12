@@ -1,6 +1,6 @@
 ---
 name: einleitungssatz-generator
-description: "Wenn es um Einleitungssatz-Generator in aktenauszug-gerichtsverfahren geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Einleitungssatz-Generator: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einleitungssatz-Generator
@@ -27,10 +27,6 @@ description: "Wenn es um Einleitungssatz-Generator in aktenauszug-gerichtsverfah
 - § 308 ZPO — Bindung des Gerichts an Antrag (ne ultra petita)
 - § 42 VwGO — Anfechtungs- und Verpflichtungsklage
 - § 4 KSchG — Kündigungsschutzklage (Frist und Antrag)
-
-## Rechtsprechung zum Streitgegenstand und Klagebegehren
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Struktur des Einleitungssatzes
 
@@ -89,3 +85,5 @@ Nach Erstellung prüfen:
 - [ ] Keine Wertung? ja/nein
 - [ ] Maximal zwei Sätze? ja/nein
 - [ ] Streitgegenstand i.S.v. § 253 Abs. 2 Nr. 2 ZPO hinreichend bestimmt? ja/nein
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Mietrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Mietrecht."
 ---
 
 # Anschluss-Routing
@@ -40,25 +40,3 @@ Dieses Anschluss-Routing für **Mietrecht** wählt nach dem ersten Ergebnis die 
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 20 WEG
-- § 16 WEG
-- § 5 WiStrG
-- § 291 StGB
-- § 45 WEG
-- § 25 WEG
-- § 41 GKG
-- § 24 WEG
-- § 21 WEG
-- § 8 WiStrG
-- § 9a WEG
-- § 26 WEG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

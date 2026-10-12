@@ -1,6 +1,6 @@
 ---
 name: mopeg-formular-portal-und-einreichung
-description: "Wenn es um Mopeg Formular Portal Und Einreichung in Fachanwalt Handels- und Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mopeg Formular Portal und Einreichung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Mopeg: Formular, Portal und Einreichungslogik im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenradar (HGB/GmbHG/AktG/UmwG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
@@ -20,8 +20,6 @@ description: "Wenn es um Mopeg Formular Portal Und Einreichung in Fachanwalt Han
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mopeg: Formular, Portal und Einreichungslogik` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -44,3 +42,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Portal- und Einreichungswege:** Gesellschaftsregister: bundesweit über Notar (§ 707b BGB n.F. i.V.m. § 12 HGB Beglaubigung); Handelsregister: über Notar nach § 12 HGB; Transparenzregister: Eintragung online über transparenzregister.de (Bundesanzeiger), Eingabemaske mit wirtschaftlich Berechtigten, kein Notar-Zwang aber Identitätsnachweis.
 4. **Pflichtangaben Gesellschaftsregister § 707a Abs. 1 BGB n.F.:** Name eGbR (mit Zusatz "eGbR"), Sitz, Gegenstand, Gesellschafter mit Namen, Geburtsdatum, Wohnort, Vertretungsbefugnis. Bei Änderungen Folgeanmeldung.
 5. **Trade-off und Anschluss:** Eintragung in eGbR sichert Aktivlegitimation für bestimmte Rechtsgeschäfte, kostet aber Notargebühren und schafft Publizität (positive und negative Publizität § 707a Abs. 3 BGB n.F. analog § 15 HGB). Anschluss-Skill `gesellschaftsgruender-transparenzregister`.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-mopeg-formular-portal-und-einreichung` beziehungsweise Mopeg: Formular, Portal und Einreichungslogik: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-mopeg-formular-portal-und-einreichung.md).

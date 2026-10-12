@@ -1,6 +1,6 @@
 ---
 name: rampe-handlauf-tuerverbreiterung-gemeinschaftsbereich
-description: "Wenn es um Rampe Handlauf Tuerverbreiterung Gemeinschaftsbereich in WEG- und Hausverwaltung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Rampe Handlauf Türverbreiterung Gemeinschaftsbereich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rampe, beidseitige Handläufe, Tuerverbreiterung und Beleuchtungsoptimierung im Gemeinschaftseigentum (Stand 06/2026): DIN 18040 Masszahlen, Kostentragung § 21 WEG, Genehmigungspflicht Landesbauordnung, Beschlussvorlagen.
@@ -20,8 +20,6 @@ description: "Wenn es um Rampe Handlauf Tuerverbreiterung Gemeinschaftsbereich i
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Rampe, Handlauf, Türverbreiterung im Gemeinschaftsbereich` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -57,9 +55,9 @@ Handlauf-Nachrüstung: Fast immer verfahrensfrei. Türverbreiterung Hauseingang:
 
 ## Kostentragung
 
-§ 21 Abs. 1 WEG: Antragsteller trägt, wenn Maßnahme nur ihm nützt (individuell privilegierte Maßnahme nach § 20 Abs. 2 Nr. 2 WEG). Norm: https://www.gesetze-im-internet.de/woeigg/__21.html
+§ 21 Abs. 1 WEG: Bei einer individuell gestatteten oder auf Verlangen nach § 20 Abs. 2 WEG durchgeführten Maßnahme trägt grundsätzlich der betreffende Eigentümer die Kosten; nicht allein an den tatsächlichen Nutzen anknüpfen. Norm: https://www.gesetze-im-internet.de/woeigg/__21.html
 
-§ 21 Abs. 2 WEG: Kosten trägt die GdWE nach Miteigentumsanteilen, wenn die Maßnahme der Instandsetzung oder einer gesetzlichen Verpflichtung dient (z. B. Arbeitsstättenverordnung bei Gewerbeeinheiten, Verkehrssicherungspflicht). Tipp: Sonderumlage statt laufender Hausgelderhöhung bei Einmalkosten, da günstiger für Hausgeld-Rückstandsprüfung. Norm § 28 WEG: https://www.gesetze-im-internet.de/woeigg/__28.html
+Erhaltungskosten nach § 16 Abs. 2 WEG von Kosten baulicher Veränderungen nach § 21 WEG trennen. § 21 Abs. 2 Nr. 1 verlangt mehr als zwei Drittel der abgegebenen Stimmen und die Hälfte aller MEA, mit Ausnahme unverhältnismäßiger Kosten; Nr. 2 ist die eigenständige Amortisationsalternative. Gesetzliche Pflicht, Finanzierung und Kostenverteilung jeweils konkret prüfen. Ob Rücklage, Vorschüsse oder Sonderumlage sachgerecht sind, folgt aus Zweck, Beschlusslage und Liquidität, nicht aus einem pauschalen Kostenvorteil.
 
 ## Praxistipp: Stufenkantenmarkierung und Bewegungsmelder
 

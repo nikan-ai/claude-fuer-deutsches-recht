@@ -1,6 +1,6 @@
 ---
 name: vergleichsverhandlung-strategie
-description: "Wenn es um Vergleichsverhandlung Strategie in Fachanwalt Urheber Medienrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleichsverhandlung Strategie: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: Fachanwalt Urheber Medienrecht."
 ---
 
 # Vergleichsverhandlung im Urheber- und Medienrechtstreit vorbereiten und Strategie entwickeln
@@ -35,10 +35,6 @@ description: "Wenn es um Vergleichsverhandlung Strategie in Fachanwalt Urheber M
 - §§ 339-345 BGB — Vertragsstrafe
 - § 794 Abs. 1 Nr. 1 ZPO — Prozessvergleich als Vollstreckungstitel
 - § 796a ZPO — Anwaltsvergleich als Vollstreckungstitel
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorbereitung der Verhandlung
 
@@ -160,3 +156,5 @@ Die Parteien beantragen gemeinsam Vollstreckbarerklaerung nach § 796a ZPO.
 - `urheber-abmahnung-pruefen` — Abmahnung-Grundlage
 - `schriftsatzkern-substantiierung` — wenn Vergleich scheitert, Klage noetig
 - `fachanwalt-urheber-medienrecht-lizenzvertrag-verhandlung` — Zukunftslizenz nach Vergleich
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

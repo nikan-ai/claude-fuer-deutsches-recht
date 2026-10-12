@@ -1,6 +1,6 @@
 ---
 name: posteingang-ausgang-sekretariats-tagesbrief
-description: "Wenn es um Posteingang und Postausgang in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Posteingang und Postausgang: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Posteingang und Postausgang
@@ -22,9 +22,6 @@ Postein- und Postausgangsbuch führen. Posteingang erfasst Empfangstag (relevant
 2. Welcher Eingangsweg: Post (Vier-Tages-Fiktion), beA (sofortige Zustellung), E-Mail, Fax, persoenlich?
 3. Gibt es ein fristwahrendes Dokument (Urteil, Klageschrift, Bescheid) mit sofortigem Fristen-Handlungsbedarf?
 4. Muss der Eintrag per Audit-Trail unveraenderbar dokumentiert werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 187-188 BGB i.V.m. § 222 ZPO — Fristbeginn bei Zustellung
@@ -122,3 +119,5 @@ Bei Notfristen (Berufung Revision Kündigungsschutzklage): Posteingang Akte und 
 - Aktualisierte Logbücher.
 - Tagesbrief-Einträge.
 - Verbindungen zu Akte Fristenbuch und Honorar-Tracker.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: mandantenbrief-memo-rbs-beratungshilfe
-description: "Wenn es um /mandantenbrief in Plugin für die studentische Rechtsberatungsstelle geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Mandantennachricht oder Entscheidungsvorlage."
+description: "Für /mandantenbrief: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # /mandantenbrief
@@ -30,9 +30,6 @@ description: "Wenn es um /mandantenbrief in Plugin für die studentische Rechtsb
 2. Auf welchem Sprachniveau soll der Brief verfasst werden: B1/B2 Standard oder Leichte Sprache A2 bei besonderem Bedarf?
 3. Enthaelt der Brief Angaben über Dritte oder interne Bewertungen, die im Mandantenbrief nicht erscheinen dürfen?
 4. Hat der anleitende Volljurist den Briefentwurf bereits freigegeben oder ist das Gate noch ausstehend?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - BORA § 11 — Mitteilungspflicht: Mandant ist über wesentliche Verfahrensschritte zu informieren
@@ -130,3 +127,5 @@ Mit freundlichen Grüßen
 - **Falsches Fristenverständnis beim Mandanten:** Der Brief muss Fristen, die der Mandant wahren muss (z. B. Vorlage von Dokumenten), klar und mit genauen Daten benennen. Keine vagen Formulierungen wie "möglichst bald".
 - **Keine Rückfrage-Möglichkeit:** Mandantenbrief ohne Kontaktangabe ist wertlos. Immer Erreichbarkeit der Beratungsstelle angeben.
 - **Vertraulichkeit verletzt:** Keine Drittdaten (z. B. Informationen über den Vermieter, den Arbeitgeber) im Brief an den Mandanten – es sei denn, der Mandant hat alle relevanten Informationen ohnehin selbst geliefert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

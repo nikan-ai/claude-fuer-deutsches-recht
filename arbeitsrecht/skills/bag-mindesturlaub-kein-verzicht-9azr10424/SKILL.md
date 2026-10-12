@@ -1,6 +1,6 @@
 ---
 name: bag-mindesturlaub-kein-verzicht-9azr10424
-description: "Wenn es um Bag Mindesturlaub Kein Verzicht 9azr10424 in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bag Mindesturlaub Kein Verzicht 9azr10424: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bag Mindesturlaub Kein Verzicht 9azr10424: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -16,12 +16,8 @@ description: "Wenn es um Bag Mindesturlaub Kein Verzicht 9azr10424 in Arbeitsrec
 
 **Fokus:** Bag Mindesturlaub Kein Verzicht 9azr10424: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
 
-### Rechtsprechung live prüfen
-
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Rechtsprechung live prüfen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -49,7 +45,6 @@ Die saubere Vergleichsformulierung trennt drei Schichten: gesetzlichen Mindestur
 | --- | --- |
 | 1 | Höhe des gesetzlichen Mindesturlaubs (24 Werktage bei Sechstagewoche, anteilig bei Teilzeit) |
 | 2 | Bereits genommene Urlaubstage im laufenden Kalenderjahr |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 4 | Krankheit und Übertragungsfrist nach Paragraf 7 Absatz 3 BUrlG |
 | 5 | Bei Aufhebungsvertrag oder Vergleich: Trennung zwischen Mindesturlaub und Mehrurlaub formulieren |
 | 6 | Im laufenden Verhältnis: Verzicht auf Mindesturlaub unwirksam |
@@ -59,7 +54,6 @@ Die saubere Vergleichsformulierung trennt drei Schichten: gesetzlichen Mindestur
 
 Die Parteien sind sich darüber einig, dass das Arbeitsverhältnis zum [Datum] endet. Bis zum Beendigungstermin ist der Kläger unwiderruflich von der Arbeitsleistung freigestellt. Sämtliche Urlaubsansprüche, einschließlich des gesetzlichen Mindesturlaubs, werden während der Freistellung in natura gewährt und sind damit erfüllt. Sollten gesetzliche Mindesturlaubsansprüche aufgrund von Arbeitsunfähigkeit nicht in natura gewährt werden können, werden diese mit dem Beendigungstermin als Urlaubsabgeltung in Geld in Höhe von [Betrag] ausgezahlt.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 | Formulierung | Problem |
 | --- | --- |
@@ -74,3 +68,5 @@ Bei unwirksamer Verzichtsklausel bleibt der Anspruch auf Urlaubsabgeltung nach P
 ## Anschluss
 
 Verbindung mit `aufhebungsvertrag` und `aufhebungsvertrag-sperrzeit-prognose` für die Gestaltung von Aufhebungsverträgen. Bei Prozessvergleichen vor dem Arbeitsgericht ist der Skill `kueschk-vergleichsverhandlung-checkliste` zu konsultieren — die Vergleichsformulierung muss die Trennung Mindesturlaub und Mehrurlaub abbilden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

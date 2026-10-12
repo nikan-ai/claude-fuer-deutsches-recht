@@ -1,6 +1,6 @@
 ---
 name: dual-use-und-militaerische-robotik
-description: "Wenn es um Dual-Use und militärische Robotik in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Dual Use Und Militaerische Robotik; Arbeitsfeld: robotik-recht."
+description: "Für Dual-Use und militärische Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Dual-Use und militärische Robotik
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft Dual-Use, Exportkontrolle und militärische Robotik-Schnittstellen, ohne zivile Produktpflichten zu übersehen.**
 
 Quellen-/Normenanker: Dual-Use-VO, AWG/AWV, Sanktionen, Produktsicherheit.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

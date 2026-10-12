@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "plugin": "fachanwalt-gewerblicher-rechtsschutz",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/geschmmg_2004/__46.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zu Herkunft, Vertriebswegen, Mengen, Preisen und Verhältnismäßigkeit geprüft; direkte Öffnung zuvor mit Timeout."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__242.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zur Leistung nach Treu und Glauben gelesen; eine konkrete Reichweite ergänzender Rechnungslegung ist gesondert zu begründen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/geschmmg_2004/__42.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 2 im Normtext geprüft: Verschulden, verletzungsbezogener Gewinn und Lizenzanalogie als Berechnungswege."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__287.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext zur richterlichen Schadensschätzung anhand der Umstände geprüft; keine Befugnis zu unbelegten Quoten."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2000-11&Gericht=bgh&Sort=1&anz=239&client=%5B%27%5B%5C%27%5B%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%2C+%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%5D%5C%27%2C+%5C%27%5B%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%2C+%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%5D%5C%27%5D%27%2C+%27%5B%5C%27%5B%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%2C+%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%5D%5C%27%2C+%5C%27%5B%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%2C+%5C%5C%5C%27%5B%22%5B%5C%5C%5C%27%5D%5C%27%5D%27%5D&nr=22971&pos=13",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 02.11.2000, Az. I ZR 246/98: amtliche Leitsätze im Suchauszug zur unmittelbaren Gemeinkostenzurechnung und eigenen Vertriebsleistung gelesen. Direkter Volltextabruf mit Zugriffssperre; keine Volltext- oder Randnummernverifikation behauptet."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/1998/I_ZR_246-98.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 02.11.2000, Az. I ZR 246/98, Gemeinkostenanteil, amtliche Leitsätze. Anwendung: Kostenabzug erfordert unmittelbare Zuordnung zur Verletzungsproduktion; Gemeinkosten nicht automatisch vom Verletzergewinn abziehen. Grenze und Prüfzugang: Historische Anspruchsnorm; heutige Grundlage Paragraf 42 DesignG und gesonderte Kausalitätsquote prüfen. Amtlicher indexierter Leitsatz geprüft, Volltextabruf gesperrt."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI:EU:C:2014:2013",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 19.06.2014, Az. C-345/13, Karen Millen. Anwendung: Eigenartvergleich der Werkstatt gegen einzelne ältere Gestaltungen. Grenze und Prüfzugang: Kein Mosaik einzelner Elemente und kein Ersatz für Nachahmungsnachweis."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/geschmmg_2004/__42.html",
+      "checked_on": "2026-09-22",
+      "supports": "Verletzungsfolgen und Schadensberechnung im Designrecht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/patg/__64.html",
+      "checked_on": "2026-09-22",
+      "supports": "Beschränkung und Widerruf auf Antrag statt Verwechslung mit Paragraf 65 PatG."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/designg/__42.html",
+      "supports": "Erneuter Normabruf zu designrechtlichen Verletzungsansprüchen; Anspruch und konkrete Berechnungsart bleiben positionsbezogen zu prüfen.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2022/I_ZR__96-22A.pdf?__blob=publicationFile&v=4",
+      "checked_on": "2026-10-01",
+      "supports": "Kein eigenständiger urheberrechtlicher Gesamteindruckstest: geschützte kreative Elemente in der insgesamt betrachteten neuen Gestaltung identifizieren. Grenze: Zurückverweisung; kein endgültiger Schutzbefund für USMHaller, keine Aussage zu Lizenzhöhe oder Gewinnquote; Designprüfung bleibt eigenständig."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0580",
+      "checked_on": "2026-10-01",
+      "supports": "Originalität freier kreativer Entscheidungen von Design-Neuheit und Eigenart trennen; keine höhere Originalitätsschwelle für angewandte Kunst; wiedererkennbare kreative Elemente für Verletzung maßgeblich. Grenze: Nicht mit Schlussanträgen vom08.05.2025 verwechseln; keine Schadensberechnung, keine Aussage zu bloßen Lichtbildern nach Paragraf72UrhG."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem und Fokusskill zur isolierten Design-Verletzergewinnrechnung unverändert: Die beiden neuen Schutz-/Verletzungsanker bestimmen weder Kostenabzug noch Gewinnquote. Die breite Werkstatt/Mini und vorhandener Design-Grundlagenskill enthalten beide.",
+    "changes": [
+      "Gemeinkostenanteil in allen drei Prompts und Fokus-Skill integriert",
+      "Gewinn und hypothetischen Designanteil im Zahlenbeispiel getrennt",
+      "Abmahnungszugang, Vollmacht und Vollziehungsfrist präzisiert; keine Zwangskaskade",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 02.07.2026 – I ZR 96/22, USM Haller II, Rn. 23–32 und 60–63. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "EU-Vorlageantwort zur Originalität und Wiedererkennbarkeit in vorhandenen Gestaltungsvergleich aufgenommen, Schadensrechnung abgegrenzt."
+    ],
+    "sha256": "d66e3929ba36d6f4d2e64f8f8a6888139e0badbf486cde31c318aaa5353662ac",
+    "reviewed_on": "2026-10-01"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem und zugeordneter Skill gelesen und konsistent auf unmittelbare Kostenattribution sowie gesonderte Designkausalität präzisiert; amtlichen Leitsatz geprüft, kein Live-Modelltest. Workflow-Ergänzung: Spezialwerkzeug wurde nur für die angegriffene Serie gemietet -> Kostenansatz im Verletzergewinn ändern, nicht automatisch den kausalen Designanteil am Gewinn. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem und Fokusskill zur isolierten Design-Verletzergewinnrechnung unverändert: Die beiden neuen Schutz-/Verletzungsanker bestimmen weder Kostenabzug noch Gewinnquote. Die breite Werkstatt/Mini und vorhandener Design-Grundlagenskill enthalten beide.",
+    "changes": [
+      "Gemeinkostenanteil in allen drei Prompts und Fokus-Skill integriert",
+      "Gewinn und hypothetischen Designanteil im Zahlenbeispiel getrennt",
+      "Abmahnungszugang, Vollmacht und Vollziehungsfrist präzisiert; keine Zwangskaskade",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-gewerblicher-rechtsschutz/fachanwalt-gewerblicher-rechtsschutz-hauptproblem.md",
+    "prompt_sha256": "fc0d96c3553af9420d62a7ec26f8e57f19b4b00dd976bc59e96a7f6edc7da5ae",
+    "skill_path": "fachanwalt-gewerblicher-rechtsschutz/skills/design-verletzergewinn-kostenabgleich/SKILL.md",
+    "skill_sha256": "90db02f8fafc1a37f2d3b0e6abb1094d885eb983d08fa4ba1ae7be9384dc7ed7"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem und Fokusskill zur isolierten Design-Verletzergewinnrechnung unverändert: Die beiden neuen Schutz-/Verletzungsanker bestimmen weder Kostenabzug noch Gewinnquote. Die breite Werkstatt/Mini und vorhandener Design-Grundlagenskill enthalten beide.",
+    "changes": [
+      "Gemeinkostenanteil in allen drei Prompts und Fokus-Skill integriert",
+      "Gewinn und hypothetischen Designanteil im Zahlenbeispiel getrennt",
+      "Abmahnungszugang, Vollmacht und Vollziehungsfrist präzisiert; keine Zwangskaskade",
+      "Angegriffene Variante und historische Angebote, umsetzbare Unterlassung, Retouren und Wiederverkauf, spezifische Kosten statt Etiketten, Kaufmotivbelege, Dringlichkeit und Geheimschutz von Anlagen.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 02.07.2026 – I ZR 96/22, USM Haller II, Rn. 23–32 und 60–63. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "EU-Vorlageantwort zur Originalität und Wiedererkennbarkeit in vorhandenen Gestaltungsvergleich aufgenommen, Schadensrechnung abgegrenzt."
+    ],
+    "sha256": "828fcb5bbb64b0f17b3920abefab7a28380475323710362f6f4cad9c3feee1a3",
+    "reviewed_on": "2026-10-01"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie die Rechnungslegung zu unserem verletzten deutschen Möbeldesign: Retouren, Kostenstellen und Gemeinkosten sollen in einen Zahlungsentwurf überführt werden.",
+      "Wir verteidigen einen Designhersteller gegen Gewinnabschöpfung; ordnen Sie die Einzelkosten und den behaupteten Gestaltungseinfluss einer belastbaren Gegenrechnung zu."
+    ],
+    "negative": [
+      "Recherchieren Sie, ob unser neues Lampendesign vor der Anmeldung bereits offenbart wurde.",
+      "Erstellen Sie einen technischen Merkmalsvergleich für die Verletzung eines Verfahrenspatents."
+    ],
+    "target_skill": "design-verletzergewinn-kostenabgleich"
+  },
+  "cases": [
+    {
+      "id": "leuchtenschirme-retouren-gemeinkosten",
+      "request": "Wir vertreten die Inhaberin eines deutschen eingetragenen Designs. Ein rechtskräftiger Feststellungstitel umfasst die schuldhafte Verletzung durch das Modell L im deutschen Vertrieb vom 01.01. bis 30.06.2025. Andere Produkte sind nicht betroffen. Bitte erstellen Sie ergebnis.md als bezifferte Verhandlungsgrundlage samt Zahlungsentwurf. Die Rechnungslegung nennt 1.000 verkaufte Stück zu je 100 EUR netto, davon 100 vollständig zurückgenommene und mit insgesamt 10.000 EUR netto gutgeschriebene Stück. Nach Rückabwicklung sind den verbleibenden Verkäufen unstreitig 36.000 EUR Material, 9.000 EUR unmittelbar produktbezogene Fertigungslöhne, 4.500 EUR Versand und eine nur für diese Serie angefallene Werkzeugmiete von 4.500 EUR zugeordnet. Alle Beträge sind netto und durch Einzelbelege bestätigt. Daneben zieht der Gegner 18.000 EUR allgemeine Büromiete und Verwaltung nach Umsatzschlüssel ab; diese Kosten wären ohne Modell L unverändert entstanden. Er behauptet, Kunden kauften vor allem wegen des niedrigen Preises. Wir haben noch keine Belege zum Gestaltungseinfluss. Rechnen Sie für die Verhandlung ausdrücklich auch mit hypothetischen Zurechnungsanteilen von 40 und 60 Prozent, ohne diese als bewiesen zu behandeln. Eine Lizenzberechnung ist nicht beauftragt; es gab weder Zahlung auf den Schaden noch Vergleich. Versenden Sie nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Rechnung setzt 90.000 EUR Nettoerlös an und zieht die 10.000 EUR Retourengutschriften nicht nochmals ab; sie verwendet nur 900 verbleibende Stück.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der vorläufige Produktgewinn beträgt nachvollziehbar 36.000 EUR; die ausschließlich serienbezogene Werkzeugmiete wird berücksichtigt, die unveränderten Gemeinkosten von 18.000 EUR werden nicht allein aufgrund des Umsatzschlüssels abgezogen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Zurechnungsszenarien ergeben 14.400 und 21.600 EUR und werden als hypothetisch, nicht als gesicherte Forderung behandelt; der Produktgewinn wird nicht ohne weitere Begründung vollständig zugesprochen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Der Zahlungsentwurf enthält einen erkennbaren Vorbehalt zur noch offenen Gewinnzurechnung und konkrete Beweisbedarfe zu Kaufmotiven; er addiert keine Lizenzgebühr zum gleichen Schaden und behauptet keinen Versand.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "design-verletzergewinn-kostenabgleich"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-gewerblicher-rechtsschutz/README.md",
+      "fachanwalt-gewerblicher-rechtsschutz/fachanwalt-gewerblicher-rechtsschutz-hauptproblem.md",
+      "fachanwalt-gewerblicher-rechtsschutz/fachanwalt-gewerblicher-rechtsschutz-schnellstart.md",
+      "fachanwalt-gewerblicher-rechtsschutz/fachanwalt-gewerblicher-rechtsschutz-werkstatt.md",
+      "fachanwalt-gewerblicher-rechtsschutz/skills/design-verletzergewinn-kostenabgleich/SKILL.md",
+      "fachanwalt-gewerblicher-rechtsschutz/skills/designrecht-praxis-grundlagen/SKILL.md",
+      "quality/evals/fachanwalt-gewerblicher-rechtsschutz.json"
+    ],
+    "opening_change": "Schutzrechtsverletzung und streitige Handlung; im Hauptproblem Rechnungslegung, Kostenbeleg und zurechenbarer Designgewinn. Workflow-Ergänzung: Leer: Abmahnungsabwehr, Schutzrechtsvergleich oder Schadensrechnung anbieten. Dateien ohne Aufgabe: Varianten, Schutzabbildungen und Erlösbelege still lesen; Unterlassungs-, Vergleichs- oder Bezifferungsziel klären. Klarer Auftrag: bestellte Erwiderung oder Rechnung direkt bearbeiten, ohne ungefragtes Schutzrechtsportfolio.",
+    "norms": [
+      "Paragraf 42 DesignG",
+      "Paragraf 287 ZPO",
+      "Paragraf 64 PatG",
+      "Paragrafen 13 UWG und 929 Absatz 2 ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 02.11.2000, Az. I ZR 246/98, Gemeinkostenanteil, amtliche Leitsätze",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/1998/I_ZR_246-98.pdf?__blob=publicationFile&v=1",
+        "application": "Kostenabzug erfordert unmittelbare Zuordnung zur Verletzungsproduktion; Gemeinkosten nicht automatisch vom Verletzergewinn abziehen.",
+        "limit": "Historische Anspruchsnorm; heutige Grundlage Paragraf 42 DesignG und gesonderte Kausalitätsquote prüfen. Amtlicher indexierter Leitsatz geprüft, Volltextabruf gesperrt."
+      },
+      {
+        "citation": "EuGH, Urteil vom 19.06.2014, Az. C-345/13, Karen Millen",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI:EU:C:2014:2013",
+        "application": "Eigenartvergleich der Werkstatt gegen einzelne ältere Gestaltungen.",
+        "limit": "Kein Mosaik einzelner Elemente und kein Ersatz für Nachahmungsnachweis."
+      },
+      {
+        "citation": "BGH, Urteil vom 02.07.2026 – Az. I ZR 96/22 – USM Haller II, Rn. 23–26, 60–63 frisch; Rn.27–32 im vorhandenen Fachaudit wiederverwendet",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2022/I_ZR__96-22A.pdf?__blob=publicationFile&v=4",
+        "application": "Kein eigenständiger urheberrechtlicher Gesamteindruckstest: geschützte kreative Elemente in der insgesamt betrachteten neuen Gestaltung identifizieren.",
+        "limit": "Zurückverweisung; kein endgültiger Schutzbefund für USMHaller, keine Aussage zu Lizenzhöhe oder Gewinnquote; Designprüfung bleibt eigenständig.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "EuGH, Urteil vom 04.12.2025 – Az. C-580/23 und C-795/23 – Mio/konektra, Rn. 50–58, 83–87",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0580",
+        "application": "Originalität freier kreativer Entscheidungen von Design-Neuheit und Eigenart trennen; keine höhere Originalitätsschwelle für angewandte Kunst; wiedererkennbare kreative Elemente für Verletzung maßgeblich.",
+        "limit": "Nicht mit Schlussanträgen vom08.05.2025 verwechseln; keine Schadensberechnung, keine Aussage zu bloßen Lichtbildern nach Paragraf72UrhG.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "Gemeinkostenentscheidung anhand amtlicher Leitsätze, nicht vollständig neu abgerufener Gründe geprüft.",
+      "FAO-Nachweise, Markenamtsregeln und weitere Spezialzweige nicht insgesamt neu verifiziert.",
+      "Workflow-Review 23.09.2026: Paragraf 42 DesignG erneut eingesehen. Gemeinkostenentscheidung weiterhin nur in dokumentierter Leitsatzreichweite, keine erfolgreiche neue Volltextprüfung behauptet.",
+      "01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem und Fokusskill zur isolierten Design-Verletzergewinnrechnung unverändert: Die beiden neuen Schutz-/Verletzungsanker bestimmen weder Kostenabzug noch Gewinnquote. Die breite Werkstatt/Mini und vorhandener Design-Grundlagenskill enthalten beide."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Abmahnungsabwehr, Schutzrechtsvergleich oder Schadensrechnung anbieten.",
+      "Dateien ohne Aufgabe: Varianten, Schutzabbildungen und Erlösbelege still lesen; Unterlassungs-, Vergleichs- oder Bezifferungsziel klären.",
+      "Klarer Auftrag: bestellte Erwiderung oder Rechnung direkt bearbeiten, ohne ungefragtes Schutzrechtsportfolio."
+    ],
+    "continuation": "Spezialwerkzeug wurde nur für die angegriffene Serie gemietet -> Kostenansatz im Verletzergewinn ändern, nicht automatisch den kausalen Designanteil am Gewinn.",
+    "enrichment": "Angegriffene Variante und historische Angebote, umsetzbare Unterlassung, Retouren und Wiederverkauf, spezifische Kosten statt Etiketten, Kaufmotivbelege, Dringlichkeit und Geheimschutz von Anlagen.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=22971&Blank=1.pdf",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/1998/I_ZR_246-98.pdf?__blob=publicationFile&v=1",
+        "sha256": "aee8ef9d138e6ae97147968ff25536a905a7ed7aa6bd34d53c908e8c9c1aef83"
+      }
+    ]
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "method": "targeted_primary_source_and_editorial_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-gewerblicher-rechtsschutz.json",
+    "limits": "Zwei aktuelle oberstgerichtliche Entscheidungen fachlich geprüft; keine Vollprüfung sämtlicher Fachskills oder älterer Quellen und kein neuer Modelllauf.",
+    "focus_scope": "Hauptproblem und Fokusskill zur isolierten Design-Verletzergewinnrechnung unverändert: Die beiden neuen Schutz-/Verletzungsanker bestimmen weder Kostenabzug noch Gewinnquote. Die breite Werkstatt/Mini und vorhandener Design-Grundlagenskill enthalten beide."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "fachanwalt-gewerblicher-rechtsschutz/references/ki-normen-und-fallpruefung.md",
+    "focus": "Verlangen Sie bei einem beworbenen KI-Zertifikat Aussteller, geprüften Gegenstand, Systemversion und behauptete Rechtswirkung. Eine transparente Herkunftskennzeichnung ersetzt weder eine Lizenz noch den Nachweis einer Werbeaussage.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

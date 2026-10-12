@@ -1,7 +1,7 @@
 {
   "name": "arbeitszeugnispruefer",
-  "version": "429.16.0",
-  "description": "Prueft bestehende deutsche Arbeitszeugnisse Schritt fuer Schritt: Notenstufen, Zufriedenheits- und Verhaltensformeln, Geheimcodes, Auslassungen, Steigerungsadverbien, Schlussformel. Liefert Ampel-Einschaetzung pro Satz, Gesamtnote, Aufforderungsschreiben oder Klagestrategie zur Berichtigung.",
+  "version": "445.35.2",
+  "description": "Prüft Arbeitszeugnisse aus Arbeitnehmersicht: gezielte Rückfragen, vertiefte Rechtsprechung, belegbare Änderungen, kurzer Mandantenbrief und passendes Arbeitgeberschreiben. Führt den Fall bis zur Kontrolle der Neufassung; auch für Chat und Word ausgearbeitet.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Klotzkette",
@@ -11,8 +11,8 @@
   "keywords": [
     "arbeitszeugnis",
     "zeugnispruefung",
-    "ampelsystem",
-    "geheimcodes",
+    "pruefbericht",
+    "zeugnisklarheit",
     "notenstufen",
     "arbeitsrecht",
     "zeugnisberichtigung",

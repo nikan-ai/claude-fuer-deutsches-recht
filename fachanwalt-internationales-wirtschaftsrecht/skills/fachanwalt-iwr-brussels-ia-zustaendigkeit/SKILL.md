@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-iwr-brussels-ia-zustaendigkeit
-description: "Wenn es um Brüssel-Ia-VO Internationale Zuständigkeit in Fachanwalt Internationales Wirtschaftsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Brüssel-Ia-VO Internationale Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Brüssel-Ia-VO Internationale Zuständigkeit
@@ -80,7 +80,6 @@ Prüfung, welches EU-Gericht international zustaendig ist (VO (EU) 1215/2012, Br
 
 ### Asymmetrische Klauseln
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - "A klagt nur in DE, B kann in DE oder am Sitz von A klagen"
 
 ## 7) Ausschließliche Zuständigkeit Art. 24
@@ -142,7 +141,6 @@ Prüfung, welches EU-Gericht international zustaendig ist (VO (EU) 1215/2012, Br
 
 ## 12) EuGH-/BGH-Linien
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anschluss
 
@@ -162,7 +160,6 @@ Prüfung, welches EU-Gericht international zustaendig ist (VO (EU) 1215/2012, Br
 
 ### Ergaenzende Leitsaetze Bruessel Ia
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Output-Template Gerichtsstand-Memo Bruessel Ia
 **Adressat:** Mandant — Tonfall: klar erklaerend, ergebnisorientiert
@@ -181,9 +178,6 @@ Streitgegenstand: [VERTRAG / DELIKT]
 5. Empfohlenes Gericht: [GERICHT, ORT, ZUSTAENDIGKEIT]
 ```
 
-<!-- AUDIT 27.05.2026
-Alle übrigen Zitate in diesem Skill wurden nicht beanstandet.
--->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -193,3 +187,4 @@ Alle übrigen Zitate in diesem Skill wurden nicht beanstandet.
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

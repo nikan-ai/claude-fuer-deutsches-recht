@@ -1,6 +1,6 @@
 ---
 name: anerkennung-ects-und-ausland
-description: "Wenn es um Anerkennung ECTS Und Ausland in Hochschulrecht der Bundesländer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anerkennung ECTS und Ausland: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Anerkennung ECTS Und Ausland
@@ -88,25 +88,3 @@ Der Skill arbeitet landes- und satzungsbezogen: Er fragt zuerst nach Bundesland,
 ## Ergebnisformat
 
 Erzeuge bevorzugt: Anerkennungsmemo. Am Ende immer drei Zeilen: **Frist**, **fehlende Quelle**, **nächster sicherer Schritt**.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 123 VwGO
-- § 70 VwGO
-- § 4 HRG
-- § 15 HRG
-- § 16 HRG
-- § 2 HRG
-- § 7 HRG
-- § 28 VwVfG
-- § 39 VwVfG
-- § 25 HRG
-- § 27 BDSG
-- § 42 ArbNErfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

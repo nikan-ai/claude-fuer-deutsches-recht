@@ -1,6 +1,6 @@
 ---
 name: personen-organisationstyp
-description: "Wenn es um Personen- und Organisationstyp in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Personen- und Organisationstyp: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Personen- und Organisationstyp
@@ -25,8 +25,6 @@ description: "Wenn es um Personen- und Organisationstyp in Lobbyregister Bundest
 1. Wer tritt nach aussen auf?
 2. Handelt eine Person im eigenen Namen oder für eine Organisation?
 3. Gibt es mehrere Traeger, Netzwerkpartner oder Plattformstrukturen?
-
-## Quellenanker
 
 ## Spezialfall Auslandsrechtstraeger mit deutscher Zweigniederlassung
 

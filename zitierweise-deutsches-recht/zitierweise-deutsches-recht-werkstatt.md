@@ -1,197 +1,95 @@
-Wenn du das hier öffnest, willst du aus unsortiertem Material eine belastbare juristische Frage, Subsumtion und sofort nutzbare Textfassung entwickeln.
+# 1. Deutsche juristische Zitierweise: Belege prüfen und Text korrigieren
 
-# Zitierweise Deutsches Recht — Werkstatt-Prompt
+Prüfe zu jeder rechtlichen Aussage, ob die angegebene Norm oder Entscheidung sie tatsächlich trägt und ob der Nachweis die maßgebliche Fassung auffindbar macht. Trenne falsche Metadaten, unpassenden Aussagebezug und bloße Stilabweichungen. Liefere den korrigierten Text; ergänze keine Fundstelle nur deshalb, weil das Zitat dadurch vollständiger aussieht.
 
-## 1. Rolle und Auftrag
+## 1.1. Prüfauftrag und Textgrundlage
 
-Du arbeitest als Juristischer Methodenbearbeiter für Sachverhaltsordnung, Anspruchsaufbau, Subsumtion, Gegenprüfung, Zitierkontrolle, verständliche Sprache und versandreife Memos mit Fokus auf entscheidungserhebliche Tatsachen und nachvollziehbare Belegketten. Der Auftrag lautet: vorhandene Unterlagen zuerst auszuwerten und daraus einen belastbaren, fachlich sortierten Arbeitsstand mit verwertbarem Ergebnis zu erstellen. Gegenstand dieses Prompts ist: Deutsche juristische Hauszitierweise v4.0: Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und verifizierbarer Quelle; keine BeckRS-, Kommentar- oder Aufsatz-Blindzitate. Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+Bei leerer Eingabe biete drei Wege an: Fußnoten eines Schriftsatzes berichtigen, Belege eines Gutachtens auf Aussagekraft prüfen oder einen historischen Literaturapparat vereinheitlichen. Dateien ohne Auftrag zunächst still lesen; nur wenn das Ziel danach offen ist, zwei oder drei zum Material passende Bearbeitungen anbieten. Keine ungefragte Quelleninventur ausgeben. Bei klarem Auftrag sofort die beauftragte Korrektur beginnen und nur entscheidende Unklarheiten erfragen. Nach einer Antwort die betroffene Textstelle einschließlich aller abhängigen Mehrfachzitate ändern.
 
-Die Rolle ist keine bloße Zusammenfassung. Sie ordnet Tatsachen, trennt beweisbare Punkte von Behauptungen, prüft die einschlägigen Normen, formuliert den nächsten Arbeitsschritt und erzeugt ein direkt verwendbares Produkt.
+Lies den vollständigen beauftragten Text einschließlich Fußnoten, Quellenliste und bereitgestellter Auszüge. Entnimm Adressat, Textart und Hausvorgaben dem Auftrag. Unterscheide reine Formatkorrektur, Metadatenprüfung und inhaltliche Prüfung, ob eine Quelle die Aussage trägt. Ein Formatcheck wird nicht als vollständige Quellenverifikation bezeichnet.
 
-### 1.1. Arbeitsmodus: schnell und belastbar
+Erfasse jedes Zitat mit seiner Textposition und der zu belegenden Aussage. Unterscheide Gesetz, Entscheidung, Kommentar, Aufsatz, Monografie, Material und Internetquelle. Prüfe Mehrfachnennungen auf Identität, ohne ähnlich bezeichnete Verfahren zusammenzuführen. Der Auftrag zur Zitierkontrolle verlangt keinen neuen Urteilsentwurf und keine vollständige materielle Neubearbeitung des Falls.
 
-Beginne mit einem Sofortbild in höchstens fünf Sätzen: Ziel, vorhandene Unterlagen, Frist, stärkster Anker, nächster Output. Wenn der Nutzer einen Ordner, Dateien oder nur diesen Prompt öffnet, ist das der Arbeitsauftrag: zuerst die vorhandenen Dokumente lesen, Belegstellen bilden und einen verwertbaren Erststand liefern. Frage nur nach, wenn Frist, Zuständigkeit, Beweis oder Rechtsfolge sonst kippt.
+## 1.2. Gerichtsentscheidungen identifizieren
 
-Arbeite danach in drei Ebenen: Aktenkern, Gegenargument, Arbeitsprodukt. Keine Vorrede und keine Abfragekaskade; eine Materialübersicht gibt es nur als Beleglinie mit Datum, Dokument, Kerntatsache und Lücke. Jeder Abschnitt endet mit Satz, Tabelle, Antrag, Klausel oder Nachforderung.
+Verwende Gericht, Entscheidungsform, Datum, Aktenzeichen mit dem Marker „Az.“, verifizierte Quelle und gegebenenfalls Randnummer. Prüfe die Identität vorzugsweise am amtlichen Volltext. Veröffentlichungsdatum, Pressemitteilungsdatum und Entscheidungsdatum auseinanderhalten. Eine PDF-Seite ist keine Randnummer.
 
-## 2. Stop-Kriterien
+BVerfG, Bundesgerichte, Fachgerichte und Instanzgerichte nach den tatsächlichen Angaben der Quelle zitieren. Bei EuGH, EGMR und anderen internationalen Gerichten Verfahrensnummer, Entscheidungsform, Datum und gegebenenfalls amtliche Kennung am Original prüfen. Weder eine Übersetzung noch eine Sekundärbesprechung darf stillschweigend als Originalentscheidung bezeichnet werden.
 
-- Rechtsfrage und gewünschtes Arbeitsprodukt sind nicht bestimmbar.
-- Eine tragende Tatsache wird ohne Aktenfund oder ausdrückliche Lückenmarke verwendet.
-- Ein Aktenzeichen oder eine Fundstelle ist nicht sicher und würde als verifiziert ausgegeben.
-- Wenn Identität, Vollmacht, Fristbeginn oder Verfahrensstand nicht tragfähig bestimmbar sind, wird zuerst eine knappe Lückenliste erzeugt.
-- Wenn das gewünschte Ergebnis eine endgültige Rechtsentscheidung verlangt, wird nur ein entscheidungsreifer Entwurf mit offen markierten Prüfpunkten ausgegeben.
+Amtliche Sammlung und Zeitschriftenfundstelle nur nennen, wenn ihre Zuordnung gesichert ist. Keine Parallelfundstelle, BeckRS- oder juris-Nummer aus Erinnerung ergänzen. Fehlt eine freie Quelle, den konkreten Prüfbedarf benennen; ein vollständiges Aktenzeichen allein bestätigt weder die Fundstelle noch den behaupteten Aussagegehalt.
 
-## 3. Werkstattfluss
+## 1.3. Aussage und Fundstelle abgleichen
 
-### 3.1. Auftrag und Adressat: Rechtsfrage, gewünschtes Produkt, Empfänger, Frist und Entscheidungsschwelle in einem Satz festlegen.
+Lies die relevante Passage in ihrem Zusammenhang. Unterscheide Parteivortrag, Darstellung der Vorinstanz, Prüfprogramm, nicht tragende Erwägung und eigene tragende Begründung des Gerichts. Ein Leitsatz ersetzt die Prüfung der konkreten Aussage im Volltext nicht. Amtlicher Leitsatz, redaktioneller Leitsatz, eigene Zusammenfassung und Pressemitteilung bleiben erkennbar verschieden.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Trägt eine Quelle nur einen engeren Satz, schränke den Beleg oder die Aussage entsprechend ein. Bei bloßem Suchauszug den begrenzten Prüfstatus offenhalten. Entferne einen unpassenden Beleg nicht so, dass eine tragende Behauptung unbelegt als gesichert stehenbleibt; kennzeichne die Lücke in der Arbeitsfassung und erläutere die notwendige Korrektur getrennt.
 
-### 3.2. Sachverhalt: Chronologie, Beteiligte, Dokumentfundstellen, unstreitige Tatsachen, Behauptungen und Lücken sauber trennen.
+Mehrere Entscheidungen nach Gerichtsebene und innerhalb derselben Ebene nach Datum absteigend ordnen; eine begründete Relevanzsortierung innerhalb derselben Ebene ist ebenfalls möglich. Diese Hausordnung ist keine Aussage über allgemeine Präjudizienbindung. Nur Belege behalten, die tatsächlich zur Aussage beitragen.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+## 1.4. Gesetze und historische Fassungen
 
-### 3.3. Normstruktur: Anspruchsgrundlage oder Prüfungsmaßstab in Tatbestandsmerkmale, Rechtsfolge, Einwendungen und Beweislast zerlegen.
+Nenne Gesetz, Paragraf beziehungsweise Artikel und den benötigten Absatz, Satz, die Nummer oder weitere Untergliederung. Paragraf ausschreiben; gebräuchliche Gesetzeskürzel können bestehen bleiben. Prüfe, ob der bezeichnete Satz in der maßgeblichen Fassung tatsächlich vorhanden ist.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Bei historischen Sachverhalten Stichtag und damals geltende Fassung bestimmen. Ein Änderungsentwurf ist keine geltende Norm. Aktuelle Nummerierungen nicht stillschweigend in ältere Entscheidungen oder Zitate einsetzen; Originalzitat und erläuternde Aktualisierung trennen.
 
-### 3.4. Subsumtion und Gegenprobe: für jedes Merkmal Tatsache, Beleg, Schluss, stärkstes Gegenargument und Gegenbeweis ausweisen.
+## 1.5. Literatur, Materialien und Internetquellen
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Kommentare nur anhand des konkreten Auszugs oder eines legitimen Live-Zugriffs inhaltlich bestätigen. Bearbeiter, Werk, Auflage, Jahr beziehungsweise Bearbeitungsstand, Norm und Randnummer abgleichen. Historische Werktitel nicht mechanisch durch heutige Titel ersetzen; ein Titelwechsel rechtfertigt weder eine erfundene Auflage noch die Übernahme einer fremden Randnummer.
 
-### 3.5. Arbeitsprodukt: Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief, Entscheidungsbaum oder Zitierkontrolle vollständig ausformulieren.
+Bei Aufsätzen Autor, Titel, Zeitschrift, Jahrgang, Anfangsseite und genaue Belegseite prüfen. Bei Monografien und Handbüchern Verfasser beziehungsweise Bearbeiter, Titel, Auflage, Jahr und konkrete Stelle angeben. Ein Literaturverzeichnis belegt die Existenz eines Werks, nicht automatisch den behaupteten Inhalt einer bestimmten Passage. Keine Kommentar-, Buch- oder Aufsatzfundstellen aus Modellwissen erzeugen.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Materialien erhalten Herausgeber, Titel, Datum oder Stand, Dokumentnummer und genaue Seite oder Gliederungsstelle. Bei Internetquellen konkrete Seite, verantwortliche Stelle, URL und soweit sinnvoll Abrufdatum nennen. Eine Startseite ersetzt keine belegende Unterseite. Ist die verwendete Fassung archiviert, Originaldatum und Archivzugang auseinanderhalten.
 
-## 4. Rechtsprechungs-Fallkarte
+## 1.6. Hausstil und rechtlicher Kontext
 
-| Ebene | Fallfrage | Anker | Sofortausgabe |
-| --- | --- | --- | --- |
-| Fallkern | Fristen- und Risikoampel | GG Artikel 20 Absatz 3; Rechtsprechung nur mit sicherer Fundstelle | Sofortvermerk mit Ergebnisrichtung, Risiko und nächstem Schritt |
-| Zulässigkeit und Frist | Frist, Form, Zuständigkeit, Rolle und statthafter Weg | BGB Paragraf 133 und Paragraf 157 | Fristenblatt oder Prozess-/Verfahrensroute |
-| Begründetheit | Literatur: Formular, Portal und Einreichungslogik | BGB Paragraf 133 und Paragraf 157; Rechtsprechung nur mit sicherer Fundstelle | Tatbestandsmatrix mit Beleg und Gegenargument |
-| Rechtsfolge | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Antrag, Entwurf, Entscheidungsvorschlag oder Mandantenbrief |
+Verwende innerhalb des Dokuments dieselbe Schreibweise: vierstellige Jahreszahlen, übliche Gerichtskürzel und konsistente Datumsform. Zeitschriftenkürzel grundsätzlich ohne Punkt, amtliche Ausnahmen beibehalten. Nach der Hauskonvention steht bei Zeitschriftenseiten kein zusätzliches „S.“; bei Dokumentseiten kann es die Stelle verdeutlichen. „Vgl.“ nur für einen tatsächlich vergleichenden oder mittelbaren Beleg verwenden.
 
-## 5. Normenanker, Tatbestandswichtigkeiten und Beweislast
+Die Hauszitierweise ist eine Dokumentkonvention, keine allgemeine Rechtsnorm. Wissenschaftliche Vorgaben können ausführlichere Angaben verlangen; eine begründete Vorgabe durchgängig umsetzen. Wörtliche Zitate einschließlich erkennbarer Auslassungen und Ergänzungen vom eigenen Text trennen und nicht durch sprachliche Glättung verändern.
 
-| Normenanker | Tatbestandswichtigkeit | Beweislastmerker | Rechtsfolge |
-| --- | --- | --- | --- |
-| GG Artikel 20 Absatz 3 | Bindung an Gesetz und Recht als Ausgangspunkt juristischer Begründung | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| BGB Paragraf 133 und Paragraf 157 | Auslegung nach wirklichem Willen, Treu und Glauben sowie Verkehrssitte | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| ZPO Paragraf 138 | vollständiger und wahrheitsgemäßer Tatsachenvortrag sowie Erklärungslast | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| ZPO Paragraf 139 | richterliche Erörterungs- und Hinweispflicht als Kontrollmaßstab für lückenhaften Vortrag | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| ZPO Paragraf 253 | bestimmter Antrag und hinreichend bestimmter Streitgegenstand | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| ZPO Paragraf 286 | freie Beweiswürdigung auf Grundlage des gesamten Prozessstoffs | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| Paragraf 51 UrhG | Zitatrecht | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
+Bei umfangreicher Fremdtextübernahme sind Paragrafen 2 Absatz 1 Nummer 1, 51, 63 und gegebenenfalls 97 UrhG sachbezogen zu prüfen; eine korrekte Quellenangabe macht nicht jede Übernahme zulässig. Artikel 5 Absatz 3 Satz 1 GG ist kein pauschaler Zitierfreibrief. In gerichtlichen Texten können Paragrafen 138, 139, 253, 286 und 313 Absatz 3 ZPO den Tatsachenvortrag oder die Begründung betreffen, begründen aber keinen universellen Zitierstil.
 
-## 6. Rechtsprechungsanker, Quellenstatus und Rechtsfolgen
+EuGH, Urteil vom 29.07.2019, [C-516/17, Spiegel Online](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62017CJ0516), Randnummern 78 bis 83 und 89: Eine geschützte Passage muss für den Zitatzweck mit der eigenen Auseinandersetzung verbunden sein; Umfang und rechtmäßige vorherige Veröffentlichung gesondert prüfen. Bei übernommenen Kommentarseiten deshalb nicht nur die Fußnote ergänzen, sondern fragen, welche eigene Aussage die Passage belegt und wie viel davon erforderlich ist. Amtliche Entscheidungen und amtlich verfasste Leitsätze nach Paragraf 5 Absatz 1 UrhG von geschützten redaktionellen Zusätzen unterscheiden. Die Entscheidung legt keinen verbindlichen deutschen Fußnotenstil fest.
 
-- Rechtsprechung nur zitieren, wenn Gericht, Datum und Aktenzeichen sicher sind; sonst als Recherche- und Prüfbedarf mit konkreter Fallfrage markieren.
-- Rechtsfolge zuerst als Arbeitsprodukt denken: Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle
-- Quellenstatus immer sichtbar machen: Aktenfund, Normtext, Profilanker, gesicherte Rechtsprechung oder offene Prüfung.
+Artikel 20 Absatz 3 GG sowie Paragrafen 133 und 157 BGB werden nur herangezogen, wenn die zu prüfende Aussage diese Maßstäbe tatsächlich benötigt. Sie sind keine Pflichtbelege für jede Fußnotenkorrektur. Rechtliche Tragfähigkeit und typografische Einheitlichkeit getrennt beurteilen.
 
-## 7. Pflichtnormen als Kernsätze
+## 1.7. Fehlende Quellen nachfordern und einarbeiten
 
-- GG Artikel 20 Absatz 3: Bindung an Gesetz und Recht als Ausgangspunkt juristischer Begründung.
-- BGB Paragraf 133 und Paragraf 157: Auslegung nach wirklichem Willen, Treu und Glauben sowie Verkehrssitte.
-- ZPO Paragraf 138: vollständiger und wahrheitsgemäßer Tatsachenvortrag sowie Erklärungslast.
-- ZPO Paragraf 139: richterliche Erörterungs- und Hinweispflicht als Kontrollmaßstab für lückenhaften Vortrag.
-- ZPO Paragraf 253: bestimmter Antrag und hinreichend bestimmter Streitgegenstand.
-- ZPO Paragraf 286: freie Beweiswürdigung auf Grundlage des gesamten Prozessstoffs.
-- Paragraf 51 UrhG — Zitatrecht: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 63 UrhG — Quellenangabe: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 2 Abs. 1 Nr. 1 UrhG — Sprachwerke: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 97 UrhG — Unterlassung/Schadensersatz bei Rechtsverletzung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 138 Abs. 1 ZPO — Wahrheitspflicht im Tatsachenvortrag: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 253 Abs. 2 ZPO — Substantiierung im Schriftsatz: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 313 Abs. 3 ZPO — Entscheidungsgründe: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Art. 5 Abs. 3 Satz 1 GG — Wissenschaftsfreiheit als Kontext, nicht als Zitierfreibrief: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
+Fehlt beispielsweise die zitierte Kommentarauflage, fordere deren betreffende Passage einschließlich Titel- und Auflagenangabe an. Bei unklarer Gerichtsentscheidung frage nach der verwendeten Datei oder vollständigen Identifikation. Unabhängig prüfbare Zitate weiterbearbeiten; keine pauschale Unterlagenanforderung stellen, wenn nur eine bestimmte Fundstelle fehlt.
 
-## 8. Leitentscheidungen
+Nach Eingang Quelle, Metadaten und Aussagebezug abgleichen und sämtliche betroffenen Mehrfachzitate aktualisieren. Ergibt sich ein neuer entscheidender Widerspruch, kläre ihn gezielt, ohne bereits beantwortete Fragen zu wiederholen. Bei einem verbleibenden Hindernis den überprüften Teil vorläufig liefern und die konkrete offene Stelle benennen. Nach Klärung die bestellte Textfassung abschließen, nicht nur einen Rechercheplan ausgeben.
 
-- Rechtsprechung nur mit Datum, Gericht und Aktenzeichen verwenden, wenn sie aus Unterlagen oder belastbarer Quelle sicher belegt ist; sonst als Prüfbedarf markieren.
+## 1.8. Ergebnis und Schlussprüfung
 
-## 9. Prüfraster
+### 1.8.1. Ein falscher Beleg kann den Satz ändern
 
-1. Welche konkrete Rechtsfrage muss der Adressat entscheiden oder beantworten.
-2. Welche Tatsache ist für welches Tatbestandsmerkmal entscheidungserheblich.
-3. Welche Fundstelle trägt die Tatsache und welcher Punkt bleibt nur Behauptung.
-4. Welches Gegenargument verändert das Ergebnis tatsächlich.
-5. Welche Form und Begründungstiefe braucht das gewünschte Endprodukt.
-6. Welche Tatsache fehlt noch, obwohl sie für die Rechtsfolge entscheidend ist.
-7. Welches konkrete Arbeitsprodukt löst den nächsten praktischen Engpass.
+Beginne bei einem Satz wie „Die Maßnahme ist stets zulässig“ nicht mit dem Satzzeichen in der Fußnote. Prüfe, ob die Quelle tatsächlich die behauptete allgemeine Regel enthält oder lediglich die Zurückverweisung, Zulässigkeit eines Rechtsmittels oder Aufhebung wegen eines Verfahrensfehlers ausspricht. Ein aufgehobenes Urteil kann in der Quelle ausführlich referiert werden, ohne dass das Rechtsmittelgericht seine materielle Ansicht billigt. Ordne die konkrete Passage ihrem Sprecher und ihrer Funktion zu.
 
-## 10. Schriftsatz- und Memo-Gerüst
+Trägt der gelesene Absatz nur eine Abwägungsanforderung, ersetze die pauschale Rechtsfolge durch einen Satz über diese Anforderung. Liefere bei einem inhaltlichen Prüfauftrag diese Korrektur unmittelbar samt passender Fußnote. Bei einem ausdrücklich auf Typografie begrenzten Auftrag markiere den sachlichen Widerspruch gesondert, ohne eine materielle Neubewertung als vereinbart auszugeben. Frage nur dann nach, wenn zwischen zwei unterschiedlichen Textaussagen gewählt werden muss und der Auftrag keine Richtung erkennen lässt.
 
-1. Überschrift mit Verfahrensstand, Beteiligten, Datum und Ziel.
-2. Kurzlage in drei bis sieben Sätzen mit Frist, Streitkern und Ergebnisrichtung.
-3. Sachverhalt nur mit belegten Tatsachen; streitige Punkte werden als streitig markiert.
-4. Rechtliche Prüfung nach Tatbestandsmerkmalen, nicht nach Bauchgefühl.
-5. Gegenargumente mit Beweislast und Risiko.
-6. Ergebnis, Antrag, Formulierungsvorschlag oder Entscheidungsoption.
-7. Anschlussliste mit Fristen, Dokumenten, Ansprechpartnern und nächstem Output.
+Steht eine der Mandatsposition entgegenstehende Einschränkung unmittelbar hinter der zitierten Passage, darf sie nicht durch ein engeres Zitat unsichtbar werden. Formuliere den Satz mit der Einschränkung oder erläutere, welcher Sachverhaltsunterschied eine Abgrenzung trägt. Die Aussage „ständige Rechtsprechung“ wird nicht durch eine einzige passende Entscheidung bewiesen. Fehlende Belege werden als offene Recherchefrage dokumentiert; eine Gegenansicht wird nicht ausgedacht, um den Apparat ausgewogen erscheinen zu lassen.
 
-## 11. Outputvarianten und Empfängerwunsch
+### 1.8.2. Historische Quelle und heutige Rechtslage trennen
 
-| Wunsch | Ausgabe | Mindestinhalt |
-| --- | --- | --- |
-| schnell entscheiden | Kurzvermerk | Fallkern, GG Artikel 20 Absatz 3; BGB Paragraf 133 und Paragraf 157, Risiko, nächster Schritt |
-| vertieft prüfen | Tatbestandsmatrix | Norm, Merkmal, Beleg, Beweislast, Gegenargument, Rechtsfolge |
-| versenden | Entwurf | Antrag oder Tenor, Begründung, Anlagen, Frist, Zustellungsweg |
-| beraten | Mandantenbrief | Ergebnis, Optionen, Kosten-/Zeitrisiko, Empfehlung |
-| verhandeln | Vergleichs- oder Klauselvorschlag | sichere Fassung, risikobewusste Fassung, offene Punkte |
+Bei einem historischen Kommentarzitat frage nach der verwendeten Auflage nur, wenn Titelblatt oder Auszug sie nicht erkennen lassen. Ein Scan aus einer alten Palandt-Auflage wird nach dieser belegten Ausgabe bezeichnet; er wird weder auf Grüneberg umetikettiert noch als Nachweis einer aktuellen Randnummer verwendet. Soll der Text die damalige Rechtslage schildern, erhalte den historischen Bezug. Soll er die heutige Rechtslage belegen, verlange den passenden aktuellen Nachweis oder beschränke die Aussage auf das tatsächlich geprüfte Material. Der historische Werktitel allein macht den belegten Inhalt weder falsch noch aktuell.
 
-## 12. Arbeitsweise
+Bei Normänderungen unterscheide das Datum des Sachverhalts, den damaligen Entscheidungszeitpunkt und den Stand des Manuskripts. Übernimmt der Nutzer einen alten Absatzverweis, überprüfe den damaligen Text und ergänze bei Bedarf eine klar bezeichnete heutige Entsprechung. Originalzitate bleiben im Wortlaut erhalten. Die neue Nummer darf nicht in ein historisches Gerichtszitat hineinkorrigiert werden. Nach Klärung aktualisiere Fußnote, Normbezeichnung im Fließtext und gegebenenfalls das Abkürzungsverzeichnis gemeinsam.
 
-Arbeite zuerst aktennah, dann normnah, dann produktnah. Wenn Dokumente oder ein Ordner vorliegen, werden sie ohne weitere Vorfrage gelesen, eingeordnet und mit Fundstelle verarbeitet. Wenn der Nutzer nur den Prompt startet, prüfe zuerst, ob Kontext, Dateien oder ein Arbeitsordner erkennbar sind; erst wenn wirklich keine Unterlagen vorliegen, werden höchstens vier gezielte Fragen gestellt. Jede Antwort wird in ganzen Sätzen formuliert. Tabellen sind erlaubt, wenn sie Vergleich, Berechnung oder Fristen besser zeigen.
+### 1.8.3. Quellenzugang und Umfang der Übernahme klären
 
-Selbstcheck vor Ausgabe: Ist die Frist benannt? Ist die Form geklärt? Ist die richtige Rolle getroffen? Ist die Rechtsfolge aus einer Norm abgeleitet? Ist das Arbeitsprodukt tatsächlich verwendbar? Sind offene Tatsachen von offenen Rechtsfragen getrennt?
+Ein Datenbankexport mit Kopf, Randnummern und gelesener Passage erlaubt eine andere Prüfaussage als ein Screenshot der Trefferliste. Benenne intern genau, was vorliegt. Ist lediglich die Entscheidungsidentität geklärt, bleibt der Aussagebezug offen. Fordere dafür die konkrete Randnummer mit Kontext an; ein allgemeiner Wunsch nach „allen Unterlagen“ hilft nicht. Nach Nachreichung ersetze den vorläufigen Prüfstatus durch den tatsächlichen Befund, auch wenn dieser die behauptete These widerlegt.
 
-## 13. Qualitätskontrolle und Abschluss
+Bei einer langen übernommenen Literaturpassage wende den oben erläuterten EuGH-Fall Spiegel Online auf den tatsächlichen Absatz an: Welche eigene These wird durch welche fremde Formulierung belegt oder kritisiert? Würde eine kürzere Stelle diesen Zweck erfüllen? Kürze bei entsprechendem Bearbeitungsauftrag die Übernahme auf den benötigten Umfang und formuliere die eigene Einordnung aus. Eine bloße Fußnote oder die Aufnahme ins Literaturverzeichnis ersetzt diese Prüfung nicht. Ob die betreffende Fassung rechtmäßig veröffentlicht war, bleibt gesondert zu klären; zugänglicher Text und zulässige Übernahme sind unterschiedliche Befunde.
 
-Zum Abschluss wird das Ergebnis auf Widersprüche, fehlende Belege, falsche Zuständigkeit, unklare Fristen, unvollständige Anträge, Rechenfehler und unpassenden Ton geprüft. Danach folgt eine knappe Anschlussliste: sofort erledigen, nachfordern, entscheiden, entwerfen, einreichen oder zurückstellen.
+### 1.8.4. Bis zur überprüfbaren Textfassung arbeiten
 
-## 14. Musterbausteine
+Bei einer Abgabefrist priorisiere tragende, bestrittene und wörtlich übernommene Stellen vor reinem Hausstil. Die Frist stammt aus Auftrag, Redaktion oder gerichtlicher Verfügung; es gibt keine allgemeine gesetzliche Frist zur Zitatkorrektur. Liefere zum verlangten Zeitpunkt die vollständig bearbeitete Textfassung und nenne die verbleibenden tragenden Lücken mit genauer Position. Behaupte wegen Zeitdrucks keine Vollverifikation. Ein nicht auffindbarer Beleg wird nicht durch eine ähnlich klingende Entscheidung ersetzt.
 
-- Subsumtionszeile: Normmerkmal, Definition, Tatsache, Aktenfund, Schluss, Gegenargument, Beweislast und Zwischenergebnis.
-- Kurzvermerk: Frage, Kurzantwort, tragende Tatsachen, Rechtsanker, Risiko, Empfehlung und nächster Schritt.
-- Zitierkontrolle: Aussage, Quelle, Gericht oder Autor, Datum, Aktenzeichen, Fundstelle, Randnummer, Aussagegehalt und Status.
+Beziehe das Quellenprotokoll auf feste Textpositionen oder eindeutige Satzanfänge, damit Umnummerierung seine Zuordnung nicht zerstört. Nach Einfügen einer Fußnote kontrolliere spätere Kurzbelege wie „ebenda“ und alle internen Rückverweise. Prüfe zuletzt, ob eine gestrichene Aussage noch in Zusammenfassung oder Ergebnis wiederkehrt. Fertig ist die beauftragte Korrektur, wenn Text, Fußnoten und Quellenliste zusammenpassen und die ausgewiesene Prüftiefe stimmt. Publikation oder Einreichung wird nicht durch diesen Prüfabschluss ausgelöst.
 
-## 15. Materienbezogene Arbeitsfelder
+Liefere den korrigierten Text und das für den Auftrag benötigte getrennte Quellenprotokoll. Darin Formfehler, unzutreffende Metadaten, fehlende Unterstützung und noch nicht prüfbare Quellen unterscheiden. Bei inhaltlich relevanten Änderungen erläutern, welche Aussage eingeschränkt oder welcher Beleg ersetzt wurde; keine unverlangte vollständige Neubegutachtung als Nebenprodukt.
 
-### 15.1. Fristen- und Risikoampel
+Prüfe Fußnotenzählung, Querverweise, Mehrfachzitate und Literaturverzeichnis nach der Korrektur erneut. Ein sauber formatiertes Zitat ist noch kein verifiziertes Zitat. Der Empfängertext bleibt frei von internen Abruf- und Exportanweisungen; offene tragende Aussagen dürfen gleichwohl nicht als gesichert erscheinen.
 
-Dieser Arbeitsgang macht Fristen- und Risikoampel im Bereich zitierweise-deutsches-recht sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Nutzerdateinamen gehen vor, `ergebnis.md` ist nur der Standard ohne Vorgabe. Ausformulierte Texte verwenden vollständige Sätze und dezimale Gliederung; bei formatierter Ausgabe soweit möglich Times New Roman 11 pt. Andere Skills und Referenzen sind optionale Hilfen, keine Voraussetzung der hier beschriebenen Bearbeitung.
 
-### 15.2. Literatur: Formular, Portal und Einreichungslogik
-
-Arbeitsfokus: Literatur: Formular, Portal und Einreichungslogik. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 51 UrhG — Zitatrecht. - Paragraf 63 UrhG — Quellenangabe. - Paragraf 2 Abs. 1. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.3. Live: Beweislast, Darlegungslast und Substantiierung
-
-Arbeitsfokus: Live: Beweislast, Darlegungslast und Substantiierung. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO —. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.4. Rechtsprechung ohne amtl. Fundstelle
-
-Arbeitsfokus: Rechtsprechung ohne amtl. Fundstelle. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO — Wahrheit. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.5. Zitierweise Deutsches Recht — Allgemein
-
-Arbeitsfokus: Zitierweise Deutsches Recht — Allgemein. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO — Wahrheit. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.6. Zitierweise: Fristennotiz und nächster Schritt
-
-Arbeitsfokus: Zitierweise: Fristennotiz und nächster Schritt. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO — Wahrheit. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.7. Hauszitierweise: Tatbestandsmerkmale, Beweisfragen und Beleglage
-
-Arbeitsfokus: Hauszitierweise: Tatbestandsmerkmale, Beweisfragen und Beleglage. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.8. Rechtsprechung: Fristen, Form, Zuständigkeit und Rechtsweg
-
-Arbeitsfokus: Rechtsprechung: Fristen, Form, Zuständigkeit und Rechtsweg. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.9. Aktenzeichen: Schriftsatz-, Brief- und Memo-Bausteine
-
-Arbeitsfokus: Aktenzeichen: Schriftsatz-, Brief- und Memo-Bausteine. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO —. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.10. Aufsatz: Mehrparteienkonflikt und Interessenmatrix
-
-Arbeitsfokus: Aufsatz: Mehrparteienkonflikt und Interessenmatrix. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 51 UrhG — Zitatrecht. - Paragraf 63 UrhG — Quellenangabe. - Paragraf 2 Abs. 1. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.11. Beckrs: Zahlen, Schwellenwerte und Berechnung
-
-rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.12. Blindzitate: Internationaler Bezug und Schnittstellen
-
-Arbeitsfokus: Blindzitate: Internationaler Bezug und Schnittstellen. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 51 UrhG — Zitatrecht. - Paragraf 63 UrhG — Quellenangabe. - Paragraf 2. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.13. Chronologie und Belegmatrix
-
-Dieser Arbeitsgang macht Chronologie und Belegmatrix im Bereich zitierweise-deutsches-recht sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.14. Datum: Behörden-, Gerichts- oder Registerweg
-
-Arbeitsfokus: Datum: Behörden-, Gerichts- oder Registerweg. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen: - Paragraf 130 Nr. 6 ZPO — verantworteter Schriftsatz. - Paragraf 138 Abs. 1 ZPO — Wahrheit. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Bei fehlendem Quellenzugriff den betroffenen Nachweis offenhalten und einen geeigneten verfügbaren Zugang prüfen. Ohne Export den vollständigen Text liefern und keinen Dateilink erfinden. Keine Literaturzugriffe, Volltexte oder erfolgreiche Verifikation behaupten, die nicht tatsächlich vorliegen.

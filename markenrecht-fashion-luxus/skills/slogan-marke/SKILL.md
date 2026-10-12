@@ -1,6 +1,6 @@
 ---
 name: slogan-marke
-description: "Wenn es um Slogan-Marken für Luxus-Mode in markenrecht-fashion-luxus geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Slogan-Marken für Luxus-Mode: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Slogan-Marken für Luxus-Mode
@@ -27,7 +27,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 - **§ 8 II Nr. 2 MarkenG:** Fehlende Unterscheidungskraft — Haupthürde für Slogans
 - **§ 8 II Nr. 3 MarkenG:** Beschreibende Angaben (selten für Slogans, aber möglich)
 - **Art. 7 I lit. b UMV:** Fehlende Unterscheidungskraft auf EUIPO-Ebene
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Verkehrsdurchsetzung § 8 III MarkenG:** Rettungsanker bei ursprünglich fehlendem Schutz
 
 ## Prüfungsschritte
@@ -40,7 +39,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 2. **Sprachliche Originalität:**
  - Kreative Wortschöpfung, ungewöhnliche Grammatik, Fremdsprachenmix
  - Einprägsamkeit und Eigenartigkeit (nicht austauschbar mit anderen Marken)
- - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 3. **Marktrecherche:**
  - Wird der Slogan als Markenzeichen oder als allgemeine Werbephrase wahrgenommen?
@@ -58,7 +56,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 ## Falltypische Konstellationen
 
 ### Konstellation 1: "Tissu du Silence" — klôtzzkètté Herbstkampagne
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Konstellation 2: "Pure Luxury for the Few" — Englischer Slogan
 Für den US-Markt (vgl. Skill `uspto-anmeldung-und-lanham-act`). EUIPO-Anmeldung schwierig: "PURE LUXURY" ist anpreisend, "FOR THE FEW" beschreibt Exklusivität. EuGH-Linie: Diese Kombination hat allein anpreisenden Charakter — Zurückweisung wahrscheinlich. Strategie: Als Wort-Bild-Marke mit besonderer Typografie anmelden.
@@ -67,7 +64,6 @@ Für den US-Markt (vgl. Skill `uspto-anmeldung-und-lanham-act`). EUIPO-Anmeldung
 Brezelmann Discount KG (Bad Mergentheim) verwendet "KLOTZ IST PREIS" als Gegenslogan. Prüfung: Verwechslungsgefahr mit eingetragenem Slogan von klôtzzkètté? Warenidentität (Klasse 25), aber keine Slogan-Ähnlichkeit, die Verwechslung begründet. Ansatz: UWG § 4 Nr. 3 (unlautere Anlehnung an bekannte Marke) und § 6 (vergleichende Werbung).
 
 ### Konstellation 4: Hashtag-Marke #klotzzkette
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellen-Hardening
 
@@ -95,7 +91,6 @@ Insbesondere:
 "silence" ist in der Modewelt nicht gebräuchlich.
 (2) Das Zeichen wird im Marktauftritt stets als Herkunftshinweis
 für klôtzzkètté-Produkte eingesetzt (vgl. beigefügte Belege).
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 kein strengerer Maßstab anzulegen als für andere Wortmarken.
 ```
 
@@ -124,16 +119,9 @@ Bevor der Slogan als Marke angemeldet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
-<!-- AUDIT 27.05.2026 | bundle_037 | task 3/5
-BGH I ZB 22/20 (WRONG_TOPIC / NOT_FOUND): Aktenzeichen auf dejure.org nicht auffindbar.
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,13 @@
 ---
 name: architektur-angewandte-kunst
-description: "Wenn es um Architektur und angewandte Kunst in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Architektur und angewandte Kunst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Architektur und angewandte Kunst
 
 ## Arbeitsweg
+
+Bei einem zusätzlichen Urheberrechtsschutz für Produktgestaltung prüfe [BGH, Urteil vom 02.07.2026 – I ZR 96/22, USM Haller II, Rn. 23–32 und 60–63](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2022/I_ZR__96-22A.pdf?__blob=publicationFile&v=4): Originalität objektiv an den erkennbaren kreativen Gestaltungsentscheidungen des Werks beurteilen, ohne erhöhte Schwelle für angewandte Kunst oder entscheidendes Abstellen auf eine behauptete Schöpfungsabsicht. Neuheit und Eigenart des Designs ersetzen diese Prüfung nicht. Für die Verletzung benenne die geschützten kreativen Elemente und ihre Wiedererkennbarkeit in der neuen Gestaltung; ein eigener Vergleich bloßer Gesamteindrücke ist kein entscheidender Urheberrechtsmaßstab mehr. Die neue Gestaltung trotzdem insgesamt betrachten. Das Urteil verweist die urheberrechtlichen Ansprüche zurück und stellt den Schutz von USM Haller nicht endgültig fest.
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
@@ -20,7 +22,7 @@ description: "Wenn es um Architektur und angewandte Kunst in Urheberrecht DE EU 
 
 ## Wofür dieser Arbeitsgang da ist
 
-Architektur und angewandte Kunst schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe die konkrete Gestaltung und Nutzung von Architektur oder angewandter Kunst. Begründe das verlangte Arbeitsergebnis anhand des Gegenstands, des menschlichen Beitrags, der Rechtekette, der Nutzungshandlung, der Schranke und der zugehörigen Beweise.
 
 ## Sofortstart
 

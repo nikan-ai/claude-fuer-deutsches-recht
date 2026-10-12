@@ -1,6 +1,6 @@
 ---
 name: steuerbescheid-analyse
-description: "Wenn es um Steuerbescheid-Analyse in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Steuerbescheid-Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerbescheid-Analyse
@@ -19,10 +19,6 @@ description: "Wenn es um Steuerbescheid-Analyse in Steuerrecht – Steuerberater
 4. Wurde der Bescheid unter Vorbehalt der Nachprüfung (§ 164 AO) oder mit Vorläufigkeitsvermerk (§ 165 AO) erlassen? → andere Anpassungsmöglichkeiten
 5. Liegt eine Außenprüfung zugrunde? → Schätzungsprobleme und Sicherheitszuschläge prüfen
 6. Soll AdV beantragt werden? → Liquidität und Frist klären
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Eingaben
 
@@ -97,3 +93,4 @@ Analyseprotokoll mit:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,69 +1,43 @@
-Wenn du das hier öffnest, willst du aus einer Akte sofort eine prozessfähige Route bauen: Zuständigkeit, Frist, Antrag, Tatsachenvortrag, Beweis und nächste Verfügung.
+# 1. Prozessauftrag aus Akte und Verfahrensstand ausführen
 
-# Prozessrecht — Schnellstart
+Ohne Eingabe biete „Verteidigungsanzeige“, „Klage oder Erwiderung“ und „gerichtlicher Entwurf“ an. Bei Dateien ohne Auftrag lies still und frage nur nach den dazu passenden zwei oder drei Zielen, ohne Aktenreferat. Bei klarem Auftrag sofort schreiben; keine künstliche Rückfragerunde. Folgeantworten in den laufenden Entwurf einarbeiten, nicht die Aufnahme neu starten. Keine Plugin-Dateien oder Werkzeuge voraussetzen.
 
-Ziel: Prozessrechtliche Skills für Mandate, Fristen, Mahnbescheid, Eilverfahren, Vollstreckung und Schriftsätze. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Beispiel: „Sachunterlagen kommen später, die Verteidigung steht fest.“ Erstelle die Anzeige ohne erfundene Sachbegründung. „Die Rechnung ist teilweise bezahlt.“ Ordne Zahlung, Rechnung und Leistungszeitraum zu; ändere Restforderung, Zinsen und Anträge gemeinsam. „Der benannte Zeuge war nicht anwesend.“ Entferne den unbelegten Wahrnehmungsvortrag und frage nur nach einem tatsächlich vorhandenen Nachweis. Die Beweislast wird dadurch nicht automatisch umgekehrt. Ein eigener Empfangsvermerk ist auch dann zu prüfen, wenn er die Verteidigung erschwert.
 
-## 1. Schnellmodus
+Kläre anhand von Klageschrift, Zustellnachweis und gerichtlicher Verfügung, ob zunächst die Verteidigung anzuzeigen oder bereits zur Sache zu erwidern ist. Formuliere die beauftragte Erklärung und den dazugehörigen Fristenvermerk. Ordne Parteien, Gericht, Aktenzeichen und Verfahrensart aus den Unterlagen zu; Zahlungsaufforderung und Mahnbescheid nicht verwechseln. Frage nur nach entscheidenden Lücken bei Antrag, Frist oder Vertretung und führe die übrige Sacharbeit fort.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Fristen mit ihrer Funktion erfassen
 
-## 2. Direktstart
+Für jede Frist Auslöser, Nachweis, Beginn, Dauer, Ende und erforderliche Handlung dokumentieren. Verfügungsdatum, Zustellung und tatsächliches Lesen unterscheiden. Kalender, Feiertage und einschlägige Berechnungsregeln kontrollieren. Eine gegnerische Zustimmung ersetzt keine gerichtliche Fristentscheidung. Verlängerungsantrag und bewilligte Verlängerung getrennt ausweisen; das bisherige Ende bleibt bis zur geklärten Änderung sichtbar.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Im schriftlichen Vorverfahren nach ZPO Paragraf 276 die Anzeige der Verteidigungsbereitschaft von der schriftlichen Klageerwiderung trennen. Bei Zustellung im Inland gilt für die Anzeige eine zweiwöchige Notfrist; für die Erwiderung wird eine Frist von mindestens zwei weiteren Wochen gesetzt. Eine längere Erwiderungsfrist verschiebt nicht die Verteidigungsanzeige. Bei Auslandszustellung die Sonderregel des Absatzes 1 prüfen. Vertretung und zulässigen Übermittlungsweg vor dem Einreichungsentwurf feststellen; Einreichung und Eingang niemals fingieren.
 
-## 3. Kernroute
+## 1.2. Antrag und Tatsachengrundlage
 
-1. Prozessroute: Gericht, Rechtsweg, Zuständigkeit, Streitwert, Frist, Einreichungsweg und Verfahrensstand sichern.
-2. Antrag und Streitgegenstand: Klageziel, Lebenssachverhalt, Haupt- und Hilfsanträge, Nebenforderungen und Erledigung trennen.
-3. Relation: Klägerstation auf Schlüssigkeit, Beklagtenstation auf Erheblichkeit, Replik auf Durchschlag und Beweisstation auf Beweislast prüfen.
-4. Beweis: Beweisthema, Beweismittel, Substantiierung, Beweislast, Beweiswürdigung und Beweisbeschluss aus der Akte entwickeln.
-5. Arbeitsprodukt: Klageschrift, Klageerwiderung, Hinweisverfügung, Beschluss, Urteil, Tenor, Anlagenverzeichnis oder Fristenblatt erstellen.
-6. Anspruchstabelle: Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen.
+Bei elektronischer Fristsicherung genügt eine beliebige Versandbestätigung nicht: BGH, Beschluss vom 21.03.2023, VIII ZB 80/22, amtlicher Leitsatz ([Quelle](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2022/VIII_ZB__80-22.pdf?__blob=publicationFile&v=1)), verlangt für die anwaltliche Ausgangskontrolle die Zuordnung der Eingangsbestätigung zum Schriftsatz anhand eines sinnvollen Dateinamens. Gleiche nach Paragraf 130a Absatz 5 Satz 2 ZPO die Verteidigungsanzeige selbst ab, nicht nur ihre Anlagen. Das ersetzt weder Formprüfung noch Sachverteidigung und verlängert keine Frist.
 
-## 4. Fallkarte
+Bei Störung: [BGH, Beschluss vom 30.07.2026 – I ZB 85/25, Rn. 14–26 und 33–44](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZB__85-25.pdf?__blob=publicationFile&v=1). Konkrete technische Unmöglichkeit belegen; „per ERV signiert“ ersetzt die Faxunterschrift nicht. Für versäumte Berufungsbegründung Monatsfrist ab Hinderniswegfall und Nachholung gesondert prüfen, unabhängig von Stellungnahmefristen. Faxalternative nur bei Zumutbarkeit; keine automatische Wiedereinsetzung.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | ZPO Paragraf 253; ZPO Paragraf 130, Paragraf 130a und Paragraf 130d; ZPO Paragraf 138 |
-| Rechtsprechung | BGH, Urteil vom 18.04.2013 - III ZR 156/12; BGH, Beschluss vom 13.12.2006 - XII ZB 71/04 |
-| Tatbestand | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen |
-| Beweislast | Kläger für schlüssigen Vortrag und Beweisangebot; Beklagter für erhebliche Einwendungen; Gericht führt über Hinweise und Beweisbeschluss |
-| Rechtsfolge | Klage, Erwiderung, Relation, Hinweisverfügung, Beweisbeschluss, Urteil, Tenor oder Anlagenverzeichnis |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Formuliere, welche gerichtliche Entscheidung zu welchem Lebenssachverhalt verlangt wird. Bezifferte Hauptforderung, Zinsbeginn und weitere Ansprüche trennen. Haupt- und Hilfsbegehren nicht als gleichzeitige unbedingte Forderungen ausgeben. Bei Klageänderung, Erledigung oder Widerklage den bisherigen Streitgegenstand und die konkrete Änderung gegenüberstellen, bevor der neue Antrag geschrieben wird.
 
-## 5. Einsatzfelder
+Prüfe den eigenen Vortrag zunächst unter Wahrunterstellung auf Schlüssigkeit. Ordne dann erhebliches Bestreiten und Einwendungen der Gegenseite zu. Eine bestrittene Behauptung wird dadurch nicht unschlüssig, sondern kann beweisbedürftig werden. Beweislast nach dem jeweiligen Tatbestandsmerkmal bestimmen, nicht pauschal nach Kläger- oder Beklagtenrolle. Eine Urkunde ist auf ihren tatsächlichen Inhalt zu prüfen; aus einem Dateinamen folgt kein bewiesener Zugang oder Vertragsabschluss.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Anspruchstabelle | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Aufbewahrungspflicht und Beweissicherung | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Statusabfrage Externe Bevollmächtigte | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Kostenfeststellungsklage bei erledigter Hauptsache als Verzugsschaden | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mahnverfahren – Paragrafen 688 ff. ZPO | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mahnbescheid: Dokumentenmatrix, Lückenliste und Nachforderung | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Beweis und nächste Prozesshandlung
 
-## 6. Anker
+Zu jedem entscheidenden Streitpunkt Beweisthema, vorhandenes Beweismittel und noch fehlenden Nachweis benennen. Ein Zeuge braucht eine konkrete Wahrnehmung zum streitigen Vorgang, nicht nur eine allgemeine Bestätigung des Mandanten. Unstreitiges nicht unnötig unter Beweis stellen. Gerichtliche Hinweise, bereits erhobene Beweise und bisherige Fristsetzungen einbeziehen, statt jeden Folgeschriftsatz neu aufzubauen.
 
-- ZPO Paragraf 253: Mindestinhalt der Klageschrift und bestimmter Antrag.
-- ZPO Paragraf 130, Paragraf 130a und Paragraf 130d: Schriftsatzform, elektronische Einreichung und Ersatzeinreichung.
-- ZPO Paragraf 138: Wahrheitspflicht, Erklärungslast und Bestreiten.
-- ZPO Paragraf 139: gerichtliche Hinweispflicht und Prozessleitung.
-- Paragraf 286 ZPO: Freie Beweiswürdigung kann vernichtungsbedingte Nachteile zulasten der vernichtenden Partei ziehen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 339 ff. StGB: Strafbarkeit wegen Beweisvereitelung / Urkundenunterdrückung (Paragraf 274 StGB) bei vorsätzlicher Vernichtung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 257 HGB; Paragraf 147 AO (Aufbewahrungsfristen): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 274 StGB (Urkundenunterdrückung), Paragraf 339 StGB (Rechtsbeugung, nur für Richter und Beamte): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Urteil vom 18.04.2013 - III ZR 156/12: Die Möglichkeit eines Kostenantrags nach Paragraf 269 Abs. 3 Satz 3 und Abs. 4 ZPO hindert eine materiell-rechtliche Kostenerstattungsklage nicht
-- BGH, Beschluss vom 13.12.2006 - XII ZB 71/04: Wer nach Rechtshängigkeit trotz nachträglicher Zahlung die Klage zurücknimmt, kann kostenrechtlich in die falsche Spur geraten; Zeitpunkt der Rechtshängigkeit
-- BGH, Beschluss vom 11.01.2022 - VIII ZB 44/21: Materiell-rechtliche Kostenerstattungsansprüche werden nicht beliebig in die prozessuale Kostenentscheidung nach Paragraf 269 Abs. 3 Satz 2 ZPO
+Bei Eilrechtsschutz den zu sichernden Anspruch und die Dringlichkeit getrennt aus den Fakten herleiten. Bei Vollstreckung Titel, Klausel- und Zustellungslage sowie etwaige Sonderregeln prüfen, nicht aus einem obsiegenden Urteil unmittelbar jede Vollstreckungsmaßnahme ableiten. Zuständigkeitsgrenzen und Formvorschriften stets aktuell amtlich verifizieren.
 
-## 7. Antwortform
+## 1.4. Ergebnis liefern
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Relationszeile: Anspruch, Klägertatsache, Bestreiten, Einwendung, Replik, Beweislast, Beweismittel und Entscheidung als Tabelle; Hinweisverfügung: Das Gericht weist darauf hin, dass [Punkt] bisher nicht schlüssig/erheblich/beweisbelegt ist; Frist bis [Datum].
+### 1.4.1. Zustellung oder Beweis ergänzen
 
-## 8. Stop
+Fehlt der Zustellnachweis, frage nach der konkreten Urkunde oder Empfangsbestätigung; nach Eingang Frist und erforderliche Handlung neu bestimmen. Fehlt eine entscheidende Zeugenangabe, kläre Wahrnehmung und konkreten Vorgang, statt ein allgemeines Beweisangebot zu erfinden. Nach der Antwort den betroffenen Tatsachenvortrag, Beweisantritt und gegebenenfalls Antrag überarbeiten.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Neue entscheidende Widersprüche gezielt klären; bereits beantwortete Fragen und unveränderte Aktenarbeit nicht wiederholen. Belegbare Teile vorläufig fertigstellen und nach Klärung bis zum bestellten Schriftsatz oder Beratungsdokument weiterarbeiten. Ein Gutachtenauftrag verlangt keine ungefragte Klage.
+
+### 1.4.2. Endfassung kontrollieren
+
+Liefere einen vollständigen Schriftsatz oder Fristenvermerk mit der konkret nächsten Handlung. Markiere Platzhalter, statt Tatsachen oder Anlagen zu erfinden. Für Quellen Normstelle und überprüfte Fundstelle nennen; keine sachfremden Strafnormen als allgemeine Prozesswarnung anhängen. Trenne Entwurf, Freigabe, Versand und Eingangsbestätigung. Formatierte Dokumente verwenden Times New Roman 11 pt und dezimale Gliederung. Andere Skills und Referenzen sind optional; die Frist-, Antrags- und Beweisarbeit lässt sich ohne sie fortsetzen.
+
+Nutzerseitige Dateinamen gehen vor. Technische Quellen- und Zugriffsnotizen getrennt vom Empfängertext halten; Versand, Einreichung, Anerkenntnis und Verzicht nur nach Freigabe. Ohne Export den Text liefern und keinen Dateilink erfinden.

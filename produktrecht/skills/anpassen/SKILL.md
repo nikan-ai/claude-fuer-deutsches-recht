@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um /anpassen in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht."
 ---
 
 # /anpassen
@@ -15,13 +15,13 @@ description: "Wenn es um /anpassen in Produkthaftung und Produktrecht geht: prü
 
 ## Wann dies ausgeführt wird
 
-Der Nutzer hat `/produktrecht:produktrecht-anpassen` eingegeben. Er möchte etwas in seinem Produktrecht-Profil ändern – eine Risikokalibrierungs-Schwelle, einen Eskalationskontakt, einen Framework-Abschnitt – ohne das gesamte Kaltstart-Interview erneut auszuführen und ohne YAML direkt zu bearbeiten.
+Der Nutzer hat `/produktrecht:anpassen` eingegeben. Er möchte etwas in seinem Produktrecht-Profil ändern – eine Risikokalibrierungs-Schwelle, einen Eskalationskontakt, einen Framework-Abschnitt – ohne das gesamte Kaltstart-Interview erneut auszuführen und ohne YAML direkt zu bearbeiten.
 
 ## Was zu tun ist
 
 1. **Konfiguration lesen.** `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` lesen (und `~/.claude/plugins/config/claude-fuer-deutsches-recht/unternehmens-profil.md` eine Ebene darüber). Wenn die Plugin-Konfiguration nicht existiert oder noch `[PLATZHALTER]`-Werte enthält, sagen:
 
- > Sie haben das Setup noch nicht ausgeführt. Führen Sie zuerst `/produktrecht:produktrecht-kaltstart-interview` aus – anpassen ist für die Anpassung eines Profils das Sie bereits haben.
+ > Sie haben das Setup noch nicht ausgeführt. Führen Sie zuerst `/produktrecht:kaltstart-interview` aus – anpassen ist für die Anpassung eines Profils das Sie bereits haben.
 
 2. **Anpassbare Karte zeigen.** Was im Profil ist, gruppiert, mit einer einzeiligen Zusammenfassung des aktuellen Werts:
 
@@ -51,7 +51,7 @@ Der Nutzer hat `/produktrecht:produktrecht-anpassen` eingegeben. Er möchte etwa
 
 6. **Abschließen.**
 
- > Fertig. Ihre nächste Ausgabe spiegelt die Änderung wider. Sonst noch etwas? Sie können `/produktrecht:produktrecht-anpassen` jederzeit ausführen.
+ > Fertig. Ihre nächste Ausgabe spiegelt die Änderung wider. Sonst noch etwas? Sie können `/produktrecht:anpassen` jederzeit ausführen.
 
 ## Leitplanken
 
@@ -60,33 +60,9 @@ Der Nutzer hat `/produktrecht:produktrecht-anpassen` eingegeben. Er möchte etwa
 - **Leitplanken-Degradierung markieren.** Der `[prüfen]`-Flag, Quellenattributions-Tags und `[prüfen]`-Tags auf zitierten Normen sind tragende Bauelemente – nicht entfernen. Die Substanziierungsanforderung für Werbeaussagen ist das wofür `/werbeaussagen-prüfung` existiert; sie zu schwächen besiegt den Skill.
 - **Eine Änderung auf einmal.** Nicht das gesamte Interview neu stellen.
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 312 ff. BGB (Verbraucherschutzrecht, Informationspflichten) — §§ 1-4 ProdHaftG (Produkthaftung) — §§ 3, 3a UWG (Wettbewerbsrecht, Marktverhaltensregel) — §§ 5-6 DDG (Impressumspflicht) — EU AI Act VO 2024/1689 (KI-Produktrecht)
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 DDG
-- § 6 UWG
-- § 5 UWG
-- § 5a UWG
-- § 3 UWG
-- § 203 StGB
-- § 1-4 ProdHaftG
-- § 1 ProdHaftG
-- § 7 UWG
-- § 16 DDG
-- § 25 TDDDG
-- § 5-6 DDG
-
-### Leitentscheidungen
-
-- EuGH C-249/21
-- BGH VI ZR 721/15
-- BGH VI ZR 405/18
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

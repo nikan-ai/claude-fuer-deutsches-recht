@@ -1,6 +1,6 @@
 ---
 name: gegendarstellung-presse
-description: "Wenn es um Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren in Fachanwalt Urheber Medienrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -71,10 +69,6 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -83,7 +77,6 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 | Schritt | Inhalt | Grundlage |
 |---|---|---|
 | 1 | Medientyp: Periodische Presse, Rundfunk, Online-Telemedien (journalistisch redaktionell)? Soziale Medien privat = kein Gegendarstellungsanspruch | LPG, MStV § 20 |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | Betroffenheit prüfen: Mandant namentlich oder individuell bestimmbar genannt? Kollektiv: nur bei kleinem abgrenzbaren Personenkreis | LPG |
 | 4 | Fristwahrung: Veröffentlichungsdatum feststellen; Antragsfrist beim Medium prüfen (typisch 2 Wochen; länder-/medienspezifisch) | § 11 LPG NRW u.a. |
 | 5 | Form der Gegendarstellung: Schriftlich, Original-Unterschrift, sachlich, eigene Tatsachenbehauptung, nicht länger als beanstandeter Beitrag | LPG |
@@ -92,7 +85,6 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 | 8 | Reaktion des Mediums: Veröffentlichung, Ablehnung oder Schweigen? Fristen prüfen | LPG |
 | 9 | Bei Verweigerung: einstweilige Verfügung beim zuständigen Landgericht | §§ 935, 940 ZPO |
 | 10 | Parallele Ansprüche prüfen: Unterlassung § 1004 BGB, Schadensersatz § 823 BGB, Geldentschädigung bei schwerer Verletzung | § 823, § 1004 BGB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Verwirkung: Sehr späte Einreichung kann Rechtsmissbrauch begründen wenn Aktualität fehlt | § 242 BGB |
 
 ---
@@ -221,7 +213,6 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 
 | Konstellation | Beweislast |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Betroffenheit | Antragsteller; bei namentlicher Nennung offensichtlich; bei Kollektivbezeichnung durch Eingrenzung des Kreises |
 | Unrichtigkeit der Behauptung | Antragsteller muss im Gegendarstellungstext eigene gegenläufige Tatsache formulieren; nicht: nachweisen, dass Medium falsch liegt |
 | Fristwahrung | Antragsteller muss Eingang beim Medium innerhalb der Frist nachweisen (Einschreiben, Zugangsbestätigung) |
@@ -245,10 +236,8 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 
 | Gegenargument | Erwiderung |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Die Gegendarstellung ist zu lang" | LPG-Grundsatz: Gegendarstellung soll nicht länger als der beanstandete Beitrag sein; kürzerer Artikel = kürzere Gegendarstellung zulässig |
 | "Der Beitrag enthält weitere Informationen die wir kommentieren dürfen" | Gegendarstellungsveröffentlichung ohne Kommentar; Anmerkung erst in separater Ausgabe/nachfolgendem Abschnitt zulässig |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Frist überschritten; kein Gegendarstellungsanspruch mehr" | Fristversäumnis schließt nur LPG-Gegendarstellungsanspruch aus; Unterlassungs- und Schadensersatzansprüche §§ 823, 1004 BGB bleiben bestehen |
 
 ---
@@ -260,7 +249,6 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 | Streitwert einstweilige Verfügung | Typisch EUR 15.000–30.000 je nach Reichweite des Mediums und Schwere der Verletzung |
 | Anwaltsgebühren bei Streitwert EUR 20.000 | Ca. EUR 2.200 netto (VV-RVG 2300; Verfahrens- und Terminsgebühr) |
 | Einstweilige Verfügung LG | Gerichtsgebühren nach GKG 0.5-fach im einstweiligen Verfügungsverfahren |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Schadensersatz wirtschaftlicher Schaden | Konkret: Verdienstausfall, Kundenverlust; durch Belege nachzuweisen |
 
 ---
@@ -271,9 +259,7 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 |---|---|
 | Klare falsche Tatsache, aktueller Bericht | Sofortige Gegendarstellung; parallel Unterlassungsschreiben; dann je nach Reaktion EV |
 | Grenzfall Meinung/Tatsache | Vorsichtiger Ansatz: Unterlassungsschreiben statt Gegendarstellung; Gegendarstellung bei Ablehnung riskiert Ablehnung durch Gericht |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Wirtschaftlicher Schaden durch Bericht | Parallel zu Gegendarstellung: Schadensersatzanspruch § 823 BGB vorbereiten; Belege sichern |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ---
 
@@ -285,10 +271,6 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 
 ---
 
-## Quellen
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage-Fragen bei Gegendarstellungs-Mandat
 
 Bevor der Gegendarstellungsanspruch geltend gemacht wird, klaere:
@@ -299,8 +281,4 @@ Bevor der Gegendarstellungsanspruch geltend gemacht wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

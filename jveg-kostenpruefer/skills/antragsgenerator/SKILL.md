@@ -1,6 +1,6 @@
 ---
 name: antragsgenerator
-description: "Wenn es um JVEG-Antragsgenerator in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für JVEG-Antragsgenerator: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # JVEG-Antragsgenerator
@@ -76,25 +76,3 @@ Druckfertiges Antragsschreiben mit Positionsliste, Normenbezug und Anlagenliste.
 ## Leitplanken
 - Kein Schreiben ohne geprüfte Fristen (§ 23 JVEG).
 - Hinweis: Keine Rechtsberatung. Ausgaben dienen der internen Arbeitsvorbereitung.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 JVEG
-- § 23 JVEG
-- § 4 JVEG
-- § 8a JVEG
-- § 2 JVEG
-- § 3 JVEG
-- § 7 JVEG
-- § 9 JVEG
-- § 6 JVEG
-- § 12 JVEG
-- § 8 JVEG
-- § 22 JVEG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: steuerstrafverteidigung-verstaendigung
-description: "Wenn es um Strafverteidigung Steuerstrafsache mit Einstellung und Verständigung in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafverteidigung Steuerstrafsache mit Einstellung und Verständigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Strafverteidigung Steuerstrafsache mit Einstellung und Verständigung
@@ -33,7 +33,6 @@ Der Mandant (Steuerpflichtiger, Geschäftsführer oder steuerlicher Berater) ist
 
 **§ 370 AO** — Steuerhinterziehung; Strafrahmen bis 5 Jahre, besonders schwerer Fall § 370 Abs. 3 AO bis 10 Jahre.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **§ 378 AO** — Leichtfertige Steuerverkürzung; Ordnungswidrigkeit mit Geldbuße.
 
@@ -55,7 +54,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Steuerstrafverteidigung
 
@@ -67,7 +65,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | 2 | Akteneinsicht § 147 StPO | Vollständige Akteneinsicht; Steufa-Datenträger anfordern; BGH-Reform 2017 | Beweislage klären |
 | 3 | Hinterziehungsberechnung | Steufa-Berechnung vs. eigene Nachberechnung; Schätzungsgrundlage § 162 AO | Angriffspunkte |
 | 4 | § 393 AO Trennungsgebot | Abs. 1: Zwangsfreiheit im Besteuerungsverfahren; Abs. 2: Verwendungsverbot nur für steuerfremde Delikte | Nicht überdehnen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 6 | Großes Ausmaß § 370 Abs. 3 AO | ≥ 50.000 EUR pro Tat → besonders schwerer Fall; § 153a StPO kaum möglich | Strategie-Weichenstellung |
 | 7 | Strategische Option wählen | § 170 Abs. 2 StPO (Einstellung mangels Verdacht) / § 153a StPO / Strafbefehl / § 257c StPO / HV | Bestes Ergebnis |
 | 8 | § 153a StPO-Auflage berechnen | Orientierung § 398a AO-Staffel; Hinterziehungsbetrag; wirtschaftliche Verhältnisse | Geldauflage-Rahmen |
@@ -86,7 +83,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Hinterziehungsbetrag | Staatsanwaltschaft / Steufa | Steuerakte, Außenprüfungsbericht, Bankdaten |
 | Vorsatz § 370 AO | Staatsanwaltschaft | Korrespondenz, Aussagen, Buchführung |
 | Strafmilderungsgrund Zahlung | Mandant | Überweisungsbelege, Zahlungsbestätigung FA |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Selbstanzeige vollständig § 371 AO | Mandant | Selbstanzeigeschreiben; Zahlung binnen Frist |
 | Verjährung | Verteidigung | Steuerakten; Tatbeendigungsdatum |
 
@@ -104,7 +100,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 | Gegenargument StA/Steufa | Erwiderung der Verteidigung |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Geständnis vor Akteneinsicht erforderlich" | Akteneinsicht erst; dann substanziiertes Teil-Geständnis; Vorab-Geständnis ohne Akte riskant |
 | "Selbstanzeige gesperrt — Verfahren läuft" | Sperrung nur für dieselbe Steuerart und denselben VZ; andere VZ oder Steuerarten noch selbstanzeigefähig |
 | "Schätzung § 162 AO methodisch korrekt" | Schätzungsmethode konkret angreifen; Konkretnachweise für niedrigere tatsächliche Einkünfte vorlegen |
@@ -293,5 +288,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 - AO §§ 162, 222, 370, 371, 376, 378, 393, 397, 398a
 - StPO §§ 147, 153a, 257c, 304, 407, 410
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Joecks/Jaeger/Randt, Steuerstrafrecht, 8. Aufl. 2015, § 393 Rn. 81 ff.

@@ -1,6 +1,6 @@
 ---
 name: presseleistungsschutz-snippets
-description: "Wenn es um Presseleistungsschutz und Snippets in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Presseleistungsschutz und Snippets: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Presseleistungsschutz und Snippets
@@ -20,7 +20,7 @@ description: "Wenn es um Presseleistungsschutz und Snippets in Urheberrecht DE E
 
 ## Wofür dieser Arbeitsgang da ist
 
-Presseleistungsschutz und Snippets schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe die Nutzung von Presseveröffentlichungen und Textauszügen im Hinblick auf den Presseleistungsschutz. Begründe das verlangte Ergebnis zu Lizenzbedarf oder Verteidigung anhand von Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweisen.
 
 ## Sofortstart
 

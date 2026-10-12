@@ -1,6 +1,6 @@
 ---
 name: anfaenger-workflow-amtsgericht
-description: "Wenn es um Anfänger-Amtsgericht in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anfänger-Amtsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anfänger-Amtsgericht
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Sofortfrage
 
@@ -88,24 +86,3 @@ Geben Sie dem Nutzer am Ende genau einen nächsten Arbeitsschritt, wenn die Lage
 | Urteil liegt vor | `urteil-pruefen-313-zpo` und `berufung-amtsgericht-511-zpo` |
 | Unsichere Argumentation | `rechtsprechungschat-amtsgericht` |
 | Vor Einreichung | `sanity-check-selbstvertretung-amtsgericht` |
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 23 GVG
-- § 114 FamFG
-- § 156 StGB
-- § 185 GVG
-- § 41 GKG
-- § 12 GKG
-- § 7 StVG
-- § 17 GKG
-- § 48 GKG
-- § 71 GVG
-- § 23a GVG
-- § 63 GKG
-
-### Leitentscheidungen
-
-- BGH VI ZR 67/15

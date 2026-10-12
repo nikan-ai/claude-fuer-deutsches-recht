@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Forschungszulage-Antragstellung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung."
 ---
 
 # Anschluss-Routing
@@ -55,25 +55,3 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 FZulG
-- § 10 FZulG
-- § 2 FZulG
-- § 5 FZulG
-- § 4 FZulG
-- § 6 FZulG
-- § 1 FZulG
-- § 70 VwGO
-- § 7 FZulG
-- § 9 FZulG
-- § 28 VwVfG
-- § 37 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

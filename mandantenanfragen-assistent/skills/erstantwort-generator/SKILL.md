@@ -1,6 +1,6 @@
 ---
 name: erstantwort-generator
-description: "Wenn es um Erstantwort-Generator in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Erstantwort-Generator: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erstantwort-Generator
@@ -22,9 +22,6 @@ Dieser Hauptskill erstellt die vollständige formelle Erstantwort-E-Mail an eine
 2. Welche Dringlichkeitsstufe wurde gesetzt — bei HOCH Sofortruf-Hinweis in der Mail einfuegen?
 3. Besteht bereits ein Mandatsverhältnis oder handelt es sich um eine Erstanfrage (Kein-Mandat-Disclaimer erforderlich)?
 4. Soll der Transkriptionsservice-Hinweis aktiviert werden (Trigger: Anfrage ist kurz/fragmentarisch oder Nutzer kann nicht schreiben)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 49b Abs. 5 BRAO — Kostenbelehrungspflicht: Hinweis auf voraussichtliche Gesamtkosten vor Mandatsannahme
@@ -184,3 +181,5 @@ Der Skill gibt die fertige E-Mail als formatierten Text aus, bereit zum Kopieren
 - `folgekorrespondenz-vorbereiten` — CRM-Eintrag parallel
 - `mehrsprachige-antwort` — Sprache der Antwort
 - `muster-erstantwort` — Vorlagenschreiben als Referenz
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

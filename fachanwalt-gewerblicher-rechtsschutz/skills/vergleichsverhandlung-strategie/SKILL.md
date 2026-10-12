@@ -1,6 +1,6 @@
 ---
 name: vergleichsverhandlung-strategie
-description: "Wenn es um Vergleichsverhandlung Strategie in Fachanwalt Gewerblicher Rechtsschutz geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleichsverhandlung Strategie: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: Fachanwalt Gewerblicher Rechtsschutz."
 ---
 
 # Streit im gewerblichen Rechtsschutz durch Vergleich lösen und Verhandlungsstrategie entwickeln
@@ -35,10 +35,6 @@ description: "Wenn es um Vergleichsverhandlung Strategie in Fachanwalt Gewerblic
 - § 97 Abs. 2 UrhG — Schadensersatz lizenzanalog
 - § 9 UWG — Schadensersatz bei UWG-Verstoß
 - § 242 BGB — Treuwidrigkeitspruefu ng bei Abgeltungsklausel
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorbereitung der Verhandlung
 
@@ -192,13 +188,4 @@ dieses Anwaltsvergleichs nach § 796a ZPO durch das [GERICHT].
 - `schriftsatzkern-substantiierung` — wenn Vergleich scheitert und Klage noetig
 - `fachanwalt-gewerblicher-rechtsschutz-abmahnung-vergleich-wipo` — WIPO-Mediation bei internationalem Bezug
 
-<!-- AUDIT 27.05.2026 | Bundle 022 | Task 3
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Status: NOT_FOUND
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Die behauptete Fundstelle verifizierte Rechtsprechungsdatenbank-Fundstelle 2022, 17892 konnte nicht verifiziert werden.
-Auf dejure.org sind für den 5. Zivilsenat Hamburg aus 2021/2022 andere AZ nachweisbar
-Maßnahme: Zitat aus Abschnitt "Zentrale Rechtsprechung" gelöscht.
-Hinweis: Das Anti-Hammer-Klausel-Konzept als solches ist verbreitet und bleibt
-im Vergleichsentwurf-Template erhalten (ohne Einzelzitat).
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

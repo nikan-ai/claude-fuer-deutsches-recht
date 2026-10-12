@@ -1,6 +1,6 @@
 ---
 name: kontensuche-drittschuldner
-description: "Wenn es um Kontensuche und Drittschuldnerermittlung in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Kontensuche und Drittschuldnerermittlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kontensuche und Drittschuldnerermittlung
@@ -19,10 +19,6 @@ description: "Wenn es um Kontensuche und Drittschuldnerermittlung in Zwangsvolls
 2. War eine Vermögensauskunft des Schuldners bereits unergiebig oder ist der Aufenthalt unbekannt?
 3. Sollen alle drei Auskunftsstellen abgefragt werden (DRV, BZSt, KBA) oder nur eine?
 4. Ist der Schuldner ein Unternehmen — dann Handelsregistereintrag als Informationsquelle?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -56,9 +52,9 @@ description: "Wenn es um Kontensuche und Drittschuldnerermittlung in Zwangsvolls
  - **Deutsche Rentenversicherung Bund**: aktueller Arbeitgeber oder Rentenzahlstelle
  - **Bundeszentralamt für Steuern (BZSt)**: Kontostammdaten nach § 24c KWG, alle deutschen Kreditinstitute mit Konten des Schuldners
  - **Kraftfahrt-Bundesamt**: KFZ-Halterauskunft
-4. **Ausländische Konten**: nicht über § 802l erreichbar, aber EU-Kontenpfändungsbeschluss (EuKtPVO) ist Alternative über `zv-pfueb-bank`.
+4. **Ausländische Konten**: nicht über § 802l erreichbar, aber EU-Kontenpfändungsbeschluss (EuKtPVO) ist Alternative über `pfueb-bank`.
 5. **Plausibilitätsprüfung**: Auskunft veraltet sich. Konten existieren ggf. nicht mehr, Arbeitgeber gewechselt.
-6. **Anschluss**: bekannte Bank → `zv-pfueb-bank`, bekannter Arbeitgeber → `zv-pfueb-arbeitsentgelt`.
+6. **Anschluss**: bekannte Bank → `pfueb-bank`, bekannter Arbeitgeber → `pfueb-arbeitsentgelt`.
 
 ## Voraussetzungen § 802l ZPO im Einzelnen
 
@@ -69,8 +65,6 @@ description: "Wenn es um Kontensuche und Drittschuldnerermittlung in Zwangsvolls
 ## Leitentscheidungen
 
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Qualitätsgates
 
@@ -79,8 +73,4 @@ description: "Wenn es um Kontensuche und Drittschuldnerermittlung in Zwangsvolls
 - Daten sind sensibel – Datenschutz beachten, Auskunft nur für konkrete Vollstreckung.
 - Doppelte Abfragen vermeiden (Kostenfalle).
 
-<!-- AUDIT 27.05.2026
-Problem : BGH VII ZB 14/20 vom 15.07.2021, NJW 2021, 3046 – Beschluss auf dejure.org nicht auffindbar (NOT_FOUND). Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=15.07.2021&Aktenzeichen=VII+ZB+14%2F20
-Ersatz : BGH, Beschl. v. 22.01.2015 – I ZB 77/14, NJW 2015, 2509 (§ 802l ZPO, Drittauskünfte). Verifiziert: https://dejure.org/2015,17779
-Aktion : Zeile ersetzt
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "plugin": "richter-amtsgericht-zivil",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__495a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Streitwertgrenze 1.000 Euro und zwingende mündliche Verhandlung auf Antrag."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__495a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 495a ZPO gelesen; Bezug: Forderung, erhebliche Einwendung und Verhandlungsbedarf aus der Zivilakte bestimmen. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/03/rk20170302_2bvr097716.html",
+      "checked_on": "2026-09-25",
+      "supports": "BVerfG, Beschluss vom 02.03.2017, 2 BvR 977/16: Ablehnung der Entscheidung nach Aktenlage als Verhandlungsantrag auslegen; fehlendes Beweisangebot rechtfertigt sein Übergehen nicht. Amtlicher Volltext am 25.09.2026 inhaltlich geprüft, Randnummern 1 bis 13 vollständig gelesen. Kein allgemeiner Verhandlungsanspruch außerhalb der gesetzlichen Regel, heutige Wertgrenze separat geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__495a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Laienhafter Verhandlungsantrag, Mangel-/Fotobeweis, konkrete Fachfrage und Vergleichsreichweite. Prüftiefe: Aktuelle Grenze und Verhandlungsantrag erneut gelesen; keine neue Vollverifikation kaufrechtlicher Beweislastvarianten."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Laienhafter Verhandlungsantrag, Mangel-/Fotobeweis, konkrete Fachfrage und Vergleichsreichweite.",
+    "changes": [
+      "Verhandlungsantrag funktional auslegen und schriftliche Entscheidung rechtzeitig ankündigen; ungeprüfte Aktenzeichen durch konkrete Verfahrensfragen ersetzt.",
+      "Ablehnung der Entscheidung nach Aktenlage als Verhandlungsantrag auslegen; fehlendes Beweisangebot rechtfertigt sein Übergehen nicht.",
+      "Verhandlungsbegehren -> Verfahrensverfügung ändern; andere Zahlungszuordnung -> Restbetrag und Zinsen korrigieren.",
+      "Laienhafter Verhandlungsantrag, Mangel-/Fotobeweis, konkrete Fachfrage und Vergleichsreichweite."
+    ],
+    "sha256": "4cee218762f4e8bee4a8e51946fe5c7ad3c909f1a96a8282e2ddd0a936a8a1a9",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Laienhafter Verhandlungsantrag, Mangel-/Fotobeweis, konkrete Fachfrage und Vergleichsreichweite.",
+    "changes": [
+      "Forderung, erhebliche Einwendung und Verhandlungsbedarf aus der Zivilakte bestimmen.",
+      "Ablehnung der Entscheidung nach Aktenlage als Verhandlungsantrag auslegen; fehlendes Beweisangebot rechtfertigt sein Übergehen nicht.",
+      "Verhandlungsbegehren -> Verfahrensverfügung ändern; andere Zahlungszuordnung -> Restbetrag und Zinsen korrigieren.",
+      "Laienhafter Verhandlungsantrag, Mangel-/Fotobeweis, konkrete Fachfrage und Vergleichsreichweite."
+    ],
+    "sha256": "adfec4089497fe739657c241ae7b024092d6f6c6386d95125662ec38e165ab7c",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie als Amtsrichter eine Relation zur bestrittenen Kaufpreisforderung.",
+      "Bereiten Sie einen Beweisbeschluss über die behauptete Barzahlung vor."
+    ],
+    "negative": [
+      "Schreiben Sie für den Käufer eine anwaltliche Klageerwiderung.",
+      "Entwerfen Sie ein Berufungsurteil der Zivilkammer."
+    ]
+  },
+  "cases": [
+    {
+      "id": "barzahlung-verhandlungsantrag",
+      "request": "Erstellen Sie ergebnis.md als neutralen amtsgerichtlichen Relations- und Verfügungsentwurf. Örtliche und sachliche Zuständigkeit sind unstreitig. Händler H verlangt 900 Euro Kaufpreis für einen gelieferten Tisch. Käufer K räumt Kauf, Lieferung und Fälligkeit ein, behauptet aber Barzahlung am 03.08.2026 im Laden und benennt die anwesende Zeugin L mit ladungsfähiger Anschrift. H bestreitet die Zahlung. Weitere Beweismittel gibt es nicht. K beantragt ausdrücklich mündliche Verhandlung. Eine Beweisaufnahme hat noch nicht stattgefunden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet Kauf und Lieferung als unstreitig sowie die behauptete Erfüllung als entscheidungserheblichen Streitpunkt ein und weist die Beweislast für Zahlung K zu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Sieht trotz eines Streitwerts unter 1.000 Euro eine mündliche Verhandlung wegen des ausdrücklichen Antrags vor.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bereitet die Vernehmung L zur konkreten Barzahlung vor, ohne Zahlung oder Unwahrheit bereits festzustellen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "04-relation-zivilrecht-klein"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gerichtsplugins/richter-amtsgericht-zivil/README.md",
+      "gerichtsplugins/richter-amtsgericht-zivil/richter-amtsgericht-zivil-werkstatt.md",
+      "gerichtsplugins/richter-amtsgericht-zivil/richter-amtsgericht-zivil-schnellstart.md",
+      "quality/evals/richter-amtsgericht-zivil.json"
+    ],
+    "opening_change": "Forderung, erhebliche Einwendung und Verhandlungsbedarf aus der Zivilakte bestimmen",
+    "norms": [
+      "Paragraf 495a ZPO",
+      "Artikel 103 Absatz 1 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 02.03.2017, 2 BvR 977/16",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/03/rk20170302_2bvr097716.html",
+        "application": "Ablehnung der Entscheidung nach Aktenlage als Verhandlungsantrag auslegen; fehlendes Beweisangebot rechtfertigt sein Übergehen nicht.",
+        "limit": "Amtlicher Volltext am 25.09.2026 inhaltlich geprüft, Randnummern 1 bis 13 vollständig gelesen. Kein allgemeiner Verhandlungsanspruch außerhalb der gesetzlichen Regel, heutige Wertgrenze separat geprüft."
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Volltext am 25.09.2026 inhaltlich geprüft, Randnummern 1 bis 13 vollständig gelesen. Kein allgemeiner Verhandlungsanspruch außerhalb der gesetzlichen Regel, heutige Wertgrenze separat geprüft.",
+      "Keine echte Verhandlung und kein Live-Modelltest; amtlicher Volltext, Randnummern 1 bis 13, am 25.09.2026 inhaltlich geprüft.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: Aktuelle Grenze und Verhandlungsantrag erneut gelesen; keine neue Vollverifikation kaufrechtlicher Beweislastvarianten. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Relation, Hinweis/Beweis oder Entscheidungsentwurf anbieten.",
+      "Klage und Erwiderung still lesen, automatischen Relationsstart entfernt.",
+      "Bestellten neutralen Entwurf direkt bearbeiten."
+    ],
+    "continuation": "Verhandlungsbegehren -> Verfahrensverfügung ändern; andere Zahlungszuordnung -> Restbetrag und Zinsen korrigieren.",
+    "enrichment": "Laienhafter Verhandlungsantrag, Mangel-/Fotobeweis, konkrete Fachfrage und Vergleichsreichweite.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/richter-amtsgericht-zivil/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für amtsgerichtliche Zivilsache technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: messe-verletzung-und-gv-einsatz
-description: "Wenn es um Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz in markenrecht-fashion-luxus geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz
@@ -81,7 +81,7 @@ Messe-Verletzungen erfordern blitzschnelles Handeln: Die Ware verschwindet nach 
 
 8. **Auskunftsklage (§ 19 MarkenG):**
  - Lieferkette: Hersteller, Importeure, Vorbesitzer
- - Mengen: Stückzahlen produzierten und gelieferten Ware
+ - Mengen: Stückzahlen der produzierten und gelieferten Ware
  - Grundlage für Schadensersatz
 
 9. **Vernichtung (§ 18 MarkenG):**
@@ -162,11 +162,8 @@ Bevor der Eilantrag gestellt wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
-<!-- AUDIT 27.05.2026 | bundle_037 | task 1/5
-Maßnahme: Beide Vorkommen (Belege-Liste und Aktuelle-Rechtsprechung-Block) geloescht.
--->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

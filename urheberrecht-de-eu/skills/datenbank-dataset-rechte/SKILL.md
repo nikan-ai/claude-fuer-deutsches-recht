@@ -1,6 +1,6 @@
 ---
 name: datenbank-dataset-rechte
-description: "Wenn es um Datenbanken, Datasets und Trainingskorpora in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Datenbanken, Datasets und Trainingskorpora: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Datenbanken, Datasets und Trainingskorpora
@@ -20,7 +20,7 @@ description: "Wenn es um Datenbanken, Datasets und Trainingskorpora in Urheberre
 
 ## Wofür dieser Arbeitsgang da ist
 
-Datenbanken, Datasets und Trainingskorpora schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe Rechte an Datenbanken, Datensätzen und Trainingskorpora anhand der Sammlung und der belegten Zugriffe. Berücksichtige Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke; begründe das gewünschte Ergebnis mit den verfügbaren Nachweisen.
 
 ## Sofortstart
 

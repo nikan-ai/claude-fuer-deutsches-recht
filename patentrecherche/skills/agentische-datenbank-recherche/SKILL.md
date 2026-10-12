@@ -1,6 +1,6 @@
 ---
 name: agentische-datenbank-recherche
-description: "Wenn es um agentische-datenbank-recherche in patentrecherche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für agentische-datenbank-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # agentische-datenbank-recherche
@@ -124,6 +124,8 @@ Pro Datenbank:
 Tabelle mit Spalten:
 
 | Veröff.-Nr. | Anmelder | Anmeldetag (Prio) | CPC / IPC | Titel | Status | Link | Quelldatenbank |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `[Veröffentlichungsnummer]` | `[Anmelder]` | `[Datum]` | `[Klasse]` | `[Titel, gegebenenfalls MT]` | `[Rechtsstand]` | `[Direktlink]` | `[Register]` |
 
 ### Schritt 5: Patentfamilien deduplizieren
 
@@ -173,30 +175,8 @@ Bevor die Datenbankrecherche gestartet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EPA, Technische Beschwerdekammer, T 1090/12 (Funktionale Merkmale):** Eine Entgegenhaltung nimmt ein funktionales Merkmal vorweg, wenn sie eine Vorrichtung beschreibt, die geeignet ist, die beanspruchte Funktion zu erfuellen; die tatsaechliche Ausfuehrung der Funktion ist nicht erforderlich.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 PatG
-- § 4 PatG
-- § 45 PatG
-- § 14 PatG
-- § 59 PatG
-- § 203 StGB
-- § 33 PatG
-- § 81 PatG
-- § 47 PatG
-- § 39 PatG
-- § 16 PatG
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

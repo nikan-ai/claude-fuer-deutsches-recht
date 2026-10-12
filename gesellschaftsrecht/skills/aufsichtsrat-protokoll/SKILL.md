@@ -1,6 +1,6 @@
 ---
 name: aufsichtsrat-protokoll
-description: "Wenn es um Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG) in Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG)
@@ -16,7 +16,6 @@ description: "Wenn es um Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -101,7 +100,6 @@ Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend 
 
 | Gericht | Aktenzeichen | Fundstelle | Leitsatz / Relevanz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema: Sitzungsprotokoll
 
@@ -141,7 +139,6 @@ Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend 
 | Frist | Norm | Inhalt | Folge bei Versäumnis |
 |---|---|---|---|
 | Anfechtung HV-Beschluss | Paragraf 246 Abs. 1 AktG | 1 Monat ab Beschlussfassung | Beschluss wird unanfechtbar; Anfechtungsrecht erlischt |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Nichtigkeit (Paragraf 241 AktG) | Keine Frist | Nichtigkeitsklage zu jederzeit möglich | Dauerhafter Schwebezustand; Heilungsmöglichkeit nach Paragraf 244 AktG prüfen |
 | Einladungsfrist AR | Paragraf 110 Abs. 2 AktG | Mind. 14 Tage vor Sitzung | Anfechtbarkeit der gefassten Beschlüsse; Verzicht dokumentieren |
 | Protokollierung AR | Paragraf 107 Abs. 2 AktG | Keine gesetzliche Frist; Best Practice: 2 Wochen | Beweisschwierigkeiten; ggf. Beschlussfassung unwirksam wenn Inhalt unrekonstruierbar |
@@ -153,7 +150,6 @@ Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend 
 | Einwand | Begründung Gegenseite | Erwiderung |
 |---|---|---|
 | Beschluss gültig trotz fehlendem Protokoll | Protokoll ist nur Beweismittel, kein Wirksamkeitserfordernis | Beweislastrisiko liegt beim Beschlussführer; ohne Protokoll kein verlässlicher Nachweis gegenüber M&A-Käufern, Behörden, Gerichten |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Protokoll erst 3 Monate nach Sitzung erstellt | Gesetz sieht keine Frist vor | Beweiswert des Protokolls leidet erheblich; Erinnerungsprotokoll mit deutlichem Hinweis auf späte Erstellung versehen |
 | Videokonferenz ohne ausdrückliche Satzungsermächtigung | Paragraf 108 Abs. 4 AktG erlaubt Videokonferenz des AR | GmbH: GmbHG sieht keine ausdrückliche Regelung vor; gesellschaftsvertragliche Ermächtigung prüfen oder Einvernehmen aller sicherstellen |
 
@@ -170,235 +166,9 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zu
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
-## Schriftsatzbausteine
+## Protokollvorlagen gezielt laden
 
-### Baustein 1: Aufsichtsratssitzung AG — vollständiges Musterprotokoll
-
-```
-PROTOKOLL DER AUFSICHTSRATSSITZUNG
-DER MUSTER AG, Frankfurt am Main
-(HRB 12345 Amtsgericht Frankfurt am Main)
-
-Datum: 15. März 2026, 10:00 Uhr bis 12:30 Uhr
-Ort: Räumlichkeiten der Kanzlei XY, Taunusanlage 1, 60329 Frankfurt am Main
-Protokollführerin: Rechtsanwältin Dr. Christine Weber, Kanzlei XY
-
-VORSITZ: Dr. Anna Müller (Aufsichtsratsvorsitzende)
-
-ANWESEND:
-Aufsichtsratsmitglieder:
-- Dr. Anna Müller (Vorsitzende)
-- Prof. Dr. Karl Schmidt (Stellvertretender Vorsitzender)
-- Ursula Braun (Arbeitnehmervertreterin)
-- Thomas Berger (Arbeitnehmervertreter)
-- [weitere Mitglieder]
-
-Gäste (mit Einladung des AR-Vorsitzenden):
-- Max Huber, Vorstandsvorsitzender
-- Sandra Weiß, Vorstand Finanzen (CFO)
-- Dr. Peter Klein, Wirtschaftsprüfer, KPMG AG (nur TOP 3)
-
-ENTSCHULDIGT: [Name], [Grund]
-
----------------------------------------------------------------------------
-
-EINBERUFUNG UND BESCHLUSSFÄHIGKEIT
-
-Dr. Müller eröffnete die Sitzung um 10:00 Uhr. Sie stellte fest, dass die Einladung zur
-Sitzung den Mitgliedern mit Schreiben vom 28. Februar 2026 und damit ordnungsgemäß mit
-einer Frist von 15 Tagen zugegangen ist (Paragraf 110 Abs. 2 AktG). Es haben [N] von [N]
-Aufsichtsratsmitgliedern an der Beschlussfassung teilgenommen. Der Aufsichtsrat ist damit
-gemäß Paragraf 108 Abs. 2 AktG beschlussfähig.
-
-Das Protokoll der letzten Sitzung vom 10. Januar 2026 wurde genehmigt.
-
----------------------------------------------------------------------------
-
-TOP 1: Bericht des Vorstands — Geschäftsentwicklung Q1 2026
-
-Der Vorstandsvorsitzende Max Huber berichtete über die Geschäftsentwicklung im ersten
-Quartal 2026 anhand der Vorstands-Präsentation (Anlage A). Umsatz und EBIT entwickelten
-sich plangemäß. Wesentliche Abweichungen vom Budget wurden nicht festgestellt.
-
-Der Aufsichtsrat nahm den Bericht zur Kenntnis. Es wurde keine Beschlussfassung
-veranlasst.
-
----------------------------------------------------------------------------
-
-TOP 2: Zustimmung zum Erwerb der Beta GmbH — Paragraf 111 Abs. 4 AktG i.V.m. Paragraf 3 GO-Vorstand
-
-Der Vorstandsvorsitzende erläuterte die geplante Übernahme sämtlicher Geschäftsanteile
-der Beta GmbH, München (HRB 98765 AG München), zum Kaufpreis von bis zu 5.000.000 EUR
-(in Worten: fünf Millionen Euro) gemäß dem Entwurf des Share Purchase Agreement
-(Anlage B). Die Maßnahme unterfällt Paragraf 3 Abs. 1 lit. (c) der Geschäftsordnung des
-Vorstands (Zustimmungspflicht bei Erwerben ab 1.000.000 EUR).
-
-Der CFO Sandra Weiß erläuterte die Finanzierungsstruktur und die Due-Diligence-Ergebnisse
-(Anlage C).
-
-[Diskussion, wesentliche Erwägungen des Aufsichtsrats:]
-Der Aufsichtsrat erörterte insbesondere die kartellrechtliche Freistellung und die
-Gewährleistungsregeln des SPA. Keine Mitglieder hatten einen Interessenkonflikt
-anzuzeigen.
-
-Nach eingehender Beratung fasste der Aufsichtsrat einstimmig folgenden
-
-BESCHLUSS:
-Der Aufsichtsrat stimmt dem Erwerb sämtlicher Geschäftsanteile an der Beta GmbH,
-München, durch die Muster AG zum Kaufpreis von bis zu 5.000.000 EUR (fünf Millionen
-Euro) gemäß dem Entwurf des Share Purchase Agreement in der Fassung vom 10. März 2026
-(Anlage B) zu. Er ermächtigt den Vorstand, den Kaufvertrag mit den in der Sitzung
-besprochenen Maßgaben zu unterzeichnen.
-
-Abstimmung: [N] Ja / [N] Nein / [N] Enthaltungen
-
----------------------------------------------------------------------------
-
-TOP 3: Jahresabschluss und Lagebericht 2025 — Paragraf 172 AktG
-
-[Dr. Klein von KPMG war für diesen TOP anwesend.]
-
-Der Wirtschaftsprüfer Dr. Klein erläuterte den Bestätigungsvermerk und die wesentlichen
-Ergebnisse der Jahresabschlussprüfung 2025 (Anlage D: Prüfungsbericht KPMG).
-
-[Diskussion. Dr. Klein verließ den Sitzungssaal nach Abschluss von TOP 3 um 11:45 Uhr.]
-
-Der Aufsichtsrat fasste folgenden
-
-BESCHLUSS:
-Der Aufsichtsrat billigt den Jahresabschluss und den Lagebericht 2025 der Muster AG
-gemäß Paragraf 172 AktG in der geprüften Fassung (Anlage D).
-
-Abstimmung: [N] Ja / [N] Nein / [N] Enthaltungen
-
----------------------------------------------------------------------------
-
-SCHLIESSUNGSPUNKT
-
-Dr. Müller stellte fest, dass keine weiteren Tagesordnungspunkte vorlagen. Sie schloss
-die Sitzung um 12:30 Uhr.
-
-ANLAGEN:
-Anlage A: Vorstandspräsentation Geschäftsentwicklung Q1 2026
-Anlage B: Entwurf Share Purchase Agreement Beta GmbH, Stand 10.03.2026
-Anlage C: Finanzierungsübersicht und DD-Zusammenfassung
-Anlage D: Jahresabschluss und Prüfungsbericht KPMG 2025
-
-Frankfurt am Main, den [Datum der Unterzeichnung]
-
-_________________________________
-Dr. Anna Müller
-Aufsichtsratsvorsitzende
-(Paragraf 107 Abs. 2 S. 3 AktG)
-
-[ENTWURF — nicht zur Verabschiedung freigegeben]
-```
-
-### Baustein 2: GmbH-Gesellschafterversammlung mit Stimmverbot
-
-```
-PROTOKOLL DER GESELLSCHAFTERVERSAMMLUNG
-DER ALPHA GMBH, München
-(HRB 12345 Amtsgericht München)
-
-Datum: 20. März 2026, 14:00 Uhr bis 15:30 Uhr
-Ort: Geschäftsräume der Alpha GmbH, Maximilianstraße 10, 80539 München
-Versammlungsleiter: Rechtsanwalt Dr. Jörg Fischer
-Protokollführer: Rechtsanwalt Dr. Jörg Fischer
-
-ERSCHIENENE GESELLSCHAFTER:
-1. Herr Thomas Maier, gesch. 50 % [anwesend / vertreten durch ___]
-2. Frau Petra Schulz, gesch. 30 % [anwesend]
-3. Muster Beteiligungs GmbH, gesch. 20 % [vertreten durch Max Baum]
-
-Sämtliche Geschäftsanteile = 100 % sind vertreten. Einberufung in der Versammlung
-einvernehmlich als ordnungsgemäß anerkannt.
-
-BESCHLUSSFÄHIGKEIT: Alle Gesellschafter anwesend oder vertreten; alle Gesellschafter
-haben auf Wahrung der Einberufungsfrist verzichtet. Die Versammlung ist beschlussfähig.
-
----------------------------------------------------------------------------
-
-TOP 1: Feststellung des Jahresabschlusses 2025
-
-Die Geschäftsführerin Petra Schulz erläuterte den Jahresabschluss 2025
-(Anlage A: Jahresabschluss mit Anhang). Umsatz: [X] EUR; EBIT: [Y] EUR.
-
-Die Gesellschafterversammlung fasste folgenden
-
-BESCHLUSS:
-Der Jahresabschluss der Alpha GmbH zum 31. Dezember 2025 wird in der vorgelegten Fassung
-(Anlage A) festgestellt. Der Bilanzgewinn in Höhe von [Z] EUR wird auf neue Rechnung
-vorgetragen.
-
-Abstimmung: Ja: 100 % / Nein: 0 % / Enthaltungen: 0 %
-
----------------------------------------------------------------------------
-
-TOP 2: Entlastung der Geschäftsführerin — Paragraf 46 Nr. 5 GmbHG
-
-[STIMMVERBOT: Frau Petra Schulz (30 %) unterliegt gemäß Paragraf 47 Abs. 4 GmbHG dem
-Stimmverbot, da über ihre eigene Entlastung als Geschäftsführerin abgestimmt wird.
-Sie ist von der Abstimmung über TOP 2 ausgeschlossen. Stimmrechtsanteil für die
-Abstimmung: Thomas Maier 50 %, Muster Beteiligungs GmbH 20 % = 70 % der Gesamtstimmen.
-Dieser Anteil gilt als 100 % für die Abstimmung über TOP 2.]
-
-Die Gesellschafterversammlung fasste folgenden
-
-BESCHLUSS:
-Der Geschäftsführerin Petra Schulz wird für das Geschäftsjahr 2025 Entlastung erteilt.
-
-Abstimmung (unter Ausschluss des Stimmrechts von Frau Petra Schulz):
-Ja: 70 % der Gesamtstimmen (= 100 % der abstimmungsberechtigten Stimmen) /
-Nein: 0 % / Enthaltungen: 0 %
-
----------------------------------------------------------------------------
-
-SCHLIESSUNGSPUNKT: Keine weiteren Tagesordnungspunkte. Die Versammlung wurde um
-15:30 Uhr geschlossen.
-
-München, den [Datum]
-
-_________________________________
-Dr. Jörg Fischer
-Versammlungsleiter / Protokollführer
-
-[ENTWURF]
-```
-
-### Baustein 3: Prüfcheckliste vor Verabschiedung
-
-```
-PRÜFCHECKLISTE — PROTOKOLL [ORGAN] VOM [DATUM]
-Zu prüfen vor Unterzeichnung / Versand
-
-[ ] 1. Organgremium korrekt bezeichnet?
-[ ] 2. Datum, Uhrzeit, Ort vollständig?
-[ ] 3. Einladung ordnungsgemäß oder Verzicht dokumentiert (Paragraf 110 Abs. 2 AktG)?
-[ ] 4. Alle anwesenden / entschuldigten Mitglieder erfasst?
-[ ] 5. Beschlussfähigkeit korrekt festgestellt (Paragraf 108 Abs. 2 AktG)?
-[ ] 6. Stimmverbote geprüft und ggf. vermerkt (Paragraf 47 Abs. 4 GmbHG / Paragraf 136 AktG)?
-[ ] 7. Alle TOP in korrekter Reihenfolge erfasst?
-[ ] 8. Beschlusstexte stimmen mit tatsächlich gefassten Beschlüssen überein?
-[ ] 9. Abstimmungsergebnisse (Ja / Nein / Enthaltung) numerisch korrekt?
-[ ] 10. Anlagen korrekt nummeriert und vollständig beigefügt?
-[ ] 11. Gäste / externe Berater mit Funktion und Top-Anwesenheit vermerkt?
-[ ] 12. Executive Sessions / vertrauliche TOP separat protokolliert?
-[ ] 13. Notarielle Beurkundung erforderlich? (Paragraf 130 Abs. 1 AktG, Paragraf 179 AktG)
-[ ] 14. Unterzeichnungsblock korrekt (AR: Vorsitzender allein; GmbH: Versammlungsleiter)?
-[ ] 15. ENTWURF-Vermerk bis Genehmigung in der Folgesitzung vorhanden?
-```
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
-
-Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
-
-Schlussabsatz Variante B (formal-streng):
-Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
+Öffne die [Protokollvorlagen und Prüfcheckliste](references/protokollvorlagen.md) erst nach Klärung von Gesellschaftsform, Organ, Teilnehmern, Beschlussgegenständen und möglichen Stimmverboten.
 
 ## Streitwert und Kosten
 
@@ -589,25 +359,3 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Scholz, GmbHG, 12. Aufl. 2018, Paragraf 47 Rn. 110 ff.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 48 GmbHG
-- Paragraf 40 GmbHG
-- Paragraf 246 AktG
-- Paragraf 43 GmbHG
-- Paragraf 47 GmbHG
-- Paragraf 108 AktG
-- Paragraf 20 GwG
-- Paragraf 53 GmbHG
-- Paragraf 15 GmbHG
-- Paragraf 130 AktG
-- Paragraf 5 GmbHG
-- Paragraf 107 AktG
-
-### Leitentscheidungen
-
-- BGH II ZR 25/82
-- BFH I R 53/08

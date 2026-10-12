@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "plugin": "rechtsberatungsstelle",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/rdg/__6.html",
+      "checked_on": "2026-09-14",
+      "supports": "Anforderungen an unentgeltliche Rechtsdienstleistungen außerhalb enger persönlicher Beziehungen und inhaltlich erforderliche Anleitung."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/entscheidungen/rk20090806_1bvr032209.html",
+      "checked_on": "2026-09-22",
+      "supports": "Keine pauschale Verweisung an die Ausgangsbehörde zur Beratung über den Widerspruch gegen ihre Entscheidung. Grenze: Keine automatische Beratungshilfebewilligung oder Prozessvertretungsbefugnis studentischer Stellen. Amtlicher Text im Suchindex einschließlich entscheidender Begründung geprüft; konkrete wirtschaftliche Voraussetzungen bleiben fallabhängig."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/rdg/__6.html",
+      "checked_on": "2026-09-23",
+      "supports": "Abrechnungszuordnung, tatsächlich geprüfte Fassung, zeitlich lückenlose Übergabe und begrenzte externe Übernahmeanfrage. Prüftiefe: Anleitungsnorm erneut gelesen; keine tatsächliche Freigabe oder Vertretungsbefugnis einer Einrichtung geprüft."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Abrechnungszuordnung, tatsächlich geprüfte Fassung, zeitlich lückenlose Übergabe und begrenzte externe Übernahmeanfrage.",
+    "changes": [
+      "Bestehender Fall- und Übergabeeinstieg bewahrt; konkreter unabhängiger Beratungsbedarf im Behördenwiderspruch statt pauschaler Verweisung ergänzt.",
+      "Keine pauschale Verweisung an die Ausgangsbehörde zur Beratung über den Widerspruch gegen ihre Entscheidung. Grenze: Keine automatische Beratungshilfebewilligung oder Prozessvertretungsbefugnis studentischer Stellen.",
+      "Spätere Übernahme -> Zwischenverantwortung und Rückruf konkret zuweisen; Zahlungsbeleg -> Betrag und Brief korrigieren.",
+      "Abrechnungszuordnung, tatsächlich geprüfte Fassung, zeitlich lückenlose Übergabe und begrenzte externe Übernahmeanfrage."
+    ],
+    "sha256": "bc530c744655fb0e6fe5326cd0d775968a0855c7ec9e883bdc229d41bc994fa2",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Erstelle eine Semesterübergabe für offene Beratungsfälle ohne bestätigte Nachfolge.",
+      "Bereite einen verständlichen Mandantenbrief zur Prüfung durch unsere anleitende Juristin vor."
+    ],
+    "negative": [
+      "Übernimm ohne befugte Person die Prozessvertretung vor dem Landgericht.",
+      "Berechne die RVG-Vergütung eines entgeltlichen Kanzleimandats ohne Beratungsstellen- oder Übergabebezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "semesterwechsel-ohne-bestaetigte-nachfolge",
+      "request": "Erstelle ergebnis.md als interne Übergabenotiz unserer studentischen Rechtsberatungsstelle. Fall R17 betrifft eine bestrittene Stromnachforderung über 430 Euro. Student Leon scheidet am 15. September aus. Der Versorger hat schriftlich Antwort bis 18. September 2026 erbeten; das ist keine gerichtliche Frist. Ein vollständiger Antwortentwurf liegt zur Prüfung bei der anleitenden Volljuristin Frau Kern, ist aber weder freigegeben noch versandt. Eine studentische Nachfolge ist noch nicht benannt. Die Mandantin erwartet den zugesagten Rückruf am 16. September und darf nur über ihre hinterlegte Telefonnummer kontaktiert werden. Frau Kern ist erreichbar und für die Zuweisung zuständig. Bitte keine erneute Sachprüfung der Stromforderung, sondern sichere Übergabe mit konkreten nächsten Aufgaben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Kennzeichnet die Nachfolge als unbesetzt und adressiert die Zuweisung sowie zwischenzeitliche Verantwortung konkret an Frau Kern, statt eine Übernahme zu fingieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Unterscheidet Antwortentwurf, ausstehende Freigabe und noch fehlenden Versand und erfindet keine bereits eingelegte Erklärung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erfasst Rückruf am 16. und Antworttermin am 18. September mit jeweiliger Handlung und wahrt die vorgegebene Kontaktbeschränkung; macht aus dem Versorgertermin keine Notfrist.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "semester-uebergabe"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Abrechnungszuordnung, tatsächlich geprüfte Fassung, zeitlich lückenlose Übergabe und begrenzte externe Übernahmeanfrage.",
+    "changes": [
+      "Bestehender Fall- und Übergabeeinstieg bewahrt; konkreter unabhängiger Beratungsbedarf im Behördenwiderspruch statt pauschaler Verweisung ergänzt.",
+      "Keine pauschale Verweisung an die Ausgangsbehörde zur Beratung über den Widerspruch gegen ihre Entscheidung. Grenze: Keine automatische Beratungshilfebewilligung oder Prozessvertretungsbefugnis studentischer Stellen.",
+      "Spätere Übernahme -> Zwischenverantwortung und Rückruf konkret zuweisen; Zahlungsbeleg -> Betrag und Brief korrigieren.",
+      "Abrechnungszuordnung, tatsächlich geprüfte Fassung, zeitlich lückenlose Übergabe und begrenzte externe Übernahmeanfrage."
+    ],
+    "sha256": "882fc7450b0036d5606280a9a3110bd91320ecaeffa0bfb90e8d5399e14dbe9a",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "rechtsberatungsstelle/rechtsberatungsstelle-werkstatt.md",
+      "rechtsberatungsstelle/rechtsberatungsstelle-schnellstart.md"
+    ],
+    "opening_change": "Bestehender Fall- und Übergabeeinstieg bewahrt; konkreter unabhängiger Beratungsbedarf im Behördenwiderspruch statt pauschaler Verweisung ergänzt.",
+    "norms": [
+      "Paragraf 6 Absatz 2 RDG",
+      "Paragraf 1 BerHG",
+      "Artikel 3 Absatz 1 und Artikel 20 Absätze 1 und 3 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 06.08.2009, 1 BvR 322/09, Randnummern 7 bis 9",
+        "url": "https://www.bundesverfassungsgericht.de/entscheidungen/rk20090806_1bvr032209.html",
+        "application": "Keine pauschale Verweisung an die Ausgangsbehörde zur Beratung über den Widerspruch gegen ihre Entscheidung.",
+        "limit": "Keine automatische Beratungshilfebewilligung oder Prozessvertretungsbefugnis studentischer Stellen."
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Text im Suchindex einschließlich entscheidender Begründung geprüft; konkrete wirtschaftliche Voraussetzungen bleiben fallabhängig.",
+      "Workflow-Vertiefung 2026-09-23: Anleitungsnorm erneut gelesen; keine tatsächliche Freigabe oder Vertretungsbefugnis einer Einrichtung geprüft. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Mandantenbrief, dringliche Anleitung oder Semesterübergabe anbieten.",
+      "Bestehenden Fall still lesen, nur Beratungs- oder Übergabeziel klären.",
+      "Bestellten Brief oder Übergabevermerk ohne neues Erstinterview schreiben."
+    ],
+    "continuation": "Spätere Übernahme -> Zwischenverantwortung und Rückruf konkret zuweisen; Zahlungsbeleg -> Betrag und Brief korrigieren.",
+    "enrichment": "Abrechnungszuordnung, tatsächlich geprüfte Fassung, zeitlich lückenlose Übergabe und begrenzte externe Übernahmeanfrage.",
+    "limits": "desk review; no live client execution"
+  }
+}

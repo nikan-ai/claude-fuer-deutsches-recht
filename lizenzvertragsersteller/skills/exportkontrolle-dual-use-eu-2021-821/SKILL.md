@@ -1,6 +1,6 @@
 ---
 name: exportkontrolle-dual-use-eu-2021-821
-description: "Wenn es um Exportkontrolle — Dual-Use und Lizenz in Lizenzvertragsersteller geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Exportkontrolle — Dual-Use und Lizenz: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Exportkontrolle — Dual-Use und Lizenz
@@ -41,7 +41,7 @@ description: "Wenn es um Exportkontrolle — Dual-Use und Lizenz in Lizenzvertra
 ## Klausel-Bausteine
 
 **A. Export-Compliance allgemein:**
-> "$ 17 Exportkontrolle.
+> "Paragraf 17 Exportkontrolle.
 > (1) Die Parteien beachten saemtliche anwendbaren exportkontrollrechtlichen Vorschriften, insbesondere die VO (EU) 2021/821 (Dual-Use), das AWG/AWV, die jeweiligen EU-Sanktionsverordnungen sowie - soweit anwendbar - das US-EAR und ITAR.
 > (2) Der Lizenznehmer wird den Lizenzgegenstand und etwaige darin enthaltene Technologie nicht in Sanctioned Countries oder an Sanctioned Persons exportieren, weitergeben, lizenzieren oder bereitstellen."
 

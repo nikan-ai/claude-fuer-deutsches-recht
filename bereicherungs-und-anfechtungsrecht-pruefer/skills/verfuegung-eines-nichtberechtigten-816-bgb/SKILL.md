@@ -1,6 +1,6 @@
 ---
 name: verfuegung-eines-nichtberechtigten-816-bgb
-description: "Wenn es um Verfügung eines Nichtberechtigten — Paragraf 816 BGB in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verfügung eines Nichtberechtigten — Paragraf 816 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verfügung eines Nichtberechtigten — § 816 BGB
@@ -16,14 +16,6 @@ description: "Wenn es um Verfügung eines Nichtberechtigten — Paragraf 816 BGB
 ## Zentrale Normen
 
 § 816 Abs. 1 S. 1 BGB (entgeltliche Verfügung Nichtberechtigter) — § 816 Abs. 1 S. 2 BGB (unentgeltliche Verfügung) — § 816 Abs. 2 BGB (Leistung an Nichtberechtigten) — §§ 932 ff. BGB (gutgläubiger Erwerb) — § 822 BGB (Bereicherung Dritter) — § 812 BGB (Leistungskondiktion, subsidiär) — § 818 BGB (Umfang Herausgabe)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## § 816 Abs. 1 S. 1 BGB — Entgeltliche Verfügung
 
@@ -74,3 +66,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

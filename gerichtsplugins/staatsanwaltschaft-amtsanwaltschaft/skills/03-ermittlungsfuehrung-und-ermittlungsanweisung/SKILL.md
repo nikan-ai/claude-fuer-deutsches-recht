@@ -1,6 +1,6 @@
 ---
 name: 03-ermittlungsfuehrung-und-ermittlungsanweisung
-description: "Wenn es um Ermittlungsführung und Ermittlungsanweisung in Staatsanwaltschaft und Amtsanwaltschaft geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ermittlungsführung und Ermittlungsanweisung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ermittlungsführung und Ermittlungsanweisung
@@ -35,8 +35,8 @@ Dieser Skill macht aus Anzeige, Polizeivorgang oder Aktenvermerk eine sachleiten
 
 ## Leitentscheidungen
 
-- BGH, Beschluss vom 30.07.1999, 1 StR 618/98: Beweiswürdigung muss tragfähig und widerspruchsfrei sein.
-- BGH, Urteil vom 29.07.1998, 1 StR 94/98: Aussage-gegen-Aussage-Konstellationen verlangen besondere Sorgfalt bei Entstehung, Konstanz und Belastungsmotiv.
+- BGH, Urteil vom 30.07.1999 - 1 StR 618/98, BGHSt 45, 164: Wird bei einer entscheidenden Zeugenaussage aussagepsychologische Sachkunde benötigt, muss die Begutachtung hypothesengeleitet vorgehen und alternative Entstehungshypothesen prüfen. Den Anker nicht als allgemeine Beweiswürdigungsformel verwenden.
+- BGH, Urteil vom 29.07.1998 - 1 StR 94/98: Ist der einzige Belastungszeuge in Teilen seiner Aussage widerlegt, darf dem verbleibenden Aussagekern nur bei gewichtigen, außerhalb der Aussage liegenden Gründen gefolgt werden; diese Gründe sind ausdrücklich zu dokumentieren.
 
 ## Arbeitsprodukt
 

@@ -1,6 +1,6 @@
 ---
 name: glaeubiger-schuldner-kommunikation
-description: "Wenn es um Gläubiger-, Schuldner- und Drittschuldnerkommunikation in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gläubiger-, Schuldner- und Drittschuldnerkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Gläubiger-, Schuldner- und Drittschuldnerkommunikation
@@ -72,10 +72,6 @@ Schriftwechsel in der Zwangsverwaltung mit Schuldner Gläubiger Mieter Gericht V
 - § 4 ZwVwV
 - § 16 ZwVwV
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Gläubiger-Schuldner-Kommunikation
 
 § 154 ZVG (Aufsicht durch Gericht) → § 153 Abs. 2 ZVG (Auskunftspflicht) → §§ 13-15 ZwVwV (Buchführung Rechnungslegung) → § 20 ZwVwV (Vergütung und Rechenschaft) → § 242 BGB (Treu und Glauben, Auskunftsanspruch analog)
@@ -113,3 +109,5 @@ Nächster Auszahlungsantrag: [DATUM]
 
 [UNTERSCHRIFT ZWANGSVERWALTER]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

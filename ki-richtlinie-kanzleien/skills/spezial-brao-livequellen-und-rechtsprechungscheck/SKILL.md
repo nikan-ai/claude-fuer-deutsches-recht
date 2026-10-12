@@ -1,6 +1,6 @@
 ---
 name: spezial-brao-livequellen-und-rechtsprechungscheck
-description: "Wenn es um Brao: Livequellen- und Rechtsprechungscheck in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für BRAO: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Brao: Livequellen- und Rechtsprechungscheck
@@ -79,3 +79,4 @@ Eine Kanzleirichtlinie sollte konkrete BRAK-/DAV-Stellungnahmen referenzieren (m
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Paywall-Literatur nur verwerten, wenn sie von der Nutzerin oder dem Nutzer als Text bereitgestellt wurde; dann nicht als frei verifizierte Quelle ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

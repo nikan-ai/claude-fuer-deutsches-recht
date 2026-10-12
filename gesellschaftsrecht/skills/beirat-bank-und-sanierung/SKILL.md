@@ -1,6 +1,6 @@
 ---
 name: beirat-bank-und-sanierung
-description: "Wenn es um Beirat Bank Und Sanierung in Gesellschaftsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Beirat Bank und Sanierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Gesellschaftsrecht."
 ---
 
 # Beirat Bank Und Sanierung
@@ -16,7 +16,6 @@ description: "Wenn es um Beirat Bank Und Sanierung in Gesellschaftsrecht geht: o
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Beirat Bank Und Sanierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -53,7 +52,7 @@ Frage nur nach, wenn es die rechtliche Weiche wirklich verändert:
 | Bankbeitrag | Stundung, Waiver, neues Geld oder Stillhalteabrede? | Beirat muss Anfechtung, Organhaftung und Covenants mitprüfen lassen |
 | StaRUG | Liegt nur drohende Zahlungsunfähigkeit vor? | Bei eingetretener Zahlungsunfähigkeit keine Verzögerung durch Beiratsrunde |
 
-Rechtsprechungsanker: BGH IX ZR 229/22 vom 23.01.2025 und BGH II ZR 139/23 vom 11.03.2025 zur Liquiditätsbilanz; BGH IX ZR 133/14 und BGH IX ZR 143/17 zum qualifizierten Rangrücktritt; BGH II ZR 84/20 zur begrenzten Wirkung weicher Patronatserklärungen.
+Rechtsprechungsanker: BGH IX ZR 229/22 vom 23.01.2025 zur objektiven Zahlungsunfähigkeit, zu streitigen Forderungen und zur Titelpassivierung; ergänzend BGH, Beschluss vom 11.03.2025 - II ZR 139/23 zum materiellen Bestand, ohne ihn als Grundsatzurteil zu behandeln. BGH IX ZR 133/14 und BGH IX ZR 143/17 tragen die Rangrücktrittsprüfung, BGH II ZR 84/20 die begrenzte Wirkung weicher Patronatserklärungen.
 
 ## Arbeitsmodus
 

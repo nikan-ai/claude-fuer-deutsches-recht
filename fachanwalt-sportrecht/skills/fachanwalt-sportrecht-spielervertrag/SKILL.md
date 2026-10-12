@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sportrecht-spielervertrag
-description: "Wenn es um Spielervertrag in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fachanwalt Sportrecht Spielervertrag; Arbeitsfeld: Fachanwalt Sportrecht."
+description: "Für Spielervertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt für Sportrecht. Route: fachanwalt-sportrecht-spielervertrag."
 ---
 
 # Spielervertrag
@@ -40,8 +40,6 @@ description: "Wenn es um Spielervertrag in Fachanwalt Sportrecht geht: prüft Fr
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | CAS 2014/A/3642 | CAS, 2014 | Just cause bei Gehaltsrückständen; zweimonatige Rückstandsdauer |
 | CAS 2019/A/6301 | CAS, 2019 | Art. 17 RSTP-Schadensberechnung; Restwert-Methode |
 
@@ -52,7 +50,6 @@ description: "Wenn es um Spielervertrag in Fachanwalt Sportrecht geht: prüft Fr
 | Schritt | Inhalt | Grundlage |
 |---|---|---|
 | 1 | Vertragstyp identifizieren (Profi, Vertragsspieler, Amateur) | TzBfG, DFB-LOS |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | AGB-Klauselkontrolle: Ausstiegsklausel, Vertragsstrafen §§ 305 ff. BGB | §§ 307 ff. BGB |
 | 4 | Bildrechte und Persönlichkeitsrechte: exklusiv oder nicht? §§ 22 ff. KUG | KUG, Art. 1, 2 GG |
 | 5 | Transferregelungen: FIFA RSTP anwendbar (internationaler Wechsel)? | FIFA RSTP Art. 17 |
@@ -177,7 +174,6 @@ I. Die vereinbarte Befristung ist unwirksam, weil:
 
 1. Sachgrundmangel § 14 Abs. 1 TzBfG: Der Vertrag benennt
    keinen Sachgrund. Die bloße Angabe "befristet" genügt nicht
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 2. [Alternativ: Sachgrund nicht tatsächlich vorhanden; z.B.
    angebliche Eigenart der Arbeitsleistung liegt nicht vor,
@@ -234,7 +230,6 @@ Mit freundlichen Grüßen
 
 | Verein-Argument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Kein just cause — Gehaltsrückstand nur ein Monat" | CAS 2014/A/3642: zwei Monate + förmliche Mahnung; Fristennachweis |
 | "Ausstiegsklausel unwirksam (zu niedrig)" | §§ 307 ff. BGB: Klausel wirksam wenn nicht unangemessen benachteiligend |
 | "Bildrechte exklusiv vertraglich übertragen" | §§ 22 ff. KUG: Einwilligung widerrufbar; Umfang der Übertragung prüfen |
@@ -278,8 +273,4 @@ Mit freundlichen Grüßen
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

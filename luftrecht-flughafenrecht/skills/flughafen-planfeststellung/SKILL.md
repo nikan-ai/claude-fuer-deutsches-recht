@@ -1,6 +1,6 @@
 ---
 name: flughafen-planfeststellung
-description: "Wenn es um Flughafen-Planfeststellung – Genehmigung, UVP und Rechtsschutz in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Flughafen-Planfeststellung – Genehmigung, UVP und Rechtsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Flughafen-Planfeststellung – Genehmigung, UVP und Rechtsschutz
@@ -83,7 +83,7 @@ Für Mandate im Bereich Flughafenbetrieb und Planfeststellung sind folgende Doku
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

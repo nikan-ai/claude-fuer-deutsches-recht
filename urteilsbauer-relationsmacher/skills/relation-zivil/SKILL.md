@@ -1,6 +1,6 @@
 ---
 name: relation-zivil
-description: "Wenn es um Relation Zivilprozess - Vollrelation nach deutschem Standard in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Relation Zivilprozess - Vollrelation nach deutschem Standard: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Relation Zivilprozess - Vollrelation nach deutschem Standard
@@ -42,7 +42,6 @@ Chronologisch neutral ohne Wertung. Verben im Praesens (Die Klägerin behauptet 
 | Rechtsweg | Paragraf 13 GVG |
 | Internationale Zuständigkeit | EuGVVO Artikel 4 ff oder Artikel 7 Nummer 1 b |
 | Örtliche Zuständigkeit | Paragraf 12 ff ZPO |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Streitwert | Paragraf 3 ZPO Paragraf 1 GKG |
 | Partei- und Prozessfähigkeit | Paragraf 50 ff ZPO |
 | Postulationsfähigkeit | Paragraf 78 ZPO Anwaltszwang |

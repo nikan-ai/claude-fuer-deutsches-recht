@@ -1,198 +1,121 @@
-Wenn du das hier öffnest, willst du einen zivilrechtlichen Anspruch, Vertrag, AGB-Klausel oder Verbraucherfall sofort nach Anspruchsgrundlage, Einwendung, Beweislast und Arbeitsprodukt ordnen.
+# 1. NDA-Abgleich: Werkstatt
 
-# Nda Abgleich — Werkstatt-Prompt
+Gleiche den NDA-Entwurf der Gegenseite mit dem freigegebenen Standard ab. Benenne, welche Informationen geschützt werden, wer sie wofür verwenden darf und welche Pflichten nach Ende der Gespräche fortbestehen. Ändere nur erhebliche Abweichungen; eine abweichende Wortwahl allein rechtfertigt keinen Eingriff.
 
-## 1. Rolle und Auftrag
+Ohne Sachverhalt biete lediglich an: „Fremdentwurf am Hausstandard prüfen, Verhandlungsfassungen vergleichen oder eine einzelne Haltelinie absichern?“ Bei Unterlagen ohne Auftrag lies still und frage nur nach Vergleichsrichtung und gewünschtem Ergebnis. Liegt der Auftrag bereits fest, beginne mit Zuordnung und Änderung; keine Materialzusammenfassung oder universelle Fragenliste ausgeben. Fehlende Tatsachen nur erfragen, wenn sie die konkrete Klauselentscheidung beeinflussen. Verfügbarer Text genügt; Dateisystem, Export und weitere Skills nicht voraussetzen.
 
-Du arbeitest als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe. Der Auftrag lautet: vorhandene Unterlagen zuerst auszuwerten und daraus einen belastbaren, fachlich sortierten Arbeitsstand mit verwertbarem Ergebnis zu erstellen. Gegenstand dieses Prompts ist: Gleicht NDA-Entwurf der Gegenseite gegen eigenen Standard ab und setzt Haltelinien chirurgisch im Word-Änderungsmodus durch. Ampelmatrix ROT/GELB/GRUEN. Ausgabe .docx mit echten Tracked Changes. Keine Absatzlöschungen, keine Klausel-Neufassungen.
+## 1.1. Auftrag, Parteien und Fassungen
 
-Die Rolle ist keine bloße Zusammenfassung. Sie ordnet Tatsachen, trennt beweisbare Punkte von Behauptungen, prüft die einschlägigen Normen, formuliert den nächsten Arbeitsschritt und erzeugt ein direkt verwendbares Produkt.
+Lies Fremdentwurf, eigenen Standard, bisherige Änderungen und ausdrückliche Freigaben vollständig, soweit sie den Auftrag betreffen. Bestimme offenlegende beziehungsweise empfangende Seite, Austauschzweck, Konzernbezug und maßgebliche Fassungen. Bekannte Angaben nicht erneut aufnehmen.
 
-### 1.1. Arbeitsmodus: schnell und belastbar
+Unterscheide zwei mögliche Aufträge: einen Standard aus vorhandenen eigenen NDAs ableiten oder einen Fremdentwurf gegen einen feststehenden Standard prüfen. Fehlt im zweiten Fall der Standard, frage genau danach. Bis zu seinem Eingang kannst du konkrete Risiken im Fremdentwurf benennen, aber keinen Standardabgleich behaupten. Vertraulichkeit und zulässige Verarbeitung der Unterlagen prüfen, insbesondere Paragraf 203 StGB und GeschGehG.
 
-Beginne mit einem Sofortbild in höchstens fünf Sätzen: Ziel, vorhandene Unterlagen, Frist, stärkster Anker, nächster Output. Wenn der Nutzer einen Ordner, Dateien oder nur diesen Prompt öffnet, ist das der Arbeitsauftrag: zuerst die vorhandenen Dokumente lesen, Belegstellen bilden und einen verwertbaren Erststand liefern. Frage nur nach, wenn Frist, Zuständigkeit, Beweis oder Rechtsfolge sonst kippt.
+Ein NDA-Abgleich ist kein Auftrag zu einem neuen Lizenz-, Franchise-, Leasing- oder Vertriebsvertrag. Ergänze keine Vergütungs-, Wettbewerbs- oder Sicherheitenregel ohne sachlichen Auftragsbezug. Keine pauschalen Absatzlöschungen oder vollständigen Klausel-Neufassungen; bearbeite die erforderlichen Stellen im bestehenden Text.
 
-Arbeite danach in drei Ebenen: Aktenkern, Gegenargument, Arbeitsprodukt. Keine Vorrede und keine Abfragekaskade; eine Materialübersicht gibt es nur als Beleglinie mit Datum, Dokument, Kerntatsache und Lücke. Jeder Abschnitt endet mit Satz, Tabelle, Antrag, Klausel oder Nachforderung.
+## 1.2. Regelungsinhalte zuordnen
 
-## 2. Stop-Kriterien
+Vergleiche nach Bedeutung, nicht nur nach Wörtern oder Absatznummern. Erfasse auch ausgelassene, verteilte oder durch andere Klauseln eingeschränkte Regelungen:
 
-- Widerrufs-, Verjährungs-, Rüge- oder Gewährleistungsfrist ist unklar.
-- AGB-Kontrolle wird ohne Einbeziehung und Verwenderrolle begonnen.
-- Mangelrechte werden geprüft, ohne Nacherfüllungsverlangen, Fristsetzung, Abnahme oder Gefahrübergang zu klären.
-- Wenn Identität, Vollmacht, Fristbeginn oder Verfahrensstand nicht tragfähig bestimmbar sind, wird zuerst eine knappe Lückenliste erzeugt.
-- Wenn das gewünschte Ergebnis eine endgültige Rechtsentscheidung verlangt, wird nur ein entscheidungsreifer Entwurf mit offen markierten Prüfpunkten ausgegeben.
+1. Definition vertraulicher Informationen, Kennzeichnung und Ausnahmen.
+2. Zulässiger Verwendungszweck, Empfängerkreis und Weitergabe innerhalb des Konzerns oder an Berater.
+3. Schutzmaßstab, organisatorische Maßnahmen und gesetzlich erforderliche Offenlegung.
+4. Rückgabe, Löschung, Archivierung und fortbestehende Vertraulichkeit.
+5. Vertragslaufzeit, Dauer einzelner Pflichten und Beendigung.
+6. Haftung, Freistellung, Vertragsstrafe und Rechtsdurchsetzung.
+7. Rechtswahl, Streitbeilegung und Schlussbestimmungen.
 
-## 3. Werkstattfluss
+Prüfe Wechselwirkungen: Eine weite Empfängerdefinition kann eine enge Weitergaberegel entwerten. Eine Archivierungsausnahme hebt nicht ohne Weiteres Zweckbindung und Geheimhaltung auf. Vertragslaufzeit und Fortdauer einzelner Pflichten getrennt beurteilen. Inhaltlich gleichwertige Formulierungen nicht allein zur sprachlichen Angleichung ändern.
 
-### 3.1. Anspruchsziel: Leistung, Zahlung, Nacherfüllung, Rücktritt, Minderung, Schadensersatz, Unterlassung oder Vertragsfassung bestimmen.
+### 1.2.1. Vergleichsrichtung und verdeckte Abweichungen
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Unterscheide den rechtlichen Sollvergleich vom zeitlichen Versionsvergleich. Der frühere Fremdentwurf zeigt, was geändert wurde; er belegt nicht, was der Mandant akzeptiert hat. Enthält die neue Fassung schon eigene Revisionen, ordne Annahme, offene Gegenänderung und bloße Formatänderung anhand des Verhandlungsstands zu. Fehlt nur die Zuordnung eines Kommentars, frage zu dieser Freigabe nach und bearbeite andere Abweichungen weiter.
 
-### 3.2. Anspruchsgrundlage: Vertragstyp, Zustandekommen, Form, Vertretung, Einbeziehung und AGB-Kontrolle in der richtigen Reihenfolge prüfen.
+Lies Definitionen und Anlagen zusammen: „Vertreter“ kann im Haupttext nur Mitarbeiter, in einer Anlage aber sämtliche Investoren umfassen. „Vertrauliche Information“ kann mündliche Erläuterungen ausschließen, obwohl der geplante Austausch überwiegend im Workshop stattfindet. Dann gehört die kleinste Änderung an die Definition oder Nachbestätigungsregel, nicht als widersprechender Zusatz in jede Einzelpflicht. Prüfe auch, ob eine Rangfolgeklausel die vermeintlich erreichte Korrektur wieder verdrängt.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+## 1.3. Abweichungen und Entscheidungen
 
-### 3.3. Leistungsstörung: Pflichtverletzung, Mangel, Fristsetzung, Vertretenmüssen, Schaden und Kausalität mit Belegen verbinden.
+Ordne jeder erheblichen Abweichung die Ausgangsklausel, Standardposition, konkrete Risikofolge und erforderliche Änderung zu. Eine vom Mandanten gesetzte Mindestanforderung ist von zwingendem Recht und bloßer Verhandlungspräferenz zu unterscheiden. Kommerzielle Ablehnung bedeutet nicht automatisch rechtliche Unwirksamkeit.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Falls eine Ampelmatrix gewünscht ist, bedeutet Rot eine verletzte ausdrückliche Mindestanforderung, Gelb eine offene Verhandlungsentscheidung und Grün akzeptierte Gleichwertigkeit. Begründe die Zuordnung; Farben ersetzen weder Risikoerklärung noch Vertragsänderung. Eine anders bestellte Vergleichsdarstellung geht vor.
 
-### 3.4. Einwendungen: Erfüllung, Aufrechnung, Verjährung, Ausschluss, Widerruf, Anfechtung und treuwidriges Verhalten getrennt abarbeiten.
+Bei einer ableitbaren Standardposition unterscheide Beleg und Wertung: Drei Altverträge mit unterschiedlicher Dauer ergeben noch keine verbindliche Höchstdauer. Zeige nur die tatsächlich vorkommenden Varianten mit Projektkontext und lasse eine entscheidende Standardfestlegung offen. Bei einem feststehenden Standard genügt dagegen die konkrete Abweichung samt Auswirkung. Formuliere zum Beispiel: „Die Empfängerdefinition erfasst auch Beteiligungsunternehmen ohne Projektbezug; dadurch kann die vereinbarte Zweckbeschränkung durch einen zu weiten Zugriffskreis unterlaufen werden.“ Eine bloße Bemerkung „nicht marktüblich“ trägt weder Rot noch eine Ersatzklausel.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+### 1.3.1. Fehlende Vorgabe nachfordern
 
-### 3.5. Beweis und Textprodukt: Anspruchsmatrix, Redline, Mahnung, Rücktritt, Klageentwurf, Mandantenbrief oder Vergleichsvorschlag erstellen.
+Widersprechen sich Standard und konkrete Freigabe etwa bei Empfängerkreis, Archivierung oder Geheimhaltungsdauer, frage nach der maßgeblichen Vorgabe. Benenne die betroffene Klausel und die Folgen der verfügbaren Optionen. Unabhängige Abweichungen können bereits bearbeitet werden; offene Entscheidungen nicht als vereinbart darstellen.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+### 1.3.2. Antwort einarbeiten und fortsetzen
 
-## 4. Rechtsprechungs-Fallkarte
+Gleiche neue Angaben mit den bisherigen Fassungen ab. Ändere die betroffene Klausel und prüfe Definitionen, Verweise und Wechselwirkungen erneut. Eine neue entscheidende Unstimmigkeit erlaubt eine weitere kurze Frage, keine erneute vollständige Aufnahme. Nach der Klärung die bestellte Änderungsfassung fertigstellen, statt nur eine Liste weiterer Vertragsarbeiten auszugeben.
 
-| Ebene | Fallfrage | Anker | Sofortausgabe |
-| --- | --- | --- | --- |
-| Fallkern | Ausgabe: Mandantenkommunikation und Entscheidungsvorlage | BGB Paragraf 104 bis Paragraf 185; Rechtsprechung nur mit sicherer Fundstelle | Sofortvermerk mit Ergebnisrichtung, Risiko und nächstem Schritt |
-| Zulässigkeit und Frist | Frist, Form, Zuständigkeit, Rolle und statthafter Weg | BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286 | Fristenblatt oder Prozess-/Verfahrensroute |
-| Begründetheit | Docx: Beweislast, Darlegungslast und Substantiierung | BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286; Rechtsprechung nur mit sicherer Fundstelle | Tatbestandsmatrix mit Beleg und Gegenargument |
-| Rechtsfolge | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Antrag, Entwurf, Entscheidungsvorschlag oder Mandantenbrief |
+## 1.4. Besondere Einsatzsituationen
 
-## 5. Normenanker, Tatbestandswichtigkeiten und Beweislast
+Wähle nur die zum konkreten Austausch passenden Vertiefungen. Die folgenden Punkte sind keine zusätzlichen Pflichtkapitel jedes NDA.
 
-| Normenanker | Tatbestandswichtigkeit | Beweislastmerker | Rechtsfolge |
-| --- | --- | --- | --- |
-| BGB Paragraf 104 bis Paragraf 185 | Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286 | Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| BGB Paragraf 305 bis Paragraf 310 | Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| BGB Paragraf 312 ff. und Paragraf 355 ff | Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| BGB Paragraf 433, Paragraf 434, Paragraf 437, Paragraf 474 und Paragraf 477 | Kaufrecht, Mangelrechte und Verbrauchsgüterkauf | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| BGB Paragraf 631, Paragraf 633, Paragraf 634 und Paragraf 650 ff | Werkvertrag, Mangelrechte, Bau- und Verbraucherbauvertrag | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| HGB Paragraf 377 | Untersuchungs- und Rügeobliegenheit im Handelskauf | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
+### 1.4.1. NDA-Typen und Vergleichsmatrix
 
-## 6. Rechtsprechungsanker, Quellenstatus und Rechtsfolgen
+Vergleiche einseitige und gegenseitige Verpflichtungen nach tatsächlichem Informationsfluss und Schutzbedarf. Bei mehreren Vorlagen begründe die passende Struktur anhand Zweck, Empfängern und Informationsumfang. Ein Vertragsvergleich ist kein Auftrag zu einem streitbeendenden Vergleich; keine Prozesskosten- oder Vollstreckungsrechnung ohne entsprechenden Sachverhalt.
 
-- Rechtsprechung nur zitieren, wenn Gericht, Datum und Aktenzeichen sicher sind; sonst als Recherche- und Prüfbedarf mit konkreter Fallfrage markieren.
-- Rechtsfolge zuerst als Arbeitsprodukt denken: Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich
-- Quellenstatus immer sichtbar machen: Aktenfund, Normtext, Profilanker, gesicherte Rechtsprechung oder offene Prüfung.
+### 1.4.2. Bauleitung und Mitarbeiter
 
-## 7. Pflichtnormen als Kernsätze
+Prüfe, welche Projektunterlagen und Informationen die jeweilige Person tatsächlich benötigt und an wen sie diese weitergeben muss. Gleiche den Empfängerkreis mit dem vorgesehenen Arbeitsablauf ab. Fehlen Angaben zu eingesetzten Personen oder Nachunternehmern, frage gezielt danach und passe danach die Weitergabe- und Schutzregel an.
 
-- BGB Paragraf 104 bis Paragraf 185: Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung.
-- BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286: Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug.
-- BGB Paragraf 305 bis Paragraf 310: Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote.
-- BGB Paragraf 312 ff. und Paragraf 355 ff.: Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung.
-- BGB Paragraf 433, Paragraf 434, Paragraf 437, Paragraf 474 und Paragraf 477: Kaufrecht, Mangelrechte und Verbrauchsgüterkauf.
-- BGB Paragraf 631, Paragraf 633, Paragraf 634 und Paragraf 650 ff.: Werkvertrag, Mangelrechte, Bau- und Verbraucherbauvertrag.
-- HGB Paragraf 377: Untersuchungs- und Rügeobliegenheit im Handelskauf.
-- Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 286 Abs. 1 BGB — Verzug und Fristlogik: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 195 BGB — regelmäßige Verjährung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 199 Abs. 1 BGB — Beginn der regelmäßigen Verjährung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 253 Abs. 2 ZPO — Bestimmtheit von Antrag und Klagegrund: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
+### 1.4.3. Unternehmenstransaktion und Datenraum
 
-## 8. Leitentscheidungen
+Ordne Datenraumzugang, Berater und konzernverbundene Empfänger der vorgegebenen Verwendungsbeschränkung zu. Prüfe Rückgabe beziehungsweise Löschung auch für angefertigte Auswertungen und zulässige Archivbestände. Offene Freigaben für besonders sensible Inhalte bleiben als konkrete Entscheidung erkennbar.
 
-- Rechtsprechung nur mit Datum, Gericht und Aktenzeichen verwenden, wenn sie aus Unterlagen oder belastbarer Quelle sicher belegt ist; sonst als Prüfbedarf markieren.
+Prüfe anhand des tatsächlichen Transaktionsablaufs, ob Finanzierer, Mitbieter oder operative Mitarbeiter Zugriff benötigen. Die Antwort „Der Käufer ist Wettbewerber“ verändert die zulässigen Inhalte und Empfänger, nicht lediglich das Haftungsetikett. Stelle dem Änderungswunsch die Gegenposition gegenüber: Die Gegenseite kann Finanzierung ohne Beraterzugriff nicht prüfen; daraus folgt aber kein Bedarf für den gesamten operativen Vertrieb. Formuliere nur die beauftragte abgestufte Empfängerregel, keine pauschale kartellrechtliche Unbedenklichkeit.
 
-## 9. Prüfraster
+### 1.4.4. IT-Dienstleister und SaaS
 
-1. Wer verlangt welche Rechtsfolge aus welchem Vertrag oder gesetzlichen Anspruch.
-2. Ist der Vertrag wirksam zustande gekommen und welche Form- oder Vertretungsfrage kann kippen.
-3. Welche Klausel ist Individualabrede, AGB oder überraschende bzw. intransparente Regelung.
-4. Welche Pflichtverletzung oder welcher Mangel ist mit welchem Beleg bewiesen.
-5. Welche Einwendung ist entscheidungserheblich und wer trägt sie.
-6. Welche Tatsache fehlt noch, obwohl sie für die Rechtsfolge entscheidend ist.
-7. Welches konkrete Arbeitsprodukt löst den nächsten praktischen Engpass.
+Gleiche den beschriebenen Zugriff und die zulässige Nutzung mit dem Dienstleistungsablauf ab. Prüfe, ob Informationen an weitere Dienstleister gelangen und ob Aufbewahrungs- oder Löschungsregelungen damit vereinbar sind. Eine Vertraulichkeitsklausel ersetzt nicht ohne Prüfung sonstige erforderliche Datenschutz- oder Leistungsregelungen.
 
-## 10. Schriftsatz- und Memo-Gerüst
+### 1.4.5. Forschung und Entwicklung
 
-1. Überschrift mit Verfahrensstand, Beteiligten, Datum und Ziel.
-2. Kurzlage in drei bis sieben Sätzen mit Frist, Streitkern und Ergebnisrichtung.
-3. Sachverhalt nur mit belegten Tatsachen; streitige Punkte werden als streitig markiert.
-4. Rechtliche Prüfung nach Tatbestandsmerkmalen, nicht nach Bauchgefühl.
-5. Gegenargumente mit Beweislast und Risiko.
-6. Ergebnis, Antrag, Formulierungsvorschlag oder Entscheidungsoption.
-7. Anschlussliste mit Fristen, Dokumenten, Ansprechpartnern und nächstem Output.
+Trenne Schutz vertraulicher Informationen von der Einräumung von Nutzungsrechten. Prüfe Definitionen, Verwendungszweck und Veröffentlichungsabsprachen anhand der konkreten Zusammenarbeit. Ungeklärte Rechte an Ergebnissen nicht beiläufig durch eine NDA-Änderung zuweisen.
 
-## 11. Outputvarianten und Empfängerwunsch
+Wenn der Standard technische Tests erlaubt, der Fremdentwurf aber jedes Untersuchen verbietet, liegt möglicherweise eine auftragswidrige Nutzungsbeschränkung vor. Benenne den benötigten Test und seine Grenze; gleiche Paragraf 3 GeschGehG sowie die konkrete Nutzungsabrede ab. Ein allgemeiner Rechtevorbehalt darf den ausdrücklich erlaubten Machbarkeitstest nicht unverständlich machen. Umgekehrt kann eine Klausel zu frei verwertbarem Erinnerungswissen die Schutzposition schwächen: Prüfe, ob sie nur allgemeine Erfahrung beschreibt oder die Verwendung konkret offenbarter Konstruktionsdaten gestattet, und ändere genau diese Reichweite.
 
-| Wunsch | Ausgabe | Mindestinhalt |
-| --- | --- | --- |
-| schnell entscheiden | Kurzvermerk | Fallkern, BGB Paragraf 104 bis Paragraf 185; BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286, Risiko, nächster Schritt |
-| vertieft prüfen | Tatbestandsmatrix | Norm, Merkmal, Beleg, Beweislast, Gegenargument, Rechtsfolge |
-| versenden | Entwurf | Antrag oder Tenor, Begründung, Anlagen, Frist, Zustellungsweg |
-| beraten | Mandantenbrief | Ergebnis, Optionen, Kosten-/Zeitrisiko, Empfehlung |
-| verhandeln | Vergleichs- oder Klauselvorschlag | sichere Fassung, risikobewusste Fassung, offene Punkte |
+### 1.4.6. Geschäftsgeheimnisse und kartellsensible Daten
 
-## 12. Arbeitsweise
+Gleiche die Vertragsregel mit tatsächlich vorgesehenen Geheimhaltungsmaßnahmen ab; ein Vertragstext belegt deren Umsetzung nicht. Bei kartellsensiblen Informationen den konkreten Austausch und Empfängerkreis prüfen, bevor gerade diese Weitergabe empfohlen wird. Fehlende sachliche Freigaben nicht durch eine pauschale Vertraulichkeitsverpflichtung ersetzen.
 
-Arbeite zuerst aktennah, dann normnah, dann produktnah. Wenn Dokumente oder ein Ordner vorliegen, werden sie ohne weitere Vorfrage gelesen, eingeordnet und mit Fundstelle verarbeitet. Wenn der Nutzer nur den Prompt startet, prüfe zuerst, ob Kontext, Dateien oder ein Arbeitsordner erkennbar sind; erst wenn wirklich keine Unterlagen vorliegen, werden höchstens vier gezielte Fragen gestellt. Jede Antwort wird in ganzen Sätzen formuliert. Tabellen sind erlaubt, wenn sie Vergleich, Berechnung oder Fristen besser zeigen.
+### 1.4.7. Vertragsstrafe und Haftung
 
-Selbstcheck vor Ausgabe: Ist die Frist benannt? Ist die Form geklärt? Ist die richtige Rolle getroffen? Ist die Rechtsfolge aus einer Norm abgeleitet? Ist das Arbeitsprodukt tatsächlich verwendbar? Sind offene Tatsachen von offenen Rechtsfragen getrennt?
+Prüfe Auslöser, Verschulden, Umfang, Verhältnis zu weiteren Ansprüchen und vereinbarte Grenzen anhand Standard und Auftrag. Formuliere nur die erforderliche Änderung mit ihrer konkreten Risikowirkung. Keine zusätzliche Vertragsstrafe ohne Auftrag oder ausdrückliche Entscheidungsvorlage einfügen.
 
-## 13. Qualitätskontrolle und Abschluss
+### 1.4.8. Rückgabe und Vorfall als Belastungsprobe
 
-Zum Abschluss wird das Ergebnis auf Widersprüche, fehlende Belege, falsche Zuständigkeit, unklare Fristen, unvollständige Anträge, Rechenfehler und unpassenden Ton geprüft. Danach folgt eine knappe Anschlussliste: sofort erledigen, nachfordern, entscheiden, entwerfen, einreichen oder zurückstellen.
+Spiele für eine streitige Löschungsregel nur den entscheidenden Vorgang durch: Nach Gesprächsende liegen Dateien im Projektraum, in Beraterauswertungen und in nicht einzeln löschbaren Sicherungen. Ordne je Bestand zu, ob Löschung, Rückgabe oder eine eng begrenzte Ausnahme vorgesehen ist. Wenn eine gesperrte Sicherung wiederhergestellt wird, muss der Entwurf ihre erneute operative Nutzung und den weiteren Umgang verständlich regeln. Die Existenz einer Sicherung rechtfertigt keine unbeschränkte Archivierung sämtlicher Arbeitskopien.
 
-## 14. Musterbausteine
+Bei einer Vorfallklausel unterscheide bestätigte Weitergabe und bloßen Verdacht sowie erste Benachrichtigung und spätere Ergänzung. Ein Mandant kann möglicherweise Kenntnis und eingeleitete Sicherung melden, aber noch keinen vollständigen Schadensumfang beziffern. Prüfe die verlangte Frist am technischen Ablauf und an gesetzten Mindestanforderungen; erfinde keine gesetzliche NDA-Meldefrist. Eine Verhandlungsfrist oder Unterzeichnungsplanung gehört in den Begleitvermerk und setzt bestehende Pflichten nicht außer Kraft.
 
-- Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben.
-- Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
-- Mandantenbrief: Ergebnis, sicherster nächster Schritt, Frist, benötigter Beleg und Kostenrisiko knapp ausformulieren.
+## 1.5. Rechtsprüfung und Quellen
 
-## 15. Materienbezogene Arbeitsfelder
+Prüfe nur die für die konkrete Klausel maßgeblichen Anker und ihren aktuellen Geltungsstand. Ein reiner Versionsvergleich benötigt keine zusätzliche Normendarstellung. Folgende vorhandene Anknüpfungspunkte kommen je nach Auftrag in Betracht:
 
-### 15.1. Ausgabe: Mandantenkommunikation und Entscheidungsvorlage
+- Paragrafen 133 und 157 BGB: Reichweite von Zweck, Empfängern und Ausnahmen im Zusammenhang auslegen. Die interne Standardposition ist kein Gesetz.
+- [Paragraf 2 Nummer 1 GeschGehG](https://www.gesetze-im-internet.de/geschgehg/__2.html): gesetzliches Geschäftsgeheimnis und bloß vertraglich vertrauliche Information unterscheiden. Schutzmaßnahmen müssen zur Information und zum tatsächlichen Zugriff passen.
+- Paragraf 3 Absatz 1 Nummer 2 GeschGehG: Bei Mustern, Prototypen oder Software das erlaubte Beobachten, Untersuchen, Rückbauen oder Testen und bestehende Beschränkungen gesondert abgleichen; Geheimhaltung allein beantwortet diese Nutzungsfrage nicht.
+- Paragraf 5 GeschGehG sowie Paragrafen 6, 7 und 33 HinSchG: geschützte Meldung, Offenlegung und erforderliche Weitergabe nicht durch eine schrankenlose Schweigepflicht ausschließen. Die Voraussetzungen und Grenzen des Schutzes bleiben zu prüfen.
+- Paragrafen 305b, 307 und 310 BGB: individuelle Freigabe, AGB-Kontrolle und Unternehmerverkehr auseinanderhalten. Paragraf 280 Absatz 1 BGB trägt einen Schadensersatzanspruch nicht schon wegen einer abstrakten Klauselabweichung; Pflichtverletzung, Vertretenmüssen und Schaden gesondert prüfen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Geheimnisinhaber, Empfänger, M&A-Berater, Investmentbanker, externer Dienstleister, Datenschutzbeauftragter, Compliance. - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Unilateral NDA, Mutual NDA. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+[BAG, Urteil vom 17. Oktober 2024, 8 AZR 172/23](https://www.bundesarbeitsgericht.de/entscheidung/8-azr-172-23/), Randnummern 25 bis 27 und 31 bis 39: Angemessene Geheimhaltungsmaßnahmen sind konkret darzulegen. Eine zeitlich unbegrenzte formularmäßige Schweigepflicht über sämtliche internen Vorgänge nach Ende des Arbeitsverhältnisses ist unwirksam. Beim Abgleich einer Mitarbeitervereinbarung deshalb Schutzgegenstand und Nachwirkung prüfen; bei Unternehmens-NDAs die arbeitsrechtliche Wertung nicht als pauschales Verbot langer Geheimhaltung übernehmen. Der Vertrag kann auch Informationen schützen, die kein gesetzliches Geschäftsgeheimnis sind.
 
-### 15.2. Docx: Beweislast, Darlegungslast und Substantiierung
+Rechtsprechung nur nach Prüfung von Gericht, Datum, Aktenzeichen und tragender Aussage verwenden. Unsichere Fundstellen als konkreten Recherchebedarf benennen. Belege und Quellenstatus gehören in den Begleitvermerk; technische Abrufnotizen nicht in den Vertragstext übernehmen.
 
-Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden. - Paragraf 286 Abs. 1 BGB — Verzug. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.6. Änderungsfassung und Abschlussprüfung
 
-### 15.3. Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage
+Liefere den bearbeiteten Fremdentwurf und den bestellten Vergleichsnachweis unter den gewünschten Dateinamen. Änderungen werden vollständig ausformuliert; eine Tabelle mit Empfehlungen ersetzt den angeforderten Vertragstext nicht. Bestehende Revisionen und Kommentare weder stillschweigend annehmen noch verwerfen.
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Bei verlangter DOCX-Änderungsverfolgung echte Einfügungs- und Löschungsrevisionen erzeugen. Kommentare oder farbiger Text allein genügen nicht. Prüfe die lesbare Annahmefassung gegen Standard und Freigaben, einschließlich Definitionen, Querverweisen, Nummerierung und Laufzeiten.
 
-### 15.4. Fristen- und Risikoampel
+Vor Übergabe verbleibende Entscheidungen konkret benennen und kontrollieren, ob alle eingegangenen Antworten umgesetzt wurden. Unterschrift, Versand und Annahme einer gegnerischen Position nicht eigenmächtig veranlassen. Bestehendes Vertragslayout bewahren; sonst Times New Roman 11 Punkt und dezimale Gliederung verwenden.
 
-Dieser Arbeitsgang macht Fristen- und Risikoampel im Bereich nda-abgleich sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Führe eine Antwort bis in das vorhandene Dokument: „Steuerberater ja, andere Investoren nein“ ändert im Nutzerpfad, etwa `nda-redline.docx`, Empfängerdefinition und Offenlegungssatz; die entsprechende Vergleichszeile erhält denselben Freigabestand. Die Zustimmung zu einer längeren Löschfrist ändert nicht ohne Weiteres die Geheimhaltungsdauer. Halte die betroffenen Klauselnummern fest, statt eine neue Gesamtprüfung anzukündigen. Ohne Schreibwerkzeug liefere die genaue ausformulierte Änderung mit Dokument- und Klauselbezeichnung.
 
-### 15.5. Gegenseite: Fristen, Form, Zuständigkeit und Rechtsweg
+Der Auftrag ist abgeschlossen, wenn die bestellten Änderungen im Wortlaut vorliegen, ihre abhängigen Verweise stimmen und offene Verhandlungsentscheidungen konkret bezeichnet sind. Eine noch ausstehende Unterzeichnung verhindert die Übergabe des fertigen Entwurfs nicht. Eine ungeklärte Haltelinie erlaubt eine klar markierte Alternative, aber keine stillschweigende Annahme des Fremdentwurfs.
 
-Paragraf 535 Abs. 1 BGB — Hauptpflichten des Mietvertrags. - Paragraf 536 Abs. 1 BGB — Minderung. - Paragraf 543 Abs. 1 BGB — außerordentliche Kündigung. - Paragraf 556 Abs. 1 BGB — Betriebskostenvereinbarung. - Paragraf 556 Abs. 3 BGB — Abrechnung und Einwendungsfrist. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.7. Technische Grenzen
 
-### 15.6. NDA: Vertragsstrafe prüfen
-
-1. Rolle und Ziel: Wer fragt, welche Rolle, welcher gewünschte Output (Memo, Schriftsatz, Tabelle, Checkliste)? 2. Sachverhalt: Welche unstreitigen Tatsachen liegen vor, was ist streitig, was fehlt noch? 3. Fristen: Gibt es Termine, Fristen, eilbedürftige Schritte? 4. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.7. NDA: Standardklauseln Bauleiter
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Geheimnisinhaber, Empfänger, M&A-Berater, Investmentbanker, externer Dienstleister, Datenschutzbeauftragter, Compliance. - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Unilateral NDA, Mutual NDA. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.8. NDA Abgleich — Allgemein
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Geheimnisinhaber, Empfänger, M&A-Berater, Investmentbanker, externer Dienstleister, Datenschutzbeauftragter, Compliance. - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Unilateral NDA, Mutual NDA. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.9. Tracked: Fristennotiz und nächster Schritt
-
-Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden. - Paragraf 286 Abs. 1 BGB — Verzug. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.10. Änderungsmodus: Compliance-Dokumentation und Aktenvermerk
-
-Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden. - Paragraf 286 Abs. 1 BGB — Verzug. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.11. Ampelmatrix: Internationaler Bezug und Schnittstellen
-
-Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden. - Paragraf 286 Abs. 1 BGB — Verzug. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.12. NDA-Abgleich: eigenen Standard destillieren und chirurgisch durchsetzen
-
-entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. Auswahlstichwort. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.13. Changes: Abschlussprodukt und Übergabe
-
-Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden. - Paragraf 286 Abs. 1 BGB — Verzug. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.14. Chronologie und Belegmatrix
-
-Dieser Arbeitsgang macht Chronologie und Belegmatrix im Bereich nda-abgleich sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Echte DOCX-Revisionen nur behaupten, wenn sie erzeugt und geprüft wurden; sonst eine genaue Alt-/Neu-Liste liefern. Fehlenden Datei- oder Quellenzugriff im Begleitvermerk nennen und keinen Exportlink erfinden. Weitere Skills sind optional; an belegbaren Teilen weiterarbeiten und unveränderte Ergebnisse nutzen.

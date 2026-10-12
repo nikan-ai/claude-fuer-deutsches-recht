@@ -1,6 +1,6 @@
 ---
 name: sanktionen-mandatsannahme-steuerliche
-description: "Wenn es um Sanktionen Mandatsannahme Steuerliche in Berufsrecht Anwälte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sanktionen Mandatsannahme Steuerliche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Anwälte: sanktionen und mandatsannahme - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

@@ -1,6 +1,6 @@
 ---
 name: drv-sozialversicherungspruefung
-description: "Wenn es um DRV-Sozialversicherungsprüfung — Steuerberater-Begleitung in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DRV-Sozialversicherungsprüfung — Steuerberater-Begleitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # DRV-Sozialversicherungsprüfung — Steuerberater-Begleitung
@@ -37,10 +37,6 @@ description: "Wenn es um DRV-Sozialversicherungsprüfung — Steuerberater-Begle
 - **§ 8 Abs. 1 Nr. 1 SGB IV** — Mini-Job-Grenze (538 EUR seit 1.10.2022; dynamisch an Mindestlohn).
 - **§ 22 SGB IV** — Verjährung Beitragsforderung: vier Jahre (regelmäßig); 30 Jahre bei Vorsatz.
 
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Prüfungs-Schwerpunkte 2026
 
 ### Schwerpunkt 1 — Statusfeststellung
@@ -57,7 +53,6 @@ Folge bei Umqualifizierung: Nachzahlung Beiträge **rückwirkend bis 4 Jahre** (
 
 ### Schwerpunkt 2 — GmbH-Geschäftsführer (SV-Status)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Gesellschafter-GF** mit Mehrheit oder Sperrminorität: regelmäßig **selbständig** → SV-frei.
 - Bei Unklarheit: **Statusfeststellungsverfahren** § 7a SGB IV bei DRV-Clearingstelle (verbindliche Klärung).
 
@@ -122,15 +117,10 @@ Folge bei Umqualifizierung: Nachzahlung Beiträge **rückwirkend bis 4 Jahre** (
 ## StB-Eigene Haftungsvermeidung
 
 - StB ist **kein anwaltlicher Berater** zu § 266a StGB — bei Vorenthaltungs-Verdacht **anwaltliche Beratung empfehlen**.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Dokumentation** aller Hinweise an Mandantenleitung.
 
 ## Quellen und Updates
 
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-<!-- AUDIT 27.05.2026 bundle_044
- → Leitsatz korrigiert zu echtem Inhalt (Scheinselbständigkeit Physiotherapeutin)
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

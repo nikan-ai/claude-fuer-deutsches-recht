@@ -1,6 +1,6 @@
 ---
 name: kueschk-annahmeverzug-loehne-anrechnung-zwischenverdienst
-description: "Wenn es um Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG in Arbeitsrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG
@@ -8,7 +8,7 @@ description: "Wenn es um Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 1
 
 ## Arbeitsbereich
 
-**Kueschk Annahmeverzug Lohnsteuer** ordnet den Fall über die tragenden Prüfungslinien: Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG, Beurteilt den sozialversicherungsrechtlichen Status, Paragraf 7a. Arbeite zuerst die tragende Rechtsfrage heraus; Nebenaspekte werden nur verarbeitet, soweit sie Frist, Zuständigkeit, Beweislast oder das konkrete Arbeitsprodukt tatsächlich beeinflussen.
+**Annahmeverzug nach einer Kündigung** wird über Angebot oder Entbehrlichkeit, Leistungsfähigkeit, Leistungswillen, Vergütung und Anrechnung nach Paragrafen 293 bis 297 und 615 BGB sowie Paragraf 11 KSchG geprüft. Zwischenverdienst, böswillig unterlassener Erwerb, Auskunft, Steuer und Sozialversicherung werden getrennt ausgewiesen, damit Bruttoantrag, Beweisangebot und Abrechnung nicht vermischt werden.
 
 ## Arbeitsweg
 
@@ -24,8 +24,6 @@ description: "Wenn es um Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 1
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Annahmeverzugslöhne und Zwischenverdienst` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -46,10 +44,6 @@ description: "Wenn es um Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 1
 - Paragraf 11 Nr. 3 KSchG — kein Übergang von ALG-I-Zahlungen (Paragraf 115 SGB X)
 - Paragraf 615 Satz 2 BGB — anderweitiger Erwerb: Arbeitnehmer muss sich anrechnen lassen
 - Paragraf 297 BGB — Annahmeverzug entfällt wenn Arbeitnehmer nicht leistungsfähig/-willig
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Annahmeverzug Paragraf 615 BGB
 
@@ -75,7 +69,6 @@ Nach Paragraf 11 Nr. 1 KSchG muss sich der Arbeitnehmer auf den Annahmeverzugslo
 
 Arbeitnehmer muss sich auch dasjenige anrechnen lassen, was er **böswillig** nicht verdient hat.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Berechnung (Beispiel)
 
@@ -124,3 +117,5 @@ Hinweis: Annahmeverzugslöhne sind lohnsteuerpflichtig (keine Fünftel-Regelung)
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

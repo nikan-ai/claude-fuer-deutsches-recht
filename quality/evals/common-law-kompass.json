@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "plugin": "common-law-kompass",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part31",
+      "checked_on": "2026-09-14",
+      "supports": "Rules 31.2, 31.3, 31.6 bis 31.8 und 31.19: Existenzoffenlegung, Einsicht, Dokumentenkategorien, Suche, Kontrolle und Zurückhaltungsverfahren."
+    },
+    {
+      "url": "https://supremecourt.uk/uploads/uksc_2015_0212_judgment_bd11dce464.pdf",
+      "checked_on": "2026-09-22",
+      "supports": "Vertragswortlaut und Kontext bei konkurrierenden Lesarten zusammen prüfen. Grenze: Englische Vertragsauslegung; kein US-weiter Rechtssatz und keine Korrektur bloß unvorteilhafter Verträge. US-Einzelstaatsrecht und konkrete Disclosure-Anordnung bleiben fallabhängig zu ermitteln."
+    },
+    {
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part31",
+      "checked_on": "2026-09-23",
+      "supports": "Erneut sichtbarer amtlicher Abschnitt bis CPR 31.7: Disclosure, Einsicht und Standard-Disclosure einschließlich nachteiliger Dokumente sowie angemessener Suche; übrige Teilregeln nicht als heute vollständig erneut gelesen ausgewiesen."
+    },
+    {
+      "url": "https://supremecourt.uk/uploads/uksc_2015_0212_judgment_bd11dce464.pdf",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 9–16. Wortlaut und Vertragskontext für SPA-Freistellung zusammen auslegen; Gewicht abhängig von Vertrag/Gestaltung. Grenze: Kein spezieller Entire-Agreement-/Misrepresentation-Anker."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Vertragspflicht und maßgebliche Jurisdiktion vor allgemeiner Begriffslehre; funktionsbezogene Vertragsauslegung und konkretes Disclosure-Regime. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert.",
+    "changes": [
+      "Vertragspflicht und maßgebliche Jurisdiktion vor allgemeiner Begriffslehre; funktionsbezogene Vertragsauslegung und konkretes Disclosure-Regime.",
+      "Vertragswortlaut und Kontext bei konkurrierenden Lesarten zusammen prüfen. Grenze: Englische Vertragsauslegung; kein US-weiter Rechtssatz und keine Korrektur bloß unvorteilhafter Verträge.",
+      "Leer: Klauselüberarbeitung, zweisprachige Risikoklärung oder Disclosure. Dateien: still lesen und jurisdiktionsgerechtes Produkt anbieten. Klar: direkt bestellte Klausel, Erklärung oder Dokumentenplan erstellen.",
+      "Nur Drittansprüche ändert Auslöser und beide Sprachfassungen; nachteilige Mail ändert Disclosure-Liste statt selektiver Entfernung."
+    ],
+    "sha256": "e31f104de0bc2f850c401db35719e980eb58561211e35eb050a027324f39da5a"
+  },
+  "selection": {
+    "positive": [
+      "Erklären Sie für unseren englischen Prozess, welche Dokumente unter angeordnete standard disclosure fallen.",
+      "Überarbeiten Sie eine Indemnity-Klausel unter dem ausdrücklich vereinbarten Recht von England und Wales mit deutscher Erläuterung."
+    ],
+    "negative": [
+      "Prüfen Sie ausschließlich deutsche Einkaufs-AGB ohne Auslandsbezug.",
+      "Übersetzen Sie einen englischen Reisebericht ohne rechtliche Begriffe oder Rechtsfrage."
+    ]
+  },
+  "cases": [
+    {
+      "id": "englische-standard-disclosure-dokumente",
+      "request": "Unsere Gesellschaft ist Beklagte in einem County-Court-Verfahren in England und Wales. Das Gericht hat standard disclosure nach CPR Part 31 angeordnet; es gilt kein Sonderregime der Business and Property Courts. Wir kontrollieren drei Dokumente: D1 ist ein unterschriebener Lieferschein, auf den wir uns stützen. D2 ist eine interne Produktionsmail, die einen verspäteten Versand bestätigt und unserer bisherigen Darstellung widerspricht; sie enthält keine Rechtsberatung. D3 ist eine vertrauliche anwaltliche Beratungsmail an die Geschäftsführung, zu der unser englischer Rechtsbeistand einen möglichen Privilegierungsschutz gesondert prüft. Die Geschäftsführung möchte nur D1 aufführen und D2 sowie D3 unerwähnt lassen. Erstellen Sie eine deutsche Handlungsempfehlung mit Dokumententabelle für die Abstimmung mit dem englischen Rechtsbeistand; senden Sie keine Dokumente und entscheiden Sie den noch offenen Schutz von D3 nicht endgültig.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "D2 wird trotz nachteiligen Inhalts in die Prüfung der Offenlegungspflicht aufgenommen; die Empfehlung erlaubt keine selektive Beschränkung auf D1.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Ergebnis unterscheidet Angabe der Existenz von Einsichtnahme und behandelt den möglichen Schutz von D3 als zu prüfenden Zurückhaltungsgrund statt als automatische Erlaubnis, die Existenz zu verschweigen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Empfehlung bleibt bei dem angeordneten englischen Verfahren, erfindet weder US-amerikanische Discovery-Fristen noch endgültige Privilegierung von D3 und sieht die abgestimmte Prüfung vor Übermittlung vor.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "discovery-zahlen-schwellen-und-berechnung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vertragspflicht und maßgebliche Jurisdiktion vor allgemeiner Begriffslehre; funktionsbezogene Vertragsauslegung und konkretes Disclosure-Regime. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen.",
+    "changes": [
+      "Vertragspflicht und maßgebliche Jurisdiktion vor allgemeiner Begriffslehre; funktionsbezogene Vertragsauslegung und konkretes Disclosure-Regime.",
+      "Vertragswortlaut und Kontext bei konkurrierenden Lesarten zusammen prüfen. Grenze: Englische Vertragsauslegung; kein US-weiter Rechtssatz und keine Korrektur bloß unvorteilhafter Verträge.",
+      "Rechtswahlwechsel, Indemnity-Auslöser, Haftungsgrenze, Privilege-Prüfung, kontrollierte Suche und anordnungsbezogene Fristen vertieft.",
+      "Nur Drittansprüche ändert Auslöser und beide Sprachfassungen; nachteilige Mail ändert Disclosure-Liste statt selektiver Entfernung."
+    ],
+    "sha256": "3644ad13eb20d7ad439bbfffb1c9f47a29daf4e9bb1d16bccf9f2b6e9e5f9648"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Klauselüberarbeitung, zweisprachige Risikoklärung oder Disclosure.",
+      "Dateien: still lesen und jurisdiktionsgerechtes Produkt anbieten.",
+      "Klar: direkt bestellte Klausel, Erklärung oder Dokumentenplan erstellen."
+    ],
+    "continuation": "Nur Drittansprüche ändert Auslöser und beide Sprachfassungen; nachteilige Mail ändert Disclosure-Liste statt selektiver Entfernung.",
+    "enrichment": "Rechtswahlwechsel, Indemnity-Auslöser, Haftungsgrenze, Privilege-Prüfung, kontrollierte Suche und anordnungsbezogene Fristen vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "common-law-kompass/common-law-kompass-werkstatt.md",
+      "common-law-kompass/common-law-kompass-schnellstart.md"
+    ],
+    "opening_change": "Vertragspflicht und maßgebliche Jurisdiktion vor allgemeiner Begriffslehre; funktionsbezogene Vertragsauslegung und konkretes Disclosure-Regime.",
+    "norms": [
+      "Misrepresentation Act 1967 section 3",
+      "Unfair Contract Terms Act 1977 section 11",
+      "CPR 31.6 bis 31.8",
+      "PD 57AD Absätze 1.2 bis 1.8"
+    ],
+    "decisions": [
+      {
+        "citation": "UK Supreme Court, Urteil vom 29.03.2017 – Wood v Capita, [2017] UKSC 24, Kopf, Rn. 9–16",
+        "url": "https://supremecourt.uk/uploads/uksc_2015_0212_judgment_bd11dce464.pdf",
+        "application": "Wortlaut und Vertragskontext für SPA-Freistellung zusammen auslegen; Gewicht abhängig von Vertrag/Gestaltung.",
+        "limit": "Kein spezieller Entire-Agreement-/Misrepresentation-Anker.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "US-Einzelstaatsrecht und konkrete Disclosure-Anordnung bleiben fallabhängig zu ermitteln.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet. Erneute CPR-Lektüre nur bis zum sichtbaren Abschnitt 31.7; 31.8, 31.19 und PD 57AD nicht als heute voll geprüft dargestellt. Historische Wood-Einordnung bleibt England und Wales zugeordnet."
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "common-law-kompass/skills/ma-commercial-drafting/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

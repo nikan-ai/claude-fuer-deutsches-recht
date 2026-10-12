@@ -1,6 +1,6 @@
 ---
 name: sozialer-humanoider-roboter
-description: "Wenn es um Sozialer humanoider Roboter in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sozialer humanoider Roboter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sozialer humanoider Roboter
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft soziale/humanoide Roboter: Vertrauen, Anthropomorphisierung, Manipulation, Kinder, Pflege, Transparenz und Datenschutz.**
 
 Quellen-/Normenanker: KI-VO Art. 5/50; DSGVO; Produktsicherheit; Verbraucherschutz.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

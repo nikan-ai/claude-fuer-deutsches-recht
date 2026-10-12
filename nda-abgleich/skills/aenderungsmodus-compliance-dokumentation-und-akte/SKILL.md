@@ -1,6 +1,6 @@
 ---
 name: aenderungsmodus-compliance-dokumentation-und-akte
-description: "Wenn es um Änderungsmodus: Compliance-Dokumentation und Aktenvermerk in NDA-Abgleich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Änderungsmodus: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: NDA-Abgleich. Route: aenderungsmodus-compliance-dokumentation-und-akte."
 ---
 
 # Änderungsmodus: Compliance-Dokumentation und Aktenvermerk
@@ -32,23 +32,6 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
-## Normen und Rechtsprechung
+## Vertiefung bei Bedarf
 
-### Kuratierte Normen-Bibliothek
-
-- Art. 28 DSGVO
-- § 17 GeschGehG
-- § 203 StGB
-- § 16-20 GeschGehG
-- § 5 GeschGehG
-- § 2 GeschGehG
-- § 4 GeschGehG
-- § 6 GeschGehG
-- § 9 GeschGehG
-- § 6a ArbGG
-- § 50 GwG
-- Art. 17 DSGVO
-
-### Leitentscheidungen
-
-- EuGH C-435/22
+- Bei `spezial-aenderungsmodus-compliance-dokumentation-und-akte` beziehungsweise Aenderungsmodus: Compliance-Dokumentation und Aktenvermerk: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-aenderungsmodus-compliance-dokumentation-und-akte.md).

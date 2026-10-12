@@ -1,6 +1,6 @@
 ---
 name: landpacht-und-hoferbfolge-pruefen
-description: "Prüft Landpacht und Hofnachfolge in zwei getrennten, anschließend verzahnten Spuren. Erfasst Textform, Anzeige, Beanstandung, Anpassung, Kündigung und Fortsetzung sowie Hofstatus, Grundsteuerwert, Hoferbenordnung, Abfindung und Nachabfindung und liefert Vertragsprüfung, Fristenblatt, Hofnachfolgematrix oder bezifferte Anspruchsanlage."
+description: "Prüft Landpacht und Hofnachfolge in zwei getrennten, anschließend verzahnten Spuren."
 ---
 
 # Landpacht und Hofnachfolge prüfen
@@ -45,7 +45,7 @@ Prüfe Dokumentation und Vollständigkeit der Vertragsabrede auch dann streng, w
 ### 2.4 Landpachtrechtsprechung
 
 - BGH, Urteil vom 06.11.2020 - LwZR 5/19: Bei einer Gesellschaft bürgerlichen Rechts als Partei eines langfristigen Vertrags konnte die Unterschrift nur eines Gesellschafters ohne Vertretungszusatz die damalige Schriftform verfehlen. Für heutige Verträge die geänderte Textform und für Altfälle das Übergangsrecht voranstellen.
-- BGH, Beschluss vom 29.04.2016 - LwZB 2/15: Ein anzeigepflichtiger Landpachtvertrag kann wegen ungesunder Verteilung der Bodennutzung beanstandet und gerichtlich aufgehoben werden; die gerichtliche Prüfung wird nicht durch eine behauptete anderweitige Unwirksamkeit überflüssig.
+- BGH, Beschluss vom 29.04.2016 - BLw 2/15: Ein anzeigepflichtiger Landpachtvertrag kann wegen ungesunder Verteilung der Bodennutzung beanstandet und gerichtlich aufgehoben werden; die gerichtliche Prüfung wird nicht durch eine behauptete anderweitige Unwirksamkeit überflüssig.
 - BGH, Urteil vom 28.04.2017 - LwZR 4/16: Bei als Ackerland verpachteten Flächen kann ordnungsmäßige Bewirtschaftung verlangen, die Ackerlandeigenschaft durch rechtzeitigen Umbruch zu erhalten; ein Mitverschulden des sachkundigen Verpächters ist gesondert zu prüfen.
 
 ## 3. Hofnachfolgespur
@@ -65,6 +65,8 @@ Prüfe Dokumentation und Vollständigkeit der Vertragsabrede auch dann streng, w
 - HöfeO Paragraf 16 Absatz 2: höferechtlicher Wertansatz bei der Pflichtteilsberechnung.
 - HöfeO Paragraf 17: Wirkungen des Übergabevertrags; bei Übergabe an einen hoferbenberechtigten Abkömmling gilt der Erbfall hinsichtlich des Hofes zugunsten der anderen Abkömmlinge mit der Übertragung als eingetreten.
 - BGB Paragraf 311b Absatz 1: notarielle Form der Grundstücksübertragung. Altenteil, Wohnungsrecht und Reallast folgen aus Vertrag und dinglicher Sicherung, nicht pauschal aus HöfeO Paragraf 14.
+
+[BGH, Beschluss vom 09.05.2025 – BLw 2/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/LdwS/2024/BLw___2-24.pdf?__blob=publicationFile&v=1), Rn. 8–17: Beim Verkauf eines einzelnen Erbteils zunächst feststellen, ob zum Nachlass nur Agrargrundstücke oder ein landwirtschaftlicher Betrieb gehören. Einzelne Grundstücke allein lösen Paragraf 2 Absatz 2 Nummer 2 GrdstVG nicht aus. Für eine Umgehung alle Anteilsgeschäfte, Erwerber und abgestimmte Gesamtabsicht prüfen; der bloße Wunsch des Erwerbers, weitere Erbteile zu kaufen, genügt nicht. Keine Freistellung sämtlicher Anteilsgeschäfte daraus ableiten.
 
 ## 4. Verzahnungsmatrix
 

@@ -1,6 +1,6 @@
 ---
 name: kartellverbot-modus
-description: "Wenn es um Kartellverbot — Modus in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kartellverbot — Modus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kartellverbot — Modus
@@ -54,13 +54,9 @@ Gruppenfreistellungsverordnung Vertikale Vereinbarungen (VO 2022/720):
 - Freistellung wenn Marktanteil Lieferant und Abnehmer jeweils < 30 Prozent auf den betroffenen Märkten.
 - Marktdefinition: Welcher Markt — Liefermarkt, Absatzmarkt?
 
-## Technologietransfer-GVO (VO 316/2014)
+## Technologietransfer-GVO (EU) 2026/877
 
-Marktanteilsschwellen 20 Prozent (Wettbewerber) und 30 Prozent (Nicht-Wettbewerber) auf dem Technologiemarkt und dem Produktmarkt.
-
-## Leitentscheidungen Kartellverbot
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Die seit 1. Mai 2026 geltende TTBER (EU) 2026/877 arbeitet mit einem kombinierten Marktanteil bis 20 Prozent bei Wettbewerbern und einem Marktanteil jeder Partei bis 30 Prozent bei Nichtwettbewerbern. Marktanteile sind auf den einschlägigen Technologie- und Produktmärkten zu prüfen; Kernbeschränkungen, ausgeschlossene Klauseln und die Einzelfreistellung nach Artikel 101 Absatz 3 AEUV bleiben eigene Stufen.
 
 ## Prüfprotokoll Kartellverbot
 
@@ -74,3 +70,5 @@ GVO anwendbar?: [ja → VO-Nummer / nein]
 Art. 101 Abs. 3 Freistellung: [prüfen / nicht relevant]
 Ergebnis: [verboten / freigestellt / zweifelhaft]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

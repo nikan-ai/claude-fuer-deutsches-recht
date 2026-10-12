@@ -1,6 +1,6 @@
 ---
 name: bea-erv-english-pleadings
-description: "Wenn es um Bea Erv English Pleadings in commercial-courts-deutschland geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bea Erv English Pleadings: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # beA/ERV
@@ -67,25 +67,3 @@ Stelle höchstens fünf Fragen, sofern die Akte sie nicht beantwortet:
 - Anlagen sind englisch/deutsch gemischt, aber Übersetzungs- und Zitierlogik fehlt.
 - Geheimhaltungsinteressen werden erst in der mündlichen Verhandlung entdeckt.
 - Das Wortprotokoll wird gewünscht, aber nicht rechtzeitig prozessual vorbereitet.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 184a GVG
-- § 184b GVG
-- § 119b GVG
-- § 93 AktG
-- § 246 AktG
-- § 43 GmbHG
-- § 3a RVG
-- § 169 GVG
-- § 185 GVG
-- § 174 GVG
-- § 16 GeschGehG
-- § 23 GVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

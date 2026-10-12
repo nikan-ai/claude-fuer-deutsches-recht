@@ -1,6 +1,6 @@
 ---
 name: parallelnormen-andere-berufe
-description: "Wenn es um Parallelnormen — alle fünf Berufe in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Parallelnormen Andere Berufe."
+description: "Für Parallelnormen — alle fünf Berufe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: parallelnormen-andere-berufe."
 ---
 
 # Parallelnormen — alle fünf Berufe
@@ -86,10 +86,6 @@ Folgende Felder sollten in jeder Skill-Ausgabe gefüllt sein:
 - Einzelfall-Variante: Mandat oder Amtsgeschäft
 ```
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - § 43a Abs. 2 BRAO / § 43e BRAO — Rechtsanwalt
@@ -127,9 +123,4 @@ Anzuwendende Norm (strengste bei gemischter Sozietät): § [NORM]
 Besonderheiten: [SONDERREGELN]
 ```
 
-<!-- AUDIT 27.05.2026
-Task: Bundle 016 – Halluzinations-Reparatur
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Maßnahme: Eintrag vollständig gelöscht (nicht verifizierbare Entscheidung – Halluzination).
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=08.03.2022&Aktenzeichen=X+ARZ+148/22
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

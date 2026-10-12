@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "plugin": "insolvenzplan-starug-planwerkstatt",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__244.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Volltext: Kopfmehrheit und mehr als halbe Forderungssumme der abstimmenden Gläubiger."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/starug/__25.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Volltext: mindestens drei Viertel der Stimmrechte in jeder Gruppe."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2016/IX_ZB__13-16.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 20.07.2017, IX ZB 13/16, Rn. 9–16: Bei versprochener Drittkompensation volle und sichere Deckung einer Schlechterstellung prüfen: Bürgenbonität, Grundschuldrang und Grundstückswert statt bloßer Nennbeträge. Grenze: Altes InsO-Verfahren und Vorprüfung nach Paragraf 231 InsO; dort nur offensichtlicher, nahezu sicher erfolgreicher Minderheitenschutzangriff. Kein unmittelbarer StaRUG-Präzedenzfall."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__251.html",
+      "checked_on": "2026-09-22",
+      "supports": "Minderheitenschutz und bereitgestellte Ausgleichsmittel im geltenden Insolvenzplanrecht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/starug/__64.html",
+      "checked_on": "2026-09-22",
+      "supports": "Eigenständige Voraussetzungen des Minderheitenschutzes im Restrukturierungsplan; InsO-Beschluss nicht direkt übertragen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__244.html",
+      "checked_on": "2026-09-23",
+      "supports": "Erneut gelesener amtlicher Wortlaut: Kopf- und Summenmehrheit der abstimmenden Gläubiger beim Insolvenzplan; kein Ersatz der gesonderten Stimmrechtsprüfung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/starug/__25.html",
+      "checked_on": "2026-09-23",
+      "supports": "Erneut gelesener amtlicher Wortlaut: mindestens drei Viertel aller Stimmrechte der Gruppe beim Restrukturierungsplan, keine zusätzliche Kopfmehrheit."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB__18-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "Für die bereits anhängige Restrukturierung gilt BGH, Beschluss vom 23.04.2026 – [IX ZB 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB__18-25.pdf?__blob=publicationFile&v=1), Rn. 10–23: Nach Anzeige von Zahlungsunfähigkeit oder Überschuldung gemäß § 32 Absatz 3 StaRUG ist die Aufhebung nach § 33 Absatz 2 Satz 1 Nummer 1 StaRUG die Regel. Die Ausnahmen eröffnen gerichtliches Ermessen, keinen automatischen Fortsetzungsanspruch. Bloß fehlende Vorteile eines Insolvenzverfahrens oder eine unsichere Ein-Prozent-Quote beweisen kein offensichtliches Gläubigerinteresse gegen die Eröffnung. Beruht Insolvenzreife auf vorgezogener Fälligkeit einer planbetroffenen Forderung, muss das Restrukturierungsziel überwiegend wahrscheinlich erreichbar sein. Frage nach Stand, Betrag, Bedingungen und Absicherung nötiger Drittbeiträge und aktualisiere Route, Liquiditätsplan und Vermerk. Eine freiwillige, ungesicherte Zusage genügt hierfür nicht ohne weitere tragfähige Umstände. Die Gruppenbildung wurde ausdrücklich offengelassen (Rn. 24). Ein Schutzschirm nach § 270d InsO setzt beim Zugang fehlende Zahlungsunfähigkeit voraus."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/starug/__42.html",
+      "checked_on": "2026-09-30",
+      "supports": "Während Rechtshängigkeit ruhende Antragspflicht, unverzügliche Anzeige der Insolvenzreife und Wiederaufleben nach Wirkungsverlust."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Vergleichsrechnung und versprochene Drittkompensation werden auf volle, sichere Deckung statt nomineller Zusagen geprüft. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "IX ZB 13/16 führt zu Bonitäts-, Rang- und Wertnachweisen der Kompensation; Vorprüfung von späterem Minderheitenschutz getrennt.",
+      "InsO-Kopf-/Summenmehrheit und StaRUG-Mehrheit mit Beispielen erhalten; keine automatische Gleichsetzung der Planregime.",
+      "Vollständigen beauftragten Plan statt obligatorischer Folgeprodukte vorgesehen.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt.",
+      "Gezielter amtlicher Rechtsprechungsabgleich 30.09.2026: BGH, Beschluss vom 23.04.2026 – IX ZB 18/25, Rn. 10–24"
+    ],
+    "sha256": "454f56f3f9c7e56d32999496697c0787dfce3f9ca1bd98039d7352393426d79f"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die zwölf Planwege eigenständig neu formuliert: Auswahl, Gruppen, Rechte, Finanzierung, Mehrheit, Schutz, Bestätigung und Vollzug bleiben enthalten. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "IX ZB 13/16 führt zu Bonitäts-, Rang- und Wertnachweisen der Kompensation; Vorprüfung von späterem Minderheitenschutz getrennt.",
+      "InsO-Kopf-/Summenmehrheit und StaRUG-Mehrheit mit Beispielen erhalten; keine automatische Gleichsetzung der Planregime.",
+      "Vollständigen beauftragten Plan statt obligatorischer Folgeprodukte vorgesehen.",
+      "Neue Forderung mit Rang und Sicherungswert in Gruppen, Stimmrecht und Vergleich einordnen; bedingte Finanzierung, Verwertungsangebot, individueller Minderheitenschutz und planfassungsbezogene Stimmen nachvollziehbar verzweigen.",
+      "Gezielter amtlicher Rechtsprechungsabgleich 30.09.2026: BGH, Beschluss vom 23.04.2026 – IX ZB 18/25, Rn. 10–24"
+    ],
+    "sha256": "6b306fa79e6c41dba816e11c0fbe792654f3c6ac017a006e9841bd836b456065"
+  },
+  "selection": {
+    "positive": [
+      "Rechne die Gruppenmehrheiten unseres Insolvenzplans nach.",
+      "Prüfe die Stimmrechtsbasis eines StaRUG-Plans mit Nichtteilnehmern."
+    ],
+    "negative": [
+      "Prüfe nur eine einzelne Forderungsanmeldung.",
+      "Berechne ausschließlich Organhaftung für Zahlungen nach Insolvenzreife."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zwei-regime-mehrheitsnenner",
+      "request": "Erstelle ergebnis.md für zwei voneinander unabhängige Plansimulationen. In einem Insolvenzplan stimmen in einer Gläubigergruppe vier Gläubiger mit unstreitigen Forderungen von 40, 30, 20 und 10 Tausend Euro ab. Die ersten beiden stimmen Ja, die anderen Nein. In einem anderen Verfahren nach StaRUG hat eine Gruppe insgesamt 100 Stimmrechte: 60 Ja, 20 Nein, 20 nehmen nicht teil. Alle Stimmrechte und Gruppenzuordnungen stehen fest. Prüfe nur die reguläre Annahme in diesen Gruppen; eine gruppenübergreifende Ersetzung oder Bestätigung soll noch nicht geprüft werden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Verneint beim Insolvenzplan die reguläre Gruppenannahme trotz 70 Prozent Forderungssumme, weil zwei von vier Köpfen keine Mehrheit sind.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Berechnet beim StaRUG 60 von 100 und nicht 60 von 80 Stimmrechten und verneint die Dreiviertelmehrheit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Behauptet weder endgültiges Scheitern des gesamten Plans noch bereits erfolgreiche Ersetzung oder gerichtliche Bestätigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "abstimmung-mehrheiten-anlagenpaket"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "insolvenzplan-starug-planwerkstatt/insolvenzplan-starug-planwerkstatt-werkstatt.md",
+      "insolvenzplan-starug-planwerkstatt/insolvenzplan-starug-planwerkstatt-schnellstart.md",
+      "insolvenzplan-starug-planwerkstatt/README.md",
+      "quality/evals/insolvenzplan-starug-planwerkstatt.json"
+    ],
+    "opening_change": "Geplanten Forderungseingriff, Finanzierung und Abstimmungsfähigkeit des konkreten Plans prüfen.",
+    "norms": [
+      "Paragrafen 231, 244, 245 und 251 InsO",
+      "Paragrafen 25 bis 28 und 64 StaRUG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 20.07.2017, IX ZB 13/16, Rn. 9–16",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2016/IX_ZB__13-16.pdf?__blob=publicationFile&v=1",
+        "application": "Bei versprochener Drittkompensation volle und sichere Deckung einer Schlechterstellung prüfen: Bürgenbonität, Grundschuldrang und Grundstückswert statt bloßer Nennbeträge.",
+        "limit": "Altes InsO-Verfahren und Vorprüfung nach Paragraf 231 InsO; dort nur offensichtlicher, nahezu sicher erfolgreicher Minderheitenschutzangriff. Kein unmittelbarer StaRUG-Präzedenzfall."
+      },
+      {
+        "citation": "BGH, Beschluss vom 23.04.2026 – IX ZB 18/25, Rn. 10–24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB__18-25.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-09-30",
+        "application": "Für die bereits anhängige Restrukturierung gilt BGH, Beschluss vom 23.04.2026 – [IX ZB 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB__18-25.pdf?__blob=publicationFile&v=1), Rn. 10–23: Nach Anzeige von Zahlungsunfähigkeit oder Überschuldung gemäß § 32 Absatz 3 StaRUG ist die Aufhebung nach § 33 Absatz 2 Satz 1 Nummer 1 StaRUG die Regel. Die Ausnahmen eröffnen gerichtliches Ermessen, keinen automatischen Fortsetzungsanspruch. Bloß fehlende Vorteile eines Insolvenzverfahrens oder eine unsichere Ein-Prozent-Quote beweisen kein offensichtliches Gläubigerinteresse gegen die Eröffnung. Beruht Insolvenzreife auf vorgezogener Fälligkeit einer planbetroffenen Forderung, muss das Restrukturierungsziel überwiegend wahrscheinlich erreichbar sein. Frage nach Stand, Betrag, Bedingungen und Absicherung nötiger Drittbeiträge und aktualisiere Route, Liquiditätsplan und Vermerk. Eine freiwillige, ungesicherte Zusage genügt hierfür nicht ohne weitere tragfähige Umstände. Die Gruppenbildung wurde ausdrücklich offengelassen (Rn. 24). Ein Schutzschirm nach § 270d InsO setzt beim Zugang fehlende Zahlungsunfähigkeit voraus.",
+        "limit": "Gezielte Ergänzung; frühere Quellenprüfdaten bleiben erhalten. Keine abschließende Insolvenzfeststellung aus IX ZR 18/25 und keine Gruppenfreigabe aus IX ZB 18/25."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Historischer InsO-Beschluss ist kein StaRUG-Präzedenzfall; aktuelle gruppenspezifische Eingriffsmöglichkeiten und sämtliche Plansteuerfolgen nicht vollständig neu verifiziert.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ],
+    "supplement_checked_on": "2026-09-30"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Gruppen- und Mehrheitsprüfung, Vergleichsrechnung oder gestaltende Planregelung anbieten.",
+      "Dateien ohne Auftrag: Planfassung still lesen und zwischen passendem Planmodul und begrenzter Vergleichsrechnung wählen lassen.",
+      "Klarer Auftrag: die bestellte Rechnung oder Planregelung ohne vorgeschaltetes Sanierungsgutachten ausarbeiten."
+    ],
+    "continuation": "Neue Finanzierungsbedingung -> ersten ungedeckten Tag, Finanzplan, Zahlungsbedingung im gestaltenden Teil und Gläubigerbrief gemeinsam ändern.",
+    "enrichment": "Neue Forderung mit Rang und Sicherungswert in Gruppen, Stimmrecht und Vergleich einordnen; bedingte Finanzierung, Verwertungsangebot, individueller Minderheitenschutz und planfassungsbezogene Stimmen nachvollziehbar verzweigen.",
+    "limits": "desk review; no live client execution"
+  }
+}

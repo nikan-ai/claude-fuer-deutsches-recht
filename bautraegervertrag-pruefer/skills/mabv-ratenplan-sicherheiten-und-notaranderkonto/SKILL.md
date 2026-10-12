@@ -1,6 +1,6 @@
 ---
 name: mabv-ratenplan-sicherheiten-und-notaranderkonto
-description: "Wenn es um MaBV-Ratenplan, Sicherheiten und Notaranderkonto in Bauträgervertrag-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für MaBV-Ratenplan, Sicherheiten und Notaranderkonto: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # MaBV-Ratenplan, Sicherheiten und Notaranderkonto
@@ -43,4 +43,6 @@ Das Notaranderkonto ist kein Ersatzetikett für MaBV-Konformität. Prüfe Verwah
 
 ## Ausgabe
 
-Erstelle eine Zahlungsampel: Rate, Betrag, Baufortschritt, Fälligkeitsvoraussetzung, fehlender Nachweis, Zurückbehaltungsrecht, Antwort an Bauträger/Notar.
+Liefere die bestellte Zahlungseinschätzung oder die vollständige Antwort an Bauträger beziehungsweise Notar. Weise Rate, Rechenweg, nachgewiesenen Baufortschritt und offene Fälligkeitsvoraussetzungen verständlich aus, ohne interne Ampelbezeichnungen.
+
+Fehlt eine Freistellungserklärung oder ein Bautenstandsnachweis, benenne das benötigte Dokument und die davon abhängige Aussage. Nach Eingang prüfe Sicherungsumfang beziehungsweise Bauabschnitt erneut und aktualisiere Betrag und Antworttext. Ein weiterer entscheidender Widerspruch darf eine gezielte Folgerunde auslösen; bereits geklärte Angaben bleiben übernommen. Bis zur Klärung keine Zahlungsfreigabe behaupten, aber belegte Teile weiterbearbeiten. Quellenprüfstatus separat dokumentieren und keine Zahlung oder Übermittlung ohne Freigabe auslösen.

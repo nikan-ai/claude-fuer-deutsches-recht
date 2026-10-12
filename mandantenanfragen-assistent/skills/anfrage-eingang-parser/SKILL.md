@@ -1,6 +1,6 @@
 ---
 name: anfrage-eingang-parser
-description: "Wenn es um Anfrage-Eingang-Parser in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anfrage-Eingang-Parser: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anfrage-Eingang-Parser
@@ -22,9 +22,6 @@ Dieser Skill extrahiert aus einer eingehenden Mandantenanfrage per E-Mail alle r
 2. Gibt es eindeutige Fristen-Signale oder Eile-Marker, die sofortige Weiterleitung erfordern?
 3. Kann die anfragende Person identifiziert werden (Name, E-Mail, Telefon) oder ist die Anfrage anonym?
 4. Ist die Anfrage in deutscher Sprache oder in einer Fremdsprache (Weiterleitung an mehrsprachige-antwort)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 6 Abs. 1 lit. b, f DSGVO — Rechtsgrundlage für Verarbeitung von Erstanfrage-Daten
@@ -114,24 +111,9 @@ Nach der Extraktion:
 - `konfliktcheck-vorab` — verwendet Beteiligte und Gegner aus der Extraktion
 - `folgekorrespondenz-vorbereiten` — befüllt den CRM-Skeleton-Eintrag mit den hier extrahierten Daten
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- Art. 13 DSGVO
-- Art. 28 DSGVO
-- Art. 9 DSGVO
-- § 203 StGB
-- § 4 KSchG
-- § 356 StGB
-- § 29 VwVfG
-- Art. 6 DSGVO
-- § 5 TMG
-- § 263 StGB
-- Art. 32 DSGVO
-- Art. 15 DSGVO
+Für Eingang, Weiterleitung und Antwort einer Mandantenanfrage zuerst Mandatsstatus, Interessenkollision, Verschwiegenheit, Datenschutz und laufende Fristen bestimmen. Paragraf 43a BRAO, Paragraf 2 BORA, Paragraf 203 StGB und Artikel 5, 6 und 32 DSGVO nur nach konkreter Datenverarbeitung anwenden. Rechtsprechung gehört nur dann in das Arbeitsergebnis, wenn ihre tragende Aussage die konkrete Anfrage tatsächlich entscheidet.
 
-### Leitentscheidungen
-
-- BGH VI ZR 7/20
-- BGH VI ZR 246/19
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

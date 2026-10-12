@@ -1,6 +1,6 @@
 ---
 name: texte-zahlen-schwellen-und-berechnung
-description: "Wenn es um Texte: Zahlen, Schwellenwerte und Berechnung in E-Mail-Umformulierer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Texte: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen."
 ---
 
 # Texte: Zahlen, Schwellenwerte und Berechnung
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `§ 3a RVG` — Vergütungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

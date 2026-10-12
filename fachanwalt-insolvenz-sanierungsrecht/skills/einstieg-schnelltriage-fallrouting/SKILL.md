@@ -1,6 +1,6 @@
 ---
 name: einstieg-schnelltriage-fallrouting
-description: "Wenn es um Einstieg, Schnelltriage und Fallrouting in Fachanwalt Insolvenz Sanierungsrecht in Fachanwalt Insolvenz- und Sanierungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg, Schnelltriage und Fallrouting in Fachanwalt Insolvenz Sanierungsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einstieg, Schnelltriage und Fallrouting im Fachanwalt Insolvenz Sanierungsrecht-Plugin
@@ -10,7 +10,7 @@ description: "Wenn es um Einstieg, Schnelltriage und Fallrouting in Fachanwalt I
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: InsO §§ 1, 13-22, 35, 39, 47, 55-56, 60, 80, 87, 129, 133, 174, 175, 270 ff., 286-300, StaRUG §§ 1, 29, 31; StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270; AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO; § 14. InsO Eroeffnung Antragspflicht; § 15a Gläubigerantrag; § 14 InsO. StaRUG Restrukturierungsplan. Insolvenzanfechtung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -18,8 +18,6 @@ description: "Wenn es um Einstieg, Schnelltriage und Fallrouting in Fachanwalt I
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt Insolvenz Sanierungsrecht — Allgemein` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -80,7 +78,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -116,23 +114,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `erstgespraech-mandatsannahme` | Strukturierter Erstgespraechsleitfaden für Insolvenz- und Restrukturierungsrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und… |
-| `fachanwalt-insolvenz-glaeubigerverhandlung-sanierung` | Sanierungs-Verhandlung mit Gläubigern vor und in der Insolvenz nach StaRUG und InsO. Anwendungsfall Schuldner will außergerichtlichen Vergleich oder InsO-Plan mit Gläubigern verhandeln. Normen § 270d InsO Schutzschirm… |
-| `fachanwalt-insolvenz-idw-s6-sanierungskonzept` | Sanierungskonzept auf IDW-S-6-Niveau erstellen oder prüfen: Fortbestehensprognose, Sanierungsfähigkeit, Krisenursachen, Leitbild, Maßnahmen, integrierte Planung, kleinere Unternehmen, Dokumentation und Verhandlungsrisiken. |
-| `fachanwalt-insolvenz-krypto-verwertung` | Krypto-Assets in der Insolvenz Massezugehoerigkeit Aussonderung und Verwertungsstrategien. Anwendungsfall Insolvenzschuldner hat Krypto-Vermögen und Insolvenzverwalter oder Gläubiger muss Zugriff klären. Normen § 35… |
-| `fachanwalt-insolvenz-sanierung-starug-plan` | StaRUG-Restrukturierungsplan §§ 4-65 StaRUG. Voraussetzung drohende Zahlungsunfähigkeit § 18 InsO. Plan-Struktur Gruppen Mehrheiten 75 Prozent je Klasse. Cross-class cramdown. Stabilisierungsanordnung § 49 StaRUG.… |
-| `fachanwalt-insolvenz-sanierungsrecht-anfechtungsklage-verwalter` | Anfechtungsklage des Insolvenzverwalters nach §§ 129-147 InsO vorbereiten: Tatbestand je Rechtshandlung, § 130/131/133/134/135, Bargeschäft § 142, Rückgewähr § 143, Gegenleistung § 144, Verjährung § 146, Beweislast,… |
-| `fachanwalt-insolvenz-sanierungsrecht-glaeubigerantrag` | Gläubiger-Insolvenzantrag nach § 14 InsO mit Glaubhaftmachung Forderung und Eroefffnungsgrund. Anwendungsfall Gläubiger will Insolvenz des Schuldners eroefffnen lassen. Normen § 14 InsO Gläubiger-Antrag § 17 InsO… |
-| `fachanwalt-insolvenz-sanierungsrecht-insolvenzanfechtung` | Insolvenzanfechtung nach §§ 129-147 InsO fachanwaltlich prüfen: Verwalter- und Anfechtungsgegnerperspektive, §§ 130/131/133/134/135, Bargeschäft § 142, Rechtsfolgen §§ 143-147, Verjährung § 146, KI-Screening von… |
-| `fachanwalt-insolvenz-sanierungsrecht-orientierung` | Orientierung im Insolvenz- und Sanierungsrecht für Mandate und Fachanwaltschaft nach § 14 FAO. Anwendungsfall Kanzlei will Insolvenzmandat beurteilen oder Anwalt bereitet sich auf FAO-Fachanwaltsprüfung vor. Normen §§… |
-| `fachanwalt-insolvenz-sanierungsrecht-restrukturierungsplan` | StaRUG-Restrukturierungsplan §§ 4–64 StaRUG: Zugang nur bei drohender Zahlungsunfähigkeit § 18 InsO, darstellender/gestaltender Teil §§ 6–7, Gruppenbildung § 9 mit 3/4-Mehrheit § 25, Cram-Down § 26,… |
-| `fachanwalt-insolvenz-sanierungsrecht-schutzschirmverfahren` | Schutzschirmverfahren § 270d InsO Eigenverwaltung in Insolvenz. Vorlaeufige Eigenverwaltung Antrag drohende Zahlungsunfähigkeit. Sachwalter Aufsicht. Schutzschirm 3 Monate bei Voraussetzung Sanierungsfähigkeit.… |
-| `schriftsatzkern-substantiierung` | Substantiierter Schriftsatzkern für Insolvenzantrag, Anfechtungsklage, StaRUG-Restrukturierungsantrag: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge, Replik-/Duplik-Vorausschau. |
-| `vergleichsverhandlung-strategie` | Vergleichsverhandlungs-Strategie für Insolvenz- und Restrukturierungsrecht: ZOPA, BATNA, Verhandlungsfenster, Druckmittel, Settlement-Skript, Vergleichsentwurf und prozessuale Absicherung (Protokoll-/Anwaltsvergleich). |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Qualitätsversprechen
 

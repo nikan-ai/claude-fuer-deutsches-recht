@@ -1,6 +1,6 @@
 ---
 name: umwandlungsrecht
-description: "Wenn es um Umwandlungsrecht in Großkanzlei Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Prüft Verschmelzung, Spaltung, Ausgliederung und Formwechsel nach dem UmwG, ordnet Berichte, Beschlüsse, Schutzrechte und Registervollzug und erstellt einen belastbaren Vollzugsplan."
 ---
 
 # Umwandlungsrecht
@@ -8,7 +8,6 @@ description: "Wenn es um Umwandlungsrecht in Großkanzlei Corporate/M&A geht: pr
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: Umwandlungsrecht
@@ -23,7 +22,7 @@ Typische Auslöser:
 - "Mach daraus eine Partner-/Mandantenunterlage mit Risiken, Annahmen und offenen Punkten."
 - "Welche Dokumente, Registerauszüge, Freigaben oder Fristen fehlen noch?"
 
-Nicht dieser Skill ist vorrangig, wenn zuerst das Mandat selbst angelegt, die Deal-Phase bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-kommandocenter` oder `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-deal-intake`. Wenn der Nutzer ausdrücklich nur eine kurze Sprachfassung, Übersetzung oder E-Mail will, arbeite knapp und route nicht in einen Deep-Dive.
+Nicht dieser Skill ist vorrangig, wenn zuerst das Mandat selbst angelegt, die Deal-Phase bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/grosskanzlei-corporate-ma:kommandocenter` oder `/grosskanzlei-corporate-ma:deal-intake`. Wenn der Nutzer ausdrücklich nur eine kurze Sprachfassung, Übersetzung oder E-Mail will, arbeite knapp und route nicht in einen Deep-Dive.
 
 ## Voraussetzungen und Kontext laden
 Lies zuerst, falls vorhanden, den Matter-Workspace unter `~/.config/claude-fuer-deutsches-recht/grosskanzlei-corporate-ma/mandate/<slug>/`: `mandat.md`, `history.md`, `chronologie.md`, `fristen.yaml` und den aktuellen Dokumentenlog. Wenn kein Workspace existiert, frage nur die Mindestdaten ab: Rolle der Kanzlei, Deal-Typ, Zielgesellschaft, Käufer/Verkäufer, Jurisdiktionen, Signing-/Closing-Zeitplan, Vertraulichkeitsstufe und gewünschtes Output-Format.
@@ -58,9 +57,9 @@ Arbeite mit diesen Variablen: `deal_name`, `rolle`, `deal_phase`, `target`, `geg
 - AktG Paragraf 76, 93, 111 und 179a für Leitungs-/Kontrollpflichten und Strukturmaßnahmen.
 - BGB Paragraf 158 für Closing Conditions und Bedingungseintritt.
 
-**3. Organpflichten und Business Judgment.** Bei Geschäftsleitungs- oder Aufsichtsratsentscheidungen ist zu fragen, ob die Entscheidung auf angemessener Informationsgrundlage, ohne sachfremde Interessen und zum Wohl der Gesellschaft vorbereitet ist. Für die Pflicht zur eigenverantwortlichen Prüfung von Ansprüchen und Organverantwortung ist BGH, 21.04.1997 - II ZR 175/95, ARAG/Garmenbeck, als Leitentscheidung zu markieren: https://dejure.org/1997,161 `[dejure.org]`.
+**3. Organ- und Zuständigkeitsprüfung.** Nur wenn der konkrete Arbeitsschritt eine Organentscheidung vorbereitet, Zuständigkeit, Zustimmungsvorbehalte, Interessenkonflikte, Informationsgrundlage und Dokumentation prüfen. Der fachlich passende Haftungs- oder Board-Paper-Skill liefert die dafür einschlägige Rechtsprechung; ARAG/Garmenbeck ist kein Universalanker.
 
-**4. Register- und Gesellschafterlistenlogik.** Bei GmbH-Anteilen, Einziehung, Vollmachtskette oder Closing-Fähigkeit ist Paragraf 16 GmbHG gesondert zu prüfen. Zur Legitimationswirkung der Gesellschafterliste: BGH, 20.11.2018 - II ZR 12/17, abrufbar über BGH-Datenbank und dejure: https://dejure.org/2018,47817 `[BGH-Datenbank/dejure.org]`.
+**4. Register- und Gesellschafterlistenlogik.** Nur bei GmbH-Anteilen, Einziehung, Vollmachtskette oder streitiger Legitimation Paragraf 16 und 40 GmbHG sowie Registerstand und materielle Berechtigung getrennt prüfen. Ohne solche Title- oder Legitimationsfrage diesen Prüfstrang auslassen.
 
 **5. Regulatory und Vollzugshindernisse.** Wenn Fusionskontrolle, AWV/FDI, MAR, GwG, Sanktionen oder branchenspezifische Genehmigungen berührt sind, lautet der Zwischensatz nicht nur „Risiko“, sondern: Anmeldung erforderlich? Vollzugsverbot? Closing Condition? Long-Stop-Date gefährdet? Bußgeld- oder Nichtigkeitsfolge?
 
@@ -88,11 +87,11 @@ Nutze nur frei prüfbare Quellen oder vom Nutzer bereitgestellte/lizenzierte Que
 
 ## Hand-Off zu anderen Skills
 Nach diesem Skill weiter mit:
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-spa-apa-entwurf` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-vertragsmarkup-key-issues` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-disclosure-schedules` - wenn Garantien, Knowledge und Disclosure Letter abgeglichen werden.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-signing-closing-conditions` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-closing-bible-archiv` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
+- `/grosskanzlei-corporate-ma:spa-apa-entwurf` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
+- `/grosskanzlei-corporate-ma:vertragsmarkup-key-issues` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
+- `/grosskanzlei-corporate-ma:disclosure-schedules` - wenn Garantien, Knowledge und Disclosure Letter abgeglichen werden.
+- `/grosskanzlei-corporate-ma:signing-closing-conditions` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
+- `/grosskanzlei-corporate-ma:closing-bible-archiv` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
 
 ## Was dieser Arbeitsgang nicht macht
 - Er ersetzt keine Partnerentscheidung über Deal-Taktik, Signing-Freigabe oder Closing-Freigabe.
@@ -111,23 +110,23 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 
 ## Triage — klaere vor Strukturentscheidung
 
-1. Welche Umwandlungsart ist geplant — Verschmelzung (Paragraf 2-38 UmwG), Spaltung/Ausgliederung (Paragraf 123-173 UmwG) oder Formwechsel (Paragraf 190-304 UmwG)?
+1. Welche Umwandlungsart ist geplant — Verschmelzung (Paragrafen 2 bis 38 UmwG), Spaltung oder Ausgliederung (Paragrafen 123 bis 173 UmwG) oder Formwechsel (Paragrafen 190 bis 304 UmwG)?
 2. Welche Rechtsformen sind beteiligt — GmbH, AG, KGaA, GmbH & Co. KG, SE, Genossenschaft?
-3. Sind steuerliche Rueckwirkungszeitraeume einzuhalten (Paragraf 2 Abs. 1, 20 Abs. 5 UmwStG: maximal 12 Monate Rueckwirkung)?
+3. Welche Schlussbilanz- und Rückwirkungsfrist gilt? Bei der Verschmelzung darf der Bilanzstichtag nach Paragraf 17 Absatz 2 UmwG höchstens acht Monate vor der Registeranmeldung liegen; Paragraf 2 Absatz 1 UmwStG knüpft den steuerlichen Übertragungsstichtag daran. Für Sacheinlagen gilt die Achtmonatsgrenze des Paragrafen 20 Absatz 6 UmwStG.
 4. Gibt es eine Vorwegausgliederung als Deal-Preparation — ist der Carve-out-Zeitplan mit der Signing-Deadline vereinbar?
 5. Welche Gläubigerschutzmaßnahmen sind erforderlich — Paragraf 22 UmwG Sicherheitsleistung bei Verschmelzung?
-6. Welche Arbeitnehmer- und Betriebsratsrechte sind zu beachten — Paragraf 324 UmwG i.V.m. Paragraf 613a BGB?
+6. Welche Arbeitnehmer- und Betriebsratsrechte sind zu beachten — bei Verschmelzungen Paragraf 35a UmwG, bei Spaltungen die Verweisung in Paragraf 125 UmwG, jeweils zusammen mit Paragraf 613a BGB?
 
 ## Zentrale Rechtsgrundlagen
 
-- Paragraf 2-38 UmwG — Verschmelzung: Vertrag, Bericht, Prüfung, Beschluss, Anmeldung; Gesamtrechtsnachfolge
-- Paragraf 123-137 UmwG — Spaltung (Aufspaltung, Abspaltung, Ausgliederung): Spaltungsplan, Beschluss
-- Paragraf 311-312 UmwG — Ausgliederung zur Neugründung: erleichterte Form für Carve-out
-- Paragraf 190-213 UmwG — Formwechsel: keine Vermögensuebertragung; Identitaetswahrung des Rechtsträgers
+- Paragrafen 2 bis 38 UmwG — Verschmelzung: Vertrag, Bericht, Prüfung, Beschluss, Anmeldung und Gesamtrechtsnachfolge
+- Paragrafen 123 bis 173 UmwG — Aufspaltung, Abspaltung und Ausgliederung; Vertrag oder Plan, Beschluss, Anmeldung und partielle Gesamtrechtsnachfolge
+- Paragrafen 135 bis 137 UmwG — Spaltung zur Neugründung; bei der Ausgliederung zur Neugründung entfällt nach Paragraf 135 Absatz 3 UmwG der Spaltungsbericht
+- Paragrafen 190 bis 213 UmwG — Formwechsel: keine Vermögensübertragung, sondern Identitätswahrung des Rechtsträgers
 - Paragraf 22 UmwG — Gläubigerschutz: auf Verlangen Sicherheitsleistung für ungesicherte Gläubiger
-- Paragraf 325 UmwG — Spruchverfahren: Barabfindung und Abfindungsangebot bei Formwechsel und Ausgliederung
-- Paragraf 324 UmwG i.V.m. Paragraf 613a BGB — Arbeitnehmeruebergang kraft Gesetzes bei Ausgliederung; Unterrichtungspflicht
-- Paragraf 2 Abs. 1, 20 Abs. 5 UmwStG — steuerliche Rueckwirkung bei Verschmelzung und Einbringung: maximal 12 Monate
+- Spruchverfahrensgesetz zusammen mit der für die konkrete Umwandlungsart einschlägigen UmwG-Vorschrift — gerichtliche Überprüfung von Zuzahlung, Barabfindung oder Umtauschverhältnis; keine pauschale Verweisung auf Paragraf 325 UmwG
+- Paragraf 35a UmwG bei Verschmelzungen und Paragraf 125 UmwG bei Spaltungen, jeweils zusammen mit Paragraf 613a BGB — Zuordnung und Übergang von Arbeitsverhältnissen
+- Paragraf 17 Absatz 2 UmwG, Paragraf 2 Absatz 1 und Paragraf 20 Absatz 6 UmwStG — Schlussbilanz und steuerlicher Übertragungsstichtag; regulär höchstens acht Monate Rückbezug
 
 ## Aktuelle Rechtsprechung
 
@@ -136,20 +135,20 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 ## Schritt-für-Schritt-Workflow
 
 1. **Umwandlungstyp bestimmen:** Verschmelzung, Abspaltung, Ausgliederung, Formwechsel — massgeblich für Form und Gremien
-2. **Zeitplan aufstellen:** Notartermin, Beschlussfassung, Registereintragung (i.d.R. 2-4 Monate ab Beschluss); Steuerliche Rueckwirkungsfrist einhalten (Paragraf 2 Abs. 1, 20 Abs. 5 UmwStG)
-3. **Beschlüsse vorbereiten:** Gesellschafterversammlung/Hauptversammlung mit notarieller Beurkundung; Mehrheitserfordernisse prüfen (Paragraf 50 UmwG: 75 % bei GmbH)
-4. **Bericht erstellen:** Geschäftsführung/Vorstand muss Umwandlungsbericht erstellen (Paragraf 8, 127 UmwG); bei Prüfungspflicht: externer Prüfer
+2. **Zeitplan aufstellen:** Notartermin, Beschlussfassung und Registeranmeldung rückwärts planen; die Achtmonatsgrenze für Schlussbilanz und steuerlichen Rückbezug nach Paragraf 17 Absatz 2 UmwG sowie Paragraf 2 Absatz 1 und Paragraf 20 Absatz 6 UmwStG als harte Datumsprüfung führen
+3. **Beschlüsse vorbereiten:** Für jede Umwandlungsart Rechtsform, Zustimmungserfordernisse, Mehrheit und Form gesondert prüfen. Bei der Verschmelzung einer GmbH verlangt Paragraf 50 Absatz 1 UmwG grundsätzlich mindestens drei Viertel der abgegebenen Stimmen; strengere gesellschaftsvertragliche Vorgaben bleiben zu beachten.
+4. **Berichtserfordernis bestimmen:** Verschmelzungs- oder Spaltungsbericht nach Paragraf 8 beziehungsweise Paragraf 127 UmwG vorbereiten, sofern er nicht aufgrund einer gesetzlichen Ausnahme oder eines wirksamen Verzichts entfällt. Bei der Ausgliederung zur Neugründung ist nach Paragraf 135 Absatz 3 UmwG kein Spaltungsbericht erforderlich. Eine Prüfung nur einplanen, wenn sie für die konkrete Umwandlungsart erforderlich ist und nicht wirksam entfallen kann.
 5. **Gläubigerschutz sicherstellen:** Paragraf 22 UmwG — Gläubiger können Sicherheitsleistung verlangen; Ankuendigung und Frist beachten
-6. **Arbeitnehmerinformation:** Paragraf 324 UmwG i.V.m. Paragraf 613a BGB — schriftliche Unterrichtung der uebernommenen Arbeitnehmer; Betriebsrat informieren
+6. **Arbeitnehmerinformation:** Paragraf 35a UmwG bei Verschmelzungen und Paragraf 125 UmwG bei Spaltungen zusammen mit Paragraf 613a BGB prüfen; betroffene Arbeitnehmer, Zuordnung, Unterrichtung und Beteiligung des Betriebsrats dokumentieren
 7. **Anmeldung zum HR:** notariell beglaubigte Anmeldung zum Handelsregister; Eintragung konstitutiv
-8. **Steuerliche Rueckwirkung sichern:** Massgeblichkeitsstichtag für steuerliche Bilanz festlegen; Frist maximal 12 Monate rueckwirkend ab Abschlussstichtag
+8. **Steuerliche Rückwirkung sichern:** Bilanzstichtag, Registeranmeldung, Einbringungsvertrag und Übergang des wirtschaftlichen Eigentums in einer Datumsachse erfassen; reguläre Achtmonatsgrenze für jeden einschlägigen Tatbestand gesondert berechnen
 
 ## Entscheidungsbaum
 
 - Verschmelzung → Gesamtrechtsnachfolge → alle Verträge gehen über → Change-of-Control-Klauseln prüfen
-- Ausgliederung → Einzelrechtsnachfolge je uebertragener Position → Zustimmung Gläubiger bei Schulduebertragung?
+- Ausgliederung → partielle Gesamtrechtsnachfolge nach Paragraf 131 Absatz 1 Nummer 1 UmwG → Vermögenszuordnung im Vertrag präzisieren; nicht übertragbare Erlaubnisse und vertragliche Zustimmungsvorbehalte gesondert prüfen
 - Formwechsel → Identitaetswahrung → kein Betriebsuebergang, aber Abfindungsangebot nach Paragraf 207 UmwG
-- Steuerrueckwirkung → mehr als 12 Monate? → kein Buchwertansatz; stille Reserven aufzudecken
+- Gewünschter Rückwirkungsstichtag → mehr als acht Monate vor dem maßgeblichen Anmelde-, Vertrags- oder Übergangszeitpunkt? → Rückbezug auf diesen Stichtag unzulässig; Stichtag und Zeitplan anpassen, Buchwertvoraussetzungen davon getrennt prüfen
 
 ## Output-Template: Umwandlungs-Checkliste
 

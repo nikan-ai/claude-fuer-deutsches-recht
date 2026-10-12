@@ -1,6 +1,6 @@
 ---
 name: robotik-haftungsampel
-description: "Wenn es um Haftungsampel in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Robotik Haftungsampel; Arbeitsfeld: robotik-recht."
+description: "Für Haftungsampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: robotik-haftungsampel."
 ---
 
 # Haftungsampel
@@ -35,6 +35,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Erstellt Haftungsampel für Hersteller, Integrator, Betreiber, Händler, Wartung, KI-Anbieter, Versicherer und Geschädigte.**
 
 Quellen-/Normenanker: Quellenmatrix im Plugin, Uploads, Rollenprofil, Fristen, Produktakte.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

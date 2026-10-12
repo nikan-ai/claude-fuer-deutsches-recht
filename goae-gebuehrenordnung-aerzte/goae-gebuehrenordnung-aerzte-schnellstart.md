@@ -1,66 +1,47 @@
-Wenn du das hier öffnest, willst du einen Behandlungs-, Abrechnungs-, Krankenhaus-, Apotheken- oder Leistungsfall medizinrechtlich so ordnen, dass Gutachten, Frist und Anspruch sofort sichtbar werden.
+# 1. Privatärztliche Rechnung prüfen
 
-# Goae Gebuehrenordnung Ärzte — Schnellstart
+Stelle für die streitigen GOÄ-Positionen fest, welche Leistung nachgewiesen ist, welcher Faktor zulässig ist und welcher Eurobetrag verbleibt. Formuliere daraus die beauftragte Rechnungskorrektur oder begründete Antwort an Praxis, Patient oder Kostenträger.
 
-Ziel: Super-Plugin zur GOÄ: private Arztrechnungen prüfen, erstellen, begründen, beanstanden und prozessual verwerten. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1. Rechnung und Behandlung lesen
 
-## 1. Schnellmodus
+Ohne Eingabe fragen: „Möchten Sie eine GOÄ-Rechnung prüfen, eine Steigerungsbegründung beantworten oder eine PKV-Kürzung einordnen?“ Dateien ohne Auftrag still lesen, dann passende Wege wie Patientenbrief oder Positionskorrektur anbieten. Keine ungefragte Rechnungszusammenfassung. Klaren Auftrag direkt bearbeiten, bekannte Behandlungs- und Rechnungsdaten übernehmen, keine Pflichtdialogrunde. PKV-Erstattung und Honorar bleiben getrennt.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Gleiche jede streitige Position mit Datum, Leistungsinhalt, Ziffer, Anzahl, Faktor und Betrag ab. Eine Rechnung belegt noch nicht allein die tatsächliche Leistungserbringung. Fehlende Dokumentation nicht durch eine vermutete Diagnose oder Behandlung ersetzen.
 
-## 2. Direktstart
+## 1.2. Leistung und Ziffer zuordnen
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Prüfe Leistungslegende, Selbständigkeit, Ausschlüsse, Nebeneinanderberechnung und Zielleistungsprinzip. Bei Analogbewertung nach Paragraf 6 GOÄ tatsächliche Leistung und Vergleichsleistung anhand der einschlägigen Voraussetzungen begründen. Unbekannte Ziffern oder Leistungsinhalte nicht erfinden.
 
-## 3. Kernroute
+Fehlt die Grundlage eines Mehrfachansatzes, frage nach den betreffenden Behandlungsschritten und ihrer Dokumentation. Nach Eingang prüfen, ob selbständige Leistungen oder bereits enthaltene Bestandteile vorliegen. Ein neuer Arztbrief kann die Sachlage erläutern, beweist aber nicht automatisch jede streitige Position.
 
-1. Falltyp: Behandlungsfehler, Aufklärung, Abrechnung, Zulassung, Leistungspflicht, Apotheke oder Krankenhausaufsicht bestimmen.
-2. Medizinischer Kern: Befund, Indikation, Standard, Leitlinie, Dokumentation, Kausalität und Schaden in eine Zeitachse bringen.
-3. Beweislast: grober Fehler, Befunderhebungsfehler, Aufklärung, hypothetische Einwilligung und Dokumentationslücke gesondert prüfen.
-4. Verfahren: Gutachten, MD/MDK, Schlichtungsstelle, Kasse, Behörde, Sozialgericht oder Zivilgericht richtig routen.
-5. Arbeitsprodukt: Gutachterfragen, Anspruchsschreiben, Klage, Widerspruch, Eilantrag, Abrechnungsprüfung oder Behördenantwort erstellen.
-6. Fälligkeit Verzug Mahnung Honorarklage: Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen.
+## 1.3. Faktor und Betrag prüfen
 
-## 4. Fallkarte
+Paragraf 5 GOÄ: Regelbereich bis 2,3 und Höchstsatz 3,5; für Abschnitte A, E und O bis 1,8 beziehungsweise 2,5; für Nummer 437 und Abschnitt M bis 1,15 beziehungsweise 1,3. Honorarvereinbarung und Sonderfälle separat prüfen. Eine Begründung hebt den einschlägigen Höchstsatz nicht auf.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 630a bis Paragraf 630h; BGB Paragraf 280, Paragraf 823 und Paragraf 253; SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen |
-| Beweislast | Patient oder Versicherter für Befund, Schaden und Kausalität; Behandler oder Träger für Aufklärung, Dokumentation, Standard und Entlastung |
-| Rechtsfolge | Gutachterfragen, Anspruchsschreiben, Widerspruch, Eilantrag, Klage, Abrechnungsprüfung oder Behördenantwort |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+BGH, Urteil vom 08.11.2007, III ZR 54/07, [amtlicher Leitsatz](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2007/III_ZR__54-07.pdf?__blob=publicationFile&v=1): Durchschnittliche persönlichärztliche oder medizinisch-technische Leistung erlaubt den jeweiligen Regelhöchstsatz von 2,3 oder 1,8. Eine besondere Erschwernis nicht bereits hierfür verlangen. Oberhalb der Schwelle gelten weiterhin Paragraf 5 Absatz 2 und Paragraf 12 Absatz 3 GOÄ; weder Laborhöchstsatz noch fehlende Leistung werden dadurch überwunden. Leitsatz am 22.09.2026 amtlich geprüft, direkter Volltextabruf gesperrt.
 
-## 5. Einsatzfelder
+Paragraf 12 Absatz 3 verlangt bei Schwellenüberschreitung eine verständliche, auf die einzelne Leistung bezogene schriftliche Begründung. Fehlende Begründung, unzulässigen Faktor und Rechenfehler getrennt behandeln. Keine Behandlungserschwernis erfinden; frage nach der konkreten Schwierigkeit, dem Zeitaufwand oder den Ausführungsumständen und prüfe deren Bedeutung für die einzelne Leistung.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Fälligkeit Verzug Mahnung Honorarklage | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| GOÄ Paragraf 3 Vergütungen Gebühren Entschädigungen Auslagen | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| GOÄ Paragraf 9 Reiseentschädigung | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| GOÄ Paragraf 7 Entschädigungen | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| IGeL Aufklärung Kosteninformation | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klageerwiderung Honorarprozess | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Berechne Punktzahl, Punktwert, Anzahl, Faktor, gegebenenfalls Minderung und Auslagen nachvollziehbar. Gegenrechnungen als begründete Korrektur oder ausdrücklich bedingte Variante ausweisen, nicht sämtliche Positionen pauschal auf einen Faktor reduzieren. Zahlungen und Gutschriften vom tatsächlich verbleibenden Anspruch abziehen.
 
-## 6. Anker
+## 1.4. Sonderfragen und Fortsetzung
 
-- BGB Paragraf 630a bis Paragraf 630h: Behandlungsvertrag, Aufklärung, Einwilligung, Dokumentation, Einsicht und Beweislast.
-- BGB Paragraf 280, Paragraf 823 und Paragraf 253: Schadensersatz, deliktische Haftung und Schmerzensgeld.
-- SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 und Paragraf 135: Krankenbehandlung, Krankenhaus, Vertragsarzt und Methodenbewertung.
-- SGB X Paragraf 20 und Paragraf 25: Amtsermittlung und Akteneinsicht im Sozialverwaltungsverfahren.
-- Paragraf 1 GOÄ definiert den Anwendungsbereich der Gebührenordnung für Ärzte: Berufliche Leistungen approbierter Ärzte gegenüber Privatpatienten und Selbstzahlern. GKV-Leistungen sind: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 87 SGB V: EBM für GKV-Vertragsärzte: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 630a ff. BGB: Behandlungsvertrag: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGB Paragrafen 630a–630h: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Bei Honorarvereinbarung nach Paragraf 2 GOÄ Leistungsgruppe, persönliche Absprache, Zeitpunkt, gesondertes Schriftstück und Pflichtinhalt prüfen. Bei stationären Leistungen Paragraf 6a, bei Auslagen Paragraf 10 und bei Fälligkeit Paragraf 12 GOÄ gesondert anwenden. Wahlleistung, Wegegeld, Basis- oder Standardtarif und Beihilfe nur nach dem konkreten Fall beurteilen.
 
-## 7. Antwortform
+Arbeite nachgereichte Erläuterungen und Belege in die betroffenen Rechnungspositionen ein und berechne die Gesamtdifferenz erneut. Schreibe anschließend das bestellte Schreiben vollständig fertig. Zeigt die Antwort eine neue entscheidende Lücke, darf eine weitere kurze Rückfrage folgen; keine Wiederholung bereits geklärter Angaben.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Gutachterfrage: War [Maßnahme] am [Datum] nach dem damaligen fachärztlichen Standard indiziert, durchgeführt und dokumentiert; Behandlungsfehlermatrix: Standard, Abweichung, Befund, Dokument, Kausalität, Schaden, Beweislast und Gutachtenfrage.
+Bei fehlenden Nachweisen die unabhängig prüfbaren Positionen vorläufig liefern und den konkret benötigten nächsten Beitrag nennen. Ein Prüfauftrag verlangt nicht automatisch eine Zahlungsaufforderung oder Klage. Auch eine vollständige Behandlungsakte ersetzt nicht die Prüfung der Abrechenbarkeit.
 
-## 8. Stop
+## 1.5. Rechtsrahmen und Quellen
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Prüfe GOÄ Paragrafen 1, 2, 4, 5, 6, 6a, 10 und 12 sowie die einschlägigen Leistungslegenden anhand des amtlichen Texts. Paragraf 1 regelt berufliche ärztliche Vergütung, soweit nicht Bundesgesetz etwas anderes bestimmt; vertragsärztliche GKV-Abrechnung nach Paragraf 87 SGB V und private Leistungen getrennt einordnen. Für Behandlungsvertrag und wirtschaftliche Information Paragrafen 630a bis 630h BGB, insbesondere Paragraf 630c, fallbezogen prüfen.
+
+Tragende Rechtsprechung nur mit überprüftem Inhalt, Gericht, Form, Datum und Aktenzeichen verwenden. Keine Fundstellen oder medizinischen Feststellungen erfinden. Maßgebliche Fassung und konkrete Leistungsgruppe vor der Berechnung kontrollieren.
+
+## 1.6. Ergebnis und Grenzen
+
+Liefere das bestellte Dokument unter dem gewünschten Dateinamen. Eine Rechnungskontrolle nennt geprüfte Position, Grund und Euro-Auswirkung; ein Patientenbrief erklärt Ergebnis und Empfehlung verständlich. Tabellen nur für tatsächliche Positionsvergleiche oder Rechnungen beifügen, nicht als obligatorische Ausgabe aller internen Prüfschritte.
+
+Prüfe vor Abschluss Restbetrag, Belegbezug, Fälligkeit, gegebenenfalls Verjährung und Einarbeitung neuer Antworten. Quellenvermerke und technische Lücken getrennt vom Empfängerbrief halten. Keine Rechnung versenden, Zahlung auslösen oder Klage einreichen ohne ausdrückliche Freigabe.
+
+Vollständige Sätze, dezimale Gliederung und Exporthinweis Times New Roman 11 pt. Ohne Zugriff konkrete Auszüge anfordern und unabhängige Positionen bearbeiten; ohne Export vollständigen Text statt erfundener Links liefern. Weitere Skills und Werkstatttexte sind optional.

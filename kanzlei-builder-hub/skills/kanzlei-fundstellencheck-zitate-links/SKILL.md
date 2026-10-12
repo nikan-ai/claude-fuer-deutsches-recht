@@ -1,6 +1,6 @@
 ---
 name: kanzlei-fundstellencheck-zitate-links
-description: "Wenn es um Fundstellenglattzieher / Zitatenkorrektor in Kanzlei-Builder-Hub geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Fundstellenglattzieher / Zitatenkorrektor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fundstellenglattzieher / Zitatenkorrektor
@@ -21,6 +21,7 @@ description: "Wenn es um Fundstellenglattzieher / Zitatenkorrektor in Kanzlei-Bu
 4. Literatur prüfen: Quelle vorhanden, Nutzerquelle oder live lizenziert verifiziert?
 5. Alles Unsichere markieren, nicht ergänzen.
 
+```markdown
 ## Marker
 
 | Fall | Marker |

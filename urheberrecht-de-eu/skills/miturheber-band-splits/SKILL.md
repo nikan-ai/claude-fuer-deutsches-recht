@@ -1,6 +1,6 @@
 ---
 name: miturheber-band-splits
-description: "Wenn es um Miturheber, Band und Split-Sheets in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Miturheber, Band und Split-Sheets: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Miturheber, Band und Split-Sheets
@@ -20,7 +20,7 @@ description: "Wenn es um Miturheber, Band und Split-Sheets in Urheberrecht DE EU
 
 ## Wofür dieser Arbeitsgang da ist
 
-Miturheber, Band und Split-Sheets schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Untersuche die Beiträge der Bandmitglieder und die vereinbarten Beteiligungen anhand der Split-Sheets und Entstehungsnachweise. Ordne Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke ein und begründe damit das verlangte Ergebnis zur Miturheberschaft und Verteilung.
 
 ## Sofortstart
 

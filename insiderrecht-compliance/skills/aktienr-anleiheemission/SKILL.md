@@ -1,6 +1,6 @@
 ---
 name: aktienr-anleiheemission
-description: "Wenn es um Aktienrückkaufprogramme – MAR Safe Harbour und Compliance in Insiderrecht Compliance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Aktienrückkaufprogramme – MAR Safe Harbour und Compliance: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aktienrückkaufprogramme – MAR Safe Harbour und Compliance
@@ -81,26 +81,3 @@ Safe Harbour prüfen.
 Weitere Quellen:
 - DVO (EU) 2016/1052: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1052
 - §§ 71 ff. AktG: https://www.gesetze-im-internet.de/aktg/__71.html
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 119 WpHG
-- § 97 WpHG
-- § 120 WpHG
-- § 93 AktG
-- § 50 WpHG
-- § 10 WpÜG
-- § 4 WpHG
-- § 98 WpHG
-- § 80 WpHG
-- § 116 AktG
-- § 39 BörsG
-- § 89 KWG
-
-### Leitentscheidungen
-
-- EuGH C-19/11
-- EuGH C-628/13
-- BGH II ZB 26/12

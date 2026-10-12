@@ -1,6 +1,6 @@
 ---
 name: kollegialitaetsgebot-kompetenz-zweifel
-description: "Wenn es um Kollegialitätsgebot-Prüfung in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Kollegialitaetsgebot Kompetenz Zweifel; Arbeitsfeld: E-Mail-Umformulierer."
+description: "Für Kollegialitätsgebot-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kollegialitätsgebot-Prüfung
@@ -30,8 +30,6 @@ Prüft Korrespondenz gezielt auf Einhaltung des anwaltlichen Kollegialitätsgebo
 4. Hat die Gegenseite ihrerseits das Kollegialitaetsgebot verletzt — und verleitet das zur Erwiderung?
 
 ## Aktuelle Rechtsprechung
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
@@ -70,3 +68,5 @@ Schritt 1: Kommt der Name oder die Berufsbezeichnung eines Kollegen im Schreiben
 
 **Vorher:** "Der Herr Kollege sollte vielleicht nochmal die Grundlagen studieren."
 **Nachher:** Streichen oder ersetzen durch: "Ich erlaube mir, auf folgende Rechtsprechung hinzuweisen, die für den Sachverhalt einschlägig sein dürfte..."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: schriftsatzkern-substantiierung
-description: "Wenn es um Schriftsatzkern Substantiierung in Fachanwalt Transport Speditionsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Schriftsatzkern Substantiierung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Fachanwalt Transport Speditionsrecht."
 ---
 
 # Schriftsatzkern im Transport- und Speditionsrecht substantiieren: Tatsachenvortrag, Normzitate
@@ -208,4 +208,4 @@ Vor Versand:
 
 ## Aktuelle Rechtsprechung Schriftsatz Transportrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

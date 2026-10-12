@@ -1,6 +1,6 @@
 ---
 name: lohnsteuer-sozialversicherung
-description: "Wenn es um Lohnsteuer Sozialversicherung in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Lohnsteuer Sozialversicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Beurteilt den sozialversicherungsrechtlichen Status (Scheinselbständigkeit, Paragraf 7a SGB IV) und lohnsteuerliche Fragen im Arbeitsverhältnis
@@ -8,7 +8,7 @@ description: "Wenn es um Lohnsteuer Sozialversicherung in Arbeitsrecht geht: pr�
 
 ## Arbeitsbereich
 
-**Kueschk Annahmeverzug Lohnsteuer** ordnet den Fall über die tragenden Prüfungslinien: Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG, Beurteilt den sozialversicherungsrechtlichen Status, Paragraf 7a. Arbeite zuerst die tragende Rechtsfrage heraus; Nebenaspekte werden nur verarbeitet, soweit sie Frist, Zuständigkeit, Beweislast oder das konkrete Arbeitsprodukt tatsächlich beeinflussen.
+**Status, Beiträge und Lohnsteuer** werden getrennt geprüft: Beschäftigung nach Paragraf 7 SGB IV, Anfrageverfahren nach Paragraf 7a SGB IV, Beitragsschuld und Verjährung nach Paragrafen 28e und 25 SGB IV sowie lohnsteuerliche Arbeitgeberpflichten nach dem EStG. Strafrechtliche Risiken nach Paragraf 266a StGB werden nur nach geklärtem Status, Fälligkeit, Vorsatz und belastbarer Beitragsberechnung bewertet.
 
 ## Arbeitsweg
 
@@ -24,8 +24,6 @@ description: "Wenn es um Lohnsteuer Sozialversicherung in Arbeitsrecht geht: pr�
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Lohnsteuer und Sozialversicherung – Statusfeststellung und Scheinselbständigkeit` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -63,16 +61,12 @@ Dient der Beurteilung des sozialversicherungsrechtlichen Beschäftigtenstatus so
 ### Leitentscheidungen (BGH-Stil)
 
 - **Abgrenzungskriterien abhängige Beschäftigung / Selbständigkeit:**
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - **Einzelfallabwägung / unternehmerisches Risiko:**
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - **Rückwirkung des Statusfeststellungsbescheids:**
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - **Paragraf 266a StGB / Vorsatz:**
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -94,7 +88,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | Eigene Arbeitnehmer | Keine eigenen AN | Beschäftigt eigene AN |
 | Auftreten am Markt | Kein Auftritt als Unternehmer | Eigene Werbung, Kunden etc. |
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Vertragswortlaut ist nicht maßgeblich**, wenn tatsächliche Durchführung abweicht.
 
 ### Schritt 2 – Statusfeststellungsverfahren (Paragraf 7a SGB IV)
@@ -118,7 +111,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 **Strafrechtlich:**
 - Paragraf 266a StGB: Strafbarkeit des Arbeitgebers (Geschäftsführer, Vorstand) bei vorsätzlichem Vorenthalten von Beiträgen; Freiheitsstrafe bis zu 5 Jahren oder Geldstrafe.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Selbstanzeige / Nachentrichten: Bei Paragraf 266a StGB existiert – anders als bei Paragraf 371 AO – keine strafbefreiende Selbstanzeige; freiwillige Nachzahlung ist aber strafmildernd.
 
 ### Schritt 4 – Gestaltungsoptionen und Risikominimierung
@@ -133,7 +125,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 - Freiberufler nach Paragraf 18 EStG unterliegen keiner Gewerbesteuer, jedoch ggf. der SV-Pflicht als Beschäftigte, wenn Eingliederung vorliegt.
 - Künstlerische und publizistische Tätigkeiten → Künstlersozialversicherung (KSVG) prüfen: Abgabepflicht des Auftraggebers (Paragrafen 24, 25 KSVG).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beispiel
 
@@ -142,11 +133,9 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 **Ergebnis:** Erhebliche Indizien sprechen für abhängige Beschäftigung, Scheinselbständigkeit liegt nahe.
 
 **Bewertung:**
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Eingliederung:* F ist in die Organisation der U-GmbH eingebunden (Projektmanagement, fremde IT).
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Empfehlung:* Statusfeststellungsverfahren nach Paragraf 7a SGB IV sofort prüfen; SV-Beitragsrisiko nach Paragraf 25 SGB IV sauber zeitlich aufbauen (regelmäßige Verjährung vier Jahre, bei vorsätzlich vorenthaltenen Beiträgen dreißig Jahre), Säumniszuschläge und strafrechtliches Risiko Paragraf 266a StGB getrennt dokumentieren. Keine Kommentarstelle aus Modellwissen zitieren; für Rechtsprechung `rechtsstand-mai-2026-faktenbank` laden.
 
@@ -175,3 +164,5 @@ Jede juristische Aussage in jedem auf diesem Skill basierenden Dokument ist nach
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei umstrittenen Fragen (z. B. Abgrenzung tatsächliche vs. vertragliche Verhältnisse) h. M. und Gegenauffassung getrennt nennen.
 - Halluzinationsrisiko: Alle Aktenzeichen und Fundstellen vor Einreichung bei DRV, Sozialgericht oder Finanzgericht verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

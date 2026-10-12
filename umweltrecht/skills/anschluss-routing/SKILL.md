@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Umweltrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Umweltrecht."
 ---
 
 # Anschluss-Routing
@@ -40,26 +40,3 @@ Dieses Anschluss-Routing für **Umweltrecht** wählt nach dem ersten Ergebnis di
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 BImSchG
-- § 70 VwGO
-- § 10 BImSchG
-- § 2 UmwRG
-- § 24 BBodSchG
-- § 74 VwGO
-- § 4 BBodSchG
-- § 34 BNatSchG
-- § 17 BImSchG
-- § 47 VwGO
-- § 44 BNatSchG
-- § 4 KrWG
-
-### Leitentscheidungen
-
-- EuGH C-243/15
-- BGH I ZR 98/23
-- BGH I ZR 142/23

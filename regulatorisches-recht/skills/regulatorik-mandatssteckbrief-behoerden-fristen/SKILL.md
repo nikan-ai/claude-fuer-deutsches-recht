@@ -1,6 +1,6 @@
 ---
 name: regulatorik-mandatssteckbrief-behoerden-fristen
-description: "Wenn es um Regulatorisches Mandat: Behörden, Fristen und Rollen in Regulatorisches Recht – Plugin für deutsches geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Regulatorisches Mandat: Behörden, Fristen und Rollen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Regulatorisches Mandat: Behörden, Fristen und Rollen
@@ -122,7 +122,7 @@ Relevante Berufsrechtsnormen:
 
 ## Beispiel
 
-**Eingabe:** `/regulatorisches-recht:regulatorisches-recht-mandat-arbeitsbereich neu`
+**Eingabe:** `/regulatorisches-recht:mandat-arbeitsbereich neu`
 
 **Ausgabe:**
 ```
@@ -150,8 +150,9 @@ Nächster Schritt: /regulatorisches-recht:lücken-aufzeiger
 - **Mandantengeheimnis:** Inhalte aus `mandat.md` und den mandat-spezifischen Trackern sind vertraulich nach § 43a Abs. 2 BRAO. Nie in gemeinsame Kontexte oder Protokolle exportieren.
 ## Aktuelle Rechtsprechung & Leitsätze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Kernnormen:** §§ 611-630 BGB (Dienstvertrag, Mandatsrecht) — §§ 48-49 VwVfG — §§ 3-7 BORA (Berufsrecht Rechtsanwaelte)
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

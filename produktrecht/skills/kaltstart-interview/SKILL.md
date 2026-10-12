@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um /kaltstart-interview in Produkthaftung und Produktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht."
 ---
 
 # /kaltstart-interview
@@ -18,11 +18,9 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Produktrecht-Setup zuerst sichern
 
-Vor dem allgemeinen Kaltstart immer zuerst das Produktrecht-Profil sichern:
+Vor dem allgemeinen Kaltstart das Produktrecht-Profil sichern, soweit die Umgebung den Konfigurationszugriff tatsächlich erlaubt. Ohne Dateizugriff keine Pfade ausprobieren oder eine Migration behaupten: mit bereitgestelltem Profil oder dem laufenden Auftrag arbeiten, fehlende Kalibrierung kennzeichnen und das Profil auf Wunsch als Text ausgeben. Die folgenden Dateischritte gelten nur bei verfügbarem Zugriff; `--redo` und `--check-integrations` behalten ihre getrennte Bedeutung.
 
 1. Zustand von `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` prüfen.
 2. Wenn dort bereits ein ausgefülltes Profil ohne `[PLATZHALTER]`-Marker liegt und kein `--redo` gesetzt ist, kein neues Interview starten; Profil lesen und mit der laufenden Aufgabe arbeiten.
@@ -30,7 +28,7 @@ Vor dem allgemeinen Kaltstart immer zuerst das Produktrecht-Profil sichern:
 4. Wenn dort kein ausgefülltes Profil liegt, unter dem alten Cache-Pfad des Produktrecht-Plugins nach einer ausgefüllten `CLAUDE.md` ohne `[PLATZHALTER]`-Marker suchen.
 5. Wenn ein solches Altprofil existiert, es nach `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` kopieren; übergeordnete Verzeichnisse bei Bedarf erstellen und dem Nutzer knapp zeigen, was migriert wurde.
 6. Erst wenn weder Konfigurationsprofil noch migrierbares Altprofil vorhanden ist, das Kaltstart-Interview unten durchführen.
-7. Für den vollständigen Setup-Pfad Seed-Dokumente einbeziehen: zehn vergangene Launch-Review-Dokumente aus Tracker oder Dokumentenspeicher lesen und daraus die Risikokalibrierungstabelle aufbauen, nämlich was tatsächlich blockiert wurde und was geshippt wurde.
+7. Nur für das ausdrücklich vollständige Setup vergangene Launch-Reviews einbeziehen: zunächst Metadaten, dann bis zu drei einschlägige Reviews lesen und die vorläufige Kalibrierung zeigen. Für erkennbare Lücken auf bis zu zehn Reviews erweitern; fehlende Dokumente oder Konnektoren sperren nicht den aktuellen Produktreview. Tatsächliche Blockierungen und Freigaben getrennt erfassen.
 8. Beim Schreiben von `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` die Kalibrierungstabelle zur Bestätigung zeigen.
 
 ## `--check-integrations`
@@ -58,13 +56,9 @@ Nach `~/.claude/plugins/config/claude-fuer-deutsches-recht/unternehmens-profil.m
 - **Wenn vorhanden:** Lesen. Einzeilige Bestätigung zeigen: "Sie sind [Name], [Praxissetting], bei [Unternehmen], [Branche], tätig in [Jurisdiktionen]. Stimmt das? (Oder sagen Sie 'aktualisieren' um das gemeinsame Profil zu ändern.)" Wenn bestätigt, Unternehmensfragen überspringen – direkt zu plugin-spezifischen Fragen.
 - **Wenn nicht vorhanden:** Dieses Plugin ist das erste das der Nutzer einrichtet. Nach Orientierung und Verzweigung die Unternehmensfragen stellen und das gemeinsame Profil schreiben.
 
-## Installationsumfang-Prüfung
+## Tatsächlichen Dateizugriff beachten
 
-Vor der Orientierung, wenn das Arbeitsverzeichnis innerhalb eines Projekts (nicht dem Home-Verzeichnis) liegt, einmal darauf hinweisen:
-
-> **Hinweis – dieses Plugin scheint projektbegrenzt zu sein, was bedeutet ich kann nur Dateien in [aktuelles Verzeichnis] lesen. Wenn Sie Dokumente von anderen Speicherorten möchten (Downloads, Dokumente, Dropbox), installieren Sie nutzerbegrenzt – vgl. QUICKSTART.md.**
-
-Bestätigung des Nutzers abfragen: mit Projektumfang fortfahren oder pausieren um nutzerbegrenzt neu zu installieren.
+Aus dem Arbeitsverzeichnis lässt sich die Zugriffsberechtigung nicht ableiten. Mit den tatsächlich freigegebenen Produktunterlagen arbeiten. Nur wenn eine konkret benötigte Datei fehlt oder ihr Abruf abgelehnt wird, genau diese Unterlage anfordern. Nicht vorsorglich eine Neuinstallation oder weitergehende Berechtigungen verlangen; ein fehlendes Archiv sperrt nicht den Review eines vorhandenen Launch-Dokuments.
 
 ## Vor dem Interview
 
@@ -86,7 +80,7 @@ Sobald der Nutzer gewählt hat, orientieren:
 
 Nicht das persönlichen KI-Tool-Verlauf, andere Gespräche oder die Home-Verzeichnis-Konfigurationsdatei des Nutzers lesen um das Interview vorzufüllen.
 
-**Schnell-Pfad:** Nur Teil 0 fragen (Rolle, Praxissetting, Integrationen) und Produktbereich. Konfiguration mit `[STANDARD]`-Markern für alles andere schreiben. Abschließen mit: "Fertig. Sie können jetzt die Befehle nutzen. Ich habe vernünftige Standards für Launch-Review-Framework, Risikokalibrierung und Werbeaussagen-Haltung verwendet. Wenn eine Skill-Ausgabe falsch wirkt, ist das normalerweise ein Standard den Sie einstellen sollten – er wird Ihnen sagen welcher. Führen Sie `/produktrecht:produktrecht-kaltstart-interview --full` jederzeit aus um das vollständige Interview zu machen."
+**Schnell-Pfad:** Nur Teil 0 fragen (Rolle, Praxissetting, Integrationen) und Produktbereich. Konfiguration mit `[STANDARD]`-Markern für alles andere schreiben. Abschließen mit: "Fertig. Sie können jetzt die Befehle nutzen. Ich habe vernünftige Standards für Launch-Review-Framework, Risikokalibrierung und Werbeaussagen-Haltung verwendet. Wenn eine Skill-Ausgabe falsch wirkt, ist das normalerweise ein Standard den Sie einstellen sollten – er wird Ihnen sagen welcher. Führen Sie `/produktrecht:kaltstart-interview --full` jederzeit aus um das vollständige Interview zu machen."
 
 **Vollständiger Setup-Pfad:** der bestehende Interviewablauf unten.
 
@@ -279,7 +273,6 @@ Vor den strukturierten Fragen: "Haben Sie ein bestehendes Launch-Review-Framewor
 
 ## Zentrale Normen & Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Kernnormen:** §§ 312 ff. BGB — §§ 1-4 ProdHaftG — §§ 5-6 DDG — § 11 PAngV — EU AI Act
 
@@ -371,7 +364,7 @@ Vor den strukturierten Fragen: "Haben Sie ein bestehendes Launch-Review-Framewor
 
 ---
 
-*Neu ausführen: `/produktrecht:produktrecht-kaltstart-interview --redo`*
+*Neu ausführen: `/produktrecht:kaltstart-interview --redo`*
 ```
 
 ## Nach dem Schreiben
@@ -398,5 +391,5 @@ Wenn ja, diese maßgeschneiderte Liste zeigen:
 - **"Wir haben das nie blockiert" nicht mit "das ist in Ordnung" verwechseln.** Manchmal haben sie das Problem einfach nie getroffen. Markieren: `[UNGETESTET – dieses Problem ist in Seed-Reviews nicht aufgetaucht, Kalibrierung ist eine Schätzung]`.
 - **PRDs statt Review-Dokumente lesen ist ein Fehler.** Das PRD sagt was das Feature tut. Das Review-Dokument sagt was der Anwalt besorgt hat. Sie wollen das zweite.
 
-<!-- AUDIT 27.05.2026 bundle_040
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

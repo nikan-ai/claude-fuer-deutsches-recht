@@ -1,6 +1,6 @@
 ---
 name: anhoerung-red-team-und-qualitaetskontrolle
-description: "Wenn es um Anhörung: Red-Team und Qualitätskontrolle in Regulatorisches Recht – Plugin für deutsches geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anhörung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Anhörung: Red-Team und Qualitätskontrolle
@@ -47,24 +47,6 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
-## Normen und Rechtsprechung
+## Vertiefung bei Bedarf
 
-### Kuratierte Normen-Bibliothek
-
-- § 18 UStG
-- § 25a KWG
-- § 4 RDGEG
-- § 13d RDG
-- § 203 StGB
-- Art. 288 AEUV
-- § 25b KWG
-- § 1 ZAG
-- § 13 RDG
-- § 10 ZAG
-- Art. 80 AEUV
-- § 17 UStG
-
-### Leitentscheidungen
-
-- EuGH C-6/64
-- EuGH C-117/20
+- Bei `spezial-anhoerung-red-team-und-qualitaetskontrolle` beziehungsweise Anhoerung: Red-Team und Qualitätskontrolle: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-anhoerung-red-team-und-qualitaetskontrolle.md).

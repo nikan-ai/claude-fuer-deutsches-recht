@@ -1,6 +1,6 @@
 ---
 name: flughafen-register-auswerten
-description: "Wenn es um Flughafen – Register auswerten in Luftrecht und Flughafenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Flughafen – Register auswerten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Flughafen – Register auswerten
@@ -69,7 +69,7 @@ Die Registerauswertung ist Grundlage jeder luftrechtlichen Due-Diligence-Prüfun
 
 - **Luftfahrzeugrolle (LBA)**: Enthält Halter Eigentümer Kennzeichen und Belastungen; Abruf online beim LBA möglich.
 - **AG Braunschweig (Pfandrechtsregister)**: Führt alle eingetragenen Pfandrechte an deutschen Luftfahrzeugen; Rangfolge nach Eintragungsdatum.
-- **ICAO International Registry (Cape Town)**: Enthält internationale Sicherungsinteressen; Suche nach Luftfahrzeugkennzeichen und MSN.
+- **International Registry (Cape Town)**: Enthält internationale Sicherungsinteressen; Suche nach Luftfahrzeugkennzeichen und MSN.
 - **Registerauszug Aktualität**: Stets aktuellen Auszug anfordern; veraltete Auszüge führen zu Haftungsrisiken.
 
 ## Quellen
@@ -95,7 +95,7 @@ Für Mandate im Bereich Flughafenbetrieb und Planfeststellung sind folgende Doku
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

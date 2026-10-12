@@ -1,6 +1,6 @@
 ---
 name: gutachterkommission-aek-schlichtung
-description: "Wenn es um Gutachterkommission Aek Schlichtung in Fachanwalt Medizinrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Gutachterkommission ÄK Schlichtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gutachterkommissionen und Schlichtungsstellen der Aerztekammern bei Arzthaftung nutzen: Anwendungsfall Patient oder Anwalt erwägt Schlichttungsverfahren vor Aerztekammer als kostenguenstige Alternative zur Klage
@@ -39,10 +39,6 @@ description: "Wenn es um Gutachterkommission Aek Schlichtung in Fachanwalt Mediz
 - **Schlichtungsordnungen** der Landesärztekammern (z. B. Norddeutsche Schlichtungsstelle)
 - **VersR** Berufshaftpflicht
 - **§ 84 SGB X** — MDK-Verfahren
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## ADR-Pfade
 
@@ -117,7 +113,6 @@ description: "Wenn es um Gutachterkommission Aek Schlichtung in Fachanwalt Mediz
 
 ## Strategie und Taktik
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Aufklärungsmangel**: Arzt muss beweisen, dass aufgeklärt wurde (Aufklärungsbogen + Gesprächs-Protokoll)
 - **Dokumentations-Mangel**: indizielle Wirkung gegen Arzt
 - **Schmerzensgeld-Tabellen** Hacks/Beck (Orientierung)
@@ -130,10 +125,6 @@ description: "Wenn es um Gutachterkommission Aek Schlichtung in Fachanwalt Mediz
 Stand: 05/2026. §§ 630a-h BGB seit 2013. Schlichtungsordnungen 2024 aktualisiert. BGH-Linien stabil.
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Paragrafenkette
 
@@ -233,3 +224,4 @@ Anlagen: Patientenakte, Privatgutachten (falls vorhanden), Vollmacht
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

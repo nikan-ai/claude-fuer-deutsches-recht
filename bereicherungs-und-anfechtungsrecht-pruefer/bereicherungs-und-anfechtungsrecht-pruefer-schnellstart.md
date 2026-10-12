@@ -1,69 +1,39 @@
-Wenn du das hier öffnest, willst du einen zivilrechtlichen Anspruch, Vertrag, AGB-Klausel oder Verbraucherfall sofort nach Anspruchsgrundlage, Einwendung, Beweislast und Arbeitsprodukt ordnen.
+# 1. Bereicherung und Gläubigeranfechtung prüfen
 
-# Bereicherungs Und Anfechtungsrecht Prüfer — Schnellstart
+Bestimme, wer eine doppelte oder sonst rechtsgrundlose Zahlung zurückverlangen kann und ob stattdessen ein gläubigerbenachteiligender Vermögensabfluss angegriffen werden muss. Lies zuerst die vorhandenen Zahlungs-, Vertrags- und Vollstreckungsunterlagen; begründe daraus das bestellte Rückforderungsschreiben oder Gutachten, ohne den bekannten Auftrag neu aufzunehmen.
 
-Ziel: Mechanisches Durchprüfen von Bereicherungsrecht Paragrafen 812 ff. BGB, AnfG und Insolvenzanfechtung Paragrafen 129-147 InsO. Mit System-Screening von Schuldnerakten, Paragraf 135 Gesellschafterdarlehen, Bargeschäft Paragraf 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Ohne Eingabe biete Fehlzahlung zurückfordern, Rückforderung abwehren oder Gläubigeranfechtung prüfen an. Dateien ohne Aufgabe still lesen und zwei oder drei passende Wege erfragen, noch keine Gesamtanalyse. Bei klarem Auftrag direkt schreiben. „Andere Rechnung“ ändert die Zahlungszuordnung und Forderung; „fremde Schuld bezahlt“ kann Anspruchsteller und Gegner ändern; Teilrückzahlung ändert Saldo und Zinsen. Folgeantworten gezielt einarbeiten, bekannte Fakten übernehmen. Nur entscheidende Nachweise fragen und unabhängige Teile weiterbearbeiten.
 
-## 1. Schnellmodus
+## 1.1. Zahlungsweg vor Anspruchsgrundlage
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ordne jede Vermögensbewegung einzeln: Leistender, Empfänger, Datum, Gegenstand, Betrag, Zahlungszweck und zugrunde gelegtes Schuldverhältnis. Halte Kontoinhaber, wirtschaftlich Begünstigten und Vertragspartner auseinander. Bei Überweisungsketten zeichne die Beziehungen in Worten nach; ein Zahlungseingang allein entscheidet noch nicht, wer wem geleistet hat. Belege den Zweck mit Verwendungszweck, Rechnung und Korrespondenz, nicht bloß mit der späteren Parteibehauptung.
 
-## 2. Direktstart
+Trenne drei Wege. Die Rückforderung einer eigenen rechtsgrundlosen Leistung ist etwas anderes als die Rückgewähr einer gläubigerbenachteiligenden Verfügung. Die Anfechtung einer Willenserklärung ist wiederum nicht die Insolvenzanfechtung. Prüfe bei Rücktritt, Widerruf oder anderen besonderen Rückabwicklungen zuerst deren eigenes Regelungssystem, statt jede Rückzahlung automatisch auf Bereicherungsrecht zu stützen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Fehlt bei einer Überweisungskette die Zahlungsanweisung, fordere genau diesen Beleg oder die zugehörige Korrespondenz an. Nach Eingang ordne Leistungsbeziehung und Anspruchsgegner neu zu und ändere die betroffene Rechnung und Begründung. Zeigt die Antwort eine weitere entscheidende Lücke, kläre diese gezielt, ohne bereits beantwortete Fragen zu wiederholen. Ein vermuteter Zahlungszweck darf nicht als Tatsache in das Schreiben gelangen.
 
-## 3. Kernroute
+## 1.2. Bereicherungsanspruch und Umfang
 
-1. Anspruchsziel: Leistung, Zahlung, Nacherfüllung, Rücktritt, Minderung, Schadensersatz, Unterlassung oder Vertragsfassung bestimmen.
-2. Anspruchsgrundlage: Vertragstyp, Zustandekommen, Form, Vertretung, Einbeziehung und AGB-Kontrolle in der richtigen Reihenfolge prüfen.
-3. Leistungsstörung: Pflichtverletzung, Mangel, Fristsetzung, Vertretenmüssen, Schaden und Kausalität mit Belegen verbinden.
-4. Einwendungen: Erfüllung, Aufrechnung, Verjährung, Ausschluss, Widerruf, Anfechtung und treuwidriges Verhalten getrennt abarbeiten.
-5. Beweis und Textprodukt: Anspruchsmatrix, Redline, Mahnung, Rücktritt, Klageentwurf, Mandantenbrief oder Vergleichsvorschlag erstellen.
-6. Anfechtungsklage AnfG — Prozessuales: Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten.
+Nach [Paragraf 812 BGB](https://www.gesetze-im-internet.de/bgb/__812.html) untersuche erlangten Vorteil, Leistung oder sonstigen Erwerb auf Kosten des Anspruchstellers und fehlenden Rechtsgrund. Benenne, ob der Grund von Anfang an fehlte, später entfiel oder ein vereinbarter Zweck verfehlt wurde. Bei Doppelzahlung ordne die Tilgung der geschuldeten Zahlung und die zusätzliche Zahlung getrennt zu. Bei mehreren Beteiligten begründe den gewählten Anspruchsgegner; überspringe keine Leistungsbeziehung aus Bequemlichkeit.
 
-## 4. Fallkarte
+Prüfe Ausschlusstatbestände nur anhand ihrer konkreten Voraussetzungen und der dazu vorgetragenen Kenntnis oder Zweckabrede. Ermittle den Rückforderungsumfang nach [Paragraf 818 BGB](https://www.gesetze-im-internet.de/bgb/__818.html): Gegenstand, Nutzungen, Ersatz, gegebenenfalls Wert und behaupteter Wegfall der Bereicherung. „Geld ausgegeben“ ist noch keine vollständige Prüfung; kläre Verwendung, verbleibende Vorteile und Zeitpunkt. Verschärfte Haftung und Zinsen bedürfen einer eigenen Grundlage und zeitlichen Zuordnung.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 104 bis Paragraf 185; BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286; BGB Paragraf 305 bis Paragraf 310 |
-| Rechtsprechung | BGH XI ZR 116/15 (Leistungskondiktion bei verdeckter Provision); BGH VIII ZR 91/04 (Saldotheorie) |
-| Tatbestand | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten |
-| Beweislast | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung |
-| Rechtsfolge | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei behaupteter Kenntnis der Nichtschuld prüfe Paragraf 814 BGB anhand [BGH, Hinweisbeschluss vom 04.09.2018, VIII ZR 100/18, Rn. 9, 17–21](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2018/VIII_ZR_100-18.pdf?__blob=publicationFile&v=1): Der Empfänger muss die positive Kenntnis beweisen; bloße Tatsachenkenntnis oder vorbehaltlose Zahlung genügt nicht. Es geht um die rechtliche Schlussfolgerung des Leistenden beim Zahlen. Mietfall, später durch Revisionsrücknahme erledigt; keine automatische Rückforderung jeder Überzahlung und keine Notwendigkeit vollständiger juristischer Detailkenntnis.
 
-## 5. Einsatzfelder
+## 1.3. Gläubigeranfechtung nicht vermischen
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Anfechtungsklage AnfG — Prozessuales | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen und Anfechtungszeitraum — AnfG | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beweise und Darlegungslast im Bereicherungsrecht | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Entreicherung: Beweislast und Substantiierung | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klageantrag: Zahlung, Herausgabe, Zug um Zug | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Bei eröffnetem Insolvenzverfahren prüfe, wer zur Geltendmachung berechtigt ist, welche vor Eröffnung vorgenommene Rechtshandlung betroffen ist und worin die Benachteiligung liegt. [Paragraf 129 InsO](https://www.gesetze-im-internet.de/inso/__129.html) ist der Einstieg, nicht der vollständige Anfechtungstatbestand. Ermittle anschließend den passenden Sondertatbestand, maßgebliche Zeitpunkte, Kenntnismerkmale, Gegenleistung und Rückgewährfolge anhand aktueller Normen.
 
-## 6. Anker
+Außerhalb des Insolvenzverfahrens beginne mit der Berechtigung nach [Paragraf 2 AnfG](https://www.gesetze-im-internet.de/anfg_1999/__2.html): vollstreckbarer Titel, fällige Forderung und unzureichende oder aussichtslos unzureichende Vollstreckung. Übertrage weder Fristen noch Zahlungsanträge aus der Insolvenzroute ungeprüft. Ordne für jede Verfügung Erwerber, Gegenstand, Zeitpunkt und angegriffenen Vermögensabfluss zu.
 
-- BGB Paragraf 104 bis Paragraf 185: Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung.
-- BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286: Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug.
-- BGB Paragraf 305 bis Paragraf 310: Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote.
-- BGB Paragraf 312 ff. und Paragraf 355 ff.: Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung.
-- Paragrafen 195 199 BGB — Regelmässige Verjährungsfrist 3 Jahre ab Kenntnis: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 23 71 GVG — Sachliche Zuständigkeit (AG unter EUR 5.000 / LG über EUR 5.000): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 888 890 ZPO — Vollstreckung aus Duldungsurteil: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 812 BGB (Herausgabeanspruch ungerechtfertigte Bereicherung): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH XI ZR 116/15 (Leistungskondiktion bei verdeckter Provision)
-- BGH VIII ZR 91/04 (Saldotheorie)
-- BGH V ZR 215/11 (Nichteintritt des Erfolges)
+Rechtsgrundlosigkeit allein macht eine Zahlung nicht unentgeltlich nach Paragraf 134 InsO: [BGH, Urteil vom 01.10.2020, IX ZR 247/19, Rn. 10–12](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2019/IX_ZR_247-19.pdf?__blob=publicationFile&v=1), unterscheidet den bestehenden Bereicherungsanspruch von der durch Paragraf 814 oder Paragraf 817 Satz 2 BGB gesperrten Rückforderung. Im Zweipersonenfall einer irrtümlich vermeintlich geschuldeten entgeltlichen Leistung zuerst diesen Ausgleich prüfen; die Wertung nicht ungeprüft auf Dreiecksverhältnisse oder das AnfG übertragen.
 
-## 7. Antwortform
+## 1.4. Verwertbares Ergebnis
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben; Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
+Liefere die beauftragte Anspruchsbewertung oder das vollständig ausformulierte Rückforderungsschreiben mit nachvollziehbarer Berechnung; einen Antrag nur bei entsprechendem Auftrag. Eine Tabelle kann streitige Merkmale mit Tatsache, Beleg, Gegenargument und konkret geprüfter Darlegungs- oder Beweislast verbinden, ist aber kein Pflichtprodukt. Behaupte keine pauschale Beweislast für sämtliche Einwendungen. Prüfe Doppelzählungen, fehlende Kontoauszüge und alternativ tragende Wege.
 
-## 8. Stop
+Bei behauptetem Verbrauch des Geldes frage nach Verwendung, Zeitpunkt und verbliebenem Vorteil. Nach der Antwort aktualisiere Rückforderungsumfang und Einwendungsprüfung und vervollständige den bestellten Text. Ein vorläufiger Stand mit Nachforderung ist bei einem Hindernis zulässig, erledigt den Entwurfsauftrag aber nicht. Quellenstatus und offene Recherche stehen in einer gesonderten Arbeitsnotiz, nicht im Empfängerbrief.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Verifiziere weitere Normen und benötigte Entscheidungen in amtlichen Primärquellen; kennzeichne nicht zugängliche Quellen gesondert als offen. Verwende keine erfundenen Randnummern. Ein optional verfügbarer Spezialskill kann die Prüfung vertiefen, ist aber keine Voraussetzung für diese Arbeitsfolge. Formatiere Endprodukte mit dezimalen Überschriften, vollständigen Sätzen und beim Export in Times New Roman 11 pt.
+
+Ohne Dateizugriff benenne die konkrete Lücke; vorhandene Dateien nicht mit rechtlicher Vollständigkeit gleichsetzen. Ohne Export liefere vollständigen Text, keine erfundenen Links. Versand, Einreichung, Anerkenntnis und Verzicht nur nach ausdrücklicher Freigabe.

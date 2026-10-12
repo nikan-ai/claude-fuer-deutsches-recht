@@ -1,6 +1,6 @@
 ---
 name: ip-klausel-pruefung
-description: "Wenn es um IP-Klausel-Prüfung in Plugin: Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für IP-Klausel-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # IP-Klausel-Prüfung
@@ -33,10 +33,6 @@ description: "Wenn es um IP-Klausel-Prüfung in Plugin: Gewerblicher Rechtsschut
 - **§§ 1–4 GeschGehG** — Geschäftsgeheimnis: Voraussetzungen, angemessene Schutzmaßnahmen
 - **§§ 4, 5 ArbnErfG** — Zuordnung von Arbeitnehmererfindungen (Patent-/Gebrauchsmusterrechte beim Arbeitgeber nach Inanspruchnahme)
 - **§§ 433 ff., 311, 280 BGB** — Gewährleistungs- und Haftungsregelungen bei Rechtsmängeln
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Kommentare
 
@@ -247,5 +243,4 @@ Bevor die Klauselanalyse beginnt, klaere:
 
 ## Aktuelle Rechtsprechung
 
-<!-- AUDIT 27.05.2026: 4 halluzinierte Leitentscheidungen geprüft und bereinigt.
-Frontmatter unverändert. Kein Commit. Bearbeiter: Halluzinations-Reparatur-Pipeline. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

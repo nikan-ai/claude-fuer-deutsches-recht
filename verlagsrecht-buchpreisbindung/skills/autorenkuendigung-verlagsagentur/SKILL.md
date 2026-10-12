@@ -1,6 +1,6 @@
 ---
 name: autorenkuendigung-verlagsagentur
-description: "Wenn es um Verl-026 · Autorenkündigung, Bestseller und Nachvergütung in Verlagsrecht und Buchpreisbindung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verl-026 · Autorenkündigung, Bestseller und Nachvergütung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verl-026 · Autorenkündigung, Bestseller und Nachvergütung
@@ -135,28 +135,3 @@ Behandelt zwei eng verwandte Konfliktfelder: Wann und wie kann ein Autor den Ver
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 41 UrhG
-- § 32d UrhG
-- § 32a UrhG
-- § 6 BuchPrG
-- § 32 UrhG
-- § 7 BuchPrG
-- § 38 UrhG
-- § 3 BuchPrG
-- § 31 UrhG
-- § 4 UrhG
-- § 14 UrhG
-- § 51 UrhG
-
-### Leitentscheidungen
-
-- EuGH C-174/15
-- BGH I ZR 198/13
-- BGH I ZR 136/20
-- EuGH C-299/23
-- EuGH C-202/12

@@ -1,6 +1,6 @@
 ---
 name: agb-haendlervertrag-luxus
-description: "Wenn es um AGB im Händlervertrag für Luxus-Selektivvertrieb in markenrecht-fashion-luxus geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für AGB im Händlervertrag für Luxus-Selektivvertrieb: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AGB im Händlervertrag für Luxus-Selektivvertrieb
@@ -26,7 +26,6 @@ Auch im B2B-Verhältnis gilt AGB-Kontrolle nach §§ 305 ff. BGB — aber mit de
 
 - **§§ 305-310 BGB:** AGB-Recht — § 305c (überraschende Klauseln), § 307 (Generalklausel Unangemessenheit), §§ 308/309 (Klauselkataloge — im B2B nicht direkt anwendbar, aber Indizwirkung)
 - **§ 310 I BGB:** B2B-Einschränkung — §§ 308/309 gelten nicht gegenüber Unternehmern; aber § 307 gilt (mit gelockertem Maßstab)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Art. 101 AEUV / § 1 GWB:** Händlervertrags-Klauseln müssen kartellrechtskonform sein (Preisbindungsverbot, Gebietsschutz — vgl. Skills `selektiver-vertrieb-coty` und `vertikale-preisbindung-vbe-vo`)
 - **MFN-Klauseln (Most Favoured Nation):** Verpflichtung des Händlers, klôtzzkètté gleich günstige oder bessere Konditionen zu gewähren wie anderen Marken — kartellrechtlich komplex (breite MFN vs. enge MFN)
 - **Europäische Kommission, Vertikalleitlinien 2022/C 248:** MFN-Klauseln Rn. 337-345
@@ -140,35 +139,8 @@ Bevor die Haendler-AGB finalisiert werden, klaere:
 3. Werden alle Marktanteile der Haendler geprueft — Freistellungsschwelle 30 % pro Haendler (Art. 2 Vertikal-GVO)?
 4. Ist die Vertragsstrafe-Kaskade verhaeltnismaessig (BGH-Prüfung § 343 BGB: Herabsetzung auf angemessenen Betrag)?
 
-## Aktuelle Rechtsprechung
+## Quellenkontrolle
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Deutsche Marke und Unionsmarke getrennt prüfen. Für absolute Schutzhindernisse insbesondere Paragraf 8 Markengesetz und Artikel 7 UMV, für Widerspruch und Verletzung die jeweils einschlägigen Tatbestände, Benutzungsschonfrist und Verfahrensregeln verwenden. Entscheidungen von Bundesgerichtshof, Bundespatentgericht, Gericht der Europäischen Union oder Gerichtshof der Europäischen Union nur mit konkretem Prüfmerkmal und verifizierter tragender Aussage zuordnen.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Quelle: dejure.org. Prufer: Bundle-005-Audit.
--->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 14 MarkenG
-- § 19 MarkenG
-- Art. 101 AEUV
-- § 8 MarkenG
-- § 49 MarkenG
-- § 66 MarkenG
-- § 18 MarkenG
-- § 107 MarkenG
-- § 42 MarkenG
-- § 25a ZollVG
-- § 1 PatG
-- § 50 MarkenG
-
-### Leitentscheidungen
-
-- BGH I ZB 22/20
-- BGH I ZR 149/14
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

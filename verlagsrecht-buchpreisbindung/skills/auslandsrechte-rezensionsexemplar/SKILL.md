@@ -1,6 +1,6 @@
 ---
 name: auslandsrechte-rezensionsexemplar
-description: "Wenn es um Verl-038 · Auslandsrechte, Sanktionen und Exportkontrolle in Verlagsrecht und Buchpreisbindung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verl-038 · Auslandsrechte, Sanktionen und Exportkontrolle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Verl-038 · Auslandsrechte, Sanktionen und Exportkontrolle
@@ -124,28 +124,3 @@ Verlage, die Lizenzen an ausländische Verlage vergeben, müssen **Sanktionsrech
 - **Länder-Risikomatrix**: Sanktions- und Exportkontrollrisiko je Zielmarkt
 - **KYC-Dokumentationsvorlage**
 - **Dual-Use-Prüfprotokoll** für technische Werke
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 41 UrhG
-- § 32d UrhG
-- § 32a UrhG
-- § 6 BuchPrG
-- § 32 UrhG
-- § 7 BuchPrG
-- § 38 UrhG
-- § 3 BuchPrG
-- § 31 UrhG
-- § 4 UrhG
-- § 14 UrhG
-- § 51 UrhG
-
-### Leitentscheidungen
-
-- EuGH C-174/15
-- BGH I ZR 198/13
-- BGH I ZR 136/20
-- EuGH C-299/23
-- EuGH C-202/12

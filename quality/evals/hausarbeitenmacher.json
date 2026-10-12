@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "plugin": "hausarbeitenmacher",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bverwg.de/030920B6B16.20.0",
+      "checked_on": "2026-09-22",
+      "supports": "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg. Grenze: Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen. Aufgabenbezogene materielle Rechtsfragen erfordern weitere Recherche; keine benotete Modellprüfung durchgeführt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Spezifischer Textprüfauftrag; sachfremde Berufsrechts- und Sorgfaltsanalogien sowie falsche Strafnorm entfernt; Fall- und Forschungsarbeit eigenständig aufgebaut.",
+    "changes": [
+      "Spezifischer Textprüfauftrag; sachfremde Berufsrechts- und Sorgfaltsanalogien sowie falsche Strafnorm entfernt; Fall- und Forschungsarbeit eigenständig aufgebaut.",
+      "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg. Grenze: Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "45b3e01a8f2584cf5b1083e3f676a8e1a3e4bd21ca187de921fa2cde032894b7"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Spezifischer Textprüfauftrag; sachfremde Berufsrechts- und Sorgfaltsanalogien sowie falsche Strafnorm entfernt; Fall- und Forschungsarbeit eigenständig aufgebaut.",
+    "changes": [
+      "Spezifischer Textprüfauftrag; sachfremde Berufsrechts- und Sorgfaltsanalogien sowie falsche Strafnorm entfernt; Fall- und Forschungsarbeit eigenständig aufgebaut.",
+      "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg. Grenze: Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen.",
+      "Ergebnisabhängigkeiten, geschlossener Sachverhalt, echte Streitfrage, historische Quellenklassifikation und vollständiges Feedback ohne Fremdleistung."
+    ],
+    "sha256": "63e10d6c24ec5e2e941dc5ea9e6198e640e61932a657319be41991d8e9bc4f66"
+  },
+  "selection": {
+    "positive": [
+      "Kommentiere meine selbst geschriebene Subsumtion für eine Hausarbeit.",
+      "Entwickle mit mir aus meinem Seminarthema eine eingrenzbare Forschungsfrage."
+    ],
+    "negative": [
+      "Verfasse eine fertige Prüfungsarbeit, die ich als eigene einreichen kann.",
+      "Erstelle eine Klageschrift für ein laufendes Mandat."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zeitplan-fallhausarbeit-ohne-fremdtext",
+      "request": "Ich schreibe eine zivilrechtliche Fallhausarbeit mit 20 Textseiten. Abgabe ist am 28. September; arbeiten kann ich am 15., 16., 18., 21., 22., 24. und 25. September jeweils vier Stunden. Die Aufgabenstellung ist abschließend und verbietet ergänzende Sachverhaltsannahmen. Erlaubt sind Gliederungsfeedback und Recherchehinweise, nicht fremdverfasste Abgabetexte. Meine bisherige Gliederung umfasst zwei Seiten zur Einleitung, zwölf Seiten Vertragsschluss und sechs Seiten Leistungsstörung; die Aufgabenfrage nennt ausdrücklich die Leistungsstörung als Schwerpunkt. Ich habe noch keine Quellen geprüft und keinen eigenen Fließtext geschrieben. Erstelle ergebnis.md als begründeten Arbeits- und Seitenplan und benenne die nächste eigene Schreibaufgabe. Keine Lösung des Falls und keine erfundenen Fußnoten.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Plant innerhalb der sieben genannten Arbeitstage mit insgesamt 28 Stunden und berücksichtigt Recherche sowie Schlusskontrolle ohne zusätzliche verfügbare Tage zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Schlägt nachvollziehbar mehr Raum für den ausdrücklich genannten Schwerpunkt Leistungsstörung vor, ohne eine konkrete Falllösung zu fingieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bleibt bei Lern- und Strukturhilfe, gibt eine eigene Schreibaufgabe und erzeugt weder abgabefähige Lösung noch angeblich bereits geprüfte Fußnoten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "hausarbeit-start"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "hausarbeitenmacher/hausarbeitenmacher-werkstatt.md",
+      "hausarbeitenmacher/hausarbeitenmacher-schnellstart.md"
+    ],
+    "opening_change": "Spezifischer Textprüfauftrag; sachfremde Berufsrechts- und Sorgfaltsanalogien sowie falsche Strafnorm entfernt; Fall- und Forschungsarbeit eigenständig aufgebaut.",
+    "norms": [
+      "Paragrafen 5a und 5d DRiG",
+      "Paragrafen 133 und 157 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Beschluss vom 03.09.2020, 6 B 16.20, Randnummern 10 und 15",
+        "url": "https://www.bverwg.de/030920B6B16.20.0",
+        "application": "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg.",
+        "limit": "Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen."
+      }
+    ],
+    "remaining_limits": [
+      "Aufgabenbezogene materielle Rechtsfragen erfordern weitere Recherche; keine benotete Modellprüfung durchgeführt.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Gliederung, Subsumtion oder Quellenkontrolle anbieten.",
+      "Aufgabe und eigene Fassung still lesen; zwei passende Kommentarwege anbieten.",
+      "Bestellten Textkommentar ohne künstlichen Übungsdialog liefern."
+    ],
+    "continuation": "Eigene neue Subsumtion -> abhängige Ergebnisse und Hilfsgutachten; eingesehene Quelle -> präzisen Nachweis und Streitdarstellung ändern.",
+    "enrichment": "Ergebnisabhängigkeiten, geschlossener Sachverhalt, echte Streitfrage, historische Quellenklassifikation und vollständiges Feedback ohne Fremdleistung.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "hausarbeitenmacher/references/ki-normen-und-fallpruefung.md",
+    "focus": "Benennen Sie die geprüfte Fassung der Verordnung und den Sachverhaltszeitpunkt. Eine 2024 formulierte Fallfrage darf nicht stillschweigend mit späterem Übergangsrecht gelöst werden; unterscheiden Sie Originalfall und Variante.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

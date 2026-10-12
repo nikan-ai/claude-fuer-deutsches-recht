@@ -1,6 +1,6 @@
 ---
 name: transkriptionsdienst-erklaerung
-description: "Wenn es um Transkriptionsdienst-Erklärung in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Transkriptionsdienst-Erklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Transkriptionsdienst-Erklärung
@@ -22,9 +22,6 @@ Formuliert den vollständigen Abschnitt in der Erstantwort-Mail, in dem der auto
 2. Ist ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO mit dem Transkriptions-Dienstleister vorhanden?
 3. Enthaelt die Sprachaufnahme potenziell besondere Datenkategorien (Gesundheit, Strafrecht — Art. 9 DSGVO)?
 4. Wird die Einwilligung per automatisierter Ansage (Tastendruck) oder schriftlich eingeholt?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 6 Abs. 1 lit. a DSGVO — Einwilligung als Rechtsgrundlage für Sprachaufnahme vor Mandatsannahme
@@ -108,6 +105,4 @@ Aus `kanzlei.json`:
 - `telefon-konfiguration` — liefert `telefon_transkription`
 - `erstantwort-generator` — bettet diesen Abschnitt in die Antwortmail ein
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

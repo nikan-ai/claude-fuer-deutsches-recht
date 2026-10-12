@@ -1,6 +1,6 @@
 ---
 name: umwandlung-und-registersperre-kammerantwort-und-verfahren
-description: "Wenn es um Umwandlung Und Registersperre Kammerantwort Und Verfahren in Berufsrecht Notare geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Umwandlung und Registersperre Kammerantwort und Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Notare: umwandlung und registersperre - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 13 BeurkG` — Vorlesen, Genehmigen, Unterschreiben.
 - `§ 40 BeurkG` — Beglaubigung einer Unterschrift.
 - `§ 53 BeurkG` — Vollzugspflichten.
-- `§ 54a BeurkG` — Verwahrung und Auszahlung.
+- `§ 57 BeurkG` — Antrag, Sicherungsinteresse und Verwahrungsanweisung.
 - `§ 130a ZPO` — elektronische Dokumente als Schnittstelle.
 - `§ 29 Abs. 1 GBO` — grundbuchtaugliche Form.
 - `§ 12 HGB` — Registereinreichung.

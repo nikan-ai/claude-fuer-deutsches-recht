@@ -1,6 +1,6 @@
 ---
 name: stbvv-verguetung
-description: "Wenn es um Stbvv Verguetung in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Stbvv Vergütung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Steuerberater: stbvv vergütung und transparenz - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

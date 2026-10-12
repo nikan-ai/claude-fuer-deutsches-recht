@@ -1,13 +1,13 @@
 ---
 name: bea-journal
-description: "Wenn es um beA-Nachrichtenjournal und EB-Workflow in Kanzlei-Allgemein geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für beA-Nachrichtenjournal und EB-Workflow: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # beA-Nachrichtenjournal und EB-Workflow
 
 ## Arbeitsbereich
 
-Dokumentation von beA-Verbindungen Nachrichten Versand und Empfangsbekenntnissen. Anwendungsfall beA-Eingang oder Versand muss nachvollziehbar protokolliert werden mit Screenshot ZIP-Export und EB-Workflow. Normen § 130a ZPO § 31a BRAO § 12 ERVV. Prüfraster Nachrichtenjournal Screenshots ZIP-Export eingegangene und versandte Nachrichten EB-Status Freigabe vor Versand. Output Versandjournal EB-Dokumentation ZIP-Archiv Screenshot-Ablage. Abgrenzung zu bea-versand-prüfen (Prüfung Versandweg) und kanzlei-allgemein-output-versand. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Dokumentation von beA-Verbindungen, Nachrichten, Versand und Empfangsbekenntnissen. Ein beA-Eingang oder Versand muss mit Exportnachricht, Prüfvermerk, gerichtlicher Eingangsbestätigung und EB-Status nachvollziehbar protokolliert werden. Normenanker sind ZPO Paragraf 130a, BRAO Paragraf 31a, ERVV und die aktuelle ERVB. Der Skill liefert Versandjournal, EB-Dokumentation, Exportarchiv und Screenshot-Ablage und grenzt sich von `bea-versand-pruefen` als Form- und Eingangskontrolle ab.
 
 ## Arbeitsweg
 
@@ -22,9 +22,6 @@ Dokumentation von beA-Verbindungen Nachrichten Versand und Empfangsbekenntnissen
 2. Welche Nachrichten müssen der Akte zugeordnet werden (Eingang und Ausgang)?
 3. Gibt es Empfangsbekenntnisse (EB), die aktuell zur Entscheidung anstehen?
 4. Sind fristwahrende Dokumente dabei, die sofort ins Fristenbuch müssen?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 173 Abs. 2 ZPO — Zustellung per beA: Zustelldatum ist der Tag des EB-Klicks
@@ -117,3 +114,5 @@ Wenn das System beA nicht selbst bedienen kann:
 ## Ausgabe
 
 `assets/templates/bea-nachrichtenjournal.md` verwenden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: stoerfall-anlagen-transaktionen-dd
-description: "Wenn es um Stoerfall, Anlagenbetrieb und Betreiberpflichten in Umweltrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Störfall, Anlagenbetrieb und Betreiberpflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Stoerfall, Anlagenbetrieb und Betreiberpflichten
@@ -35,10 +35,6 @@ description: "Wenn es um Stoerfall, Anlagenbetrieb und Betreiberpflichten in Umw
 - **§ 50 BImSchG** — Trennungsgebot Gebiete mit schweren Unfaellen und Wohnnutzung
 - **§ 17 BImSchG** — Nachtraegliche Auflagen und Anordnungen
 - **§ 62 BImSchG** — Ordnungswidrigkeiten (Bussgeld bis 50.000 EUR)
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -154,3 +150,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `umweltrecht-bussgeld-sanktionen` — Bussgeld nach Stoerfall
 - `umweltrecht-verfahren` — Klageverfahren gegen Behördenanordnung
 - `umweltrecht-transaktionen-dd` — Stoerfall-Risiken in M&A
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

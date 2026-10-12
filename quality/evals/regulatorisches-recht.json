@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "plugin": "regulatorisches-recht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2554",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 30 Absatz 2 Buchstabe f: Unterstützung bei IKT-Vorfällen ohne Zusatzkosten oder zu vorab festgelegten Kosten; Absatz 3 als zusätzlicher Pflichtenbereich."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62016CJ0015",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 19. Juni 2018, C-15/16, Baumeister, Randnummern 34 bis 39 und 50 bis 56. Anwendung: Geheimnisschutz in Finanzaufsichtsakten dokumentbezogen und zum Zugangsentscheidungszeitpunkt prüfen; Alter wirtschaftlicher Informationen beachten. Grenze: Artikel 54 Absatz 1 der damaligen MiFID; kein eigener Zugangsanspruch oder Recht zur Meldeverweigerung, kein DORA-Vertragsurteil."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wphg/__21.html",
+      "checked_on": "2026-09-22",
+      "supports": "Finanzaufsichtliche Verschwiegenheit mit geregelten Offenlegungsbefugnissen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/ifg/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Insbesondere Nummer 4: gesetzlich geregelte Geheimhaltungs-/Vertraulichkeitspflichten als Zugangsausnahme."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/dE/TXT/PDF/?uri=CELEX%3A32022R2554",
+      "checked_on": "2026-09-23",
+      "supports": "Konzern-/Kennzahlenabgrenzung, Vorfallhilfeklausel, Kontrolle vorhanden versus neu einzuführen, Zusagefreigabe. Prüftiefe: DORA-HTML durch Zugriffsschutz gesperrt; Artikel 30 Absatz 2 Buchstabe f über amtlich indizierten PDF-Text gelesen, keine Vollverifikation aller technischen Rechtsakte."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Konzern-/Kennzahlenabgrenzung, Vorfallhilfeklausel, Kontrolle vorhanden versus neu einzuführen, Zusagefreigabe.",
+    "changes": [
+      "C-15/16 mit Paragraf 21 WpHG und Paragraf 3 Nummer 4 IFG verknüpft.",
+      "Eröffnung auf Datenreichweite, richtige Konzerneinheit und konkreten Vertragsinhalt zugeschnitten.",
+      "Nachgereichte Preisliste -> Einbeziehung, Leistungsumfang und Vorrangklausel statt pauschaler Lückenbefund.",
+      "Konzern-/Kennzahlenabgrenzung, Vorfallhilfeklausel, Kontrolle vorhanden versus neu einzuführen, Zusagefreigabe."
+    ],
+    "sha256": "4798152d46333cc10358f2ecd269fe2eb61142deecfe0c96bfdf45b9932ae114",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Konzern-/Kennzahlenabgrenzung, Vorfallhilfeklausel, Kontrolle vorhanden versus neu einzuführen, Zusagefreigabe.",
+    "changes": [
+      "C-15/16 mit Paragraf 21 WpHG und Paragraf 3 Nummer 4 IFG verknüpft.",
+      "Eröffnung auf Datenreichweite, richtige Konzerneinheit und konkreten Vertragsinhalt zugeschnitten.",
+      "Nachgereichte Preisliste -> Einbeziehung, Leistungsumfang und Vorrangklausel statt pauschaler Lückenbefund.",
+      "Konzern-/Kennzahlenabgrenzung, Vorfallhilfeklausel, Kontrolle vorhanden versus neu einzuführen, Zusagefreigabe."
+    ],
+    "sha256": "aad2ad4821bf4971cc4d907579a6946ea81733d56a7eb2512fe94ef010cffd80",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Vorfallunterstützungsklausel unseres DORA-relevanten IKT-Vertrags.",
+      "Entwirf eine belegte Teilantwort auf ein aufsichtsrechtliches Auskunftsersuchen."
+    ],
+    "negative": [
+      "Prüfe ausschließlich kaufrechtliche Mängel eines Servers, ohne Finanzaufsicht oder regulatorische Vertragsanforderungen.",
+      "Entwirf nur die Datenschutzauskunft einer Bank an ihren Privatkunden, ohne aufsichtsrechtliches Verfahren."
+    ]
+  },
+  "cases": [
+    {
+      "id": "vorfallhilfe-preis-erst-hinterher",
+      "request": "Erstelle ergebnis.md als eng begrenzten DORA-Klauselreview für eine erfasste deutsche Bank. Der Vertrag betrifft einen IKT-Dienst und lautet: 'Bei einem mit dem Dienst zusammenhängenden IKT-Vorfall unterstützt der Anbieter die Bank. Die Vergütung bestimmt der Anbieter nach Abschluss des Einsatzes nach eigenem Ermessen.' Es gibt keine Preisliste oder weitere Vergütungsregel. Die Bank akzeptiert eine im Voraus fest vereinbarte Einsatzvergütung und verlangt keine grundsätzlich kostenlose Hilfe. Prüfe nur diesen Regelungspunkt anhand Artikel 30 Absatz 2 und formuliere eine verhandelbare Ersatzklausel; konkrete Preise dürfen als klarer Vertragsplatzhalter bleiben. Andere DORA-Anforderungen sind nicht Gegenstand des Auftrags.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt die erst nachträglich frei bestimmte Vergütung als unzureichend gegenüber dem gesetzlichen Modell vorab festgelegter Kosten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behauptet nicht, dass jede Vorfallunterstützung zwingend kostenlos sein müsse, sondern berücksichtigt beide gesetzlichen Kostenvarianten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert eine vollständige Ersatzklausel mit verbindlicher Unterstützung und vorab bestimmtem Vergütungsmechanismus, ohne unbekannte Preise als Tatsachen oder gesetzliche Pauschalen einzusetzen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "dora-ikt-vertragspruefung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "regulatorisches-recht/README.md",
+      "regulatorisches-recht/regulatorisches-recht-werkstatt.md",
+      "regulatorisches-recht/regulatorisches-recht-schnellstart.md",
+      "quality/evals/regulatorisches-recht.json",
+      "regulatorisches-recht/skills/dora-ikt-vertragspruefung/SKILL.md"
+    ],
+    "opening_change": "Reichweite des konkreten Datenverlangens, Geheimnisschutz oder DORA-Vertragslücke entscheiden.",
+    "norms": [
+      "Paragraf 21 WpHG",
+      "Paragraf 3 Nummer 4 IFG",
+      "Artikel 30 Absatz 2 Buchstabe f DORA"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 19. Juni 2018, C-15/16, Baumeister, Randnummern 34 bis 39 und 50 bis 56",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62016CJ0015",
+        "application": "Geheimnisschutz in Finanzaufsichtsakten dokumentbezogen und zum Zugangsentscheidungszeitpunkt prüfen; Alter wirtschaftlicher Informationen beachten.",
+        "limit": "Artikel 54 Absatz 1 der damaligen MiFID; kein eigener Zugangsanspruch oder Recht zur Meldeverweigerung, kein DORA-Vertragsurteil.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Nur Geheimnisschutzanker neu vertieft. Gewöhnlicher DORA-Skill enthält weiterhin falsche/ungeklärte Unterverweise und bleibt gemäß Schreibgrenze unverändert; Prompt übernimmt sie nicht.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Vertiefung 2026-09-23: DORA-HTML durch Zugriffsschutz gesperrt; Artikel 30 Absatz 2 Buchstabe f über amtlich indizierten PDF-Text gelesen, keine Vollverifikation aller technischen Rechtsakte. Desk review; kein Live-Client-Test."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "regulatorisches-recht/regulatorisches-recht-schnellstart.md",
+        "regulatorisches-recht/regulatorisches-recht-werkstatt.md"
+      ],
+      "result": "Baumeister schützt nicht automatisch alle Aufsichtsakten. Dokumentbezug, Zeitablauf und Zugangszeitpunkt bleiben Prüfmerkmale; kein DORA-Vertragsurteil oder Meldeverweigerungsrecht daraus gemacht.",
+      "search_2026": "Exakte amtliche Suche nach 2026-Berufsgeheimnis/Finanzaufsichtsakten ohne passenden neuen Treffer.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Aufsichtsantwort, DORA-Klausel oder Änderungsumsetzung anbieten.",
+      "Verlangen und Anlagen still lesen, keine Veröffentlichungsübersicht ausgeben.",
+      "Konkrete Klausel oder Antwort ohne allgemeines Regulierungsprogramm entwerfen."
+    ],
+    "continuation": "Nachgereichte Preisliste -> Einbeziehung, Leistungsumfang und Vorrangklausel statt pauschaler Lückenbefund.",
+    "enrichment": "Konzern-/Kennzahlenabgrenzung, Vorfallhilfeklausel, Kontrolle vorhanden versus neu einzuführen, Zusagefreigabe.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "regulatorisches-recht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

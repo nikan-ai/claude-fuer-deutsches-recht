@@ -1,6 +1,6 @@
 ---
 name: integrierte-planung-kennzahlenset-ampelsystem
-description: "Wenn es um Integrierte Planung — GuV, Bilanz und Cashflow in Krisenfrüherkennung und StaRUG-Management geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Integrierte Planung — GuV, Bilanz und Cashflow: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen."
 ---
 
 # Integrierte Planung — GuV, Bilanz und Cashflow
@@ -113,13 +113,12 @@ FINANZIERUNG
 
 ## Aktuelle Leitentscheidungen — Integrierte Planung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - IDW S 6 — Anforderungen an Sanierungskonzepte, aktuelle Fassung 2023; integrierte Unternehmensplanung als Kernbaustein jedes belastbaren Sanierungskonzepts.
 
 ## Paragrafenkette Integrierte Planung
 
-§ 19 Abs. 2 InsO (Fortbestehensprognose auf Basis integrierter Planung) → IDW S 6 (Sanierungskonzept-Standard) → IDW S 11 (Beurteilung Insolvenzgruende) → § 1 StaRUG (24-Monats-Horizont) → § 43 GmbHG (Sorgfaltspflicht bei Planung)
+Paragraf 19 Absatz 2 InsO (Fortbestehensprognose) → IDW S 6 (Sanierungskonzept) → IDW S 11 (Beurteilung der Insolvenzeröffnungsgründe) → Paragraf 18 Absatz 2 InsO (regelmäßige 24-Monats-Prognose) → Paragraf 1 StaRUG (fortlaufende Überwachung, Gegenmaßnahmen und Organbericht) → Paragraf 43 GmbHG (Sorgfaltspflicht)
 
 ## Triage — Integrierte Planung
 
@@ -128,3 +127,5 @@ FINANZIERUNG
 3. **Szenarien?** Base-Case, Best-Case, Worst-Case durchgerechnet?
 4. **Saldo-Check?** Integrierte Planung muss bilanziell schliessen (Bilanzsumme immer ausgeglichen).
 5. **Sanierungsbezug?** Jede tragende Planverbesserung muss auf Ursache, Maßnahme, Timing und Beleg zurückgeführt werden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

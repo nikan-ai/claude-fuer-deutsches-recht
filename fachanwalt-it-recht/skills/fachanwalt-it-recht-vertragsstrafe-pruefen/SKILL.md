@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-it-recht-vertragsstrafe-pruefen
-description: "Wenn es um Vertragsstrafe prüfen in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vertragsstrafe prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vertragsstrafe prüfen
@@ -19,7 +19,6 @@ description: "Wenn es um Vertragsstrafe prüfen in Fachanwalt It Recht geht: pr�
 - Vertragsstrafenversprechen § 339 BGB — fällig mit Verzug oder Verstoß bei verschuldeter Pflichtverletzung.
 - Bei Werkleistung Vorbehalt nötig § 341 Abs. 3 BGB sonst Verwirkung.
 - AGB-Kontrolle: Transparenz § 307 Abs. 1 Satz 2 BGB; unangemessene Benachteiligung § 307 Abs. 1 Satz 1 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Herabsetzungsmöglichkeit § 343 BGB nur außerhalb beiderseitigen Handelsgeschäftes § 348 HGB.
 - Anrechnung auf Schadensersatz § 340 Abs. 2 BGB bzw. § 341 Abs. 2 BGB.
 
@@ -95,9 +94,6 @@ Mit freundlichen Gruessen
 - Bei Herabsetzungsantrag des Schuldners: gesonderte Stellungnahme zur Angemessenheit § 343 BGB.
 - Verjährungsfrist im Aktenkalender notieren.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 339 BGB — Verwirkung der Vertragsstrafe bei Verschulden
 - § 340 BGB — Strafe statt Erfuellung
@@ -153,12 +149,7 @@ Mit freundlichen Gruessen
 ```
 
 
-<!-- AUDIT 27.05.2026 bundle_055
-Halluzinations-Reparatur: BGH VII ZR 117/15 (NOT_FOUND) geloescht.
-Zusaetzlich: BGH VII ZR 165/14 (NOT_FOUND) ebenfalls geloescht (beide Entscheidungen
-nicht auf dejure.org nachweisbar). Verbleibende Zitate VII ZR 210/01 und VIII ZR 26/15
-sind verifiziert.
--->
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -168,3 +159,4 @@ sind verifiziert.
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

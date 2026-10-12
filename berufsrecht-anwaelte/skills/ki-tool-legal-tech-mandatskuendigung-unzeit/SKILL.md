@@ -1,6 +1,6 @@
 ---
 name: ki-tool-legal-tech-mandatskuendigung-unzeit
-description: "Wenn es um Ki Tool Legal Tech Mandatskuendigung Unzeit in Berufsrecht Anwälte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Ki Tool Legal Tech Mandatskündigung Unzeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwälte: ki tool in der kanzlei - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
@@ -35,11 +35,13 @@ description: "Wenn es um Ki Tool Legal Tech Mandatskuendigung Unzeit in Berufsre
 - **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
 - **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Recherche, Mandantendialog und entscheidungsunterstützende Systeme getrennt ein. Die persönliche Berufspflicht und das konkrete Dienstleisterrisiko bleiben neben der KI-VO bestehen; eine Softwarefreigabe beantwortet sie nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
 ## Normen & Rechtsprechung
 
 Konkret zu prüfen:
 
 - § 43a Abs. 2 BRAO (Verschwiegenheit)
-- Art. 6 AI-Act (Hochrisiko-KI Justiz)
+- Artikel 6 Absatz 2 mit Anhang III Nummer 8 Buchstabe a: konkrete Zweckbestimmung für Justizbehörden oder in deren Auftrag beziehungsweise für entsprechende alternative Streitbeilegung prüfen. Eine anwaltliche Recherchehilfe ist nicht allein wegen des Rechtsgebiets Hochrisiko-KI. Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - DSGVO Art. 5, 6
 - § 203 StGB

@@ -1,68 +1,35 @@
-Wenn du das hier öffnest, willst du eine gesellschaftsrechtliche Maßnahme rechtssicher beschließen und dokumentieren.
+# 1. Mittelstandstransaktion zur Entscheidung bringen
 
-# Mittelstand Corporate Ma — Schnellstart
+Gleiche Kaufgegenstand, Preisabzüge und Zustimmungen von Gesellschaftern, Beirat und Hausbank ab. Formuliere daraus die beauftragte Vertragsfassung, Entscheidungsvorlage oder Vollzugsdokumentation. Lies Term Sheet, Kaufvertrag, Datenraumbefunde und bisherige Antworten zuerst.
 
-Ziel: Freistehendes Mittelstandsmandat-Corporate/M&A-Plugin: Deal-Kommandocenter, Aktenanlage, Datenraum, Legal DD, Tabellenreview, Liquiditätsvorschau, SPA/APA, W&I, Public M&A, Umwandlung, StaRUG/Insolvenzplan, CP-Kalender, E-Rechnung/GoBD, PMI. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Ohne Eingabe biete kurz „Datenraumbefund in Klausel umsetzen“, „Kaufpreis prüfen“ oder „Vollzug vorbereiten“ an. Dateien ohne Auftrag still lesen und dann nur das gewünschte Ergebnis klären. Bei klarem Auftrag direkt arbeiten; keine allgemeine Checkliste oder Pflichtfragerunden. Neue Antworten ändern den bestehenden Nutzerpfad, etwa `kaufvertrag.md` oder `vollzug.md`; ohne Dateizugriff den vollständigen Ersatztext liefern.
 
-## 1. Schnellmodus
+Bestimme Käufer- oder Verkäuferseite, Zielgesellschaft, Anteilskauf oder Vermögenskauf sowie Verhandlungsstand. Frage nur nach fehlenden Angaben, die den Entwurf oder die Entscheidung verändern. Ein naher Vollzugstermin ist Anlass zur Priorisierung, nicht zum Abbruch der Sacharbeit.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Befund in Vertragsfolge übersetzen
 
-## 2. Direktstart
+Ordne jedem wesentlichen Prüfungsbefund Dokument, betroffenen Vermögenswert oder Vertrag, wirtschaftliche Auswirkung und vorgeschlagenen Mechanismus zu. Unterscheide Garantie, konkrete Freistellung, Kaufpreisanpassung, Vollzugsbedingung und bloße Offenlegung. Ein bereits bekannter Schaden wird nicht dadurch beseitigt, dass er in eine allgemeine Garantie aufgenommen wird. Prüfe, wie Offenlegung und Wissensqualifikationen die tatsächlich verfügbare Absicherung verändern.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Bei der Kaufpreisrechnung Definitionen von Finanzschulden, Liquidität und Betriebskapital abstimmen. Eine Position nicht zugleich als Finanzschuld abziehen und nochmals als Betriebskapitaldefizit verrechnen. Stichtag, Bewertungsregel, Einwandfrist und Streitentscheidung aus der Vertragsfassung entnehmen; keine Marktstandards als vereinbart unterstellen.
 
-## 3. Kernroute
+Fehlt zu einer strittigen Position die Buchung oder vertragliche Zuordnung, frage danach gezielt. Nach der Antwort rechne Anpassung und Restzahlung neu und ändere den betroffenen Kaufpreisabschnitt. Neue entscheidende Widersprüche dürfen eine kurze Folgerunde erfordern; bereits geklärte Angaben nicht erneut abfragen.
 
-1. Gesellschaftsform, Registerlage, Beteiligungen und Organe feststellen.
-2. Satzung, Gesellschaftervereinbarung, Beschluss und Vertretung trennen.
-3. Organpflichten, Treuepflichten, Zustimmungserfordernisse und Haftung prüfen.
-4. Transaktionsschritte, Notarform, Closing-Bedingungen und Registervollzug planen.
-5. Arbeitsprodukt: Beschlussvorschlag, Organmemo, Anteilsübertragungsvertrag oder Klageentwurf erstellen.
-6. Beirat Haftung: Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen.
+## 1.2. Unterzeichnung und Vollzug trennen
 
-## 4. Fallkarte
+Für jede Vollzugsbedingung Wortlaut, verantwortliche Partei, Nachweis, spätesten Termin und vereinbarte Verzichtsbefugnis dokumentieren. Die Aussage erledigt ersetzt keinen unterschriebenen Beschluss, Bescheid oder verbindliche Drittzustimmung. Prüfe Zahlungsvoraussetzungen gegen tatsächliche Bank- und Treuhandunterlagen. Eine angekündigte Überweisung ist nicht zwingend ein Zahlungseingang.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 705; HGB Paragraf 105; GmbHG Paragraf 13 |
-| Rechtsprechung | BGH, Urteil vom 29.01.2001 - II ZR 331/00; BGH, Urteil vom 04.07.2005 - II ZR 354/03 |
-| Tatbestand | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen |
-| Beweislast | Anspruchsteller für Pflichtverletzung, Schaden und Kausalität; Organ oder Gesellschafter für Entlastung, Beschlussbasis und Business Judgment |
-| Rechtsfolge | Beschlussfassung, Anfechtung, Organhaftung, Registervollzug, Abberufung oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei GmbH-Anteilen [Paragraf 15 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__15.html) für Form von Verpflichtung und Abtretung sowie mögliche Satzungsvoraussetzungen beachten. Notarielle Unterzeichnung bedeutet nicht automatisch Eintritt aller vertraglichen Vollzugsbedingungen. Vertragliche Verzichte von zwingenden gesetzlichen Vollzugsgrenzen trennen; Fusionskontrolle oder Investitionsprüfung nur bei konkretem Anwendungsbezug und amtlicher Verifikation beurteilen.
 
-## 5. Einsatzfelder
+Verkauft dagegen die GmbH ihren ganzen Betrieb, prüfe den Gesellschafterbeschluss nach Paragrafen 37 Absatz 1 und 49 Absatz 2 GmbHG. [BGH, Urteil vom 8. Januar 2019, II ZR 364/18](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2018/II_ZR_364-18.pdf?__blob=publicationFile&v=1), Randnummern 24 bis 47, verneint eine Analogie zu Paragraf 179a AktG, nicht das interne Zustimmungserfordernis. Bei bekanntem oder evidentem Missbrauch kann der Käufer trotz Außenvertretung nach Paragraf 37 Absatz 2 GmbHG nicht geschützt sein. Vermögenskonzentration, Beschlusslage und Käuferkenntnis konkret klären; nicht jeden fehlenden Familien- oder Beiratsbeschluss zum externen Wirksamkeitsmangel erklären. Der Anteilskauf durch die Gesellschafter ist ein anderer Vorgang.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Beirat Haftung | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beirat: Vergütung, Auslagen, D&O und Interessenkonflikte | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Freistehender Deal-Fristen- und CP-Kalender | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Markup und Key Issues | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Automationen und Monitoring | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beirat Abgrenzung Aufsichtsrat | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Entscheidungspapier
 
-## 6. Anker
+Liefere die bestellte Gremienvorlage, Klauselfassung oder Vollzugsliste vollständig. Kennzeichne erfüllte, belegungsbedürftige und offene Bedingungen getrennt. Bestimme bei Fristablauf die vertraglich vereinbarte Folge; erfinde weder automatisches Vertragsende noch eine gesetzliche Zweiwochenfrist für jede Rücktrittserklärung.
 
-- BGB Paragraf 705: Gesellschaftsvertrag der Gesellschaft bürgerlichen Rechts.
-- HGB Paragraf 105: offene Handelsgesellschaft.
-- GmbHG Paragraf 13: Rechtsnatur der GmbH.
-- GmbHG Paragraf 15: Übertragung von Geschäftsanteilen.
-- Normenradar: GmbHG Paragrafen 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragrafen 76, 93, 111, 119, 130, 243 ff.; HGB Paragrafen 105 ff., 161 ff: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Arbeite primär mit: GmbHG Paragrafen 37, 43, 46, 47, 48, 52, 53; BGB Paragrafen 133, 157, 241 Abs. 2, 242; MitbestG/DrittelbG bei Abgrenzung zum obligatorischen Aufsichtsrat; Satzung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- GmbHG Paragraf 45 Abs. 1: Satzungsautonomie als Grundlage für Beiratsordnung und Vergütungsregime: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- GmbHG Paragraf 46 Nr. 5 und Nr. 6: Gesellschafterzuständigkeit für Organ-/Überwachungsfragen und Kontrollmaßnahmen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Urteil vom 29.01.2001 - II ZR 331/00: ARAG/Garmenbeck prägt die Pflicht zur Verfolgung von Organhaftungsansprüchen.
-- BGH, Urteil vom 04.07.2005 - II ZR 354/03: Trihotel zur Existenzvernichtungshaftung.
+Fehlt eine Bank- oder Gremienzustimmung, benenne den konkret benötigten Nachweis und liefere den bereits belastbaren Teil. Nach Eingang prüfe Reichweite und Bedingungen, aktualisiere die Vollzugsliste und vollende das bestellte Dokument. Eine Nachforderung allein beendet den Auftrag nicht; eine bloße Vertragsprüfung verlangt keine ungefragte Verfahrenseinleitung.
 
-## 7. Antwortform
+Beispiel: „Wir prüfen positiv“ belegt keine endgültige Bankzustimmung. Kommt die Zustimmung später, prüfe betroffene Gesellschaft und Nebenbedingungen, bevor der Status wechselt. Verlangt der Vertrag beiderseitigen Verzicht, ersetzt ein einseitiger Verkäuferverzicht diesen nicht. Die Vorlage kann fertig sein und dennoch begründet festhalten, dass der Vollzug noch nicht freigegeben werden kann.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Beirat Haftung, Beirat: Vergütung, Auslagen, D&O und Interessenkonflikte, Freistehender Deal-Fristen- und CP-Kalender, Markup und Key Issues: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Nutzerdateinamen gehen vor; `ergebnis.md` ist nur der Standard ohne Vorgabe. Quellen nur nach Prüfung nennen; Quellenstatus und technische Hinweise getrennt vom Empfängertext halten. Außenkommunikation, tatsächliche Zahlung und Vollzugshandlungen nur nach ausdrücklicher Freigabe. Export: Times New Roman, 11 pt, dezimale Gliederung.
 
-## 8. Stop
-
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Optional vertieft `signing-closing-conditions` den Vollzug; ohne ihn reichen die vorstehenden Schritte. Seine pauschalen Fristen und automatischen Rechtsfolgen nicht übernehmen. Bei Zugriffsfehlern einen geeigneten anderen Weg versuchen und die konkrete Lücke benennen; ohne Export das fertige Arbeitsprodukt als Text liefern.

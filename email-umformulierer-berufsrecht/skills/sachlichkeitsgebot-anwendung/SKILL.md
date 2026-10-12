@@ -1,6 +1,6 @@
 ---
 name: sachlichkeitsgebot-anwendung
-description: "Wenn es um Sachlichkeitsgebot-Anwendung in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sachlichkeitsgebot-Anwendung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sachlichkeitsgebot-Anwendung
@@ -29,7 +29,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 
 ## Berufsrechtlicher Hintergrund
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beispiele Vorher/Nachher
 
@@ -41,3 +40,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 **Vorher:** "Ich erwarte von einem Richter, dass er das Gesetz kennt."
 **Nachher:** Herabsetzend. Konform: "Ich bitte das Gericht, die Ausführungen zu § 284 BGB in der Berufungsbegründung zu berücksichtigen."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

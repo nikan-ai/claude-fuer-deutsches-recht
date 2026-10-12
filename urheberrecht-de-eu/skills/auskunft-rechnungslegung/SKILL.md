@@ -1,6 +1,6 @@
 ---
 name: auskunft-rechnungslegung
-description: "Wenn es um Auskunft, Rechnungslegung und Besichtigung in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Auskunft, Rechnungslegung und Besichtigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Auskunft, Rechnungslegung und Besichtigung
@@ -20,7 +20,7 @@ description: "Wenn es um Auskunft, Rechnungslegung und Besichtigung in Urheberre
 
 ## Wofür dieser Arbeitsgang da ist
 
-Auskunft, Rechnungslegung und Besichtigung schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Kläre, welche Auskunft, Rechnungslegung oder Besichtigung für die urheberrechtliche Anspruchsprüfung benötigt wird. Ordne fehlende und vorhandene Beweise dem Gegenstand, dem menschlichen Beitrag, der Rechtekette, der Nutzungshandlung und der Schranke zu und bereite das angeforderte Ergebnis vor.
 
 ## Sofortstart
 

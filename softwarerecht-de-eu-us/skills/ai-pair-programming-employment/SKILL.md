@@ -1,6 +1,6 @@
 ---
 name: ai-pair-programming-employment
-description: "Wenn es um digitale Werkzeuge Pair Programming im Arbeitsverhältnis in Softwarerecht Deutschland/EU/International/USA geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für digitale Werkzeuge Pair Programming im Arbeitsverhältnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AI Pair Programming im Arbeitsverhältnis
@@ -54,20 +54,4 @@ Aktuelle Fassungen, Behördenhinweise, Formulare, Guidance und Rechtsprechung vo
 - Rechtekette, tatsächliche technische Architektur und Vertragstext immer gemeinsam prüfen; eines allein reicht bei Software fast nie.
 - Open Source, AI-Code, Freelancer und Drittland-/US-Bezug immer aktiv suchen, auch wenn die Anfrage nur nach Lizenzvertrag klingt.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen/Docket und frei prüfbarer Quelle nennen; keine BeckRS-/Juris-/Kommentar-Blindzitate.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 69b UrhG
-- § 69a UrhG
-- § 69d UrhG
-- § 69c UrhG
-- § 69e UrhG
-- § 31 UrhG
-- § 32 UrhG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie Vertrag, Anleitung und tatsächlich ausgelieferten Funktionsumfang. Modellanpassung, Änderung der Zweckbestimmung und wesentliche Systemänderung sind verschiedene Fragen und benötigen jeweils technische Belege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "plugin": "fachanwalt-handels-gesellschaftsrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__34.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext zu Satzungszulassung, zeitlicher Voraussetzung bei Einziehung ohne Zustimmung und Fortgeltung der Kapitalerhaltung gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__30.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normtext im Suchauszug zu Stammkapitalschutz und gesetzlichen Ausnahmen geprüft; direkter Abruf lief in einen Timeout."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-6&Gericht=bgh&Seite=4&Sort=1026&anz=245&nr=86101&pos=148",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 26.06.2018, Az. II ZR 65/16: amtlicher Leitsatz im Suchauszug zur Nichtigkeit bei feststehend unzureichendem freien Vermögen trotz stiller Reserven. Keine Volltextprüfung behauptet."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016-5-10&Gericht=bgh&anz=29&nr=74863&pos=15",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 10.05.2016, Az. II ZR 342/14: amtliche Leitsätze im Suchauszug zur persönlichen Haftung erst bei treuwidriger Fortsetzung und zur Insolvenzkonstellation geprüft. Direkter Volltextabruf gesperrt."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2016/II_ZR__65-16.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 26.06.2018 - II ZR 65/16, Rn. 13 bis 17: Steht bei Einziehungsbeschluss fest, dass die Abfindung nicht aus freiem Vermögen gezahlt werden kann, Nichtigkeit analog Paragraf 241 Nummer 3 AktG prüfen; nicht realisierte stille Reserven nicht wie verfügbares freies Vermögen behandeln. Grenze: Beschlusszeitpunkt von später eintretender Auszahlungssperre unterscheiden; aus nichtiger Einziehung folgt keine automatische persönliche Haftung aller Mitgesellschafter."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_342-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 10.05.2016 - II ZR 342/14, Rn. 21 bis 33: Bei wirksamer Einziehung und späterer Abfindungssperre prüfen, ob verbleibende Gesellschafter die Gesellschaft treuwidrig ohne zumutbare Finanzierungs- oder Auflösungsmaßnahmen fortsetzen. Grenze: Keine automatische Ausfallbürgschaft. Rechtzeitige Insolvenzantragstellung und konkrete Finanzierungsmaßnahmen können eine Treuwidrigkeit ausschließen; Sicherheitsabreden gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__377.html",
+      "supports": "Erneuter Normabruf zur Untersuchungs- und Rügeobliegenheit; Ablieferung, Entdeckung und Absendung der konkreten Rüge auseinanderhalten.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZR__71-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Managerbeteiligung und Hinauskündigung anhand Gesamtmodell prüfen; Verkehrswertkauf und Verlustrisiko schließen sachliche Rechtfertigung nicht allein aus. Grenze: Keine generelle Freigabe beliebiger Gründer-Leaver-Klauseln; Ausübungskontrolle nach Paragraf242BGB nach Zurückverweisung offen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Formelle Listenlegitimation und materielle Gesellschafterstellung unterscheiden; bei ernstlichem Bestreiten kann Feststellungsinteresse trotz zutreffender Liste bestehen. Grenze: Kein Nachweis von Einziehungsgrund, Kapitalerhaltung oder Finanzierbarkeit der Abfindung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Kurzprompt unterscheidet jetzt anfänglich nicht finanzierbare Einziehung und spätere Abfindungssperre mit zwei amtlich gelesenen Entscheidungen; die kaufmännische Rüge stellt auf rechtzeitige Absendung ab. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Workflow-Ergänzung einzeln geprüft: Finanzierung ist ein rückzahlbares Darlehen statt Zuschuss -> Liquidität und freies Vermögen unterscheiden; Einziehungsbewertung und Finanzierungsklausel ändern. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem/Fokusskill zur Einziehungsfinanzierung erhalten II ZR50/25 als Mitgliedschaftsvorfrage. Managerbeteiligungsentscheidung bleibt im breiten Gesellschaftsstreit; ältere Kapitalerhaltungs-/Abfindungsanker bleiben tragend.",
+    "changes": [
+      "II ZR 65/16 und II ZR 342/14 mit unterschiedlichen Zeitpunkten und Rechtsfolgen in beide Prompts, Hauptproblem und Fokus-Skill integriert.",
+      "Rügefrist nach HGB Paragraf 377 Absatz 4 korrigiert; unbestätigten Registerbeschluss entfernt.",
+      "Stille Reserven nicht mit freiem Vermögen gleichgesetzt; kein Automatismus persönlicher Abfindungshaftung.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Mitgliedschaftsstreit und Manager-Hinauskündigung in Werkstatt/Mini/Gesellschafterstreitskill verankert; Listeneintrag nicht als abschließenden materiellen Berechtigungsnachweis verwenden."
+    ],
+    "sha256": "6405b2054c40076571001a69b471e9aa78320c5fdc5bd0fd0d0a7f2761a3809d"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem-Prompt und zugeordneter Fokus-Skill vollständig gelesen und auf freien Vermögensbestand am Beschlusstag, spätere Auszahlungssperre und individuell begründete Treuwidrigkeit abgestimmt. Beide BGH-Entscheidungen im amtlichen Volltext geprüft; kein Live-Modelltest. Workflow-Ergänzung: Finanzierung ist ein rückzahlbares Darlehen statt Zuschuss -> Liquidität und freies Vermögen unterscheiden; Einziehungsbewertung und Finanzierungsklausel ändern. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem/Fokusskill zur Einziehungsfinanzierung erhalten II ZR50/25 als Mitgliedschaftsvorfrage. Managerbeteiligungsentscheidung bleibt im breiten Gesellschaftsstreit; ältere Kapitalerhaltungs-/Abfindungsanker bleiben tragend.",
+    "changes": [
+      "II ZR 65/16 und II ZR 342/14 mit zeitlicher und haftungsrechtlicher Abgrenzung in beide Texte eingearbeitet.",
+      "Einstieg auf beauftragte Einziehungs- und Abfindungsprüfung konkretisiert; vollständige Entwürfe und Fortsetzung nach Nachweisen erhalten.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-hauptproblem.md",
+    "prompt_sha256": "af871bbaf284b24957e1c690360b298fceb7d1e70f2f13878dce1090287f4c13",
+    "skill_path": "fachanwalt-handels-gesellschaftsrecht/skills/gmbh-einziehung-abfindung-finanzierbarkeit/SKILL.md",
+    "skill_sha256": "1579bba346f26e1442ba055b23132e07e757c8efc4e0221375e06918019e538c"
+  },
+  "selection": {
+    "positive": [
+      "Kann unsere GmbH einen Anteil einziehen, wenn die Abfindung nur durch stille Grundstücksreserven gedeckt scheint? Stellen Sie Abfindung und Buchwerte gegenüber.",
+      "Nach Einziehung ist die letzte Rate nicht zahlbar; prüfen Sie Auszahlungssperre, Finanzierung und mögliche Haftung der verbleibenden Gesellschafter anhand unserer Zahlen."
+    ],
+    "negative": [
+      "Bewerten Sie eine GmbH für den geplanten Verkauf aller Anteile an einen externen Erwerber ohne Gesellschafterstreit.",
+      "Prüfen Sie die Provisionsabrechnung unseres Handelsvertreters für das letzte Quartal."
+    ],
+    "target_skill": "gmbh-einziehung-abfindung-finanzierbarkeit"
+  },
+  "cases": [
+    {
+      "id": "einziehung-stille-reserven-bankkredit",
+      "request": "Beraten Sie die Geschäftsführung der M GmbH vor der für den 20.09.2026 geplanten Einziehung des Anteils von B. Erstellen Sie ergebnis.md als Gremienvorlage. Das Stammkapital ist vollständig eingezahlt und beträgt 100.000 EUR; A hält 60 Prozent, B 40 Prozent. Die seit Gründung bestehende Satzung erlaubt Einziehung mit Zustimmung des Betroffenen. B hat der Einziehung schriftlich zugestimmt; alle Beteiligten haben für diese Einziehung eine Abfindung von 120.000 EUR mit Fälligkeit am 30.09.2026 verbindlich vereinbart. Die vollständige, zutreffende Stichtagsbilanz vor Abfindung enthält Aktiva von 800.000 EUR, Schulden und Rückstellungen von 650.000 EUR. Die Abfindung ist darin noch nicht passiviert; weitere stille Lasten und zwischenzeitliche Verluste bestehen nicht. Im Grundstück stecken 300.000 EUR stille Reserven, ein Verkauf ist nicht vereinbart. Frei verfügbares Bankguthaben beträgt 200.000 EUR; bis zum Zahlungstag sind außerdem 100.000 EUR sonstige Verbindlichkeiten zu begleichen, weitere Zuflüsse gibt es nicht. Die Bank bietet verbindlich einen Kredit von 100.000 EUR zu marktüblichen Bedingungen an. Ein Gesellschafterzuschuss ist nicht zugesagt. A hält den Kredit für ausreichend. Prüfen Sie die geplante Einziehung, die Bedeutung der Zustimmung von B und den Finanzierungsvorschlag; unterscheiden Sie realisierbare Maßnahmen von bloßen Annahmen. Nehmen Sie keine Erklärungen oder Zahlungen vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Buchwertrechnung ergibt 150.000 EUR Reinvermögen, 50.000 EUR freies Vermögen und 70.000 EUR Fehlbetrag zur Abfindung. Stille Reserven werden nicht ohne Realisierung als zusätzliche freie Mittel dieser Rechnung zugeschlagen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Liquiditätsrechnung zeigt nach sonstigen Verbindlichkeiten und Abfindung einen Fehlbetrag von 20.000 EUR ohne Kredit und 80.000 EUR verbleibende Liquidität mit Kredit, ohne daraus die Beseitigung des kapitalerhaltungsrechtlichen Fehlbetrags abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Votum erkennt das Nichtigkeitsproblem des geplanten Beschlusses bei feststehend unzureichendem freien Vermögen und behandelt Bs Zustimmung nicht als Verzicht auf den Stammkapitalschutz.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Empfohlene Alternativen wie ein Zuschuss oder Drittankauf werden an rechtlich verbindliche und wirtschaftlich tragfähige Nachweise geknüpft; weder eine nicht vorhandene Finanzierungszusage noch automatische persönliche Haftung von A wird als feststehend ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "gmbh-einziehung-abfindung-finanzierbarkeit"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Der Fachanwaltsüberblick ersetzt pauschale Normreihen durch rechtsformbezogene Prüfung und trennt Nichtigkeit der Einziehung, Zahlungssperre und persönliche Mitgesellschafterhaftung. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Schlusslektüre hat die noch allgemeinen Holding- und Tokenisierungsabschnitte konkretisiert; vollständige Fachwege bleiben erhalten. Workflow-Ergänzung einzeln geprüft: Tatsächliche Stimmen und Protokoll, spätere Wiederholung gegenüber Heilung, Zahlungsrollen bei Abfindung, aktuelle Verluste, Mängelentdeckung und Rügeabsendung sowie Provisionskonto gegenüber Ausgleichsanspruch. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem/Fokusskill zur Einziehungsfinanzierung erhalten II ZR50/25 als Mitgliedschaftsvorfrage. Managerbeteiligungsentscheidung bleibt im breiten Gesellschaftsstreit; ältere Kapitalerhaltungs-/Abfindungsanker bleiben tragend.",
+    "changes": [
+      "II ZR 65/16 und II ZR 342/14 mit unterschiedlichen Zeitpunkten und Rechtsfolgen in beide Prompts, Hauptproblem und Fokus-Skill integriert.",
+      "Rügefrist nach HGB Paragraf 377 Absatz 4 korrigiert; unbestätigten Registerbeschluss entfernt.",
+      "Stille Reserven nicht mit freiem Vermögen gleichgesetzt; kein Automatismus persönlicher Abfindungshaftung.",
+      "Schlusslektüre: Holding- und Tokenisierungsabschnitte mit konkreten Rechts-, Zustimmungs-, Form- und Nachweisfragen statt allgemeiner Bearbeitungsformeln ausgearbeitet.",
+      "Tatsächliche Stimmen und Protokoll, spätere Wiederholung gegenüber Heilung, Zahlungsrollen bei Abfindung, aktuelle Verluste, Mängelentdeckung und Rügeabsendung sowie Provisionskonto gegenüber Ausgleichsanspruch.",
+      "Mitgliedschaftsstreit und Manager-Hinauskündigung in Werkstatt/Mini/Gesellschafterstreitskill verankert; Listeneintrag nicht als abschließenden materiellen Berechtigungsnachweis verwenden."
+    ],
+    "sha256": "0bb1ae2a6674ebab2c4c9913cc4fe4897aac9707985494dd4626704ec4e36018"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-handels-gesellschaftsrecht/README.md",
+      "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-hauptproblem.md",
+      "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-schnellstart.md",
+      "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-werkstatt.md",
+      "fachanwalt-handels-gesellschaftsrecht/skills/gesellschafterstreit/SKILL.md",
+      "fachanwalt-handels-gesellschaftsrecht/skills/gmbh-einziehung-abfindung-finanzierbarkeit/SKILL.md",
+      "quality/evals/fachanwalt-handels-gesellschaftsrecht.json"
+    ],
+    "opening_change": "Beschluss, Abfindungsfinanzierung und konkrete Anspruchsrichtung stehen am Anfang; der Schwerpunkt fragt nach freien Mitteln am Beschlusstag und späteren Zahlungssperren. Workflow-Ergänzung: Leer: Beschlussprüfung, Einziehung oder Handelsforderung anbieten. Dateien ohne Aufgabe: Satzung, Beschluss, Finanzierung und Lieferbelege still lesen; Wirksamkeits-, Abfindungs- oder Zahlungsziel klären. Klarer Auftrag: verlangte Stellungnahme oder Vereinbarung unmittelbar erstellen, keine ungefragte Gesellschaftsübersicht.",
+    "norms": [
+      "GmbHG Paragraf 30",
+      "GmbHG Paragraf 34",
+      "AktG Paragraf 241 Nummer 3 entsprechend",
+      "HGB Paragraf 377 Absatz 4",
+      "HGB Paragraf 166"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 26.06.2018 - II ZR 65/16, Rn. 13 bis 17",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2016/II_ZR__65-16.pdf?__blob=publicationFile&v=1",
+        "application": "Steht bei Einziehungsbeschluss fest, dass die Abfindung nicht aus freiem Vermögen gezahlt werden kann, Nichtigkeit analog Paragraf 241 Nummer 3 AktG prüfen; nicht realisierte stille Reserven nicht wie verfügbares freies Vermögen behandeln.",
+        "limit": "Beschlusszeitpunkt von später eintretender Auszahlungssperre unterscheiden; aus nichtiger Einziehung folgt keine automatische persönliche Haftung aller Mitgesellschafter."
+      },
+      {
+        "citation": "BGH, Urteil vom 10.05.2016 - II ZR 342/14, Rn. 21 bis 33",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_342-14.pdf?__blob=publicationFile&v=1",
+        "application": "Bei wirksamer Einziehung und späterer Abfindungssperre prüfen, ob verbleibende Gesellschafter die Gesellschaft treuwidrig ohne zumutbare Finanzierungs- oder Auflösungsmaßnahmen fortsetzen.",
+        "limit": "Keine automatische Ausfallbürgschaft. Rechtzeitige Insolvenzantragstellung und konkrete Finanzierungsmaßnahmen können eine Treuwidrigkeit ausschließen; Sicherheitsabreden gesondert prüfen."
+      },
+      {
+        "citation": "BGH, Urteil vom 10.02.2026 – Az. II ZR 71/24, Rn. 21, 55–58, 66–67",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZR__71-24.pdf?__blob=publicationFile&v=1",
+        "application": "Managerbeteiligung und Hinauskündigung anhand Gesamtmodell prüfen; Verkehrswertkauf und Verlustrisiko schließen sachliche Rechtfertigung nicht allein aus.",
+        "limit": "Keine generelle Freigabe beliebiger Gründer-Leaver-Klauseln; Ausübungskontrolle nach Paragraf242BGB nach Zurückverweisung offen.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BGH, Urteil vom 21.04.2026 – Az. II ZR 50/25, Rn. 18–25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1",
+        "application": "Formelle Listenlegitimation und materielle Gesellschafterstellung unterscheiden; bei ernstlichem Bestreiten kann Feststellungsinteresse trotz zutreffender Liste bestehen.",
+        "limit": "Kein Nachweis von Einziehungsgrund, Kapitalerhaltung oder Finanzierbarkeit der Abfindung.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Andere handels- und gesellschaftsrechtliche Spezialrouten nicht vollständig neu judikaturseitig überprüft.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Review 23.09.2026: Paragraf 377 HGB erneut eingesehen; vorhandene Einziehungsentscheidungen bleiben mit ihren sachlichen Grenzen erhalten.",
+      "01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Hauptproblem/Fokusskill zur Einziehungsfinanzierung erhalten II ZR50/25 als Mitgliedschaftsvorfrage. Managerbeteiligungsentscheidung bleibt im breiten Gesellschaftsstreit; ältere Kapitalerhaltungs-/Abfindungsanker bleiben tragend."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Beschlussprüfung, Einziehung oder Handelsforderung anbieten.",
+      "Dateien ohne Aufgabe: Satzung, Beschluss, Finanzierung und Lieferbelege still lesen; Wirksamkeits-, Abfindungs- oder Zahlungsziel klären.",
+      "Klarer Auftrag: verlangte Stellungnahme oder Vereinbarung unmittelbar erstellen, keine ungefragte Gesellschaftsübersicht."
+    ],
+    "continuation": "Finanzierung ist ein rückzahlbares Darlehen statt Zuschuss -> Liquidität und freies Vermögen unterscheiden; Einziehungsbewertung und Finanzierungsklausel ändern.",
+    "enrichment": "Tatsächliche Stimmen und Protokoll, spätere Wiederholung gegenüber Heilung, Zahlungsrollen bei Abfindung, aktuelle Verluste, Mängelentdeckung und Rügeabsendung sowie Provisionskonto gegenüber Ausgleichsanspruch.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "method": "targeted_primary_source_and_editorial_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-handels-gesellschaftsrecht.json",
+    "limits": "Zwei aktuelle oberstgerichtliche Entscheidungen fachlich geprüft; keine Vollprüfung sämtlicher Fachskills oder älterer Quellen und kein neuer Modelllauf.",
+    "focus_scope": "Hauptproblem/Fokusskill zur Einziehungsfinanzierung erhalten II ZR50/25 als Mitgliedschaftsvorfrage. Managerbeteiligungsentscheidung bleibt im breiten Gesellschaftsstreit; ältere Kapitalerhaltungs-/Abfindungsanker bleiben tragend."
+  }
+}

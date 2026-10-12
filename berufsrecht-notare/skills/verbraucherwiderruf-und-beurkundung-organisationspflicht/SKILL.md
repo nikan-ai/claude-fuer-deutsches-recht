@@ -1,6 +1,6 @@
 ---
 name: verbraucherwiderruf-und-beurkundung-organisationspflicht
-description: "Wenn es um Verbraucherwiderruf Und Beurkundung Organisationspflicht in Berufsrecht Notare geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verbraucherwiderruf und Beurkundung Organisationspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Notare: verbraucherwiderruf und beurkundung - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -44,5 +44,5 @@ Konkret zu prüfen:
 - § 17 Abs. 2a BeurkG
 - § 312g BGB
 - § 355 BGB
-- § 26 BNotO (Geschäftsstelle)
+- § 10 Abs. 2 bis 4 BNotO (Geschäftsstelle)
 - DONot

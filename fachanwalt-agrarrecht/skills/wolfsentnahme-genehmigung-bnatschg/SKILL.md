@@ -1,6 +1,6 @@
 ---
 name: wolfsentnahme-genehmigung-bnatschg
-description: "Wenn es um Wolfsentnahme Genehmigung Bnatschg in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wolfsentnahme Genehmigung Bnatschg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fachanwalt Agrarrecht Wolfsentnahme Genehmigung Bnatschg: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -45,7 +45,6 @@ description: "Wenn es um Wolfsentnahme Genehmigung Bnatschg in Fachanwalt Agrarr
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Voraussetzungen § 45 Abs. 7 BNatSchG
 
@@ -162,11 +161,9 @@ nach Vorliegen der DNA-Bestätigung.
 ### Phase 5 — Bei Ablehnung
 
 - **Widerspruch** mit sofortiger Begründung; kein aufschiebender Effekt ex lege
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Schutzmaßnahmen-Standard**: Tierhalter muss positiv belegen, dass Schutzmaßnahmen wolfssicher installiert und überwunden wurden.
 - **Erhaltungszustand**: Liegt amtliches DBBW-Monitoring vor, hat Behörde keine Beurteilungs-Freiheit mehr — günstiger Zustand ist Beweistatsache, keine Prognose.
 - **Alternative**: Behörde trägt Sekundärdarlegungslast für konkrete Alternativmaßnahme, wenn sie Antrag ablehnt.
@@ -188,7 +185,6 @@ nach Vorliegen der DNA-Bestätigung.
 | Schutzmaßnahmen nicht wolfssicher | Spannungsmessprotokoll, Foto Einbruchsstelle, LWK-Sachverständiger |
 | Kein ernster wirtschaftlicher Schaden | Kumulation aller Risse der Saison; Stressaborte als Folgeschaden; Marktwert-Gutachten |
 | Zumutbare Alternative: Zaun erhöhen | Topographie-Nachweis; wirtschaftliche Kalkulation; Zeitaufwand bei laufender Saison |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | § 45a nicht anwendbar wegen fehlender Überwundunheit | Foto Einbruchsstelle als Beweismittel; Riss-Berater-Protokoll |
 
 ## Streitwert und Kosten
@@ -230,4 +226,5 @@ Stand 05/2026. **Achtung Rechtsänderung:** § 45a BNatSchG (Schnellabschussfass
 Rechtsprechung im Mandat live verifizieren — keine Aktenzeichen aus Modellwissen.
 
 ---
-<!-- AUDIT 27.05.2026 -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

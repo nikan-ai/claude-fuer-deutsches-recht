@@ -1,6 +1,6 @@
 ---
 name: quellen-livecheck
-description: "Wenn es um Rechtsquellen-Livecheck in Fachanwalt Verkehrsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verkehrsrecht."
 ---
 
 # Rechtsquellen-Livecheck
@@ -20,9 +20,9 @@ Dieser Quellen-Livecheck für **Fachanwalt Verkehrsrecht** trennt amtliche Normf
 - `fahrerlaubnis-entzug-paragraf-3-stvg` — Fahrerlaubnis Entzug Paragraf 3 Stvg
 - `fahrerlaubnis-compliance-dokumentation-und-akte` — Fahrerlaubnis Kanzlei Personen
 - `haftpflicht-paragraf-115-vvg` — Haftpflicht Paragraf 115 VVG
-- `kaskoversicherung-paragraf-81-vvg-bgh-iv-zr-25-21` — Kaskoversicherung Paragraf 81 VVG BGH IV ZR 25 21
+- `kaskoversicherung-unfallort-aufklaerungsobliegenheit` — Kaskoleistung und Aufklärungsobliegenheit prüfen
 - `kfz-handel-paragraf-434-bgb` — KFZ Handel Paragraf 434 BGB
-- `mandat-triage-sportrecht` — Mandat Triage Schriftsatzkern Substantiierung
+- `mandat-triage-verkehrsrecht` — Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen
 - `mpu-vorbereitung` — MPU Vorbereitung Orientierung
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake

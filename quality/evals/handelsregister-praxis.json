@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "plugin": "handelsregister-praxis",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__382.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Volltext: Eintragung, Ablehnungsbeschluss und Fristsetzung bei behebbaren Hindernissen samt Beschwerdemöglichkeit."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2022/II_ZB__15-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 19.09.2023 - II ZB 15/22, Rn. 8 bis 12: Bei aus Gerichtssicht unbehebbarem Eintragungshindernis keinen Rücknahmehinweis als Zwischenverfügung nach Paragraf 382 Absatz 4 FamFG ausgeben; Ablehnungsbeschluss nach Absatz 3 erforderlich. Grenze: Aufhebung einer unzulässigen Zwischenverfügung ersetzt nicht die Eintragungsprüfung. Materielle Besonderheiten der Sparkassenvereinigung nicht auf jede Gesellschaft übertragen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZB___2-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf/Tenor, Rn. 20–25, 32–38, 43–49. Überschießende private Registerdaten nach Einwilligungswiderruf: ordnungsgemäße Ersatzfassung im öffentlichen Ordner nach §9Abs7HRV. Grenze: Pflichtangaben nicht pauschal entfernen; Original verbleibt in nicht allgemein öffentlicher Registerakte, notarielle Form beachten."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZB__13-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 8–29. Geprüfte österreichische Onlinebeglaubigung nicht abstrakt gleichwertig; Verfahrensgarantien statt Einzelfallbemühung prüfen. Grenze: Keine allgemeine Zurückweisung ausländischer Präsenzbeglaubigungen; heutige Verfahrensnormen gesondert."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Kurzprompt trennt eine fehlende Abschrift des Bestellungsbeschlusses von einer gerichtlichen Rücknahmeaufforderung wegen verneinter Eintragungsfähigkeit. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "Paragraf 382 Absatz 3 und 4 FamFG mit behebbaren und unbehebbaren Hindernissen verknüpft.",
+      "Aufhebung der Zwischenverfügung nicht mit automatischer Eintragung gleichgesetzt; Sparkassen-Sonderfall begrenzt.",
+      "Entscheidungsform Beschluss präzisiert.",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "df95ca20e288c0e4c0e660bf1e97660fa55ec05392cdd9151787c73eefdad7c6"
+  },
+  "selection": {
+    "positive": [
+      "Erstelle einen Nachreichungsplan zur Zwischenverfügung des Registergerichts.",
+      "Prüfe den Vollzugsstand unserer Geschäftsführeränderung anhand von Anmeldung und Auszug."
+    ],
+    "negative": [
+      "Berechne den Schaden aus einer Pflichtverletzung des Geschäftsführers.",
+      "Bewerte die Erbschaftsteuer auf einen GmbH-Anteil."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zwischenverfuegung-fehlender-beschluss",
+      "request": "Die Nordtor GmbH hat eine Geschäftsführeränderung angemeldet. Das Registergericht hat am 8. September eine ausdrücklich als Zwischenverfügung bezeichnete Nachricht bekanntgegeben und setzt den 22. September zur Nachreichung einer fehlenden Beschlussabschrift. Die Anmeldung ist nach Aktenvermerk formgerecht eingegangen. Der wirksam gefasste Bestellungsbeschluss vom 1. September existiert, die zuständige Mitarbeiterin kann die Abschrift erst am 24. September liefern. Die externe Kanzlei hat am 10. September um Verlängerung bis 28. September gebeten; eine Antwort fehlt. Ein aktueller Auszug weist noch den bisherigen Geschäftsführer aus. Erstelle ergebnis.md mit Vollzugsstand, Aufgabenliste und Entwurf einer Sachstandsanfrage. Prüfe keine anderen Mängel und sende nichts ab.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Behandelt das fehlende Dokument als behebbares Hindernis und nicht als bereits erfolgte Ablehnung oder vollzogene Eintragung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Führt den 22. September weiter als maßgebliche gesetzte Frist, solange die Verlängerung nicht bestätigt ist.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Ordnet Beschaffung der Abschrift und Klärung der Verlängerung konkreten nächsten Schritten zu; behauptet keine erfolgte Einreichung oder Versendung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "beanstandung-zwischenverfuegung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt ergänzt zur Beanstandungsantwort den zulässigen Gegenstand der Zwischenverfügung und deren Beschwerdefolge anhand von II ZB 15/22. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "Paragraf 382 Absatz 3 und 4 FamFG mit behebbaren und unbehebbaren Hindernissen verknüpft.",
+      "Aufhebung der Zwischenverfügung nicht mit automatischer Eintragung gleichgesetzt; Sparkassen-Sonderfall begrenzt.",
+      "Entscheidungsform Beschluss präzisiert.",
+      "Formmangel und materielle Heilung, zeitversetzter Organwechsel, konsolidierte Satzung, Auslandsvertretungsbeleg und Entscheidungsform."
+    ],
+    "sha256": "c1cb837c98bba2e2eda4ebd2c8f02c9e908b238563f8dd34aea53730b1246065"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "handelsregister-praxis/README.md",
+      "handelsregister-praxis/handelsregister-praxis-schnellstart.md",
+      "handelsregister-praxis/handelsregister-praxis-werkstatt.md",
+      "quality/evals/handelsregister-praxis.json"
+    ],
+    "opening_change": "Nachreichbarer Nachweis, neue materielle Erklärung und rechtlich bestrittene Beanstandung werden bereits im Einstieg unterschieden.",
+    "norms": [
+      "FamFG Paragraf 382 Absatz 3 und 4",
+      "GmbHG Paragraf 39 Absatz 2",
+      "HGB Paragraf 12"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 19.09.2023 - II ZB 15/22, Rn. 8 bis 12",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2022/II_ZB__15-22.pdf?__blob=publicationFile&v=1",
+        "application": "Bei aus Gerichtssicht unbehebbarem Eintragungshindernis keinen Rücknahmehinweis als Zwischenverfügung nach Paragraf 382 Absatz 4 FamFG ausgeben; Ablehnungsbeschluss nach Absatz 3 erforderlich.",
+        "limit": "Aufhebung einer unzulässigen Zwischenverfügung ersetzt nicht die Eintragungsprüfung. Materielle Besonderheiten der Sparkassenvereinigung nicht auf jede Gesellschaft übertragen."
+      },
+      {
+        "citation": "BGH, Beschluss vom 18.02.2026 – II ZB 2/25, Kopf/Tenor, Rn. 20–25, 32–38, 43–49",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZB___2-25.pdf?__blob=publicationFile&v=1",
+        "application": "Überschießende private Registerdaten nach Einwilligungswiderruf: ordnungsgemäße Ersatzfassung im öffentlichen Ordner nach §9Abs7HRV.",
+        "limit": "Pflichtangaben nicht pauschal entfernen; Original verbleibt in nicht allgemein öffentlicher Registerakte, notarielle Form beachten.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      },
+      {
+        "citation": "BGH, Beschluss vom 25.02.2026 – II ZB 13/24, Kopf, Rn. 8–29",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZB__13-24.pdf?__blob=publicationFile&v=1",
+        "application": "Geprüfte österreichische Onlinebeglaubigung nicht abstrakt gleichwertig; Verfahrensgarantien statt Einzelfallbemühung prüfen.",
+        "limit": "Keine allgemeine Zurückweisung ausländischer Präsenzbeglaubigungen; heutige Verfahrensnormen gesondert.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Einzelne materielle Firmen-, Umwandlungs- und Auslandsurkundenfragen nicht durch diesen Verfahrensanker entschieden.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Geschäftsführerwechsel, Satzungsänderung oder Beanstandung wählen.",
+      "Urkunden still lesen; Nachreichung oder Prüfung der gerichtlichen Auffassung anbieten.",
+      "Bestellte Registerantwort direkt fertigstellen."
+    ],
+    "continuation": "Neue Beschlussfassung -> Nachweis/Anlagen; abweichende Vertretungsregel -> Unterzeichnerkreis; Ablehnung -> Rechtsbehelf statt Nachreichung prüfen.",
+    "enrichment": "Formmangel und materielle Heilung, zeitversetzter Organwechsel, konsolidierte Satzung, Auslandsvertretungsbeleg und Entscheidungsform.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "handelsregister-praxis/handelsregister-praxis-schnellstart.md",
+      "handelsregister-praxis/handelsregister-praxis-werkstatt.md",
+      "handelsregister-praxis/skills/auslandsurkunden-apostille-legalisation-uebersetzung/SKILL.md",
+      "handelsregister-praxis/skills/registergericht-und-datenschutz/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

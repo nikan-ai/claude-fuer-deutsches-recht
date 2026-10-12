@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "plugin": "insolvenzverwaltung",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__22.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Suchauszug Absätze 1 und 2: Befugnisübergang bei allgemeinem Verfügungsverbot versus gerichtlich bestimmte Pflichten ohne solches Verbot; Direktabruf scheiterte."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2017/IX_ZR_125-17.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 12.03.2020, IX ZR 125/17, Rn. 28–39: Prozess, Vergleich oder Verwertung aus damaliger Informationslage nach Gläubigerzweck, Kosten und Risiken beurteilen. Vertretbaren Handlungsspielraum dokumentieren statt einen späteren Verlust allein als Pflichtverletzung zu behandeln. Grenze: Keine Übertragung der aktienrechtlichen Business Judgment Rule; Maßstab bleibt Paragraf 60 InsO, keine Freistellung für bloß grob fahrlässige Fehler."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__60.html",
+      "checked_on": "2026-09-22",
+      "supports": "Insolvenzspezifische Sorgfaltspflicht und Haftung des Verwalters."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__158.html",
+      "checked_on": "2026-09-22",
+      "supports": "Stilllegung oder Veräußerung vor Berichtstermin mit besonderer Beteiligungs- und Kontrollregel, nicht allgemeine Verwertungsermächtigung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__22.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Wortlaut zur Stellung des vorläufigen Insolvenzverwalters erneut gelesen; konkrete gerichtliche Anordnung und Verfügungsbefugnis bleiben für einzelne Maßnahmen entscheidend."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 12.03.2026 – [IX ZR 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1), Leitsätze und Rn. 36–38: Eine Zahlung zur Erfüllung einer Geldauflage nach § 153a StPO kann als inkongruente Deckung anfechtbar sein. Bei unmittelbarer Zahlung an eine gemeinnützige Einrichtung ist diese Empfängerin, nicht allein wegen der gerichtlichen Anordnung die Landeskasse. Zahlungsweg, tatsächliche Bereicherung und Voraussetzungen des § 131 InsO prüfen; keine automatische Rückforderung jeder Geldauflage."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Eine verlustbringende Maßnahme wird aus damaliger Informationslage geprüft, nicht allein wegen ihres späteren Ergebnisses beanstandet. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "IX ZR 125/17 als Maßstab für vertretbare Kosten-/Risikobewertung nach Paragraf 60 InsO eingebaut; keine aktienrechtliche Business Judgment Rule.",
+      "Paragraf 158 InsO für Stilllegung/Veräußerung vor Berichtstermin von Verwertung und Zustimmung nach Paragrafen 159 und 160 getrennt.",
+      "Masseunzulänglichkeit und Drittvermögen verhindern pauschale Zahlungsfreigaben.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt.",
+      "Gezielter amtlicher Rechtsprechungsabgleich 30.09.2026: BGH, Urteil vom 12.03.2026 – IX ZR 18/25, Rn. 24–32, 36–38"
+    ],
+    "sha256": "dea74cf6be4b92e311a05c23359103df84db2cd0fd5537e73789e4da9f454242"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Verwaltung, Fortführung, Masseansprüche, Tabelle, Bericht, Verteilung und Planoption vollständig nach Rollen und Beschlussumfang neu gegliedert. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "IX ZR 125/17 als Maßstab für vertretbare Kosten-/Risikobewertung nach Paragraf 60 InsO eingebaut; keine aktienrechtliche Business Judgment Rule.",
+      "Paragraf 158 InsO für Stilllegung/Veräußerung vor Berichtstermin von Verwertung und Zustimmung nach Paragrafen 159 und 160 getrennt.",
+      "Masseunzulänglichkeit und Drittvermögen verhindern pauschale Zahlungsfreigaben.",
+      "Beschlussbezogene Befugnisse, Seriennummern und Eigentumsvorbehalt, kritische Lieferantenvorauszahlung, Masseunzulänglichkeit und tatsächlicher Zahlungsvollzug als getrennte Entscheidungspfade ergänzt.",
+      "Gezielter amtlicher Rechtsprechungsabgleich 30.09.2026: BGH, Urteil vom 12.03.2026 – IX ZR 18/25, Rn. 24–32, 36–38"
+    ],
+    "sha256": "3225742bf5a1f8ebb68e0289a9a187b1c53d2e7e0800220d689a22a742145779"
+  },
+  "selection": {
+    "positive": [
+      "Erstelle einen ersten Maßnahmenplan aus dem vorläufigen Bestellungsbeschluss.",
+      "Gleiche Massebestand und geplante Zahlungsläufe ab."
+    ],
+    "negative": [
+      "Melde als Gläubiger ausschließlich eine einzelne Rechnung an.",
+      "Berechne den Versorgungsausgleich einer Privatperson."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zustimmungsvorbehalt-bankbrief",
+      "request": "Ein Insolvenzgericht hat einen vorläufigen Verwalter bestellt. Der vollständige hier maßgebliche Tenor lautet: Verfügungen der Schuldnerin bedürfen der Zustimmung des vorläufigen Verwalters. Es gibt kein allgemeines Verfügungsverbot, keine besondere Einziehungsbefugnis und keine zusätzliche Einzelermächtigung. Die Geschäftsleitung bittet um ein Bankschreiben, das behaupten soll, nur noch der vorläufige Verwalter könne allein über alle Konten verfügen. Auf einem Konto liegen 80.000 Euro, davon betreffen 15.000 Euro eine bestrittene Fremdgeldzuordnung. Erstelle ergebnis.md mit Befugnismatrix, korrigiertem Schreibenentwurf und Klärungsbedarf zum Geldbestand; sende nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Leitet aus dem Zustimmungsvorbehalt keine alleinige Verwaltungs- und Verfügungsbefugnis des vorläufigen Verwalters ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Formuliert den Bankschreibenentwurf entsprechend dem tatsächlichen Zustimmungserfordernis statt der gewünschten falschen Alleinbefugnis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Kennzeichnet 15.000 Euro als zuordnungsbedürftig und gibt nicht den gesamten Kontostand als sicher frei verfügbare Masse aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "vorlaeufige-verwaltung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "insolvenzverwaltung/insolvenzverwaltung-werkstatt.md",
+      "insolvenzverwaltung/insolvenzverwaltung-schnellstart.md",
+      "insolvenzverwaltung/README.md",
+      "quality/evals/insolvenzverwaltung.json"
+    ],
+    "opening_change": "Verwalterbefugnis, Massebestand und zulässige Zahlung anhand des Beschlusses und der Konten bestimmen.",
+    "norms": [
+      "Paragrafen 22, 60, 80, 158 bis 160, 208 und 209 InsO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 12.03.2020, IX ZR 125/17, Rn. 28–39",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2017/IX_ZR_125-17.pdf?__blob=publicationFile&v=1",
+        "application": "Prozess, Vergleich oder Verwertung aus damaliger Informationslage nach Gläubigerzweck, Kosten und Risiken beurteilen. Vertretbaren Handlungsspielraum dokumentieren statt einen späteren Verlust allein als Pflichtverletzung zu behandeln.",
+        "limit": "Keine Übertragung der aktienrechtlichen Business Judgment Rule; Maßstab bleibt Paragraf 60 InsO, keine Freistellung für bloß grob fahrlässige Fehler."
+      },
+      {
+        "citation": "BGH, Urteil vom 12.03.2026 – IX ZR 18/25, Rn. 24–32, 36–38",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-09-30",
+        "application": "BGH, Urteil vom 12.03.2026 – [IX ZR 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1), Leitsätze und Rn. 36–38: Eine Zahlung zur Erfüllung einer Geldauflage nach § 153a StPO kann als inkongruente Deckung anfechtbar sein. Bei unmittelbarer Zahlung an eine gemeinnützige Einrichtung ist diese Empfängerin, nicht allein wegen der gerichtlichen Anordnung die Landeskasse. Zahlungsweg, tatsächliche Bereicherung und Voraussetzungen des § 131 InsO prüfen; keine automatische Rückforderung jeder Geldauflage.",
+        "limit": "Gezielte Ergänzung; frühere Quellenprüfdaten bleiben erhalten. Keine abschließende Insolvenzfeststellung aus IX ZR 18/25 und keine Gruppenfreigabe aus IX ZB 18/25."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Keine Vollprüfung aller Arbeits-, Steuer- oder Auslandsfragen; Maßnahmen erfordern Beschluss- und Zahlungsdaten des konkreten Verfahrens.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ],
+    "supplement_checked_on": "2026-09-30"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Sicherungsmaßnahme, Massezahlung oder Verwertungsvorlage anbieten.",
+      "Dateien ohne Auftrag: Bestellungsbeschluss, Konten und Vermögensbelege still lesen; konkrete Sicherung oder Zahlungsprüfung zur Auswahl stellen.",
+      "Klarer Auftrag: die bestellte Zahlungs-, Verwertungs- oder Berichtsvorlage unmittelbar fertigstellen."
+    ],
+    "continuation": "Neuer Eigentumsnachweis -> Zuordnung des konkreten Gegenstands, freie Masse, Verwertungserlös und Entwurf ändern; neuer Beschluss verändert nur die tatsächlich erweiterte Befugnis.",
+    "enrichment": "Beschlussbezogene Befugnisse, Seriennummern und Eigentumsvorbehalt, kritische Lieferantenvorauszahlung, Masseunzulänglichkeit und tatsächlicher Zahlungsvollzug als getrennte Entscheidungspfade ergänzt.",
+    "limits": "desk review; no live client execution"
+  }
+}
