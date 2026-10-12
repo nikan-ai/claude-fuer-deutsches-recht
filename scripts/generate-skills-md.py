@@ -5,8 +5,8 @@ Wird bei jeder Release-Vorbereitung gelaufen. Garantiert, dass jeder neue
 Skill, der irgendwo unter <plugin>/skills/<skill>/SKILL.md angelegt wird,
 automatisch in der SKILLS.md auftaucht — mit:
 
-- Direkt-Download des SKILL.md als rohe Markdown-Datei (im Browser per
-  Rechtsklick "Ziel speichern unter" oder "?raw=1" lädt sofort herunter).
+- Direkter Dateidownload des unveränderten SKILL.md-Inhalts über die
+  statische Downloadseite des Repositorys.
 - Pro Plugin: ZIP-Download-Link auf das Release-Asset
   https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/<plugin>.zip
 - Oben prominenter Hinweis: Skills sind reine Markdown-Prompts und
@@ -16,18 +16,27 @@ Idempotent: schreibt SKILLS.md neu. Liest Version aus marketplace.json.
 """
 from __future__ import annotations
 
+from release_routing import plugin_asset_url
 import json
 import re
 import sys
 from pathlib import Path
 
+from prompt_profiles import enabled, formats, standalone_kinds
+from urllib.parse import quote
+
+from readme_display import display_prose
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 GH_OWNER = "Klotzkette"
 GH_REPO = "claude-fuer-deutsches-recht"
-GH_BLOB = f"https://github.com/{GH_OWNER}/{GH_REPO}/blob/main"
-GH_RAW = f"https://raw.githubusercontent.com/{GH_OWNER}/{GH_REPO}/main"
 GH_RELEASE = f"https://github.com/{GH_OWNER}/{GH_REPO}/releases/latest/download"
+DOWNLOAD_BASE = f"https://{GH_OWNER.lower()}.github.io/{GH_REPO}/download.html?path="
 SKILLS_INDEX_DIR = REPO_ROOT / "skills-index"
+
+
+def markdown_download_url(repo_path: str) -> str:
+    return DOWNLOAD_BASE + quote(repo_path, safe="/")
 
 
 def clean_description(desc: str) -> str:
@@ -69,7 +78,7 @@ def read_description(skill_md: Path) -> str:
         return ""
     if desc.startswith('"') and desc.endswith('"'):
         desc = desc[1:-1]
-    desc = clean_description(desc.replace("\n", " ").strip())
+    desc = display_prose(clean_description(desc.replace("\n", " ").strip()))
     desc = desc.replace("|", "\\|").strip()
     if len(desc) > 280:
         desc = desc[:277].rstrip() + "..."
@@ -85,7 +94,7 @@ def natural_key(text: str) -> list[object]:
 
 
 def collect_plugins() -> list[tuple[str, list[str]]]:
-    """Liest Plugin-Reihenfolge aus marketplace.json und scannt jeden Plugin-Ordner."""
+    """Liest marketplace.json und scannt jeden Plugin-Ordner alphabetisch."""
     market = json.loads((REPO_ROOT / ".claude-plugin" / "marketplace.json").read_text())
     out: list[tuple[str, list[str]]] = []
     for plugin in market["plugins"]:
@@ -105,7 +114,27 @@ def collect_plugins() -> list[tuple[str, list[str]]]:
         )
         if skills:
             out.append((name, skills))
-    return out
+    return sorted(out, key=lambda item: natural_key(item[0]))
+
+
+def group_label(name: str) -> str:
+    first = name[:1].upper()
+    return first if first.isalpha() else "0-9"
+
+
+def grouped_plugins(
+    plugins: list[tuple[str, list[str]]],
+) -> list[tuple[str, list[tuple[str, list[str]]]]]:
+    groups: dict[str, list[tuple[str, list[str]]]] = {}
+    for plugin in plugins:
+        groups.setdefault(group_label(plugin[0]), []).append(plugin)
+    labels = sorted(groups, key=lambda value: (value != "0-9", value))
+    return [(label, groups[label]) for label in labels]
+
+
+def alphabetical_navigation(plugins: list[tuple[str, list[str]]]) -> str:
+    labels = [label for label, _ in grouped_plugins(plugins)]
+    return " · ".join(f"[{label}](#{label.lower()})" for label in labels)
 
 
 def header(total_skills: int, total_plugins: int, version: str) -> str:
@@ -118,39 +147,44 @@ Automatisch generierte Gesamtübersicht aller **{total_skills} Skills** in **{to
 
 Stand: `{version}`.
 
+[Repository-Start](README.md) · [Download-Index](ASSET_INDEX.md) · [Werkstatt und Schnellstart](docs/werkstatt-und-schnellstart-coverage.md) · [Testakten](testakten/README.md) · [Plugin-Katalog](README.md#was-ist-drin) · [Detailseiten](skills-index/)
+
 ## Alle Skills auf einmal herunterladen
 
 | Paket | Inhalt | Download |
 | --- | --- | --- |
-| **Alle Skills als Markdown** | Reine `SKILL.md`-Dateien aller {total_plugins} Plugins plus Werkstatt- und Schnellstart-Prompts — als echte Datei-Downloads | [`alle-skills-markdown.zip`]({alle_md}) |
-| **Alle Plugins (installierbar)** | Alle {total_plugins} Plugin-ZIPs in einem Archiv für kompatible Plugin-Oberflächen | [`alle-plugins-megazip.zip`]({megazip}) |
+| **Alle Skills als Markdown** | Skilltexte, Markdown-Referenzen und Plugin-READMEs des letzten Gesamtreleases; Werkstatt und Schnellstart bleiben Einzeldateien | [`alle-skills-markdown.zip`]({alle_md}) |
+| **Alle Plugins (installierbar)** | Plugin-ZIPs des letzten Gesamtreleases für kompatible Plugin-Oberflächen | [`alle-plugins-megazip.zip`]({megazip}) |
 | **Komplettpaket (alles)** | Plugins + Skill-Markdowns + Testakten + Übersichten | [`alles-komplettpaket.zip`]({komplett}) |
 
-Das Markdown-Paket reicht, wenn man die vollständigen Skills in einem beliebigen Chat-System nutzen will. Werkstatt- und Schnellstart-Prompts liegen pro Plugin direkt als Markdown-Datei zum Download (oben in jeder Plugin-Detailseite und in jeder Plugin-README). Das Plugin-Paket ist für kompatible Plugin-Oberflächen. Das Komplettpaket enthält zusätzlich Testakten und alle Repo-Übersichten.
+Die Bestandszahlen oben beziehen sich auf den aktuellen Quellbestand. Neuere Komponentenreleases sind noch nicht in älteren Sammelarchiven enthalten; für sie die aktuellen Einzelpakete in der Plugin-Tabelle verwenden.
+
+Das Markdown-Paket enthält die Skilltexte und ihre Markdown-Referenzen, aber keine automatisch eingerichteten Werkzeuge oder Zugriffsrechte. Für den manuellen Einstieg sind Werkstatt oder Schnellstart meist einfacher. Links mit „MD herunterladen“ speichern die Datei über die Downloadseite; Übersichtslinks bleiben lesbare GitHub-Seiten. Das installierbare Plugin-ZIP ist ein anderes Paket.
 
 Wer nur **ein bestimmtes Plugin** will: weiter unten in der Plugin-Tabelle pro Plugin eigene Links (Werkstatt-Markdown, Schnellstart-Markdown, Plugin-ZIP).
 
-## Worum es hier geht: alles nur große Prompts
+## Einzelnen Skill oder eigenständigen Prompt verwenden
 
-Diese Skills sind am Ende **nichts weiter als große, sehr sorgfältig formulierte System-Prompts in Markdown**. Sie wurden für ein Plugin-System geschrieben, **funktionieren aber in jedem anderen Chat-System genauso**.
+Ein Skill beschreibt eine abgegrenzte Aufgabe und kann weitere Referenzen, Dateien oder Werkzeuge benötigen. Werkstatt und Schnellstart sind dagegen eigenständige Ein-Datei-Einstiege in das Thema eines Plugins. Ihre Reichweite ist nicht mit der gesamten Skill-Sammlung gleichzusetzen. Welche Dateiformate und Werkzeuge funktionieren, hängt von der verwendeten Arbeitsoberfläche ab.
 
-So benutzt man einen Skill außerhalb eines Plugin-Setups:
+So findest du die richtige Datei:
 
-1. Unten in der Plugin-Tabelle auf das gewünschte Plugin klicken — die Detailseite mit allen Skills öffnet sich.
-2. Auf der Detailseite oben auf **Werkstatt** oder **Schnellstart** klicken — die `.md`-Datei wird direkt heruntergeladen.
-3. **Entweder** den kompletten Text mit `Strg+A` / `Cmd+A` kopieren und in das eigene Chat-System einfügen.
-4. **Oder** die `.md`-Datei als Anhang in den Chatbot ziehen.
-5. Danach die eigene Frage / das eigene Dokument hinterherschicken — der Chatbot übernimmt die Rolle aus dem Skill.
+1. Das Plugin in der alphabetischen Tabelle öffnen und die Beschreibungen seiner Skills lesen.
+2. Für eine bestimmte Teilaufgabe den Skillnamen oder „MD herunterladen“ in der Skill-Tabelle wählen. Für einen eigenständigen Einstieg stattdessen oben Schnellstart oder Werkstatt wählen.
+3. Die heruntergeladene Datei in der freigegebenen Arbeitsoberfläche zusammen mit den relevanten Unterlagen bereitstellen. Einen konkreten Auftrag nennen; bei einem einzelnen Skill zusätzlich benötigte Referenzen beachten.
+4. Das erste Ergebnis auf verwendete Belege, offene Fragen und Quellenstand prüfen. Ein Dateidownload allein installiert oder aktiviert keinen Skill.
 
 So bekommt man die komplette Sammlung als installierbares ZIP:
 
 - In der Plugin-Tabelle unten in der Spalte **Plugin-ZIP** auf den Download-Link klicken. Das lädt eine ZIP-Datei mit **allen** Skills dieses Plugins inkl. Hilfsdateien, Prüfrastern und Vorlagen — direkt in kompatiblen Plugin-Oberflächen installierbar.
 - Wer kein Plugin-Setup nutzt, nimmt **Werkstatt** oder **Schnellstart** als Markdown-Direkt-Download. Beide sind je eine `.md`-Datei, die in beliebige Chatbots gezogen oder kopiert werden kann.
-- Wer die volle Skilltiefe als Markdown will, nimmt zusätzlich das Sammelpaket `alle-skills-markdown.zip`.
+- Wer die volle Skilltiefe als Markdown will, nimmt zusätzlich das Sammelpaket `alle-skills-markdown.zip`; es enthält auch die von Skills bei Bedarf geladenen Markdown-Referenzen.
 
-**Wichtig:** Wenn irgendwo im Repo ein neuer Skill angelegt wird (also ein neuer Ordner `<plugin>/skills/<skill>/SKILL.md`), erscheint er beim nächsten Lauf von `scripts/generate-skills-md.py` automatisch -- sowohl in dieser Liste als auch auf der jeweiligen Plugin-Detailseite. Es kann also nichts fehlen.
+Die Listen werden aus den im Marketplace registrierten Plugin-Verzeichnissen erzeugt und gegen den Dateibestand geprüft. Sie zeigen den Quellbestand: Im installierten Paket werden manche umfangreichen Spezialserien über einen Fachrouter bei Bedarf geladen, statt als eigene Menüeinträge zu erscheinen.
 
 Die Detailseiten liegen unter [`skills-index/`](skills-index/) -- eine eigene `.md`-Datei pro Plugin. So bleibt diese Hauptseite klein und lädt schnell, statt mit {total_skills} Tabellenzeilen den Browser-Renderer von GitHub zu überfordern.
+
+English: Plugin and index links open navigation pages. Links labelled **Download MD** download the unchanged skill, workshop or quick-start Markdown file instead of opening a source preview.
 
 """
 
@@ -159,21 +193,32 @@ def plugin_overview_table(plugins: list[tuple[str, list[str]]]) -> str:
     lines = [
         "## Alle Plugins",
         "",
-        "Pro Plugin: Klick auf den Namen öffnet die Detailseite mit allen Skills, Beschreibungen und Einzel-Downloads. **Werkstatt** und **Schnellstart** laden die Ein-Datei-Prompts direkt als Markdown. **Plugin-ZIP** lädt die installierbare Plugin-Sammlung.",
+        "Die Plugins sind alphabetisch sortiert. Der Name öffnet die Detailseite mit allen Skills, Beschreibungen und Einzel-Downloads. **Werkstatt** und **Schnellstart** laden die Ein-Datei-Prompts direkt als Markdown. **Plugin-ZIP** lädt die installierbare Plugin-Sammlung.",
         "",
-        "| Plugin | Skills | Detailseite | Werkstatt (Markdown) | Schnellstart (Markdown) | Plugin-ZIP |",
-        "| --- | ---: | --- | --- | --- | --- |",
+        alphabetical_navigation(plugins),
+        "",
     ]
-    for name, skills in plugins:
-        source_rel = _source_rel_for(name)
-        zip_url = f"{GH_RELEASE}/{name}.zip"
-        werkstatt_url = f"{GH_RAW}/{source_rel}/{name}-werkstatt.md"
-        schnellstart_url = f"{GH_RAW}/{source_rel}/{name}-schnellstart.md"
-        detail = f"skills-index/{name}.md"
-        lines.append(
-            f"| **{name}** | {len(skills)} | [Skills ansehen]({detail}) | <a href=\"{werkstatt_url}\" download><code>Werkstatt</code></a> | <a href=\"{schnellstart_url}\" download><code>Schnellstart</code></a> | [Plugin]({zip_url}) |"
+    for label, items in grouped_plugins(plugins):
+        lines.extend(
+            [
+                f"### {label}",
+                "",
+                "| Plugin | Skills | Detailseite | Werkstatt (Markdown) | Schnellstart (Markdown) | Plugin-ZIP |",
+                "| --- | ---: | --- | --- | --- | --- |",
+            ]
         )
-    lines.append("")
+        for name, skills in items:
+            source_rel = _source_rel_for(name)
+            zip_url = plugin_asset_url(name, root=REPO_ROOT)
+            werkstatt_url = markdown_download_url(f"{source_rel}/{name}-werkstatt.md")
+            schnellstart_url = markdown_download_url(f"{source_rel}/{name}-schnellstart.md")
+            workshop_download = " · ".join(f"[Werkstatt-{ext.upper()} herunterladen]({markdown_download_url(f'{source_rel}/{name}-werkstatt.{ext}')})" for ext in formats(name)) if enabled(name, "werkstatt") else "Nicht vorgesehen"
+            quickstart_download = " · ".join(f"[Schnellstart-{ext.upper()} herunterladen]({markdown_download_url(f'{source_rel}/{name}-schnellstart.{ext}')})" for ext in formats(name)) if enabled(name, "schnellstart") else "Nicht vorgesehen"
+            detail = f"skills-index/{name}.md"
+            lines.append(
+                f"| **{name}** | {len(skills)} | [Skills ansehen]({detail}) | {workshop_download} | {quickstart_download} | [Plugin]({zip_url}) |"
+            )
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -189,51 +234,87 @@ def _source_rel_for(name: str) -> str:
 def plugin_detail_page(name: str, skills: list[str], version: str) -> str:
     _source_rel = _source_rel_for(name)
     skills_dir = REPO_ROOT / _source_rel / "skills"
-    plugin_zip = f"{GH_RELEASE}/{name}.zip"
-    werkstatt_md = f"{GH_RAW}/{_source_rel}/{name}-werkstatt.md"
-    schnellstart_md = f"{GH_RAW}/{_source_rel}/{name}-schnellstart.md"
+    plugin_zip = plugin_asset_url(name, root=REPO_ROOT)
+    werkstatt_md = markdown_download_url(f"{_source_rel}/{name}-werkstatt.md")
+    schnellstart_md = markdown_download_url(f"{_source_rel}/{name}-schnellstart.md")
     md_zip = f"{GH_RELEASE}/alle-skills-markdown.zip"
-    plugin_readme = f"{GH_BLOB}/{_source_rel}/README.md"
+    plugin_readme = f"../{_source_rel}/README.md"
     lines = [
         f"# {name}",
         "",
         f"**{len(skills)} Skills** · Stand `{version}`",
         "",
-        f"- [← Zurück zur Gesamtübersicht](../SKILLS.md)",
-        f"- [Plugin-README]({plugin_readme})",
+        f"[Repository-Start](../README.md) · [Skill-Gesamtübersicht](../SKILLS.md) · [Plugin-README]({plugin_readme}) · [Download-Index](../ASSET_INDEX.md) · [Testakten](../testakten/README.md)",
         "",
         "## Downloads",
         "",
         "| Paket | Format | Link |",
         "| --- | --- | --- |",
-        f"| **Großer Prompt (Werkstatt)** | Markdown | <a href=\"{werkstatt_md}\" download><code>{name}-werkstatt.md</code></a> |",
-        f"| **Kleiner Prompt (Schnellstart)** | Markdown | <a href=\"{schnellstart_md}\" download><code>{name}-schnellstart.md</code></a> |",
+        f"| **Großer Prompt (Werkstatt)** | Markdown | [`{name}-werkstatt.md` herunterladen]({werkstatt_md}) |",
+        f"| **Kleiner Prompt (Schnellstart)** | Markdown | [`{name}-schnellstart.md` herunterladen]({schnellstart_md}) |",
         f"| **Alle Skills als Markdown** | ZIP | [alle-skills-markdown.zip]({md_zip}) |",
         f"| **Plugin (installierbar)** | ZIP | [{name}.zip]({plugin_zip}) |",
         "",
         "## So benutzt man einen Skill",
         "",
-        "Skills sind reine Markdown-Prompts und funktionieren in jedem geeigneten Chat-System.",
+        "Diese alphabetische Liste zeigt alle Skills im Quellbestand. Umfangreiche Spezialserien werden im installierten Paket teilweise über einen Fachrouter geöffnet und sind dann keine eigenen Menüeinträge. Werkstatt und Schnellstart sind eigenständige Ein-Datei-Prompts außerhalb des Plugin-ZIPs.",
+        "",
+        "English: This index lists source skills, including specialist series accessed through topic routers in the installed package. Workshop and quick-start files are separate standalone prompts. A skill download provides unchanged Markdown, not an installation; additional references or tools may be required.",
         "",
         "- **Schnelltest mit einer Datei:** oben auf den Schnellstart-Markdown klicken, die `.md` als Anhang in den Chatbot ziehen.",
         "- **Volle Ein-Datei-Tiefe:** oben auf den Werkstatt-Markdown klicken, die `.md` als ausführlichen Arbeitsmodus verwenden.",
-        "- **Volle Skill-Tiefe:** das Sammel-ZIP `alle-skills-markdown.zip` herunterladen, entpacken, gewünschte `SKILL.md` als Anhang in den Chatbot ziehen oder kopieren.",
-        "- **Im Browser lesen:** in der Tabelle unten `[Markdown]` klicken — die `SKILL.md` öffnet sich auf GitHub. Inhalt mit `Strg+A` / `Cmd+A` kopieren und einfügen.",
-        "- **`[Raw .md]`** zeigt den Rohtext direkt — als echter Download.",
+        "- **Volle Skill-Tiefe:** das Sammel-ZIP `alle-skills-markdown.zip` herunterladen und entpacken. Es enthält neben jeder `SKILL.md` auch deren Markdown-Referenzen; beim manuellen Einsatz die benötigten Dateien gemeinsam bereitstellen.",
+        "- **Einzelnen Skill laden:** in der Tabelle auf den Skillnamen oder auf `MD herunterladen` klicken. Beide Wege speichern dieselbe Markdown-Datei.",
         "",
+        *([
+            "Für Bauwirtschaft sind alle 29 Skills unmittelbar installiert. Die [HOAI-Phasenübersicht](../docs/bauwirtschaft-hoai-phasen.md) ordnet neun zusätzliche große Markdown-Werkstätten und neun eigene Schulungsakten den Leistungsphasen zu. Für eine Einzelrechnung genügt weiterhin der Rechnungs-Skill; für einen vollständigen Phasenauftrag den jeweiligen HOAI-Skill wählen.",
+            "",
+        ] if name == "bauwirtschaft" else []),
         "## Skills in diesem Plugin",
         "",
-        "| Skill | Beschreibung | Browser-Ansicht |",
+        "| Skill | Beschreibung | Markdown-Datei |",
         "| --- | --- | --- |",
     ]
+    if not standalone_kinds(name):
+        start = lines.index("## So benutzt man einen Skill")
+        end = lines.index("## Skills in diesem Plugin")
+        lines[start:end] = [
+            "## App verwenden", "",
+            f"Die Skills begleiten die lokale App. Start, Voraussetzungen und Zugriffsgrenzen stehen in der [Plugin-README]({plugin_readme}). Ein einzelner Skill-Download enthält weder Server noch Abhängigkeiten.", "",
+        ]
+        lines = [line for line in lines if not line.startswith(("| **Großer Prompt", "| **Kleiner Prompt"))]
+        lines = [line.replace(" · [Testakten](../testakten/README.md)", "") for line in lines]
+    elif not enabled(name, "schnellstart"):
+        lines = [line for line in lines if not line.startswith(("| **Kleiner Prompt", "- **Schnelltest mit einer Datei:"))]
+        lines = [line.replace("Werkstatt und Schnellstart sind eigenständige Ein-Datei-Prompts", "Der Werkstatt-Prompt ist ein eigenständiger Ein-Datei-Prompt").replace("Workshop and quick-start files are separate standalone prompts.", "The workshop is a separate standalone prompt.") for line in lines]
+        if len(skills) == 1:
+            lines = ["Das Plugin enthält genau einen unmittelbar installierten Skill. Der Werkstatt-Prompt ist ein eigenständiger Download außerhalb des Plugin-ZIPs; MD und TXT enthalten denselben Text."
+                     if line.startswith("Diese alphabetische Liste zeigt alle Skills") else
+                     "English: This plugin contains one directly installed skill. The workshop is a separate standalone download with identical Markdown and TXT content. Required references or tools must also be available when used manually."
+                     if line.startswith("English: This index lists source skills") else line for line in lines]
+    if enabled(name, "werkstatt") and "txt" in formats(name):
+        index = next(i for i, line in enumerate(lines) if line.startswith("| **Großer Prompt")) + 1
+        txt_url = markdown_download_url(f"{_source_rel}/{name}-werkstatt.txt")
+        lines.insert(index, f"| **Derselbe Werkstatt-Prompt als Text** | TXT | [`{name}-werkstatt.txt` herunterladen]({txt_url}) |")
+        if enabled(name, "schnellstart"):
+            mini_txt_url = markdown_download_url(f"{_source_rel}/{name}-schnellstart.txt")
+            mini_index = next(i for i, line in enumerate(lines) if line.startswith("| **Kleiner Prompt (Schnellstart)**")) + 1
+            lines.insert(mini_index, f"| **Derselbe Schnellstart-Prompt als Text** | TXT | [`{name}-schnellstart.txt` herunterladen]({mini_txt_url}) |")
+    focus_file = REPO_ROOT / _source_rel / f"{name}-hauptproblem.md"
+    if enabled(name, "hauptproblem") and focus_file.is_file():
+        index = next(i for i, line in enumerate(lines) if line.startswith("| **Alle Skills als Markdown**"))
+        for ext in formats(name):
+            if focus_file.with_suffix("." + ext).is_file():
+                url = markdown_download_url(f"{_source_rel}/{name}-hauptproblem.{ext}")
+                lines.insert(index, f"| **Schwerpunkt-Prompt (Hauptproblem)** | {ext.upper()} | [`{name}-hauptproblem.{ext}` herunterladen]({url}) |")
+                index += 1
     for s in skills:
         skill_md = skills_dir / s / "SKILL.md"
         desc = read_description(skill_md)
         rel_md = f"{_source_rel}/skills/{s}/SKILL.md"
-        blob_url = f"{GH_BLOB}/{rel_md}"
-        raw_url = f"{GH_RAW}/{rel_md}"
+        download_url = markdown_download_url(rel_md)
         lines.append(
-            f"| [`{s}`]({blob_url}) | {desc} | [Markdown]({blob_url}) · [Raw .md]({raw_url}) |"
+            f"| [`{s}`]({download_url}) | {desc} | [MD herunterladen / Download MD]({download_url}) |"
         )
     lines.append("")
     return "\n".join(lines)
@@ -246,16 +327,22 @@ def write_detail_index(plugins: list[tuple[str, list[str]]], version: str) -> st
         "",
         f"Eine Detailseite pro Plugin mit allen Skills, Beschreibungen und Einzel-Downloads. Stand: `{version}`.",
         "",
-        "Die Aufteilung verhindert, dass GitHubs Markdown-Renderer bei 2600+ Tabellenzeilen abstürzt oder die Seite endlos neu lädt.",
+        f"Die Aufteilung verhindert, dass eine einzige Seite alle {sum(len(skills) for _, skills in plugins)} Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.",
         "",
-        "- [← Zurück zur Gesamtübersicht](../SKILLS.md)",
+        "English: Each plugin has one lightweight detail page containing its complete skill list, descriptions and direct Markdown downloads. Open a plugin page to choose a skill; links labelled `Download MD` save the file instead of opening a source preview.",
+        "",
+        "[Repository-Start](../README.md) · [Skill-Gesamtübersicht](../SKILLS.md) · [Download-Index](../ASSET_INDEX.md) · [Werkstatt und Schnellstart](../docs/werkstatt-und-schnellstart-coverage.md) · [Testakten](../testakten/README.md)",
         "",
         "## Alle Detailseiten",
         "",
+        "Alphabetisch sortiert: " + alphabetical_navigation(plugins),
+        "",
     ]
-    for name, skills in plugins:
-        lines.append(f"- [{name}](./{name}.md) ({len(skills)} Skills)")
-    lines.append("")
+    for label, items in grouped_plugins(plugins):
+        lines.extend([f"### {label}", ""])
+        for name, skills in items:
+            lines.append(f"- [{name}](./{name}.md) ({len(skills)} Skills)")
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -263,9 +350,9 @@ def main() -> int:
     plugins = collect_plugins()
     total_skills = sum(len(skills) for _, skills in plugins)
     total_plugins = len(plugins)
-    version = (
-        "v" + json.loads((REPO_ROOT / ".claude-plugin" / "marketplace.json").read_text())["version"]
-    )
+    catalog = json.loads((REPO_ROOT / ".claude-plugin" / "marketplace.json").read_text())
+    version = "v" + catalog["version"]
+    component_versions = {entry["name"]: "v" + entry["version"] for entry in catalog["plugins"]}
 
     # 1) Schlanke Hauptseite SKILLS.md
     main_text = (
@@ -279,12 +366,13 @@ def main() -> int:
     # 2) Detailseiten pro Plugin
     SKILLS_INDEX_DIR.mkdir(exist_ok=True)
     # Alte Detailseiten loeschen, falls Plugins entfernt wurden
-    current_names = {name for name, _ in plugins} | {"README"}
+    # Die veröffentlichte Weiterleitungsseite hält alte Direktlinks funktionsfähig.
+    current_names = {name for name, _ in plugins} | {"README", "si-native-kanzlei"}
     for old in SKILLS_INDEX_DIR.glob("*.md"):
         if old.stem not in current_names:
             old.unlink()
     for name, skills in plugins:
-        page = plugin_detail_page(name, skills, version)
+        page = plugin_detail_page(name, skills, component_versions[name])
         (SKILLS_INDEX_DIR / f"{name}.md").write_text(page.rstrip() + "\n", encoding="utf-8")
     # Index der Detailseiten
     idx = write_detail_index(plugins, version)
