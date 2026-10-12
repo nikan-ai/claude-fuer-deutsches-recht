@@ -1,13 +1,13 @@
 ---
 name: mahnbescheid-online-mobiliar-gv
-description: "Wenn es um Mahnbescheid online in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Mahnbescheid online: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Zwangsvollstreckung."
 ---
 
 # Mahnbescheid online
 
 ## Arbeitsbereich
 
-Gläubiger will Forderung ohne Klage per Mahnbescheid titulieren lassen. §§ 688 ff. ZPO Online-Mahnverfahren. Prüfraster: Schlüssigkeitsprüfung Antragstyp Gerichtsstand Hauptforderung Nebenforderungen Zinsen Kostenansatz beA EGVP Verjährungshemmung § 204 Abs. 1 Nr. 3 BGB. Output: Mahnbescheid-Antrag komplett ausgefuellt für Online-Portal. Abgrenzung zu zv-vollstreckungsbescheid-folge (Folgeschritt nach MB) und zv-kommandocenter. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Gläubiger will Forderung ohne Klage per Mahnbescheid titulieren lassen. §§ 688 ff. ZPO Online-Mahnverfahren. Prüfraster: Schlüssigkeitsprüfung Antragstyp Gerichtsstand Hauptforderung Nebenforderungen Zinsen Kostenansatz beA EGVP Verjährungshemmung § 204 Abs. 1 Nr. 3 BGB. Output: Mahnbescheid-Antrag komplett ausgefuellt für Online-Portal. Abgrenzung zu vollstreckungsbescheid-zv (Folgeschritt nach MB) und kommandocenter. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -23,10 +23,6 @@ Gläubiger will Forderung ohne Klage per Mahnbescheid titulieren lassen. §§ 68
 2. Droht Verjährung — wenn ja, bis wann muss der Mahnbescheid eingereicht sein (§ 204 Abs. 1 Nr. 3 BGB)?
 3. Hat der Schuldner einen Wohnsitz in Deutschland — Auslandszustellung schwierig?
 4. Ist der Antragsgegner Verbraucher oder Kaufmann — B2C erfordert strengere Prüfung?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -70,7 +66,7 @@ Anwalt darf nur Mahnbescheid beantragen, wenn die Forderung **schlüssig** ist. 
 
 - "Mahnbescheid einreichen" – Standard.
 - "Mahnbescheid weiterleiten" – wenn Antrag bereits gedruckt vorliegt.
-- "Vollstreckungsbescheid beantragen" – wenn Mahnbescheid bereits zugestellt und Widerspruchsfrist verstrichen (→ Skill `zv-vollstreckungsbescheid-folge`).
+- "Vollstreckungsbescheid beantragen" – wenn Mahnbescheid bereits zugestellt und Widerspruchsfrist verstrichen (→ Skill `vollstreckungsbescheid-zv`).
 
 ### Schritt 2: Antragsteller / Verfahrensbevollmächtigter
 
@@ -125,12 +121,10 @@ Privatperson oder Vereine ohne beA: über das Online-Portal anlegen, dann ausdru
 - **Teilwiderspruch**: nur über bestrittenen Teil wird ans Streitgericht abgegeben; Restteil → Vollstreckungsbescheid möglich.
 - **Verspäteter Widerspruch** nach VB-Antrag: behandelt als Einspruch gegen den VB § 700 Abs. 3 ZPO.
 
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Qualitätsgates
 
 - Verbraucherdarlehen mit überhöhtem Zinssatz – Mahnverfahren unzulässig.
 - Anspruchsbezeichnung muss eindeutig sein – sonst keine Verjährungshemmung.
 - Bei Auslands-Schuldner ist Mahnverfahren oft nicht zulässig oder Europäisches Mahnverfahren (EuMahnVO) statt deutsches Mahnverfahren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

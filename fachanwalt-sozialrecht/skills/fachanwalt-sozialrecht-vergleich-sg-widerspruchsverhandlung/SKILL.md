@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sozialrecht-vergleich-sg-widerspruchsverhandlung
-description: "Wenn es um Sozialrecht — Vergleich vor SG / Widerspruchsverhandlung in Fachanwalt Sozialrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Sozialrecht — Vergleich vor SG / Widerspruchsverhandlung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Sozialrecht — Vergleich vor SG / Widerspruchsverhandlung
@@ -13,7 +13,6 @@ description: "Wenn es um Sozialrecht — Vergleich vor SG / Widerspruchsverhandl
 5. Bei Unterlaufen der Monatsfrist: Wiedereinsetzung (§ 67 SGG) möglich?
 
 ## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 ## Quellenregel
@@ -52,10 +51,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 
 ---
 
@@ -273,7 +268,7 @@ Mit freundlichen Grüßen
 |---|---|
 | Gerichtskosten | Kostenfrei § 183 SGG (Versicherte) |
 | Anwaltskosten | PKH regelmäßig; Wahlanwalt nach RVG |
-| § 109-Gutachten | EUR 800 bis 5000; Kläger-Vorschuss; PKH möglich |
+| § 109-Gutachten | Vorschuss und Kostentragung nach § 109 Absatz 1 Satz 2 SGG gesondert prüfen; PKH übernimmt diese Kosten nicht (§ 73a Absatz 3 SGG). Eine spätere Übernahme auf die Staatskasse bleibt eine eigene Gerichtsentscheidung. |
 | LSG-Berufung | Streitwert > EUR 750 (§ 144 Abs. 1 SGG) |
 | Untätigkeitsklage | Keine Mehrkosten |
 
@@ -301,4 +296,4 @@ Mit freundlichen Grüßen
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "plugin": "subsumtions-pruefer",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__362.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Einzelnormtext gelesen: Erfüllung setzt Bewirken der geschuldeten Leistung voraus. Neuer Arbeitsweg trennt Zahlungsbehauptung, Überweisungsauftrag, Leistungserfolg und Restforderung; keine neue Beweislastentscheidung behauptet."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__626.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktueller Normtext gelesen: Einzelfallabwägung und Unzumutbarkeit nach Absatz 1, Zweiwochenfrist ab maßgeblicher Kenntnis des Kündigungsberechtigten nach Absatz 2; Sonderfragen laufender Aufklärung bleiben fallbezogene Recherche."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__323.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen Text gelesen: Fristsetzung und Entbehrlichkeit von der Unerheblichkeit nach Absatz 5 Satz 2 unterscheiden; keine neue feste Erheblichkeitsschwelle eingeführt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__323.html",
+      "checked_on": "2026-09-22",
+      "supports": "Absatz 5 Satz 2: Unerheblichkeit der Pflichtverletzung bei nicht vertragsgemäß erbrachter Leistung als konkretes Subsumtionsbeispiel."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__626.html",
+      "checked_on": "2026-09-22",
+      "supports": "Absatz 1: Umstände des Einzelfalls, Interessenabwägung und Unzumutbarkeit bis zum regulären Ende; kein bloßes Etikett wichtiger Grund."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1994/04/rs19940413_1bvr002394.html",
+      "checked_on": "2026-09-22",
+      "supports": "Randnummern 27 bis 29 im amtlichen Suchindex: Tatsachenbezug schließt den Schutz der Meinungsfreiheit nicht pauschal aus; Sinnzusammenhang und Wahrheitsstatus unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__287.html",
+      "checked_on": "2026-09-14",
+      "supports": "Gerichtliche Würdigung und Schätzung bei Schaden und Höhe unter Würdigung aller Umstände; keine Voraussetzung, dass sämtliche anderen Beweismittel ausgeschlossen sind."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2023/III_ZR_431-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "Amtliche Identität/Fundstelle; maßgebliche Begründung in separat dokumentierter Volltextwiedergabe geprüft. Keine beliebige Schätzung, aber fehlende Exaktheit schließt mögliche Mindestschätzung nicht aus. Grenze: Gebrauchsvorteile eines Luftsportgeräts, keine automatische Übernahme konkreter Werte oder Amtshaftungsnorm auf Reparaturfälle. Amtliche Entscheidungsidentität und wesentliche Passage im Suchindex; Randnummern zusätzlich in veröffentlichter Volltextwiedergabe gelesen, direkter amtlicher PDF-Abruf nicht auswertbar."
+    },
+    {
+      "url": "https://www.anwalt24.de/urteile/bgh/2025-04-10/iii-zr-431_23",
+      "supports": "Volltextwiedergabe des gerichtlichen Texts, Randnummern 17 bis 20, zur Kontrolle von Schätzungsgrundlagen und Mindestschaden.",
+      "checked_on": "2026-09-22"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig erneut gelesen: selbstständiger Einstieg und konkrete Nachfragen zu Mangel, Kündigungskenntnis, Leistungserfolg und Schadensbeleg führen zur überarbeiteten Passage. Vorhandener Schätzungsanker samt Grenzen erhalten.",
+    "changes": [
+      "Drei Einstiegsmodi sowie kurze Arbeitswege zu Erheblichkeit, Kündigungsfrist, Teilzahlung und überschneidenden Reparaturbelegen ergänzt.",
+      "Konkrete Merkmalsprüfung erhalten; Gegenprüfung eigener Argumente und doppelte Grenze der Schadensschätzung präzisiert.",
+      "Keine beliebige Schätzung, aber fehlende Exaktheit schließt mögliche Mindestschätzung nicht aus. Grenze: Gebrauchsvorteile eines Luftsportgeräts, keine automatische Übernahme konkreter Werte oder Amtshaftungsnorm auf Reparaturfälle."
+    ],
+    "sha256": "146516c1c1078b70f72448ae6b615f56eb68edc0a995b07b3bb339c3bcce22c7"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie meine konkrete Subsumtion auf fehlende Tatbestandsmerkmale und unbelegte Tatsachenschlüsse.",
+      "Kontrollieren Sie, ob aus meinen Belegen die behauptete Rechtsfolge folgt, ohne einen neuen Sachverhalt zu erfinden."
+    ],
+    "negative": [
+      "Erstellen Sie ohne Sachverhalt eine vollständige Einführung in das Bürgerliche Recht.",
+      "Reichen Sie für mich eine Klage ein und übernehmen Sie die Prozessvertretung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "unbelegte-beweislastumkehr",
+      "request": "Prüfen Sie in ergebnis.md meinen Absatz aus Sicht des Prozessgegners und liefern Sie anschließend eine verbesserte Fassung. Ein Unternehmer verlangt aus einem ausgehandelten Kaufvertrag Zahlung. Vertragsschluss und Fälligkeit sind unstreitig. Der Käufer behauptet Überweisung, nennt aber weder Datum noch Bank noch Betrag und legt keinen Beleg vor. Mein Absatz lautet: Weil der Verkäufer leichter seine Kontoauszüge beschaffen kann, kehrt sich die Beweislast um. Er muss beweisen, dass keine Zahlung eingegangen ist. Wir gewinnen deshalb ohne weiteren Vortrag. Eine besondere Beweisvereinbarung oder ein Nachweis der behaupteten Zahlung liegt nicht vor. Eine Klage oder einen vollständigen Schriftsatz brauche ich nicht.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "target_skill": "rechtsfolge-bestimmen-einreden-interaktiver",
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt Entstehung und Fälligkeit der Forderung von der behaupteten Erfüllung; bloße Verfügbarkeit von Kontoauszügen begründet keine automatische Beweislastumkehr.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Fordert konkrete Zahlungsangaben beziehungsweise Nachweise, ohne deren Inhalt zu erfinden; bewertet das Fehlen eines Belegs nicht als bewiesene Nichtzahlung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Formuliert eine begründete Gegenposition und eine korrigierte Passage ohne sicheren Prozesserfolg oder ungefragte Klageschrift.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schadensschaetzung-unbelegte-restsumme",
+      "request": "Prüfen Sie in ergebnis.md ausschließlich die folgende Argumentation zur Schadenshöhe. Haftung dem Grunde nach ist für den Auftrag vorgegeben. Ein Vermieter fordert 2.500 Euro Reparaturkosten. Rechnungen über 800 Euro sind vorhanden; für die weiteren 1.700 Euro fehlen Angebote, Mengen, Arbeitszeiten und sonstige Berechnungsgrundlagen. Der Entwurf lautet: Paragraf 287 ZPO darf nur benutzt werden, wenn alle anderen Beweismittel ausgeschlossen sind. Deshalb kann das Gericht hier entweder ausschließlich 800 Euro zusprechen oder ohne weitere Grundlage die verlangten 2.500 Euro schätzen. Die Gegenseite bestreitet die restlichen Kosten. Korrigieren Sie die logischen und rechtlichen Zwischenschritte, ohne fehlende Schäden oder Rechnungen zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Prüfung verwirft die pauschale Voraussetzung, sämtliche anderen Beweismittel müssten ausgeschlossen sein, statt sie als Definition des Paragrafen 287 zu übernehmen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Sie erkennt, dass aus einer Schätzungsbefugnis keine beliebige Übernahme unbelegter 1.700 Euro folgt, und verlangt tragfähige Anknüpfungstatsachen für diesen Rest.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Ausgabe trennt die belegten 800 Euro, den streitigen unbelegten Rest und die vorgegebene Haftung dem Grunde nach; sie ersetzt fehlende Tatsachen weder durch eigene Schadensannahmen noch durch einen sicheren Urteilsausspruch.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "rechtsfolge-bestimmen-einreden-interaktiver"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gesamte Werkstatt erneut gelesen: Rücktrittsmerkmal, Kündigungsabwägung und Kenntnisfrist, Erfüllungseinwand sowie nachgereichte Schätzungsgrundlagen in eigenständigen Dialogzweigen bis zur korrigierten Fassung ausgearbeitet. Keine Live-Mandantenbearbeitung.",
+    "changes": [
+      "Vier konkrete Arbeitswege mit entgegenstehenden Tatsachen, begrenztem Auftrag und Änderung von Schlussfolgerung beziehungsweise Rechnung ergänzt.",
+      "Konkrete Merkmalsprüfung erhalten; Gegenprüfung eigener Argumente und doppelte Grenze der Schadensschätzung präzisiert.",
+      "Keine beliebige Schätzung, aber fehlende Exaktheit schließt mögliche Mindestschätzung nicht aus. Grenze: Gebrauchsvorteile eines Luftsportgeräts, keine automatische Übernahme konkreter Werte oder Amtshaftungsnorm auf Reparaturfälle."
+    ],
+    "sha256": "d85b651f9f4b5f7b1a96d7bd429ff5782d175a28140f6bb80b9b43f8ffdc02a1"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Gutachtenpassage korrigieren, streitiges Anspruchsmerkmal prüfen oder Gegenargumentation erstellen.",
+      "Nur Dateien: Fall, Bearbeitervermerk und Lösung still lesen; nur bei offenem Ziel passende Textwege anbieten.",
+      "Klarer Auftrag: unmittelbar den beauftragten Prüfungspunkt bearbeiten und nur entscheidende Prämissen nachfragen."
+    ],
+    "continuation": "Funktionsbefund, Kenntnisdatum oder Zahlungsbeleg -> konkrete Subsumtion, Fristabsatz oder Restforderung ändern; Schadensangebot -> Überschneidung prüfen und Schätzungsabsatz neu fassen.",
+    "enrichment": "Rücktritt, Kündigungsabwägung und Zweiwochenfrist, Erfüllungseinwand sowie Mindestschätzung mit adversen Tatsachen und vollständigen korrigierten Passagen ausgearbeitet.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "subsumtions-pruefer/subsumtions-pruefer-werkstatt.md",
+      "subsumtions-pruefer/subsumtions-pruefer-schnellstart.md"
+    ],
+    "opening_change": "Konkrete Merkmalsprüfung erhalten; Gegenprüfung eigener Argumente und doppelte Grenze der Schadensschätzung präzisiert.",
+    "norms": [
+      "Paragrafen 286 und 287 ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 10.04.2025, III ZR 431/23, Randnummern 17 bis 20",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2023/III_ZR_431-23.pdf?__blob=publicationFile&v=1",
+        "application": "Keine beliebige Schätzung, aber fehlende Exaktheit schließt mögliche Mindestschätzung nicht aus.",
+        "limit": "Gebrauchsvorteile eines Luftsportgeräts, keine automatische Übernahme konkreter Werte oder Amtshaftungsnorm auf Reparaturfälle."
+      }
+    ],
+    "remaining_limits": [
+      "Amtliche Entscheidungsidentität und wesentliche Passage im Suchindex; Randnummern zusätzlich in veröffentlichter Volltextwiedergabe gelesen, direkter amtlicher PDF-Abruf nicht auswertbar."
+    ]
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=141463&Blank=1.pdf",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2023/III_ZR_431-23.pdf?__blob=publicationFile&v=1",
+        "sha256": "deeeaf524b09d83c146882423cf79c440bbf7bea2b66cd7e5607f3eb3bc03e75"
+      }
+    ]
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "subsumtions-pruefer/references/ki-normen-und-fallpruefung.md",
+    "focus": "Prüfen Sie jedes Merkmal anhand eines bezeichneten Aktenbelegs und führen Sie die stärkste Gegenposition aus. Rechtsprechung zu verwandten Normen ist als begrenztes Argument und nicht als Ersatz des konkreten Tatbestands einzusetzen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

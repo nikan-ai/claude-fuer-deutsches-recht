@@ -1,6 +1,6 @@
 ---
 name: gesellschaftsrecht-mandatsworkspace-kontexttrennung
-description: "Wenn es um Gesellschaftsrechtlicher Mandatsworkspace und Kontexttrennung in Gesellschaftsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Gesellschaftsrechtlicher Mandatsworkspace und Kontexttrennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 
 ---
 
@@ -55,8 +55,6 @@ Bei M&A-Mandaten (Kauf/Verkauf von Unternehmen) gilt der Rechtsanwalt als Verpfl
 
 | Gericht | Aktenzeichen | Fundstelle | Leitsatz / Relevanz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema: Mandats-Workspace
 
@@ -103,7 +101,6 @@ Bei M&A-Mandaten (Kauf/Verkauf von Unternehmen) gilt der Rechtsanwalt als Verpfl
 |---|---|---|
 | Mandatsworkspace für In-house-Juristen unnötig | In-house-Jurist arbeitet nur für einen Mandanten (das eigene Unternehmen) | Richtig — Skill bei In-house-Standard deaktiviert; nur bei tatsächlichem Mehrfachmandatsverhältnis aktivieren |
 | Mandatsinformationen können zusammengefasst werden | Effizienzgewinn bei mandatsübergreifendem Vergleich | Paragraf 43a Abs. 2 BRAO gilt für jedes einzelne Mandat; mandatsübergreifende Auswertung nur mit ausdrücklicher Erlaubnis jedes Mandanten |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Digitale Trennung nicht ausreichend | Mandatsinhalte sind ohnehin in unterschiedlichen Softwaresystemen gespeichert | Verschwiegenheitspflicht gilt auch für KI-gestütztes Drafting und Kontextverarbeitung; mandatsübergreifender Kontext-Schalter muss bewusst gesetzt werden |
 | Slug-System zu komplex | Einfachere Identifikation reicht | Slug-Eindeutigkeit ist zentral für fehlerfreies Routing; klares Muster (Mandant-Typ-Jahr) verhindert Verwechslungen |
 
@@ -393,12 +390,8 @@ Zitierweise nach `../../references/zitierweise.md`.
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall und keine Interessenkonfliktprüfung.
 
 ---
-## Audit-Hinweis (27.05.2026)
-
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.

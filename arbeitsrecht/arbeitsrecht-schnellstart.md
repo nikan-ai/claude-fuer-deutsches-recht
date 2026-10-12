@@ -1,56 +1,47 @@
-Wenn du das hier öffnest, willst du eine Kündigung rechtssicher angreifen oder aussprechen und die Klagefrist sichern.
+# 1. Arbeitsrechtlichen Auftrag bearbeiten
 
-# Arbeitsrecht — Schnellstart
+Prüfe Kündigungserklärung, Zugang und Kündigungsgrund oder rechne die konkret streitige Vergütung ab. Lies Vertrag, Schreiben und Nachweise vor Rückfragen und formuliere den beauftragten Klageentwurf, Personalvermerk, Anspruchsbrief oder Vertrag. Bei Arbeitszeit, Abmahnung und interner Untersuchung bleibe beim betroffenen Vorgang; ein Gutachtenauftrag verlangt keinen zusätzlichen Klageentwurf.
 
-## 1. Schnellmodus
+## 2. Kündigung: Erklärung, Zugang und Frist trennen
 
-Starte mit dem Arbeitsprodukt. Gib zuerst Ergebnisrichtung, Frist, Risiko und nächsten Schritt. Bei umfangreichen Unterlagen zuerst eine belastbare Kurzfassung mit Fundstellenlinie liefern, danach vertiefen. Frage höchstens zwei Punkte nach, wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge oder Varianten.
+Ohne Eingabe biete Kündigungsprüfung, Entgeltforderung oder Vertragsgestaltung an. Dateien ohne Auftrag still lesen und zwei oder drei passende Wege erfragen, noch keinen Gesamtbericht. Bei klarem Auftrag direkt zum Dokument arbeiten; bekannte Beschäftigungsdaten übernehmen. Folgeantwort „zweite Kündigung“ führt zu eigenem Antrag und eigener Fristprüfung. „20 Stunden ausgeglichen“ ändert Monatsrechnung und Zahlungsbrief. „Aufgaben übernimmt eine neue Person“ verlangt erneute Prüfung des behaupteten Arbeitsplatzwegfalls, keine kosmetische Kündigungsbegründung. Nur entscheidende Lücken nachfragen.
 
-## 2. Fallkarte
+Erfasse jede Kündigung gesondert mit Datum, Inhalt, Unterzeichnung, Übermittlungsart, Zugangsvortrag und Beleg. Ein Scan, das unterschriebene Original und eine erneute Kündigung sind nicht dieselbe Erklärung. Nach [Paragraf 623 BGB](https://www.gesetze-im-internet.de/bgb/__623.html) ist die elektronische Form ausgeschlossen. Eine technisch qualifizierte Signatur ersetzt diesen Formzwang nicht.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | KSchG Paragraf 1; KSchG Paragraf 4 und Paragraf 7; BGB Paragraf 611a |
-| Rechtsprechung | BVerfG, Beschluss vom 06.06.2018 - 1 BvL 7/14 und 1 BvR 1375/14; BAG, Urteil vom 27.02.1985 - GS 1/84 |
-| Tatbestand | Zugang, Dreiwochenfrist, Schriftform, Beteiligungsrechte, Darlegungslast und Klage- oder Vergleichsziel sofort trennen |
-| Beweislast | Arbeitgeber für Kündigungs-, Befristungs- und Betriebsratsgrund; Arbeitnehmer für Zugang, Fristwahrung und eigene Ansprüche |
-| Rechtsfolge | Feststellung, Weiterbeschäftigung, Annahmeverzug, Vergleich oder Abwicklungsbaustein |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Die Dreiwochenfrist nach [Paragraf 4 KSchG](https://www.gesetze-im-internet.de/kschg/__4.html) an den Zugang der schriftlichen Kündigung anknüpfen, nicht an das Briefdatum oder ohne Weiteres an die vorherige E-Mail. Mehrere Zustellungsvarianten mit getrennten Berechnungen und konservativer Sicherungsmaßnahme darstellen. Zugang, Kenntnisnahme und Beweis des Briefinhalts auseinanderhalten. Keine pauschale Beweislast des Arbeitnehmers für den Zugang behaupten.
 
-## 3. Rolle
+Bei bestrittenem Einschreibenzugang prüfe Paragraf 130 Absatz 1 BGB und BAG, Urteil vom 30.01.2025, 2 AZR 68/24, Rn. 15 bis 20 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-68-24/)): Einlieferungsbeleg und Online-Status allein tragen keinen Anscheinsbeweis. Fordere Auslieferungsbeleg oder konkrete Zustellzeugen nach. Andere Zugangsnachweise bleiben möglich; daraus weder sicheren Nichtzugang noch automatisch bewiesenen Briefinhalt ableiten.
 
-Du arbeitest arbeitsrechtlich an Kündigung, Befristung, Betriebsratsanhörung, Sozialauswahl und Vergleich. Ergebnis ist ein Fristenblatt, Klageentwurf, Erwiderungsblock, HR-Vermerk oder Vergleichsvorschlag in ganzen Sätzen.
+Optional vertiefen [Frist und Zugang](skills/kueschk-frist-und-zugang-pruefen/SKILL.md) und [Kündigungszugang-Beweiswerkstatt](skills/kuendigung-zugang-beweiswerkstatt/SKILL.md) Berechnung und Zustellbeweise. Ohne diese Dateien Fristauslöser, Beginn, Ende, mögliche Wochenend-/Feiertagsverschiebung und Beleg anhand amtlicher Berechnungsregeln dokumentieren. Eine unklare Variante verhindert nicht den fristwahrenden Entwurf. Bei verstrichener Frist nachträgliche Zulassung gesondert prüfen; Krankheit oder Urlaub nicht pauschal genügen lassen.
 
-## 4. Triage
+## 3. Kündigungsgrund und Beteiligung
 
-1. Liegt Kündigung, Befristungsende, Aufhebungsvertrag oder Abmahnung vor.
-2. Wann ist der Zugang oder das vereinbarte Vertragsende beweisbar eingetreten.
-3. Gibt es Betriebsrat, Sonderkündigungsschutz, Massenentlassung oder Befristung per elektronischer Signatur.
-4. Was wird gebraucht: Klage, Erwiderung, Vergleich, Vertragskorrektur oder Mandantenmail.
+Bestimme Arbeitnehmerstatus, Beschäftigungsdauer, Betriebsgröße, Kündigungsart und beabsichtigtes Ende. Den Anwendungsbereich des Kündigungsschutzes vor der sozialen Rechtfertigung klären. Nach [Paragraf 1 KSchG](https://www.gesetze-im-internet.de/kschg/__1.html) die konkret behaupteten personen-, verhaltens- oder betriebsbedingten Gründe prüfen; Tatsachen und Beweismittel zu jeder tragenden Voraussetzung zuordnen.
 
-## 5. Kurzweg
+Bei Verhalten Pflichtverletzung, Abmahnung, Wiederholungsprognose und mildere Mittel prüfen; bei betrieblichem Anlass Organisationsentscheidung, Arbeitsplatzwegfall, Weiterbeschäftigung und Auswahlkreis voneinander trennen. Keine automatische Abfindung aus einer unwirksamen Kündigung ableiten.
 
-1. Frist sichern: KSchG Paragraf 4, KSchG Paragraf 7 und TzBfG Paragraf 17 sofort kalendarisch berechnen.
-2. Form prüfen: Kündigung und Aufhebungsvertrag brauchen BGB Paragraf 623; Befristung braucht TzBfG Paragraf 14 Absatz 4 mit Papieroriginal oder qualifizierter elektronischer Signatur.
-3. Zugang beweisen: BGB Paragraf 130, Umschlag, Bote, Einwurfzeit, Empfangsverweigerung und Beweis des Inhalts trennen.
-4. Kündigungsgrund ordnen: personen-, verhaltens- oder betriebsbedingt nach KSchG Paragraf 1 Absatz 2 und Sozialauswahl nach KSchG Paragraf 1 Absatz 3.
-5. Beteiligungsrechte prüfen: BetrVG Paragraf 102 und Sonderkündigungsschutz vor materieller Vertiefung erledigen.
-6. Produkt schreiben: Antrag, Sachverhalt, Beweise, Rechtsprüfung, Vergleichsfenster und nächste Frist.
+Besteht ein Betriebsrat, Anhörungsschreiben, Zugang beim Gremium, mitgeteilte Gründe und Reaktion anhand [Paragraf 102 BetrVG](https://www.gesetze-im-internet.de/betrvg/__102.html) kontrollieren. Eine erst nach Ausspruch begonnene Anhörung nicht als vorherige Beteiligung behandeln. Sonderkündigungsschutz nach dem tatsächlichen Status zusätzlich prüfen; fehlende Belege als Freigabehindernis kennzeichnen.
 
-## 6. Anker
+## 4. Andere arbeitsrechtliche Wege
 
-- KSchG Paragraf 1, Paragraf 4 und Paragraf 7: soziale Rechtfertigung, Klagefrist und Wirksamkeitsfiktion.
-- BGB Paragraf 130, Paragraf 623 und Paragraf 626: Zugang, Schriftform und außerordentliche Kündigung.
-- TzBfG Paragraf 14 Absatz 4, Paragraf 16 und Paragraf 17: Befristungsform, Unbefristetheitsfolge und Befristungskontrollklage.
-- BetrVG Paragraf 102: Betriebsratsanhörung.
-- BAG, Urteil vom 27.02.1985 - GS 1/84: Weiterbeschäftigung nach erstinstanzlichem Obsiegen.
-- BVerfG, Beschluss vom 06.06.2018 - 1 BvL 7/14 und 1 BvR 1375/14: Vorbeschäftigungsverbot des TzBfG mit atypischer Begrenzung.
-- LAG Berlin-Brandenburg, Urteil vom 16.03.2022 - 23 Sa 1133/21: Scan wahrt Befristungsform nicht.
+4.1. Befristung: Befristungsabrede, Abschlusszeitpunkt, Arbeitsbeginn, Enddatum und Verlängerungen getrennt erfassen. Sachgrund, Vorbeschäftigung und Form nur am jeweiligen Modell prüfen. Die Kontrollfrist nach [Paragraf 17 TzBfG](https://www.gesetze-im-internet.de/tzbfg/__17.html) nicht mit der Kündigungsklagefrist gleichsetzen.
 
-## 7. Antwortform
+4.2. Entgelt und Arbeitszeit: Zeitraum, Soll, Ist, Abrechnung, Zahlung und Anspruchsgrundlage gegenüberstellen. Überstunden nicht allein aus Anwesenheit ableiten; Ausschlussklausel und Fälligkeit gesondert prüfen. Optional: [Lohn- und Arbeitszeitfragen](skills/lohn-arbeitszeit-fragen/SKILL.md).
 
-Lagebild: Frist, Zugang, Maßnahme und Ziel. Prüfung: Norm, Tatsache, Beleg, Einwand, Rechtsfolge. Ergebnis: Handlung heute. Anschluss: fehlende Unterlage, Schriftsatz, Termin, Vergleich.
+Bei Teilzeit-Zuschlägen [BAG, Urteil vom 28.04.2026, 5 AZR 96/25](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-96-25/), Rn. 19 und 53 bis 57, beachten: Eine für Vollzeit und Teilzeit gleiche 40-Stunden-Schwelle war im entschiedenen Tarifmodell unzulässig. Die Grenze proportional zur regelmäßigen Vollzeit herabsetzen; nicht jede Mehrstunde ab individueller Sollzeit automatisch bezuschlagen. Tarifgrundlage und Leistungszweck prüfen. Das Urteil verwies zur weiteren Aufklärung zurück.
 
-## 8. Stop
+4.3. Aufhebung oder Vergleich: Gewünschtes Ende, Ausgleich, offene Vergütung, Urlaub, Zeugnis und Freistellung vollständig regeln. Leistungsrechtliche Folgen als gesonderten Prüfpunkt kennzeichnen, nicht aus der Abfindungshöhe allein bestimmen.
 
-Bei ungeklärtem Zugang, drohendem Fristablauf, fehlender Signaturprüfung, Sonderkündigungsschutz oder unvollständiger Betriebsratsanhörung zuerst Lückenliste und Sofortmaßnahme ausgeben.
+## 5. Ergebnis und Freigabe
+
+Fehlt der Zugangsnachweis einer Kündigung, frage nach Übermittlungsart und Datum oder fordere den benannten Beleg an. Nach der Antwort berechne die betroffenen Fristen neu und passe nur die davon abhängigen Anträge und Gründe an.
+
+Bei einer offenen Entgeltposition frage nach Abrechnung, Zahlung oder Stundenbeleg für den konkreten Zeitraum. Übernimm die Antwort in die Rechnung und schreibe anschließend den bestellten Anspruchsbrief oder Schriftsatz fertig.
+
+Neue entscheidende Widersprüche rechtfertigen eine weitere kurze Fragerunde, nicht die Wiederholung der Mandatsaufnahme. Solange ein Beleg fehlt, liefere die gesicherten Teile als vorläufige Fassung und arbeite nach der Antwort weiter.
+
+Verbinde konkrete Tatsache, Beleg, geprüfte Norm, stärksten Einwand und Rechtsfolge. Anträge und Schreiben vollständig formulieren; offene Angaben nur an der betroffenen Stelle markieren. Vergleichsoptionen von bestehenden Ansprüchen trennen. Keine Einreichung oder Fristwahrung behaupten, die nicht erfolgt ist.
+
+Quellenzugriff, ungeprüfte Fundstellen und interne Kontrollen gehören in eine gesonderte Arbeitsnotiz, nicht in den Mandantenbrief. Einreichung, Versand, Kündigungserklärung und Vergleichsabschluss erfordern eine ausdrückliche Freigabe.
+
+Amtliche Normfassung prüfen; Entscheidungen nur fallbezogen mit Gericht, Entscheidungsform, Datum, Aktenzeichen und belegter Randnummer einsetzen. Optional: [Zitierweise](../references/zitierweise.md). Den gewünschten Dateinamen verwenden, sonst `ergebnis.md`. Dezimale Überschriften mit Leerzeilen und soweit möglich Times New Roman 11 pt verwenden; Exporthinweise getrennt vom Empfängertext halten. Ohne Export Text liefern und ungelesene Unterlagen gesondert benennen. Nur die betroffene externe Handlung zurückstellen, belastbare Teile weiterbearbeiten.

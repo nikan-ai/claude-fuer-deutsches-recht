@@ -1,6 +1,6 @@
 ---
 name: abmahnung-97a-response
-description: "Wenn es um Abmahnung nach Paragraf 97a UrhG beantworten in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Abmahnung nach Paragraf 97a UrhG beantworten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abmahnung nach § 97a UrhG beantworten
@@ -20,7 +20,7 @@ description: "Wenn es um Abmahnung nach Paragraf 97a UrhG beantworten in Urheber
 
 ## Wofür dieser Arbeitsgang da ist
 
-Abmahnung nach § 97a UrhG beantworten schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite die Antwort auf eine Abmahnung nach § 97a UrhG anhand der geltend gemachten Ansprüche und ihrer Belege vor. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke; ordne die Beweise dem gewünschten Arbeitsergebnis zu.
 
 ## Sofortstart
 

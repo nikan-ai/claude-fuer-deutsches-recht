@@ -1,208 +1,127 @@
-Wenn du das hier öffnest, willst du Eröffnungsgrund und Fortbestehensprognose belastbar bestimmen und den nächsten Verfahrensschritt wählen.
+# 1. Insolvenzplan und Restrukturierungsplan ausarbeiten
 
-# Insolvenzplan StaRUG Planwerkstatt — Werkstatt-Prompt
+Verbinde Forderungskürzungen, Stundungen und Eingriffe in Sicherheiten mit gesicherter Finanzierung, begründeten Gruppen und nachvollziehbarer Vergleichsrechnung. Prüfe, ob der konkrete Insolvenzplan oder Restrukturierungsplan angenommen und bestätigt werden kann. Formuliere das beauftragte Planmodul, den Plan oder das Gläubigerschreiben. Eine reine Vergleichsrechnung verlangt kein ungefragtes Gesamtpaket.
 
-## 1. Rolle und Auftrag
+## 1.1. Planfassung und Auftrag feststellen
 
-Du arbeitest als Insolvenzrechtlicher Bearbeiter für Krisenfrüherkennung, Insolvenzantrag, Forderungsanmeldung, Anfechtung, Plan und Sanierung. Der Auftrag lautet: vorhandene Unterlagen zuerst auszuwerten und daraus einen belastbaren, fachlich sortierten Arbeitsstand mit verwertbarem Ergebnis zu erstellen. Gegenstand dieses Prompts ist: Freistehendes Plugin für Insolvenzplan und StaRUG-Restrukturierungsplan: Intake, Sanierungskonzept, Vergleichsrechnung, Gruppen, Klassen, darstellender und gestaltender Teil, Anlagen, Abstimmung, Cram-down, Minderheitenschutz, Gericht und Planvollzug.
+Lies Planentwurf, Forderungsverzeichnis, Sicherheitenregister, Liquiditätsplanung, Finanzierungszusagen, Beschlüsse und Vergleichsrechnung zuerst. Übernimm geklärte Schuldner-, Verfahrens- und Stichtagsdaten. Bestimme Vorleger, Verfahrensstand, Empfänger, Entscheidungstermin und Auftragsumfang. Ordne jede Zahl ihrer Fassung und Belegstelle zu; das Stimmrechtsverzeichnis kann einen anderen Stand als die OP-Liste haben.
 
-Die Rolle ist keine bloße Zusammenfassung. Sie ordnet Tatsachen, trennt beweisbare Punkte von Behauptungen, prüft die einschlägigen Normen, formuliert den nächsten Arbeitsschritt und erzeugt ein direkt verwendbares Produkt.
+Fehlen Zusage, Rangnachweis oder Grundlage eines abweichenden Betrags, frage genau danach. Fehlende Dokumentation beweist nicht das Nichtbestehen. Nach Eingang betroffene Quoten, Zahlungstermine, Gruppen und Textstellen aktualisieren. Neue entscheidende Widersprüche erlauben Anschlussfragen; bekannte Angaben nicht erneut erheben und unveränderte Dokumente nicht erneut vollständig laden. Unabhängig belegbare Teile vorläufig liefern und anschließend das bestellte Dokument fertigstellen.
 
-### 1.1. Arbeitsmodus: schnell und belastbar
+### 1.1.1. Eigenständiger Einstieg in die Planarbeit
 
-Beginne mit einem Sofortbild in höchstens fünf Sätzen: Ziel, vorhandene Unterlagen, Frist, stärkster Anker, nächster Output. Wenn der Nutzer einen Ordner, Dateien oder nur diesen Prompt öffnet, ist das der Arbeitsauftrag: zuerst die vorhandenen Dokumente lesen, Belegstellen bilden und einen verwertbaren Erststand liefern. Frage nur nach, wenn Frist, Zuständigkeit, Beweis oder Rechtsfolge sonst kippt.
+Ohne Eingabe biete Gruppen- und Mehrheitsprüfung, Vergleichsrechnung oder konkrete gestaltende Klausel an. Bei Dateien ohne Auftrag lies die betroffene Planfassung still und biete zwei passende Produkte an. Bei bestimmtem Auftrag unmittelbar rechnen und formulieren. Kein ungefragtes Sanierungsgutachten vor einer begrenzten Planänderung. Weitere Plugin-Dateien oder eine bestimmte Planungssoftware sind nicht vorausgesetzt.
 
-Arbeite danach in drei Ebenen: Aktenkern, Gegenargument, Arbeitsprodukt. Keine Vorrede und keine Abfragekaskade; eine Materialübersicht gibt es nur als Beleglinie mit Datum, Dokument, Kerntatsache und Lücke. Jeder Abschnitt endet mit Satz, Tabelle, Antrag, Klausel oder Nachforderung.
+### 1.1.2. Auswahl und Gruppe bei neuer Forderung
 
-## 2. Stop-Kriterien
+Eine neue Forderung verändert nicht nur die Gesamtsumme. Prüfe Inhaber, Grund, Rang, Sicherung, Eingriff und den rechtlich maßgeblichen Betrag. Unterscheide Aufnahme in die Forderungsliste von rechtlicher Planbetroffenheit und Stimmrecht. Eine ausgesparte Forderung kann die Auswahlbegründung berühren; ein anderer Sicherheitenwert kann den gesicherten Teil und Ausfall verändern. Frage nach dem genau entscheidenden Rang- oder Sicherungsbeleg, statt jede neue Position als ungesichert einzustellen.
 
-- Insolvenzantragspflicht kann laufen.
-- Masseschmälernde Zahlung steht bevor.
-- Haftung der Geschäftsleitung ist nicht geprüft.
-- Wenn Identität, Vollmacht, Fristbeginn oder Verfahrensstand nicht tragfähig bestimmbar sind, wird zuerst eine knappe Lückenliste erzeugt.
-- Wenn das gewünschte Ergebnis eine endgültige Rechtsentscheidung verlangt, wird nur ein entscheidungsreifer Entwurf mit offen markierten Prüfpunkten ausgegeben.
+Nach der Antwort passe Gruppenbegründung, Vergleichsrechnung und Stimmrechtsauswertung konsistent an. Lege Gruppen nicht nachträglich allein so um, dass eine gewünschte Mehrheit entsteht. Ein bislang unberücksichtigter Gläubiger kann auch Angebot, Information und Anhörung betreffen. Die wirtschaftliche Rechnung darf einen Verfahrensmangel nicht als erledigt behandeln. Halte geplante Änderungen von bereits erfolgter Abstimmung getrennt.
 
-## 3. Werkstattfluss
+### 1.1.3. Bedingte Finanzierung gegen festen Zahlungstag
 
-### 3.1. Krise feststellen: Liquiditätsstatus, Fälligkeiten, Fortbestehensprognose und Zahlungsstockung trennen.
+Prüfe bei jeder Zusage, wer schuldet, wann ausgezahlt wird und welche Bedingungen vorher erfüllt sein müssen. Wenn der Investor erst nach Bestätigung zahlt, der Plan aber schon vorher Kosten oder Ausgleichsmittel voraussetzt, liegt eine zeitliche Finanzierungslücke nahe. Benenne den ersten ungedeckten Tag und die benötigte Überbrückung. Eine Bankbestätigung über vorhandenes Guthaben ist nicht automatisch eine bindende Auszahlungszusage an den Schuldner.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Nach einer neuen Zusage ändere den Finanzplan und die gestaltende Zahlungsregel. Eine Zahlung „nach verfügbarer Liquidität“ ist nicht dasselbe wie ein bestimmter Fälligkeitstag. Kläre bei der Vertragsarbeit die gewollte Bedingung und Folgen ihres Ausbleibens. Der darstellende Teil muss dieselben Bedingungen erklären. Bereits belegt verfügbare Mittel nicht nochmals als zusätzliche Investorenmittel addieren, wenn beide Angaben denselben Betrag betreffen.
 
-### 3.2. Pflichten zuordnen: Geschäftsleitung, Gläubiger, Berater, Insolvenzgericht und Verwalterrolle klären.
+### 1.1.4. Verwertungsangebot verändert die Vergleichsalternative
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Bei einem neuen Kaufangebot prüfe Bindung, Finanzierung, Umfang, Kosten und Vollzugsbedingungen. Ein unverbindliches Angebot für einzelne Aktiva ist keine gesicherte Fortführungsalternative für das gesamte Unternehmen. Vergleiche Plan und Alternative auf demselben Stichtag und mit jeweils passenden Verwertungskosten. Sicherheitenverwertung darf nicht zugleich als freie Masse und als vollständige Befriedigung des Sicherungsnehmers gerechnet werden.
 
-### 3.3. Antrag und Sicherung: Insolvenzantrag, vorläufige Maßnahmen, Masseerhalt und Kommunikation vorbereiten.
+Ein höherer Erlös kann die Minderheitenschutzrechnung verändern, obwohl die Planquote gleich bleibt. Prüfe deshalb den einzelnen betroffenen Gläubiger und nicht nur die durchschnittliche Gruppenquote. Eine nachgereichte Bürgschaft beseitigt den Nachteil nur, wenn Umfang, Abrufbarkeit und Werthaltigkeit tragen. Nutze den vorhandenen historischen BGH-Anker nur innerhalb seiner erläuterten Grenze; StaRUG und heutige InsO-Voraussetzungen bleiben eigenständig.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+### 1.1.5. Abstimmung nach einer Planänderung
 
-### 3.4. Forderung und Tabelle: Anmeldung, Bestreiten, Feststellung, Sicherheiten und Aussonderung aufbereiten.
+Ordne jede Stimme einer bestimmten Planfassung und einem überprüften Stimmrecht zu. Ein Ja zu einer früheren Quote ist nicht ohne Prüfung Zustimmung zu einem späteren Eingriff. Wenn eine Vollmacht nur einen bestimmten Vorschlag umfasst, prüfe ihre Reichweite für die neue Fassung. Nichtteilnahme, Enthaltung und Gegenstimme entsprechend dem jeweiligen Verfahren behandeln, statt sie mechanisch aus dem Nenner zu entfernen.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Nach korrigiertem Stimmrecht rechne jede betroffene Gruppe erneut und weise aus, ob reguläre Annahme erreicht wird. Beim Insolvenzplan Kopf- und Summenmehrheit getrennt, beim StaRUG die Gesamtheit der Gruppenstimmrechte als Bezugsgröße beachten. Erst auf gesonderten Auftrag Ersetzung und Bestätigung vertiefen. Ein rechnerisches Mehrheitsdefizit ist weder automatisch endgültiges Scheitern noch automatisch durch Sanierungsnutzen überwunden.
 
-### 3.5. Anfechtung und Plan: Rechtshandlung, Kenntnis, Gläubigerbenachteiligung, Sanierungsvergleich und Planlogik prüfen.
+### 1.1.6. Planregelung und Gläubigerbrief abschließen
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Formuliere den gestaltenden Text mit erfasstem Recht, konkretem Eingriff, Betrag oder Berechnungsregel, Fälligkeit, Bedingung und verbleibender Sicherheit. Allgemeine Zielbeschreibungen gehören in die Erläuterung, nicht an die Stelle der Rechtsänderung. Der Gläubigerbrief erklärt dieselbe Behandlung ohne eine bereits gesicherte Zustimmung oder Bestätigung zu behaupten. Prüfe Zahlen und Termine zwischen Text, Finanzplan und Anlagen ein letztes Mal. Planvorlage, Stimme, Zusage und Zahlung benötigen Freigabe; die beauftragte Endfassung nicht mit einer bloßen Aufgabenliste ersetzen.
 
-## 4. Rechtsprechungs-Fallkarte
+## 1.2. Krisenstadium und Verfahrenswahl
 
-| Ebene | Fallfrage | Anker | Sofortausgabe |
-| --- | --- | --- | --- |
-| Fallkern | Abstimmung: Internationaler Bezug und Schnittstellen | InsO Paragraf 17; BGH, Urteil vom 24.05.2005 - IX ZR 123/04 | Sofortvermerk mit Ergebnisrichtung, Risiko und nächstem Schritt |
-| Zulässigkeit und Frist | Frist, Form, Zuständigkeit, Rolle und statthafter Weg | InsO Paragraf 18 | Fristenblatt oder Prozess-/Verfahrensroute |
-| Begründetheit | Abstimmung und Mehrheiten | InsO Paragraf 18; BGH, Urteil vom 19.12.2017 - II ZR 88/16 | Tatbestandsmatrix mit Beleg und Gegenargument |
-| Rechtsfolge | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Entwurf, Entscheidungsvorschlag oder Mandantenbrief |
+Prüfe Zahlungsunfähigkeit nach Paragraf 17 InsO, drohende Zahlungsunfähigkeit nach Paragraf 18 InsO und Überschuldung nach Paragraf 19 InsO soweit Zugang, Finanzierung oder laufende Pflichten davon abhängen. Die regelmäßigen 24 Monate des Paragrafen 18 und die zwölf Monate des Paragrafen 19 Absatz 2 InsO nicht vermischen. Ein positives Jahresergebnis ersetzt keinen Liquiditätsverlauf.
 
-## 5. Normenanker, Tatbestandswichtigkeiten und Beweislast
+Bei Anzeichen eingetretener Insolvenzreife verantwortlichen Entscheider und sofortigen Prüfbedarf nach Paragrafen 15a und 15b InsO benennen. Höchstfristen sind keine freie Wartezeit. Nahe Kreditkündigungs- oder Stundungstermine rechtzeitig klären. Den belegbaren Planabgleich fortführen; keine pauschale Zahlungsfreigabe oder automatischen Stopp sämtlicher Zahlungen erklären.
 
-| Normenanker | Tatbestandswichtigkeit | Beweislastmerker | Rechtsfolge |
-| --- | --- | --- | --- |
-| InsO Paragraf 17 | Zahlungsunfähigkeit | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 18 | drohende Zahlungsunfähigkeit | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 19 | Überschuldung | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 129 bis Paragraf 147 | Insolvenzanfechtung | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 174 | Forderungsanmeldung | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| StaRUG Paragraf 1 | Krisenfrüherkennungspflichten | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| Normenradar | InsO Paragrafen 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
+Vergleiche bei entsprechendem Auftrag freie Sanierung, StaRUG, Eigenverwaltung und Regelverfahren nach Sanierungsziel, Liquiditätsbedarf, betroffenen Rechten, Zustimmungen und Zeit. StaRUG Paragrafen 29 bis 35 und gegebenenfalls 49 bis 59, InsO Paragrafen 217 bis 269 sowie 270 folgende jeweils im aktuellen Wortlaut prüfen. Krisenfrüherkennung nach Paragraf 1 StaRUG ersetzt keine gerichtliche Zugangsvoraussetzung. Der Beratungsvermerk begründet die Auswahl; Antrag oder gerichtlicher Tenor sind keine automatischen Folgeprodukte.
 
-## 6. Rechtsprechungsanker, Quellenstatus und Rechtsfolgen
+Für die bereits anhängige Restrukturierung gilt BGH, Beschluss vom 23.04.2026 – [IX ZB 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB__18-25.pdf?__blob=publicationFile&v=1), Rn. 10–23: Nach Anzeige von Zahlungsunfähigkeit oder Überschuldung gemäß § 32 Absatz 3 StaRUG ist die Aufhebung nach § 33 Absatz 2 Satz 1 Nummer 1 StaRUG die Regel. Die Ausnahmen eröffnen gerichtliches Ermessen, keinen automatischen Fortsetzungsanspruch. Bloß fehlende Vorteile eines Insolvenzverfahrens oder eine unsichere Ein-Prozent-Quote beweisen kein offensichtliches Gläubigerinteresse gegen die Eröffnung. Beruht Insolvenzreife auf vorgezogener Fälligkeit einer planbetroffenen Forderung, muss das Restrukturierungsziel überwiegend wahrscheinlich erreichbar sein. Frage nach Stand, Betrag, Bedingungen und Absicherung nötiger Drittbeiträge und aktualisiere Route, Liquiditätsplan und Vermerk. Eine freiwillige, ungesicherte Zusage genügt hierfür nicht ohne weitere tragfähige Umstände. Die Gruppenbildung wurde ausdrücklich offengelassen (Rn. 24). Ein Schutzschirm nach § 270d InsO setzt beim Zugang fehlende Zahlungsunfähigkeit voraus.
 
-| Rechtsprechungsanker | Quellenstatus | Nutzwert im Fall |
-| --- | --- | --- |
-| BGH, Urteil vom 24.05.2005 - IX ZR 123/04 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Zahlungsunfähigkeit ist regelmäßig bei Liquiditätslücke von zehn Prozent anzunehmen |
-| BGH, Urteil vom 19.12.2017 - II ZR 88/16 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Geschäftsleiterpflichten in Krise und Insolvenzreife sind streng zu dokumentieren |
-| BGH, Urteil vom 06.05.2021 - IX ZR 72/20 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Vorsatzanfechtung verlangt Gesamtwürdigung der Indizien |
-| BGH, Urteil vom 10.02.2022 - IX ZR 148/19 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Sanierungsversuch kann Vorsatzanfechtung beeinflussen, wenn er tragfähig ist |
-| BGH, Urteil vom 28.06.2012 - IX ZR 219/10 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Bargeschäftsnähe kann Anfechtungsrisiken begrenzen |
-- Rechtsfolge zuerst als Arbeitsprodukt denken: Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt
-- Quellenstatus immer sichtbar machen: Aktenfund, Normtext, Profilanker, gesicherte Rechtsprechung oder offene Prüfung.
+Während der Rechtshängigkeit ruht die Antragspflicht nach [§ 42 Absatz 1 StaRUG](https://www.gesetze-im-internet.de/starug/__42.html); stattdessen Eintritt der Insolvenzreife ohne schuldhaftes Zögern anzeigen. Bei Wirkungsverlust der Anzeige lebt sie nach Absatz 4 wieder auf. Verfahrensstand und Zeitpunkt belegen.
 
-## 7. Pflichtnormen als Kernsätze
+## 1.3. Planbetroffene und Gruppen bestimmen
 
-- InsO Paragraf 17: Zahlungsunfähigkeit.
-- InsO Paragraf 18: drohende Zahlungsunfähigkeit.
-- InsO Paragraf 19: Überschuldung.
-- InsO Paragraf 129 bis Paragraf 147: Insolvenzanfechtung.
-- InsO Paragraf 174: Forderungsanmeldung.
-- StaRUG Paragraf 1: Krisenfrüherkennungspflichten.
-- Normenradar: InsO Paragrafen 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 7-39 StaRUG: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 217 InsO (Plan-Option) → Paragraf 218 InsO (Plan-Vorlage) → Paragrafen 220-221 InsO (darstellender und gestaltender Teil) → Paragraf 222 InsO (Gruppen) → Paragrafen 235-244: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 217 bis 269 InsO — Insolvenzplan (Architektur, Gruppen, Anlagen, Abstimmung, Bestätigung, Vollzug): im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 244 und 245 InsO — Abstimmungsmehrheiten und Obstruktionsverbot (Cramdown): im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 251 InsO — Minderheitenschutz: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 261 und 268 InsO — Planüberwachung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 1 bis 93 StaRUG — Restrukturierungsplan (Planinhalt, Gruppenbildung, Abstimmung, Cramdown, Bestätigung, Sanierungsmoderation): im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
+Erfasse je Rechtsposition Inhaber, Grund, Betrag, Fälligkeit, Rang, Sicherheit und Eingriff. Im Insolvenzplan Reichweite nach Paragrafen 217, 223 bis 225a InsO prüfen. Beim Restrukturierungsplan Paragrafen 2 bis 4 StaRUG anwenden, insbesondere ausgeschlossene Forderungen und Voraussetzungen gruppeninterner Drittsicherheiten. Nicht jedes Recht ist gestaltbar. Begründe die Auswahl nach Paragraf 8 StaRUG anhand vergleichbarer einbezogener und nicht einbezogener Forderungen; bloße Aussicht auf bequemere Mehrheiten genügt nicht.
 
-## 8. Leitentscheidungen
+Nach Paragraf 222 InsO beziehungsweise Paragraf 9 StaRUG rechtlich verschiedene Positionen getrennten Gruppen zuordnen. Unterschiedliche wirtschaftliche Interessen können weitere Gruppen tragen; lege die Kriterien offen. Gesicherte Forderung, Ausfall, Nachrang und Anteilsrecht nicht unterschiedslos addieren. Gleichbehandlung innerhalb der Gruppe nach Paragraf 226 InsO beziehungsweise Paragraf 10 StaRUG gesondert prüfen.
 
-- BGH, Urteil vom 24.05.2005 - IX ZR 123/04: Zahlungsunfähigkeit ist regelmäßig bei Liquiditätslücke von zehn Prozent anzunehmen.
-- BGH, Urteil vom 19.12.2017 - II ZR 88/16: Geschäftsleiterpflichten in Krise und Insolvenzreife sind streng zu dokumentieren.
-- BGH, Urteil vom 06.05.2021 - IX ZR 72/20: Vorsatzanfechtung verlangt Gesamtwürdigung der Indizien.
-- BGH, Urteil vom 10.02.2022 - IX ZR 148/19: Sanierungsversuch kann Vorsatzanfechtung beeinflussen, wenn er tragfähig ist.
-- BGH, Urteil vom 28.06.2012 - IX ZR 219/10: Bargeschäftsnähe kann Anfechtungsrisiken begrenzen.
-- BVerfG 1 BvR 418/25 vom 28.02.2025 (VARTA AG) — Verfassungsbeschwerde gegen Bestätigung eines StaRUG-Restrukturierungsplans unzulässig; Bedeutung für Mehrheiten: Eingriffe in Aktionärsrechte
+Für streitige, bedingte oder gesicherte Positionen die Stimmrechtsgrundlage nach Paragrafen 237 und 238 InsO beziehungsweise Paragraf 24 StaRUG bestimmen. Nennwert, wirtschaftlicher Ausfall und Stimmgewicht können abweichen. Unbekannte Werte nicht null setzen; alternative Rechnungen als Simulation kennzeichnen.
 
-## 9. Prüfraster
+## 1.4. Sicherheiten und Drittsicherheiten
 
-1. Liegt Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit oder Überschuldung vor.
-2. Welche Frist oder Pflicht trifft welche Person.
-3. Welche Zahlung oder Sicherheit ist anfechtbar.
-4. Welche Forderung ist mit welchem Rang anzumelden.
-5. Welche Sanierungsoption ist realistisch belegbar.
-6. Welche Tatsache fehlt noch, obwohl sie für die Rechtsfolge entscheidend ist.
-7. Welches konkrete Arbeitsprodukt löst den nächsten praktischen Engpass.
+Gleiche Sicherheitenvertrag, Register, gesicherte Forderung, Rang, Vorbelastungen, Verwertungsrecht und realistischen Erlös ab. Absonderung nach Paragrafen 49 bis 51 InsO und persönliche Haftung nach Paragraf 52 InsO trennen; eine Sicherheit ist keine Zahlung. Bestimme den Wert des Eingriffs für jeden Berechtigten.
 
-## 10. Schriftsatz- und Memo-Gerüst
+Bei gruppeninternen Drittsicherheiten die Voraussetzungen des Paragrafen 217 Absatz 2 InsO oder Paragrafen 2 Absatz 4 StaRUG und erforderliche Entschädigung prüfen. Zugriff auf Schuldner und Sicherungsgeber getrennt darstellen. Doppelbefriedigung vermeiden, aber Rechte nicht wegen bloß erwarteter Erlöse streichen. Formuliere Eingriff, Umfang, Zeitpunkt und Ausgleich ausdrücklich; die Sicherheit eines beliebigen außenstehenden Dritten ist nicht allein wegen wirtschaftlicher Nähe gestaltbar.
 
-1. Überschrift mit Verfahrensstand, Beteiligten, Datum und Ziel.
-2. Kurzlage in drei bis sieben Sätzen mit Frist, Streitkern und Ergebnisrichtung.
-3. Sachverhalt nur mit belegten Tatsachen; streitige Punkte werden als streitig markiert.
-4. Rechtliche Prüfung nach Tatbestandsmerkmalen, nicht nach Bauchgefühl.
-5. Gegenargumente mit Beweislast und Risiko.
-6. Ergebnis, Antrag, Formulierungsvorschlag oder Entscheidungsoption.
-7. Anschlussliste mit Fristen, Dokumenten, Ansprechpartnern und nächstem Output.
+## 1.5. Vergleichsrechnung und Finanzierung
 
-## 11. Outputvarianten und Empfängerwunsch
+Vergleiche Plan und begründete Alternative ohne Plan auf demselben Stichtag. Beim StaRUG Paragraf 6 Absatz 2 beachten. Einzelverwertung ist nicht automatisch die einzig zulässige Alternative; eine realistisch mögliche Fortführung oder übertragende Verwertung einbeziehen. Zeige Erlöse, Kosten, Sicherheitenabzug, verfügbare Masse, Rangfolge, Quote und Zahlungstermine. Verkaufserlös und denselben fortgeführten Vermögenswert nicht doppelt zählen.
 
-| Wunsch | Ausgabe | Mindestinhalt |
-| --- | --- | --- |
-| schnell entscheiden | Kurzvermerk | Fallkern, InsO Paragraf 17; InsO Paragraf 18, Risiko, nächster Schritt |
-| vertieft prüfen | Tatbestandsmatrix | Norm, Merkmal, Beleg, Beweislast, Gegenargument, Rechtsfolge |
-| versenden | Entwurf | Antrag oder Tenor, Begründung, Anlagen, Frist, Zustellungsweg |
-| beraten | Mandantenbrief | Ergebnis, Optionen, Kosten-/Zeitrisiko, Empfehlung |
-| verhandeln | Vergleichs- oder Klauselvorschlag | sichere Fassung, risikobewusste Fassung, offene Punkte |
+Unterscheide Nominalbetrag, Barwert und Ausfallrisiko. Bewertungsmethode und Annahmen offenlegen, keine unbegründete Diskontierung erzwingen. Bei natürlichen Personen Paragraf 245a InsO und tatsächliche Restschuldbefreiungslage berücksichtigen. Unbekannte künftige Einkünfte sind keine sichere Vergleichsmasse.
 
-## 12. Arbeitsweise
+Jede Finanzierung nach Betrag, Bindung, Bedingungen, Auszahlungstag und Verwendungsbeschränkung prüfen. Weichen Zahlungsversprechen und verfügbare Liquidität ab, ersten Fehlbetrag benennen. Ausgangsfall, konkrete Belastungsvariante und belegten Maßnahmenfall rechnen. Nach neuem Verwertungswert, Kostenbeleg oder Finanzierungsnachweis betroffene Quoten und Planpassagen neu berechnen. Eine höhere nominale Quote ist nicht automatisch wirtschaftlich besser.
 
-Arbeite zuerst aktennah, dann normnah, dann produktnah. Wenn Dokumente oder ein Ordner vorliegen, werden sie ohne weitere Vorfrage gelesen, eingeordnet und mit Fundstelle verarbeitet. Wenn der Nutzer nur den Prompt startet, prüfe zuerst, ob Kontext, Dateien oder ein Arbeitsordner erkennbar sind; erst wenn wirklich keine Unterlagen vorliegen, werden höchstens vier gezielte Fragen gestellt. Jede Antwort wird in ganzen Sätzen formuliert. Tabellen sind erlaubt, wenn sie Vergleich, Berechnung oder Fristen besser zeigen.
+## 1.6. Minderheitenschutz und Ausgleich
 
-Selbstcheck vor Ausgabe: Ist die Frist benannt? Ist die Form geklärt? Ist die richtige Rolle getroffen? Ist die Rechtsfolge aus einer Norm abgeleitet? Ist das Arbeitsprodukt tatsächlich verwendbar? Sind offene Tatsachen von offenen Rechtsfragen getrennt?
+BGH, Beschluss vom 20.07.2017, IX ZB 13/16, [Rn. 9–16](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2016/IX_ZB__13-16.pdf?__blob=publicationFile&v=1), betrifft einen Insolvenzplan, der ein werthaltiges Grundpfandrecht gegen geringe Planleistung beseitigen sollte. Vollständiger Nachteilsausgleich und gesicherte Finanzierung müssen feststehen. Eine Bürgschaft ohne belegte Zahlungsfähigkeit und eine Grundschuld ohne gesicherten Rang oder Erlös genügen nicht. Prüfe daher Betrag, Abrufbedingungen, Finanzkraft und Werthaltigkeit, nicht nur den Klauseltext.
 
-## 13. Qualitätskontrolle und Abschluss
+Eine Vorabzurückweisung setzt nach der Entscheidung einen offensichtlich zu erwartenden erfolgreichen Versagungsantrag voraus, nicht bloße Zweifel. Das Verfahren war vor März 2012 eröffnet; Paragraf 251 Absatz 3 InsO galt dort noch nicht unmittelbar. Heute Paragrafen 231 und 251 InsO mit Widerspruch, Antrag, Glaubhaftmachung und bereitgestellten Mitteln eigenständig anwenden. Den Ausgleichsstreit nicht als im Bestätigungsverfahren abschließend entschieden darstellen.
 
-Zum Abschluss wird das Ergebnis auf Widersprüche, fehlende Belege, falsche Zuständigkeit, unklare Fristen, unvollständige Anträge, Rechenfehler und unpassenden Ton geprüft. Danach folgt eine knappe Anschlussliste: sofort erledigen, nachfordern, entscheiden, entwerfen, einreichen oder zurückstellen.
+Beim Restrukturierungsplan gilt [Paragraf 64 StaRUG](https://www.gesetze-im-internet.de/starug/__64.html). Gegenstimme, rechtzeitigen Widerspruch, Darlegung beziehungsweise Glaubhaftmachung und erforderliche Hinweise in Angebot oder Ladung prüfen. Gegebenenfalls Wertverluste während einer Stabilisierung nach Absatz 1 berücksichtigen. IX ZB 13/16 ist kein unmittelbarer StaRUG-Beschluss: Seine Anforderungen an tatsächliche Kompensationsmittel nur als begrenzten Vergleich heranziehen, nicht anstelle des gesetzlichen Tatbestands.
 
-## 14. Musterbausteine
+## 1.7. Abstimmung und gruppenübergreifende Entscheidung
 
-- Memo-Kernsatz: Nach dem derzeit belegten Sachverhalt spricht mehr für [Ergebnis], weil [Norm] die Rechtsfolge an [Tatbestandsmerkmal] knüpft und [Beleg] diesen Punkt trägt.
-- Nachforderung: Bitte reichen Sie bis [Datum] [Dokument] ein; ohne diesen Beleg kann [Tatbestandsmerkmal] nicht tragfähig beurteilt werden.
-- Schriftsatzkern: Der Anspruch ist begründet, weil [Norm], [Tatsache], [Beweis] und [Rechtsfolge] zusammenfallen.
+Beim Insolvenzplan verlangt [Paragraf 244 InsO](https://www.gesetze-im-internet.de/inso/__244.html) in jeder Gläubigergruppe eine Mehrheit der abstimmenden Gläubiger und mehr als die Hälfte ihrer Forderungssumme. Zwei von vier Köpfen reichen trotz 70 Prozent Forderungssumme nicht. Beim StaRUG verlangt [Paragraf 25](https://www.gesetze-im-internet.de/starug/__25.html) mindestens drei Viertel aller Stimmrechte der Gruppe: 60 Ja, 20 Nein, 20 nicht abgegeben ergibt 60 Prozent, nicht 75 Prozent. Keine zusätzliche Kopfmehrheit erfinden.
 
-## 15. Materienbezogene Arbeitsfelder
+Führe je Gruppe Berechtigte, Stimmrecht, Ja, Nein, Nichtteilnahme, streitige Positionen und Nenner zusammen. Dokumentiere Planfassung, Ladung oder Angebot, Vollmachten, Abstimmungsweg und Protokoll. Eine Simulation ist keine Abstimmung.
 
-### 15.1. Abstimmung: Internationaler Bezug und Schnittstellen
+Fehlt eine Gruppenmehrheit, nur bei entsprechendem Auftrag die Ersetzung nach Paragraf 245 InsO beziehungsweise Paragrafen 26 bis 28 StaRUG prüfen. Schlechterstellung, angemessene Beteiligung am Planwert und Zustimmung anderer Gruppen einzeln belegen. Rangwahrung und Ausnahmen nicht aus einem allgemeinen Sanierungsinteresse ableiten. Gruppenübergreifende Annahme, individueller Minderheitenschutz und Bestätigung sind getrennte Fragen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.8. Darstellenden und gestaltenden Teil verfassen
 
-### 15.2. Abstimmung und Mehrheiten
+Der darstellende Teil nach Paragraf 220 InsO beziehungsweise Paragraf 6 StaRUG erläutert Ausgangslage, Krisenursachen, bisherige und geplante Maßnahmen, Wirkungszusammenhang, Alternative und finanzielle Folgen. Verknüpfe Zahlen mit Anlagen. Ein Sanierungsziel ist keine bereits erreichte Finanzierung.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Der gestaltende Teil nach Paragraf 221 InsO beziehungsweise Paragraf 7 StaRUG regelt die Rechtsänderungen eindeutig: Position, Kürzung oder Stundung, Fälligkeit, Bedingungen, Sicherheit, Ausgleich und Folgen des Scheiterns. Eine Begründung im darstellenden Teil ersetzt die Regelung nicht. Steuerklauseln und gesellschaftsrechtliche Maßnahmen mit dem Vollzug abstimmen.
 
-### 15.3. Insolvenzplan und StaRUG-Planwerkstatt — Allgemein
+Für einen Prognosevermerk Stichtag, Horizont, Prämissen, Liquiditätsverlauf und Ergebnis ausformulieren. Für einen Planbaustein Gruppe, Eingriff, Begründung, Vergleich und tatsächlichen Abstimmungsstand angeben. Keine zusätzlichen Pflichtprodukte nach jedem Prüfschritt verlangen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.9. Steuern und Bilanzfolgen
 
-### 15.4. Restrukturierungsplan: Fristen, Form, Zuständigkeit und Rechtsweg
+Ermittle Zeitpunkt und Umfang eines Verzichts und seine steuerliche Zuordnung. Steuerfreiheit eines Sanierungsertrags nach Paragraf 3a EStG nicht voraussetzen; Voraussetzungen, Verlustverbrauch und Paragraf 3c EStG prüfen. Bei Körperschaften Paragraf 8c KStG und einschlägige Ausnahmen gesondert untersuchen. Steuerergebnis und handelsrechtlichen Buchwert nicht gleichsetzen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Rechne mit belegten Werten, Zeitraum, Einheit, Zwischenschritten und Gegenprobe. Bei ungeklärter Steuerfolge eine belastbare Alternative für Finanzierung und Quote zeigen. Ein benötigter steuerlicher Nachweis ist keine erteilte Zustimmung der Finanzverwaltung.
 
-### 15.5. StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage
+## 1.10. Datenraum, Anlagen und Kommunikation
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Führe ein Dokumentenregister mit Datei, Fassung, Stichtag, Urheber, Planbezug und ausgewerteter Stelle. Es ist kein öffentliches Register und keine automatisch einzureichende Meldung. Vertrauliche Daten nur im freigegebenen Empfängerkreis verwenden; Fassungen für Gericht, Gläubiger und interne Beratung unterscheiden.
 
-### 15.6. Anlagen: Mehrparteienkonflikt und Interessenmatrix
+Stelle Anlagen nach Paragrafen 229 und 230 InsO beziehungsweise Paragrafen 14 und 15 StaRUG zusammen. Vermögensübersicht, Ergebnis- und Finanzplan, Zustimmungen und Zusagen auf denselben Stand bringen. Fehlende Unterschriften und Bedingungen konkret benennen, Anlagen nicht erfinden. Forderungssumme, Quote, Zahlungstag und Finanzierungsbetrag müssen zwischen Text und Anlagen übereinstimmen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Passe Gläubigerbrief, Organvorlage und Finanzierungsanfrage dem Empfänger an. Erläutere Beitrag, Alternative, Bedingung und Antworttermin. Formulierungsbeispiel mit belegten Werten ausfüllen: „Auf Ihre Forderung von [Betrag] sieht der Plan [Betrag] zum [Datum] vor. Ohne Plan erwarten wir nach Abzug der nachgewiesenen Kosten [Betrag]. Die Planleistung setzt [Bedingung] voraus; der erforderliche Nachweis [liegt bei/steht noch aus].“ Platzhalter nur für wirklich fehlende Angaben stehen lassen. Erwartete Mehrheit nicht als Zustimmung oder rechtskräftige Bestätigung darstellen.
 
-### 15.7. Anlagenpaket
+## 1.11. Bestätigung, Wirkung und Vollzug
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Prüfe Paragrafen 248 bis 253 InsO beziehungsweise Paragrafen 60 bis 66 StaRUG nach Verfahrensstand. Annahme ist keine Bestätigung. Verfahrensmängel, Durchführbarkeit, Minderheitenschutz und Rechtsbehelf getrennt behandeln; eine Mehrheit heilt nicht jeden Mangel.
 
-### 15.8. Asset Deals im Plan Grundstuecke Marken Kundendaten
+Bei Vollzugsauftrag Wirkung nach Paragraf 254 InsO beziehungsweise Paragraf 67 StaRUG, Bedingungen, Zahlungen, Sicherheitenfreigaben und gegebenenfalls Überwachung nach Paragrafen 260 folgende InsO berücksichtigen. Zuständigkeit, Freigabe und Nachweis je Schritt festhalten. Keine eigenständige Planvorlage, Anzeige, Stimmabgabe, Zahlung oder Gläubigerzusage.
 
-Asset-Deals im Insolvenzplan strukturieren wenn Grundstuecke Marken oder Kundendaten übertragen werden sollen. Paragrafen 311b 398 BGB Paragrafen 27 ff. MarkenG Paragraf 15 PatG. Prüfraster: Übertragungsgegenstand Formerfordernis Grundbuch Markenregister Datenschutz. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.12. Ergebnis und Grenzen
 
-### 15.9. Cram: Formular, Portal und Einreichungslogik
+Liefere das bestellte Modul, die Vergleichsrechnung, Abstimmungsauswertung oder den vollständigen Plan. Tabellen unterstützen die ausformulierte Begründung; leere Kapitel und Listen späterer Arbeitsschritte sind kein Endergebnis. Bei einem Hindernis belegbare Teile und die konkret benötigte Ergänzung nennen; nach Antwort bis zur Endfassung fortsetzen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Kontrolliere Summen, Quoten, Stimmrechtsnenner, Fristen, Fassungen, Finanzierungsbedingungen und alle neuen Antworten. Nutzerdateinamen und bestehende Formeln erhalten; ohne Vorgabe ist `ergebnis.md` möglich. Vollständige Sätze, dezimale Gliederung und beim Export Times New Roman 11 pt verwenden.
 
-### 15.10. Cram-down und Obstruktion
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.11. Darstellender Teil
-
-entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.12. Datenraum und Dokumentenregister
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.13. Down: Red-Team und Qualitätskontrolle
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.14. Gestaltender Teil
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Weitere Skills sind optional. Bei fehlendem Akten-, Quellen- oder Exportzugriff einen geeigneten Alternativweg versuchen, Lücken gesondert nennen und belastbaren Text samt Rechnung liefern. Keine vollständige Prüfung, Dateierzeugung, Bestätigung oder Einreichung behaupten, die nicht erfolgt ist. Für weitere tragende Rechtsfragen aktuelle amtliche Normen und passende Volltexte prüfen; die einzelne Planentscheidung bestätigt nicht sämtliche Sanierungsfragen.

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "plugin": "ordnungswidrigkeitenrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/BJNR004810968.html",
+      "checked_on": "2026-09-14",
+      "supports": "Paragraf 67: Einspruch binnen zwei Wochen nach Zustellung bei der erlassenden Verwaltungsbehörde; Beschränkung ist möglich, nicht zwingend."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/11/rk20201112_2bvr161618.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Beschluss vom 12.11.2020, 2 BvR 1616/18, Randnummern 50 bis 60. Amtliche tragende Entscheidungsgründe gelesen. Anwendung: Zugang zu behördlich vorhandenen Informationen außerhalb der Bußgeldakte bei sachlichem und zeitlichem Bezug und möglicher Verteidigungsrelevanz, ohne schon einen Messfehler beweisen zu müssen. Grenze: Keine beliebige Ausforschung; Drittinteressen und Verfahrensstand beachten. Informationszugang nicht mit gerichtlicher Aufklärungspflicht oder Datenerzeugung gleichsetzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__49.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Akteneinsicht im behördlichen Verfahren."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__62.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Antrag auf gerichtliche Entscheidung mit konkretem Verfahrensstand."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__67.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Einspruchsfrist, Adressat und Beschränkung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__33.html",
+      "checked_on": "2026-09-23",
+      "supports": "Absatz 1 Nummer 9, Absätze 2 bis 4 gelesen: Erlass/Zustellung, Geschäftsgang, Neubeginn und Höchstgrenze sowie personengebundene Wirkung der Unterbrechung. Keine Verjährungsrechnung an einer realen Akte durchgeführt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__73.html",
+      "checked_on": "2026-09-23",
+      "supports": "Absätze 1 bis 3 gelesen: Erscheinenspflicht, Entbindungsvoraussetzungen und Vertretungsvollmacht für den konkreten Terminbrief."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__74.html",
+      "checked_on": "2026-09-23",
+      "supports": "Absätze 2 und 4 gelesen: Verwerfung bei unentschuldigtem Ausbleiben ohne Entbindung und einwöchige Frist ab Zustellung für Wiedereinsetzung nach Abwesenheitsurteil. Weitere Rechtsbehelfe bleiben gesondert zu prüfen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individueller Ganztext-Desk-Review am 2026-09-23: Eigenständige Einstiege für Einspruch, Tatprüfung und Termin; konkreter Meldebeleg verändert gezielt die Einlassung. Fachgebietsbreite und differenzierter Messdatenzugang bleiben erhalten.",
+    "changes": [
+      "Persönliche Handlung und Aufsichtspflicht nicht aus Leitungsfunktion abgeleitet.",
+      "Informationszugang außerhalb der Akte ohne vorweggenommenen Messfehlernachweis, aber mit Sachbezug und Grenzen erklärt.",
+      "Verfolgung nach Paragrafen 31 bis 33 von Vollstreckung nach Paragraf 34 OWiG getrennt und fertige Schreiben erhalten.",
+      "Dateien ohne Aufgabe werden still gelesen; bei klarem Auftrag direkte Arbeit ohne Startkatalog.",
+      "Falsch zugeordnete Betriebsstättenmeldung führt zur konkreten Änderung in einlassung.md; keine Pflicht zu weiteren Gesprächsrunden."
+    ],
+    "sha256": "7a10678a64a96806677596785021fecad88aff8717fd5a0d66af0772eec57c76",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Entwirf einen Einspruch gegen den Bußgeldbescheid wegen einer versäumten Meldung.",
+      "Ordne Unterbrechungshandlungen in meiner Bußgeldakte personengenau."
+    ],
+    "negative": [
+      "Entwirf den Einspruch gegen einen strafgerichtlichen Strafbefehl.",
+      "Prüfe ein verwaltungsrechtliches Zwangsgeld zur Durchsetzung einer Auskunftspflicht, nicht einen Bußgeldbescheid."
+    ]
+  },
+  "cases": [
+    {
+      "id": "einspruch-vor-akteneinsicht",
+      "request": "Heute ist der 14. September 2026. Die Stadt Linden, Bußgeldstelle, hat gegen meine Mandantin Eva Berg unter Aktenzeichen OWi 81/26 am 3. September einen Bußgeldbescheid über 800 Euro wegen behaupteter unterlassener gewerblicher Meldung erlassen. Er wurde ihr nach dem vorliegenden Zustellumschlag am 7. September 2026 zugestellt. Eva bestreitet den Vorwurf vollständig, möchte keine Beschränkung des Rechtsbehelfs und hat bisher nichts eingelegt. Akteneinsicht wurde beantragt, ist aber noch nicht gewährt. Erstelle in ergebnis.md einen vollständigen Einspruchsentwurf und einen kurzen Vermerk zur Fristsicherung; noch keine Einlassung zur Sache. Fehlende Postanschrift darf als Platzhalter stehen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Richtet einen unbeschränkten Einspruch gegen den identifizierten Bescheid an die erlassende Bußgeldstelle, nicht unmittelbar an das Gericht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Berechnet die Frist aus der Zustellung am 7. September bis zum 21. September 2026 und rät nicht zum Abwarten der Akte über diese Frist hinaus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Enthält kein Geständnis oder ungefragtes Anerkenntnis des Tatvorwurfs und unterscheidet Entwurf von tatsächlich nachgewiesenem Eingang.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "einspruch-fristgerecht"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individueller Ganztext-Desk-Review am 2026-09-23: Meldeinhalt, Kontrollbelege, personengenaue Unterbrechung, tatsächliche Aufsicht und Terminfolgen substantiiert. Sämtliche vorhandenen Fachzweige und früherer Quellenbefund erhalten.",
+    "changes": [
+      "Persönliche Handlung und Aufsichtspflicht nicht aus Leitungsfunktion abgeleitet.",
+      "Informationszugang außerhalb der Akte ohne vorweggenommenen Messfehlernachweis, aber mit Sachbezug und Grenzen erklärt.",
+      "Verfolgung nach Paragrafen 31 bis 33 von Vollstreckung nach Paragraf 34 OWiG getrennt und fertige Schreiben erhalten.",
+      "Meldungsfassung und Eingangsbeleg sowie Kontrollort und Tatzeit als eigenständige Beweisfragen ausgearbeitet.",
+      "Erlass, Zustellung, Geschäftsgang und Personenbezug von Unterbrechungen mit Dokumentfortsetzung verknüpft.",
+      "Entbindung, nachgewiesene Vollmacht, Verwerfungsrisiko und Wiedereinsetzungsfrist in einen konkreten Terminbrief überführt."
+    ],
+    "sha256": "83017ce970e0225a1652719e20a3e6c37e1e0867af1c3a6dadbf67ffedacedf0",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "ordnungswidrigkeitenrecht/ordnungswidrigkeitenrecht-schnellstart.md",
+      "ordnungswidrigkeitenrecht/ordnungswidrigkeitenrecht-werkstatt.md"
+    ],
+    "opening_change": "Konkrete Spezialpflicht, persönlicher Pflichtadressat und belegter Verstoß vor Sanktionshöhe prüfen.",
+    "norms": [
+      "Paragrafen 8 bis 12, 17, 30, 31 bis 34, 46, 49, 62, 67 und 130 OWiG",
+      "Artikel 2 Absatz 1 in Verbindung mit Artikel 20 Absatz 3 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 12.11.2020, 2 BvR 1616/18, Randnummern 50 bis 60",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/11/rk20201112_2bvr161618.html",
+        "application": "Zugang zu behördlich vorhandenen Informationen außerhalb der Bußgeldakte bei sachlichem und zeitlichem Bezug und möglicher Verteidigungsrelevanz, ohne schon einen Messfehler beweisen zu müssen.",
+        "limit": "Keine beliebige Ausforschung; Drittinteressen und Verfahrensstand beachten. Informationszugang nicht mit gerichtlicher Aufklärungspflicht oder Datenerzeugung gleichsetzen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Primärquellenreview, kein Live-Client- oder Modelltest.",
+      "Entscheidung betrifft Messinformationen, nicht sämtliche spezialgesetzlichen Unternehmenssanktionen.",
+      "Kein technischer Messversuch und keine Vollverifikation sämtlicher Fachbußgeldnormen.",
+      "Workflow-Nachprüfung 2026-09-23: OWiG Paragrafen 49, 62 und 67 erneut geöffnet; Paragrafen 33, 73 und 74 für Ergänzungen gelesen. BVerfG-URL diesmal mit HTTP 403 gesperrt; früherer datierter Entscheidungsreview bleibt historischer Nachweis, keine erneute Volltextverifikation behauptet. Kein Live-Client-, Mess- oder Gerichtstest."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Wahl zwischen fristwahrendem Einspruch, Tatprüfung und Vorbereitung eines Gerichtstermins.",
+      "Dateien ohne Auftrag: Anhörung, Bescheid oder Akte still lesen und nur das beabsichtigte Ergebnis klären.",
+      "Klarer Auftrag: Unmittelbar Einspruch, Vermerk oder Beweisantrag bearbeiten; nur entscheidende Lücken fragen."
+    ],
+    "continuation": "Neuer Meldebeleg ändert Pflichtzuordnung und konkrete Passage in einlassung.md; nachgereichter Unterbrechungsvermerk ändert Datum, Rechnung und Empfehlung in verjaehrungsvermerk.md.",
+    "enrichment": "Tatzeitbezogene Melde- und Kontrollbelege, tatsächliche Delegation und Aufsicht, personenbezogene Verjährung sowie Entbindung, Abwesenheitsurteil und fertiger Terminbrief.",
+    "limits": "desk review; no live client execution"
+  }
+}

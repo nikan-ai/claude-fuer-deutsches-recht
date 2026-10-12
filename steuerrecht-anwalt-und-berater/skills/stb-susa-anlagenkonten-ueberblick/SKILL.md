@@ -1,6 +1,6 @@
 ---
 name: stb-susa-anlagenkonten-ueberblick
-description: "Wenn es um Anlagenkonten in der SuSa — Ueberblick und Abstimmung in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anlagenkonten in der SuSa — Überblick und Abstimmung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: stb-susa-anlagenkonten-ueberblick."
 ---
 
 # Anlagenkonten in der SuSa — Ueberblick und Abstimmung
@@ -131,7 +131,6 @@ Stand: 05/2026.
 - Hinweis: § 7b EStG Foerderung laeuft bis Bauantraege vor 01.10.2029; keine gesetzliche Aenderung 2026.
 - Hinweis: § 7g EStG Sonder-AfA 40 Prozent und IAB 50 Prozent seit JStG 2020 stabil.
 
-<!-- AUDIT 27.05.2026 | welle 6 | 10 Marker aufgeloest: 8 bestaetigt (§ 7b bis 2029, GWG 800 EUR stabil, Sammelposten 250-1000 EUR stabil, § 7g 40%/50% stabil, BMF AfA-Tabelle AV 15.12.2000), 2 ersetzt (DATEV-Kontonummern-Hinweise ohne Marker neu formuliert) -->
 
 
 ## Qualitäts-Hardening

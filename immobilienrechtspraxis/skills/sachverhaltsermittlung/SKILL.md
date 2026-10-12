@@ -1,6 +1,6 @@
 ---
 name: sachverhaltsermittlung
-description: "Wenn es um Sachverhaltsermittlung in Immobilienrechtspraxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sachverhaltsermittlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sachverhaltsermittlung
@@ -88,12 +88,10 @@ sonst das Vertrauen — und das ist der teuerste Verlust.
 - "Ich habe nur eine halbe Akte. Welche Fragen muss ich stellen,
  bevor ich rechtlich prüfe?"
 
-## Aktuelle Rechtsprechung — Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette
 
 - Mangelanzeige/Mietminderung: §§ 536, 536a, 543 BGB
 - Kuendigung: §§ 543, 569, 573 BGB
 - Betriebskosten: § 556 Abs. 3 BGB, BetrKV
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

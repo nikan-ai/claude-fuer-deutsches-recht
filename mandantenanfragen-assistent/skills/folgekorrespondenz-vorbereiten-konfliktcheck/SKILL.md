@@ -1,6 +1,6 @@
 ---
 name: folgekorrespondenz-vorbereiten-konfliktcheck
-description: "Wenn es um Folgekorrespondenz-Vorbereiten in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Folgekorrespondenz-Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Folgekorrespondenz-Vorbereiten
@@ -22,9 +22,6 @@ Erstellt auf Basis der geparsten Eingangsanfrage einen fertigen Skeleton-Eintrag
 2. Welches CRM oder welche Aktenstruktur wird genutzt (DATEV, RA-MICRO, Advoware, manuell)?
 3. Wurde der Konfliktcheck bereits durchgefuehrt oder muss er im CRM-Eintrag als ausstehend markiert werden?
 4. Soll der Eintrag automatisch oder nach manueller Freigabe gespeichert werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 6 Abs. 1 lit. b DSGVO — Vertragsanbahnung als Rechtsgrundlage für CRM-Speicherung
@@ -137,3 +134,5 @@ Konfliktcheck: AUSSTEHEND — vor Terminvergabe durchführen!
 - `dringlichkeitsmarker` — Dringlichkeitsstufe und Begründung
 - `spam-und-massen-anfrage-filter` — Spam-Check-Status
 - `konfliktcheck-vorab` — Hinweis auf ausstehenden Konfliktcheck
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

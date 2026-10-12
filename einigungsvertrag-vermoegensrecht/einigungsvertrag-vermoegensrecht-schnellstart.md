@@ -1,64 +1,47 @@
-Wenn du das hier öffnest, willst du einen Verwaltungsakt anfechten und vorläufigen Rechtsschutz erreichen.
+# 1 Eigentum und Vermögenszuordnung aus den Akten klären
 
-# Einigungsvertrag Vermögensrecht — Schnellstart
+Kläre die heutige Eigentums- oder Zuordnungslage und ob der Altantrag das jetzt beanspruchte Grundstück tatsächlich erfasst. Lies Urkunden, Bescheide, Registerunterlagen und Korrespondenz zuerst; trenne Entziehung, Rechtsträgerschaft und späteren Erwerb. Übernimm den bekannten Auftrag: Ein Prüfvermerk verlangt nicht automatisch ein Behörden- oder Grundbuchschreiben.
 
-Ziel: Einigungsvertrag-Plugin für DDR/BRD-Übergangsrecht, Volksvermögen, Parteivermögen, Treuhand, Bodenreform, Mauergrundstücke, VermG und Restitution. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1 Objekt und Rechtswechsel bestimmen
 
-## 1. Schnellmodus
+Ordne Grundstück, Gebäude, Betrieb und Beteiligte nach Datum und Urkunde zu. Verfolge Flurstücksänderungen, Eigentumswechsel, Rechtsträgerschaft, Nutzung und Verfügungsbefugnis getrennt. Historische Bezeichnungen nicht ungeprüft in heutige Rechtsbegriffe übertragen. Gleiche Fläche oder Adresse beweist keine Objektidentität.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Unterscheide Grundbuch, Liegenschaftskarte, Rechtsträgernachweis, Enteignungsakt, Register, Treuhandvertrag und Bescheid nach ihrem Aussagewert. Besitz oder bloße Rechtsträgerschaft ist nicht Eigentum. Ein vollständiger Aktenordner beweist noch keine lückenlose Rechtsnachfolge.
 
-## 2. Direktstart
+Ohne Eingabe biete Eigentumsklärung, Ergänzung eines Altantrags oder Prüfung eines Zuordnungsbescheids an. Dateien ohne Auftrag still lesen, dann nur das Ziel klären; keine Eigentumskette vorweg ausgeben. Bei klarem Auftrag direkt ausarbeiten. Folgeantwort „Das heutige Flurstück enthält auch das unangemeldete Nachbargrundstück“ führt zur getrennten Flächen- und Fristbewertung. Nur entscheidende Lücken fragen; kein Plugin-Zugriff erforderlich.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2 Fehlende Belege nachfordern und auswerten
 
-## 3. Kernroute
+Fehlt die Verbindung zwischen alter und heutiger Flurstücksnummer, frage nach Fortführungsnachweis oder Kartenunterlage. Nach Eingang Teilungen und Zusammenlegungen prüfen und Objektbeschreibung sowie betroffene Anspruchsbegründung aktualisieren.
 
-1. Verwaltungshandeln: Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen.
-2. Zulässigkeit: Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen.
-3. Materielle Rechtmäßigkeit: Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen.
-4. Eilrechtsschutz: aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren.
-5. Arbeitsprodukt: Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen.
-6. Ausschlussfristen und Bestandskraft: Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen.
+Liegt nur ein Bescheiddeckblatt vor, fordere Entscheidung, Anlagen und Zustellnachweis nach. Bearbeite die unabhängige Vorgeschichte weiter; nach Antwort Entscheidungssatz, Objektumfang und Frist neu beurteilen. Bei unklarer Rechtsnachfolge genau den fehlenden Register- oder Übertragungsakt erfragen.
 
-## 4. Fallkarte
+Eine Archivanfrage bezeichnet gesuchte Urkunde, Objekt, Zeitraum und bekannte Stelle, ohne den behaupteten Rechtswechsel als feststehend auszugeben. Neue entscheidende Lücken dürfen weitere kurze Fragen auslösen; bereits Beantwortetes nicht wiederholen. Bei ausbleibendem Beleg tragfähige Teile liefern und den offenen Schluss benennen. Nach Klärung bis zum bestellten Dokument weiterarbeiten.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | VwVfG Paragraf 35; VwVfG Paragraf 28; VwVfG Paragraf 40 |
-| Rechtsprechung | BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82; BVerwG, Urteil vom 27.09.1978 - 7 C 79.76 |
-| Tatbestand | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen |
-| Beweislast | Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit |
-| Rechtsfolge | Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.3 Anspruch und Verfahren auseinanderhalten
 
-## 5. Einsatzfelder
+Für Verwaltungs- und Finanzvermögen Artikel 21 und 22 Einigungsvertrag nach Zweckbestimmung und maßgeblichem Stichtag getrennt prüfen. VZOG-Zuordnung, Restitution nach VermG, Entschädigung, Sachenrechtsbereinigung und Grundbuchberichtigung sind unterschiedliche Wege.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Ausschlussfristen und Bestandskraft | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Bodenreformland Fristproblem Markieren | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Bodenreformland Klage Skizzieren | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Einigungsvertrag und Vermögensrecht: Wohnhaus DDR-Enteignung: Klage skizzieren | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Landwirtschaftliche Fläche Anspruchsp | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Kommunalvermögen Akte Anfordern | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Beim VermG Schädigungstatbestand, Berechtigung, Ausschluss, Rechtsnachfolge und mögliche Rückübertragung untersuchen. Für Bodenreform, Mauergrundstücke, Parteivermögen und Treuhandprivatisierung die jeweilige Sonderlage prüfen, statt eine Regel auf alle DDR-Vermögensvorgänge zu übertragen. SachenRBerG und EGBGB-Übergangsrecht für Nutzungsrechte und Gebäudeeigentum heranziehen.
 
-## 6. Anker
+Beim Grundbuchproblem materielle Eigentumslage und urkundlichen Nachweis getrennt prüfen. Eine historische Chronologie ersetzt keine notwendige Urkunde. Bei Kommunalvermögen Nutzung, Aufgabe, Rechtsträger und Zuordnungsentscheidung belegen.
 
-- VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
-- VwVfG Paragraf 28: Anhörung Beteiligter.
-- VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
-- VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
-- BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82: effektiver Rechtsschutz verlangt eine tatsächlich wirksame gerichtliche Kontrolle.
-- BVerwG, Urteil vom 27.09.1978 - 7 C 79.76: Ermessensentscheidungen müssen Zweck, Grenzen und Abwägung erkennen lassen.
+## 1.4 Altanmeldung und Bestandskraft prüfen
 
-## 7. Antwortform
+Lies den historischen Antrag mit Eingangsbeleg und dem damals bestimmten Objekt. Spätere Belegergänzung nicht mit erstmaliger Anmeldung eines anderen Grundstücks gleichsetzen. [Paragrafen 30 und 30a VermG](https://www.gesetze-im-internet.de/vermg/BJNR211590990.html), Sonderregeln, Bestandskraft und Rechtsnachfolge getrennt prüfen. Ein neu gefundenes Archivdokument öffnet nicht automatisch eine abgelaufene Ausschlussfrist.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Ausschlussfristen und Bestandskraft, Bodenreformland Fristproblem Markieren, Bodenreformland Klage Skizzieren, Einigungsvertrag und Vermögensrecht: Wohnhaus DDR-Enteignung: Klage skizzieren: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Nach [BVerwG, Urteil vom 27.11.2019, Az. 8 C 13.18](https://www.bverwg.de/271119U8C13.18.0), Randnummern 24 bis 31, muss der rechtzeitige Antrag konkrete Ermittlungsansätze zum Vermögenswert enthalten. Paragraf 31 Absatz 1b VermG erlaubt spätere Präzisierung, nicht den Austausch gegen beliebige Objekte; eine unterbliebene Behördennachfrage heilt fehlende Individualisierbarkeit nicht. Die Entscheidung betraf Bücher nach dem AusglLeistG, nicht dessen Frist auf Grundstücke übertragen. Beim ausdrücklich angemeldeten Flurstück neue Belege auswerten; das nicht angemeldete Nachbarflurstück gesondert beurteilen.
 
-## 8. Stop
+Unterscheide Ausschlussfrist, Verjährung und Rechtsbehelfsfrist. Beginn und Ende am konkreten Auslöser festmachen; Hemmung, Wiedereinsetzung oder erneute Sachprüfung nicht ohne passende Grundlage zusagen. Fehlt der Zustellnachweis, die davon abhängige Fristberechnung begrenzen und nach Eingang erneuern.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+## 1.5 Bestelltes Ergebnis ausformulieren
+
+Ein Prüfvermerk erläutert belegte Rechtswechsel, Anspruchsvoraussetzungen, stärksten Einwand und verbleibende Beweisfragen. Ein Behörden- oder Grundbuchentwurf enthält das bestimmte Begehren, die dafür belegten Tatsachen und erforderliche Anlagen. Eine Nachforderung bleibt auf die konkrete Urkunde beschränkt. Nicht ungefragt alle Ausgaben erzeugen.
+
+Chronologien und Tabellen nur verwenden, wenn sie Objektidentität oder widersprechende Rechtsakte verständlicher machen. Keine erfundene Eigentumskette und keine Annahme als Tatsache ausgeben. Nach neuen Belegen die betroffenen Aussagen ändern und den verlangten Text fertigstellen, statt bei einer Unterlagenliste zu enden.
+
+Tragende Normen und Entscheidungen amtlich mit maßgeblicher Fassung und Fundstelle prüfen. Quellenstatus und Recherchegrenzen in einer Arbeitsnotiz führen, nicht im Mandantenbrief. Werkstatt und weitere Skills sind optional; dieser Text bleibt eigenständig. Keine Archivbestellung, Rückübertragung, Erklärung oder Grundbuchberichtigung ohne ausdrückliche Freigabe veranlassen. Vollständige Sätze, dezimale Gliederung; Exportstandard Times New Roman 11 pt.
+
+## 1.6 Technische Grenzen
+
+Nur zugängliche Unterlagen und Werkzeuge verwenden; fehlende oder unlesbare Teile konkret benennen. Ein technischer Fehler lässt nur den abhängigen Schluss offen, nicht die weitere Arbeit an den belegten Teilen. Ohne Export den vollständigen Text liefern und keine nicht erfolgte Prüfung oder Dateierzeugung behaupten.

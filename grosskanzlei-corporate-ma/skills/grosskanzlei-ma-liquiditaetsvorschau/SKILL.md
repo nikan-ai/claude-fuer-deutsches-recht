@@ -1,6 +1,6 @@
 ---
 name: grosskanzlei-ma-liquiditaetsvorschau
-description: "Wenn es um Freistehende Liquiditätsvorschau in Großkanzlei Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Freistehende Liquiditätsvorschau: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Freistehende Liquiditätsvorschau
@@ -8,7 +8,6 @@ description: "Wenn es um Freistehende Liquiditätsvorschau in Großkanzlei Corpo
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: Freistehende Liquiditätsvorschau
@@ -53,7 +52,7 @@ Die Liquiditätsvorschau ist das zentrale Instrument zur Beurteilung der kurzfri
 |---|---|---|---|
 | BGH | IX ZR 229/22 | 23.01.2025 | Objektive Zahlungsunfähigkeit und objektive Rechtslage; vorläufig vollstreckbar titulierte und fällige Forderung ist im Liquiditätsstatus mit dem Nennwert anzusetzen, wenn die Vollstreckungsvoraussetzungen vorliegen und der Gläubiger vollstreckt; kein Abschlag nach Prozessrisiko |
 | BGH | IX ZR 129/22 | 18.04.2024 | Liquiditätsstatus muss für außenstehende Dritte einzelpostenfähig und belegbar sein; pauschale Summen sind im Streit angreifbar |
-| BGH | II ZR 139/23 | 11.03.2025 | Für die Zahlungsfähigkeitsprüfung kommt es auf die materielle Rechtslage an; bestehende und fällige Verbindlichkeiten werden nicht wegen Bestreitens ausgeblendet |
+| BGH | II ZR 139/23 | 11.03.2025 | Nichtzulassungsbeschwerde-Beschluss: materieller Bestand der Verbindlichkeit ist maßgeblich; nicht als Grundsatzurteil überhöhen |
 | BGH | IX ZB 38/24 | 22.05.2025 | Stützt sich ein Insolvenzantrag allein auf einen titulierten Anspruch, kann die Belegwirkung entfallen, wenn die Vollstreckung vorläufig eingestellt ist |
 | IDW S 11 | — | 2022 | IDW-Standard zur Beurteilung des Vorliegens von Insolvenzeröffnungsgründen; Methodik Liquiditätsstatus und Fortbestehensprognose |
 

@@ -1,6 +1,6 @@
 ---
 name: fristen-und-risikoampel
-description: "Wenn es um Fristen- und Risikoampel in anwaltlichem Berufsrecht und Vertragsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung."
 ---
 
 # Fristen- und Risikoampel
@@ -37,10 +37,11 @@ Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **berufsrecht-k
 - **§ 203 StGB**: Strafrechtliche Schweigepflichtverletzung — Freiheitsstrafe bis 1 Jahr oder Geldstrafe; Antragsdelikt § 205 StGB.
 - **§ 43a Abs. 2 BRAO / § 43e BRAO**: Berufsrechtliche Verschwiegenheit, anwaltsgerichtliche Maßnahmen § 113 BRAO bis Ausschluss aus der Anwaltschaft.
 - **DSGVO**: Art. 33 Datenpannenmeldung 72h, Bußgelder bis 20 Mio. EUR / 4 %.
-- **KI-VO**: Schulungspflicht Art. 4 KI-VO seit 02.02.2025; Verbotene Praktiken Art. 5 (z. B. Social Scoring) — bis 35 Mio. EUR / 7 %.
+- **KI-Verordnung:** Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. Die Höchstgrenze nach Artikel 99 Absatz 3 beträgt bei Verstößen gegen Artikel 5 bis 35 Millionen Euro oder bei Unternehmen 7 Prozent des weltweiten Jahresumsatzes, grundsätzlich der höhere Wert; Absatz 6 für KMU gesondert beachten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Haftung**: zivilrechtliche Haftung gegenüber Mandantschaft (§§ 280, 611, 675 BGB), Anwaltshaftpflicht § 51 BRAO.
 
 ## Ampelkriterien
 - **Rot**: Mandantendaten in nicht AVV-bewehrtes KI-Tool eingeführt; US-Cloud ohne TIA; Verstoß § 203 StGB sichtbar; aktuelle Beschwerde Rechtsanwaltskammer.
-- **Gelb**: AVV vorhanden, aber TOM-Anlage fehlt; KI-Tool ohne dokumentierte Klassifizierung; Schulungsnachweis Art. 4 KI-VO offen.
+- **Gelb:** AVV vorhanden, aber TOM-Anlage fehlt; Einsatzfunktion des KI-Tools ungeklärt; angemessene Kompetenzmaßnahmen noch nicht belegt. Ein fehlendes Schulungszertifikat allein belegt keinen Verstoß gegen Artikel 4.
 - **Grün**: AVV + TOM + ggf. SCC + TIA; dokumentierte KI-Klassifizierung; Schulung; intern verabschiedete KI-Richtlinie.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

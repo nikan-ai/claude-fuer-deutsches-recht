@@ -1,6 +1,6 @@
 ---
 name: europarecht-delegierte-durchfuehrungsakte
-description: "Wenn es um Delegierte und Durchführungsakte in Europarecht-Kompass für deutsche Juristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Delegierte und Durchführungsakte: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Delegierte und Durchführungsakte
@@ -44,10 +44,6 @@ Bevor losgelegt wird, klaere:
 2. Wurde die Ermaechtigung im Basisrechtsakt korrekt erteilt (wesentliche Elemente nur durch Gesetzgeber)?
 3. Können Rat oder EP widersprechen / widerrufen (Art. 290 Abs. 2 AEUV)?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette
 
 - **Art. 290 AEUV** — Delegierte Rechtsakte; EP/Rat-Widerrufsrecht; Kontrollmechanismus
@@ -73,3 +69,5 @@ Moegliche Anfechtung: [Art. 263 AEUV — Frist 2 Monate ab Bekanntmachung]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

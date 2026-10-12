@@ -1,6 +1,6 @@
 ---
 name: risikoklassen-uebersicht-und-triage
-description: "Wenn es um Risikoklassen-Übersicht und Triage — europäischer Technikregulierungsrahmen in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten Stichwort für die Auswahl: Risikoklassen Uebersicht Und Triage."
+description: "Für Risikoklassen-Übersicht und Triage — europäischer Technikregulierungsrahmen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Risikoklassen-Übersicht und Triage — KI-VO
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Vorfrage: Ist es ein KI-System?
 
@@ -57,17 +55,17 @@ Wenn Anhang III passt, nicht sofort stoppen. Prüfe eng:
 - Profiling natürlicher Personen?
 - erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte?
 - eine der vier Fallgruppen?
-- Dokumentation nach Art. 6 Abs. 4?
+- Dokumentation nach Art. 6 Abs. 4 und Registrierung nach Art. 49 Abs. 2?
 
 Weiter: `rueckausnahme-art-6-abs-3`
 
-### 5. Begrenztes Risiko nach Art. 50
+### 5. Zusätzliche Transparenzpflichten nach Art. 50
 
 Prüfe insbesondere:
 - Interaktion natürlicher Personen mit KI-System
 - KI-generierte oder manipulierte Inhalte
 - Deepfake-Kennzeichnung
-- Emotionserkennung oder biometrische Kategorisierung, soweit nicht verboten/hochrisikorelevant
+- Emotionserkennung oder biometrische Kategorisierung, soweit nicht verboten; Hochrisikopflichten können daneben bestehen
 
 Weiter: `begrenztes-risiko-art-50-transparenzpflichten`
 
@@ -76,7 +74,7 @@ Weiter: `begrenztes-risiko-art-50-transparenzpflichten`
 Bei LLMs, Foundation Models, APIs und allgemeinen Chatbots:
 - GPAI-Modell oder GPAI-System prüfen
 - systemisches Risiko prüfen, falls Modellanbieter betroffen
-- Hochrisiko nur bei konkreter Anhang-III-Zweckbestimmung
+- Hochrisiko über beide eigenständigen Produkt- und Anhang-III-Pfade prüfen
 
 Weiter: `gpai-vorliegen-art-3-nr-63`
 
@@ -110,7 +108,7 @@ System: [NAME]
 - Art. 6 Abs. 1: [Treffer/kein Treffer/unklar]
 - Art. 6 Abs. 2/Anhang III: [Treffer/kein Treffer/unklar]
 - Art. 6 Abs. 3 Rückausnahme: [prüfen/nicht einschlägig]
-- Art. 50 begrenztes Risiko: [Treffer/kein Treffer/unklar]
+- Art. 50 zusätzliche Transparenzpflicht: [Treffer/kein Treffer/unklar]
 - GPAI: [Modell/System/nein/unklar]
 
 4. Vorläufiges Ergebnis
@@ -125,4 +123,4 @@ System: [NAME]
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 07/2026. Maßgeblich sind Art. 3, 5, 6, 50, 51 bis 55 und Anhang III KI-VO. Keine Rechtsberatung.
+Normabgleich: 9. Oktober 2026. Maßgeblich sind Art. 3, 5, 6, 50, 51 bis 55 und Anhang III KI-VO. [Aktueller Rechtsstand und Quellen](../../references/rechtsstand-2026-10-09.md). Keine abschließende Konformität ohne konkrete Evidenz.

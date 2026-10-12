@@ -1,6 +1,6 @@
 ---
 name: verfahren
-description: "Wenn es um Umweltrechtliche Verwaltungs- und Gerichtsverfahren in Umweltrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Umweltrechtliche Verwaltungs- und Gerichtsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Umweltrechtliche Verwaltungs- und Gerichtsverfahren
@@ -41,10 +41,6 @@ Umweltrechtssache geht in Verwaltungsgericht: Ausgangsverfahren Anhörung Widers
 - **§ 2 UmwRG** — Verbandsklage ohne Selbstbetroffenheit
 - **§ 4 UmwRG** — Verfahrensfehler für sich allein als Aufhebungsgrund bei UVP-Pflicht
 - **§ 5 UmwRG** — Praeklusion bei Nichtbeteiligung im Verwaltungsverfahren
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -169,7 +165,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Beschwerde OVG § 146 | 2 Wochen / Begruendung 1 Monat | § 146 VwGO |
 | Normenkontrolle OVG | 1 Jahr ab Bekanntmachung | § 47 Abs. 2 VwGO |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - EuGH hat deutsche Praeklusion § 5 UmwRG für unionsrechtswidrig erklaert soweit sie den gerichtlichen Zugang Einzelner beschraenkt.
 - Praxis: Gericht prüft Einwendungen auch wenn im Verwaltungsverfahren nicht erhoben — Chance für Kläger.

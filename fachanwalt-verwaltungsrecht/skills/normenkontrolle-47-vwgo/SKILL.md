@@ -1,6 +1,6 @@
 ---
 name: normenkontrolle-47-vwgo
-description: "Wenn es um Normenkontrolle 47 Vwgo in Fachanwalt Verwaltungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Normenkontrolle 47 VwGO: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Normenkontrollantrag nach § 47 VwGO gegen Bauleitplaene, Rechtsverordnungen oder Satzungen: Betroffener will Bebauungsplan oder kommunale Satzung zu Fall bringen
@@ -152,12 +152,10 @@ description: "Wenn es um Normenkontrolle 47 Vwgo in Fachanwalt Verwaltungsrecht 
 3. **Mängel pauschal vorgetragen**
 4. **Heilungs-Pflicht nach § 215 BauGB ignoriert**
 
-## 11) Aktuelle BVerwG-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Anschluss
 
 - `normenkontrolle-bauleitplanung` (Vollplugin) — Vertieftes Verfahren
 - `fachanwalt-verwaltungsrecht-orientierung` — Triage
 - `widerspruch-oder-klage-erstpruefung` — bei anderer VG-Sache
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

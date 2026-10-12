@@ -1,6 +1,6 @@
 ---
 name: versr-pkv-beitragsanpassung-medizinische-notwendigkeit
-description: "Wenn es um Versr Pkv Beitragsanpassung Medizinische Notwendigkeit in Fachanwalt Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Versr Pkv Beitragsanpassung Medizinische Notwendigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # PKV-Mandate zu Beitragsanpassung § 203 VVG, medizinischer Notwendigkeit, GOÄ/GOZ-Kürzung, Tarifwechsel und Rückforderung.
@@ -21,6 +21,10 @@ description: "Wenn es um Versr Pkv Beitragsanpassung Medizinische Notwendigkeit 
 ## Norm- und Quellenanker
 
 VVG §§ 192–208, § 203; MB/KK; GOÄ/GOZ; VAG.
+
+### Kalkulationsbestreiten und Limitierung
+
+[BGH, Beschluss vom 28.01.2026, IV ZR 41/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__41-25.pdf?__blob=publicationFile&v=1), Rn. 10–18 und 20: Unbekannte PKV-Kalkulationsgrundlagen grundsätzlich mit Nichtwissen bestreitbar; Versicherer trägt Beweis erhöhter Prämie auch bei Rückforderung. Zusätzliche Beitragslimitierung nach Paragraf 155 Absatz 2 VAG hat andere Lastverteilung; nach Sachverständigenbeweis konkrete Einwendungen prüfen. Benenne Tarif, Anpassungszeitraum und Beweisthema; formuliere das Bestreiten unbekannter Kalkulationsgrundlagen und trenne davon die zusätzliche Beitragslimitierung.
 
 ## Red Flags
 

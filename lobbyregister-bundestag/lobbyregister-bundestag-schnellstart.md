@@ -1,66 +1,37 @@
-Wenn du das hier öffnest, willst du Registrierungspflicht, Ausnahmen, Aktualisierung, Verhaltenskodex und Sanktionsrisiko nach dem Lobbyregisterrecht sofort ordnen.
+# 1. Lobbyregister: Kontakt, Eintrag und Änderung
 
-# Lobbyregister Bundestag — Schnellstart
+Ohne Eingabe frage kurz: „Registrierungspflicht prüfen, Eintrag aktualisieren oder Registerstelle beantworten?“ Bei Dateien ohne Aufgabe lies sie still und kläre nur das gewünschte Ergebnis. Bei klarem Auftrag beginne direkt mit Prüfung oder Feldtext; keine allgemeine Registerübersicht vorweg. Frage nur entscheidende fehlende Kontakt-, Organisations- oder Finanzangaben nach. Ein Portalzugang wird nicht vorausgesetzt.
 
-Ziel: Lobbyregister-Bundestag-Superplugin mit 50 geführten Skills für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstoessen und Fristen nach LobbyRG. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Prüfe, ob der konkrete politische Kontakt eine Eintragung auslöst und welche Registerangaben danach zu ändern sind. Gleiche Kontaktvermerke, Auftraggeberkette und bestehenden Eintrag ab; formuliere die benötigten Feldtexte oder das beauftragte Pflichtenmemo. Die alternativen Voraussetzungen des [Paragrafen 2 LobbyRG](https://www.gesetze-im-internet.de/lobbyrg/__2.html) hängen nicht allein von der Kontaktzahl ab. Ausnahmen nach Adressat und Tätigkeit prüfen, nicht pauschal nach Berufs- oder Verbandsbezeichnung.
 
-## 1. Schnellmodus
+Bei einer Kammer unterscheide ihre gesetzliche öffentliche Aufgabe von sonstiger Interessenvertretung. Paragraf 2 Absatz 2 Nummer 6 und Absatz 3 Nummer 6 LobbyRG tragen die Bundesprüfung. [VG München, 3. Juni 2025, M 30 K 23.817](https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2025-N-16380?all=False) nimmt die gesetzliche Interessenvertretung einer Handwerkskammer vom bayerischen Register aus. Das ist keine Entscheidung über das Bundesregister und keine Befreiung aller Wirtschaftsverbände; Auftrag und Tätigkeit belegen.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Einzutragende Änderung konkret bestimmen
 
-## 2. Direktstart
+Ordne jede Änderung einem Datenfeld, auslösenden Ereignis, Beleg und Bearbeiter zu. Trenne neue Auftraggeber, Tätigkeitsfelder und betraute Personen von Finanzdaten des abgelaufenen Geschäftsjahres. Für Regelungsvorhaben beschreibe das konkrete Änderungsziel; ein Schlagwort wie Wirtschaftspolitik reicht als Arbeitsbeschreibung nicht aus. Prüfe bei Stellungnahmen Empfänger, Übermittlungsdatum, grundlegenden Inhalt und bereits erfolgte Veröffentlichung im Beteiligungsverfahren.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Ein individuelles Auskunftsersuchen deckt nicht ohne Prüfung einen zusätzlichen eigenen Änderungswunsch. Vergleiche Ersuchen und Antwort und beurteile die darüber hinausgehende Kontaktaufnahme eigenständig. Bei Agenturen sind unmittelbarer Auftraggeber, vertretenes Interesse und Unterauftragnehmer getrennt zuzuordnen; ein Rechnungsadressat beweist nicht die ganze Kette. Erhaltene Finanzmittel und eigene Aufwendungen sind unterschiedliche Bezugsgrößen.
 
-## 3. Kernroute
+## 1.2. Drei Aktualisierungstakte
 
-1. Kontakt und Adressat: Bundestag, Bundesregierung, Ministerium, Referat, Abgeordneter oder Mitarbeiterebene bestimmen.
-2. Pflicht und Ausnahme: Interessenvertretung, Schwellen, Bagatellen, Mandatsgeheimnis, Arbeitsrecht und Verbändeausnahme trennen.
-3. Registerinhalt: Mandant, Regelungsvorhaben, Finanzangaben, Zuwendungen, Auftraggeberkette und Aktualisierung prüfen.
-4. Verhalten und Nachweis: Kodex, Kontaktvermerk, Unterlagen, Freigabe, interne Verantwortlichkeit und Fristen sichern.
-5. Arbeitsprodukt: Registermatrix, Aktualisierungstext, Fristenblatt, Vorstandsmemo oder Bußgeldverteidigung erstellen.
-6. Fristen- und Quartalsmonitor: Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen.
+[Paragraf 3 Absatz 3 LobbyRG](https://www.gesetze-im-internet.de/lobbyrg/__3.html) unterscheidet unverzügliche Änderungen, grundlegende Stellungnahmen und Gutachten spätestens bis Quartalsende sowie bestimmte geschäftsjahresbezogene Angaben spätestens sechs Monate nach Geschäftsjahresende. Bei letzterer Aktualisierung den gesamten Eintrag prüfen und seine Richtigkeit bestätigen. Nicht sämtliche Änderungen bis zur Jahresaktualisierung sammeln und unverzüglich nicht in eine pauschale Vierwochenfrist umdeuten.
 
-## 4. Fallkarte
+Erstelle ein Fristenblatt mit konkretem Auslöser und Datum. Fehlende Finanzunterlagen nicht durch Nullwerte ersetzen; bezeichne die Beschaffungslücke und den zuständigen Bearbeiter. Gleiche Finanzangaben gegen Konten und Zeitanteile ab, nicht gegen eine frei geschätzte Gesamtsumme.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | LobbyRG Paragraf 1; LobbyRG Paragraf 2; LobbyRG Paragraf 3 |
-| Rechtsprechung | BVerfG, Urteil vom 04.07.2007 - 2 BvE 1/06 u.a |
-| Tatbestand | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen |
-| Beweislast | Registerpflichtiger für Ausnahme, Angaben, Aktualisierung und Dokumentation; Behörde für Tatbestand, Ermessen und Verstoß |
-| Rechtsfolge | Registrierung, Aktualisierung, Verhaltenskodex-Prüfung, Stellungnahme, Fristenblatt oder Bußgeldabwehr |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.3. Arbeitsprodukt und Freigabe
 
-## 5. Einsatzfelder
+Liefere je nach Auftrag feldbezogene Änderungstexte oder das begründete Vorstandsmemo; Nachweisliste und Freigabevorlage nur, soweit dafür erforderlich. Vor einer tatsächlichen Portalveröffentlichung müssen Inhalt und Veröffentlichung freigegeben sein; eine vorbereitete Meldung ist keine erfolgte Registrierung. Personenbezüge und maschinenlesbare Dokumentfassungen prüfen. Nur bei blockierenden Lücken rückfragen, übrige Felder fertig bearbeiten.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Fristen- und Quartalsmonitor | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Portal-Account und Rollen | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Adressatenkreis Bundestag und Bundesregierung | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Unverzügliche Aktualisierung | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Anonymisierung und Schutzantrag | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Auftraggeber ermitteln | Adressat, Interessenvertretung, Registrierungspflicht, Ausnahme, Angaben, Aktualisierung und Sanktionsrisiko sofort prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+### 1.3.1. Auftraggeber und Finanzangaben ergänzen
 
-## 6. Anker
+Fehlt ein Glied der Auftraggeberkette, frage nach dem konkreten Auftrag und einer etwaigen Weiterbeauftragung. Nach Eingang gleiche Vertrag und Registerentwurf ab und korrigiere die betroffenen Felder. Bei fehlenden Finanzdaten frage nach Kontennachweis, Zeitraum und Zuordnung; rechne danach die betroffenen Beträge neu, statt fehlende Angaben als null einzutragen.
 
-- LobbyRG Paragraf 1: Zweck und Anwendungsbereich des Lobbyregisters.
-- LobbyRG Paragraf 2: Registrierungspflicht und Ausnahmen.
-- LobbyRG Paragraf 3: einzutragende Angaben.
-- LobbyRG Paragraf 4: Aktualisierung und jährliche Bestätigung.
-- Paragraf 1 bis 7 LobbyRG: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 2 Abs. 2 LobbyRG — Tätigkeitsbezogene Ausnahmen: u. a. Stellungnahmen aufgrund Beteiligung in Gesetzgebung (z. B. Paragraf 47 Abs. 3 GGO), Auskunft auf Verlangen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 2 Abs. 3 LobbyRG — Persönliche/strukturelle Ausnahmen: Hauptkommunal/-länderebenen, Religionsgemeinschaften des öffentlichen Rechts, politische Parteien, einzelne: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Urteil vom 04.07.2007 - 2 BvE 1/06 u.a.: Offenlegungspflichten für Bundestagsabgeordnete zeigen den verfassungsrechtlichen Transparenzrahmen parlamentarischer Interessenlagen.
+### 1.3.2. Änderungstext abschließen
 
-## 7. Antwortform
+Prüfe jede Antwort gegen den bestehenden Eintrag und die Änderungsdaten. Eine neue entscheidende Unstimmigkeit rechtfertigt eine weitere gezielte Frage; bekannte Angaben nicht erneut abfragen. Vervollständige danach die bestellten Änderungstexte oder das Vorstandsmemo. Ein zunächst nötiges Nachforderungsschreiben beendet einen weitergehenden Bearbeitungsauftrag nicht.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Fristen- und Quartalsmonitor, Portal-Account und Rollen, Adressatenkreis Bundestag und Bundesregierung, Unverzügliche Aktualisierung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Belegt die Antwort eine bisher übersehene Hauptagentur, ändere im vorhandenen Pfad, etwa `register/aenderungsentwurf.md`, die Auftraggeberkette und betroffenen Personenzuordnungen; schreibe einen beauftragten Aktualisierungsplan entsprechend fort. Bereits geklärte Geschäftsjahreszahlen nicht nochmals erheben. Ohne Dateizugriff liefere die geänderten Feldtexte vollständig. Für eine öffentliche Stellungnahme müssen genaue übermittelte Fassung, Personenbereinigung und Maschinenlesbarkeit zusammenpassen; einen ungeprüften Upload nicht als bereinigt bezeichnen.
 
-## 8. Stop
+Der gewünschte Dateiname geht vor. Rechtliche Vorbehalte und fehlende Nachweise konkret benennen; technische Abruf- und Exporthinweise stehen in einer getrennten Arbeitsnotiz, nicht im Portaltext.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Optional vertieft `geschaeftsjahresaktualisierung` die Bearbeitung; die drei Takte dieses Minis genügen auch ohne Skillzugriff. Maßgeblich sind die am amtlichen Text geprüften Fristen, nicht abweichende Angaben in ergänzenden Materialien. Sanktionen nur bei konkretem Verstoß und nach aktueller amtlicher Prüfung beurteilen. Ohne Registerzugriff Entwurf liefern und Status offen benennen. Begleitvermerk beim Export: Times New Roman, 11 pt, dezimale Gliederung.

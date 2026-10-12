@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "plugin": "bundeswehrrecht-wehrrecht",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/wbo/__6.html",
+      "checked_on": "2026-09-14",
+      "supports": "Nachtfrist, Monatsfrist ab Kenntnis und schriftliche oder mündliche Einlegung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wbo/__5.html",
+      "checked_on": "2026-09-14",
+      "supports": "Einlegung beim nächsten Disziplinarvorgesetzten des Beschwerdeführers oder bei der entscheidungszuständigen Stelle."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wbo/__3.html",
+      "checked_on": "2026-09-14",
+      "supports": "Keine aufschiebende Wirkung und gesonderte einstweilige Maßnahmen."
+    },
+    {
+      "url": "https://www.bverwg.de/010318B1WB27.17.0",
+      "checked_on": "2026-09-22",
+      "supports": "BVerwG, Beschluss vom 1. März 2018, 1 WB 27.17, Randnummern 18–38: Tatsächliche Pflegeleistung und Ersatzbetreuung gegen dienstlichen Bedarf abwägen; qualifizierten Gesprächsvermerk auf wirksame Beschwerde prüfen. Grenze: Kein Wunschstandortanspruch oder automatischer Aufschub; damaligen Versetzungserlass nicht als heutige Fassung unterstellen. Amtliche tragende Gründe gelesen; keine Vollverifikation der gesamten Materie."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sg/__44.html",
+      "checked_on": "2026-09-22",
+      "supports": "Dienstunfähigkeit bei Berufssoldaten von Altersgrenzen unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sg/__55.html",
+      "checked_on": "2026-09-22",
+      "supports": "SaZ: Dienstunfähigkeit und Verweisungen der Entlassung gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/seg/__1.html",
+      "checked_on": "2026-09-22",
+      "supports": "Sachlicher und persönlicher Anwendungsbereich der Soldatenentschädigung; keine pauschale Fortführung des alten SVG-Ankers."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wbo/__6.html",
+      "checked_on": "2026-09-23",
+      "supports": "Kenntnis vom Beschwerdeanlass, Monatsfrist und Ablauf einer Nacht; späterer Ausdruck ist nicht automatisch neuer Auslöser."
+    },
+    {
+      "url": "https://www.bverwg.de/de/250626B1WB64.25.0",
+      "checked_on": "2026-10-01",
+      "supports": "Amtliche Webansicht: Tenor und Rn. 19–40, verwendet Rn. 35–40. Direkter HTTP-Abruf war gesperrt, Webansicht lesbar. Zeitnahe Ablehnung mehrerer Dienstposten wegen derselben konkreten Kindeserkrankung belegt nicht schon fehlende grundsätzliche Mobilitätsbereitschaft. Auswahlzeitpunkt, frühere Verwendungen und Hinderungszeitraum abgleichen. Grenze: Laufbahnzulassung und konkrete Versetzung trennen; Neubescheidung, kein Wunschdienstposten. Fehlende Nachweise eines konkreten Hindernisses belegen keine innere Mobilitätsverweigerung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sg/__23.html",
+      "checked_on": "2026-10-01",
+      "supports": "Amtlichen § 23 SG frisch gelesen: Dienstvergehen, keine Personalaktenregel. Falsche Fachskill-Zuordnung korrigiert; § 29 SG nicht neu verifiziert."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Versetzungsanker 1 WB 27.17 bleibt auf tatsächliche Pflege und Ersatzbetreuung begrenzt. Neuer Laufbahnfall 1 WB 64.25 ergänzt die Mobilitätsbewertung; im Auswahlspezialskill außerdem § 23 SG als Dienstvergehen statt Personalaktennorm richtiggestellt. Begrenzte Ankerprüfung, kein Live-Client-Test.",
+    "changes": [
+      "Beanstandete Verwendung, Befehl und Beurteilung auf konkrete Abhilfe und Schutzbedarf beziehen.",
+      "Konkrete Belastung und beauftragte Abhilfe statt allgemeiner Dokumentenbestellung im Einstieg.",
+      "Familienpflege und Empfangszuständigkeit in bestehende Versetzungs- und Beschwerdeprüfung integriert.",
+      "Altersgrenzen von Dienstunfähigkeit und Ruhestandsvoraussetzungen getrennt; alten SVG-Entschädigungsanker durch SEG-Anwendungsprüfung ersetzt.",
+      "Leer: Verwendung, Beurteilung oder Statusklärung. Dateien: still lesen und dienstrechtlich passenden Dokumentweg anbieten. Klar: direkt bestellte Beschwerde oder Beratung ausarbeiten.",
+      "Teilweise Ersatzpflege verändert verbleibende Belastung; verschobener Dienstantritt verändert Eilantrag ohne fingierte Aussetzung.",
+      "Der Versetzungsanker 1 WB 27.17 bleibt auf tatsächliche Pflege und Ersatzbetreuung begrenzt. Neuer Laufbahnfall 1 WB 64.25 ergänzt die Mobilitätsbewertung; im Auswahlspezialskill außerdem § 23 SG als Dienstvergehen statt Personalaktennorm richtiggestellt."
+    ],
+    "sha256": "86e5302a7f6efe74708621ff196fb30d099d75b763528d3ffa955628f7e7a055",
+    "reviewed_on": "2026-10-01"
+  },
+  "selection": {
+    "positive": [
+      "Entwerfen Sie eine Wehrbeschwerde gegen eine konkrete truppendienstliche Verwendungsentscheidung.",
+      "Prüfen Sie einen militärischen Befehl samt kurzfristigem Schutzbedarf und Beschwerdeweg."
+    ],
+    "negative": [
+      "Bearbeiten Sie die Kündigung eines zivilen Arbeitsverhältnisses außerhalb der Bundeswehr.",
+      "Berechnen Sie einen privaten Reisepreisminderungsanspruch eines Soldaten ohne Dienstbezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "verwendung-beschwerde-ohne-aufschub",
+      "request": "Stabsunteroffizier Braun, Soldat auf Zeit, erhielt am 10. September 2026 Kenntnis von einer truppendienstlichen Verwendungsentscheidung mit Dienstantritt am 21. September. Er hält die unberücksichtigte Betreuung seines schwer erkrankten Kindes für entscheidend; ein ärztlicher Nachweis und seine bereits eingereichte Betreuungsdarstellung sind vorhanden. Es geht nicht um Entlassung, Besoldung oder eine Disziplinarmaßnahme. Am 14. September möchte er Beschwerde einlegen und bis zur Entscheidung vorläufig in seiner bisherigen Verwendung bleiben. Er meint, die Beschwerde allein verschiebe den Dienstantritt. Sein nächster Disziplinarvorgesetzter ist bekannt; eine Entscheidung über Aussetzung gibt es noch nicht. Verfassen Sie eine Beschwerde mit begründetem vorläufigem Antrag und eine kurze Verfahrensnotiz. Namen der Dienststellen können als Platzhalter bleiben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Verfahrensnotiz knüpft die Ausgangsbeschwerde an Kenntnis am 10. September und die Monatsfrist nach Ablauf einer Nacht, nicht an eine beliebige allgemeine Widerspruchsfrist.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Einlegung wird dem nächsten Disziplinarvorgesetzten des Beschwerdeführers oder der entscheidungszuständigen Stelle zugeordnet, nicht automatisch dem nächsten Vorgesetzten des Beschwerdegegners.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Text erklärt die fehlende aufschiebende Wirkung, beantragt vorläufige Aussetzung anhand des Betreuungsnachweises und behauptet keine bereits erlaubte Nichtbefolgung der Verwendungsentscheidung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "wehrbeschwerdeordnung-beschwerde"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Der Versetzungsanker 1 WB 27.17 bleibt auf tatsächliche Pflege und Ersatzbetreuung begrenzt. Neuer Laufbahnfall 1 WB 64.25 ergänzt die Mobilitätsbewertung; im Auswahlspezialskill außerdem § 23 SG als Dienstvergehen statt Personalaktennorm richtiggestellt. Begrenzte Ankerprüfung, kein Live-Client-Test.",
+    "changes": [
+      "Konkrete Belastung und beauftragte Abhilfe statt allgemeiner Dokumentenbestellung im Einstieg.",
+      "Familienpflege und Empfangszuständigkeit in bestehende Versetzungs- und Beschwerdeprüfung integriert.",
+      "Altersgrenzen von Dienstunfähigkeit und Ruhestandsvoraussetzungen getrennt; alten SVG-Entschädigungsanker durch SEG-Anwendungsprüfung ersetzt.",
+      "Pflegekonkretisierung, Kenntnis- und Beschwerdebeleg, Beurteilungszeitraum, medizinischer Umfang und Ausbildungskosten vertieft.",
+      "Teilweise Ersatzpflege verändert verbleibende Belastung; verschobener Dienstantritt verändert Eilantrag ohne fingierte Aussetzung.",
+      "Der Versetzungsanker 1 WB 27.17 bleibt auf tatsächliche Pflege und Ersatzbetreuung begrenzt. Neuer Laufbahnfall 1 WB 64.25 ergänzt die Mobilitätsbewertung; im Auswahlspezialskill außerdem § 23 SG als Dienstvergehen statt Personalaktennorm richtiggestellt."
+    ],
+    "sha256": "9e4677c96d17fc9a89aa23de1571f21dd74341025e436e90292b948467e0c979",
+    "reviewed_on": "2026-10-01"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Verwendung, Beurteilung oder Statusklärung.",
+      "Dateien: still lesen und dienstrechtlich passenden Dokumentweg anbieten.",
+      "Klar: direkt bestellte Beschwerde oder Beratung ausarbeiten."
+    ],
+    "continuation": "Teilweise Ersatzpflege verändert verbleibende Belastung; verschobener Dienstantritt verändert Eilantrag ohne fingierte Aussetzung.",
+    "enrichment": "Pflegekonkretisierung, Kenntnis- und Beschwerdebeleg, Beurteilungszeitraum, medizinischer Umfang und Ausbildungskosten vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "method": "desk_review",
+    "files": [
+      "bundeswehrrecht-wehrrecht/README.md",
+      "bundeswehrrecht-wehrrecht/bundeswehrrecht-wehrrecht-werkstatt.md",
+      "bundeswehrrecht-wehrrecht/bundeswehrrecht-wehrrecht-schnellstart.md",
+      "quality/evals/bundeswehrrecht-wehrrecht.json",
+      "bundeswehrrecht-wehrrecht/skills/beurteilung-konkurrentenstreit-auswahlentscheidung/SKILL.md"
+    ],
+    "opening_change": "Beanstandete Verwendung, Befehl und Beurteilung auf konkrete Abhilfe und Schutzbedarf beziehen.",
+    "norms": [
+      "Artikel 6 Absatz 1 GG",
+      "Paragraf 31 SG",
+      "Paragrafen 3, 5 und 6 WBO",
+      "Paragrafen 44, 46 und 55 SG",
+      "Paragraf 1 SEG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Beschluss vom 1. März 2018, 1 WB 27.17, Randnummern 18–38",
+        "url": "https://www.bverwg.de/010318B1WB27.17.0",
+        "application": "Tatsächliche Pflegeleistung und Ersatzbetreuung gegen dienstlichen Bedarf abwägen; qualifizierten Gesprächsvermerk auf wirksame Beschwerde prüfen.",
+        "limit": "Kein Wunschstandortanspruch oder automatischer Aufschub; damaligen Versetzungserlass nicht als heutige Fassung unterstellen.",
+        "checked_on": "2026-09-22"
+      },
+      {
+        "citation": "BVerwG, Beschluss vom 25.06.2026, 1 WB 64.25",
+        "url": "https://www.bverwg.de/de/250626B1WB64.25.0",
+        "application": "Zeitnahe Ablehnung mehrerer Dienstposten wegen derselben konkreten Kindeserkrankung belegt nicht schon fehlende grundsätzliche Mobilitätsbereitschaft. Auswahlzeitpunkt, frühere Verwendungen und Hinderungszeitraum abgleichen.",
+        "limit": "Laufbahnzulassung und konkrete Versetzung trennen; Neubescheidung, kein Wunschdienstposten. Fehlende Nachweise eines konkreten Hindernisses belegen keine innere Mobilitätsverweigerung.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Aktuelle interne Erlasse sowie Status- und Entschädigungsrecht benötigen fallbezogene zusätzliche Prüfung.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_with_targeted_correction",
+      "files": [
+        "bundeswehrrecht-wehrrecht/bundeswehrrecht-wehrrecht-schnellstart.md",
+        "bundeswehrrecht-wehrrecht/bundeswehrrecht-wehrrecht-werkstatt.md",
+        "bundeswehrrecht-wehrrecht/skills/beurteilung-konkurrentenstreit-auswahlentscheidung/SKILL.md"
+      ],
+      "result": "Der Versetzungsanker 1 WB 27.17 bleibt auf tatsächliche Pflege und Ersatzbetreuung begrenzt. Neuer Laufbahnfall 1 WB 64.25 ergänzt die Mobilitätsbewertung; im Auswahlspezialskill außerdem § 23 SG als Dienstvergehen statt Personalaktennorm richtiggestellt.",
+      "search_2026": "1 WB 64.25 vom 25.06.2026 neu amtlich gelesen und konkret ergänzt.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  }
+}

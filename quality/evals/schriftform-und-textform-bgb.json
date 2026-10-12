@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "plugin": "schriftform-und-textform-bgb",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__623.html",
+      "checked_on": "2026-09-14",
+      "supports": "Schriftform für Kündigung und Auflösungsvertrag; Ausschluss elektronischer Form."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__126a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Anforderungen an elektronische Form und gleichlautende elektronisch signierte Vertragsdokumente."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2021/VII_ZR_895-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "E-Mail-Zugang bei abrufbarer Bereitstellung auf dem Empfängerserver während üblicher Geschäftszeiten im Unternehmerverkehr. Keine automatische Übertragung auf private Empfänger, Nachtversand oder Beweis durch bloßes Absenden. Amtlich indexierter Leitsatz geprüft; direkter PDF-Abruf gesperrt."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2024/I_ZR__32-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "Einfamilienhausbegriff und entsprechendes Provisionsrecht bei Vertragsschluss durch einen Dritten abgrenzen. Kein Nachweis, dass eine bestimmte E-Mail Textform oder Vertragsschluss erfüllt; amtliche Leitsätze geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/arbgg/__46h.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Volltext: Formfiktion bei erkennbarer Erklärung im formgerecht elektronisch eingereichten und gerichtlich zugestellten oder mitgeteilten vorbereitenden Schriftsatz, auch bei Ersetzungsverbot."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130e.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlich indexierter vollständiger Normtext zur entsprechenden zivilprozessualen Formfiktion."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__578.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlich indexierter aktueller Normtext zur Textform bei langfristiger Grundstücks- und Gewerberaummiete."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgbeg/BJNR006049896.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlich indexierter Artikel 229 Paragraf 70 Absatz 1: Altvertragsübergang bis einschließlich 1. Januar 2026, frühere Neurechtsanwendung bei Änderung ab 1. Januar 2025."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__126a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext zur elektronischen Form gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130e.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext zur Formfiktion elektronischer Prozesserklärungen nach anfänglichem Zugriffsfehler erfolgreich gelesen; kein technischer Signaturtest."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__85-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf/Berichtigung vom14.07.2026, Rn. 12–32; tragend24–31. Individuelle doppelte Schriftform grundsätzlich nicht mündlich abbedingen; Treuepflicht kann formgerechte rückwirkende Zustimmung verlangen. Grenze: Freiberuflersozietät, zurückverwiesen; weder automatische Heilung noch Übertragung auf §305bAGB oder gesetzliche Beurkundung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2021/VII_ZR_895-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 16–23. Geschäftliche E-Mail während üblicher Geschäftszeiten mit Abrufbarkeit auf Empfängerserver zugegangen. Grenze: Privatempfang und außerhalb üblicher Zeiten ausdrücklich nicht entschieden; Absenden allein kein Zugangsbeweis."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Signatur- und Inhaltsgleichheit getrennt prüfen; keine rückwirkende Heilung durch spätere Papierfassung unterstellen; Formfiktion nach Paragraf 130e ZPO mit konkret eingereichter und zugestellter Fassung verknüpfen; interne Freigaberegel und Vertragsform trennen.",
+    "changes": [
+      "Aktuelle Textform und ausgelaufene Gewerbemiet-Übergangsfrist ausdrücklich eingeordnet.",
+      "Formfiktion im gerichtlichen Schriftsatz von direkter E-Mail und bloßer Einreichung unterschieden.",
+      "E-Mail-Zugang und Makler-Anwendungsbereich durch amtliche Entscheidungsanker konkretisiert.",
+      "Leerstart: Form und Zugang, Nachtragskorrektur oder Signatur-/Fassungsabgleich wählen.",
+      "Eine abweichende signierte Preisfassung verändert den Formbefund und den neu zu vereinbarenden Nachtrag; ein Zustellbeleg verändert nur die belegte Zugangszuordnung.",
+      "Signatur- und Inhaltsgleichheit getrennt prüfen; keine rückwirkende Heilung durch spätere Papierfassung unterstellen; Formfiktion nach Paragraf 130e ZPO mit konkret eingereichter und zugestellter Fassung verknüpfen; interne Freigaberegel und Vertragsform trennen."
+    ],
+    "sha256": "0c73f2f650caa4898ea5f7207190ee7303d6a2e0b73f57b3b5951b9f119307b2",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Signatur- und Inhaltsgleichheit getrennt prüfen; keine rückwirkende Heilung durch spätere Papierfassung unterstellen; Formfiktion nach Paragraf 130e ZPO mit konkret eingereichter und zugestellter Fassung verknüpfen; interne Freigaberegel und Vertragsform trennen.",
+    "changes": [
+      "Aktuelle Textform und ausgelaufene Gewerbemiet-Übergangsfrist ausdrücklich eingeordnet.",
+      "Formfiktion im gerichtlichen Schriftsatz von direkter E-Mail und bloßer Einreichung unterschieden.",
+      "E-Mail-Zugang und Makler-Anwendungsbereich durch amtliche Entscheidungsanker konkretisiert.",
+      "Leerstart: Form und Zugang, Nachtragskorrektur oder Signatur-/Fassungsabgleich wählen.",
+      "Eine abweichende signierte Preisfassung verändert den Formbefund und den neu zu vereinbarenden Nachtrag; ein Zustellbeleg verändert nur die belegte Zugangszuordnung.",
+      "Signatur- und Inhaltsgleichheit getrennt prüfen; keine rückwirkende Heilung durch spätere Papierfassung unterstellen; Formfiktion nach Paragraf 130e ZPO mit konkret eingereichter und zugestellter Fassung verknüpfen; interne Freigaberegel und Vertragsform trennen."
+    ],
+    "sha256": "e93b3b55ae777154c7780922ea22e57cf3818a88839cb2aae95137b8645eddd0",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie, ob diese elektronisch signierte Kündigung die Form wahrt.",
+      "Vergleichen Sie gesetzliche Schriftform und vereinbarte Textform des Nachtrags."
+    ],
+    "negative": [
+      "Berechnen Sie nur die Abfindung ohne Formfrage.",
+      "Konvertieren Sie Anlagen ausschließlich technisch in PDF."
+    ]
+  },
+  "cases": [
+    {
+      "id": "kuendigung-qes-kein-original",
+      "request": "Erstellen Sie ergebnis.md als Form- und Zugangsvermerk. Arbeitgeber A sendete Arbeitnehmer B am 08.09.2026 eine Kündigung als PDF per E-Mail. Die Datei trägt nach einem tatsächlich vorhandenen technischen Prüfbericht eine gültige qualifizierte elektronische Signatur des allein vertretungsberechtigten Geschäftsführers. B bestätigt den Empfang der vollständigen Datei am selben Tag. Ein Papieroriginal wurde weder erstellt noch übergeben. A fragt, ob damit die Beendigungserklärung formgerecht zugegangen ist. Kündigungsgründe und Fristlänge sind nicht Gegenstand des Auftrags.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt den Ausschluss elektronischer Form nach Paragraf 623 trotz technisch gültiger qualifizierter Signatur.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt bestätigten Dateizugang vom fehlenden gesetzlichen Formerfordernis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verspricht keine rückwirkende Heilung durch späteren Ausdruck und begrenzt eine mögliche Neuerklärung auf eine gesonderte Form- und Fristprüfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "formwahl-zugang-live-prozessablauf"
+    },
+    {
+      "id": "schriftsatz-formfiktion-nicht-direktmail",
+      "request": "Erstellen Sie ergebnis.md als Formvermerk. Im laufenden Kündigungsschutzverfahren erklärt der bevollmächtigte Arbeitgeberanwalt in einem elektronischen vorbereitenden Schriftsatz klar erkennbar eine erneute Kündigung für den Arbeitgeber. Der Schriftsatz wurde am 7. September 2026 formgerecht nach Paragraf 46c ArbGG eingereicht und dem Arbeitnehmer am 9. September 2026 durch das Gericht zugestellt; beides ist durch vollständige Unterlagen belegt. Ein Papieroriginal der Kündigung gibt es nicht. Die materielle Vollmacht ist nachgewiesen und nicht streitig. Prüfen Sie nur Form und Zugangszeitpunkt, nicht Kündigungsgrund oder Kündigungsfrist. Es handelt sich nicht um eine unmittelbar an den Arbeitnehmer versandte E-Mail.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft Paragraf 46h ArbGG als besondere Formfiktion auch bei ausgeschlossenem Ersatz der Schriftform und verneint die Form nicht allein mit Paragraf 623 BGB.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ordnet den Zugang der belegten gerichtlichen Zustellung am 9. September zu und verwechselt ihn weder mit Einreichung am 7. September noch einer direkten E-Mail.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Begrenzt die Feststellung auf Form und Zugang; behauptet weder bereits geprüfte Kündigungsgründe noch Fristgerechtigkeit oder selbst erfolgten Versand.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "formwahl-zugang-live-prozessablauf"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "schriftform-und-textform-bgb/schriftform-und-textform-bgb-werkstatt.md",
+      "schriftform-und-textform-bgb/schriftform-und-textform-bgb-schnellstart.md"
+    ],
+    "opening_change": "Konkrete Kündigungs-, Befristungs- und Nachtragsprüfung mit getrennten Befunden zu Form, Zugang und Nachweis.",
+    "norms": [
+      "Paragrafen 125 bis 130, 568, 578, 623 und 656a BGB",
+      "Artikel 229 Paragraf 70 Absatz 1 EGBGB",
+      "Paragrafen 130a und 130e ZPO",
+      "Paragrafen 46c und 46h ArbGG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 06.10.2022 – VII ZR 895/21, Kopf, Rn. 16–23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2021/VII_ZR_895-21.pdf?__blob=publicationFile&v=1",
+        "application": "Geschäftliche E-Mail während üblicher Geschäftszeiten mit Abrufbarkeit auf Empfängerserver zugegangen.",
+        "limit": "Privatempfang und außerhalb üblicher Zeiten ausdrücklich nicht entschieden; Absenden allein kein Zugangsbeweis.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      },
+      {
+        "citation": "BGH, Urteil vom 6. März 2025, I ZR 32/24, amtliche Leitsätze",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2024/I_ZR__32-24.pdf?__blob=publicationFile&v=1",
+        "application": "Einfamilienhausbegriff und entsprechendes Provisionsrecht bei Vertragsschluss durch einen Dritten abgrenzen.",
+        "limit": "Kein Nachweis, dass eine bestimmte E-Mail Textform oder Vertragsschluss erfüllt; amtliche Leitsätze geprüft."
+      },
+      {
+        "citation": "BGH, Urteil vom 16.06.2026 – II ZR 85/25, Kopf/Berichtigung vom14.07.2026, Rn. 12–32",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__85-25.pdf?__blob=publicationFile&v=1",
+        "application": "Individuelle doppelte Schriftform grundsätzlich nicht mündlich abbedingen; Treuepflicht kann formgerechte rückwirkende Zustimmung verlangen.",
+        "limit": "Freiberuflersozietät, zurückverwiesen; weder automatische Heilung noch Übertragung auf §305bAGB oder gesetzliche Beurkundung.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Keine Live-Modellprüfung oder technische Exportprüfung durchgeführt; fallbezogene weitere Rechtsprechung bleibt zu prüfen.",
+      "Workflow-Vertiefung 2026-09-23: BGH VII ZR 895/21 nur nach zuvor amtlich indexiertem Leitsatz, nicht als neu zugänglicher PDF-Volltext; I ZR 32/24 ebenfalls mit bestehender Leitsatzgrenze. Vorhandene Sonderregeln einschließlich Paragrafen 578 BGB und 46h ArbGG nicht pauschal vereinfacht. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Form und Zugang, Nachtragskorrektur oder Signatur-/Fassungsabgleich wählen.",
+      "Dateien: Erklärung, Nachtrag und Übermittlungsbeleg still lesen und das gewünschte Dokument klären.",
+      "Klarer Auftrag: Formvermerk oder vollständige Ersatzklausel unmittelbar schreiben."
+    ],
+    "continuation": "Eine abweichende signierte Preisfassung verändert den Formbefund und den neu zu vereinbarenden Nachtrag; ein Zustellbeleg verändert nur die belegte Zugangszuordnung.",
+    "enrichment": "Signatur- und Inhaltsgleichheit getrennt prüfen; keine rückwirkende Heilung durch spätere Papierfassung unterstellen; Formfiktion nach Paragraf 130e ZPO mit konkret eingereichter und zugestellter Fassung verknüpfen; interne Freigaberegel und Vertragsform trennen.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=750&nr=131581&pos=11",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2021/VII_ZR_895-21.pdf?__blob=publicationFile&v=1",
+        "sha256": "a1a1aa3afabacdb33291a2cbdc7d3755ee3fecbe7534b44c70a83f490c0a7f37"
+      },
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2025&Gericht=bgh&file=dokument.pdf&linked=urt&nr=140942",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2024/I_ZR__32-24.pdf?__blob=publicationFile&v=1",
+        "sha256": "cfb33f8978c6109cb617028898a5e7441f4fd2613c20f3a08e51a285215886b9"
+      }
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "schriftform-und-textform-bgb/schriftform-und-textform-bgb-schnellstart.md",
+      "schriftform-und-textform-bgb/schriftform-und-textform-bgb-werkstatt.md",
+      "schriftform-und-textform-bgb/skills/sftf-doppelschriftform-aufhebung-spezial/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

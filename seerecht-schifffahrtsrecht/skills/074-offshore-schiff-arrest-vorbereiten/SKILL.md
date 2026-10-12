@@ -1,6 +1,6 @@
 ---
 name: 074-offshore-schiff-arrest-vorbereiten
-description: "Wenn es um Offshore-Schiff – Arrest vorbereiten in See- und Schifffahrtsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Offshore-Schiff – Arrest vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Offshore-Schiff – Arrest vorbereiten
@@ -96,17 +96,3 @@ In der Praxis wird der Arrest häufig durch eine Letter of Undertaking (LOU) des
 - SchRegO § 67: https://dejure.org/gesetze/SchRegO/67.html
 - ISAC 1952: https://www.admin.ch/opc/de/classified-compilation/19520172/index.html
 - openjur LG Hamburg Arrest: https://www.openjur.de
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 WSG
-- § 267 StGB
-- § 49 EStG
-- § 8b KStG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

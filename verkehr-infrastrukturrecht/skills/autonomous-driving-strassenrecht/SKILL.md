@@ -1,6 +1,6 @@
 ---
 name: autonomous-driving-strassenrecht
-description: "Wenn es um Autonomes Fahren: Strassenrecht in Verkehrs- und Infrastrukturrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Autonomes Fahren: Strassenrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Autonomes Fahren: Strassenrecht
@@ -48,24 +48,3 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 67 WHG
-- § 28 PBefG
-- § 73 VwVfG
-- § 42 VwGO
-- § 74 VwVfG
-- § 16 StrWG
-- § 17 FStrG
-- § 80 VwGO
-- § 70 VwGO
-- § 9 PBefG
-- § 8 FStrG
-- § 18 AEG
-
-### Leitentscheidungen
-
-- BGH VI ZR 281/13

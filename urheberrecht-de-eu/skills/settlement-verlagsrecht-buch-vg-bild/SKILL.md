@@ -1,6 +1,6 @@
 ---
 name: settlement-verlagsrecht-buch-vg-bild
-description: "Wenn es um Vergleich und Settlement in Urheberrecht DE EU geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleich und Settlement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vergleich und Settlement
@@ -20,7 +20,7 @@ description: "Wenn es um Vergleich und Settlement in Urheberrecht DE EU geht: en
 
 ## Wofür dieser Arbeitsgang da ist
 
-Vergleich und Settlement schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite einen Vergleich über die streitigen urheberrechtlichen Nutzungen vor. Leite die Verhandlungsposition aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweisen ab und formuliere die verlangten Eckpunkte oder Empfehlungen.
 
 ## Sofortstart
 

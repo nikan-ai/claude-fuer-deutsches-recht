@@ -1,6 +1,6 @@
 ---
 name: aufrechnung-zurueckbehaltung-309
-description: "Wenn es um Aufrechnung Zurückbehaltung 309 in AGB-Recht-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Aufrechnung Zurückbehaltung 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aufrechnung Zurückbehaltung 309
@@ -37,9 +37,8 @@ description: "Wenn es um Aufrechnung Zurückbehaltung 309 in AGB-Recht-Prüfer g
 - § 309 Nr. 2 BGB Zurueckbehaltungsverbot ist unwirksam, wenn das Zurueckbehaltungsrecht aus demselben Vertragsverhaeltnis stammt.
 
 ### BGH-Linie
-- BGH VIII ZR 67/17 zur unwirksamen Aufrechnungsbeschraenkung in Mietvertraegen (Az im Digitalisat verifizieren).
-- BGH XII ZR 17/13 für Pachtvertraege.
-- BGH KZR 12/15 zur Erstreckung des AGB-Aufrechnungsverbots in B2B-Kontexten unter § 307 BGB.
+- Im Verbrauchervertrag folgt die Mindestöffnung unmittelbar aus Paragraf 309 Nummer 3 BGB: Unbestrittene und rechtskräftig festgestellte Gegenforderungen dürfen nicht ausgeschlossen werden.
+- Im Unternehmervertrag gilt Paragraf 309 nicht unmittelbar. Die konkrete Klausel ist über Paragraf 307 in Verbindung mit Paragraf 310 Absatz 1 Satz 2 BGB unter Berücksichtigung von Handelsbräuchen, Vertragsart und beiderseitigen Sicherungsinteressen zu prüfen; keine fachfremde Einzelfallentscheidung als Universalanker verwenden.
 
 ### B2B
 - Im unternehmerischen Verkehr: § 309 BGB findet keine direkte Anwendung; § 307 BGB als Maßstab. Die Wertung des § 309 Nr. 2, 3 BGB strahlt mittelbar aus.

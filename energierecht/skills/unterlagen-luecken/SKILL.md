@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Energierecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Energierecht."
 ---
 
 # Unterlagen und Lücken
@@ -12,7 +12,7 @@ Diese Unterlagenprüfung für **Energierecht** benennt fehlende Dokumente, strei
 ## Fachlandkarte dieses Plugins
 
 - `anfrage-mehrparteien-konflikt-und-interessen` — Anfrage Mehrparteien Konflikt und Interessen
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `energierecht-erstpruefung-und-mandatsziel` — Energierecht: Erstprüfung, Rollenklärung und Mandatsziel
 - `bess-abfall-recycling-rueckbau` — Bess Abfall Recycling Rueckbau
 - `bess-abstandsflaechen-baurecht-brandenburg` — Bess Abstandsflaechen Baurecht Brandenburg
 - `bess-baurecht-brandenburg` — Bess Baurecht Brandenburg

@@ -1,6 +1,6 @@
 ---
 name: dsfa-rechenschaftspflicht-art-5-ii
-description: "Wenn es um DSFA-Dokumentation und Rechenschaftspflicht in Datenschutzrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für DSFA-Dokumentation und Rechenschaftspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSFA-Dokumentation und Rechenschaftspflicht
@@ -100,5 +100,6 @@ Zugriffskonzept
 - § 147 AO; § 257 HGB (Bezugsfristen)
 - EDSA-Leitlinien WP 248 rev.01
 - BfDI / Landesbehoerden — Hinweise zur Rechenschaftspflicht
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

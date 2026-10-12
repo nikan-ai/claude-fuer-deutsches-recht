@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "plugin": "betreuungsrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1814.html",
+      "checked_on": "2026-09-14",
+      "supports": "Erforderlichkeit der Betreuung und Berücksichtigung anderer Hilfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
+      "checked_on": "2026-09-14",
+      "supports": "Unterstützte Selbstbesorgung, erforderlicher Vertretungseinsatz und Wünsche mit gesetzlichen Grenzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1835.html",
+      "checked_on": "2026-09-14",
+      "supports": "Vermögensverzeichnis zum Bestellungszeitpunkt, Einnahmen und Ausgaben, Belegpflicht und spätere Ergänzung."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rk20210331_1bvr041320.html",
+      "checked_on": "2026-09-22",
+      "supports": "Erneute Primärquellenprüfung: BVerfG, Beschluss vom 31.03.2021, 1 BvR 413/20, Randnummern 20, 23, 34 bis 35. Anwendung: Bei Ablehnung oder Entlassung eines gewünschten Angehörigen konkrete Eignung, familiäre Bindung und unterstützende Alternativen prüfen. Grenze: Kein absoluter Angehörigenvorrang; Entscheidung zu altem Betreuungsrecht, Übertragung nur mit aktuellen Paragrafen 1816, 1817 und 1868 BGB."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1816.html",
+      "checked_on": "2026-09-22",
+      "supports": "Auswahl nach Wunsch und Eignung; keine allein aus Verwandtschaft folgende Eignung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
+      "checked_on": "2026-09-22",
+      "supports": "Unterstützung, Wünsche und begrenzter Vertretungseinsatz."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1835.html",
+      "checked_on": "2026-09-22",
+      "supports": "Bestellungsstichtag, Belegpflicht und Ergänzung des Vermögensverzeichnisses."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1865.html",
+      "checked_on": "2026-09-22",
+      "supports": "Jährliche Rechnungslegung, Ab- und Zugang sowie Abgrenzung zum Bericht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1832.html",
+      "checked_on": "2026-09-22",
+      "supports": "Genehmigung ärztlicher Zwangsmaßnahmen; amtliche Fußnote enthält Fortgeltung und Neuregelungsauftrag bis Ende 2026. Keine abschließende Spezialprüfung der verfassungsrechtlichen Entscheidung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1833.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aufgabe selbst genutzten Wohnraums: unverzügliche Anzeige mit Gründen und Sichtweise, Genehmigung bestimmter Rechtsgeschäfte gesondert von Kündigung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2026/XII_ZB_171-26.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Beschluss vom 29.07.2026, XII ZB 171/26: Beschränkten Beschwerdegegenstand und fortbestehende Beteiligung des bestellten Verfahrenspflegers prüfen; anwaltliche Vertretung beendet Bestellung nicht automatisch. Grenze: Zurückverweisung zur Betreuerauswahl, keine automatische Aufhebung der gesamten Betreuung. Gelesener Umfang: Alle 7 PDF-Seiten einschließlich Rn. 1–12; tragend Rn. 5–11.",
+      "verification_status": "frisch_volltextpassagen",
+      "source_sha256": "baa9e51e8c323ddd6e0cdf8817cf78240a83ad687055c1e98536c72a551dafd7"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig auf Unterstützung, Vertretung und Bestellungsstichtag geprüft. Die Auswahl eines Angehörigen ist nun mit konkreter Eignungsprüfung und verfassungsrechtlichem Maßstab verbunden. Redaktioneller Desk-Review, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Gezielte Ergänzung 01.10.2026; Umfang und Quellenstatus im Breitenbericht.",
+    "changes": [
+      "BVerfG 1 BvR 413/20 in Wunsch- und Eignungsprüfung integriert, ohne Angehörigenvorrang zu behaupten.",
+      "Jahresbericht nach Paragraf 1863 und Rechnungslegung nach Paragraf 1865 BGB getrennt; Dokumentenstart und Fortsetzung erhalten.",
+      "Leer: Wohnungsentscheidung, Vermögensverzeichnis oder Gerichtsbericht. Dateien: still lesen und passendes Betreuungsdokument anbieten. Klar: direkt bestelltes Schreiben oder Verzeichnis erstellen.",
+      "Rückkehrwunsch ändert Wohnungsentscheidung; früher Erbanfall verändert Stichtagsvermögen statt bloßer Zahlungstagszuordnung.",
+      "Gezielter Rechtsprechungsabgleich 01.10.2026: 2026: Beteiligungs- und Rechtsmittelgrenze im Mini.",
+      "Ergänzung 08.10.2026: Altbeleg-Auswertung mit Kontenabstimmung, Belegfundstellen und Anschreiben; übrige historische Prüfungen wurden nicht erneut vollständig durchgeführt."
+    ],
+    "sha256": "01f1f9df001dee13061c5bca09bcca90df209f49d9101ab709ad73ce20c03ee6",
+    "reviewed_on": "2026-09-22",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie mein erstes Vermögensverzeichnis für die betreute Person aus den Kontoständen bei Bestellung.",
+      "Prüfen Sie, ob eine geplante Wohnungsaufgabe vom Betreuungsauftrag und den erforderlichen Genehmigungen gedeckt ist."
+    ],
+    "negative": [
+      "Berechnen Sie den Kindesunterhalt nach einer Trennung.",
+      "Erstellen Sie die Erbschaftsteuererklärung ohne Bezug zu einer laufenden Betreuung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "anfangsbestand-und-spaetere-erbschaft",
+      "request": "Frau Dorn wurde am 1. September 2026 zur Betreuerin von Herrn Seidel mit dem Aufgabenbereich Vermögenssorge bestellt. Zum Bestellungszeitpunkt bestanden Giroguthaben 4200 Euro, Sparguthaben 10000 Euro, Bargeld 180 Euro und eine unstreitige Darlehensschuld von 2000 Euro. Monatliche Rente 1650 Euro, Miete 620 Euro und Versicherungen 80 Euro sind regelmäßige Einnahmen beziehungsweise Ausgaben. Am 10. September erhielt Seidel zusätzlich 5000 Euro aus einer Erbschaft. Kontoauszüge und Darlehensbestätigung liegen Dorn vor, sind aber hier nicht angehängt. Erstellen Sie auf Basis dieser Angaben einen Entwurf des Vermögensverzeichnisses und ein Begleitschreiben an das Betreuungsgericht zum 14. September. Kennzeichnen Sie die noch beizufügenden Nachweise; behaupten Sie keine eigene Einsicht in diese Belege.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Anfangsbestand wird auf den 1. September bezogen, mit Aktiva von 14380 Euro und gesonderter Schuld von 2000 Euro; eine etwaige Nettoangabe beträgt 12380 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die 5000 Euro Erbschaft werden als späterer Hinzuerwerb beziehungsweise Ergänzung erfasst, nicht rückwirkend in den Anfangsbestand oder als regelmäßiges Einkommen eingeordnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Regelmäßige Einnahmen und Ausgaben stehen getrennt vom Vermögensbestand. Das Begleitschreiben benennt die noch beizufügenden Belege und gibt eine Versicherung nicht als bereits persönlich abgegeben aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "vermoegensverzeichnis-start"
+    },
+    {
+      "id": "altkonto-umbuchung-bargeld",
+      "target_skill": "unterlagen-auswerten-abrechnung-anschreiben",
+      "request": "Ich übernehme heute die Vermögenssorge. Bereiten Sie vorläufig nur diese Angaben als Einnahmen-Ausgaben- und Bestandsübersicht auf; Originalbelege sind hier nicht angehängt. Die Vorperiode zeigt: Giro Anfang 1000 EUR, Spar Anfang 2000 EUR; Rente auf Giro 1000 EUR; Übertrag Giro an eigenes Spar 500 EUR, dort ebenfalls gebucht; Giro Barabhebung 200 EUR, Verwendung unbekannt; Giro Streaming 12 EUR, ausdrücklich gewünscht. Giro Ende 1288 EUR, Spar Ende 2500 EUR. Eine unbezahlte Helferrechnung über 300 EUR liegt zusätzlich vor. Bezeichnen Sie die Rechnung nicht als Bankzahlung. Erklären Sie mir, was die Zahlen beweisen und was vor Maßnahmen fehlt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Giro 1288 EUR und Spar 2500 EUR werden je Konto abgestimmt. Gesamtbestand 3788 EUR und Zuwachs 788 EUR. Der interne Transfer wird konsolidiert nicht als Einkommen oder Aufwand doppelt gezählt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Externe Bankzuflüsse 1000 EUR und Bankabflüsse 212 EUR werden vom belegten Verbrauch getrennt. Die Verwendung der 200 EUR Bargeld bleibt offen; keine automatische Ausgaben- oder Missbrauchsfeststellung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "300 EUR Rechnung stehen als ungeklärte oder offene Forderung gesondert und verändern den belegten Bankendsaldo nicht. Streaming wird nicht gegen den ausdrücklichen Wunsch gekündigt. Keine Originalbelege als selbst gelesen behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig gelesen und veraltete Normzuordnungen sowie ungeprüfte Entscheidungslisten bereinigt. Eignung, Betreuungshandlung und gerichtliche Genehmigung werden fallbezogen zugeordnet. Redaktioneller Desk-Review, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Gezielte Ergänzung 01.10.2026; Umfang und Quellenstatus im Breitenbericht.",
+    "changes": [
+      "Aktuelle Betreuungsvorschriften für Wunsch, Auswahl, Vermögensverzeichnis, Rechnung und Genehmigungen präzisiert.",
+      "Familienkonflikt verlangt konkrete Eignungsfeststellungen und Prüfung von Hilfen; BVerfG-Gründe mit Grenze des Altrechts eingebaut.",
+      "Unverifizierte BGH-Aktenzeichen entfernt; detaillierte Alltags- und Berichtswege beibehalten.",
+      "Wohnungsanzeige und Genehmigung, Beschlussumfang, Interessenkonflikt, Kontenabgleich und wiedererlangte Selbstbesorgung vertieft.",
+      "Rückkehrwunsch ändert Wohnungsentscheidung; früher Erbanfall verändert Stichtagsvermögen statt bloßer Zahlungstagszuordnung.",
+      "Gezielter Rechtsprechungsabgleich 01.10.2026: 2026: Anhörungsteilnahme und Beschwerdeumfang.",
+      "Ergänzung 08.10.2026: Altbeleg-Auswertung mit Kontenabstimmung, Belegfundstellen und Anschreiben; übrige historische Prüfungen wurden nicht erneut vollständig durchgeführt."
+    ],
+    "sha256": "efe7e08e40c533e10d37dd2f56d03268eb77a8a86e9e59b7bb9a88557335126e",
+    "reviewed_on": "2026-09-22",
+    "method": "desk_review"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Wohnungsentscheidung, Vermögensverzeichnis oder Gerichtsbericht.",
+      "Dateien: still lesen und passendes Betreuungsdokument anbieten.",
+      "Klar: direkt bestelltes Schreiben oder Verzeichnis erstellen."
+    ],
+    "continuation": "Rückkehrwunsch ändert Wohnungsentscheidung; früher Erbanfall verändert Stichtagsvermögen statt bloßer Zahlungstagszuordnung.",
+    "enrichment": "Wohnungsanzeige und Genehmigung, Beschlussumfang, Interessenkonflikt, Kontenabgleich und wiedererlangte Selbstbesorgung vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "betreuungsrecht/betreuungsrecht-schnellstart.md",
+      "betreuungsrecht/betreuungsrecht-werkstatt.md"
+    ],
+    "opening_change": "Betreuungsbedarf, Aufgabenbereich, Wunsch und Vermögensführung statt allgemeiner Ergebnisbestellung; keine erneute Erhebung bekannter Angaben.",
+    "norms": [
+      "Paragrafen 1814, 1816, 1817, 1821, 1835, 1863, 1865 und 1868 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 31.03.2021, 1 BvR 413/20, Randnummern 20, 23, 34 bis 35",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rk20210331_1bvr041320.html",
+        "application": "Bei Ablehnung oder Entlassung eines gewünschten Angehörigen konkrete Eignung, familiäre Bindung und unterstützende Alternativen prüfen.",
+        "limit": "Kein absoluter Angehörigenvorrang; Entscheidung zu altem Betreuungsrecht, Übertragung nur mit aktuellen Paragrafen 1816, 1817 und 1868 BGB.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Beschluss vom 29.07.2026, XII ZB 171/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2026/XII_ZB_171-26.pdf?__blob=publicationFile&v=1",
+        "application": "Beschränkten Beschwerdegegenstand und fortbestehende Beteiligung des bestellten Verfahrenspflegers prüfen; anwaltliche Vertretung beendet Bestellung nicht automatisch.",
+        "limit": "Zurückverweisung zur Betreuerauswahl, keine automatische Aufhebung der gesamten Betreuung.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_volltextpassagen",
+        "passages_read": "Alle 7 PDF-Seiten einschließlich Rn. 1–12; tragend Rn. 5–11.",
+        "evidence_sha256": "baa9e51e8c323ddd6e0cdf8817cf78240a83ad687055c1e98536c72a551dafd7"
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Primärquellenprüfung, kein Live-Modell- oder Mandantentest.",
+      "Keine vollständige Prüfung sämtlicher Vergütungs-, Genehmigungs- und landesrechtlicher Unterbringungsfragen; Paragraf 1832 BGB erfordert besondere Aktualitätsprüfung.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 29.07.2026, XII ZB 171/26",
+        "status": "frisch_volltextpassagen"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "unterlagen_review": {
+    "date": "2026-10-08",
+    "scope": "Neuer Unterlagen-Auswerter und eigenständige Unterlagen-Werkstatt; gezielte Routing- und Normkorrekturen. Keine Vollprüfung sämtlicher bestehender Spezialskills.",
+    "report": "quality/betreuungsrecht/README.md",
+    "source_report": "quality/betreuungsrecht/unterlagen-quellen-2026-10-08.md",
+    "skill_sha256": "bc2c28e060126f866dc7fc71d557204e0d3245a45c06a741692bca7110b72317",
+    "prompt_sha256": "214497c725e03cba2a1e92d1fda72a6d147c8b8ce0c8692de6ef5f9eb1e3ff19",
+    "editorial_update": {
+      "date": "2026-10-08",
+      "version": "445.33.3",
+      "scope": "Reine Namensumstellung auf Adelheid Pfister einschließlich Familie und Aktenpfaden. Keine erneute juristische Quellenprüfung oder unabhängige Anwendungsprobe; Zahlen, Sachverhalt und Methodik unverändert."
+    }
+  }
+}

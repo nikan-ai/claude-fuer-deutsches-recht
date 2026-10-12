@@ -1,6 +1,6 @@
 ---
 name: 16-sicherungsverfahren-und-massregeln
-description: "Wenn es um 16 Sicherungsverfahren und Maßregeln in Staatsanwaltschaft und Amtsanwaltschaft geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für 16 Sicherungsverfahren und Maßregeln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 16 Sicherungsverfahren und Maßregeln
@@ -41,10 +41,9 @@ Strukturierter Arbeitsstand: Pruefungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Normen & Rechtsprechung
 
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigungen und verfahrensbeendende Absprachen brauchen Transparenz, Belehrung und Protokollierung.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Heimliche Zugriffe auf informationstechnische Systeme berühren das Grundrecht auf Gewährleistung der Vertraulichkeit und Integrität informationstechnischer Systeme.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: Übermittelte EncroChat-Daten verlangen eine unionsrechtlich tragfähige Rechtshilfe- und Verwertbarkeitsprüfung.
-- EuGH, Urteil vom 05.12.2023 - C-807/21, Deutsche Wohnen: Unternehmensgeldbußen nach Datenschutzrecht setzen unionsrechtlich geprägte Zurechnung und Verschulden voraus.
+- StPO Paragrafen 413 bis 416 und StGB Paragrafen 20, 21, 63 bis 67: Sicherungsverfahren, Schuldunfähigkeit und Maßregeln.
+- Anlasstat, Zustand, Gefährlichkeitsprognose, Kausalzusammenhang, Verhältnismäßigkeit und Subsidiarität mit getrennten Beweisthemen prüfen.
+- Diagnose ersetzt weder funktionelle Auswirkungen noch Gefährlichkeitsprognose; Sachverständigengutachten und richterliche Würdigung bleiben getrennt.
 
 ## Prüf- und Arbeitslogik
 

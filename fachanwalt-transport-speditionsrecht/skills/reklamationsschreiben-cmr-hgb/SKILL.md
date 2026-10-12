@@ -1,6 +1,6 @@
 ---
 name: reklamationsschreiben-cmr-hgb
-description: "Wenn es um Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Reklamationsschreiben für Ladungsschäden nach HGB oder CMR verfassen: Fristen beachten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten
@@ -64,9 +64,6 @@ Das Reklamationsschreiben ist im Transport- und Speditionsrecht die entscheidend
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -216,7 +213,6 @@ Warenwert: EUR 75.000 (Handelsrechnung, Anlage K1)
 
 Differenz zu regulärer Haftung: EUR 65.583
 → Nachweis qualifiziertes Verschulden Art. 29 CMR
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ```
 
 --- vor Versand klären ---
@@ -233,7 +229,6 @@ Differenz zu regulärer Haftung: EUR 65.583
 | Übernahme in ordnungsgemäßem Zustand | Absender/Empfänger; erleichtert durch Frachtbrief ohne Vorbehalt seitens Frachtführer |
 | Schaden zwischen Übernahme und Ablieferung | Anspruchsteller; durch Frachtbrief mit Vorbehalt und Fotos |
 | Haftungsausschluss CMR Art. 17 Abs. 2/4 | Frachtführer |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Wertdeklaration (erhöhte Haftung) | Absender: Nachweis des Eintrags im Frachtbrief; fehlender Eintrag geht zu seinen Lasten |
 
 ---
@@ -247,7 +242,7 @@ Differenz zu regulärer Haftung: EUR 65.583
 | 21 Tage nach Ablieferung | Lieferfristüberschreitung (Verspätung) | CMR Art. 30 Abs. 3, § 438 Abs. 4 HGB |
 | 1 Jahr ab Ablieferung | Verjährungsfrist (regulär) | CMR Art. 32, § 439 HGB |
 | 3 Jahre | Verlängerte Verjährung bei Vorsatz oder gleichstehendem Verschulden | CMR Art. 32 Abs. 1 S. 2 |
-| Ab schriftlicher Reklamation | Hemmung der Verjährung bis schriftliche Ablehnung | CMR Art. 32 Abs. 2, § 439 Abs. 3 HGB |
+| Ab qualifizierter Anspruchserhebung | HGB: Anspruchserhebung und Ablehnung in Textform; gleiche erneute Erklärung hemmt nicht nochmals. CMR: schriftliche Reklamation und eigene Voraussetzungen nach Art. 32 Abs. 2 separat prüfen | § 439 Abs. 3 HGB; CMR Art. 32 Abs. 2 |
 
 ---
 
@@ -255,9 +250,7 @@ Differenz zu regulärer Haftung: EUR 65.583
 
 | Gegenargument | Erwiderung |
 |---|---|
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 | "Schaden entstand nicht während Transport" | Frachtbrief ohne Beanstandungen seitens Frachtführer bei Übernahme begründet Vermutung ordnungsgemäßer Übergabe; Frachtführer muss gegenteiligen Beweis führen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Reklamationsfrist verpasst; Anspruch erloschen" | § 438 HGB / Art. 30 CMR begründen nur Beweiserleichterung zugunsten des Frachtführers, kein materieller Anspruchsverlust; Anspruch bleibt bestehen, aber schwerer zu beweisen |
 | "Cargo-Versicherung hat bereits gezahlt; kein Schaden mehr" | Subrogation nach § 86 VVG; Versicherung tritt in Anspruch des Versicherungsnehmers ein; eigene Regulierung des Frachtführers gegenüber Versicherer möglich |
 
@@ -299,3 +292,5 @@ Differenz zu regulärer Haftung: EUR 65.583
 ## Quellen
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

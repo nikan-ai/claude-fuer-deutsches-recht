@@ -1,68 +1,45 @@
-Wenn du das hier öffnest, willst du einen Verwaltungsakt anfechten und vorläufigen Rechtsschutz erreichen.
+# 1 KI-Vertrag gegen den Mandatsdatenweg prüfen
 
-# Berufsrecht Ki Vertragsprüfung — Schnellstart
+Lies Vertrag und Mandatsdatenweg zuerst. Ohne Auftrag Zweckbindung, Support oder Pilotfreigabe klären; sonst Klausel oder Einsatzvotum ausarbeiten. Nur entscheidende Lücken fragen und Antworten im Entwurf einarbeiten. No-Training klärt keine eigene Qualitätsnutzung.
 
-Ziel: Berufsrechtliche und strafrechtliche Vorprüfung von Verträgen mit Legal-Tech-Anbietern: Paragraf 43e BRAO, Paragraf 203 StGB, Consumer-Tool-Abgrenzung, No-Training, Telemetrie, Drittstaat, Regulierungsrahmen-Rollen, Art.-50-Transparenz, Schatten-Systeme und Klauselvorschläge. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1 Tatsächliche Nutzung und Berufsrolle
 
-## 1. Schnellmodus
+Trenne Berufsrollen auch innerhalb derselben Kanzlei. Ordne Eingabe, Upload, Modellverarbeitung, Suchindex, Protokolle, Support, Export und Löschung jeweils Zweck, Beteiligtem, Zugriffsort und Dauer zu. Unterscheide belegte Eigenschaft, Vertragszusage, Option und offene Frage.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Für anwaltliche Dienstleister ist [Paragraf 43e BRAO](https://www.gesetze-im-internet.de/brao/__43e.html) konkret zu prüfen: erforderlicher Geheimniszugang, sorgfältige Auswahl, Bindung in Textform einschließlich Verschwiegenheit und weiterer eingesetzter Personen sowie Schutz bei Auslandsleistungen. Bei unmittelbar einem einzelnen Mandat dienenden Leistungen ist die Einwilligungsfrage gesondert zu bearbeiten. Datenschutz bleibt eigenständig; ein Auftragsverarbeitungsvertrag allein ersetzt die berufsrechtliche Prüfung nicht. Für andere Berufsrollen die entsprechende aktuelle amtliche Norm heranziehen, nicht die anwaltliche Regel einfach umbenennen.
 
-## 2. Direktstart
+## 1.2 No-Training ist keine vollständige Zweckbindung
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Lege die Verkaufszusage neben den Wortlaut zu Produktverbesserung, Qualitätsprüfung, Missbrauchserkennung, Fehleranalyse und Nutzungsstatistik. Prüfe, ob Inputs, Outputs, Anhänge, Metadaten und daraus abgeleitete Daten jeweils erfasst sind. Eine Aussage zum Modelltraining beantwortet nicht automatisch, ob Menschen Mandatsinhalte für Support oder Qualitätsdatenbanken lesen dürfen.
 
-## 3. Kernroute
+Begrenze die Klausel auf den beauftragten Dienst; schließe allgemeines Training und Produktverbesserung mit Mandatsinhalten aus, soweit der geprüfte Einsatz dies verlangt. Trenne technische Betriebsdaten von Inhaltsprotokollen und regle Inhalt, Zweck, Dauer und Zugriff. Entfernte Namen belegen keine Anonymität.
 
-1. Verwaltungshandeln: Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen.
-2. Zulässigkeit: Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen.
-3. Materielle Rechtmäßigkeit: Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen.
-4. Eilrechtsschutz: aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren.
-5. Arbeitsprodukt: Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen.
-6. Berufsrecht System-Vertragsprüfung — Allgemein: Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen.
+## 1.3 Zugriff, Lieferkette und Ende regeln
 
-## 4. Fallkarte
+Eine EU-Speicherregion beantwortet nicht den Standort eines Supportzugriffs. Ermittle, welche Personen wann produktive Inhalte einsehen dürfen, wie ein Zugriff freigegeben und protokolliert wird und ob eine begrenzte Fehlerprobe genügt. Trenne reguläre Supportwege von dokumentierten Notfallzugriffen. Formuliere erforderliche Ausnahmen eng, nicht als unbegrenztes Recht zur Einsichtnahme.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | VwVfG Paragraf 35; VwVfG Paragraf 28; VwVfG Paragraf 40 |
-| Rechtsprechung | BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82; BVerwG, Urteil vom 27.09.1978 - 7 C 79.76 |
-| Tatbestand | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen |
-| Beweislast | Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit |
-| Rechtsfolge | Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Prüfe Vertragspartner und Unterauftragnehmer bis zum Modell- und Protokollbetrieb: Geheimhaltung, Änderungsmitteilung, Reaktion auf ungeeigneten Wechsel und Umsetzungsnachweis. Regle Speicherfristen je Datenart, Exportformat, produktive Löschung, Sicherungen und Löschbestätigung. Keine unmögliche Sofortlöschung unveränderlicher Sicherungen versprechen.
 
-## 5. Einsatzfelder
+Für Drittlandtransfers über Artikel 46 Absatz 2 Buchstabe c Datenschutz-Grundverordnung gilt EuGH, Urteil vom 16. Juli 2020, C-311/18, Randnummern 125–135 ([amtlicher Text](https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62018CJ0311)): Standardklauseln binden fremde Behörden nicht. Prüfe Empfängerrecht und ergänzende Maßnahmen; ohne ausreichenden Schutz muss der Transfer ausgesetzt oder beendet werden. Daraus folgen konkrete Zugriffsfragen und eine Aussetzungsklausel, kein generelles Cloud-Verbot. Aktuelle Angemessenheitsbeschlüsse nach Artikel 45 und Paragraf 43e Absatz 4 BRAO bleiben eigenständig zu prüfen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Berufsrecht System-Vertragsprüfung — Allgemein | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen- und Risikoampel | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vertragsprüfung: Fristennotiz und nächster Schritt | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klauseln: Beweislast, Darlegungslast und Substantiierung | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klauselvorschläge — Bausteine | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Strafrechtliche Tatbestand Beweis und Belege | Tatkomplex, Norm, Beweismittel, Einlassung, Verwertbarkeit, Frist und Rechtsfolge zeilenweise prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.4 Vertragsfassung und Entscheidung liefern
 
-## 6. Anker
+Liefere bei Klauselauftrag vollständige Ersatzfassung mit Ausgangsklausel und Begründung, bei Gutachten die Einsatzbewertung. Trenne Einsatzgrenze, verhandelbares Risiko und Komfortwunsch. Stelle nur die ungesicherte Nutzung zurück; Tests mit öffentlichen Daten nur im erlaubten Umfang.
 
-- VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
-- VwVfG Paragraf 28: Anhörung Beteiligter.
-- VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
-- VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
-- Paragraf 203 StGB — Strafvorschrift zum Schutz von Privatgeheimnissen; erfasst Berufsgeheimnisraeger wie Anwälte, Ärzte und Steuerberater: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 43e BRAO — Rechtsanwalt: Inanspruchnahme von Dienstleistern: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 39c PAO — Patentanwalt: Inanspruchnahme von Dienstleistern: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 26a BNotO — Notar: Inanspruchnahme von Dienstleistern: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82: effektiver Rechtsschutz verlangt eine tatsächlich wirksame gerichtliche Kontrolle.
-- BVerwG, Urteil vom 27.09.1978 - 7 C 79.76: Ermessensentscheidungen müssen Zweck, Grenzen und Abwägung erkennen lassen.
+Offenen Zweck, Zugriffsort oder Löschweg gezielt nachfordern, Antwort gegen Vertrag prüfen und Endfassung abschließen.
 
-## 7. Antwortform
+Bei Agenten auch Suchdienst, Postfach, Gedächtnis und Unteraufträge prüfen. Ein Modellhersteller ohne Datenzugang ist nicht automatisch Unterauftragnehmer. Neue Werkzeugempfänger sind nicht allein durch die Hauptanbieterfreigabe genehmigt. Paragraf 43e BRAO, Paragraf 203 StGB und Artikel 28 DSGVO getrennt prüfen; erlaubte Empfänger technisch begrenzen. Antwortfilter sind keine automatische Löschung. Ungeklärten Datenweg sperren, Vertragsarbeit fortsetzen.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Berufsrecht System-Vertragsprüfung — Allgemein, Fristen- und Risikoampel, Vertragsprüfung: Fristennotiz und nächster Schritt, Klauseln: Beweislast, Darlegungslast und Substantiierung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+## 1.5 Rechtsstand in Anbieterpflichten übersetzen
 
-## 8. Stop
+Stand 14. September 2026: [Verordnung (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de) ist geltendes Änderungsrecht, kein bloßer Vorschlag. Fordere für Artikel 4 einsatzbezogene Einweisung und Unterstützungsunterlagen statt einer Garantie individueller Kompetenz. Artikel 4a betrifft sensible Daten zur Verzerrungskorrektur, nicht Deepfakes: Absatz und Akteursrolle, Unerlässlichkeit, fehlende gleich wirksame Alternativen, Zweckbeschränkung, Sicherheit, dokumentierte Zugriffe, Weitergabeverbot, früheste Löschung und Verzeichnisbegründung prüfen; Absatz 2 enthält zusätzliche Gefahren- beziehungsweise Diskriminierungsvoraussetzungen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Vertragsvorschlag: „Eine Nutzung von Mandatsdaten zur Verzerrungskorrektur ist nicht von einer allgemeinen Verbesserungsklausel umfasst. Vor einem solchen Einsatz legt der Anbieter Rechtsgrundlage, Datenumfang, Alternativenprüfung, Schutzmaßnahmen und Löschzeitpunkt zur gesonderten Prüfung vor. Berufsgeheimnis und Datenschutz bleiben unberührt.“ Daraus keine Freigabe allein durch Zustimmung der Kanzlei ableiten.
+
+Fristenklausel an den belegten Hochrisikopfad knüpfen: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 gilt für Artikel 6 Absatz 2/Anhang III ab 2. Dezember 2027, für Artikel 6 Absatz 1/Anhang I ab 2. August 2028. Produktsonderregime und Bestandsschutz gesondert prüfen. Formuliere: „Der Anbieter dokumentiert die einschlägige Einordnung und liefert erforderliche Nachweise vor dem jeweils maßgeblichen Einsatztermin; Änderungen meldet er unverzüglich.“ Keine pauschale Verschiebung aller Pflichten vereinbaren.
+
+Nach [Paragraf 2 KI-MIG](https://www.gesetze-im-internet.de/ki-mig/__2.html) ist die Bundesnetzagentur Auffangbehörde. Produktmarktüberwachung, direkte regulierte Finanztätigkeit, bestimmte Justiz- und Sicherheitsanwendungen, Landesstellen und Mediennutzung können andere Zuständigkeiten auslösen. Fordere eine begründete Zuständigkeitszuordnung und Unterstützung bei rechtmäßigen Aufsichtsanfragen; weder eine Ausschließlichkeitszusage zur Bundesnetzagentur noch freien Zugriff auf Mandatsakten akzeptieren.
+
+Ein Datenschutz-Reformvorschlag ist keine Trainingsbefugnis. Urteile nur für ihren überprüften Streitgegenstand verwenden.
+
+Weitere Skills und Referenzen sind optional. Quellenstatus und Recherchegrenzen in einer Arbeitsnotiz führen, nicht im Mandantenbrief. Ohne technischen Zugriff keine Konfiguration als getestet bezeichnen; ohne Export den vollständigen Text liefern. Anbieterkommunikation, Vertragsannahme und Datenübertragung nur nach ausdrücklicher Freigabe. Vollständige Sätze, dezimale Gliederung; Exportstandard Times New Roman 11 pt.

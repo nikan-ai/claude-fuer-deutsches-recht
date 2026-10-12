@@ -1,6 +1,6 @@
 ---
 name: richtlinien-skelett-update-schatten
-description: "Wenn es um Richtlinien-Skelett erzeugen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Richtlinien-Skelett erzeugen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Richtlinien-Skelett erzeugen
@@ -64,7 +64,7 @@ Verantwortlich: [Name Geschäftsführung/Partnerkreis]
  7.2 Compliance-Regelsatz
  7.3 Organisatorische Maßnahmen
 8. Exkurs: Rechtsberatung und RDG
-9. KI-Kompetenz als Pflicht (Art. 4 KI-VO)
+9. Kompetenzmaßnahmen nach Artikel 4 KI-Verordnung und rollenbezogene Einweisung
 10. Exkurs: KI-Verordnung (KI-VO)
 11. Ausblick und Fazit
 12. Disclaimer
@@ -88,11 +88,8 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 Das Skelett ist bei wesentlichen Rechtsänderungen (neue KI-VO-Durchführungsrechtsakte, neue BRAK-Hinweise, neue BAG- oder OLG-Entscheidungen) anzupassen. Der Skill `richtlinien-update-zyklus` legt das Prüfintervall fest.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
-- Art. 4 KI-VO — KI-Kompetenzverpflichtung als Richtlinien-Anforderung
+- Artikel 4 KI-Verordnung: angemessene Fördermaßnahmen als Teil der Organisation, kein gesetzlich festgelegtes Richtlinienformat. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Art. 26/29 KI-VO — Betreiberpflichten in Richtlinie operationalisieren
 - Art. 22 DSGVO — Automatisierte Entscheidungen
 - § 43a Abs. 2 BRAO — Verschwiegenheits-Abschnitt
@@ -134,7 +131,7 @@ IV. QUALITAETSSICHERUNG
  § 12 Dokumentationspflichten
 
 V. SCHULUNG UND KOMPETENZ
- § 13 KI-Schulungspflicht (Art. 4 KI-VO)
+ § 13 Maßnahmen zur Kompetenzförderung und interne Nachweise (Artikel 4 KI-Verordnung)
  § 14 Fortbildungspflicht Fachanwaelte
 
 VI. GOVERNANCE UND VERANTWORTUNG
@@ -154,3 +151,5 @@ Genehmigt von: [UNTERSCHRIFT], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

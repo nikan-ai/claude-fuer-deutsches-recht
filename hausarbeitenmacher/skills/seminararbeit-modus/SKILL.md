@@ -1,6 +1,6 @@
 ---
 name: seminararbeit-modus
-description: "Wenn es um Seminararbeit-Modus in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Seminararbeit-Modus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Seminararbeit-Modus
@@ -18,9 +18,6 @@ description: "Wenn es um Seminararbeit-Modus in hausarbeitenmacher — Didaktisc
 2. Welchen wissenschaftlichen Standpunkt oder welche These soll die Arbeit entwickeln?
 3. Gibt es Pflicht-Literaturquellen, die vom Lehrstuhl vorgegeben wurden?
 4. In welchem Format soll der Vortrag erfolgen und wie viel Zeit steht für Disputation zur Verfügung?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 5 Abs. 3 GG — Wissenschaftsfreiheit als Grundlage der Seminararbeit
@@ -238,3 +235,5 @@ Die Lehrkraft wird Deinen Vortrag und Deine Arbeit hören — und manche werden 
 - `meinungsstreit-darstellen` — Streit-Darstellung wissenschaftlich
 - `methodenlehre-auslegung` — Methodische Grundlagen
 - `rechtstheorie-rechtsphilosophie-anbindung` — Wissenschaftliche Tiefe
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

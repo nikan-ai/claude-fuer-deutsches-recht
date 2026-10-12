@@ -1,6 +1,6 @@
 ---
 name: pflegt-erstpruefung-und-mandatsziel
-description: "Wenn es um Pflegt: Erstprüfung, Rollenklärung und Mandatsziel in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Pflegt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Pflegt: Erstprüfung, Rollenklärung und Mandatsziel
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Normenanker
 
@@ -73,4 +71,4 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 6. **Ziel:** Vollständige Erstrichtlinie? Nachbesserung? Tool-Einzelfreigabe? Schulungsprogramm?
 
 ## Trade-off
-Eine sehr lange, vollständige Richtlinie ist schwer durchsetzbar — sie wird nicht gelesen. Eine sehr kurze Richtlinie verfehlt regulatorische Anforderungen (Art. 4 KI-VO, DSGVO Verzeichnis Art. 30). Empfehlung: Zweischichtig — Langversion mit allen Details + One-Pager für den Arbeitsplatz. Schulung mit Quiz dokumentiert.
+Die Richtlinie muss am Arbeitsplatz nutzbar sein. Eine Langfassung mit zugänglichem One-Pager kann helfen; ihre Länge belegt keine Rechtskonformität. Artikel 4 schreibt weder ein bestimmtes Richtlinienformat noch ein Quiz vor. Passende Einweisung und Nacharbeit anhand der tatsächlichen Tätigkeit planen; Datenschutzdokumentation eigenständig führen.

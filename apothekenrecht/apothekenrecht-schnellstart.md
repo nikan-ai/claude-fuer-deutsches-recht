@@ -1,66 +1,35 @@
-Wenn du das hier öffnest, willst du einen Behandlungs-, Abrechnungs-, Krankenhaus-, Apotheken- oder Leistungsfall medizinrechtlich so ordnen, dass Gutachten, Frist und Anspruch sofort sichtbar werden.
+# 1. Apothekenfall am konkreten Vorgang bearbeiten
 
-# Apothekenrecht — Schnellstart
+Prüfe eine beanstandete Abgabe gegen Rezept und Abgabedokumentation, eine Retaxation gegen Abrechnung und Vertragsfassung oder eine Aufsichtsbeanstandung gegen die Betriebsnachweise. Formuliere daraus die verlangte Erwiderung, SOP oder Vertragskorrektur. Lies vorhandene Unterlagen zuerst und übernimm geklärte Angaben; frage nur nach dem betroffenen Vorgang und dem benötigten Dokument, soweit diese noch offen sind.
 
-Ziel: Super-Plugin für Apothekenrecht: Betriebserlaubnis, ApBetrO, Versand, E-Rezept, BtM, Retaxation, Aufsicht und Compliance. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 2. Prüfwege auseinanderhalten
 
-## 1. Schnellmodus
+Ohne Eingabe biete Retaxationserwiderung, Abgabe-SOP oder Aufsichtsantwort an. Dateien ohne Aufgabe still lesen und zwei oder drei passende Wege erfragen, noch keinen Gesamtbefund. Bei klarem Auftrag direkt schreiben; nur entscheidende Lücken fragen. „Nicht lieferbar“ führt zum damaligen Nachweis und zur positionsbezogenen Erwiderung, nicht zur pauschalen Abgabefreigabe. „Schulung nächste Woche“ bleibt in der Aufsichtsantwort geplant; erst der Durchführungsbeleg ändert sie in erledigte Abhilfe. Folgeantworten gezielt einarbeiten, bekannte Rezept- und Betriebsangaben übernehmen.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+2.1. Betriebsrecht: Betriebsstätte, Inhaber, Erlaubnisumfang, Filialleitung, Vertretung und beanstandete Tätigkeit aus den Belegen zuordnen. Eine neue Tätigkeit nicht allein wegen einer bestehenden Betriebserlaubnis freigeben. Für Heimversorgung, Versand oder Herstellung die konkreten zusätzlichen Voraussetzungen amtlich prüfen.
 
-## 2. Direktstart
+2.2. Arzneimittelabgabe: Produkt, Stärke, Menge, Verordner, Patient, Verordnungsdatum, Abgabezeitpunkt und Art der Verschreibung erfassen. Erkennbare Irrtümer, Unlesbarkeit und sonstige Bedenken nach [Paragraf 17 Absatz 5 ApBetrO](https://www.gesetze-im-internet.de/apobetro_1987/__17.html) vor Abgabe klären. Eine formell lesbare Verschreibung beseitigt nicht automatisch sachliche Bedenken. Änderungen und Rücksprache nachvollziehbar dokumentieren.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+2.3. Dringender Bedarf: [Paragraf 4 Absatz 1 AMVV](https://www.gesetze-im-internet.de/amvv/__4.html) setzt eine unaufschiebbare Anwendung und die Mitteilung der verschreibenden Person über Verschreibung und Inhalt voraus. Deren Identität sichern; die Verschreibung ist von ihr unverzüglich schriftlich oder elektronisch nachzureichen. Eine Patientenerklärung „Rezept vergessen“ ersetzt diesen Weg nicht. Weder eine allgemeine Sieben-Tage-Nachreichfrist noch eine pauschale Befugnis zur rezeptfreien Abgabe der kleinsten Packung daraus ableiten. Bei akutem Risiko eine ärztliche Klärung organisieren, keine Dosierungsentscheidung erfinden.
 
-## 3. Kernroute
+Bei fehlendem Rezept beachte BGH, Urteil vom 08.01.2015, I ZR 123/13, Leitsätze b und c ([amtliche Veröffentlichung](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2013/I_ZR_123-13.pdf?__blob=publicationFile&v=1)): Eine bloße ärztliche Gefälligkeitszustimmung ersetzt keine diagnostisch begründete Therapieentscheidung. Notstand setzt eine anders nicht abwendbare erhebliche akute Gesundheitsgefahr voraus. Prüfe spätere Sonderbefugnisse zum Abgabezeitpunkt gesondert; weder Rezeptvergessen noch diese Entscheidung begründen pauschal Abgaberecht oder Vergütungsanspruch.
 
-1. Falltyp: Behandlungsfehler, Aufklärung, Abrechnung, Zulassung, Leistungspflicht, Apotheke oder Krankenhausaufsicht bestimmen.
-2. Medizinischer Kern: Befund, Indikation, Standard, Leitlinie, Dokumentation, Kausalität und Schaden in eine Zeitachse bringen.
-3. Beweislast: grober Fehler, Befunderhebungsfehler, Aufklärung, hypothetische Einwilligung und Dokumentationslücke gesondert prüfen.
-4. Verfahren: Gutachten, MD/MDK, Schlichtungsstelle, Kasse, Behörde, Sozialgericht oder Zivilgericht richtig routen.
-5. Arbeitsprodukt: Gutachterfragen, Anspruchsschreiben, Klage, Widerspruch, Eilantrag, Abrechnungsprüfung oder Behördenantwort erstellen.
-6. Beschwerdemanagement Patient Kunden: Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen.
+2.4. Rezeptur und Qualität: Verordnung, Plausibilitätsprüfung nach Paragraf 7 ApBetrO, Ausgangsstoffbelege, Herstellungsanweisung, Protokoll und Freigabe auf denselben Vorgang beziehen. Charge, Menge und Zeitpunkt zusammenführen; fehlende Prüfung nicht aus einem vorhandenen Herstellungsprotokoll folgern. Bei Qualitätsverdacht betroffene Ware, ausgelieferte Mengen und vorhandene Risikobewertung trennen.
 
-## 4. Fallkarte
+2.5. Vergütung: Retaxationsgrund, konkrete Abgabe, Kostenträger, Abrechnungszeitraum und maßgebliche Vertragsfassung verbinden. Formmangel, Austauschentscheidung und Dokumentationslücke getrennt beurteilen. Aus zulässiger Abgabe folgt nicht ohne weitere Prüfung ein Vergütungsanspruch; aus Retaxation nicht automatisch ein Betriebsverstoß. Fristen aus dem einschlägigen Bescheid oder Vertragsverfahren prüfen, keinen Standardwiderspruch unterstellen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 630a bis Paragraf 630h; BGB Paragraf 280, Paragraf 823 und Paragraf 253; SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen |
-| Beweislast | Patient oder Versicherter für Befund, Schaden und Kausalität; Behandler oder Träger für Aufklärung, Dokumentation, Standard und Entlastung |
-| Rechtsfolge | Gutachterfragen, Anspruchsschreiben, Widerspruch, Eilantrag, Klage, Abrechnungsprüfung oder Behördenantwort |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+2.6. Aufsicht: Anhörung, verbindliche Verfügung und bloße Bitte um Unterlagen unterscheiden. Für jede Beanstandung Befund, vorhandenen Nachweis, bereits getroffene Maßnahme und offenen Schritt festhalten. Noch nicht ausgeführte Maßnahmen als geplant bezeichnen.
 
-## 5. Einsatzfelder
+Fehlt bei einer Retaxation der konkrete Abgabe- oder Störungsnachweis, frage danach und erläutere, welche Beanstandung davon abhängt. Nach Eingang korrigiere die betroffenen Beträge und Argumente und schreibe die beauftragte Erwiderung fertig. Fehlt bei einer Aufsichtsantwort der Umsetzungsnachweis, kläre, was tatsächlich erledigt wurde; überarbeite anschließend die Darstellung der Maßnahmen. Neue entscheidende Lücken erlauben weitere kurze Rückfragen. Unabhängige Teile bereits ausarbeiten und nach der Antwort fortsetzen, ohne die Aufnahme zu wiederholen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Beschwerdemanagement Patient Kunden | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Heimversorgung Versorgungsvertrag | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mietvertrag Apothekenstandort Konkurrenzschutz | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Substitution Rabattvertrag Aut-idem | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| AMTS Medikationsanalyse Beratungspflicht | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Apothekenbetrieb Dokumentenintake | Befund, Indikation, Standard, Aufklärung, Dokumentation, Beweislast, Gutachtenfrage und Verfahren zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 3. Konkrete Werkzeuge wählen
 
-## 6. Anker
+Optional vertiefen [Arzneimittelabgabe](skills/arzneimittelabgabe-verschreibungspflicht/SKILL.md), [Retaxationsabwehr](skills/retaxationsabwehr-nullretax/SKILL.md) und [Aufsichtsbeanstandung](skills/beanstandung-durch-aufsichtsbehoerde-anhoerung/SKILL.md) den Vorgang. Ohne diese Dateien mit den Prüfwegen oben arbeiten. Detailangaben zu Notfallabgabe, Fristen und Dokumentation nicht ungeprüft übernehmen; maßgeblich bleiben Sachverhalt und amtlich geprüfte Vorschriften.
 
-- BGB Paragraf 630a bis Paragraf 630h: Behandlungsvertrag, Aufklärung, Einwilligung, Dokumentation, Einsicht und Beweislast.
-- BGB Paragraf 280, Paragraf 823 und Paragraf 253: Schadensersatz, deliktische Haftung und Schmerzensgeld.
-- SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 und Paragraf 135: Krankenbehandlung, Krankenhaus, Vertragsarzt und Methodenbewertung.
-- SGB X Paragraf 20 und Paragraf 25: Amtsermittlung und Akteneinsicht im Sozialverwaltungsverfahren.
-- Paragraf 33 SGB XI: Pflegeheimbetreuung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 299a, 299b StGB: Antikorruption: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- StGB Paragrafen 299a, 299b: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 129 SGB V: Rahmenvertrag, Aut-idem-Substitution, Rabattvertragsregeln: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+## 4. Sicherheit und Ergebnis
 
-## 7. Antwortform
+Patientengefahr, Fälschungs- oder Qualitätsverdacht sperren die betroffene Abgabefreigabe, nicht die Erstellung eines Sicherungs- und Klärungsplans. Verantwortliche pharmazeutische Person, betroffene Ware, nächste Kontaktaufnahme und Nachweisbedarf konkret benennen. Keine eigenständige Therapieanweisung geben und keine erfolgte Behördenmeldung behaupten.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Gutachterfrage: War [Maßnahme] am [Datum] nach dem damaligen fachärztlichen Standard indiziert, durchgeführt und dokumentiert; Behandlungsfehlermatrix: Standard, Abweichung, Befund, Dokument, Kausalität, Schaden, Beweislast und Gutachtenfrage.
+Jede rechtliche Bewertung mit passender amtlicher Quelle belegen; die [Zitierweise](../references/zitierweise.md) ist optional. Normfassung und bei Entscheidungen Gericht, Entscheidungsform, Datum, Aktenzeichen und belegte Randnummer angeben. Produktinformationen, Vertragsfassungen und zeitabhängige Sonderregeln nur in tatsächlich geprüfter Fassung verwenden. Keine universelle Normenliste oder unbestimmte ständige Rechtsprechung als Beleg.
 
-## 8. Stop
-
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Endprodukt in vollständigen Sätzen mit dezimaler Gliederung und Leerzeilen liefern; Times New Roman 11 pt beziehungsweise Exporthinweis verwenden. Quellenstatus und technische Grenzen in einer gesonderten Arbeitsnotiz festhalten, nicht in den Brief an Mandant, Aufsicht oder Kostenträger kopieren. Inhaltlich offene Tatsachen im Entwurf kenntlich machen. Ohne Export den Text ausgeben, ohne Dateizugriff keine erfolgte Aktenprüfung behaupten. Gesundheitsdaten nicht ungefragt extern übertragen; externe Kontaktaufnahme und Versand nur nach Freigabe.

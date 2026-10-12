@@ -1,6 +1,6 @@
 ---
 name: ssnip-test-anwendung
-description: "Wenn es um SSNIP-Test — Anwendung in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für SSNIP-Test — Anwendung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # SSNIP-Test — Anwendung
@@ -34,7 +34,7 @@ EU-Kommission, Bekanntmachung zur Marktdefinition 2024, Rn. 14 ff.; Bekanntmachu
 ### 1. Ausgangspunkt bestimmen
 
 - Welches Produkt/welche Produktgruppe steht im Zentrum?
-- Welcher Preis gilt als Ausgangspreis? (CAVE: bei Kampfpreisen → Cellophane Fallacy)
+- Welcher Preis gilt als Ausgangspreis? (Cellophane-Fehlschluss bei bereits überhöhtem Preis prüfen)
 
 ### 2. Preiserhöhungsreaktion analysieren
 
@@ -63,7 +63,7 @@ Wenn Preiserhöhung nicht profitabel: Nächstes Substitut einbeziehen und Test w
 
 Leitfälle:
 - EuGH, Rs. 85/76 — *Hoffmann-La Roche*: Vitaminmärkte.
-- EuGH, Rs. 27/76 — *United Brands*: Ausgangspreis-Problematik bei Bananenmarkt.
+- EuGH, Urteil vom 14.02.1978, Rs. 27/76 – *United Brands*, Rn. 22–35: qualitative Nachfragesubstitution bei Bananen. Dieser geprüfte Abschnitt belegt keine SSNIP-Ausgangspreisregel; Wettbewerbspreis und beobachteten Preis anhand konkreter Marktbelege getrennt bestimmen.
 
 ### 5. Grenzen des SSNIP-Tests
 
@@ -73,9 +73,7 @@ Leitfälle:
 
 ## Leitentscheidungen SSNIP-Test
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - EK, Horizontal Merger Guidelines 2004, Rn. 18-21 — SSNIP-Test als primaere Methode; kritische Verlustanalyse; Cellophane Fallacy Einschraenkung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Dokumentation
 
@@ -87,3 +85,5 @@ Tatsächlicher Verlust (Schätzung): [%]
 Ergebnis: [Markt bestätigt / Markt zu eng / Cellophane-Fallacy-Risiko]
 Begründung: [...]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: selbstkontrolle-vor-abgabe
-description: "Wenn es um Selbst-Kontrolle vor Abgabe in hausarbeitenmacher — Didaktisches Plugin für juristische geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Selbst-Kontrolle vor Abgabe: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Selbst-Kontrolle vor Abgabe
@@ -18,9 +18,6 @@ description: "Wenn es um Selbst-Kontrolle vor Abgabe in hausarbeitenmacher — D
 2. Liegen bereits Hinweise auf Schwachstellen aus Tutoren-Feedback vor?
 3. Wurde die Arbeit nach einer Pause erneut gelesen (frische Perspektive)?
 4. Sind alle Formalia (Inhaltsverzeichnis, Literaturverzeichnis, Zitierweise, Seitenzahlen) geprueft?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 276 BGB — Verschulden: Maßstab für erforderliche Sorgfalt (Analogie: Hausarbeits-Endcheck)
@@ -258,6 +255,4 @@ Wenn nicht — überarbeite noch eine Stunde.
 - Abgabe — Du hast es geschafft.
 - Ggf. zurück zu einem früheren Skill, wenn Lücken erkannt.
 
-<!-- AUDIT 27.05.2026 — Bundle 033 —
- nicht "Formale Korrektheit als Bestandteil professioneller Leistung". Kein geeigneter Ersatz gefunden; Zeile gelöscht.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

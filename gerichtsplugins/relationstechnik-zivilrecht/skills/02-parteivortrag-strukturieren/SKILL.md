@@ -1,6 +1,6 @@
 ---
 name: 02-parteivortrag-strukturieren
-description: "Wenn es um 02 Parteivortrag Strukturieren in Relationstechnik Zivilrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 02 Parteivortrag Strukturieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 02 Parteivortrag Strukturieren
@@ -24,21 +24,19 @@ ZPO, BGB, HGB, Methodenlehre des Buergerlichen Rechts (Larenz, Wieacker)
 2. Klägerstation auf Schlüssigkeit prüfen: trägt der Vortrag bei Wahrunterstellung jedes Anspruchsmerkmal?
 3. Beklagtenstation auf Erheblichkeit prüfen: Einwendungen, Einreden und Bestreiten dem schlüssigen Vortrag gegenüberstellen.
 4. Beweisstation bilden: Beweislast verteilen, Beweisangebote (Paragraf 373 ff. ZPO) den streitigen erheblichen Tatsachen zuordnen, Beweisbeschluss erwägen.
-5. Tenor, Kostenfolge (Paragrafen 91 ff. ZPO) und vorläufige Vollstreckbarkeit aus dem Relationsergebnis ableiten.
-6. Tatbestand und Entscheidungsgründe (Paragraf 313 ZPO) revisionsfest absetzen.
+5. Nur bei entsprechendem Auftrag und tragfähigem Stand Tenor, Kostenfolge (Paragrafen 91 ff. ZPO) und vorläufige Vollstreckbarkeit aus dem Relationsergebnis ableiten.
+6. Tatbestand und Entscheidungsgründe (Paragraf 313 ZPO) nur bei bestelltem Entscheidungsentwurf ausformulieren; die Strukturierung des Parteivortrags verlangt kein ungefragtes Urteil.
 7. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
 8. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
 
 ## Output
 
-Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+Liefere den bestellten ausformulierten Abschnitt oder die ausdrücklich verlangte Streitstandstabelle mit genauen Aktenstellen. Der gewünschte Dateiname geht vor; technische Prüfnotizen getrennt halten. Bei formatierten Dokumenten Times New Roman 11 Punkt und dezimale Gliederung verwenden.
 
 ## Anker-Rechtsprechung
 
 - BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02, BVerfGE 107, 395: Rechtliches Gehör verlangt, dass entscheidungserheblicher Vortrag erkennbar zur Kenntnis genommen und erwogen wird.
-- BGH, Urteil vom 24.07.2018 - VI ZR 599/16, frei nachweisbar über dejure/openJur: Substantiierungsanforderungen dürfen nicht so überspannt werden, dass schlüssiger Tatsachenvortrag abgeschnitten wird.
-- BGH, Urteil vom 01.10.2019 - VI ZR 164/18, frei nachweisbar über dejure/openJur: Paragraf 286 ZPO verlangt persönliche Überzeugung mit praktisch brauchbarem Gewissheitsgrad, nicht mathematische Sicherheit.
-- BGH, Urteil vom 18.04.2013 - III ZR 156/12, NJW 2013, 2201: Nach Erledigung vor Rechtshängigkeit bleibt die materielle Kostenerstattungsklage neben Paragraf 269 Abs. 3 Satz 3 ZPO möglich.
+- BGH, Beschluss vom 24. Juli 2018, VI ZR 599/16: Geänderten, ergänzten oder berichtigten Parteivortrag nicht allein wegen des Widerspruchs zu ausdrücklich aufgegebenem früherem Vortrag unberücksichtigt lassen. Den Widerspruch in der Beweiswürdigung behandeln und den jeweils maßgeblichen Vortrag in der Streitstandstabelle kenntlich machen.
 
 ## Prüfungsschema in Stufen
 
@@ -46,7 +44,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 2. Aktenstücke chronologisch ordnen: Klage, Anlagen, Zustellnachweise, Verteidigungsanzeige, Schriftsatzfolge, gerichtliche Hinweise und Protokolle getrennt erfassen.
 3. Tatsachen nach unstreitig, bestritten, nicht hinreichend bestritten und beweisbedürftig markieren; bloße Rechtsansichten nicht als Tatsachen übernehmen.
 4. Aus dem Parteivortrag eine streitstandsgeeignete Arbeitstabelle mit Antrag, Anspruchsziel, Einwendung, Einrede, Beweismittel und Normbezug erstellen.
-5. Offene Punkte in richterliche Verfügungssprache übersetzen: Hinweis nach Paragraf 139 ZPO, Fristsetzung, Auflage oder Terminvorbereitung.
+5. Fehlende Anlagen oder Protokollseiten konkret nachfordern. Nach Eingang die betroffenen Behauptungen, Erklärungen und Beweisangebote aktualisieren; neue entscheidende Widersprüche gezielt klären, nicht die gesamte Aufnahme wiederholen.
+6. Soweit bestellt, offene Punkte in einen Hinweisentwurf nach Paragraf 139 ZPO, eine Auflage oder Terminvorbereitung umsetzen. Eine Nutzerantwort ersetzt keine gerichtliche Gehörsgewährung. Nach Ergänzung den bestellten Relationsabschnitt fertigstellen; keine Amtshandlung eigenmächtig ausführen.
 
 ## Typische Fallstricke
 
@@ -57,13 +56,13 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Tenor-Bausteine bzw. Beschluss-Bausteine
 
-### Baustein A
+### 1. Hinweisentwurf
 
 ```text
 Das Gericht weist darauf hin, dass es nach vorläufiger Würdigung auf [entscheidender Punkt] ankommen dürfte. Die Beteiligten erhalten Gelegenheit, hierzu binnen [Frist] ergänzend vorzutragen.
 ```
 
-### Baustein B
+### 2. Beweisbeschlussentwurf
 
 ```text
 Es soll Beweis erhoben werden über die Behauptung, dass [Beweisthema], durch Vernehmung des Zeugen [Name] beziehungsweise durch Einholung eines schriftlichen Sachverständigengutachtens zu [Gutachtenfrage].
@@ -91,8 +90,6 @@ Dieser Skill arbeitet in der Station **Relationsvorbereitung**. Er erzeugt kein 
 
 ## Zivilprozessuale Anker
 
-- BGH, Urteil vom 13.07.2004 - VI ZR 136/03: Freie Beweiswürdigung nach Paragraf 286 ZPO verlangt eine umfassende, widerspruchsfreie Würdigung des Prozessstoffs.
-- BGH, Urteil vom 18.04.2013 - III ZR 156/12: Materiell-rechtliche Kostenerstattungsansprüche können nach erledigtem Klageanlass eigenständig verfolgt werden; der prozessuale Kostenweg ist nicht immer gleichwertig.
 - Paragrafen 253, 256, 263, 264, 269, 286, 287, 296, 313 ZPO bilden den Pflichtstamm für Antrag, Feststellung, Klageänderung, Rücknahme, Beweiswürdigung, Schätzung, Präklusion und Urteilsaufbau.
 
 ## Skelett für den Relationsbaustein

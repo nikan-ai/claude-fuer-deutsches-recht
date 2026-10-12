@@ -1,7 +1,13 @@
 ---
 name: fachanwalt-handels-gesellschaftsrecht-holding-strukturplanung
-description: "Wenn es um Fachanwalt Handels Gesellschaftsrecht Holding Strukturplanung in Fachanwalt Handels- und Gesellschaftsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Fachanwalt Handels Gesellschaftsrecht Holding Strukturplanung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
+
+# Holding-Strukturen für Beteiligungen, Exit und Nachfolge vergleichen
+
+Lies zuerst Beteiligungsübersicht, Gesellschaftsverträge, Registerunterlagen, vorhandene Bewertungen und die dokumentierten Exit- oder Nachfolgeziele. Vergleiche darauf bezogen die geeigneten Strukturvarianten. Liefere eine ausformulierte Entscheidungsvorlage mit Ausgangs- und Zielstruktur, Umsetzungsschritten, Kostenannahmen und ausdrücklich offenen steuerlichen Prüfpunkten; Vertragsbausteine nur für die tatsächlich ausgewählte Gestaltung ausarbeiten.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -38,7 +44,6 @@ description: "Wenn es um Fachanwalt Handels Gesellschaftsrecht Holding Strukturp
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | OFD Frankfurt | S 2241 A – 11 – St 211 | 2019 | Praktische Anwendung § 8b KStG: Kettenausschüttung Tochter → Holding → Privat |
 
 ## Struktur-Varianten im Vergleich

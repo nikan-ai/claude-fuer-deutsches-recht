@@ -1,6 +1,6 @@
 ---
 name: bewaehrung-56-stgb-positive-sozialprognose
-description: "Wenn es um Strafaussetzung zur Bewaehrung — Paragraf 56 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafaussetzung zur Bewährung — Paragraf 56 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Strafaussetzung zur Bewaehrung — § 56 StGB
@@ -105,25 +105,3 @@ Wird Bewaehrung **versagt**, muss das Urteil im Strafzumessungsteil konkret darl
 - § 267 Abs. 3 Satz 4 StPO.
 - BGH-Linie zu "Verteidigung der Rechtsordnung" — Aktenzeichen in dejure.org/openjur.de verifizieren.
 - Quellenregel: vgl. `references/zitierweise.md`.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46 StGB
-- § 49 StGB
-- § 55 JGG
-- § 55 StGB
-- § 56 StGB
-- § 46a StGB
-- § 40 StGB
-- § 47 StGB
-- § 56f StGB
-- § 54 StGB
-- § 57 StGB
-- § 105 JGG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

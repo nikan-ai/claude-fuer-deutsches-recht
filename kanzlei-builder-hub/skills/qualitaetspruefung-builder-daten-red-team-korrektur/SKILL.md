@@ -1,6 +1,6 @@
 ---
 name: qualitaetspruefung-builder-daten-red-team-korrektur
-description: "Wenn es um Skills-QA in Kanzlei-Builder-Hub geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Skills-QA: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Skills-QA
@@ -29,14 +29,10 @@ Liegt nur die SKILL.md vor, einmal fragen: "Haben Sie die zugehörigen Befehle, 
 
 - **§ 43a BRAO i. V. m. § 1 BORA** — Sorgfalts- und Qualitätspflichten des Rechtsanwalts; KI-gestützte Werkzeuge müssen vor dem Einsatz auf korrekte Funktion und Plausibilität geprüft werden.
 - **§ 43a Abs. 2 BRAO, § 203 StGB** — Verschwiegenheitspflicht; ein nicht geprüfter Skill kann Mandatsdaten gefährden.
-- **Art. 26 AI Act** — Deployer-Pflichten bei Hochrisiko-KI-Systemen: Einrichtung von Qualitätssicherungsmaßnahmen, Risikoüberwachung und Dokumentation.
+- **Artikel 26 KI-Verordnung:** Zuerst einen erfassten Hochrisiko-Betrieb und zeitliche Anwendung begründen. Absatz 1 betrifft geeignete Maßnahmen zur Nutzung nach Betriebsanleitung, Absatz 2 die beauftragte menschliche Aufsicht, Absatz 5 Überwachung und gegebenenfalls Aussetzung/Information, Absatz 6 kontrollierte Logs. Kein allgemeines gesetzliches Installations- oder Deinstallationsprotokoll aus Artikel 26 erfinden. Interne Nachweise als Organisationsmaßnahme kennzeichnen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **§ 11 BRAO** — Pflicht zur Fortbildung; angemessene Kenntnis der eingesetzten KI-Werkzeuge ist Teil der beruflichen Sorgfalt.
 - **Art. 32 DSGVO** — Technisch-organisatorische Maßnahmen; Qualitätsprüfungen sind Teil des Datenschutz-Risikoschutzes.
 - **RDG** — Unerlaubte Rechtsdienstleistung; Skills, die eigenständig Rechtsdienstleistungen produzieren und dabei keine anwaltliche Überprüfung vorsehen, sind auf RDG-Konformität zu prüfen.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -182,6 +178,7 @@ Der heuristische Scan hat Belege für Datenexfiltration, Zugangsdatendiebstahl, 
 
 ---
 
+```text
 ## Skills-QA — [skill-name]
 Quelle: [Community-Registry / Erstanbieter]
 Bewertet: [Datum]
@@ -269,9 +266,11 @@ Bei der Ausführung dieses Skills sind folgende Quellen als anwendbares Recht zu
 - Art. 26 AI Act (Deployer-Pflichten)
 - Art. 32 DSGVO (technisch-organisatorische Maßnahmen)
 - RDG (Abgrenzung erlaubter KI-Rechtsdienstleistung)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Kleine-Cosack, in: Kleine-Cosack, BRAO, 9. Aufl. 2023, § 43a Rn. 45
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Legen Sie für jeden Baustein fest, welche Daten er lesen, verändern und versenden darf. Prüfen Sie die tatsächliche Funktion und die nach außen behauptete Leistung; ein Agentenetikett ersetzt keine Einordnung. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

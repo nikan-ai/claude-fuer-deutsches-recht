@@ -1,6 +1,6 @@
 ---
 name: verschaerfte-haftung-abgetretene-forderung
-description: "Wenn es um Verschärfte Haftung — Paragraf 819 BGB bei Bösgläubigkeit in bereicherungs-und-anfechtungsrecht-prüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. Auswahlstichwort: Verschaerfte Haftung Abgetretene Forderung; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer."
+description: "Für Verschärfte Haftung — Paragraf 819 BGB bei Bösgläubigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verschärfte Haftung — § 819 BGB bei Bösgläubigkeit
@@ -29,16 +29,6 @@ Verschärfte Bereicherungshaftung nach § 819 BGB bei Bösgläubigkeit oder Rech
 ## Zentrale Normen
 
 § 819 Abs. 1 BGB (Bösgläubigkeit: Kenntnis des Mangels) — § 819 Abs. 2 BGB (Gesetz-/Sittenverstoß) — § 818 Abs. 3 BGB (Entreicherungseinrede: ausgeschlossen) — § 818 Abs. 4 BGB (Rechtshängigkeit) — § 292 BGB (Haftung bei Pflicht zur Herausgabe) — §§ 987–993 BGB (EBV, entsprechend) — § 817 S. 1 BGB (verbotener Zweck beim Empfänger)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Tatbestand § 819 Abs. 1 BGB — Kenntnis des Mangels
 
@@ -108,3 +98,5 @@ Sachverhalt (kurz): [...]
 3. Sind Anschlusswege erwünscht? [Mediation / Direktgespräch / Settlement vor Klageerhebung]
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

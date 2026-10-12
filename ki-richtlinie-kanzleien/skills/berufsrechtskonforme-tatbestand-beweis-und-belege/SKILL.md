@@ -1,7 +1,13 @@
 ---
 name: berufsrechtskonforme-tatbestand-beweis-und-belege
-description: "Wenn es um Berufsrechtskonforme Tatbestand Beweis Und Belege in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Berufsrechtskonforme Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
+# Belegmatrix zur berufsrechtlichen Prüfung des KI-Einsatzes in der Kanzlei erstellen
+
+Lies zuerst KI-Inventar, Einsatzbeschreibungen, Verträge, Freigaben und vorhandene Schulungs- oder Vorfallnachweise. Ordne jedem konkreten Einsatz die vorhandenen Belege zu. Liefere eine Beweislast- und Substantiierungsmatrix mit Prüfpunkt, dokumentierter Tatsache, Fundstelle, Gegenbefund, entscheidender Nachweislücke und verantwortlichem nächsten Schritt. Trenne tatsächliche Dokumentation, rechtliche Bewertung und organisatorische Empfehlung.
+
+Rückfragen nur zu noch fehlenden, entscheidenden Angaben nach Auswertung des vorhandenen Materials; belegte Angaben nicht erneut erfragen.
+
 Eine KI-Nutzung in der Kanzlei ist berufsrechtskonform, wenn kumulativ erfüllt:
 - **Verschwiegenheit gewahrt** (§ 43a Abs. 2 BRAO, § 2 BORA): Mandantenbezogene Daten werden nicht an Dritte offenbart, soweit nicht durch Befreiung oder gesetzliche Pflicht gerechtfertigt.
 - **§ 43e BRAO erfüllt**: Dienstleister verpflichtet, Sorgfaltsauswahl belegt, Überwachung etabliert.
@@ -39,3 +45,4 @@ Eine KI-Nutzung in der Kanzlei ist berufsrechtskonform, wenn kumulativ erfüllt:
 
 ## Trade-off
 Lückenlose Belegführung kostet Aufwand und schafft Auditierbarkeit; im Streitfall (Anwaltskammer, Datenschutzaufsicht, Versicherung) entscheidet die Beleglage. Empfehlung: zentrale Ablage je Tool, automatische Erinnerungen für Reviews, jährliche Selbstauskunft des Anbieters.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

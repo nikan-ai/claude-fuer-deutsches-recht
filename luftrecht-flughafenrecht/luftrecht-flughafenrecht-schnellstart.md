@@ -1,71 +1,37 @@
-Wenn du das hier öffnest, willst du einen Verwaltungsakt anfechten und vorläufigen Rechtsschutz erreichen.
+# 1. Luftrechtliche Entscheidung aus der konkreten Akte
 
-# Luftrecht Flughafenrecht — Schnellstart
+Ohne Eingabe frage kurz: „Flugplatzänderung und Lärm, betriebliche Zulassung und Sicherheit oder Rechte am Luftfahrzeug?“ Bei Dateien ohne Aufgabe lies zunächst still und kläre nur das Ziel. Bei klarem Auftrag arbeite direkt am bestellten Ergebnis; keine fachübergreifende Startübersicht. Nur entscheidende Lücken nachfragen. Register, Portale und Dateibearbeitung nicht voraussetzen.
 
-Ziel: Luftrecht-Plugin für LuftVG, LuftSiG, LBA, Flughäfen, Airlines, Slots, Flugzeugpfandrechte, Beschlagnahme, Insolvenz, Drohnen und Aviation-Compliance. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Vergleiche genehmigten Flugplatzbetrieb und beantragte Änderung. Kläre, welche Zulassung benötigt wird, welche zusätzlichen Lärmauswirkungen belegt sind und welchen Schutz oder welche Betriebsregelung der vertretene Beteiligte verlangen kann. Verfasse daraus die bestellte Stellungnahme, Einwendung oder Beratung.
 
-## 1. Schnellmodus
+Lies Sachverhalt, Genehmigung, Planentscheidung, Auflagen und angegriffene Maßnahme vor jeder Rückfrage. Bestimme Objekt und Rolle aus den Unterlagen: Flugplatzträger, Luftfahrtunternehmen, Halter, Eigentümer oder betroffene Nachbarschaft. Ein Flugplatzverfahren benötigt nicht automatisch Pfandrechtsregister oder Leasingverträge; wähle nur entscheidungserhebliche Unterlagen.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Flugplatzänderung einordnen
 
-## 2. Direktstart
+Vergleiche genehmigten Bestand und beantragten Zustand getrennt nach baulicher Anlage, Betriebszeiten, Verkehrsarten und Flugbewegungen. [Paragraf 6 LuftVG](https://www.gesetze-im-internet.de/luftvg/__6.html) betrifft Anlage und Betrieb sowie wesentliche Änderungen. [Paragraf 8 LuftVG](https://www.gesetze-im-internet.de/luftvg/__8.html) regelt insbesondere Planfeststellung und die Behandlung betrieblicher Regelungen. Prüfe zuerst Flugplatzart und Änderungstyp; nicht jede Betriebsänderung ist ein neuer baulicher Ausbau.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Ordne Lärmprognose, Verkehrsprognose und Umweltunterlagen genau der Änderung zu. Vergleiche Prognoseannahmen mit beantragten Betriebszeiten und Flugzeugklassen. Stelle dar, welche Auswirkungen bereits untersucht und welche durch die Änderung neu oder stärker betroffen sind. Eigene Messungen nicht ohne Vergleich der Messmethode mit Prognosewerten gleichsetzen.
 
-## 3. Kernroute
+Bei mehreren Bescheiden prüfe, welche Betriebsauflage ersetzt wurde und welche fortgilt. Flugplan und tatsächliche Praxis belegen nicht allein den genehmigten Umfang. Berücksichtige gegenläufige Tatsachen: leisere Flugzeuge können die Prognose beeinflussen, während eine stärkere Häufung zur Nachtrandzeit gesondert zu untersuchen bleibt. Keine Argumente beibehalten, die eine neue Unterlage entkräftet.
 
-1. Verwaltungshandeln: Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen.
-2. Zulässigkeit: Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen.
-3. Materielle Rechtmäßigkeit: Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen.
-4. Eilrechtsschutz: aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren.
-5. Arbeitsprodukt: Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen.
-6. ACC3 – Dashboard bauen: Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen.
+Bei einer Verlängerung von 22 auf 23 Uhr ist Paragraf 29b Absatz 1 Satz 2 LuftVG schon für diese Nachtrandstunde zu beachten. BVerwG, Urteil vom 4. April 2012, 4 C 8.09, Rn. 372 bis 378, verlangt auch bei Ruhe in der Nachtkernzeit eine effektive Begrenzung tagähnlicher Belastungsspitzen in den Randstunden ([amtliche Gründe](https://www.bverwg.de/040412U4C8.09.0)). Fordere bei einer nur tagsüber tragfähigen Prognose daher Flugbedarf, zeitliche Verteilung und vorgesehene Begrenzung nach. Das Frankfurter Kontingent von 133 Bewegungen ist kein allgemeiner Grenzwert; das Urteil verbietet nicht jeden Nachtflug. Die aktuelle Gewichtung von Bau und Ausbau in Paragraf 6 Absatz 1 LuftVG hebt Lärmschutz und Umweltprüfung nicht auf.
 
-## 4. Fallkarte
+## 1.2. Rechtsschutz oder anderer Luftfahrtfall
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | VwVfG Paragraf 35; VwVfG Paragraf 28; VwVfG Paragraf 40 |
-| Rechtsprechung | BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82; BVerwG, Urteil vom 27.09.1978 - 7 C 79.76 |
-| Tatbestand | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen |
-| Beweislast | Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit |
-| Rechtsfolge | Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei Nachbaraufträgen identifiziere angegriffenen Bescheid, Bekanntgabe, eigene Betroffenheit und gewünschten Schutz. Rechtsbehelfs- und Eilfristen anhand des Bescheids und aktueller Sonderregeln bestimmen; weder aufschiebende Wirkung noch Präklusion pauschal behaupten. Fehlende Gutachten führen zu einer benannten Prüfungslücke, nicht automatisch zur Aufhebung.
 
-## 5. Einsatzfelder
+Paragraf 6 Absatz 6 LuftVG schließt in seinem Anwendungsfall die aufschiebende Wirkung des Drittwiderspruchs aus und verlangt Stellung und Begründung des Eilantrags binnen eines Monats nach Zustellung. Ohne Änderungsbescheid keine laufende Rechtsbehelfsfrist erfinden. Individuelle Klagebefugnis nach Paragraf 42 Absatz 2 VwGO und Verbandsrechte nach Paragrafen 1 und 2 UmwRG auseinanderhalten.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| ACC3 – Dashboard bauen | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| ACC3 – Genehmigung prüfen | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| ACC3 – Insolvenzrisiko markieren | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| ACC3 – Local Counsel briefen | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| ACC3 – Mandantenmemo schreiben | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| ACC3 – Pfändung planen | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Bei Slots, Airline-Zulassung, Luftsicherheit, Drohnen oder Sicherungsrechten eine eigene Route bilden. Kennzeichen, Registerstaat, Betreiber und Eigentümer nicht verwechseln. Die Betriebsgenehmigung einer Airline ersetzt keine Flugplatzgenehmigung. Insolvenzfolgen erst nach Schuldnerseite, Verfahren und Sicherungsposition prüfen; keine allgemeinen Dreiwochen-Zahlungsfreigaben erteilen.
 
-## 6. Anker
+## 1.3. Ergebnis
 
-- VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
-- VwVfG Paragraf 28: Anhörung Beteiligter.
-- VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
-- VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
-- InsO Paragrafen 15a 17-19 47 50: Insolvenzantragspflicht Gläubigerrechte: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- VwGO Paragrafen 68 74 80: Widerspruch Klage aufschiebende Wirkung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- 2. Einschlägige Normen identifizieren: InsO Paragrafen 15a 17-19 47 EU-VO 1008/2008 Art. 9 EU-DVO 2015/1998: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- InsO Paragrafen 15a 17-19 47 EU-VO 1008/2008 Art. 9 EU-DVO 2015/1998 – die einschlägigen Normen werden je nach Sachverhaltsebene (nationaler Betrieb EU-Recht internationales Recht): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82: effektiver Rechtsschutz verlangt eine tatsächlich wirksame gerichtliche Kontrolle.
-- BVerwG, Urteil vom 27.09.1978 - 7 C 79.76: Ermessensentscheidungen müssen Zweck, Grenzen und Abwägung erkennen lassen.
-- EuGH C-402/07 (Sturgeon, Ausgleichsleistung Verspätung)
-- EuGH C-432/20 (Annullierung außergewöhnliche Umstände)
-- BGH X ZR 138/11 (Fluggastrechte und Gerichtsstand)
+Fehlt die bisherige Betriebsregelung, fordere die Genehmigungsfassung einschließlich der betroffenen Auflagen an. Ist eine Lärmprognose nicht nachvollziehbar, frage gezielt nach Flugbewegungen, Flugzeugklassen oder dem fehlenden Prognoseanhang. Liefere bis dahin die belegten Teile; aus einer Materiallücke folgt weder die Rechtmäßigkeit noch die Rechtswidrigkeit des Vorhabens.
 
-## 7. Antwortform
+Nach Eingang gleiche Bestand und Änderung erneut ab und überarbeite die betroffene Einwendung oder Empfehlung. Zeigt der neue Anhang eine weitere entscheidende Unklarheit, frage hierzu nach, ohne bekannte Angaben erneut aufzunehmen. Arbeite bis zum fertig ausformulierten bestellten Dokument weiter, nicht ungefragt bis zur Klage; keine Einreichung oder Betriebsmaßnahme ohne Freigabe.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder ACC3 – Dashboard bauen, ACC3 – Genehmigung prüfen, ACC3 – Insolvenzrisiko markieren, ACC3 – Local Counsel briefen: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Erfasst der neue Anhang die Ankünfte nach 22 Uhr, aber mit falschem Flugzeugmix, ändere im vereinbarten Pfad, etwa `verfahren/einwendung.md`, die Rüge des fehlenden Zeitraums in die konkret verbliebene Prognoseabweichung. Ein nachgereichter Eigentumsbeleg verändert dagegen den zugehörigen `luftfahrzeug/herausgabevermerk.md`; Kennzeichen, Zelle und gegebenenfalls fremdes Triebwerk abgleichen. Ohne Dateizugriff liefere die aktualisierte vollständige Passage, ohne Speicherung zu behaupten.
 
-## 8. Stop
+Liefere den verlangten Vermerk, Einwendungstext oder die Antwort unter dem gewünschten Dateinamen mit den jeweils erforderlichen Belegen. Quellenstatus und Recherchelücken gesondert notieren, nicht in den Mandantenbrief schreiben. Optional `flughafen-planfeststellung` vertiefend heranziehen; ohne Zugriff die vorstehende Verfahrensprüfung fortsetzen. Seine pauschalen Dokumentlisten und Präklusionsaussagen nicht ungeprüft übernehmen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Weitere Normen, Grenzwerte und Entscheidungen amtlich verifizieren. BImSchG nicht ohne Anwendungsprüfung zur Flugplatzgenehmigungsgrundlage machen. Ohne Quellen- oder Exportzugriff die konkrete Grenze benennen und den verfügbaren Text liefern; Export: Times New Roman, 11 pt, dezimale Gliederung.

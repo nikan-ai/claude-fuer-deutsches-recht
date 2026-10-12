@@ -1,6 +1,6 @@
 ---
 name: amtsloeschung-familienloeschung-registerblatt
-description: "Wenn es um Amtslöschung und Registerbereinigung in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Amtslöschung und Registerbereinigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Amtslöschung und Registerbereinigung
@@ -45,17 +45,3 @@ HGB §§ 8 ff. und § 15, FamFG-Registerverfahrensrecht, GmbHG/HGB/AktG/UmwG je 
 3. **Hindernisse benennen:** Formuliere jedes Hindernis konkret: behebbar, streitig, riskant, rein redaktionell oder materiell-rechtlich.
 4. **Nächste Handlung erzeugen:** Liefere bei Bedarf Nachreichungsschreiben, Mandantenupdate, Checkliste, Fristenlog, Beschwerdegerüst oder Vollzugsmatrix.
 5. **Belegdisziplin:** Zitiere Normen nur, wenn sie zum Schritt passen. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarem Link; sonst ausdrücklich als zu verifizieren markieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 39 GmbHG
-- § 40 GmbHG
-- § 382 FamFG
-- § 395 FamFG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

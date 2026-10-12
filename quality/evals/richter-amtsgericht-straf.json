@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "plugin": "richter-amtsgericht-straf",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__261.html",
+      "checked_on": "2026-09-14",
+      "supports": "Überzeugungsbildung aus dem Inbegriff der Hauptverhandlung, nicht allein aus Aktenkenntnis."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__203.html",
+      "checked_on": "2026-09-14",
+      "supports": "Hinreichender Tatverdacht als Maßstab der Eröffnung des Hauptverfahrens."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/03/rs20130319_2bvr262810.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Urteil vom 19.03.2013, 2 BvR 2628/10, Randnummern 68 bis 71 und 84 bis 93. Amtliche tragende Entscheidungsgründe gelesen. Anwendung: Inhaltsleeres Formalgeständnis nicht als hinreichende Wahrheitsermittlung behandeln; Bestätigung durch tatsächlich eingeführte Hauptverhandlungsbeweise feststellen und Mitteilung dokumentieren. Grenze: Reine Terminabsprachen nicht erfasst; kein generelles Verständigungsverbot und nicht jeder Fehler automatisch absoluter Revisionsgrund."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__203.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Hinreichender Tatverdacht zur Eröffnung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__261.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Inbegriff der Hauptverhandlung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__257c.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Gesetzliche Verständigung und fortbestehende Aufklärung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__243.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Mitteilung über verständigungsbezogene Gespräche."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__273.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Verständigungsdokumentation."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__261.html",
+      "checked_on": "2026-09-23",
+      "supports": "Identifizierungsbedingungen, begrenztes Geständnis, Einspruchsumfang und belegte Rechtsfolgenbasis. Prüftiefe: Paragraf 261 erneut gelesen; Abruf Paragraf 408 gestört, hierzu keine neue gesicherte Detailregel behauptet."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Identifizierungsbedingungen, begrenztes Geständnis, Einspruchsumfang und belegte Rechtsfolgenbasis.",
+    "changes": [
+      "Formalgeständnis und Nichtbestreiten nicht als ausreichende Wahrheitsermittlung behandelt.",
+      "Mitteilung nach Paragraf 243 Absatz 4 und Dokumentation nach Paragraf 273 Absatz 1a präzisiert.",
+      "Zwischenverfahren, Strafbefehl, Einstellung und Rechtsfolgen mit eigener Entscheidungsreife erhalten.",
+      "Tatsächlich protokollierte Wiedererkennung nur der Kleidung -> Identifizierungswürdigung begrenzen; Einkommensbeleg -> Tagessatzhöhe prüfen.",
+      "Identifizierungsbedingungen, begrenztes Geständnis, Einspruchsumfang und belegte Rechtsfolgenbasis."
+    ],
+    "sha256": "1e664b992a7dbc61203f1d51035999d366dc99dd6dc3b6b0f0f0514f43833739",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Identifizierungsbedingungen, begrenztes Geständnis, Einspruchsumfang und belegte Rechtsfolgenbasis.",
+    "changes": [
+      "Formalgeständnis und Nichtbestreiten nicht als ausreichende Wahrheitsermittlung behandelt.",
+      "Mitteilung nach Paragraf 243 Absatz 4 und Dokumentation nach Paragraf 273 Absatz 1a präzisiert.",
+      "Zwischenverfahren, Strafbefehl, Einstellung und Rechtsfolgen mit eigener Entscheidungsreife erhalten.",
+      "Tatsächlich protokollierte Wiedererkennung nur der Kleidung -> Identifizierungswürdigung begrenzen; Einkommensbeleg -> Tagessatzhöhe prüfen.",
+      "Identifizierungsbedingungen, begrenztes Geständnis, Einspruchsumfang und belegte Rechtsfolgenbasis."
+    ],
+    "sha256": "de6bb320968238cf2e33923fad0e3ac717e6aa179bcae7f9bef470004c612eb2",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Entwirf einen strafrichterlichen Vermerk zum noch nicht eingeführten Beweisstoff.",
+      "Prüfe die Eröffnung anhand Anklage und entlastender Ermittlungsunterlagen."
+    ],
+    "negative": [
+      "Formuliere die staatsanwaltschaftliche Anklage nach Ermittlungsabschluss.",
+      "Entwirf die Verteidigungsstrategie für einen Beschuldigten im Erstgespräch."
+    ]
+  },
+  "cases": [
+    {
+      "id": "aktenvermerk-nicht-verhandlungsstoff",
+      "request": "Erstelle ergebnis.md als vorläufigen strafrichterlichen Vermerk während laufender Hauptverhandlung am Amtsgericht. Angeklagt ist eine Sachbeschädigung an einem geparkten Auto. Der einzige bisher vernommene Augenzeuge erklärt, er habe aus 40 Metern nur eine Person in dunkler Jacke gesehen und könne den Angeklagten nicht identifizieren. In der Ermittlungsakte liegt außerdem ein polizeilicher Vermerk, eine Nachbarin habe den Angeklagten erkannt. Die Nachbarin ist noch nicht geladen oder vernommen; der Vermerk wurde nicht verlesen oder sonst in die Hauptverhandlung eingeführt. Die Beweisaufnahme ist noch offen. Der Angeklagte schweigt. Prüfe, ob der Vermerk bereits eine positive Täterfeststellung trägt, und formuliere den nächsten Aufklärungsschritt, ohne das künftige Beweisergebnis zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Verwendet den nicht eingeführten Polizeivermerk nicht als bereits verwertbare positive Identifizierung aus der Hauptverhandlung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erkennt die begrenzte Identifizierungsleistung des vernommenen Zeugen und behandelt das Schweigen nicht als Beweis der Täterschaft.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bereitet die Vernehmung der Nachbarin und Klärung ihrer Wahrnehmungsbedingungen vor, ohne ihre Aussage vorwegzunehmen oder trotz offener Beweisaufnahme einen fertigen Schuldspruch zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "05-beweiswuerdigung-strafrecht"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gerichtsplugins/richter-amtsgericht-straf/richter-amtsgericht-straf-werkstatt.md",
+      "gerichtsplugins/richter-amtsgericht-straf/richter-amtsgericht-straf-schnellstart.md"
+    ],
+    "opening_change": "Eröffnung, Strafbefehlsprüfung und Urteilsreife anhand des tatsächlich erreichten amtsgerichtlichen Verfahrensschritts bestimmen.",
+    "norms": [
+      "Paragrafen 203, 244 Absatz 2, 261, 267, 243 Absatz 4, 257c und 273 Absatz 1a StPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Urteil vom 19.03.2013, 2 BvR 2628/10, Randnummern 68 bis 71 und 84 bis 93",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/03/rs20130319_2bvr262810.html",
+        "application": "Inhaltsleeres Formalgeständnis nicht als hinreichende Wahrheitsermittlung behandeln; Bestätigung durch tatsächlich eingeführte Hauptverhandlungsbeweise feststellen und Mitteilung dokumentieren.",
+        "limit": "Reine Terminabsprachen nicht erfasst; kein generelles Verständigungsverbot und nicht jeder Fehler automatisch absoluter Revisionsgrund."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Primärquellenreview, kein Live-Client- oder Modelltest.",
+      "Verständigungsanker ersetzt keine Vollprüfung aller Strafbefehls-, Beweisverwertungs- oder Zumessungsfragen.",
+      "Keine tatsächliche gerichtliche Akte oder Hauptverhandlung geprüft.",
+      "Workflow-Vertiefung 2026-09-23: Paragraf 261 erneut gelesen; Abruf Paragraf 408 gestört, hierzu keine neue gesicherte Detailregel behauptet. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Eröffnung, Strafbefehl oder Hauptverhandlungs-/Urteilsarbeit anbieten.",
+      "Entscheidende Aktenstücke still lesen, kein Ermittlungsaktenreferat.",
+      "Bestellten gerichtlichen Schritt ohne neue Anklage ausarbeiten."
+    ],
+    "continuation": "Tatsächlich protokollierte Wiedererkennung nur der Kleidung -> Identifizierungswürdigung begrenzen; Einkommensbeleg -> Tagessatzhöhe prüfen.",
+    "enrichment": "Identifizierungsbedingungen, begrenztes Geständnis, Einspruchsumfang und belegte Rechtsfolgenbasis.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/richter-amtsgericht-straf/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für strafgerichtliche Aktenauswertung technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

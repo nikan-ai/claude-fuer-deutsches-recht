@@ -1,6 +1,6 @@
 ---
 name: konkurrenz-bereicherung-vertraglich
-description: "Wenn es um Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Konkurrenz Bereicherung Vertraglich; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer."
+description: "Für Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: konkurrenz-bereicherung-vertraglich."
 ---
 
 # Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV
@@ -16,16 +16,6 @@ description: "Wenn es um Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV 
 ## Zentrale Normen
 
 § 812 Abs. 1 BGB (Leistungskondiktion) — §§ 346 ff. BGB (Rücktrittsfolgen) — §§ 134, 138, 142 BGB (Nichtigkeitsgründe) — §§ 823, 826 BGB (Deliktshaftung) — §§ 985–993 BGB (Eigentümer-Besitzer-Verhältnis) — § 195 BGB (Regelverjährung) — § 199 BGB (Verjährungsbeginn)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Grundsatz: Subsidiarität des Bereicherungsrechts
 
@@ -92,3 +82,4 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: vg-bild-vgwort-verlag
-description: "Wenn es um VG Wort, VG Bild-Kunst und Verlag in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für VG Wort, VG Bild-Kunst und Verlag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # VG Wort, VG Bild-Kunst und Verlag
@@ -20,7 +20,7 @@ description: "Wenn es um VG Wort, VG Bild-Kunst und Verlag in Urheberrecht DE EU
 
 ## Wofür dieser Arbeitsgang da ist
 
-VG Wort, VG Bild-Kunst und Verlag schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe Meldungen und Beteiligungen von Autor und Verlag bei VG Wort und VG Bild-Kunst. Ordne Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise zu und bereite den verlangten Meldeplan oder die Nachforderung vor.
 
 ## Sofortstart
 

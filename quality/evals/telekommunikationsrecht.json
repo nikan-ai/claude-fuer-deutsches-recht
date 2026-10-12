@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "plugin": "telekommunikationsrecht",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/tkg_2021/__57.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen Normtext gelesen: eigenständige Kündigung bei Vertragsänderung mit dreimonatiger Erklärungsfrist ab ordnungsgemäßer Unterrichtung, frühestem Ende und Ausnahmen; bei Minderleistung Überwachungsmechanismus und Verweis auf Paragraf 314 Absatz 2 BGB. Keine neue Verifikation sämtlicher BNetzA-Messvorgaben."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen Volltext erneut gelesen: Meldungseingang, Mitwirkung, vollständiger Ausfall, Tagesstaffel und Anrechnung; Rechenweg 6 + 6 + 12 + 12 = 36 Euro bei 60 Euro Monatsentgelt und den im Prompt festgelegten vollständigen Ausfalltagen. Grenztage und Ersatzversorgung weiterhin fallbezogen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.juris.de/tkg_2021/__58.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Normtext im Suchabruf: Beginn, Tagesstaffel, Ausnahmen und Anrechnung bei vollständigem Ausfall; versäumter Termin als eigener Tatbestand."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/tkg_2021/",
+      "checked_on": "2026-09-14",
+      "supports": "Amtliche Inhaltsübersicht: Marktregulierung ab Paragraf 10; konkrete Zuordnung der Kundenschutzregeln in Paragraf 54 bis Paragraf 60."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2012/III_ZR__98-12.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 24. Januar 2013, III ZR 98/12, Randnummern 7 und 16 bis 22. Anwendung: Privater Internetausfall kann ohne Zusatzkosten Vermögensschaden auslösen; gleichwertigen Ersatz und objektiven Nutzungswert prüfen. Grenze: Haftungsgrund revisionsrechtlich vorausgesetzt; verlangte 50 Euro keine zugesprochene Pauschale, heutige TKG-Anrechnung zusätzlich prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller Volltext: Entstörung, Tagesstaffel, Terminversäumnis und wechselseitige Anrechnung."
+    },
+    {
+      "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/iii_zr___8-25.pdf",
+      "checked_on": "2026-10-01",
+      "supports": "Amtlicher BGH-Volltext bei Curia: Kopf, Tenor und Rn. 1–37 vollständig. Mindestlaufzeit auch beim erstmaligen Glasfaserdienstvertrag ab Vertragsschluss; §56Abs1 TKG verdrängt §309Nr9a BGB nicht. Grenze: Reine Herstellung der physischen Verbindung nach §56Abs2 TKG gesondert. Urteil betrifft konkrete Verbraucher-AGB, entscheidet keinen allgemeinen Schadensersatz."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten.",
+    "changes": [
+      "Dokumentwahl ohne Materialbericht, Tagesbeispiel und Rückwirkung neuer Tickets beziehungsweise Änderungsmitteilungen auf Betrag und Kündigungsdatum ergänzt.",
+      "III ZR 98/12 mit gleichwertigem Ersatz, Haftungsgrund und Grenzen der Schadenshöhe eingefügt.",
+      "Aktuellen Paragraf 58 TKG vollständig gelesen und Terminentschädigung präzisiert.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 08.01.2026 – III ZR 8/25, Rn. 23–36. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
+    ],
+    "sha256": "fffd931f53a7136833782c0fc33c8485b5b92a352b7ad111a38e0eb2f7a9c7a1",
+    "reviewed_on": "2026-10-01"
+  },
+  "selection": {
+    "positive": [
+      "Berechne die Entschädigung für meinen gemeldeten vollständigen Internetanschlussausfall.",
+      "Erstelle aus LAN-Messungen und Störungstickets einen Beweisplan gegen den Anschlussanbieter."
+    ],
+    "negative": [
+      "Prüfe einen Kaufmangel am separat gekauften Router ohne Streit über den Anschluss.",
+      "Entwirf eine Datenschutzerklärung für einen Onlinehandel ohne Telekommunikationsdienst."
+    ]
+  },
+  "cases": [
+    {
+      "id": "vollausfall-september-tagesstaffel",
+      "request": "Schreibe in ergebnis.md eine Forderungsberechnung mit einem kurzen Entwurf an meinen Festnetzanbieter. Ich bin Privatkunde mit konstant 60 Euro Monatsentgelt. Internet und Telefon sind seit 1. September 2026 vollständig ausgefallen. Das Ticket bestätigt den Meldungseingang am 1. September um 9 Uhr. Die Störung dauerte ununterbrochen bis zum Ende des 7. September; um 0 Uhr am 8. September war der Anschluss wiederhergestellt. Ich habe sämtliche Mitwirkung erfüllt. Der Anbieter bestätigt einen internen technischen Defekt, keine höhere Gewalt oder behördliche Maßnahme. Es gab keinen vereinbarten Kundendiensttermin, keine Ersatzleistung, keinen weiteren bezifferten Schaden und keine bisherigen Zahlungen oder Minderungen. Vertrag und Ticketinhalte sind damit vollständig wiedergegeben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Rechnung grenzt Meldetag sowie 2. und 3. September von den entschädigungsfähigen vollständigen Ausfalltagen 4. bis 7. September ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Ergebnis vergleicht die gesetzlichen Mindestbeträge mit den Prozentsätzen von 60 Euro und berechnet zweimal 6 Euro plus zweimal 12 Euro, insgesamt 36 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Entwurf fordert keine zusätzliche Terminpauschale oder erfundenen Erwerbsschaden und bleibt ein nicht versandter Entwurf mit belegter Ausfallchronologie.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "beweisplan-messung-stoerung-protokoll"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten.",
+    "changes": [
+      "Drei substantielle Verbraucherzweige samt Gegenargumenten und gesonderter Fortsetzung des Behördenfalls ergänzt; Fristauslöser aus Unterrichtung oder Bekanntgabe ermitteln.",
+      "III ZR 98/12 mit gleichwertigem Ersatz, Haftungsgrund und Grenzen der Schadenshöhe eingefügt.",
+      "Aktuellen Paragraf 58 TKG vollständig gelesen und Terminentschädigung präzisiert.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 08.01.2026 – III ZR 8/25, Rn. 23–36. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
+    ],
+    "sha256": "99446873084de8cd55998dff598415c351fb8d9829d6960a3e123704f3383fc9",
+    "reviewed_on": "2026-10-01"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Ausfallforderung, Minderleistungsschreiben oder Stellungnahme zu Netz-/Frequenzverfügung anbieten.",
+      "Nur Dateien: Vertrag, Tickets und Bescheid still lesen; nur bei verbleibend offenem Ziel passende Dokumentwege anbieten.",
+      "Klarer Auftrag: Rechnung und Anbieterentwurf beziehungsweise konkreten Regulierungseinwand unmittelbar bearbeiten."
+    ],
+    "continuation": "Ticket, Ersatznachweis oder Gutschrift -> Tagesbewertung, Restforderung und Brief ändern; Änderungsmitteilung -> Frist und Kündigungsdatum aktualisieren.",
+    "enrichment": "Ausfalltage, Mitwirkungsgegenargument, tatsächlich nutzbarer Ersatz, Anrechnung und Zahlungsbrief; qualifizierte Minderleistungsbelege, Änderungs-Kündigung und konkrete Behördenverpflichtung.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "method": "desk_review",
+    "files": [
+      "telekommunikationsrecht/README.md",
+      "telekommunikationsrecht/telekommunikationsrecht-werkstatt.md",
+      "telekommunikationsrecht/telekommunikationsrecht-schnellstart.md",
+      "quality/evals/telekommunikationsrecht.json"
+    ],
+    "opening_change": "Ausfallforderung anhand Meldung, Dauer und Monatsentgelt oder konkreten Regulierungseinwand begründen.",
+    "norms": [
+      "Paragrafen 57 und 58 TKG",
+      "Paragrafen 249 und 280 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 24. Januar 2013, III ZR 98/12, Randnummern 7 und 16 bis 22",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2012/III_ZR__98-12.pdf?__blob=publicationFile&v=1",
+        "application": "Privater Internetausfall kann ohne Zusatzkosten Vermögensschaden auslösen; gleichwertigen Ersatz und objektiven Nutzungswert prüfen.",
+        "limit": "Haftungsgrund revisionsrechtlich vorausgesetzt; verlangte 50 Euro keine zugesprochene Pauschale, heutige TKG-Anrechnung zusätzlich prüfen."
+      },
+      {
+        "citation": "BGH, Urteil vom 08.01.2026 – III ZR 8/25, Rn. 23–36",
+        "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/iii_zr___8-25.pdf",
+        "application": "Mindestlaufzeit auch beim erstmaligen Glasfaserdienstvertrag ab Vertragsschluss; §56Abs1 TKG verdrängt §309Nr9a BGB nicht.",
+        "limit": "Reine Herstellung der physischen Verbindung nach §56Abs2 TKG gesondert. Urteil betrifft konkrete Verbraucher-AGB, entscheidet keinen allgemeinen Schadensersatz."
+      }
+    ],
+    "remaining_limits": [
+      "Keine Neuprüfung aller BNetzA-Messvorgaben, Frequenz- und Marktzugangsverfahren; Grenztage und tatsächliche Ersatzversorgung bleiben fallbezogen.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten."
+    ]
+  }
+}

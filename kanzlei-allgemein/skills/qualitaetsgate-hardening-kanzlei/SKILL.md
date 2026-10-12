@@ -1,6 +1,6 @@
 ---
 name: qualitaetsgate-hardening-kanzlei
-description: "Wenn es um Qualitätsgate und Hardening in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Qualitätsgate und Hardening: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Qualitätsgate und Hardening
@@ -22,9 +22,6 @@ Haertet Kanzlei-Outputs mit mehrstufigen Qualitaetsgates für Anfaenger und Prof
 2. Soll der Schnellcheck (nur rote Risiken), Normal- oder Profi-Modus (Taktik, Gegner-Argument, Kosten) eingesetzt werden?
 3. Gibt es eine laufende Frist, die den Prüfumfang begrenzt?
 4. Soll das Qualitaetsgate-Protokoll als Aktenbestandteil gespeichert werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43 BRAO — Sorgfaltspflicht: Qualitaetssicherung als Grundpflicht vor jedem Ausgang
@@ -134,3 +131,4 @@ Wenn der Entwurf bereits gut ist:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

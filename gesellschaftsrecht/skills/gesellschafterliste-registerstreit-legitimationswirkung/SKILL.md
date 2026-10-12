@@ -1,9 +1,11 @@
 ---
 name: gesellschafterliste-registerstreit-legitimationswirkung
-description: "Wenn es um Gesellschafterliste Registerstreit Legitimationswirkung in Gesellschaftsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Gesellschafterliste Registerstreit Legitimationswirkung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # GmbH-Gesellschafterliste: Registerstreit, Legitimationswirkung und einstweiliger Rechtsschutz
+
+Bestreitet die Gesellschaft die materielle Mitgliedschaft ernsthaft, entfällt das Feststellungsinteresse nicht schon deshalb, weil die richtige Person weiterhin in der Liste steht: [BGH, Urteil vom 21.04.2026 – II ZR 50/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1), Rn. 10–25. Frage nach konkreter Bestreitung und gegenwärtiger Rechtsunsicherheit; trenne Paragraf 16 GmbHG von materieller Beteiligung und einer Klage gegen die Gesellschaft nach Paragraf 256 ZPO. Kein automatischer Klagebedarf bei unstreitiger Mitgliedschaft und keine materielle Eigentumsfeststellung durch das Registergericht.
 
 ## Arbeitsweg
 

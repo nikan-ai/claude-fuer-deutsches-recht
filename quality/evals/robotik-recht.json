@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "plugin": "robotik-recht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de",
+      "checked_on": "2026-09-14",
+      "supports": "Maschinen in Anhang I Abschnitt B, Artikel 6 Absätze 1a bis 1c, Artikel 4a und geänderte Geltungsdaten 2027/2028."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_107-08.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 16. Juni 2009, VI ZR 107/08, Randnummern 15 bis 24 und 27 bis 31. Anwendung: Sicherheitskonstruktion nach praktisch verfügbarer, erprobter und zumutbarer Alternative prüfen; bloße Branchenüblichkeit oder Warnung genügt nicht. Grenze: Airbagfall; keine Haftung wegen nur theoretischer Lösung, kein Kausalitätsbeweis, keine GPSR- oder KI-VO-Auslegung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/betrsichv_2015/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "CE ersetzt keine betriebliche Gefährdungsbeurteilung; Aktualisierung bei Veränderungen und neuen Unfallinformationen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/prodhaftg/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Fehlerbegriff für den begrenzten konstruktiven Sicherheitsmaßstab."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/betrsichv_2015/__3.html",
+      "checked_on": "2026-09-23",
+      "supports": "Gefahrenabwehr versus Beweiserhalt, Versionskausalität, überprüfbare Abnahmekriterien und fachkundige Wiederfreigabe nach Gefährdungsbeurteilung. Quellenstatus: Paragraf 3 BetrSichV erneut gelesen. Vorhandenen Reformstand und dessen Quellen vom 14. September erhalten, hier nicht erneut vollständig verifiziert; keine technische Sicherheitsprüfung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Lektüre und Workflow-Vertiefung: UTC-Antwort -> gekennzeichnete Arbeitschronologie ändern; Resetwunsch -> Sicherungsschreiben und fachkundige Untersuchung abstimmen. Desk review, keine Live-Client-Ausführung.",
+    "changes": [
+      "VI ZR 107/08 auf konstruktive Robotersicherheit übertragen und als Airbag-Ausgangsfall begrenzt.",
+      "Paragraf 3 BetrSichV für betriebliche Gefährdungsbeurteilung und Aktualisierung ergänzt.",
+      "UTC-Antwort -> gekennzeichnete Arbeitschronologie ändern; Resetwunsch -> Sicherungsschreiben und fachkundige Untersuchung abstimmen.",
+      "Gefahrenabwehr versus Beweiserhalt, Versionskausalität, überprüfbare Abnahmekriterien und fachkundige Wiederfreigabe nach Gefährdungsbeurteilung."
+    ],
+    "sha256": "097c93b5409377228832558897fbae5f9ffc4c6986da166f0c774a988dabbf7b",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Lektüre und Workflow-Vertiefung: Gefahrenabwehr versus Beweiserhalt, Versionskausalität, überprüfbare Abnahmekriterien und fachkundige Wiederfreigabe nach Gefährdungsbeurteilung. Desk review, keine Live-Client-Ausführung.",
+    "changes": [
+      "VI ZR 107/08 auf konstruktive Robotersicherheit übertragen und als Airbag-Ausgangsfall begrenzt.",
+      "Paragraf 3 BetrSichV für betriebliche Gefährdungsbeurteilung und Aktualisierung ergänzt.",
+      "UTC-Antwort -> gekennzeichnete Arbeitschronologie ändern; Resetwunsch -> Sicherungsschreiben und fachkundige Untersuchung abstimmen.",
+      "Gefahrenabwehr versus Beweiserhalt, Versionskausalität, überprüfbare Abnahmekriterien und fachkundige Wiederfreigabe nach Gefährdungsbeurteilung."
+    ],
+    "sha256": "94af78c9597706c8aa9ccbd363a9827b1e122dc9ec978988bad8a2ee0cc23e90",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Ordnen Sie den Ausfall eines Cobots nach Update und sichern Sie die Beweiskette.",
+      "Prüfen Sie den Produktpfad einer KI-Sicherheitskomponente nach der Reform."
+    ],
+    "negative": [
+      "Prüfen Sie ausschließlich einen SaaS-Abonnementpreis ohne Robotikbezug.",
+      "Berechnen Sie allein die arbeitsrechtliche Kündigungsfrist des Bedieners."
+    ]
+  },
+  "cases": [
+    {
+      "id": "cobot-uhrzeitversatz-update",
+      "request": "Erstellen Sie ergebnis.md als ersten Unfall- und Rechtsprüfvermerk für einen deutschen Betreiber. Ein Cobot verletzte am 11.09.2026 eine Beschäftigte. Am Vorabend wurde Firmware 4.2 eingespielt. Die Kamera zeigt 09:12 Uhr, das Roboterlog 08:12 Uhr; Zeitzoneneinstellungen sind unbekannt. Integrator I verlangt sofortigen Reset und eine Wiederholung mit einer Person im Arbeitsbereich. Vorhanden sind ein unveränderter Logexport, Video und die Konformitätserklärung nach Maschinenrecht; keine medizinprodukterechtliche Zweckbestimmung. Der Integrator behauptet außerdem, bis 2028 bestünden keinerlei Sicherheitsanforderungen. Es wurde noch nichts zurückgesetzt. Erstellen Sie Beweissicherungsplan und erste rechtliche Einordnung ohne technische Ursachenfestlegung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Verhindert eine gefährliche Wiederholung und einen beweisvernichtenden Reset; dokumentiert Originale, Firmware und Zeitversatz statt ihn still zu korrigieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt den zeitlichen Zusammenhang mit dem Update als Ermittlungsansatz und nicht als bereits bewiesene Unfallursache.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verwirft die pauschale Sicherheitsfreiheit bis 2028 und erhält die reformbedingte Unterscheidung von Maschinenrecht und KI-Systempflichten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "unfallanalyse-chain-of-custody"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "robotik-recht/README.md",
+      "robotik-recht/robotik-recht-werkstatt.md",
+      "robotik-recht/robotik-recht-schnellstart.md",
+      "quality/evals/robotik-recht.json",
+      "robotik-recht/skills/unfallanalyse-chain-of-custody/SKILL.md"
+    ],
+    "opening_change": "Unfallbewegung, Sicherheitsreaktion, Verantwortungsbereich und Beweise vor dem Reset klären.",
+    "norms": [
+      "Paragraf 3 ProdHaftG",
+      "Paragraf 3 Absätze 1 und 7 BetrSichV",
+      "Artikel 6 und 113 KI-VO in der Fassung 2026/1744"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 16. Juni 2009, VI ZR 107/08, Randnummern 15 bis 24 und 27 bis 31",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_107-08.pdf?__blob=publicationFile&v=1",
+        "application": "Sicherheitskonstruktion nach praktisch verfügbarer, erprobter und zumutbarer Alternative prüfen; bloße Branchenüblichkeit oder Warnung genügt nicht.",
+        "limit": "Airbagfall; keine Haftung wegen nur theoretischer Lösung, kein Kausalitätsbeweis, keine GPSR- oder KI-VO-Auslegung."
+      }
+    ],
+    "remaining_limits": [
+      "Keine technische Sicherheitsfreigabe; harmonisierte Normen, konkrete Maschinenkonformität und nationale Umsetzungsdetails bleiben zu prüfen.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Vertiefung 2026-09-23: Paragraf 3 BetrSichV erneut gelesen. Vorhandenen Reformstand und dessen Quellen vom 14. September erhalten, hier nicht erneut vollständig verifiziert; keine technische Sicherheitsprüfung. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Unfall, Beschaffung/Abnahme oder Freigabe nach Update auswählen.",
+      "Anleitung, Version und Logs still lesen; nur Arbeitsziel klären.",
+      "Bestellten Lieferantenbrief oder Bericht sofort ausarbeiten."
+    ],
+    "continuation": "UTC-Antwort -> gekennzeichnete Arbeitschronologie ändern; Resetwunsch -> Sicherungsschreiben und fachkundige Untersuchung abstimmen.",
+    "enrichment": "Gefahrenabwehr versus Beweiserhalt, Versionskausalität, überprüfbare Abnahmekriterien und fachkundige Wiederfreigabe nach Gefährdungsbeurteilung.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "robotik-recht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

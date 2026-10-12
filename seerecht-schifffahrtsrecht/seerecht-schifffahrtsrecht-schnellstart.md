@@ -1,66 +1,43 @@
-Wenn du das hier öffnest, willst du einen grenzüberschreitenden Fall sortieren: anwendbares Recht, Zuständigkeit und Durchsetzung klären und ein verwertbares Arbeitsprodukt bauen.
+# 1. See- und Schifffahrtsrecht: Schnellstart
 
-# Seerecht Schifffahrtsrecht — Schnellstart
+Ohne Eingabe biete „Ladungsschaden beziffern“, „Schiffsübergabe absichern“ oder „Arrest vor Abfahrt vorbereiten“ an. Dateien ohne Aufgabe still lesen und Ziel klären. Klaren Auftrag direkt ausarbeiten, keine Materialübersicht. Folgeantworten ändern Rechnung, Klausel oder Sicherungsentwurf; bekannte Daten nicht erneut fragen. Keine Plugin-Dateien voraussetzen.
 
-Ziel: See- und Schifffahrtsrecht-Plugin für Schiffskauf, Schiffbau, Werften, Schiffshypothek, Schiffsregister, Arrest, Wrack, Bergung, Charter und ITLOS. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Prüfe, wer für die fehlende oder beschädigte Seeladung haftet, wie hoch die durchsetzbare Forderung ist und welche Frist jetzt läuft. Geht es stattdessen um Schiffskauf oder Arrest, bearbeite Übergabe, Belastungen beziehungsweise Sicherung der konkreten Forderung. Lies Vertrag, Konnossement, Registerauszug, Schadenbericht oder Arrestunterlagen zuerst und liefere den bestellten Vermerk oder Entwurf.
 
-## 1. Schnellmodus
+## 1.1. Schiff und Rechtsbeziehungen
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Erfasse Schiffsname und eindeutige Kennung, Flagge, Register, Aufenthaltsort, geplante Abfahrt sowie Eigentümer, Reeder, Ausrüster, Charterer und Vertragspartner. Trenne Schiffskauf, Schiffbau, Bareboat- oder Zeitcharter, Seefracht, Bergung und hoheitliche Festhaltung.
 
-## 2. Direktstart
+Rechtswahl, Gerichtsstand und Schiedsklausel vollständig lesen. Deutsches Recht nicht allein wegen eines deutschen Auftraggebers unterstellen. Bei ausländischem Hafenrecht die notwendige örtliche Prüfung konkret benennen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2. Ladungsschaden und Begrenzung
 
-## 3. Kernroute
+Bei Seefracht Übernahme, Ablieferung, Schadensort, Verpackung, Konnossementsangaben und tatsächliches Gewicht sichern. Vertraglicher und ausführender Verfrachter sowie berechtigter Anspruchsteller getrennt bestimmen. Bei multimodaler Beförderung die einschlägige Teilstrecke begründen.
 
-1. Auslands-Zergliederung: Parteien mit Sitzstaaten, Vertragsklauseln zu Rechtswahl, Gerichtsstand und Schiedsverfahren, Anknüpfungsmomente und Fristen als Raster erfassen.
-2. Forum: internationale Zuständigkeit prüfen (Brüssel-Ia-VO, Gerichtsstandsklausel, Schiedsvereinbarung); Torpedo- und Parallelverfahrensrisiken benennen.
-3. Anwendbares Recht: Rechtswahl und objektive Anknüpfung nach Rom I und Rom II bestimmen; CISG-Anwendbarkeit und Abwahl gesondert prüfen.
-4. Materielle Prüfung nach dem berufenen Recht: bei ausländischem Recht Ermittlungsweg nach Paragraf 293 ZPO benennen statt Inhalte zu erfinden.
-5. Durchsetzung: Anerkennung und Vollstreckung, Schiedsspruch nach dem New Yorker Übereinkommen, Zustellung ins Ausland sowie Sanktions- und Exportkontrollfilter vor jedem Vollzugsschritt.
-6. Binnenschiff – Kaufvertrag scopen: Binnenschiff: Binnenschiffer; Verladungsunternehmen; Kreditinstitut scopet Kaufvertrag für Binnenmotorgüterschiff.
+Bei Verlust während des Containerumschlags im Hafen Paragraf 452a HGB anwenden: BGH, Urteil vom 1. Dezember 2016, I ZR 128/15, Rn. 29–34 ([Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2015/I_ZR_128-15.pdf?__blob=publicationFile&v=1)), ordnet verschiffungsbezogene Lagerung und Umladung regelmäßig der Seestrecke zu. Maßgeblich sind Tätigkeit und Obhut, nicht bloß der Hafenort. Der Altfall erlaubt keine ungeprüfte Übernahme damaliger HGB- oder ADSp-Regeln; heute Haftungsgrund nach Paragraf 498 HGB prüfen.
 
-## 4. Fallkarte
+Paragraf 504 HGB begrenzt bei anwendbarem deutschem Seefrachtrecht grundsätzlich auf den höheren Betrag aus 666,67 Rechnungseinheiten je Stück oder Einheit und zwei Rechnungseinheiten je Kilogramm Rohgewicht des verlorenen oder beschädigten Gutes. Containerangaben und Umrechnungstag gesondert prüfen; nicht die straßengüterrechtliche Grenze von 8,33 übernehmen. Quelle: https://www.gesetze-im-internet.de/hgb/__504.html
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | Brüssel-Ia-VO Artikel 4, 7 und 25; Rom-I-VO Artikel 3 und 4; Rom-II-VO Artikel 4 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Binnenschiff: Binnenschiffer; Verladungsunternehmen; Kreditinstitut scopet Kaufvertrag für Binnenmotorgüterschiff |
-| Beweislast | Anspruchsteller für Anknüpfung, Zuständigkeit und Vollstreckbarkeit; Gegner für Gerichtsstand, ordre public und Einreden |
-| Rechtsfolge | Zuständigkeitsrüge, Rechtswahlvermerk, Anerkennung, Vollstreckung oder Schiedsstrategie |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Zeige beide Rechenwege. Zwei fehlende, im Beförderungsdokument einzeln bezeichnete Kisten mit zusammen 200 kg ergeben 1.333,34 SZR nach Stückzahl gegenüber 400 SZR nach Gewicht; bei unentwerteter Restladung zählen nicht alle Kisten. Schadenwert und Grenze vergleichen. Paragraf 505 HGB bestimmt den Umrechnungstag; ohne Kurs keine Eurozahl erfinden. Den Wegfall nach Paragraf 507 HGB nur bei den dort genannten Voraussetzungen prüfen, nicht nach der landfrachtrechtlichen Zurechnung des Paragraf 435 HGB.
 
-## 5. Einsatzfelder
+Schadensanzeige nach Paragraf 510 HGB: erkennbare Schäden bei Ablieferung, verdeckte binnen drei Tagen, Textform und rechtzeitige Absendung. Versäumung begründet eine Vermutung, nicht automatisch Anspruchsverlust. Davon getrennt einjährige Verjährung nach Paragraf 605 Nummer 1 und Beginn nach Paragraf 607 HGB einschließlich besonderer Regressvoraussetzungen kalendarisch prüfen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Binnenschiff – Kaufvertrag scopen | Binnenschiff: Binnenschiffer; Verladungsunternehmen; Kreditinstitut scopet Kaufvertrag für Binnenmotorgüterschiff. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Binnenschiff – Klagepfad wählen | Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Charterparty – Kaufvertrag scopen | Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Charterparty – Klagepfad wählen | Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Containerschiff – Kaufvertrag scopen | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Containerschiff – Klagepfad wählen | Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Schiffstransaktion und Sicherung
 
-## 6. Anker
+Bei Kauf oder Bau Identität des Schiffes, Leistungsstand, Übergabe, Belastungen, Rang, Zahlungsvoraussetzungen und Dokumentenfreigabe abgleichen. HGB Paragrafen 480 bis 482 nicht pauschal als Schiffslieferungsrecht ausgeben. Fehlende Registerunterlagen sperren die Aussage über Lastenfreiheit, nicht jede Vertragsanalyse.
 
-- Brüssel-Ia-VO Artikel 4, 7 und 25: allgemeiner und besonderer Gerichtsstand sowie Gerichtsstandsvereinbarung.
-- Rom-I-VO Artikel 3 und 4: Rechtswahl und objektive Anknüpfung vertraglicher Schuldverhältnisse; Artikel 9: Eingriffsnormen.
-- Rom-II-VO Artikel 4: Erfolgsortanknüpfung außervertraglicher Schuldverhältnisse.
-- CISG Artikel 1 und 6: Anwendungsbereich und Abwahl; Artikel 38 und 39: Untersuchungs- und Rügepflicht; Artikel 74: Schadensersatz.
-- 5. Gewaehrleistungsklauseln: BGB Paragrafen 433-479 oder as-is-Ausschluss?: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BinSchG Paragrafen 1-133; SchRG Paragrafen 1-75 für eingetragene Binnenschiffe; BinSchRegO; BGB Paragrafen 433-479 Kaufgewaehrleistung; SchRG Paragraf 2 Eigentumsübergang; SchRegO: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- International dominieren MOA-Standardformulare (Norwegian Saleform 2012; Norwegian Saleform 1993; Nipponsale 1999). Für deutsche Seeschiffe mit HGB-Bezug gelten ergänzend die deutschen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- [ ] Gewährleistung (BGB Paragrafen 433-479) oder Ausschluss (as-is) klar vereinbart: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Bei Arrest Forderung, Schuldner, Eigentum am Schiff, örtliche Zuständigkeit, Arrestgrund und Vollziehungsweg prüfen. Abfahrtstermin priorisieren. Eine hoheitliche Hafenfesthaltung, ein zivilrechtlicher Arrest und eine vertragliche Zurückhaltung sind verschieden. Keine beliebige Sicherheit als sicher akzeptiertes Freigabemittel versprechen.
 
-## 7. Antwortform
+## 1.4. Übergabefähiges Produkt
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Binnenschiff – Kaufvertrag scopen, Binnenschiff – Klagepfad wählen, Charterparty – Kaufvertrag scopen, Charterparty – Klagepfad wählen: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+„Die restlichen acht Kisten sind ebenfalls unverwendbar“ ändert den zu prüfenden Entwertungsumfang, nicht nur die Verlustzahl. „Das Gewicht betrifft den ganzen Container“ führt zur gezielten Anforderung des Gewichts der betroffenen Güter. „Die Bank gibt erst nach Zahlung frei“ verlangt einen abgestimmten Ablöse- und Dokumentenmechanismus im Kaufvertrag, nicht die unbelegte Zusage lastenfreier Übergabe.
 
-## 8. Stop
+Liefere den bestellten Außenentwurf oder internen Vermerk vollständig. Ordne darin Rechtsbeziehung, Anspruch, Beleg, Regime, Betrag oder Sicherheitsbedarf und Frist nachvollziehbar zu; keine zusätzliche Pflichtmatrix. Bei Fristdruck die notwendige Sicherungsprüfung zuerst, übrige Arbeit weiterführen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Fehlende Schiffsidentität, Rechtswahl, Containeraufstellung oder Gewichtsangabe gezielt klären. Nach Antwort Regime, Begrenzungsrechnung oder Vertragsklausel aktualisieren und das bestellte Dokument fertigstellen. Neue entscheidende Lücken kurz nachfragen, Bekanntes nicht erneut erheben.
+
+Amtliche Normen und einschlägige Übereinkommen in geltender Fassung prüfen; Rechtsprechung nur mit verifiziertem Gericht, Datum, Aktenzeichen und Fundstelle. Keine Quelle oder ausländische Rechtslage erfinden. Zusätzlichen Quellenstatus getrennt vom Außenentwurf führen.
+
+Keine Arrestbeantragung, Zahlung, Garantie oder Schiffsfreigabe selbst auslösen. Vollständige Sätze, dezimale Gliederung und Exporthinweis Times New Roman 11 pt. Weitere Werkstatt- oder Skilltexte sind optional; neue Vertragsfassungen und Hafenereignisse bei Folgeaufträgen abgleichen.
+
+Nutzerdateinamen gehen vor; ohne Vorgabe kann `ergebnis.md` verwendet werden. Fehlenden Zugriff konkret benennen und ohne Export Text liefern, keine Datei behaupten.

@@ -1,6 +1,6 @@
 ---
 name: dokumentstapel-aufnehmen
-description: "Wenn es um /tabellenreview-3d:dokumentstapel-aufnehmen in Tabellenreview 3D geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für /tabellenreview-3d:dokumentstapel-aufnehmen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /tabellenreview-3d:dokumentstapel-aufnehmen
@@ -14,7 +14,6 @@ description: "Wenn es um /tabellenreview-3d:dokumentstapel-aufnehmen in Tabellen
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Eingabequellen
 
@@ -59,3 +58,5 @@ description: "Wenn es um /tabellenreview-3d:dokumentstapel-aufnehmen in Tabellen
 ## Grenzen
 
 Klassifikation ist heuristisch. Bei Konfidenz unter 80 Prozent fragt der Skill zurück. OCR-Qualität hängt vom Scan ab. Belegkette ist nur so gut wie die OCR-Konfidenz.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: geschaeftsfuehrer-pflichten-startphase
-description: "Wenn es um Erste 100 Tage Geschäftsführer-Pflichten in gesellschaftsgründer — Gründungsassistent für deutsche geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Erste 100 Tage Geschäftsführer-Pflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erste 100 Tage Geschäftsführer-Pflichten
@@ -16,7 +16,6 @@ description: "Wenn es um Erste 100 Tage Geschäftsführer-Pflichten in gesellsch
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Erste 100 Tage Geschäftsführer-Pflichten` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -33,7 +32,7 @@ description: "Wenn es um Erste 100 Tage Geschäftsführer-Pflichten in gesellsch
 ## Zentrale Normen
 
 - **Paragraf 43 GmbHG** — Sorgfaltspflicht des GF: Sorgfalt eines ordentlichen Geschäftsmannes; Haftung gegenüber Gesellschaft.
-- **Paragraf 15a InsO** — Insolvenzantragspflicht: 6 Wochen (Überschuldung) / 3 Wochen (Zahlungsunfähigkeit).
+- **Paragraf 15a InsO** — Insolvenzantrag ohne schuldhaftes Zögern; höchstens sechs Wochen bei Überschuldung und drei Wochen bei Zahlungsunfähigkeit.
 - **Paragraf 15b InsO** — Zahlungsverbot nach Insolvenzreife; persönliche Haftung des GF.
 - **Paragraf 238 HGB** — Buchführungspflicht; doppelte Buchführung für GmbH zwingend.
 - **Paragraf 264, 325 HGB** — Jahresabschluss aufstellen (3 Monate) und offenlegen (12 Monate).

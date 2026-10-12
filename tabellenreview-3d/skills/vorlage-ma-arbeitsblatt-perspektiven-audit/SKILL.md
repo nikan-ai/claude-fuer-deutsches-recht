@@ -1,6 +1,6 @@
 ---
 name: vorlage-ma-arbeitsblatt-perspektiven-audit
-description: "Wenn es um /tabellenreview-3d:vorlage-ma-due-diligence in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Vorlage M&A Arbeitsblatt Perspektiven Audit; Arbeitsfeld: Tabellenreview 3D."
+description: "Für /tabellenreview-3d:vorlage-ma-due-diligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Tabellenreview 3D. Route: vorlage-ma-arbeitsblatt-perspektiven-audit."
 ---
 
 # /tabellenreview-3d:vorlage-ma-due-diligence
@@ -60,10 +60,6 @@ description: "Wenn es um /tabellenreview-3d:vorlage-ma-due-diligence in Tabellen
 - Prüfer: Datenschutzbeauftragter
 - Materialität rot: Auftragsverarbeitung ohne AVV oder Drittlandtransfer ohne SCC
 
-## BGH-Leitsätze (Auswahl)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Ausgabe
 
 Würfel-Schema fix und fertig in `wuerfel-schema.yaml` mit allen drei Achsen. Direkt einsatzbereit für `review-durchfuehren`.
@@ -75,4 +71,3 @@ Würfel-Schema fix und fertig in `wuerfel-schema.yaml` mit allen drei Achsen. Di
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-

@@ -1,6 +1,6 @@
 ---
 name: dsgvo-auskunft-antwort
-description: "Wenn es um Betroffenenanfragen – Art. 15–22 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Betroffenenanfragen – Art. 15–22 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Betroffenenanfragen – Art. 15–22 DSGVO
@@ -53,7 +53,7 @@ description: "Wenn es um Betroffenenanfragen – Art. 15–22 DSGVO in Datenschu
  - Bei Auskunft: vollständige Informationen nach Art. 15 Abs. 1 DSGVO (alle 9 Ziffern) + ggf. Datenkopie Art. 15 Abs. 3 DSGVO.
  - Hinweis auf Beschwerderecht bei Aufsichtsbehörde (Art. 77 DSGVO) in jedem Ablehnungsschreiben.
  - Hinweis auf Klagerecht Art. 79 DSGVO.
- - Keine Gebühren für Erstauskunft; bei offenkundig unbegründeten oder exzessiven Folgeanfragen: angemessenes Entgelt oder Ablehnung nach Art. 12 Abs. 5 DSGVO.
+ - Auskunft grundsätzlich unentgeltlich; nachgewiesene Ausnahme nach Artikel 12 Absatz 5 DSGVO auch beim Erstantrag prüfen, nicht allein auf Folgeanfragen beschränken.
 
 7. **Dokumentation.**
  - Eingang, Frist, Bearbeitungsschritte, Ausnahmen, Ergebnis im Datenschutzregister erfassen.
@@ -72,7 +72,6 @@ Verbindlich nach `../../references/zitierweise.md`.
 - Art. 21 DSGVO (Widerspruch)
 - Art. 77 DSGVO (Beschwerderecht Aufsichtsbehörde)
 - §§ 34, 35 BDSG (Auskunfts- und Löscheinschränkungen)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Kamlah, in: Plath, DSGVO/BDSG, 3. Aufl. 2021, Art. 15 Rn. 1 ff.
 - Dix, in: Simitis/Hornung/Spiecker, Datenschutzrecht, 1. Aufl. 2019, Art. 15 Rn. 1 ff.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
@@ -85,7 +84,6 @@ Verbindlich nach `../../references/zitierweise.md`.
 
 **Identität:** E-Mail-Adresse allein reicht bei reinen Newsletter-Abonnenten aus, wenn keine weiteren personenbezogenen Daten verarbeitet werden. Vgl. EDSA-Leitlinien 01/2022, Abschn. 3.2: Verhältnismäßigkeit der Verifikation.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Ausnahmen:** § 34 BDSG: keine einschlägigen Tatbestände. Art. 17 Abs. 3 DSGVO: nicht relevant (kein Löschantrag). Keine weiteren Ausnahmen erkennbar.
 
@@ -99,13 +97,11 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - **Übermäßige Identitätshürde:** Passverlangen ohne Anlass verletzt Art. 12 Abs. 6 DSGVO; EDSA warnt vor übermäßiger Identifizierung als faktischem Abwehrmittel.
 - **§ 34 BDSG-Ausnahmen ohne Dokumentation:** Ausnahme muss einzelfallbezogen begründet sein; pauschale Verweigerung "wegen Geschäftsgeheimnisse" ist nicht ausreichend.
 - **Datenkopie-Format:** Art. 15 Abs. 3 DSGVO verlangt keine bestimmte Form; ein "strukturiertes, maschinenlesbares Format" ist bei Art. 20 DSGVO (Portabilität) vorgeschrieben, nicht bei Art. 15 Abs. 3 DSGVO – Verwechslung vermeiden.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Rechtliche Grundlage
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+EuGH, Urteil vom 19.03.2026, C-526/24, Brillen Rottler: Auch ein erster Auskunftsantrag kann exzessiv sein, wenn der Verantwortliche die Absicht nachweist, künstlich einen Schadensersatzanspruch herbeizuführen. Kurze Zeitabstände oder frühere Anträge nicht allein genügen lassen; alle Fallumstände würdigen. Eine Auskunftsverletzung kann Artikel 82 auslösen, aber nur bei nachgewiesenem Schaden und Kausalität. [Gerichtliche Pressemitteilung Nr. 38/26](https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/cp260038de.pdf); der Volltextabruf war bei diesem Abgleich blockiert, Randnummern deshalb vor prozessualem Zitat nachprüfen.
 
 Art. 12 Abs. 5 DSGVO erlaubt die Ablehnung eines Auskunftsantrags als "exzessiv" — auch bei Erstantrag, wenn außergewöhnliche Umstände einen Rechtsmissbrauch belegen. Die Hürde ist hoch; das Auskunftsrecht ist ein fundamentales Recht, Ausnahmen sind eng auszulegen.
 
@@ -129,10 +125,9 @@ Beide Stufen müssen kumulativ dokumentiert sein, bevor eine Ablehnung erfolgt:
 
 > Sehr geehrte·r [Name], Ihren Antrag auf Auskunft gemäß Art. 15 DSGVO vom [DATUM] lehnen wir gemäß Art. 12 Abs. 5 Satz 2 Alt. 2 DSGVO als offenkundig exzessiv ab. Im Einzelnen stützen wir die Ablehnung auf folgende dokumentierte Umstände:
 >
-> 1. [Objektives Element – z.B.: Ihre Anmeldung für unseren Newsletter erfolgte am [DATUM], d.h. [N] Tage vor Eingang Ihres Auskunftsantrags, ohne erkennbares Informationsinteresse.]
-> 2. [Subjektives Element – z.B.: Ihr Schreiben enthält bereits bei Antragstellung die Ankündigung von Schadensersatzforderungen nach Art. 82 DSGVO, was in der Gesamtschau auf eine instrumentalisierende Nutzung des Auskunftsrechts hindeutet.]
+> 1. [Konkrete belegte Gesamtumstände erläutern; ein kurzer Zeitraum zwischen Anmeldung und Antrag genügt allein nicht.]
+> 2. [Belegen, weshalb die Gesamtumstände eine Absicht zur künstlichen Schaffung eines Schadensersatzanspruchs nachweisen; eine Schadensersatzankündigung allein genügt nicht.]
 >
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 >
 > Sie haben das Recht, gegen diese Entscheidung Beschwerde bei [zuständige Aufsichtsbehörde] gemäß Art. 77 DSGVO oder Klage gemäß Art. 79 DSGVO zu erheben.
 
@@ -158,7 +153,7 @@ Verantwortlich (DSB-Freigabe): [Name, Datum]
 ### Schadensersatzrisiko bei unberechtigter Ablehnung
 
 - Eine Ablehnung ohne vollständigen zweistufigen Nachweis ist ein eigenständiger DSGVO-Verstoß.
-- Dieser Verstoß löst einen eigenständigen Schadensersatzanspruch nach Art. 82 DSGVO aus — auch wenn die zugrundeliegende Datenverarbeitung vollständig DSGVO-konform war.
+- Dieser Verstoß kann bei nachgewiesenem Schaden und Kausalität einen Schadensersatzanspruch nach Art. 82 DSGVO begründen — auch wenn die zugrundeliegende Datenverarbeitung vollständig DSGVO-konform war.
 - Der bloße Verstoß genügt nicht automatisch; die betroffene Person muss einen konkreten materiellen oder immateriellen Schaden darlegen (z.B. Kontrollverlust, Ungewissheit über Datenverarbeitung). Kein verschuldensunabhängiges Haftungsregime.
 - Eigenverschulden der betroffenen Person (wenn ihr eigenes Verhalten die entscheidende Schadensursache ist) schließt den Anspruch aus.
 
@@ -171,22 +166,6 @@ Verantwortlich (DSB-Freigabe): [Name, Datum]
 ### Querverweise
 
 - `datenschutzrecht/skills/dsgvo-auskunft/SKILL.md` — Abschnitt "Rechtsmissbrauch" mit vollständigem Prüfschema und Indizien-Checkliste
-
-## Ergänzende Rechtsprechung (Aktualitäten)
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Quellen / Updates
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Aktuelle Rechtsprechung (v14.2 — Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 
@@ -228,11 +207,7 @@ Mit freundlichen Grüßen
 [NAME, FUNKTION, DSB-KONTAKT]
 ```
 
-<!-- AUDIT 27.05.2026 | bundle_053
-Geprüft: BGH VI ZR 7/21 (WRONG_TOPIC: dejure.org zeigt Kfz-Unfall/fiktive Schadensabrechnung, NJW 2022, 1884; nicht Verjährung DSGVO-Schadensersatz)
-Ersatz: BGH VI ZR 97/22, ZIP 2023, 2472 (verifiziert auf dejure.org — Vorlage EuGH zu Art. 82 DSGVO immateriellem Schaden)
-Thema: DSGVO Art. 82 Schadensersatz — thematisch passend für DSGVO-Kontext
--->
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -242,3 +217,4 @@ Thema: DSGVO Art. 82 Schadensersatz — thematisch passend für DSGVO-Kontext
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

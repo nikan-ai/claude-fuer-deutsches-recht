@@ -1,6 +1,6 @@
 ---
 name: untersuchung-ergaenzen
-description: "Wenn es um Untersuchung Ergaenzen in Arbeitsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Untersuchung Ergänzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fügt einer laufenden internen Untersuchung neue Daten hinzu — Dokumente, Befragungsnotizen oder Beobachtungen
@@ -20,8 +20,6 @@ description: "Wenn es um Untersuchung Ergaenzen in Arbeitsrecht geht: ordnet Akt
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Untersuchungs-Datenpflege (Arbeitsrecht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -53,15 +51,12 @@ description: "Wenn es um Untersuchung Ergaenzen in Arbeitsrecht geht: ordnet Akt
 
 **Leitentscheidungen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Beweisverwertungsverbot bei rechtswidrig erlangten Dokumenten — heimliche
  Videoüberwachung ohne Betriebsratsinhaber führt zum Verwertungsverbot
  auch im Kündigungsschutzprozess; Grundsatz gilt sinngemäß für
  rechtswidrig ausgewertete Kommunikation
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Verdachtskündigung — Anforderungen an die Dokumentation des Tatverdachts;
  objektive Schwere; inhaltliche Mindestanforderungen an die Anhörung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Erstattungsfähigkeit von Untersuchungskosten (Detektivkosten) — nur bei
  konkreter Verdachtslage bei Beauftragung und Verhältnismäßigkeit
 
@@ -174,7 +169,6 @@ Bei Ausgaben zu Dokumentenverarbeitung zitieren:
 - Paragraf 87 Abs. 1 Nr. 6 BetrVG (Mitbestimmung)
 - Art. 5 Abs. 1 lit. c DSGVO (Datenminimierung)
 - Paragraf 626 Abs. 2 BGB (Zwei-Wochen-Frist, Kenntnisdatum)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Beschäftigtendatenschutz: Paragraf 26 BDSG, Art. 5 und 6 DSGVO; Fachliteratur nur mit Nutzerquelle oder verifiziertem Live-Zugriff.
 
 Detaillierte Auswahlkriterien, Protokolleintrag-Format und
@@ -183,12 +177,10 @@ Deckungsverifikationsregeln befinden sich in der Referenz-Skill
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-## Ergänzende Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor der Dateneingabe klären
 
 1. Handelt es sich um neue Zeugenaussagen, Dokumentenlieferung oder anwaltliche Notizen?
 2. Liegt eine Paragraf 87 Abs. 1 Nr. 6 BetrVG-freigabe für E-Mail-/IT-Auswertungen vor?
 3. Begründet die neue Erkenntnis erstmals einen konkreten Tatverdacht? → Dann Kenntnisdatum für Paragraf 626 Abs. 2 BGB festhalten!
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: energieanlagen-leasing-pv-batteriespeicher-waermepumpe
-description: "Wenn es um Energieanlagen-Leasing: PV, Batteriespeicher, Wärmepumpe in Leasingrecht Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Energieanlagen-Leasing: PV, Batteriespeicher, Wärmepumpe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Energieanlagen-Leasing: PV, Batteriespeicher, Wärmepumpe
@@ -64,8 +64,8 @@ description: "Wenn es um Energieanlagen-Leasing: PV, Batteriespeicher, Wärmepum
 
 ## Wärmepumpen-Leasing
 
-- Heizungsgesetz (GEG 2024): Neue Heizungen ab 2024 müssen zu 65 % mit erneuerbarer Energie betrieben werden
-- Wärmepumpe + Leasing: Gefördert durch BEW (Bundesförderung effiziente Wärmenetze) und BAFA
+- Vor Abschluss Einbaudatum, Gebäudeart und Technik nach dem seit 29.07.2026 geltenden GModG prüfen; die früheren §§ 71–73 sind weggefallen. Für Gas-/Öl-/Flüssiggasheizungen im Bestand regelt § 43 künftige Brennstoffquoten und in Absatz 6 die Pflichten des vom Eigentümer verschiedenen Betreibers. Im Leasingvertrag Beschaffung, Nachweise und Betriebskosten dieser Person konkret zuordnen; keine pauschale 65-Prozent-Pflicht behaupten. Amtlicher Normanker: https://www.gesetze-im-internet.de/geg/__43.html .
+- Förderfähigkeit des konkreten Leasing-/Contractingmodells im einschlägigen Programm prüfen: antragsberechtigte Person, förderfähige Kosten, Eigentums-/Nutzungsbedingungen und Zeitpunkt des Vorhabenbeginns. Förderung einer einzelnen Gebäudeheizung nicht aus einem Wärmenetzprogramm ableiten und keinen Zuschuss vor Bewilligung zusagen.
 - Eigentumsrecht: Fest eingebaut → § 94 BGB-Problematik; § 95 BGB prüfen
 
 ## ESG und Green Finance

@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um Ersteinrichtungsinterview in Plugin: Gewerblicher Rechtsschutz geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ersteinrichtungsinterview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ersteinrichtungsinterview
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Eingaben
 
@@ -112,7 +110,6 @@ Dieses Interview-Skill zitiert keine primären Rechtsquellen; es konfiguriert da
 
 ## Rechtlicher Hintergrund: Relevante Normen bei Kanzleieinrichtung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 43a Abs. 2 BRAO – Verschwiegenheitspflicht: Schutzrechtsportfolio und Genehmigungsmatrix enthalten mandantenbezogene Daten und unterliegen der Verschwiegenheit; nur in gesicherter Umgebung speichern.
 - § 203 StGB – Schutz mandantenbezogener Daten: Weitergabe des Kanzleiprofils an Dritte ohne Mandantenzustimmung strafbewehrt.
 - FAO § 14k – Fachanwalt gewerblicher Rechtsschutz: Einrichtung des Profils hilft beim Nachweis der Fallzahlen (80 Fälle in 3 Jahren, davon 50 rechtsfoermlich) durch strukturiertes Mandatsmanagement.
@@ -125,8 +122,4 @@ Dieses Interview-Skill zitiert keine primären Rechtsquellen; es konfiguriert da
 - **Integrationsstatus nicht verifiziert:** Das Plugin prüft nicht ob eine Datenbank tatsächlich erreichbar ist; Nutzer darauf hinweisen, dass `--check-integrations` dies jederzeit prüfen kann.
 - **Vertraulichkeit:** Das Kanzleiprofil enthält mandantenbezogene Strukturinformationen; nicht in Klartext über ungesicherte Kanäle übertragen (§ 43a Abs. 2 BRAO, § 203 StGB).
 
-<!-- AUDIT 27.05.2026
-Task: Bundle 031 / Halluzinations-Reparatur
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Korrektur: GRUR 2019, 748 → GRUR 2019, 746. Verifiziert via damm-legal.de und dejure.org.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

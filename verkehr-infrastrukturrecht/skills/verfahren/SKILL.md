@@ -1,6 +1,6 @@
 ---
 name: verfahren
-description: "Wenn es um Verkehrsrechtliche Verfahren — Widerspruch, Klage, Eilschutz in Verkehrs- und Infrastrukturrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Verkehrsrechtliche Verfahren — Widerspruch, Klage, Eilschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verkehrsrechtliche Verfahren — Widerspruch, Klage, Eilschutz
@@ -39,10 +39,6 @@ Anhörung, Widerspruch, Klage und Eilverfahren im Verkehrsinfrastrukturrecht vor
 - § 123 VwGO — Vorlaeufiger Rechtsschutz bei Leistungs- und Feststellungsbegehren
 - § 28 VwVfG — Anhörungspflicht vor belastendem Verwaltungsakt
 - § 68 VwGO — Vorverfahren (Widerspruch) als Zulassungsvoraussetzung
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -155,3 +151,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - Akteneinsicht vor Begruendungseinreichung anfordern
 - Keine pauschalen Ermessensfehler — konkrete Sachverhaltsbindung nachweisen
 - Unterschied Anfechtungsklage (aufheben) vs. Verpflichtungsklage (genehmigen) klarhalten
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

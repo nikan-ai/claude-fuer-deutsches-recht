@@ -1,6 +1,6 @@
 ---
 name: abwaegungsgebot-1-abs-7-baugb
-description: "Wenn es um Abwägungsgebot Paragraf 1 Abs. 7 BauGB in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Abwägungsgebot Paragraf 1 Abs. 7 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abwägungsgebot § 1 Abs. 7 BauGB
@@ -157,25 +157,3 @@ description: "Wenn es um Abwägungsgebot Paragraf 1 Abs. 7 BauGB in Normenkontro
 - **BVerwG 23.06.2020, 9 A 22.19** (Klimaschutz-Belang Verkehrsplanung; uebertragbar auf Bauleitplanung): Klima als bei Planungen zwingend einzustellender Belang. Quelle: bverwg.de.
 
 Konkrete Entscheidungen vor Verwendung per bverwg.de mit Datum verifizieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 47 VwGO
-- § 215 BauGB
-- § 1 BauGB
-- § 214 BauGB
-- § 2 BauGB
-- § 50 BImSchG
-- § 10 BauGB
-- § 9 BauGB
-- § 14 BauGB
-- § 12 BauGB
-- § 44 BNatSchG
-- § 3 BauGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-urheber-medienrecht-orientierung
-description: "Wenn es um Fachanwalt fuer Urheber- und Medienrecht — Orientierung in Fachanwalt Urheber Medienrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fachanwalt für Urheber- und Medienrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fachanwalt fuer Urheber- und Medienrecht — Orientierung
@@ -53,10 +53,6 @@ KI-Training und Text-Data-Mining?
 | EU-Recht | InfoSoc-RL 2001/29; DSM-RL 2019/790; DSA |
 | KI-Training | § 44b UrhG; DSM-RL Art. 3, 4 |
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Typische Mandate mit Zeitschiene
 
 | Mandatstyp | Erstschritte | Frist |
@@ -83,3 +79,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Bei markenrechtlichen Aspekten: Plugin `gewerblicher-rechtsschutz` / `fachanwalt-gewerblicher-rechtsschutz`.
 - Bei Verlagsvertraegen: Plugin `verlagsredaktion`.
 - Bei Plattformhaftung/DSA: Plugin `fachanwalt-it-recht` / DSA-Kompetenz.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

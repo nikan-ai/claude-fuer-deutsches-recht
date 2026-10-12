@@ -1,6 +1,6 @@
 ---
 name: aktenstripper
-description: "Wenn es um JVEG-Aktenstripper in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für JVEG-Aktenstripper: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # JVEG-Aktenstripper
@@ -63,25 +63,3 @@ Strukturierte JVEG-Datenmatrix; jede Position mit Norm, Betrag und Belegnummer.
 - Keine Rechtsberatung; Prüfung auf Plausibilität und Normkonformität.
 - Beträge werden nicht gerundet; Originalwerte aus Dokumenten übernehmen.
 - Hinweis: Keine Rechtsberatung. Ausgaben dienen der internen Arbeitsvorbereitung.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 JVEG
-- § 23 JVEG
-- § 4 JVEG
-- § 8a JVEG
-- § 2 JVEG
-- § 3 JVEG
-- § 7 JVEG
-- § 9 JVEG
-- § 6 JVEG
-- § 12 JVEG
-- § 8 JVEG
-- § 22 JVEG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: betriebskosten-formell
-description: "Wenn es um Betriebskosten Formell in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Betriebskosten Formell: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Formelle Ordnung der Betriebskostenabrechnung: Mindestangaben nach BGH VIII ZR 84/07, Abrechnungseinheit, Gesamtkosten, Verteilerschlüssel, Mieteranteil, Vorauszahlungen, Saldo, Zugang und Abgrenzung zu bloß materiellen Fehlern.
@@ -20,8 +20,6 @@ description: "Wenn es um Betriebskosten Formell in Fachanwalt Miet- und Wohnungs
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Betriebskosten formelle Ordnung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -67,23 +65,12 @@ Zitiere als tragenden Anker BGH, Urteil vom 09.04.2008 - VIII ZR 84/07 nur mit f
 
 ## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+- Paragraf 556 Absatz 3 BGB: Abrechnungszeitraum, Abrechnungsfrist, Nachforderungsausschluss und Einwendungsfrist.
+- Paragraf 259 BGB: nachvollziehbare Rechnungslegung und Belegeinsicht.
+- BGH, Urteil vom 9. April 2008 - VIII ZR 84/07: Ein aus sich heraus unverständlicher Verteilerschlüssel ist ein formeller Mangel.
+- BGH, Urteil vom 9. Dezember 2020 - VIII ZR 118/19: Die Belegeinsicht erstreckt sich auch auf Zahlungsbelege.
+- BGH, Urteil vom 25. Januar 2017 - VIII ZR 249/15: Der ausstehende WEG-Beschluss über die Jahresabrechnung verschiebt die mietrechtliche Abrechnungsfrist grundsätzlich nicht.
 
-- § 20 WEG
-- § 16 WEG
-- § 44 WEG
-- § 49 GKG
-- § 23 WEG
-- § 45 WEG
-- § 24 WEG
-- § 9a WEG
-- § 25 WEG
-- § 19 WEG
-- § 9b WEG
-- § 10 WEG
+## Vertiefung bei Bedarf
 
-### Leitentscheidungen
-
-- BGH VIII ZR 118/19
-- BGH VIII ZR 84/07
-- BGH VIII ZR 249/15
+- Bei `spezial-betriebskosten-formell` beziehungsweise Betriebskosten formelle Ordnung: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-betriebskosten-formell.md).

@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "plugin": "ki-richtlinie-kanzleien",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 4 neuer Fassung: kontextbezogene Kompetenzförderung, keine Garantie eines bestimmten individuellen Niveaus; Pflicht bleibt bestehen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/ki-mig/__2.html",
+      "checked_on": "2026-09-14",
+      "supports": "Zuständigkeitsabgrenzungen statt pauschaler Alleinzuständigkeit der Bundesnetzagentur."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 33 mit 72-Stunden-Bezug weiterhin Grundlage der bestehenden Vorfallregel."
+    },
+    {
+      "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0360%28COD%29",
+      "checked_on": "2026-09-14",
+      "supports": "Offenes Gesetzgebungsverfahren, keine bereits geltende Datenschutzreform."
+    },
+    {
+      "url": "https://nrwe.justiz.nrw.de/ag_koeln/j2025/312_F_130_25_Beschluss_20250702.html",
+      "checked_on": "2026-09-22",
+      "supports": "AG Köln, Beschluss vom 02.07.2025, 312 F 130/25, Randnummern 23 und 24: Amtlicher Volltext gelesen: erfundene und falsch zugeordnete Fundstellen beanstandet; konkrete Originalkontrolle vor externer Verwendung als Kanzleistandard. Grenze: Keine disziplinarrechtliche Verurteilung, kein allgemeines KI-Verbot oder Urteil zum geänderten Artikel 4; KI-Ursprung nur als offenbar angenommen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Absätze 2 bis 4: Verschwiegenheit, Sachlichkeit und Interessenwiderstreit gelten auch bei Werkzeugnutzung; Verbot bewusster Unwahrheiten vom bloßen Irrtum unterscheiden."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Artikel 1 Nummern 5, 6, 39 und 40: geänderte Artikel 4/4a und Übergangsregeln in Artikeln 111/113; konkrete Bedingungen und zeitlichen Geltungsbeginn beachten, kein Urteil zur Reform."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/ki-mig/__2.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Zuständigkeitsabgrenzungen nach Absätzen 1 bis 3, insbesondere Sonderzuständigkeiten statt pauschaler Alleinzuständigkeit der Bundesnetzagentur."
+    },
+    {
+      "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0360%28COD%29",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Verfahren 2025/0360(COD) laut Verfahrensseite noch offen; vorgeschlagene Datenschutzänderung einschließlich 96-Stunden-Frist nicht als geltendes Recht behandeln."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-23",
+      "supports": "Am 23.09.2026 erneut gelesen: Dienstleisterzugang und mandatsbezogene Einwilligung sind nicht allein mit einer allgemeinen Nutzungsrichtlinie oder Trainingssperre geklärt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kompetenzabschnitt mit einschlägigem gerichtlichem Quellenfehlerfall verbunden, ohne den alten Beschluss als Rechtsprechung zur Reform auszugeben. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest. Individueller Workflow-Durchgang am 23.09.2026: Supportzugriff trotz Trainingssperre -> Daten-/Dienstleisterregel ändern; reine Anlagenzuordnung -> Übung und Kontrolle auf diese Rolle begrenzen.",
+    "changes": [
+      "AG Köln 312 F 130/25 als begrenzten Quellenkontrollanker angewendet.",
+      "Veröffentlichung, Syndikusrolle, Anonymisierung und autonome Außenhandlungen präzisiert.",
+      "Artikel 4, 4a, 111 und 113 der Änderungsverordnung sowie offenes Datenschutzverfahren amtlich gegengeprüft.",
+      "Vier eigenständige Eingabemodi und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "7f801252cfb14736d2119d28103d9f93fbfe1821e3c3cd374433f8c6b288a65f"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig von wiederholten Produktionsrastern befreit; zwölf konkrete Regelungsfelder sowie bestehende Reformwege erhalten. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest. Individueller Workflow-Durchgang am 23.09.2026: Operative Datenerlaubnis, Pseudonymisierungsvorbehalt, Originalkontrollübung, unterschiedliche Assistenz-/Rechercheübungen und Korrekturpfad vor bzw. nach Versand.",
+    "changes": [
+      "AG Köln 312 F 130/25 als begrenzten Quellenkontrollanker angewendet.",
+      "Veröffentlichung, Syndikusrolle, Anonymisierung und autonome Außenhandlungen präzisiert.",
+      "Artikel 4, 4a, 111 und 113 der Änderungsverordnung sowie offenes Datenschutzverfahren amtlich gegengeprüft.",
+      "Operative Datenerlaubnis, Pseudonymisierungsvorbehalt, Originalkontrollübung, unterschiedliche Assistenz-/Rechercheübungen und Korrekturpfad vor bzw. nach Versand."
+    ],
+    "sha256": "2de39605e1dce29989c9757ab84599a8a93f71f3608f251855c0f05dde95e577"
+  },
+  "selection": {
+    "positive": [
+      "Überarbeite den Kompetenzabschnitt unserer Kanzleirichtlinie für Recherche und Assistenz.",
+      "Formuliere eine operative Regel zur Prüfung generierter Fundstellen vor Versand."
+    ],
+    "negative": [
+      "Klassifiziere ein industrielles Sicherheitsbauteil abschließend nach Produktrecht.",
+      "Erstelle die gesetzliche Fachanwaltsfortbildungsbescheinigung für einen allgemeinen Softwarekurs."
+    ]
+  },
+  "cases": [
+    {
+      "id": "einweisung-statt-zertifikatspflicht",
+      "request": "Überarbeite in ergebnis.md nur den Kompetenzabschnitt einer Kanzleirichtlinie zum Stand 14. September 2026. Der bestehende Absatz verlangt angeblich kraft Artikel 4 jährlich acht Stunden zertifizierten Unterricht und garantiert für sämtliche Beschäftigten dasselbe Kompetenzniveau. Tatsächlich verwenden vier Assistenzkräfte ein freigegebenes Werkzeug nur für Anlagenzuordnung; drei Anwälte nutzen es für Rechercheentwürfe. Alle haben bereits eine dokumentierte Einführung erhalten. Ein beobachteter Fehler betraf eine erfundene Fundstelle im Rechercheentwurf. Die Kanzleileitung hat keinen strengeren internen Stundenstandard beschlossen. Entwirf einen passenden Ersatz mit einer konkreten Übung und kurzer Änderungsbegründung, ohne die übrige Richtlinie neu zu schreiben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Ersatzregel entfernt die unbelegte gesetzliche Achtstunden- und Zertifikatspflicht sowie die individuelle Niveaugarantie, ohne Kompetenzförderung insgesamt zu streichen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Maßnahmen unterscheiden Assistenz und Recherche, berücksichtigen die vorhandene Einführung und adressieren den konkreten Fundstellenfehler mit einer überprüfbaren Übung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Ausgabe bleibt beim angeforderten Abschnitt und behauptet weder beschlossene Einführung noch automatische Fachanwaltsfortbildungsanerkennung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "ki-kompetenz-erwerb-plan"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-werkstatt.md",
+      "ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-schnellstart.md",
+      "ki-richtlinie-kanzleien/README.md",
+      "quality/evals/ki-richtlinie-kanzleien.json"
+    ],
+    "opening_change": "Konkrete Datenfreigabe und Fehlerkontrolle vor externer Verwendung statt allgemeiner Systemrichtlinie.",
+    "norms": [
+      "BRAO Paragrafen 43, 43a Absätze 2 bis 4 und 43e",
+      "Verordnung (EU) 2024/1689 Artikel 4, 4a, 50, 111 und 113 in der Fassung 2026/1744",
+      "KI-MIG Paragraf 2"
+    ],
+    "decisions": [
+      {
+        "citation": "AG Köln, Beschluss vom 02.07.2025, 312 F 130/25, Randnummern 23 und 24",
+        "url": "https://nrwe.justiz.nrw.de/ag_koeln/j2025/312_F_130_25_Beschluss_20250702.html",
+        "application": "Amtlicher Volltext gelesen: erfundene und falsch zugeordnete Fundstellen beanstandet; konkrete Originalkontrolle vor externer Verwendung als Kanzleistandard.",
+        "limit": "Keine disziplinarrechtliche Verurteilung, kein allgemeines KI-Verbot oder Urteil zum geänderten Artikel 4; KI-Ursprung nur als offenbar angenommen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "Keine vollständige Verifikation aller Urheber-, Datenschutz- und Beschäftigtenschutzfragen.",
+      "README enthält weiterhin überholte Hochrisikofrist und teils starre Schulungsangaben; außerhalb des Schreibbereichs nicht geändert.",
+      "Workflow-Ergänzung am 23.09.2026: desk review; keine Live-Client-Ausführung, keine Installation, Übermittlung oder technische Funktionsprüfung. Bestehende Entscheidungsprüfung vom 22.09.2026 nicht als heutiger Neuabruf ausgegeben.",
+      "Verordnung (EU) 2026/1744 am 23.09.2026 über ELI, HTML und PDF erneut angefragt, aber durch JavaScript-/Bot-Prüfung blockiert. Vorhandene differenzierte Rechtsstanddarstellung und frühere Quellenprüfung erhalten; keine neue Volltextverifikation dieses Änderungsakts behauptet."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leere Eingabe: Mandatsdaten, Fundstellenkontrolle oder rollengerechte Einweisung auswählen.",
+      "Dateien ohne Aufgabe: Richtlinie und Vertragsanhänge still lesen, betroffenen Regelungsabschnitt klären.",
+      "Klarer Auftrag: Ersatzabschnitt direkt ausschreiben; keine Gesamtinventur oder zusätzliche Mandatsannahme."
+    ],
+    "continuation": "Supportzugriff trotz Trainingssperre -> Daten-/Dienstleisterabschnitt in ki-richtlinie.md ändern; reine Anlagenzuordnung -> dort nur passende Übung und Kontrollregel ergänzen, unveränderte Abschnitte erhalten.",
+    "enrichment": "Operative Datenerlaubnis, Pseudonymisierungsvorbehalt, Originalkontrollübung, unterschiedliche Assistenz-/Rechercheübungen und Korrekturpfad vor bzw. nach Versand.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md",
+    "focus": "Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

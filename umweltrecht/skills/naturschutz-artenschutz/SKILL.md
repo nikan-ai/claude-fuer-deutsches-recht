@@ -1,6 +1,6 @@
 ---
 name: naturschutz-artenschutz
-description: "Wenn es um Naturschutz und Artenschutz in Umweltrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Naturschutz und Artenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Naturschutz und Artenschutz
@@ -34,10 +34,6 @@ description: "Wenn es um Naturschutz und Artenschutz in Umweltrecht geht: prüft
 - **§ 1 UmwRG** — Klagebefugnis anerkannter Umweltvereinigungen
 - **§ 2 UmwRG** — Verbandsklage ohne Selbstbetroffenheit
 - **Art. 12 FFH-Richtlinie 92/43/EWG** — Europaeischer Artenschutz strenge Verbote
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -95,7 +91,6 @@ Die saP vom [DATUM] genuegt nicht den Anforderungen:
 III. FFH-Vertraeglichkeit § 34 BNatSchG
 Das FFH-Gebiet [NAME] liegt [X] m entfernt. Eine FFH-VS liegt nicht vor,
 obwohl erhebliche Beeintraechtigung des Schutzzwecks [ZIELART] nicht
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 IV. Antrag
 Die Genehmigung darf erst erteilt werden, wenn aktuelle saP und FFH-VS
@@ -122,3 +117,5 @@ vorgelegt und ausgelegt werden.
 - `klimaklagen-verbandsklage-umwrg` — Verbandsklage Klimaschutz
 - `energieanlagen-bimschg-genehmigung-verfahren` — Artenschutz bei Energieanlagen
 - `fachanwalt-verwaltungsrecht-drittanfechtung-umwelt` — Drittanfechtung Naturschutz
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

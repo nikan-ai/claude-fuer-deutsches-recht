@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sportrecht-doping-cas-berufung
-description: "Wenn es um Doping-Berufung CAS in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Doping-Berufung CAS: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Doping-Berufung CAS
@@ -15,7 +15,6 @@ Verteidigung Athlet bei Doping-Vorwurf.
 
 - Athlet haftet **ohne Verschulden** für positive Tests
 - Auch bei kontaminiertem Nahrungsergänzungsmittel
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Verbotene Substanzen
 
@@ -119,3 +118,5 @@ Verteidigung Athlet bei Doping-Vorwurf.
 - `fachanwalt-sportrecht-orientierung` — Triage
 - `cas-berufung-vorbereiten` (Power-Tool) — Vorbereitung
 - `verbandsstrafe-anfechten` — bei Verbands-Sanktion
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

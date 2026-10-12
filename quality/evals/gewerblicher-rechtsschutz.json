@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "plugin": "gewerblicher-rechtsschutz",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/markeng/__24.html",
+      "checked_on": "2026-09-14",
+      "supports": "Territorialer Bezug der Erschöpfung und berechtigte Gründe gegen weiteren Vertrieb."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:61996CJ0355",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 16.07.1998, Az. C-355/96, Silhouette, Randnummern 25 bis 31. Anwendung: Keine allgemeine internationale Erschöpfung bei Erstvertrieb außerhalb des EWR; konkrete Charge und Zustimmung prüfen. Grenze und Prüfzugang: Historische Richtlinie, heutige Anspruchsgrundlage separat; spätere EWR-Zustimmung nicht ausgeschlossen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/markeng/__24.html",
+      "checked_on": "2026-09-22",
+      "supports": "EU-/EWR-Erstvertrieb und berechtigte Widerspruchsgründe."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/patg/__140c.html",
+      "checked_on": "2026-09-23",
+      "supports": "Gegnerische Beweismittel durch bedingte Vorlage- und Besichtigungsprüfung wieder in den Arbeitsablauf aufgenommen. Amtlichen Normtext gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__142.html",
+      "checked_on": "2026-09-23",
+      "supports": "Gegnerische Beweismittel durch bedingte Vorlage- und Besichtigungsprüfung wieder in den Arbeitsablauf aufgenommen. Amtlichen Normtext gelesen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Echtheit und EWR-Erstvertrieb werden getrennt; eine China-Charge wird nicht durch Vertrieb einer anderen Charge in Frankreich frei.",
+    "changes": [
+      "Silhouette in die Erschöpfungsprüfung eingebaut",
+      "Vollziehung und Ordnungsmittel von automatischen Sanktionen getrennt",
+      "Mehrfache allgemeine Abläufe durch konkrete Vertrags-, Plattform- und Belegfragen ersetzt",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "e59b9965a4e770fe76ad74deae0e3a99039b05d2695390c121e996e58a61215a"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Schutzrechte, Geheimnisse, OSS, Abmahnung, Plattform und Vollstreckung fachbezogen gestrafft; keine Patentanspruchsformulierung außerhalb des Pluginumfangs.",
+    "changes": [
+      "Silhouette in die Erschöpfungsprüfung eingebaut",
+      "Vollziehung und Ordnungsmittel von automatischen Sanktionen getrennt",
+      "Mehrfache allgemeine Abläufe durch konkrete Vertrags-, Plattform- und Belegfragen ersetzt",
+      "Gegnerische Beweismittel durch bedingte Vorlage- und Besichtigungsprüfung wieder in den Arbeitsablauf aufgenommen.",
+      "Chargenbezogene Erschöpfung, verdeckte Produktmerkmale, Reichweite von Unterlassung und Nutzungsrechten sowie Freigabe externer Schritte."
+    ],
+    "sha256": "162e187d7d0694e87fde6effff46a0009dfa600b28ec4a9edcb3fa6c09e9a46c"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Erschöpfung für zwei Chargen originaler Markenware.",
+      "Ordne einen Konflikt nach Marke, technischem Schutzrecht und konkreter Verletzungshandlung."
+    ],
+    "negative": [
+      "Bewerte nur eine ärztliche Analogabrechnung.",
+      "Entwirf einen landwirtschaftlichen Pachtvertrag ohne Schutzrechtsbezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "originalware-zwei-erstvertriebsgebiete",
+      "request": "Erstelle ergebnis.md als Verkaufsrisikovermerk nach deutschem Markenrecht. Ein Händler möchte zwei unveränderte Originalchargen desselben Markenprodukts in Deutschland verkaufen. Charge A wurde nach belegter Zustimmung des Markeninhabers erstmals in Frankreich verkauft. Charge B wurde vom Markeninhaber erstmals in China verkauft; eine Zustimmung zum Inverkehrbringen im EU-/EWR-Raum ist ausdrücklich nicht erteilt. Beide Chargen sind echt, unverändert und ordnungsgemäß gelagert. Andere Schutzrechte und besondere Widerspruchsgründe stehen nicht im Raum. Beurteile beide Chargen getrennt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Charge A wird aufgrund des autorisierten französischen Erstvertriebs unter der Erschöpfungsregel beurteilt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Charge B erhält nicht allein wegen Echtheit und Erstverkauf durch den Inhaber eine EU-/EWR-Erschöpfungsfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Empfehlung bleibt chargenbezogen und verwechselt die Erschöpfungsfrage nicht mit Fälschung oder pauschaler internationaler Erschöpfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "mandat-triage-gewerblicher-rechtsschutz"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "gewerblicher-rechtsschutz/gewerblicher-rechtsschutz-werkstatt.md",
+      "gewerblicher-rechtsschutz/gewerblicher-rechtsschutz-schnellstart.md",
+      "gewerblicher-rechtsschutz/README.md",
+      "quality/evals/gewerblicher-rechtsschutz.json"
+    ],
+    "opening_change": "Produkt, Zeichen und Erstvertrieb der konkreten Charge bilden den Einstieg; keine obligatorische Portfolioaufnahme.",
+    "norms": [
+      "Paragrafen 14 und 24 MarkenG",
+      "Artikel 7 Richtlinie 89/104/EWG als historische Entscheidungsnorm",
+      "Paragrafen 922, 929 und 936 ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 16.07.1998, Az. C-355/96, Silhouette, Randnummern 25 bis 31",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:61996CJ0355",
+        "application": "Keine allgemeine internationale Erschöpfung bei Erstvertrieb außerhalb des EWR; konkrete Charge und Zustimmung prüfen.",
+        "limit": "Historische Richtlinie, heutige Anspruchsgrundlage separat; spätere EWR-Zustimmung nicht ausgeschlossen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "Keine komplette Neuverifikation der zahlreichen OSS-, Register- und Verfahrenszweige.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Verletzung, Abmahnungsantwort oder Lizenz wählen.",
+      "Schutzrechts- und Produktbelege still lesen; Merkmalsabgleich oder Antwort anbieten.",
+      "Bestellten Schutzrechtsentwurf ohne allgemeine Schutzrechtsübersicht verfassen."
+    ],
+    "continuation": "Belegte EWR-Erstvermarktung -> chargenbezogene Erschöpfung; verborgenes Merkmal -> Beweisweg; Lizenzumfang -> Unterlassungstext ändern.",
+    "enrichment": "Chargenbezogene Erschöpfung, verdeckte Produktmerkmale, Reichweite von Unterlassung und Nutzungsrechten sowie Freigabe externer Schritte.",
+    "limits": "desk review; no live client execution"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "plugin": "kanzlei-builder-hub",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-14",
+      "supports": "Erforderlicher Geheimniszugang, sorgfältige Auswahl, Textformvertrag, weitere Personen, Auslandsbezug und Einwilligung bei unmittelbar mandatsspezifischer Dienstleistung; Datenschutz bleibt unberührt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 43e BRAO gelesen; Bezug: Tatsächliche Zugriffe mit Kanzleiprozess und Geheimnisschutz abgleichen. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/de/ALL/?uri=CELEX%3A62021CJ0340",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 14.12.2023, C-340/21: Bei personenbezogenen Aktenzugriffen Risiken und tatsächliche Schutzmaßnahmen prüfen; Sicherheitsabsicht und Werbung genügen nicht. Amtlicher Volltext Rn. 24 bis 64 gelesen. Datenschutzmaßstab, keine Produktzulassung und kein pauschales Verbot externer Dienste."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32016R0679",
+      "checked_on": "2026-09-22",
+      "supports": "Artikel 24 und 32 im amtlichen Text gelesen: risikobezogene tatsächliche Maßnahmen, Nachweis und Überprüfung; keine Softwarezertifizierung oder pauschale Sicherheitsgarantie."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-23",
+      "supports": "Am 23.09.2026 erneut gelesener Normtext: Umfang und Vertragsbedingungen des Dienstleisterzugangs; stützt die gezielte Nachforderung. Kein technischer Sicherheitsnachweis."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Tatsächliche Zugriffe mit Kanzleiprozess und Geheimnisschutz abgleichen. Der Kurzprompt behandelt diesen konkreten Ausgangsfall mit begrenztem Entscheidungsmaßstab und vollständigem bestelltem Ergebnis. Individueller Workflow-Durchgang am 23.09.2026: Reduzierte Rechtekonfiguration oder Dienstleistervertrag -> Zugriffsmatrix, Testumfang und konkrete Freigabeklausel aktualisieren; keine automatische Installation.",
+    "changes": [
+      "Zwölf Arbeitsbereiche konkret ausformuliert; Scheindokumentenpakete und pauschale Handaktenpflicht für Deinstallation entfernt; reale risikobezogene Sicherheitsprüfung statt Gütesiegel.",
+      "Bei personenbezogenen Aktenzugriffen Risiken und tatsächliche Schutzmaßnahmen prüfen; Sicherheitsabsicht und Werbung genügen nicht.",
+      "Vier eigenständige Eingabemodi und fachbezogene Antwortfortsetzung ergänzt.",
+      "Kurzes Fachdialogbeispiel mit entscheidender Frage und konkreter Änderung des bestellten Dokuments ergänzt."
+    ],
+    "sha256": "804f2e0fe2c888cb22694e9e87e70ddbfd23f682baa8cc2102a74de670376e21"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Zwölf Arbeitsbereiche konkret ausformuliert; Scheindokumentenpakete und pauschale Handaktenpflicht für Deinstallation entfernt; reale risikobezogene Sicherheitsprüfung statt Gütesiegel. Die vollständige Werkstatt wurde einschließlich Rückfragen, Fortsetzung und Auftragsgrenzen redaktionell durchgesehen. Individueller Workflow-Durchgang am 23.09.2026: Versionsgebundene Einsatzentscheidung, Nachforderung zum Support- und Empfängerzugriff, schadensbezogene Testfälle, technische Abbruchpunkte und begrenzter Freigabetext.",
+    "changes": [
+      "Tatsächliche Zugriffe mit Kanzleiprozess und Geheimnisschutz abgleichen.",
+      "Bei personenbezogenen Aktenzugriffen Risiken und tatsächliche Schutzmaßnahmen prüfen; Sicherheitsabsicht und Werbung genügen nicht.",
+      "Versionsgebundene Einsatzentscheidung, Nachforderung zum Support- und Empfängerzugriff, schadensbezogene Testfälle, technische Abbruchpunkte und begrenzter Freigabetext."
+    ],
+    "sha256": "ecf4bf7f8365e68c250f3778fd61ad0fafd3b7a030853391f7d07f6c3a434763"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Rechte einer vorgeschlagenen Erweiterung vor Kanzleieinsatz.",
+      "Erstelle einen isolierten Testplan für einen neuen Fristennotiz-Workflow."
+    ],
+    "negative": [
+      "Fasse ohne Erweiterungsprüfung meine Vertragsakte zusammen.",
+      "Installiere ohne Sicherheitsprüfung sämtliche gefundenen Werkzeuge."
+    ]
+  },
+  "cases": [
+    {
+      "id": "fristenvorlage-mit-vollzugriff",
+      "request": "Bewerte in ergebnis.md eine noch nicht installierte Erweiterung für Fristennotizen. Laut Beschreibung erzeugt sie aus einem eingegebenen Zustellungsdatum eine Textnotiz. Die gelesene Konfiguration verlangt jedoch Schreibzugriff auf das gesamte Aktenlaufwerk und sendet vollständige Eingaben an einen nicht näher beschriebenen externen Auswertungsdienst. Ein Dienstleistungsvertrag, Angaben zu Unterauftragnehmern und Löschung fehlen. Der Fachbereich bietet echte Mandatsakten als Testmaterial an. Herkunft und Version sind bekannt; ein Prüfsummenwert ist vorhanden. Gewünscht ist nur eine Entscheidungsvorlage, keine Installation.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Bewertung erkennt das Missverhältnis zwischen Textnotizfunktion und umfassendem Schreibzugriff sowie den ungeklärten externen Datenfluss.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Es wird keine Freigabe für echte Mandatsdaten erteilt; ein begrenzter Test mit synthetischen Daten und reduzierten Rechten wird von einer Produktivfreigabe getrennt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Prüfsummenwert wird nicht als Sicherheitsnachweis gewertet und fehlende Vertrags- beziehungsweise Empfängernachweise werden konkret benannt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "skill-installation-security-gate"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "kanzlei-builder-hub/README.md",
+      "kanzlei-builder-hub/kanzlei-builder-hub-werkstatt.md",
+      "kanzlei-builder-hub/kanzlei-builder-hub-schnellstart.md",
+      "quality/evals/kanzlei-builder-hub.json"
+    ],
+    "opening_change": "Tatsächliche Zugriffe mit Kanzleiprozess und Geheimnisschutz abgleichen",
+    "norms": [
+      "Paragraf 43e BRAO",
+      "Artikel 24 DSGVO",
+      "Artikel 32 DSGVO"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 14.12.2023, C-340/21",
+        "url": "https://eur-lex.europa.eu/legal-content/de/ALL/?uri=CELEX%3A62021CJ0340",
+        "application": "Bei personenbezogenen Aktenzugriffen Risiken und tatsächliche Schutzmaßnahmen prüfen; Sicherheitsabsicht und Werbung genügen nicht.",
+        "limit": "Amtlicher Volltext Rn. 24 bis 64 gelesen. Datenschutzmaßstab, keine Produktzulassung und kein pauschales Verbot externer Dienste."
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Volltext Rn. 24 bis 64 gelesen. Datenschutzmaßstab, keine Produktzulassung und kein pauschales Verbot externer Dienste.",
+      "Keine technische Sicherheitsprüfung konkreter Dienste, keine Installation und kein Live-Test einer Kanzlei; keine umfassende Prüfung aller berufsrechtlichen Nebenfragen.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest.",
+      "Workflow-Ergänzung am 23.09.2026: desk review; keine Live-Client-Ausführung, keine Installation, Übermittlung oder technische Funktionsprüfung. Bestehende Entscheidungsprüfung vom 22.09.2026 nicht als heutiger Neuabruf ausgegeben."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leere Eingabe: Erweiterungsprüfung, Updateabgleich oder synthetischen Prozesstest auswählen.",
+      "Dateien ohne Aufgabe: Konfiguration still lesen, Prüfziel und Test-/Produktivumfang klären.",
+      "Klarer Auftrag: direkt Entscheidungsvorlage oder Testplan erstellen, nur fehlende Empfänger-/Rechtenachweise erfragen."
+    ],
+    "continuation": "Reduzierte Rechtekonfiguration oder Dienstleistervertrag -> im vorhandenen Freigabeentwurf, etwa freigabe.md, Zugriffsmatrix, Testumfang und Freigabeklausel aktualisieren; keine Installation.",
+    "enrichment": "Versionsgebundene Einsatzentscheidung, Nachforderung zum Support- und Empfängerzugriff, schadensbezogene Testfälle, technische Abbruchpunkte und begrenzter Freigabetext.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "kanzlei-builder-hub/references/ki-normen-und-fallpruefung.md",
+    "focus": "Legen Sie für jeden Baustein fest, welche Daten er lesen, verändern und versenden darf. Prüfen Sie die tatsächliche Funktion und die nach außen behauptete Leistung; ein Agentenetikett ersetzt keine Einordnung.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

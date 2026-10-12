@@ -1,6 +1,6 @@
 ---
 name: werbung-social-media-steuern-rechtsprechungscheck
-description: "Wenn es um Werbung Social Media Steuern Rechtsprechungscheck in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Werbung Social Media Steuern Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerberater: werbung social media steuern - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
@@ -14,13 +14,17 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
 - `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Verifizierter Rechtsprechungsanker
+
+- BVerfG, Beschluss vom 26.10.2004 - 1 BvR 981/00: Berufliche Werbung eines Steuerberaters ist durch Artikel 12 Absatz 1 GG geschützt. Weder ein auffälliger Werbeträger noch eine bislang unübliche Form genügt allein für ein Verbot; maßgeblich sind Inhalt, Sachlichkeit und eine konkret belegte Gefährdung berufsrechtlicher Schutzgüter. Übertrage den Fall nicht schematisch auf irreführende oder einzelfallbezogene Mandatswerbung.
 
 ## Arbeitsweg
 

@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um /kaltstart-interview — Kanzleiprofil-Interview in Kanzlei-Builder-Hub geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /kaltstart-interview — Kanzleiprofil-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /kaltstart-interview — Kanzleiprofil-Interview
@@ -18,16 +18,11 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Triage zu Beginn
 1. Handelt es sich um eine Ersteinrichtung oder ein Wiederholungsinterview (--redo oder --check-integrations)?
 2. Welche Rechtsform und welcher Kanzleityp liegen vor (Einzelanwalt, PartG, GmbH, Rechtsabteilung)?
 3. Sind datenschutzrechtliche Grundlagen (AVV, TOM, Verarbeitungsverzeichnis) für den KI-Einsatz bereits geprueft?
 4. Welche technischen Integrationen (beA, E-Mail, DMS, Buchhaltung) sind vorhanden und angebunden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 28 DSGVO — AVV mit KI-Infrastrukturanbieter: Pflicht bei jeder Auftragsverarbeitung
@@ -69,7 +64,7 @@ Prüfen ob `~/.claude/plugins/config/claude-fuer-deutsches-recht/kanzlei-profil.
 >
 > **2 Minuten** ergibt Rolle und Praxisbereich(e) — plus sinnvolle Standardwerte für Registry-Watchlist, Update-Kadenz und eine standardmäßig zulässige Positivliste. **15 Minuten** fügt ein kalibriertes Starter-Paket passend zu Ihrer Kanzlei hinzu, eine in `positivliste.yaml` geschriebene Vertrauensquellen-Richtlinie, Update-Benachrichtigungseinstellungen und Ihre Rechtsgebiets-/Teamgrößeninformation für Empfehlungen.
 >
-> Schnell oder vollständig? (Jederzeit hochstufen mit `/kanzlei-builder-hub:kanzlei-builder-hub-kaltstart-interview --full`.)
+> Schnell oder vollständig? (Jederzeit hochstufen mit `/kanzlei-builder-hub:kaltstart-interview --full`.)
 
 ### Part 0: Wer nutzt dies, und was ist verbunden
 
@@ -161,8 +156,8 @@ Abschließen mit:
 > Fertig. Ihre Konfiguration liegt unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/kanzlei-builder-hub/CLAUDE.md` — eine Klartextdatei, die Sie direkt lesen und bearbeiten können. Alles kann geändert werden:
 >
 > - Datei direkt bearbeiten für schnelle Änderungen
-> - `/kanzlei-builder-hub:kanzlei-builder-hub-kaltstart-interview --redo` für vollständiges Wiederholungsinterview
-> - `/kanzlei-builder-hub:kanzlei-builder-hub-kaltstart-interview --check-integrations` um Verbindungen erneut zu prüfen
+> - `/kanzlei-builder-hub:kaltstart-interview --redo` für vollständiges Wiederholungsinterview
+> - `/kanzlei-builder-hub:kaltstart-interview --check-integrations` um Verbindungen erneut zu prüfen
 
 ## Quellen und Zitierweise
 
@@ -194,3 +189,5 @@ Kanzleiprofil erstellt am 2025-01-15:
 - **Falsche Deployment-Kontext-Angabe:** Kanzlei-intern erfordert AVV mit KI-Infrastrukturanbieter (Art. 28 DSGVO).
 - **TOM-Vergessen:** KI-Skills in der Kanzlei erfordern TOM-Prüfung vor dem Einsatz — dieser Schritt darf nicht übersprungen werden.
 - **Praxisprofil zu generisch:** Ein generisches Profil ergibt generische Empfehlungen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

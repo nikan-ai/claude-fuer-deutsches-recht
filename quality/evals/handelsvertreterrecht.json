@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "plugin": "handelsvertreterrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__87c.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Volltext zu Abrechnungszeitraum, Buchauszug, Auskunft und Voraussetzungen der Einsicht."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2005/VIII_ZR_100-05.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 20.09.2006, VIII ZR 100/05, Rn. 16 bis 24. Flüchtiger aktueller Systemzugang ersetzt keinen geordneten Buchauszug; Genehmigungsfiktion durch Schweigen verletzt zwingende Informationsrechte. Grenze: Versicherungsvertreterfall; kein Verbot elektronischer Buchauszüge, eindeutige tatsächliche Abrechnungseinigung und einzelne Zahlungsansprüche gesondert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__87c.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Abrechnung, Buchauszug, Auskunft und gegebenenfalls Bucheinsicht; Vorausbeschränkung nach Absatz 5 unwirksam."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__89a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Außerordentliche Kündigung aus wichtigem Grund; keine ausdrücklich gesetzlich angeordnete Zweiwochenfrist aus Paragraf 626 BGB übertragen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__89b.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Ausgleichsvoraussetzungen, Billigkeit, Höchstgrenzen, Ausschlussfälle und Jahresgeltendmachung; Versicherungsvertreterregelung getrennt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__88.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Norm ist weggefallen; keine vierjährige Sonderverjährung aus altem Wortlaut als geltendes Recht behandeln."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62025CJ0204",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 1–37 und Tenor; tragend23–36. Zwingender Ausgleichsschutz besteht während Kündigungsfrist; Kenntnis der Kündigung bedeutet noch keinen Vertragsablauf nach Art15/19RL86/653. Grenze: Nicht jeder Vergleich verboten; eine vorzeitige Abweichung setzt ex ante feststehende Nachteilsfreiheit bei Vertragsende voraus. Deutsche Umsetzung §89bAbs4HGB und konkrete Frist getrennt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Buchauszugsanforderung erhält einen gerichtlich geprüften Maßstab für Systemdaten und Genehmigungsfiktionen. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest.",
+    "changes": [
+      "VIII ZR 100/05 auf zeitbezogenen Datenbestand und tatsächliche Abrechnungseinigung bezogen.",
+      "Paragraf 88 HGB nicht länger als offener möglicher Anspruch; Zweiwochenfrist ausdrücklich verworfen.",
+      "Ausgleichstatbestand, Jahresausschlussfrist und Versicherungsvertretergrenze konkretisiert.",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "219d4e3dfbe31cc8f327a97d9ba7abde2684bebda7209b613c85567329d592c2"
+  },
+  "selection": {
+    "positive": [
+      "Gleiche meine Provisionsabrechnung mit ausgeführten Kundenaufträgen ab.",
+      "Entwirf ein begrenztes Buchauszugsverlangen für mein Vertriebsgebiet."
+    ],
+    "negative": [
+      "Prüfe den Bonusvertrag eines angestellten Vertriebsleiters arbeitsrechtlich.",
+      "Melde eine neue Prokura zum Handelsregister an."
+    ]
+  },
+  "cases": [
+    {
+      "id": "juli-provision-drei-auftraege",
+      "request": "Ich berate eine selbstständige Handelsvertreterin. Sie erhält nach unstreitiger Vereinbarung 5 Prozent auf den Nettoumsatz ihrer vermittelten, vollständig ausgeführten und bezahlten Aufträge. Monatliche Abrechnung ist vereinbart. Für Juli sind Auftrag A über 20.000 Euro netto und B über 10.000 Euro netto unstreitig ausgeführt und bezahlt. Abgerechnet wurden 800 Euro für A und 500 Euro für B; weitere Zahlungen gab es nicht. Auftrag C über 8.000 Euro steht im Export nur als offen; Ausführung und Zahlung sind unbekannt. Der Unternehmer verweigert bisher keinen Buchauszug, hat aber nur diese Summenliste übermittelt. Erstelle ergebnis.md mit gesicherter Differenz, offenen Angaben und einer sachlichen Buchauszugsanforderung für Juli.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Berechnet für A 1.000 Euro Soll und 200 Euro Differenz sowie für B keine Differenz; gesicherte Unterabrechnung insgesamt 200 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt C nicht als sicheren zusätzlichen Anspruch von 400 Euro, sondern verlangt die fehlenden Ausführungs- und Zahlungsangaben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Begrenzt die Anforderung auf die relevanten Juligeschäfte und verlangt nicht ohne weitere Voraussetzungen sofort vollständige Buchprüfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "abrechnung-und-buchauszug"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Neben dem operativen Buchauszuganker wurden weggefallene Herausgabenorm, falsche Fristzuordnung und Ausgleichshöchstbetrag fachlich bereinigt. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest.",
+    "changes": [
+      "VIII ZR 100/05 auf zeitbezogenen Datenbestand und tatsächliche Abrechnungseinigung bezogen.",
+      "Paragraf 88 HGB nicht länger als offener möglicher Anspruch; Zweiwochenfrist ausdrücklich verworfen.",
+      "Ausgleichstatbestand, Jahresausschlussfrist und Versicherungsvertretergrenze konkretisiert.",
+      "Stornoketten ohne Doppelzählung, Onlinekunden und Bezirkszuordnung, tatsächliches Vertragsende, Ausgleichsvorteile und begrenzte Abgeltung."
+    ],
+    "sha256": "d2c4c4f0fb9eb7a5ec4889b5b8ef6207c86e8153959ad5e87980e9b9fcb7ed65"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "handelsvertreterrecht/handelsvertreterrecht-werkstatt.md",
+      "handelsvertreterrecht/handelsvertreterrecht-schnellstart.md",
+      "handelsvertreterrecht/README.md",
+      "quality/evals/handelsvertreterrecht.json"
+    ],
+    "opening_change": "Fehlende Provision und konkrete Abrechnungsdaten statt abstraktem Vertriebsfall.",
+    "norms": [
+      "HGB Paragraf 87c Absätze 1 bis 5",
+      "HGB Paragraf 89a",
+      "HGB Paragraf 89b Absätze 1 bis 5",
+      "HGB Paragraf 88 (weggefallen)"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 20.09.2006, VIII ZR 100/05, Rn. 16 bis 24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2005/VIII_ZR_100-05.pdf?__blob=publicationFile&v=1",
+        "application": "Flüchtiger aktueller Systemzugang ersetzt keinen geordneten Buchauszug; Genehmigungsfiktion durch Schweigen verletzt zwingende Informationsrechte.",
+        "limit": "Versicherungsvertreterfall; kein Verbot elektronischer Buchauszüge, eindeutige tatsächliche Abrechnungseinigung und einzelne Zahlungsansprüche gesondert."
+      },
+      {
+        "citation": "EuGH, Urteil vom 23.04.2026 – C-204/25, Kempen Advies Beerse, Kopf, Rn. 1–37 und Tenor",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62025CJ0204",
+        "application": "Zwingender Ausgleichsschutz besteht während Kündigungsfrist; Kenntnis der Kündigung bedeutet noch keinen Vertragsablauf nach Art15/19RL86/653.",
+        "limit": "Nicht jeder Vergleich verboten; eine vorzeitige Abweichung setzt ex ante feststehende Nachteilsfreiheit bei Vertragsende voraus. Deutsche Umsetzung §89bAbs4HGB und konkrete Frist getrennt.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "Internationales Vertriebsrecht, Datenschutz- und Vertragshändleranalogie nicht vollständig neu verifiziert.",
+      "README/gewöhnliche Skills enthalten weitere falsche Paragraf-88-Zuordnungen; außerhalb des Schreibbereichs nicht geändert.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Provisionsnachforderung, Buchauszug oder Ausgleich wählen.",
+      "Abrechnungen still lesen; Differenzforderung oder Informationsanspruch anbieten.",
+      "Bestellte Berechnung und Erklärung ohne Pflichtdialog liefern."
+    ],
+    "continuation": "Neuer Stornogrund -> Provision neu zuordnen; vollständiger Buchauszug -> Zahlungsweg; Kundenverlust -> Ausgleichsvorteile und Rechnung ändern.",
+    "enrichment": "Stornoketten ohne Doppelzählung, Onlinekunden und Bezirkszuordnung, tatsächliches Vertragsende, Ausgleichsvorteile und begrenzte Abgeltung.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "handelsvertreterrecht/handelsvertreterrecht-schnellstart.md",
+      "handelsvertreterrecht/handelsvertreterrecht-werkstatt.md",
+      "handelsvertreterrecht/skills/ausgleich-ausschlussgruende/SKILL.md",
+      "handelsvertreterrecht/skills/vergleich-verjaehrung-vermittlungsvertreter/SKILL.md",
+      "handelsvertreterrecht/skills/vergleich/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

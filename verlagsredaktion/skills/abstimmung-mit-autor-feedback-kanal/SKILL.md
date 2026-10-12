@@ -1,6 +1,6 @@
 ---
 name: abstimmung-mit-autor-feedback-kanal
-description: "Wenn es um Abstimmung mit Autorin (Feedback-Kanal) in Verlagsredaktion geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Abstimmung mit Autorin (Feedback-Kanal): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abstimmung mit Autorin (Feedback-Kanal)
@@ -105,24 +105,3 @@ Sie brauchen ihn bei Vertragsabschluss eines neuen Manuskripts, bei sich anbahne
 - DSGVO bei personenbezogenen Daten in der Kommunikation.
 - Duden, Die deutsche Rechtschreibung, 29. Aufl. 2024.
 - Byrd / Lehmann, Zitierfibel für Juristen, 2. Aufl. 2016.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 51 UrhG
-- § 38 UrhG
-- § 31a UrhG
-- § 33 VerlG
-- § 32a UrhG
-- Art. 6 DSGVO
-- § 8 DDG
-- § 27a UStG
-- § 14 UStG
-- § 203 StGB
-- § 32e UrhG
-- § 87 BetrVG
-
-### Leitentscheidungen
-
-- EuGH C-131/12

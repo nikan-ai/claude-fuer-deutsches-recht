@@ -1,6 +1,6 @@
 ---
 name: verjaehrung-fristen
-description: "Wenn es um Verjährung, Dringlichkeit und Fristen in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verjährung, Dringlichkeit und Fristen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Verjährung, Dringlichkeit und Fristen
@@ -20,7 +20,7 @@ description: "Wenn es um Verjährung, Dringlichkeit und Fristen in Urheberrecht 
 
 ## Wofür dieser Arbeitsgang da ist
 
-Verjährung, Dringlichkeit und Fristen schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Ordne Verjährung, Dringlichkeit und laufende Fristen anhand der belegten Kenntnis- und Verfahrensdaten. Beziehe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke ein und liefere den verlangten Fristenplan oder Dringlichkeitsvermerk.
 
 ## Sofortstart
 

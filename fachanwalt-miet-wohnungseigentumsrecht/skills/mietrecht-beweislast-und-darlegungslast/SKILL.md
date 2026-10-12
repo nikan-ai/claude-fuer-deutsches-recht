@@ -1,6 +1,6 @@
 ---
 name: mietrecht-beweislast-und-darlegungslast
-description: "Wenn es um Mietrecht Beweislast Und Darlegungslast in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mietrecht Beweislast und Darlegungslast: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Mietrecht: Beweislast, Darlegungslast und Substantiierung im Miet- und WEG-Recht: fachlich vertieftes Modul mit Normenradar (BGB/WEG/BetrKV/GEG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
@@ -20,8 +20,6 @@ description: "Wenn es um Mietrecht Beweislast Und Darlegungslast in Fachanwalt M
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mietrecht: Beweislast, Darlegungslast und Substantiierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -52,3 +50,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Eigenbedarf (§ 573 Abs. 2 Nr. 2 BGB):** Vermieter muss die Eigenbedarfsperson, den konkreten Nutzungswunsch und die Ernsthaftigkeit darlegen. Nach Räumung: Beweislastumkehr für vorgetäuschten Eigenbedarf liegt beim Mieter (BGH ständige Rspr.), bei plausiblen Indizien sekundäre Darlegungslast des Vermieters zur Nutzung nach Auszug.
 - **Betriebskosten (§ 556 BGB):** Vermieter trägt Beweislast für jede einzelne Position der Abrechnung (Anfall, Höhe, Verteilungsmaßstab, Wirtschaftlichkeit). Mieter trägt Beweislast für seine Einwände nur, wenn er bestimmte Behauptungen aufstellt (z. B. Verstoß gegen Wirtschaftlichkeitsgebot konkret).
 - **Mieterhöhung (§ 558 BGB):** Vermieter beweist die ortsübliche Vergleichsmiete (Mietspiegel, Vergleichswohnungen, Sachverständigengutachten). Mieter kann substantiiert bestreiten.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-mietrecht-beweislast-und-darlegungslast` beziehungsweise Mietrecht: Beweislast, Darlegungslast und Substantiierung: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-mietrecht-beweislast-und-darlegungslast.md).

@@ -1,6 +1,6 @@
 ---
 name: rechtsformwahl
-description: "Wenn es um Rechtsformwahl in gesellschaftsgründer — Gründungsassistent für deutsche geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Rechtsformwahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsformwahl
@@ -79,7 +79,6 @@ Wenn ein Gründer seine Anteile über eine Holding-GmbH hält, werden Veräußer
 
 | Gericht | Aktenzeichen | Fundstelle | Relevanz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema: Rechtsformwahl
 
@@ -104,9 +103,8 @@ Wenn ein Gründer seine Anteile über eine Holding-GmbH hält, werden Veräußer
 | 5 | Steuerpräferenz | Thesaurierung oder laufende Ausschüttung? | Thesaurierung → Kapitalgesellschaft (KSt 15 %; Gewerbe); Ausschüttung → Personengesellschaft oder Kapitalgesellschaft mit Ausschüttungsplanung |
 | 6 | Berufsrecht | Freier Beruf (Paragraf 1 Abs. 2 PartGG)? | Ja → PartG oder PartG mbB (obligatorisch für Berufsgesellschaft von Anwälten/Ärzten) |
 | 7 | Gemeinnützigkeit | Gemeinnütziger Zweck (Paragraf 52 ff. AO)? | Ja → gGmbH oder eingetragener Verein |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Holding-Planung | Gründer möchte Anteile über Holding halten? | Holding vor operativer GmbH gründen; nachträgliche Einbringung steuerlich komplex |
-| 10 | MoPeG / eGbR | GbR soll Immobilien erwerben oder im Grundbuch eingetragen werden? | Eintragung als eGbR im Gesellschaftsregister erforderlich (Paragraf 707b BGB) |
+| 10 | MoPeG / eGbR | Soll ein Recht für die GbR im Grundbuch eingetragen werden? | Gesellschaftsregistereintragung als Grundbuch-Vollzugsvoraussetzung nach Paragraf 47 Absatz 2 GBO; bei Altbestand Artikel 229 Paragraf 21 EGBGB prüfen |
 | 11 | Umwandlungskosten | Bestehende Rechtsform soll gewechselt werden? | Umwandlung nach UmwG (Verschmelzung, Spaltung, Formwechsel); Steuereffekte nach UmwStG analysieren |
 | 12 | Geschäftsjahresende | Abweichendes GJ-Ende sinnvoll (z.B. 31.3. statt 31.12.)? | Steuerberater einbinden; Jahresabschluss-Frist und Steuerpflichten anpassen |
 | 13 | Mitbestimmung | Mehr als 500 Arbeitnehmer geplant? | Drittelbeteiligung (Paragraf 1 DrittelbG); ab 2.000 Arbeitnehmer: Mitbestimmung (Paragraf 1 MitbestG) |
@@ -140,8 +138,7 @@ Wenn ein Gründer seine Anteile über eine Holding-GmbH hält, werden Veräußer
 | Einwand / Falle | Begründung / Fehlannahme | Richtige Einordnung |
 |---|---|---|
 | UG ist die günstigere GmbH | UG hat keine Investoren-Sperrwirkung | UG ist für Startups mit Investorenplan ungeeignet; Umwandlung zur GmbH kostet Zeit und Notargebühren; sofort GmbH bei Investor-Roadmap |
-| GbR für Immobilien reicht | Vor MoPeG 2024 richtig | Seit 01.01.2024: GbR ohne Eintragung kann nicht im Grundbuch eingetragen werden (Paragraf 707b BGB); eGbR zwingend |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
+| GbR für Immobilien reicht | Register- und Grundbuchvollzug werden verwechselt | Seit 1. Januar 2024 soll ein Recht für eine GbR nur eingetragen werden, wenn sie im Gesellschaftsregister eingetragen ist; Paragraf 47 Absatz 2 GBO und bei Altbestand Artikel 229 Paragraf 21 EGBGB prüfen |
 | SHA-Stimmbindung reicht für SV-Freiheit | Kostengünstiger als Satzungsänderung | SHA-Bindung ist SV-rechtlich irrelevant; Sperrminorität muss zwingend in Satzung stehen (BSG-Linie) |
 | Holding-GmbH nachträglich einfach einzufügen | Steuerlich problemlos | Nachträgliche Einbringung der Anteile in eine Holding-GmbH löst steuerpflichtige Veräußerung aus (Paragraf 17 EStG); Holding muss vor operativer GmbH bestehen |
 | eK ausreichend für kleine Dienstleister | Persönliche Haftung unbeschränkt | Bei Beratungsfehlern, Mietverträgen, Personalkosten: persönliche Haftung kann existenzbedrohend sein; UG mit 1.000 EUR oft sinnvoller |
@@ -166,7 +163,7 @@ Wenn ein Gründer seine Anteile über eine Holding-GmbH hält, werden Veräußer
 |---|---|
 | Haftung | Persönlich, unbeschränkt, gesamtschuldnerisch (Paragraf 721 BGB n.F.) |
 | Mindestkapital | Keines |
-| MoPeG-Pflicht | Für Immobiliengeschäfte und Grundbucheintragung: Eintragung als eGbR zwingend (Paragraf 707b BGB) |
+| Grundbuchvollzug | Gesellschaftsregistereintragung nach Paragraf 47 Absatz 2 GBO einplanen; Übergangsrecht des Artikels 229 Paragraf 21 EGBGB bei Altbestand prüfen |
 | Buchführung | EÜR bis Schwellen; doppelte Buchführung bei Handelsgewerbe |
 | Steuer | Mitunternehmerbesteuerung: Gewinne werden bei den Gesellschaftern nach ESt besteuert |
 | Geeignet für | Freie Berufe (wenn PartG nicht passt), kleinste Personengesellschaften |
@@ -257,7 +254,7 @@ Wenn ein Gründer seine Anteile über eine Holding-GmbH hält, werden Veräußer
 | Anwaltskanzlei 3 Partner | PartG mbB | Berufshaftpflicht beschränkt Haftung; keine Anteile; einfache Aufnahme neuer Partner |
 | Sozialunternehmen / NGO | gGmbH | Steuerbefreiung, Spendenbescheinigung, gesellschaftsrechtliche Struktur |
 | Geplanter Börsengang > 50 Mio. EUR | GmbH → AG-Umwandlung (Formwechsel Paragraf 190 UmwG) | Sofort-AG nur wenn HV-Pflicht und Publizität akzeptiert |
-| Immobilienverwaltung mit GbR | eGbR eintragen (Paragraf 707b BGB) | Ohne eGbR-Eintragung keine Grundbucheintragung mehr |
+| Immobilienverwaltung mit GbR | Register- und Grundbuchkette nach Paragraf 47 Absatz 2 GBO planen | Altgrundbuchstand und Artikel 229 Paragraf 21 EGBGB gesondert prüfen |
 | Gründer mit Investor-Exit-Plan | Holding-GmbH vor operativer GmbH | Paragraf 8b KStG: 95 % Steuerfreiheit auf Veräußerungsgewinn bei Holding |
 
 ## Strategische Optionen (vor dem Template entscheiden)
@@ -406,7 +403,8 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - Paragraf 7 AktG (AG-Grundkapital)
 - Paragraf 8 Abs. 4 PartGG (PartG mbB)
 - Paragraf 52–68 AO (Gemeinnützigkeit)
-- Paragraf 707b BGB (eGbR nach MoPeG 2024)
+- Paragrafen 707 bis 707b BGB (Gesellschaftsregister und entsprechend anwendbare HGB-Vorschriften)
+- Paragraf 47 Absatz 2 GBO und Artikel 229 Paragraf 21 EGBGB (Grundbuchvollzug und Übergangsrecht)
 - Paragraf 7a SGB IV (Statusfeststellungsverfahren)
 - Paragraf 8b KStG (Steuerfreiheit Beteiligungsveräußerung)
 - Paragraf 1 ff. UmwG (Umwandlungsrecht)
@@ -414,7 +412,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 Zitierweise nach `../../references/zitierweise.md`.
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.

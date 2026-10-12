@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "plugin": "handelsrecht-hgb",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__377.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absätze 1 bis 5: Untersuchung, verdeckter Mangel, rechtzeitige Absendung und Arglist; amtlicher Volltext gelesen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2016/VIII_ZR_246-16.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 06.12.2017, VIII ZR 246/16, Rn. 23 bis 40. Prüfumfang an Aufwand, Möglichkeiten und Verdacht ausrichten; umfassende neutrale Sachverständigenprüfung in AGB auf unangemessene Benachteiligung prüfen. Grenze: Futterfette ohne konkreten Dioxinverdacht; keine generelle Befreiung von Untersuchung, besonderen Sicherheitsregeln oder unverzüglicher Anzeige."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__377.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Beiderseitiger Handelskauf, zumutbare Untersuchung und unverzügliche Anzeige; Absatz 4 lässt rechtzeitige Absendung genügen, Absatz 5 schließt Berufung bei Arglist aus."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__49.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Umfang der Prokura und besondere Ermächtigung für Grundstücksveräußerung oder -belastung nach Absatz 2; internen Beschränkungen nicht ohne Weiteres Außenwirkung zuschreiben."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__25.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Haftung bei Erwerb und Fortführung eines Handelsgeschäfts unter bisheriger Firma; Ausschluss im Außenverhältnis anhand Absatz 2 prüfen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Lieferchronologie bleibt erhalten; Prüfaufwand und AGB-Klausel werden vor einer Genehmigungsfolge beurteilt. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest.",
+    "changes": [
+      "Fehlerhafte Entwurfsbeschränkung und Satz, der Status nur aus Geschäftsbezeichnung ableitet, entfernt.",
+      "Alle zwölf bestehenden Handelsrechtsgebiete samt Fortsetzung und Empfängertext erhalten und materiell präzisiert.",
+      "VIII ZR 246/16 zu Untersuchung, Handelsbrauch und AGB praktisch angewendet.",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt."
+    ],
+    "sha256": "626cd0ab83e7a0b88af43cbadd752c8e7e44ed204196830edb8893fd2f9ed808"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die vollständige Werkstatt von schematischen Mehrfachtabellen und affirmativem Fehlerrest befreit; alle zwölf Fachthemen in konkrete Tatbestands- und Nachweisfragen überführt. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest.",
+    "changes": [
+      "Fehlerhafte Entwurfsbeschränkung und Satz, der Status nur aus Geschäftsbezeichnung ableitet, entfernt.",
+      "Alle zwölf bestehenden Handelsrechtsgebiete samt Fortsetzung und Empfängertext erhalten und materiell präzisiert.",
+      "VIII ZR 246/16 zu Untersuchung, Handelsbrauch und AGB praktisch angewendet.",
+      "Chargenweise Rüge und Beweis, interne/äußere Vollmacht, Genehmigungsumfang, Firmenfortführung und präzise Leistungsaufforderung."
+    ],
+    "sha256": "bc0f0f484d1974eef2a12a47a8c69e280c273017b9d684026ab9a9040134aff2"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe unsere Mängelrüge für drei B2B-Lieferchargen anhand der Prüfberichte und Versandlogs.",
+      "Ordne die Vertretung unseres Lieferanten durch einen angeblichen Prokuristen ein."
+    ],
+    "negative": [
+      "Prüfe meinen privaten Onlinekauf eines defekten Fernsehers.",
+      "Bereite die Scheidung eines Einzelkaufmanns vor."
+    ]
+  },
+  "cases": [
+    {
+      "id": "verdeckter-druckfehler-versand",
+      "request": "Wir beraten eine deutsche Maschinenbau-GmbH gegen ihre deutsche Zuliefer-GmbH. Deutsches Recht gilt. Am 7. September wurden 100 Ventile zu je 80 Euro netto geliefert und im üblichen, unstreitig ordnungsgemäßen Eingangstest ohne Befund untersucht. Ein innerer Haarriss war dabei unstreitig nicht erkennbar. Am 10. September um 9 Uhr zeigte ein Belastungstest diesen Fehler an 12 Ventilen; Prüfbericht und Rückstellmuster liegen vor. Die QS versandte um 11 Uhr eine E-Mail mit Bestellnummer, Charge, den 12 Seriennummern und Bericht an die richtige Lieferantenadresse; der Versandlog bestätigt dies. Wegen einer Störung beim Empfänger wurde sie erst am 14. September abgerufen. Der Verkäufer behauptet allein wegen dieses Abrufs Verspätung und bestreitet einen Herstellungsfehler. Erstelle ergebnis.md als Kurzprüfung und Belegplan; beziffere den Nettokaufpreis der betroffenen Stücke, aber noch keinen Schaden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Bewertet die Anzeige anhand der Absendung am Entdeckungstag und verwirft den Abruf am 14. September als alleinigen Verspätungsgrund.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt die rechtzeitige Anzeige vom noch zu beweisenden Ursprung des Mangels und ordnet Prüfbericht sowie Rückstellmuster diesem offenen Beweis zu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Berechnet 960 Euro als Nettokaufpreis der 12 betroffenen Ventile, ohne diesen Betrag automatisch als ersatzfähigen Schaden auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "maengelruege-paragraph-377-hgb"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "handelsrecht-hgb/handelsrecht-hgb-werkstatt.md",
+      "handelsrecht-hgb/handelsrecht-hgb-schnellstart.md",
+      "handelsrecht-hgb/README.md",
+      "quality/evals/handelsrecht-hgb.json",
+      "handelsrecht-hgb/skills/maengelruege-paragraph-377-hgb/SKILL.md"
+    ],
+    "opening_change": "Erhaltene Mängelrechte, Bindung durch Vertreter und Firmenfortführung als konkrete Streitfragen.",
+    "norms": [
+      "HGB Paragraf 377 Absätze 1 bis 5",
+      "BGB Paragraf 307",
+      "HGB Paragrafen 25 und 49"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 06.12.2017, VIII ZR 246/16, Rn. 23 bis 40",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2016/VIII_ZR_246-16.pdf?__blob=publicationFile&v=1",
+        "application": "Prüfumfang an Aufwand, Möglichkeiten und Verdacht ausrichten; umfassende neutrale Sachverständigenprüfung in AGB auf unangemessene Benachteiligung prüfen.",
+        "limit": "Futterfette ohne konkreten Dioxinverdacht; keine generelle Befreiung von Untersuchung, besonderen Sicherheitsregeln oder unverzüglicher Anzeige."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "Transport-, Register-, Gesellschafts- und CISG-Nebenfragen nicht vollständig neu verifiziert.",
+      "Gewöhnlicher Rüge-Skill enthält weiterhin Zugangsbeispiel, Anschluss-Skill-Kaskade und hier ungeprüfte Entscheidungen vom 06.05.2026; außerhalb des Schreibbereichs nicht geändert.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Liefermangel, Vertretung oder Firmenfortführung wählen.",
+      "Lieferbelege still lesen; Chargenrüge oder Verspätungsantwort anbieten.",
+      "Bestelltes Handelsschreiben direkt ausarbeiten."
+    ],
+    "continuation": "Versandlog -> Rechtzeitigkeitsbegründung; früherer QS-Vermerk -> Entdeckungsdatum; Vollmacht -> Bindung; Haftungsmitteilung -> Anspruchsgegner ändern.",
+    "enrichment": "Chargenweise Rüge und Beweis, interne/äußere Vollmacht, Genehmigungsumfang, Firmenfortführung und präzise Leistungsaufforderung.",
+    "limits": "desk review; no live client execution"
+  }
+}

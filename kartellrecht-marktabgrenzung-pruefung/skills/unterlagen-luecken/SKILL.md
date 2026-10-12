@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Kartellrecht — Marktabgrenzungsprüfung."
 ---
 
 # Unterlagen und Lücken
@@ -21,7 +21,7 @@ Diese Unterlagenprüfung für **Kartellrecht Marktabgrenzung Prüfung** benennt 
 - `alternative-marktdefinition-weit` — Alternative Marktdefinition Weit
 - `angebotsumstellung-evidenz-flags-red-team-korrektur` — Angebotsumstellung Evidenz Flags RED Team Korrektur
 - `anmeldepflicht-joint-venture` — Anmeldepflicht Joint Venture
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `einstieg-routing` — 1. Kartellrechtlichen Prüfauftrag bearbeiten
 - `art-101-aeuv-kooperationspruefung-einstieg` — ART 101 Aeuv Kooperationspruefung Einstieg
 - `art-101-aeuv-tatbestand-vereinbarung-beschluss-abgestimmte-verha` — ART 101 Aeuv Tatbestand Vereinbarung Beschluss Abgestimmte Verha
 - `dokumente-intake` — Dokumente Intake

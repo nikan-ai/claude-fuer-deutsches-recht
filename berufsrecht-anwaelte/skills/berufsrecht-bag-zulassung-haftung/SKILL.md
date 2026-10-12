@@ -1,6 +1,6 @@
 ---
 name: berufsrecht-bag-zulassung-haftung
-description: "Wenn es um Berufsausübungsgesellschaft in Berufsrecht Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Berufsausübungsgesellschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Berufsrecht Anwälte. Route: berufsrecht-bag-zulassung-haftung."
 ---
 
 # Berufsausübungsgesellschaft
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
@@ -56,5 +56,5 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 Konkret zu prüfen:
 
 - § 280 BGB
-- § 51b BRAO (Verjährung)
+- Paragrafen 195 und 199 BGB (regelmäßige Verjährung und Beginn)
 - BGH NJW 2014, 2275

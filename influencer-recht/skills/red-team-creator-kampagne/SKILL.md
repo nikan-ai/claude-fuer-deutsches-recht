@@ -1,6 +1,6 @@
 ---
 name: red-team-creator-kampagne
-description: "Wenn es um Influencer-Recht: Red Team – Creator-Kampagne in Influencer-Recht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Influencer-Recht: Red Team – Creator-Kampagne: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Influencer-Recht: Red Team – Creator-Kampagne
@@ -75,3 +75,4 @@ Relevante Rechtsbereiche:
 - Maßnahmenplan (sortiert nach Dringlichkeit)
 - Überarbeiteter Content-Entwurf
 - Checkliste: Freigabe vor Veröffentlichung
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie, ob Bild, Stimme oder Text synthetisch erzeugt oder verändert wurden und in welcher Rolle der Auftraggeber veröffentlicht. Werbekennzeichnung und KI-Offenlegung erfüllen unterschiedliche Zwecke. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

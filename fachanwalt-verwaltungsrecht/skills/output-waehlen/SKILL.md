@@ -1,6 +1,6 @@
 ---
 name: output-waehlen
-description: "Wenn es um Output wählen in Fachanwalt Verwaltungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verwaltungsrecht."
 ---
 
 # Output wählen
@@ -22,7 +22,7 @@ Diese Output-Weiche für **Fachanwalt Verwaltungsrecht** entscheidet, ob Memo, A
 - `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme FA Vwgo
 - `workflow-mandantenkommunikation` — FA Verwaltungsrecht Mandant Redteam Gate
 - `einstieg-schnelltriage-fallrouting` — FA Verwaltungsrecht Start Chronologie Fristen
-- `klagefrist-paragraf-58-vwgo-bverwg-4-c-1-19` — Klagefrist Paragraf 58 Vwgo Bverwg 4 C 1 19
+- `rechtsbehelfsbelehrung-jahresfrist-vwgo` — Rechtsbehelfsbelehrung und Jahresfrist prüfen
 - `kommunalrecht-paragraf-2-go` — Kommunalrecht Paragraf 2 GO
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake

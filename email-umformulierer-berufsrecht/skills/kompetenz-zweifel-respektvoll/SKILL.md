@@ -1,6 +1,6 @@
 ---
 name: kompetenz-zweifel-respektvoll
-description: "Wenn es um Kompetenz-Zweifel respektvoll formulieren in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kompetenz-Zweifel respektvoll formulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kompetenz-Zweifel respektvoll formulieren
@@ -16,9 +16,6 @@ Dieser Skill hilft dabei, fachliche Kritik oder Zweifel an der Kompetenz eines A
 2. Wer ist der Adressat: Kollege direkt, eigener Mandant über den Kollegen oder Gericht?
 3. Gibt es einschlaeige Rechtsprechung oder Normen, auf die die Sachkritik gestuetzt werden kann?
 4. Ist die Aeusserung notwendig für den Inhalt des Schreibens oder kann sie weggelassen werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot: Sachkritik erlaubt, Personenabwertung verboten
@@ -52,3 +49,5 @@ Die wirksamste Form respektvoller Fachkritik ist der Verweis auf einschlägige N
 | "Ihr Anwalt ist überfordert" | "Die gewählte Strategie erscheint mir in Anbetracht von XY nicht optimal" |
 | "Das haben Sie falsch berechnet" | "In der Berechnung ergibt sich nach meiner Prüfung ein abweichender Wert" |
 | "Sie verstehen das Gesetz nicht" | "Die Norm des § XY wird in der Fachliteratur überwiegend anders ausgelegt" |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

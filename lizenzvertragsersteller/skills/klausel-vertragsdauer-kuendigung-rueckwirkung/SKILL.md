@@ -1,6 +1,6 @@
 ---
 name: klausel-vertragsdauer-kuendigung-rueckwirkung
-description: "Wenn es um Klausel Vertragsdauer und Kuendigung in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Klausel Vertragsdauer und Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klausel Vertragsdauer und Kuendigung
@@ -17,7 +17,7 @@ description: "Wenn es um Klausel Vertragsdauer und Kuendigung in Lizenzvertragse
 ## Klausel-Bausteine
 
 **A. Feste Laufzeit:**
-> "$ 11 Vertragsdauer.
+> "Paragraf 11 Vertragsdauer.
 > (1) Dieser Vertrag hat eine Laufzeit von [N] Jahren ab dem [Wirksamkeitsdatum]. Er endet automatisch mit Ablauf der Laufzeit, ohne dass es einer Kuendigung bedarf."
 
 **B. Rollover:**
@@ -32,11 +32,11 @@ description: "Wenn es um Klausel Vertragsdauer und Kuendigung in Lizenzvertragse
 > - dauerhafter Nichtnutzung der Lizenz (bei ausschliesslicher Lizenz, mehr als 24 Monate)."
 
 **D. Folgen Beendigung:**
-> "$ 12 Folgen der Vertragsbeendigung.
+> "Paragraf 12 Folgen der Vertragsbeendigung.
 > (1) Mit Vertragsende erloeschen alle Nutzungsrechte des Lizenznehmers.
 > (2) Der Lizenznehmer ist verpflichtet, binnen 30 Tagen alle koerperlichen und elektronischen Kopien des Lizenzgegenstands zurueckzugeben oder nachweislich zu vernichten.
 > (3) Vorhandene Bestaende von Lizenzprodukten dürfen waehrend einer Auslaufphase von [X] Monaten weiter abverkauft werden ('sell-off-period'); Lizenzgebuehren werden weiter gezahlt.
-> (4) Die Vertraulichkeitspflicht ($ 13) gilt 5 Jahre über das Vertragsende hinaus fort.
+> (4) Die Vertraulichkeitspflicht (Paragraf 13) gilt 5 Jahre über das Vertragsende hinaus fort.
 > (5) Verguetungsrueckforderungen sind ausgeschlossen, soweit nicht ausdruecklich anders geregelt."
 
 **E. Lizenz-Nachwirkung bei Sub-Lizenzen:**

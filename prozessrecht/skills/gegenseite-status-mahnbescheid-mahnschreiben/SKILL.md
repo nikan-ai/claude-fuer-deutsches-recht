@@ -1,6 +1,6 @@
 ---
 name: gegenseite-status-mahnbescheid-mahnschreiben
-description: "Wenn es um Statusabfrage Externe Bevollmächtigte in Prozessrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Statusabfrage Externe Bevollmächtigte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Statusabfrage Externe Bevollmächtigte
@@ -24,14 +24,11 @@ description: "Wenn es um Statusabfrage Externe Bevollmächtigte in Prozessrecht 
 
 ### Kernvorschriften
 
-- **Paragraf 43a Abs. 4 BRAO** — Anwaltliche Fortbildungs- und Berichterstattungspflicht gegenüber dem Mandanten; regelmäßige Rückmeldung der externen Bevollmächtigten ist Teil der ordnungsgemäßen Mandatsführung.
-- **Paragraf 667 BGB** — Auskunftspflicht des Beauftragten; der externe Bevollmächtigte hat dem Auftraggeber auf Verlangen Auskunft zu erteilen; die wöchentliche Statusanfrage ist Ausfluss dieses Anspruchs.
+- **Paragraf 11 BORA** — Mandatsbearbeitung und Unterrichtung: Der Rechtsanwalt unterrichtet den Mandanten angemessen über wesentliche Vorgänge und gibt auf Anfrage Auskunft über den Stand des Mandats.
+- **Paragrafen 675 und 666 BGB** — Auskunft und Rechenschaft aus dem anwaltlichen Geschäftsbesorgungsvertrag; der externe Bevollmächtigte teilt erforderliche Nachrichten mit und gibt auf Verlangen Auskunft über den Bearbeitungsstand.
+- **Paragraf 43a Absatz 4 BRAO** — Verbot der Vertretung widerstreitender Interessen; vor einer Statusweitergabe ist zu prüfen, ob Mandate, Beteiligte oder Informationsräume kollidieren.
 - **Paragraf 43a Abs. 2 BRAO** — Vertraulichkeit; die Statuskorrespondenz mit externen Bevollmächtigten ist durch die gemeinsame Verschwiegenheitspflicht geschützt.
 - **Paragraf 49b BRAO; Paragrafen 2 ff. RVG** — Vergütung; Budgetanfragen und Kostenkontrollen im Statusschreiben orientieren sich am vereinbarten Honorar und etwaigen Vergütungsrahmen.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -92,6 +89,7 @@ Jedem Entwurf wird folgender Hinweis angefügt (vor dem Versenden entfernen):
 
 > Dies ist ein Entwurf zur anwaltlichen Prüfung vor dem Versand an externe Bevollmächtigte. Prüfen Sie auf privilegierte Inhalte, die nicht aus dem Mandatsverhältnis herausgegeben werden sollten, sachliche Richtigkeit, Ton und Budgethaltung. Auch routinemäßige Wochenanfragen können Strategie, Positionierungen oder unbeabsichtigte Zugeständnisse enthalten.
 
+```markdown
 ## Entwurf erstellt für
 
 | Mandat | Externer Partner | Zuletzt aktualisiert | Grund der Aufnahme |
@@ -127,7 +125,8 @@ Jedem Entwurf wird folgender Hinweis angefügt (vor dem Versenden entfernen):
 ## Quellenpflicht
 
 - Gesetzestexte: Paragrafen 43a, 49b BRAO; Paragrafen 2 ff. RVG; Paragraf 667 BGB
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

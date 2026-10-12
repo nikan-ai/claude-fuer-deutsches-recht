@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "plugin": "fachanwalt-internationales-wirtschaftsrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002854",
+      "checked_on": "2026-09-14",
+      "supports": "Amtliche deutsche Übersetzung des CISG als Gesamtdokument geöffnet und Vertragsparteien einschließlich Deutschland und Italien gelesen; späterer Wiederabruf mit Fehler. Die österreichische Veröffentlichung wird nicht mit anwendbarem nationalem Recht gleichgesetzt; konkrete Schadensnormen zusätzlich einzeln geprüft."
+    },
+    {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=49&Gesetzesnummer=10002854&Paragraf=&Uebergangsrecht=",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Normauszug zu Artikel 49 gelesen: Aufhebung wegen wesentlicher Vertragsverletzung sowie besondere Nachfristalternative bei Nichtlieferung, daneben zeitliche Grenzen nach erfolgter Lieferung."
+    },
+    {
+      "url": "https://ris.bka.gv.at/eli/bgbl/1988/96/A74/NOR12034759",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zu kausalem Verlust einschließlich entgangenen Gewinns und Vorhersehbarkeitsgrenze bei Vertragsschluss geprüft."
+    },
+    {
+      "url": "https://ris.bka.gv.at/eli/bgbl/1988/96/A77/NOR12034762",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zu angemessenen Maßnahmen der Schadensminderung und Kürzung um vermeidbaren Verlust geprüft."
+    },
+    {
+      "url": "https://ris.bka.gv.at/eli/bgbl/1988/96/A75/NOR12034760",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Normauszug zu Artikel 75: angemessenes Ersatzgeschäft innerhalb angemessener Zeit nach Aufhebung und Preisdifferenz zuzüglich möglichem weiteren Schaden nach Artikel 74 geprüft."
+    },
+    {
+      "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=/nrwe/olgs/hamm/j2019/2_U_132_18_Urteil_20190325.html",
+      "checked_on": "2026-09-14",
+      "supports": "OLG Hamm, Urteil vom 25.03.2019, Az. 2 U 132/18, amtlicher Volltext Seiten 13 bis 17 gelesen: Zuordnung und Angemessenheit der Deckungskäufe, Korrektur zu hoher Mengen und konkrete Prüfung günstigerer Beschaffungsmöglichkeiten nach Artikel 77 CISG."
+    },
+    {
+      "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=/nrwe/olgs/hamm/j2019/2_U_132_18_Urteil_20190325.html",
+      "checked_on": "2026-09-22",
+      "supports": "OLG Hamm, Urteil vom 25.03.2019, Az. 2 U 132/18, Randnummern 114 bis 154: Tatsächliche Ersatzmengen, angemessene Beschaffung und konkrete Schadensminderungsalternative; Ausnahme vor Aufhebung nach Randnummer 126. Grenze: Einzelfall endgültiger Lieferverweigerung bei bestehendem Aufhebungsrecht; keine allgemeine Freigabe früherer Einkäufe oder festen Fallpreise/Fristen."
+    },
+    {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002854&Artikel=74",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen deutschen Wortlaut des Artikels 74 CISG gelesen; Schadensersatz, Ersatzgeschäft beziehungsweise Schadensminderung."
+    },
+    {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002854&Artikel=75",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen deutschen Wortlaut des Artikels 75 CISG gelesen; Schadensersatz, Ersatzgeschäft beziehungsweise Schadensminderung."
+    },
+    {
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002854&Artikel=77",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen deutschen Wortlaut des Artikels 77 CISG gelesen; Schadensersatz, Ersatzgeschäft beziehungsweise Schadensminderung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZB_107-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Internationale Zuständigkeit nach Paragraf1025Absatz4ZPO; im Inland belegtes Staatsvermögen trägt Rechtsschutzbedürfnis für Vollstreckbarerklärung trotz möglicher Vollstreckungsimmunität. Grenze: Anerkennungsverfahren ist nicht die Vollstreckungsmaßnahme; keine Zugriffserlaubnis für immunes Vermögen. Ausgangsvertrag schließt CISG aus, kein Anker für Deckungskaufschaden."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0537",
+      "checked_on": "2026-10-01",
+      "supports": "Asymmetrie allein schadet nicht; hinreichend bestimmte Gerichte in EU-/Lugano-Staaten, objektive Kriterien und Schutz-/ausschließliche Zuständigkeiten prüfen. Grenze: Keine beliebige weltweite Gerichtsstandsoption; keine Entscheidung zu materiellen CISG-Schäden oder Schiedsvereinbarungen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "OLG-Hamm-Fall wird zur Mengenabgrenzung, Beschaffungsangemessenheit und engen Ausnahme vorgezogener Deckungskäufe genutzt. Workflow-Ergänzung einzeln geprüft: Ersatzware hat höhere Qualität oder eine verspätete Charge wurde doch genutzt -> Mehrpreis, Ausfallzeit und Schadensforderung neu berechnen. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Nur C-537/23 ergänzt die Forumsvorfrage des CISG-Hauptproblems/Fokusskills; I ZB107/25 bleibt in breiter Werkstatt/Mini/Zuständigkeitsskill. Materielle Deckungskaufrechnung weiter beim einschlägigen OLG-Anker.",
+    "changes": [
+      "OLG Hamm 2 U 132/18 amtlich erneut gelesen; gerichtliche Gründe von Parteibehauptungen unterschieden",
+      "Ausnahme vom zeitlich nachfolgenden Deckungskauf nur bei Aufhebungsrecht und endgültiger Erfüllungsverweigerung",
+      "Übermengen, Marktvergleich und Einwand nach Artikel 77 operativ mit Belegen verbunden; keine zusätzlichen Dokumente bei reinem Rechenauftrag",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Asymmetrische Klauseln konditioniert statt pauschal wirksam; Schiedsspruchanerkennung von Zugriff auf Staatsvermögen getrennt. Im bearbeiteten Zuständigkeitsskill falsche allgemeine Dreijahresfrist aus NYÜ ArtikelV entfernt."
+    ],
+    "sha256": "452c0214ad81d6bcd7ee691459a11de38ec29ad3500fa64989cde670ae318eba"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem und Fokus-Skill vollständig gelesen und zur eng begrenzten Ausnahme in Randnummer 126 sowie tatsächlicher Ersatzmenge konsistent präzisiert. Workflow-Ergänzung: Ersatzware hat höhere Qualität oder eine verspätete Charge wurde doch genutzt -> Mehrpreis, Ausfallzeit und Schadensforderung neu berechnen. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Nur C-537/23 ergänzt die Forumsvorfrage des CISG-Hauptproblems/Fokusskills; I ZB107/25 bleibt in breiter Werkstatt/Mini/Zuständigkeitsskill. Materielle Deckungskaufrechnung weiter beim einschlägigen OLG-Anker.",
+    "changes": [
+      "OLG Hamm 2 U 132/18 amtlich erneut gelesen; gerichtliche Gründe von Parteibehauptungen unterschieden",
+      "Ausnahme vom zeitlich nachfolgenden Deckungskauf nur bei Aufhebungsrecht und endgültiger Erfüllungsverweigerung",
+      "Übermengen, Marktvergleich und Einwand nach Artikel 77 operativ mit Belegen verbunden; keine zusätzlichen Dokumente bei reinem Rechenauftrag",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-internationales-wirtschaftsrecht/fachanwalt-internationales-wirtschaftsrecht-hauptproblem.md",
+    "prompt_sha256": "a7e296f1d92038d5e000d41db132a542106c51848c8932d6231a2396eed5e2a8",
+    "skill_path": "fachanwalt-internationales-wirtschaftsrecht/skills/cisg-deckungskauf-lieferchargen-schaden/SKILL.md",
+    "skill_sha256": "8a39f486186213cd8ef7c6d59736ba24cb4b448ecdcb8dd753aef4ab5b2f0df5"
+  },
+  "selection": {
+    "positive": [
+      "Unser italienischer Lieferant hat Restabrufe verweigert. Rechnen Sie die nach Aufhebung gekauften Ersatzchargen samt Expressfracht nach CISG ab.",
+      "Der Käufer verlangt Mehrkosten aus Sammelbestellungen. Prüfen Sie, welche Mengen tatsächlich unseren Lieferausfall ersetzen und ob der Gewinn doppelt angesetzt ist."
+    ],
+    "negative": [
+      "Entwerfen Sie eine Schiedsklausel für einen neuen Vertriebsvertrag, ohne bestehenden Lieferkonflikt.",
+      "Bestimmen Sie den Zolltarif und Ursprungsnachweis für die Einfuhr einer Maschine."
+    ],
+    "target_skill": "cisg-deckungskauf-lieferchargen-schaden"
+  },
+  "cases": [
+    {
+      "id": "restcharge-vorratseinkauf-expressfracht",
+      "request": "Erstellen Sie für unsere deutsche Käuferin ergebnis.md als Zahlungsentwurf und interne Schadensrechnung. Sie bestellte am 01.06.2026 bei einem italienischen Unternehmen 1.000 kg eines standardisierten Kunststoffgranulats zu 10 EUR je kg netto, frachtfrei an ihr Werk in Köln, Lieferung spätestens 30.06.2026. Beide Parteien sind Unternehmer mit alleinigen Niederlassungen in ihren Ländern; der schriftliche Vertrag wählt deutsches Recht ohne weitere Zusätze und enthält keine Schiedsklausel. 400 kg wurden rechtzeitig geliefert und mit 4.000 EUR bezahlt. Am 01.07. wurde für die restlichen 600 kg eine bis 03.07. angemessene, vom Verkäufer bestätigte Nachfrist gesetzt. Der Verkäufer verweigerte am 03.07. endgültig jede weitere Lieferung. Die Käuferin erklärte am 05.07. ausdrücklich die Aufhebung nur hinsichtlich der restlichen 600 kg; Zugang am selben Tag ist belegt. Am 06.07. bestellte sie 800 kg identischer Qualität zu 13 EUR je kg netto inklusive regulärer Fracht bei einem anderen Lieferanten. 600 kg ersetzten die ausgefallene Menge, 200 kg waren zusätzlicher Vorrat für einen unabhängigen Auftrag. Alle 800 kg wurden geliefert. Für die erforderliche Expresszustellung genau der 600 kg kamen belegte 300 EUR hinzu, die nicht im Kilopreis enthalten sind. Der ursprüngliche Verkäufer kannte schon bei Vertragsschluss den Weiterliefertermin am 08.07.; die Expresszustellung rettete diesen Auftrag vollständig. Unser Vertrieb verlangt zusätzlich 600 EUR entgangenen Gewinn aus genau diesem geretteten Weiterverkauf. Der Verkäufer verweist auf ein Angebot von 11 EUR je kg, das dieselbe Qualität erst am 01.08. liefern konnte; frühere lieferbare Alternativen sind nicht belegt. Alle Beträge sind netto, Vorsteuerabzug besteht. Es gab keine Vorauszahlung auf die Restcharge und keine weiteren Schäden. Erklären oder versenden Sie nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die rechtliche Einordnung prüft CISG trotz deutscher Rechtswahl und ordnet die belegte Aufhebung zeitlich vor dem Ersatzgeschäft ein; die bereits gelieferten 400 kg werden nicht rückabgewickelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Preisbrücke betrifft nur 600 kg und ergibt 1.800 EUR Mehrpreis. Die zusätzlichen 200 kg werden als Vorratseinkauf ausgesondert und nicht als Schaden angesetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die zusätzlich belegte Expressfracht wird unter Kausalität und Vorhersehbarkeit geprüft; die daraus begründete Gesamtforderung beträgt 2.100 EUR. Die 600 EUR behaupteter Gewinnausfall werden wegen des geretteten Weiterverkaufs nicht zusätzlich verlangt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Der billigere Einkauf wird wegen fehlender rechtzeitiger Lieferbarkeit nicht ohne Weiteres als zumutbare schadensmindernde Alternative angesetzt; das Ergebnis fordert nicht gleichzeitig abstrakte Marktpreisdifferenz für dieselbe Menge.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "cisg-deckungskauf-lieferchargen-schaden"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Breite Zuständigkeits-, Rechtswahl-, Schieds-, Außenhandels- und Datenschutzarbeit erhalten; Lieferstreit anhand gerichtlicher Subsumtion konkretisiert. Workflow-Ergänzung einzeln geprüft: Tatsächlich übermittelte AGB und Forumklausel, internationale Zustellung, chargenbezogener Deckungskauf, geretteter Gewinn, Währung und Nebenkosten sowie Empfänger- und Genehmigungsbedingungen im Vergleich. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Nur C-537/23 ergänzt die Forumsvorfrage des CISG-Hauptproblems/Fokusskills; I ZB107/25 bleibt in breiter Werkstatt/Mini/Zuständigkeitsskill. Materielle Deckungskaufrechnung weiter beim einschlägigen OLG-Anker.",
+    "changes": [
+      "OLG Hamm 2 U 132/18 amtlich erneut gelesen; gerichtliche Gründe von Parteibehauptungen unterschieden",
+      "Ausnahme vom zeitlich nachfolgenden Deckungskauf nur bei Aufhebungsrecht und endgültiger Erfüllungsverweigerung",
+      "Übermengen, Marktvergleich und Einwand nach Artikel 77 operativ mit Belegen verbunden; keine zusätzlichen Dokumente bei reinem Rechenauftrag",
+      "Tatsächlich übermittelte AGB und Forumklausel, internationale Zustellung, chargenbezogener Deckungskauf, geretteter Gewinn, Währung und Nebenkosten sowie Empfänger- und Genehmigungsbedingungen im Vergleich.",
+      "Asymmetrische Klauseln konditioniert statt pauschal wirksam; Schiedsspruchanerkennung von Zugriff auf Staatsvermögen getrennt. Im bearbeiteten Zuständigkeitsskill falsche allgemeine Dreijahresfrist aus NYÜ ArtikelV entfernt."
+    ],
+    "sha256": "48793d7605a46a0f9fed172d307fd06b3220ffa0c329e3132586c9e979a31b41"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-internationales-wirtschaftsrecht/README.md",
+      "fachanwalt-internationales-wirtschaftsrecht/fachanwalt-internationales-wirtschaftsrecht-hauptproblem.md",
+      "fachanwalt-internationales-wirtschaftsrecht/fachanwalt-internationales-wirtschaftsrecht-schnellstart.md",
+      "fachanwalt-internationales-wirtschaftsrecht/fachanwalt-internationales-wirtschaftsrecht-werkstatt.md",
+      "fachanwalt-internationales-wirtschaftsrecht/skills/cisg-deckungskauf-lieferchargen-schaden/SKILL.md",
+      "fachanwalt-internationales-wirtschaftsrecht/skills/gerichtsstand-und-rechtswahl-pruefen/SKILL.md",
+      "quality/evals/fachanwalt-internationales-wirtschaftsrecht.json"
+    ],
+    "opening_change": "Forum, Sachrecht und konkret durchsetzbare Leistung beziehungsweise chargenbezogenen Schaden statt abstrakter grenzüberschreitender Bearbeitung. Workflow-Ergänzung: Leer: Gerichtsstand, internationale Lieferstörung oder Vertragsgestaltung anbieten. Dateien ohne Aufgabe: Vertragsfassungen, Lieferchargen und Mehrkostenbelege still lesen; Forum-, Leistungs- oder Bezifferungsziel klären. Klarer Auftrag: konkreten Vertrag, Anspruch oder Abwehrtext unmittelbar bearbeiten; bekannte Länder- und Lieferdaten übernehmen.",
+    "norms": [
+      "Artikel 74, 75 und 77 CISG"
+    ],
+    "decisions": [
+      {
+        "citation": "OLG Hamm, Urteil vom 25.03.2019, Az. 2 U 132/18, Randnummern 114 bis 154",
+        "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=/nrwe/olgs/hamm/j2019/2_U_132_18_Urteil_20190325.html",
+        "application": "Tatsächliche Ersatzmengen, angemessene Beschaffung und konkrete Schadensminderungsalternative; Ausnahme vor Aufhebung nach Randnummer 126.",
+        "limit": "Einzelfall endgültiger Lieferverweigerung bei bestehendem Aufhebungsrecht; keine allgemeine Freigabe früherer Einkäufe oder festen Fallpreise/Fristen."
+      },
+      {
+        "citation": "BGH, Beschluss vom 16.07.2026 – Az. I ZB 107/25, Leitsätze a–e; Rn. 36–43",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZB_107-25.pdf?__blob=publicationFile&v=1",
+        "application": "Internationale Zuständigkeit nach Paragraf1025Absatz4ZPO; im Inland belegtes Staatsvermögen trägt Rechtsschutzbedürfnis für Vollstreckbarerklärung trotz möglicher Vollstreckungsimmunität.",
+        "limit": "Anerkennungsverfahren ist nicht die Vollstreckungsmaßnahme; keine Zugriffserlaubnis für immunes Vermögen. Ausgangsvertrag schließt CISG aus, kein Anker für Deckungskaufschaden.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "EuGH, Urteil vom 27.02.2025 – Az. C-537/23 – Società Italiana Lastre, Rn. 57–67",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0537",
+        "application": "Asymmetrie allein schadet nicht; hinreichend bestimmte Gerichte in EU-/Lugano-Staaten, objektive Kriterien und Schutz-/ausschließliche Zuständigkeiten prüfen.",
+        "limit": "Keine beliebige weltweite Gerichtsstandsoption; keine Entscheidung zu materiellen CISG-Schäden oder Schiedsvereinbarungen.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "Amtliches PDF insbesondere Randnummern 95 bis 158 gelesen; kein erneuter Vollcheck sämtlicher Forum-, Sanktions-, Drittlanddaten- oder Investitionsschutzfragen.",
+      "Workflow-Review 23.09.2026: erneuter RIS-Abruf zu Artikel 75 CISG nicht zugänglich. Vorhandene Nachweise und Grenzen des vorzeitigen Deckungskaufs beibehalten, keine neue Rechtsprechung ergänzt.",
+      "01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Nur C-537/23 ergänzt die Forumsvorfrage des CISG-Hauptproblems/Fokusskills; I ZB107/25 bleibt in breiter Werkstatt/Mini/Zuständigkeitsskill. Materielle Deckungskaufrechnung weiter beim einschlägigen OLG-Anker."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Gerichtsstand, internationale Lieferstörung oder Vertragsgestaltung anbieten.",
+      "Dateien ohne Aufgabe: Vertragsfassungen, Lieferchargen und Mehrkostenbelege still lesen; Forum-, Leistungs- oder Bezifferungsziel klären.",
+      "Klarer Auftrag: konkreten Vertrag, Anspruch oder Abwehrtext unmittelbar bearbeiten; bekannte Länder- und Lieferdaten übernehmen."
+    ],
+    "continuation": "Ersatzware hat höhere Qualität oder eine verspätete Charge wurde doch genutzt -> Mehrpreis, Ausfallzeit und Schadensforderung neu berechnen.",
+    "enrichment": "Tatsächlich übermittelte AGB und Forumklausel, internationale Zustellung, chargenbezogener Deckungskauf, geretteter Gewinn, Währung und Nebenkosten sowie Empfänger- und Genehmigungsbedingungen im Vergleich.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "method": "targeted_primary_source_and_editorial_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-internationales-wirtschaftsrecht.json",
+    "limits": "Zwei aktuelle oberstgerichtliche Entscheidungen fachlich geprüft; keine Vollprüfung sämtlicher Fachskills oder älterer Quellen und kein neuer Modelllauf.",
+    "focus_scope": "Nur C-537/23 ergänzt die Forumsvorfrage des CISG-Hauptproblems/Fokusskills; I ZB107/25 bleibt in breiter Werkstatt/Mini/Zuständigkeitsskill. Materielle Deckungskaufrechnung weiter beim einschlägigen OLG-Anker."
+  }
+}

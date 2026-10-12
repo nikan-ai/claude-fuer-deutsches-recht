@@ -1,6 +1,6 @@
 ---
 name: syndikus-schriftsatz-brief-und-memo-bausteine
-description: "Wenn es um Syndikus: Schriftsatz-, Brief- und Memo-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Syndikus: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Syndikus: Schriftsatz-, Brief- und Memo-Bausteine
@@ -70,3 +70,4 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Praxis-Tipp
 Memo an Unternehmensleitung: zuerst eine Seite mit Executive Summary + Risikoampel + Empfehlung; erst auf den Folgeseiten die Detailbegründung. Geschäftsleitung entscheidet auf Basis des ersten Absatzes — wer alle Details auf Seite 1 packt, verliert die Entscheidung im Rauschen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

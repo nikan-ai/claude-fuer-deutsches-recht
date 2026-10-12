@@ -1,6 +1,6 @@
 ---
 name: mandanten-onboarding-checkliste
-description: "Wenn es um Mandanten-Onboarding-Checkliste Vollservice in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Mandanten Onboarding Checkliste; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Mandanten-Onboarding-Checkliste Vollservice: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: mandanten-onboarding-checkliste."
 ---
 
 # Mandanten-Onboarding-Checkliste Vollservice
@@ -103,7 +103,7 @@ G. STEUERN
 
 H. ESKALATION
 [ ] Krisenmandat-Status?
-[ ] Hinweispflichten § 102 StaRUG
+[ ] Jahresabschlussauftrag und gegebenenfalls vollständiger Tatbestand des Paragrafen 102 StaRUG
 [ ] BHV-Anzeige falls relevant
 ```
 

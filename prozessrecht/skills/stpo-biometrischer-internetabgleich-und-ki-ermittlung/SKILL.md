@@ -1,6 +1,6 @@
 ---
 name: stpo-biometrischer-internetabgleich-und-ki-ermittlung
-description: "Wenn es um StPO: Biometrischer Internetabgleich und digitale Werkzeuge-Ermittlung in Prozessrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für StPO: Biometrischer Internetabgleich und digitale Werkzeuge-Ermittlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # StPO: Biometrischer Internetabgleich und KI-Ermittlung
@@ -152,3 +152,4 @@ Wenn diese Unterlagen fehlen, ist das nicht nur Datenschutz- oder Technikproblem
 | Drittbetroffenheit massiv | Verhältnismäßigkeit, Löschung, Benachrichtigung, Zweckbindung prüfen |
 | Berufsgeheimnisträger/Kernbereich berührt | besondere Schutzmechanismen und Verwertungsgrenzen geltend machen |
 | KI-VO-Dokumentation fehlt | Hochrisiko-Konformität, Grundrechte-Folgenabschätzung und Systemaufsicht rügen |
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Unterscheiden Sie private Schriftsatzhilfe von einem im Auftrag der Justiz eingesetzten entscheidungsunterstützenden System. Die Bezeichnung Recherchehilfe beweist nicht, dass tatsächlicher Entscheidungseinfluss fehlt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

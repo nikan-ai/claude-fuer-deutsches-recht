@@ -1,6 +1,6 @@
 ---
 name: tatbestaende-lernen
-description: "Wenn es um Tatbestaende Lernen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Tatbestände Lernen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Tatbestaende lernen für Jurastudium und Examensvorbereitung: Anwendungsfall Student muss Tatbestaende und Definitionen sicher beherrschen für Klausuren und Examen
@@ -23,9 +23,6 @@ description: "Wenn es um Tatbestaende Lernen in Jurastudium geht: prüft Frist, 
 2. Ist das Ziel: Tatbestandsmerkmale kennen, Definitionen abrufbar machen oder Streitstaende verorten?
 3. Soll im Drill-Format (Abfragen) oder im Erklaer-Format (Zusammenhaenge) gearbeitet werden?
 4. Gibt es einen Klausur-/Examens-Druck oder dient die Übung der Grundlagen-Vertiefung?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 433, 280, 823 BGB — Zivil-Kerntatbestaende für Drill-Lernen
@@ -105,3 +102,5 @@ Diese Skill arbeitet eng mit `karteikarten`:
 - Sie liefert keine vorgefertigten Karteikartendecks, die der Studenten nur konsumiert. Lernzweck wäre dann verfehlt. Die Definitionen muss der Studenten formulieren — die Skill korrigiert.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Sie übt keine ganzen Klausuren (siehe `gutachten-uebung`).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

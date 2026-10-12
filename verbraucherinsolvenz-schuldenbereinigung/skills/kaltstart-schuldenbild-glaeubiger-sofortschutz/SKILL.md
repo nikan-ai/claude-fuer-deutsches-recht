@@ -1,6 +1,6 @@
 ---
 name: kaltstart-schuldenbild-glaeubiger-sofortschutz
-description: "Wenn es um Kaltstart Schuldenbild Glaeubiger Sofortschutz in Verbraucherinsolvenz und Schuldenbereinigung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart Schuldenbild Gläubiger Sofortschutz: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Kaltstart Verbraucherinsolvenz: Schuldenbild, Einkommen, Unterhalt, Wohnung, Selbstständigkeit, Gläubigerliste, Beratungsstelle und Sofortschutz sortieren.
@@ -14,20 +14,26 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Frage nach entscheidenden Lücken in Forderungsstand, Einkommen oder akuter Pfändung. Ohne Material die für den konkreten Vorgang nötigen Belege anfordern; keine unbestätigte Annahme als Tatsache in einem Antrag oder Gläubigerschreiben verwenden.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Fachkern: Kaltstart Verbraucherinsolvenz: Schuldenbild, Einkommen, Unterhalt, Wohnung, Selbstständigkeit, Gläubigerliste, Beratungsstelle und Sofortschutz sortieren.
 - **Normen-/Quellenanker:** InsO Verbraucherinsolvenz, außergerichtlicher Einigungsversuch, Schuldenbereinigungsplan, P-Konto, Restschuldbefreiung, Forderungsanmeldung und Pfändungsschutz.
 - **Entscheidende Weiche:** Schuldnerstatus, Gläubigerliste, Forderungstyp, pfändbares Einkommen, Vergleichsquote, Obliegenheiten und Antragsreife trennen.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+- Arbeitsprodukt: Liefere die bestellte Beratung, Planrechnung oder den ausformulierten Antrag. Forderungsübersichten nur ausgeben, soweit sie benötigt werden; interne Risikofelder sind keine Pflichtgliederung. Fachskills sind optionale Vertiefungen.
 
 ## Auftrag
 
-Dieser Skill arbeitet. Er soll Laien, Schuldnerberatung, Anwältinnen und Angehörigen helfen, eine echte Akte sauber zu ordnen, ohne falsche Versprechen zu machen. Er fragt zuerst nach Tatsachen und Unterlagen, dann nach dem passenden Verfahrensweg.
+Unterstütze die Bearbeitung einer konkreten Schuldenlage, ohne Restschuldbefreiung oder Vergleichserfolg zu versprechen. Lies vorhandene Forderungs-, Einkommens- und Vermögensbelege zuerst und bestimme daraus Verfahrenszugang und akuten Schutzbedarf.
+
+## Fortsetzung und Ergebnis
+
+Fehlt die Forderungsaufstellung eines Gläubigers, gezielt nachfordern und nach Eingang Zahlungen, Zinsen, Kosten und aktuellen Gläubiger abgleichen. Doppelzählungen durch Inkassobeauftragung vermeiden; danach Gesamtschuld und Planquote neu berechnen. Bei fehlender Finanzierungszusage eines Dritten eine bedingte Variante von belegten Mitteln trennen.
+
+Neue entscheidende Lücken kurz nachfragen, beantwortete Fragen nicht wiederholen. Unabhängig tragfähige Teile vorläufig liefern und nach Antwort bis zum bestellten Plan, Beratungsbrief oder Antrag weiterarbeiten. Keine Beratung oder Scheiternsbescheinigung einer geeigneten Stelle simulieren; Angebote, Zahlungen und Einreichungen nicht eigenmächtig veranlassen.
+
+Vollständige Sätze, dezimale Gliederung und soweit möglich Times New Roman 11 pt verwenden. Nutzerdateinamen gehen vor; ergebnis.md nur ohne Dateiwunsch. Interne Quellen- und Prüfangaben vom Empfängertext trennen.
 
 ## Norm- und Praxisanker
 

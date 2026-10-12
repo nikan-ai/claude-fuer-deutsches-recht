@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "plugin": "memorandums-ersteller",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__271.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Text erneut gelesen: bestimmte Leistungszeit für das individuelle Beispiel; keine allgemeine Sachnorm für beliebige Memoranden."
+    },
+    {
+      "url": "https://www.anwalt24.de/urteile/bgh/2021-09-16/ix-zr-165_19",
+      "checked_on": "2026-09-23",
+      "supports": "Wiedergabe des gerichtlichen Primärtexts zu IX ZR 165/19, Randnummern 28 bis 31, erneut gelesen: verständliche Entscheidungsgrundlage und erneute Aufklärung bei verschlechterter Lage. Keine vorgeschriebene Memoform; amtlicher PDF-Direktabruf weiterhin nicht erfolgreich."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__271.html",
+      "checked_on": "2026-09-14",
+      "supports": "Vereinbarte Leistungszeit im individuellen Prüffall."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2019/IX_ZR_165-19.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "Amtliche Identität/Fundstelle; maßgebliche Begründung in separat dokumentierter Volltextwiedergabe geprüft. Eigenverantwortliche Entscheidung ermöglichen und Empfehlung nach verschlechterter Sach- oder Rechtslage aktualisieren. Grenze: Keine vorgeschriebene Memoform; keine Sachnorm für sämtliche Mandatsgegenstände. Gerichtliche Identität amtlich bestätigt; Begründung wegen gesperrtem Direktabruf in veröffentlichter Volltextwiedergabe bei anwalt24 gelesen. Keine vollständige Prüfung sämtlicher Memosachgebiete."
+    },
+    {
+      "url": "https://www.anwalt24.de/urteile/bgh/2021-09-16/ix-zr-165_19",
+      "supports": "Volltextwiedergabe des gerichtlichen Primärtexts, Randnummern 28 bis 31; keine Gleichsetzung mit amtlich erfolgreichem PDF-Abruf.",
+      "checked_on": "2026-09-22"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tatbestand, Tenor und Gründe Rn. 1–33 vollständig. Verschlechterte Erfolgsaussichten eigenständig bewerten und auch rechtsschutzversicherte Mandanten beraten, bevor Aussichtslosigkeit erreicht ist. Grenze: Beratungspflicht von Beweis der Kausalität, Schaden und Anscheinsbeweis unterscheiden; nur Zurückverweisung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten.",
+    "changes": [
+      "Konkrete Entscheidungsfrage statt bloßem Erstellungsauftrag; Aktualisierung muss Kurzantwort und Empfehlung verändern, nicht nur neue Fundstelle anfügen.",
+      "Eigenverantwortliche Entscheidung ermöglichen und Empfehlung nach verschlechterter Sach- oder Rechtslage aktualisieren. Grenze: Keine vorgeschriebene Memoform; keine Sachnorm für sämtliche Mandatsgegenstände.",
+      "Neuerstellung, Kürzung und Aktualisierung unterscheiden; konkreten Nachtrag in die vollständige Memo-Fassung einarbeiten.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
+    ],
+    "sha256": "301059dd6a97f71e591bff6ea2eb4079566071ea34eda8ef2df75714800f3a0f",
+    "reviewed_on": "2026-10-01"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten.",
+    "changes": [
+      "Konkrete Entscheidungsfrage statt bloßem Erstellungsauftrag; Aktualisierung muss Kurzantwort und Empfehlung verändern, nicht nur neue Fundstelle anfügen.",
+      "Eigenverantwortliche Entscheidung ermöglichen und Empfehlung nach verschlechterter Sach- oder Rechtslage aktualisieren. Grenze: Keine vorgeschriebene Memoform; keine Sachnorm für sämtliche Mandatsgegenstände.",
+      "Vertragsfassung und Tatsachenbeleg unterscheiden; abhängige Fragen und konkrete Gegenbelege in Kurzantwort und Empfehlung übersetzen.",
+      "Empfängerwechsel und Kürzung dürfen Wahrheitsgrad nicht verändern; fertiges Memo von noch ausstehender Empfängerentscheidung trennen.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
+    ],
+    "sha256": "37bdad927c20cd1c8411a768a373fa4b85fce804e1484bd42494f4ac00cf3ef9",
+    "reviewed_on": "2026-10-01"
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie ein Vier-Teile-Memo zur Fälligkeit aus Vertrag und E-Mail.",
+      "Überarbeiten Sie die Kurzantworten unseres Entscheidungsmemos anhand widersprüchlicher Belege."
+    ],
+    "negative": [
+      "Schreiben Sie nur eine höfliche organisatorische Erstantwort zur Terminvergabe.",
+      "Erstellen Sie eine Klageschrift mit bestimmten Anträgen statt eines internen Memos."
+    ]
+  },
+  "cases": [
+    {
+      "id": "vorfaellige-lieferforderung",
+      "request": "Erstellen Sie ergebnis.md als Vier-Teile-Memorandum für die Einkaufsleitung zum 14.09.2026. Vollständiger Sachverhalt: Der unterschriebene Kaufvertrag vom 01.09.2026 bestimmt in Ziffer 3 die Lieferung am 30.09.2026. Die Käuferin verlangt mit E-Mail vom 12.09.2026 Lieferung spätestens am 15.09.2026. Der Verkäufer hat darauf nicht reagiert. Es gibt keine weiteren Abreden oder Umstände, aus denen ein anderer Liefertermin folgen könnte. Die Einkaufsleitung fragt, ob sie Lieferung bereits am 15.09.2026 verlangen kann. Die beiden Dokumentinhalte sind hier vollständig wiedergegeben; Dateien existieren nicht.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Memo enthält Sachverhalt, eine Ein-Satz-Frage, eine zugeordnete Ein-Satz-Antwort und gesonderte rechtliche Ausführungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Vertrag und einseitige spätere E-Mail werden als unterschiedliche Quellen behandelt; eine Terminänderungsvereinbarung wird nicht erfunden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Antwort verneint anhand der vereinbarten Leistungszeit einen belegten Anspruch auf Lieferung bereits am 15.09.2026 und stimmt mit der Begründung überein.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "memo-vier-teile-aufbau"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "memorandums-ersteller/memorandums-ersteller-werkstatt.md",
+      "memorandums-ersteller/memorandums-ersteller-schnellstart.md"
+    ],
+    "opening_change": "Konkrete Entscheidungsfrage statt bloßem Erstellungsauftrag; Aktualisierung muss Kurzantwort und Empfehlung verändern, nicht nur neue Fundstelle anfügen.",
+    "norms": [
+      "Paragrafen 675 Absatz 1 und 280 Absatz 1 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 16.09.2021, IX ZR 165/19, Randnummern 28 bis 31",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2019/IX_ZR_165-19.pdf?__blob=publicationFile&v=1",
+        "application": "Eigenverantwortliche Entscheidung ermöglichen und Empfehlung nach verschlechterter Sach- oder Rechtslage aktualisieren.",
+        "limit": "Keine vorgeschriebene Memoform; keine Sachnorm für sämtliche Mandatsgegenstände."
+      },
+      {
+        "citation": "BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1",
+        "application": "Verschlechterte Erfolgsaussichten eigenständig bewerten und auch rechtsschutzversicherte Mandanten beraten, bevor Aussichtslosigkeit erreicht ist.",
+        "limit": "Beratungspflicht von Beweis der Kausalität, Schaden und Anscheinsbeweis unterscheiden; nur Zurückverweisung."
+      }
+    ],
+    "remaining_limits": [
+      "Gerichtliche Identität amtlich bestätigt; Begründung wegen gesperrtem Direktabruf in veröffentlichter Volltextwiedergabe bei anwalt24 gelesen. Keine vollständige Prüfung sämtlicher Memosachgebiete.",
+      "Ergänzung 2026-09-23: Sämtliche bisherigen Profil-URLs erneut geöffnet. Amtlicher PDF-Direktabruf weiterhin erfolglos; Randnummern 28 bis 31 erneut in der benannten gerichtlichen Textwiedergabe gelesen und Paragraf 271 BGB amtlich geprüft. Frühere Quellenprüfung bleibt datierter historischer Stand. Workflow-Prüfung ohne Live-Mandat, ohne neue materiellrechtliche Entscheidung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Auswahl zwischen neuem Entscheidungsmemo, Kurzfassung und Aktualisierung.",
+      "Dateien ohne Auftrag: still lesen und nur anstehende Entscheidung oder Redaktionsauftrag klären.",
+      "Klarer Auftrag: unmittelbar Vier-Teile-Memo bearbeiten und nur entscheidende fehlende Tatsachen nachfragen."
+    ],
+    "continuation": "Beiderseitiger Vertragsnachtrag verändert Sachverhalt, zugeordnete Kurzantwort und Empfehlung im bestehenden Nutzerpfad, etwa memo.md; unverändert tragfähige Teile bleiben erhalten.",
+    "enrichment": "Vorgreifliche Fragen, tatsächliche Vertragsfassungen, Gegenbelege, rechtliche und wirtschaftliche Entscheidungsgründe, fristgerechte Beratung, Empfängerwechsel und eindeutiger interner Abschluss konkretisiert.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=122686&Blank=1.pdf",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2019/IX_ZR_165-19.pdf?__blob=publicationFile&v=1",
+        "sha256": "f1f18b4a852a4edf574ce4a14f7292d9d9d65365deca5b1618ed0f17c33daa2d"
+      }
+    ]
+  }
+}

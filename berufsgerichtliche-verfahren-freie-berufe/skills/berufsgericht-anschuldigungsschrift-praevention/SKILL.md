@@ -1,6 +1,6 @@
 ---
 name: berufsgericht-anschuldigungsschrift-praevention
-description: "Wenn es um Berufsgericht Anschuldigungsschrift: Präventions- und Organisationspaket in Berufsgerichtliche Verfahren Freie Berufe geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Berufsgericht Anschuldigungsschrift: Präventions- und Organisationspaket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Berufsgericht Anschuldigungsschrift: Präventions- und Organisationspaket
@@ -47,15 +47,3 @@ Erzeuge Organisationsanweisung, Checkliste, Schulung, Vorlagen, Eskalationslogik
 
 - Welche Kammer/Aufsicht handelt?
 - Geht es um Anhörung, Rüge, Anschuldigung, Zulassungsmaßnahme oder Rechtsmittel?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 12 GG
-- Art. 5 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

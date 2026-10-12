@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "plugin": "fortbestehensprognose",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__19.html",
+      "checked_on": "2026-09-14",
+      "supports": "Zwölfmonatige überwiegend wahrscheinliche Unternehmensfortführung als Ausnahme im Überschuldungstatbestand."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2020/II_ZR__84-20.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 13.07.2021, II ZR 84/20, Rn. 65–87: Bei weicher Patronatserklärung oder erwarteter Gesellschafterfinanzierung Zahlungsfähigkeit und Zahlungsbereitschaft anhand konkreter Umstände prognostizieren; in der Krise genügt bisherige Unterstützung regelmäßig nicht. Prognose laufend überwachen. Grenze: Nicht jeder künftige Zufluss braucht bereits einen Rechtsanspruch; auch keine pauschale Anerkennung weicher Patronate. Handelsbilanzielle Fortführung und insolvenzrechtliche Prognose bleiben verschieden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__19.html",
+      "checked_on": "2026-09-22",
+      "supports": "Paragraf 19 Absatz 2: überwiegend wahrscheinliche Fortführung in den nächsten zwölf Monaten."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der zwölfmonatige Prognosefall verlangt konkrete Finanzierung statt bloßer Konzernzugehörigkeit oder Zusageetiketten. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "II ZR 84/20 differenziert harte und weiche Unterstützung, ohne jeden künftigen Zufluss vom Bestehen eines Rechtsanspruchs abhängig zu machen.",
+      "Paragraf 19 Absatz 2 InsO mit zwölf Monaten von HGB-Fortführung und längerem Planungsbedarf getrennt.",
+      "Zwölfmonatsplanung, Finanzierungszusage oder Prognosevermerk wählen. Dateien still lesen, klare Aufträge direkt bearbeiten, Folgeantwort dokumentbezogen umsetzen."
+    ],
+    "sha256": "c65eedb97e482ee6f96d0615f8473b11b821d01557944da5fbce51e8ad819c7a"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe meine Zwölfmonatsplanung auf eine tragfähige Fortbestehensprognose.",
+      "Bewerte eine noch nicht unterzeichnete Finanzierungszusage in der Liquiditätsplanung."
+    ],
+    "negative": [
+      "Erstelle ausschließlich eine Gläubigergruppenabstimmung für einen fertigen StaRUG-Plan.",
+      "Berechne den handelsrechtlichen Jahresüberschuss ohne Liquiditätsprüfung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "unterdeckung-trotz-positivem-endsaldo",
+      "request": "Erstelle ergebnis.md als Prognosevermerk zum 1. Oktober 2026 für eine GmbH. Frei verfügbare Anfangsliquidität: 100000 Euro. In jedem der ersten vier Monate fallen jeweils 40000 Euro fällige Auszahlungen und 10000 Euro sichere Einzahlungen an. In den folgenden acht Monaten beträgt der monatliche sichere Einzahlungsüberschuss jeweils 5000 Euro. Weitere Mittel fehlen. Ein Gesellschafter hat mündlich 50000 Euro für Monat vier in Aussicht gestellt, aber weder verbindlich zugesagt noch seine Leistungsfähigkeit belegt. Am Stichtag sind alle bereits fälligen Verbindlichkeiten bezahlt. Stelle Verlauf, Finanzierungsszenario und Aussagegrenzen dar.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Verlauf zeigt 70000, 40000, 10000 und minus 20000 Euro nach den ersten vier Monaten; der spätere positive Endsaldo verdeckt die Unterdeckung nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die mündlich in Aussicht gestellten 50000 Euro werden nicht als gesichert behandelt und tragen keine vorbehaltlose positive Prognose.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Aus der erst im vierten Monat geplanten Lücke wird nicht ohne zusätzliche Tatsachen heutige Zahlungsunfähigkeit abgeleitet; weitere Insolvenzprüfung und Finanzierungsnachweis werden konkret benannt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "liquiditaet-12-monate"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Patronat, fortlaufende Verluste, Zahlungsbereitschaft und Überwachung werden in den bestehenden Szenario- und Berichtspfad eingeordnet. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "II ZR 84/20 differenziert harte und weiche Unterstützung, ohne jeden künftigen Zufluss vom Bestehen eines Rechtsanspruchs abhängig zu machen.",
+      "Paragraf 19 Absatz 2 InsO mit zwölf Monaten von HGB-Fortführung und längerem Planungsbedarf getrennt.",
+      "Stichtagswissen, Zahlungsüberleitung, doppelte Zuflüsse, bedingte Finanzierung, echte Belastungsannahmen und getrennte Bankenfassung ergänzt."
+    ],
+    "sha256": "79ab31c4d1cb96ca2273b9b2c592145cdf5e20371475ea3215b98c2a43c58eb3"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "fortbestehensprognose/fortbestehensprognose-schnellstart.md",
+      "fortbestehensprognose/fortbestehensprognose-werkstatt.md",
+      "fortbestehensprognose/README.md",
+      "quality/evals/fortbestehensprognose.json"
+    ],
+    "opening_change": "Erste ungedeckte Fälligkeit und Finanzierung des gesetzlichen Prognosezeitraums aus datierten Zahlungsannahmen bestimmen.",
+    "norms": [
+      "Paragraf 19 Absatz 2 InsO",
+      "Paragrafen 17 und 18 InsO",
+      "Paragraf 252 Absatz 1 Nummer 2 HGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 13.07.2021, II ZR 84/20, Rn. 65–87",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2020/II_ZR__84-20.pdf?__blob=publicationFile&v=1",
+        "application": "Bei weicher Patronatserklärung oder erwarteter Gesellschafterfinanzierung Zahlungsfähigkeit und Zahlungsbereitschaft anhand konkreter Umstände prognostizieren; in der Krise genügt bisherige Unterstützung regelmäßig nicht. Prognose laufend überwachen.",
+        "limit": "Nicht jeder künftige Zufluss braucht bereits einen Rechtsanspruch; auch keine pauschale Anerkennung weicher Patronate. Handelsbilanzielle Fortführung und insolvenzrechtliche Prognose bleiben verschieden."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Keine allgemeine Anerkennung weicher Patronatserklärungen; Wahrscheinlichkeit und Zahlungsfähigkeit bleiben belegabhängig. Berufsständische Standards nicht neu vollständig geprüft.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Zwölfmonatsplanung, Finanzierungszusage oder Prognosevermerk wählen.",
+      "Planung und Zusagen still lesen; Lückenrechnung oder Patronatsbewertung anbieten.",
+      "Bestellten Prognosevermerk unmittelbar rechnen und schreiben."
+    ],
+    "continuation": "Auszahlung erst nach erster Unterdeckung -> Zwischenbedarf bleibt; belegte Stundung -> konkrete Fälligkeiten und Prognose ändern.",
+    "enrichment": "Stichtagswissen, Zahlungsüberleitung, doppelte Zuflüsse, bedingte Finanzierung, echte Belastungsannahmen und getrennte Bankenfassung ergänzt.",
+    "limits": "desk review; no live client execution"
+  }
+}

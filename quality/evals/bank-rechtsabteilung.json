@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "plugin": "bank-rechtsabteilung",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675w.html",
+      "checked_on": "2026-09-14",
+      "supports": "Authentifizierungsaufzeichnung beweist nicht notwendig Autorisierung oder grobe Fahrlässigkeit; unterstützende Beweismittel sind erforderlich."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675u.html",
+      "checked_on": "2026-09-14",
+      "supports": "Erstattung nicht autorisierter Zahlungen und begrenzte Ausnahme bei mitgeteiltem Verdacht betrügerischen Verhaltens des Zahlers."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2014/XI_ZR__91-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 26.01.2016, XI ZR 91/14, Rn. 18, 19, 68–81: Bei bestrittenen Onlinezahlungen muss die Bank mehr als ein Erfolgslog vorlegen: Autorisierung, konkrete Verfahrenssicherheit und fehlerfreie Anwendung getrennt würdigen; kein typischer Schluss auf grobe Fahrlässigkeit. Grenze: Entscheidung zum damaligen Zahlungsdiensterecht; kein Ausschluss des Vollbeweises und keine Übernahme alter Absatznummern in Paragraf 675v BGB."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675w.html",
+      "checked_on": "2026-09-22",
+      "supports": "Nachweis der Authentifizierung ist nicht notwendig Nachweis der Autorisierung oder groben Fahrlässigkeit."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2554",
+      "checked_on": "2026-09-22",
+      "supports": "Artikel 16 Absatz 1: begrenzter Adressatenkreis; Artikel 28: Drittparteienrisiko und fortbestehende Verantwortung; Artikel 30: Vertragsanforderungen nach Kritikalität."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675u.html",
+      "checked_on": "2026-09-23",
+      "supports": "Unverzügliche Erstattung spätestens bis Ende des folgenden Geschäftstags; gesetzliche Ausnahme nur mit berechtigten Betrugsverdachtsgründen gegen den Zahler und schriftlicher Behördenmitteilung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2024/XI_ZR__20-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 1–35. Manuelles chipTAN: fehlender Name am Generator allein belegt keinen Ausschluss nach §675vAbs4S1Nr1; IBAN/Betrag, Onlinebanking-Anzeige und TAN-Weitergabe konkret prüfen. Grenze: Rn.27/31 lassen allgemeine zusätzliche Anforderungen teils offen; konkrete grobe Fahrlässigkeit nicht aus einem Erfolgslog auf alle Betrugsfälle übertragen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Die Zahlungsreklamation beginnt bei Buchung und Freigabeinhalt; der technische Erfolgsnachweis wird nicht mit Zustimmung oder grober Fahrlässigkeit gleichgesetzt. Individuelle Text- und Quellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert.",
+    "changes": [
+      "Bankseitige Erstattungsprüfung mit XI ZR 91/14 und Grenzen des Anscheinsbeweises verknüpft.",
+      "DORA Artikel 16 vom allgemeinen Risikomanagement sowie Artikel 28 und 30 von zivilrechtlicher Zahlungshaftung getrennt.",
+      "Leerstart: Zahlungsreklamation, Avalabruf oder Aufsichtsauskunft anbieten. Dateien: Bankakte still lesen; kein Gesamtmemo ohne Auftrag. Klarer Auftrag: Kundenantwort oder internes Votum unmittelbar ausarbeiten.",
+      "Freigabeanzeige verändert Autorisierung und Kundenantwort; Avalnachtrag verändert Laufzeit; korrigierte Tochterdaten verändern Aufsichtsanhänge."
+    ],
+    "sha256": "26a361098d6ba8096ff1d05b2c0f4057c94cc26c6d27d0bd3c73c6d12b4ae7bc"
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie eine bankinterne Entscheidungsvorlage zur reklamierten Onlineüberweisung.",
+      "Prüfen Sie eine Avalurkunde und bereiten Sie die Freigabe für unsere Rechtsabteilung vor."
+    ],
+    "negative": [
+      "Empfehlen Sie mir als Privatperson die renditestärkste Aktie.",
+      "Prüfen Sie die Sozialversicherungsbeiträge einer Bankangestellten."
+    ]
+  },
+  "cases": [
+    {
+      "id": "tan-log-ohne-zustimmungsbeleg",
+      "request": "Erstellen Sie ergebnis.md als internes Rechtsmemo und Entwurf einer Kundenantwort für eine deutsche Bank. Privatkunde Paul Stern reklamiert am Montag, 14.09.2026, um 9 Uhr eine Überweisung über 6800 Euro vom 11.09. an einen ihm unbekannten Empfänger. Er bestreitet jede Zustimmung. Bisher vorhanden ist nur ein Logeintrag Authentifizierung erfolgreich; Freigabeanzeige, Gerätebindung und Ablaufdaten sind noch nicht ausgewertet. Das Serviceteam will mit TAN korrekt, daher grob fahrlässig ablehnen. Es liegen weder konkrete Anhaltspunkte für Betrug des Kunden noch eine entsprechende schriftliche Behördenmitteilung vor. Prüfen Sie die vorgeschlagene Antwort und bestimmen Sie die nächsten internen Maßnahmen. Kein Versand und keine Zahlungsaktion.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Verwirft die allein auf Authentifizierung gestützte Schlussfolgerung auf Zustimmung oder grobe Fahrlässigkeit und benennt konkrete zusätzlich benötigte Belege.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft den Erstattungszeitrahmen nach Paragraf 675u und setzt eine laufende Untersuchung nicht automatisch mit der nicht belegten Ausnahme wegen Kundenbetrugs gleich.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert getrennte interne Maßnahmen und sachliche Kundenantwort, ohne Autorisierung, Verschulden, erfolgte Erstattung oder Versand zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "psd2-fraud-refund-unauthorised-payment"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die getrennten Wege für Zahlungsdienste, Kredit, Aufsicht und IKT-Verträge bleiben erhalten; der Entscheidungsanker führt zur konkret anzufordernden Beweiskette. Individuelle Text- und Quellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen.",
+    "changes": [
+      "Bankseitige Erstattungsprüfung mit XI ZR 91/14 und Grenzen des Anscheinsbeweises verknüpft.",
+      "DORA Artikel 16 vom allgemeinen Risikomanagement sowie Artikel 28 und 30 von zivilrechtlicher Zahlungshaftung getrennt.",
+      "Erstattungszeitrahmen, Autorisierung nach neuer Aussage, Avalabruf und widersprüchliche Aufsichtszahlen mit getrennten Vollzugsschritten.",
+      "Freigabeanzeige verändert Autorisierung und Kundenantwort; Avalnachtrag verändert Laufzeit; korrigierte Tochterdaten verändern Aufsichtsanhänge."
+    ],
+    "sha256": "d0affa2ad5374fd5ced9aa45f8149e36872a93635c3f416f8f6020b5d9729fc8"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Zahlungsreklamation, Avalabruf oder Aufsichtsauskunft anbieten.",
+      "Dateien: Bankakte still lesen; kein Gesamtmemo ohne Auftrag.",
+      "Klarer Auftrag: Kundenantwort oder internes Votum unmittelbar ausarbeiten."
+    ],
+    "continuation": "Freigabeanzeige verändert Autorisierung und Kundenantwort; Avalnachtrag verändert Laufzeit; korrigierte Tochterdaten verändern Aufsichtsanhänge.",
+    "enrichment": "Erstattungszeitrahmen, Autorisierung nach neuer Aussage, Avalabruf und widersprüchliche Aufsichtszahlen mit getrennten Vollzugsschritten.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "bank-rechtsabteilung/bank-rechtsabteilung-schnellstart.md",
+      "bank-rechtsabteilung/bank-rechtsabteilung-werkstatt.md",
+      "bank-rechtsabteilung/README.md",
+      "quality/evals/bank-rechtsabteilung.json"
+    ],
+    "opening_change": "Kontobelastung, Kreditsicherheit und Aufsichtsantwort statt allgemeiner Rechtsabteilungsorganisation.",
+    "norms": [
+      "Paragrafen 675u, 675v und 675w BGB",
+      "Artikel 16, 28 und 30 DORA"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 26.01.2016, XI ZR 91/14, Rn. 18, 19, 68–81",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2014/XI_ZR__91-14.pdf?__blob=publicationFile&v=1",
+        "application": "Bei bestrittenen Onlinezahlungen muss die Bank mehr als ein Erfolgslog vorlegen: Autorisierung, konkrete Verfahrenssicherheit und fehlerfreie Anwendung getrennt würdigen; kein typischer Schluss auf grobe Fahrlässigkeit.",
+        "limit": "Entscheidung zum damaligen Zahlungsdiensterecht; kein Ausschluss des Vollbeweises und keine Übernahme alter Absatznummern in Paragraf 675v BGB."
+      },
+      {
+        "citation": "BGH, Urteil vom 03.03.2026 – XI ZR 20/24, Kopf, Rn. 1–35",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2024/XI_ZR__20-24.pdf?__blob=publicationFile&v=1",
+        "application": "Manuelles chipTAN: fehlender Name am Generator allein belegt keinen Ausschluss nach §675vAbs4S1Nr1; IBAN/Betrag, Onlinebanking-Anzeige und TAN-Weitergabe konkret prüfen.",
+        "limit": "Rn.27/31 lassen allgemeine zusätzliche Anforderungen teils offen; konkrete grobe Fahrlässigkeit nicht aus einem Erfolgslog auf alle Betrugsfälle übertragen.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Kredit- und Aufsichtsrecht nicht vollständig neu verifiziert; institutsspezifische Schwellen und Anzeigeformate bleiben einzelfallbezogen zu prüfen.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "bank-rechtsabteilung/bank-rechtsabteilung-schnellstart.md",
+      "bank-rechtsabteilung/bank-rechtsabteilung-werkstatt.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

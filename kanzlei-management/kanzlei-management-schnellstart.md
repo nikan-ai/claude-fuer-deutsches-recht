@@ -1,62 +1,45 @@
-Wenn du das hier öffnest, willst du einen Kanzleivorgang von Mandatsannahme und Frist bis Freigabe, Versand, Abrechnung und Nachkontrolle zuverlässig abarbeiten.
+# 1. Kanzlei Management: Zahlen in Entscheidungen übersetzen
 
-# Kanzlei Management — Schnellstart
+Rechne aus verfügbaren Bankmitteln und belegten Zahlungsterminen, wann der Kanzlei Geld fehlt und welche Ausgaben sie beeinflussen kann. Offene Zeitbuchungen und fremde Gelder sind keine frei verfügbare Finanzierung. Bei Kapazität, Preisgestaltung oder Mandatsprofitabilität bearbeite die dazu gestellte Zahlenfrage. Kein neues Mandatsaufnahmeblatt; Werkstatt und weitere Skills sind optional.
 
-Ziel: Mega-Plugin für Kanzlei-Management: Managing Partner, Management Committee, Cashflow, Pricing, UBT, FTE, Utilization, WIP, Associates, Partnerkreis und Dashboards. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Ohne Eingabe biete nur die drei fachlichen Wege „Liquiditätsengpass berechnen“, „Mandatsprofitabilität klären“ oder „Fristen- und Vertretungsablauf ordnen“ an. Bei Dateien ohne Aufgabe lies Zahlen und Belege still; frage bei unklarem Ziel, welche dieser Entscheidungen vorbereitet werden soll, statt einen Kennzahlenbericht auszugeben. Ein klarer Auftrag führt direkt zur Rechnung oder Anweisung. Folgeantworten ändern die betroffenen Zahlungstermine, Kostenanteile oder Zuständigkeiten und danach den fertigen Text; keine neue Aufnahme. Dieser Text setzt weder weitere Plugin-Dateien noch Tabellenwerkzeuge voraus.
 
-## 1. Schnellmodus
+Beispiel: Bleibt in Woche zwei eine Lücke von 10.000 Euro und lautet die Antwort „20.000 Euro kommen erst in Woche drei“, verschiebe den Eingang, rechne die Folgesalden neu und lasse den früheren Engpass erkennbar bestehen. Entwirf die konkrete Zwischenfinanzierungs- oder Entnahmeentscheidung; ein positiver späterer Saldo schließt die zwischenzeitliche Lücke nicht.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Entscheidungsfrage und Datenstand
 
-## 2. Direktstart
+Beginne mit vorhandenen Zahlen und dem verlangten Ergebnis. Erfasse Stichtag, Betrachtungszeitraum, Währung, Brutto- oder Nettobasis, Organisationseinheit und Entscheidungsbefugnis. Frage nur nach Daten, die die Rechnung oder Handlungsempfehlung verändern. Bei widersprüchlichen Listen die Differenz sichtbar lassen und nicht stillschweigend mitteln.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Trenne Zahlungseingänge, fakturierte Forderungen, noch nicht abgerechnete Arbeit und bloße Vertriebsaussichten. Eine Zeitbuchung ist kein Geldeingang. Bereits fakturierte Beträge nicht zugleich als offene Arbeit zählen. Zu jeder Zahl gehören Quelle, Zeitraum und Status; fehlende Daten sind nicht null. Vertrauliche Mandats- und Personaldaten nur im notwendigen Umfang verwenden und Empfängerfassungen entsprechend begrenzen.
 
-## 3. Kernroute
+## 1.2. Passenden Rechenweg wählen
 
-1. Mandat eröffnen: Beteiligte, Gegenstand, Gegner, Interessenkontrolle, Identität, Vollmacht, Umfang und Vergütung sichern.
-2. Fristen und Zuständigkeit: Eingang, Bekanntgabe, Fristart, Fristende, Kalender, Verantwortlicher und Vertretung doppelt dokumentieren.
-3. Bearbeitung steuern: Arbeitsauftrag, Dokumentstand, Freigabe, Vieraugenkontrolle, Budget, offene Punkte und Mandantenentscheidung führen.
-4. Versand und Nachweis: Signatur, Dateiformat, Anlagen, Übermittlungsweg, Eingangsbestätigung und Fehlerreaktion prüfen.
-5. Mandat abschließen: Ergebnis, offene Vollstreckung, Rechnung, Fremdgeld, Rückgabe, Aufbewahrung und Wiedervorlage dokumentieren.
-6. Mandatsannahme: Beteiligte, Gegner, Interessenkontrolle, Identität, Umfang, Vollmacht, Vergütung und Annahmebestätigung sichern.
+Für Liquidität eine rollierende Wochenübersicht erstellen: Anfangsbestand plus erwartete Einzahlungen minus Auszahlungen ergibt Endbestand und Anfang der Folgewoche. Zahlungen nach erwartetem Zahlungsdatum, nicht bloß Rechnungsdatum zuordnen. Gehälter, Miete, Steuern, Tilgungen, Investitionen und Entnahmen getrennt ausweisen. Als Fremdgeld gekennzeichnete Beträge nicht als frei verfügbaren Betriebsbestand behandeln. Verfügbarkeit einer Kreditlinie nicht ohne Beleg unterstellen.
 
-## 4. Fallkarte
+Für offene Forderungen Fälligkeit, Alter, Einwand, Zahlungserfahrung und realistischen Eingangstermin prüfen. Ungewisse größere Eingänge im Basisszenario und in einer verspäteten Variante zeigen; keine scheinpräzisen Eintrittswahrscheinlichkeiten erfinden. Bei nur vier belegten Wochen keine weiteren neun mit erfundenen Werten auffüllen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BRAO Paragraf 43a Absatz 2 und Absatz 4; BRAO Paragraf 43e; BRAO Paragraf 31a sowie ZPO Paragraf 130a |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Beteiligte, Gegner, Interessenkontrolle, Identität, Umfang, Vollmacht, Vergütung und Annahmebestätigung sichern |
-| Beweislast | Verantwortlicher Bearbeiter für Annahme, Vollmacht, Frist, Freigabe und Versandnachweis; Mandant für Identitäts-, Sachverhalts- und Entscheidungsangaben |
-| Rechtsfolge | Mandatsblatt, Fristenkontrolle, Arbeitsauftrag, Versandprotokoll, Budgetbericht, Rechnung oder Abschlussblatt |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Paragraf 43a Absatz 7 BRAO verlangt unverzügliche Weiterleitung fremder Gelder oder Einzahlung auf ein Anderkonto. BGH, Beschluss vom 26.11.2019, 2 StR 588/18, Randnummern 13 bis 23 ([Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/2_StS/2018/2_StR_588-18.pdf?__blob=publicationFile&v=1)), trennt diese Pflicht von einem nach Paragraf 266 StGB gesondert festzustellenden Vermögensnachteil: Verzögerung oder fehlendes Anderkonto allein genügen dafür nicht. Bei zweckwidriger Verwendung konkrete Mittelverfügbarkeit und Auszahlungswille klären; keine Strafbarkeit aus der Wochenlücke ableiten. Erst nachträglich behauptete Honorare ersetzen nicht die entstandene, bezifferbare und mit dem Einbehalt verknüpfte Forderung. Fremdgeld deshalb nicht mit unbestätigtem WIP verrechnen.
 
-## 5. Einsatzfelder
+Für Kapazität zunächst den Nenner definieren: verfügbare Arbeitszeit nach Abwesenheiten, gebuchte Zeit und abrechenbare Zeit sind unterschiedliche Größen. Für Profitabilität Honorare, Nachlässe, Abschreibungen und zurechenbare Kosten in derselben Periode vergleichen. Bruttozahlungen nicht mit Nettokosten vermischen. Kennzahlen nur aufnehmen, wenn sie die anstehende Entscheidung tragen; keine unbelegten Branchenbenchmarks.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Mandatsannahme | Beteiligte, Gegner, Interessenkontrolle, Identität, Umfang, Vollmacht, Vergütung und Annahmebestätigung sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristenkontrolle | Auslöser, Bekanntgabe, Kalenderberechnung, Eintrag, Gegenkontrolle, Verantwortlicher und Vertretung dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Bearbeitung und Freigabe | Arbeitsauftrag, Aktenstand, offene Entscheidung, Vieraugenkontrolle, Budget und Freigabefassung führen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Elektronischer Versand | Empfänger, Dateiformat, Signatur, Anlagen, Übermittlungsweg, Eingangsbestätigung und Fehlerreaktion prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Abrechnung und Fremdgeld | Gebührentatbestand, Gegenstandswert, Vereinbarung, Vorschuss, Fremdgeld, Rechnung und Zahlungslauf abstimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mandatsabschluss | Ergebnis, Restfristen, Vollstreckung, Rückgabe, Aufbewahrung, Schlussrechnung und Wiedervorlage festhalten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Entscheidung statt bloßer Darstellung
 
-## 6. Anker
+Liefere eine nachrechenbare Tabelle mit Eingaben, Zwischenschritten und Summenprobe. Markiere den ersten rechnerischen Engpass und den Betrag. Prüfe die entscheidungsrelevanten realistischen Gegenmaßnahmen, etwa verschobene freiwillige Entnahme oder beschleunigte Abrechnung. Unterscheide dabei beeinflussbare Termine von feststehenden Verpflichtungen. Eine bloße Hoffnung auf Zahlung ist keine gesicherte Maßnahme.
 
-- BRAO Paragraf 43a Absatz 2 und Absatz 4: Verschwiegenheit und Verbot widerstreitender Interessen.
-- BRAO Paragraf 43e: Inanspruchnahme von Dienstleistungen und vertragliche Sicherung der Verschwiegenheit.
-- BRAO Paragraf 31a sowie ZPO Paragraf 130a: besonderes elektronisches Anwaltspostfach und elektronische Dokumente.
-- GwG Paragraf 10 und Paragraf 11: allgemeine Sorgfaltspflichten und Identifizierung bei verpflichteten Kanzleien.
+Stelle den erwarteten Effekt, die Voraussetzung und den zuständigen Entscheider gegenüber. Eine Liquiditätsvorschau ist nicht automatisch eine insolvenzrechtliche Feststellung. Bei entsprechenden Warnsignalen die erforderliche gesonderte Prüfung priorisieren; aus einer Wochenlücke allein keine rechtliche Diagnose ableiten. Vergütungs-, Berufs-, Datenschutz- und Arbeitsrechtsfragen nur bei konkretem Bezug aus amtlichen aktuellen Quellen prüfen.
 
-## 7. Antwortform
+### 1.3.1. Zahlungs- und Kostendaten nachreichen
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Mandatsblatt: Beteiligte, Gegner, Gegenstand, Umfang, Vollmacht, Interessenkontrolle, Frist, Bearbeiter, Budget und nächster Schritt; Versandkontrolle: Dokument, Fassung, Signatur, Anlagen, Empfänger, Kanal, Zeitpunkt, Bestätigung und Fehlerprotokoll.
+Fehlt für einen erheblichen Posten der Zahlungstermin, frage nach Fälligkeit, Einwand und vorhandener Zahlungszusage. Nach der Antwort aktualisiere die betroffene Woche und alle folgenden Endbestände; vergleiche den neuen Engpass mit dem bisherigen Ergebnis. Bei einer Profitabilitätsfrage kläre stattdessen fehlende Zeiterfassung oder Kostenzuordnung und rechne nur die betroffene Periode neu.
 
-## 8. Stop
+### 1.3.2. Entscheidungsvorlage fertigstellen
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Prüfe neue Angaben gegen Buchhaltung und Ausgangslisten. Zeigt sich eine weitere entscheidende Differenz, frage gezielt nach, ohne die Aufnahme zu wiederholen. Bis zur Klärung bleiben betroffene Werte vorläufig; danach vervollständige die bestellte Vorlage einschließlich Rechnung, Empfehlung und Zuständigkeit.
+
+## 1.4. Übergabe und Grenzen
+
+Die Ausgabe enthält Kurzbefund, Rechnung, Datenlücken und eine Entscheidungsvorlage mit Verantwortlichem und Überprüfungstermin. Trenne beschlossen, vorgeschlagen und noch ungeklärt. Bei Folgeaufträgen unveränderte Daten weiterverwenden und nur neue Werte oder Annahmen neu rechnen.
+
+Keine eigenmächtigen Überweisungen, Entnahmen, Mahnungen, Honoraränderungen oder Personalmaßnahmen. Schließe ab, wenn die bestellte Entscheidungsvorlage vorliegt und rechnerisch geprüft ist; keine zusätzlichen Kennzahlen ohne Entscheidungsbezug sammeln. Nutzerseitige Dateinamen gehen vor, technische Quellen- und Exporthinweise stehen getrennt vom Empfängertext.
+
+Ohne Exportmöglichkeit eine lesbare Tabelle im Text liefern; keinen erzeugten Dateilink behaupten. In vollständigen Sätzen schreiben; Export in Times New Roman mit 11 Punkt und dezimaler Gliederung.

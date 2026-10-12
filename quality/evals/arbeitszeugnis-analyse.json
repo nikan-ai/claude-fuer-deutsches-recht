@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "plugin": "arbeitszeugnis-analyse",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo/__109.html",
+      "checked_on": "2026-09-14",
+      "supports": "Klarheit und Verbot verdeckter Aussagen im Zeugnis."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/",
+      "checked_on": "2026-09-14",
+      "supports": "BAG vom 18.11.2014, Rn. 8 bis 12: Zufriedenheitsformel und Last für bessere Gesamtbewertung."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/",
+      "checked_on": "2026-09-14",
+      "supports": "BAG vom 15.11.2011, Rn. 23 ff.: objektive Empfängersicht statt isolierter Geheimcodeannahme."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo/__109.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur Prüfung: Paragraf 109 Absatz 1 und 2 GewO. Keine Gesamtverifikation sämtlicher Nebenmaterien."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Urteil vom 18.11.2014, 9 AZR 584/13: Wer eine gute statt durchschnittlicher Bewertung verlangt, muss entsprechende Leistungstatsachen darlegen; Branchenhäufigkeiten ersetzen sie nicht. Grenze/Prüftiefe: Volltext Rn. 8 bis 13; keine Beweislastregel für jeden Formmangel."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Urteil vom 15.11.2011, 9 AZR 386/10: Bei kennen gelernt den Gesamtzusammenhang auslegen statt negativen Code unterstellen. Grenze/Prüftiefe: Volltext Rn. 23 bis 31; kein Anspruch auf beliebigen Stil."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-96-24-b/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Teilurteil vom 18.06.2025, 2 AZR 96/24 (B): Vor Beendigung vereinbarter Verzicht auf qualifiziertes Zeugnis unwirksam. Grenze/Prüftiefe: Volltext Rn. 49 bis 61; kollisionsrechtlich Altvertrag nach Artikel 30 EGBGB."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azb-25-25/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Beschluss vom 07.05.2026, 8 AZB 25/25: Vergleich mit Entwurfsrecht ist unter den festgelegten Bindungen vollstreckbar. Grenze/Prüftiefe: Volltext Rn. 10 bis 20; plausible Wahrheits- und Klarheitseinwände können neues Erkenntnisverfahren erfordern."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-262-20/",
+      "checked_on": "2026-09-25",
+      "supports": "BAG, Urteil vom 27.04.2021, 9 AZR 262/20: Schulnotentabelle für qualifiziertes Zeugnis durch individuelle Sätze über belegte Leistung und Verhalten ersetzen. Grenze: Volltext Rn. 15 bis 18; kein Anspruch auf beliebige Superlative oder erfundene Erfolge. Gelesener Umfang: Volltext Rn. 15 bis 18; kein Anspruch auf beliebige Superlative oder erfundene Erfolge.",
+      "verification_status": "wiederverwendeter_auditnachweis",
+      "previous_review": "quality/source-audits/2026-09-25/profile-register.json#arbeitszeugnisgenerator:BAG, Urteil vom 27.04.2021, 9 AZR 262/20",
+      "source_sha256": "03ee5d0a0265981d21ee5aeaf84511c1ec8634ffbff5311070a4ced373ac5219"
+    }
+  ],
+  "mini_review": {
+    "sha256": "ea939307690054c3294f043f1c80ebbe74f123db9dbee19fd4dd804c5c68e0f4",
+    "verdict": "revised",
+    "reason": "Schnellstart vollständig individuell gelesen und überarbeitet: Tätigkeitsbild, Einzelbewertungen und Gesamtformel im konkreten Zeugnis abgleichen. Durchschnittliche Gesamtleistung trotz freundlicher Schlussformel nicht aufgewertet; Darlegung für bessere Note und Gesamtlesart statt Geheimcodeautomatismus. Redaktionelle Quellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert.",
+    "changes": [
+      "Durchschnittliche Gesamtleistung trotz freundlicher Schlussformel nicht aufgewertet; Darlegung für bessere Note und Gesamtlesart statt Geheimcodeautomatismus.",
+      "Kernfall mit operativem Entscheidungsanker, gezielten Nachfragen und Fortsetzung zum vollständigen angeforderten Dokument.",
+      "Schlusslektüre: Aussagegehalt und Berichtigungsbedarf vorangestellt; farbliche Orientierung ausschließlich auf Nutzerwunsch.",
+      "Leerstart: Aussageanalyse, Fassungsvergleich oder Änderungsvorschläge anbieten. Dateien: Zeugnis still im Zusammenhang lesen, noch keinen Notenbericht ausgeben. Klarer Auftrag: Analyse oder ausdrücklich bestellten Brief direkt liefern.",
+      "Belegte Zielerreichung verändert nur getragene Leistungswertung; kurze Vertretung führt zu zeitlich begrenzter Tätigkeitskorrektur."
+    ]
+  },
+  "selection": {
+    "positive": [
+      "Analysieren Sie Widersprüche zwischen Einzelbewertungen und Gesamtformel mit Ampelbefunden.",
+      "Zeigen Sie, ob eine freundliche Einleitung schwache Leistungsangaben verdeckt."
+    ],
+    "negative": [
+      "Schreiben Sie ohne bestehendes Zeugnis ein neues Arbeitgeberzeugnis.",
+      "Vollstrecken Sie einen gerichtlichen Zeugnisvergleich."
+    ]
+  },
+  "cases": [
+    {
+      "id": "warmer-schluss-schwache-gesamtformel",
+      "request": "Erstellen Sie ergebnis.md als Kontextanalyse, nicht als Klageschrift. Vollständiger relevanter Zeugnistext: Mara Wolf arbeitete vom 01.03.2021 bis 31.08.2026 als Sachbearbeiterin Einkauf. Sie bearbeitete Bestellungen, verglich Angebote und betreute Lieferanten. Sie verfügte über sehr gute Fachkenntnisse. Ihre Aufgaben erledigte sie zu unserer vollen Zufriedenheit. Ihr Verhalten gegenüber Vorgesetzten, Kollegen und Lieferanten war stets einwandfrei. Wir danken ihr herzlich und wünschen ihr weiterhin viel Erfolg. Es gibt keine Führungsverantwortung. Zusätzliche Leistungsbelege liegen nicht vor. Erläutern Sie Leistungs- und Verhaltenswirkung, innere Spannungen und sinnvolle Änderungswünsche mit ausgeschriebenen Ampelfarben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet die Gesamtleistungsformel dem befriedigenden Bereich zu und wertet sie nicht wegen Fachwissen, Verhalten oder freundlichem Schluss pauschal auf.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Begründet die Spannung zwischen sehr gutem Fachwissen und durchschnittlicher Gesamtleistung, ohne daraus zwingend eine unwahre Bewertung abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Kennzeichnet bessere Formulierungen als belegbedürftigen Änderungswunsch und erfindet weder Führungstätigkeit noch negative persönliche Eigenschaften.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "leistungsbeurteilung-analyse"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig individuell gelesen und überarbeitet: Tätigkeitsbild, Einzelbewertungen und Gesamtformel im konkreten Zeugnis abgleichen. Durchschnittliche Gesamtleistung trotz freundlicher Schlussformel nicht aufgewertet; Darlegung für bessere Note und Gesamtlesart statt Geheimcodeautomatismus. Redaktionelle Quellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen.",
+    "changes": [
+      "Durchschnittliche Gesamtleistung trotz freundlicher Schlussformel nicht aufgewertet; Darlegung für bessere Note und Gesamtlesart statt Geheimcodeautomatismus.",
+      "Vorhandene Fachzweige, Beispiele und Zugriffsalternativen erhalten; schwache Rechtsprechungshinweise entfernt oder auf belegte Reichweite begrenzt.",
+      "Wissen versus Gesamtleistung, Eigenanteil an Erfolgen, Führung versus Vertretung und Fassungsstatus statt Geheimcodeautomatismus.",
+      "Belegte Zielerreichung verändert nur getragene Leistungswertung; kurze Vertretung führt zu zeitlich begrenzter Tätigkeitskorrektur."
+    ],
+    "sha256": "c2011062bbb83667f26baf97643780199294bd892c38b07940162170d743d7a2"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Aussageanalyse, Fassungsvergleich oder Änderungsvorschläge anbieten.",
+      "Dateien: Zeugnis still im Zusammenhang lesen, noch keinen Notenbericht ausgeben.",
+      "Klarer Auftrag: Analyse oder ausdrücklich bestellten Brief direkt liefern."
+    ],
+    "continuation": "Belegte Zielerreichung verändert nur getragene Leistungswertung; kurze Vertretung führt zu zeitlich begrenzter Tätigkeitskorrektur.",
+    "enrichment": "Wissen versus Gesamtleistung, Eigenanteil an Erfolgen, Führung versus Vertretung und Fassungsstatus statt Geheimcodeautomatismus.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "arbeitszeugnis-analyse/README.md",
+      "arbeitszeugnis-analyse/arbeitszeugnis-analyse-schnellstart.md",
+      "arbeitszeugnis-analyse/arbeitszeugnis-analyse-werkstatt.md",
+      "quality/evals/arbeitszeugnis-analyse.json"
+    ],
+    "opening_change": "Tätigkeitsbild, Einzelbewertungen und Gesamtformel im konkreten Zeugnis abgleichen",
+    "norms": [
+      "Paragraf 109 Absatz 1 und 2 GewO"
+    ],
+    "decisions": [
+      {
+        "citation": "BAG, Urteil vom 18.11.2014, 9 AZR 584/13",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/",
+        "application": "Wer eine gute statt durchschnittlicher Bewertung verlangt, muss entsprechende Leistungstatsachen darlegen; Branchenhäufigkeiten ersetzen sie nicht.",
+        "limit": "Volltext Rn. 8 bis 13; keine Beweislastregel für jeden Formmangel.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BAG, Urteil vom 15.11.2011, 9 AZR 386/10",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/",
+        "application": "Bei kennen gelernt den Gesamtzusammenhang auslegen statt negativen Code unterstellen.",
+        "limit": "Volltext Rn. 23 bis 31; kein Anspruch auf beliebigen Stil.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BAG, Teilurteil vom 18.06.2025, 2 AZR 96/24 (B)",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-96-24-b/",
+        "application": "Vor Beendigung vereinbarter Verzicht auf qualifiziertes Zeugnis unwirksam.",
+        "limit": "Volltext Rn. 49 bis 61; kollisionsrechtlich Altvertrag nach Artikel 30 EGBGB.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BAG, Beschluss vom 07.05.2026, 8 AZB 25/25",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azb-25-25/",
+        "application": "Vergleich mit Entwurfsrecht ist unter den festgelegten Bindungen vollstreckbar.",
+        "limit": "Volltext Rn. 10 bis 20; plausible Wahrheits- und Klarheitseinwände können neues Erkenntnisverfahren erfordern.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BAG, Urteil vom 27.04.2021, 9 AZR 262/20",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/9-azr-262-20/",
+        "application": "Schulnotentabelle für qualifiziertes Zeugnis durch individuelle Sätze über belegte Leistung und Verhalten ersetzen.",
+        "limit": "Volltext Rn. 15 bis 18; kein Anspruch auf beliebige Superlative oder erfundene Erfolge.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis",
+        "previous_review": "quality/source-audits/2026-09-25/profile-register.json#arbeitszeugnisgenerator:BAG, Urteil vom 27.04.2021, 9 AZR 262/20",
+        "passages_read": "Volltext Rn. 15 bis 18; kein Anspruch auf beliebige Superlative oder erfundene Erfolge.",
+        "evidence_sha256": "03ee5d0a0265981d21ee5aeaf84511c1ec8634ffbff5311070a4ced373ac5219"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung, kein Live-Client- oder Modelltest; übrige Fachzweige nicht vollständig rechtlich neu verifiziert.",
+      "Volltext Rn. 8 bis 13; keine Beweislastregel für jeden Formmangel.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet. Keine neue materielle Rechtsbehauptung aus zusätzlicher Rechtsprechung; bestehende Entscheidungsnachweise und deren damaliger Prüfstand erhalten."
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BAG, Urteil vom 27.04.2021, 9 AZR 262/20",
+        "status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  }
+}

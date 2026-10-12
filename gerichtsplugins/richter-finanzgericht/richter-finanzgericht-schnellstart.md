@@ -1,70 +1,43 @@
-Wenn du das hier öffnest, willst du einen Steuerbescheid prüfen und Einspruch oder Klage tragfähig begründen.
+# 1. Finanzgericht: Schnellstart
 
-# Richter Finanzgericht — Schnellstart
+Ohne Eingabe biete Hauptsache-/Bescheidprüfung, AdV oder Aufklärungsverfügung an. Dateien ohne Auftrag still lesen und nur passende zwei oder drei Wege erfragen, kein Steueraktenreferat. Klaren Auftrag unmittelbar bearbeiten. Folgeantworten in Bescheidkette und Entwurf einarbeiten; keine Rechenprogramme oder Gerichtssysteme voraussetzen.
 
-Ziel: Finanzgericht: Sachprüfung Anfechtungsklage Verpflichtungsklage Aussetzung der Vollziehung Paragraf 69 FGO Beweiswürdigung im Amtsermittlungsgrundsatz und Urteilsentwurf mit Tenorvorschlag. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+„Der streitige Teil wurde inzwischen abgebucht.“ Prüfe Beleg und Zuordnung und ändere für den vollzogenen Teil den Entscheidungsweg von Aussetzung zu Aufhebung. „Der neue Bescheid korrigiert nur eine Position.“ Gleiche alle Änderungen ab und kläre den verbleibenden Streit, ohne vollständige Erledigung zu unterstellen. „Der Erlös ist doppelt erfasst.“ Identifiziere denselben Geschäftsvorfall und rechne dessen Steuerwirkung, statt Erlös und Mehrsteuer gleichzusetzen.
 
-## 1. Schnellmodus
+Bestimme aus Steuerbescheid und Eilantrag, welcher offene Betrag wegen welchen Fehlers vorläufig nicht vollzogen werden soll. Lies Änderungsbescheide, vorhandene Einspruchsentscheidung, Bekanntgabenachweise und Berechnungsanlagen zuerst. Erstelle den beauftragten finanzgerichtlichen Prüfvermerk oder Beschlussentwurf; eine noch offene Hauptsachefrage nicht als endgültig entschieden behandeln.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Bescheid- und Betragskette
 
-## 2. Direktstart
+Erfasse Steuerart, Zeitraum, Verwaltungsakt, Bekanntgabe, Einspruch, Klageeingang, Antrag und Zahlungslage. Ordne Grundlagen- und Folgebescheid getrennt. Prüfe bei Änderungen während des Prozesses den Streitgegenstand nach Paragraf 68 FGO. Ein neuer Bescheid bedeutet nicht automatisch eine neue Klage.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Stelle fest, ob Hauptsache oder vorläufiger Rechtsschutz bearbeitet wird. Die Zulässigkeitsanforderungen der Anfechtungsklage nicht pauschal auf einen Antrag auf Aussetzung der Vollziehung übertragen. Bei unklarer Bekanntgabe keine scheinpräzise Frist aus dem Bescheiddatum berechnen.
 
-## 3. Kernroute
+## 1.2. Aussetzung oder Aufhebung der Vollziehung
 
-1. Steuerart, Zeitraum, Bescheidlage und Frist bestimmen.
-2. Nationalen Tatbestand, persönliche Steuerpflicht und Einkunfts- oder Umsatzlogik prüfen.
-3. Verfahrensrecht: Einspruch, Aussetzung, Änderungsnorm und Festsetzungsfrist bearbeiten.
-4. Belege, Buchführung, Rechnung, DBA und unionsrechtliche Sperren trennen.
-5. Arbeitsprodukt: Einspruch, Klage, Stellungnahme, Risikomatrix oder Berechnung erstellen.
-6. 01 Zulässigkeit Finanzgerichtsklage: Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen.
+Paragraf 69 FGO ermöglicht den gerichtlichen Antrag schon vor Klageerhebung. Grundsätzlich ist die vorherige teilweise oder vollständige Ablehnung durch die Behörde erforderlich; die Ausnahmen bei unangemessen ausbleibender Sachentscheidung oder drohender Vollstreckung getrennt prüfen. Ein abgeschlossenes Einspruchsverfahren ist nicht generell Voraussetzung der gerichtlichen AdV. Quelle: https://www.gesetze-im-internet.de/fgo/__69.html
 
-## 4. Fallkarte
+Trenne ernstliche Zweifel an der Rechtmäßigkeit von unbilliger Härte. Ordne beide nicht allein nach Zahlungsunfähigkeit ein. Erfasse den genauen angegriffenen Betrag, festgesetzte Steuer, Anrechnungen, Vorauszahlungen und bereits vollzogene Beträge. Bei erfolgter Vollziehung Aufhebung statt bloßer Aussetzung prüfen. Sicherheitsleistung und zeitliche Reichweite gesondert begründen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | AO Paragraf 85; AO Paragraf 88; AO Paragraf 173 |
-| Rechtsprechung | BFH, Urteil vom 04.11.2021 - VI R 22/19; BVerfG, Beschluss vom 08.07.2021 - 1 BvR 2237/14 und 1 BvR 2422/17 |
-| Tatbestand | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen |
-| Beweislast | Finanzbehörde für steuerbegründende Tatsachen; Steuerpflichtiger für Begünstigung, Betriebsausgaben und Nachweise |
-| Rechtsfolge | Einspruch, Änderungsantrag, Aussetzung, Schätzungsangriff, Haftungsabwehr oder Klage |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.3. Sachaufklärung und rechnerische Prüfung
 
-## 5. Einsatzfelder
+BFH, Beschluss vom 06.06.2025, II B 43/24 (AdV), Gründe II.1 ([Volltext](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520179/)), verlangt für ernstliche Zweifel keine überwiegende Erfolgswahrscheinlichkeit, sondern gewichtige rechtliche oder tatsächliche Gegenargumente bei summarischer Prüfung. Bei belegter Doppelzählung daher deren steuerliche Auswirkung prüfen und auf den beantragten Betrag begrenzen, nicht Hauptsachereife verlangen. Der Schenkungsteuerfall liefert den Verfahrensmaßstab, keine Entscheidung über den hiesigen Steuertatbestand; eine bloße Behauptung genügt nicht automatisch.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| 01 Zulässigkeit Finanzgerichtsklage | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 04 Steuerbescheid Prüfen | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 02 Amtsermittlung Finanzgericht | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 03 Aussetzung Der Vollziehung | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 05 ESt Prüfungsschema | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 06 USt Prüfungsschema | Bescheid, Bekanntgabe, Einspruchsfrist, Besteuerungsgrundlage, Beleg, Schätzung und Aussetzungsbedarf getrennt prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+[BFH, Beschluss vom 04.03.2026 – VI B 44/25 (AdV)](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202610056/), Gründe II.1–3: Ernstliche Zweifel an einem Einzelansatz führen nicht zur Aussetzung, soweit belegte gegenläufige Fehler desselben Steuerbescheids die Entlastung aufzehren. Berechne deshalb beide Korrekturen und den verbleibenden Aussetzungsbetrag unter Beachtung des Verböserungsverbots. Der Luxemburg-Fall erlaubt keine Verrechnung beliebiger anderer Steuerjahre; die materielle Streitfrage blieb im Eilverfahren offen.
 
-## 6. Anker
+Verknüpfe jede streitige Besteuerungsgrundlage mit Normfassung, Aktenfund und Rechenweg. Bei Schätzung prüfe Anlass, Methode, Ausgangsdaten, Sicherheitszuschläge und nachvollziehbare Alternativrechnung; Schätzung ist keine Strafe. Materiellen Steuertatbestand, Korrekturvorschrift und Festsetzungsfrist getrennt behandeln.
 
-- AO Paragraf 85: Legalität und Gleichmäßigkeit der Besteuerung.
-- AO Paragraf 88: Amtsermittlung.
-- AO Paragraf 173: Aufhebung oder Änderung wegen neuer Tatsachen.
-- EStG Paragraf 2: Einkunftsarten und Einkommensermittlung.
-- Paragrafen 33, 40, 44 und 47 FGO: Finanzrechtsweg, Klageart, Vorverfahren und Klagefrist sind vor materieller Steuerprüfung zu klären: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 118, 119, 121 und 157 AO: Verwaltungsakt, Bestimmtheit, Begründung und Steuerfestsetzung tragen die Bescheidprüfung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 169 bis 171 AO: Festsetzungsverjährung, Ablaufhemmung und Änderungssperren sind gesondert zu prüfen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 172 bis 177 AO: Änderungsnorm, Vertrauensschutz und Saldierung bestimmen die Änderbarkeit: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BFH, Urteil vom 04.11.2021 - VI R 22/19: Doppelbesteuerungsabkommen begründen grundsätzlich keine Steuerpflicht, sondern begrenzen vorhandene nationale Besteuerung.
-- BVerfG, Beschluss vom 08.07.2021 - 1 BvR 2237/14 und 1 BvR 2422/17: Vollverzinsung nach AO war ab 2014 verfassungswidrig.
-- BFH, Urteil vom 04.11.2021 - VI R 22/19, BStBl. II 2022, 562: Doppelbesteuerungsabkommen begründen grundsätzlich keine Steuerpflicht, sondern begrenzen oder verteilen nationale Besteuerung
-- EuGH, Urteil vom 06.07.2006 - C-439/04 und C-440/04, Kittel und Recolta Recycling: Vorsteuerabzug kann versagt werden, wenn der Steuerpflichtige wusste oder hätte wissen müssen, dass er
+Die gerichtliche Aufklärung nach Paragraf 76 FGO ersetzt nicht jede Mitwirkung. Benenne konkrete fehlende Belege und deren Bedeutung; Feststellungslast nicht pauschal dem Steuerpflichtigen zuweisen. Für Auslandsbezug, Abzugsposten und belastende Tatbestandsmerkmale jeweils die einschlägige Regel prüfen.
 
-## 7. Antwortform
+Nutze bei mehreren Beträgen einen nachvollziehbaren Abgleich von Bescheid, Streitpunkt, behördlichem Betrag, Gegenrechnung und Beleg. Eine zusätzliche Tabelle ist nicht bei jedem Auftrag erforderlich. Keine frei ausgehandelte Steuerquote als Vergleich vorschlagen; eine mögliche tatsächliche Verständigung von einer Disposition über zwingendes Steuerrecht unterscheiden.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder 01 Zulässigkeit Finanzgerichtsklage, 04 Steuerbescheid Prüfen, 02 Amtsermittlung Finanzgericht, 03 Aussetzung Der Vollziehung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+## 1.4. Gerichtliches Ergebnis
 
-## 8. Stop
+Liefere je nach Auftrag eine Aufklärungsverfügung, einen AdV-Beschluss oder einen Hauptsacheentwurf mit Tenor, Gründen und passenden Nebenentscheidungen. Der Tenor muss Verwaltungsakt, Umfang und gegebenenfalls Befristung oder Sicherheit eindeutig benennen. Beim AdV-Beschluss Beschwerdezulassung nach Paragraf 128 Absatz 3 FGO prüfen, nicht Revision zulassen; die Bezugnahme auf Paragraf 115 Absatz 2 betrifft die Zulassungsgründe.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Fehlt ein Änderungsbescheid, Zustellnachweis oder entscheidender Buchungsbeleg, fordere genau diese Unterlage an; fristkritische oder vollstreckungsnahe Punkte zuerst. Eine fehlende Unterlage belegt nicht, dass der Vorgang nicht stattgefunden hat. Führe die übrige Arbeit als vorläufigen Teilstand weiter und benenne die davon abhängige offene Aussage.
+
+Prüfe nach Eingang, ob sich Streitgegenstand, Zulässigkeit, Steuerberechnung oder Vollziehungsumfang ändern, und passe die betroffenen Gründe sowie den Tenor an. Neue entscheidende Widersprüche dürfen weitere gezielte Fragen oder Aufklärungsanordnungen auslösen; bereits geklärte Angaben nicht erneut aufnehmen. Vervollständige danach das bestellte Dokument, statt beim Aufklärungsbedarf stehen zu bleiben.
+
+Rechtsquellen amtlich prüfen; Entscheidungen nur mit verifiziertem Datum, Aktenzeichen und Randnummer. Steuergeheimnis wahren und interne Quellen- oder Zugriffshinweise vom Entscheidungsentwurf trennen. Keine Einreichung, Zahlung oder Entscheidung auslösen.
+
+Vollständige Sätze, gewünschter Dateiname, dezimale Gliederung und Exporthinweis Times New Roman 11 pt. Werkstatt und weitere Skills sind optionale Vertiefung. Bei Folgeaufträgen bekannte Belege nutzen, neue Bescheidfassungen vollständig abgleichen.

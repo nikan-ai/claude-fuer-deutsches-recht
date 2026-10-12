@@ -1,6 +1,6 @@
 ---
 name: bverfg-rechtsprechung-recherchieren
-description: "Wenn es um BVerfG-Rechtsprechung recherchieren in verfassungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für BVerfG-Rechtsprechung recherchieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # BVerfG-Rechtsprechung recherchieren
@@ -58,7 +58,6 @@ Pflichtangaben für jede Aussage:
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Datum** der Entscheidung
 - **Randnummer** der einschlägigen Passage (z. B. `Rn. 117`)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **URL** der amtlichen Sammlung
 
 ### Schritt 5 — Zitat formatieren
@@ -66,7 +65,6 @@ Pflichtangaben für jede Aussage:
 Standardformat in allen Outputs dieses Plugins:
 
 ```
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rs20210324_1bvr265618.html
 ```
 
@@ -125,26 +123,3 @@ Die folgenden Entscheidungen sind in jüngerer Zeit für die Pluginarbeit besond
 - 1 BvL 5/21, Beschl. v. 15.04.2026 — AsylbLG-Grundleistungen im Zeitraum 2018/2019 und Anforderungen des menschenwürdigen Existenzminimums — [URL](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/04/ls20260415_1bvl000521.html).
 - 1 BvR 2656/18 u. a. (Klimabeschluss), Beschl. v. 24.03.2021 — intertemporale Freiheitssicherung Art. 20a GG — [URL](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rs20210324_1bvr265618.html).
 - Jahresbericht BVerfG 2025 (Polizeikosten Hochrisikospiele u. a.) — [PDF](https://www.bundesverfassungsgericht.de/SharedDocs/Downloads/DE/Jahresbericht/jahresbericht_2025.pdf).
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 93 BVerfGG
-- § 32 BVerfGG
-- § 90 BVerfGG
-- Art. 82 GG
-- Art. 73 GG
-- Art. 100 GG
-- Art. 79 GG
-- § 92 BVerfGG
-- Art. 93 GG
-- Art. 74 GG
-- § 93a BVerfGG
-- Art. 76 GG
-
-### Leitentscheidungen
-
-- BVerfG, Beschluss vom 15.01.1958, 1 BvR 400/51 (Lüth) — Grundrechte als objektive Wertordnung und Wechselwirkungslehre.
-- BVerfG, Beschluss vom 15.12.1983, 1 BvR 209/83 u. a. (Volkszählung) — informationelle Selbstbestimmung.
-- BVerfG, Beschluss vom 24.03.2021, 1 BvR 2656/18 u. a. (Klimabeschluss) — Art. 20a GG und intertemporale Freiheitssicherung.

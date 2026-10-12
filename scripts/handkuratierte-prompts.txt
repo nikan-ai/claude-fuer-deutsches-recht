@@ -2,20 +2,52 @@
 #
 # Plugins (Slug, einer je Zeile), deren Werkstatt- und Schnellstart-Markdown
 # von Hand gepflegt werden. Der Generator generate-werkstatt-und-schnellstart-prompts.py
-# ueberschreibt diese Dateien NICHT, auch nicht mit --force. Er meldet sie als
-# uebersprungen. So gehen handkuratierte Stationen, Pruefraster und Bausteine bei
-# einem spaeteren Generatorlauf nicht verloren.
+# überspringt beide Dateien vollständig, auch vorhandene Vertiefungsblöcke.
+# Individuelle Prüfprofile unter quality/evals schützen die zugehörigen Prompts
+# ebenfalls; veraltete Prüfsummen brechen den Lauf ab, statt Texte zu ersetzen.
 #
 # Eine Zeile, die mit einem Doppelkreuz beginnt, ist ein Kommentar und wird ignoriert.
 # Leere Zeilen werden ignoriert.
 #
-# Eintrag entfernen, wenn ein Plugin wieder vollautomatisch generiert werden soll.
+# Eintrag allein zu entfernen hebt den Schutz durch ein Prüfprofil nicht auf.
 
 mietrecht
 arbeitsrecht
 fachanwalt-familienrecht
+fachanwalt-erbrecht
 richter-familiengericht
 staatsanwaltschaft-amtsanwaltschaft
 bautraegervertragspruefer
 bautraegervertrag-pruefer
 urteilsbauer-relationsmacher
+anlagen-zu-schriftsaetzen
+schriftsatz-versandwerkstatt
+arbeitszeugnisgenerator
+agb-recht-pruefer
+grosskanzlei-corporate-ma
+preussisches-allgemeines-landrecht-pralr
+schadensregulierung
+diesel-schadensersatz
+grundsteuerrecht
+notariat-alltag
+geldwaeschepraevention-aml-kyc
+ki-vo-ai-act-pruefer
+ki-governance
+ki-richtlinie-kanzleien
+berufsrecht-ki-vertragspruefung
+datenschutzrecht
+datenschutz-sanktionsverfahren-verteidigung
+fachanwalt-it-recht
+robotik-recht
+anwaltschaft-generell
+corporate-contract-law
+vertragserstellung
+wirtschaftsanwalt
+bauwirtschaft
+bauwirtschaft-anfaenger
+bauwirtschaft-fortgeschrittene
+enteignung-artikel-14
+ki-verordnung-hochrisiko-pruefer
+ki-verordnung-transparenzpruefer
+vergesellschaftung-artikel-15
+sektorenvergabe-workflow

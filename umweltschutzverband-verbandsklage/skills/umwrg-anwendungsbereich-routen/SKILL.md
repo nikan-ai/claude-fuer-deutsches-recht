@@ -1,6 +1,6 @@
 ---
 name: umwrg-anwendungsbereich-routen
-description: "Wenn es um Umwrg Anwendungsbereich Routen in Umweltschutzverband Verbandsklage geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Umwrg Anwendungsbereich Routen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Umwrg Anwendungsbereich Routen
@@ -33,6 +33,8 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - § 47 VwGO Normenkontrolle, § 80/123 VwGO Eilrechtsschutz
 - Anerkannte Umweltvereinigungen, Beteiligung, Präklusionsfragen
 - UIG/Aarhus-Logik und Öffentlichkeitsbeteiligung
+
+[BVerwG, Urteil vom 26.05.2026 – 7 C 5.25](https://www.bverwg.de/260526U7C5.25.0), Rn. 8–15: Im Anwendungsbereich des Paragrafen 6 UmwRG erfasst die Begründungsfrist auch Tatsachen und Beweismittel zu nicht umweltbezogenen Einwendungen, bei Individual- wie Verbandsklagen. Erfasse deshalb sämtliche tatsächlichen Angriffslinien rechtzeitig. Spätere Vertiefung, genügende Entschuldigung und die gesetzliche Ausnahme geringer Ermittlungsaufwände gesondert prüfen; kein automatischer Ausschluss der gesamten Klage.
 
 ## Prüfroutine
 

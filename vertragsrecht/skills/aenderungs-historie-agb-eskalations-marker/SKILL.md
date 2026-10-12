@@ -1,6 +1,6 @@
 ---
 name: aenderungs-historie-agb-eskalations-marker
-description: "Wenn es um Nachtragsverwaltung in Vertragsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Nachtragsverwaltung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Nachtragsverwaltung
@@ -9,7 +9,6 @@ description: "Wenn es um Nachtragsverwaltung in Vertragsrecht geht: entwickelt V
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; §§ 305 ff. BGB, NDA, SaaS- — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -20,17 +19,14 @@ description: "Wenn es um Nachtragsverwaltung in Vertragsrecht geht: entwickelt V
 3. Soll eine Gesamtübersicht (Modus 1) oder eine Klausel-Rückverfolgung (Modus 2) erstellt werden?
 4. Gibt es Widersprüche zwischen Nachträgen die auf Auslegung nach § 157 BGB (lex posterior) hinweisen?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - §§ 133, 157 BGB — Vertragsauslegung (lex posterior-Prinzip bei widersprüchlichen Klauseln)
-- § 125, 126 BGB — Schriftformmängel (Nachtrag ohne Schriftform kann Gesamtvertrag kündbar machen)
-- § 311 BGB — Vertragsänderungen und Ergänzungsvereinbarungen
-- § 550 BGB — Schriftformerfordernis bei langfristiger Miete (mehr als 1 Jahr)
-- § 154 BGB — fehlendes Einvernehmen über einzelne Punkte
+- Paragrafen 125 und 126 BGB — gesetzliche Schriftform und Rechtsfolgen
+- Paragraf 126b BGB — Textform
+- Paragraf 311 BGB — Vertragsänderungen und Ergänzungsvereinbarungen
+- Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB — Textform bei langfristiger Grundstücks- und Gewerberaummiete; Artikel 229 Paragraf 70 EGBGB bei älteren Vertragsketten
+- Paragraf 154 BGB — fehlendes Einvernehmen über einzelne Punkte
 
 ## Eingaben
 
@@ -217,7 +213,6 @@ Relevante Normen:
 - § 311 BGB – Vertragsänderungen; Schriftformerfordernis prüfen (§ 126 BGB)
 - §§ 133, 157 BGB – Auslegung; bei Widersprüchen zwischen Basisvertrag und Nachtrag gilt der jüngere Nachtrag (lex posterior-Prinzip), sofern kein expliziter Vorrang)
 - § 154 BGB – Fehlen der Einigung über einzelne Punkte
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Kommentare:
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
@@ -244,23 +239,4 @@ Vorher: s. o. | Jetzt:
 - **Schriftformklausel:** Mündliche Nebenabsprachen können durch eine Schriftformklausel (§ 125 BGB i. V. m. Vertragsklausel) unwirksam sein. Prüfen, ob eine solche Klausel im Basisvertrag oder einem Nachtrag steht.
 - **Skill-Grenzen:** Dieser Skill stellt nicht fest, welches Dokument bei Widersprüchen vorgeht – das ist eine Auslegungsfrage. Er kennzeichnet Widersprüche und leitet an die Rechtsabteilung weiter. Er entwirft keine neuen Nachträge. Er prüft nicht gegen das Playbook – das ist Aufgabe des Lieferantenvertrag-Prüfungs-Skills.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 28 DSGVO
-- § 203 StGB
-- § 13 UWG
-- § 15 AktG
-- Art. 82 DSGVO
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-
-### Leitentscheidungen
-
-- EuGH C-249/21
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

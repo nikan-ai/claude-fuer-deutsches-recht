@@ -1,7 +1,13 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-designverletzung
-description: "Wenn es um Fachanwalt Gewerblicher Rechtsschutz Designverletzung in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fachanwalt Gewerblicher Rechtsschutz Designverletzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
+
+# Designverletzungen anhand von Schutzwiedergaben und Produktbelegen prüfen
+
+Lies zuerst die Registerunterlagen, Schutzwiedergaben, Produktabbildungen, Testkaufbelege und die bisherige Korrespondenz. Stelle die konkreten Gestaltungsmerkmale und ihre Belegstellen gegenüber. Liefere eine begründete Verletzungsbewertung mit Gegenargumenten und Beleglücken; bei entsprechendem Auftrag erstelle daraus einen ausformulierten Klage-, Eilantrags- oder Plattformmeldungsentwurf mit eindeutig bezeichnetem Produkt.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -40,7 +46,6 @@ description: "Wenn es um Fachanwalt Gewerblicher Rechtsschutz Designverletzung i
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Designverletzung
 
@@ -131,7 +136,6 @@ weist kein identisches vorbekanntes Design auf. Es besitzt Eigenart nach
 Designs einen anderen Gesamteindruck erhält: [Ausführung der prägenden Merkmale].
 
 IV. Designverletzung § 38 DesignG
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Kinderwagen I) denselben Gesamteindruck hervor wie das Klagedesign.
 Folgende prägende Gestaltungsmerkmale sind vollständig übernommen:
 [tabellarische Gegenüberstellung Klagedesign vs. Verletzungsmuster].
@@ -167,7 +171,6 @@ vertreiben oder zu bewerben.
 
 Dringlichkeit:
 Kenntnis am [Datum] durch [Testkauf / Hinweis]. Antrag nach [X] Tagen;
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Glaubhaftmachung:
 Anlage EV 1: Eidesstattliche Versicherung [Name];
@@ -222,7 +225,6 @@ den Rechteinhabern autorisiert sind.
 
 | Frist | Inhalt | Norm |
 |-------|--------|------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 Monate | Widerspruch Eintragung bei DPMA | § 42 DesignG |
 | 5 Jahre | Verlängerungsperiode Schutzdauer; max. 25 Jahre | § 47 DesignG |
 | 3 Jahre | Schadensersatzanspruch-Verjährung ab Kenntnis | §§ 195, 199 BGB iVm § 49 DesignG |
@@ -234,7 +236,6 @@ den Rechteinhabern autorisiert sind.
 | Gegenargument | Herkunft | Reaktion |
 |--------------|---------|----------|
 | "Design fehlt Eigenart" | Beklagte | Sachverständigengutachten einholen; Designvergleich mit Stand der Technik aufbereiten; hohe Hürde für Nichtigkeitsgegenklage |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | "Vorveröffentlichung durch Klägerin beseitigt Neuheit" | Beklagte | Neuheitsschonfrist § 5 DesignG (12 Monate) bei Eigenoffenbarung; Datum der Erstveröffentlichung prüfen |
 | "Erschöpfung § 48 DesignG" | Beklagte | War Erstinverkehrbringen durch Rechteinhaber autorisiert? Nachweis der Lieferkette |
 | "Antrag nicht dringlich — zu lange gewartet" | Beklagte | Genaues Kenntnis-Datum dokumentieren; subjektive Dringlichkeit (ab tatsächlicher Kenntnis, nicht Erkennbarkeitszeitpunkt) |
@@ -293,10 +294,9 @@ Bevor das Designverletzungsverfahren eingeleitet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

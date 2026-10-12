@@ -1,6 +1,6 @@
 ---
 name: compliance-schulung
-description: "Wenn es um Compliance, Beauftragte und Schulung im Umweltrecht in Umweltrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Compliance, Beauftragte und Schulung im Umweltrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Compliance, Beauftragte und Schulung im Umweltrecht
@@ -35,10 +35,6 @@ Anlagenbetreiber muss Umwelt-Compliance-Schulungen und Jahresaudit-Plaene erstel
 - **§ 59 KrWG** — Bestellung Abfallbeauftragter (Pflicht § 1 AbfBeauftrV)
 - **§ 64 WHG** — Bestellung Gewaesserschutzbeauftragter (Pflicht bei Einleitungen)
 - **§ 130 OWiG** — Ordnungswidrigkeitshaftung bei mangelnder Aufsicht (Leitungsperson)
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -161,3 +157,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `esg-greenwashing-csrd` — CSRD-Berichtspflicht Umwelt
 - `umweltrecht-bussgeld-sanktionen` — Reaktion auf Audit-Beanstandung
 - `umweltrecht-immissionsschutz-bimschg` — ISB-Pflichten im BImSchG-Kontext
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

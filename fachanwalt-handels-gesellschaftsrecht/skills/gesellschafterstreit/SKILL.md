@@ -1,6 +1,6 @@
 ---
 name: gesellschafterstreit
-description: "Wenn es um Gesellschafterstreit in Fachanwalt Handels- und Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gesellschafterstreit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fachanwalt Handels Gesellschaftsrecht Gesellschafterstreit: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -18,8 +18,6 @@ description: "Wenn es um Gesellschafterstreit in Fachanwalt Handels- und Gesells
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Prüfungslinie für fachanwalt handels gesellschaftsrecht gesellschafterstreit. Nutzt Normtext, Nutzerangaben und verifizi` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -42,7 +40,7 @@ description: "Wenn es um Gesellschafterstreit in Fachanwalt Handels- und Gesells
 |------|--------|
 | § 241 AktG | Nichtigkeitsgründe (analog GmbH): fehlende notarielle Beurkundung, Verstoß gegen zwingendes Recht, Sittenwidrigkeit § 138 BGB |
 | § 245 AktG | Anfechtungsbefugnis bei AG: Widerspruch zur Niederschrift; Ausnahmen bei verhinderter Teilnahme |
-| § 246 Abs. 1 AktG | Anfechtungsfrist: 1 Monat (AG), 4 Wochen ab Beschlussfassung |
+| Paragraf 246 Absatz 1 AktG | Anfechtungsklage der AG innerhalb eines Monats nach der Beschlussfassung |
 | § 246 Abs. 2 AktG | Passivlegitimation AG: Gesellschaft vertreten durch Vorstand und Aufsichtsrat |
 | § 246 Abs. 3 AktG | Sachliche Zuständigkeit: Landgericht am Sitz der Gesellschaft; Kammer für Handelssachen |
 | § 247 AktG | Streitwert: Interesse der Gesellschaft, max. 10 % des Grundkapitals |
@@ -51,17 +49,22 @@ description: "Wenn es um Gesellschafterstreit in Fachanwalt Handels- und Gesells
 | § 51 GmbHG | Einberufungsmangel: Form und Frist der Einberufung; 1-Woche-Frist § 51 Abs. 1 S. 2 GmbHG |
 | § 34 GmbHG | Einziehung von Geschäftsanteilen mit oder ohne Zustimmung; Satzungserfordernis |
 | § 46 Nr. 8 GmbHG | Gesellschafterbeschluss zur Geltendmachung von Schadensersatzansprüchen gegen Geschäftsführer |
-| §§ 706 ff. BGB nF | MoPeG (BGBl. I 2021, 3436): seit 01.01.2024 in Kraft; eGbR im Gesellschaftsregister §§ 707 ff. BGB n.F.; rechtsfaehige GbR im Aussenverhaeltnis §§ 705 II, 720 BGB n.F. |
-| § 110 HGB n.F. | MoPeG-OHG: Beschlüsse durch Mehrheitsentscheid grundsätzlich zulässig (Abkehr von einstimmig); Beschlussmaengelrecht §§ 110 ff. HGB n.F. (Anfechtungs-/Nichtigkeitsklage analog AktG, drei Monate Frist § 112 HGB n.F.) |
-| § 117 HGB | Entziehung Geschäftsführungsbefugnis durch gerichtliche Entscheidung |
-| § 133 HGB | Ausschließungsklage OHG/KG aus wichtigem Grund |
+| Paragrafen 706 ff. BGB | MoPeG seit 1. Januar 2024; Gesellschaftsregister für die eingetragene GbR nach Paragrafen 707 ff. BGB; rechtsfähige GbR im Außenverhältnis nach Paragrafen 705 Absatz 2 und 720 BGB |
+| Paragraf 109 Absätze 3 und 4 HGB | OHG-Beschlüsse bedürfen grundsätzlich der Zustimmung aller stimmberechtigten Gesellschafter; Mehrheitsentscheidungen setzen eine Regelung im Gesellschaftsvertrag voraus |
+| Paragrafen 110 bis 115 HGB | Eigenständiges Beschlussmängelrecht der OHG; Anfechtungsfrist grundsätzlich drei Monate ab Bekanntgabe nach Paragraf 112 HGB, Klage gegen die Gesellschaft nach Paragraf 113 Absatz 2 HGB |
+| Paragraf 116 Absatz 5 HGB | Gerichtliche Entziehung der Geschäftsführungsbefugnis aus wichtigem Grund auf Antrag der anderen Gesellschafter |
+| Paragraf 134 HGB | Gerichtliche Ausschließung eines Gesellschafters aus wichtigem Grund, soweit der Gesellschaftsvertrag nichts anderes bestimmt; über Paragraf 161 Absatz 2 HGB grundsätzlich auch für die KG maßgeblich |
 | § 138 BGB | Sittenwidrigkeit: freie Hinauskündigungsklausel unwirksam |
+
+[BGH, Urteil vom 21.04.2026 – Az. II ZR 50/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1), Rn. 18–25: Bestreitet die GmbH die materielle Gesellschafterstellung ernstlich, kann trotz richtigem Listeneintrag ein Feststellungsinteresse bestehen. Liste, Erwerb und Bestreiten getrennt belegen. Formelle Legitimation nach Paragraf 16 GmbHG ersetzt weder materielle Berechtigung noch die Prüfung der Einziehungs- und Abfindungsvoraussetzungen.
+
+[BGH, Urteil vom 10.02.2026 – Az. II ZR 71/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZR__71-24.pdf?__blob=publicationFile&v=1), Rn. 21, 55–58, 66–67: Bei einer Managerbeteiligung die sachliche Rechtfertigung der Hinauskündigungsklausel anhand des gesamten Beteiligungsmodells prüfen. Erwerb zum Verkehrswert und Verlustrisiko schließen die Ausnahme nicht allein aus. Beteiligungsrechte, Leitungsfunktion und Rückerwerbsbedingungen belegen; die Ausübungskontrolle nach Paragraf 242 BGB blieb nach Zurückverweisung offen. Keine pauschale Freigabe von Gründer-Leaver-Klauseln.
 
 ## Leitentscheidungen
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
+| BGH, Urteil | II ZR 151/03 | 18. April 2005 | Die Beschlussanfechtungsklage eines GmbH-Gesellschafters ist mit aller zumutbaren Beschleunigung zu erheben; die Monatsfrist des Paragrafen 246 Absatz 1 AktG dient grundsätzlich als Maßstab, eng begrenzte Ausnahmen bleiben möglich. |
 
 ## Prüfschema Beschlussanfechtungsklage GmbH
 
@@ -72,7 +75,7 @@ description: "Wenn es um Gesellschafterstreit in Fachanwalt Handels- und Gesells
 | 1 | Gesellschafterbeschluss gefasst? | §§ 46 ff. GmbHG | Kein positiver Beschluss = positive Beschlussfeststellungsklage |
 | 2 | Aktivlegitimation: Gesellschafter im Beschlusszeitpunkt? | § 246 Abs. 1 AktG analog | Nachweis durch Gesellschafterliste |
 | 3 | Passivlegitimation: Gesellschaft selbst? | § 246 Abs. 2 AktG analog GmbH | Klage gegen GmbH, vertreten durch Geschäftsführer |
-| 4 | Frist: innerhalb 1 Monats nach Beschlussfassung? | § 246 Abs. 1 AktG analog | Verfristung = Anfechtung ausgeschlossen; Nichtigkeitsklage unbefristet |
+| 4 | Fristmaßstab: Wurde die Klage mit aller im Interesse der Rechtssicherheit zumutbaren Beschleunigung erhoben? | Paragraf 246 Absatz 1 AktG entsprechend; BGH, Urteil vom 18. April 2005, II ZR 151/03 | Die Monatsfrist ist grundsätzlich der Maßstab; eine Überschreitung bedarf eines eng begrenzten Ausnahmegrundes |
 | 5 | Anfechtungsgrund: Verfahrensmangel (§ 51 GmbHG Einberufung, Stimmverbot § 47 Abs. 4)? | §§ 47, 51 GmbHG | Heilung nur bei Relevanz-Ausschluss und Vollversammlung |
 | 6 | Anfechtungsgrund: Inhaltsmangel (Satzungsverstoß, Treuepflicht, Gleichbehandlung)? | § 243 AktG analog | Kausalität des Mangels für Beschluss prüfen |
 | 7 | Nichtigkeitsgrund? | § 241 AktG analog | Keine Frist; keine Heilung durch Zeitablauf |
@@ -85,7 +88,6 @@ description: "Wenn es um Gesellschafterstreit in Fachanwalt Handels- und Gesells
 | 1 | Ausschlussklausel in Satzung vorhanden? | § 34 GmbHG | Bei Fehlen: Ausschlussklage mit Gestaltungsurteil |
 | 2 | Wichtiger Grund: Pflichtverletzung, Zerrüttung, Schaden? | BGH-Rspr. | Konkrete Tatsachen darlegen |
 | 3 | Abmahnung vor Ausschluss? | Treu und Glauben | Bei wiederholten Verstößen Abmahnung erforderlich |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 5 | Einziehungsbeschluss in GV mit erforderlicher Mehrheit? | § 34 GmbHG; Satzung | Einstimmigkeit oder qualifizierte Mehrheit je nach Satzung |
 | 6 | Einstweilige Verfügung auf Amtsniederlegung Geschäftsführer? | §§ 935, 940 ZPO | Gefährdungsnachweis |
 
@@ -219,7 +221,6 @@ Diese Pflichtverletzungen machen das Verbleiben des Beklagten in der
 Gesellschaft unzumutbar.
 
 II. Abfindung
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Satzungsklauseln mit Buchwertabfindung sind anzupassen, soweit sie zu
 einer evident unangemessenen Unterbewertung führen.
 
@@ -247,7 +248,7 @@ einer evident unangemessenen Unterbewertung führen.
 
 | Frist | Inhalt | Norm |
 |-------|--------|------|
-| 4 Wochen (AG) / 1 Monat (GmbH) | Anfechtungsklage ab Beschlussfassung | § 246 Abs. 1 AktG; GmbH-Analogie |
+| Ein Monat (AG) / grundsätzlich Monatsmaßstab (GmbH) | AG: ab Beschlussfassung; GmbH: Klage mit aller zumutbaren Beschleunigung | Paragraf 246 Absatz 1 AktG; BGH, Urteil vom 18. April 2005, II ZR 151/03 |
 | Keine Frist | Nichtigkeitsklage § 249 AktG | § 249 AktG (keine Fristenregelung) |
 | 1 Woche | Mindesteinberufungsfrist GmbH-Gesellschafterversammlung | § 51 Abs. 1 S. 2 GmbHG |
 | 3 Jahre | Verjährung Schadensersatz gegen Gesellschafter | §§ 195, 199 BGB |
@@ -258,9 +259,8 @@ einer evident unangemessenen Unterbewertung führen.
 
 | Gegenargument | Herkunft | Reaktion |
 |--------------|---------|----------|
-| "Anfechtungsfrist versäumt" | Beklagte | Fristbeginn exakt dokumentieren; bei AG: Bekanntmachung maßgeblich |
+| "Anfechtungsfrist versäumt" | Beklagte | Bei der AG Beschlussfassung und Klageeingang dokumentieren; bei der GmbH den Monatsmaßstab und einen etwaigen eng begrenzten Ausnahmegrund prüfen |
 | "Verfahrensmangel war kausal irrelevant" | Beklagte | BGH: Kausalität nur bei offensichtlicher Unerheblichkeit entfallen; Zweifel gehen zu Lasten der Gesellschaft |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Kein wichtiger Grund für Ausschluss" | Beklagter (Ausschlossener) | Schwere der Pflichtverletzung + Zumutbarkeit des Verbleibs darlegen; mehrere Vorfälle kumulativ |
 
 ## Streitwert und Kosten
@@ -295,6 +295,10 @@ Praktische Richtwert: EUR 15.000–250.000 je nach Bedeutung des Beschlusses.
 - § 246 AktG: https://www.gesetze-im-internet.de/aktg/__246.html
 - § 47 GmbHG: https://www.gesetze-im-internet.de/gmbhg/__47.html
 - § 34 GmbHG: https://www.gesetze-im-internet.de/gmbhg/__34.html
+- Paragrafen 109 bis 113 HGB: https://www.gesetze-im-internet.de/hgb/__109.html, https://www.gesetze-im-internet.de/hgb/__110.html, https://www.gesetze-im-internet.de/hgb/__112.html und https://www.gesetze-im-internet.de/hgb/__113.html
+- Paragraf 116 HGB: https://www.gesetze-im-internet.de/hgb/__116.html
+- Paragraf 134 HGB: https://www.gesetze-im-internet.de/hgb/__134.html
+- BGH, Urteil vom 18. April 2005, II ZR 151/03: https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2005-4&Gericht=bgh&Seite=3&Sort=6&anz=300&nr=32778&pos=114
 - BGH II ZR 24/14 (Belegfundstelle vor Verwendung gegen offene Quelle prüfen): https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Aktenzeichen=II+ZR+24/14
 - BGH II ZR 343/16 (Belegfundstelle vor Verwendung gegen offene Quelle prüfen): https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Aktenzeichen=II+ZR+343/16
 - MoPeG (Gesetz zur Modernisierung des Personengesellschaftsrechts, BGBl. I 2021, 3436; in Kraft 01.01.2024); BGB §§ 705-740 n.F.: https://www.gesetze-im-internet.de/bgb/__705.html ; Gesellschaftsregister: https://www.gesetze-im-internet.de/bgb/__707.html

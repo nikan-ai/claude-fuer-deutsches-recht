@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "plugin": "insolvenzrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__17.html",
+      "checked_on": "2026-09-14",
+      "supports": "Fällige Zahlungspflichten und Vermutung bei Zahlungseinstellung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__15a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug geprüft: Antrag ohne schuldhaftes Zögern, Dreiwochen- beziehungsweise Sechswochenhöchstfrist."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1152&nr=140413&pos=16",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 23.01.2025, Az. IX ZR 229/22: amtlich indexierter Leitsatz zum Nennwert vorläufig vollstreckbarer Titel bei eingeleiteter Vollstreckung geprüft; direkter Volltextabruf gescheitert."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/bgh_notp/document.py?Art=en&Blank=1&Datum=2017-12-19&Gericht=bgh&Sort=6&anz=26&nr=43965&pos=13",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 19.12.2017, Az. II ZR 88/16: amtlich indexierten Leitsatz 2 und Auszüge geprüft; neue Fälligkeiten gehören in die Dreiwochen-Liquiditätsbilanz. Keine aktuelle Haftungsaussage aus dem damaligen Paragraf 64 GmbHG abgeleitet."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/BJNR010050934.html",
+      "checked_on": "2026-09-18",
+      "supports": "Paragraf 3a EStG: gesetzliche Steuerbefreiung und Nachweis der Sanierungsvoraussetzungen; kein pauschaler Verlust allein wegen eines unterlassenen Steuerbefreiungsantrags."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__343.html",
+      "checked_on": "2026-09-18",
+      "supports": "Anerkennungsprüfung für ausländische Insolvenzverfahren außerhalb einer ohne Weiteres anwendbaren EuInsVO; keine pauschale EuInsVO-Behandlung sämtlicher Drittstaatenverfahren."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_229-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 23.01.2025, IX ZR 229/22, Rn. 34–45: Vorläufig vollstreckbare Forderung bei erfüllten Vollstreckungsvoraussetzungen und eingeleiteter Vollstreckung im Schuldnerstatus zum Nennwert ansetzen; Prozesschancen nicht als Abschlag verwenden. Grenze: Die Voraussetzungen der Statusbewertung nicht pauschal in die gerichtliche Prüfung eines Gläubigerantrags übertragen; Einwendungen gegen den Titel grundsätzlich im zuständigen Prozess, Ausnahme offensichtlicher Unbegründetheit nicht abschließend entschieden."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2016/II_ZR__88-16.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 19.12.2017, II ZR 88/16, insbesondere Rn. 50–70: In der Dreiwochenbetrachtung künftige Zuflüsse und neue Fälligkeiten gemeinsam erfassen. Konzernansprüche nur bei rechtzeitiger Leistungsfähigkeit und Zahlungsbereitschaft als verfügbar behandeln. Grenze: Eine 13-Wochen-Budgetplanung ersetzt nicht den Status; die Entscheidung zu Paragraf 64 GmbHG begründet keine automatische heutige Organhaftung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__17.html",
+      "checked_on": "2026-09-22",
+      "supports": "Fällige Zahlungspflichten und Zahlungseinstellung, kein Prozessrisikoabschlag nach freier Einschätzung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__15a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Antrag ohne schuldhaftes Zögern; drei beziehungsweise sechs Wochen sind Höchstfristen, keine freie Wartezeit."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 12.03.2026 – [IX ZR 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1), Rn. 24–32: Tatsächlich verfügbare Drittmittel zählen auch ohne einklagbaren Anspruch gegen den Geldgeber. Frage nach Kontoauszug, Zahlweg, Betrag und Zeitpunkt; eine bloße Hoffnung genügt nicht. Über längere Zeit bis zur Eröffnung unbezahlte erhebliche Schulden im Gesamtbild würdigen, einschließlich tatsächlicher Zahlungen von Angehörigen oder verbundenen Unternehmen. Ein außenstehender Prozessgegner muss keine ihm unbekannten Schuldnerfinanzen rekonstruieren; vorgelegte Urkunden werden nicht zu seiner eigenen Wahrnehmung. Das Urteil verweist insoweit zurück und stellt Zahlungsunfähigkeit nicht abschließend fest."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__15a.html",
+      "checked_on": "2026-10-01",
+      "supports": "Absätze1,4–6: Objektive Antragspflicht und subjektive Strafvoraussetzungen trennen; Fahrlässigkeit inAbsatz5 ausdrücklich erfasst."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__270.html",
+      "checked_on": "2026-10-01",
+      "supports": "Absätze1–2: Eigenverwaltung durch gerichtliche Anordnung; keine pauschale Opferung dieser Option bei rechtzeitigem Eröffnungsantrag."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Titel werden nicht nach Berufungschancen abgezinst; Zuflüsse und neue Fälligkeiten fließen symmetrisch in die Dreiwochenbetrachtung ein. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "IX ZR 229/22 und II ZR 88/16 aus amtlichen entscheidenden Gründen in alle drei Promptvarianten eingebunden.",
+      "Titelvoraussetzungen, Konzernmittel und neue Fälligkeiten als konkrete Belegfragen formuliert.",
+      "Im Hauptproblem OPOS-Bereinigung und Statusrechnung ohne automatische Paragraf-15b-Haftung verbunden.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt.",
+      "Gezielter amtlicher Rechtsprechungsabgleich 30.09.2026: BGH, Urteil vom 12.03.2026 – IX ZR 18/25, Rn. 24–32, 36–38"
+    ],
+    "sha256": "c1ee1e44c4d6a726d45ea9cf4db1a92d7a838fc94b837ac12c036f0e09460791"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Eröffnungsgrund, Organzahlung, Anmeldung, Anfechtung und Sanierung bleiben getrennte Aufträge; alte Vorsatzanfechtung nicht mechanisch auf heutiges Recht übertragen. Individuelle Text- und Quellenprüfung, kein Live-Modelltest.",
+    "changes": [
+      "IX ZR 229/22 und II ZR 88/16 aus amtlichen entscheidenden Gründen in alle drei Promptvarianten eingebunden.",
+      "Titelvoraussetzungen, Konzernmittel und neue Fälligkeiten als konkrete Belegfragen formuliert.",
+      "Im Hauptproblem OPOS-Bereinigung und Statusrechnung ohne automatische Paragraf-15b-Haftung verbunden.",
+      "Stundung gegen bloßes Stillhalten abgrenzen, Cashpoolmittel und Zuflüsse zeitlich prüfen, Anfechtung zahlungsbezogen aufbauen und Organentscheidungen nach ihrer tatsächlichen Zahlungs- und Kenntnislage bearbeiten; Fokus-Prompt und Fokus-Skill im Einstieg abgestimmt.",
+      "Gezielter amtlicher Rechtsprechungsabgleich 30.09.2026: BGH, Urteil vom 12.03.2026 – IX ZR 18/25, Rn. 24–32, 36–38"
+    ],
+    "sha256": "bab5ee4fd49d4b46978068bdaac4b6ebfd3db493caa31ab3641d817fb939217c"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "OPOS, Titelansatz und Dreiwochenbrücke behalten die bestehenden fachlichen Grenzen. Hauptproblem und Fokus-Skill individuell gelesen und in Start- sowie Fortsetzungsverhalten abgestimmt; heutiger desk_review ohne Live-Ausführung und ohne erneute Vollverifikation der bisherigen Entscheidungsanker.",
+    "changes": [
+      "IX ZR 229/22 und II ZR 88/16 aus amtlichen entscheidenden Gründen in alle drei Promptvarianten eingebunden.",
+      "Titelvoraussetzungen, Konzernmittel und neue Fälligkeiten als konkrete Belegfragen formuliert.",
+      "Im Hauptproblem OPOS-Bereinigung und Statusrechnung ohne automatische Paragraf-15b-Haftung verbunden.",
+      "Hauptproblem und Fokus-Skill nach vollständiger Lektüre um eigenständige Einstiege und konkrete Fortsetzung bei Stundung oder Zahlungseingang ergänzt; keine neue Gesamtquellenprüfung.",
+      "30.09.2026: IX ZR 18/25 zu tatsächlich verfügbaren Drittmitteln und Grenzen der Detailerwiderung im Hauptproblem ergänzt; Fokus-Skill unverändert."
+    ],
+    "prompt_path": "insolvenzrecht/insolvenzrecht-hauptproblem.md",
+    "prompt_sha256": "2447162f0bc9ff3a87d37dfc49e3a1d95316d534e6eec20395adda4f8062e3e2",
+    "skill_path": "insolvenzrecht/skills/opos-titelabgleich-dreiwochen-liquiditaetsbruecke/SKILL.md",
+    "skill_sha256": "f2b96d70d9d751175363a23bc7225b2f933df04ea915ee11fd8f7fb2683dd531"
+  },
+  "selection": {
+    "positive": [
+      "Bereinigen Sie die OP-Liste um Dubletten und prüfen Sie den bestrittenen Vollstreckungstitel im Liquiditätsstatus.",
+      "Stimmen Sie Bankmittel, zugesagte Eingänge und neu fällige Löhne in einer Dreiwochenbrücke ab; die Buchhaltung zeigt widersprüchliche Deckungsquoten."
+    ],
+    "negative": [
+      "Melden Sie unsere Lieferforderung zur Insolvenztabelle an und prüfen Sie den Rang.",
+      "Entwerfen Sie einen Insolvenzplan mit Gruppenbildung und Vergleichsrechnung."
+    ],
+    "target_skill": "opos-titelabgleich-dreiwochen-liquiditaetsbruecke"
+  },
+  "cases": [
+    {
+      "id": "titelnennwert-dublette-neue-faelligkeiten",
+      "request": "Wir beraten die Geschäftsführung einer GmbH zum Stichtag 14.09.2026. Frei verfügbar sind 80000 EUR auf dem Geschäftskonto. Weitere 20000 EUR liegen auf einem gesperrten Sicherungskonto und können im nächsten Monat nicht abgerufen werden. Eine zusätzliche Kreditlinie ist nur beantragt. Die OP-Liste enthält 100000 EUR fällige eingeforderte Lieferforderungen; darin ist eine Rechnung über 10000 EUR versehentlich zweimal enthalten. Zusätzlich besteht ein vorläufig vollstreckbarer Titel über 60000 EUR. Er ist zugestellt, erforderliche Sicherheit ist geleistet, die Vollstreckung wurde eingeleitet und ist nicht eingestellt. Die GmbH bestreitet die Forderung weiterhin; ihre Prozessvertretung schätzt die Berufungschance auf 70 Prozent. Die Buchhaltung hat den Titel vollständig aus der OP-Liste herausgenommen. Keine Forderung ist gestundet. Innerhalb der nächsten 21 Tage werden weitere Löhne und Lieferforderungen von insgesamt 50000 EUR fällig und eingefordert. Vertraglich verbindlich zugesagte Kundenzahlungen über 40000 EUR sollen am zehnten Tag eingehen; im Basisszenario sind sie rechtzeitig realisierbar. Ein unverbindlich diskutierter Investorenzufluss von 100000 EUR hat weder Zusage noch Termin. Es gibt keine weiteren Mittel, Verpflichtungen oder bereits geleisteten Zahlungen. Bitte erstellen Sie die OP-Überleitung, Anfangsstatus und kumulierte Dreiwochenrechnung, außerdem ein Szenario ohne Kundenzufluss. Beurteilen Sie den unmittelbaren Entscheidungsbedarf der Geschäftsführung und die Grenzen dieses Datenstands. Keine Zahlungen oder Anträge ausführen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Dublette wird einmal mit 10000 EUR korrigiert, der Titel mit 60000 EUR ohne Prozessrisikoabschlag aufgenommen; Anfangsverbindlichkeiten betragen 150000 EUR.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Bei 80000 EUR freien Anfangsmitteln wird eine Anfangslücke von 70000 EUR nachvollziehbar ausgewiesen. Gesperrte Mittel, beantragte Linie und unverbindliche Investorenmittel werden nicht als sichere Liquidität angesetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Dreiwochenrechnung stellt 120000 EUR Mittel einem Bedarf von 200000 EUR gegenüber, ergibt 80000 EUR beziehungsweise 40 Prozent Lücke und lässt die neuen Fälligkeiten nicht weg; ohne Kundenzufluss ergeben sich 120000 EUR beziehungsweise 60 Prozent Lücke.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Der erhebliche ungedeckte Bedarf löst einen unverzüglichen menschlichen Prüf- und Entscheidungsbedarf aus; es wird weder eine freie Dreiwochenwartezeit empfohlen noch ein Antrag oder eine Zahlung als ausgeführt dargestellt. Ein früherer Eintritt wird ohne historische Daten nicht erfunden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "opos-titelabgleich-dreiwochen-liquiditaetsbruecke"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "insolvenzrecht/insolvenzrecht-schnellstart.md",
+      "insolvenzrecht/insolvenzrecht-hauptproblem.md",
+      "insolvenzrecht/insolvenzrecht-werkstatt.md",
+      "insolvenzrecht/skills/opos-titelabgleich-dreiwochen-liquiditaetsbruecke/SKILL.md",
+      "insolvenzrecht/README.md",
+      "quality/evals/insolvenzrecht.json"
+    ],
+    "opening_change": "Fällige Schulden, frei verfügbare Mittel und streitige Titel für den Insolvenzstatus abstimmen.",
+    "norms": [
+      "Paragrafen 14, 15a, 17, 18 und 19 InsO",
+      "Paragraf 15b InsO",
+      "Paragraf 133 InsO in zeitlich einschlägiger Fassung"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 23.01.2025, IX ZR 229/22, Rn. 34–45",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_229-22.pdf?__blob=publicationFile&v=1",
+        "application": "Vorläufig vollstreckbare Forderung bei erfüllten Vollstreckungsvoraussetzungen und eingeleiteter Vollstreckung im Schuldnerstatus zum Nennwert ansetzen; Prozesschancen nicht als Abschlag verwenden.",
+        "limit": "Die Voraussetzungen der Statusbewertung nicht pauschal in die gerichtliche Prüfung eines Gläubigerantrags übertragen; Einwendungen gegen den Titel grundsätzlich im zuständigen Prozess, Ausnahme offensichtlicher Unbegründetheit nicht abschließend entschieden."
+      },
+      {
+        "citation": "BGH, Urteil vom 19.12.2017, II ZR 88/16, insbesondere Rn. 50–70",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2016/II_ZR__88-16.pdf?__blob=publicationFile&v=1",
+        "application": "In der Dreiwochenbetrachtung künftige Zuflüsse und neue Fälligkeiten gemeinsam erfassen. Konzernansprüche nur bei rechtzeitiger Leistungsfähigkeit und Zahlungsbereitschaft als verfügbar behandeln.",
+        "limit": "Eine 13-Wochen-Budgetplanung ersetzt nicht den Status; die Entscheidung zu Paragraf 64 GmbHG begründet keine automatische heutige Organhaftung."
+      },
+      {
+        "citation": "BGH, Urteil vom 12.03.2026 – IX ZR 18/25, Rn. 24–32, 36–38",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-09-30",
+        "application": "BGH, Urteil vom 12.03.2026 – [IX ZR 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1), Rn. 24–32: Tatsächlich verfügbare Drittmittel zählen auch ohne einklagbaren Anspruch gegen den Geldgeber. Frage nach Kontoauszug, Zahlweg, Betrag und Zeitpunkt; eine bloße Hoffnung genügt nicht. Über längere Zeit bis zur Eröffnung unbezahlte erhebliche Schulden im Gesamtbild würdigen, einschließlich tatsächlicher Zahlungen von Angehörigen oder verbundenen Unternehmen. Ein außenstehender Prozessgegner muss keine ihm unbekannten Schuldnerfinanzen rekonstruieren; vorgelegte Urkunden werden nicht zu seiner eigenen Wahrnehmung. Das Urteil verweist insoweit zurück und stellt Zahlungsunfähigkeit nicht abschließend fest.",
+        "limit": "Gezielte Ergänzung; frühere Quellenprüfdaten bleiben erhalten. Keine abschließende Insolvenzfeststellung aus IX ZR 18/25 und keine Gruppenfreigabe aus IX ZB 18/25."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Fokus-Skill bei der Vorprüfung vom 2026-09-22 unverändert belassen; am 2026-09-23 nur Einstieg und Antwortfortsetzung kohärent ergänzt. Alte Abrufvermerke sind keine neue Volltextprüfung. Keine Vollverifikation sämtlicher Anfechtungs- und Steuerfragen.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen.",
+      "Erneuter Abruf von Paragrafen 15a und 17 InsO am 2026-09-23 scheiterte; die dokumentierte Vorprüfung vom 2026-09-22 bleibt als solche erhalten, keine neue Volltextprüfung behauptet."
+    ],
+    "supplement_checked_on": "2026-09-30"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Liquiditätsstatus, Tabellenforderung oder Anfechtungsabwehr anbieten; im Fokus OPOS-Bereinigung, Titelansatz oder Dreiwochenbrücke.",
+      "Dateien ohne Auftrag: OP-Liste, Titel und Bankbelege still lesen und nur zwischen den konkret passenden Prüfprodukten wählen lassen.",
+      "Klarer Auftrag: Statusrechnung oder beauftragtes Schreiben vollständig erstellen, ohne zusätzliche Fragerunde bei vollständigen Daten."
+    ],
+    "continuation": "Neue konkrete Stundung -> nur erfasste Forderungen und betroffene Fälligkeitstage in Status, Dreiwochenbrücke und Organvermerk ändern; späterer Zahlungseingang bleibt von damaliger Prognose getrennt.",
+    "enrichment": "Stundung gegen bloßes Stillhalten abgrenzen, Cashpoolmittel und Zuflüsse zeitlich prüfen, Anfechtung zahlungsbezogen aufbauen und Organentscheidungen nach ihrer tatsächlichen Zahlungs- und Kenntnislage bearbeiten; Fokus-Prompt und Fokus-Skill im Einstieg abgestimmt.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "insolvenzrecht/skills/antragspflicht-15a-17-19/SKILL.md",
+      "insolvenzrecht/skills/antragspflicht-15a-inso/SKILL.md",
+      "insolvenzrecht/skills/juristischer-argumentationskern/SKILL.md",
+      "insolvenzrecht/skills/liquiditaetsvorschau-insolvenzrechtlich/SKILL.md",
+      "insolvenzrecht/skills/zahlungsunfaehigkeit-pruefung-17-inso/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

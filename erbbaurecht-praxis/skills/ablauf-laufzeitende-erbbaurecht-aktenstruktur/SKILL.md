@@ -1,6 +1,6 @@
 ---
 name: ablauf-laufzeitende-erbbaurecht-aktenstruktur
-description: "Wenn es um Laufzeitende und Exitplan in Erbbaurecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Laufzeitende und Exitplan: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Laufzeitende und Exitplan
@@ -53,20 +53,3 @@ Der Skill macht aus dem Laufzeitende kein überraschendes Desaster, sondern eine
 - offene entscheidende Fragen
 - konkreter Entwurf oder Checkliste
 - Risiko, das in der Praxis leicht übersehen wird
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 ErbbauRG
-- § 2 ErbbauRG
-- § 5 ErbbauRG
-- § 9a ErbbauRG
-- § 10 ErbbauRG
-- § 11 ErbbauRG
-- § 12 ErbbauRG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: einwilligung-hinweis-datenschutz
-description: "Wenn es um Einwilligung-Hinweis-Datenschutz in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einwilligung-Hinweis-Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einwilligung-Hinweis-Datenschutz
@@ -26,9 +26,6 @@ Formuliert die datenschutzrechtlich erforderliche Einwilligungsklausel für die 
 2. Enthaelt die Anfrage besondere Kategorien personenbezogener Daten (Gesundheit, Strafrecht — Art. 9 DSGVO)?
 3. Soll der Hinweis in die Erstantwort-Mail eingebettet oder als separater Datenschutzhinweis gesandt werden?
 4. Welcher Transkriptionsdienstleister wird eingesetzt — liegt ein AVV nach Art. 28 DSGVO vor?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 6 Abs. 1 lit. a DSGVO — Einwilligung als Rechtsgrundlage für Sprachdaten-Verarbeitung vor Mandatsannahme
@@ -120,3 +117,5 @@ Ohne Bestätigung: keine Aufnahme. Kein Einverständnis — kein Transkript.
 - `transkriptionsdienst-erklaerung` — bettet diese Klausel ein
 - `mandatsverhaeltnis-hinweis` — ergänzender Disclaimer
 - `erstantwort-generator` — Kurzform in der Antwortmail
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

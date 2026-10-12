@@ -1,13 +1,13 @@
 ---
 name: arbeitszeugnis-zeugnisanalyse-wortlaut-codes
-description: "Wenn es um Arbeitszeugnisse: Fristen, Form, Zuständigkeit und Rechtsweg in Arbeitszeugnis-Analyse geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arbeitszeugnisse: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Arbeitszeugnisse: Fristen, Form, Zuständigkeit und Rechtsweg
 
 ## Fachlicher Anker
 
-- **Normen:** Paragrafen 611a, Paragrafen 1, Paragrafen 14.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
@@ -25,8 +25,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Arbeitsworkflow
 1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Anspruch und Form:** Paragraf 109 GewO Anspruch auf schriftliches Zeugnis bei Beendigung; Paragraf 109 Abs. 2 Satz 1 GewO Schriftform (eigenhändige Unterschrift); elektronische Form ausdrücklich ausgeschlossen Paragraf 109 Abs. 3 GewO. Anspruch auf einfaches oder qualifiziertes Zeugnis (Wahlrecht des Arbeitnehmers).
+2. **Anspruch und Form:** Paragraf 109 Absatz 1 GewO begründet bei Beendigung den Anspruch auf ein einfaches oder auf Verlangen qualifiziertes Zeugnis. Absatz 2 verlangt Klarheit und verbietet verdeckte Aussagen. Seit dem 1. Januar 2025 kann das Zeugnis mit Einwilligung des Arbeitnehmers in elektronischer Form erteilt werden; dann ist die qualifizierte elektronische Signatur nach Paragraf 126a BGB erforderlich. Ohne Einwilligung bleibt es bei der Papierform mit eigenhändiger Unterschrift.
 3. **Fristen prüfen:** Zeugnisanspruch verjährt regelmäßig nach 3 Jahren (Paragrafen 195, 199 BGB). Vorsicht: tarifliche oder einzelvertragliche Ausschlussfristen (häufig 2- bis 6-monatig, zweistufig) verkürzen Anspruch erheblich; Mindestlohnverwirkungsklauseln BAG ständige Rechtsprechung unwirksam. Bei Zwischenzeugnis: Anspruch bei berechtigtem Interesse (Vorgesetztenwechsel, Bewerbung, Beförderung).
 4. **Zuständigkeit:** ArbG erstinstanzlich (Paragraf 2 Abs. 1 Nr. 3a ArbGG); Streitwert ein Bruttomonatsgehalt analog Paragraf 42 Abs. 2 GKG; keine Anwaltspflicht erste Instanz (Paragraf 11 ArbGG); Klagegegner ist Arbeitgeber, bei Betriebsübergang nach Paragraf 613a BGB der Erwerber.
 5. **Anschluss:** Aufforderungsschreiben mit Fristsetzung (2-4 Wochen üblich), bei Untätigkeit Klage; Antrag konkretisieren ("verurteilt, ein qualifiziertes Arbeitszeugnis mit folgendem Inhalt zu erteilen ..." oder unbestimmter Antrag mit Notenangabe).
-

@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "plugin": "fachanwalt-strafrecht",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73d.html",
+      "checked_on": "2026-09-14",
+      "supports": "Bestimmung des Wertes des Erlangten und Grenzen des Abzugs von Aufwendungen; Tatkosten nicht pauschal abziehen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73.html",
+      "checked_on": "2026-09-14",
+      "supports": "Einziehung dessen, was Täter oder Teilnehmer durch oder für die rechtswidrige Tat erlangt haben."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73c.html",
+      "checked_on": "2026-09-14",
+      "supports": "Wertersatz bei nicht möglicher gegenständlicher Einziehung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73e.html",
+      "checked_on": "2026-09-14",
+      "supports": "Ausschluss in Höhe des erloschenen Rückgewähr- oder Ersatzanspruchs; bloße Sicherstellung ist nicht gleich Rückzahlung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__111e.html",
+      "checked_on": "2026-09-14",
+      "supports": "Vermögensarrest als Sicherung der Wertersatzeinziehung und Bezifferung des gesicherten Anspruchs."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2024/6_StR_546-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Beschluss vom 15.05.2025, Az. 6 StR 546/24, Randnummern 14 bis 18: Verfügungsmacht statt bloßer Mittäterschaft, transitorischer Besitz und Tatlohn. Amtliches PDF direkt abgerufen und textlich gelesen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2024/6_StR_546-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 15.05.2025, 6 StR 546/24, Randnummern 14 bis 18. Amtliche tragende Entscheidungsgründe gelesen. Anwendung: Persönlichen Zugriff bei weisungsgebundenem Abholer unter Kontrolle anderer prüfen; Mittäterschaft und transitorischer Besitz begründen nicht die Einziehung der gesamten Beute, Tatlohn gesondert. Grenze: Tatsächlich erlangte Verfügungsmacht entfällt nicht durch spätere Weiterleitung; keine allgemeine Begrenzung auf behaltenen Gewinn."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2026/6_StR_160-26.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Sicherstellung widerspricht behauptetem Verkauf; gegenständliche Einziehung bei fortbestehender Beute von Erlöschen nach Rückgabe unterscheiden. Grenze: Konkrete revisionsgerichtliche Kürzung nicht auf sämtliche Sicherstellungen/Arrestbeträge übertragen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/03/rs20130319_2bvr262810.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Urteil vom 19.03.2013, 2 BvR 2628/10, Randnummern 68 bis 71 und 84 bis 93. Amtliche tragende Entscheidungsgründe gelesen. Anwendung: Verständigungsbezogene Gespräche auch ohne Einigung erfassen und mitteilen; Schöffen beteiligen, Geständnis durch Beweiserhebung in der Hauptverhandlung überprüfen; staatsanwaltschaftliche Kontrollverantwortung beachten. Grenze: Reine Terminabsprachen nicht erfasst; kein generelles Verständigungsverbot und nicht jeder Fehler automatisch absoluter Revisionsgrund."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Persönlich erlangter Tatertrag."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73c.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Wertersatz von gegenständlicher Einziehung trennen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/__73e.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Erlöschen des Verletztenanspruchs; Verjährung ist nach Absatz 1 Satz 2 ausgenommen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__111e.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Vorläufige Sicherung ist kein erwiesener Einziehungsbetrag."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__32d.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Elektronische Pflicht umfasst ausdrücklich auch Einspruch gegen Strafbefehl und Rücknahme."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__257c.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Gegenstand, Zustimmung, Bindungswegfall und Belehrung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gvg/__177.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Gesetzlich bezeichnete Personenkreise; Verteidiger nicht pauschal einbeziehen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gvg/__178.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Ordnungsmittel nicht ohne Prüfung des persönlichen Anwendungsbereichs."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__14.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Gläubigerantrag: Interesse, Forderung und Eröffnungsgrund."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__97.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Pflichtauskunft und beschränkte strafrechtliche Verwendung nach Absatz 1 Satz 3."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__410.html",
+      "supports": "Erneuter Normabruf zur grundsätzlich zweiwöchigen Einspruchsfrist nach Zustellung und Möglichkeit der Beschränkung; strategische Beschränkung nicht aus bloßem Betragsstreit ableiten.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2025/3_StR_203-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Einvernehmliche Beutelagerung mit tatsächlichem freien Zugriff kann Mitverfügung begründen, ohne ausdrückliche Abrede aller Hinterleute. Grenze: Weder Mittäterschaft noch Wohnungsinhaberschaft allein ersetzen tatsächliche Verfügung; spätere Weiterleitung beseitigt Erlangen nicht."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tenor, Sachverhalt und Rn. 1–27 vollständig. Tatsächliche Mitnutzung nach §102 StPO von allein genutzten Räumen Nichtverdächtiger nach §103 StPO abgrenzen; dort konkrete Auffindeindizien verlangen. Grenze: Gemeinsame Anschrift, Briefkasten, Wohnprojektetikett und bloß möglicher Zutritt reichen nicht. Keine generelle Unzulässigkeit von WG-Durchsuchungen, kein automatisches Verwertungsverbot."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/01/rk20260114_1bvr140925.html",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tenor und Rn. 1–19 vollständig. Umgrenzungsfunktion anhand Gesamtschau vom eigenständigen Verhältnismäßigkeitsgebot trennen; Rechtsbehelfe der Gesellschaft und Geschäftsführerin unterscheiden. Grenze: Fehlender ausdrücklicher Tatzeitraum nicht stets fatal; entschiedener kurzer Betriebszeitraum und konkret getragener Verdacht. Verhältnismäßigkeit mangels Rüge nicht vertieft entschieden."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten.",
+    "changes": [
+      "Verfügungsgewalt, Tatlohn, Rückführung und bloße Sicherstellung anhand zweier vollständig gelesener BGH-Beschlüsse getrennt.",
+      "Verständigungsprüfung um Hauptverhandlungsbeweis, erfolglose Gespräche und konkrete Mitteilungspflichten ergänzt.",
+      "Sitzungspolizei nicht pauschal auf Verteidiger ausgedehnt; Beweisantragsablehnung, Insolvenz-Selbstbelastung und elektronischer Einspruch korrigiert.",
+      "Unverifizierte Aussagen zum aktuellen EU-Ratsstand entfernt; Vorschlag und geltendes Recht getrennt, kein Abschlussersatz durch bloße Checkliste.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "01.10.2026: 3 StR 203/25 als konkretes Gegenbeispiel zum pauschalen Einwand einer Ablieferungspflicht in Einziehungsprüfung, Fokus, Werkstatt und Mini eingebunden.",
+      "Fachspezifische 2026-Anker ergänzt: BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24, BVerfG, Beschluss vom 14.01.2026 – 1 BvR 1409/25, Rn. 7–17. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
+    ],
+    "sha256": "90bd98997a4e9c303082076d1eaddef15d2867d58f2bae3d748485e042eaa0e4",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Begrenzter Quellenabgleich der fachbezogenen Einfügung und ihres Zusammenhangs am 01.10.2026. 3 StR 203/25 als konkretes Gegenbeispiel zum pauschalen Einwand einer Ablieferungspflicht in Einziehungsprüfung, Fokus, Werkstatt und Mini eingebunden.",
+    "changes": [
+      "Einleitung auf konkrete Zugriffskette und Gegenrechnung bezogen.",
+      "6 StR 546/24 mit Trigger, Folge und Grenze späterer Weiterleitung ausformuliert; 6 StR 160/26 sachbeutebezogen erhalten.",
+      "Fokus-Skill gelesen und unverändert belassen.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten.",
+      "01.10.2026: 3 StR 203/25 als konkretes Gegenbeispiel zum pauschalen Einwand einer Ablieferungspflicht in Einziehungsprüfung, Fokus, Werkstatt und Mini eingebunden."
+    ],
+    "prompt_path": "fachanwalt-strafrecht/fachanwalt-strafrecht-hauptproblem.md",
+    "prompt_sha256": "066d7d4b4f150c8c4e61aecff1ec312099eb9821240b7292f912974f85653830",
+    "skill_path": "fachanwalt-strafrecht/skills/einziehung-geldfluss-mitverfuegung-arrestabgleich/SKILL.md",
+    "skill_sha256": "a8b35ea09e2d8a54a5775f019da806a52d332d23324a36910bdd4109649cd1a6"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten.",
+    "changes": [
+      "Verfügungsgewalt, Tatlohn, Rückführung und bloße Sicherstellung anhand zweier vollständig gelesener BGH-Beschlüsse getrennt.",
+      "Verständigungsprüfung um Hauptverhandlungsbeweis, erfolglose Gespräche und konkrete Mitteilungspflichten ergänzt.",
+      "Sitzungspolizei nicht pauschal auf Verteidiger ausgedehnt; Beweisantragsablehnung, Insolvenz-Selbstbelastung und elektronischer Einspruch korrigiert.",
+      "Unverifizierte Aussagen zum aktuellen EU-Ratsstand entfernt; Vorschlag und geltendes Recht getrennt, kein Abschlussersatz durch bloße Checkliste.",
+      "Digitale Zuordnung und konkrete Gegenhypothese, Beweistatsache gegenüber Ermittlungsfrage, persönliche Verfügungsmacht, Asservat gegenüber Rückführung, tatsächliche Arrestbindung sowie Strafbefehlseinspruch und vollständiger Rügevortrag.",
+      "01.10.2026: 3 StR 203/25 als konkretes Gegenbeispiel zum pauschalen Einwand einer Ablieferungspflicht in Einziehungsprüfung, Fokus, Werkstatt und Mini eingebunden.",
+      "Fachspezifische 2026-Anker ergänzt: BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24, BVerfG, Beschluss vom 14.01.2026 – 1 BvR 1409/25, Rn. 7–17. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
+    ],
+    "sha256": "bc0e69dec5e58778d4e288e4f23954a753fd43ebecd12231b9d9513d7e9a0e53",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie die persönliche Einziehungssumme gegen Kontoauszüge, Weiterleitungen und Tatlohn; die Anklage rechnet jedem Beteiligten den Gesamtschaden zu.",
+      "Der Arrest blockiert mein Konto und enthält mehrfach dieselben Geldbewegungen; erstellen Sie eine transaktionsgenaue Gegenrechnung."
+    ],
+    "negative": [
+      "Prüfen Sie ausschließlich die Glaubhaftigkeit einer Zeugenaussage ohne Vermögensbezug.",
+      "Erstellen Sie eine Strafzumessungsargumentation für eine Körperverletzung ohne Einziehung."
+    ],
+    "target_skill": "einziehung-geldfluss-mitverfuegung-arrestabgleich"
+  },
+  "cases": [
+    {
+      "id": "arrest-doppelte-abhebung-und-tatlohn",
+      "request": "Verteidigen Sie den erwachsenen Beschuldigten Leon in einem Ermittlungsverfahren wegen zweier Betrugstaten. Erstellen Sie ergebnis.md mit individueller Zurechnung, Gegenrechnung und Stellungnahmeentwurf gegen einen Vermögensarrest über 100.300 EUR. Der Beschluss addiert für Tat 1 eine Gutschrift von 40.000 EUR und die anschließende Barabhebung derselben 40.000 EUR. Kontoauszug und Video belegen: Leon hatte alleinigen Onlinezugang, konnte zwei Tage frei über das Guthaben verfügen, hob alles ab, gab 38.000 EUR an einen Hintermann weiter und behielt 2.000 EUR aus dieser Summe als Lohn. Für Tat 2 setzt der Beschluss zusätzlich 20.000 EUR und 300 EUR Tatlohn an. Hier trug Leon nach übereinstimmenden Aussagen einen verschlossenen Umschlag wenige Meter vom Geschädigten zum unmittelbar daneben stehenden Hintermann; dieser überwachte die gesamte Übergabe, nahm den Umschlag sofort an sich und ließ Leon keine eigenständige Zugriffsmöglichkeit. Leon erhielt anschließend 300 EUR aus anderem Bargeld des Hintermanns. Eine eigene Zugriffsmöglichkeit auf die 20.000 EUR ist bislang nicht belegt. Nach dem Arrest zahlte Leon nachweislich 5.000 EUR aus einem privaten Darlehen an den Geschädigten der Tat 1 zurück; dieser bestätigte das Erlöschen seines Ersatzanspruchs in dieser Höhe. Daneben sind 3.000 EUR auf Leons Konto lediglich gepfändet, nicht ausgekehrt. Es gibt keine weiteren Zahlungen, keine Rechtskraft, keinen Verzicht und keine sonstigen Erträge. Die Strafbarkeit selbst soll nicht abschließend geprüft werden. Unterscheiden Sie sicheren Rechenfehler, Zurechnungsrisiko und vorläufigen Sicherungsmaßstab; geben Sie keine Einlassung oder Vermögensanweisung ab.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Tat 1 wird mit einem einmaligen Zufluss von 40.000 EUR erfasst; weder die Abhebung wird erneut noch der im Zufluss enthaltene Lohn von 2.000 EUR zusätzlich gezählt. Die Weiterleitung von 38.000 EUR beseitigt das vorherige Erlangen nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Tat 2 wird anhand konkret fehlender eigenständiger Verfügung geprüft; bloße Beteiligung trägt die 20.000 EUR nicht, während der gesonderte Lohn von 300 EUR erfasst wird. Kurzzeitigkeit allein wird nicht als universeller Ausschlussgrund formuliert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die begründete Gegenrechnung beträgt auf dieser Beleglage 35.300 EUR nach der nachgewiesenen Rückzahlung von 5.000 EUR; sie zieht die nur gepfändeten 3.000 EUR nicht als erloschenen Anspruch ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Der Entwurf differenziert Arrestbetrag und vollzogene Sicherung sowie Verdachtsmaßstab und endgültige Einziehung; er verlangt nachvollziehbare Korrektur oder Begrenzung, ohne tatsächliche Aufhebung, Rückzahlung oder abgesandte Beschwerde zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "einziehung-geldfluss-mitverfuegung-arrestabgleich"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-strafrecht/fachanwalt-strafrecht-hauptproblem.md",
+      "fachanwalt-strafrecht/fachanwalt-strafrecht-schnellstart.md",
+      "fachanwalt-strafrecht/fachanwalt-strafrecht-werkstatt.md",
+      "fachanwalt-strafrecht/skills/einziehung-geldfluss-mitverfuegung-arrestabgleich/SKILL.md",
+      "fachanwalt-strafrecht/skills/juristischer-argumentationskern/SKILL.md"
+    ],
+    "opening_change": "Tatnachweis, rechtlichen Einwand und günstigere Rechtsfolge vom konkreten Aktenvorwurf aus unterscheiden; im Hauptproblem persönliche Verfügung statt Gesamtschadenzurechnung. Workflow-Ergänzung: Leer: Tatvorwurfsprüfung, Eingriffsabwehr oder Einziehungsgegenrechnung anbieten. Dateien ohne Aufgabe: Ermittlungsakte, Chatkontext und Arrestmaterial still erschließen; Verteidigungsziel klären, weder Aktenbericht noch Einlassung ausgeben. Klarer Auftrag: bestellten Vermerk oder Antrag unmittelbar ausarbeiten; Einlassung und externe Verwendung gesondert freigeben.",
+    "norms": [
+      "Paragrafen 73, 73c, 73e und 266 StGB",
+      "Paragrafen 32a, 32d, 111e, 136, 147, 243 Absatz 4, 244 Absatz 2, 257c, 273 Absatz 1a, 302, 410, 411, 341 und 345 StPO",
+      "Paragrafen 176 bis 178 GVG",
+      "Paragrafen 14 und 97 Absatz 1 InsO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 15.05.2025, 6 StR 546/24, Randnummern 14 bis 18",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2024/6_StR_546-24.pdf?__blob=publicationFile&v=1",
+        "application": "Persönlichen Zugriff bei weisungsgebundenem Abholer unter Kontrolle anderer prüfen; Mittäterschaft und transitorischer Besitz begründen nicht die Einziehung der gesamten Beute, Tatlohn gesondert.",
+        "limit": "Tatsächlich erlangte Verfügungsmacht entfällt nicht durch spätere Weiterleitung; keine allgemeine Begrenzung auf behaltenen Gewinn."
+      },
+      {
+        "citation": "BGH, Beschluss vom 04.08.2026 – 6 StR 160/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2026/6_StR_160-26.pdf?__blob=publicationFile&v=1",
+        "application": "Sicherstellung widerspricht behauptetem Verkauf; gegenständliche Einziehung bei fortbestehender Beute von Erlöschen nach Rückgabe unterscheiden.",
+        "limit": "Konkrete revisionsgerichtliche Kürzung nicht auf sämtliche Sicherstellungen/Arrestbeträge übertragen.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BVerfG, Urteil vom 19.03.2013, 2 BvR 2628/10, Randnummern 68 bis 71 und 84 bis 93",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/03/rs20130319_2bvr262810.html",
+        "application": "Verständigungsbezogene Gespräche auch ohne Einigung erfassen und mitteilen; Schöffen beteiligen, Geständnis durch Beweiserhebung in der Hauptverhandlung überprüfen; staatsanwaltschaftliche Kontrollverantwortung beachten.",
+        "limit": "Reine Terminabsprachen nicht erfasst; kein generelles Verständigungsverbot und nicht jeder Fehler automatisch absoluter Revisionsgrund."
+      },
+      {
+        "citation": "BGH, Urteil vom 08.01.2026 – 3 StR 203/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2025/3_StR_203-25.pdf?__blob=publicationFile&v=1",
+        "application": "Einvernehmliche Beutelagerung mit tatsächlichem freien Zugriff kann Mitverfügung begründen, ohne ausdrückliche Abrede aller Hinterleute.",
+        "limit": "Weder Mittäterschaft noch Wohnungsinhaberschaft allein ersetzen tatsächliche Verfügung; spätere Weiterleitung beseitigt Erlangen nicht.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html",
+        "application": "Tatsächliche Mitnutzung nach §102 StPO von allein genutzten Räumen Nichtverdächtiger nach §103 StPO abgrenzen; dort konkrete Auffindeindizien verlangen.",
+        "limit": "Gemeinsame Anschrift, Briefkasten, Wohnprojektetikett und bloß möglicher Zutritt reichen nicht. Keine generelle Unzulässigkeit von WG-Durchsuchungen, kein automatisches Verwertungsverbot."
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 14.01.2026 – 1 BvR 1409/25, Rn. 7–17",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/01/rk20260114_1bvr140925.html",
+        "application": "Umgrenzungsfunktion anhand Gesamtschau vom eigenständigen Verhältnismäßigkeitsgebot trennen; Rechtsbehelfe der Gesellschaft und Geschäftsführerin unterscheiden.",
+        "limit": "Fehlender ausdrücklicher Tatzeitraum nicht stets fatal; entschiedener kurzer Betriebszeitraum und konkret getragener Verdacht. Verhältnismäßigkeit mangels Rüge nicht vertieft entschieden."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Primärquellenreview, kein Live-Client- oder Modelltest.",
+      "Fokus-Skill vollständig gelesen und inhaltlich unverändert passend; nur Hauptproblem-Prompt präzisiert.",
+      "EUR-Lex-Vorschlagsseite durch Abrufschutz nicht inhaltlich zugänglich; kein aktueller Verfahrens- oder Gesetzgebungsstand behauptet.",
+      "Keine Vollverifikation sämtlicher Aussage-, Nebenstrafrechts- oder Eingriffsfragen.",
+      "Workflow-Review 23.09.2026: Paragraf 410 StPO erneut eingesehen; vorhandene Einziehungs- und Verständigungsentscheidungen mit ihren Grenzen erhalten. Keine neue Aussagepsychologie- oder Erhebungsrechtsprechung behauptet.",
+      "Enger Quellenabgleich 01.10.2026: 3 StR 203/25 als konkretes Gegenbeispiel zum pauschalen Einwand einer Ablieferungspflicht in Einziehungsprüfung, Fokus, Werkstatt und Mini eingebunden. Ältere Anker nicht erneut als gelesen bestätigt; keine Vollprüfung aller Skills, kein Live-Modelltest."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Tatvorwurfsprüfung, Eingriffsabwehr oder Einziehungsgegenrechnung anbieten.",
+      "Dateien ohne Aufgabe: Ermittlungsakte, Chatkontext und Arrestmaterial still erschließen; Verteidigungsziel klären, weder Aktenbericht noch Einlassung ausgeben.",
+      "Klarer Auftrag: bestellten Vermerk oder Antrag unmittelbar ausarbeiten; Einlassung und externe Verwendung gesondert freigeben."
+    ],
+    "continuation": "Gegenstand ist noch sichergestellt statt zurückgegeben oder veräußert -> Einziehungsart, Gegenrechnung und Antrag ändern; ergänzter Chatkontext -> belastende und entlastende Schlussfolgerungen neu bewerten.",
+    "enrichment": "Digitale Zuordnung und konkrete Gegenhypothese, Beweistatsache gegenüber Ermittlungsfrage, persönliche Verfügungsmacht, Asservat gegenüber Rückführung, tatsächliche Arrestbindung sowie Strafbefehlseinspruch und vollständiger Rügevortrag.",
+    "limits": "desk review; no live client execution"
+  },
+  "fachanwaltschaft_source_review_2026_10_01": {
+    "method": "targeted_official_source_and_prompt_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-strafrecht.json",
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 08.01.2026 – 3 StR 203/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2025/3_StR_203-25.pdf?__blob=publicationFile&v=1",
+        "passages": "Rn. 7–13 frisch; Rn. 14–15 aus Vorprüfung übernommen",
+        "retrieval": "amtlicher Volltext, ausgewählte Gründe frisch gelesen",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BGH, Beschluss vom 04.08.2026 – 6 StR 160/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2026/6_StR_160-26.pdf?__blob=publicationFile&v=1",
+        "passages": "Tenor und Rn. 1–6, vollständiger Beschluss",
+        "retrieval": "amtlicher Volltext, ausgewählte Gründe frisch gelesen",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "focus_scope": "Hauptproblem Einziehung enthält beide frisch nachgelesenen Entscheidungen bereits mit Datum, Aktenzeichen und amtlichem Direktlink. Inhalt unverändert; neue Konkretisierung im Werkstatt- und Einziehungsskill sowie fehlenden Sachbeuteanker im Mini ergänzt.",
+    "new_model_tests": false
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "fachanwalt-strafrecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Rekonstruieren Sie Eingangsdaten, Softwareversion, Selektionsregeln und konkrete menschliche Prüfung. Ein Modellsignal beweist weder Täterschaft noch die Zulässigkeit der Datenauswertung.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

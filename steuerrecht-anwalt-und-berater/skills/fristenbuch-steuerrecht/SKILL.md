@@ -1,6 +1,6 @@
 ---
 name: fristenbuch-steuerrecht
-description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fristenbuch Steuerrecht; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Fristenbuch Steuerrecht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: fristenbuch-steuerrecht."
 ---
 
 # Fristenbuch Steuerrecht
@@ -18,10 +18,6 @@ description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberate
 3. Fehlt die Rechtsbehelfsbelehrung oder ist sie fehlerhaft? → Jahresfrist (§ 356 AO), aber nicht warten — so früh wie möglich handeln
 4. Liegt bereits Fristversäumnis vor? → Wiedereinsetzung § 110 AO prüfen (Frist ein Monat nach Wegfall des Hindernisses)
 5. Besteht Festsetzungsverjährungs-Problematik (§ 169 AO)? → Ablaufhemmung prüfen (§ 171 AO)
-
-## Aktuelle Rechtsprechung (Fristen)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentralablage
 
@@ -125,3 +121,4 @@ description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberate
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

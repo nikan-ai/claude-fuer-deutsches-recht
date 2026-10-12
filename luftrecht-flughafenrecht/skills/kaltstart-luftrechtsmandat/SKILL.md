@@ -1,6 +1,6 @@
 ---
 name: kaltstart-luftrechtsmandat
-description: "Wenn es um Kaltstart Luftrechtsmandat – Ersteinschätzung und Weichenstellung in Luftrecht und Flughafenrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart Luftrechtsmandat – Ersteinschätzung und Weichenstellung: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kaltstart Luftrechtsmandat – Ersteinschätzung und Weichenstellung
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Mandantenfall
 
@@ -50,7 +48,7 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 1. Ist das Luftfahrzeug in der deutschen Luftfahrzeugrolle eingetragen (LuftVG § 64)?
 2. Welche Behörde hat den streitigen Bescheid erlassen – LBA oder Landesbehörde?
 3. Läuft Widerspruchs- oder Klagefrist? Eilantrag nach § 80 Abs. 5 VwGO nötig?
-4. Ist ein internationales Sicherungsinteresse im ICAO-Register eingetragen?
+4. Ist ein internationales Sicherungsinteresse im International Registry eingetragen?
 5. Besteht Insolvenzgefahr der beteiligten Airline (EU-VO 1008/2008 Art. 9)?
 6. Greifen EU-261/2004 oder Montrealer Übereinkommen für Passagieransprüche?
 
@@ -85,7 +83,7 @@ Für Mandate im Bereich Luftrecht sind folgende Dokumente regelmäßig anzuforde
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

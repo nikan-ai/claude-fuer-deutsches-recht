@@ -1,6 +1,6 @@
 ---
 name: transparenz-mandanten-urheberrecht
-description: "Wenn es um Transparenz gegenüber Mandanten in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Transparenz gegenüber Mandanten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Transparenz gegenüber Mandanten
@@ -23,7 +23,7 @@ Wenn eine Kanzlei KI-Systeme zur Bearbeitung von Mandaten einsetzt, entstehen In
 
 ## Rechtlicher Hintergrund
 
-Art. 13 DSGVO: Informationspflicht bei der Erhebung personenbezogener Daten — der Verantwortliche muss über Empfänger (auch Auftragsverarbeiter) informieren, was KI-Anbieter als Auftragsverarbeiter einschließt. Art. 6 Abs. 1 lit. a DSGVO: Einwilligung als Rechtsgrundlage — optional, schafft aber Vertrauen. Art. 14 DSGVO: Informationspflicht, wenn Daten nicht direkt beim Betroffenen erhoben werden. Art. 46 DSGVO: Information über Drittlandtransfer. § 43a Abs. 2 BRAO: Verschwiegenheit — Mandanten müssen verstehen, dass ihre Daten an Dritte weitergegeben werden, wenn keine Anonymisierung erfolgt. § 43e BRAO: Transparenz über Dienstleister-Verhältnis. Art. 50 Abs. 4 KI-VO: Transparenzpflicht bei öffentlichen Informationstexten.
+Art. 13 DSGVO: Informationspflicht bei der Erhebung personenbezogener Daten — der Verantwortliche muss über Empfänger (auch Auftragsverarbeiter) informieren, was KI-Anbieter als Auftragsverarbeiter einschließt. Art. 6 Abs. 1 lit. a DSGVO: Einwilligung als Rechtsgrundlage — optional, schafft aber Vertrauen. Art. 14 DSGVO: Informationspflicht, wenn Daten nicht direkt beim Betroffenen erhoben werden. Art. 46 DSGVO: Information über Drittlandtransfer. § 43a Abs. 2 BRAO: Verschwiegenheit — Mandanten müssen verstehen, dass ihre Daten an Dritte weitergegeben werden, wenn keine Anonymisierung erfolgt. § 43e BRAO: Transparenz über Dienstleister-Verhältnis. Artikel 50 Absatz 4 KI-Verordnung: Veröffentlichung zu Angelegenheiten öffentlichen Interesses und Voraussetzungen der dortigen redaktionellen Ausnahme prüfen; keine allgemeine Kennzeichnungspflicht für jeden internen Mandantenbrief.
 
 ## Vorlagentext / Bausteine
 
@@ -39,9 +39,6 @@ Soweit wir KI-Dienste von Anbietern außerhalb des Europäischen Wirtschaftsraum
 ## Hinweise zur Aktualisierung
 
 Die Transparenzpflichten sind bei jedem Wechsel des KI-Anbieters und bei jeder Änderung des Drittlandtransfer-Rahmens anzupassen. Die Datenschutzerklärung der Kanzlei muss entsprechend aktualisiert und Mandanten über wesentliche Änderungen informiert werden.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - Art. 13 Abs. 1 lit. f DSGVO — Information über automatisierte Entscheidungsfindung bei Ersterhebung
@@ -90,3 +87,5 @@ Bei Fragen wenden Sie sich an: [ANSPRECHPARTNER], [EMAIL]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

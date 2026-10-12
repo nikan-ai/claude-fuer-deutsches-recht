@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "plugin": "fachanwalt-versicherungsrecht",
+  "reviewed_on": "2026-09-30",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/vvg_2008/__172.html",
+      "checked_on": "2026-09-14",
+      "supports": "Zuletzt gesund ausgeübter Beruf und Möglichkeit vertraglicher Verweisungsregeln; Normtext geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vvg_2008/__28.html",
+      "checked_on": "2026-09-14",
+      "supports": "Differenzierte Rechtsfolgen und Beweislast bei vertraglichen Obliegenheiten; insbesondere fehlende grobe Fahrlässigkeit und Kausalitätsgegenbeweis."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2015/IV_ZR_535-15.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 19.07.2017, Az. IV ZR 535/15: amtlich indexierten Leitsatz zur untrennbaren Teilhandlung eines Gesamtvorgangs geprüft. Direkter Volltextabruf gescheitert, keine Randnummern verwendet."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vvg_2008/__172.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur Prüfung: Paragraf 172 VVG; Paragraf 28 VVG; Paragraf 81 Absatz 2 VVG. Keine Gesamtverifikation sämtlicher Nebenmaterien."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2015/IV_ZR_535-15.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 19.07.2017, IV ZR 535/15: Zeitanteil einer nicht mehr möglichen Teilhandlung nicht isolieren, wenn diese untrennbarer Bestandteil eines beruflichen Gesamtvorgangs ist. Grenze/Prüftiefe: Amtlicher Leitsatz gelesen, Volltextabruf gescheitert; kein automatischer Vollbeweis bedingungsgemäßer Berufsunfähigkeit."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2010/IV_ZR_225-10.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 22.06.2011, IV ZR 225/10: Bei besonders schwerer grober Fahrlässigkeit kann Paragraf 81 Absatz 2 VVG ausnahmsweise vollständige Kürzung tragen. Grenze/Prüftiefe: Amtlicher Leitsatz; Alkohol-Fahruntüchtigkeit individuell würdigen, nicht auf jede verspätete Auskunft übertragen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vvg_2008/__15.html",
+      "supports": "Erneuter Normabruf: Hemmung zwischen Anspruchsanmeldung und Zugang der Entscheidung in Textform; Zwischenfrage und endgültige Entscheidung unterscheiden.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR_259-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Urteil vom 09.09.2026, IV ZR 259/25: Klausel zu Schäden durch Leckage infolge Gebäudereparaturen auf Wortlaut, Gebäudezusammenhang, Erheblichkeit und Ursache prüfen. Grenze: Wirksamkeit nur dieser Klausel; Bedeutung der Leckage als technischer Defekt blieb offen, kein allgemeiner Ausschluss jedes Wasserschadens bei Bauarbeiten. Gelesen: Entscheidungskopf, Rn. 10–24; tragend Rn. 12–24",
+      "source_sha256": "d510e6ec205b9dac2f53b31931696a580c637404d210657212c6a10b9c401f73",
+      "verification_status": "frisch_amtlicher_volltext_passagen",
+      "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-versicherungsrecht.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__41-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Beschluss vom 28.01.2026, IV ZR 41/25: Unbekannte PKV-Kalkulationsgrundlagen grundsätzlich mit Nichtwissen bestreitbar; Versicherer trägt Beweis erhöhter Prämie auch bei Rückforderung. Grenze: Zusätzliche Beitragslimitierung nach Paragraf 155 Absatz 2 VAG hat andere Lastverteilung; nach Sachverständigenbeweis konkrete Einwendungen prüfen. Gelesen: Entscheidungskopf, Rn. 10–18 und 20",
+      "source_sha256": "5eda64b3c356589336a5a05ce87a4aa2c189d40b1f3a5802897b6044763433ae",
+      "verification_status": "frisch_amtlicher_volltext_passagen",
+      "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-versicherungsrecht.json"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Schnellstart vollständig individuell gelesen und überarbeitet: Police, Ablehnung und konkrete Berufsanforderungen mit Befunden abgleichen. Werkstatt nach Deckung, Obliegenheit, Berufsunfähigkeit und Regress neu gegliedert; Hauptproblem verbindet untrennbare Teilhandlungen mit konkretem Arbeitsergebnis. Redaktionelle Quellenprüfung, kein Live-Modelltest. Workflow-Ergänzung einzeln geprüft: Dauerhafte Transporthilfe steht erst seit Juni bereit -> Tätigkeitsabschnitte und Rentenmonate ändern, nicht den gesunden Ausgangsberuf rückwirkend ersetzen. Gezielte Ergänzung im zweiten Durchgang am 30.09.2026; keine erneute Vollprüfung aller Altanker. Gezielte Fachanwalts-Aktualisierung 01.10.2026: PKV-Kalkulationsbeweis 2026 direkt verlinkt und in PKV-Skill ergänzt; konkreter Reparaturausschluss im Mini und Gebäudeskill. Kein neuer Live-Modelltest.",
+    "changes": [
+      "Werkstatt nach Deckung, Obliegenheit, Berufsunfähigkeit und Regress neu gegliedert; Hauptproblem verbindet untrennbare Teilhandlungen mit konkretem Arbeitsergebnis.",
+      "Kernfall mit operativem Entscheidungsanker, gezielten Nachfragen und Fortsetzung zum vollständigen angeforderten Dokument.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Zweiter Durchgang 30.09.2026: PKV-Kalkulation und Beitragslimitierung nach IV ZR 41/25 getrennt; Werkstatt zusätzlich um die begrenzte Ausschlussprüfung nach IV ZR 259/25 ergänzt.",
+      "PKV-Kalkulationsbeweis 2026 direkt verlinkt und in PKV-Skill ergänzt; konkreter Reparaturausschluss im Mini und Gebäudeskill."
+    ],
+    "sha256": "f8224d9ad81d30dc723fb036fe06b8a98b83cad91e6084d39e03d8c442645654",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem-Prompt und zugeordneter Skill vollständig gelesen. Werkstatt nach Deckung, Obliegenheit, Berufsunfähigkeit und Regress neu gegliedert; Hauptproblem verbindet untrennbare Teilhandlungen mit konkretem Arbeitsergebnis. Skill unverändert, da mit dem präzisierten Prompt vereinbar. Quellenprüfung im dokumentierten Umfang, kein Live-Modelltest. Workflow-Ergänzung: Dauerhafte Transporthilfe steht erst seit Juni bereit -> Tätigkeitsabschnitte und Rentenmonate ändern, nicht den gesunden Ausgangsberuf rückwirkend ersetzen. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen.",
+    "changes": [
+      "Werkstatt nach Deckung, Obliegenheit, Berufsunfähigkeit und Regress neu gegliedert; Hauptproblem verbindet untrennbare Teilhandlungen mit konkretem Arbeitsergebnis.",
+      "Konkreten Einstieg und Anwendung samt Grenzen des Entscheidungsankers im Hauptproblem ergänzt; zugeordneten Skill unverändert gelassen.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-versicherungsrecht/fachanwalt-versicherungsrecht-hauptproblem.md",
+    "prompt_sha256": "af863f9b895d56af7917f29d52b7c9a2bf1648b7fb7e2c65e64d6e4b5ab5a80d",
+    "skill_path": "fachanwalt-versicherungsrecht/skills/bu-praegende-taetigkeiten-befundabgleich/SKILL.md",
+    "skill_sha256": "b5589b4b95633e129ad16295c77df7d47b34fbaa73536b073d4dc4a11c401c06"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig individuell gelesen und überarbeitet: Police, Ablehnung und konkrete Berufsanforderungen mit Befunden abgleichen. Werkstatt nach Deckung, Obliegenheit, Berufsunfähigkeit und Regress neu gegliedert; Hauptproblem verbindet untrennbare Teilhandlungen mit konkretem Arbeitsergebnis. Redaktionelle Quellenprüfung, kein Live-Modelltest. Workflow-Ergänzung einzeln geprüft: Nachtragsgeltung und konkrete Gesundheitsfrage, damalige Kenntnis statt späterer Diagnose, Kausalitätsgegenbeweis, tatsächliche Arbeitsketten, bedingte Rentenrechnung, Sachschadenposition und zugangsbezogene Verjährungshemmung. Gezielte Ergänzung im zweiten Durchgang am 30.09.2026; keine erneute Vollprüfung aller Altanker.",
+    "changes": [
+      "Werkstatt nach Deckung, Obliegenheit, Berufsunfähigkeit und Regress neu gegliedert; Hauptproblem verbindet untrennbare Teilhandlungen mit konkretem Arbeitsergebnis.",
+      "Vorhandene Fachzweige, Beispiele und Zugriffsalternativen erhalten; schwache Rechtsprechungshinweise entfernt oder auf belegte Reichweite begrenzt.",
+      "Nachtragsgeltung und konkrete Gesundheitsfrage, damalige Kenntnis statt späterer Diagnose, Kausalitätsgegenbeweis, tatsächliche Arbeitsketten, bedingte Rentenrechnung, Sachschadenposition und zugangsbezogene Verjährungshemmung.",
+      "Zweiter Durchgang 30.09.2026: PKV-Kalkulation und Beitragslimitierung nach IV ZR 41/25 getrennt; Werkstatt zusätzlich um die begrenzte Ausschlussprüfung nach IV ZR 259/25 ergänzt."
+    ],
+    "sha256": "bf4315755be5dd64905aea6c997fe8cd13c3de7b57b29e2b8fc19de99462f4d9",
+    "reviewed_on": "2026-09-30"
+  },
+  "selection": {
+    "positive": [
+      "Der Versicherer zählt nur die ausgefallenen Arbeitsstunden. Prüfen Sie, ob ein nicht mehr möglicher Aufbau den gesamten Arbeitsvorgang prägt.",
+      "Ordnen Sie meine letzte gesunde Berufsbeschreibung den Funktionsbefunden zu und berechnen Sie die rückständige BU-Rente."
+    ],
+    "negative": [
+      "Beantragen Sie eine gesetzliche Erwerbsminderungsrente wegen meiner Diagnosen.",
+      "Der Versicherer stellt eine anerkannte BU-Rente nach einer Nachprüfung ein; prüfen Sie nur die Einstellungsmitteilung."
+    ],
+    "target_skill": "bu-praegende-taetigkeiten-befundabgleich"
+  },
+  "cases": [
+    {
+      "id": "alleinkoch-warentransport-gesamtvorgang",
+      "request": "Wir vertreten einen angestellten Alleinkoch eines kleinen Betriebsrestaurants in der privaten BU-Erstleistungsprüfung. Seine letzte gesunde 40-Stunden-Woche bestand laut Arbeitsvertrag, Kalender und Arbeitgeberbestätigung aus acht Stunden Einkauf und Transport schwerer Lebensmittelgebinde, 16 Stunden Vorbereitung, acht Stunden Kochen und Ausgabe sowie acht Stunden Planung und Abrechnung. Die Waren müssen aus dem externen Lager über eine Treppe in die Küche gebracht werden; der Arbeitgeber bestätigt, dass kein anderer Mitarbeiter hierfür verfügbar und keine technische Transporthilfe vorhanden ist. Seit dem 12.02.2026 darf der Versicherte laut kardiologischem Befund keine Lasten über fünf Kilogramm tragen. Sitzen, leichte Vorbereitung und administrative Arbeit sind möglich. Der Befund prognostiziert am 20.02.2026 eine mindestens zwölfmonatige Einschränkung, äußert sich aber nicht zur organisatorischen Ausführbarkeit des gesamten Berufs. Die Police verlangt mindestens hälftige Berufsunfähigkeit für voraussichtlich sechs Monate, verzichtet auf abstrakte Verweisung und gewährt bei Nachweis Rente ab dem ersten Tag des Folgemonats des Eintritts; keine Karenz, keine Dynamik. Monatliche Rente 2000 EUR. Der Versicherte arbeitet nicht in einem anderen Beruf. Der Versicherer lehnt am 01.09.2026 ab, weil nur acht von 40 Stunden entfallen. Er erhebt keine weiteren Einwände. Für März bis einschließlich August wurde nichts gezahlt. Erstellen Sie zum Stand 14.09.2026 ein Beweismemo und eine Erwiderung einschließlich einer nur für diese sechs Monate bedingt zu beziffernden Rentenforderung. Beitragsbefreiung und Zinsen sind nicht beauftragt; nichts versenden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Stunden werden widerspruchsfrei zu 40 summiert und der reine Zeitanteil von 20 Prozent als Kontrollwert ausgewiesen, aber nicht allein als Ablehnungsgrund übernommen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die mögliche Abhängigkeit von Vorbereitung, Kochen und Ausgabe vom Warentransport wird konkret untersucht; zugleich wird aus dem Transportverbot nicht automatisch vollständige BU abgeleitet und der zusätzliche funktionell-organisatorische Beweisbedarf benannt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bei unterstelltem Nachweis des BU-Eintritts werden März bis August mit sechs mal 2000 EUR gleich 12000 EUR berechnet; weder Februar noch Zukunftsmonate werden einbezogen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Der Verweisungsverzicht wird aus der gegebenen Police hergeleitet und nicht als gesetzlich allgemeines Verbot abstrakter Verweisung dargestellt; Diagnose und Arbeitsunfähigkeit werden nicht mit BU gleichgesetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "bu-praegende-taetigkeiten-befundabgleich"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-versicherungsrecht/README.md",
+      "fachanwalt-versicherungsrecht/fachanwalt-versicherungsrecht-hauptproblem.md",
+      "fachanwalt-versicherungsrecht/fachanwalt-versicherungsrecht-werkstatt.md",
+      "fachanwalt-versicherungsrecht/fachanwalt-versicherungsrecht-schnellstart.md",
+      "fachanwalt-versicherungsrecht/skills/bu-praegende-taetigkeiten-befundabgleich/SKILL.md",
+      "quality/evals/fachanwalt-versicherungsrecht.json",
+      "fachanwalt-versicherungsrecht/skills/gebaeudeversicherung-paragraf-86-vvg/SKILL.md",
+      "fachanwalt-versicherungsrecht/skills/versr-pkv-beitragsanpassung-medizinische-notwendigkeit/SKILL.md"
+    ],
+    "opening_change": "Police, Ablehnung und konkrete Berufsanforderungen mit Befunden abgleichen Workflow-Ergänzung: Leer: Deckungsforderung, BU-Erwiderung oder Obliegenheitsabwehr anbieten. Dateien ohne Aufgabe: Police, Ablehnung und Befunde still lesen; Leistungs- oder Abwehrziel klären, kein automatisches Deckungsvotum. Klarer Auftrag: Anspruchsschreiben, Bewertung oder Erwiderung unmittelbar ausarbeiten; bekannte Tarif- und Berufsdaten übernehmen.",
+    "norms": [
+      "Paragraf 172 VVG",
+      "Paragraf 28 VVG",
+      "Paragraf 81 Absatz 2 VVG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 19.07.2017, IV ZR 535/15",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2015/IV_ZR_535-15.pdf?__blob=publicationFile&v=1",
+        "application": "Zeitanteil einer nicht mehr möglichen Teilhandlung nicht isolieren, wenn diese untrennbarer Bestandteil eines beruflichen Gesamtvorgangs ist.",
+        "limit": "Amtlicher Leitsatz gelesen, Volltextabruf gescheitert; kein automatischer Vollbeweis bedingungsgemäßer Berufsunfähigkeit.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Urteil vom 22.06.2011, IV ZR 225/10",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2010/IV_ZR_225-10.pdf?__blob=publicationFile&v=1",
+        "application": "Bei besonders schwerer grober Fahrlässigkeit kann Paragraf 81 Absatz 2 VVG ausnahmsweise vollständige Kürzung tragen.",
+        "limit": "Amtlicher Leitsatz; Alkohol-Fahruntüchtigkeit individuell würdigen, nicht auf jede verspätete Auskunft übertragen.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Urteil vom 09.09.2026, IV ZR 259/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR_259-25.pdf?__blob=publicationFile&v=1",
+        "application": "Klausel zu Schäden durch Leckage infolge Gebäudereparaturen auf Wortlaut, Gebäudezusammenhang, Erheblichkeit und Ursache prüfen.",
+        "limit": "Wirksamkeit nur dieser Klausel; Bedeutung der Leckage als technischer Defekt blieb offen, kein allgemeiner Ausschluss jedes Wasserschadens bei Bauarbeiten.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_amtlicher_volltext_passagen",
+        "passages_read": "Entscheidungskopf, Rn. 10–24; tragend Rn. 12–24",
+        "previous_review": "quality/source-audits/2026-09-30-zweiter-durchgang/vertraege-versicherung.md",
+        "source_sha256": "d510e6ec205b9dac2f53b31931696a580c637404d210657212c6a10b9c401f73",
+        "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-versicherungsrecht.json",
+        "previous_verification": {
+          "checked_on": "2026-09-30",
+          "verification_status": "wiederverwendeter_passagennachweis",
+          "previous_review": "quality/source-audits/2026-09-30-zweiter-durchgang/vertraege-versicherung.md"
+        }
+      },
+      {
+        "citation": "BGH, Beschluss vom 28.01.2026, IV ZR 41/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__41-25.pdf?__blob=publicationFile&v=1",
+        "application": "Unbekannte PKV-Kalkulationsgrundlagen grundsätzlich mit Nichtwissen bestreitbar; Versicherer trägt Beweis erhöhter Prämie auch bei Rückforderung.",
+        "limit": "Zusätzliche Beitragslimitierung nach Paragraf 155 Absatz 2 VAG hat andere Lastverteilung; nach Sachverständigenbeweis konkrete Einwendungen prüfen.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_amtlicher_volltext_passagen",
+        "passages_read": "Entscheidungskopf, Rn. 10–18 und 20",
+        "previous_review": "quality/source-audits/2026-09-30-zweiter-durchgang/vertraege-versicherung.md",
+        "source_sha256": "5eda64b3c356589336a5a05ce87a4aa2c189d40b1f3a5802897b6044763433ae",
+        "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-versicherungsrecht.json",
+        "previous_verification": {
+          "checked_on": "2026-09-30",
+          "verification_status": "wiederverwendeter_passagennachweis",
+          "previous_review": "quality/source-audits/2026-09-30-zweiter-durchgang/vertraege-versicherung.md"
+        }
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung, kein Live-Client- oder Modelltest; übrige Fachzweige nicht vollständig rechtlich neu verifiziert.",
+      "Amtlicher Leitsatz gelesen, Volltextabruf gescheitert; kein automatischer Vollbeweis bedingungsgemäßer Berufsunfähigkeit.",
+      "Workflow-Review 23.09.2026: Paragraf 15 VVG erneut eingesehen. Beide vorhandenen BGH-Anker bleiben auf amtliche Leitsätze begrenzt; kein neuer Volltextabruf oder medizinischer Vollbeweis behauptet.",
+      "Fachanwaltsaktualisierung 01.10.2026: zwei ausgewählte aktuelle Entscheidungen frisch im amtlichen Volltext passagenbezogen geprüft; keine Gesamtneuverifikation aller Altanker oder neuen Modelltests. Hauptproblem betrifft BU aus Tätigkeit/Funktionsbefund. PKV-Kalkulation und Sprinklerausschluss tragen diesen Beweis nicht; die BU-Anker bleiben fachlich unvermischt."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Deckungsforderung, BU-Erwiderung oder Obliegenheitsabwehr anbieten.",
+      "Dateien ohne Aufgabe: Police, Ablehnung und Befunde still lesen; Leistungs- oder Abwehrziel klären, kein automatisches Deckungsvotum.",
+      "Klarer Auftrag: Anspruchsschreiben, Bewertung oder Erwiderung unmittelbar ausarbeiten; bekannte Tarif- und Berufsdaten übernehmen."
+    ],
+    "continuation": "Dauerhafte Transporthilfe steht erst seit Juni bereit -> Tätigkeitsabschnitte und Rentenmonate ändern, nicht den gesunden Ausgangsberuf rückwirkend ersetzen.",
+    "enrichment": "Nachtragsgeltung und konkrete Gesundheitsfrage, damalige Kenntnis statt späterer Diagnose, Kausalitätsgegenbeweis, tatsächliche Arbeitsketten, bedingte Rentenrechnung, Sachschadenposition und zugangsbezogene Verjährungshemmung.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-7-19&Gericht=bgh&anz=22&nr=79199&pos=7",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2015/IV_ZR_535-15.pdf?__blob=publicationFile&v=1",
+        "sha256": "f5d4ed65bbd67e1e893e0269f93f43d850f829347dbd44e7b5bebcc974c67578"
+      },
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2011-6&Gericht=bgh&file=dokument.pdf&linked=urt&nr=57104",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2010/IV_ZR_225-10.pdf?__blob=publicationFile&v=1",
+        "sha256": "623a495b96b385bd2dccac21be602602ad3273ff431ecf1c676712a112486045"
+      }
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 09.09.2026, IV ZR 259/25",
+        "status": "wiederverwendeter_passagennachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 28.01.2026, IV ZR 41/25",
+        "status": "wiederverwendeter_passagennachweis"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-versicherungsrecht.json",
+    "scope": "Zwei ausgewählte aktuelle Entscheidungen, amtlicher Volltext und operative Prompt-/Skillanwendung; keine pauschale Gesamtprüfung.",
+    "decisions": [
+      "BGH, Beschluss vom 28.01.2026, IV ZR 41/25",
+      "BGH, Urteil vom 09.09.2026, IV ZR 259/25"
+    ],
+    "new_model_test": false
+  }
+}

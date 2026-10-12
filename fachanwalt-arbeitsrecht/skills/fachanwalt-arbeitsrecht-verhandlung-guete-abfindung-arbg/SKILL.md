@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-arbeitsrecht-verhandlung-guete-abfindung-arbg
-description: "Wenn es um Güte-Verhandlung Arbeitsgericht / Abfindungs-Vergleich in Fachanwalt Arbeitsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Güte-Verhandlung Arbeitsgericht / Abfindungs-Vergleich: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Güte-Verhandlung Arbeitsgericht / Abfindungs-Vergleich
@@ -29,10 +29,6 @@ Arbeitsrechtliche Vergleichsverhandlung im Güte-Verfahren Paragraf 54 ArbGG (ca
 - **DurchführungsAnweisungen BA** zur Faustformel (0,5 Brutto/Beschäft.-Jahr)
 - **Paragraf 1 TVG** — Tarifliche Abfindungsregelungen
 - **Paragraf 779 BGB** — Vergleich
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Kommunikations-/Verhandlungs-Pfade
 
@@ -157,3 +153,5 @@ Vergleichs- und abfindungsrelevante Leitentscheidungen:
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

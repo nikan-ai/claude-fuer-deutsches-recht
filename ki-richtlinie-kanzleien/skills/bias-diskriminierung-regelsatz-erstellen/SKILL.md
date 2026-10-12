@@ -1,6 +1,6 @@
 ---
 name: bias-diskriminierung-regelsatz-erstellen
-description: "Wenn es um Bias und Diskriminierung Prüfung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Bias und Diskriminierung Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bias und Diskriminierung Prüfung
@@ -19,7 +19,7 @@ KI-Systeme werden auf Basis großer Textmengen trainiert, die Verzerrungen und g
 
 ## Rechtlicher Hintergrund
 
-§§ 1, 7 AGG (Allgemeines Gleichbehandlungsgesetz): Diskriminierungsverbot aufgrund von Rasse, Geschlecht, Religion, Behinderung, Alter oder sexueller Identität — gilt für Beschäftigung und privatrechtliche Verträge, damit auch für Mandatsbeziehungen. Art. 9 DSGVO: Besonders sensible Datenkategorien — rassische/ethnische Herkunft, religiöse Überzeugungen etc. — dürfen nicht Grundlage von Entscheidungen sein. Art. 10 Abs. 5 KI-VO: Hochrisiko-KI-Systeme müssen auf Bias geprüft werden; für Kanzleien gilt dies indirekt beim Einsatz von KI im Personalwesen (Anhang III Nr. 4). Art. 22 DSGVO: Keine ausschließlich automatisierten Entscheidungen mit diskriminierender Wirkung. BAG-Rechtsprechung zum AGG: Der Nachweis einer Benachteiligung kann durch statistische Indizien erbracht werden.
+Paragrafen 1 und 7 AGG im Beschäftigungskontext, Paragrafen 19 und 20 AGG im jeweils erfassten zivilrechtlichen Anwendungsbereich prüfen. Artikel 9 der Datenschutz-Grundverordnung regelt ein Verarbeitungsverbot mit Ausnahmen, kein pauschales Verbot jeder Entscheidung unter Berücksichtigung sensibler Daten. Artikel 4a der Verordnung (EU) 2024/1689 in der Fassung 2026/1744 ersetzt Artikel 10 Absatz 5 für Bias-Daten: Rolle, strikte Notwendigkeit, fehlende gleich wirksame Alternativen und sämtliche Schutzmaßnahmen nachweisen. Artikel 22 betrifft bestimmte ausschließlich automatisierte Entscheidungen, nicht nur diskriminierende Entscheidungen. Indizien und Beweislast nach Paragraf 22 AGG gesondert prüfen. [Rechtsstandkarte](../../references/digitaler-omnibus-2026.md).
 
 ## Vorlagentext / Bausteine
 
@@ -36,14 +36,11 @@ Stellt eine Mitarbeiterin oder ein Mitarbeiter fest, dass KI-generierter Output 
 
 Die KI-Forschung zum Thema Bias entwickelt sich rasch weiter. Neue Erkenntnisse zur Bias-Anfälligkeit bestimmter KI-Systeme sollten in Schulungen aufgenommen werden. BAG-Entscheidungen zum AGG im Kontext von KI-Personalauswahl sowie Leitlinien der EU-Kommission zur Gleichbehandlung beim KI-Einsatz sind zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 1 AGG — Schutz vor Diskriminierung (Rasse, Geschlecht, Alter, Behinderung, Herkunft)
 - § 15 AGG — Schadensersatz und Entschaedigung bei Diskriminierung
 - Art. 22 DSGVO — Automatisierte Entscheidungen mit moeglichem Diskriminierungspotenzial
-- Art. 5 Abs. 1 lit. c KI-VO — Verbot biometrischer Kategorisierung nach geschuetzten Merkmalen
+- Artikel 5 Absatz 1 Buchstabe g KI-Verordnung: biometrische Kategorisierung nach den dort aufgezählten sensiblen Merkmalen, einschließlich konkreter Ausnahmen. Buchstabe c betrifft Social Scoring. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Art. 6 Abs. 2 i. V. m. Anhang III Nr. 4 KI-VO — Hochrisiko bei Bewerbungs-Screening, Personalauswahl und Beschäftigtenmanagement nach Zweckbestimmung
 
 ## Triage zu Beginn
@@ -67,18 +64,13 @@ Geschuetzte Merkmale (§ 1 AGG) — Analyse:
 | Herkunft / Nationalitaet | [NIEDRIG/MITTEL/HOCH] | [TESTERGEBNIS] | [MASSNAHME] |
 | Behinderung | [NIEDRIG/MITTEL/HOCH] | [TESTERGEBNIS] | [MASSNAHME] |
 
-KI-VO Art. 5 Abs. 1 lit. c: Biometrische Kategorisierung: [NICHT VORHANDEN / PRUEFUNG ERFORDERLICH]
+Artikel 5 Absatz 1 Buchstabe g: biometrische Kategorisierung, Merkmalsableitung und mögliche Ausnahme anhand der konkreten Funktion: [belegt / nicht belegt / entscheidende Lücke].
 Anhang III Nr. 4 KI-VO: Hochrisiko: [JA / NEIN — je nach Zweckbestimmung]
 
 Bias-Test durchgefuehrt: [JA — Methode: BESCHREIBUNG / NEIN — ERFORDERLICH]
 Gesamtbewertung: [KEIN MATERIALLES BIAS / BIAS GEFUNDEN — MASSNAHMEN ERFORDERLICH]
 Geprueft von: [NAME], [DATUM]
 ```
-
----
-
-<!-- AUDIT 27.05.2026 -->
-> **Audit-Hinweis (27.05.2026):** BGH VI ZR 273/16, NJW 2019, 2385 entfernt. Urteil existiert nicht — Suchanfrage auf dejure.org ergab keinen Treffer für BGH VI ZR 273/16 vom 26.03.2019. Beanspruchtes Thema (Produkthaftung für fehlerhafte Algorithmen) ist nicht durch diese Fundstelle belegt. Quelle: dejure.org Vernetzungssuche (NOT_FOUND).
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -88,3 +80,5 @@ Geprueft von: [NAME], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

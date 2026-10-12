@@ -1,6 +1,6 @@
 ---
 name: wandlungspruefung-trigger-liquidation
-description: "Wenn es um Wandlungsprüfung – Trigger Liquidation Event in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wandlungsprüfung – Trigger Liquidation Event: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Wandlungsprüfung – Trigger Liquidation Event
@@ -29,9 +29,6 @@ description: "Wenn es um Wandlungsprüfung – Trigger Liquidation Event in Wand
 - § 4.2 lit. d (Fusion/IPO mit Kontrollwechsel)
 - § 15 Abs. 3, Abs. 4 GmbHG (Anteilsübertragung – notarielle Beurkundung)
 - § 20 UmwStG analog (steuerliche Behandlung der Wandlung bei Tauschvorgang)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -88,7 +85,4 @@ Stand: 05/2026. Bei Änderung GmbHG § 15/UmwStG § 20 aktualisieren.
 
 § 161 UmwG (Spaltung als Liquidation Event?) → § 2 UmwG (Verschmelzung als Exit) → §§ 60 ff. GmbHG (Liquidation GmbH) → § 39 InsO (Nachrang bei Insolvenz) → § 15 GmbHG (Share Deal — Anteilsübertragung)
 
-<!-- AUDIT 27.05.2026
-Geprüfte AZ (task_254.json, 3 Probleme):
-Alle Löschungen gemäß Reparaturregel "bei Zweifel löschen". Frontmatter unverändert.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

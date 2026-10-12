@@ -1,6 +1,6 @@
 ---
 name: anrede-und-grussformeln
-description: "Wenn es um Anrede und Grußformeln in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anrede und Grußformeln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anrede und Grußformeln
@@ -16,9 +16,6 @@ Dieser Skill regelt die korrekte Wahl von Anrede und Schlussformel in berufliche
 2. Welche Funktion hat der Empfaenger: Richter, Staatsanwalt, Kollegin, Mandant, Behörde?
 3. Traeigt der Empfaenger akademische Grade (Dr., Prof.) oder Amtsbezeichnungen?
 4. Wie eng ist die Beziehung: erstmalig, laufend, langjahrig bekannt?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 25 BORA — Kollegialitaetsgebot: korrekte Anrede als Ausdruck gegenseitigen Respekts
@@ -78,24 +75,4 @@ Die Wahl der Schlussformel spiegelt die Intensität der Förmlichkeit wider. "Mi
 **Vorher:** (kein Abschlusssatz, nur Unterschrift)
 **Nachher:** "Mit freundlichen Grüßen" / "Mit kollegialen Grüßen"
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 RVG
-- § 10 RVG
-- § 57 StBerG
-- § 185 StGB
-- § 57a StBerG
-- Art. 5 GG
-- § 240 StGB
-- § 186 StGB
-- § 203 StGB
-- § 4a RVG
-- § 261 StGB
-- Art. 32 DSGVO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

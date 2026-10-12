@@ -1,6 +1,6 @@
 ---
 name: apothekenbetriebsordnung-grundpflichten
-description: "Wenn es um Apothekenbetriebsordnung Grundpflichten in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Apothekenbetriebsordnung Grundpflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Apothekenbetriebsordnung Grundpflichten
@@ -108,25 +108,3 @@ Eingaben:
 - ABDA-Leitlinien und Empfehlungen (Bundesvereinigung Deutscher Apothekerverbände) — beratend, nicht verbindlich.
 - BGH und OVG-Rspr. zur Apothekenaufsicht, staend. Rspr.
 - Landesapothekerkammer-Merkblätter und Revisionsleitfäden (vom Anwender zu verifizieren).
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 73 AMG
-- § 11a ApoG
-- § 11 ApoG
-- § 7 HWG
-- § 78 AMG
-- § 8 ApoG
-- § 12a ApoG
-- § 79 AMG
-- § 1 ApoG
-- § 7 ApoG
-- Art. 12 GG
-- § 95 AMG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

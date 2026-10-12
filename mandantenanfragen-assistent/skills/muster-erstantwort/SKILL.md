@@ -1,6 +1,6 @@
 ---
 name: muster-erstantwort
-description: "Wenn es um Muster-Erstantwort in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Muster-Erstantwort: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Muster-Erstantwort
@@ -24,9 +24,6 @@ Alle Platzhalter in eckigen Klammern `[...]` werden durch den Skill `telefon-kon
 2. Sind alle Platzhalter (Kanzleiname, Sekretariats-Telefon, Unterzeichnende-RA) in kanzlei.json konfiguriert?
 3. Wurde die Anrede aus dem Skill anrede-uebernehmen bereits geliefert und kann eingesetzt werden?
 4. Soll das Muster in Deutsch oder einer Fremdsprache ausgegeben werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 49b Abs. 5 BRAO — Kostenbelehrungspflicht: im Erstantwort-Template vorzusehen
@@ -177,3 +174,5 @@ Datenschutzhinweis gemäß Art. 13 DSGVO auf Anfrage erhältlich unter [KANZLEI-
 - `erstantwort-generator` — Hauptskill der die Variante automatisch wählt
 - `einwilligung-hinweis-datenschutz` — Langform auf Anfrage
 - `mandatsverhaeltnis-hinweis` — Disclaimer (Langform bei Bedarf)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

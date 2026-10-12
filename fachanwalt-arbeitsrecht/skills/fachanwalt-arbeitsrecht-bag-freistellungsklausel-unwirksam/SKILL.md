@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-arbeitsrecht-bag-freistellungsklausel-unwirksam
-description: "Wenn es um Rechtsprechung live prüfen in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fachanwalt Arbeitsrecht Bag Freistellungsklausel Unwirksam; Arbeitsfeld: Fachanwalt Arbeitsrecht."
+description: "Für Rechtsprechung live prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Arbeitsrecht. Route: fachanwalt-arbeitsrecht-bag-freistellungsklausel-unwirksam."
 ---
 
 # Rechtsprechung live prüfen
@@ -41,14 +41,12 @@ Der Beschäftigungsanspruch des Arbeitnehmers darf nur mit verifizierter Rechtsp
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Wann ist Freistellung weiterhin zulässig
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 | Freistellungsgrund | Anforderung |
 |---|---|
@@ -58,7 +56,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Störung Betriebsfrieden | Konkrete erhebliche Störung, dokumentiert; bloße Antipathie reicht nicht |
 | Überlapping-Beschäftigung nicht möglich | Stelle bereits neu besetzt; Tätigkeiten physisch nicht mehr vorhanden |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anwaltliche Strategie
 
@@ -75,7 +72,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Konstellation | Empfehlung |
 |---|---|
 | Freistellung notwendig wegen Konkurrenz | Konkrete Tatsachen dokumentieren; Freistellung mit schriftlicher Begründung erklären |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Neue Freistellungsklausel im AV | Klausel mit offenem Tatbestand ("soweit sachlich begründeter Anlass besteht") formulieren; Inhaltskontrolle prüfen |
 
 ## Strategische Optionen (vor dem Template entscheiden)
@@ -133,7 +129,6 @@ Es wird beantragt:
    Fälligkeit zu zahlen.
 
 Begründung:
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 unwirksam. Die Beklagte ist seit [Datum] in Annahme-
 verzug. Die Vergütung für den Annahmeverzugszeitraum
 berechnet sich wie folgt: [Monat x Brutto-Monatsgehalt].
@@ -147,7 +142,6 @@ berechnet sich wie folgt: [Monat x Brutto-Monatsgehalt].
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - AGB-Inhaltskontrolle prüft das Gericht von Amts wegen; keine Beweislast der Parteien.
 
 ## Prüfschema Freistellung
@@ -158,9 +152,7 @@ berechnet sich wie folgt: [Monat x Brutto-Monatsgehalt].
 | Schritt | Prüfpunkt | Norm | Rechtsfolge bei Fehler |
 |---|---|---|---|
 | 1 | Freistellungsklausel im AV vorhanden? | Paragraf 307 BGB | Nur Einzelfall-Freistellung möglich |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | Konkreter Freistellungsgrund? (Tabelle oben) | Paragraf 307 Abs. 1 BGB | Ohne Grund: Freistellung unwirksam |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 5 | AG in Annahmeverzug? | Paragraf 615 BGB | Vergütungspflicht trotz Freistellung |
 | 6 | Wettbewerbsverbot relevant? | Paragrafen 74 ff. HGB | Bei nachvertr. Wettbewerbsverbot: Karenzentschädigung |
 
@@ -169,7 +161,6 @@ berechnet sich wie folgt: [Monat x Brutto-Monatsgehalt].
 | Frist | Dauer | Rechtsgrundlage |
 |---|---|---|
 | Annahmeverzug | Ab Zeitpunkt der Freistellung, wenn kein Grund | Paragraf 615 BGB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Schadensersatz bei unwirksamer Freistellung | 3 Jahre | Paragrafen 195, 199 BGB |
 
 ## Streitwert und Kosten
@@ -179,7 +170,6 @@ berechnet sich wie folgt: [Monat x Brutto-Monatsgehalt].
 - **Erste Instanz**: Paragraf 12a ArbGG — keine Kostenerstattung.
 - **Wirtschaftlicher Hauptwert**: meist im Vergleich (Abfindungs-Erhöhung wegen Beschäftigungsanspruch).
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 | Klausel-Wortlaut | Bewertung |
 |---|---|
@@ -197,5 +187,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Quellen
 
 - BGB Paragrafen 307, 615, 611a
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

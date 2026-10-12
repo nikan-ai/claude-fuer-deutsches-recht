@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-wiedereinsetzung
-description: "Wenn es um Wiedereinsetzung nach versaeumter Einspruchsfrist — Paragraf 44 StPO in Strafbefehl-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wiedereinsetzung nach versäumter Einspruchsfrist — Paragraf 44 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wiedereinsetzung nach versaeumter Einspruchsfrist — § 44 StPO
@@ -29,10 +29,6 @@ description: "Wenn es um Wiedereinsetzung nach versaeumter Einspruchsfrist — P
 - **§ 46 StPO** — Entscheidung über den Antrag; Beschluss
 - **§ 180 ZPO** — Zustellungsfiktion bei Einwurf-Einschreiben
 - **§ 409 Abs. 1 Nr. 7 StPO** — fehlerhafte Belehrung = Frist laeuft nicht an; kein Wiedereinsetzungsbedarf
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Entscheidungsbaum Wiedereinsetzung
 
@@ -104,3 +100,5 @@ Mit freundlichen Gruessen [KANZLEI]
 - Eidesstattliche Versicherung des Mandanten zwingend (§ 45 Abs. 2 StPO: Glaubhaftmachung).
 - 1-Wochen-Frist des § 45 StPO ab Kenntnisnahme einhalten.
 - Verschulden des Verteidigers wird dem Mandanten zugerechnet — intern aufklaeren, aber Mandanten nicht schlechterstelllen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

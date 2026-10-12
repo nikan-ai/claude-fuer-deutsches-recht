@@ -1,6 +1,6 @@
 ---
 name: inso-grundtatbestand-129
-description: "Wenn es um Grundtatbestand Insolvenzanfechtung — Paragraf 129 InsO in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Inso Grundtatbestand 129; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer."
+description: "Für Grundtatbestand Insolvenzanfechtung — Paragraf 129 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Grundtatbestand Insolvenzanfechtung — § 129 InsO
@@ -17,14 +17,6 @@ description: "Wenn es um Grundtatbestand Insolvenzanfechtung — Paragraf 129 In
 ## Zentrale Normen
 
 § 129 InsO (Grundtatbestand) — § 130 InsO (kongruente Deckung) — § 131 InsO (inkongruente Deckung) — § 132 InsO (unmittelbar nachteilige Rechtshandlung) — § 133 InsO (Vorsatzanfechtung) — § 134 InsO (unentgeltliche Leistung) — § 142 InsO (Bargeschäftsprivileg) — § 143 InsO (Rechtsfolge Rückgewähr) — § 27 InsO (Verfahrenseröffnung)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Tatbestandsmerkmale § 129 Abs. 1 InsO
 
@@ -90,3 +82,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

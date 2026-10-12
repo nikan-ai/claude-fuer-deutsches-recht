@@ -1,6 +1,6 @@
 ---
 name: mahnwesen-honorar
-description: "Wenn es um Mahnwesen für Kanzleihonorar in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Mahnwesen für Kanzleihonorar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mahnwesen für Kanzleihonorar
@@ -22,9 +22,6 @@ Mahnwesen für eigene Honorarforderungen der Kanzlei gegenüber Mandanten. Anwen
 2. Wann ist die Forderung faellig geworden und wann ist der Verzug eingetreten (§ 286 BGB)?
 3. Besteht ein laufendes Mandatsverhältnis das die Eskalation taktisch beeinflusst?
 4. Ist ein Inkasso- oder gerichtliches Mahnverfahren (§§ 688 ff. ZPO) bereits eingeleitet oder geplant?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 286 BGB — Verzug: Voraussetzungen (Faelligkeit, Mahnung oder Kalendertermin)
@@ -150,3 +147,4 @@ Mandant kann verlangen Einsicht in die Akte (§ 50 Abs. 5 BRAO). Bei Streit übe
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

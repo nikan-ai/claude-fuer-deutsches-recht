@@ -1,6 +1,6 @@
 ---
 name: cyber-incident-response-72h
-description: "Wenn es um Cyber Incident Response 72h in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Cyber Incident Response 72h: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sofortmassnahmen bei aktivem Cyber-Vorfall Ransomware Datenexfiltration oder Insider-Threat
@@ -66,7 +66,6 @@ description: "Wenn es um Cyber Incident Response 72h in Fachanwalt It Recht geht
 
 ### Entscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema / Zeitplan
@@ -185,7 +184,6 @@ Auftragsverarbeiter: [Forensik-Dienstleister]
 | Frage | Last | Norm |
 |---|---|---|
 | Verletzung der Meldepflicht Art. 33 | Behörde; Entlastung durch Dokumentation des Verantwortlichen | Art. 5 Abs. 2 DSGVO (Rechenschaftspflicht) |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Entlastung Verantwortlicher | Verantwortlicher: Nachweis angemessener TOMs | Art. 82 Abs. 3 DSGVO |
 | Straftat § 202a StGB | Staatsanwaltschaft | StPO |
 | Versicherungsschutz | Versicherungsnehmer | AVB Cyber-Police |
@@ -244,13 +242,9 @@ Auftragsverarbeiter: [Forensik-Dienstleister]
 - DSGVO Art. 28, 32–34, 82, 83
 - NIS2UmsuCG in Kraft seit 06.12.2025; §§ 32, 65 BSIG n. F.
 - StGB §§ 202a–202d, 261, 263a, 269, 303a, 303b
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - BSI IT-Grundschutz-Fachüberblick
 - BSI-Lageberichte Cybersicherheit
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Faktische Updates (Stand 05/2026)
 
@@ -298,3 +292,5 @@ Hinweis gemaess Art. 33 Abs. 4 DSGVO: Nachmeldung vorbehalten.
 
 [KANZLEI / UNTERNEHMEN], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

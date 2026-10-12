@@ -1,6 +1,6 @@
 ---
 name: leichte-sprache
-description: "Wenn es um Leichte Sprache in Einfache und Leichte Sprache für juristische Texte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Leichte Sprache; Arbeitsfeld: Einfache und Leichte Sprache für juristische Texte."
+description: "Für Leichte Sprache: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Einfache und Leichte Sprache für juristische Texte. Route: leichte-sprache."
 ---
 
 # Leichte Sprache
@@ -13,9 +13,6 @@ Lesekompetenz oder hohem Barrierefreiheitsbedarf verständlich werden soll.
 2. Gibt es eine Prüfgruppe aus der Zielgruppe — oder bleibt es beim Entwurf-Status?
 3. Welche Fristen und Rechtsfolgen müssen unbedingt erhalten bleiben?
 4. Sollen Bilder oder Piktogramme eingesetzt werden (Hinweis auf Grafik-Ressourcen erforderlich)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 11 BGG — Anspruch auf barrierefreie Kommunikation gegenueber Behörden
@@ -158,3 +155,5 @@ Wenn keine Prüfung stattgefunden hat, schreibe:
 
 > Dieser Entwurf ist in Leichter Sprache formuliert.
 > Eine Prüfung durch Personen aus der Zielgruppe steht noch aus.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: staatsanwalt-rolle-staatsanwaltschaft
-description: "Wenn es um Rolle der Staatsanwaltschaft: Legalität und Objektivität in Staatsanwaltschaft Praxis-Einstieg geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Staatsanwalt Rolle Staatsanwaltschaft; Arbeitsfeld: Staatsanwaltschaft Praxis-Einstieg."
+description: "Für Rolle der Staatsanwaltschaft: Legalität und Objektivität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Staatsanwaltschaft Praxis-Einstieg. Route: staatsanwalt-rolle-staatsanwaltschaft."
 ---
 
 # Rolle der Staatsanwaltschaft: Legalität und Objektivität
@@ -32,14 +32,6 @@ description: "Wenn es um Rolle der Staatsanwaltschaft: Legalität und Objektivit
 3. Bei Rechtshilfe oder Europäischem Haftbefehl Ausschreibung, Spezialität, Verhältnismäßigkeit und Übersetzungen kontrollieren.
 4. Vorführung, Fristen, Verteidigerbestellung und Haftprüfung in der Verfügung festhalten.
 5. Antrag mit konkreter Tatsachengrundlage, Beweismitteln und Vollzugshinweisen formulieren.
-
-## Normen & Rechtsprechung
-
-- BVerfG, Beschluss vom 15.12.1965 - 1 BvR 513/65, BVerfGE 19, 342: Untersuchungshaft steht unter strengem Verhältnismäßigkeits- und Beschleunigungsgebot.
-- Ständige Rechtsprechung des BVerfG zum Beschleunigungsgebot in Haftsachen: Verzögerungen müssen aktenkundig erklärt und durch konkrete Verfahrensförderung kompensiert werden; aktuelles Aktenzeichen vor Antragstellung verifizieren.
-- BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug bei Durchsuchungen ist eng zu verstehen und aktenkundig zu begründen.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Digitale Ermittlungsmaßnahmen brauchen eine tragfähige gesetzliche Grundlage, Richtervorbehalt und Kernbereichsschutz.
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigung und informelle Absprache dürfen die Wahrheitsfindung und Dokumentationspflicht nicht unterlaufen.
 
 ## Antrags- bzw. Verfügungs-Bausteine
 

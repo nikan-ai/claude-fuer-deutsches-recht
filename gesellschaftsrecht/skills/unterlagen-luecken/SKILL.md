@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Gesellschaftsrecht."
 ---
 
 # Unterlagen und Lücken
@@ -14,7 +14,7 @@ Diese Unterlagenprüfung für **Gesellschaftsrecht** benennt fehlende Dokumente,
 - `agio-und-kapitalruecklage` — Agio und Kapitalruecklage
 - `anmeldungen-verhandlung-vergleich-und-eskalation` — Anmeldungen Verhandlung Vergleich und Eskalation
 - `anpassen` — Anpassen
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `mandat-triage-gesellschaftsrecht` — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
 - `arbeitsbereich-mandantenentscheidung` — Arbeitsbereich Mandantenentscheidung
 - `aufsichtsrat-protokoll` — Aufsichtsrat Protokoll
 - `beirat-abgrenzung-aufsichtsrat` — Beirat Abgrenzung Aufsichtsrat

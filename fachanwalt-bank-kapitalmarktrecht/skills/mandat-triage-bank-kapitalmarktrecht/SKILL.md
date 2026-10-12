@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-bank-kapitalmarktrecht
-description: "Wenn es um Mandat Triage Bank Kapitalmarktrecht in Fachanwalt Bank Kapitalmarktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandat Triage Bank Kapitalmarktrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bank- oder Kapitalmarktrechts-Mandat trifft ein und muss strukturiert erfasst werden: Sachgebiet Mandantenrolle Sofort-Fristen
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -173,7 +171,7 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 Verifizierte Aktenzeichen mit offener Quelle:
 
 - BGH XI ZR 22/24, Urt. v. 20.5.2025 — Vorfälligkeitsentschädigung intransparente AGB (juris.bundesgerichtshof.de)
-- BGH XI ZR 133/24, Urt. v. 21.10.2025 — Referenzzins Prämiensparvertrag (PM Nr. 225/2025)
+- BGH XI ZR 133/24, Urt. v. 21.10.2025 — Pflichtangaben und Effektivzins beim Immobiliar-Verbraucherdarlehen (amtliche Entscheidungsdatenbank)
 - BGH VI ZR 183/22, Urt. v. 28.1.2025 — SCHUFA-Meldung / DSGVO-Schadensersatz (juris.bundesgerichtshof.de)
 - BGH VI ZR 431/24, Urt. v. 14.10.2025 — SCHUFA Positivdaten / Betrugspraevention (PM Nr. 209/2025)
 - EuGH C-26/22, C-64/22, Urt. v. 7.12.2023 — Restschuldbefreiungs-Speicherung max. 6 Monate (curia.europa.eu)
@@ -216,7 +214,3 @@ Folge-Skill: [SKILL-NAME]
 Naechster Schritt: [MASSNAHME] bis [DATUM] durch [PERSON]
 =========================================
 ```
-
-## Audit-Hinweis (27.05.2026)
-
-Stand Mai 2026 wurden die Aktenzeichen anhand offener Quellen (juris.bundesgerichtshof.de, dejure.org, curia.europa.eu) verifiziert. Frühere Modellwissen-Platzhalter sind durch belegte Aktenzeichen ersetzt. Vor Versand vom Anwalt erneut zu prüfen.

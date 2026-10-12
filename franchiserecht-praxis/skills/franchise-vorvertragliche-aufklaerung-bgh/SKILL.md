@@ -1,6 +1,6 @@
 ---
 name: franchise-vorvertragliche-aufklaerung-bgh
-description: "Wenn es um Franchise Vorvertragliche Aufklaerung Bgh in Franchiserecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Franchise Vorvertragliche Aufklärung BGH: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Franchise Vorvertragliche Aufklaerung Bgh
@@ -35,11 +35,9 @@ description: "Wenn es um Franchise Vorvertragliche Aufklaerung Bgh in Franchiser
 ### Vertragsbedingungen
 - Standortpflicht, Wettbewerbsverbot, postvertragliche Konkurrenzklausel.
 
-## BGH-Linie
+## Rechtlicher Maßstab
 
-- BGH VIII ZR 233/02 zur Aufklaerung beim Franchisesystem.
-- BGH XII ZR 197/03 zur Marketingunterstuetzung.
-- BGH-Folgejudikate zur Bandbreitenangabe.
+Vorvertragliche Aufklärungspflichten folgen aus Paragraf 311 Absatz 2 in Verbindung mit Paragraf 241 Absatz 2 BGB und hängen vom konkreten Informationsgefälle ab. Eigene historische Zahlen, belastbare Bandbreiten und ausdrücklich kenntlich gemachte Planannahmen trennen; weder einen bestimmten wirtschaftlichen Erfolg zusagen noch fremde Durchschnittswerte als standortbezogene Prognose ausgeben. Rechtsprechung nur nach Verifizierung einer wirklich vergleichbaren Franchise- und Aufklärungskonstellation zitieren.
 
 ## Schadensersatz bei Verstoss
 
