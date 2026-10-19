@@ -156,6 +156,7 @@ jobs:
           python3 scripts/test-fachpruefer-integration.py
           python3 scripts/test-juristische-praesentationen.py
           python3 scripts/test-geldwaeschepraevention.py
+          python3 scripts/test-phishing-release.py
           python3 scripts/test-arbeitsrecht-asset-deal.py
           python3 scripts/test-betriebskosten-hausverwaltung.py
           python3 scripts/test-rechtsabteilung-immobilien.py
@@ -202,6 +203,7 @@ jobs:
           python3 scripts/test-prompt-generator-excerpts.py
           python3 scripts/test-prompt-routing-scope.py
           python3 scripts/test-prompt-workflow-preservation.py
+          python3 scripts/test-prompt-openings.py
           python3 scripts/test-prompt-hygiene-links.py
           python3 scripts/test-portable-starts.py
           python3 scripts/test-generate-megaprompt.py
