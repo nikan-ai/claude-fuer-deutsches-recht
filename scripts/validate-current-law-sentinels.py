@@ -106,6 +106,14 @@ SENTINELS = (
         ),
     ),
     Sentinel(
+        "falsches Datum zum BVerwG-Anker 4 CN 4.19",
+        re.compile(
+            r"(?:14[.]10[.]2020[^\n]{0,80}4\s+CN\s+4[./]19|"
+            r"4\s+CN\s+4[./]19[^\n]{0,80}14[.]10[.]2020)",
+            re.IGNORECASE,
+        ),
+    ),
+    Sentinel(
         "veralteter und fachfremder AGB-Sammelanker",
         re.compile(
             r"AGBG\s*\(alt\).{0,120}C-26/13.{0,80}C-186/16",
@@ -1707,6 +1715,7 @@ SENTINEL_HINTS = (
     ("normenradar:",),
     ("ix r 28/14",),
     ("c-307/22",),
+    ("14.10.2020",),
     ("agbg",),
     ("b 12 ba 3/23",),
     ("ix zr 211/02",),
@@ -1937,6 +1946,18 @@ SENTINELS += (
         "falsch zugeordneter Vorsteueranker V R 20/11",
         re.compile(r"V\s+R\s+20/11.{0,100}Vorsteuerabzug\s+verlangt", re.IGNORECASE),
     ),
+    Sentinel(
+        "nicht existente Regressnorm 199 SGB X",
+        re.compile(r"(?:Paragraf(?:en)?|§§?)\s*(?:116\s*[,;/]?\s*)?199\s+SGB\s+X\b", re.IGNORECASE),
+    ),
+    Sentinel(
+        "pauschale Kostenpflicht für Patientenaktenkopien",
+        re.compile(r"Kopien\s+auf\s+Kosten\s+des\s+Patienten", re.IGNORECASE),
+    ),
+    Sentinel(
+        "Landgericht als Restrukturierungsgericht bezeichnet",
+        re.compile(r"\bLG\s*\(StaRUG-Gerichte\)", re.IGNORECASE),
+    ),
 )
 SENTINEL_HINTS += (
     ("49a",),
@@ -1944,6 +1965,9 @@ SENTINEL_HINTS += (
     ("rabatt",),
     ("153a",),
     ("v r 20/11",),
+    ("199",),
+    ("kopien",),
+    ("starug-gerichte",),
 )
 
 if len(SENTINEL_HINTS) != len(SENTINELS):
