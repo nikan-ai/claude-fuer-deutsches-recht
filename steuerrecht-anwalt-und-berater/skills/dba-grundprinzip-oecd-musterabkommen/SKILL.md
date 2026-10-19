@@ -1,14 +1,12 @@
 ---
 name: dba-grundprinzip-oecd-musterabkommen
-description: "Wenn es um DBA-Grundprinzip: OECD-Musterabkommen 2017 und Anwendungsschritte in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DBA-Grundprinzip: OECD-Musterabkommen 2017 und Anwendungsschritte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DBA-Grundprinzip: OECD-Musterabkommen 2017 und Anwendungsschritte
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `DBA-Grundprinzip: OECD-Musterabkommen 2017 und Anwendungsschritte` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -47,7 +45,6 @@ Das OECD-Musterabkommen (OECD-MA) in der Fassung 2017 ist Grundlage nahezu aller
 
 - **BMF-Schreiben zur Anwendung der DBA auf Personengesellschaften** vom 26.09.2014 (BStBl I 2014, 1258) (Bestandsschutz und Folgeschreiben) — aktuellen Stand und Aktualisierungen im BMF-Veroeffentlichungsverzeichnis oder in freier amtlicher Quelle prüfen.
 - **BMF-Schreiben zur Anwendung des MLI** — aktuellen Stand und Datum im BMF-Veroeffentlichungsverzeichnis prüfen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Aufbau eines typischen DBA
 
@@ -189,6 +186,4 @@ Das OECD-Musterabkommen (OECD-MA) in der Fassung 2017 ist Grundlage nahezu aller
 
 ## Quellen und Updates
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026 | welle 6 | 6 Marker aufgeloest: 3 belegt (Fundstelle/Datum bestaetigt), 3 ersetzt (Az/Datum nicht belegbar, Satz neu formuliert) -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

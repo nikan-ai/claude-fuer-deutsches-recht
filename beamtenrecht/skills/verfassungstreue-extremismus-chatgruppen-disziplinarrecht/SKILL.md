@@ -1,6 +1,6 @@
 ---
 name: verfassungstreue-extremismus-chatgruppen-disziplinarrecht
-description: "Wenn es um Verfassungstreue, Chatgruppen und politische Grenzfälle in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Verfassungstreue, Chatgruppen und politische Grenzfälle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Verfassungstreue, Chatgruppen und politische Grenzfälle
@@ -53,6 +53,12 @@ Bei Zugang zum öffentlichen Dienst gilt Art. 33 Abs. 2 GG, aber fehlende Verfas
 - jugendlicher Fehlleistung;
 - aktueller Distanzierung;
 - besonderem Justiz-/Polizeibezug.
+
+## 1. Aktueller Chatfall-Anker
+
+Bei rassistischen oder NS-verharmlosenden Chats BVerwG, Urteil vom 11.06.2026, 2 C 12.25, Randnummern 23 bis 30 und 39 bis 46, anwenden: Vollständigen Kontext und innere Einstellung aufklären; der objektive Anschein allein trägt keine Verfassungstreuepflichtverletzung. Wohlverhaltenspflicht und Verfassungstreue unterscheiden. Kommunikation in besonderen Nähebeziehungen ist nicht pauschal unverwertbar, ihr Schutz tritt aber nicht bei jedem bloßen Wohlverhaltensvorwurf zurück. Keine automatische Entfernung allein aus einem isolierten Screenshot ableiten. [Amtlicher Volltext](https://www.bverwg.de/de/110626U2C12.25.0).
+
+Frage gezielt nach zusammenhängenden Chatverläufen, Gruppenbeziehungen, erkennbaren Zustimmungen und Entlastungsumständen. Die Entscheidung betrifft einen Lebenszeitbeamten im bremischen Disziplinarverfahren; Bewerbereignung und Richterdienstrecht sind gesondert zu prüfen.
 
 ## Quellenanker
 

@@ -1,6 +1,6 @@
 ---
 name: kammerbeschwerde-steuerberater-rechtsprechungsche
-description: "Wenn es um Kammerbeschwerde Steuerberater Rechtsprechungsche in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Kammerbeschwerde Steuerberater Rechtsprechungsche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerberater: kammerbeschwerde steuerberater - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

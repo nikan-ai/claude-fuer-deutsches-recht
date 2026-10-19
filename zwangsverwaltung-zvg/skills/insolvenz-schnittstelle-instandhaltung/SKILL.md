@@ -1,6 +1,6 @@
 ---
 name: insolvenz-schnittstelle-instandhaltung
-description: "Wenn es um Schnittstelle zur Insolvenz in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schnittstelle zur Insolvenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schnittstelle zur Insolvenz
@@ -64,10 +64,6 @@ Schnittstelle Zwangsverwaltung und Insolvenz bei Insolvenz des Schuldners. Anwen
 - § 165 InsO
 - ZVG Gesamtfassung
 
-## Ergänzende Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Insolvenzschnittstelle
 
 § 152 ZVG i.V.m. §§ 80-82 InsO (Insolvenzbeschlag) → § 30 InsO (Anordnung Insolvenzeröffnung) → § 49 InsO (Absonderungsrecht Grundpfandrecht) → § 165 InsO (Zwangsversteigerung durch Insolvenzverwalter) → § 21 Abs. 2 Nr. 5 InsO (vorläufige Sicherungsmaßnahmen)
@@ -78,3 +74,5 @@ Schnittstelle Zwangsverwaltung und Insolvenz bei Insolvenz des Schuldners. Anwen
 2. Ist ein vorläufiger Insolvenzverwalter bestellt? (Abstimmung der Zuständigkeiten)
 3. Welche Gläubiger haben Absonderungsrechte nach § 49 InsO?
 4. Soll die Zwangsverwaltung fortgeführt oder aufgehoben werden?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,435 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Beschlüsse und Einkommensbelege vor Standard-Triage; Schutzbedarf und notwendige Berechnungsdaten erhalten, keine feste Fragezahl.",
+    "files": [
+      {
+        "path": "fachanwalt-familienrecht/README.md",
+        "sha256": "8dff11737b73ef3ff3f87711d798f784db1877f9bde2984a07299aece944b737"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Beauftragter Familienrechtsentwurf steht zuerst; der bestehende Zugewinnabsatz wurde im Mini unverändert vorgezogen, Sicherheitsprioritäten bleiben erhalten.",
+    "norms_or_source_basis": "Paragrafen 1375 Absatz 2 und 1379 BGB",
+    "selected_anchor_identifiers": [
+      "XII ZB 558/23"
+    ],
+    "application_limit": "Stichtag und Darlegungslast begründen weder automatische Bankbelegpflicht noch die Illoyalität jeder Vermögensminderung.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-familienrecht/fachanwalt-familienrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "3df3847c61505003974447e5461bc0c109457babc2c2ccb2360129654f84dedd",
+      "characters": 7368,
+      "utf8_bytes": 7461,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-familienrecht/fachanwalt-familienrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "7e2b06152125265ea8792d83a922ddfbbfa816110de8ccc112fb3946a715bb4b",
+      "characters": 42205,
+      "utf8_bytes": 42810,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "fachanwalt-familienrecht",
+  "reviewed_on": "2026-09-30",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1378.html",
+      "checked_on": "2026-09-14",
+      "supports": "Hälftige Zugewinndifferenz, Begrenzung einschließlich Hinzurechnungen und Entstehung erst mit Beendigung des Güterstands."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2023/XII_ZB_558-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Beschluss vom 13.11.2024, XII ZB 558/23, Randnummern 17 bis 23: Erfüllungswirkung einer verlangten beziehungsweise als Erfüllung angenommenen Trennungsauskunft und Beweislast nach Paragraf 1375 Absatz 2 Satz 2 BGB auch bei später streitigem tatsächlichem Trennungstag; titulierte Auskunft gesondert einordnen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1374.html",
+      "checked_on": "2026-09-14",
+      "supports": "Anfangsvermögen mit Abzug von Verbindlichkeiten sowie privilegierter Erwerb insbesondere durch Schenkung oder Erbfall."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1375.html",
+      "checked_on": "2026-09-14",
+      "supports": "Endvermögen, illoyale Minderungen, Beweislast bei Absinken gegenüber einer Trennungsauskunft und zeitliche beziehungsweise zustimmungsbezogene Grenzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1379.html",
+      "checked_on": "2026-09-14",
+      "supports": "Stichtagsbezogene Vermögensauskunft mit Belegen und Wertermittlung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1384.html",
+      "checked_on": "2026-09-14",
+      "supports": "Rechtshängigkeit des Scheidungsantrags als maßgeblicher Zeitpunkt für Berechnung und Höhe der Ausgleichsforderung bei Scheidung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2023/XII_ZB_558-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "Erneute Primärquellenprüfung: BGH, Beschluss vom 13.11.2024, XII ZB 558/23, Randnummern 17 bis 23. Anwendung: Niedrigeres Endvermögen nach erfüllender Trennungsauskunft: Auskunftstitel oder verlangtes Datum und Erfüllungsannahme bestimmen die Beweislastfolge. Grenze: Bloßer Kontobeleg reicht nicht; abweichender tatsächlicher Trennungstag beseitigt Folge nicht automatisch; Zurückverweisung statt Feststellung jeder Minderung als illoyal."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1375.html",
+      "checked_on": "2026-09-22",
+      "supports": "Hinzurechnungstatbestände, Beweislastfolge und zeitliche beziehungsweise zustimmungsbezogene Grenzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1379.html",
+      "checked_on": "2026-09-22",
+      "supports": "Stichtagsbezogene Auskunft und Belege."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1384.html",
+      "checked_on": "2026-09-22",
+      "supports": "Rechtshängigkeit als Berechnungsstichtag bei Scheidung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__159.html",
+      "checked_on": "2026-09-22",
+      "supports": "Persönliche Anhörung und Eindruck ohne starre Altersgrenze."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1379.html",
+      "supports": "Erneuter Normabruf zu vermögensbezogener Auskunft und Belegen; Stichtag, Zahlungsfluss und Hinzurechnung konkret zuordnen.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2025/XII_ZB_415-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Beschluss vom 15.04.2026, XII ZB 415/25: Erweiterter Umgang: nicht bedarfsdeckende Mehrkosten von Teilerfüllung trennen; Schätzung auf tatsächlicher Grundlage typischerweise 10, ausnahmsweise höchstens 15 Prozent des Tabellenbedarfs. Grenze: Kein automatischer Umgangsrabatt, kein Abzug vom Zahlbetrag und keine zeitanteilige Barhaftung des Hauptbetreuenden. Gelesen: Entscheidungskopf/Leitsätze, Rn. 62–70 und 73",
+      "source_sha256": "69153aa57e73e14bc7bf39d29d0b16cf2b12c6e1737830d4d21548132b97a753",
+      "verification_status": "frisch_amtlicher_volltext_passagen",
+      "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-familienrecht.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2024/XII_ZB_148-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Beschluss vom 22.01.2025, XII ZB 148/24: Beim Elternunterhalt sozialhilferechtliche 100.000-Euro-Regressgrenze und zivilrechtliche Leistungsfähigkeit trennen; daraus folgt kein Selbstbehalt von 5.500 Euro. Grenze: Konkrete Belastungen, angemessener Selbstbehalt und Geschwisteranteile bleiben zu prüfen; kein bundesweit fixer aktueller Selbstbehalt aus dem Urteil. Gelesen: Entscheidungskopf, Rn. 8–14",
+      "verification_status": "frisch_amtlicher_volltext_passagen",
+      "source_sha256": "d8d0f4e50f5b68a072ddfa207f9a34ad58dede884f2954fa05c4d9ec08e353ea",
+      "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-familienrecht.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB___1-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-16",
+      "supports": "Bei abgetretener Ablaufleistung einer Kapitallebensversicherung entscheidet der tatsächliche Rechtsgrund, nicht die Überschrift einer Versorgungsausgleichsvereinbarung. Eine Zugewinnausgleichsforderung ist kein sonstiges Einkommen im Sinne von Paragraf 850i ZPO; bloße Eheführung begründet kein selbst erwirtschaftetes Einkommen. Paragraf 852 Absatz 2 ZPO bleibt gesondert zu prüfen. Paragraf 2 VersAusglG erfordert insbesondere die Trennung von Rentenanrechten, kapitalförmigen Ansprüchen sowie den Sonderfällen betrieblicher und zertifizierter Anrechte; kein doppelter Ausgleich. Grenze: Zurückverweisung zur Klärung des Abtretungsgrundes, keine abschließende Einordnung der konkreten Versicherungsleistung. Schutz echter Versorgungsanrechte oder einer Gegenleistung für deren Ausschluss nach Paragraf 850i ZPO ausdrücklich offengelassen. Ob Paragraf 852 Absatz 2 ZPO als abschließende Sonderregel Paragraf 850i verdrängt, blieb ebenfalls offen. Keine generelle Pfändbarkeit oder Unpfändbarkeit aller Lebensversicherungen oder Scheidungszahlungen.",
+      "verification_status": "checked_on: 2026-10-16; method: Webrecherche; nach gesperrter Webdarstellung amtliches BGH-PDF unmittelbar über HTTPS abgerufen und Text gelesen.; read_scope: Amtlicher Beschluss vollständig mit Kopf, Tenor und Rn. 1 bis 23; verwendete Aussagen insbesondere Rn. 17 bis 23.; status: Amtlicher Beschluss gelesen; tragende Aussagen und ausdrücklich offene Fragen getrennt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Versicherungsschein, Leistungsform, Abtretung, Gegenleistung und Anerkennungs-/Verfahrensstand beiziehen. Zugewinnforderung, echtes Versorgungsanrecht und Gegenleistung für einen Versorgungsausgleichsverzicht unterscheiden. Bei Insolvenz Paragrafen 35 und 36 InsO prüfen. Erst danach Zuordnung, Berechnung, Schutzempfehlung und verfügbare Vergleichsliquidität bzw. Zahlungsplan berichtigen.",
+    "changes": [
+      "XII ZB 558/23 samt amtlichem Link und Grenzen unmittelbar in die Zugewinnprüfung eingebunden.",
+      "Doppelte Start- und Abschlussformulierungen gekürzt; Unterhalt, Versorgungsausgleich, Sorge und Fortsetzung erhalten.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Nachprüfung 30.09.2026: XII ZB 415/25: gerichtete Nachprüfung Rn. 12–28, 32–43, 62–73; tatsächliche Teilerfüllung vom Tabellenbedarf, keine Zeitquotenhaftung des Hauptbetreuers, begrenzte Herabstufung und Vertretung verheirateter Eltern.",
+      "Kindesunterhalt 2026 bestätigt; Elternunterhalt 2025 um klare Trennung von Regressgrenze und Selbstbehalt ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Beauftragter Familienrechtsentwurf steht zuerst; der bestehende Zugewinnabsatz wurde im Mini unverändert vorgezogen, Sicherheitsprioritäten bleiben erhalten. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: Bundesgerichtshof, Beschluss vom 11.06.2026, IX ZB 1/25"
+    ],
+    "sha256": "58d8b48f7b0c2cab6bec6cffea121b7872070ac814d1bdf7b8b97226b97c26ef",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem und Zugewinnskill vollständig gelesen. Hauptproblem präzisiert Titelbindung, Erfüllungsannahme und Reichweite der Zurückverweisung; Skill nur von internem Stichtagsjargon bereinigt. Keine Live-Prüfung. Workflow-Ergänzung: Geld wurde auf ein eigenes Depot übertragen statt verbraucht -> Vermögenszuordnung und Hinzurechnungsargument ändern; belegter Umzug -> betroffene Umgangszeiten neu regeln. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen.",
+    "changes": [
+      "Prompt eröffnet mit positionsbezogenem Vermögensbelegabgleich.",
+      "BGH begründet keine automatische Hinzurechnung; im Skill fachübliche Stichtagsübersicht statt Stichtagskarte.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-familienrecht/fachanwalt-familienrecht-hauptproblem.md",
+    "prompt_sha256": "ad11fd6bc234f111dd478ff2c877ed0bd6e29b90979e8b8d7c3e9f68ff802849",
+    "skill_path": "fachanwalt-familienrecht/skills/zugewinn-vermoegensbelege-stichtage-abgleichen/SKILL.md",
+    "skill_sha256": "a5d1c632eefb2a081dbf2921947712896f16577ba2237871a12de7c10a749020"
+  },
+  "selection": {
+    "positive": [
+      "Gleiche die Zugewinnaufstellungen meiner Ehefrau mit Bankbelegen zu Heirat, Trennung und Zustellung ab.",
+      "Berechne die Auswirkung einer elterlichen Schenkung und ungeklärter Abflüsse zwischen Trennungsauskunft und Endvermögen."
+    ],
+    "negative": [
+      "Berechne ausschließlich Kindesunterhalt aus den laufenden Erwerbseinkünften.",
+      "Prüfe die Teilung gesetzlicher Rentenanwartschaften im Versorgungsausgleich."
+    ],
+    "target_skill": "zugewinn-vermoegensbelege-stichtage-abgleichen"
+  },
+  "cases": [
+    {
+      "id": "trennungsauskunft-umbuchung-tilgung-indexierung",
+      "request": "Bitte erstelle für Ehegatte A eine intern verwendbare Zugewinnabrechnung in ergebnis.md. A und B leben im deutschen gesetzlichen Güterstand, Heirat am 01.06.2015, Anfangsvermögen jeweils null. B erhielt am 01.06.2018 von den Eltern 100.000 Euro geschenkt, ohne Lasten und nicht zur Deckung laufenden Lebensbedarfs. Schenkung und Wert sind belegt. Für diese Übungsrechnung sind die amtlich geprüften Indexwerte derselben Basis verbindlich vorgegeben: Erwerbsmonat 100, Endmonat 110. Weitere privilegierte Erwerbe bestehen nicht. Der Scheidungsantrag ging am 20.05.2026 bei Gericht ein und wurde am 02.06.2026 zugestellt. A hat am 02.06.2026 ein schuldenfreies Vermögen von 100.000 Euro. B hatte auf die verlangte Auskunft zum 01.01.2025 eine von A ausdrücklich als Erfüllung angenommene Aufstellung vorgelegt: allein gehörendes Haus 600.000 Euro, tatsächliche Darlehensschuld 240.000 Euro, Kontoguthaben 240.000 Euro, kein Depot. B behauptet nun eine tatsächliche Trennung erst am 01.02.2025; einen Auskunftstitel gibt es nicht. Zum 02.06.2026 beträgt Bs unveränderter Hauswert 600.000 Euro, Darlehensvaluta 200.000 Euro, Kontoguthaben 40.000 Euro und Depotwert 60.000 Euro. Die Bank bestätigt diese Werte. Der Kontoabfluss seit der Auskunft besteht aus einer Übertragung von 60.000 Euro in das neue eigene Depot, einer belegten Darlehenstilgung von 40.000 Euro und weiteren 100.000 Euro, die B ohne Belege als allgemeinen Verbrauch bezeichnet. Andere Zugänge oder Wertänderungen gibt es nicht. Ein zunächst vorgelegter Kontoauszug vom 05.06.2026 zeigt nur 30.000 Euro, weil B nach Zustellung 10.000 Euro ausgegeben hat. Bitte stimme Belege und Stichtage ab und stelle die vorläufige Rechnung sowie die Auswirkung des streitigen Verbrauchs dar. Formuliere gezielte Nachfragen und einen nicht zu versendenden Auskunftsentwurf.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Berechnung stellt auf den 02.06.2026 ab und setzt 40.000 Euro Kontoendbestand an, nicht den Gerichtseingang oder den späteren Auszug mit 30.000 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Sie indexiert den privilegierten Nettoerwerb auf 110.000 Euro und zieht ihn nicht zusätzlich ein zweites Mal von Bs Endvermögen ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Bewegungsrechnung ermittelt 600.000 Euro Nettovermögen zur Auskunft und 500.000 Euro am Endstichtag; Depotübertragung und Darlehenstilgung werden nicht als zusätzliche illoyale Verluste behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Ohne Hinzurechnung weist sie Bs Zugewinn mit 390.000 Euro, As Zugewinn mit 100.000 Euro und eine vorläufige Ausgleichsforderung As von 145.000 Euro aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Für eine begründete Hinzurechnung der streitigen 100.000 Euro zeigt sie eine Forderung von 195.000 Euro; sie behandelt den Verbrauch weder automatisch als bewiesene Verschwendung noch als durch bloße Behauptung entkräftet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Sie erkennt die Bedeutung der ausdrücklich als Erfüllung angenommenen Auskunft für die Beweislast und lässt diese nicht allein wegen Bs späterer Behauptung eines anderen Trennungstags entfallen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C07",
+          "text": "Sie fordert zum ungeklärten Verbrauch konkrete Empfänger-, Zweck- und Zahlungsbelege an und prüft die Forderungsbegrenzung, statt nur weitere allgemeine Vermögenslisten zu verlangen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "zugewinn-vermoegensbelege-stichtage-abgleichen"
+    },
+    {
+      "id": "zugewinn-fortsetzung-nach-bankauskunft",
+      "request": "Setzen Sie die bereits begonnene Bearbeitung fort. Ich vertrete Frau Keller gegen ihren geschiedenen Ehemann. Deutscher gesetzlicher Güterstand, Zustellung des Scheidungsantrags am 02.06.2026, Rechtskraft am 15.08.2026. Diese Daten und die Eigentumsverhältnisse sind geprüft und bleiben unverändert. Anfangsvermögen und privilegierte Erwerbe sind bei beiden null. Das schuldenfreie Endvermögen meiner Mandantin beträgt 50000 EUR; beim Ehemann waren 170000 EUR nachgewiesen. Sie hatten gezielt die Bestätigung zu einem weiteren, ihm allein gehörenden Depot angefordert. Hier ist die Antwort: Die Bank bestätigt zusätzlich 30000 EUR zum 02.06.2026. Der Wert ist in den 170000 EUR noch nicht enthalten. Es gibt keine Schulden, streitigen Hinzurechnungen, sonstigen Vermögenswerte oder Zahlungen auf den Ausgleich. Bitte stellen Sie jetzt die Berechnung fertig und schreiben Sie einen verständlichen Brief an Frau Keller mit dem Ergebnis und einer konkreten Empfehlung zum weiteren außergerichtlichen Vorgehen. Noch kein Schreiben an den Gegner und keine Klage. Geben Sie den Brief in mandantenbrief.md und nur erforderliche interne Hinweise in bearbeitungsvermerk.md aus. Die Quelle einer bereits geprüften Rechtsaussage braucht nicht als technischer Abrufvermerk im Mandantenbrief zu stehen.",
+      "input_files": [],
+      "deliverables": [
+        "mandantenbrief.md",
+        "bearbeitungsvermerk.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die neue Bankauskunft wird eingearbeitet: Endvermögen des Ehemanns 200000 EUR, Differenz 150000 EUR, Ausgleich zugunsten der Mandantin 75000 EUR. Es erfolgt keine erneute Aufnahme bereits beantworteter Stichtags- oder Eigentumsfragen.",
+          "deliverables": [
+            "mandantenbrief.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Brief ist mit Anrede, verständlicher Erläuterung der Rechnung und konkreter Empfehlung vollständig ausformuliert. Er bleibt nicht bei einer Tabelle oder bei der Ankündigung, einen Brief schreiben zu können.",
+          "deliverables": [
+            "mandantenbrief.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Mandantenbrief enthält keine technische Arbeitsanweisung, keine vorgegebene Prüffeldsprache wie Stichtagskarte oder Kernbeleg und keine Erklärung über fehlende Exportwerkzeuge. Rechtlich erforderliche Vorbehalte dürfen in verständlicher Sprache enthalten sein.",
+          "deliverables": [
+            "mandantenbrief.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Es wird weder eine Klage noch ein bereits versandtes Gegnerschreiben behauptet. Die berechnete Empfehlung ist von einer noch freizugebenden Außenhandlung getrennt.",
+          "deliverables": [
+            "mandantenbrief.md",
+            "bearbeitungsvermerk.md"
+          ]
+        }
+      ],
+      "target_skill": "zugewinn-vermoegensbelege-stichtage-abgleichen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Versicherungsschein, Leistungsform, Abtretung, Gegenleistung und Anerkennungs-/Verfahrensstand beiziehen. Zugewinnforderung, echtes Versorgungsanrecht und Gegenleistung für einen Versorgungsausgleichsverzicht unterscheiden. Bei Insolvenz Paragrafen 35 und 36 InsO prüfen. Erst danach Zuordnung, Berechnung, Schutzempfehlung und verfügbare Vergleichsliquidität bzw. Zahlungsplan berichtigen.",
+    "changes": [
+      "Konkrete Erfüllungsprüfung nach Paragraf 1375 Absatz 2 Satz 2 BGB ergänzt.",
+      "Belegter Verbrauch ist nicht stets illoyal; bloßer anderer Trennungstag beseitigt Beweislastfolge nicht.",
+      "Verfahrensüberschrift fachüblich umbenannt; keine zusätzliche Pflichtkaskade.",
+      "Tatsächliche Betreuung statt Planbehauptung, Schulwechsel und Schutzbedarf, Renovierungszahlung gegenüber Rechnung, Vermeidung doppelter Schuld- und Wertansätze sowie Bankentlassung und Sicherung bei Wohnungsübernahme.",
+      "Nachprüfung 30.09.2026: XII ZB 415/25: gerichtete Nachprüfung Rn. 12–28, 32–43, 62–73; tatsächliche Teilerfüllung vom Tabellenbedarf, keine Zeitquotenhaftung des Hauptbetreuers, begrenzte Herabstufung und Vertretung verheirateter Eltern.",
+      "Kindesunterhalt 2026 bestätigt; Elternunterhalt 2025 um klare Trennung von Regressgrenze und Selbstbehalt ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Beauftragter Familienrechtsentwurf steht zuerst; der bestehende Zugewinnabsatz wurde im Mini unverändert vorgezogen, Sicherheitsprioritäten bleiben erhalten. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: Bundesgerichtshof, Beschluss vom 11.06.2026, IX ZB 1/25"
+    ],
+    "sha256": "3f5b278ae7e62cb62d70dbc5920a7f5721bd6f1ee2739554c6f53868643a5217",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-familienrecht/fachanwalt-familienrecht-schnellstart.md",
+      "fachanwalt-familienrecht/fachanwalt-familienrecht-werkstatt.md",
+      "fachanwalt-familienrecht/fachanwalt-familienrecht-hauptproblem.md",
+      "fachanwalt-familienrecht/skills/zugewinn-vermoegensbelege-stichtage-abgleichen/SKILL.md",
+      "fachanwalt-familienrecht/skills/unterhalt-berechnen-und-gegenrechnen/SKILL.md",
+      "fachanwalt-familienrecht/skills/lebensversicherung-abgrenzung-zugewinn-va/SKILL.md"
+    ],
+    "opening_change": "Unterhaltsmonate, Zugewinnstichtage und konkrete Sorge-/Umgangsregelung bestimmen statt allgemeiner Familienunterlagenbearbeitung. Workflow-Ergänzung: Leer: Unterhalt, Zugewinn oder Sorge und Umgang anbieten. Dateien ohne Aufgabe: Vermögensbelege, Betreuungsplan und Schriftverkehr still lesen; gewünschten Zahlungs-, Auskunfts- oder Regelungstext klären. Klarer Auftrag: konkrete Berechnung oder Vereinbarung unmittelbar ausarbeiten; bekannte Familien- und Stichtagsangaben nicht wiederholen.",
+    "norms": [
+      "Paragrafen 1375 Absatz 2, 1378, 1379 und 1384 BGB",
+      "Paragrafen 63, 114 und 159 FamFG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 13.11.2024, XII ZB 558/23, Randnummern 17 bis 23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2023/XII_ZB_558-23.pdf?__blob=publicationFile&v=1",
+        "application": "Niedrigeres Endvermögen nach erfüllender Trennungsauskunft: Auskunftstitel oder verlangtes Datum und Erfüllungsannahme bestimmen die Beweislastfolge.",
+        "limit": "Bloßer Kontobeleg reicht nicht; abweichender tatsächlicher Trennungstag beseitigt Folge nicht automatisch; Zurückverweisung statt Feststellung jeder Minderung als illoyal.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Beschluss vom 15.04.2026, XII ZB 415/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2025/XII_ZB_415-25.pdf?__blob=publicationFile&v=1",
+        "application": "Erweiterter Umgang: nicht bedarfsdeckende Mehrkosten von Teilerfüllung trennen; Schätzung auf tatsächlicher Grundlage typischerweise 10, ausnahmsweise höchstens 15 Prozent des Tabellenbedarfs.",
+        "limit": "Kein automatischer Umgangsrabatt, kein Abzug vom Zahlbetrag und keine zeitanteilige Barhaftung des Hauptbetreuenden.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_amtlicher_volltext_passagen",
+        "passages_read": "Entscheidungskopf/Leitsätze, Rn. 62–70 und 73",
+        "previous_review": "quality/source-audits/2026-09-30/zivil-wirtschaft.md",
+        "source_sha256": "69153aa57e73e14bc7bf39d29d0b16cf2b12c6e1737830d4d21548132b97a753",
+        "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-familienrecht.json",
+        "previous_verification": {
+          "checked_on": "2026-09-30",
+          "verification_status": "wiederverwendeter_passagennachweis",
+          "previous_review": "quality/source-audits/2026-09-30/zivil-wirtschaft.md"
+        }
+      },
+      {
+        "citation": "BGH, Beschluss vom 22.01.2025, XII ZB 148/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2024/XII_ZB_148-24.pdf?__blob=publicationFile&v=1",
+        "application": "Beim Elternunterhalt sozialhilferechtliche 100.000-Euro-Regressgrenze und zivilrechtliche Leistungsfähigkeit trennen; daraus folgt kein Selbstbehalt von 5.500 Euro.",
+        "limit": "Konkrete Belastungen, angemessener Selbstbehalt und Geschwisteranteile bleiben zu prüfen; kein bundesweit fixer aktueller Selbstbehalt aus dem Urteil.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_amtlicher_volltext_passagen",
+        "passages_read": "Entscheidungskopf, Rn. 8–14",
+        "source_sha256": "d8d0f4e50f5b68a072ddfa207f9a34ad58dede884f2954fa05c4d9ec08e353ea",
+        "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-familienrecht.json"
+      },
+      {
+        "citation": "Bundesgerichtshof, Beschluss vom 11.06.2026, IX ZB 1/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB___1-25.pdf?__blob=publicationFile&v=1",
+        "application": "Bei abgetretener Ablaufleistung einer Kapitallebensversicherung entscheidet der tatsächliche Rechtsgrund, nicht die Überschrift einer Versorgungsausgleichsvereinbarung. Eine Zugewinnausgleichsforderung ist kein sonstiges Einkommen im Sinne von Paragraf 850i ZPO; bloße Eheführung begründet kein selbst erwirtschaftetes Einkommen. Paragraf 852 Absatz 2 ZPO bleibt gesondert zu prüfen. Paragraf 2 VersAusglG erfordert insbesondere die Trennung von Rentenanrechten, kapitalförmigen Ansprüchen sowie den Sonderfällen betrieblicher und zertifizierter Anrechte; kein doppelter Ausgleich.",
+        "limit": "Zurückverweisung zur Klärung des Abtretungsgrundes, keine abschließende Einordnung der konkreten Versicherungsleistung. Schutz echter Versorgungsanrechte oder einer Gegenleistung für deren Ausschluss nach Paragraf 850i ZPO ausdrücklich offengelassen. Ob Paragraf 852 Absatz 2 ZPO als abschließende Sonderregel Paragraf 850i verdrängt, blieb ebenfalls offen. Keine generelle Pfändbarkeit oder Unpfändbarkeit aller Lebensversicherungen oder Scheidungszahlungen.",
+        "checked_on": "2026-10-16",
+        "verification_status": "checked_on: 2026-10-16; method: Webrecherche; nach gesperrter Webdarstellung amtliches BGH-PDF unmittelbar über HTTPS abgerufen und Text gelesen.; read_scope: Amtlicher Beschluss vollständig mit Kopf, Tenor und Rn. 1 bis 23; verwendete Aussagen insbesondere Rn. 17 bis 23.; status: Amtlicher Beschluss gelesen; tragende Aussagen und ausdrücklich offene Fragen getrennt.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/miete-familie.json",
+        "workflow_effect": "Versicherungsschein, Leistungsform, Abtretung, Gegenleistung und Anerkennungs-/Verfahrensstand beiziehen. Zugewinnforderung, echtes Versorgungsanrecht und Gegenleistung für einen Versorgungsausgleichsverzicht unterscheiden. Bei Insolvenz Paragrafen 35 und 36 InsO prüfen. Erst danach Zuordnung, Berechnung, Schutzempfehlung und verfügbare Vergleichsliquidität bzw. Zahlungsplan berichtigen."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Einzelprüfung, kein Live-Modelltest.",
+      "BGH-Anker betrifft Zugewinn; keine neue Vollverifikation aller Unterhalts-, Versorgungs- und Kindschaftsentscheidungen.",
+      "Workflow-Review 23.09.2026: Paragraf 1379 BGB erneut eingesehen; keine medizinischen Diagnosen oder neue familienrechtliche Fallentscheidungen ergänzt.",
+      "Fachanwaltsaktualisierung 01.10.2026: zwei ausgewählte aktuelle Entscheidungen frisch im amtlichen Volltext passagenbezogen geprüft; keine Gesamtneuverifikation aller Altanker oder neuen Modelltests. Hauptproblem betrifft Zugewinn und Stichtagsbelege. Die zwei neuen/aktualisierten Unterhaltsanker tragen keine Zugewinnrechnung; XII ZB 558/23 bleibt als einschlägiger Anker erhalten."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Unterhalt, Zugewinn oder Sorge und Umgang anbieten.",
+      "Dateien ohne Aufgabe: Vermögensbelege, Betreuungsplan und Schriftverkehr still lesen; gewünschten Zahlungs-, Auskunfts- oder Regelungstext klären.",
+      "Klarer Auftrag: konkrete Berechnung oder Vereinbarung unmittelbar ausarbeiten; bekannte Familien- und Stichtagsangaben nicht wiederholen."
+    ],
+    "continuation": "Geld wurde auf ein eigenes Depot übertragen statt verbraucht -> Vermögenszuordnung und Hinzurechnungsargument ändern; belegter Umzug -> betroffene Umgangszeiten neu regeln.",
+    "enrichment": "Tatsächliche Betreuung statt Planbehauptung, Schulwechsel und Schutzbedarf, Renovierungszahlung gegenüber Rechnung, Vermeidung doppelter Schuld- und Wertansätze sowie Bankentlassung und Sicherung bei Wohnungsübernahme.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 15.04.2026, XII ZB 415/25",
+        "status": "wiederverwendeter_passagennachweis"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-familienrecht.json",
+    "scope": "Zwei ausgewählte aktuelle Entscheidungen, amtlicher Volltext und operative Prompt-/Skillanwendung; keine pauschale Gesamtprüfung.",
+    "decisions": [
+      "BGH, Beschluss vom 15.04.2026, XII ZB 415/25",
+      "BGH, Beschluss vom 22.01.2025, XII ZB 148/24"
+    ],
+    "new_model_test": false
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/miete-familie.json"
+    ],
+    "decisions": [
+      {
+        "citation": "Bundesgerichtshof, Beschluss vom 11.06.2026, IX ZB 1/25",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB___1-25.pdf?__blob=publicationFile&v=1",
+        "application": "Bei abgetretener Ablaufleistung einer Kapitallebensversicherung entscheidet der tatsächliche Rechtsgrund, nicht die Überschrift einer Versorgungsausgleichsvereinbarung. Eine Zugewinnausgleichsforderung ist kein sonstiges Einkommen im Sinne von Paragraf 850i ZPO; bloße Eheführung begründet kein selbst erwirtschaftetes Einkommen. Paragraf 852 Absatz 2 ZPO bleibt gesondert zu prüfen. Paragraf 2 VersAusglG erfordert insbesondere die Trennung von Rentenanrechten, kapitalförmigen Ansprüchen sowie den Sonderfällen betrieblicher und zertifizierter Anrechte; kein doppelter Ausgleich.",
+        "limit": "Zurückverweisung zur Klärung des Abtretungsgrundes, keine abschließende Einordnung der konkreten Versicherungsleistung. Schutz echter Versorgungsanrechte oder einer Gegenleistung für deren Ausschluss nach Paragraf 850i ZPO ausdrücklich offengelassen. Ob Paragraf 852 Absatz 2 ZPO als abschließende Sonderregel Paragraf 850i verdrängt, blieb ebenfalls offen. Keine generelle Pfändbarkeit oder Unpfändbarkeit aller Lebensversicherungen oder Scheidungszahlungen.",
+        "checked_on": "2026-10-16",
+        "verification_status": "checked_on: 2026-10-16; method: Webrecherche; nach gesperrter Webdarstellung amtliches BGH-PDF unmittelbar über HTTPS abgerufen und Text gelesen.; read_scope: Amtlicher Beschluss vollständig mit Kopf, Tenor und Rn. 1 bis 23; verwendete Aussagen insbesondere Rn. 17 bis 23.; status: Amtlicher Beschluss gelesen; tragende Aussagen und ausdrücklich offene Fragen getrennt.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/miete-familie.json",
+        "workflow_effect": "Versicherungsschein, Leistungsform, Abtretung, Gegenleistung und Anerkennungs-/Verfahrensstand beiziehen. Zugewinnforderung, echtes Versorgungsanrecht und Gegenleistung für einen Versorgungsausgleichsverzicht unterscheiden. Bei Insolvenz Paragrafen 35 und 36 InsO prüfen. Erst danach Zuordnung, Berechnung, Schutzempfehlung und verfügbare Vergleichsliquidität bzw. Zahlungsplan berichtigen."
+      }
+    ],
+    "files": [
+      {
+        "path": "fachanwalt-familienrecht/fachanwalt-familienrecht-schnellstart.md",
+        "sha256": "58d8b48f7b0c2cab6bec6cffea121b7872070ac814d1bdf7b8b97226b97c26ef"
+      },
+      {
+        "path": "fachanwalt-familienrecht/fachanwalt-familienrecht-werkstatt.md",
+        "sha256": "3f5b278ae7e62cb62d70dbc5920a7f5721bd6f1ee2739554c6f53868643a5217"
+      },
+      {
+        "path": "fachanwalt-familienrecht/skills/lebensversicherung-abgrenzung-zugewinn-va/SKILL.md",
+        "sha256": "5d4d7f0f31e4c0ac536fd8b8f12b18419512a804fcadb01f7ef89801a3c80a89"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

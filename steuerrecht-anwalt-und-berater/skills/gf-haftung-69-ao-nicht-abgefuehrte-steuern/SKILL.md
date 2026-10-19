@@ -1,6 +1,6 @@
 ---
 name: gf-haftung-69-ao-nicht-abgefuehrte-steuern
-description: "Wenn es um GF-Haftung Paragraf 69 AO für nicht abgeführte Lohn-/Umsatzsteuer in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Gf Haftung 69 Ao Nicht Abgefuehrte Steuern; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für GF-Haftung Paragraf 69 AO für nicht abgeführte Lohn-/Umsatzsteuer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # GF-Haftung § 69 AO für nicht abgeführte Lohn-/Umsatzsteuer
@@ -19,8 +19,6 @@ Verteidigung gegen Haftungsbescheid nach § 69 AO wegen nicht abgeführter Lohns
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `GF-Haftung § 69 AO für nicht abgeführte Lohn-/Umsatzsteuer` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -47,10 +45,6 @@ Verteidigung gegen Haftungsbescheid nach § 69 AO wegen nicht abgeführter Lohns
 - **§ 266a StGB** — Beitragsvorenthaltung Sozialversicherung (Arbeitgeberanteil + Arbeitnehmeranteil); paralleles Strafverfahren bei Lohnsteuer-/SV-Vorenthaltung typisch.
 - **§ 15b InsO** — Zahlungsverbote nach Insolvenzreife; Zusammenspiel mit § 69 AO (Doppelmandat des GF).
 
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Haftungsvoraussetzungen § 69 AO
 
 1. **Vertreter-Stellung** — GF im fraglichen Zeitraum (auch nach Bestellungsende für laufende Verpflichtungen).
@@ -61,7 +55,6 @@ Verteidigung gegen Haftungsbescheid nach § 69 AO wegen nicht abgeführter Lohns
 
 ## Verteidigungslinien
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Wenn liquide Mittel **nicht für alle Gläubiger** ausreichten, war der GF berechtigt, die Mittel **proportional** zu verteilen. Berechnung:
 
@@ -71,7 +64,6 @@ Wenn liquide Mittel **nicht für alle Gläubiger** ausreichten, war der GF berec
 - Proportional auf FA: Z × Y / X
 - → **Haftung nur in Höhe der nicht-anteiligen Differenz.**
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Linie 2 — Verschulden bestreiten
 
@@ -100,7 +92,6 @@ Bei mehreren GF: schriftliche **Aufgabenverteilung** vorgelegt? Hat der Steuerve
 
 **Vorsicht — anders als § 69 AO:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Anteilige-Tilgung-Argument der § 69 AO greift bei § 266a StGB **nicht**.
 - Strategie: Steuerstrafrechtliche Selbstbelastung vermeiden (§ 393 AO trotz Verteidigung StB-Akte). Vgl. `anw-steuerstrafverteidigung-verstaendigung`.
 - Bei parallelem Strafverfahren: Verteidigung primär im Strafverfahren (§ 266a StGB-Folge ist Freiheitsstrafe; § 69 AO-Folge ist Vermögenshaftung).
@@ -152,3 +143,5 @@ Bei Ablehnung Einspruch: Klage nach `anw-klage-finanzgericht`; AdV beim FG § 69
 ## Quellen und Updates
 
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

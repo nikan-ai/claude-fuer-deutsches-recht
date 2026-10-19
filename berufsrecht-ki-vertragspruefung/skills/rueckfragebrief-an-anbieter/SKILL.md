@@ -1,6 +1,6 @@
 ---
 name: rueckfragebrief-an-anbieter
-description: "Wenn es um Rückfragebrief an Anbieter in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rückfragebrief an Anbieter: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Rückfragebrief an Anbieter
@@ -89,10 +89,6 @@ Sachlich, präzise, keine Anschuldigungen. Der Anbieter soll motiviert sein zu a
 
 Der Brief ist eine berufsrechtliche und strafrechtliche Anfrage, keine zivilrechtliche Geltendmachung. Eine zivilrechtliche oder gar strafrechtliche Geltendmachung ist im Streitfall einem spezialisierten Rechtsanwalt vorbehalten.
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - §§ 241 Abs. 2, 311 Abs. 2 BGB — Vorvertragliche Aufklärungspflichten
@@ -158,3 +154,4 @@ Mit freundlichen Gruessen
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

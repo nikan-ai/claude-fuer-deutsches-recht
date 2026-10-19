@@ -1,6 +1,6 @@
 ---
 name: email-berufsrecht-berufsrechtskonform-verhandlung-vergleich
-description: "Wenn es um Berufsrechtskonform: Verhandlung, Vergleich und Eskalation in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Berufsrechtskonform: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: E-Mail-Umformulierer. Route: email-berufsrecht-berufsrechtskonform-verhandlung-vergleich."
 ---
 
 # Berufsrechtskonform: Verhandlung, Vergleich und Eskalation
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `§ 3a RVG` — Vergütungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

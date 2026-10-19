@@ -1,6 +1,6 @@
 ---
 name: anschluss-router
-description: "Wenn es um digitale Werkzeuge-Governance — Allgemein in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für digitale Werkzeuge-Governance — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Governance — Allgemein
@@ -8,8 +8,8 @@ description: "Wenn es um digitale Werkzeuge-Governance — Allgemein in diesem S
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Geltungsbeginn gestaffelt (02.02.2025 Verbote, 02.08.2025 GPAI, 02.08.2026 Hochrisiko Anhang III), schwerwiegender Vorfall 15 Tage, DSGVO DPIA vorab.
-- Tragende Normen verifizieren: EU KI-VO 2024/1689 Art. 9, 10, 14, 22, 27, 50, ISO/IEC 42001, NIST AI RMF 1.0, OECD AI Principles, DSGVO Art. 22, 35, Produkthaftungs-RL 2024/2853 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, für Anhang I ab 02.08.2028. Artikel 4 neuer Fassung, Artikel 4a, Verbote und Transparenz gesondert prüfen; Vorfallfrist nach Tatbestand und Ereignis, Datenschutz-Folgenabschätzung vor riskanter Verarbeitung.
+- Tragende Rechtsgrundlagen am amtlichen EUR-Lex-Text der KI-Verordnung und der gegebenenfalls einschlägigen DSGVO prüfen. ISO/IEC 42001, NIST AI RMF und OECD-Prinzipien sind keine Verordnungsartikel. Bei harmonisierten Normen konkrete Fassung, Amtsblattfundstelle und abgedeckte Anforderungen nach Artikel 40 feststellen; freiwilliges Managementzertifikat und Konformitätsverfahren nach Artikel 43 trennen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsleitung, KI-Officer, Datenschutzbeauftragter, Compliance, Aufsichtsrat, Marktüberwachung, externer Auditor, betroffene Personen.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: KI-Inventar, Risikoanalyse, FRIA (Fundamental Rights Impact Assessment), AI Governance Policy, Modellkarten, Audit-Bericht, DSGVO-DPIA, Schulungsnachweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -69,7 +69,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -105,20 +105,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `anwendungsfall-triage` | Klassifiziert einen vorgeschlagenen KI-Anwendungsfall gegen das Unternehmensregister — freigegeben, bedingt oder nicht freigegeben — und erstellt Auflagenliste und nächste Schritte. Prüft gegen verbotene Praktiken… |
-| `ki-anbieter-pruefung` | Prüft KI-Anbieterverträge gegen die unternehmenseigenen Governance- Positionen; kennzeichnet Training auf Daten, Haftung, Modelländerungen und KI-Richtlinien-Konsistenz. Unterscheidet Anbieter/Betreiber-Rolle nach Art.… |
-| `ki-folgenabschaetzung` | KI-Folgenabschätzung (FRIA nach Art. 27 KI-VO + DSFA nach Art. 35 DSGVO) erstellen – strukturierte Aufnahme, Risikoanalyse, Regulierungsklassifizierung nach KI-VO und DSGVO, Richtlinien-Konsistenzprüfung und Empfehlung… |
-| `ki-governance-anpassen` | Geführte Anpassung Ihres KI-Governance-Praxisprofils – eine Einstellung ändern, ohne das vollständige Kaltstart-Interview neu zu starten. Risikoeinstellung, Eskalationskontakte, Use-Case-Register-Einträge,… |
-| `ki-governance-kaltstart-interview` | KI-Governance-Plugin erstmalig einrichten oder Inventar der KI-Systeme im Unternehmen erfassen und AI-Act-Anwendungsbereich prüfen. Führt Erstgespraech durch ermittelt KI-Inventar Rolle im KI-Lieferkette… |
-| `ki-governance-mandat-arbeitsbereich` | Mandats-Arbeitsbereiche verwalten – neu, liste, wechseln, schließen oder keines (Praxisebene). Datei- Verwaltungslogik, um den Kontext eines Mandanten oder Auftrags von jedem anderen zu trennen. Verwenden, wenn… |
-| `ki-inventar` | KI-System-Inventar nach EU-KI-VO (VO 2024/1689) – erfasst je KI-System Rolle (Anbieter, Betreiber, Einführer, Händler, Bevollmächtigter, Produkthersteller) und Risikoklasse (verboten, hochrisiko, begrenzt, minimal,… |
-| `regulierungs-luecken-analyse` | Gleicht eine neue KI-Regulierung oder Behördenleitlinie mit der aktuellen Governance-Position ab — identifiziert Lücken, Prioritäten und einen Maßnahmenplan mit Verantwortlichen und Fristen. Lädt, wenn der Nutzer… |
-| `richtlinien-monitor` | Überwacht die interne KI-Richtlinie auf Abweichungen von der gelebten Praxis — wöchentlicher Abgleich gespeicherter Folgenabschätzungen, Triage-Ergebnisse und Anbieterprüfungen, oder direkte Prüfung einer geplanten… |
-| `richtlinien-vorlage` | Entwirft eine interne KI-Nutzungsrichtlinie auf Basis veröffentlichter Musterrichtlinien und des Praxisprofils — Recherche- und Synthese-Tool, dessen Ausgabe ein Entwurf für die anwaltliche Prüfung und Freigabe ist,… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -130,18 +123,18 @@ Das Plugin ist praxisorientiert: Es arbeitet mit dem Praxisprofil des Nutzers (R
 
 - Ihr Unternehmen moechte ein neues KI-System einfuehren und Sie müssen prüfen, ob es unter die KI-VO faellt und welche Risikoklasse gilt.
 - Sie benoetigen eine KI-Folgenabschaetzung (FRIA) nach Art. 27 KI-VO oder eine DSGVO-Folgenabschaetzung (DSFA) nach Art. 35 DSGVO.
-- Sie prüfen einen KI-Anbietervertrag auf KI-VO-Konformitaet, Haftung und Transparenzpflichten nach Art. 25 KI-VO.
+- Sie prüfen einen KI-Anbietervertrag auf konkrete Lieferkettenpflichten nach Artikel 25, Haftungszusagen und gegebenenfalls Transparenz nach Artikel 13 beziehungsweise 50. Rollen und gesetzliche Pflicht nicht mit frei verhandelter Klausel vermischen.
 - Die interne KI-Richtlinie soll gegen neue Regulierungen oder Behördenleitlinien geprueft und aktualisiert werden.
 - Sie wollen ein vollstaendiges KI-Inventar aller im Unternehmen eingesetzten Systeme nach Art. 3 KI-VO aufbauen.
 
 ## Fachbegriffe (kurz erklaert)
 
-- **Anbieter** — Wer ein KI-System entwickelt oder entwickeln lässt und es in Verkehr bringt oder in Betrieb nimmt (Art. 3 Nr. 3 KI-VO).
-- **Betreiber** — Wer ein KI-System im eigenen Namen und unter eigener Kontrolle einsetzt (Art. 3 Nr. 4 KI-VO).
-- **Hochrisiko-KI** — KI-Systeme nach Anhang III KI-VO (z.B. biometrische Identifikation, Beschäftigung, kritische Infrastruktur); erfordern umfassende Compliance-Pflichten.
-- **FRIA** — Fundamental Rights Impact Assessment nach Art. 27 KI-VO: Folgenabschaetzung für Grundrechte bei Hochrisiko-KI durch Betreiber.
+- **Anbieter:** Artikel 3 Nummer 3 verlangt Entwicklung oder Entwicklung im Auftrag und das dort bezeichnete Inverkehrbringen beziehungsweise Inbetriebnehmen unter eigenem Namen oder Handelsmarke; unentgeltliches Angebot kann erfasst sein. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **Betreiber:** Artikel 3 Nummer 4 betrifft die Verwendung unter eigener Verantwortung; ausschließlich persönliche nicht berufliche Verwendung ist ausgenommen. Kein allgemeines Eigenmarkenerfordernis für die Betreiberrolle. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **Hochrisiko-KI:** Beide Pfade des Artikels 6 prüfen; im Anhang-III-Pfad Absatz 3 mit Risiko, Fallgruppen und Profiling-Sperre untersuchen. Artikel 6 Absatz 1 mit Anhang I einschließlich Abschnitt A/B und Artikel 2 Absatz 2 von Absatz 2 mit Anhang III trennen. Artikel 6 Absätze 1a bis 1c samt Berichtigung prüfen. Eine sicherheitsrelevante Maschinenfunktion ist nicht allein deshalb ein Anhang-III-Tatbestand. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **Grundrechte-Folgenabschätzung:** Artikel 27 erfasst Betreiber, die Einrichtungen des öffentlichen Rechts oder private Einrichtungen sind, die öffentliche Dienstleistungen erbringen, sowie Betreiber der Systeme nach Anhang III Nummer 5 Buchstaben b und c. Systeme nach Anhang III Nummer 2 sind ausgenommen. Öffentliche Finanzierung allein ist kein Tatbestand. DSFA und FRIA haben eigene Voraussetzungen; vorhandene DSFA-Ergebnisse können nach Artikel 27 Absatz 4 einbezogen werden. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **DSFA** — Datenschutz-Folgenabschaetzung nach Art. 35 DSGVO; erforderlich bei hohem Risiko für Betroffene durch Datenverarbeitung.
-- **Allzweck-KI (GPAI)** — General Purpose AI Model; gesonderte Pflichten nach Art. 51 ff. KI-VO für Modelle mit systemischen Risiken.
+- **GPAI:** Modellbegriff und Anbieterpflichten nach Artikel 53 prüfen; zusätzliche Systemrisikopflichten nach Artikel 55 setzen die einschlägige Einstufung voraus. Die Nutzung eines fremden Modells macht den Nutzer nicht automatisch zum Modellanbieter. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Verbotene Praktiken** — KI-Anwendungen, die nach Art. 5 KI-VO generell verboten sind (z.B. Sozial-Scoring, manipulative Techniken).
 
 ## Rechtsgrundlagen
@@ -160,7 +153,7 @@ Das Plugin ist praxisorientiert: Es arbeitet mit dem Praxisprofil des Nutzers (R
 1. Mandantenkonstellation klären: Unternehmen als Anbieter oder Betreiber, Branche, Groesse, welche KI-Systeme bereits im Einsatz oder geplant.
 2. Phase des Mandats bestimmen: Ersteinrichtung (Inventar, Profil), Triage neues KI-System, Folgenabschaetzung, Richtlinien-Erstellung oder Monitoring.
 3. Passenden Skill auswaehlen (siehe Skill-Tour).
-4. Eilfristen prüfen: KI-VO-Verbote seit 02.02.2025 anwendbar; Hochrisiko-Pflichten seit 02.08.2026; GPAI-Pflichten seit 02.08.2025.
+- **Zeitliche Einordnung:** Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. GPAI-Altmodelle nach Artikel 111 Absatz 3 gesondert prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 5. Anschluss-Skill bestimmen: nach Triage folgt Folgenabschaetzung oder Richtlinien-Monitor; nach Vendor-Review ggf. Vertragsnachverhandlung.
 
 ## Skill-Tour (was gibt es hier?)
@@ -190,10 +183,10 @@ Das Plugin ist praxisorientiert: Es arbeitet mit dem Praxisprofil des Nutzers (R
 ## Worauf besonders achten
 
 - **Anbieter- und Betreiber-Rolle exakt abgrenzen.** Beide Rollen haben unterschiedliche Pflichten nach KI-VO; eine Verwechslung fuehrt zu falschen Compliance-Maßnahmen.
-- **Zeitplan der KI-VO beachten.** Verbote (Art. 5) seit 02.02.2025, GPAI seit 02.08.2025, Hochrisiko seit 02.08.2026; nicht alle Pflichten gelten gleichzeitig.
+- **Zeitliche Einordnung:** Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. GPAI-Altmodelle nach Artikel 111 Absatz 3 gesondert prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **DSFA und FRIA sind keine Duplikate.** Beide Instrumente haben eigene Anwendungsbereiche und können parallel erforderlich sein; Skill `ki-folgenabschaetzung` kombiniert beide.
 - **Interne Richtlinie muss gelebte Praxis abbilden.** Eine Richtlinie, die niemand einhalt, schuetzt nicht vor regulatorischer Verantwortung; Skill `richtlinien-monitor` prüft Konsistenz.
-- **Allzweck-KI-Modelle erfordern Sonderbehandlung.** Bei Einsatz von GPAI-Modellen mit systemischen Risiken gelten Transparenz- und Sorgfaltspflichten nach Art. 53 ff. KI-VO.
+- **GPAI-Modelle gesondert prüfen:** Anbieterpflichten nach Artikel 53 von zusätzlichen Pflichten nach Artikel 55 unterscheiden. Betreiber eines darauf aufbauenden Systems übernehmen diese nicht automatisch; eigenen Rollenwechsel oder Anbieterstatus gesondert begründen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Typische Fehler
 
@@ -208,25 +201,4 @@ Das Plugin ist praxisorientiert: Es arbeitet mit dem Praxisprofil des Nutzers (R
 - Stand: 05/2026
 - VO (EU) 2024/1689 (KI-VO) in geltender Fassung; schrittweise Anwendbarkeit beachten
 - VO (EU) 2016/679 (DSGVO) in geltender Fassung
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 35 DSGVO
-- § 203 StGB
-- Art. 22 DSGVO
-- Art. 28 DSGVO
-- § 87 BetrVG
-- § 26 BDSG
-- § 44b UrhG
-- Art. 36 DSGVO
-- Art. 9 DSGVO
-- Art. 79 DSGVO
-- Art. 32 DSGVO
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: erstgespraech-mandatsannahme
-description: "Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Transport Speditionsrecht."
 ---
 
 # Erstgespraeches-Aufnahme im Transport- und Speditionsrecht strukturiert durchführen: Sachverhalt, Vertragstyp, Schadenstyp
@@ -164,10 +164,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
 - Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
 
-## Aktuelle Rechtsprechung Erstgespraech Transport
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen Erstgespraech Transport
 
 - §§ 407-413 HGB — Frachtvertrag (Grundlagen, Pflichten, Haftung)
@@ -175,3 +171,5 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - Art. 32 CMR — Verjährung im CMR-Verkehr
 - Art. 5 CMR — Frachtbrief als Beweisurkunde
 - §§ 10 ff. GwG — Identifizierungspflichten auch im Transportrechtsmandat
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Memorandums-Ersteller geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Memorandums-Ersteller."
 ---
 
 # Anschluss-Routing
@@ -20,7 +20,7 @@ Dieses Anschluss-Routing für **Memorandums Ersteller** wählt nach dem ersten E
 - `juristisches-questions-fristennotiz` — Juristisches Questions Fristennotiz
 - `laenge-formate-mandantenfreundliche-fassung` — Laenge Formate Mandantenfreundliche Fassung
 - `mandantenanfrage-schnell` — Mandantenanfrage Schnell
-- `workflow-mandantenkommunikation` — Mandantenkommunikation Redteam
+- `mandantenkommunikation-redteam` — Mandantenkommunikation
 - `mandantenunterlagen-tatbestand-beweis-und-belege` — Mandantenunterlagen Tatbestand Beweis und Belege
 - `memo-board-pack-besondere-anlaesse-spezial` — Memo Board Pack Besondere Anlaesse Spezial
 - `memo-compliance-vorfall-intern` — Memo Compliance Vorfall Intern
@@ -40,16 +40,3 @@ Dieses Anschluss-Routing für **Memorandums Ersteller** wählt nach dem ersten E
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 203 StGB
-- § 31 VVG
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: rdg-pruefung-chatbot
-description: "Wenn es um RDG-Prüfung Chatbot in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für RDG-Prüfung Chatbot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # RDG-Prüfung Chatbot
@@ -38,15 +38,11 @@ Mitarbeiter ohne Rechtsanwaltszulassung dürfen KI-generierten Output zu rechtli
 **Baustein RDG-Konformität bei anwaltlicher Nutzung:**
 Rechtsanwältinnen und Rechtsanwälte, die KI-Systeme als Hilfsmittel zur Erstellung von Schriftsätzen, Gutachten oder Beratungsschreiben nutzen und das Ergebnis eigenverantwortlich prüfen und freigeben, verstoßen nicht gegen das RDG. Die Rechtsdienstleistung erbringt in diesem Fall der Anwalt — der Chatbot ist lediglich ein unterstützendes Werkzeug.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Hinweise zur Aktualisierung
 
 Die Rechtsprechung zum RDG im Kontext von KI-Systemen ist noch im Entstehen. Nach neuen BGH-Entscheidungen oder Entscheidungen der Oberlandesgerichte zur Qualifikation von KI-Diensten als Rechtsdienstleistung ist dieser Baustein zu aktualisieren. Auch Gesetzgebungsvorhaben zur Anpassung des RDG an die KI-Realität sind zu beobachten.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - § 2 RDG — Rechtsdienstleistung (Begriff)
@@ -87,3 +83,6 @@ Ergebnis: [ZULASSIG / BEDINGT ZULASSIG / UNZULAESSIG]
 Auflagen: [BESCHREIBUNG]
 Geprueft von: [NAME RA/RAin], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

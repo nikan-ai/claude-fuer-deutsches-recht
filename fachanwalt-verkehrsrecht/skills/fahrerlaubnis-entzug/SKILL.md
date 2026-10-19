@@ -1,6 +1,6 @@
 ---
 name: fahrerlaubnis-entzug
-description: "Wenn es um Fahrerlaubnis Entzug in Fachanwalt Verkehrsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fahrerlaubnis Entzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandant hat Führerschein entzogen bekommen oder befürchtet Entziehung und fragt nach Möglichkeiten
@@ -301,6 +301,3 @@ Aktueller Stand Mai 2026:
 - § 24a Abs. 1a StVG i.d.F. vom 21.8.2024, BGBl. I 2024 Nr. 274 (3.5 ng/ml THC)
 
 ---
-
-<!-- AUDIT 27.05.2026 — Bundle 027 Halluzinations-Reparatur
--->

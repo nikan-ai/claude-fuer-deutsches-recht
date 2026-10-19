@@ -1,6 +1,6 @@
 ---
 name: untersuchung-eroeffnen
-description: "Wenn es um Untersuchung Eroeffnen in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Untersuchung Eröffnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Eröffnet eine neue interne Untersuchungssache — führt die Sachverhaltserfassung durch, generiert die Quellencheckliste und legt das persistente Untersuchungsprotokoll an
@@ -20,8 +20,6 @@ description: "Wenn es um Untersuchung Eroeffnen in Arbeitsrecht geht: prüft Fri
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Untersuchungseröffnung (Arbeitsrecht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -56,14 +54,11 @@ description: "Wenn es um Untersuchung Eroeffnen in Arbeitsrecht geht: prüft Fri
 
 **Leitentscheidungen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Verdachtskündigung — umfassende Sachaufklärung vor Kündigung zwingend;
  Untersuchungspflicht des Arbeitgebers; Dokumentationsanforderungen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Beginn der Zwei-Wochen-Frist des Paragraf 626 Abs. 2 BGB — Fristbeginn erst
  nach ausreichender Sachaufklärung; Pflicht, Ermittlungen zügig zu führen;
  mutwillige Verzögerung kann Verwirkung begründen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Inhaltliche Anforderungen an die Anhörung der beschuldigten Person vor
  Verdachtskündigung; Frage und Antwortrecht; Protokollierungspflicht
 
@@ -115,7 +110,6 @@ Datum und Uhrzeit der Eröffnung im Protokoll festhalten. Dies ist bei
 einer eventuellen Verdachtskündigung der Ausgangszeitpunkt für die
 Fristberechnung nach Paragraf 626 Abs. 2 BGB (Frist beginnt mit sicherer
 Kenntnis, nicht mit bloßem Verdacht — aber Aufklärung ist zügig
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beispiel
 
@@ -142,7 +136,6 @@ Beispiel-Ausgabe nach Sachverhaltserfassung (Betriebsrat-Flag):
  der Untersuchungsunterlagen fraglich. Vor Anlegen der ersten Datei klären.
 - **Paragraf 626 Abs. 2 BGB-Uhr läuft**: Die Frist beginnt bei sicherer Kenntnis.
  Mutwillige Verzögerung der Untersuchung kann dazu führen, dass die
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Paragraf 82 Abs. 2 BetrVG versäumt**: Wenn dem Arbeitnehmer das Recht auf
  Hinzuziehung eines Betriebsratsmitglieds nicht mitgeteilt wird, kann
@@ -161,7 +154,6 @@ Bei jeder Eröffnung zitieren:
 - Paragrafen 34, 36, 37 HinSchG (bei Hinweisgebersachen)
 - Paragraf 82 Abs. 2, Paragrafen 84, 85 BetrVG (Betriebsratsrechte)
 - Paragraf 626 Abs. 2 BGB (Fristbeginn-Dokumentation)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Beschäftigtendatenschutz: Paragraf 26 BDSG, Art. 5 und 6 DSGVO; Fachliteratur nur mit Nutzerquelle oder verifiziertem Live-Zugriff.
 
 Detaillierte Sachverhaltserfassung, Quellenchecklisten-Vorlagen und
@@ -170,10 +162,6 @@ Protokolldateiformate befinden sich in der Referenz-Skill
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-## Ergänzende Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor der Eröffnung klären
 
 1. Ist die Untersuchung anwaltsgeleitet? (→ legal privilege, Schutzstatus klären)
@@ -181,3 +169,5 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 3. Liegt ein Betriebsratsmitglied als Beschuldigte/r vor? (→ Paragraf 103 BetrVG beachten)
 4. Schwerbehindert? Werdende Mutter? (→ besonderer Kündigungsschutz)
 5. Paragraf 626 Abs. 2 BGB-Uhr: Datum/Uhrzeit der Eröffnung festhalten
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

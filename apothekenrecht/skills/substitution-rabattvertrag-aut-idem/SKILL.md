@@ -1,6 +1,6 @@
 ---
 name: substitution-rabattvertrag-aut-idem
-description: "Wenn es um Substitution Rabattvertrag Aut-idem in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Substitution Rabattvertrag Aut-idem: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Substitution Rabattvertrag Aut-idem
@@ -40,7 +40,7 @@ Eingaben:
 
 - **§ 129 SGB V:** Rahmenvertrag, Aut-idem-Substitution, Rabattvertragsregeln.
 - **Anlage 1 Rahmenvertrag § 129 SGB V** (vom Anwender zu verifizieren — Vereinbarung GKV-Spitzenverband / DAV): Substitutionsausschlussliste.
-- **§ 73 Abs. 5 SGB V:** Wirtschaftlichkeitsgebot.
+- **Paragraf 12 SGB V:** Wirtschaftlichkeitsgebot; Paragraf 129 SGB V steuert Abgabe, Substitution und Rahmenvertragsbindung der Apotheke.
 - **§ 17 Abs. 5 ApBetrO:** Abgabe nach pharmazeutischer Sorgfalt.
 - **§ 12 ApBetrO:** Beratungspflicht.
 - BSG und LSG, staend. Rspr. zu Retaxation und Pharmazeutische Bedenken.

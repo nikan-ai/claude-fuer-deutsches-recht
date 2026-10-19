@@ -1,6 +1,6 @@
 ---
 name: mandat-arbeitsbereich
-description: "Wenn es um Mandat-Arbeitsbereich – Mehrmandat-Kanzlei in Datenschutzrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandat-Arbeitsbereich – Mehrmandat-Kanzlei: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandat-Arbeitsbereich – Mehrmandat-Kanzlei
@@ -129,10 +129,6 @@ Stand: 05/2026. Aktualität prüfen bei Änderungen der BRAO (Aktenaufbewahrungs
 - `datenschutzrecht/skills/mandantendaten-ki/SKILL.md` — Mandatsisolation bei KI-Diensten
 - `datenschutzrecht/skills/avv-pruefung/SKILL.md` — Mandatsspezifische AVV-Prüfung
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Wie viele Mandate/Mandanten sind gleichzeitig aktiv?
@@ -154,3 +150,5 @@ Aktuell aktiver Kontext: [ID_X]
 Sicherheitshinweis: Kontextleak zwischen Mandaten wurde verhindert.
 Letzter Wechsel: [DATUM, UHRZEIT]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

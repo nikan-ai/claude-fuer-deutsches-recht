@@ -1,0 +1,157 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Fremder China-/Exportkontroll-Text durch historische Quellen-, Fassungs- und Überlieferungsgrenze ersetzt; keine Rechtsprechung erzwungen.",
+    "files": [
+      {
+        "path": "deutsche-rechtsgeschichte/README.md",
+        "sha256": "af675445024ce4f854395f524bbf6b385356726293d26333d4551c632e0f15e9"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Historische Frage und nachweisbarer Textzeuge bestimmen den Einstieg; Edition, Archiv, Zeit und Ort ersetzen einen sachfremden modernen Leitfall.",
+    "norms_or_source_basis": "Konkrete historische Normfassung, Edition und archivalischer Textzeuge",
+    "selected_anchor_identifiers": [],
+    "application_limit": "Historische Quellen bleiben auftragsabhängig; keine neue Quellenautopsie behauptet.",
+    "anchor_exception": "Kein allgemeiner heutiger Rechtsprechungsanker für historische Quellenarbeit; vorhandener Spezialanker zu staatlichem Unrecht bleibt erhalten.",
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/deutsche-rechtsgeschichte/deutsche-rechtsgeschichte-schnellstart.md",
+      "status": "changed",
+      "sha256": "83f691e8085157351957597f06c37c98bb98e78f40c95fb7023408238fb1a051",
+      "characters": 6132,
+      "utf8_bytes": 6222,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/deutsche-rechtsgeschichte/deutsche-rechtsgeschichte-werkstatt.md",
+      "status": "changed",
+      "sha256": "46f6592cfb21c0c376289c534e2e35c02bb4c1c314a8a5e8a58b97e3162c1953",
+      "characters": 16276,
+      "utf8_bytes": 16534,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "deutsche-rechtsgeschichte",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bundesverfassungsgericht.de/e/rs19961024_2bvr185194.html",
+      "checked_on": "2026-09-22",
+      "supports": "Norm, Rechtfertigung und tatsächliche Handhabung beim staatlichen Unrecht getrennt prüfen. Grenze: Keine pauschale Rückwirkung heutiger Moralvorstellungen. Amtliche Leitsätze geprüft; historische Einzelfallquellen bleiben auftragsabhängig."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Historische Regel, belegte Anwendungspraxis und heutige Aufarbeitung getrennt zum Ausgangspunkt gemacht. Workflow-Ergänzung einzeln geprüft: Quelle ist eine spätere Abschrift oder enthält eine unsichere Negation -> Quellenbezeichnung, Lesung, Beweiswert und historische These ändern, nicht nur Literaturangabe. Einstiegsredaktion 16.10.2026, Batch 2: Historische Frage und nachweisbarer Textzeuge bestimmen den Einstieg; Edition, Archiv, Zeit und Ort ersetzen einen sachfremden modernen Leitfall. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Historische Regel, belegte Anwendungspraxis und heutige Aufarbeitung getrennt zum Ausgangspunkt gemacht.",
+      "Norm, Rechtfertigung und tatsächliche Handhabung beim staatlichen Unrecht getrennt prüfen. Grenze: Keine pauschale Rückwirkung heutiger Moralvorstellungen.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Historische Frage und nachweisbarer Textzeuge bestimmen den Einstieg; Edition, Archiv, Zeit und Ort ersetzen einen sachfremden modernen Leitfall. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "83f691e8085157351957597f06c37c98bb98e78f40c95fb7023408238fb1a051"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Überlieferung einer historischen Gerichtsakte.",
+      "Erstelle eine kritische Synopse einer Norm und ihrer späteren Edition."
+    ],
+    "negative": [
+      "Berechne die heutige Einspruchsfrist eines Steuerbescheids.",
+      "Entwirf einen aktuellen Grundstückskaufvertrag ohne historische Fragestellung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "edition-ocr-und-praxisbehauptung",
+      "request": "Für ein Seminar soll ergebnis.md die Belastbarkeit folgender Materialien bewerten. Eine gedruckte Edition von 1920 bezeichnet einen Text als Abschrift einer Ratsordnung von 1780; das Original gilt laut Editionsvorwort als verschollen. Die OCR liest: Bürger dürfen ohne Erlaubnis handeln. Im mitgelieferten, hier textlich beschriebenen Scan ist vor ohne ein beschädigtes Wort sichtbar, das der Editor mit eckigen Klammern als nicht ergänzt. Eine Seminararbeit folgert daraus, in der Stadt habe 1780 jeder ohne Beschränkung Handel getrieben. Gerichtsakten oder Vollzugsberichte liegen nicht vor. Erstelle eine Quellenkarte und eine vorsichtige Ersatzformulierung; recherchiere keine fiktive Stadtgeschichte.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Edition von 1920 wird nicht als Original von 1780 bezeichnet; die Überlieferung über Abschrift und Edition bleibt erkennbar.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die unsichere Negation wird nicht still gestrichen oder als zweifelsfreier historischer Wortlaut ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Aussage über unbeschränkte tatsächliche Handelspraxis wird mangels Vollzugsquellen nicht aus dem Normfragment abgeleitet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "quellenkritik-archiv-und-edition"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Historische Regel, belegte Anwendungspraxis und heutige Aufarbeitung getrennt zum Ausgangspunkt gemacht. Workflow-Ergänzung einzeln geprüft: Diplomatische und normalisierte Lesung, Datierung und Geltungsraum, Normtext gegenüber Prozessbehauptung und Anwendungspraxis, Gegenbeispiel gegen absolute These sowie begrenzte Aussage ohne Original. Einstiegsredaktion 16.10.2026, Batch 2: Historische Frage und nachweisbarer Textzeuge bestimmen den Einstieg; Edition, Archiv, Zeit und Ort ersetzen einen sachfremden modernen Leitfall. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Historische Regel, belegte Anwendungspraxis und heutige Aufarbeitung getrennt zum Ausgangspunkt gemacht.",
+      "Norm, Rechtfertigung und tatsächliche Handhabung beim staatlichen Unrecht getrennt prüfen. Grenze: Keine pauschale Rückwirkung heutiger Moralvorstellungen.",
+      "Diplomatische und normalisierte Lesung, Datierung und Geltungsraum, Normtext gegenüber Prozessbehauptung und Anwendungspraxis, Gegenbeispiel gegen absolute These sowie begrenzte Aussage ohne Original.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Historische Frage und nachweisbarer Textzeuge bestimmen den Einstieg; Edition, Archiv, Zeit und Ort ersetzen einen sachfremden modernen Leitfall. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "46f6592cfb21c0c376289c534e2e35c02bb4c1c314a8a5e8a58b97e3162c1953"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "deutsche-rechtsgeschichte/deutsche-rechtsgeschichte-werkstatt.md",
+      "deutsche-rechtsgeschichte/deutsche-rechtsgeschichte-schnellstart.md"
+    ],
+    "opening_change": "Historische Regel, belegte Anwendungspraxis und heutige Aufarbeitung getrennt zum Ausgangspunkt gemacht. Workflow-Ergänzung: Leer: Quellenkommentar, Fassungsvergleich oder historische Fallanalyse anbieten. Dateien ohne Aufgabe: Textzeugen still lesen und wissenschaftliches Ziel klären; keine automatische Quellenübersicht. Klarer Auftrag: historische Ausarbeitung ohne künstliche Mandats- oder Fristenaufnahme; Original, Abschrift und Edition unterscheiden.",
+    "norms": [
+      "Artikel 103 Absatz 2 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, 24.10.1996, 2 BvR 1851/94 u. a., Leitsätze",
+        "url": "https://www.bundesverfassungsgericht.de/e/rs19961024_2bvr185194.html",
+        "application": "Norm, Rechtfertigung und tatsächliche Handhabung beim staatlichen Unrecht getrennt prüfen.",
+        "limit": "Keine pauschale Rückwirkung heutiger Moralvorstellungen."
+      }
+    ],
+    "remaining_limits": [
+      "Amtliche Leitsätze geprüft; historische Einzelfallquellen bleiben auftragsabhängig.",
+      "Workflow-Review 23.09.2026: erneuter BVerfG-Abruf nicht erfolgreich; vorhandener historischer Fallanker bleibt mit bisheriger Prüftiefe erhalten. Keine neuen historischen Tatsachen oder Originalzitate erfunden."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Quellenkommentar, Fassungsvergleich oder historische Fallanalyse anbieten.",
+      "Dateien ohne Aufgabe: Textzeugen still lesen und wissenschaftliches Ziel klären; keine automatische Quellenübersicht.",
+      "Klarer Auftrag: historische Ausarbeitung ohne künstliche Mandats- oder Fristenaufnahme; Original, Abschrift und Edition unterscheiden."
+    ],
+    "continuation": "Quelle ist eine spätere Abschrift oder enthält eine unsichere Negation -> Quellenbezeichnung, Lesung, Beweiswert und historische These ändern, nicht nur Literaturangabe.",
+    "enrichment": "Diplomatische und normalisierte Lesung, Datierung und Geltungsraum, Normtext gegenüber Prozessbehauptung und Anwendungspraxis, Gegenbeispiel gegen absolute These sowie begrenzte Aussage ohne Original.",
+    "limits": "desk review; no live client execution"
+  }
+}

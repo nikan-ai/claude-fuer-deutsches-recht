@@ -1,6 +1,6 @@
 ---
 name: untersuchungs-zusammenfassung
-description: "Wenn es um Untersuchungs Zusammenfassung in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Untersuchungs Zusammenfassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Entwirft eine zielgruppengerechte Zusammenfassung aus dem vertraulichen Untersuchungsvermerk — für HR, Geschäftsführung/Aufsichtsrat oder externe Bevollmächtigte
@@ -20,8 +20,6 @@ description: "Wenn es um Untersuchungs Zusammenfassung in Arbeitsrecht geht: pr�
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Untersuchungs-Zusammenfassung für Zielgruppen (Arbeitsrecht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -55,14 +53,11 @@ description: "Wenn es um Untersuchungs Zusammenfassung in Arbeitsrecht geht: pr�
 
 **Leitentscheidungen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Inhalt der BR-Anhörung — die Anhörung muss den Sachverhalt vollständig
  und richtig wiedergeben; fehlerhafte Grundlage (z. B. aus unvollständiger
  HR-Zusammenfassung) macht die Kündigung unwirksam
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Verdachtskündigung — Ergebnisse müssen auf objektiven Tatsachen beruhen,
  die auch in einer HR-Kommunikation lückenlos nachvollziehbar sind
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Informationspflichten der Geschäftsleitung gegenüber dem Aufsichtsrat bei
  laufenden Untersuchungen; Dokumentationspflicht für Governance-Entscheidungen
 
@@ -208,7 +203,6 @@ Bei allen Ausgaben zitieren (zielgruppenspezifisch):
 - Bei AGG-relevantem Sachverhalt: Paragraf 22 AGG und frei verifizierte BAG-Rechtsprechung
 - Bei Hinweisgebersachen: Paragrafen 8, 37 HinSchG
 - Bei GF/AR-Briefing: Paragrafen 93, 116 AktG / Paragraf 43 GmbHG;
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Paragraf 26 BDSG (Zweckbindung, Datenminimierung)
 
 Detaillierte Zielgruppen-Stripping-Regeln und Zusammenfassungs-Templates
@@ -217,13 +211,11 @@ inhaltlicher Arbeit laden.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-## Ergänzende Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor der Zusammenfassung klären
 
 1. Für welche Zielgruppe ist die Zusammenfassung bestimmt? (HR / Geschäftsführung/AR / externe Bevollmächtigte)
 2. Welche Entscheidung soll die Zusammenfassung unterstützen? (Disziplinarmaßnahme / Governance / Prozessvorbereitung)
 3. Liegt ein HinSchG-Sachverhalt vor? → Identitätsschutz sicherstellen
 4. Dient sie als Grundlage für die BR-Anhörung? → Paragraf 102 BetrVG, Vollständigkeitspflicht!
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

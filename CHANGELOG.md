@@ -1,3 +1,1915 @@
+# un-kaufrecht-cisg-v1.0.0 – 2026-10-18
+
+Eigenständiges UN-Kaufrechtspaket mit zehn Fachskills und einem Hauptskill, ausführlicher Werkstatt sowie kompaktem Mini- und Hauptproblem-Prompt. Vertragsschluss, ausdrückliche Abwahl, kollidierende AGB, Mängelrechte, Aufhebung, Schaden und Transport werden bis zum fertigen Dokument bearbeitet. Quellenstatus und Reichweite der BGH-Entscheidungen aus 2001, 2002, 2025 und 2026 bleiben ausdrücklich getrennt.
+
+Drei Handelsakten zu Pumpen, Sensoren und Produktionsmaschinen verbinden ausgearbeitete Verträge, Geschäftskorrespondenz, echte E-Mail-Anlagen, Zahlenlisten und technische Belege. Gesamt-PDFs und flache Original- sowie Einzel-PDF-ZIPs werden byte- und inhaltsbezogen abgeglichen. Elf individuelle Fachprüffälle, reproduzierbarer Komponentenbuild und aktualisierte Verzeichnisse ergänzen die Veröffentlichung; vorhandene Sammelarchive bleiben unverändert.
+
+# Rechtsprechungsvertiefung des Quellstands – 2026-10-16
+
+21 gezielt verifizierte Entscheidungen in 31 Fachpaketen mit konkreten Rückfragen, Prüfwegen und Folgeprodukten eingearbeitet. Schwerpunkt sind Arbeits-, Miet-, Erb-, Familien-, Pflege-, Renten-, Steuer-, Bank-, Insolvenz-, Medizin-, Verwaltungs-, Straf-, Daten-, Urheber- und Vergaberecht. Volltext, ausgewertete Passagen, Pressemitteilung und Terminbericht bleiben im Quellenstatus getrennt; Grenzen und Gegenfälle stehen bei den jeweiligen Aussagen.
+
+Konkrete Altfehler zu Sachgrundbenennung, verspäteter Befristungskontrollklage, BEM, Härtewiderspruch, Patientenaktenkopie, Approbationsmaßnahmen, Regressverjährung und Gerichtszuordnung berichtigt. Neue Regressionen sichern die korrigierten Norm-, Kosten- und Zuständigkeitsaussagen. Die README-Gliederung vermeidet doppelte Sprungziele; Skill-Übersichten und dokumentierte Promptfassungen sind abgeglichen.
+
+Nachweise unter `quality/rechtsprechung-vertiefung-2026-10-16/`. Keine pauschale Neuverifikation aller Altquellen, kein Live-Modelltest und keine Änderung bestehender Fallaktenpakete. Bestehende Versionstags und Release-Archive bleiben unverändert; die Prüfung verbessert den Quellstand.
+
+# phishing-v445.35.4 – 2026-10-16
+
+EuGH C-70/25 wird anhand des amtlichen Volltexts in sieben fachlich passenden Plugins eingeordnet. Phishing-Skills, Werkstatt, Mini, Vorlagen und Offline-Hilfe trennen unverzügliche Erstattung und späteren Rückgriff. Elf Regressionen sichern die wesentlichen Entscheidungswege und Eingabegrenzen.
+
+Die deutsche Akte Rabenstein ergänzt den Bestand um 28 Originaldateien mit E-Mails, Anhängen, Word-Entwürfen, PDF-Belegen und Excel-Auswertung. Die bisherige Akte Mayer und ihre Downloads bleiben erhalten. Einzelpakete, Quellen- und Prüfnachweise werden als eigenständige Komponente veröffentlicht; das allgemeine Sammelrelease bleibt unverändert.
+
+# Qualitätsprüfung des Quellstands – 2026-10-16
+
+Die READMEs der 302 Plugins und die zugehörigen Prompt-Einstiege wurden fachgebietsweise auf Verständlichkeit, passende Arbeitsprodukte, Rückfragen und Fortsetzung geprüft. Unnötige Pflichtinterviews, unpassende Startanweisungen und widersprüchliche Angaben werden konkret korrigiert; die bewährten eigenständigen Arbeitsabläufe bleiben erhalten. Der Prüfbericht unter `quality/qualitaetsrunde-2026-10-16/` trennt individuelle Textprüfung, technische Bestandsprüfung und gezielte neue Quellenabgleiche.
+
+Amtliche Nachprüfungen berichtigen unter anderem sozialrechtliche Fristen, beamtenrechtliche Normzuordnungen, berufsrechtliche Geheimhaltungsregeln und unzutreffend eingeordnete Entscheidungsanker. Für den Pastiche-Anker ist der inzwischen gelesene amtliche Urteilstext statt allein der Pressemitteilung dokumentiert. Die übrigen Quellenstände werden nicht pauschal neu datiert; daraus folgt keine rechtliche Gesamtfreigabe sämtlicher Skills.
+
+Installation, Einzelpakete und Sammelstände werden deutlicher getrennt. Katalogzahlen und Einzelübersichten sind abgeglichen. Zusätzliche Regressionen erkennen veraltete Marketplace-Hinweise und unterscheiden vollständige Tabellen am Promptende von abgebrochenem Text. Bestehende Testakten, Versionstags und Release-Archive bleiben unverändert; diese Runde verbessert den Quellstand und ersetzt kein bereits veröffentlichtes Installationspaket.
+
+Die anschließende Paketprüfung erfasste zusätzlich den Importvergleich der Immobilien-Rechtsabteilung und ihrer Versandwerkstatt. Die bewusst korrigierten Methoden- und Signaturreferenzen werden dort mit geprüften Dateiprüfsummen und inhaltlichen Gegenproben geführt; das ursprüngliche Importarchiv bleibt unverändert. Der Pakettest prüft auch die tatsächlich übernommenen Referenztexte, statt deren bloßes Vorhandensein genügen zu lassen.
+
+# strafvollzug-jva-v1.1.0 – 2026-10-16
+
+Zwei lebensnahe Akten aus Hessen und Baden-Württemberg ergänzen den Bestand um 68 Originaldateien. Sie verbinden Absonderung, streitige Gewaltvorwürfe, Suizidprävention, Schutzmaterial, Raum- und Belegungsdaten mit früheren anwaltlichen Anträgen, gerichtlichen Beschlüssen und bearbeitbaren Folgeentwürfen. Die vier bisherigen Akten bleiben erhalten.
+
+Elf Skills, Werkstatt und kompakte Prompts vertiefen die Prüfung von Landesrecht, Fortdauer, Beweisen und gerichtlicher Aufklärung. Der Landeswegweiser trennt amtlich gelesene aktuelle Normen, Rechercheeinstiege und historische Verwaltungsvorschriften. Zusätzliche Entscheidungsanker erläutern ihre konkrete Tragweite und Grenze. Sechs Akten, 132 Originaldateien und 30 Release-Dateien werden mit Quellen, Anhängen, Tabellen und Lesefassungen abgestimmt.
+
+# prompt-einstiege-v1.0.1 – 2026-10-16
+
+Der Synchronisierer der eingebundenen Vergaberecht-Werkstatt erhält die sechs individuell redigierten veröffentlichten Rollenprompts, sofern deren bestehende dateigebundene Qualitätsnachweise gültig sind. Fehlender oder abweichender Nachweis führt zum Fehler, nicht zum Überschreiben durch ältere Generatorquellen. Importregressionen prüfen Abgleich und Manipulationserkennung bereits außerhalb des Komponentenworkflows. Der vollständige Schnelltest der Komponente ergänzt die abschließenden lokalen Prüfläufe.
+
+Das Markdown-Komponentenrelease veröffentlicht die überarbeiteten Einstiege einschließlich dieser Integrationskorrektur. Der vorausgehende Prüftag bleibt unverändert; bestehende Plugin- und Aktenpakete werden nicht ersetzt.
+
+# prompt-einstiege-v1.0.0 – 2026-10-16
+
+Die Einstiege der veröffentlichten Werkstatt- und Schnellstart-Prompts wurden je Fachgebiet redaktionell geprüft. Die Prüfung umfasst 609 Markdown-Dateien aus dem Katalog mit 302 Plugins, einschließlich der neun HOAI-Phasenwerkstätten und der Betreuungs-Unterlagenwerkstatt. Bereits passende Einstiege bleiben erhalten; Angebote ohne eigenständige Begleitprompts erhalten keine zusätzlichen Dateien.
+
+Konkreter Auftrag und Arbeitsprodukt stehen vor Einrichtungshinweisen und umfangreichen Zuordnungstabellen. Einschlägige vorhandene Entscheidungsanker erscheinen früh mit ihrer Bedeutung und Aussagegrenze. Historische Quellen, rein technische Angebote und fehlende verifizierte Rechtsprechung bleiben unterscheidbar. Rückfragen, fachliche Verzweigungen und die Fortsetzung bis zum bestellten Dokument bleiben erhalten.
+
+Vorhandene Textkopien und Prüfsummen werden synchronisiert. Eine neue strukturelle Einstiegsprüfung ergänzt die bestehenden Workflow-, Quellenzuordnungs-, Veröffentlichungs- und Marketplace-Prüfungen. Diese Redaktion ist keine neue Vollprüfung sämtlicher Rechtsquellen und kein Live-Test in fremden Oberflächen.
+
+Eigenständiges Markdown-Komponentenrelease; installierbare Skills, Plugin-Manifeste, Testakten und bisherige Release-Assets bleiben unverändert. Das allgemeine Marketplace-Release wird nicht ersetzt. Die Bestandsaufnahme und Prüfgrenzen stehen unter `quality/prompt-einstiege-2026-10-16/`.
+
+# untersuchungshaft-v1.1.0 – 2026-10-16
+
+Werkstatt-Prompt mit dreizehn eingeordneten Entscheidungen, konkreten Rückfragen und Folgeanträgen vertieft. Elf amtliche BVerfG-Originale und zwei sekundär abgeglichene BGH-Beschlüsse bleiben im Quellenstatus unterscheidbar. Nichtannahme, verspätete Haftprüfung und offengelassene Auflagenfragen werden nicht in automatische Entlassungsansprüche umgedeutet.
+
+Mini-Prompt in zehn kurze Abschnitte mit acht Rechtsprechungsankern gegliedert, unter 7.500 Zeichen und UTF-8-Bytes auch mit Windows-Zeilenumbrüchen. Regressionen sichern Fundstellenzuordnung, Lesbarkeit, Quellenstatus und Downloadkohärenz. Zehn Skills und vier Akten bleiben inhaltlich unverändert, bestehende Aktenlinks gültig.
+
+Downloadmarkierungen und Warnhinweise der vier Akten an den gemeinsamen Standard angepasst, einschließlich reproduzierbarer Ausgabe und zusätzlicher Release-Prüfung. Akteninhalte und Binärdateien bleiben unverändert.
+
+# strafvollzug-jva-v1.0.1 – 2026-10-16
+
+Der Werkstatt-Prompt erhält vertiefte thematische Prüfabläufe und zusätzliche amtlich gelesene Rechtsprechungsanker mit konkreter Tragweite und Aussagegrenze. Der Mini-Prompt wird in kurze verständliche Arbeitsschritte gegliedert. Lesefassungen, Prüfnachweise und aktive Pluginverweise werden gemeinsam fortgeschrieben; elf Skills und vier Testakten bleiben erhalten.
+
+# untersuchungshaft-v1.0.0 – 2026-10-16
+
+Zehn Fachskills für Haftanordnung, Verteidigung, Haftverschonung, Haftprüfung, Beschwerde, Haftdauer, Vollzugsrechte und Jugendhaft. Gericht, Staatsanwaltschaft, Verteidigung und Betroffene erhalten unterschiedliche, ausformulierte Arbeitsprodukte. Werkstatt und Schnellstart bleiben eigenständige Downloads.
+
+Vier Akten aus Berlin, Köln, Dresden und Bremen enthalten 36 Originalunterlagen: Word-Schreiben, E-Mails mit tatsächlichen Anlagen, Tabellen und Notizen. Gesamt-PDFs und flache Einzel-PDF- sowie Originalformat-ZIPs sind aufeinander abgestimmt. Rechtsstand, Quellenstatus und Grenzen notwendiger Verteidigung sind ausdrücklich berücksichtigt. Bestehende Akten-Downloads bleiben auf ihren bestätigten Release-Adressen.
+
+# gvb-reinigungsvergabe-v1.0.0 – 2026-10-10
+
+Neues Plugin mit genau zehn Fachskills für die Berliner Reinigungsvergabe: fünf Schritte zur Unterlagenerstellung und fünf zur Verfahrensführung. Ausführlicher Werkstatt-Prompt und kompakter Schnellstart sind getrennt herunterladbar. Zehn individuelle Prüffälle sichern die fachlichen Übergaben, Rückfragen, Dokumentausgaben und Grenzen externer Freigaben.
+
+Die zehn ursprünglichen Assistenten bleiben bytegenau im eigenständigen Projekt erhalten. Die Akte wächst um zehn konkrete Unterlagen auf 48 Originaldateien und 51 Gesamtseiten. Flache Original- und Einzel-PDF-ZIPs, Quellenstatus, Verzeichnisse und Komponentenrelease werden gemeinsam geprüft. Kein zusätzlicher Marketplace-Eintrag für das Beispielprojekt und keine ungefragte Installation der Akte.
+
+# gesellschaftervereinbarung-v1.1.0 – 2026-10-09
+
+Die Berliner Drohnenfriseur-Akte wächst von 22 auf 46 Originaldateien. Die Vorgeschichte umfasst Vorgründung, UG-Gründung, gesonderte Rechtezuwendung, Barkapitalerhöhung zur GmbH, frühe Beteiligungsrunden, Brückendarlehen, Rangvereinbarungen und eine Zahlungsenge. Ein privates Darlehen mit streitiger Beteiligungsabrede bleibt anhand der Verträge und Korrespondenz auswertbar, ohne eine Lösung vorzugeben.
+
+Der Vertragsentwurf erhält 32 Kapitel, detaillierte ausfüllbare Anlagen und durchgängig Times New Roman 11 mit dezimaler Gliederung. Das Term Sheet und sieben Excel-Blätter stimmen historische Anteile, Tranchen, Darlehenszinsen und eine gesonderte Wandlungsvariante aufeinander ab. Gesamt-PDF sowie flache Original- und Einzel-PDF-Pakete werden erneuert. Der übrige Marketplace bleibt unverändert.
+
+# gesellschaftervereinbarung-v1.0.0 – 2026-10-09
+
+Neues Spezialplugin mit zehn Fachskills und einem Hauptskill für Gesellschaftervereinbarungen, drei eigenständigen Markdown-Prompts und einer Berliner Beteiligungsakte. Die 22 Originale enthalten ein erweitertes Term Sheet, einen ausformulierten ausfüllbaren Vertragsentwurf, Verhandlungskorrespondenz, gesellschaftsrechtliche Unterlagen und eine formelbasierte Kapitalplanung. Beide Tranchen und die noch offenen wirtschaftlichen Entscheidungen bleiben getrennt nachvollziehbar.
+
+Eigenes Komponentenrelease mit geprüften Plugin-Paketen, Word-Downloads und den drei Aktenfassungen. Der Aktenfilter lässt ausschließlich die ausdrücklich gewünschte Ausfüllfassung zu; Lösungsunterlagen bleiben ausgeschlossen. Regressionstests sichern Originalbestand, Anhänge, Kapitalrechnung und Paketabgleich. Verzeichnisse und Qualitätsprofil sind ergänzt.
+
+# v445.35.3 – 2026-10-09
+
+Das Gesamtrelease führt den aktuellen Marketplace mit 296 Plugins und 23238 Skills sowie die seit dem letzten Gesamtrelease ergänzten Komponenten in den Sammelpaketen zusammen. Dazu gehören die Vergaberecht-Werkstatt, Krankenhaus-IT und KI, die Betreuungsrecht-Erweiterung, Geldwäschebeauftragter, KI-native Kanzlei, Gesellschafterstreit und die KI-Verordnungs-Fachrunde. Die jeweils bestehenden Komponentenreleases und ihre eigenen Versionsstände bleiben erhalten.
+
+Der Marketplace und die 202 Plugins ohne eigenes festgelegtes Komponentenrelease erhalten Version 445.35.3. Die 94 separat versionierten Plugins behalten ihre Komponentenversion. Manifeste und aktive Versionsangaben in den Übersichten werden darauf abgestimmt. Die Akten-ZIPs werden innerhalb der GitHub-Assetgrenze auf Begleitreleases verteilt; Sammelpakete und installierbare Plugins liegen im Hauptrelease.
+
+Diese Veröffentlichung bündelt den vorhandenen Fachbestand und aktualisiert Verpackung, Versionsangaben und Downloadführung. Sie stellt keine erneute rechtliche Vollprüfung sämtlicher Skills, Prompts oder Testakten dar. Bestehende Fachprüfungen und ihre Daten gelten nur für den dort dokumentierten Umfang. Der konkrete technische Prüfumfang wird mit den Release-Prüfprotokollen nachgewiesen.
+
+# gesellschafterstreit-v445.34.2 – 2026-10-09
+
+Die Berliner Testakte erhält eine ausführliche Fassung der bestehenden Klage mit den zugehörigen Anlagen K1–K9. Mandatsmail und Nachrichtenbeleg werden darauf abgestimmt. Der gesonderte Nachtrag `Vergleich_2026-10-09` ergänzt fünf Dokumente in Word und PDF, darunter einen Vertragsentwurf, sowie sechs E-Mails zur Vergleichsverhandlung.
+
+Pluginversion und aktive Downloadverweise werden auf das eigene Komponentenrelease 445.34.2 angehoben. Gesamt-PDF und beide Berliner Akten-ZIPs werden aus dem erweiterten Bestand gebaut. Die anderen Testakten, Skills, Prompts und juristischen Referenzen bleiben fachlich unverändert; bestehende Veröffentlichungen werden nicht überschrieben.
+
+# ki-verordnung-v445.35.2 – 2026-10-09
+
+- Redaktioneller Nachlauf zur KI-Fachrunde: neue README- und Referenzüberschriften dezimal gegliedert, bisherige Sprungziele erhalten.
+- 80 Komponentenpakete mit aktualisierten Versionen und Downloadwegen; dieselben fünf vollständigen neuen Testakten und neun bisherigen Fälle.
+- Fachtexte, native Arbeitsdateien und Lesefassungen bleiben inhaltlich unverändert; 445.35.1 bleibt als bestehende Veröffentlichung erhalten.
+
+# ki-verordnung-v445.35.1 – 2026-10-09
+
+80 betroffene Plugins fachlich vertieft: Zweckbestimmung, Fehlgebrauch, Datenanforderungen, Verbotsmerkmale, Transparenz, Normenwirkung und begrenzte Rechtsprechungsargumente. Acht amtlich gelesene Entscheidungen mit konkreten Randnummern; öffentliche ISO-/DIN-Ausgaben von tatsächlicher Normenanwendung getrennt. Sechs Kernkomponenten erhalten je fünf Gegenproben, fünf neue vollständige Akten ergänzen die neun vorhandenen Fälle. Acht PDF-Lesefassungen aktualisiert; Komponentenrouting und Paketprüfungen erweitert.
+
+# kompatibilitaet-v445.35.1 - 2026-10-09
+
+## 1. Import und Downloads
+
+Neun Plugins erhalten ein abgegrenztes Reparaturrelease. Die Grundstücksrecherche steht erstmals mit dem zugeordneten Plugin-ZIP und der direkt öffnungsfähigen Website bereit. Zwei Bauvergabe-Manifeste enthalten Anzeigeinformationen nur noch im dafür vorgesehenen Manifestformat. Sechs zuvor abweichende Plugin-ZIPs werden aus dem aktuellen Quellstand neu gebaut; die Paketprüfung vergleicht sämtliche Skill-Dateien bytegenau.
+
+## 2. Prüfungen und dauerhafte Sicherungen
+
+Die Herstellerprüfung erfasst den Marketplace und nach Übernahme der zwischenzeitlich veröffentlichten Fachrunde alle 296 Plugins. Komponentenversionen und Downloadziele werden auch in der verschachtelten Vergaberecht-Werkstatt korrekt geprüft. Der Release-Bau kontrolliert Paketversion, Quellenbestand, Prüfsummen und Herkunft vom Hauptbranch; veröffentlichte Releases werden nicht überschrieben. Werkstatt-, Schnellstart- und Hauptproblemdateien bleiben außerhalb der installierbaren Pakete.
+
+Die AGB-Werkstatt und die Kanzlei-Website-Redaktion erhalten individuelle Qualitätsprofile mit jeweils drei fachbezogenen Prüffällen. Die Kataloggrenze wächst anhand der Pluginzahl bei unveränderter zulässiger Durchschnittsdichte; alle Einzelplugin-Grenzen bleiben bestehen. Das ist eine Korrektur der Prüflogik, keine behauptete Beschleunigung oder gemessene Modellqualität.
+
+## 3. Umfang und Grenzen
+
+Das Komponentenrelease enthält neun Plugin-ZIPs, ein Website-ZIP, den Quellenabgleich und Prüfsummen. Alte Tags, Testakten und das allgemeine Gesamtrelease bleiben unverändert. Juristische Prompttexte werden nicht neu formuliert; lediglich der Website-Download im Startskill wird berichtigt. Ein Live-Betrieb in sämtlichen Benutzeroberflächen oder eine Garantie juristischer Ergebnisse wird nicht behauptet.
+
+# ki-verordnung-v445.35.0 – 2026-10-09
+
+Die repositoryweite KI-Verordnungs-Fachrunde verarbeitet 1.283 Ausgangsdateien mit 5.862 Suchtreffern. 48 betroffene Plugins erhalten ein eigenes Komponentenrelease. Der große KI-VO-Prüfer und der Transparenzprüfer werden fachlich aktualisiert; elf aktive Vorlagen werden einschließlich ODT- und Markdown-Download neu erzeugt. Historische Quellenprotokolle und tatsächliche Fallbehauptungen bleiben unterscheidbar.
+
+Drei neue Spezialplugins prüfen verbotene Praktiken, Register/Meldungen und Konformität. Der vorhandene Hochrisikoprüfer wird auf elf Skills erweitert. Alle vier Spezialplugins haben zehn Fachskills, einen Hauptproblem-Skill, Werkstatt, Mini und Hauptproblem-Prompt. Die Artikel-6-Prüfung trennt Produktpfad, sämtliche Anhang-III-Bereiche, Absatz-3-Ausnahme, Profiling und fortbestehende Dokumentations-/Registerfragen.
+
+Der Quellenstand berücksichtigt die amtlich gelesene Konsolidierung vom 27.07.2026, die Änderungsverordnung 2026/1744 und die deutsche Berichtigung vom 29.09.2026. Korrigiert werden unter anderem Zeitrecht, Rollen, Artikel 9/17/27, Artikel 4/4a, Artikel 50, Vorfallfristen und nicht tragfähige ISO-/FLOP-Pauschalen. Die Screenshots sind Prüfimpulse und keine Rechtsquelle. Eine pauschale vollständige Neuzertifizierung sämtlicher Rechtsaussagen im Repository wird nicht behauptet.
+
+Neun neue Akten enthalten 108 native Arbeitsdateien: 27 Word-Dateien, 27 PDF-Belege, 36 E-Mails, neun Excel-Arbeitsmappen und neun Chats. 19 echte E-Mail-Anhänge sind mit den gesonderten Originalen bytegleich. Gesamt-PDFs, Einzel-PDF-ZIPs, Original-ZIPs und acht PDF-Lesefassungen werden separat bereitgestellt. Bestehende Testakten bleiben erhalten. Quellen-, Datei-, Rechen-, Layout- und Anwendungsprüfungen mit ihren Grenzen stehen unter `quality/ki-verordnung-2026-10-09/`.
+
+# ki-native-kanzlei-v445.35.0 - 2026-10-09
+
+Zehn zusätzliche anwaltliche Skills erweitern den Bestand auf 30: Beweisaufbereitung, Forderungsberechnung, Dokumentenfertigung, Anlagenkontrolle, Erwiderung, Gerichtstermin, Vergleich, Kostenerstattung, Vollstreckung und Kanzleivorlagen. Hauptskill, Werkstatt, Mini und Hauptproblem verbinden diese Aufgaben mit den bestehenden Mandatsabläufen. Der neue Einstieg `/dokument` und die konkrete Produktwahl im Mandatslauf vermeiden wiederholte Gesamtaufnahme; offene Frist- und Freigabeentscheidungen behalten Vorrang.
+
+Drei zusätzliche Produktionsakten enthalten insgesamt 30 native Originalstücke. Berlin behandelt einen Werklohnprozess mit Gutschrift, Teilzahlung und streitigem Leistungsumfang; Hamburg einen Softwarevertrag mit abweichenden Fassungen und vertraulicher Einkaufsnotiz; München einen Titel mit Teilzahlung, Ratenanfrage und fehlenden Vollstreckungsnachweisen. Je Akte stehen Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP bereit. Die 24 bisherigen Kurzfälle bleiben erhalten.
+
+Konkrete Normen und eingeordnete Entscheidungsanker unterstützen die neuen Workflows. Dokumentherstellung, Freigabe, Signatur, Versand und Zugang werden getrennt geprüft. Technische Tests, Paketabgleich und Sichtprüfung sind im Qualitätsbericht dokumentiert; ein Live-Betrieb in echten Postfächern oder bei Gerichten wird nicht behauptet. Eigenes Komponentenrelease, ohne Änderung des allgemeinen Gesamtreleases.
+
+# agb-werkstatt-v1.0.0 - 2026-10-09
+
+Die neue AGB-Werkstatt ergänzt den bestehenden Prüfer unverändert um zehn Fachskills und einen Hauptproblemlöser. Sie führt konkrete Geschäftsunterlagen über gezielte Rückfragen zu vollständigen Verkaufs-, Reparatur-, Handels-, Bank- oder Darlehensbedingungen und den dazugehörigen Einführungs- und Kundentexten.
+
+Werkstatt, Schnellstart und Hauptproblem stehen eigenständig als Markdown bereit. Die beiden kompakten Fassungen bleiben jeweils unter 7500 Zeichen und Bytes; die ausführliche Werkstatt behandelt konkrete Verzweigungen, Quellenprüfung und dokumentierte Freigabe. Bankentgelte, Änderungszustimmung, Kreditinformationen und die elektronische Widerrufsfunktion werden getrennt geprüft. Quellenkarten nennen ausdrücklich Aussage, Übertragungsgrenze und tatsächlich erreichten Abrufstatus.
+
+Drei neue Mandatsakten bilden einen Berliner Sensor-Webshop, eine Leipziger Fahrradwerkstatt und einen Nürnberger Tierbedarfshandel ab. Insgesamt 36 Originalstücke umfassen neun Word-Dateien, neun PDF-Belege, neun vollständige E-Mails mit bytegleichen Anhängen und neun CSV-/Textdateien. Jede Akte erhält Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP ohne Markdown. Die bilingualen Warnhinweise stehen auf den Downloadseiten und in den ZIP-README-Dateien, nicht in den PDF-Aktenstücken.
+
+Eigenes Komponentenrelease mit drei Manifestformaten und separaten Akten; die älteren allgemeinen Sammelarchive werden nicht als bereits aktualisiert ausgegeben. Struktur- und Paketprüfungen ersetzen weder anwaltliche Endprüfung noch einen Live-Test in sämtlichen Oberflächen.
+
+# gesellschafterstreit-v445.34.1 – 2026-10-09
+
+## 1. Konkretere Rechtsprüfung und Arbeitsprodukte
+
+Die elf bestehenden Skills bleiben erhalten und wurden fachlich vertieft. Beschlussfeststellung, Mehrheitsnenner, Stimmverbote, Gesellschaftsvertretung, Informationsverfahren, Kapitalerhöhung, Darlehen, Abfindung und Wettbewerbsfragen führen zu konkreten Anträgen und ausformulierten Dokumenten. Mini und Hauptproblem wurden vollständig überarbeitet; die Werkstatt ergänzt eigene Abläufe für Klageerwiderung und gesellschaftsrechtliche Vertragsgestaltung.
+
+Drei zusätzlich am amtlichen Volltext geprüfte BGH-Entscheidungen von 2026 erweitern die bisherige Sammlung auf 18 Anker: II ZR 13/25 vom 16.06.2026 zur satzungsabhängigen Beschlussfassung außerhalb einer Versammlung, II ZR 50/25 vom 21.04.2026 zur materiellen Mitgliedschaft trotz positiver Liste sowie II ZR 71/24 vom 10.02.2026 zur getrennten Kontrolle von Managementmodell, Preisregel und konkreter Ausübung. Die Reichweite der Entscheidungen wird jeweils ausdrücklich begrenzt.
+
+## 2. Drei erweiterte Akten mit erhaltenem Einstieg
+
+Die 76 bisherigen Originaldateien der Akten Zink und Zunder, Klageerwiderung Berlin und Shareholder Agreement München bleiben erhalten. 60 zusätzliche Dateien erweitern den Bestand auf 136. Jede Akte erhält einen gesonderten Nachtrag zum 08.10.2026 mit Briefen und Notizen in Word und PDF, E-Mails samt Anhängen, einer zusätzlichen Excel-Arbeitsmappe und einem Chatverlauf. Der kleine Kernbestand für den gemeinsamen 60-Minuten-Workshop bleibt separat erkennbar.
+
+Berlin ergänzt Lieferungs- und Seriennummernbelege, widersprüchliche Erinnerungen und Verfahrensstand. München vertieft Verhandlungspositionen, Kapital/Agio, Bankbedingungen und Entwicklungsrechte. Zink und Zunder ergänzt Finanzfortschreibung, Kunden- und IT-Unterlagen, Verhandlung und Bewertungsgrundlagen. Die Unterlagen nehmen keine rechtliche Musterlösung vorweg.
+
+## 3. Downloads und Prüfgrenzen
+
+Das Komponentenrelease enthält 19 Dateien: Plugin-ZIP, sechs separate Promptdateien, zwei Lesefassungen, drei Gesamtakten, sechs Akten-ZIPs und Prüfsummen. Mini und Hauptproblem bleiben unter 7.500 UTF-8-Bytes; MD und TXT sind jeweils byteidentisch. Die Prüfungen erfassen Originalbestand, Anhänge, Tabellen, Textvollständigkeit und Paketinhalt. Technische Prüfung und Anwendungsprobe sind im Qualitätsbericht getrennt dokumentiert.
+
+Die erweiterten Dateien werden als eigenes Komponentenrelease ausgeliefert. Historische Sammelarchive bleiben unverändert. Tatsächlicher Versand, Einreichung oder Beurkundung sind durch einen Dokumententwurf nicht erfolgt.
+
+# kanzlei-website-redaktion-v1.0.0 - 2026-10-08
+
+Zehn neue Skills führen konkrete Website-Aufträge vom Material bis zu Entwurf, Vorschau und kontrollierter Veröffentlichung. Blogbeiträge, aktuelle Gerichtsentscheidungen, Teamprofile, Lebensläufe, Fotos, Leistungen und Kontakte haben eigene Arbeitsabläufe. Quellenbeobachtung verwendet nur tatsächlich verfügbare Zugänge und ausdrücklich begrenzte Zeitpläne.
+
+Werkstatt und Mini sind eigenständige Markdown-Downloads. Die interne Starter-Datei bildet drei Partner, zehn angestellte Anwälte, fünf Mitarbeiter, Seitenzuständigkeiten und Redaktionsaufträge ab; es wird keine neue Testakte angelegt. Artikel 50 Absatz 4 Unterabsatz 2 wird von Anbieterkennzeichnung und Deepfake-Pflichten getrennt. Die menschliche Kontrolle, redaktionelle Verantwortung und konkrete Veröffentlichungsfreigabe werden nicht gleichgesetzt.
+
+Die lokale Gegenprüfung bindet Freigaben an Inhalt, Ziel, Medien und Transparenzeinordnung. Regressionstests erfassen geänderte Fassungen, fehlende Prüfung, falsche Datentypen und eine vom Text unabhängige Medienoffenlegung. Sie ersetzen weder eine juristische Prüfung noch einen Live-Test in einem Redaktionssystem. Eigenes Komponentenrelease, ohne Änderung der bestehenden Gesamtrelease-Zuordnung.
+
+# geldwaeschebeauftragter-v445.34.0 – 2026-10-08
+
+## 1. Alltag von Unternehmen, Kanzlei und Notariat
+
+Das neue Plugin enthält genau zehn Fachskills und den Hauptproblem-Skill `geldwaescheproblem-loesen`. Es führt Verpflichtetenrolle, Organisation, Risikoanalyse, Identifizierung, wirtschaftlich Berechtigte, PEP und Sanktionen, Immobilien, notarielle Vorgänge, Verdachtsmeldungen, Dokumentation und Aufsichtsprüfungen zu konkreten Arbeitsergebnissen zusammen. Die bestehende umfangreichere AML/KYC-Sammlung bleibt erhalten.
+
+## 2. Eigenständige Arbeitsfassungen
+
+Werkstatt, Mini und Hauptproblem werden getrennt vom Installationspaket als identische MD-/TXT-Fassungen angeboten. Das Skillhandbuch und die Werkstatt stehen zusätzlich als PDF zur Verfügung. Die Rechtsprüfung verwendet amtliche Normtexte und sechs gelesene EuGH-Entscheidungen, darunter zwei von 2026. Jeder Anker benennt Aussage und Grenze. Weisungsfreiheit der Meldeentscheidung, Geheimnisschutz, Barzahlungsverbot, Nachweispflicht und Vollzugsaufschub werden getrennt behandelt.
+
+## 3. Drei zusammenhängende Übungsakten
+
+Erfurt: Werkzeughändler mit geteilten Barzahlungen und ungeduldigem Vertrieb. Berlin: Grundstückskauf mit Holding, Registerabweichung, PEP-Hinweis und vertraulicher Beratung. Würzburg: Notariat mit Drittzahlung, streitiger Quittung und Druck zur Umschreibung. Je 25 Originaldateien ergeben insgesamt 75 Arbeitsstücke: 24 PDF-Belege, 12 Word-Dokumente, 36 E-Mails mit zusammen 22 Anhängen und drei Excel-Register. Gesamt-PDFs und beide ZIP-Varianten ergänzen die Originalformate.
+
+## 4. Prüfung und Grenzen
+
+Die Komponentenprüfung kontrolliert Belegbezüge, E-Mail-Anhänge, berechnete Tabellen, Promptfassungen und Paketinhalt. Ein unabhängiger Modelllauf bearbeitet den Notariatsfall und erstellt drei konkrete Produkte; dabei wurde ein Satzverweis korrigiert. Das ist kein Test eines echten FIU-Portals oder sämtlicher Hostoberflächen. Reale Außenhandlungen benötigen einen tatsächlich vorhandenen berechtigten Zugang und einen konkreten Auftrag. Der Geldwäschebeauftragte erhält dadurch keinen Zustimmungsvorbehalt der Geschäftsleitung für seinen gesetzlich unabhängigen Meldeweg.
+
+Die 19 Release-Dateien werden vor Veröffentlichung heruntergeladen und bytegleich geprüft. Ältere allgemeine Sammelarchive enthalten dieses Komponentenrelease noch nicht. Nachweise stehen in `quality/geldwaeschebeauftragter/README.md`.
+
+# ki-native-kanzlei-v445.34.0 - 2026-10-08
+
+Zwei neue Skills ergänzen die bestehenden achtzehn Kanzleifunktionen: `kanzlei-gruenden-einrichten` führt zur konkreten Organisation, führenden Systemen, Vertretung und einem überprüften Probemandat. `posteingang-mandate-zuordnen` sichert Originale, trennt gleiche Absender in verschiedenen Mandaten und hält unvollständige Postfachläufe fortsetzbar. Der neue Befehl `/kanzlei-starten`, Hauptskill, Werkstatt und kompakte Prompts verbinden diese Schritte mit Fristen, Fachprodukten, Honorar und Abrechnung.
+
+Die Organisationsvorlage unterscheidet interne Arbeitsstufen und gesondert freigegebene Außenhandlungen nun widerspruchsfrei. Voller Computerzugang bleibt keine pauschale Handlungsbefugnis; Herstellergrenzen, Geheimnisschutz, beA-Schlussakte und unklare Versandversuche bleiben ausdrücklich geregelt. Der Release-Workflow prüft den tatsächlich gewählten Tag und veröffentlicht erst nach vollständigem Paketupload samt Prüfsummenabgleich.
+
+Die 24 bestehenden Fallakten und ihre 240 Originalstücke bleiben unverändert. Neue Handbuch- und Einzel-PDFs, beide Installationspakete und Prüfsummen werden als eigenes Komponentenrelease ausgeliefert. Prüfprofil und technische Nachweise unterscheiden statische Anweisungsprüfung, Hilfsprogrammtests und nicht durchgeführte Live-Postfachtests.
+
+# betreuungsrecht-v445.33.3 - 2026-10-08
+
+Die Dreijahresakte heißt auf Nutzerwunsch jetzt Adelheid Pfister. Familiennamen, Kontaktangaben, Unterlagen, Skillbeispiel, Werkstatt und aktuelle Downloadpfade sind entsprechend angepasst. Sachverhalt, Buchungen und Rechtsprüfung bleiben unverändert. Frühere Veröffentlichungen bleiben als historische Fassungen erhalten.
+
+# betreuungsrecht-v445.33.2 - 2026-10-08
+
+Der neue Skill `unterlagen-auswerten-abrechnung-anschreiben` und die eigenständige Unterlagen-Werkstatt führen von Altbelegen zu Excel-Abrechnung, Kontenabstimmung und ausformulierten Anschreiben. Umbuchungen, Bargeld, ungeklärte Vertragsgrundlagen und mögliche Rückforderungen bleiben getrennt. Die Excel-Vorlage macht offene Angaben und Differenzen sichtbar.
+
+Die neue Testakte Adelheid Pimpernell umfasst drei Jahre mit zwei Konten, PDF-Rechnungen, E-Mails samt Anhängen, Word-Schriftverkehr, Tabellen und Bildschirmabbildungen. Der professionelle Betreuer übernimmt die Vermögenssorge und rekonstruiert den Altbestand. Entlastende Belege, gewünschte Freizeitangebote und widersprüchliche Familienauskünfte verhindern pauschale Missbrauchsbefunde. Die früheren Fälle Schmalfeld und Sauer bleiben unverändert erhalten.
+
+Amtliche Normtexte und ein einschlägiger BGH-Volltext von 2026 tragen die neue Fachlogik. Konkrete veraltete Normzuordnungen in benachbarten Skills wurden berichtigt. Quellen, Rechenprüfungen und Anwendungsprobe stehen im [Prüfbericht](quality/betreuungsrecht/README.md). Das Komponentenrelease ersetzt keine älteren allgemeinen Sammelpakete.
+
+# ki-native-kanzlei-v445.33.9 - 2026-10-08
+
+Die KI-native Kanzlei führt Posteingang, Fristsachen, Sacharbeit, konkrete Versandfreigabe, tatsächlichen Nachweis und Abrechnung als zusammenhängenden Computerlauf. Die 18 Skills bleiben erhalten; der beA-Skill umfasst jetzt Empfang, eEB-Behandlung und kontrollierten Versand mit getrennten Rollen- und Signaturwegen. `/computerlauf` und `/bea` ergänzen die bisherigen Befehle. Werkstatt, Mini und Hauptproblem führen denselben Ablauf.
+
+Ein lokaler Helfer dokumentiert begrenzte Sitzungen, unveränderte Versandfassungen, menschliche Freigaben und einzelne Versuche. Er enthält keinen Transport und verwaltet keine Zugangsdaten. Tatsächliche Ausführung braucht ein vorhandenes, erlaubtes Hostwerkzeug. Unklarer Versandstatus sperrt eine blinde Wiederholung; ein erforderlicher persönlicher beA-Schlussakt bleibt beim Menschen. Die README warnt prominent vor dem Prototypbetrieb, echten Außenwirkungen und kompromittierten PINs; aktuelle Herstellergrenzen und amtliche beA-Quellen sind dokumentiert.
+
+Prüfungen und Grenzen der Simulation stehen im Komponenten-Qualitätsbericht. Alle 24 bestehenden Testakten bleiben unverändert.
+
+# ki-native-kanzlei-v445.33.8 - Amtliche Normprüfung und konsistente Mandatsläufe
+
+Die achtzehn Skills wurden anhand gelesener amtlicher Norm- und Entscheidungsquellen geglättet. Berichtigt sind insbesondere Fristen, Übergangsrecht, Vergütungs- und Steuerangaben, Geldwäschepflichten sowie einzelne Form- und Absatzverweise. Die Testakten bleiben unverändert.
+
+Übergaben verwenden einheitliche Produktkennungen und dokumentierte Rückgaben. Befehle, Werkstatt, Mini und Hauptproblem führen Phase, Friststatus, Honorar, Zeit, konkrete Fassung, zuständige Person und nächste Produkte zusammen. Interne Rechnungsentwürfe auf Stufe 2 und ausgabefertige Pakete auf Stufe 3 sind getrennt; unabhängige Sacharbeit bleibt bei offenen Fristfragen möglich.
+
+Nachgewiesene Helferfehler sind durch Regressionstests abgesichert: keine Freigabe einer veränderten Fassung, kein Abschluss nach abgelehntem Gate, Erhalt der Zuständigkeit und produktbezogene Weiterleitung. Die lokalen Probeläufe enden an konkret benannten offenen Gates. Neue PDF-Lesefassungen, Paketprüfung und Quellenberichte gehören zum Komponentenrelease. Die Release-PDFs verwenden mangels Times New Roman auf dem Runner Liberation Serif; lokale Times-New-Roman-Lesefassungen werden getrennt nachgewiesen.
+
+# vergaberecht-werkstatt-v445.33.1 - Vergaberecht als getrennte Komponentenkopie
+
+## 1. Vollständige Übernahme
+
+Die Vergaberecht-Werkstatt aus Quellstand `b0bd885bb25dcf50a238c29be6ae43794ddc6e91` (Version 2.19.0) liegt separat unter `vergaberecht-werkstatt/`. Drei Rollen-Plugins mit 255 Skills, gemeinsame Fachquellen, eigenständige Prompts und sieben Fallakten sind übernommen. Die bestehenden Vergabe-Plugins und das Ursprungsrepository bleiben unberührt. Lizenz- und Herkunftsangaben bleiben erhalten; Git-Historie und Zugangsdaten werden nicht kopiert.
+
+## 2. Marketplace und Downloads
+
+Die drei verschachtelten Rollenpfade sind im öffentlichen Marketplace registriert. Werkstatt- und Mini-Downloads, Skill-Verzeichnisse und zentrale Übersichten führen zum jeweiligen Paket. Ein eigener Komponentenrelease mit Prüfsummen liefert Plugin-ZIPs, einzelne Markdown-Prompts, Gesamt-PDFs, flache Fallakten-ZIPs und das vollständige Quellpaket. Eigenständige Prompts und Akten gehören nicht in die Plugin-Installation. Die allgemeine Latest-Zuordnung bleibt unverändert.
+
+## 3. Prüfung
+
+Die Übernahme umfasst eine gesonderte Prüfung auf Veröffentlichungsrisiken sowie Struktur-, Import-, Navigations-, Archiv- und Regressionstests. Die technischen Prüfungen sind keine vollständige Neubewertung aller Rechtsquellen und keine behaupteten Live-Client-Tests. [Releaseumfang und Grenzen](./docs/releases/vergaberecht-werkstatt-v445.33.1.md).
+
+# Immobilienprojekt übernommen - 2026-10-07
+
+- Rechtsabteilung Forderungsmanagement Immobilienunternehmen: vollständiger Quellstand v5.27.1 mit 373 Dateien als unverändertes Archiv und SHA-256-Herkunftsverzeichnis erhalten; das Ursprungsrepository bleibt unverändert.
+- 50 Fachskills, neun beA-Skills und zwei autarke Prompts in die Marketplace-, Skill- und Downloadnavigation eingebunden. Rechtliche und technische Arbeit bleiben getrennt; vorhandene Inkasso- und Versandplugins werden nicht ersetzt.
+- Zehn Testakten mit 174 Aktenstücken in drei Formen übernommen. Akten-ZIPs bleiben flach und erhalten den Hinweis des Zielrepositories; PDFs bleiben ohne zusätzliche Hinweisseiten.
+- Unternehmensneutraler Einstieg und präzisierte Berufsrollen: keine unterstellte Rechtsfachwirtqualifikation, Konzernidentität oder Vollmacht. Keine erneute Gesamtverifikation der übernommenen Rechtsquellen behauptet.
+- Integritäts-, Paket-, Pfad- und Umfangstests sichern die Kopie; das Katalog-Gesamtbudget berücksichtigt die beiden zusätzlichen Plugins, ohne Einzelplugin-Grenzen zu erweitern. Die Komponente ist noch nicht in älteren Sammel-ZIPs enthalten.
+- Bei der Veröffentlichung am 08.10.2026 mit dem aktuellen Hauptstand zusammengeführt. Versionsprüfungen erkennen exakt registrierte Komponentenreleases, verlangen aber weiterhin identische Paketversionen in Marketplace-Eintrag und Manifesten; Regressionstests sichern falsche und fehlende Zuordnungen ab.
+
+# ki-native-kanzlei-v445.33.7 - Kanzleialltag in Claude Cowork und ChatGPT
+
+## 1. Der Kanzleialltag als Arbeitsabläufe
+
+Neue Referenz „Kanzleialltag“ mit vierzehn Abläufen einer KI-nativen deutschen Kanzlei: Tagesstart, neue Anfrage bis zur Annahme, Posteingang, Fristsache, Schriftsatz bis zur Einreichung, Vertragsprojekt, Mandantenkommunikation, Zeiten am Tagesende, Wochenabschluss, Monatsabrechnung und Zahlungen, Übergabe und externe Dienste, Mandatsende, Freigaben und Einführung in der Kanzlei. Jeder Ablauf nennt Auslöser, Freigabestufe, die Kette aus Skills, Produkten und Gates sowie die Stoppregel.
+
+## 2. Befehle, Cockpit und Einrichtung
+
+Fünfzehn Befehle für Claude Cowork und Claude Code starten die Abläufe direkt (`/kanzlei-tagesstart`, `/mandat-neu`, `/posteingang`, `/frist`, `/schriftsatz`, `/vertrag`, `/mandantenbrief`, `/zeit`, `/kanzlei-wochenabschluss`, `/rechnung`, `/zahlung`, `/uebergabe`, `/mandat-status`, `/mandat-ende`, `/freigabe`). Der Helfer `mandatslauf.py` erhält den Befehl `cockpit`, der alle Mandatsläufe eines Kanzleiordners nach Dringlichkeit ordnet; drei zusätzliche Tests. Eine Anleitung beschreibt die Einrichtung in Claude Cowork, Claude Code, ChatGPT-Projekten und Codex. Werkstatt-Prompt Kapitel 30 und Mini-Prompt beschreiben den Tagesablauf.
+
+## 3. Amtliche Normtexte und Veröffentlichung
+
+Ein Workflow `KI-native Kanzlei Normcheck` ruft aus GitHub Actions die 93 Normtexte ab, auf die sich die Skills stützen (BORA, Rom I und Brüssel Ia amtlich, Einzelnormen ersatzweise über dejure.org als gekennzeichnete Sekundärquelle). Zusätzlich wurden alle bisher als „am Volltext zu prüfen“ markierten Aussagen über die Websuche abgeglichen: 85 bestätigt, 12 berichtigt, 5 nicht ermittelbar; 100 Änderungen in 17 Skills. Berichtigt wurden insbesondere § 4a und § 4b RVG, § 53 BRAO, § 8 Absatz 2 und 4 sowie § 43 Absatz 4 GwG, § 4 BORA, §§ 2 bis 4 DL-InfoV, Nr. 7000 VV RVG, § 309 Nummer 8 Buchstabe b Doppelbuchstabe ff BGB und § 5 ERVV; bestätigte Werte (etwa § 13 Absatz 3 RVG, § 511 und § 544 ZPO mit § 47 EGZPO, § 23 GVG, § 66 GKG, § 147 AO, § 10 Absatz 3 GwG) stehen ohne Vorbehalt. Der Prüfvermerk bleibt nur bei § 476 Absatz 1 BGB, § 45 BRAO ab Absatz 2 und § 2 Absatz 1 Nummer 10 GwG. Ein zweiter Workflow baut und veröffentlicht das Komponentenrelease mit Plugin-ZIP, portablem ZIP, Skill-Handbuch und Einzel-PDFs.
+
+# ki-native-kanzlei-v445.33.6 - Mandatslauf, Freigabestufen und agentische Abstimmung
+
+## 1. Agentische Schicht
+
+Neue Referenz „Mandatslauf und Freigabestufen“ mit zehn Phasen, Produktregister (führende Fassung mit Hash), acht Freigabegates und vier Freigabestufen. Neuer Helfer `scripts/mandatslauf.py` führt den Lauf als Zustandsdatei im Mandatsordner, verweigert Freigaben durch Maschinenbezeichnungen, verlangt eine namentlich benannte Person je Gate, schreibt atomar mit Revision und Historie und empfiehlt mit `next` den nächsten Skill; 15 Tests. Alle achtzehn Skills erhalten einen Unterabschnitt „Agentischer Lauf und Freigabestufe“ mit Phase, Stufenverhalten, Gates, Produktregister, Beispielaufruf und Stoppregel; Übergabeartefakte sind einheitlich benannt (führende Fassung, Fristobjekt, Honorarstand, Zeitstand, offene Gates, offene Fragen).
+
+## 2. Prompts und Referenzen
+
+Werkstatt-Prompt um Kapitel 29 „Mandatslauf, Freigabestufen und agentische Arbeit“ ergänzt; Mini-Prompt erhält innerhalb der 7.500-Byte-Grenze einen Abschnitt 7 zum Mandatslauf. Arbeitsweise, Mandatsordner-Referenz und README beschreiben die agentische Schicht; der Hauptproblem-Prompt ist unverändert.
+
+## 3. Prüfung und Übergabe
+
+Prüfnachweise, Lesefassungen (284 Seiten, je Skill 15 bis 17) und Hashes neu erzeugt. Eine JSON-Übergabedatei für eine nachfolgende Glättungsrunde mit Codex liegt unter `docs/codex-uebergabe-ki-native-kanzlei.json`; sie listet die am amtlichen Volltext nachzuprüfenden Stellen, die Prüfbefehle und die Abnahmekriterien.
+
+# ki-native-kanzlei-v445.33.5 - Veredelung aller achtzehn Skills
+
+## 1. Alle Skills in einer Runde vertieft
+
+Jeder der achtzehn Skills erhält eine auslöserorientierte Beschreibung, einen Unterabschnitt zu Auslösern und Abgrenzung mit Verweisen auf die Nachbarskills, eine Eingabentabelle mit dem Vorgehen bei fehlenden Angaben, wörtlich ausformulierte Rückfragen in der richtigen Reihenfolge, einen skillspezifischen Katalog typischer Fehler mit Gegenkontrolle, einen Unterabschnitt zur Übergabe an die Nachbarskills, Abnahmekriterien im Ausgabeformat sowie mindestens zwei vollständig ausformulierte Endprodukte und ein Negativbeispiel. Vage Normverweise sind durch konkret benannte und am amtlichen Text geprüfte Vorschriften ersetzt; der Fristenskill enthält eine verifizierte Übersichtstabelle der häufigsten Fristen.
+
+## 2. Quellen und Prüfung
+
+Neue Normaussagen wurden am Prüfstand 7. Oktober 2026 gegen gesetze-im-internet.de beziehungsweise EUR-Lex geprüft; Entscheidungsanker bleiben auf die bereits am amtlichen Volltext verifizierten Entscheidungen beschränkt. Keine Kommentar- oder Aufsatzfundstellen. Die Prüfnachweise stehen im aktualisierten Qualitätsbericht; die Lesefassungen wurden in dieser Umgebung mit Liberation Serif 11 pt gesetzt, einer metrisch zu Times New Roman kompatiblen Schrift, was der Umfangsbericht offen ausweist; die Seitenzahlen wurden am erzeugten PDF gemessen (265 Seiten, je Skill 14 bis 17).
+
+## 3. Plugin, Referenzen und Pakete
+
+Die gemeinsame Arbeitsweise beschreibt die Skillauswahl nach Startsituation sowie Fehlerkataloge, Abnahmekriterien und Übergaben. README, Manifeste, Indizes und Tests sind auf die Komponentenfassung 445.33.5 umgestellt. Testakten, Prompts und Skripte bleiben unverändert; die bisherigen Aktendownloads behalten ihre URLs.
+
+# bauwirtschaft-rundum-v445.33.3 - Zehn fallbezogene Excel-Arbeitsmappen
+
+## 1. Tabellen als Arbeitsunterlagen
+
+Jede der zehn Bauwirtschafts-Akten erhält eine größere Excel-Arbeitsmappe mit individuell zusammengestellten Projektdaten. Aussagekräftige Tabellenblätter, Filter, eingefrorene Kopfzeilen, Zahlenformate und nachvollziehbare Formeln unterstützen den Belegabgleich. Wenige gezielt gesetzte Abweichungen bleiben als Prüfstoff erhalten; die ausgelieferten Dateien enthalten keine Lösungshinweise.
+
+## 2. Berechnung und Ausgabe
+
+Ein eigener Regressionstest prüft Zellinhalte, Formeln, Zahlenbezüge, sichtbare Tabellen und die Übernahme aller Textfelder in die PDF-Fassung. Native Neuberechnung und veränderte Eingabewerte werden gesondert kontrolliert. Excel-Dateien, flache Einzel-PDF-ZIPs, Originalformat-ZIPs und Gesamt-PDFs stammen aus demselben Aktenbestand.
+
+Die Umlautprüfung erkennt nun auch TXT-Belegnamen als technische Dateinamen. Benachbarte Prosa bleibt unverändert geprüft; ein Regressionstest sichert beide Fälle ab.
+
+## 3. Direkter Zugriff
+
+Die zehn Arbeitsmappen sind einzeln und in einem flachen Sammel-ZIP herunterladbar. Fallseiten und Aktenverzeichnisse führen auf das neue Teilrelease. Bestehende Originalbelege, Skills, Prompts und die Marketplace-Version bleiben unverändert.
+
+# bauwirtschaft-rundum-v445.33.2 - Praxisakten mit zusätzlichen Originalbelegen
+
+## 1. Bestehende Fälle vertieft
+
+Alle zehn Seminarakten erhalten weitere eigenständig ausformulierte Unterlagen. Serviceberichte, Messreihen, Lieferauskünfte, Zugangs- und Personalaufzeichnungen sowie Projektkorrespondenz ergänzen die bisherigen Vorgänge. Die neuen Belege konkretisieren Sachverhalt und abweichende Wahrnehmungen der Beteiligten, ohne eine Musterlösung vorzugeben. Frühere Dokumente behalten ihren damaligen Stand.
+
+## 2. Vollständige Ausgabeformen
+
+Gesamt-PDFs, Einzel-PDF-ZIPs und Originalformat-ZIPs werden aus dem erweiterten Bestand neu gebaut. Beide ZIP-Varianten bleiben flach; E-Mails enthalten tatsächliche Anlagen. Aktenverzeichnisse und Downloadadressen führen auf die neue Teilversion. Skills, Prompts und Marketplace-Version bleiben unverändert.
+
+## 3. Zusätzliche Exportprüfung
+
+Regressionstests gleichen vollständige Absätze aus Word-Dateien, E-Mails, Textnotizen und Original-PDFs mit dem Gesamt-PDF ab. Eine weitere Prüfung sichert den Zuwachs pro Akte, die Mischung der Dateiformate und die Verzeichnung jedes Originals. Bestehende Prüfungen für Rechnungswerte, Positionsnummern, E-Mail-Anhänge und Archivgrenzen bleiben erhalten.
+
+# bauwirtschaft-rundum-v445.33.1 - Zwei aufeinander abgestimmte Seminarpakete
+
+## 1. Grundlagen und Vertiefung
+
+Der Sammelordner `bauwirtschaft-rundum` enthält zwei getrennt installierbare Plugins mit jeweils acht Skills, einem eigenständigen Werkstatt-Prompt und einem Mini-Prompt. Die Grundlagen begleiten Begehung, Dokumentenabgleich, Bieterfragen, Behinderungsanzeige und Baugrundauswertung. Die Vertiefung verbindet Rechnungsprüfung, VgV-Bewerbung, Angebotsprüfung, Bauzeit-Claim und Nachtragsprüfung. Ergänzende Skills behandeln Quellenzugriff, wiederverwendbare Arbeitsanweisungen, Planänderungen und kontrollierte Bürostandards.
+
+## 2. Zehn passende Praxisakten
+
+Je fünf eigenständige Akten bilden die in den Seminarunterlagen beschriebenen Abläufe ab. Bearbeitbare Bürodateien, E-Mails, Tabellen und Ortsdokumentation bleiben als getrennte Originalunterlagen erhalten. Gesamt-PDF, Einzel-PDF-ZIP und flaches Originalformat-ZIP werden aus demselben Bestand gebaut; interne Prüfkriterien werden nicht ausgeliefert. Bestehende Bauwirtschafts- und Bauvergabe-Pakete bleiben erhalten.
+
+## 3. Fachliche und technische Grenzen
+
+Die Workflows unterscheiden technische Feststellung, vertragliche Bewertung und freizugebende Entscheidung. Die Quellenkarten grenzen insbesondere VgV, VOB/A 2026, vertragliche VOB/B und BGB-Ansprüche voneinander ab. Repository-Tests sichern Installation, lokale Referenzen, Dateibestand, E-Mail-Anhänge und Exportgleichheit. Sie sind keine Zertifizierung fremder Oberflächen oder bestandene Modellprüfung.
+
+Der Quellenprofil-Audit verlangt für ausdrücklich reine App-Plugins keine ungenutzte Promptvorlage mehr, prüft aber weiterhin unerwartete Promptdateien. Drei Regressionstests sichern diese Grenze. Das Teilrelease veröffentlicht die beiden neuen Pakete und ihre zehn Akten ohne Neuerstellung aller bisherigen Sammelarchive.
+
+# v445.33.1 - Grundstücksrecherche als portable Website
+
+## 1. ZIP herunterladen und index.html öffnen
+
+Die Grundstücksrecherche lässt sich zusätzlich als vollständige HTML-Website ausgeben. Nach dem Entpacken startet sie per Doppelklick auf `index.html`, ohne Python oder lokalen Server. Lokale Bibliotheken erzeugen vier echte DOCX-Entwürfe und das Dokumenten-ZIP aus den bearbeiteten Angaben. Die Brieftexte stammen aus denselben Vorlagen wie im App-Betrieb. Onlinekarten, Orts- und Katasterabrufe bleiben von den amtlichen Diensten und deren Browserfreigaben abhängig; manuelle Bearbeitung und Dokumente bleiben bei vorbereiteten oder importierten Vorgängen offline nutzbar.
+
+## 2. Bewusste Datenmitnahme und nachvollziehbare Grenzen
+
+Das Website-ZIP enthält standardmäßig keine persönlichen Vorgangsdaten. Die vollständige Aufnahme eines Vorgangs erfordert eine ausdrückliche Auswahl; auch eingebettete Vorgänge werden erst nach einem Klick geladen. Dienstabrufe haben feste Zeit- und Größenbudgets. Importierte Angaben werden nicht allein durch das Öffnen zu bestätigten Katasterdaten. README, Einstiegsskill und Plugin-Oberfläche erklären beide Betriebsarten und die Grenzen einer Einbettung.
+
+## 3. Prüfung und Veröffentlichung
+
+Dateibasierte Browserprüfungen sichern leeren Start, Offline-Bearbeitung, Datenschutz, aktualisierte Word-Dateien und ZIP-Exporte. Der tatsächliche Browserabruf für Münster ist gesondert geprüft. Der Release-Build erstellt zusätzlich das Website-ZIP. Fehlende Hauptüberschriften in 22 Bauvergabe-Skills sind ergänzt, ohne deren bisherigen Inhalt oder Frontmatter zu verändern; ein Regressionstest sichert die Titelerkennung. Bestehende Tags bleiben unverändert.
+
+# v445.33.0 - Grundstücksrecherche als lokale App
+
+## 1. Neues App-only-Plugin
+
+`grundstuecksrecherche` ergänzt die Sammlung um eine lokale Browser-App mit zwei begleitenden Skills. Sie beginnt ohne vorausgewählte Stadt, sucht amtliche Quellen für deutsche Städte und unterscheidet bestätigte NRW-Katasterergebnisse von manueller Flurstückserfassung. Die Münster-Referenz bleibt unverändert und ausdrücklich separat ladbar. Es werden keine zusätzlichen Begleitprompts oder Testakten veröffentlicht.
+
+## 2. Dokumente und Betriebsgrenzen
+
+Vier Entwürfe für Katasterbehörde, Grundbuchamt, Notariat und Rechtsabteilung stehen als echte DOCX-Dateien und gemeinsam im ZIP bereit. Die lokale Adresse lautet nach Serverstart `http://127.0.0.1:8765/`. Externe Suche und Karten benötigen erreichbare Dienste; in einem bereits eingerichteten oder importierten Vorgang bleiben manuelle Bearbeitung und Dokumentenerstellung ohne externe Abfragen möglich. Der leere Erststart bietet keine Offline-Ortssuche. Keine automatische Eigentümerermittlung, kein Versand und keine zugesicherte native Cowork-Einbettung.
+
+## 3. Repository-Integration
+
+Marketplace, Plugin-Manifeste sowie die Veröffentlichungsindizes werden auf `445.33.0` abgestimmt. Das explizit leere Publikationsprofil verhindert Begleitprompt-Dateien und tote Downloadlinks, ohne die Pflichtprüfungen anderer Plugins aufzuheben. Gezielte Integrationstests prüfen diese Grenze und die reproduzierbare Indexerzeugung. Vorbereitete Qualitätsfälle und redaktionelle Skill-Prüfung sind keine bestandenen Modelltests; bestehende Prompt-Inhalte bleiben unverändert.
+
+# v445.30.2 - Zwei Vorführakten zum Gesellschafterstreit
+
+## 1. Berlin: Klageerwiderung
+
+20 Originalunterlagen eines Bühnenbeleuchtungsbetriebs mit Klage, Verfügung, Zustellung, Gesellschaftsunterlagen, streitigem Einkauf, Zeugenmail und Projektkonto. Die Akte ermöglicht eine beleggestützte Klageerwiderung, ohne eine fertige Verteidigung vorzugeben.
+
+## 2. München: Shareholder Agreement
+
+18 Originalunterlagen zur Investorenaufnahme in einen Gerätebaubetrieb. Gründerentwurf, abweichende Vertragswünsche, Entwicklungsrechte, Bankkorrespondenz und eine berechenbare Beteiligungstabelle ermöglichen eine eigenständige Vertragsgestaltung.
+
+## 3. Darstellung und Prüfung
+
+Beide Akten haben sieben Kernunterlagen für eine gemeinsame einstündige Vorführung, vollständige E-Mails mit Anlagen sowie bearbeitbare Word- und Excel-Dateien. Gesamt-PDFs mit Register und Lesezeichen, flache Originalformat- und Einzel-PDF-ZIPs. 18 fallbezogene Regressionstests sichern Bestand, Rechenketten, Anhänge, gerichtliche Belehrung und Exporttreue. Plugin, zentrale Übersicht und Download-Index sind ergänzt. Bestehende Skills, Prompts und Akten bleiben unverändert.
+
+# v445.28.1 - Kleinhausen als einfache WEG-Einstiegsakte
+
+## 1. Fünf Wohnungen und eine überschaubare Abrechnung
+
+Die zusätzliche Testakte Kleinhausen begleitet eine kleine Hausverwaltung durch die Jahresabrechnung einer Gemeinschaft mit fünf Wohnungen. Gleiche Miteigentumsanteile, vollständig bezahlte Vorschüsse und ein einfacher Rücklagenverlauf ermöglichen einen gut nachvollziehbaren Einstieg. Nur zwei kleine Übertragungsfehler im Entwurf sollen anhand der Belege aufgeklärt werden.
+
+## 2. Umfangreiche Unterlagen für den Workshop
+
+Die Akte verbindet Gemeinschaftsunterlagen, Rechnungen, Bankbewegungen, eine bearbeitbare Excel-Arbeitsmappe, fünf Einzelabrechnungen sowie E-Mails mit tatsächlichen Anlagen. Freundliche Eigentümerrückfragen und eine unversandte Beschlussvorlage führen zur korrigierten Fassung und persönlichen Antwort. Die Arbeitsunterlagen enthalten keine Musterlösung.
+
+## 3. Downloads und Prüfung
+
+Gesamt-PDF, Originalformat-ZIP und Einzel-PDF-ZIP ergänzen die Übersicht des Hausverwaltungsplugins. Unabhängiger Rechenabgleich, Formeln und tatsächliche Neuberechnung sowie die Word-, Tabellen- und PDF-Darstellung werden geprüft. Alle bisherigen Akten, Skills und eigenständigen Prompts bleiben erhalten.
+
+# v445.28.0 - WEG-Hausverwaltung mit Belegketten und vier neuen Akten
+
+## 1. Bestehendes Plugin vertieft
+
+Alle 93 Skills bleiben erhalten; 46 werden gezielt überarbeitet. Die Arbeitswege verbinden Rechnungen, Bankbewegungen, Rücklagen, Sollvorschüsse, Abrechnungsspitzen, Eigentümeranschreiben und Rückfragen. Mietrechtliche Überleitung, Handwerkeraufträge, Haftung, Diebstahl, Bettwanzen und Datenschutz werden nach ihrem konkreten Rechtsverhältnis behandelt. Werkstatt, Mini-Prompt und Hauptproblem-Prompt sind eigenständig ausformuliert; die Werkstatt umfasst 30 geprüfte Word-/PDF-Seiten.
+
+## 2. Überprüfte Rechtsprechungsanker
+
+Die neue WEG-Referenz enthält 30 an amtlichen Volltextstellen geprüfte BGH-Entscheidungen, darunter zehn von 2026. Eine weitere Referenz behandelt Mietüberleitung, Befall und Datenschutz. Korrigiert sind insbesondere falsche Entscheidungszuordnungen, die starre Drei-Angebote-Regel, pauschale Kostenweitergabe und unzulässige Rückschlüsse auf Haftung oder Verursachung. Prüfungsumfang und Übertragungsgrenzen sind dokumentiert.
+
+## 3. Vier zusätzliche Testakten
+
+Lindenhof behandelt die Jahresabrechnung mit acht Einzelabrechnungen und Eigentümerrückfragen. Spreebogen verbindet Hausgeld mit Mietbetriebskosten, Belegeinsicht, Wärme und CO₂-Kosten. Kastanienhof behandelt Kellerdiebstahl, Türreparatur, Versicherungen und eine vorgeschlagene Kamera. Sonnenwinkel enthält den Verlauf eines Bettwanzenbefalls mit Befunden, Aufträgen, Terminen, Rechnungen und strittiger Kostentragung. Insgesamt 132 Originaldateien: 80 bearbeitbare Word-Dokumente, 41 E-Mails mit echten Anlagen, sechs Excel-Arbeitsmappen und fünf Textnotizen. Sämtliche bisherigen Akten bleiben erhalten.
+
+## 4. Nachvollziehbare Prüfung und Downloads
+
+Rechenketten, tatsächliche Tabellenneuberechnung, Eingabeänderungen und MIME-Anhänge sind gesondert geprüft. Redaktionelle Kriterien, tatsächliche qualitative Anwendungsproben und technische Prüfungen werden getrennt dokumentiert. Die Akten erhalten Gesamt-PDFs sowie Originalformat- und Einzel-PDF-ZIPs; Übersichten und Paketindizes werden aktualisiert.
+
+# v445.27.0 - Berliner Gewerbeaufsicht, Polizeirecht und Versammlungen
+
+## 1. Drei eigenständige Berliner Arbeitswerkzeuge
+
+Restaurant, Späti und Radiologie erhalten eine gemeinsame Betriebswerkstatt mit Gewerbeanzeige, Gaststättenrecht, Ladenöffnung, Hygiene, Arbeitsschutz und Strahlenschutz. Zwei weitere Plugins führen Betroffene durch das Berliner ASOG und Veranstalter durch das Berliner Versammlungsrecht. Jedes enthält zehn Fachskills und einen übergreifenden Hauptskill. Je eine eigenständige Werkstatt, ein Mini-Prompt und ein Hauptproblem-Prompt stehen als MD/TXT bereit; die großen Werkstätten zusätzlich als Word und PDF. Die kompakten Prompts bleiben jeweils unter 7.500 Zeichen und UTF-8-Bytes.
+
+## 2. Konkrete Quellen und differenzierte Verfahrenswege
+
+Die Fachtexte unterscheiden das geltende Gaststättenrecht von der erst später wirksamen Reform, berücksichtigen die Berliner Zuständigkeitsverordnung von 2026 und trennen Gefahrenabwehr, Versammlungsrecht, Strafverfolgung und Datenschutz. Gerichtliche Entscheidungen enthalten Datum, Aktenzeichen, tragende Aussagen und Übertragungsgrenzen. Quellenlektüre, redaktionelle Szenarien, tatsächliche qualitative Anwendungsproben und technische Prüfungen sind getrennt dokumentiert.
+
+## 3. Neun Akten mit bearbeitbaren Originalen
+
+Kichererbse, Abendfuchs, Radiologie Spreebogen, Parkpicknick, Lastenrad, Datenverwechslung, Fahrradkorso, spontane Mahnwache und Kiezcamp enthalten jeweils 18 Unterlagen. Insgesamt sind dies 72 Word-Dokumente, 63 E-Mails, 18 Textdateien und neun Excel-Arbeitsmappen mit Formeln. Die Akten enthalten abweichende Zwischenstände und offene Fragen aus überschaubaren Alltagssituationen. Gesamt-PDFs, Originalformat-ZIPs und Einzel-PDF-ZIPs werden mit den Übersichten und Downloads abgestimmt.
+
+## 4. Parallel fertiggestelltes Vergabewerkzeug
+
+Das bereits auf main zusammengeführte Plugin Sektorenvergabe-Workflow wird mit dieser Version erstmals als Releasepaket ausgeliefert. Fünf Dokumenten- und fünf Verfahrensskills sowie ein Hauptskill begleiten die Sektorenvergabe; eigenständige Werkstatt und Mini-Prompt, sechs geprüfte EuGH-Anker und elf redaktionelle Fachszenarien ergänzen es. Bestehende Berliner Kita-, Schul- und Hochschulplugins bleiben verfügbar.
+
+# v445.26.0 - Berliner Kita-, Schul- und Hochschulrecht
+
+## 1. Zwei eigenständige Berliner Plugins
+
+Berliner Kita- und Schulrecht führt Eltern und Schüler durch Aufnahme, Schulwechsel, Leistungsbewertung, Förderung, Betreuung, Ordnungsmaßnahmen und Rechtsschutz. Verfahren gegen Lehrkräfte gehören nicht zum Auftrag. Das Hochschulplugin behandelt aus Professorensicht Berufung, Ausstattung, Status, Forschung, Lehre, Gremien, Drittmittel und Nachwuchs. Beide enthalten jeweils zehn Fachskills und einen übergreifenden Hauptskill. Eigenständige Werkstatt-, Mini- und Hauptproblem-Prompts bleiben außerhalb der elf installierbaren Skills.
+
+## 2. Geprüfte Rechtsgrundlagen und Arbeitsabläufe
+
+Die Quellenarbeit berücksichtigt insbesondere SchulG, Sek I-VO und SopädVO in ihren Änderungen von 2026 sowie die BerlHG-Reform vom 21. Januar 2026. Amtliche Entscheidungen werden mit Datum, Aktenzeichen, konkreter Aussage und Übertragungsgrenze verwendet. Quellenlektüre, redaktionelle Prüfungen, tatsächliche Probeläufe und technische Strukturprüfungen sind in den Prüfunterlagen getrennt ausgewiesen. Die Werkstätten stehen zusätzlich als bearbeitbare Word-Dokumente und PDF-Lesefassungen bereit. Mini- und Hauptproblem-Prompts bleiben jeweils unter 7.500 UTF-8-Bytes.
+
+## 3. Sechs überschaubare Akten aus dem Bildungsalltag
+
+Kita Sonnenkringel, Schulplatz in der siebten Klasse, Klassenchat, Berufungszusage, Lehrdeputat und Forschungslabor enthalten jeweils 18 eigenständige Unterlagen. Insgesamt stehen 48 Word-Dokumente, 42 E-Mails, zwölf Textdateien und sechs Excel-Arbeitsmappen zur Verfügung. Echte MIME-Anlagen, berechenbare Tabellen und widersprüchliche Zwischenstände ermöglichen die Arbeit am konkreten Fall. Gesamt-PDFs und beide ZIP-Formate sowie Plugin- und zentrale Verzeichnisse werden aus diesem Bestand erzeugt.
+
+# v445.25.3 - Vier neue Mandatsakten für die Vertragsgestaltung
+
+## 1. Gründung, Softwarelizenz und Ladenkooperation
+
+Vier eigenständige Fälle ergänzen die bestehende Vertragswerkstatt: ein Lastenradverleih als GbR in Leipzig, eine Softwarelizenz nach einem Pilotbetrieb in Bremen, eine Catering-UG in Regensburg und Keramikverkauf in einem Freiburger Buchladen. Jede Akte enthält zwölf individuell ausgearbeitete Quellen. Auftragsumfang, Verhandlungsstand und entscheidende Rückfragen ergeben sich aus der Korrespondenz, nicht aus einer mitgelieferten Lösung.
+
+## 2. Originalunterlagen und Belegketten
+
+Insgesamt 16 bearbeitbare Word-Dokumente, 16 E-Mails mit tatsächlich eingebetteten Anlagen, zwölf Chatabschriften und Notizen sowie vier Excel-Dateien mit je zwei Tabellenblättern. Fremde Vertragsentwürfe stehen neben ursprünglichen Rechnungen, Angeboten, Arbeitszeitangaben, Entwicklungsvereinbarungen, Kassenbewegungen und Rückmeldungen von Vermietern, Notariat und Versicherung. Aussagen der Beteiligten werden nicht als abschließende rechtliche Bewertung ausgegeben.
+
+## 3. Downloads, Zuordnung und Qualitätssicherung
+
+Jede Akte ist als Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP verfügbar. Evaluatorunterlagen bleiben außerhalb der Downloads. Passende Fachzuordnungen ergänzen die kompakte Vertragswerkstatt, ohne ihre Skills oder Prompts inhaltlich zu verändern. Neue Regressionen prüfen Dateibestand, Mail-Header, bytegleiche Anhänge, gespeicherte Excel-Ergebnisse und PDF-Vollständigkeit. Die Übersichten und Downloadlinks sind aktualisiert.
+
+# v445.25.2 - Betriebskauf in beiden Forderungsakten vorbereiten
+
+## 1. Zwei Erwerbsvorgänge im bestehenden Aktenbestand
+
+Die Kölner Handwerksakte erhält elf zusätzliche Unterlagen, die Münchner Brezelakte zehn. Beide enthalten individuelles Kaufinteresse, einen ausformulierten Betriebskaufentwurf mit offenen Anlagen, Bestandsaufnahmen, einen laufenden Kundenvertrag, Kennzeichenunterlagen, E-Mails und eine ursprüngliche Maschinenrechnung mit Zahlungsbestätigung. Die bisherigen fünfzehn Forderungsanmeldungen bleiben erhalten.
+
+## 2. Bearbeitbare Asset-Verzeichnisse
+
+Je eine Excel-Arbeitsmappe trennt Inventar, Waren, Kunden, Verträge und Kennzeichen. Seriennummern, Chargen, Rückgaben und Belegbezüge lassen sich gegen die Originalunterlagen abgleichen. Kaufgegenstände, Zustimmungen, Rechtefreigaben und endgültige Preise sind noch nicht abschließend vereinbart. Die Arbeitsunterlagen enthalten keine fertige Forderungsprüfung oder Lösungsmatrix.
+
+## 3. Downloads und Prüfung
+
+Beide Gesamt-PDFs sowie die flachen Originalformat- und Einzel-PDF-ZIPs werden aus dem erweiterten Bestand neu gebaut. Akten- und Plugin-READMEs sowie zentrale Verzeichnisse sind nachgeführt. Zusätzliche Regressionen prüfen Dokumentenzahlen, Warenbewegungen, Vertragsentwürfe, Gerätezuordnung, E-Mail-Daten, Arbeitsmappen und die Aufnahme sämtlicher Unterlagen in die Gesamt-PDFs. Fachskills und eigenständige Prompts bleiben inhaltlich unverändert.
+
+# v445.25.1 - Kleine Münchner Forderungsakte
+
+## 1. Pistazien-Brezelbäckerei mit fünf Gläubigern
+
+Zweite, bewusst überschaubare Akte für den Insolvenzforderungen-Checker: 22 eigenständige Unterlagen aus einem fortgeführten Münchner Backbetrieb. Fünf Anmeldungen werden durch Rechnungen, einen Lieferschein, eine Gutschrift, Verträge, Buchungen und E-Mails ergänzt. Die Arbeitsunterlagen enthalten keine Lösungsmatrix oder abschließende Bewertung.
+
+## 2. Drei abgestimmte Downloadfassungen
+
+Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP mit 17 Word-Dokumenten, drei E-Mails und zwei CSV-Dateien. Eigenständige Dokumente bleiben getrennt; zweisprachige Hinweise stehen auf den Downloadseiten und in den ZIP-READMEs. Plugin- und zentrale Übersichten führen die neue Akte auf.
+
+## 3. Beleg- und Ausgabeprüfungen
+
+Zusätzliche Regressionen prüfen Dokumentenzahl, fünf Anmeldungen, Rechenstimmigkeit der Bankbuchungen, Rechnungsbezüge, Verfahrensdaten, E-Mail-Header, CSV-Spalten und den vollständigen PDF-Bestand. Die bestehende Kölner Akte und die Fachskills bleiben inhaltlich unverändert.
+
+# v445.25.0 - Insolvenzforderungen für die Verwaltung prüfen
+
+## 1. Hauptworkflow und zehn Fachskills
+
+Neues kompaktes Paket `insolvenzforderungen-checker`: vom Eingang der Anmeldungen über Gläubigerklärung, Verträge, Zahlungen und Rang bis zum begründeten Tabellenvorschlag und zum vollständigen Gläubigerbrief. Sicherheiten, Masseforderungen, Nachrang, Verspätung und Titel erhalten eigene Prüfwege. Bestehende Pakete zur Insolvenzverwaltung und Forderungsanmeldung bleiben erhalten.
+
+## 2. Werkstatt, Mini-Prompt und Rechtsgrundlagen
+
+Eigenständig nutzbare Fachprompts mit gezielter Aktenaufnahme und Fortsetzung nach neuen Belegen. Amtliche BGH-Anker betreffen veränderte Anmeldegegenstände nach Rückabtretung, Individualisierung und schwache vorläufige Verwaltung. Gesetzliche Anmeldewege, Insolvenzgeldvorfinanzierung und spätere Ausfallberücksichtigung sind voneinander abgegrenzt. Interne Vorschläge werden nicht als gerichtliche Feststellung ausgegeben.
+
+## 3. Kölner Handwerksakte
+
+Zusammenhängende Akte einer fortgeführten Handwerks-GmbH mit vorläufigem Verfahren, Eröffnung, Gutachten und Insolvenzgeldvorfinanzierung. Zehn Anmeldungen werden durch eigenständige Verträge, Rechnungen, Leistungs- und Zahlungsbelege, Korrespondenz und Sicherungsunterlagen ergänzt. Native Dateien, Gesamt-PDF und flache Einzel-PDF- beziehungsweise Originalformat-ZIPs; keine Lösungsmatrix im Arbeitsbestand.
+
+## 4. Kontrollierter Datenexport
+
+Lokaler Exporthelfer mit centgenauer Dezimalrechnung, getrennten Prüfständen, CSV-Formelschutz und Schutz vor Überschreiben. JSON, CSV und internes XML bleiben neutrale Arbeitsdaten. Der optionale XJustiz-Entwurf verwendet Version 3.6.2 und die erstmalige Tabellenübergabe ohne Erklärungen; er verlangt passende Stammdaten und ein vollständiges amtliches XSD-Paket. Schematron, externe Codelisten, Gerichtsvorgaben und manuelle Versandfreigabe bleiben eigenständige Prüfungen. Kein automatischer Versand.
+
+## 5. Qualität und Verzeichnisse
+
+Elf fachlich zugeschnittene Bewertungsszenarien, Exportregressionen sowie Paket- und Belegprüfungen. Technische Schema-Prüfung und redaktionelle Szenarien werden nicht mit beobachteten Modellläufen oder gerichtlicher Annahme gleichgesetzt. Marketplace, thematische Skillnavigation und zentrale Downloadregister ergänzt.
+
+# v445.24.0 - Vier Registerwerkstätten mit zwölf Akten
+
+## 1. Vier eigenständige Plugins mit je elf Skills
+
+Transparenzregister, Handelsregister, Grundbuchamt sowie DPMA/EUIPO erhalten jeweils zehn konkrete Fachskills und einen elften Hauptproblem-Skill. Unterlagenprüfung, entscheidungserhebliche Rückfragen, ausformulierte Arbeitsergebnisse und Nachhalten bilden einen fortlaufenden Arbeitsablauf. Eine Portalregistrierung ist keine pauschale Erklärungs- oder Zahlungsfreigabe. Gesetzliche notarielle Mitwirkung, tatsächlicher Zugang und persönliche Authentifizierung werden im jeweiligen Verfahren geprüft.
+
+## 2. Eigenständige Werkstätten und überprüfte Rechtsquellen
+
+Jedes Paket enthält eine große eigenständig nutzbare Werkstatt in Markdown, Text, Word und PDF sowie Mini- und Hauptproblem-Prompts in Markdown und Text. Die beiden kompakten Fassungen bleiben jeweils unter 7500 Zeichen und UTF-8-Bytes. Fachbezogene amtliche Entscheidungen einschließlich 2026 sind mit tatsächlich gelesenen Passagen und Anwendungsgrenzen dokumentiert. Die Prüfung umfasst unter anderem UBO-Einsicht, Kontrollketten, Registervertretung, Urkundenform, Grundbucheinsicht und aktuelle Markenverfahren.
+
+## 3. Zwölf Akten mit nativen Arbeitsdateien
+
+Die Akten verbinden Word-Dokumente, Excel-Rechenblätter, E-Mails, Chats, interne Bildschirmansichten und Beleg-PDFs. Die verlangten Fälle sind enthalten: finnische PEP, Gesellschaft aus Sri Lanka ohne Apostille und der nach Briefersatz hinter dem Kopierer aufgefundene alte Grundschuldbrief. Drei weitere Markenakten behandeln Anmeldung, Widerspruch und Nachweise zur Benutzung beziehungsweise Verkehrsdurchsetzung. Jede Akte erscheint als Gesamt-PDF, Originalformat-ZIP und Einzel-PDF-ZIP; die Herkunftshinweise stehen auf den Downloadseiten und in den ZIP-Readmes.
+
+## 4. Qualitätsprüfung und Publikation
+
+Fachliche Durchsichten und gezielte Struktur-, Formel-, Hash- und Dateiprüfungen sichern die vier Pakete. Diese Prüfungen werden nicht als beobachtete Modellläufe ausgegeben. Marketplace, Themenrouting, Skillindizes, Promptprofile und Downloadverzeichnisse werden gemeinsam fortgeschrieben. Die bestehenden Testakten bleiben erhalten.
+
+# v445.23.0 - Eigenbedarfskündigungen für beide Mietparteien prüfen
+
+## 1. Zehn konkrete Arbeitswege
+
+Neues Paket `eigenbedarfskuendigungschecker` mit Hauptskill und neun fachlichen Vertiefungen. Vermieterstellung, Bedarfsperson, tatsächlicher Nutzungswunsch, freie Alternativwohnungen, Form und Zugang, Vertragsbindung, Umwandlungsschutz, Härte, Bedarfswegfall und Einigung führen zum beauftragten Schreiben. Vorhandene Unterlagen werden zuerst gelesen; Nachträge führen nicht zu einer erneuten Vollaufnahme.
+
+## 2. Eigenständige Prompts und aktuelle Entscheidungsgrenzen
+
+Ausführliche Werkstatt und kompakter Schnellstart mit Normen, konkreten Verzweigungen und sieben begrenzten BGH-Ankern. Insbesondere die Entscheidungen vom 21.01.2026, 23.06.2026 und 01.09.2026 zu Familiengesellschaft, Alternativwohnung sowie Gesundheitsfolgen und Ersatzwohnungssuche sind berücksichtigt. Quellenstatus bleibt transparent. Die aktuelle Textform des Härtewiderspruchs wird von der Kündigungsschriftform getrennt.
+
+## 3. Zwei vollständige Belegakten
+
+Berlin: Überlassung, Umwandlung und Eigentumsvollzug mit Familienkorrespondenz. Regensburg: Rückkehr des Sohnes, ärztliche Beobachtung, Wohnungssuche und Ersatzwohnungsangebot. Je zwölf eigenständige Unterlagen in DOCX, EML, CSV und TXT, dazu Gesamt-PDF und flache ZIP-Varianten ohne Musterlösung. Warnhinweise stehen an den Downloads und in den ZIP-Readmes, nicht in den PDFs.
+
+## 4. Prüfung, Navigation und Release-Reparatur
+
+Individuelle Bewertungsszenarien für alle zehn Skills und Regressionen für Paket, Quellenunterscheidung, Aktenbestand, E-Mail-Header und Beträge. Redaktionelle Prüfungen werden nicht als beobachtete Modellläufe ausgegeben. Marketplace und Register ergänzt. Der Gründer-Schnellstart erreicht mit einem konkreten Fortsetzungshinweis wieder seine ausdrücklich verlangten 7500 Zeichen; Markdown, Textfassung und Prüfsumme stimmen überein.
+
+# v445.22.0 - Mietchecker für beide Mietparteien
+
+## 1. Zehn aufeinander abgestimmte Arbeitswege
+
+Neues Paket `mietchecker` für Mieter und Vermieter. Es trennt den Mietspiegelvergleich von Mietpreisbremse, Mieterhöhung, Kappungsgrenze, Staffel und Index. Unterlagen werden zuerst ausgewertet; entscheidende Lücken führen zu gezielten Rückfragen und anschließend zur nachvollziehbaren Rechnung, Auskunftsanfrage oder Änderungsvereinbarung. Eine niedrige Vergleichsmiete bedeutet weder automatisch eine Mietsenkung noch eine Pflicht zur Erhöhung.
+
+## 2. Örtliche Quellen und eigenständige Prompts
+
+Werkstatt und Schnellstart erläutern die unterschiedlichen Rechenwege der amtlichen Mietspiegel 2026 für Berlin und Regensburg. Gebietsverordnungen, Flächenberechnung, Vormiete, Modernisierung und Mietereinbauten werden gesondert geprüft. Vier fachlich zugeordnete Rechtsprechungsanker sind mit transparentem Quellenstatus hinterlegt; nicht zugängliche Volltexte werden nicht als gelesen ausgegeben. Standalone-Prompts bleiben außerhalb der installierten Skills.
+
+## 3. Zwei Belegakten ohne Musterlösung
+
+Je zwölf getrennte Unterlagen: Berliner Neuvermietung mit Vormietauskunft und Renovierungsrechnung sowie Regensburger Bestandsmiete mit Flächenaufmaß, Küchenrechnung und getrenntem Stellplatz. Verträge, E-Mails, Mietkonten und Notizen erscheinen als Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP. Die vorgeschriebenen Hinweise stehen vor den Downloads und in den ZIP-Readmes.
+
+## 4. Nachrechenbarkeit und Navigation
+
+Ein schlanker Dezimalrechner und gezielte Regressionstests sichern Halbspannen, additive Zuschläge, Rundung und getrennte Obergrenzen. Zehn individuelle Bewertungsfälle erfassen sämtliche Skills; sie dokumentieren eine fachliche Durchsicht, keine behaupteten Modellläufe. Marketplace, Promptprofile, thematische Navigation und alphabetische Verzeichnisse werden aktualisiert.
+
+# v445.21.0 - Antidiskriminierung nach dem AGG
+
+## 1. Zehn konkrete Arbeitswege
+
+Neues Paket `antidiskriminierung-agg` mit genau zehn Skills für Fallaufnahme, Ausschlussfristen, Indizienbeweis, Bewerbung, Entgeltvergleich, Beschwerde, Rechtfertigung, Zivilverkehr, Prozess und Abhilfe. Vorhandene Unterlagen führen ohne erneute Vollaufnahme zum beauftragten Schreiben. Herkunft und andere Eigenschaften werden nicht aus Namen oder Aussehen abgeleitet.
+
+## 2. Eigenständige Prompts und geprüfte Fallkarten
+
+Ausführliche Werkstatt und kompakter Schnellstart enthalten eigene Verzweigungen, Normen und sechs amtlich geprüfte Rechtsprechungsanker einschließlich Entscheidungen von 2026. Anwendungsgrenzen und der abweichende Quellenstatus einer Pressemitteilung sind ausdrücklich gekennzeichnet. Werkstatt und Schnellstart bleiben separate Downloads außerhalb der installierten Skills.
+
+## 3. Kultursensible Bewerbungsakte
+
+Fünfzehn getrennte Unterlagen zu einer Berliner Stellenbesetzung: zwei Anzeigenfassungen, Bewerbung, Lebenslauf, Gesprächsnotiz, Aufgabenblatt, sechs E-Mails, Chat, Telefonnotiz und Portalverlauf. Keine Beschimpfungen und keine Musterlösung. Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP werden aus demselben Bestand gebaut. Die vorgeschriebenen Hinweise stehen auf den Downloadseiten und in den ZIP-Readmes.
+
+## 4. Prüfung und Verzeichnisse
+
+Sieben automatische Paketprüfungen und zehn individuelle fachliche Bewertungsfälle sichern Struktur, Verweise, Fristenunterscheidung und Dokumentkonsistenz. Die Bewertungsfälle sind keine behaupteten Modellläufe. Marketplace, alphabetische Verzeichnisse, thematische Navigation und Downloadlisten werden aktualisiert. Der Download-Abgleich aktualisiert nun auch Aktenlinks in älteren Einstiegs-READMEs und HTML-Vorschauseiten; ein Wiederholungstest sichert diese Versionspflege. Bestehende Fachinhalte bleiben unverändert.
+
+# v445.20.2 - Release-Routing gegen das GitHub-Assetlimit gehärtet
+
+- **Alle zentralen Testakten im Begleitrelease:** Beide ZIP-Varianten jeder zentralen Testakte werden nun einheitlich unter `akten-v445.20.2` veröffentlicht. Plugin-ZIPs, Marketplace und vollständige Sammelpakete bleiben im Hauptrelease.
+- **Großer Sicherheitsabstand statt Grenzfall:** Der Hauptrelease fällt dadurch deutlich unter GitHubs feste Grenze von 1.000 Assets; neue Plugins treiben ihn nicht mehr sofort in einen späten Verpackungsabbruch.
+- **Datengetriebene Vollständigkeit:** Das neue Routing-Schema `all-central` leitet den Begleitrelease unmittelbar aus dem zentralen Testaktenbestand ab. Neue Akten werden nicht mehr durch eine vergessene manuelle Auswahlliste im Hauptrelease belassen.
+- **Rückwärtskompatibel und geprüft:** Das gezielte Schema 1 bleibt für Tests und Sonderbuilds erhalten. Staging, URLs, Prüfsummen, Tags und die geordnete Zwei-Release-Veröffentlichung bleiben durch die Offline-Regressionen abgesichert.
+
+# v445.20.1 - Jura zwischen einfacher und juristischer Standardsprache
+
+## 1. Rückübertragung mit klaren Grenzen
+
+Das bestehende Paket `jura-in-einfacher-sprache` behält genau fünf Skills. Es überträgt nun ausdrücklich in beide Sprachrichtungen. Ungewisse Angaben bleiben ungewiss; aus Fragen werden keine Anerkenntnisse. Eine Zusammenfassung kann kein fehlendes Original rekonstruieren. Erklärung, Entwurf und Antwort führen ohne erneute Aufnahme zum passenden nächsten Schritt.
+
+## 2. Eigenständige Sprachwerkstatt
+
+Werkstatt und Mini enthalten die Rückübertragung samt Bedeutungskontrolle. Die Werkstatt ergänzt konkrete Beispiele, Zahlenbezüge, Tabellen, verständliche Verweise und die gemeinsame Pflege zweier Sprachfassungen. Der Mini bleibt unter 7500 Zeichen und UTF-8-Bytes. Die eigenständig formulierten Sprachregeln beschreiben eine Annäherung, keine zertifizierte Normkonformität; Normtexte werden nicht veröffentlicht.
+
+## 3. Prüfung und Orientierung
+
+Vier weitere fachliche Bewertungsfälle erfassen fehlende Originale, zusätzliche Zusagen, verstärkte Tatsachenbehauptungen und bedingte Höchstbeträge. Automatische Paketprüfungen sichern Struktur, Größenlimit, Verweise und beide Sprachrichtungen. Die Bewertungsfälle sind keine behaupteten Modellläufe. Deutsche und englische Erläuterungen sowie Skill- und Downloadverzeichnisse werden fortgeschrieben. Andere Fachpakete und Akten bleiben inhaltlich unverändert.
+
+# v445.20.0 - Sozialrecht für Laien und Jura in einfacher Sprache
+
+## 1. Zwei fokussierte Arbeitsumgebungen
+
+`sozialrecht-fuer-laien` ergänzt zehn unmittelbar nutzbare Skills für den eigenen Antrag, Kassenbescheid, Widerspruch und Sozialgerichtsprozess. Die Abläufe prüfen Tatsachen, Frist, Form und Einreichungsnachweis und führen bis zum ausformulierten Schreiben. Rechtsantragstelle, Beratungshilfe, Sprachhilfe und Grenzen der Selbstvertretung werden konkret erklärt.
+
+`jura-in-einfacher-sprache` ergänzt fünf Skills zum Übertragen, Erklären, Erstellen, Beantworten und Prüfen juristischer Texte. Bedingungen, Ausnahmen, Fristen und Rechtsfolgen bleiben erhalten. Eine Lesefassung ist keine Vertragsänderung, eine Verständnishilfe keine beglaubigte Übersetzung. Bestehende Fachpakete bleiben erhalten.
+
+## 2. Eigenständige Prompts und Sprache
+
+Beide Pakete enthalten einen ausführlichen Werkstatt-Prompt und einen eigenständig nutzbaren Mini-Prompt innerhalb des aktuell geltenden Kompaktbudgets. Die Prompts sind gegen Überschreiben durch allgemeine Generatoren geschützt und werden getrennt vom installierbaren Plugin bereitgestellt. Die eigenen Sprachregeln orientieren sich an Einfacher Sprache, ohne Zertifizierung oder geprüfte Normkonformität zu behaupten. Normtexte werden nicht veröffentlicht.
+
+## 3. Prüfung und Dokumentation
+
+Sechzehn fachliche Bewertungsfälle decken alle fünfzehn Skills ab, unter anderem Monatsende, E-Mail-Formmangel, Selbstbeschaffung, Vergleichsbindung und Bedeutungsverlust beim Vereinfachen. Automatische Regressionen prüfen Struktur, Referenzen, Größenlimits und Schutzregeln. Diese Prüfungen sind keine beobachteten Modellläufe. Haupt-README, Downloadübersichten und Kataloge erläutern die Pakete; der Hinweis auf Experiment, fehlende Rechtsberatung und gesetzliche Haftungsgrenzen steht ausdrücklich auf der Startseite.
+
+Damit der Hauptrelease unter der Grenze von 1000 Dateien bleibt, werden die beiden bestehenden Akten zum verständlichen Mandantenbrief und zum Elektrorollstuhl ebenfalls im gleichversionierten Akten-Begleitrelease bereitgestellt. Akteninhalte und Gesamtsammlungen bleiben unverändert; die Downloadverweise werden entsprechend fortgeschrieben.
+
+# v445.19.1 - Release-Härtung der Skill-Aktivierung
+
+Der Fachanwalt-Bestand für Miet- und Wohnungseigentumsrecht unterscheidet die Aktivierungssignale der beiden Wärmepumpen-Workflows jetzt eindeutig. Dadurch wählt das System den fachanwaltlichen Vertiefungsworkflow und den allgemeinen Miet-/WEG-Workflow anhand eigenständiger Beschreibungen aus, statt zwei gleichlautende Signale anzubieten.
+
+Alle Marketplace-, Plugin-, Katalog- und Akten-Downloadstände wurden auf v445.19.1 fortgeschrieben. Der vollständige Release-Gate-Lauf umfasst nun ausdrücklich auch die Prüfung auf doppelte Skill-Beschreibungen.
+
+# v445.19.0 - Großes Dieselgate-Plugin mit neun Aktenpaketen
+
+## 1. Eigenständiges Plugin für Dieselschadensersatz
+
+Das neue Plugin `diesel-schadensersatz` übernimmt den geprüften Stand des eigenständigen Dieselgate-Projekts v1.43.1. Einundzwanzig aufeinander abgestimmte Skills führen von Aktenstart, Beweis- und Fristenprüfung über Anspruchstrennung, Klage und Replik bis zum beA-Paket und zur Vollstreckung. Das Fünfjahreskorpus, das Rechtsstands-Cockpit und die Abfragewerkzeuge bleiben als geschlossene Arbeitsumgebung erhalten. Werkstatt und Schnellstart sind eigenständig nutzbar und für den zentralen Prompt-Download geschützt.
+
+## 2. Rechtsstand und belastbare Quellenführung
+
+Die Rechtsprechungs- und Verfahrensübersicht unterscheidet geltende Entscheidungen, bloße Schlussanträge, neun weiterhin anhängige Vorlagen, gestrichene Verfahren und das seit 21.07.2026 ohne veröffentlichte Abschlussentscheidung geschlossene Verfahren `C-408/25`. Neue BGH-Anker vom 26.08.2026 und die genaue Differenzschadensformel sind mit Reichweitengrenzen eingearbeitet. Fundstellen, ECLI, Entscheidungsart und Status werden durch Selbsttests und Korpusprüfungen abgesichert; das Plugin kennzeichnet Unsicherheiten, statt aus einer Modellbezeichnung oder einem Fahrzeugmerkmal ein Ergebnis abzuleiten.
+
+## 3. Neun native Testakten ohne eingebaute Lösung
+
+Acht kontrastierende Mandats- und Prozessakten sowie ein KBA-Referenzpaket ergänzen den zentralen Testaktenbestand. Sie decken EA189, EA288, BMW, Mercedes OM651, Fiat-Wohnmobil, Finanzierung, Vollstreckung und Rückrufdaten ab. Die Arbeitsunterlagen liegen in nativen Formaten vor; interne Lösungsvermerke, Freigabeentscheidungen und abschließende Antwortschreiben sind nicht Teil der Zielakten. Jede Akte erhält eine neutrale Aufgabenbeschreibung, ein Gesamt-PDF sowie getrennte Original- und Einzel-PDF-Archive im gleichversionierten Akten-Release.
+
+## 4. Integration und Veröffentlichung
+
+Das Plugin ist in Marketplace, Pluginverzeichnis, Skillkatalog, Promptprofilen und Release-Routing eingebunden. Die neue Veröffentlichung wird als v445.19.0 geführt. Die Plugin-Installation bleibt schlank; die umfangreichen Testakten werden nach dem bestehenden Repositorymodell als zugeordnete Release-Downloads veröffentlicht und aus der Plugin-Dokumentation unmittelbar erschlossen.
+
+# v445.18.1 - Aktuelle Pflegeentscheidungen mit klaren Anwendungsgrenzen
+
+## 1. Rechtsprechung in den konkreten Arbeitsabläufen
+
+Vier zusätzliche Entscheidungen ergänzen die zehn Pflegerecht-Skills und beide eigenständigen Prompts: Corona-Erstattung von Einrichtungen, Verhinderungspflege nach dem Tod, Kündigung eines Versorgungsvertrags sowie EU-Sachleistungsaushilfe. Das Urteil des BSG vom 18.06.2026 und die am 28.09.2026 veröffentlichte LSG-Mitteilung sind mit ihren unterschiedlichen Quellenständen erfasst. Die Pflegegradprüfung unterscheidet die zulässige Berücksichtigung verschiedener Kriterien in Modulen 4 und 5 von der Höchstwertregel für Module 2 und 3.
+
+## 2. Angekündigte Verfahren bleiben offen
+
+B 3 P 2/25 R zu zusätzlichen Entlastungskosten und B 3 P 3/25 R zum Heimzuschlag ohne Pflegesatzvereinbarung sind zum Prüfdatum 30.09.2026 lediglich für 01.10.2026 angekündigt. Die Prompts geben weder Parteivorbringen noch Vorinstanz als Urteil des BSG aus. Historische Erstattungsregeln, gesetzliche Fristen und heutige Leistungsansprüche werden getrennt.
+
+## 3. Prüffälle und Veröffentlichung
+
+Sechs zusätzliche fachliche Ergebnisfälle und technische Regressionen sichern Quellenstatus, Zuordnung und eigenständige Nutzung. Der Mini bleibt unter 7500 UTF-8-Bytes. Eine zu lange Beschreibung des Einrichtungsskills wird unter die strengere Aktivierungsgrenze von 360 Zeichen gekürzt; diese Grenze hatte den Release-Build von v445.18.0 gestoppt und wird nun zusätzlich lokal abgesichert. Diese Prüfungen sind keine behaupteten unabhängigen Modellläufe. Bestehende Fallakten und andere Fachpakete bleiben inhaltlich unverändert.
+
+# v445.18.0 - Eigenständiges Pflegerecht nach SGB XI
+
+## 1. Zehn konkrete Arbeitsgänge
+
+Das neue Plugin pflegerecht-sgb-xi führt vom Pflegefall zum Antrag, Leistungsplan oder Rechtsbehelf. Fachskills bearbeiten Pflegegrad und Begutachtung, häusliche Kombination, Ersatz- und Kurzzeitpflege, Hilfsmittel und Wohnumfeld, Heimkosten, Absicherung der Pflegeperson, Beiträge sowie Vergütung und Qualitätsprüfung von Einrichtungen. Vorhandene Pflegeinhalte anderer Plugins bleiben inhaltlich unverändert.
+
+## 2. Fachlich überprüfte eigenständige Prompts
+
+Die ausführliche Werkstatt und der Mini-Prompt unter 7500 UTF-8-Bytes enthalten konkrete Normen, Rechenwege und drei überprüfte BSG-Entscheidungen mit Anwendungsgrenzen. Berücksichtigt sind die 2026 geltende Pflichtberatung, die Erstattungsfrist für Ersatzpflege, die Berechnung des Heimzuschlags durch die Pflegekasse ab Juli 2026 und die BSG-Entscheidung vom März 2026 zu Pflegegrad 5. Soziale und private Pflegepflichtversicherung werden verfahrensrechtlich getrennt.
+
+## 3. Auffindbarkeit und Prüfung
+
+Die vorhandenen Pflegeakten aus Trier und Wittenberge sind zusätzlich beim neuen Plugin verlinkt; Aktenstücke und bisherige Zuordnungen bleiben erhalten. Marketplace, Skill- und Promptverzeichnisse erhalten das neue Paket. Zehn individuelle Ergebnisfälle und technische Regressionstests prüfen die fachlichen Leitplanken, ohne diese redaktionellen Prüfungen als bestandene unabhängige Modellläufe auszugeben.
+
+Ein bestehender Katalogtest ist nun vollständig auf sein temporäres Verzeichnis begrenzt. Seine Beispieldaten überschreiben nicht mehr die echte Rechtsgebietsübersicht; eine zusätzliche Prüfung sichert diese Trennung ab.
+
+# v445.17.0 - Einfache Gründungsakte Topf & Tacheles
+
+## 1. Überschaubarer Einstieg mit sieben Gründern
+
+Die neue Berliner Testakte behandelt einen Pflanzenverleih mit Gießservice. Sie enthält genau 15 Originaldateien: drei kurze Word-Dokumente, vier E-Mails, einen Chat und sieben JPG-Personendatenkarten. Einfache Gründungsvorbereitung, Geldbeiträge und unterschiedliche Vorstellungen von Stimmen und Mehrheiten stehen im Mittelpunkt. Die Akte ist bei Gesellschaftsgründer und Startup-Gründer als leichter Einstieg verlinkt.
+
+## 2. Deutsche Vertragsentwürfe mit offenen Feldern
+
+Satzung und Gesellschaftervereinbarung sind deutschsprachige, noch nicht vereinbarte Entwürfe. Die Personennamen bleiben leer; P01 bis P07 sichern die Zuordnung zu den Datenkarten und den vorgeschlagenen Geschäftsanteilen. Entscheidungsfelder bleiben bis zur gemeinsamen Klärung offen. Die JPGs sind deutlich als fiktive Datenblätter gekennzeichnet und bilden keine amtlichen Ausweise nach.
+
+## 3. Auslieferung und Quellenprüfung
+
+Gesamt-PDF, Originalformat-ZIP und Einzel-PDF-ZIP werden über die bestehenden Akten-Builder erzeugt. Die neue Akte wird im ergänzenden Aktenrelease veröffentlicht, damit das Hauptrelease innerhalb der Assetgrenze bleibt. Die gesellschaftsrechtliche Prüfung stützt sich auf tatsächlich gelesene amtliche Gesetzesfassungen; ihr interner Nachweis liegt getrennt von den Arbeitsunterlagen.
+
+# v445.16.2 - Lesbarere Tabellen in den Sozialversicherungsakten
+
+Die Anteils- und Vergütungstabellen der beiden Geschäftsführerakten sowie der Rechnungsabgleich der Programmiererakte erhalten klar getrennte Spaltenüberschriften und mehr Abstand zwischen Zahlen und Belegtext. Werte und Formeln bleiben unverändert. Die zugehörigen PDF- und ZIP-Fassungen werden neu erzeugt; die fachlichen Skills und Prompts bleiben unverändert.
+
+# v445.16.1 - Release-Prüfung für die erweiterten Aktenpakete
+
+Die Routingtests prüfen die elf vorgesehenen Akten im Begleit-Release und verwenden für den Grenzfall mit 1.003 Assets eine eigene feste Testkonfiguration. Dadurch bleiben die Größen- und Vollständigkeitsprüfungen erhalten, ohne von einer veralteten Zahl realer Akten auszugehen. Der erste Release-Build von v445.16.0 wurde vor der ZIP-Erstellung durch diese alte Testerwartung gestoppt; fachliche Inhalte und native Testakten bleiben unverändert.
+
+# v445.16.0 - Sozialversicherungspflicht mit zehn Skills und sechs Fallakten
+
+## 1. Eigenständiges Plugin mit vollständiger Prüfung
+
+Der neue Sozialversicherungspflicht-Prüfer bearbeitet deutsche Inlandssachverhalte in genau zehn Skills einschließlich eines Hauptskills. Beschäftigungsstatus, die einzelnen Versicherungszweige, Versicherungsfreiheit, tätigkeitsbezogene Befreiung und Beitragspflicht werden nach Tätigkeit und Zeitraum getrennt. Eigene Wege behandeln GmbH-Geschäftsführung, AG-Organe, Lehrkräfte, freie Projektarbeit, selbständige Rentenversicherung, Versorgungswerke und Verwaltungsverfahren. Gezielte Rückfragen werden im laufenden Vorgang verarbeitet; die beauftragten Gutachten und Schreiben werden ausformuliert.
+
+## 2. Aktuelle Quellen und eigenständige Prompts
+
+Die ausführliche Werkstatt und der Mini-Prompt unter 7.500 UTF-8-Bytes funktionieren jeweils eigenständig und bleiben separate Markdown-Downloads. Verifizierte Normen, sechzehn Entscheidungsanker und aktuelle amtliche BSG-Berichte werden mit Aussage, Fundstelle und Reichweitengrenze verwendet. Enthalten sind die bis Ende 2027 verlängerte Lehrkräfteübergangsregel, der BSG-Bericht vom Juli 2026 zu einem bindenden Stichentscheid bei 50/50 sowie die DRV-Verwaltungspraxis von August 2026 zu Vertragsübernahmen und Befreiungen. Ein Terminbericht wird nicht als gelesener Urteilsvolltext ausgegeben.
+
+## 3. Sechs Akten mit nativen Arbeitsdateien
+
+Musikakademie Prenzlauer Berg, Programmierer Leipzig, Geschäftsführung mit 20 Prozent in Berlin, paritätische Geschäftsführung in Erfurt, Syndikus in Hamburg und AG-Organe in Hannover enthalten zusammen 175 Originaldateien. Dazu gehören 50 Word-Dokumente, acht Excel-Mappen, 42 PDF-Belege, 51 E-Mails sowie Chats, Datenexporte und Kalendereinladungen. Wirksame Verträge, unbeschlossene Entwürfe, Behauptungen und tatsächliche Abläufe bleiben unterscheidbar. Die sechs Gesamt-PDFs umfassen lokal zusammen 296 Seiten; Originalarchive und Einzel-PDF-Archive werden jeweils gesondert bereitgestellt.
+
+## 4. Nachweise und Integration
+
+Die nativen Dokumente wurden gerendert und visuell geprüft; Excel-Formeln wurden zusätzlich mit veränderten Eingaben überprüft. Strukturprüfung, redaktionelle Bewertung und tatsächliche Dialogproben werden in getrennten Nachweisen dokumentiert. Die zentrale Dokumentqualitätsprüfung erfasst auch die neuen Sozialversicherungsakten. Pluginversionen, Marketplace, Fachzuordnung, Skill- und Downloadverzeichnisse werden gemeinsam auf 445.16.0 geführt. Wegen der GitHub-Grenze von 1.000 Release-Dateien liegen die sechs neuen Akten und die bestehende Erlanger Geschäftsführerakte im gleichversionierten Akten-Release; sämtliche Verweise werden entsprechend erzeugt. Die Sammelarchive enthalten weiterhin alle Akten, frühere Tags bleiben erhalten.
+
+# v445.15.4 - Dezimale Gliederung der Kommissionspositionen
+
+## 1. Argumentationskarte
+
+Diese Fassung veröffentlicht die in v445.15.3 beschriebenen fachlichen Ergänzungen des Berliner Kommissionsberichts für Enteignung und Vergesellschaftung einschließlich der nachfolgenden Gliederungskorrektur.
+
+Die drei Positionen zur Verhältnismäßigkeit und die anschließende Gegenprobe sind als eigenständige dezimale Unterabschnitte mit getrennten Überschriften lesbar. Die fachlichen Aussagen der vorigen Version bleiben erhalten. Eine zusätzliche Regression prüft Nummerierung und Absatzabstände; Quellen- und Gegenpositionsprüfungen sind auf die präzisen Unterabschnitte ausgerichtet.
+
+# v445.15.3 - Berliner Kommissionsargumente in Eigentumsverfahren
+
+## 1. Vergesellschaftung mit begründeter Gegenprüfung
+
+Der Berliner Abschlussbericht von Juni 2023 einschließlich Sondervoten und ergänzender Stellungnahme ist in die neun Skills sowie Werkstatt und Schnellstart zur Vergesellschaftung eingearbeitet. Die Arbeitswege behandeln modifizierte und strengere Verhältnismäßigkeitsprüfung, tatsächliche Wirkungen, Alternativen, Auswahlgrenzen, gesetzliche Bestimmbarkeit, gemeinwirtschaftliche Trägerschaft, Entschädigungsmodelle und Landesverfassungsstreit. Wohnungsannahmen werden nicht als Ergebnis für hessische Energienetze übernommen. Die Bearbeitung führt zu konkreten Regelungen, Stellungnahmen und Beratungsbriefen statt einer bloßen Zusammenfassung des Berichts.
+
+## 2. Enteignung und Quellenstatus trennen
+
+Das Enteignungspaket übernimmt die einschlägigen Gegenargumente zur Eingriffseinordnung, Zweckbindung und Bewertung, ohne den BauGB-Maßstab durch streitige Artikel-15-Modelle zu ersetzen. Eigenständige Argumentationskarten unterscheiden Kommissionsauffassung, Tatsachenprognose, geltendes Recht und Gestaltungsansatz. Verkürzte Wohnungseigentumseinordnung und unstimmige Modellgewichte aus dem Bericht werden nicht ungeprüft weitergegeben. Der Abgleich mit dem Berliner Rahmengesetz von 2026 wahrt dessen erst 24 Monate nach Verkündung vorgesehenes Inkrafttreten und den Bedarf eines Anwendungsgesetzes.
+
+## 3. Prüfung und eigenständige Nutzung
+
+Zehn zusätzliche Evaluationsaufträge decken typische Fehlübertragungen und Gegenpositionen ab; Strukturregressionen sichern Referenzzugang und eigenständige Prompts. Diese Prüfungen sind keine behaupteten Live-Modellläufe. Beide Kurzprompts bleiben unter 7500 UTF-8-Bytes. Bestehende Fallunterlagen, Skillnamen und Installationsstruktur bleiben unverändert. Versionen, Qualitätsnachweise und Downloadverzeichnisse sind nachgeführt.
+
+# v445.15.2 - Finale Leitlinien zu Artikel 50 in den Transparenzabläufen
+
+## 1. Konkretisierte Prüfwege
+
+Der Transparenzprüfer verarbeitet die finalen Kommissionsleitlinien vom 20. Juli 2026 in allen acht Fachskills, Werkstatt und Schnellstart. Automatische E-Mail-Dialoge, menschlich versandte Entwürfe, Markierung und Detektion, enge technische Ausnahmen, realistische erfundene Sprecher sowie redaktionelle Endprüfungen erhalten konkrete Nachweis- und Dokumentenwege. Der allgemeine Verordnungsprüfer übernimmt diese Abgrenzungen in seinen beiden Transparenzskills und eigenständigen Prompts.
+
+## 2. Quellen und zeitliche Grenzen
+
+Amtlicher Leitlinienvolltext und einschlägiger Änderungswortlaut wurden am 30. September 2026 abgeglichen. Unverbindliche Auslegung, geltende Norm, freiwilliger Kodex und gerichtliche Entscheidung bleiben getrennt. Altinhalte werden nach Medien und Texten unterschieden; die gesetzliche Anbieterübergangsfrist wird nicht anhand einer weiter formulierten Leitlinienstelle auf bloße interne Inbetriebnahme ausgedehnt. Bestehende Prüfgrenzen anderer Regelungsbereiche bleiben ausdrücklich erhalten.
+
+## 3. Regressionen und eigenständige Nutzung
+
+Sieben zusätzliche Bewertungsaufträge sichern typische Grenzfälle in beiden Prüfprofilen. Strukturtests kontrollieren Quellenkarten, Promptintegrität, Größenlimits und Fallabdeckung; sie werden nicht als bestandene Modellläufe ausgegeben. Beide Schnellstarts bleiben unter 7500 UTF-8-Bytes und enthalten die wesentlichen Prüfmaßstäbe selbst. Die Werkstätten verlinken den amtlichen Volltext unmittelbar. Fallakten, Skillnamen und Installationsstruktur bleiben unverändert; Versionen und Verzeichnisse sind nachgeführt. Die parallele Überarbeitung des Arbeitszeugnisprüfers und die Metadatenkorrekturen des GmbH-Pakets aus Version 445.15.1 sind unverändert übernommen.
+
+# v445.15.1 - Arbeitszeugnisprüfung fachlich und praktisch verfeinert
+
+## 1. Beweise, Korrekturziel und vollständige Bearbeitung
+
+Der Arbeitszeugnisprüfer verbindet Tätigkeiten, Zeiträume, persönliche Leistungsbeiträge und Belege präziser. Der einzelne Note-3-Skill berücksichtigt jetzt ausdrücklich die Arbeitgeberlast bei unterdurchschnittlicher Bewertung. Bei einem gemischten Ziel von Note 4 auf Note 2 bleiben Abwehr der Abwertung und weitere Aufwertung getrennte Fragen. Ersatzformulierungen werden von einem Anspruch auf genau diesen Wortlaut unterschieden; gleichwertige Korrekturen können den Punkt erledigen.
+
+## 2. Werkstatt, Mini und Quellen
+
+Werkstatt, Mini und zwölf bestehende Skills werden gezielt vertieft; es bleiben 31 Skills. Eigenständige Wege für einfache Zeugnisse, Ausbildungszeugnisse und verweigerte Erteilung verhindern unpassende Prüfungen. Die Werkstatt ergänzt Datierung, Unterzeichnerrang und Zwischenzeugnisbindung mit überprüften Quellen und Reichweitengrenzen. Die BAG-Entscheidungen von 2025 und 2026 bleiben enthalten. Der Mini bleibt unter 7.500 UTF-8-Bytes. Echte Belegdateien und dokumentierte unabhängige Dialogproben ergänzen die bisherigen Szenarien.
+
+## 3. Veröffentlichung
+
+Eine zu lange Skillbeschreibung und fünf fehlende Hauptüberschriften im zuvor ergänzten GmbH-Organisator sind minimal korrigiert. Die fachlichen Arbeitsabläufe bleiben dabei unverändert; historische Testnachweise und spätere Metadatenkorrekturen sind getrennt dokumentiert. Frühere Tags bleiben unverändert.
+
+# v445.15.0 - Gesellschafterversammlungs-Organisator für GmbH und UG
+
+## 1. Fünf Fachskills und ein Hauptproblem-Skill
+
+Das neue Plugin `gmbh-gesellschafterversammlung` führt von vorhandenen Satzungs- und Beteiligtenunterlagen über Einladung und Nachträge zu einem ausfüllbaren Versammlungsleitfaden, dem tatsächlichen Protokoll und den beauftragten Vollzugsschritten. Der Hauptproblem-Skill bearbeitet den Auftrag selbst; fünf Fachskills vertiefen die einzelnen Schritte. Gezielte Rückfragen werden im selben Vorgang verarbeitet. Acht BGH- und zwei OLG-Entscheidungen sind anhand amtlicher Volltexte mit Randnummern, Anwendung und Grenzen eingeordnet, einschließlich BGH vom 5. Mai 2026 zur richtigen Einladungsadressatin.
+
+## 2. Eigenständige Prompts und exakte Stimmenrechnung
+
+Die handverfasste Werkstatt enthält zwanzig Abschnitte mit formulierten Arbeitsbeispielen und Quellen. Der Mini-Prompt bleibt unter 7.500 UTF-8-Bytes. Beide werden separat veröffentlicht, ohne weitere Skills oder Megaprompt zu erzeugen. Ein optionaler Python-Helfer rechnet Schwellen und verschiedene Nenner mit exakten Brüchen; rechtliche Ausschlussannahmen müssen ausdrücklich vorgegeben werden. Dreizehn Tests sichern insbesondere Gleichstand, Dreiviertelgrenze, Nullbasis und Streitvarianten.
+
+## 3. Versionsabgleich im Release
+
+Die optionalen Codex-Manifeste werden zusätzlich zu den Claude-Manifesten auf den Marketplace-Stand synchronisiert. Die Importprüfung erkennt künftig abweichende Namen und Versionen; vier isolierte Regressionstests sichern diese Prüfung. Damit wird der Abbruch des vorherigen Release-Builds wegen einer veralteten Codex-Version behoben. Die früheren Tags bleiben unverändert; der neue Release umfasst auch die bereits auf main liegende Schnittflug-Erweiterung.
+
+# v445.14.2 - Schnittflug Berlin mit vertiefter Gründungsakte
+
+## 1. Nachreichungen und Verhandlungsstände
+
+Die Testakte des Startup-Gründers wächst von 68 auf 133 native Arbeitsdateien. Zwölf neue Word-Dokumente vertiefen Mehrheitsklauseln, Geschäftsführerstellung, Vesting, unterschiedliche deutsche und englische Gegenfassungen, Darlehen, Seed-Bedingungen und Bezugsrechte. Weitere Unterlagen belegen den Entwicklungsauftrag als noch nicht angenommenes Angebot, den Werkstattvorfall, das unverbindliche Saloninteresse sowie offene Nutzungsrechte, Datenbestände und Mittelherkunft. Die 68 bisherigen Originale bleiben unverändert als frühere Arbeitsstände erhalten.
+
+## 2. Zahlen und zusammengehörende Belege
+
+Zwei zusätzliche Excel-Mappen und zehn neue PDF-Belege verbinden Rechnungen, Teilzahlungen und Gutschriften mit dem bisherigen Auslagenstand. Neue Threads, Chat-Exporte, Bildschirmansichten und CSV-Verzeichnisse halten den Tagesablauf bis zur abendlichen Gründerbesprechung fest. Spätere Kapitalrunden, Einlagen und Verträge bleiben als unvollzogene Planung erkennbar. Das Plugin behält seine 18 Skills.
+
+## 3. Prüfung und Downloads
+
+Prüfungen sichern Originalhashes, vollständiges Dateiinventar, eingebettete Mailanhänge, zeitliche Bezüge und die Abstimmung der finanziellen Nachreichungen. Neue Word-Unterlagen, Tabellen und Belege wurden gerendert und visuell geprüft; die Tabellen wurden zusätzlich mit veränderten Eingaben in LibreOffice neu berechnet. Gesamt-PDF, Original-ZIP und Einzel-PDF-ZIP werden aus demselben erweiterten Bestand gebaut.
+
+# v445.14.1 - Präsentationspaket mit vollständiger Schlussprüfung
+
+## 1. Juristische Präsentationen
+
+Erste vollständige Veröffentlichung des neuen Pakets mit zehn Kernskills, zwei optionalen Zusatzskills, neutraler PowerPoint-Vorlage, ausführlicher Werkstatt und kompaktem Schnellstart. Quellenführung, Publikum, Zeit und Sprechtext bestimmen den konkreten Vortrag. Die Prüfrunde ergänzt die vollständige Meldung eingebetteter Office-Dateien und erkennt mehrfach verwendete sowie nicht eingebundene Folienbestandteile. Ungeprüfte eingebettete Inhalte erfordern eine gesonderte Kontrolle vor der Weitergabe; aktive und unbekannte Binärformate werden abgewiesen.
+
+## 2. Gliederung und Regressionen
+
+Die einzelnen Arbeitsschritte der neuen Skills sind als lesbare dezimale Unterabschnitte gegliedert. Zusätzliche Mutationsprüfungen sichern Folienreihenfolge, Beziehungen und eingebettete Inhalte. Verzeichnisse und Versionsstände sind nachgeführt. Der vorangehende Tag bleibt unverändert; sein noch unveröffentlichter Build wurde zugunsten dieser korrigierten Fassung beendet.
+
+# v445.14.0 - Juristische Präsentationen mit neutraler PowerPoint-Vorlage
+
+## 1. Neues Präsentationspaket
+
+Zehn eigenständige Kernskills führen vom konkreten Anlass über Publikum, Rechtsfrage und Zeitplanung zu bearbeitbaren Folien, vollständigen Sprechernotizen und Vortragsprobe. Urteilserläuterung, Fachvortrag, Laieninformation, Gerichtstermin und interner Entscheidungsbedarf erhalten eigene Arbeitswege. Zwei ausschließlich auf Wunsch eingesetzte Zusatzskills ergänzen zurückhaltende Animationen und jugendgerechte Sprache. Werkstatt und Schnellstart bleiben gesonderte Markdown-Dateien außerhalb des installierbaren Pakets.
+
+## 2. Vorlage und technische Prüfung
+
+Die bereitgestellte Gestaltung bleibt mit sechs Musterfolien, einem Master und 23 Layouts erhalten. Kanzleimerkmale, Kontaktdaten, alte eingebettete Objekte und identifizierende Metadaten wurden entfernt. Die Offline-Paketprüfung kontrolliert unter anderem Archivgrenzen, interne Verknüpfungen, Altobjekte und Animationsziele, ohne Dateien zu verändern oder Links aufzurufen. Struktur-, Mutations- und Integrationsprüfungen begleiten die Veröffentlichung. Die Folien wurden gerendert und visuell geprüft; daraus folgt keine Wiedergabe- oder Kompatibilitätsgarantie für fremde Benutzerkonten.
+
+## 3. Verständliche Ausgabe und Auffindbarkeit
+
+Publikum und Redezeit bestimmen Sprache und Stoffauswahl; eine begründete Rechtsaussage wird nicht durch Effekte oder Schlagworte ersetzt. Bei fehlender Dateierzeugung entsteht ein vollständiges Folienmanuskript mit Sprechtext und Quellen, keine scheinbare PowerPoint-Datei. Plugin-, Skill-, Prompt- und Downloadverzeichnisse sind aktualisiert.
+
+# v445.13.2 - Abgeleitete Aktenverweise vollständig abgeglichen
+
+Die beiden Pluginverzeichnisse zur Göttinger Akte übernehmen nun auch den nach der dezimalen Gliederung normalisierten Dokumenttitel. Wiederholte vollständige Generatorläufe sichern den identischen Katalogstand. Die Inhalte, Originalunterlagen und fachlichen Prüfungen bleiben unverändert.
+
+Diese Version veröffentlicht den nachfolgend beschriebenen Gesamtumfang. Die Entwürfe v445.13.0 und v445.13.1 wurden vor dem Asset-Upload angehalten; ihre Tags bleiben unangetastet. Das Akten-Begleitrelease heißt `akten-v445.13.2`.
+
+# v445.13.1 - Plattformübergreifender Abgleich der E-Mail-Anlagen
+
+Die Prüfung der FinTech-Nachrichten berücksichtigt äußere Faltungsleerzeichen in beschreibenden E-Mail-Headern. Python-Versionen dürfen diese unterschiedlich entfalten; Dateinamen, MIME-Anlagen und Originalbytes werden unverändert streng geprüft. Die neuen Fachprüfer und Akten bestehen ihre zusätzlichen Regressionen unter Python 3.12; der Göttinger PDF-Builder ist auch mit Liberation Serif statt Times New Roman geprüft. Alle Überschriften der vier neuen Akten-READMEs werden einschließlich des Downloadabschnitts dauerhaft dezimal erzeugt und gesondert geprüft.
+
+Diese Version veröffentlicht auch den nachfolgenden Lieferumfang. Der Build zu v445.13.0 wurde vor dem Asset-Upload angehalten; sein Tag bleibt unverändert. Das versionsgleiche Akten-Begleitrelease heißt `akten-v445.13.1`.
+
+# v445.13.0 - Vier Fachprüfer, präzisere Zeugnisprüfung und vertiefte FinTech-Akte
+
+## 1. Einstufung und Transparenz getrennt bearbeiten
+
+Die neuen Plugins `ki-verordnung-hochrisiko-pruefer` und `ki-verordnung-transparenzpruefer` führen von technischen Unterlagen und tatsächlicher Verwendung zu begründeten Einstufungen, Anbieteranfragen, Hinweisen und Freigabevermerken. Der Hochrisikoprüfer erfasst den Produktpfad und sämtliche Bereiche des Anhangs III; Bewerbungsauswahl und eigenmächtige Chatbot-Nutzung bilden den vertieften Personalpraxisfall. Registrierung, Konformitätsbewertung, Notifizierung und Vorfallmeldung werden nicht gleichgesetzt. Die Transparenzprüfung trennt Anbieter und Betreiber, technische Markierung und Offenlegung, private Schriftsätze und öffentliche Texte sowie menschliche Textkontrolle und Deepfakes.
+
+Die Quellenkarten unterscheiden geltende Änderungsnormen, Übergangsfristen, unverbindliche Leitlinien und noch offene Auslegungsfragen. Beide Plugins enthalten eigene Werkstatt- und Schnellstart-Prompts sowie jeweils eine neue native Fallakte mit drei Downloadformen.
+
+## 2. Eigentumseingriffe mit dem passenden Verfahren prüfen
+
+`vergesellschaftung-artikel-15` behandelt Gegenstände, Landeskompetenz, Landesverfassungsrecht, gemeinwirtschaftliche Trägerschaft, Entschädigung und Unionsrecht. Die Energieinfrastrukturakte spielt in Hessen; historische Verfassungsbestimmungen werden nicht als pauschale Erlaubnis für ein neues Gesetz ausgegeben. `enteignung-artikel-14` führt durch Grundstücksprüfung, Alternativen, Erwerbsverhandlungen, Beteiligung, Entschädigung und Rechtsschutz. Paragraf 104 BauGB bestimmt die Behörde und ersetzt keine Enteignungsvoraussetzung. Die niedersächsische Fallakte berücksichtigt die besondere Zuständigkeit für Baulandsachen.
+
+## 3. Zeugnisansprüche und ihre Durchsetzung schärfen
+
+Der Arbeitszeugnisprüfer verbindet die konkrete Beanstandung gezielter mit Aufgabenbild, Tatsachenbelegen, Notenbeweislast, Schlussformel oder Vergleichsvollstreckung. BAG vom 7. Mai 2026, 8 AZB 25/25, wird für den hinreichend bestimmten Vergleich mit späterem Arbeitnehmerentwurf und die Grenzen der Vollstreckung bei plausiblen Wahrheitseinwendungen eingeordnet. BAG vom 18. Juni 2025, 2 AZR 96/24 (B), betrifft den vorzeitigen Verzicht auf den künftigen Zeugnisanspruch; daraus folgt kein uneingeschränktes Verzichtsverbot nach Vertragsende. Gestaltungswünsche, Rechtsmängel und beweisabhängige Aufwertungen bleiben getrennt.
+
+## 4. FinTech-Belege und verlässliche Auslieferung
+
+Die Bremer FinTech-Akte erhält sieben zusätzliche Vertragsvollzugsunterlagen, Zahlungsabgleiche, interne Rückfragen und Korrespondenz mit nativen Anhängen. Alle 35 bisherigen Originale bleiben bytegleich erhalten; die nun 42 Quellen ergeben 215 Seiten im Gesamt-PDF. Vorhandene Parteibehauptungen bleiben als solche erkennbar und ersetzen keine eigene Prüfung.
+
+Vier neue Plugin-ZIPs und die zusätzlichen Akten überschreiten zusammen mit dem Bestand die Plattformgrenze von 1000 Assets je Release. Deshalb liegen nur die acht Einzel-ZIPs der vier neuen Akten im versionsgleichen Begleitrelease `akten-v445.13.0`; die vollständigen Sammelpakete bleiben im Hauptrelease. Beide Releases erhalten eigene Prüfsummen und denselben Commitbezug. Die Veröffentlichung erfolgt erst nach Uploadprüfung, das Begleitrelease wird nicht zur neuesten Hauptversion. Bestehende Downloadadressen bleiben erhalten.
+
+# v445.12.0 – Startup-Gründer mit vollständiger Gründungsakte
+
+Das neue Plugin begleitet die UG- oder GmbH-Gründung mit 18 gezielten Skills. Es erstellt aus vorhandenen Unterlagen früh vollständige Satzungs- und Vertragsentwürfe auf Deutsch und Englisch und klärt entscheidende Lücken im weiteren Dialog. Geschäftsführungsstatus, Beteiligung, Mehrheiten, Geldwäscheprüfung und Vollzug sowie optionale Seed-, Serie-A- und Serie-B-Runden bleiben nachvollziehbar getrennt.
+
+Die handkuratierte Werkstatt enthält 40 Kapitel mit überprüften Rechtsankern, insbesondere zur Gesamtbetrachtung von Leaver-Regeln und zur Rechtsmacht von Minderheitsgeschäftsführern. Sie steht identisch als Markdown und TXT sowie als Word- und PDF-Lesefassung bereit. Der Mini-Prompt umfasst exakt 7.500 Unicode-Zeichen. Die dafür nötige Trennung von Zeichen- und Bytebudget gilt ausschließlich für dieses Plugin.
+
+Die neue Testakte Schnittflug Robotics aus Berlin umfasst 68 native Arbeitsdateien mit sieben Gründern, ausformulierten Vertragsentwürfen, drei berechnenden Excel-Arbeitsmappen, Nachrichten samt echten Anhängen, Chatverläufen, Bildschirmabbildungen und 13 Rechnungsbelegen. Originale, Gesamt-PDF und einzelne PDFs werden separat angeboten. Ein tatsächlicher Praxistest erzeugte fünf Arbeitsprodukte und führte zu präziseren Prüfaufträgen für Budgetgrenzen, Anlagen und Liquidität. Die technische, visuelle und rechtliche Prüfung ist getrennt dokumentiert; ein erfolgreicher Test ersetzt keine konkrete notarielle oder behördliche Entscheidung.
+
+# v445.10.1 - Eine vollständige ModeFuchs-Akte und gemeinsame FinTech-Zuordnung
+
+Die bisher getrennten ModeFuchs-Fassungen sind in einer Arbeitsakte zusammengeführt. Die 28 Original-PDFs der ausführlichen Fassung bleiben unverändert. Elf native E-Mails enthalten tatsächlich eingebettete PDF- und Bildanhänge; dazu kommen drei konsistente Scanableitungen, das Einlieferungsfoto, zwei Bildschirmansichten, eine bearbeitbare Klagefassung und ein belegbezogenes Excel-Forderungskonto. Zahlungsanweisung, Eingang beim Händler und Weiterleitung an das Inkassounternehmen werden nicht als mehrere Kundenzahlungen gezählt.
+
+Der abweichende Nebenfall entfällt aus den Übersichten. Redaktionelle Lösungsmatrizen und technische Prüfdaten liegen außerhalb der Arbeitsakte. Gesamt-PDF, flaches Originalformat-ZIP und flaches Einzel-PDF-ZIP werden aus demselben Bestand gebaut. Regressionen sichern Originalprüfsummen, wortgleiche Nachrichtenüberlieferungen, eingebettete Anhänge und den Archivbestand.
+
+Die FinTech-Verfahrensakte ist zusätzlich beim Forderungsmanagement erschlossen. Beide Plugins verweisen auf denselben zentralen Bestand; die getrennte technische Versandproduktion bleibt ausdrücklich erkennbar. Die vorhandenen Parteischriftsätze sind Arbeitsunterlagen, keine bestätigten Rechtsauskünfte oder Versandfreigaben.
+
+# v445.10.0 – beA-Versand als Ein-Skill-Plugin
+
+- Neues Plugin `bea-versand` mit genau einem Skill `bea-anlagen-versand`, abgeleitet aus der bereitgestellten Nutzervorlage. Beliebige Hauptdokumente, verstreute Anlagenverweise und eindeutiger Gesprächskontext werden unterstützt. Originale, dokumentierte Bezeichnungen und fachlicher Inhalt bleiben erhalten.
+- Anlagen werden inhaltlich zugeordnet, benötigte Mailanhänge und Konvolute berücksichtigt, PDF-Kopien auf der ersten Seite gestempelt und eindeutig für den beA-Upload benannt. Signaturintegrität, freie Stempelbereiche, Namenskollisionen und gezielte Rückfragen sind Teil des Ablaufs.
+- Genau ein handkuratierter Werkstatt-Prompt, identisch als MD und TXT. Das explizite Promptprofil verhindert Schnellstart-, Mini-, Mega- und Schwerpunktdateien auch bei erneuter Generierung. Bestehende Pluginprofile behalten ihren Umfang.
+- Die vorhandene Modefuchs-Cowork-Sonderfallakte aus dem Forderungsmanagement ist als Testakte angebunden; deren Originale werden weder kopiert noch verändert.
+- Offizielle technische Quellen am 28.09.2026 geprüft: 84 Zeichen für normale beA-Anhänge gegenüber 90 für Signaturdateien, erlaubte Umlaute, keine allgemeine PDF/A-Pflicht und klare Trennung zwischen Dateivorbereitung und tatsächlicher Einreichung.
+
+# v445.9.2 - Vollständige Zuordnung angehängter Schriftsätze und Nachrichten
+
+Die Anhangskontrolle erkennt das ausdrücklich ausgewählte Hauptdokument als bereits erfasste Quelle. Weitergeleitete Nachrichten im Format message/rfc822 werden einschließlich ihrer Header und ihres vollständigen MIME-Inhalts abgeglichen; nur unterschiedliche CRLF-/LF-Zeilenenden werden für diesen Vergleich normalisiert. Geänderte, fehlende oder nicht eindeutig auslesbare Anhänge sperren weiterhin die Freigabe. Die Rohquellhashes bleiben unverändert dokumentiert.
+
+Zusätzliche Regressionen sichern diese Fälle. Die Begründungsschritte für Formhindernisse erhalten dezimale Unterabschnitte mit getrennten Absätzen; ihre Sammelfassung ist neu erzeugt. Diese Version veröffentlicht zugleich die nachfolgend beschriebene FinTech-Akte. Die vorgelagerten Entwurfsreleases wurden vor Veröffentlichung angehalten; ihre Tags bleiben unangetastet.
+
+Die gerichtliche Verfügung berücksichtigt die einmonatige Anzeigefrist bei Auslandszustellung nach Paragraf 276 Absatz 1 Satz 3 ZPO und zwei anschließende Wochen zur Erwiderung. Stammdaten, Schriftsatz, Downloads und Fristenregression sind damit abgeglichen.
+
+# v445.9.1 - Reproduzierbarer Release-Abgleich
+
+Die automatisch erzeugte Vollprüfung der Versandwerkstatt ist mit den zehn überarbeiteten Skills abgeglichen. Damit stimmen Einzel-Skills, eigenständige Prompts und Sammelfassung bei Originalschutz, Formroute und Anlagenzuordnung überein. Der vorgelagerte Tag v445.9.0 bleibt erhalten; sein Entwurfsrelease wurde vor Veröffentlichung angehalten. Diese Fassung veröffentlicht die nachfolgend beschriebenen Neuerungen mit vollständig nachgezogenen Ausgabedateien.
+
+# v445.9.0 - FinTech-Verfahrensakte und sichere Versandproduktion
+
+## 1. Grenzüberschreitender Darlehensprozess
+
+Die neue Bremer Verfahrensakte enthält eine 25-seitige Klage mit zwölf Anlagen auf 75 Seiten, englische Kredit- und Übernahmeverträge, Zahlungsbelege und deutsch-englische Korrespondenz. Eine gesonderte, bearbeitbare Klageerwiderung mit eigenem B-Anlagenkreis steht für die Versandproduktion bereit. Die Zuständigkeit für Insolvenzanfechtung, selbstständige Schadensersatzansprüche und Auskunft wird getrennt behandelt. Buchungsdaten unterscheiden Auszahlung, Erwerbspreis und Rückzahlungen; Beträge sind gegen die Einzelbelege geprüft.
+
+Eingang, vorbereitete Klageerwiderung und Korrespondenz bleiben in dieser ausdrücklich strukturierten Akte getrennt. Gesamt-PDF mit Register und Lesezeichen, Einzel-PDF-ZIP und Originalformat-ZIP erschließen denselben Bestand. Die Verteidigerfassung ist Parteivortrag und keine vorgegebene gerichtliche Lösung. Hinweise stehen bei den Downloads und in den ZIP-READMEs, nicht auf den Arbeitsdokumenten.
+
+## 2. Endfertigung ohne stillen Belegverlust
+
+Die Versandwerkstatt kann uneinheitlich benannte Originale über einen expliziten Anlagenplan zuordnen. Unbekannte Dateien und unvollständig erfasste E-Mail-Anhänge sperren die Freigabe. Mehrseitige Bilddateien bleiben vollständig; vorhandene Signaturen, kollidierende Anlagenkennungen und ineinanderliegende Eingangs- und Ausgangsordner werden erkannt. Misslungene Teilkonvertierungen hinterlassen keine scheinbar fertigen Versanddateien.
+
+Die zehn bestehenden Skills sowie Werkstatt- und Schnellstart-Prompt beschreiben denselben Produktionsablauf. Verantwortender Anwalt, tatsächlicher Versender und Signaturroute bleiben getrennte Prüfungen. Ein technischer Prüfbericht ersetzt weder die Sichtkontrolle noch einen tatsächlichen beA-Eingangsnachweis. Es erfolgt kein automatischer Versand.
+
+# v445.8.1 - Mehr Alltag in der Hildesheimer Projektakte
+
+Die Hildesheimer Lebensakte erhält 44 zusätzliche Originalunterlagen in elf zusammenhängenden Vorgängen: Lieferabsprachen und technische Schnittstellen, Rückfragen von Mietern und Nachbarn sowie die Klärung bereits belegter Rechnungen, Doppelzahlungen und Erstattungen. Unterschiedliche Stimmen, Telefonnotizen, konkrete Antworten und spätere Vollzugsnachrichten machen den damaligen Kenntnisstand nachvollziehbar. E-Mails besitzen echte Antwortbezüge; Wordvermerke bleiben bearbeitbar.
+
+Die bisherigen 366 Originale bleiben bytegleich. Die Ergänzung verändert weder die Baukosten noch die Mietverträge, das 304-tägige Bautagebuch oder den bloßen Optionsstatus der Bauträgerentwürfe. Gesamt-PDF und beide ZIP-Fassungen enthalten die neuen Unterlagen; das Plugin behält seine 29 Skills.
+
+# v445.8.0 - Hildesheimer Projektordner und 100-seitige Bauwerkstatt
+
+Die erweiterte Lebensakte enthält 366 Originaldateien in nachvollziehbaren Projektordnern: den unveränderten Ausgangsbestand, 304 tägliche Bauaufzeichnungen in zehn Monatsbänden, sieben detaillierte Leistungsverzeichnisse mit 134 Unterpositionen, Lieferungen, Begehungen, Mängelaufnahmen und Nachkontrollen. Belegbezogene E-Mails enthalten die originalen PDF-/XML-Anlagen; 18 ausformulierte Wordvorlagen unterstützen die weitere Bearbeitung. Beide ZIP-Fassungen erhalten für diese ausdrücklich bestellte Akte die Unterordner. Die bisherigen Akten bleiben flach.
+
+Das Vermietungsprojekt bleibt Hauptfall. Acht wohnungsbezogene Bauträgervertragsentwürfe samt Teilung, Baubeschreibung, Bemusterung und Zahlungsplänen bilden ausschließlich eine noch unbeschlossene Verkaufsoption. Deren Preise sind fiktive Annahmen; keine Verkaufserlöse werden dem Hauptprojekt zugeschrieben. Aktuelle amtliche Rechtsprechung ist mit Aussageumfang und historischen Anwendungsgrenzen dokumentiert.
+
+Die bestehende Bauwerkstatt wächst auf 100 inhaltliche Arbeitsstationen mit 100-seitiger Word- und PDF-Fassung. Zustände, Rückfragen und Übergänge richten sich nach dem konkreten Auftrag. Alle 29 vorhandenen Skills nutzen gezielte Vertiefungen; es kommen keine Skills hinzu. Neun eigenständige HOAI-Phasen-Werkstätten, Mini- und Schwerpunkt-Prompt bleiben erhalten. Technische Regression, vollständige visuelle Dokumentprüfung und getrennte Quellenprüfung begleiten die Erweiterung.
+
+# v445.7.0 - Achtfamilienhaus Hildesheim vom Grundstück bis zur Vermietung
+
+Die neue Bauwirtschaftsakte führt ein Achtfamilienhaus mit 600 m² Wohnfläche durch alle neun Gebäude-Leistungsphasen. Eigene Pläne, Erwerbs- und Grundschuldurkunden, sieben Bauverträge, Bauablauf, Nachtrag, Abnahmen und spätere Mängelbetreuung bilden einen gemeinsamen Projektstand. Acht Mietverträge haben eigene vorvertragliche Informationen und Übergabeprotokolle. Jede Phase ist auf der Aktenseite den passenden Unterlagen zugeordnet.
+
+Die kaufmännische Dokumentation verbindet 38 Kostenbelege, 28 strukturierte XRechnungen, Projektkontoauszüge und drei berechnende Excel-Arbeitsmappen. Doppelzahlung, Erstattung und Rechnungskorrektur lassen sich anhand der Originale nachvollziehen. PDF und XML derselben Rechnung sind ein Geschäftsvorfall. Projektmittelkontrolle und steuerliche Aktivierung bleiben getrennt.
+
+Amtliche Quellen sichern den Redaktionsstand vom 27.09.2026 einschließlich bereits verkündeter Übergangsregeln. Der Projektverlauf bis Oktober 2033 ist eine ausdrücklich gekennzeichnete Simulation. Native Office-Neuberechnung, Eingabemutationen, offizielle XRechnung-Validierung und visuelle Dokumentprüfung ergänzen die Regressionen; sie ersetzen keine technische Freigabe eines tatsächlichen Bauvorhabens. Das Plugin behält seine 29 Skills und neun separaten Phasen-Werkstätten. Die Akte wird separat als Original-ZIP, Einzel-PDF-ZIP und Gesamt-PDF bereitgestellt.
+
+# v445.6.1 - Vertragsgestaltung und Vergabemitwirkung sauber abgrenzen
+
+## 1. Rechtsdienstleistungsbefugnis vor individuellen Klauseln
+
+Die Bauwirtschaft trennt eigene Angelegenheiten, anwaltliche Mandate und Planungsleistungen für fremde Bauherren. Eine Planervollmacht oder HOAI-Beauftragung ersetzt keine Befugnis nach Paragrafen 3 und 5 RDG. BGH, Urteil vom 09.11.2023, VII ZR 190/22, ist anhand der amtlichen Entscheidung gezielt ausgewertet: Die interessengerecht entworfene Skontoklausel des Architekten war keine erlaubte Nebenleistung. Ein lediglich als Erfüllungsgehilfe eingeschalteter Anwalt heilt die unerlaubte Verpflichtung nicht.
+
+Die Korrektur erfasst den Projektstart, den Bauvertragsworkflow, die Phasen 6 und 7 sowie ihre Werkstatt-, Mini- und Schwerpunkt-Prompts. Technische und wirtschaftliche Arbeiten werden weitergeführt. Bei fehlender Befugnis entsteht die konkrete Gestaltungsfrage für die unmittelbare Rechtsberatung des Bauherrn, nicht eine vermeintlich freigabefertige Individualklausel. Kein pauschales Verbot der Vergabemitwirkung.
+
+## 2. Prüfung und Veröffentlichung
+
+Ein gezielter Regressionstest und ein ergänzter Vergabe-Prüffall sichern die Rollenabgrenzung. Quellenstatus und Dateiprüfsummen sind nachgeführt. Die neun Phasenpakete mit 29 Skills und dreizehn Bauwirtschaftsakten bleiben vollständig erhalten. Das Tag v445.6.0 bleibt unverändert; dessen Veröffentlichung wurde vor Bereitstellung der Release-Dateien angehalten. v445.6.1 liefert den korrigierten Gesamtstand aus.
+
+# v445.6.0 - Neun eigenständige HOAI-Phasenpakete
+
+## 1. Phasenbezogene Bearbeitung im Bauwirtschaft-Plugin
+
+Die bisherigen zwanzig Arbeitswege bleiben erhalten. Neun zusätzliche Skills bearbeiten die Leistungsphasen 1 bis 9 für Gebäude und Innenräume jeweils eigenständig: vom Planungsauftrag über Entwurf, Genehmigung und Leistungsverzeichnis bis zu Vergabe, Objektüberwachung und Objektbetreuung. Ein gezielter Einzelauftrag bleibt beim passenden bisherigen Skill; ein Phasenauftrag lädt nicht sämtliche großen Werkstätten.
+
+Neun individuell geschriebene Werkstatt-Prompts stehen daneben als einzelne Markdown-Downloads bereit. Sie verbinden vorhandene Belege, erforderliche Rückfragen, Entscheidungszweige, konkrete Arbeitsprodukte und deren Fortschreibung. Vertraglicher Auftrag, Grundleistungen, Besondere Leistungen, technische Fachprüfung und Entscheidungsbefugnisse bleiben getrennt. Die Grenzen zwischen den Phasen 8 und 9 sowie zwischen Gebäude- und Innenraum-Honoraransätzen sind ausdrücklich erläutert.
+
+## 2. Neun eigene Projektakten und klare Downloads
+
+Kulturhof Detmold, Kita Bad Pyrmont, Ärztehaus Stadthagen, Werkhof Celle, Schule Hameln, Sporthalle Peine, Bibliothek Melle, Kita Verden und Rathaus Uelzen bilden jeweils eine andere Phase ab. Ihre Übersichten benennen die Leistungsphase und erschließen die Originalunterlagen, das Gesamt-PDF und das flache Einzel-PDF-ZIP. Bearbeitbare Tabellen, Korrespondenz, Planausschnitte und förmliche Schreiben liefern Projektbelege ohne vorgegebene Musterlösung. Die vier bisherigen Bauwirtschaftsakten bleiben zusätzlich verfügbar.
+
+Plugin-README, Phasenübersicht, Skillregister, Promptverzeichnis, Aktenkatalog und Download-Index werden gemeinsam fortgeschrieben. Die zusätzlichen Werkstätten sind keine versteckten Wrapper-Skills und gehören nicht in das installierbare Plugin-ZIP. Regressionsprüfungen sichern die 29 Skills, neun Phasenzuordnungen und dreizehn Akten sowie die Konsistenz der veröffentlichten Varianten. Strukturprüfung und redaktionelle Prüffälle ersetzen keine Live-Zertifizierung fremder Clients oder technische Freigaben am Bau.
+
+# v445.5.0 - Notariatsabläufe und vollständige Werkstatt-Prompts
+
+Das Notariats-Plugin führt Rückfragen zu vollständigen Folgeentwürfen weiter. Zwölf Fachskills sind vertieft, insbesondere Gründungsvollmacht, Geschäftsführeranmeldung, Gesellschafterliste, Auflassung, Genehmigung, Umwandlung, Verwahrung, Kostenübergang und Vorsorge. Vier BGH-Entscheidungen sind mit amtlicher Quelle und präziser Anwendungsgrenze dokumentiert. Der Mini deckt die zentralen Arbeitsgebiete innerhalb von 7500 Bytes ab; sechs neue Evaluationsfälle beschreiben die erwarteten Ergebnisse.
+
+Der Generator entfernt bei langen Werkstätten keine Muster, Rechtsquellen oder Abschlussprüfung mehr. Er erhält auch Einschränkungen nach dem ersten Satz eines Normankers sowie sämtliche kuratierten Entscheidungen. Ein gemeinsamer Dateischutz erlaubt umfangreiche eigenständige Werkstätten; kurze Minis und die Laufzeitbudgets installierter Skills bleiben getrennt. Regressionen prüfen insbesondere die vollständige Erhaltung langer Texte und begrenzter Quellenauszüge.
+
+Alle 245 Werkstätten und 245 Minis sind strukturell geprüft; 343 Quellenzuordnungen in sämtlichen 245 Qualitätsprofilen sind mit den einschlägigen Quellenaussagen abgeglichen. Das neue Register dokumentiert den geprüften Dateistand, Anwendung und Grenzen je Rechtsgebiet. Das Datum von BAG 5 AZR 347/21 ist auf den 09.02.2022 berichtigt. Fehlende Arbeitsrechtsanker und der begrenzte Bankrechtsanker XI ZR 71/25 sind in die Werkstätten aufgenommen. Einzelne weitere Quellenbezeichnungen sind präzisiert. Der [Prüfbericht](./docs/notariat-promptqualitaet-2026-09-25.md) dokumentiert den erreichten Prüfstand und die verbleibenden fachlichen Grenzen.
+
+Der Release-Upload verwendet die bereits bekannte Release-ID und vermeidet die erneute Suche nach dem Tag für jede Datei. Nach einer unklaren Uploadantwort wird der tatsächliche Remotezustand geprüft; ein vollständiger, hashgleicher Upload bleibt erhalten. Unvollständige Startdatensätze können gezielt erneut hochgeladen werden, abweichende fertige Dateien werden während der Wiederholung nicht still überschrieben.
+
+# v445.4.1 - Arbeitszeugnisprüfung bis zu beiden Schreiben
+
+Die Arbeitnehmerprüfung führt wieder durch echte Rückfragen, Antworten und fallabhängige Fortsetzungen. Auch eine einmal in den Chat eingefügte Werkstatt- oder Mini-Datei startet diesen Dialog. Sobald die entscheidenden Tatsachen geklärt sind, entstehen ohne zusätzlichen Schreibauftrag die ausführliche Rechtsprüfung, ein kurzer verständlicher Mandantenbrief und das rechtlich abgestufte Arbeitgeberschreiben. Ein mangelfreies Zeugnis ohne Änderungswunsch erzeugt keinen künstlichen Streit; ausdrückliche Teilaufträge und Arbeitgeberprüfungen bleiben eigenständig.
+
+Die Werkstatt bindet zusätzliche Rechtsprechung mit ihren Grenzen direkt ein. Fachprüfung und kurzer Mandantenbrief bleiben getrennt. Technische Statusköpfe, Auswahlmenüs vor der eigentlichen Prüfung und Angebote, die geschuldeten Schreiben erst später zu erstellen, entfallen. Einstieg, Rollenwahl, beide Schreibskills und abgeleitete Übersichten sind darauf abgestimmt. Statische Regressionen sichern bekannte Widersprüche; unabhängige Dialogproben ergänzen diese, ohne eine allgemeine Modellzertifizierung zu behaupten. Versand und Einreichung erfordern weiterhin ausdrückliche Freigabe.
+
+Die tatsächlich durchgespielte Rückfrage- und Fortsetzungsprobe einschließlich ihrer Grenzen ist im [Dialogprüfbericht](./docs/arbeitszeugnis-dialogpruefung.md) dokumentiert.
+
+# v445.4.0 - Bauwirtschaft für den KI-Workshop
+
+Die Bauwirtschaft bleibt ein Plugin mit 20 ausführenden Skills sowie eigenständigen Werkstatt-, Mini- und Schwerpunkt-Prompts. Die Zuordnung der Gebäude-Leistungsphasen 8 und 9 wird präzisiert. Ein neuer [Workshop-Leitfaden](./docs/bauwirtschaft-workshop.md) enthält direkt verwendbare Aufträge für HOAI, Bauvergabe, Buchhaltung und Projektsteuerung.
+
+Die Buchhaltungsakte Bad Salzuflen wird von vier auf 18 unterschiedliche Rechnungen erweitert. Ein zusätzlicher Belegstapel mit Korrekturen, Leistungsnachweisen, Bankbestand, offenen Posten und Buchungsvorschlägen ergänzt die bisherigen Abgleichsfälle. Der fallinterne Konten- und Steuerschlüsselstamm macht die Kontierung nachvollziehbar; die beiden Bankbestände bleiben getrennt. Die Excel-Pakete erhalten eine kompatible OOXML-Namensraumdarstellung.
+
+In der Northeimer Vergabeakte werden VOB/B und VOB/C als Vertragsbestandteile einbezogen und die zugehörigen Vertragsregelungen angeglichen. Geänderte Originale, Übermittlungsnachweis und PDF-Fassungen werden gemeinsam neu aufgebaut. Die HOAI-Akte Einbeck und die zusätzliche Projektsteuerungsakte Warendorf bleiben Bestandteil des Pakets.
+
+# v445.3.2 - Fachquellen, Fristen und offene Beiträge
+
+Die Handakten-Norm in 200 Steuerberater-Skills ist auf Paragraf 66 StBerG berichtigt. Die DeFi-Prüfung grenzt das BMF-Schreiben vom 06.03.2025 von offenen Fragen zu Liquidity Mining und Tokenwechseln ab, verwendet die zutreffenden Steueranlagen und entfernt unbelegte Quellenzuschreibungen. Die Fanpage-Entscheidung ist mit C-210/16, Datum und nachprüfbarer amtlicher Quelle zugeordnet.
+
+Die Fahrgastrechte-Workflows unterscheiden Anspruchsgrundlagen, Verjährung und die gesetzliche Haftung bei kombinierten Fahrkarten. In der Pohlmann-Testakte endet die Berufungsfrist am Montag, 06.09.2027; beide Word-Unterlagen und das Gesamt-PDF sind konsistent korrigiert. Eine Regression prüft Quellen und PDF. Die Installationshilfe beschreibt die aktuellen Oberflächen und die Diagnose von Marketplace-Validierungsfehlern. Veraltete Fachverweise werden auf vorhandene Arbeitswege umgestellt und technisch geprüft.
+
+Die Bearbeitungsentscheidungen zu den offenen Issues und Pull Requests sind in [docs/offene-punkte-2026-09-25.md](./docs/offene-punkte-2026-09-25.md) dokumentiert. Die Veröffentlichung übernimmt die bereits integrierten Bauwirtschaftspakete aus v445.3.1.
+
+# v445.3.1 - Dezimale Navigation der Bauakten
+
+Die drei Aktenübersichten zu Warendorf, Bad Salzuflen und Einbeck erhalten eine durchgehende dezimale Gliederung einschließlich ihrer erzeugten Downloadabschnitte. Die Nummerierung bleibt bei erneutem Aufbau erhalten; ein Regressionstest prüft dies für alle vier Bauakten. Originalunterlagen, Skills und Prompts bleiben unverändert. Dieser Release enthält das vollständige Bauwirtschaftspaket aus v445.3.0.
+
+# v445.3.0 - Bauwirtschaft mit zwanzig Skills und vier Projektakten
+
+## 1. Bauwirtschaftlicher Arbeitsablauf statt reiner Rechtsprüfung
+
+Das neue Paket verbindet Projektziele, HOAI-Planstände, Kosten, Termine, Vergabe, Bauausführung und Buchhaltung in zwanzig abgestimmten Skills. Der Hauptskill bearbeitet den beauftragten Vorgang selbst und führt Antworten sowie neue Belege im selben Projektstand fort. Budget, Auftragswert, Kostenprognose, Rechnungsbetrag und Zahlung bleiben unterscheidbar. Planungsleistung, technische Verantwortung und rechtsgeschäftliche Entscheidungsbefugnis werden nicht gleichgesetzt.
+
+Eine individuell geschriebene Werkstatt, der kompakte Bauplan-Schnellstart und ein gesonderter Hauptproblem-Prompt sind als Markdown verfügbar. Die kompakten Fassungen bleiben innerhalb von 7500 Zeichen und UTF-8-Bytes. Der Hauptproblem-Workflow ist außerdem ein installierbarer Skill; die eigenständigen Promptdateien werden nicht mit dem Plugin geladen.
+
+## 2. Vier neue Akten für unterschiedliche Aufgaben
+
+Northeim behandelt eine öffentliche Bauvergabe für ein Feuerwehrhaus einschließlich Angebotsunterlagen und laufendem Nachprüfungsverfahren. Warendorf bildet die kaufmännische Steuerung eines Werkhallenbaus mit Kosten, Terminabhängigkeiten und Zahlungsplanung ab. Einbeck führt ein Bürgerhaus durch alle neun Gebäude-Leistungsphasen der HOAI. Bad Salzuflen verbindet Baubelege und Rechnungen mit Buchhaltung, Bankumsätzen und offenen Posten.
+
+Jede Akte enthält eigenständige Originaldokumente, Korrespondenz, bearbeitbare Tabellen und Bildanlagen. Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP erschließen denselben Bestand. Die Aktenarchive enthalten keine Lösungsmatrix. Der zweisprachige Warnhinweis steht auf der Downloadseite und in der ZIP-README, nicht in den PDF-Unterlagen.
+
+## 3. Auffindbarkeit und Prüfgrenzen
+
+Marketplace, Haupt-README, Promptliste, Schwerpunkt- und Skillregister sowie die Aktenübersichten werden gemeinsam fortgeschrieben. Neue Prüfungen sichern die zwanzig Skills, die vier Akten, ihre Originalformate, ZIP-Inhalte und die getrennten Promptdateien. Die Fälle unterliegen zusätzlich der allgemeinen Dokumentqualitätsprüfung. Strukturelle Importprüfungen und vorbereitete Ergebnisprüffälle sind keine Zertifizierung von Laufzeit oder Antwortqualität in fremden Benutzerkonten; technische Freigaben bleiben den verantwortlichen Fachleuten vorbehalten.
+
+# v445.2.0 - Vertragserstellung und Wirtschaftsanwalt mit je zehn Skills
+
+## 1. Zwei zusätzliche kompakte Praxispakete
+
+Vertragserstellung bündelt den konkreten B2B-Vertragsauftrag in zehn abgestimmten Arbeitswegen. Wirtschaftsanwalt verbindet die laufende Unternehmensberatung mit Vertrags-, Zahlungs-, Personal-, Organ- und Datenfragen. Beide Hauptskills führen den beauftragten Vorgang selbst bis zum Dokument und verarbeiten Rückantworten im selben Entwurf; eine bloße Analyse beendet keinen weitergehenden Dokumentauftrag.
+
+Je eine individuell geschriebene Werkstatt, ein Mini-Prompt und ein Hauptproblem-Prompt stehen als separate Markdown-Downloads bereit. Beide kompakten Fassungen bleiben innerhalb von 7500 Zeichen und UTF-8-Bytes. Die Hauptproblem-Workflows sind zugleich echte installierbare Skills. Die bisherigen Pakete Anwaltschaft generell und Corporate Contract Law sowie ihre Prompts bleiben unverändert verfügbar.
+
+## 2. Neue Akten und nachvollziehbare Wiederverwendung
+
+Die neue Kasseler Akte verbindet die Verhandlung eines Wartungsvertrags für Druckmaschinen mit betrieblichen Störungen, Serviceberichten, Preisen und Leistungsgrenzen. Die neue Hannoveraner Akte verknüpft einen Gesellschafterkonflikt in einer Handwerksgesellschaft mit laufenden Kundenforderungen, Lieferantenverbindlichkeiten und Zahlungsplanung. Je 26 Originalunterlagen ergeben zusammen 52 Quellen und 101 Gesamt-PDF-Seiten. Native Dokumente, Korrespondenz, Zahlenwerk und Bildanlagen werden als Gesamt-PDF und in beiden flachen ZIP-Varianten bereitgestellt; rechtliche Musterlösungen gehören nicht in die Akten. Die Zahlungsplanung erfasst auch Wochenendtermine; verschobene Eingänge werden durch eine Neuberechnungsprüfung abgesichert.
+
+Jedes neue Plugin verweist außerdem auf zwei passende, bereits vorhandene Akten. Diese vier Bestandsfälle werden wiederverwendet, nicht als neue Fälle ausgegeben oder unter neuen Namen dupliziert. Die Herkunft bleibt in den Übersichten erkennbar.
+
+## 3. Auffindbarkeit und Prüfung
+
+Alle sechs neuen Prompt-Downloads sind unmittelbar im Haupt-README verlinkt. Marketplace, Skill- und Promptverzeichnisse, fachliche Schwerpunktaufträge und Aktenzuordnungen werden gemeinsam aktualisiert. Neue Regressionen sichern die genaue Zahl von zehn Skills, die ausführenden Hauptworkflows, die geschützten Einzeldateien und die drei zugeordneten Akten pro Paket. Individuelle Aktenprüfungen ergänzen die bestehenden Import-, Struktur-, Layout- und Quellenkontrollen. Vorbereitete Ergebnisprüffälle und technische Importprüfung sind keine ausgeführten Live-Tests in fremden Benutzerkonten.
+
+# v445.1.2 - Anwaltschaft und Wirtschaftsverträge
+
+Veröffentlichung beider neuer Praxisplugins mit zehn beziehungsweise zwanzig Skills, je einer ausführlichen Werkstatt, einem Schnellstart und einem Hauptproblem-Prompt. Sechs individuelle Arbeitsakten enthalten 149 Originalunterlagen und 271 Gesamt-PDF-Seiten sowie die beiden flachen ZIP-Varianten.
+
+Enthalten sind die fachlichen Gegenprüfungen, aktualisierten Verzeichnisse und die Layout- und Portabilitätskorrekturen der vorangegangenen Stände. Der Tabellen-Erzeuger prüft Zusatzpakete jetzt je Verbraucher: Leipzig und Mainz benötigen keine ungenutzten ZIP-/XML-Pakete. Die Regression prüft sowohl diese Minimalinstallation als auch das gezielte Fehlschlagen bei tatsächlich benötigten fehlenden Paketen.
+
+# v445.1.1 - Portable Aktenwerkzeuge
+
+Anwaltschaft generell mit zehn Skills und Corporate Contract Law mit zwanzig Skills werden gemeinsam mit je drei individuellen Arbeitsakten und den vollständigen Downloadpaketen veröffentlicht. Werkstatt-, Schnellstart- und Hauptproblem-Prompts aus v445.1.0 sind enthalten. Die Fallinhalte bleiben unverändert.
+
+Die native Neuerzeugung der Arbeitsakten findet Node.js über den Suchpfad oder eine ausdrückliche Konfiguration. Tabellenpakete werden regulär oder aus einem angegebenen Paketverzeichnis geladen, ohne feste persönliche Cache-Pfade und ohne temporäre Verzeichnisverknüpfungen. Fehlende Voraussetzungen werden vor der Neuerzeugung gemeldet.
+
+Bildanlagen unterstützen konfigurierbare Schriften sowie DejaVu Sans und Liberation Sans unter Linux. Die optionale DOCX-Sichtprüfung verwendet die vorhandene Office-Konvertierung und Poppler. Regressionstests prüfen Pfadauflösung, Linux-Schriften, Konfigurationsfehler und die nebenwirkungsfreie Laufzeitprüfung.
+
+Die Word-Unterlagen erhalten echte Leerabsätze nach Abschnittsüberschriften mit zusammengehaltenem Folgetext. Die Erzeugungswerkzeuge setzen dies reproduzierbar um; die zugehörigen Gesamt-PDFs und Einzel-PDF-Pakete werden neu erstellt.
+
+# v445.1.0 - Anwaltschaft und wirtschaftliche Vertragsgestaltung
+
+## 1. Zwei eigenständige Praxispakete
+
+`anwaltschaft-generell` bündelt zehn Arbeitswege für gemischte Wirtschaftsmandate: Anspruch, Beweis und Frist, Vertragsprüfung, AGB, Zahlung und Mängel, Arbeitsverhältnis, Datenanfragen, Vertretung, Vergleich und Schriftsatz. Der Hauptskill führt die beauftragte Bearbeitung selbst bis zum Schreiben aus und vertieft nur die tatsächlich benötigte Fachfrage.
+
+`corporate-contract-law` enthält zwanzig Skills für die Gestaltung und Verhandlung von Wirtschaftsverträgen. Liefer- und Rahmenvertrag, Projekt und Abnahme, Dienstleistungen, Vertrieb, Entwicklung, Rechte, Preise, Haftung, Sicherheiten, Daten, Auslandsbezug, Nachtrag und Unterschriftenfassung werden anhand der konkreten geschäftlichen Bindung abgestimmt. Das Paket ersetzt weder einen vollständigen Unternehmenskauf- noch einen reinen Lizenzvertragsworkflow.
+
+Beide Pakete haben ausführliche, individuell geschriebene Werkstätten sowie getrennte Schnellstart- und Hauptproblem-Prompts mit höchstens 7500 Zeichen und UTF-8-Bytes. Hauptproblem-Prompts entsprechen echten installierbaren Skills. Die eigenständigen Promptdateien und Arbeitsakten bleiben außerhalb der installierbaren Plugin-ZIPs.
+
+## 2. Sechs individuelle Arbeitsakten
+
+Die drei allgemeinen Mandate betreffen eine Verpackungsmaschine einer Leipziger Rösterei, das Arbeitsverhältnis eines Mainzer Vertriebsmitarbeiters und Datenzugang sowie Rechnungsstreit bei einem Dortmunder Onlineshop. Die drei Vertragsakten betreffen eine Sensor-Rahmenlieferung in Aachen, ein Automationsprojekt in Augsburg und einen deutsch-italienischen Messgerätevertrieb aus Bremen.
+
+Ausformulierte Vertragsunterlagen, Briefe, E-Mails, betriebliche Zahlen, bearbeitbare Arbeitsmappen und Bildanlagen bleiben getrennte Originaldokumente. Die Bereitstellung erfolgt jeweils als Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP. Der verpflichtende Warnhinweis steht auf der Downloadseite und in der ZIP-README, nicht in den PDF-Unterlagen. Lösungen und interne Prüfkriterien gehören nicht in die Aktenarchive.
+
+## 3. Verzeichnisse und Prüfungen
+
+Der Schwerpunktindex erfasst jetzt vorhandene Hauptproblem-Prompts auch außerhalb der bisherigen Fachpakete. Die bisherigen Pflichtpakete bleiben obligatorisch. Neue Regressionstests sichern die genaue Skillzahl, den installierbaren Hauptworkflow, native Aktenformate, vollständige Nachrichtenheader, Tabellenformeln und die getrennten Promptdateien. Beide neuen Aktenfamilien unterliegen auch der allgemeinen formalen Dokumentqualitätsprüfung.
+
+Quellen- und Workflowprüfungen dokumentieren ihre Reichweite und offene Quellenzugänge. Technische Prüfungen und vorbereitete Ergebnisprüffälle sind keine Garantie der tatsächlichen Skillauswahl oder Antwortqualität in jedem Benutzerkonto.
+
+Die abschließende Gegenprüfung präzisiert Zeugen vom Hörensagen, die Ausnahme für bestimmte Auslandsvertretungen nach Paragraf 92c HGB und die zulässige Weisungsausnahme bei Auftragsverarbeitung. Gezielte Regressionstests sichern diese Abgrenzungen und die lesbaren Hauptüberschriften aller dreißig neuen Skills.
+
+# v445.0.0 - Fachliche Workflows und Notariatswerkstatt
+
+## 1. Individuelle Prompt-Bearbeitung
+
+240 Werkstatt-Prompts, 240 Schnellstart-Prompts und 26 Schwerpunkt-Prompts erhalten fachliche Einstiege, konkrete Normen- und Entscheidungsbezüge sowie unterscheidbare Wege für einen leeren Start, vorhandene Unterlagen ohne Auftrag und einen bereits klaren Dokumentwunsch. Folgeantworten führen zu den betroffenen Berechnungen, Vertragsklauseln oder Schriftsatzteilen zurück. Ein ungefragter Ordnerbericht und ein erneutes vollständiges Interview sind kein Pflichtvorspann.
+
+Die Werkstätten vertiefen fachspezifisches Bearbeitungswissen: Nachweise und Beweislast, Gegenpositionen, Fristen, Verfahrenswechsel, Alternativgestaltung und Fertigstellung des beauftragten Dokuments. Die kompakten Fassungen bleiben auf ihren jeweiligen Kernauftrag begrenzt und innerhalb von 7500 UTF-8-Bytes. Verifizierte Entscheidungsreichweiten, historische Rechtsstände und gesperrte Quellenzugänge werden unterschieden; eine nicht mögliche erneute Volltextprüfung wird nicht als Bestätigung ausgegeben.
+
+## 2. Zwanzig Notariats-Skills mit gemeinsamem Hauptworkflow
+
+Das Notariats-Plugin wird von 131 teils überlappenden Skills auf 20 abgestimmte Arbeitswege konsolidiert. Der Hauptworkflow führt aus dem Kundenordner über den passenden Fachskill zur Urkunden- oder Anmeldevorlage. Vorhandene Beteiligtenangaben werden weiterverwendet; Bankantworten, Originalnachweise und Einzahlungen ändern nur die betroffenen Teile. Notarielle Amtshandlungen werden nicht fingiert oder automatisiert ersetzt.
+
+Die ausführliche Werkstatt vertieft Grundstücks- und Bauträgerkauf, Grundschuld, Gründung, Kapitalerhöhung, Geschäftsführerwechsel, Anteilskauf und Verpfändung sowie Umwandlung, Erbfolge, familiäre Übertragung, Auslandsnachweise, Vorsorge, Kosten und Registerhindernisse. Falsche oder pauschale Aussagen zu Grundbuchbeschwerde, Apostille, Nachweisform und Kostenberechnung sind berichtigt. Sieben vorhandene Akten werden durch getrennte Ergebnisprüfungen abgedeckt; die Akten selbst bleiben unverändert. Alte direkte Verweise auf entfallene Notariats-Skills müssen auf einen der 20 dokumentierten Arbeitswege umgestellt werden.
+
+## 3. Reproduzierbare Prüfungen und Auslieferung
+
+Individuelle Redaktions- und Workflowvermerke sind an die tatsächlichen Prompt-Fassungen gebunden. Der Release verlangt ihre Vollständigkeit zusätzlich zu Marketplace-, Frontmatter-, Paket-, Navigations- und Regressionstests. Markdown-Links werden bei der Sprachprüfung von sichtbarer Prosa unterschieden. Workshop- und Schnellstart-Dateien bleiben eigenständige Downloads außerhalb der Plugin-Skills; die 26 Schwerpunkte bleiben zugleich als echte Plugin-Skills verfügbar.
+
+Diese Freigabe beruht auf Dokument-, Quellen- und technischen Prüfungen. Sie ist weder ein beobachteter Erfolg in sämtlichen Clients noch eine Garantie automatischer Skillauswahl, fehlerfreier juristischer Ergebnisse oder unbegrenzter Laufzeitstabilität.
+
+# v444.9.0 - Straßennutzung, Zufahrt und Genehmigungen
+
+## 1. Zehn spezialisierte Arbeitswege
+
+Das neue Plugin `strassennutzung-genehmigungen` bearbeitet öffentliches Straßen- und Straßenverkehrsverwaltungsrecht: Widmung und Zuständigkeit, Anliegerzufahrt, Parken und Laden, Poller und Schlüssel, Sondernutzung und Ausnahmen, Schulstraßen, Fahrradnutzung, Gehwegparken, fremde Falschparker sowie Anträge und Rechtsschutz. Werkstatt und Schnellstart führen anhand vorhandener Unterlagen und gezielter Rückfragen zum beauftragten Schreiben. Werbung und die eigentliche Bußgeldverteidigung gehören nicht zum Kernauftrag.
+
+Normen und Entscheidungsanker werden nach Land, zeitlicher Fassung und Verfahrensart eingeordnet. Eine Verkehrsausnahme, ein Schlüssel und eine straßenrechtliche Erlaubnis sind nicht austauschbar. Die aktuelle Fassung des Paragrafen 45 StVO, landesrechtliche Genehmigungskonkurrenz und die Grenzen eigener Anliegerrechte sind ausdrücklich berücksichtigt. Ein Quellenregister dokumentiert amtliche Zugänge und Übertragungsgrenzen.
+
+## 2. Zwei zusammenhängende Arbeitsakten
+
+Die Schulstraßenakte Buchenweg erhält 16 zusätzliche Unterlagen und umfasst nun 26 native Quellen. Die zehn übergebenen Originale bleiben bytegleich erhalten. Antragsnachträge, Lieferschein, Widmungsunterlage, Kontrollauszug, Ortstermin, Ladezeiten und Planskizzen ergänzen den offenen Verwaltungsfall. Widersprüchliche Ausgangsangaben werden durch spätere Korrespondenz eingeordnet, nicht rückwirkend aus den Originalen entfernt.
+
+Die neue Münsteraner Akte Lindenhof enthält 30 native Quellen zu Pollern, befristetem Schlüsselzugang, Lieferwegen, Gehwegbeeinträchtigungen und fremden parkenden Fahrzeugen. Individuelle Briefe, E-Mails, Gesprächs- und Chatnotizen, drei CSV-Exporte, eine abgeleitete Excel-Arbeitsmappe, Rechnung, Ortsskizze und zwei Bildanlagen ergeben einen offenen Fall ohne Musterlösung. Beide Fälle werden als Gesamt-PDF, flache Einzel-PDF-Sammlung und flaches Originalformat-Archiv bereitgestellt.
+
+## 3. Nachvollziehbare Auslieferung
+
+Der PDF-Import entfernt eine UTF-8-Dateikennung aus CSV-Überschriften, ohne die Originaldatei zu verändern. Regressionstests sichern diesen Darstellungsfehler, die unveränderten Ausgangsdateien, Dokumentformate, Zahlenabstimmung, Linkziele und Pluginstruktur. Marketplace, Versionsstände, Downloadübersichten, Skill- und Promptverzeichnisse werden gemeinsam aktualisiert. Strukturprüfungen sind keine Bewertung der Antwortqualität eines laufenden Modells.
+
+Wiederholte Kennzahlentabellen und die zentrale Aktenzählung folgen jetzt automatisch dem Dateibestand; der Validator prüft auch weitere Vorkommen statt nur den ersten Treffer. Die neue Kurzbeschreibung erhält bei der Darstellung echte Umlaute, ohne technische Slugs zu verändern.
+
+# v444.8.0 - Zugewinnausgleich mit belegbarer Familienakte
+
+## 1. Eigenständige Vermögenswerkstatt
+
+Das neue Plugin führt mit genau zehn Skills von den vorhandenen Unterlagen zur überprüfbaren Vermögensrechnung, zum Auskunftsschreiben, zum Vergleich oder zum Verfahrensentwurf. Werkstatt, Schnellstart und Hauptproblem-Prompt sind getrennte Markdown-Downloads. Der Schwerpunkt ist zugleich als echter Plugin-Skill installierbar. Stichtage, privilegierter Erwerb, Kaufkraftbereinigung, gemeinsame Schulden, Unternehmenswerte und streitige Vermögensbewegungen werden fachlich getrennt behandelt. Amtliche Normen und drei Entscheidungen des Bundesgerichtshofs sind mit ihren Aussagegrenzen dokumentiert.
+
+## 2. Familie Bergmann in Potsdam
+
+Die neue Akte enthält 118 Quelldateien: 77 einzelne Beleg-PDFs, 14 Word-Dokumente, zwölf E-Mails, drei Nachrichtenexporte, acht CSV-Dateien, zwei Excel-Arbeitsmappen und zwei nachgebildete Kontoansichten. Die Unterlagen reichen von der Eheschließung 2011 über die Erbschaft 2019 bis zur Trennung und Zustellung des Scheidungsantrags. Hausfinanzierung, kleines Planungsbüro, Kinder, Unterstützung der Mutter, Gold und Kryptowerte ergeben einen zusammenhängenden Lebenssachverhalt ohne vorgegebene Ausgleichsforderung.
+
+## 3. Nachrechnung, Darstellung und Auslieferung
+
+481 Kontobewegungen, 47 eigene Übertragspaare, Kreditstände und gespeicherte Excel-Formelergebnisse werden geprüft. Originalbelege bleiben getrennt; Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP enthalten denselben Arbeitsbestand. Die Hinweistexte stehen auf den Downloadseiten und in den ZIP-Wurzelverzeichnissen, nicht in den Beleg-PDFs. Breite CSV-Tabellen mit kurzen Feldinhalten erhalten eine platzsparendere PDF-Darstellung ohne Datenverlust. Der Umlautprüfer unterscheidet vollständige technische Belegpfade von Fließtext. Sechzehn neue Regressionen und ein fachliches Prüfprofil sichern den Ausbau ab; ein vorbereitetes Prüfprofil ist kein ausgeführter Modelltest. Die neue Plugin-README behält auch nach Generatorläufen ihre dezimale Gliederung und bestehenden Sprungziele.
+
+# v444.7.1 - Weitere Belege aus dem Schöneberger Verwaltungsalltag
+
+## 1. Rechnungen und zusammenhängende Vorgänge
+
+Die beiden Betriebskostenakten enthalten 33 weitere Quelldokumente: 15 Rechnungs- und Stornobelege, zwei Laborberichte, einen Fahrrad-Übernahmenachweis, einen Montagebericht, acht E-Mails, zwei Chatexporte und vier CSV-Register. Gegenstände sind Fahrradtransport und Lagerung, wiederholte Hofräumung, Legionellenuntersuchung, Probenahmearmatur, Dachrinnenreinigung, Restaurantfilter und Dachabluft sowie gemeinsame und private Ladeinfrastruktur.
+
+Der Restaurantvorgang betrifft ein getrenntes Nachbarobjekt. Originalrechnung, vollständiges Storno und berichtigte Rechnung bleiben einzeln erhalten. Die Ladeinfrastruktur folgt den vorhandenen Angeboten erst im Jahr 2026. Historisch versandte Abrechnungen und die beiden ursprünglichen Excel-Arbeitsmappen werden nicht überschrieben; Belegeingang und Zahlungsvorgänge des Nachtrags liegen daneben.
+
+## 2. Prüfung und unveränderter Pluginauftrag
+
+Der Bestand umfasst jetzt insgesamt 181 Quelldokumente. Gesamt-PDFs und beide flachen ZIP-Varianten werden neu erstellt. Dreizehn gezielte Regressionen sichern unter anderem Umsatzsteuer, Rechnungsbeträge, Stornokette, Objektzuordnung, Jahresgrenzen, getrennte Privataufträge und die vollständige Korrespondenz. Alle neuen Rechnungen und Nachweise sind einzeln gesetzte, visuell kontrollierte PDF-Dokumente.
+
+Das Plugin bleibt bei genau zehn Skills für Betriebskostenabrechnung und den dazugehörigen Beleg- und Zahlungsabgleich. Der größere Aktenhintergrund führt nicht zu einer Erweiterung auf allgemeine Unternehmensbuchführung, Bauplanung oder medizinische Beurteilung. Die neuen Arbeitsunterlagen enthalten keine rechtliche Lösungsmatrix.
+
+# v444.7.0 - Betriebskosten aus Belegen abrechnen und prüfen
+
+## 1. Zehn zusammenhängende Arbeitswege
+
+Das neue Plugin Betriebskosten und Hausverwaltung führt vom freigegebenen Belegordner bis zur nachvollziehbaren Mietabrechnung oder zum konkreten Antwortbrief. Der Hauptskill arbeitet den Vorgang selbst ab. Neun weitere Skills vertiefen Rechnungsabgleich, gemischte Hausmeisterleistungen, Flächen und Schlüssel, Heizöl und Warmwasser, CO2-Kosten, WEG-Überleitung, Grundsteuer und Stromsonderfälle, Vorauszahlungen und Fristen sowie Einwendungen und Belegeinsicht. Werkstatt und Schnellstart sind eigenständige Markdown-Downloads außerhalb des installierbaren Skillbestands.
+
+## 2. Zwei umfangreiche Schöneberger Abrechnungsakten
+
+Eine vermietete Eigentumswohnung und ein vollständig gesellschaftseigenes Mietshaus bilden unterschiedliche Verwaltungswege ab. Beide Zielwohnungen haben vier Zimmer und 108 Quadratmeter. Der Bestand umfasst 83 einzelne Rechnungen und Gebührenbelege, dazu Bescheide, Messunterlagen, Abrechnungen, zwölf Vertrags- und Verwaltungsdokumente, zwanzig E-Mails, vier Chatexporte, zehn CSV-Dateien und zwei Excel-Arbeitsmappen. Die drei Fassungen je Akte bleiben getrennt: Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP.
+
+Die übergebenen Kursunterlagen dienten als Ausgangspunkt für Gestaltung und Themen, nicht als Quelle einer neuen Musterlösung. Vorhandene Lösungshinweise und Sammel-PDFs wurden nicht übernommen. Buchungen, Belege und Mietkonto ermöglichen eigene Prüfung; die versandten Abrechnungen sind Schriftstücke der Beteiligten und keine rechtlich freigegebenen Lösungen.
+
+## 3. Zeitstände, Quellen und Prüfung
+
+Die fachlichen Anweisungen trennen das Abrechnungsjahr 2025 vom Prüfstand September 2026. Amtliche Normen, Berliner Grundsteuerinformationen und sechs gerichtliche Volltexte sind mit Aussagegrenzen dokumentiert. Verbrauchtes Heizöl, lieferjahrbezogene CO2-Kosten und die eigenständige Mietabrechnung werden ausdrücklich von Einkaufszahlungen, späteren Gesetzesfassungen und WEG-Abrechnungsspitzen unterschieden.
+
+Neue Regressionen prüfen Belegidentität, Monatsrechnungen, Steuerkette, Zahlungsabgleich, CSV-Struktur, Excel-Quellen und gespeicherte Formelergebnisse, native Korrespondenz sowie die reproduzierbare PDF-Erzeugung. Ein vorbereitetes fachliches Prüfprofil ist kein ausgeführter Modelltest; eine Funktionsgarantie für sämtliche Clients wird nicht behauptet.
+
+# v444.6.0 - Fachliche Arbeitsabläufe bis zur fertigen Fassung
+
+## 1. Rückfragen führen zum bestellten Dokument
+
+Werkstatt- und Schnellstart-Prompts sowie die fachlichen Schwerpunktaufträge unterscheiden vorhandene Angaben, entscheidungserhebliche Lücken und den gewünschten Empfängertext. Nachgereichte Belege werden in die betroffenen Rechnungen, Begründungen und Entwürfe eingearbeitet. Ein beauftragtes Schreiben endet nicht bei einer Analyse oder dem Angebot, es später zu verfassen. Ein reiner Gutachtenauftrag führt umgekehrt nicht ungefragt zu einer Klage. Fachliche Varianten ersetzen allgemeine Pflichtmatrizen und interne Ausgabebegriffe.
+
+## 2. Dokumentbearbeitung und Quellen präzisieren
+
+Ausfüllung, rechtliche Neugestaltung, Änderungsverfolgung und Versandfreigabe bleiben getrennt. Kurze Änderungsvereinbarungen benötigen keine künstliche Vertragsvollstruktur; technische Exporthinweise gehören nicht in den Empfängertext. Weltraumrechtliche Vertragsrollen, Artemis-Abschnitte und Rückgabevorschriften sind genauer abgegrenzt. Im Steuerrecht sind Bekanntgabe, gerichtlicher Rechtsschutz, Beteiligungsschwellen und Verwaltungsquellen präzisiert. Amtliche BFH-Nachweise grenzen nationale Steuerpflicht und DBA sowie erstmaligen Steuerausweis und Rechnungsberichtigung ab.
+
+Der Factoring-Risikovergleich trennt Forderungskauf, Forderungseinzug und wirtschaftliche Zurechnung. Die unzutreffende pauschale Umsatzsteuerbefreiung für echtes Factoring und die automatische bilanzielle Ausbuchung sind korrigiert; amtliche Quellen belegen die Abgrenzung.
+
+## 3. Individuelle Texte vor Generatorverlust schützen
+
+Generatoren dürfen individuell geprüfte Texte nicht mit allgemeinen Abschnitten überschreiben, zur Erfüllung einer Mindestlänge auffüllen oder am Ende abschneiden. Eine überschrittene Schnellstartgrenze führt zur Fehlermeldung statt zum Verlust des Dokumentabschlusses. Die Werkstattprüfung bewertet Struktur und Obergrenze statt einer künstlichen Mindestwortmenge. Zusätzliche Regressionen sichern direkte Generatoraufrufe, wiederholte Verarbeitung, Bytegrenzen und individuelle Prüfsummen.
+
+Der Hauptverzeichnis-Generator führt die Versionsangabe des Testakten-Verzeichnisses mit. Fehlende oder doppelte Versionszeilen werden gemeldet; ein Versionswechsel lässt nicht mehr unbemerkt den alten Stand im Aktenindex zurück. Versions- und Profilfehler werden im Releaseablauf bereits vor dem zeitaufwendigen PDF-Build geprüft. Der Rechtsprechungsprüfer unterscheidet den Entscheidungsnamen ARAG vom Wortbestandteil in Paragraf.
+
+## 4. Prüfung und Aussagegrenzen
+
+Vorbereitete Fortsetzungsfälle behandeln unter anderem nachgereichte Vermögensbelege, ungeklärte Nachlasszahlungen, eine korrigierte Inventur und eine bereits geklärte Vertragsänderung. Sie sind keine tatsächlich ausgeführten mehrstufigen Modellgespräche. Individuelle Prüfprofile dokumentieren die jeweilige Fassung; eine Prüfsumme ist keine juristische Zertifizierung. Installierbare Schwerpunkt-Skills bleiben von den separaten Markdown-Downloads getrennt. Die eigentlichen Testakten bleiben unverändert.
+
+# v444.5.3 - Arbeitszeugnisprüfung ohne Statuskopf
+
+Werkstatt, Schnellstart und Plugin beginnen unmittelbar mit dem beauftragten Prüfbericht, Entwurf oder einer notwendigen gebündelten Rückfrage samt gesichertem Teil. Datei-, Rollen-, Quellen- und Bearbeitungsdaten werden intern eingeordnet, nicht als technischer Statuskopf vorangestellt. Auch der generierte README-Einstieg und der Megaprompt folgen dieser Vorgabe. Der vollständige Workflow mit Rückfragen, bedingten Fassungen und Fortsetzung bleibt erhalten; gezielte Regressionstests sichern den direkten Einstieg ab.
+
+# v444.5.2 - Aktivierungssignale releasefest
+
+Die drei neuen Auswahlbeschreibungen mit Bezug auf § 109 Absatz 2 GewO verwenden nun die vom globalen Aktivierungsaudit verlangte ausgeschriebene Paragrafenform. Die fachlichen Skilltexte bleiben unverändert. Ein zusätzlicher Regressionstest verhindert, dass das unzulässige Zeichen erneut in die Auswahlbeschreibungen gelangt. Version 444.5.2 veröffentlicht damit den vollständigen Arbeitszeugnis-Workflow aus v444.5.1 mit bestandener Release-Pipeline.
+
+# v444.5.1 - Arbeitszeugnisprüfung bis zur Endfassung
+
+## 1. Lesbare Werkstatt- und Schnellstart-Prompts
+
+Der Werkstatt-Prompt und der Schnellstart wurden vollständig neu gefasst. Beide lesen vorhandene Unterlagen zuerst, unterscheiden Prüfung, bereinigte Neufassung, außergerichtliche Geltendmachung sowie Klage-, Vergleichs- und Vollstreckungsauftrag und schließen mit dem jeweils bestellten Dokument ab. Interne Generatorbegriffe, wiederholte Gerüste und schematische Farbausgaben wurden entfernt.
+
+## 2. Rückfragen als fortgesetzte Bearbeitung
+
+Entscheidungserhebliche Lücken führen zu gebündelten Rückfragen mit benannten Folgen und bedingten Fassungen. Der bereits gesicherte Teil wird zugleich fertiggestellt. Nach einer Antwort wird am bestehenden Bearbeitungsstand fortgesetzt; nur abhängige Passagen werden geändert. Eine Fragenliste oder bloße Analyse beendet keinen weitergehenden Dokumentauftrag.
+
+## 3. Durchgängige Pluginlogik und fachliche Präzisierung
+
+Alle 31 installierbaren Skills besitzen nun eine konkrete Auswahlbeschreibung und führen ihre Teilprüfung in den laufenden Gesamtauftrag zurück. Der Einstiegsskill steuert den Vorgang bis zum Prüfbericht, zur Gesamtfassung oder zum beauftragten Entwurf. Starre Behauptungen zu Geheimcodes, Auslassungen, Personenreihenfolge, Notenadverbien und Schlussformeln wurden durch eine Prüfung von Wortlaut, Gesamtzusammenhang, Tatsachen und Belegen ersetzt. Freiwillige Schlussformulierungen bleiben von der Leistungs- und Verhaltensnote getrennt.
+
+## 4. Qualitäts- und Release-Sicherung
+
+Ein eigener Regressionstest sichert Unterlagenlektüre, Rückfragen, Verzweigungen, Fortsetzung, Abschlussbedingungen, empfängerbezogene Ergebnisse und die Entfernung interner Ausgabebegriffe. Das individuelle Qualitätsprofil enthält zusätzlich einen belegabhängigen Arbeitnehmerfall und einen Arbeitgeberfall. Werkstatt, Schnellstart, Pluginmanifest, Marketplace, Skillübersichten und abgeleitete Release-Artefakte werden gemeinsam auf Version 444.5.1 veröffentlicht.
+
+# v444.5.0 - Klare Fachanweisungen und gezielte Rechtsprechungsanker
+
+## 1. Sprachredaktion und 25 Hauptproblem-Paare
+
+Werkstatt-Einstiege, Schnellstarts und ausgewählte Fachskills enthalten präzisere Arbeitsaufträge statt allgemeiner Werbesprache, unklarer Metaphern und abgebrochener Aufzählungen. Die 25 vorhandenen Paare aus Hauptproblem-Prompt und zugehörigem Skill wurden gezielt auf verständliche Sprache und ihren fachlichen Ablauf geprüft. Eingangsdaten, Belege, Fristen, Beweisfragen, Rechenwege, konkrete Ergebnisse und Grenzen eigenmächtiger Handlungen bleiben erhalten. Gute Fassungen wurden beibehalten; eine vollständige Einzelredaktion aller Skills wird nicht behauptet.
+
+## 2. Sieben begrenzt eingeordnete Entscheidungen aus Juli und August 2026
+
+- BAG, Urteil vom 30.07.2026, Az. 2 AZR 96/24: Grenzen der vorweggenommenen Abbedingung von Annahmeverzugslohn bei Arbeitgeberkündigungen; keine bereits entschiedene Anspruchshöhe.
+- BAG, Urteil vom 26.08.2026, Az. 5 AZR 37/25: eigenständige Auskunft über behördliche Vermittlungsvorschläge von sekundärer Darlegung zu Bewerbungen unterscheiden. Amtliche Pressemitteilung geprüft, kein Volltextnachweis und keine daraus abgeleiteten Randnummern.
+- BGH, Beschluss vom 07.07.2026, Az. XI ZR 71/25: gesonderte Kausalitätsprüfung bei zusätzlich behauptetem Datenschutzschaden; kein allgemeiner Anspruchsausschluss und kein neuer Autorisierungsmaßstab.
+- BGH, Urteil vom 02.07.2026, Az. I ZR 134/25: getrennte Berechnungswege bei Transporthaftung; keine Übertragung des Aufliegerschadens auf den Beweis eines Teilverlusts.
+- BGH, Beschluss vom 04.08.2026, Az. 6 StR 160/26: Fortbestand, Sicherstellung und Rückgabe von Sachbeute anhand der Belege unterscheiden; kein pauschaler Abzug von Geldflüssen oder Arrestbeträgen.
+- BVerfG, Urteil vom 23.07.2026, Az. 2 BvE 4/23: früherer Eilerfolg ersetzt keine erfolgreiche Hauptsacheprüfung parlamentarischer Beratungsrechte und begründet keine Gesetzesnichtigkeit.
+- BVerfG, Beschluss vom 23.07.2026, Az. 2 BvC 20/26: eng begrenzte Ausnahme bei verzögerter Wahlprüfung; keine generelle Zulässigkeit vorzeitiger Beschwerden.
+
+Die jeweiligen Fachdateien nennen amtliche Quellen und ihre Aussagegrenzen. Dies ist keine vollständige Rechtsprechungsübersicht für Juli und August. Historische Quellenprüfungen und aktuell geprüfte Ergänzungen bleiben unterscheidbar.
+
+## 3. Nachvollziehbare Offline-Prüfung statt Modellbenchmark
+
+Zusätzliche vorbereitete Ergebnisfälle prüfen die Abgrenzung von Bewerbungsauskunft und sekundärer Darlegung sowie von Eilentscheidung, Hauptsache und Gesetzesnichtigkeit. Diese Fälle sind keine ausgeführten Modelltests. Technische Repo-Tests, Strukturvalidatoren, die strikte Manifestprüfung der offiziellen Plugin-CLI, Generatorreproduzierbarkeit und ZIP-Prüfungen dienen der Release-Absicherung, nicht einer offiziellen Zertifizierung.
+
+Separat ausgeführte unveränderte Originaltests ergaben 22.433 bestandene Skill-Validierungen und 12.785 bestandene Tests des externen Testsystems bei 62 übersprungenen Tests: 51 wegen fehlender Containerumgebung, sechs wegen fehlendem Referenzlauf und fünf Live-Tests ohne API-Zugang. Diese Offline-Ergebnisse sind keine Modellbenchmarks und keine Aussage zur juristischen Richtigkeit erzeugter Antworten. Live-Modelltests wurden nicht ausgeführt; der CLI-Anmeldestatus war nicht angemeldet. Die eigentlichen Testakten bleiben unverändert.
+
+# v444.4.1 - Getrennte Fallvergleiche und robuste Dokumentprüfung
+
+## 1. Vergleichbare Ergebnisse getrennt auswerten
+
+Vergleichsstatistiken gruppieren zusätzlich nach Plugin und Prüfsumme des konkreten Falls. Unterschiedliche Aufträge werden auch bei identischen Fachprompts oder einer gemeinsamen Basisvariante nicht mehr in Erfolgsquoten, Laufzeiten und Tokenmittelwerten vermischt. Wiederholungen desselben Falls bleiben zusammen auswertbar.
+
+## 2. Beschädigte Arbeitsprodukte nachvollziehbar abfangen
+
+Unvollständige Office-Archive und beschädigtes Dokument-XML werden als unlesbare, ungeprüfte Ergebnisse dokumentiert. Eine externe Bewertung wird dafür nicht gestartet. 51 Offline-Regressionen sichern das Qualitätslabor einschließlich echter beschädigter DOCX- und XLSX-Dateien. Fachtexte und Fallunterlagen bleiben unverändert.
+
+# v444.4.0 - Fachliche Schwerpunktaufträge und überprüfbare Ergebnisqualität
+
+## 1. Arbeitsintensive Mandatsprobleme gezielt bearbeiten
+
+Die 23 Fachanwalts-Plugins sowie Steuer- und Insolvenzrecht erhalten je einen eigenständigen Spezialskill und einen separaten Hauptproblem-Prompt mit höchstens 7500 Zeichen und Bytes. Die Aufgaben reichen vom Zugewinn-Stichtagsabgleich über Annahmeverzugslohn, Nachlassverzeichnisse und Bauzeitentschädigung bis zu Zahlungsrekonstruktion, Angebotswertung und steuerlicher Gegenkalkulation. Belege, Rechenwege, Gegenpositionen und konkrete Entwürfe stehen vor allgemeinen Rechtsgebietsübersichten. Zitierregeln sind in den Einzelplugins vorhanden; die separaten Prompts gehören nicht in die installierbaren ZIPs.
+
+## 2. Individuelle Schnellstarts und nachvollziehbare Prüfung
+
+Die Mini-Prüfung wird je Plugin mit fachlicher Begründung, tatsächlichen Änderungen und abgegrenzten Auswahlfällen dokumentiert. Individuell geprüfte Texte werden nicht erneut durch allgemeine Generatorbausteine ersetzt. Amtliche Quellenlinks bleiben erhalten; sinnvolle Fachüberschriften müssen keinen einheitlichen Schablonenwortlaut wiederholen. Die neuen Schwerpunktaufträge sind in den Plugin-READMEs, im Download-Index und im eigenen Verzeichnis erreichbar.
+
+## 3. Ergebnisbewertung statt scheinbarer Erfolgsquoten
+
+Das Qualitätslabor trennt Aktenstruktur, beobachtete Plugin- oder Skill-Auswahl und tatsächlich erzeugte Arbeitsergebnisse. Isolierte Eingaben, Dateiprüfsummen, nachvollziehbare Abschlussgründe, zwei getrennte Prüfmodelle und kriterienspezifische Belege erlauben reproduzierbare Vergleiche. Fehlende Zugänge oder Dateien, Abbrüche und widersprüchliche Bewertungen werden nicht als bestanden ausgegeben. Externe Übermittlung ist ausdrücklich freizugeben. Vorbereitete Prüffälle und Offline-Regressionen sind keine ausgeführten Modellbenchmarks und ersetzen keine unabhängige Rechtsquellenprüfung.
+
+## 4. Konkrete Altfehler und vollständige Downloads
+
+Eng begrenzte Korrekturen betreffen unter anderem Vertragsschluss beim Bestellbutton, Kapitalaufbringung, landesabhängige Denkmalschutzverfahren, Förderbudgets, historische Quellenkritik, nachträgliche Gesamtstrafe, finanzgerichtliche Aussetzung der Vollziehung und das Übergangsrecht zur Berufungswertgrenze. Zusätzliche Prüffälle halten die entscheidenden Abgrenzungen fest. Skill-Markdown-Bundles enthalten nun auch die gemeinsamen Markdown-Referenzen des Plugins; eigenständige Hilfsprompts bleiben weiterhin außerhalb dieser ZIPs.
+
+Die eigentlichen Falldokumente bleiben unverändert. Abgeleitete Prüfanleitungen und Downloadverzeichnisse werden mit dem neuen Skillbestand synchronisiert.
+
+# v444.3.0 - Digitaler Omnibus und getrennte Aufsichtswege
+
+## 1. Veröffentlichtes Änderungsrecht statt alter Zeitpläne
+
+Acht Fachpakete berücksichtigen die Verordnung (EU) 2026/1744 und das KI-MIG mit Rechtsstand 10. September 2026. Kompetenzförderung ohne individuelle Niveaugarantie, sensible Bias-Daten nach Artikel 4a, Transparenz und neue Inhaltsverbote werden getrennt geprüft. Die festen Hochrisikotermine, die Bestandsregeln und der geänderte Maschinenpfad ersetzen überholte Termin- und Verfahrensaussagen.
+
+## 2. Datenschutz bleibt eine eigenständige Prüfung
+
+Die noch laufenden Verfahren COM(2025) 837 und COM(2025) 501 werden nicht als geltende Befreiungen behandelt. Pflichtmeldung möglichst binnen 72 Stunden, Verarbeitungsverzeichnis, Betroffenenrechte und Folgenabschätzung bleiben nach geltendem Recht eingeordnet. Bundesnetzagentur, sektorale Behörden, Länder, Datenschutzaufsicht und europäische Sonderaufsicht werden nach dem konkreten Vorgang unterschieden.
+
+## 3. Fachliche Korrekturen und eigenständige Arbeitswege
+
+Vertauschte Artikel-50-Absätze und falsche Vorgaben zur notifizierten Stelle wurden berichtigt. Acht Schnellstarter und acht Werkstatt-Prompts enthalten eigene fachbezogene Reformabschnitte und amtliche Quellen. Bestehende Skill-Namen bleiben erhalten. Lokale Rechtsstandkarten funktionieren auch im einzeln installierten Paket; geschützte Prompttexte bleiben bei Generatorläufen erhalten. Regressionen sichern Verweise, Rollen, Fristen, Paketressourcen und Größenbudgets. Fallakten wurden nicht verändert.
+
+# v444.2.0 - Grundsteuerwerkstatt mit zehn Arbeitswegen
+
+## 1. Eigenständiges Grundsteuer-Plugin
+
+Zehn fokussierte Skills verbinden Bescheidregister, Grundstücks- und Flächenbelege, Landesmodell, Wertberechnung, niedrigeren Wertnachweis, Messbetrag, Hebesatz, Rechtsbehelf, Eilrechtsschutz und Umsetzung. Vorhandene Unterlagen werden zuerst ausgewertet; fehlende Werkzeuge führen zu einem nachvollziehbaren Teilentwurf statt einer Wiederholungsschleife. Ein ausführlicher Werkstatt-Prompt und ein kompakter Schnellstart sind separat und unabhängig vom Plugin verwendbar.
+
+## 2. Richtige Ebene, richtige Zeit, geprüfte Rechnung
+
+Die Arbeitswege unterscheiden zwei Dateien von drei Verwaltungsakten, Zurechnung von Miteigentumsanteil sowie ungerundeten Rechenwert von festgesetztem und übernommenem Messbetrag. Bundesmodell, Landesmodell Baden-Württemberg, Eilbeschluss und Hauptsacheentscheidung bleiben getrennt. Amtliche BFH-Anker aus 2024, 2025 und 2026 und der aktuelle Verfahrensstatus sind mit ihrer Reichweite dokumentiert. Historische Übungen projizieren spätere Rechtsänderungen nicht zurück.
+
+Eine optionale Rechenhilfe ohne Zusatzabhängigkeiten prüft Dezimalprodukte, Übernahmedifferenzen und die bundesrechtliche Nachweisschwelle. Fehlende Werte werden nicht als null ersetzt; mehrdeutige Zahlen, doppelte JSON-Felder und übergroße Eingaben brechen mit verständlicher Meldung ab. Zehn Regressionen sichern Rechenränder, Paketstruktur, Quellenbezug und Standalone-Prompts.
+
+## 3. Vorhandene Akte und Downloads
+
+Die Wolkenfels-Akte ist zusätzlich direkt beim Grundsteuer-Plugin erreichbar. Ihre beiden gelieferten Bescheid-PDFs und sämtliche Aktenstücke bleiben unverändert. Gesamt-PDF, Einzel-PDF-ZIP und Originalformat-ZIP werden weiter aus demselben Bestand angeboten. Marketplace, Skill-Verzeichnisse, Prompt-Downloads und Plugin-Katalog enthalten den neuen Einstieg; bestehende Fachskills werden nicht umbenannt oder ersetzt.
+
+# v444.1.0 - Berliner Personalakte zum Asset Deal
+
+## 1. Fünfzig Arbeitsverträge und zwei Geschäftsführeranstellungen
+
+Große Akte zur Innovation Systems GmbH mit Software, Sensorik und ziviler Drohnentechnik. Die neun vorgelegten Vertragsfassungen wurden erweitert und um 41 Arbeitsverträge ergänzt. Unterschiedliche Aufgaben, Fälligkeiten, Fristen, Befristungen, Sprachfassungen, Wettbewerbs- und Softwareklauseln bleiben anhand der einzelnen Dokumente auswertbar. Zwei Geschäftsführeranstellungen mit Gesellschaftsunterlagen und Erwerbsstatusbescheid werden getrennt geführt.
+
+## 2. Personalbelege und offene Erwerbsverhandlungen
+
+110 eigenständige Arbeitsunterlagen: 86 DOCX, 15 EML, vier TXT, vier CSV und ein vierblättriges XLSX. Enthalten sind Betriebsratsunterlagen, Bescheide, Schwangerschafts- und Elternzeitmitteilungen, Kündigung und Zugang, Vertragsnachträge, Insolvenzbeschlüsse, Erwerbsabsicht und Zahlungsdaten. Die Abrechnung ist rechnerisch nachvollziehbar; eine rechtliche Ergebnismatrix wird nicht vorgegeben. Bearbeitungsstand der Akte ist der 8. September 2026.
+
+## 3. Downloads und Qualitätssicherung
+
+Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP werden aus demselben Bestand gebaut. Jede Unterlage erhält ein eigenes PDF; die Excel-Datei druckt im Querformat mit wiederholten Kopfzeilen. Verzeichnisse bei Arbeitsrecht, Fachanwalt für Arbeitsrecht und Insolvenzrecht sind ergänzt. Neue Regressionen sichern Personalnummern, getrennte Vertragsgruppen, Korrespondenz, Abrechnung und Dateiverweise. Die Sprachprüfung erkennt deklarierte englische Fachtexte, ohne deutsche Umlautfehler oder andere Qualitätsprüfungen auszublenden.
+
+PDF-Ausdrucke von Textunterlagen erhalten für erweiterte lateinische Namenszeichen eine eingebettete Ersatzschrift, damit etwa Yılmaz nicht mit einem fehlenden Zeichen erscheint. Eine Regression prüft Darstellung und Textauslesung ohne Veränderung der üblichen Schriftbelegung.
+
+# v444.0.3 - Einheitlicher Markdown-Kontext für Navigation
+
+## 1. Links, Anker und Metadaten
+
+Links und Anker werden nun aus derselben Markdown-Struktur gelesen. Beispiele in Codeblöcken, Inline-Code und Kommentaren sowie YAML-Metadaten erzeugen weder Sprungziele noch Linkfehler. Referenzlinks, formatierte Beschriftungen und leere echte Links bleiben prüfbar. Auch die Downloadprüfung unterscheidet Beispiele von tatsächlich angebotenen Dateien und erfasst ausgeschriebene URLs im Fließtext nach GitHub-Markdown-Regeln. Zusätzliche Regressionen sichern diese Grenzfälle sowie gültige, fehlende und unzulässige Downloadziele. Die fachlichen AML-Inhalte und Akten bleiben unverändert.
+
+# v444.0.2 - Echte Sprungziele statt Codebeispiele
+
+Technischer Zwischentag; die Veröffentlichung erfolgt mit der einheitlichen Linkprüfung als v444.0.3.
+
+## 1. Kontextgerechte Ankerprüfung
+
+Die Navigationsprüfung unterscheidet echte HTML-Anker und Überschriften von Codebeispielen und Kommentaren. Ein Markdown-Parser berücksichtigt auch eingerückte, verschachtelte und nicht geschlossene Codeblöcke; Beispiele verändern die Nummerierung doppelter Überschriften nicht mehr. Regressionen sichern die Erkennung tatsächlich defekter Sprunglinks. Enthält den vollständigen AML-Ausbau und die dezimale Navigation der beiden unveröffentlichten Zwischentags.
+
+# v444.0.1 - Dezimale README-Navigation
+
+Technischer Zwischentag; die Veröffentlichung erfolgt mit der ergänzten Navigationsprüfung als v444.0.3.
+
+## 1. Generierte Abschnitte und stabile Anker
+
+Die AML-Pluginübersicht und die zugehörigen neuen Aktenseiten verwenden jetzt durchgehend dezimale Überschriften. Download-, Arbeitslogik- und Skill-Generatoren erhalten diese Gliederung bei jeder Neuerzeugung. Stabile HTML-Anker halten bestehende Navigationslinks erreichbar. Regressionen prüfen Hierarchie, Wiederholbarkeit, Codeblöcke und Anker; die übrigen Seiten werden nicht pauschal umnummeriert.
+
+# v444.0.0 - Geldwäscheprüfung für Kanzlei, Unternehmen und Notariat
+
+Technischer Zwischentag; die Veröffentlichung erfolgt zusammen mit den Navigationskorrekturen als v444.0.3.
+
+## 1. Fachlich neu gefasste Arbeitswege
+
+Das vorhandene AML/KYC-Plugin bündelt 57 bisherige Einstiegspunkte in 20 konkrete Fachskills. 16 Namen bleiben erhalten; Kanzleimandat und Berufsgeheimnis, notarielle Immobilienzahlung, interne Kontrollen und EU-Umstellung erhalten eigene Wege. Die Migrationstabelle nennt für jeden entfallenen Aufruf den Nachfolger. Gespeicherte Aufrufe müssen entsprechend angepasst werden.
+
+## 2. Rechtsstand und eigenständige Prompts
+
+Werkstatt und Schnellstart trennen den aktuellen GwG-Maßstab, das seit März 2026 geltende Meldeformat und die grundsätzlich ab Juli 2027 anwendbare EU-Verordnung. Notarielle Nachweise, Barzahlungsverbot, unterschiedliche Wartefristen, geschützte Informationen, wirtschaftlich Berechtigte und Händler-Schwellen sind konkret zugeordnet. Quellenkarte mit amtlichen Fundstellen und zwei abgegrenzten EuGH-Ankern; keine simulierten Registerprüfungen oder automatischen Meldungen.
+
+## 3. Drei neue Fallakten und Prüfungen
+
+Bonn: Fremdgeld bei erweitertem Kanzleimandat. Münster: Immobilienkaufpreis mit Bank-, Eigenmittel- und Baranteil. Ulm: Maschinenverkauf mit Teilzahlungen, Doppelzahlung und abweichenden Rückzahlungswünschen. Je acht selbständige Aktenstücke als DOCX, EML und TXT, Gesamt-PDF sowie zwei flache ZIP-Varianten. Neue Regressionstests sichern Fachwege, Migration, Fristenabgrenzung, Betragskonsistenz, Dokumenttrennung und Downloads.
+
+# v443.6.0 - Notariatswerkstatt für Mitarbeiter
+
+- Bestehendes Plugin notariat-alltag um einen klaren Mitarbeitereinstieg mit zehn direkten Arbeitswegen ergänzt. Neun Kernskills überarbeitet und Anteilsübertragung mit Verpfändung als eigenen Skill ergänzt; technische Namen und übriger Fachbestand bleiben erhalten.
+- Formwege für Bauträgerkauf, Grundschuld, Beglaubigung, GmbH-Gründung, Kapitalerhöhung und Geschäftsführerwechsel anhand amtlicher Normtexte abgeglichen. Fehler zu Musterprotokoll, Grundschuldform, Musterzeichnung und Registerpublizität in betroffenen Altpfaden korrigiert. Mitarbeiterentwurf und notarielle Amtshandlung bleiben getrennt.
+- Werkstatt und Schnellstart von Hand für den Notariatsalltag ausgearbeitet, gegen Überschreiben geschützt und mit passenden Vertiefungsrouten versehen. Vorhandene Ordnerdaten werden zuerst genutzt; nur entscheidende Lücken lösen Rückfragen aus.
+- Sechs neue Vorgänge mit 48 getrennten Originalunterlagen: zwölf Word-Dokumente, 24 E-Mails und zwölf Textunterlagen. Bauträgerkauf in Potsdam, Grundschuld in Erfurt, Unterschriftsbeglaubigung in Hannover, Gründung in Rostock, Kapitalerhöhung mit Geschäftsführerwechsel in Ulm und Anteilsverkauf mit Bankverpfändung in Bremen.
+- Jede neue Akte mit Gesamt-PDF, flachem Originalformat-ZIP und flachem Einzel-PDF-ZIP. Keine Markdown-Aktenstücke oder vorgegebenen Lösungen in den Arbeitsarchiven. Hinweis auf Downloadseiten und in der ZIP-README, nicht im PDF-Inhalt.
+- Deutsche und englische Nutzungserklärung, direkte Arbeitsnavigation, Aktenzuordnung und zentrale Verzeichnisse aktualisiert. Quellenhilfe im Plugin mitgeliefert, damit die überarbeiteten Mitarbeiterwege keine lokalen Dateien außerhalb des Einzelpakets voraussetzen. Regressionen sichern Formunterscheidung, Mitarbeiterrolle, Originaldatum, vollständige PDF-Abdeckung, Umlaute und Archivinhalt.
+- Navigationsprüfung an den vorhandenen Markdown-Downloadweg angeglichen: Auch Referenzdateien dürfen direkt angeboten werden. Pfadausbruch, externe Ziele und fehlende Dateien bleiben Fehler; separate Regressionen sichern diese Grenze.
+
+---
+
+# v443.5.1 - Lesbare Ablaufgliederung vor Veröffentlichung
+
+- Beide neuen Spezialskills der Schadensregulierung mit sprechenden dezimalen Unterabschnitten und getrennten Inhaltsabsätzen gegliedert. Reihenfolge und fachlicher Inhalt der sechzehn Arbeitsschritte bleiben erhalten.
+- Regressionstest für Nummerierung und Absatzabstand ergänzt; abgeleitete Dokumente und Versionsverzeichnisse erneut erzeugt. Die Aktenunterlagen bleiben unverändert.
+- Korrigierter Veröffentlichungsstand nach dem Formatbefund zum Tag v443.5.0. Der frühere Tag bleibt erhalten; sein noch laufender Release-Build wurde vor Veröffentlichung beendet.
+
+---
+
+# v443.5.0 - Versichererregulierung und Abschleppschäden
+
+- Schadensregulierung auf zehn klar abgegrenzte Skills erweitert: Der Haftpflichtversicherer bearbeitet Schäden aktiv; ein eigener Arbeitsweg prüft Fahrzeugschäden beim Abschleppen aus Busspuren, Haltestellen und privaten Flächen. Die bisherigen acht Aufgaben bleiben erhalten und werden rollenbezogen ergänzt.
+- Werkstatt und Schnellstart unterscheiden Deckung, Haftung, Außenbefugnis, Besichtigung, interne Reserve und Zahlung. Der Schnellstart bleibt unter 7500 Bytes. Anordnung, Abschleppkosten und Ausführungsschaden sowie öffentliche und private Aufträge werden getrennt; BGH VI ZR 383/12 wird nur für die hoheitliche Konstellation verwendet.
+- Zusätzliche Berliner Akte mit fünfzehn Originalunterlagen: Auftragsjournal, Fahrerbericht, Zustandsblatt, Fahrzeugunterlagen, detaillierter Kostenvoranschlag, Werkstattbefund, Policennachtrag und Korrespondenz bis zur anstehenden Besichtigung. Keine vorgegebene Haftungsquote, keine erfundenen vorhandenen Fotos und keine bereits vorweggenommene Regulierung.
+- Gesamt-PDF, flaches Originalformat-ZIP und flaches Einzel-PDF-ZIP mit identischem Unterlagenbestand; vier ausformulierte Word-Dokumente, sieben E-Mails und vier Textunterlagen. Die bestehende U-Bahn-Akte bleibt unverändert.
+- Gezielte Regressionen prüfen Kalkulation, offene Rechnungsstellung, beide Aktenpakete, native Inhalte, Vollständigkeit, Verweise und Promptgrenzen. Arbeitsnavigation, Beschreibungen und zentrale Verzeichnisse aktualisiert.
+
+---
+
+# v443.4.0 - Schadensregulierung aus Unternehmenssicht
+
+- Neues kompaktes Plugin mit acht sprechenden Fachaufgaben: Schadenaufnahme, Beweissicherung, Haftungsweg, Versicherung, Schadenpositionen, Anspruchsübergang, Korrespondenz sowie Vergleich und kontrollierte Zahlung. Keine automatische Außenhandlung.
+- Eigenständige ausführliche Werkstatt mit acht situationsbezogenen Arbeitsrouten und kompakter Schnellstart unter 7500 Bytes. Vorhandene Unterlagen und konkrete Dokumentwünsche bestimmen den Einstieg; Haftung, Deckung, Bezifferung und Freigabe bleiben getrennt.
+- Haftpflichtgesetz und Betriebsvorschriften für den U-Bahn-Fall, BGB, StVG und Produkthaftung nach ihrem jeweiligen Anwendungsbereich. Entscheidungsanker zur Gesamtbemessung des Schmerzensgelds und zu psychischen Gesundheitsverletzungen mit ausdrücklich begrenzter Übertragbarkeit. Offene Deckung, künftige Behandlungsfolgen und bereits übergegangene Ansprüche werden nicht durch eine pauschale Abfindung erledigt.
+- Berliner Türvorfall mit 15 einzelnen Originalunterlagen: Fahrgastmeldung, Betriebsbericht, Ereignisspeicher, zwei Behandlungsberichte, Zeugenmail, Kaufbeleg, Ausgabenliste, Türprüfung, Police, Versicherer- und Kassenverkehr, Schneidereiangebot, Telefonvermerk und Arbeitgeberauskunft. Keine Musterlösung oder festgelegte Entschädigungshöhe.
+- Gesamt-PDF sowie flache Originalformat- und Einzel-PDF-ZIPs; fallbezogene Tests prüfen Beträge, Dokumentabdeckung, native Dateiinhalte und Archivstruktur. Plugin-, Skill-, Prompt- und Aktenverzeichnisse sind aktualisiert.
+
+---
+
+# v443.3.0 - Grundsteuerakte Wolkenfels
+
+- Zwei bereitgestellte Bescheid-PDFs unverändert aufgenommen: Grundsteuerwertbescheid sowie Grundsteuerpost 2025 einschließlich des darin enthaltenen Messbescheids. Originalhinweise und Zahlen bleiben erhalten.
+- Sechs getrennte Ergänzungen: drei E-Mails, Posteingangsvermerk, Verwaltungsdaten als CSV und ein Ortsbefund ohne Grenzfeststellung. Kein fertiger Rechtsbehelf, keine vorweggenommene gerichtliche Entscheidung.
+- Gemeinsame Akte über das Steuerrechts-Plugin und dessen früheren Fachanwalt-Einstieg erreichbar. Gesamt-PDF, flaches Originalformat-ZIP und flaches Einzel-PDF-ZIP führen denselben Unterlagenbestand.
+- Fallbezogene Regressionen sichern Original-Prüfsummen, vollständige PDF-Seiten, Archivstruktur und Zuordnung. Downloadverzeichnisse und Versionsangaben aktualisiert. Skills und Fachprompts bleiben inhaltlich unverändert.
+
+---
+
+# v443.2.0 - Portable Direktstarts und weniger Pflichtumwege
+
+- Sämtliche 235 Werkstatt- und 235 Schnellstart-Prompts enthalten begrenzte Ausweichwege bei fehlendem Datei-, Quellen- oder Exportzugriff. Eigenständige Prompts setzen keine zusätzlich installierten Skills voraus. Ein fehlendes Werkzeug wird nicht als erfolgreicher Dateiexport oder abgeschlossene Quellenprüfung dargestellt.
+- Drei handkuratierte Familien- und Erbrechtsprompts verwenden konkrete fachliche Arbeitsschritte statt Aufrufen anderer Skills. Unterhalt, Versorgungsausgleich, Erbfolge, Pflichtteil und Nachlassabwicklung bleiben im Prompt selbst steuerbar; die Namen installierbarer Skills ändern sich nicht.
+- Konkrete Ausgabeaufträge werden nicht mehr durch einen vorgegebenen Erststand überschrieben. Werkstatt-Einstiege unterscheiden den offenen Start vom bereits bestimmten Dokumentauftrag. Folgewünsche verwenden unveränderte Auszüge weiter, prüfen aber neue Fassungen und widersprechende Belege erneut.
+- 715 Skills verlieren einen nachträglich eingefügten Pflichtabsatz, der unabhängig vom Auftrag eine zusätzliche Sieben-Satz-Vorabfassung verlangte. Ihre eigentlichen Fachabläufe, Namen und Beschreibungen bleiben erhalten; neue gleichförmige Ersatzabsätze werden nicht eingefügt.
+- Der BWA-Router trennt Ergebnisanalyse, Geldbewegung, Jahreskennzahlen, Monatsbericht und Vorjahresvergleich. Der Einstieg liest zunächst die benötigten Tabellenbereiche statt sämtlicher Journale. Objektüberwachung in Leistungsphase 8 und bankrechtliches Fallrouting beginnen unmittelbar mit dem betroffenen Vorgang. Das Produktrecht-Setup blockiert den laufenden Review nicht wegen fehlendem Profilzugriff oder zehn obligatorischen Altdokumenten; Migration und ausdrücklich gewählter Neustart bleiben erhalten.
+- Bei der Größenbegrenzung der Schnellstarts bleibt mindestens ein vorhandener Rechtsprechungsanker erhalten, auch wenn zuvor zahlreiche Normanker stehen. Alle Schnellstarts bleiben unter 7500 Bytes.
+- Neun neue Regressionstests prüfen sämtliche veröffentlichten Promptpaare, sämtliche installierbaren Skills auf den entfernten Pflichtabsatz, profilgebundenen Auftragsvorrang, verlustarme Ankerkürzung und idempotente Bearbeitung. Die Release-Pipeline führt sie verbindlich aus.
+- Startseite und Kurzanleitung unterscheiden Pluginimport, eigenständige Markdown-Anweisung, Referenzzugriff und echte Dokumentproduktion. Ein fachbezogener Arbeitsplatztest macht fehlende Zugriffe sichtbar. Die Dateiprüfungen zertifizieren weder fremde Plattformkonten noch eine bestimmte Modellgeschwindigkeit oder automatische Skill-Auswahl.
+
+---
+
+# v443.1.2 - Begrenzte Konvertierung und schlankere Paketverarbeitung
+
+- Die beiden Versandwerkzeuge verwenden für jeden Office-Export ein eigenes temporäres Profil und einen neuen Ausgabeordner. Eine alte, leere, verschlüsselte oder defekte PDF wird nicht als neuer Konvertierungserfolg akzeptiert. Vorhandene Ergebnisse werden erst nach erfolgreicher Prüfung ersetzt.
+- Office-Läufe haben geschlossene Standardeingaben, zeitlich begrenztes Warten und eine begrenzte Fehlerausgabe ohne vollständigen Protokollpuffer im Arbeitsspeicher. Unter Linux und macOS wird die eigene Prozessgruppe einschließlich verbliebener Kindprozesse beendet. Nicht betroffene Anlagen bleiben bearbeitbar; ein Konvertierungsfehler bleibt ein Stop-Befund und verhindert die Freigabe.
+- Aktenkonvertierungen übergeben höchstens acht Office-Quellen pro Prozesslauf. Einzel-PDF-Pakete halten nur eine kleine Gruppe nativer Ausgaben gleichzeitig bereit und geben verarbeitete Ergebnisse frei. Fehlgeschlagene Einzelpakete hinterlassen keine temporäre Ausgabe und überschreiben kein vorhandenes Paket.
+- Die Prüfung auf rohe PDF-Aktivinhaltsmarker liest blockweise statt eine zusätzliche vollständige Dateikopie anzulegen. Bereits komprimierte Einzel-ZIPs werden in den zentralen Sammelpaketen ohne erneute Kompression gespeichert. Dateiinhalte, flache Struktur und Warnhinweise bleiben erhalten.
+- Elf neue Regressionen prüfen unter anderem echte Zeitüberschreitung mit Kindprozess, große Programmausgaben, Blockgrenzen, getrennte Profile, veraltete und defekte Ausgaben, Weiterarbeit nach einer fehlerhaften Anlage sowie Batch- und ZIP-Eigenschaften. Die Release-Pipeline führt diese Tests verbindlich aus.
+- Prüfungsumfang: technische Dokumentproduktion und Paketbau. Diese Runde verändert weder Fallzahlen und BWA-Buchungen noch fachanwaltliche Rechtsaussagen. Sie garantiert keine bestimmte Laufzeit oder Verfügbarkeit externer Oberflächen.
+
+---
+
+# v443.1.1 - Gliederungsabstände der BWA-Unterlagen
+
+- Nachprüfung der neuen Vertragsunterlagen: Nummerierte Überschriften erhalten eine ausdrückliche Leerzeile zum folgenden Inhalt. Überschrift und Leerzeile bleiben beim Seitenumbruch beim Beginn des folgenden Absatzes. Dieselbe Korrektur gilt für das Unternehmensblatt.
+- Eine zusätzliche Dokumentprüfung und drei Regressionen sichern die Abstände. Texte, Vertragsdaten und Buchhaltungszahlen bleiben unverändert; Gesamt-PDF und Einzel-PDFs sind erneut erzeugt.
+- Enthält sämtliche Verbesserungen der Runde v443.1.0. Deren Veröffentlichung wurde vor dem Asset-Upload angehalten; der vorhandene Tag bleibt unverändert erhalten.
+
+---
+
+# v443.1.0 - Rohakten, BWA-Vergleich und verlässliche PDF-Pakete
+
+- Neue Fallakte zur Mainfrucht Spezialitätenhandel GmbH in Nürnberg mit Lager in Erlangen und 20 Beschäftigten: BWA und Summen- und Saldenlisten für 2024 und 2025 als vier eigenständige Excel-Dateien. 24 native Unterlagen verbinden Buchhaltung, offene Posten, Inventur, Zahlungsjournal, Verträge und Korrespondenz mit Geschäftspartnern im Ausland.
+- Eine unabhängige Abstimmungsprüfung verbindet 1314 ausgeglichene Beleggruppen mit Monatskonten, Jahres-SuSa, BWA, Jahresvortrag, Nebenbüchern und Januar-Zahlungen. Die Akte enthält keine fertige Aussage zur Insolvenzreife.
+- 144 bestätigte Lehrlösungen, fertige Ergebnisraster und irreführende Ausgabedateien wurden aus den Fallordnern entfernt. Bei gemischten Dokumenten bleiben Vertragswortlaut, Sachverhalt und eigenständige Parteipositionen erhalten. Antwortspalten in Renten- und Bewertungslisten sowie rechtliche Freigabeempfehlungen in der Presseakte entfallen. Technische Bewertungsfixtures liegen getrennt von den Schulungsakten.
+- 47 Fallrubriken enthalten keine vorgegebenen Lösungsnotizen mehr; ihre ausführbaren Strukturprüfungen bleiben bestehen. Fallbeschreibungen und die zentrale Übersicht wurden von vorweggenommenen Ergebnissen bereinigt. Drei Chatverläufe sind durch konkrete Übergabe-, Arbeits- und Logistikdetails ergänzt.
+- Gesamt- und Einzel-PDFs enthalten keine Warnseiten mehr. Der zweisprachige Hinweis steht unmittelbar über den PDF-/ZIP-Downloads sowie als erste README.txt in beiden ZIP-Varianten und den Akten-Sammelpaketen. Einzelakten bleiben flach und enthalten keine Markdown-Arbeitsdokumente.
+- Excel-Unterlagen werden mit berechneten Formeln über die native Office-Druckfassung ausgegeben. Der Textfallback verweigert unberechnete Formeln, statt Ergebnisse stillschweigend wegzulassen. Lange Dokumenttitel in den Gesamt-PDFs umbrechen innerhalb der Seitenbreite.
+- Neue Regressionen sichern Hinweisposition, unveränderte Originaldaten, Formelberechnung, Legacy-Warnseiten, ZIP-Struktur und erkennbare Lösungsschlüssel. Sechs kontextgeprüfte Erwähnungen fehlender Bewertungsunterlagen oder Lernpläne sind an den exakten Quellstand gebunden; jede Änderung erfordert erneute Prüfung.
+- Prüfungsumfang: zentrale und pluginlokale Aktenbestände wurden strukturiert gesichtet; bestätigte Fundstellen wurden im Kontext bereinigt. Eine automatische Suche ersetzt weder die vollständige juristische Prüfung jeder Akte noch eine Sichtkontrolle jeder Bildseite. Skills und Fachprompts bleiben inhaltlich unverändert.
+
+---
+
+# v443.0.0 - Sprechende Fachaufgaben und gezielte Vertiefung
+
+- Der direkte Auswahlbestand sinkt von 22729 auf 22424 Skills. Arbeitszeugnisgenerator: 41 auf 5; AGB-Prüfung: 304 auf 273; Familienrecht: 143 auf 107; Erbrecht: 86 auf 31; Großkanzlei M&A: 236 auf 229; Preußisches Allgemeines Landrecht: 209 auf 69. Zusammenhängende Aufgaben haben sprechende Namen; benötigte Detailprüfungen bleiben bedarfsgeladen erreichbar.
+- Alle sechs Bereiche erhalten individuell überarbeitete Werkstatt- und Schnellstart-Prompts. Vorhandene Unterlagen und der konkrete Auftrag bestimmen den Einstieg. Entwurf, Gegenrechnung, Rechtsbehelf und bloße Textkorrektur werden nicht durch ein einheitliches Standardprodukt ersetzt.
+- Arbeitszeugnisse unterscheiden Zeugnisart, tatsächliche Tätigkeit, belegte Bewertung, freiwilligen Abschluss, Berichtigung und Erteilungsform. Die Grenzen des BAG-Beschlusses 8 AZB 25/25 vom 7. Mai 2026 und des Teilurteils 2 AZR 96/24 (B) sind dokumentiert. Leistungsformeln bilden keine automatische Einzelwort-Notenskala.
+- Familienrechtliche Rechnungen bleiben monats- und belegbezogen; Versorgungsausgleich trennt Ehezeit, Trägerauskunft, Teilungsform, Zielversorgung und Rechtsbehelf. Im Erbrecht bleiben Erbfolge, Pflichtteil, Ergänzung, Auskunft, Nachlassabwicklung, Steuerfragen und Verfahren eigenständig bearbeitbar.
+- AGB-Aufgaben trennen Kontrollmaßstab, Klauselausfall, Haftungsarchitektur, Rechtswahl, Schiedsvereinbarung und tatsächliche Zustimmung zu Vertragsänderungen. Im Unternehmenskauf werden Bankzustimmungen nicht mehr mit Organbeschlüssen verwechselt; ein Sanierungsgewinn führt nicht ohne entsprechenden Auftrag zu einem Auskunftsantrag.
+- Historische Rechtsaufgaben trennen Textzeugen, Geltungszeit und heutige Anschlussfragen. Bekannte Fehler bei Titelzuordnung, Volljährigkeitsgrenze und historischen Statusregeln wurden auch in den übernommenen Referenztexten korrigiert. Nicht verifizierte Altangaben bleiben ausdrücklich als prüfbedürftig bezeichnet.
+- Fehlende Hauptüberschriften und unklare Anfänge wurden gezielt ergänzt. Über tausend interne Aufrufe mit doppelt vorangestelltem Plugin-Namen führen nun auf das tatsächlich vorhandene Ziel. Das Umstellungsregister dokumentiert geänderte Namen, ohne technische Weiterleitungen vorzutäuschen.
+- Neue Regressionen prüfen Umstellungsziele, erreichbare Vertiefungen, Aufrufnamen, leere Altordner, fachliche Ausgabezuordnung sowie die Fehlerweitergabe der offiziellen Manifestprüfung. Verschachtelte Pluginquellen werden vollständig berücksichtigt. README-Verzeichnisse und Markdown-Downloads sind mit dem neuen Bestand abgeglichen.
+- Die Umlautnormalisierung schützt auch relative Markdown-Dateinamen ohne Verzeichnisanteil. Im Zeugnisgenerator ersetzt die Fachroutenergänzung einen Erstellungsauftrag nicht mehr durch ein Fachvotum; die reduzierte Aufgabenstruktur benötigt keine künstlichen Füllrouten. Die veraltete Erbrechts-Auswahlkarte wurde durch eine vollständige, gezielt ladbare Fachübersicht ersetzt.
+- Prüfungsumfang: Auswahl- und Strukturprüfungen gelten für den gesamten Marketplace; die vertiefte fachliche Überarbeitung betrifft die sechs genannten Bereiche. Quellenstatus und Grenzen sind ausgewiesen. Keine vollständige Neuverifikation sämtlicher Rechtsaussagen und keine Garantie einer bestimmten Antwortzeit oder automatischen Auswahl in jeder Oberfläche. Aktenstücke bleiben unverändert.
+
+---
+
+# v442.0.1 - Klarere Verzeichnisse und verlässliche Downloadwege
+
+- Hauptseite, Plugin-Einstiege und Skill-Detailseiten unterscheiden Installation, Quellbestand, Fachrouter und eigenständige Markdown-Prompts. Die fünf vollständigen Register stehen unmittelbar am Seitenanfang; deutsche und englische Erklärungen führen zum jeweils passenden Dateiformat.
+- Die kuratierte Promptliste wurde mit dem Marketplace abgeglichen: 222 Plugins in 34 Kategorien, alphabetische Einträge und 444 direkte Prompt-Downloads. Die Auswahl bleibt bewusst kleiner als das vollständige Register mit 235 Plugins.
+- Veraltete Skillzahlen und abgeschnittene Zweitlisten in 14 Gerichts-READMEs wurden durch Verweise auf die vollständigen Skill-Verzeichnisse ersetzt. Gerichts-, Insolvenz- und Fachanwaltsübersichten sind geordnet; die doppelte Insolvenzliste führt nun auf eine gemeinsame Fachübersicht.
+- Fehlende Ordner-Einstiege für Recherchematerial, manuelle Funktionstests und die veröffentlichte Fachübersicht wurden ergänzt. Die Schnittstellenanleitung unterscheidet sichtbare Konfiguration von nachgewiesenem Datenweg.
+- Akten-READMEs erklären die drei Downloadformen auch auf Englisch und unterscheiden den Repository-Stand vom veröffentlichten Release. Die Übersicht warnt vor doppelter Auswertung desselben Falls in mehreren Formaten und bezeichnet die Akten korrekt als erzeugtes Übungsmaterial.
+- Die Downloadprüfung erfasst zusätzlich die kuratierte Promptliste und Einstiegshilfen. Regressionstests sichern Kategoriegrößen, Pluginpfade, Sortierung, Aktenformatangaben und Überschriftenanker; mehrfach verlinkte Ankerdateien werden nur einmal eingelesen.
+- Skills, Werkstatt- und Schnellstart-Prompts sowie sämtliche Aktenstücke bleiben inhaltlich unverändert. Aktualisiert wurden Dokumentation, Verzeichnisprüfungen und Release-Versionsangaben.
+
+---
+
+# v442.0.0 - Fachkorrekturen und quellengebundene Prompt-Auswahl
+
+- Gezielte Fachkorrekturen in Arbeits-, Zivil-, Gesellschafts-, Insolvenz-, Steuer-, Straf-, Verwaltungs- und Unionsrecht: unpassende Normen und Entscheidungen entfernt oder ihrem tatsächlichen Anwendungsfall zugeordnet; Tatbestand, Beweisfrage, Frist und Rechtsfolge deutlicher getrennt.
+- Kündigungsform und Vertretung unterscheiden jetzt Originalurkunde, Vollmachtsnachweis, tatsächliche Vertretungsmacht und Klagefrist. BAG 2 AZR 130/25 vom 7. Mai 2026 ist mit seinem begrenzten Aussagegehalt eingeordnet; die Formfiktion nach Paragraf 46h ArbGG und die aktuelle Textform-Sonderregel für Regelaltersgrenzenvereinbarungen sind berücksichtigt.
+- Steuerliche Arbeitswege für Anteilstausch, Sanierungsgewinn, Abschreibung, Forschungszulage und grenzüberschreitenden Onlinehandel wurden anhand amtlicher Normen, Verwaltungsanweisungen und einschlägiger Entscheidungen nachgeschärft. Der unpassende Vorsteueranker V R 20/11 wurde aus den betroffenen Argumentationskernen und der Prompt-Quelle entfernt.
+- Unternehmens- und Insolvenzmodule trennen Beschlusskompetenz, Registervollzug, Wissenszurechnung bei W&I-Versicherungen, Antragspflicht, Forderungsanmeldung, Vorsatzanfechtung und Sanierungsgewinn. Höchstfristen sind keine voraussetzungslosen Wartefristen; streitige Forderungen werden nicht nach Prozesswahrscheinlichkeit gewichtet.
+- Strafrechtliche Bausteine enthalten keine festen Geständnisrabatte oder pauschalen Schadensquoten für eine Einstellung mehr. Ermittlungs- und Abschlussverfügungen verwenden die jeweils tragenden Befugnis-, Schutz- und Verfahrensnormen statt dekorativer Fallzitate.
+- Internationale Datentransfers, Triage, Text- und Data-Mining, Plattformbeschwerden und unionsgerichtliche Verfahren berücksichtigen den geprüften Verfahrensstand und unterscheiden Urteil, Pressemitteilung, anhängiges Rechtsmittel und historische Gesetzesfassung.
+- Die Prompt-Auswahl erfasst die Titel und Beschreibungen sämtlicher Skills eines Plugins, liest vertiefte Ausgangstexte aber weiterhin nur begrenzt. Fachprofile werden nicht mehr durch mehrdeutige Einzelwörter wie Kündigung, Wohnung oder Rente verdrängt. Geprüfte Themenfelder und vollständige Formulierungen bleiben erhalten.
+- Rechtsprechung gelangt nur noch aus ausdrücklich gepflegten Themenprofilen und Plugin-Zuordnungen in automatisch erzeugte Prompt-Anker. Ein bloßes Vorkommen in einem Skilltext genügt nicht. Regressionstests sichern Fachgebietsgrenzen, vollständige Auszüge, Quellenwahl und die Sichtbarkeit später einsortierter Skills.
+- Marketplace-Importprüfung und zusätzliche Prompt-Regressionsprüfungen sind Bestandteil des Release-Ablaufs. Plugin-Versionen, Prompt-Downloads und Navigationsverzeichnisse wurden synchronisiert; der Testaktenbestand bleibt unverändert.
+- Prüfungsumfang: technische Bestandsprüfungen gelten repo-weit. Die juristische Einzelprüfung betrifft die konkret geänderten Fachbausteine und zugehörigen Quellen; dieser Release behauptet keine vollständige juristische Neuprüfung aller 22729 Skills.
+
+---
+
+# v441.0.0 - Auswahlkontext und Fachrouter weiter beschleunigt
+
+- Der installierbare Bestand wurde von 23821 auf 22729 direkte Skills verdichtet. 1092 überlappende Auswahlrouten entfallen; sämtliche fachlichen Vertiefungen bleiben in bedarfsgeladenen Referenzen erhalten.
+- 436 nachweislich doppelte Kern- und Spezialrouten wurden zusammengeführt. Die jeweils zusätzliche Tiefe ist vom sachgleichen Kernskill aus erreichbar, belastet aber nicht mehr die automatische Vorauswahl.
+- 247 HOAI-Module sind nun neun klaren Leistungsphasenroutern zugeordnet. Jede Leistungsphase trennt Auftrag und Schnittstellen, Steuerung und Nachweise sowie Risiko und Output und lädt pro Arbeitsschritt nur die einschlägige Referenz.
+- 130 internationale Kartellrechtsjurisdiktionen, 17 deutsche Datenschutzaufsichten, 36 DBA-Ländermodule und 85 BHO-Norm- und Titelmodule werden über enge Staaten-, Behörden- oder Normrouter erschlossen. Schwellen, Zuständigkeiten und Verfahrensstände bleiben dem quellengeprüften Fachmodul vorbehalten.
+- Die Steuerpraxis lädt Lohnabrechnung, BWA und Sanierungsgewinn nun nach konkreter Fallgruppe. Im Transaktionsplugin wurden 42 Beiratsmodule in vier belastbare Governance-Pfade geordnet, sodass Beiratsthemen nicht mehr die allgemeine M&A-Auswahl dominieren.
+- Die ständig sichtbaren Skill-Beschreibungen wurden von rund 5.45 Millionen auf 3.54 Millionen Zeichen reduziert. Das Thema jedes Skills, sein konkreter Prüffokus und sein Ergebnis bleiben erhalten; repetitive Fachgebiets- und Auswahlfloskeln sind entfallen.
+- Kein installierbares Plugin besitzt mehr als 304 direkte Skills oder rund 48 KB Routingbeschreibungen. Neu erzeugte Routerreferenzen bleiben unter 40 KB, sodass auch die aufgerufene Vertiefung klein bleibt.
+- Laufzeitvalidator und Aktivierungsaudit erzwingen nun 320 Skills und 55 KB Routingtext je Plugin, 23000 Skills und 3.6 Millionen Routingzeichen insgesamt, kompakte eindeutige Beschreibungen sowie das Fortbestehen aller neuen Fachrouter. Alte Serien oder doppelte Spezialrouten führen zum Fehler.
+- Prompt-Erzeugung, Skill-Navigation und Referenzauflösung verstehen das kompakte Beschreibungsformat. Schnellstart und Installationshilfe erklären den direkten Skillaufruf, die Fachrouter und die gestufte Lektüre großer lokaler oder angebundener Ablagen.
+
+---
+
+# v440.0.0 - Plugin-Laufzeit und Dateizugriff beschleunigt
+
+- Der installierbare Bestand wurde von 26461 auf 23821 Skills verdichtet. 2418 kleinteilige Normzugänge aus Kirchenrecht, Insolvenzrecht und Preußischem Allgemeinen Landrecht bleiben vollständig erhalten, liegen nun aber in 92 bedarfsgesteuerten Bereichsdateien mit drei schlanken Zugangsskills. Keine dieser Dateien überschreitet rund 60 KB.
+- Weitere 226 Staaten- und Gebietschecks des Migrationsrechts werden verlustfrei über einen Staaten-Navigator und 17 kleine Bereichsdateien erschlossen. Aktuelle Länder- und Behördeninformationen bleiben dem datierten Quellenabgleich vorbehalten.
+- Das frühere Extrempaket mit 1878 Skills umfasst dadurch noch 127 gezielte Skills. Kein Plugin überschreitet nun 500 Skills; das größte verbleibende Routingfeld liegt bei 389 Skills.
+- 106 umfangreiche Fachmodulkarten wurden aus den Einstiegsskills in lokale Referenzdateien ausgelagert. Der Einstieg wählt zuerst einen Primärskill und öffnet die vollständige Karte nur bei unklarer Zuordnung oder einer echten Schnittstellenfrage.
+- Sieben Skills mit mehr als 500 Zeilen wurden ohne Inhaltsverlust in Kernworkflow und bedarfsgesteuerte Vorlagen-, Diagramm- oder Vertiefungsdateien getrennt. Alle unmittelbar geladenen Skills bleiben nun innerhalb des Laufzeitbudgets.
+- Große lokale Ordner und Microsoft-365-Ablagen werden gestuft erschlossen: Metadaten zuerst, höchstens 20 Treffer in der ersten Sichtung, höchstens fünf tragende Unterlagen und Erweiterung nur für eine konkret benannte Beleglücke. Wiederholtes Öffnen bereits ausgewerteter Dateien wird vermieden.
+- Eine neue Release-Prüfung begrenzt Skillzahl, Beschreibungsumfang, Skilllänge, Paketgröße und Dateizahl je Plugin. Vollständige Fachmodulkataloge im Einstiegsskill führen künftig ebenfalls zu einem harten Fehler.
+- Die Markdown-Sammelpakete enthalten neben jeder `SKILL.md` nun auch deren bedarfsgesteuerte Markdown-Referenzen. Der Paketvalidator gleicht diese Dateien vollständig ab; der Vollprüfungs-Generator löst lokale Referenzlinks relativ zum Ursprungsskill auf und ist durch einen Regressionstest geschützt. Die Prompt-Kürzung bewahrt vollständige Sätze nun auch dann, wenn sie auf Hilfsverben wie „ist“ oder „sind“ enden.
+- Schnellstart, Installationshilfe und Hauptübersicht erklären die Ursachen langsamer Läufe und geben einen direkt verwendbaren Schnellpfad für große Akten vor. Alle Plugin-, Skill- und Asset-Indizes wurden auf den neuen Bestand aktualisiert.
+
+---
+
+# v439.5.1 - Testakten-Hinweise und Release-Prüfung gehärtet
+
+- Alle 323 zentralen Gesamt-PDFs wurden vollständig geprüft. Der verbindliche deutsche und englische Hinweis steht jeweils auf der ersten Seite und im gesamten PDF genau einmal.
+- Sämtliche 324 flachen Akten-ZIPs wurden neu gebaut und mit 8530 Dateien abgeglichen. `README.txt` liegt nicht nur eindeutig auf der Wurzelebene, sondern ist nun verpflichtend der erste ZIP-Eintrag und enthält bytegenau den zweisprachigen Wortlaut.
+- Die drei pluginlokalen Akten-ZIPs und ihre 24 Einzel-PDFs folgen derselben verschärften Prüfung. Jedes Einzel-PDF beginnt mit genau einer eigenen Warnseite.
+- Der neue ModeFuchs-Sonderfall wurde zusätzlich in allen drei Fassungen geprüft: Gesamt-PDF, Akten-ZIP und zehn getrennte Einzel-PDFs. Die bislang fehlende Rubrik ist ergänzt und prüft auch beide Warntexte im Gesamt-PDF.
+- Regressionstests und Release-Validatoren verhindern künftig, dass ein Akten-ZIP den Hinweis erst hinter anderen Dateien einsortiert. Marketplace-Import, Frontmatter, Aktenrubriken, PDF-Prüfung und Release-Bereitschaft sind grün.
+
+---
+
+# v439.5.0 - Cowork-Sonderfall ModeFuchs als Goodie-Testakte
+
+- Der Bestand wächst auf 323 zentrale Akten. Neu ist der Cowork-Sonderfall ModeFuchs: ein bewusst unsortierter Desktop-Übergabeordner eines Inkassounternehmens, gedacht als handliches Goodie zum Ausprobieren der Claude Cowork-Funktion.
+- Anders als in der Hauptakte zahlt der Schuldner hier nicht; der Streit dreht sich um den Zugang elektronischer Rechnungen, die nach seiner Einlassung im Spamfilter hängen blieben. Die Zugangsargumentation über Paragraf 130 und Paragraf 286 Absatz 3 BGB ist im Klageentwurf angelegt, aber bewusst unfertig.
+- Die Akte enthält zehn native Dateien mit absichtlich nichtssagenden Namen: vier vollständige E-Mails als EML mit echten Headern und einem PDF-Rechnungsanhang, zwei Mahnungen als Scans ohne Textebene, eine gescannte Abtretungserklärung, ein Handyfoto des Einlieferungsbelegs, ein rohes Forderungskonto als Excel mit Zinsblatt und einen Klageentwurf als DOCX mit Anlagenverzeichnis K 1 bis K 7 und internem Bearbeitungsvermerk.
+- Die Demoaufgabe für Cowork ist im Akten-README beschrieben: jede Datei sichten und sprechend umbenennen, die in der Klageschrift referenzierten Anlagen als gestempelte PDFs für beA oder eBO versandfertig zusammenstellen und das Forderungskonto gegen den Klageentwurf abgleichen.
+- Die Akte steht als durchsuchbares Gesamt-PDF, flaches ZIP mit nativen Originalformaten und flaches ZIP mit getrennten Einzel-PDFs bereit; alle drei Fassungen tragen den vorgeschriebenen zweisprachigen Hinweis. Hauptübersicht, Testaktenkatalog und das Plugin-README der Forderungsmanagement-Klagewerkstatt verlinken die neue Akte samt Direktdownloads.
+
+---
+
+# v439.4.0 - Fünf Steuerakten und zehn BGB-Alltagsfälle
+
+- Der Bestand wächst auf 322 zentrale Akten. Fünf neue Steuerfälle bilden kleine Betriebe mit wenigen Beschäftigten ab: eine Fahrradwerkstatt als Einzelunternehmen, ein Ingenieurbüro zwischen freiberuflicher Eigenleistung und standardisierten Produkten, eine Heizungsbau-GmbH mit Gesellschafter- und Angehörigensachverhalten, ein Reinigungsbetrieb in der Lohnprüfung sowie eine vermietete Wohnung in Bologna.
+- Der Italien-Fall trennt die Besteuerungszuweisung nach Artikel 6 DBA-Italien, die deutsche Freistellung nach Artikel 24 Absatz 3, die Progressionsfrage nach Paragraf 32b EStG und die Mitwirkung bei Auslandssachverhalten nach Paragraf 90 Absatz 2 AO. Die Akte enthält bewusst keine pauschale Aussage, ausländische Vermietung müsse in Deutschland nie offengelegt werden.
+- Zehn neue BGB-Alltagsakten behandeln Gartenbau und private Einstandserklärung, Mähroboter mit Cloud-Update, Lastenradfinanzierung, Bankschließfach-AGB, Smartphone-Reparatur mit Datenverlust, Tierkauf, Onlinekurs-Kündigung, Vollmacht für eine Hochzeitslocation, E-Bike-Leihe mit Akkubrand und Ausfallhonorare bei Nachhilfe.
+- Zusammen enthalten die neuen Akten 155 eigenständige Primärstücke: gesetzte DOCX-Unterlagen mit glaubwürdigen Briefköpfen, vollständige E-Mails, Alltagschats und Telefonvermerke, konsistente CSV-Zahlenwerke sowie Bildanlagen. Die Unterlagen verteilen entscheidungserhebliche Tatsachen über mehrere Quellen und verraten keine Lösung.
+- Jede neue Akte steht als durchsuchbares Gesamt-PDF, flaches ZIP mit nativen Originalformaten ohne Markdown und flaches ZIP mit getrennten Einzel-PDFs bereit. Gesamt-PDF und Einzel-PDFs tragen den vorgeschriebenen zweisprachigen Hinweis; das Originalformat-ZIP enthält ihn als `README.txt`.
+- Die zentrale Testaktenübersicht und die READMEs der dreizehn berührten Plugins führen alphabetisch zu den neuen Fällen und zu allen drei Downloadfassungen. Der reproduzierbare Aufbau ist in einem eigenen Bauskript festgehalten.
+
+---
+
+# v439.3.0 - Fünf prioritäre Schulungsakten für bislang unversorgte Plugins
+
+- Der Testaktenbestand wächst auf 307 zentrale Akten. Fünf bisher nicht mit einer eigenen Akte versorgte Plugins erhalten je einen vollständigen, fachlich eigenständigen Schulungsfall: Apothekenrecht, Krankenhausrecht, europäisches Prozessrecht, gesellschaftsrechtliche Treuepflicht und Berufsrecht der Wirtschaftsprüfer.
+- Die neuen Akten enthalten zusammen 61 Primärstücke in lebensnahen Originalformaten: 31 gesetzte DOCX-Dokumente, zehn vollständige E-Mails, fünf Chat- oder Textauszüge, zehn CSV-Zahlenwerke und fünf Bildanlagen. Namen, Daten, Beträge, Aktenzeichen und Kommunikationsverläufe sind innerhalb jeder Akte durchgehend abgestimmt.
+- Die Apothekenakte verbindet elektronisches Rezept, Dosierungsfrage, Kühlkettenaufzeichnungen, Großhandelsfreigabe, Patientenberatung und eine angekündigte Retaxation. Die Krankenhausakte bildet eine MD-Prüfung der intensivmedizinischen Komplexbehandlung mit SAPS-II-/TISS-Rohwerten, Dokumentationslücken und Aufrechnung ab.
+- Die unionsgerichtliche Akte führt von der Zustellung einer Beihilfeentscheidung über Rückforderungsberechnung und Fristenkontrolle bis zur e-Curia-Einreichung, Anlagenvertraulichkeit und gerichtlichen Nachbesserung. Die Gesellschaftsakte verbindet Kapitalerhöhung, Bezugsangebot, Minderheitsverwässerung, Related-Party-Vertrag, Bankauflage, Registervollzug und Eilrechtsschutz.
+- Die Wirtschaftsprüferakte enthält Prüfungsauftrag, Unabhängigkeitsabfrage, Prüfungsausschussprotokoll, Netzwerkhonorare, Zugriffs- und Änderungshistorie sowie eine APAS-Inspektion. Sie trennt zeitnahen Aktenbestand, spätere Ergänzungen und streitige Feststellungen quellenklar.
+- Für jede Akte wurden ein durchsuchbares Gesamt-PDF, ein flaches ZIP mit Originalformaten ohne Markdown und ein flaches ZIP mit getrennten Einzel-PDFs vorbereitet. Gesamt-PDF und Einzel-PDFs tragen den vorgeschriebenen zweisprachigen Hinweis; jedes Originalformat-ZIP enthält ihn als `README.txt`.
+- Ein Fehler in der Briefkopferkennung ist behoben: Bereits vorhandene, tabellenbasierte Kopfzeilen werden nun erkannt und nicht mehr durch einen zweiten Kopf überlagert. Der reproduzierbare Aktenaufbau ist in einem eigenen Bauskript festgehalten.
+- Hauptübersicht, fünf Plugin-READMEs, Testaktenkatalog, Skill-Verzeichnis und Downloadindex weisen die neuen Fälle alphabetisch und mit allen drei Downloadwegen aus.
+
+---
+
+# v439.2.2 - Zweisprachiger Pflicht-Hinweis in allen Testakten-Artefakten
+
+- Sämtliche auslieferbaren Gesamt-PDFs beginnen nun mit einem zweisprachigen Hinweis: Die Testakte wurde mit KI generiert, ist ein Experiment und wird auf eigene Verantwortung und Gefahr benutzt. Der Hinweis steht pro Gesamt-PDF genau einmal.
+- Alle 7656 Dokumente in den 303 Einzel-PDF-ZIPs erhalten denselben Hinweis auf einer eigenen ersten A4-Seite. Die ursprünglichen Aktenstücke bleiben davon getrennt und werden weder zusammengezogen noch inhaltlich überschrieben.
+- Jedes der 303 flachen ZIPs mit Originalformaten enthält eine UTF-8-kodierte `README.txt` mit dem verbindlichen deutschen und englischen Wortlaut. Markdown-Dateien und Unterordner bleiben weiterhin ausgeschlossen.
+- Die drei pluginlokalen Testakten folgen denselben Regeln. Ältere verschachtelte Gesamt-PDFs und Bestands-PDFs ohne rekonstruierbare Quelldateien werden idempotent ergänzt, ohne den vorhandenen Akteninhalt zu verändern.
+- Builder und Validatoren erzwingen Wortlaut, erste Seite und Einmaligkeit für Gesamt-PDFs sowie jedes Einzel-PDF; die ZIP-Prüfungen verlangen die richtige `README.txt`. Die Regel ist dauerhaft in `AGENTS.md`, dem Repository-Leitfaden und dem Testakten-Qualitätsstandard verankert.
+- Der vollständige lokale Neubau bestätigt 324 Gesamt-PDFs, 303 Originalformat-ZIPs, 303 Einzel-PDF-ZIPs und 7656 darin enthaltene PDFs. Alle Archive bleiben flach und reproduzierbar.
+
+---
+
+# v439.2.1 - Vollständige README-Navigation und sortierte Kataloge
+
+- Das Haupt-README enthält nun einen vollständigen, alphabetisch sortierten Katalog aller 235 installierbaren Plugins. Auch die 26 Plugins in den Sammelordnern für Gerichts- und Insolvenzpraxis erscheinen einzeln mit ihrem tatsächlichen Repository-Pfad.
+- Die Direktnavigation führt getrennt zu allen Plugins, 26461 Skills, 235 Werkstatt-Prompts, 235 Schnellstart-Prompts und 302 zentralen Testakten. Die Werkstatt- und Schnellstart-Übersicht ist in zwei eigenständige A-Z-Listen mit Repository-Ansicht und echtem Markdown-Direktdownload aufgeteilt.
+- `SKILLS.md`, `skills-index/README.md` und `ASSET_INDEX.md` sind unabhängig von der Manifestreihenfolge alphabetisch gruppiert und mit Buchstabensprüngen versehen. Jede der 235 Skill-Detailseiten und jede Plugin-README führt vollständig und sortiert zu den vorhandenen Skills.
+- Alle pluginbezogenen Skill-Tabellen bieten neben dem Öffnen der `SKILL.md` nun einen unmittelbaren Markdown-Download. Der 30-Sekunden-Start jeder Plugin-README verlinkt direkt auf die passende Skill-Detailseite und verwendet einen sprachlich belastbaren Startsatz.
+- Die Testakten-Übersicht erklärt die drei angebotenen Fassungen und den schnellsten Zugangsweg. Zusätzliche Navigationsleisten wurden in zuvor isolierten Dokumentations-, Prüf- und Vorlagen-READMEs ergänzt; fünf Plugin-READMEs ohne sichtbare Hauptüberschrift wurden berichtigt.
+- Sichtbare Beschreibungen verwenden echte Umlaute, während Slugs, Dateinamen, Code und Downloadziele unverändert bleiben. Wiederholte Warnhinweise im Haupt-README wurden gestrafft und die wichtigsten Nutzungspfade an den Anfang gestellt.
+- Neue Vollständigkeitsprüfungen gleichen Plugin-, Skill-, Prompt- und Testaktenlisten einschließlich Reihenfolge gegen den tatsächlichen Bestand ab. Der Linkaudit prüft alle README-Hauptüberschriften, lokalen Ziele, Anker und Markdown-Direktdownloads.
+
+---
+
+# v439.2.0 - Verbleibende Testakten mit lebensnahen Primärstücken ausgebaut
+
+- Die noch offene Ausbaurunde ist abgeschlossen: 26 neue Primärstücke ergänzen 21 fachlich sehr unterschiedliche Akten aus Medizin-, Beamten-, Bereicherungs-, Digital-, Sport-, Gesellschafts-, Insolvenz-, Presse-, Renten-, Robotik-, Straf- und Zivilprozessrecht.
+- Hinzugekommen sind dreizehn vollständige E-Mail-Dateien, vier Chat- und SMS-Exporte, vier konsistente CSV-Zahlenwerke sowie fünf als Kanzlei- oder Behördenstücke gesetzte DOCX-Dokumente. Die Verteilung folgt dem Aktenumfang: kleine Akten erhielten drei, mittlere zwei und große Akten ein zusätzliches Stück.
+- Jedes neue Dokument bleibt bewusst fragmentarisch und lebensnah. Es ergänzt konkrete Tatsachen, Namen, Daten, Beträge, Vorgänge und Kommunikationsspuren, ohne rechtliche Bewertung, Lösungshinweis oder Arbeitsauftrag vorwegzunehmen.
+- Die READMEs der 21 Akten wurden um ihre neuen Bestandteile ergänzt. Zwei ältere Verweise auf bereits konvertierte Telefonvermerke wurden von Markdown auf DOCX berichtigt; die Aktenübersichten stimmen damit wieder mit den tatsächlich angebotenen Dateien überein.
+- Sämtliche 21 ausgebauten Gesamt-PDFs wurden aus den aktuellen Originaldateien neu aufgebaut und visuell auf Lesbarkeit, Seitenumbrüche, Umlaute, Tabellenfortsetzungen und vollständige E-Mail-Köpfe geprüft.
+- Ein vollständiger Veröffentlichungslauf hat zusätzlich 74 künstliche Nachrichtenkennungen und 26 zu knappe Bestands-E-Mails sichtbar gemacht. Die Kennungen verwenden nun fallpassende Absenderdomänen; jede betroffene Nachricht wurde mit konkreten Vorgängen, Daten, Beträgen, Anlagen oder Verfahrensbezügen ergänzt. Dadurch wurden 24 weitere Gesamt-PDFs neu aufgebaut.
+- Die Arbeitsdateien- und Einzel-PDF-Archive wurden für alle 303 Akten neu abgeglichen. Beide Archivarten bleiben flach; das Arbeitsdateien-Archiv enthält keine Markdown-Unterlagen.
+- 22 abgeleitete Vollprüfungen wurden reproduzierbar mit ihren aktuellen Fachquellen synchronisiert, damit lokaler Stand und Veröffentlichungsworkflow dieselben Dateien erzeugen.
+
+| Akte | Neu | Konkrete Ergänzung |
+|---|---:|---|
+| Arzthaftung Geburtsschaden Meinhardt | 1 | Einsatzplan des Pflegedienstes mit SPZ-Begleitung und Eigenanteil |
+| Beamtenrecht Richterlaufbahn Mondsee | 1 | Handschriftlicher Gesprächszettel nach dem gerichtlichen Erörterungstermin |
+| Bereicherung Doppelverkauf Oldtimer | 1 | Kontoauszug mit vier zeitlich zugeordneten Sonderbewegungen |
+| Barrierefreiheit Onlineshop Tannenkamp | 1 | Interne Weiterleitung dreier konkreter Kundenkontakte zu Checkout und Screenreader |
+| Dopingverfahren Uvalkanat | 1 | Zeitnaher Chat zu Einnahme, Charge, Dose und Trainingskontrolle |
+| Vertragswerkstatt Volkenrath Energie | 1 | Notariatsmail zu Ausweisen, Fassungsstand, Zugang und Signing-Ablauf |
+| Digitalplattform Körnerstrom | 1 | Interne Nachricht zur Moderationswarteschlange, Besetzung und Laufzeitberechnung |
+| Forschungszulage Sensorik | 1 | Laborjournal-Rohdaten mit fünf Messreihen und Fortsetzungsentscheidungen |
+| Fortbestehensprognose Paragrafix | 2 | Unterlagenabgleich der Steuerberaterin und Vertriebsstand zu Jahresvorauszahlungen |
+| Gesellschaftsrecht Legal English | 1 | Mandantenmail zu Originalen, Cap Table und Anreise zur Beurkundung |
+| Großbankrott und Zeugenstreit | 1 | Standortmail zu Frachtmappen, Umbuchung und Palettenlisten |
+| Insolvenzanfechtung Kiezflitzer | 1 | Buchhaltungsmail zu einer zurückgegebenen Leasinglastschrift |
+| Insolvenzanfechtung Finanzamt Augsburg | 1 | Buchhaltungsmail zur ersten zurückgegebenen Vergleichsrate |
+| Verdachtsberichterstattung Köln | 2 | Telefonvermerk zur Verteidigerstellungnahme und Redaktionschat zur Bildauswahl |
+| Fremdrente Russlanddeutscher Bielefeld | 2 | Übersetzerinnen-Rückfrage zum Arbeitsbuch und Telefonvermerk zu Originalunterlagen |
+| Versorgungswerk Befreiung Freiburg | 2 | Personalmail zur Stellenbeschreibung und Chat zu Planfreigaben |
+| Robotikrecht Roboterflotte München | 1 | Servicemail zu offenen Fernzugriffssitzungen |
+| Strafzumessung Bankert Frankfurt | 1 | Telefonvermerk zum Bestätigungsschreiben über einen Zahlungseingang |
+| Tabellenreview Fortbestehensprognose | 1 | Zeitgestempelter Rohabzug aus sechs geprüften Modellzellen |
+| Verbraucherinsolvenz Reimers | 2 | Nachricht zu wiedergefundenen Unterlagen und SMS-Verlauf zur Drittmittelzusage |
+| Zivilprozess Werkvertragsstreit Rosenheim | 1 | Elektronischer Zustellnachweis mit Übermittlungskennung und Originaldateiname |
+
+---
+
+# v439.1.0 - Nachrunde Testakten: 22 weitere Aktenstücke in vierzehn Akten
+
+- Aus dem in v437.0.0 offen gebliebenen Block sind vierzehn Akten nachgezogen: AML-Immobilienmandat Amrum, Anfechtungsfall Erbenstraße, Kündigungsdrama Körber-Werk, Betriebsprüfung Marquardt, Unterhalt und Zugewinn Bad Nauheim, HOAI-Kita Mühlenhof, Bürgerentscheid Morgenfurt, Hilfsmittelstreit PKV und Beihilfe, SaaS-Lizenzstreit Codeforst, StaRUG-Aufhebung Düsseldorf, Stufenklage Hamburg, KI-Songstreit Auerbach, Wahlkampfrecht Morgenstadt und Werkmangel Saalbau Rosenheim.
+- 22 neue Primärstücke in derselben Machart wie die große Ausbau-Runde: Telefonvermerke, Behörden- und Gerichtszwischennachrichten, E-Mail-Wechsel im Alltagston, Zahlungs- und Terminlisten. Ausschließlich Tatsachen, keine Bewertung, keine Prüfungshinweise; Namen, Daten und Beträge aus dem jeweiligen Bestand.
+- Markdown-Stücke in DOCX mit Hausformat konvertiert, Briefköpfe nach Absenderklasse gesetzt, Gesamt-PDFs der vierzehn Akten neu gebaut.
+- Validatoren grün: Dokumentqualität 1029 formale Dokumente und 7620 Exportdateien, CSV-Prüfung 570 Tabellen, Eval 302 All-Pass. Versions-Bump auf v439.1.0.
+- Weiterhin offen: 21 Akten des Blocks konnten wegen eines API-Sitzungslimits nicht mehr bearbeitet werden und bleiben für die nächste Runde vorgemerkt.
+
+---
+
+# v439.0.1 - Hilfsprompts strikt von Plugin-Installationen getrennt
+
+- Werkstatt- und Schnellstart-Prompts bleiben nun ausschließlich direkte Markdown-Downloads. Der Release-Bau schließt beide Dateitypen aus allen 235 installierbaren Plugin-ZIPs aus, damit sie beim Plugin-Import weder mit hochgeladen noch als zusätzlicher Plugin-Inhalt bereitgestellt werden.
+- Auch die Skill-Markdown-Pakete enthalten nur noch das jeweilige Plugin-README und echte `SKILL.md`-Dateien. Die Hilfsprompts werden nicht mehr mittelbar über ein ZIP ausgeliefert; ihre 470 direkten Downloadpfade im Repository bleiben unverändert verfügbar. Ein nicht mehr verwendeter Bundle-Stummel wurde entfernt.
+- Der ZIP-Validator weist Werkstatt- oder Schnellstart-Dateien in installierbaren Paketen jetzt hart zurück. Eine zusätzliche Endkontrolle öffnet sämtliche Plugin- und Skill-ZIPs einschließlich des verschachtelten Sammelarchivs und prüft zugleich, dass für jedes Plugin beide direkten Markdown-Dateien vorhanden sind.
+- Der vollständige lokale Nachbau bestätigt 235 saubere Plugin-ZIPs und 235 saubere Skill-Pakete. Marketplace-Struktur, Schnellstart-Nutzbarkeit, Frontmatter, Navigation und Release-Downloads werden unverändert vor jeder Veröffentlichung geprüft.
+
+---
+
+# v439.0.0 - Schnellstarts ohne Anlaufverlust
+
+- Alle 235 Schnellstart-Prompts unterscheiden jetzt vier reale Eingangslagen: vorhandene Dateien, konkreter Dokumentauftrag, bloße Aktivierung und Folgewunsch. Dateien werden zuerst gelesen, ein verlangtes Arbeitsprodukt beginnt ohne vorgeschaltetes Lagebild und Folgewünsche setzen auf Tatsachen, Berechnungen und Quellen des bisherigen Stands auf.
+- Bei bloßer Aktivierung wird die Fachroute aus Dateinamen und Inhalt bestimmt, statt nach dem Auftrag zu fragen. Ohne verwertbares Material ist genau eine gebündelte Rückfrage vorgesehen; große Ordner liefern früh einen Teilstand und nennen ungelesene oder unlesbare Dateien.
+- Der fachliche Direktstart wurde auf vier Schritte verdichtet: Leitfrage, Kernprüfung, Beleg und Engpass sowie erstes Arbeitsprodukt. Jeder Prompt benennt sein gebietstypisches Erstprodukt, seine Kernfelder, die stärkste Gegenposition, Beweis- oder Nachweislast, Stop-Punkt und Vertiefungsweg.
+- Die frühere harte Kürzung am Byte-Limit ist entfernt. Schnellstarts werden nur noch an vollständigen Abschnitten verdichtet und bleiben unter 7500 Bytes; abgeschnittene Klageanträge, Normanker und Satzfragmente lösen nun einen Fehler aus, statt eingecheckt zu werden.
+- Die elf handkuratierten Schnellstarts behalten ihre eigenständigen Fachrouten, folgen aber derselben Dateien-zuerst-, Teilstand-, Rückfragen- und Fortsetzungslogik. Ihre Normalisierung ist wiederholbar und fügt weder Abschnitte noch Leerzeilen doppelt ein.
+- Jede der 235 Plugin-READMEs enthält nun unmittelbar am Anfang einen fachbezogenen 30-Sekunden-Start. Er trennt installiertes Plugin, Schnellstart ohne Installation und vertiefte Werkstatt, nennt das konkrete Erstprodukt und führt direkt zu Plugin-ZIP, Markdown-Downloads und zugeordneten Testakten.
+- Haupt-README, Schnellstart und einfache Installationshilfe verwenden nur noch drei widerspruchsfreie Wege: Einzel-ZIP, organisationsweiter Marketplace oder Markdown ohne Installation. Veraltete Versionsvoraussetzungen, doppelte Schnellstartabschnitte und statische Auswahllisten wurden entfernt.
+- Der Organisationsweg entspricht dem aktuellen Produktstand: GitHub-Synchronisierung erfolgt aus einem privaten oder internen Spiegelrepository, während der manuelle Marketplace einzelne Plugin-ZIPs mit höchstens 50 MB und höchstens 100 Plugins aufnimmt. Das öffentliche Repository bleibt direkter Quellstand für Einzel-ZIPs, Markdown-Downloads und den Kommandozeilen-Client; automatische Organisations-Updates setzen einen gemergten Pull Request mit Versionsanhebung voraus.
+- Der arbeitsrechtliche Beweislastmerker ordnet den Zugang einer Arbeitgeberkündigung nun zutreffend dem Arbeitgeber zu und verankert BAG, Urteil vom 30.01.2025 - 2 AZR 68/24, ohne aus einem Einlieferungsbeleg allein einen Anscheinsbeweis abzuleiten.
+- Ein neuer Nutzbarkeitsaudit prüft alle Schnellstarts auf Dateieinstieg, Direktproduktion, begrenzte Rückfrage, große Ordner, Teilstand, Fortsetzung ohne Neustart, interne Fachroute, Stop-Grenze, vollständige Dezimalgliederung und sauberes Dateiende. Das nachgelagerte Verfeinerungsskript erkennt die neue Struktur und erzeugt keinen doppelten Schnellmodus mehr.
+- Die vollständige Erzeugungskette ist bytegenau wiederholbar. Navigation, Markdown-Direktdownloads, Marketplace-Import, Pluginstruktur, Frontmatter, Prompt-Routing und Rechtsstandssperren werden vor dem Release gemeinsam geprüft.
+
+---
+
+# v438.0.0 - Belastbarere Skills, realistischere Akten und schärfere Qualitätsgates
+
+- Sämtliche 235 Werkstatt-Prompts wurden fachlich vertieft und ausgebaut. Jeder Prompt führt jetzt materialnah vom stillen Dateieingang über Fallkarte, Normenanker, Tatbestandsmerkmale, Beweislast, Gegenposition und Quellenstatus zu einem unmittelbar nutzbaren Arbeitsprodukt. Zwölf aus den konkreten Fachskills gewonnene Praxisrouten bilden je Plugin unterschiedliche typische Vorgänge ab, vom römischen Quellenbefund und kirchlichen Rekurs bis zu Sozialleistungsakte, Transaktionsvollzug, Hauptversammlung und gerichtlicher Entscheidung.
+- Die Werkstatt-Prompts sind gegenüber v437.0.0 ausnahmslos gewachsen; der Zuwachs beträgt mindestens 34,1 Prozent, im Median 61,1 Prozent und im Mittel 61,5 Prozent. Sie liegen nun zwischen 23565 und 44906 Bytes. Der zulässige Korridor wurde auf 20 bis 48 KiB erweitert, damit die Prompts fachliche Tiefe, realistische Übergaben, Norm- und Entscheidungsbezüge sowie mehrere Outputvarianten aufnehmen können, ohne die kompakten Schnellstarts aufzublähen.
+- Die Prompt-Erzeugung trennt Fundstelle und Aussage eines Rechtsprechungsankers jetzt sauber, bewahrt Aktenzeichen sowie Absatz-, Satz- und Artikelnummern vollständig und normalisiert Umlaute auch in fachlichen Schrägstrichbegriffen, ohne Dateipfade anzutasten. Ein eigener Profilaudit verlangt zwölf unterschiedliche Praxisrouten, dezimale Gliederung und den Wegfall universeller Füllrouten; der Hygieneaudit prüft alle 470 Prompt-Dateien auf Quellenrauschen, Satzfragmente, abgeschnittene Normanker, unausgeglichene Klammern und unechte Umlaute. Wiederholte Erzeugungsläufe sind ohne Folgedifferenz.
+- Der Skill zur Linkhaftung wurde auf DDG, Verordnung (EU) 2022/2065 und UrhG umgestellt und trennt Linksetzer, Zu-eigen-Machen und Vermittlungsdienst. Die Entscheidungen C-466/12, C-160/15 und I ZR 74/14 sind ihrem jeweiligen Aussagekern zugeordnet. Der Anker VIII ZR 329/99 beschreibt nun zutreffend die Heilung eines formnichtigen Anteilskaufvertrags durch den späteren notariellen Vollzug.
+- Neun auffällige Skills wurden fachlich neu aufgebaut. Die bislang leere zivilrechtliche Rechtsmittelbelehrung erzeugt nun einen vollständigen Entscheidungsbaustein; das fehlgeroutete Fluggastrechte-Forderungsschreiben bearbeitet wieder den Anspruch nach der Fluggastrechteverordnung. Die drei Fachanwaltsblicke für Arbeits-, Familien- sowie Miet- und Wohnungseigentumsrecht arbeiten jetzt mit eigener Fristen-, Beweislast-, Verfahrens- und Produktlogik.
+- Die vier didaktischen Lesefreude-Skills für römisches Recht, kanonisches Recht, Preußisches Allgemeines Landrecht und Rechtstheorie wurden von einer gemeinsamen Kurzschablone auf materienspezifische Quellen-, Epochen-, Zuständigkeits- und Argumentationsraster umgestellt. Historische Geltung, heutige Anschlussfrage und Quellenstatus bleiben sichtbar getrennt.
+- Die neuen Entscheidungsanker wurden gegen amtliche Normtexte und gerichtliche Primärquellen geprüft. Die Rechtsmittelbelehrung folgt ZPO Paragraf 232 einschließlich Anwaltsprozess-Ausnahme; die Fluggastrechteprüfung bildet die EuGH-Linien Wallentin-Hermann und van der Lans ab; der WEG-Anker zu V ZR 128/23 benennt Rücklagenzuführung, Bestimmtheit und die Beseitigung sachlich nicht gerechtfertigter Privilegierungen präzise.
+- Der E-Mail-Bestand der Testakten wurde bereinigt: künstlich wirkende Adressen und Nachrichtenkennungen sind durch aktenplausible Absenderdomänen ersetzt. Sämtliche zuvor unter 200 Zeichen langen E-Mails wurden zu realistischen Primärstücken mit Aktenzeichen, Vorgang, Anlagen, Zahlungszuordnung, Termin- oder Rückrufangaben und konkreten offenen Punkten ausgebaut, ohne rechtliche Lösungshinweise einzufügen.
+- Die Berliner KDV-Akte enthält statt zweier Textstummel nun einen vollständigen persönlichen Antrag und eine anwaltliche Sachstandsanfrage mit Briefkopf, Empfänger, Aktenzeichen, Zustellverlauf, Anlagen und Ansprechpartner. Eine widersprüchliche Ortsangabe und ein unpassender Nachrichtenempfänger wurden korrigiert; die Dokumente und das neu gebaute 35-seitige Gesamt-PDF wurden visuell geprüft.
+- Die Qualitätsgates verhindern Rückfälle: Skills benötigen neben gültigem Frontmatter nun mindestens 300 Zeichen Arbeitsanweisung; lokale virtuelle Umgebungen werden beim Repository-Scan ausgelassen; Akten-E-Mails brauchen vollständige Kopfzeilen, plausible Domains, korrektes UTF-8 und mindestens 200 Zeichen Inhalt. Versionen, Skillübersichten, Plugin-READMEs und Asset-Index sind auf v438.0.0 synchronisiert.
+
+---
+
+# v437.0.0 - Testakten ausgebaut: 511 fragmentarische Primärstücke in 267 Akten
+
+- Die Testakten waren an vielen Stellen zu glatt und zu dünn: Wo im Anwaltsalltag E-Mail-Wechsel, Telefonvermerke, Kontoauszüge, Chatverläufe und Zwischennachrichten der Gerichte und Behörden anfallen, lag in den Akten oft nur das förmliche Kernstück. Diese Runde ergänzt 511 neue Primär-Aktenstücke in 267 der 302 Akten.
+- Verteilung der Gattungen: 214 E-Mails mit vollständigen Kopfzeilen und Alltagston, 166 Schriftstücke (Telefon- und Aktenvermerke, Mahnungen, Rechnungen, Zustellnachweise, Zwischennachrichten, Abschriften handschriftlicher Notizzettel, Protokollfragmente), 85 Tabellen mit Zahlenwerk (Kontoauszüge, Zugriffs- und Eventlogs, Fristenlisten, Messreihen) und 46 Chat- und SMS-Exporte.
+- Der Ausbau folgt dem Aktenumfang: dünne Akten unter fünfzehn Stücken erhielten drei neue Belege, mittlere zwei, große eines. Neue Stücke sind absichtlich fragmentarisch: unvollständige Verläufe, abgeschnittene Screenshots, widersprüchliche Detailangaben, Zahlenlücken, alltagssprachliche Verkürzungen. Sie enthalten ausschließlich Tatsachen und Stimmen der Beteiligten.
+- Keine Lösungshinweise: Kein neues Stück enthält rechtliche Bewertung, Subsumtion, Arbeitsauftrag oder Prüfungshinweise. Namen, Daten, Beträge und Aktenzeichen sind aus dem jeweiligen Bestand übernommen; neue Nebenpersonen und Nebenschauplätze bleiben widerspruchsfrei zum vorhandenen Material.
+- Alle neuen Markdown-Stücke wurden in DOCX mit Hausformat konvertiert (Times New Roman 11 pt, A4, dezimale Gliederung), Briefköpfe nach Absenderklasse gesetzt und die Gesamt-PDFs der betroffenen Akten neu gebaut. Akten-READMEs führen jedes neue Stück in ihrer Dokumentliste.
+- Validatoren grün: Eval 302 All-Pass, Dokumentqualität (1024 formale Dokumente, 7580 Exportdateien), CSV-Prüfung (567 Tabellen), Keine-Markdown-Aktenstücke, Gesamt-PDF, Struktur, Navigation, Marketplace. Zwei Umlaut-Ersatzschreibungen und eine Spaltenverschiebung in einem Tachographenauszug wurden korrigiert. Versions-Bump auf v437.0.0.
+- Offen für die nächste Runde: 35 Akten aus dem letzten Bearbeitungsblock haben noch keine neuen Stücke erhalten.
+
+---
+
+# v436.1.0 - Themenprofile gesplittet: kein Sammelprofil mehr über acht Plugins
+
+- Die Werkstatt- und Schnellstart-Prompts wurden bisher aus 75 Themenprofilen erzeugt, von denen acht als Sammelbecken dienten: verwaltung bediente 37 Plugins, bgb 16, gesellschaft 14, straf 13, methodik 12, zivilprozess, international und insolvenz je 9. Plugins wie Beamtenrecht, Versammlungsrecht und Tierschutzrecht bekamen denselben fachlichen Anker.
+- Vierzehn neue Subprofile spalten die Sammelbecken auf: Berufsrecht der freien Berufe, Umwelt- und Planungsrecht, Bildungs- und Wissenschaftsrecht, öffentlicher Dienst mit Sicherheits- und Migrationsrecht, Regulierungsverwaltung, Staatsorganisation und Normsetzung, Verbraucherrecht, Vertragsgestaltung, M&A und Finanzierung, Strafjustiz, juristische Ausbildung, zivilrichterliche Arbeit, Transport- und Außenhandelsrecht sowie Sanierung und StaRUG. Jedes Subprofil bringt eigene Rolle, Normanker, Stationen, Prüfraster, Stop-Kriterien und Dokumentskelette mit; Leitentscheidungen werden nur vom Elternprofil übernommen oder um allgemein bekannte Klassiker ergänzt (Brokdorf, Beamtenstreik, numerus clausus, prüfungsspezifischer Bewertungsspielraum).
+- Kein Profil bedient mehr als acht Plugins; 79 Plugin-Zuordnungen wurden explizit umgehängt. 224 Werkstatt-Prompts sind dadurch fachlich enger gefasst, die Schnellstarts bleiben unter dem Zeichenlimit; der Anteil geteilter Inhaltszeilen sinkt leicht.
+- Nebenbei behoben: Die Formulierung "im <Profilname>" erzeugte bei Profilnamen ohne Rechts-Endung grammatisch falsche Sätze; der Generator schreibt jetzt durchgehend "im Bereich <Profilname>".
+- Generatorkette und Indizes neu erzeugt. Validatoren grün (Eval 302 All-Pass, Struktur, Navigation, Marketplace, Sperrmuster). Versions-Bump auf v436.1.0.
+
+---
+
+# v436.0.0 - Alle Mandatsnotizen ersetzt, Schablonentexte ausgekämmt
+
+- **Letzte 68 Mandatsnotizen entfernt.** Zusammenfassende Mandatsnotizen und Mandatsaufnahmen verraten in einer Prüfungssituation zu viel. Nach den fünfzehn Akten aus v435.2.0 sind jetzt alle verbliebenen 68 Notizen aus 67 Testakten entfernt — von Anfechtung Leipzig über die zwölf Strafrechtsakten, die Renten- und Statusfeststellungsakten bis zu den Sanierungs- und Werkakten. Rubriken, Akten-READMEs, Anlagenindizes, Fristenkalender und Querverweise wurden bereinigt; sechs Rubrik-Prüfpunkte, die auf die Notizen zeigten, prüfen jetzt Primärdokumente.
+- **Fehlende Primärbelege ergänzt.** Vor jeder Löschung wurde geprüft, ob die in der Notiz erwähnten Dokumente wirklich als eigene Stücke vorliegen. Wo sie fehlten, wurden sie ausführlich erzeugt: die notariell beglaubigte Vollmacht der Exportkontrollakte Mannheim (Anlage 01/A), Vollmacht und Vorschussquittung der Anfechtungsakte Leipzig, die Vollmacht der Markenstreitakte (Anlage A-1), Heimvertrag, Pflegegradbescheid, Dezemberabrechnung 2025 und Einkommensteuerbescheid 2024 der Elternunterhaltsakte Aachen, Vertriebenenausweis und Cousinen-E-Mail aus Nowosibirsk der Fremdrentenakte Bielefeld, die Abschrift der Dänemark-Mappe mit Nordbaltic-Lohnzetteln der Witwenrentenakte Lübeck sowie der Auszug der abgegebenen Hausarbeit mit Literaturverzeichnis der Prüfungsrechtsakte Mondsee.
+- **Robotikrecht-Akte Vellbruck neu geschrieben.** Alle 52 Aktenstücke bestanden zu großen Teilen aus wortgleichen Füllsätzen („Die Akte enthält hierzu widersprüchliche Hinweise…"). Jedes Stück hat jetzt fallspezifische Kernaussage, Einzelpunkte, Tatsachenstand, Detailnotizen und Rückfragen — verankert an den Fakten der Akte: Kollision der Einheit LM-104 am 27.05.2026 in Halle 12, Schutzfeldreduzierungen über das Konto remote-admin, Researcher-Bericht VR-884, Patch 2.7.1, Marktüberwachungsfrist 19.06.2026, AtlasCare-Pilot in der Ludgerus-Klinik, Deckungsvorbehalt der Donau-Isar Industrieversicherung.
+- **Langgutachten fallspezifisch.** Die „Langgutachten und Entscheidungsvorlage"- und „Vollgutachten"-Stücke in neun Akten (Holzofen, Smart-Kühlschrank, Batteriespeicher, HGB Altona, Kernfusion Starnberger See, Datenschutz Rhein-Main, Lobbyregister Frankfurt, Private Equity Heidelberg, Verbraucherinsolvenz Reimers) waren fast reine Methodenschablonen; alle wurden mit den konkreten Beteiligten, Beträgen, Daten und Normanknüpfungen der jeweiligen Akte neu gefasst. In den zwölf Strafrechtsakten wurden die geteilten Methodenabsätze der Stücke 03, 07 und 08 fallspezifisch umgeschrieben (84 Absätze).
+- **Kohärenz-Kamm.** Verwaiste Verweise auf gelöschte Notizen in Chronologien, Kalendern und Memos umformuliert; Meta-Formulierung „hier anonymisiert" aus der Aachener Einkommensakte entfernt. Die Duplikatanalyse über alle DOCX findet keinen Absatz mehr, der in fünf oder mehr Akten wortgleich vorkommt.
+- Gesamt-PDFs aller betroffenen Akten neu gebaut. Validatoren grün (Eval 302 All-Pass, Dokumentqualität 53 Akten / 957 formale Dokumente, Struktur, Navigation, Marketplace, CSV, Gesamt-PDF). Versions-Bump auf v436.0.0.
+
+---
+
+# v435.2.0 - Fünfzehn weitere Testakten ohne Mandatsnotiz
+
+- Zusammenfassende Mandatsnotizen verraten in einer Prüfungssituation zu viel: Sie referieren den Sachverhalt, ordnen die Belege vor und nehmen die Bewertung teilweise vorweg. In fünfzehn weiteren Testakten sind sie jetzt durch die Primärbelege ersetzt, die sie bisher nur beschrieben haben.
+- Drei Kaufrechtsakten (Smartwatch Hannover, Pflegebett Nürnberg, Wallbox Essen) hatten nahezu wortgleiche Schablonennotizen, aber keinen Kaufbeleg. Ergänzt wurden Rechnung und Beratungsbogen mit der vereinbarten Beschaffenheit, Kaufvertrag mit den Bedingungen des Cloud-Dienstes sowie Angebot, Rechnung und Abnahmeprotokoll zur Wallbox. Damit liegen Kaufdatum, Beschaffenheitsvereinbarung und Verjährungsbeginn erstmals als Urkunde vor.
+- Zwölf Strafrechtsakten folgten einer gemeinsamen Notizschablone mit einer Zeile konkreter Sofortmaßnahmen. Die dort benannten, aber fehlenden Beweismittel sind jetzt vorhanden: Belehrungs- und Dolmetschervermerk der Nachtvernehmung, Lichtbildmappe zur Verletzungsdokumentation mit Bodycam-Löschfrist, Auskunft der Krankenkasse über gespeicherte eAU-Datensätze, Sicherstellungs- und Auswerteprotokoll zur Dashcam, Providerauskunft zu Rufnummern und SIM-Registrierung, Kontoauszüge des Vereinskontos, Brandursachengutachten, rechtsmedizinischer Befundbericht, Auswertung der Geldautomatenaufzeichnungen und Auswertung der Nachrichtenverläufe aus der Klassengruppe.
+- Die neuen Stücke enthalten Tatsachen, Zeitstempel, Speicherfristen und technische Einschränkungen, aber keine Bewertung und keinen Arbeitsauftrag. Rubriken und READMEs der betroffenen Akten wurden angepasst, die Prüfpunkte auf die neuen Primärbelege umgestellt.
+- Gesamt-PDFs der fünfzehn Akten neu gebaut. Validatoren grün (Eval 302 All-Pass, Dokumentqualität 53 Akten, Struktur, Marketplace). Versions-Bump auf v435.2.0.
+
+---
+
+# v435.1.1 - Formathinweise aus den Aktenstücken entfernt
+
+- Der Release-Lauf zu v435.1.0 scheiterte an der Dokumentqualitätsprüfung: Vier neue Aktenstücke der Freiburger Versorgungswerksakte trugen am Fuß die Zeile „Formathinweis: Dieses Aktenstück wird in Times New Roman, 11 pt, mit ausschließlich dezimaler Gliederung ausgegeben." Der Prüfer wertet diesen Satz zu Recht als verräterischen Metahinweis: In einem lebensechten Schreiben aus der Akte steht keine Anweisung an den Setzer.
+- Die Zeile wurde aus allen 49 betroffenen DOCX-Aktenstücken entfernt, also auch aus älteren Beständen in Datenschutz-, KI-Recht- und HOAI-Akten. Das Hausformat selbst bleibt unverändert: Times New Roman 11 pt, A4, dezimale Gliederung sind im Dokument gesetzt und müssen nicht im Text behauptet werden.
+- Gesamt-PDFs der neun betroffenen Akten neu gebaut. Dokumentqualität, Eval und die übrigen Validatoren grün. Versions-Bump auf v435.1.1.
+
+---
+
+# v435.1.0 - Gebietsspezifische Prompts, Briefköpfe in den Aktenstücken, erste Akten ohne Mandatsnotiz
+
+- **Werkstatt-Prompts entgenerisiert.** Die grossen Prompts waren zu weiten Teilen austauschbare Hülle: 45 Prozent der Substanzzeilen standen wortgleich in mindestens der Hälfte aller 220 Plugins. Der Generator leitet die Ausgabeformate, die Rückfragenbremse, die Mini-Gerüste, das Argumentationsgerüst, die Arbeitsweise, den Selbstcheck und die Qualitätskontrolle jetzt aus den Profildaten des jeweiligen Rechtsgebiets ab (Prüfraster, Stop-Kriterien, Stationen, Skelette, Beweislast- und Rechtsfolgemerker) und ergänzt gebietstypische Dokumenttypen, Angriffspunkte der Gegenseite und Fristfragen. Der Anteil geteilter Inhaltszeilen sank auf 17 Prozent; gemeinsam bleiben nur Arbeitsmodus, Quellendisziplin, Abbruchkriterien und Formatvorgaben.
+- **Mini-Prompts auf höchstens 7.000 Zeichen und ohne Universaleinstieg.** Der für alle Plugins wortgleiche Vier-Punkte-Einstieg ist durch einen aus dem Prüfraster des Gebiets abgeleiteten Direktstart ersetzt; ebenso Gegenposition, Erwiderung und Abbruchregel. Der Anteil geteilter Inhaltszeilen sank von 19 auf 5 Prozent. Das Generatorlimit liegt bei 7.000 Bytes; die zweiundzwanzig zu langen Dateien wurden gekürzt, die beiden handkuratierten Prompts sprachlich verdichtet. Keine Datei überschreitet mehr 7.000 Zeichen.
+- **Briefköpfe in den Aktenstücken.** Die DOCX-Aktenstücke hatten bisher weder Kopfzeile noch Farbe. Ein neues Modul erkennt den Absender aus dem Dokument (Kanzlei, Einzelanwalt, Gericht, Staatsanwaltschaft, Behörde, Notariat, Versicherungsträger, Sachverständigenbüro, Unternehmen), leitet aus dem Namen eine stabile Hausfarbe aus einer gedeckten Palette ab und setzt Kopfzeile mit Trennlinie sowie Fusszeile mit Seitenzahl. Gerichte und Behörden bleiben nüchtern ohne Farbakzent, der Fliesstext bleibt schwarz in Times New Roman 11 pt. In 1.578 Dokumenten gesetzt; 553 bereits gestaltete Briefköpfe blieben unangetastet.
+- **Erste Akten ohne Mandatsnotiz.** In zwei Testakten sind die zusammenfassenden Mandatsnotizen durch die Primärbelege ersetzt, die sie bisher nur beschrieben haben: in der BGB-AT-Werkstattakte das Plattforminserat, die automatische Eingangsbestätigung, die Quittung des minderjährigen Käufers, der SMS-Verlauf der sorgeberechtigten Mutter und die Auftragsbestätigung des Lieferanten; in der Freiburger Versorgungswerksakte die Anhörung der Rentenversicherung, die Stellungnahme des Mandanten, die Projektliste mit Tätigkeitsanteilen als Datenkern, das Organigramm mit Planfreigaberegelung und der Zustellnachweis zum Widerspruchsbescheid. Beide Mandatsnotizen sind entfernt; die Freiburger enthielt zusätzlich einen Arbeitsauftrag, der die Bearbeitung vorwegnahm.
+- Alle Gesamt-PDFs mit Briefköpfen neu gebaut. Validatoren grün (Eval, Dokumentqualität, CSV, Keine-Markdown, Struktur, Marketplace). Versions-Bump auf v435.1.0.
+
+---
+
+# v435.0.0 - Schärfere Argumentation und lebensnahe Akten
+
+- Jedes der 235 Plugins erhält einen fachgebietsbezogenen juristischen Argumentationskern. Er führt vom begehrten Ergebnis über Norm, Tatbestandsmerkmal, Aktenfundstelle, Beweis und Beweislast zur stärksten Gegenposition und zur versandfähigen Antwort; passende vorhandene Skills werden dabei nach ihrer konkreten Funktion zugeschaltet.
+- Werkstatt- und Schnellstart-Prompts setzen diese Argumentationskette nun unmittelbar um. Vorhandene Unterlagen werden zuerst ausgewertet, Rückfragen auf entscheidungserhebliche Lücken begrenzt und Quellenstatus, Rechtsfolge, Risiko sowie nächster Schritt im Arbeitsprodukt sichtbar gehalten.
+- Neun bislang schwächere Akten aus Handelsvertreterrecht, Hinweisgeberschutz, Cybersicherheit, Hochschul- und Prüfungsrecht, Schulrecht, Kanzleiorganisation, Markenrecht und Insolvenzrecht wurden vertieft. Neue und überarbeitete Originalunterlagen liefern konkrete Parteien, Zeitachsen, Beträge, Aktenzeichen, Belegketten, Zuständigkeiten und bewusst offene Widersprüche, ohne die juristische Lösung vorwegzunehmen.
+- Handelsvertretervertrag, Kündigungsdaten, Provisionssätze, Wettbewerbsabrede und Fristenlogik wurden aktenübergreifend konsistent gezogen. Die Markenakte verwendet nun durchgängig Register- und Anmeldedaten; die Insolvenzakte stimmt Forderungsanmeldung, Kaution, Bankverrechnung, Tabelle und Rückgabeprotokoll zahlenmäßig aufeinander ab.
+- Wohnungseigentumsrecht, Hauptversammlungsrecht und Zahlungsverkehr verfügen über eigene fachliche Routen mit präzisen Norm-, Beweislast- und Rechtsfolgenketten. Unpassende Sammelanker wurden entfernt; mehrere fehlzugeordnete Entscheidungen des XI. Zivilsenats sind auf ihren wirklichen Gegenstand zurückgeführt und die Phishing-Prüfung auf die einschlägigen Entscheidungen konzentriert.
+- Die Dokumentqualitätsprüfung erkennt zusätzliche schematische Resttexte. Geänderte Word- und PDF-Unterlagen wurden gerendert und visuell auf Seitenumbrüche, Tabellen, Überlagerungen und Leerseiten geprüft.
+- Gesamt-PDFs, flache Originaldatei-ZIPs und flache Einzel-PDF-ZIPs der überarbeiteten Akten wurden neu gebaut. Marketplace, sämtliche Plugin-Manifeste, Promptdateien, Skillübersichten und Asset-Index sind auf v435.0.0 synchronisiert.
+
+---
+
+# v434.2.0 - Testakten als belastbare Originalvorgänge und strengere Qualitätsprüfung
+
+- Sieben zuvor schematische Akten wurden zu konkreten, widerspruchsreichen Originalvorgängen ausgebaut: Franchisestreit, Influencer-Kampagnen, Hilfsmittelversorgung, Maschinenleasing, Notariatsalltag, Buchpreisbindung und Satellitenbetrieb. 70 neue Word-Dokumente, E-Mails und Datentabellen liefern Vertragsstände, Behördenpost, Korrespondenz, Mess- und Zahlungsdaten, ohne die juristische Lösung vorwegzunehmen.
+- 95 austauschbare Aktenvorblätter und Nachforderungsstummel wurden entfernt. Die verbliebenen Unterlagen tragen fallbezogene Absender, Betreffzeilen, Daten, Aktenzeichen und Signaturen; künstliche Reservedomains und sichtbare Arbeitsmarker wurden auch in eingebetteten Word- und PDF-Inhalten beseitigt.
+- 524 E-Mail-Dateien wurden auf portable UTF-8- und MIME-Darstellung vereinheitlicht. Eine neue Releaseprüfung kontrolliert Pflichtkopfzeilen, Zeichensatz, Dekodierung und künstliche Adressen, damit Umlaute und scharfes S in Originaldateien und PDF-Ausgaben stabil bleiben.
+- 195 Aktenrubriken wurden von generischen Platzhalterprüfungen auf den tatsächlich exportierten Dateibestand umgestellt. Fallbezogene Rubriken prüfen zusätzlich zentrale Vertrags-, Bescheid-, Korrespondenz- und Datenspuren; die vollständige Auswertung besteht für 302 fachliche Akten.
+- README-Dateibäume und Dateitabellen werden nun gegen den wirklichen Aktenbestand geprüft. Veraltete Verweise in zwei arbeitsrechtlichen Akten wurden korrigiert; die Vorbeschäftigungsprüfung im Befristungsfall ist präzise auf die Entscheidungen des Bundesverfassungsgerichts vom 6. Juni 2018 und des Bundesarbeitsgerichts vom 23. Januar 2019 zurückgeführt.
+- Alle 303 Gesamt-PDFs wurden aus dem bereinigten Bestand neu gebaut. Dokumentqualität, E-Mail-Portabilität, CSV-Struktur, Downloadziele, Gesamt-PDFs, Pluginstruktur, Marketplace-Import und Frontmatter werden gemeinsam als Release-Gates ausgeführt.
+- Marketplace, sämtliche Plugin-Manifeste, Werkstatt- und Schnellstart-Prompts sowie die zentralen Übersichten wurden auf v434.2.0 synchronisiert.
+
+---
+
+# v434.1.0 - Neue Erbrechtsakte: Vertragserbe gegen lebzeitige Schenkungen (LG und OLG Oldenburg)
+
+- Neue Testakte `erbrecht-vertragserbe-schenkungen-erbvertrag-oldenburg`: Berufungsverfahren vor dem OLG Oldenburg (8 U 63/26) nach teilweise stattgebendem Urteil des LG Oldenburg (5 O 458/25). Der Sohn ist vertragsmäßig eingesetzter Schlusserbe aus einem Erbvertrag von 2008 mit nie ausgeübtem Rücktrittsvorbehalt; der Erblasser übertrug der Tochter lebzeitig die Hofstelle (gegen Wohnungsrecht und Pflegeversprechen), schenkte ihr ein Baugrundstück und überwies ihr in zwölf Tranchen 152.000 EUR. Die Berufung der Beklagten stützt sich darauf, dass schon der Vorbehalt die geschützte Erberwartung entfallen lasse; mitten in das Verfahren fällt die Veröffentlichung der Entscheidungsgründe des BGH in der Sache IV ZR 256/25 zu genau dieser Frage, auf die der Senat mit Stellungnahmefrist hinweist.
+- Vollständig ausformulierte Urkunden und Schriftstücke: Erbvertrag mit Rücktrittsvorbehalt, Übergabevertrag mit Wohnungsrecht und Pflegeverpflichtung, Schenkungsurkunde über den Bauplatz, Urteil des LG Oldenburg im Urteilsstil, Berufungsbegründung der Gegenseite, Verkehrswert-Kurzgutachten, Hinweisverfügung des Senats, drei E-Mails (darunter der Rechtsprechungs-Newsletter zur BGH-Entscheidung) und ein Messenger-Export der Geschwister.
+- Datenauswertungs-Kern mit rekonstruierbarer Diskrepanz: Die Kontoauswertung (zwölf Buchungen, Summe 152.000 EUR) widerlegt das Hilfsvorbringen der Gegenseite (nur 95.000 EUR unentgeltlich; 35.000 EUR Darlehen; 22.000 EUR Anlassgeschenke, die mit den tatsächlich als Weihnachtszuwendungen ausgewiesenen dreimal 12.000 EUR nicht zusammenpassen); die Pflegedienst-Rechnungen (Lastschrift vom Konto des Erblassers) stellen das Pflegeversprechen aus dem Übergabevertrag in Frage. Rubric mit fünf Prüfpunkten, zentrale Aktenübersicht ergänzt.
+- Alle Validatoren grün (302 Testakten; Dokumentqualität; CSV; Downloads; Keine-Markdown-Aktenstücke; Struktur; Marketplace). Repo-weiter Versions-Bump auf v434.1.0.
+
+---
+
+# v434.0.3 - Feinerer Look der Gesamt-PDF-Lesefassung
+
+- Jedes Aktenstück im Gesamt-PDF erhält einen klaren, gut scanbaren Dokumentenkopf: eine kleine Kategorie-Zeile (etwa „E-MAILS", „WORD-DOKUMENTE", „CSV-TABELLEN"), darunter der Dateiname als kräftiger Titel in der Hausfarbe und eine feine Trennlinie; liegt die Datei in einem Unterordner, wird der Pfad dezent darunter ausgewiesen. Das ersetzt die bisher unauffällige „Datei:"-Zeile und macht auf einen Blick erkennbar, welches Aktenstück gerade beginnt.
+- Die Trennseiten der layoutgetreu gerenderten Office-Dokumente und der Original-PDF-Anhänge verwenden denselben Kopf, sodass alle Aktenstücke einheitlich eingeleitet werden. Die Fußzeile mit Aktenname und Seitenzahl erscheint jetzt auch auf der ersten Seite.
+- Reine Darstellungsänderung im Builder der Gesamt-PDFs; Inhalte, Reihenfolge und Aktenstücke bleiben unverändert. Die Gesamt-PDFs werden im Release-Lauf mit dem verfeinerten Layout neu gebaut. Repo-weiter Versions-Bump auf v434.0.3.
+
+---
+
+# v434.0.2 - StaRUG- und Insolvenzrechtsanker präzisiert
+
+- Die StaRUG-Planarchitektur ist durchgängig auf die richtigen Normketten zurückgeführt: Planinhalt und Gruppen nach den Paragrafen 5 bis 10, Anlagen nach den Paragrafen 14 und 15, gruppenübergreifende Mehrheitsentscheidung nach den Paragrafen 26 bis 28, Instrumente und Anzeige nach den Paragrafen 29 bis 31 sowie Bestätigung und Minderheitenschutz nach den Paragrafen 60 bis 67 StaRUG.
+- Krisenfrüherkennung nach Paragraf 1 StaRUG und die regelmäßige 24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO sind sauber getrennt. Die Fortführungsprognose nach Paragraf 19 InsO verwendet den geltenden regelmäßigen Zwölfmonatszeitraum.
+- Die Antragspflicht nach Paragraf 15a InsO knüpft nun durchgängig an den objektiven Eintritt der Insolvenzreife an. Drei Wochen bei Zahlungsunfähigkeit und sechs Wochen bei Überschuldung werden als Höchstzeiträume, nicht als Warte- oder Verlängerungsfristen, behandelt.
+- Der Hinweis nach Paragraf 102 StaRUG ist in Krisen- und Steuerberater-Skills tatbestandsgebunden: Jahresabschlusserstellung, offenkundige Anhaltspunkte und vermutete Unkenntnis des Mandanten. Monats-BWA, Buchführung und sonstige Mandate werden nicht mehr pauschal als gesetzliche Auslöser bezeichnet.
+- Die aktuelle Rechtsprechung zu streitigen und titulierten Forderungen im Liquiditätsstatus, zur Belegbarkeit gegenüber außenstehenden Dritten und zum ersten höchstrichterlichen StaRUG-Verfahren ist mit Entscheidungsform und Aussagegrenzen eingeordnet. Paragraf 245a InsO steht nun als besondere Vergleichsannahme für natürliche Personen statt als allgemeine Rangregel bereit.
+- Neue Rechtsstandssperren verhindern das Wiederauftreten der korrigierten Normvertauschungen. Marketplace- und Release-Prüfung gleichen zusätzlich sichtbare README-Versionen mit den Manifesten ab.
+- Marketplace, sämtliche Plugin-Manifeste, Werkstatt- und Schnellstart-Prompts sowie die zentralen Übersichten wurden auf v434.0.2 synchronisiert.
+
+---
+
+# v434.0.1 - Aktenrubriken und Releaseprüfung vervollständigt
+
+- Die Aktenrubriken für den grenzüberschreitenden Vertragsfall und die Kanzleiorganisationsakte verwenden ausschließlich unterstützte Prüftypen und bilden den tatsächlich exportierbaren Bestand korrekt ab. Der vollständige Evaluationslauf bewertet damit alle 301 fachlichen Akten ohne Fehler.
+- Gezielte Prüfungen einzelner Akten unterscheiden nun sauber zwischen der ausgewählten Teilmenge und den stets vollständigen zentralen Sammel-ZIPs. Originaldatei- und Einzel-PDF-Archive lassen sich dadurch sowohl vollständig als auch fallbezogen zuverlässig validieren.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v434.0.1 synchronisiert.
+
+---
+
+# v434.0.0 - Aktenausgabe, Rechtsstand und Marketplace konsolidiert
+
+- Die 301 zentralen Aktenarchive und die gesonderte Formatvorlagensammlung wurden vollständig neu gebaut. Jedes Akten-ZIP ist flach, enthält keine Markdown-Dateien und liefert ausschließlich belastbare Originalformate sowie das zugehörige Gesamt-PDF; lösungsverratende interne Auswertungen, Strategiepapiere und Prüfraster bleiben außerhalb der Arbeitsmaterialpakete.
+- Alle 302 Einzel-PDF-ZIPs mit insgesamt 7194 Dokumenten wurden neu gerendert. Fremde Letter- und Sonderformate werden proportional auf A4 oder A4 quer normalisiert; neue Regressionstests und Release-Validatoren prüfen Seitenformat, PDF-Integrität, Dateizuordnung, flache Archivstruktur und vollständige Zentralpakete.
+- Pluginlokale Aktenpakete werden nur noch für tatsächlich exportfähige Originalunterlagen erzeugt. Drei belastbare Akten erhalten eigene Gesamt-PDF-, Originaldatei- und Einzel-PDF-Assets; rein redaktionelle Markdown-Ordner erzeugen keine leeren oder irreführenden Downloads mehr und werden in Plugin-Übersichten durch die zentrale Aktenbibliothek ersetzt.
+- Die Aktenfilterung trennt Sachverhaltsunterlagen jetzt konsequent von Musterlösungen, Rechtsgutachten, Prozessstrategien, internen Berechnungen, Gerichtsroutern und Zieloutput-Checklisten. Native und PDF-basierte Exporte verwenden dieselbe Auswahl und werden transaktional mit reproduzierbaren Archivmetadaten gebaut.
+- Insolvenz- und Restrukturierungsrecht wurden auf den geltenden Normaufbau zurückgeführt: Eigenverwaltungsplanung, vorläufige Eigenverwaltung, Schutzschirm und eröffnete Eigenverwaltung sind nach den Paragrafen 270a, 270b, 270d und 270f InsO getrennt; Anfechtungsfristen, Restrukturierungsgericht, Stabilisierung, Planbestätigung und Insolvenzgeld sind korrekt zugeordnet.
+- Der Arbeitszeugnisgenerator wurde fachlich vertieft. Seine Skills sowie Werkstatt- und Schnellstart-Prompts führen von Tätigkeitsbild, Leistungs- und Verhaltensstufe über Beweislast und Zeugnisklarheit bis zur formgerechten Endfassung; die elektronischen Formmöglichkeiten des geltenden Gewerberechts und die einschlägigen BAG-Linien sind präzise eingeordnet.
+- README-Navigation, Skilldetailseiten, Downloadindex und Testaktenzuordnung wurden aus dem aktuellen Bestand neu erzeugt. Marketplace-Import, 235 Plugin-Manifeste, 26226 Skillaktivierungen, Prompt-Routing, Markdown-Direktdownloads und Cloud-Arbeitsumgebungen werden in einer einheitlichen Prüfstrecke kontrolliert.
+- Werkstatt- und Schnellstart-Prompts bleiben ausschließlich einzeln als Markdown direkt herunterladbar. Der Release-Workflow erzeugt dafür keine widersprüchlichen Sammel-ZIPs; auch die reine Hilfsmaterialsammlung der Mega-Prompts verweist nur noch auf die tatsächlich bereitgestellten Direktdownloads.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v434.0.0 synchronisiert.
+
+---
+
+# v433.0.2 - Plattformstabile Downloadsektionen für Testakten
+
+- Die Downloadsektionen aller 301 zentralen Testakten verwenden keine lokal berechneten PDF-Dateigrößen mehr. Ihre Inhalte bleiben dadurch nach einem vollständigen Linux-Neubau bytegleich zum eingecheckten Stand, obwohl Office- und PDF-Renderer plattformbedingt geringfügig andere Binärgrößen erzeugen können.
+- Der Generator ersetzt weiterhin den gesamten markierten Abschnitt und bleibt idempotent. Gesamt-PDF, Akten-ZIP und Einzel-PDF-ZIP sind unverändert direkt erreichbar; nur die für den Download entbehrliche Größenangabe entfällt.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v433.0.2 synchronisiert.
+
+---
+
+# v433.0.1 - Office-Konvertierung im Release vollständig bereitgestellt
+
+- Der Release-Runner installiert neben LibreOffice Writer nun auch Calc und Impress. Damit entspricht die Umgebung dem dokumentierten Konvertierungsumfang für Text-, Tabellen- und Präsentationsdateien und kann insbesondere XLSX-Anlagen der Versandwerkstatt zuverlässig in PDF umwandeln.
+- Der Ende-zu-Ende-Test der Versandmappe bleibt streng: Sobald LibreOffice verfügbar ist, müssen DOCX und XLSX erfolgreich konvertiert werden; eine nur teilweise installierte Office-Umgebung darf keinen unvollständigen Versandordner freigeben.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v433.0.1 synchronisiert.
+
+---
+
+# v433.0.0 - Einzelakten vollständig und layoutgetreu aufbereitet
+
+- 52 Arbeits-, Familien-, Erb-, Renten- und Sozialrechtsakten wurden dokumentweise geprüft und überarbeitet. 1001 formale Originalunterlagen erfüllen nun verbindliche Mindestanforderungen an Umfang, Briefkopf, Datum, Anrede, Absender, Aktenzeichen, Signatur, Umlaute und scharfes S.
+- Zusammengezogene Sammeldokumente wurden in eigenständige Aktenstücke getrennt. Arbeitsverträge und Nachträge, Bescheide und Prüfvermerke, ärztliche Unterlagen, Widersprüche und Eilanträge, Testamente und Registerunterlagen sowie Jugendamts-, Bank- und Kanzleikorrespondenz stehen dadurch auch im Einzel-PDF-Paket jeweils als eigene PDF zur Verfügung.
+- Die Akten enthalten zusätzliche lebensnahe Sachverhaltsdetails, Nebenpersonen, Telefon- und Postausgangsvermerke, Fristeneinträge, Belegketten und ausformulierte Behörden-, Gerichts-, Kanzlei- und Unternehmensschreiben. Verkürzte Beschreibungen, verräterische Metatexte, Umlautumschriften und unvollständige Auszüge wurden beseitigt.
+- DOCX- und ODT-Aktenstücke werden im Release nun nativ in PDF umgewandelt. Briefköpfe, Kopf- und Fußzeilen, Tabellengeometrie und Seitenumbrüche bleiben in Gesamt-PDFs und Einzel-PDF-ZIPs erhalten; die bisherige strenge Inhaltskonvertierung bleibt als kontrollierter Fallback verfügbar.
+- Eine neue Qualitätsprüfung stoppt den Release bei Stummeln, zusammengezogenen Altstücken, Dubletten, fehlenden Umlauten, verräterischen Testhinweisen, ungeeignetem Seitenformat, fehlerhaften E-Mail-Köpfen und unlesbaren Dokumenten. Die Konvertierung ist isoliert, zeitlich begrenzt und reproduzierbar getestet.
+- Für die 52 überarbeiteten Akten wurden 52 Gesamt-PDFs, 52 Akten-ZIPs mit 1243 Dateien und 52 Einzel-PDF-ZIPs mit 1191 getrennten PDFs neu gebaut und gegeneinander validiert.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v433.0.0 synchronisiert.
+
+---
+
+# v432.1.1 - E-Mail-Briefkopf plattformstabil gerendert
+
+- Der Absender des gerichtlichen Terminhinweises in der Berliner Akte verwendet nun einen eindeutig decodierbaren UTF-8-Header. Dadurch bleibt „Geschäftsstelle“ auch beim PDF-Bau auf unterschiedlichen Betriebssystemen ungetrennt.
+- Das Berliner Gesamt-PDF wurde erneut gebaut und visuell geprüft; Inhalt, Seitenzahl und Dateizuordnung bleiben unverändert.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v432.1.1 synchronisiert.
+
+---
+
+# v432.1.0 - Sechs Erbrechtsakten als vollständige Kanzleivorgänge ausgebaut
+
+- Sechs Erbrechtsakten wurden anhand der Gesamt-PDFs, Release-ZIPs und sämtlicher Originalunterlagen von 103 auf 125 Aktenstücke erweitert. Der auswertbare Textumfang stieg je Akte um 26 bis 154 Prozent, ohne Lösungsvorgaben oder bloße Fülltexte einzuführen.
+- Digitaler Nachlass, Patchwork-Erbfolge, Hofübertragung, Nießbrauch und Depot, Unternehmernachfolge sowie Volljährigenadoption enthalten nun zusätzliche Telefon-, Postausgangs-, Fristen-, Kosten-, Bank-, IT-, Bewertungs- und Gesellschaftsunterlagen mit glaubwürdigen Briefköpfen und vollständigen Signaturen.
+- Verdeckte Altfälle und aktenfremde Tabellen wurden ersetzt. Todesdaten, Personenstand, Adoptionsverlauf, Grundbuchangaben, Depotstände, Zahlungsflüsse, Beteiligungsquoten, Bankauflagen und gerichtliche Aktenzeichen sind innerhalb der jeweiligen Akte konsistent.
+- Alle 93 Word-Dokumente wurden gerendert und visuell kontrolliert. READMEs führen jede Originalunterlage vollständig; Gesamt-PDFs, Akten-ZIPs und 125 Einzel-PDFs wurden aus demselben Stand neu gebaut und geprüft.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v432.1.0 synchronisiert.
+
+---
+
+# v432.0.2 - Entwurfsrelease und Uploadwiederaufnahme abgesichert
+
+- Der parallele Asset-Uploader und die nachgelagerte Remoteprüfung lesen die Datenbank-ID eines neu angelegten Entwurfsreleases nun unmittelbar über die Releaseabfrage aus. Beide sind nicht mehr vom REST-Tag-Endpunkt abhängig, der Entwürfe trotz erfolgreicher Anlage mit einem vorübergehenden 404 beantworten kann.
+- Regressionstests bilden den vollständigen Übergang vom fehlenden Release über die Entwurfsanlage bis zur belastbaren ID und deren Nutzung bei der Remoteprüfung nach. Abgebrochene Läufe können vorhandene, hashgleiche Assets weiterhin überspringen und nur fehlende oder abweichende Dateien nachladen.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v432.0.2 synchronisiert.
+
+---
+
+# v432.0.1 - Plattformstabile PDF- und Releaseprüfung
+
+- Der Release-Lauf trennt nun plattformneutrale Generatorartefakte von frisch gerenderten PDF-Binärdateien. Werkstatt-, Schnellstart-, Vollprüfungs-, README- und Indexdateien müssen weiterhin bytegenau dem Tag entsprechen; Gesamt-PDFs werden auf dem Linux-Runner vollständig neu gebaut, fachlich und technisch validiert und anschließend als aktuelle Releasegrundlage verwendet.
+- Unterschiedliche Font-Stacks auf macOS und Linux lösen damit keinen falschen Generatorfehler mehr aus. Defekte, leere oder unlesbare PDFs stoppen den Lauf unverändert, während zulässige binäre Layoutabweichungen zwischen Betriebssystemen den geprüften Paketbau nicht mehr blockieren.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v432.0.1 synchronisiert.
+
+---
+
+# v432.0.0 - Prüfketten, Aktenbau und Releaseablauf gehärtet
+
+- Die Aktenbewertung prüft Rubriken nun wirklich vollständig: Pluginzuordnung, eindeutige Check-IDs, unterstützte Prüftypen, sichere relative Pfade, nicht leere Suchmuster sowie JSON-, YAML-, E-Mail- und Tabelleninhalte. 205 fehlende oder unbestimmte Pluginzuordnungen wurden repariert; 301 fachliche Aktenrubriken bestehen, nur die zwei ausdrücklich ausgenommenen Metasammlungen benötigen keine Rubrik.
+- Der Gesamt-PDF- und Einzel-PDF-Bau erzeugt bei defekten oder unlesbaren Quelldateien keine stillen Platzhalter mehr. DOCX, ODT, XLSX, CSV, E-Mail, Bilder und vorhandene PDFs werden vollständig gelesen oder stoppen den Lauf mit einem konkreten Dateifehler; leere, verschlüsselte, unvollständige oder pfadunsichere ZIP-Inhalte fallen bei der Validierung auf.
+- PDF- und ZIP-Erzeugung ist reproduzierbar und transaktional. Stabile Metadaten, Zeitstempel und Dateireihenfolgen liefern bei identischem Aktenbestand innerhalb derselben Renderumgebung byteidentische Ergebnisse; temporäre Ausgaben ersetzen ein bestehendes Paket erst nach erfolgreicher Prüfung. Der vollständige Einzel-PDF-Bau wurde zugleich von mehreren Minuten auf rund zwei Minuten verkürzt.
+- Die Releasekette berechnet Prüfsummen streamend und lädt Assets parallel, wiederaufnehmbar und hashbewusst hoch. Unveränderte Dateien werden übersprungen, veraltete Assets gezielt entfernt, fehlgeschlagene Übertragungen mit Rückoff wiederholt und ein neuer Release erst nach vollständiger Remoteprüfung aus dem Entwurfszustand veröffentlicht.
+- Mehr als 4.000 redundante Quellenhinweise wurden aus Arbeitsabläufen, Tabellen und Ausgabemustern entfernt und je Dokument auf eine klare Quellenregel verdichtet. Konkrete Quellenprüfschritte bleiben dort erhalten, wo sie fachlich Teil des Workflows sind; Promptumfang und Wiederholungsrauschen sinken deutlich.
+- Ein neuer Markdown-Strukturvalidator prüft sämtliche 28.902 Markdown-Dateien außerhalb von Codeblöcken auf leere Überschriften, Links und Listenpunkte, ungeschlossene Codeblöcke, verwaiste Tabellenzeilen, fehlerhafte Tabellenköpfe, doppelte Quellenregeln sowie inhaltslose Rechtsprechungs- und Quellenabschnitte. Sechs leere Überschriften, 34 ungeschlossene Codeblöcke, 1.295 stumme Fachabschnitte, 82 unmittelbare Quelldubletten und sämtliche dabei gefundenen Tabellen- und Vorlagenstummel wurden fachgerecht repariert.
+- Die Releaseprüfung baut zentrale und pluginlokale Gesamt-PDFs erneut, führt Regressionstests für Rubriken, PDF-Konverter und Assets aus und stoppt bei jeder nicht eingecheckten Generatorabweichung. Damit entsprechen veröffentlichte Pakete dem geprüften Tag und lassen sich aus demselben Stand erneut herstellen.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v432.0.0 synchronisiert.
+
+---
+
+# v431.0.0 - Rechtsprechungsprüfung, Fachrouten und Aktenqualität abgesichert
+
+- Die Fachanwalts-Plugins für Familien- und Erbrecht starten nun aktenbasiert und arbeitsproduktorientiert. Ihre handkuratierten Werkstatt- und Schnellstart-Prompts trennen Eilroute, Verfahrensstand, Anspruch, Stichtag, Beweislast und Ausgabeform und enthalten eng zugeordnete Fallkarten aktueller höchstrichterlicher Rechtsprechung.
+- Die Erbausschlagungsrouten trennen jetzt wirtschaftliche Annahmeentscheidung und formfesten Vollzug. Sechswochen- und Sechsmonatsfrist, gerichtliche Aufnahme, öffentliche Beglaubigung, Vertretungsvollmacht, Minderjährige, Nachrücker, Haftungsalternativen und die engen Pflichtteilswege nach BGB Paragrafen 2306 und 1371 Absatz 3 sind vollständig und ohne pauschale Gebühren- oder Sozialhilfethesen abgebildet.
+- Die Kindesunterhaltsrouten wurden auf die Düsseldorfer Tabelle vom 1. Januar 2026 und die jeweilige OLG-Leitlinie zurückgeführt. Residenz-, Wechselmodell-, Volljährigen-, Mangel- und Abänderungsfälle verwenden reproduzierbare Monatsrechnungen; BGH XII ZB 388/24 und XII ZB 459/23 sowie BVerfG 1 BvR 697/20 sichern Erwerbsprognose, Haushaltsersparnis und Vertretung fallgenau ab.
+- Im Erbrecht wurden die Verjährungswege abschließend getrennt: Für den Pflichtteilsanspruch gegen den Erben gelten BGB Paragrafen 195 und 199, während beim Direktanspruch gegen den Beschenkten nach BGB Paragraf 2329 die Frist gemäß BGB Paragraf 2332 Absatz 1 mit dem Erbfall beginnt. Verbliebene missverständliche Kenntnis- und Schenkungsdatumsformeln wurden entfernt.
+- Sieben Familien- und Erbrechtsakten wurden mit 56 vollständig ausformulierten DOCX-Aktenstücken, realistischen Briefköpfen, Register-, Bank-, Polizei-, Jugendamts-, Bewertungs- und Gerichtsunterlagen fachlich und gestalterisch überarbeitet. Gesamt-PDFs, Einzel-PDF-ZIPs und vollständige Arbeitsdateien-ZIPs wurden neu gebaut und geprüft.
+- Das Haupt-README und der Asset-Index bieten eine anbieterneutrale ODT-Kanzleianleitung als Direktdownload an. Sie führt kleine Kanzleien von Anschlussmodell, Schlüsselverwaltung und Dummy-Test bis zu technischer und fachlicher Abnahme, ohne einen bestimmten Drittanbieter zu empfehlen.
+- Die neue `schriftsatz-versandwerkstatt` bündelt die technische Endfertigung auf neun gezielt aktivierbare Skills: Ordneraufnahme, Hauptdokument, Office-, Bild-, Text-, HTML- und EML-Konvertierung, Anlagenstempel, ASCII-Dateinamen, ERVB-Paketgrenzen, Absender- und Signaturroute, Freigabe, Eingangskontrolle sowie Störungs- und Nachreichungsmappe. Ein getestetes lokales Werkzeug erzeugt getrennte Versand-PDFs, Manifest und Prüfunterlagen, löst aber niemals selbst einen Versand aus.
+- Rechtsprechungs- und Normenanker wurden fachgebietsübergreifend auf amtliche Fundstellen, Entscheidungsform, Datum, Aussagegehalt und richtige Skillzuordnung geprüft. Nicht belastbar auffindbare oder fachfremde Fundstellen wurden entfernt; verkürzte Leitsätze wurden auf die tragende Aussage begrenzt.
+- Strafrechtliche Anker wurden unter anderem bei Akteneinsicht, ANOM-Daten, Cannabis-Konkurrenzen, Täter-Opfer-Ausgleich und Verständigung berichtigt. BGH 4 StR 232/25 wird zutreffend als Urteil geführt; die Entscheidung verlangt einen friedensstiftenden kommunikativen Prozess und trägt keine Pflicht zur Einschaltung einer Vermittlungsstelle.
+- Gesellschafts- und Registerrecht bilden die eGbR nach MoPeG nun mit BGB Paragraf 707b, GBO Paragraf 47 Absatz 2, EGBGB Artikel 229 Paragraf 21 und GmbHG Paragraf 40 Absatz 1 Satz 3 ab. BGH V ZB 17/24 sowie die einschlägigen obergerichtlichen Registerentscheidungen sind nach Aussage und Verfahrenskontext getrennt.
+- Aufsichtsrechtliche Skills verwenden MaRisk Rundschreiben 06/2024, die geltende Aufbewahrungslogik und DORA seit 17. Januar 2025. Datenschutzrechtliche Auftragsverarbeitung trennt verbindliches Recht, Standardvertragsklauseln und unverbindliche Leitlinien einschließlich Stellungnahme 22/2024.
+- Krankenversicherungs-, Arbeits-, Versicherungs-, Insolvenz-, Vollstreckungs-, Lizenz-, Gesellschafts- und Prozessrecht wurden von vertauschten Normen, unzutreffenden Beweislastformeln und falsch zugeordneten Entscheidungen bereinigt. Kostenfestsetzung und materieller Kostenerstattungsanspruch sind ebenso getrennt wie Verschmelzungsanmeldung und Registerwirkung.
+- Werkstatt-, Schnellstart- und Vollprüfungs-Prompts wurden aus den korrigierten Fachskills vollständig neu erzeugt und auf Direktstart, Fachrouting, Quellenstatus, Beweislast, Rechtsfolge und verwendbares Arbeitsprodukt geprüft. Der Veredelungslauf ist idempotent.
+- Der portable Akten-Audit wurde gegen Scheintreffer, unvollständige Prüfobjekte und ungeeignete Hilfsdateien gehärtet. Alle 303 Akten werden erkannt; alle 291 Akten mit Rubric bestehen ihre Prüfungen. Ein neuer CSV-Validator verhindert Feldverschiebungen und lösungsverratende Rechenhinweise. Geänderte Gesamt-PDFs wurden neu gebaut und visuell kontrolliert.
+- Der Rechtsstands-Audit umfasst nun 186 konkrete Sperrmuster gegen bekannte Fehlzitate und Fehlzuordnungen und prüft 28.903 Markdown-Dateien. Marketplace-Import, 26.226 Skillaktivierungen, 52.778 lokale Navigationslinks, 28.110 Markdown-Direktdownloads, Frontmatter, Pluginstruktur und beide Versandmappen-Tests sind grün.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten, Asset-Index und Testaktenübersicht wurden auf v431.0.0 synchronisiert.
+
+---
+
+# v430.0.0 — Rechtsanker, Fachzuordnung und Releaseketten umfassend geprüft
+
+- Rechtsprechungs- und Normenanker wurden repo-weit auf Aussagegehalt und Fachzuordnung geprüft. Falsch zugeordnete oder nicht belastbar verifizierte Fundstellen wurden entfernt oder durch eng formulierte, amtlich belegte Anker ersetzt; Werkstatt-, Schnellstart- und Vollprüfungs-Prompts wurden anschließend vollständig neu erzeugt.
+- Rangrücktritt und Sanierungsbilanz sind nun sauber getrennt: BFH I R 25/15 erfasst die Tilgung nur aus künftigem Bilanzgewinn und Liquidationsüberschuss mit möglichem Passivierungsverbot und Wegfallgewinn, BFH XI R 32/18 die fortbestehende Passivierung bei zusätzlichem Zugriff auf sonstiges freies Vermögen. BGH IX ZR 133/14 ist mit Schuldänderungsvertrag, Gläubigergesamtheit, Rückforderung und Anfechtung richtig eingeordnet.
+- Insolvenz- und Strafrechtsmodule wurden bei Antrag, Zahlungsunfähigkeit, Auskunftsverwertung, Forderungsanmeldung, Anfechtungsverjährung, Steuerstrafverjährung, Restschuldbefreiung und Eigenverwaltung auf den aktuellen Gesetzeswortlaut zurückgeführt. Pauschale Beweislast- und Fristformeln wurden durch stichtags- und tatbestandsbezogene Prüfungen ersetzt.
+- Die Sozialrechtsmodule berücksichtigen die seit 1. Juli 2026 geltende Fassung der Paragrafen 31a, 31b und 32 SGB II: 30-Prozent-Regelfolge, gesonderte Dauerregeln, die enge Sonderfolge bei willentlicher Nichtaufnahme unmittelbar möglicher zumutbarer Arbeit und das Übergangsrecht nach Paragraf 65a Absatz 2 SGB II werden strikt getrennt. Das BVerfG-Urteil 1 BvL 7/16 bleibt verfassungsrechtlicher Prüfanker, wird aber nicht als Bestätigung des neuen Rechts ausgegeben.
+- Verwechselte Entscheidungsformen und Aussagegehalte wurden bereinigt: VI ZR 599/16 wird als Beschluss zum Umgang mit geändertem Parteivortrag geführt; Lüth, Apotheken, Lebach, die SGB-II-Sanktionsentscheidung und die Verständigungsentscheidung werden als Urteile zitiert. Die Staatsanwaltschaftsskills ordnen 1 StR 618/98 nur noch der aussagepsychologischen Methodik zu und verwenden für Anklage und Strafbefehl unmittelbar einschlägige Verfahrensanker.
+- Das Anfechtungsgesetz trennt jetzt die Kenntnisvermutung des Paragraf 3 Absatz 1 Satz 2 AnfG vom Nähepersonentatbestand des Absatzes 4 und berücksichtigt Zehn-, Vier- und Zweijahreszeitraum. Die direkte BGH-Linie IX ZR 209/23, IX ZR 42/24, IX ZR 70/20 und IX ZR 30/21 ist den jeweiligen Aussagen zugeordnet.
+- Gebrauchsmuster-, Patent-, Umwandlungs-, Versicherungs-, Gesellschafts-, AGB-, Energie-, Arbeits-, Steuerberater- und Wirtschaftsprüferrecht wurden von verschobenen Normenketten und fachfremden Entscheidungen bereinigt. Im Gebrauchsmusterrecht stimmen insbesondere Anmeldung, Abzweigung, Schutzdauer, Löschung, Verletzungsansprüche und der BGH-Anker X ZB 27/05 wieder überein.
+- Gerichtliche Dokumentenproduktion und Anlagenfertigung wurden mit versandfertigen Dateinamen, Anlagenlogik, Formatprüfung und fachbezogenen Endkontrollen in den einschlägigen Prozessmodulen verankert. Pluginaktivierung, Direktstart, Fachrouting und übersichtliche Skillnavigation wurden für 234 Marketplace-Plugins nachgezogen.
+- Testakten-, Prompt- und Downloadketten wurden vollständig gebaut und geprüft: 234 Plugin-ZIPs, 302 zentrale Akten-ZIPs mit 7.837 Dateien, 303 Einzel-PDF-ZIPs mit 7.736 PDFs sowie 18 pluginlokale Aktenpakete. Gesamt-PDFs, README-Downloads, lokale Links und Markdown-Direktdownloads bestehen die Vollprüfung; ein überlanger Tabellenblattname wurde für uneingeschränkte Excel-Kompatibilität gekürzt.
+- Der Rechtsstands-Validator umfasst jetzt 132 konkrete Sperrmuster gegen bekannte Fehlzuordnungen und läuft durch Vorfilterung in wenigen Sekunden über 28.886 Markdown-Dateien. Struktur, Frontmatter, Marketplace-Import, Prompt-Hygiene, Aktivierungssignale, Navigation, Rechenwerkzeuge und Releasebereitschaft sind grün.
+- Marketplace, sämtliche Plugin-Manifeste, Skillübersichten und Asset-Index wurden auf v430.0.0 synchronisiert.
+
+---
+
 # v429.16.0 — Fachprofile, Spezialnormen und Schnellstart-Routen vervollständigt
 
 - Die letzten 21 allgemeinen Auffangrouten wurden durch zehn kuratierte Fachprofile ersetzt. Alle 234 Plugins starten nun mit einem passenden fachlichen Prüfweg; die 468 Werkstatt- und Schnellstart-Prompts enthalten dazu konkrete Normen, Beweislast, Rechtsfolgen, Outputvarianten und belastbare Fallanker.
@@ -2202,14 +4114,14 @@ Workflow-Hinweis: Codex-Push war direkt auf `main` ohne PR und mit englischem Co
 ## Mehr Formatvorlagen (22 Plugins, +11 ggu. v302)
 
 Neu in dieser Welle (alle Markdown + ODT, Times Roman 11pt):
-- `notarrecht`: Grundstueckskaufvertrag mit Auflassung $ 925 BGB
-- `agb-recht-pruefer`: AGB-Prüfraster nach $$ 305-310 BGB
+- `notarrecht`: Grundstueckskaufvertrag mit Auflassung Paragraf 925 BGB
+- `agb-recht-pruefer`: AGB-Prüfraster nach Paragrafen 305-310 BGB
 - `datenschutzrecht`: DSFA nach Art. 35 DSGVO
-- `mietrecht`: Eigenbedarfskündigung $ 573 BGB
-- `bauplanungsrecht`: Normenkontrollantrag $ 47 VwGO
-- `steuerrecht-anwalt-und-berater`: Einspruch Steuerbescheid $ 347 AO
-- `fachanwalt-sozialrecht`: Widerspruch Sozialleistungsbescheid $ 84 SGG
-- `verfassungsrecht`: Verfassungsbeschwerde-Skelett $ 90 BVerfGG
+- `mietrecht`: Eigenbedarfskündigung Paragraf 573 BGB
+- `bauplanungsrecht`: Normenkontrollantrag Paragraf 47 VwGO
+- `steuerrecht-anwalt-und-berater`: Einspruch Steuerbescheid Paragraf 347 AO
+- `fachanwalt-sozialrecht`: Widerspruch Sozialleistungsbescheid Paragraf 84 SGG
+- `verfassungsrecht`: Verfassungsbeschwerde-Skelett Paragraf 90 BVerfGG
 - 3 Spezial-Templates (Kirchenrecht, Rom. Recht, ALR — siehe oben)
 
 ## Rubric-Feinschliff
@@ -2246,7 +4158,7 @@ Neu in dieser Welle (alle Markdown + ODT, Times Roman 11pt):
 - Neues Verzeichnis `testakten/formatvorlagen-paradebeispiele/<plugin>/` mit Vorlagen als **Markdown + ODT** (Times Roman 11pt, A4, 2,5 cm Raender).
 - Disclaimer kursiv oben (experimentelle KI-Vorlage, keine Haftung).
 - Felder in [Klammern], konditionale Hinweise im Fliesstext.
-- 11 Plugins, 12 Vorlagen: Arbeit (Kündigungsschutzklage $ 4 KSchG + Aufhebungsvertrag), Familie (Scheidungsantrag), Straf (Akteneinsicht $ 147 StPO), Verkehr (Bussgeld-Einspruch $ 67 OWiG), Miete/WEG (Mietminderung $ 536c BGB), Erbe (Erbscheinantrag), Medizin (Befundherausgabe $ 630g BGB), Versicherung (Deckungsklage $ 100 VVG), Insolvenz (Gläubigerantrag $ 14 InsO), Handels/Gesellschaft (Anfechtungsklage $ 246 AktG), Lizenz (Patent-Lizenz bilingual DE/EN mit Massgeb-Klausel).
+- 11 Plugins, 12 Vorlagen: Arbeit (Kündigungsschutzklage Paragraf 4 KSchG + Aufhebungsvertrag), Familie (Scheidungsantrag), Straf (Akteneinsicht Paragraf 147 StPO), Verkehr (Bussgeld-Einspruch Paragraf 67 OWiG), Miete/WEG (Mietminderung Paragraf 536c BGB), Erbe (Erbscheinantrag), Medizin (Befundherausgabe Paragraf 630g BGB), Versicherung (Deckungsklage Paragraf 100 VVG), Insolvenz (Gläubigerantrag Paragraf 14 InsO), Handels/Gesellschaft (Anfechtungsklage Paragraf 246 AktG), Lizenz (Patent-Lizenz bilingual DE/EN mit Massgeb-Klausel).
 
 ## Plugin-READMEs
 
@@ -2277,7 +4189,7 @@ Neu in dieser Welle (alle Markdown + ODT, Times Roman 11pt):
 - Neues Verzeichnis `docs/portable-eval-harness/` mit Drop-In-Anleitung für beliebige Legal-AI-Repos.
 - Kopierfertige `rubric.yaml`-Beispiele für:
   - **arbeitszeugnisprüfer-skill** — Prüfkorpus als Testakten, mit BAG-Az.-Pattern und Ampel-Symbol-Check.
-  - **vorlagen-für-recht** — Vertragsentwurf als Testakte mit Klausel-Checks ($ 613a, Rechtswahl, anwaltliche Endprüfung).
+  - **vorlagen-für-recht** — Vertragsentwurf als Testakte mit Klausel-Checks (Paragraf 613a, Rechtswahl, anwaltliche Endprüfung).
 
 ## Versions-Bump
 
@@ -4618,13 +6530,13 @@ Sechs Codex-Review-Findings aus dem v35-PR systematisch behoben:
 
 ---
 
-# v24.1.0 — AZ-Strip, Konversationsstil und LG Aachen 10 O 306/25
+# v24.1.0 — Aktenzeichen-Audit und Konversationsstil
 
 - **Welle 3 — Halluzinations-AZ entfernt.** Die im Vollaudit (`audit/audit_problems_2026-05-27.json`) als WRONG_TOPIC oder NOT_FOUND klassifizierten 969 Aktenzeichen wurden aus den betroffenen SKILL.md gestrichen. Ergebnis: 175 Dateien geaendert, 392 Zeilen entfernt; YAML-Frontmatter blieb unangetastet. Dokumentiert in `audit/README.md` und `audit/references_audit_2026-05-29.json`.
 - **Welle 4 — References-Konsistenz.** 17 tote Markdown-Verweise auf `references/`-Dateien identifiziert; einer (`rechtsberatungsstelle/.../pruef-warteschlange.yaml` → `review-queue.yaml`) gefixt. Die restlichen 16 sind in `audit/references_audit_2026-05-29.json` dokumentiert.
 - **Konversationsstil-Update.** `CLAUDE.md` und alle 102 `<plugin>/skills/allgemein/SKILL.md` erhalten einen verbindlichen Block: erste Antwort konzis, hoechstens eine unverzichtbare Rückfrage, dann schnell zur Dokumentenproduktion. Ausfuehrlich nur bei echter Subsumtion, Tabellen, Risikoanalysen oder Schriftsatz-/Memo-Text. Allgemein-Skills sind Einstieg, nicht Vorlesung.
 - **Frontmatter-Konvention geschaerft.** `CLAUDE.md` listet jetzt die verbotenen Frontmatter-Felder explizit (`triggers`, `when_to_use`, `language`, `rechtsgebiet`, `license`, `argument-hint`, `user-invocable`, `allowed_tools`, `tools`, `model`, `adapted_from`, `version`, `related_skills`).
-- **LG Aachen 10 O 306/25 (Urteil vom 27.05.2026) als Leitentscheidung aufgenommen** in: `bgb-at-pruefer/.../kauf-im-internet-und-auktionen`, `bgb-at-pruefer/.../gesetzesverbot-sittenwidrigkeit-paragraphen-134-138`, `vertragsrecht/.../vertragspruefung`, `produktrecht/.../feature-risikobewertung`. Inhalt: Button-Beschriftung "Wette abgeben" beim Online-Gluecksspiel genuegt nicht § 312j Abs. 3 BGB; endgueltige Unwirksamkeit nach Abs. 4; Rückabwicklung nach § 812 BGB unabhaengig von Lizenz. Quellenhinweis: offizieller Volltext zum Aufnahmezeitpunkt noch nicht öffentlich; Aufnahme erfolgte auf Basis Pressehinweis Gamesright GmbH / rightmart, 28.05.2026.
+- Historische Berichtigung: Der damals ohne amtlich prüfbaren Volltext aufgenommene Entscheidungsanker wurde später entfernt. Für die Anforderungen an eine Bestellschaltfläche wird der amtlich nachprüfbare EuGH-Anker `C-249/21, Fuhrmann-2` verwendet; nationale Wirksamkeits- und Rückabwicklungsfolgen sind davon getrennt zu prüfen.
 - **Audit-JSON-Fix bewahrt.** Zwei unescapte Quotes (Z. 425, 7661) aus dem Vollaudit-JSON sind gefixt (bereits in v24.0.0 als Commit `5b0676ef` gepusht).
 
 ## Qualitätssicherung

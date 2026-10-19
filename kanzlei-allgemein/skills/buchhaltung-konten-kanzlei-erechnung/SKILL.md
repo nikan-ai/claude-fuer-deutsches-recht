@@ -1,6 +1,6 @@
 ---
 name: buchhaltung-konten-kanzlei-erechnung
-description: "Wenn es um Kanzlei-Buchhaltung, Konten und Zahlungsabgleich in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kanzlei-Buchhaltung, Konten und Zahlungsabgleich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kanzlei-Buchhaltung, Konten und Zahlungsabgleich
@@ -18,9 +18,6 @@ description: "Wenn es um Kanzlei-Buchhaltung, Konten und Zahlungsabgleich in Kan
 2. Ist eine echte Buchhaltungssoftware (DATEV, Lexware, sevDesk) angebunden oder wird im Simulationsmodus gearbeitet?
 3. Sind offene Posten ueberfaellig und loest das Mahnwesen aus?
 4. Werden Fremdgelder kanzleiintern von eigenen Geldern getrennt gefuehrt (§ 43a Abs. 5 BRAO)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 5 BRAO — Pflicht zur Trennung von Fremdgeld und eigenem Vermögen
@@ -108,6 +105,4 @@ Im Simulationsmodus:
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-
-## Audit-Hinweis (27.05.2026)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: berufsrechtskonform-verhandlung-vergleich-und-eskalation
-description: "Wenn es um Berufsrechtskonform: Verhandlung, Vergleich und Eskalation in E-Mail-Umformulierer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Berufsrechtskonform: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: E-Mail-Umformulierer. Route: berufsrechtskonform-verhandlung-vergleich-und-eskalation."
 ---
 
 # Berufsrechtskonform: Verhandlung, Vergleich und Eskalation
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `§ 3a RVG` — Vergütungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
@@ -49,25 +49,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 RVG
-- § 10 RVG
-- § 57 StBerG
-- § 185 StGB
-- § 57a StBerG
-- Art. 5 GG
-- § 240 StGB
-- § 186 StGB
-- § 203 StGB
-- § 4a RVG
-- § 261 StGB
-- Art. 32 DSGVO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

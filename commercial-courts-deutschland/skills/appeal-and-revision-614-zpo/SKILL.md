@@ -1,6 +1,6 @@
 ---
 name: appeal-and-revision-614-zpo
-description: "Wenn es um Appeal and Revision in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Appeal and Revision: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Appeal and Revision
@@ -45,25 +45,3 @@ Besondere Anker: § 614 ZPO für Rechtsmittel gegen Urteile des Commercial Court
 - Anlagen sind englisch/deutsch gemischt, aber Übersetzungs- und Zitierlogik fehlt.
 - Geheimhaltungsinteressen werden erst in der mündlichen Verhandlung entdeckt.
 - Das Wortprotokoll wird gewünscht, aber nicht rechtzeitig prozessual vorbereitet.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 184a GVG
-- § 184b GVG
-- § 119b GVG
-- § 93 AktG
-- § 246 AktG
-- § 43 GmbHG
-- § 3a RVG
-- § 169 GVG
-- § 185 GVG
-- § 174 GVG
-- § 16 GeschGehG
-- § 23 GVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

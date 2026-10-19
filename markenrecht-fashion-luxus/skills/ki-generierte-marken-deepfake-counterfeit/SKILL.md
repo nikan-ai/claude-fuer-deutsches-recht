@@ -1,6 +1,6 @@
 ---
 name: ki-generierte-marken-deepfake-counterfeit
-description: "Wenn es um digitale Werkzeuge-generierte Markenverletzungen und Deepfake-Counterfeit in markenrecht-fashion-luxus geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für digitale Werkzeuge-generierte Markenverletzungen und Deepfake-Counterfeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-generierte Markenverletzungen und Deepfake-Counterfeit
@@ -36,3 +36,4 @@ description: "Wenn es um digitale Werkzeuge-generierte Markenverletzungen und De
 ## Warnung
 
 Nicht jede KI-Nähe ist Markenverletzung. Entscheidend bleibt konkrete kennzeichenmäßige Ausnutzung oder Irreführung.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie synthetische Gesichter, Produktabbildungen und behauptete Zertifizierungen jeweils getrennt. Marken- oder Persönlichkeitsrechte werden durch eine KI-Kennzeichnung nicht ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

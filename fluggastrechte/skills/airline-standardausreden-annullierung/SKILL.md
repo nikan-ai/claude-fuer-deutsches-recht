@@ -1,6 +1,6 @@
 ---
 name: airline-standardausreden-annullierung
-description: "Wenn es um Airline-Standardausreden — Katalog und Gegenargumente in Fluggastrechte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Airline Standardausreden Annullierung; Arbeitsfeld: Fluggastrechte."
+description: "Für Airline-Standardausreden — Katalog und Gegenargumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fluggastrechte. Route: airline-standardausreden-annullierung."
 ---
 
 # Airline-Standardausreden — Katalog und Gegenargumente
@@ -25,7 +25,7 @@ description: "Wenn es um Airline-Standardausreden — Katalog und Gegenargumente
 
 **Gegenargument**:
 
-> EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — technische Defekte sind grundsätzlich Teil der normalen Tätigkeit eines Luftfahrtunternehmens und kein außergewöhnlicher Umstand. Volltext auf curia.europa.eu vor Versand aufrufen und Randnummer (typisch Rn. 24 ff.) einsetzen.
+> EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — Übliche technische Betriebs-/Wartungsprobleme entlasten regelmäßig nicht. Rn. 23–27 und 39–43 unterscheiden externe, nicht beherrschbare Ursachen wie einen verdeckten Fabrikationsfehler; auch dann Kausalität und zumutbare Gegenmaßnahmen konkret belegen. Keine ungeprüften Randnummern einsetzen.
 >
 > Ausnahme: versteckter Konstruktionsfehler des Herstellers — EuGH, Urt. v. 13.6.2025, C-411/23 (curia.europa.eu) — kann ausnahmsweise außergewöhnlich sein, auch wenn die Airline Monate vor dem Flug informiert war.
 
@@ -149,27 +149,3 @@ Diesen Katalog vor jedem Mahnungsschreiben durchgehen — Standardausreden mit P
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 71 GVG
-- § 29 VwVfG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- Art. 13 DSGVO
-- § 14 UKlaG
-
-### Leitentscheidungen
-
-- EuGH C-402/07
-- EuGH C-549/07
-- EuGH C-204/08
-- EuGH C-394/23
-- EuGH C-188/20

@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "plugin": "word-legal-ai-plugin-and-skill-for-german-lawyers",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 130a Absatz 3 ZPO gelesen; Bezug: Vereinbarte Änderungen, Kommentare und belegten Vortrag unmittelbar ausformulieren. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/7-abr-23-23/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Beschluss vom 22.01.2025, 7 ABR 23/23: Mitarbeiterversand verlangt qualifizierte Signatur der verantwortenden Person an der endgültigen Schriftsatzdatei; negativer technischer Vermerk allein nicht unwiderleglich. Amtlicher Volltext Rn. 33 bis 36 gelesen. Arbeitsgerichtlicher Formfall, keine allgemeine Signaturpflicht interner Entwürfe, keine Prüfung aller Vertragsklauseln oder technische Live-Signaturvalidierung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__138.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext vollständig gelesen: Wahrheitspflicht, Erklärung zum Gegnervortrag und Grenzen des Bestreitens mit Nichtwissen für den neuen Ablauf bei widersprüchlichen Lieferbelegen. Kein Beweislastnachweis für einen bestimmten materiellen Anspruch."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext erneut gelesen: Dokumenteignung, Signatur und Übermittlungsweg sowie tatsächlicher Eingang getrennt. Keine technische Prüfung einer Datei oder Signatur und keine erneute BAG-Volltextprüfung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_106-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tenor und Rn. 1–29. Zusätzliche einfache Signatur eines zweiten Anwalts schadet bei einfacher Signatur und persönlichem beA-Versand durch verantwortenden Anwalt nicht. Grenze: Rn. 22 lässt die Übermittlung aus einem Gesellschaftspostfach ausdrücklich offen; gewöhnliche Anlagen und qualifizierte Signaturen getrennt prüfen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. Redaktionelle Einstiegsprüfung 16.10.2026: Dokumentbearbeitung vor Dateiinventur gestellt. 7 ABR 23/23 früh ausschließlich für elektronischen Versand, nicht jeden internen Entwurf; Randnummern 33 bis 36 zusätzlich amtlich nachgelesen. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest. Gegenprüfung: Anwendungsfall des vorgezogenen Entscheidungsankers ausdrücklich begrenzt.",
+    "changes": [
+      "Leerer Einstieg bietet Änderungsvereinbarung, Vertragsüberarbeitung oder bereinigten Schriftsatz; Dateien ohne Aufgabe still lesen.",
+      "Antwort zur verbindlichen Zahlungsfrist oder zum Lieferablauf ändert Klausel, Anlagen und Tatsachenvortrag.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "Dokumentbearbeitung vor Dateiinventur gestellt. 7 ABR 23/23 früh ausschließlich für elektronischen Versand, nicht jeden internen Entwurf; Randnummern 33 bis 36 zusätzlich amtlich nachgelesen."
+    ],
+    "sha256": "fb3879ab9ce722c151725ffcb7f1aa37fcbd1177214e7cd384994bbf799278be",
+    "method": "desk_review",
+    "reviewed_on": "2026-10-16"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. Redaktionelle Einstiegsprüfung 16.10.2026: Dokumentbearbeitung vor Dateiinventur gestellt. 7 ABR 23/23 früh ausschließlich für elektronischen Versand, nicht jeden internen Entwurf; Randnummern 33 bis 36 zusätzlich amtlich nachgelesen. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "Bezugsperiode einer Haftungsgrenze, Fristauslöser und widersprüchliche Term-Sheet-Angaben bis zur Klauselfassung klären.",
+      "Gegnerbehauptung, Mandantenerklärung und Anlage mit Paragraf 138 ZPO abgleichen; ungünstige Belege und Zustellungsdatum berücksichtigen.",
+      "Rücklauf und Empfängerkopie auf inhaltliche Abweichung, offene Klauselfreigabe und vertrauliche Kommentare getrennt prüfen.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "Dokumentbearbeitung vor Dateiinventur gestellt. 7 ABR 23/23 früh ausschließlich für elektronischen Versand, nicht jeden internen Entwurf; Randnummern 33 bis 36 zusätzlich amtlich nachgelesen."
+    ],
+    "sha256": "6813f5a85b45a4a77061cf36aae83a55b62bee871cfd2e390ec19d84e0dbea90",
+    "method": "desk_review",
+    "reviewed_on": "2026-10-16"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Änderungsvereinbarung, kommentierte Vertragsfassung oder bereinigten Schriftsatz anbieten.",
+      "Dateien ohne Aufgabe: Ausgangsfassung und Kommentare still lesen; nur bei offenem Ziel passende Fassungswege anbieten.",
+      "Klarer Auftrag: unmittelbar ausformulieren und nur maßgebliche Version oder entscheidende Sachentscheidung klären."
+    ],
+    "continuation": "Antwort zur Zahlungsfrist, Haftungsperiode oder Lieferung -> geänderte Vertragsklausel beziehungsweise korrigierter Schriftsatz samt Anlagenbezug.",
+    "enrichment": "Konflikte aus Term Sheet, Kommentaren und unterschriebenem Rücklauf sowie belastende Belege in vollständige Word-Zielfassungen überführen.",
+    "limits": "desk review; no live client execution"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die saubere Versandfassung auf Kommentare, Revisionen und Querverweise.",
+      "Erstelle ein makrofreies Dokumentfinish mit nachvollziehbarem Prüfprotokoll."
+    ],
+    "negative": [
+      "Berechne ausschließlich eine Versicherungsentschädigung aus Vertragsbedingungen.",
+      "Erstelle ein 3D-Diagramm für eine Messreihe ohne Dokumentenbezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "markup-ohne-dateizugriff",
+      "request": "Liefere ergebnis.md als Freigabevermerk und konkrete Korrekturliste. Nur folgende vollständige Prüfnotiz liegt vor, keine DOCX-Datei: Neue Haftungsklausel ist rot eingefärbt, Änderungsverfolgung war ausgeschaltet. Ein interner Kommentar nennt unsere maximale Vergleichssumme. Die Inhaltsübersicht nennt Abschnitt 4, der im Text nach Umnummerierung Abschnitt 5 heißt; ein Querverweis blieb auf 4. Gewünscht ist eine saubere externe Lesefassung, die Haftungsänderung ist aber noch nicht freigegeben. Die Originaldatei darf nicht verändert werden. Beurteile den Stand, ohne einen erfolgten Export oder eine Öffnungsprüfung zu behaupten.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt rote Schrift nicht als echte Änderungsverfolgung und übernimmt die unfreigegebene Haftungsänderung nicht als verbindlich akzeptiert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Sperrt externe Freigabe wegen internem Kommentar und fordert dessen tatsächliche Entfernung sowie Aktualisierung beider Verweise.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert konkrete Korrekturen und eine neue separate Ausgabefassung als nächsten Schritt, ohne Dateierzeugung oder Sichtprüfung ohne Datei vorzutäuschen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "word-dokument-finish-und-layout"
+    },
+    {
+      "id": "aenderungsvereinbarung-nach-geklaertem-termin",
+      "request": "Erstelle jetzt die vollständige kurze Änderungsvereinbarung in ergebnis.md. Der unveränderte Beratungsvertrag vom 02.03.2026 besteht zwischen Alster Handel GmbH, vertreten durch Geschäftsführer Jan Seidel, und Nora Beck. Beide haben sich ausschließlich darauf geeinigt, den in Ziffer 4 vereinbarten Abgabetermin 30.09.2026 auf 15.10.2026 zu verschieben. Du hattest nachgefragt, ob auch die Vergütung oder andere Fristen geändert werden sollen. Unsere abschließende Antwort lautet: Nein, ausschließlich der Abgabetermin wird geändert, alles andere bleibt unverändert. Beide unterschreiben eigenhändig; Ort und Unterzeichnungsdatum werden bei Unterzeichnung eingetragen. Keine weiteren Anlagen oder Dateien stehen bereit. Wir brauchen keine neue Gesamtfassung, keine Klauselbewertung, keine echte Word-Datei und keinen Versand. Gib den unterschriftsfähigen Vereinbarungstext aus; eine etwaige technische Exportnotiz steht außerhalb dieses Textes.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "target_skill": "writing-einstieg-routing",
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Liefert die vollständige Änderungsvereinbarung mit beiden Parteien, eindeutigem Bezug auf den Vertrag vom 02.03.2026 und Änderung der Ziffer 4 vom 30.09.2026 auf den 15.10.2026.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Lässt Vergütung und alle übrigen Vertragsbestimmungen unverändert und führt keine neuen Haftungs-, Kündigungs-, Gerichtsstands- oder Leistungsklauseln ein.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Übernimmt die abschließende Antwort ohne erneute Grundabfrage oder ein bloßes Angebot, später den Text zu schreiben; lässt nur Ort und Unterzeichnungsdatum ausdrücklich zur Eintragung offen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Enthält passende Unterschriftsbereiche und hält technische Exporthinweise außerhalb des Vereinbarungstextes; behauptet keine erzeugte DOCX, erfolgte Unterschrift oder Versendung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "word-legal-ai-plugin-and-skill-for-german-lawyers/README.md",
+      "word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-werkstatt.md",
+      "word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-schnellstart.md",
+      "quality/evals/word-legal-ai-plugin-and-skill-for-german-lawyers.json"
+    ],
+    "opening_change": "Vereinbarte Änderungen, Kommentare und belegten Vortrag unmittelbar ausformulieren",
+    "norms": [
+      "Paragraf 130a Absatz 3 ZPO",
+      "Paragraf 46c Absatz 3 ArbGG",
+      "Paragraf 126a BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BAG, Beschluss vom 22.01.2025, 7 ABR 23/23",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/7-abr-23-23/",
+        "application": "Mitarbeiterversand verlangt qualifizierte Signatur der verantwortenden Person an der endgültigen Schriftsatzdatei; negativer technischer Vermerk allein nicht unwiderleglich.",
+        "limit": "Amtlicher Volltext Rn. 33 bis 36 gelesen. Arbeitsgerichtlicher Formfall, keine allgemeine Signaturpflicht interner Entwürfe, keine Prüfung aller Vertragsklauseln oder technische Live-Signaturvalidierung."
+      },
+      {
+        "citation": "BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_106-25.pdf?__blob=publicationFile&v=1",
+        "application": "Zusätzliche einfache Signatur eines zweiten Anwalts schadet bei einfacher Signatur und persönlichem beA-Versand durch verantwortenden Anwalt nicht.",
+        "limit": "Rn. 22 lässt die Übermittlung aus einem Gesellschaftspostfach ausdrücklich offen; gewöhnliche Anlagen und qualifizierte Signaturen getrennt prüfen."
+      }
+    ],
+    "remaining_limits": [
+      "Workflow-Review: kein DOCX-Export, keine Sichtprüfung oder Signaturvalidierung; bestehende BAG-Prüfgrenze unverändert, keine neue Vollprüfung der Klauselbibliothek.",
+      "Amtlicher Volltext Rn. 33 bis 36 gelesen. Arbeitsgerichtlicher Formfall, keine allgemeine Signaturpflicht interner Entwürfe, keine Prüfung aller Vertragsklauseln oder technische Live-Signaturvalidierung.",
+      "Kein Live-Word-Export, kein Änderungsnachverfolgungs- oder Signaturtest; vorhandene materielle Vertragsbeispiele nicht sämtlich neu recherchiert.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest."
+    ]
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "word-legal-ai-plugin-and-skill-for-german-lawyers/references/ki-normen-und-fallpruefung.md",
+    "focus": "Trennen Sie interne Entwurfsarbeit, Veröffentlichung und unmittelbaren Mandantendialog. Artikel 50 enthält funktionsabhängige Pflichten und keine pauschale Kennzeichnungspflicht für jeden intern mit KI bearbeiteten Schriftsatz.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

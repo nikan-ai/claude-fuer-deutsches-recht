@@ -1,6 +1,6 @@
 ---
 name: einstweilige-verfuegung-urheber
-description: "Wenn es um Einstweilige Verfügung im Urheberrecht in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Einstweilige Verfügung im Urheberrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einstweilige Verfügung im Urheberrecht
@@ -20,7 +20,7 @@ description: "Wenn es um Einstweilige Verfügung im Urheberrecht in Urheberrecht
 
 ## Wofür dieser Arbeitsgang da ist
 
-Einstweilige Verfügung im Urheberrecht schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite den urheberrechtlichen Eilrechtsschutz anhand des geltend gemachten Anspruchs und der verfügbaren Glaubhaftmachungsmittel vor. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke und verwende die Belege für den angeforderten Antrag oder die Verteidigung.
 
 ## Sofortstart
 

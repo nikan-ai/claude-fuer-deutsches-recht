@@ -1,6 +1,6 @@
 ---
 name: stgb-formular-portal-und-einreichung
-description: "Wenn es um Stgb: Formular, Portal und Einreichungslogik in Fachanwalt Verkehrsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Stgb: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Stgb: Formular, Portal und Einreichungslogik
@@ -46,7 +46,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
  - **Bussgeldstelle (zentrales OWi-Verfahren des jeweiligen Bundeslands):** Einspruch § 67 OWiG.
 - **Gerichte:**
  - **AG (Verkehrsstrafsachen / Bussgeld):** Strafrichter / Schoeffengericht.
- - **LG (Verkehrszivilrecht):** ab Streitwert über 5.000 EUR; Berufung gegen AG-Urteile.
+ - Landgericht im Verkehrszivilrecht: allgemeine erstinstanzliche Zuständigkeit bei einem Streitwert über 10.000 Euro; im Rechtsmittelzug Zuständigkeit und Rechtsmittelgericht nach dem angefochtenen Urteil gesondert bestimmen.
  - **OLG (Rechtsbeschwerde §§ 79, 80 OWiG):** OWi-Sache.
 - **eAkte / beA / MJP-Portal:**
  - **beA (besonderes elektronisches Anwaltspostfach):** zwingend für Anwaltskommunikation mit Gerichten § 130d ZPO (zivilrechtlich); im Strafrecht freiwillig (§ 32a StPO).

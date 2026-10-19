@@ -1,68 +1,37 @@
-Wenn du das hier öffnest, willst du ein Arbeitszeugnis erstellen, prüfen oder berichtigen und sofort eine belastbare Formulierung, Änderungsmatrix oder Anspruchsstrategie erhalten.
+# 1. Arbeitszeugnis im Zusammenhang analysieren
 
-# Arbeitszeugnis Analyse — Schnellstart
+Was sagt das Zeugnis über Leistung und Verhalten aus, und passen Einzelurteile und Gesamtformel zusammen? Liefere einen begründeten Analysebericht mit belegbaren Änderungen; eine Notenspanne nur, soweit der Text sie trägt. Nach Paragraf 109 GewO zählt der verständliche Aussagegehalt. BAG, Urteil vom 15.11.2011, 9 AZR 386/10, Rn. 23 bis 31, verlangt die Gesamtbetrachtung: „kennen gelernt“ ist nicht isoliert als Geheimcode zu werten. Kein Anspruch auf beliebigen Stil; Quellenstand unten.
 
-Ziel: Analyse deutscher Arbeitszeugnisse nach Ampelsystem. Prüft Geheimcodes, Schaufenster-Drift, negative Codeworte, Steigerungsadverbien, Satznoten und Gesamtnotenspanne. Führt vom Erstgespräch über Mandantenbericht und Aufforderungsschreiben bis zur Klagestrategie. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Lies vollständiges Zeugnis, Tätigkeits- und Beurteilungsunterlagen zuerst und übernimm bekannte Beschäftigungsdaten. Erstelle weder ungefragt ein Gesamtzeugnis noch eine Klage. Ein fehlendes Enddatum sperrt nicht die Analyse vorhandener Leistungsabsätze.
 
-## 1. Schnellmodus
+## 2. Tatsächliches Tätigkeitsbild erfassen
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ohne Eingabe biete Aussageanalyse, Fassungsvergleich oder begründete Änderungsvorschläge an. Dateien ohne Aufgabe zunächst still lesen und zwei oder drei passende Wege erfragen, noch keinen Notenbericht. Bei klarem Auftrag direkt liefern; nur entscheidende Lücken klären. „120 Prozent Zielerreichung“ führt zum Abgleich von Ziel, Zeitraum und Eigenanteil und ändert gegebenenfalls die Leistungsformel, nicht automatisch das Verhalten. „Nur sechs Wochen Teamvertretung“ führt zu zeitlich begrenzter Tätigkeitskorrektur, nicht zur erfundenen Dauerführung. Folgeantworten im Bericht und bestellten Brief einarbeiten, bekannte Fakten übernehmen.
 
-## 2. Direktstart
+Ordne Zeugnisart, Zeitraum, Funktion und dokumentierte Entwicklung. Prüfe, welche Aufgaben das Berufsbild prägen und ob Verantwortung oder Führung im Text überhaupt sichtbar werden. Vergleiche Aufgabenumfang und behauptete Leistungen; lange Tätigkeitslisten sind keine positive Leistungsbeurteilung. Unterscheide fehlende Sachangaben von einer nur vermuteten strategischen Auslassung.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 3. Bewertungsachsen getrennt lesen
 
-## 3. Kernroute
+3.1. Leistung: Fachkenntnis, Arbeitsweise, Qualität, Menge und Erfolg anhand vollständiger Sätze untersuchen. Verstärker und Einschränkungen im grammatischen Bezug lesen; ein „stets“ im Verhaltenssatz verbessert nicht automatisch die Gesamtleistung.
 
-1. Zeugnisart und Anspruch: einfach, qualifiziert, Zwischen-, End- oder Ausbildungszeugnis, Fälligkeit, Titel und Vergleichslage bestimmen.
-2. Tätigkeitsbild: Funktion, Aufgaben, Führung, Projekte, Verantwortung, Sonderzweck und Karriereanschluss präzise erfassen.
-3. Leistung und Verhalten: Einzelleistungen, Gesamtformel, Sozialverhalten, Führungsverhalten, Schlussnote und Widersprüche abgleichen.
-4. Klarheit, Wahrheit und Wohlwollen: Geheimcode-Verdacht, Auslassungen, doppeldeutige Formulierungen, Schlussformel und äußere Form prüfen.
-5. Arbeitsprodukt: Zeugnisentwurf, Änderungsmatrix, Aufforderungsschreiben, Klageantrag, Vergleichsklausel oder Vollstreckungsbaustein erstellen.
-6. Deutscher: Tatbestandsmerkmale, Beweisfragen und Beleglage: Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden.
+3.2. Gesamtformel: Bei verlangter Aufwertung von „zur vollen Zufriedenheit“ nach Paragraf 109 Absatz 1 GewO konkrete bessere Leistungen prüfen: BAG, Urteil vom 18.11.2014, 9 AZR 584/13, Rn. 8 bis 13 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/)). Die Formel bezeichnet durchschnittliche Leistung; bloß häufige gute Zeugnisse anderer Arbeitnehmer verschieben die Beweislast nicht. Freie Formulierungen nicht schematisch benoten.
 
-## 4. Fallkarte
+3.3. Verhalten und Führung: Aussagen über Zusammenarbeit, Vorgesetzte, Kollegen, Kunden und gegebenenfalls geführte Beschäftigte getrennt würdigen. Nur tatsächlich relevante Kontaktgruppen erwarten. Die Reihenfolge allein belegt keinen Konflikt.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | GewO Paragraf 109; BGB Paragraf 630; BGB Paragraf 241 Absatz 2 |
-| Rechtsprechung | BAG, Urteil vom 18.11.2014 - 9 AZR 584/13; BAG, Urteil vom 15.11.2011 - 9 AZR 386/10 |
-| Tatbestand | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden |
-| Beweislast | Arbeitnehmer für Berichtigungsziel und bessere Gesamtnote; Arbeitgeber für Wahrheit, Tatsachengrundlage, Auslassungen und formale Erfüllung |
-| Rechtsfolge | Zeugnisentwurf, Berichtigungsmatrix, Aufforderungsschreiben, Klageantrag, Vergleichsklausel oder Vollstreckungsschritt |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+3.4. Gesamtzusammenhang: Prüfe, ob freundliche Einleitung, lange Aufgabenbeschreibung oder wertschätzender Abschluss einen schwachen Leistungsabschnitt überdecken. Eine positive Schlussformel nicht in einen rechnerischen Notendurchschnitt einbeziehen. Unterschiede der Bewertungsbereiche erläutern statt sie künstlich zu glätten.
 
-## 5. Einsatzfelder
+3.5. Mehrdeutigkeit: Nach [Paragraf 109 Absatz 2 GewO](https://www.gesetze-im-internet.de/gewo/__109.html) Klarheit und verdeckte Aussagen prüfen. BAG, Urteil vom 15.11.2011, Az. 9 AZR 386/10, Rn. 23 ff., verlangt die Betrachtung aus objektiver Empfängersicht. [Amtliche Entscheidung](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/). Aus einem einzelnen Wort weder Diebstahl, Krankheit noch sonstiges Fehlverhalten diagnostizieren.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Deutscher: Tatbestandsmerkmale, Beweisfragen und Beleglage | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen- und Risikoampel Arbeitszeugnis | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klagestrategie Zeugnisberichtigung | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Ampelsystem-Tabellenausgabe | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Ampelsystem: Dokumentenmatrix, Lückenliste und Nachforderung | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Codeworte: Compliance-Dokumentation und Aktenvermerk | Zeugnisart, Tätigkeitsbild, Leistungsnote, Sozialverhalten, Auslassung, Form und konkrete Änderungsfassung in einer Matrix verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 4. Aussagegehalt und Berichtigungsbedarf
 
-## 6. Anker
+Nenne je Befund Originalsatz, Abschnitt, Bedeutung im Zusammenhang, Sicherheit der Lesart und gezielte Alternative. Nur auf Wunsch ergänze eine farbliche Orientierung: Grün für im Kontext schlüssige Aussage, Gelb für erklärungsbedürftige oder widersprüchliche Formulierung, Rot für konkret begründeten erheblichen Mangel. Die Farbe ersetzt keine Begründung; Rot bedeutet nicht automatisch einen sicheren Berichtigungsanspruch.
 
-- GewO Paragraf 109: Anspruch auf einfaches oder qualifiziertes Zeugnis, Klarheit, Wahrheit und Verbot versteckter Merkmale.
-- BGB Paragraf 630: Zeugnisanspruch im Dienstverhältnis.
-- BGB Paragraf 241 Absatz 2: Rücksichtnahme auf berufliches Fortkommen und redliche Zeugniserteilung.
-- BGB Paragraf 242: Treu und Glauben bei Schlussformel, Auslassungen, Berichtigung und widersprüchlichem Verhalten.
-- BGB Paragrafen 195, 199: regelmäßige Verjährung; Beginn erst bei Anspruchsentstehung und Kenntnis: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGB Paragrafen 241 Abs. 2, 280: Rücksichtnahme- und Schadensersatzrisiken bei unrichtigem Zeugnis: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- ArbGG Paragrafen 61a, 64, 66: arbeitsgerichtlicher Ablauf und Rechtsmittelkontext: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 195, 199 BGB — Verjährung drei Jahre; beginnt mit Schluss des Ausstellungsjahres: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BAG, Urteil vom 18.11.2014 - 9 AZR 584/13: Zur vollen Zufriedenheit ist die durchschnittliche Schlussnote; eine bessere Bewertung muss der Arbeitnehmer darlegen und beweisen.
-- BAG, Urteil vom 15.11.2011 - 9 AZR 386/10: Zeugnisklarheit wird nach objektivem Empfängerhorizont beurteilt; einzelne Wendungen sind nicht losgelöst als Geheimcode zu behandeln.
+Optional: [Leistungsbeurteilung analysieren](skills/leistungsbeurteilung-analyse/SKILL.md). Dessen Wortlisten sind keine verbindliche juristische Notenskala; ohne die Datei anhand der Bewertungsachsen oben weiterarbeiten. Eine Notenspanne nur erläutert aus den prägenden Aussagen herleiten. Ist der Text zu unbestimmt, gerade diese Unbestimmtheit berichten. Keine mathematische Gesamtnote aus Satznoten bilden.
 
-## 7. Antwortform
+## 5. Bericht statt Codetabelle
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Änderungsmatrix: Satz des Arbeitgebers, Problem, Rechtsanker, gewünschte Fassung, Beleg und Prozessrisiko als Tabelle ausgeben; Zeugnisentwurf: Funktion, Aufgaben, Leistung, Verhalten, Führungsverhalten, Beendigungsgrund und Schlussformel in einem einheitlichen Ton formulieren.
+Liefere Kurzbefund, getrennte Bewertungsachsen, priorisierte Änderungen und belegbare Verbesserungsansätze in vollständigen Sätzen. Vorhandene Leistungsnachweise von bloß gewünschter Aufwertung unterscheiden. Durchsetzbarkeit nur auf Auftrag vertiefen; amtliche Normfassung prüfen, Entscheidungen mit Gericht, Entscheidungsform, Datum, Aktenzeichen und belegter Randnummer zitieren. Optional: [Zitierweise](../references/zitierweise.md).
 
-## 8. Stop
+Fehlt eine prägende Aufgabe, frage nach der konkreten Verantwortung und ihrem Nachweis. Wird eine bessere Leistungsnote gewünscht, bitte um die einschlägige Beurteilung oder belegte Zielerreichung. Nach der Antwort den betroffenen Absatz, seine Bewertung und den Formulierungsvorschlag aktualisieren; eine Behauptung nicht allein wegen ihrer Nachreichung als bewiesen behandeln. Neue entscheidende Unklarheiten kurz nachfragen, Bekanntes nicht erneut abfragen. Bei fehlendem Nachweis den übrigen Bericht liefern und nach Eingang bis zur beauftragten Endfassung weiterarbeiten.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Ist ein Schreiben bestellt, formuliere es nach Klärung der Änderungen vollständig; eine Analyse allein erledigt diesen Auftrag nicht. Interne Quellenprüfung und Recherchegrenzen gesondert notieren, nicht in den Mandantenbrief übernehmen. Dezimale Gliederung mit Leerzeilen und Times New Roman 11 pt beziehungsweise Exporthinweis verwenden. Ohne Datei- oder Exportzugriff die konkrete Einschränkung nennen und den verfügbaren Text liefern, keine gelesenen Seiten oder erzeugten Dateien erfinden. Externe Versendung nur nach ausdrücklicher Freigabe.

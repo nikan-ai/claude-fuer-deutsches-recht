@@ -1,6 +1,6 @@
 ---
 name: output-generator-pack
-description: "Wenn es um Output Generator Pack in Venture Capital Geber geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Output Generator Pack: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Output Generator Pack
@@ -40,3 +40,4 @@ Vom Denken zum verwendbaren Dokument kommen.
 ## Quellen- und Qualitätsregel
 
 Wenn KAGB, BaFin, Wertpapieraufsicht, GmbH-Formalia, Steuer, Sanktionen, FDI, Kartellrecht, Datenschutz, AI Act oder internationale Securities-Themen berührt sind, nicht aus Modellwissen final entscheiden. Aktuelle amtliche Quellen oder lokale Counsel verlangen und die Ausgabe als Struktur-/Prüfvermerk kennzeichnen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Aussagen zur Produktreife mit belastbaren Systemtests, Rollen und geltenden Pflichtenterminen. Ein ISO-Zertifikat des Dienstleisters darf keine unbeschränkte Garantie des Startups begründen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

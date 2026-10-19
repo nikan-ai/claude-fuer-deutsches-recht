@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "plugin": "lobbyregister-bundestag",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/lobbyrg/__2.html",
+      "checked_on": "2026-09-14",
+      "supports": "Alternative Registrierungstatbestände und adressatenbezogene Ausnahmen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/lobbyrg/__3.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 3: unverzügliche, quartalsbezogene und geschäftsjahresbezogene Aktualisierung."
+    },
+    {
+      "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2025-N-16380?all=False",
+      "checked_on": "2026-09-22",
+      "supports": "Gesetzliche Interessenvertretung einer Handwerkskammer als tätigkeitsbezogene Registerausnahme einordnen. Amtlicher Tenor und Gründe geprüft. Bayerisches Recht; keine Bundesregisterentscheidung oder Freistellung aller Wirtschaftsverbände."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html",
+      "supports": "Aktueller amtlicher Normtext: öffentliche Aufgaben juristischer Personen des öffentlichen Rechts nach Paragraf 2 Absatz 2 Nummer 6; Verweisung für Bundesregierung in Absatz 3 Nummer 6.",
+      "checked_on": "2026-09-22"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig gelesen und um drei Einstiegsmodi, Reichweite eines Auskunftsersuchens, Agenturkette und konkrete Feldfortschreibung ergänzt. Bestehende Fristen und Kammerabgrenzung erhalten; kein Live-Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Zweck und Bundesnorm vor Startauswahl gestellt; Handwerkskammerfall auf bayerische Tätigkeit begrenzt.",
+    "changes": [
+      "Öffentliche Aufgaben einer Kammer von privater Verbandsarbeit abgegrenzt.",
+      "Aktuelle fachgerichtliche Entscheidung mit ausdrücklicher Beschränkung auf bayerisches Registerrecht eingesetzt.",
+      "Vorhandene Aktualisierungstakte, Nachforderung und fertige Feldtexte erhalten.",
+      "Neuer Nachweis einer Hauptagentur ändert bezeichnete Registerdatei und Personenzuordnung; übermittelte Stellungnahme und bereinigte öffentliche Fassung getrennt prüfen.",
+      "Redaktion 16.10.2026: Zweck und Bundesnorm vor Startauswahl gestellt; Handwerkskammerfall auf bayerische Tätigkeit begrenzt. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "79e7b54a3ea616458ca8f7072ee43a807c824bc22fcebe48845c28aa47df2998"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell um gemischte Tätigkeiten, adressatenabhängige Ausnahmen, Agenturketten, Finanzzuordnung, zusammentreffende Meldetermine und öffentliche Dokumentfassungen vertieft. Kein Live-Portal- oder Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Zweck und Bundesnorm vor Startauswahl gestellt; Handwerkskammerfall auf bayerische Tätigkeit begrenzt.",
+    "changes": [
+      "Öffentliche Aufgaben einer Kammer von privater Verbandsarbeit abgegrenzt.",
+      "Aktuelle fachgerichtliche Entscheidung mit ausdrücklicher Beschränkung auf bayerisches Registerrecht eingesetzt.",
+      "Vorhandene Aktualisierungstakte, Nachforderung und fertige Feldtexte erhalten.",
+      "Individuelles Auskunftsersuchen gegen eigenen Änderungswunsch abgrenzen; lokale Bundestagsausnahme nicht auf Regierungskontakte übertragen.",
+      "Rahmenvertrag, unmittelbaren Auftraggeber, Hauptagentur, Unterauftragnehmer und eingesetzte Personen konsistent zuordnen.",
+      "Finanzmittel und Aufwendungen getrennt abstimmen; September-Beispiel trennt unverzügliche Änderung, Quartalsende und Geschäftsjahresfrist einschließlich fehlendem Abschluss.",
+      "Exakt übermittelte Stellungnahme, förmliche Veröffentlichung, Personenbereinigung und Maschinenlesbarkeit als getrennte Prüfschritte bearbeiten.",
+      "Redaktion 16.10.2026: Zweck und Bundesnorm vor Startauswahl gestellt; Handwerkskammerfall auf bayerische Tätigkeit begrenzt. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "098bf0409a971c546e18b85907d3aebd90839f05c579e9f7c7eed688a742bd4b"
+  },
+  "selection": {
+    "positive": [
+      "Ordnen Sie unseren neuen Auftraggeber und Finanzbericht den Aktualisierungsfristen zu.",
+      "Prüfen Sie die Registrierung einer dauerhaft beauftragten Interessenvertretung."
+    ],
+    "negative": [
+      "Prüfen Sie eine Parteispende nach Parteienrecht ohne Lobbytätigkeit.",
+      "Melden Sie einen Verein ausschließlich zum Vereinsregister an."
+    ]
+  },
+  "cases": [
+    {
+      "id": "drei-aenderungstakte",
+      "request": "Erstellen Sie ergebnis.md als Aktualisierungsplan zum 14.09.2026 für eine bereits registrierte Interessenvertretungs-GmbH. Geschäftsjahresende war 31.03.2026. Am 10.09.2026 wurde ein neuer Auftraggeber angenommen, für den dauerhaft Bundestagskontakte erfolgen. Am 11.09.2026 ging eine grundlegende Stellungnahme zu einem bereits eingetragenen Regelungsvorhaben an ein Mitglied des Bundestages; sie wurde in keinem förmlichen Beteiligungsverfahren veröffentlicht. Die Finanzangaben für das abgelaufene Geschäftsjahr sind fertig, aber noch nicht eingetragen. Erarbeiten Sie die internen nächsten Schritte, ohne etwas zu veröffentlichen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der neue Auftraggeber wird unverzüglich zu aktualisierenden Angaben zugeordnet und nicht bis zur Jahresmeldung zurückgestellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Für die Stellungnahme wird spätestens der 30.09.2026 mit Anonymisierung und maschinenlesbarer Fassung vorgesehen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Geschäftsjahresaktualisierung wird spätestens zum 30.09.2026 mit Gesamtprüfung und Richtigkeitsbestätigung geplant; eine Veröffentlichung wird nicht behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "geschaeftsjahresaktualisierung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "lobbyregister-bundestag/lobbyregister-bundestag-werkstatt.md",
+      "lobbyregister-bundestag/lobbyregister-bundestag-schnellstart.md"
+    ],
+    "opening_change": "Eintragungspflicht aus konkretem Kontakt und daraus folgende Registerfelder statt unspezifischem Registervorgang.",
+    "norms": [
+      "Paragrafen 1 bis 5 und 7 LobbyRG",
+      "Paragraf 2 Absatz 2 Nummer 6 und Absatz 3 Nummer 6 LobbyRG",
+      "Artikel 2 Satz 1 Nummer 3 Buchstabe c BayLobbyRG ausschließlich für den bayerischen Vergleichsfall"
+    ],
+    "decisions": [
+      {
+        "citation": "VG München, Urteil vom 3. Juni 2025, M 30 K 23.817",
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2025-N-16380?all=False",
+        "application": "Gesetzliche Interessenvertretung einer Handwerkskammer als tätigkeitsbezogene Registerausnahme einordnen.",
+        "limit": "Amtlicher Tenor und Gründe geprüft. Bayerisches Recht; keine Bundesregisterentscheidung oder Freistellung aller Wirtschaftsverbände.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Keine Live-Modellprüfung; Quelle und Register- beziehungsweise Verfahrensstand sind für den konkreten Fall zusätzlich abzugleichen.",
+      "Nachprüfung am 2026-09-23: Alle Profilquellen erneut aufgerufen. LobbyRG-Gesamttext und Paragrafen 2 und 3 lesbar, einschließlich adressatenabhängiger Ausnahmen, Auftraggeberangaben, Aktualisierungstakten und Abschlussnachlieferung. Amtlicher PDF-Link zum VG München und alternative HTML-Fassung technisch unzugänglich. Frühere Urteilsprüfung bleibt historischer Stand; keine erneute Volltextverifikation, Portalveröffentlichung oder technische Anonymisierungsprüfung behauptet."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "lobbyregister-bundestag/lobbyregister-bundestag-schnellstart.md",
+        "lobbyregister-bundestag/lobbyregister-bundestag-werkstatt.md"
+      ],
+      "result": "Ausnahme für die gesetzliche Interessenvertretung der Handwerkskammer bleibt tätigkeitsbezogen und bayerisch; nicht auf Bundesregister oder alle Wirtschaftsverbände erweitert.",
+      "search_2026": "Amtlicher Suchlauf bestätigte M 30 K 23.817 aus 2025, keine neue passende Bundesregisterentscheidung 2026 verifiziert.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Kontakt auf Registrierungspflicht prüfen, Eintrag aktualisieren oder Registerstelle beantworten.",
+      "Dateien ohne Aufgabe: Eintrag, Kontakt- und Finanzbelege still lesen und nur den Bearbeitungszweck klären.",
+      "Klarer Auftrag: Pflichtbewertung oder Feldtexte direkt ausarbeiten; nur entscheidende Kontakt-, Rechtsträger-, Betrags- oder Zeitlücke fragen."
+    ],
+    "continuation": "Nachgereichter Hauptagenturvertrag verändert im vereinbarten Pfad, beispielsweise register/aenderungsentwurf.md, Auftraggeber- und Personenzuordnungen sowie den beauftragten register/aktualisierungsplan.md; geklärte Geschäftsjahreszahlen bleiben Grundlage.",
+    "enrichment": "Gemischte Tätigkeiten und Auskunftsersuchen, lokale und anwaltliche Ausnahmen, Agenturketten, abgestimmte Finanzzuordnung, zusammentreffende Aktualisierungstakte und dokumentbezogene Veröffentlichungsprüfung.",
+    "limits": "desk review; no live client execution"
+  }
+}

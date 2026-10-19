@@ -1,0 +1,208 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Pflichtinterview vor Behördenpost durch aktenbasierten Einstieg ersetzt; Sparte und fristauslösendes Ereignis steuern nur notwendige Rückfragen.",
+    "files": [
+      {
+        "path": "bundesnetzagentur-verfahren/README.md",
+        "sha256": "8b2f8a3f2ee8f488d8fd5c38024e27c8fadfa7913292438ca76212efa2f70cc6"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Sektor und gewünschtes Behördenschreiben bestimmen den Einstieg; Geheimnisschutz und Veröffentlichungsbefugnis werden getrennt erklärt.",
+    "norms_or_source_basis": "Paragrafen 71 und 78 EnWG",
+    "selected_anchor_identifiers": [
+      "EnVR 12/18"
+    ],
+    "application_limit": "Historischer Paragraf 31 ARegV; keine pauschale Geheimhaltung sämtlicher Netzdaten.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/bundesnetzagentur-verfahren/bundesnetzagentur-verfahren-schnellstart.md",
+      "status": "changed",
+      "sha256": "927d92960c791ecc8737d75f39237846ae43f44701d22395b1a8449aa2ceb239",
+      "characters": 6509,
+      "utf8_bytes": 6620,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/bundesnetzagentur-verfahren/bundesnetzagentur-verfahren-werkstatt.md",
+      "status": "changed",
+      "sha256": "bd462587ad1fa0112ba61ed05363f84346e6c8b4a5a71d00a89ac661ad0d614c",
+      "characters": 16103,
+      "utf8_bytes": 16379,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "bundesnetzagentur-verfahren",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__75.html",
+      "checked_on": "2026-09-14",
+      "supports": "Beschwerde gegen Regulierungsentscheidungen und ausschließliche oberlandesgerichtliche Zuständigkeit."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__78.html",
+      "checked_on": "2026-09-14",
+      "supports": "Einlegung beim Beschwerdegericht, getrennte Einlegungs- und Begründungsfristen sowie anwaltliche Unterzeichnung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__84.html",
+      "checked_on": "2026-09-14",
+      "supports": "Gerichtliche Akteneinsicht und Schutz von Geschäftsgeheimnissen als verfahrensstufenbezogene Regel."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/ki-mig/__2.html",
+      "checked_on": "2026-09-14",
+      "supports": "Auffangzuständigkeit der Bundesnetzagentur und fachliche sowie landesbezogene Ausnahmen für KI-Marktüberwachung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/KartS/2018/EnVR__12-18.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 8. Oktober 2019, EnVR 12/18, berichtigt am 25. Februar 2020, Randnummern 19 bis 30. Anwendung: Geschäftsgeheimnisse auch bei aussagekräftigen Rückschlüssen aus Aggregaten; Ermächtigung zur Veröffentlichung getrennt prüfen. Grenze: Damals Paragraf 31 ARegV; Erlösobergrenze und Regulierungskontosaldo nicht unterschiedslos geheim."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg/__78.html",
+      "checked_on": "2026-09-22",
+      "supports": "Beschwerdefrist, Begründung und Anwaltsunterzeichnung im EnWG-Verfahren; kein allgemeiner VwGO-Ersatz."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__78.html",
+      "checked_on": "2026-09-23",
+      "supports": "Einlegung ab Zustellung und Begründung ab Einlegung mit jeweils eigener Monatsfrist; konkrete Verlängerungsentscheidung erforderlich."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Mini verlangt konkrete Geheimnisfolgen und die passende Veröffentlichungsbefugnis statt pauschaler Schwärzung sämtlicher Unternehmensdaten. Individueller Text- und Quellenreview, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Einstiegsredaktion 16.10.2026, Batch 2: Sektor und gewünschtes Behördenschreiben bestimmen den Einstieg; Geheimnisschutz und Veröffentlichungsbefugnis werden getrennt erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "EnVR 12/18 einschließlich Berichtigung und Ausnahmen bei Erlösobergrenze/Regulierungskontosaldo eingeordnet.",
+      "Geheimnisqualität, gesetzliche Offenlegungsbefugnis und Interessenabwägung getrennt.",
+      "Leer: Datenauskunft, Kostenbeschwerde oder Veröffentlichungsschutz. Dateien: still lesen und sektorgerechtes Dokument anbieten. Klar: direkt Antwort, Beschwerde oder Schutzantrag ausarbeiten.",
+      "Konzerndaten ändern Abgrenzung; tatsächliche Einlegung ändert Begründungsfrist; öffentliche Quelle verengt Geheimnisschutzfassung.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Sektor und gewünschtes Behördenschreiben bestimmen den Einstieg; Geheimnisschutz und Veröffentlichungsbefugnis werden getrennt erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "927d92960c791ecc8737d75f39237846ae43f44701d22395b1a8449aa2ceb239"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie den Rechtsbehelf gegen einen zugestellten Netzentgeltbeschluss der Bundesnetzagentur.",
+      "Erstellen Sie eine begründete Antwort auf ein sektorspezifisches Auskunftsersuchen mit Geschäftsgeheimnissen."
+    ],
+    "negative": [
+      "Führen Sie einen gewöhnlichen Kaufpreisprozess gegen einen Stromkunden ohne Regulierungsentscheidung.",
+      "Prüfen Sie eine kommunale Gewerbeuntersagung ohne Bundesnetzagenturbezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "enwg-einlegung-und-begruendung",
+      "request": "Die Netz GmbH war Beteiligte eines EnWG-Regulierungsverfahrens. Der abschließende Beschluss der Bundesnetzagentur über ihre Netzentgelte wurde ihr am 3. September 2026 zugestellt. Am 14. September bittet sie um einen Rechtsmittelvermerk. Sie möchte sich gegen die nicht anerkannte Kostenposition von 80000 Euro wenden; die Detailbegründung soll später anhand der Kostenunterlagen entstehen. Ein Mitarbeiter schlägt einen Widerspruch bei der Behörde und anschließend Klage beim Verwaltungsgericht vor. Ein Rechtsanwalt ist beauftragt, hat aber noch nichts eingereicht. Erstellen Sie die richtige Verfahrensroute und einen Entwurf zur Einlegung mit offen markiertem gerichtlichem Aktenzeichen. Eilrechtsschutz und inhaltliche Berechtigung der Kostenposition sollen gesondert vorbehalten bleiben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Ergebnis wählt die EnWG-Beschwerde zum zuständigen Oberlandesgericht und nicht allgemeinen Widerspruch mit Verwaltungsgerichtsklage.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Es trennt die Monatsfrist ab Zustellung für die Einlegung von der Monatsfrist ab tatsächlicher Einlegung für die Begründung und nennt das Beschwerdegericht als Einreichungsstelle.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Entwurf bezeichnet den Beschluss und die angegriffene Kostenposition, wahrt die anwaltliche Einreichungsanforderung und erfindet weder eine bereits eingereichte Beschwerde noch vollständige Kostenbelege oder automatische Vollzugshemmung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "energie-regulierungsakte-netzentgelte-strom-rechtsmittel-check"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt unterscheidet Energie-Rechtsbeschwerde, Verwaltungsrechtsschutz und Geheimnisschutz; aggregierte Rückschlüsse und nicht geheime Kennzahlen werden differenziert. Die bezeichneten Anker wurden am amtlichen Entscheidungstext geprüft; keine pauschale Vollverifikation aller Nebenmaterien. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Einstiegsredaktion 16.10.2026, Batch 2: Sektor und gewünschtes Behördenschreiben bestimmen den Einstieg; Geheimnisschutz und Veröffentlichungsbefugnis werden getrennt erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "EnVR 12/18 einschließlich Berichtigung und Ausnahmen bei Erlösobergrenze/Regulierungskontosaldo eingeordnet.",
+      "Geheimnisqualität, gesetzliche Offenlegungsbefugnis und Interessenabwägung getrennt.",
+      "Rechtsträger- und Messdatenabgrenzung, Kostenbeweis, getrennte Beschwerdefristen und vollständige/veröffentlichungsfähige Fassungen vertieft.",
+      "Konzerndaten ändern Abgrenzung; tatsächliche Einlegung ändert Begründungsfrist; öffentliche Quelle verengt Geheimnisschutzfassung.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Sektor und gewünschtes Behördenschreiben bestimmen den Einstieg; Geheimnisschutz und Veröffentlichungsbefugnis werden getrennt erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "bd462587ad1fa0112ba61ed05363f84346e6c8b4a5a71d00a89ac661ad0d614c"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Datenauskunft, Kostenbeschwerde oder Veröffentlichungsschutz.",
+      "Dateien: still lesen und sektorgerechtes Dokument anbieten.",
+      "Klar: direkt Antwort, Beschwerde oder Schutzantrag ausarbeiten."
+    ],
+    "continuation": "Konzerndaten ändern Abgrenzung; tatsächliche Einlegung ändert Begründungsfrist; öffentliche Quelle verengt Geheimnisschutzfassung.",
+    "enrichment": "Rechtsträger- und Messdatenabgrenzung, Kostenbeweis, getrennte Beschwerdefristen und vollständige/veröffentlichungsfähige Fassungen vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "bundesnetzagentur-verfahren/README.md",
+      "bundesnetzagentur-verfahren/bundesnetzagentur-verfahren-werkstatt.md",
+      "bundesnetzagentur-verfahren/bundesnetzagentur-verfahren-schnellstart.md",
+      "quality/evals/bundesnetzagentur-verfahren.json"
+    ],
+    "opening_change": "Bestimmte Auskunft, Festlegung oder Veröffentlichung angreifen und fristgebunden beantworten.",
+    "norms": [
+      "Paragrafen 71 und 78 EnWG",
+      "Paragraf 31 ARegV in der entscheidungserheblichen damaligen Fassung"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 8. Oktober 2019, EnVR 12/18, berichtigt am 25. Februar 2020, Randnummern 19 bis 30",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/KartS/2018/EnVR__12-18.pdf?__blob=publicationFile&v=1",
+        "application": "Geschäftsgeheimnisse auch bei aussagekräftigen Rückschlüssen aus Aggregaten; Ermächtigung zur Veröffentlichung getrennt prüfen.",
+        "limit": "Damals Paragraf 31 ARegV; Erlösobergrenze und Regulierungskontosaldo nicht unterschiedslos geheim.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Keine vollständige Neuprüfung von Post-, Eisenbahn-, TKG- und DSA-Recht; aktuelle Festlegungen und Fristen im Einzelverfahren prüfen.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "bundesnetzagentur-verfahren/bundesnetzagentur-verfahren-schnellstart.md",
+        "bundesnetzagentur-verfahren/bundesnetzagentur-verfahren-werkstatt.md"
+      ],
+      "result": "Geheimhaltung von Aggregaten und gesetzliche Veröffentlichungsermächtigung werden getrennt; die Prompts erklären nicht unterschiedslos alle Netzentgeltdaten für geheim.",
+      "search_2026": "Suche nach 2026-Entscheidungen zu EnVR, Geschäftsgeheimnissen und BNetzA ergab überwiegend ältere Fälle, keine konkret geeignete neue Entscheidung verifiziert.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  }
+}

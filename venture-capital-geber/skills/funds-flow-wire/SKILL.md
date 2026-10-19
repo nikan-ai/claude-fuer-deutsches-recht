@@ -1,6 +1,6 @@
 ---
 name: funds-flow-wire
-description: "Wenn es um Funds Flow und Zahlungen in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Funds Flow und Zahlungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Funds Flow und Zahlungen
@@ -48,3 +48,4 @@ Geld richtig, sicher und dokumentiert bewegen.
 ## Quellen- und Qualitätsregel
 
 Wenn KAGB, BaFin, Wertpapieraufsicht, GmbH-Formalia, Steuer, Sanktionen, FDI, Kartellrecht, Datenschutz, AI Act oder internationale Securities-Themen berührt sind, nicht aus Modellwissen final entscheiden. Aktuelle amtliche Quellen oder lokale Counsel verlangen und die Ausgabe als Struktur-/Prüfvermerk kennzeichnen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Aussagen zur Produktreife mit belastbaren Systemtests, Rollen und geltenden Pflichtenterminen. Ein ISO-Zertifikat des Dienstleisters darf keine unbeschränkte Garantie des Startups begründen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

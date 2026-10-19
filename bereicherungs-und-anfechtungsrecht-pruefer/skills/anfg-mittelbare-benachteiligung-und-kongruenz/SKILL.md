@@ -1,6 +1,6 @@
 ---
 name: anfg-mittelbare-benachteiligung-und-kongruenz
-description: "Wenn es um Mittelbare Benachteiligung und Kongruenz — AnfG in bereicherungs-und-anfechtungsrecht-prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mittelbare Benachteiligung und Kongrünz — AnfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mittelbare Benachteiligung und Kongruenz — AnfG
@@ -18,10 +18,6 @@ description: "Wenn es um Mittelbare Benachteiligung und Kongruenz — AnfG in be
 - § 3 AnfG — Vorsatzanfechtung (verschärft durch inkongruente Deckung als Indiz)
 - § 4 AnfG — Unentgeltliche Leistung (stets unmittelbare Benachteiligung)
 - § 142 InsO — Bargeschäftsprivileg (analoge Anwendung im AnfG str.)
-
-## Rechtsprechung (BGH — Benachteiligung und Kongruenz)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Gläubigerbenachteiligung als Voraussetzung
 
@@ -64,31 +60,9 @@ Die Benachteiligung tritt erst durch das Hinzutreten weiterer Umstände ein.
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Materien- und Quellenkontrolle
 
-- § 812 BGB (Herausgabeanspruch ungerechtfertigte Bereicherung)
-- § 813 BGB (Leistung trotz Einrede)
-- § 814 BGB (Kenntnis der Nichtschuld)
-- § 815 BGB (Nichteintritt des Erfolges)
-- § 817 BGB (Verstoß gegen Verbotsgesetz)
-- § 818 BGB (Umfang des Bereicherungsanspruchs)
-- § 819 BGB (verschärfte Haftung)
-- § 820 BGB (Verbrauchskondiktion)
-- § 821 BGB (Einrede der Bereicherung)
-- §§ 119, 123 BGB (Anfechtung Willenserklärung)
+Anfechtung einer Willenserklärung nach Paragraf 119 oder 123 BGB, bereicherungsrechtliche Rückabwicklung nach Paragraf 812 folgende BGB, Gläubigeranfechtung nach dem Anfechtungsgesetz und Insolvenzanfechtung nach Paragraf 129 folgende InsO sind getrennte Anspruchssysteme. Zuerst Anspruchsberechtigter, Anfechtungsgegner, Rechtshandlung, Benachteiligung, subjektive Merkmale, Frist und Rechtsfolge bestimmen. Eine Entscheidung aus einem anderen System nur nach ausdrücklicher Prüfung ihrer Übertragbarkeit verwenden; jedes Zitat benötigt Gericht, Datum, Aktenzeichen, tragende Aussage und Quelle.
 
-### Leitentscheidungen
-
-- BGH XI ZR 116/15 (Leistungskondiktion bei verdeckter Provision)
-- BGH VIII ZR 91/04 (Saldotheorie)
-- BGH V ZR 215/11 (Nichteintritt des Erfolges)
-- BGH IX ZR 196/14 (Insolvenzanfechtung)
-- BGH XI ZR 233/16 (Kontoeröffnungs-Anfechtung)
-
-### Anwendung im Skill
-
-- Leistungs- vs. Nichtleistungskondiktion strikt trennen; § 812 Abs. 1 S. 1 1. Alt. BGB ist kein Auffang.
-- Saldotheorie BGH VIII ZR 91/04 bei nichtigen Vertraegen anwenden; Zwei-Kondiktionen-Lehre als Gegenmodell prüfen.
-- Anfechtung §§ 119, 123 BGB binnen Jahresfrist § 124 BGB; verschaerfte Haftung § 819 BGB ab Kenntnis.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

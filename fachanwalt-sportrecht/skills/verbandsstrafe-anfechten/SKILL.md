@@ -1,6 +1,6 @@
 ---
 name: verbandsstrafe-anfechten
-description: "Wenn es um Verbandsstrafe Anfechten in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verbandsstrafe Anfechten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verbandsstrafe Anfechten: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -53,14 +53,12 @@ description: "Wenn es um Verbandsstrafe Anfechten in Fachanwalt Sportrecht geht:
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 
 ---
+
+### Berufssperre und gerichtlicher Rechtsschutz
+
+Bei Berufssperren [EuGH, Urteil vom 16.07.2026, C-424/24 und C-425/24 – FIGC/CONI](https://juris.curia.europa.eu/juris/document/document.jsf?docid=313633&doclang=DE), Rn. 78–80, 87–92 und 111–117, anwenden: Sanktion an transparenten, objektiven, verhältnismäßigen Kriterien messen; wirksame Kontrolle samt Aufhebung und Eilschutz sicherstellen. Eine spätere reine Entschädigungskontrolle kann genügen, wenn bereits das letztinstanzliche Sportorgan alle EU-Gerichtsanforderungen erfüllt. Unabhängigkeit, gesetzliche Errichtung, Verfahren und Kontrollbefugnisse konkret prüfen; keine Pflicht zu zwei Gerichtsinstanzen.
 
 ## Prüfschema (14 Schritte)
 
@@ -70,12 +68,9 @@ description: "Wenn es um Verbandsstrafe Anfechten in Fachanwalt Sportrecht geht:
 | 2 | Formelle Wirksamkeit: Ordnungsgemäße Besetzung des Gremiums? | Satzung; § 25 BGB |
 | 3 | Anhörungsrecht gewährt — schriftlich und mit angemessener Frist? | Art. 103 Abs. 1 GG analog |
 | 4 | Akteneinsicht in Disziplinarakten gewährt oder verweigert? | Verfahrensgrundsätze |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 6 | Tatbestand der Sanktionsnorm tatsächlich erfüllt? | Materielle Prüfung |
 | 7 | Verschulden nachgewiesen (Vorsatz / Fahrlässigkeit)? | Verbandssatzung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Verbandsinterne Rechtsmittel ausgeschöpft (Berufungsinstanz)? | Satzung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Vorläufiger Rechtsschutz nötig (Saison, Existenz)? | § 935 ZPO; CAS R37 |
 | 13 | EU-Wettbewerbsrecht relevant (Monopol-Strukturen, Bosman)? | Art. 101, 102 AEUV |
 | 14 | Parallelweg Strafrecht (§ 4 AntiDopG) koordinieren? | AntiDopG |
@@ -245,10 +240,8 @@ Mit freundlichen Grüßen
 
 | Verband-Argument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Schiedsklausel schließt Staatsgericht aus" | § 1033 ZPO: einstweilige Verfügung trotzdem möglich; BGH Pechstein: strukturelle Ausgewogenheit prüfen |
 | "Verfahren ordnungsgemäß" | Protokoll analysieren; Anhörungsrecht und Akteneinsicht nachweisen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Doping: strict liability" | WADA-Code Art. 10.5, 10.6: Schuldminderung; Quellnachweis |
 
 ---

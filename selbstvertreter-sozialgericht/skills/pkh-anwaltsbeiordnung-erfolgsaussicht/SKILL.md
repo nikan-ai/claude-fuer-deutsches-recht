@@ -1,6 +1,6 @@
 ---
 name: pkh-anwaltsbeiordnung-erfolgsaussicht
-description: "Wenn es um PKH-Bewilligung — die Erfolgsaussicht in selbstvertreter-sozialgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für PKH-Bewilligung — die Erfolgsaussicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # PKH-Bewilligung — die Erfolgsaussicht
@@ -35,7 +35,6 @@ Damit Sie Prozesskostenhilfe bekommen, muss Ihre Klage Aussicht haben. Wenn das 
 
 - **§ 73a SGG** — PKH-Voraussetzungen.
 - **§ 114 ZPO** — Hinreichende Erfolgsaussicht, keine Mutwilligkeit.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Anleitung
 
@@ -109,4 +108,4 @@ Niemals offen aggressiv schreiben — sachlich bleiben.
 
 ## Quellen und Aktualitaet
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

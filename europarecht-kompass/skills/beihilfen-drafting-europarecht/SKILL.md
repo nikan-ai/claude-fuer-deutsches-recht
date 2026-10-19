@@ -1,6 +1,6 @@
 ---
 name: beihilfen-drafting-europarecht
-description: "Wenn es um Beihilfen: Compliance-Dokumentation und Aktenvermerk in Europarecht-Kompass für deutsche Juristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Beihilfen: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Beihilfen: Compliance-Dokumentation und Aktenvermerk
@@ -31,24 +31,4 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 267 AEUV
-- Art. 263 AEUV
-- Art. 258 AEUV
-- Art. 288 AEUV
-- Art. 265 AEUV
-- Art. 19 EUV
-- Art. 6 EUV
-- Art. 260 AEUV
-- Art. 294 AEUV
-- Art. 108 AEUV
-- Art. 228 AEUV
-- Art. 227 AEUV
-
-### Leitentscheidungen
-
-- EuGH C-6/64
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

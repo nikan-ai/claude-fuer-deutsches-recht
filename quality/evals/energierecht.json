@@ -1,0 +1,240 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Fehlender Systemanschluss führt nicht mehr automatisch zu Testdaten; reale Unterlagen/Exporte haben Vorrang, Simulation nur ausdrücklich für Übungen.",
+    "files": [
+      {
+        "path": "energierecht/README.md",
+        "sha256": "eec9e76bd8e59b530a5f024ad79fce3e29c6dfa3b5d93d5b0c785bbc29a14d63"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Rechnung, Netzanschluss oder Vertragsstreit führen zum passenden Schreiben; Verbrauchssprung und Einwendungsrecht werden eng verknüpft.",
+    "norms_or_source_basis": "Paragraf 17 Absatz 1 Satz 2 StromGVV",
+    "selected_anchor_identifiers": [
+      "VIII ZR 148/17"
+    ],
+    "application_limit": "Vorhandener amtlich indexierter Leitsatzstatus, keine Volltextbestätigung; kein allgemeines Zahlungsverweigerungsrecht für Sonderverträge.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/energierecht/energierecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "da692ea9a833c4abe376beb31c22adf4d66fa243074dd2d29274e62df238259d",
+      "characters": 6639,
+      "utf8_bytes": 6728,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/energierecht/energierecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "42f278a4ae7adfa78f3cb3b85f458863b1a96d2f4e2af317561ebc66da6caefe",
+      "characters": 19628,
+      "utf8_bytes": 19937,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "energierecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__111a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Antwort auf Verbraucherbeschwerden binnen vier Wochen ab Zugang sowie Gründe und Schlichtungshinweise bei Nichtabhilfe."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2017/VIII_ZR_148-17.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 07.02.2018, Az. VIII ZR 148/17: Konkrete unerklärliche Verbrauchssteigerung kann ernsthafte Möglichkeit eines offensichtlichen Fehlers begründen; berechtigte Einwendungen im Zahlungsprozess widerlegen. Grenze: Einzelfall der Stromgrundversorgung, keine beliebige Beanstandung und keine automatische Übertragung auf Sondervertrag oder Energieprojekte."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stromgvv/__17.html",
+      "checked_on": "2026-09-22",
+      "supports": "Geltenden Wortlaut gelesen; Absatz 1 Satz 2 Nummern 1 und 2 unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__111a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Vierwöchige Beschwerdeantwort ab Zugang und Hinweise bei Nichtabhilfe im Volltext geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/eeg_2014/__8.html",
+      "checked_on": "2026-09-22",
+      "supports": "Absätze 6 und 7 vollständig gelesen: Informationsauslöser, Achtwochenfrist und Sonderverfahren kleiner Anlagen; keine allgemeine Baufrist."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/eeg_2014/__51a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Verlängerung des Vergütungszeitraums bei negativen Preisen, keine Inflationsanpassung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bimschg/__16.html",
+      "checked_on": "2026-09-22",
+      "supports": "Volltext der wesentlichen Anlagenänderung gelesen; bloßer Betreiberwechsel kein dort geregelter Änderungsgrund."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stromgvv/__5.html",
+      "checked_on": "2026-09-23",
+      "supports": "Preisänderungsnachweise und Sechswochenvorlauf in der Grundversorgung nach Gegenprüfung ausdrücklich erhalten. Amtlichen Normtext gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gasgvv/__5.html",
+      "checked_on": "2026-09-23",
+      "supports": "Preisänderungsnachweise und Sechswochenvorlauf in der Grundversorgung nach Gegenprüfung ausdrücklich erhalten. Amtlichen Normtext gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__111a.html",
+      "supports": "Erneuter Normabruf zur Verbraucherbeschwerde und Antwortfrist von vier Wochen ab Zugang; nicht mit gerichtlicher Frist oder Anschlussfrist gleichsetzen.",
+      "checked_on": "2026-09-23"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Rechenbeispiel und Verbraucherbeschwerde mit begrenztem Zahlungseinwand aus VIII ZR 148/17 verbunden; keine pauschale Zahlungsverweigerung. Workflow-Ergänzung einzeln geprüft: Neue Wärmepumpe oder belegter Zählerwechsel -> Verbrauchsperioden, Rechnungsabwehr und Antrag ändern; nicht jede Mehrmenge als Abrechnungsfehler behandeln. Einstiegsredaktion 16.10.2026, Batch 2: Rechnung, Netzanschluss oder Vertragsstreit führen zum passenden Schreiben; Verbrauchssprung und Einwendungsrecht werden eng verknüpft. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "BGH-Verbrauchsfall operativ auf Stromgrundversorgung und konkrete Fehlerindizien begrenzt",
+      "EEG 51a als Verlängerung bei negativen Preisen statt Inflationsanpassung; Anschluss-Informationsfrist und Sonderverfahren differenziert",
+      "Betreiberwechsel nicht als Änderungsgenehmigung nach BImSchG 16 behandelt; pauschale historische Leitungszahlen, Fristen und Förderung entfernt",
+      "Alle bestehenden Abrechnungs-, Netz-, EEG/KWK-, Wärme-, Fusions-, Transaktions-, Infrastruktur-, Stadtwerke-, Lade- und Vertragszweige erhalten",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Rechnung, Netzanschluss oder Vertragsstreit führen zum passenden Schreiben; Verbrauchssprung und Einwendungsrecht werden eng verknüpft. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "da692ea9a833c4abe376beb31c22adf4d66fa243074dd2d29274e62df238259d"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Überarbeitung der mehrfach generischen Tabellen und sämtlicher zwölf vorhandener Sachgebiete; falsche Projekt- und Förderaussagen korrigiert. Workflow-Ergänzung einzeln geprüft: Zählerwechsel, Preisperioden und Gutschriften, technische Anschlussgründe gegenüber unvollständigem Antrag, Speicher-Nutzungsmodell, PPA-Risiken und Verbraucherbeschwerde mit zugangsbezogener Vierwochenfrist. Einstiegsredaktion 16.10.2026, Batch 2: Rechnung, Netzanschluss oder Vertragsstreit führen zum passenden Schreiben; Verbrauchssprung und Einwendungsrecht werden eng verknüpft. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "BGH-Verbrauchsfall operativ auf Stromgrundversorgung und konkrete Fehlerindizien begrenzt",
+      "EEG 51a als Verlängerung bei negativen Preisen statt Inflationsanpassung; Anschluss-Informationsfrist und Sonderverfahren differenziert",
+      "Betreiberwechsel nicht als Änderungsgenehmigung nach BImSchG 16 behandelt; pauschale historische Leitungszahlen, Fristen und Förderung entfernt",
+      "Alle bestehenden Abrechnungs-, Netz-, EEG/KWK-, Wärme-, Fusions-, Transaktions-, Infrastruktur-, Stadtwerke-, Lade- und Vertragszweige erhalten",
+      "Preisänderungsnachweise und Sechswochenvorlauf in der Grundversorgung nach Gegenprüfung ausdrücklich erhalten.",
+      "Zählerwechsel, Preisperioden und Gutschriften, technische Anschlussgründe gegenüber unvollständigem Antrag, Speicher-Nutzungsmodell, PPA-Risiken und Verbraucherbeschwerde mit zugangsbezogener Vierwochenfrist.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Rechnung, Netzanschluss oder Vertragsstreit führen zum passenden Schreiben; Verbrauchssprung und Einwendungsrecht werden eng verknüpft. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "42f278a4ae7adfa78f3cb3b85f458863b1a96d2f4e2af317561ebc66da6caefe"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe eine Stromrechnung anhand der Zählerstände.",
+      "Ordne ein Netzanschlussbegehren nach Betreiberrolle und Netzebene."
+    ],
+    "negative": [
+      "Berechne eine Mietnebenkostenabrechnung ohne Lieferantenstreit.",
+      "Plane technisch eine Solaranlage ohne rechtliche Fragestellung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zaehlerstand-abschlaege-beschwerde",
+      "request": "Eine Privatkundin beanstandet ihre Stromjahresrechnung. Der belegte Verbrauch beträgt 3.000 kWh, der unveränderte Bruttopreis 0,30 Euro je kWh und der Grundpreis 120 Euro für das volle Jahr. Zwölf Abschläge zu je 100 Euro sind bezahlt. Der Lieferant rechnet irrtümlich 4.000 kWh ab und fordert 120 Euro nach. Die schriftliche Beschwerde ging am 03.08.2026 nachweisbar ein; bis 14.09.2026 gab es keine Antwort. Erstelle ergebnis.md mit korrektem Saldo und Beschwerdeentwurf, ohne Zahlung oder Liefervertrag zu verändern.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Rechnung ergibt 1.020 Euro Jahreskosten und 180 Euro Guthaben statt einer Nachzahlung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Ergebnis erkennt die überschrittene vierwöchige Antwortfrist anhand des belegten Zugangs und benennt die Beschwerde- beziehungsweise Schlichtungsroute.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Entwurf adressiert den Lieferanten und verbindet Korrektur mit Zähler- und Zahlungsbelegen, ohne pauschalen Zahlungsstopp zu empfehlen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "einstieg-routing"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "energierecht/energierecht-werkstatt.md",
+      "energierecht/energierecht-schnellstart.md",
+      "energierecht/README.md",
+      "quality/evals/energierecht.json"
+    ],
+    "opening_change": "Strom-/Wärmerechnung oder Netzanschluss konkret gegen Messung, Vertrag und Netzantwort prüfen. Workflow-Ergänzung: Leer: Rechnungseinwand, Anschlussbegehren oder Energieliefervertrag anbieten. Dateien ohne Aufgabe: Abrechnung, Zähler- und Anschlussmaterial still lesen, dann konkretes Rechnungs- oder Vertragsziel klären. Klarer Auftrag: verlangtes Schreiben oder Vertragsklausel unmittelbar erstellen, bekannte Zähler- und Verbrauchsdaten übernehmen.",
+    "norms": [
+      "Paragraf 17 Absatz 1 Satz 2 StromGVV",
+      "Paragraf 111a EnWG",
+      "Paragraf 8 Absätze 6 und 7 sowie Paragraf 51a EEG",
+      "Paragraf 16 BImSchG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 07.02.2018, Az. VIII ZR 148/17",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2017/VIII_ZR_148-17.pdf?__blob=publicationFile&v=1",
+        "application": "Konkrete unerklärliche Verbrauchssteigerung kann ernsthafte Möglichkeit eines offensichtlichen Fehlers begründen; berechtigte Einwendungen im Zahlungsprozess widerlegen.",
+        "limit": "Einzelfall der Stromgrundversorgung, keine beliebige Beanstandung und keine automatische Übertragung auf Sondervertrag oder Energieprojekte.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "BGH-PDF direkt gesperrt; Gericht, Datum, Aktenzeichen und zwei amtlich indexierte Leitsätze verifiziert. Kein vollständiger Direktabruf der Entscheidungsgründe.",
+      "Keine Vollverifikation aktueller Regulierungsfestlegungen, sämtlicher Förderbedingungen, Fusionsgesetzgebung oder projektbezogener Genehmigungsanforderungen.",
+      "Workflow-Review 23.09.2026: Paragraf 111a EnWG erneut eingesehen; keine neue Preis-, Förder- oder Marktstandszusage. Vorhandene spezialgesetzliche Grenzen bleiben fallbezogen."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "energierecht/energierecht-schnellstart.md",
+        "energierecht/energierecht-werkstatt.md"
+      ],
+      "result": "Der Stromgrundversorgungsfall bleibt auf konkrete unerklärliche Verbrauchssprünge und Gegenbeweis im Zahlungsprozess beschränkt. Kein Übertrag auf jede Rechnung oder beliebigen Sondervertrag.",
+      "search_2026": "Suche nach 2026-Stromrechnung/Verbrauchsfällen ergab ältere BGH-Fälle; VIII ZR 199/20 vom 21.12.2022 nicht mit einem 2026-Fall verwechselt.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Rechnungseinwand, Anschlussbegehren oder Energieliefervertrag anbieten.",
+      "Dateien ohne Aufgabe: Abrechnung, Zähler- und Anschlussmaterial still lesen, dann konkretes Rechnungs- oder Vertragsziel klären.",
+      "Klarer Auftrag: verlangtes Schreiben oder Vertragsklausel unmittelbar erstellen, bekannte Zähler- und Verbrauchsdaten übernehmen."
+    ],
+    "continuation": "Neue Wärmepumpe oder belegter Zählerwechsel -> Verbrauchsperioden, Rechnungsabwehr und Antrag ändern; nicht jede Mehrmenge als Abrechnungsfehler behandeln.",
+    "enrichment": "Zählerwechsel, Preisperioden und Gutschriften, technische Anschlussgründe gegenüber unvollständigem Antrag, Speicher-Nutzungsmodell, PPA-Risiken und Verbraucherbeschwerde mit zugangsbezogener Vierwochenfrist.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2018-2&Gericht=bgh&file=dokument.pdf&linked=urt&nr=82565",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2017/VIII_ZR_148-17.pdf?__blob=publicationFile&v=1",
+        "sha256": "63db04e1bd43e5511aa45d820ebd98f549fd8aa396877ffb5f2efbdce151452f"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: vertrieb-verwertung-schadensersatz
-description: "Wenn es um Verwertungskette und Vertrieb in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verwertungskette und Vertrieb: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verwertungskette und Vertrieb
@@ -20,7 +20,7 @@ description: "Wenn es um Verwertungskette und Vertrieb in Urheberrecht DE EU geh
 
 ## Wofür dieser Arbeitsgang da ist
 
-Verwertungskette und Vertrieb schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Rekonstruiere die Verwertungs- und Vertriebskette einschließlich der Erlöszuordnung. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke anhand der Beweise und erstelle die verlangte Vertrags- oder Abrechnungsprüfung.
 
 ## Sofortstart
 

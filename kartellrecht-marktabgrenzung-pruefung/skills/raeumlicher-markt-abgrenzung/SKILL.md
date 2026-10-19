@@ -1,6 +1,6 @@
 ---
 name: raeumlicher-markt-abgrenzung
-description: "Wenn es um Räumlicher Markt — Abgrenzung in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Räumlicher Markt — Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Räumlicher Markt — Abgrenzung
@@ -86,6 +86,6 @@ Bewertung: [korrekt / zu eng / zu weit]
 
 ## Leitentscheidungen Raeumlicher Markt
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - EK, Marktdefinitionsbekanntmachung 2024 Rn. 70-90 — Raeumliche Abgrenzung Methodik; Preiskorrelation, Handelsstroeome, regulatorische Grenzen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

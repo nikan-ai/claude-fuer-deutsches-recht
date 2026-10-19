@@ -1,6 +1,6 @@
 ---
 name: treuhand-oder-fremdgeld
-description: "Wenn es um Treuhand oder Fremdgeld in Berufsrecht Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Treuhand oder Fremdgeld: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Berufsrecht Anwälte."
 ---
 
 # Treuhand oder Fremdgeld
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

@@ -1,13 +1,13 @@
 ---
 name: erstgespraech-und-mandatsannahme
-description: "Wenn es um Erstgespräch und Mandatsannahme im Zeugnisrecht in Arbeitszeugnis-Analyse geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch und Mandatsannahme im Zeugnisrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erstgespräch und Mandatsannahme im Zeugnisrecht
 
 ## Fachlicher Anker
 
-- **Normen:** Paragrafen 611a, Paragrafen 1, Paragrafen 14.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
@@ -86,10 +86,6 @@ Nach Mandatsannahme folgt die Ampelanalyse mit den Skills zur Notenmatrix, Drift
 - **Paragrafen 195, 199 BGB** — Regelverjährung drei Jahre; Mandant über Verwirkungsrisiko aufklären
 - **Paragraf 242 BGB** — Verwirkung bei jahrelanger Untätigkeit; sofortige Mandatsannahme empfohlen
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — Erstgesprächs-Einstieg
 
 1. Wann wurde das Zeugnis ausgestellt und wann übergeben?
@@ -98,3 +94,4 @@ Nach Mandatsannahme folgt die Ampelanalyse mit den Skills zur Notenmatrix, Drift
 4. Welches Ziel hat der Mandant konkret? (Gesamtnote verbessern / einzelne Passagen / Schlussformel)
 5. Steht ein Vorstellungsgespräch an? → Eilbedürftigkeit prüfen!
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

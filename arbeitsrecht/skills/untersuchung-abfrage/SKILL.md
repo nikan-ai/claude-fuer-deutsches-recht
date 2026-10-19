@@ -1,6 +1,6 @@
 ---
 name: untersuchung-abfrage
-description: "Wenn es um Untersuchung Abfrage in Arbeitsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Untersuchung Abfrage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beantwortet Fragen gegen ein laufendes Untersuchungsprotokoll — was Zeugen gesagt haben, wo Schilderungen im Widerspruch stehen, welche Lücken bestehen, was die stärksten Belege zu jeder Frage sind
@@ -20,8 +20,6 @@ description: "Wenn es um Untersuchung Abfrage in Arbeitsrecht geht: ordnet Akten
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Untersuchungsprotokoll-Abfrage (Arbeitsrecht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -48,14 +46,11 @@ description: "Wenn es um Untersuchung Abfrage in Arbeitsrecht geht: ordnet Akten
 
 **Leitentscheidungen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Verdachtskündigung — dringender Tatverdacht erfordert objektive Schwere
  auf Basis des tatsächlich Ermittelten; Protokollauswertung bestimmt, ob
  Schwelle erreicht ist
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Tatkündigung — Überzeugungsmaßstab des Arbeitgebers; Protokollauswertung
  zur Überprüfung, ob der volle Nachweis einer Pflichtverletzung vorliegt
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Widersprüchliche Zeugenaussagen im Kündigungsschutzprozess — der Arbeitgeber
  trägt die Darlegungs- und Beweislast für den Kündigungsgrund; nur was
  bei der Kündigung bekannt war, zählt (Nachschieben von Gründen nur
@@ -174,7 +169,6 @@ Handlungsbedarf: Frau Schmidt als Zeugin befragen (Checkliste Punkt 3 — noch o
 
 Bei Abfragen zur Beweislage für Kündigung zitieren:
 - Paragraf 626 BGB (Tatverdacht / Wichtiger Grund)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei AGG-Sachverhalt: Paragraf 22 AGG und frei verifizierte BAG-Rechtsprechung
 
 Detaillierter Abfrageprozess, Zitierregeln und Lückendokumentations-Templates
@@ -183,12 +177,10 @@ inhaltlicher Arbeit laden.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-## Ergänzende Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor der Protokollabfrage klären
 
 1. Welche Art der Abfrage ist gewünscht (Sachverhalts-, Widerspruchs-, Deckungsabfrage oder Stärkeabfrage)?
 2. Ist eine Kündigung in der Schwebe? → Dann Reife-Abfrage nach Paragraf 626 BGB-Schwellenwert
 3. Liegt ein AGG-relevanter Sachverhalt vor? → Besondere Sorgfalt bei Paragraf 22 AGG-Beweislast
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "plugin": "berufsrecht-anwaelte",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/BJNR005650959.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlich indexierter Wortlaut des persönlichen Tätigkeitsverbots bei Vorberatung in derselben Rechtssache in Paragraf 43a Absatz 4."
+    },
+    {
+      "url": "https://ao.bundesfinanzministerium.de/stberh/2025/G-Anhaenge/1-Gesetze-und-Verordnungen/2-BRAO/3-Dritter-Teil/1-Erster-Abschnitt/Paragraf-43a/paragraf-43a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtliche Wiedergabe der Grundpflichten mit Differenzierung persönlichen Verbots und Erstreckung einschließlich Zustimmungsvoraussetzungen; Ausgabe 2025."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-14",
+      "supports": "Eigenständige Anforderungen an externe Geheimniszugriffe durch Dienstleister."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2014/IX_ZR_241-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 12. Mai 2016, IX ZR 241/14, Randnummern 7–19. Tatsächlicher Verstoß gegen das persönliche Tätigkeitsverbot führt über Paragraf 134 BGB zu Vertragsnichtigkeit und Wegfall vertraglicher Vergütung. Grenze: Im entschiedenen Fall lag gerade kein Interessenwiderstreit vor; Gebühreninteresse genügte nicht. Heutige Erstreckungsausnahmen im geänderten Paragraf 43a Absatz 4 BRAO gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Absatz 4: persönlicher Interessenwiderstreit und Erstreckung auf gemeinsame Berufsausübung getrennt; informierte Textformzustimmung nach Satz 4 beseitigt nicht das persönliche Verbot nach Satz 1."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Zugang zu Geheimnissen bei Dienstleistern nur im erforderlichen Umfang, Auswahl-/Vertragsanforderungen und eigenständige Auslandsprüfung; Datenschutzvertrag ersetzt Berufsrecht nicht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__134.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Nichtigkeit gesetzeswidriger Rechtsgeschäfte, sofern sich aus dem Gesetz nichts anderes ergibt; mit tatsächlichem Tätigkeitsverbot und nicht allein Gebühreninteresse verknüpft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Persönlicher Interessenwiderstreit, Erstreckung und gesetzliche Ausnahme getrennt; Fremdgeld nicht allein wegen offener Rechnung als Honorar buchen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43e.html",
+      "checked_on": "2026-09-23",
+      "supports": "Dienstleisterzugriff: Auswahl, Textformbindung, erforderlicher Zugang, weitere Personen, Auslandsschutz und Absatz 5 getrennt."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_226-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tatbestand, Tenor und Gründe Rn. 1–34 vollständig. Reichweite einer Honorarabrede zuerst auslegen, dann Textform prüfen; formularmäßige Anerkennung von Zeitaufwand durch einmonatiges Schweigen auch B2B unwirksam. Grenze: Auslegungsumstände außerhalb des Texts ersetzen nicht den im Text erkennbaren Anwendungsbereich. Fehlerhafter Kostenerstattungshinweis vernichtet nicht automatisch Honorarabrede."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tatbestand, Tenor und Gründe Rn. 1–33 vollständig. Verschlechterte Erfolgsaussichten eigenständig bewerten und auch rechtsschutzversicherte Mandanten beraten, bevor Aussichtslosigkeit erreicht ist. Grenze: Beratungspflicht von Beweis der Kausalität, Schaden und Anscheinsbeweis unterscheiden; nur Zurückverweisung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. Redaktionelle Anschlussprüfung 16.10.2026: Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "Persönliches Verbot und Textformzustimmung zur Erstreckung präzisiert.",
+      "Vertragsnichtigkeit und Wegfall vertraglicher Vergütung aus IX ZR 241/14 eingeordnet.",
+      "Dienstleister-, Fristen-, Fremdgeld- und Aufsichtswege unverändert als auftragsabhängige Prüfungen erhalten.",
+      "Leer: Mandatskonflikt, Dienstleisterzugriff oder Fremdgeldklärung. Dateien: still lesen und Annahmevotum, Absage oder Regelung konkret auswählen lassen. Klar: bestelltes Dokument ohne Aufnahmeformular erstellen.",
+      "Andere vorbefasste Person führt von persönlichem Verbot zur Erstreckungsprüfung; neuer Supportzugriff ändert Vertragsnachtrag und Freigabe.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 19.02.2026 – IX ZR 226/22, Rn. 8–20 und 23–32, BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "16.10.2026: Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt."
+    ],
+    "sha256": "6695f390126c2a3751efc970ca9661a7efe54e1bf53da608813a9cd984b9d84f",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. Redaktionelle Anschlussprüfung 16.10.2026: Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "Persönliches Verbot und Textformzustimmung zur Erstreckung präzisiert.",
+      "Vertragsnichtigkeit und Wegfall vertraglicher Vergütung aus IX ZR 241/14 eingeordnet.",
+      "Dienstleister-, Fristen-, Fremdgeld- und Aufsichtswege unverändert als auftragsabhängige Prüfungen erhalten.",
+      "Mandatswechsel, wirksame Schutzorganisation, Dienstleisterketten, Teilzuordnung von Fremdgeld und Beweiswert von Versandprotokollen vertieft.",
+      "Andere vorbefasste Person führt von persönlichem Verbot zur Erstreckungsprüfung; neuer Supportzugriff ändert Vertragsnachtrag und Freigabe.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 19.02.2026 – IX ZR 226/22, Rn. 8–20 und 23–32, BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "16.10.2026: Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt."
+    ],
+    "sha256": "a1eeca414b90c0cc3472c81bd391001c3b101bee3bc2233cc4ee345905c9abf7",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "selection": {
+    "positive": [
+      "Darf ich nach Beratung des Verkäufers nun den Käufer wegen derselben Vertragsklausel vertreten?",
+      "Prüfen Sie den Umgang unserer Kanzlei mit einem ungeklärten Fremdgeldeingang und formulieren Sie eine interne Weisung."
+    ],
+    "negative": [
+      "Prüfen Sie die notarielle Unparteilichkeit bei meiner Beurkundung.",
+      "Erstellen Sie die steuerliche Berechnung der Einkünfte meiner Mandantin ohne berufsrechtliche Frage."
+    ]
+  },
+  "cases": [
+    {
+      "id": "persoenlicher-seitenwechsel",
+      "request": "Einzelanwalt Paul Winter beriet im Mai 2026 die Verkäuferin Berg GmbH bei der Formulierung einer Haftungsbegrenzung im Maschinenkaufvertrag mit der Tal GmbH. Im September bittet Tal denselben Anwalt, gegen Berg wegen eines Maschinenschadens vorzugehen und genau diese Klausel zu Fall zu bringen. Winter hat niemanden beschäftigt und gehört keiner Berufsausübungsgesellschaft an. Beide Gesellschaften erklären per E-Mail, mit seinem Tätigwerden einverstanden zu sein. Eine Klagefrist läuft nicht. Erstellen Sie für Winter eine begründete Annahmeentscheidung und einen neutralen Antwortentwurf an Tal, ohne Inhalte der damaligen Beratung preiszugeben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Ergebnis erkennt dieselbe Rechtssache und den konkreten Interessenwiderstreit zwischen früherer Klauselgestaltung für Berg und geplantem Angriff für Tal.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Zustimmung beider Gesellschaften wird nicht als Heilung des persönlichen Tätigkeitsverbots behandelt; eine Ausnahme für bloße Erstreckung wird nicht auf den allein vorbefassten Anwalt übertragen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Antwortentwurf lehnt die Übernahme nachvollziehbar und neutral ab, ohne die frühere Strategie oder vertrauliche Beratungsinhalte auszuführen oder eine nicht vorhandene andere Kanzleiperson als Lösung anzubieten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "interessenkollision"
+    }
+  ],
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Mandatskonflikt, Dienstleisterzugriff oder Fremdgeldklärung.",
+      "Dateien: still lesen und Annahmevotum, Absage oder Regelung konkret auswählen lassen.",
+      "Klar: bestelltes Dokument ohne Aufnahmeformular erstellen."
+    ],
+    "continuation": "Andere vorbefasste Person führt von persönlichem Verbot zur Erstreckungsprüfung; neuer Supportzugriff ändert Vertragsnachtrag und Freigabe.",
+    "enrichment": "Mandatswechsel, wirksame Schutzorganisation, Dienstleisterketten, Teilzuordnung von Fremdgeld und Beweiswert von Versandprotokollen vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "berufsrecht-anwaelte/berufsrecht-anwaelte-werkstatt.md",
+      "berufsrecht-anwaelte/berufsrecht-anwaelte-schnellstart.md",
+      "berufsrecht-anwaelte/README.md",
+      "quality/evals/berufsrecht-anwaelte.json"
+    ],
+    "opening_change": "Zulässigkeit der Vertretung, Datenweitergabe und Verfügung über Mandantengut als konkrete Entscheidungsfragen.",
+    "norms": [
+      "BRAO Paragraf 43a Absatz 4 Sätze 1 bis 5",
+      "BRAO Paragraf 43e",
+      "BGB Paragraf 134"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 12. Mai 2016, IX ZR 241/14, Randnummern 7–19",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2014/IX_ZR_241-14.pdf?__blob=publicationFile&v=1",
+        "application": "Tatsächlicher Verstoß gegen das persönliche Tätigkeitsverbot führt über Paragraf 134 BGB zu Vertragsnichtigkeit und Wegfall vertraglicher Vergütung.",
+        "limit": "Im entschiedenen Fall lag gerade kein Interessenwiderstreit vor; Gebühreninteresse genügte nicht. Heutige Erstreckungsausnahmen im geänderten Paragraf 43a Absatz 4 BRAO gesondert prüfen."
+      },
+      {
+        "citation": "BGH, Urteil vom 19.02.2026 – IX ZR 226/22, Rn. 8–20 und 23–32",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_226-22.pdf?__blob=publicationFile&v=1",
+        "application": "Reichweite einer Honorarabrede zuerst auslegen, dann Textform prüfen; formularmäßige Anerkennung von Zeitaufwand durch einmonatiges Schweigen auch B2B unwirksam.",
+        "limit": "Auslegungsumstände außerhalb des Texts ersetzen nicht den im Text erkennbaren Anwendungsbereich. Fehlerhafter Kostenerstattungshinweis vernichtet nicht automatisch Honorarabrede."
+      },
+      {
+        "citation": "BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1",
+        "application": "Verschlechterte Erfolgsaussichten eigenständig bewerten und auch rechtsschutzversicherte Mandanten beraten, bevor Aussichtslosigkeit erreicht ist.",
+        "limit": "Beratungspflicht von Beweis der Kausalität, Schaden und Anscheinsbeweis unterscheiden; nur Zurückverweisung."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "BORA, FAO und RVG-Nebenfragen nicht insgesamt neu verifiziert.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "berufsrecht-anwaelte/references/ki-normen-und-fallpruefung.md",
+    "focus": "Ordnen Sie Recherche, Mandantendialog und entscheidungsunterstützende Systeme getrennt ein. Die persönliche Berufspflicht und das konkrete Dienstleisterrisiko bleiben neben der KI-VO bestehen; eine Softwarefreigabe beantwortet sie nicht.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "batch": 1,
+    "date": "2026-10-16",
+    "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "reason": "Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt.",
+    "source_status": "Aus vorhandenen Prompt-/Eval-Nachweisen übernommen; Quellenstatus und Quellenprüfdaten unverändert.",
+    "files": [
+      {
+        "path": "berufsrecht-anwaelte/berufsrecht-anwaelte-schnellstart.md",
+        "sha256": "6695f390126c2a3751efc970ca9661a7efe54e1bf53da608813a9cd984b9d84f",
+        "reason": "Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt.",
+        "anchor_or_exception": "Paragraf 43a Absatz 4 BRAO, Paragraf 134 BGB; BGH 12.05.2016 IX ZR 241/14: konkrete persönliche Kollision prüfen, im entschiedenen Fall nicht festgestellt; heutige Ausnahmen separat."
+      },
+      {
+        "path": "berufsrecht-anwaelte/berufsrecht-anwaelte-werkstatt.md",
+        "sha256": "a1eeca414b90c0cc3472c81bd391001c3b101bee3bc2233cc4ee345905c9abf7",
+        "reason": "Mandatsentscheidung, Interessenkollision und benötigte Erklärung früh getrennt.",
+        "anchor_or_exception": "Paragraf 43a Absatz 4 BRAO, Paragraf 134 BGB; BGH 12.05.2016 IX ZR 241/14: konkrete persönliche Kollision prüfen, im entschiedenen Fall nicht festgestellt; heutige Ausnahmen separat."
+      }
+    ]
+  }
+}

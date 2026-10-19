@@ -1,6 +1,6 @@
 ---
 name: bauliche-veraenderung-aufzug-treppenlift-20-abs-2-weg
-description: "Wenn es um Aufzug-Nachrüstung und Treppenlift als privilegierte bauliche Veränderung nach Paragraf 20 Abs in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufzug-Nachrüstung und Treppenlift als privilegierte bauliche Veränderung nach Paragraf 20 Abs: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aufzug-Nachrüstung und Treppenlift als privilegierte bauliche Veränderung nach § 20 Abs
@@ -14,14 +14,12 @@ description: "Wenn es um Aufzug-Nachrüstung und Treppenlift als privilegierte b
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** Aufzug-Nachrüstung und Treppenlift als privilegierte bauliche Veränderung nach § 20 Abs. 2 Nr. 2 WEG (Stand 06/2026): Anspruch ohne Ermessen, DIN 18040-2, Kostentragung § 21 WEG, KfW 159 bis 50000 Euro, BGH V ZR 244/22.
+**Fokus:** Aufzug-Nachrüstung und Treppenlift als privilegierte bauliche Veränderung nach § 20 Abs. 2 Nr. 1 WEG (Stand 06/2026): Anspruch bei erfüllten Voraussetzungen, Ausführungsermessen, DIN 18040-2, Kostentragung § 21 WEG, KfW 159 bis 50000 Euro, BGH V ZR 244/22.
 
-### Bauliche Veränderung: Aufzug und Treppenlift nach § 20 Abs. 2 Nr. 2 WEG
+### Bauliche Veränderung: Aufzug und Treppenlift nach § 20 Abs. 2 Nr. 1 WEG
 
 ## Fachlicher Kern — Miet- und WEG-Recht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Bauliche Veränderung: Aufzug und Treppenlift nach § 20 Abs. 2 Nr. 2 WEG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Bauliche Veränderung: Aufzug und Treppenlift nach § 20 Abs. 2 Nr. 1 WEG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -30,13 +28,13 @@ Stand: 06/2026.
 
 ## Ziel
 
-Eigentümer haben einen Anspruch auf Gestattung eines Aufzugs oder Treppenlifts als privilegierte bauliche Veränderung nach § 20 Abs. 2 Nr. 2 WEG. Die GdWE kann das „Wie" regeln, nicht aber den Anspruch an sich verweigern. Der Skill prüft Anspruchsvoraussetzungen, technische Mindeststandards, Kostentragung und Förderung.
+Eigentümer haben einen Anspruch auf Gestattung eines Aufzugs oder Treppenlifts als privilegierte bauliche Veränderung nach § 20 Abs. 2 Nr. 1 WEG. Voraussetzung sind eine angemessene Maßnahme und die Grenzen des § 20 Abs. 4 WEG; über die Durchführung entscheiden die Eigentümer im Rahmen ordnungsmäßiger Verwaltung. Der Skill prüft Anspruchsvoraussetzungen, technische Mindeststandards, Kostentragung und Förderung.
 
 ## Anspruchsgrundlage und Reichweite
 
-§ 20 Abs. 2 Nr. 2 WEG: Barrierefreier Aus- und Umbau als privilegierte Maßnahme — kein freies Ermessen der GdWE. Die GdWE darf sachgerechte Auflagen zur Ausführung, Optik, Sicherheit und zum Rückbau stellen, darf aber den Anspruch nicht durch unzumutbare Auflagen leerlaufen lassen. Norm: https://www.gesetze-im-internet.de/woeigg/__20.html
+§ 20 Abs. 2 Nr. 1 WEG: Barrierefreier Aus- und Umbau als privilegierte Maßnahme — kein freies Ermessen der GdWE. Die GdWE darf sachgerechte Auflagen zur Ausführung, Optik, Sicherheit und zum Rückbau stellen, darf aber den Anspruch nicht durch unzumutbare Auflagen leerlaufen lassen. Norm: https://www.gesetze-im-internet.de/woeigg/__20.html
 
-BGH, Urteil vom 09.02.2024, V ZR 244/22: Auch ein außen am Gebäude angebauter Aufzug mit erheblichen Eingriffen in das Gemeinschaftseigentum (Öffnung Fassade, Fundament) ist vom Anspruch gedeckt; Beeinträchtigungen anderer Eigentümer sind ggf. auszugleichen, heben den Anspruch aber nicht auf. Verweis: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=09.02.2024&Aktenzeichen=V+ZR+244%2F22
+BGH, Urteil vom 09.02.2024, V ZR 244/22: Der Außenaufzug kann als angemessener Barriereabbau verlangt werden; die Voraussetzungen des § 20 Abs. 2 Satz 1 Nr. 1 und Abs. 4 WEG sowie sachgerechte Ausführungsentscheidungen bleiben zu prüfen. Nicht jeder gewünschte Aufzug ist uneingeschränkt zulässig. Verweis: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=09.02.2024&Aktenzeichen=V+ZR+244%2F22
 
 ## Technische Mindeststandards (DIN 18040-2)
 
@@ -69,28 +67,3 @@ Außenaufzug: Statik-Gutachten, ggf. Baugenehmigung nach Landesbauordnung, Denkm
 ## Quellenpflicht
 
 `rechtsstand-mai-2026-faktenbank` laden. § 20 WEG über https://www.gesetze-im-internet.de/woeigg/__20.html, KfW-Konditionen über kfw.de, Pflegekasse § 40 SGB XI über https://www.gesetze-im-internet.de/sgb_11/__40.html live verifizieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 20 WEG
-- § 16 WEG
-- § 28 WEG
-- § 24 WEG
-- § 21 WEG
-- § 45 WEG
-- § 23 WEG
-- § 25 WEG
-- § 26 WEG
-- § 27 WEG
-- § 25 TDDDG
-- § 5 DDG
-
-### Leitentscheidungen
-
-- BGH V ZR 17/24
-- BGH V ZR 34/24
-- BGH V ZR 33/23
-- BGH V ZR 102/23
-- BGH V ZR 1/24

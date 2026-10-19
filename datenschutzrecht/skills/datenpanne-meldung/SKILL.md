@@ -1,13 +1,15 @@
 ---
 name: datenpanne-meldung
-description: "Wenn es um Datenpannen-Meldung (Art. 33/34 DSGVO) in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Datenpannen-Meldung (Art. 33/34 DSGVO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Datenpannen-Meldung (Art. 33/34 DSGVO)
 
+Rechtsstand 10. September 2026: COM(2025) 837, Verfahren 2025/0360(COD), ist noch ein Gesetzgebungsvorschlag. Die vorgeschlagenen 96 Stunden und eine erhöhte Meldeschwelle sind kein geltendes Recht. Artikel 33 verlangt bei meldepflichtigen Verletzungen unverzügliche Meldung, möglichst binnen 72 Stunden ab Kenntnis. Artikel 34 betrifft gesondert hohes Risiko. Nicht auf vollständige Aufklärung oder Akteneinsicht warten: tragfähige Erstmeldung mit kenntlich unvollständigen Angaben nach Artikel 33 Absatz 4 zur rechtzeitigen Freigabe vorbereiten. Pflichtmeldung und freiwillige Verteidigungsstellungnahme trennen; keine ungeprüften Schuldanerkenntnisse. Eine Meldung an die Bundesnetzagentur ersetzt die Datenschutzmeldung nicht. [Amtlicher Reformstand und Zuständigkeit](../../references/digitaler-omnibus-2026.md).
+
 ## Eingaben
 
-Das Modell benötigt:
+Entnimm die folgenden Angaben zuerst den Vorfallsberichten und vorhandenen Nachrichten. Frage nur entscheidende Lücken gezielt nach; eine unvollständige Forensik verhindert nicht den Entwurf einer gekennzeichneten Erstmeldung. Nach Antwort Risiko, Zahlen, Maßnahmen und Nachmeldung aktualisieren und die bestellte Fassung vervollständigen. Neue wesentliche Widersprüche kurz klären, bereits beantwortete Fragen nicht wiederholen.
 
 - **Beschreibung des Vorfalls**: Was ist wann und wie passiert? (Zeitpunkt der Entdeckung, vermutlicher Zeitpunkt des Eintritts)
 - **Art der betroffenen Daten**: Kategorien (Art. 9/10 DSGVO?), Datenmenge, Anzahl betroffener Personen (geschätzt)
@@ -77,10 +79,7 @@ EDSA, Guidelines 9/2022 on personal data breach notification under GDPR, angenom
 
 ## Ausgabeformat
 
-- **Risiko-Einschätzungsmatrix** (Tabelle): Datenkategorien × Risikograd × Meldepflicht × Benachrichtigungspflicht.
-- **Meldeformular-Entwurf** (strukturierter Text nach Art. 33 Abs. 3 DSGVO).
-- **Betroffenenbrief** (klare Sprache nach Art. 34 Abs. 2 DSGVO).
-- **Internes Incident-Protokoll** (für Dokumentationspflicht Art. 33 Abs. 5 DSGVO).
+Liefere den beauftragten Meldeformular-Entwurf nach Artikel 33 Absatz 3 DSGVO oder die Betroffenenbenachrichtigung nach Artikel 34 Absatz 2 DSGVO vollständig. Einen Betroffenenbrief nicht allein deshalb erstellen, weil eine Behördenmeldung vorbereitet wird; die jeweilige Entscheidung gesondert prüfen. Risikobewertung und Quellenprüfstatus im internen Vorfallsvermerk halten. Tatsächliche Übermittlung nur nach ausdrücklicher Freigabe, nicht schon aufgrund des Entwurfsauftrags.
 
 ## Beispiel
 
@@ -118,14 +117,10 @@ Stand: 05/2026. Aktualität prüfen bei neuen EuGH-Entscheidungen zum Schadenser
 
 - **NIS-2-UmsuCG (deutsches Umsetzungsgesetz):** in Kraft seit Ende 2025 (BSIG n. F.). Bei meldepflichtigen Datenpannen, die zugleich Cyber-Sicherheitsvorfaelle bei wichtigen oder besonders wichtigen Einrichtungen sind, parallel zur DSGVO-Meldung an die Aufsichtsbehoerde die BSI-Meldung nach § 32 BSIG n. F. binnen 24 h (Fruehwarnung), 72 h (Vorfallsmeldung) und 1 Monat (Abschlussbericht) abgeben. Quelle: BGBl 2025, BSI-Portal bsi.bund.de.
 - **Art. 82 DSGVO — Schadensersatz EuGH-Linie:** Der blosse Kontrollverlust kann immateriellen Schaden begruenden, ein automatischer Anspruch entsteht aber nicht. Verschulden des Verantwortlichen wird vermutet, Entlastung möglich. Konkrete Aktenzeichen vor Zitat live über curia.europa.eu prüfen.
-- **EDSA Guidelines 9/2022 zu Datenpannen:** Endfassung (angenommen 28.03.2023) ist verbindliche Auslegungshilfe; enthaelt Fallkatalog Ransomware, Phishing, Exfiltration, Fehlversand, Diebstahl mit konkreten Risikoampeln. Quelle: edpb.europa.eu/our-work-tools/our-documents/guidelines.
+- **EDSA Guidelines 9/2022 zu Datenpannen:** Die Endfassung vom 28.03.2023 ist eine nicht bindende, fachlich gewichtige Orientierungshilfe mit Fallgruppen zu Ransomware, Phishing, Exfiltration, Fehlversand und Diebstahl; sie ersetzt weder Gesetz noch gerichtliche Auslegung. Quelle: edpb.europa.eu/our-work-tools/our-documents/guidelines.
 - **BfDI / Landesdatenschutzbehoerden:** Bei standortuebergreifenden Vorfaellen Federfuehrung nach Art. 56 DSGVO (One-Stop-Shop) klären. BfDI für Bundes- und TK-/Postwesen; LDA-Bayern, LfDI BW etc. für privatwirtschaftliche Verantwortliche.
 
 **Querverweise:**
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — bei Datenpannen mit Drittlandbezug (Benachrichtigungspflicht des Importeurs)
 - `datenschutzrecht/skills/dsfa-erstellung/SKILL.md` — Nachträgliche DSFA-Prüfung nach Datenpanne; Vorab-Konsultation Art. 36 DSGVO
 - `datenschutzrecht/skills/avv-pruefung/SKILL.md` — Meldepflicht des Auftragsverarbeiters nach Art. 33 Abs. 2 DSGVO im AVV-Kontext
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.

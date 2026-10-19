@@ -1,6 +1,6 @@
 ---
 name: haftpflicht-quellenkarte
-description: "Wenn es um Haftpflicht Quellenkarte in Fachanwalt Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Haftpflicht Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Haftpflicht Quellenkarte
@@ -30,8 +30,9 @@ Diese Quellenkarte sichert für **Fachanwalt Versicherungsrecht** jede tragende 
 
 ## Fristen mit Quellenrelevanz
 
-- § 12 VVG Klagefrist
-- Anzeigepflicht unverzüglich
+- Paragrafen 195 und 199 BGB: regelmäßige Verjährung; Entstehung und Kenntnis fallbezogen bestimmen
+- Paragraf 15 VVG: Hemmung nach Anmeldung des Anspruchs bis zum Zugang der Versichererentscheidung in Textform
+- Paragraf 30 VVG und konkrete AVB: Anzeige des Versicherungsfalls und gegebenenfalls weitere vertragliche Meldeobliegenheiten
 
 ## Prüfroute
 

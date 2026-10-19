@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "plugin": "richter-familiengericht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__113.html",
+      "checked_on": "2026-09-14",
+      "supports": "Ausschluss allgemeiner FamFG-Regeln einschließlich Paragraf 26 in Ehesachen und Familienstreitsachen; ZPO-Verweisung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2023/XII_ZB_558-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "Erneute Primärquellenprüfung: BGH, Beschluss vom 13.11.2024, XII ZB 558/23, Randnummern 17 bis 23. Anwendung: Bei niedrigerem Endvermögen erfüllende Auskunft feststellen und beweisbelastetem Beteiligten gegebenenfalls neutralen Hinweis zu Verbrauchsbelegen erteilen. Grenze: Keine Feststellung allein aus Kontorückgang; Gehör und Beweiswürdigung bleiben erforderlich; keine allgemeine FamFG-Amtsermittlung in Zugewinnsachen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__113.html",
+      "checked_on": "2026-09-22",
+      "supports": "ZPO-Verweisung und Ausschluss allgemeiner Amtsermittlung in Familienstreitsachen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__159.html",
+      "checked_on": "2026-09-22",
+      "supports": "Kindesanhörung, persönlicher Eindruck und konkrete Ausnahmen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1375.html",
+      "checked_on": "2026-09-22",
+      "supports": "Beweislastfolge bei geringerer Endvermögensangabe; nicht jeder Verbrauch ist illoyal."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__159.html",
+      "checked_on": "2026-09-23",
+      "supports": "Ausführbare Umgangsregelung, Schutzlage, monatliche Unterhaltszuordnung und stichtagsbezogene Vermögensbelege. Quellenstatus: Paragraf 159 nur im amtlichen Suchindex zugänglich; Direktabrufe von 159 und 113 gescheitert. Bestehende geprüfte FamFG-Abgrenzungen bewahrt, keine neue Volltextprüfung behauptet."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Lektüre und Workflow-Vertiefung: Neuer Übergabevorfall -> Schutz- und Anhörungsplan ändern; Zahlungszuordnung -> Unterhaltsmonate und Tenor berichtigen. Desk review, keine Live-Client-Ausführung. 2026-10-16, redaktioneller Einstiegsreview: Vollziehbaren Beschluss als Ziel; Zugewinnanker von Kindschaftsverfahren und allgemeiner Amtsermittlung getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Paragrafen 1375 und 1384 BGB mit XII ZB 558/23 in den Vermögensabgleich integriert.",
+      "Erforderlicher Hinweis und rechtliches Gehör statt pauschaler Amtsermittlung oder automatischer Illoyalitätsfeststellung.",
+      "Neuer Übergabevorfall -> Schutz- und Anhörungsplan ändern; Zahlungszuordnung -> Unterhaltsmonate und Tenor berichtigen.",
+      "Ausführbare Umgangsregelung, Schutzlage, monatliche Unterhaltszuordnung und stichtagsbezogene Vermögensbelege.",
+      "2026-10-16, redaktioneller Einstiegsreview: Vollziehbaren Beschluss als Ziel; Zugewinnanker von Kindschaftsverfahren und allgemeiner Amtsermittlung getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "d9e9a4c6384e6878db85f5f36de28aed3a625fabfb665675612ef69089e9830c",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Lektüre und Workflow-Vertiefung: Ausführbare Umgangsregelung, Schutzlage, monatliche Unterhaltszuordnung und stichtagsbezogene Vermögensbelege. Desk review, keine Live-Client-Ausführung. 2026-10-16, redaktioneller Einstiegsreview: Vollziehbaren Beschluss als Ziel; Zugewinnanker von Kindschaftsverfahren und allgemeiner Amtsermittlung getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Titel, Auskunftsverlangen und Erfüllungsannahme als Auslöser der Beweislastfolge aufgenommen.",
+      "Neutrale Hinweise nach Paragraf 139 ZPO mit Paragraf 113 FamFG verbunden.",
+      "Ungeprüfte Aktenzeichen entfernt; europäische Zuständigkeitsprüfung auf genaue Artikel verwiesen.",
+      "Neuer Übergabevorfall -> Schutz- und Anhörungsplan ändern; Zahlungszuordnung -> Unterhaltsmonate und Tenor berichtigen.",
+      "Ausführbare Umgangsregelung, Schutzlage, monatliche Unterhaltszuordnung und stichtagsbezogene Vermögensbelege.",
+      "2026-10-16, redaktioneller Einstiegsreview: Vollziehbaren Beschluss als Ziel; Zugewinnanker von Kindschaftsverfahren und allgemeiner Amtsermittlung getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "d610e5cbe8827f24c57e4457aaec138029f26bf91007f46a458a43fae4a00f16",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie als Familiengericht die Entscheidungsreife des Zugewinnantrags.",
+      "Entwerfen Sie einen neutralen Hinweis zu fehlenden Vermögensbelegen."
+    ],
+    "negative": [
+      "Schreiben Sie eine notarielle Scheidungsfolgenvereinbarung.",
+      "Entwerfen Sie die strafrechtliche Anklage wegen häuslicher Gewalt."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zugewinn-kontostand-falscher-tag",
+      "request": "Erstellen Sie ergebnis.md als gerichtlichen Prüf- und Hinweisvermerk in einer Familienstreitsache. Ehebeginn 01.06.2010, Trennung 01.02.2025, Zustellung des Scheidungsantrags 15.05.2026. Beide sind anwaltlich vertreten. A verlangt 30.000 Euro Zugewinnausgleich. Anfangsvermögen beider Personen ist unstreitig null; privilegierter Erwerb und Hinzurechnungen werden nicht geltend gemacht. A weist eigenes Endvermögen von 20.000 Euro zum 15.05.2026 nach. Für B legt A nur einen Kontoauszug über 80.000 Euro vom Trennungstag vor. B bestreitet den Stand am 15.05.2026 und behauptet ohne Beleg nur 40.000 Euro. Weitere Vermögenswerte und Schulden sind nach übereinstimmendem Vortrag nicht vorhanden. Eine Entscheidung oder Beweisaufnahme ist noch nicht erfolgt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Behandelt den Trennungskontoauszug nicht als sicheren Nachweis des Endvermögens am maßgeblichen späteren Stichtag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt die belegte Position A von den streitigen Varianten B und erfindet keinen endgültigen Ausgleichsbetrag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Formuliert einen neutralen Hinweis zur stichtagsbezogenen Darlegung und Beweisführung statt pauschaler Amtsermittlung nach Paragraf 26 FamFG.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "09-beschluss-familiensache-paragraf-38-famfg"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gerichtsplugins/richter-familiengericht/richter-familiengericht-werkstatt.md",
+      "gerichtsplugins/richter-familiengericht/richter-familiengericht-schnellstart.md"
+    ],
+    "opening_change": "Entscheidungsreife der beantragten Sorge-, Umgangs-, Unterhalts- oder Vermögensregelung mit konkreter noch nötiger Aufklärung bestimmen.",
+    "norms": [
+      "Paragrafen 1374, 1375, 1378, 1379 und 1384 BGB",
+      "Paragrafen 113 und 159 FamFG; Paragraf 139 ZPO",
+      "Artikel 1, 3, 7 und 100 Verordnung (EU) 2019/1111 als fallbezogene Prüfpunkte"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 13.11.2024, XII ZB 558/23, Randnummern 17 bis 23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2023/XII_ZB_558-23.pdf?__blob=publicationFile&v=1",
+        "application": "Bei niedrigerem Endvermögen erfüllende Auskunft feststellen und beweisbelastetem Beteiligten gegebenenfalls neutralen Hinweis zu Verbrauchsbelegen erteilen.",
+        "limit": "Keine Feststellung allein aus Kontorückgang; Gehör und Beweiswürdigung bleiben erforderlich; keine allgemeine FamFG-Amtsermittlung in Zugewinnsachen.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenreview ohne gerichtlichen Einsatz oder Live-Modelltest.",
+      "Keine Vollverifikation aller kindschafts- und versorgungsausgleichsrechtlichen Entscheidungen.",
+      "EUR-Lex-Volltextabruf der Verordnung (EU) 2019/1111 durch Zugriffshürde nicht gelungen; Artikel als Prüfpunkte, keine hier bestätigte internationale Zuständigkeit.",
+      "Workflow-Vertiefung 2026-09-23: Paragraf 159 nur im amtlichen Suchindex zugänglich; Direktabrufe von 159 und 113 gescheitert. Bestehende geprüfte FamFG-Abgrenzungen bewahrt, keine neue Volltextprüfung behauptet. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Sorge/Umgang, Unterhalt/Vermögen oder Eilschutz auswählen.",
+      "Familienakten still lesen; keine ungefragte Gesamtübersicht.",
+      "Bestellte Verfügung oder Beschluss direkt ausarbeiten."
+    ],
+    "continuation": "Neuer Übergabevorfall -> Schutz- und Anhörungsplan ändern; Zahlungszuordnung -> Unterhaltsmonate und Tenor berichtigen.",
+    "enrichment": "Ausführbare Umgangsregelung, Schutzlage, monatliche Unterhaltszuordnung und stichtagsbezogene Vermögensbelege.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/richter-familiengericht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für familiengerichtliche Sache technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

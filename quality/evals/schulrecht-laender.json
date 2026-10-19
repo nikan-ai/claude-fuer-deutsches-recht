@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "plugin": "schulrecht-laender",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://recht.nrw.de/lrgv/gesetz/01082025-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg/",
+      "checked_on": "2026-09-14",
+      "supports": "Paragraf 53 Schulgesetz NRW: befristeter Unterrichtsausschluss, Zuständigkeit der Schulleitung, Anhörung und fehlende aufschiebende Wirkung bei den Maßnahmen nach Absatz 3 Nummer 2 und 3."
+    },
+    {
+      "url": "https://nrwe.justiz.nrw.de/ovgs/ovg_nrw/j2025/19_A_1077_23_Beschluss_20250505.html",
+      "checked_on": "2026-09-22",
+      "supports": "OVG NRW, Beschluss vom 5. Mai 2025, 19 A 1077/23, Rn. 9 bis 19: Dokumentierte Gewalttatsachen, tatsächliche Anhörungsgelegenheit und konkrete Dringlichkeit prüfen; mehrere Ordnungsmaßnahmen eigenständig würdigen. Grenze: Berufungszulassungsentscheidung nach NRW-Recht; keine Vermutung zulasten jedes streitenden Schülers und keine ungeprüfte Übertragung auf andere Länder. Amtliche tragende Gründe gelesen; keine Vollverifikation der gesamten Materie."
+    },
+    {
+      "url": "https://recht.nrw.de/lrgv/gesetz/01082025-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg/",
+      "checked_on": "2026-09-22",
+      "supports": "Paragraf 53: Ordnungsmaßnahmen, Zuständigkeit, Anhörung, Gefahr im Verzug und Entfallen der aufschiebenden Wirkung; andere Länder nicht mitgeprüft."
+    },
+    {
+      "url": "https://recht.nrw.de/lrgv/gesetz/01082026-schulgesetz-nrw-schulg/",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuelle Landesfassung ab 1. August 2026 und Paragraf 53 gelesen; der bisherige 2025-Link führte zu einer bis 31. Juli 2026 geltenden Fassung. Mini-Link aktualisiert; Zuständigkeit und Beteiligung nicht materiell vereinfacht."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Anhörung, Zeugenangabe und Tatnachweis trennen; Unterrichts- und Prüfungsfolgen konkretisieren; Rechenfehler, übersehene Bearbeitung und Bewertungsstreit in unterschiedliche Notenrügen übersetzen; funktionellen Förderbedarf ohne erfundene Diagnose darlegen. 2026-10-16, redaktioneller Einstiegsreview: Einwendung oder Entscheidungsvorlage vor Aufnahme; NRW-Ordnungsmaßnahme nicht auf alle Länder übertragen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Unterrichtsausschluss und weitere Schulentscheidungen anhand Vorwurf, Zuständigkeit, Anhörung und passender Abhilfe bearbeiten.",
+      "Unpassende Hochschulanker entfernt und NRW-Ordnungsmaßnahme mit Beweisrisiko, Anhörung und Vollzug präzisiert.",
+      "Aufnahme-, Förder-, Noten-, Gewaltschutz- und Beförderungswege samt Fortsetzung erhalten.",
+      "Leerstart: Unterrichtsausschluss/Eilschutz, Notenrüge oder Aufnahme/Förderung wählen.",
+      "Nachgereichte Anhörungs-E-Mail korrigiert eine unzutreffende Anhörungsrüge; neuer Ausschlusstermin verändert konkreten Eilbedarf und Antrag.",
+      "Anhörung, Zeugenangabe und Tatnachweis trennen; Unterrichts- und Prüfungsfolgen konkretisieren; Rechenfehler, übersehene Bearbeitung und Bewertungsstreit in unterschiedliche Notenrügen übersetzen; funktionellen Förderbedarf ohne erfundene Diagnose darlegen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Einwendung oder Entscheidungsvorlage vor Aufnahme; NRW-Ordnungsmaßnahme nicht auf alle Länder übertragen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "b66ec4ebebb4d3d5de5e15ff8e907842f3ff1fb79f26cd74240068ef02e4ae6a",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Anhörung, Zeugenangabe und Tatnachweis trennen; Unterrichts- und Prüfungsfolgen konkretisieren; Rechenfehler, übersehene Bearbeitung und Bewertungsstreit in unterschiedliche Notenrügen übersetzen; funktionellen Förderbedarf ohne erfundene Diagnose darlegen. 2026-10-16, redaktioneller Einstiegsreview: Einwendung oder Entscheidungsvorlage vor Aufnahme; NRW-Ordnungsmaßnahme nicht auf alle Länder übertragen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Unpassende Hochschulanker entfernt und NRW-Ordnungsmaßnahme mit Beweisrisiko, Anhörung und Vollzug präzisiert.",
+      "Aufnahme-, Förder-, Noten-, Gewaltschutz- und Beförderungswege samt Fortsetzung erhalten.",
+      "Leerstart: Unterrichtsausschluss/Eilschutz, Notenrüge oder Aufnahme/Förderung wählen.",
+      "Nachgereichte Anhörungs-E-Mail korrigiert eine unzutreffende Anhörungsrüge; neuer Ausschlusstermin verändert konkreten Eilbedarf und Antrag.",
+      "Anhörung, Zeugenangabe und Tatnachweis trennen; Unterrichts- und Prüfungsfolgen konkretisieren; Rechenfehler, übersehene Bearbeitung und Bewertungsstreit in unterschiedliche Notenrügen übersetzen; funktionellen Förderbedarf ohne erfundene Diagnose darlegen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Einwendung oder Entscheidungsvorlage vor Aufnahme; NRW-Ordnungsmaßnahme nicht auf alle Länder übertragen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "1a6d20b0e528c7efc816da2443b2237b9e61bb57e3bcfe9c4078d28230f60011",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie einen fünftägigen Unterrichtsausschluss an einer öffentlichen Schule in NRW und bereiten Sie den Eilrechtsschutz vor.",
+      "Ordnen Sie die verweigerte Versetzung in Hessen anhand des Bescheids und der Zeugnisse ein."
+    ],
+    "negative": [
+      "Prüfen Sie die Exmatrikulation einer Studentin an einer Universität.",
+      "Berechnen Sie die Vergütung eines angestellten Lehrers aus seinem Arbeitsvertrag."
+    ]
+  },
+  "cases": [
+    {
+      "id": "nrw-ausschluss-ohne-anhoerung",
+      "request": "Die Schulleiterin einer öffentlichen Gesamtschule in NRW hat am 11. September 2026 schriftlich einen Unterrichtsausschluss vom 15. bis 21. September, insgesamt fünf Unterrichtstage, gegen einen vierzehnjährigen Schüler verfügt. Grund sei ein Streit am 8. September; der Schüler bestreitet, geschlagen zu haben, und benennt zwei Mitschüler. Weder er noch seine Eltern oder die Klassenleitung wurden vor der Entscheidung angehört. Eine sofortige Gefahr oder sonstige Dringlichkeit der unterbliebenen Anhörung wird nicht behauptet. Die Eltern möchten am 14. September widersprechen und erwarten, dass ihr Sohn dann normal teilnehmen darf. Erstellen Sie ergebnis.md mit Einordnung, Verfahrensmängeln und kurzfristigen Handlungsmöglichkeiten, ohne etwas einzureichen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Entscheidung wird als NRW-Ordnungsmaßnahme Unterrichtsausschluss eingeordnet; die Schulleiterzuständigkeit wird nicht pauschal zugunsten einer obligatorischen Teilkonferenz verneint.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Ergebnis prüft die fehlenden Anhörungen anhand der konkret fehlenden Dringlichkeit und behandelt die benannten Mitschüler als aufzuklärende Beweismittel statt als bewiesene Entlastung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Es korrigiert die Erwartung einer automatisch aufschiebenden Wirkung und zeigt gesonderten behördlichen beziehungsweise gerichtlichen Eilrechtsschutz auf, ohne dessen Erfolg zu garantieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "verwaltungsakt-oder-realakt-schule"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "schulrecht-laender/README.md",
+      "schulrecht-laender/schulrecht-laender-werkstatt.md",
+      "schulrecht-laender/schulrecht-laender-schnellstart.md",
+      "quality/evals/schulrecht-laender.json"
+    ],
+    "opening_change": "Unterrichtsausschluss und weitere Schulentscheidungen anhand Vorwurf, Zuständigkeit, Anhörung und passender Abhilfe bearbeiten.",
+    "norms": [
+      "Paragraf 53 Absatz 1, 3 und 6 bis 9 SchulG NRW",
+      "Paragraf 80 Absatz 4 und 5, Paragraf 123 VwGO",
+      "Artikel 6 Absatz 2, 7 Absatz 1 und 3 Absatz 3 Satz 2 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "OVG NRW, Beschluss vom 5. Mai 2025, 19 A 1077/23, Rn. 9 bis 19",
+        "url": "https://nrwe.justiz.nrw.de/ovgs/ovg_nrw/j2025/19_A_1077_23_Beschluss_20250505.html",
+        "application": "Dokumentierte Gewalttatsachen, tatsächliche Anhörungsgelegenheit und konkrete Dringlichkeit prüfen; mehrere Ordnungsmaßnahmen eigenständig würdigen.",
+        "limit": "Berufungszulassungsentscheidung nach NRW-Recht; keine Vermutung zulasten jedes streitenden Schülers und keine ungeprüfte Übertragung auf andere Länder.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Paragraf 53 SchulG NRW und amtlicher Beschluss geprüft; nicht alle 16 Landesgesetze und schulischen Ordnungen neu verifiziert.",
+      "Desk-/Quellenreview, kein Live-Schulfall oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: NRW-Beispiel, keine neue Verifikation aller 16 Landesrechte. Bereits geprüfte Gründe zu OVG NRW 19 A 1077/23 mit vorhandener Reichweite übernommen, nicht als erneut vollständig gelesen bezeichnet. Desk review; keine Live-Client-Ausführung."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "schulrecht-laender/schulrecht-laender-schnellstart.md",
+        "schulrecht-laender/schulrecht-laender-werkstatt.md"
+      ],
+      "result": "NRW-Ordnungsmaßnahmen prüfen Gewalttatsachen, Anhörungsgelegenheit und Dringlichkeit separat; keine Übertragung auf beliebige Schulfälle oder andere Länder.",
+      "search_2026": "Exakte amtliche 2026-Suche zu NRW-Unterrichtsausschluss und Ordnungsmaßnahmen ohne passenden neuen Treffer.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Unterrichtsausschluss/Eilschutz, Notenrüge oder Aufnahme/Förderung wählen.",
+      "Dateien: Schulbescheid und Leistungsunterlagen still lesen und das tatsächliche Abhilfeziel klären.",
+      "Klarer Auftrag: landesbezogene Eingabe oder Eilantrag ohne universelle Schulakte schreiben."
+    ],
+    "continuation": "Nachgereichte Anhörungs-E-Mail korrigiert eine unzutreffende Anhörungsrüge; neuer Ausschlusstermin verändert konkreten Eilbedarf und Antrag.",
+    "enrichment": "Anhörung, Zeugenangabe und Tatnachweis trennen; Unterrichts- und Prüfungsfolgen konkretisieren; Rechenfehler, übersehene Bearbeitung und Bewertungsstreit in unterschiedliche Notenrügen übersetzen; funktionellen Förderbedarf ohne erfundene Diagnose darlegen.",
+    "limits": "desk review; no live client execution"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: schutzschirm-270d
-description: "Wenn es um Schutzschirmverfahren Paragraf 270d InsO in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schutzschirmverfahren Paragraf 270d InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schutzschirmverfahren § 270d InsO
@@ -19,8 +19,6 @@ Schutzschirmverfahren nach § 270d InsO begleiten von Antrag und Bescheinigung b
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Schutzschirmverfahren § 270d InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -82,8 +80,7 @@ Schutzschirmverfahren nach § 270d InsO begleiten von Antrag und Bescheinigung b
 
 ## Rechtliche Grundlagen und Leitentscheidungen (Stand Mai 2026)
 
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (VARTA) — StaRUG-Restrukturierungsverfahren mit Kapitalherabsetzung / Bezugsrechtsausschluss zulässig, soweit Schlechterstellungsprüfung gewahrt; Hinweis auf Abgrenzung zu Schutzschirm § 270d InsO. <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
-- Konkrete BGH-Linien zu § 270d InsO (Bescheinigung, Auswahl Sachwalter, Beendigung Schutzschirm), insbesondere zur Anforderung an die IDW S 11 / IDW S 6-Bescheinigung, vor Ausgabe über dejure.org / openjur.de mit Datum und Aktenzeichen verifizieren.
+- Paragraf 270d InsO verlangt eine mit Gründen versehene Bescheinigung einer in Insolvenzsachen erfahrenen, gesetzlich qualifizierten Person zu Insolvenzgrund und Sanierungsaussicht. IDW S 11 kann für die Prüfung der Insolvenzgründe methodisch herangezogen werden; ein IDW-S-6-Sanierungsgutachten ist keine eigenständige gesetzliche Zulässigkeitsvoraussetzung. Rechtsprechung zu Bescheinigung, Sachwalterauswahl und Aufhebung nur nach Prüfung von Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
 
 ## Paragrafenkette Insolvenzverwaltung
 

@@ -1,6 +1,6 @@
 ---
 name: kommandocenter
-description: "Wenn es um Umweltrecht-Kommandocenter in Umweltrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Umweltrecht-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Umweltrecht-Kommandocenter
@@ -50,10 +50,6 @@ description: "Wenn es um Umweltrecht-Kommandocenter in Umweltrecht geht: prüft 
 - **§ 2 UmwRG** — Verbandsklage-Befugnis
 - **§ 4 UmwRG** — Verfahrensfehler als Aufhebungsgrund
 - **§ 80 Abs. 5 VwGO** — Eilrechtsschutz gegen vollziehbare Genehmigung
-
-## Leitentscheidungen (Überblick)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ampelmatrix Risikobewertung (Standard-Output)
 
@@ -115,3 +111,5 @@ OFFENE FRAGEN / BENOETIGT:
 - `energietrassen-planfeststellung-rechtsschutz` — Energie-Planfeststellung
 - `esg-greenwashing-csrd` — Nachhaltigkeitsberichte
 - `klimaklagen-verbandsklage-umwrg` — Klimaklagen
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: versicherungen-gefahren-zvg
-description: "Wenn es um Versicherungen und Gefahren in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Versicherungen und Gefahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Versicherungen und Gefahren
@@ -60,10 +60,6 @@ description: "Wenn es um Versicherungen und Gefahren in ZVG-Zwangsverwaltung - V
 - § 3 Abs. 1 Nr. 4 ZwVwV
 - § 13 ZwVwV
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Versicherungen/Gefahren
 
 § 152 ZVG (ordnungsgemäße Verwaltung) → § 823 BGB (Verkehrssicherungspflicht) → § 836 BGB (Gebäudeeigentümerhaftung) → § 280 BGB (Pflichtverletzung) → § 9 ZwVwV (Versicherung und Gefahren) → VVG (Versicherungsvertragsrecht allgemein)
@@ -87,3 +83,5 @@ description: "Wenn es um Versicherungen und Gefahren in ZVG-Zwangsverwaltung - V
 | Wasserschaden | Absperrung/Trocknung | SOFORT | [ ] |
 | Einbruchsschäden | Sicherung/Schlösser | HOCH | [ ] |
 | Elektrische Mängel | Elektrofachkraft | HOCH | [ ] |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

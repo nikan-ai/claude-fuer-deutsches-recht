@@ -1,6 +1,6 @@
 ---
 name: stundungsanfrage-glaeubiger
-description: "Wenn es um Stundungsanfrage Gläubiger in Fortbestehensprognose geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Stundungsanfrage Gläubiger: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Stundungsanfrage Gläubiger
@@ -9,7 +9,7 @@ description: "Wenn es um Stundungsanfrage Gläubiger in Fortbestehensprognose ge
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
-- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), BGH II ZR 296/05 (Drei-Wochen-Lücke), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -177,7 +177,7 @@ ist erstellt. Die laufenden Verhandlungen mit Patronen und Kreditgebern
 zeigen positive Entwicklung; mit Vollzug der Sanierungsbausteine ist die
 fristgerechte Zahlung gesichert.
 
-Über Sicherheitsleistung ($ 222 S. 2 AO) sind wir gerne im Gespraech
+Über Sicherheitsleistung (Paragraf 222 S. 2 AO) sind wir gerne im Gespraech
 (z. B. Bürgschaft des Patrons Sicherungsuebereignung Maschinen).
 
 Auf Verlangen reichen wir Folgendes nach:
@@ -217,10 +217,6 @@ stundungen:
 - Tracker mit Status (versendet / zugesagt / abgelehnt / verhandlung).
 - Hinweis: bei Ablehnung Liquiditätsplan-Update mit weiteren Maßnahmen erforderlich.
 
-## Aktuelle Leitentscheidungen — Stundungsanfragen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Stundungsanfragen
 
 § 271 BGB (Faelligkeit) → § 222 AO (Stundung Steuer) → § 76 SGB IV (Stundung SV-Beitraege) → § 17 InsO (ZU-Beseitigung durch Stundung) → § 130 InsO (Anfechtungsrisiko bei Stundungsvereinbarung)
@@ -256,3 +252,5 @@ Wir bitten um Stundung ohne Saumniszuschlaege für den genannten Zeitraum.
 
 Anlagen: Liquiditaetsplanung (Anlage 1), aktuelle BWA (Anlage 2)
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: wandlungsmechanik-konzipieren
-description: "Wenn es um Wandlungsmechanik konzipieren in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wandlungsmechanik konzipieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wandlungsmechanik konzipieren
@@ -34,9 +34,6 @@ description: "Wenn es um Wandlungsmechanik konzipieren in Wandeldarlehen-Lebensz
 - § 272 Abs. 2 Nr. 4 HGB (Einlage in Kapitalrücklage nach Wandlung)
 - § 138 BGB (Sittenwidrigkeit – Missbrauch Wandlungsrecht prüfen)
 
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Vorgehen
 
 ### 1. Trigger-Tatbestände abgrenzen
@@ -59,7 +56,7 @@ Gesellschaft informiert Lender in Textform spätestens zwei Wochen vor Durchfüh
 Neue Anteile tragen die gleichen Rechte wie die der Investoren in der Finanzierungsrunde (oder günstigere). MFN: Wenn ein späteres Wandeldarlehen bessere Konditionen erhält, gelten diese auch hier.
 
 ### 5. Mitwirkung nach Ausübung
-Gesellschaft und Gesellschafterinnen berufen unverzüglich eine Gesellschafterversammlung ein, fassen Kapitalerhöhungsbeschluss, erklären Bezugsrechtsverzicht, vollziehen Kapitalerhöhung notariell (§ 55 Abs. 2 GmbHG).
+Gesellschaft und Gesellschafter berufen unverzüglich eine Gesellschafterversammlung ein, fassen den nach Paragraf 53 Absatz 3 GmbHG notariell zu beurkundenden Kapitalerhöhungsbeschluss, erklären erforderliche Bezugsrechtsverzichte und geben die Übernahmeerklärungen in der Form des Paragraf 55 Absatz 1 GmbHG ab.
 
 ### 6. Liquidationspräferenz formulieren (falls vereinbart)
 Im Liquidation Event: Lender hat Wahlrecht zwischen (a) Rückzahlung Darlehensbetrag plus Zinsen (1x non-participating) oder (b) Wandlung. Frist: zwei Wochen ab Bekanntgabe des Exit-Events.
@@ -94,14 +91,8 @@ Stand: 05/2026. Bei Änderung GmbHG (§§ 55 ff.) aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 55 GmbHG (Kapitalerhöhung gegen Einlage) → § 56 GmbHG (Sacheinlage, Differenzhaftung) → § 57 GmbHG (Unversehrtheit des Stammkapitals) → § 15 GmbHG (Abtretung Geschäftsanteile) → § 272 Abs. 2 Nr. 4 HGB (Kapitalrücklage aus Wandlungsagio)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

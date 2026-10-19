@@ -1,6 +1,6 @@
 ---
 name: entscheidungsgruende-zivil-familienrichter
-description: "Wenn es um Entscheidungsgründe schreiben in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Entscheidungsgruende Zivil Familienrichter; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Entscheidungsgründe schreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Urteilsbauer und Relationsmacher. Route: entscheidungsgruende-zivil-familienrichter."
 ---
 
 # Entscheidungsgründe schreiben
@@ -27,10 +27,6 @@ Im Urteilsstil (nicht im Gutachtenstil). Reihenfolge: Ergebnis - Begründung.
 2. Welche Anspruchsgrundlagen sind durchgreifend — welche nicht?
 3. Muss Beweiswürdigung integriert oder separat abgehandelt werden?
 4. Welche Nebenentscheidungen (Zinsen, Kosten, Vollstreckbarkeit) fehlen noch?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -120,3 +116,5 @@ Die Entscheidung über die vorläufige Vollstreckbarkeit beruht auf § 709 ZPO.
 ## Stil
 
 Praesens, Indikativ, im Aktiv, kurze Sätze, eine Sache pro Satz.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

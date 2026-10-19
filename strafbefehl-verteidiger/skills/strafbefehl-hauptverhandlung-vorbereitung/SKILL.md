@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-hauptverhandlung-vorbereitung
-description: "Wenn es um Hauptverhandlung nach Einspruch — Paragraf 411 StPO in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Hauptverhandlung nach Einspruch — Paragraf 411 StPO: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Hauptverhandlung nach Einspruch — § 411 StPO
@@ -34,10 +34,6 @@ Hauptverhandlung nach § 411 StPO bei Einspruch. Termin Vorbereitungspflichten. 
 - **§ 24 StPO** — Ablehnung eines Richters wegen Befangenheit
 - **§ 46 StGB** — Strafzumessungserwaeungen; Grundlage des Plaedoyers
 - **§ 267 StPO** — Urteilsgruende; Grundlage für spaetere Revision
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorbereiungs-(1 Woche vor HV)
 
@@ -114,3 +110,5 @@ Ich beantrage [Freispruch / Einstellung / Geldstrafe von [X] Tagessaetzen zu [Y]
 - Befangenheitsantrag unverzueglich nach Kenntnis stellen.
 - Beweisantraege spaetestens in der Hauptverhandlung vor Schluss der Beweisaufnahme stellen.
 - Anwaltliche Endkontrolle bei allen Antraegen und Schriftsaetzen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

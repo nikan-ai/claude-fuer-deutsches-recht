@@ -1,6 +1,6 @@
 ---
 name: europarecht-deutscher-denkfehler-scanner
-description: "Wenn es um Deutscher-Denkfehler-Scanner in Europarecht-Kompass für deutsche Juristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Deutscher-Denkfehler-Scanner: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Deutscher-Denkfehler-Scanner
@@ -39,14 +39,9 @@ Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf 
 
 ## Vertiefung: Typische Denkfehler und Korrekturen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Denkfehler 3: Charta gilt immer.** Falsch. GRCh Art. 51 — nur wenn MS EU-Recht durchfuehrt; sonst gilt das GG/EMRK.
 - **Denkfehler 4: EuGH-Zugang offen für Private.** Eng begrenzt. Art. 263 Abs. 4 AEUV: Plaumann-Formel sehr streng; individuelle Betroffenheit kaum nachweisbar. Regelweg: Vorlage Art. 267 AEUV über nationales Gericht.
 - **Denkfehler 5: Vollzugsdefizit = Verstoß.** Differenzieren: Anwendungsermessen vs. kein Ermessen; Kommission vs. nationale Behörde; Art. 258 vs. Staatshaftung.
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage vor Einsatz
 
@@ -84,3 +79,5 @@ Sachverhalt: [KURZBESCHREIBUNG]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

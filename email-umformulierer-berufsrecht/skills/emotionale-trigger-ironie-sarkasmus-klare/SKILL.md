@@ -1,6 +1,6 @@
 ---
 name: emotionale-trigger-ironie-sarkasmus-klare
-description: "Wenn es um Emotionaler Trigger-Katalog in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Emotionale Trigger Ironie Sarkasmus Klare; Arbeitsfeld: E-Mail-Umformulierer."
+description: "Für Emotionaler Trigger-Katalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: E-Mail-Umformulierer. Route: emotionale-trigger-ironie-sarkasmus-klare."
 ---
 
 # Emotionaler Trigger-Katalog
@@ -26,9 +26,7 @@ Dieser Skill stellt ein strukturiertes Wörterbuch typischer emotionaler und uns
 4. Gibt es berufsrechtlich relevante Schwellenueberschreitungen (§ 43a Abs. 3 BRAO)?
 
 ## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - AGH Muenchen, Beschl. v. 25.03.2015 - BayAGH III-4-14, AnwBl 2015, 560 — § 43a Abs. 3 BRAO: Verwendung von Affektsprache in Schriftsatz fuehrt zu berufsrechtlicher Ruege.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot: Verbot bewusst unwahrer Tatsachenbehauptungen und herabsetzender Aeusserungen
@@ -77,3 +75,5 @@ Typ A — Kompetenzabsprachen: Formulierungen, die dem Adressaten fachliche Fäh
 | "Ihre sogenannte Expertise" | A | "Ihre fachliche Einschätzung" |
 | "zum wiederholten Mal" (anklagend) | D | "wie bereits mit Schreiben vom TT.MM.JJJJ mitgeteilt" |
 | "ich verlange" | C | "ich bitte um" / "ich darf Sie auffordern" |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: lizenz-geschmacksmuster-design-designg
-description: "Wenn es um Lizenz Design (DesignG / EU-Verordnung) in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Lizenz Design (DesignG / EU-Verordnung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Lizenz Design (DesignG / EU-Verordnung)
@@ -8,8 +8,8 @@ description: "Wenn es um Lizenz Design (DesignG / EU-Verordnung) in Lizenzvertra
 ## Normenanker
 
 - DesignG (frueher Geschmacksmustergesetz) - deutsche Designs
-- $ 28 DesignG - Schutzdauer max. 25 Jahre (5+5+5+5+5)
-- $ 31 DesignG - Uebertragung und Lizenz; analog $ 30 MarkenG
+- Paragraf 28 DesignG - Schutzdauer max. 25 Jahre (5+5+5+5+5)
+- Paragraf 31 DesignG - Uebertragung und Lizenz; analog Paragraf 30 MarkenG
 - VO (EG) Nr. 6/2002 GGV - EU-Gemeinschaftsgeschmacksmuster (EUIPO)
 - Nicht eingetragenes Gemeinschaftsgeschmacksmuster - 3 Jahre Schutz ab Veroeffentlichung
 - Neuheit + Eigenart als Schutzvoraussetzungen

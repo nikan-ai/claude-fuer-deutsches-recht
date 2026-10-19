@@ -1,6 +1,6 @@
 ---
 name: pflege-und-assistenzroboter
-description: "Wenn es um Pflege- und Assistenzroboter in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Pflege- und Assistenzroboter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Pflege- und Assistenzroboter
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft Pflege- und Assistenzrobotik in Heim, Klinik und Haushalt: Würde, Aufsicht, Einwilligung, Haftung, MDR-Nähe und Datenschutz.**
 
 Quellen-/Normenanker: MDR/MPDG, DSGVO, SGB-Schnittstellen, Produkthaftung.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

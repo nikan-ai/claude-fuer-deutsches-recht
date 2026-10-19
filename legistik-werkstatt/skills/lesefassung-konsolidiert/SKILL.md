@@ -1,6 +1,6 @@
 ---
 name: lesefassung-konsolidiert
-description: "Wenn es um Lesefassung konsolidiert in Legistik-Werkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Lesefassung konsolidiert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Lesefassung konsolidiert
@@ -113,10 +113,8 @@ Die Lesefassung ist **kein** amtliches Dokument. Die amtliche Konsolidierung erf
 - `referentenentwurf-bauen` — bei änderbarem Entwurfsstand
 - `inkrafttreten-uebergangsrecht` — bei stufenweisem Inkrafttreten oder Übergangsregelungen
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 Art. 82 GG (Ausfertigung und Verkuendung) — § 1 BGBlG (Bundesgesetzblatt als amtliche Quelle) — §§ 1-5 NormDokVO (Normdokumentations-Verordnung) — Art. 20 Abs. 3 GG (Normklarheit als Rechtsstaatsprinzip)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

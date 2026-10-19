@@ -1,6 +1,6 @@
 ---
 name: anspruchsgrundlagen-pruefen
-description: "Wenn es um Anspruchsgrundlagen-Prüfung in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anspruchsgrundlagen-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Anspruchsgrundlagen-Prüfung
@@ -13,10 +13,6 @@ Identifiziert alle in Betracht kommenden Anspruchsgrundlagen und prüft sie sche
 2. Besteht Auslandsbezug — Rom-I, Rom-II, CISG anwendbar?
 3. Welche Partei trägt die Beweislast für die streitigsten Tatbestandsmerkmale?
 4. Droht Verjährung (§§ 195, 199 BGB — regelmäßig 3 Jahre ab Jahresende Kenntnis)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -94,35 +90,10 @@ Bei Auslandsbezug immer prüfen:
 
 Pro Anspruchsgrundlage eine eigene Tabelle mit allen Tatbestandsmerkmalen.
 
-<!-- AUDIT 27.05.2026
-Geprüfte AZ (task_286):
-- BGH VI ZR 373/18 (behauptet NJW 2020, 466): NOT FOUND auf dejure.org — ersetzt durch BGH VII ZR 158/03, NJW 2005, 1423 (verifiziert auf dejure.org)
-- BGH VI ZR 395/16 (behauptet NJW 2018, 386): NOT FOUND auf dejure.org — ersetzt durch BGH VI ZR 107/08, NJW 2009, 2952 (verifiziert auf dejure.org)
-- BGH VII ZR 101/14 (behauptet NJW 2016, 560): NOT FOUND auf dejure.org — ersetzt durch BGH VII ZR 184/04, NJW 2005, 1356 (verifiziert auf dejure.org)
-Alle drei Ersatz-AZ wurden über dejure.org-Direktabfrage verifiziert.
--->
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 38 FamFG
-- § 13 GVG
-- § 137 FamFG
-- Art. 3 DSGVO
-- Art. 9 DSGVO
-- Art. 6 DSGVO
-- § 70 VwGO
-- § 123 VwGO
-- § 71 GVG
-- § 63 GKG
-- Art. 103 GG
-- § 111 FamFG
+Für die Relation gelten keine universellen materiell-rechtlichen Leitentscheidungen. Zuerst Anspruchsgrundlage und Einwendungen des konkreten Streitstoffs bestimmen; pro Rechtssatz nur eine Entscheidung mit Gericht, Datum, Aktenzeichen, tragender Aussage und Quelle verwenden. Verfahrensrechtlich insbesondere Paragraf 138, Paragraf 139, Paragraf 253 Absatz 2 Nummer 2, Paragraf 286, Paragraf 296 und Paragraf 308 ZPO fallbezogen prüfen.
 
-### Leitentscheidungen
-
-- BGH VI ZR 96/11
-- BGH VI ZR 113/17
-- BGH VII ZR 213/10
-- BGH VI ZR 39/20
-- BGH VI ZR 40/20
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

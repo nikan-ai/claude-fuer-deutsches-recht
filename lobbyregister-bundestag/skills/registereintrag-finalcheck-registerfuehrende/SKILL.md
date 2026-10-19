@@ -1,6 +1,6 @@
 ---
 name: registereintrag-finalcheck-registerfuehrende
-description: "Wenn es um Registereintrag Finalcheck in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Registereintrag Finalcheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Registereintrag Finalcheck
@@ -25,8 +25,6 @@ description: "Wenn es um Registereintrag Finalcheck in Lobbyregister Bundestag g
 1. Sind alle Pflichtfelder belegt?
 2. Passen Personen, VZAE, Kosten, Auftraggeber und Vorhaben zusammen?
 3. Sind Risiken, Annahmen und Nachreichpflichten markiert?
-
-## Quellenanker
 
 ## Doppelregistrierungs-Check
 

@@ -1,6 +1,6 @@
 ---
 name: konkurrenz-bereicherung-anfechtung
-description: "Wenn es um Konkurrenz: Bereicherung, Anfechtung und Vindikation in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Konkurrenz Bereicherung Anfechtung; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer."
+description: "Für Konkurrenz: Bereicherung, Anfechtung und Vindikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: konkurrenz-bereicherung-anfechtung."
 ---
 
 # Konkurrenz: Bereicherung, Anfechtung und Vindikation
@@ -16,16 +16,6 @@ description: "Wenn es um Konkurrenz: Bereicherung, Anfechtung und Vindikation in
 ## Zentrale Normen
 
 § 812 Abs. 1 BGB (Leistungskondiktion/Nichtleistungskondiktion) — § 985 BGB (Vindikation) — §§ 987–993 BGB (Eigentümer-Besitzer-Verhältnis) — §§ 129–147 InsO (Insolvenzanfechtung) — §§ 1–13 AnfG (Gläubigeranfechtung) — § 55 InsO (Masseverbindlichkeiten) — § 144 InsO (Rückgewähr Gegenleistung)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Verhältnis § 812 BGB zu AnfG
 
@@ -71,3 +61,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

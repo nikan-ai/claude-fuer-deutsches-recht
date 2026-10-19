@@ -1,7 +1,13 @@
 ---
 name: fachanwalt-insolvenz-krypto-verwertung
-description: "Wenn es um Fachanwalt Insolvenz Krypto Verwertung in Fachanwalt Insolvenz- und Sanierungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fachanwalt Insolvenz Krypto Verwertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
+
+# Kryptowerte in der Insolvenz erfassen und ihre Verwertung vorbereiten
+
+Lies zuerst Verfahrensbeschlüsse, Bestands- und Transaktionsübersichten, Verwahrverträge sowie vorhandene Bewertungsunterlagen. Ordne Bestände, Verwahrungsart, dokumentierte Zugriffsberechtigung und streitige Zuordnung mit Belegen zu. Liefere einen ausformulierten Verwertungsvermerk mit Inventar, Bewertungsstichtag, Handlungsoptionen und offenen Nachweisen; Auskunftsschreiben oder Antragsentwürfe nur passend zum konkreten Auftrag ergänzen.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -33,9 +39,7 @@ description: "Wenn es um Fachanwalt Insolvenz Krypto Verwertung in Fachanwalt In
 
 | Gericht | AZ | Datum | Kernaussage |
 |---------|----|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | US SDNY (FTX) | 22-11068 | 2022/2023 | FTX-Linie: Kundenvermögen bei Custodial-Exchange als Sondervermögen nur wenn Treuhandverhältnis eindeutig belegt |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema
 
@@ -168,7 +172,7 @@ IV. Steuerliche Folgen:
 | Verwertung § 159 InsO | Innerhalb angemessener Frist; bei Preisverfall sofortige Sicherung nötig |
 | Anfechtung Krypto-Transfers § 130 InsO | 3 Monate vor Antragstellung |
 | Anfechtung § 133 InsO | 4 Jahre vor Antragstellung |
-| Verjährung § 146 InsO | 3 Jahre ab Verwalter-Kenntnis |
+| Verjährung nach Paragraf 146 InsO | Regelmäßige BGB-Verjährung; Entstehung, Jahresendbeginn, Kenntnis oder grob fahrlässige Unkenntnis und Hemmung nach Paragrafen 195 und 199 BGB konkret berechnen |
 | Steuer § 23 EStG Jahresfrist | 12 Monate ab Anschaffung; bei Überschreitung steuerfrei |
 
 ## Gegenargumente und Reaktion
@@ -179,7 +183,6 @@ IV. Steuerliche Folgen:
 | Private Key verloren/vergessen | § 97 InsO | Forensik-Dienstleister beauftragen; bei Verdacht auf vorsätzliche Verschleierung → § 98 InsO |
 | Krypto-Assets im Ausland (Offshore-Exchange) | § 35 InsO, MLAT | Internationale Rechtshilfe (MLAT); INTERPOL-Finanzermittler einschalten; Anfechtungsklage auch gegen ausländische Exchange |
 | Coins bereits verwertet vor Eröffnung | §§ 130 ff. InsO | Anfechtung des Transfers; Blockchain-Forensik zeigt Transaktion |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | NFT-Wertbestimmung unklar | § 159 InsO | Spezialisiertes Auktionshaus (Christie's, OpenSea Business); ggf. Sachverständiger |
 
 ## Streitwert und Kosten
@@ -216,9 +219,7 @@ Erzwingungshaft-Verfahren: Gerichtsgebühren gering (ca. 150–300 EUR); Hauptko
 ## Quellen
 
 - InsO §§ 35, 47, 80, 97, 98, 148, 159
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BMF-Schreiben v. 22.11.2024 zur ertragsteuerlichen Behandlung von Kryptowährungen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - US Bankruptcy Court SDNY, In re FTX Trading Ltd., 22-11068 (2022/2023)
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
 - Chainalysis Blockchain Analytics Platform (forensische Wallet-Analyse)
@@ -236,3 +237,5 @@ Bevor losgelegt wird, klaere:
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

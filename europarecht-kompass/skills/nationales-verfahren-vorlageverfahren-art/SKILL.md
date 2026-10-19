@@ -1,6 +1,6 @@
 ---
 name: nationales-verfahren-vorlageverfahren-art
-description: "Wenn es um Nationales Verfahren und Effektivität in Europarecht-Kompass für deutsche Juristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Nationales Verfahren und Effektivität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Nationales Verfahren und Effektivität
@@ -44,10 +44,6 @@ Bevor losgelegt wird, klaere:
 2. Haelt das nationale Verfahrensrecht die Durchsetzung dieses Rechts praktisch unmoeglich oder uebermäßig erschwert (Effektivitaetsgrundsatz)?
 3. Sind nationale Verfahrensregeln diskriminierend im Vergleich zu rein nationalen Anspruechen (Äquivalenzgrundsatz)?
 4. Besteht ein Anspruch auf einstweiligen Rechtsschutz bis zur EuGH-Entscheidung (Zuckerfabrik-Doktrin)?
-
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette
 
@@ -95,3 +91,5 @@ EuGH an. Vorlagefrage: [FORMULIERUNG]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

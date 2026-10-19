@@ -1,6 +1,6 @@
 ---
 name: vergleich-106-vwgo-behoerde
-description: "Wenn es um Vergleich 106 Vwgo Behoerde in Fachanwalt Verwaltungsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleich 106 VwGO Behörde: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Verwaltungsrechts-Vergleich nach § 106 VwGO und öffentlich-rechtlicher Vertrag nach § 55 VwVfG: Mandant will Streit mit Behörde außergerichtlich beilegen
@@ -40,10 +40,6 @@ Verwaltungsstreit kann an mehreren Stellen vergleichsweise beendet werden: **vor
 - **§§ 68 ff. VwGO** — Widerspruchsverfahren (Vorverfahren)
 - **Art. 17 GG** — Petitionsrecht
 - **MediationsG** — Mediation im Verwaltungsverfahren möglich
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## ADR-Pfade
 
@@ -121,10 +117,6 @@ Verwaltungsstreit kann an mehreren Stellen vergleichsweise beendet werden: **vor
 - **Petitionsweg parallel**: ergänzend, nicht statt Rechtsbehelf
 - **Bei Ermessens-Reduzierung-Argumenten**: vorsichtig — Behörde behält Ermessen häufig
 
-## Aktuelle Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellen und Updates
 
 Stand: 05/2026. VwVfG/VwGO im Kern stabil. Für die Verifikation öffentlich-rechtlicher Vergleiche und Erörterungstermine vor Ausgabe Rechtsprechungsdatenbank des BVerwG (bverwg.de) konsultieren — keine Aktenzeichen aus Modellwissen.
@@ -132,3 +124,5 @@ Stand: 05/2026. VwVfG/VwGO im Kern stabil. Für die Verifikation öffentlich-rec
 - VwGO — [gesetze-im-internet.de](https://www.gesetze-im-internet.de/vwgo/)
 - VwVfG — [gesetze-im-internet.de](https://www.gesetze-im-internet.de/vwvfg/)
 - BVerwG-Entscheidungsdatenbank — [bverwg.de](https://www.bverwg.de/entscheidungen)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

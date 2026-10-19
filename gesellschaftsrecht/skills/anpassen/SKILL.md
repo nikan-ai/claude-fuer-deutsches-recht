@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um Praxisprofil anpassen in Gesellschaftsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Praxisprofil anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Gesellschaftsrecht."
 ---
 
 # Praxisprofil anpassen
@@ -16,7 +16,6 @@ description: "Wenn es um Praxisprofil anpassen in Gesellschaftsrecht geht: ordne
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Praxisprofil anpassen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -50,7 +49,6 @@ Relevante Vorschriften je Bereich (Referenz für Konsistenzprüfung):
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
 - Mitbestimmung: MitbestG, DrittelbG — eine Moduländerung, die ein mitbestimmungspflichtiges Unternehmen betrifft, ist zu flaggen
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
 ## Ablauf
 
@@ -58,7 +56,7 @@ Relevante Vorschriften je Bereich (Referenz für Konsistenzprüfung):
 
 CLAUDE.md und Unternehmensprofil lesen. Falls das Plugin-Profil nicht existiert oder noch `[PLATZHALTER]`-Werte enthält:
 
-> Sie haben die Ersteinrichtung noch nicht abgeschlossen. Führen Sie zunächst `/gesellschaftsrecht:gesellschaftsrecht-kaltstart-interview` aus — die Anpassungsfunktion setzt ein bestehendes Praxisprofil voraus.
+> Sie haben die Ersteinrichtung noch nicht abgeschlossen. Führen Sie zunächst `/gesellschaftsrecht:kaltstart-interview` aus — die Anpassungsfunktion setzt ein bestehendes Praxisprofil voraus.
 
 ### Schritt 2: Anpassungsübersicht zeigen
 
@@ -96,7 +94,7 @@ Bei Änderungen an Unternehmensname, Branche, Sitz, Tätigkeitssetting, Rechtsfo
 
 ### Schritt 6: Abschluss
 
-> Fertig. Ihre nächste Ausgabe spiegelt die Änderung wider. Weitere Anpassungen? Sie können `/gesellschaftsrecht:gesellschaftsrecht-anpassen` jederzeit erneut aufrufen.
+> Fertig. Ihre nächste Ausgabe spiegelt die Änderung wider. Weitere Anpassungen? Sie können `/gesellschaftsrecht:anpassen` jederzeit erneut aufrufen.
 
 ## Output-Template
 
@@ -124,7 +122,7 @@ Konflikt erkannt: [BESCHREIBUNG] — Empfehlung: [HANDLUNGSHINWEIS]
 
 --- BESTAEIGUNG ---
 Praxisprofil gespeichert. Naechste Ausgabe verwendet den neuen Wert.
-Weitere Anpassungen: `/gesellschaftsrecht:gesellschaftsrecht-anpassen` erneut aufrufen.
+Weitere Anpassungen: `/gesellschaftsrecht:anpassen` erneut aufrufen.
 ```
 
 ## Rote Schwellen
@@ -155,25 +153,3 @@ Bei Änderungen, die rechtliche Schwellenwerte oder Verfahrensregeln betreffen:
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 48 GmbHG
-- Paragraf 40 GmbHG
-- Paragraf 246 AktG
-- Paragraf 43 GmbHG
-- Paragraf 47 GmbHG
-- Paragraf 108 AktG
-- Paragraf 20 GwG
-- Paragraf 53 GmbHG
-- Paragraf 15 GmbHG
-- Paragraf 130 AktG
-- Paragraf 5 GmbHG
-- Paragraf 107 AktG
-
-### Leitentscheidungen
-
-- BGH II ZR 25/82
-- BFH I R 53/08

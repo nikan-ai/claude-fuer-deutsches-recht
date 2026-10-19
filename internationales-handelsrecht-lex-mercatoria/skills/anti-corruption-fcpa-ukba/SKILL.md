@@ -1,6 +1,6 @@
 ---
 name: anti-corruption-fcpa-ukba
-description: "Wenn es um Anti-Korruption: FCPA und UK Bribery Act in Internationales Handelsrecht und Lex Mercatoria geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anti-Korruption: FCPA und UK Bribery Act: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anti-Korruption: FCPA und UK Bribery Act
@@ -48,28 +48,3 @@ Der FCPA (Foreign Corrupt Practices Act, 1977) verbietet Bestechung ausländisch
 - Compliance-Programm: Adequate Procedures nach UKBA-Leitfaden (Ministry of Justice 2011)
 - Books-and-Records: FCPA-konforme Buchführung für alle Ausgaben
 - Red Flags: Zahlung auf Drittkonten, Bargeld, ungewöhnlich hohe Provisionen
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 6 UStG
-- § 17 UWG
-- § 13b UStG
-- § 69a UrhG
-- § 9 GeschGehG
-- § 19 AktG
-- § 5 HGeschGehG
-- § 14 MarkenG
-- Art. 28 DSGVO
-- Art. 101 AEUV
-- Art. 29 EUV
-- Art. 215 AEUV
-
-### Leitentscheidungen
-
-- BGH VIII ZR 136/01
-- EuGH C-126/97
-- BGH VIII ZR 274/98
-- BGH VIII ZR 304/00
-- EuGH C-311/18

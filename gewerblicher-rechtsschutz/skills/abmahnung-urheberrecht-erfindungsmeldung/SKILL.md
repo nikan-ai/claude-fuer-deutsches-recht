@@ -1,6 +1,6 @@
 ---
 name: abmahnung-urheberrecht-erfindungsmeldung
-description: "Wenn es um Urheberrechtliche Abmahnung – Paragraf 97a UrhG in Plugin: Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Urheberrechtliche Abmahnung – Paragraf 97a UrhG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Urheberrechtliche Abmahnung – § 97a UrhG
@@ -122,7 +122,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 6. **Schadensersatz geltend machen** – Lizenzanalogie (§ 97 Abs. 2 Satz 3 UrhG);
  Schätzung nach § 287 ZPO; Tabellen für übliche Lizenzgebühren (MFM-Tabelle
  für Fotos; GEMA-Tarife für Musik; BGH-Rspr. für Filesharing, vgl.
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Für den Abgemahnten (Schuldner)
 
@@ -139,7 +138,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
  nach Hamburger Brauch (konkrete Summe nach billigem Ermessen).
 
 4. **Kosten verhandeln** – Lizenzanalogie begründen oder anfechten; bei Filesharing
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 5. **Verjährung beachten** – § 102 UrhG i. V. m. §§ 195, 199 BGB: 3-Jahres-
@@ -163,9 +161,7 @@ RVG für eine 1,3-Gebühr (Nr. 2300 VV RVG) ein Erstattungsbetrag von ca. 27,30 
 (zzgl. Auslagenpauschale); die geltend gemachten 956 € sind insoweit überhöht.
 
 **Schadensersatz:** 500 € nach Lizenzanalogie ist bei einem Spielfilm vertretbar
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 kann P durch sekundäre Darlegungslast auf alternative Täter (Familienmitglieder)
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 1. Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Empfehlung:** Modifizierte Unterlassungserklärung ohne Schuldanerkenntnis abgeben;
@@ -209,40 +205,6 @@ Bevor die Abmahnung versandt wird, klaere:
 3. Ist der Rechteinhaber eindeutig der Mandant (Werkvertrag, Arbeitsvertrag, Rechteabtretung)?
 4. Ist die Verletzungshandlung noch andauernd oder bereits beendet (Wiederholungsgefahr vs. Erstbegehungsgefahr)?
 
-## Aktuelle Rechtsprechung
+## Quellenkontrolle
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Task: Bundle 031 / Halluzinations-Reparatur
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Korrektur: GRUR 2016, 176 → GRUR 2016, 191 (alle 3 Fundstellen). Verifiziert via dejure.org.
--->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 97a UrhG
-- § 97 UrhG
-- § 8c UWG
-- § 14 MarkenG
-- § 42 MarkenG
-- § 8 UWG
-- § 13 UWG
-- § 26 MarkenG
-- § 9 PatG
-- § 66 MarkenG
-- § 8 MarkenG
-- § 6 ArbnErfG
-
-### Leitentscheidungen
-
-- BGH I ZR 153/16
-- BGH I ZR 82/99
-- BGH I ZR 20/07
-- BGH X ZR 171/12
+Das betroffene Schutzrecht zuerst bestimmen und Patentgesetz, Markengesetz, Designgesetz, Urheberrechtsgesetz, Gesetz gegen den unlauteren Wettbewerb sowie Unionsrecht nicht vermischen. Eine Entscheidung wird nur mit Streitgegenstand, Tatbestandsmerkmal, tragender Aussage und Quelle zugeordnet; allgemeine Aktenzeichenlisten sind für Anmeldung, Abmahnung und Prozessstrategie ungeeignet.

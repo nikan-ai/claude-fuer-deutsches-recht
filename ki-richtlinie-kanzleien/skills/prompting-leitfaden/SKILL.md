@@ -1,6 +1,6 @@
 ---
 name: prompting-leitfaden
-description: "Wenn es um Prompting-Leitfaden in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Mandantennachricht oder Entscheidungsvorlage."
+description: "Für Prompting-Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Prompting-Leitfaden
@@ -19,7 +19,7 @@ Ein "Prompt" ist eine Instruktion an ein KI-System — vergleichbar damit, wie m
 
 ## Rechtlicher Hintergrund
 
-Art. 4 KI-VO: Pflicht zur KI-Kompetenz — die Fähigkeit zum effektiven und sicheren Prompten ist eine zentrale Komponente dieser Kompetenz. Art. 3 Nr. 56 KI-VO: KI-Kompetenz umfasst das Wissen, KI-Systeme sachkundig einzusetzen. BRAK-Hinweise 12/2024: Anwälte müssen in der Lage sein, KI-Output zu beurteilen — was voraussetzt, dass der Prompt präzise genug war, um einen beurteilbaren Output zu erzeugen. DAV-Stellungnahme 32/2025: Kompetenter Umgang mit KI-Systemen als berufsrechtliche Anforderung.
+Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. Sicheres Prompten kann Teil der Maßnahmen sein; ebenso Quellenprüfung, Erkennen von Grenzen, Umgang mit personenbezogenen Daten und Eskalation. Artikel 3 Nummer 56 erläutert KI-Kompetenz, begründet aber keine eigenständige allgemeine Zertifizierungspflicht. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -68,13 +68,10 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 Prompting-Techniken entwickeln sich mit den KI-Systemen weiter. Was heute gut funktioniert, kann bei einem Modell-Update weniger effektiv sein. Die Schulungsunterlagen sollten jährlich mit aktuellen Erfahrungen und neuen Erkenntnissen aus der juristischen KI-Praxis aktualisiert werden.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 43 BRAO — Gewissenhafte Berufsausuebung (gilt auch für Prompting-Qualitaet)
-- Art. 4 KI-VO — KI-Kompetenzverpflichtung (beinhaltet effektiven Umgang mit KI)
-- Art. 26 Abs. 1 lit. b KI-VO — Einhaltung der Anleitung des KI-Anbieters
+- Artikel 4 KI-Verordnung: Maßnahmen zur Kompetenzförderung nach Kontext; keine Garantie erfolgreichen Promptens. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- Artikel 26 Absatz 1 KI-Verordnung — Nutzung entsprechend der Betriebsanleitung bei zeitlich und sachlich erfassten Hochrisiko-Systemen
 - § 43a Abs. 2 BRAO — Keine mandantenbezogenen Informationen im Prompt ohne Anonymisierung
 
 ## Triage zu Beginn
@@ -119,3 +116,5 @@ FRAGEN: [ANSPRECHPARTNER KI]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

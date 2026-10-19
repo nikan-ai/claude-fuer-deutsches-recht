@@ -1,6 +1,6 @@
 ---
 name: workflow-fristen-und-risikoampel
-description: "Wenn es um Fristen- und Risikoampel in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge."
 ---
 
 # Fristen- und Risikoampel
@@ -34,14 +34,15 @@ Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **ki-richtlinie
 ## Ergänzende Hinweise
 
 ## Kanzlei-KI-Richtlinie-typische Fristen
-- **Art. 4 KI-VO (Schulung)**: seit **02.02.2025** unmittelbar geltend — Schulung muss dokumentiert sein.
+- **Artikel 4 KI-Verordnung:** Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. Geeignete Maßnahmen intern nachvollziehbar festhalten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Art. 5 KI-VO (Verbote)**: seit **02.02.2025**.
 - **Art. 51 ff. KI-VO (GPAI)**: seit **02.08.2025**.
-- **Art. 6 ff. KI-VO (Hochrisiko)**: ab **02.08.2026** Pflichten für Anbieter, Betreiber.
+- Artikel 113 neuer Fassung: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 gelten für Anhang III ab 02.12.2027 und Anhang I ab 02.08.2028. Artikel 111 zum Bestand und andere schon geltende Pflichten gesondert prüfen.
 - **DSGVO Art. 33** (bei KI-Datenpanne mit Mandantenbezug): 72 Stunden.
 - **§ 113 BRAO**: anwaltsgerichtliches Verfahren — keine konkrete Frist, aber rasche Reaktion auf Beschwerde geboten.
 
 ## Ampelkriterien
-- **Rot**: Mitarbeiter verwenden nachweislich nicht freigegebene KI-Tools mit Mandantendaten; keine Schulung trotz Art. 4 KI-VO; Mandant beschwert sich über mangelnde Aufklärung.
+- **Rot:** Nicht freigegebene Übermittlung von Mandantendaten oder nachweislich untaugliche Kontrollprozesse; angemessene Kompetenzmaßnahmen fehlen. Das Risiko konkret begründen, nicht allein aus einem fehlenden Schulungszertifikat ableiten.
 - **Gelb**: Richtlinie existiert formell, aber Whitelist fehlt; AVV-Status der genutzten Tools nicht dokumentiert; Schulung nur ad hoc.
 - **Grün**: Richtlinie + Whitelist + dokumentierte Schulung + ggf. Betriebsratseinbindung + Mandantenaufklärung im Mandatsvertrag.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

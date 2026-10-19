@@ -1,6 +1,6 @@
 ---
 name: admin-offboarding
-description: "Wenn es um Admin Offboarding in NIS-2, Cybersecurity und IT-Sicherheits-Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Admin Offboarding: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Admin Offboarding
@@ -54,15 +54,3 @@ Erzeuge bevorzugt: Admin-Offboarding-Check. Wenn der Nutzer nur eine Kurzantwort
 ## Qualitätsfilter
 
 Vor Ausgabe kontrollieren: Norm aktuell, Quelle frei prüfbar, Sachverhalt nicht ergänzt, Gegenargument genannt, Umsetzungsfolge klar, kein blindes Zitat, keine Scheinsicherheit.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 32 DSGVO
-- § 203 StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: entfristung-klageschrift-anwalt-baustein
-description: "Wenn es um Anwaltliche Klageschrift Entfristungsklage mit Hauptantrag und Hilfsanträgen in Arbeitsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anwaltliche Klageschrift Entfristungsklage mit Hauptantrag und Hilfsanträgen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Anwaltliche Klageschrift Entfristungsklage mit Hauptantrag und Hilfsanträgen
@@ -20,8 +20,6 @@ description: "Wenn es um Anwaltliche Klageschrift Entfristungsklage mit Hauptant
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Klageschrift Entfristungsklage — Anwaltliche Version` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -44,10 +42,6 @@ description: "Wenn es um Anwaltliche Klageschrift Entfristungsklage mit Hauptant
 - Paragrafen 9, 10 KSchG i.V.m. Paragraf 17 Satz 2 TzBfG — Auflösungsantrag auf Abfindung
 - Paragraf 42 Abs. 2 GKG — Streitwert Befristungsklage (3 Monatsverdienste)
 - Paragraf 12a ArbGG — kein Kostenerstattungsanspruch in erster Instanz
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorprüfung (Checkliste)
 
@@ -122,7 +116,6 @@ Der Kläger ist seit dem [DATUM] bei der Beklagten beschäftigt (Anlage K 1). Da
 
 **I. Schriftformmangel (Paragraf 14 Abs. 4 TzBfG)**
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Rechtsfolge:** Gemäß Paragraf 16 Satz 1 TzBfG gilt der Arbeitsvertrag als auf unbestimmte Zeit geschlossen.
 
@@ -156,3 +149,5 @@ Die Klage wird innerhalb der Dreiwochenfrist des Paragraf 17 Satz 1 TzBfG erhobe
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

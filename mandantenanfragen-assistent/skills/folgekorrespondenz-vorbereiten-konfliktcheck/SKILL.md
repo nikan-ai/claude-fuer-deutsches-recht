@@ -1,6 +1,6 @@
 ---
 name: folgekorrespondenz-vorbereiten-konfliktcheck
-description: "Wenn es um Folgekorrespondenz-Vorbereiten in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Folgekorrespondenz-Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Folgekorrespondenz-Vorbereiten
@@ -8,7 +8,7 @@ description: "Wenn es um Folgekorrespondenz-Vorbereiten in mandantenanfragen-ass
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -22,9 +22,6 @@ Erstellt auf Basis der geparsten Eingangsanfrage einen fertigen Skeleton-Eintrag
 2. Welches CRM oder welche Aktenstruktur wird genutzt (DATEV, RA-MICRO, Advoware, manuell)?
 3. Wurde der Konfliktcheck bereits durchgefuehrt oder muss er im CRM-Eintrag als ausstehend markiert werden?
 4. Soll der Eintrag automatisch oder nach manueller Freigabe gespeichert werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 6 Abs. 1 lit. b DSGVO — Vertragsanbahnung als Rechtsgrundlage für CRM-Speicherung
@@ -137,3 +134,5 @@ Konfliktcheck: AUSSTEHEND — vor Terminvergabe durchführen!
 - `dringlichkeitsmarker` — Dringlichkeitsstufe und Begründung
 - `spam-und-massen-anfrage-filter` — Spam-Check-Status
 - `konfliktcheck-vorab` — Hinweis auf ausstehenden Konfliktcheck
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

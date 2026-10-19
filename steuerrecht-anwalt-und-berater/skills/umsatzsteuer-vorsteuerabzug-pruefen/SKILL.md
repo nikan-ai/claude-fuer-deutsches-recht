@@ -1,6 +1,6 @@
 ---
 name: umsatzsteuer-vorsteuerabzug-pruefen
-description: "Wenn es um Umsatzsteuer-Vorsteuerabzug prüfen in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Umsatzsteuer-Vorsteuerabzug prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Umsatzsteuer-Vorsteuerabzug prüfen
@@ -153,7 +153,6 @@ Pflichtangaben § 14 Abs. 4 UStG:
 
 - **Berichtigung** erfordern beim Rechnungsstellers
 - **Vor-Vorsteuer-Abzug nicht möglich** bis Berichtigung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 6 — Klein-Betrag-Rechnung § 33 UStDV
 
@@ -189,7 +188,6 @@ Pflichtangaben § 14 Abs. 4 UStG:
 ### Karussell-Geschäfte
 
 - Vorsteuer-Abzug aus Schein-Lieferungen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Aufmerksamkeits-Pflicht bei unüblich niedrigen Preisen
 - Verpflichtung zur Sorgfalts-Pflicht
 
@@ -227,6 +225,9 @@ Pflichtangaben § 14 Abs. 4 UStG:
 
 ## Quellen
 
+- EuGH, Urteil vom 01.03.2012 - C-280/10, Polski Trawertyn: Vorbereitungshandlungen und erste Investitionsausgaben können bereits wirtschaftliche Tätigkeit sein; die besondere Gründungs- und Rechnungskonstellation des Urteils vor einer Übertragung auf den Einzelfall abgleichen.
+- EuGH, Urteil vom 15.09.2016 - C-518/14, Senatex, zur Rückwirkung einer berichtigungsfähigen Rechnung hinsichtlich der dort geprüften Pflichtangaben.
+- EuGH, Urteil vom 15.09.2016 - C-516/14, Barlis 06, zur Berücksichtigung ergänzender Informationen bei der Prüfung der materiellen Abzugsvoraussetzungen.
 - UStG §§ 1 2 3 4 13b 14 15 15a
 - UStDV § 33
 - AO § 153
@@ -236,3 +237,5 @@ Pflichtangaben § 14 Abs. 4 UStG:
 - **Steueraenderungsgesetz 2025** (BGBl. 2025 I Nr. 363, verkuendet 23.12.2025): Erweiterung des ermaessigten USt-Satzes (7 %) auf Restaurant- und Verpflegungsdienstleistungen (ohne Getraenke) für Umsaetze nach dem 31.12.2025.
 - Sölch/Ringleb UStG
 - Tipke/Lang Steuerrecht
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-einspruch-beschraenkung
-description: "Wenn es um Beschraenkter Einspruch gegen den Strafbefehl — Paragraf 410 Abs. 2 StPO in Strafbefehl-Verteidiger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Beschränkter Einspruch gegen den Strafbefehl — Paragraf 410 Abs. 2 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beschraenkter Einspruch gegen den Strafbefehl — § 410 Abs. 2 StPO
@@ -34,10 +34,6 @@ Beschraenkter Einspruch nach § 410 Abs. 2 StPO auf Rechtsfolgen. Schuldspruch w
 - **§ 73 StGB** — Einziehung von Tatertraegen
 - **§ 331 StPO** — kein Verboeschungsverbot bei Berufung auf Rechtsfolgen; im Einspruchsverfahren analoge Diskussion
 - **§ 46 StGB** — Strafzumessungserwägungen (Grundlage für Tagessatzanzahl)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Entscheidungsbaum: Beschraenkt oder unbeschraenkt?
 
@@ -115,3 +111,5 @@ Mit freundlichen Gruessen [KANZLEI]
 - Schriftliche Aufklaerung über Rechtskraft des Schuldspruchs und Verboescherungs-Risiko.
 - Einkommensnachweise vor der Hauptverhandlung vollstaendig einreichen.
 - Frist § 410 Abs. 1 StPO (2 Wochen) beachten — gilt auch für beschraenkten Einspruch.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

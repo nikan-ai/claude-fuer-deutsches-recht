@@ -1,6 +1,6 @@
 ---
 name: interview
-description: "Wenn es um Kaltstart-Interview in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Kaltstart-Interview: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kaltstart-Interview
@@ -23,7 +23,7 @@ Welche Berufsgruppe nutzt das Tool?
 - Steuerberater oder Steuerbevollmächtigter — Norm: § 62a StBerG i.V.m. § 57 Abs. 1 StBerG und § 203 Abs. 1 Nr. 3 StGB
 - Wirtschaftsprüfer oder vereidigter Buchprüfer — Norm: § 50a WPO i.V.m. § 43 WPO und § 203 Abs. 1 Nr. 3 StGB (bei Wirtschaftsprüfungsgesellschaft zusätzlich § 59c WPO)
 - Patentanwalt — Norm: § 39c PAO i.V.m. § 39a Abs. 2 PAO und § 203 Abs. 1 Nr. 3 StGB
-- Notar — Norm: § 26a BNotO i.V.m. § 18 BNotO und § 203 Abs. 1 Nr. 1 StGB
+- Notar — Norm: § 26a BNotO i.V.m. § 18 BNotO und Paragraf 203 Absatz 1 Nummer 3 StGB
 
 Sind mehrere Berufsgruppen in einer Sozietät gemischt vertreten (Anwalts-Steuerberater-Gesellschaft, multidisziplinäre Praxis), gelten die strengsten Anforderungen kumulativ. Beim Notar besonders auf § 26a Abs. 4 BNotO achten — bei Dienstleistungen für ein einzelnes Amtsgeschäft ist die Einwilligung des Beteiligten erforderlich.
 
@@ -73,6 +73,7 @@ Indikatoren für **Einzelmandats-Tool** (Einwilligung erforderlich):
 
 Bei Unsicherheit: konservativ entscheiden und Einwilligung einholen.
 
+```markdown
 ## Eingangsdaten
 - Beruf: ...
 - Norm-Adapter: § ...
@@ -91,10 +92,6 @@ Diese Daten werden an alle folgenden Skills weitergereicht.
 ## Lückenmanagement
 
 Wenn der Auftraggeber Antworten nicht hat, ist das selbst schon ein Befund. Fehlende Anbieter-Sitzangaben, fehlende Subunternehmerliste, unklarer Verarbeitungszweck — alles davon landet ohne weiteres im Rückfragebrief.
-
-## Aktuelle Rechtsprechung zum Berufsgeheimnis
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -147,3 +144,5 @@ Beruf bestimmt?
 - Vertragsdokumente vorgelegt: [ja/nein, Datum, Anlagen]
 - Nächste Schritte: [Prüfpunkte auflisten]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

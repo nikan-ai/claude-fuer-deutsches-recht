@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "plugin": "jurastudium",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bverwg.de/030920B6B16.20.0",
+      "checked_on": "2026-09-22",
+      "supports": "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg. Grenze: Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen. Konkrete Landesprüfungsordnung und Rechtsstand des Übungsfalls müssen weiter fallbezogen geprüft werden."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Subsumtionsfehler, begrenzte Lernrunden und belastbare Auswertung anstelle allgemeiner Gutachtenmatrizen; Pflichtfächer korrekt Paragraf 5a DRiG zugeordnet. Einstiegsredaktion 16.10.2026: Konkrete Lernprodukte und vollständiger Erklärungsauftrag vorangestellt; themenabhängige Norm-/Urteilsauswahl statt pauschalem Leitentscheidungszitat. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Subsumtionsfehler, begrenzte Lernrunden und belastbare Auswertung anstelle allgemeiner Gutachtenmatrizen; Pflichtfächer korrekt Paragraf 5a DRiG zugeordnet.",
+      "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg. Grenze: Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt.",
+      "Einstiegsredaktion 16.10.2026: Konkrete Lernprodukte und vollständiger Erklärungsauftrag vorangestellt; themenabhängige Norm-/Urteilsauswahl statt pauschalem Leitentscheidungszitat."
+    ],
+    "sha256": "7d2bd2aef398f79729aa83f029e0791cdc72edd6faa711172e5fbcad2708026c"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Subsumtionsfehler, begrenzte Lernrunden und belastbare Auswertung anstelle allgemeiner Gutachtenmatrizen; Pflichtfächer korrekt Paragraf 5a DRiG zugeordnet. Einstiegsredaktion 16.10.2026: Konkrete Lernprodukte und vollständiger Erklärungsauftrag vorangestellt; themenabhängige Norm-/Urteilsauswahl statt pauschalem Leitentscheidungszitat. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Subsumtionsfehler, begrenzte Lernrunden und belastbare Auswertung anstelle allgemeiner Gutachtenmatrizen; Pflichtfächer korrekt Paragraf 5a DRiG zugeordnet.",
+      "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg. Grenze: Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen.",
+      "Tatsächlichen Denkfehler statt bloßer Ergebnisabweichung untersuchen, Behauptung und Beweis im Referendariatsfall trennen, zeitlich realistische Übungen und historische Normfassungen in begrenzte Lernprodukte übersetzen.",
+      "Einstiegsredaktion 16.10.2026: Konkrete Lernprodukte und vollständiger Erklärungsauftrag vorangestellt; themenabhängige Norm-/Urteilsauswahl statt pauschalem Leitentscheidungszitat."
+    ],
+    "sha256": "8826173a95d984275a73d6f4066282853acc5ff10898c32adbfff58dc8a17f52"
+  },
+  "selection": {
+    "positive": [
+      "Werte meine fünf Antworten aus und plane eine kurze Wiederholung.",
+      "Übe mit mir die Subsumtion in einem geschlossenen Klausursachverhalt."
+    ],
+    "negative": [
+      "Verfasse einen versandfertigen Klageschriftsatz für mein Mandat.",
+      "Erstelle eine verbindliche Anerkennungsentscheidung zu ausländischen Studienleistungen."
+    ]
+  },
+  "cases": [
+    {
+      "id": "fuenf-antworten-zwanzig-minuten",
+      "request": "Ich studiere im dritten Semester und habe eine zwanzigminütige Lerneinheit beendet. Mein kontrollierter Lernbogen enthält fünf Fragen: Anspruch entstanden richtig, Anspruch erloschen richtig, Anspruch durchsetzbar falsch, Abstraktionsprinzip teilweise richtig, Trennungsprinzip richtig. Diese Bewertungen sind für die Aufgabe vorgegeben; die Antworten selbst liegen nicht vor. Ich habe morgen zehn Minuten. Erstelle ergebnis.md mit einem ehrlichen Rückblick und einem zeitlich begrenzten nächsten Übungsschritt. Starte heute keine neue Abfrage und prognostiziere keine Examensnote.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Auswertung weist drei von fünf vollständig richtigen Antworten beziehungsweise 60 Prozent aus und trennt die Teilantwort davon.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die nächste Einheit passt in zehn Minuten und priorisiert die falsche sowie die teilweise richtige Antwort statt alle Themen neu zu beginnen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Aus den vorgegebenen Bewertungen werden keine erfundenen Antwortfehler, Kompetenzdiagnosen oder Examensnoten abgeleitet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "lernsitzung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "jurastudium/jurastudium-werkstatt.md",
+      "jurastudium/jurastudium-schnellstart.md"
+    ],
+    "opening_change": "Subsumtionsfehler, begrenzte Lernrunden und belastbare Auswertung anstelle allgemeiner Gutachtenmatrizen; Pflichtfächer korrekt Paragraf 5a DRiG zugeordnet.",
+    "norms": [
+      "Paragraf 5a Absätze 2 und 3 DRiG",
+      "Paragraf 5d DRiG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Beschluss vom 03.09.2020, 6 B 16.20, Randnummern 10 und 15",
+        "url": "https://www.bverwg.de/030920B6B16.20.0",
+        "application": "Vertretbarkeit von tragender, folgerichtiger Begründung abhängig; Feedback trennt Rechtsfehler und abweichenden Lösungsweg.",
+        "limit": "Keine Notengarantie, keine automatische Neubewertung; prüfungsspezifische Wertungen bleiben bestehen."
+      }
+    ],
+    "remaining_limits": [
+      "Konkrete Landesprüfungsordnung und Rechtsstand des Übungsfalls müssen weiter fallbezogen geprüft werden.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Falllösung, mündliches Prüfungsgespräch oder Klausurfeedback anbieten.",
+      "Dateien ohne Auftrag: Aufgabe und eigene Lösung still lesen; gezielte Korrektur oder Bearbeitung des offenen Fallpunkts zur Auswahl stellen.",
+      "Klarer Auftrag: die gewünschte Erklärung, Musterpassage oder Lösung unmittelbar liefern; keine verpflichtende Übungsrunde vorschalten."
+    ],
+    "continuation": "Neue Subsumtion -> den konkreten Denkschritt bewerten und nur die tragende Sachverhaltsalternative verändern, nicht erneut dieselbe Definition abfragen.",
+    "enrichment": "Tatsächlichen Denkfehler statt bloßer Ergebnisabweichung untersuchen, Behauptung und Beweis im Referendariatsfall trennen, zeitlich realistische Übungen und historische Normfassungen in begrenzte Lernprodukte übersetzen.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Konkrete Lernprodukte und vollständiger Erklärungsauftrag vorangestellt; themenabhängige Norm-/Urteilsauswahl statt pauschalem Leitentscheidungszitat.",
+    "anchor_or_exception": "Ausnahme: didaktisches Werkzeug; Aufgabenblatt, Bearbeitervermerk, eigene Lösung, Korrektur und konkrete Prüfungsordnung",
+    "source_status": "Vorhandene Fach- und Quellenangaben im Prüfprofil gelesen und redaktionell übernommen. Keine neue Online-Verifikation; bisherige Prüfdaten und fachliche Grenzen bleiben unverändert.",
+    "exception": "Normen und Rechtsprechung erst aus konkreter Lernfrage auswählen.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "16377671392d63f095ed6f29252c6003b0a63a752013e6d31aae1c8cbafb746d",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "1451ef46a4548f988352e9e13cde920a823d0dd47914c344e8840ef76a10c7ff",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "jurastudium/jurastudium-schnellstart.md",
+        "sha256": "7d2bd2aef398f79729aa83f029e0791cdc72edd6faa711172e5fbcad2708026c",
+        "characters": 5354,
+        "utf8_bytes": 5444
+      },
+      {
+        "path": "jurastudium/jurastudium-werkstatt.md",
+        "sha256": "8826173a95d984275a73d6f4066282853acc5ff10898c32adbfff58dc8a17f52",
+        "characters": 16454,
+        "utf8_bytes": 16733
+      }
+    ]
+  }
+}

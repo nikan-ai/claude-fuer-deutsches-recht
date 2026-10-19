@@ -1,6 +1,6 @@
 ---
 name: arbeitsgerichtsverfahren-modus-terminkalender
-description: "Wenn es um Arbeitsgerichtsverfahren-Modus (ArbGG) in aktenauszug-gerichtsverfahren geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arbeitsgerichtsverfahren-Modus (ArbGG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Arbeitsgerichtsverfahren-Modus (ArbGG)
@@ -35,10 +35,6 @@ Aktenauszug für ArbGG-Verfahren erstellen: Guetetermin Kammerverfahren Urteilsv
 - §§ 64-74 ArbGG — Berufung und Revision beim LAG/BAG
 - § 80-90 ArbGG — Beschlussverfahren; § 83 ArbGG — Untersuchungsgrundsatz
 - § 12a ArbGG — Kein Anwaltskostenersatz in 1. Instanz
-
-## Rechtsprechung (BAG — aktuelle Leitsätze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Verfahrensarten
 
@@ -114,7 +110,6 @@ Vergleichsspielraum: [BETRAG] / offenes Zeugnis / beides
 ```
 
 ---
-<!-- AUDIT 27.05.2026: Bundle 010 Halluzinations-Reparatur -->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -124,3 +119,4 @@ Vergleichsspielraum: [BETRAG] / offenes Zeugnis / beides
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

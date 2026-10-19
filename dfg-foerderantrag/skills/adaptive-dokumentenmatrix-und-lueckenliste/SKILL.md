@@ -1,6 +1,6 @@
 ---
 name: adaptive-dokumentenmatrix-und-lueckenliste
-description: "Wenn es um Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung in DFG-Förderantrag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: DFG-Förderantrag. Route: adaptive-dokumentenmatrix-und-lueckenliste."
 ---
 
 # Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung
@@ -48,25 +48,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 48 VwVfG
-- § 49 VwVfG
-- § 27 BDSG
-- § 7 TierSchG
-- § 8 TierSchG
-- § 69a UrhG
-- § 28 VwVfG
-- § 39 VwVfG
-- § 4 AWG
-- § 5 AWG
-- § 18 AWG
-- Art. 44 DSGVO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

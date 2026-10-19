@@ -1,6 +1,6 @@
 ---
 name: auszahlungsanweisung-faktenmatrix
-description: "Wenn es um Auszahlungsanweisung Faktenmatrix in Berufsrecht Notare geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Auszahlungsanweisung Faktenmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notare: auszahlungsanweisung konflikt - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
@@ -44,7 +44,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 13 BeurkG` — Vorlesen, Genehmigen, Unterschreiben.
 - `§ 40 BeurkG` — Beglaubigung einer Unterschrift.
 - `§ 53 BeurkG` — Vollzugspflichten.
-- `§ 54a BeurkG` — Verwahrung und Auszahlung.
+- `§ 57 BeurkG` — Antrag, Sicherungsinteresse und Verwahrungsanweisung.
 - `§ 130a ZPO` — elektronische Dokumente als Schnittstelle.
 - `§ 29 Abs. 1 GBO` — grundbuchtaugliche Form.
 - `§ 12 HGB` — Registereinreichung.

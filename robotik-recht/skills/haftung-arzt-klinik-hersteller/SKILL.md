@@ -1,6 +1,6 @@
 ---
 name: haftung-arzt-klinik-hersteller
-description: "Wenn es um Haftung Arzt Klinik Hersteller in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Haftung Arzt Klinik Hersteller: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Haftung Arzt Klinik Hersteller
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Ordnet Haftung zwischen Arzt, Klinik, Betreiber, Hersteller, Wartung und Softwareanbieter bei Medizinrobotik.**
 
 Quellen-/Normenanker: BGB, ProdHaftG, MDR, Beweisrecht.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

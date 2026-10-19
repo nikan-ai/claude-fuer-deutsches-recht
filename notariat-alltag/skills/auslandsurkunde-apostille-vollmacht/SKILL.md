@@ -1,91 +1,54 @@
 ---
 name: auslandsurkunde-apostille-vollmacht
-description: "Wenn es um Auslandsurkunde Apostille Vollmacht in Notariat im Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Bereitet ausländische Vollmachten, Genehmigungen und Vertretungsnachweise für notarielle Vorgänge auf. Trennt Echtheitsnachweis, Übersetzung, materiellen Umfang und Registerform und erstellt eine konkrete Nachforderung statt pauschaler Anerkennungszusagen."
 ---
 
-# Notariat im Alltag: Auslandsurkunde – Apostille, Legalisation, Übersetzung, Registertauglichkeit
+# 1. Auslandsnachweise für den Urkundenvorgang klären
 
-## Arbeitsweg
+## 1. Zweck und Anwendungsfall
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Löse das konkrete Nachweisproblem eines abwesenden Beteiligten oder ausländischen Rechtsträgers. Apostille, Vollmachtsumfang und zulässige Verwendung im deutschen Register sind verschiedene Prüfungen. Mitarbeiter bereiten vor; Amtshandlungen und Freigaben bleiben beim Notar.
 
-## Zweck und Anwendungsbereich
+## 2. Eingaben
 
-Ausländische Urkunden müssen für die Verwendung in deutschen Registern und Verfahren besondere Förmlichkeiten erfüllen. Kläre, wann Apostille oder Legalisation nötig ist, welche Übersetzungsanforderungen gelten und wie die Registertauglichkeit geprüft wird.
+Lies vollständige Urkunde einschließlich Beglaubigungs- und Apostillenseiten, Herkunftsstaat, Aussteller, vorgesehenes Geschäft und Verwendungszweck. Bei einem Scan notiere den noch offenen Original- beziehungsweise elektronischen Nachweisstand. Frage nicht erneut nach dem Staat, wenn er aus der Urkunde hervorgeht.
 
-Rechtsgrundlagen: Haager Apostillekonvention (HÜ) vom 5.10.1961, §§ 438 ZPO (öffentliche Urkunden), § 29 GBO (Grundbuchform), § 12 HGB (Handelsregisterform), § 13 BeurkG (Beurkundungsverfahren), EU-Verordnung 1191/2016 (EU-Befreiung), EuErbVO Art. 62–73 (ENZ), EGBGB Artt. 11–12 (Formstatut).
+## 3. Ablauf
 
-## Entscheidungsbaum: Apostille oder Legalisation?
+### 3.1. Erklärungsinhalt vor Echtheitskette lesen
 
-| Herkunftsland | Maßnahme |
-|---|---|
-| Haager-Konventions-Staat (> 120 Länder) | Apostille der zuständigen Behörde im Ausstellungsstaat |
-| Nicht-Konventions-Staat | Konsularische Legalisation (Stufenverfahren: lokale Behörde → Außenministerium → deutsche Botschaft) |
-| EU-Mitgliedstaat (öffentliche Urkunden, Verordnung 1191/2016) | Keine Apostille nötig für öffentliche Urkunden mit Standard-Formblatt |
-| Deutschland-interne Urkunde | Keine Apostille/Legalisation nötig |
+Welche Person darf für wen welches Geschäft abschließen? Prüfe Kauf, Belastung, Anteilstransaktion, Untervollmacht und mögliche Beschränkungen einzeln. Eine Generalüberschrift ersetzt den tatsächlichen Umfang nicht. Bei vollmachtlosem Auftreten Genehmigung und deren notwendigen Zugang vorbereiten; keine bereits erteilte Vollmacht fingieren. BGB Paragrafen 164 ff., 177, 182 und BeurkG Paragraf 12 sind die Ausgangspunkte.
 
-## Apostille: Voraussetzungen und Prüfung
+### 3.2. Echtheit und Befreiung bestimmen
 
-- Apostille muss von der im Herkunftsland zuständigen Behörde ausgestellt sein (Liste auf HCCH-Website).
-- Apostille bezieht sich auf die Echtheit der Unterschrift und der Eigenschaft der unterzeichnenden Person.
-- Apostille prüft nicht den Inhalt der Urkunde.
-- Bei digitalisierten Apostillen: e-Apostille über offizielle HCCH-Datenbank verifizierbar (https://www.hcch.net/apostille).
+Prüfe zuerst eine einschlägige Befreiung, dann Apostille oder Legalisation anhand Staat, Urkundentyp und zuständiger Stelle. Die Verordnung (EU) 2016/1191 befreit bestimmte öffentliche Urkunden im geregelten Anwendungsbereich, nicht jede Handelsregistervollmacht aus einem Mitgliedstaat. Das mehrsprachige Formular ist kein allgemeines Erfordernis der Befreiung. Eine Apostille bestätigt nicht die Richtigkeit des Vertragsinhalts oder die materielle Vertretungsmacht.
 
-## Übersetzungsanforderungen
+### 3.3. Form und Übersetzung für den Empfänger klären
 
-- Deutsche Register verlangen i.d.R. eine Übersetzung durch einen in Deutschland vereidigten/ermächtigten Übersetzer.
-- Ausnahme: Englische Texte bei manchen Registergerichten akzeptiert (Praxis variiert).
-- Zweisprachige Urkunden: Übersetzung muss von Urschrift getrennt als Anlage beiliegen.
-- Beglaubigte vs. vereidigte Übersetzung: Registergerichte verlangen i.d.R. vereidigte (§ 142 Abs. 3 ZPO analog).
+Für Grundbuchnachweise GBO Paragraf 29, für Registeranmeldungen HGB Paragraf 12 beachten. Echtheitsbestätigung allein ersetzt die Prüfung einer erforderlichen Gleichwertigkeit der ausländischen Amtshandlung nicht. EGBGB Artikel 11 nicht als pauschale Zulassung jedes ausländischen Grundstücksgeschäfts verwenden. Umfang einer Übersetzung und gegebenenfalls konkrete gerichtliche Anforderungen ermitteln; ausländische Übersetzer nicht ohne Prüfung generell ausschließen.
 
-## Registertauglichkeit: Grundbuch und Handelsregister
+### 3.4. Nachforderung in verwendbare Unterlagen umsetzen
 
-**Grundbuch (§ 29 GBO):**
-Eintragungsbewilligungen und Eintragungsanträge müssen in öffentlich beglaubigter Form vorliegen. Ausländische Beglaubigungen: mit Apostille/Legalisation + Übersetzung akzeptiert, wenn materielle Formäquivalenz besteht (§ 17 EGBGB).
+Fordere genau fehlende Seite, Nachweisform oder Übersetzung mit Vorgangsbezug an. Bei Eingang der Papierurkunde sämtliche Anlagen und Einschränkungen gegen den Scan vergleichen. Eine später eingegangene Vollmacht darf nicht rückwirkend als am früheren Termin vorgelegt beschrieben werden. Übergib nur geänderte Beteiligten- und Vertretungsangaben an `beteiligte-identitaet-vertretung`; anschließend im begonnenen Urkundenentwurf fortsetzen.
 
-**Handelsregister (§ 12 HGB):**
-Anmeldungen müssen in beglaubigter Form vorliegen. Ausländische Gesellschaftsbeschlüsse mit Apostille + Übersetzung + Bescheinigung zur Vertretungsmacht.
+### 3.5. Genehmigungsanforderung und Rücklauf zuordnen
 
-## Formstatut (EGBGB Art. 11)
+Bei vollmachtlos geschlossenem Vertrag Genehmigung nach BGB Paragraf 177 und deren Form nach Paragraf 182 Absatz 2 von einem für Grundbuch oder Register erforderlichen Nachweis unterscheiden. Fordert der andere Vertragsteil den Vertretenen zur Erklärung nach Paragraf 177 Absatz 2 auf, läuft die gesetzliche Zweiwochenfrist ab Empfang dieser Aufforderung; die Erklärung kann dann nur ihm gegenüber erfolgen. Ein gewöhnlicher Notariatsreminder löst diese Frist nicht automatisch aus. Absenderrolle, Zugang und Erklärungsempfänger belegen. Nach Ablauf oder Ablehnung keine Erledigung vermerken, sondern Wirksamkeit und weiteren Vertragsweg dem Notar vorlegen.
 
-Die Form eines Rechtsgeschäfts bestimmt sich nach dem Recht des Ortes der Vornahme (lex loci actus) oder nach dem Recht, dem das Rechtsgeschäft unterliegt. Eine ausländische Urkunde, die dem Recht des Vornahmeortes genügt, ist in Deutschland formwirksam, sofern das deutsche Recht nicht eine inländische Beurkundung vorschreibt (§ 311b BGB: inländische Auflassung erforderlich).
+Nach Eingang der ausländischen Urkunde den bisherigen offenen Punkt nur schließen, wenn Person, konkrete Befugnis, Echtheitsnachweis und erforderliche Vorlageform zusammenpassen. Eine Apostille bestätigt keine ausreichende Vertretungsmacht.
 
-## Prüfprogramm
+### 3.6. Sonderfall ausländisches Testament in Deutschland
 
-- Ist das Herkunftsland Apostillekonventions-Staat? (HCCH-Liste)
-- Ist Apostille oder Legalisation vorhanden und auf aktuelles Datum?
-- Liegt eine Übersetzung durch vereidigten Übersetzer vor?
-- Ist der Inhalt der Urkunde materiell dem deutschen Recht äquivalent?
-- Grundbuchamt oder Registergericht vorab anfragen bei Zweifeln?
-- EU-VO 1191/2016: Liegt Standard-Mehrsprachenformblatt vor?
+[BGH, Urteil vom 21.01.2026, IV ZR 40/25, Randnummern 9 bis 16, 21 sowie 27 bis 33](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__40-25.pdf?__blob=publicationFile&v=1): Bei einem in Deutschland durch eine niederländische Notaranwärterin errichteten Testament bestimmt das über EuErbVO Artikel 75 vorrangige Haager Testamentsformübereinkommen das Formstatut. Das danach berufene niederländische Recht bestimmt auch die zivilrechtlichen Folgen einer Überschreitung der territorialen Amtsbefugnis; diese machte das Testament im entschiedenen Fall nicht unwirksam. Erblasserstaatsangehörigkeit, Errichtungsort, Formstatut, materielle Rechtswahl und ermitteltes ausländisches Recht getrennt begründen. Die Beweiskraft nach Artikel 59 knüpft hier an den ermächtigenden Staat an, nicht allein an den physischen Errichtungsort. Keine allgemeine Erlaubnis ausländischer Beurkundungen in Deutschland und keine Gleichwertigkeitsgarantie für Gesellschafts- oder Grundstücksurkunden ableiten; BNotO Paragraf 11a und die zivilrechtliche Testamentswirksamkeit bleiben getrennte Prüfungen.
 
-## Typische Fallen
+## 4. Quellenpflicht
 
-- Apostille auf falscher Behörde (z.B. Stadtgericht statt Oberstes Gericht im Herkunftsland).
-- Legalisation nur bis zum Außenministerium, deutsche Botschaft fehlt.
-- Übersetzung durch im Ausland vereidigte Person → nicht anerkannt.
-- Inhalt der ausländischen Urkunde enthält Regelungen, die mit deutschem Recht unvereinbar sind.
-- EU-VO 1191/2016-Formblatt fehlt → Apostille trotzdem nötig (wenn keine öffentliche Urkunde i.S.d. VO).
+[EU-Verordnung 2016/1191](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1191), [Haager Apostille-Übereinkommen](https://www.hcch.net/de/instruments/conventions/full-text/?cid=41), aktuelle staatenbezogene amtliche Hinweise und [Zitierweise](../../references/zitierweise.md). Ohne überprüften Länderstand keine verbindliche Anerkennungszusage.
 
-## Rechtsquellen
+## 5. Ausgabeformat
 
-- HCCH Apostillekonvention: https://www.hcch.net/de/instruments/conventions/full-text/?cid=41
-- EU-VO 1191/2016: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1191
-- EGBGB Art. 11: https://dejure.org/gesetze/EGBGB/11.html
-- § 29 GBO: https://dejure.org/gesetze/GBO/29.html
-- § 438 ZPO: https://dejure.org/gesetze/ZPO/438.html
-- BNotK Auslandsurkunden: https://www.bnotk.de
+Vollständige Unterlagenanforderung oder Vorlage zur notariellen Prüfung, getrennt nach fehlendem Inhalt und fehlender Nachweisform. Times New Roman 11 pt, dezimale Gliederung. Die Urkunde selbst nur im beauftragten Umfang ändern; keine selbst erstellte Apostille, Beglaubigung oder Übersetzerbescheinigung.
 
-## Output-Formate
+## 6. Beispiel
 
-- **Prüfschema** (Apostille/Legalisation/EU-VO-Befreiung)
-- **Checkliste Übersetzung** (Anforderungen je Register)
-- **Mandantenmail** (benötigte Dokumente aus dem Ausland)
-- **Registertauglichkeits-Vermerk**
-- **Red-Team** (Risiken bei lückenhafter Beglaubigungskette)
-
-Quellen für Live-Check: https://dejure.org | https://openjur.de | https://www.gesetze-im-internet.de | https://www.bnotk.de | https://www.bgh.de | https://www.bverfg.de
+Die Vollmacht aus Portugal liegt als Farbscan vor, das Papier soll unterwegs sein. Bereite den Vertretungsabschnitt vorläufig vor und benenne die fehlende verwendbare Urkunde. Eine Versandmeldung ist kein Eingang; nach Eingang den tatsächlichen Umfang und alle verbundenen Seiten prüfen.

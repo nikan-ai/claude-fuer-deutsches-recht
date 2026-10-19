@@ -1,6 +1,6 @@
 ---
 name: lohn-sv-kanzlei-rechnung
-description: "Wenn es um Lohn, Sozialversicherung und Payroll in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Lohn, Sozialversicherung und Payroll: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Lohn, Sozialversicherung und Payroll
@@ -18,9 +18,6 @@ description: "Wenn es um Lohn, Sozialversicherung und Payroll in Kanzlei-Allgeme
 2. Gibt es Sonderzahlungen (Bonus, Gratifikation, Weihnachtsgeld) in diesem Monat?
 3. Sind Minijobber oder Werkstudenten dabei, für die Sonderregeln gelten?
 4. Sollen die Daten an DATEV, Lexware oder einen Steuerberater uebergeben werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 1 MiLoG — Gesetzlicher Mindestlohn (12,82 EUR pro Stunde ab 01.01.2025)
@@ -72,3 +69,5 @@ Immer anhalten bei:
 ## Ausgabe
 
 `assets/templates/lohnabrechnung-vorbereitung.md` verwenden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

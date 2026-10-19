@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-versicherungsrecht
-description: "Wenn es um Mandat Triage Versicherungsrecht in Fachanwalt Versicherungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandat Triage Versicherungsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Strukturierte Eingangs-Abfrage für versicherungsrechtliche Mandate mit Fristen-Sofort-Check
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -155,9 +153,9 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 Vor Versand jeweils Volltext in juris.bundesgerichtshof.de oder dejure.org aufrufen:
 
-- BGH IV ZR 32/24, Urt. v. 12.3.2025 — Krankentagegeld; Klauselersetzung nach Intransparenz unzulässig (Pressemitteilung Nr. 47/25 v. 12.3.2025)
-- BGH IV ZR 70/25 — PKV-Beitragsanpassung; Mitteilungspflicht
-- BGH IV ZR 86/24, Urt. v. 15.10.2025 — PKV-Beitragsanpassung; Prüfungsmaßstab
+- BGH, Urteil vom 12. März 2025, IV ZR 32/24 — Krankentagegeld: Ersetzung unwirksamer Versicherungsbedingungen nach Paragraf 164 Absatz 1 VVG nur, wenn mindestens die Voraussetzungen ergänzender Vertragsauslegung vorliegen; Festhalten am lückenhaften Vertrag ist für den Versicherer nicht schon deshalb unzumutbar
+- BGH, Urteil vom 22. April 2026, IV ZR 70/25 — PKV-Beitragsanpassung: Inhalt der Mitteilung nach Paragraf 203 Absatz 5 VVG sowie Darlegungs- und Beweislast für die materielle Rechtmäßigkeit getrennt prüfen
+- BGH, Urteil vom 15. Oktober 2025, IV ZR 86/24 — Verkehrs-Rechtsschutz: Unklare VRB-Klauseln zur Ersatzfahrzeuganschaffung gehen nach Paragraf 305c Absatz 2 BGB zulasten des Versicherers; Deckung kann auch für ein Ereignis vor Zulassung des Ersatzfahrzeugs bestehen
 - BGH IV ZR 153/20, Urt. v. 14.7.2021 — Versicherungsfall BU nach Ablauf der sechs-monatigen Prognosezeit
 - BGH VI ZR 183/22, Urt. v. 28.1.2025 — DSGVO-Schadensersatz Art. 82 hat nur Ausgleichs-, keine Straffunktion
 

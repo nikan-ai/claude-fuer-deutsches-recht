@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "plugin": "aufsichtsrat-ag-se-praxis",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__111.html",
+      "checked_on": "2026-09-14",
+      "supports": "Überwachung und Zustimmungsvorbehalte ohne Übertragung der Geschäftsführung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__90.html",
+      "checked_on": "2026-09-14",
+      "supports": "Berichtsanlässe und Berichtsverlangen einzelner Mitglieder an den Aufsichtsrat."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2017/II_ZR__24-17.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 10.07.2018 - II ZR 24/17, Rn. 14 bis 22 und 39 bis 52: Wesentlich geänderte Investition erneut dem zuständigen Aufsichtsrat vorlegen; vorherige Zustimmung nicht durch bloßes Einverständnis des Vorsitzenden ersetzen. Bei Haftung hypothetische rechtmäßige Zustimmung als beweisbedürftigen Einwand behandeln. Grenze: Wirksame Ausschussdelegation getrennt prüfen; Eilfall nicht generell ausgeschlossen. Pflichtverstoß begründet ohne Schaden und Kausalität keine automatische Ersatzpflicht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__90.html",
+      "checked_on": "2026-09-23",
+      "supports": "Konkrete Berichtsgegenstände und Bericht eines einzelnen Mitglieds an den Aufsichtsrat; Finanzierungsvorlage aus tatsächlichen Bedingungen prüfen."
+    }
+  ],
+  "mini_review": {
+    "sha256": "db679b72e48448f6306ffcedbc50b5f0a206ff119caef11a4c1d81e5e7c255ab",
+    "verdict": "revised",
+    "reason": "Die Prüfung trennt jetzt den vorherigen Beschluss des zuständigen Gremiums vom Einverständnis des Vorsitzenden und leitet daraus eine konkrete Freigabeprüfung ab. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Redaktionelle Anschlussprüfung 16.10.2026: Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "II ZR 24/17 bei geänderter Investition und informeller Vorsitzendenzustimmung operativ eingebunden.",
+      "Zuständigkeitsverletzung, Schaden und hypothetische rechtmäßige Zustimmung getrennt; Eilfall nicht pauschal verneint.",
+      "Leerstart: Investitionsvotum, Informationsverlangen oder Protokoll anbieten. Dateien: Vorstandsvorlage still lesen und passendes Organprodukt klären. Klarer Auftrag: Votum oder Beschluss ohne neue Organaufnahme erstellen.",
+      "Bedingte Finanzierung verändert Beschlussreife; Kostenänderung führt zu erneuter Vorlage; bestätigte Gegenstimme ändert Protokoll.",
+      "16.10.2026: Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung."
+    ],
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt ergänzt bei nachträglich geänderter Investition erneute Zustimmung, Delegation und den beweisbedürftigen Einwand rechtmäßigen Alternativverhaltens statt pauschaler Organhaftung. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Redaktionelle Anschlussprüfung 16.10.2026: Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "II ZR 24/17 bei geänderter Investition und informeller Vorsitzendenzustimmung operativ eingebunden.",
+      "Zuständigkeitsverletzung, Schaden und hypothetische rechtmäßige Zustimmung getrennt; Eilfall nicht pauschal verneint.",
+      "Finanzierungsbedingungen, geänderte Geschäfte, tatsächliche Beschlussdokumentation und getrennte Angebots- und Organfristen.",
+      "Bedingte Finanzierung verändert Beschlussreife; Kostenänderung führt zu erneuter Vorlage; bestätigte Gegenstimme ändert Protokoll.",
+      "16.10.2026: Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung."
+    ],
+    "sha256": "e00e8f0f50ec8650f44b8828b254372c2df8ae272561e942ab32f5897ea8976e",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie die Beschlussreife einer Investitionszustimmung unseres AG-Aufsichtsrats.",
+      "Formulieren Sie ein Informationsverlangen an den Vorstand zu Liquiditätsrisiken."
+    ],
+    "negative": [
+      "Beurkunden Sie die Übertragung eines GmbH-Geschäftsanteils.",
+      "Erstellen Sie die Einladung zur Eigentümerversammlung einer WEG."
+    ]
+  },
+  "cases": [
+    {
+      "id": "investition-ohne-finanzierungsplan",
+      "request": "Erstellen Sie ergebnis.md als Votum und Beschlussentwurf für den Aufsichtsrat einer nicht börsennotierten dualistischen AG. Nach dem gültigen Zustimmungskatalog bedürfen Investitionen über 2 Millionen Euro der vorherigen Zustimmung des Plenums. Der Vorstand beantragt 3 Millionen Euro für eine neue Fertigungslinie. Der Kaufvertrag ist nicht unterschrieben. Die Vorlage enthält ein Angebot und eine Absatzprognose, aber keine Finanzierung oder Liquiditätsplanung. Ein Mitglied bittet um diese Daten; der Vorstand will sie erst nach Zustimmung liefern. Interessenkonflikte sind nicht bekannt. Die nächste Sitzung findet am 18.09.2026 statt. Bearbeiten Sie die Vorlage ohne eigene Geschäftszahlen zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Wendet den mitgeteilten internen Schwellenwert auf die Investition an, ohne ihn als gesetzliche allgemeine Grenze auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt fehlende Finanzierungs- und Liquiditätsdaten als entscheidende Informationslücke und formuliert ein konkretes Berichtsverlangen vor der endgültigen Zustimmung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert einen begründeten Vertagungs- oder gleichwertig abgesicherten Beschlussentwurf und überträgt dem Aufsichtsrat nicht die operative Geschäftsführung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "zustimmungsvorbehalte"
+    }
+  ],
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Investitionsvotum, Informationsverlangen oder Protokoll anbieten.",
+      "Dateien: Vorstandsvorlage still lesen und passendes Organprodukt klären.",
+      "Klarer Auftrag: Votum oder Beschluss ohne neue Organaufnahme erstellen."
+    ],
+    "continuation": "Bedingte Finanzierung verändert Beschlussreife; Kostenänderung führt zu erneuter Vorlage; bestätigte Gegenstimme ändert Protokoll.",
+    "enrichment": "Finanzierungsbedingungen, geänderte Geschäfte, tatsächliche Beschlussdokumentation und getrennte Angebots- und Organfristen.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "aufsichtsrat-ag-se-praxis/README.md",
+      "aufsichtsrat-ag-se-praxis/aufsichtsrat-ag-se-praxis-schnellstart.md",
+      "aufsichtsrat-ag-se-praxis/aufsichtsrat-ag-se-praxis-werkstatt.md",
+      "quality/evals/aufsichtsrat-ag-se-praxis.json"
+    ],
+    "opening_change": "Investitionsvorlage, Kostenänderung und Organbeschluss ersetzen den abstrakten Auftragseinstieg.",
+    "norms": [
+      "AktG Paragraf 90",
+      "AktG Paragraf 108 Absatz 1",
+      "AktG Paragraf 111 Absatz 4",
+      "AktG Paragraf 93 Absatz 2"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 10.07.2018 - II ZR 24/17, Rn. 14 bis 22 und 39 bis 52",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2017/II_ZR__24-17.pdf?__blob=publicationFile&v=1",
+        "application": "Wesentlich geänderte Investition erneut dem zuständigen Aufsichtsrat vorlegen; vorherige Zustimmung nicht durch bloßes Einverständnis des Vorsitzenden ersetzen. Bei Haftung hypothetische rechtmäßige Zustimmung als beweisbedürftigen Einwand behandeln.",
+        "limit": "Wirksame Ausschussdelegation getrennt prüfen; Eilfall nicht generell ausgeschlossen. Pflichtverstoß begründet ohne Schaden und Kausalität keine automatische Ersatzpflicht."
+      }
+    ],
+    "remaining_limits": [
+      "SE-Organmodelle, Vergütung und sämtliche Mitbestimmungsfragen nicht neu vollverifiziert.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  },
+  "prompt_opening_review_2026_10_16": {
+    "batch": 1,
+    "date": "2026-10-16",
+    "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "reason": "Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung.",
+    "source_status": "Aus vorhandenen Prompt-/Eval-Nachweisen übernommen; Quellenstatus und Quellenprüfdaten unverändert.",
+    "files": [
+      {
+        "path": "aufsichtsrat-ag-se-praxis/aufsichtsrat-ag-se-praxis-schnellstart.md",
+        "sha256": "db679b72e48448f6306ffcedbc50b5f0a206ff119caef11a4c1d81e5e7c255ab",
+        "reason": "Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung.",
+        "anchor_or_exception": "Paragraf 111 AktG; BGH 10.07.2018 II ZR 24/17 Rn. 14 bis 22, 39 bis 52: geändertes Investitionsvorhaben und erneute Zustimmung, Vorsitzender ersetzt nicht ohne Weiteres das Gremium."
+      },
+      {
+        "path": "aufsichtsrat-ag-se-praxis/aufsichtsrat-ag-se-praxis-werkstatt.md",
+        "sha256": "e00e8f0f50ec8650f44b8828b254372c2df8ae272561e942ab32f5897ea8976e",
+        "reason": "Entscheidungsreife Aufsichtsratsvorlage vor allgemeiner Organbeschreibung.",
+        "anchor_or_exception": "Paragraf 111 AktG; BGH 10.07.2018 II ZR 24/17 Rn. 14 bis 22, 39 bis 52: geändertes Investitionsvorhaben und erneute Zustimmung, Vorsitzender ersetzt nicht ohne Weiteres das Gremium."
+      }
+    ]
+  }
+}

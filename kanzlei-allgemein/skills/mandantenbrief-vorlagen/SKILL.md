@@ -1,6 +1,6 @@
 ---
 name: mandantenbrief-vorlagen
-description: "Wenn es um Mandantenbrief-Vorlagen in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandantenbrief-Vorlagen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Mandantenbrief-Vorlagen
@@ -18,9 +18,6 @@ description: "Wenn es um Mandantenbrief-Vorlagen in Kanzlei-Allgemein geht: erst
 2. Ist der Mandant Verbraucher (§ 13 BGB) oder Unternehmer (§ 14 BGB) — wegen Sprache und Belehrungspflichten?
 3. Muss eine Kostenbelehrung (§ 49b Abs. 5 BRAO) oder ein Datenschutzhinweis (Art. 13 DSGVO) beigefuegt werden?
 4. Soll das Schreiben postalisch, per E-Mail oder über beA versandt werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 49b Abs. 5 BRAO — Pflicht zur Kostenbelehrung bei Auftragsannahme
@@ -216,3 +213,5 @@ Mit freundlichen Grüßen
 ## Versand
 
 Vor Versand der Skill `versand-vor-check` aus diesem Plugin. Eintrag im Postausgang.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

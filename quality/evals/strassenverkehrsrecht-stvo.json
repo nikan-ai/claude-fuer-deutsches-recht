@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "plugin": "strassenverkehrsrecht-stvo",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/BJNR036710013.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtliche Gesamtausgabe, einschlägige Passagen von Paragraf 45 gelesen: auch ruhender Fahrradverkehr nach Absatz 1 Satz 2 Nummer 7; genaue Umwelt-/Stadtentwicklungszwecke und Sicherheitsanforderung des Bewohnerparkkonzepts nach Absatz 1b Satz 2. Einzelnormabruf zuvor mit Timeout; keine neue Vollprüfung der gesamten StVO oder VwV-StVO."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__45.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 1 Satz 2 Nummer 7 zur Bereitstellung angemessener Radverkehrsflächen aus Klima-, Umwelt-, Gesundheits- oder Stadtentwicklungsgründen; Absatz 10 Nummer 2 nimmt diese Anordnungen von Absatz 9 aus, ohne die materiellen Anforderungen der Ermächtigung aufzuheben."
+    },
+    {
+      "url": "https://www.bverwg.de/060416U3C10.15.0",
+      "checked_on": "2026-09-23",
+      "supports": "Amtliche Gründe Randnummern 15–30 gelesen: Sichtbarkeit, Nachschau nur anlassbezogen, Behördenbeweislast; keine automatische Unwirksamkeit bei Übersehen oder Abweichung von Aufstellvorgaben."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__45.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktueller Volltext: Rad-/Fußflächen und Busbevorrechtigung Absatz 1 Satz 2 Nummer 7, Absatz 10 Nummer 2, Erprobung Absatz 9 Satz 4 Nummer 7 sowie Bewohnerparkkonzept Absatz 1b Satz 2."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig erneut gelesen: drei eigenständige Einstiegsmodi, Lieferfenster mit Prüfung fortbestehenden Ausnahmebedarfs und datierte Foto-/Fristbewertung führen zum geänderten Dokument; bestehende Sichtbarkeits- und Erprobungsabgrenzung erhalten. Redaktioneller Nachtrag 16.10.2026: Sichtbarkeit von Halt- und Parkverboten unmittelbar nach dem konkreten Produkt erläutert; Behördenbeweislast, anlassbezogene Nachschau und Grenze bloßen Übersehens erhalten. Reformierte Anordnungszwecke nicht verändert. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Leerer Einstieg, stille Dateilektüre und klarer Auftrag ausdrücklich getrennt; Folgeantwort zu Lieferzeit oder Aufstellprotokoll ändert Antrag und Begründung.",
+      "Operativen Sichtbarkeitsmaßstab mit Beweislast und Grenzen in beide Prompts integriert.",
+      "Paragraf 45 Absatz 10 Nummer 2 gegenüber Absatz 9 Satz 4 Nummer 7 abgegrenzt; Werkstatt um Bewohnerparkkonzept und Schulweg-Ausnahme präzisiert."
+    ],
+    "sha256": "7d6e20e09b3139c7892036aabd59a208e9552eb9cdd79bd040f034527d715c48"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie eine geplante Radverkehrsanordnung anhand von Lageplan und dokumentiertem Anordnungszweck.",
+      "Bewerten Sie die rechtliche Grundlage einer Verkehrsregelung unter Berücksichtigung aktueller Ausnahmen von Paragraf 45 Absatz 9."
+    ],
+    "negative": [
+      "Berechnen Sie die Widmungswirkung eines straßenrechtlichen Planfeststellungsbeschlusses.",
+      "Verteidigen Sie einen einzelnen Fahrer gegen einen Rotlichtvorwurf."
+    ]
+  },
+  "cases": [
+    {
+      "id": "radflaeche-klimaschutz-ohne-unfallhaeufung",
+      "request": "Eine Straßenverkehrsbehörde plant, auf einer innerörtlichen Straße angemessene Flächen für den fließenden Radverkehr bereitzustellen. Die dokumentierten Ziele sind Klimaschutz und Gesundheit; die Anordnung soll auf Paragraf 45 Absatz 1 Satz 2 Nummer 7 StVO gestützt werden. Eine Unfallhäufung oder qualifizierte Gefahrenlage ist nicht belegt. Ein Prüfer lehnt das Vorhaben allein deshalb ab. Der Lageplan lässt die verbleibenden Fahrbahnbreiten und Sichtbeziehungen noch nicht zuverlässig erkennen; Auswirkungen auf den übrigen Verkehr sind nicht untersucht. Erstellen Sie ergebnis.md mit Prüfung des Ablehnungsgrundes und den noch benötigten tatsächlichen Feststellungen, nicht mit einer fertigen Anordnung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Ausgabe berücksichtigt Paragraf 45 Absatz 10 Nummer 2 und lehnt eine zwingende qualifizierte Gefahrenlage nach Absatz 9 als alleinigen Ablehnungsmaßstab für die gewählte Ermächtigung ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Sie erklärt das Vorhaben dennoch nicht automatisch für rechtmäßig, sondern prüft Angemessenheit der Radflächen sowie Berücksichtigung der Leichtigkeit und fehlende Beeinträchtigung der Verkehrssicherheit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die fehlenden Breiten, Sichtbeziehungen und Auswirkungen auf den übrigen Verkehr werden als konkrete Aufklärungsaufträge genannt; nicht vorhandene Messwerte oder ein sicherer Anordnungserfolg werden nicht erfunden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "verkehrsrechtliche-anordnung-pruefen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gesamte geänderte Werkstatt erneut gelesen; Lieferkonflikt, Radflächenzweck, gegenläufige Ortsbefunde, Fotozeitbezug und getrennte Fristauslöser bis zum konkreten Antrag ausgearbeitet. Bewohnerparkkonzept am aktuellen Wortlaut präzisiert; kein Live-Client-Test. Redaktioneller Nachtrag 16.10.2026: Sichtbarkeit von Halt- und Parkverboten unmittelbar nach dem konkreten Produkt erläutert; Behördenbeweislast, anlassbezogene Nachschau und Grenze bloßen Übersehens erhalten. Reformierte Anordnungszwecke nicht verändert. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Substantielle Dialogzweige zu Lieferfenster, Engstelle und widersprechenden Fotos mit Anpassung von Antrag, Auflagen und Kostenargument ergänzt.",
+      "Operativen Sichtbarkeitsmaßstab mit Beweislast und Grenzen in beide Prompts integriert.",
+      "Paragraf 45 Absatz 10 Nummer 2 gegenüber Absatz 9 Satz 4 Nummer 7 abgegrenzt; Werkstatt um Bewohnerparkkonzept und Schulweg-Ausnahme präzisiert."
+    ],
+    "sha256": "ddfd1d26a4c248ccdd39bb3f281483ac67c7168046e69219b2befe3988de07f0"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Vermerk zur Rad-/Schulwegregelung, Ausnahmeantrag oder Haltverbots-/Kostenangriff anbieten.",
+      "Nur Dateien: Anordnung, Ortsfotos und Kostenunterlagen still lesen; nur bei offenem Ziel passende Dokumentwege anbieten.",
+      "Klarer Auftrag: unmittelbar Ortsabgleich und Entwurf bearbeiten, nur entscheidende Lücken zu Regelung, Frist oder Lieferbedarf fragen."
+    ],
+    "continuation": "Lieferzeit oder neuer Lageplan -> Ausnahmebedarf neu bestimmen und Antrag ändern; Aufstellprotokoll -> Sachverhalt und Kostenargument korrigieren.",
+    "enrichment": "Lieferkonflikte, Radflächen-/Versuchszweck, belastende Verkehrsfolgen, zeitbezogene Sichtbarkeitsbeweise und getrennte Fristauslöser mit vollständigem Dokumentabschluss.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "strassenverkehrsrecht-stvo/README.md",
+      "strassenverkehrsrecht-stvo/strassenverkehrsrecht-stvo-schnellstart.md",
+      "strassenverkehrsrecht-stvo/strassenverkehrsrecht-stvo-werkstatt.md",
+      "quality/evals/strassenverkehrsrecht-stvo.json"
+    ],
+    "opening_change": "Radspur, Parkbeschränkung und Baustellenführung als konkreten Anordnungs- und Umsetzungsabgleich formuliert.",
+    "norms": [
+      "Paragrafen 39, 41, 45 Absätze 1, 1b, 4, 9 und 10, 46 StVO"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Urteil vom 6. April 2016, 3 C 10.15, Randnummern 21–24",
+        "url": "https://www.bverwg.de/060416U3C10.15.0",
+        "application": "Streit um Bekanntgabe eines Haltverbots: Umschau, besonderer Nachschauanlass und Beweislast der Behörde anhand datierter Fotos prüfen.",
+        "limit": "Kein allgemeines Abschreitgebot, aber mögliche Verdeckung oder Dunkelheit können Nachschau auslösen; nicht unverändert auf fließenden Verkehr übertragen.",
+        "checked_on": "2026-09-23"
+      }
+    ],
+    "remaining_limits": [
+      "Amtliche Entscheidungsgründe, insbesondere Randnummern 15–30, und aktueller Paragraf 45 geprüft; keine vollständige Prüfung aller Landeszuständigkeiten, VwV-StVO-Fassungen oder Abschleppkostentatbestände.",
+      "Redaktionelle Akten-/Quellenprüfung, kein Live-Test mit einem Mandanten oder Modell."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "strassenverkehrsrecht-stvo/strassenverkehrsrecht-stvo-schnellstart.md",
+        "strassenverkehrsrecht-stvo/strassenverkehrsrecht-stvo-werkstatt.md"
+      ],
+      "result": "Sichtbarkeit von Haltverboten wird mit Umschau, besonderem Anlass zur Nachschau und behördlicher Beweislast verbunden; kein generelles Abschreitgebot oder ungeprüfter Übertrag auf fließenden Verkehr.",
+      "search_2026": "3 B 9.25 vom 24.06.2026 gefunden, betrifft prozessuale Klageänderung/Frist und nicht den bisherigen Sichtbarkeitsmaßstab. Keine ungeprüfte materielle Änderung vorgenommen.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  }
+}

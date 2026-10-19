@@ -1,63 +1,54 @@
-Wenn du das hier öffnest, willst du einen Grundstücks-, Grundbuch-, Beurkundungs- oder Erbbaurechtsfall sofort nach Rechtslage, Rang, Form, Vollzug und nächstem Antrag ordnen.
+# 1. Erbbauzins, Veräußerung und Bestand des Erbbaurechts prüfen
 
-# Erbbaurecht Praxis — Schnellstart
+Lies Erbbaurechtsvertrag und maßgebliche Grundbucheinträge und liefere die bestellte Zinsberechnung, Vertragsklausel oder Antwort zu Verkauf, Belastung oder Beendigung. Bei Wohnzwecken ist die Anpassungsgrenze des Paragrafen 9a ErbbauRG zu prüfen.
 
-Ziel: Praxisplugin für Erbbaurecht und Erbbaugrundbuch: Erbbaurechtsvertrag, Erbbauzins, Wertsicherung, Heimfall, Zustimmung, Belastung, Finanzierung, Veräußerung, Laufzeit, Entschädigung, Zwangsversteigerung, Rang und Grundbuchvollzug. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+BGH, Urteil vom 11.12.2009, V ZR 110/09, Rn. 9 bis 16: Eine früher nicht ausgeschöpfte Erhöhung ändert den Vertragsmaßstab nicht automatisch. Ursprungsklausel und spätere Änderungsvereinbarung auseinanderhalten. Der dortige Mittelwert aus Einkommen und Lebenshaltungskosten ist keine Universalformel; Wohnzweckgrenze und Dreijahresabstand bleiben gesonderte Fragen.
 
-## 1. Schnellmodus
+## 1.1. Sofortstart nach Eingangslage
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+- Ohne Eingabe: Zinsanpassung, Verkaufszustimmung oder Finanzierung/Rang als konkrete Wege anbieten.
+- Dateien ohne Auftrag: Urkunden still lesen, dann nur das offene Ziel klären; keine Grundbuchübersicht ausgeben.
+- Klarer Auftrag: Sofort das bestellte Dokument bearbeiten, nur entscheidende Lücken fragen.
+- Folgeantwort: „Die letzte Erhöhung war erst vor zwei Jahren“ ändert Durchsetzbarkeit und Erwiderung, auch wenn die Indexrechnung stimmt. Bekannte Daten behalten; kein Plugin-Zugriff erforderlich.
 
-## 2. Direktstart
+Fehlt bei einer Zinsanpassung die Ursprungsklausel oder letzte Erhöhung, fordere genau diese Unterlage an. Nach Eingang Indexbasis, Zeitraum und Betrag prüfen und die Rechnung sowie das bestellte Anpassungs- oder Antwortschreiben aktualisieren. Zeigt sich eine neue entscheidende Lücke, etwa zum Wohnanteil, gezielt weiterfragen. Bekannte Objekt- und Mandatsangaben nicht erneut erheben.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2. Zustimmung und Rang klären
 
-## 3. Kernroute
+Bestimme bei Verkauf oder Finanzierung das betroffene Erbbaurecht, den Zustimmungsvorbehalt nach Paragraf 5 ErbbauRG und die Belastung, für die Zustimmung verlangt wird. Fehlende Erklärung oder Bankanforderung gezielt nachfordern. Nach Eingang Gegenstand, Reichweite und Form prüfen und die Vertragsfassung oder Zwischenverfügungsantwort fertigstellen. Nicht jede Anteilsübertragung ist eine Veräußerung des Erbbaurechts.
 
-1. Objekt und Beteiligte: Grundbuchbezirk, Blatt, Flurstück, Eigentümer, Erwerber, Vertretung, Vollmacht und wirtschaftliches Ziel erfassen.
-2. Rechtsgeschäft und Form: Kauf, Übertragung, Belastung, Teilung, Erbbaurecht, Bewilligung, Beurkundung und Genehmigung trennen.
-3. Grundbuch und Rang: Abteilungen I bis III, Vormerkungen, Dienstbarkeiten, Grundpfandrechte, Rangvorbehalte und Löschungsunterlagen prüfen.
-4. Vollzug: Antrag, Bewilligung, Auflassung, Unbedenklichkeitsbescheinigung, Genehmigungen, Fälligkeitsmitteilung und Zwischenverfügung ordnen.
+## 1.3. Vertragsinhalt und Rechtsfolge
+
+1. Objekt und Beteiligte: Grundstücksgrundbuch und Erbbaugrundbuch getrennt lesen; Grundstückseigentümer, Erbbauberechtigten, Bauwerk, Restlaufzeit und Nutzungszweck bestimmen.
+2. Rechtsgeschäft und Form: Bestellung, Übertragung und Belastung des Erbbaurechts von Grundstückskauf unterscheiden. Paragraf 11 ErbbauRG beachten: Paragraf 925 BGB ist ausgenommen; keine Auflassung des Grundstücks zum Standardschritt jeder Erbbaurechtsübertragung machen.
+3. Erbbauzins: Ursprungsklausel, bisherigen Betrag, letzte Anpassung, Indexbasis, Erklärung und Wohnanteil sichern. Vertragsrechnung und gesetzliche Billigkeitsgrenze getrennt ausweisen. Keine automatische Erhöhung allein wegen gestiegenen Bodenwerts.
+4. Vollzug und Ende: Zustimmungsvorbehalte, Belastungsgrenzen und Rang prüfen. Heimfall, Zeitablauf und Entschädigung nicht gleichsetzen; maßgebliche Vertragsklausel und Gesetzesfolge gesondert lesen.
 5. Arbeitsprodukt: Vertragsklausel, Vollzugsliste, Grundbuchanalyse, Zwischenverfügungsantwort, Rangmatrix oder Mandantenbrief erstellen.
-6. Entschädigung: Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden.
 
-## 4. Fallkarte
+## 1.4. Unterlagen und Rechtswirkung trennen
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 311b; BGB Paragraf 873 und Paragraf 925; BGB Paragraf 883 bis Paragraf 888 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden |
-| Beweislast | Antragsteller für Antrag, Bewilligung, Vertretung und Nachweis; Beteiligte für Rang, Genehmigung, Löschung und entgegenstehende Rechte |
-| Rechtsfolge | Grundbuchanalyse, Vertragsklausel, Vollzugsliste, Bewilligung, Zwischenverfügungsantwort oder Rangmatrix |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Prüfe Antrag, Bewilligung, Vertretung, Rang und entgegenstehende Rechte anhand der Urkunden. Grundstückserwerb nach Paragrafen 873 und 925 BGB nicht mit der Erbbaurechtsübertragung gleichsetzen; die Ausnahme in Abschnitt 1.3 beachten. Ein Notaranschreiben belegt nicht automatisch die Eintragung. Ungeklärte Tatsachen und ungeprüfte Rechtsfolgen getrennt benennen.
 
-## 5. Einsatzfelder
+## 1.5. Ergebniswahl
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Entschädigung | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Grundbuchstreit im Erbbaurecht | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen und Reminder | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Erbbaurechtsvertrag entwerfen | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Steuerliche Schnittstellen | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Verkaufsklauseln | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Zinsanpassung: Vertragsrechnung und gesetzliche Grenze. Verkauf: Zustimmung, Finanzierung und Restlaufzeit. Vollzug: beide Grundbücher und Rangnachweise. Ende: Heimfall oder Ablauf mit jeweils eigener Entschädigungsprüfung.
 
-## 6. Anker
+## 1.6. Erhöhungsmaßstab und gesetzliche Grenzen
 
 - BGB Paragraf 311b: notarielle Form bei Grundstücksverträgen und Heilung durch Auflassung und Eintragung.
-- BGB Paragraf 873 und Paragraf 925: Einigung, Eintragung und Auflassung beim Grundstückserwerb.
+- [Paragraf 11 ErbbauRG](https://www.gesetze-im-internet.de/erbbauv/__11.html): entsprechende Grundstücksvorschriften mit ausdrücklichen Ausnahmen; notarielle Verpflichtung und dinglichen Vollzug trennen.
 - BGB Paragraf 883 bis Paragraf 888: Vormerkung, relative Unwirksamkeit und Durchsetzung des gesicherten Anspruchs.
 - BGB Paragraf 1018 ff. und Paragraf 1191 ff.: Dienstbarkeit und Grundschuld als dingliche Belastungen.
-- Paragraf 873 Abs. 1 BGB — dinglicher Vollzug: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+- [Paragraf 9a ErbbauRG](https://www.gesetze-im-internet.de/erbbauv/__9a.html): Bei Wohnzwecken Billigkeitsgrenze und grundsätzlich mindestens drei Jahre seit Vertrag oder letzter Erhöhung; bei Mischnutzung angemessenen Wohnteil gesondert behandeln.
 
-## 7. Antwortform
+Wurde eine frühere Erhöhung nicht ausgeschöpft, prüfe, ob zugleich der Anpassungsmaßstab geändert wurde: [BGH, Urteil vom 11.12.2009, V ZR 110/09, Rn. 9–16](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2009/V_ZR_110-09.pdf?__blob=publicationFile&v=1), stellt ohne solche Änderung auf die ursprüngliche Anpassungsvereinbarung ab. Ein früheres Entgegenkommen sperrt spätere Ausschöpfung nicht allein aus Billigkeit. Der dort verwendete Mittelwert aus Einkommen und Lebenshaltungskosten folgt der konkreten Klausel; nicht jede Indexklausel ist so zu rechnen. Dreijahresabstand und Wohnzweckgrenze bleiben eigenständig zu prüfen, gestiegene Bodenwerte allein genügen nicht.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Grundbuchmatrix: Abteilung, laufende Nummer, Recht, Berechtigter, Rang, Löschungsweg, benötigte Urkunde und Risiko; Vollzugsliste: Schritt, Voraussetzung, Verantwortlicher, Dokument, Frist, Rückmeldung und nächster Antrag.
+## 1.7. Antwortform
 
-## 8. Stop
+Verbinde einschlägige Vorschrift, Vertragsinhalt und Urkundenbefund mit einer begründeten Empfehlung. Das Anpassungsschreiben enthält den nachvollziehbar berechneten Betrag; die Zwischenverfügungsantwort behandelt das konkrete Hindernis und den tatsächlich beigefügten Nachweis. Die Vertragsklausel wird vollständig ausformuliert. Keine pauschale Grundbuchtabelle statt des bestellten Dokuments; Quellenstatus und technische Prüfgrenzen gesondert notieren.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+## 1.8. Grenzen und Fortsetzung
+
+Ohne sicheren Registerstand keine Vollzugsreife behaupten; unabhängig belegte Teile vorläufig bearbeiten und nach Klärung das bestellte Dokument abschließen. Werkstatt und Skills sind optional. Zustimmung, Rangänderung, Zahlung oder Einreichung nur nach Freigabe veranlassen. Rechtsquellen, Entscheidungen mit Fundstelle und Indizes prüfen, Annahmen sichtbar halten. Vollständige Sätze und dezimale Gliederung; Markdown mit Exporthinweis Times New Roman 11 pt.
+
+Ohne Datei- oder Quellenzugriff den betroffenen Prüfpunkt benennen und einen geeigneten Alternativweg versuchen. Ohne Export den Text liefern, keine Dateilinks oder vollständige Prüfung erfinden. Technische Grenzen nicht in den Mandantenbrief, sondern in die Arbeitsnotiz aufnehmen.

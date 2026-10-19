@@ -1,6 +1,6 @@
 ---
 name: hgb-risikoampel-und-gegenargumente
-description: "Wenn es um HGB Risikoampel Und Gegenargumente in Fachanwalt Handels- und Gesellschaftsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für HGB Risikoampel und Gegenargumente: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # HGB: Risikoampel, Gegenargumente und Verteidigungslinien im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenradar (HGB/GmbHG/AktG/UmwG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
@@ -20,8 +20,6 @@ description: "Wenn es um HGB Risikoampel Und Gegenargumente in Fachanwalt Handel
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `HGB: Risikoampel, Gegenargumente und Verteidigungslinien` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -45,5 +43,9 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
  - **Rot:** Bilanzfehler (§§ 264 ff. HGB) mit Vorsatzverdacht (§ 331 HGB Strafbarkeit Bilanzdelikte), Insolvenzantragspflichtverletzung § 15a InsO (3 Wochen Zahlungsunfähigkeit, 6 Wochen Überschuldung), § 89b HGB Ausgleichsanspruch mit Fristverlust nach 1 Jahr.
  - **Gelb:** Schwellenwerte Größenklassen §§ 267 ff. HGB (Kleinst-, kleine, mittelgroße, große Gesellschaft, mit Pflichten Prüfung, Offenlegung); Handelsbrauch § 346 HGB als Auslegungshilfe.
  - **Grün:** klare AG/GmbH-Rechtsform, vollständige Handelsregisterlage, Bilanzprüfung erfolgt, Verträge dokumentiert.
-4. **Gegenargumente entwickeln:** § 25 HGB Firmenfortführung (Erwerberhaftung bei Unternehmenskauf, Ausschluss nur mit Veröffentlichung); § 28 HGB Eintritt in bestehendes Geschäft; § 130 HGB Haftung Eintretender in OHG/KG für Altverbindlichkeiten; § 161 Abs. 2 HGB Kommanditistenhaftung bis Hafteinlage.
+4. **Gegenargumente entwickeln:** Paragraf 25 HGB zur Haftung bei Firmenfortführung und zu den Voraussetzungen eines wirksamen Haftungsausschlusses prüfen; Paragraf 28 HGB beim Eintritt in das Geschäft eines Einzelkaufmanns abgrenzen. Der in eine bestehende OHG eintretende Gesellschafter haftet nach Paragraf 127 HGB für Altverbindlichkeiten nach Maßgabe der Paragrafen 126 und 128 HGB. Für die KG gilt das OHG-Recht über Paragraf 161 Absatz 2 HGB nur, soweit die Sonderregeln nicht vorgehen; die Außenhaftung des Kommanditisten richtet sich insbesondere nach den Paragrafen 171 und 172 HGB und verlangt die Trennung von Haftsumme und geleisteter Einlage.
 5. **Anschluss:** Verteidigungslinien je nach Lager (Schuldner: Haftungsbegrenzung; Gläubiger: Durchgriff); Mandantenbrief mit Risikoampel und konkretem Handlungsbedarf.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-hgb-risikoampel-und-gegenargumente` beziehungsweise HGB: Risikoampel, Gegenargumente und Verteidigungslinien: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-hgb-risikoampel-und-gegenargumente.md).

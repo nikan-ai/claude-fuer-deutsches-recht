@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "plugin": "gesellschaftsgruender",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__5a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 2: vollständige Einzahlung des UG-Stammkapitals vor Anmeldung; Sacheinlagen ausgeschlossen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__7.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 2: Einzelanteils- und Gesamteinzahlung bei der GmbH unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__36a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Bareinlage bei AG mindestens Viertel des geringsten Ausgabebetrags plus volles Aufgeld."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__8.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 2: Versicherung zu Leistung und freier Verfügung, keine eidesstattliche Versicherung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__19.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absätze 4 und 5 unterscheiden verdeckte Sacheinlage mit Wertanrechnung und sonstige vereinbarte Rückzahlung mit qualifiziertem Rückgewähranspruch."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2010/II_ZB__25-10.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 19.04.2011 - II ZB 25/10, Rn. 13 bis 21: Sachkapitalerhöhung einer bestehenden UG, die mindestens 25.000 Euro Stammkapital erreicht, nicht allein am Sacheinlagenverbot des Paragraf 5a Absatz 2 GmbHG scheitern lassen. Grenze: Keine Freigabe der Sachgründung einer UG; übrige Voraussetzungen der Sachkapitalerhöhung bleiben bestehen, weitere UG-Sonderregeln entfallen nicht schon vor der Eintragung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Schnellstart macht den typischen Fehler einer UG-Sachgründung mit Laptop oder IP sichtbar und unterscheidet ihn von einer späteren Kapitalerhöhung auf GmbH-Mindestkapital. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Gründungsdokument und Kapitalnachweise klar benannt; UG-Gründung von späterer Sachkapitalerhöhung unterschieden. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Barkapitalgebot bei UG-Gründung ausdrücklich von zulässiger Sachkapitalerhöhung auf mindestens 25.000 Euro abgegrenzt.",
+      "Weitere Sacheinlagevoraussetzungen und fortbestehende UG-Regeln vor Eintragung gesichert.",
+      "Rechtsform, Gründerrechte oder Einzahlungen wählen. Dateien still lesen, klare Aufträge direkt bearbeiten, Folgeantwort dokumentbezogen umsetzen.",
+      "Einstiegsredaktion 16.10.2026: Gründungsdokument und Kapitalnachweise klar benannt; UG-Gründung von späterer Sachkapitalerhöhung unterschieden."
+    ],
+    "sha256": "24c744cfccdf38e825f11fd373f80fc5cc9a57007b1f0978fee76670d4f53824"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Einzahlungsbelege vor Anmeldung unserer UG.",
+      "Erstelle einen Gründungsfahrplan mit Satzung, Konto und Registerschritten."
+    ],
+    "negative": [
+      "Fechte einen Jahre nach Gründung gefassten Entlastungsbeschluss an.",
+      "Erstelle eine englische Erläuterung eines bereits fertigen Cap Table."
+    ]
+  },
+  "cases": [
+    {
+      "id": "ug-halbe-einzahlung-laptop",
+      "request": "Erstelle ergebnis.md als Notarvorbereitungsvermerk. Zwei Gründer haben eine UG mit 2000 Euro Stammkapital beurkundet und jeweils einen Baranteil von 1000 Euro übernommen. Jeder hat bislang 500 Euro auf das Gesellschaftskonto eingezahlt. Ein Laptop eines Gründers im angenommenen Wert von 1000 Euro soll den Rest ersetzen. Eine Übertragung ist noch nicht erfolgt; eine Satzungsänderung fehlt. Die Gründer möchten morgen die Registeranmeldung veranlassen. Prüfe den aktuellen Einzahlungsstand und formuliere eine konkrete Nachricht zur Vorbereitung, ohne sie zu versenden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Ergebnis weist 1000 Euro tatsächliche Einzahlung und 1000 Euro offenen Barbetrag aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Es lässt die Anmeldung der UG nicht nach einer GmbH-Halbzahlungsregel zu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Laptop wird nicht als zulässiger Ersatz der UG-Bareinlagen angerechnet; die Nachricht verlangt den fehlenden Zahlungsnachweis und behauptet keine erfolgte Anmeldung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "stammkapital-einzahlung"
+    },
+    {
+      "id": "ag-bareinlage-mit-aufgeld",
+      "request": "Erstelle ergebnis.md als rechnerischen Einzahlungsvermerk für eine AG-Bargründung. Der gesamte geringste Ausgabebetrag der Aktien beträgt 50000 Euro, das gesamte Aufgeld 20000 Euro. Alle Aktien werden einheitlich zu diesen Konditionen ausgegeben. Eingefordert ist nur die gesetzliche Mindestleistung vor Anmeldung, keine höhere Zahlung. 32500 Euro sind entsprechend anteilig und frei verfügbar eingezahlt. Andere Gründungsvoraussetzungen sind nicht Gegenstand des Auftrags. Prüfe allein, ob der Einzahlungsbetrag ausreicht und welcher Rest offenbleibt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Mindestleistung wird aus 12500 Euro auf den geringsten Ausgabebetrag und 20000 Euro vollem Aufgeld mit insgesamt 32500 Euro berechnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Ergebnis verlangt nicht pauschal vollständige Zahlung aller 70000 Euro vor Anmeldung, weist aber 37500 Euro Restpflicht aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Aussage bleibt auf Einzahlung beschränkt und behauptet keine vollständig geprüfte Registerreife der AG.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "stammkapital-einzahlung"
+    },
+    {
+      "id": "vereinbarte-rueckzahlung-vollwertiger-anspruch",
+      "request": "Erstelle ergebnis.md als Vorprüfung einer GmbH-Gründung mit 25000 Euro vollständig eingezahltem Stammkapital. Vor Einzahlung wurde vereinbart, dass die Gesellschaft dem alleinigen Gesellschafter anschließend 10000 Euro als Darlehen auszahlt. Ein Sachkauf liegt nicht vor. Der Rückzahlungsanspruch ist nach belastbarem Bonitätsnachweis vollwertig und vertraglich jederzeit fällig. Die Darlehensauszahlung und Vereinbarung werden in der Registeranmeldung ausdrücklich offengelegt. Prüfe nur die Einlagewirkung nach Paragraf 19 GmbHG und die Art der hierfür abzugebenden Versicherung; andere Gründungsfragen bleiben außen vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Fall wird als sonstige vereinbarte Rückleistung nach Absatz 5, nicht als Sachkauf nach Absatz 4 eingeordnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Vollwertigkeit, jederzeitige Fälligkeit und Offenlegung werden als konkrete Voraussetzungen geprüft; ein absolutes Verbot jeder Rückzahlung wird nicht behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Versicherung nach Paragraf 8 Absatz 2 wird nicht in eine Versicherung an Eides statt umgedeutet; keine pauschale Wartefrist ersetzt die Tatbestandsprüfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "stammkapital-einzahlung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Gründungsrouten behalten Notar, KYC, IP und Betriebsvorbereitung bei; II ZB 25/10 steuert jetzt gezielt die Entscheidung über Sacheinlage und Zeitpunkt des Rechtsformübergangs. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Gründungsdokument und Kapitalnachweise klar benannt; UG-Gründung von späterer Sachkapitalerhöhung unterschieden. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Barkapitalgebot bei UG-Gründung ausdrücklich von zulässiger Sachkapitalerhöhung auf mindestens 25.000 Euro abgegrenzt.",
+      "Weitere Sacheinlagevoraussetzungen und fortbestehende UG-Regeln vor Eintragung gesichert.",
+      "Arbeitsleistung und Beteiligung, 50:50-Konflikt, Ausscheiden, Zahlungszuordnung und erste Gründungsausgaben konkretisiert.",
+      "Einstiegsredaktion 16.10.2026: Gründungsdokument und Kapitalnachweise klar benannt; UG-Gründung von späterer Sachkapitalerhöhung unterschieden."
+    ],
+    "sha256": "415ef05dfe68772d8d3e0a93d6520c154e85195d8d82b132edd66d4227e4db7d"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gesellschaftsgruender/README.md",
+      "gesellschaftsgruender/gesellschaftsgruender-schnellstart.md",
+      "gesellschaftsgruender/gesellschaftsgruender-werkstatt.md",
+      "quality/evals/gesellschaftsgruender.json"
+    ],
+    "opening_change": "Rechtsform, Einlagegegenstand und Registerfähigkeit werden aus dem konkreten Gründungsvorhaben statt aus einem allgemeinen Ergebnisauftrag geprüft.",
+    "norms": [
+      "GmbHG Paragraf 5 Absatz 1",
+      "GmbHG Paragraf 5a Absatz 2 und 5",
+      "GmbHG Paragraf 7",
+      "GmbHG Paragrafen 56 ff."
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 19.04.2011 - II ZB 25/10, Rn. 13 bis 21",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2010/II_ZB__25-10.pdf?__blob=publicationFile&v=1",
+        "application": "Sachkapitalerhöhung einer bestehenden UG, die mindestens 25.000 Euro Stammkapital erreicht, nicht allein am Sacheinlagenverbot des Paragraf 5a Absatz 2 GmbHG scheitern lassen.",
+        "limit": "Keine Freigabe der Sachgründung einer UG; übrige Voraussetzungen der Sachkapitalerhöhung bleiben bestehen, weitere UG-Sonderregeln entfallen nicht schon vor der Eintragung."
+      }
+    ],
+    "remaining_limits": [
+      "Steuerwahl, Sozialversicherung und spezielle Erlaubnispflichten des Geschäftsmodells bedürfen eigener aktueller Quellenprüfung.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Rechtsform, Gründerrechte oder Einzahlungen wählen.",
+      "Gründerabreden und Urkunden still lesen; Satzungsfassung oder Notaranfrage anbieten.",
+      "Bestellte Gründungsunterlage ohne Pflichtdialog ausarbeiten."
+    ],
+    "continuation": "Veto nur für Grundlagengeschäfte -> Satzung und Geschäftsordnung; Rückzahlung an Gründer -> Kapitalaufbringung und Notaranfrage ändern.",
+    "enrichment": "Arbeitsleistung und Beteiligung, 50:50-Konflikt, Ausscheiden, Zahlungszuordnung und erste Gründungsausgaben konkretisiert.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Gründungsdokument und Kapitalnachweise klar benannt; UG-Gründung von späterer Sachkapitalerhöhung unterschieden.",
+    "anchor_or_exception": "BGH, Beschluss vom 19.04.2011, II ZB 25/10; Paragrafen 5a, 7, 8 GmbHG",
+    "source_status": "Vorhandene Fach- und Quellenangaben im Prüfprofil gelesen und redaktionell übernommen. Keine neue Online-Verifikation; bisherige Prüfdaten und fachliche Grenzen bleiben unverändert.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "6507846fafae07279d122d7b88a6aee1724b8ac163559975ce996057e064d7c3",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "b5a8150301a3ecb9f42e95f8fe8ca5b0309f86ef318a62af6bb29fdcc89892d9",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "gesellschaftsgruender/gesellschaftsgruender-werkstatt.md",
+        "sha256": "415ef05dfe68772d8d3e0a93d6520c154e85195d8d82b132edd66d4227e4db7d",
+        "characters": 16533,
+        "utf8_bytes": 16862
+      },
+      {
+        "path": "gesellschaftsgruender/gesellschaftsgruender-schnellstart.md",
+        "sha256": "24c744cfccdf38e825f11fd373f80fc5cc9a57007b1f0978fee76670d4f53824",
+        "characters": 6213,
+        "utf8_bytes": 6321
+      }
+    ]
+  }
+}

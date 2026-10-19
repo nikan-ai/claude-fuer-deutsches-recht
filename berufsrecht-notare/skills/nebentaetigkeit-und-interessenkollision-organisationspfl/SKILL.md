@@ -1,6 +1,6 @@
 ---
 name: nebentaetigkeit-und-interessenkollision-organisationspfl
-description: "Wenn es um Nebentaetigkeit Und Interessenkollision Organisationspfl in Berufsrecht Notare geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Nebentätigkeit und Interessenkollision Organisationspfl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notare: nebentaetigkeit und interessenkollision - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -44,5 +44,5 @@ Konkret zu prüfen:
 - § 3 Abs. 1 BeurkG (Mitwirkungsverbote)
 - § 6 BeurkG
 - § 16 BeurkG
-- § 26 BNotO (Geschäftsstelle)
+- § 10 Abs. 2 bis 4 BNotO (Geschäftsstelle)
 - DONot

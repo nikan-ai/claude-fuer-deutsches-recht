@@ -1,6 +1,6 @@
 ---
 name: barrierefreiheit-und-inklusion-robotik
-description: "Wenn es um Barrierefreiheit und Inklusion bei Robotern in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Barrierefreiheit Und Inklusion Robotik; Arbeitsfeld: robotik-recht."
+description: "Für Barrierefreiheit und Inklusion bei Robotern: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: barrierefreiheit-und-inklusion-robotik."
 ---
 
 # Barrierefreiheit und Inklusion bei Robotern
@@ -28,7 +28,7 @@ Service-, Pflege-, Liefer- und Empfangsroboter interagieren mit Menschen untersc
 - **BFSGV** Anhang 1 detaillierte Anforderungen.
 - **EN 301 549** harmonisierte Norm IKT-Barrierefreiheit (zuletzt überarbeitet 2024).
 - **AGG** §§ 1, 2 Abs. 1 Nr. 8, 19, 20: Massengeschäfte, Diskriminierung in der Bedienung.
-- **KI-VO** Art. 5 Abs. 1 lit. b: Verbot der Ausnutzung der Verletzlichkeit aufgrund Alters, Behinderung, sozialer/wirtschaftlicher Lage.
+- **Artikel 5 Absatz 1 Buchstabe b:** Ausnutzung der dort beschriebenen Schutzbedürftigkeit, wesentliche Verhaltensveränderung und erheblicher eingetretener oder hinreichend wahrscheinlicher Schaden sind zusammen zu prüfen. Nicht jede barrierefreie Anpassung ist verbotene Ausnutzung. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **MaschinenVO** VO (EU) 2023/1230 Anhang III Nr. 1.1.6 Ergonomie.
 - **UN-BRK** Art. 9 (Zugänglichkeit).
 
@@ -88,3 +88,4 @@ Service-, Pflege-, Liefer- und Empfangsroboter interagieren mit Menschen untersc
 - AGG §§ 1, 19, 20.
 - UN-BRK Art. 9.
 - Live-Verifikation auf bmas.de, eur-lex.europa.eu, antidiskriminierungsstelle.de; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

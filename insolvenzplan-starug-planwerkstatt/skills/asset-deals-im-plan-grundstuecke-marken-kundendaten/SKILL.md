@@ -1,6 +1,6 @@
 ---
 name: asset-deals-im-plan-grundstuecke-marken-kundendaten
-description: "Wenn es um Asset Deals Im Plan Grundstuecke Marken Kundendaten in Insolvenzplan- und StaRUG-Planwerkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Asset Deals im Plan Grundstücke Marken Kundendaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Übertragungsklauseln im Insolvenzplan — aufschiebend vs. auflösend bedingt, mit/ohne Gläubigerzustimmung
@@ -19,8 +19,6 @@ Asset-Deals im Insolvenzplan strukturieren wenn Grundstuecke Marken oder Kundend
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Übertragungsklauseln im Insolvenzplan — aufschiebend vs. auflösend bedingt, mit/ohne Gläubigerzustimmung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -189,7 +187,6 @@ Mit rechtskräftiger Bestätigung des Insolvenzplans treten die im **gestaltende
 | (c) rechtliche Verpflichtung | nein | Plan-Bestätigung schafft keine datenschutzrechtliche Pflicht |
 | (d) lebenswichtige Interessen | nein | unpraktisch |
 | (e) öffentliches Interesse | nein | bei privatwirtschaftlichem Asset Deal nicht einschlägig |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 **Empfehlung Praxisstandard "Opt-in mit Anreiz":**
 
@@ -223,7 +220,6 @@ Mit rechtskräftiger Bestätigung des Insolvenzplans treten die im **gestaltende
 | besondere Kategorien (Art. 9 DSGVO) — Gesundheitsdaten, Religion, Gewerkschaft etc. | Einwilligung praktisch zwingend, Interessenabwägung Art. 6 Abs. 1 lit. f scheidet aus |
 | Daten Minderjähriger | Art. 8 DSGVO: Einwilligung der Erziehungsberechtigten erforderlich |
 | Bank-/Zahlungsdaten | aufsichtsrechtliche Sonderregeln (BaFin), ggf. KWG/ZAG |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Telekommunikationsdaten | § 3 TDDDG, § 9 TKG |
 | Bestandskunden vs. Interessenten | Interessenten ohne abgeschlossenen Vertrag i.d.R. nur mit Einwilligung übertragbar |
 
@@ -311,10 +307,6 @@ Mit rechtskräftiger Bestätigung des Insolvenzplans treten die im **gestaltende
 
 Hinweis: Keine Rechtsberatung. Mechanische Strukturhilfe für Insolvenz- und StaRUG-Pläne. Konkrete Klauseln sind im Einzelfall mit Notar, IP-Fachanwalt und Datenschutzbeauftragtem abzustimmen.
 
-## Aktuelle Leitentscheidungen — Asset-Deals im Plan
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — Asset-Deal im Plan
 
 Bevor losgelegt wird, klaere:
@@ -322,3 +314,5 @@ Bevor losgelegt wird, klaere:
 2. **Rechte Dritter?** Pfandrechte, Sicherungsuebereignungen, Eigentumsvorbehalte an Assets?
 3. **DSGVO?** Kundendaten-Uebertragung: Art. 6 Abs. 1 lit. b DSGVO Vertragsuebernahme oder neue Einwilligung?
 4. **Grundbuch?** Grundstuecks-Auflassung nicht aufschiebbar auf Plan-Vollzug; Grundbuchamt einbinden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

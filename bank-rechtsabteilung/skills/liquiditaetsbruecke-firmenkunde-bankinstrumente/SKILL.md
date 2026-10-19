@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsbruecke-firmenkunde-bankinstrumente
-description: "Wenn es um Liquiditätsbrücke durch Bankinstrumente in Bank-Rechtsabteilung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Liquiditätsbrücke durch Bankinstrumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Liquiditätsbrücke durch Bankinstrumente
@@ -9,7 +9,6 @@ description: "Wenn es um Liquiditätsbrücke durch Bankinstrumente in Bank-Recht
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -43,7 +42,7 @@ description: "Wenn es um Liquiditätsbrücke durch Bankinstrumente in Bank-Recht
 | Ist der Liquiditätsstatus nur eine OPOS-Summe? | Einzelposten, Belege, Fälligkeit und Titelstand nachfordern; sonst keine bankfeste Entscheidungsgrundlage |
 | Soll die Bank weiterfinanzieren? | Sanierungskonzept, Fortbestehensprognose, Sicherheiten, Anfechtung und Organrisiko dokumentieren |
 
-Rechtsprechungsanker für die Kreditakte: BGH IX ZR 129/22 vom 18.04.2024 zur Beleg- und Einzelpostenpflicht beim Liquiditätsstatus gegenüber außenstehenden Dritten; BGH IX ZR 229/22 vom 23.01.2025 zur objektiven Zahlungsunfähigkeit, objektiven Rechtslage bei streitigen Forderungen und Nennwertpassivierung bei Vollstreckung aus vorläufig vollstreckbarem Titel; BGH II ZR 139/23 vom 11.03.2025 und BGH IX ZB 38/24 vom 22.05.2025 zur Passivierung streitiger oder titulierter Forderungen in der Liquiditätsprüfung; BGH IX ZR 133/14 und BGH IX ZR 143/17 zur Rangrücktrittslogik; BGH II ZR 84/20 zur begrenzten Wirkung weicher Patronatserklärungen.
+Rechtsprechungsanker für die Kreditakte: BGH IX ZR 129/22 vom 18.04.2024 zur Beleg- und Einzelpostentiefe beim Liquiditätsstatus gegenüber außenstehenden Dritten; BGH IX ZR 229/22 vom 23.01.2025 zur objektiven Zahlungsunfähigkeit, objektiven Rechtslage bei streitigen Forderungen und Nennwertpassivierung bei Vollstreckung aus vorläufig vollstreckbarem Titel; BGH, Beschluss vom 11.03.2025 - II ZR 139/23 ergänzend zum materiellen Bestand, ohne Grundsatzurteilswirkung; BGH IX ZB 38/24 vom 22.05.2025 nur zur Belegwirkung eines Titels beim Gläubigerantrag nach eingestellter Vollstreckung; BGH IX ZR 133/14 und BGH IX ZR 143/17 zur Rangrücktrittslogik; BGH II ZR 84/20 zur begrenzten Wirkung weicher Patronatserklärungen.
 
 ## Prüfworkflow
 

@@ -1,6 +1,6 @@
 ---
 name: mandantenmemo-urheberrecht
-description: "Wenn es um Mandantenmemo Urheberrecht in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Mandantenmemo Urheberrecht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Mandantenmemo Urheberrecht
@@ -20,7 +20,7 @@ description: "Wenn es um Mandantenmemo Urheberrecht in Urheberrecht DE EU geht: 
 
 ## Wofür dieser Arbeitsgang da ist
 
-Mandantenmemo Urheberrecht schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Erstelle das urheberrechtliche Mandantenmemo für die konkret anstehende Entscheidung. Führe die Prüfung von Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung und Schranke mit den Beweisen zusammen und formuliere die benötigten Handlungsoptionen.
 
 ## Sofortstart
 

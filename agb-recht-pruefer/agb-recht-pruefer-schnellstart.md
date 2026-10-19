@@ -1,69 +1,57 @@
-Wenn du das hier öffnest, willst du einen zivilrechtlichen Anspruch, Vertrag, AGB-Klausel oder Verbraucherfall sofort nach Anspruchsgrundlage, Einwendung, Beweislast und Arbeitsprodukt ordnen.
+# AGB-Recht prüfen: Schnellstart
 
-# Agb Recht Prüfer — Schnellstart
+Prüfe die belastende Vertragsklausel und liefere die bestellte Bewertung, Ersatzregel oder Antwort. Maßstab sind Paragrafen 305 bis 310 BGB. Für den Klauselausfall zeigt BGH, Urteil vom 13.03.2025, III ZR 426/23, Rn. 46 und 50: Verbleibender Wortlaut muss selbständig sinnvoll sein; das erlaubt keine geltungserhaltende Neufassung. Quellenstand und Grenzen unten beachten.
 
-Ziel: Gigantischer AGB-Rechtsprüfer und Klausel-Entwerfer für deutsches Recht: Paragrafen 305 bis 310 BGB, UKlaG, B2C/B2B, Branchen-AGB, Redlining, Klauselrisiko und rechtssichere Entwurfsworkflows. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1. Auftrag und Unterlagen
 
-## 1. Schnellmodus
+Lies Vertrag und Korrespondenz zuerst. Ohne Auftrag kläre Klauselprüfung, Ersatzregel oder Antwort; sonst direkt zum fertigen Text arbeiten. Nur entscheidende Lücken wie die Abschlussfassung fragen. Antworten in betroffene Klauseln einarbeiten, keine erneute Aufnahme.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Beispiel: Bei künftigen Stornopauschalen gewöhnlichen Schaden und Weiterverwertung klären. Ohne Statistik konkreten Schadensnachweis regeln, keine Quote erfinden. Bereits gezahlte Beträge gesondert prüfen, keine Ersatzklausel rückwirkend einsetzen. Nach Kundenwiderspruch gegebenenfalls Änderungsangebot statt Umstellungsbestätigung; keine automatische Kündigung.
 
-## 2. Direktstart
+Erfasse Vertragstyp, Parteistatus, Verwender, Vertragsdatum, Fassung, Einbeziehung und Regelungsziel. B2B steht nicht schon durch eine Überschrift fest. Vertragsänderung, Individualabrede und erstmalige Einbeziehung unterscheiden.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 2. Passende Aufgabe wählen
 
-## 3. Kernroute
+Alle Links sind optional. Ohne Zugriff nach Abschnitt 3 und den Quellen-/Formregeln in Abschnitt 5 weiterarbeiten; keine Zusatzdatei ist erforderlich.
 
-1. Anspruchsziel: Leistung, Zahlung, Nacherfüllung, Rücktritt, Minderung, Schadensersatz, Unterlassung oder Vertragsfassung bestimmen.
-2. Anspruchsgrundlage: Vertragstyp, Zustandekommen, Form, Vertretung, Einbeziehung und AGB-Kontrolle in der richtigen Reihenfolge prüfen.
-3. Leistungsstörung: Pflichtverletzung, Mangel, Fristsetzung, Vertretenmüssen, Schaden und Kausalität mit Belegen verbinden.
-4. Einwendungen: Erfüllung, Aufrechnung, Verjährung, Ausschluss, Widerruf, Anfechtung und treuwidriges Verhalten getrennt abarbeiten.
-5. Beweis und Textprodukt: Anspruchsmatrix, Redline, Mahnung, Rücktritt, Klageentwurf, Mandantenbrief oder Vergleichsvorschlag erstellen.
-6. Agb Anwaltsvertrag und Allg Mandatsbedingungen: Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten.
+2.1. Unverständliche Begriffe oder Verweisketten: [Klauseltransparenz prüfen](skills/klauseltransparenz-pruefen/SKILL.md).
 
-## 4. Fallkarte
+2.2. Benachteiligung, gesetzliches Leitbild oder Klauselverbot: [Klauselinhalt und Verbote prüfen](skills/klauselinhalt-und-verbote-pruefen/SKILL.md).
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 104 bis Paragraf 185; BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286; BGB Paragraf 305 bis Paragraf 310 |
-| Rechtsprechung | BGH IX ZR 119/14 zur Anwaltshonorarvereinbarung; BGH VIII ZR 178/08 (Transparenzgebot Preisanpassung) |
-| Tatbestand | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten |
-| Beweislast | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung |
-| Rechtsfolge | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+2.3. Unwirksame Klausel, Restvertrag oder salvatorische Klausel: [Klauselausfall und Vertragslücke prüfen](skills/klauselausfall-und-vertragsluecke-pruefen/SKILL.md). Daraus folgt noch kein Rückzahlungsanspruch.
 
-## 5. Einsatzfelder
+2.4. Eine Klausel neu schreiben: [Klauselvarianten entwerfen](skills/klauselvarianten-entwerfen/SKILL.md). Risikoprofil und Kundengruppe sind Eingaben, keine gesonderten Aufgaben.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Agb Anwaltsvertrag und Allg Mandatsbedingungen | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Formulararbeitsvertrag | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Agb für Vereinsausschluss und Haftung | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Agb Haftung Erfüllungsgehilfen | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Agb im Arbeitsvertrag 310 Abs 4 Vertieft | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Agb im Bankvertrag Sparkassen und Banken | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+2.5. Haftung: [Haftungsbegrenzung](skills/haftungsbegrenzung-pruefen-und-formulieren/SKILL.md); bei Datenverlust, Modellfehlern oder KI-Leistungen [Daten- und Modelldienste](skills/haftungsdeckel-fuer-daten-und-modelldienste-pruefen/SKILL.md), Grundlagen nur bei Bedarf.
 
-## 6. Anker
+2.6. Schiedsabrede: [Schiedsklausel prüfen und formulieren](skills/schiedsklausel-pruefen-und-formulieren/SKILL.md). Rechtswahl: [Rechtswahl und Vertragsstatut prüfen](skills/rechtswahl-und-vertragsstatut-pruefen/SKILL.md). Gerichtsstand und Vollstreckung bleiben getrennt.
 
-- BGB Paragraf 104 bis Paragraf 185: Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung.
-- BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286: Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug.
-- BGB Paragraf 305 bis Paragraf 310: Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote.
-- BGB Paragraf 312 ff. und Paragraf 355 ff.: Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung.
-- Paragrafen 305-310 BGB: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BRAO Paragrafen 43, 49b zur Honorarvereinbarung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 52 BRAO: in vorformulierten Mandatsbedingungen ist eine Haftungsbeschraenkung nur für einfache Fahrlaessigkeit und nur bis zur vierfachen Mindestversicherungssumme zulässig: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 305 BGB (Einbeziehung von AGB): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH IX ZR 119/14 zur Anwaltshonorarvereinbarung
-- BGH VIII ZR 178/08 (Transparenzgebot Preisanpassung)
-- BGH I ZR 7/16 (Planet49: Cookie-Einwilligung, Transparenz und UWG/Datenschutz-Schnittstelle)
+2.7. Schweigen auf eine Vertragsänderung: [Vertragsänderung durch Zustimmung prüfen](skills/vertragsaenderung-durch-zustimmung-pruefen/SKILL.md). Die Bankreferenz nur für Bankbedingungen oder Zahlungsdienste laden.
 
-## 7. Antwortform
+## 3. Den konkreten Befund liefern
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben; Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
+Klauselwortlaut und Fundstelle nennen. Einbeziehung, Auslegung, Transparenz, Inhaltskontrolle und Rechtsfolge getrennt begründen. Bei Paragrafen 307 bis 310 BGB zuerst Anwendungsbereich und Vertragsdatum bestimmen; anschließend nur einschlägige Tatbestände prüfen. Gesetzliche Ausnahme und stärkste Gegenposition einbeziehen.
 
-## 8. Stop
+Das Ergebnis enthält die tragende Norm, den entscheidenden Aktenfund, die rechtliche Bewertung und eine konkrete Empfehlung. Eine Ersatzfassung vollständig schreiben; keine bloße Anweisung „rechtskonform ergänzen“. Bei fehlender Grundlage die offene Frage und ihre Auswirkung benennen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Bei Schadenspauschalen nach Paragraf 309 Nummer 5 BGB gewöhnlichen Schaden und ausdrücklichen Gegenbeweis getrennt prüfen. Eine überhöhte Pauschale nicht auf den gerade zulässigen Betrag reduzieren. Paragraf 306 BGB verlangt die Prüfung des verbleibenden Vertrags. [BGH, Urteil vom 13.03.2025, III ZR 426/23](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2023/III_ZR_426-23.pdf?__blob=publicationFile&v=1), Rn. 46 und 50, erlaubt das Abtrennen selbständiger Regelungen: Dort blieb die Wahlleistungsvereinbarung ohne die Vertreterregelung sinnvoll. Übertrage nur diesen Teilbarkeitsmaßstab, nicht das spezielle Krankenhausrecht. Prüfe, ob der Rest ohne neue Wörter eigenständig verständlich bleibt; eine neue Ersatzklausel gilt nicht rückwirkend für den Altvertrag.
+
+BGH, Urteil vom 14.07.2026 – XI ZR 46/25, Rn. 26–32: Kein freies Verbraucherwahlrecht zur Gesamtnichtigkeit nach Paragraf 306 BGB; Ersatzrecht und unzumutbare Härte konkret prüfen.
+
+Preisänderung: BGH, Urteil vom 01.10.2026 - Az. III ZR 205/25, hier nur gelesene [Pressemitteilung 184/2026](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2026/2026184.html), Stand 16.10.2026; Volltext nicht gelesen, keine Randnummern. Unklar blieb: nur Kündigung oder Widerspruch mit Fortsetzung zum Altpreis, vorbehaltlich Anbieterkündigung? Intransparenz nach Paragraf 307 Absatz 1 BGB, kein allgemeines Preisänderungsverbot und keine individuelle Rückzahlung entschieden. Gesamte Preis-/Änderungs-/Zustimmungs-/Kündigungsklauseln und Kundenmitteilung lesen, Fehlendes anfordern. Vertrags-/Änderungsdatum und Normfassung prüfen. Bei Gestaltungsauftrag Klauselgruppe und Mitteilung mit gleichen Fristen und Folgen von Schweigen, Widerspruch und Kündigung liefern; Transparenz legitimiert keine Schweigefiktion und heilt den Altbestand nicht.
+
+## 4. Anschlussaufträge getrennt halten
+
+Rückzahlung: [Rückabwicklung](skills/rechtsfolgen-rueckabwicklung-agb/SKILL.md). Eingegangene Abmahnung: [Abmahnung beantworten](skills/abmahnung-reagieren/SKILL.md). Verbandsunterlassung: [UKlaG-Verfahren](skills/uklag-unterlassung-verbandsklage/SKILL.md). Kollektive Abhilfe: [VDuG-Schnittstelle](skills/vdug-abhilfeklage-agb-schnittstelle/SKILL.md). Diese Aufgaben nicht zusammenlegen oder ungefragt einleiten. Widerruf nur bei entsprechendem Sachverhalt prüfen.
+
+Droht Fristablauf, zuerst konkrete Frist, Beleg und Sofortmaßnahme sichern. Eine offene Fristfrage verhindert nicht die Bearbeitung davon unabhängiger Klauseln. Nichts ohne Auftrag versenden oder einreichen.
+
+## 5. Quellen und Form
+
+Amtlichen Normtext in der maßgeblichen Fassung und einschlägige Rechtsprechung prüfen; Gericht, Entscheidungsform, Datum, Aktenzeichen, belegte Randnummer und Abrufdatum nennen. Optional: [Zitierweise](../references/zitierweise.md). Keine Literaturfundstelle ohne vorliegende Quelle. Referenzen nur bei tatsächlichem Vertiefungsbedarf laden, nicht als universelle Normenlisten.
+
+Endprodukte in vollständigen Sätzen, mit dezimaler Gliederung und Leerzeilen ausgeben; keine Skelette oder bloßen Stichwortsammlungen. Times New Roman 11 pt verwenden beziehungsweise als Exporthinweis nennen. Optional vertieft die [Werkstatt](agb-recht-pruefer-werkstatt.md) umfangreiche Vertragsprüfungen.
+
+Stoppe nur die Klauselfreigabe, wenn maßgebliche Fassung, Parteistatus oder tatsächliche Einbeziehung offenbleiben. Kennzeichne die betroffene Variante als vorläufig; unabhängig prüfbare Klauseln und notwendige Nachforderungen weiterbearbeiten.
+
+Quellen- und Zugriffsgrenzen separat vom Brief dokumentieren. Bei Abruffehlern Alternativzugriff versuchen, verbleibende Lücke nennen und unabhängig bearbeitbare Teile liefern. Ohne Export Text statt Dateilink; keine nicht erfolgte Prüfung behaupten.

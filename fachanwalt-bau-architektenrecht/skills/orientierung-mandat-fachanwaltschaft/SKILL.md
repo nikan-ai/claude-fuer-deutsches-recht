@@ -1,6 +1,6 @@
 ---
 name: orientierung-mandat-fachanwaltschaft
-description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bau Architektenrecht."
 ---
 
 # Orientierungs-Skill Bau- und Architektenrecht: richtigen Skill anhand Sachverhalt auswaehlen
@@ -10,7 +10,7 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Bau 
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: HOAI §§ 1-13, 14-37 (Objektplanung), 38-52 (Flachbau, Ingenieurbauwerke), BGB §§ 631 ff., VOB/B — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -78,10 +78,6 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Bau 
 - **Verwaltungsgericht** öffentliches Baurecht, Baugenehmigung, Bebauungsplan
 - **Vergabekammer** (Bund/Länder) + OLG-Vergabesenat bei Vergaberechtssachen
 
-## Aktuelle Rechtsprechung BGH VII. Zivilsenat (Auswahl)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — Bevor du loslegst, kläre
 
 1. **Mandantenrolle**: Bauherr, Auftragnehmer, Architekt/Ingenieur, Subunternehmer, Bauträger, Investor?
@@ -110,3 +106,5 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Bau 
 
 - ARGE Baurecht im Deutschen Anwaltverein (DAV)
 - Deutscher Baugerichtstag (alle zwei Jahre Hamm)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

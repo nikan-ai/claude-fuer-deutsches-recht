@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "plugin": "gesellschaftsrecht-legal-english",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__16.html",
+      "checked_on": "2026-09-14",
+      "supports": "Listenbezogene Legitimation im Verhältnis zur Gesellschaft, nicht durch wirtschaftliche Szenariotabelle."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__40.html",
+      "checked_on": "2026-09-14",
+      "supports": "Gesellschafterliste mit konkreten Anteilen und Nennbeträgen nach wirksamer Veränderung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2017/II_ZR__12-17.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 20.11.2018 - II ZR 12/17, Rn. 22 bis 27, 54 bis 62: Listenlegitimation am Beschlusstag grundsätzlich auch nach Einziehung beachten; eigene Entlastung bleibt auch bei negativ gefasstem Antrag vom Stimmverbot erfasst. Grenze: Liste entscheidet nicht abschließend über materielles Eigentum; Stimmverbote und Missbrauch getrennt prüfen. Unberechtigte Versammlungsleitung allein beseitigt nicht jeden Beschluss."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Kurzprompt erklärt am Beteiligungsfall, weshalb Cap Table, vollständig verwässerte Quote und Gesellschafterliste unterschiedliche Aussagen treffen; II ZR 12/17 trägt die rechtliche Abgrenzung. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Übersetzung, Investoren-Erklärung und Sprachübung als Ergebnisse präzisiert; bewusst kein obligatorischer Urteilsvorspann für Sprachaufgaben. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Listenlegitimation von materiellem Anteilseigentum und virtuellen Beteiligungen getrennt.",
+      "Cap Table, Sprachvorrang, Efforts, Garantie/Freistellung, Vesting, Drag/Tag und Anti-Dilution jeweils mit eigener Prüfungsfolge statt Universalabsatz behandelt.",
+      "Lern- und Simulationsmodus sowie Dokumenten-, Quellen- und Exportfallbacks erhalten.",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt.",
+      "Einstiegsredaktion 16.10.2026: Übersetzung, Investoren-Erklärung und Sprachübung als Ergebnisse präzisiert; bewusst kein obligatorischer Urteilsvorspann für Sprachaufgaben."
+    ],
+    "sha256": "addb88f3b1d22d32d100319aff1329a0c44e89994d916de9a1406c0aada25e15"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt wurde aus langen schematischen Wiederholungen in zwölf eigenständige Arbeitsrouten überführt, mit konkreten englischen Empfängerformulierungen, Klauselauslegung und deutschen Formgrenzen. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Übersetzung, Investoren-Erklärung und Sprachübung als Ergebnisse präzisiert; bewusst kein obligatorischer Urteilsvorspann für Sprachaufgaben. Keine neue fachliche Vollprüfung oder Live-Modellprobe. Genau ein Dokumenttitel; Haupt- und Unterkapitel darunter mit sinnvoller dezimaler Gliederung.",
+    "changes": [
+      "Listenlegitimation von materiellem Anteilseigentum und virtuellen Beteiligungen getrennt.",
+      "Cap Table, Sprachvorrang, Efforts, Garantie/Freistellung, Vesting, Drag/Tag und Anti-Dilution jeweils mit eigener Prüfungsfolge statt Universalabsatz behandelt.",
+      "Lern- und Simulationsmodus sowie Dokumenten-, Quellen- und Exportfallbacks erhalten.",
+      "Organbegriffe, Risikoänderung durch Übersetzung, Beteiligungsnenner und vollständiger zweisprachiger Dokumentabschluss.",
+      "Einstiegsredaktion 16.10.2026: Übersetzung, Investoren-Erklärung und Sprachübung als Ergebnisse präzisiert; bewusst kein obligatorischer Urteilsvorspann für Sprachaufgaben.",
+      "Genau ein Dokumenttitel; Haupt- und Unterkapitel darunter mit sinnvoller dezimaler Gliederung."
+    ],
+    "sha256": "f8006309af2d54c72a58045cda7e4d9c1de722015cb350e10f2d9323a0184797"
+  },
+  "selection": {
+    "positive": [
+      "Erkläre einem englischsprachigen Investor den Unterschied zwischen Cap Table und Gesellschafterliste.",
+      "Prüfe, ob unsere englische Klausel aus einem deutschen Wahlrecht eine Pflicht macht."
+    ],
+    "negative": [
+      "Melde eine neue UG beim Register an.",
+      "Berechne ausschließlich eine Pflichtteilsquote."
+    ]
+  },
+  "cases": [
+    {
+      "id": "virtueller-pool-keine-registeranteile",
+      "request": "Erstelle ergebnis.md mit einer kurzen englischen Erklärung an einen Investor und einer deutschen Rechenkontrolle. Eine GmbH hat 25000 Euro Stammkapital: Gründerin A hält 15000 Euro und B 10000 Euro, unverändert wirksam und so gelistet. Ein ausschließlich schuldrechtlicher virtueller Mitarbeiterpool soll wirtschaftlich 10 Prozent eines auf 100 Einheiten normierten Exit-Szenarios erhalten; die übrigen 90 Einheiten werden zwischen A und B im Verhältnis ihrer bestehenden Anteile verteilt. Es gibt keine Kapitalerhöhung, Optionen auf echte Anteile oder Abtretung. Ein Mitarbeiter möchte nun als Shareholder mit 10 Prozent in die Gesellschafterliste aufgenommen werden. Erkläre Zahlen und Dokumentunterschiede.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die tatsächlichen Anteile bleiben 60 und 40 Prozent bei A und B; der virtuelle Pool wird nicht als Registeranteil dargestellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das wirtschaftliche Szenario wird mit 54 Einheiten für A, 36 für B und 10 für den Pool transparent berechnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die englische Erklärung unterscheidet contractual virtual entitlement von tatsächlicher Mitgliedschaft und leitet keine Listenänderung aus dem Szenario ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "cap-table-client-explainer"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gesellschaftsrecht-legal-english/README.md",
+      "gesellschaftsrecht-legal-english/gesellschaftsrecht-legal-english-werkstatt.md",
+      "gesellschaftsrecht-legal-english/gesellschaftsrecht-legal-english-schnellstart.md",
+      "gesellschaftsrecht-legal-english/skills/cap-table-client-explainer/SKILL.md",
+      "quality/evals/gesellschaftsrecht-legal-english.json"
+    ],
+    "opening_change": "Englische Klauseln und Beteiligungsdarstellungen werden auf ihre konkrete Wirkung für die deutsche GmbH zurückgeführt.",
+    "norms": [
+      "GmbHG Paragraf 16 Absatz 1",
+      "GmbHG Paragraf 15 Absatz 3 und 4",
+      "GmbHG Paragraf 19 Absatz 4 und 5",
+      "BGB Paragrafen 133 und 157"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 20.11.2018 - II ZR 12/17, Rn. 22 bis 27, 54 bis 62",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2017/II_ZR__12-17.pdf?__blob=publicationFile&v=1",
+        "application": "Listenlegitimation am Beschlusstag grundsätzlich auch nach Einziehung beachten; eigene Entlastung bleibt auch bei negativ gefasstem Antrag vom Stimmverbot erfasst.",
+        "limit": "Liste entscheidet nicht abschließend über materielles Eigentum; Stimmverbote und Missbrauch getrennt prüfen. Unberechtigte Versammlungsleitung allein beseitigt nicht jeden Beschluss."
+      }
+    ],
+    "remaining_limits": [
+      "Kein Gutachten zu englischem oder US-Recht; englische Begriffe begründen nicht automatisch Common-Law-Rechtsfolgen.",
+      "Der gelesene gewöhnliche Cap-Table-Skill liegt außerhalb des Schreibbereichs und wurde nicht verändert.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Übersetzung einer Gesellschaftsklausel, Investorenerläuterung oder Sprachübung anbieten.",
+      "Klausel und Definitionsanhang still lesen; Übersetzung oder Redline anbieten.",
+      "Bestellte englische Fassung ohne vorgeschaltete Unterrichtsrunde liefern."
+    ],
+    "continuation": "Neue Definition -> konsistente Klauselbegriffe; anderer Beteiligungsnenner -> Beteiligungserläuterung; Sprachvorrang -> Schlussklausel ändern.",
+    "enrichment": "Organbegriffe, Risikoänderung durch Übersetzung, Beteiligungsnenner und vollständiger zweisprachiger Dokumentabschluss.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Übersetzung, Investoren-Erklärung und Sprachübung als Ergebnisse präzisiert; bewusst kein obligatorischer Urteilsvorspann für Sprachaufgaben. Werkstatt auf einen Dokumenttitel und nachgeordnete dezimale H2/H3-Gliederung korrigiert.",
+    "anchor_or_exception": "Ausnahme: sprachliches Werkzeug; Originalklausel, Definitionen, Rechtswahl und Paragrafen 15, 16, 40 GmbHG; bestehender BGH-Anker nur bei Listenfrage",
+    "source_status": "Vorhandene Fach- und Quellenangaben im Prüfprofil gelesen und redaktionell übernommen. Keine neue Online-Verifikation; bisherige Prüfdaten und fachliche Grenzen bleiben unverändert.",
+    "exception": "Rechtsprechung nicht für reine Übersetzung oder Sprachübung erzwungen.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "a1d43c9e66e45bffd30730c0c0e64c3c6094d5728c59e3c92d673493ff38b889",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "9cdcfc6c913794e5b03e03dfcef4bccd9ff9ff53da895af271b5ea261babc1fd",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "gesellschaftsrecht-legal-english/gesellschaftsrecht-legal-english-schnellstart.md",
+        "sha256": "addb88f3b1d22d32d100319aff1329a0c44e89994d916de9a1406c0aada25e15",
+        "characters": 6380,
+        "utf8_bytes": 6461
+      },
+      {
+        "path": "gesellschaftsrecht-legal-english/gesellschaftsrecht-legal-english-werkstatt.md",
+        "sha256": "f8006309af2d54c72a58045cda7e4d9c1de722015cb350e10f2d9323a0184797",
+        "characters": 18437,
+        "utf8_bytes": 18787
+      }
+    ]
+  }
+}

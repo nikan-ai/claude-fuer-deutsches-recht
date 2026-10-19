@@ -1,6 +1,6 @@
 ---
 name: hausarbeit-workflow-start
-description: "Wenn es um Master-Hausarbeiten- und Seminararbeitenmacher in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Master-Hausarbeiten- und Seminararbeitenmacher: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Master-Hausarbeiten- und Seminararbeitenmacher
@@ -18,9 +18,6 @@ description: "Wenn es um Master-Hausarbeiten- und Seminararbeitenmacher in hausa
 2. Von welchem Lehrstuhl/Fachgebiet stammt die Aufgabe?
 3. Wie viel Zeit bis zur Abgabe?
 4. Sind Vorleistungen (Gliederung, Disposition) gefordert?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 13 JAG NRW — Anforderungen an Hausarbeiten im Examen: völlig eigensatndige wissenschaftliche Leistung
@@ -322,3 +319,5 @@ Jetzt geht's los. Das Plugin fragt Dich Schritt für Schritt durch. Bleibe entsp
 → Dann weiter mit `aufgabenstellung-erfassen` und durch den oben genannten Workflow.
 
 → Bei Unsicherheit, welcher Skill als nächstes: frage das Plugin "Was sollte ich als nächstes machen?". Es wird Dir basierend auf Deinem Stand einen Vorschlag machen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

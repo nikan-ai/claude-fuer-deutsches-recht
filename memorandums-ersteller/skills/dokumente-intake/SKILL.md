@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Memorandums-Ersteller geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Memorandums-Ersteller."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Memorandums Ersteller** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -35,7 +33,7 @@ Dieser Dokumenten-Intake für **Memorandums Ersteller** ordnet Anlagen, Register
 - `juristisches-questions-fristennotiz` — Juristisches Questions Fristennotiz
 - `laenge-formate-mandantenfreundliche-fassung` — Laenge Formate Mandantenfreundliche Fassung
 - `mandantenanfrage-schnell` — Mandantenanfrage Schnell
-- `workflow-mandantenkommunikation` — Mandantenkommunikation Redteam
+- `mandantenkommunikation-redteam` — Mandantenkommunikation
 - `mandantenunterlagen-tatbestand-beweis-und-belege` — Mandantenunterlagen Tatbestand Beweis und Belege
 - `memo-board-pack-besondere-anlaesse-spezial` — Memo Board Pack Besondere Anlaesse Spezial
 - `memo-compliance-vorfall-intern` — Memo Compliance Vorfall Intern
@@ -55,16 +53,3 @@ Dieser Dokumenten-Intake für **Memorandums Ersteller** ordnet Anlagen, Register
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 203 StGB
-- § 31 VVG
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

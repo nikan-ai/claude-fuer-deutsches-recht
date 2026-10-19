@@ -1,6 +1,6 @@
 ---
 name: nda-it-saas-vendor
-description: "Wenn es um NDA mit IT-/SaaS-Vendor in NDA-Abgleich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Nda It Saas Vendor; Arbeitsfeld: NDA-Abgleich."
+description: "Für NDA mit IT-/SaaS-Vendor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: NDA-Abgleich. Route: nda-it-saas-vendor."
 ---
 
 # NDA mit IT-/SaaS-Vendor
@@ -28,6 +28,8 @@ Der Output muss als verwertbares Arbeitsprodukt aufgebaut sein:
 
 ## Plugin-Kontext
 Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Normen, Fristen, Belege und Gegenargumente und erzeugt einen unmittelbar nutzbaren nächsten Schritt.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie, welche technische Information für Kontrolle, Auskunft oder Behördenprüfung gebraucht wird. Eine Geheimhaltungsklausel muss notwendige gesetzliche Offenlegungen zulassen, ohne unnötig Modell- oder Kundendaten offenzulegen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Normen & Rechtsprechung
 

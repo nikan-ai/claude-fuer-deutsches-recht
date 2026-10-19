@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-steuerakte
-description: "Wenn es um Akteneinsicht in Steuerakten in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Akteneinsicht in Steuerakten: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Akteneinsicht in Steuerakten
@@ -28,10 +28,6 @@ description: "Wenn es um Akteneinsicht in Steuerakten in Steuerrecht – Steuerb
 - **Art. 15 DSGVO** Auskunft über eigene personenbezogene Daten — ergänzend nutzbar.
 - **§ 88 AO** Untersuchungsgrundsatz im Verwaltungsverfahren.
 - **§ 30 AO** Steuergeheimnis — Grenze der Einsicht in Drittdaten.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -107,7 +103,6 @@ In der Streitsache [NAME] ./. Finanzamt [ORT] beantragen wir:
 
 ### Prüfungsanmerkungen und interne Vermerke
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Kontrollmitteilungen aus § 93a AO, DAC7-Meldedaten, FATCA-Daten ggf. relevant.
 
 ### Internationaler Datenaustausch
@@ -201,31 +196,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - Prüfkatalog mit `[prüferflag]`-Einträgen.
 - Eintrag im Fristenbuch (Reaktionsfrist FA beobachten — Skill `anw-fristenbuch-steuerrecht`).
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 8 AO (Wohnsitz, Aufenthalt)
-- §§ 33, 34 AO (Steuerpflichtiger, gesetzliche Vertreter)
-- § 42 AO (Gestaltungsmissbrauch)
-- §§ 169-171 AO (Festsetzungsverjährung)
-- §§ 233a, 235 AO (Verzinsung, Hinterziehungszinsen)
-- § 370 AO (Steuerhinterziehung)
-- §§ 153, 371 AO (Berichtigungserklärung, Selbstanzeige)
-- §§ 15, 32a EStG (Einkünfte aus Gewerbebetrieb, Tarif)
-- § 8 KStG, § 7 GewStG (Einkommen, Gewerbeertrag)
-- §§ 1, 15 UStG (Steuerbare Umsätze, Vorsteuerabzug)
-
-### Leitentscheidungen
-
-- BFH I R 36/18 (Hinzurechnungsbesteuerung AStG)
-- BFH XI R 11/22 (Reverse-Charge-Verfahren)
-- BFH IX R 49/13 (Liebhaberei vs. Einkunftserzielungsabsicht)
-- BVerfG 2 BvL 1/03 (Steuerfreistellung Existenzminimum)
-- EuGH C-280/10 (Vorsteuerabzug bei wirtschaftlicher Tätigkeit)
-
-### Anwendung im Skill
-
-- Beraterhaftung gegen Mandantenpflicht (§§ 153, 154 AO) klar trennen; Selbstanzeige nach § 371 AO ist eine Strafnorm, kein Steueroptimierungs-Tool.
-- Festsetzungsverjaehrung nach §§ 169-171 AO im Zweifel zugunsten des Steuerpflichtigen; Hemmung durch Aussenpruefung beachten.
-- Bei Gestaltungsmissbrauch § 42 AO immer alternative Wirtschaftsgruende dokumentieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

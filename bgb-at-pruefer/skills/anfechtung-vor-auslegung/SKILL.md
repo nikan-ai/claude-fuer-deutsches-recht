@@ -1,6 +1,6 @@
 ---
 name: anfechtung-vor-auslegung
-description: "Wenn es um Auslegung vor Anfechtung — Prüfungsreihenfolge und Begründung in BGB AT Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Auslegung vor Anfechtung — Prüfungsreihenfolge und Begründung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Auslegung vor Anfechtung — Prüfungsreihenfolge und Begründung
@@ -74,26 +74,3 @@ Wirksamkeit des Vertrags mit dem gewollten Inhalt, ohne Anfechtung.
 - Wenn Auslegung scheitert: Liegt ein Dissens (§§ 154/155 BGB) oder Anfechtungsgrund vor?
 - Anfechtung nur subsidiär, wenn Auslegung keinen gemeinsamen Willen ergibt?
 - Sind Ergebnis und Begründung im Gutachten klar getrennt?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46h ArbGG
-- § 35 GmbHG
-- § 291 StGB
-- § 22 RDG
-- § 13 GmbHG
-- § 11 GmbHG
-- § 14 TzBfG
-- § 46c ArbGG
-- § 41 VwVfG
-- § 291 bis 302 StGB
-- § 263 StGB
-
-### Leitentscheidungen
-
-- BGH NJW 1984/2279
-- BGH NJW 2004/1320
-- BGH NJW 2011/2643
-- BGH NJW 2005/53

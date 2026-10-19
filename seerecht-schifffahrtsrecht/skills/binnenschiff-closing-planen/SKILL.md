@@ -1,6 +1,6 @@
 ---
 name: binnenschiff-closing-planen
-description: "Wenn es um Binnenschiff – Closing planen in See- und Schifffahrtsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Binnenschiff – Closing planen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Binnenschiff – Closing planen
@@ -93,17 +93,3 @@ Klasse- und ISM-Zertifikate bleiben nicht automatisch mit dem Schiff verbunden; 
 - FlaggRG: https://www.gesetze-im-internet.de/flaggrg/
 - BSH: https://www.bsh.de/DE/THEMEN/Schifffahrt/Schiffsregister/schiffsregister_node.html
 - SchRegO: https://dejure.org/gesetze/SchRegO
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 WSG
-- § 267 StGB
-- § 49 EStG
-- § 8b KStG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

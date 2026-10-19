@@ -1,6 +1,6 @@
 ---
 name: harmonisierte-normen-iso-ts-15066
-description: "Wenn es um Harmonisierte Normen und ISO/TS 15066 in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Harmonisierte Normen Iso Ts 15066; Arbeitsfeld: robotik-recht."
+description: "Für Harmonisierte Normen und ISO/TS 15066: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: robotik-recht. Route: harmonisierte-normen-iso-ts-15066."
 ---
 
 # Harmonisierte Normen und ISO/TS 15066
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Plant Normenrecherche zu industrieller Robotik, kollaborierenden Robotern, Sicherheitsfunktionen und Stand der Technik.**
 
 Quellen-/Normenanker: EU-Normenfundstellen, BAuA, CEN/CENELEC/ISO/IEC.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

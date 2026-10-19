@@ -1,6 +1,6 @@
 ---
 name: neuheit-pruefen
-description: "Wenn es um neuheit-prüfen in patentrecherche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für neuheit-prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # neuheit-prüfen
@@ -95,8 +95,7 @@ Bevor die Neuheitspruefung beginnt, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EPA, Technische Beschwerdekammer, T 153/85:** Bei der Neuheitspruefung ist jede Entgegenhaltung einzeln zu betrachten; eine neuheitsschaedliche Wirkung kann nur aus einer einzigen Schrift hergeleitet werden, nicht durch Kombination mehrerer Dokumente.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: abwaegung-formular-portal
-description: "Wenn es um Abwaegung: Formular, Portal und Einreichungslogik in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Abwaegung Formular Portal; Arbeitsfeld: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO."
+description: "Für Abwägung: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. Route: abwaegung-formular-portal."
 ---
 
 # Abwaegung: Formular, Portal und Einreichungslogik
@@ -33,25 +33,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Eilantrag § 47 Abs. 6 VwGO:** Außervollzugsetzung des Bebauungsplans bei schweren Nachteilen oder aus anderen wichtigen Gründen; hoher Begründungsaufwand für Eilbedürftigkeit.
 - **Rüge zwingend (§ 215 BauGB):** Innerhalb eines Jahres ab Bekanntmachung sind formelle und materielle Mängel der Abwägung gegenüber der Gemeinde zu rügen; Versäumung der Rügefrist führt zur Unbeachtlichkeit der Mängel.
 - **Praktiker-Tipp:** Bei jeder Stellungnahme im Bauleitplanverfahren konkret rügen, was zu erwartende Beeinträchtigung ist (Lärm, Verkehr, Sichtachsen, Geruch, Verschattung); ohne konkrete Einwendung droht Präklusion im späteren Normenkontrollverfahren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 47 VwGO
-- § 215 BauGB
-- § 1 BauGB
-- § 214 BauGB
-- § 2 BauGB
-- § 50 BImSchG
-- § 10 BauGB
-- § 9 BauGB
-- § 14 BauGB
-- § 12 BauGB
-- § 44 BNatSchG
-- § 3 BauGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

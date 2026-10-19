@@ -1,6 +1,6 @@
 ---
 name: rmap-bestimmtheit-und-justitiabilitaet
-description: "Wenn es um Bestimmtheit und Justitiabilitaet bei Rulemap-Normen in Legistik-Werkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bestimmtheit und Justitiabilität bei Rulemap-Normen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bestimmtheit und Justitiabilitaet bei Rulemap-Normen
@@ -42,3 +42,4 @@ Abgrenzung zur klassischen Legistik-Kette: Die legw-rmap-Skills schliessen die N
 ## Quellen Stand 06/2026
 
 Quellen Stand 06/2026: Rulemapping-Group (Berlin; gegruendet von Prof. Dr. Stephan Breidenbach; Bundesagentur für Sprunginnovationen SPRIN-D als Investor; Equity-Runde April 2025; eingesetzt im BMJ). Methodenbeschreibung unter rulemapping.com und rulemapping.org; Builder kostenlos verfuegbar. Begleitend: Bundesregierung-Modernisierungsagenda Oktober 2025; SPRIND-Projektseite. Plus Bestandsquellen: gesetze-im-internet.de; bundestag.de; bundesregierung.de; bmj.de; normenkontrollrat.bund.de; bundesverfassungsgericht.de; bundesgerichtshof.de; eur-lex.europa.eu.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie bestehende unionsrechtliche Anforderungen von zusätzlichem nationalem Regelungsbedarf. Eine technische Norm oder Kommissionsleitlinie darf nicht ohne Prüfung ihres Rechtsstatus als gesetzliche Ermächtigung behandelt werden. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

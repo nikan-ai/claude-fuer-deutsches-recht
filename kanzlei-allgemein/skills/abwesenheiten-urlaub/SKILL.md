@@ -1,6 +1,6 @@
 ---
 name: abwesenheiten-urlaub
-description: "Wenn es um Abwesenheiten, Urlaub, Krankheit in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abwesenheiten, Urlaub, Krankheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abwesenheiten, Urlaub, Krankheit
@@ -166,24 +166,7 @@ Vorlage unter `assets/templates/abwesenheiten-register.md`.
 - `kanzlei-allgemein-postlauf` — Postzustellung und -bearbeitung während Abwesenheit
 - `kanzlei-allgemein-output-versand` — Vertretungsanzeige in der Mandanten-Korrespondenz
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 10 RVG
-- § 3a RVG
-- Art. 13 DSGVO
-- § 14 UStG
-- Art. 28 DSGVO
-- § 18 UStG
-- § 7 BUrlG
-- Art. 32 DSGVO
-- § 65d SGG
-- § 55a VwGO
-- Art. 35 DSGVO
-- Art. 21 DSGVO
-
-### Leitentscheidungen
-
-- BGH VI ZB 59/18
-- BGH VI ZR 286/21
+Kanzleiorganisation nach Vorgang trennen: Mandatsannahme und Interessenkollision, Verschwiegenheit, Fristen, Aktenführung sowie elektronischer Rechtsverkehr. Einschlägige Berufs- und Verfahrensnormen nur dem konkreten Arbeitsschritt zuordnen. Rechtsprechung ist mit Gericht, Datum, Aktenzeichen, tragender Aussage und Quelle zu belegen; bloße Aktenzeichenlisten entfallen.

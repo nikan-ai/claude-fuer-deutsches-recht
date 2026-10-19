@@ -5,26 +5,62 @@
 
 Finanzgericht: Sachprüfung Anfechtungsklage Verpflichtungsklage Aussetzung der Vollziehung Paragraf 69 FGO Beweiswürdigung im Amtsermittlungsgrundsatz und Urteilsentwurf mit Tenorvorschlag
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 304 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`richter-finanzgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/richter-finanzgericht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../../skills-index/richter-finanzgericht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/richter-finanzgericht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/richter-finanzgericht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../../SKILLS.md) · [Skills dieses Plugins](../../skills-index/richter-finanzgericht.md) · [Plugin-Dateien](.) · [Download-Index](../../ASSET_INDEX.md) · [Installation](../../INSTALLATION_EINFACH.md) · [Testakten](../../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../../skills-index/richter-finanzgericht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Finanzgericht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`richter-finanzgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-finanzgericht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/gerichtsplugins/richter-finanzgericht/richter-finanzgericht-werkstatt.md" download><code>richter-finanzgericht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/gerichtsplugins/richter-finanzgericht/richter-finanzgericht-schnellstart.md" download><code>richter-finanzgericht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [Gesamt-PDF](testakte/gesamt-pdf/testakte_gesamt.pdf), [`richter-finanzgericht-testakte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-finanzgericht-testakte.zip), [`richter-finanzgericht-testakte-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-finanzgericht-testakte-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`richter-finanzgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/richter-finanzgericht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`richter-finanzgericht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/richter-finanzgericht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`richter-finanzgericht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/richter-finanzgericht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 304 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du einen Steuerbescheid prüfen und Einspruch oder Klage tragfähig begründen.
+Das Plugin bereitet die finanzgerichtliche Entscheidung über eine Klage oder einen Antrag auf Aussetzung der Vollziehung vor. Es wertet Steuerbescheid, Einspruchsentscheidung, Parteivortrag und Belege aus und erstellt den beauftragten Urteils- oder Beschlussentwurf, ohne die Rolle des Klägervertreters zu übernehmen.
 > **Experimentelles Plugin im Ordner `gerichtsplugins/`** — siehe Vorspruch unten.
 
-> **Kritisch — Hochrisiko-KI und Art. 22 DSGVO beachten.** Der Einsatz von KI in der Rechtspflege ist nach Art. 6 Abs. 2 in Verbindung mit Anhang III Nr. 8 Buchstabe a der KI-Verordnung (VO (EU) 2024/1689) grundsätzlich **Hochrisiko-KI**. Die Rückausnahme des Art. 6 Abs. 3 KI-VO greift nur bei rein vorbereitender Tätigkeit ohne Subsumtion; auch dann besteht Registrierungspflicht nach Art. 49 Abs. 2 KI-VO. Eine Entscheidung mit rechtlicher Wirkung über Menschen darf nicht einer Maschine überlassen werden (Art. 22 DSGVO) — die richterliche Letztentscheidung liegt zwingend beim Menschen. Einzelheiten unten unter „Wichtiger Hinweis vor Verwendung".
+> **Hochrisiko-Prüfung vor Justizeinsatz:** Artikel 6 Absatz 2 mit Anhang III Nummer 8 Buchstabe a anhand der konkreten Zweckbestimmung prüfen; nicht jede Verwaltungs- oder Recherchefunktion einer Justizbehörde ist automatisch erfasst. Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Datenschutzrechtliche Grenzen automatisierter Entscheidungen sind gesondert nach dem anwendbaren Regime zu prüfen. Die richterliche Entscheidung bleibt dem zuständigen Menschen vorbehalten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Rolle
 
@@ -36,20 +72,14 @@ FGO, AO, EStG, KStG, GewStG, UStG, BewG, FVG, GKG, RVG
 
 ## Inhalt
 
-- **11 Skills** (siehe `skills/`; inklusive Schnellstart-Skill)
+- Skills mit ihren Referenzen: siehe vollständige Liste unten. Werkstatt und Schnellstart sind separate Markdown-Dateien, keine zusätzlichen Skills.
 - **Werkstatt-Prompt** (`richter-finanzgericht-werkstatt.md`)
 - **Schnellstart-Prompt** (`richter-finanzgericht-schnellstart.md`)
 - **Testakte** (`testakte/README.md`) — aus Richtersicht
 
 ## Skill-Liste
 
-- **01-zulässigkeit-finanzgerichtsklage** — Zulässigkeit der Klage Paragrafen 40-65 FGO: Klagearten (Anfechtung Verpflichtung Feststellung Untätigkeit), Vorverfah
-- **02-amtsermittlung-finanzgericht** — Amtsermittlungsgrundsatz Paragraf 76 FGO, Heranziehung der Akten Paragraf 71, Beweismittel, Schätzungsbefugnis Paragraf - **03-aussetzung-der-vollziehung** — Aussetzung der Vollziehung Paragraf 69 FGO bzw. Paragraf 361 AO: ernstliche Zweifel an der Rechtmäßigkeit, unbillige H
-- **04-steuerbescheid-prüfen** — Prüfung des angegriffenen Steuerbescheids: formelle Rechtmäßigkeit (Begründung Paragraf 121 AO, Bekanntgabe Paragraf - **05-est-prüfungsschema** — Einkommensteuer-Prüfung: Einkunftsart, Einkunftsermittlung (Paragrafen 4, 5 EStG oder Paragraf 11 EStG), Sonderausgaben
-- **06-ust-prüfungsschema** — Umsatzsteuer: Steuerbarkeit Paragraf 1 UStG, Steuerpflicht und Steuerbefreiung Paragraf 4, Bemessungsgrundlage Paragraf - **07-körperschaft-und-gewerbesteuer** — Körperschaftsteuer: Subjektsteuerpflicht Paragraf 1 KStG, Einkommensermittlung Paragraf 8 KStG i.V.m. EStG, verdeckte G
-- **08-schätzung-und-betriebsprüfung** — Schätzung Paragraf 162 AO als Beweismittel: äußere und innere Schätzung, Zeitreihenvergleich, Geldverkehrsrechnung,
-- **09-urteil-finanzgericht-und-revision** — Urteil Paragraf 105 FGO: Tatbestand, Entscheidungsgründe, Tenor; Revision Paragraf 115 FGO an BFH (grundsätzliche Bede
-- **10-entscheidungsvorschlag-finanzgericht** — Strukturierter Entscheidungsvorschlag: Tenor, Prüfungsschema Zulässigkeit Begründetheit, materielle Prüfung der Steu
+Die [vollständige alphabetische Skill-Liste](../../skills-index/richter-finanzgericht.md) enthält die aktuellen Namen, Beschreibungen und Markdown-Downloads. Die thematische Navigation und die automatisch gepflegte Übersicht weiter unten helfen bei der Auswahl nach Arbeitsschritt.
 
 ## Wichtiger Hinweis vor Verwendung
 
@@ -58,8 +88,8 @@ FGO, AO, EStG, KStG, GewStG, UStG, BewG, FVG, GKG, RVG
 ### Rechtliche Einordnung der KI-Verordnung (KI-VO, VO (EU) 2024/1689)
 
 - **Art. 6 Abs. 2 i.V.m. Anhang III Nr. 8 lit. a KI-VO**: KI-Systeme, die von einer Justizbehörde oder in deren Auftrag bei der **Recherche und Auslegung von Sachverhalten und Rechtsvorschriften** sowie bei der **Anwendung des Rechts auf konkrete Sachverhalte** verwendet werden, sind grundsätzlich **Hochrisiko-KI**.
-- **Aber Art. 6 Abs. 3 KI-VO**: Ein KI-System gilt **nicht** als Hochrisiko-KI, wenn es nur eine **vorbereitende Aufgabe** wahrnimmt (z.B. Vorbereitung von Dokumenten, reine Recherche ohne Subsumtion).
-- **Notifizierungspflicht**: Auch im Ausnahmefall des Art. 6 Abs. 3 ist der Anbieter bzw. Betreiber verpflichtet, das KI-System bei der zuständigen Aufsicht zu **registrieren** (Art. 49 Abs. 2 KI-VO).
+- **Ausnahme nach Artikel 6 Absatz 3:** Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **Registrierung und Rollen:** Artikel 6 Absatz 4 und Artikel 49 Absatz 2 richten die Dokumentations- und Registrierungspflicht bei der Ausnahme an Anbieter beziehungsweise gegebenenfalls deren Bevollmächtigte. Öffentliche Betreiber prüfen daneben Artikel 49 Absatz 3. Registrierung in der vorgesehenen Datenbank und Notifizierung einer Konformitätsbewertungsstelle sind unterschiedliche Vorgänge. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Die Einordnung ist im Einzelfall zu prüfen. Sobald das System konkrete Entscheidungsvorschläge produziert, die Subsumtion vornimmt oder die richterliche Würdigung ersetzt, wird die Schwelle zur Hochrisiko-KI überschritten.
 
 ### Art. 22 DSGVO — Verbot ausschliesslich automatisierter Entscheidung
@@ -102,13 +132,15 @@ Dual-lizenziert MIT und Apache-2.0.
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 3. Prüfung, Anspruch und Subsumtion | `05-est-pruefungsschema`, `06-ust-pruefungsschema`, `08-schaetzung-und-betriebspruefung` |
-| 5. Verfahren, Behörde und Gericht | `01-zulaessigkeit-finanzgerichtsklage`, `02-amtsermittlung-finanzgericht`, `04-steuerbescheid-pruefen`, `09-urteil-finanzgericht-und-revision`, `10-entscheidungsvorschlag-finanzgericht`, `v392-praxisraster-richter-finanzgericht` |
-| 8. Spezialmodule und Schnittstellen | `03-aussetzung-der-vollziehung`, `07-koerperschaft-und-gewerbesteuer`, `99-finale-entscheidung-volltext`, `prozessuale-kniffe-und-rechtsprechungsanker` |
+| 3. Prüfung, Anspruch und Subsumtion | [`05-est-pruefungsschema`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/05-est-pruefungsschema/SKILL.md), [`06-ust-pruefungsschema`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/06-ust-pruefungsschema/SKILL.md), [`08-schaetzung-und-betriebspruefung`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/08-schaetzung-und-betriebspruefung/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/juristischer-argumentationskern/SKILL.md) |
+| 5. Verfahren, Behörde und Gericht | [`01-zulaessigkeit-finanzgerichtsklage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/01-zulaessigkeit-finanzgerichtsklage/SKILL.md), [`02-amtsermittlung-finanzgericht`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/02-amtsermittlung-finanzgericht/SKILL.md), [`04-steuerbescheid-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/04-steuerbescheid-pruefen/SKILL.md), [`09-urteil-finanzgericht-und-revision`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/09-urteil-finanzgericht-und-revision/SKILL.md), [`10-entscheidungsvorschlag-finanzgericht`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/10-entscheidungsvorschlag-finanzgericht/SKILL.md), [`v392-praxisraster-richter-finanzgericht`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/v392-praxisraster-richter-finanzgericht/SKILL.md) |
+| 8. Spezialmodule und Schnittstellen | [`03-aussetzung-der-vollziehung`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/03-aussetzung-der-vollziehung/SKILL.md), [`07-koerperschaft-und-gewerbesteuer`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/07-koerperschaft-und-gewerbesteuer/SKILL.md), [`99-finale-entscheidung-volltext`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/99-finale-entscheidung-volltext/SKILL.md), [`prozessuale-kniffe-und-rechtsprechungsanker`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/prozessuale-kniffe-und-rechtsprechungsanker/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -116,22 +148,33 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 13 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 14 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `01-zulaessigkeit-finanzgerichtsklage` | Wenn es um 01 Zulässigkeit Finanzgerichtsklage in Finanzgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `02-amtsermittlung-finanzgericht` | Wenn es um 02 Amtsermittlung Finanzgericht in Finanzgericht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `03-aussetzung-der-vollziehung` | Wenn es um 03 Aussetzung Der Vollziehung in Finanzgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `04-steuerbescheid-pruefen` | Wenn es um 04 Steuerbescheid Prüfen in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `05-est-pruefungsschema` | Wenn es um 05 ESt Prüfungsschema in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `06-ust-pruefungsschema` | Wenn es um 06 USt Prüfungsschema in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `07-koerperschaft-und-gewerbesteuer` | Wenn es um 07 Körperschaft und Gewerbesteuer in Finanzgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `08-schaetzung-und-betriebspruefung` | Wenn es um 08 Schaetzung und Betriebsprüfung in Finanzgericht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `09-urteil-finanzgericht-und-revision` | Wenn es um 09 Urteil Finanzgericht und Revision in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `10-entscheidungsvorschlag-finanzgericht` | Wenn es um 10 Entscheidungsvorschlag Finanzgericht in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `99-finale-entscheidung-volltext` | Wenn es um Finale Entscheidung als Volltext (Urteil Finanzgericht) in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Na... |
-| `prozessuale-kniffe-und-rechtsprechungsanker` | Wenn es um Prozessuale Kniffe und Rechtsprechungsanker in Finanzgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `v392-praxisraster-richter-finanzgericht` | Wenn es um Praxisraster Finanzgericht in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
+English: Complete list of all 14 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`01-zulaessigkeit-finanzgerichtsklage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/01-zulaessigkeit-finanzgerichtsklage/SKILL.md) | Für 01 Zulässigkeit Finanzgerichtsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/01-zulaessigkeit-finanzgerichtsklage/SKILL.md) |
+| [`02-amtsermittlung-finanzgericht`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/02-amtsermittlung-finanzgericht/SKILL.md) | Für 02 Amtsermittlung Finanzgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/02-amtsermittlung-finanzgericht/SKILL.md) |
+| [`03-aussetzung-der-vollziehung`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/03-aussetzung-der-vollziehung/SKILL.md) | Für 03 Aussetzung der Vollziehung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/03-aussetzung-der-vollziehung/SKILL.md) |
+| [`04-steuerbescheid-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/04-steuerbescheid-pruefen/SKILL.md) | Für 04 Steuerbescheid Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/04-steuerbescheid-pruefen/SKILL.md) |
+| [`05-est-pruefungsschema`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/05-est-pruefungsschema/SKILL.md) | Für 05 ESt Prüfungsschema: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/05-est-pruefungsschema/SKILL.md) |
+| [`06-ust-pruefungsschema`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/06-ust-pruefungsschema/SKILL.md) | Für 06 USt Prüfungsschema: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/06-ust-pruefungsschema/SKILL.md) |
+| [`07-koerperschaft-und-gewerbesteuer`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/07-koerperschaft-und-gewerbesteuer/SKILL.md) | Für 07 Körperschaft und Gewerbesteuer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/07-koerperschaft-und-gewerbesteuer/SKILL.md) |
+| [`08-schaetzung-und-betriebspruefung`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/08-schaetzung-und-betriebspruefung/SKILL.md) | Für 08 Schätzung und Betriebsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/08-schaetzung-und-betriebspruefung/SKILL.md) |
+| [`09-urteil-finanzgericht-und-revision`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/09-urteil-finanzgericht-und-revision/SKILL.md) | Für 09 Urteil Finanzgericht und Revision: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/09-urteil-finanzgericht-und-revision/SKILL.md) |
+| [`10-entscheidungsvorschlag-finanzgericht`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/10-entscheidungsvorschlag-finanzgericht/SKILL.md) | Für 10 Entscheidungsvorschlag Finanzgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/10-entscheidungsvorschlag-finanzgericht/SKILL.md) |
+| [`99-finale-entscheidung-volltext`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/99-finale-entscheidung-volltext/SKILL.md) | Für Finale Entscheidung als Volltext (Urteil Finanzgericht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/99-finale-entscheidung-volltext/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Richter Finanzgericht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`prozessuale-kniffe-und-rechtsprechungsanker`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/prozessuale-kniffe-und-rechtsprechungsanker/SKILL.md) | Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Finanzgericht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/prozessuale-kniffe-und-rechtsprechungsanker/SKILL.md) |
+| [`v392-praxisraster-richter-finanzgericht`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/v392-praxisraster-richter-finanzgericht/SKILL.md) | Für Praxisraster Finanzgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-finanzgericht/skills/v392-praxisraster-richter-finanzgericht/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Unterscheiden Sie bei der Anwendung für finanzgerichtliches Verfahren technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

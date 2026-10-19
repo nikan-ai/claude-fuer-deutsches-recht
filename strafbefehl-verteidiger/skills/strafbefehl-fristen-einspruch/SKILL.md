@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-fristen-einspruch
-description: "Wenn es um Frist und Einspruch nach Paragraf 410 StPO in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Frist und Einspruch nach Paragraf 410 StPO: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Frist und Einspruch nach § 410 StPO
@@ -36,10 +36,6 @@ Sichert die Einspruchsfrist nach § 410 StPO (2 Wochen ab Zustellung) und erstel
 - **§ 44 StPO** — Wiedereinsetzung in den vorigen Stand
 - **§ 37 StPO i.V.m. §§ 177 ff. ZPO** — Zustellungsvorschriften
 - **§ 418 ZPO** — Beweis durch Zustellungsurkunde; bei Einwurf-Einschreiben § 180 ZPO
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -141,3 +137,5 @@ Mit freundlichen Gruessen
 - Beschraenkter Einspruch nur nach Mandantenruecksprache und schriftlicher Bestaetigung der Konsequenzen.
 - Wiedereinsetzung nach § 44 StPO erfordert Glaubhaftmachung — Mandant muss eidesstattliche Versicherung liefern.
 - Anwaltliche Endkontrolle vor Versand zwingend.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

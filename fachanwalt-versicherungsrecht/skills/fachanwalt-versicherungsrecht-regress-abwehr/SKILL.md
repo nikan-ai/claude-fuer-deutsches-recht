@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-versicherungsrecht-regress-abwehr
-description: "Wenn es um Regress-Abwehr in Fachanwalt Versicherungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Regress-Abwehr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Regress-Abwehr
@@ -45,7 +45,6 @@ Ein Schädiger oder dessen Haftpflichtversicherer wird nach einem Schadensereign
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Regress-Abwehr
 
@@ -100,9 +99,7 @@ Ein Schädiger oder dessen Haftpflichtversicherer wird nach einem Schadensereign
 | Gegenargument des Regressnehmers | Gegenstrategie |
 |---|---|
 | "Kongruenz ist evident — Krankenbehandlungskosten für Unfallverletzung" | Einzelpositionen prüfen: Wahlleistungen, Eigenanteile, nicht unfallbedingte Behandlungen herausrechnen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Quote mindert Regress nicht, weil Gesamtschaden gedeckt ist" | § 116 Abs. 3 SGB X ist zwingend: Quotenvorrecht des Geschädigten geht vor; Übergang nur soweit Haftungsanteil vorhanden |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hemmung durch Korrespondenz" | Nur echte Verhandlungen hemmen; reine Sachverhaltsaufklärung oder bloße Forderungsübermittlung sind keine Verhandlungen i.S.d. § 203 BGB |
 | "Vorteilsausgleichung ist ausgeschlossen" | Vorteilsausgleichung greift nur bei Vorteilen die kausal durch das Schadensereignis entstanden sind und nicht unzumutbar sind |
 
@@ -309,18 +306,11 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 ## Quellen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Geigel, Der Haftpflichtprozess, 28. Aufl. 2022
 - Küppersbusch/Höher, Ersatzansprüche bei Personenschaden, 13. Aufl. 2021
 - Eichenhofer/Wenner, SGB X, 3. Aufl. 2022
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Paragrafenkette
 
@@ -336,5 +326,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 | AZ | Status | Massnahme |
 |---|---|---|
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

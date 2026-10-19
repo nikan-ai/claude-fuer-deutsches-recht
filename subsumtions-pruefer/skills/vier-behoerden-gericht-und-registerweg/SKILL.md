@@ -1,6 +1,6 @@
 ---
 name: vier-behoerden-gericht-und-registerweg
-description: "Wenn es um Behörden-, Gerichts- und Registerweg in Subsumtions-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Behörden-, Gerichts- und Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Behörden-, Gerichts- und Registerweg
@@ -19,8 +19,8 @@ description: "Wenn es um Behörden-, Gerichts- und Registerweg in Subsumtions-Pr
 
 | Gericht | Zuständigkeit | Norm |
 |---|---|---|
-| Amtsgericht | bis EUR 5.000; Miete, Unterhalt unabhängig vom Streitwert | §§ 23, 23a GVG |
-| Landgericht | ab EUR 5.000; Handelssachen; Kapitalmarkt | § 71 GVG; § 95 GVG |
+| Amtsgericht | allgemeine Zivilsachen bis einschließlich 10.000 Euro; Wohnraummietsachen wertunabhängig; Familiensachen beim Familiengericht | Paragrafen 23 Nummer 1 und 2a, 23a GVG |
+| Landgericht | allgemeine Zivilsachen über 10.000 Euro sowie gesetzlich wertunabhängig zugewiesene Sachen; Handelssache nur bei Zuständigkeit und den Voraussetzungen der Paragrafen 94 ff. GVG | Paragrafen 71, 94 ff. GVG |
 | Oberlandesgericht | Berufung gegen LG-Urteile; bestimmte erstinstanzliche Verfahren | §§ 119 ff. GVG |
 | Bundesgerichtshof | Revision; bestimmte erste Instanz | § 133 GVG |
 
@@ -80,3 +80,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Fristen prüfen:** Klagefrist, Widerspruchsfrist, Verjährung, Ausschlussfristen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen und Alternativwegen.
 5. **Anschluss bauen:** Passende weitere Skills vorschlagen (z. B. verfahrensart-bestimmen-verjaehrung, ziel-und-rechtsweg-bestimmung).
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-vier-behoerden-gericht-und-registerweg` beziehungsweise Vier: Behörden-, Gerichts- oder Registerweg: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-vier-behoerden-gericht-und-registerweg.md).

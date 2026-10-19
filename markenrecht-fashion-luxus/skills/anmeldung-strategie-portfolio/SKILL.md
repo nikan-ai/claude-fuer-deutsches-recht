@@ -1,6 +1,6 @@
 ---
 name: anmeldung-strategie-portfolio
-description: "Wenn es um Anmeldestrategie & Markenportfolio für Luxus-Modehäuser in markenrecht-fashion-luxus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anmeldestrategie & Markenportfolio für Luxus-Modehäuser: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Anmeldestrategie & Markenportfolio für Luxus-Modehäuser
@@ -125,32 +125,8 @@ Bevor die Anmeldekaskade gestartet wird, kläre:
 4. Wurde die 5-Jahres-Benutzungspflicht für bestehende Eintragungen beachtet?
 5. Ist eine Madrid-IR-Basismarke bereits konsolidiert und Central-Attack-resistent?
 
-## Aktuelle Rechtsprechung
+## Quellenkontrolle
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Deutsche Marke und Unionsmarke getrennt prüfen. Für absolute Schutzhindernisse insbesondere Paragraf 8 Markengesetz und Artikel 7 UMV, für Widerspruch und Verletzung die jeweils einschlägigen Tatbestände, Benutzungsschonfrist und Verfahrensregeln verwenden. Entscheidungen von Bundesgerichtshof, Bundespatentgericht, Gericht der Europäischen Union oder Gerichtshof der Europäischen Union nur mit konkretem Prüfmerkmal und verifizierter tragender Aussage zuordnen.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 14 MarkenG
-- § 19 MarkenG
-- Art. 101 AEUV
-- § 8 MarkenG
-- § 49 MarkenG
-- § 66 MarkenG
-- § 18 MarkenG
-- § 107 MarkenG
-- § 42 MarkenG
-- § 25a ZollVG
-- § 1 PatG
-- § 50 MarkenG
-
-### Leitentscheidungen
-
-- BGH I ZB 22/20
-- BGH I ZR 149/14
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

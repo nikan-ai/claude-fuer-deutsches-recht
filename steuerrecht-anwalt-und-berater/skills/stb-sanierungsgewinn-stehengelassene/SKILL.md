@@ -1,6 +1,6 @@
 ---
 name: stb-sanierungsgewinn-stehengelassene
-description: "Wenn es um Sanierungsgewinn — frühzeitige Mandantenwarnung in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Stb Sanierungsgewinn Stehengelassene; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Sanierungsgewinn — frühzeitige Mandantenwarnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sanierungsgewinn — frühzeitige Mandantenwarnung
@@ -15,8 +15,6 @@ description: "Wenn es um Sanierungsgewinn — frühzeitige Mandantenwarnung in S
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Sanierungsgewinn — frühzeitige Mandantenwarnung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -67,7 +65,7 @@ Der Mandantenbrief in der Frühphase ist das wichtigste Steuerungsinstrument. Er
 - **Schreiben Sie verständlich, ohne juristischen Jargon.** Der Mandant muss die Konsequenz greifen: "Wenn Sie heute auf Forderungen verzichten lassen, ohne dass die Sanierung nach § 3a EStG vorbereitet wurde, kann es eine Steuerlast geben, die die Liquidität wieder belastet."
 - **Nennen Sie Zahlen.** Ein Verzichtsbetrag von 500.000 EUR kann bei voller Steuerpflicht 150.000 EUR KSt + GewSt auslösen. Das verstehen Unternehmerinnen sofort.
 - **Bauen Sie die Empfehlung "Sanierungsgewinn-Frühprüfung" ein.** Lassen Sie sich diese Frühprüfung honoraren — sonst macht der Mandant es nicht.
-- **Bezug zu § 102 StaRUG nicht vergessen.** Wenn der Steuerberater die Krise erkennt, hat er Hinweispflichten. Das wirkt vom Mandanten in dieselbe Richtung.
+- Paragraf 102 StaRUG nur bei einem Auftrag zur Jahresabschlusserstellung und erfüllten weiteren Voraussetzungen anwenden. Bei einem anderen Mandat den vertraglichen Warnbedarf eigenständig prüfen und nicht als gesetzlichen Paragraf-102-Hinweis bezeichnen.
 
 ## Mustertexte / Berechnungsbeispiele
 
@@ -199,7 +197,8 @@ Mit freundlichen Grüßen
 - § 3a Abs. 4 EStG (Antrag, Bindungswirkung).
 - § 3c Abs. 4 EStG (Verlustreihenfolge).
 - § 7b GewStG.
-- § 102 StaRUG (Hinweispflichten Steuerberater).
+- Paragraf 102 StaRUG nur bei Jahresabschlusserstellung und erfüllten weiteren Tatbestandsmerkmalen.
 - § 43a Abs. 2 BRAO, § 203 StGB.
 - BMF-Schreiben vom 27.04.2017 — Stand prüfen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe Quelle protokollieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

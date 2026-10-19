@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-oder-auskunft-oder-kopie
-description: "Wenn es um Akteneinsicht Oder Auskunft Oder Kopie in Informationsfreiheit und Presseauskunft geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Akteneinsicht oder Auskunft oder Kopie: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Akteneinsicht Oder Auskunft Oder Kopie
@@ -40,24 +40,3 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 IFG
-- § 3 IFG
-- § 5 IFG
-- § 6 IFG
-- § 7 IFG
-- § 10 IFG
-- § 70 VwGO
-- § 74 VwGO
-- § 123 VwGO
-- Art. 5 GG
-- Art. 10 EMRK
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

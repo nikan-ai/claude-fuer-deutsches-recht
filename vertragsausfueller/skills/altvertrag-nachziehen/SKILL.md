@@ -1,6 +1,6 @@
 ---
 name: altvertrag-nachziehen
-description: "Wenn es um Altvertrag nachziehen in Vertragsausfüller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Altvertrag nachziehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Altvertrag nachziehen
@@ -20,15 +20,11 @@ description: "Wenn es um Altvertrag nachziehen in Vertragsausfüller geht: prüf
 3. Welche Parteien haben seit dem Altvertrag gewechselt (Firmen, Kontaktpersonen)?
 4. Gibt es gesetzliche Neuregelungen seit Abschluss des Altvertrags (z.B. Mietrecht, AGB-Recht)?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - § 305, 305c BGB — Einbeziehung und Auslegung von AGB
 - § 307 ff. BGB — AGB-Inhaltskontrolle (Generalklausel, Verbotslisten)
-- § 550 BGB — Schriftformgebot bei langfristigen Mietverträgen (mehr als 1 Jahr)
+- Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB — Textform langfristiger Grundstücks- und Gewerberaummietverträge; bei älteren Vertragsketten Artikel 229 Paragraf 70 EGBGB prüfen.
 - § 195 BGB — Verjährung (regelmäßig 3 Jahre)
 - § 313 BGB — Störung der Geschäftsgrundlage (bei wesentlich veränderten Umständen)
 
@@ -69,18 +65,9 @@ description: "Wenn es um Altvertrag nachziehen in Vertragsausfüller geht: prüf
 - Offene Werte bleiben sichtbar; sie werden nicht erfunden.
 - Juristische Wahlentscheidungen werden erklärt und protokolliert.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 9 UStG
-- § 2 NachwG
-- § 3a RVG
-- § 29 VwVfG
+Vertragsart, Parteien, Form, Einbeziehung und Änderungsmechanismus vor jeder Ergänzung bestimmen. Paragraf 133 und 157 BGB für Auslegung, Paragraf 145 folgende BGB für den Vertragsschluss und Paragraf 305 folgende BGB für vorformulierte Bedingungen nur fallbezogen anwenden. Rechtsprechung darf erst nach Zuordnung zur konkreten Klausel und Verifizierung der tragenden Aussage ergänzt werden.
 
-### Leitentscheidungen
-
-- BGH VI ZR 394/12
-- BGH I ZR 169/12
-- BGH VII ZR 213/07
-- BGH VII ZR 37/17
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "plugin": "preussisches-allgemeines-landrecht-pralr",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2017/III_ZR__71-17.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "Rezeption des Aufopferungsanspruchs und Erweiterung auf immaterielle Nachteile. Grenze: Kein Nachweis desselben Ersatzumfangs im Jahr 1794 oder automatischer Fortgeltung des gesamten ALR. Amtlicher Leitsatz verifiziert; direkter PDF-Abruf technisch nicht auswertbar, keine Volltextprüfung behauptet."
+    },
+    {
+      "url": "https://www.koeblergerhard.de/Fontes/ALR1fuerdiepreussischenStaaten1794teil1.htm",
+      "checked_on": "2026-09-23",
+      "supports": "Historischer Normtext in privater Webtranskription erneut geöffnet; Einleitung Paragrafen 74 und 75 sowie Teil 1 Titel 1 Paragrafen 19 bis 21 gezielt gelesen. Kein amtliches Digitalisat, keine Faksimileprüfung, kein Beleg örtlicher Geltung oder tatsächlicher Gerichtspraxis."
+    },
+    {
+      "url": "https://www.koeblergerhard.de/Fontes/ALR2fuerdiepreussischenStaaten1794Teil2.htm",
+      "checked_on": "2026-09-23",
+      "supports": "Historischer Normtext in privater Webtranskription erneut geöffnet; Teil 2 Titel 5 Paragrafen 193 bis 208 gelesen: Aufenthaltsvarianten und fortdauernde Bindungen getrennt. Keine Faksimile- oder historische Praxisprüfung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Am 2026-09-23 vollständig gelesen und einzeln überarbeitet: kurze fachliche Startauswahl, stilles Lesen ohne Auftrag und direkte Fallarbeit; wiederholten Verweiskatalog gegen einen Mühlenfall und konkrete Dokumentfortsetzung getauscht. 2026-10-16, redaktioneller Einstiegsreview: Historisches Arbeitsprodukt, Ausgabe und Ortsgeltung vorangestellt; doppelte Titelnummer entfernt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Konkrete ALR-Regel und ihre Ausnahmen am Ort und historischen Stichtag; heutige Rechtsüberleitung gesondert.",
+      "Rezeption des Aufopferungsanspruchs und Erweiterung auf immaterielle Nachteile. Grenze: Kein Nachweis desselben Ersatzumfangs im Jahr 1794 oder automatischer Fortgeltung des gesamten ALR.",
+      "2026-09-23: Normlesung, historischer Fall und heutiges Altrecht als Einstieg; Plan, Parteieingabe und Privileg nach Belegwert getrennt; Synopse und Gutachten nach neuer Ausnahme ändern.",
+      "2026-10-16, redaktioneller Einstiegsreview: Historisches Arbeitsprodukt, Ausgabe und Ortsgeltung vorangestellt; doppelte Titelnummer entfernt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "2d9a930acb51c7c88986e9c4b494703997a216797b3ed2ce5f0821a49ed28de3",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Vergleiche zwei PrALR-Textzeugen und trenne OCR-Fehler von Varianten.",
+      "Prüfe die historische Geltung einer PrALR-Regel für einen bestimmten Ort und Zeitpunkt."
+    ],
+    "negative": [
+      "Berechne einen heutigen BGB-Pflichtteilsanspruch ohne historischen Bezug.",
+      "Übersetze und erläutere eine römischrechtliche Digestenstelle ohne Bezug zum preußischen Landrecht."
+    ]
+  },
+  "cases": [
+    {
+      "id": "ocr-und-druckvariante",
+      "request": "Erstelle ergebnis.md als editorischen Prüfvermerk, nicht als historische Fallentscheidung. Für einen PrALR-Textvergleich liegen folgende vollständigen Arbeitsangaben vor: Textzeuge A ist durch Titelblatt und Bibliothekskatalog als Druck von 1794 identifiziert; an der verglichenen Stelle lautet die vom Bearbeiter direkt am Seitenbild geprüfte Zeichenfolge 'nicht'. Die zu A gelieferte OCR liest dort 'nichts'. Textzeuge B liegt nur als undatierte Abschrift vor und liest ebenfalls 'nichts'; Titelblatt, Herkunft und Seitenbild fehlen. Die Stelle ist in beiden Materialien als Einleitung Paragraf 7 bezeichnet, doch der Auftrag umfasst ausdrücklich keine Prüfung des wirklichen Gesetzeswortlauts. Ordne die drei Lesungen nach ihrem Belegstatus und formuliere den nächsten konkreten Beschaffungsschritt. Weitere Dateien gibt es nicht.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet den mitgeteilten Seitenbildbefund von der abweichenden OCR und behandelt beide nicht als zwei verschiedene Druckfassungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Leitet aus der undatierten Abschrift weder eine spätere Gesetzesänderung noch ein gesichertes Ausgabejahr ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fordert Herkunft und korrespondierendes Seitenbild von B gezielt an und vermeidet eine Behauptung zum wirklichen Normwortlaut oder einer heutigen Rechtsfolge.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "textzeugen-vergleichen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Am 2026-09-23 vollständig gelesen und individuell vertieft: Mühlen- und Wasserstreit, Strafakte, Quellenfunktion und Änderungen nach neuen Lesungen; umfassender vorhandener Spezialstoff und korrigierte historische Statusregeln erhalten. 2026-10-16, redaktioneller Einstiegsreview: Historisches Arbeitsprodukt, Ausgabe und Ortsgeltung vorangestellt; doppelte Titelnummer entfernt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Konkrete ALR-Regel und ihre Ausnahmen am Ort und historischen Stichtag; heutige Rechtsüberleitung gesondert.",
+      "Rezeption des Aufopferungsanspruchs und Erweiterung auf immaterielle Nachteile. Grenze: Kein Nachweis desselben Ersatzumfangs im Jahr 1794 oder automatischer Fortgeltung des gesamten ALR.",
+      "2026-09-23: Private Staubefugnis, obrigkeitliche Anordnung und Schadensnachweis als getrennte Mühlenfallzweige; Anklage, Urteil und Vollzug in Strafakten auseinandergehalten.",
+      "2026-09-23: Archivkorrespondenz nach Entstehungszweck bewertet und neue Lesung durch Übertragung, Subsumtion und Schlussfolgerung im vorhandenen Zieldokument fortgeschrieben.",
+      "2026-10-16, redaktioneller Einstiegsreview: Historisches Arbeitsprodukt, Ausgabe und Ortsgeltung vorangestellt; doppelte Titelnummer entfernt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "1643493dc7212f55d5f4642ba1a6f3b2f16c287914523cc3d44a08e90af6caba",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "preussisches-allgemeines-landrecht-pralr/preussisches-allgemeines-landrecht-pralr-werkstatt.md",
+      "preussisches-allgemeines-landrecht-pralr/preussisches-allgemeines-landrecht-pralr-schnellstart.md"
+    ],
+    "opening_change": "Konkrete ALR-Regel und ihre Ausnahmen am Ort und historischen Stichtag; heutige Rechtsüberleitung gesondert.",
+    "norms": [
+      "PrALR Einleitung Paragrafen 74 und 75"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 07.09.2017, III ZR 71/17, amtlicher Leitsatz",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2017/III_ZR__71-17.pdf?__blob=publicationFile&v=1",
+        "application": "Rezeption des Aufopferungsanspruchs und Erweiterung auf immaterielle Nachteile.",
+        "limit": "Kein Nachweis desselben Ersatzumfangs im Jahr 1794 oder automatischer Fortgeltung des gesamten ALR."
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Leitsatz verifiziert; direkter PDF-Abruf technisch nicht auswertbar, keine Volltextprüfung behauptet.",
+      "2026-09-23: Der Quellenprüfstand vom 2026-09-22 bleibt unverändert dokumentiert. Erneuter BGH-PDF-Abruf zu III ZR 71/17 scheiterte mit HTTP 403; heute keine erneute Leitsatz- oder Volltextverifikation. Historische Webtranskriptionen sind als solche klassifiziert; keine Kollation, Ortsgeltungs- oder Praxisprüfung. Neue Mühlen- und Strafaktenzweige sind Bearbeitungsmethoden, keine neu verifizierten historischen Urteile."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leere Eingabe: Textstelle lesen und vergleichen, damaligen Fall begutachten oder heutige Altrechtswirkung prüfen.",
+      "Dateien ohne Aufgabe: Scans und Urkunden still lesen und ausschließlich das Erkenntnisziel klären.",
+      "Klarer Auftrag: direkt Quellenbefund, Synopse oder Gutachten bearbeiten; nur entscheidenden Ort, Stichtag oder fehlende Passage erfragen."
+    ],
+    "continuation": "Nachgereichte Ausnahme ändert Lesung und Übertragung in textzeugenvergleich.md sowie Subsumtion und Schlussfolgerung in historisches-gutachten.md beziehungsweise dem Nutzerpfad; bereits geklärte Ausgabe und Datierung bleiben Grundlage.",
+    "enrichment": "Mühlenstreit nach privater Befugnis, hoheitlicher Anordnung und Schadensbeleg verzweigt; Strafvorwurf, Urteil und Vollzug getrennt; Quellenfunktion von Parteieingabe und Verwaltungsanweisung bestimmt; historische Antwort ohne ungefragte Gegenwartsprüfung abgeschlossen.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=pm&Datum=2017-9&nr=79600&linked=urt&Blank=1&file=dokument.pdf",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2017/III_ZR__71-17.pdf?__blob=publicationFile&v=1",
+        "sha256": "59d91b4d5c3b80e222edfb38c0ac9b2074cd279b4b6102efea4cf0bbd482a761"
+      }
+    ]
+  }
+}

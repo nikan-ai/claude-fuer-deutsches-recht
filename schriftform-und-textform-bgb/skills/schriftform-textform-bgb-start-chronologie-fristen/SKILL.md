@@ -1,6 +1,6 @@
 ---
 name: schriftform-textform-bgb-start-chronologie-fristen
-description: "Wenn es um Schriftform und Textform im BGB — Allgemein in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Schriftform und Textform im BGB — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix."
 ---
 
 # Schriftform und Textform im BGB — Allgemein
@@ -17,7 +17,6 @@ description: "Wenn es um Schriftform und Textform im BGB — Allgemein in Schrif
 
 Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Schriftform Und Textform Bgb**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### 0. Stummer Upload — Material ohne Begleittext
 
@@ -69,7 +68,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -105,44 +104,24 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `anspruchsformulierungen-bei-formverstoss` | Vertragspartner hat wegen Formmangels (fehlende Schriftform Textform Beurkundung) einen Vertrag angefochten oder Ansprüche verweigert und Mandant fragt nach Gegenansprüchen. Paragrafen 125 812 BGB. Prüfraster: Paragraf 812 BGB… |
-| `arbeitsrecht-befristung-und-aufhebung-paragraph-14-tzbfg-623-bgb` | Arbeitgeber oder Arbeitnehmer fragt: Ist die Befristungsabrede oder Kündigung wegen Formverstoß unwirksam? Paragrafen 14 Abs. 4 TzBfG 623 BGB Schriftformzwang. Prüfraster: Befristung zwingend eigenhaendige Unterschrift auf… |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| `buergschaft-verbraucherdarlehen-und-andere-strenge-formen` | Mandant hat Buergschaft oder Darlehensvertrag unterschrieben und fragt ob er noch gebunden ist wenn die Form nicht korrekt eingehalten wurde. Paragrafen 766 492 484 311b BGB strenge Formerfordernisse. Prüfraster: Buergschaft Paragraf… |
-| `dokumentations-und-beweisarchitektur` | Anwalt oder Kanzlei muss sicherstellen dass Formerklärungen beweissicher dokumentiert und archiviert werden. Beweissicherung Willenserklärungen Formrecht. Prüfraster: Zugang Paragraf 130 BGB nachweisen Originalurkunden… |
-| `elektronische-form-paragraph-126a-bgb-qes` | Mandant möchte einen Vertrag oder eine Willenserklärung elektronisch unterzeichnen und fragt, ob qES, beA oder gerichtliche Zustellung die Schriftform ersetzen. Prüft Paragraf 126a BGB, eIDAS, Zugang, Paragraf 130e ZPO und Paragraf 46h ArbGG. |
-| `form-checker-für-vertrag-oder-willenserklaerung` | Mandant hat Vertrag oder Willenserklärung und fragt: Welche Form ist vorgeschrieben wurde sie eingehalten und was passiert wenn nicht? Form-Checker BGB. Prüfraster: gesetzliche vs. gewillkuerte Form Formhierarchie… |
-| `formerfordernisse-im-bgb-ueberblick` | Systematik der Formerfordernisse im BGB: gesetzliche vs. gewillkürte Form, Paragrafen 125-129 BGB, Nichtigkeitsfolge Paragraf 125 BGB, Heilungsmöglichkeiten, Formhierarchie von Textform bis notarielle Beurkundung — Einstieg und… |
-| `gewerberaummiete-paragraph-550-bgb-langzeitform` | Gewerbemieter oder Vermieter fragt: Ist ein laenger als 1 Jahr laufender Gewerberaummietvertrag wegen Schriftform-Verstoß vorzeitig kündbar? Paragraf 550 BGB Langzeitform Gewerberaummietvertrag. Prüfraster:… |
-| `klauselgenerator-formvorbehalt-und-aenderungsvorbehalt` | Anwalt entwirft Vertrag und benoetigt Formvorbehalt- oder Änderungsklauseln die AGB-rechtlich und BGH-konform sind. Klauselgenerator Paragrafen 305b 305c BGB. Prüfraster: einfache Schriftformklausel doppelte… |
-| `kuendigung-per-schriftsatz-zustellung-formfragen` | Anwalt versendet oder empfängt eine Kündigung per Schriftsatz und fragt nach Formwirksamkeit. Prüft Schriftform, beA, qES, Paragraf 130a ZPO, Paragraf 130e ZPO, Paragraf 46h ArbGG, Paragraf 173 ZPO, Paragraf 186 ZPO, Paragraf 298 Abs. 3 ZPO und Paragraf 174 BGB. |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| `mandantenkorrespondenz-form-und-zugang-templates` | Kanzlei benoetigt fertige Muster-Mandantenbriefe zu typischen Form- und Zugangsfragen. Mandantenbrief-Bibliothek Formrecht. Inhalt: Warnung qES-Mail nicht löschen Mieter-Hinweis auf E-Mail/WhatsApp-Kündigung prüfen… |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| `notarielle-beurkundung-und-öffentliche-beglaubigung` | Mandant muss einen Vertrag notar-beurkunden lassen (GmbH-Kauf Grundstueckskauf Ehevertrag) und fragt nach Ablauf und Kosten. Paragrafen 128 129 BGB Beurkundungsgesetz. Prüfraster: Beurkundungspflicht Paragraf 311b BGB Grundstueck Paragraf… |
-| `prozessablauf-papier-vs-elektronisch` | Kanzlei oder Mandant muss zwischen Papier, qES, Textform, beA-Schriftsatz oder Formfiktion wählen. Prüft Originalunterschrift, qES-Direktversand, Paragraf 130e ZPO, Paragraf 46h ArbGG und Beweisarchitektur. |
-| `schriftform-paragraph-126-bgb-eigenhaendige-unterschrift` | Vertragspartner bestreitet Schriftform wegen fehlender oder unzureichender Unterschrift. Paragraf 126 BGB Schriftform eigenhaendige Namenszeichnung. Prüfraster: Namenszeichnung vs. Paraphe Urkundeneinheit bei mehrseitigen… |
-| `textform-paragraph-126b-bgb-dauerhafter-datentraeger` | Mandant schickte Erklärung per E-Mail WhatsApp oder SMS und fragt ob Textform eingehalten wurde. Paragraf 126b BGB Textform dauerhafter Datentraeger. Prüfraster: lesbare Erklärung Person des Erklärenden erkennbar Abschluss… |
-| `verteidigungsstrategie-bei-formangriff` | Mandant wird von Vertragspartner mit Formmangel-Einwand konfrontiert und Anwalt muss Verteidigung aufbauen. Verteidigung Formverstoß Paragrafen 125 242 BGB. Prüfraster: Heilungsmöglichkeiten nach Vollzug (Paragraf 311b BGB)… |
-| `wohnraummiete-kuendigung-paragraph-568-bgb` | Vermieter oder Mieter hat Kündigung des Wohnraummietvertragsempfangen oder versendet und Anwalt prüft Schriftform. Paragraf 568 Abs. 1 BGB Schriftformerfordernis Kündigung Wohnraummietvertrag. Prüfraster: qES grundsätzlich… |
-| `zugang-empfangsbeduerftiger-willenserklaerung-paragraph-130-bgb` | Mandant fragt: Wann gilt Kündigung Mahnung oder sonstige Erklärung als zugegangen und ab wann laeuft die Frist? Paragraf 130 BGB Zugang. Prüfraster: Machtbereichslehre Möglichkeit der Kenntnisnahme Zugangsvereitelung… |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
 Das deutsche Zivilrecht kennt eine Hierarchie von Formerfordernissen: von der Textform (Paragraf 126b BGB) über die Schriftform mit eigenhaendiger Unterschrift (Paragraf 126 BGB) und die elektronische Form mit qualifizierter elektronischer Signatur (Paragraf 126a BGB) bis zur notariellen Beurkundung (Paragrafen 128, 129 BGB). Bei Verstoss gegen ein gesetzliches Formerfordernis ist die Erklaerung nach Paragraf 125 BGB nichtig; bei gewillkuerter Form können die Parteien Abweichendes vereinbaren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Wann brauchen Sie diese Skill?
 
 - Ein Mandant fragt, ob ein Vertrag oder eine Willenserklarung formgueltig ist oder ob ein Formmangel zur Nichtigkeit fuehrt.
 - Eine Kuendigung (Miet-, Arbeits- oder Dauerschuldverhaltnis) soll per E-Mail, WhatsApp oder qES-Dokument versandt werden und Sie wollen sicher sein, dass Form und Zugang wirksam sind.
-- Ein Gewerberaummietvertrag laeuft laenger als ein Jahr und die Schriftform-Konformitaet soll geprueft werden (Paragraf 550 BGB).
+- Ein Gewerberaummietvertrag läuft länger als ein Jahr und die Textform der vollständigen Vertragskette soll nach Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB geprüft werden.
 - Eine Befristungsabrede im Arbeitsvertrag soll elektronisch unterzeichnet werden und Sie wollen das Schriftformrisiko einschaetzen (Paragraf 14 Abs. 4 TzBfG).
 - Vertragsklauseln zu Form- und Änderungsvorbehalten sollen AGB-rechtlich sicher formuliert werden.
 
@@ -165,7 +144,8 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - Paragrafen 130a, 130e ZPO — elektronischer Schriftsatz und Formfiktion
 - Paragraf 46h ArbGG — arbeitsgerichtliche Formfiktion
 - Paragraf 311b BGB — notarielle Beurkundung bei Grundstuecksgeschaeften
-- Paragraf 550 BGB — Schriftform bei Mietvertraegen über mehr als ein Jahr
+- Paragraf 550 BGB — Formfolge bei einer Mietdauer über ein Jahr; bei Grundstücks- und Gewerberaummiete gilt über Paragraf 578 Absatz 1 BGB Textform
+- Artikel 229 Paragraf 70 EGBGB — Übergangsrecht für vor dem 1. Januar 2025 entstandene Vertragsverhältnisse
 - Paragraf 568 BGB — Schriftform bei Kuendigung von Wohnraummietvertraegen
 - Paragraf 14 Abs. 4 TzBfG i.V.m. Paragraf 623 BGB — Schriftformzwang bei Befristungsabreden und Kuendigungen
 - Paragraf 656a BGB — Textform beim Maklervertrag
@@ -187,9 +167,8 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - `elektronische-form-paragraph-126a-bgb-qes` — qES als Schriftformersatz: eIDAS-Anforderungen, qES-Zugang, beA-Abgrenzung, Paragraf 130e ZPO und Paragraf 46h ArbGG.
 - `textform-paragraph-126b-bgb-dauerhafter-datentraeger` — Textform: E-Mail, WhatsApp, SMS, PDF — Prüfung und Empfehlung.
 - `zugang-empfangsbeduerftiger-willenserklaerung-paragraph-130-bgb` — Zugang nach Paragraf 130 BGB: Machtbereichslehre, Briefkasten, Abrufbarkeit, Beweis.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - `wohnraummiete-kuendigung-paragraph-568-bgb` — Schriftform bei Wohnraum-Kuendigung: qES-Zugang, Empfehlung Papier per Boten.
-- `gewerberaummiete-paragraph-550-bgb-langzeitform` — Paragraf 550 BGB: Schriftformklausel bei Gewerberaummietvertrag laenger als ein Jahr, Kuendigungsrisiko.
+- `gewerberaummiete-paragraph-550-bgb-langzeitform` — Textform langfristiger Gewerberaummiete, Vertragskettenaudit, Übergangsrecht und Kündigungsrisiko.
 - `arbeitsrecht-befristung-und-aufhebung-paragraph-14-tzbfg-623-bgb` — Befristungsabrede und Aufhebungsvertrag: Schriftformzwang, Heilung ausgeschlossen.
 - `befristungsabrede-qes-rechtsprechung-stand-2026` — Aktuelle Rechtsprechung zur qES bei Befristungsabreden nach Paragraf 14 Abs. 4 TzBfG.
 - `buergschaft-verbraucherdarlehen-und-andere-strenge-formen` — Buergschaft, Verbraucherdarlehen, Grundstueck: strenge Formerfordernisse und Heilung.
@@ -197,7 +176,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - `klauselgenerator-formvorbehalt-und-aenderungsvorbehalt` — Einfache und doppelte Schriftformklausel, Textformklausel — BGH-konforme Formulierungen.
 - `verteidigungsstrategie-bei-formangriff` — Treuwidrigkeitseinwand, Heilung nach Vollzug, Beweislast — wenn die Gegenseite Formmangel einwendet.
 - `anspruchsformulierungen-bei-formverstoss` — Bereicherungsanspruch (Paragraf 812 BGB), Feststellungsklage, c.i.c. nach Formmangel.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - `mandantenkorrespondenz-form-und-zugang-templates` — Muster-Mandantenbriefe zu typischen Form- und Zugangsfragen.
 - `prozessablauf-papier-vs-elektronisch` — Prozessablaeufe für Kuendigung, Makler und Buergschaft: Papier, qES, E-Mail, beA-Schriftsatz und Formfiktion.
 - `dokumentations-und-beweisarchitektur` — Kanzlei-Dokumentationsstandard für formrelevante Vorgaenge, ersetzendes Scannen.
@@ -206,11 +184,9 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Worauf besonders achten
 
 - **Befristungsabrede nicht mit einfacher E-Signatur**: Paragraf 14 Abs. 4 TzBfG verlangt Schriftform; eine echte qES kann tragen, einfache Signatur, Scan und E-Mail nicht.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **beA ist nicht automatisch materielle Form**: beA kann Paragraf 130a ZPO erfuellen. Die materielle Form folgt nur aus qES-Zugang oder aus einer Formfiktion wie Paragraf 130e ZPO bzw. Paragraf 46h ArbGG.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Doppelte Schriftformklausel kann treuwidrig sein**: BGH hat zahlreiche doppelte Schriftformklauseln für unwirksam erklaert (Paragraf 305b BGB); sorgfaeltige Formulierung ist unverzichtbar.
-- **Gewerbemiete Paragraf 550 BGB**: Jede Nachtragsvereinbarung ohne Schriftform oeffnet ein Kuendigungsrecht zum naechsten zulaessigen Termin.
+- Gewerbemiete: Nicht jede informelle Kommunikation eröffnet ein Kündigungsrecht. Maßgeblich sind Textform, Wesentlichkeit und vollständige Vertragskette nach Paragraf 578 Absatz 1 und 550 BGB; Rechtsfolge, Termin und Treuwidrigkeit werden getrennt geprüft.
 
 ## Typische Fehler
 
@@ -232,3 +208,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
  - BGH, Urt. v. 06.03.2025 – Az. I ZR 32/24 und Az. I ZR 138/24 — Halbteilungsgrundsatz Paragraf 656c und Paragraf 656d BGB beim Maklervertrag.
  - LAG Berlin-Brandenburg, Urt. v. 16.03.2022 – Az. 23 Sa 1133/21 — eingescannte Unterschrift wahrt Paragraf 14 Abs. 4 TzBfG nicht.
  - ArbG Gera, Urt. v. 07.03.2024 – Az. 2 Ca 936/23 — echte DocuSign-qES wahrt Paragraf 14 Abs. 4 TzBfG, wenn die Voraussetzungen des Paragraf 126a BGB belegt sind.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

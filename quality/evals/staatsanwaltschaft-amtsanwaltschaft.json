@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "plugin": "staatsanwaltschaft-amtsanwaltschaft",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__160.html",
+      "checked_on": "2026-09-14",
+      "supports": "Ermittlung belastender und entlastender Umstände sowie Sicherung gefährdeter Beweise."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__170.html",
+      "checked_on": "2026-09-14",
+      "supports": "Abschlussentscheidung zwischen öffentlicher Klage bei genügendem Anlass und Einstellung bei dessen Fehlen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/04/rk20230419_2bvr218020.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Beschluss vom 19.04.2023, 2 BvR 2180/20, Randnummern 25 bis 29 und 31 bis 37. Amtliche tragende Entscheidungsgründe gelesen. Anwendung: Durchsuchungsantrag auf konkrete vorherige Verdachtstatsachen stützen und Tat, Zeitraum und gesuchte Beweise begrenzen; keine Durchsuchung erst zur Gewinnung eines Anfangsverdachts. Grenze: Historische Geldwäsche-Vortatenlage nicht in heutiges materielles Recht übertragen; kein automatisches Verwertungsverbot. Fehlende Begrenzung von Tat und Suchgegenstand von bloß ergänzbarer Begründung unterscheiden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__152.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Zureichende tatsächliche Anhaltspunkte."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__160.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Objektive Ermittlungsaufgabe."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__170.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Abschluss nach Ermittlungsergebnis."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__102.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Durchsuchung beim Verdächtigen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__105.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext gelesen: Richterliche Anordnung und gesetzliche Zuständigkeit."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__160.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlich indexierten Absatz 2 zur Erforschung belastender und entlastender Umstände geprüft; direkter Abruf zeitweise nicht erreichbar."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__170.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlich indexierte Abschlussvoraussetzung geprüft; kein aktuell vollständig gelesener Einzelvolltext behauptet."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tenor, Sachverhalt und Rn. 1–27 vollständig. Tatsächliche Mitnutzung nach §102 StPO von allein genutzten Räumen Nichtverdächtiger nach §103 StPO abgrenzen; dort konkrete Auffindeindizien verlangen. Grenze: Gemeinsame Anschrift, Briefkasten, Wohnprojektetikett und bloß möglicher Zutritt reichen nicht. Keine generelle Unzulässigkeit von WG-Durchsuchungen, kein automatisches Verwertungsverbot."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. 2026-10-16, redaktioneller Einstiegsreview: Objektiven Ermittlungs-/Abschlussauftrag mit vorheriger Verdachtsgrundlage für Durchsuchung verbunden. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Durchsuchung nicht zur Erzeugung eines erst vermuteten Anfangsverdachts einsetzen.",
+      "Tat, Zeitraum und Suchgegenstand schon in der Anordnung begrenzen; historische Geldwäschelage nicht übertragen.",
+      "Maßnahmerechtmäßigkeit nicht automatisch mit Beweisunverwertbarkeit gleichsetzen.",
+      "Leerstart: Verdachtsprüfung, Ermittlungsauftrag oder Abschlussentwurf wählen.",
+      "Bestätigte auftragsbezogene Materialbeschaffung verändert das Entlastungsgewicht und den nächsten Ermittlungsauftrag; widersprechende Lieferantenauskunft verändert die Abschlusswürdigung.",
+      "Anfängliche Täuschung von späterer Leistungsstörung trennen; Bestellung, Zahlung und Lieferung gesondert belegen; digitale Personenzuordnung begrenzen; personen- und tatbezogenen Teilabschluss samt Nebenentscheidungen vorbereiten.",
+      "Fachspezifische 2026-Anker ergänzt: BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Objektiven Ermittlungs-/Abschlussauftrag mit vorheriger Verdachtsgrundlage für Durchsuchung verbunden. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "09e34438d521a9ba0ed9cbaa6851821d7e9e8f81f64182e913ad52a1d6434a23",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie aus einer Betrugsanzeige eine objektive staatsanwaltschaftliche Erstverfügung.",
+      "Prüfen Sie anhand der Ermittlungsakte, welche entlastenden Beweise vor einer Abschlussentscheidung noch fehlen."
+    ],
+    "negative": [
+      "Verfassen Sie als Geschädigter eine reine zivilrechtliche Zahlungsklage.",
+      "Erstellen Sie ein richterliches Strafurteil nach abgeschlossener Hauptverhandlung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "vorkasse-nichterfuellung-krankenhaus",
+      "request": "Bearbeiten Sie die staatsanwaltschaftliche Erstdurchsicht in ergebnis.md. Ein Kunde zahlte einem Einzelunternehmer am 1. August 2026 2.400 Euro für eine Sonderanfertigung bis 20. August. Geliefert wurde nicht. Die Anzeige behauptet, der Unternehmer habe schon bei Bestellung nie liefern wollen. Beigefügt sind eine Materialbestellung vom 2. August und ein ärztlich bestätigter stationärer Aufenthalt vom 5. bis 28. August. Über den Materialeingang, die damalige Liquidität, Vertretungsmöglichkeiten und den Verbleib des Geldes ist nichts bekannt. Der Unternehmer hat noch keine Gelegenheit zur Einlassung erhalten. Formulieren Sie eine vorläufige Bewertung und gezielte nächste Ermittlungen, keine Anklage.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Nichtlieferung und ausgebliebene Rückzahlung werden nicht ohne weitere Tatsachen als Beweis eines Täuschungsvorsatzes bei Vertragsschluss behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Materialbestellung und Krankenhausaufenthalt werden als konkrete mögliche Entlastung gewürdigt, ohne daraus bereits sicher fehlenden Vorsatz oder automatische Einstellung abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Ermittlungsplan benennt Beweisziele zu Leistungswillen und Leistungsfähigkeit bei Bestellung sowie Material- und Geldfluss und sieht rechtliches Gehör vor; er erlässt keine gerichtlichen Maßnahmen selbst.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "01-akte-erstdurchsicht-und-anfangsverdacht"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. 2026-10-16, redaktioneller Einstiegsreview: Objektiven Ermittlungs-/Abschlussauftrag mit vorheriger Verdachtsgrundlage für Durchsuchung verbunden. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Durchsuchung nicht zur Erzeugung eines erst vermuteten Anfangsverdachts einsetzen.",
+      "Tat, Zeitraum und Suchgegenstand schon in der Anordnung begrenzen; historische Geldwäschelage nicht übertragen.",
+      "Maßnahmerechtmäßigkeit nicht automatisch mit Beweisunverwertbarkeit gleichsetzen.",
+      "Leerstart: Verdachtsprüfung, Ermittlungsauftrag oder Abschlussentwurf wählen.",
+      "Bestätigte auftragsbezogene Materialbeschaffung verändert das Entlastungsgewicht und den nächsten Ermittlungsauftrag; widersprechende Lieferantenauskunft verändert die Abschlusswürdigung.",
+      "Anfängliche Täuschung von späterer Leistungsstörung trennen; Bestellung, Zahlung und Lieferung gesondert belegen; digitale Personenzuordnung begrenzen; personen- und tatbezogenen Teilabschluss samt Nebenentscheidungen vorbereiten.",
+      "Fachspezifische 2026-Anker ergänzt: BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Objektiven Ermittlungs-/Abschlussauftrag mit vorheriger Verdachtsgrundlage für Durchsuchung verbunden. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "57d537614d7f2048aa8ee8bc6cbd72f7797cd6ae52c54c7c6e2b6889a5cd734d",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "gerichtsplugins/staatsanwaltschaft-amtsanwaltschaft/staatsanwaltschaft-amtsanwaltschaft-schnellstart.md",
+      "gerichtsplugins/staatsanwaltschaft-amtsanwaltschaft/staatsanwaltschaft-amtsanwaltschaft-werkstatt.md"
+    ],
+    "opening_change": "Konkrete Verdachtstatsachen, entlastende Ansätze und Abschlussreife vor Auswahl von Ermittlungsverfügung, Einstellung, Antrag oder Anklage prüfen.",
+    "norms": [
+      "Paragrafen 152 Absatz 2, 160, 170, 102 und 105 StPO",
+      "Artikel 13 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 19.04.2023, 2 BvR 2180/20, Randnummern 25 bis 29 und 31 bis 37",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/04/rk20230419_2bvr218020.html",
+        "application": "Durchsuchungsantrag auf konkrete vorherige Verdachtstatsachen stützen und Tat, Zeitraum und gesuchte Beweise begrenzen; keine Durchsuchung erst zur Gewinnung eines Anfangsverdachts.",
+        "limit": "Historische Geldwäsche-Vortatenlage nicht in heutiges materielles Recht übertragen; kein automatisches Verwertungsverbot. Fehlende Begrenzung von Tat und Suchgegenstand von bloß ergänzbarer Begründung unterscheiden."
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html",
+        "application": "Tatsächliche Mitnutzung nach §102 StPO von allein genutzten Räumen Nichtverdächtiger nach §103 StPO abgrenzen; dort konkrete Auffindeindizien verlangen.",
+        "limit": "Gemeinsame Anschrift, Briefkasten, Wohnprojektetikett und bloß möglicher Zutritt reichen nicht. Keine generelle Unzulässigkeit von WG-Durchsuchungen, kein automatisches Verwertungsverbot."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Primärquellenreview, kein Live-Client- oder Modelltest.",
+      "Kein Audit landesrechtlicher Geschäftsverteilung oder sämtlicher verdeckter Maßnahmen.",
+      "Entscheidung betrifft Durchsuchung und damaligen Geldwäschevorwurf, nicht jede moderne Geldwäschekonstellation.",
+      "Workflow-Vertiefung 2026-09-23: Vorhandener BVerfG-Durchsuchungsanker bleibt auf Verdacht vor Eingriff und seinen historischen Deliktskontext begrenzt. Keine neue Landesgeschäftsverteilung oder umfassende Eingriffsbefugnisprüfung. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Verdachtsprüfung, Ermittlungsauftrag oder Abschlussentwurf wählen.",
+      "Dateien: Ermittlungsakte still lesen und Arbeitsziel klären, kein ungefragter Erstdurchsichtsvermerk.",
+      "Klarer Auftrag: objektive Verfügung oder Antragsschrift unmittelbar ausarbeiten und nur entscheidende Tatsachenlücken erfragen."
+    ],
+    "continuation": "Bestätigte auftragsbezogene Materialbeschaffung verändert das Entlastungsgewicht und den nächsten Ermittlungsauftrag; widersprechende Lieferantenauskunft verändert die Abschlusswürdigung.",
+    "enrichment": "Anfängliche Täuschung von späterer Leistungsstörung trennen; Bestellung, Zahlung und Lieferung gesondert belegen; digitale Personenzuordnung begrenzen; personen- und tatbezogenen Teilabschluss samt Nebenentscheidungen vorbereiten.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/staatsanwaltschaft-amtsanwaltschaft/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für staatsanwaltschaftliche Sachbearbeitung technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

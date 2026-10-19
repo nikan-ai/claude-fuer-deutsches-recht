@@ -1,6 +1,6 @@
 ---
 name: begruendung-redaktion-ohne-schablone
-description: "Wenn es um Redaktion ohne Schablone in Kriegsdienstverweigerung und Wehrdienst geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Redaktion ohne Schablone: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Redaktion ohne Schablone
@@ -9,7 +9,7 @@ description: "Wenn es um Redaktion ohne Schablone in Kriegsdienstverweigerung un
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: GG Art. 4 Abs. 3, KDVG, ZDG, Wehrpflichtgesetz (ausgesetzt), § 12 KDVG, SG §§ 30, 31; Art. 4 Abs; KDVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen amtlich verifizieren: Artikel 4 Absatz 3 GG, Paragrafen 2 und 5 KDVG sowie das konkrete Statusrecht. Das Wehrpflichtgesetz ist nicht insgesamt ausgesetzt: Paragraf 2 WPflG unterscheidet die anwendbaren Vorschriften nach Lage und teilweise Geburtsjahrgang. Aus dieser Unterscheidung weder pauschale Pflichtfreiheit noch eine individuelle Einberufung ableiten.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -31,11 +31,11 @@ description: "Wenn es um Redaktion ohne Schablone in Kriegsdienstverweigerung un
 1. Status und anwendbare Normen festlegen.
 2. Pflichtunterlagen und fehlende Dokumente markieren.
 3. Gewissenskern von bloßen Randmotiven trennen.
-4. Behördenweg BAPersBw -> BAFzA oder Soldaten-/Reservistenpfad bestimmen.
+4. Antrag beim Bundesamt für das Personalmanagement der Bundeswehr und Entscheidung durch das Bundesamt für Familie und zivilgesellschaftliche Aufgaben trennen. Auch bei aktiven Soldaten keinen direkten alternativen Antragsweg zum entscheidenden Bundesamt unterstellen; statusbezogene Zusatzunterlagen und Weiterleitungsregeln nach Paragraf 2 Absatz 6 KDVG gesondert prüfen. Keine eigenmächtige Antragstellung.
 5. Output knapp, würdig und nachweisbar formulieren.
 
 ## Norm- und Quellenanker
-KDVG § 2; BAFzA-Hinweise
+[Paragraf 2 KDVG](https://www.gesetze-im-internet.de/kdvg_2003/__2.html), [Paragraf 2 WPflG](https://www.gesetze-im-internet.de/wehrpflg/__2.html) und die amtlichen Verfahrenshinweise.
 
 ## Rote Linien
 Keine fremde Mustervorlage produzieren; die Darstellung muss persönlich, wahrhaftig und aus der eigenen Sprache der Person entwickelt sein.

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "plugin": "solo-selbststaendige-praxis",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__641.html",
+      "checked_on": "2026-09-14",
+      "supports": "Vergütungsfälligkeit bei Abnahme und angemessener Mängeleinbehalt, in der Regel das Doppelte der erforderlichen Beseitigungskosten."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2015/VII_ZR_193-15.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 19.01.2017, VII ZR 193/15, Randnummern 25 bis 45: Volltext gelesen: Mängelrechte grundsätzlich ab Abnahme, davor Erfüllungsrecht; Ausnahme beim endgültigen Abrechnungsverhältnis, nicht allein durch Vorschussverlangen. Grenze: Keine Übertragung auf Dienstverträge; die Entscheidung erlaubt keine pauschale Abnahmeverweigerung bei unwesentlichen Mängeln und keine automatische Freigabe des gesamten Werklohns."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__640.html",
+      "supports": "Abnahmepflicht, unwesentliche Mängel und Vorbehalt bei bekanntem Mangel nach Absatz 3; nicht jeder Mangel erlaubt Abnahmeverweigerung.",
+      "checked_on": "2026-09-22"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__641.html",
+      "supports": "Fälligkeit bei Abnahme und regelmäßig doppelter Beseitigungsaufwand als Mängeleinbehalt, nicht automatisch die gesamte Rechnung.",
+      "checked_on": "2026-09-22"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__637.html",
+      "supports": "Selbstvornahme und Vorschuss: Fristsetzung beziehungsweise Entbehrlichkeit und erforderliche Aufwendungen.",
+      "checked_on": "2026-09-22"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__641.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlich indexierten Absatz 3 zum angemessenen Einbehalt und regelmäßig doppelten Beseitigungsaufwand geprüft; direkter Abruf nicht erreichbar."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Vertragstyp und Abnahmestand vor Zahlungsargumentation bestimmen; Zusatzfunktion durch vollständiges Nachtragsangebot mit Terminfolgen regeln; bezahlte, zugesagte und streitige Mittel trennen; Beendigung und Daten-/Rechteübergabe getrennt abschließen. 2026-10-16, redaktioneller Einstiegsreview: Konkrete Rechnung und Antwort vor Gründungsaufnahme; Abnahme und Mängelrechte samt Abrechnungsverhältnis getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Auftrag, Abnahme und tatsächliche Zahlungsposition eröffnen beide Prompts.",
+      "VII ZR 193/15 steuert die gezielte Nachfrage nach Abnahme und endgültiger Erfüllungsablehnung.",
+      "Paragrafen 640 Absatz 3 und 641 Absatz 3 BGB sowie Vorschussvoraussetzungen getrennt; kein automatischer Mahn- oder Klageauftrag.",
+      "Leerstart: Reklamation beantworten, Angebot/Nachtrag oder Liquidität planen wählen.",
+      "Ein belegter Mängelbeseitigungsaufwand von 350 statt 200 Euro verändert Einbehalt und Zahlungsantwort; ein ausgefallener Zufluss verändert den Liquiditätsplan.",
+      "Vertragstyp und Abnahmestand vor Zahlungsargumentation bestimmen; Zusatzfunktion durch vollständiges Nachtragsangebot mit Terminfolgen regeln; bezahlte, zugesagte und streitige Mittel trennen; Beendigung und Daten-/Rechteübergabe getrennt abschließen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Konkrete Rechnung und Antwort vor Gründungsaufnahme; Abnahme und Mängelrechte samt Abrechnungsverhältnis getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "44428bf5152eb4f3ebc5df2aebf2ab0252dd563ef6b885c8d5ddda7ceb716c79",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Vertragstyp und Abnahmestand vor Zahlungsargumentation bestimmen; Zusatzfunktion durch vollständiges Nachtragsangebot mit Terminfolgen regeln; bezahlte, zugesagte und streitige Mittel trennen; Beendigung und Daten-/Rechteübergabe getrennt abschließen. 2026-10-16, redaktioneller Einstiegsreview: Konkrete Rechnung und Antwort vor Gründungsaufnahme; Abnahme und Mängelrechte samt Abrechnungsverhältnis getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Auftrag, Abnahme und tatsächliche Zahlungsposition eröffnen beide Prompts.",
+      "VII ZR 193/15 steuert die gezielte Nachfrage nach Abnahme und endgültiger Erfüllungsablehnung.",
+      "Paragrafen 640 Absatz 3 und 641 Absatz 3 BGB sowie Vorschussvoraussetzungen getrennt; kein automatischer Mahn- oder Klageauftrag.",
+      "Leerstart: Reklamation beantworten, Angebot/Nachtrag oder Liquidität planen wählen.",
+      "Ein belegter Mängelbeseitigungsaufwand von 350 statt 200 Euro verändert Einbehalt und Zahlungsantwort; ein ausgefallener Zufluss verändert den Liquiditätsplan.",
+      "Vertragstyp und Abnahmestand vor Zahlungsargumentation bestimmen; Zusatzfunktion durch vollständiges Nachtragsangebot mit Terminfolgen regeln; bezahlte, zugesagte und streitige Mittel trennen; Beendigung und Daten-/Rechteübergabe getrennt abschließen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Konkrete Rechnung und Antwort vor Gründungsaufnahme; Abnahme und Mängelrechte samt Abrechnungsverhältnis getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "17deafd487b49ac99f88eda7256f3872418c77da70cc171b7b123cdaae02daa1",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Mein Kunde hält wegen eines kleinen Mangels die gesamte Werklohnrechnung zurück; bereiten Sie eine Antwort vor.",
+      "Gleichen Sie Auftrag, Abnahme und Teilzahlungen für meine offene Kundenrechnung ab."
+    ],
+    "negative": [
+      "Erstellen Sie einen Businessplan für eine noch nicht gegründete Gesellschaft.",
+      "Entscheiden Sie verbindlich über meinen sozialversicherungsrechtlichen Erwerbsstatus."
+    ]
+  },
+  "cases": [
+    {
+      "id": "abgenommenes-werk-begrenzter-einbehalt",
+      "request": "Ich habe als selbstständiger Handwerker ein Werk für vereinbarte 3.000 Euro hergestellt. Es wurde am 1. September 2026 ausdrücklich abgenommen. 1.000 Euro sind bezahlt. Ein kleiner Mangel ist unstreitig, seine fachgerechte Beseitigung kostet nach übereinstimmender Einschätzung 200 Euro. Ich biete die Beseitigung für kommende Woche an. Der Kunde lehnt jede weitere Zahlung der offenen 2.000 Euro bis dahin ab. Andere Einwendungen oder Sondervereinbarungen bestehen nicht. Erstellen Sie ergebnis.md mit nachvollziehbarer vorläufiger Rechnung und einem sachlichen Antwortentwurf, der die Mängelbeseitigung nicht verweigert.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Rechnung unterscheidet 3.000 Euro Gesamtpreis, 1.000 Euro Zahlung und 2.000 Euro offenen Werklohn und knüpft dessen Fälligkeit an die mitgeteilte Abnahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Für den Regelfall des Paragrafen 641 Absatz 3 BGB werden 400 Euro Einbehalt und damit 1.600 Euro derzeit verlangbare Restzahlung nachvollziehbar dargestellt, nicht pauschal 2.000 Euro Einbehalt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Antwortentwurf erkennt den konkreten Mangel und das Beseitigungsangebot an, vermeidet die Behauptung einer mangelfreien Leistung und erklärt den Zahlungsansatz ohne erfundene Mahnkosten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "kunde-reklamiert"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "solo-selbststaendige-praxis/solo-selbststaendige-praxis-werkstatt.md",
+      "solo-selbststaendige-praxis/solo-selbststaendige-praxis-schnellstart.md",
+      "solo-selbststaendige-praxis/README.md",
+      "quality/evals/solo-selbststaendige-praxis.json"
+    ],
+    "opening_change": "Der Auftakt verlangt den Abgleich von Auftrag, Abnahme und Teilzahlungen und bestimmt die aktuell verlangbare Restvergütung statt einer allgemeinen Betriebsaufnahme.",
+    "norms": [
+      "Paragrafen 631, 634, 635, 637, 640 Absatz 3 und 641 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 19.01.2017, VII ZR 193/15, Randnummern 25 bis 45",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2015/VII_ZR_193-15.pdf?__blob=publicationFile&v=1",
+        "application": "Volltext gelesen: Mängelrechte grundsätzlich ab Abnahme, davor Erfüllungsrecht; Ausnahme beim endgültigen Abrechnungsverhältnis, nicht allein durch Vorschussverlangen.",
+        "limit": "Keine Übertragung auf Dienstverträge; die Entscheidung erlaubt keine pauschale Abnahmeverweigerung bei unwesentlichen Mängeln und keine automatische Freigabe des gesamten Werklohns.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "Die gezielte Prüfung betrifft Werklohn und Abnahme, nicht sämtliche Steuer-, Status-, Datenschutz- und Auslandsfragen des Plugins.",
+      "Keine Prüfung eines konkreten Vertrags, Leistungsnachweises oder Kostenangebots.",
+      "Workflow-Vertiefung 2026-09-23: BGH VII ZR 193/15 mit bisheriger Reichweite erhalten; keine neue Vollprüfung von Steuer-, Versicherungsstatus- oder Insolvenzberatung. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Reklamation beantworten, Angebot/Nachtrag oder Liquidität planen wählen.",
+      "Dateien: Auftrag, Rechnung und Zahlungsbelege still lesen und das konkrete Arbeitsziel klären.",
+      "Klarer Auftrag: vollständigen Zahlungsbrief, Nachtrag oder Liquiditätsplan direkt erstellen."
+    ],
+    "continuation": "Ein belegter Mängelbeseitigungsaufwand von 350 statt 200 Euro verändert Einbehalt und Zahlungsantwort; ein ausgefallener Zufluss verändert den Liquiditätsplan.",
+    "enrichment": "Vertragstyp und Abnahmestand vor Zahlungsargumentation bestimmen; Zusatzfunktion durch vollständiges Nachtragsangebot mit Terminfolgen regeln; bezahlte, zugesagte und streitige Mittel trennen; Beendigung und Daten-/Rechteübergabe getrennt abschließen.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "solo-selbststaendige-praxis/references/ki-normen-und-fallpruefung.md",
+    "focus": "Trennen Sie private Nutzung, betriebliche Dokumentenhilfe und öffentlich erreichbaren Kundenbot. Prüfen Sie die tatsächlich angebotene Leistung; geringe Betriebsgröße ist keine allgemeine Ausnahme.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

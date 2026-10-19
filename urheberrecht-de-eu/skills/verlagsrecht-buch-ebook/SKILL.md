@@ -1,6 +1,6 @@
 ---
 name: verlagsrecht-buch-ebook
-description: "Wenn es um Verlagsrecht Buch und E-Book in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verlagsrecht Buch und E-Book: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verlagsrecht Buch und E-Book
@@ -20,7 +20,7 @@ description: "Wenn es um Verlagsrecht Buch und E-Book in Urheberrecht DE EU geht
 
 ## Wofür dieser Arbeitsgang da ist
 
-Verlagsrecht Buch und E-Book schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe den Verlagsvertrag und die Rechte an Buch- und E-Book-Nutzungen. Untersuche Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise und bereite die verlangte Vertragsprüfung, Nebenrechteübersicht oder Autorenantwort vor.
 
 ## Sofortstart
 

@@ -1,6 +1,6 @@
 ---
 name: sampling-pastiche-remix
-description: "Wenn es um Sampling, Pastiche, Remix und Parodie in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sampling, Pastiche, Remix und Parodie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sampling, Pastiche, Remix und Parodie
@@ -18,9 +18,11 @@ description: "Wenn es um Sampling, Pastiche, Remix und Parodie in Urheberrecht D
 - **Entscheidende Weiche:** Werk, Schutzfähigkeit, Rechtekette, Nutzungshandlung, Schranke, Vergütung, Auskunft/Unterlassung/Schadensersatz und Beweis sichern.
 - **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
 
+Für Sampling ab dem Anwendungsbeginn von Paragraf 51a UrhG beachte [EuGH, Urteil vom 14.04.2026 – C-590/23, Pelham](https://curia.europa.eu/site/upload/docs/application/pdf/2026-04/cp260050de.pdf), nach der gerichtlichen Pressemitteilung 50/26, S. 1–2: Prüfe wahrnehmbare Unterschiede und einen für Kenner des Ausgangswerks erkennbaren künstlerischen oder kreativen Dialog. Eine gesondert nachgewiesene subjektive Pasticheabsicht ist danach nicht erforderlich. Verlange die konkreten Audioausschnitte, Übernahmen und Bezugnahmen; „Remix“ oder die Kürze eines Samples genügt nicht. Pastiche ist kein Auffangtatbestand für jede kreative Nutzung und erfasst keine versteckten Imitationen oder Plagiate. Der Volltext war hier nicht zugänglich: Pressequelle offen nennen, keine Randnummer oder abschließende nationale Freigabe des konkreten Stücks behaupten.
+
 ## Wofür dieser Arbeitsgang da ist
 
-Dieser Arbeitsgang führt durch die Interessenabwägung zwischen Kunstfreiheit, Eigentum, Erkennbarkeit, Transformationsgrad und Lizenzpraxis. Er arbeitet nicht mit Bauchgefühl, sondern baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe Sampling, Pastiche und Remix unter Berücksichtigung von Kunstfreiheit, Eigentum, Erkennbarkeit, Transformationsgrad und Lizenzpraxis. Begründe die Abwägung und das verlangte Arbeitsergebnis anhand von Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweisen.
 
 ## Sofortstart
 

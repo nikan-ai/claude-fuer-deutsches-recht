@@ -1,6 +1,6 @@
 ---
 name: output-waehlen
-description: "Wenn es um Output wählen in Fachanwalt Arbeitsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Arbeitsrecht."
 ---
 
 # Output wählen
@@ -23,7 +23,7 @@ Diese Output-Weiche für **Fachanwalt Arbeitsrecht** entscheidet, ob Memo, Antra
 - `befristung-tzbfg` — Befristung Tzbfg BEM Verfahren Fazugang
 - `beteiligung-betriebsrat-102-betrvg` — Beteiligung Betriebsrat Erstgespraech
 - `betriebsrat-zahlen-schwellen-und-berechnung` — Betriebsrat BETRVG Datum
-- `betriebsratswahl-anfechtung-leiharbeit-bag-7-abr-4-21` — Betriebsratswahl Anfechtung Leiharbeit BAG 7 ABR 4 21
+- `betriebsratswahl-leiharbeit-wahlrecht-anfechtung` — Leiharbeitnehmer bei der Betriebsratswahl prüfen
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake
 

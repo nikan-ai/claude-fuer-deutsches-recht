@@ -1,6 +1,6 @@
 ---
 name: geldwaeschepruefung-immobilienkauf-organisationspflicht
-description: "Wenn es um Geldwaeschepruefung Immobilienkauf Organisationspflicht in Berufsrecht Notare geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Geldwäscheprüfung Immobilienkauf Organisationspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Notare: geldwaeschepruefung immobilienkauf - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -43,5 +43,5 @@ Konkret zu prüfen:
 - § 2 Abs. 1 Nr. 10 GwG
 - §§ 10-13 GwG (Sorgfaltspflichten)
 - § 43 GwG (Meldepflicht)
-- § 26 BNotO (Geschäftsstelle)
+- § 10 Abs. 2 bis 4 BNotO (Geschäftsstelle)
 - DONot

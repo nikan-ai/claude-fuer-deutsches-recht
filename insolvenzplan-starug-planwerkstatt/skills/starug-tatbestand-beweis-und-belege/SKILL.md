@@ -1,6 +1,6 @@
 ---
 name: starug-tatbestand-beweis-und-belege
-description: "Wenn es um StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage in Insolvenzplan- und StaRUG-Planwerkstatt geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage
@@ -15,8 +15,6 @@ description: "Wenn es um StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -42,31 +40,32 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## StaRUG-Voraussetzungen — Tatbestandsmerkmale
 
-- **Restrukturierungsfähigkeit § 30 StaRUG:**
- - Drohende Zahlungsunfähigkeit § 18 InsO **muss** vorliegen — 24-Monats-Prognose.
- - Eintritt Zahlungsunfähigkeit § 17 InsO oder Überschuldung § 19 InsO **schließt StaRUG aus** (§ 33 Abs. 2 Nr. 1 StaRUG, Aufhebungspflicht).
-- **StaRUG-Anzeige § 31 StaRUG:**
- - Adressat: Restrukturierungsgericht (LG am OLG-Sitz, § 34 StaRUG).
- - Form: schriftlich oder elektronisch; § 32 StaRUG verlangt Plan-Konzept, Krisenursachen, Sanierungsschritte, Liste der betroffenen Forderungen.
- - Wirkung: Aufnahme als Restrukturierungssache, Voraussetzung für Stabilisierungsanordnung § 49 StaRUG und Restrukturierungsbeauftragten § 73 StaRUG.
+- Restrukturierungsfähigkeit nach Paragraf 30 StaRUG: Insolvenzfähiger Schuldner; natürliche Personen nur bei unternehmerischer Tätigkeit, Unternehmen der Finanzbranche nach Maßgabe des Absatzes 2 ausgenommen.
+- Instrumentenzweck nach Paragraf 29 Absatz 1 StaRUG: nachhaltige Beseitigung drohender Zahlungsunfähigkeit nach Paragraf 18 Absatz 2 InsO.
+- Insolvenzreife während der Rechtshängigkeit: unverzügliche Anzeige nach Paragraf 32 Absatz 3 StaRUG und Aufhebungsprüfung nach Paragraf 33 StaRUG; die gesetzlichen Ausnahmen dürfen nicht als automatischer Fortsetzungsanspruch behandelt werden.
+- StaRUG-Anzeige nach Paragraf 31 StaRUG:
+  - Adressat: das nach Paragraf 34 StaRUG sachlich und nach Paragraf 35 StaRUG örtlich zuständige Restrukturierungsgericht; grundsätzlich Amtsgericht am Sitz eines Oberlandesgerichts, vorbehaltlich landesrechtlicher Konzentration.
+  - Inhalt: Planentwurf oder Restrukturierungskonzept, Verhandlungsstand, Vorkehrungen zur Pflichterfüllung und weitere Angaben nach Paragraf 31 Absatz 2 StaRUG.
+  - Wirkung: Rechtshängigkeit der Restrukturierungssache und Voraussetzung für die gerichtlichen Instrumente des Paragrafen 29 Absatz 2 StaRUG.
 
 ## Plansubstanz nach StaRUG
 
-- **Gestaltbare Forderungen § 4 StaRUG:**
- - Geldforderungen und sonstige Forderungen, soweit nicht ausdrücklich ausgeschlossen.
- - **Ausgeschlossen:** Arbeitnehmerforderungen aus Arbeitsverhältnis (§ 4 S. 2 Nr. 1 StaRUG), Versorgungsanwartschaften (Nr. 2), deliktsbezogene Forderungen (Nr. 3, vorsätzliche unerlaubte Handlung), Sozialversicherungs- und Steuerforderungen sind im Streit, aber praktisch ausgeschlossen.
-- **Klassenbildung § 9 StaRUG:** ähnlich Insolvenzplan §§ 222 ff. InsO — sachgerechte Differenzierung nach Rang, Sicherheiten, Forderungstyp.
-- **Mehrheiten § 25 StaRUG:** 75 Prozent **Summenmehrheit je Klasse** (anders als Insolvenzplan: 50/50).
-- **Cross-Class Cram-Down §§ 26–28 StaRUG:**
- - § 27 StaRUG **absolute Vorrangregel** (priority rule) — keine Bevorzugung nachrangiger Klassen ohne Vollbedienung höherrangiger.
- - § 28 StaRUG Schlechterstellungstest gegenüber „Best-Alternative-to-Negotiated-Agreement".
+- Gestaltbare Rechte nach Paragrafen 2 und 3 StaRUG: Restrukturierungsforderungen, Absonderungsanwartschaften, bestimmte mehrseitige Finanzierungsbedingungen, Beteiligungsrechte und gruppeninterne Drittsicherheiten nach den gesetzlichen Voraussetzungen.
+- Ausgeschlossen nach Paragraf 4 StaRUG: Arbeitnehmerforderungen einschließlich betrieblicher Altersversorgung, Forderungen aus vorsätzlich begangenen unerlaubten Handlungen und Forderungen nach Paragraf 39 Absatz 1 Nummer 3 InsO; bei natürlichen Personen zusätzlich nichtunternehmerische Rechte. Steuer- und Sozialversicherungsforderungen nicht pauschal ausschließen.
+- Gruppenbildung nach Paragraf 9 StaRUG: Rechtsstellungen trennen und wirtschaftliche Untergruppen sachgerecht begründen; Gleichbehandlung innerhalb der Gruppe nach Paragraf 10 StaRUG.
+- Mehrheiten nach Paragraf 25 StaRUG: mindestens drei Viertel der Stimmrechte je Gruppe.
+- Cross-Class-Cram-Down nach Paragrafen 26 bis 28 StaRUG:
+  - Paragraf 26 Absatz 1 Nummer 1 enthält den gruppenbezogenen Ohne-Plan-Test.
+  - Paragraf 27 konkretisiert die angemessene Beteiligung am Planwert und die Rangfolge.
+  - Paragraf 28 enthält eng begrenzte Ausnahmen von den Rangregeln, keinen allgemeinen Schlechterstellungstest.
+  - Individueller Minderheitenschutz folgt gesondert aus Paragraf 64 StaRUG.
 
 ## Beweis- und Belegbedarf
 
-- **Drohende ZU § 18 InsO:** 24-Monats-Liquiditätsplan, Sensitivitätsanalyse, Annahmen-Dokumentation.
-- **Sanierungskonzept:** IDW S6-Konzept oder vergleichbar; Sanierungsfähigkeit und Sanierungswürdigkeit dargelegt.
-- **Vergleichsrechnung:** Plan-Szenario vs. Best-Alternative — Quote für jede Klasse.
-- **Klassenbildung:** sachgerechte Differenzierung dokumentiert.
+- Drohende Zahlungsunfähigkeit nach Paragraf 18 InsO: regelmäßige 24-Monats-Liquiditätsprognose, Sensitivitätsanalyse und Annahmendokumentation.
+- Sanierungskonzept: belastbares Konzept; einen berufsständischen Standard nur verwenden, wenn die konkrete Fassung vorliegt und zum Auftrag passt.
+- Vergleichsrechnung: Plan-Szenario gegen realistische beste Alternative ohne Plan; Quote und sonstige Werte für jede Gruppe.
+- Gruppenbildung: Rechtsstellung, wirtschaftlicher Sachgrund und Gleichbehandlung dokumentieren.
 
 ## Anti-Halluzinations-Hinweise
 

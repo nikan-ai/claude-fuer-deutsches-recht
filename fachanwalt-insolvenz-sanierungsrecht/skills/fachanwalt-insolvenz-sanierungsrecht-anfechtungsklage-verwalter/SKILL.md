@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-insolvenz-sanierungsrecht-anfechtungsklage-verwalter
-description: "Wenn es um Anfechtungsklage des Insolvenzverwalters in Fachanwalt Insolvenz- und Sanierungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anfechtungsklage des Insolvenzverwalters: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Anfechtungsklage des Insolvenzverwalters
@@ -110,9 +110,9 @@ V. Rechtsfolge
 ## Leitlinien (verifiziert; bei Verwendung Aktenzeichen über offene Quellen prüfen)
 
 - **BGH IX ZR 72/20 vom 06.05.2021** — Aus der bloßen Zahlungsunfähigkeit allein kein Schluss auf Vorsatz iSd § 133 Abs. 1 InsO.
-- **BGH IX ZR 129/22 vom 18.04.2024** — Bestätigung der Neuausrichtung der Vorsatzanfechtung; konkrete Bedrohungslage und Erwartung dauerhafter Unterdeckung darzulegen; einfaches Bestreiten des außenstehenden Anfechtungsgegners zur Liquidität kann ausreichen.
+- BGH, Urteil vom 18.04.2024 - IX ZR 129/22: Ein außenstehender Dritter darf einen nur pauschal aufgestellten und nicht mit Einzelpositionen oder Belegen unterlegten Liquiditätsstatus grundsätzlich einfach bestreiten. Die Entscheidung ist ein Darlegungsanker zu Paragraf 17 InsO, kein pauschaler Beleg für geringere Anfechtungsrisiken.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
-- **BGH IX ZR 239/22 vom 18.04.2024** — Verschärfung der Anforderungen an die Anfechtung wegen gesellschafterähnlicher Stellung (§ 135 InsO).
+- **BGH IX ZR 239/22 vom 18.04.2024** — Deckungslücke, Zahlungseinstellung und Benachteiligungsvorsatz konkret beweisen; die zur Zahlungseinstellung herangezogenen Verbindlichkeiten tragen die Prognose dauerhafter Gläubigerbenachteiligung regelmäßig nicht allein.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
 - **BGH IX ZR 122/23 vom 05.12.2024** — Konkretisierung der Unlauterkeit nach § 142 Abs. 1 Hs. 2 InsO; bei Bargeschäft im Rahmen der Vorsatzanfechtung muss gezielt schädigendes Verhalten konkret nachgewiesen werden.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
@@ -140,4 +140,4 @@ Hinweis: Keine Rechtsberatung. Klageentwurf nur nach Originalprüfung von Gesetz
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Klären Sie beim Erwerb eines KI-Geschäfts, welche Dokumentation, Rechte und Betriebsfunktionen tatsächlich übergehen. Ein Erwerber wird nicht allein durch Anteilskauf Systemanbieter; Umwidmung und Weiterentwicklung getrennt untersuchen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

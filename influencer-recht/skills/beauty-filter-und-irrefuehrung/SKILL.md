@@ -1,6 +1,6 @@
 ---
 name: beauty-filter-und-irrefuehrung
-description: "Wenn es um Influencer-Recht: Beauty-Filter und Irreführung in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Influencer-Recht: Beauty-Filter und Irreführung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Influencer-Recht: Beauty-Filter und Irreführung
@@ -74,3 +74,4 @@ Beauty-Filter und KI-Bildbearbeitung in Werbeposts sind zunehmend reguliert:
 - Kennzeichnungstext für bearbeitete Bilder
 - Abmahnantwort (Bildbearbeitungs-Täuschung)
 - KI-Bild-Hinweis-Vorlage
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie, ob Bild, Stimme oder Text synthetisch erzeugt oder verändert wurden und in welcher Rolle der Auftraggeber veröffentlicht. Werbekennzeichnung und KI-Offenlegung erfüllen unterschiedliche Zwecke. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

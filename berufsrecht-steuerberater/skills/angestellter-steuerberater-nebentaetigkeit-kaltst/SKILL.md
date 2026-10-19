@@ -1,6 +1,6 @@
 ---
 name: angestellter-steuerberater-nebentaetigkeit-kaltst
-description: "Wenn es um Angestellter Steuerberater Nebentaetigkeit Kaltst in Berufsrecht Steuerberater geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Angestellter Steuerberater Nebentätigkeit Kaltst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerberater: angestellter steuerberater nebentaetigkeit - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
@@ -51,32 +51,3 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
 - **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
 - **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- §§ 1-4 StBerG (Berufszulassung, Befugnisse)
-- § 5 StBerG (Erlaubnisfreie Tätigkeit)
-- § 32 StBerG (Berufsbezeichnung)
-- § 57 StBerG (Allgemeine Berufspflichten)
-- §§ 60, 64 StBerG (Eigenverantwortliche Tätigkeit, Werbung)
-- § 66 StBerG (Berufshaftpflicht)
-- § 89 StBerG (Berufsgericht)
-- §§ 392 ff. AO (Steuerberater-Bevollmächtigung)
-- DSGVO Art. 6, 9 (Mandantendaten)
-- § 203 StGB (Schweigepflicht)
-
-### Leitentscheidungen
-
-- BFH, Urteil vom 23.02.2010 - VII R 24/09 (Fachberater-Bezeichnung und § 43 StBerG)
-- BVerfG, Beschluss vom 26.10.2004 - 1 BvR 981/00 (Steuerberaterwerbung und Art. 12 GG)
-- BGH, Urteil vom 14.06.2012 - IX ZR 145/11 (drittschützende Beraterhaftung bei Insolvenzreifeprüfung)
-- BGH StbSt R 2/21 (Berufsgerichtliche Verfahren)
-- BFH II R 33/19 (Vertretungsbefugnis)
-
-### Anwendung im Skill
-
-- Mandatsverhaeltnis nach §§ 32, 57 StBerG sauber dokumentieren; Vorbehaltsaufgaben nicht delegieren.
-- Werbeverbot § 57a StBerG nach BVerfG-Lockerung an Sachlichkeit, nicht an Verbot messen.
-- Berufshaftpflicht nach § 67 StBerG: Mindestsumme deckt keine Pauschalmandate; ggf. Erhoehung dokumentieren.

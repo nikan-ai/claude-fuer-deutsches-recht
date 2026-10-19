@@ -1,6 +1,6 @@
 ---
 name: anhoerung-vor-bescheid
-description: "Wenn es um Anhörung vor Bescheid in Bürokratieversteher und Entbürokratisierer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Anhörung vor Bescheid: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anhörung vor Bescheid
@@ -80,25 +80,3 @@ Vor jedem belastenden Verwaltungsakt muss die Behörde grundsätzlich anhoeren �
 - Landes-VwVfG (Live-Check Landesministerien).
 - BVerwG, staend. Rspr. zu Anhörungspflicht und Heilung.
 - DSGVO Art. 13-15.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 70 VwGO
-- § 80 VwGO
-- § 28 VwVfG
-- § 123 VwGO
-- Art. 3 GG
-- § 60 VwGO
-- § 5 VIG
-- § 75 VwGO
-- § 40 VwVfG
-- § 10 StAG
-- § 86b SGG
-- § 183 SGG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

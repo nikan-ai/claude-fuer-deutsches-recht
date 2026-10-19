@@ -1,6 +1,6 @@
 ---
 name: monitoring-quellenkarte
-description: "Wenn es um Monitoring Quellenkarte in Technik-Governance geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Monitoring Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Monitoring Quellenkarte
@@ -29,7 +29,7 @@ Diese Quellenkarte sichert für **KI-Governance** jede tragende Aussage ab: Norm
 
 ## Fristen mit Quellenrelevanz
 
-- KI-VO-Geltung gestaffelt 2025-2027
+- KI-Verordnung: Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Hochrisiko-CE-Konformität
 
 ## Prüfroute
@@ -43,3 +43,4 @@ Diese Quellenkarte sichert für **KI-Governance** jede tragende Aussage ab: Norm
 
 - Keine BeckRS-/juris-Blindzitate aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 - Zitierform nach `references/zitierweise.md`; Quellenhygiene nach `references/quellenhygiene.md`.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

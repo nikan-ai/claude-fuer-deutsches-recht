@@ -1,6 +1,6 @@
 ---
 name: neutralitaetspruefung
-description: "Wenn es um Neutralitätsprüfung in aktenauszug-gerichtsverfahren geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Neutralitätsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Neutralitätsprüfung
@@ -24,10 +24,6 @@ description: "Wenn es um Neutralitätsprüfung in aktenauszug-gerichtsverfahren 
 - § 286 Abs. 1 ZPO — Freie Beweiswürdigung des Gerichts; Aktenauszug darf keine Beweiswürdigungsprognosen enthalten
 - § 138 ZPO — Wahrheitspflicht; auch interne Vermerke müssen den Sachverhalt korrekt abbilden
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot; gilt auch für interne Aktendokumentation
-
-## Rechtsprechung zum Sachlichkeitsgebot und Neutralität
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Verbotene Formulierungstypen
 
@@ -104,3 +100,5 @@ Anzahl Beanstandungen: [Zahl]
 Die Neutralitätsprüfung ist kein Korrektorat des Aktenauszugs. Sie prüft ausschließlich auf Wertungen und Prognosen. Sachliche Fehler sind durch Abgleich mit der Akte zu beheben.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

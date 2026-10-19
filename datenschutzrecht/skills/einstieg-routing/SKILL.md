@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Datenschutzrecht."
 ---
 
 # Einstieg und Routing
@@ -31,7 +31,7 @@ Wenn Fristdruck besteht, zuerst Kenntniszeitpunkt, Monatsfrist, 72-Stunden-Frist
 - `datenschutz-loeschpflicht-art-17-und-aufbewahrung` — Löschung, Sperrung und Aufbewahrung trennen
 - `datenschutz-beschwerde-art-77-aufsichtsbehoerde` — Beschwerde- und Behördenpfad
 - `datenpanne-meldung` — Meldeentscheidung und 72-Stunden-Timeline
-- `dsv-meldung-art-33-pflichtangaben` — Pflichtangaben für Vorfallmeldung
+- `meldung-art-33-pflichtangaben` — Meldung nach Art. 33 DSGVO — Pflichtangaben generisch
 - `avv-art-28-mindestinhalte-checkliste` — Auftragsverarbeitungsvertrag prüfen
 - `avv-art-26-joint-controllership-deutsch` — AVV ART 26 Joint Controllership Deutsch
 - `drittlandstransfer-tia-scc` — Transfer Impact Assessment und Standardklauseln

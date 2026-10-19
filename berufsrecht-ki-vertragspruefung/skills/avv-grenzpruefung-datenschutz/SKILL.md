@@ -1,6 +1,6 @@
 ---
 name: avv-grenzpruefung-datenschutz
-description: "Wenn es um AVV-Grenzprüfung Datenschutz in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Avv Grenzpruefung Datenschutz."
+description: "Für AVV-Grenzprüfung Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # AVV-Grenzprüfung Datenschutz
@@ -50,10 +50,6 @@ Die AVV regelt **nicht** das Berufsgeheimnis. Sie schützt nicht die Verschwiege
 - **Art. 83 Abs. 4 DSGVO** — Bußgeld bis 10 Mio. EUR oder 2 % Jahresumsatz bei Verstoß gegen Art. 28
 - **§§ 43e BRAO, 62a StBerG, 50a WPO, 39c PAO, 26a BNotO** — Berufsrecht läuft parallel
 - **§§ 203, 204 StGB** — Strafrecht: Verschwiegenheitspflicht als Straftatbestand
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Was das Berufsrecht zusätzlich verlangt
 
@@ -109,7 +105,7 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zu
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — AVV-Grenzfall prüfen ob AV oder gemeinsame Verantwortlichkeit | Prüfschema unten; Template für Ergebnis-Memo |
-| Variante A — AVV eindeutig erforderlich | Direkt zu AVV-Erstellung (skill avv-prüfung) wechseln |
+| Variante A — AVV eindeutig erforderlich | Direkt zu AVV-Erstellung (skill avv-pruefung) wechseln |
 | Variante B — gemeinsame Verantwortlichkeit wahrscheinlich | Art. 26 DSGVO Vereinbarung statt AVV; Template anpassen |
 | Variante C — kein Auftragsverhaeltnis sondern eigenstaendige Verarbeitung | Keine AVV; separate Datenschutzvereinbarung prüfen |
 
@@ -149,5 +145,4 @@ Unterschrift: [SACHBEARBEITER]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
-<!-- AUDIT 27.05.2026 -->
-<!-- BGH VI ZR 36/20 (claimed: Berufsgeheimnis §43a BRAO, NJW 2021, 1008): NOT_FOUND auf dejure.org. NJW 2021, 1008 gehoert zu BGH VIII ZR 78/20 (Gebrauchtwagenhandel/Verjaehnungsfrist) – thematisch unverwandt. Eintrag geloescht. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

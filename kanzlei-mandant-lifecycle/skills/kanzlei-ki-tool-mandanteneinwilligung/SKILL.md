@@ -1,6 +1,6 @@
 ---
 name: kanzlei-ki-tool-mandanteneinwilligung
-description: "Wenn es um digitale Werkzeuge-Tool und Mandanteneinwilligung in Kanzlei-Mandant Lifecycle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für digitale Werkzeuge-Tool und Mandanteneinwilligung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Tool und Mandanteneinwilligung
@@ -54,3 +54,4 @@ Vor tragenden Aussagen live prüfen: amtliche Normfassung, zuständige Behörde/
 - RVG § 3a: https://www.gesetze-im-internet.de/rvg/__3a.html
 - BRAO § 43e: https://www.gesetze-im-internet.de/brao/__43e.html
 - BRAO § 49b: https://www.gesetze-im-internet.de/brao/__49b.html
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie Dialog, Dokumentenannahme, Fristübernahme und Versand einzeln. Ein transparent gekennzeichneter Bot darf nicht deshalb unbestätigte Fristen oder eine Rechtsprüfung als abgeschlossen darstellen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

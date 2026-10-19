@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-inhalt-409-pruefung
-description: "Wenn es um Strafbefehlsinhalt prüfen — Paragraf 409 StPO in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafbefehlsinhalt prüfen — Paragraf 409 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Strafbefehlsinhalt prüfen — § 409 StPO
@@ -39,7 +39,6 @@ Prüft Strafbefehl auf Pflichtinhalt nach § 409 StPO (7 Mindestangaben) und ide
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
@@ -104,3 +103,5 @@ Mandantenhinweis: verstaendlich-erklaerend, Fachbegriffe erklaeren.
 - Nichtigkeit des Strafbefehls fuehrt nicht automatisch zum Freispruch — Anklageerhebung möglich.
 - Einspruch immer fristgerecht einlegen, unabhaengig von Fehlerruegen.
 - Anwaltliche Endkontrolle vor Versand.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

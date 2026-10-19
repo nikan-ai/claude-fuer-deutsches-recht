@@ -1,6 +1,6 @@
 ---
 name: abwaegungsgebot-1-abs-7-baugb
-description: "Wenn es um Abwägungsgebot Paragraf 1 Abs. 7 BauGB in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Abwägungsgebot Paragraf 1 Abs. 7 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abwägungsgebot § 1 Abs. 7 BauGB
@@ -149,33 +149,9 @@ description: "Wenn es um Abwägungsgebot Paragraf 1 Abs. 7 BauGB in Normenkontro
 - BVerwG, Urteil vom 9.4.2008 – 4 CN 1.07 (Ermittlungspflicht § 2 Abs. 3)
 - BVerwG, Urteil vom 22.9.2010 – 4 CN 2.10 (Offensichtlichkeit)
 
-## Ergänzende Rechtsprechung (Stand 05/2026, verifiziert bverwg.de)
+## Ergänzende Rechtsprechungshinweise (bisheriger Stand 05/2026)
 
-- **BVerwG 11.04.2024, 4 BN 50.23** (Abwaegungsmaengel — Klimaschutz § 1 Abs. 5 S. 2 BauGB): Klimaschutz und Klimaanpassung sind als Belang nach § 1 Abs. 5 S. 2 BauGB zwingend in die Abwaegung einzustellen. Quelle: bverwg.de.
-- **BVerwG 04.05.2022, 4 CN 2.21** (Bauleitplanung Wind/Solar): Anforderungen an Abwaegung bei Konzentrationszonen-Planung; Substantiierungspflicht. Quelle: bverwg.de.
 - **BVerwG 03.04.2020, 4 CN 2.19**: Erhaltungssatzung § 172 BauGB — Anforderungen an Abwaegung und Erforderlichkeit. Quelle: bverwg.de.
 - **BVerwG 23.06.2020, 9 A 22.19** (Klimaschutz-Belang Verkehrsplanung; uebertragbar auf Bauleitplanung): Klima als bei Planungen zwingend einzustellender Belang. Quelle: bverwg.de.
 
-Konkrete Entscheidungen vor Verwendung per bverwg.de mit Datum verifizieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 47 VwGO
-- § 215 BauGB
-- § 1 BauGB
-- § 214 BauGB
-- § 2 BauGB
-- § 50 BImSchG
-- § 10 BauGB
-- § 9 BauGB
-- § 14 BauGB
-- § 12 BauGB
-- § 44 BNatSchG
-- § 3 BauGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+Die verbleibenden Zuordnungen wurden bei der gezielten Gegenprüfung am 16.10.2026 nicht neu verifiziert. Konkrete Entscheidungen vor Verwendung im amtlichen Volltext prüfen.

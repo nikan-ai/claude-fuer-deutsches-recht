@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "plugin": "richter-amtsgericht-handelsregister",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__382.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 4: angemessene Frist bei unvollständiger Anmeldung oder behebbarem Hindernis; Eintragung und ablehnender Beschluss sind unterschiedliche Entscheidungen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/GmbHG.pdf",
+      "checked_on": "2026-09-14",
+      "supports": "Paragraf 39 Absatz 2: Urkundennachweis der Geschäftsführerbestellung beziehungsweise Beendigung der Vertretungsbefugnis."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2022/II_ZB__15-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 19.09.2023 - II ZB 15/22, Rn. 8 bis 12: Bei aus Gerichtssicht unbehebbarem Eintragungshindernis keinen Rücknahmehinweis als Zwischenverfügung nach Paragraf 382 Absatz 4 FamFG ausgeben; Ablehnungsbeschluss nach Absatz 3 erforderlich. Grenze: Aufhebung einer unzulässigen Zwischenverfügung ersetzt nicht die Eintragungsprüfung. Materielle Besonderheiten der Sparkassenvereinigung nicht auf jede Gesellschaft übertragen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/famfg/__382.html",
+      "checked_on": "2026-09-23",
+      "supports": "Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage. Prüftiefe: Einzelabrufe gestört; maßgebliche Normpassagen über amtlichen Suchindex gelesen. Keine neue Prüfung aller Registerarten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__39.html",
+      "checked_on": "2026-09-23",
+      "supports": "Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage. Prüftiefe: Einzelabrufe gestört; maßgebliche Normpassagen über amtlichen Suchindex gelesen. Keine neue Prüfung aller Registerarten."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZB___2-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf/Tenor, Rn. 20–25, 32–38, 43–49. Überschießende private Registerdaten nach Einwilligungswiderruf: ordnungsgemäße Ersatzfassung im öffentlichen Ordner nach §9Abs7HRV. Grenze: Pflichtangaben nicht pauschal entfernen; Original verbleibt in nicht allgemein öffentlicher Registerakte, notarielle Form beachten."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZB__13-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 8–29. Geprüfte österreichische Onlinebeglaubigung nicht abstrakt gleichwertig; Verfahrensgarantien statt Einzelfallbemühung prüfen. Grenze: Keine allgemeine Zurückweisung ausländischer Präsenzbeglaubigungen; heutige Verfahrensnormen gesondert."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage. 2026-10-16, redaktioneller Einstiegsreview: Gerichtliches Ergebnis und Eintragungshindernis früh erklärt; Rücknahmehinweis nicht zur Zwischenverfügung umgedeutet. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Behebbarkeit des Hindernisses an Paragraf 382 Absatz 4 FamFG geprüft.",
+      "Endgültig verneinte Eintragungsfähigkeit dem Beschluss nach Absatz 3 zugeordnet.",
+      "Sparkassenkonstellation und Verfahrensfolge getrennt; gerichtliche Letztentscheidung nicht automatisiert.",
+      "Bestellungsurkunde nachgereicht -> Nachforderung streichen und abweichende Vertretungsregel konkret prüfen.",
+      "Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage.",
+      "2026-10-16, redaktioneller Einstiegsreview: Gerichtliches Ergebnis und Eintragungshindernis früh erklärt; Rücknahmehinweis nicht zur Zwischenverfügung umgedeutet. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "7faa52f93a395530776b3e34fa6c2ea6e99fd4c68886bf99e96512df3fa36cef",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Entwirf eine registergerichtliche Zwischenverfügung wegen fehlender Bestellungsurkunde.",
+      "Prüfe im Registerverfahren, ob nachgereichte Unterlagen das Eintragungshindernis beheben."
+    ],
+    "negative": [
+      "Entwirf als Käuferanwalt einen GmbH-Anteilskaufvertrag.",
+      "Berechne einen Organhaftungsanspruch gegen den Geschäftsführer."
+    ]
+  },
+  "cases": [
+    {
+      "id": "fehlende-bestellungsurkunde",
+      "request": "Erstelle ergebnis.md als Entwurf einer Zwischenverfügung des Registergerichts. In HRB 4123 beantragt die Linden GmbH formgerecht die Eintragung von Eva Kern als weiterer einzelvertretungsberechtigter Geschäftsführerin. Die Anmeldung enthält alle erforderlichen Erklärungen und verweist auf den wirksamen Bestellungsbeschluss vom 1. September 2026. Dieser Beschluss wurde versehentlich nicht beigefügt. Das Notariat bestätigt, dass die Urkunde vorhanden und innerhalb von sieben Tagen in registergeeigneter Form nachreichbar ist. Weitere Mängel sind nicht festgestellt. Heute ist der 14. September 2026; die angemessene Nachreichungsfrist soll zwei Wochen ab Bekanntgabe betragen. Keine tatsächliche Eintragung oder Versendung vornehmen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Bezeichnet den fehlenden Urkundennachweis und dessen registergeeignete Nachreichung konkret, statt die Bestellung als unwirksam oder nicht erfolgt zu behandeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Wählt wegen des behebbaren Mangels eine Zwischenverfügung mit zwei Wochen ab Bekanntgabe und behandelt dies nicht als starre gesetzliche Frist.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Nimmt weder sofortige Zurückweisung noch fingierte Eintragung vor und hält den gerichtlichen Entwurf von tatsächlichem Vollzug getrennt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "07-zwischenverfuegung-und-beschwerde"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage. 2026-10-16, redaktioneller Einstiegsreview: Gerichtliches Ergebnis und Eintragungshindernis früh erklärt; Rücknahmehinweis nicht zur Zwischenverfügung umgedeutet. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Behebbarkeit des Hindernisses an Paragraf 382 Absatz 4 FamFG geprüft.",
+      "Endgültig verneinte Eintragungsfähigkeit dem Beschluss nach Absatz 3 zugeordnet.",
+      "Sparkassenkonstellation und Verfahrensfolge getrennt; gerichtliche Letztentscheidung nicht automatisiert.",
+      "Bestellungsurkunde nachgereicht -> Nachforderung streichen und abweichende Vertretungsregel konkret prüfen.",
+      "Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage.",
+      "2026-10-16, redaktioneller Einstiegsreview: Gerichtliches Ergebnis und Eintragungshindernis früh erklärt; Rücknahmehinweis nicht zur Zwischenverfügung umgedeutet. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "42f3417b808e84f5d81bc3b3b6988e1123cd3f2b2821cf8a43c8b8d358102301",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gerichtsplugins/richter-amtsgericht-handelsregister/README.md",
+      "gerichtsplugins/richter-amtsgericht-handelsregister/richter-amtsgericht-handelsregister-schnellstart.md",
+      "gerichtsplugins/richter-amtsgericht-handelsregister/richter-amtsgericht-handelsregister-werkstatt.md",
+      "quality/evals/richter-amtsgericht-handelsregister.json"
+    ],
+    "opening_change": "Die registergerichtliche Prüfung entscheidet zwischen Eintragung, konkreter Nachforderung und Zurückweisung; sie beginnt nicht mit allgemeiner Ergebnisprosa.",
+    "norms": [
+      "FamFG Paragraf 382 Absatz 3 und 4",
+      "GmbHG Paragraf 39 Absatz 2",
+      "HGB Paragraf 12"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 19.09.2023 - II ZB 15/22, Rn. 8 bis 12",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2022/II_ZB__15-22.pdf?__blob=publicationFile&v=1",
+        "application": "Bei aus Gerichtssicht unbehebbarem Eintragungshindernis keinen Rücknahmehinweis als Zwischenverfügung nach Paragraf 382 Absatz 4 FamFG ausgeben; Ablehnungsbeschluss nach Absatz 3 erforderlich.",
+        "limit": "Aufhebung einer unzulässigen Zwischenverfügung ersetzt nicht die Eintragungsprüfung. Materielle Besonderheiten der Sparkassenvereinigung nicht auf jede Gesellschaft übertragen."
+      },
+      {
+        "citation": "BGH, Beschluss vom 18.02.2026 – II ZB 2/25, Kopf/Tenor, Rn. 20–25, 32–38, 43–49",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZB___2-25.pdf?__blob=publicationFile&v=1",
+        "application": "Überschießende private Registerdaten nach Einwilligungswiderruf: ordnungsgemäße Ersatzfassung im öffentlichen Ordner nach §9Abs7HRV.",
+        "limit": "Pflichtangaben nicht pauschal entfernen; Original verbleibt in nicht allgemein öffentlicher Registerakte, notarielle Form beachten.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      },
+      {
+        "citation": "BGH, Beschluss vom 25.02.2026 – II ZB 13/24, Kopf, Rn. 8–29",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZB__13-24.pdf?__blob=publicationFile&v=1",
+        "application": "Geprüfte österreichische Onlinebeglaubigung nicht abstrakt gleichwertig; Verfahrensgarantien statt Einzelfallbemühung prüfen.",
+        "limit": "Keine allgemeine Zurückweisung ausländischer Präsenzbeglaubigungen; heutige Verfahrensnormen gesondert.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Keine vollständige Aktualitätsprüfung gerichtlicher KI-Regulierung, Landeszuständigkeiten oder aller Registerarten.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Vertiefung 2026-09-23: Einzelabrufe gestört; maßgebliche Normpassagen über amtlichen Suchindex gelesen. Keine neue Prüfung aller Registerarten. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Eintragungsprüfung, Zwischenverfügung oder Abhilfe anbieten.",
+      "Anmeldung und Urkunden still lesen, kein Registeraktenreferat.",
+      "Bestellten gerichtlichen Entwurf ohne erneute Aufnahme schreiben."
+    ],
+    "continuation": "Bestellungsurkunde nachgereicht -> Nachforderung streichen und abweichende Vertretungsregel konkret prüfen.",
+    "enrichment": "Person/Zeitpunkt/Vertretung, tatsächliche Behebbarkeit, parallele Registervorgänge und aktuelle Beschwerdevorlage.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "gerichtsplugins/richter-amtsgericht-handelsregister/richter-amtsgericht-handelsregister-schnellstart.md",
+      "gerichtsplugins/richter-amtsgericht-handelsregister/richter-amtsgericht-handelsregister-werkstatt.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/richter-amtsgericht-handelsregister/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für Handelsregisterprüfung technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

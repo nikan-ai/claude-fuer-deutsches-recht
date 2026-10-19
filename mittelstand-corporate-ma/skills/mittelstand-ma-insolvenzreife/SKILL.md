@@ -1,6 +1,6 @@
 ---
 name: mittelstand-ma-insolvenzreife
-description: "Wenn es um Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand) in Mittelstands-Corporate/M&A geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)
@@ -19,8 +19,6 @@ Unternehmen in M&A-Situation oder Krise und Anwalt prüft ob Insolvenzantragspfl
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -65,7 +63,6 @@ Im Mittelstand ist die Insolvenzreife-Prüfung besonders heikel, weil der Gesell
 
 | Gericht | Az. | Datum | Leitsatz (kurz) |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema (Mittelstand)
 
@@ -152,7 +149,6 @@ OPOS Kreditoren [Datum]) teilen wir Ihnen folgende erste Einschätzung mit:
 
 LIQUIDITÄTSSTATUS: Die fälligen Verbindlichkeiten übersteigen die verfügbare Liquidität
 um EUR [X] (ca. [Y] %). Dies überschreitet die BGH-Schwelle für Zahlungsunfähigkeit
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 PERSÖNLICHE HAFTUNG: Bei Eintritt der Zahlungsunfähigkeit sind Sie als Geschäftsführer
 verpflichtet, innerhalb von 3 Wochen Insolvenzantrag zu stellen (§ 15a InsO). Zahlungen,
@@ -243,7 +239,9 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - § 15b InsO (Zahlungsverbot bei Insolvenzreife; rechtsformneutral seit 01.01.2021): https://www.gesetze-im-internet.de/inso/__15b.html
 - §§ 17, 18, 19 InsO (Zahlungsunfaehigkeit, drohende ZU, Ueberschuldung): https://www.gesetze-im-internet.de/inso/__17.html
 - StaRUG (Unternehmensstabilisierungs- und -restrukturierungsgesetz; in Kraft seit 01.01.2021 durch SanInsFoG, BGBl. I 2020, 3256): https://www.gesetze-im-internet.de/starug/
-- §§ 1-93 StaRUG (insbesondere § 29 StaRUG-Plan, § 49 StaRUG-Vollstreckungssperre): https://www.gesetze-im-internet.de/starug/__1.html
+- StaRUG, insbesondere Paragrafen 2 bis 28 für Restrukturierungsplan und Annahme, Paragraf 31 für die Anzeige sowie Paragrafen 49 bis 59 für Stabilisierung: https://www.gesetze-im-internet.de/starug/
 - § 43 GmbHG: https://www.gesetze-im-internet.de/gmbhg/__43.html
 - §§ 823, 826 BGB (Insolvenzverschleppungs-Haftung gegenueber Gläubigern als Schutzgesetz iVm § 15a InsO): https://www.gesetze-im-internet.de/bgb/__823.html
 - Rechtsprechung im Uebrigen: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

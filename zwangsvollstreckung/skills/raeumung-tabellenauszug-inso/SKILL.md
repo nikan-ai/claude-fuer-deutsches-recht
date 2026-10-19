@@ -1,13 +1,13 @@
 ---
 name: raeumung-tabellenauszug-inso
-description: "Wenn es um Räumung Paragraf 885 ZPO / Berliner Räumung Paragraf 885a ZPO in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Räumung Paragraf 885 ZPO / Berliner Räumung Paragraf 885a ZPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Räumung § 885 ZPO / Berliner Räumung § 885a ZPO
 
 ## Arbeitsbereich
 
-Vermieter hat Räumungsurteil und will Wohnung oder Gewerberaum räumen lassen. § 885 ZPO Räumungsvollstreckung. Prüfraster: Räumungstitel Klausel Zustellung Mitbewohner Kinder Untermieter Drittwiderspruch § 771 Vollstreckungsschutz § 765a ZPO Berliner Modell § 885a ZPO beschraenkter Räumungsauftrag. Output: Räumungsauftrag an GV und Strategie-Memo. Abgrenzung zu zv-abwehr-schuldner (Schuldnerseite) und zv-mobiliar-gv-auftrag (Mobiliar). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Vermieter hat Räumungsurteil und will Wohnung oder Gewerberaum räumen lassen. § 885 ZPO Räumungsvollstreckung. Prüfraster: Räumungstitel Klausel Zustellung Mitbewohner Kinder Untermieter Drittwiderspruch § 771 Vollstreckungsschutz § 765a ZPO Berliner Modell § 885a ZPO beschraenkter Räumungsauftrag. Output: Räumungsauftrag an GV und Strategie-Memo. Abgrenzung zu abwehr-schuldner (Schuldnerseite) und mobiliar-gv-auftrag (Mobiliar). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -67,10 +67,6 @@ Vermieter hat Räumungsurteil und will Wohnung oder Gewerberaum räumen lassen. 
 
 ## Leitentscheidungen
 
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabeformat

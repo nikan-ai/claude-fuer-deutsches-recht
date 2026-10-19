@@ -1,6 +1,6 @@
 ---
 name: bieterangebot-bewertung
-description: "Wenn es um Bieterangebot Bewerten in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bieterangebot Bewerten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bieterangebot Bewerten
@@ -59,10 +59,6 @@ Bewertet Zwangsversteigerungsobjekte aus Investorensicht für Bieterentscheidung
 
 - `assets/templates/bieterangebot-bewertung.md`
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Bieterangebot/Versteigerungsschnittstelle
 
 § 152 ZVG (Verwalterpflichten) → § 56 ZVG (Übergabe an Ersteher) → § 57 ZVG (Mieterschutz bei Eigentumsübergang) → § 57a ZVG (Sonderkündigungsrecht Ersteher) → §§ 566-566e BGB (Kauf bricht nicht Miete) → § 155 ZVG (Verteilungsplan bis Versteigerung)
@@ -91,3 +87,5 @@ Technischer Zustand: [ZUSAMMENFASSUNG]
 Zu beachten für Ersteher: Mietverhältnisse gehen gem. §§ 566 BGB über;
 Sonderkündigungsrecht § 57a ZVG nur innerhalb von 2 Wochen nach Zuschlag.
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

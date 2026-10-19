@@ -1,6 +1,6 @@
 ---
 name: subsumtionslehre
-description: "Wenn es um Subsumtionslehre in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Subsumtionslehre: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Subsumtionslehre
@@ -18,9 +18,6 @@ description: "Wenn es um Subsumtionslehre in Jurastudium geht: prüft Frist, For
 2. Gibt es einen Sachverhaltsbezug für die Subsumtion oder wird abstrakt geuebt?
 3. Liegt ein Subsumtionssprung vor (Ergebnis wird vorweggenommen ohne Prüfungsweg)?
 4. Ist das Tatbestandsmerkmal streitig (mehrere Definitionen möglich)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 133, 157 BGB — Auslegung als Grundlage der Tatbestandsmerkmal-Bestimmung
@@ -97,3 +94,5 @@ Der Studenten **schreibt die Subsumtion selbst**. Die Skill schreibt sie nicht v
 
 - Sie schreibt keine Mustersubsumtion. Wer Mustertexte will, sucht falsch.
 - Sie urteilt nicht über das Ergebnis der Subsumtion (richtig/falsch im Sinne der h. M.), sondern über die **handwerkliche Qualität** der Subsumtion. Beides muss man trennen lernen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

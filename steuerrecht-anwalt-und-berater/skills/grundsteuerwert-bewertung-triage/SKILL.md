@@ -1,6 +1,6 @@
 ---
 name: grundsteuerwert-bewertung-triage
-description: "Wenn es um Grundsteuerwert: Bewertung nach BewG Paragrafen 218 ff. in Steuerrecht – Steuerberater und Anwälte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Grundsteuerwert: Bewertung nach BewG Paragrafen 218 ff: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Grundsteuerwert: Bewertung nach BewG §§ 218 ff.
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
@@ -30,8 +28,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Grundsteuerwert: Bewertung nach BewG §§ 218 ff.` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -97,4 +93,4 @@ Empfehlung: Erst niedrigwertige Belege (Wohnflächenberechnung, Bodenrichtwertau
 ## Typische Fehler
 
 - Einspruch trifft den falschen Bescheid: Hebesatz angegriffen, obwohl der Wertfehler im Grundlagenbescheid (Finanzamt) sitzt. § 351 Abs. 2 AO sperrt den Folgebescheid.
-- Einspruchsfrist von einem Monat wird übersehen, weil der Bescheid an die ELSTER-Postfachadresse zugestellt und nicht abgerufen wurde; § 122 Abs. 2a AO regelt elektronische Bekanntgabe nach drei Tagen.
+- Einspruchsfrist von einem Monat wird übersehen, weil ein bereitgestellter Bescheid nicht abgerufen wurde. Elektronische Übermittlung nach Paragraf 122 Absatz 2a AO und Bereitstellung zum Datenabruf nach Paragraf 122a AO unterscheiden. Die aktuell veröffentlichten Texte knüpfen grundsätzlich an den vierten Tag nach Absendung beziehungsweise Bereitstellung an, nicht an einen beliebig späteren tatsächlichen Abruf. Bekanntgabeart, Nachweise und für den konkreten Zeitpunkt geltendes Übergangsrecht prüfen; keine pauschale Dreitagesrechnung.

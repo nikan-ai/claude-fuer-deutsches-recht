@@ -1,6 +1,6 @@
 ---
 name: mehrsprachige-umformulierung
-description: "Wenn es um Mehrsprachige Umformulierung in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mehrsprachige Umformulierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mehrsprachige Umformulierung
@@ -16,9 +16,6 @@ Dieser Skill stellt höfliche, sachliche Formulierungshilfen für internationale
 2. Welcher Berufsstand: Rechtsanwalt, Notar, Steuerberater oder allgemeines Unternehmen?
 3. Welche Jurisdiktion gilt: Deutschland mit ausländischem Empfaenger, oder ausländisches Recht anwendbar?
 4. Gibt es berufsrechtliche Besonderheiten der Zielsprach-Jurisdiktion zu beachten?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot gilt sprachunabhaengig
@@ -49,3 +46,5 @@ Für grenzüberschreitende anwaltliche Kommunikation gilt: Die BRAO schreibt kei
 ## Typische Phrasen für internationale anwaltliche Korrespondenz
 
 "Please find enclosed..." → "Veuillez trouver ci-joint..." → "In allegato trova..." → "Adjunto encontrará..." "We refer to our previous correspondence..." → "Suite à notre précédente correspondance..." "We look forward to your response." → "Nous attendons votre réponse avec intérêt." → "In attesa di una Sua risposta..." → "Quedamos a la espera de su respuesta."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

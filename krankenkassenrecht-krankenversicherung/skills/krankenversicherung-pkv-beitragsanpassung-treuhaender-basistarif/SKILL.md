@@ -1,6 +1,6 @@
 ---
 name: krankenversicherung-pkv-beitragsanpassung-treuhaender-basistarif
-description: "Wenn es um PKV-Beitragsanpassung: Treuhänder, Begründung und Verjährung in Krankenkassenrecht und Krankenversicherung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für PKV-Beitragsanpassung: Treuhänder, Begründung und Verjährung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # PKV-Beitragsanpassung: Treuhänder, Begründung und Verjährung
@@ -57,7 +57,7 @@ PKV-Beiträge werden regelmäßig erhöht. Prüfe, ob **Beitragsanpassungen form
 - Zeitraum: typisch 3 Jahre rückwirkend; ältere Erhöhungen verjährt
 
 ### Schritt 4 – Klage gegen PKV
-- Zuständigkeit: Zivilgericht (AG bei < 5.000 €; LG bei ≥ 5.000 €)
+- Zuständigkeit: Zivilgericht; mangels wertunabhängiger Sonderzuweisung Amtsgericht bis einschließlich 10.000 Euro, Landgericht bei einem höheren Streitwert (Paragrafen 23 Nummer 1, 71 Absatz 1 GVG).
 - Streitwert: Summe aller unwirksamen Beitragserhöhungen + Zinsen
 - Klasse Klagen: viele gleichartige Fälle → Vergleichsangebote des Versicherers beobachten
 - Rückforderung + Feststellungsklage (Anpassung unwirksam) kombinieren

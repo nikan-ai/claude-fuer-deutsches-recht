@@ -1,6 +1,6 @@
 ---
 name: batterie-ladeinfrastruktur-und-brandschutz
-description: "Wenn es um Batterie, Ladeinfrastruktur und Brandschutz bei mobilen Robotern in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Batterie, Ladeinfrastruktur und Brandschutz bei mobilen Robotern: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Batterie, Ladeinfrastruktur und Brandschutz bei mobilen Robotern
@@ -93,6 +93,8 @@ Mobile Roboter (AMR, AGV, Liefer-, Reinigungs-, Mähroboter) werden überwiegend
 - Landesbauordnungen; IndBauR; VdS 3103, VdS 3856.
 - VO (EU) 2024/2853 (neue ProdHaftRL); § 823 BGB.
 - Live-Verifikation auf eur-lex.europa.eu, baua.de, vds.de; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Normen & Rechtsprechung
 

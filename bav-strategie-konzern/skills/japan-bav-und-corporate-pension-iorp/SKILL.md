@@ -1,6 +1,6 @@
 ---
 name: japan-bav-und-corporate-pension-iorp
-description: "Wenn es um Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive in BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive
@@ -121,4 +121,4 @@ Beitragsgrenze (2024) | Keine Obergrenze | JPY 55.000 p.m. (ohne anderen Plan)
 
 ## Aktuelle Rechtsprechung und Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

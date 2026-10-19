@@ -1,6 +1,6 @@
 ---
 name: prozessmandat-dokumente-fristen-aufgaben-workspace
-description: "Wenn es um Mandatsworkspace, Kontexttrennung und Fristensteuerung in Prozessrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandatsworkspace, Kontexttrennung und Fristensteuerung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Mandatsworkspace, Kontexttrennung und Fristensteuerung
@@ -27,10 +27,6 @@ Anwälte mit mehreren Mandanten und Verfahren arbeiten parallel an verschiedenen
 - **Paragraf 45 BRAO** — Tätigkeitsverbote bei Interessenkonflikten; vor Mandatsanlage ist die Konfliktkontrolle unerlässlich.
 - **Paragraf 2 Abs. 1 DSGVO i.V.m. Paragraf 1 BDSG** — Personenbezogene Daten in Mandatsakten unterliegen dem Datenschutzrecht; organisatorische Trennung ist technisch-organisatorische Maßnahme i.S.d. Art. 32 DSGVO.
 
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -42,7 +38,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 Lies `CLAUDE.md` → Abschnitt `## Mandatsarbeitsbereiche`. Ist `Aktiviert: ✗`:
 
-> "Mandatsarbeitsbereiche sind deaktiviert — die Kanzlei ist als Einmandat-Kanzlei (z. B. Syndikusrechtsanwalt nach Paragraf 46 BRAO) konfiguriert und arbeitet automatisch auf Kanzleiebene. Falls tatsächlich mehrere Mandate geführt werden, bitte `/prozessrecht:prozessrecht-kaltstart-interview --neu` ausführen und eine Mehrmandat-Kanzlei auswählen. Andernfalls wird `/mandat-arbeitsbereich` nicht benötigt."
+> "Mandatsarbeitsbereiche sind deaktiviert — die Kanzlei ist als Einmandat-Kanzlei (z. B. Syndikusrechtsanwalt nach Paragraf 46 BRAO) konfiguriert und arbeitet automatisch auf Kanzleiebene. Falls tatsächlich mehrere Mandate geführt werden, bitte `/prozessrecht:kaltstart-interview --neu` ausführen und eine Mehrmandat-Kanzlei auswählen. Andernfalls wird `/mandat-arbeitsbereich` nicht benötigt."
 
 ### Schritt 2: Unterbefehl ausführen
 
@@ -60,7 +56,7 @@ Lies `CLAUDE.md` → Abschnitt `## Mandatsarbeitsbereiche`. Ist `Aktiviert: ✗`
 3. `mandate/<slug>/akte.md` nach Vorlage unten schreiben.
 4. `mandate/<slug>/verlauf.md` mit Eröffnungseintrag seeden.
 5. Leere `mandate/<slug>/notizen.md` anlegen.
-6. Nicht automatisch wechseln — fragen: "Soll auf `<slug>` gewechselt werden? (`/prozessrecht:prozessrecht-mandat-arbeitsbereich wechseln <slug>`)"
+6. Nicht automatisch wechseln — fragen: "Soll auf `<slug>` gewechselt werden? (`/prozessrecht:mandat-arbeitsbereich wechseln <slug>`)"
 
 #### `liste`
 
@@ -199,7 +195,8 @@ Aufnahme abgeschlossen. Slug: `[slug]`. Status: aktiv.
 ## Quellenpflicht
 
 - Gesetzestexte: Paragrafen 43a, 45, 46, 50 BRAO; Paragraf 3 BORA; Art. 32 DSGVO; Paragraf 1 BDSG
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

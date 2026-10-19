@@ -1,6 +1,6 @@
 ---
 name: steuererklaerung-ohne-vollstaendige-belege-kammer
-description: "Wenn es um Steuererklaerung Ohne Vollstaendige Belege Kammer in Berufsrecht Steuerberater geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Steuererklärung ohne Vollständige Belege Kammer: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerberater: steuererklaerung ohne vollstaendige belege - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "plugin": "betreuungsrecht",
+  "reviewed_on": "2026-10-16",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1814.html",
+      "checked_on": "2026-09-14",
+      "supports": "Erforderlichkeit der Betreuung und Berücksichtigung anderer Hilfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
+      "checked_on": "2026-09-14",
+      "supports": "Unterstützte Selbstbesorgung, erforderlicher Vertretungseinsatz und Wünsche mit gesetzlichen Grenzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1835.html",
+      "checked_on": "2026-09-14",
+      "supports": "Vermögensverzeichnis zum Bestellungszeitpunkt, Einnahmen und Ausgaben, Belegpflicht und spätere Ergänzung."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rk20210331_1bvr041320.html",
+      "checked_on": "2026-09-22",
+      "supports": "Erneute Primärquellenprüfung: BVerfG, Beschluss vom 31.03.2021, 1 BvR 413/20, Randnummern 20, 23, 34 bis 35. Anwendung: Bei Ablehnung oder Entlassung eines gewünschten Angehörigen konkrete Eignung, familiäre Bindung und unterstützende Alternativen prüfen. Grenze: Kein absoluter Angehörigenvorrang; Entscheidung zu altem Betreuungsrecht, Übertragung nur mit aktuellen Paragrafen 1816, 1817 und 1868 BGB."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1816.html",
+      "checked_on": "2026-09-22",
+      "supports": "Auswahl nach Wunsch und Eignung; keine allein aus Verwandtschaft folgende Eignung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
+      "checked_on": "2026-09-22",
+      "supports": "Unterstützung, Wünsche und begrenzter Vertretungseinsatz."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1835.html",
+      "checked_on": "2026-09-22",
+      "supports": "Bestellungsstichtag, Belegpflicht und Ergänzung des Vermögensverzeichnisses."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1865.html",
+      "checked_on": "2026-09-22",
+      "supports": "Jährliche Rechnungslegung, Ab- und Zugang sowie Abgrenzung zum Bericht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1832.html",
+      "checked_on": "2026-09-22",
+      "supports": "Genehmigung ärztlicher Zwangsmaßnahmen; amtliche Fußnote enthält Fortgeltung und Neuregelungsauftrag bis Ende 2026. Keine abschließende Spezialprüfung der verfassungsrechtlichen Entscheidung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1833.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aufgabe selbst genutzten Wohnraums: unverzügliche Anzeige mit Gründen und Sichtweise, Genehmigung bestimmter Rechtsgeschäfte gesondert von Kündigung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2026/XII_ZB_171-26.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Beschluss vom 29.07.2026, XII ZB 171/26: Beschränkten Beschwerdegegenstand und fortbestehende Beteiligung des bestellten Verfahrenspflegers prüfen; anwaltliche Vertretung beendet Bestellung nicht automatisch. Grenze: Zurückverweisung zur Betreuerauswahl, keine automatische Aufhebung der gesamten Betreuung. Gelesener Umfang: Alle 7 PDF-Seiten einschließlich Rn. 1–12; tragend Rn. 5–11.",
+      "verification_status": "frisch_volltextpassagen",
+      "source_sha256": "baa9e51e8c323ddd6e0cdf8817cf78240a83ad687055c1e98536c72a551dafd7"
+    },
+    {
+      "url": "https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE",
+      "checked_on": "2026-10-16",
+      "supports": "EuGH, Urteil vom 15.10.2026, C-70/25, Tukowiecka, ECLI:EU:C:2026:852. Amtlicher deutscher Volltext über InfoCuria, Dokument 328145, Rn. 1–53 gelesen; Rn. 31–34, 38–42, 45–47 und 52 gesondert gegengelesen. Trägt: unverzügliche Erstattung nicht autorisierter Zahlungen trotz Vorwurfs grober Fahrlässigkeit; eng begrenzte Ausnahme bei begründetem Verdacht eines vom Zahler begangenen Betrugs mit schriftlicher Behördenmitteilung; spätere endgültige Verlusttragung gesondert. Trägt nicht: automatische Unautorisiertheit jeder durch Täuschung veranlassten Zahlung, endgültige Haftungsfreiheit des Kunden oder ein im Tenor ausdrücklich entschiedenes allgemeines deutsches Aufrechnungsverbot. Aufrechnung und Verfahrensgestaltung bleiben eigenständig unter Wahrung der unverzüglichen Erstattung zu prüfen.",
+      "does_not_support": "Trägt nicht: automatische Unautorisiertheit jeder durch Täuschung veranlassten Zahlung, endgültige Haftungsfreiheit des Kunden oder ein im Tenor ausdrücklich entschiedenes allgemeines deutsches Aufrechnungsverbot. Aufrechnung und Verfahrensgestaltung bleiben eigenständig unter Wahrung der unverzüglichen Erstattung zu prüfen.",
+      "source_status": "amtlicher Urteilsvolltext; Pressemitteilung nicht als Urteilsbeleg verwendet"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675j.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Einzelnormtext geöffnet und gelesen. Zustimmung zur konkreten Zahlung und deren vereinbarte Form; Anmeldung und Gerätebindung sind nicht automatisch Zahlungszustimmung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675u.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Einzelnormtext geöffnet und gelesen. Unverzügliche Erstattung und Kontowiederherstellung spätestens bis Ende des folgenden Geschäftstags; Kenntnis oder Anzeige sowie begründeter Zahlerbetrugsverdacht mit schriftlicher Behördenmitteilung gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675v.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Einzelnormtext geöffnet und gelesen. Gegenanspruch, schadensursächliche qualifizierte Pflichtverletzung und Haftungsausschlüsse prüfen. Bei Absätzen 4 und 5 ist grobe Fahrlässigkeit kein Ersatz für die dortige Ausnahme betrügerischer Absicht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675w.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Einzelnormtext geöffnet und gelesen. Banknachweise für Authentifizierung, Aufzeichnung, Verbuchung und Störungsfreiheit; Nutzung allein beweist nicht notwendig Zustimmung oder grobe Fahrlässigkeit. Unterstützende Beweismittel sind erforderlich."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__676b.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Einzelnormtext geöffnet und gelesen. Unverzügliche Unterrichtung nach Feststellung, Ausschlussfrist und deren Informationsvoraussetzungen getrennt prüfen; keine allgemeine dreizehnmonatige Bedenkzeit."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__675e.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Einzelnormtext geöffnet und gelesen. Tatsächliche zulässige Vertragsabweichungen prüfen. Absatz 4 nennt Paragraf 675u nicht; ein Geschäftskonto beseitigt dessen Erstattungsrecht nicht pauschal."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig auf Unterstützung, Vertretung und Bestellungsstichtag geprüft. Die Auswahl eines Angehörigen ist nun mit konkreter Eignungsprüfung und verfassungsrechtlichem Maßstab verbunden. Redaktioneller Desk-Review, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Gezielte Ergänzung 01.10.2026; Umfang und Quellenstatus im Breitenbericht. Redaktionelle Anschlussprüfung 16.10.2026: Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert. Keine neue fachliche Vollprüfung oder Live-Ausführung. 2026-10-16: Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten. Gezielter amtlicher Quellenabgleich und Änderungsreview, keine erneute Gesamtprüfung aller alten Quellen und kein Live-Modelltest.",
+    "changes": [
+      "BVerfG 1 BvR 413/20 in Wunsch- und Eignungsprüfung integriert, ohne Angehörigenvorrang zu behaupten.",
+      "Jahresbericht nach Paragraf 1863 und Rechnungslegung nach Paragraf 1865 BGB getrennt; Dokumentenstart und Fortsetzung erhalten.",
+      "Leer: Wohnungsentscheidung, Vermögensverzeichnis oder Gerichtsbericht. Dateien: still lesen und passendes Betreuungsdokument anbieten. Klar: direkt bestelltes Schreiben oder Verzeichnis erstellen.",
+      "Rückkehrwunsch ändert Wohnungsentscheidung; früher Erbanfall verändert Stichtagsvermögen statt bloßer Zahlungstagszuordnung.",
+      "Gezielter Rechtsprechungsabgleich 01.10.2026: 2026: Beteiligungs- und Rechtsmittelgrenze im Mini.",
+      "Ergänzung 08.10.2026: Altbeleg-Auswertung mit Kontenabstimmung, Belegfundstellen und Anschreiben; übrige historische Prüfungen wurden nicht erneut vollständig durchgeführt.",
+      "16.10.2026: Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert.",
+      "2026-10-16: Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten. Gezielter amtlicher Quellenabgleich und Änderungsreview, keine erneute Gesamtprüfung aller alten Quellen und kein Live-Modelltest."
+    ],
+    "sha256": "7e3489177e138ae11395a06f02c484c74e2ba200f257bac4a1d766b33ba5990b",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "previous_reviews": [
+      {
+        "sha256": "863526cf4c9c88edd1803a606b5180edf68312d095b162e10ffcc8c5f68ae60f",
+        "reviewed_on": "2026-10-16",
+        "method": "desk_review",
+        "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+      }
+    ],
+    "review_scope": "Fachliche Änderung zu C-70/25 und zugehörige Norm- und Übergangsstellen; vorbestehende Fachgebiete nur auf Widersprüche zur Ergänzung geprüft. Hash bezeichnet die gesamte aktuelle Datei, keinen Nachweis ihrer vollständigen Neuverifikation."
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie mein erstes Vermögensverzeichnis für die betreute Person aus den Kontoständen bei Bestellung.",
+      "Prüfen Sie, ob eine geplante Wohnungsaufgabe vom Betreuungsauftrag und den erforderlichen Genehmigungen gedeckt ist."
+    ],
+    "negative": [
+      "Berechnen Sie den Kindesunterhalt nach einer Trennung.",
+      "Erstellen Sie die Erbschaftsteuererklärung ohne Bezug zu einer laufenden Betreuung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "anfangsbestand-und-spaetere-erbschaft",
+      "request": "Frau Dorn wurde am 1. September 2026 zur Betreuerin von Herrn Seidel mit dem Aufgabenbereich Vermögenssorge bestellt. Zum Bestellungszeitpunkt bestanden Giroguthaben 4200 Euro, Sparguthaben 10000 Euro, Bargeld 180 Euro und eine unstreitige Darlehensschuld von 2000 Euro. Monatliche Rente 1650 Euro, Miete 620 Euro und Versicherungen 80 Euro sind regelmäßige Einnahmen beziehungsweise Ausgaben. Am 10. September erhielt Seidel zusätzlich 5000 Euro aus einer Erbschaft. Kontoauszüge und Darlehensbestätigung liegen Dorn vor, sind aber hier nicht angehängt. Erstellen Sie auf Basis dieser Angaben einen Entwurf des Vermögensverzeichnisses und ein Begleitschreiben an das Betreuungsgericht zum 14. September. Kennzeichnen Sie die noch beizufügenden Nachweise; behaupten Sie keine eigene Einsicht in diese Belege.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Anfangsbestand wird auf den 1. September bezogen, mit Aktiva von 14380 Euro und gesonderter Schuld von 2000 Euro; eine etwaige Nettoangabe beträgt 12380 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die 5000 Euro Erbschaft werden als späterer Hinzuerwerb beziehungsweise Ergänzung erfasst, nicht rückwirkend in den Anfangsbestand oder als regelmäßiges Einkommen eingeordnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Regelmäßige Einnahmen und Ausgaben stehen getrennt vom Vermögensbestand. Das Begleitschreiben benennt die noch beizufügenden Belege und gibt eine Versicherung nicht als bereits persönlich abgegeben aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "vermoegensverzeichnis-start"
+    },
+    {
+      "id": "altkonto-umbuchung-bargeld",
+      "target_skill": "unterlagen-auswerten-abrechnung-anschreiben",
+      "request": "Ich übernehme heute die Vermögenssorge. Bereiten Sie vorläufig nur diese Angaben als Einnahmen-Ausgaben- und Bestandsübersicht auf; Originalbelege sind hier nicht angehängt. Die Vorperiode zeigt: Giro Anfang 1000 EUR, Spar Anfang 2000 EUR; Rente auf Giro 1000 EUR; Übertrag Giro an eigenes Spar 500 EUR, dort ebenfalls gebucht; Giro Barabhebung 200 EUR, Verwendung unbekannt; Giro Streaming 12 EUR, ausdrücklich gewünscht. Giro Ende 1288 EUR, Spar Ende 2500 EUR. Eine unbezahlte Helferrechnung über 300 EUR liegt zusätzlich vor. Bezeichnen Sie die Rechnung nicht als Bankzahlung. Erklären Sie mir, was die Zahlen beweisen und was vor Maßnahmen fehlt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Giro 1288 EUR und Spar 2500 EUR werden je Konto abgestimmt. Gesamtbestand 3788 EUR und Zuwachs 788 EUR. Der interne Transfer wird konsolidiert nicht als Einkommen oder Aufwand doppelt gezählt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Externe Bankzuflüsse 1000 EUR und Bankabflüsse 212 EUR werden vom belegten Verbrauch getrennt. Die Verwendung der 200 EUR Bargeld bleibt offen; keine automatische Ausgaben- oder Missbrauchsfeststellung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "300 EUR Rechnung stehen als ungeklärte oder offene Forderung gesondert und verändern den belegten Bankendsaldo nicht. Streaming wird nicht gegen den ausdrücklichen Wunsch gekündigt. Keine Originalbelege als selbst gelesen behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig gelesen und veraltete Normzuordnungen sowie ungeprüfte Entscheidungslisten bereinigt. Eignung, Betreuungshandlung und gerichtliche Genehmigung werden fallbezogen zugeordnet. Redaktioneller Desk-Review, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Gezielte Ergänzung 01.10.2026; Umfang und Quellenstatus im Breitenbericht. Redaktionelle Anschlussprüfung 16.10.2026: Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert. Keine neue fachliche Vollprüfung oder Live-Ausführung. 2026-10-16: Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten. Gezielter amtlicher Quellenabgleich und Änderungsreview, keine erneute Gesamtprüfung aller alten Quellen und kein Live-Modelltest.",
+    "changes": [
+      "Aktuelle Betreuungsvorschriften für Wunsch, Auswahl, Vermögensverzeichnis, Rechnung und Genehmigungen präzisiert.",
+      "Familienkonflikt verlangt konkrete Eignungsfeststellungen und Prüfung von Hilfen; BVerfG-Gründe mit Grenze des Altrechts eingebaut.",
+      "Unverifizierte BGH-Aktenzeichen entfernt; detaillierte Alltags- und Berichtswege beibehalten.",
+      "Wohnungsanzeige und Genehmigung, Beschlussumfang, Interessenkonflikt, Kontenabgleich und wiedererlangte Selbstbesorgung vertieft.",
+      "Rückkehrwunsch ändert Wohnungsentscheidung; früher Erbanfall verändert Stichtagsvermögen statt bloßer Zahlungstagszuordnung.",
+      "Gezielter Rechtsprechungsabgleich 01.10.2026: 2026: Anhörungsteilnahme und Beschwerdeumfang.",
+      "Ergänzung 08.10.2026: Altbeleg-Auswertung mit Kontenabstimmung, Belegfundstellen und Anschreiben; übrige historische Prüfungen wurden nicht erneut vollständig durchgeführt.",
+      "16.10.2026: Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert.",
+      "2026-10-16: Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten. Gezielter amtlicher Quellenabgleich und Änderungsreview, keine erneute Gesamtprüfung aller alten Quellen und kein Live-Modelltest."
+    ],
+    "sha256": "3083ef5b8cb80f775a9eb594f027fcc7e7580e2beac6502bb2b53ac49f06f2dc",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "previous_reviews": [
+      {
+        "sha256": "10844b6361e545965b676bcda5ec1687c8451e9597e4dd0757c57c2756509c0f",
+        "reviewed_on": "2026-10-16",
+        "method": "desk_review",
+        "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+      }
+    ],
+    "review_scope": "Fachliche Änderung zu C-70/25 und zugehörige Norm- und Übergangsstellen; vorbestehende Fachgebiete nur auf Widersprüche zur Ergänzung geprüft. Hash bezeichnet die gesamte aktuelle Datei, keinen Nachweis ihrer vollständigen Neuverifikation."
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Wohnungsentscheidung, Vermögensverzeichnis oder Gerichtsbericht.",
+      "Dateien: still lesen und passendes Betreuungsdokument anbieten.",
+      "Klar: direkt bestelltes Schreiben oder Verzeichnis erstellen."
+    ],
+    "continuation": "Rückkehrwunsch ändert Wohnungsentscheidung; früher Erbanfall verändert Stichtagsvermögen statt bloßer Zahlungstagszuordnung.",
+    "enrichment": "Wohnungsanzeige und Genehmigung, Beschlussumfang, Interessenkonflikt, Kontenabgleich und wiedererlangte Selbstbesorgung vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "betreuungsrecht/betreuungsrecht-schnellstart.md",
+      "betreuungsrecht/betreuungsrecht-werkstatt.md"
+    ],
+    "opening_change": "Betreuungsbedarf, Aufgabenbereich, Wunsch und Vermögensführung statt allgemeiner Ergebnisbestellung; keine erneute Erhebung bekannter Angaben.",
+    "norms": [
+      "Paragrafen 1814, 1816, 1817, 1821, 1835, 1863, 1865 und 1868 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 31.03.2021, 1 BvR 413/20, Randnummern 20, 23, 34 bis 35",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rk20210331_1bvr041320.html",
+        "application": "Bei Ablehnung oder Entlassung eines gewünschten Angehörigen konkrete Eignung, familiäre Bindung und unterstützende Alternativen prüfen.",
+        "limit": "Kein absoluter Angehörigenvorrang; Entscheidung zu altem Betreuungsrecht, Übertragung nur mit aktuellen Paragrafen 1816, 1817 und 1868 BGB.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Beschluss vom 29.07.2026, XII ZB 171/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2026/XII_ZB_171-26.pdf?__blob=publicationFile&v=1",
+        "application": "Beschränkten Beschwerdegegenstand und fortbestehende Beteiligung des bestellten Verfahrenspflegers prüfen; anwaltliche Vertretung beendet Bestellung nicht automatisch.",
+        "limit": "Zurückverweisung zur Betreuerauswahl, keine automatische Aufhebung der gesamten Betreuung.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_volltextpassagen",
+        "passages_read": "Alle 7 PDF-Seiten einschließlich Rn. 1–12; tragend Rn. 5–11.",
+        "evidence_sha256": "baa9e51e8c323ddd6e0cdf8817cf78240a83ad687055c1e98536c72a551dafd7"
+      },
+      {
+        "citation": "EuGH, Urteil vom 15.10.2026, C-70/25, Tukowiecka, ECLI:EU:C:2026:852, Rn. 31–42, 45–47, 52",
+        "url": "https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE",
+        "application": "Trägt: Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten.",
+        "limit": "Trägt nicht: automatische Unautorisiertheit jeder durch Täuschung veranlassten Zahlung, endgültige Haftungsfreiheit des Kunden oder ein im Tenor ausdrücklich entschiedenes allgemeines deutsches Aufrechnungsverbot. Aufrechnung und Verfahrensgestaltung bleiben eigenständig unter Wahrung der unverzüglichen Erstattung zu prüfen.",
+        "checked_on": "2026-10-16",
+        "source_status": "amtlicher deutscher Volltext gelesen; Einzelfallübertragung gesondert geprüft"
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Primärquellenprüfung, kein Live-Modell- oder Mandantentest.",
+      "Keine vollständige Prüfung sämtlicher Vergütungs-, Genehmigungs- und landesrechtlicher Unterbringungsfragen; Paragraf 1832 BGB erfordert besondere Aktualitätsprüfung.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet.",
+      "2026-10-16: C-70/25 und die ausdrücklich neu datierten BGB-Einzelnormen gezielt geprüft. Kein erneuter Volltextcheck sämtlicher früherer Anker, kein Live-Modelltest."
+    ],
+    "c70_25_followup_on": "2026-10-16"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 29.07.2026, XII ZB 171/26",
+        "status": "frisch_volltextpassagen"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "unterlagen_review": {
+    "date": "2026-10-08",
+    "scope": "Neuer Unterlagen-Auswerter und eigenständige Unterlagen-Werkstatt; gezielte Routing- und Normkorrekturen. Keine Vollprüfung sämtlicher bestehender Spezialskills.",
+    "report": "quality/betreuungsrecht/README.md",
+    "source_report": "quality/betreuungsrecht/unterlagen-quellen-2026-10-08.md",
+    "skill_sha256": "a9d6bb645a8237921aec7731940d93fd13174cd3572d5e90284873df819c9002",
+    "prompt_sha256": "5c460d3388ffb13846a9b5fff85f673a877aa48dfb90952bfe6c6717c6621a82",
+    "editorial_update": {
+      "date": "2026-10-08",
+      "version": "445.33.3",
+      "scope": "Reine Namensumstellung auf Adelheid Pfister einschließlich Familie und Aktenpfaden. Keine erneute juristische Quellenprüfung oder unabhängige Anwendungsprobe; Zahlen, Sachverhalt und Methodik unverändert."
+    },
+    "opening_editorial_review": {
+      "date": "2026-10-16",
+      "reason": "Vermögensakte in Arbeitsmappe, Auswertungsvermerk und fertige Anschreiben überführen; Stichtagsverzeichnis, gerichtliche Rechnungslegung und historische Dreijahresauswertung auseinanderhalten.",
+      "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+      "sha256": "85f9bbbec3eea7a8b6f33e8307817d849fd05011df48ec47f75b6979b4e4c0c5"
+    },
+    "previous_review_before_c70_25": {
+      "date": "2026-10-08",
+      "scope": "Neuer Unterlagen-Auswerter und eigenständige Unterlagen-Werkstatt; gezielte Routing- und Normkorrekturen. Keine Vollprüfung sämtlicher bestehender Spezialskills.",
+      "skill_sha256": "bc2c28e060126f866dc7fc71d557204e0d3245a45c06a741692bca7110b72317",
+      "prompt_sha256": "85f9bbbec3eea7a8b6f33e8307817d849fd05011df48ec47f75b6979b4e4c0c5"
+    },
+    "latest_reviewed_on": "2026-10-16",
+    "latest_review_scope": "Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten. Ältere betreuungsrechtliche Quellen und die Testakte Pfister nicht erneut vollständig geprüft."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "batch": 1,
+    "date": "2026-10-16",
+    "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "reason": "Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert.",
+    "source_status": "Aus vorhandenen Prompt-/Eval-Nachweisen übernommen; Quellenstatus und Quellenprüfdaten unverändert.",
+    "files": [
+      {
+        "path": "betreuungsrecht/betreuungsrecht-schnellstart.md",
+        "sha256": "863526cf4c9c88edd1803a606b5180edf68312d095b162e10ffcc8c5f68ae60f",
+        "reason": "Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert.",
+        "anchor_or_exception": "Paragraf 1821 BGB; BVerfG 31.03.2021 1 BvR 413/20: konkrete Eignung und Hilfen, kein absoluter Angehörigenvorrang; früheres Recht an Paragrafen 1816, 1817, 1868 BGB anbinden. Spezialwerkstatt: Paragrafen 1835, 1865 BGB; BGH 21.01.2026 XII ZB 182/25, keine pauschale Geschäftsunfähigkeit aus Diagnose."
+      },
+      {
+        "path": "betreuungsrecht/betreuungsrecht-unterlagen-werkstatt.md",
+        "sha256": "85f9bbbec3eea7a8b6f33e8307817d849fd05011df48ec47f75b6979b4e4c0c5",
+        "reason": "Vermögensakte in Arbeitsmappe, Auswertungsvermerk und fertige Anschreiben überführen; Stichtagsverzeichnis, gerichtliche Rechnungslegung und historische Dreijahresauswertung auseinanderhalten.",
+        "anchor_or_exception": "Paragrafen 1835 und 1865 BGB; BGH 21.01.2026 XII ZB 182/25 Rn. 15 bis 20, 22, 28 bis 31: Geschäftsfähigkeit nach Zeitpunkt und konkreten Auswirkungen, keine pauschale Vertragsunwirksamkeit oder Angehörigenrückzahlung aus Diagnose."
+      },
+      {
+        "path": "betreuungsrecht/betreuungsrecht-werkstatt.md",
+        "sha256": "10844b6361e545965b676bcda5ec1687c8451e9597e4dd0757c57c2756509c0f",
+        "reason": "Wünsche, Aufgabenbereich und fertiges Gerichtsdokument zuerst; zusätzliche Unterlagen-Werkstatt mit Stichtags-/Rechnungslegungsgrenze gesondert verbessert.",
+        "anchor_or_exception": "Paragraf 1821 BGB; BVerfG 31.03.2021 1 BvR 413/20: konkrete Eignung und Hilfen, kein absoluter Angehörigenvorrang; früheres Recht an Paragrafen 1816, 1817, 1868 BGB anbinden. Spezialwerkstatt: Paragrafen 1835, 1865 BGB; BGH 21.01.2026 XII ZB 182/25, keine pauschale Geschäftsunfähigkeit aus Diagnose."
+      }
+    ]
+  },
+  "c70_25_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_sources_and_text_desk_review",
+    "scope": "Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten.",
+    "source_status": "C-70/25 amtlich im Volltext gelesen; neue Normnachweise nur für tatsächlich geöffnete Einzelnormtexte. Historische Quellenbefunde und Einschränkungen bleiben erhalten.",
+    "application": "Trägt: unverzügliche Erstattung und spätere Verlusttragung getrennt; konkrete Anwendung: Nicht autorisierte Altbelastungen zeitnah der Bank anzeigen, Aufgabenkreis und tatsächliche Zustimmung prüfen und Erstattung in Excel mit Ursprungsausgabe verbinden; keine Doppelzählung oder automatische Geschäftsunfähigkeit aus Betreuung ableiten.",
+    "limit": "Trägt nicht: automatische Unautorisiertheit jeder durch Täuschung veranlassten Zahlung, endgültige Haftungsfreiheit des Kunden oder ein im Tenor ausdrücklich entschiedenes allgemeines deutsches Aufrechnungsverbot. Aufrechnung und Verfahrensgestaltung bleiben eigenständig unter Wahrung der unverzüglichen Erstattung zu prüfen.",
+    "files": [
+      {
+        "path": "betreuungsrecht/betreuungsrecht-schnellstart.md",
+        "sha256": "7e3489177e138ae11395a06f02c484c74e2ba200f257bac4a1d766b33ba5990b"
+      },
+      {
+        "path": "betreuungsrecht/betreuungsrecht-werkstatt.md",
+        "sha256": "3083ef5b8cb80f775a9eb594f027fcc7e7580e2beac6502bb2b53ac49f06f2dc"
+      },
+      {
+        "path": "betreuungsrecht/skills/unterlagen-auswerten-abrechnung-anschreiben/SKILL.md",
+        "sha256": "a9d6bb645a8237921aec7731940d93fd13174cd3572d5e90284873df819c9002"
+      },
+      {
+        "path": "betreuungsrecht/betreuungsrecht-unterlagen-werkstatt.md",
+        "sha256": "5c460d3388ffb13846a9b5fff85f673a877aa48dfb90952bfe6c6717c6621a82"
+      }
+    ],
+    "model_execution": "Keine neue Live-Modellprüfung durchgeführt. Eval-Szenarien sind Prüfaufträge und Kriterien, keine bestandenen Modellausgaben.",
+    "hash_scope": "Aktuelle Promptdateien und gegebenenfalls Fokus-/Unterlagenskill; bei Commercial Courts nur der konkret geänderte Finance-Skill zusätzlich. Kein Hashinventar noch in Bearbeitung befindlicher weiterer Phishing-Skills."
+  }
+}

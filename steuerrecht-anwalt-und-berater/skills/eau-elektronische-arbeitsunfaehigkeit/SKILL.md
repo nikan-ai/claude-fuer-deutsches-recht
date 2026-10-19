@@ -1,6 +1,6 @@
 ---
 name: eau-elektronische-arbeitsunfaehigkeit
-description: "Wenn es um eAU — Elektronische Arbeitsunfaehigkeitsbescheinigung in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Eau Elektronische Arbeitsunfaehigkeit; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für eAU — Elektronische Arbeitsunfähigkeitsbescheinigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: eau-elektronische-arbeitsunfaehigkeit."
 ---
 
 # eAU — Elektronische Arbeitsunfaehigkeitsbescheinigung
@@ -102,5 +102,3 @@ Stand: 05/2026.
 - EFZG §§ 3, 5.
 - BMAS zum eAU-Verfahren.
 - GKV-Spitzenverband Rundschreiben.
-
-<!-- AUDIT 27.05.2026 | welle 6 | 1 Marker aufgeloest: 1 ersetzt (generischer Programmpfad-Hinweis, nicht versionsspezifisch belegbar, Verweis auf Onlinehilfe) -->

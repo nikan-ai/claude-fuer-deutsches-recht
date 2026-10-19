@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "plugin": "aktienrecht-hauptversammlung-ag-se",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__118a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Satzungsgrundlage und einzelne Teilnahmerechte der virtuellen Hauptversammlung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__243.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 3 differenziert technische Störungen nach Verschulden und Satzungsmaßstab; Absatz 4 behandelt Informationsrelevanz."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2022/II_ZR_208-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 25.03.2025 - II ZR 208/22, Rn. 18, 26, 30 bis 36: Bei nicht börsennotierter AG mit satzungsmäßiger Öffnungsklausel für gleichwertige Nachweise Zuverlässigkeit einer anwaltlichen Verwahrbescheinigung und Zulassung zur Hauptversammlung prüfen. Grenze: Kein allgemeiner Eigentumsnachweis und keine Übertragung der gesetzlichen Nachweisfiktion auf jede Satzung; Präsenzsachverhalt aus 2020, keine Entscheidung über heutige virtuelle Versammlungsrechte."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__123.html",
+      "checked_on": "2026-09-22",
+      "supports": "AktG Paragraf 123: Teilnahmevoraussetzungen und gesetzlicher Nachweis börsennotierter Gesellschaften; Satzung nicht ungeprüft gleichsetzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__243.html",
+      "checked_on": "2026-09-23",
+      "supports": "Absatz 3: technische Störung, Verschuldensschwelle und strengerer Satzungsmaßstab; keine Gleichsetzung jeder Organisation mit Technik."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/aktg/__246.html",
+      "checked_on": "2026-09-23",
+      "supports": "Absatz 1: Anfechtung binnen eines Monats nach Beschlussfassung; amtlicher Normtext über Primärquellensuche gelesen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Schnellstart benötigte für den Teilnahmeausschluss einen belastbaren Maßstab statt pauschaler Nachweisbegriffe; II ZR 208/22 ist nun bei der satzungsmäßigen Nachweisprüfung anzuwenden. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Redaktionelle Anschlussprüfung 16.10.2026: Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "Nachweis eines Aktionärs am Satzungswortlaut und an der Verwahrbescheinigung prüfen.",
+      "Börsennotierte und nicht börsennotierte AG sowie historische Präsenz-HV unterscheiden; virtuelle Rechte bleiben eigenständig.",
+      "Leerstart: Einladung, Leitungsskript oder Beschlussmängelprüfung anbieten. Dateien: Satzung und Versammlungsunterlagen still lesen; passende zwei bis drei Produkte klären. Klarer Auftrag: Gewähltes HV-Dokument unmittelbar ausarbeiten.",
+      "Abgelaufene Ermächtigung sperrt virtuellen Einladungstext; wiederhergestellte Videoanträge führen zu dokumentierter Wiederaufnahme.",
+      "16.10.2026: Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt."
+    ],
+    "sha256": "f7748420446892d7f18647d3c29b2572fbd6e8d447768ea43a68dd6be9bf6996",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie das Drehbuch unserer virtuellen AG-Hauptversammlung bei Ausfall der Video-Wortmeldungen.",
+      "Erstellen Sie aus Satzung und Einladung einen HV-Fristenkalender."
+    ],
+    "negative": [
+      "Bereiten Sie eine GmbH-Gesellschafterversammlung vor.",
+      "Prüfen Sie ausschließlich Insiderhandelsregeln für einen privaten Aktienverkauf."
+    ]
+  },
+  "cases": [
+    {
+      "id": "videoantraege-dienstleisterausfall",
+      "request": "Erstellen Sie ergebnis.md als Maßnahmen- und Risikovermerk für die Leitung einer nicht börsennotierten AG. Die HV am 14.09.2026 findet virtuell statt. Die seit 01.07.2025 eingetragene Satzung ermächtigt den Vorstand bis 30.06.2028 dazu; dieser hat die virtuelle Form beschlossen. Kein strengerer Verschuldensmaßstab steht in der Satzung. Um 11 Uhr fallen bei allen zugeschalteten Aktionären Video-Wortmeldungen und Videoanträge aus. Stream, Briefwahl und elektronischer Widerspruch funktionieren. Der Dienstleister hatte gestern vor einem ungepatchten Fehler gewarnt; die Projektleitung hat den Test aus Zeitgründen abgesagt. Ein Aktionär möchte vor der noch nicht begonnenen Abstimmung einen Gegenantrag stellen. Über Wiederherstellungsdauer liegen keine Daten vor. Bewerten Sie die Lage und entwerfen Sie eine konkrete Ansage der Leitung; keine Klage verfassen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft die vorhandene Ermächtigung und unterscheidet ausgefallene Videoanträge und Rederechte von weiterhin funktionierender Übertragung und Stimmabgabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Bewertet Warnung und unterlassenen Test beim Verschulden, statt aus dem technischen Ausfall automatisch Nichtigkeit oder vollständige Anfechtungsfreiheit abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert eine ausformulierte Ansage mit Unterbrechungs- oder Wiederaufnahmeplan und Sicherung des Antragsrechts, ohne unbekannte Wiederherstellungszeiten zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "technische-stoerung-virtuelle-hv"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt enthielt isolierte Entscheidungsnamen. Sie prüft nun Satzungsöffnung, Zuverlässigkeit des Nachweises und Grenzen der gesetzlichen Nachweisfiktion anhand der amtlichen Entscheidung. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Redaktionelle Anschlussprüfung 16.10.2026: Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "Nachweis eines Aktionärs am Satzungswortlaut und an der Verwahrbescheinigung prüfen.",
+      "Börsennotierte und nicht börsennotierte AG sowie historische Präsenz-HV unterscheiden; virtuelle Rechte bleiben eigenständig.",
+      "Satzung zur Einladung, streitiger Teilnahmenachweis, störungsabhängige Ansagen, Verschuldensbelege und Monatsfrist der Anfechtung.",
+      "Abgelaufene Ermächtigung sperrt virtuellen Einladungstext; wiederhergestellte Videoanträge führen zu dokumentierter Wiederaufnahme.",
+      "16.10.2026: Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt."
+    ],
+    "sha256": "a39f27e034d3003a630dae44b16598be18310daefcebf4ad039db9282de2b2c8",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Einladung, Leitungsskript oder Beschlussmängelprüfung anbieten.",
+      "Dateien: Satzung und Versammlungsunterlagen still lesen; passende zwei bis drei Produkte klären.",
+      "Klarer Auftrag: Gewähltes HV-Dokument unmittelbar ausarbeiten."
+    ],
+    "continuation": "Abgelaufene Ermächtigung sperrt virtuellen Einladungstext; wiederhergestellte Videoanträge führen zu dokumentierter Wiederaufnahme.",
+    "enrichment": "Satzung zur Einladung, streitiger Teilnahmenachweis, störungsabhängige Ansagen, Verschuldensbelege und Monatsfrist der Anfechtung.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "aktienrecht-hauptversammlung-ag-se/README.md",
+      "aktienrecht-hauptversammlung-ag-se/aktienrecht-hauptversammlung-ag-se-werkstatt.md",
+      "aktienrecht-hauptversammlung-ag-se/aktienrecht-hauptversammlung-ag-se-schnellstart.md",
+      "quality/evals/aktienrecht-hauptversammlung-ag-se.json"
+    ],
+    "opening_change": "Einberufung, Teilnahmeberechtigung und Zählung werden unmittelbar auf den Bestand des konkret gefassten HV-Beschlusses bezogen.",
+    "norms": [
+      "AktG Paragraf 123",
+      "AktG Paragraf 118a",
+      "AktG Paragraf 243"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 25.03.2025 - II ZR 208/22, Rn. 18, 26, 30 bis 36",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2022/II_ZR_208-22.pdf?__blob=publicationFile&v=1",
+        "application": "Bei nicht börsennotierter AG mit satzungsmäßiger Öffnungsklausel für gleichwertige Nachweise Zuverlässigkeit einer anwaltlichen Verwahrbescheinigung und Zulassung zur Hauptversammlung prüfen.",
+        "limit": "Kein allgemeiner Eigentumsnachweis und keine Übertragung der gesetzlichen Nachweisfiktion auf jede Satzung; Präsenzsachverhalt aus 2020, keine Entscheidung über heutige virtuelle Versammlungsrechte."
+      }
+    ],
+    "remaining_limits": [
+      "SE-Sonderrecht, Mitbestimmung und einzelne virtuelle Versammlungsrechte nicht umfassend neu verifiziert.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  },
+  "prompt_opening_review_2026_10_16": {
+    "batch": 1,
+    "date": "2026-10-16",
+    "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "reason": "Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt.",
+    "source_status": "Aus vorhandenen Prompt-/Eval-Nachweisen übernommen; Quellenstatus und Quellenprüfdaten unverändert.",
+    "files": [
+      {
+        "path": "aktienrecht-hauptversammlung-ag-se/aktienrecht-hauptversammlung-ag-se-schnellstart.md",
+        "sha256": "f7748420446892d7f18647d3c29b2572fbd6e8d447768ea43a68dd6be9bf6996",
+        "reason": "Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt.",
+        "anchor_or_exception": "Paragrafen 118a und 123 AktG; BGH 25.03.2025 II ZR 208/22: satzungsmäßiger Nachweis bei nicht börsennotierter AG, keine allgemeine Aussage zu Eigentum oder virtuellen Rechten."
+      },
+      {
+        "path": "aktienrecht-hauptversammlung-ag-se/aktienrecht-hauptversammlung-ag-se-werkstatt.md",
+        "sha256": "a39f27e034d3003a630dae44b16598be18310daefcebf4ad039db9282de2b2c8",
+        "reason": "Versammlungsunterlagen und konkrete Teilnahmeentscheidung im Einstieg benannt.",
+        "anchor_or_exception": "Paragrafen 118a und 123 AktG; BGH 25.03.2025 II ZR 208/22: satzungsmäßiger Nachweis bei nicht börsennotierter AG, keine allgemeine Aussage zu Eigentum oder virtuellen Rechten."
+      }
+    ]
+  }
+}

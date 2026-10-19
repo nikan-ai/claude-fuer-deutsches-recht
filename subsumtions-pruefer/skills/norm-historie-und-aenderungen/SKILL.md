@@ -1,6 +1,6 @@
 ---
 name: norm-historie-und-aenderungen
-description: "Wenn es um Norm-Historie und Änderungen in Subsumtions-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Norm-Historie und Änderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Norm-Historie und Änderungen
@@ -27,11 +27,7 @@ description: "Wenn es um Norm-Historie und Änderungen in Subsumtions-Prüfer ge
 - Art. 103 Abs. 2 GG — Rückwirkungsverbot im Strafrecht (nulla poena sine lege)
 - Art. 20 Abs. 3 GG — Rechtsstaatsprinzip: Vertrauensschutz gegen echte Rückwirkung
 - Art. 49 GRCh — Rückwirkungsverbot auf Unionsebene
-- Art. 99 KI-VO — gestaffeltes Inkrafttreten (August 2024 - August 2027)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Artikel 113 KI-Verordnung regelt Inkrafttreten und Anwendungsdaten; Artikel 111 Übergänge, Artikel 99 Sanktionen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Prüfungsschritte
 
@@ -59,7 +55,7 @@ Liegt das Ereignis vor einer bekannten Normänderung?
 Bekannte wichtige Zäsuren:
 - Schuldrechtsmodernisierungsgesetz 01.01.2002 (BGB-Schuldrecht)
 - DSGVO-Geltungsbeginn 25.05.2018 (Datenschutz)
-- KI-VO Inkrafttreten 01.08.2024; Anwendung gestaffelt bis 2027
+- KI-Verordnung in Kraft seit 01.08.2024; Pflichten und Übergänge nach Artikel 111/113 getrennt datieren. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Telekommunikationsmodernisierungsgesetz 12.2021 (TKG)
 
 ### Schritt 3 — Übergangsvorschriften
@@ -92,7 +88,5 @@ Das System gibt in jedem Fall den Hinweis: "Diese Angaben zur Normfassung entspr
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
 
-<!-- AUDIT 27.05.2026 bundle_044
- → Falsche Rechtsprechungszeile entfernt
- → kein gesicherter Ersatz für lex-temporis-actus-Aussage gefunden; Grundsatz weiterhin durch BVerfG Art. 20 Abs. 3 GG / lizenzpflichtige Literaturquelle BGB Einl. gedeckt
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie jedes Merkmal anhand eines bezeichneten Aktenbelegs und führen Sie die stärkste Gegenposition aus. Rechtsprechung zu verwandten Normen ist als begrenztes Argument und nicht als Ersatz des konkreten Tatbestands einzusetzen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

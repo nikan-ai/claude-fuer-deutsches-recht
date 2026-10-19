@@ -1,6 +1,6 @@
 ---
 name: eigenbedarfskuendigung-erstellen
-description: "Wenn es um Eigenbedarfskündigung erstellen (Vermieter / Hausverwaltung) in Mietrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Eigenbedarfskündigung erstellen (Vermieter / Hausverwaltung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Eigenbedarfskündigung erstellen (Vermieter / Hausverwaltung)
@@ -19,8 +19,6 @@ Vermietersicht — entwerfe eine ordentliche Kündigung wegen Eigenbedarfs nach 
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Eigenbedarfskündigung erstellen (Vermieter / Hausverwaltung)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -70,7 +68,7 @@ Der Mieter kann der Kündigung widersprechen wenn:
 
 - Beendigung eine **Härte** bedeutet die auch unter Würdigung der berechtigten Interessen des Vermieters nicht zu rechtfertigen ist.
 - Klassische Härtefälle: hohes Alter Krankheit Schwangerschaft fehlender Ersatzwohnraum.
-- Widerspruch ist spätestens **zwei Monate vor Ende** der Mietzeit zu erklären (§ 574b Abs. 2 BGB).
+- Widerspruch ist in **Textform** spätestens **zwei Monate vor Ende** der Mietzeit zu erklären ([§ 574b Abs. 1 und 2 BGB](https://www.gesetze-im-internet.de/bgb/__574b.html)); keine eigenhändige Unterschrift erforderlich.
 - Rechtsfolge: Fortsetzung des Mietverhältnisses für angemessene Zeit (§ 574a BGB).
 
 Der Vermieter muss im Kündigungsschreiben auf das Widerspruchsrecht hinweisen (§ 568 Abs. 2 BGB) — sonst verlängerte Widerspruchsfrist.
@@ -97,7 +95,7 @@ Erzeuge ein Kündigungsschreiben mit:
 3. Bezugnahme auf den Mietvertrag (Datum Mietsache).
 4. Kündigungserklärung mit konkretem Endtermin.
 5. Begründung nach § 573 Abs. 3 BGB: begünstigte Person Verhältnis Wohnsituation Bedarfslage.
-6. Hinweis auf das Widerspruchsrecht des Mieters nach § 574 BGB und die Widerspruchsfrist nach § 574b Abs. 2 BGB.
+6. Hinweis auf das Widerspruchsrecht des Mieters nach § 574 BGB, die Textform nach § 574b Abs. 1 BGB und die Widerspruchsfrist nach § 574b Abs. 2 BGB.
 7. Eigenhaendige Unterschrift aller Vermieter.
 8. **Disclaimer** — Hinweis dass der Mieter sich beraten lassen sollte (Mieterverein Fachanwalt).
 
@@ -118,7 +116,7 @@ Weitere Entscheidungen vor Ausgabe per dejure.org / bundesgerichtshof.de mit Dat
 
 ## Paragrafenkette Eigenbedarfskündigung
 
-§ 573 Abs. 2 Nr. 2 BGB (berechtigtes Interesse Eigenbedarf) → § 573 Abs. 3 BGB (Begründungspflicht) → § 573c BGB (Kündigungsfristen) → § 568 Abs. 1 BGB (Schriftform) → § 568 Abs. 2 BGB (Widerspruchshinweis) → § 574 BGB (Sozialklausel Widerspruch) → § 574b BGB (Widerspruchsfrist 2 Monate) → § 577a BGB (Sperrfrist nach Umwandlung) → § 280 BGB (Schadensersatz bei vorgetäuschtem Eigenbedarf)
+§ 573 Abs. 2 Nr. 2 BGB (berechtigtes Interesse Eigenbedarf) → § 573 Abs. 3 BGB (Begründungspflicht) → § 573c BGB (Kündigungsfristen) → § 568 Abs. 1 BGB (Schriftform) → § 568 Abs. 2 BGB (Widerspruchshinweis) → § 574 BGB (Sozialklausel Widerspruch) → § 574b BGB (Textform des Widerspruchs, Widerspruchsfrist 2 Monate) → § 577a BGB (Sperrfrist nach Umwandlung) → § 280 BGB (Schadensersatz bei vorgetäuschtem Eigenbedarf)
 
 ## Triage vor Erstellung Eigenbedarfskündigung
 
@@ -158,7 +156,7 @@ Die aktuelle Unterkunft ist nicht zumutbar, weil [BEDARFSGRUND: zu klein/zu weit
 Hinweis auf Widerspruchsrecht (§ 574 BGB):
 Sie können der Kündigung widersprechen, wenn die Beendigung des Mietverhältnisses
 für Sie eine unzumutbare Härte bedeutet. Der Widerspruch muss spätestens zwei Monate
-vor Ablauf der Kündigungsfrist schriftlich erfolgen (§ 574b Abs. 2 BGB).
+vor Ablauf der Kündigungsfrist in Textform erklärt werden (§ 574b Abs. 1 und 2 BGB).
 
 Mit freundlichen Grüßen
 [EIGENHAENDIGE UNTERSCHRIFT ALLER VERMIETER]
@@ -166,11 +164,6 @@ Mit freundlichen Grüßen
 
 **Hinweis:** Vor Versand fachanwaltliche Prüfung empfohlen.
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Quelle: dejure.org. Prufer: Bundle-005-Audit.
--->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -179,4 +172,3 @@ Quelle: dejure.org. Prufer: Bundle-005-Audit.
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-

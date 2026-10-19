@@ -1,6 +1,6 @@
 ---
 name: fristenbuch-steuerrecht
-description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fristenbuch Steuerrecht; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Fristenbuch Steuerrecht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: fristenbuch-steuerrecht."
 ---
 
 # Fristenbuch Steuerrecht
@@ -18,10 +18,6 @@ description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberate
 3. Fehlt die Rechtsbehelfsbelehrung oder ist sie fehlerhaft? → Jahresfrist (§ 356 AO), aber nicht warten — so früh wie möglich handeln
 4. Liegt bereits Fristversäumnis vor? → Wiedereinsetzung § 110 AO prüfen (Frist ein Monat nach Wegfall des Hindernisses)
 5. Besteht Festsetzungsverjährungs-Problematik (§ 169 AO)? → Ablaufhemmung prüfen (§ 171 AO)
-
-## Aktuelle Rechtsprechung (Fristen)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentralablage
 
@@ -94,6 +90,8 @@ description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberate
 - **Pflichtveranlagung** sieben Monate nach Ablauf des Kalenderjahrs (§ 149 Abs. 2 AO).
 - **Bei steuerlicher Vertretung** durch Steuerberater Verlängerung bis Ende Februar des übernächsten Jahres (§ 149 Abs. 3 AO).
 
+Jahresbezogene Übergänge nach Artikel 97 Paragraf 36 EGAO und eine Vorabanforderung gesondert prüfen. Für zusätzliche Verlängerung beratener Erklärungsfristen gilt Paragraf 109 Absatz 2 AO: [BFH, Beschluss vom 18.09.2026, X B 121/25](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202650166/), Rn. 17–22 und 38, verlangt fehlendes Verschulden nach den Wiedereinsetzungsmaßstäben; Verschulden von Vertreter oder Erfüllungsgehilfen ist zurechenbar. Arbeitslast und Rückstände des Finanzamts in anderen Fällen reichen nicht. Ausfallzeit, Gesamtpersonal, zumutbare Abhilfen und konkrete Auswirkungen am Fristende erheben und den Verlängerungsantrag damit begründen. Keine automatische Verlängerung durch Antragstellung eintragen; Entscheidung und Nachweis sichern. Amtlicher Volltext und Paragraf 109 am 16.10.2026 gelesen. Kein generelles Verlängerungsverbot, keine Übertragung auf Einspruchsfristen; die Nichtzulassungsbeschwerde blieb erfolglos.
+
 ### USt-Voranmeldung (§ 18 UStG)
 
 - **Monatlich** wenn Steuer im Vorjahr über 7500 EUR; **vierteljaehrlich** sonst.
@@ -125,3 +123,4 @@ description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberate
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

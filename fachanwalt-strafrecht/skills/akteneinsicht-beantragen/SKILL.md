@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-beantragen
-description: "Wenn es um Akteneinsicht Paragraf 147 StPO: Verteidigerrecht nach Abs in Fachanwalt Strafrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Akteneinsicht Paragraf 147 StPO: Verteidigerrecht nach Abs: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Akteneinsicht § 147 StPO: Verteidigerrecht nach Abs
@@ -31,7 +31,6 @@ description: "Wenn es um Akteneinsicht Paragraf 147 StPO: Verteidigerrecht nach 
 - Recht auf Akteneinsicht nach § 147 Abs. 1 StPO: Verteidiger darf die dem Gericht vorliegenden oder im Falle der Erhebung der Anklage vorzulegenden Akten einsehen und amtlich verwahrte Beweisstücke besichtigen.
 - Versagungsgrund § 147 Abs. 2 StPO: solange der Abschluss der Ermittlungen noch nicht in den Akten vermerkt ist, können Akteneinsicht, einzelne Aktenteile oder die Besichtigung amtlich verwahrter Beweisgegenstände nur versagt werden, soweit der Untersuchungszweck gefährdet werden kann.
 - Haftsachen: Befindet sich der Beschuldigte in Untersuchungshaft oder ist diese im Fall vorläufiger Festnahme beantragt, sind die für die Beurteilung der Freiheitsentziehung wesentlichen Informationen zugänglich zu machen; regelmäßig ist insoweit Akteneinsicht zu gewähren (§ 147 Abs. 2 S. 2 StPO).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Nicht verteidigter Beschuldigter: Seit dem 1.1.2018 (Gesetz vom 5.7.2017, BGBl I S. 2208) eigenes Akteneinsichtsrecht in entsprechender Anwendung der Abs. 1–3 (§ 147 Abs. 4 Satz 1 StPO); bei Papierakten Bereitstellung von Kopien möglich (§ 147 Abs. 4 Satz 2 StPO). Die alte Regelung (nur Auskünfte oder Abschriften nach § 147 Abs. 7 StPO a.F.) ist mit dieser Reform weggefallen.
 - Nebenkläger und Verletzte: § 406e StPO — eingeschränkt bei berechtigtem Interesse.
 - Elektronische Akteneinsicht nach § 32f StPO in Verbindung mit eAkte StPO.
@@ -93,7 +92,7 @@ Mit kollegialen Gruessen
 ## Aktuelle Rechtsprechung Akteneinsicht (Stand Mai 2026)
 
 - BVerfG-Linie zur Akteneinsicht in Haftsachen: bei Untersuchungshaft sind alle haftrelevanten Aktenteile zugaenglich zu machen, sonst Verstoss gegen Art. 103 Abs. 1 GG (siehe BVerfG 04.10.2017 — 2 BvR 1198/17 und Fortgeltung). Offene Fundstelle (Verzeichnis): https://dejure.org/dienste/lex/StPO/147/1.html
-- BVerfG 23.09.2025 — 2 BvR 625/25 (ANOM): Bei ANOM-Datensaetzen ist die Verteidigung auf Akteneinsicht in die Auswertungs- und Authentifizierungsprotokolle angewiesen; Aktualisierungen vor Ausgabe live in bverfg.de prüfen. Offene Fundstelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BVerfG&Datum=23.09.2025&Aktenzeichen=2+BvR+625/25
+- BVerfG, Beschluss vom 23.09.2025 — 2 BvR 625/25 (ANOM): Die Verfassungsbeschwerde wurde nicht zur Entscheidung angenommen. Nach dem dortigen Vortrag begegnete die Verwertung der aus den USA übermittelten ANOM-Daten keinen verfassungsrechtlichen Bedenken. Die Entscheidung begründet kein allgemeines Recht auf Auswertungs- oder Authentifizierungsprotokolle; ein konkretes Einsichts- oder Beweisantragsbegehren ist daher aus Aktenbestand, Paragraf 147 StPO, Aufklärungspflicht und behauptetem Verwertungsmangel herzuleiten. Amtliche Quelle: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/09/rk20250923_2bvr062525.html
 - Hinweis: Eine spezifische BGH-Leitentscheidung 2025/2026 zu § 147 StPO ist Stand Mai 2026 nicht im Volltext zugänglich; vor Ausgabe Aktenzeichen-Recherche unter "§ 147 StPO Akteneinsicht" durchführen.
 
 ## Normen Akteneinsicht

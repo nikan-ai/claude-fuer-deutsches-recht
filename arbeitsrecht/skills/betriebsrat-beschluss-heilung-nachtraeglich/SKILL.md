@@ -1,6 +1,6 @@
 ---
 name: betriebsrat-beschluss-heilung-nachtraeglich
-description: "Wenn es um Betriebsrat Beschluss Heilung Nachtraeglich in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Betriebsrat Beschluss Heilung Nachträglich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Betriebsrat Beschluss Heilung Nachtraeglich: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -20,8 +20,6 @@ description: "Wenn es um Betriebsrat Beschluss Heilung Nachtraeglich in Arbeitsr
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Betriebsratsbeschluss — Heilung nachträglich` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -36,7 +34,6 @@ description: "Wenn es um Betriebsrat Beschluss Heilung Nachtraeglich in Arbeitsr
  - Leitsatz 1: Paragraf 25 Abs. 2 BetrVG ist wesentliche Verfahrensvorschrift
  - Leitsatz 2: Betriebsrat kann Freistellung von Anwaltskosten auch dann verlangen, wenn er einer zunächst auf einem unwirksamen Beschluss beruhenden Beauftragung durch späteren ordnungsgemäßen Beschluss zustimmt
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Kernaussage der neuen Linie
 
@@ -47,7 +44,6 @@ Ein Betriebsratsbeschluss, der wegen Verstoßes gegen wesentliche Verfahrensvors
 | Gegenstand | Zeitliche Grenze der Heilung |
 |----|----|
 | **Zulässigkeit** eines im Beschlussverfahren gestellten Antrags | Bis zum Ergehen einer Prozessentscheidung über die Zulässigkeit (in der jeweiligen Instanz, jedenfalls bis zum Abschluss der Tatsacheninstanz) |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | **Erforderlichkeitsprüfung** der Anwaltskosten | Keine separate zeitliche Begrenzung mehr; Rückwirkung der Genehmigung wird nicht durch die Erforderlichkeitsprüfung relativiert, sofern der nachgeholte Beschluss einen bereits zuvor — wenn auch fehlerhaft — gebildeten Willen verfahrenskonform bestätigt |
 
 ### Was die Heilung bewirkt
@@ -139,7 +135,6 @@ Auch nach Heilung muss die Erforderlichkeit der Anwaltskosten nach Paragraf 40 A
 |----|----|----|
 | Anwaltsbeauftragung mit unwirksamem Beschluss; vor Klageerhebung Heilungsbeschluss | Ja | Klar zulässig |
 | Anwaltsbeauftragung; Klage bereits anhängig; Heilung in erster Instanz | Ja | Wirkt rückwirkend |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | Anwaltsbeauftragung; Verfahren beendet; nachträgliche Heilung für Kostenfreistellung | Ja | Leitsatz 2 ausdrücklich |
 | Ursprünglicher Beschluss wegen Quorum-Mangels (Paragraf 33 Abs. 2 BetrVG) | Nicht klassisch heilbar | Neuer Beschluss mit Quorum nötig, der Vertrag muss dann durch konstitutiven neuen Beschluss bestätigt werden |
 | Heilungssitzung wiederum mit fehlerhafter Besetzung | Nein — Heilung selbst unwirksam | Saubere zweite Sitzung erforderlich |

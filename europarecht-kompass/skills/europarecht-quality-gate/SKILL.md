@@ -1,6 +1,6 @@
 ---
 name: europarecht-quality-gate
-description: "Wenn es um Europarecht-Qualitätstor in Europarecht-Kompass für deutsche Juristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Europarecht-Qualitätstor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Europarecht-Qualitätstor
@@ -39,7 +39,6 @@ Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf 
 
 ## Vertiefung: Prüfpunkte und Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage Quality Gate
 
@@ -76,3 +75,5 @@ Ergebnis: [ ] Freigabe [ ] Nacharbeit erforderlich — [Punkt]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

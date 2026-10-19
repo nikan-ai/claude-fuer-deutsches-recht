@@ -1,6 +1,6 @@
 ---
 name: ki-incident-detection
-description: "Wenn es um digitale Werkzeuge Incident Detection in NIS-2, Cybersecurity und IT-Sicherheits-Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für digitale Werkzeuge Incident Detection: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI Incident Detection
@@ -46,6 +46,8 @@ Dieser Skill arbeitet nicht als abstraktes Merkblatt. Er zwingt die Nutzerin ode
 - Es fehlt die Trennung zwischen Pflicht, Best Practice, Vertragsstandard und bloßem Managementwunsch.
 - Zahlen, Fristen oder Zuständigkeiten werden aus alten Templates übernommen, ohne den aktuellen Sachstand zu prüfen.
 - Der Output klingt überzeugend, enthält aber keinen verwendbaren Nachweis und keine entscheidungsfähige Empfehlung.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Führen Sie Cybervorfall, Datenschutzverletzung und schwerwiegenden KI-Vorfall in getrennten Prüfspuren. Ein gemeinsamer Zeitstrahl erleichtert den Abgleich, setzt aber die gesetzlichen Voraussetzungen und Empfänger nicht gleich. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

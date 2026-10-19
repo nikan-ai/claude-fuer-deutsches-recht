@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Gewerblicher Rechtsschutz."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Fachanwalt Gewerblicher Rechtsschutz** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -28,14 +26,14 @@ Dieser Dokumenten-Intake für **Fachanwalt Gewerblicher Rechtsschutz** ordnet An
 
 - `abmahnung-formular-portal-und-einreichung` — Abmahnung Bezuege Designg
 - `workflow-chronologie-und-belegmatrix` — Chronologie Belegmatrix Fristen Risikoampel
-- `designeintragung-neuheit-paragraf-3-designg-eugh` — Designeintragung Neuheit Paragraf 3 Designg Eugh
-- `designschutz-eu-gemeinschaftsgeschmacksmuster-eugh-c-419-13` — Designschutz EU Gemeinschaftsgeschmacksmuster Eugh C 419 13
+- `design-neuheit-offenbarung-pruefen` — Designneuheit und Offenbarung prüfen
+- `eu-design-schutzumfang-gesamteindruck-pruefen` — Schutzumfang eines Unionsdesigns prüfen
 - `designverletzung-fehlerkatalog` — Designverletzung Fehlerkatalog
 - `designverletzung` — Designverletzung Marken Widerspruch
-- `domainrecht-loeschung-bgh-i-zr-138-19` — Domainrecht Loeschung BGH I ZR 138 19
+- `domainrecht-loeschung-und-uebertragung-pruefen` — 1. Domainkonflikt bearbeiten
 - `dpma-mehrparteien-konflikt-und-interessen` — Dpma Interessen Einstweilige Euipo
 - `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme Abmahnung UWG
-- `eu-warenmarke-loeschung-eugh-c-541-18` — EU Warenmarke Loeschung Eugh C 541 18
+- `hashtagmarke-unterscheidungskraft-pruefen` — Hashtagmarke und Unterscheidungskraft prüfen
 - `einstieg-schnelltriage-fallrouting` — FA Gewerblicher RS GR Abmahnung Portfolio
 - `erstpruefung-und-mandatsziel` — Fachanwalt FAO Gebrmg
 - `workflow-redteam-qualitygate` — Faevvollzug Abschlussschreiben Lizenzanaloger

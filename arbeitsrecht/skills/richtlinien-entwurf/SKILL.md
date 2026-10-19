@@ -1,6 +1,6 @@
 ---
 name: richtlinien-entwurf
-description: "Wenn es um Richtlinien Entwurf in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Richtlinien Entwurf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Entwirft eine betriebliche Regelung (Richtlinie, Betriebsordnung, Policy) mit standortspezifischen Ergänzungen, wo das Recht oder Tarifverträge abweichende Regeln erfordern
@@ -20,8 +20,6 @@ description: "Wenn es um Richtlinien Entwurf in Arbeitsrecht geht: prüft Frist,
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Richtlinien-Entwurf (Arbeitsrecht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -62,11 +60,9 @@ description: "Wenn es um Richtlinien Entwurf in Arbeitsrecht geht: prüft Frist,
 
 **Leitentscheidungen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Betriebliche Übung als Anspruchsgrundlage; einseitige Verschlechterung
  einer durch betriebliche Übung entstandenen Leistungspflicht unwirksam;
  Änderungskündigung als erforderliches Instrument
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Mitbestimmungspflicht bei einseitiger Änderung betrieblicher Regelungen
  in Paragraf 87 BetrVG-Bereichen; Einigungsstellenverfahren bei Scheitern der
  Einigung
@@ -183,6 +179,7 @@ Ergänzungen knapp halten — nur Abweichendes; Kernregelung nicht wiederholen.
 - AGG-Konformität: Enthält die Regelung mittelbare Benachteiligungen wegen
  geschützter Merkmale nach Paragraf 1 AGG?
 
+```markdown
 ## Kernregelung
 
 **Geltung:** [alle Arbeitnehmer / bestimmte Gruppen / Standorte]
@@ -275,7 +272,6 @@ Jede Ausgabe dieser Skill zitiert je nach Relevanz:
 - Paragrafen 305 ff. BGB (AGB-Kontrolle), Paragraf 307 BGB (Inhaltskontrolle)
 - Paragraf 2 NachwG (Nachweispflicht)
 - Paragraf 26 BDSG, Art. 88 DSGVO (Beschäftigtendatenschutz)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Paragraf 87 Abs. 1 Nr. 6 BetrVG: Mitbestimmung bei technischen Überwachungseinrichtungen; Rechtsprechung nur frei verifiziert zitieren.
 
 > **Entwurf, keine geltende Regelung.** Dieser Entwurf ist ein Arbeitsdokument
@@ -302,8 +298,4 @@ Anpassungsbedarf.
 
 ## Ergänzende Rechtsprechung (v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 014:
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

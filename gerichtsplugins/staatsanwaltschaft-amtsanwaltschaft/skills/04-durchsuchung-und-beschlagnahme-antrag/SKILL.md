@@ -1,6 +1,6 @@
 ---
 name: 04-durchsuchung-und-beschlagnahme-antrag
-description: "Wenn es um 04 Durchsuchung und Beschlagnahme Antrag in Staatsanwaltschaft und Amtsanwaltschaft geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für 04 Durchsuchung und Beschlagnahme Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # 04 Durchsuchung und Beschlagnahme Antrag
@@ -40,6 +40,8 @@ Strukturierter Arbeitsstand: Pruefungspunkte, Zitate, offene Fragen, Vorschlag z
 <!-- END ausformulierungspflicht (autogen) -->
 
 ## Normen & Rechtsprechung
+
+Für Räume nichtverdächtiger Mitbewohner verlangt [BVerfG, Beschluss vom 03.08.2026 – 1 BvR 2232/24, Rn. 14–24](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/08/rk20260803_1bvr223224.html) konkrete tatsachengestützte Auffindegründe nach Paragraf 103 StPO. Gemeinsame Adresse, Briefkasten, Bezeichnung als Wohnprojekt oder bloß möglicher Zutritt tragen weder Mitnutzung aller Zimmer noch diesen Auffindeverdacht. Erfrage Raumzuordnung, Nutzungsabreden, tatsächlichen Zugang und beweismittelbezogene Indizien. Tatsächlich vom Beschuldigten mitgenutzte Räume fallen dagegen unter Paragraf 102 StPO; bei vor Ort erkennbarer Alleinnutzung durch Dritte reicht dessen Beschluss nicht aus. Den Antrag raumbezogen begründen, gegebenenfalls ergänzende richterliche Anordnung einholen. Kein automatisches Verwertungsverbot ableiten.
 
 - BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug darf den Richtervorbehalt nur bei dokumentierter Eilbedürftigkeit verdrängen.
 - BVerfG, Beschluss vom 12.04.2005 - 2 BvR 1027/02, BVerfGE 113, 29: Durchsuchung und Beschlagnahme bei Berufsgeheimnisträgern verlangen gesteigerte Verhältnismäßigkeit und Schutz vertraulicher Mandatskommunikation.

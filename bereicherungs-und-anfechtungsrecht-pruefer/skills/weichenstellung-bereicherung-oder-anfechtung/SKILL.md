@@ -1,6 +1,6 @@
 ---
 name: weichenstellung-bereicherung-oder-anfechtung
-description: "Wenn es um Weichenstellung: Bereicherung oder Anfechtung? in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Weichenstellung: Bereicherung oder Anfechtung?: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Weichenstellung: Bereicherung oder Anfechtung?
@@ -10,22 +10,14 @@ description: "Wenn es um Weichenstellung: Bereicherung oder Anfechtung? in berei
 1. Besteht ein wirksamer Rechtsgrund für die Vermögensverschiebung (wirksamer Vertrag, gesetzliche Pflicht), oder fehlt er (nichtig, weggefallen)?
 2. Ist über das Vermögen des Schuldners ein Insolvenzverfahren eröffnet oder beantragt?
 3. Hat der Gläubiger einen vollstreckbaren Titel gegen den Schuldner (§ 2 AnfG)?
-4. Hat die Zwangsvollstreckung nicht zur Befriedigung geführt (Fruchtlosigkeit als AnfG-Voraussetzung)?
+4. Ist die titulierte Forderung fällig und hat die Vollstreckung nicht vollständig befriedigt oder ist dies voraussichtlich zu erwarten (Paragraf 2 AnfG)?
 5. Besteht noch Eigentum des Anspruchstellers am streitigen Gegenstand (§ 985 BGB vorrangig)?
 
 ## Zentrale Normen
 
+Normabgleich 16.10.2026: [129 InsO](https://www.gesetze-im-internet.de/inso/__129.html), [1 AnfG](https://www.gesetze-im-internet.de/anfg_1999/__1.html) und Paragraf 2 der [amtlichen AnfG-Ausgabe](https://www.gesetze-im-internet.de/anfg_1999/BJNR291110994.html) gelesen. Nur Eingangsvoraussetzungen abgeglichen, keine Vollprüfung aller Anfechtungstatbestände.
+
 § 812 Abs. 1 BGB (Leistungskondiktion: kein Rechtsgrund) — §§ 129 ff. InsO (Insolvenzanfechtung: Verfahren eröffnet) — §§ 1–13 AnfG (Gläubigeranfechtung: Titel vorhanden, kein Insolvenzverfahren) — § 985 BGB (Vindikation: Eigentum noch vorhanden) — § 17 InsO (Zahlungsunfähigkeit) — § 2 AnfG (Titel + Fruchtlosigkeit) — § 826 BGB (sittenwidrige Schädigung, Konkurrenz)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Weichenstellungs-Schema
 
@@ -34,14 +26,15 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 **Kein Rechtsgrund** (Vertrag nichtig, nie zustande gekommen, weggefallen):
 → Bereicherungsrecht §§ 812 ff. BGB.
 → Skill: `leistungskondiktion-grundtatbestand-812-i-1-alt-1`
+→ Bei Gläubigerbenachteiligung zusätzlich Fragen 2 und 3 prüfen; fehlender Rechtsgrund sperrt die Anfechtung nicht.
 
 **Rechtsgrund vorhanden** (wirksamer Vertrag, gesetzliche Pflicht):
 → Weiter zu Frage 2.
 
 ### Frage 2: Ist ein Insolvenzverfahren eröffnet oder beantragt?
 
-**Insolvenzverfahren eröffnet oder Antrag gestellt:**
-→ Insolvenzanfechtung §§ 129 ff. InsO.
+Insolvenzverfahren eröffnet:
+→ Insolvenzanfechtung nach Paragrafen 129 ff. InsO prüfen. Ein bloßer Eröffnungsantrag begründet noch keine Anfechtungsbefugnis des Insolvenzverwalters; Verfahrensstand und Sicherungsmöglichkeiten gesondert klären.
 → Skill: `inso-grundtatbestand-129-gläubigerbenachteiligung`
 
 **Kein Insolvenzverfahren:**
@@ -49,7 +42,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ### Frage 3: Liegt ein vollstreckbarer Titel vor?
 
-**Vollstreckbarer Titel vorhanden** + fruchtlose Vollstreckung:
+Vollstreckbarer Titel, fällige Forderung und tatsächliche oder voraussichtliche unvollständige Befriedigung:
 → AnfG-Anfechtung (§ 2 AnfG).
 → Skill: `anfg-grundtatbestand-und-anfechtungsberechtigte`
 
@@ -58,7 +51,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ## Kombinationen und Besonderheiten
 
-- § 812 BGB und AnfG können nebeneinander stehen, wenn der Rechtsgrund nachträglich entfällt.
+- Bereicherung und Gläubigeranfechtung können unabhängig von einem wirksamen Rechtsgrund nebeneinander zu prüfen sein. Jeder Tatbestand braucht seine eigenen Voraussetzungen.
 - Mit Insolvenzverfahren verdrängt § 129 InsO den AnfG-Pfad.
 - § 133 InsO kann mit § 826 BGB konkurrieren.
 - Bei § 812 BGB zuerst klären, ob es um Leistung, Eingriff, Verfügung eines Nichtberechtigten oder Mehrpersonenabwicklung geht.
@@ -80,8 +73,9 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Merksatz
 
 Kein Rechtsgrund → Bereicherungsrecht.
-Rechtsgrund + kein Insolvenzverfahren + Titel → AnfG.
-Rechtsgrund + Insolvenzverfahren → InsO-Anfechtung.
+Gläubigerbenachteiligung außerhalb Insolvenz → AnfG und Berechtigung nach Paragraf 2 prüfen.
+Eröffnetes Insolvenzverfahren + Gläubigerbenachteiligung → InsO-Anfechtung prüfen.
+Ein wirksamer Rechtsgrund ist keine allgemeine Voraussetzung dieser beiden Anfechtungswege.
 
 ## Output-Template
 
@@ -92,9 +86,9 @@ Sachverhalt (kurz): [...]
 | Frage | Antwort | Pfad |
 |---|---|---|
 | Rechtsgrund vorhanden? | nein → | § 812 BGB |
-| Rechtsgrund vorhanden? | ja → Frage 2 | |
-| Insolvenzverfahren eröffnet/beantragt? | ja → | §§ 129 ff. InsO |
-| Kein Insolvenzverfahren, Titel vorhanden? | ja + fruchtlos → | AnfG (§ 2) |
+| Gläubigerbenachteiligung möglich? | unabhängig vom Rechtsgrund → Frage 2 | |
+| Insolvenzverfahren eröffnet? | ja → | Paragrafen 129 ff. InsO; bloßen Antrag getrennt behandeln |
+| Kein Insolvenzverfahren, Titel und fällige Forderung? | tatsächliche oder voraussichtliche unvollständige Befriedigung → | AnfG (Paragraf 2) |
 | Eigentum noch vorhanden? | ja → | § 985 BGB (vorrangig) |
 
 **Empfohlener Regelungskreis:** [...] → Weiter zu Skill: [...]
@@ -102,3 +96,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

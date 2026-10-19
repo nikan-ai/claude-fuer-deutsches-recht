@@ -1,6 +1,6 @@
 ---
 name: familienrichter-spezifika
-description: "Wenn es um Familienrichter Spezifika in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Familienrichter Spezifika: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Familienrichter Spezifika
@@ -13,10 +13,6 @@ Familiensachen folgen FamFG statt ZPO (mit Verweisen auf ZPO).
 2. Ist die Scheidungssache mit Folgesachen zu verbinden (§ 137 FamFG — Verbundpflicht)?
 3. Sind Kinder betroffen — Verfahrensbeistand (§ 158 FamFG) bestellt?
 4. Ist Versorgungsausgleich zu prüfen (§§ 1 ff. VersAusglG)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -84,3 +80,5 @@ Beschwerde nach Paragraf 58 ff FamFG, Frist 1 Monat (in Eilfällen 14 Tage), bei
 - "Im Namen des Volkes" entfaellt
 - Stattdessen: "Beschluss"
 - Tenor wie beim Urteil, aber mit den familiengerichtlichen Spezifika (z. B. Sorgerechtsregelung, Umgangsregelung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: nutzung-mandatsdaten
-description: "Wenn es um Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg
@@ -51,14 +51,15 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Fristen
 - **Erstellung**: vor Einführung von KI-Tools verbindlich vorhalten; spätestens vor erstem produktivem Einsatz mit Mandantendaten.
-- **Review-Zyklus**: Jährlich; ad-hoc bei wesentlichen Änderungen (neue KI-VO-Stufen 02.02.2025 für Art. 5 Verbote, 02.08.2026 für Art. 6 Hochrisiko).
+- **Interner Review-Zyklus:** Jährlich und anlassbezogen empfohlen; gesetzliche Anwendungsdaten getrennt führen. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Aufbewahrung**: Versionsstände mindestens 6 Jahre (§ 50 BRAO-Analogie für mandatsbezogene Dokumentation).
 
 ## Rechtsweg bei Streit
 - **Intern**: Disziplinarverfahren, Abmahnung, Kündigung (arbeitsrechtlich).
 - **Anwaltsgericht**: bei berufsrechtlich relevanten Verstößen (§§ 113 ff. BRAO) — über RAK.
 - **Datenschutzaufsicht**: bei DSGVO-Verstößen; LDA/BfDI.
-- **Marktüberwachungsbehörde KI-VO**: ab Geltung Art. 6 ff. (02.08.2026); Bundesnetzagentur als Marktüberwachung in Deutschland vorgesehen.
+- **Marktüberwachung:** Zuständigkeit nach dem konkreten System, Artikel 70 und 74 sowie geltendem nationalen Organisationsrecht feststellen. Keine bloße Gesetzesankündigung als bereits bestehende allgemeine Zuständigkeit der Bundesnetzagentur ausgeben. Datum und Kontakt der tatsächlich zuständigen Stelle dokumentieren.
 
 ## Trade-off
 Verbotsorientierte Richtlinie ("Keine ChatGPT-Nutzung") ist klar, wird aber umgangen ("Schatten-IT"). Erlaubnisorientierte Richtlinie mit gestuften Freigaben und Schulungen erzeugt Akzeptanz und reduziert tatsächlich Risiko — verlangt aber laufende Pflege der Tool-Liste.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
