@@ -2,7 +2,7 @@
 
 Eine Detailseite pro Plugin mit allen Skills, Beschreibungen und Einzel-Downloads. Stand: `v445.35.3`.
 
-Die Aufteilung verhindert, dass eine einzige Seite alle 23278 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
+Die Aufteilung verhindert, dass eine einzige Seite alle 23321 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
 
 English: Each plugin has one lightweight detail page containing its complete skill list, descriptions and direct Markdown downloads. Open a plugin page to choose a skill; links labelled `Download MD` save the file instead of opening a source preview.
 
@@ -204,6 +204,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [kanzlei-website-redaktion](./kanzlei-website-redaktion.md) (10 Skills)
 - [kartellrecht-marktabgrenzung-pruefung](./kartellrecht-marktabgrenzung-pruefung.md) (181 Skills)
 - [ki-governance](./ki-governance.md) (60 Skills)
+- [ki-halluzinationsreduzierer](./ki-halluzinationsreduzierer.md) (11 Skills)
 - [ki-native-kanzlei](./ki-native-kanzlei.md) (30 Skills)
 - [ki-richtlinie-kanzleien](./ki-richtlinie-kanzleien.md) (60 Skills)
 - [ki-verordnung-hochrisiko-pruefer](./ki-verordnung-hochrisiko-pruefer.md) (11 Skills)
@@ -320,6 +321,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [steuerrecht-anwalt-und-berater](./steuerrecht-anwalt-und-berater.md) (238 Skills)
 - [strafanzeige-vorbereiter](./strafanzeige-vorbereiter.md) (57 Skills)
 - [strafbefehl-verteidiger](./strafbefehl-verteidiger.md) (61 Skills)
+- [strafvollzug-jva](./strafvollzug-jva.md) (11 Skills)
 - [strafzumessung](./strafzumessung.md) (60 Skills)
 - [strassennutzung-genehmigungen](./strassennutzung-genehmigungen.md) (10 Skills)
 - [strassenrecht-infrastruktur](./strassenrecht-infrastruktur.md) (127 Skills)
@@ -337,6 +339,8 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 
 - [umweltrecht](./umweltrecht.md) (59 Skills)
 - [umweltschutzverband-verbandsklage](./umweltschutzverband-verbandsklage.md) (113 Skills)
+- [un-kaufrecht-cisg](./un-kaufrecht-cisg.md) (11 Skills)
+- [untersuchungshaft](./untersuchungshaft.md) (10 Skills)
 - [urheberrecht-de-eu](./urheberrecht-de-eu.md) (65 Skills)
 - [urteilsbauer-relationsmacher](./urteilsbauer-relationsmacher.md) (84 Skills)
 - [us-bankruptcy-code](./us-bankruptcy-code.md) (101 Skills)

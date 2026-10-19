@@ -1,6 +1,8 @@
 # 1. Vergabeverfahren prüfen und Dokumente ausarbeiten
 
-Prüfe Ausschreibungsanforderungen, Eignungsentscheidung und Zuschlagswertung gegen die veröffentlichte Fassung der Vergabeunterlagen und den dokumentierten Angebotsinhalt. Arbeite den konkreten Fehler, seine Auswirkung auf Wettbewerb oder Zuschlagschance und die passende Korrektur heraus. Formuliere die beauftragte Beratung, Rüge, Stellungnahme oder Auftraggeberentscheidung aus der vorhandenen Akte.
+Gleiche Ausschreibungsanforderung, Eignungsentscheidung oder Zuschlagswertung mit den veröffentlichten Unterlagen und dem belegten Angebot ab. Liefere die bestellte Beratung, Rüge, Stellungnahme oder Auftraggeberentscheidung: Welcher Fehler verändert Wettbewerb oder Zuschlagschance, welche Korrektur passt?
+
+Bei Konzeptbewertungen sind Paragraf 127 GWB und Paragrafen 8 und 58 VgV der Rahmen. BGH, Beschluss vom 04.04.2017, X ZB 3/17, Rn. 39 bis 48 und Hinweise 50 bis 53, trennt zulässiges Notenmodell von der konkret dokumentierten Wertung. Angebotszusagen und Vergleichsbegründung prüfen, keine eigene Wunschbenotung. Fehlende Punktebeschreibung allein erzwingt keine Neuwertung; besondere Komplexität blieb offen, die Hinweise sind keine bereits festgestellten Fehler der vorliegenden Vergabe.
 
 ## 1.1. Auftrag, Akte und anwendbares Recht
 
@@ -34,6 +36,10 @@ Paragraf 135 Absatz 2 verlangt die näher bestimmte Information beziehungsweise 
 Trenne Leistungsbeschreibung, Mindestanforderungen, Eignung, Zuschlagskriterien, Vertragsbedingungen und Nebenangebote. Prüfe die jeweils veröffentlichte Fassung und spätere Bieterinformationen. Eine unklare Anforderung zunächst nach ihrem Wortlaut und Verfahrenskontext untersuchen; eine Bieterfrage ersetzt nicht in jedem Fall eine erforderliche Rüge.
 
 Bei Eignung nach Paragraf 122 GWB und Paragrafen 42 bis 46 VgV Befähigung, wirtschaftliche und finanzielle sowie technische und berufliche Leistungsfähigkeit abgleichen. Für Paragraf 44 VgV berufliche Erlaubnisse, für Paragraf 46 VgV Referenzen, Qualifikation und Ausstattung prüfen. Bei Eignungsleihe nach Paragraf 47 VgV die tatsächliche Verfügbarkeit zugesagter Mittel und den betreffenden Nachweis untersuchen.
+
+Auch eine hundertprozentige Tochter bleibt bei Eignungsleihe ein anderes Unternehmen: [EuGH, Urteil vom 22.01.2026, Az. C-812/24, LIPOR und PreZero Portugal](https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE), Rn. 39 bis 65, zu Artikeln 56 Absatz 3, 59 und 63 Richtlinie 2014/24/EU. Weder Konzernzugehörigkeit noch gleiche Geschäftsführung ersetzen die Prüfung ihrer Eignung und Ausschlussgründe. Eine Einheitliche Europäische Eigenerklärung (EEE) ist nicht der einzig zulässige Nachweis: Zuerst prüfen, was vorhandene Bescheinigungen tatsächlich abdecken; Verfügbarkeit der Mittel gesondert belegen.
+
+Fehlt danach die Tochter-EEE, vor Ausschluss Paragrafen 47, 50 und 56 VgV anwenden. War die Tochter im ursprünglichen Angebot benannt und betrifft die Ergänzung bereits bestehende Tatsachen, kommt Nachforderung unter den nationalen Regeln und Gleichbehandlung in Betracht. Nachforderungsausschluss beachten; das Urteil gewährt keinen bedingungslosen Anspruch und erlaubt keine erst nachträglich erfundene Eignungsleihe. Konkrete Lücke benennen, zulässige Ergänzung anfordern und nach Antwort den Eignungsvermerk aktualisieren, statt ein neues Leistungskonzept zuzulassen.
 
 Zwingende und fakultative Ausschlussgründe nach Paragrafen 123 und 124 GWB sowie Selbstreinigung nach Paragraf 125 GWB getrennt prüfen. Fehlt ein Nachweis zur Aufklärung, Schadenswiedergutmachung oder organisatorischen Maßnahme, konkret nachfordern und nach Eingang die Bewertung erneuern. Paragraf 8 WRegG betrifft die vorzeitige Löschung wegen Selbstreinigung, nicht allgemein eine Eintragungsstelle.
 

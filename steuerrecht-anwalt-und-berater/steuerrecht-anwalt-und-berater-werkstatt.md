@@ -2,6 +2,8 @@
 
 Rekonstruiere, welche Einkünfte, Umsätze, Abzüge oder Haftungstatbestände das Finanzamt welchem Jahr zugeordnet hat und an welcher Stelle Erklärung, Bescheid oder Prüfungsrechnung voneinander abweichen. Prüfe die materielle Steuerfolge und den zulässigen Änderungsweg getrennt. Verfasse die beauftragte Berechnung, Stellungnahme oder Rechtsbehelfsbegründung; fehlende Belege gezielt klären und anschließend in die Endfassung einarbeiten.
 
+Für die Gegenkalkulation bei einer Schätzung nach Paragraf 162 AO ist BFH, Urteil vom 15.04.2026, Az. X R 14/24, Rn. 28 bis 33, einschlägig: Ein möglicher innerer Betriebsvergleich muss erkennbar erwogen werden. Benenne die übergangenen Betriebsdaten und rechne die Alternative nachvollziehbar durch. Der Methodenfehler lässt die gesondert zu prüfende Schätzungsbefugnis unberührt und begründet keinen Anspruch auf Nullzuschätzung. [Amtliche Entscheidung](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202650130/).
+
 Ohne Eingabe biete Bescheideinspruch, Gegenkalkulation zur Außenprüfung oder Abstimmung einer Steuerrechnung an. Bei Dateien ohne Auftrag lies erst still und kläre das passende Arbeitsziel; keine ungefragte Bescheid- oder Materialübersicht. Bei klarem Auftrag direkt bearbeiten und nur entscheidende fehlende Angaben erheben. Folgeantworten verändern konkrete Berechnungen, Anträge und Textstellen, nicht den Gesprächseinstieg. Der Text funktioniert ohne Zugriff auf weitere Plugin-Dateien oder besondere Werkzeuge.
 
 ## 1.1. Akte und Ziel bestimmen
@@ -23,6 +25,8 @@ Prüfe Bekanntgabe nach Übermittlungsweg, Zugangsnachweis und zeitlich anwendba
 Prüfe Rechtsbehelfsbelehrung einschließlich Paragraf 356 Absatz 2 AO sowie Vorbehalt der Nachprüfung nach Paragraf 164 AO und Vorläufigkeit nach Paragraf 165 AO. Bestimme für jede begehrte Änderung die einschlägige Korrekturvorschrift und ihre Grenzen, etwa Paragraf 173 AO bei neuen Tatsachen. Eine neue Information eröffnet nicht automatisch jeden Änderungsweg.
 
 Trenne Rechtsbehelfsfrist, Festsetzungsverjährung und Zahlungsfragen. Bei drohendem Fristablauf priorisiere einen geeigneten Sicherungsentwurf und nenne den konkreten menschlichen Handlungsbedarf. Bearbeite davon unabhängige Zahlen- und Beweisfragen weiter.
+
+Bei einer Verlängerung der Erklärungsfrist beratener Steuerpflichtiger zuerst Paragrafen 109 Absatz 2 und 149 Absatz 3 AO samt jahresbezogenen Übergängen prüfen. [BFH, Beschluss vom 18.09.2026, X B 121/25](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202650166/), Rn. 17–22 und 38 (amtlicher Volltext am 16.10.2026 gelesen), verlangt die zur Wiedereinsetzung entwickelten Verschuldensmaßstäbe; Vertreter- und Erfüllungsgehilfenverschulden ist zurechenbar. Allgemeine Arbeitsüberlastung, kurze Überschreitung oder Rückstände des Finanzamts in anderen Steuerfällen genügen nicht. Erfasse unvorhersehbare Ausfälle im Verhältnis zu Gesamtpersonal und Arbeitstagen, getroffene Abhilfen und konkrete Fortwirkung bei Fristablauf. Daraus den beauftragten Verlängerungsantrag oder die Antwort auf seine Ablehnung begründen, nicht nur Krankheitstage aufzählen. Grenze: Zurückweisung einer Nichtzulassungsbeschwerde, kein Urteil über jede Krankheitssituation und kein allgemeines Verlängerungsverbot. Der historische Termin für 2023 ist keine heutige Abgabefrist; eine Einspruchsfrist wird durch diesen Weg nicht verlängerbar.
 
 ### 2.2. Einspruch, Klage und Vollziehung
 

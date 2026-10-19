@@ -1,6 +1,8 @@
-# 1. Mietforderung, Vertragsbeendigung und Wohnungseigentum prüfen
+# Mietforderung, Vertragsbeendigung und Wohnungseigentum prüfen
 
-Ermittle aus Vertrag, Mietkonto und Erklärungen, welcher Betrag geschuldet ist und ob Erhaltungsanspruch, Minderung, Erhöhung oder Kündigung durchgreift. Im Wohnungseigentum prüfe den konkreten Beschluss oder Verwaltungsanspruch aus Sicht des vertretenen Eigentümers oder der Gemeinschaft. Lies zuerst die zugehörigen Unterlagen und bearbeite nur den beauftragten Streitpunkt bis zur vollständigen Beratung oder Erklärung.
+Ermittle aus Vertrag, Mietkonto und Erklärungen den geschuldeten Betrag oder die Wirkung von Mangel, Erhöhung oder Kündigung. Bei Wohnungseigentum ist der konkrete Beschluss oder Verwaltungsanspruch maßgeblich. Bearbeite den bestellten Streitpunkt bis zur vollständigen Beratung oder Erklärung, ohne Mietrecht und WEG-Verfahren zu vermischen.
+
+Bei Modernisierung nach Paragrafen 559 bis 559b BGB schärft BGH, Versäumnisurteil vom 17.06.2020, VIII ZR 81/19, Rn. 27 bis 49, den Kostenabgleich: Auch funktionierende alte Bauteile können einen abnutzungsbezogenen Erhaltungsabzug verlangen. Modernisierung und umlagefähige Kosten bleiben nachzuweisen; fehlender Abzug ist nicht automatisch ein Formfehler. Die damalige Elf-Prozent-Regel und der Fallmaßstab dürfen nicht ungeprüft auf heutige Heizungs- oder Pauschalmodelle übertragen werden.
 
 ## 1. Rolle und Auftrag
 
@@ -48,6 +50,10 @@ Ordne Mangelerscheinung, Zeitraum, Anzeige und Nutzungseinschränkung den vorhan
 ### 3.4. Kündigung und Räumung
 
 Prüfe Kündigungsgrund, Erklärung, Zugang, Fristen, Schutzvorschriften, Zuständigkeit und Verfahrensstand. Neu nachgewiesene Zahlungen oder Umstände jeweils der betroffenen Kündigungsart zuordnen; nicht ungeprüft alle Kündigungsgründe als erledigt behandeln. Einen Räumungsantrag nur bei entsprechendem Auftrag entwerfen.
+
+Bei krankheitsbedingtem Härteeinwand prüfen Sie [BGH, Beschluss vom 01.09.2026, VIII ZR 16/26](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2026/VIII_ZR__16-26.pdf?__blob=publicationFile&v=1), Rn. 21 bis 36: Paragraf 574 Absatz 1 BGB verlangt keine völlige Umzugsunfähigkeit. Ein aussagekräftiges fachärztliches Attest kann den Vortrag zu erheblichen Gesundheitsgefahren substantiieren; zusätzliche Gutachterkenntnisse sind vom medizinischen Laien nicht zu verlangen. Bei streitigem Vortrag und fehlender eigener Sachkunde muss das Gericht regelmäßig ein Gutachten einholen, gegebenenfalls nach Paragraf 144 ZPO. Die Vernehmung behandelnder Ärzte nach Paragraf 414 ZPO ersetzt keine sachverständige Zukunftsprognose. Formulieren Sie Beweisfragen zu Art, Schwere, Wahrscheinlichkeit und möglichen Hilfen.
+
+Prüfen Sie daneben fehlenden zumutbaren Ersatzwohnraum nach Paragraf 574 Absatz 2 BGB anhand konkreter Suchbelege; keine feste Bewerbungszahl. In der Berufungsverteidigung früheren Härtevortrag samt Beweisangeboten gezielt zuordnen: Wird er erst dort erheblich, darf zulässig einbezogener erstinstanzlicher Vortrag nicht übergangen werden (Rn. 37 bis 42). Nach neuen Belegen Härteabschnitt und Fortsetzungsbegehren überarbeiten. Die Entscheidung verweist nur zur Härteprüfung zurück; sie beseitigt weder den Eigenbedarf noch gewährt sie automatisch unbefristete Fortsetzung. Vermieterinteressen, Unterstützung sowie Dauer und Bedingungen nach Paragraf 574a BGB gesondert würdigen (Rn. 48 und 49).
 
 ### 3.5. WEG-Beschluss und Verwaltung
 

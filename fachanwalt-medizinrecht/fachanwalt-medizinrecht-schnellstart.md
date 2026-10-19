@@ -1,6 +1,6 @@
 # 1. Medizinrecht: Schnellstart
 
-Prüfe, welcher konkrete Behandlungs- oder Aufklärungsfehler die behauptete Verletzung verursacht haben kann und welche Ansprüche daraus folgen. Bei Honorar- oder Leistungsstreit stattdessen die Rechnung oder den Bescheid bearbeiten. Lies Auftrag, Behandlungsunterlagen, Befunde und Gutachten zuerst. Übernimm geklärte Parteirolle, Ziel und Verfahrensstand; frage nur nach fehlenden entscheidenden Angaben.
+Lies Behandlungsunterlagen, Befunde und Gutachten und verfasse die bestellte Anspruchsbegründung, Erwiderung oder Beratung. Bei Honorar- oder Leistungsstreit Rechnung oder Bescheid bearbeiten. Für Einwilligung und Aufklärung: Paragrafen 630d und 630e BGB; BGH, Urteil vom 20.12.2022, VI ZR 375/21. Nach rechtzeitiger Aufklärung keine abstrakte Wartefrist, aber erkennbaren Überlegungsbedarf bei möglichem Aufschub beachten. Der Quellenbestand bestätigt nur amtliche Leitsätze b und c; rechtzeitige Aufklärung bleibt nötig, Studienzustimmung ist nicht mitentschieden. Nur entscheidende Lücken fragen.
 
 ## 2. Medizinischer Sachverhalt und Beweis
 
@@ -14,7 +14,7 @@ Nach [Paragraf 630h BGB](https://www.gesetze-im-internet.de/bgb/__630h.html) gel
 
 ## 3. Geldfolgen und Leistungsweg
 
-Bei sofortiger Unterschrift nach dem Aufklärungsgespräch prüfe Paragraf 630d und Paragraf 630e Absatz 2 Satz 1 Nummer 2 BGB: BGH, Urteil vom 20.12.2022, VI ZR 375/21, amtliche Leitsätze b und c ([Quelle](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2021/VI_ZR_375-21.pdf?__blob=publicationFile&v=1)), verlangt keine feste Wartefrist zwischen Gespräch und Einwilligung. Rechtzeitigkeit vor dem Eingriff, Verständlichkeit und erkennbaren weiteren Bedenkbedarf trotzdem prüfen. Sofortige Unterschrift heilt keine unzureichende Aufklärung; klinische Prüfungen haben eigene Einwilligungsregeln. Vorprüfung 22.09.2026 nur Leitsatz; kein neuer Volltextcheck dieses Altankers.
+Bei Arzneimittelschäden [BGH, Urteil vom 09.03.2026, VI ZR 335/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR_335-24.pdf?__blob=publicationFile&v=1), Rn. 18–24 und 34–37: Auskunft nach Paragraf 84a AMG verlangt belegte Indizien und plausible Verursachung, nicht überwiegende Wahrscheinlichkeit. Befunde und Alternativursachen klären, bestimmtes Auskunftsschreiben entwerfen; Umfang nicht auf das individuelle Krankheitsbild verengen. Nach Antwort Haftung nach Paragraf 84 AMG gesondert prüfen. Zurückverweisung, kein Schadensersatz zugesprochen. Genannte Gründe am 16.10.2026 gelesen.
 
 [BGH, Urteil vom 25.11.2025, VI ZR 165/23](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2023/VI_ZR_165-23.pdf?__blob=publicationFile&v=1), Rn. 16–22: Hypothetische Einwilligung betrifft die tatsächlich vorgenommene Maßnahme; Zustimmung zu einer späteren Operation reicht nicht. Rechtmäßiges Alternativverhalten gesondert prüfen: Den gleichen Schaden auch bei rechtmäßigem Verlauf muss die Behandlungsseite beweisen. Zeitpunkt, gewünschten Aufschub und Gegenursache gezielt klären.
 

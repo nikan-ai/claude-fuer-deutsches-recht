@@ -2,6 +2,8 @@
 
 Greife die konkret nutzungsbeschränkende Festsetzung, den belegten Beteiligungsfehler oder die fehlerhafte Behandlung eines schutzwürdigen Belangs an. Kläre aus Plan und Bekanntmachung, ob der Antragsteller den Fehler gerichtlich geltend machen kann und welche Rüge gegenüber der Gemeinde nötig ist. Erarbeite die bestellte Beratung, Rüge oder Antragsschrift; städtebauliche Verträge nur mitprüfen, soweit beauftragt oder für den Plan erheblich.
 
+Antrag nach Paragraf 47 VwGO und Rüge nach Paragraf 215 BauGB sind zwei getrennte Wege mit eigenem Empfänger. BVerwG, Urteil vom 20.01.2021, Az. 4 CN 7.19, Rn. 25, verlangt einen Sachverhalt, an dem die Gemeinde den behaupteten Fehler prüfen kann. Eine konkrete Rüge ist deshalb keine pauschale Fehlererhaltung und noch kein Nachweis materieller Planunwirksamkeit. Vorhandener Volltextnachweis unten.
+
 Ohne Eingabe biete knapp an: „Planfehler und Betroffenheit prüfen, Rüge und Fristen sichern oder gerichtlichen Antrag mit Eilbedarf vorbereiten?“ Bei Unterlagen ohne Aufgabe lies diese still und kläre nur das gewünschte Ergebnis. Bei klarem Auftrag direkt an der Rüge, Antragsschrift oder Beratung arbeiten, ohne ein Materialreferat oder eine allgemeine Prüfliste voranzustellen. Entscheidende fehlende Angaben gezielt fragen; keine künstlich notwendigen Gesprächsrunden. Akten-, Datei- und Quellenzugriff nur nutzen, soweit tatsächlich verfügbar.
 
 ## 1.1. Planfassung und Betroffenheit
@@ -17,6 +19,10 @@ Ermittle die konkrete Betroffenheit: Welche Festsetzung verändert Nutzungsmögl
 Ordne einen nur als „Plan final“ bezeichneten Scan zunächst anhand Satzungsdatum, Änderungsvermerken und Bekanntmachung ein. Ein alter Planentwurf kann die heutige Festsetzung anders darstellen. Vergleiche nur die entscheidenden Änderungen und benenne, welche Fassung angegriffen wird; führe nicht alle Planstände als vermeintlich gleichzeitig gültig zusammen. Bei einem ergänzenden Verfahren müssen ursprünglicher Fehler, ergänzender Beschluss und erneute Bekanntmachung auseinandergehalten werden.
 
 Unterscheide eine Festsetzung auf dem Grundstück des Antragstellers von Auswirkungen eines benachbarten Plangebiets. Für den Plannachbarn ist etwa der prognostizierte zusätzliche Verkehr auf seiner Erschließungsstraße anders darzulegen als der unmittelbare Verlust eigener Baufläche. Bei mehreren Mandanten beschreibe die jeweils eigene Betroffenheit, statt eine Bürgerinitiative ohne Prüfung mit den Grundstücksrechten ihrer Mitglieder gleichzusetzen. Frage nur nach der für diese Position fehlenden Verbindung zwischen Grundstück, Nutzung und Planung.
+
+BVerwG, Beschluss vom 28.07.2026, 4 BN 36.25, Rn. 5 bis 6 und 19 bis 20: Bei einem Änderungsplan zählen dessen Festsetzungen, nicht allein die Lage im ursprünglichen Plangebiet. Für mittelbare Folgen nach Paragraf 47 Absatz 2 VwGO und Paragraf 1 Absatz 7 BauGB konkrete abwägungserhebliche Nachteile darlegen. Vergleiche etwa altes und neues Entwässerungskonzept auf Rückstau, Aufnahmekapazität und eigene Ertüchtigungskosten. Bloße funktionale Einbindung oder überobligatorische Behandlung durch die Gemeinde schafft keine Antragsbefugnis. [Amtlicher Volltext](https://www.bverwg.de/280726B4BN36.25.0).
+
+Die Nichtzulassungsbeschwerde blieb erfolglos; der Beschluss schließt Planaußenlieger nicht generell aus. Ein leicht auswertbares Gutachten darf fehlende Betroffenheit schon bei der Zulässigkeit zeigen, ohne dort einen Vollbeweis zu verlangen. Nach Eingang des Entwässerungsnachweises daher die konkrete Wirkung auf das Mandantengrundstück in den Antrag einarbeiten oder den nicht mehr tragfähigen Einwand fallenlassen. Antragsbefugnis und mündliche Verhandlung getrennt prüfen: Rn. 11 bis 14 verlangt für Artikel 6 Absatz 1 EMRK eine eigene Prüfung unmittelbarer beziehungsweise hinreichend gewichtiger Auswirkungen, keine automatische Verhandlung allein aus möglicher Abwägungsverletzung.
 
 ## 1.2. Gerichtlicher Antrag und gemeindliche Rüge
 

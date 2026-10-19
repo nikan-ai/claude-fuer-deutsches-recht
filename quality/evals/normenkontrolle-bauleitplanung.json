@@ -4,6 +4,27 @@
   "reviewed_on": "2026-09-23",
   "sources": [
     {
+      "url": "https://www.bverwg.de/de/270820U4CN4.19.0",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Volltext gelesen: BVerwG, Urteil vom 27.08.2020, 4 CN 4.19, Rn. 9 bis 10 trägt die Antragsbefugnis eines Eigentümers gegen unmittelbar sein Grundstück im Plangebiet betreffende Festsetzungen. Kein allgemeiner Nachweis für außenstehende Nachbarn oder jeden Abwägungsbelang; kein Beleg eines Abwägungsfehlers. Rn. 30: Zurückverweisung zur weiteren Sachprüfung.",
+      "countercheck": "Datum 14.10.2020 und zu weite Aussage im Statthaftigkeits-Skill korrigiert. Die nicht belegten Zuordnungen 04.05.2022 / 4 CN 2.21 zu Wind/Solar und 11.04.2024 / 4 BN 50.23 zu Klimaschutz aus statthaftigkeit-47-vwgo, vorhabenbezogener-bebauungsplan-12-baugb, planerhaltung-214-215-baugb und abwaegungsgebot-1-abs-7-baugb entfernt, insgesamt acht Fundstellen. Kein Ersatz durch 4 BN 2.20; dessen Volltext hier nicht neu geprüft. Übrige historische Zuordnungen nicht vollverifiziert. Standalone-Prompts und bestehende dateigebundene Prüfprofile unverändert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vwgo/__47.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlichen Normtext zu Antragsgegenstand und Zulässigkeit gelesen. Keine allgemeine unmittelbare Anfechtbarkeit von FNP oder städtebaulichem Vertrag."
+    },
+    {
+      "url": "https://www.bverwg.de/310113U4CN1.12.0",
+      "checked_on": "2026-10-16",
+      "supports": "Amtliche Entscheidung vom 31.01.2013, 4 CN 1.12, insbesondere Leitsätze und Rn. 9–10 gelesen: analoge Kontrolle der Ausschlussentscheidung, nicht sämtlicher innergebietlicher Darstellungen. Aktuelles Windenergie-Übergangsrecht nicht vollständig geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bbaug/__8.html",
+      "checked_on": "2026-10-16",
+      "supports": "Absatz 2 amtlich gelesen: Bebauungsplan aus FNP entwickeln; Entwicklungsgebot, nicht Anpassungsgebot."
+    },
+    {
       "url": "https://www.gesetze-im-internet.de/vwgo/__47.html",
       "checked_on": "2026-09-14",
       "supports": "Gerichtlicher Normenkontrollantrag, Jahresfrist und Eilrechtsschutz."
@@ -42,19 +63,27 @@
       "url": "https://www.gesetze-im-internet.de/vwgo/__47.html",
       "checked_on": "2026-09-23",
       "supports": "Amtlichen Normtext erneut gelesen: gerichtlicher Antrag, eigene Betroffenheit, Empfänger, Jahresfrist und gesonderte einstweilige Anordnung; keine Gleichsetzung mit dem Schreiben an die Gemeinde."
+    },
+    {
+      "url": "https://www.bverwg.de/280726B4BN36.25.0",
+      "checked_on": "2026-10-16",
+      "supports": "Beim Änderungsbebauungsplan entscheiden dessen eigene Festsetzungen über unmittelbare Betroffenheit. Mittelbare Nachteile benötigen eigene abwägungserhebliche Belange. Lage im ursprünglichen Plangebiet und überobligatorische gemeindliche Einwendungsbehandlung begründen allein keine Antragsbefugnis. Leicht auswertbare Gutachten dürfen fehlende Betroffenheit bereits bei Zulässigkeit zeigen. Grenze: Erfolglose Nichtzulassungsbeschwerde, kein genereller Ausschluss von Plannachbarn und keine Entscheidung über die materielle Unwirksamkeit des Plans. Mündliche Verhandlung nach Artikel 6 EMRK gesondert; mögliche Abwägungsverletzung allein nicht stets ausreichend. Kein Vollbeweis der Rechtsverletzung auf Zulässigkeitsebene.",
+      "verification_status": "Am 16.10.2026 amtlicher HTML-Volltext mit Tenor und allen Gründen über das Webtool gelesen; Randnummern kontrolliert."
     }
   ],
   "mini_review": {
     "verdict": "revised",
-    "reason": "Mini vollständig erneut im Desk Review gelesen; drei Planrechtsschutz-Einstiege und konkrete Korrektur eines durch die Abwägung widerlegten Vorwurfs ergänzt. Bisherige Rüge- und Fristgrenzen erhalten.",
+    "reason": "Gezielte Quellenvertiefung: Altes/neues Entwässerungskonzept, Rückstau, Aufnahmekapazität und eigene Ertüchtigungskosten mit dem Grundstück verbinden; nach technischem Nachweis konkrete Betroffenheit im Antrag aktualisieren oder widerlegten Einwand aufgeben.",
     "changes": [
       "BVerwG 4 CN 7.19 Rn. 25 in beiden Prompts mit Tatsachengehalt und begrenzter Auslegung der Rüge verknüpft.",
       "Paragraf 13b anhand BVerwG 4 CN 3.22 ersetzt, Paragraf 215a nicht als neuer Beschleunigungsweg 2026 dargestellt.",
       "Ungeprüfte fünf Altfundstellen entfernt; an ihrer Stelle konkreter Rügetext und Antrag auf Unwirksamerklärung.",
       "Bestehende zwei Fristen, dokumentbezogene Rückfragen, Fortsetzung und auftragsbegrenzte Fertigstellung erhalten.",
-      "Dateien ohne Aufgabe still lesen, klare Aufträge direkt bearbeiten; Gegenbeleg aus der Abwägung ändert den vorhandenen Rügetext."
+      "Dateien ohne Aufgabe still lesen, klare Aufträge direkt bearbeiten; Gegenbeleg aus der Abwägung ändert den vorhandenen Rügetext.",
+      "Redaktion 16.10.2026: Gerichtlicher Antrag und konkrete Gemeinderüge bereits im Einstieg getrennt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
+      "Quellenvertiefung 16.10.2026: BVerwG, Beschluss vom 28.07.2026, 4 BN 36.25"
     ],
-    "sha256": "382c8b4c64c95a0ae2ad26debc0c2289a539fa7e67e5ef07009806bc58a05080"
+    "sha256": "592896b9081692572505fdff3a91814677f392de6f0c1d2b37942bc2c2e37a67"
   },
   "selection": {
     "positive": [
@@ -102,16 +131,18 @@
   ],
   "workshop_review": {
     "verdict": "revised",
-    "reason": "Alle Abschnitte erneut individuell gelesen und um Planversionen, Mandantenpositionen, Einwendungsinhalt, Gutachtenannahmen und Vollzugsbelege vertieft. Desk Review ohne Einreichung oder Mandatsausführung.",
+    "reason": "Gezielte Quellenvertiefung: Altes/neues Entwässerungskonzept, Rückstau, Aufnahmekapazität und eigene Ertüchtigungskosten mit dem Grundstück verbinden; nach technischem Nachweis konkrete Betroffenheit im Antrag aktualisieren oder widerlegten Einwand aufgeben.",
     "changes": [
       "BVerwG 4 CN 7.19 Rn. 25 in beiden Prompts mit Tatsachengehalt und begrenzter Auslegung der Rüge verknüpft.",
       "Paragraf 13b anhand BVerwG 4 CN 3.22 ersetzt, Paragraf 215a nicht als neuer Beschleunigungsweg 2026 dargestellt.",
       "Ungeprüfte fünf Altfundstellen entfernt; an ihrer Stelle konkreter Rügetext und Antrag auf Unwirksamerklärung.",
       "Bestehende zwei Fristen, dokumentbezogene Rückfragen, Fortsetzung und auftragsbegrenzte Fertigstellung erhalten.",
       "Planstände und ergänzendes Verfahren, Plannachbar gegenüber unmittelbar betroffenem Eigentümer sowie mehrere Antragsteller unterschieden.",
-      "Vorhandene Einwendungen, gegenläufige Abwägungsbelege, abweichende Gutachtenvarianten und konkreter Vollzug in Rüge- und Antragstext überführt."
+      "Vorhandene Einwendungen, gegenläufige Abwägungsbelege, abweichende Gutachtenvarianten und konkreter Vollzug in Rüge- und Antragstext überführt.",
+      "Redaktion 16.10.2026: Gerichtlicher Antrag und konkrete Gemeinderüge bereits im Einstieg getrennt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
+      "Quellenvertiefung 16.10.2026: BVerwG, Beschluss vom 28.07.2026, 4 BN 36.25"
     ],
-    "sha256": "a018c6c1e7d31e41e0acbe9e372a9ff16c26e82a4ca5c4d73325fcae2d6c7d20"
+    "sha256": "bdaf17a753e282ca7af37271c87eea5ed47eb06d4357ea5c9f582c359bae92e6"
   },
   "prompt_editorial_review": {
     "date": "2026-09-22",
@@ -119,7 +150,8 @@
       "normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-schnellstart.md",
       "normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-werkstatt.md",
       "normenkontrolle-bauleitplanung/README.md",
-      "quality/evals/normenkontrolle-bauleitplanung.json"
+      "quality/evals/normenkontrolle-bauleitplanung.json",
+      "normenkontrolle-bauleitplanung/skills/antragsbefugnis-eigentuemer-nachbar/SKILL.md"
     ],
     "opening_change": "Konkrete nutzungsbeschränkende Festsetzung und belegten Planfehler mit Gemeinderüge und gerichtlichem Antrag verbinden.",
     "norms": [
@@ -141,6 +173,18 @@
         "application": "Amtlicher Volltext gelesen: pauschale Befreiung von Umweltprüfung im früheren Paragraf 13b unionsrechtswidrig; rechtzeitig gerügter Umweltprüfungs- und Berichtsfehler führte dort zur Gesamtunwirksamkeit.",
         "limit": "Kein allgemeines Verbot des Paragrafen 13a; spätere Fehlerbehebung und geltende Planerhaltung gesondert prüfen.",
         "checked_on": "2026-09-23"
+      },
+      {
+        "citation": "BVerwG, Beschluss vom 28.07.2026, 4 BN 36.25",
+        "url": "https://www.bverwg.de/280726B4BN36.25.0",
+        "application": "Beim Änderungsbebauungsplan entscheiden dessen eigene Festsetzungen über unmittelbare Betroffenheit. Mittelbare Nachteile benötigen eigene abwägungserhebliche Belange. Lage im ursprünglichen Plangebiet und überobligatorische gemeindliche Einwendungsbehandlung begründen allein keine Antragsbefugnis. Leicht auswertbare Gutachten dürfen fehlende Betroffenheit bereits bei Zulässigkeit zeigen.",
+        "limit": "Erfolglose Nichtzulassungsbeschwerde, kein genereller Ausschluss von Plannachbarn und keine Entscheidung über die materielle Unwirksamkeit des Plans. Mündliche Verhandlung nach Artikel 6 EMRK gesondert; mögliche Abwägungsverletzung allein nicht stets ausreichend. Kein Vollbeweis der Rechtsverletzung auf Zulässigkeitsebene.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Am 16.10.2026 amtlicher HTML-Volltext mit Tenor und allen Gründen über das Webtool gelesen; Randnummern kontrolliert.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json",
+        "workflow_effect": "Altes/neues Entwässerungskonzept, Rückstau, Aufnahmekapazität und eigene Ertüchtigungskosten mit dem Grundstück verbinden; nach technischem Nachweis konkrete Betroffenheit im Antrag aktualisieren oder widerlegten Einwand aufgeben.",
+        "source_status": "official_full_text",
+        "paragraphs": "5-20"
       }
     ],
     "remaining_limits": [
@@ -172,5 +216,40 @@
     "continuation": "Nachgewiesene Behandlung der Gewerbenutzung ändert den Ermittlungsfehler-Vorwurf in gemeinderuege.md und dem bestellten normenkontrollantrag.md; bestätigter Baubeginn verändert die beauftragte Eildarlegung.",
     "enrichment": "Planfassungen, individuelle Antragstellerpositionen, bestehende Einwendung und konkretisierende Rüge, Prognoseannahmen und Gegenbelege, tatsächlicher Vollzug und dokumentbezogene Endfassung.",
     "limits": "desk review; no live client execution"
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Beschluss vom 28.07.2026, 4 BN 36.25",
+        "url": "https://www.bverwg.de/280726B4BN36.25.0",
+        "application": "Beim Änderungsbebauungsplan entscheiden dessen eigene Festsetzungen über unmittelbare Betroffenheit. Mittelbare Nachteile benötigen eigene abwägungserhebliche Belange. Lage im ursprünglichen Plangebiet und überobligatorische gemeindliche Einwendungsbehandlung begründen allein keine Antragsbefugnis. Leicht auswertbare Gutachten dürfen fehlende Betroffenheit bereits bei Zulässigkeit zeigen.",
+        "limit": "Erfolglose Nichtzulassungsbeschwerde, kein genereller Ausschluss von Plannachbarn und keine Entscheidung über die materielle Unwirksamkeit des Plans. Mündliche Verhandlung nach Artikel 6 EMRK gesondert; mögliche Abwägungsverletzung allein nicht stets ausreichend. Kein Vollbeweis der Rechtsverletzung auf Zulässigkeitsebene.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Am 16.10.2026 amtlicher HTML-Volltext mit Tenor und allen Gründen über das Webtool gelesen; Randnummern kontrolliert.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json",
+        "workflow_effect": "Altes/neues Entwässerungskonzept, Rückstau, Aufnahmekapazität und eigene Ertüchtigungskosten mit dem Grundstück verbinden; nach technischem Nachweis konkrete Betroffenheit im Antrag aktualisieren oder widerlegten Einwand aufgeben.",
+        "source_status": "official_full_text",
+        "paragraphs": "5-20"
+      }
+    ],
+    "files": [
+      {
+        "path": "normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-schnellstart.md",
+        "sha256": "592896b9081692572505fdff3a91814677f392de6f0c1d2b37942bc2c2e37a67"
+      },
+      {
+        "path": "normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-werkstatt.md",
+        "sha256": "bdaf17a753e282ca7af37271c87eea5ed47eb06d4357ea5c9f582c359bae92e6"
+      },
+      {
+        "path": "normenkontrolle-bauleitplanung/skills/antragsbefugnis-eigentuemer-nachbar/SKILL.md",
+        "sha256": "865de9b558782096a683ef13722cc33436c150bd72350afa32ac6a83da5a0c11"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
   }
 }

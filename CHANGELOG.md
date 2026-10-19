@@ -1,3 +1,73 @@
+# un-kaufrecht-cisg-v1.0.0 – 2026-10-18
+
+Eigenständiges UN-Kaufrechtspaket mit zehn Fachskills und einem Hauptskill, ausführlicher Werkstatt sowie kompaktem Mini- und Hauptproblem-Prompt. Vertragsschluss, ausdrückliche Abwahl, kollidierende AGB, Mängelrechte, Aufhebung, Schaden und Transport werden bis zum fertigen Dokument bearbeitet. Quellenstatus und Reichweite der BGH-Entscheidungen aus 2001, 2002, 2025 und 2026 bleiben ausdrücklich getrennt.
+
+Drei Handelsakten zu Pumpen, Sensoren und Produktionsmaschinen verbinden ausgearbeitete Verträge, Geschäftskorrespondenz, echte E-Mail-Anlagen, Zahlenlisten und technische Belege. Gesamt-PDFs und flache Original- sowie Einzel-PDF-ZIPs werden byte- und inhaltsbezogen abgeglichen. Elf individuelle Fachprüffälle, reproduzierbarer Komponentenbuild und aktualisierte Verzeichnisse ergänzen die Veröffentlichung; vorhandene Sammelarchive bleiben unverändert.
+
+# Rechtsprechungsvertiefung des Quellstands – 2026-10-16
+
+21 gezielt verifizierte Entscheidungen in 31 Fachpaketen mit konkreten Rückfragen, Prüfwegen und Folgeprodukten eingearbeitet. Schwerpunkt sind Arbeits-, Miet-, Erb-, Familien-, Pflege-, Renten-, Steuer-, Bank-, Insolvenz-, Medizin-, Verwaltungs-, Straf-, Daten-, Urheber- und Vergaberecht. Volltext, ausgewertete Passagen, Pressemitteilung und Terminbericht bleiben im Quellenstatus getrennt; Grenzen und Gegenfälle stehen bei den jeweiligen Aussagen.
+
+Konkrete Altfehler zu Sachgrundbenennung, verspäteter Befristungskontrollklage, BEM, Härtewiderspruch, Patientenaktenkopie, Approbationsmaßnahmen, Regressverjährung und Gerichtszuordnung berichtigt. Neue Regressionen sichern die korrigierten Norm-, Kosten- und Zuständigkeitsaussagen. Die README-Gliederung vermeidet doppelte Sprungziele; Skill-Übersichten und dokumentierte Promptfassungen sind abgeglichen.
+
+Nachweise unter `quality/rechtsprechung-vertiefung-2026-10-16/`. Keine pauschale Neuverifikation aller Altquellen, kein Live-Modelltest und keine Änderung bestehender Fallaktenpakete. Bestehende Versionstags und Release-Archive bleiben unverändert; die Prüfung verbessert den Quellstand.
+
+# phishing-v445.35.4 – 2026-10-16
+
+EuGH C-70/25 wird anhand des amtlichen Volltexts in sieben fachlich passenden Plugins eingeordnet. Phishing-Skills, Werkstatt, Mini, Vorlagen und Offline-Hilfe trennen unverzügliche Erstattung und späteren Rückgriff. Elf Regressionen sichern die wesentlichen Entscheidungswege und Eingabegrenzen.
+
+Die deutsche Akte Rabenstein ergänzt den Bestand um 28 Originaldateien mit E-Mails, Anhängen, Word-Entwürfen, PDF-Belegen und Excel-Auswertung. Die bisherige Akte Mayer und ihre Downloads bleiben erhalten. Einzelpakete, Quellen- und Prüfnachweise werden als eigenständige Komponente veröffentlicht; das allgemeine Sammelrelease bleibt unverändert.
+
+# Qualitätsprüfung des Quellstands – 2026-10-16
+
+Die READMEs der 302 Plugins und die zugehörigen Prompt-Einstiege wurden fachgebietsweise auf Verständlichkeit, passende Arbeitsprodukte, Rückfragen und Fortsetzung geprüft. Unnötige Pflichtinterviews, unpassende Startanweisungen und widersprüchliche Angaben werden konkret korrigiert; die bewährten eigenständigen Arbeitsabläufe bleiben erhalten. Der Prüfbericht unter `quality/qualitaetsrunde-2026-10-16/` trennt individuelle Textprüfung, technische Bestandsprüfung und gezielte neue Quellenabgleiche.
+
+Amtliche Nachprüfungen berichtigen unter anderem sozialrechtliche Fristen, beamtenrechtliche Normzuordnungen, berufsrechtliche Geheimhaltungsregeln und unzutreffend eingeordnete Entscheidungsanker. Für den Pastiche-Anker ist der inzwischen gelesene amtliche Urteilstext statt allein der Pressemitteilung dokumentiert. Die übrigen Quellenstände werden nicht pauschal neu datiert; daraus folgt keine rechtliche Gesamtfreigabe sämtlicher Skills.
+
+Installation, Einzelpakete und Sammelstände werden deutlicher getrennt. Katalogzahlen und Einzelübersichten sind abgeglichen. Zusätzliche Regressionen erkennen veraltete Marketplace-Hinweise und unterscheiden vollständige Tabellen am Promptende von abgebrochenem Text. Bestehende Testakten, Versionstags und Release-Archive bleiben unverändert; diese Runde verbessert den Quellstand und ersetzt kein bereits veröffentlichtes Installationspaket.
+
+Die anschließende Paketprüfung erfasste zusätzlich den Importvergleich der Immobilien-Rechtsabteilung und ihrer Versandwerkstatt. Die bewusst korrigierten Methoden- und Signaturreferenzen werden dort mit geprüften Dateiprüfsummen und inhaltlichen Gegenproben geführt; das ursprüngliche Importarchiv bleibt unverändert. Der Pakettest prüft auch die tatsächlich übernommenen Referenztexte, statt deren bloßes Vorhandensein genügen zu lassen.
+
+# strafvollzug-jva-v1.1.0 – 2026-10-16
+
+Zwei lebensnahe Akten aus Hessen und Baden-Württemberg ergänzen den Bestand um 68 Originaldateien. Sie verbinden Absonderung, streitige Gewaltvorwürfe, Suizidprävention, Schutzmaterial, Raum- und Belegungsdaten mit früheren anwaltlichen Anträgen, gerichtlichen Beschlüssen und bearbeitbaren Folgeentwürfen. Die vier bisherigen Akten bleiben erhalten.
+
+Elf Skills, Werkstatt und kompakte Prompts vertiefen die Prüfung von Landesrecht, Fortdauer, Beweisen und gerichtlicher Aufklärung. Der Landeswegweiser trennt amtlich gelesene aktuelle Normen, Rechercheeinstiege und historische Verwaltungsvorschriften. Zusätzliche Entscheidungsanker erläutern ihre konkrete Tragweite und Grenze. Sechs Akten, 132 Originaldateien und 30 Release-Dateien werden mit Quellen, Anhängen, Tabellen und Lesefassungen abgestimmt.
+
+# prompt-einstiege-v1.0.1 – 2026-10-16
+
+Der Synchronisierer der eingebundenen Vergaberecht-Werkstatt erhält die sechs individuell redigierten veröffentlichten Rollenprompts, sofern deren bestehende dateigebundene Qualitätsnachweise gültig sind. Fehlender oder abweichender Nachweis führt zum Fehler, nicht zum Überschreiben durch ältere Generatorquellen. Importregressionen prüfen Abgleich und Manipulationserkennung bereits außerhalb des Komponentenworkflows. Der vollständige Schnelltest der Komponente ergänzt die abschließenden lokalen Prüfläufe.
+
+Das Markdown-Komponentenrelease veröffentlicht die überarbeiteten Einstiege einschließlich dieser Integrationskorrektur. Der vorausgehende Prüftag bleibt unverändert; bestehende Plugin- und Aktenpakete werden nicht ersetzt.
+
+# prompt-einstiege-v1.0.0 – 2026-10-16
+
+Die Einstiege der veröffentlichten Werkstatt- und Schnellstart-Prompts wurden je Fachgebiet redaktionell geprüft. Die Prüfung umfasst 609 Markdown-Dateien aus dem Katalog mit 302 Plugins, einschließlich der neun HOAI-Phasenwerkstätten und der Betreuungs-Unterlagenwerkstatt. Bereits passende Einstiege bleiben erhalten; Angebote ohne eigenständige Begleitprompts erhalten keine zusätzlichen Dateien.
+
+Konkreter Auftrag und Arbeitsprodukt stehen vor Einrichtungshinweisen und umfangreichen Zuordnungstabellen. Einschlägige vorhandene Entscheidungsanker erscheinen früh mit ihrer Bedeutung und Aussagegrenze. Historische Quellen, rein technische Angebote und fehlende verifizierte Rechtsprechung bleiben unterscheidbar. Rückfragen, fachliche Verzweigungen und die Fortsetzung bis zum bestellten Dokument bleiben erhalten.
+
+Vorhandene Textkopien und Prüfsummen werden synchronisiert. Eine neue strukturelle Einstiegsprüfung ergänzt die bestehenden Workflow-, Quellenzuordnungs-, Veröffentlichungs- und Marketplace-Prüfungen. Diese Redaktion ist keine neue Vollprüfung sämtlicher Rechtsquellen und kein Live-Test in fremden Oberflächen.
+
+Eigenständiges Markdown-Komponentenrelease; installierbare Skills, Plugin-Manifeste, Testakten und bisherige Release-Assets bleiben unverändert. Das allgemeine Marketplace-Release wird nicht ersetzt. Die Bestandsaufnahme und Prüfgrenzen stehen unter `quality/prompt-einstiege-2026-10-16/`.
+
+# untersuchungshaft-v1.1.0 – 2026-10-16
+
+Werkstatt-Prompt mit dreizehn eingeordneten Entscheidungen, konkreten Rückfragen und Folgeanträgen vertieft. Elf amtliche BVerfG-Originale und zwei sekundär abgeglichene BGH-Beschlüsse bleiben im Quellenstatus unterscheidbar. Nichtannahme, verspätete Haftprüfung und offengelassene Auflagenfragen werden nicht in automatische Entlassungsansprüche umgedeutet.
+
+Mini-Prompt in zehn kurze Abschnitte mit acht Rechtsprechungsankern gegliedert, unter 7.500 Zeichen und UTF-8-Bytes auch mit Windows-Zeilenumbrüchen. Regressionen sichern Fundstellenzuordnung, Lesbarkeit, Quellenstatus und Downloadkohärenz. Zehn Skills und vier Akten bleiben inhaltlich unverändert, bestehende Aktenlinks gültig.
+
+Downloadmarkierungen und Warnhinweise der vier Akten an den gemeinsamen Standard angepasst, einschließlich reproduzierbarer Ausgabe und zusätzlicher Release-Prüfung. Akteninhalte und Binärdateien bleiben unverändert.
+
+# strafvollzug-jva-v1.0.1 – 2026-10-16
+
+Der Werkstatt-Prompt erhält vertiefte thematische Prüfabläufe und zusätzliche amtlich gelesene Rechtsprechungsanker mit konkreter Tragweite und Aussagegrenze. Der Mini-Prompt wird in kurze verständliche Arbeitsschritte gegliedert. Lesefassungen, Prüfnachweise und aktive Pluginverweise werden gemeinsam fortgeschrieben; elf Skills und vier Testakten bleiben erhalten.
+
+# untersuchungshaft-v1.0.0 – 2026-10-16
+
+Zehn Fachskills für Haftanordnung, Verteidigung, Haftverschonung, Haftprüfung, Beschwerde, Haftdauer, Vollzugsrechte und Jugendhaft. Gericht, Staatsanwaltschaft, Verteidigung und Betroffene erhalten unterschiedliche, ausformulierte Arbeitsprodukte. Werkstatt und Schnellstart bleiben eigenständige Downloads.
+
+Vier Akten aus Berlin, Köln, Dresden und Bremen enthalten 36 Originalunterlagen: Word-Schreiben, E-Mails mit tatsächlichen Anlagen, Tabellen und Notizen. Gesamt-PDFs und flache Einzel-PDF- sowie Originalformat-ZIPs sind aufeinander abgestimmt. Rechtsstand, Quellenstatus und Grenzen notwendiger Verteidigung sind ausdrücklich berücksichtigt. Bestehende Akten-Downloads bleiben auf ihren bestätigten Release-Adressen.
+
 # gvb-reinigungsvergabe-v1.0.0 – 2026-10-10
 
 Neues Plugin mit genau zehn Fachskills für die Berliner Reinigungsvergabe: fünf Schritte zur Unterlagenerstellung und fünf zur Verfahrensführung. Ausführlicher Werkstatt-Prompt und kompakter Schnellstart sind getrennt herunterladbar. Zehn individuelle Prüffälle sichern die fachlichen Übergaben, Rückfragen, Dokumentausgaben und Grenzen externer Freigaben.

@@ -1,6 +1,8 @@
 # 1. Enteignungswerkstatt: Grundstück, Verhandlung und Rechtsschutz
 
-Arbeite an einem konkreten Grundstückszugriff aus der vorgegebenen Rolle. Ziel ist das jetzt benötigte fertige Dokument: ein belastbares Verhandlungsschreiben, eine aktenbezogene Einwendung, eine prüfbare Entschädigungsforderung, ein Vollzugsanschreiben oder ein gerichtlicher Antrag. Wähle nicht vorschnell die gerichtliche Route, wenn die Akte erst ein Kaufangebot enthält. Eine gute Bearbeitung hält den öffentlichen Zweck, die Rechte der Betroffenen und die tatsächliche Verfahrensstufe zugleich im Blick.
+Erstelle aus der vorgegebenen Rolle das zum Grundstückszugriff bestellte Dokument: Verhandlungsschreiben, Einwendung, bezifferte Entschädigungsforderung, Vollzugsanschreiben oder gerichtlichen Antrag. Lies das neueste Schreiben und die tragenden Grundstücksunterlagen zuerst. Ein Kaufangebot ist noch keine Enteignung und verlangt nicht ungefragt eine gerichtliche Route.
+
+Artikel 14 Absatz 3 GG bildet den verfassungsrechtlichen Maßstab. BVerfG, Urteil vom 17.12.2013, 1 BvR 3139/08 und 1 BvR 3386/08, Rn. 166 und 183, trennt Gemeinwohlziel, Projekt und Erforderlichkeit der konkreten Fläche. Prüfe diese Ebenen anhand der Akte, nicht allein anhand des behaupteten öffentlichen Nutzens. Der bergrechtliche Ausgangsfall legt weder den BauGB-Rechtsweg noch das Ergebnis eines kommunalen Grundstücksfalls fest.
 
 ## 1.1. Den Arbeitsstand aus dem Ordner gewinnen
 
@@ -21,6 +23,10 @@ Für Artikel 14 Absatz 3 sind Entzug durch Änderung der Eigentumszuordnung und 
 Artikel 15 betrifft eine gesetzliche Überführung der dort genannten Güter in Gemeineigentum oder andere Formen der Gemeinwirtschaft. Sein Satz 2 verweist nur auf Artikel 14 Absatz 3 Sätze 3 und 4. Die Vergesellschaftung eines Wirtschaftsbereichs wird nicht durch eine Grundstücksenteignungsakte nach BauGB ersetzt. Bei diesem Auftrag die Zuständigkeitsgrenze benennen und die eigenständige Prüfung eröffnen; keinen Artikel-14-Schriftsatz als fertige Artikel-15-Lösung ausgeben.
 
 BVerfG, Urteil vom 06.12.2016, Az. 1 BvR 2821/11, 1 BvR 321/12 und 1 BvR 1456/12, Rn. 243–246, trägt die Unterscheidung zwischen Zuordnungsänderung mit Güterbeschaffung und Beschränkung. Es entscheidet nicht über den Verkehrswert einer kommunalen Straßenfläche. Ausgleichsfragen einer Inhaltsbestimmung bleiben eine eigene Prüfung, kein pauschaler Anspruch auf BauGB-Entschädigung.
+
+Bei naturschutzrechtlich unterbundener, zuvor rechtmäßig ausgeübter Nutzung den Ausgleich nach Paragraf 68 Absatz 1 BNatSchG gesondert prüfen. [BVerwG, Urteil vom 26.03.2026, 10 C 4.25](https://www.bverwg.de/260326U10C4.25.0), Rn. 18–19 und 23–31: Vorrang anderer Abhilfe, insbesondere Ausnahme oder Befreiung nach Paragraf 67; für die Zumutbarkeit auf die nicht gänzlich unbedeutenden betroffenen Teilflächen abstellen. Die fortbestehende Wirtschaftlichkeit des Gesamtbetriebs genügt nicht, wenn die Privatnützigkeit gerade dort entfällt. Flächenplan, bisherige Nutzung, konkrete Restnutzungen und erfolglose Abhilfeversuche belegen.
+
+Nach Rn. 33–41 müssen Vernässung, Umfang und anderweitige wirtschaftlich nennenswerte Nutzung noch festgestellt werden. Der BVerwG-Tenor hebt auf und verweist zurück, spricht keine Entschädigung zu. Kein allgemeiner Verkehrswertanspruch und keine feste Flächenschwelle: Ausgleich nur jenseits der Sozialbindung. Zuständigkeit, Landesrecht und Rechtsweg gesondert prüfen; weder BauGB-Enteignung noch Artikel-15-Vergesellschaftung daraus ableiten.
 
 ### 1.2.1. Berliner Vergesellschaftungsbericht als Abgrenzungshilfe
 

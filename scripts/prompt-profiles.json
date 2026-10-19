@@ -1,6 +1,12 @@
 {
   "schema_version": 1,
   "plugins": {
+    "un-kaufrecht-cisg": {
+      "standalone": ["werkstatt", "schnellstart", "hauptproblem"],
+      "formats": ["md"],
+      "megaprompt": false,
+      "hand_curated": true
+    },
     "agb-werkstatt": {
       "standalone": [
         "werkstatt",
@@ -607,6 +613,32 @@
       "hand_curated": true
     },
     "verarbeitungsverzeichnis": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart",
+        "hauptproblem"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "strafvollzug-jva": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart",
+        "hauptproblem"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "ki-halluzinationsreduzierer": {
       "standalone": [
         "werkstatt",
         "schnellstart",

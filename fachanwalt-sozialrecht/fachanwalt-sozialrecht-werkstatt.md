@@ -1,6 +1,8 @@
 # 1. Sozialrechtliche Bescheide und Ansprüche bearbeiten
 
-Gleiche die angegriffene Bewilligung, Ablehnung, Aufhebung oder Beitragsfestsetzung mit meinem Antrag und den Nachweisen für den streitigen Zeitraum ab. Arbeite heraus, welche Leistung oder Korrektur rechtlich verlangt werden kann, berechne bezifferbare Unterschiede und begründe die beauftragte Beratung oder Verfahrensschrift aus der vorhandenen Akte.
+Prüfe aus Antrag, Bescheidkette und Nachweisen, welche Sozialleistung oder Beitragskorrektur für den streitigen Zeitraum verlangt werden kann. Berechne belegbare Unterschiede und liefere die bestellte Beratung oder Verfahrensschrift. Leistungsart und Streitgegenstand bestimmen, welche weiteren Belege nötig sind.
+
+Bei Erwerbsminderung nach Paragraf 43 SGB VI verbindet BSG, Urteil vom 11.12.2019, B 13 R 7/18 R, Rn. 30 bis 40 und 49 bis 50, die Zeitgrenze mit den tatsächlichen Funktionen: Auch bei mindestens sechs Stunden schwere spezifische Leistungsbehinderung oder ungewöhnliche Summierung prüfen und gegebenenfalls eine konkrete Tätigkeit benennen. Diagnosezahl oder schlechte Vermittlung genügen nicht; die Entscheidung sprach keine Rente zu. Dies ist kein allgemeiner Prüfungsschritt für Beitragsfälle.
 
 ## 1.1. Auftrag und Akte
 
@@ -62,6 +64,8 @@ Die bestehende Reformprüfung bleibt zu beachten:
 Rechne Minderungszeitraum und Zahlungswirkung aus dem jeweils anwendbaren Recht. Neue Nachweise zum Zugang oder wichtigen Grund in Bescheidprüfung und beauftragtes Schreiben einarbeiten. Maßgeblich sind der [aktuelle Paragraf 32 SGB II](https://www.gesetze-im-internet.de/sgb_2/__32.html) und die [Übergangsregel des Paragrafen 65a SGB II](https://www.gesetze-im-internet.de/sgb_2/__65a.html); historische Sanktionsentscheidungen liefern keine heutigen Prozent- oder Fristenregeln.
 
 ## 1.7. Krankenversicherung und medizinische Versorgung
+
+Bei Wechsel aus privater Krankenversicherung über eine Teilrente zuerst Zeitraum und Status prüfen. [BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R](https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_01_22_B_06a_12_KR_14_24_R.html), Rn. 13–27 (amtlicher Volltext am 16.10.2026 gelesen): Für 2021 genügte eine von Anfang an viermonatige Rentenabsenkung nicht. Einkommensprognose regelmäßig über zwölf Monate anhand damals erkennbarer Umstände; Teilrentenwahl nach Paragraf 42 SGB VI ist kein Verzicht nach Paragraf 46 SGB I. Für neue Sachverhalte seit 2026 die drei Merkmale des [Paragrafen 10 Absatz 1 Satz 8 SGB V](https://www.gesetze-im-internet.de/sgb_5/__10.html) zusammen prüfen: Altersrente als Teilrente, bei Vollrente zu hohes Gesamteinkommen und zuletzt keine GKV. Nicht rückwirkend auf den Altfall anwenden und nicht jede Teilrente ausschließen. Rentenbescheide, Wechselplanung, weitere Einkünfte und Vorversicherung belegen; ohne entstandene Familienversicherung keine darauf gestützte Anschlussversicherung nach Paragraf 188 Absatz 4 SGB V zusagen. Statusklärung vor Empfehlung zur Kündigung vorhandenen Schutzes.
 
 Trenne Sachleistung, Selbstbeschaffung und Kostenerstattung. Prüfe bei Krankenbehandlung nach Paragraf 27 SGB V medizinische Notwendigkeit und Wirtschaftlichkeit; bei Arzneimitteln Paragrafen 31 und 35a SGB V, bei Hilfsmitteln Paragraf 33 SGB V. Vertragsärztliche und stationäre Versorgung, neue Wirkstoffe, Orphan Drugs und Off-Label-Anwendung bedürfen der jeweils einschlägigen Voraussetzungen.
 

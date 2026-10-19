@@ -21,7 +21,7 @@
       "name": "agb-werkstatt",
       "source": "./agb-werkstatt",
       "description": "AGB fuer Shop, Werkstatt, Handel, Banken und Darlehen entwerfen und pruefen. Zehn Fachskills und ein Hauptskill verbinden aktuelle Quellen, Interessenlage, vollstaendige Klauseln und konkrete Einfuehrung.",
-      "version": "1.0.0",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -161,7 +161,7 @@
       "name": "bank-rechtsabteilung",
       "source": "./bank-rechtsabteilung",
       "description": "Rechtsabteilung einer mittelgroßen deutschen Bank: Aufsicht, Kredit, Avale, Bürgschaft, Garantien, Trade Finance, ZAG/PSD2, PSD3/PSR-Vorschau, eWpG, MiCAR, Tokenisierung, BaFin, Vorstand, HV und Kanzleisteuerung.",
-      "version": "445.35.3",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -461,7 +461,7 @@
       "name": "betreuungsrecht",
       "source": "./betreuungsrecht",
       "description": "Betreuungsrechtliche Skills für ehrenamtliche Familienbetreuer, Berufs- und Vereinsbetreuer: Kaltstart, Scan-Akte, Kalender, Gerichtskommunikation, Jahresbericht, Vermögensverzeichnis, Genehmigungspflichten, Wunschermittlung, Kontoanalyse und Schutzplan nach BtOG und BGB.",
-      "version": "445.33.3",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -491,7 +491,7 @@
       "name": "bgb-bt-pruefer",
       "source": "./bgb-bt-pruefer",
       "description": "Großer BGB-BT-Prüfer für Schuldrecht Besonderer Teil: Kauf einschließlich Verbrauchsgüterkauf, Waren mit digitalen Elementen, Updatepflichten und Right-to-Repair-Schnittstellen, außerdem Miete, Werk, Bürgschaft, GoA, Bereicherung, Delikt und Rückabwicklung.",
-      "version": "445.35.3",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -541,7 +541,7 @@
       "name": "commercial-courts-deutschland",
       "source": "./commercial-courts-deutschland",
       "description": "Commercial-Courts-Plugin für englischsprachige Wirtschaftsverfahren in Deutschland: Zuständigkeit, Wahlklauseln, Klage, Case Management, Beweis, Geheimnisschutz, Wortprotokoll/Transcript, Rechtsmittel, BGH, Kosten, Vollstreckung und bilingualer Schriftsatz-/Hearing-Workflow.",
-      "version": "445.35.3",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -801,7 +801,7 @@
       "name": "fachanwalt-bank-kapitalmarktrecht",
       "source": "./fachanwalt-bank-kapitalmarktrecht",
       "description": "Plugin Fachanwalt für Bank- und Kapitalmarktrecht. KWG ZAG WpHG WpIG MiFID-II MAR MiCAR Verbraucherkredit Bürgschaft Aval Bankgarantie Vermögensanlage Beratungshaftung. Schnittstellen Plugin gesellschaftsrecht regulatorisches-recht.",
-      "version": "445.35.3",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -1608,6 +1608,16 @@
       }
     },
     {
+      "name": "ki-halluzinationsreduzierer",
+      "source": "./ki-halluzinationsreduzierer",
+      "description": "Juristische Fundstellen am zugänglichen Originalvolltext prüfen: Existenz, Identität, Fundpunkt, Aussagekraft und Fallübertragbarkeit getrennt belegen. Zehn Fachskills und ein Hauptskill liefern Prüfbericht, offene Befunde und nachvollziehbare Korrekturfassung.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Klotzkette",
+        "email": "39582916+Klotzkette@users.noreply.github.com"
+      }
+    },
+    {
       "name": "ki-native-kanzlei",
       "version": "445.35.2",
       "description": "Kanzleibetrieb mit 30 Skills: Posteingang, Fristen, Rechtsarbeit, Dokumentenproduktion, Beweise, Vergleich, Kosten und Vollstreckung. Kontrollierter Computerlauf mit konkreten Freigaben. Mit 24 Kurzfällen und drei vertieften Produktionsakten.",
@@ -2051,7 +2061,7 @@
       "name": "phishing-vorfall-pruefer",
       "source": "./phishing-vorfall-pruefer",
       "description": "Freistehender Phishing-Vorfall-Prüfer für Online-Banking: BGB § 675u, § 675v, § 675w, pushTAN, Call-ID-Spoofing, grobe Fahrlässigkeit, Beweislast, Bankpflichten, Schlichtung und Klage.",
-      "version": "445.35.3",
+      "version": "445.35.4",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"
@@ -2626,6 +2636,16 @@
       }
     },
     {
+      "name": "strafvollzug-jva",
+      "version": "1.1.0",
+      "description": "Strafvollzug in der JVA aus Sicht von Gefangenen, Angehörigen, Anwälten, Anstalt und Gericht bearbeiten. Landesrecht, Grundrechte, Alltag, Lockerungen und gerichtlichen Rechtsschutz prüfen und konkrete Anträge, Bescheide oder Entscheidungsentwürfe erstellen.",
+      "author": {
+        "name": "Klotzkette",
+        "email": "39582916+Klotzkette@users.noreply.github.com"
+      },
+      "source": "./strafvollzug-jva"
+    },
+    {
       "name": "strafzumessung",
       "source": "./strafzumessung",
       "description": "Strafzumessung nach deutschem Strafrecht vom Strafbefehl bis zur großen Strafkammer. § 46 StGB Strafzumessungstatsachen Tagessatz Geldstrafe Freiheitsstrafe Bewaehrung § 56 § 49 Regelbeispiele besonders schwerer Fall Verständigung § 257c StPO TOA § 46a Gesamtstrafe § 55 JGG.",
@@ -2730,6 +2750,26 @@
       "source": "./umweltschutzverband-verbandsklage",
       "description": "Plugin für Umweltverbände: UmwRG, Aarhus, UIG, UVP, BImSchG, Planfeststellung, § 47 VwGO, Naturschutz, Klima, Verbandsklage und Eilrechtsschutz.",
       "version": "445.35.3",
+      "author": {
+        "name": "Klotzkette",
+        "email": "39582916+Klotzkette@users.noreply.github.com"
+      }
+    },
+    {
+      "name": "un-kaufrecht-cisg",
+      "source": "./un-kaufrecht-cisg",
+      "description": "UN-Kaufrecht fuer internationale Warenvertraege: CISG-Anwendung, Abwahl, kollidierende AGB, Lieferung, Maengelruege, Nachbesserung, Aufhebung, Schaden und Transport. Zehn Fachskills und ein Hauptskill begleiten beide Vertragsseiten bis zum fertigen Dokument.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Klotzkette",
+        "email": "39582916+Klotzkette@users.noreply.github.com"
+      }
+    },
+    {
+      "name": "untersuchungshaft",
+      "source": "./untersuchungshaft",
+      "description": "Untersuchungshaft fuer Gericht, Staatsanwaltschaft, Verteidigung und Betroffene: zehn Skills zu Haftbefehl, Vorfuehrung, Haftverschonung, Haftpruefung, Beschwerde, Haftdauer, Vollzugsrechten und Jugendhaft. Mit konkreten Antraegen und Entscheidungsvorlagen.",
+      "version": "1.1.0",
       "author": {
         "name": "Klotzkette",
         "email": "39582916+Klotzkette@users.noreply.github.com"

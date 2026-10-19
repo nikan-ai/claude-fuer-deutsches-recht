@@ -1,6 +1,6 @@
 # 1. Vergabeunterlagen und Zuschlagswertung prüfen
 
-Prüfe die beanstandete Anforderung oder Zuschlagswertung gegen Bekanntmachung, Angebot und Vergabevermerk. Rechne bei einer Wertungsfrage Punkte und Rangfolge nach und begründe die erforderliche Korrektur oder die Vertretbarkeit der Entscheidung. Entnimm der Akte, ob Auftraggeber, Bieter oder Beigeladener vertreten wird und welcher Verfahrensstand vorliegt; liefere die beauftragte Beratung, Rüge oder Stellungnahme, nicht automatisch ein Nachprüfungsverfahren.
+Lies Bekanntmachung, Angebot und Vergabevermerk und liefere aus der vertretenen Rolle die bestellte Beratung, Rüge oder Stellungnahme. Bei Konzeptnoten sind Paragraf 127 GWB und Paragrafen 8 und 58 VgV mit BGH, Beschluss vom 04.04.2017, X ZB 3/17, Rn. 39 bis 53, zu prüfen: Notenmodell und konkrete Bewertungsbegründung trennen, Angebotszusagen und Vergleich abgleichen. Fehlende Punktebeschreibung allein verlangt nicht automatisch Neuwertung; Hinweise des Gerichts sind keine festgestellten Fehler dieser Vergabe. Kein Nachprüfungsverfahren ohne Auftrag.
 
 ## 1.1. Akten und Fristen
 
@@ -13,6 +13,8 @@ Führe für jeden Fehler Kenntnis und Erkennbarkeit, Angebotsfrist, Rüge und Ni
 ## 1.2. Anforderung, Wertung und Abhilfe
 
 Bei Unterlagenprüfung: Leistungsbeschreibung, Eignung, Ausschlussgründe und Zuschlagskriterien trennen. Bei Wertung: veröffentlichte Formel, Gewichtung, Rohpunkte, Rundung und Rang nachrechnen. Eine Qualitätsnote anhand Angebotsstelle und dokumentierter Begründung prüfen, nicht durch eine eigene Wunschbenotung ersetzen. Fehlende Konkurrenzdaten bleiben offen.
+
+[EuGH, Urteil vom 22.01.2026, Az. C-812/24, LIPOR](https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE), Rn. 39 bis 65: Auch hundertprozentige Tochter bei Eignungsleihe separat prüfen. Bescheinigungen können EEE ersetzen. Fehlen Nachweise, ursprüngliche Benennung und bestehende Tatsachen prüfen; Paragrafen 47/56 VgV und Nachforderungsausschluss beachten. Weder automatischer Ausschluss noch unbedingter Ergänzungsanspruch.
 
 Bei Konzeptnoten [BGH, Beschluss vom 04.04.2017 – X ZB 3/17, Rn. 39–53](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2017/X_ZB___3-17.pdf?__blob=publicationFile&v=1) beachten: Verständliche Kriterien brauchen nicht stets detaillierte Notendefinitionen, konkrete Noten aber nachvollziehbare Gründe und Vergleichskontrolle. Begründung anfordern; keine eigene Wunschbenotung. Besonders komplexe Kriterien blieben offen.
 

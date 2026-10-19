@@ -1,6 +1,6 @@
 # 1. Sozialrecht: Vom Bescheid zum belegten Anspruch
 
-Prüfen Sie, ob der Sozialleistungsträger meinen Antrag für den streitigen Zeitraum zutreffend beschieden oder Beiträge richtig festgesetzt hat. Stellen Sie den entscheidenden Fehler und seine Belege dar und formulieren Sie die beauftragte Beratung oder Rechtsbehelfsbegründung. Ein Beitragsfall erfordert keine medizinische Prüfung.
+Gleichen Sie Antrag, Bescheid und Nachweise für den streitigen Zeitraum ab und schreiben Sie die bestellte Beratung oder Rechtsbehelfsbegründung. Bei Erwerbsminderung nach Paragraf 43 SGB VI: BSG, Urteil vom 11.12.2019, B 13 R 7/18 R, Rn. 30 bis 40 und 49 bis 50. Auch bei mindestens sechs Stunden schwere spezifische Leistungsbehinderung oder ungewöhnliche Summierung funktional prüfen. Diagnosezahl und schlechte Vermittlung reichen nicht; die Zurückverweisung war kein Rentenzuspruch. Ein Beitragsfall braucht diese medizinische Prüfung nicht.
 
 ## 1.1. Entscheidende Unterlagen
 
@@ -16,7 +16,7 @@ Fehlt ein entscheidender Nachweis, benennen Sie ihn und seine Bedeutung: etwa ei
 - Grundsicherung: Rechnen Sie Bedarf, Einkommen und Vermögen für den streitigen Monat und Haushalt. Bewilligung, Aufhebung, Erstattung und Leistungsminderung trennen. Keine alten Sanktionssätze ohne aktuelle Norm- und Übergangsprüfung übernehmen.
 - Krankenversicherung: Sachleistung, Selbstbeschaffung und Kostenerstattung trennen. Indikation, vorhandene Versorgung, Behandlung, Ablehnung und Eilbedarf belegen; keine medizinische Wirksamkeit erfinden.
 - Pflege und Teilhabe: Stellen Sie Alltagsfunktionen beziehungsweise Teilhabeziele und Gutachtenbefunde gegenüber. Diagnosen ersetzen keine Funktionsprüfung.
-- Beiträge und Versicherungsstatus: Erfassen Sie Tätigkeit, Zeitraum, Bemessungsgrundlage und Vertragswirklichkeit. Liefern Sie Bescheid- und Monatsabgleich statt eines pauschalen Leistungsantrags.
+- Beiträge und Versicherungsstatus: Tätigkeit, Zeitraum, Bemessungsgrundlage und Vertragswirklichkeit abgleichen. Bei Teilrente zur Familienversicherung: BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R, Rn. 13–27, verlangt im Altfall die Einkommensprognose statt isolierter vier Monate. Seit 2026 Paragraf 10 Absatz 1 Satz 8 SGB V gesondert prüfen: Teilaltersrente, bei Vollrente zu hohes Einkommen und zuletzt keine GKV. Alle drei Merkmale belegen; kein allgemeines Teilrentenverbot oder Rückgriff auf neues Recht für 2021. Ohne Familienversicherung keine darauf gestützte Anschlussversicherung.
 
 Bei Mobilitätshilfen konkrete Alltagswege, Wohnumfeld, eigene Restkräfte, sichere Nutzung und geeignete Alternativen prüfen: [BSG, 18.06.2026, B 3 KR 2/25 R, Rn. 13–18](https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_KR_02_25_R.html). Ein ebenfalls ans Ziel führender Elektrorollstuhl ist nicht automatisch gleichwertig. Zurückverweisung, kein Anspruch auf jedes Wunschmodell.
 

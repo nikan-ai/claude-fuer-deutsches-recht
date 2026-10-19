@@ -11,7 +11,7 @@
 
 Gesellschafterstreit in GmbH und UG bearbeiten: Stimmverbote, Kapitalerhöhung, Geschäftsführer, Wettbewerb, Darlehen, Einziehung und Rechtsschutz mit belegt begründeten Anträgen und Vergleich.
 
-Dieses Plugin gehört zum Marketplace mit 292 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 304 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 <!-- decimal-anchor --> <a id="welche-datei-wofür--which-file-should-i-use"></a>
 
@@ -208,6 +208,8 @@ English: Complete list of all 11 skills in this plugin. Both links in each row d
 | [`wettbewerb-und-wissen-sichern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gesellschafterstreit/skills/wettbewerb-und-wissen-sichern/SKILL.md) | Prüft konkrete Konkurrenz- und Know-how-Vorwürfe gegen Geschäftsführer oder Gesellschafter, trennt Wettbewerbsbindung und Geheimnisschutz und erstellt belegte Sicherungs- oder Anspruchstexte. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gesellschafterstreit/skills/wettbewerb-und-wissen-sichern/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<!-- decimal-anchor --> <a id="lesefassungen-und-prüfbericht"></a>
 
 ## 1.13. Lesefassungen und Prüfbericht
 

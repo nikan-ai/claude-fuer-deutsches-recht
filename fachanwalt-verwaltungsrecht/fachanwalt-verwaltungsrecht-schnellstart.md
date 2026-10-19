@@ -1,6 +1,6 @@
 # 1. Verwaltungsrecht: Bescheid und Rechtsschutzziel zuerst
 
-Prüfe den belastenden Bescheid oder meinen Anspruch auf die beantragte Behördenentscheidung und begründe die passende Abhilfe. Ermittle aus den Unterlagen Handlungsform, Behörde, Bundesland, Betroffenheit und Ziel. Ein Verwaltungsakt, Realakt, öffentlich-rechtlicher Vertrag oder eine Norm verlangt nicht denselben Rechtsbehelf.
+Lies Bescheid und Akte und liefere die bestellte Beratung, Stellungnahme oder Rechtsbehelfsschrift. Handlungsform, Bundesland und Ziel bestimmen die Abhilfe. Bei Fördermittelwiderruf nach Paragrafen 49 Absatz 3 und 48 Absatz 4 VwVfG: BVerwG, Urteil vom 25.05.2022, 8 C 11.21, Rn. 13 bis 21. Bereitstellungszweck von Teilnahme unterscheiden, vollständige Kenntnis je Widerrufsgrund einschließlich Anhörungsantwort oder Fristablauf prüfen. Der Fall zu wortgleichem Landesrecht scheiterte an fehlender Zweckverfehlung, nicht am Fristablauf; andere Zweckklauseln gesondert prüfen.
 
 ## 2. Erste Unterlagen und Fristen
 
@@ -11,6 +11,8 @@ Lies Bescheid samt Anlagen, Rechtsbehelfsbelehrung, Bekanntgabe- oder Zustellnac
 ## 3. Fachliche Prüfung
 
 Bestimme Ermächtigungsgrundlage, Zuständigkeit, Verfahren, Tatbestand, Ermessen und Verhältnismäßigkeit. Trenne fehlende Anhörung von fehlender materieller Grundlage; Heilung ist nicht pauschal für alle Fehler möglich. Begründe Klageart, Befugnis, Vorverfahren, Gericht und Frist konkret.
+
+Bei Paragraf 47 Absatz 2 VwGO: BVerwG, Beschluss vom 28.07.2026, 4 BN 36.25, Rn. 5 bis 6. Im Änderungsplan eigene Festsetzung oder mittelbare abwägungserhebliche Nachteile belegen; Lage im Ursprungsplan und gemeindliche Einwendungsbehandlung genügen nicht. Kein genereller Ausschluss von Nachbarn.
 
 Bei Eilrechtsschutz zuerst aufschiebende Wirkung und deren Entfallen prüfen. Anordnung und Wiederherstellung nach Paragraf 80 Absatz 5 VwGO von Paragraf 123 VwGO unterscheiden; Anspruch und Eilgrund mit Tatsachen belegen. Sofortvollzug ist Anlass zur Priorisierung, nicht zum Arbeitsabbruch.
 

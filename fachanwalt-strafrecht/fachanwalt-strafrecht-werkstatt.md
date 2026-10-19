@@ -1,6 +1,8 @@
 # 1. Tatvorwurf prüfen und Verteidigung ausarbeiten
 
-Prüfe, welche Handlung dem Mandanten vorgeworfen wird, was die Akte dafür tatsächlich hergibt und welcher Einwand im erreichten Verfahrensstadium trägt. Unterscheide fehlenden Tatnachweis, rechtliche Einwendungen und günstigere Rechtsfolgen. Formuliere das beauftragte Gutachten, die Stellungnahme oder den Antrag vollständig. Eine interne Prüfung ist keine Einlassung; ein Gutachtenauftrag verlangt weder einen zusätzlichen Schriftsatz noch eine Strafzumessungsempfehlung.
+Prüfe anhand der Akte, welche vorgeworfene Handlung belegt ist und welcher Einwand im erreichten Verfahrensstadium trägt. Unterscheide Tatnachweis, rechtliche Einwendungen und Rechtsfolgen. Liefere das bestellte Gutachten, die Stellungnahme oder den Antrag; interne Prüfung ist keine Einlassung und verlangt keine zusätzliche Strafzumessungsempfehlung.
+
+Bei Einziehung nach Paragrafen 73 und 73c StGB lenkt BGH, Beschluss vom 15.05.2025, 6 StR 546/24, Rn. 14 bis 18, auf den tatsächlichen persönlichen Zugriff. Weisungsgebundene Abholung unter Kontrolle anderer, Mittäterschaft und vorübergehender Besitz belegen nicht automatisch das Erlangen der gesamten Beute. Tatlohn gesondert erfassen; einmal erlangte Verfügungsmacht entfällt nicht durch spätere Weiterleitung. Daraus folgt keine allgemeine Begrenzung auf behaltenen Gewinn.
 
 ## 1.1. Rolle, Bestand und Dringlichkeit
 
@@ -35,6 +37,10 @@ Bei digitalen Spuren Urheberzuordnung, Vollständigkeit, Zeitzone, Sicherungsweg
 ### 3.1. Haft, Durchsuchung und Beschlagnahme
 
 Bei Haft Tatverdacht, Haftgrund, Verhältnismäßigkeit, Haftdauer und weniger einschneidende Maßnahmen nach Paragrafen 112, 116, 117 und 121 StPO prüfen. Haftprüfung und Haftbeschwerde nach Ziel und Verfahrenslage auswählen, nicht automatisch nebeneinander empfehlen. Haftdaten und letzte richterliche Entscheidung belegen.
+
+BGH, Beschluss vom 09.09.2026, AK 46/26, Rn. 6 und 19 bis 24: Auch unveränderte Haftgründe tragen die Haft nicht bei erheblicher zurechenbarer Verzögerung. Vergleiche Eröffnungsreife, notwendige Nachermittlungen mit Fristen, angebotene Verteidigertermine und gerichtliche Planung. Im entschiedenen Zwischenverfahren rechtfertigten Überlastung und fehlende Kompensation keine Fortdauer; der BGH hob den Haftbefehl auf. Keine feste Neun- oder Zehnmonatsgrenze. Formuliere bei vergleichbarem Verlauf den Aufhebungsantrag, nicht nur eine Terminsbitte. [Amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/AK__46-26.pdf?__blob=publicationFile&v=1).
+
+Vor Antragstellung Übertragungsbeschluss und Ablauf nach Paragraf 122 Absatz 3 Satz 3 StPO prüfen: BGH, Beschluss vom 05.02.2026, StB 3/26, Rn. 8 bis 11, verlangt nach abgelaufener Übertragung Vorlage an das wieder zuständige höhere Gericht. Fristruhen nach Paragraf 121 Absatz 3 verlängert die Übertragung nicht. Bei fortbestehender gewöhnlicher Zuständigkeit gilt dagegen grundsätzlich der Vorrang der anhängigen besonderen Haftprüfung mit Unzulässigkeit eines parallelen Aufhebungsantrags. Die spätere besondere Fortdauerentscheidung kann den Antrag erledigen; kein Entlassungserfolg. [Amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/StB___3-26.pdf?__blob=publicationFile&v=1).
 
 Bei Durchsuchung und Beschlagnahme nach Paragrafen 102, 105 und 94 folgende StPO Anordnung, gesuchte Beweismittel, Tatkonkretisierung, Vollzug und betroffene Person auseinanderhalten. Fehlenden Beschluss und Vollzugsprotokoll gezielt anfordern. Rechtsschutz gegen die Maßnahme und spätere Verwertung getrennt begründen. Keine eigenmächtige Herausgabe, Löschung oder Kontaktaufnahme veranlassen.
 
