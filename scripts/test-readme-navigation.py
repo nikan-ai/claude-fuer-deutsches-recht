@@ -1,0 +1,743 @@
+#!/usr/bin/env python3
+"""Regressionen für Verzeichnisse, Downloadwege und Aktenhinweise."""
+
+from __future__ import annotations
+
+import importlib.util
+import io
+import json
+import re
+import tempfile
+import unittest
+from pathlib import Path
+from contextlib import redirect_stderr, redirect_stdout
+from unittest.mock import patch
+
+from testakte_disclaimer import NOTICE_DE, NOTICE_EN, NOTICE_MARKDOWN
+from testakte_download_notices import (
+    download_group_starts,
+    download_readmes,
+    ensure_download_notices,
+    missing_notice_positions,
+)
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def load_script(filename: str):
+    spec = importlib.util.spec_from_file_location(filename, ROOT / "scripts" / filename)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+NAV = load_script("validate-readme-navigation.py")
+CASES = load_script("inject-gesamt-pdf-section.py")
+PLUGINS = load_script("inject-direkt-loslegen-section.py")
+ASSETS = load_script("generate-asset-index.py")
+DOWNLOADS = load_script("validate-testakten-readme-downloads.py")
+CATALOG = load_script("generate-root-plugin-catalog.py")
+OVERVIEWS = load_script("validate-root-readme-overview.py")
+
+
+class ReadmeIntroductionTests(unittest.TestCase):
+    def test_installation_steps_use_individual_package_index(self):
+        for filename, heading in (
+            ("QUICKSTART.md", "## 3. Ein einzelnes Plugin installieren"),
+            ("INSTALLATION_EINFACH.md", "## 1. Einzelnes Plugin installieren"),
+            ("README.md", "**Schritt 2: Plugin-ZIP herunterladen**"),
+        ):
+            with self.subTest(filename=filename):
+                text = (ROOT / filename).read_text(encoding="utf-8")
+                first_step = text.split(heading, 1)[1].split("\n2.", 1)[0]
+                self.assertIn("./ASSET_INDEX.md", first_step)
+                self.assertNotIn("releases/latest", first_step)
+
+    def test_quickstart_distinguishes_workspace_imports(self):
+        text = (ROOT / "QUICKSTART.md").read_text(encoding="utf-8")
+        section = text.split("## 4. Den Marketplace einbinden", 1)[1].split("## 5.", 1)[0]
+        self.assertIn("./README.md#chatgpt-und-die-chatgpt-app", section)
+        self.assertIn("Admin > Plugins > Add > Import marketplace", section)
+        self.assertNotIn("Nur im Kommandozeilen-Client", section)
+
+    def test_root_starts_with_purpose_instead_of_release_news(self):
+        text = (ROOT / "README.md").read_text(encoding="utf-8")
+        intro = text.split('<a id="chatgpt-und-die-chatgpt-app"></a>', 1)[0]
+        first_paragraph = intro.split("\n\n")[1]
+        self.assertIn("Rechtspraxis", first_paragraph)
+        self.assertNotRegex(first_paragraph, r"\bv\d+\.\d+\.\d+\b")
+        self.assertNotRegex(intro, r"(?im)^(?:Neu\b|Erweitert:|Neuigkeiten|The new\b)")
+        self.assertLess(len(intro), 6000, "Einführung nicht als Änderungschronik verlängern")
+
+    def test_root_intro_keeps_catalogs_and_history_accessible(self):
+        text = (ROOT / "README.md").read_text(encoding="utf-8")
+        intro = text.split('<a id="chatgpt-und-die-chatgpt-app"></a>', 1)[0]
+        for target in (
+            "#was-ist-drin", "./SKILLS.md", "./testakten/README.md",
+            "./docs/werkstatt-und-schnellstart-coverage.md#werkstatt-prompts",
+            "./docs/werkstatt-und-schnellstart-coverage.md#schnellstart-prompts",
+            "./ASSET_INDEX.md", "./INSTALLATION_EINFACH.md", "./CHANGELOG.md",
+        ):
+            with self.subTest(target=target):
+                self.assertIn(f"]({target})", intro)
+
+
+class CatalogVersionTests(unittest.TestCase):
+    def test_generated_marketplace_note_tracks_current_count(self):
+        body = "Dieses Plugin gehört zum Marketplace mit 302 Plugins."
+        text = PLUGINS.BEGIN + "\n" + body + "\n" + PLUGINS.END
+        self.assertEqual(NAV.marketplace_note_errors(text, 302), [])
+        self.assertEqual(len(NAV.marketplace_note_errors(text, 303)), 1)
+        self.assertEqual(NAV.marketplace_note_errors(body, 303), [])
+
+    def test_archive_note_does_not_promise_unpublished_plugins(self):
+        text = PLUGINS.BEGIN + "\nWer alle Plugins auf einmal will, nimmt das Archiv.\n" + PLUGINS.END
+        self.assertEqual(len(NAV.marketplace_note_errors(text, 302)), 1)
+        self.assertEqual(NAV.marketplace_note_errors(text.replace("Wer alle Plugins auf einmal will", "Veröffentlichter Sammelstand"), 302), [])
+
+    def test_description_count_uses_source_without_changing_other_numbers(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for name in ("start", "vertiefung"):
+                path = root / "skills" / name / "SKILL.md"
+                path.parent.mkdir(parents=True)
+                path.write_text("# Inhalt\n", encoding="utf-8")
+            text = "Mit über 200 Skills für Artikel 83 und 12 Rechtsordnungen."
+            expected = "Mit 2 Skills für Artikel 83 und 12 Rechtsordnungen."
+            result = PLUGINS.description_with_current_count(text, root)
+            self.assertEqual(result, expected)
+            self.assertEqual(PLUGINS.description_with_current_count(result, root), expected)
+            self.assertEqual(PLUGINS.description_with_current_count(text, root / "fehlt"), text)
+
+    def test_subject_index_checks_nested_sources_counts_versions_and_order(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            plugins = [
+                {"name": "zivil", "source": "./gerichte/zivil", "version": "1.2.3", "description": "Für Gerichte."},
+                {"name": "anwalt", "source": "./anwalt", "version": "1.2.3", "description": "Für Anwälte."},
+            ]
+            for plugin in plugins:
+                skill = root / plugin["source"] / "skills" / "start" / "SKILL.md"
+                skill.parent.mkdir(parents=True)
+                skill.write_text("# Inhalt\n", encoding="utf-8")
+            path = root / "references" / "rechtsgebiete-uebersicht.md"
+            path.parent.mkdir()
+            marketplace = {"version": "1.2.3", "plugins": plugins}
+            with patch.object(CATALOG, "REPO", root), patch.object(OVERVIEWS, "REPO", root):
+                text = CATALOG.build_subject_index(plugins, "1.2.3")
+                path.write_text(text, encoding="utf-8")
+                self.assertEqual(OVERVIEWS.check_subject_index(marketplace), [])
+                self.assertLess(text.index("[`anwalt`]"), text.index("[`zivil`]"))
+                for old, new in (("| 1 |", "| 9 |"), ("`1.2.3`", "`0.1.0`"), ("2 Plugins", "3 Plugins"), ("../gerichte/zivil/", "../zivil/")):
+                    with self.subTest(old=old):
+                        path.write_text(text.replace(old, new), encoding="utf-8")
+                        self.assertTrue(OVERVIEWS.check_subject_index(marketplace))
+
+    def test_navigation_scans_sources_but_not_local_dependencies_or_builds(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            paths = ("README.md", "plugin/skills/einstieg/SKILL.md", ".venv/lib/LICENSE.md",
+                     "node_modules/pkg/README.md", "dist/README.md", "release-staging/README.md")
+            for name in paths:
+                target = root / name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text("# Dokument\n")
+            with patch.object(NAV, "REPO", root):
+                actual = {p.relative_to(root).as_posix() for p in NAV.repository_markdown_files()}
+            self.assertEqual(actual, {"README.md", "plugin/skills/einstieg/SKILL.md"})
+
+    def test_case_index_count_follows_inventory(self):
+        source = "Stand v444.8.0: 340 zentrale Testakten.\n"
+        expected = "Stand v444.9.0: 341 zentrale Testakten.\n"
+        self.assertEqual(CATALOG.update_testakten_version(source, "444.9.0", 341), expected)
+        self.assertEqual(CATALOG.update_testakten_version(expected, "444.9.0", 341), expected)
+
+    def test_all_repeated_summary_counts_are_updated_and_idempotent(self):
+        original = (
+            "| **Plugins** | 239 | Beschreibung |\n"
+            "| **Plugins** | 239 (inkl. 15 Gerichts-Plugins) |\n"
+            "| **Testakten** | 340 zentral / 343 gesamt |\n"
+            "| **Testakten** | 340 zentral / 343 gesamt | Weiter |\n"
+        )
+        counts = {"plugins": 240, "central_testakten": 341, "testakten": 344}
+        result = CATALOG.update_summary_counts(original, counts)
+        self.assertEqual(result, original.replace("239", "240").replace("340", "341").replace("343", "344"))
+        self.assertEqual(CATALOG.update_summary_counts(result, counts), result)
+
+    def test_street_description_displays_umlauts_without_changing_slug(self):
+        description = "Oeffentliches Strassen- und Strassenverkehrsverwaltungsrecht: Schulstrassen und Fahrraeder."
+        self.assertEqual(PLUGINS.markdown_text(description), "Öffentliches Straßen- und Straßenverkehrsverwaltungsrecht: Schulstraßen und Fahrräder.")
+
+    def test_case_index_version_follows_release_without_changing_content(self):
+        original = "# Akten\n\nStand v444.5.2: 337 Akten.\n\nInhalt bleibt erhalten.\n"
+        expected = original.replace("v444.5.2", "v444.6.0")
+        self.assertEqual(CATALOG.update_testakten_version(original, "444.6.0"), expected)
+        self.assertEqual(CATALOG.update_testakten_version(expected, "444.6.0"), expected)
+
+    def test_missing_or_ambiguous_case_index_version_is_rejected(self):
+        for text in ("# Akten\n", "Stand v1.0.0: A\nStand v1.0.0: B\n"):
+            with self.subTest(text=text), self.assertRaises(RuntimeError):
+                CATALOG.update_testakten_version(text, "444.6.0")
+
+
+class GeneratedNavigationTests(unittest.TestCase):
+    canonical = "https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/"
+    targets = ("README.md", "SKILLS.md", "skills-index/demo.md", "ASSET_INDEX.md", "testakten/README.md")
+
+    def validate_navigation(self, links):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            marketplace = root / ".claude-plugin/marketplace.json"
+            marketplace.parent.mkdir()
+            marketplace.write_text(json.dumps({"plugins": [{"name": "demo", "source": "./demo"}]}))
+            prompt = NAV.markdown_download_url("demo/demo-werkstatt.md")
+            content = "# Demo\n\n" + links + "\n\n[Plugin-Dateien](.)\n\n[Werkstatt](" + prompt + ")\n"
+            files = {
+                "demo/README.md": content,
+                "skills-index/demo.md": "# Skills\n\n[Werkstatt](" + prompt + ")\n",
+                "ASSET_INDEX.md": "# Downloads\n\n[Plugin](demo/README.md) · [Skills](skills-index/demo.md) · [Werkstatt](" + prompt + ")\n",
+                "README.md": "# Start\n\n## Was ist drin\n",
+                "SKILLS.md": "# Alle Skills\n",
+                "testakten/README.md": "# Testakten\n",
+            }
+            for relative, text in files.items():
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(text, encoding="utf-8")
+            with patch.object(NAV, "REPO", root), patch.object(NAV, "MARKETPLACE", marketplace), patch.object(
+                NAV, "standalone_kinds", return_value=("werkstatt",)
+            ), patch.object(NAV, "formats", return_value=("md",)), patch.object(
+                NAV, "markdown_tokens", wraps=NAV.markdown_tokens
+            ) as parse:
+                errors = []
+                self.assertEqual(NAV.validate_generated_navigation(errors), (1, 0))
+                return errors, parse.call_count
+
+    def links(self, prefix):
+        return " · ".join(f"[Ziel {index}]({prefix}{target})" for index, target in enumerate(self.targets))
+
+    def test_relative_and_canonical_navigation_are_equivalent(self):
+        for prefix in ("../", self.canonical):
+            with self.subTest(prefix=prefix):
+                errors, calls = self.validate_navigation(self.links(prefix))
+                self.assertEqual(errors, [])
+                self.assertEqual(calls, 1, "Plugin-README genau einmal als Markdown parsen")
+
+    def test_canonical_navigation_rejects_wrong_repository_branch_or_path(self):
+        for wrong in (
+            self.canonical.replace("github.com", "github.example"),
+            self.canonical.replace("Klotzkette/claude-fuer-deutsches-recht", "Andere/claude-fuer-deutsches-recht"),
+            self.canonical.replace("/blob/main/", "/blob/anderer-zweig/"),
+            self.canonical + "anderer-ordner/",
+        ):
+            with self.subTest(wrong=wrong):
+                links = self.links("../").replace("../README.md", wrong + "README.md")
+                errors, _ = self.validate_navigation(links)
+                self.assertEqual(errors, ["demo/README.md: Navigationsziel fehlt: ../README.md"])
+
+    def test_navigation_in_code_block_does_not_count(self):
+        links = self.links("../").replace("[Ziel 0](../README.md)", "")
+        links += "\n\n```md\n[Unsichtbare Navigation](../README.md)\n```"
+        errors, _ = self.validate_navigation(links)
+        self.assertEqual(errors, ["demo/README.md: Navigationsziel fehlt: ../README.md"])
+
+    def test_reference_links_and_existing_catalog_fragment_are_supported(self):
+        links = self.links("../").replace("[Ziel 0](../README.md)", "[Start][hauptseite]")
+        links += "\n\n[hauptseite]: " + self.canonical + "README.md#was-ist-drin\n"
+        errors, _ = self.validate_navigation(links)
+        self.assertEqual(errors, [])
+
+
+class DownloadNoticeTests(unittest.TestCase):
+    table = (
+        "| Format | Download |\n| --- | --- |\n"
+        "| Gesamt-PDF | [PDF](gesamt-pdf/akte_gesamt.pdf) |\n"
+        "| ZIP | [Originaldateien](testakte-akte.zip) |\n"
+        "| ZIP | [Einzel-PDFs](testakte-akte-einzelpdfs.zip) |\n"
+    )
+
+    def errors(self, text):
+        errors = []
+        DOWNLOADS.validate_download_notices("README.md", text, errors)
+        return errors
+
+    def test_notice_has_unchanged_wording_in_two_blockquote_paragraphs(self):
+        self.assertEqual(
+            NOTICE_DE,
+            "Diese Testakte wurde mit KI generiert und ist ein Experiment. "
+            "Benutzung auf eigene Verantwortung und eigene Gefahr.",
+        )
+        self.assertEqual(
+            NOTICE_EN,
+            "This test case file was generated with AI and is an experiment. "
+            "Use at your own responsibility and risk.",
+        )
+        self.assertEqual(NOTICE_MARKDOWN, f"> {NOTICE_DE}\n>\n> {NOTICE_EN}")
+
+    def test_notice_must_immediately_precede_first_download_table(self):
+        self.assertEqual(self.errors(NOTICE_MARKDOWN + "\n\n" + self.table), [])
+        for text in (
+            self.table,
+            self.table + "\n" + NOTICE_MARKDOWN,
+            NOTICE_MARKDOWN + "\n\nAllgemeine Erläuterung.\n\n" + self.table,
+            NOTICE_MARKDOWN + "\n\n## Downloads\n\n" + self.table,
+            self.table + "\n" + NOTICE_MARKDOWN + "\n\n" + self.table,
+            f"> {NOTICE_DE}\n\n" + self.table,
+            NOTICE_MARKDOWN.replace("eigene Gefahr", "Gefahr") + "\n\n" + self.table,
+            self.table.replace("| Gesamt-PDF", "| " + NOTICE_MARKDOWN.replace("\n", " ")),
+        ):
+            with self.subTest(text=text):
+                self.assertTrue(self.errors(text))
+
+    def test_each_separate_download_group_needs_a_notice(self):
+        text = NOTICE_MARKDOWN + "\n\n" + self.table + "\n## Weitere Akte\n\n" + self.table
+        self.assertEqual(len(self.errors(text)), 1)
+        updated = ensure_download_notices(text)
+        self.assertEqual(updated.count(NOTICE_MARKDOWN), 2)
+        self.assertEqual(self.errors(updated), [])
+        self.assertEqual(ensure_download_notices(updated), updated)
+
+    def test_html_and_markdown_download_groups(self):
+        groups = (
+            self.table,
+            "[PDF](gesamt-pdf/akte_gesamt.pdf) · [ZIP](testakte-akte.zip)\n",
+            '- [PDF](gesamt-pdf/akte_gesamt.pdf)\n- [ZIP](testakte-akte.zip)\n',
+            '<p>\n<a href="alle-testakten.zip">Originalformate</a>\n<br>\n'
+            '<a href="alle-testakten-einzelpdfs.zip">Einzel-PDFs</a>\n</p>\n',
+            '> [Sammelpaket](alles-komplettpaket.zip)\n',
+            '[PDF](<testakte/gesamt-pdf/testakte_gesamt.pdf> "Lesefassung")\n',
+        )
+        for group in groups:
+            with self.subTest(group=group):
+                text = "# Downloads\n\n" + group
+                self.assertEqual(len(download_group_starts(text)), 1)
+                updated = ensure_download_notices(text)
+                self.assertIn(NOTICE_MARKDOWN + "\n\n" + group, updated)
+                self.assertEqual(ensure_download_notices(updated), updated)
+                self.assertEqual(self.errors(updated), [])
+
+    def test_plugin_zips_navigation_and_code_are_not_case_downloads(self):
+        text = (
+            "[Plugin](mietrecht.zip) · [Übersicht](testakten/README.md)\n\n"
+            "```md\n[Beispiel](testakte-akte.zip)\n```\n\n"
+            "~~~html\n<a href='alle-testakten.zip'>Beispiel</a>\n~~~\n"
+        )
+        self.assertEqual(download_group_starts(text), [])
+        self.assertEqual(ensure_download_notices(text), text)
+
+    def test_local_case_pdf_gets_notice_but_external_source_pdf_does_not(self):
+        text = "[Brief](01_brief.pdf)\n\n[Quelle](https://example.org/entscheidung.pdf)\n"
+        self.assertEqual(len(missing_notice_positions(text, case_readme=True)), 1)
+        self.assertEqual(missing_notice_positions(text), [])
+
+    def test_heading_without_blank_line_does_not_swallow_warning(self):
+        text = "## Downloads\n" + self.table
+        updated = ensure_download_notices(text)
+        self.assertTrue(updated.startswith("## Downloads\n\n" + NOTICE_MARKDOWN))
+        self.assertEqual(self.errors(updated), [])
+        self.assertEqual(ensure_download_notices(updated), updated)
+
+    def test_case_generator_preserves_notice_position_for_all_formats(self):
+        for pdf in (None, "gesamt-pdf/akte_gesamt.pdf"):
+            for individual in (False, True):
+                with self.subTest(pdf=pdf, individual=individual):
+                    text = CASES.section_block("akte", pdf, individual)
+                    self.assertEqual(text.count(NOTICE_MARKDOWN), 1)
+                    self.assertIn(NOTICE_MARKDOWN + "\n\n| Was |", text)
+                    self.assertEqual(self.errors(text), [])
+
+    def test_case_injection_is_idempotent_and_covers_older_links(self):
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / "README.md"
+            original = "## Bisheriger Download\n\n[ZIP](testakte-akte.zip)\n"
+            readme.write_text("# Akte\n\n" + original, encoding="utf-8")
+            with patch.object(CASES, "expected_arcnames", return_value=["brief.pdf"]):
+                self.assertEqual(CASES.inject(readme, "akte"), "inserted")
+                first = readme.read_text(encoding="utf-8")
+                self.assertEqual(CASES.inject(readme, "akte"), "unchanged")
+            self.assertEqual(readme.read_text(encoding="utf-8"), first)
+            self.assertEqual(first.count(NOTICE_MARKDOWN), 2)
+            self.assertEqual(self.errors(first), [])
+            self.assertIn("[ZIP](testakte-akte.zip)", first)
+
+    def test_plugin_generator_covers_assigned_local_and_collection_downloads(self):
+        directory = ROOT / "mietrecht"
+        plugin = {"name": "mietrecht", "description": "Mietrecht"}
+        for local, slugs in ((False, []), (False, ["akte"]), (True, [])):
+            with self.subTest(local=local, slugs=slugs), patch.object(
+                PLUGINS, "has_plugin_local_testakte", return_value=local
+            ):
+                text = PLUGINS.block(plugin, directory, slugs, 1)
+                self.assertIn(NOTICE_MARKDOWN, text)
+                self.assertEqual(self.errors(text), [])
+
+    def test_asset_index_generator_is_idempotent_and_warns_before_collection_table(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / ".claude-plugin").mkdir()
+            (root / ".claude-plugin/marketplace.json").write_text(
+                json.dumps({"version": "1.0.0", "plugins": []}), encoding="utf-8"
+            )
+            with patch.object(ASSETS, "REPO", root):
+                ASSETS.main()
+                first = (root / "ASSET_INDEX.md").read_text(encoding="utf-8")
+                ASSETS.main()
+            self.assertEqual((root / "ASSET_INDEX.md").read_text(encoding="utf-8"), first)
+            self.assertIn(NOTICE_MARKDOWN + "\n\n| Asset |", first)
+            self.assertEqual(self.errors(first), [])
+
+    def test_readme_inventory_includes_all_required_download_surfaces(self):
+        paths = set(download_readmes(ROOT))
+        for relative in (
+            "README.md", "ASSET_INDEX.md", "testakten/README.md", "mietrecht/README.md",
+            "gerichtsplugins/richter-landgericht-strafkammer/README.md",
+            "arbeitszeugnispruefer/testakte/arbeitszeugnis-analyse-bluehendes-leben/README.md",
+        ):
+            self.assertIn(ROOT / relative, paths)
+
+    def test_validator_main_rejects_missing_notices_on_every_surface(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            case = root / "testakten/akte"
+            case.mkdir(parents=True)
+            (root / "plugin").mkdir()
+            (root / ".claude-plugin").mkdir()
+            repository_version = json.loads(
+                (ROOT / ".claude-plugin/marketplace.json").read_text(encoding="utf-8")
+            )["version"]
+            (root / ".claude-plugin/marketplace.json").write_text(
+                json.dumps({"version": repository_version, "plugins": [{"source": "./plugin"}]}), encoding="utf-8"
+            )
+            with patch.object(DOWNLOADS, "ROOT", root), patch.object(CASES, "REPO_ROOT", root):
+                overview = ensure_download_notices(
+                    "| Akte | Download |\n| --- | --- |\n"
+                    "| Akte | [PDF](./akte/gesamt-pdf/akte_gesamt.pdf) "
+                    f"· [ZIP]({DOWNLOADS.release_url('akte')}) "
+                    f"· [Einzel-PDFs]({DOWNLOADS.release_url('akte', '-einzelpdfs')}) |\n"
+                )
+                case_readme = CASES.section_block("akte", "gesamt-pdf/akte_gesamt.pdf", True)
+            files = {
+                "README.md": ensure_download_notices(self.table),
+                "ASSET_INDEX.md": ensure_download_notices(self.table),
+                "plugin/README.md": ensure_download_notices(self.table),
+                "testakten/README.md": overview,
+                "testakten/akte/README.md": case_readme,
+            }
+            for relative, text in files.items():
+                (root / relative).write_text(text, encoding="utf-8")
+            with patch.object(DOWNLOADS, "ROOT", root), patch.object(
+                DOWNLOADS, "TESTAKTEN", root / "testakten"
+            ), patch.object(DOWNLOADS, "OVERVIEW", root / "testakten/README.md"):
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(DOWNLOADS.main(), 0)
+                for relative, text in files.items():
+                    with self.subTest(readme=relative):
+                        (root / relative).write_text(text.replace(NOTICE_MARKDOWN, ""), encoding="utf-8")
+                        messages = io.StringIO()
+                        with redirect_stderr(messages):
+                            self.assertEqual(DOWNLOADS.main(), 1)
+                        self.assertIn("unmittelbar vor Downloadgruppe", messages.getvalue())
+                        (root / relative).write_text(text, encoding="utf-8")
+
+    def test_new_case_readme_is_discovered_without_a_hardcoded_list(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            readme = root / "testakten/steuerrecht-bwa-vergleich-nuernberg/README.md"
+            readme.parent.mkdir(parents=True)
+            readme.write_text("# BWA-Vergleich\n", encoding="utf-8")
+            self.assertIn(readme, download_readmes(root))
+
+
+class NavigationTests(unittest.TestCase):
+    def anchors(self, text):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            path.write_text(text, encoding="utf-8")
+            return NAV.heading_anchors(path)
+
+    def test_only_rendered_html_and_headings_define_anchors(self):
+        text = (
+            '# Überblick\n\n<a class="ziel" id="echt"></a>\n\n'
+            'Im Absatz <a name="alt"></a> bleibt ein Ziel.\n\n'
+            '```html\n<a id="beispiel"></a>\n## Überblick\n```\n\n'
+            '~~~html\n<a name="tilde"></a>\n~~~\n\n'
+            '    <a id="eingerueckt"></a>\n\n'
+            '`<a id="inline"></a>`\n\n'
+            '<!-- <a id="kommentar"></a> -->\n\n'
+            '## Überblick\n'
+        )
+        self.assertEqual(self.anchors(text), {"überblick", "überblick-1", "echt", "alt"})
+
+    def test_nested_long_and_unclosed_fences_do_not_create_targets(self):
+        for code in (
+            '> ```html\n> <a id="beispiel"></a>\n> ```\n',
+            '- ```html\n  <a id="beispiel"></a>\n  ```\n',
+            '````html\n```\n<a id="beispiel"></a>\n`````\n',
+            '```html\n<a id="beispiel"></a>\n',
+        ):
+            with self.subTest(code=code):
+                self.assertEqual(self.anchors('# Start\n\n' + code), {"start"})
+
+    def test_link_to_fenced_anchor_is_reported_as_broken(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / "README.md").write_text(
+                '# Start\n\n[Sprung](#beispiel)\n\n'
+                '```html\n<a id="beispiel"></a>\n```\n', encoding="utf-8"
+            )
+            with patch.object(NAV, "REPO", root):
+                errors = []
+                self.assertEqual(NAV.validate_markdown_links(errors), (1, 1))
+            self.assertEqual(len(errors), 1)
+            self.assertIn("Überschriftenanker fehlt: #beispiel", errors[0])
+
+    def test_literal_links_and_anchors_are_not_navigation(self):
+        text = (
+            '# Start\n\n[Echt](#start)\n\n'
+            '```md\n[Sprung](#beispiel)\n<a id="beispiel"></a>\n```\n\n'
+            '`[Inline](#inline)`\n\n'
+            '<!-- [Kommentar](#kommentar) -->\n\n'
+            '    [Eingerückt](#eingerueckt)\n\n'
+            '> ~~~md\n> [Zitat](#zitat)\n> ~~~\n\n'
+            '\\[Escaped](#escaped)\n'
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / "README.md").write_text(text, encoding="utf-8")
+            with patch.object(NAV, "REPO", root):
+                errors = []
+                self.assertEqual(NAV.validate_markdown_links(errors), (1, 1))
+                self.assertEqual(errors, [])
+
+    def test_yaml_metadata_is_not_a_heading_or_link(self):
+        for end in ('---', '...'):
+            text = (
+                '---\nname: start\ndescription: "[Nicht sichtbar](#fehlt)"\n'
+                f'{end}\n# Start\n\n[Öffnen](#start)\n\n## Start\n'
+            )
+            for contents in (text, '\ufeff' + text.replace('\n', '\r\n')):
+                with self.subTest(end=end, bom=contents.startswith('\ufeff')):
+                    self.assertEqual(self.anchors(contents), {'start', 'start-1'})
+                    self.assertEqual(NAV.markdown_links(NAV.markdown_tokens(contents)), [('Öffnen', '#start')])
+        self.assertIn('normale-prosa', self.anchors('---\nNormale Prosa\n---\n'))
+        self.assertIn('start', self.anchors('---\nname: [ungültig\n---\n\n# Start\n'))
+
+    def test_metadata_only_target_cannot_satisfy_real_link(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / 'README.md').write_text('# Start\n\n[Fehler](SKILL.md#name-start)\n', encoding='utf-8')
+            (root / 'SKILL.md').write_text('---\nname: start\n---\n# Start\n', encoding='utf-8')
+            with patch.object(NAV, 'REPO', root):
+                errors = []
+                NAV.validate_markdown_links(errors)
+            self.assertEqual(len(errors), 1)
+            self.assertIn('Überschriftenanker fehlt: SKILL.md#name-start', errors[0])
+
+    def test_parsed_links_preserve_labels_targets_and_reference_links(self):
+        tokens = NAV.markdown_tokens(
+            '[**Titel**](<datei mit leerzeichen.md#ziel> "Hinweis")\n\n'
+            '[Verweis][quelle]\n\n[quelle]: datei.md#abschnitt\n\n'
+            '[](datei.md) [Leer]() [![Bild](bild.png)](bildziel.md)\n'
+        )
+        self.assertEqual(NAV.markdown_links(tokens), [
+            ('Titel', 'datei%20mit%20leerzeichen.md#ziel'),
+            ('Verweis', 'datei.md#abschnitt'), ('', 'datei.md'),
+            ('Leer', ''), ('Bild', 'bildziel.md'),
+        ])
+
+    def test_download_scan_ignores_examples_and_metadata(self):
+        url = NAV.DOWNLOAD_BASE + 'fehlt.md'
+        tokens = NAV.markdown_tokens(
+            f'---\ndescription: "[Metadaten]({url})"\n---\n'
+            f'```md\n[Beispiel]({url})\n<a href="{url}">Beispiel</a>\n```\n\n'
+            f'`<a href="{url}">Inline</a>`\n\n'
+            '<a href="README.md">Echt</a>\n'
+        )
+        self.assertEqual(NAV.markdown_links(tokens), [])
+        self.assertEqual(NAV.explicit_html(tokens).destinations, ['README.md'])
+
+    def test_bare_download_urls_are_checked_in_rendered_prose(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / 'uebersicht-fachanwaltschaften').mkdir()
+            (root / 'uebersicht-fachanwaltschaften/download.html').write_text(
+                'downloads/${encodedPath}; download.click()', encoding='utf-8'
+            )
+            (root / '.github/workflows').mkdir(parents=True)
+            (root / '.github/workflows/pages.yml').write_text(
+                "-name '*.md'\n_site/downloads\npath: ./_site\n", encoding='utf-8'
+            )
+            (root / 'quellen.md').write_text('# Quellen\n', encoding='utf-8')
+            readme = root / 'README.md'
+            with patch.object(NAV, 'REPO', root), patch.object(
+                NAV, 'user_facing_download_docs', return_value=[readme]
+            ):
+                for target, message in (
+                    ('quellen.md', None), ('fehlt.md', 'Downloadziel fehlt'),
+                    ('../README.md', 'unzulässiges Markdown-Downloadziel'),
+                ):
+                    with self.subTest(target=target):
+                        readme.write_text('# Downloads\n\nDirekt: ' + NAV.DOWNLOAD_BASE + target + '\n', encoding='utf-8')
+                        errors = []
+                        self.assertEqual(NAV.validate_markdown_downloads(errors), 1)
+                        if message:
+                            self.assertEqual(len(errors), 1)
+                            self.assertIn(message, errors[0])
+                        else:
+                            self.assertEqual(errors, [])
+                url = NAV.DOWNLOAD_BASE + 'fehlt.md'
+                readme.write_text(
+                    f'---\ndescription: "{url}"\n---\n# Downloads\n\n'
+                    f'```text\n{url}\n```\n\n`{url}`\n\n<!-- {url} -->\n', encoding='utf-8'
+                )
+                errors = []
+                self.assertEqual(NAV.validate_markdown_downloads(errors), 0)
+                self.assertEqual(errors, [])
+
+    def test_download_targets_include_reference_markdown(self):
+        for target in (
+            "notariat-alltag/references/mitarbeiter-formwege.md",
+            "notariat-alltag/references/zitierweise.md",
+            "notariat-alltag/skills/kaltstart-triage/SKILL.md",
+            "notariat-alltag/notariat-alltag-werkstatt.md",
+            "README.md",
+            "docs/Meine Anleitung.md",
+        ):
+            with self.subTest(target=target):
+                self.assertTrue(NAV.is_markdown_download_target(target))
+
+    def test_txt_downloads_require_exact_registered_source_and_enabled_variant(self):
+        with tempfile.TemporaryDirectory() as directory:
+            market = Path(directory) / 'marketplace.json'
+            market.write_text(json.dumps({'plugins': [
+                {'name': 'bea-versand', 'source': './versand/bea-versand'},
+                {'name': 'mietrecht', 'source': './mietrecht'},
+            ]}), encoding='utf-8')
+            with patch.object(NAV, 'MARKETPLACE', market):
+                self.assertTrue(NAV.is_markdown_download_target('versand/bea-versand/bea-versand-werkstatt.txt'))
+                for target in (
+                    'bea-versand/bea-versand-werkstatt.txt',
+                    'fremd/bea-versand-werkstatt.txt',
+                    'versand/bea-versand/fremd-werkstatt.txt',
+                    'versand/bea-versand/bea-versand-schnellstart.txt',
+                    'versand/bea-versand/bea-versand-hauptproblem.txt',
+                    'versand/bea-versand/references/quellen.txt',
+                    'mietrecht/mietrecht-werkstatt.txt',
+                    '../versand/bea-versand/bea-versand-werkstatt.txt',
+                    '/versand/bea-versand/bea-versand-werkstatt.txt',
+                    'versand/bea-versand/bea-versand-werkstatt.txt?raw=1',
+                    'versand/bea-versand/bea-versand-werkstatt.docx',
+                    'versand/bea-versand/bea-versand-werkstatt.pdf',
+                ):
+                    with self.subTest(target=target):
+                        self.assertFalse(NAV.is_markdown_download_target(target))
+                with patch.object(NAV, 'formats', return_value=('md',)):
+                    self.assertFalse(NAV.is_markdown_download_target('versand/bea-versand/bea-versand-werkstatt.txt'))
+                market.write_text('{"plugins": []}', encoding='utf-8')
+                self.assertFalse(NAV.is_markdown_download_target('versand/bea-versand/bea-versand-werkstatt.txt'))
+
+    def test_actual_download_validator_accepts_configured_txt_and_rejects_other_txt(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / 'uebersicht-fachanwaltschaften').mkdir()
+            (root / 'uebersicht-fachanwaltschaften/download.html').write_text('downloads/${encodedPath}; download.click()', encoding='utf-8')
+            (root / '.github/workflows').mkdir(parents=True)
+            (root / '.github/workflows/pages.yml').write_text("-name '*.md'\n_site/downloads\npath: ./_site\n", encoding='utf-8')
+            market = root / 'marketplace.json'
+            market.write_text(json.dumps({'plugins': [{'name': 'bea-versand', 'source': './bea-versand'}]}), encoding='utf-8')
+            (root / 'bea-versand').mkdir()
+            readme = root / 'README.md'
+            with patch.object(NAV, 'REPO', root), patch.object(NAV, 'MARKETPLACE', market), patch.object(NAV, 'user_facing_download_docs', return_value=[readme]):
+                for target, allowed in (('bea-versand/bea-versand-werkstatt.txt', True), ('bea-versand/bea-versand-schnellstart.txt', False), ('bea-versand/intern.txt', False)):
+                    with self.subTest(target=target):
+                        (root / target).write_text('Vorhandene Textdatei.', encoding='utf-8')
+                        readme.write_text(f'# Download\n\n[Text herunterladen]({NAV.DOWNLOAD_BASE}{target})\n', encoding='utf-8')
+                        errors = []
+                        self.assertEqual(NAV.validate_markdown_downloads(errors), 1)
+                        if allowed:
+                            self.assertEqual(errors, [])
+                        else:
+                            self.assertEqual(len(errors), 1)
+                            self.assertIn('unzulässiges Markdown-Downloadziel', errors[0])
+
+    def test_download_targets_reject_unsafe_or_unsupported_paths(self):
+        for target in (
+            "../README.md", "/README.md", "plugin/../../README.md",
+            ".git/README.md", "https://example.org/file.md", "datei.pdf",
+            "plugin\\datei.md", "plugin/datei.md?raw=1", "plugin/Übersicht.md",
+        ):
+            with self.subTest(target=target):
+                self.assertFalse(NAV.is_markdown_download_target(target))
+
+    def test_work_file_requirement_stays_distinct_from_download_eligibility(self):
+        self.assertTrue(NAV.is_markdown_work_file("plugin/skills/start/SKILL.md"))
+        self.assertFalse(NAV.is_markdown_work_file("plugin/references/quellen.md"))
+        self.assertTrue(NAV.is_markdown_download_target("plugin/references/quellen.md"))
+
+    def test_curated_and_start_guides_use_checked_downloads(self):
+        checked = set(NAV.user_facing_download_docs())
+        for filename in ("PROMPTLISTE.md", "QUICKSTART.md", "INSTALLATION_EINFACH.md"):
+            self.assertIn(ROOT / filename, checked)
+
+    def test_shared_anchor_target_is_read_once(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / "README.md").write_text(
+                "# Start\n\n[A](guide.md#überblick) · [B](guide.md#überblick-1)\n",
+                encoding="utf-8",
+            )
+            (root / "guide.md").write_text(
+                "# Überblick\n\n## Überblick\n", encoding="utf-8"
+            )
+            with patch.object(NAV, "REPO", root), patch.object(
+                NAV, "heading_anchors", wraps=NAV.heading_anchors
+            ) as read_anchors:
+                errors = []
+                self.assertEqual(NAV.validate_markdown_links(errors), (2, 2))
+                self.assertEqual(errors, [])
+                self.assertEqual(read_anchors.call_count, 1)
+
+    def test_case_format_count_matches_available_downloads(self):
+        two = CASES.section_block("akte", "gesamt.pdf", False)
+        three = CASES.section_block("akte", "gesamt.pdf", True)
+        self.assertIn("zwei Formaten", two)
+        self.assertNotIn("Einzel-PDF-ZIP", two)
+        self.assertIn("drei Formaten", three)
+        self.assertIn("Einzel-PDF-ZIP", three)
+        self.assertIn("English:", three)
+        self.assertIn("zuletzt veröffentlichten Release", three)
+
+    def test_curated_inventory_and_category_counts(self):
+        market = json.loads((ROOT / ".claude-plugin/marketplace.json").read_text())
+        plugins = {entry["name"]: entry["source"].removeprefix("./") for entry in market["plugins"]}
+        text = (ROOT / "PROMPTLISTE.md").read_text(encoding="utf-8")
+        sections = re.split(r"^## (.+)$", text, flags=re.MULTILINE)
+        categories = {}
+        listed = []
+        for heading, body in zip(sections[1::2], sections[2::2]):
+            entries = re.findall(r"^- \[([a-z0-9-]+)\]\((https://[^)]+/tree/main/[^)]+)\):", body, re.MULTILINE)
+            if not entries:
+                continue
+            names = [name for name, _ in entries]
+            self.assertEqual(names, sorted(names), heading)
+            categories[heading] = len(names)
+            for name, url in entries:
+                self.assertIn(name, plugins)
+                self.assertTrue(url.endswith("/tree/main/" + plugins[name]), name)
+            listed.extend(names)
+        self.assertEqual(list(categories), sorted(categories, key=str.casefold))
+        self.assertEqual(len(listed), len(set(listed)))
+        counts = re.findall(r"^\| \[([^]]+)\]\(#[^)]+\) \| (\d+) \|$", text, re.MULTILINE)
+        self.assertEqual({title: int(count) for title, count in counts}, categories)
+        self.assertIn(f"{len(listed)} kuratierte Plugins in {len(categories)} Kategorien", text)
+        self.assertIn(f"insgesamt {len(plugins)} Marketplace-Plugins", text)
+
+    def test_no_obsolete_quickstart_skill_in_plugin_readmes(self):
+        market = json.loads((ROOT / ".claude-plugin/marketplace.json").read_text())
+        for plugin in market["plugins"]:
+            text = (ROOT / plugin["source"] / "README.md").read_text(encoding="utf-8")
+            self.assertNotIn("inklusive Schnellstart-Skill", text, plugin["name"])
+
+
+if __name__ == "__main__":
+    unittest.main()

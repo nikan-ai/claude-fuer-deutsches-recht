@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """Fuegt in jede testakten/<name>/README.md prominent ganz oben eine
-Akte-komplett-Sektion ein mit zwei Downloads:
+Akte-komplett-Sektion mit drei getrennten Downloadfassungen ein:
 
 1. Gesamt-PDF (im Repo unter gesamt-pdf/<slug>_gesamt.pdf eingecheckt)
-2. Akten-ZIP mit allen Einzeldateien (aus dem GitHub-Release,
-   stabile URL releases/latest/download/testakte-<slug>.zip).
+2. Akten-ZIP mit nativen Originaldateien ohne Markdown.
+3. Einzel-PDF-ZIP mit getrennten PDFs; bestellte Projektordner bleiben erhalten.
 
 Idempotent ueber HTML-Marker. Position: direkt nach dem H1, vor allen
 weiteren Sektionen (insbesondere vor dem Direkt-Download-Block).
+
+Ohne Argumente werden alle Akten bearbeitet und Warnhinweise unmittelbar vor
+Testakten-Downloads auch in Root-, Index- und Plugin-READMEs ergaenzt.
+Optional koennen konkrete Testakten-Namen angegeben werden, um nur deren
+Downloadsektionen zu erneuern.
 """
 from __future__ import annotations
 
@@ -15,7 +20,11 @@ import re
 import sys
 from pathlib import Path
 
+from release_routing import case_asset_url, companion_cases, rewrite_case_asset_urls
 from testakte_einzelpdf_common import expected_arcnames
+from testakte_disclaimer import NOTICE_MARKDOWN
+from testakte_download_notices import ensure_download_notices, update_download_readmes
+from testakte_zip_common import preserves_directories
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TESTAKTEN_DIR = REPO_ROOT / "testakten"
@@ -31,55 +40,90 @@ SKIP_DIRS = {
 MARKER_BEGIN = "<!-- BEGIN gesamt-pdf-section (autogen) -->"
 MARKER_END = "<!-- END gesamt-pdf-section (autogen) -->"
 
-RELEASE_BASE = (
-    "https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download"
-)
 
-
-def section_block(slug: str, pdf_rel: str | None, size_kb: int | None, has_einzelpdf: bool = False) -> str:
-    zip_url = f"{RELEASE_BASE}/testakte-{slug}.zip"
-    einzel_url = f"{RELEASE_BASE}/testakte-{slug}-einzelpdfs.zip"
+def section_block(slug: str, pdf_rel: str | None, has_einzelpdf: bool = False) -> str:
+    zip_url = case_asset_url(slug, root=REPO_ROOT)
+    einzel_url = case_asset_url(slug, "-einzelpdfs", root=REPO_ROOT)
     einzel_row = (
         f"\n| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-{slug}-einzelpdfs.zip]({einzel_url}) |"
         if has_einzelpdf
         else ""
     )
     einzel_intro = (
-        " Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden."
+        " Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene."
         if has_einzelpdf
         else ""
     )
-    if pdf_rel is not None and size_kb is not None:
+    if pdf_rel is not None:
         rows = (
-            f"| Gesamt-PDF (alles in einer Datei, {size_kb} KB) | PDF | [`{pdf_rel}`]({pdf_rel}) |\n"
+            f"| Gesamt-PDF (alles in einer Datei) | PDF | [`{pdf_rel}`]({pdf_rel}) |\n"
             f"| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-{slug}.zip]({zip_url}) |"
             f"{einzel_row}"
         )
+        formats = "drei" if has_einzelpdf else "zwei"
         intro = (
-            "Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen."
+            f"Dieses Aktenpaket gibt es in {formats} Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene."
             + einzel_intro
         )
-        trailer = "Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten."
+        trailer = "Die ZIP-Links laden den zuletzt veröffentlichten Release. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein."
     else:
         rows = (
             f"| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-{slug}.zip]({zip_url}) |"
             f"{einzel_row}"
         )
         intro = (
-            "Dieses Aktenpaket gibt es als Akten-ZIP zum Direkt-Download. Es enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen."
+            "Dieses Aktenpaket gibt es als Akten-ZIP zum Direkt-Download. Es enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs, aber kein Markdown. Sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene."
             + einzel_intro
         )
-        trailer = "Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version."
+        trailer = "Die ZIP-Links laden den zuletzt veröffentlichten Release. Der Repository-Stand kann zwischen Releases bereits neuer sein."
+    english = "English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown."
+    if preserves_directories(Path(slug)):
+        formats = 'drei' if pdf_rel is not None and has_einzelpdf else 'zwei'
+        intro = (f'Diese Projektakte gibt es in {formats} Formaten. Das Originalformat-ZIP erhält die vollständige '
+                 'Unterordnerstruktur nach Leistungsphasen und Arbeitsbereichen. Es enthält bearbeitbare Word- und '
+                 'Excel-Dateien, E-Mails mit Anlagen sowie die übrigen Originalbelege; Markdown wird nicht mitgeliefert.')
+        if pdf_rel is not None:
+            intro += ' Das Gesamt-PDF führt die Unterlagen mit einem Dokumentenregister und navigierbaren Lesezeichen zusammen.'
+        if has_einzelpdf:
+            intro += ' Im Einzel-PDF-ZIP bleibt dieselbe Ordnerstruktur erhalten; jede Originalunterlage liegt als eigene A4-Lesefassung vor.'
+        english = ('English: This project-file edition preserves its subfolders in both ZIP formats. '
+                   'The original-format ZIP contains editable working documents and supporting records, without Markdown.')
+        if slug == 'fintech-darlehen-vertragsuebernahme-bremen':
+            intro = ('Die Verfahrensakte gibt es in drei Formaten. Beide ZIPs erhalten die getrennten Ordner '
+                     'für Eingang, Klageerwiderung und Korrespondenz. Das Originalformat-ZIP enthält PDF, Word, '
+                     'E-Mail, Text und CSV, aber kein Markdown. Das Einzel-PDF-ZIP enthält jede Unterlage als '
+                     'eigenes PDF. Das Gesamt-PDF enthält auch die Klageerwiderung; sein Register und seine '
+                     'Lesezeichen führen zu den getrennten Arbeitsbereichen.')
+    if pdf_rel is not None:
+        english += " Choose the combined PDF for reading; it is also included in that ZIP."
+    if has_einzelpdf:
+        english += " Choose the individual-PDF ZIP to review each document separately."
+    english += " These are practice documents, not an installable plugin. ZIP links refer to the latest published release."
+    if slug in companion_cases():
+        trailer = trailer.replace(
+            "Die ZIP-Links laden den zuletzt veröffentlichten Release.",
+            "Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease.",
+        )
+        english = english.replace(
+            "ZIP links refer to the latest published release.",
+            "ZIP links refer to the case companion release for the stated marketplace version.",
+        )
     return f"""{MARKER_BEGIN}
 ## Akte komplett herunterladen
 
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
 {intro}
+
+{NOTICE_MARKDOWN}
 
 | Was | Format | Quelle |
 | --- | --- | --- |
 {rows}
 
 {trailer}
+
+{english}
 
 {MARKER_END}
 """
@@ -88,16 +132,25 @@ def section_block(slug: str, pdf_rel: str | None, size_kb: int | None, has_einze
 H1_RE = re.compile(r"^# .+$", re.MULTILINE)
 
 
+def normalize_marker_spacing(text: str) -> str:
+    return re.sub(
+        r"(^# .+\n)\n+(?=" + re.escape(MARKER_BEGIN) + r")",
+        r"\1\n",
+        text,
+        count=1,
+        flags=re.MULTILINE,
+    )
+
+
 def inject(readme: Path, slug: str) -> str:
+    from readme_decimal_headings import normalize_decimal_headings
     pdf = readme.parent / "gesamt-pdf" / f"{slug}_gesamt.pdf"
     if pdf.exists():
-        size_kb = max(1, round(pdf.stat().st_size / 1024))
         pdf_rel = f"gesamt-pdf/{slug}_gesamt.pdf"
     else:
-        size_kb = None
         pdf_rel = None
     has_einzelpdf = bool(expected_arcnames(readme.parent))
-    new_section = section_block(slug, pdf_rel, size_kb, has_einzelpdf)
+    new_section = section_block(slug, pdf_rel, has_einzelpdf)
     text = readme.read_text(encoding="utf-8")
 
     # Falls bereits eingefuegt: ersetzen
@@ -106,7 +159,10 @@ def inject(readme: Path, slug: str) -> str:
         re.DOTALL,
     )
     if pat.search(text):
-        new_text = pat.sub(new_section, text, count=1)
+        new_text = ensure_download_notices(
+            normalize_marker_spacing(pat.sub(new_section, text, count=1)), case_readme=True
+        )
+        new_text = rewrite_case_asset_urls(normalize_decimal_headings(new_text), root=REPO_ROOT)
         if new_text == text:
             return "unchanged"
         readme.write_text(new_text, encoding="utf-8")
@@ -129,6 +185,8 @@ def inject(readme: Path, slug: str) -> str:
         else:
             insert_at = end
         new_text = text[:insert_at] + "\n" + new_section + "\n" + text[insert_at:]
+    new_text = normalize_decimal_headings(ensure_download_notices(normalize_marker_spacing(new_text), case_readme=True))
+    new_text = rewrite_case_asset_urls(new_text, root=REPO_ROOT)
     readme.write_text(new_text, encoding="utf-8")
     return "inserted"
 
@@ -137,9 +195,17 @@ def main() -> int:
     if not TESTAKTEN_DIR.exists():
         print(f"Testakten-Verzeichnis nicht gefunden: {TESTAKTEN_DIR}", file=sys.stderr)
         return 1
+    targets = set(sys.argv[1:])
+    known = {sub.name for sub in TESTAKTEN_DIR.iterdir() if sub.is_dir()}
+    unknown = sorted(targets - known)
+    if unknown:
+        print(f"Unbekannte Testakten: {unknown}", file=sys.stderr)
+        return 1
     stats = {"inserted": 0, "updated": 0, "unchanged": 0, "skip": 0}
     for sub in sorted(TESTAKTEN_DIR.iterdir()):
         if not sub.is_dir():
+            continue
+        if targets and sub.name not in targets:
             continue
         if sub.name in SKIP_DIRS:
             stats["skip"] += 1
@@ -164,6 +230,8 @@ def main() -> int:
         f"\nFertig: {stats['inserted']} neu, {stats['updated']} aktualisiert, "
         f"{stats['unchanged']} unveraendert, {stats['skip']} uebersprungen"
     )
+    if not targets:
+        print(f"Downloadhinweise: {update_download_readmes(REPO_ROOT)} weitere READMEs aktualisiert")
     return 0
 
 

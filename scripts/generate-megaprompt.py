@@ -6,9 +6,12 @@ ein-Schuss-Prompt verwenden kann.
 Ausgabe: testakten/megaprompts/<plugin>.md
 
 Auswahl-Heuristik:
-- Plugins mit <= 20 Skills: ALLE Skills (Vollintegration)
-- Plugins mit 21-60 Skills: top-15 Skills (Priorisierungsliste pro Plugin)
-- Plugins mit > 60 Skills: SKIP (zu gross fuer Vollprüfung)
+- Plugins mit <= 20 Fachskills: ALLE Skills (Vollintegration)
+- Plugins mit 21-60 Fachskills: top-15 Skills (Priorisierungsliste pro Plugin)
+- Plugins mit 61-100 Fachskills: top-10 Skills
+- Plugins mit > 100 Fachskills: top-8 Skills
+- Der pluginweite Argumentationskern zählt für die Schwelle nicht als
+  zusätzlicher Fachskill, wird aber in der Auswahl vorrangig berücksichtigt.
 - Skill-Auswahl bei mittlerer Groesse:
     * einstieg-routing / kaltstart-triage / mandat-triage immer first
     * weiter nach Frontmatter-description-Laenge (laengere=substantieller)
@@ -22,6 +25,9 @@ Pro Vollprüfung:
 from __future__ import annotations
 import re
 from pathlib import Path
+
+from prompt_profiles import enabled
+from urllib.parse import quote
 
 REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / 'testakten' / 'megaprompts'
@@ -58,7 +64,12 @@ def collect_skills(plugin_dir: Path) -> list[tuple[str, Path, str, str]]:
     skills_dir = plugin_dir / 'skills'
     if not skills_dir.is_dir():
         return []
-    priority_first = ['vergaberechtliche-pruefung-anwaltlich-vollpruefung',
+    priority_first = ['einfuehrung-pruefauftrag',
+                      'juristischer-argumentationskern',
+                      'bea-versandmappe-endfertigung',
+                      'versandmappe-endfertigen',
+                      'anlagen-zu-schriftsaetzen',
+                      'vergaberechtliche-pruefung-anwaltlich-vollpruefung',
                       'einstieg-routing', 'kaltstart-triage', 'mandat-triage',
                       'orientierung', 'mandat-intake-und-konfliktpruefung',
                       'erstgespraech-mandatsannahme', 'erstpruefung-und-mandatsziel']
@@ -88,33 +99,39 @@ def collect_skills(plugin_dir: Path) -> list[tuple[str, Path, str, str]]:
 GITHUB_BLOB = "https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main"
 
 
-def rewrite_relative_links(body: str, plugin: str) -> str:
+def rewrite_relative_links(body: str, skill_path: Path) -> str:
     """Schreibt Repo-interne relative Markdown-Links in absolute GitHub-URLs um.
 
     Im konkatenierten Vollprüfung funktionieren die urspruenglichen
-    `../../references/...`-Pfade nicht, weil die Datei unter
-    `testakten/megaprompts/<plugin>.md` liegt. Wir loesen sie zum Skill-
-    Verzeichnis hin auf und erzeugen GitHub-Blob-URLs.
+    Referenzpfade nicht, weil die Datei unter `testakten/megaprompts/` liegt.
+    Jeder lokale Pfad wird deshalb relativ zum ursprünglichen Skill-Verzeichnis
+    aufgelöst und als absolute Repository-URL ausgegeben.
     """
-    # Pattern: ](../*pfad) — wir ersetzen den (../)+ Praefix.
-    def repl(m: re.Match[str]) -> str:
-        ups = m.group(1).count('../')
-        rest = m.group(2)
-        # Skill liegt unter <plugin>/skills/<slug>/SKILL.md.
-        # Mit ups=3 wandert man zum Repo-Root. Sonst Pfad als-ist verwenden.
-        if ups >= 3:
-            return f"]({GITHUB_BLOB}/{rest})"
-        if ups == 2:
-            return f"]({GITHUB_BLOB}/{plugin}/{rest})"
-        if ups == 1:
-            return f"]({GITHUB_BLOB}/{plugin}/skills/{rest})"
-        return m.group(0)
 
-    return re.sub(r"\]\((\.\./(?:\.\./)*)([^)]+)\)", repl, body)
+    def repl(m: re.Match[str]) -> str:
+        target = m.group(1).strip()
+        if target.startswith(("http://", "https://", "mailto:", "#", "/")):
+            return m.group(0)
+        raw_path, separator, fragment = target.partition("#")
+        resolved = (skill_path.parent / raw_path).resolve()
+        try:
+            repo_path = resolved.relative_to(REPO.resolve())
+        except ValueError:
+            return m.group(0)
+        if not resolved.exists():
+            return m.group(0)
+        url = f"{GITHUB_BLOB}/{quote(repo_path.as_posix(), safe='/')}"
+        if separator:
+            url += f"#{fragment}"
+        return f"]({url})"
+
+    return re.sub(r"\]\(([^)]+)\)", repl, body)
 
 
 def build_megaprompt(plugin_dir: Path) -> str | None:
     """Erzeugt Vollprüfung-Markdown fuer ein Plugin. None bei skip."""
+    if not enabled(plugin_dir.name, "megaprompt"):
+        return None
     plugin = plugin_dir.name
     if plugin in EXCLUDE_PLUGINS:
         return None
@@ -122,15 +139,17 @@ def build_megaprompt(plugin_dir: Path) -> str | None:
     if not skills:
         return None
     n_total = len(skills)
-    if n_total > 100:
+    has_argumentation_core = any(slug == "juristischer-argumentationskern" for slug, *_ in skills)
+    tier_total = n_total - int(has_argumentation_core)
+    if tier_total > 100:
         # Mega-grosse Plugins (z.B. arbeitsrecht, gesellschaftsrecht): top-8
         skills = skills[:8]
-        coverage = f"top-8 von {n_total} Skills (gekuerzt fuer Chat-Fenster)"
-    elif n_total > 60:
+        coverage = f"top-8 von {n_total} Skills (gekürzt für das Arbeitsfenster)"
+    elif tier_total > 60:
         # Grosse Plugins (z.B. insolvenzrecht): top-10
         skills = skills[:10]
         coverage = f"top-10 von {n_total} Skills"
-    elif n_total > 20:
+    elif tier_total > 20:
         skills = skills[:15]
         coverage = f"top-15 von {n_total} Skills"
     else:
@@ -141,7 +160,7 @@ def build_megaprompt(plugin_dir: Path) -> str | None:
     lines.append('')
     lines.append(f'## Zusammensetzung')
     lines.append('')
-    lines.append(f'Dieser Vollprüfung enthaelt {coverage} des Plugins `{plugin}`.')
+    lines.append(f'Diese Vollprüfung enthält {coverage} des Plugins `{plugin}`.')
     lines.append('')
     lines.append('## Inhaltsverzeichnis')
     lines.append('')
@@ -152,23 +171,29 @@ def build_megaprompt(plugin_dir: Path) -> str | None:
     lines.append('---')
     lines.append('')
 
-    for slug, _, desc, body in skills:
+    for slug, skill_path, desc, body in skills:
         lines.append(f'## Skill: `{slug}`')
         lines.append('')
         if desc:
             lines.append(f'_{desc}_')
             lines.append('')
-        lines.append(rewrite_relative_links(body, plugin))
+        lines.append(rewrite_relative_links(body, skill_path))
         lines.append('')
         lines.append('---')
         lines.append('')
 
     lines.append('## Anwendungshinweise')
     lines.append('')
-    lines.append('1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.')
-    lines.append('2. Den eigentlichen juristischen Fall beschreiben.')
-    lines.append('3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.')
-    lines.append('4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.')
+    if plugin == 'arbeitszeugnispruefer':
+        lines.append('1. Diese Vollprüfung zur Zeugnisprüfung als einzelne Datei hochladen oder in den Chat einfügen; sie beginnt ohne weitere Startformel mit dem oben geregelten Dialog.')
+        lines.append('2. Vorhandenes Zeugnis und Prüfziel bereitstellen. Fehlt das Zeugnis, konkret danach fragen, statt diese Anweisung zusammenzufassen.')
+        lines.append('3. Tatsächliche Antworten im bestehenden Stand verarbeiten; nach Klärung oder festgestellter Beweisgrenze die geschuldeten Schreiben vollständig erstellen. Arbeitgeberantwort und neue Fassung lösen die gezielte Kontrollschleife aus.')
+        lines.append('4. Ohne Quellenzugriff die eingebetteten Anker als bereitgestelltes, nicht live geprüftes Material behandeln; keine Verifikation behaupten und keine Nachweise erfinden.')
+    else:
+        lines.append('1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.')
+        lines.append('2. Den eigentlichen juristischen Fall beschreiben.')
+        lines.append('3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.')
+        lines.append('4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.')
     lines.append('')
     return '\n'.join(lines).rstrip() + '\n'
 
@@ -189,7 +214,7 @@ def main() -> int:
         # nur echte Plugin-Verzeichnisse (mit .claude-plugin/plugin.json)
         if not (plugin_dir / '.claude-plugin' / 'plugin.json').is_file():
             continue
-        if plugin_dir.name in EXCLUDE_PLUGINS:
+        if plugin_dir.name in EXCLUDE_PLUGINS or not enabled(plugin_dir.name, 'megaprompt'):
             skipped += 1
             continue
         mp = build_megaprompt(plugin_dir)
@@ -202,7 +227,7 @@ def main() -> int:
         if size_kb > 200:
             print(f'  WARN {plugin_dir.name}: {size_kb:.0f} KB (gross fuer Chat-Fenster)')
         created += 1
-    print(f'Vollprüfungs erstellt: {created} | uebersprungen: {skipped}')
+    print(f'Vollprüfungen erstellt: {created} | übersprungen: {skipped}')
     return 0
 
 
