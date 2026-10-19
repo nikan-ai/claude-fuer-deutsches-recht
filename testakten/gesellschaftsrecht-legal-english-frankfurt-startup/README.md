@@ -1,18 +1,25 @@
 # Akte Kometenfalter Systems GmbH — Series A Project Comet Moth
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 5193 KB) | PDF | [`gesamt-pdf/gesellschaftsrecht-legal-english-frankfurt-startup_gesamt.pdf`](gesamt-pdf/gesellschaftsrecht-legal-english-frankfurt-startup_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-gesellschaftsrecht-legal-english-frankfurt-startup.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-gesellschaftsrecht-legal-english-frankfurt-startup.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-gesellschaftsrecht-legal-english-frankfurt-startup-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-gesellschaftsrecht-legal-english-frankfurt-startup-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/gesellschaftsrecht-legal-english-frankfurt-startup_gesamt.pdf`](gesamt-pdf/gesellschaftsrecht-legal-english-frankfurt-startup_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-gesellschaftsrecht-legal-english-frankfurt-startup.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-gesellschaftsrecht-legal-english-frankfurt-startup.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-gesellschaftsrecht-legal-english-frankfurt-startup-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-gesellschaftsrecht-legal-english-frankfurt-startup-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -43,6 +50,7 @@ Beurkundender Notar: Notariat Dr. Bertram Veitschegger, Frankfurt am Main, Unter
 | `14-board-und-consent-matters-mapping-de-en.docx` | Mapping Consent Matters: Beirat / Gesellschafterversammlung / GF-Geschäftsordnung |
 | `15-closing-checkliste-cp.docx` | Closing-Checkliste mit CPs und Closing Deliverables |
 | `16-whatsapp-partner-associate-thread.docx` | WhatsApp Westarp ↔ Hildemar, Donnerstag 06:58–08:21 |
+| `emails/17a-kunigunde-an-westarp-originale-und-anreise.eml` | Mandantenmail zu Originalunterlagen, Cap-Table-Fassung und Anreise zum Signing |
 | `18-cap-table-und-waterfall.xlsx` | Cap-Table-Modell mit Pool pre-/post-money, Wandeldarlehen und Liquidation-Preference-Waterfall |
 | `18-cap-table-und-waterfall.pdf` | PDF-Ausdruck des Cap-Table-/Waterfall-Arbeitsmodells |
 | `19-notar-scan-beurkundungssprache.pdf` | Notar-Memo Veitschegger zur Beurkundungssprache § 16 BeurkG |
@@ -67,5 +75,5 @@ Beurkundender Notar: Notariat Dr. Bertram Veitschegger, Frankfurt am Main, Unter
 
 - Die DOCX- und PDF-Versionen der Memo-Texte liegen im selben Verzeichnis und sind im Memo-Layout der Kanzlei Hagemann & Westarp gesetzt (Times New Roman 11 pt, Blocksatz, Mandatslabel im Seitenkopf, Vertraulichkeitsvermerk im Seitenfuß). Chat- und Screenshot-Material bleibt im jeweiligen Kommunikationslook.
 - Die Datei `26-gesamtakte-kometenfalter-series-a.pdf` enthält eine zusammengeführte Lesefassung der Aktenbestandteile mit Excel-Ausdruck, Bildfragmenten und E-Mail-Anhang.
-- E-Mails liegen zusätzlich als .eml im Unterordner `emails/` und sind in Outlook direkt öffenbar. Der Ordner enthält Partnerauftrag, CFO-Zahlenstand, Investor-Counsel-Mail, Mandantenmail und Notariatskorrespondenz.
-- Chatverläufe (Slack #project-comet-moth, WhatsApp Westarp/Hildemar) liegen im Unterordner `chats/` als Markdown sowie je als eigene DOCX und PDF.
+- E-Mails liegen zusätzlich als .eml im Unterordner `emails/` und sind in Outlook direkt öffnbar. Der Ordner enthält Partnerauftrag, CFO-Zahlenstand, Investor-Counsel-Mail, Mandantenmail, Signing-Logistik und Notariatskorrespondenz.
+- Chatverläufe (Slack #project-comet-moth, WhatsApp Westarp/Hildemar) liegen im Unterordner `chats/` als eigene DOCX- und PDF-Fassungen.

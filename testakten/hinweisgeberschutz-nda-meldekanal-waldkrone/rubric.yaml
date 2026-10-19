@@ -1,28 +1,35 @@
-# Auto-generierte Baseline-Rubric (v301).
-# Manuelle Anpassung empfohlen - mindestens 3 weitere fall-spezifische
-# Pass/Fail-Checks hinzufuegen (BAG-Az., Frist-Erwaehnung, spezifische Anlage).
-
-name: "Hinweisgeberschutz Nda Meldekanal Waldkrone"
-plugin: "tbd"
-
+name: Hinweisgeberschutz NDA Meldekanal Waldkrone
+plugin: hinweisgeberschutz-compliance
+description: Fallbezogene Qualitätsprüfung des Hinweisfalls mit Meldestelle, Produktakte, Exportvorgang, Personalentscheidung und Transaktions-NDA.
 checks:
-  - id: r01-readme-vorhanden
+  - id: r01-gesamt-pdf-vorhanden
     check_type: file_exists
-    description: "README.md vorhanden"
-    path: "README.md"
-
-  - id: r02-gesamt-pdf-vorhanden
-    check_type: file_exists
-    description: "Gesamt-PDF gebaut"
-    path: "gesamt-pdf/hinweisgeberschutz-nda-meldekanal-waldkrone_gesamt.pdf"
-
-  - id: r03-mindestens-3-aktenstuecke
-    check_type: file_count
-    description: "mindestens 1 Markdown-Aktenstueck"
-    glob: "*.md"
-    min: 1
-
-  - id: r04-fachspezifischer-check-zu-ergaenzen
+    description: Das Gesamt-PDF ist gebaut.
+    path: gesamt-pdf/hinweisgeberschutz-nda-meldekanal-waldkrone_gesamt.pdf
+  - id: r02-vorgangsnummer
+    check_type: text_contains
+    description: Die Akte führt die Vorgangsnummer der Meldestelle.
+    path: 07-email-hinweisgeber-rueckkanal.eml
+    contains: HIN-26-014
+  - id: r03-nachreichung
+    check_type: text_contains
+    description: Die Chronologie enthält die konkrete Nachreichung über den Rückkanal.
+    path: 02-zeitstrahl-und-fristen.docx
+    contains: 30. Mai 2026
+  - id: r04-entscheidung-datensicherung
+    check_type: text_contains
+    description: Die Leitungsvorlage behandelt die sofort zu sichernden Daten.
+    path: 23-entscheidungsvorlage-kurzfassung.docx
+    contains: Welche Daten werden sofort gesichert
+  - id: r05-konferenz-produktakte
+    check_type: text_contains
+    description: Die Fallkonferenz enthält den konkreten Versionskonflikt der Produktakte.
+    path: 24-arbeitsstand-fuer-besprechung.pdf
+    contains: Drei Fassungen mit ähnlichem Namen
+  - id: r06-arbeitsunterlagen
+    check_type: working_file_count
+    description: Die Akte enthält mindestens fünfzehn exportierbare Arbeitsunterlagen.
+    min: 15
+  - id: r07-fachpruefung
     check_type: human_review
-    description: "Fachspezifischer Pass/Fail-Check fuer dieses Mandat fehlt - manuell ergaenzen"
-    note: "Beispiel: Vor jeder Schriftsatz-Ausgabe muss BAG-Az. live verifiziert werden"
+    description: Identitätsdaten, Meldungsinhalt, Personalakte und Transaktionsunterlagen bleiben nach Zugriff, Quelle und Zweck getrennt.

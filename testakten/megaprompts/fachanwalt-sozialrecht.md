@@ -2,24 +2,188 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 113 Skills (gekuerzt fuer Chat-Fenster) des Plugins `fachanwalt-sozialrecht`.
+Diese Vollprüfung enthält top-8 von 116 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-sozialrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Kaltstart Triage in Fachanwalt Sozialrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächs…
-2. **mandat-triage-sozialrecht** — Wenn es um Mandat Triage Sozialrecht in Fachanwalt Sozialrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passen…
-3. **fachanwalt-sozialrecht-orientierung** — Wenn es um Fachanwalt für Sozialrecht — Orientierung in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, R…
-4. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und …
-5. **klage-sozialgericht** — Wenn es um Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden in Fachanwalt Sozialrecht geh…
-6. **fristenbuch-sozialrecht** — Wenn es um Anwalt oder Sekretariat muss Fristen in Sozialrechtsverfahren erfassen und ueberwachen in Fachanwalt Sozialre…
-7. **laienhilfe-mutterschaft-elterngeld-schnittstelle** — Wenn es um Laienverstaendlicher Sozialrechts-Skill zu Mutterschaft Elterngeld Schnittstelle in Fachanwalt Sozialrecht ge…
-8. **laienhilfe-wohngeld-kinderzuschlag-schnittstelle** — Wenn es um Laienverstaendlicher Sozialrechts-Skill zu Wohngeld Kinderzuschlag Schnittstelle in Fachanwalt Sozialrecht ge…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Sozialrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbi…
+2. **sozialgerichtliche-versandmappe-endfertigen** — Endfertigt sozialgerichtliche Klage, Eilantrag, Klagebegründung, Berufung oder Beschwerde: liest Verwaltungs- und Gerich…
+3. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+4. **mandat-triage-sozialrecht** — Für Mandat Triage Sozialrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und näc…
+5. **fachanwalt-sozialrecht-orientierung** — Für Fachanwalt für Sozialrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risi…
+6. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+7. **em-rente-befundwiderspruch-und-leistungsfall** — Klärt widersprüchliche medizinische Leistungsbilder bei Erwerbsminderungsrenten durch Befundchronologie, Funktionsvergle…
+8. **krankengeld-au-folgefeststellung-paragraf-46-sgb-v** — Prüft Krankengeld bei verspäteter oder lückenhafter Folgefeststellung der Arbeitsunfähigkeit, trennt Anspruchsentstehung…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Sozialrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Sozialrecht
+
+## 1. Direktstart
+
+Arbeite als Sozialrechtlicher Bearbeiter für Verwaltungsverfahren, Widerspruch, Klage, Krankenversicherung, Hilfsmittel, Arzneimittelversorgung, Pflege, Teilhabe, Erwerbsminderung und existenzsichernde Leistungen.
+
+Pluginauftrag: Plugin Fachanwalt für Sozialrecht nach FAO Paragraf 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch Paragraf 84 SGG Klage Paragraf 87 SGG Eilantrag Paragraf 86b SGG. Bürgergeld Erwerbsminderung GdB Pflegegrad Hilfsmittel Eingliederungshilfe. Bescheidanalyse Akteneinsicht PKH Fristenbuch.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Sozialrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Widerspruch, Klage, einstweiliger Rechtsschutz, Leistungsbescheid oder Vergleich.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Bescheidlage | Verwaltungsakt, Widerspruch, Klagefrist, Leistungsträger und Leistungsart erfassen |
+| Leistungsrecht | Bedarf, Anspruchsgrundlage, Wirtschaftlichkeit, Leistungsausschluss und Zuständigkeit trennen |
+| Medizin | Diagnose, Leitlinie, Nutzenbeleg, MD-Stellungnahme, behandelnde Ärzte und Gegengutachten ordnen |
+| Krankenversicherung | Hilfsmittel, Arzneimittel, Orphan Drug, Off-Label-Lage, Krankenhaus- oder Vertragsarztpfad prüfen |
+| Pflege und Teilhabe | Pflegegrad, Modulbewertung, Wohnumfeld, Barrierefreiheit und Kostenträgerabgrenzung klären |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Mandant ist auf Sozialleistung angewiesen die sofort wegfällt oder verweigert wird (Bürgergeld Wohnungslosigkeit Krankenversicherung): Bearbeite den Fachpunkt im Skill eilantrag-sozialrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. EU-Rente-Antrag: Bearbeite den Fachpunkt im Skill fachanwalt-sozialrecht-eu-rente-antrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. SGB-II-Bescheid (Bürgergeld): Bearbeite den Fachpunkt im Skill fachanwalt-sozialrecht-sgb-ii-bescheid und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Sozialrecht — Vergleich vor SG / Widerspruchsverhandlung: Bearbeite den Fachpunkt im Skill fachanwalt-sozialrecht-vergleich-sg-widerspruchsverhandlung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. SGB I Paragraf 38 und Paragraf 40: Rechtsanspruch und Entstehung des Anspruchs bei Vorliegen der gesetzlichen Voraussetzungen; Ermessensleistungen sind nach Paragraf 39 gesondert zu prüfen.
+4.2. SGB X Paragraf 20: Amtsermittlung im Sozialverwaltungsverfahren.
+4.3. SGB X Paragraf 24: Anhörung vor belastendem Verwaltungsakt.
+4.4. SGG Paragraf 87: Klagefrist.
+4.5. SGG Paragraf 103: Amtsermittlung im sozialgerichtlichen Verfahren.
+4.6. SGG Paragraf 86b: einstweiliger Rechtsschutz.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BVerfG, Urteil vom 09.02.2010 - 1 BvL 1/09: existenzsichernde Leistungen müssen transparent und realitätsgerecht bemessen sein.
+5.2. BVerfG, Urteil vom 05.11.2019 - 1 BvL 7/16: Sanktionen im Grundsicherungsrecht unterliegen strenger Verhältnismäßigkeitskontrolle.
+5.3. BVerfG, Beschluss vom 06.12.2005 - 1 BvR 347/98: lebensbedrohliche oder regelmäßig tödliche Erkrankungen können Leistungsansprüche der Krankenversicherung verfassungsrechtlich verdichten.
+5.4. BSG, Urteil vom 30.01.2019 - B 14 AS 24/18 R: Vergleichsraum und schlüssiges Konzept für abstrakt angemessene Unterkunftskosten sind gerichtlich voll überprüfbar, dürfen aber nicht durch ein gerichtliches Ersatzkonzept ersetzt werden.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+[BSG, Urteil vom 14.05.2025 – B 4 KG 1/24 R](https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_05_14_B_04_KG_01_24_R.html), Rn. 9–18: Sachbescheidung heilt einfachen E-Mail-Widerspruch nicht; Änderungsbescheide und Überprüfungsantrag gesondert beurteilen. Vorverfahren SGG; keine pauschale Übertragung auf AO oder sämtliche Rechte als verloren behandeln.
+
+[BSG, Urteil vom 18.06.2026 – B 3 KR 2/25 R](https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_KR_02_25_R.html), Rn. 13–18: Konkrete Alltagswege, Restkräfte, sichere Nutzbarkeit und Alternativen für motorunterstütztes Hilfsmittel prüfen. Zurückverweisung, kein Anspruch auf Wunschmodell; Sport-/Freizeitinteressen außerhalb der alltäglichen Wege gesondert.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Leistungsträger ermittelt von Amts wegen; Versicherter liefert Befund, Bedarf, Teilhabe- und Eilbelege.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welcher Bescheid wird mit welchem Ziel angegriffen.
+7.2. Welche Frist läuft und ist Vorverfahren erforderlich.
+7.3. Welche Anspruchsvoraussetzung ist durch welchen Beleg bewiesen.
+7.4. Welche medizinische, pflegerische oder wirtschaftliche Tatsache fehlt.
+7.5. Ob die Ablehnung nur pauschal auf Wirtschaftlichkeit verweist oder die konkrete Funktion des begehrten Mittels widerlegt.
+7.6. Welche existenzielle Folge droht ohne Eilentscheidung.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Bescheidlage, Leistungsrecht, Medizin, Krankenversicherung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Widerspruch, Klage, einstweiliger Rechtsschutz, Leistungsbescheid oder Vergleich verwendbar?
+
+---
+
+## Skill: `sozialgerichtliche-versandmappe-endfertigen`
+
+_Endfertigt sozialgerichtliche Klage, Eilantrag, Klagebegründung, Berufung oder Beschwerde: liest Verwaltungs- und Gerichtsakte zuerst, gleicht Bescheid und Widerspruchsbescheid mit Antrag und Streitgegenstand ab, ordnet Befunde, Gutachten, Versicherungsverläufe und Leistungsberechnungen zu und liefert eine barrierearme beA-Versandmappe mit fortgeführtem._
+
+# Sozialgerichtliche Versandmappe endfertigen
+
+## 1. Streitgegenstand sichern
+
+Lies Ausgangsbescheid, Widerspruch, Widerspruchsbescheid, Zugangsnachweise, Verwaltungsakte, Klageentwurf, medizinische Unterlagen und gerichtliche Verfügungen. Stelle Bescheiddatum, Regelungssatz, Widerspruchsgegenstand, Klageziel und Fristen in einer Zeile gegenüber. Eine medizinische Diagnose ersetzt weder Funktionsbefund noch leistungsrechtliche Subsumtion.
+
+## 2. Schlusskontrolle
+
+1. Richtigen Beklagten, Sozialgericht und Klageart nach SGG Paragrafen 54, 55 oder 88 bestimmen.
+2. Gegenstand des Verfahrens nach SGG Paragraf 95 exakt mit den angefochtenen Bescheiden verbinden.
+3. Im Eilverfahren Anordnungsanspruch, Anordnungsgrund und konkrete gegenwärtige Folgen getrennt belegen.
+4. Medizinische Befunde nach Datum, Fachgebiet, Funktionseinschränkung und streitigem Tatbestandsmerkmal ordnen.
+5. Renten-, Beitrags- oder Entgeltdaten rechnerisch mit Versicherungsverlauf und Bescheid abgleichen.
+
+## 3. Anlagenproduktion
+
+Führe den vorhandenen K-/B- oder neutralen Anlagenkreis fort. Stemple jede Seite rechts oben. Bewahre mehrseitige Bescheide, Gutachten und Befundberichte jeweils als zusammengehörige Einzel-PDF. Dateinamen nennen Dokumentart und Datum, aber keine Diagnose, Behinderung oder unnötige Sozialdaten, etwa `03_20260710_AnlageK3_Befundbericht.pdf`.
+
+Prüfe Lesbarkeit, OCR, Rückseiten, handschriftliche Eintragungen und Vollständigkeit des Widerspruchsbescheids. Markiere unklare medizinische Abkürzungen im internen Verzeichnis, ändere aber nicht den Originalbeleg.
+
+## 4. Elektronische Form und Rechtsprechung
+
+Für professionelle Einreicher gelten SGG Paragraf 65a und Paragraf 65d.
+
+- BSG, Urteil vom 27. September 2023, B 2 U 1/23 R: Bei einfacher Signatur müssen verantwortende und versendende Person identisch sein; Krankheit ist keine technische Störung.
+- BSG, Urteil vom 21. November 2024, B 8 SO 5/23 R: Eine konkret belegte gerichtsseitige Großstörung kann die Ersatzeinreichung tragen.
+
+Frist erst nach Kontrolle der automatisierten Eingangsbestätigung erledigen. Hauptdokument und Anlagen als einzelne PDFs, nicht als ZIP, übermitteln.
+
+## 5. Auslieferung
+
+Liefere Schriftsatz, Bescheidkette, Einzelanlagen, medizinische Fundstellenmatrix, Berechnungskontrolle, Anlagenverzeichnis, Manifest und Eingangscheck. Stoppe bei unvollständiger Bescheidkette, unklarem Klageziel, fehlendem Eilbeleg oder nicht finalem Leistungsantrag.
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Fachanwalt Sozialrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Sozialrecht._
+
+# Sozialrechtlichen Bescheid und Verfahrensbedarf einordnen
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -34,12 +198,8 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt Sozialrecht — Allgemein` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
 - **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
 - **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -48,7 +208,7 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Fachanwalt Sozialrecht**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
 
-**Plugin-Fokus:** Plugin Fachanwalt für Sozialrecht nach FAO § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch § 84 SGG Klage § 87 SGG Eilantrag § 86b SGG. Buergergeld Erwerbsminderung GdB Pflegegrad Hilfsmittel Eingliederungshilfe. Bescheidanalyse Akteneinsicht PKH Fristenbuch.
+- Tragende Normen verifizieren: Nur das im Skill betroffene Sozialgesetzbuch und die konkrete Verfahrensnorm heranziehen. Widerspruchsfrist nach Paragraf 84 SGG, Klagefrist nach Paragraf 87 SGG und einstweiliger Rechtsschutz nach Paragraf 86b SGG strikt trennen; Rechtsweg, Statthaftigkeit, aufschiebende Wirkung und Rechtsmittel gesondert prüfen.
 
 ### 0. Stummer Upload — Material ohne Begleittext
 
@@ -100,7 +260,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -136,42 +296,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `akteneinsicht-anfordern` | Mandant oder Anwalt benoetigt Einsicht in die Verwaltungsakte oder Gerichtsakte in einem laufenden Sozialrechtsverfahren. § 25 SGB X Akteneinsicht Verwaltungsverfahren § 120 SGG gerichtliches Verfahren Art. 15 DSGVO… |
-| `akteneinsicht-auswerten` | Anwalt hat Sozialrechts-Verwaltungs- oder Gerichtsakte erhalten und muss diese systematisch für Widerspruch oder Klage auswerten. § 25 SGB X § 120 SGG. Prüfraster: chronologische Sichtung Identifikation… |
-| `anlagen-erstellen` | Anwalt muss Anlagenkonvolut zu Widerspruch Klage oder Schriftsatz in korrekter juristischer Konvention erstellen. Anlagenanhaenge Sozialrecht K1/W1/A1-Konvention. Prüfraster: Sigel Bezeichnung Quelle Datum Seitenzahl… |
-| `bescheid-frist-quick-check` | 60-Sekunden-Sofortprüfung der Frist eines sozialrechtlichen Bescheids. Eingabe Datum der Bekanntgabe (Zugang) und Datum des Bescheids und Status der Rechtsbehelfsbelehrung. Berechnung Widerspruchsfrist § 84 SGG ein… |
-| `bescheidanalyse` | Mandant hat Sozialleistungsbescheid erhalten und Anwalt muss dessen Inhalt rechtlich aufschluesseln. §§ 33 35 SGB X Form und Begründungspflicht § 24 SGB X Anhörung. Prüfraster: Behörde Aktenzeichen Bescheiddatum… |
-| `eilantrag-sozialrecht` | Mandant ist auf Sozialleistung angewiesen die sofort wegfaellt oder verweigert wird (Buergergeld Wohnungslosigkeit Krankenversicherung). § 86b SGG Eilrechtsschutz. Prüfraster: Abs. 1 SGG aufschiebende Wirkung bei… |
-| `eingliederungshilfe-schule` | Kind mit Behinderung benoetigt Schulbegleitung und Eltern oder Anwalt müssen Anspruch klären und durchsetzen. SGB IX Teil 2 §§ 90 ff. Eingliederungshilfe § 35a SGB VIII bei seelischer Behinderung. Prüfraster:… |
-| `erstgespraech-mandatsannahme` | Strukturierter Erstgespraechsleitfaden für Sozialrecht (SGB I-XIV): Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen. |
-| `fachanwalt-sozialrecht-erwerbsminderungsrente` | Versicherter erhielt Ablehnung der Erwerbsminderungsrente oder ist ausgesteuert und fragt nach Rentenanspruch. §§ 43 240 SGB VI. Prüfraster: volle Erwerbsminderung unter 3 Stunden taeglich teilweise unter 6 Stunden… |
-| `fachanwalt-sozialrecht-eu-rente-antrag` | Versicherter mit Beschäftigungszeiten im EU-Ausland fragt nach Rente und wie die ausländischen Zeiten angerechnet werden. VO (EG) 883/2004 Sozialversicherungskoordinierung. Prüfraster: Antragstellung im Wohnsitzland… |
-| `fachanwalt-sozialrecht-gdb-schwerbehinderung` | Mandant hat Behinderung und moechte Schwerbehindertenausweis und Merkzeichen beantragen oder Ablehnungsbescheid anfechten. § 152 SGB IX Feststellungsverfahren Versorgungsmedizin-Verordnung. Prüfraster: GdB-Feststellung… |
-| `fachanwalt-sozialrecht-krankengeld-aussteuerung` | Mandant war langzeitkrank und Krankengeld laeuft nach 78 Wochen aus oder ist ausgelaufen und fragt nach Anschlusssicherung. § 44 SGB V Krankengeld Bezugsdauer 78 Wochen innerhalb 3 Jahren. Prüfraster: Anschluss ALG I §… |
-| `fachanwalt-sozialrecht-long-covid-bk-anerkennung-bg` | Pflegekraft Arzt Lehrer oder Kassierer hat Long-COVID und fragt ob Berufserkrankungsanerkennung bei der Berufsgenossenschaft möglich ist. § 9 SGB VII BK-Liste Anlage 1 BKV insbesondere BK 3101 Infektionskrankheiten… |
-| `fachanwalt-sozialrecht-orientierung` | Einstieg in den Skill-Verbund Sozialrecht. Orientierung im Sozialrecht Fachanwaltschaft nach § 14 FAO Weiterbildungspflicht. SGB I bis XIV im Überblick SGB II Buergergeld SGB VI Rente SGB V Krankenversicherung SGB IX… |
-| `fachanwalt-sozialrecht-sgb-ii-bescheid` | Mandant erhielt Buergergeld-Bescheid mit zu niedrigem Betrag Sanktion oder Aufhebungs-Rückforderungsbescheid. SGB II Buergergeld. Prüfraster: Bedarfsberechnung Regelbedarf § 20 Mehrbedarfe § 21 Kosten der Unterkunft §… |
-| `fachanwalt-sozialrecht-vergleich-sg-widerspruchsverhandlung` | Vergleich vor Sozialgericht § 101 SGG. Widerspruchsverhandlung Behörde § 84 SGG. Mediation in Sozialleistungs-Streit zunehmend. Anhörung GdB-Verfahren Vergleich Schwerbehinderung. Korrespondenz Behörde… |
-| `fachanwalt-sozialrecht-widerspruch-sozialleistung` | Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch. § 84 SGG Widerspruchsfrist ein Monat. Prüfraster: Frist (Bekanntgabe Vier-Tage-Fiktion § 37 Abs. 2 SGB X seit 1.1.2025 PostModG)… |
-| `fristenbuch-sozialrecht` | Anwalt oder Sekretariat muss Fristen in Sozialrechtsverfahren erfassen und ueberwachen. Fristenbuch Sozialrecht. Standardfristen: § 84 SGG Widerspruch 1 Monat § 87 SGG Klage 1 Monat § 173 SGG Beschwerde 1 Monat… |
-| `hilfsmittelantrag-pruefen` | Mandant benoetigt Hilfsmittel (Rollstuhl Hoerhilfe Prothese Pflegebett Treppenlift) und fragt welcher Kostentraeger zuständig ist und wie Antrag und Widerspruch aussehen. § 33 SGB V Hilfsmittelverzeichnis § 139 SGB V §… |
-| `klage-sozialgericht` | Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden. §§ 87 ff. SGG Klagefrist. Prüfraster: Klagefrist 1 Monat nach Widerspruchsbescheid § 87 Abs. 1 SGG kein Anwaltszwang vor SG… |
-| `mandanten-intake` | Erstgespräch oder Telefon-Intake in einer Sozialrechtskanzlei — Stammdaten Mandant erfassen Fristen identifizieren und Akte anlegen. Sozialrechtliches Mandats-Intake. Prüfraster: Geburtsdatum Versichertennummer… |
-| `mandantenbrief-leichte-sprache` | Erklärung eines sozialrechtlichen Bescheids für den Mandanten in einfacher oder leichter Sprache. Drei Stufen Standardbrief (B1) Einfache Sprache (A2 nach GER) Leichte Sprache (Regeln Netzwerk Leichte Sprache und DIN… |
-| `mandat-triage-sozialrecht` | Neues sozialrechtliches Mandat: Sekretariat oder Anwalt muss Sachgebiet klären und zum richtigen Skill weiterleiten. Eingangs-Triage Sozialrecht SGB I-XIV. Prüfraster: Sachgebiet (SGB II Buergergeld SGB V… |
-| `pflegegrad-widerspruch` | Mandant erhielt zu niedrigen Pflegegrad oder Pflegekasse verweigert Pflegegrad. Widerspruch gegen Pflegegrad-Bescheid nach SGB XI. Prüfraster: sechs Module § 15 SGB XI Mobilitaet Kognition Verhalten Selbstversorgung… |
-| `pkh-erfolgsaussicht-pruefen` | Mittellose Mandanten benoetigen Prozesskostenhilfe für sozialgerichtliche Klage. PKH-Erfolgsaussichtsprüfung Sozialrecht. Prüfraster: wirtschaftliche Voraussetzungen Einkommen Vermögen Selbstbehalt Schonvermögen § 90… |
-| `prozesskostenhilfe-antrag` | Anwalt erstellt PKH-Antrag für Sozialgerichtsverfahren und muss alle Belege korrekt zusammenstellen. § 73a SGG iVm §§ 114 ff. ZPO. Prüfraster: Erklärung persönliche und wirtschaftliche Verhältnisse Formular ZP1a… |
-| `schriftsatzkern-substantiierung` | Substantiierter Schriftsatzkern für Widerspruch + SG-Klage, Eilantrag § 86b SGG, Überprüfungsantrag § 44 SGB X: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge,… |
-| `schulung-fallbesprechung` | Strukturierte Fallbesprechung für Schulung Inhouse-Fortbildung Referendariats-AG oder Prüfungs-Vorbereitung Fachanwalt Sozialrecht. Nimmt eine bestehende Akte (Bescheid plus medizinische Unterlagen plus… |
-| `sozialrecht-fallaufnahme-routing` | Master-Routing-Skill der sozialrechtlichen Kanzlei. Nimmt einen frischen Fall an und entscheidet in drei Schritten welche weiteren Skills wann gezogen werden. Schritt 1 Fristlage (bescheid-frist-quick-check) Schritt 2… |
-| `sozialrecht-kanzlei-kaltstart-interview` | Kaltstart-Interview für die sozialrechtliche Kanzlei. Erfragt Schwerpunktbereiche (Buergergeld SGB II / SGB IX Schwerbehinderung / SGB V Krankenversicherung / SGB XI Pflege / Asylbewerberleistungsgesetz) zuständige… |
-| `vergleichsverhandlung-strategie` | Vergleichsverhandlungs-Strategie für Sozialrecht (SGB I-XIV): ZOPA, BATNA, Verhandlungsfenster, Druckmittel, Settlement-Skript, Vergleichsentwurf und prozessuale Absicherung (Protokoll-/Anwaltsvergleich). |
-| `widerspruchsfrist-und-zustellung-sgb` | Anwalt muss bei eingehendem oder ausgehendem Bescheid klären ob und wann die Widerspruchsfrist laeuft und ob Zustellungsmaengel die Frist beeinflussen. § 37 SGB X Zustellung und Bekanntgabe-Fiktion. Prüfraster:… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-sozialrecht/skills/kaltstart-triage/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Qualitätsversprechen
 
@@ -189,206 +320,73 @@ Hinweis: Dieser Skill stärkt die anwaltliche Arbeit, indem er Workflow, Intake 
 
 ## Skill: `mandat-triage-sozialrecht`
 
-_Wenn es um Mandat Triage Sozialrecht in Fachanwalt Sozialrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Mandat Triage Sozialrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Neues sozialrechtliches Mandat: Sekretariat oder Anwalt muss Sachgebiet klären und zum richtigen Skill weiterleiten
+# 1. Sozialrechtlichen Auftrag aus der Akte bestimmen
 
+## 1.1. Zweck und Anwendungsfall
 
-## Direktstart: lesen, entscheiden, liefern
+Bestimme bei einem neuen sozialrechtlichen Vorgang die Leistung oder Beitragsfrage, die Fristlage und den erforderlichen Bearbeitungsweg. Arbeite anschließend am bestellten Ergebnis weiter, statt lediglich einen anderen Skill zu empfehlen.
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1.2. Vorhandene Angaben nutzen
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Lies die Anfrage und vorhandene Bescheide, Anträge, Zugangsnachweise und gerichtliche Schreiben. Entnimm daraus betroffene Person, Vertretung, Leistungsträger, Regelung, Zeitraum, Ziel und Verfahrensstand; erhebe bereits bekannte Stammdaten nicht erneut. Bei mehreren Personen oder Leistungen führe die jeweiligen Ansprüche und Fristen getrennt.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Frage nur nach entscheidenden offenen Punkten. Fehlt beispielsweise der Widerspruchsbescheid, kläre, ob bislang nur ein Ausgangsbescheid vorliegt; fehlt ein Zugangsnachweis, frage nach dem tatsächlichen Empfang und dem verfügbaren Beleg. Ohne Unterlagen fordere die für die konkrete Frage nötigen Dokumente an und kennzeichne bis dahin die begrenzte Tatsachengrundlage.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.3. Verfahren und Fachprüfung
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+### 1.3.1. Rechtsweg, Frist und Eile
 
-## Arbeitsweg
+Prüfe Widerspruch nach Paragraf 84 SGG, Klage nach Paragraf 87 SGG sowie Belehrung und Fristberechnung anhand des konkreten Bescheids. Paragrafen 86a und 86b SGG für aufschiebende Wirkung beziehungsweise einstweiligen Rechtsschutz unterscheiden. Nicht jede benachbarte Sozialleistung gehört vor das Sozialgericht; bei Wohngeld, Ausbildungsförderung, Kindergeld und beamtenrechtlicher Versorgung Rechtsgrundlage und Rechtsweg eigenständig bestimmen.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Bei Untätigkeit unterscheidet Paragraf 88 SGG sechs Monate seit Antrag und drei Monate seit Widerspruch, jeweils unter Berücksichtigung eines zureichenden Grundes. Die drei Monate sind keine Sonderfrist für Eilfälle. Wiedereinsetzung nach Paragraf 67 SGG beziehungsweise Paragraf 27 SGB X richtet sich nach dem betroffenen Verfahren und Hindernis, nicht pauschal nach dem Alter des Bescheids.
 
-**Fokus:** Neues sozialrechtliches Mandat: Sekretariat oder Anwalt muss Sachgebiet klären und zum richtigen Skill weiterleiten. Eingangs-Triage Sozialrecht SGB I-XIV. Prüfraster: Sachgebiet (SGB II Buergergeld SGB V Krankenversicherung SGB VI Rente SGB IX Reha SGB XI Pflege SGB XII Sozialhilfe SGB VII Unfall) Sofort-Fristen Widerspruch 1 Monat § 84 SGG Klage 1 Monat § 87 SGG Untätigkeitsklage 6 Monate § 88 SGG. Output: Routing-Entscheidung mit Folge-Skill und Fristen. Abgrenzung zu mandanten-intake (Stammdaten) und sozialrecht-fallaufnahme-routing (Master-Routing).
+Existenznot, Versorgungsausfall oder unmittelbar fehlende Schulbegleitung priorisieren. Erfrage die konkrete drohende Folge und erreichbare aktuelle Belege; entwirf einen Eilantrag nur im Rahmen des Auftrags. Keine feste Bearbeitungsstunde oder Erfolgsgarantie versprechen.
 
-### Mandat-Triage Sozialrecht
+### 1.3.2. Leistung oder Beitrag
 
-## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mandat-Triage Sozialrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
-- **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
-- **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+Ordne den Vorgang fachlich zu: Grundsicherung, Arbeitsförderung, Kranken-, Renten- oder Unfallversicherung, Kinder- und Jugendhilfe, Rehabilitation und Teilhabe, Pflege, Sozialhilfe, Schwerbehindertenrecht oder Soziales Entschädigungsrecht. Asylbewerberleistungen, Wohngeld, Ausbildungsförderung und Familienleistungen benötigen ihre eigenen Normen und Verfahrensregeln.
 
-## Ablauf — sieben Fragen
+Bei Erwerbsminderung Befund, Funktionsfähigkeit und Versicherungszeiten verbinden; eine Diagnose nicht in eine Stundenangabe umdeuten. Bei Pflege die tatsächliche Alltagshilfe mit den bewerteten Modulen vergleichen. Bei Grundsicherung Monate, Bedarf und Zuflüsse berechnen; bei Beiträgen Tätigkeit, tatsächliche Durchführung und Bemessungsgrundlage prüfen. Ein Beitragsfall löst keine allgemeine medizinische Prüfung aus.
 
-### Frage 1 — Sachgebiet?
+### 1.3.3. Neue Angaben einarbeiten
 
-- **SGB II** Bürgergeld (vormals ALG II Hartz IV)
-- **SGB III** Arbeitsförderung (Arbeitslosengeld I)
-- **SGB V** Gesetzliche Krankenversicherung
-- **SGB VI** Gesetzliche Rentenversicherung
-- **SGB VII** Gesetzliche Unfallversicherung
-- **SGB VIII** Kinder- und Jugendhilfe
-- **SGB IX** Rehabilitation Schwerbehindertenrecht Eingliederungshilfe
-- **SGB X** Verfahrensrecht Verwaltungsverfahren
-- **SGB XI** Soziale Pflegeversicherung
-- **SGB XII** Sozialhilfe
-- **AsylbLG** Asylbewerberleistungs-Recht
-- **BAföG** Ausbildungsförderung
-- **WoGG** Wohngeld
-- **KindG** Kindergeld
-- **Familien- und Erziehungsgeld** BEEG ElterngeldPlus
-- **SchwbR** Schwerbehindertenrecht (in SGB IX integriert)
-- **Versorgungsrecht** Bundesversorgungsgesetz BVG
-- **Beamtenrecht-versorgung** parallel zu SGB
+Fehlt die Berechnungsanlage, fordere sie an und gleiche nach Eingang die angesetzten Monate und Beträge ab. Fehlt die Grundlage einer medizinischen Bewertung, frage nach dem betreffenden Bericht; nach Eingang konkretisiere Beweisfragen oder Begründung. Amtsermittlung, Mitwirkung und Folgen unaufklärbarer Tatsachen getrennt beurteilen, Angaben nicht ungeprüft als Nachweis behandeln.
 
-### Frage 2 — Mandantenrolle?
+Setze die Bearbeitung nach Antworten bis zum bestellten Brief, Vermerk oder Rechtsbehelfsentwurf fort. Neue entscheidende Lücken dürfen kurze weitere Rückfragen auslösen; keine festen Fragegrenzen und keine Wiederholung beantworteter Punkte. Bei einem Hindernis die unabhängig beurteilbaren Teile vorläufig liefern.
 
-- Antragsteller / Leistungsberechtigter
-- Behörde (Erstattungsansprüche)
-- Familienangehöriger
-- Pflegeperson
-- Arzt / Heilberufler (KV-Streit)
-- Krankenkasse
-- Sozialleistungs-Träger
+### 1.3.4. Vertretung und Kosten
 
-### Frage 3 — Vorgang?
+Prüfe Vollmacht und Interessenkollision tatsächlich, nicht mit der Annahme, ein Streit gegen eine Behörde sei unproblematisch. Nach Paragraf 73 SGG können Beteiligte vor Sozialgericht und Landessozialgericht selbst auftreten; die Vertretungsvorgaben vor dem Bundessozialgericht gesondert prüfen. Kosten, Beratungshilfe und Prozesskostenhilfe am konkreten Verfahren und den wirtschaftlichen Verhältnissen beurteilen, nicht pauschal zusagen.
 
-- Antrag-Stellung
-- Bescheid erhalten — Widerspruch erwogen
-- Widerspruchsverfahren läuft
-- Klage am SG erhoben
-- Berufung LSG
-- Revision BSG
-- Eilantrag § 86b SGG
-- Schwerbehinderten-Feststellungs-Verfahren
-- Erstattungs-Streit zwischen Leistungs-Trägern
-- Beitragsrechtlicher Streit
-- Versicherungs-Pflicht / -Status
+Klärungsbedarf zu Sprache oder verständlicher Kommunikation aus dem konkreten Bedarf ableiten. Aktenanlage, Fristenbucheintrag oder PKH-Antrag nur entsprechend dem Auftrag vorbereiten; keine eigenmächtigen Einreichungen oder Verfahrenshandlungen.
 
-### Frage 4 — Akute Eilbedürftigkeit?
+## 1.4. Quellen und optionale Vertiefung
 
-- **Bürgergeld-Wegfall** existenzbedrohlich
-- **Krankenversicherungs-Schutz** verloren
-- **Hilfsmittel** lebenswichtig nicht bewilligt
-- **Eingliederungshilfe** Schule beginnt
-- **Wohnungsverlust** wegen Mietkosten-Übernahme
-- **Klage-Frist** ein Monat läuft
-- **Untätigkeit** sechs Monate erreicht — Klage statthaft
+Prüfe aktuelle Fassungen und tragende Aussagen anhand zugänglicher Quellen. Amtliche Einstiegspunkte: [Paragraf 88 SGG](https://www.gesetze-im-internet.de/sgg/__88.html), [Paragraf 73 SGG](https://www.gesetze-im-internet.de/sgg/__73.html) und [Paragraf 67 SGG](https://www.gesetze-im-internet.de/sgg/__67.html). Daneben sind je nach Fall Paragrafen 66, 84, 86a, 86b und 87 SGG sowie Paragrafen 27, 37 und 65 SGB X und das einschlägige Leistungsrecht zu prüfen.
 
-### Frage 5 — Stand?
+Optional vertiefen die vorhandenen Skills `bescheidanalyse`, `widerspruch-sozialleistung`, `sgb-ii-bescheid`, `hilfsmittelantrag-pruefen`, `eingliederungshilfe-schule`, `erwerbsminderungsrente`, `gdb-schwerbehinderung`, `eilantrag-sozialrecht` und `klage-sozialgericht` den jeweiligen Auftrag. Für Akteneinsicht, Fristen, Anlagen und PKH gibt es ebenfalls Fachskills; deren Verfügbarkeit ist keine Voraussetzung zum Weiterarbeiten.
 
-- Beratung vor Antrag
-- Antrag gestellt — wartet auf Bescheid
-- Bescheid liegt vor — Widerspruchsfrist offen
-- Widerspruchsbescheid — Klage Frist offen
-- Klage erhoben
-- LSG / BSG
-- Verfassungsbeschwerde
-- Eilantrag SG
+Entscheidungen nur mit Gericht, Form, Datum, Aktenzeichen und überprüfter Passage verwenden. Literatur, etwa zum SGG, nur aus bereitgestellter oder tatsächlich zugänglicher Quelle, keine Fundstellen aus Modellwissen.
 
-### Frage 6 — Frist?
+## 1.5. Ergebnis
 
-- **Widerspruchsfrist** ein Monat § 84 SGG
-- **Bei fehlender Rechtsbehelfsbelehrung** ein Jahr § 66 SGG
-- **Klagefrist** ein Monat § 87 SGG
-- **Untätigkeitsklage** sechs Monate § 88 SGG (drei Monate in Eilfällen)
-- **Eilantrag** § 86b SGG keine starre Frist aber zeitnah
-- **Wiedereinsetzung** § 27 SGB X ein Monat
+Liefere das gewünschte Dokument mit dem vorgegebenen Dateinamen. Ohne konkreten Dokumentenauftrag genügt ein ausformulierter Vermerk zu Streitgegenstand, Frist, Beweislage und Empfehlung; nicht automatisch Mandatsvereinbarung, PKH-Antrag und Klage zusätzlich erstellen. Ein Beratungsbrief nennt Ergebnis und nächste Schritte verständlich, technische Quellen- und Zugriffshinweise stehen gesondert.
 
-### Frage 7 — Wirtschaftliche Verhältnisse?
+Vollständige Sätze statt Stichwortskelette; Tabellen nur für notwendige Vergleiche oder Berechnungen. Dezimale Gliederung und bei formatierten Dokumenten Times New Roman 11 pt, sonst entsprechender Exporthinweis. Ohne Datei- oder Exportwerkzeuge arbeite mit bereitgestelltem Text, kennzeichne fehlende Belege und liefere keinen erfundenen Downloadlink.
 
-- PKH wahrscheinlich
-- Beratungshilfe vor Klage
-- Anwaltszwang nur ab LSG (kein erstinstanzlich)
-- Streitwert geringe Bedeutung (SG-Verfahren weitgehend gerichtskostenfrei)
+## 1.6. Beispiel
 
-## Routing-Matrix
-
-| Sachgebiet | Folge-Skill |
-|---|---|
-| Erst-Intake Stammdaten | `mandanten-intake` |
-| Bescheid analyse | `bescheidanalyse` |
-| Widerspruch formulieren | `widerspruch-formulieren` |
-| Bürgergeld prüfen | `buergergeld-pruefen` |
-| Hilfsmittelantrag | `hilfsmittelantrag-pruefen` |
-| Eingliederungshilfe Schule | `eingliederungshilfe-schule` |
-| Eilantrag Sozialrecht | `eilantrag-sozialrecht` |
-| Klage Sozialgericht | `klage-sozialgericht` |
-| PKH-Antrag | `prozesskostenhilfe-antrag` |
-| Akteneinsicht anfordern | `akteneinsicht-anfordern` |
-| Akteneinsicht auswerten | `akteneinsicht-auswerten` |
-| Anlagen erstellen | `anlagen-erstellen` |
-| Fristenbuch | `fristenbuch-sozialrecht` |
-| Frist-Berechnung Zustellung | `widerspruchsfrist-und-zustellung-sgb` |
-| Schwerbehinderten GdB | (Skill schwerbehinderten-feststellung — perspektivisch) |
-| Erwerbsminderung | (Skill erwerbsminderungs-rente — perspektivisch) |
-
-## Mandatsannahme
-
-- **Konflikt-Check** häufig unproblematisch (Behörde vs. Bürger)
-- **PKH bzw. Beratungshilfe** häufig
-- **Streitwert / Kostenrisiko** SG-Verfahren gerichtskostenfrei für Versicherte
-- **Sprachbedarf** Dolmetscher bei Migrationshintergrund
-
-## Eskalation
-
-- **Telefon-Sofort** Bürgergeld-Wegfall existenzbedrohlich
-- **Binnen einer Stunde** Eilantrag § 86b SGG
-- **Heute** Widerspruchs-Frist heute / morgen
-- **Diese Woche** Klage Erstentwurf
-
-## Ausgabe
-
-- `triage-protokoll-sozialrecht.md`
-- Aktenanlage mit Verweis auf `mandanten-intake`
-- Frist im Fristenbuch
-- PKH-Antrag-Entwurf wenn relevant
-- Mandatsvereinbarung
-- Empfehlung Folge-Skill
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Quellen
-
-- SGG §§ 66 84 86a 86b 87 88
-- SGB X §§ 27 37 65
-- SGB I — XII
-- AsylbLG BAföG WoGG BEEG
-- BSG Std.Spruch
-- Krasney/Udsching SGG
-- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-
-## Aktuelle Rechtsprechung — allgemeine Verfahrensgrundsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Ein Pflegegrad wurde abgelehnt, der Bescheid und das Gutachten liegen vor, aber die Unterstützung beim nächtlichen Toilettengang ist unklar. Frage gezielt nach Häufigkeit und Hilfe, gleiche die Antwort mit der Modulbewertung ab und schreibe danach den bestellten Mandantenbrief oder Widerspruch fertig. Eine schon dokumentierte Bekanntgabe wird nicht erneut abgefragt.
 
 ---
 
 ## Skill: `fachanwalt-sozialrecht-orientierung`
 
-_Wenn es um Fachanwalt für Sozialrecht — Orientierung in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt für Sozialrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Fachanwalt für Sozialrecht — Orientierung
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -440,7 +438,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Sozialgericht (SG) — erste Instanz, Kammern.
 - Landessozialgericht (LSG) — Berufung.
 - Bundessozialgericht (BSG) — Revision, Kassel.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
@@ -463,11 +460,13 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **`fachanwalt-arbeitsrecht`** bei Sperrzeit Arbeitslosengeld und Schwerbehinderung im Arbeitsverhältnis.
 - **`fachanwalt-medizinrecht`** bei medizinischer Begutachtung.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Sozialrecht._
 
 # Strukturierter Erstgespraechsleitfaden für Sozialrecht (SGB I-XIV): Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
 
@@ -476,7 +475,7 @@ _Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Sozialrecht geht: prüft 
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: Nur das im Skill betroffene Sozialgesetzbuch und die konkrete Verfahrensnorm heranziehen. Widerspruchsfrist nach Paragraf 84 SGG, Klagefrist nach Paragraf 87 SGG und einstweiliger Rechtsschutz nach Paragraf 86b SGG strikt trennen; Rechtsweg, Statthaftigkeit, aufschiebende Wirkung und Rechtsmittel gesondert prüfen.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -486,8 +485,6 @@ _Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Sozialrecht geht: prüft 
 
 ## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Erstgespraech und Mandatsannahme im Sozialrecht (SGB I-XIV)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
 - **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
 - **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -500,9 +497,7 @@ _Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Sozialrecht geht: prüft 
 5. GwG-Pflicht: Mandant identifiziert (§§ 10 ff. GwG)? Bei einfachem Sozialrechtsmandat meist niedrige GwG-Risikostufe.
 
 ## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Wann dieser Arbeitsgang greift
 
@@ -650,420 +645,105 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
 - Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
 
----
-
-## Skill: `klage-sozialgericht`
-
-_Wenn es um Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden in Fachanwalt Sozialrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden. §§ 87 ff. SGG Klagefrist. Prüfraster: Klagefrist 1 Monat nach Widerspruchsbescheid § 87 Abs. 1 SGG kein Anwaltszwang vor SG beA-Versandpflicht sachliche Zuständigkeit § 8 SGG örtliche Zuständigkeit § 57 SGG PKH-Antrag § 73a SGG. Output: Klageschrift SG mit Anlagenverzeichnis Beweisangeboten und PKH-Antrag. Abgrenzung zu eilantrag-sozialrecht (Eilrechtsschutz) und fachanwalt-sozialrecht-widerspruch-sozialleistung (Widerspruchsstufe).
-
-### Klage zum Sozialgericht
-
-## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Klage zum Sozialgericht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
-- **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
-- **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Voraussetzungen
-
-- **Vorverfahren** durchgeführt — Widerspruchsbescheid liegt vor (§ 78 SGG).
-- **Untätigkeitsklage** alternativ möglich nach drei Monaten Untätigkeit der Widerspruchsbehörde (§ 88 SGG).
-- **Klagefrist** ein Monat ab Zustellung des Widerspruchsbescheids (§ 87 Abs. 1 SGG); ein Jahr bei fehlender Rechtsbehelfsbelehrung (§ 66 Abs. 2 SGG).
-
-## Zuständigkeit
-
-- **Sachlich** Sozialgericht (§ 8 SGG) für Streitigkeiten in den Angelegenheiten der gesetzlichen Sozialversicherung der Grundsicherung für Arbeitsuchende des Asylbewerberleistungsgesetzes und in den überwiegenden Bereichen des SGB.
-- **Örtlich** das SG des gewöhnlichen Aufenthaltsorts des Klägers (§ 57 Abs. 1 SGG); bei juristischen Personen Sitz (§ 57 Abs. 2 SGG).
-
-## Klagearten
-
-- **Anfechtungsklage** § 54 Abs. 1 Var. 1 SGG — Aufhebung eines belastenden Bescheids.
-- **Verpflichtungsklage** § 54 Abs. 1 Var. 2 SGG — Erlass eines abgelehnten Leistungsbescheids.
-- **Leistungsklage** § 54 Abs. 4 / § 54 Abs. 5 SGG — wenn Höhe streitig.
-- **Feststellungsklage** § 55 SGG — Rechtsverhältnis.
-- **Untätigkeitsklage** § 88 SGG — Behörde untätig.
-
-## Klageaufbau
-
-### 1. Rubrum
-
-- Klagepartei mit Vertretung (Anwalt mit beA-Adresse).
-- Beklagte Behörde mit Aktenzeichen Widerspruchsbescheid.
-- Streitgegenstand kurz.
-
-### 2. Anträge
-
-Eindeutige vollstreckbare Anträge:
-
-1. Aufhebung des angefochtenen Bescheids und Widerspruchsbescheids;
-2. Verurteilung der Beklagten zur Gewährung der konkret bezifferten Leistung;
-3. Kostenantrag § 193 SGG (Gerichtskosten- und Auslagenfreiheit in Sozialgerichtsverfahren regelmäßig);
-4. ggf. Antrag auf Bewilligung von Prozesskostenhilfe und Beiordnung;
-5. ggf. Antrag auf Anordnung der aufschiebenden Wirkung (§ 86b Abs. 1 SGG) oder einstweilige Anordnung (§ 86b Abs. 2 SGG) — Eilantrag dann über Skill `eilantrag-sozialrecht`.
-
-### 3. Sachverhalt
-
-Knapp und chronologisch — Antrag Bescheid Widerspruch Widerspruchsbescheid.
-
-### 4. Rechtliche Würdigung
-
-- Anspruchsgrundlage(n).
-- Tatbestandsmerkmale mit Subsumtion.
-- BSG-Rechtsprechung mit Pinpoint.
-- Auseinandersetzung mit der Begründung des Widerspruchsbescheids.
-
-### 5. Beweisangebote
-
-Beweismittel im Sozialgerichtsverfahren (§ 103 SGG Untersuchungsgrundsatz):
-
-- Urkunden (Verwaltungsakte beizuziehen § 119 SGG).
-- Zeugen mit ladungsfähiger Anschrift.
-- Sachverständige (häufig medizinische SV bei SGB IX SGB V).
-- Augenschein.
-- Parteivernehmung.
-
-### 6. Anlagenverzeichnis
-
-Mit Sigel K1 K2 K3. Siehe Skill `anlagen-erstellen`.
-
-## Sonderregeln SGG
-
-- **Kein Anwaltszwang** vor dem SG (§ 73 Abs. 4 SGG).
-- **beA-Pflicht** für Rechtsanwälte (§ 65d SGG iVm § 31a BRAO).
-- **Kostenfreiheit** für Versicherte Leistungsempfänger Behinderte (§ 183 SGG).
-- **Untersuchungsgrundsatz** (§ 103 SGG) — Gericht ermittelt von Amts wegen.
-
-## PKH-Antrag
-
-Bei wirtschaftlicher Bedürftigkeit: PKH nach § 73a SGG iVm §§ 114 ff. ZPO. Verweis auf Skill `prozesskostenhilfe-antrag`.
-
-## Ausgabe
-
-- `klage-<sg>-<az>-<datum>.docx` und Markdown-Spiegel.
-- Anlagenkonvolut nach Skill `anlagen-erstellen`.
-- Fristen in Fristenbuch eingetragen — siehe Skill `fristenbuch-sozialrecht`.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Versand
-
-Über beA — vor Versand der Skill `versand-vor-check` aus `kanzlei-allgemein`.
-
-## Triage — kläre vor Klageerhebung
-
-1. Vorverfahren abgeschlossen? — Widerspruchsbescheid oder Untätigkeit über sechs Monate (§ 88 SGG)?
-2. Klagefrist (ein Monat § 87 SGG) gewahrt? — Datum Zustellung Widerspruchsbescheid + Vier-Tages-Fiktion berechnen
-3. PKH erforderlich? — Prüfung Skill `pkh-erfolgsaussicht-pruefen`, Antrag zeitgleich einreichen
-4. Eilantrag § 86b SGG parallel nötig? — bei Existenzbedrohung oder dringendem Hilfsmittelbedarf
-5. Sachlich und örtlich zuständiges Sozialgericht ermittelt? (§§ 8, 57 SGG)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
-## Skill: `fristenbuch-sozialrecht`
+## Skill: `em-rente-befundwiderspruch-und-leistungsfall`
 
-_Wenn es um Anwalt oder Sekretariat muss Fristen in Sozialrechtsverfahren erfassen und ueberwachen in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Klärt widersprüchliche medizinische Leistungsbilder bei Erwerbsminderungsrenten durch Befundchronologie, Funktionsvergleich und alternative Eintrittszeitpunkte. Für Reha- und Gutachtenkonflikte mit Beitragslücken, nicht für einen allgemeinen Rentenrechner oder Pflegegradprüfung._
 
-# Anwalt oder Sekretariat muss Fristen in Sozialrechtsverfahren erfassen und ueberwachen
+# 1. Befundwiderspruch und Rentenleistungsfall
 
+## 1.1. Zweck und Anwendungsfall
 
-## Arbeitsweg
+Erarbeite eine Beweisstrategie, wenn Reha-Bericht, Behandler und Gutachten verschiedene tägliche Leistungsvermögen nennen und der Eintrittszeitpunkt über die Versicherungsvoraussetzungen entscheidet. Die langfristige Einkommenssicherung und der Aufwand der medizinischen Aktenauswertung begründen den Schwerpunkt. Anders als die allgemeine Prüfung des Restleistungsvermögens verbindet dieser Skill konkrete Befundwidersprüche mit mehreren möglichen Eintrittszeitpunkten der Erwerbsminderung.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 1.2. Eingaben
 
-**Fokus:** Anwalt oder Sekretariat muss Fristen in Sozialrechtsverfahren erfassen und ueberwachen. Fristenbuch Sozialrecht. Standardfristen: § 84 SGG Widerspruch 1 Monat § 87 SGG Klage 1 Monat § 173 SGG Beschwerde 1 Monat Untätigkeit § 88 SGG 6 Monate. Berechnung nach § 37 SGB X (Vier-Tage-Fiktion seit 1.1.2025 PostModG) und § 26 SGB X. Output: Fristenbuch-Eintrag mit Hauptfrist und Vorfristen. Abgrenzung zu bescheid-frist-quick-check (Schnellprüfung Einzelfall) und widerspruchsfrist-und-zustellung-sgb (Detailprüfung Zustellung).
+Lies Bescheid, Widerspruchsbescheid und Zugang, Rentenantrag, Versicherungsverlauf, Reha-Entlassungsbericht, Gutachten und Verlaufsbefunde. Entnimm daraus Geburtsdatum, frühere Tätigkeit, laufende Beschäftigung, Behandlung, Hilfsmittel, Wegefähigkeit und tatsächlich benötigte Pausen. Frage nur entscheidende offene Angaben nach, etwa den Befund hinter einer Stundenangabe oder den Versicherungsnachweis für streitige Monate.
 
-### Fristenbuch Sozialrecht
+## 1.3. Ablauf und Checkliste
 
-## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fristenbuch Sozialrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
-- **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
-- **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+### 1.3.1. Medizinische Zeitachse
 
-## Zentralablage
+Ordne je Untersuchung Datum, Befund, Untersuchungsmethode, Funktionsfolge, tägliche Stunden, Regelmäßigkeit, Prognose und rückblickende Aussage zum Beginn zu. Trenne Patientenangabe, ärztliche Feststellung und rechtliche Bewertung. Weder Diagnose noch Arbeitsunfähigkeitsbescheinigung beweisen allein Erwerbsminderung. Eine Momentaufnahme und ein mehrmonatiger Verlauf sind nicht ungeprüft gleichwertig.
 
-`~/.claude/plugins/config/claude-fuer-deutsches-recht/sozialrecht-kanzlei/fristenbuch.yaml`
+### 1.3.2. Widerspruch auflösen statt Gutachten wählen
 
-Pro Eintrag:
+Stelle mindestens die konkret kollidierenden Aussagen gegenüber: beispielsweise sechs Stunden leichte Arbeit im Reha-Bericht gegen zusätzliche unplanbare Liegepausen im späteren Befund. Prüfe, ob anderer Zeitraum, neue Erkrankung, andere Testbedingungen oder echte methodische Differenz vorliegen. Formuliere beantwortbare Gutachterfragen zu Pausenhäufigkeit, Dauerbelastbarkeit, Wechselwirkungen und rückwirkendem Beginn; keine gewünschte Antwort vorgeben.
 
-```yaml
-- mandat-az: SR-2026-0042
- mandant: Mueller, Hans
- vorgang: Bürgergeld-Bescheid 12.03.2026
- fristart: widerspruchsfrist
- rechtsgrundlage: "§ 84 Abs. 1 SGG"
- fristbeginn: 2026-03-16 # Zugang nach Vier-Tages-Fiktion § 37 Abs. 2 SGB X n.F. (PostModG, seit 1.1.2025): Aufgabe zur Post 12.03.2026 + 4 Tage = 16.03.2026
- hauptfrist: 2026-04-16
- vorfrist-tage: 5
- vorfrist: 2026-04-11
- zuständig: RA Mueller
- status: offen
- bemerkung: Widerspruchsbegründung benoetigt Akteneinsicht
-```
+Unter drei Stunden, drei bis unter sechs Stunden und mindestens sechs Stunden täglich sind getrennte Kategorien des allgemeinen Arbeitsmarkts. Beurteile qualitative Einschränkungen nicht durch bloßes Zählen von Diagnosen. Eine schwere spezifische Leistungsbehinderung, ungewöhnliche Summierungswirkung oder fehlende übliche Arbeitsbedingungen bedarf konkreter Funktionsbelege. Schlechte Vermittlungschancen allein rechtfertigen bei mindestens sechs Stunden keine Rente. Teilzeitarbeitsmarkt und medizinische volle Erwerbsminderung getrennt prüfen.
 
-## Standardfristen
+### 1.3.3. Eintrittszeitpunkt und Beitragsfenster
 
-### SGG
+Lege für jeden medizinisch vertretbaren Eintrittszeitpunkt eine eigene Zeile an: fünfjähriger Rückschauzeitraum, Pflichtbeitragsmonate, allgemeine Wartezeit, mögliche Verlängerungszeiten nach Paragraf 43 Absatz 4 SGB VI und erforderlicher Beleg. Kalendermonate nicht durch Tagesquoten ersetzen; keine doppelte Monatszählung. Antragstag, Beginn der Krankheit, Eintritt der Erwerbsminderung und Rentenbeginn nicht gleichsetzen. Rentenbeginn und Befristung erst nach Feststellung der maßgeblichen Voraussetzungen beurteilen.
 
-| Frist | Norm | Dauer |
-|---|---|---|
-| Widerspruchsfrist | § 84 Abs. 1 SGG | ein Monat ab Bekanntgabe; ein Jahr bei fehlender Rechtsbehelfsbelehrung § 66 Abs. 2 SGG |
-| Klagefrist nach Widerspruchsbescheid | § 87 Abs. 1 SGG | ein Monat |
-| Untätigkeitsklage | § 88 SGG | drei Monate Untätigkeit der Behörde |
-| Beschwerde gegen Beschlüsse des SG | § 173 SGG | ein Monat |
-| Berufung gegen Urteile des SG | § 151 SGG | ein Monat |
-| Revisionsfrist | § 164 SGG | ein Monat |
-| Wiedereinsetzung | § 67 SGG | zwei Wochen ab Wegfall des Hindernisses |
+Erstelle für jeden entscheidenden offenen Befund eine Beweisfrage und erläutere den Einfluss einer positiven beziehungsweise negativen Antwort auf Anspruch und Zeitfenster. Amtsermittlung ersetzt keine tragfähigen Feststellungen; benenne das Risiko verbleibender Nichterweislichkeit. Keine medizinische Diagnose erfinden, keine Untersuchung oder Klage eigenmächtig veranlassen. Eilbedarf prioritär bearbeiten, ohne die weitere Sachprüfung abzubrechen.
 
-### SGB X / SGB V
+### 1.3.4. Befunde nachführen und Dokument fertigstellen
 
-| Frist | Norm | Bedeutung |
-|---|---|---|
-| Vier-Tages-Fiktion Zustellung (seit 1.1.2025) | § 37 Abs. 2 SGB X n.F. | Bekanntgabe vier Tage nach Aufgabe zur Post (PostModG; bis 31.12.2024: drei Tage) |
-| Genehmigungsfiktion Krankenkasse | § 13 Abs. 3a SGB V | drei Wochen (fünf Wochen bei MDK) |
-| Entscheidungsfrist Reha-Antrag | § 18 SGB IX | zwei Monate |
-| Überprüfungsantrag | § 44 SGB X | keine eigentliche Frist aber Wirkung nur für Vergangenheit |
+Ordne nachgereichte Berichte dem jeweiligen Zeitraum zu. Erklärt ein Bericht die Stundenabweichung durch spätere Verschlechterung, prüfe den dadurch veränderten Eintrittszeitpunkt und rechne das Beitragsfenster erneut; bleibt die Abweichung ungeklärt, formuliere die konkrete ergänzende medizinische Frage. Beitragsnachweise können Versicherungslücken schließen, ersetzen aber keinen medizinischen Nachweis.
 
-## Berechnung Fristbeginn
+Überarbeite nach jeder Antwort die betroffenen Passagen des bestellten Dokuments. Weitere gezielte Rückfragen sind zulässig, wenn neue entscheidende Lücken auftreten; keine wiederholte Fallaufnahme. Liefere bei einem Hindernis die belastbaren Teile vorläufig und setze nach Klärung bis zum bestellten Ergebnis fort. Eine beauftragte Beratung wird nicht ungefragt zur Klagebegründung.
 
-- **Postzustellung** vier Tage nach Aufgabe (§ 37 Abs. 2 SGB X n.F., seit 1.1.2025 PostModG). Wenn nachweislich früherer Zugang: Zugang maßgeblich. Für Verwaltungsakte mit Aufgabe zur Post vor dem 1.1.2025 gilt die alte Drei-Tages-Frist.
-- **EGVP / beA** Tag der erfolgreichen Übertragung.
-- **Bekanntgabe durch Aushaendigung** Tag der Aushaendigung.
-- **Fristberechnung** § 26 SGB X iVm §§ 187 ff. BGB — Beginn des Folgetages; Ende mit Ablauf des entsprechenden Tages des letzten Monats; bei Wochenende / Feiertag auf nächsten Werktag.
+## 1.4. Quellenpflicht
 
-## Vorfristen
+Optional zur Vertiefung: [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-sozialrecht/references/zitierweise.md). Auch ohne Referenzzugriff gilt: Tragende Aussagen mit aktueller Norm und amtlicher Entscheidung samt Gericht, Form, Datum, Aktenzeichen und überprüfter Passage belegen; Literatur nur bei tatsächlich zugänglicher Quelle. [Paragraf 43 SGB VI](https://www.gesetze-im-internet.de/sgb_6/__43.html) trägt Stundenkategorien, Beitragsanforderung und Verlängerung; [Paragraf 103 SGG](https://www.gesetze-im-internet.de/sgg/__103.html) die gerichtliche Amtsermittlung.
 
-- Standard fünf Werktage vor Hauptfrist.
-- Bei Klagefristen Vorfrist mindestens sieben Tage (Akteneinsicht beA-Versand Anlagenkonvolut).
-- Eskalation bei Vorfrist-Erreichung an zuständigen Anwalt.
+BSG, Urteil vom 11.12.2019, B 13 R 7/18 R, [amtlicher Volltext](https://www.bsg.bund.de/SharedDocs/Downloads/DE/Entscheidungen/2019/2019_12_11_B_13_R_07_18_R.pdf?__blob=publicationFile&v=3), Randnummern 30 bis 40 und 49 bis 50: Bei mindestens sechs Stunden Restleistungsvermögen können eine schwere spezifische Leistungsbehinderung oder ungewöhnliche Summierungswirkungen die Benennung einer konkret noch möglichen Tätigkeit verlangen. Prüfe deshalb die Wechselwirkungen der Funktionsausfälle und verbliebene Verrichtungen leichter Arbeit; gewöhnliche Einschränkungen nicht nur addieren. Schlechte Vermittlungschancen genügen nicht. Die Zurückverweisung ist keine Rentenbewilligung. Quellenprüfung dieser Passagen: 22.09.2026; zusätzliche Normen für Rentenbeginn und Fristen im konkreten Fall verifizieren.
 
-## Pflege
+## 1.5. Ausgabeformat
 
-- Bei Eingang Bescheid: sofort Eintrag im Fristenbuch.
-- Bei Eingang Widerspruchsbescheid: Eintrag Klagefrist.
-- Bei Untätigkeit der Behörde: Eintrag Drei-Monats-Frist Untätigkeitsklage.
-- Bei Bewilligung mit Änderungsvorbehalt: ggf. Wiedervorlage.
+Liefere das bestellte Dokument unter dem gewünschten Dateinamen; `ergebnis.md` gilt nur ohne Dateivorgabe. Füge Befundchronologie, Gegenüberstellung widersprüchlicher Aussagen, alternative Beitragsfenster und Gutachterfragen bei, soweit sie für den Auftrag erforderlich sind. Ein Mandantenbrief erläutert Ergebnis und Empfehlung; zusätzliche Recherchebelege und Quellenlücken stehen in einer getrennten Arbeitsnotiz.
 
-## Ausgabe
+Keine bloße Diagnosenliste oder Schriftsatzskelette. Vollständige Sätze, dezimale Gliederung, Paragraf ausgeschrieben, keine Doppelsterne im Fließtext. Exporthinweis: Times New Roman, 11 pt. Fehlen Datei- oder Exportwerkzeuge, arbeite mit bereitgestellten Auszügen und liefere den vollständigen Text; benenne deren Aussagegrenzen, ohne fehlende Tatsachen zu ergänzen.
 
-- `fristenbuch.yaml` aktualisiert
-- `fristen-uebersicht.md` als Sekretariats-Bericht (Tagesbericht nächste sieben Tage)
-- Bei Vorfristerreichung: Erinnerungs-Eintrag im Sekretariats-Tagesbrief (Plugin `kanzlei-allgemein`)
+## 1.6. Beispiele
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+Geeignet: Ein Reha-Bericht bescheinigt sechs Stunden, spätere Funktionsbefunde nur vier; bei späterem Leistungsfall fehlen Beitragsmonate. Erstellen Sie einen Beweisplan.
 
-## Sicherheit
-
-- Niemals Fristen ändern ohne dokumentierte Begründung.
-- Audit-Trail in der Aktenchronik.
-- Sekretariat und Anwalt gegenseitig prüfen.
-
-## Triage — kläre bei jedem neuen Fristeneintrag
-
-1. Versanddatum des Bescheids auf dem Dokument angegeben? — Vier-Tages-Fiktion § 37 Abs. 2 SGB X n.F. ab Aufgabedatum
-2. Nachweislich früherer Zugang beim Mandanten? — dann Zugangsdatum maßgeblich, Fiktion weicht zurück
-3. Rechtsbehelfsbelehrung vorhanden und korrekt? — bei Fehler Jahresfrist § 66 Abs. 2 SGG
-4. Feiertag oder Wochenende am Fristende? — Verlängerung auf nächsten Werktag § 26 SGB X iVm § 193 BGB analog
-5. Sekretariat und verantwortlicher Anwalt im Fristenbuch eingetragen? — Vier-Augen-Prinzip für Kanzleisicherung
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Nicht geeignet: Berechnen Sie eine unstreitige Altersrente anhand der Entgeltpunkte.
 
 ---
 
-## Skill: `laienhilfe-mutterschaft-elterngeld-schnittstelle`
+## Skill: `krankengeld-au-folgefeststellung-paragraf-46-sgb-v`
 
-_Wenn es um Laienverstaendlicher Sozialrechts-Skill zu Mutterschaft Elterngeld Schnittstelle in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Prüft Krankengeld bei verspäteter oder lückenhafter Folgefeststellung der Arbeitsunfähigkeit, trennt Anspruchsentstehung, Mitgliedschaftserhalt, Arztkontakt und Zurechnung und erstellt eine taggenaue AU-, Fristen- und Beweismatrix für Widerspruch oder Klage._
 
-# Laienverstaendlicher Sozialrechts-Skill zu Mutterschaft Elterngeld Schnittstelle
+# Krankengeld und AU-Folgefeststellung prüfen
 
+## 1. Normenanker
 
-## Arbeitsweg
+- Paragraf 44 SGB V: Anspruch auf Krankengeld.
+- Paragraf 46 SGB V: Entstehung und zeitliche Sicherung des Anspruchs bei ärztlicher Feststellung.
+- Paragraf 192 Absatz 1 Nummer 2 SGB V: Erhalt der Mitgliedschaft bei Krankengeldbezug oder Krankengeldanspruch.
+- Paragrafen 84 und 87 SGG: Widerspruchs- und Klagefrist.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 2. Verifizierte Rechtsprechungsanker
 
-**Fokus:** Laienverstaendlicher Sozialrechts-Skill zu Mutterschaft Elterngeld Schnittstelle. Erklaert Bescheid, Frist, Unterlagen, typische Fehler, naechste Schritte und einfache Formulierungen für Behörde, Widerspruch, Klage oder Beratung.
+- BSG, Urteil vom 26.03.2020 - B 3 KR 9/19 R: Nach der dort anwendbaren alten Rechtslage konnte eine vom Vertragsarzt aus nichtmedizinischen Gründen veranlasste Verschiebung eines rechtzeitig vereinbarten Termins der Krankenkasse zugerechnet werden. Die Entscheidung begründet keine allgemeine Heilung jeder Bescheinigungslücke.
+- BSG, Urteil vom 21.09.2023 - B 3 KR 11/22 R: Für den Mitgliedschaftserhalt ist die zeitgerechte ärztliche Feststellung nach Paragraf 46 SGB V entscheidend; Ausnahmen setzen voraus, dass der Versicherte alles ihm Mögliche und Zumutbare getan hat und das Hindernis dem Verantwortungsbereich der Krankenkasse zuzurechnen ist.
 
-### Laienhilfe: Mutterschaft Elterngeld Schnittstelle
+## 3. Prüfprogramm
 
-## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Laienhilfe: Mutterschaft Elterngeld Schnittstelle` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
-- **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
-- **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+1. Beschäftigungsende, Versicherungsstatus und bisherigen Krankengeldzeitraum taggenau erfassen.
+2. Jede AU-Feststellung mit Untersuchung, Feststellungsdatum, bescheinigtem Zeitraum und Übermittlung an die Krankenkasse in eine Zeitachse eintragen.
+3. Zeitlich anwendbare Fassung des Paragraf 46 SGB V bestimmen.
+4. Prüfen, ob die Folgefeststellung am gesetzlich erforderlichen Tag erfolgt ist.
+5. Bei einer Lücke klären, wann der Versicherte Kontakt aufnahm, welchen Termin er verlangte, wer ihn verschob und ob eine persönliche oder zulässige andere ärztliche Feststellung stattfand.
+6. Zurechnung nicht allein aus einem Arztfehler ableiten; Beratung, Terminsteuerung, Vertrauenstatbestand und eigenes zumutbares Verhalten belegen.
+7. Bescheid, Rechtsbehelf und Fristen prüfen; medizinische Arbeitsunfähigkeit und versicherungsrechtliche Anspruchserhaltung getrennt begründen.
 
-## Worum es geht
+## 4. Ausgabe
 
-Dieser Skill erklaert **Mutterschaft Elterngeld Schnittstelle** so, dass auch Menschen ohne juristische Vorkenntnisse handlungsfaehig werden. Er ersetzt keine Beratung, verhindert aber typische Fehler: Fristen uebersehen, falsche Stelle anschreiben, Unterlagen ungeordnet schicken, zu viel oder zu wenig sagen, Begriffe missverstehen.
-
-## Erst sortieren
-
-1. Welcher Bescheid, Brief, Anruf oder Termin liegt vor?
-2. Von welcher Stelle kommt er: Jobcenter, Krankenkasse, Pflegekasse, Rentenversicherung, Sozialamt, Jugendamt, Berufsgenossenschaft oder Sozialgericht?
-3. Welches Datum steht auf dem Schreiben und wann ist es angekommen?
-4. Was will die Person erreichen: Geld, Leistung, Hilfsmittel, Pflegegrad, GdB, Fristverlaengerung, Akteneinsicht, Eilentscheidung oder einfach Verstehen?
-5. Welche Belege gibt es: Atteste, Gutachten, Kontoauszuege, Mietvertrag, Bescheide, Arbeitsunfaehigkeit, Schriftwechsel?
-
-## Ausgabe
-
-**Kurz erklaert**
-- Was bedeutet das Schreiben?
-- Was ist das Risiko?
-- Was muss als naechstes getan werden?
-
-**Unterlagenliste**
-| Unterlage | Warum wichtig? | Vorhanden? |
-| --- | --- | --- |
-| ... | ... | ... |
-
-**Naechster Schritt**
-Formuliere bei Bedarf einen einfachen Brief oder eine E-Mail mit klarer Bitte, Aktenzeichen, Datum, Anlagenliste und Frist.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Fehler vermeiden
-
-- Keine Frist verstreichen lassen.
-- Telefonate direkt mit Datum, Uhrzeit und Namen notieren.
-- Nie Originale ohne Kopie abgeben.
-- Nicht nur Gefuehle schildern, sondern konkrete Tatsachen und Belege.
-- Bei Existenznot, Wohnung, Krankenversicherung, Pflege oder Schulbegleitung immer Eilrechtsschutz mitdenken.
-
-## Qualitaetsgate
-
-Ist die Antwort freundlich, einfach, respektvoll und trotzdem rechtlich praezise? Sind die Begriffe aus SGB und SGG erklaert? Sind Umlaute und Namen sauber uebernommen? Sind offene Punkte sichtbar markiert?
-
----
-
-## Skill: `laienhilfe-wohngeld-kinderzuschlag-schnittstelle`
-
-_Wenn es um Laienverstaendlicher Sozialrechts-Skill zu Wohngeld Kinderzuschlag Schnittstelle in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Laienverstaendlicher Sozialrechts-Skill zu Wohngeld Kinderzuschlag Schnittstelle
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Laienverstaendlicher Sozialrechts-Skill zu Wohngeld Kinderzuschlag Schnittstelle. Erklaert Bescheid, Frist, Unterlagen, typische Fehler, naechste Schritte und einfache Formulierungen für Behörde, Widerspruch, Klage oder Beratung.
-
-### Laienhilfe: Wohngeld Kinderzuschlag Schnittstelle
-
-## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Laienhilfe: Wohngeld Kinderzuschlag Schnittstelle` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
-- **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
-- **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Worum es geht
-
-Dieser Skill erklaert **Wohngeld Kinderzuschlag Schnittstelle** so, dass auch Menschen ohne juristische Vorkenntnisse handlungsfaehig werden. Er ersetzt keine Beratung, verhindert aber typische Fehler: Fristen uebersehen, falsche Stelle anschreiben, Unterlagen ungeordnet schicken, zu viel oder zu wenig sagen, Begriffe missverstehen.
-
-## Erst sortieren
-
-1. Welcher Bescheid, Brief, Anruf oder Termin liegt vor?
-2. Von welcher Stelle kommt er: Jobcenter, Krankenkasse, Pflegekasse, Rentenversicherung, Sozialamt, Jugendamt, Berufsgenossenschaft oder Sozialgericht?
-3. Welches Datum steht auf dem Schreiben und wann ist es angekommen?
-4. Was will die Person erreichen: Geld, Leistung, Hilfsmittel, Pflegegrad, GdB, Fristverlaengerung, Akteneinsicht, Eilentscheidung oder einfach Verstehen?
-5. Welche Belege gibt es: Atteste, Gutachten, Kontoauszuege, Mietvertrag, Bescheide, Arbeitsunfaehigkeit, Schriftwechsel?
-
-## Ausgabe
-
-**Kurz erklaert**
-- Was bedeutet das Schreiben?
-- Was ist das Risiko?
-- Was muss als naechstes getan werden?
-
-**Unterlagenliste**
-| Unterlage | Warum wichtig? | Vorhanden? |
-| --- | --- | --- |
-| ... | ... | ... |
-
-**Naechster Schritt**
-Formuliere bei Bedarf einen einfachen Brief oder eine E-Mail mit klarer Bitte, Aktenzeichen, Datum, Anlagenliste und Frist.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Fehler vermeiden
-
-- Keine Frist verstreichen lassen.
-- Telefonate direkt mit Datum, Uhrzeit und Namen notieren.
-- Nie Originale ohne Kopie abgeben.
-- Nicht nur Gefuehle schildern, sondern konkrete Tatsachen und Belege.
-- Bei Existenznot, Wohnung, Krankenversicherung, Pflege oder Schulbegleitung immer Eilrechtsschutz mitdenken.
-
-## Qualitaetsgate
-
-Ist die Antwort freundlich, einfach, respektvoll und trotzdem rechtlich praezise? Sind die Begriffe aus SGB und SGG erklaert? Sind Umlaute und Namen sauber uebernommen? Sind offene Punkte sichtbar markiert?
+Liefere eine Tagesachse, eine Lücken- und Zurechnungsmatrix, eine Fristenampel und einen ausformulierten Widerspruch oder eine Klagebegründung mit konkreten Beweisangeboten.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

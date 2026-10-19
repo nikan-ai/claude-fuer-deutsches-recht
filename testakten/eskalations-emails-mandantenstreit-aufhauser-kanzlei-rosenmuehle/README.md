@@ -1,18 +1,25 @@
 # Akte: Eskalations-E-Mails Mandantenstreit — Erbengemeinschaft Aufhauser-Trenkler vs. Kanzlei Rosenmühle & Partner
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 441 KB) | PDF | [`gesamt-pdf/eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle_gesamt.pdf`](gesamt-pdf/eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle_gesamt.pdf`](gesamt-pdf/eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-eskalations-emails-mandantenstreit-aufhauser-kanzlei-rosenmuehle-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -128,9 +135,14 @@ Arbeitsakte zum Plugin `email-umformulierer-berufsrecht`.
 | [`emails/2026-02-14_kroell_an_quistorf_umformulierung_v3.eml`](emails/2026-02-14_kroell_an_quistorf_umformulierung_v3.eml) | Plugin-Umformulierung v3 (BORA-konform) — hätte anstelle des Originals versandt werden sollen |
 | [`emails/2026-02-22_tannenkamp_an_notar_scharf.eml`](emails/2026-02-22_tannenkamp_an_notar_scharf.eml) | Scharfer Brief RAin Tannenkamp an Notar-Vertreter Dr. Rüdell — grenzwertige Sachlichkeit |
 | [`emails/2026-03-08_doxxing_panne_cc_alle_erben.eml`](emails/2026-03-08_doxxing_panne_cc_alle_erben.eml) | Datenpanne: falscher Anhang mit privater Adresse RAin Tannenkamp an alle 10 Erben |
+| [`emails/2026-03-11_trenkler_an_kroell_datenpanne_beschwerde.eml`](emails/2026-03-11_trenkler_an_kroell_datenpanne_beschwerde.eml) | Miterbe Trenkler rügt Datenpanne und Nacht-Mail, setzt Frist und kündigt Kammerbeschwerde an |
 | [`emails/2026-03-22_rak_frankfurt_an_kanzlei_anhoerung.eml`](emails/2026-03-22_rak_frankfurt_an_kanzlei_anhoerung.eml) | Anhörungsschreiben RAK Frankfurt (Az. RAK-F 188/26), 30-Tage-Frist zur Stellungnahme |
 
 ### PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|

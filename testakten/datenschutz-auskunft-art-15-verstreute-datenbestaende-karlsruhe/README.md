@@ -1,18 +1,25 @@
 # Testakte: Auskunft nach Artikel 15 DSGVO bei verstreuten Datenbeständen (Karlsruhe)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 69 KB) | PDF | [`gesamt-pdf/datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe_gesamt.pdf`](gesamt-pdf/datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe_gesamt.pdf`](gesamt-pdf/datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -52,10 +59,12 @@ datenschutz-auskunft-art-15-verstreute-datenbestaende-karlsruhe/
 ├── 12_beschwerde_lfdi_bw_2026-05-11.docx                 — Beschwerde nach Artikel 77 DSGVO an den LfDI Baden-Württemberg
 ├── 13_zwischennachricht_lfdi_bw_2026-05-27.docx          — Behördliche Zwischennachricht mit vorläufiger Einschätzung
 ├── 14_klageentwurf_auskunft_art82_2026-06-30.docx        — Klageentwurf auf Auskunft und Schadensersatz nach Artikel 82 DSGVO
+├── 15_telefonvermerk_wehrle_denzlinger_2026-06-08.docx     — Telefonvermerk der Kanzlei: Score-Folien in Vertriebsrunden, Hinweise Kümmel, Bewerbungen
 ├── eml/
 │   ├── 2026-03-19_it_trefferbericht_an_hr.eml            — IT meldet: Scores und Verteiler-Mail gefunden
 │   ├── 2026-03-24_vertriebsleitung_an_hr.eml             — Vertriebsleitung rät, beide Kategorien wegzulassen
-│   └── 2026-04-08_hr_an_anwalt_begleitmail.eml           — Begleitmail zur Auskunft, behauptet Vollständigkeit
+│   ├── 2026-04-08_hr_an_anwalt_begleitmail.eml           — Begleitmail zur Auskunft, behauptet Vollständigkeit
+│   └── 2026-05-28_kolb_an_buehler_nach_lfdi_zwischennachricht.eml — HR fordert nach der LfDI-Zwischennachricht neuen Suchlauf und Logdaten an
 ├── whatsapp/
 │   └── chatverlauf_denzlinger_tarrach_2026.txt          — Chat belegt Existenz der Verteiler-Mail und der Scores
 ├── rubric.yaml                                           — Sechs Prüfpunkte zur Bewertung einer Bearbeitung

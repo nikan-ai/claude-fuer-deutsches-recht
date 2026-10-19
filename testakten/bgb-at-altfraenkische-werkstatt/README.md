@@ -1,29 +1,39 @@
 # Akte BGB AT: Altfränkische Werkstatt
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 111 KB) | PDF | [`gesamt-pdf/bgb-at-altfraenkische-werkstatt_gesamt.pdf`](gesamt-pdf/bgb-at-altfraenkische-werkstatt_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bgb-at-altfraenkische-werkstatt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-at-altfraenkische-werkstatt.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bgb-at-altfraenkische-werkstatt-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-at-altfraenkische-werkstatt-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bgb-at-altfraenkische-werkstatt_gesamt.pdf`](gesamt-pdf/bgb-at-altfraenkische-werkstatt_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bgb-at-altfraenkische-werkstatt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-at-altfraenkische-werkstatt.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bgb-at-altfraenkische-werkstatt-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-at-altfraenkische-werkstatt-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-bgb-at-altfraenkische-werkstatt` (Akte) | [testakte-bgb-at-altfraenkische-werkstatt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-at-altfraenkische-werkstatt.zip) |
+| `testakte-bgb-at-altfraenkische-werkstatt` (Akte) | [testakte-bgb-at-altfraenkische-werkstatt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-at-altfraenkische-werkstatt.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Ausbildungs- und Kanzleiakte zu BGB AT. Die Akte bündelt Vertragsschluss, Online-Auktion, Zugang, Minderjährigenrecht, Vollmacht, Missbrauch der Vertretungsmacht, Anfechtung, Form, Sittenwidrigkeit, Bedingung, Fristen und Verjährung in einem unordentlichen, aber bearbeitbaren Mandatsbild.
 
@@ -36,7 +46,6 @@ Ausbildungs- und Kanzleiakte zu BGB AT. Die Akte bündelt Vertragsschluss, Onlin
 ## Dokumente
 
 - 00_aktenübersicht.md
-- 01_mandatsnotiz_erstgespräch.docx
 - 02_emailkette_online_auktion.eml
 - 03_chat_export_werkstattgruppe.docx
 - 04_vollmacht_werkstattbedarf.docx
@@ -44,7 +53,6 @@ Ausbildungs- und Kanzleiakte zu BGB AT. Die Akte bündelt Vertragsschluss, Onlin
 - 06_anfechtung_preis_und_eigenschaft.docx
 - 07_form_sittenwidrigkeit_bedingung.docx
 - 08_fristenkalender.csv
-- 09_anspruchsmatrix_roh.docx
 - 10_erwartete_prüfpfade.docx
 - 11_bea_qes_formfiktion_schriftsatz.docx
 - 12_anfechtungserklärung_entwurf.docx
@@ -56,5 +64,11 @@ Ausbildungs- und Kanzleiakte zu BGB AT. Die Akte bündelt Vertragsschluss, Onlin
 - 18_kandidatenlösung_kunigunde_5punkte.docx
 - 19_kandidatenlösung_hildegund_7punkte.docx
 - 20_kandidatenlösung_walram_9punkte.docx
-- 21_korrekturmatrix_fehlerdiagnose.docx
 - 22_probanden_feedback_rückgabe.docx
+- 23_inserat_altwerk_aw_77_426.docx
+- 25_quittung_giselher_messingtypen_2026-04-16.docx
+- 27_bestellbestaetigung_wendelbert_eisenhut_2026-04-15.docx
+- eml/24_altwerk_eingangsbestaetigung_2026-04-09.eml
+- eml/26_sms_export_theudelinde_2026-04-17.txt
+- eml/28_email_krummstab_preisberichtigung_2026-04-15.eml (Anbieterin beruft sich auf Verschreiber 1.480 statt 14.800 EUR und verweigert die Lieferung)
+- 29_mahnung_eisenhut_restbetrag_messingtypen_2026-05-08.docx (Zahlungserinnerung über den offenen Restbetrag von 380 EUR mit Gesprächsnotizen zur Rückgabefrage)

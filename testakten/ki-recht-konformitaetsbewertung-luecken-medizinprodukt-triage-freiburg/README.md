@@ -1,18 +1,25 @@
 # Testakte: KI-Recht — Konformitätsbewertung mit Lücken an der Schnittstelle zum Medizinprodukterecht (Triage-System, Freiburg)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 50 KB) | PDF | [`gesamt-pdf/ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg_gesamt.pdf`](gesamt-pdf/ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg_gesamt.pdf`](gesamt-pdf/ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -30,7 +37,7 @@ Prüfschwerpunkte sind die Anforderungen an Hochrisiko-KI-Systeme (Risikomanagem
 | Leitung Regulatory Affairs (verantwortliche Person) | Dr. Annika Sperling |
 | Modellentwicklung / Data Science | Dr. Jonas Kettler |
 | Klinische Bewertung | Petra Lohmann |
-| Benannte Stelle | Prüf- und Zertifizierungsstelle für Medizinprodukte Süd GmbH (PZM Süd), NB 2971 (fiktiv), Stuttgart |
+| Benannte Stelle | Prüf- und Zertifizierungsstelle für Medizinprodukte Süd GmbH (PZM Süd), Kennnummer 2971, Stuttgart |
 | Leitende Auditorin | Dr. Ing. Marion Halbach |
 | Marktüberwachungsbehörde KI | Bundesnetzagentur, Referat Marktüberwachung KI-Systeme, Bonn |
 | Zuständige Behörde Medizinprodukte | Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM), Bonn |
@@ -52,10 +59,12 @@ ki-recht-konformitaetsbewertung-luecken-medizinprodukt-triage-freiburg/
 ├── 11_entwurf_eu_konformitaetserklaerung_2026-05.docx                     — Entwurf behauptet vollständige Konformität und gleichwertige Leistung (Diskrepanz)
 ├── 12_vermerk_benannte_stelle_beanstandungen_2026-06.docx                 — Vier wesentliche Beanstandungen; widerlegt den Erklärungsentwurf
 ├── 13_normstand_vermerk_2026-07-01.docx                                   — Rechtsstand KI-Verordnung, Omnibus-Vorbehalt, Verifikationsanordnung
+├── 14_besprechungsnotiz_zeitplan_2026-02-16.docx                            — Unvollständige Notiz der Montagsbesprechung zu Validierung, Doku-Formulierung und Zeitplan
 ├── eml/
 │   ├── 2026-02-10_kettler_an_sperling_subgruppe.eml                       — Warnung der Modellentwicklung: 71 Prozent bei über 80-Jährigen, Datenlage dünn
 │   ├── 2026-02-14_sperling_an_kettler_zeitplan.eml                        — Entscheidung, nur den Gesamtwert zu führen; Ursprung der Diskrepanz
-│   └── 2026-06-24_reinke_an_gf_nach_audit.eml                             — Nach dem Beanstandungsbericht: Umsteuern, Erklärung zurücknehmen
+│   ├── 2026-06-24_reinke_an_gf_nach_audit.eml                             — Nach dem Beanstandungsbericht: Umsteuern, Erklärung zurücknehmen
+│   └── 2026-06-26_halbach_fristen_nachaudit.eml                           — Fristen der benannten Stelle: Maßnahmenplan, Nachaudit-Termin, K5-Konvertierungsdoku
 ├── chat/
 │   └── teams_chat_entwicklung_triageassist_2026-02.txt                    — Teamchat zu Subgruppenproblem, fehlender Protokollierung und Aufsicht
 ├── rubric.yaml                                                            — Sechs Prüfpunkte zur Bewertung einer Bearbeitung

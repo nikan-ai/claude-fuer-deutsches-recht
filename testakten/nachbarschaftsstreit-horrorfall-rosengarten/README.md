@@ -1,18 +1,25 @@
 # Akte: Nachbarschaftsstreit Rosengartenstraße
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 1140 KB) | PDF | [`gesamt-pdf/nachbarschaftsstreit-horrorfall-rosengarten_gesamt.pdf`](gesamt-pdf/nachbarschaftsstreit-horrorfall-rosengarten_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/nachbarschaftsstreit-horrorfall-rosengarten_gesamt.pdf`](gesamt-pdf/nachbarschaftsstreit-horrorfall-rosengarten_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -74,10 +81,15 @@ Originalformat aus dem Mailprogramm, mit Headern, Datum, From/To, Betreff.
 | [`emails/2025-04-02_bauamt-an-albers_carport-zustaendigkeit.eml`](emails/2025-04-02_bauamt-an-albers_carport-zustaendigkeit.eml) | Bauamt-Antwort, Az. Bau-Rdk-25/0973 |
 | [`emails/2025-08-24_albers-an-versicherung_kellerfeuchte.eml`](emails/2025-08-24_albers-an-versicherung_kellerfeuchte.eml) | Schadenmeldung an Wohngebäudeversicherung nach Starkregen |
 | [`emails/2025-10-17_albers-an-kanzlei_kamera-licht-drohne.eml`](emails/2025-10-17_albers-an-kanzlei_kamera-licht-drohne.eml) | Mandantenmail zu Kamera, Lichtstrahler und Drohne |
+| [`emails/2026-06-05_krane-an-welling_ortstermin-zugangsforderung.eml`](emails/2026-06-05_krane-an-welling_ortstermin-zugangsforderung.eml) | Antwort der Gegenseite auf das Schreiben vom 29.05.2026: Vermessungstermin, neuer Zugangstermin, Baustopp an der Poolgrube |
 
 ### WhatsApp
 
 Beides liegt vor — der Standard-Export als Textdatei und ein visuell gerenderter Screenshot-Scan, wie er typischerweise als PDF in die Akte gelangt.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|
@@ -109,6 +121,10 @@ Beides liegt vor — der Standard-Export als Textdatei und ein visuell gerendert
 | [`docx/12_vergleichsentwurf_rosengartenfrieden.docx`](docx/12_vergleichsentwurf_rosengartenfrieden.docx) | Vergleichsentwurf mit 8 Paragraphen |
 
 ### Gutachten und Behördenpost (PDF)
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|

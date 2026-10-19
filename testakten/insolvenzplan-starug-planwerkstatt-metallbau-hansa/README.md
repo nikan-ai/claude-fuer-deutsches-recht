@@ -1,29 +1,39 @@
 # Akte: Metallbau Hansa GmbH – Insolvenzplan und StaRUG-Restrukturierung
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 252 KB) | PDF | [`gesamt-pdf/insolvenzplan-starug-planwerkstatt-metallbau-hansa_gesamt.pdf`](gesamt-pdf/insolvenzplan-starug-planwerkstatt-metallbau-hansa_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzplan-starug-planwerkstatt-metallbau-hansa_gesamt.pdf`](gesamt-pdf/insolvenzplan-starug-planwerkstatt-metallbau-hansa_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa` (Akte) | [testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip) |
+| `testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa` (Akte) | [testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzplan-starug-planwerkstatt-metallbau-hansa.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Realistische Akte für die **Insolvenzplan- und StaRUG-Planwerkstatt** (`insolvenzplan-starug-planwerkstatt`). Die Schuldnerin, die Metallbau Hansa GmbH aus Hamburg-Billbrook, ist ein mittelständischer Stahlbaudienstleister mit 86 Beschäftigten, der nach zwei Verlustprojekten und einer ausgeschöpften Bankenlinie in eine Liquiditäts- und Ertragskrise geraten ist. Die Akte zeigt alle wesentlichen Schritte eines Insolvenzplan- oder StaRUG-Verfahrens: Krisendiagnose, Gläubigerstruktur, Vergleichsrechnung, Gruppen-/Klassenbildung, Investor-Einbindung, gestaltender und darstellender Teil, Stimmrechtssimulation, Cram-Down-Vorbereitung und Planvollzug.
 
@@ -69,7 +79,6 @@ Am 12. Mai 2026 beauftragte die Geschäftsführerin Anna Reimers die Kanzlei Wes
 
 | Datei | Inhalt |
 |---|---|
-| [01_mandatsnotiz_erstgespraech.docx](01_mandatsnotiz_erstgespraech.docx) | Mandatsnotiz vom Erstgespräch 12.05.2026: Sachverhalt, Sofortfragen, Verfahrensalternativen, Vollmacht |
 | [02_unternehmensprofil.docx](02_unternehmensprofil.docx) | Detailliertes Unternehmensprofil: Stammdaten, Leistungsportfolio, Personal, GuV-Entwicklung, Vermögen |
 | [03_liquiditaetsstatus.csv](03_liquiditaetsstatus.csv) | 13-Wochen-Liquiditätsplanung KW 20–32 mit wöchentlichen Zu- und Abflüssen, kritischen Salden und Investoren-Szenario |
 | [04_gläubiger_und_sicherheiten.csv](04_glaeubiger_und_sicherheiten.csv) | Vollständige Gläubigerliste (16 Positionen) mit Forderungshöhe, Rang, Sicherheiten, Plangruppe und Planquote |
@@ -89,10 +98,11 @@ Am 12. Mai 2026 beauftragte die Geschäftsführerin Anna Reimers die Kanzlei Wes
 | [18_planvollzug_kalender.csv](18_planvollzug_kalender.csv) | Vollständiger Planvollzugs-Kalender Mai 2026 – August 2030 mit 42 Meilensteinen, Verantwortlichen, Status |
 | [19_stimmrechtsliste_glaeubigergruppen.docx](19_stimmrechtsliste_glaeubigergruppen.docx) | Stimmrechtsliste aller Gläubigergruppen zum Erörterungs- und Abstimmungstermin |
 | [20_zieloutput_checkliste.docx](20_zieloutput_checkliste.docx) | Vollständigkeitsprüfung vor Planeinreichung: Pflichtanlagen, prozessuale Voraussetzungen, Kommunikation |
+| [21_email_nordbank_kontokorrent_2026-05-20.eml](21_email_nordbank_kontokorrent_2026-05-20.eml) | E-Mail der NordBank nach dem Gespräch vom 19.05.2026: Rückführung, Stillhalte-Bedingungen, rote Linien |
+| [22_telefonvermerk_stahlhandel_kueste_2026-05-27.docx](22_telefonvermerk_stahlhandel_kueste_2026-05-27.docx) | Telefonvermerk mit dem Stahllieferanten: Kreditversicherungslimit, Vorkasse, Eigentumsvorbehalt, Termin 09.06.2026 |
 | [darstellender_teil_insolvenzplan.docx](darstellender_teil_insolvenzplan.docx) | DOCX: Vollständiger darstellender Teil des Insolvenzplans (ausformuliert, Calibri 11, mit Rubrum und Anlagen) |
 | [gestaltender_teil_insolvenzplan.docx](gestaltender_teil_insolvenzplan.docx) | DOCX: Vollständiger gestaltender Teil des Insolvenzplans (alle Paragrafen, bestimmt und vollziehbar) |
 | [term_sheet_nordlicht.docx](term_sheet_nordlicht.docx) | DOCX: Investor Term Sheet Nordlicht Turnaround Fonds (finale Fassung zur Unterzeichnung) |
-| [mandatsnotiz_erstgespraech.docx](mandatsnotiz_erstgespraech.docx) | DOCX: Mandatsnotiz im Briefkopf-Format (Kanzlei Westphal & Partner) |
 
 ---
 
@@ -121,5 +131,3 @@ Diese Akte zeigt den gesamten Workflow der Insolvenzplan- und StaRUG-Planwerksta
 10. **Planvollzug:** Wie sieht ein realistischer Planvollzugskalender über vier Jahre aus?
 
 ---
-
-## Disclaimer

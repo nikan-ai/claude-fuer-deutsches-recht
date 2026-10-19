@@ -1,18 +1,25 @@
 # Akte: Elternunterhalt Markus Reinhold — Sozialamtsregress für Heimkosten der Mutter Hildegard Reinhold (Angehörigen-Entlastungsgesetz)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 47 KB) | PDF | [`gesamt-pdf/elternunterhalt-pflegeheim-sozialamtsregress-aachen_gesamt.pdf`](gesamt-pdf/elternunterhalt-pflegeheim-sozialamtsregress-aachen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/elternunterhalt-pflegeheim-sozialamtsregress-aachen_gesamt.pdf`](gesamt-pdf/elternunterhalt-pflegeheim-sozialamtsregress-aachen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-elternunterhalt-pflegeheim-sozialamtsregress-aachen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -32,7 +39,11 @@ Die Akte enthält Arbeitswerte zur Grenze von 100.000 Euro, zum Elternunterhalt 
 
 | Nr. | Datei | Inhalt |
 |---|---|---|
-| 01 | `01_mandatsnotiz_und_rechtswahrungsanzeige_sozialamt.docx` | Erstgespräch, Schreiben des Sozialamts, Rechtswahrungsanzeige und Überleitung Paragraf 94 SGB XII |
+| 01c | `01c_heimvertrag_st_gertrud_auszug.docx` | Wohn- und Betreuungsvertrag mit dem Seniorenzentrum St. Gertrud, Entgeltbestandteile |
+| 01d | `01d_pflegegradbescheid_mutter.docx` | Bescheid der Pflegekasse über die Einstufung der Mutter in den Pflegegrad 4 |
+| 01e | `01e_heimkosten_dezemberabrechnung_2025.docx` | Entgeltabrechnung des Heims für Dezember 2025 mit Direktzahlungen und Eigenanteil |
+| 01f | `01f_einkommensteuerbescheid_2024.docx` | Einkommensteuerbescheid 2024 der Eheleute Reinhold (Zusammenveranlagung) |
+| 01b | `01b_rechtswahrungsanzeige_staedteregion_aachen_2026-01-12.docx` | Förmliche Rechtswahrungsanzeige der StädteRegion Aachen mit Auskunftsverlangen und Frist |
 | 02 | `02_familien_und_vermoegenslage_mandant.docx` | Familienstand, Haushalt, Vermögensübersicht des pflichtigen Kindes |
 | 03 | `03_einkommen_mandant_jahresbruttogrenze.docx` | Einkommen, Bonus, Jahresbrutto und die 100.000-EUR-Grenze |
 | 04 | `04_heimkosten_und_sozialhilfeleistung.docx` | Heimentgelt, Rente und Pflegeanteil der Mutter, ungedeckter Bedarf |
@@ -43,6 +54,8 @@ Die Akte enthält Arbeitswerte zur Grenze von 100.000 Euro, zum Elternunterhalt 
 | 09 | `09_auskunftsverlangen_und_auskunftspflicht.docx` | Auskunftsverlangen des Sozialamts, Umfang der Auskunftspflicht |
 | 10 | `10_berechnung_einsetzbares_einkommen.docx` | Bereinigung und Berechnung des einzusetzenden Einkommens |
 | 11 | `11_einwendungen_verwirkung_leistungsunfaehigkeit.docx` | Kontaktabbruch/Verwirkung Paragraf 1611 BGB, Leistungsunfähigkeit |
-| 12 | `12_strategie_und_antwortschreiben_sozialamt.docx` | Strategie und Entwurf des Antwortschreibens an das Sozialamt |
+| 12a | `12a_kanzleivermerk_antwortstrategie_sozialamt.docx` | Interner Kanzleivermerk zu Tatsachen, Beleglage, Auskunftsumfang und Verhandlungsweg |
+| 12b | `12b_antwortschreiben_sozialamt_2026-02-12.docx` | Davon getrenntes ausgehendes Antwortschreiben an die StädteRegion mit Anlagenverzeichnis |
 | 13 | `13_vergleichs_und_ratenangebot.docx` | Vergleichs- und Ratenangebot |
-| 14 | `14_aktenvermerk_rechenhinweise.docx` | Bearbeiterhinweise, offene Punkte, Verifikationsbedarf |
+| 14 | `14_mahnung_st_gertrud_eigenanteil_februar.docx` | Zahlungserinnerung des Heims vom 16.03.2026: Rücklastschrift des Eigenanteils Februar, angekündigte Entgelterhöhung zum 01.04.2026 |
+| — | `emails/2026-02-24_sozialamt_rueckfrage_schenkungen.eml` | Rückfrage der StädteRegion zur Überweisung von 30000 Euro an die Enkelin, zur Fahrzeugüberlassung 2018 und zur fehlenden Bescheinigung der Schwester |

@@ -2,1442 +2,759 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 97 Skills des Plugins `fachanwalt-erbrecht`.
+Diese Vollprüfung enthält top-15 von 32 Skills des Plugins `fachanwalt-erbrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Anwalts-Dashboard Fachanwalt Erbrecht in Fachanwalt Erbrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und d…
-2. **mandat-triage-erbrecht** — Wenn es um Erbrechtsmandat schnell einordnen und Sofortmassnahmen bestimmen in Fachanwalt Erbrecht geht: klärt Rolle, Zi…
-3. **fachanwalt-erbrecht-orientierung** — Wenn es um Fachanwalt für Erbrecht — Orientierung in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsw…
-4. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech im Erbrechtmandat strukturieren und Sachverhalt vollständig aufnehmen in Fachanwalt Erbrecht ge…
-5. **erstpruefung-und-mandatsziel** — Wenn es um Erstpruefung Und Mandatsziel in Fachanwalt Erbrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passen…
-6. **fachanwalt-erbrecht-erbschaftsausschlagung** — Wenn es um Erbschaftsausschlagung in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaß…
-7. **pflichtteilsberechnung** — Wenn es um Pflichtteilsanspruch berechnen wenn Erblasser nahe Angehoerige vom Erbe ausgeschlossen hat in Fachanwalt Erbr…
-8. **erbschaftsausschlagung** — Wenn es um Erbschaftsausschlagung in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaß…
-9. **verhandlung-mediation-erbengemeinschaft** — Wenn es um Streit in der Erbengemeinschaft durch Verhandlung oder Mediation lösen in Fachanwalt Erbrecht geht: erstellt …
-10. **pflichtteil-vaterschaft-verjaehrung-und-auskunft** — Wenn es um Pflichtteil Vaterschaft Verjaehrung Und Auskunft in Fachanwalt Erbrecht geht: ordnet Sachverhalt, Norm, Bewei…
+1. **erbrechtsprozess-versandmappe-endfertigen** — Prüft einen fertigen erbrechtlichen Schriftsatz und seine Anlagen auf Konsistenz, Vollständigkeit und Einreichungsform u…
+2. **pflichtteil-nachlassverzeichnis-belegabgleich** — Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen, Immobilienwerten und behaupteten …
+3. **unternehmensnachfolge-gestalten** — Stimmt Testament und Gesellschaftsvertrag für eine Unternehmensnachfolge ab, prüft Nachfolgeklauseln, Pflichtteilslast u…
+4. **erbschaft-ausschlagen-anfechten** — Vergleicht Annahme und Ausschlagung, berechnet Kenntnisfristen und bereitet die formgerechte Erklärung samt Nachrückern …
+5. **pflichtteil-vaterschaft-verjaehrung-und-auskunft** — Trennt Entstehung, Rechtsausübungssperre und Verjährung eines Pflichtteils bei später Anerkennung oder postmortaler Vate…
+6. **pflichtteil-berechnen** — Berechnet den ordentlichen Pflichtteil aus belegter gesetzlicher Quote und bereinigtem Nachlass, behandelt Anrechnung un…
+7. **testament-erbvertrag-gestalten** — Entwirft individuelle letztwillige Verfügungen für Versorgung, Nachfolge und Vermögensverteilung, prüft Form, bestehende…
+8. **nachlassinsolvenz-erbenhaftung-begrenzen** — Prüft Zahlungsunfähigkeit, Überschuldung und Antragspflicht des Erben, grenzt Haftungsinstrumente ab und erstellt Insolv…
+9. **pflichtteil-auskunft-durchsetzen** — Verlangt privates oder notarielles Nachlassverzeichnis und Wertermittlung vom Erben, prüft Ergänzung und eidesstattliche…
+10. **testamentsvollstreckung-fuehren** — Bereitet Amtsannahme und Zeugnis vor und organisiert Verzeichnis, Verwaltung, Rechnungslegung und Abwicklung nach der ko…
+11. **testament-auslegen-anfechten** — Klärt den Inhalt widersprüchlicher oder laienhafter Verfügungen und prüft eigenständig Anfechtungsgrund, Berechtigung, E…
+12. **krypto-nachlass-sichern** — Sichert Wallets und Kryptowerte im Erbfall, klärt Schlüssel- und Mitwirkungsrechte, dokumentiert Bestände und Steuerdate…
+13. **pflichtteilsergaenzung-berechnen** — Bewertet lebzeitige Zuwendungen einschließlich Nießbrauch, Wohnungsrecht und gemischter Schenkung, berechnet Abschmelzun…
+14. **testamentsvollstrecker-kontrolle-haftung** — Prüft Auskunft, Rechnungslegung und Pflichtverletzungen des Testamentsvollstreckers, trennt Entlassung und Schadensersat…
+15. **gesetzliche-erbfolge-bestimmen** — Ermittelt gesetzliche Erben aus Personenstand, Abstammung, Adoption, Güterstand und Todesreihenfolge und liefert einen b…
 
 ---
 
-## Skill: `einstieg-routing`
+## Skill: `erbrechtsprozess-versandmappe-endfertigen`
 
-_Wenn es um Anwalts-Dashboard Fachanwalt Erbrecht in Fachanwalt Erbrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Prüft einen fertigen erbrechtlichen Schriftsatz und seine Anlagen auf Konsistenz, Vollständigkeit und Einreichungsform und liefert kontrollierte Einzeldateien samt Versand- und Eingangskontrolle._
 
-# Anwalts-Dashboard Fachanwalt Erbrecht
+# Erbrechtliche Versandmappe endfertigen
 
-> Erbfall, Pflichtteil, Erbschein, Erbengemeinschaft, Testament — Ausschlagungsfrist tickt ab Kenntnis. Wer beerbt wen, wann?
->
-> Sie sehen unten die Sofort-Triage. Keine Rückfragen, bis die Tabelle steht. Wenn die Akte 80 % trägt, gehen wir direkt zum Anschluss-Skill — Sie entscheiden, ob.
+## 1. Zweck und Anwendungsfall
 
-## Sofort-Triage
+Für technischen und formalen Abschluss bereits erarbeiteter Dokumente. Kein erneuter Einstieg und keine automatische Einreichung; materielle Lücken gezielt zur betroffenen Prüfung zurückgeben.
 
-| Punkt | Schnellprüfung | Standardquelle / Hilfsweg |
-| --- | --- | --- |
-| Rolle | Wen vertrete ich? (Mandant · Gegenseite · Mehrere) | Mandantenmail, Vertretungsbestellung |
-| Verfahrensstand | Vorprozessual · außergerichtlich · Klage · Rechtsmittel · Vollstreckung | Vorhandene Schriftsätze, Eingangsstempel |
-| Eilfrist | **§ 1944 BGB: 6 Wochen** Ausschlagung ab Kenntnis von Anfall und Berufungsgrund (6 Monate bei Auslandsbezug). § 1954 BGB: Anfechtung der Annahme/Ausschlagung 6 Wochen. § 2306 BGB: Ausschlagungsrecht bei Beschwerung 6 Wochen. § 2082 BGB: Anfechtung Testament 1 Jahr ab Kenntnis. § 2332 BGB: Pflichtteils-Verjährung 3 Jahre. | Frist aus Zugangs-/Kenntnisdatum berechnen |
-| Hauptanspruch | Erbe §§ 1922, 1942 BGB · Pflichtteil §§ 2303 ff. BGB · Pflichtteilsergänzung §§ 2325 ff. BGB · Auskunft § 2314 BGB · Auseinandersetzung §§ 2042 ff. BGB · Erbschein §§ 2353 ff. BGB · Vermächtnis §§ 2147 ff. BGB. | Sachverhaltsabgleich mit Tatbestandsmerkmalen |
-| Zuständigkeit | Nachlassgericht am letzten gewöhnlichen Aufenthalt (§ 343 FamFG). Streitige Erbsachen: LG/AG nach Streitwert (§ 27 ZPO). | Gesetz, Vertrag, Gerichtsstandsklausel |
+## 2. Eingaben
 
-## Risiko-Ampel
+Freigegebener Entwurf, vollständige Anlagen, vorhandene Bezeichnungen, Gericht und Aktenzeichen, Zustellungsnachweise, Frist, Versandauftrag und benötigte Formate.
 
-- **Frist:** 🔴 Ausschlagungsfrist 6 Wochen läuft ab Kenntnis; Akten dokumentieren. 🟠 Pflichtteilsergänzung (10-Jahresfrist § 2325 III BGB) und Pflichtteils-Verjährung (3 Jahre) gegen Schenkungen verfolgen.
-- **Beweislage:** 🟠 Pflichtteils-Auskunft § 2314 BGB lückenhaft → notarielles Verzeichnis erzwingen. 🔴 Testament: Testierfähigkeit Beweis (medizinische Akten, Zeugen, ggf. Sachverständige).
-- **Wirtschaftlich:** 🔴 Nachlassinsolvenz droht → § 1980 BGB Antrag (binnen 3 Monaten), Erbenhaftungsbeschränkung. 🟠 Hoher Nachlasswert: Pflichtteilsanspruch parallel zu Auseinandersetzung.
+## 3. Ablauf und Checkliste
 
-## Anschluss-Skills (Router)
+1. Nachlassverfahren und Zivilprozess unterscheiden. Erblasser, Parteien, Todesdatum, Verfügungskette, Quoten, Stichtage, Rechenwerte und Antrag abgleichen.
 
-| Wenn der Fall trägt … | dann Skill | Erwartung |
-| --- | --- | --- |
-| **Pflichtteil berechnen / geltend machen** | `pflichtteil-berechnen` | Pflichtteilsquote, Wertermittlung, Auskunftsverfahren § 2314 BGB |
-| Ausschlagung der Erbschaft | `erbschaftsausschlagung` | 6-Wochen-Frist § 1944 BGB, notarielle/gerichtliche Erklärung |
-| Testament auslegen | `testament-auslegung-und-andeutung` | Andeutungstheorie, Auslegungsregeln, ergänzende Auslegung |
-| Erbschein beantragen | `erbschein-antrag` | Antrag, Glaubhaftmachung, eidesstattliche Versicherung |
-| Erbengemeinschaft blockiert | `erbengemeinschaft-blockade-auseinandersetzung` | Teilungsklage, Vermittlungsverfahren §§ 363 ff. FamFG |
+2. Im Nachlassverfahren neutrale oder gerichtliche Anlagenbezeichnungen, im Zivilprozess vorhandene K- oder B-Bezeichnungen fortführen. Urkunden einschließlich Rückseiten, Unterschriften und Eröffnungsvermerken vollständig halten.
 
-## Norm-Radar (live verifizieren)
+3. Einzel-PDFs auf Lesbarkeit, Orientierung, Seitenzahl, Dateinamen und inhaltliche Deckung mit Verweisen prüfen. Personenstandsdaten nicht unnötig in Dateinamen aufnehmen.
 
-- **§ 1944 BGB** — Ausschlagungsfrist 6 Wochen
-- **§ 2303 BGB** — Pflichtteilsanspruch
-- **§ 2314 BGB** — Auskunftsanspruch des Pflichtteilsberechtigten
-- **§ 2325 BGB** — Pflichtteilsergänzung; 10-Jahres-Abschmelzung
-- **§ 2353 BGB** — Erbschein
-- **§ 1980 BGB** — Antrag Nachlassinsolvenz
+4. Aktuelle elektronische Formvorgaben, Signatur und sicheren Übermittlungsweg prüfen. Empfangsbekenntnis und automatisierte Eingangsbestätigung sind nicht dasselbe.
 
-## Genau eine Rückfrage (nur wenn nötig)
+5. Ungeklärte Verfügung, widersprüchliche Rechnung oder falschen Verfahrensweg als Abgabesperre kennzeichnen. Versand nur bei Auftrag und Freigabe; Eingang niemals fingieren.
 
-> Vertreten Sie **Erbe(n), Pflichtteilsberechtigte oder Vermächtnisnehmer** — und steht eine **Frist** (Ausschlagung, Anfechtung) oder eine **Verteilungsfrage** im Vordergrund?
+### 3.1. Referenzen gezielt laden
 
-Wenn die Akte die Frage selbst beantwortet, **diese überspringen** und direkt den passenden Anschluss-Skill arbeiten.
+Bei Dateiprüfung und Einreichung [Versand- und Eingangskontrolle](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/erbrechtsprozess-versandmappe-endfertigen/references/versand-eingang.md) laden.
 
-## Leitentscheidungs-Anker (Such-Wegweiser, keine fertigen Zitate)
+## 4. Quellenpflicht
 
-- **Pflichtteilsergänzung § 2325 BGB; 10-Jahres-Abschmelzung** — BGH IV. Zivilsenat — *live verifizieren auf* `bundesgerichtshof.de`
-- **Pflichtteilsstrafklausel (Berliner Testament); Auslegung** — BGH IV. Zivilsenat — *live verifizieren auf* `bundesgerichtshof.de`
-- **Erbschaftsteuer; Verschonungsregelungen** — BVerfG 1. Senat (Urteil v. 17.12.2014, 1 BvL 21/12) — *live verifizieren auf* `bundesverfassungsgericht.de`
-- **Digitaler Nachlass (Facebook-Konto)** — BGH III. Zivilsenat (Urteil v. 12.07.2018, III ZR 183/17) — *live verifizieren auf* `bundesgerichtshof.de`
+ZPO Paragrafen 130a und 130d oder FamFG Paragraf 14b; ERVV und aktuelle ERVB nach tatsächlichem Verfahren.
 
-> Diese Anker sind Sucheinstieg. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle prüfen und Datum, Aktenzeichen, Randnummer abklären. Kuratierte Anker-Sammlung in `references/leitentscheidungen-anker.md`.
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
 
-## Hinweis
+## 5. Ausgabeformat
 
-Diese Triage ist Ihre Vorbereitung, nicht Ihre Entscheidung. Sie führen das Mandat; der Skill liefert die Karte. Quellenhygiene nach `references/quellenhygiene.md`, Zitierform nach `references/zitierweise.md`. Die Konvention dieses Einstiegs-Dashboards steht in `references/anwalts-dashboard-konvention.md`.
+Getrennte Versanddateien und kontrollierte Einzelanlagen mit Prüfprotokoll, Fristen- und Eingangsstatus. Keine Testakten, Repo-Indizes, Manifeste oder globalen Skripte verändern.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Ein fehlender Eröffnungsvermerk führt zu einer konkreten Nachforderung und offener Versandfreigabe, nicht zu einem als vollständig bezeichneten Anlagenpaket.
 
 ---
 
-## Skill: `mandat-triage-erbrecht`
+## Skill: `pflichtteil-nachlassverzeichnis-belegabgleich`
 
-_Wenn es um Erbrechtsmandat schnell einordnen und Sofortmassnahmen bestimmen in Fachanwalt Erbrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen, Immobilienwerten und behaupteten Nachlassschulden ab. Quantifiziert die Pflichtteilswirkung konkreter Abweichungen und trennt Ergänzung, Wertermittlung und Versicherung an Eides statt._
 
-# Erbrechtsmandat schnell einordnen und Sofortmassnahmen bestimmen
+# 1. Zweck und Anwendungsfall
 
+Prüfe eine bereits vorliegende Pflichtteilsauskunft auf entscheidende Abweichungen beim Bestand, bei den Ermittlungen und bei der Bewertung. Hohe Nachlasswerte, umfangreiche Bankbelege und streitige Nachlassschulden begründen den Schwerpunkt. Anders als bei einem ersten Inventar, der allgemeinen Durchsetzung des Auskunftsanspruchs oder einer reinen Pflichtteilsrechnung beginnt die Prüfung mit dem Widerspruch zwischen Verzeichnis und Gegenbeleg. Nicht für Testamentserrichtung oder eine vollständige Erbauseinandersetzung.
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1. Eingaben
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Lies Todesdatum, Erbstatut, Personenstand, Verfügung und Nichterbenstellung, sämtliche Fassungen des privaten oder notariellen Verzeichnisses, Anlagen, notarielle Ermittlungsangaben, Bank- und Depotbestätigungen, Bewertungen, Schuldnachweise und bisherige Aufforderungen oder Titel. Fehlende Familienangaben verhindern nur die endgültige Quote, nicht den Bestandsabgleich. Keine persönlichen Daten in öffentliche Suchanfragen senden.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+## 1.2. Ablauf und Checkliste
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+1. Bestimme Berechtigten, Erben als Auskunftsschuldner und Verzeichnisart. Ein Steuerinventar oder ausländisches Verfahrensdokument ist nicht ohne Prüfung ein notarielles Verzeichnis nach Paragraf 2314 BGB. Bei Titel dessen exakten Umfang lesen.
+2. Weise jeder Position einen stabilen Identifikator zu. Vergleiche Ausgangsverzeichnis, Ergänzung und Gegenbeleg mit Dokumentdatum, maßgeblichem Wertstichtag, Betrag, Rechtsinhaber und Streitstatus. Abweichungen nicht durch Wahl des jeweils jüngsten Belegs verdecken.
+3. Rekonstruiere Bankbestände zum Todestag. Späterer Saldo plus Auszahlungen minus Einzahlungen kann nur bei vollständiger Bewegungsliste einen Stichtagswert ergeben. Depotverkauf und Verkaufserlös nicht zugleich als Aktivvermögen erfassen. Gemeinschaftskonto, Vollmacht und Eigentum auseinanderhalten; Anteil nicht allein aus Kontobezeichnung bestimmen.
+4. Trenne Bestand von Bewertung. Ein verzeichnetes, aber nicht bewertetes Haus löst eine Wertermittlungsfrage aus, nicht automatisch eine Ergänzung des Bestands. Steuerwert und späterer Verkaufspreis sind keine ungeprüften Todestagswerte. Preis, Zustand, Zeitpunkt und Belastungen als Bewertungsbelege prüfen.
+5. Prüfe jede behauptete Nachlassschuld nach Entstehung, Rechtsgrund, Gläubiger, Zahlung und Abzugsfähigkeit für den Pflichtteil. Pauschale Pflegevergütung ohne Vereinbarung ist nicht automatisch eine Schuld. Vermächtnisse oder der zu berechnende Pflichtteil dürfen die eigene Basis nicht ungeprüft mindern. Steuerliche Abzugsregeln nicht übernehmen.
+6. Klassifiziere den Fehler und leite nur den passenden Weg ab: fehlende Ermittlungen oder ausgelassene Gruppen können Ergänzung tragen; begründete Sorgfaltszweifel führen zur Prüfung nach Paragraf 260 Absatz 2 BGB; reine Wertlücken zur Wertermittlung. Notarielle Eigenrecherche anhand konkreter Spuren prüfen. Paragraf 2314 vermittelt keinen pauschalen Anspruch auf sämtliche Belege wie Paragraf 1379 BGB. Beschaffungsweg und Umfang jeder Unterlagenanforderung begründen.
+7. Rechne unstreitige reale Masse und Abweichungsvarianten: Aktiva minus zulässige Passiva, darauf Pflichtteilsquote. Für jede Korrektur finanzielle Wirkung zeigen. Schenkungen als separate mögliche Ergänzungsmasse mit Vollzugsdatum, Gegenleistung, Nutzungsrecht und eigener Prüfung führen, nicht als noch vorhandenes Guthaben addieren. Anrechnung und Ausgleichung bei Hinweisen gesondert prüfen.
+8. Fehlt für die Rückrechnung eine Buchungsliste, fordere den Zeitraum zwischen Todestag und Saldo nach; bei Pflegevergütung die behauptete Vereinbarung und Leistungsgrundlage. Nach Antwort Nachweis und Abzugsfähigkeit prüfen, die Rechnung erneuern und die bestellte Nachforderung oder Erwiderung vollständig überarbeiten. Bei reiner Wertlücke gezielt Wertermittlung klären statt ein neues Verzeichnis zu verlangen.
+9. Bei neuen entscheidenden Lücken kurz weiterfragen; Bekanntes nicht erneut erheben. Bleibt ein Nachweis aus, die tragfähigen Teile und den konkret offenen Schluss liefern. Nach Klärung bis zum bestellten Ergebnis fortsetzen. Nachgereichte Angaben nicht ungeprüft als Tatsachen oder vollständige Erfüllung behandeln.
+10. Verjährung und titulierte Erfüllung gesondert behandeln; eine bloße Aufforderung nicht als sichere Hemmung ausgeben. Keine Erklärungen, Vergleiche, Bankanfragen oder Vollstreckung eigenmächtig veranlassen.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.3. Quellenpflicht
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Optional ergänzt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/references/zitierweise.md) die Quellenarbeit. Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle zitieren; Dokumentbefund und Schlussfolgerung trennen. Prüfstand 14.09.2026; vor Verwendung aktualisieren.
 
-## Arbeitsweg
+- BGB [Paragraf 2314](https://www.gesetze-im-internet.de/bgb/__2314.html), [Paragraf 2311](https://www.gesetze-im-internet.de/bgb/__2311.html), [Paragraf 260](https://www.gesetze-im-internet.de/bgb/__260.html) und [Paragraf 2303](https://www.gesetze-im-internet.de/bgb/__2303.html): Auskunft, Todestagsbewertung, Sorgfaltsprüfung und Quote.
+- BGH, Urteil vom 20.05.2020, Az. IV ZR 193/19, [amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2019/IV_ZR_193-19.pdf?__blob=publicationFile&v=1), Randnummern 8 bis 11: eigenständige notarielle Ermittlungen, Mitwirkung des Erben und Ergänzung bei verweigerter Mitwirkung. Nicht jede inhaltliche Beanstandung rechtfertigt ein neues Verzeichnis.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 1.4. Ausgabeformat
 
-**Fokus:** Erbrechtsmandat schnell einordnen und Sofortmassnahmen bestimmen. §§ 1922 1944 2303 BGB §§ 342 ff. FamFG. Prüfraster: Erbfolge Testament Ausschlagungsfrist Pflichtteil Nachlassinsolvenz. Output: Triage-Memo Sofortmassnahmen Fristen-Ampel. Abgrenzung: Triage; Detailarbeit in Spezialist-Skills.
+Verwende den gewünschten Dateinamen; nur ohne Dateivorgabe gilt `ergebnis.md`. Das Ergebnis enthält den nachvollziehbaren Abgleich mit Euro-Auswirkung, die belegte Ausgangs- und erforderliche Variantenrechnung sowie die beauftragte Nachforderung oder Erwiderung. Bei einem reinen Berechnungsauftrag keinen zusätzlichen Brief erstellen.
 
-### Mandat-Triage Erbrecht
+Bei Titel dessen Umfang und Erfüllung begründet würdigen, keinen automatischen Vollstreckungsantrag liefern. Quellenstatus und Recherchegrenzen in einer getrennten Arbeitsnotiz führen, nicht im Brieftext.
 
-## Fachlicher Kern — Erbrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mandat-Triage Erbrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 1922 ff., 1937, 1942 ff., 1953, 1967, 2032 ff., 2042, 2050 ff., 2078, 2084, 2203 ff., 2303 ff., 2314, 2325, 2333; FamFG §§ 343 ff.; EuErbVO.
-- **Verifizierte Anker:** BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteil, Entstehung und Verjährung bei postmortaler Vaterschaftsfeststellung); BGH, Beschluss vom 15.01.2025 - IV ZR 166/24 (Auskunftspflichten bei Pflichtteil/Testamentsvollstreckung); Rechtsprechung zu notariellen Nachlassverzeichnissen nur mit Aktenzeichen/Quelle ausgeben.
-- **Arbeitsmodus:** Erst Erbfolge, Ausschlagung, Nachlassbestand, Haftung und Fristen sichern; dann Pflichtteil, Auskunft/Wertermittlung, Testamentsauslegung, Erbengemeinschaft und internationale Anknüpfung trennen.
-- **Outputpflicht:** Nachlassmatrix, Pflichtteils-/Ergänzungstabelle, Auskunftsverlangen, Erbscheinsantrag, Teilungsplan oder Klagebaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+Ausformulierungspflicht: vollständige Sätze, keine Skelette. Formatstandard: Times New Roman 11 pt und dezimale Gliederung mit Leerzeilen; bei Markdown Exporthinweis. Nur tatsächlich erzeugte Dateien verlinken.
 
-## Aktuelle Rechtsprechung (Triage-Orientierung, Stand 05/2026)
+## 1.5. Beispiele
 
-Verifizierte Eckpfeiler — Live-Verifikation vor Verwendung in Schriftsätzen zwingend:
+Das Verzeichnis verwendet den Kontosaldo einen Monat nach dem Tod und zieht eine unbelegte Pflegeforderung ab. Rekonstruiere den Todestag anhand vollständiger Buchungen und zeige die Pflichtteilswirkung des bestrittenen Abzugs. Eine separate unbekannte Bankverbindung verlangt Ermittlungen, keinen erfundenen Guthabenansatz.
 
-- BGH 12.03.2025 - IV ZR 88/24 (Pflichtteilsanspruch nichteheliches Kind; § 2317 Abs. 1 BGB maßgebend trotz Ausübungssperre)
-- BGH 02.07.2025 - IV ZR 93/24 (Zuwendung an behandelnden Arzt; Berufsordnung kein § 134 BGB-Verbot; Testierfreiheit; § 138 BGB Einzelfallprüfung)
+## 1.6. Technische Grenzen
 
-Anhängig: BVerfG 1 BvR 804/22 zur Verfassungsmäßigkeit der erbschaftsteuerlichen Begünstigung von Betriebsvermögen (Stand 05/2026 nicht entschieden).
-
-Weitere Rechtsprechung nicht aus Modellwissen zitieren; vor Ausgabe über bundesgerichtshof.de, bundesverfassungsgericht.de, dejure.org oder openjur.de verifizieren.
-
-## Ablauf — sieben Fragen
-
-### Frage 1 — Vorsorge oder Abwicklung?
-
-- Vorsorge (Erblasser lebt — Testament Erbvertrag Vorsorgevollmacht)
-- Abwicklung (Erblasser verstorben — Erbschein Pflichtteil Auseinandersetzung)
-- Streit über Lebzeit-Schenkungen
-
-### Frage 2 — Mandantenrolle?
-
-- Erblasser (vor Tod)
-- Erbe (Alleinerbe Miterbe)
-- Pflichtteilsberechtigter (enterbt oder zu wenig erhalten)
-- Vermächtnisnehmer
-- Testamentsvollstrecker
-- Erblasser-Gläubiger
-- Nachlassgläubiger
-- Finanzamt (selten — vertretbar nur unter strikter Trennung)
-
-### Frage 3 — Akute Eilbedürftigkeit?
-
-- **Ausschlagungsfrist** läuft (sechs Wochen ab Kenntnis § 1944 BGB; sechs Monate bei Auslandsbezug oder Erblasser-Wohnsitz Ausland)
-- **Erbenhaftung droht** — überschuldeter Nachlass
-- **Vorrätige Nachlassgegenstände** akut zu sichern
-- **Beerdigung organisatorisch** offen
-- **Erbschaftsteuer-Anzeige** drei Monate § 30 ErbStG
-- **Räumung Wohnung** Mietvertrag Erblasser
-- **Patientenverfügung Vorsorge** akut benötigt — meist `betreuungsrecht`-Plugin
-
-### Frage 4 — Vorgang konkret?
-
-- Erbschein-Antrag
-- Testamentseröffnung
-- Testamentsanfechtung
-- Erbauseinandersetzung (Teilungsversteigerung)
-- Pflichtteils-Anspruch
-- Vermächtnis-Anspruch
-- Auflagen-Erfüllung
-- Erbschaftsausschlagung
-- Nachlassinsolvenz
-- Erbschaftsteuer
-- Testamentsvollstreckung
-
-### Frage 5 — Verfügungen?
-
-- Testament öffentlich oder eigenhändig
-- Berliner Testament
-- Erbvertrag notariell
-- Patientenverfügung Vorsorgevollmacht
-- Schenkungsversprechen Schenkungsverträge
-- Lebensversicherung mit Bezugsberechtigung
-
-### Frage 6 — Familienverhältnisse?
-
-- Ehegatte / eingetragener Lebenspartner — Güterstand!
-- Abkömmlinge (eheliche nichteheliche adoptiert)
-- Eltern — sofern keine Abkömmlinge
-- Geschwister Verwandte zweite Ordnung
-- Patchwork-Konstellation
-
-### Frage 7 — Wirtschaftliche Verhältnisse?
-
-- Nachlasswert geschätzt
-- Schulden
-- Schenkungen letzte zehn Jahre
-- Pflichtteils-Verzichts-Verträge
-- Erbschaftsteuer-Belastung
-- Mandanten-Vermögen (PKH-Bedürftigkeit)
-
-## Routing-Matrix
-
-| Vorgang | Folge-Skill |
-|---|---|
-| Pflichtteil | `pflichtteil-berechnen` |
-| Vorsorge Testament-Vertragsentwurf | (Skill testament-erbvertrag-entwurf — perspektivisch) |
-| Erbschein-Antrag | (Skill erbschein-antrag — perspektivisch) |
-| Testamentsanfechtung | (Skill testamentsanfechtung — perspektivisch) |
-| Erbauseinandersetzung | (Skill erbauseinandersetzung — perspektivisch) |
-| Ausschlagung überschuldet | (Skill ausschlagung-nachlassinsolvenz — perspektivisch) |
-| Erbschaftsteuer | weiter an `anw-mandat-triage-steuerrecht` ErbSt-Spezifikum |
-| Testamentsvollstreckung | (Skill testamentsvollstreckung — perspektivisch) |
-
-## Mandatsannahme
-
-- **Konflikt-Check** — keine doppelte Vertretung Miterben gegeneinander
-- **Streitwert** Nachlasswert oder Pflichtteils-Forderungs-Höhe
-- **Komplexität** Auslandsbezug Unternehmensbeteiligung Stiftungs-Errichtung
-
-## Sofort-Fristen
-
-- **Ausschlagung** sechs Wochen § 1944 BGB
-- **Pflichtteils-Verjährung** drei Jahre § 2332 BGB
-- **Erbschaftsteuer-Anzeige** drei Monate § 30 ErbStG
-- **Erbschaftsteuer-Erklärung** mind. ein Monat nach Aufforderung
-- **Anfechtung Testament** ein Jahr ab Kenntnis § 2082 BGB
-
-## Eskalation
-
-- **Telefon-Sofort** Ausschlagungsfrist läuft heute / morgen — überschuldeter Nachlass
-- **Binnen einer Stunde** Erbenhaftung droht
-- **Heute** Auskunftsschreiben § 2314 BGB Erbschein-Antrag-Vorbereitung
-- **Diese Woche** Pflichtteils-Stufenklage Testamentsentwurf
-
-## Ausgabe
-
-- `triage-protokoll-erbrecht.md`
-- Aktenanlage
-- Frist im Fristenbuch (Ausschlagung Pflichtteils-Verjährung Erbschaftsteuer)
-- Mandatsvereinbarung mit Honorarvereinbarung
-- Empfehlung Folge-Skill
-- Hinweis Sachverständigen-Bewertung Immobilie Unternehmen wenn relevant
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Quellen
-
-- BGB §§ 1922 ff. 1944 2303 ff. 2332 § 2082
-- ErbStG § 30
-- BGH IV. Zivilsenat
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Burandt/Rojahn Erbrecht
+Nur zugängliche Unterlagen und Werkzeuge verwenden; fehlende Seiten oder Buchungszeiträume genau benennen. Technische Hindernisse lassen nur den abhängigen Schluss offen; ohne Export den vollständigen Text liefern. Keine nicht erfolgte Quellenprüfung oder Dateierzeugung behaupten.
 
 ---
 
-## Skill: `fachanwalt-erbrecht-orientierung`
+## Skill: `unternehmensnachfolge-gestalten`
 
-_Wenn es um Fachanwalt für Erbrecht — Orientierung in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Stimmt Testament und Gesellschaftsvertrag für eine Unternehmensnachfolge ab, prüft Nachfolgeklauseln, Pflichtteilslast und Verschonungsrisiken und erstellt einen abgestimmten Gestaltungs- und Vollzugsplan._
 
-# Fachanwalt für Erbrecht — Orientierung
+# Unternehmensnachfolge mit Erbrecht abstimmen
 
-## Aktuelle Rechtsprechung (Orientierung Erbrecht, Stand 05/2026)
+## 1. Zweck und Anwendungsfall
 
-Verifizierte Eckpfeiler — Live-Verifikation vor Verwendung in Schriftsätzen zwingend:
+Für Unternehmensvermögen, Gesellschaftsanteile oder eine Stiftungsoption. Gesellschaftsvertragliche Nachfolge kann nicht durch testamentarische Gegenstandszuweisung ersetzt werden.
 
-- BGH, Urteil vom 12.03.2025 - IV ZR 88/24: Pflichtteilsanspruch nichteheliches Kind; § 2317 Abs. 1 BGB maßgebend trotz Ausübungssperre § 1600d Abs. 5 BGB.
-- BGH, Urteil vom 02.07.2025 - IV ZR 93/24: Zuwendung von Todes wegen an behandelnden Arzt nicht wegen Verstoß gegen ärztliche Berufsordnung unwirksam; Testierfreiheit (Art. 14 GG) überwiegt; § 138 BGB bleibt Einzelfallprüfung.
+## 2. Eingaben
 
-Anhängig zur Verfassungsmäßigkeit der erbschaftsteuerlichen Verschonung von Betriebsvermögen: BVerfG 1 BvR 804/22 (Stand 05/2026 noch nicht entschieden); Beobachtung empfohlen.
+Gesellschaftsverträge und Register, Rechtsform, Beteiligungen, Nachfolgeklauseln, Familien- und Pflichtteilsdaten, Bewertung, Liquidität, Führung, Vollmachten und Steuerdaten.
 
-Weitere Rechtsprechung nicht aus Modellwissen zitieren; vor Ausgabe über bundesgerichtshof.de, dejure.org oder openjur.de verifizieren.
+## 3. Ablauf und Checkliste
 
-## Quellenregel
+1. Rechtsform und Übergang der Beteiligung prüfen. Fortsetzungs-, Eintritts- und Nachfolgeklauseln, Abfindung und qualifizierte Nachfolge unterscheiden.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## FAO-Voraussetzungen
+2. Verfügungen, Güterrecht und Gesellschaftsvertrag auf denselben Nachfolger und Ersatzfall abstimmen. Kontrollrechte und laufende Geschäftsführung sichern.
 
-- Lehrgang 120 Stunden + drei Klausuren.
-- 80 Fälle in den letzten drei Jahren, davon mindestens 60 erbrechtliche Fälle einschließlich 20 streitiger Verfahren.
+3. Pflichtteils- und Abfindungsbelastung einschließlich Liquidität, Verzicht, Raten, Sicherheiten und Testamentsvollstreckung rechnen.
 
-## Wichtige Normen
+4. Familiengesellschaft und Stiftung als echte Varianten mit Kontrolle, Vermögensbindung, Governance und Kosten prüfen; keine pauschale Steuerersparnis versprechen.
 
-| Bereich | Norm |
-|---|---|
-| Erbrecht BGB | §§ 1922 ff. BGB (Erbfolge) §§ 2064 ff. (Testament) §§ 2274 ff. (Erbvertrag) §§ 2303 ff. (Pflichtteil) §§ 2147 ff. (Vermächtnis) §§ 2032 ff. (Erbengemeinschaft Auseinandersetzung) |
-| Nachlassverfahren | FamFG §§ 342 ff. (Nachlassgericht beim AG) |
-| Erbschaftsteuer | ErbStG Bewertungsgesetz |
-| Internationales Erbrecht | EU-ErbVO (Verordnung EU Nr. 650/2012) Europaeisches Nachlasszeugnis |
-| Pflichtteilsentziehung | §§ 2333 ff. BGB |
+5. Begünstigtes Vermögen, Verwaltungsvermögen, Lohnsumme, Behaltensfristen und Nachversteuerung gesondert mit Steuerberatung klären. Rechtslage nicht aus einer angekündigten Verfassungsentscheidung vorwegnehmen.
 
-## Typische Mandate
+### 3.1. Referenzen gezielt laden
 
-- Testamentsentwurf und Erbvertragsentwurf
-- Erbscheinantrag und -anfechtung
-- Pflichtteilsstreit (Auskunfts- und Wertfeststellungsklage Stufenklage § 254 ZPO)
-- Erbauseinandersetzung
-- Testamentsanfechtung (§ 2078 BGB)
-- Schenkung und Pflichtteilsergänzungsanspruch (§ 2325 BGB)
-- Erbschaftsteuer-Bescheid (siehe steuerrecht-anwalt-und-berater)
-- Internationale Erbfälle und EU-ErbVO
+Bei jeder Gestaltung [Nachfolgeklauseln und Vollzug](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/unternehmensnachfolge-gestalten/references/nachfolge-vollzug.md) laden; Steuervarianten nur bei Bedarf aus [Erbschaftsteuerplanung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/erbschaftsteuer-planen-erklaeren/references/steuerplanung.md) ergänzen.
 
-## Fristen
+## 4. Quellenpflicht
 
-- **Erbschaftsannahme oder -ausschlagung** § 1944 BGB — sechs Wochen ab Kenntnis vom Erbfall und Berufungsgrund; bei Auslandsaufenthalt sechs Monate.
-- **Anfechtung Erbschaftsannahme/-ausschlagung** § 1954 BGB — sechs Wochen.
-- **Pflichtteilsanspruch** Verjährung drei Jahre ab Kenntnis (§ 2332 BGB iVm § 195 BGB).
-- **Anfechtung Testament** § 2082 BGB — ein Jahr ab Kenntnis.
-- **Schenkungsfrist Pflichtteilsergänzung** § 2325 BGB — zehn Jahre (mit Abschmelzungsmodell).
+Erbrechtliche Verfügung und Gesellschaftsvertrag mit jeweils einschlägigem BGB-, HGB- oder GmbHG-Recht; ErbStG Paragrafen 13a, 13b, 13c, 19a und 28a nach Fall.
 
-## Hauptgerichte
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
 
-- Nachlassgericht beim Amtsgericht (§ 342 FamFG).
-- Beschwerdegericht: Landgericht / OLG.
-- BGH IV. Zivilsenat für Erbsachen.
-- Finanzgericht bei Erbschaftsteuer.
+## 5. Ausgabeformat
 
-## Quellenregel
+Abgestimmter Vertrags- und Verfügungsentwurf, Nachfolger- und Ersatzfallmatrix, Liquiditäts- und Steuerprüfung sowie zeitlich geordneter Vollzugsplan.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Berufsverband
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
 
-- ARGE Erbrecht DAV.
-- Deutsche Vereinigung für Erbrecht und Vermögensnachfolge DVEV.
+## 6. Beispiele
 
-## Schnittstellen
-
-- **kanzlei-allgemein** Fristen Versand.
-- **steuerrecht-anwalt-und-berater** bei Erbschaftsteuer.
-- **gesellschaftsrecht** bei Unternehmensnachfolge.
+Die testamentarisch vorgesehene Tochter erfüllt eine qualifizierte Nachfolgeklausel nicht. Erst die Abstimmung beider Urkunden ergibt eine umsetzbare Gestaltung.
 
 ---
 
-## Skill: `erstgespraech-mandatsannahme`
+## Skill: `erbschaft-ausschlagen-anfechten`
 
-_Wenn es um Erstgespraech im Erbrechtmandat strukturieren und Sachverhalt vollständig aufnehmen in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Vergleicht Annahme und Ausschlagung, berechnet Kenntnisfristen und bereitet die formgerechte Erklärung samt Nachrückern und Genehmigungen vor; prüft auch die Anfechtung bereits eingetretener Annahme._
 
-# Erstgespraech im Erbrechtmandat strukturieren und Sachverhalt vollständig aufnehmen
+# Erbschaft ausschlagen oder Annahme anfechten
 
+## 1. Zweck und Anwendungsfall
 
-## Arbeitsweg
+Wirtschaftliche Entscheidung und Vollzug in einem Auftrag bearbeiten. Bei bereits getroffener Entscheidung direkt Frist, Annahmesperre und Form sichern, ohne erneute Beratungskette.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 2. Eingaben
 
-**Fokus:** Erstgespraech im Erbrechtmandat strukturieren und Sachverhalt vollständig aufnehmen. §§ 1922 ff. BGB Erbfolge § 43a BRAO. Prüfraster: Erblasser Testament gesetzliche Erben Pflichtteilsberechtigte Nachlassbestand Fristen. Output: Mandat-Steckbrief Sachverhaltsprotokoll fehlende Unterlagen. Abgrenzung: Einstiegs-Skill; inhaltliche Arbeit in Spezialist-Skills.
+Erbfall, Berufungsgrund, Kenntnisdaten, gerichtliche Bekanntgabe, Aufenthaltsdaten, Annahmehandlungen, Aktiva und Schulden, Vollmachten, Nachrücker und Minderjährige.
 
-### Erstgespraech und Mandatsannahme im Erb- und Pflichtteilsrecht
+## 3. Ablauf und Checkliste
 
-## Fachlicher Kern — Erbrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Erstgespraech und Mandatsannahme im Erb- und Pflichtteilsrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 1922 ff., 1937, 1942 ff., 1953, 1967, 2032 ff., 2042, 2050 ff., 2078, 2084, 2203 ff., 2303 ff., 2314, 2325, 2333; FamFG §§ 343 ff.; EuErbVO.
-- **Verifizierte Anker:** BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteil, Entstehung und Verjährung bei postmortaler Vaterschaftsfeststellung); BGH, Beschluss vom 15.01.2025 - IV ZR 166/24 (Auskunftspflichten bei Pflichtteil/Testamentsvollstreckung); Rechtsprechung zu notariellen Nachlassverzeichnissen nur mit Aktenzeichen/Quelle ausgeben.
-- **Arbeitsmodus:** Erst Erbfolge, Ausschlagung, Nachlassbestand, Haftung und Fristen sichern; dann Pflichtteil, Auskunft/Wertermittlung, Testamentsauslegung, Erbengemeinschaft und internationale Anknüpfung trennen.
-- **Outputpflicht:** Nachlassmatrix, Pflichtteils-/Ergänzungstabelle, Auskunftsverlangen, Erbscheinsantrag, Teilungsplan oder Klagebaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+1. Kenntnis von Anfall und Berufungsgrund getrennt belegen. Sechs Wochen nach BGB Paragraf 1944; sechs Monate nur bei letztem Wohnsitz des Erblassers ausschließlich im Ausland oder Aufenthalt des Erben im Ausland bei Fristbeginn.
 
-## Fachkern: Erstgespraech und Mandatsannahme im Erb- und Pflichtteilsrecht
+2. Annahme nach BGB Paragraf 1943 anhand konkreter Handlungen prüfen. Sicherung oder Fürsorge nicht pauschal als Annahme werten.
 
-- **Spezialfrage (Erstgespraech und Mandatsannahme im Erb- und Pflichtteilsrecht):** Erblasser Testament gesetzliche Erben Pflichtteilsberechtigte Nachlassbestand Fristen. Output: Mandat-Steckbrief Sachverhaltsprotokoll fehlende Unterlagen. Abgrenzung: Einstiegs-Skill; inhaltliche Arbeit in Spezialist-Skills.
-- **Arbeitsweise:** Erst Sachverhalt, Norm, Frist, Zuständigkeit und Beweis klären; Rechtsprechung nur verifiziert als tragenden Beleg einsetzen.
+3. Nettonachlass und offene Risiken gegen Haftungsalternativen stellen. Pflichtteil nach Ausschlagung nur über tragfähige Sondernorm, insbesondere BGB Paragrafen 2306, 2307 oder 1371 Absatz 3.
 
-## Aktuelle Rechtsprechung (Erbrecht Erstgespräch)
+4. Form, zuständiges Gericht, öffentlich beglaubigte Vollmacht und rechtzeitigen Zugang planen. Bei Minderjährigen Vertretung und Genehmigung pro Person klären.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+5. Bei Anfechtung konkrete Fehlvorstellung, Kausalität, Beweise, Kenntnis und Frist nach BGB Paragrafen 1954 bis 1956 prüfen. Gewünschte Nachrücker nicht versprechen.
 
-## Wann dieser Arbeitsgang greift
+### 3.1. Referenzen gezielt laden
 
-- Neue Anfrage aus dem Bereich Erb- und Pflichtteilsrecht (Telefon, Mail, Empfehlung, Walk-in).
-- Mandantin oder Mandant beschreibt Sachverhalt unstrukturiert; viele Anlagen ohne System.
-- Vor jeder weiteren fachlichen Bearbeitung: erst Annahme klären, Konflikt- und GwG-Prüfung, Vollmacht, Streitwert/Vereinbarung, Fristen.
+Für Entscheidung, Nachrücker oder Minderjährige [Entscheidung und Vertretung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/erbschaft-ausschlagen-anfechten/references/entscheidung-vertretung.md) laden. Für Erklärung oder Anfechtung [Vollzug und Anfechtung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/erbschaft-ausschlagen-anfechten/references/vollzug-anfechtung.md) lesen.
 
-## Phasen des Erstgespraechs
+## 4. Quellenpflicht
 
-### 1. Aufnahme der Konstellation (10-15 Min.)
+BGB Paragrafen 1942 bis 1957, 1643, 1851; FamFG Paragrafen 343 und 344 Absatz 7. Tagesgenaue Berechnung nach BGB Paragrafen 187 bis 193.
 
-Standard-Fragenraster für Erb- und Pflichtteilsrecht:
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
 
-- Beteiligte (Vor-/Nachname, Geburtsdatum, Anschrift, Rolle: Klägerin/Beklagter, Antragsteller, Beschuldigter)
-- Konflikt-Kern in einem Satz ("Was ist Ihr Ziel?")
-- Konkrete fachliche Stossrichtung: Testament, Erbschein, Pflichtteil, Erbauseinandersetzung, Vermaechtnis, ErbStG
-- Bisherige Korrespondenz (Bescheide, Schreiben der Gegenseite, anwaltliche Vertretung der Gegenseite?)
-- **Fristenscreening sofort:** anstehende Klage-/Widerspruchs-/Einspruchsfristen aus den vorgelegten Schreiben (z.B. Pflichtteilsklage, Erbschein-Antrag/Beschwerde, Erbenfeststellungsklage). Frist-Alarm an die Vorbereitung weitergeben.
+## 5. Ausgabeformat
 
-### 2. Konflikt-Prüfung und GwG-Check (5 Min.)
+Fristenvermerk, Entscheidungsvergleich, vollständiger Erklärungsentwurf mit Formwarnung, Termin- und Zugangsliste sowie Erbfolgebild vor und nach der Erklärung. Ein anwaltlicher Text allein wahrt BGB Paragraf 1945 nicht.
 
-- Konflikt-Check über Mandantsystem: Gegnerin, Streitgegenstand, frueherer Mandant?
-- GwG-Identifizierung: amtlicher Lichtbildausweis (Ausweisscan), bei juristischer Person Handelsregister-/Transparenzregister-Auszug, ggf. wirtschaftlich Berechtigte/n.
-- Risikobewertung (niedrig/mittel/hoch) abhaengig von Mandatscharakter, Bargeld, Auslandsbezug.
-- Doku im Mandatsbogen (Pflicht nach §§ 10 ff. GwG i.V.m. § 2 Abs. 1 Nr. 10 GwG für RA-Mandate).
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
 
-### 3. Vollmacht und Schweigepflichtentbindung
+## 6. Beispiele
 
-- Allgemeine Prozess-/Aussenvollmacht (BORA, ZPO, FamFG, je nach Fachgebiet).
-- Spezielle Vollmachten: ggf. Akteneinsicht Strafakte, KV-Abrechnungsdaten, Sozialdaten (Schweigepflichtentbindung gegenueber Krankenkasse, Arzt, Behörde).
-- Bei Eheleuten/GbR/GmbH: einzelvollmachtgebende Person und Vertretungsmacht klären.
-
-### 4. Streitwert und Gebührenvereinbarung
-
-Standard-Streitwerte im Bereich Erb- und Pflichtteilsrecht:
-
-- Skizze: Streitwert grob abschaetzen (z.B. Hauptforderung, ggf. + Zinsen, Nebenforderungen).
-- RVG-Pauschalrechnung (Berechnungstool im Plugin) oder Stundenhonorarvereinbarung.
-- Beratungshilfe-/Prozesskostenhilfe-Antrag prüfen, wenn wirtschaftlich angezeigt.
-- Vorschussanforderung nach § 9 RVG.
-
-### 5. Strategie-Erstskizze
-
-Drei Weichen am Ende des Erstgespraechs:
-
-- **Mandat annehmen:** vollstaendig (Prüfung + Schriftsatz) oder begrenzt (nur Prüfung/Gutachten).
-- **Verweisen:** wenn Spezialgebiet ausserhalb der Fachanwaltschaft, oertlich unzuständig oder Konflikt.
-- **Ablehnen:** offensichtlich aussichtslos, GwG-Hit, Bauchgefuehl-Vorsicht.
-
-## Pflicht-Output am Ende
-
-1. **Mandatsbogen** mit Beteiligten, Konflikt-Check, GwG-Status, Streitwert.
-2. **Frist-Liste** (Sofortfristen, Verjährung, Ausschlussfristen, Beweisanforderungs-Fristen).
-3. **Anlagenverzeichnis** des uebergebenen Datenraums (Stand erstes Sortieren).
-4. **Naechster-Schritt-Plan:** binnen 24/48/72 h, Owner, Output.
-5. **Honorarvereinbarung** unterschrieben oder Vorbehalt notiert.
-
-## Relevante Rechtsgrundlagen und Standards
-
-- BORA, BRAO, FAO für Fachanwaltschaft Erb- und Pflichtteilsrecht.
-- GwG, GwGMeldV, Identifizierungsleitfaden BRAK.
-- §§ 1922 ff. BGB, FamFG, ErbStG, BeurkG (für fachliche Erstpruefung).
-- DSGVO und BDSG für den Umgang mit Mandantendaten (Art. 6 DSGVO als Rechtsgrundlage, Art. 9 ggf. Gesundheitsdaten).
-
-## Typische Fehler im Erstgespraech
-
-- Frist uebersehen, weil Mandantin sie nicht selber genannt hat (immer aus jedem Schreiben Frist herausziehen).
-- Konflikt-Check nur nach Personennamen, nicht nach Sachzusammenhang (gleiche Liegenschaft, gleicher Sachverhalt).
-- Vollmachtsumfang unklar -> später Streit mit Mandantin über Befugnisse.
-- Honorarvereinbarung muendlich -> Beweisnot bei Streitwert-/Honorar-Streit.
-- GwG: kein Lichtbildausweis erfasst, kein Aktenvermerk über Risikobewertung.
-
-## Praxis-Checkliste
-
-- [ ] Personalien und Rolle aller Beteiligten erfasst
-- [ ] Konflikt-Check durchgefuehrt
-- [ ] GwG: Identifizierung + Risikobewertung notiert
-- [ ] Allgemeine Vollmacht unterschrieben
-- [ ] Speziale Vollmacht / Entbindungserklaerung (wo noetig) unterschrieben
-- [ ] Streitwert geschaetzt
-- [ ] Honorarvereinbarung unterschrieben oder ausdruecklich auf RVG verwiesen
-- [ ] Fristenliste angelegt und in Kalender eingetragen
-- [ ] Mandatsbogen vollstaendig
-- [ ] Naechster-Schritt-Plan dem Mandanten kommuniziert (E-Mail-Zusammenfassung)
-
-## Konkrete Praxis-Konstellationen
-
-### Konstellation A: Eilbeduerftigkeit
-
-Mandantin kommt am Donnerstag, Frist laeuft am Montag (Klage- oder Widerspruchsfrist im Bereich Erb- und Pflichtteilsrecht). Handlungs-Sequenz:
-
-1. Sofort-Vollmacht und Sofort-Akteneinsicht (per beA, ELSTER, Behördenportal).
-2. Antrag auf Wiedereinsetzung (§ 233 ZPO, § 60 VwGO, § 110 AO) als Reserve dokumentieren.
-3. Spaeteste-Stunde-Versand-Plan: beA bevorzugt, mit qualifizierter Signatur und Empfangsbekenntnis.
-4. Honorarvereinbarung NICHT auf Eilzuschlag verzichten - aber transparent kommunizieren.
-
-### Konstellation B: Komplexer Sachverhalt, Datenraum unsortiert
-
-Mandant uebergibt 200+ Dateien (PDF-Scans, E-Mails, Excel-Listen). Vor jeder fachlichen Bewertung:
-
-1. Datenraum-Index in Excel: Datum, Absender, Empfaenger, Aktenzeichen, kurze Inhaltszeile.
-2. Chronologischer Verlauf als Zeitstrahl - Spielraum für Verjährungs- und Ausschlussfristen identifizieren.
-3. Loecher im Datenraum gezielt anfordern (Mandantenfragen-Katalog).
-
-### Konstellation C: Interessenkonflikt-Naehe
-
-Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung:
-
-1. § 43a Abs. 4 BRAO und § 3 BORA - Sachzusammenhang, nicht nur Personenidentitaet.
-2. Einwilligung beider Mandanten in Textform (mit konkreter Beschreibung).
-3. Bei Zweifel: Mandat ablehnen und an Kanzleikollegium ueberweisen.
-
-## Mandanten-Erwartungsmanagement
-
-- Realistische Erfolgs- und Kostenprognose (nicht "Wir gewinnen sicher").
-- Verfahrensdauer im Bereich Erb- und Pflichtteilsrecht: Erfahrungswerte nach Instanz.
-- Vergleichschance vs. streitiges Urteil als Option offen halten.
-- Schriftliche Zusammenfassung des Erstgespraechs binnen 48 h.
-
-## Honorarvereinbarung - Best Practices
-
-- RVG-Basis als Default, Stundenhonorar nur mit gesondertem Hinweis nach § 3a RVG.
-- Erfolgshonorar nur in den engen Grenzen § 4a RVG.
-- Vorschuss in Höhe der voraussichtlichen 1. Instanz.
-- Klarstellung: Auslagen-Pauschale, USt, Reisekosten, Sachverstaendigenkosten gesondert.
-- Bei PKH/Beratungshilfe-Mandant: schriftliche Belehrung, dass eigene Beitraege möglich sind.
-
-## Mandatsbogen-Muster (Mindestinhalt)
-
-- Mandant (Name, Geburtsdatum, Anschrift, Telefon, E-Mail)
-- Gegner (Name, Anschrift, ggf. anwaltliche Vertretung)
-- Kurzbeschreibung Sachverhalt (5-10 Saetze)
-- Ziel des Mandats (eine Zeile)
-- Strittige Fragen (bullet)
-- Geprueft: Konflikt - GwG - Vollmacht
-- Streitwert (Schaetzung)
-- Honorarvereinbarung (RVG/Stunde/Pauschale)
-- Frist-Liste
-- Aktenanlage Datum
-- Naechster-Schritt
-
-## Cross-Refs
-
-- `vergleichsverhandlung-strategie` (im selben Plugin) für den Fall, dass aussergerichtliche Loesung angestrebt wird.
-- `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
-- Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
-
----
-
-## Skill: `erstpruefung-und-mandatsziel`
-
-_Wenn es um Erstpruefung Und Mandatsziel in Fachanwalt Erbrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel im Erbrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/EuErbVO), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel im Erbrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/EuErbVO), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
-
-### Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
-
-## Fachlicher Kern — Erbrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 1922 ff., 1937, 1942 ff., 1953, 1967, 2032 ff., 2042, 2050 ff., 2078, 2084, 2203 ff., 2303 ff., 2314, 2325, 2333; FamFG §§ 343 ff.; EuErbVO.
-- **Verifizierte Anker:** BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteil, Entstehung und Verjährung bei postmortaler Vaterschaftsfeststellung); BGH, Beschluss vom 15.01.2025 - IV ZR 166/24 (Auskunftspflichten bei Pflichtteil/Testamentsvollstreckung); Rechtsprechung zu notariellen Nachlassverzeichnissen nur mit Aktenzeichen/Quelle ausgeben.
-- **Arbeitsmodus:** Erst Erbfolge, Ausschlagung, Nachlassbestand, Haftung und Fristen sichern; dann Pflichtteil, Auskunft/Wertermittlung, Testamentsauslegung, Erbengemeinschaft und internationale Anknüpfung trennen.
-- **Outputpflicht:** Nachlassmatrix, Pflichtteils-/Ergänzungstabelle, Auskunftsverlangen, Erbscheinsantrag, Teilungsplan oder Klagebaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Spezialwissen: Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
-- **Normen-/Quellenanker:** BGB, EU, ErbVO.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Fachanwalt** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
----
-
-## Skill: `fachanwalt-erbrecht-erbschaftsausschlagung`
-
-_Wenn es um Erbschaftsausschlagung in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fachanwalt Erbrecht Erbschaftsausschlagung; Arbeitsfeld: Fachanwalt Erbrecht._
-
-# Erbschaftsausschlagung
-
-## Zweck
-
-Beratung bei Frage "Erbe annehmen oder ausschlagen" — Frist, Form, Strategien.
-
-## 1) Eingangs-Abfrage
-
-1. Erbfall-Datum und Kenntnis vom Erbfall?
-2. Erbe gesetzlich oder testamentarisch?
-3. Auslandsbezug Erblasser/Erbe?
-4. Bekannte Nachlasswerte (Brutto)?
-5. Bekannte Erbschulden?
-6. Vorerbschaft / Nacherbschaft?
-7. Pflichtteilsberechtigung anderer?
-
-## 2) Frist § 1944 BGB
-
-| Konstellation | Frist |
-|---|---|
-| Inland | **6 Wochen** nach Kenntnis von Erbfall und Berufungs-Grund |
-| Auslands-Wohnsitz Erblasser oder Erbe | **6 Monate** |
-| Nicht bekannt Erbfall | Frist beginnt mit Kenntnis |
-
-### Versäumnis
-
-- Frist abgelaufen ohne Ausschlagung = **Erbe angenommen**
-- Anfechtung Annahme über § 1954 BGB schwer (Irrtum)
-
-## 3) Form § 1945 BGB
-
-- **Notarielle Beurkundung** oder
-- **Erklärung gegenüber Nachlassgericht** (Amtsgericht Erblassers letzter Wohnsitz)
-- Beide Wege gleichwertig
-
-### Kosten
-
-- Notar nach GNotKG (typisch 60-200 EUR)
-- Nachlassgericht ohne Gebuehr (nur Aktendurchsicht)
-
-## 4) Folgen der Ausschlagung
-
-### Rueckwirkung § 1953 BGB
-
-- Erbe gilt als nie eingetreten
-- Nächste Erbordnung tritt ein
-- Bei Kind ausschlägt: Enkelkind kann erben (Repraesentations-Prinzip)
-
-### Pflichtteils-Anspruch
-
-- Bei testamentarischer Erbeinsetzung und Ausschlagung: Pflichtteil bleibt
-- Erbersatzantritt durch Pflichtteils-Berechtigten
-
-### Bei Sozialhilfe-Beziehern
-
-- **Sozialhilfe-Träger kann Ausschlagung anfechten** § 138 BGB (Sittenwidrigkeit) bei drohender Sozialhilfe-Belastung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## 5) Strategische Erwaegungen
-
-### Pro Ausschlagung
-
-- Nachlass-Schulden höher als Aktiva
-- Komplexe Auslands-Nachlaesse (Erbschein-Aufwand)
-- Bevorzugung nächster Generation (Nachfolge-Planung)
-- Vermeidung Verfahrenskosten
-
-### Contra Ausschlagung
-
-- Nachlass-Wert unklar (Sachverständiger?)
-- Pflichtteils-Ausnahme möglich
-- Bei Vor-/Nacherbschaft: Pflicht-Verzicht ungewollt
-
-## 6) Anfechtung der Ausschlagung § 1954 BGB
-
-### Voraussetzungen
-
-- Irrtum über Inhalt oder Erklärungsbestand
-- Irrtum über Eigenschaft (z.B. Nachlasswert)
-
-### Frist
-
-- 6 Wochen ab Kenntnis des Irrtums
-
-### Form
-
-- Wie Ausschlagung: notariell oder Nachlassgericht
-
-### Praxis
-
-- Schwer durchzusetzen — Beweislast
-- Beispiel: Nachlasswert wesentlich höher als angenommen, Pflichtangaben zur Inventarisierung
-
-## 7) Workflow
-
-### Schritt 1 — Nachlass-Analyse
-
-- Erblasser-Konten-Recherche
-- Grundbuch-Prüfung
-- Schulden-Erforschung (Mahnungen, Vollstreckung)
-- Versicherungs- und Versorgungs-Ansprueche
-
-### Schritt 2 — Bilanz
-
-- Aktiva vs. Passiva
-- Erbschaftssteuer-Anfall prüfen
-- Pflichtteils-Risiken
-
-### Schritt 3 — Entscheidung
-
-- Annehmen mit Nachlassverwaltung (§ 1981 BGB)
-- Ausschlagen
-- Inventarerrichtung § 1993 BGB (Schutz gegen Haftung)
-
-### Schritt 4 — Ausführung
-
-- Notar oder Nachlassgericht
-- Schriftliche Bestätigung
-- Mitteilung an Mit-Erben
-
-## 8) Auslands-Bezug
-
-### EU-ErbVO (VO (EU) 650/2012)
-
-- Gilt seit 17.8.2015
-- Anwendungs-Wahl Erblasser (gewoehnlicher Aufenthalt vs. Heimat-Recht)
-- Bei Erblasser im Ausland: oft 6-Monats-Frist § 1944 III BGB
-
-### Erbschein vs. Europaeisches Nachlasszeugnis
-
-- Erbschein national
-- ENZ EU-weit
-
-## 9) Typische Fehler
-
-1. **Frist versäumt** durch fehlende Kenntnis-Berechnung
-2. **Konkludente Annahme** durch Vermögens-Verfügung (Konten-Abhebung, Wohnungsverkauf)
-3. **Auslandsbezug übersehen** (6 Monate Frist!)
-4. **Anfechtungs-Frist 6 Wochen verpasst**
-5. **Sozialhilfe-Folgen ignoriert** — Anfechtungs-Risiko des Trägers
-6. **Mit-Erben nicht informiert** — Querverfahren
-
-## 10) BGH-Linien und aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Anschluss
-
-- `fachanwalt-erbrecht-pflichtteilsergaenzung-2325` — bei Pflichtteilsfrage
-- `fachanwalt-erbrecht-testamentsvollstreckung` — bei TV
-- `fachanwalt-erbrecht-testamentsentwurf` — bei Nachfolge-Planung
-
-<!-- AUDIT 27.05.2026 bundle_021
--->
-
----
-
-## Skill: `pflichtteilsberechnung`
-
-_Wenn es um Pflichtteilsanspruch berechnen wenn Erblasser nahe Angehoerige vom Erbe ausgeschlossen hat in Fachanwalt Erbrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
-
-# Pflichtteilsanspruch berechnen wenn Erblasser nahe Angehoerige vom Erbe ausgeschlossen hat
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Pflichtteilsanspruch berechnen wenn Erblasser nahe Angehoerige vom Erbe ausgeschlossen hat. §§ 2303 2311 2314 BGB Pflichtteil. Prüfraster: Pflichtteilsberechtigter Nachlasswert Bewertung Auskunftsanspruch Ergaenzungsanspruch Abzuege. Output: Pflichtteilsberechnung Auskunftsklage-Entwurf. Abgrenzung: nicht für Pflichtteilsergaenzungsanspruch (fachanwalt-erbrecht-pflichtteilsergaenzung-2325).
-
-### Pflichtteilsberechnung — Auskunft und Stufenklage
-
-## Fachlicher Kern — Erbrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Pflichtteilsberechnung — Auskunft und Stufenklage` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 1922 ff., 1937, 1942 ff., 1953, 1967, 2032 ff., 2042, 2050 ff., 2078, 2084, 2203 ff., 2303 ff., 2314, 2325, 2333; FamFG §§ 343 ff.; EuErbVO.
-- **Verifizierte Anker:** BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteil, Entstehung und Verjährung bei postmortaler Vaterschaftsfeststellung); BGH, Beschluss vom 15.01.2025 - IV ZR 166/24 (Auskunftspflichten bei Pflichtteil/Testamentsvollstreckung); Rechtsprechung zu notariellen Nachlassverzeichnissen nur mit Aktenzeichen/Quelle ausgeben.
-- **Arbeitsmodus:** Erst Erbfolge, Ausschlagung, Nachlassbestand, Haftung und Fristen sichern; dann Pflichtteil, Auskunft/Wertermittlung, Testamentsauslegung, Erbengemeinschaft und internationale Anknüpfung trennen.
-- **Outputpflicht:** Nachlassmatrix, Pflichtteils-/Ergänzungstabelle, Auskunftsverlangen, Erbscheinsantrag, Teilungsplan oder Klagebaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Mandantenfragen beim Kaltstart
-
-1. Wer ist der Erblasser, wann ist der Erbfall eingetreten und wo war der letzte gewöhnliche Aufenthalt?
-2. In welchem Verhältnis steht der Mandant zum Erblasser (Abkömmling, Ehegatte, Elternteil)? Wurde er durch Testament oder Erbvertrag enterbt oder mit weniger als der Hälfte des gesetzlichen Erbteils bedacht?
-3. Wer sind die übrigen pflichtteilsberechtigten und erbenden Personen? Gibt es Adoptivkinder, Stiefkinder, Halbgeschwister?
-4. Hat der Erblasser in den letzten zehn Jahren vor dem Erbfall Schenkungen oder gemischte Schenkungen getätigt (Pflichtteilsergänzung § 2325 BGB)?
-5. Liegt das Bestandsverzeichnis nach § 2314 BGB schon vor oder muss es erst eingefordert werden?
-6. Haben die Erben die Auskunft verweigert, unvollständig erteilt oder die Bewertung blockiert?
-7. Ist Verjährung drohend — Erbfall + 3 Jahre Jahresende § 2332 BGB?
-8. Bestehen Anzeichen für verschleierte Schenkungen (Übertragungen unter Nießbrauch, Schenkungen an Lebensgefährten)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Rechtsgrundlagen
-
-| Norm | Inhalt |
-|------|--------|
-| § 2303 BGB | Pflichtteil als Geldanspruch — Hälfte des gesetzlichen Erbteils; Pflichtteilsberechtigte |
-| § 2305 BGB | Ergänzungsanspruch bei zu geringer Bedachtung |
-| § 2311 BGB | Bewertungsstichtag — Todestag; maßgeblicher Verkehrswert |
-| § 2314 BGB | Auskunftsanspruch — Bestandsverzeichnis; SV-Bewertung auf Verlangen; Kosten trägt Nachlass |
-| § 2315 BGB | Anrechnung von Vorausempfängen mit Anrechnungsbestimmung |
-| § 2316 BGB | Ausgleichung unter Abkömmlingen |
-| § 2325 BGB | Pflichtteilsergänzung — Schenkungen letzter 10 Jahre; 10 %-Abschmelzung je Jahr |
-| § 2327 BGB | Anrechnung Eigengeschenke des Pflichtteilsberechtigten |
-| § 2329 BGB | Direktanspruch gegen Beschenkte wenn Nachlass insufficient |
-| § 2332 BGB | Verjährung — 3 Jahre ab Kenntnis; 30 Jahre absolut § 199 Abs. 3a BGB |
-
-## Leitentscheidungen
-
-| Gericht | Aktenzeichen | Datum | Kernaussage |
-|---------|-------------|-------|-------------|
-| BGH IV. Zivilsenat | IV ZR 88/24 | 12.03.2025 | Für die Entstehung des Pflichtteilsanspruchs nach § 199 Abs. 1 Nr. 1 BGB ist § 2317 Abs. 1 BGB auch dann maßgebend, wenn der Berechtigte zum Zeitpunkt des Erbfalls aufgrund der gesetzlichen Ausübungssperre in § 1600d Abs. 5 BGB an einer erfolgreichen Anspruchsdurchsetzung gehindert ist (nichteheliches Kind, Vaterschaftsfeststellung). Quelle: bundesgerichtshof.de bzw. dejure.org. |
-| BGH IV. Zivilsenat | IV ZR 93/24 | 02.07.2025 | Eine Zuwendung von Todes wegen an den behandelnden Arzt des Erblassers ist nicht deshalb unwirksam, weil sie gegen ein berufsständisches Zuwendungsverbot der ärztlichen Berufsordnung (§ 32 Abs. 1 S. 1 BO) verstößt. Berufsrecht ist kein Verbotsgesetz i.S.d. § 134 BGB; Testierfreiheit (Art. 14 GG) überwiegt. Sittenwidrigkeit (§ 138 BGB) bleibt Einzelfallprüfung. Quelle: bundesgerichtshof.de Pressemitteilung 122/2025. |
-| Weitere Rechtsprechung | Live-Verifikation erforderlich | - | keine weitere Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-
-## Prüfschema — Stufenweise Durchsetzung
-
-**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
-
-| Phase | Schritt | Maßnahme | Norm |
-|-------|---------|---------|------|
-| Vorbereitung | 1 | Pflichtteilsberechtigung feststellen | § 2303 BGB |
-| Vorbereitung | 2 | Erbquote + Pflichtteilsquote berechnen | §§ 1924 ff., 2303 BGB |
-| Auskunft | 3 | Auskunftsschreiben § 2314 BGB senden | § 2314 Abs. 1 BGB |
-| Auskunft | 4 | Frist setzen: 4 Wochen; notarielles Verzeichnis fordern | § 2314 Abs. 1 Satz 3 BGB |
-| Auskunft | 5 | SV-Bewertung fordern für Immobilien/Unternehmen | § 2314 Abs. 1 Satz 2 BGB |
-| Klage | 6 | Stufenklage erheben wenn Auskunft verweigert/unvollständig | § 254 ZPO |
-| Klage | 7 | Auskunftsstufe — Verzeichnis vollständig einholen | Stufe 1 |
-| Klage | 8 | Versicherungsstufe — eidesstattliche Versicherung | Stufe 2 |
-| Klage | 9 | Zahlungsstufe — Pflichtteilsbetrag beziffern und einklagen | Stufe 3 |
-| Sicherung | 10 | Direktanspruch § 2329 BGB gegen Beschenkte | § 2329 BGB |
-
-## Bestandsverzeichnis § 2314 BGB — Auskunftsinhalt
-
-Das Bestandsverzeichnis muss enthalten:
-
-**Aktiva:**
-- Alle Bankkonten und Wertpapierdepots (Saldo Todestag)
-- Immobilien (Grundstücksbezeichnung, Grundbuchauszug, Wertangabe)
-- Unternehmensbeteiligungen mit Gesellschaftsvertrag und Bewertung
-- Krypto-Assets und digitale Vermögenswerte
-- Hausrat, Fahrzeuge, Schmuck
-- Lebensversicherungen (Rückkaufswert, Bezugsberechtigte)
-- Offene Forderungen, Darlehen an Dritte
-
-**Passiva:**
-- Verbindlichkeiten Kreditinstitute
-- Steuerschulden (Einkommensteuer, Grundsteuer)
-- Unterhaltsverpflichtungen
-- Beerdigungskosten § 1968 BGB
-- Sonstige Verbindlichkeiten
-
-**Schenkungen:**
-- Alle Schenkungen letzter 10 Jahre § 2325 BGB
-- Gemischte Schenkungen (Kaufpreis erheblich unter Verkehrswert)
-- Schenkungen unter Nießbrauchsvorbehalt
-- Schenkungen an Ehegatten (unbegrenzte Frist!)
-
-**Ausgleichungen:**
-- Vorausempfänge mit Anrechnungsbestimmung § 2315 BGB
-- Ausgleichungspflichtige Zuwendungen § 2316 BGB
-
-## Berechnungsschema
-
-```
-PFLICHTTEILSBERECHNUNG
-
-Schritt 1: Nettonachlass
- Aktiva zum Todestag: EUR [A]
- - Erblasserschulden: EUR [B]
- - Beerdigungskosten: EUR [C]
- = Nettonachlass: EUR [D]
-
-Schritt 2: Ergänzungsmasse § 2325 BGB
- Schenkung 1 [Datum]:
- Nominalwert / bereinigter Wert: EUR [X]
- Abschmelzung [Y]%: EUR [Z] (= Ansatz)
-
- Schenkung 2 [Datum]:
- Niederstwertvergleich:
- Bereinigter Schenkungswert: EUR [X1]
- Erbfall-Wert: EUR [X2]
- Anzusetzender Wert: EUR [min(X1,X2)]
- Abschmelzung [Y]%: EUR [Z2]
-
- Summe Ergänzungsmasse: EUR [E]
-
-Schritt 3: Pflichtteilsquote
- Gesetzlicher Erbteil: [X/Y]
- Pflichtteilsquote: [X/2Y]
-
-Schritt 4: Pflichtteil
- Nettonachlass × Quote: EUR [F]
-
-Schritt 5: Pflichtteilsergänzung
- Ergänzungsmasse × Quote: EUR [G]
-
-Schritt 6: Anrechnung § 2315 BGB
- Vorausempfang mit Anrechnung: - EUR [H]
-
-Schritt 7: Anrechnung Eigengeschenk § 2327 BGB
- Erhaltene Schenkung vom Erblasser:- EUR [I]
-
-GESAMT-PFLICHTTEILSANSPRUCH: EUR [F+G-H-I]
-Zinsen § 291 BGB ab Klagezustellung: Basiszins + 5 %
-```
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Pflichtteil berechnen und durchsetzen | Stufenklage-Bausteine unten; Auskunft zuerst |
-| Variante A — Erbe zahlt freiwillig wenn Berechnung klar | Aussergerichtliche Geltendmachung zuerst; Klage als Backup |
-| Variante B — Erblasser hat viel verschenkt | Pflichtteilsergaenzung § 2325 BGB prüfen; 10-Jahres-Frist |
-| Variante C — Stufenklage zu aufwaendig | Direktklage auf Zahlung wenn Grundlage klar; Auskunft nachfassen |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Schriftsatz-Bausteine
-
-### Auskunftsanforderung § 2314 BGB
-
-```
-An die Erben nach [Name Erblasser]
-[Adresse]
-
-Auskunfts- und Wertermittlungsanspruch nach § 2314 BGB
-
-Sehr geehrte Damen und Herren,
-
-namens und in Vollmacht unseres Mandanten — [Name] als
-Pflichtteilsberechtigter nach dem am [Datum] verstorbenen
-[Erblasser] — fordern wir Sie auf, binnen vier Wochen
-ein notarielles Nachlassverzeichnis nach § 2314 Abs. 1
-Satz 3 BGB vorzulegen.
-
-Das Verzeichnis muss enthalten:
-1. Sämtliche Aktiva und Passiva des Nachlasses zum Todestag
- [Datum], bewertet nach §§ 2311, 2311a BGB
-2. Sämtliche Schenkungen des Erblassers der letzten zehn
- Jahre nach § 2325 BGB (auch gemischte Schenkungen,
- Schenkungen unter Nießbrauchsvorbehalt, Schenkungen
- an den Ehegatten ohne zeitliche Begrenzung)
-3. Ausgleichungspflichtige Zuwendungen nach §§ 2315,
- 2316 BGB
-
-Hinsichtlich der Bewertung von Immobilien und
-Unternehmensbeteiligungen verlangen wir bereits jetzt
-die Hinzuziehung eines vereidigten Sachverständigen
-nach § 2314 Abs. 1 Satz 2 BGB.
-Die Kosten trägt der Nachlass (§ 2314 Abs. 2 BGB).
-
-Nach fruchtlosem Fristablauf werden wir Stufenklage
-nach § 254 ZPO erheben.
-
-Mit freundlichen Grüßen
-[Kanzlei]
-```
-
-### Stufenklage § 254 ZPO
-
-```
-[Landgericht / Amtsgericht]
-Abteilung: [Kammer]
-
-Klage
-
-Kläger: [Name, Adresse] — Pflichtteilsberechtigter
-Beklagte: [Namen, Adressen] — Erben
-
-wegen: Pflichtteil (Stufenklage § 254 ZPO)
-
-I. AUSKUNFTSSTUFE
- Die Beklagten werden als Gesamtschuldner verurteilt,
- durch Vorlage eines notariellen Nachlassverzeichnisses
- Auskunft über den Bestand des Nachlasses nach
- [Erblasser] zum Todestag [Datum] zu erteilen,
- einschließlich aller Schenkungen der letzten zehn Jahre
- nach § 2325 BGB.
-
-II. VERSICHERUNGSSTUFE
- Die Beklagten werden als Gesamtschuldner verurteilt,
- die Richtigkeit des vorgelegten Verzeichnisses
- an Eides statt zu versichern.
-
-III. ZAHLUNGSSTUFE
- Die Beklagten werden als Gesamtschuldner verurteilt,
- an den Kläger den sich aus der Auskunft ergebenden
- Pflichtteilsanspruch nebst Zinsen in Höhe von fünf
- Prozentpunkten über dem Basiszinssatz ab
- Klagezustellung zu zahlen.
-
-IV. STREITWERT AUSKUNFTSSTUFE
- 25 % des voraussichtlichen Hauptanspruchs.
- Vorläufiger Streitwert: EUR [Betrag].
-```
-
-### Direktanspruch gegen Beschenkte § 2329 BGB
-
-```
-An [Beschenkter]
-[Adresse]
-
-Pflichtteilsergänzungsanspruch nach § 2329 BGB
-
-Sehr geehrte Damen und Herren,
-
-unser Mandant ist Pflichtteilsberechtigter nach dem
-am [Datum] verstorbenen [Erblasser].
-
-Der Erblasser hat Ihnen am [Datum] folgende Schenkung
-gemacht: [Beschreibung, Wert].
-
-Der Nachlass reicht zur Erfüllung des Pflichtteilsergänzungs-
-anspruchs unseres Mandanten nicht aus. Nach § 2329 BGB
-kann unser Mandant von Ihnen als Beschenktem Ergänzung
-bis zum Wert der Schenkung verlangen.
-
-Betrag: EUR [Pflichtteilsergänzungsanspruch], begrenzt auf
-Schenkungswert EUR [Betrag].
-
-Wir fordern Sie auf, bis [Datum] zu zahlen.
-```
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
-## Beweislast
-
-| Partei | Beweislastgegenstand | Beweismittel |
-|--------|---------------------|--------------|
-| Pflichtteilsberechtigter | Berechtigung | Geburtsurkunde, Heiratsurkunde, ggf. Adoptionsurkunde |
-| Pflichtteilsberechtigter | Enterbung oder Unterbedachtung | Testament, Erbschein |
-| Pflichtteilsberechtigter | Schenkungen § 2325 BGB | Notarverträge, Kontobewegungen, Grundbuchauszüge |
-| Erbe | Anrechnungsbestimmung § 2315 BGB | Schriftliche Vereinbarung mit Anrechnungsvorbehalt |
-| Erbe | Pflichtteilsverzicht § 2346 BGB | Notarielle Urkunde |
-| Erbe | Vollständigkeit und Richtigkeit Bestandsverzeichnis | Eidesstattliche Versicherung Stufe 2 |
-
-## Fristen
-
-| Frist | Auslöser | Dauer | Folge |
-|-------|---------|-------|-------|
-| Auskunftsanforderung | Möglichst bald nach Erbfall | Praxis: 4 Wochen setzen | Bei Ablehnung: Stufenklage |
-| Verjährung Pflichtteil § 2332 BGB | Kenntnis von Erbfall + Verfügung | 3 Jahre ab Jahresende | Anspruchsverlust |
-| Absolute Verjährung | Erbfall | 30 Jahre § 199 Abs. 3a BGB | Anspruchsverlust |
-| Direktanspruch § 2329 BGB | Schenkungsdatum | 3 Jahre ab Kenntnis | Verjährung gegen Beschenkten |
-
-## Gegenargumente und Reaktion
-
-| Gegenargument Erbe | Reaktion |
-|-------------------|---------|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| "Nachlass wertlos, kein Pflichtteil" | Ergänzungsanspruch gegen Beschenkte § 2329 BGB; Nachlasswert ≠ Ergänzungsbasis |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| "Privatverzeichnis reicht" | § 2314 Abs. 1 Satz 3 BGB: auf Verlangen notarielles Verzeichnis; kein Ermessen |
-
-## Streitwert und Kosten
-
-**Streitwert Auskunftsstufe:** 25 % des voraussichtlichen Hauptanspruchs (Praxis der meisten Gerichte)
-
-**Streitwert Zahlungsstufe:** Bezifferter Pflichtteilsanspruch
-
-**Gerichtsgebühren Beispiel EUR 50.000:**
-- Auskunftsstufe EUR 12.500 → GKG 3.0 Gebühr ca. EUR 618
-- Zahlungsstufe EUR 50.000 → GKG ca. EUR 1.638
-- RA-Gebühren: je Partei ca. EUR 3.500–5.500
-
-**SV-Gutachten:** Auf Nachlasskosten § 2314 Abs. 2 BGB — typisch EUR 2.000–6.000 je Immobilie
-
-## Strategische Empfehlung
-
-| Strategie | Empfehlung | Begründung |
-|-----------|-----------|------------|
-| Verjährungssicherung | Auskunftsschreiben noch vor Ablauf von 2.5 Jahren nach Erbfall | Verjährung droht; Stufenklage hemmt § 204 BGB |
-| Notarielles Verzeichnis | Konsequent fordern | Beweiskraft höher; Erbe haftet für Vollständigkeit |
-| SV direkt benennen | Bereits im Auskunftsschreiben | Verhindert Verzögerung durch Erben |
-| Schenkungsrecherche | Kontoauszüge 10+ Jahre rückwärts | Verschleierte Schenkungen häufig |
-| Direktanspruch § 2329 | Beschenkte frühzeitig in Haftung nehmen | Schutz bei Nachlass-Insolvenz |
-
-## Anschluss-Skills
-
-- `pflichtteil-berechnen` — vollständiges Berechnungsraster mit allen Schritten
-- `nachlassinsolvenz-erbenhaftung-begrenzen` — wenn Nachlass überschuldet
-- `fachanwalt-erbrecht-testamentsvollstreckung` — TV-Auskunftspflicht § 2218 BGB
-
-## Quellen
-
-- BGB §§ 2303–2332, 2314, 2325, 2329, 2332
-- ZPO § 254
-- BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteilsanspruch nichteheliches Kind; Verjährung): dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=12.03.2025&Aktenzeichen=IV+ZR+88/24
-- BGH, Urteil vom 02.07.2025 - IV ZR 93/24 (Zuwendung an Hausarzt; Berufsordnung kein § 134 BGB-Verbot): bundesgerichtshof.de Pressemitteilung 2025/2025122.html
-- Weitere Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesgerichtshof.de, dejure.org, openjur.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Stand: 05/2026
-
----
-
-## Skill: `erbschaftsausschlagung`
-
-_Wenn es um Erbschaftsausschlagung in Fachanwalt Erbrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Erbschaftsausschlagung; Arbeitsfeld: Fachanwalt Erbrecht._
-
-# Erbschaftsausschlagung erläutern und Erklärung formulieren wenn Erbe ueberschuldet ist oder sonstige Gründe vorliegen
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Erbschaftsausschlagung erläutern und Erklärung formulieren wenn Erbe ueberschuldet ist oder sonstige Gründe vorliegen. §§ 1942 1944 1945 BGB Ausschlagung. Prüfraster: Ausschlagungsfrist sechs Wochen drei Monate Ausland Empfaenger Nachlassgericht Form Anfechtung. Output: Ausschlagungserklärung Antragsentwurf. Abgrenzung: nicht für Pflichtteilsausschlagung oder Erbverzicht.
-
-### Erbschaftsausschlagung
-
-## Fachlicher Kern — Erbrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Erbschaftsausschlagung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 1922 ff., 1937, 1942 ff., 1953, 1967, 2032 ff., 2042, 2050 ff., 2078, 2084, 2203 ff., 2303 ff., 2314, 2325, 2333; FamFG §§ 343 ff.; EuErbVO.
-- **Verifizierte Anker:** BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteil, Entstehung und Verjährung bei postmortaler Vaterschaftsfeststellung); BGH, Beschluss vom 15.01.2025 - IV ZR 166/24 (Auskunftspflichten bei Pflichtteil/Testamentsvollstreckung); Rechtsprechung zu notariellen Nachlassverzeichnissen nur mit Aktenzeichen/Quelle ausgeben.
-- **Arbeitsmodus:** Erst Erbfolge, Ausschlagung, Nachlassbestand, Haftung und Fristen sichern; dann Pflichtteil, Auskunft/Wertermittlung, Testamentsauslegung, Erbengemeinschaft und internationale Anknüpfung trennen.
-- **Outputpflicht:** Nachlassmatrix, Pflichtteils-/Ergänzungstabelle, Auskunftsverlangen, Erbscheinsantrag, Teilungsplan oder Klagebaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## 1) Eingangs-Abfrage
-
-1. Erbfall-Datum und Kenntnis vom Erbfall?
-2. Erbe gesetzlich oder testamentarisch?
-3. Auslandsbezug Erblasser/Erbe?
-4. Bekannte Nachlasswerte (Brutto)?
-5. Bekannte Erbschulden?
-6. Vorerbschaft / Nacherbschaft?
-7. Pflichtteilsberechtigung anderer?
-
-## 2) Frist § 1944 BGB
-
-| Konstellation | Frist |
-|---|---|
-| Inland | **6 Wochen** nach Kenntnis von Erbfall und Berufungs-Grund |
-| Auslands-Wohnsitz Erblasser oder Erbe | **6 Monate** |
-| Nicht bekannt Erbfall | Frist beginnt mit Kenntnis |
-
-### Versäumnis
-
-- Frist abgelaufen ohne Ausschlagung = **Erbe angenommen**
-- Anfechtung Annahme über § 1954 BGB schwer (Irrtum)
-
-## 3) Form § 1945 BGB
-
-- **Notarielle Beurkundung** oder
-- **Erklärung gegenüber Nachlassgericht** (Amtsgericht Erblassers letzter Wohnsitz)
-- Beide Wege gleichwertig
-
-### Kosten
-
-- Notar nach GNotKG (typisch 60-200 EUR)
-- Nachlassgericht ohne Gebuehr (nur Aktendurchsicht)
-
-## 4) Folgen der Ausschlagung
-
-### Rueckwirkung § 1953 BGB
-
-- Erbe gilt als nie eingetreten
-- Nächste Erbordnung tritt ein
-- Bei Kind ausschlägt: Enkelkind kann erben (Repraesentations-Prinzip)
-
-### Pflichtteils-Anspruch
-
-- Bei testamentarischer Erbeinsetzung und Ausschlagung: Pflichtteil bleibt
-- Erbersatzantritt durch Pflichtteils-Berechtigten
-
-### Bei Sozialhilfe-Beziehern
-
-- **Sozialhilfe-Träger kann Ausschlagung anfechten** § 138 BGB (Sittenwidrigkeit) bei drohender Sozialhilfe-Belastung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## 5) Strategische Erwaegungen
-
-### Pro Ausschlagung
-
-- Nachlass-Schulden höher als Aktiva
-- Komplexe Auslands-Nachlaesse (Erbschein-Aufwand)
-- Bevorzugung nächster Generation (Nachfolge-Planung)
-- Vermeidung Verfahrenskosten
-
-### Contra Ausschlagung
-
-- Nachlass-Wert unklar (Sachverständiger?)
-- Pflichtteils-Ausnahme möglich
-- Bei Vor-/Nacherbschaft: Pflicht-Verzicht ungewollt
-
-## 6) Anfechtung der Ausschlagung § 1954 BGB
-
-### Voraussetzungen
-
-- Irrtum über Inhalt oder Erklärungsbestand
-- Irrtum über Eigenschaft (z.B. Nachlasswert)
-
-### Frist
-
-- 6 Wochen ab Kenntnis des Irrtums
-
-### Form
-
-- Wie Ausschlagung: notariell oder Nachlassgericht
-
-### Praxis
-
-- Schwer durchzusetzen — Beweislast
-- Beispiel: Nachlasswert wesentlich höher als angenommen, Pflichtangaben zur Inventarisierung
-
-## 7) Workflow
-
-### Schritt 1 — Nachlass-Analyse
-
-- Erblasser-Konten-Recherche
-- Grundbuch-Prüfung
-- Schulden-Erforschung (Mahnungen, Vollstreckung)
-- Versicherungs- und Versorgungs-Ansprueche
-
-### Schritt 2 — Bilanz
-
-- Aktiva vs. Passiva
-- Erbschaftssteuer-Anfall prüfen
-- Pflichtteils-Risiken
-
-### Schritt 3 — Entscheidung
-
-- Annehmen mit Nachlassverwaltung (§ 1981 BGB)
-- Ausschlagen
-- Inventarerrichtung § 1993 BGB (Schutz gegen Haftung)
-
-### Schritt 4 — Ausführung
-
-- Notar oder Nachlassgericht
-- Schriftliche Bestätigung
-- Mitteilung an Mit-Erben
-
-## 8) Auslands-Bezug
-
-### EU-ErbVO (VO (EU) 650/2012)
-
-- Gilt seit 17.8.2015
-- Anwendungs-Wahl Erblasser (gewoehnlicher Aufenthalt vs. Heimat-Recht)
-- Bei Erblasser im Ausland: oft 6-Monats-Frist § 1944 III BGB
-
-### Erbschein vs. Europaeisches Nachlasszeugnis
-
-- Erbschein national
-- ENZ EU-weit
-
-## 9) Typische Fehler
-
-1. **Frist versäumt** durch fehlende Kenntnis-Berechnung
-2. **Konkludente Annahme** durch Vermögens-Verfügung (Konten-Abhebung, Wohnungsverkauf)
-3. **Auslandsbezug übersehen** (6 Monate Frist!)
-4. **Anfechtungs-Frist 6 Wochen verpasst**
-5. **Sozialhilfe-Folgen ignoriert** — Anfechtungs-Risiko des Trägers
-6. **Mit-Erben nicht informiert** — Querverfahren
-
-## 10) BGH-Linien und aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Anschluss
-
-- `fachanwalt-erbrecht-pflichtteilsergaenzung-2325` — bei Pflichtteilsfrage
-- `fachanwalt-erbrecht-testamentsvollstreckung` — bei TV
-- `fachanwalt-erbrecht-testamentsentwurf` — bei Nachfolge-Planung
-
-<!-- AUDIT 27.05.2026 bundle_021
--->
-
----
-
-## Skill: `verhandlung-mediation-erbengemeinschaft`
-
-_Wenn es um Streit in der Erbengemeinschaft durch Verhandlung oder Mediation lösen in Fachanwalt Erbrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# Streit in der Erbengemeinschaft durch Verhandlung oder Mediation lösen
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Streit in der Erbengemeinschaft durch Verhandlung oder Mediation lösen. §§ 2032 2042 2047 BGB Erbengemeinschaft. Prüfraster: Erbteile Nachlassbestand Verwaltungsmassnahmen Teilungsklage Auseinandersetzung Erbauseinandersetzungsvertrag. Output: Verhandlungsstrategie Mediationsagenda Auseinandersetzungsvertrag. Abgrenzung: nicht für gerichtliche Teilungsklage.
-
-### Mediation / Vergleich bei Erbengemeinschaft
-
-## Fachlicher Kern — Erbrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mediation / Vergleich bei Erbengemeinschaft` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 1922 ff., 1937, 1942 ff., 1953, 1967, 2032 ff., 2042, 2050 ff., 2078, 2084, 2203 ff., 2303 ff., 2314, 2325, 2333; FamFG §§ 343 ff.; EuErbVO.
-- **Verifizierte Anker:** BGH, Urteil vom 12.03.2025 - IV ZR 88/24 (Pflichtteil, Entstehung und Verjährung bei postmortaler Vaterschaftsfeststellung); BGH, Beschluss vom 15.01.2025 - IV ZR 166/24 (Auskunftspflichten bei Pflichtteil/Testamentsvollstreckung); Rechtsprechung zu notariellen Nachlassverzeichnissen nur mit Aktenzeichen/Quelle ausgeben.
-- **Arbeitsmodus:** Erst Erbfolge, Ausschlagung, Nachlassbestand, Haftung und Fristen sichern; dann Pflichtteil, Auskunft/Wertermittlung, Testamentsauslegung, Erbengemeinschaft und internationale Anknüpfung trennen.
-- **Outputpflicht:** Nachlassmatrix, Pflichtteils-/Ergänzungstabelle, Auskunftsverlangen, Erbscheinsantrag, Teilungsplan oder Klagebaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Fachkern: Mediation / Vergleich bei Erbengemeinschaft
-
-- **Spezialfrage (Mediation / Vergleich bei Erbengemeinschaft):** Erbteile Nachlassbestand Verwaltungsmassnahmen Teilungsklage Auseinandersetzung Erbauseinandersetzungsvertrag. Output: Verhandlungsstrategie Mediationsagenda Auseinandersetzungsvertrag. Abgrenzung: nicht für gerichtliche Teilungsklage.
-- **Arbeitsweise:** Erst Sachverhalt, Norm, Frist, Zuständigkeit und Beweis klären; Rechtsprechung nur verifiziert als tragenden Beleg einsetzen.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Eingaben
-
-- Mandantenrolle (Erbe, Pflichtteilsberechtigte, Vermächtnisnehmerin, Testamentsvollstrecker)
-- Erbengemeinschafts-Größe (2 bis n Personen)
-- Streitgegenstand (Quote, Bewertung Immobilie, Schenkungs-Anrechnung § 2050 BGB, Ausgleichung)
-- Familien-Konstellation (Geschwister, Stiefkinder, neue Ehegatten)
-- Bestehende Korrespondenz / Konflikt-Stand
-
-## Rechtlicher Rahmen
-
-- **§§ 2032-2057 BGB** — Erbengemeinschaft, Auseinandersetzung
-- **§ 2042 BGB** — Auseinandersetzungs-Anspruch
-- **§ 2046 BGB** — Schulden vor Auseinandersetzung
-- **§ 2050 BGB** — Ausgleichung Schenkung zu Lebzeiten
-- **§§ 2314, 2325 BGB** — Pflichtteils-Auskunft + -Ergänzung
-- **§ 363 FamFG** — Notarielle Vermittlung Erbauseinandersetzung
-- **§§ 1029 ff. ZPO** — Schiedsgerichts-Verfahren
-- **MediationsG** — Mediation als Verfahren
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## ADR-Pfade
-
-### Pfad 1 — Familien-Mediation
-
-- DGFM-Erbrechts-Mediator/in
-- Kostengünstig (50-150 EUR/h, geteilt)
-- Vertraulichkeit
-- Vorteil: Familien-Beziehungs-Erhalt
-- Resultat: schriftliche Auseinandersetzungs-Vereinbarung
-
-### Pfad 2 — Notarielle Vermittlung § 363 FamFG
-
-- Antrag bei Notar
-- Verhandlungs-Termin mit allen Erben
-- Notar entwirft Auseinandersetzungs-Vertrag
-- Auseinandersetzungsplan rechtlich bindend nach Genehmigung Nachlassgericht
-- Vorteil: direkt vollstreckbar (notarielle Urkunde)
-
-### Pfad 3 — Schiedsgutachten Bewertung
-
-- Streit nur über Wert (Immobilie, Unternehmen, Kunstsammlung)
-- Sachverständigen-Schiedsgutachten § 317-319 BGB
-- Beide Erben einigen sich auf Gutachter
-- Spruch bindend (außer "offenbar unbillig")
-
-### Pfad 4 — Klage Nachlassgericht / Familiengericht
-
-- Bei Scheitern aller ADR
-- AG Nachlassgericht / Familiengericht
-- Wertgutachten gerichtsbestellt
-- Langwierig (1-3 Jahre), teuer, beziehungsschädlich
-
-## Workflow
-
-### Phase 1 — Sachverhalts-Klärung
-
-- Nachlass-Inventur (Bewertung Immobilien, Konten, Krypto, Unternehmen)
-- Schenkungs-Recherche letzte 10 Jahre (§ 2325 BGB)
-- Pflichtteilsberechtigung prüfen
-- Familien-Konstellation kartieren
-
-### Phase 2 — Vorgerichtliche Verhandlungs-Phase
-
-- Schreiben an Miterben mit Lösungsangebot
-- Bewertungs-Vorschlag (Verkehrswert + Pauschal-Abzug)
-- Mediations-Vorschlag
-
-### Phase 3 — ADR-Wahl
-
-- Bei Vertrauensbasis: Mediation
-- Bei Bewertungs-Streit: Schiedsgutachten
-- Bei harter Auseinandersetzung: § 363 FamFG-Notar
-
-### Phase 4 — Vergleichs-Vertrag
-
-- Notarielle Beurkundung bei Grundstücken § 311b BGB
-- Inhalte: Wertaufteilung, Verkauf vs. Übernahme, Ausgleichungs-Zahlungen
-- Steuer-Klausel (ErbSt-Pflicht jeweils)
-- Vollstreckbarkeits-Klausel
-
-### Phase 5 — Umsetzung
-
-- Grundbuch-Berichtigung
-- Konten-Aufteilung
-- ErbSt-Erklärung jeder Erbe getrennt
-
-## Strategie und Taktik
-
-- **Bewertungs-Stichtag**: Todesstichtag oder Auseinandersetzungs-Stichtag — verhandelbar
-- **Verkehrswert vs. Substanzwert**: typisch 70-90 % des Verkehrswerts bei Substanz
-- **Wohnrecht-Bewertung**: Kapitalisierung mit Sterbetafel
-- **Krypto-Wallet**: Sonderfall (siehe `fachanwalt-erbrecht-krypto-wallet-nachlass-multisig`)
-- **Schenkungs-Anrechnung**: 10-%-Abschmelzung pro Jahr § 2325 III BGB
-- **Bei Eskalation**: Pflichtteils-Auskunft § 2314 BGB als Druckmittel
-- **Vergleich + Stilllegung**: alle Erben unterschreiben "saemtliche Ansprueche erledigt"
-
-## Quellen und Updates
-
-Stand: 05/2026. § 363 FamFG, MediationsG. BGH-Linien stabil. Bei ErbStG-Reform aktualisieren.
+Bei nur noch zwei Tagen Restfrist stehen Gerichtstermin, Vollmacht und Zugang zuerst; ein lenkender Ausschlagungsirrtum wird nicht als sichere Rettung behandelt.
 
 ---
 
 ## Skill: `pflichtteil-vaterschaft-verjaehrung-und-auskunft`
 
-_Wenn es um Pflichtteil Vaterschaft Verjaehrung Und Auskunft in Fachanwalt Erbrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Trennt Entstehung, Rechtsausübungssperre und Verjährung eines Pflichtteils bei später Anerkennung oder postmortaler Vaterschaftsfeststellung und entwickelt eine fristgesicherte Auskunftsstrategie._
 
-# Führt durch Pflichtteilsfälle mit später festgestellter Vaterschaft, § 1600d Abs
+# Pflichtteil bei später geklärter Vaterschaft sichern
 
+## 1. Zweck und Anwendungsfall
 
-## Arbeitsweg
+Für Pflichtteilsfälle mit ungeklärter oder erst nach dem Tod festgestellter rechtlicher Vaterschaft. Kein eigener Ersatz für das Abstammungsverfahren.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 2. Eingaben
 
-**Fokus:** Führt durch Pflichtteilsfälle mit später festgestellter Vaterschaft, § 1600d Abs. 5 BGB, § 2317 BGB, § 199 BGB und Auskunftsansprüchen nach § 2314 BGB.
+Erbfall, Anerkennung und Zustimmungen oder Feststellungsbeschluss mit Rechtskraft, Kenntnischronologie, Erben, Verfügungen, Verjährungseinreden und bisherige Verfahren.
 
-### Pflichtteil: postmortale Vaterschaft, Verjährung, Auskunft und Stufenklage
+## 3. Ablauf und Checkliste
 
-## Verifizierter Kern
-BGH, Urteil vom 12.03.2025 - IV ZR 88/24: Für die Entstehung des Pflichtteilsanspruchs bleibt § 2317 Abs. 1 BGB maßgeblich; Kenntnis im Sinne von § 199 Abs. 1 Nr. 2 BGB kann bei nichtehelichem Kind zusätzlich Kenntnis von Anerkennung oder rechtskräftiger Feststellung der Vaterschaft verlangen.
+1. Biologische Abstammung, rechtliche Vaterschaft und deren wirksame Feststellung trennen. Rechtsausübungssperre nach BGB Paragraf 1600d Absatz 5 feststellen.
 
-## Prüfraster
-1. Erbfall, Abstammung, Anerkennung/Feststellung, Rechtsausübungssperre § 1600d Abs. 5 BGB.
-2. Entstehung Pflichtteil § 2317 BGB, Schuldner, Stufenklage, Auskunft § 2314 BGB.
-3. Verjährung § 195, § 199 BGB: Kenntnis, grob fahrlässige Unkenntnis, Hemmung, Klagezustellung.
-4. Nachlassverzeichnis: privat/notariell, Belege, Wertermittlung, Unternehmensanteile, Schenkungen § 2325 BGB.
+2. Anspruchsentstehung mit dem Erbfall nach BGB Paragraf 2317 von erfolgreicher Durchsetzbarkeit trennen.
+
+3. Kenntnis der Anerkennung oder rechtskräftigen Feststellung sowie des Schuldners erfassen. Grob fahrlässige Unkenntnis als eigene Alternative prüfen; Rechtskraft löst nicht schematisch stets erstmals die Verjährung aus.
+
+4. Jahresschluss, Höchstfrist und Hemmung je Anspruch bestimmen. Aufschub der Auskunft wegen ungeklärter Abstammung nicht als sichere Verjährungshemmung behandeln.
+
+5. Fristsicherungsweg, Abstammungsnachweis und Auskunftsstufe koordinieren; fehlende Statusunterlagen gezielt anfordern.
+
+### 3.1. Referenzen gezielt laden
+
+Bei Kenntnisstreit [Vaterschaft und Verjährung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/pflichtteil-vaterschaft-verjaehrung-und-auskunft/references/vaterschaft-verjaehrung.md) laden.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 1592, 1600d Absatz 5, 2317, 2314, 195 und 199; ZPO Paragraf 254.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Status- und Kenntniszeitachse, begründeter Verjährungsvermerk sowie bestimmtes Auskunfts- oder Stufenbegehren mit offen gekennzeichnetem Abstammungsnachweis.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Der Erbfall liegt vor Rechtskraft des Feststellungsbeschlusses. Der Vermerk prüft Anspruchsentstehung schon beim Tod, Kenntnis und grobe Fahrlässigkeit aber gesondert.
+
+---
+
+## Skill: `pflichtteil-berechnen`
+
+_Berechnet den ordentlichen Pflichtteil aus belegter gesetzlicher Quote und bereinigtem Nachlass, behandelt Anrechnung und Ausgleichung und liefert eine nachvollziehbare Rechnung mit Gegenprobe._
+
+# Pflichtteil berechnen und Einwendungen bewerten
+
+## 1. Zweck und Anwendungsfall
+
+Für Höhe und Einwendungen des ordentlichen Pflichtteils. Die Auskunftsdurchsetzung und die Schenkungsbewertung haben eigene Fachaufträge; vorhandene Ergebnisse daraus weiterverwenden.
+
+## 2. Eingaben
+
+Erbfall, Stammbaum, Güterstand, Verfügungen, Verzicht, Entziehung, Annahme oder Ausschlagung, Aktiv- und Passivnachweise sowie Vorausempfänge.
+
+## 3. Ablauf und Checkliste
+
+1. Berechtigung nach BGB Paragrafen 2303 und 2309 sowie Ausschluss, Restpflichtteil und Wahlrechte prüfen. Geschwister und Stiefkinder ohne Adoption sind nicht allein deshalb pflichtteilsberechtigt.
+
+2. Hypothetische gesetzliche Erbquote nachvollziehbar bestimmen; Mitrechnung nach Paragraf 2310, Ehegattenvarianten und Verzichtsfolgen beachten. Pflichtteilsquote ist die Hälfte der maßgeblichen gesetzlichen Quote.
+
+3. Nachlass zum Erbfall positionsgenau bewerten. Erblasserschulden und Bestattungskosten von grundsätzlich nicht abzugsfähigen Vermächtnissen, Auflagen und Pflichtteilsverbindlichkeiten unterscheiden.
+
+4. Anrechnung nach Paragraf 2315 und Ausgleichung nach Paragraf 2316 mit jeweils eigenem Rechenweg behandeln. Nicht bloß alle Vorausempfänge vom Endbetrag abziehen.
+
+5. Berechnung, Wertband, Erfüllung und Verzinsung gegenprüfen. Anspruch und Gegner für Verjährung getrennt bestimmen; eine Auskunftsaufforderung hemmt nicht automatisch.
+
+### 3.1. Referenzen gezielt laden
+
+Bei jeder Rechnung [Quoten, Werte und Anrechnung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/pflichtteil-berechnen/references/quoten-werte-anrechnung.md) laden. Bei Verjährungsfragen [Fristen und Sofortsicherung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/erbfall-mandat-klaeren/references/fristen-sofortsicherung.md) nur für die einschlägige Anspruchsart lesen.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 2303 bis 2318, 2333 bis 2338, 2346; Paragrafen 195, 199, 203 und 204 für Verjährung.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Reproduzierbare Pflichtteilsrechnung mit Formel, Betrag, Wertstichtag, Quelle und Einwand pro Position; begründetes Zahlungs- oder Abwehrschreiben. Keine Scheingenauigkeit bei offenen Status- oder Wertfragen.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Ein einziges enterbtes Kind ohne Ehegatten und weitere Abkömmlinge hat grundsätzlich eine gesetzliche Quote von eins und eine Pflichtteilsquote von einem Halb, nicht einem Viertel.
+
+---
+
+## Skill: `testament-erbvertrag-gestalten`
+
+_Entwirft individuelle letztwillige Verfügungen für Versorgung, Nachfolge und Vermögensverteilung, prüft Form, bestehende Bindungen und Pflichtteilsfolgen und bereitet den wirksamen Vollzug vor._
+
+# Testament oder Erbvertrag gestalten
+
+## 1. Zweck und Anwendungsfall
+
+Für neue oder geänderte Nachlassplanung zu Lebzeiten. Nicht nur vorhandene Muster ausfüllen: Ziel, bindende Vorurkunden, Familienstruktur und Vollzugsrisiken bestimmen die Klauseln.
+
+## 2. Eingaben
+
+Familie und Güterstand, Staatsangehörigkeit und Aufenthalt, Vermögensarten, frühere Verfügungen, Versorgungserfordernisse, Nachfolger, Ersatzpersonen und Änderungswünsche.
+
+## 3. Ablauf und Checkliste
+
+1. Testierfähigkeit, Errichtungsform und persönliche Mitwirkung klären. Bestehende gemeinschaftliche Testamente und Erbverträge vor jedem Widerruf prüfen.
+
+2. Erbeinsetzung, Ersatzerbfolge, Vermächtnis, Vorausvermächtnis, Teilungsanordnung und Auflage nach gewünschter Rechtsfolge trennen. Keine Quote aus bloßer Zuweisung eines Gegenstands erfinden.
+
+3. Versorgung des Ehegatten, Patchwork, minderjährige oder unterstützungsbedürftige Nachfolger, Unternehmen und Auslandsvermögen fallbezogen gestalten. Pflichtteil, Liquidität und Erbschaftsteuer gegenrechnen.
+
+4. Bindung und Änderungsfreiheit ausdrücklich abwägen. Pflichtteilsstraf- und Wiederverheiratungsklauseln nicht pauschal einsetzen; Auslöser, Ausnahmen und Ersatzberufung ausformulieren.
+
+5. Entwurf und Formvollzug trennen: Ausdruck und Unterschrift schaffen kein eigenhändiges Testament. Verwahrung, Registrierung und erneute Prüfung bei Lebensänderungen planen.
+
+### 3.1. Referenzen gezielt laden
+
+Bei Klauselarbeit oder Formwahl [Formen und Gestaltungsbausteine](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/testament-erbvertrag-gestalten/references/formen-klauseln.md) laden. Bei Arzt-, Pflege- oder Betreuerbegünstigung dort die besondere Verbotsprüfung durchführen.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 2229, 2231, 2232, 2247 bis 2252, 2265, 2267, 2269, 2270, 2274 bis 2278; EuErbVO Artikel 22 nur bei Rechtswahl.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Vollständig ausformulierter individueller Testaments- oder Erbvertragsentwurf mit klar markierten Lücken, Variantenvermerk, Pflichtteils- und Steuerhinweis sowie Form- und Verwahrungsanleitung. Keine gegenseitigen Vertragspflichten in ein einseitiges Testament hineinstandardisieren.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Ein Berliner Testament mit Unternehmensvermögen benötigt eine Liquiditätsprüfung und eine ausdrückliche Entscheidung über Bindung und Änderungsvorbehalte, nicht die Formel, sämtliche Verfügungen seien wechselbezüglich.
+
+---
+
+## Skill: `nachlassinsolvenz-erbenhaftung-begrenzen`
+
+_Prüft Zahlungsunfähigkeit, Überschuldung und Antragspflicht des Erben, grenzt Haftungsinstrumente ab und erstellt Insolvenzantrag, Einrede oder Haftungsabwehr mit Kenntnis- und Schadensmatrix._
+
+# Nachlassinsolvenz und Haftungsbegrenzung bearbeiten
+
+## 1. Zweck und Anwendungsfall
+
+Für Schulden- und Haftungsrisiken vor oder nach Annahme. Keine schematische Reihenfolge aller Instrumente und keine feste Dreiwochen- oder Dreimonatsfrist für den Erben.
+
+## 2. Eingaben
+
+Erbenstellung und Annahme, Nachlassstatus, fällige Schulden, laufende Kosten, Masse, Gläubiger, Kenntnisdaten, Verwaltung, Inventarfristen, Klage und Vollstreckungstitel.
+
+## 3. Ablauf und Checkliste
+
+1. Fälligkeit, Liquidität und Überschuldung des Nachlasses stichtagsbezogen feststellen. Privatvermögen, Nachlass und eigene neue Verpflichtungen des Erben trennen.
+
+2. Kenntnis und fahrlässige Unkenntnis nach BGB Paragraf 1980 dokumentieren. Antrag ohne schuldhaftes Zögern vorbereiten; Kaufmannseigenschaft ist keine allgemeine Voraussetzung.
+
+3. Antragsberechtigung und Insolvenzgrund nach InsO Paragrafen 317 und 320, Zuständigkeit nach Paragraf 315 und Kostendeckung prüfen. Nachlasspfleger und Erben nicht hinsichtlich Wissen und Verschulden gleichsetzen.
+
+4. Ausschlagung, Nachlassverwaltung, Insolvenz, Inventar, Aufgebot, Dreimonatseinrede und Dürftigkeit nach Voraussetzungen und Folgen vergleichen. Inventar allein beschränkt die Haftung nicht.
+
+5. Bei Klage Haftungsbeschränkung und Vorbehalt rechtzeitig geltend machen. Verzögerungsschaden gläubigerbezogen mit hypothetischer Quote und Kausalität berechnen.
+
+### 3.1. Referenzen gezielt laden
+
+Bei Wahl oder Abwehr [Haftungsinstrumente](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/nachlassinsolvenz-erbenhaftung-begrenzen/references/haftungsinstrumente.md) laden. Für Insolvenz- oder Schadensauftrag [Antrag, Kenntnis und Schaden](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/nachlassinsolvenz-erbenhaftung-begrenzen/references/insolvenzantrag-schaden.md) lesen.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 1967, 1970 bis 1985, 1990 bis 2009, 2014, 2058 und 2059; InsO Paragrafen 315 bis 331; ZPO Paragrafen 780 und 785.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Nachlass- und Fälligkeitsstatus, Kenntnisvermerk, vollständiger Antrag oder Einredeschriftsatz, Nachreichungsliste sowie gesonderte Schadensberechnung. Keine pauschale vollständige Entschuldung versprechen.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Die Masse deckt nicht einmal Verfahrenskosten. Der Vermerk prüft die Dürftigkeitseinrede mit Herausgabefolge und eigenen Haftungsrisiken statt bloß einen negativen Nachlasssaldo vorzulegen.
+
+---
+
+## Skill: `pflichtteil-auskunft-durchsetzen`
+
+_Verlangt privates oder notarielles Nachlassverzeichnis und Wertermittlung vom Erben, prüft Ergänzung und eidesstattliche Versicherung und erstellt bestimmte Stufen- oder Vollstreckungsanträge._
+
+# Pflichtteilsauskunft und Wertermittlung durchsetzen
+
+## 1. Zweck und Anwendungsfall
+
+Für Informationsbeschaffung und deren Durchsetzung zugunsten eines pflichtteilsberechtigten Nichterben. Die Bezifferung wird nur soweit nötig vorbereitet, nicht erneut als paralleler Berechnungseinstieg angeboten.
+
+## 2. Eingaben
+
+Berechtigung, Erben und Vertretung, vorliegende Verzeichnisse, konkrete Lücken, Schenkungshinweise, Gutachten, Aufforderungen, Titel und Zustellungsnachweise.
+
+## 3. Ablauf und Checkliste
+
+1. Schuldner und Anspruchsinhalt festlegen. BGB Paragraf 2314 trifft den Erben; Unterlagen beim Testamentsvollstrecker ändern nicht automatisch den Anspruchsgegner.
+
+2. Privates Verzeichnis, notarielles Verzeichnis, Hinzuziehung, Wertermittlung, Einzelbelege und Versicherung trennen. Ein allgemeiner Anspruch auf sämtliche Belege folgt nicht ohne Weiteres aus Paragraf 2314.
+
+3. Nachlass und ergänzungsrelevante Schenkungen sachlich und zeitlich bestimmen. Bei Nießbrauch oder Ehegattenschenkungen nicht starr auf zehn Jahre beschränken.
+
+4. Notarielle Eigenrecherche an konkreten Spuren ausrichten. Verbleibende Unsicherheit nach gebotenen Ermittlungen ist kein automatischer Verweigerungsgrund.
+
+5. Bei fehlender Auskunft bestimmten Stufenantrag nach ZPO Paragraf 254, bei Titelverstoß passenden Vollstreckungsantrag formulieren. Versicherung nur bei ihrem gesetzlichen Tatbestand, nicht automatisch als nächste Stufe verlangen.
+
+### 3.1. Referenzen gezielt laden
+
+Für Nachforderung und Notarauftrag [Verzeichnis und Ermittlungen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/pflichtteil-auskunft-durchsetzen/references/verzeichnis-ermittlungen.md) laden. Bei Klage, Versicherung oder Vollstreckung [Stufenanträge und Vollstreckung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/pflichtteil-auskunft-durchsetzen/references/stufenantraege-vollstreckung.md) lesen.
+
+### 3.2. Bestimmtheit und Schuldnerbeschwer
+
+[BGH, Beschluss vom 16.09.2026, IV ZB 4/26](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2026/IV_ZB___4-26.pdf?__blob=publicationFile&v=1), Rn. 5–12: Bei Rechtsmitteln gegen einen privaten Auskunftstitel die Schuldnerbeschwer aus notwendigem Zeit-/Kostenaufwand belegen; keine Notarkostenpauschale und keine Bewertung nach dem Zahlungsinteresse des Gläubigers. Inhalt und Umfang des Titels anhand seines Wortlauts auslegen. Die dortige 600-Euro-Grenze beruht auf Übergangsrecht; die Entscheidung bestimmt nicht pauschal den Aufwand einer titulierten notariellen Aufnahme.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 2314, 260, 261; ZPO Paragrafen 253, 254, 888, 889; bei notarieller Verweigerung BNotO Paragraf 15.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Ausformuliertes Anspruchsschreiben oder bestimmter Antrag samt Gegenstands- und Lückenmatrix, Fristbegründung, Beweismitteln und getrenntem Verjährungsvermerk.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Ein unvollständiges notarielles Verzeichnis wird nach den konkreten ausgelassenen Positionen und Ermittlungsschritten beanstandet; eine ungezielte Forderung nach allen denkbaren Nachforschungen genügt nicht.
+
+---
+
+## Skill: `testamentsvollstreckung-fuehren`
+
+_Bereitet Amtsannahme und Zeugnis vor und organisiert Verzeichnis, Verwaltung, Rechnungslegung und Abwicklung nach der konkreten Verfügung, einschließlich Dauer- und Unternehmensvollstreckung._
+
+# Testamentsvollstreckung einrichten und führen
+
+## 1. Zweck und Anwendungsfall
+
+Für ordnungsgemäße Amtsführung oder Anordnung. Eigenständige Angriffe auf Pflichtverletzungen und Vergütungsstreit bleiben in den dafür vorgesehenen Aufgaben.
+
+## 2. Eingaben
+
+Verfügung und Eröffnung, Ernennung, Annahme, Weisungen, Dauer, Befreiungen, Erben, Inventar, Gesellschaftsverträge, Steueraufforderungen und Vergütungsregelung.
+
+## 3. Ablauf und Checkliste
+
+1. Ernennung und Aufgaben auslegen; Abwicklung, Verwaltung und Dauervollstreckung unterscheiden. Nachlassgerichtliche Ersatzernennung setzt eine tragfähige Anordnung voraus.
+
+2. Amtsannahme gegenüber dem Nachlassgericht und erforderlichenfalls Zeugnis nach BGB Paragraf 2368 vorbereiten. Keine erfundene allgemeine Annahmefrist von zwei oder vier Wochen ansetzen.
+
+3. Verzeichnis unverzüglich nach Annahme übermitteln, Werte sichern und Verwaltung dokumentieren. Erbenverfügungsbeschränkung, Prozessführungsbefugnis und unentgeltliche Verfügungen prüfen.
+
+4. Einnahmen, Ausgaben, Vermögensstatus, Verbindlichkeiten und offene Maßnahmen mit Belegen fortschreiben. Bei längerer Verwaltung jährliche Rechnungslegung auf Verlangen unterscheiden von zusätzlicher freiwilliger Berichterstattung.
+
+5. Gläubiger, Pflichtteile, Steuern, Auseinandersetzung und Freigabe rollengerecht abwickeln. Unternehmenshaftung nicht durch bloßen Hinweis auf das Amt als ausgeschlossen behandeln.
+
+### 3.1. Referenzen gezielt laden
+
+Bei Amtsbeginn [Amt, Verzeichnis und Zeugnis](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/testamentsvollstreckung-fuehren/references/amt-verzeichnis.md) laden. Bei laufender Verwaltung oder Abschluss [Verwaltung und Rechnungslegung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/testamentsvollstreckung-fuehren/references/verwaltung-rechnung.md) lesen.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 2197 bis 2224, 2368; FamFG Paragraf 354; ErbStG Paragraf 31 Absatz 5.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Annahme- oder Zeugnisentwurf, Befugnismatrix, Verwaltungsplan und vollständige Rechnungslegung mit erläuterten Belegen, Freigaben und Abschlussplan.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Eine langjährige Verwaltung benötigt auf Verlangen jährliche Rechnungslegung; BGB Paragraf 2218 Absatz 2 verlangt sie nicht ausnahmslos ungefragt.
+
+---
+
+## Skill: `testament-auslegen-anfechten`
+
+_Klärt den Inhalt widersprüchlicher oder laienhafter Verfügungen und prüft eigenständig Anfechtungsgrund, Berechtigung, Erklärung und Frist; liefert Auslegungsvermerk oder Anfechtungsentwurf._
+
+# Testament auslegen und Anfechtung prüfen
+
+## 1. Zweck und Anwendungsfall
+
+Für bestehende Verfügungen und Streit über Erbeinsetzung, Vermächtnis, Ersatzberufung oder Wirksamkeit. Auslegung, Formmangel, Testierunfähigkeit und Anfechtung sind verschiedene Prüfwege.
+
+## 2. Eingaben
+
+Originale, Entwürfe, Eröffnungsniederschriften, frühere Verfügungen, Familien- und Vermögensbild bei Errichtung, Willensäußerungen, Kenntnisdaten und Beweise.
+
+## 3. Ablauf und Checkliste
+
+1. Urkunden chronologisch nach Form, Widerruf und Bindung ordnen. Jede Fassung vollständig und mit Fundstellen lesen.
+
+2. Wirklichen Willen aus Wortlaut, Zusammenhang und belegbaren Umständen ermitteln. Laienbegriffe nicht automatisch juristisch auslegen; die Andeutung im formgültigen Text konkret bezeichnen.
+
+3. Individuelle Auslegung vor ergänzender Auslegung und gesetzlichen Zweifelsregeln prüfen. Erbeinsetzung, Vermächtnis, Teilungsanordnung, Auflage sowie Ersatz- und Nacherbfolge unterscheiden.
+
+4. Anfechtung gesondert prüfen: Irrtum oder Drohung, übergangene Pflichtteilsberechtigte, Kausalität, Vorteil des Anfechtenden, richtiger Empfänger und Frist. Auch die dann maßgebliche Erbfolge berechnen.
+
+5. Stärkste Gegenlesart und deren Beweisbedarf darstellen. Eine vertretbare Auslegung ist kein gesicherter letzter Wille und kein automatischer Einziehungsgrund.
+
+### 3.1. Referenzen gezielt laden
+
+Bei konkurrierenden Lesarten und jedem Anfechtungsauftrag [Auslegung und Anfechtung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/testament-auslegen-anfechten/references/auslegung-anfechtung.md) laden.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 133, 2064, 2065, 2069, 2078 bis 2085, 2087; FamFG Paragraf 26 im Nachlassverfahren.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Verfügungsmatrix, begründete Auslegungsvarianten und vollständiger Erbfolgevergleich; bei Anfechtung Erklärung oder Schriftsatz mit Grund, Kenntnis, Berechtigung und Belegen.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Die Formulierung, ein Kind solle das Haus erhalten, wird anhand des damaligen Gesamtvermögens geprüft; sie bedeutet weder zwingend Alleinerbschaft noch stets Vermächtnis.
+
+---
+
+## Skill: `krypto-nachlass-sichern`
+
+_Sichert Wallets und Kryptowerte im Erbfall, klärt Schlüssel- und Mitwirkungsrechte, dokumentiert Bestände und Steuerdaten und bereitet kontrollierte Übergabe oder gerichtlichen Schutz vor._
+
+# Krypto-Nachlass sichern und Übertragung vorbereiten
+
+## 1. Zweck und Anwendungsfall
+
+Für Hardware-, Software-, Verwahr- und Mehrsignatur-Wallets einschließlich unzugänglicher oder unbekannter Bestände. Keine Transaktion oder Schlüsseloffenlegung ohne konkret autorisierten sicheren Vollzug.
+
+## 2. Eingaben
+
+Wallettyp, öffentliche Adressen, Geräte, Verwahrer, Schlüsselverwahrungsort ohne Schlüsselinhalt, Erben und Befugnisse, Bestand, Transaktionshistorie, Anschaffungsdaten und Kursbelege.
+
+## 3. Ablauf und Checkliste
+
+1. Geräte und Nachweise sichern; keine PIN-Versuche, Löschung oder Wiederherstellung auf ungesicherten Geräten. Seeds und private Schlüssel nie in Chat, Testament, Schriftsatz oder allgemeiner Akte erfassen.
+
+2. Rechtliche Nachlasszugehörigkeit von technischer Signaturmacht trennen. Bei Mehrsignatur-Wallets Schwelle, erreichbare Schlüsselhalter und deren vertragliche Mitwirkungspflicht feststellen.
+
+3. Verwahrer kontaktiert man über verifizierte Nachlasswege mit datensparsamer Legitimation. Herausgabe nicht pauschal auf eine Analogie zu BGB Paragraf 985 oder InsO Paragraf 97 stützen.
+
+4. Stichtagsbestand, Tokenfunktion, Wertquelle, Zeitzone, Anschaffung und laufende Erträge dokumentieren. Erbschaftsteuer, private Veräußerung und laufende Einkünfte getrennt beurteilen.
+
+5. Übergabeziel, Netzwerk, Berechtigung, Signaturplan und Kontrollnachweis vorbereiten. Sicherung und vorläufiger Rechtsschutz dürfen keine unkontrollierte Vorwegnahme der Verwertung sein.
+
+### 3.1. Referenzen gezielt laden
+
+Nach Wallettyp [Zugang und Sicherung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/krypto-nachlass-sichern/references/zugang-sicherung.md) laden. Bei Bewertung oder Steuer [Bewertung und Steuerdaten](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/krypto-nachlass-sichern/references/bewertung-steuern.md) lesen. Für Schreiben und Übergabe [Ansprüche und Übergabe](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/krypto-nachlass-sichern/references/ansprueche-uebergabe.md) verwenden.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 1922, 2038, 2040 und 2314; ZPO Paragrafen 935 und 940; ErbStG Paragrafen 9, 11 und 12; EStG Paragrafen 20, 22 und 23 nach Tokenfunktion.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Sicherungs- und Übergabeplan ohne Geheimschlüssel, Bestands- und Bewertungsblatt, Steuerdatenanforderung sowie vollständiges Verwahreranschreiben oder Sicherungsantrag.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Eine gesperrte Hardware-Wallet führt zur beweiserhaltenden Sicherung und begrenzten fachlichen Wiederherstellungsprüfung, nicht zu weiteren PIN-Versuchen oder automatischer steuerlicher Nullbewertung.
+
+---
+
+## Skill: `pflichtteilsergaenzung-berechnen`
+
+_Bewertet lebzeitige Zuwendungen einschließlich Nießbrauch, Wohnungsrecht und gemischter Schenkung, berechnet Abschmelzung und Ergänzung und prüft den subsidiären Anspruch gegen Beschenkte._
+
+# Pflichtteilsergänzung aus Schenkungen berechnen
+
+## 1. Zweck und Anwendungsfall
+
+Für Ergänzung aus lebzeitigen Schenkungen. Nicht mit der Bindungsabwehr nach BGB Paragraf 2287 oder Ausgleichung unter Miterben gleichsetzen.
+
+## 2. Eingaben
+
+Erbfall und Pflichtteilsquote, Nachlassrechnung, Schenkungsverträge und Vollzug, Empfänger, Gegenleistungen, Nutzungs- und Rückforderungsrechte, Eheende, Wertnachweise und Eigengeschenke.
+
+## 3. Ablauf und Checkliste
+
+1. Jede Zuwendung mit Vertrags- und Leistungsdatum, Gegenstand, Empfänger und unentgeltlichem Anteil erfassen. Grundstück, Konto, Versicherung und Gesellschaftsanteil benötigen ihren jeweiligen Vollzugsnachweis.
+
+2. Wirtschaftliche Ausgliederung prüfen. Uneingeschränkter Nießbrauch kann den Fristbeginn verhindern; Wohnungsrecht verlangt eine konkrete Prüfung von Umfang und Genussverlust.
+
+3. Ehegattenregel und vollständig verstrichene Jahresabschnitte anwenden. Keine Kalendermonats- oder Jahreszahldifferenz als Ersatz für Stichtagsrechnung.
+
+4. Verbrauchbare Sachen und andere Gegenstände bei der Bewertung trennen. Kaufkraftausgleich, Niederstwert, Gegenleistung und Nutzungsrecht ohne Doppelabzug berechnen.
+
+5. Ergänzung, Eigengeschenke, eigene Erbteile und Haftungseinwendungen berücksichtigen. Anspruch gegen Erben und subsidiäre Beschenktenhaftung mit gesonderter Verjährung und Reihenfolge prüfen.
+
+### 3.1. Referenzen gezielt laden
+
+Bei jeder Ergänzungsrechnung [Schenkungsbewertung und Abschmelzung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/pflichtteilsergaenzung-berechnen/references/schenkungen-bewerten.md) laden. Bei unzureichender Erbenhaftung oder Verjährungsdruck [Anspruch gegen Beschenkte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/pflichtteilsergaenzung-berechnen/references/beschenktenhaftung.md) lesen.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 2325 bis 2329, 2330, 2332; Paragrafen 195, 199 und 200; bei Nutzungsrechten Paragrafen 1030 und 1093.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Schenkungschronologie, Nutzungsrechts- und Fristmatrix, reale und fiktive Nachlassrechnung sowie beziffertes oder gestuftes Begehren je Gegner. Jede Rechengröße erhält einen Beleg oder eine offene Annahme.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Nach sechs vollständig verstrichenen Jahren werden grundsätzlich vier Zehntel angesetzt. Bei 500.000 EUR relevanter Schenkung und Quote ein Viertel sind das 50.000 EUR vor weiteren Korrekturen.
+
+---
+
+## Skill: `testamentsvollstrecker-kontrolle-haftung`
+
+_Prüft Auskunft, Rechnungslegung und Pflichtverletzungen des Testamentsvollstreckers, trennt Entlassung und Schadensersatz und erstellt den jeweils passenden Antrag oder die Haftungsabwehr._
+
+# Testamentsvollstrecker kontrollieren und Ansprüche durchsetzen
+
+## 1. Zweck und Anwendungsfall
+
+Für Beanstandung oder Verteidigung der Amtsführung. Ein schlechtes Anlageergebnis oder bloßes Misstrauen ist nicht automatisch ein wichtiger Entlassungsgrund.
+
+## 2. Eingaben
+
+Verfügung, Zeugnis, Annahme, Verzeichnis, Rechnungen, Entscheidungen, Fristen, Korrespondenz, konkrete Beanstandungen, Schäden und mögliche Entlastungserklärungen.
+
+## 3. Ablauf und Checkliste
+
+1. Pflicht, Fälligkeit, Empfänger und Befugnis feststellen. Erbeninformation nach BGB Paragrafen 2215 und 2218 von Pflichtteilsauskunft des Erben unterscheiden.
+
+2. Für jeden Vorgang Entscheidungslage, Informationsbasis, Interessenkonflikt, wirtschaftliche Folge und Beleg sichern. Rückschaufehler vermeiden.
+
+3. Auskunfts- oder Rechnungslegungsverlangen und gegebenenfalls Abhilfe verlangen. Eine fehlende Abmahnung schließt Entlassung nicht generell aus.
+
+4. Wichtigen Grund nach Paragraf 2227, Beteiligtenantrag, Anhörung und Beschwerde zum Nachlassverfahren zuordnen. Schadensersatz nach Paragraf 2219 im Zivilprozess eigenständig begründen.
+
+5. Pflichtverletzung, Verschulden, Kausalität und Schaden sowie Umfang einer Entlastung trennen. Nachfolge im Amt und Sicherung gefährdeter Gegenstände planen.
+
+### 3.1. Referenzen gezielt laden
+
+Bei Entlassung, Haftung oder Entlastung [Kontrolle und Rechtsschutz](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/testamentsvollstrecker-kontrolle-haftung/references/kontrolle-rechtsschutz.md) laden.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 2215 bis 2219, 2220 und 2227; FamFG Paragrafen 58 und 63; ZPO für Leistungs- und Schadensersatzklage.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Pflicht- und Beweismatrix, bestimmtes Informationsverlangen, Entlassungsantrag oder bezifferte Schadensersatzklage beziehungsweise Erwiderung.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Eine eigenmächtige Entnahme und eine bloß schwache Rendite werden getrennt geprüft; die Entlassung ersetzt nicht die Durchsetzung des Rückzahlungsanspruchs.
+
+---
+
+## Skill: `gesetzliche-erbfolge-bestimmen`
+
+_Ermittelt gesetzliche Erben aus Personenstand, Abstammung, Adoption, Güterstand und Todesreihenfolge und liefert einen belegten Stammbaum mit nachvollziehbaren Quoten und Ersatzszenarien._
+
+# Gesetzliche Erbfolge und Quoten bestimmen
+
+## 1. Zweck und Anwendungsfall
+
+Für die gesetzliche Ausgangserbfolge, auch als Gegenrechnung zu einer Verfügung oder zum Pflichtteil. Auslegung einer streitigen Verfügung ist ein anderer Auftrag.
+
+## 2. Eingaben
+
+Sterbeurkunden, Geburts- und Heiratsurkunden, Scheidungs- und Adoptionsbeschlüsse, Ehevertrag, Ausschlagungen und alle Verfügungen.
+
+## 3. Ablauf und Checkliste
+
+1. Erbstatut und Todesreihenfolge vor der Quotenrechnung festlegen; bei mehreren Todesfällen jeden Nachlass getrennt fortschreiben.
+
+2. Verwandtschaftsordnungen, Stämme, Repräsentation und Eintrittsrecht aus Urkunden ableiten. Stiefkinder ohne Adoption und Halbgeschwister nicht falsch zuordnen.
+
+3. Ehegatten- oder Lebenspartnerrecht, Scheidungsvoraussetzungen und Güterstand bestimmen. Gütertrennung, Gütergemeinschaft und Zugewinngemeinschaft nicht gleich rechnen.
+
+4. Vorversterben, Ausschlagung, Erbunwürdigkeit und Verzicht mit jeweiligem Rechtsgrund prüfen. Abkömmlingswirkung eines Verzichts nicht vermuten.
+
+5. Quoten als Brüche rechnen und auf Summe eins kontrollieren. Gesetzliche Ausgangsquote, Verfügung, Ausschlussgrund und Endquote pro Person unterscheiden.
+
+Bei Tod während eines Scheidungsverfahrens Paragraf 1933 BGB anhand der Scheidungsakte prüfen: Lagen beim Erbfall die materiellen Scheidungsvoraussetzungen und ein wirksamer Scheidungsantrag oder eine Zustimmung des Erblassers vor? BGH, Beschluss vom 13.05.2026 – IV ZB 7/25, [Rn. 8–25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZB___7-25.pdf?__blob=publicationFile&v=1): Selbst 18 Jahre Nichtbetreiben eines Verfahrens ersetzen keine wirksame Rücknahme und begründen keine teleologische Ausnahme. Antrag, Zustimmung, Rücknahme und gegebenenfalls erforderliche Zustimmung zur Rücknahme mit Zugang und Verfahrensstand belegen; erst danach die gesetzliche Ehegattenquote bestimmen. Bloße Trennung schließt das Erbrecht nicht aus. Verfügung von Todes wegen und deren mögliche Unwirksamkeit sind gesondert zu prüfen.
+
+### 3.1. Referenzen gezielt laden
+
+Bei Adoption, entfernteren Verwandten oder Ehegattenvarianten [Status und Quotenbeispiele](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-erbrecht/skills/gesetzliche-erbfolge-bestimmen/references/status-quoten.md) laden.
+
+## 4. Quellenpflicht
+
+BGB Paragrafen 1924 bis 1936, 1371, 1754, 1770, 1772, 2349; LPartG Paragraf 10, soweit einschlägig.
+
+Es gilt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/references/zitierweise.md). Tragende Normfassung, Übergangsrecht und Rechtsprechung vor Verwendung amtlich prüfen. Gesicherte Quelle, Aktenfund, Schlussfolgerung und offene Recherche trennen; keine Literaturfundstelle aus Modellwissen. Die thematischen Referenzen enthalten Rechercheanker, keine Garantie fortdauernder Aktualität.
+
+## 5. Ausgabeformat
+
+Stammbaum mit Urkundenfundstellen und Quotenrechnung, daneben die bei einer offenen Statusfrage abweichende Variante. Pflichtteil nicht mit dem Erbteil gleichsetzen.
+
+Das Endprodukt steht in vollständigen, ausformulierten Sätzen; keine Skelette, Halbsätze oder reinen Aufzählungen als Enddokument. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen zwischen Gliederungsebenen. Bei Markdown oder Chat diesen Formatwunsch als Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Bei Ehegatte in Zugewinngemeinschaft und zwei Kindern ergeben sich grundsätzlich ein Halb und zweimal ein Viertel; bei fehlenden Kindern reicht das Fehlen der Eltern nicht für Alleinerbschaft des Ehegatten.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

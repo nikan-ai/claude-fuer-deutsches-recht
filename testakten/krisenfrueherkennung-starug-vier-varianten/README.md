@@ -1,29 +1,39 @@
 # Akte: Krisenfrüherkennung & StaRUG – Vier Varianten
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 133 KB) | PDF | [`gesamt-pdf/krisenfrueherkennung-starug-vier-varianten_gesamt.pdf`](gesamt-pdf/krisenfrueherkennung-starug-vier-varianten_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-krisenfrueherkennung-starug-vier-varianten.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-krisenfrueherkennung-starug-vier-varianten.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-krisenfrueherkennung-starug-vier-varianten-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-krisenfrueherkennung-starug-vier-varianten-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/krisenfrueherkennung-starug-vier-varianten_gesamt.pdf`](gesamt-pdf/krisenfrueherkennung-starug-vier-varianten_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-krisenfrueherkennung-starug-vier-varianten.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-krisenfrueherkennung-starug-vier-varianten.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-krisenfrueherkennung-starug-vier-varianten-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-krisenfrueherkennung-starug-vier-varianten-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-krisenfrueherkennung-starug-vier-varianten` (Akte) | [testakte-krisenfrueherkennung-starug-vier-varianten.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-krisenfrueherkennung-starug-vier-varianten.zip) |
+| `testakte-krisenfrueherkennung-starug-vier-varianten` (Akte) | [testakte-krisenfrueherkennung-starug-vier-varianten.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-krisenfrueherkennung-starug-vier-varianten.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 ---
 
@@ -246,6 +256,7 @@ mehr greift, aber eine geordnete Insolvenz noch möglich ist.
 | `01_veyra_Anzeige_Restrukturierungssache_AG-Frankfurt_12-05-2026.pdf` | A | PDF | Anzeige der Restrukturierungssache gem. § 31 StaRUG beim AG Frankfurt |
 | `01_veyra_Handnotiz_Hellinghaus-Karpov_10-05-2026.pdf` | A | PDF | Handschriftliche Notiz der GF (Gelber Block); interne Entscheidungsdokumentation |
 | `01_veyra_Liquiditaetsplan_24-Monate_Stand-30-04-2026.xlsx` | A | XLSX | 24-Monats-Liquiditätsplan mit Ampel-Logik, Szenarien Base/Best/Stress |
+| `01_veyra_Mail_Nordlicht-Cloud_Zahlungsrueckstand_02-05-2026.eml` | A | EML | Nordlicht Cloud: drei offene Rechnungen über EUR 354.000, Abschaltungsankündigung zum 15.05.2026, Gesprächsangebot Stundung |
 | `02_hartmann_Gesellschaftsprofil_Ersterfassung_15-04-2026.pdf` | B | PDF | Gesellschaftsprofil + Krisendiagnose + Covenant-Analyse (internes Mandatsdossier) |
 | `02_hartmann_BWA_Q1-2026_15-04-2026.pdf` | B | PDF | BWA Q1/2026 mit Vergleich Q1/2025; EBITDA-Brückenrechnung |
 | `02_hartmann_Bankenrunde_Protokoll_05-05-2026.pdf` | B | PDF | Bankenrunden-Protokoll (8 Teilnehmer); Standstill-Vereinbarung unterzeichnet |
@@ -258,10 +269,10 @@ mehr greift, aber eine geordnete Insolvenz noch möglich ist.
 | `04_salaltbar_Warnschreiben_§102_StaRUG_29-04-2026.pdf` | D | PDF | § 102-Warnschreiben RAin Wandelmoser an Çelebi-Drebenstedt |
 | `04_salaltbar_Mail-Kette_Celebi-Drebenstedt-an-Wandelmoser_27-04-2026.pdf` | D | PDF | Vollständige E-Mail-Kette (3 Nachrichten, 27.–28.04.2026); Mandatsanbahnung |
 | `04_salaltbar_Filialkostenrechnung_2025.xlsx` | D | XLSX | Filialübersicht + Verbindlichkeiten-Blatt; GuV je Filiale; Ampelkennzeichnung |
+| `04_salaltbar_Verbindlichkeiten_Stand_26-04-2026.csv` | D | CSV | Fällige Verbindlichkeiten je Gläubiger mit Mahnstand; Summe EUR 43.300 gegen Kassenbestand EUR 3.400 |
 | `Mandatsuebersicht_alle_4_Varianten_22-05-2026.pdf` | alle | PDF | Kanzlei-Übersicht aller 4 Mandate; Statusübersicht; Az. und nächste Schritte |
-| `Notiz_Vergleich_Krisenstadien.txt` | alle | TXT | Interne Kanzleinotiz; synoptischer Vergleich Krisenstadien + Lernpunkte |
 
-**Gesamt: 20 Einzeldateien** (5 × Variante A, 4 × Variante B, 4 × Variante C, 4 × Variante D + 2 übergreifend)
+**Gesamt: 22 Einzeldateien** (6 × Variante A, 4 × Variante B, 4 × Variante C, 5 × Variante D + 2 übergreifend)
 
 ---
 
@@ -294,7 +305,7 @@ Vier Instrumente, vier Anwendungssituationen:
 
 ### 3. Berater- und Überwachungspflichten erfüllen
 
-- **§ 102 StaRUG Warnschreiben:** Pflicht des Rechtsanwalts bei drohender ZU; muss fristgerecht und schriftlich erfolgen; vier Warnschreiben in dieser Akte (Varianten A–D)
+- **Hinweisschreiben:** In den vier Varianten ist zu prüfen, ob ein Rechtsanwalt oder anderer genannter Berufsträger einen Jahresabschluss erstellt, Anhaltspunkte für einen möglichen Insolvenzgrund offenkundig sind und die mögliche Insolvenzreife dem Mandanten vermutlich nicht bewusst ist. Paragraf 102 StaRUG schreibt weder eine feste Frist noch eine bestimmte Form vor.
 - **§ 1 StaRUG Frühwarnsystem:** AR und Vorstand sind zur Einrichtung verpflichtet; AR-Protokoll Variante A belegt ordnungsgemäße Erfüllung
 - **§ 91 Abs. 2 AktG / § 52 GmbHG:** Parallelvorschriften zu § 1 StaRUG für AG und GmbH/gGmbH
 - **§ 15a InsO Antragspflicht:** Dreiwochen-Frist bei GF-Kenntnis der Insolvenzreife; Variante D läuft aktiv
@@ -326,8 +337,8 @@ Mandatsanbahnung die relevanten Fakten extrahiert:
 
 - Liquiditätsstatus aus E-Mail-Text ableiten (EUR 3.400, EUR 43.300 fällig)
 - Erstinstruktionen der RAin qualifizieren (Zahlungsstopp, Unterlagenliste, Kostentransparenz)
-- StaRUG-Tauglichkeitsfrage korrekt beantworten (nein, da zu groß/zu teuer/zu spät)
-- Mietvertragsproblem Sonnenallee rechtlich einordnen (Kündigung nur via § 109 InsO)
+- Verfügbare Instrumente anhand von Krisenstand, Kosten, Beteiligten und Zeitbedarf vergleichen
+- Mietvertrag Sonnenallee und dokumentierte Kündigungserklärungen auswerten
 
 ### 7. Besonderheiten gemeinnütziger Rechtsträger (Fall A)
 

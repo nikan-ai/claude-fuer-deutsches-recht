@@ -1,18 +1,25 @@
 # Akte: Aussage-gegen-Aussage-Verfahren Mainz
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 33 KB) | PDF | [`gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf`](gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf`](gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -66,7 +73,7 @@ Mandatsbezug: Leonie Hartmann, Geschädigte und Nebenklageinteressentin
 
 ```
 strafrecht-sexualdelikt-aussage-gegen-aussage-mainz/
-├── 01_mandatsnotiz_erstgespraech.docx                     Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `13_rechtsmedizinischer_befundbericht_2026-04-07.docx` | Rechtsmedizinischer Befundbericht mit Spurensicherung |
 ├── 02_sachverhalt_chronologie.docx                        Ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                       Auszüge aus polizeilichen und staatsanwaltlichen Vermerken
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx              Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -77,10 +84,12 @@ strafrecht-sexualdelikt-aussage-gegen-aussage-mainz/
 ├── 09_originalanlage_behoerdenvermerk.pdf                 PDF-Anlage mit behördlichem oder fachlichem Vermerk
 ├── 10_kontakt_nachrichten_zeitleiste.csv                  Aus mehreren Quellen zusammengeführte Zeitleiste mit objektiven Ankern
 ├── 11_zeugenvernehmung_demir_2026-04-30.docx              Aussage der Freundin zu Sprachnachrichten und Zeitverlauf
+├── 14_zwischennachricht_lg_mainz_zeugenschutz_2026-07-28.docx   Zwischennachricht der Kammer zu Terminplanung, Wartebereich und Videoanlage
 ├── eml/
 │   ├── 01_rechtsmedizin_befunduebersendung_2026-04-08.eml     Übersendung des Untersuchungsbefunds, unspezifische Belastungssymptome
 │   ├── 02_frauennotruf_prozessbegleitung_2026-04-20.eml       Angebot psychosozialer Prozessbegleitung nach Paragraf 406g StPO
-│   └── 03_ladung_zeugin_demir_2026-04-22.eml                  Ladung der Zeugin zur Vernehmung mit Bitte um Sicherung der Nachrichten
+│   ├── 03_ladung_zeugin_demir_2026-04-22.eml                  Ladung der Zeugin zur Vernehmung mit Bitte um Sicherung der Nachrichten
+│   └── 04_taxi_fahrtdaten_funk_mainz_2026-05-06.eml           Fahrtdaten der Taxizentrale mit Bestellzeit, Fahrtverlauf und Fahrerhinweis
 ├── whatsapp/
 │   └── chatverlauf.txt                                    Chat Hartmann/Reimers: freundlicher Verlauf vorher, abrupter Abbruch danach
 ├── README.md                                              Diese Übersicht

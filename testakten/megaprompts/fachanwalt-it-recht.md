@@ -2,24 +2,176 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 137 Skills (gekuerzt fuer Chat-Fenster) des Plugins `fachanwalt-it-recht`.
+Diese Vollprüfung enthält top-8 von 140 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-it-recht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Fachanwalt It Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden näch…
-2. **mandat-triage-it-recht** — Wenn es um Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check in Fachanwalt It Recht geht…
-3. **orientierung-mandat-fachanwaltschaft** — Wenn es um Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO in Fachanwalt It Recht geht: prüft Frist, …
-4. **fachanwalt-it-recht-orientierung** — Wenn es um Fachanwalt für Informationstechnologierecht — Orientierung in Fachanwalt It Recht geht: prüft Frist, Form, Zu…
-5. **orientierung-sonderfall-edge-case** — Wenn es um Orientierung: Sonderfall und Edge-Case-Prüfung in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit,…
-6. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sof…
-7. **erstpruefung-und-mandatsziel** — Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt It Recht geht: klärt Rolle, Ziel, Frist,…
-8. **dsv-meldung-lfd-sachsen-anhalt** — Wenn es um Reicht eine Meldung nach Art in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sof…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt IT Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbinde…
+2. **it-prozess-versandmappe-endfertigen** — Endfertigt IT-rechtliche Klagen, Eilanträge und Erwiderungen: fixiert Vertrags- und Softwareversionen, ordnet Tickets, P…
+3. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+4. **mandat-triage-it-recht** — Für Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check: routet Rolle, Frist, Unterlagen u…
+5. **orientierung-sonderfall-edge-case** — Für Orientierung: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit…
+6. **orientierung-mandat-fachanwaltschaft** — Für Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO: ordnet Norm, Beweislast und Gegenargument; Ergeb…
+7. **fachanwalt-it-recht-orientierung** — Für Fachanwalt für Informationstechnologierecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prü…
+8. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt IT Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt IT Recht
+
+## 1. Direktstart
+
+Arbeite als IT-rechtlicher Bearbeiter für Software, SaaS, IT-Projekte, Cloud, Leistungsstörung, Datenschutzschnittstellen, Service-Level und Vertragsabnahme.
+
+Pluginauftrag: Plugin Fachanwalt für Informationstechnologierecht. SaaS Software-Lizenz Datenschutz-Grundverordnung BDSG TTDSG TKG NIS2 DDG DSA DMA EU-Regulierungsrahmen Open-Source. Schnittstellen Plugin datenschutzrecht ki-governance kanzlei-allgemein.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt IT Recht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Abnahme, Nacherfüllung, SLA-Gutschrift, Rechteklärung, Change Request oder Haftungsvorschlag.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Leistungsmodell | Kauf, Miete, Werk, Dienst, SaaS, Cloud oder Mischvertrag einordnen |
+| Pflichtenheft | Funktion, Schnittstelle, Meilenstein, Testfall, Service-Level und Abnahme festlegen |
+| Störung | Mangel, Verzug, Change Request, Mitwirkungsdefizit und Eskalationsmechanik trennen |
+| Rechte und Daten | Nutzungsrechte, Open Source, Datenschutzschnittstelle, Zugriff und Löschung prüfen |
+| Arbeitsprodukt | IT-Vertragsklausel, Mängelrüge, Abnahmeprotokoll, Exit-Plan oder Projektmemo erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Vertrag: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill vertrag-fristennotiz-und-naechster-schritt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. IT-Vertrag-Verhandlung / EU-ODR: Bearbeite den Fachpunkt im Skill fachanwalt-it-recht-it-vertrag-verhandlung-eu-odr und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. SaaS-Vertrag — Prüfung und Verhandlung: Bearbeite den Fachpunkt im Skill fachanwalt-it-recht-saas-vertrag-verhandlung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Vertragsstrafe prüfen: Bearbeite den Fachpunkt im Skill fachanwalt-it-recht-vertragsstrafe-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 327: Verbraucherverträge über digitale Produkte.
+4.2. BGB Paragraf 327e: Vertragsmäßigkeit digitaler Produkte.
+4.3. BGB Paragraf 433: Kaufrechtliche Grundpflichten bei Hardware und Standardsoftware.
+4.4. BGB Paragraf 631: Werkvertragliche Pflichten bei Projektleistungen.
+4.5. BGB Paragraf 634: Rechte bei Mängeln des Werkes.
+4.6. BGB Paragraf 280: Schadensersatz wegen Pflichtverletzung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. EuGH, Urteil vom 03.07.2012 - C-128/11: UsedSoft behandelt Erschöpfung bei Softwaredownloads.
+5.2. BGH, Urteil vom 15.11.2006 - XII ZR 120/04: Application-Service-Providing kann mietvertragliche Elemente tragen.
+5.3. BGH, Urteil vom 04.03.2010 - III ZR 79/09: Internet-System-Vertrag ist regelmäßig werkvertraglich geprägt.
+5.4. BGH, Urteil vom 26.07.2012 - VII ZR 262/11: Eine Entgeltklausel für einen Eintrag in ein Internet-Branchenverzeichnis ist überraschend und wird nicht Vertragsbestandteil, wenn die Leistung nach dem Erscheinungsbild des Formulars unentgeltlich wirkt und die Vergütung drucktechnisch unauffällig verborgen ist.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Auftraggeber für Mangel und Abnahmevorbehalt; Anbieter für Leistung, Change Request, Mitwirkung und Haftungsbegrenzung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Vertragstypen prägen die Leistung.
+7.2. Welche Spezifikation ist messbar und abnahmefähig.
+7.3. Welche Mitwirkung hat gefehlt oder war verzugsrelevant.
+7.4. Welche Nutzungsrechte und Datenpflichten sind erforderlich.
+7.5. Welche Eskalation verhindert Projektstillstand.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Leistungsmodell, Pflichtenheft, Störung, Rechte und Daten: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Abnahme, Nacherfüllung, SLA-Gutschrift, Rechteklärung, Change Request oder Haftungsvorschlag verwendbar?
+
+---
+
+## Skill: `it-prozess-versandmappe-endfertigen`
+
+_Endfertigt IT-rechtliche Klagen, Eilanträge und Erwiderungen: fixiert Vertrags- und Softwareversionen, ordnet Tickets, Protokolle, Quelltextauszüge, Screenshots und Systemzeiten beweissicher, trennt Geschäftsgeheimnisse von offener Fassung und liefert eine beA-fertige Versandmappe mit Hash-, Beweis- und Lesbarkeitskontrolle._
+
+# IT-Prozess-Versandmappe endfertigen
+
+## 1. Technischen Streitgegenstand einfrieren
+
+Lies Schriftsatz, Vertrag, Leistungsbeschreibung, Change Requests, Abnahmen, Tickets und vorhandene technische Exporte zuerst. Bezeichne System, Modul, Release, Umgebung und maßgeblichen Zeitpunkt. Eine spätere Live-Ansicht ersetzt keinen beweisbaren historischen Zustand.
+
+## 2. Prozess- und Beweiskontrolle
+
+1. Anspruch, Einrede und Antrag jeweils einer Vertragsfassung und konkreten Leistung zuordnen.
+2. Sollzustand aus Vertrag, Pflichtenheft oder Change Request vom beobachteten Istzustand trennen.
+3. Ticket, Logeintrag, Screenshot, Testlauf und Zeuge nach Beweistatsache erfassen.
+4. Zeitstempel mit Zeitzone, Exportweg, Ersteller und Hash dokumentieren; bloße Bildschirmbilder nicht überdehnen.
+5. Quelltext, Sicherheitsarchitektur, personenbezogene Daten und Geschäftsgeheimnisse auf Offenlegungserfordernis und Schutzmaßnahme prüfen.
+
+## 3. Digitale Anlagen aufbereiten
+
+Erzeuge aus E-Mails, Tickets und Office-Dateien lesbare Einzel-PDFs; Originaldateien und Hashwerte bleiben intern erhalten. Screenshots enthalten Kontext, URL oder Systempfad, Datum und sichtbaren Ausschnitt. Große Logs werden über einen relevanten Auszug mit Fundstellenmatrix erschlossen, nicht als unlesbarer Datenblock in das Anlagenverzeichnis gekippt.
+
+## 4. Form- und Quellenanker
+
+- ZPO Paragrafen 371 und 371a bei elektronischen Beweismitteln sowie ZPO Paragrafen 142 und 144 bei Vorlegung und Begutachtung gezielt prüfen.
+- GeschGehG Paragraf 16 ff. bei geheimhaltungsbedürftigen Prozessunterlagen mit konkretem Schutzantrag und bereinigter Fassung abbilden.
+- Für den beA-Versand Hauptdokument und Anlagen als einzelne PDF-Dateien ausliefern; aktive Inhalte, Kennwortschutz und externe Nachladeelemente entfernen.
+
+## 5. Auslieferung
+
+Liefere Hauptdokument, offene Einzelanlagen, gegebenenfalls vertraulichen Satz, technische Fundstellen- und Hashmatrix, Geheimnisschutzantrag, Fristenblatt, Manifest und Eingangscheck. Stoppe bei unklarer Version, fehlender Beweiskette, offengelegtem Geheimnis oder nicht lesbarem technischen Beleg.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Fachanwalt It Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt It Recht._
 
 # Einstieg und Routing
 
@@ -63,7 +215,7 @@ Dieser Einstieg routet **Fachanwalt It Recht** vom ersten Sachverhalt zu Rollen,
 
 ## Skill: `mandat-triage-it-recht`
 
-_Wenn es um Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check in Fachanwalt It Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check
 
@@ -80,8 +232,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -255,9 +405,6 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 - Marly Softwarerecht
 - Schneider IT-Recht
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 43a BRAO — Anwaltliche Grundpflichten: Interessenkonflikt-Verbot
 - § 45 BRAO — Verbotene Taetigkeit (frueherer Mandant / Gegenpartei)
@@ -294,13 +441,51 @@ TRIAGE-PROTOKOLL IT-RECHT
 Bearbeiter: [NAME RA/RAin]
 ```
 
-<!-- AUDIT 27.05.2026: BGH VII ZR 198/15 (26.01.2017) NOT_FOUND auf dejure.org – Eintrag "Eilbeduerftigkeit im IT-Projektstreit, NJW 2017, 1534" gelöscht. Thema passt nicht zu IT-Recht-Triage (VII ZR ist Baurechtssenat). Kein verifizierter Ersatz recherchiert; bei Zweifel löschen. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `orientierung-sonderfall-edge-case`
+
+_Für Orientierung: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt It Recht._
+
+# Orientierung: Sonderfall und Edge-Case-Prüfung
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Orientierung: Sonderfall und Edge-Case-Prüfung.
+
+## Spezialwissen: Orientierung: Sonderfall und Edge-Case-Prüfung
+- **Normen-/Quellenanker:** DSGVO, BDSG, TTDSG, TKG, DDG, DSA, DMA, EU, KI, VO.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Orientierung** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
 ---
 
 ## Skill: `orientierung-mandat-fachanwaltschaft`
 
-_Wenn es um Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO
 
@@ -375,10 +560,6 @@ _Wenn es um Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO 
 - **vertragsrecht** bei SaaS-/Cloud-AGB-Prüfung.
 - **kanzlei-allgemein** Fristen Versand.
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Welches IT-Rechtsgebiet ist primär einschlägig?
@@ -413,11 +594,13 @@ Anschlusskills: [LISTE WEITERFÜHRENDER SKILLS]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `fachanwalt-it-recht-orientierung`
 
-_Wenn es um Fachanwalt für Informationstechnologierecht — Orientierung in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt für Informationstechnologierecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Fachanwalt für Informationstechnologierecht — Orientierung
 
@@ -482,10 +665,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **vertragsrecht** bei SaaS-/Cloud-AGB-Prüfung.
 - **kanzlei-allgemein** Fristen Versand.
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Welches IT-Rechtsgebiet ist primär einschlägig?
@@ -520,49 +699,13 @@ Anschlusskills: [LISTE WEITERFÜHRENDER SKILLS]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
----
-
-## Skill: `orientierung-sonderfall-edge-case`
-
-_Wenn es um Orientierung: Sonderfall und Edge-Case-Prüfung in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Orientierung: Sonderfall und Edge-Case-Prüfung
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Orientierung: Sonderfall und Edge-Case-Prüfung.
-
-## Spezialwissen: Orientierung: Sonderfall und Edge-Case-Prüfung
-- **Normen-/Quellenanker:** DSGVO, BDSG, TTDSG, TKG, DDG, DSA, DMA, EU, KI, VO.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Orientierung** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt It Recht._
 
 # Strukturierter Erstgespraechsleitfaden für IT-, Datenschutz- und Telemedienrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
 
@@ -725,10 +868,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
 - Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Liegt ein Cyber-Vorfall vor? (sofortige Eskalation → Skill cyber-incident-response-72h)
@@ -790,176 +929,13 @@ Nächste Schritte: [LISTE]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
----
-
-## Skill: `erstpruefung-und-mandatsziel`
-
-_Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt It Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel.
-
-## Spezialwissen: Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
-- **Normen-/Quellenanker:** DSGVO, BDSG, TTDSG, TKG, DDG, DSA, DMA, EU, KI, VO.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **IT-Recht** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## IT-Recht-Erstprüfung: 6-Schritte-Diagnose
-1. **Vertragstyp bestimmen:** Werkvertrag (§§ 631 ff. — individuell erstellte Software), Dienstvertrag (§§ 611 ff. — laufende Beratung), Kauf (§§ 433 ff. — Standardsoftware), Miete (§§ 535 ff. — SaaS/Cloud), Lizenz (UrhG, einfaches/ausschließliches Recht).
-2. **Rolle:** Anbieter (Hersteller, Lizenzgeber, Cloud-Provider) vs. Kunde (Lizenznehmer, SaaS-Nutzer); B2B vs. B2C; je nach Rolle unterschiedliche AGB-Inhaltskontrolle (§§ 305 ff., 308, 309 BGB).
-3. **Daten:** Personenbezogen → DSGVO; nicht-personenbezogen → Geschäftsgeheimnis (GeschGehG); öffentlich → Data Act / DGA.
-4. **NIS2 / KritisV?** Wesentliche Einrichtung (Anhang I NIS2-RL) oder wichtige Einrichtung (Anhang II)? KRITIS-Schwellen § 8b BSIG, BSI-KritisV.
-5. **Streitstand:** Vorklagephase (Mängelrüge, Nachfristsetzung), Mahnverfahren, Klage, Vergleichsverhandlung, ADR?
-6. **Mandatsziel:** Vertrag verhandeln/redlinen? Mangel durchsetzen? Sich verteidigen? Vergleich vermitteln?
-
-## Trade-off
-Frühe gerichtliche Eskalation (Klage, einstweilige Verfügung) bringt schnelle Lösung, aber zerstört Geschäftsbeziehung — bei laufenden SaaS-Verhältnissen oft kontraproduktiv. Stufenweises Vorgehen Mängelrüge → Nachfrist → Kündigung/Schadensersatz erhält Beziehung und stärkt spätere Klage.
-
----
-
-## Skill: `dsv-meldung-lfd-sachsen-anhalt`
-
-_Wenn es um Reicht eine Meldung nach Art in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Dsv Meldung Lfd Sachsen Anhalt; Arbeitsfeld: Fachanwalt It Recht._
-
-# Reicht eine Meldung nach Art
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Reicht eine Meldung nach Art. 33 DSGVO bei der Landesbeauftragter für den Datenschutz Sachsen-Anhalt (LfD ST) ein. Behandelt: Zuständigkeit für Verantwortliche mit Hauptniederlassung in Sachsen-Anhalt und für nicht-öffentliche Stellen; Online-Formular und Postweg; Pflichtangaben in der Reihenfolge der Berliner Goldstandard-Struktur I bis VI; Sonderregelungen aus DSG LSA Datenschutzgesetz Sachsen-Anhalt; Eingangsbestätigung; Aktenzeichen; Nachmeldung. Output: einreichungsfertige Meldung als Fließtext mit Erläuterung der Eingabewege. Abgrenzung: keine Risikobewertung; keine Benachrichtigung Art. 34 DSGVO.
-
-### Meldung Art. 33 DSGVO an die LfD ST
-
-## Triage — kläre vor der Bearbeitung
-
-1. Ist die LfD ST tatsächlich zuständig (Sitzland, Lead Authority Art. 56 DSGVO)?
-2. Liegt ein nicht-öffentlicher oder öffentlicher Verantwortlicher vor?
-3. Welcher Eingabeweg ist vorgegeben (Online-Formular versus Post versus E-Mail)?
-4. Welche Sonderregelung aus DSG LSA Datenschutzgesetz Sachsen-Anhalt ist zu beachten?
-5. Ist eine vorläufige Meldung sinnvoll und wann erfolgt die Nachmeldung?
-- Was will der Mandant wirklich erreichen? (akzeptierte Erstmeldung in 72 h; keine Rückfragen)
-
-## Rechtsgrundlagen
-
-- **Art. 33 DSGVO** Meldepflicht.
-- **Art. 55 DSGVO** Zuständigkeit der Aufsichtsbehörde.
-- **DSG LSA Datenschutzgesetz Sachsen-Anhalt** landesrechtliche Sondervorschriften für öffentliche Stellen.
-- **Art. 5 Abs. 2 DSGVO** Rechenschaftspflicht.
-
-## Aktuelle Rechtsprechung
-
-Nicht aus Modellwissen; aktuelle Bußgeldpraxis der LfD ST vor Ausgabe verifizieren.
-
-## Zentrale Normen
-
-Art. 33; Art. 55; Art. 5 Abs. 2 DSGVO; DSG LSA Datenschutzgesetz Sachsen-Anhalt.
-
-## Behördenstammdaten LfD ST
-
-- Name: Landesbeauftragter für den Datenschutz Sachsen-Anhalt
-- Anschrift: Leiterstraße 9; 39104 Magdeburg
-- Kontakt: poststelle@lfd.sachsen-anhalt.de; Telefon 0391 81803-0
-- Online-Meldeformular: datenschutz.sachsen-anhalt.de — Meldeformular Datenpanne
-- Sondernorm: DSG LSA Datenschutzgesetz Sachsen-Anhalt
-- Bundesland: Sachsen-Anhalt
-
-Hinweis: Adressen und URLs werden vor Versendung über die offizielle Behördenseite verifiziert; sie können sich ändern.
-
-## Berliner Struktur als Goldstandard
-
-Die Meldeformular-Vorlage der Berliner Beauftragten für Datenschutz und Informationsfreiheit deckt strukturell alle Pflichtangaben nach Art. 33 Abs. 3 DSGVO ab und wird als inhaltliche Prüfliste verwendet. Die Meldung gliedert sich in sechs Bloecke:
-
-**I. Wo ist die Datenpanne passiert?**
-- Verantwortliche Stelle (Unternehmen, Verein, Praxis, Behörde) — Name, Anschrift, Webseite, Branche.
-- Angaben zur meldenden Person — Name, Funktion, dienstliche E-Mail, Telefon.
-
-**II. Was ist passiert?**
-- Art der Datenpanne (Vertraulichkeit, Integritaet, Verfuegbarkeit; konkrete Kategorie).
-- Beschreibung — was ist passiert; welche Fehler oder Sicherheitsluecken; welche technischen Systeme und Dienste.
-- Auftragsverarbeiter beteiligt — falls ja Name und Anschrift.
-- Beginn und Dauer der Datenpanne; ggf. fruehestmoeglichen Zeitpunkt.
-- Datum der Kenntnisnahme (loest 72-Stunden-Frist aus).
-- Betroffene Datenarten — Namen; Adressen; E-Mail-Adressen; Standort; Geburtsdatum; Passwoerter; Personalausweisnummer; Pass; Steuernummer; Bankdaten; wirtschaftliche Verhältnisse; Straftaten; politische Meinungen; religioese Ueberzeugungen; Gewerkschaftszugehoerigkeit; Gesundheit; Sexualitaet; ethnische Herkunft; Biometrie; Identifikationsnummern; Fotos/Videos; unbekannt.
-- Art. 9 DSGVO-Daten ja/nein/nicht bekannt.
-- Kategorien betroffener Personen — Mitarbeiter; Nutzer; Kunden; Patienten; Politiker; Kinder/Minderjaehrige; Personen öffentlichen Lebens; andere.
-- Anzahl betroffener Personen (Obergrenze).
-- Anzahl betroffener Datensaetze.
-- Wahrscheinliche Folgen für Betroffene — Geheimnisoffenbarung; wirtschaftliche Nachteile; finanzieller Schaden; Bloss­stellung; Rufschaedigung; Verlust des Arbeitsplatzes; Existenzgefaehrdung; Lebensgefaehrdung; Diskriminierung; gesellschaftliche Nachteile; Identitaetsdiebstahl; Aufhebung Pseudonymisierung; andere.
-
-**III. Welche Gegenmassnahmen wurden ergriffen oder werden vorgeschlagen?**
-- Bereits eingeleitete und geplante Gegenmassnahmen zur Schadensminderung und zur kuenftigen Verhinderung.
-- Vorbestehende technische und organisatorische Maßnahmen sowie Begruendung, weswegen sie nicht ausgereicht haben.
-- Information der Betroffenen ja/nein; wie und wann; welche Empfehlungen; bei nein Begruendung zu Art. 34 DSGVO.
-
-**IV. Sonstige Mitteilungen an die Aufsichtsbehoerde**
-- Andere Behörden eingeschaltet (mit Aktenzeichen).
-- Strafanzeige (Dienststelle, Aktenzeichen).
-- Sonstige Hinweise.
-
-**V. Dokumente**
-- Forensischer Untersuchungsbericht.
-- Auflistung der technischen und organisatorischen Maßnahmen.
-- Muster Benachrichtigungsschreiben Art. 34 DSGVO.
-- Schlüsselmaterial (PGP).
-
-**VI. Abschluss**
-- Vorlaeufige Meldung ja/nein; bei vorläufiger Meldung Ergaenzung binnen 14 Tagen.
-
-Diese sechs Bloecke werden in jeder Behörden-spezifischen Meldung adressiert; die Reihenfolge kann je nach Formular variieren.
-
-## Praxisformulierung — Einreichungsablauf
-
-1. Erstmeldung über das Online-Formular oder per E-Mail an die unten genannte Adresse.
-2. Pflichtangaben in der Reihenfolge der Berliner Goldstandard-Struktur (Block I bis VI).
-3. Anlagen als PDF (forensischer Bericht; TOM-Liste; Muster Benachrichtigung).
-4. Bei Bedarf vorläufige Meldung mit Hinweis auf Nachreichung binnen 14 Tagen.
-5. Eingangsbestätigung archivieren; Aktenzeichen in das interne Vorfallregister übernehmen.
-
-## Abgrenzung zu anderen Skills
-
-- `dsv-aufnahme-statusinformation` bildet die strukturierte Erstaufnahme; dieser Skill setzt darauf auf.
-- `dsv-meldung-art-33-pflichtangaben` deckt die Behördenmeldung ab; bei Bedarf zusätzlich ziehen.
-- `dsv-benachrichtigung-art-34-betroffene` deckt die Benachrichtigung Betroffener ab.
-- `dsv-bussgeldverteidigung-art-83` und `dsv-schadensersatz-art-82` decken die anwaltliche Nachbearbeitung ab.
-
-- `dsv-meldung-art-33-pflichtangaben` liefert die generische Pflichtinhalte-Vorlage.
-- `dsv-nachmeldung-aktualisierung-art-33-abs-4` deckt die Nachmeldung ab.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

@@ -1,18 +1,25 @@
 # Rentenrecht: Witwenrente und Einkommensanrechnung in Lübeck
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 58 KB) | PDF | [`gesamt-pdf/rentenrecht-witwenrente-einkommensanrechnung-luebeck_gesamt.pdf`](gesamt-pdf/rentenrecht-witwenrente-einkommensanrechnung-luebeck_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/rentenrecht-witwenrente-einkommensanrechnung-luebeck_gesamt.pdf`](gesamt-pdf/rentenrecht-witwenrente-einkommensanrechnung-luebeck_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-rentenrecht-witwenrente-einkommensanrechnung-luebeck-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -29,55 +36,61 @@ Der Datenauswertungs-Kern liegt in der Anrechnungstabelle (`13_witwenrente_anrec
 ## Aktenstruktur
 
 ```
-rentenrecht-witwenrente-einkommensanrechnung-luebeck/
-├── 01_mandatsnotiz_fristsache.docx                      # Erstgespräch, Frist, Beteiligte, Beratungsziel
+rentenrecht-witwenrente-einkommensanrechnung-lübeck/
 ├── 02_drv_bescheid_witwenrente.docx                     # DRV-Bewilligungsbescheid mit Berechnung und Rechtsbehelfsbelehrung
 ├── 03_einkommen_und_betriebsrente.docx                  # Vermerk zur Einkommenslage: Lohn, Betriebsrente, Sofortrente
-├── 04_kvdr_und_beitragsabzug.docx                       # Krankenkassenmitteilung zur KVdR und Beitragsdifferenz
+├── 04a_hansekrankenkasse_kvdr_mitteilung_2026-06-25.docx # Eigenständige Krankenkassenmitteilung
+├── 04b_telefonnotiz_personalabteilung_2026-06-27.docx   # Gesonderte Telefonnotiz zur Entgeltabrechnung
 ├── 05_widerspruch_entwurf.docx                          # Ausformulierter Widerspruch gegen Anrechnung und Kontenlücke
 ├── 06_berechnungsmatrix_witwenrente.csv                 # Monatswerte, Anrechnungsbetrag, Zahlbetrag, Prüfvermerke
 ├── 07_daenemark_kontenklaerung.docx                     # Dänische Nachweise und Antrag auf zwischenstaatliche Kontenklärung
-├── 08_arbeitgeberbescheinigung_und_lohnabrechnung.docx  # Entgeltbescheinigung mit Zulagen und Juni-Lohnabrechnung
+├── 08a_arbeitgeberbescheinigung_entgelt_2026.docx       # Eigenständige Arbeitgeberbescheinigung
+├── 08b_lohnabrechnung_juni_2026.docx                    # Gesonderte Juni-Lohnabrechnung
 ├── 09_email_betriebsrente_nachfrage.eml                 # HansePort-Antwort zur Witwenversorgung des Verstorbenen
 ├── 10_kontoauszug_und_fragenliste.txt                   # Kontoumsätze und offene Mandantenfragen
 ├── 11_hzvk_betriebsrentenmitteilung.docx                # HZVK-Schreiben zur eigenen Betriebsrente der Mandantin
 ├── 12_hl_leben_leistungsmitteilung.docx                 # Versichererbestätigung der privaten Sofortrente
 ├── 13_witwenrente_anrechnung_berechnung.csv             # Datenkern: Brutto, Netto, Freibetrag, Anrechnung und Zahlbetrag je Monat
+├── 14_daenemark_mappe_nordbaltic_unterlagen.docx        # Abschrift der Mappe Dänemark 1984 bis 1986 (Lohnzettel, Besatzungslisten, Gewerkschaftsschreiben)
 ├── 15_widerspruchsbegruendung_anrechnung_2026-07-09.docx # Widerspruchsbegründung an die DRV Nord (Endprodukt)
 ├── 16_whatsapp_tochter_daenemark_ordner.txt             # Chat mit der Tochter zu dänischen Lohnzetteln und Geldsorgen
+├── 17_telefonvermerk_petersen_monatswert.docx             # Telefonvermerk zum maschinellen Rechenlauf und zur Kontenklärung
 ├── eml/
 │   ├── 01_drv_nord_anrechnung_grundlagen.eml            # DRV Nord: Freibetrag, Gesamtbrutto und einbezogene Renten
 │   ├── 02_arbeitgeber_entgelt_klarstellung.eml          # Arbeitgeber: laufendes Entgelt gegen Einmalzahlungen
-│   └── 03_jessen_intern_anrechnung_nachgerechnet.eml    # Interner Rechenweg, warum 458.44 EUR nicht haltbar ist
+│   ├── 03_jessen_intern_anrechnung_nachgerechnet.eml    # Interner Rechenweg, warum 458.44 EUR nicht haltbar ist
+│   └── 04_atp_hilleroed_zwischenbescheid.eml            # ATP Hillerød: erfasste Beitragszeiten und Archivrecherche
 ├── README.md                                            # Kurzbild, Struktur und Bearbeitungsziel
 ├── gesamt-pdf/                                           # Konsolidierte Lesefassung der Akte
-├── rubric.yaml                                           # Prüfkriterien für die Bearbeitung
-├── 91_fristsachen_belege_offene_punkte_2026-07-06.csv    # Fristsachen, Belege und offene Punkte (Ergaenzung v426)
-└── eml/2026-07-06_sachstand_nachforderung.eml            # Sachstand zur Nachforderung (Ergaenzung v426)
+└── rubric.yaml                                           # Prüfkriterien für die Bearbeitung
 ```
 
 ## Aktenstücke
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_fristsache.docx` | Erstgespräch, Frist, Beteiligte, Beratungsziel |
 | `02_drv_bescheid_witwenrente.docx` | Bewilligungsbescheid mit Rentenbeginn, Zahlbetrag und Berechnung |
 | `03_einkommen_und_betriebsrente.docx` | Vermerk zu Lohn, Betriebsrente, privater Sofortrente, Pauschalnetto |
-| `04_kvdr_und_beitragsabzug.docx` | Krankenkasse, Kranken- und Pflegeversicherungsbeiträge |
+| `04a_hansekrankenkasse_kvdr_mitteilung_2026-06-25.docx` | Krankenkassenmitteilung zu Beiträgen und Nachweisen |
+| `04b_telefonnotiz_personalabteilung_2026-06-27.docx` | Telefonnotiz zu Steuermerkmalen und Einmalzahlungen |
 | `05_widerspruch_entwurf.docx` | Widerspruch gegen Einkommensanrechnung und Kontenlücken |
 | `06_berechnungsmatrix_witwenrente.csv` | Monatswerte, Freibetrag, Anrechnungsbetrag, Zahlbetrag |
 | `07_daenemark_kontenklaerung.docx` | Auslandszeiten, Nachweise und Auskunftsersuchen |
-| `08_arbeitgeberbescheinigung_und_lohnabrechnung.docx` | Arbeitgeberbescheinigung, Schichtzulagen und Lohnabrechnungswerte |
+| `08a_arbeitgeberbescheinigung_entgelt_2026.docx` | Arbeitgeberbescheinigung mit Monatswerten und Einmalzahlungen |
+| `08b_lohnabrechnung_juni_2026.docx` | Eigenständige Lohnabrechnung mit Abzügen und Nettoauszahlung |
 | `09_email_betriebsrente_nachfrage.eml` | Nachfrage zur Zusatzversorgung und zum Zahlbeginn |
 | `10_kontoauszug_und_fragenliste.txt` | Kontoauszugsausschnitt und Mandantenfragen |
 | `11_hzvk_betriebsrentenmitteilung.docx` | Betriebsrentenmitteilung der Zusatzversorgungskasse |
 | `12_hl_leben_leistungsmitteilung.docx` | Leistungsmitteilung des privaten Versicherers |
+| `14_daenemark_mappe_nordbaltic_unterlagen.docx` | Abschrift der Dänemark-Mappe des Verstorbenen mit Lohnzetteln und Gewerkschaftsschreiben |
 | `13_witwenrente_anrechnung_berechnung.csv` | Datenkern: Anrechnung und Zahlbetrag je Monat |
 | `15_widerspruchsbegruendung_anrechnung_2026-07-09.docx` | Widerspruchsbegründung an die DRV Nord |
 | `16_whatsapp_tochter_daenemark_ordner.txt` | Chat mit der Tochter zu den dänischen Lohnzetteln |
 | `eml/01_drv_nord_anrechnung_grundlagen.eml` | Grundlagen der Anrechnung laut DRV Nord |
 | `eml/02_arbeitgeber_entgelt_klarstellung.eml` | Laufendes Entgelt gegen Einmalzahlungen |
 | `eml/03_jessen_intern_anrechnung_nachgerechnet.eml` | Interne Nachrechnung des Anrechnungsbetrags |
+| `17_telefonvermerk_petersen_monatswert.docx` | Telefonvermerk zum Rechenlauf der Anrechnung und zum Stand der Kontenklärung |
+| `eml/04_atp_hilleroed_zwischenbescheid.eml` | Zwischenbescheid der ATP Hillerød zu den dänischen Beitragszeiten |
 
 ## Bearbeitungsziel
 

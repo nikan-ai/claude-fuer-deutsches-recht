@@ -1,4 +1,10 @@
-Datum;Thema;Dokument
-10.07.2026;Vollstreckerzeugnis;Nachlassgericht
-15.07.2026;Gesellschafterliste;Notar
-31.07.2026;Banklinie;Mainfranken Bank
+Zieldatum;Vorgang;Verantwortlich;Unterlage;Status;Abhängigkeit;Nächste Handlung
+06.07.2026;Monatsabschluss Mai an Bank;Lars König;BWA, OP-Liste, Liquidität;teilweise hochgeladen;Bankprüfung;Version 1.5 freigeben
+10.07.2026;Verrechnungskonto erläutern;Steuerberatung;Kontoblätter 2024-2026;offen;Nachlasswert;Reisekosten und Ausschüttung trennen
+15.07.2026;Drittes Gutachterangebot;Dr. Lehnert;Leistungsbilder;zwei Angebote vorhanden;Unternehmensbewertung;Interessenkonflikte prüfen
+17.07.2026;Gesellschafterliste finalisieren;Notarin Küppers;Zeugnis, Protokoll, Satzung;Entwurf vorhanden;Registerstand;Unterschriftsbefugnis dokumentieren
+20.07.2026;Materialbestellungen absichern;Mara / Bank;Aufträge 26-174, 26-181;Freigabe teilweise;Produktion August;Zahlungsplan senden
+24.07.2026;Auskunft an Tilo;Kanzlei / Dr. Lehnert;Nachlass- und Bewertungsunterlagen;Entwurf;Pflichtteilsverhandlung;Vertraulichkeit finalisieren
+27.07.2026;Bankentscheidung vorbereiten;Claudia Rehm;Gesellschafterliste, Liquiditätsband;offen;Linie ab August;Kreditkomitee
+31.07.2026;Verwaltungsbericht;Dr. Lehnert;Entscheidungs- und Kostenprotokoll;angekündigt;Transparenz;an Erben versenden
+31.07.2026;Betriebsmittellinie verlängern;Mainfranken Bank;vollständiges Paket;befristet;Augustlöhne;schriftliche Entscheidung
