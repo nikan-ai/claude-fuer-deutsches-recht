@@ -8,6 +8,9 @@ import sys
 import zipfile
 from pathlib import Path
 
+from prompt_profiles import PROMPT_SUFFIXES
+from release_routing import validate_plugin_version
+
 
 def fail(message: str) -> None:
     print(f"validate-release-zips failed: {message}", file=sys.stderr)
@@ -29,7 +32,7 @@ def zip_names(zip_path: Path) -> set[str]:
 MAX_ZIP_BYTES = 10 * 1024 * 1024
 
 
-def validate_plugin_zip(dist_dir: Path, plugin_name: str) -> None:
+def validate_plugin_zip(dist_dir: Path, plugin_name: str, expected_version: str) -> None:
     zip_path = dist_dir / f"{plugin_name}.zip"
     if not zip_path.exists():
         fail(f"{zip_path}: missing plugin ZIP")
@@ -50,6 +53,14 @@ def validate_plugin_zip(dist_dir: Path, plugin_name: str) -> None:
         fail(f"{zip_path}: contains nested {plugin_name}/ root")
     if "CLAUDE.md" in names:
         fail(f"{zip_path}: root CLAUDE.md must not be shipped; the upload validation may reject it")
+    auxiliary_prompts = sorted(
+        name for name in names if name.endswith(PROMPT_SUFFIXES)
+    )
+    if auxiliary_prompts:
+        fail(
+            f"{zip_path}: Werkstatt und Schnellstart sind nur direkte Markdown-Downloads, "
+            f"nicht Bestandteil des installierbaren Plugins: {', '.join(auxiliary_prompts)}"
+        )
     if any("__pycache__/" in name or name.endswith(".pyc") for name in names):
         fail(f"{zip_path}: contains Python cache files")
 
@@ -57,6 +68,11 @@ def validate_plugin_zip(dist_dir: Path, plugin_name: str) -> None:
         manifest = json.loads(archive.read(".claude-plugin/plugin.json"))
     if manifest.get("name") != plugin_name:
         fail(f"{zip_path}: manifest name {manifest.get('name')!r} does not match {plugin_name!r}")
+    if manifest.get("version") != expected_version:
+        fail(
+            f"{zip_path}: manifest version {manifest.get('version')!r} "
+            f"does not match marketplace version {expected_version!r}"
+        )
     description = manifest.get("description", "")
     if len(description) > 300:
         fail(f"{zip_path}: manifest description has {len(description)} chars; Marketplace bevorzugt <= 300")
@@ -71,14 +87,58 @@ def validate_plugin_zip(dist_dir: Path, plugin_name: str) -> None:
             fail(f"{zip_path}: missing standalone Liquiditätsplan generator {generator}")
 
 
+def validate_focus_skill(zip_path: Path, plugin_directory: Path, profile_path: Path) -> None:
+    """Der separate Schwerpunkt-Download ersetzt niemals den installierten Skill."""
+    if not (plugin_directory / f"{plugin_directory.name}-hauptproblem.md").exists():
+        return
+    if not profile_path.is_file():
+        fail(f"{profile_path}: Schwerpunktprofil fehlt")
+    profile = json.loads(profile_path.read_text(encoding="utf-8"))
+    target = profile.get("selection", {}).get("target_skill")
+    import re
+    if not isinstance(target, str) or not re.fullmatch(r"[a-z0-9-]{1,64}", target):
+        fail(f"{profile_path}: Schwerpunkt-Skill nicht eindeutig zugeordnet")
+    relative = f"skills/{target}/SKILL.md"
+    source = plugin_directory / relative
+    with zipfile.ZipFile(zip_path) as archive:
+        if relative not in archive.namelist():
+            fail(f"{zip_path}: installierbarer Schwerpunkt-Skill fehlt: {relative}")
+        if not source.is_file() or archive.read(relative) != source.read_bytes():
+            fail(f"{zip_path}: Schwerpunkt-Skill weicht vom geprüften Quelltext ab")
+
+
+def validate_skill_sources(zip_path: Path, plugin_directory: Path) -> None:
+    """Gleiche Versionsnummern beweisen noch keinen gleichen Skill-Stand."""
+    sources = {
+        path.relative_to(plugin_directory).as_posix(): path
+        for path in (plugin_directory / "skills").rglob("*")
+        if path.is_file() and "__pycache__" not in path.parts
+        and path.suffix != ".pyc" and path.name != ".DS_Store"
+        and not path.name.endswith(PROMPT_SUFFIXES)
+    }
+    with zipfile.ZipFile(zip_path) as archive:
+        entries = [name for name in archive.namelist() if name.startswith("skills/") and not name.endswith("/")]
+        if len(entries) != len(set(entries)) or set(entries) != set(sources):
+            fail(f"{zip_path}: Skill-Dateiliste weicht vom Quellstand ab")
+        for name, path in sources.items():
+            if path.is_symlink() or archive.read(name) != path.read_bytes():
+                fail(f"{zip_path}: Skill-Datei weicht vom Quellstand ab: {name}")
+
+
 def main() -> None:
     dist_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("dist")
     marketplace_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(".claude-plugin/marketplace.json")
 
     marketplace = json.loads(marketplace_path.read_text(encoding="utf-8"))
-    plugins = [plugin["name"] for plugin in marketplace["plugins"]]
-    for plugin_name in plugins:
-        validate_plugin_zip(dist_dir, plugin_name)
+    root = marketplace_path.resolve().parents[1]
+    plugins = marketplace["plugins"]
+    for plugin in plugins:
+        validate_plugin_version(plugin, marketplace["version"], root=root)
+        validate_plugin_zip(dist_dir, plugin["name"], plugin["version"])
+    for plugin in marketplace["plugins"]:
+        validate_skill_sources(dist_dir / f"{plugin['name']}.zip", root / plugin["source"])
+        validate_focus_skill(dist_dir / f"{plugin['name']}.zip", root / plugin["source"],
+                             root / "quality/evals" / f"{plugin['name']}.json")
 
     marketplace_zip_copy = dist_dir / "marketplace.json"
     if not marketplace_zip_copy.exists():

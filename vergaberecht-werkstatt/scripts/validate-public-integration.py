@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""Prueft die technischen Grenzen der oeffentlichen Einbettung offline."""
+
+import json
+import re
+from pathlib import Path
+
+from public_release import DOWNLOAD_BASE, PROMPT_SUFFIXES, PUBLIC_MARKETPLACE, REPOSITORY, ROOT, VERSION, expected_role_prompt, with_working_downloads, check_plugin_version
+from testakte_notices import README_NOTICE, with_case_warnings
+
+
+# Gemeinsame Testakten liegen im uebergeordneten Repository. Nur deklarierte
+# README-Ziele sind erlaubt; die zugehoerige Datei muss lokal vorhanden sein.
+SHARED_CASE_READMES = {
+    f"https://github.com/{REPOSITORY}/blob/main/{relative}": relative
+    for relative in ("testakten/ki-register-havelgrund-sozialamt/README.md",)
+}
+
+
+def public_target_error(target: str, *, parent_root: Path) -> str | None:
+    if "/main/vergaberecht-werkstatt" in target:
+        return None
+    relative = SHARED_CASE_READMES.get(target)
+    if relative is None:
+        return f"Komponentenpraefix fehlt: {target}"
+    destination = (parent_root / relative).resolve()
+    if not destination.is_relative_to(parent_root.resolve()) or not destination.is_file():
+        return f"Gemeinsame Testakten-README fehlt im uebergeordneten Repository: {relative}"
+    return None
+
+
+def main() -> int:
+    errors = []
+    marketplace = json.loads((ROOT / ".claude-plugin/marketplace.json").read_text(encoding="utf-8"))
+    expected_counts = dict(zip(PROMPT_SUFFIXES, (122, 113, 20)))
+    if {plugin["name"] for plugin in marketplace["plugins"]} != set(PROMPT_SUFFIXES):
+        errors.append("Marketplace: genau drei Rollen erforderlich")
+    if marketplace["name"] != "vergaberecht-werkstatt":
+        errors.append("Lokaler Marketplace-Name stimmt nicht")
+    for plugin in marketplace["plugins"]:
+        role = plugin["name"]
+        if role not in PROMPT_SUFFIXES:
+            continue
+        if plugin["source"] != f"./{role}":
+            errors.append(f"{role}: relative Quelle oder Version stimmt nicht")
+        try:
+            check_plugin_version(plugin)
+        except ValueError as error:
+            errors.append(str(error))
+        manifest = json.loads((ROOT / role / ".claude-plugin/plugin.json").read_text(encoding="utf-8"))
+        if manifest["name"] != role or manifest["version"] != plugin["version"]:
+            errors.append(f"{role}: Plugin-Identitaet stimmt nicht")
+        if manifest["author"] != {"name": "Klotzkette", "email": "39582916+Klotzkette@users.noreply.github.com"}:
+            errors.append(f"{role}: Autor stimmt nicht")
+        skills = list((ROOT / role / "skills").glob("*/SKILL.md"))
+        if len(skills) != expected_counts[role]:
+            errors.append(f"{role}: unerwartete Skillanzahl {len(skills)}")
+        for path in (ROOT / role / "skills").rglob("*"):
+            if re.search(r"schnellstart|megaprompt|miniprompt", path.name, re.I):
+                errors.append(f"{path.relative_to(ROOT)}: Promptpfad unter skills")
+        for kind in ("werkstatt", "schnellstart"):
+            target = ROOT / role / f"{role}-{kind}.md"
+            source = (
+                ROOT / f"vergaberecht-arbeitsprompt-{PROMPT_SUFFIXES[role]}.md"
+                if kind == "werkstatt" else ROOT / "unified-mini-prompts" / f"{role}.md"
+            )
+            try:
+                expected = expected_role_prompt(role, kind)
+                if target.read_text(encoding="utf-8") != expected:
+                    errors.append(f"{target.relative_to(ROOT)}: nicht synchron zur Quelle")
+                if kind == "schnellstart":
+                    for path in (source, target):
+                        if len(path.read_bytes()) > 7500:
+                            errors.append(f"{path.relative_to(ROOT)}: ueber 7500 Bytes")
+            except (ValueError, OSError) as error:
+                errors.append(f"{target.relative_to(ROOT)}: {error}")
+            readme = (ROOT / role / "README.md").read_text(encoding="utf-8")
+            url = f"{DOWNLOAD_BASE}/{role}/{role}-{kind}.md"
+            if f'href="{url}" download=' not in readme:
+                errors.append(f"{role}: HTML-Dateidownload fuer {kind} fehlt")
+        if f"/plugin install {role}@{PUBLIC_MARKETPLACE}" not in readme:
+            errors.append(f"{role}: oeffentlicher Installationsnamensraum fehlt")
+
+    docs = [ROOT / "README.md", ROOT / "SKILLS.md", ROOT / "testakten/README.md"]
+    docs += [ROOT / role / "README.md" for role in PROMPT_SUFFIXES]
+    docs += list((ROOT / "testakten").glob("*/README.md"))
+    docs += list((ROOT / "skills-index").glob("*.md"))
+    for path in docs:
+        text = path.read_text(encoding="utf-8")
+        if text != with_case_warnings(text):
+            errors.append(f"{path.relative_to(ROOT)}: Warnhinweis vor Downloadgruppe fehlt")
+        if text != with_working_downloads(text, path):
+            errors.append(f"{path.relative_to(ROOT)}: Arbeitsdatei umgeht den oeffentlichen Downloadweg")
+    if not (ROOT / "testakten/README.txt").read_text(encoding="utf-8").startswith(README_NOTICE):
+        errors.append("testakten/README.txt: Warnhinweis fehlt")
+
+    private = "Klotzkette/" + "vergaberecht-werkstatt"
+    for path in ROOT.rglob("*"):
+        rel = path.relative_to(ROOT)
+        if not path.is_file() or path.suffix not in {".md", ".py", ".mjs", ".json", ".yml", ".sh"}:
+            continue
+        if rel.parts[0] in {"dist", ".venv", "audits"} or "provenance" in path.name or path.name == "source-import.json":
+            continue
+        text = path.read_text(encoding="utf-8")
+        if f"github.com/{private}" in text or f"raw.githubusercontent.com/{private}" in text:
+            errors.append(f"{rel}: privates Downloadziel")
+        for target in re.findall(r"https://(?:github.com|raw.githubusercontent.com)/Klotzkette/claude-fuer-deutsches-recht/(?:blob/|tree/)?main/[^\s)\"<>]+", text):
+            error = public_target_error(target, parent_root=ROOT.parent)
+            if error:
+                errors.append(f"{rel}: {error}")
+    for error in errors:
+        print(f"FEHLER: {error}")
+    print(f"validate-public-integration: {len(errors)} Fehler; 3 Rollen, 255 Skills")
+    return int(bool(errors))
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

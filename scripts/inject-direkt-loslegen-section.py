@@ -12,6 +12,15 @@ import json
 import re
 from os.path import relpath
 from pathlib import Path
+from release_routing import case_asset_url, rewrite_case_asset_urls, plugin_asset_url
+
+from prompt_profiles import enabled, formats, standalone_kinds
+from urllib.parse import quote
+
+from testakte_zip_common import working_dump_flat_pairs
+from testakte_disclaimer import NOTICE_MARKDOWN
+from testakte_download_notices import ensure_download_notices
+from readme_decimal_headings import OPT_IN, normalize_decimal_headings, title_text
 
 
 REPO = Path(__file__).resolve().parent.parent
@@ -25,10 +34,56 @@ OLD_MEGA_END = "<!-- END megaprompt-und-vorlagen (autogen) -->"
 OLD_SOFORT_BEGIN = "<!-- BEGIN plugin-sofort-download-section (autogen) -->"
 OLD_SOFORT_END = "<!-- END plugin-sofort-download-section (autogen) -->"
 RELEASE_BASE = "https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download"
-RAW_BASE = "https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main"
+DOWNLOAD_BASE = "https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path="
 DISALLOWED_ABBR = chr(75) + chr(73)
 DISALLOWED_MIXED = chr(75) + "i"
 PROSE_REPLACEMENTS = {
+    "Kuendigungsschutzklagen": "Kündigungsschutzklagen",
+    "Antraege": "Anträge",
+    "Kuendigungsgruende": "Kündigungsgründe",
+    "Weiterbeschaeftigung": "Weiterbeschäftigung",
+    "Verguetung": "Vergütung",
+    "Verfahrensfuehrung": "Verfahrensführung",
+    "Nachpruefung": "Nachprüfung",
+    "Ruegen": "Rügen",
+    "Eigenbedarfskuendigungen": "Eigenbedarfskündigungen",
+    "Haertewiderspruch": "Härtewiderspruch",
+    "begruendeten": "begründeten",
+    "tragfaehigen": "tragfähigen",
+    "Miethoehen": "Miethöhen",
+    "Mieterhoehung": "Mieterhöhung",
+    "pruefen": "prüfen",
+    "oertlicher": "örtlicher",
+    "fuehren": "führen",
+    "Klaerung": "Klärung",
+    "Faellen": "Fällen",
+    "Praesentationen": "Präsentationen",
+    "Laienerklaerung": "Laienerklärung",
+    "serioese": "seriöse",
+    "Wirtschaftsvertraege": "Wirtschaftsverträge",
+    "Geschaeftsauftrag": "Geschäftsauftrag",
+    "Geschaefte": "Geschäfte",
+    "Geschaeftsentscheidungen": "Geschäftsentscheidungen",
+    "Liquiditaetsfragen": "Liquiditätsfragen",
+    "Nachtraege": "Nachträge",
+    "ausfuehrende": "ausführende",
+    "Ansprueche": "Ansprüche",
+    "Vertraege": "Verträge",
+    "vollstaendigen": "vollständigen",
+    "ueber": "über",
+    "Oeffentliches": "Öffentliches",
+    "Strassenverkehrsverwaltungsrecht": "Straßenverkehrsverwaltungsrecht",
+    "Strassen": "Straßen",
+    "Schulstrassen": "Schulstraßen",
+    "Fahrraeder": "Fahrräder",
+    "Geldwaeschepruefung": "Geldwäscheprüfung",
+    "Fachablaeufe": "Fachabläufe",
+    "GmbH-Gruendung": "GmbH-Gründung",
+    "Kapitalerhoehung": "Kapitalerhöhung",
+    "Geschaeftsfuehrerwechsel": "Geschäftsführerwechsel",
+    "Anteilsgeschaefte": "Anteilsgeschäfte",
+    "Abschleppschaeden": "Abschleppschäden",
+    "Aussenbriefen": "Außenbriefen",
     "Abwaegung": "Abwägung",
     "Aerzte": "Ärzte",
     "Aktenlektuere": "Aktenlektüre",
@@ -52,6 +107,7 @@ PROSE_REPLACEMENTS = {
     "Ergaenzend": "Ergänzend",
     "Erklaerungen": "Erklärungen",
     "Ermittlungsfuehrung": "Ermittlungsführung",
+    "Empfaenger": "Empfänger",
     "Geschaeftsgeheimnis": "Geschäftsgeheimnis",
     "Gesetzentwuerfen": "Gesetzentwürfen",
     "Guetetermin": "Gütetermin",
@@ -68,20 +124,24 @@ PROSE_REPLACEMENTS = {
     "Plaedoyer": "Plädoyer",
     "Praezedenzarbeit": "Präzedenzarbeit",
     "Prueft": "Prüft",
+    "fuehrt": "führt",
     "Rechtswegerschoepfung": "Rechtswegerschöpfung",
     "Referentenentwuerfen": "Referentenentwürfen",
+    "Sachschaeden": "Sachschäden",
     "Schluessigkeit": "Schlüssigkeit",
     "Schriftsaetze": "Schriftsätze",
     "Subsidiaritaet": "Subsidiarität",
     "Suedafrika": "Südafrika",
     "Syndikus-Anwaelten": "Syndikus-Anwälten",
     "Taetigkeiten": "Tätigkeiten",
+    "Taetigkeitsbild": "Tätigkeitsbild",
     "Teilungserklaerung": "Teilungserklärung",
     "Umstaende": "Umstände",
     "Universitaetsstaedte": "Universitätsstädte",
     "UrhG-Bezuege": "UrhG-Bezüge",
     "VVG-Bezuege": "VVG-Bezüge",
     "Veraenderungen": "Veränderungen",
+    "Verknuepft": "Verknüpft",
     "Versaeumnisurteil": "Versäumnisurteil",
     "Verspaetung": "Verspätung",
     "Verstoessen": "Verstößen",
@@ -98,6 +158,7 @@ PROSE_REPLACEMENTS = {
     "fuer": "für",
     "gefuehrte": "geführte",
     "hoefliche": "höfliche",
+    "prueft": "prüft",
     "papsttreues": "papsttreues",
 }
 SKIP_TESTAKTEN_DIRS = {
@@ -109,6 +170,11 @@ PLUGIN_ALIASES = {
     "cisg-handelskauf": ["urteilsbauer-relationsmacher"],
     "dsgvo": ["datenschutzrecht"],
     "internationales-privatrecht": ["urteilsbauer-relationsmacher"],
+}
+PUBLIC_VERGABERECHT_ROLES = {
+    "bieter-unternehmen",
+    "konkurrenten-rechtsschutz",
+    "vergabestelle-behoerden",
 }
 
 
@@ -141,9 +207,10 @@ def plugin_dir(plugin: dict) -> Path:
 def readme_title(directory: Path, fallback: str) -> str:
     readme = directory / "README.md"
     if readme.is_file():
-        for line in readme.read_text(encoding="utf-8", errors="ignore").splitlines():
+        content = readme.read_text(encoding="utf-8", errors="ignore")
+        for line in content.splitlines():
             if line.startswith("# "):
-                return line[2:].strip()
+                return title_text(line[2:]) if OPT_IN in content else line[2:].strip()
     return human_title(fallback)
 
 
@@ -181,9 +248,10 @@ def get_akte_title(akte_slug: str) -> str:
     readme = TESTAKTEN_DIR / akte_slug / "README.md"
     if not readme.is_file():
         return akte_slug
-    for line in readme.read_text(encoding="utf-8").splitlines():
+    content = readme.read_text(encoding="utf-8")
+    for line in content.splitlines():
         if line.startswith("# "):
-            title = line[2:].strip()
+            title = title_text(line[2:]) if OPT_IN in content else line[2:].strip()
             title = re.sub(
                 r"^(Akte|Beispielakte|Testakte|Mandantenakte)\s*[:–-]\s*",
                 "",
@@ -204,36 +272,294 @@ def display_akte_title(title: str) -> str:
     return text
 
 
-def testakte_download_cell(plugin_name: str, directory: Path, akten_slugs: list[str]) -> str:
-    pluginlocal_parts = []
-    if (directory / "testakte").is_dir():
-        pdf = directory / "testakte" / "gesamt-pdf" / "testakte_gesamt.pdf"
-        if pdf.is_file():
-            pluginlocal_parts.append("[Gesamt-PDF](testakte/gesamt-pdf/testakte_gesamt.pdf)")
-        pluginlocal_parts.append(f"[`{plugin_name}-testakte.zip`]({RELEASE_BASE}/{plugin_name}-testakte.zip)")
-        pluginlocal_parts.append(f"[`{plugin_name}-testakte-einzelpdfs.zip`]({RELEASE_BASE}/{plugin_name}-testakte-einzelpdfs.zip)")
-    if akten_slugs:
-        parts = []
-        for slug in akten_slugs:
-            title = display_akte_title(get_akte_title(slug))
-            pdf_rel = Path(
-                relpath(TESTAKTEN_DIR / slug / "gesamt-pdf" / f"{slug}_gesamt.pdf", start=directory)
-            ).as_posix()
-            parts.append(
-                f"{title}: "
-                f"[Gesamt-PDF]({pdf_rel}), "
-                f"[`testakte-{slug}.zip`]({RELEASE_BASE}/testakte-{slug}.zip), "
-                f"[`testakte-{slug}-einzelpdfs.zip`]({RELEASE_BASE}/testakte-{slug}-einzelpdfs.zip)"
-            )
-        if pluginlocal_parts:
-            parts.append("Pluginlokale Akte: " + ", ".join(pluginlocal_parts))
-        return "; ".join(parts)
-    if pluginlocal_parts:
-        return ", ".join(pluginlocal_parts)
+def relative_link(directory: Path, target: Path) -> str:
+    return Path(relpath(target, start=directory)).as_posix()
+
+
+def markdown_download_url(repo_path: str) -> str:
+    return DOWNLOAD_BASE + quote(repo_path, safe="/")
+
+
+def navigation(plugin_name: str, directory: Path) -> str:
+    root = relative_link(directory, REPO / "README.md")
+    skills = relative_link(directory, REPO / "SKILLS.md")
+    detail = relative_link(directory, REPO / "skills-index" / f"{plugin_name}.md")
+    assets = relative_link(directory, REPO / "ASSET_INDEX.md")
+    installation = relative_link(directory, REPO / "INSTALLATION_EINFACH.md")
+    testakten = relative_link(directory, TESTAKTEN_DIR / "README.md")
+    entry_link = "[30-Sekunden-Start](#in-30-sekunden-starten)" if enabled(plugin_name, "schnellstart") else "[Werkstatt verwenden](#werkstatt-verwenden)"
     return (
-        f"[`alle-testakten.zip`]({RELEASE_BASE}/alle-testakten.zip) "
-        f"und [`alle-testakten-einzelpdfs.zip`]({RELEASE_BASE}/alle-testakten-einzelpdfs.zip) (zentrale Sammlung)"
+        "Direktnavigation: "
+        f"{entry_link} · "
+        f"[Startseite]({root}) · "
+        f"[Plugin-Katalog]({root}#was-ist-drin) · "
+        f"[Skill-Gesamtübersicht]({skills}) · "
+        f"[Skills dieses Plugins]({detail}) · "
+        "[Plugin-Dateien](.) · "
+        f"[Download-Index]({assets}) · "
+        f"[Installation]({installation}) · "
+        f"[Testakten]({testakten})"
     )
+
+
+def compact_prompt_fragment(value: str, limit: int = 210) -> str:
+    text = re.sub(r"[`*_#]", "", value)
+    text = re.sub(r"\s+", " ", text).strip().rstrip(" .;:")
+    if len(text) <= limit:
+        return text
+    clipped = text[: limit + 1].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return clipped + " ..."
+
+
+HANDCURATED_FIRST_PRODUCTS = {
+    "kommunale-haftpflicht": "Bearbeite den kommunalen Haftpflichtfall anhand der Originalbelege; trenne Haftung, Schadenhöhe, Versicherungsdeckung und Rückdeckung, ordne die Anspruchsinhaber und formuliere die beauftragte Regulierungsvorlage oder Unterlagenanfrage vollständig",
+    "gesellschafterstreit": "Bearbeite den konkreten Gesellschafterstreit aus Mandatsrolle, Satzung und Originalbelegen; rechne Stimmrecht und Mehrheit für jeden Beschluss, sichere Fristen und formuliere die beauftragten Anträge, Briefe und Vergleichsregelungen vollständig",
+    "playbook-pruefer": "Erstelle den vollständigen Prüfbericht zum aktuellen Vertrag und seinen Anlagen anhand des freigegebenen Playbooks; bewerte jede Regel mit Originalfundstelle, zähle rote Linien wörtlich und formuliere die beauftragten Änderungen aus",
+    "berliner-schulrecht-eltern-schueler": "das beauftragte Elternschreiben, den Schulplatzantrag oder den Rechtsbehelfsentwurf aus Bescheid und Belegen; trenne Kita, Grundschule und Sekundarstufe, prüfe Schuljahr, Zuständigkeit und Frist und frage nur entscheidende fehlende Angaben nach",
+    "berliner-hochschulrecht-professoren": "die beauftragte Umsetzung einer Berufungszusage, Deputatsberechnung oder Stellungnahme zum Forschungseingriff; kläre Status, konkrete Hochschulregel und anstehenden Termin aus den Belegen und führe Rückantworten im selben Entwurf fort",
+    "antidiskriminierung-agg": "Prüfe meine Absage und die beiden Anzeigen, sichere die AGG-Fristen und erstelle das passende Anspruchs- oder Nachfrageschreiben; unterscheide belegte Auswahlgründe und offene Tatsachen",
+    "jura-in-einfacher-sprache": "Lies meinen Text und kläre nur, ob ich eine Erklärung, einfache Sprache, juristische Standardsprache oder eine Antwort brauche; erhalte Bedingungen, Ausnahmen und Fristen",
+    "sozialrecht-fuer-laien": "Lies meinen Brief, prüfe zuerst Frist und dringenden Bedarf und hilf mir mit dem nächsten Antrag oder Antwortentwurf; frage nur entscheidende fehlende Tatsachen nach und erkläre den Einreichungsweg einfach",
+    "pflegerecht-sgb-xi": "Erstelle den beauftragten Pflegeantrag, Leistungsplan oder Rechtsbehelf aus Bescheid, Gutachten und Belegen; trenne Pflegegrad, Kosten und Versicherungsart, kläre nur entscheidende Lücken und führe den Entwurf nach Rückantwort fort",
+    "sozialversicherungspflicht-pruefer": "den beauftragten Sozialversicherungsbefund oder das konkrete Schreiben aus den vorhandenen Unterlagen; trenne Status, Versicherungszweige, Befreiung und Beiträge nach Tätigkeit und Zeitraum und frage nur nach entscheidenden Lücken",
+    "gmbh-gesellschafterversammlung": "die beauftragte Einladung, Ergänzung, Beschlussvorlage oder den Versammlungsleitfaden aus Satzung und vorhandenen Unterlagen; frage nur nach entscheidenden Lücken, trenne geplante Sprechtexte vom tatsächlichen Protokoll und führe Rückantworten im selben Vorgang fort",
+    "startup-gruender": "eine vollständig formulierte Satzung und die beauftragte Gesellschaftervereinbarung auf Deutsch und Englisch aus den vorhandenen Gründerangaben; kläre nur die dafür entscheidenden offenen Tatsachen und führe die Entwürfe nach Rückantwort fort",
+    "juristische-praesentationen": "einen juristisch genauen Vortrag mit lesbaren Folien, ausformulierten Sprechernotizen und Zeitplanung; übernimm Anlass, Publikum und Dauer aus dem Auftrag, frage nur Fehlendes nach und liefere bei vorhandenen Werkzeugen eine bearbeitbare PowerPoint, sonst ein vollständiges Folienmanuskript",
+    "bauwirtschaft": "Erstelle den benötigten Bauprojektstand mit belegten Kosten, Terminen und Zuständigkeiten. Erarbeite daraus den konkreten Vergabevermerk, Kostenbericht, Rechnungsabgleich oder Brief und arbeite Rückantworten in denselben Stand ein",
+    "anwaltschaft-generell": "das konkret beauftragte Mandanten- oder Gegnerschreiben, die Vertragsänderung oder den Schriftsatz aus den vorhandenen Belegen; kläre nur die dafür entscheidenden offenen Tatsachen",
+    "corporate-contract-law": "einen vollständigen Wirtschaftsvertrag, eine konkrete Gegenfassung oder den vereinbarten Nachtrag; verbinde Leistungsbeschreibung, Vergütung, Risikoverteilung und Anlagen widerspruchsfrei",
+    "vertragserstellung": "den bestellten Vertrag oder Nachtrag aus Angebot, Leistungsunterlagen und Verhandlungsstand; kläre nur die noch offene wirtschaftliche Entscheidung und führe denselben Entwurf bis zur Endfassung fort",
+    "wirtschaftsanwalt": "das beauftragte Schreiben oder die Vereinbarung für das Unternehmen; trenne Gesellschaft und handelnde Personen, prüfe die tatsächlich berührten Zahlungs-, Vertrags- und Organfragen und arbeite nach Rückantwort am selben Dokument weiter",
+    "betriebskosten-hausverwaltung": "eine aus Mietvertrag, Rechnungen, Gutschriften, Vorauszahlungen und Heizverbrauch nachgerechnete Betriebskostenabrechnung oder den beauftragten Antwortbrief",
+    "geldwaeschepraevention-aml-kyc": "einen belegten Prüfvermerk zum konkreten Mandat, Kaufpreis oder Zahlungsvorgang samt gezielter Nachforderung und gegebenenfalls sofortiger Meldeprüfung",
+    "notariat-alltag": "einen aus den Kundenunterlagen vorbereiteten Urkunden- oder Registerentwurf mit Beteiligtenblatt und offenen Freigaben für den Notar",
+    "schadensregulierung": "den nächsten Entwurf aus Ihrer Rolle als Unternehmen oder regulierender Versicherer, mit belegtem Ereignis, gefährdeten Belegen und getrenntem Deckungsstand",
+    "grundsteuerrecht": "die Verfügungssätze der Grundsteuerpost, ihren Zugang und die belegte Flächen- oder Rechendifferenz auf der richtigen Bescheidstufe; daraus den nächsten erforderlichen Antrag entwerfen",
+    "mietrecht": "eine Anspruchs- und Fristenmatrix mit nächstem Schreiben",
+    "arbeitsrecht": "Antrag, Sachverhalt, Beweisplan und nächste Frist",
+    "fachanwalt-familienrecht": "eine Rechnung, Verfahrensroute oder einen antragsfähigen Text",
+    "fachanwalt-erbrecht": "eine Erbfolge-, Auskunfts- oder Pflichtteilsroute",
+    "richter-familiengericht": "eine verfahrensleitende Verfügung oder einen belastbaren Entscheidungsentwurf",
+    "staatsanwaltschaft-amtsanwaltschaft": "eine Dezernatsverfügung mit Tat-, Beweis- und Fristenkontrolle",
+    "bautraegervertragspruefer": "eine Klauselmatrix mit Mandantengutachten und Änderungswünschen",
+    "bautraegervertrag-pruefer": "eine Klauselmatrix mit Mandantenvermerk und Verhandlungsposition",
+    "urteilsbauer-relationsmacher": "eine Zergliederung, Relation oder einen Entscheidungsentwurf",
+    "anlagen-zu-schriftsaetzen": "eine Produktionsmatrix und kontrollierte Gerichtsmappe",
+    "schriftsatz-versandwerkstatt": "eine Produktionsmatrix und kontrollierte Versandmappe",
+    "arbeitszeugnispruefer": "die vollständige Arbeitnehmerprüfung mit ausführlicher Analyse, konkreten Ersatzsätzen, kurzem Mandantenschreiben und – bei tragfähiger Änderung oder wirklichem Verhandlungswunsch – abgestuftem Arbeitgeberschreiben",
+    "zugewinnausgleich": "die Vermögensrechnung beider Ehegatten mit belegten Stichtagen, Erbschaften, Eigentumsanteilen und Schulden bis zum beauftragten Gutachten oder Schreiben",
+    "strassennutzung-genehmigungen": "die konkrete Zufahrt, Ladefläche oder Pollerregelung nach Widmung, Landesrecht und Verkehrszeichen prüfen; daraus den beauftragten Erlaubnisantrag, die Stellungnahme oder den Rechtsbehelf ausformulieren",
+}
+
+
+def first_product(directory: Path, plugin_name: str) -> str:
+    if plugin_name in HANDCURATED_FIRST_PRODUCTS:
+        return HANDCURATED_FIRST_PRODUCTS[plugin_name]
+    path = directory / f"{plugin_name}-schnellstart.md"
+    if not path.is_file():
+        return "einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument"
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    patterns = (
+        r"^\d+\. Erstes Arbeitsprodukt liefern:\s*(.+?)\.?$",
+        r"^\d+\.\d+\. Ausgang:\s*(.+?)\.?$",
+        r"Das Endprodukt ist\s+(.+?)\.",
+        r"Ergebnis ist\s+(.+?)\.",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.MULTILINE | re.IGNORECASE)
+        if match:
+            product = re.sub(r"\s+liefern;.*$", "", match.group(1), flags=re.IGNORECASE)
+            return compact_prompt_fragment(product)
+    return "einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument"
+
+
+def quickstart_section(plugin_name: str, directory: Path) -> str:
+    if plugin_name == "sektorenvergabe-workflow":
+        return """## In 30 Sekunden starten
+
+Wählen Sie `sektorenvergabe-steuern` oder unmittelbar einen der zehn Fachschritte. Ohne Installation verwenden Sie Werkstatt oder Mini-Prompt. Einzelne Skills lassen sich mit der dokumentierten Übergabenotiz manuell als Workflow verbinden.
+
+> Flächenliste, Reinigungsintervalle und Altvertrag liegen im Ordner. Bereite Leistungsbeschreibung und Preisblatt für die Stationsreinigung vor. Prüfe den Sektorenbezug und frage nur nach Angaben, die Mengen, Kalkulation oder Verfahrenswahl verändern.
+
+Fünf Schritte erstellen die Vergabeunterlagen, fünf weitere begleiten Eingang, Rügen, Wertung, Zuschlag und Nachprüfung. Rechtsschutz kann bereits vor Zuschlag einsetzen. Veröffentlichung, Einreichung und Zuschlag bleiben ausdrücklich freizugebende externe Handlungen. Dies ist ein Experiment und keine Rechtsberatung."""
+    if plugin_name == "insolvenzforderungen-checker":
+        return """## In 30 Sekunden starten
+
+Wählen Sie `forderungen-pruefen-und-tabelle-vorbereiten`. Ohne Installation verwenden Sie den Mini-Prompt oder die ausführliche Werkstatt aus der Downloadtabelle.
+
+> Eröffnungsbeschluss, zehn Forderungsanmeldungen und Belege liegen im Ordner. Gleiche Beträge, Verträge, Zahlungen und Sicherheiten ab. Erstelle begründete Tabellenvorschläge und die dazugehörigen Gläubigerbriefe. Frage nur nach entscheidenden fehlenden Unterlagen.
+
+Das Paket arbeitet für die Insolvenzverwaltung. Es trennt angemeldete Beträge, interne Prüfung und gerichtliche Feststellung. Verspätete und nachrangige Anmeldungen sowie Sicherheiten erhalten eigene Prüfwege. Elektronische Exporte werden vorbereitet, aber nicht automatisch versandt. Dies ist ein Experiment und keine Rechtsberatung."""
+    if plugin_name == "eigenbedarfskuendigungschecker":
+        return """## In 30 Sekunden starten
+
+Wählen Sie `eigenbedarf-pruefen-und-klaeren`. Ohne Installation genügt der Mini-Prompt oder die ausführliche Werkstatt aus der Downloadtabelle.
+
+> Mietvertrag, Kündigung und Nachweise liegen im Ordner. Prüfe Eigenbedarf, Fristen und mögliche Härtegründe und entwirf eine sachliche Antwort. Frage nur nach entscheidenden fehlenden Angaben.
+
+Das Paket arbeitet für Mieter und Vermieter. Kündigungsgrund, Erklärung, örtliche Sperrfrist und Fortsetzungsverlangen bleiben getrennt. Es versendet nichts und empfiehlt keinen Auszug ohne Prüfung. Dies ist ein Experiment und keine Rechtsberatung."""
+    if plugin_name == "mietchecker":
+        return """## In 30 Sekunden starten
+
+Wählen Sie `miete-pruefen-und-klaeren`. Ohne Installation verwenden Sie den Mini-Prompt oder die ausführliche Werkstatt aus der Downloadtabelle.
+
+> Vertrag, Mietkonto und Aufmaß liegen im Ordner. Prüfe die Miete nach dem örtlichen Mietspiegel und hilf uns mit einer sachlichen Klärung. Frage nur nach entscheidenden fehlenden Belegen.
+
+Das Paket trennt Vergleichsmiete, zulässige Anfangsmiete und Erhöhung im Bestand. Berlin und Regensburg haben eigene Rechenwege. Eine günstige Miete muss nicht erhöht werden. Dies ist ein Experiment und keine Rechtsberatung."""
+    if plugin_name == "antidiskriminierung-agg":
+        return """## In 30 Sekunden starten
+
+Wählen Sie im Plugin `agg-fall-zum-schreiben-fuehren`. Ohne Installation genügt der Mini-Prompt oder die ausführliche Werkstatt aus der Downloadtabelle. Beispiel:
+
+> Die Absage und zwei Fassungen der Stellenanzeige liegen im Ordner. Prüfe zuerst die Fristen und hilf mir mit einem sachlichen Anspruchsschreiben. Frage nur nach entscheidenden fehlenden Angaben.
+
+Der Arbeitsweg trennt Bewerbung, Arbeitsplatz und Zivilverkehr. Vorhandene Angaben werden weiterverwendet; nach Ihrer Antwort wird am selben Entwurf gearbeitet. Das Paket ist ein Experiment und keine Rechtsberatung."""
+    if plugin_name in {"jura-in-einfacher-sprache", "sozialrecht-fuer-laien"}:
+        entry = "juristischen-text-uebertragen" if plugin_name == "jura-in-einfacher-sprache" else "meinen-sozialfall-starten"
+        example = (
+            "Bitte schreiben Sie diesen Text einfacher. Bedingungen, Ausnahmen und Fristen sollen erhalten bleiben. Fragen Sie nur nach, wenn etwas dafür fehlt."
+            if plugin_name == "jura-in-einfacher-sprache" else
+            "Bitte lesen Sie meinen Brief. Prüfen Sie zuerst die Frist. Helfen Sie mir dann mit dem nächsten Antrag oder einer Antwort. Fragen Sie nach, wenn eine wichtige Angabe fehlt."
+        )
+        reverse = (
+            "\n\nFür die Rückrichtung: „Bitte formulieren Sie meine einfache Erklärung als juristischen Brief, ohne neue Zusagen hinzuzufügen.“"
+            if plugin_name == "jura-in-einfacher-sprache" else ""
+        )
+        return f"""## In 30 Sekunden starten
+
+Das Paket ist ein Experiment und keine Rechtsberatung. Prüfen Sie die Ergebnisse vor dem Verwenden.
+
+Mit installiertem Plugin wählen Sie `{entry}`. Geben Sie den Brief oder Ihre Frage dazu. Ohne Installation laden Sie den Mini-Prompt oder den ausführlichen Werkstatt-Prompt aus der Downloadtabelle. Ein Prompt genügt.
+
+Ein möglicher Auftrag:
+
+> {example}{reverse}
+
+Wenn Sie danach antworten, wird am begonnenen Text weitergearbeitet. Sie müssen nicht alles neu erklären."""
+    if not enabled(plugin_name, "schnellstart"):
+        detail = relative_link(directory, REPO / "skills-index" / f"{plugin_name}.md")
+        return f"""## Werkstatt verwenden
+
+Bei installiertem Plugin den Skill aus der [Skill-Liste]({detail}) mit dem konkreten Auftrag und den zugehörigen Unterlagen verwenden.
+
+Ohne Installation den vollständigen Werkstatt-Prompt unten als MD oder TXT herunterladen und mit den benötigten Unterlagen bereitstellen. Beide Dateien enthalten denselben Arbeitsablauf; eine davon genügt. Die Bedienung und Fortsetzung richten sich nach diesem Werkstatt-Prompt."""
+    title = readme_title(directory, plugin_name)
+    product = first_product(directory, plugin_name)
+    detail = relative_link(directory, REPO / "skills-index" / f"{plugin_name}.md")
+    start_rule = (
+        "Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen "
+        "Belegfragen. Stelle der sichtbaren Ausgabe weder einen Statuskopf noch einen Datei-, "
+        "Metadaten-, Rollen-, Aktenstands- oder Bearbeitungsblock voran. Beginne unmittelbar mit "
+        f"folgendem Arbeitsschritt: {product}. Fehlt ein klarer Gegenhinweis, arbeite auf "
+        "Arbeitnehmerseite. Ein in den Chat kopierter Prompt wird interaktiv bearbeitet und ist "
+        "kein automatischer Einmalauftrag. Auch eine einzelne hochgeladene Promptdatei startet "
+        "ohne Plugin oder zusätzliche Startformel; fasse sie nicht ungefragt zusammen. Fehlt das "
+        "Zeugnis, bitte um die vollständige Fassung, das Prüfziel und eine erkennbare dringende Frist."
+        if plugin_name == "arbeitszeugnispruefer"
+        else "Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für "
+        "den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. "
+        f"Beginne mit folgendem Arbeitsschritt: {product}."
+    )
+    question_rule = (
+        "Stelle nur entscheidungserhebliche Rückfragen zusammengehörig, nenne ihre Folgen und warte "
+        "auf die tatsächliche Antwort; gesicherte Teile dürfen vorläufig weiterbearbeitet werden. "
+        "Setze danach am bestehenden Stand fort und liefere die vollständige Analyse sowie die "
+        "angezeigten Schreiben ohne neuen Auftrag. Übernimm Teilantworten und kläre nur entscheidende "
+        "Restlücken oder Widersprüche. Ist ein Beleg endgültig nicht beschaffbar, begrenze das Begehren "
+        "und beende die Suchschleife. Neue Arbeitgeberantworten und Korrekturfassungen führen zur "
+        "gezielten Nachprüfung und zu den nötigen Folgeschreiben. Bei ausdrücklich nichtinteraktiver Bearbeitung verwende "
+        "Platzhalter oder bedingte Varianten, nie erfundene Antworten. Ist keine Änderung vertretbar "
+        "und keine Verhandlung gewünscht, erläutere dies im Mandantenschreiben und erzeuge kein "
+        "künstliches Arbeitgeberschreiben."
+        if plugin_name == "arbeitszeugnispruefer"
+        else "Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. "
+        "Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken."
+    )
+    document_rule = (
+        "Bei vollständigen Angaben beginne unmittelbar mit den Ergebnissen. Fehlt eine "
+        "entscheidungserhebliche Tatsache, beginne mit der Rückfrage."
+        if plugin_name == "arbeitszeugnispruefer"
+        else "Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit."
+    )
+    return f"""## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste]({detail}) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für {title}:
+
+> {start_rule} {document_rule} {question_rule}
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen."""
+
+
+def has_plugin_local_testakte(directory: Path) -> bool:
+    testakte = directory / "testakte"
+    if not testakte.is_dir():
+        return False
+    return any(
+        not {"downloads", "pruefung"} & set(path.relative_to(testakte).parts)
+        for path, _ in working_dump_flat_pairs(testakte, include_gesamt_pdf=False)
+    )
+
+
+def testakte_count(directory: Path, akten_slugs: list[str]) -> int:
+    return len(akten_slugs) + int(has_plugin_local_testakte(directory))
+
+
+def testakte_download_cell(directory: Path, akten_slugs: list[str]) -> str:
+    count = testakte_count(directory, akten_slugs)
+    if count:
+        label = "eine zugeordnete Akte" if count == 1 else f"{count} zugeordnete Akten"
+        return f"[{label}](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs"
+    return (
+        f"[`alle-testakten.zip`]({RELEASE_BASE}/alle-testakten.zip) und "
+        f"[`alle-testakten-einzelpdfs.zip`]({RELEASE_BASE}/alle-testakten-einzelpdfs.zip) "
+        "(zentrale Sammlung)"
+    )
+
+
+def testakten_section(plugin_name: str, directory: Path, akten_slugs: list[str]) -> str:
+    if not testakte_count(directory, akten_slugs):
+        return ""
+
+    lines = [
+        "## Zugeordnete Testakten",
+        "",
+        "Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.",
+        "",
+        NOTICE_MARKDOWN,
+        "",
+        "| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |",
+        "| --- | --- | --- | --- |",
+    ]
+    if has_plugin_local_testakte(directory):
+        pdf = directory / "testakte" / "gesamt-pdf" / "testakte_gesamt.pdf"
+        pdf_link = "[Gesamt-PDF](testakte/gesamt-pdf/testakte_gesamt.pdf)" if pdf.is_file() else "nicht vorhanden"
+        lines.append(
+            "| Pluginlokale Akte | "
+            f"{pdf_link} | "
+            f"[`{plugin_name}-testakte.zip`]({RELEASE_BASE}/{plugin_name}-testakte.zip) | "
+            f"[`{plugin_name}-testakte-einzelpdfs.zip`]({RELEASE_BASE}/{plugin_name}-testakte-einzelpdfs.zip) |"
+        )
+    for slug in akten_slugs:
+        title = display_akte_title(get_akte_title(slug)).replace("[", "").replace("]", "")
+        pdf_rel = relative_link(
+            directory,
+            TESTAKTEN_DIR / slug / "gesamt-pdf" / f"{slug}_gesamt.pdf",
+        )
+        lines.append(
+            f"| [{title}]({relative_link(directory, TESTAKTEN_DIR / slug / 'README.md')}) | "
+            f"[Gesamt-PDF]({pdf_rel}) | "
+            f"[`testakte-{slug}.zip`]({case_asset_url(slug, root=REPO)}) | "
+            f"[`testakte-{slug}-einzelpdfs.zip`]({case_asset_url(slug, '-einzelpdfs', root=REPO)}) |"
+        )
+    testakten_overview = relative_link(directory, TESTAKTEN_DIR / "README.md")
+    lines.extend(["", f"[Alle Testakten und Fachzuordnungen]({testakten_overview})"])
+    return "\n".join(lines)
 
 
 def markdown_text(value: str) -> str:
@@ -244,36 +570,166 @@ def markdown_text(value: str) -> str:
     return text
 
 
+def description_with_current_count(description: str, directory: Path) -> str:
+    """Zahlen in der Anzeige aus dem Quellbestand statt aus alter Prosa beziehen."""
+    if not (directory / "skills").is_dir():
+        return description
+    count = sum(1 for _ in (directory / "skills").glob("*/SKILL.md"))
+    return re.sub(r"\b(?:über |ueber |mehr als )?\d+ Skills\b", f"{count} Skills", description)
+
+
 def block(plugin: dict, directory: Path, akten_slugs: list[str], marketplace_count: int) -> str:
     plugin_name = plugin["name"]
+    if not standalone_kinds(plugin_name):
+        readme = directory / "README.md"
+        text = readme.read_text(encoding="utf-8") if readme.is_file() else ""
+        curated = re.search(re.escape(BEGIN) + r"[\s\S]*?" + re.escape(END), text)
+        if curated:
+            return curated.group(0)
+        return f"""{BEGIN}
+## App verwenden
+
+Starten Sie die lokale App nach der Anleitung in dieser README. Die Installation allein startet keinen Server und garantiert keine eingebettete Browseransicht.
+
+[Plugin als ZIP]({plugin_asset_url(plugin_name, root=REPO)}) · [Plugin-Dateien](.)
+{END}"""
     stem = prompt_stem(plugin_name)
     werkstatt_file = f"{stem}-werkstatt.md"
     schnellstart_file = f"{stem}-schnellstart.md"
-    raw_dir = f"{RAW_BASE}/{directory.relative_to(REPO).as_posix()}"
-    werkstatt_url = f"{raw_dir}/{werkstatt_file}"
-    schnellstart_url = f"{raw_dir}/{schnellstart_file}"
-    testakte_cell = testakte_download_cell(plugin_name, directory, akten_slugs)
-    description = markdown_text(plugin.get("description") or readme_title(directory, plugin_name))
-    return f"""{BEGIN}
+    plugin_rel = directory.relative_to(REPO).as_posix()
+    werkstatt_url = markdown_download_url(f"{plugin_rel}/{werkstatt_file}")
+    schnellstart_url = markdown_download_url(f"{plugin_rel}/{schnellstart_file}")
+    marketplace_install_note = ""
+    werkstatt_download_link = f"[MD herunterladen / Download MD]({werkstatt_url})"
+    schnellstart_download_link = f"[MD herunterladen / Download MD]({schnellstart_url})"
+    if plugin_name in PUBLIC_VERGABERECHT_ROLES:
+        marketplace_install_note = (
+            "\n\nClaude Code installiert diese Rolle mit "
+            f"`/plugin install {plugin_name}@klotzkette-german-legal-skills` "
+            "aus dem öffentlichen Vergaberecht-Marketplace."
+        )
+        werkstatt_download_link = (
+            f'<a href="{werkstatt_url}" download="{werkstatt_file}">'
+            "MD herunterladen / Download MD</a>"
+        )
+        schnellstart_download_link = (
+            f'<a href="{schnellstart_url}" download="{schnellstart_file}">'
+            "MD herunterladen / Download MD</a>"
+        )
+    focus_explanation = ""
+    focus_download = ""
+    focus_file = f"{stem}-hauptproblem.md"
+    if (directory / focus_file).is_file():
+        focus_url = markdown_download_url(f"{plugin_rel}/{focus_file}")
+        focus_explanation = f'| Schwerpunkt-Prompt | Eigenständiger, eng abgegrenzter Mandatsauftrag bis 7500 Zeichen. Der zugehörige Fachskill ist auch im Plugin vorhanden. | Standalone workflow for one demanding practice problem, up to 7500 characters. Its corresponding skill is also part of the plugin. | <a href="{focus_url}" download>MD herunterladen / Download MD</a> |\n'
+        focus_download = f'| Schwerpunkt-Prompt (Hauptproblem) | Markdown | <a href="{focus_url}" download>{focus_file}</a> |\n'
+    testakte_cell = testakte_download_cell(directory, akten_slugs)
+    description = markdown_text(description_with_current_count(
+        plugin.get("description") or readme_title(directory, plugin_name), directory
+    ))
+    assets = relative_link(directory, REPO / "ASSET_INDEX.md")
+    skill_detail = relative_link(directory, REPO / "skills-index" / f"{plugin_name}.md")
+    testakten = testakten_section(plugin_name, directory, akten_slugs)
+    testakten_block = f"\n\n{testakten}" if testakten else ""
+    quickstart = quickstart_section(plugin_name, directory)
+    skill_note = "Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein."
+    skill_note_en = "The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires."
+    if not enabled(plugin_name, "schnellstart") and len(list((directory / "skills").glob("*/SKILL.md"))) == 1:
+        skill_note = "Das Plugin enthält genau einen unmittelbar installierten Skill. Der Werkstatt-Prompt ist derselbe eigenständig nutzbare Arbeitsablauf als separater Download; MD und TXT enthalten denselben Text. Benötigte Referenzen oder Werkzeuge müssen beim manuellen Einsatz zusätzlich verfügbar sein."
+        skill_note_en = "The plugin contains exactly one directly installed skill. The separate workshop download provides the same standalone workflow; MD and TXT contain identical text. Required references or tools must also be available when used manually."
+    if plugin_name in {"kommunale-haftpflicht", "vertragserstellung", "wirtschaftsanwalt", "antidiskriminierung-agg", "mietchecker", "eigenbedarfskuendigungschecker"}:
+        skill_note = "Alle zehn Skills sind im Plugin unmittelbar enthalten. Der Hauptskill bearbeitet den Auftrag selbst; die übrigen Skills vertiefen konkrete Teilfragen. Bei einem einzelnen Skill-Download müssen seine verlinkten Referenzen zusätzlich verfügbar sein."
+        skill_note_en = "All ten skills are included directly in the plugin. The main skill carries out the assignment; the others address specific issues. A downloaded individual skill also needs its linked references."
+    elif plugin_name in {"gesellschafterstreit", "transparenzregister-assistent", "handelsregister-assistent", "grundbuchamt-assistent", "markenamt-assistent", "berliner-schulrecht-eltern-schueler", "berliner-hochschulrecht-professoren"}:
+        skill_note = "Alle elf Skills sind unmittelbar enthalten: zehn Fachskills und der Hauptproblem-Skill. Werkstatt, Mini und Hauptproblem-Prompt sind getrennte eigenständige Downloads. Beim Einzel-Download eines Skills müssen die verlinkten Referenzen zusätzlich verfügbar sein."
+        skill_note_en = "All eleven skills are directly included: ten task workflows and one main problem workflow. Workshop, mini and focus prompts are separate standalone downloads. A downloaded individual skill also needs its linked references."
+    elif plugin_name == "sektorenvergabe-workflow":
+        skill_note = "Elf Skills sind direkt enthalten: fünf zur Unterlagenerstellung, fünf zur Verfahrensführung und ein Hauptskill. Jeder Fachskill enthält Eingaben, Normen, Entscheidungsanker und eine Übergabe für die manuelle Sequenz. Referenzen vertiefen die Quellenprüfung; Werkstatt und Mini sind separate eigenständige Downloads."
+        skill_note_en = "Eleven skills are included: five for tender documents, five for procedure management and one coordinating skill. Each task skill provides inputs, legal anchors and a handover for manual sequencing. References add source detail; workshop and mini prompt are separate standalone downloads."
+    elif plugin_name == "insolvenzforderungen-checker":
+        skill_note = "Alle elf Skills sind unmittelbar enthalten: ein Hauptskill und zehn Fachskills. Werkstatt und Mini-Prompt sind eigenständige Downloads. Der optionale Exporthelfer und seine Referenz gehören zum Plugin-ZIP; einzelne Skill-Downloads benötigen diese Hilfsdateien zusätzlich."
+        skill_note_en = "All eleven skills are included directly: one main workflow and ten specialist skills. Workshop and mini prompt are standalone downloads. The optional export helper and its reference are bundled in the plugin ZIP; individual skill downloads need those files separately."
+    elif plugin_name == "gmbh-gesellschafterversammlung":
+        skill_note = "Alle sechs Skills sind unmittelbar enthalten: fünf Fachskills und der Hauptproblem-Skill gesellschafterversammlung-organisieren. Die Werkstatt und der Mini-Prompt sind gesonderte eigenständige Downloads. Referenzen, Ausgabebausteine und Stimmenprüfer gehören zum Plugin-ZIP; beim Einzel-Download eines Skills müssen seine Hilfsdateien zusätzlich verfügbar sein."
+        skill_note_en = "All six skills are included directly: five task skills and one main workflow. The workshop and mini prompt are separate standalone downloads. References, drafting blocks and the vote calculator are included in the plugin ZIP; an individual skill download does not include its supporting files."
+    elif plugin_name in {"jura-in-einfacher-sprache", "sozialrecht-fuer-laien"}:
+        count = 5 if plugin_name == "jura-in-einfacher-sprache" else 10
+        skill_note = f"Alle {count} Skills sind unmittelbar enthalten. Werkstatt und Mini-Prompt sind separate eigenständige Markdown-Downloads. Einzelne Skill-Downloads benötigen ihre verlinkten Referenzen zusätzlich. Die Sprachbearbeitung orientiert sich an Einfacher Sprache, ist aber nicht zertifiziert. Das Paket ist ein Experiment und keine Rechtsberatung."
+        skill_note_en = f"All {count} skills are directly included. Workshop and mini prompt are separate standalone Markdown downloads. Individual skill downloads need their linked references. The language workflow aims at plain language without certified conformity. This is an experiment, not legal advice."
+    elif plugin_name == "pflegerecht-sgb-xi":
+        skill_note = "Alle zehn Skills sind unmittelbar enthalten, einschließlich des Hauptskills pflegefall-bearbeiten. Werkstatt und Mini-Prompt sind separate eigenständige Downloads. Vorhandene Pflegeakten bleiben an ihren bisherigen Orten verlinkt. Einzelne Skill-Downloads benötigen ihre verlinkten Referenzen zusätzlich."
+        skill_note_en = "All ten skills are directly included, including the main care-case workflow. Workshop and mini prompt are separate standalone downloads. Existing care cases remain linked at their original locations. Individual skill downloads need their supporting references."
+    elif plugin_name == "sozialversicherungspflicht-pruefer":
+        skill_note = "Alle zehn Skills sind unmittelbar im Plugin enthalten, einschließlich des Hauptskills sozialversicherungspflicht-pruefen. Werkstatt und Mini-Prompt sind eigenständige separate Downloads. Die sechs Fallakten werden unabhängig vom Plugin bereitgestellt. Beim Einzel-Download eines Skills müssen benötigte Referenzen zusätzlich verfügbar sein."
+        skill_note_en = "All ten skills are included directly, including the main workflow. The workshop and mini prompt are separate standalone downloads. Six practice cases are provided separately. An individual skill download does not include its supporting references."
+    elif plugin_name == "juristische-praesentationen":
+        skill_note = "Alle zwölf Skills sind unmittelbar enthalten: zehn Kernskills sowie zwei nur auf Wunsch verwendete Bonus-Skills für Animation und jugendgerechte Sprache. Beginne mit praesentation-starten oder einem passenden Fachskill. Vorlage, Referenzen und Paketprüfer sind im Plugin-ZIP enthalten; beim Einzel-Download müssen sie bei Bedarf zusätzlich bereitgestellt werden."
+        skill_note_en = "All twelve skills are directly included: ten core workflows and two opt-in bonuses for animation and youth-friendly language. Start with praesentation-starten or the relevant task skill. The plugin ZIP includes the template, references and package checker; a standalone skill download does not."
+    elif plugin_name == "bauwirtschaft":
+        skill_note = "Alle 29 Skills sind im Plugin unmittelbar enthalten: zwanzig für konkrete Projektaufgaben und neun für die HOAI-Leistungsphasen bei Gebäuden und Innenräumen. Für einen Einzelauftrag genügt der passende Fachskill; eine vollständige Phase bearbeitet der Phasenskill. Die neun zusätzlichen Phasen-Werkstätten und ihre eigenen Schulungsakten stehen in der [Phasenübersicht](../docs/bauwirtschaft-hoai-phasen.md). Technische Prüfungen und Freigaben bleiben bei den dafür zuständigen Fachleuten."
+        skill_note_en = "All 29 skills are included directly: twenty project-task skills and nine building-planning phase workflows. Use a task skill for a specific assignment or a phase skill for the complete phase. The [phase index](../docs/bauwirtschaft-hoai-phasen.md) links nine additional standalone workshops and nine separate practice files. Technical inspections and approvals remain with the responsible professionals."
+    result = ensure_download_notices(f"""{BEGIN}
 ## Was ist das hier?
 
 {description}
 
-Dieses Plugin gehört zum Marketplace mit {marketplace_count} Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit {marketplace_count} Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.{marketplace_install_note}
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`{plugin_name}.zip`]({plugin_asset_url(plugin_name, root=REPO)}) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list]({skill_detail}) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | {werkstatt_download_link} |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | {schnellstart_download_link} |
+{focus_explanation}| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index]({relative_link(directory, TESTAKTEN_DIR / 'README.md')}) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+{skill_note}
+
+{skill_note_en}
+
+{navigation(plugin_name, directory)}
+
+{quickstart}
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`{plugin_name}.zip`]({RELEASE_BASE}/{plugin_name}.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="{werkstatt_url}" download><code>{werkstatt_file}</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="{schnellstart_url}" download><code>{schnellstart_file}</code></a> |
-| Testakte(n) als ZIP | ZIP | {testakte_cell} |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`{plugin_name}.zip`]({plugin_asset_url(plugin_name, root=REPO)}) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`{schnellstart_file}`]({schnellstart_url}) |
+| Großer Prompt (Werkstatt) | Markdown | [`{werkstatt_file}`]({werkstatt_url}) |
+{focus_download}| Zugeordnete Testakten | PDF / ZIP | {testakte_cell} |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit {marketplace_count} Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
-{END}"""
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit {marketplace_count} Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`]({RELEASE_BASE}/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index]({assets}); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.{testakten_block}
+{END}""")
+    if not enabled(plugin_name, "schnellstart"):
+        result = "\n".join(line for line in result.split("\n") if not line.startswith(("| Schnellstart / Mini-Prompt |", "| Kompakter Prompt (Schnellstart) |")))
+        result = result.replace("einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung", "der eigenständige Werkstatt-Prompt für die vollständige Bearbeitung")
+        result = result.replace("Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.", "Verknüpfte Hilfsdateien müssen beim eigenständigen Einsatz zusätzlich bereitstehen.")
+        result = result.replace("Werkstatt und Schnellstart bleiben direkte Markdown-Downloads", "der Werkstatt-Prompt bleibt ein direkter Download")
+    if "txt" in formats(plugin_name):
+        txt_file = f"{stem}-werkstatt.txt"
+        txt_url = markdown_download_url(f"{plugin_rel}/{txt_file}")
+        result = result.replace(f"[MD herunterladen / Download MD]({werkstatt_url}) |", f"[MD herunterladen / Download MD]({werkstatt_url}) · [TXT herunterladen / Download TXT]({txt_url}) |", 1)
+        result = result.replace(f"| Großer Prompt (Werkstatt) | Markdown | [`{werkstatt_file}`]({werkstatt_url}) |", f"| Großer Prompt (Werkstatt) | Markdown / identisches TXT | [`{werkstatt_file}`]({werkstatt_url}) · [`{txt_file}`]({txt_url}) |")
+        if enabled(plugin_name, "schnellstart"):
+            mini_txt_file = f"{stem}-schnellstart.txt"
+            mini_txt_url = markdown_download_url(f"{plugin_rel}/{mini_txt_file}")
+            result = result.replace(f"[MD herunterladen / Download MD]({schnellstart_url}) |", f"[MD herunterladen / Download MD]({schnellstart_url}) · [TXT herunterladen / Download TXT]({mini_txt_url}) |", 1)
+            result = result.replace(f"| Kompakter Prompt (Schnellstart) | Markdown | [`{schnellstart_file}`]({schnellstart_url}) |", f"| Kompakter Prompt (Schnellstart) | Markdown / identisches TXT | [`{schnellstart_file}`]({schnellstart_url}) · [`{mini_txt_file}`]({mini_txt_url}) |")
+        if (directory / focus_file).is_file():
+            focus_txt_file = f"{stem}-hauptproblem.txt"
+            if (directory / focus_txt_file).is_file():
+                focus_txt_url = markdown_download_url(f"{plugin_rel}/{focus_txt_file}")
+                result = result.replace(f'<a href="{focus_url}" download>MD herunterladen / Download MD</a> |', f'<a href="{focus_url}" download>MD herunterladen / Download MD</a> · [TXT herunterladen / Download TXT]({focus_txt_url}) |')
+                result = result.replace(f'| Schwerpunkt-Prompt (Hauptproblem) | Markdown | <a href="{focus_url}" download>{focus_file}</a> |', f'| Schwerpunkt-Prompt (Hauptproblem) | Markdown / identisches TXT | <a href="{focus_url}" download>{focus_file}</a> · [`{focus_txt_file}`]({focus_txt_url}) |')
+    return result
 
 
 def strip_old_blocks(text: str) -> str:
@@ -298,13 +754,37 @@ def insert_position(text: str) -> int:
     return pos
 
 
+def sync_visible_version(text: str, version: str) -> str:
+    pattern = (
+        r"(^\*\*Version:\*\*\s*`?|^Version\s+|"
+        r"Der Entwicklungsstand ist \d{2}\.\d{2}\.\d{4}, Version\s+)\d+\.\d+\.\d+"
+    )
+    return re.sub(pattern, lambda match: match[1] + version, text, flags=re.MULTILINE)
+
+
 def inject(plugin: dict, akten_slugs: list[str], marketplace_count: int) -> str:
     name = plugin["name"]
     directory = plugin_dir(plugin)
     readme = directory / "README.md"
     if not readme.is_file():
         return "SKIPPED"
-    text = readme.read_text(encoding="utf-8")
+    original = readme.read_text(encoding="utf-8")
+    version = plugin.get("version")
+    text = sync_visible_version(original, version) if version else original
+    # Die drei öffentlichen Vergaberechtsrollen werden von ihren eigenen
+    # Generatoren gepflegt. Ihre Start-, Gesamtprompt- und Skillblöcke bilden
+    # zusammen eine geprüfte Navigation und dürfen hier nicht vereinheitlicht
+    # oder teilweise entfernt werden.
+    if name in PUBLIC_VERGABERECHT_ROLES:
+        if text != original:
+            readme.write_text(text, encoding="utf-8")
+            return "UPDATED"
+        return "UNCHANGED"
+    if not standalone_kinds(name) and text.count(BEGIN) == 1 and text.count(END) == 1 and text.index(BEGIN) < text.index(END):
+        if text != original:
+            readme.write_text(text, encoding="utf-8")
+            return "UPDATED"
+        return "UNCHANGED"
     stripped = strip_old_blocks(text)
     pos = insert_position(stripped)
     new_text = (
@@ -314,7 +794,12 @@ def inject(plugin: dict, akten_slugs: list[str], marketplace_count: int) -> str:
         + "\n\n"
         + stripped[pos:].lstrip()
     )
-    if new_text == text:
+    if standalone_kinds(name):
+        new_text = ensure_download_notices(new_text)
+    new_text = normalize_decimal_headings(new_text)
+    if standalone_kinds(name):
+        new_text = rewrite_case_asset_urls(new_text, root=REPO)
+    if new_text == original:
         return "UNCHANGED"
     readme.write_text(new_text, encoding="utf-8")
     return "UPDATED" if BEGIN in text else "INSERTED"

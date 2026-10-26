@@ -15,9 +15,18 @@ import re
 import sys
 import json
 from pathlib import Path
+from urllib.parse import quote
+
+from readme_display import display_prose
 
 BEGIN = "<!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->"
 END = "<!-- END SKILLS-OVERVIEW (auto-generated) -->"
+REPO = Path(__file__).resolve().parent.parent
+DOWNLOAD_BASE = "https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path="
+
+
+def markdown_download_url(repo_path: str) -> str:
+    return DOWNLOAD_BASE + quote(repo_path, safe="/")
 
 
 def clean_description(desc: str) -> str:
@@ -65,7 +74,7 @@ def read_description(skill_md: Path) -> str:
     if desc.startswith('"') and desc.endswith('"'):
         desc = desc[1:-1]
     # Pipes für Tabelle escapen, Zeilenumbrüche in Spaces
-    desc = clean_description(desc.replace("\n", " ").strip())
+    desc = display_prose(clean_description(desc.replace("\n", " ").strip()))
     desc = desc.replace("|", "\\|").strip()
     # Lange Beschreibungen abkürzen
     if len(desc) > 240:
@@ -102,14 +111,22 @@ def build_overview(plugin_dir: Path) -> str:
         "## Alle Skills im Überblick",
         "",
         f"Automatisch generierte Komplett-Liste aller {len(skills)} Skills in diesem Plugin. "
-        "Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.",
+        "Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. "
+        "Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.",
         "",
-        "| Skill | Beschreibung |",
-        "| --- | --- |",
+        f"English: Complete list of all {len(skills)} skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.",
+        "",
+        "| Skill | Beschreibung | Markdown-Download |",
+        "| --- | --- | --- |",
     ]
+    plugin_rel = plugin_dir.relative_to(REPO).as_posix()
     for s in skills:
         desc = read_description(skills_dir / s / "SKILL.md")
-        lines.append(f"| `{s}` | {desc} |")
+        download_url = markdown_download_url(f"{plugin_rel}/skills/{s}/SKILL.md")
+        lines.append(
+            f"| [`{s}`]({download_url}) | {desc} | "
+            f"[MD herunterladen / Download MD]({download_url}) |"
+        )
     lines.append("")
     lines.append(END)
     return "\n".join(lines)
@@ -133,6 +150,8 @@ def update_readme(readme: Path, overview: str) -> bool:
         sep = "" if new.endswith("\n\n") else ("\n" if new.endswith("\n") else "\n\n")
         new = new + sep + "\n" + overview + "\n"
 
+    from readme_decimal_headings import normalize_decimal_headings
+    new = normalize_decimal_headings(new)
     if new == original:
         return False
     readme.write_text(new, encoding="utf-8")
@@ -140,7 +159,7 @@ def update_readme(readme: Path, overview: str) -> bool:
 
 
 def main() -> int:
-    repo = Path(__file__).resolve().parent.parent
+    repo = REPO
     marketplace = json.loads((repo / ".claude-plugin" / "marketplace.json").read_text(encoding="utf-8"))
     changed = 0
     total = 0
