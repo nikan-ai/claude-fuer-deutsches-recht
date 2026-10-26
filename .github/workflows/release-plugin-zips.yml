@@ -8,16 +8,20 @@ name: Release Plugin ZIPs
 on:
   push:
     tags:
-      - 'v*'
+      - 'v[0-9]*'
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Release-Tag (z. B. v1.1.0). Leer = nur ZIPs bauen, keinen Release anlegen.'
+        description: 'Release-Tag (z. B. v445.35.3). Ein neuer Tag entsteht erst nach bestandenen Paketprüfungen. Leer = nur bauen.'
         required: false
         default: ''
 
 permissions:
   contents: write
+
+concurrency:
+  group: release-plugin-zips-${{ github.event.inputs.tag || github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
   build-and-release:
@@ -27,61 +31,207 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          ref: ${{ github.ref }}
+
+      - name: Unveränderlichen Quellstand bestimmen
+        id: release_target
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_TAG: ${{ github.event.inputs.tag }}
+        run: |
+          TAG="$REQUESTED_TAG"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            TAG="$GITHUB_REF_NAME"
+          fi
+          if [ -n "$TAG" ]; then
+            SHA=$(python3 scripts/prepare-complete-release.py resolve "$TAG" --repo "$GITHUB_REPOSITORY" --fallback-sha "$GITHUB_SHA")
+            git checkout --detach "$SHA"
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Validator
-        run: node scripts/validate-plugin-structure.mjs
+        run: |
+          node --test scripts/test-skill-map-references.mjs
+          node scripts/validate-plugin-structure.mjs
 
       - name: Python-Abhängigkeiten installieren
         run: python3 -m pip install -r requirements.txt
 
+      - name: Lokale Grundstücksrecherche prüfen
+        run: |
+          python3 -m pip install -r grundstuecksrecherche/app/requirements.txt
+          python3 -m unittest discover -s grundstuecksrecherche/tests -v
+          python3 scripts/test-app-only-integration.py
+
+      - name: Versionsstände und Prüfprofile vor dem PDF-Build prüfen
+        run: |
+          python3 scripts/validate-root-readme-overview.py
+          python3 scripts/quality-lab.py audit
+
+      - name: Layoutgetreue Office-PDF-Konvertierung bereitstellen
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libreoffice-writer libreoffice-calc libreoffice-impress fonts-dejavu-core fonts-liberation2 fonts-croscore fonts-crosextra-carlito
+          sudo install -m 0644 scripts/data/gesellschafterstreit-fontconfig.conf /etc/fonts/conf.d/99-rechtsplugins.conf
+          fc-cache -f
+
       - name: YAML-Frontmatter validieren
         run: python3 scripts/validate-yaml-frontmatter.py
 
-      - name: Skill-Aktivierungssignale prüfen
-        run: python3 scripts/audit-skill-activation.py
+      - name: Marketplace-Import validieren
+        run: |
+          python3 scripts/test-marketplace-import.py
+          node scripts/validate-marketplace-import.mjs
 
-      - name: Gesamt-PDFs der Testakten validieren
-        run: python3 scripts/validate-testakten-gesamt-pdf.py
+      - name: Laufzeitbudgets der Plugins validieren
+        run: python3 scripts/validate-runtime-performance.py
+
+      - name: Qualitätslabor offline prüfen (keine Modellläufe)
+        run: |
+          python3 scripts/test-quality-lab.py
+          python3 scripts/test-schwerpunkt-coverage.py
+          python3 scripts/quality-lab.py audit --require-editorial --require-workflow
+
+      - name: Technischen Testaktenbestand prüfen (keine Modellbewertung)
+        run: |
+          python3 scripts/test-run-eval.py
+          python3 scripts/run-eval.py --quiet --structural-only
+
+      - name: Release- und PDF-Helfer testen
+        run: |
+          python3 scripts/test-release-assets.py
+          python3 scripts/test-complete-package.py
+          python3 scripts/test-registerakten-print-profile.py --native "$RUNNER_TEMP/registerakten-print-qa"
+          python3 scripts/test-release-routing.py
+          python3 scripts/test-prepare-complete-release.py
+          python3 scripts/test-public-downloads.py
+          python3 scripts/test-testakte-pdf-build.py
+          python3 scripts/test-testakte-projektordner.py
+          python3 scripts/test-fintech-bremen.py
+          python3 scripts/test-modefuchs-lebensakte.py
+          python3 scripts/test-gesellschafter-vorfuehrakten.py
+          python3 scripts/test-kommunale-haftpflicht.py
+          python3 scripts/test-geburtsschaden-akte.py
+          python3 scripts/test-kommunale-alltagsakten.py
+          python3 scripts/test-kommunale-schriftverkehr.py
+          python3 scripts/test-kommunale-vertiefung.py
+          python3 scripts/test-verletzungsrisiko-akte.py
+          python3 scripts/test-office-resilience.py
+          python3 scripts/test-testakten-email-quality.py
+          python3 scripts/test-weg-hausverwaltungsakten.py
+          python3 scripts/test-weg-kleinhausen.py
+          python3 scripts/test-playbook-review.py
+          python3 scripts/test-testakten-ohne-loesungen.py
+          python3 scripts/validate-testakten-ohne-loesungen.py
+          python3 scripts/test-testakte-bwa-abstimmung.py
+          python3 scripts/test-testakte-pohlmann-fristen.py
+          python3 scripts/test-datenschutz-fanpage-quellen.py
+          python3 scripts/validate-testakte-bwa-abstimmung.py
+          python3 scripts/test-grundsteuer-wolkenfels.py
+          python3 scripts/test-grundsteuerrecht.py
+          python3 scripts/test-digitaler-omnibus.py
+          python3 scripts/test-schadensregulierung.py
+          python3 scripts/test-pflegerecht-sgb-xi.py
+          python3 scripts/test-einfache-sprache-pakete.py
+          python3 scripts/test-antidiskriminierung-agg.py
+          python3 scripts/test-mietchecker.py
+          python3 scripts/test-eigenbedarfskuendigungschecker.py
+          python3 scripts/test-registerwerkstaetten.py
+          python3 scripts/test-insolvenzforderungen-export.py
+          python3 scripts/test-insolvenzforderungen-checker.py
+          python3 scripts/test-sektorenvergabe-workflow.py
+          python3 scripts/test-bauvergabe.py
+          python3 scripts/test-bauvergabe-skill-selection.py
+          python3 scripts/test-bauwirtschaft-rundum.py
+          python3 scripts/test-prompt-profile-app-boundary.py
+          python3 scripts/test-insolvenzforderungen-baeckerei.py
+          python3 scripts/test-insolvenzforderungen-asset-deal.py
+          python3 scripts/test-vertragserstellung-mandatsakten.py
+          python3 scripts/test-notariatswerkstatt.py
+          python3 scripts/test-arbeitszeugnispruefer.py
+          python3 scripts/test-ki-verordnung-hochrisiko-pruefer.py
+          python3 scripts/test-ki-verordnung-transparenzpruefer.py
+          python3 scripts/test-enteignung-artikel-14.py
+          python3 scripts/test-vergesellschaftung-artikel-15.py
+          python3 scripts/test-fachpruefer-integration.py
+          python3 scripts/test-juristische-praesentationen.py
+          python3 scripts/test-geldwaeschepraevention.py
+          python3 scripts/test-phishing-release.py
+          python3 scripts/test-arbeitsrecht-asset-deal.py
+          python3 scripts/test-betriebskosten-hausverwaltung.py
+          python3 scripts/test-rechtsabteilung-immobilien.py
+          python3 scripts/test-zugewinnausgleich.py
+          python3 scripts/test-strassennutzung.py
+          python3 scripts/test-anwaltschaft-vertragswerkstatt.py
+          python3 scripts/test-kompakte-wirtschaftspakete.py
+          python3 scripts/test-vertragserstellung-kassel-akte.py
+          python3 scripts/test-wirtschaftsanwalt-hannover-akte.py
+          python3 scripts/test-bauwirtschaft.py
+          python3 scripts/test-bauwirtschaft-einbeck.py
+          python3 scripts/test-bauwirtschaft-northeim.py
+          python3 scripts/test-bauwirtschaft-kaufmaennisch.py
+          python3 scripts/test-bauwirtschaft-hoai-1-3.py
+          python3 scripts/test-bauwirtschaft-hoai-4-6.py
+          python3 scripts/test-bauwirtschaft-hoai-7-9.py
+          python3 scripts/test-bauwirtschaft-hildesheim.py
+          python3 scripts/test-bauwirtschaft-hildesheim-lebensakte.py
+
+      - name: Skill-Aktivierungssignale prüfen
+        run: |
+          python3 scripts/audit-skill-activation.py
+          python3 scripts/test-skill-selection.py
+          python3 scripts/test-official-plugin-validation.py
+          python3 scripts/audit-skill-selection.py
+
+      - name: Geprüfte Gesamt-PDFs der Testakten validieren
+        run: |
+          python3 scripts/validate-testakten-dokumentqualitaet.py
+          python3 scripts/validate-testakten-gesamt-pdf.py
 
       - name: Keine Markdown-Aktenstücke in Testakten validieren
         run: python3 scripts/validate-testakten-keine-markdown-aktenstuecke.py
 
-      - name: Downloadhinweise der Testakten validieren
-        run: python3 scripts/validate-testakten-readme-downloads.py
+      - name: CSV-Aktenstücke validieren
+        run: python3 scripts/validate-testakten-csv.py
 
-      - name: Werkstatt- und Schnellstart-Prompts erzeugen
+      - name: Geprüfte Werkstatt- und Schnellstart-Prompts validieren
         run: |
-          # Werkstatt- und Schnellstart-Prompts sind reine Markdown-Begleitdateien,
-          # die NICHT als Skills in die Plugin-Logik gehören.
-          # Das frueher hier aufgerufene sync-schnellstart-skill.py wurde absichtlich
-          # entfernt, weil es pro Plugin einen skills/<plugin>-schnellstart/SKILL.md
-          # erzeugt hat. Diese Wrapper-Skills würden beim Marketplace-Install als
-          # zusätzlicher Skill geladen, obwohl sie nur Einstiegsdateien enthalten.
-          # Die Werkstatt- und Schnellstart-Prompts werden als Markdown-Assets
-          # im Release veröffentlicht.
-          python3 scripts/generate-werkstatt-und-schnellstart-prompts.py
-          python3 scripts/inject-streitstoff-beitrag-gerichtsplugins.py
-          python3 scripts/inject-megaprompt-section.py
-          python3 scripts/inject-direkt-loslegen-section.py
-          python3 scripts/generate-skills-overview.py
-          python3 scripts/generate-werkstatt-und-schnellstart-coverage.py
+          # Release und redaktionelle Bearbeitung sind getrennt. Veröffentlicht
+          # wird der geprüfte Tag einschließlich seiner kuratierten Prompts und
+          # Gesamt-PDFs. Nur die zusätzlichen Einzel-PDF-Downloads werden gebaut.
+          python3 scripts/test-prompt-publication-profiles.py
+          python3 scripts/test-prompt-generator-excerpts.py
+          python3 scripts/test-prompt-routing-scope.py
+          python3 scripts/test-prompt-workflow-preservation.py
+          python3 scripts/test-prompt-openings.py
+          python3 scripts/test-prompt-hygiene-links.py
+          python3 scripts/test-portable-starts.py
+          python3 scripts/test-generate-megaprompt.py
           python3 scripts/audit-generated-prompt-hygiene.py
           python3 scripts/audit-prompt-profile-routing.py
-
-      - name: Skill-Indizes neu erzeugen (SKILLS.md + skills-index, Stand = marketplace-Version)
-        run: python3 scripts/generate-skills-md.py
-
-      - name: Release-Asset-Index neu erzeugen
-        run: python3 scripts/generate-asset-index.py
+          python3 scripts/test-quickstart-usability.py
+          python3 scripts/audit-quickstart-usability.py
+          python3 scripts/validate-current-law-sentinels.py
+          python3 scripts/test-legal-calculators.py
+          python3 scripts/test-gmbh-gesellschafterversammlung.py
+          node scripts/test-liquiditaetsplanung-rechenlogik.mjs
+          python3 scripts/test-liquiditaetsplanung-excel.py
+          python3 scripts/test-bea-versandmappe.py
+          python3 scripts/test-startup-gruender.py
+          python3 scripts/test-schnittflug-erweiterung.py
+          python3 scripts/test-schnittflug-finanz-native.py
+          python3 scripts/test-schriftsatz-versandwerkstatt.py
 
       - name: Root- und Index-Übersichten gegen Marketplace validieren
-        run: python3 scripts/validate-root-readme-overview.py
+        run: |
+          python3 scripts/validate-testakten-readme-downloads.py
+          python3 scripts/validate-root-readme-overview.py
+          python3 scripts/validate-readme-navigation.py
+          python3 scripts/test-readme-navigation.py
+          python3 scripts/validate-markdown-structure.py
 
-      - name: Python-Abhaengigkeiten fuer den PDF-Bau installieren
-        run: python3 -m pip install --quiet reportlab pypdf python-docx openpyxl odfpy
-
-      - name: Pluginlokale Gesamt-PDFs der Testakten bauen
-        run: python3 scripts/build-plugin-testakte-gesamt-pdfs.py
+      - name: Textquellen und vorhandene PDFs gegen den Tag prüfen
+        run: git diff --exit-code
 
       - name: Liste aller Plugins aus marketplace.json lesen
         id: plugins
@@ -118,7 +268,11 @@ jobs:
               exit 1
             fi
             echo "Baue $plugin.zip"
-            (cd "$source" && zip -rq "${GITHUB_WORKSPACE}/dist/${plugin}.zip" . -x '*.DS_Store' '__pycache__/*' '*.pyc' 'CLAUDE.md')
+            (cd "$source" && zip -rq "${GITHUB_WORKSPACE}/dist/${plugin}.zip" . \
+              -x '*.DS_Store' '*__pycache__*' '*.pyc' 'CLAUDE.md' \
+                 '*-werkstatt.md' '*-schnellstart.md' '*-hauptproblem.md' \
+                 '*-werkstatt.txt' '*-schnellstart.txt' '*-hauptproblem.txt' \
+                 '*-werkstatt.docx' '*-werkstatt.pdf')
             ls -la "dist/${plugin}.zip"
           done < dist/plugin-map.tsv
           # Manifest fuer Marketplace-Komfort
@@ -127,12 +281,8 @@ jobs:
       - name: Release-ZIPs validieren
         run: python3 scripts/validate-release-zips.py dist .claude-plugin/marketplace.json
 
-      - name: Werkstatt- und Schnellstart-Markdownassets bauen
-        run: |
-          python3 scripts/build-werkstatt-schnellstart-sammelzips.py dist
-          test -s dist/alle-werkstatt-prompts.zip
-          test -s dist/alle-schnellstart-prompts.zip
-          ls -lh dist/alle-werkstatt-prompts.zip dist/alle-schnellstart-prompts.zip
+      - name: Portable Grundstücksrecherche ohne Vorgangsdaten bauen
+        run: python3 grundstuecksrecherche/app/portable.py dist/grundstuecksrecherche-website.zip
 
       - name: Beispielakten separat verpacken (kein Teil der Plugins, testakte-Prefix)
         run: |
@@ -159,9 +309,30 @@ jobs:
       - name: Einzel-PDF-ZIPs validieren
         run: python3 scripts/validate-testakten-einzelpdf-zips.py dist/testakten-einzelpdfs
 
+      - name: Bauwirtschaftliche Originale und veröffentlichbare Akten abgleichen
+        run: |
+          python3 scripts/test-bauwirtschaft-einbeck.py --assets dist
+          python3 scripts/test-bauwirtschaft-northeim.py --assets dist
+          python3 scripts/test-bauwirtschaft-kaufmaennisch.py --assets dist
+          python3 scripts/test-bauwirtschaft-hoai-1-3.py --assets dist
+          python3 scripts/test-bauwirtschaft-hoai-4-6.py --assets dist
+          python3 scripts/test-bauwirtschaft-hoai-7-9.py --assets dist
+          python3 scripts/test-bauwirtschaft-hildesheim.py --assets dist
+          python3 scripts/test-bauwirtschaft-hildesheim-lebensakte.py --assets dist
+          python3 scripts/test-fintech-bremen.py --assets dist
+          python3 scripts/test-modefuchs-lebensakte.py --assets dist
+          VORFUEHRAKTEN_ZIPS=dist python3 scripts/test-gesellschafter-vorfuehrakten.py
+          KOMMUNALE_HAFTPFLICHT_ZIPS=dist python3 scripts/test-kommunale-haftpflicht.py
+          KOMMUNALE_ALLTAG_ZIPS=dist python3 scripts/test-kommunale-alltagsakten.py
+          KOMMUNALE_SCHRIFTVERKEHR_ZIPS=dist python3 scripts/test-kommunale-schriftverkehr.py
+          KOMMUNALE_VERTIEFUNG_ZIPS=dist python3 scripts/test-kommunale-vertiefung.py
+          VERLETZUNG_PAKETE=dist python3 scripts/test-verletzungsrisiko-akte.py
+
       - name: Skill-Markdown-Bundles bauen (echte Downloads pro Plugin)
         run: |
-          # Pro Plugin ein ZIP mit allen SKILL.md + Schnellstart-Prompt + Plugin-README.
+          # Pro Plugin ein ZIP mit allen SKILL.md, ihren Markdown-Referenzen
+          # und dem Plugin-README.
+          # Werkstatt und Schnellstart bleiben einzelne Markdown-Downloads.
           # Die Einzel-ZIPs wandern ins Komplettpaket; als Release-Asset wird nur
           # das Sammel-ZIP hochgeladen, damit die Asset-Zahl unter der GitHub-
           # Grenze bleibt.
@@ -170,6 +341,9 @@ jobs:
           cp dist/skills-markdown/alle-skills-markdown.zip dist/alle-skills-markdown.zip
           ls dist/skills-markdown/*-skills-markdown.zip | wc -l
           ls -lh dist/alle-skills-markdown.zip
+
+      - name: Prompt-Verpackung validieren
+        run: python3 scripts/validate-prompt-packaging.py dist .claude-plugin/marketplace.json
 
       - name: Pluginlokale Testakten-Bundles bauen
         run: |
@@ -198,66 +372,10 @@ jobs:
           # Arbeitsakten-Filter gebaut wie die Einzel-Testakten-ZIPs.
           test -s dist/alle-testakten.zip
 
-          # alles-komplettpaket.zip enthaelt die Einzel-ZIPs, Sammel-ZIPs,
-          # Marketplace und zentrale Uebersichten. Ein Download fuer alles,
-          # ohne die installierbaren Plugin-ZIPs mit Rohordnern zu vermischen.
-          mkdir -p dist/komplettpaket/plugins dist/komplettpaket/testakten dist/komplettpaket/uebersichten dist/komplettpaket/skills-markdown
-          cp dist/marketplace.json dist/komplettpaket/marketplace.json
-          cp dist/alle-plugins-megazip.zip dist/komplettpaket/alle-plugins-megazip.zip
-          cp dist/alle-testakten.zip dist/komplettpaket/alle-testakten.zip
-          cp dist/alle-testakten-einzelpdfs.zip dist/komplettpaket/alle-testakten-einzelpdfs.zip
-          cp dist/alle-skills-markdown.zip dist/komplettpaket/alle-skills-markdown.zip
-          cp dist/alle-pluginlokalen-testakten.zip dist/komplettpaket/alle-pluginlokalen-testakten.zip
-          cp dist/alle-pluginlokalen-testakten-einzelpdfs.zip dist/komplettpaket/alle-pluginlokalen-testakten-einzelpdfs.zip
-          cp dist/alle-werkstatt-prompts.zip dist/komplettpaket/alle-werkstatt-prompts.zip
-          cp dist/alle-schnellstart-prompts.zip dist/komplettpaket/alle-schnellstart-prompts.zip
-          for plugin in ${{ steps.plugins.outputs.names }}; do
-            cp "dist/${plugin}.zip" "dist/komplettpaket/plugins/${plugin}.zip"
-          done
-          for z in dist/skills-markdown/*-skills-markdown.zip; do
-            [ -e "$z" ] || continue
-            # alle-skills-markdown.zip nicht doppelt mitnehmen
-            base="$(basename "$z")"
-            if [ "$base" = "alle-skills-markdown.zip" ]; then continue; fi
-            cp "$z" "dist/komplettpaket/skills-markdown/$base"
-          done
-          if [ -d testakten ]; then
-            for z in dist/testakte-*.zip; do
-              [ -e "$z" ] || continue
-              cp "$z" "dist/komplettpaket/testakten/$(basename "$z")"
-            done
-            for z in dist/testakten-einzelpdfs/testakte-*-einzelpdfs.zip; do
-              [ -e "$z" ] || continue
-              cp "$z" "dist/komplettpaket/testakten/$(basename "$z")"
-            done
-          fi
-          for z in dist/*-testakte.zip; do
-            [ -e "$z" ] || continue
-            base="$(basename "$z")"
-            case "$base" in
-              testakte-*) continue ;;
-              alle-*) continue ;;
-            esac
-            cp "$z" "dist/komplettpaket/testakten/$base"
-          done
-          for z in dist/*-testakte-einzelpdfs.zip; do
-            [ -e "$z" ] || continue
-            base="$(basename "$z")"
-            case "$base" in
-              testakte-*) continue ;;
-              alle-*) continue ;;
-            esac
-            cp "$z" "dist/komplettpaket/testakten/$base"
-          done
-          cp README.md SKILLS.md ASSET_INDEX.md CHANGELOG.md dist/komplettpaket/uebersichten/
-          # skills-index/ enthaelt die pro-Plugin-Detailseiten, auf die SKILLS.md
-          # mit relativen Links zeigt. Ohne diesen Ordner waeren die Links im
-          # ZIP-Download ins Leere gerichtet.
-          if [ -d skills-index ]; then
-            cp -R skills-index dist/komplettpaket/uebersichten/skills-index
-          fi
-          (cd dist/komplettpaket && zip -rq "../alles-komplettpaket.zip" . -x '*.DS_Store')
-          rm -rf dist/komplettpaket
+          # Ein Download mit sämtlichen Einzelpaketen, Marketplace und
+          # Übersichten. Sammel-ZIPs bleiben separate Downloads; ihre Pakete
+          # werden hier nur einmal und bytegleich eingebettet.
+          python3 scripts/build-complete-package.py dist
 
           test -s dist/alle-plugins-megazip.zip
           test -s dist/alle-testakten.zip
@@ -265,112 +383,38 @@ jobs:
           test -s dist/alle-skills-markdown.zip
           test -s dist/alle-pluginlokalen-testakten.zip
           test -s dist/alle-pluginlokalen-testakten-einzelpdfs.zip
-          test -s dist/alle-werkstatt-prompts.zip
-          test -s dist/alle-schnellstart-prompts.zip
           test -s dist/alles-komplettpaket.zip
-          ls -lh dist/alle-plugins-megazip.zip dist/alle-testakten.zip dist/alle-testakten-einzelpdfs.zip dist/alle-skills-markdown.zip dist/alle-pluginlokalen-testakten.zip dist/alle-werkstatt-prompts.zip dist/alle-schnellstart-prompts.zip dist/alles-komplettpaket.zip
+          ls -lh dist/alle-plugins-megazip.zip dist/alle-testakten.zip dist/alle-testakten-einzelpdfs.zip dist/alle-skills-markdown.zip dist/alle-pluginlokalen-testakten.zip dist/alles-komplettpaket.zip
 
       - name: Checksums erzeugen
-        run: |
-          python3 - <<'PY'
-          import hashlib
-          from pathlib import Path
-          dist = Path("dist")
-          assets = sorted(
-              p for p in dist.iterdir()
-              if p.is_file() and (p.suffix in {".zip", ".md"} or p.name == "marketplace.json")
-          )
-          with (dist / "checksums-sha256.txt").open("w", encoding="utf-8") as fh:
-              for path in assets:
-                  fh.write(f"{hashlib.sha256(path.read_bytes()).hexdigest()}  {path.name}\n")
-          PY
-          test -s dist/checksums-sha256.txt
+        run: python3 scripts/build-release-checksums.py dist
+
+      - name: Fertige Assets nach Haupt- und Begleitrelease aufteilen
+        run: python3 scripts/stage-release-assets.py dist release-staging
 
       - name: Tag bestimmen
         id: tagref
+        env:
+          REQUESTED_TAG: ${{ github.event.inputs.tag }}
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
           else
-            echo "tag=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+            echo "tag=${REQUESTED_TAG}" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Release veroeffentlichen (gedrosselter ZIP-Upload)
+      - name: Beide Releases hochladen, verifizieren und geordnet veröffentlichen
         if: steps.tagref.outputs.tag != ''
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ steps.tagref.outputs.tag }}
+          BUILD_SHA: ${{ steps.release_target.outputs.sha }}
         run: |
-          set -euo pipefail
-          gh_retry() {
-            local attempt
-            for attempt in 1 2 3 4 5 6; do
-              if "$@"; then
-                return 0
-              fi
-              echo "GitHub API-Aufruf fehlgeschlagen (Versuch $attempt): $*" >&2
-              sleep $((attempt * 60))
-            done
-            echo "GitHub API-Aufruf endgueltig fehlgeschlagen: $*" >&2
-            return 1
-          }
-
-          release_exists=0
-          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
-            echo "Release $RELEASE_TAG existiert bereits; fehlende/aktualisierte Assets werden ueberschrieben."
-            release_exists=1
-          else
-            gh_retry gh release create "$RELEASE_TAG" --title "$RELEASE_TAG" --generate-notes
-          fi
-
-          # GitHub kann bei sehr vielen Release-Assets ein Secondary Rate Limit
-          # ausloesen. Deshalb laden wir bewusst einzeln und mit kleinen Pausen.
-          upload_asset() {
-            local asset="$1"
-            local asset_name
-            asset_name="$(basename "$asset")"
-            local attempt
-            for attempt in 1 2 3 4 5 6 7 8; do
-              # "gh release upload --clobber" kann bei sehr vielen Assets
-              # gelegentlich erfolgreich zurueckkehren, ohne das entfernte
-              # Asset tatsaechlich sichtbar zu ersetzen. Bei bestehenden
-              # Releases loeschen wir deshalb vorhandene Assets explizit.
-              # Bei frisch erzeugten Releases sparen wir den Delete-Call, damit
-              # der Actions-Installation-Token nicht unnoetig Rate-Limit frisst.
-              if [ "$release_exists" = "1" ]; then
-                gh release delete-asset "$RELEASE_TAG" "$asset_name" -y >/dev/null 2>&1 || true
-                sleep 1
-              fi
-              if timeout 180s gh release upload "$RELEASE_TAG" "$asset" --clobber; then
-                return 0
-              fi
-              echo "Upload fehlgeschlagen (Versuch $attempt): $asset_name"
-              sleep $((attempt * 180))
-            done
-            echo "Upload endgueltig fehlgeschlagen: $asset_name" >&2
-            return 1
-          }
-
-          count=0
-          asset_list="$(mktemp)"
-          find dist -maxdepth 1 -type f \( -name '*.zip' -o -name 'marketplace.json' -o -name 'checksums-sha256.txt' \) | sort > "$asset_list"
-          total="$(wc -l < "$asset_list" | tr -d ' ')"
-          while IFS= read -r asset; do
-            count=$((count + 1))
-            echo "Lade $count/$total: $(basename "$asset")"
-            upload_asset "$asset"
-            if [ $((count % 50)) -eq 0 ]; then
-              sleep 20
-            else
-              sleep 1
-            fi
-          done < "$asset_list"
-
-      - name: Release-Assets remote verifizieren
-        if: steps.tagref.outputs.tag != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: python3 scripts/validate-release-assets.py dist "${{ steps.tagref.outputs.tag }}" --repo "${{ github.repository }}" --timeout-seconds 900 --poll-seconds 10
+          git diff --exit-code
+          python3 scripts/prepare-complete-release.py ensure-tag "$RELEASE_TAG" \
+            --repo "$GITHUB_REPOSITORY" --expected-sha "$BUILD_SHA"
+          python3 scripts/publish-release-assets.py release-staging "$RELEASE_TAG" \
+            --repo "${{ github.repository }}"
 
       - name: Artefakte hochladen (immer)
         if: always()
@@ -380,7 +424,7 @@ jobs:
           path: |
             dist/*.zip
             dist/*.md
-            dist/**/*.zip
             dist/marketplace.json
             dist/checksums-sha256.txt
+            release-staging/*/checksums-sha256.txt
           retention-days: 30
