@@ -1,6 +1,6 @@
 ---
 name: output-waehlen
-description: "Wenn es um Output wählen in Insolvenzrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenzrecht."
 ---
 
 # Output wählen
@@ -12,7 +12,7 @@ Diese Output-Weiche für **Insolvenzrecht** entscheidet, ob Memo, Antrag, Schrif
 ## Fachlandkarte dieses Plugins
 
 - `anfechtungsrechte-antragspflicht-15a` — Anfechtungsrechte Antragspflicht 15A
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `mandat-triage-insolvenzrecht` — Mandat-Triage Insolvenzrecht
 - `antragspflicht-15a-17-19` — Antragspflicht 15A 17 19
 - `antragspflicht-15a-inso` — Antragspflicht 15A Inso
 - `auslaendischer-insolvenzverwalter-register-und-grundbuch` — Ausländischer Insolvenzverwalter Register und Grundbuch

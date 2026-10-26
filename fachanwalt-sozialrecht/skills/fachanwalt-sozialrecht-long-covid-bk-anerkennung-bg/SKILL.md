@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sozialrecht-long-covid-bk-anerkennung-bg
-description: "Wenn es um Long-COVID als Berufskrankheit Paragraf 9 SGB VII / BK 3101 in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Long-COVID als Berufskrankheit Paragraf 9 SGB VII / BK 3101: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Long-COVID als Berufskrankheit § 9 SGB VII / BK 3101
@@ -142,16 +142,13 @@ Stellungnahme Betriebsarzt).
 III. Kausalität
 
 Die haftungsbegründende Kausalität ist überwiegend wahr-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ereignisse am [Datum] mit [Kontaktpersonen] sind dokumentiert
 (Anlage W5: Kontakttagebuch / Schichtprotokoll).
 
 IV. Versicherungsfall Long-COVID / ME/CFS
 
 Long-COVID als Folge von COVID-19 ist eine Erkrankung im Sinne
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Anwendbarkeit der BK 3101 auf Infektionskrankheiten im
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Long-COVID als anerkennungsfähige Folge anerkannt.
 
 Wir beantragen:
@@ -188,7 +185,6 @@ licher Höhe zu gewähren.
 Begründung:
 
 [Zusammenfassung Sachverhalt, Anwendungsbereich BK 3101,
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 L 17 U 232/22, Ablehnung der BG mit Gegenargumenten]
 
 Beweisangebot:
@@ -219,7 +215,6 @@ Mit freundlichen Grüßen
 | Höhere Exposition als Allgemeinbevölkerung | Kläger | Wahrscheinlichkeit | RKI-Empfehlung, Betriebsarzt-Bericht |
 | Konkretes Infektionsereignis | Kläger | Vollbeweis | PCR-Nachweis, Kontakttagebuch |
 | Erkrankung Long-COVID/ME/CFS | Kläger | Vollbeweis | Arztberichte, ICD-Codierung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Haftungsausfüllende Kausalität (Infektion→Long-COVID) | Kläger | Überwiegende Wahrscheinlichkeit | Neurolog./immunolog. Gutachten |
 | MdE-Grad | Gutachter | Schätzung | Arbeitsambulanzbericht |
 
@@ -244,7 +239,6 @@ Mit freundlichen Grüßen
 |---|---|
 | "Beruf nicht im Gesundheitsdienst" | BK 3101-Anwendungsbereich weit auslegen; ggf. Wie-BK § 9 Abs. 2 SGB VII |
 | "Infektion privat, nicht beruflich" | Kontaktereignisse dokumentieren; Schichtprotokolle, Infektionsketten belegen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "MdE unter 20 %, keine Rente" | MdE-Gutachten angreifen; Schweregradsskalen (Bell-Score, FSS) belegen |
 | "Kausalität nicht wahrscheinlich" | Gegenexpositionsanalyse; eigenes arbeitsmedizinisches Gutachten |
 | "ME/CFS nicht nachgewiesen" | Diagnose-Leitlinien (CCC/ICC) anwenden; Spezialambulanz-Gutachten |
@@ -258,7 +252,7 @@ Mit freundlichen Grüßen
 | Streitwert Klage BK-Anerkennung | Jahreswert der Verletztenrente × 13 (§ 42 GKG analog) |
 | Gerichtskosten SG | Kostenfrei § 183 SGG |
 | Anwaltskosten | PKH prüfen; Wahlanwalt EUR 1200 bis 2500 (erste Instanz) |
-| § 109-Gutachten | EUR 1500 bis 5000; Vorschuss; PKH für Gutachten beantragen |
+| § 109-Gutachten | Vorschuss nach § 109 Absatz 1 Satz 2 SGG; PKH deckt ihn nicht (§ 73a Absatz 3 SGG). Umfang, Kostenschätzung und mögliche spätere Übernahme durch die Staatskasse gesondert prüfen. |
 | LSG-Berufung | Streitwert > EUR 750 (§ 144 Abs. 1 SGG) |
 
 ---
@@ -285,4 +279,4 @@ Mit freundlichen Grüßen
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

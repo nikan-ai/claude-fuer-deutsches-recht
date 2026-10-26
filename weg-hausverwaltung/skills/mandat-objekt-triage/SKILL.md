@@ -1,6 +1,6 @@
 ---
 name: mandat-objekt-triage
-description: "Wenn es um Mandat- und Objekt-Triage in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandat- und Objekt-Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandat- und Objekt-Triage
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Fachlicher Anker
 
@@ -53,8 +51,8 @@ Aus einer ungeordneten Verwaltungsakte entsteht ein arbeitsfähiges Objektprofil
 
 1. **Dokumente benennen und Lücken markieren.** (Liste: vorhanden / fehlt / unklar)
 2. **Fristen und irreversible Risiken nach oben ziehen.**
- - § 45 WEG: 1 Monat Klage, 2 Monate Begründung (BGH V ZR 33/23).
- - 1 Jahr Erkundigungsobliegenheit bei Zustellungsverzug (BGH V ZR 17/24).
+ - § 45 WEG: 1 Monat Klage, 2 Monate Begründung (§ 45 WEG).
+ - Zustellung nachhalten; V ZR 17/24 enthält nur eine äußerste Einjahresgrenze nach bereits erfüllten eigenen Mitwirkungspflichten, keine Warteempfehlung.
  - § 556 Abs. 3 BGB: 12 Monate Betriebskostenabrechnung Mieter.
  - Gewährleistung Werkvertrag 5 J. / VOB 4 J.
  - GEG § 71 Übergangsfristen für Heizungstausch (Großstädte 30.06.2026, sonst 30.06.2028).

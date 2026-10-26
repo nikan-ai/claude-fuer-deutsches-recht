@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-uwg-einstweilige-verfuegung
-description: "Wenn es um UWG-Einstweilige Verfuegung in Fachanwalt Gewerblicher Rechtsschutz geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für UWG-Einstweilige Verfügung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # UWG-Einstweilige Verfuegung
@@ -17,10 +17,6 @@ description: "Wenn es um UWG-Einstweilige Verfuegung in Fachanwalt Gewerblicher 
 ## Zentrale Normen und Paragrafenkette
 
 § 3 ff. UWG (Tatbestand) → § 8 Abs. 1 UWG (Unterlassung) → § 8 Abs. 3 UWG (Aktivlegitimation) → § 13 UWG (Abmahnverfahren) → § 12 Abs. 1 UWG (Dringlichkeit) → § 8c UWG (Missbrauch) → §§ 935, 940 ZPO (Eilverfahren) → § 924 ZPO (Widerspruch) → § 14 UWG (Gerichtsstand)
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Dringlichkeit und Selbstwiderlegung
 
@@ -169,7 +165,6 @@ ANLAGEN: K1 [Screenshot], K2 [Kaufbeleg], K3 [Eidesstattliche Versicherung]
 
 | Verstosstypus | Uebliche Hoehe | Grundlage |
 |---------------|---------------|---------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Irreführende Werbung klein | 5.001-10.000 EUR | Hamburger Brauch |
 | Irreführende Werbung gross | 15.000-30.000 EUR | Bekanntheitsgrad |
 | Wiederholungsverstoß | mind. Verdoppelung | § 339 BGB Angemessenheit |
@@ -179,3 +174,5 @@ ANLAGEN: K1 [Screenshot], K2 [Kaufbeleg], K3 [Eidesstattliche Versicherung]
 - `fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg` — vollstaendige UWG-Abmahnung
 - `fachanwalt-gewerblicher-rechtsschutz-abmahnung-vergleich-wipo` — Vergleichsstrategie nach Abmahnung
 - `gewerblicher-rechtsschutz/schutzschrift-eilverfuegung` — Schutzschrift auf Gegenseite
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

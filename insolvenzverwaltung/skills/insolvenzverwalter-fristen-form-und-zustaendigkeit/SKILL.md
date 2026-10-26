@@ -1,6 +1,6 @@
 ---
 name: insolvenzverwalter-fristen-form-und-zustaendigkeit
-description: "Wenn es um Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg
@@ -15,8 +15,6 @@ description: "Wenn es um Insolvenzverwalter: Fristen, Form, Zuständigkeit und R
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -55,7 +53,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 ## Zuständigkeit
 - **Insolvenzgericht** = Amtsgericht am Sitz des Schuldners (§ 2 InsO). Bei Sitzverlegung in den letzten 6 Monaten: vorheriger Sitz (§ 3 Abs. 1 InsO).
 - **Beschwerden gegen Verwalter-Entscheidungen:** sofortige Beschwerde § 6 InsO.
-- **Restrukturierungsgericht** = Landgericht beim OLG-Sitz (§ 34 StaRUG) — nur für StaRUG-Verfahren.
+- **Restrukturierungsgericht:** Nach Paragraf 34 StaRUG grundsätzlich das Amtsgericht am Sitz eines Oberlandesgerichts; landesrechtliche Konzentration und örtliche Zuständigkeit nach Paragraf 35 StaRUG aktuell prüfen. Es ist vom Insolvenzgericht des konkreten Insolvenzverfahrens zu trennen.
 
 ## Form
 - Berichte und Anträge zum Insolvenzgericht: schriftlich (Schriftsatz) oder beA-Übermittlung; Anlagen elektronisch oder in Papier.

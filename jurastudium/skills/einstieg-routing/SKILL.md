@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Jurastudium geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Jurastudium."
 ---
 
 # Einstieg und Routing
@@ -40,24 +40,3 @@ Dieser Einstieg routet **Jurastudium** vom ersten Sachverhalt zu Rollen, Fristen
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 242 StGB
-- § 35 VwVfG
-- § 15 StGB
-- § 1 StGB
-- § 70 VwGO
-- Art. 3 GG
-- § 32 StGB
-- § 16 StGB
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-
-### Leitentscheidungen
-
-- BGH VI ZR 116/12

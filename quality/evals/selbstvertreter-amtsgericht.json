@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "plugin": "selbstvertreter-amtsgericht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__276.html",
+      "checked_on": "2026-09-14",
+      "supports": "Schriftliches Vorverfahren: zweiwöchige Notfrist für die Verteidigungsanzeige und gesonderte Klageerwiderungsfrist."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__495a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 276 ZPO gelesen; Bezug: Fristgerechte Parteierklärung und Zahlungsabwehr statt allgemeiner Verfahrensbegleitung. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/03/rk20170302_2bvr097716.html",
+      "checked_on": "2026-09-25",
+      "supports": "BVerfG, Beschluss vom 02.03.2017, 2 BvR 977/16: Erkennbare Ablehnung schriftlicher Entscheidung kann Verhandlungsantrag sein, fehlendes Beweisangebot rechtfertigt Übergehen nicht. Amtlicher Volltext am 25.09.2026 inhaltlich geprüft, Randnummern 1 bis 13 vollständig gelesen. Verhandlungsantrag ersetzt weder fristgebundene Erklärung noch Sachbeweis; kein allgemeiner Anspruch außerhalb des gesetzlichen Verfahrens."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__276.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuelle amtlich indexierte Passage zur Verteidigungsanzeige und Frist geprüft; direkter Abruf zuletzt zeitweise nicht erreichbar. Keine neue Volltextverifikation behauptet."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Verteidigungsanzeige und Klageerwiderung sowie Verlängerungsschreiben unterscheiden; Zahlung an Dritte und tatsächliche Berechtigung klären; gerichtlichen Hinweis mit konkreter Wahrnehmung beantworten; Ratenangebot ohne ungewolltes Anerkenntnis entwerfen. 2026-10-16, redaktioneller Einstiegsreview: Verständliches Parteischreiben eröffnet; Verhandlungswunsch nicht als Ersatz für Verteidigungsfrist oder Beweis dargestellt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Kaufpreis und Erfüllung konkret getrennt; verständlicher Verhandlungsantrag auch bei laienhafter Ablehnung der Aktenentscheidung; alte Selbstverweise zur Beweislast entfernt.",
+      "Erkennbare Ablehnung schriftlicher Entscheidung kann Verhandlungsantrag sein, fehlendes Beweisangebot rechtfertigt Übergehen nicht.",
+      "Leerstart: auf Klage reagieren, eigene Forderung oder Termin vorbereiten wählen.",
+      "Nachgewiesene Teilzahlung verändert Restbetrag und Begründung; eine Fristverlängerung wird nur ihrem tatsächlichen Inhalt nach in den Verfahrensplan übernommen.",
+      "Verteidigungsanzeige und Klageerwiderung sowie Verlängerungsschreiben unterscheiden; Zahlung an Dritte und tatsächliche Berechtigung klären; gerichtlichen Hinweis mit konkreter Wahrnehmung beantworten; Ratenangebot ohne ungewolltes Anerkenntnis entwerfen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Verständliches Parteischreiben eröffnet; Verhandlungswunsch nicht als Ersatz für Verteidigungsfrist oder Beweis dargestellt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "99b83688cae76851942e1b55c2d6bab283059c291f30e1de8b6367f1fb80a42f",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Mir wurde eine Klage beim Amtsgericht zugestellt; erstellen Sie Verteidigungsanzeige und erste Erwiderung.",
+      "Ich vertrete mich selbst gegen eine Kaufpreisforderung und möchte meine Zahlungsbelege geordnet vortragen."
+    ],
+    "negative": [
+      "Entwerfen Sie für die Richterin ein Urteil im vereinfachten Verfahren.",
+      "Vertreten Sie mich vor dem Landgericht in einem Anwaltsprozess ohne Anwalt."
+    ]
+  },
+  "cases": [
+    {
+      "id": "anzeige-vor-erwiderungsfrist",
+      "request": "Heute ist der 14. September 2026. Mir wurde am 1. September in Deutschland eine Amtsgerichtsklage über 400 Euro Kaufpreis zugestellt. Das Gericht hat schriftliches Vorverfahren angeordnet; die Verfügung nennt den 15. September für die Verteidigungsanzeige und den 29. September für die Klageerwiderung. Ich habe noch nichts eingereicht. Den Kauf und den Preis bestreite ich nicht. Ich habe aber am 20. August 400 Euro unter Angabe der Rechnungsnummer an die Verkäuferin überwiesen; der Kontoauszug liegt mir vor. Erstellen Sie ergebnis.md mit einem sofort nutzbaren Entwurf und einem getrennten Plan für die weitere Erwiderung. Versenden Sie nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die fristnahe Verteidigungsanzeige bis 15. September wird von der inhaltlichen Erwiderung bis 29. September unterschieden; es wird nicht zum Abwarten bis 29. September geraten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Entwurf bestreitet den Anspruch wegen behaupteter Zahlung, ohne den zugestandenen Kauf oder Preis künstlich zu bestreiten, und ordnet den Kontoauszug als Zahlungsbeleg ein.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Ausgabe enthält einen verwendbaren Parteientwurf und erklärt dessen noch erforderliche Einreichung, behauptet aber weder erfolgten Versand noch ein bereits ergangenes Versäumnisurteil.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "klageerwiderung-fristen-274-zpo"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Verteidigungsanzeige und Klageerwiderung sowie Verlängerungsschreiben unterscheiden; Zahlung an Dritte und tatsächliche Berechtigung klären; gerichtlichen Hinweis mit konkreter Wahrnehmung beantworten; Ratenangebot ohne ungewolltes Anerkenntnis entwerfen. 2026-10-16, redaktioneller Einstiegsreview: Verständliches Parteischreiben eröffnet; Verhandlungswunsch nicht als Ersatz für Verteidigungsfrist oder Beweis dargestellt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Fristgerechte Parteierklärung und Zahlungsabwehr statt allgemeiner Verfahrensbegleitung.",
+      "Erkennbare Ablehnung schriftlicher Entscheidung kann Verhandlungsantrag sein, fehlendes Beweisangebot rechtfertigt Übergehen nicht.",
+      "Leerstart: auf Klage reagieren, eigene Forderung oder Termin vorbereiten wählen.",
+      "Nachgewiesene Teilzahlung verändert Restbetrag und Begründung; eine Fristverlängerung wird nur ihrem tatsächlichen Inhalt nach in den Verfahrensplan übernommen.",
+      "Verteidigungsanzeige und Klageerwiderung sowie Verlängerungsschreiben unterscheiden; Zahlung an Dritte und tatsächliche Berechtigung klären; gerichtlichen Hinweis mit konkreter Wahrnehmung beantworten; Ratenangebot ohne ungewolltes Anerkenntnis entwerfen.",
+      "2026-10-16, redaktioneller Einstiegsreview: Verständliches Parteischreiben eröffnet; Verhandlungswunsch nicht als Ersatz für Verteidigungsfrist oder Beweis dargestellt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "9980fe4f93977630858f197c3ac405417b0216f7d30b58b08ab069b8533cdbab",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "selbstvertreter-amtsgericht/README.md",
+      "selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-werkstatt.md",
+      "selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-schnellstart.md",
+      "quality/evals/selbstvertreter-amtsgericht.json"
+    ],
+    "opening_change": "Fristgerechte Parteierklärung und Zahlungsabwehr statt allgemeiner Verfahrensbegleitung",
+    "norms": [
+      "Paragraf 276 ZPO",
+      "Paragraf 362 BGB",
+      "Paragraf 495a ZPO",
+      "Artikel 103 Absatz 1 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 02.03.2017, 2 BvR 977/16",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/03/rk20170302_2bvr097716.html",
+        "application": "Erkennbare Ablehnung schriftlicher Entscheidung kann Verhandlungsantrag sein, fehlendes Beweisangebot rechtfertigt Übergehen nicht.",
+        "limit": "Amtlicher Volltext am 25.09.2026 inhaltlich geprüft, Randnummern 1 bis 13 vollständig gelesen. Verhandlungsantrag ersetzt weder fristgebundene Erklärung noch Sachbeweis; kein allgemeiner Anspruch außerhalb des gesetzlichen Verfahrens."
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Volltext am 25.09.2026 inhaltlich geprüft, Randnummern 1 bis 13 vollständig gelesen. Verhandlungsantrag ersetzt weder fristgebundene Erklärung noch Sachbeweis; kein allgemeiner Anspruch außerhalb des gesetzlichen Verfahrens.",
+      "Keine Live-Beratung oder Einreichung; der Verhandlungsfall ersetzt keine Prüfung der materiellen Klageforderung.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: BVerfG 2 BvR 977/16 verwendet. Nachprüfung am 25.09.2026: Amtlichen Volltext mit Randnummern 1 bis 13 vollständig gelesen. Bestehende Wertgrenzen und Übergangsfragen erhalten, keine erneute vollständige Reformprüfung. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: auf Klage reagieren, eigene Forderung oder Termin vorbereiten wählen.",
+      "Dateien: Gerichtsschreiben still lesen und das konkrete Selbstvertretungsziel klären.",
+      "Klarer Auftrag: Verteidigungsanzeige, Erwiderung oder Zahlungsbrief direkt und verständlich ausformulieren."
+    ],
+    "continuation": "Nachgewiesene Teilzahlung verändert Restbetrag und Begründung; eine Fristverlängerung wird nur ihrem tatsächlichen Inhalt nach in den Verfahrensplan übernommen.",
+    "enrichment": "Verteidigungsanzeige und Klageerwiderung sowie Verlängerungsschreiben unterscheiden; Zahlung an Dritte und tatsächliche Berechtigung klären; gerichtlichen Hinweis mit konkreter Wahrnehmung beantworten; Ratenangebot ohne ungewolltes Anerkenntnis entwerfen.",
+    "limits": "desk review; no live client execution"
+  }
+}

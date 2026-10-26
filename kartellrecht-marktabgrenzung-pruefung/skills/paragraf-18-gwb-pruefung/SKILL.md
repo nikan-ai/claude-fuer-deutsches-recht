@@ -1,6 +1,6 @@
 ---
 name: paragraf-18-gwb-pruefung
-description: "Wenn es um Paragraf 18 GWB — Marktbeherrschung: Prüfung in Kartellrecht — Marktabgrenzungsprüfung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Paragraf 18 GWB — Marktbeherrschung: Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # § 18 GWB — Marktbeherrschung: Prüfung
@@ -81,6 +81,6 @@ Praxis: Häufig bei Lebensmitteleinzelhandel (Marktmacht gegenüber Lieferanten)
 
 ## Leitentscheidungen § 18 GWB
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BKartA, Beschl. v. 01.02.2022 — B6-22/21 (Facebook/Meta) — § 18 Abs. 3a GWB; ueberragende marktuebergreifende Bedeutung; Datenverarbeitung als marktrelevanter Faktor.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

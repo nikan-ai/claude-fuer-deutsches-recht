@@ -1,6 +1,6 @@
 ---
 name: bad-umbau-bodengleiche-dusche-sondereigentum-gemeinschaft
-description: "Wenn es um Bad Umbau Bodengleiche Dusche Sondereigentum Gemeinschaft in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bad Umbau Bodengleiche Dusche Sondereigentum Gemeinschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bodengleiche Dusche, Haltegriffe und unterfahrbares Waschbecken im Sondereigentum (Stand 06/2026): SE/GE-Abgrenzung, Beschluss nach § 20 Abs
@@ -14,14 +14,12 @@ description: "Wenn es um Bad Umbau Bodengleiche Dusche Sondereigentum Gemeinscha
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** Bodengleiche Dusche, Haltegriffe und unterfahrbares Waschbecken im Sondereigentum (Stand 06/2026): SE/GE-Abgrenzung, Beschluss nach § 20 Abs. 2 Nr. 2 WEG, DIN 18534 Abdichtung, Pflegekasse § 40 SGB XI bis 4180 Euro. BGH V ZR 57/12.
+**Fokus:** Bodengleiche Dusche, Haltegriffe und unterfahrbares Waschbecken im Sondereigentum (Stand 06/2026): SE/GE-Abgrenzung, Beschluss nach § 20 Abs. 2 Nr. 1 WEG, DIN 18534 Abdichtung, Pflegekasse § 40 SGB XI bis 4180 Euro. BGH V ZR 57/12.
 
 ### Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -37,18 +35,18 @@ Barrierereduzierende Bad-Umbauten berühren häufig Gemeinschaftseigentum — be
 | Bauteil | Zuordnung | Begründung |
 |---|---|---|
 | Fliesen auf dem Boden | Sondereigentum | Oberflächen-Bekleidung |
-| Abdichtungsebene Boden (Wanne oder Verbundabdichtung) | Gemeinschaftseigentum | BGH 26.10.2012, V ZR 57/12 |
+| Abdichtungsebene Boden (Wanne oder Verbundabdichtung) | Funktion und Aufbau prüfen, keine pauschale Zuordnung | § 5 Abs. 1 und 2 WEG; technische Pläne und Gemeinschaftsordnung |
 | Steigleitung (Hauptstrang) | Gemeinschaftseigentum | § 5 Abs. 2 WEG analog |
 | Anschlussleitungen ab Hauptstrang bis Einheit | Sondereigentum (Regel) | BGH-Leitlinie; Teilungserklärung prüfen |
 | Lüftungsschacht (Gemeinschaftsschacht) | Gemeinschaftseigentum | § 5 Abs. 2 WEG |
 | Heizkörper, Badewanne, Waschbecken | Sondereigentum | Wenn austauschbar ohne GE-Eingriff |
 | Abflussrohr im Estrich (bis Steigleitung) | Grenzfall — Teilungserklärung maßgeblich | |
 
-BGH, Urteil vom 26.10.2012, V ZR 57/12: Die Abdichtungsebene des Bades gehört zum Gemeinschaftseigentum, auch wenn sie innerhalb der Wohnung liegt; ihr Eingriff für eine bodengleiche Dusche bedarf daher eines Beschlusses der GdWE. Verweis: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.10.2012&Aktenzeichen=V+ZR+57%2F12
+BGH, Urt. v. 26.10.2012 – Az. V ZR 57/12 betrifft Versorgungsleitungen im Gemeinschaftsbereich, nicht eine pauschale Zuordnung aller Badabdichtungen. Abdichtung, Estrich, tragende Decke und Leitungsabschnitte technisch getrennt nach § 5 WEG prüfen; den konkreten Eingriff ins Gemeinschaftseigentum benennen. Amtlicher Volltext und Reichweite: [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).
 
 ## Bodengleiche Dusche: Anforderungen und Beschluss
 
-Eingriff in Bodenabdichtung (GE) erfordert Beschluss. Anspruchsgrundlage: § 20 Abs. 2 Nr. 2 WEG (barrierefreier Umbau). Die GdWE kann Auflagen zur Ausführung (Abdichtungsklasse, Fachbetrieb, Versicherungsnachweis) stellen. Norm: https://www.gesetze-im-internet.de/woeigg/__20.html
+Soweit die konkret betroffene Abdichtung oder Tragkonstruktion Gemeinschaftseigentum ist, erfordert die bauliche Veränderung eine Beschlussprüfung. Anspruchsgrundlage: § 20 Abs. 2 Nr. 1 WEG (barrierefreier Umbau). Die GdWE kann Auflagen zur Ausführung (Abdichtungsklasse, Fachbetrieb, Versicherungsnachweis) stellen. Norm: https://www.gesetze-im-internet.de/woeigg/__20.html
 
 Abdichtungsnorm DIN 18534 (Abdichtung von Innenräumen, 2017): Beanspruchungsklasse W0-I bis W3-I; bodengleiche Duschen i.d.R. W2-I (intensive Beanspruchung). Fliese als Schutzschicht, darunter Verbundabdichtung (Flüssigfolie oder Dichtband). Estrich-Gefälle: mind. 1,5% zur Ablaufrinne.
 

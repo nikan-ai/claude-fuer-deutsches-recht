@@ -1,6 +1,6 @@
 ---
 name: plattform-upload-art17-dsa
-description: "Wenn es um Plattformen, Uploads und Art. 17 DSM in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Plattformen, Uploads und Art. 17 DSM: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Plattformen, Uploads und Art. 17 DSM
@@ -20,7 +20,7 @@ description: "Wenn es um Plattformen, Uploads und Art. 17 DSM in Urheberrecht DE
 
 ## Wofür dieser Arbeitsgang da ist
 
-Plattformen, Uploads und Art. 17 DSM schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Ordne den Upload und die Rolle der Plattform im Zusammenhang mit Art. 17 DSM ein. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke anhand der dokumentierten Beweise und bereite das verlangte Vorgehen gegenüber der Plattform vor.
 
 ## Sofortstart
 

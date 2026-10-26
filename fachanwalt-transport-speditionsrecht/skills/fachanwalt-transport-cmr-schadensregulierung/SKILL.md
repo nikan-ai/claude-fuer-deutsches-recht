@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-transport-cmr-schadensregulierung
-description: "Wenn es um CMR-Schadensregulierung in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für CMR-Schadensregulierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # CMR-Schadensregulierung
@@ -41,7 +41,6 @@ Schaden an internationaler LKW-Lieferung nach CMR (UEbereinkommen über den Bef�
 
 - Bei qualifiziertem Verschulden Art. 29 CMR (Vorsatz / grobe Fahrlaessigkeit)
 - Volle Schadensbegleichung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 4) Reklamation Art. 30 CMR
 
@@ -122,3 +121,5 @@ ADSp-Aktualität: Die ADSp 2017 sind weiterhin Branchenstandard (keine ADSp 2025
 - `frachtfuehrerhaftung-pruefen` — Prüfraster
 - `fachanwalt-transport-speditionsrecht-orientierung` — Triage
 - `deckungsanfrage-pruefen` — bei Versicherer
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

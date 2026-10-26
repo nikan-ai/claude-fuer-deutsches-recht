@@ -1,6 +1,6 @@
 ---
 name: look-feel-mandatsannahme-gwg
-description: "Wenn es um Look and Feel in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Look and Feel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Look and Feel
@@ -18,9 +18,6 @@ description: "Wenn es um Look and Feel in Kanzlei-Allgemein geht: prüft Frist, 
 2. Wird die Ausgabe in Claude Cowork oder in einem anderen System angezeigt (Markdown-Grenzen beachten)?
 3. Sollen Ampelstatus, Statuskarten oder Tabellenansichten eingesetzt werden?
 4. Ist der Empfaenger der Ausgabe ein Anwalt, ein Sekretariat oder ein Mandant?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43 BRAO — Sorgfaltspflicht: umfasst auch klare und verstaendliche Kommunikation
@@ -65,9 +62,9 @@ Jede zentrale Ausgabe soll so beginnen:
 
 ## Jetzt
 
-1.
-2.
-3.
+1. Sofortmaßnahme mit Verantwortlichem
+2. Fehlende Unterlage oder Entscheidung
+3. Abschlusskontrolle mit Frist
 ```
 
 Danach erst Details.
@@ -113,3 +110,4 @@ Dieser Skill ergänzt besonders:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

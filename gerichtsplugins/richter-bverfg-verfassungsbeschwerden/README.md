@@ -5,26 +5,62 @@
 
 BVerfG Kammer und wissenschaftliche Mitarbeiter: Annahmeprüfung Verfassungsbeschwerde Paragraf 93a BVerfGG Substantiierung Subsidiarität Grundrechtsverletzung Rechtswegerschöpfung Voten Kammerbeschluss Nichtannahmebeschluss
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 310 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`richter-bverfg-verfassungsbeschwerden.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/richter-bverfg-verfassungsbeschwerden.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../../skills-index/richter-bverfg-verfassungsbeschwerden.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../../SKILLS.md) · [Skills dieses Plugins](../../skills-index/richter-bverfg-verfassungsbeschwerden.md) · [Plugin-Dateien](.) · [Download-Index](../../ASSET_INDEX.md) · [Installation](../../INSTALLATION_EINFACH.md) · [Testakten](../../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../../skills-index/richter-bverfg-verfassungsbeschwerden.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für BVerfG Vorprüfung Verfassungsbeschwerden:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`richter-bverfg-verfassungsbeschwerden.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-bverfg-verfassungsbeschwerden.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-werkstatt.md" download><code>richter-bverfg-verfassungsbeschwerden-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-schnellstart.md" download><code>richter-bverfg-verfassungsbeschwerden-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [Gesamt-PDF](testakte/gesamt-pdf/testakte_gesamt.pdf), [`richter-bverfg-verfassungsbeschwerden-testakte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-bverfg-verfassungsbeschwerden-testakte.zip), [`richter-bverfg-verfassungsbeschwerden-testakte-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/richter-bverfg-verfassungsbeschwerden-testakte-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`richter-bverfg-verfassungsbeschwerden.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/richter-bverfg-verfassungsbeschwerden.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`richter-bverfg-verfassungsbeschwerden-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`richter-bverfg-verfassungsbeschwerden-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/richter-bverfg-verfassungsbeschwerden-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 310 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du eine Grundrechtsrüge zulässig und schlüssig begründen.
+Aus einer vorliegenden Verfassungsbeschwerde und den fachgerichtlichen Entscheidungen entsteht ein Votum zur Zulässigkeit, Annahme und gegebenenfalls Begründetheit oder ein beauftragter Beschlussentwurf. Maßgeblich ist die gerichtliche Vorprüfung; fehlender Vortrag wird nicht aus der Sicht des Beschwerdeführers ergänzt oder als bereits erhoben behandelt.
 > **Experimentelles Plugin im Ordner `gerichtsplugins/`** — siehe Vorspruch unten.
 
-> **Kritisch — Hochrisiko-KI und Art. 22 DSGVO beachten.** Der Einsatz von KI in der Rechtspflege ist nach Art. 6 Abs. 2 in Verbindung mit Anhang III Nr. 8 Buchstabe a der KI-Verordnung (VO (EU) 2024/1689) grundsätzlich **Hochrisiko-KI**. Die Rückausnahme des Art. 6 Abs. 3 KI-VO greift nur bei rein vorbereitender Tätigkeit ohne Subsumtion; auch dann besteht Registrierungspflicht nach Art. 49 Abs. 2 KI-VO. Eine Entscheidung mit rechtlicher Wirkung über Menschen darf nicht einer Maschine überlassen werden (Art. 22 DSGVO) — die richterliche Letztentscheidung liegt zwingend beim Menschen. Einzelheiten unten unter „Wichtiger Hinweis vor Verwendung".
+> **Hochrisiko-Prüfung vor Justizeinsatz:** Artikel 6 Absatz 2 mit Anhang III Nummer 8 Buchstabe a anhand der konkreten Zweckbestimmung prüfen; nicht jede Verwaltungs- oder Recherchefunktion einer Justizbehörde ist automatisch erfasst. Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Datenschutzrechtliche Grenzen automatisierter Entscheidungen sind gesondert nach dem anwendbaren Regime zu prüfen. Die richterliche Entscheidung bleibt dem zuständigen Menschen vorbehalten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Rolle
 
@@ -36,23 +72,14 @@ GG, BVerfGG, BVerfGGO, Geschäftsordnung BVerfG
 
 ## Inhalt
 
-- **11 Skills** (siehe `skills/`; inklusive Schnellstart-Skill)
+- Skills mit ihren Referenzen: siehe vollständige Liste unten. Werkstatt und Schnellstart sind separate Markdown-Dateien, keine zusätzlichen Skills.
 - **Werkstatt-Prompt** (`richter-bverfg-verfassungsbeschwerden-werkstatt.md`)
 - **Schnellstart-Prompt** (`richter-bverfg-verfassungsbeschwerden-schnellstart.md`)
 - **Testakte** (`testakte/README.md`) — aus Richtersicht
 
 ## Skill-Liste
 
-- **01-annahme-prüfung-paragraf-93a** — Annahmevoraussetzungen Paragraf 93a Abs. 2 BVerfGG: grundsätzliche verfassungsrechtliche Bedeutung lit. a, Durchsetzung
-- **02-substantiierungs-prüfung-paragraf-92** — Substantiierungspflicht Paragraf 92 BVerfGG: konkrete Bezeichnung des verletzten Rechts, Sachverhaltsdarstellung, Ausein
-- **03-rechtswegerschöpfung-paragraf-90-abs-2** — Rechtswegerschöpfung Paragraf 90 Abs. 2 BVerfGG: vollständige Erschoepfung des fachgerichtlichen Instanzenzugs, Nichtz
-- **04-subsidiarität-und-frist** — Materielle Subsidiarität (zumutbare anderweitige Abhilfe, prozessuale Obliegenheiten), Beschwerdefrist Paragraf 93 BVer
-- **05-grundrechtsdogmatik-prüfen** — Prüfungsschema Freiheitsgrundrechte: Schutzbereich, Eingriff, verfassungsrechtliche Rechtfertigung (Schranken, Schranke
-- **06-fachgerichtliche-entscheidung-prüfen** — Prüfungsmaßstab gegenüber Fachgerichten: spezifisches Verfassungsrecht, Verletzung verfassungsrechtlicher Massstaebe,
-- **07-kammer-und-senat-zuständigkeit** — Zuständigkeit Kammer (drei Richter) Paragraf 93b BVerfGG vs. Senatszuständigkeit, Annahmebeschluss durch Kammer, Senat
-- **08-votum-wissenschaftlicher-mitarbeiter** — Strukturiertes Votum: Sachverhalt verkürzt, Prüfungspunkte Zulässigkeit (Frist Substantiierung Rechtsweg Subsidiarita
-- **09-nichtannahmebeschluss-entwurf** — Nichtannahmebeschluss Paragraf 93d Abs. 1 BVerfGG: ohne Begründung, mit Kurzbegründung, mit ausführlicher Begründung
-- **10-entscheidungsvorschlag-kammer-bverfg** — Strukturierter Entscheidungsvorschlag für die Kammer: Annahme oder Nichtannahme, ggf. Vorlage an den Senat, ggf. einstw
+Die [vollständige alphabetische Skill-Liste](../../skills-index/richter-bverfg-verfassungsbeschwerden.md) enthält die aktuellen Namen, Beschreibungen und Markdown-Downloads. Die thematische Navigation und die automatisch gepflegte Übersicht weiter unten helfen bei der Auswahl nach Arbeitsschritt.
 
 ## Wichtiger Hinweis vor Verwendung
 
@@ -61,8 +88,8 @@ GG, BVerfGG, BVerfGGO, Geschäftsordnung BVerfG
 ### Rechtliche Einordnung der KI-Verordnung (KI-VO, VO (EU) 2024/1689)
 
 - **Art. 6 Abs. 2 i.V.m. Anhang III Nr. 8 lit. a KI-VO**: KI-Systeme, die von einer Justizbehörde oder in deren Auftrag bei der **Recherche und Auslegung von Sachverhalten und Rechtsvorschriften** sowie bei der **Anwendung des Rechts auf konkrete Sachverhalte** verwendet werden, sind grundsätzlich **Hochrisiko-KI**.
-- **Aber Art. 6 Abs. 3 KI-VO**: Ein KI-System gilt **nicht** als Hochrisiko-KI, wenn es nur eine **vorbereitende Aufgabe** wahrnimmt (z.B. Vorbereitung von Dokumenten, reine Recherche ohne Subsumtion).
-- **Notifizierungspflicht**: Auch im Ausnahmefall des Art. 6 Abs. 3 ist der Anbieter bzw. Betreiber verpflichtet, das KI-System bei der zuständigen Aufsicht zu **registrieren** (Art. 49 Abs. 2 KI-VO).
+- **Ausnahme nach Artikel 6 Absatz 3:** Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **Registrierung und Rollen:** Artikel 6 Absatz 4 und Artikel 49 Absatz 2 richten die Dokumentations- und Registrierungspflicht bei der Ausnahme an Anbieter beziehungsweise gegebenenfalls deren Bevollmächtigte. Öffentliche Betreiber prüfen daneben Artikel 49 Absatz 3. Registrierung in der vorgesehenen Datenbank und Notifizierung einer Konformitätsbewertungsstelle sind unterschiedliche Vorgänge. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Die Einordnung ist im Einzelfall zu prüfen. Sobald das System konkrete Entscheidungsvorschläge produziert, die Subsumtion vornimmt oder die richterliche Würdigung ersetzt, wird die Schwelle zur Hochrisiko-KI überschritten.
 
 ### Art. 22 DSGVO — Verbot ausschliesslich automatisierter Entscheidung
@@ -105,13 +132,15 @@ Dual-lizenziert MIT und Apache-2.0.
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 3. Prüfung, Anspruch und Subsumtion | `01-annahme-pruefung-paragraf-93a`, `02-substantiierungs-pruefung-paragraf-92` |
-| 5. Verfahren, Behörde und Gericht | `04-subsidiaritaet-und-frist`, `06-fachgerichtliche-entscheidung-pruefen`, `09-nichtannahmebeschluss-entwurf` |
-| 8. Spezialmodule und Schnittstellen | `03-rechtswegerschoepfung-paragraf-90-abs-2`, `05-grundrechtsdogmatik-pruefen`, `07-kammer-und-senat-zustaendigkeit`, `08-votum-wissenschaftlicher-mitarbeiter`, `10-entscheidungsvorschlag-kammer-bverfg`, `99-finale-entscheidung-volltext`, `prozessuale-kniffe-und-rechtsprechungsanker` |
+| 3. Prüfung, Anspruch und Subsumtion | [`01-annahme-pruefung-paragraf-93a`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/01-annahme-pruefung-paragraf-93a/SKILL.md), [`02-substantiierungs-pruefung-paragraf-92`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/02-substantiierungs-pruefung-paragraf-92/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/juristischer-argumentationskern/SKILL.md) |
+| 5. Verfahren, Behörde und Gericht | [`04-subsidiaritaet-und-frist`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/04-subsidiaritaet-und-frist/SKILL.md), [`06-fachgerichtliche-entscheidung-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/06-fachgerichtliche-entscheidung-pruefen/SKILL.md), [`09-nichtannahmebeschluss-entwurf`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/09-nichtannahmebeschluss-entwurf/SKILL.md) |
+| 8. Spezialmodule und Schnittstellen | [`03-rechtswegerschoepfung-paragraf-90-abs-2`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/03-rechtswegerschoepfung-paragraf-90-abs-2/SKILL.md), [`05-grundrechtsdogmatik-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/05-grundrechtsdogmatik-pruefen/SKILL.md), [`07-kammer-und-senat-zustaendigkeit`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/07-kammer-und-senat-zustaendigkeit/SKILL.md), [`08-votum-wissenschaftlicher-mitarbeiter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/08-votum-wissenschaftlicher-mitarbeiter/SKILL.md), [`10-entscheidungsvorschlag-kammer-bverfg`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/10-entscheidungsvorschlag-kammer-bverfg/SKILL.md), [`99-finale-entscheidung-volltext`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/99-finale-entscheidung-volltext/SKILL.md), [`prozessuale-kniffe-und-rechtsprechungsanker`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/prozessuale-kniffe-und-rechtsprechungsanker/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -119,21 +148,32 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 12 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 13 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `01-annahme-pruefung-paragraf-93a` | Wenn es um 01 Annahme Prüfung Paragraf 93A in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `02-substantiierungs-pruefung-paragraf-92` | Wenn es um 02 Substantiierungs Prüfung Paragraf 92 in BVerfG Vorprüfung Verfassungsbeschwerden geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `03-rechtswegerschoepfung-paragraf-90-abs-2` | Wenn es um 03 Rechtswegerschoepfung Paragraf 90 Abs 2 in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `04-subsidiaritaet-und-frist` | Wenn es um 04 Subsidiaritaet und Frist in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `05-grundrechtsdogmatik-pruefen` | Wenn es um 05 Grundrechtsdogmatik Prüfen in BVerfG Vorprüfung Verfassungsbeschwerden geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `06-fachgerichtliche-entscheidung-pruefen` | Wenn es um 06 Fachgerichtliche Entscheidung Prüfen in BVerfG Vorprüfung Verfassungsbeschwerden geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten,... |
-| `07-kammer-und-senat-zustaendigkeit` | Wenn es um 07 Kammer und Senat Zuständigkeit in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `08-votum-wissenschaftlicher-mitarbeiter` | Wenn es um 08 Votum Wissenschaftlicher Mitarbeiter in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `09-nichtannahmebeschluss-entwurf` | Wenn es um 09 Nichtannahmebeschluss Entwurf in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `10-entscheidungsvorschlag-kammer-bverfg` | Wenn es um 10 Entscheidungsvorschlag Kammer BVerfG in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `99-finale-entscheidung-volltext` | Wenn es um Finale Entscheidung als Volltext (Beschluss oder Urteil BVerfG) in BVerfG Vorprüfung Verfassungsbeschwerden geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit... |
-| `prozessuale-kniffe-und-rechtsprechungsanker` | Wenn es um Prozessuale Kniffe und Rechtsprechungsanker in BVerfG Vorprüfung Verfassungsbeschwerden geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 13 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`01-annahme-pruefung-paragraf-93a`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/01-annahme-pruefung-paragraf-93a/SKILL.md) | Für 01 Annahme Prüfung Paragraf 93A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/01-annahme-pruefung-paragraf-93a/SKILL.md) |
+| [`02-substantiierungs-pruefung-paragraf-92`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/02-substantiierungs-pruefung-paragraf-92/SKILL.md) | Für 02 Substantiierungs Prüfung Paragraf 92: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/02-substantiierungs-pruefung-paragraf-92/SKILL.md) |
+| [`03-rechtswegerschoepfung-paragraf-90-abs-2`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/03-rechtswegerschoepfung-paragraf-90-abs-2/SKILL.md) | Für 03 Rechtswegerschöpfung Paragraf 90 Abs 2: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/03-rechtswegerschoepfung-paragraf-90-abs-2/SKILL.md) |
+| [`04-subsidiaritaet-und-frist`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/04-subsidiaritaet-und-frist/SKILL.md) | Für 04 Subsidiarität und Frist: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/04-subsidiaritaet-und-frist/SKILL.md) |
+| [`05-grundrechtsdogmatik-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/05-grundrechtsdogmatik-pruefen/SKILL.md) | Für 05 Grundrechtsdogmatik Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/05-grundrechtsdogmatik-pruefen/SKILL.md) |
+| [`06-fachgerichtliche-entscheidung-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/06-fachgerichtliche-entscheidung-pruefen/SKILL.md) | Für 06 Fachgerichtliche Entscheidung Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/06-fachgerichtliche-entscheidung-pruefen/SKILL.md) |
+| [`07-kammer-und-senat-zustaendigkeit`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/07-kammer-und-senat-zustaendigkeit/SKILL.md) | Für 07 Kammer und Senat Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/07-kammer-und-senat-zustaendigkeit/SKILL.md) |
+| [`08-votum-wissenschaftlicher-mitarbeiter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/08-votum-wissenschaftlicher-mitarbeiter/SKILL.md) | Für 08 Votum Wissenschaftlicher Mitarbeiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/08-votum-wissenschaftlicher-mitarbeiter/SKILL.md) |
+| [`09-nichtannahmebeschluss-entwurf`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/09-nichtannahmebeschluss-entwurf/SKILL.md) | Für 09 Nichtannahmebeschluss Entwurf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/09-nichtannahmebeschluss-entwurf/SKILL.md) |
+| [`10-entscheidungsvorschlag-kammer-bverfg`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/10-entscheidungsvorschlag-kammer-bverfg/SKILL.md) | Für 10 Entscheidungsvorschlag Kammer BVerfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/10-entscheidungsvorschlag-kammer-bverfg/SKILL.md) |
+| [`99-finale-entscheidung-volltext`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/99-finale-entscheidung-volltext/SKILL.md) | Für Finale Entscheidung als Volltext (Beschluss oder Urteil BVerfG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/99-finale-entscheidung-volltext/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Richter BVerfG Verfassungsbeschwerden ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsf... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/juristischer-argumentationskern/SKILL.md) |
+| [`prozessuale-kniffe-und-rechtsprechungsanker`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/prozessuale-kniffe-und-rechtsprechungsanker/SKILL.md) | Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BVerfG Vorprüfung Verfassungsbeschwerden. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gerichtsplugins/richter-bverfg-verfassungsbeschwerden/skills/prozessuale-kniffe-und-rechtsprechungsanker/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Unterscheiden Sie bei der Anwendung für Verfassungsbeschwerde technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

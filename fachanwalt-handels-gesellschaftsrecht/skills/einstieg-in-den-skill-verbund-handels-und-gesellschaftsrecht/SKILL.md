@@ -1,6 +1,6 @@
 ---
 name: einstieg-in-den-skill-verbund-handels-und-gesellschaftsrecht
-description: "Wenn es um Einstieg in den Skill-Verbund Handels- und Gesellschaftsrecht in Fachanwalt Handels- und Gesellschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg in den Skill-Verbund Handels- und Gesellschaftsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einstieg in den Skill-Verbund Handels- und Gesellschaftsrecht
@@ -20,8 +20,6 @@ description: "Wenn es um Einstieg in den Skill-Verbund Handels- und Gesellschaft
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Orientierung Handels- und Gesellschaftsrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -46,7 +44,7 @@ description: "Wenn es um Einstieg in den Skill-Verbund Handels- und Gesellschaft
 - **HGB:** Kaufmannsbegriff §§ 1 ff.; Firmenrecht §§ 17 ff.; Prokura §§ 48 ff.; Handelsregister § 8 ff. iVm FamFG; Handelsgeschaefte §§ 343 ff.; Handelsvertreterrecht §§ 84 ff.; Bilanzrecht §§ 238 ff. Seit MoPeG (01.01.2024) gilt für OHG/KG das neue Beschlussmaengelrecht §§ 110-115 HGB (Anfechtungsmodell, Frist drei Monate, Klage gegen die Gesellschaft).
 - **GmbHG:** Gruendung §§ 1 ff., Stammkapital § 5, Geschäftsführerpflichten §§ 35 ff., Geschäftsführerhaftung § 43, Gesellschafterversammlung §§ 47 ff., Anteilsabtretung § 15. Online-Beurkundung Gruendung seit DiRUG (01.08.2022), erweitert auf Kapitalerhoehung und Satzungsaenderungen seit DiREG (01.08.2023; nur bei einstimmigem Beschluss). § 16a BeurkG.
 - **AktG:** Gruendung §§ 1 ff., Hauptversammlung §§ 118 ff. (virtuelle HV § 118a AktG nach G v. 20.07.2022), Beschlussanfechtung §§ 241 ff., Vorstandshaftung § 93 AktG, Aufsichtsrat §§ 95 ff.
-- **PartGG** und **MoPeG-GbR-Recht** (Gesetz zur Modernisierung des Personengesellschaftsrechts; BGBl. I 2021, 3436; in Kraft 01.01.2024) mit eGbR-Registereintragung (§§ 707 ff. BGB); Voreintragungspflicht bei Grundstuecksgeschaeften nach § 707b BGB bestaetigt durch BGH, Beschl. v. 03.07.2025 — V ZB 17/24.
+- **PartGG und MoPeG-GbR-Recht:** Das MoPeG gilt seit dem 1. Januar 2024. Für den Grundbuchvollzug sind Paragraf 47 Absatz 2 GBO und bei Alt-GbR Artikel 229 Paragraf 21 EGBGB maßgeblich. BGH, Beschluss vom 3. Juli 2025, V ZB 17/24, verlangt bei einer nach altem Recht unter Nennung ihrer Gesellschafter eingetragenen GbR vor einer danach beantragten Grundstücksübertragung zuerst die Registrierung und anschließend die Eintragung als eGbR im Grundbuch.
 - **UmwG:** Verschmelzung §§ 2 ff., Spaltung §§ 123 ff., Formwechsel §§ 190 ff.; UmRUG (Umwandlungsrichtlinie-Umsetzungsgesetz, in Kraft 01.03.2023) — grenzueberschreitende Umwandlungen jetzt mit harmonisierten Verfahren.
 - **InsO Schnittstellen:** § 15a InsO (Antragspflicht, Hoechstfristen 3 Wochen ZU / 6 Wochen UE); § 15b InsO Zahlungsverbot ab Insolvenzreife (§ 64 GmbHG a.F. und § 92 II AktG a.F. aufgehoben durch SanInsFoG vom 22.12.2020, BGBl. I 2020, 3256, in Kraft 01.01.2021; rechtsformneutral ersetzt durch § 15b InsO).
 
@@ -61,10 +59,6 @@ description: "Wenn es um Einstieg in den Skill-Verbund Handels- und Gesellschaft
 - Streit zwischen Gesellschaftern (Hinauskündigungsklauseln, Abfindung).
 - Handelsvertreterausgleich § 89b HGB.
 
-## Maßgebliche Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Übergabe
 
 - Bei Krisenfällen Schnittstelle zum Plugin `insolvenzrecht` und zu `fachanwalt-insolvenz-sanierungsrecht`.
@@ -74,13 +68,9 @@ description: "Wenn es um Einstieg in den Skill-Verbund Handels- und Gesellschaft
 
 ## Vertiefung — Ergänzende Rechtsprechung 2020-2024
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Ergänzende Literatur
 
 - K. Schmidt, Gesellschaftsrecht, 5. Aufl. 2021: MoPeG-Neukommentierung GbR-Recht ab 2024; Vergleich Personengesellschaft/Kapitalgesellschaft.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

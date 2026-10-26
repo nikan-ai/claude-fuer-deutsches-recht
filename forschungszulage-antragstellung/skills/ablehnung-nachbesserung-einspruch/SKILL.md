@@ -1,6 +1,6 @@
 ---
 name: ablehnung-nachbesserung-einspruch
-description: "Wenn es um Ablehnung, Nachbesserung, Einspruch in Forschungszulage-Antragstellung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ablehnung, Nachbesserung, Einspruch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ablehnung, Nachbesserung, Einspruch
@@ -128,25 +128,3 @@ Mit freundlichen Grüßen [Verfasser]."
 - BSFZ-Verfahrensregeln.
 - FZulG.
 - `references/forschungszulage-quellen-und-zahlen.md`.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 FZulG
-- § 10 FZulG
-- § 2 FZulG
-- § 5 FZulG
-- § 4 FZulG
-- § 6 FZulG
-- § 1 FZulG
-- § 70 VwGO
-- § 7 FZulG
-- § 9 FZulG
-- § 28 VwVfG
-- § 37 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

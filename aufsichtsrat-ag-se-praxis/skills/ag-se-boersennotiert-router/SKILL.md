@@ -1,6 +1,6 @@
 ---
 name: ag-se-boersennotiert-router
-description: "Wenn es um AG SE Boersennotiert Router in AG/SE-Aufsichtsrat Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für AG SE Börsennotiert Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AG SE Boersennotiert Router
@@ -40,23 +40,3 @@ Frage nur nach, wenn es die rechtliche Weiche wirklich verändert:
 3. **Varianten bilden:** konservativ, verhandlungsstark, pragmatisch und prozessfest getrennt ausgeben.
 4. **Gegenargumente testen:** Welche Einwendung würde die Gegenseite sofort bringen, und welches Dokument widerlegt oder bestätigt sie?
 5. **Anschluss vorschlagen:** Zwei bis vier passende weitere Skills aus demselben Plugin nennen, wenn der Fall dadurch besser geführt wird.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 25d KWG
-- § 84 AktG
-- § 90 AktG
-- § 116 AktG
-- § 36 KWG
-- § 87 AktG
-- § 4 FinDAG
-- § 28 VwVfG
-- § 80 VwGO
-- § 24 KWG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

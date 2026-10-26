@@ -1,0 +1,197 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Historische Bescheide und Objektunterlagen vor Aufnahmefragen; direkter Fachweg und vollständiger Rechtsbehelf statt Bausteinpflicht.",
+    "files": [
+      {
+        "path": "einigungsvertrag-vermoegensrecht/README.md",
+        "sha256": "ff093a27a024305290a57661416cb62b31416565ba32ef93c155b49f37ae9361"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Anspruch, Vermögensobjekt und bestelltes Schreiben werden vor den Verfahrensschritten geklärt; Konkretisierung wird von Neuanmeldung getrennt.",
+    "norms_or_source_basis": "Paragrafen 30, 30a und 31 Absatz 1b VermG",
+    "selected_anchor_identifiers": [
+      "8 C 13.18"
+    ],
+    "application_limit": "Besondere Bücherfrist des Ausgleichsleistungsrechts nicht auf Grundstücke übertragen.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/einigungsvertrag-vermoegensrecht/einigungsvertrag-vermoegensrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "059fa4ea9b38cb4f8012f27b182e4f000d81853a53fa5bba3f0aea320f5b2bc9",
+      "characters": 6662,
+      "utf8_bytes": 6786,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/einigungsvertrag-vermoegensrecht/einigungsvertrag-vermoegensrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "5237ca7b727adc81ea3e5532a69ebd60e9e83781e577c594aa55162c1d0c1a3a",
+      "characters": 13300,
+      "utf8_bytes": 13558,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "einigungsvertrag-vermoegensrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/vermg/__30a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Ausschlussfrist mit gesetzlich bestimmten Sonderfällen; neues Beweismaterial ist nicht selbst ein neuer Anmeldetatbestand."
+    },
+    {
+      "url": "https://www.bverwg.de/271119U8C13.18.0",
+      "checked_on": "2026-09-22",
+      "supports": "BVerwG, Urteil vom 27.11.2019, Az. 8 C 13.18, Randnummern 24 bis 31: Pauschale Altanmeldung auf konkrete zum Vermögenswert führende Ermittlungsansätze prüfen; Präzisierung nicht mit Austausch oder Neuanmeldung verwechseln. Grenze: Rückgabe von Büchern nach AusglLeistG; dessen Sonderfrist nicht auf Grundstücke übertragen, Anspruchsgrund und Objekt weiterhin gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vermg/__30a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Wortlaut der Ausschlussfristen und gesetzlichen Sonderfälle gelesen; neuer Archivfund kein eigener gesetzlicher Fristauslöser."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vermg/__31.html",
+      "checked_on": "2026-09-22",
+      "supports": "Absatz 1b betrifft behördliche Aufforderung zur Konkretisierung und deren Folgen; im Zusammenhang mit der gerichtlichen Voraussetzung eines individualisierbaren Antrags."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vermg/__30a.html",
+      "supports": "Erneuter Normabruf zu Ausschlussfrist und Sonderregeln; Altantrag, Ergänzung und neuer Anspruch sind nicht gleichzusetzen.",
+      "checked_on": "2026-09-23"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Archivfund dem angemeldeten Objekt zuordnen; Nachbargrundstück und nachträglicher Objektaustausch bleiben eigenständige Fristfragen. Workflow-Ergänzung einzeln geprüft: Altes Flurstück wurde geteilt -> Identitätskette, Umfang des Altantrags und heutige Bezeichnung berichtigen, keinen neuen Vermögenswert stillschweigend einbeziehen. Einstiegsredaktion 16.10.2026, Batch 2: Anspruch, Vermögensobjekt und bestelltes Schreiben werden vor den Verfahrensschritten geklärt; Konkretisierung wird von Neuanmeldung getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "BVerwG 8 C 13.18 in beiden Prompts auf konkrete Anhaltspunkte im fristgerechten Antrag angewendet",
+      "Bücher-/Ausgleichsleistungsfall von Grundstücksfristen ausdrücklich abgegrenzt",
+      "Keine automatische Behörden- oder Prozesskaskade; vollständige Dokumente und gezielte Urkundennachforderung erhalten",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Anspruch, Vermögensobjekt und bestelltes Schreiben werden vor den Verfahrensschritten geklärt; Konkretisierung wird von Neuanmeldung getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "059fa4ea9b38cb4f8012f27b182e4f000d81853a53fa5bba3f0aea320f5b2bc9"
+  },
+  "selection": {
+    "positive": [
+      "Ordne einen Altantrag auf Rückübertragung einem heutigen Flurstück zu.",
+      "Prüfe eine historische Rechtsträgerakte für den Restitutionsweg."
+    ],
+    "negative": [
+      "Beurteile eine neue Enteignung für eine Autobahn.",
+      "Erstelle einen gewöhnlichen Wohnungskaufvertrag ohne DDR-Bezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "altantrag-flurstueck-archivfund",
+      "request": "Ein Erbe hat 2026 eine Enteignungsakte von 1978 gefunden. Für Grundstück 12 liegt ein Rückübertragungsantrag seines Vaters mit Eingang vom 20.12.1992 vor; er nennt Gemarkung und Flurstück ausdrücklich, das Verfahren ist noch offen. Für das danebenliegende Grundstück 13 gibt es nach vollständiger Aktenauskunft keine Anmeldung, obwohl dieselbe Enteignungsakte beide betrifft. Eine Rehabilitierungsentscheidung oder sonstiger besonderer Fristauslöser liegt nicht vor. Erstelle ergebnis.md mit getrennten Verfahrensoptionen für beide Grundstücke und benötigten Nachweisen, ohne einen Antrag zu versenden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die neue Akte wird für Grundstück 12 als mögliche Ergänzung des rechtzeitig angemeldeten Vorgangs geprüft, nicht als neue Anmeldung behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Für Grundstück 13 wird die Ausschlussfrist gesondert geprüft; die Anmeldung des Nachbargrundstücks oder der neue Archivfund genügt nicht automatisch.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Empfehlung trennt Objektidentität, Rechtsnachfolge und materiellen Schädigungstatbestand, ohne allein aus der Akte einen sicheren Rückübertragungsanspruch abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "restitution-oder-entschaedigung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Bereits tragfähige Urkunden- und Zuordnungsarbeit erhalten, Individualisierbarkeit und behördliche Präzisierungspflicht rechtlich konkretisiert. Workflow-Ergänzung einzeln geprüft: Flurstücksteilung und Verschmelzung, Aussagegrenzen von Archivquellen, Erb- gegenüber Erwerbskette, bindende Folgeentscheidung, begrenzter negativer Suchbefund und Ausschlussfrist mit Ausnahmen. Einstiegsredaktion 16.10.2026, Batch 2: Anspruch, Vermögensobjekt und bestelltes Schreiben werden vor den Verfahrensschritten geklärt; Konkretisierung wird von Neuanmeldung getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "BVerwG 8 C 13.18 in beiden Prompts auf konkrete Anhaltspunkte im fristgerechten Antrag angewendet",
+      "Bücher-/Ausgleichsleistungsfall von Grundstücksfristen ausdrücklich abgegrenzt",
+      "Keine automatische Behörden- oder Prozesskaskade; vollständige Dokumente und gezielte Urkundennachforderung erhalten",
+      "Flurstücksteilung und Verschmelzung, Aussagegrenzen von Archivquellen, Erb- gegenüber Erwerbskette, bindende Folgeentscheidung, begrenzter negativer Suchbefund und Ausschlussfrist mit Ausnahmen.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Anspruch, Vermögensobjekt und bestelltes Schreiben werden vor den Verfahrensschritten geklärt; Konkretisierung wird von Neuanmeldung getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "5237ca7b727adc81ea3e5532a69ebd60e9e83781e577c594aa55162c1d0c1a3a"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "einigungsvertrag-vermoegensrecht/einigungsvertrag-vermoegensrecht-werkstatt.md",
+      "einigungsvertrag-vermoegensrecht/einigungsvertrag-vermoegensrecht-schnellstart.md",
+      "einigungsvertrag-vermoegensrecht/README.md",
+      "quality/evals/einigungsvertrag-vermoegensrecht.json"
+    ],
+    "opening_change": "Heutige Eigentumslage und Reichweite der konkreten Altanmeldung anhand Entziehung, Rechtsträgerschaft und Übertragung klären. Workflow-Ergänzung: Leer: Eigentumsklärung, Ergänzung eines Altantrags oder Prüfung eines Zuordnungsbescheids anbieten. Dateien ohne Aufgabe: Register- und Archivbelege still lesen; Grundstücks-, Anspruchs- oder Bescheidziel klären. Klarer Auftrag: bestellte Ergänzung oder Stellungnahme unmittelbar ausarbeiten; historische Belege nicht ungefragt referieren.",
+    "norms": [
+      "Paragrafen 30 Absatz 1, 30a Absatz 1, 31 Absatz 1b VermG",
+      "Paragraf 6 AusglLeistG als Entscheidungszusammenhang"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Urteil vom 27.11.2019, Az. 8 C 13.18, Randnummern 24 bis 31",
+        "url": "https://www.bverwg.de/271119U8C13.18.0",
+        "application": "Pauschale Altanmeldung auf konkrete zum Vermögenswert führende Ermittlungsansätze prüfen; Präzisierung nicht mit Austausch oder Neuanmeldung verwechseln.",
+        "limit": "Rückgabe von Büchern nach AusglLeistG; dessen Sonderfrist nicht auf Grundstücke übertragen, Anspruchsgrund und Objekt weiterhin gesondert prüfen.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "Amtlichen Entscheidungstext insbesondere Randnummern 19 bis 31 gelesen; keine Vollverifikation sämtlicher Treuhand-, Bodenreform-, Partei- oder Zuordnungsvarianten.",
+      "Workflow-Review 23.09.2026: Paragraf 30a VermG erneut eingesehen; Frist 31.12.1992 nur für den einschlägigen Anwendungsbereich und mit Sonderregeln. Vorhandene BVerwG-Grenzen erhalten."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "einigungsvertrag-vermoegensrecht/einigungsvertrag-vermoegensrecht-schnellstart.md",
+        "einigungsvertrag-vermoegensrecht/einigungsvertrag-vermoegensrecht-werkstatt.md"
+      ],
+      "result": "Altanmeldung und spätere Konkretisierung bleiben getrennt. Die AusglLeistG-Frist des Bücherfalls wird nicht auf Grundstücksrückgabe übertragen.",
+      "search_2026": "Suche nach 2026-VermG-Altanmeldungsfällen ergab ältere Entscheidungen, keinen passenden neuen Fall verifiziert.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Eigentumsklärung, Ergänzung eines Altantrags oder Prüfung eines Zuordnungsbescheids anbieten.",
+      "Dateien ohne Aufgabe: Register- und Archivbelege still lesen; Grundstücks-, Anspruchs- oder Bescheidziel klären.",
+      "Klarer Auftrag: bestellte Ergänzung oder Stellungnahme unmittelbar ausarbeiten; historische Belege nicht ungefragt referieren."
+    ],
+    "continuation": "Altes Flurstück wurde geteilt -> Identitätskette, Umfang des Altantrags und heutige Bezeichnung berichtigen, keinen neuen Vermögenswert stillschweigend einbeziehen.",
+    "enrichment": "Flurstücksteilung und Verschmelzung, Aussagegrenzen von Archivquellen, Erb- gegenüber Erwerbskette, bindende Folgeentscheidung, begrenzter negativer Suchbefund und Ausschlussfrist mit Ausnahmen.",
+    "limits": "desk review; no live client execution"
+  }
+}

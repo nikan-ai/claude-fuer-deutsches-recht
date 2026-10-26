@@ -1,6 +1,6 @@
 ---
 name: bankrecht-buergschaft-auf-erste-anforderung
-description: "Wenn es um Bankrecht Buergschaft Auf Erste Anforderung in Fachanwalt Bank Kapitalmarktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bankrecht Bürgschaft auf Erste Anforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bürgschaft oder Bankgarantie auf erste Anforderung im Mandat prüfen: Zahlungsmechanik, Einwendungen, offensichtlicher Missbrauch, einstweiliger Rechtsschutz, Rückforderung und Regress.
@@ -46,28 +46,3 @@ Liefere:
 - Entwurf an Bank/Begünstigten/Kunden.
 - Eilantrags-Skizze.
 - Beweismatrix.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 82 DSGVO
-- § 64 WpHG
-- § 263 StGB
-- § 4b FinDAG
-- § 31 BDSG
-- § 44 KWG
-- § 10 ZAG
-- § 1 KWG
-- § 32 KWG
-- § 25a KWG
-- § 1 ZAG
-- Art. 22 DSGVO
-
-### Leitentscheidungen
-
-- BGH XI ZR 22/24
-- BGH XI ZR 133/24
-- EuGH C-26/22
-- EuGH C-634/21
-- BGH VI ZR 183/22

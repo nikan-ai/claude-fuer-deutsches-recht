@@ -1,6 +1,6 @@
 ---
 name: kostenentscheidung-bauen
-description: "Wenn es um Kostenentscheidung in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kostenentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kostenentscheidung
@@ -11,10 +11,6 @@ description: "Wenn es um Kostenentscheidung in Urteilsbauer und Relationsmacher 
 2. Bei teilweisem Obsiegen: wie hoch sind die Streitwertanteile beider Parteien?
 3. Sind mehrere Beklagte vorhanden — Gesamtschuldner (§ 100 Abs. 4 ZPO) oder anteilig (§ 100 Abs. 1 ZPO)?
 4. Liegt sofortiges Anerkenntnis ohne Veranlassung vor (§ 93 ZPO — Kostenfolge für Kläger)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -86,5 +82,4 @@ Dies ergibt eine Obsiegensquote von [X] Prozent.
 
 Streitwertbeschluss separat oder im Tenor. Pflicht zur Begründung bei Abweichung vom Klagantrag.
 
-<!-- AUDIT 27.05.2026
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

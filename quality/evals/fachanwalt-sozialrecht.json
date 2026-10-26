@@ -1,0 +1,493 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Drei Fristen-Skills punktuell korrigiert: vierter Tag, kein früherer Zugang zulasten des Empfängers, Abrufbekanntgabe, einmonatige Wiedereinsetzung, Untätigkeit sechs/drei Monate, Heilung nach Paragraf 8 VwZG, Grundsatz aufschiebender Wirkung. Abschließende Gegenprüfung eingearbeitet: Vertreterverschulden grundsätzlich zurechenbar, fehlende Belege nicht mit ausgeschlossenem Wiedereinsetzungsgrund gleichsetzen, kein vorschneller Rechtsbehelfsverzicht; Widerspruchsberechnung nach Paragraf 64 SGG.",
+    "files": [
+      {
+        "path": "fachanwalt-sozialrecht/README.md",
+        "sha256": "29671960a4427fb25db395917333f1d1cebc749903cc7eb5f8967887f7c4a71f"
+      },
+      {
+        "path": "fachanwalt-sozialrecht/skills/fristenbuch-sozialrecht/SKILL.md",
+        "sha256": "6a473d96dc8b3d02844424963b97426981108a9f391be4626326e3596ed9be37"
+      },
+      {
+        "path": "fachanwalt-sozialrecht/skills/bescheid-frist-quick-check/SKILL.md",
+        "sha256": "2a3ad40f9431b031af3c4dbe7e0b2494df45225c344072dbec77ab66ef381156"
+      },
+      {
+        "path": "fachanwalt-sozialrecht/skills/widerspruchsfrist-und-zustellung-sgb/SKILL.md",
+        "sha256": "862e31233047919d1d2cea93924fbc78ecd46c406f714f7f832f714d64fa037a"
+      }
+    ],
+    "primary_sources_read": [
+      {
+        "url": "https://www.gesetze-im-internet.de/sgb_10/__37.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Vierter Tag für Inlandsbrief/elektronische Übermittlung, gesonderte Abrufbekanntgabe nach Absatz2a; fehlender/späterer Zugang und Beweislast.",
+        "limit": "Keine pauschale Übertragung auf förmliche Zustellung oder Landesrecht."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgg/__67.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Wiedereinsetzungsantrag binnen eines Monats nach Hinderniswegfall und Nachholung innerhalb dieser Frist.",
+        "limit": "Konkretes Verschulden nicht beurteilt."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgg/__88.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Sechs Monate bei unerledigtem Antrag, drei bei unerledigtem Widerspruch; zureichender Grund bleibt relevant.",
+        "limit": "Kein Anspruch auf automatische Sachbewilligung oder Erfolgsgarantie."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Ein Monat bei Inlandsbekanntgabe, drei Monate im Ausland; Form und empfangszuständige Stellen.",
+        "limit": "Keine Vollprüfung elektronischer Einreichungswege."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwzg_2005/__8.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Heilung bei tatsächlichem Zugang des Dokuments mit Sonderfall Empfangsbekenntnis.",
+        "limit": "Geltung des VwZG im Einzelfall gesondert feststellen; Landesrecht nicht geprüft."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgg/__86a.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Grundsätzlich aufschiebende Wirkung von Widerspruch/Anfechtung, Ausnahmen Absatz2 und behördliche Aussetzung Absatz3.",
+        "limit": "Nicht sämtliche besonderen Leistungsgesetze geprüft."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgg/__64.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Beginn, Ende und Wochenend-/Feiertagsverschiebung gerichtlicher Verfahrensfristen.",
+        "limit": "Keine Sonderfrist ungeprüft darauf übertragen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgb_10/__26.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Verwaltungsverfahrensrechtliche Fristberechnung mit eigenständigen Termin-/Leistungszeitraumregeln.",
+        "limit": "Nicht mit sämtlichen SGG-Fristen gleichsetzen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__85.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Zurechnung des Verschuldens des Bevollmächtigten.",
+        "limit": "Zurechnung ist von der tatsächlichen Feststellung eines Verschuldens zu trennen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/sgg/__73.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Absatz6 verweist auf Paragrafen81,83bis86ZPO und damit die Zurechnung nach85Absatz2ZPO.",
+        "limit": "Amtlicher HTML-Text per curl gelesen; keine fallbezogene Prüfung des Verschuldens."
+      }
+    ],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Bescheid, Leistungsziel und fertiges Rechtsbehelfsschreiben werden vor dem Ablauf greifbar; Funktionsbeeinträchtigung wird von bloßer Diagnosezahl getrennt.",
+    "norms_or_source_basis": "Paragraf 43 SGB VI",
+    "selected_anchor_identifiers": [
+      "B 13 R 7/18 R"
+    ],
+    "application_limit": "Sechsstündiges Leistungsvermögen schließt besondere Leistungseinschränkungen nicht aus; Zurückverweisung ist keine Rentenbewilligung.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-sozialrecht/fachanwalt-sozialrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "21e5452557ae262b5fbf8cc78611dcd79532628d5c6f4aa909bbad7cb7096c75",
+      "characters": 6891,
+      "utf8_bytes": 6981,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-sozialrecht/fachanwalt-sozialrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "cdfd3dec46c1e9602130b3ceabb74e1151a84cd1c83a427a413452de50710e64",
+      "characters": 23748,
+      "utf8_bytes": 24100,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "fachanwalt-sozialrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_6/__43.html",
+      "checked_on": "2026-09-14",
+      "supports": "Stundenkategorien, drei Jahre Pflichtbeiträge im Fünfjahreszeitraum, allgemeine Wartezeit und mögliche Verlängerungszeiten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgg/__103.html",
+      "checked_on": "2026-09-14",
+      "supports": "Gerichtliche Amtsermittlung mit Heranziehung der Beteiligten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgg/__86b.html",
+      "checked_on": "2026-09-14",
+      "supports": "Unterschied zwischen vorläufiger Regelung aufschiebender Wirkung und einstweiliger Leistungsanordnung."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Downloads/DE/Entscheidungen/2019/2019_12_11_B_13_R_07_18_R.pdf?__blob=publicationFile&v=3",
+      "checked_on": "2026-09-14",
+      "supports": "BSG, Urteil vom 11.12.2019, Az. B 13 R 7/18 R, Randnummern 17 bis 22: qualitative Einschränkungen, übliche Arbeitsbedingungen und Abgrenzung zum Arbeitsmarktrisiko. Amtliches PDF direkt abgerufen und textlich gelesen."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Downloads/DE/Entscheidungen/2019/2019_12_11_B_13_R_07_18_R.pdf?__blob=publicationFile&v=3",
+      "checked_on": "2026-09-22",
+      "supports": "Erneute Primärquellenprüfung: BSG, Urteil vom 11.12.2019, B 13 R 7/18 R, Randnummern 30 bis 40, 49 bis 50. Anwendung: Bei mindestens sechs Stunden schwere spezifische Leistungsbehinderung oder ungewöhnliche Summierung funktional prüfen; gegebenenfalls konkrete Tätigkeit benennen. Grenze: Diagnosezahl und schlechte Vermittlung genügen nicht; Zurückverweisung ohne Rentenzuspruch."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2005/05/rk20050512_1bvr056905.html",
+      "checked_on": "2026-09-22",
+      "supports": "Erneute Primärquellenprüfung: BVerfG, Beschluss vom 12.05.2005, 1 BvR 569/05, Randnummern 24 bis 30. Anwendung: Existenzielle Nachteile verlangen abschließende Prüfung oder bei rechtzeitig nicht möglicher Aufklärung Folgenabwägung; heutige Mittel belegen. Grenze: Kein Wegfall der materiellen Voraussetzungen und keine automatische Leistung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_6/__43.html",
+      "checked_on": "2026-09-22",
+      "supports": "Stundenkategorien, Pflichtbeiträge und mögliche Verlängerungszeiträume."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__32.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktuelle Regelung wiederholter Meldeversäumnisse; nicht bloß Reformvorschlag."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__65a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Übergang für Meldeversäumnisse vor dem 1. Juli 2026."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgg/__86b.html",
+      "checked_on": "2026-09-22",
+      "supports": "Vollziehungsregelung und einstweilige Anordnung getrennt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
+      "supports": "Erneuter Normabruf: grundsätzlich ein Monat für Widerspruch, bei Bekanntgabe im Ausland drei Monate; Form, Bekanntgabe und Empfänger konkret prüfen.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_05_14_B_04_KG_01_24_R.html",
+      "checked_on": "2026-10-01",
+      "supports": "Sachbescheidung heilt einfachen E-Mail-Widerspruch nicht; Änderungsbescheide und Überprüfungsantrag gesondert beurteilen. Grenze: Vorverfahren SGG; keine pauschale Übertragung auf AO oder sämtliche Rechte als verloren behandeln."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_KR_02_25_R.html",
+      "checked_on": "2026-10-01",
+      "supports": "Konkrete Alltagswege, Restkräfte, sichere Nutzbarkeit und Alternativen für motorunterstütztes Hilfsmittel prüfen. Grenze: Zurückverweisung, kein Anspruch auf Wunschmodell; Sport-/Freizeitinteressen außerhalb der alltäglichen Wege gesondert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__33.html",
+      "checked_on": "2026-10-01",
+      "supports": "Absätze 1, 5a, 6 und 7: Hilfsmittelanspruch, Qualitätsanforderungen, Verordnung, Vertragspartner und Preise; keine Festbetragsnorm in Absatz 6."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_on": "2026-10-01",
+      "supports": "Absätze 1 bis 7: aktuelle Zuschussgrenze 4.180 Euro und Voraussetzungen; keine automatische Vollkostenzusage."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__13.html",
+      "checked_on": "2026-10-01",
+      "supports": "Vollständig gelesen, tragend Absatz 3a: Fristregime, Mitteilung und medizinische Rehabilitation."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__18.html",
+      "checked_on": "2026-10-01",
+      "supports": "Vollständig gelesen: Mitteilung, Erstattung und Trägerausnahmen in Absatz 7."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__14.html",
+      "checked_on": "2026-10-01",
+      "supports": "Vollständig gelesen: Zuständigkeitsklärung und leistender Rehabilitationsträger, keine automatische Bewilligung nach zwei Wochen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_12/",
+      "checked_on": "2026-10-01",
+      "supports": "Amtliches Inhaltsverzeichnis gelesen: §§ 53 bis 60 weggefallen; Hilfe zur Pflege in §§ 61 ff., Hilfsmittel § 64d und Wohnumfeld § 64e."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_12/__61.html",
+      "checked_on": "2026-10-01",
+      "supports": "Vollständig gelesen: Hilfe zur Pflege, Pflegebedürftigkeit und Mittel aus Einkommen/Vermögen."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_01_22_B_06a_12_KR_14_24_R.html",
+      "checked_on": "2026-10-16",
+      "supports": "Rn. 13 bis 27: Die Teilrentenwahl nach Paragraf 42 SGB VI ist kein Verzicht nach Paragraf 46 SGB I. Eine von Anfang an nur viermonatige Rentenabsenkung führte im Altfall 2021 nicht zur Familienversicherung; das regelmäßige Einkommen ist grundsätzlich über zwölf Monate vorausschauend anhand des damaligen Erkenntnisstands zu beurteilen. Ohne Familienversicherung keine darauf gestützte obligatorische Anschlussversicherung. Grenze: Das Urteil entscheidet einen Altfall aus 2021; die seit 2026 geltende Norm darf nicht rückwirkend angewandt werden. Kein generelles Teilrentenverbot. Der neue gesetzliche Ausschluss setzt sämtliche Merkmale voraus; eine längere Teilrentendauer allein umgeht ihn nicht.",
+      "verification_status": "16.10.2026: Amtlicher HTML-Volltext nach Web-403 unmittelbar abgerufen; amtliches PDF heruntergeladen und in Text umgewandelt. Randnummern 13 bis 27 am PDF gelesen und abgeglichen. Aktueller Paragraf 10 SGB V mit Web-Werkzeug gelesen. Lokale Belege /tmp/bsg-teilrente-sozial-steuer.html, .pdf und .txt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Rentenwahl und Krankenversicherungsstatus trennen. Für neue Sachverhalte seit 2026 alle drei kumulativen Merkmale des Paragrafen 10 Absatz 1 Satz 8 SGB V prüfen: Altersrente als Teilrente, bei Vollrente zu hohes Gesamteinkommen und zuletzt keine gesetzliche Krankenversicherung. Rentenbescheide, Wechselplanung, weitere Einkünfte und Vorversicherung belegen; Statusklärung vor Kündigung bestehenden Schutzes oder positiver Nettoempfehlung.",
+    "changes": [
+      "B 13 R 7/18 R, Randnummern 30 bis 40 und 49 bis 50: konkrete Funktionen und Wechselwirkungen statt Diagnosezahl.",
+      "Rechtsfolge der Tätigkeitsbenennung und Grenze der Zurückverweisung erläutert; andere Sozialleistungswege beibehalten.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "30.09.2026: Gesetzlich bestimmte Monatsfristen für Wiedereinsetzung und statthafte PKH-Beschwerde präzisiert; PKH-Kostendeckung und Vertretungswege fachlich korrigiert.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Bescheid, Leistungsziel und fertiges Rechtsbehelfsschreiben werden vor dem Ablauf greifbar; Funktionsbeeinträchtigung wird von bloßer Diagnosezahl getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R"
+    ],
+    "sha256": "f0147e61f05d4b8d04fe2050a0ed2d2e3a56e56c29d1651873d7962a2fd1f86d",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem und EM-Fachskill vollständig gelesen und korrespondierend überarbeitet. Die tragenden BSG-Passagen sowie Benennungsfolge, Funktionsprüfung und Grenzen der Zurückverweisung stimmen überein. Desk-Review, kein Live-Test. Workflow-Ergänzung: Älterer Befund belegt einen früheren Leistungsfall -> Beitragsfenster und Rentenbegründung neu prüfen; Teilzahlung -> aktuellen Eilbedarf reduzieren. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen.",
+    "changes": [
+      "Einstieg auf Widerspruch zwischen Reha, Behandler und Gutachten zugespitzt.",
+      "In Prompt und Skill Randnummern korrigiert und konkrete Prüfung üblicher leichter Tätigkeiten ergänzt.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-sozialrecht/fachanwalt-sozialrecht-hauptproblem.md",
+    "prompt_sha256": "a0073428150ef2185eed14c4218bb1c2e0b66036a3a1aafadf8c4be9d38cc3f2",
+    "skill_path": "fachanwalt-sozialrecht/skills/em-rente-befundwiderspruch-und-leistungsfall/SKILL.md",
+    "skill_sha256": "c8c8b7fdab9308309a99b33bd7ffafd8827406046b555bd5cb4e2174c0f38aa9"
+  },
+  "selection": {
+    "positive": [
+      "Reha und Facharzt widersprechen sich zur täglichen Leistungsdauer; gleichen Sie Befunddaten und mögliche Eintrittszeitpunkte mit meinem Versicherungsverlauf ab.",
+      "Die Rentenversicherung setzt den Leistungsfall erst nach einer Beitragslücke an; entwickeln Sie aus den früheren Funktionsbefunden konkrete Gutachterfragen."
+    ],
+    "negative": [
+      "Prüfen Sie die Pflegegradmodule nach einem Hausbesuch.",
+      "Berechnen Sie ausschließlich meine unstreitige Altersrente aus vorgegebenen Entgeltpunkten."
+    ],
+    "target_skill": "em-rente-befundwiderspruch-und-leistungsfall"
+  },
+  "cases": [
+    {
+      "id": "reha-vierstunden-spaeter-leistungsfall",
+      "request": "Erstellen Sie ergebnis.md als internen Beweis- und Berechnungsvermerk für eine 1975 geborene Versicherte. Ihr Rentenantrag vom 10.02.2026 wurde abgelehnt; der Widerspruch ist nachweislich fristgerecht anhängig, ein Widerspruchsbescheid fehlt. Die allgemeine Wartezeit ist erfüllt. Der vollständige Versicherungsverlauf weist Pflichtbeiträge Januar 2018 bis Dezember 2021 aus, danach keine Pflichtbeiträge. Seit Januar 2022 lebte sie aus Ersparnissen; es gibt nach verbindlicher Auskunft im Sachverhalt keine Anrechnungs-, Berücksichtigungs- oder sonstigen Verlängerungszeiten und keine besonderen vorzeitigen Wartezeittatbestände. Der Reha-Bericht vom 15.03.2023 beschreibt leichte Arbeit im Wechsel von Sitzen und Stehen für mindestens sechs Stunden, keine Nachtarbeit. Ein fachärztlicher Bericht vom 20.05.2023 dokumentiert anhand mehrwöchiger Belastungsbeobachtung höchstens vier Stunden täglich sowie zwei zusätzliche unplanbare Liegepausen von je 20 Minuten; diese Einschränkungen bestanden nach seiner begründeten Rückschau seit 01.04.2023. Ein Gutachten vom 01.03.2026 bestätigt vier Stunden, hält den Beginn aber erst ab 01.02.2026 für belegt, weil es die früheren Funktionsmessungen nicht erhalten hatte. Eine durchgehende Arbeitsunfähigkeitsbescheinigung besteht seit März 2023. Die Versicherte ist arbeitslos, hat keinen Teilzeitarbeitsplatz und kann übliche Arbeitswege bewältigen. Die Behörde verweist auf den Reha-Bericht und hilfsweise auf fehlende Beiträge bei späterem Beginn. Untersuchen Sie die beiden ausdrücklich datierten möglichen Eintrittszeitpunkte, die medizinischen Widersprüche und die nächsten Beweisschritte, ohne Rente zuzusagen oder eine Untersuchung selbst zu veranlassen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Beitragsrechnung unterscheidet 01.04.2023 mit Rückblick April 2018 bis März 2023 und 45 Pflichtbeitragsmonaten von 01.02.2026 mit Rückblick Februar 2021 bis Januar 2026 und elf Monaten; sie erfindet keine Verlängerungszeit aus bloßer Arbeitsunfähigkeit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Vier Stunden werden medizinisch dem Bereich teilweiser Erwerbsminderung zugeordnet; volle Rente wird nicht allein daraus oder aus Arbeitslosigkeit zugesagt. Übliche Bedingungen, zusätzliche Pausen und Teilzeitarbeitsmarkt werden gesondert als mögliche Weichen behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Beweisfragen zielen auf die fehlenden früheren Funktionsmessungen, rückwirkenden Beginn und Regelmäßigkeit der Liegepausen; das Gutachten von 2026 wird weder nur wegen Aktualität bevorzugt noch ohne medizinische Klärung verworfen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Die Empfehlung hält Antragstag, Leistungsfall und Rentenbeginn auseinander und schlägt eine konkrete Nachreichung oder ergänzende Begutachtung im anhängigen Widerspruch vor, ohne einen bereits vorhandenen Widerspruchsbescheid zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "em-rente-befundwiderspruch-und-leistungsfall"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Rentenwahl und Krankenversicherungsstatus trennen. Für neue Sachverhalte seit 2026 alle drei kumulativen Merkmale des Paragrafen 10 Absatz 1 Satz 8 SGB V prüfen: Altersrente als Teilrente, bei Vollrente zu hohes Gesamteinkommen und zuletzt keine gesetzliche Krankenversicherung. Rentenbescheide, Wechselplanung, weitere Einkünfte und Vorversicherung belegen; Statusklärung vor Kündigung bestehenden Schutzes oder positiver Nettoempfehlung.",
+    "changes": [
+      "BSG-Anker in die sechsstündige Leistungsprüfung eingebaut; keine Rentengarantie.",
+      "BVerfG 1 BvR 569/05 konkret mit aktuellen Mitteln, Folgenabwägung und Grenzen verbunden.",
+      "Paragrafen 32 und 65a SGB II amtlich geprüft; Wohngeld-Ausschlussnorm von Berechnungsgrundlagen getrennt und ungeprüfte Fallliste entfernt.",
+      "Bescheidketten und Leistungsperioden, Aufhebung gegenüber Erstattung, medizinische Leistungszeit und Beitragsfenster, konkrete Tätigkeitsanforderung, aktuelle Notlage und getrennte Auslands-Widerspruchsfrist.",
+      "30.09.2026: Gesetzlich bestimmte Monatsfristen für Wiedereinsetzung und statthafte PKH-Beschwerde präzisiert; PKH-Kostendeckung und Vertretungswege fachlich korrigiert.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Bescheid, Leistungsziel und fertiges Rechtsbehelfsschreiben werden vor dem Ablauf greifbar; Funktionsbeeinträchtigung wird von bloßer Diagnosezahl getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R"
+    ],
+    "sha256": "3fa6081900e2d6eedfb5826350f1a29ba42468ed334358c143bd2ab2fca5a698",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-sozialrecht/fachanwalt-sozialrecht-hauptproblem.md",
+      "fachanwalt-sozialrecht/fachanwalt-sozialrecht-schnellstart.md",
+      "fachanwalt-sozialrecht/fachanwalt-sozialrecht-werkstatt.md",
+      "fachanwalt-sozialrecht/skills/em-rente-befundwiderspruch-und-leistungsfall/SKILL.md",
+      "fachanwalt-sozialrecht/skills/juristischer-argumentationskern/SKILL.md",
+      "fachanwalt-sozialrecht/skills/laienhilfe-widerspruch-einfach/SKILL.md",
+      "fachanwalt-sozialrecht/skills/laienhilfe-krankenversicherungsschutz/SKILL.md"
+    ],
+    "opening_change": "Angegriffene Bewilligung, Ablehnung, Aufhebung oder Beitragsfestsetzung mit Antrag und zeitbezogenen Nachweisen abgleichen; im Hauptproblem konkrete Befundwidersprüche klären. Workflow-Ergänzung: Leer: Bescheidkorrektur, Erwerbsminderungsbeweis oder akuten Leistungsbedarf anbieten. Dateien ohne Aufgabe: Bescheide, Befunde und Kontoauszüge still lesen; gewünschtes Korrektur- oder Rechtsschutzziel klären, keinen automatischen Bescheidvermerk. Klarer Auftrag: Widerspruch, Eilantrag oder Berechnung unmittelbar erstellen, ohne vollständige Aufnahme zu wiederholen.",
+    "norms": [
+      "Paragraf 43 SGB VI",
+      "Paragraf 86b SGG",
+      "Artikel 19 Absatz 4 GG",
+      "Paragrafen 32 und 65a SGB II"
+    ],
+    "decisions": [
+      {
+        "citation": "BSG, Urteil vom 11.12.2019, B 13 R 7/18 R, Randnummern 30 bis 40, 49 bis 50",
+        "url": "https://www.bsg.bund.de/SharedDocs/Downloads/DE/Entscheidungen/2019/2019_12_11_B_13_R_07_18_R.pdf?__blob=publicationFile&v=3",
+        "application": "Bei mindestens sechs Stunden schwere spezifische Leistungsbehinderung oder ungewöhnliche Summierung funktional prüfen; gegebenenfalls konkrete Tätigkeit benennen.",
+        "limit": "Diagnosezahl und schlechte Vermittlung genügen nicht; Zurückverweisung ohne Rentenzuspruch.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 12.05.2005, 1 BvR 569/05, Randnummern 24 bis 30",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2005/05/rk20050512_1bvr056905.html",
+        "application": "Existenzielle Nachteile verlangen abschließende Prüfung oder bei rechtzeitig nicht möglicher Aufklärung Folgenabwägung; heutige Mittel belegen.",
+        "limit": "Kein Wegfall der materiellen Voraussetzungen und keine automatische Leistung.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BSG, Urteil vom 14.05.2025 – B 4 KG 1/24 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_05_14_B_04_KG_01_24_R.html",
+        "application": "Sachbescheidung heilt einfachen E-Mail-Widerspruch nicht; Änderungsbescheide und Überprüfungsantrag gesondert beurteilen.",
+        "limit": "Vorverfahren SGG; keine pauschale Übertragung auf AO oder sämtliche Rechte als verloren behandeln.",
+        "checked_on": "2026-10-01",
+        "read_scope": "Amtlicher HTML-Volltext vollständig, Randnummern am amtlichen PDF abgeglichen; tragend Rn. 9–18."
+      },
+      {
+        "citation": "BSG, Urteil vom 18.06.2026 – B 3 KR 2/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_KR_02_25_R.html",
+        "application": "Konkrete Alltagswege, Restkräfte, sichere Nutzbarkeit und Alternativen für motorunterstütztes Hilfsmittel prüfen.",
+        "limit": "Zurückverweisung, kein Anspruch auf Wunschmodell; Sport-/Freizeitinteressen außerhalb der alltäglichen Wege gesondert.",
+        "checked_on": "2026-10-01",
+        "read_scope": "Amtlicher HTML-Volltext vollständig, amtliches PDF für Rn. 1–19 abgeglichen; tragend Rn. 13–18."
+      },
+      {
+        "citation": "BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_01_22_B_06a_12_KR_14_24_R.html",
+        "application": "Rn. 13 bis 27: Die Teilrentenwahl nach Paragraf 42 SGB VI ist kein Verzicht nach Paragraf 46 SGB I. Eine von Anfang an nur viermonatige Rentenabsenkung führte im Altfall 2021 nicht zur Familienversicherung; das regelmäßige Einkommen ist grundsätzlich über zwölf Monate vorausschauend anhand des damaligen Erkenntnisstands zu beurteilen. Ohne Familienversicherung keine darauf gestützte obligatorische Anschlussversicherung.",
+        "limit": "Das Urteil entscheidet einen Altfall aus 2021; die seit 2026 geltende Norm darf nicht rückwirkend angewandt werden. Kein generelles Teilrentenverbot. Der neue gesetzliche Ausschluss setzt sämtliche Merkmale voraus; eine längere Teilrentendauer allein umgeht ihn nicht.",
+        "checked_on": "2026-10-16",
+        "verification_status": "16.10.2026: Amtlicher HTML-Volltext nach Web-403 unmittelbar abgerufen; amtliches PDF heruntergeladen und in Text umgewandelt. Randnummern 13 bis 27 am PDF gelesen und abgeglichen. Aktueller Paragraf 10 SGB V mit Web-Werkzeug gelesen. Lokale Belege /tmp/bsg-teilrente-sozial-steuer.html, .pdf und .txt.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json",
+        "workflow_effect": "Rentenwahl und Krankenversicherungsstatus trennen. Für neue Sachverhalte seit 2026 alle drei kumulativen Merkmale des Paragrafen 10 Absatz 1 Satz 8 SGB V prüfen: Altersrente als Teilrente, bei Vollrente zu hohes Gesamteinkommen und zuletzt keine gesetzliche Krankenversicherung. Rentenbescheide, Wechselplanung, weitere Einkünfte und Vorversicherung belegen; Statusklärung vor Kündigung bestehenden Schutzes oder positiver Nettoempfehlung."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Primärquellenprüfung ohne Live-Modelltest.",
+      "Keine Vollprüfung des gesamten Sozialleistungsrechts, sämtlicher Reformfolgen oder medizinischer Befunde.",
+      "Workflow-Review 23.09.2026: Paragraf 84 SGG erneut eingesehen; medizinische Diagnose und Anspruchsbeweis getrennt, keine Live-Sozialleistungsprüfung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Bescheidkorrektur, Erwerbsminderungsbeweis oder akuten Leistungsbedarf anbieten.",
+      "Dateien ohne Aufgabe: Bescheide, Befunde und Kontoauszüge still lesen; gewünschtes Korrektur- oder Rechtsschutzziel klären, keinen automatischen Bescheidvermerk.",
+      "Klarer Auftrag: Widerspruch, Eilantrag oder Berechnung unmittelbar erstellen, ohne vollständige Aufnahme zu wiederholen."
+    ],
+    "continuation": "Älterer Befund belegt einen früheren Leistungsfall -> Beitragsfenster und Rentenbegründung neu prüfen; Teilzahlung -> aktuellen Eilbedarf reduzieren.",
+    "enrichment": "Bescheidketten und Leistungsperioden, Aufhebung gegenüber Erstattung, medizinische Leistungszeit und Beitragsfenster, konkrete Tätigkeitsanforderung, aktuelle Notlage und getrennte Auslands-Widerspruchsfrist.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_09_30": {
+    "date": "2026-09-30",
+    "method": "targeted_primary_source_review",
+    "scope": "Gesetzlich bestimmte Monatsfristen für Wiedereinsetzung und statthafte PKH-Beschwerde präzisiert; PKH-Kostendeckung und Vertretungswege fachlich korrigiert.",
+    "decisions": [],
+    "report": "quality/source-audits/2026-09-30/arbeit-sozial.md",
+    "limits": "Gezielte Quellen- und Fachkorrekturen; keine Vollprüfung sämtlicher Skills oder Rechtsprechung dieses Gebiets und kein neuer Modelltest."
+  },
+  "source_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "method": "targeted_primary_source_review",
+    "report": "quality/source-audits/2026-10-01/sozial-und-neue-plugins.md",
+    "scope": "Gezielt Formmangel, Änderungsbescheide, Kommunikations-/Übersetzungsregeln sowie Mobilitätshilfen und die unmittelbar betroffenen Normfehler; kein erneuter Vollcheck alter Entscheidungen, aller Fachskills oder DIN-Normen. Frühere redaktionelle Reviewdaten bleiben historische Angaben.",
+    "changed_files": [
+      "fachanwalt-sozialrecht/fachanwalt-sozialrecht-schnellstart.md",
+      "fachanwalt-sozialrecht/fachanwalt-sozialrecht-werkstatt.md",
+      "fachanwalt-sozialrecht/skills/hilfsmittelantrag-pruefen/SKILL.md",
+      "fachanwalt-sozialrecht/skills/laienhilfe-widerspruch-einfach/SKILL.md"
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "fachanwaltschaft_source_review_2026_10_01": {
+    "method": "targeted_official_source_and_prompt_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-sozialrecht.json",
+    "decisions": [
+      {
+        "citation": "BSG, Urteil vom 14.05.2025 – B 4 KG 1/24 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_05_14_B_04_KG_01_24_R.html",
+        "passages": "Rn. 9–18, amtliches HTML und PDF",
+        "retrieval": "amtlicher Volltext, ausgewählte Gründe frisch gelesen",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BSG, Urteil vom 18.06.2026 – B 3 KR 2/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_KR_02_25_R.html",
+        "passages": "Rn. 13–18, amtliches HTML und PDF",
+        "retrieval": "amtlicher Volltext, ausgewählte Gründe frisch gelesen",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "focus_scope": "Hauptproblem Erwerbsminderungsrente bleibt bei B 13 R 7/18 R. E-Mail-Form und Hilfsmittelbedarf liefern keinen materiellen Rentenmaßstab; neue Entscheidungen in breiten Prompts und passenden Skills.",
+    "new_model_tests": false
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json"
+    ],
+    "decisions": [
+      {
+        "citation": "BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_01_22_B_06a_12_KR_14_24_R.html",
+        "application": "Rn. 13 bis 27: Die Teilrentenwahl nach Paragraf 42 SGB VI ist kein Verzicht nach Paragraf 46 SGB I. Eine von Anfang an nur viermonatige Rentenabsenkung führte im Altfall 2021 nicht zur Familienversicherung; das regelmäßige Einkommen ist grundsätzlich über zwölf Monate vorausschauend anhand des damaligen Erkenntnisstands zu beurteilen. Ohne Familienversicherung keine darauf gestützte obligatorische Anschlussversicherung.",
+        "limit": "Das Urteil entscheidet einen Altfall aus 2021; die seit 2026 geltende Norm darf nicht rückwirkend angewandt werden. Kein generelles Teilrentenverbot. Der neue gesetzliche Ausschluss setzt sämtliche Merkmale voraus; eine längere Teilrentendauer allein umgeht ihn nicht.",
+        "checked_on": "2026-10-16",
+        "verification_status": "16.10.2026: Amtlicher HTML-Volltext nach Web-403 unmittelbar abgerufen; amtliches PDF heruntergeladen und in Text umgewandelt. Randnummern 13 bis 27 am PDF gelesen und abgeglichen. Aktueller Paragraf 10 SGB V mit Web-Werkzeug gelesen. Lokale Belege /tmp/bsg-teilrente-sozial-steuer.html, .pdf und .txt.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json",
+        "workflow_effect": "Rentenwahl und Krankenversicherungsstatus trennen. Für neue Sachverhalte seit 2026 alle drei kumulativen Merkmale des Paragrafen 10 Absatz 1 Satz 8 SGB V prüfen: Altersrente als Teilrente, bei Vollrente zu hohes Gesamteinkommen und zuletzt keine gesetzliche Krankenversicherung. Rentenbescheide, Wechselplanung, weitere Einkünfte und Vorversicherung belegen; Statusklärung vor Kündigung bestehenden Schutzes oder positiver Nettoempfehlung."
+      }
+    ],
+    "files": [
+      {
+        "path": "fachanwalt-sozialrecht/fachanwalt-sozialrecht-schnellstart.md",
+        "sha256": "f0147e61f05d4b8d04fe2050a0ed2d2e3a56e56c29d1651873d7962a2fd1f86d"
+      },
+      {
+        "path": "fachanwalt-sozialrecht/fachanwalt-sozialrecht-werkstatt.md",
+        "sha256": "3fa6081900e2d6eedfb5826350f1a29ba42468ed334358c143bd2ab2fca5a698"
+      },
+      {
+        "path": "fachanwalt-sozialrecht/skills/laienhilfe-krankenversicherungsschutz/SKILL.md",
+        "sha256": "97d510df68973527578a0d308820e7c44a70db888167e5586d692dc8acb15b71"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

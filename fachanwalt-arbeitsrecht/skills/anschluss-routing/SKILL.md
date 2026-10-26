@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Arbeitsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Arbeitsrecht."
 ---
 
 # Anschluss-Routing
@@ -23,7 +23,7 @@ Dieses Anschluss-Routing für **Fachanwalt Arbeitsrecht** wählt nach dem ersten
 - `befristung-tzbfg` — Befristung Tzbfg BEM Verfahren Fazugang
 - `beteiligung-betriebsrat-102-betrvg` — Beteiligung Betriebsrat Erstgespraech
 - `betriebsrat-zahlen-schwellen-und-berechnung` — Betriebsrat BETRVG Datum
-- `betriebsratswahl-anfechtung-leiharbeit-bag-7-abr-4-21` — Betriebsratswahl Anfechtung Leiharbeit BAG 7 ABR 4 21
+- `betriebsratswahl-leiharbeit-wahlrecht-anfechtung` — Leiharbeitnehmer bei der Betriebsratswahl prüfen
 - `dokumente-intake` — Dokumente Intake
 - `einstieg-routing` — Einstieg Routing
 
@@ -40,25 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Arbeitsrecht** wählt nach dem ersten
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 102 BetrVG
-- Paragraf 17 KSchG
-- Paragraf 4 KSchG
-- Paragraf 14 TzBfG
-- Paragraf 1 KSchG
-- Paragraf 17 TzBfG
-- Paragraf 15 AGG
-- Paragraf 22 AGG
-- Paragraf 5 KSchG
-- Paragraf 66 ArbGG
-- Paragraf 54 ArbGG
-- Paragraf 23 KSchG
-
-### Leitentscheidungen
-
-- EuGH C-134/24
-- EuGH C-518/20

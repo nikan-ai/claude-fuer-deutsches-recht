@@ -1,6 +1,6 @@
 ---
 name: arbeitsrecht-befristung-schriftform-checker
-description: "Wenn es um Arbeitsrecht — Befristung und Aufhebung: Paragrafen 14 TzBfG, 623 BGB in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arbeitsrecht — Befristung und Aufhebung: Paragrafen 14 TzBfG, 623 BGB: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Arbeitsrecht — Befristung und Aufhebung: Paragrafen 14 TzBfG, 623 BGB
@@ -160,25 +160,3 @@ Ein qualifiziertes Arbeitszeugnis wird Ihnen rechtzeitig zugestellt.
 - **Direkte elektronische Arbeitgeberkündigung**: Wegen Paragraf 623 BGB nicht auf qES, E-Mail, beA-Nachricht oder Signaturplattform stützen. Papier mit Originalunterschrift bleibt Standard.
 - **Schriftsatzkündigung im Arbeitsgericht**: Paragraf 46h ArbGG kann die Form fingieren, wenn die gesetzlichen Voraussetzungen vorliegen. Das ersetzt nicht die Prüfung von Klarerkennbarkeit, Zustellung, Vertretung und Paragraf 174 BGB.
 - **Paragraf 174 BGB**: Wenn HR-Manager kündigt ohne vorgelegte Originalvollmacht, kann Arbeitnehmer unverzüglich zurückweisen. Personalleiter-Vollmacht im Original immer beifügen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 46h ArbGG
-- Paragraf 14 TzBfG
-- Paragraf 16 TzBfG
-- Paragraf 15 GmbHG
-- Paragraf 46c ArbGG
-- Paragraf 17 TzBfG
-- Paragraf 16a BeurkG
-- Paragraf 23a GVG
-- Paragraf 113 FamFG
-- Paragraf 2 HRG
-- Paragraf 4 HRG
-- Paragraf 7 HRG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

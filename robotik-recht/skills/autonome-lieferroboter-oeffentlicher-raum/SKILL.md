@@ -1,6 +1,6 @@
 ---
 name: autonome-lieferroboter-oeffentlicher-raum
-description: "Wenn es um Autonome Lieferroboter im öffentlichen Raum in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Autonome Lieferroboter im öffentlichen Raum: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Autonome Lieferroboter im öffentlichen Raum
@@ -34,7 +34,7 @@ Lieferroboter auf Gehwegen, in Fußgängerzonen und in Mischverkehrsräumen ber�
 
 ## Schritt für Schritt
 
-1. **Produktklassifizierung.** Maschine nach MaschinenVO; KI-Funktion einordnen (Anhang III KI-VO?); ggf. Funkanlagengesetz.
+1. **Produktklassifizierung:** Maschinenrecht und Funkrecht anhand Konstruktion und Zweck prüfen. Artikel 6 Absatz 1 mit Anhang I einschließlich Abschnitt A/B und Artikel 2 Absatz 2 von Absatz 2 mit Anhang III trennen. Artikel 6 Absätze 1a bis 1c samt Berichtigung prüfen. Eine sicherheitsrelevante Maschinenfunktion ist nicht allein deshalb ein Anhang-III-Tatbestand. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 2. **Genehmigung Verkehrsbehörde / Kommune.** Sondernutzungsantrag mit Fahrtrouten, Geschwindigkeit, Sicherheitsabständen, Notfall-Konzept; Anhörung Polizei, Tiefbauamt, Ordnungsamt.
 3. **Datenschutz.** DSFA Art. 35 DSGVO (Bildverarbeitung im öffentlichen Raum ist regelmäßig pflichtig); Hinweisschilder am Roboter; Privacy-by-Design (Blurring von Gesichtern und Kennzeichen on-device).
 4. **Sicherheitskonzept.** Maximalgeschwindigkeit (typisch 6 km/h Schrittgeschwindigkeit), Hindernisstopp, akustische und visuelle Signale; Begleitperson bei Erstbetrieb.
@@ -104,3 +104,4 @@ Lieferroboter auf Gehwegen, in Fußgängerzonen und in Mischverkehrsräumen ber�
 - VO (EU) 2023/1230 (MaschinenVO).
 - VO (EU) 2024/2853 (neue ProdHaftRL); ProdHaftG; § 823 BGB.
 - Live-Verifikation auf eur-lex.europa.eu, gesetze-im-internet.de, BfDI; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: beamtenanfaenger-pauschale-beihilfe-laendercheck
-description: "Wenn es um Beamtenanfänger: Pauschale Beihilfe, Ländercheck in Krankenkassenrecht und Krankenversicherung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Beamtenanfänger: Pauschale Beihilfe, Ländercheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beamtenanfänger: Pauschale Beihilfe, Ländercheck
@@ -89,28 +89,3 @@ Beamtenanfänger müssen die PKV vs. GKV-Entscheidung treffen. Einige Bundeslän
 - [PKV-Verband Beamtenversorgung](https://www.pkv.de/wissen/beihilfe/)
 - [dejure.org § 6 SGB V](https://dejure.org/gesetze/SGB_V/6.html)
 - [Verwaltungsgericht Stuttgart Beihilfe](https://www.vgh-bw.de)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 192 VVG
-- § 204 VVG
-- § 193 VVG
-- § 84 SGG
-- § 86b SGG
-- § 203 VVG
-- § 88 SGG
-- § 6 AsylbLG
-- § 152 VAG
-- § 205 VVG
-- § 153 VAG
-- § 4 AsylbLG
-
-### Leitentscheidungen
-
-- BGH IV ZR 255/17
-- BGH IV ZR 84/11
-- BGH III ZR 17/18
-- BGH IV ZR 194/07
-- BGH IV ZR 62/16

@@ -1,6 +1,6 @@
 ---
 name: registergericht-und-datenschutz
-description: "Wenn es um Datenschutz im Registerverfahren in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Datenschutz im Registerverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Datenschutz im Registerverfahren
@@ -33,6 +33,8 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 ## Fachlicher Zuschnitt
 
 Klärt öffentliche Registerdaten, sensible Anlagen, Schwärzungen, Anschriften und Löschungswünsche.
+
+Bei privaten Anschriften oder Unterschriften im öffentlichen Registerordner Pflichtdaten von überschießenden Angaben trennen. [BGH, Beschluss vom 18.02.2026 – II ZB 2/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZB___2-25.pdf?__blob=publicationFile&v=1), Rn. 20–25, 32–38 und 43–49: Nach Widerruf einer Einwilligung kann bei nicht vorgeschriebenen Daten ein Löschungsanspruch durch Austausch gegen eine ordnungsgemäße geschwärzte Fassung nach Paragraf 9 Absatz 7 HRV umgesetzt werden. Das Ursprungsdokument bleibt in der nicht allgemein öffentlichen Registerakte; keine eigenmächtige Veränderung der Urschrift und kein pauschales Löschen gesetzlicher Pflichtangaben. Frage nach betroffener Seite, Datenpflicht, Einwilligung und geeigneter notarieller Ersatzfassung; entwirf dann den bestimmten Austausch-/Löschungsantrag.
 
 ## Quellenrahmen
 

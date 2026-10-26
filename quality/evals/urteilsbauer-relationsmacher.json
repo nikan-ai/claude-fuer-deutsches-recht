@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "plugin": "urteilsbauer-relationsmacher",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__139.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Volltext gelesen: konkrete Erörterung, Gelegenheit zur Äußerung, aktenkundige Hinweise und beantragte Schriftsatzfrist; angewandt auf fehlenden Preisvortrag."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/BJNR005330950.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher indexierter Normauszug zu Paragraf 286 nach gestörtem Einzelabruf gelesen; keine neue Volltextverifikation des BGH-PDF und keine eigene Beweiswahrnehmung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__286.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Suchabruf: Würdigung des gesamten Verhandlungs- und Beweisstoffs sowie Angabe der leitenden Überzeugungsgründe."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/rpflg_1969/__11.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Suchabruf: allgemeiner Rechtsbehelf vorrangig; Erinnerung nur unter den Voraussetzungen und Ausnahmen der weiteren Absätze."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__286.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 286 ZPO gelesen; Bezug: Antragsbezogene Entscheidungsreife statt allgemeinem Herstellungsauftrag. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__25-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 17.11.2022, V ZR 25/22: Erheblichen Übergabezeugen nicht wegen Gegenüberzeugung aus Lieferschein überspringen; erst nach Erhebung Gesamtwürdigung. Amtliche Metadaten und entscheidende Rn. 10 bis 11 gelesen, direkter PDF-Abruf gestört. Keine Vorgabe persönlicher Wahrnehmung, kein bestimmtes Beweisergebnis, keine Beweislastumkehr."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Antragsbezogene Entscheidungsreife statt allgemeinem Herstellungsauftrag. Der Kurzprompt behandelt diesen konkreten Ausgangsfall mit begrenztem Entscheidungsmaßstab und vollständigem bestelltem Ergebnis. Am 23. September vollständig erneut gelesen: Aufnahmeübersichten gekürzt, konkrete Dokumentwege und Kisteninhalt als fortsetzbare Beweisfrage ergänzt; unter 7500 Bytes und Zeichen. Redaktioneller Nachtrag 16.10.2026: Erheblichen noch nicht erhobenen Zeugenbeweis früh von späterer Gesamtwürdigung getrennt. Lieferbeispiel, offene richterliche Wertung und Nebenentscheidungen bleiben bestehen; kein vorgegebenes Beweisergebnis. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Noch angebotenen Zeugenbeweis von nachträglicher Würdigung getrennt; vorhandene Aussageinhalte werden ausgewertet, fehlender richterlicher Eindruck blockiert nicht sämtliche Rechtsprüfung oder bedingte Gründe.",
+      "Erheblichen Übergabezeugen nicht wegen Gegenüberzeugung aus Lieferschein überspringen; erst nach Erhebung Gesamtwürdigung.",
+      "Gerichtliche Antwort zum Inhalt der Kiste verändert Beweisabschnitt, Hauptforderung und Kosten; keine erfundene Zuordnung einer Unterschrift."
+    ],
+    "sha256": "b736d7a475ea917f4a1c3d3aa837d13993acf052a432bac30c060f7205da47f1"
+  },
+  "selection": {
+    "positive": [
+      "Formuliere aus Protokoll und richterlich mitgeteilter Würdigung den Beweisabschnitt eines Urteilsentwurfs.",
+      "Erstelle eine Relation mit Schlüssigkeit, Erheblichkeit und offenen Beweisfragen."
+    ],
+    "negative": [
+      "Schreibe einen parteilichen Mahnbrief ohne gerichtlichen Entscheidungsentwurf.",
+      "Berechne lediglich eine Anwaltsrechnung nach RVG."
+    ]
+  },
+  "cases": [
+    {
+      "id": "widersprechende-zeugen-ohne-richterwertung",
+      "request": "Erstelle in ergebnis.md nur den möglichen Beweiswürdigungsabschnitt und die noch notwendigen Rückfragen, keine vollständige Akteninventur. In einem Zivilprozess ist streitig, ob am 3. März 2026 eine Kiste mit 20 Bauteilen übergeben wurde. Zeuge A sagt laut Protokoll, er habe die geschlossene Kiste übergeben, den Inhalt aber nicht geprüft. Zeugin B sagt, am Empfang sei eine leere Kiste angekommen. Ein Lieferschein trägt eine unleserliche Unterschrift; die Beklagte bestreitet deren Zuordnung. Beide Zeugen wurden vernommen. Die Richterin hat noch keinen persönlichen Eindruck oder Überzeugungsstand mitgeteilt. Weitere Belege sind nicht vorhanden. Die Klägerin trägt nach bereits abgeschlossener rechtlicher Prüfung die Beweislast für die Lieferung der Bauteile.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Ergebnis unterscheidet Übergabe einer Kiste vom Nachweis ihres Inhalts und würdigt den Widerspruch zwischen A und B als offen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Es erfindet weder persönliche Glaubwürdigkeit noch einen gerichtlichen Überzeugungsstand und kennzeichnet den entscheidenden Abschnitt als von richterlicher Wertung abhängig.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der unleserliche Lieferschein wird nicht ohne Prüfung einer Person zugeordnet; eine etwaige Beweislastfolge wird nur bedingt für den verbleibenden Nichtnachweis erläutert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "beweiswuerdigung-mit-richter-input"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Noch angebotenen Zeugenbeweis von nachträglicher Würdigung getrennt; vorhandene Aussageinhalte werden ausgewertet, fehlender richterlicher Eindruck blockiert nicht sämtliche Rechtsprüfung oder bedingte Gründe. Die vollständige Werkstatt wurde einschließlich Rückfragen, Fortsetzung und Auftragsgrenzen redaktionell durchgesehen. Am 23. September erneut vollständig gelesen: konkrete Hinweise, Widerspruchswürdigung und nachträgliche Zahlung mit Folgewirkungen ausgearbeitet. Redaktioneller Nachtrag 16.10.2026: Erheblichen noch nicht erhobenen Zeugenbeweis früh von späterer Gesamtwürdigung getrennt. Lieferbeispiel, offene richterliche Wertung und Nebenentscheidungen bleiben bestehen; kein vorgegebenes Beweisergebnis. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Antragsbezogene Entscheidungsreife statt allgemeinem Herstellungsauftrag.",
+      "Erheblichen Übergabezeugen nicht wegen Gegenüberzeugung aus Lieferschein überspringen; erst nach Erhebung Gesamtwürdigung.",
+      "Fehlender Preisvortrag führt zum bestimmten Hinweis; Antwort verändert Schlüssigkeit und Beweisbedarf. Kistenzuordnung, Inhalt und richterliche Überzeugung getrennt.",
+      "Zahlungsbeleg verändert Rechnung und abhängige Nebenentscheidungen, ersetzt aber keine Rücknahme- oder Erledigungserklärung."
+    ],
+    "sha256": "4e55c98e06cd9563ee4c7439425eba9769a5ab26f8bb4dd1ad65480430702d91"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Relation zur Entscheidungsreife, richterlichen Hinweis oder Urteilsentwurf anbieten.",
+      "Dateien ohne Aufgabe: Klage, Erwiderung und Protokolle still lesen; nur bei offenem Ziel zwei oder drei passende Entscheidungsdokumente anbieten.",
+      "Klarer Auftrag: verlangten Tenor, Hinweis oder Gründeabschnitt sofort bearbeiten; allein entscheidende Akten- oder Wertungslücke erfragen."
+    ],
+    "continuation": "Ergänzter Preisvortrag -> Schlüssigkeit und konkreter Hinweis; mitgeteilte Beweiswürdigung -> ausformulierter Gründeabschnitt; Zahlungsbeleg und Prozesserklärung -> Rechnung, Tenor und Kostenfolge.",
+    "enrichment": "Hinweisverfügung mit belegtem Erörterungsstand, Lieferung geschlossener beziehungsweise leerer Kiste, bereits erhobener versus angebotener Beweis und Zahlung bei mehreren Anträgen.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "urteilsbauer-relationsmacher/README.md",
+      "urteilsbauer-relationsmacher/urteilsbauer-relationsmacher-werkstatt.md",
+      "urteilsbauer-relationsmacher/urteilsbauer-relationsmacher-schnellstart.md",
+      "quality/evals/urteilsbauer-relationsmacher.json"
+    ],
+    "opening_change": "Antragsbezogene Entscheidungsreife statt allgemeinem Herstellungsauftrag",
+    "norms": [
+      "Paragraf 286 ZPO",
+      "Artikel 103 Absatz 1 GG",
+      "Paragraf 308 ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 17.11.2022, V ZR 25/22",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__25-22.pdf?__blob=publicationFile&v=1",
+        "application": "Erheblichen Übergabezeugen nicht wegen Gegenüberzeugung aus Lieferschein überspringen; erst nach Erhebung Gesamtwürdigung.",
+        "limit": "Amtliche Metadaten und entscheidende Rn. 10 bis 11 gelesen, direkter PDF-Abruf gestört. Keine Vorgabe persönlicher Wahrnehmung, kein bestimmtes Beweisergebnis, keine Beweislastumkehr."
+      }
+    ],
+    "remaining_limits": [
+      "Amtliche Metadaten und entscheidende Rn. 10 bis 11 gelesen, direkter PDF-Abruf gestört. Keine Vorgabe persönlicher Wahrnehmung, kein bestimmtes Beweisergebnis, keine Beweislastumkehr.",
+      "Keine persönliche Beweiswahrnehmung und keine erlassene Entscheidung; Rechtsbehelfs- und Nebenentscheidungsrecht nicht vollständig neu verifiziert.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest."
+    ]
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022&Gericht=bgh&Seite=11&anz=3168&nr=132360&pos=346",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__25-22.pdf?__blob=publicationFile&v=1",
+        "sha256": "82e6cb24d0e393ebd75a8d44eb497137e0283062b0cff73664f215c0ce758d02"
+      }
+    ]
+  }
+}

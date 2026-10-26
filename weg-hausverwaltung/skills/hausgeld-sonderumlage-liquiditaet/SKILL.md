@@ -1,6 +1,6 @@
 ---
 name: hausgeld-sonderumlage-liquiditaet
-description: "Wenn es um Hausgeld, Sonderumlage und Liquidität in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Hausgeld, Sonderumlage und Liquidität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Hausgeld, Sonderumlage und Liquidität
@@ -69,3 +69,9 @@ Die Zahlungsfähigkeit der GdWE sichern, ohne Forderungen unsauber zu verfolgen.
 ## Quellenpflicht
 
 `rechtsstand-mai-2026-faktenbank` laden. Keine Beck-RS, juris ohne offene Veröffentlichung, Kommentare/Aufsätze aus Modellwissen. Aktenzeichen nur mit offen prüfbarer URL.
+
+## Einwendungen, Aufrechnung und Titel unterscheiden
+
+V ZR 190/24 vom 14.11.2025, Rn. 10–20: Vorschussfinanzierung wird grundsätzlich nicht durch Zurückbehaltung blockiert. Aufrechnung mit anerkannten oder rechtskräftig festgestellten Geldforderungen ist eine andere Frage (Rn. 18); nicht mit einem generellen Aufrechnungsverbot verwechseln. Beschluss und Mahnung sind noch keine Vollstreckungstitel. Kosten und Rückstände pro Rechtsgrund mit Fälligkeit, Zahlung und Tilgung ausweisen.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

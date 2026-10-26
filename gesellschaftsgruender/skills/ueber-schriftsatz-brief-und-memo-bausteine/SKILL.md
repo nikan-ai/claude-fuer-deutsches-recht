@@ -1,6 +1,6 @@
 ---
 name: ueber-schriftsatz-brief-und-memo-bausteine
-description: "Wenn es um Über: Schriftsatz-, Brief- und Memo-Bausteine in gesellschaftsgründer — Gründungsassistent für deutsche geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Über: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Über: Schriftsatz-, Brief- und Memo-Bausteine
@@ -16,7 +16,6 @@ description: "Wenn es um Über: Schriftsatz-, Brief- und Memo-Bausteine in gesel
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Ueber: Schriftsatz-, Brief- und Memo-Bausteine` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -50,3 +49,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Pflichtbestandteile prüfen:** Anmeldungstext HRB enthält Firma, Sitz, Gegenstand, Stammkapital, GF mit Vertretungsregelung (Paragraf 8 GmbHG). Gewerbeanzeige erforderlich vor Geschäftsbeginn, sonst Bußgeld Paragraf 146 Abs. 2 GewO.
 4. **Befreiung Paragraf 181 BGB:** Bei Ein-Personen-GmbH zwingend Insichgeschäfts-Befreiung im Gesellschaftsvertrag und konkrete Erteilung; sonst kann GF mit sich selbst nicht wirksam kontrahieren.
 5. **Anschluss:** Geschäftsführervertrag-Skill `spezial-geschaeftsfuehrervertrag-livequellen-check`; bei Transparenzregister `gesellschaftsgruender-transparenzregister`.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-ueber-schriftsatz-brief-und-memo-bausteine` beziehungsweise Ueber: Schriftsatz-, Brief- und Memo-Bausteine: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-ueber-schriftsatz-brief-und-memo-bausteine.md).

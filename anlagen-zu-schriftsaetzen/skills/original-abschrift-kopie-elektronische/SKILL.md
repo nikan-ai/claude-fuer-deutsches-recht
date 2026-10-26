@@ -1,6 +1,6 @@
 ---
 name: original-abschrift-kopie-elektronische
-description: "Wenn es um Original, Abschrift, Kopie und elektronische Fassung in Anlagen zu Schriftsätzen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Original Abschrift Kopie Elektronische; Arbeitsfeld: Anlagen zu Schriftsätzen."
+description: "Für Original, Abschrift, Kopie und elektronische Fassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Anlagen zu Schriftsätzen. Route: original-abschrift-kopie-elektronische."
 ---
 
 # Original, Abschrift, Kopie und elektronische Fassung
@@ -11,7 +11,8 @@ Arbeitsfokus: **Original, Abschrift, Kopie und elektronische Fassung**. Prüfe d
 
 - `§ 130a Abs. 1 ZPO` — elektronisches Dokument.
 - `§ 130a Abs. 3 ZPO` — Signatur/sicherer Übermittlungsweg.
-- `§ 130a Abs. 6 ZPO` — Ersatzeinreichung bei technischer Störung.
+- ZPO Paragraf 130a Absatz 6 — gerichtlicher Hinweis und unverzügliche geeignete Nachreichung bei technisch ungeeignetem elektronischem Dokument.
+- ZPO Paragraf 130d Sätze 2 bis 4 — Ersatzeinreichung bei vorübergehender technischer Unmöglichkeit.
 - `§ 2 ERVV` — Dateiformate und technische Anforderungen.
 - `§ 3 ERVV` — Übermittlung elektronischer Dokumente.
 - `§ 371a Abs. 1 ZPO` — Beweiswert elektronischer Dokumente.

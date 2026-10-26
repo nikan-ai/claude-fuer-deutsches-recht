@@ -1,13 +1,12 @@
 ---
 name: fachanwalt-iwr-eu-us-dpf-data-privacy-framework
-description: "Wenn es um EU-US Data Privacy Framework — Folgen für Verträge in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für EU-US Data Privacy Framework — Folgen für Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # EU-US Data Privacy Framework — Folgen für Verträge
 
 ## Zweck
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Eingaben
 
@@ -78,7 +77,6 @@ Stand: 05/2026. Angemessenheitsbeschluss (EU) 2023/1795 (10.7.2023). EO 14086. S
 
 ### Ergaenzende Leitsaetze EU-US Datenuebermittlung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen EU-US DPF
 - DSGVO Art. 44-49 — Datenuebermittlung in Drittlaender
@@ -114,3 +112,4 @@ Ergebnis: [ZULAESSIG / UNZULAESSIG / EINSCHRAENKUNG ERFORDERLICH]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

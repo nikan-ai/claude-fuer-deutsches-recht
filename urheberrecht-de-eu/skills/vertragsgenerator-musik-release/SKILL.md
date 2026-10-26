@@ -1,6 +1,6 @@
 ---
 name: vertragsgenerator-musik-release
-description: "Wenn es um Musikvertrag und Release-Paket in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Musikvertrag und Release-Paket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Musikvertrag und Release-Paket
@@ -20,7 +20,7 @@ description: "Wenn es um Musikvertrag und Release-Paket in Urheberrecht DE EU ge
 
 ## Wofür dieser Arbeitsgang da ist
 
-Musikvertrag und Release-Paket schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite den Musikvertrag und die zugehörigen Unterlagen für die Veröffentlichung vor. Leite die benötigten Regelungen aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweisen ab und liefere den beauftragten Entwurf.
 
 ## Sofortstart
 

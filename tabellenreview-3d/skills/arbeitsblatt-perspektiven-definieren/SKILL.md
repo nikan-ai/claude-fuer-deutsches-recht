@@ -1,6 +1,6 @@
 ---
 name: arbeitsblatt-perspektiven-definieren
-description: "Wenn es um /tabellenreview-3d:arbeitsblatt-perspektiven-definieren in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /tabellenreview-3d:arbeitsblatt-perspektiven-definieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /tabellenreview-3d:arbeitsblatt-perspektiven-definieren
@@ -14,7 +14,6 @@ description: "Wenn es um /tabellenreview-3d:arbeitsblatt-perspektiven-definieren
 
 ## Rechtliche Grundlagen für Prüfer-Perspektiven
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Standard-Perspektiven
 
@@ -95,24 +94,4 @@ Die Arbeitsblätter werden in der Excel-Ausgabe als Tabellenreiter nebeneinander
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 2 JVEG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- § 29 VwVfG
-- § 1 KSchG
-- § 7 KSchG
-- § 102 BetrVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

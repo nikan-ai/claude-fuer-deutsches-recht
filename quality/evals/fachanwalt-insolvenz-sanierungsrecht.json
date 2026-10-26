@@ -1,0 +1,290 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Antragspflichten nach Paragraf 15a InsO begrenzt bestätigt; Pflicht-Triage entfernt, Mustervertrag als Übungsentwurf statt sofort einsatzbereit und DOCX-Dateityp richtig bezeichnet.",
+    "files": [
+      {
+        "path": "fachanwalt-insolvenz-sanierungsrecht/README.md",
+        "sha256": "31fc51564adb05c7514c9f23aef0ca9b3f80e9b88d9b3293e0dfc8ce87af5faa"
+      }
+    ],
+    "primary_sources_read": [
+      {
+        "url": "https://www.gesetze-im-internet.de/inso/__15a.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Ohne schuldhaftes Zögern, höchstens drei Wochen bei Zahlungsunfähigkeit, sechs bei Überschuldung; Personenkreis/Ausnahmen beachten.",
+        "limit": "Keine voraussetzungslose Wartefrist; keine tatsächliche Insolvenzreife oder Organhaftung vollgeprüft."
+      }
+    ],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Liquiditätslage, Haftung und beauftragte Sanierungsentscheidung werden vor dem Ablauf benannt; Zahlungsabfluss und verwertbarer Gegenwert bleiben verbunden.",
+    "norms_or_source_basis": "Paragrafen 15a, 15b, 17 und 19 InsO",
+    "selected_anchor_identifiers": [
+      "II ZR 319/15"
+    ],
+    "application_limit": "Altrechtlicher Paragraf 64 GmbHG ersetzt nicht die heutige Prüfung nach Paragraf 15b InsO; Dienste und Anfechtungschancen nicht pauschal saldieren.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-insolvenz-sanierungsrecht/fachanwalt-insolvenz-sanierungsrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "80f1d91b052b9338ea1367d27d159ad2caa1008aa3153a56d8242927a2a2c003",
+      "characters": 7028,
+      "utf8_bytes": 7128,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-insolvenz-sanierungsrecht/fachanwalt-insolvenz-sanierungsrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "d2e9d07c834738b1a4e0bf5c479f0ded7fd1c297636fd89b6ef50c21c10c1578",
+      "characters": 19266,
+      "utf8_bytes": 19555,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "fachanwalt-insolvenz-sanierungsrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__15b.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext zu Sorgfaltsausnahmen, Antragszeitfenstern, geringerem Gläubigerschaden und Verjährung geprüft; heutige Grundlage nicht mit Paragraf 64 GmbHG gleichgesetzt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__15a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext zur unverzüglichen Antragstellung und den Höchstfristen bei Zahlungsunfähigkeit und Überschuldung geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__17.html",
+      "checked_on": "2026-09-14",
+      "supports": "Zahlungsunfähigkeit und gesetzliche Vermutung bei Zahlungseinstellung im Normtext geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__19.html",
+      "checked_on": "2026-09-14",
+      "supports": "Überschuldung und zwölfmonatige Fortbestehensbetrachtung im Normtext gelesen."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-7-4&Gericht=bgh&anz=17&nr=79247&pos=6",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 04.07.2017, Az. II ZR 319/15: amtliche Leitsätze im Suchauszug zu unmittelbarem Masseausgleich, Verwertbarkeit und Liquidationswert gelesen. Historischer Paragraf 64 GmbHG; direkter Volltext gesperrt, Übertragung auf Paragraf 15b bleibt eigenständige Prüfung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2015/II_ZR_319-15A.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 04.07.2017, II ZR 319/15, Rn. 10–21: Zahlungen und wirtschaftlich zugehörige, für Gläubiger verwertbare Gegenwerte einzeln abgleichen; Dienstleistungen und bloße Chancen auf Anfechtungsrückgewähr nicht pauschal verrechnen. Grenze: Paragraf 64 GmbHG alter Fassung; heutige Ausnahmen und Erstattungsbegrenzung des Paragrafen 15b InsO gesondert prüfen. Fortführungswerte waren nicht allgemein entschieden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__15b.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktuelle Zahlungshaftung mit eigenen Sorgfalts-, Frist- und Erstattungsregeln; alte Paragraf-64-Rechtsprechung nicht unverändert übernehmen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Geordneter Fälligkeits-/Mittelvergleich; tatsächlich geleistete Drittmittel nicht wegen fehlenden durchsetzbaren Anspruchs ausschließen, kurzfristige Verfügbarkeit belegen. Grenze: Anfechtungsverfahren; bloße Zusagen kein belegter Zufluss, keine automatische Entlastung aus Paragraf15bInsO."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_229-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Vorläufig titulierte Forderung bei vorliegenden Vollstreckungsvoraussetzungen und eingeleiteter Vollstreckung zum Nennwert im Status berücksichtigen. Grenze: Keine Prozessrisikoquote, aber objektive Rechtslage und gerichtliche Vollstreckungsentscheidungen prüfen; keine automatische subjektive Kenntnis oder Organhaftung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Kernfall verbindet Organzahlung und Massegegenwert mit der zeitlich zutreffenden Haftungsnorm. Individuelle Text- und Quellenprüfung, kein Live-Modelltest. Workflow-Ergänzung einzeln geprüft: Journalzeile ist eine Umbuchung zwischen eigenen Konten -> Vorgang verknüpfen, doppelte Masseabflussrechnung beseitigen und Haftungstext korrigieren. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Beide Entscheidungen tragen die vorgelagerte Insolvenzreifeprüfung auch im Organhaftungs-Hauptproblem/Fokusskill. Sorgfalt und geringerer Gläubigerschaden weiterhin gesondert. Einstiegsredaktion 16.10.2026, Batch 2: Liquiditätslage, Haftung und beauftragte Sanierungsentscheidung werden vor dem Ablauf benannt; Zahlungsabfluss und verwertbarer Gegenwert bleiben verbunden. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Amtliches Urteil II ZR 319/15 vom 04.07.2017 statt des gleich nummerierten PKH-Beschlusses verwendet.",
+      "In allen drei Prompts und Fokus-Skill alte Paragraf-64-Rechtsprechung von Paragraf 15b InsO abgegrenzt; Dienstleistungen nicht pauschal als Masseausgleich behandelt.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Tatsächliche Drittmittel und vollstreckte titulierte Schulden in Statusprüfung aufgenommen; vorhandenen Liquiditätsstatus-Skill verlinkt und präzisiert.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Liquiditätslage, Haftung und beauftragte Sanierungsentscheidung werden vor dem Ablauf benannt; Zahlungsabfluss und verwertbarer Gegenwert bleiben verbunden. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "80f1d91b052b9338ea1367d27d159ad2caa1008aa3153a56d8242927a2a2c003"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die breiten Sanierungswege bleiben erhalten, während der Zahlungsabgleich wirtschaftliche Zuordnung, Verwertbarkeit und tatsächlich zurückgewährte Werte verlangt. Individuelle Text- und Quellenprüfung, kein Live-Modelltest. Workflow-Ergänzung einzeln geprüft: Stundungsanfrage gegenüber wirksamer Vereinbarung, bedingte Finanzierung, fällige Schulden, Höchstfristen ohne freie Wartezeit, tatsächlicher Gegenwert, Rückflüsse, Zustimmungsumfang und empfängerbezogene Kenntnis bei Anfechtung. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Beide Entscheidungen tragen die vorgelagerte Insolvenzreifeprüfung auch im Organhaftungs-Hauptproblem/Fokusskill. Sorgfalt und geringerer Gläubigerschaden weiterhin gesondert. Einstiegsredaktion 16.10.2026, Batch 2: Liquiditätslage, Haftung und beauftragte Sanierungsentscheidung werden vor dem Ablauf benannt; Zahlungsabfluss und verwertbarer Gegenwert bleiben verbunden. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Amtliches Urteil II ZR 319/15 vom 04.07.2017 statt des gleich nummerierten PKH-Beschlusses verwendet.",
+      "In allen drei Prompts und Fokus-Skill alte Paragraf-64-Rechtsprechung von Paragraf 15b InsO abgegrenzt; Dienstleistungen nicht pauschal als Masseausgleich behandelt.",
+      "Stundungsanfrage gegenüber wirksamer Vereinbarung, bedingte Finanzierung, fällige Schulden, Höchstfristen ohne freie Wartezeit, tatsächlicher Gegenwert, Rückflüsse, Zustimmungsumfang und empfängerbezogene Kenntnis bei Anfechtung.",
+      "Tatsächliche Drittmittel und vollstreckte titulierte Schulden in Statusprüfung aufgenommen; vorhandenen Liquiditätsstatus-Skill verlinkt und präzisiert.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Liquiditätslage, Haftung und beauftragte Sanierungsentscheidung werden vor dem Ablauf benannt; Zahlungsabfluss und verwertbarer Gegenwert bleiben verbunden. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "d2e9d07c834738b1a4e0bf5c479f0ded7fd1c297636fd89b6ef50c21c10c1578"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Insolvenzreife und einzelne Organforderungen aus Zahlungsjournal und Gegenwerten bestimmen. Hauptproblem-Prompt und zugeordneten Fokus-Skill vollständig gelesen; Entscheidung auf Anwendung und Reichweite geprüft. Kein Live-Modelltest und keine vollständige Neuverifikation aller Rechtsquellen. Workflow-Ergänzung: Journalzeile ist eine Umbuchung zwischen eigenen Konten -> Vorgang verknüpfen, doppelte Masseabflussrechnung beseitigen und Haftungstext korrigieren. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Beide Entscheidungen tragen die vorgelagerte Insolvenzreifeprüfung auch im Organhaftungs-Hauptproblem/Fokusskill. Sorgfalt und geringerer Gläubigerschaden weiterhin gesondert.",
+    "changes": [
+      "Amtliches Urteil II ZR 319/15 vom 04.07.2017 statt des gleich nummerierten PKH-Beschlusses verwendet.",
+      "In allen drei Prompts und Fokus-Skill alte Paragraf-64-Rechtsprechung von Paragraf 15b InsO abgegrenzt; Dienstleistungen nicht pauschal als Masseausgleich behandelt.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-insolvenz-sanierungsrecht/fachanwalt-insolvenz-sanierungsrecht-hauptproblem.md",
+    "prompt_sha256": "feb14c56a8e8d74fc8c64f2f3aefe396f818c91ea2ed7338be22e4584eff32a1",
+    "skill_path": "fachanwalt-insolvenz-sanierungsrecht/skills/organhaftung-zahlungen-masseabgleich/SKILL.md",
+    "skill_sha256": "1b634778a13babc484437f464b55ebae4193b7f4514276b67e898228eaf35ba2"
+  },
+  "selection": {
+    "positive": [
+      "Der Verwalter fordert sämtliche Kontoabgänge nach Insolvenzreife vom Geschäftsführer. Prüfen Sie Umbuchungen, Gegenleistungen und Rückerstattungen einzeln.",
+      "Erstellen Sie aus unseren Zahlungskonten eine Organhaftungsrechnung nach Paragraf 15b InsO mit gesonderten Sorgfalts- und Schadenseinwänden."
+    ],
+    "negative": [
+      "Erstellen Sie ausschließlich eine zwölfmonatige Fortbestehensprognose für die nächste Finanzierungssitzung.",
+      "Verteidigen Sie unseren Lieferanten gegen eine Vorsatzanfechtung seiner erhaltenen Zahlungen, ohne Organhaftungsmandat."
+    ],
+    "target_skill": "organhaftung-zahlungen-masseabgleich"
+  },
+  "cases": [
+    {
+      "id": "februarzahlungen-umbuchung-rueckfluss-warenwert",
+      "request": "Wir vertreten den alleinigen Geschäftsführer einer GmbH gegen den Insolvenzverwalter. Bitte erstellen Sie ergebnis.md als nachvollziehbare Verteidigungsrechnung. Zahlungsunfähigkeit seit 01.01.2026 und Organstellung sind unstreitig; es gab keine Sanierungsmaßnahmen und keine Antragsvorbereitung. Der Antrag wurde erst am 10.02.2026 gestellt. Am 01.02.2026 lagen 200.000 EUR auf dem unbesicherten Guthabenkonto A und 0 EUR auf dem ebenfalls unbesicherten Guthabenkonto B. Alle folgenden Buchungen wurden vom Geschäftsführer veranlasst: am 01.02. 20.000 EUR von A nach B; am 02.02. 30.000 EUR von A für rückständige Dezemberlöhne; am 03.02. 40.000 EUR von A an einen alten unbesicherten Liefergläubiger; am 04.02. 25.000 EUR von A für sofort gelieferte unbelastete Handelsware. Deren objektiver Liquidationswert bei Zugang war laut übereinstimmender Bewertung 18.000 EUR. Der alte Liefergläubiger erstattete am 06.02. 5.000 EUR als Überzahlung auf A. Andere Buchungen gab es nicht; am 07.02. weisen die Auszüge A mit 90.000 EUR und B mit 20.000 EUR aus. Der Verwalter verlangt 115.000 EUR. Er bestreitet, dass der Warenwert den Gläubigerschaden mindert, nicht aber Zugang und Liquidationswert; zu seiner späteren Verwertung liegen keine Unterlagen vor. Die tatsächliche Rückerstattung von 5.000 EUR erkennt er an. Prüfen Sie Rechtsgrundlage, Zahlungszuordnung und belastbare sowie bedingte Entlastungen. Ein Vergleich oder Anerkenntnis ist nicht beauftragt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Kontenabgleich ergibt insgesamt 110.000 EUR Endguthaben und 95.000 EUR externe Auszahlungen; die 20.000 EUR Eigenumbuchung wird nicht als zusätzlicher Masseabfluss in der Haftungsbasis belassen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Rückzahlung von 5.000 EUR wird einmal zugeordnet und führt rechnerisch vor streitigem Warenwerteffekt zu 90.000 EUR; weder das Endguthaben noch sämtliche Einnahmen werden zusätzlich pauschal abgezogen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Warenzugang wird nicht zum Einkaufspreis von 25.000 EUR gutgeschrieben. Eine Rechnung mit 18.000 EUR Entlastung und 72.000 EUR Restbetrag bleibt ausdrücklich von der rechtlichen Berücksichtigung des geringeren Gläubigerschadens und noch offenen Verwertungsbelegen abhängig.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Das Ergebnis wendet Paragraf 15b InsO auf die Zahlungen 2026 an, behandelt die abgelaufene Antragsfrist ohne Sanierung oder Vorbereitung als relevantes Gegenargument und erklärt weder Löhne noch Waren wegen bloßer Betriebsbezogenheit für automatisch erlaubt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Das Urteil II ZR 319/15 wird als historischer Anker zu Paragraf 64 GmbHG eingeordnet, nicht als direkte abschließende Auslegung des heutigen Paragrafen 15b; der Entwurf erklärt keinen Vergleich und kein Anerkenntnis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "organhaftung-zahlungen-masseabgleich"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-insolvenz-sanierungsrecht/README.md",
+      "fachanwalt-insolvenz-sanierungsrecht/fachanwalt-insolvenz-sanierungsrecht-hauptproblem.md",
+      "fachanwalt-insolvenz-sanierungsrecht/fachanwalt-insolvenz-sanierungsrecht-schnellstart.md",
+      "fachanwalt-insolvenz-sanierungsrecht/fachanwalt-insolvenz-sanierungsrecht-werkstatt.md",
+      "fachanwalt-insolvenz-sanierungsrecht/skills/organhaftung-zahlungen-masseabgleich/SKILL.md",
+      "fachanwalt-insolvenz-sanierungsrecht/skills/zahlungsunfaehigkeit-liquiditaetsstatus-streitige-forderungen/SKILL.md",
+      "quality/evals/fachanwalt-insolvenz-sanierungsrecht.json"
+    ],
+    "opening_change": "Insolvenzreife und einzelne Organforderungen aus Zahlungsjournal und Gegenwerten bestimmen. Workflow-Ergänzung: Leer: Insolvenzstatus, Organ-Zahlungshaftung oder Gläubigerforderung anbieten. Dateien ohne Aufgabe: Liquiditätsunterlagen, Zahlungsjournal und Verfahrensbeschlüsse still lesen; Status-, Haftungs- oder Forderungsziel klären. Klarer Auftrag: verlangtes Gutachten oder Haftungsschreiben unmittelbar ausarbeiten; keine automatische gesamte Insolvenzakte referieren.",
+    "norms": [
+      "Paragrafen 15a, 15b, 17 und 19 InsO",
+      "Paragraf 64 GmbHG alter Fassung"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 04.07.2017, II ZR 319/15, Rn. 10–21",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2015/II_ZR_319-15A.pdf?__blob=publicationFile&v=1",
+        "application": "Zahlungen und wirtschaftlich zugehörige, für Gläubiger verwertbare Gegenwerte einzeln abgleichen; Dienstleistungen und bloße Chancen auf Anfechtungsrückgewähr nicht pauschal verrechnen.",
+        "limit": "Paragraf 64 GmbHG alter Fassung; heutige Ausnahmen und Erstattungsbegrenzung des Paragrafen 15b InsO gesondert prüfen. Fortführungswerte waren nicht allgemein entschieden."
+      },
+      {
+        "citation": "BGH, Urteil vom 12.03.2026 – Az. IX ZR 18/25, Rn. 24–32",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1",
+        "application": "Geordneter Fälligkeits-/Mittelvergleich; tatsächlich geleistete Drittmittel nicht wegen fehlenden durchsetzbaren Anspruchs ausschließen, kurzfristige Verfügbarkeit belegen.",
+        "limit": "Anfechtungsverfahren; bloße Zusagen kein belegter Zufluss, keine automatische Entlastung aus Paragraf15bInsO.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BGH, Urteil vom 23.01.2025 – Az. IX ZR 229/22, Rn. 34–45",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_229-22.pdf?__blob=publicationFile&v=1",
+        "application": "Vorläufig titulierte Forderung bei vorliegenden Vollstreckungsvoraussetzungen und eingeleiteter Vollstreckung zum Nennwert im Status berücksichtigen.",
+        "limit": "Keine Prozessrisikoquote, aber objektive Rechtslage und gerichtliche Vollstreckungsentscheidungen prüfen; keine automatische subjektive Kenntnis oder Organhaftung.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Akten- und Quellenprüfung, kein Live-Client- oder Modelltest.",
+      "Historischer Haftungsanker ersetzt keine vollständige aktuelle Prüfung aller Ausnahmen des Paragrafen 15b InsO; weitere Spezialfälle bleiben Rechercheaufträge.",
+      "Workflow-Review 23.09.2026: erneuter Abruf von Paragraf 15a InsO scheiterte; vorhandene Frist- und Rechtsprechungsnachweise nicht als neu volltextverifiziert ausgegeben.",
+      "01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Beide Entscheidungen tragen die vorgelagerte Insolvenzreifeprüfung auch im Organhaftungs-Hauptproblem/Fokusskill. Sorgfalt und geringerer Gläubigerschaden weiterhin gesondert."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Insolvenzstatus, Organ-Zahlungshaftung oder Gläubigerforderung anbieten.",
+      "Dateien ohne Aufgabe: Liquiditätsunterlagen, Zahlungsjournal und Verfahrensbeschlüsse still lesen; Status-, Haftungs- oder Forderungsziel klären.",
+      "Klarer Auftrag: verlangtes Gutachten oder Haftungsschreiben unmittelbar ausarbeiten; keine automatische gesamte Insolvenzakte referieren."
+    ],
+    "continuation": "Journalzeile ist eine Umbuchung zwischen eigenen Konten -> Vorgang verknüpfen, doppelte Masseabflussrechnung beseitigen und Haftungstext korrigieren.",
+    "enrichment": "Stundungsanfrage gegenüber wirksamer Vereinbarung, bedingte Finanzierung, fällige Schulden, Höchstfristen ohne freie Wartezeit, tatsächlicher Gegenwert, Rückflüsse, Zustimmungsumfang und empfängerbezogene Kenntnis bei Anfechtung.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "method": "targeted_primary_source_and_editorial_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-insolvenz-sanierungsrecht.json",
+    "limits": "Zwei aktuelle oberstgerichtliche Entscheidungen fachlich geprüft; keine Vollprüfung sämtlicher Fachskills oder älterer Quellen und kein neuer Modelllauf.",
+    "focus_scope": "Beide Entscheidungen tragen die vorgelagerte Insolvenzreifeprüfung auch im Organhaftungs-Hauptproblem/Fokusskill. Sorgfalt und geringerer Gläubigerschaden weiterhin gesondert."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "fachanwalt-insolvenz-sanierungsrecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Klären Sie beim Erwerb eines KI-Geschäfts, welche Dokumentation, Rechte und Betriebsfunktionen tatsächlich übergehen. Ein Erwerber wird nicht allein durch Anteilskauf Systemanbieter; Umwidmung und Weiterentwicklung getrennt untersuchen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  },
+  "insolvenzanfechtung_2026_10_21": {
+    "method": "desk_review",
+    "reviewed_on": "2026-10-21",
+    "sources_report": "quality/insolvenzanfechtung/quellenpruefung-2026-10-21.md",
+    "files": [
+      {
+        "path": "fachanwalt-insolvenz-sanierungsrecht/prompts/insolvenzanfechtung/insolvenzanfechtung-werkstatt.md",
+        "sha256": "157d904a15618023fb88b6ee2cde94f8d5afa02d64ff9c93ac8cb773c0c1c337"
+      },
+      {
+        "path": "fachanwalt-insolvenz-sanierungsrecht/prompts/insolvenzanfechtung/insolvenzanfechtung-schnellstart.md",
+        "sha256": "98492625d5c230d84e5054c473bbbed9105bc219df3afa49b16c9364ea2c277a"
+      }
+    ],
+    "scope": "Separate Anfechtungs-Prompts und Anfechtungsskill; keine neue Gesamtprüfung der übrigen Fachanwalts-Skills."
+  }
+}

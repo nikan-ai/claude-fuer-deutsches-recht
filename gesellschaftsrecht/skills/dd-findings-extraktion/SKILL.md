@@ -1,6 +1,6 @@
 ---
 name: dd-findings-extraktion
-description: "Wenn es um DD-Issue-Extraktion (Findings-Report) in Gesellschaftsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für DD-Issue-Extraktion (Findings-Report): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DD-Issue-Extraktion (Findings-Report)
@@ -16,7 +16,6 @@ description: "Wenn es um DD-Issue-Extraktion (Findings-Report) in Gesellschaftsr
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `DD-Issue-Extraktion (Findings-Report)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -28,7 +27,7 @@ description: "Wenn es um DD-Issue-Extraktion (Findings-Report) in Gesellschaftsr
 
 ## Triage zu Beginn
 
-Vor dem Start des DD-Reviews folgende Fragen klären:
+Folgende Punkte zuerst aus Auftrag, Datenraum und vorhandenem Praxisprofil entnehmen. Nur entscheidende Lücken nachfragen; bei klarem Prüfauftrag unmittelbar mit dem Findings-Report beginnen und Antworten dort weiterverarbeiten:
 
 1. **Transaktionsstruktur:** Share Deal oder Asset Deal? GmbH oder AG?
 2. **Wesentlichkeitsschwelle:** Welcher Mindestvertragswert ist zu prüfen (aus Praxisprofil)?
@@ -39,7 +38,7 @@ Vor dem Start des DD-Reviews folgende Fragen klären:
 
 ## Zentrale Normen
 
-Paragraf 311 Abs. 2, 241 Abs. 2 BGB (vorvertragliche Aufklärungspflichten) — Paragraf 442 BGB (Kenntnis des Käufers) — Paragraf 443 BGB (Garantien) — Paragraf 15 GmbHG (Abtretung GmbH-Anteile) — Paragraf 40 GmbHG (Gesellschafterliste) — Paragraf 613a BGB (Betriebsübergang) — Paragraf 35 ff. GWB (Fusionskontrolle) — Art. 28 DSGVO (Auftragsverarbeitung) — Paragraf 142, 144 ZPO (Urkundenvorlegung)
+Paragraf 311 Abs. 2, 241 Abs. 2 BGB (vorvertragliche Aufklärungspflichten); Paragraf 442 BGB (Kenntnis des Käufers); Paragraf 443 BGB (Garantien); Paragraf 15 GmbHG (Abtretung GmbH-Anteile); Paragraf 40 GmbHG (Gesellschafterliste); Paragraf 613a BGB (Betriebsübergang); Paragraf 35 ff. GWB (Fusionskontrolle); Art. 28 DSGVO (Auftragsverarbeitung). Im Prozess: Paragraf 142 ZPO (gerichtliche Urkundenvorlegung), Paragraf 144 ZPO (Augenschein und Sachverständige); selbständiges Beweisverfahren nach Paragraf 485 ff. ZPO nur bei dessen Voraussetzungen.
 
 ## Aktuelle Rechtsprechung
 
@@ -49,7 +48,7 @@ Paragraf 311 Abs. 2, 241 Abs. 2 BGB (vorvertragliche Aufklärungspflichten) — 
 
 Der Datenraum hat 2.000 Dokumente. Irgendwo darin befinden sich die 30, die für den Deal entscheidend sind. Dieser Skill liest Dokumente gegen die DD-Kategorien und Wesentlichkeitsschwellen aus dem Praxisprofil, extrahiert Issues und schreibt sie im Hausformat.
 
-**Vorprozessuale Beweiserhebung im deutschen Recht.** Die Due Diligence (Sorgfaltsprüfung) in deutschen M&A-Transaktionen läuft ausschließlich über den virtuellen Datenraum (VDR – Virtual Data Room), den Frage-Antwort-Prozess (Q&A) und den Disclosure Letter (Offenlegungserklärung). Was nicht offengelegt wurde, ist weder bekannt noch garantiert – das im SPA (Share Purchase Agreement, Unternehmenskaufvertrag) verankerte Garantieregime modifiziert insoweit den allgemeinen Grundsatz, dass der Käufer das Risiko nicht offenbarter Mängel trägt. Gesetzliche Auskunftsansprüche im Streitfall: Paragraf 142, 144 ZPO; Paragraf 810 BGB; Paragraf 242, 259, 666 BGB; Art. 15 DSGVO; Paragraf 254 ZPO (Stufenklage).
+Due Diligence nutzt insbesondere Datenraum, Fragen und Antworten sowie die Offenlegungserklärung. Offenlegung, tatsächliche Kenntnis und vertragliche Garantien sind anhand der Belege und des Kaufvertrags getrennt zu prüfen. Fehlende Unterlagen begründen für sich weder Kenntnis noch eine bestimmte Risikoverteilung. Materielle Auskunfts- oder Einsichtsansprüche benötigen eine eigene Grundlage; beispielsweise setzt Paragraf 810 BGB ein rechtliches Interesse und einen der dort genannten Urkundenbezüge voraus. Paragraf 142 und 144 ZPO regeln gerichtliche Anordnungen im Prozess, keinen allgemeinen vorprozessualen Informationsanspruch. Ein selbständiges Beweisverfahren nach Paragraf 485 ff. ZPO kommt bei seinen besonderen Voraussetzungen in Betracht; es eröffnet keine allgemeine Datenraum-Ausforschung. Paragraf 254 ZPO ermöglicht die Verbindung von Rechnungslegung und zunächst unbezifferter Leistungsklage, schafft aber nicht selbst den materiellen Auskunftsanspruch.
 
 ## Eingaben
 
@@ -217,6 +216,8 @@ Dokument: [VDR-PFAD/DOKUMENTENNAME]
 - **An vollzugs-checkliste:** Jedes Finding, das eine diskrete Vollzugshandlung impliziert.
 
 ## Quellen und Zitierweise
+
+Punktueller Normabgleich am 16.10.2026: [ZPO 142](https://www.gesetze-im-internet.de/zpo/__142.html), [ZPO 144](https://www.gesetze-im-internet.de/zpo/__144.html), [ZPO 485](https://www.gesetze-im-internet.de/zpo/__485.html), [ZPO 254](https://www.gesetze-im-internet.de/zpo/__254.html) und [BGB 810](https://www.gesetze-im-internet.de/bgb/__810.html). Geprüft wurde ausschließlich die Trennung von gerichtlicher Beweiserhebung, selbständigem Beweisverfahren, Stufenklage und Urkundeneinsicht; keine Vollprüfung des DD-Rechts oder der einzelnen Anspruchsvoraussetzungen im Mandat.
 
 Zitierweise nach `../../references/zitierweise.md`.
 

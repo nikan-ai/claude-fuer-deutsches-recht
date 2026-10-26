@@ -1,6 +1,6 @@
 ---
 name: mandat-erstgespraech-normenkontrolle
-description: "Wenn es um Erstgespräch Normenkontroll-Mandat in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch Normenkontroll-Mandat: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Erstgespräch Normenkontroll-Mandat
@@ -160,4 +160,4 @@ description: "Wenn es um Erstgespräch Normenkontroll-Mandat in Normenkontrolle 
 
 ## Aktuelle Rechtsprechung — Triage-relevante Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

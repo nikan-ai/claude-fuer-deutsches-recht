@@ -1,6 +1,6 @@
 ---
 name: anfaenger-workflow-sozialgericht
-description: "Wenn es um Anfänger-Sozialgericht in selbstvertreter-sozialgericht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anfänger-Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anfänger-Sozialgericht
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Fachlicher Anker
 
@@ -87,32 +85,3 @@ Prüfen Sie:
 | Vor Abgabe | `sanity-check-selbstvertretung-sozialgericht` |
 | Rechtsprechung | `rechtsprechungschat-sozialgericht` |
 | Rechtsmittel | `zulassungsgrenzen-check-sozialgericht` |
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 SGG (Sachliche Zuständigkeit Sozialgerichte)
-- §§ 51-55 SGG (Klagearten)
-- §§ 73, 73a SGG (Prozessbevollmächtigte, PKH)
-- §§ 86a, 86b SGG (aufschiebende Wirkung, einstweiliger Rechtsschutz)
-- § 105 SGG (Gerichtsbescheid)
-- § 109 SGG (Sachverständiger nach Wahl)
-- § 131 SGG (Urteilsformen)
-- §§ 183-197a SGG (Kosten)
-- §§ 12, 14 SGB I (Auskunft, Beratung)
-- § 44 SGB X (Zugunstenverfahren)
-
-### Leitentscheidungen
-
-- BSG B 1 KR 12/15 R (sozialgerichtlicher Anspruchsbegriff)
-- BSG B 4 AS 22/15 R (SGB II Eingliederungsverwaltungsakt)
-- BVerfG 1 BvL 1/09 (Regelbedarf)
-- BSG B 14 AS 19/21 R (Sanktionsmaßstäbe)
-- BVerfG 1 BvR 1106/08 (effektiver Rechtsschutz Sozialgericht)
-
-### Anwendung im Skill
-
-- Untaetigkeitsklage § 88 SGG nach 6 Monaten; Zustaendigkeit nach § 51 SGG vor Klageerhebung prüfen.
-- PKH § 73a SGG: Bediduerftigkeit + Erfolgsaussicht; ablehnender Beschluss mit § 73a Abs. 1 SGG-Beschwerde angreifbar.
-- Zugunstenverfahren § 44 SGB X erlaubt Korrektur bestandskraeftiger Bescheide; 4-Jahres-Frist beachten.

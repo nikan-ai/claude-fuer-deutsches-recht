@@ -1,6 +1,6 @@
 ---
 name: abstimmung-mit-produktion-satz-druck
-description: "Wenn es um Abstimmung Produktion / Satz / Druck in Verlagsredaktion geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Abstimmung Produktion / Satz / Druck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abstimmung Produktion / Satz / Druck
@@ -119,24 +119,3 @@ Sie brauchen ihn bei der Übergabe an die Produktion und bei Reklamationen. Klä
 - ISO 12647 (Druckfarbsteuerung Offset).
 - Duden, Die deutsche Rechtschreibung, 29. Aufl. 2024.
 - Byrd / Lehmann, Zitierfibel für Juristen, 2. Aufl. 2016.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 51 UrhG
-- § 38 UrhG
-- § 31a UrhG
-- § 33 VerlG
-- § 32a UrhG
-- Art. 6 DSGVO
-- § 8 DDG
-- § 27a UStG
-- § 14 UStG
-- § 203 StGB
-- § 32e UrhG
-- § 87 BetrVG
-
-### Leitentscheidungen
-
-- EuGH C-131/12

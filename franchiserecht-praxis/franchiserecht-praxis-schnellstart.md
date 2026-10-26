@@ -1,70 +1,41 @@
-Wenn du das hier öffnest, willst du eine gesellschaftsrechtliche Maßnahme rechtssicher beschließen und dokumentieren.
+# 1. Franchisevertrag, Gebühren und Ausstieg prüfen
 
-# Franchiserecht Praxis — Schnellstart
+Prüfe, welche Systemleistung der Franchisevertrag für Gebühren und Bindungen verspricht, und formuliere die bestellte Klausel, Beratung oder Ausstiegserklärung. Beim Kundenstammausgleich ist die Analogie zu Paragraf 89b HGB zu begründen. BGH, Urteil vom 05.02.2015, VII ZR 109/13: Im anonymen Massengeschäft tragen Laufkundschaft und Ladenrückgabe allein keinen Ausgleich; kein pauschaler Ausschluss für jedes Franchisesystem.
 
-Ziel: Wirtschaftsrechtliches Plugin für Franchise-Systeme: vorvertragliche Aufklärung, Handbuch, Gebühren, Gebietsschutz, Kartellrecht, Kündigung, Expansion, Streit und Insolvenz. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1. Vertrag und wirtschaftliche Grundlage lesen
 
-## 1. Schnellmodus
+Ohne Eingabe fragen: „Geht es um Gebühren und Handbuchänderungen, Preis- und Bezugsbindung oder einen geordneten Ausstieg?“ Anhänge ohne Auftrag zunächst still lesen, dann passende Wege anbieten, etwa Gebührenkorrektur oder Kündigungsprüfung. Keine ungefragte Vertragszusammenfassung. Bei klarem Auftrag direkt ausarbeiten, ohne Pflichtdialog. Bekannte Rolle, Fassungen und Termine übernehmen.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Unterscheide zugesagte Schulung, Beschaffung, Werbung und Unterstützung von unverbindlicher Prognose. Welche Leistung steht welcher Gebühr gegenüber? Sind Umsatzdefinition, Retouren, Rabatte, Umsatzsteuer, Werbefonds und zusätzliche Investitionen eindeutig geregelt? Prüfe Änderungen des Handbuchs auf neue Kosten, Fristen und Kündigungsrechte.
 
-## 2. Direktstart
+## 1.2. Aufklärung und Vertragskontrolle
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Vergleiche die Rentabilitätsprognose mit benannten Vergleichsbetrieben, Zeitraum, Standort, Anlaufkosten und Methodik. Eine Schätzung ist keine Gewinnzusage; erfundene Referenzumsätze sind aber nicht durch einen Prognosevorbehalt gerechtfertigt. Prüfe bei behaupteter Falschinformation Pflichtverletzung, Abschlusskausalität und Schaden nach Paragrafen 311 Absatz 2, 241 Absatz 2 und 280 Absatz 1 BGB; Täuschungsanfechtung nach Paragrafen 123 und 124 BGB gesondert.
 
-## 3. Kernroute
+Prüfe formularmäßige Gebühren-, Haftungs-, Vertragsstrafen- und Änderungsregeln nach Paragrafen 305c, 307 und 310 Absatz 1 BGB. Paragrafen 308 und 309 gelten im Unternehmerverkehr nicht unmittelbar; Wertungen nur begründet übertragen. Preis und geschuldete Leistung auslegen, ohne jede belastende Hauptpreisabrede automatisch der Inhaltskontrolle zu unterwerfen.
 
-1. Gesellschaftsform, Registerlage, Beteiligungen und Organe feststellen.
-2. Satzung, Gesellschaftervereinbarung, Beschluss und Vertretung trennen.
-3. Organpflichten, Treuepflichten, Zustimmungserfordernisse und Haftung prüfen.
-4. Transaktionsschritte, Notarform, Closing-Bedingungen und Registervollzug planen.
-5. Arbeitsprodukt: Beschlussvorschlag, Organmemo, Anteilsübertragungsvertrag oder Klageentwurf erstellen.
-6. Franchiserecht: Franchisevertrag AGB-Redline: Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen.
+## 1.3. Preis, Bezug und Gebiet
 
-## 4. Fallkarte
+Prüfe Artikel 101 Absätze 1 bis 3 AEUV, Paragrafen 1 und 2 GWB sowie Artikel 2 bis 5 der Verordnung (EU) 2022/720 anhand der tatsächlichen Bindung. Bei Fest- oder Mindestpreisen entfällt die Gruppenfreistellung nach Artikel 4 Buchstabe a; kleine Marktanteile heilen das nicht. Eine „Empfehlung“ mit Rabattgenehmigung und Vertragsstrafe kann wirkliche Preisbindung sein. Fehlende Gruppenfreistellung ist noch nicht die vollständige Einzelfallprüfung.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 705; HGB Paragraf 105; GmbHG Paragraf 13 |
-| Rechtsprechung | BGH, Urteil vom 29.01.2001 - II ZR 331/00; BGH, Urteil vom 04.07.2005 - II ZR 354/03 |
-| Tatbestand | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen |
-| Beweislast | Anspruchsteller für Pflichtverletzung, Schaden und Kausalität; Organ oder Gesellschafter für Entlastung, Beschlussbasis und Business Judgment |
-| Rechtsfolge | Beschlussfassung, Anfechtung, Organhaftung, Registervollzug, Abberufung oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Beispiel einer Alternative: „Der Franchisenehmer bestimmt seine Verkaufspreise selbstständig. Preisempfehlungen sind unverbindlich; abweichende Preise bedürfen keiner Zustimmung und lösen keine Nachteile aus.“
 
-## 5. Einsatzfelder
+Trenne Bezugspflicht, Qualitätssicherung und Wettbewerbsverbot; Vertragsdauer und Ausstiegsmöglichkeiten anhand Artikel 5 prüfen. Stationäres Gebiet, eigene Onlineverkäufe, Plattformen und Click-and-Collect getrennt erfassen; kein pauschales Internetverbot aus Gebietsschutz ableiten. Konkrete Ersatzklauseln und bei Bedarf Gebührenvergleich liefern.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Franchiserecht: Franchisevertrag AGB-Redline | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Franchiserecht: Mystery Shopping Beweis und Datenschutz | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Franchise Kündigung und Nachvertragliche Wettbewerb | Zugang, Dreiwochenfrist, Schriftform, Beteiligungsrechte, Darlegungslast und Klage- oder Vergleichsziel sofort trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Franchise Vergütungsmodelle Initial Laufend | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Franchise Vertragsstruktur Master Unit | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Franchise Vorvertragliche Aufklärung BGH | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.4. Vertragsende und Kundenstamm
 
-## 6. Anker
+Prüfe Befristung, Verlängerung, Kündigungsgrund, Abmahnung oder deren Entbehrlichkeit, angemessene Erklärungsfrist und Zugang nach Paragraf 314 BGB. Plane Rückgabe von Handbuch und Ausstattung, Kennzeichenentfernung, Warenbestand, Kundendaten und fortwirkende Vertraulichkeit. Ein nachvertragliches Wettbewerbsverbot nach Artikel 5 Absatz 3 der Verordnung (EU) 2022/720 gesondert prüfen; Paragraf 90a HGB nicht automatisch anwenden.
 
-- BGB Paragraf 705: Gesellschaftsvertrag der Gesellschaft bürgerlichen Rechts.
-- HGB Paragraf 105: offene Handelsgesellschaft.
-- GmbHG Paragraf 13: Rechtsnatur der GmbH.
-- GmbHG Paragraf 15: Übertragung von Geschäftsanteilen.
-- BGB Paragrafen 314, 323, 241 Abs. 2, 242, 280, 305 ff.: Dauerschuldverhältnis, Pflichtverletzung, Abmahnung, AGB-Kontrolle: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- HGB Paragraf 90a nur als Orientierung für nachvertragliche Wettbewerbsverbote, wenn Schutzbedürfnis, Dauer, Raum und Entschädigung tatsächlich vergleichbar sind: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 101 AEUV, GWB und Vertikal-GVO (EU) 2022/720 für Wettbewerbsverbote, Bezugsbindungen und Gebietsschutz: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- ZPO Paragrafen 935, 940 für Eilrechtsschutz, wenn Marken, Know-how, Kundendaten oder irreführende Fortnutzung sofort gestoppt werden sollen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Urteil vom 29.01.2001 - II ZR 331/00: ARAG/Garmenbeck prägt die Pflicht zur Verfolgung von Organhaftungsansprüchen.
-- BGH, Urteil vom 04.07.2005 - II ZR 354/03: Trihotel zur Existenzvernichtungshaftung.
-- BGH VIII ZR 233/02 zur Aufklärung beim Franchisesystem
-- BGH XII ZR 197/03 zur Marketingunterstützung
+Bei beanspruchtem Kundenausgleich wende [BGH, Urteil vom 05.02.2015, VII ZR 109/13](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_109-13.pdf?__blob=publicationFile&v=1), Rn. 13–21, an: Im anonymen Massengeschäft reicht fortbestehende Laufkundschaft auch bei Rückgabe des Ladenlokals nicht für Paragraf 89b HGB analog. Prüfe deshalb Kundenidentifizierbarkeit, Eingliederung und rechtliche Überlassungspflicht statt allein den Standortwert. Das Urteil verneint nicht jeden Franchiseausgleich und entscheidet die allgemeine Analogiefrage nicht abschließend. Nur bei tragfähiger Anspruchsgrundlage Vorteile, Billigkeit, Ausschlussgründe und Jahresfrist nach Absatz 4 prüfen; diese ist keine Verjährungsfrist und der Höchstbetrag keine automatische Forderung.
 
-## 7. Antwortform
+## 1.5. Fehlende Angaben einarbeiten
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Franchiserecht: Franchisevertrag AGB-Redline, Franchiserecht: Mystery Shopping Beweis und Datenschutz, Franchise Kündigung und Nachvertragliche Wettbewerb, Franchise Vergütungsmodelle Initial Laufend: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Fehlt die Umsatzdefinition oder Handbuchfassung, fordere genau diese an. Nach Eingang Gebühren, Pflichtinvestitionen und Änderungsbefugnisse neu abgleichen und die betroffene Klausel fertigschreiben. Widersprechen Vergleichsbetriebe der Prognose, Datenbasis und Zeitraum klären. Bei Ausstieg fehlende Abmahnung oder Zugangsnachweise anfordern; danach Bewertung und Schreiben aktualisieren.
 
-## 8. Stop
+Neue entscheidende Widersprüche erlauben weitere kurze Fragen, bekannte Angaben nicht nochmals erheben. Unabhängige Teile vorläufig liefern und nach der Antwort bis zur Endfassung fortsetzen. Materialzugang beweist weder richtige Prognose noch Einigung über offene Parameter.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+## 1.6. Ergebnis und Zugriff
+
+Liefere Prüfvermerk, Einzelklausel, Vertragsfassung oder Brief nach Auftrag mit konkreter Rechtsfolge, stärkstem Gegenargument und nötiger Begründung. Bei Einzelklauselprüfung keinen Gesamtvertrag erzwingen, bei Gutachten keine ungefragte Kündigung oder Klage. Interne Verhandlungsgrenzen und Quellenstatus außerhalb des Empfängertextes führen. Keine Erklärung, Zahlung oder Einreichung eigenmächtig veranlassen.
+
+Tragende Normfassung und weitere Entscheidungen amtlich prüfen; keine ungesicherten Aktenzeichen ergänzen. Ohne weitere Skills eigenständig arbeiten. Bei Zugriffsfehlern einen Ersatzweg versuchen, verbleibende ungelesene Unterlagen konkret nennen. Ohne Export vollständigen Text statt erfundenem Dateilink liefern. Dezimale Überschriften mit Leerzeilen, vollständige Sätze; beim Export Times New Roman 11 pt.

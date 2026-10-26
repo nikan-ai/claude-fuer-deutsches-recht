@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um Kanzleiprofil anpassen in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kanzleiprofil anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kanzleiprofil anpassen
@@ -9,7 +9,6 @@ description: "Wenn es um Kanzleiprofil anpassen in Vertragsrecht geht: prüft Fr
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; §§ 305 ff. BGB, NDA, SaaS- — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -37,17 +36,13 @@ begrenzt. Relevante Grenzen:
  für Körperverletzungen und grobe Fahrlässigkeit ist unwirksam und nicht
  verhandelbar
 - § 310 Abs. 1 BGB — Im unternehmerischen Verkehr gelten §§ 308, 309 BGB
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - §§ 438, 634a BGB — Gesetzliche Verjährungsfristen für Gewährleistung;
  Verkürzung in AGB nur in Grenzen des § 309 Nr. 8 BGB
 
 ### Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Zulässige Anpassung von Zinsklauseln; Transparenzgebot bei Änderungsvorbehalten)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Unwirksamkeit einer AGB-Klausel bei unangemessener Benachteiligung; § 307 BGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Unwirksamkeit verkürzter Verjährungsfristen in AGB bei versteckter Klausel)
 
 ### Quellenregel
@@ -62,7 +57,7 @@ Lies `~/.claude/plugins/config/klotzkette/vertragsrecht/CLAUDE.md`.
 Enthält es `[PLATZHALTER]`-Werte, sage:
 
 > Sie haben die Ersteinrichtung noch nicht abgeschlossen. Führen Sie zuerst
-> `/vertragsrecht:vertragsrecht-kaltstart-interview` aus — die Anpassungsfunktion setzt
+> `/vertragsrecht:kaltstart-interview` aus — die Anpassungsfunktion setzt
 > ein vollständiges Profil voraus.
 
 ### Schritt 2 — Anpassbare Bereiche zeigen
@@ -127,7 +122,7 @@ Schreibe in das gemeinsame Profil und weise darauf hin:
 ### Schritt 6 — Abschluss
 
 > Erledigt. Ihre nächste Ausgabe spiegelt die Änderung wider. Weitere
-> Anpassungen? `/vertragsrecht:vertragsrecht-anpassen` ist jederzeit verfügbar.
+> Anpassungen? `/vertragsrecht:anpassen` ist jederzeit verfügbar.
 
 ## Beispiel
 
@@ -171,28 +166,4 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 ---
 
-<!-- AUDIT 27.05.2026
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=02.11.2016&Aktenzeichen=XII+ZR+153%2F15
-Bundle: bundle_047.json
--->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 28 DSGVO
-- § 203 StGB
-- § 13 UWG
-- § 15 AktG
-- Art. 82 DSGVO
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-
-### Leitentscheidungen
-
-- EuGH C-249/21
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

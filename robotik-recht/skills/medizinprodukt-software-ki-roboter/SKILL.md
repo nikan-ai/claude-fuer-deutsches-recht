@@ -1,6 +1,6 @@
 ---
 name: medizinprodukt-software-ki-roboter
-description: "Wenn es um Medizinprodukt-Software-digitale Werkzeuge-Roboter in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Medizinprodukt Software Ki Roboter; Arbeitsfeld: robotik-recht."
+description: "Für Medizinprodukt-Software-digitale Werkzeuge-Roboter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: medizinprodukt-software-ki-roboter."
 ---
 
 # Medizinprodukt-Software-KI-Roboter
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft Zusammenspiel von MDR, KI-VO und Software als Bestandteil medizinischer Robotik.**
 
 Quellen-/Normenanker: MDR, MPDG, KI-VO, Datenschutz.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

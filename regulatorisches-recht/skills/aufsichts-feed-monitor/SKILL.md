@@ -1,6 +1,6 @@
 ---
 name: aufsichts-feed-monitor
-description: "Wenn es um Regulatorischer Feed-Watcher in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Regulatorischer Feed-Watcher: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Regulatorischer Feed-Watcher
@@ -37,7 +37,7 @@ Stand 05/2026. Vor Verwendung im Schriftsatz live verifizieren — keine Aktenze
 - BVerfG-Linien zu Wesentlichkeit und Normenklarheit (BVerfGE 33, 125; 49, 89 — Kalkar) im Mandat über [bundesverfassungsgericht.de](https://www.bundesverfassungsgericht.de) live verifizieren.
 - DORA-Aktualisierungen 2025/2026: ESA-Liste kritischer IKT-Drittdienstleister (November 2025); BaFin DORA-Informationsregister-Frist 09.–30.03.2026.
 - AMLR (EU) 2024/1624 — Anwendbarkeit ab 10.07.2027; AMLA-Behörde mit Sitz in Frankfurt seit 01.07.2025 operativ.
-- KI-VO (EU) 2024/1689 — Verbote anwendbar seit 02.02.2025; GPAI ab 02.08.2025; Hochrisiko-KI-Hauptanwendung ab 02.08.2026; Sicherheitsbauteile ab 02.08.2027.
+- **KI-Verordnung bei Systemen und Produkten:** Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. GPAI grundsätzlich seit 02.08.2025, Altmodelle nach Artikel 111 Absatz 3 gesondert. Für Produkte Artikel 2 Absatz 2, Artikel 6 Absätze 1 bis 1c und Anhang I Abschnitt A/B unterscheiden. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ### Kommentare
 
@@ -65,7 +65,6 @@ bekannt und akzeptiert ist.
 | ABl. EU / EUR-Lex | EU-Rechtsakte, konsolidierter Bestand |
 | BaFin (bafin.de/RSS) | Rundschreiben, Merkblätter, Allgemeinverfügungen |
 | BSI (bsi.bund.de) | Technische Richtlinien, Kritis-Warnungen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich |
 | BMJ | Referentenentwürfe, Pressemitteilungen |
 | Bundesrat | Drucksachen, Stellungnahmen |
 | Bundesanzeiger | Behördenbekanntmachungen |
@@ -101,6 +100,7 @@ Compliance-Pflicht. Im Eintrag explizit vermerken: "Vorstufe. Kommentierungsfris
 Für jeden Eintrag oberhalb "Zur Kenntnis": einzeilige Zusammenfassung + Relevanzhinweis
 + Link + Inkrafttreten bzw. Kommentierungsfrist. "Zur Kenntnis"-Einträge: nur Anzahl.
 
+```markdown
 ## Regulatorischer Feed-Check — [Datum]
 Zeitraum: [letzter Lauf] – [jetzt] | Quellen: [...] | Einträge: [N]
 
@@ -160,28 +160,8 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 Jeder Eintrag muss enthalten: Behörde, Dokumenttyp, Datum, Direktlink zur Primärquelle,
 Quellenkennung und ggf. Kommentierungsfrist. Zitierweise Rechtsprechung:
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Zitierweise Kommentare:
 `Sachs/Sachs, GG, 10. Aufl. 2021, Art. 20 Rn. 78`
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 18 UStG
-- § 25a KWG
-- § 4 RDGEG
-- § 13d RDG
-- § 203 StGB
-- Art. 288 AEUV
-- § 25b KWG
-- § 1 ZAG
-- § 13 RDG
-- § 10 ZAG
-- Art. 80 AEUV
-- § 17 UStG
-
-### Leitentscheidungen
-
-- EuGH C-6/64
-- EuGH C-117/20
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

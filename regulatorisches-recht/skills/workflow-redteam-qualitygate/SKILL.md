@@ -1,6 +1,6 @@
 ---
 name: workflow-redteam-qualitygate
-description: "Wenn es um Red-Team Qualitygate in Regulatorisches Recht – Plugin für deutsches geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: Regulatorisches Recht – Plugin für deutsches."
 ---
 
 # Red-Team Qualitygate
@@ -42,3 +42,4 @@ Dieser Arbeitsgang macht **Red-Team Qualitygate** im Bereich **regulatorisches-r
 - **Sanktionsmodell:** Verwaltungsbußgeld vs. Strafbarkeit vs. zivilrechtliche Haftung; bei mehreren Regimen Kumulation und Doppelbestrafungsverbot (Art. 50 GRCh, ne bis in idem; EuGH C-117/20 bpost SA, sofern frei verifizierbar).
 - **Veröffentlichung:** Bei Sanktionen häufig Veröffentlichungspflicht (Pillory-Effekt); Reputationsrisiko separat bewerten.
 - **Kein erfundenes Aktenzeichen:** EuGH-/EuG-Az., BaFin-/BNetzA-Bescheid-Az., DSK-Beschluss-Az. immer live verifizieren.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

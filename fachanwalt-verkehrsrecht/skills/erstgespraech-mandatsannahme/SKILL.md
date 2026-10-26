@@ -1,6 +1,6 @@
 ---
 name: erstgespraech-mandatsannahme
-description: "Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Verkehrsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verkehrsrecht."
 ---
 
 # Strukturierter Erstgespraechsleitfaden für Verkehrsrecht (Unfall-, OWi- und Verkehrsstrafrecht): Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
@@ -164,10 +164,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
 - Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
 
-## Aktuelle Rechtsprechung Erstgespraech Verkehrsrecht
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen Erstgespraech Verkehrsrecht
 
 - § 67 OWiG — Einspruchsfrist Bussgeldbescheid (2 Wochen)
@@ -177,10 +173,4 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - § 9 RVG — Vorschussanforderung
 - §§ 3a, 4a RVG — schriftliche Honorarvereinbarung, Erfolgshonorar-Schranken
 
-<!-- AUDIT 27.05.2026
-Geprüfte AZ (task_270.json, 3 Probleme):
-1. BGH VI ZR 168/15 (NOT_FOUND): dejure.org meldet "Keine Entscheidung gefunden". Zeile ersatzlos geloescht.
-2. BGH VI ZR 261/16 (WRONG_TOPIC): Echtes Thema laut dejure.org = Vererblichkeit des Anspruchs auf Geldentzuendigung (Persoenlichkeitsrecht), BGHZ 215, 117, NJW 2017, 3004 — nicht "Fristversaeumnis durch Kanzlei, NJW 2017, 2601". Zeile ersatzlos geloescht.
-3. BGH VI ZR 4/22 (NOT_FOUND): dejure.org meldet "Keine Entscheidung gefunden". Zeile ersatzlos geloescht.
-Frontmatter unveraendert. Kein Commit. Bearbeiter: KI-Audit-Agent.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

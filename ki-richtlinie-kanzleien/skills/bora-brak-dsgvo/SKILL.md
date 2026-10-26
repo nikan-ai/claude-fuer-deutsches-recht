@@ -1,6 +1,6 @@
 ---
 name: bora-brak-dsgvo
-description: "Wenn es um Bora: Zahlen, Schwellenwerte und Berechnung in diesem Spezialbereich geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für BORA: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bora: Zahlen, Schwellenwerte und Berechnung
@@ -54,3 +54,4 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Trade-off in der Richtlinie
 Strenge Schwellenwerte ("Keine Mandantendaten an Cloud-KI") schaffen Klarheit, behindern aber operative Nutzung. Differenziertes Modell mit Tool-Klassen (freigegeben / freigegeben mit Auflagen / verboten) je nach Datenklassifizierung (öffentlich / intern / vertraulich / hochsensibel) ist meist praxistauglicher.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

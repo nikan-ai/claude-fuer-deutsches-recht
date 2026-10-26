@@ -1,6 +1,6 @@
 ---
 name: cyber-vorfall-sofortmassnahmen
-description: "Wenn es um Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack
@@ -198,7 +198,6 @@ Aktenzeichens.
 |---|---|---|
 | Verletzung DSGVO-Meldepflicht | Behörde im Bußgeldverfahren; Rechenschaft Verantwortlicher | Art. 5 Abs. 2 DSGVO |
 | Angemessenheit TOMs | Verantwortlicher — Nachweis | Art. 82 Abs. 3 DSGVO |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | NIS2-Meldepflicht | Behörde (BSI); Einrichtung muss Eigeneinstufung dokumentieren | § 32 BSIG n. F. |
 | Straftat § 202a StGB | Staatsanwaltschaft (StPO) | StPO |
 | Versicherungsdeckung | Versicherungsnehmer — vertragsgemäße Anzeige und Schadensnachweise | AVB Cyber |
@@ -261,9 +260,8 @@ Aktenzeichens.
 - BetrVG § 87
 - GwG § 43
 - AWG § 18
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BSI IT-Grundschutz; BSI Lageberichte Cybersicherheit
 
 ## Aktuelle Rechtsprechung (v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Sportrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt für Sportrecht."
 ---
 
 # Anschluss-Routing
@@ -40,24 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Sportrecht** wählt nach dem ersten E
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 12 GG
-- § 17 TzBfG
-- § 4 AntiDopG
-- § 14 TzBfG
-- Art. 9 GG
-- Art. 45 AEUV
-- Art. 101 AEUV
-- § 29 VwVfG
-- § 23 EStG
-- § 42 GKG
-- § 54 StGB
-- § 265d StGB
-
-### Leitentscheidungen
-
-- EuGH C-333/21

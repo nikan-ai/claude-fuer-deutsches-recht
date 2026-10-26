@@ -1,6 +1,6 @@
 ---
 name: dsfa-template-deutsch-vollvorlage
-description: "Wenn es um DSFA-Vollvorlage Deutsch in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DSFA-Vollvorlage Deutsch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # DSFA-Vollvorlage Deutsch
@@ -185,5 +185,6 @@ Trigger für ausserplanmäßige Pruefung: [Aenderung Datenarten / Empfaenger / T
 - Art. 30, 32 DSGVO
 - EDSA-Leitlinien WP 248 rev.01
 - SDM V3.0 — Schutzziele
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

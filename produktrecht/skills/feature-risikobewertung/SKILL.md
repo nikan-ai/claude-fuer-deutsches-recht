@@ -1,6 +1,6 @@
 ---
 name: feature-risikobewertung
-description: "Wenn es um Feature-Risikobewertung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Feature-Risikobewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Feature-Risikobewertung
@@ -15,7 +15,7 @@ description: "Wenn es um Feature-Risikobewertung in Produkthaftung und Produktre
 
 ## Mandat-Kontext
 
-**Mandat-Kontext.** `## Mandate-Workspaces` in der praxisseitigen CLAUDE.md prüfen. Wenn `Aktiviert` `✗` ist (Standard für In-House-Nutzer), diesen Absatz überspringen. Wenn aktiviert und kein aktives Mandat, fragen: "Für welches Mandat ist das? `/produktrecht:produktrecht-mandat-arbeitsbereich switch <kürzel>` ausführen oder 'Praxisebene' sagen." Das aktive `mandat.md` für mandatsspezifischen Kontext laden. Ausgaben in den Mandat-Ordner schreiben. Niemals Dateien eines anderen Mandats lesen außer `Mandats-übergreifender Kontext` ist `ein`.
+**Mandat-Kontext.** `## Mandate-Workspaces` in der praxisseitigen CLAUDE.md prüfen. Wenn `Aktiviert` `✗` ist (Standard für In-House-Nutzer), diesen Absatz überspringen. Wenn aktiviert und kein aktives Mandat, fragen: "Für welches Mandat ist das? `/produktrecht:mandat-arbeitsbereich switch <kürzel>` ausführen oder 'Praxisebene' sagen." Das aktive `mandat.md` für mandatsspezifischen Kontext laden. Ausgaben in den Mandat-Ordner schreiben. Niemals Dateien eines anderen Mandats lesen außer `Mandats-übergreifender Kontext` ist `ein`.
 
 ---
 
@@ -86,14 +86,13 @@ Nur einbeziehen wenn eine Behörde sich aktiv für diesen Bereich interessiert. 
 - **BaFin:** Finanzprodukte, BNPL-Features, Zahlungsdienste
 - **BZAW/Wettbewerbs-Verbände:** UWG-Abmahnungen; vgl. Abmahnstatistik UWG-Forum
 - **EU-Kommission:** DSA-Durchsetzung (VLOP-Status), DMA-Gatekeeper-Compliance
-- **EUAI-Behörde (AI Office):** KI-VO-Vollzug ab 2025/2026
+- **Zuständige Stelle:** Aufgaben des KI-Büros bei GPAI und Artikel 75 von nationaler Marktüberwachung nach Artikel 74 und sektoraler Produktaufsicht unterscheiden. Für das konkrete Produkt den geltenden Zuständigkeitsweg belegen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ### 4. Präzedenz (falls vorhanden)
 
 Hat ein anderes Unternehmen etwas Ähnliches gemacht? Was passierte?
 
 **Relevante Präzedenzfälle im deutschen Produktrecht:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Vorrang nicht überschätzen. Regulierungsbehörden ändern Prioritäten; dass ein Unternehmen damit durchgekommen ist bedeutet nicht dass das nächste es auch tut.
 
@@ -135,7 +134,6 @@ Vor der Fertigstellung gegen `~/.claude/plugins/config/claude-fuer-deutsches-rec
 
 Prüfen:
 - Könnte das Feature Verbraucher über wesentliche Merkmale irren? (§ 5 UWG)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Werden wesentliche Informationen verschwiegen? (§ 5a UWG)
 - Werden Verbraucher unzumutbar belästigt? (§ 7 UWG: unerwünschte E-Mail, Telefonwerbung, Push-Nachrichten)
 - Vergleichende Werbung: objektiv, kein Anschwärzen, Vergleich wesentlicher Merkmale? (§ 6 UWG)
@@ -184,7 +182,7 @@ Prüfen:
 - AGB-Klauseln: Einbeziehungsanforderungen (§§ 305, 305c BGB), überraschende Klauseln, Inhaltskontrolle (§§ 307–309 BGB)
 - Fernabsatz: Widerrufsrecht (§§ 312g, 355 BGB), Widerrufsbelehrung (Muster-Widerrufsformular)
 - Verbraucherverträge: wesentliche Informationen (Art. 246a EGBGB), Buttonlösung (§ 312j BGB)
- - **Button-Beschriftung isoliert prüfen** — maßgeblich sind nur die Worte auf dem Button, nicht Kontext oder Begleitumstände (EuGH C-249/21 "Fuhrmann-2"). Verstoß = endgültige Unwirksamkeit (§ 312j Abs. 4 BGB) plus Rückabwicklung nach § 812 BGB; gilt branchenübergreifend, auch für regulierte Bereiche wie Online-Glücksspiel (LG Aachen, Urteil vom 27.05.2026, 10 O 306/25 – "Wette abgeben" unzureichend; Quelle: Pressehinweis Gamesright/rightmart, 28.05.2026, Volltext bei Aufnahme noch nicht veröffentlicht).
+ - **Button-Beschriftung isoliert prüfen** — maßgeblich sind nur die Worte auf dem Button, nicht Kontext oder Begleitumstände (EuGH, Urteil vom 7. April 2022, C-249/21, Fuhrmann-2). Verstoß und Rechtsfolge anhand BGB Paragraf 312j Absatz 3 und 4 sowie der konkreten Bestellstrecke prüfen. Nicht amtlich veröffentlichte Presseberichte zu Einzelfallurteilen sind kein Rechtsprechungsanker.
 - Gewährleistung: § 434 BGB (Produktmangel, Übereinstimmung mit öffentlichen Äußerungen inkl. Werbeaussagen)
 
 ## Übergaben
@@ -199,7 +197,6 @@ Prüfen:
 
 **Pflicht-Beispielzitate für häufige Konstellationen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Köhler, in: Köhler/Bornkamm/Feddersen UWG, 42. Aufl. 2024, § 5 Rn. 1.50 ff.
 
 ## Zitierprüfung
@@ -216,8 +213,5 @@ Wenn die Bewertung Fälle, Normen, Verordnungen oder Vollzugsmaßnahmen zitiert 
 
 ---
 
-<!-- AUDIT 27.05.2026
-Problem : BGH VI ZR 721/15 ("Nutzerdaten") – Zitatfehler (WRONG_TOPIC). Das Urteil behandelt unzulässige E-Mail-Werbung / § 7 UWG, nicht Datenhaftung bei Plattform-Nutzerdaten (dejure.org/2017,9951). Eintrag ersatzlos gelöscht.
-Quelle : https://dejure.org/2017,9951
-Aktion : Zeile entfernt
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

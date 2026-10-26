@@ -1,6 +1,6 @@
 ---
 name: gesellschaftsvertrag-gmbh
-description: "Wenn es um GmbH-Gesellschaftsvertrag (Satzung) in gesellschaftsgründer — Gründungsassistent für deutsche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für GmbH-Gesellschaftsvertrag (Satzung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # GmbH-Gesellschaftsvertrag (Satzung)
@@ -20,7 +20,6 @@ GmbH-Gesellschaftsvertrag aufsetzen: Mindestinhalt, Stammkapital, Beschlussfassu
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `GmbH-Gesellschaftsvertrag (Satzung)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -41,7 +40,7 @@ GmbH-Gesellschaftsvertrag aufsetzen: Mindestinhalt, Stammkapital, Beschlussfassu
 - **Paragraf 15 Abs. 5 GmbHG** — Vinkulierung: Anteilsübertragung nur mit Gesellschafterzustimmung (Satzungsregelung erforderlich).
 - **Paragraf 34 GmbHG** — Einziehung von Geschäftsanteilen; Grundlage für Vesting-Leaver-Mechanismus.
 - **Paragraf 47 GmbHG** — Stimmrecht; 1 EUR = 1 Stimme Standard; Abweichungen möglich.
-- **Paragraf 53 Abs. 2 GmbHG** — Satzungsänderung: 75-%-Mehrheit; notarielle Beurkundung.
+- **Paragraf 53 Absatz 2 und 3 GmbHG** — Satzungsänderung: Dreiviertelmehrheit nach Absatz 2, notarielle Beurkundung nach Absatz 3.
 - **Paragraf 181 BGB** — Selbstkontrahierungsverbot; Befreiung in Satzung möglich und üblich.
 
 ## Aktuelle Rechtsprechung

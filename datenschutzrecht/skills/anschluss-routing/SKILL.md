@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Datenschutzrecht."
 ---
 
 # Anschluss-Routing
@@ -15,7 +15,7 @@ Dieses Anschluss-Routing für **Datenschutzrecht** wählt nach dem ersten Ergebn
 - `einstieg-schnelltriage-fallrouting` — Anschluss
 - `anwendungsfall-triage` — Anwendungsfall Triage
 - `art-9-besondere-kategorien` — ART 9 Besondere Kategorien
-- `dsv-art-9-besondere-kategorien` — ART Besondere Aufnahme Statusinformation
+- `art-9-besondere-kategorien` — Besondere Kategorien Art. 9 DSGVO im Datenschutzvorfall
 - `aufnahme-statusinformation` — Aufnahme Statusinformation
 - `auskunft-behoerden-gerichts-registerweg` — Auskunft Behoerden Gerichts Registerweg
 - `avv-art-26-joint-controllership-deutsch` — AVV ART 26 Joint Controllership Deutsch
@@ -40,32 +40,3 @@ Dieses Anschluss-Routing für **Datenschutzrecht** wählt nach dem ersten Ergebn
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 DSGVO (Grundsätze der Verarbeitung)
-- Art. 6, 9 DSGVO (Rechtsgrundlagen, besondere Datenkategorien)
-- Art. 13, 14 DSGVO (Informationspflichten)
-- Art. 15 DSGVO (Auskunftsrecht)
-- Art. 28 DSGVO (Auftragsverarbeitung)
-- Art. 32 DSGVO (Sicherheit der Verarbeitung)
-- Art. 33, 34 DSGVO (Meldepflichten bei Verletzung)
-- Art. 82 DSGVO (Schadensersatz)
-- Art. 83 DSGVO (Bußgelder)
-- §§ 4, 20, 41 BDSG (Aufsicht, Rechtsweg, Strafvorschriften)
-
-### Leitentscheidungen
-
-- EuGH C-300/21 (immaterieller Schaden Art. 82 DSGVO)
-- EuGH C-634/21 (automatisierte Bonitätsbewertung Schufa)
-- EuGH C-26/22 (Datenschutzbehörden-Befugnisse)
-- EuGH C-807/21 (Bußgeldhaftung juristischer Personen)
-- BVerfG 1 BvR 16/13 (Recht auf Vergessen I)
-
-### Anwendung im Skill
-
-- Rechtsgrundlage nach Art. 6 DSGVO sauber waehlen; berechtigte Interessen nach Art. 6 Abs. 1 lit. f DSGVO mit dokumentierter Abwaegung.
-- Bei Datenpannen die 72-Stunden-Frist nach Art. 33 DSGVO einhalten; Risikoabwaegung Art. 34 DSGVO separat dokumentieren.
-- Auskunftsanspruch Art. 15 DSGVO nicht mit Kopie nach Art. 15 Abs. 3 DSGVO verwechseln; EuGH C-307/22 Reichweite beachten.

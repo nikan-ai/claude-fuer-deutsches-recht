@@ -1,6 +1,6 @@
 ---
 name: handelsvertreterausgleich-international-schnittstellen
-description: "Wenn es um Handelsvertreterausgleich International Schnittstellen in Fachanwalt Handels- und Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Handelsvertreterausgleich International Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Handelsvertreterausgleich: Internationaler Bezug und Schnittstellen im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenradar (HGB/GmbHG/AktG/UmwG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
@@ -20,8 +20,6 @@ description: "Wenn es um Handelsvertreterausgleich International Schnittstellen 
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Handelsvertreterausgleich: Internationaler Bezug und Schnittstellen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -44,3 +42,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Berechnung:** Höchstbetrag § 89b Abs. 2 HGB eine durchschnittliche Jahresprovision der letzten 5 Jahre (oder kürzere Vertragsdauer); BGH-Drei-Stufen-Methode: Rohausgleich = Provisionsumsatz mit Neukunden × Mehrjahresfaktor (Abschmelzung über Prognosezeitraum, meist 3-5 Jahre) × Abzug Beitragsleistung; Billigkeitskorrektur; Cap der Höchstbetrag.
 4. **Internationaler Bezug:** Handelsvertreterrichtlinie 86/653/EWG zwingender Schutz für Handelsvertreter mit Tätigkeitsschwerpunkt in EU; EuGH (Ingmar 2000): Ausschluss in Rechtswahlklauseln drittstaatlicher Unternehmer unwirksam, wenn Tätigkeit im EU-Markt erfolgt; bei Schiedsklauseln: zwingende Vorschrift, Schiedsgericht kann § 89b HGB nicht ausschließen (Eingriffsnorm Art. 9 Rom I).
 5. **Schnittstellen:** Vertragsbeendigung Aufhebungsvertrag mit Pauschalausgleich oft günstiger als Streit; Verträgliche Ausgleichsregelung im Voraus unwirksam § 89b Abs. 4 Satz 1 HGB; Kfz-Handelsvertretung Sonderfall BGH ständige Rechtsprechung (Restwertberechnung, Kundenstamm bei Vertragsende); Vertragshändler/Franchisenehmer analoge Anwendung bei vergleichbarem Eingliederungsgrad.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-handelsvertreterausgleich-international-schnittstellen` beziehungsweise Handelsvertreterausgleich: Internationaler Bezug und Schnittstellen: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-handelsvertreterausgleich-international-schnittstellen.md).

@@ -1,6 +1,6 @@
 ---
 name: handelsregisterabruf
-description: "Wenn es um Handelsregisterabruf in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Handelsregisterabruf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck. Fachgebiet: Kanzlei-Allgemein."
 ---
 
 # Handelsregisterabruf
@@ -18,9 +18,6 @@ description: "Wenn es um Handelsregisterabruf in Kanzlei-Allgemein geht: prüft 
 2. Ist der Eintrag beim Handelsregister aktuell (letzter Abruf-Zeitstempel noetig für Nachweis)?
 3. Gibt es Verdachtsmomente für Sitzverlegung, Geschäftsführeraenderung oder Insolvenzen?
 4. Ist eine Gesellschafterliste (GmbH) oder Prokura-Eintragung relevant?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 15 HGB — Registerpublizitaet: Eintragungen und deren Wirkung
@@ -113,3 +110,4 @@ Für Rechnung und Buchhaltung:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: aussenwirtschaft-vub-einfuhr-ausfuhr
-description: "Wenn es um Verbote und Beschränkungen bei Ein- und Ausfuhr in Außenwirtschaft, Sanktionen, Zoll und CBAM geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verbote und Beschränkungen bei Ein- und Ausfuhr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verbote und Beschränkungen bei Ein- und Ausfuhr
@@ -60,10 +60,6 @@ Kläre vor der Pruefung:
 4. Welche Waren-/Ursprungspruefung soll abgesichert werden — Praeferenz, Antidumping, Einfuhrpolitik?
 5. Gibt es zeitliche Dringlichkeit durch anstehende Lieferungen oder laufende Zollanmeldungen?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette VUB/Einfuhr-Ausfuhr
 
 - Art. 33-34 UZK — Verbindliche Zolltarifauskunft (vZTA), Gueltigkeit 3 Jahre
@@ -112,3 +108,5 @@ Art des Antrags: [ ] vZTA / [ ] vUA
    Einspruch bei ausstellender Behoerde: Frist [DATUM]
    Klage: FG [STANDORT], Frist nach Einspruchsentscheidung
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

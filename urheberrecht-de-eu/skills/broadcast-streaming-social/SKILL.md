@@ -1,6 +1,6 @@
 ---
 name: broadcast-streaming-social
-description: "Wenn es um Streaming, Broadcast und Social Media in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Streaming, Broadcast und Social Media: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Streaming, Broadcast und Social Media
@@ -20,7 +20,7 @@ description: "Wenn es um Streaming, Broadcast und Social Media in Urheberrecht D
 
 ## Wofür dieser Arbeitsgang da ist
 
-Streaming, Broadcast und Social Media schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Ordne die konkrete Nutzung durch Streaming, Rundfunk oder soziale Medien ein und prüfe den Lizenzbedarf. Stütze das gewünschte Arbeitsergebnis auf Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise.
 
 ## Sofortstart
 

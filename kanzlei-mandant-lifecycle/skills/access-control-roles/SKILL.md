@@ -1,6 +1,6 @@
 ---
 name: access-control-roles
-description: "Wenn es um Access Control Roles in Kanzlei-Mandant Lifecycle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Access Control Roles: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Access Control Roles
@@ -54,15 +54,3 @@ Vor tragenden Aussagen live prüfen: amtliche Normfassung, zuständige Behörde/
 - RVG § 3a: https://www.gesetze-im-internet.de/rvg/__3a.html
 - BRAO § 43e: https://www.gesetze-im-internet.de/brao/__43e.html
 - BRAO § 49b: https://www.gesetze-im-internet.de/brao/__49b.html
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 203 StGB
-- § 3a RVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

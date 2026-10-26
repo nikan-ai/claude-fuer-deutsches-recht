@@ -1,6 +1,6 @@
 ---
 name: aussenwirtschaft-zolltarif-vzta
-description: "Wenn es um Zolltarif, TARIC und vZTA in Außenwirtschaft, Sanktionen, Zoll und CBAM geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zolltarif, TARIC und vZTA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zolltarif, TARIC und vZTA
@@ -60,10 +60,6 @@ Kläre vor der Tarifierung:
 4. Sind Antidumping- oder Ausgleichsmassnahmen fuer die fragliche KN-Position bekannt?
 5. Gibt es Abweichungen zwischen EU-KN und HS-Nomenklatur auf 6-Steller-Ebene (WTO-Einheitlichkeit)?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette Zolltarif/vZTA
 
 - Art. 33, 34 UZK — Verbindliche Zolltarifauskunft (vZTA), Gueltigkeit 3 Jahre
@@ -107,6 +103,4 @@ Bearbeiter: [NAME]
    Empfehlung: [vZTA / interne Dokumentation / Anwaltliches Opinion Letter]
 ```
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 014:
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

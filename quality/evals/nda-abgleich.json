@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "plugin": "nda-abgleich",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-172-23/",
+      "checked_on": "2026-09-22",
+      "supports": "Schutzmaßnahmen konkret darlegen; umfassende zeitlich unbegrenzte nachvertragliche Mitarbeiter-Schweigepflicht nicht ungeprüft übernehmen. Arbeitsvertragliche Klauselkontrolle; kein generelles Verbot langfristiger Unternehmens-NDAs. Vertraglicher Schutz kann über den gesetzlichen Geheimnisbegriff hinausreichen."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-172-23/",
+      "checked_on": "2026-09-23",
+      "supports": "Amtliche Gründe Randnummern 25 bis 27 und 31 bis 39 erneut gelesen; Schutzmaßnahmen und arbeitsvertragliche Catch-all-Grenze unverändert, keine allgemeine Übertragung auf Unternehmens-NDAs."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/geschgehg/__3.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Normtext: Untersuchung, Rückbau und Tests samt Voraussetzungen mit der konkreten Nutzungsabrede abgleichen; keine pauschale Freigabe technischer Nutzung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Erneuter vollständiger Desk Review am 23. September 2026: NDA-spezifische Startmodi und Klauselfortsetzung ergänzt, bestehende Normen und Rechtsprechungsgrenzen bewahrt. Kein Live-Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Nutzungsabrede und Mitarbeiter-NDA-Grenze früh eingebracht; Standardabgleich bleibt gezielte Änderung.",
+    "changes": [
+      "Sachfremde Vertriebs-, Rücktritts- und Prozessnormen entfernt; NDA-spezifische Nutzungs- und Schutzregeln eingeordnet.",
+      "Arbeitsrechtlichen Geheimhaltungsanker mit Grenze zum Unternehmens-NDA belegt; gezielte Änderung und Archivkopienfall erhalten.",
+      "Vergleichsroute bei leerem Einstieg und stille Sichtung bei Dateien; Berater- und Backupantwort am vorhandenen Entwurf umgesetzt.",
+      "Redaktion 16.10.2026: Nutzungsabrede und Mitarbeiter-NDA-Grenze früh eingebracht; Standardabgleich bleibt gezielte Änderung. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "fc88c49c185db121e5adc38e5b651b4d81314aaddc3cea1fa9ff79e2407f2004"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständiger individueller Desk Review mit vertieftem Bedeutungsvergleich, versteckten Definitionsabweichungen und umsetzbaren Klauselentscheidungen; keine technische DOCX- oder Mandatsausführung. Redaktionelle Einstiegslektüre am 16.10.2026: Nutzungsabrede und Mitarbeiter-NDA-Grenze früh eingebracht; Standardabgleich bleibt gezielte Änderung.",
+    "changes": [
+      "Sachfremde Vertriebs-, Rücktritts- und Prozessnormen entfernt; NDA-spezifische Nutzungs- und Schutzregeln eingeordnet.",
+      "Arbeitsrechtlichen Geheimhaltungsanker mit Grenze zum Unternehmens-NDA belegt; gezielte Änderung und Archivkopienfall erhalten.",
+      "Sollvergleich gegenüber Versionsvergleich, Anlagenrangfolge, uneinheitliche Altstandards und gegenläufige Zugriffsinteressen ergänzt.",
+      "Technische Tests, Erinnerungswissen, wiederhergestellte Backups und gestufte Vorfallinformation als konkrete Klauselentscheidungen mit Abschlusskriterium ausgestaltet.",
+      "Redaktion 16.10.2026: Nutzungsabrede und Mitarbeiter-NDA-Grenze früh eingebracht; Standardabgleich bleibt gezielte Änderung. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "3a41c77cc90d635e786e051d971688a55da4effaaaab9e7d67ba1f948a98433d"
+  },
+  "selection": {
+    "positive": [
+      "Vergleichen Sie die Rückgabeklausel unseres Standards mit dem Fremdentwurf und ändern Sie nur die Abweichung.",
+      "Erstellen Sie eine Ampelmatrix zu Geheimhaltungsdauer und erlaubten Empfängern in zwei NDA-Fassungen."
+    ],
+    "negative": [
+      "Entwerfen Sie erstmals einen NDA ohne Standard und ohne Fremdfassung.",
+      "Prüfen Sie die Beweisbarkeit eines bereits erfolgten Geheimnisverrats ohne Vertragsvergleich."
+    ]
+  },
+  "cases": [
+    {
+      "id": "archivkopie-zweckbindung",
+      "request": "Erstellen Sie ergebnis.md mit Vergleichsmatrix und gezielter Ersatzklausel, kein DOCX. Wir sind Informationsempfänger. Unser Standard erlaubt eine automatisch erstellte, nicht operativ zugängliche Sicherungskopie nach Rückgabe; Zweckbindung und Geheimhaltung gelten dafür fort. Das ist eine feste Haltelinie. Der Fremdentwurf lautet vollständig für diesen Punkt: Nach Ende der Gespräche löscht der Empfänger sämtliche Informationen einschließlich jeder Sicherungskopie binnen 24 Stunden. Beide Fassungen regeln ansonsten gleichwertig eine Geheimhaltung von fünf Jahren. Eine allgemeine Nutzungsfreiheit archivierter Informationen ist nicht gewünscht. Andere Vertragsteile sollen nicht geändert werden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die ausnahmslose Sicherungskopienlöschung wird als konkrete Haltelinienabweichung erkannt und nicht lediglich die Frist beanstandet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Ersatzklausel erlaubt nur die beschriebene nicht operativ zugängliche Sicherungskopie und hält Zweckbindung sowie Geheimhaltung aufrecht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die gleichwertige Fünfjahresregel bleibt unverändert; weder zusätzliche Vertragsstrafe noch angebliche DOCX-Revisionen werden ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "nda-vergleichsmatrix-leitfaden"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "nda-abgleich/nda-abgleich-werkstatt.md",
+      "nda-abgleich/nda-abgleich-schnellstart.md"
+    ],
+    "opening_change": "NDA-Abgleich mit konkreten Schutzgegenständen und fortbestehenden Pflichten statt bloßem Verweis auf Standardpositionen.",
+    "norms": [
+      "Paragrafen 133, 157, 305b, 307 und 310 BGB",
+      "Paragrafen 2, 3 und 5 GeschGehG",
+      "Paragrafen 6, 7 und 33 HinSchG"
+    ],
+    "decisions": [
+      {
+        "citation": "BAG, Urteil vom 17. Oktober 2024, 8 AZR 172/23, Randnummern 25 bis 27 und 31 bis 39",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-172-23/",
+        "application": "Schutzmaßnahmen konkret darlegen; umfassende zeitlich unbegrenzte nachvertragliche Mitarbeiter-Schweigepflicht nicht ungeprüft übernehmen.",
+        "limit": "Arbeitsvertragliche Klauselkontrolle; kein generelles Verbot langfristiger Unternehmens-NDAs. Vertraglicher Schutz kann über den gesetzlichen Geheimnisbegriff hinausreichen."
+      }
+    ],
+    "remaining_limits": [
+      "Keine Live-Modellprüfung oder technische Exportprüfung durchgeführt; fallbezogene weitere Rechtsprechung bleibt zu prüfen.",
+      "Workflow-Nachprüfung 2026-09-23: bestehende BAG-Quelle in den einschlägigen Gründen erneut gelesen; Paragrafen 2 und 3 GeschGehG geöffnet, Paragraf 2 direkt amtlich abgerufen. Keine neuen Entscheidungen, keine umfassende Auslandsrechts-, Kartellrechts- oder Exportprüfung. Vorstehender Quellenreview vom 2026-09-22 bleibt als historischer Prüfstand erhalten."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Hausstandardabgleich, Verhandlungsfassungsvergleich oder einzelne Haltelinie wählen.",
+      "Nur Dateien: Fassungen still lesen und nur Vergleichsrichtung sowie gewünschte Änderungsdarstellung klären.",
+      "Klarer Auftrag: Bedeutungsvergleich und kleinste notwendige Klauseländerung direkt liefern."
+    ],
+    "continuation": "Freigabe nur des Steuerberaters ändert Empfängerdefinition und Weitergabesatz im vorhandenen nda-redline.docx sowie dieselbe Vergleichszeile; Backupantwort ändert die Löschungsausnahme bei erhaltener Zweckbindung.",
+    "enrichment": "Versionsherkunft, Definitions- und Anlagenkonflikte, Standardableitung, Transaktionsempfänger, Tests und Erinnerungswissen, Rückgabe nach Wiederherstellung und nachweisbare Änderungsfassung.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "nda-abgleich/references/ki-normen-und-fallpruefung.md",
+    "focus": "Prüfen Sie, welche technische Information für Kontrolle, Auskunft oder Behördenprüfung gebraucht wird. Eine Geheimhaltungsklausel muss notwendige gesetzliche Offenlegungen zulassen, ohne unnötig Modell- oder Kundendaten offenzulegen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

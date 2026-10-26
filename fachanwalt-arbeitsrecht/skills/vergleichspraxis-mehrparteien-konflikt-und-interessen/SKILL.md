@@ -1,6 +1,6 @@
 ---
 name: vergleichspraxis-mehrparteien-konflikt-und-interessen
-description: "Wenn es um Vergleichspraxis Mehrparteien Konflikt Und Interessen in Fachanwalt Arbeitsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vergleichspraxis Mehrparteien Konflikt und Interessen: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Vergleichspraxis bei Mehrparteienkonstellationen und komplexen Interessenlagen: Dreiparteienvergleich (AG, AN, BR), Sozialplanverhandlung, Interessenausgleich Paragraf 111 BetrVG, Vergleich mit Namensliste Paragraf 1 Abs
@@ -20,8 +20,6 @@ description: "Wenn es um Vergleichspraxis Mehrparteien Konflikt Und Interessen i
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Spezial: Vergleichspraxis — Mehrparteien, Konflikt und Interessen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -88,14 +86,14 @@ In einem Interessenausgleich können die zu entlassenden Arbeitnehmer namentlich
 4. Angebot von Abfindungsprogrammen (freiwillig vor Kündigung) zur Reduzierung der Klagewelle
 
 ### Für den Arbeitnehmer
-1. Sozialplanprämi als Mindestanspruch prüfen; darüber hinaus individuelle Verhandlung
+1. Sozialplanprämie als Mindestanspruch prüfen; darüber hinaus individuelle Verhandlung
 2. Klagefrist wahren; Klage als Verhandlungspfand nutzen
 3. Namensliste bestreiten wenn Sozialauswahlbegründung grob fehlerhaft
 4. Abfindung aus Sozialplan und individueller Verhandlung kombinieren möglich?
 
 ## Komplexe Interessen — Matrix
 
-| Partei | Interesse | Verhandlungshebelwerk |
+| Partei | Interesse | Verhandlungsmittel |
 |---|---|---|
 | Arbeitgeber | Schnelle Abwicklung, Planungssicherheit, geringe Kosten | Schnelles Verfahrensende; Abfindung als Gesamtpaket |
 | Arbeitnehmer | Maximale Abfindung, gutes Zeugnis, Sperrzeit-Vermeidung | Klagefrist als Verhandlungsdruck; BR-Einwand als Zusatzhebel |
@@ -110,3 +108,7 @@ In einem Interessenausgleich können die zu entlassenden Arbeitnehmer namentlich
 ## Was dieser Arbeitsgang nicht macht
 - Keine automatische Sozialplanberechnung ohne konkrete Belegschaftsdaten.
 - Keine Verhandlungsführung; Strategie-Entscheidung bleibt beim Anwalt.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-vergleichspraxis-mehrparteien-konflikt-und-interessen` beziehungsweise Vergleichspraxis: Mehrparteienkonflikt und Interessenmatrix: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-vergleichspraxis-mehrparteien-konflikt-und-interessen.md).

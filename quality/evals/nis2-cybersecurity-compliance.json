@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "plugin": "nis2-cybersecurity-compliance",
+  "reviewed_on": "2026-10-02",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__32.html",
+      "checked_on": "2026-10-16",
+      "supports": "Amtlicher Normtext gelesen: 24/72 Stunden ab Kenntnis eines erheblichen Sicherheitsvorfalls; Monatsfrist ab Meldung nach Absatz 1 Nummer 2; laufender Vorfall nach Absatz 2 getrennt. Keine Vollprüfung von Betroffenheit, Erheblichkeit und parallelen Meldepflichten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__32.html",
+      "checked_on": "2026-09-14",
+      "supports": "Meldekaskade und unterschiedliche zeitliche Anknüpfungen."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62021CJ0340",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 14. Dezember 2023, C-340/21, Natsionalna agentsia za prihodite, Randnummern 30 bis 47 und 57. Anwendung: Datenabfluss beweist nicht automatisch unzureichende Sicherheit; konkrete Maßnahmen und Umsetzung prüfen, Nachweislast des Verantwortlichen im Artikel-82-Verfahren beachten. Grenze: DSGVO-Urteil, keine unmittelbare Auslegung von BSIG-Sektoren oder NIS-2-Meldezeiten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__28.html",
+      "checked_on": "2026-09-22",
+      "supports": "Sektorale Abgrenzung und Ausnahmen in Absätzen 5 bis 7."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__30.html",
+      "checked_on": "2026-09-22",
+      "supports": "Risikomanagementmaßnahmen nach Risiko, Verhältnismäßigkeit und tatsächlicher Umsetzung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__32.html",
+      "checked_on": "2026-09-22",
+      "supports": "Gestufte Meldung mit Frühwarnung, Vorfallmeldung und Abschlussbericht; laufende Vorfälle gesondert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__32.html",
+      "checked_on": "2026-09-23",
+      "supports": "Nach Browserfehler direkter amtlicher Volltextabruf: Inhalte der Erst- und Folgemeldung, Monatsfrist ab tatsächlicher Übermittlung der Folgemeldung und Fortschrittsmeldung bei laufendem Vorfall."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__30.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Volltext direkt erneut gelesen: geeignete, verhältnismäßige, wirksame und dokumentierte Maßnahmen; keine Gleichsetzung von Konzept, Beschaffung und tatsächlicher Wirksamkeit."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bsig_2025/__28.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext erneut geöffnet: Betreiber, Tätigkeiten, Gruppenangaben und Umfang der sektoralen Ausnahmen als Weichen im Mischbetrieb."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig erneut im Desk Review gelesen: Betroffenheit, Meldung und Leitungsbericht als konkrete Einstiege; frühere Kenntnis und begrenzter Wiederherstellungstest ändern die betroffenen Dokumente. Kein Live-Modelltest. Ergänzung 2. Oktober 2026: Agentenspezifische Angriffsketten, weiterlaufende Unteraufträge und sichere Wiederaufnahme ergänzt; aktuelles BSIG und gestaffelte CRA-Anwendung statt veralteter Pauschalverweise. Redaktionelle Prüfung, kein Live-Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Betroffenheit, Maßnahmen und Meldung früh getrennt; Datenschutzanker nur für Sicherheitsbewertung.",
+    "changes": [
+      "Paragraf 28 Absätze 5 bis 7 BSIG als sektorale Weichen ergänzt.",
+      "C-340/21 auf risikogerechte Maßnahmen und deren tatsächliche Umsetzung begrenzt.",
+      "Stille Unterlagensichtung, sofortige Bearbeitung klarer Meldeaufträge und pfadbezogene Fortsetzung ohne vorausgesetzten Systemzugriff ergänzt.",
+      "Redaktion 16.10.2026: Betroffenheit, Maßnahmen und Meldung früh getrennt; Datenschutzanker nur für Sicherheitsbewertung. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "904a4fcc89d1d23d2a071b0f431f4ef5eeb72c21cd2acdae8762ea5f55ab10c9"
+  },
+  "selection": {
+    "positive": [
+      "Erstellen Sie den Erstmeldeentwurf zu unserem erheblichen Sicherheitsvorfall.",
+      "Ordnen Sie Nachweise und Verantwortliche für unser NIS-2-Maßnahmenprogramm."
+    ],
+    "negative": [
+      "Prüfen Sie nur eine private Phishing-SMS ohne Unternehmensvorfall.",
+      "Erstellen Sie ausschließlich eine Datenschutzauskunft ohne Cybersicherheitsbezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "agenten-digitalrecht-2026",
+      "request": "Ein Lieferanten-PDF hat einen Agenten zur Weiterleitung von Kundendaten an eine fremde Adresse veranlasst. Der Hauptprozess wurde gestoppt, drei Unteraufträge laufen weiter. Der Übertragungserfolg ist ungeklärt. Die Leitung fordert sofortige Löschung aller Protokolle und eine Wiederholung der letzten Zahlung. Entwerfen Sie eine begrenzte Eindämmungsanweisung und einen Meldevermerk; Unternehmensgröße, Betroffenheit nach BSIG und Produktrolle sind noch offen.",
+      "target_skill": "ki-tools-shadow-it",
+      "input_files": [],
+      "deliverables": [
+        "Eindaemmungsanweisung.docx",
+        "Meldevermerk.docx"
+      ],
+      "criteria": [
+        {
+          "id": "pruefpunkt-1",
+          "text": "Behandelt fremden Dokumentinhalt nicht als autorisierte Weisung und bezieht Unteraufträge, Zugangsschlüssel und Beweissicherung ein; unbekannter Erfolg gilt nicht als abgewehrt.",
+          "deliverables": [
+            "Eindaemmungsanweisung.docx",
+            "Meldevermerk.docx"
+          ]
+        },
+        {
+          "id": "pruefpunkt-2",
+          "text": "Prüft BSIG-Betroffenheit und konkrete Meldetatbestände statt pauschaler Meldung; trennt 24/72 Stunden und Abschlussbericht sowie Datenschutz und CRA.",
+          "deliverables": [
+            "Eindaemmungsanweisung.docx",
+            "Meldevermerk.docx"
+          ]
+        },
+        {
+          "id": "pruefpunkt-3",
+          "text": "Verhindert unkontrollierte Zahlungswiederholung, verlangt belegten Wiederanlauftest und behauptet keine tatsächlich ausgeführte Sperrung oder Meldung.",
+          "deliverables": [
+            "Eindaemmungsanweisung.docx",
+            "Meldevermerk.docx"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenntnis-montagmorgen",
+      "request": "Erstellen Sie ergebnis.md als Fristenblatt und frühe Erstmeldung. Eine nach BSIG wichtige deutsche Einrichtung hat am 14.09.2026 um 08:00 Uhr Berliner Zeit nach dokumentierter interner Prüfung Kenntnis von einem erheblichen Sicherheitsvorfall. Meldeweg besteht; keine sektorale Sonderregel ist betroffen. Seit 06:30 Uhr ist ihr Kundendienstportal ausgefallen, 1200 Kunden sind betroffen. Um 09:00 Uhr werden betroffene Server isoliert. Ursache und Datenabfluss sind unbekannt. Bearbeitungsstand ist 10:00 Uhr desselben Tages. Es wurde noch keine Meldung versandt; die technische Behebung läuft.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Höchsttermine werden ab 08:00 Uhr Kenntnis auf 15.09.2026 08:00 Uhr und 17.09.2026 08:00 Uhr bezogen; unverzügliches Handeln bleibt maßgeblich.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Unbekannte Ursache und Exfiltration werden nicht erfunden und blockieren den Erstmeldeentwurf nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Abschlussbericht wird nicht pauschal einen Monat ab Angriff terminiert; Entwurf und tatsächliche Meldung bleiben getrennt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "bsi-meldestelle-formular"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständiger erneuter Desk Review mit individuellen Verzweigungen für Mischbetrieb, Kenntnisbeleg, Meldestufe und Sicherheitsnachweis; bestehende DSGVO-Grenzen erhalten. Keine System-, Portal- oder Mandatsausführung. Ergänzung 2. Oktober 2026: Agentenspezifische Angriffsketten, weiterlaufende Unteraufträge und sichere Wiederaufnahme ergänzt; aktuelles BSIG und gestaffelte CRA-Anwendung statt veralteter Pauschalverweise. Redaktionelle Prüfung, kein Live-Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Betroffenheit, Maßnahmen und Meldung früh getrennt; Datenschutzanker nur für Sicherheitsbewertung.",
+    "changes": [
+      "Paragraf 28 Absätze 5 bis 7 BSIG als sektorale Weichen ergänzt.",
+      "C-340/21 auf risikogerechte Maßnahmen und deren tatsächliche Umsetzung begrenzt.",
+      "Mischbetriebe, widersprechende Kenntnistickets und tatsächliche Übermittlung als Fristauslöser konkretisiert.",
+      "Meldestufeninhalt, MFA-Ausnahmen, befristete Abhilfeentscheidung und Datenbank-Restore gegenüber vollständigem Dienstwiederanlauf ergänzt.",
+      "Redaktion 16.10.2026: Betroffenheit, Maßnahmen und Meldung früh getrennt; Datenschutzanker nur für Sicherheitsbewertung. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "64a55959e084caab012da6e716606a1d3672fcefe56d2c8dfb64ccff2535e191"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "nis2-cybersecurity-compliance/README.md",
+      "nis2-cybersecurity-compliance/nis2-cybersecurity-compliance-werkstatt.md",
+      "nis2-cybersecurity-compliance/nis2-cybersecurity-compliance-schnellstart.md",
+      "quality/evals/nis2-cybersecurity-compliance.json"
+    ],
+    "opening_change": "Betroffene Einrichtung, Kenntniszeit und konkrete Cyber-Meldung oder Sicherheitslücke bestimmen.",
+    "norms": [
+      "Paragrafen 28, 30 und 32 BSIG",
+      "Artikel 24, 32 und 82 DSGVO"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 14. Dezember 2023, C-340/21, Natsionalna agentsia za prihodite, Randnummern 30 bis 47 und 57",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62021CJ0340",
+        "application": "Datenabfluss beweist nicht automatisch unzureichende Sicherheit; konkrete Maßnahmen und Umsetzung prüfen, Nachweislast des Verantwortlichen im Artikel-82-Verfahren beachten.",
+        "limit": "DSGVO-Urteil, keine unmittelbare Auslegung von BSIG-Sektoren oder NIS-2-Meldezeiten."
+      }
+    ],
+    "remaining_limits": [
+      "DSGVO-Rechtsprechung entscheidet keine NIS-2-Meldefrist; technische Wirksamkeit, Sektorzugehörigkeit und Spezialregime bleiben fallbezogen.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Nachprüfung 2026-09-23: alle bisherigen Profilquellen erneut geöffnet; BSIG 30 und 32 nach Browserfehler direkt amtlich gelesen, einschlägige EuGH-Passagen erneut eingesehen. Kein neues NIS-2-Urteil, keine Vollprüfung sämtlicher sektoraler Vorschriften, technischen Wirksamkeitsnachweise oder Meldeportale. Quellenreview vom 2026-09-22 bleibt als Vorbefund erhalten."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: BSIG-Betroffenheit, Vorfallmeldung oder Maßnahmen und Leitungsentscheidung wählen.",
+      "Nur Dateien: Dienstbeschreibung, Ticket und Nachweise still lesen; nur gewünschtes Dokument klären.",
+      "Klarer Auftrag: unmittelbar am bestellten Ergebnis arbeiten, bei Fristdruck am Meldeentwurf; nur entscheidende Kenntnis- oder Einordnungslücke fragen."
+    ],
+    "continuation": "Früheres Kenntnisticket ändert Chronologie und Fristen in erstmeldung.md; bestätigte Übermittlung korrigiert die Abschlussfrist, begrenzter Restore-Test nur den betroffenen Systemstatus in massnahmenplan.md.",
+    "enrichment": "Mischbetrieb und Sektorausnahmen, konkurrierende Zeitbelege, Inhalt und Fortschreibung der Meldestufen, MFA-Ausnahme und Leitungsvorlage, nachgewiesener Wiederanlauf statt bloßem Backupplan.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "nis2-cybersecurity-compliance/references/ki-normen-und-fallpruefung.md",
+    "focus": "Führen Sie Cybervorfall, Datenschutzverletzung und schwerwiegenden KI-Vorfall in getrennten Prüfspuren. Ein gemeinsamer Zeitstrahl erleichtert den Abgleich, setzt aber die gesetzlichen Voraussetzungen und Empfänger nicht gleich.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

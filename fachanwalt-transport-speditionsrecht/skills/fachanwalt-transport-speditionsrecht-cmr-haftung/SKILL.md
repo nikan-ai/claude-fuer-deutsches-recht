@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-transport-speditionsrecht-cmr-haftung
-description: "Wenn es um CMR-Haftung – Grenzüberschreitender Straßengüterverkehr in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für CMR-Haftung – Grenzüberschreitender Straßengüterverkehr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # CMR-Haftung – Grenzüberschreitender Straßengüterverkehr
@@ -51,8 +51,6 @@ Die CMR ist das international zwingende Einheitsrecht für den grenzüberschreit
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
@@ -127,7 +125,6 @@ Schadenseintritts gehandelt:
 [Konkret: Keine Scans im Umschlaglager [Ort], obwohl eigenes
 Betriebshandbuch Scan-Pflicht vorsieht; kein Nachweis des
 letzten Kontaktpunkts mit der Sendung; keine Stellplatzkon-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Die Haftungsbegrenzung Art. 23 Abs. 3 CMR entfällt.
 
@@ -248,7 +245,6 @@ Hilfsweise Klage auch gegen [C].
 | Gegenargument | Erwiderung |
 |---|---|
 | "CMR ist nicht anwendbar; rein innerdeutscher Vertrag" | CMR gilt kraft Gesetzes wenn Abgangs- und Zielort in verschiedenen CMR-Staaten; vertragliche Ausschlussklausel ist nach Art. 41 CMR unwirksam |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Reklamationsfrist versäumt; Anspruch erloschen" | CMR Art. 30 enthält keine materiell-rechtliche Ausschlussfrist; fehlende Reklamation begründet nur Beweisvermutung zugunsten Frachtführer, kein Anspruchsuntergang |
 | "Unterfrachtführer haftet, nicht wir" | CMR Art. 3: Frachtführer haftet für alle eingesetzten Personen wie für eigenes Handeln; kein Durchgriff auf Unterfrachtführer durch Auftraggeber erforderlich |
 | "Schaden entstand durch Ware selbst (Eigenmangel)" | Art. 17 Abs. 4 lit. d CMR: Frachtführer muss beweisen, dass typische Schadensgefahr des Gutes ursächlich war; bei gemischter Kausalität anteilige Haftung |
@@ -291,3 +287,5 @@ Hilfsweise Klage auch gegen [C].
 ## Quellen
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

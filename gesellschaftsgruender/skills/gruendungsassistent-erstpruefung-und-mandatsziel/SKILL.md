@@ -1,6 +1,6 @@
 ---
 name: gruendungsassistent-erstpruefung-und-mandatsziel
-description: "Wenn es um Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel in gesellschaftsgründer — Gründungsassistent für deutsche geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gründungsassistent: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
@@ -31,7 +29,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -60,7 +57,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 | Form | Mindestkapital | Gründungskosten | Haftung | Notar | Geeignet für |
 | --- | --- | --- | --- | --- | --- |
 | GbR (Paragraf 705 ff. BGB, MoPeG-novelliert) | kein | gering | unbeschränkt persönlich Paragraf 721 BGB | nicht zwingend; Gesellschaftsregister Paragraf 707 BGB optional (eGbR) | nicht-kaufmännische Personenzusammenschlüsse |
-| OHG (Paragraf 105 ff. HGB) | kein | gering | unbeschränkt persönlich Paragraf 128 HGB | HR-Anmeldung notariell | Kaufleute, Kleinbetriebe |
+| OHG (Paragraf 105 ff. HGB) | kein | gering | unbeschränkt persönlich nach Paragraf 126 HGB; beim Eintritt in eine bestehende OHG auch für Altverbindlichkeiten nach Paragraf 127 HGB | HR-Anmeldung notariell | Kaufleute, Kleinbetriebe |
 | KG (Paragraf 161 ff. HGB) | kein, Haftsumme frei wählbar | gering | Komplementär unbeschränkt; Kommanditist auf Haftsumme Paragraf 171 HGB | notarielle HR-Anmeldung | Investoren-Beteiligung |
 | GmbH & Co. KG | GmbH 25.000 EUR | mittel | Komplementär-GmbH | notariell | Mittelstand, Steueroptimierung |
 | UG (haftungsbeschränkt) Paragraf 5a GmbHG | 1 EUR Stammkapital, Aufstockungspflicht Paragraf 5a Abs. 3 GmbHG (25 % Gewinn) | gering, Musterprotokoll Paragraf 2 Abs. 1a GmbHG | begrenzt | notariell, vereinfachte Online-Gründung möglich (DiRUG) | Bootstrap-Startup |

@@ -1,6 +1,6 @@
 ---
 name: clean-output
-description: "Wenn es um Clean-Output in Vertragsausfüller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Clean-Output: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Clean-Output
@@ -11,10 +11,6 @@ description: "Wenn es um Clean-Output in Vertragsausfüller geht: prüft Frist, 
 2. Hat das Quality Gate (vaf-quality-gate) eine grüne Ampel ergeben?
 3. Ist das Ausgabeformat bestimmt — Word (.docx), PDF oder beides?
 4. Wird Track Changes / Redline gewünscht — wenn ja: ausdrückliche Bestätigung eingeholt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -61,4 +57,5 @@ description: "Wenn es um Clean-Output in Vertragsausfüller geht: prüft Frist, 
 - Juristische Wahlentscheidungen werden erklärt und protokolliert.
 
 ---
-<!-- AUDIT 27.05.2026: BGH VII ZR 37/17 (NJW 2018, 375) auf dejure.org nicht auffindbar (NOT_FOUND), NJW 2018, 375 ebenfalls nicht in Datenbank — Eintrag ersatzlos geloescht. -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: dsfa-risikoanalyse-eintrittswahrscheinlichkeit-schaden
-description: "Wenn es um Dsfa Risikoanalyse Eintrittswahrscheinlichkeit Schaden in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DSFA Risikoanalyse Eintrittswahrscheinlichkeit Schaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Risikoanalyse im Rahmen der DSFA: Eintrittswahrscheinlichkeit mal Schadenschwere für Bedrohungsszenarien systematisch ermitteln
@@ -113,5 +113,6 @@ Unterschrift DSB: ____________________
 - EDSA-Leitlinien WP 248 rev.01
 - ENISA — DSFA-Leitfaden
 - SDM V3.0 — Schutzziele
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

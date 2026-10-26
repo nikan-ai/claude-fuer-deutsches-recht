@@ -1,6 +1,6 @@
 ---
 name: aufnahme-statusinformation
-description: "Wenn es um Datenschutzvorfall — Erstaufnahme als Statusinformation in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Datenschutzvorfall — Erstaufnahme als Statusinformation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Datenschutzvorfall — Erstaufnahme als Statusinformation
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Triage — kläre vor der Bearbeitung
 
@@ -78,31 +76,6 @@ Nächster Schritt: konkret, mit Verantwortlichem und Zeitpunkt.
 - `dsv-benachrichtigung-art-34-betroffene` deckt die Benachrichtigung Betroffener ab.
 - `dsv-bussgeldverteidigung-art-83` und `dsv-schadensersatz-art-82` decken die anwaltliche Nachbearbeitung ab.
 
-## Normen und Rechtsprechung
+## Vertiefung bei Bedarf
 
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 DSGVO (Grundsätze der Verarbeitung)
-- Art. 6, 9 DSGVO (Rechtsgrundlagen, besondere Datenkategorien)
-- Art. 13, 14 DSGVO (Informationspflichten)
-- Art. 15 DSGVO (Auskunftsrecht)
-- Art. 28 DSGVO (Auftragsverarbeitung)
-- Art. 32 DSGVO (Sicherheit der Verarbeitung)
-- Art. 33, 34 DSGVO (Meldepflichten bei Verletzung)
-- Art. 82 DSGVO (Schadensersatz)
-- Art. 83 DSGVO (Bußgelder)
-- §§ 4, 20, 41 BDSG (Aufsicht, Rechtsweg, Strafvorschriften)
-
-### Leitentscheidungen
-
-- EuGH C-300/21 (immaterieller Schaden Art. 82 DSGVO)
-- EuGH C-634/21 (automatisierte Bonitätsbewertung Schufa)
-- EuGH C-26/22 (Datenschutzbehörden-Befugnisse)
-- EuGH C-807/21 (Bußgeldhaftung juristischer Personen)
-- BVerfG 1 BvR 16/13 (Recht auf Vergessen I)
-
-### Anwendung im Skill
-
-- Rechtsgrundlage nach Art. 6 DSGVO sauber waehlen; berechtigte Interessen nach Art. 6 Abs. 1 lit. f DSGVO mit dokumentierter Abwaegung.
-- Bei Datenpannen die 72-Stunden-Frist nach Art. 33 DSGVO einhalten; Risikoabwaegung Art. 34 DSGVO separat dokumentieren.
-- Auskunftsanspruch Art. 15 DSGVO nicht mit Kopie nach Art. 15 Abs. 3 DSGVO verwechseln; EuGH C-307/22 Reichweite beachten.
+- Bei `dsv-aufnahme-statusinformation` beziehungsweise Erstellt nach einem gemeldeten Datenschutzvorfall eine knappe Statusinformation an Mandant und Datenschutzbeauftragten in Fließtextform: [die zusätzliche Vertiefung laden](./references/vertiefung-dsv-aufnahme-statusinformation.md).

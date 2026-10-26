@@ -1,6 +1,6 @@
 ---
 name: markenanmeldung-dpma-markenrecherche-open
-description: "Wenn es um Markenanmeldung beim DPMA in Plugin: Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Markenanmeldung beim DPMA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Markenanmeldung beim DPMA
@@ -147,7 +147,6 @@ Nr. 2 MarkenG).
 "FRISCH" und "KLAR" sind für Mineralwasser beschreibende Merkmale (Frische,
 Klarheit). Die Kombination könnte als Gesamtbegriff dennoch hinreichende
 Unterscheidungskraft haben, wenn sie nicht lexikalisch nachweisbar ist und vom
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 MarkenG, 13. Aufl. 2021, § 8 Rn. 55). Die Prüfung beim DPMA wird kritisch sein;
 eine Stellungnahme zur Verkehrswahrnehmung sollte vorbereitend erstellt werden.
@@ -185,20 +184,3 @@ Bevor die Anmeldung eingereicht wird, klaere:
 2. Sind absolute Schutzhindernisse (§ 8 II MarkenG) geprueft — insbesondere Beschreibungsnaehe und mangelnde Unterscheidungskraft?
 3. Wird eine Einzel- oder Multi-Class-Anmeldung bevorzugt (3 Klassen = EUR 300; jede weitere EUR 100)?
 4. Soll Prioritaet auf eine auswärtige Voranmeldung (§ 34 MarkenG — 6 Monate) beansprucht werden?
-
-## Aktuelle Rechtsprechung
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Task: Bundle 031 / Halluzinations-Reparatur
-Problem: Konkrete Leitentscheidungen duerfen nur nach Live-Verifikation mit Gericht, Datum, Aktenzeichen und freier/amtlicher Quelle ausgegeben werden.
- obwohl der Inhalt (Medicon-Apotheke, Freihaltebeduerfnis § 8 II Nr. 2 MarkenG) zum
- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- Fallname um "/MediCo Apotheke" ergaenzt. Beide Fundstellen im Dokument korrigiert.
- Verifiziert via dejure.org.
--->

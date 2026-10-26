@@ -1,6 +1,6 @@
 ---
 name: verlagsredaktion
-description: "Wenn es um Verlagsredaktion — Kernskill in Verlagsredaktion geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Verlagsredaktion — Kernskill: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verlagsredaktion — Kernskill
@@ -40,3 +40,4 @@ description: "Wenn es um Verlagsredaktion — Kernskill in Verlagsredaktion geht
 - `[LUECKE]` muss ergänzt werden.
 - `[RECHTE]` Nutzung noch nicht geklärt.
 - `[QUELLE]` Fundstelle noch zu prüfen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Halten Sie fest, wer welche Passage in welcher Fassung geprüft und die redaktionelle Verantwortung übernommen hat. Eine bloße Schlussfreigabe ohne erkennbaren Gegenstand ist als Beleg gesondert zu würdigen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

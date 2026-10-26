@@ -1,6 +1,6 @@
 ---
 name: rechtsabteilung-psd2-strong-customer-authentication-fall
-description: "Wenn es um Rechtsabteilung: PSD2-Strong-Customer-Authentication-Fall in Bank-Rechtsabteilung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Rechtsabteilung: PSD2-Strong-Customer-Authentication-Fall: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsabteilung: PSD2-Strong-Customer-Authentication-Fall
@@ -9,7 +9,6 @@ description: "Wenn es um Rechtsabteilung: PSD2-Strong-Customer-Authentication-Fa
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -40,6 +39,12 @@ ZAG, PSD2, RTS SCA; BGB §§ 675u ff.
 ## Fachlicher Zuschnitt
 
 Haftung bei nicht autorisierten Zahlungsvorgängen wird mit Beweislast, Authentifizierungslog und Kulanzstrategie geprüft.
+
+## Erstattung und Regress getrennt entscheiden
+
+Bei einer bestrittenen Zahlung sind Kundenanzeige und Kenntniszeitpunkt sofort zu erfassen. Paragraf 675u BGB verlangt unverzügliche Erstattung, spätestens bis zum Ende des folgenden Geschäftstags; eine interne Prüfung grober Fahrlässigkeit verlängert diese Vorgabe nicht. Die Betrugsverdachtsausnahme betrifft begründeten Verdacht gegen den Zahler und schriftliche Behördenmitteilung, nicht den Angriff unbekannter Täter. Paragraf 675w BGB verlangt Banknachweise; eine erfolgreiche starke Authentifizierung verschiebt die Beweislast nicht pauschal auf den Kunden. Regress nach Paragraf 675v BGB und dessen Haftungsausschlüsse gesondert prüfen.
+
+[EuGH, Urteil vom 15.10.2026, C-70/25, Tukowiecka, ECLI:EU:C:2026:852](https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE), Rn. 31–42, 45–47 und 52. Trägt die Zweistufigkeit von Erstattung und späterer Verlusttragung; trägt nicht eine generelle Kundenhaftungsfreiheit oder fehlende Autorisierung bei jeder Täuschung. [Quellen und Aussagegrenzen](../../references/eugh-c-70-25-erstattung-und-regress.md). Kundenantwort und internes Votum vollständig ausformuliert in Times New Roman 11 pt ausgeben; tatsächliche Buchung erst nach Nachweis behaupten.
 
 ## Output für die Rechtsabteilung
 

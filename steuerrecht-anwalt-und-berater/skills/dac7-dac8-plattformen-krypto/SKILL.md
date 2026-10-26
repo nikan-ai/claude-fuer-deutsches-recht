@@ -1,6 +1,6 @@
 ---
 name: dac7-dac8-plattformen-krypto
-description: "Wenn es um DAC7 & DAC8 — Meldepflichten Plattformen und Krypto in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DAC7 & DAC8 — Meldepflichten Plattformen und Krypto: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DAC7 & DAC8 — Meldepflichten Plattformen und Krypto
@@ -18,10 +18,6 @@ description: "Wenn es um DAC7 & DAC8 — Meldepflichten Plattformen und Krypto i
 3. Wurden bisherige Meldepflichten (DAC7 seit 31.1.2024, DAC8 ab 31.1.2027) eingehalten?
 4. Läuft ein Bußgeldverfahren des BZSt bereits oder wird eines erwartet?
 5. Hat der Mandant bisher unerklärte Krypto-Gewinne (§ 22 Nr. 2 i.V.m. § 23 EStG)? → Selbstanzeige § 371 AO vor DAC8-Erstmeldung 2027
-
-## Aktuelle Rechtsprechung und Normenrahmen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Kaltstart-Rückfragen
 
@@ -167,3 +163,5 @@ Bei Vorsatz zusätzlich strafrechtliche Verfolgung nach § 370 AO denkbar.
 ## Quellen und Updates
 
 Stand: 05/2026. PStTG seit 1.1.2023 in Kraft, KryptoStG seit 1.1.2026. MiCA-VO ab 30.12.2024 vollständig anwendbar. DAC7-Erstmeldungen ab 31.1.2024 erfolgt; DAC8-Erstmeldung 31.1.2027 für 2026. Bei Verschärfung der Bagatellgrenzen oder Erweiterung auf weitere Aktivitäten (DAC9 in Vorbereitung) aktualisieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

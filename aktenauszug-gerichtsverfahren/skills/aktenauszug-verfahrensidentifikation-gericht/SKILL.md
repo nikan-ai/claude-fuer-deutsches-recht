@@ -1,6 +1,6 @@
 ---
 name: aktenauszug-verfahrensidentifikation-gericht
-description: "Wenn es um Verfahrensidentifikation in aktenauszug-gerichtsverfahren geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Verfahrensidentifikation: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verfahrensidentifikation
@@ -27,10 +27,6 @@ description: "Wenn es um Verfahrensidentifikation in aktenauszug-gerichtsverfahr
 - §§ 3-9 ZPO — Streitwert (Bewertung Klageantrag, Früchte, Zinsen, Kosten)
 - § 63 GKG — Streitwertfestsetzung durch das Gericht; § 68 GKG — Streitwertbeschwerde
 - §§ 66-74 ZPO — Streithelfer / Nebenintervention (Voraussetzungen, Rechte)
-
-## Rechtsprechung zur Verfahrensidentifikation
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zu extrahierende Felder
 
@@ -113,3 +109,5 @@ Für jede Partei:
 - Keine Bewertung der Parteibezeichnung (z. B. ob Kläger wirklich klagebefugt ist).
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: ki-avatar-virtueller-influencer-ugc
-description: "Wenn es um Influencer-Recht: digitale Werkzeuge-Avatar, Deepfake und Einwilligung in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Influencer-Recht: digitale Werkzeuge-Avatar, Deepfake und Einwilligung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Influencer-Recht: KI-Avatar, Deepfake und Einwilligung
@@ -20,7 +20,7 @@ KI-generierte Abbilder von Personen sind ein wachsendes Rechtsfeld:
 - **§ 22 KUG**: Bildnisse dürfen nur mit Einwilligung verbreitet werden; KI-generiertes realistisches Abbild einer Person = Bildnis im Sinne des KUG.
 - **§ 823 Abs. 1 BGB**: Verletzung des allgemeinen Persönlichkeitsrechts durch Deepfake; Schadensersatz + Schmerzensgeld.
 - **§ 201a StGB**: Unbefugte Bildaufnahmen; Deepfakes fallen unter verschärfte Strafnormen (§ 201a Abs. 1 Nr. 4 StGB – Identitätsmanipulation seit 2021).
-- **EU AI Act (Verordnung 2024/1689)**: Hochrisiko-KI-System; Deepfakes und synthetische Stimmen müssen als KI-generiert gekennzeichnet sein (Art. 50 AI Act).
+- **KI-Avatar:** Ein synthetischer Influencer ist nicht allein wegen seiner Darstellung Hochrisiko-KI. Artikel 50 funktions- und rollenbezogen prüfen. Anbieterkennzeichnung nach Absatz 2 und Betreiber-Offenlegung bei Deepfakes beziehungsweise Texten zu Angelegenheiten öffentlichen Interesses nach Absatz 4 trennen. Künstlerische oder satirische Werke sind nicht pauschal ausgenommen; dort besteht eine angepasste Offenlegungsform. Die redaktionelle Ausnahme betrifft den Textfall. Übergang für bestimmte generative Alt-Systeme nach Artikel 111 Absatz 4 nur bei Absatz 2. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **§ 5a UWG**: KI-Avatar in Werbung muss als solcher kenntlich gemacht werden.
 - **§ 31 UrhG**: Einräumung von Nutzungsrechten an der Stimme oder dem Erscheinungsbild; Voice Cloning erfordert Einwilligung.
 - **DSGVO Art. 9**: Biometrische Daten sind besondere Kategorie; KI-Training auf Gesichtsdaten erfordert ausdrückliche Einwilligung.
@@ -47,7 +47,7 @@ KI-generierte Abbilder von Personen sind ein wachsendes Rechtsfeld:
 ## Prüfprogramm
 
 - KUG: Identifizierbarkeit der Person → Einwilligung zwingend.
-- AI Act Art. 50: Kennzeichnung „KI-generiert" oder „synthetisch" in allen Veröffentlichungen.
+- **Veröffentlichungsregel:** Artikel 50 funktions- und rollenbezogen prüfen. Anbieterkennzeichnung nach Absatz 2 und Betreiber-Offenlegung bei Deepfakes beziehungsweise Texten zu Angelegenheiten öffentlichen Interesses nach Absatz 4 trennen. Künstlerische oder satirische Werke sind nicht pauschal ausgenommen; dort besteht eine angepasste Offenlegungsform. Die redaktionelle Ausnahme betrifft den Textfall. Übergang für bestimmte generative Alt-Systeme nach Artikel 111 Absatz 4 nur bei Absatz 2. Persönlichkeits- und Urheberrechte unabhängig prüfen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Strafrechtlich: § 201a Abs. 1 Nr. 4 StGB – Identitätsmanipulationen; sofortige Strafanzeige bei Missbrauch.
 - DSGVO: KI-Training auf Fotos Dritter → Einwilligung oder berechtigtes Interesse (Art. 6 DSGVO) prüfen.
 - Voice Cloning: Stimme als Persönlichkeitsmerkmal → § 823 BGB, ggf. UrhG.
@@ -74,3 +74,4 @@ KI-generierte Abbilder von Personen sind ein wachsendes Rechtsfeld:
 - Einwilligungsformular für KI-Abbilder
 - Strafanzeige-Muster (Deepfake-Missbrauch)
 - AI Act-Kennzeichnungstext
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie, ob Bild, Stimme oder Text synthetisch erzeugt oder verändert wurden und in welcher Rolle der Auftraggeber veröffentlicht. Werbekennzeichnung und KI-Offenlegung erfüllen unterschiedliche Zwecke. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

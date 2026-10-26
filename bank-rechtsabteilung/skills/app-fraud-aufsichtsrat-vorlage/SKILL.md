@@ -1,6 +1,6 @@
 ---
 name: app-fraud-aufsichtsrat-vorlage
-description: "Wenn es um APP-Fraud Bank in Bank-Rechtsabteilung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für APP-Fraud Bank: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # APP-Fraud Bank
@@ -9,7 +9,6 @@ description: "Wenn es um APP-Fraud Bank in Bank-Rechtsabteilung geht: ordnet Sac
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -89,11 +88,15 @@ Baue das Ergebnis mit diesen Elementen:
 - **Tokenisierung:** Keine Technikromantik. Rechtsposition, Register, Verwahrung, Übertragung, Verlustfall, Kundenschutz und Aufsicht zuerst.
 
 ## APP-Fraud-Spezifika
-- Autorisierte vs. nicht autorisierte Zahlung: § 675u BGB (nicht autorisiert, Bank haftet) vs. § 675v BGB (Mitverschulden bei autorisierter Zahlung). Bei APP-Fraud regelmäßig "autorisiert" — Erstattung nur nach AGB oder ex gratia.
+- Autorisierung zur konkreten Zahlung nach Paragraf 675j BGB feststellen, nicht aus der Bezeichnung APP-Fraud ableiten. Paragraf 675v BGB betrifft den Gegenanspruch bei nicht autorisierten Zahlungen; er ist kein Mitverschuldensregime für autorisierte Zahlungen. Bei wirksamer Zustimmung den gesonderten Haftungsgrund prüfen, statt pauschal nur Kulanz zuzulassen. Bei fehlender Zustimmung Erstattung nach Paragraf 675u BGB von späterer Verlusttragung trennen.
 - Warnpflichten: Risikohinweise bei verdächtigem Empfänger/Betrag/Verhalten; nach PSD3/PSR-Entwurf ggf. erweiterte Refund-Pflichten — als Roadmap-Risiko markieren.
 - SCA-Befreiung: keine Erleichterung, wenn Kunde aktiv getäuscht wurde; SCA-Logs trotzdem zu Beweiszwecken vorhalten (Art. 97 PSD2 iVm RTS 2018/389).
 - Recall/SEPA Recall: über RTS SEPA Credit Transfer Recall Request — sofortige Anfrage Empfängerbank, Frist regelmäßig 10 Bankarbeitstage; Mitwirkungsklausel in AGB nutzen.
 - Praktiker-Tipp: APP-Fraud-Playbook mit Eingangsmeldung (Hotline, App-Reporting), Polizeianzeige, Recall innerhalb 24 h, parallel BaFin-Meldung bei Massenfall (MaRisk AT 7.2, BAIT, ggf. § 24 KWG); Schadensquote und Refund-Politik dokumentieren — wird bei BaFin-Prüfungen abgefragt.
+
+## Entscheidungsgrundlage für die Gremienvorlage
+
+[EuGH, Urteil vom 15.10.2026, C-70/25, Tukowiecka, ECLI:EU:C:2026:852](https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE), Rn. 31–42, 45–47 und 52. Trägt: Bei nicht autorisierter Zahlung rechtfertigt grobe Fahrlässigkeit allein kein Aufschieben der Erstattung. Trägt nicht: die automatische Einordnung einer vom Kunden selbst angewiesenen Überweisung als nicht autorisiert. Die Vorlage weist Erstattungsverpflichtung, tatsächlich erfolgte Gutschrift und beweisabhängigen Regress getrennt aus; kein „Kulanzbudget“ anstelle eines gesetzlichen Anspruchs. Die [Quellenkarte](../../references/eugh-c-70-25-erstattung-und-regress.md) erläutert die Betrugsverdachtsausnahme und deutschen Nachweise. Vollständig ausformulierte Vorlage in Times New Roman 11 pt, dezimal gegliedert; Quellen- und Exportnotizen getrennt.
 
 ## Qualitätsgate
 
@@ -104,24 +107,3 @@ Vor Ausgabe prüfen:
 - Gibt es eine konkrete Unterlagenliste?
 - Ist die Bankentscheidung dokumentationsfest?
 - Sind keine BeckRS-, Juris-, Kommentar- oder Aufsatz-Blindzitate enthalten?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 25c KWG
-- § 10 ZAG
-- § 1 ZAG
-- § 25 ZAG
-- § 25b KWG
-- § 17 ZAG
-- § 32 KWG
-- § 2c KWG
-- § 24 KWG
-- § 16 ZAG
-- § 34 ZAG
-- § 38 ZAG
-
-### Leitentscheidungen
-
-- BGH XI ZR 56/93

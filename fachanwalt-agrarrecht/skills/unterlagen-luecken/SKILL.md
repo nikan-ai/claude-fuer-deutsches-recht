@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Fachanwalt Agrarrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Fachanwalt Agrarrecht."
 ---
 
 # Unterlagen und Lücken
@@ -17,8 +17,8 @@ Diese Unterlagenprüfung für **Fachanwalt Agrarrecht** benennt fehlende Dokumen
 - `agrar-wolfsschaden-spezial` — Agrar Wolfsschaden Cross Glozez Foerderung
 - `agrarerbe-pflichtteil-paragraf-2316-bgb-hoefeordnung` — Agrarerbe Pflichtteil Paragraf 2316 BGB Hoefeordnung
 - `agrarflaeche-erwerbsbeschraenkung-paragraf-9-grdstvg-hofstelle` — Agrarflaeche Erwerbsbeschraenkung Paragraf 9 Grdstvg Hofstelle
-- `agrarfoerderung-fid-ablehnung-paragraf-9-invekos` — Agrarfoerderung FID Ablehnung Paragraf 9 Invekos
-- `agrarinvest-bonusverwirkung-paragraf-49-vwvfg-grw` — Agrarinvest Bonusverwirkung Paragraf 49 Vwvfg GRW
+- `direktzahlung-flaechenabweichung-gapinvekos` — Flächenabweichung bei Direktzahlungen prüfen
+- `agrarinvestitionsfoerderung-widerruf-rueckforderung` — Agrarinvestitionsförderung verteidigen oder zurückfordern
 - `workflow-mandantenkommunikation` — Agrarrecht Mandantenkommunikation Redteam Qualitygate Hoeferecht
 - `anerbenrecht-risikoampel-und-gegenargumente` — Anerbenrecht BGB Spezial Compliance
 - `cross-zahlen-schwellen-und-berechnung` — Cross Duengeverordnung Interessen Erbrecht

@@ -1,6 +1,6 @@
 ---
 name: beweismittel-gegenueberstellung
-description: "Wenn es um Beweismittel — Gegenüberstellung in aktenauszug-gerichtsverfahren geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Beweismittel — Gegenüberstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Beweismittel — Gegenüberstellung
@@ -27,10 +27,6 @@ description: "Wenn es um Beweismittel — Gegenüberstellung in aktenauszug-geri
 - § 402 ff. ZPO — Sachverständigenbeweis (Bestellung, Gutachtenerstattung, Ablehnung)
 - § 415 ff. ZPO — Urkundenbeweis (öffentlich/privat, Echtheit, Beweiskraft)
 - § 445 ff. ZPO — Parteivernehmung (nur bei Unvollständigkeit anderer Beweismittel)
-
-## Rechtsprechung zum Beweisrecht
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Tabellenstruktur
 
@@ -81,3 +77,5 @@ Soweit Beweismittel vom Gericht als verspätet zurückgewiesen wurden, werden si
 - [ ] Keine Bewertung der Beweiskraft?
 - [ ] Präkludierte Beweismittel gekennzeichnet?
 - [ ] Beweisbeschluss des Gerichts (§ 359 ZPO) berücksichtigt?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

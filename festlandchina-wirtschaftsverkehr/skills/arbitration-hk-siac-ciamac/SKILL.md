@@ -1,6 +1,6 @@
 ---
 name: arbitration-hk-siac-ciamac
-description: "Wenn es um Schiedsgerichtsbarkeit China: CIETAC/HKIAC/SIAC-Vergleich in China-Wirtschaftsverkehr geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schiedsgerichtsbarkeit China: CIETAC/HKIAC/SIAC-Vergleich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schiedsgerichtsbarkeit China: CIETAC/HKIAC/SIAC-Vergleich
@@ -90,25 +90,3 @@ Nur frei prüfbare Quellen aus erlaubten Domains. Rechtsprechung nur mit Gericht
 - [EU-VO 2019/452 EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019R0452)
 - [LkSG Volltext](https://www.gesetze-im-internet.de/lksg/)
 - [BMWK China-Strategie](https://www.bmwk.de/Redaktion/DE/Artikel/Aussenwirtschaft/china-strategie.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3-10 LkSG
-- § 299 StGB
-- § 2 LkSG
-- § 1 AWG
-- § 3 PatG
-- § 8 LkSG
-- § 4 LkSG
-- § 17 AWG
-- § 143 MarkenG
-- § 3-5 LkSG
-- § 5-6 LkSG
-- § 5 LkSG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

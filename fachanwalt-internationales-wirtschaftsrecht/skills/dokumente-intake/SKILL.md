@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Internationales Wirtschaftsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Fachanwalt Internationales Wirtschaftsrecht** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -30,8 +28,8 @@ Dieser Dokumenten-Intake für **Fachanwalt Internationales Wirtschaftsrecht** or
 - `bruessel-risikoampel-und-gegenargumente` — Bruessel CISG Sonderfall Edge
 - `china-shipping-bills-of-lading` — China Shipping Bills OF Lading
 - `embargo-fristennotiz-und-naechster-schritt` — Embargo Fristennotiz Schiedsverfahren
-- `eu-kartellrecht-art-101-aeuv-eugh-c-373-14` — EU Kartellrecht ART 101 Aeuv Eugh C 373 14
-- `eu-kartellrecht-art-102-aeuv-google-eugh-t-612-17` — EU Kartellrecht ART 102 Aeuv Google Eugh T 612 17
+- `eu-kartellrecht-informationsaustausch-c-286-13` — Informationsaustausch nach Artikel 101 AEUV prüfen
+- `eu-kartellrecht-self-preferencing-google-shopping` — 1. Self-Preferencing nach Artikel 102 AEUV
 - `eu-mwst-betrug-mtic` — EU Mwst Betrug Mtic
 - `eugv-zustaendigkeit-art-7-eugvvo` — Eugv Zustaendigkeit ART 7 Eugvvo
 - `einstieg-schnelltriage-fallrouting` — FA INT Wirtschaft Start Chronologie Fristen

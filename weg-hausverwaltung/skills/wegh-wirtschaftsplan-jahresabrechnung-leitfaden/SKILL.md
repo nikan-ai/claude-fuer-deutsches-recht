@@ -1,6 +1,6 @@
 ---
 name: wegh-wirtschaftsplan-jahresabrechnung-leitfaden
-description: "Wenn es um Wegh Wirtschaftsplan Jahresabrechnung Leitfaden in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wegh Wirtschaftsplan Jahresabrechnung Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # WEG-Leitfaden Wirtschaftsplan und Jahresabrechnung nach § 28 WEG: Vorschüsse, Nachschüsse, Abrechnungsspitzen, Einzelabrechnungen, Vermögensbericht, Beschlussformulierung, Anfechtungsrisiko und Mieterschnittstelle.
@@ -20,8 +20,6 @@ description: "Wenn es um Wegh Wirtschaftsplan Jahresabrechnung Leitfaden in WEG-
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `WEG: Wirtschaftsplan und Jahresabrechnung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -87,3 +85,9 @@ description: "Wenn es um Wegh Wirtschaftsplan Jahresabrechnung Leitfaden in WEG-
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
+
+## Soll, Ist, Vermögensbericht und neue Kostenschlüssel
+
+Für die konkrete Rechnungskette den [Abrechnungs-Leitweg](../wirtschaftsplan-jahresabrechnung-28-weg/SKILL.md) verwenden: Rechnung und Dublette, externe Zahlung und interne Umbuchung, beschlossene Soll-Vorschüsse und tatsächlich gezahlte Beträge auseinanderhalten. § 28-Spitze wird nicht aus rückständigem Hausgeld gebildet. Vermögensbericht mit Rücklagenstand/wesentlichem Gemeinschaftsvermögen jedem Eigentümer bereitstellen. Bei Schlüsseländerungen V ZR 50/25 vom 24.04.2026, Rn. 13–23, mit konkretem Belastungsvergleich anwenden. Zu jeder Korrektur Beleg-ID, alter/neuer Betrag, Grund und gegebenenfalls neuen Beschlussbedarf angeben; anschließend den verständlichen Eigentümerbrief verfassen.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

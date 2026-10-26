@@ -1,6 +1,6 @@
 ---
 name: behandlungsfehler-anspruch-pruefen
-description: "Wenn es um Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach Paragrafen 630a ff in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach Paragrafen 630a ff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff
@@ -86,6 +86,10 @@ Weitere Entscheidungen vor Ausgabe in dejure.org / openjur.de live verifizieren.
 | 10 | Schaden | §§ 249–253, 843, 844 BGB | Schmerzensgeld, Verdienstausfall, Haushaltsschaden, Rente? |
 | 11 | Mitverschulden | § 254 BGB | Compliance-Verletzung durch Patient? |
 | 12 | Verjährung | §§ 195, 199, 203, 204 BGB | Frist gewahrt? Hemmung? |
+
+### Nachtdienst und Organisationsfehler
+
+[BGH, Urteil vom 25.11.2025, VI ZR 51/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR__51-24.pdf?__blob=publicationFile&v=1), Rn. 11–18: Mangelhaften Nachtdienst als Organisations-/Behandlungsfehler prüfen, nicht als aufklärungspflichtiges Operationsrisiko. Dienstplan, Befähigung und Reaktionszeit sichern; Kausalität grundsätzlich beim Patienten, Beweiserleichterung nach Paragraf 630h Absatz 4/5 BGB gesondert. Kein Automatismus aus Organisationsmangel zu Gesamthaftung.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 

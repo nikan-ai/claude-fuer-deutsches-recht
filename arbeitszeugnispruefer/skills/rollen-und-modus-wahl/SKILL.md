@@ -1,14 +1,40 @@
 ---
 name: rollen-und-modus-wahl
-description: "Wenn es um Rollen- und Moduswahl vor der Zeugnispruefung in Arbeitszeugnispruefer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Bestimmt bei einer laufenden Arbeitszeugnisprüfung Empfänger, Ziel und passenden Bearbeitungszweig, wenn Arbeitnehmer, Kanzlei, Arbeitgeber, Personalabteilung oder Vergleichs- und Vollstreckungslage unterschiedliche Ergebnisse erfordern."
 ---
 
-# Rollen- und Moduswahl vor der Zeugnispruefung
+# Rolle und Ziel der Arbeitszeugnisprüfung bestimmen
 
-Bevor ein einziger Satz des Zeugnisses bewertet wird, legt der Pruefer die Rolle und den Ausgabemodus fest. Beide Entscheidungen bestimmen, welche Module ausgefuehrt werden und welche Schriftstuecke am Ende entstehen. Eine spaetere Kurskorrektur ist moeglich, wenn sich aus dem Zeugnis selbst Hinweise auf eine andere Rolle ergeben.
+## 1. Ausgangspunkt
 
-Die vier Hauptrollen sind: Arbeitnehmer oder Arbeitnehmerin (Standardfall, Rollenvermutung), Anwaltskanzlei auf Arbeitnehmerseite, Arbeitgeber oder Personalabteilung (HR-Gegenpruefer), und Betriebsrat oder neutrale Schulung. Die Rollenvermutung gilt, wenn keine anderslautende Angabe vorliegt: Der Einsender ist die beurteilte Person. Nur bei eindeutigen Hinweisen auf eine HR-, Kanzlei- oder Betriebsratsrolle wird davon abgewichen.
+Leite die Rolle zuerst aus Auftrag, Unterlagen und Sprachgebrauch ab. Fehlt ein gegenteiliger Hinweis, behandle die einsendende Person als die beurteilte Arbeitnehmerin oder den beurteilten Arbeitnehmer. Frage nur nach, wenn die Rollenwahl das geschuldete Ergebnis tatsächlich verändert.
 
-Im interaktiven Einsatz (Chat-Oberflaeche mit gesicherter Folge-Runde) liefert der Pruefer zuerst Analyse und Mandantenbericht und bietet Aufforderungsschreiben sowie Klagestrategie am Ende als Option an. Im nicht-interaktiven Einsatz (API, Agenten-SDK, Automatisierung, One-Shot-Aufruf) wird die Arbeit sofort rollenrichtig fertiggestellt: Vollanalyse, Mandantenbericht oder HR-Korrekturvermerk sowie bei Arbeitnehmerperspektive und vorhandenen Beanstandungen auch das Aufforderungsschreiben, alles in einer einzigen Antwort.
+## 2. Empfängerbezogene Ergebnisse
 
-Ein Aufforderungsschreiben wird nur bei Arbeitnehmerperspektive und mindestens einem roten oder orangefarbenen Befund oder einem sonstigen Berichtigungspunkt erzeugt. Bei durchgehend unbedenklichem Zeugnis oder bei HR- und Arbeitgeberperspektive entfaellt es. Fehlende Platzhalter wie Name, Datum oder Kanzleibriefkopf werden klar gekennzeichnet und sind kein Blocker fuer die Ausgabe.
+| Rolle | Ergebnis |
+| --- | --- |
+| Arbeitnehmerin oder Arbeitnehmer | ausführliche Prüfung, konkrete Ersatzsätze, kurzes Mandantenschreiben und bei tragfähigem Änderungsansatz oder wirklichem Verhandlungswunsch ein abgestuftes Arbeitgeberschreiben |
+| Kanzlei auf Arbeitnehmerseite | anwaltlicher Prüfvermerk, Änderungsvergleich, kurzes Mandantenschreiben und das fachlich angezeigte Arbeitgeberschreiben |
+| Arbeitgeber oder Personalabteilung | interner Korrekturvermerk und wahrheitsgemäße, widerspruchsfreie Zeugnisfassung |
+| Betriebsrat oder neutrale Beratung | sachliche Einordnung der Streitpunkte und des weiteren Vorgehens |
+| Vergleichs- oder Vollstreckungslage | Abgleich von Titel und erteilter Fassung sowie nur bei Auftrag der passende Verfahrensentwurf |
+
+## 3. Zielbezogene Verzweigung
+
+Bei Selbstprüfung ist das kurze Schreiben eine direkte Erklärung an die betroffene Person und der Arbeitgeberbrief ein Entwurf in deren eigenem Namen. Behaupte ein anwaltliches Mandat oder eine Vertretung nur bei tatsächlich mitgeteilter Kanzleirolle.
+
+Ein allgemeiner Prüfauftrag auf Arbeitnehmerseite endet nach den nötigen Antworten mit ausführlicher Analyse, konkreten Ersatzsätzen, kurzem Mandantenschreiben und – wenn eine vertretbare Änderung verlangt werden kann oder tatsächlich verhandelt werden soll – einem vollständigen Arbeitgeberschreiben. Diese beiden Schreiben werden nicht erst angeboten und brauchen keinen weiteren Entwurfsauftrag. Ist das Zeugnis mangelfrei und fehlt ein wirklicher Verhandlungswunsch, entsteht kein künstliches Forderungsschreiben; das Mandantenschreiben erklärt stattdessen, warum von einem externen Schreiben abzuraten ist. Eine ausdrücklich isolierte Teilfrage bleibt auf ihren Gegenstand beschränkt. Klage, Vergleich und Vollstreckung werden nur bearbeitet, wenn der Auftrag sie umfasst.
+
+Ein Erstentwurf ohne vorhandene Zeugnisfassung gehört zum `arbeitszeugnisgenerator`. Eine aus einer geprüften Fassung entwickelte Gesamtkorrektur bleibt Teil dieses Plugins.
+
+## 4. Rückfrage und Fortsetzung
+
+Das Einfügen des Skills oder Megaprompts in einen Chat ist interaktiver Standard. Ist die Rolle unklar und entscheidend, stelle die zusammengehörige Frage zu Empfänger und Ziel und warte auf die tatsächliche Antwort. Bearbeite rollenunabhängige Punkte bei Bedarf vorläufig weiter. Nach der Antwort setzt du am bestehenden Stand fort und fertigst die nach Abschnitt 3 geschuldeten Ergebnisse ohne erneute Beauftragung aus. Entsteht ein neuer entscheidender Widerspruch, ist eine weitere Rückfrage zulässig; ihre Zahl richtet sich nach dem Fall. Nur bei ausdrücklich nichtinteraktiver Bearbeitung verwendest du Platzhalter oder bedingte Varianten, ohne eine Nutzerantwort zu erfinden.
+
+## 5. Grenzen
+
+Übernimm keine streitige Parteibehauptung als Tatsache und unterstelle keinen Klageauftrag. Fehlt ein klarer Gegenhinweis, ist die Arbeitnehmerseite gleichwohl die Arbeitsrolle. Die Rollenwahl bleibt intern und wird weder als Statuskopf noch als Rollen- oder Metadatenblock ausgegeben. Interne Auswahlbegriffe erscheinen nicht im fertigen Dokument. Verwende die für den tatsächlichen Empfänger übliche anwaltliche Sprache.
+
+## 6. Abschluss
+
+Die Rollenwahl ist nie das Endergebnis. Führe unmittelbar in die fachliche Prüfung und anschließend bis zum bestellten Dokument weiter. Wenn eine Antwort aussteht, bleibt allein der davon abhängige Teil vorläufig.

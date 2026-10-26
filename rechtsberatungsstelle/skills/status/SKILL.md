@@ -1,6 +1,6 @@
 ---
 name: status
-description: "Wenn es um Fallstatus: Zielgruppengerechte Fallzusammenfassung in Plugin für die studentische Rechtsberatungsstelle geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Fallstatus: Zielgruppengerechte Fallzusammenfassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fallstatus: Zielgruppengerechte Fallzusammenfassung
@@ -23,16 +23,10 @@ description: "Wenn es um Fallstatus: Zielgruppengerechte Fallzusammenfassung in 
 
 ### Kernvorschriften
 
-- **§ 6 RDG** — Informationspflicht: Mandanten sind über den Verfahrensstand verständlich zu informieren; liegt in der Eigenverantwortung des Studentenn unter Supervisoren-Aufsicht.
-- **§ 43a Abs. 2 BRAO** — Verschwiegenheitspflicht: Statusberichte enthalten vertrauliche Mandantendaten; keine Weitergabe ohne Einwilligung.
-- **§ 11a BRAO** — Studentische Rechtsanwaltsbeschäftigung: Studenten in Beratungsstellen handeln unter Aufsicht; Statusberichte an Gerichte gehen erst nach Supervisoren-Freigabe heraus.
-- **§§ 128–142 ZPO** — Schriftsätze an Gericht: Form- und Inhaltsvorgaben für gerichtliche Statusberichte; örtliche Geschäftsordnungen beachten.
-- **§ 81 VwVfG** — Verfahrensabschluss und Mitteilungspflichten der Behörde; spiegelbildlich Informationspflicht des Vertreters gegenüber dem Mandanten.
-- **Art. 13, 14 DSGVO** — Informationspflichten beim Umgang mit personenbezogenen Daten; Statusberichte, die Verarbeitungen beschreiben, müssen den Datenschutzvorgaben genügen.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Paragraf 6 Absatz 2 RDG** — Die unentgeltliche Rechtsdienstleistung außerhalb enger persönlicher Beziehungen wird durch eine befugte Person, eine Person mit Befähigung zum Richteramt oder unter deren Anleitung erbracht; Art und Umfang der Mitwirkung richten sich nach dem Einzelfall.
+- **Paragraf 43a Absatz 2 BRAO** — Der anleitende Rechtsanwalt wahrt die Verschwiegenheit und verpflichtet mitwirkende Hilfspersonen in Textform, soweit die gesetzlichen Voraussetzungen vorliegen.
+- **Paragraf 11 BORA sowie Paragrafen 675 und 666 BGB** — Im anwaltlich geführten Mandat sind wesentliche Vorgänge angemessen mitzuteilen und Auskünfte über den Bearbeitungsstand zu erteilen.
+- **Paragrafen 130, 130a und 130d ZPO** — Für einen gerichtlichen Schriftsatz sind Inhalt, elektronische Form und der vorgeschriebene Übermittlungsweg gesondert zu prüfen; ein bloßer interner Statusbericht ist noch kein Gerichtsschriftsatz.
 
 ### Quellenregel
 
@@ -56,7 +50,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Fachjargon
 
 *Prüfvermerk für den Studentenn (nicht für den Mandanten — vor Versand entfernen):*
-`[KI-GESTÜTZTER ENTWURF — erfordert studentische Prüfung und Supervisionsschritt per Klinik-Konfiguration]`
+`[ENTWURF — erfordert fachliche Prüfung und den vorgesehenen Anleitungsschritt]`
 
 Verfahrensrechtlicher Hinweis: Manche Beratungsstellen (insb. unter BRAO-Aufsicht) haben spezifische Unterschriftsblöcke für Briefe unter Studentenn-Aufsicht. Anforderungen mit dem Supervisor klären.
 
@@ -85,7 +79,7 @@ unter Aufsicht von [Supervisorenname, Rechtsanwalt/-anwältin]
 [Name der Beratungsstelle]
 ```
 
-**Vor Versand:** Das Versenden eines Mandantenstatus ist eine folgenschwere Handlung. Gate: Supervisionsmodell der Klinik (§ 6 Abs. 2 RDG). Bestätigen, dass der Entwurf dem Supervisionsprozess entsprechend geprüft wurde und alle internen Vermerke (`[KI-GESTÜTZTER ENTWURF]`, `[PRÜFEN]` etc.) aus der Mandantenversion entfernt wurden.
+**Vor Versand:** Das Versenden eines Mandantenstatus ist eine folgenschwere Handlung. Die nach Paragraf 6 Absatz 2 RDG erforderliche Anleitung und Mitwirkung müssen dokumentiert sein. Alle internen Vermerke wie `[ENTWURF]` oder `[PRÜFEN]` sind aus der Mandantenversion zu entfernen.
 
 ### Modus: Intern (für den Supervisor)
 
@@ -200,3 +194,5 @@ Entsprechend der Klinik-Konfiguration:
 Statusberichte enthalten keine zitierten Normen als Primärbelege — das obliegt den zugrunde liegenden Gutachten (`/memo`). Rechtliche Behauptungen in Statusberichten müssen durch verifizierte Gutachten gedeckt sein, auf die der Bericht verweist. Kein Status-Schriftstück enthält ungeprüfte Rechtsbehauptungen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

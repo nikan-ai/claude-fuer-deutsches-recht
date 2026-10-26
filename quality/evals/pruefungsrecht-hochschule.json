@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "plugin": "pruefungsrecht-hochschule",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bverwg.de/de/280618B2B57.17.0",
+      "checked_on": "2026-09-14",
+      "supports": "Beschluss vom 28. Juni 2018, 2 B 57.17, Randnummern 7 bis 9: Grenzen des Bewertungsspielraums und Unterscheidung fachlicher Richtigkeit von prüfungsspezifischer Gewichtung."
+    },
+    {
+      "url": "https://www.bverwg.de/de/280618B2B57.17.0",
+      "checked_on": "2026-09-22",
+      "supports": "BVerwG, Beschluss vom 28.06.2018, 2 B 57.17, Rn. 7 bis 9: Übersehene Leistung oder fachlich vertretbare Lösung als konkreten Bewertungsfehler rügen und Berücksichtigung verlangen. Grenze: Lehramts-Staatsprüfung; allgemeiner Kontrollmaßstab übertragbar, keine fremde Prüfungsordnung und keine vorgegebene Punktzahl. Amtliche tragende Gründe gelesen; keine Vollverifikation der gesamten Materie."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vwgo/__74.html",
+      "checked_on": "2026-09-22",
+      "supports": "Klagefrist nach Vorverfahren oder Bekanntgabe bei entbehrlichem Widerspruch, nicht unabhängig vom Verfahrensstand."
+    },
+    {
+      "url": "https://www.bverwg.de/de/280618B2B57.17.0",
+      "checked_on": "2026-09-23",
+      "supports": "Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist. Prüftiefe: Bewertungsmaßstab und Klagefrist erneut gelesen; keine konkrete Hochschulordnung neu verifiziert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vwgo/__74.html",
+      "checked_on": "2026-09-23",
+      "supports": "Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist. Prüftiefe: Bewertungsmaßstab und Klagefrist erneut gelesen; keine konkrete Hochschulordnung neu verifiziert."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist. 2026-10-16, redaktioneller Einstiegsreview: Konkrete Bewertungsrüge und Ergebnis vor Beispielen; übersehene oder vertretbare Antwort statt pauschalem Notenwunsch. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Abgegebene Leistung gegen konkrete Korrekturbemerkung und passende Fehlerfolge prüfen.",
+      "Beide Einstiege und Rechtsprechungsanwendung an abgegebene Antwort und Rügefolge gebunden.",
+      "Unverifizierte Kapazitätsfundstellen ersetzt; differenzierte Störungs-, Krankheits-, Täuschungs- und Nachteilsausgleichswege beibehalten.",
+      "Prüfer bestätigt Seitenlektüre -> Übersehenseinwand durch belegte fachliche Rüge ersetzen oder fallenlassen.",
+      "Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist.",
+      "2026-10-16, redaktioneller Einstiegsreview: Konkrete Bewertungsrüge und Ergebnis vor Beispielen; übersehene oder vertretbare Antwort statt pauschalem Notenwunsch. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "630e5da3d3f40a528ac47ebf7e2eedc73cb0c29b5d4b039a62fea02220e51f6f",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist. 2026-10-16, redaktioneller Einstiegsreview: Konkrete Bewertungsrüge und Ergebnis vor Beispielen; übersehene oder vertretbare Antwort statt pauschalem Notenwunsch. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Beide Einstiege und Rechtsprechungsanwendung an abgegebene Antwort und Rügefolge gebunden.",
+      "Unverifizierte Kapazitätsfundstellen ersetzt; differenzierte Störungs-, Krankheits-, Täuschungs- und Nachteilsausgleichswege beibehalten.",
+      "Prüfer bestätigt Seitenlektüre -> Übersehenseinwand durch belegte fachliche Rüge ersetzen oder fallenlassen.",
+      "Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist.",
+      "2026-10-16, redaktioneller Einstiegsreview: Konkrete Bewertungsrüge und Ergebnis vor Beispielen; übersehene oder vertretbare Antwort statt pauschalem Notenwunsch. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "ecb673fc8b484d7f9dcaa028ae8e39e56a133ecc4f0ee542b3c92caf8d1ed8d6",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Formuliere eine konkrete Rüge wegen übersehener Klausurseite.",
+      "Prüfe Rücktritt und Nachteilsausgleich bei einer Hochschulprüfung."
+    ],
+    "negative": [
+      "Beantrage einen Studienplatz außerhalb der festgesetzten Kapazität.",
+      "Prüfe den Schulausschluss eines minderjährigen Schülers."
+    ]
+  },
+  "cases": [
+    {
+      "id": "uebersehene-rueckseite",
+      "request": "Schreibe ergebnis.md als Einwendungsschreiben an den Prüfungsausschuss einer Hochschule. Studentin Mara Wolf erhielt für die schriftliche Modulprüfung Statistik 48 von 100 Punkten; bestanden ist ab 50. Der Bewertungsbogen nennt bei Aufgabe 4 'nicht bearbeitet', null von maximal zehn Punkten. Die vollständig erhaltene und bei Einsicht kopierte Klausur enthält auf der nummerierten Rückseite 8 eine Lösung zu Aufgabe 4 mit Formel, eingesetzten Zahlen und Ergebnis. Welche Punktzahl diese Lösung verdient, ist fachlich noch nicht geprüft. Das Prüfungsamt hat die Kopie als vollständig bestätigt und nimmt die Einwendung fristgerecht entgegen. Es geht ausschließlich um Überdenken dieser Bewertung, nicht um Berechnung einer Rechtsbehelfsfrist oder eine neue Prüfungsleistung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Benannt wird die konkrete Diskrepanz zwischen Nichtbearbeitungsvermerk und vorhandener Lösung auf Seite 8 statt bloßer Unzufriedenheit mit der Note.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Beantragt die Berücksichtigung und erneute Bewertung der tatsächlich abgegebenen Lösung, ohne die fachlich ungeprüfte Antwort als zehn Punkte wert auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Leitet aus der übersehenen Seite nicht automatisch Bestehen oder eine bestimmte neue Gesamtnote ab und fügt keine neue Klausurlösung hinzu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "neubewertung-verfahren"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "pruefungsrecht-hochschule/README.md",
+      "pruefungsrecht-hochschule/pruefungsrecht-hochschule-werkstatt.md",
+      "pruefungsrecht-hochschule/pruefungsrecht-hochschule-schnellstart.md",
+      "quality/evals/pruefungsrecht-hochschule.json"
+    ],
+    "opening_change": "Abgegebene Leistung gegen konkrete Korrekturbemerkung und passende Fehlerfolge prüfen.",
+    "norms": [
+      "Artikel 3 Absatz 1, 12 Absatz 1 und 19 Absatz 4 GG",
+      "Paragrafen 70, 74, 80 Absatz 5, 123 VwGO",
+      "Maßgebliche Landesprüfungsordnung"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Beschluss vom 28.06.2018, 2 B 57.17, Rn. 7 bis 9",
+        "url": "https://www.bverwg.de/de/280618B2B57.17.0",
+        "application": "Übersehene Leistung oder fachlich vertretbare Lösung als konkreten Bewertungsfehler rügen und Berücksichtigung verlangen.",
+        "limit": "Lehramts-Staatsprüfung; allgemeiner Kontrollmaßstab übertragbar, keine fremde Prüfungsordnung und keine vorgegebene Punktzahl.",
+        "checked_on": "2026-09-23"
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Volltext und Klagefristgrundlage geprüft; konkrete Hochschulordnungen, Täuschungsnachweise und medizinische Rücktrittsvoraussetzungen bleiben fallabhängig.",
+      "Kein Live-Prüfungsfall oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: Bewertungsmaßstab und Klagefrist erneut gelesen; keine konkrete Hochschulordnung neu verifiziert. Desk review; kein Live-Client-Test."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "pruefungsrecht-hochschule/pruefungsrecht-hochschule-schnellstart.md",
+        "pruefungsrecht-hochschule/pruefungsrecht-hochschule-werkstatt.md"
+      ],
+      "result": "Vertretbare Lösung und übersehene Leistung tragen eine konkrete Bewertungsrüge, keine selbst gesetzte Punktzahl. Lehramts-Staatsprüfung wird nicht als fremde Prüfungsordnung übernommen.",
+      "search_2026": "Exakte amtliche Suche nach 2026-Prüfungsbewertungsentscheidungen ohne passenden Treffer.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Bewertung, Störung/Rücktritt oder Nachteilsausgleich anbieten.",
+      "Klausur und Bescheid still lesen, keine ungefragte Prüfungsaktenübersicht.",
+      "Bestellte Einwendung unmittelbar mit Seitenbezug entwerfen."
+    ],
+    "continuation": "Prüfer bestätigt Seitenlektüre -> Übersehenseinwand durch belegte fachliche Rüge ersetzen oder fallenlassen.",
+    "enrichment": "Uploadversuch gegen Eingangsnachweis, funktionaler Nachteilsausgleich gegen Rücktritt, eigenständige Rechtsbehelfsfrist.",
+    "limits": "desk review; no live client execution"
+  }
+}

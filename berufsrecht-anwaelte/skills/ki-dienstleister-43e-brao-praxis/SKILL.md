@@ -1,6 +1,6 @@
 ---
 name: ki-dienstleister-43e-brao-praxis
-description: "Wenn es um digitale Werkzeuge-Dienstleister nach Paragraf 43e BRAO in der Praxis in Berufsrecht Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für digitale Werkzeuge-Dienstleister nach Paragraf 43e BRAO in der Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Dienstleister nach § 43e BRAO in der Praxis
@@ -46,3 +46,4 @@ Behandle KI nicht als Zauberwort, sondern als Dienstleisterfrage: Wer bekommt we
 - **Grün:** Anbieter ist bewusst beauftragt, §-43e-Vertrag ist vollständig, No-Training eindeutig, Subunternehmer kontrolliert, EU/EWR oder geprüfter Drittstaat, Endkontrolle organisiert.
 - **Gelb:** Vertrag ist grundsätzlich brauchbar, aber Telemetrie, Supportzugriffe, Subunternehmer, Löschfristen oder Mandanteninformation sind unklar.
 - **Rot:** Public Tool mit Mandatsdaten, Training/Produktverbesserung mit Aktenmaterial, unkontrollierte Drittstaatkette, keine Textformverpflichtung oder keine anwaltliche Endkontrolle.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Recherche, Mandantendialog und entscheidungsunterstützende Systeme getrennt ein. Die persönliche Berufspflicht und das konkrete Dienstleisterrisiko bleiben neben der KI-VO bestehen; eine Softwarefreigabe beantwortet sie nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

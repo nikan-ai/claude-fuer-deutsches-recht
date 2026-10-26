@@ -1,6 +1,6 @@
 ---
 name: besitz-rechtsrealismus-und-praktische-beduerfnisse
-description: "Wenn es um Besitz Rechtsrealismus Und Praktische Beduerfnisse in Rechtstheorie und Rechtsphilosophie geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Besitz Rechtsrealismus und Praktische Beduerfnisse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Prüft Besitzschutz rechtsrealistisch: faktische Kontrolle, Streitvermeidung, Friedensfunktion, Beweislast, gerichtliche Handhabbarkeit und die Notwendigkeit, praktische Beduerfnisse konkret statt intuitiv zu benennen.
@@ -76,15 +76,3 @@ Rechtsrealismus ist stark, wenn er die tatsächliche Konfliktlage sichtbar macht
 - Baustelle, Grundstücksgrenze, Überbau, Zaunversatz;
 - Tiere, bewegliche Sachen, digitale Zugangsmittel;
 - Besitzdiener, Arbeitnehmer, Hausverwaltung, Logistikdienstleister.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 StGB
-- Art. 47 GRCh
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

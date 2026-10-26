@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "plugin": "verbraucherschutzverband-durchsetzung",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/vdug/__4.html",
+      "checked_on": "2026-09-23",
+      "supports": "Nach Web-Timeout amtlichen Volltext direkt gelesen: nachvollziehbar mögliche Betroffenheit von 50 Verbrauchern, Finanzierungsverbote einschließlich mehr als 10 Prozent sowie eigenständige Einfluss-/Abhängigkeitsprüfung und Offenlegung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vdug/__15.html",
+      "checked_on": "2026-09-23",
+      "supports": "Nach Web-Timeout amtlichen Volltext direkt gelesen: wesentliche Gleichartigkeit und Darstellung der Methode bei unterschiedlichen Einzelbeträgen eines kollektiven Gesamtbetrags."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vdug/__46.html",
+      "checked_on": "2026-09-23",
+      "supports": "Nach Web-Timeout amtlichen Volltext direkt gelesen: Anmeldung/Rücknahme bis drei Wochen nach Schluss der mündlichen Verhandlung, ausdrücklicher Ausschluss von Paragraf 193 BGB und keine inhaltliche Prüfung bei Registereintragung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vdug/__15.html",
+      "checked_on": "2026-09-14",
+      "supports": "Geöffneter Volltext: wesentliche Gleichartigkeit und Berechnungsmethode bei unterschiedlichen Anspruchshöhen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vdug/BJNR1100B0023.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Suchauszug zu Paragraf 4: nachvollziehbar mögliche Betroffenheit von mindestens 50 Verbrauchern; gesonderte Drittfinanzierungsgrenzen."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62022CJ0757",
+      "checked_on": "2026-09-22",
+      "supports": "Verletzte Informationsrechte als Gegenstand datenschutzbezogener Verbandsklage einordnen. Amtlicher Volltext Rn. 40–44 und 61–65 gelesen; kein pauschaler Zugang zu kollektiven Zahlungsansprüchen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__356a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur elektronischen Widerrufsfunktion gelesen; von Kündigung getrennt."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_200-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Rn. 16–36. Bestätigungsseite des Kündigungsbuttons darf keine Rückgewinnungs-/Pausenangebote enthalten; zulässige Inhalte abschließend. Grenze: Angebote vor erster Schaltfläche gesondert; Beschriftung und Seiteninhalt verschiedene Verletzungsformen, individueller Endtermin nicht automatisch entschieden."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Am 23.09.2026 vollständig erneut gelesen: selbständige Einstiegswege für Unterlassung, Abhilfeentscheidung und Verbraucherinformation; nachgereichte Erstattungen ändern Gruppe, Summe und Antrag. Bisherigen Datenschutzanker begrenzt erhalten, kein Live-Client-Test. Redaktionelle Einstiegsprüfung 16.10.2026: Verbandsrechtlichen Zweck vor die Aufnahme gestellt; C-757/22 mit konkreter Verarbeitung und Grenze gegenüber kollektiven Zahlungsansprüchen vorgezogen. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "Drei Startmodi und konkrete Fortsetzung nach Erstattungen oder neuer Vertragsfassung ergänzt.",
+      "Verbandsqualifikation mit konkreten Normen statt bloßem Gesetzesverweis unterlegt.",
+      "Datenschutzbezogene Verbandsklage von kollektivem Schadensersatz abgegrenzt.",
+      "Button- und Probeaboanker im Werkstatttext verifiziert; sämtliche vorhandenen Serienfallgruppen erhalten.",
+      "Elektronischen Widerruf nach Paragraf 356a BGB von Kündigung abgegrenzt.",
+      "Verbandsrechtlichen Zweck vor die Aufnahme gestellt; C-757/22 mit konkreter Verarbeitung und Grenze gegenüber kollektiven Zahlungsansprüchen vorgezogen."
+    ],
+    "sha256": "b140ffb0dcfad506db5a6904d6e26392953358eb397e010e4dd276316a1c972e",
+    "reviewed_on": "2026-10-16"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Unterlassungsabmahnung, Entscheidungsvorlage zur Abhilfegruppe oder Verbraucherinformation anbieten.",
+      "Dateien ohne Auftrag: Qualifikation, Vertragsfassungen und Beschwerden still lesen; bei offenem Ziel passende Unterlassungs- oder Leistungsdokumente anbieten.",
+      "Klarer Auftrag: sofort am Dokument arbeiten; nur entscheidende Gruppenmerkmale, Qualifikation, Finanzierung oder Fristauslöser klären."
+    ],
+    "continuation": "Erstattungsbeleg -> neue Gruppensumme und Antragspassage; abweichende Klauselfassung -> getrennte Gruppendefinition; Verhandlungsschluss -> korrigierte Registerfrist in der Verbraucherinformation.",
+    "enrichment": "Konkreter Verarbeitungsvorgang für Datenschutzunterlassung, gruppenbezogene Gegenbelege und Rechenmethode, abgestellte Klausel, Finanzierereinfluss und Registerfrist bis zum gewählten Dokument ausgearbeitet.",
+    "limits": "desk review; no live client execution"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe für unseren qualifizierten Verband die Gleichartigkeit einer Abhilfeklagegruppe.",
+      "Bereinige Verbraucherbeschwerden und entwickle Klageziel, Berechnungsmethode und Quorumsnachweis."
+    ],
+    "negative": [
+      "Formuliere nur meinen persönlichen Widerruf gegenüber einem Onlineshop.",
+      "Gründe einen gemeinnützigen Sportverein ohne Verbraucherdurchsetzung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "servicegebuehren-gruppe-dubletten",
+      "request": "Erstelle ergebnis.md als interne Entscheidungsvorlage für unseren unstreitig klageberechtigten, eigenfinanzierten Verbraucherverband. Wir wollen Rückzahlung einer formularmäßig erhobenen Servicegebühr von 10 Euro monatlich verlangen; die materielle Unwirksamkeit der Klausel ist für diesen Arbeitsauftrag vorgegeben. 72 Beschwerden betreffen 60 verschiedene private Kunden desselben Unternehmens und derselben Klauselfassung; 12 Nachrichten sind Dubletten. Von den 60 haben 40 die Gebühr sechs Monate, 20 nur drei Monate gezahlt. Erstattungen gab es nicht. Weitere acht Kunden haben individuell verhandelte Pauschalverträge ohne diese Klausel und behaupten Beratungsfehler. Es ist noch keine Klage erhoben und niemand im Verbandsklageregister angemeldet. Bitte prüfe die geeignete Gruppenabgrenzung, das Quorum und die Berechnung, ohne die acht Beratungsfälle materiell zu entscheiden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Hauptgruppe umfasst 60 unterschiedliche Verbraucher, nicht 72 Beschwerden; das Quorum wird nicht wegen fehlender Registeranmeldungen als unerfüllt behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die unterschiedlichen Laufzeiten werden mit einer einheitlichen Methode erfasst: 40 mal 60 Euro plus 20 mal 30 Euro ergeben 3.000 Euro ohne Dubletten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die acht individuell beratenen Pauschalkunden werden wegen abweichender Anspruchsgrundlagen und Tatsachen nicht ungeprüft in dieselbe Abhilfegruppe einbezogen; Leistung und bloße Feststellung werden unterschieden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "verbraucherverband-abhilfeklage-musterfeststellung-w-uklag"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Am 23.09.2026 vollständig erneut gelesen: Datenschutzvortrag, Gruppenabgrenzung, konkrete Rechenmethode, Gegenäußerung, Finanzierungsänderung und Registerfrist führen zu überarbeiteten Anträgen und Verbrauchertexten. Vorhandene Serienfallgruppen und Entscheidungslimits bleiben erhalten. Redaktionelle Einstiegsprüfung 16.10.2026: Verbandsrechtlichen Zweck vor die Aufnahme gestellt; C-757/22 mit konkreter Verarbeitung und Grenze gegenüber kollektiven Zahlungsansprüchen vorgezogen. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "Anspruchsgruppen und kollektiver Gesamtbetrag anhand von Dubletten, Erstattungen und Vertragsabweichungen ausgearbeitet.",
+      "Finanzierungsverbote und Offenlegung sowie Dreiwochenfrist ab Verhandlungsschluss ohne Paragraf-193-Verschiebung aus aktuellen amtlichen Texten integriert.",
+      "Verbandsqualifikation mit konkreten Normen statt bloßem Gesetzesverweis unterlegt.",
+      "Datenschutzbezogene Verbandsklage von kollektivem Schadensersatz abgegrenzt.",
+      "Button- und Probeaboanker im Werkstatttext verifiziert; sämtliche vorhandenen Serienfallgruppen erhalten.",
+      "Elektronische Widerrufsfunktion und ihren Nachweis eigenständig eingeordnet.",
+      "Verbandsrechtlichen Zweck vor die Aufnahme gestellt; C-757/22 mit konkreter Verarbeitung und Grenze gegenüber kollektiven Zahlungsansprüchen vorgezogen."
+    ],
+    "sha256": "358d60d113e6d6c650ccb7bfed1809677f10152137764aabac8e0f8350411c7c",
+    "reviewed_on": "2026-10-16"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "verbraucherschutzverband-durchsetzung/verbraucherschutzverband-durchsetzung-werkstatt.md",
+      "verbraucherschutzverband-durchsetzung/verbraucherschutzverband-durchsetzung-schnellstart.md"
+    ],
+    "opening_change": "Konkret untersagbare Praxis und gemeinsam verfolgbare Verbraucheransprüche statt abstraktem Aufbau einer Verbandsakte.",
+    "norms": [
+      "Paragrafen 3 und 4 UKlaG",
+      "Paragraf 8 Absatz 3 UWG",
+      "Paragrafen 2, 4 und 15 VDuG",
+      "Artikel 12, 13 und 80 Absatz 2 der Verordnung (EU) 2016/679",
+      "Paragraf 356a BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 11. Juli 2024, C-757/22",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62022CJ0757",
+        "application": "Verletzte Informationsrechte als Gegenstand datenschutzbezogener Verbandsklage einordnen.",
+        "limit": "Amtlicher Volltext Rn. 40–44 und 61–65 gelesen; kein pauschaler Zugang zu kollektiven Zahlungsansprüchen."
+      },
+      {
+        "citation": "BGH, Urteil vom 16.07.2026 – I ZR 200/25, Kopf, Rn. 16–36",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_200-25.pdf?__blob=publicationFile&v=1",
+        "application": "Bestätigungsseite des Kündigungsbuttons darf keine Rückgewinnungs-/Pausenangebote enthalten; zulässige Inhalte abschließend.",
+        "limit": "Angebote vor erster Schaltfläche gesondert; Beschriftung und Seiteninhalt verschiedene Verletzungsformen, individueller Endtermin nicht automatisch entschieden.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Workflow-Review: Paragrafen 4, 15 und 46 VDuG aktuell vollständig gelesen. Bestehende EuGH-Anker in ihren Grenzen erhalten, keine neue vollständige Fallprüfung behauptet; keine flächendeckende Neuprüfung von Diesel-, Energie-, Banken- oder Registerpraxis.",
+      "Keine Live-Modellprüfung; Quellen- und Vertragsfassung für den Einzelfall erneut abgleichen."
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "verbraucherschutzverband-durchsetzung/verbraucherschutzverband-durchsetzung-schnellstart.md",
+      "verbraucherschutzverband-durchsetzung/verbraucherschutzverband-durchsetzung-werkstatt.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

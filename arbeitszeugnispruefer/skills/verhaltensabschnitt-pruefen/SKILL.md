@@ -1,14 +1,22 @@
 ---
 name: verhaltensabschnitt-pruefen
-description: "Wenn es um Verhaltensabschnitt pruefen in Arbeitszeugnispruefer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Prüft die Verhaltensbeurteilung eines Arbeitszeugnisses getrennt von der Leistungsbewertung auf relevante Bezugsgruppen, klare Formulierung und belegte Bewertungsstufe. Erstellt einen kontextgerechten Ersatzsatz."
 ---
 
-# Verhaltensabschnitt pruefen
+# Verhaltensabschnitt prüfen
 
-Der Verhaltensabschnitt bewertet das soziale Verhalten der beschaeftigten Person gegenueber verschiedenen Bezugsgruppen. Er traegt eine eigene Verhaltensnote neben der Leistungsnote und wird getrennt decodiert. Zwei Pruefschritte sind obligatorisch: die Reihenfolge der Bezugspersonen und die Formulierungsstufe.
+## 1. Bezugsgruppen und Bewertung
 
-Reihenfolge: Die korrekte Reihenfolge lautet Vorgesetzte vor Kollegen vor Kunden (oder branchenueblich begrundetem Kundenkontakt an zweiter Stelle). Die Reihenfolge hat eigenstaendige Aussagekraft. Werden Kollegen vor Vorgesetzten genannt, sendet das ein Signal, dass das Verhalten gegenueber Fuehrungskraeften zu wuenschen uebrig liess. Eine falsche Reihenfolge ist ein eigener Berichtigungspunkt und ist nach BAG-Linie klagbar; der Arbeitgeber muss die Umkehrung der Standardreihenfolge begruenden.
+Die Verhaltensbeurteilung gehört nach Paragraf 109 Absatz 1 Satz 3 GewO zum qualifizierten Zeugnis. Für ihre individuelle Darstellung verwende BAG, Urteil vom 27. April 2021, 9 AZR 262/20, Rn. 15 bis 20 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-262-20/)); für die Auslegung BAG, Urteil vom 15. November 2011, 9 AZR 386/10 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/)). Keine dieser Entscheidungen schreibt für jede Tätigkeit dieselbe Personengruppenfolge vor.
 
-Formulierungsstufe: „stets einwandfrei" ist die Maximalformel fuer Verhalten (Note 1). „Einwandfrei" ohne Steigerer ergibt Note 2 bis 3. „Korrekt" oder „ordnungsgemaess" signalisiert Note 3. Weichformulierungen wie „verstaendnisvoll" oder „zuvorkommend" im Verhaltensteil koennen, je nach Kontext, riskante Lesarten erzeugen (Grenzverletzungs- oder Annaeherungslesart bei bestimmten Positionen).
+Ermittle anhand der tatsächlichen Funktion, gegenüber welchen Gruppen das Verhalten zu beurteilen ist, etwa Vorgesetzten, Mitarbeitern, Kollegen, Kunden oder Geschäftspartnern. Prüfe, ob prägende Gruppen fehlen und ob die Formulierung eine nachvollziehbare Gesamtbewertung enthält. Eine verbreitete Reihenfolge ist ein Auslegungshinweis, keine starre gesetzliche Rangfolge; eine Abweichung ist nur bei konkreter objektiver Nachteilswirkung erheblich.
 
-Negative Verhaltenscodierungen: „direkte Kommunikationsweise" oder „setzte seine Meinung mit Nachdruck durch" sind riskante Konflikt-Codes. „War fuer seine Ansichten bekannt" und „brachte sich engagiert in Diskussionen ein" haben riskante Lesarten in Richtung Konfliktfreude. Der Pruefer prueft jeden Verhaltens-Satz auf diese Muster und kennzeichnet sie als orangen oder roten Befund, je nach Schwere der implizierten Lesart. In der Ausgabe wird nie behauptet, dass die Person bestimmte Eigenschaften tatsaechlich hatte, sondern nur, dass der Satz aus Empfaengersicht diese Lesart riskiert.
+Formulierungen wie „stets einwandfrei“ sind nach Wortlaut, Dauerbezug und Gesamtzusammenhang einzuordnen. Ist eine Aussage klar positiv, ohne dass die genaue numerische Abstufung belastbar feststeht, benenne genau dieses Ergebnis statt eine feste Schulnote zu erzwingen. Die Zufriedenheitsskala der Leistungsbewertung ist keine automatische Tabelle für Verhalten. Unterstelle aus Wörtern wie „direkt“, „engagiert“ oder „zuvorkommend“ ohne tragfähigen Kontext weder Konfliktneigung noch persönliche oder sexuelle Eigenschaften. Benenne nur eine objektiv vertretbare Mehrdeutigkeit und trenne sie von tatsächlichen Feststellungen zur Person.
+
+## 2. Ergebnis
+
+Gib Originalwortlaut, erfasste und fehlende Bezugsgruppen, belastbare Bewertungswirkung und Beweisgrundlage an. Ordne konkrete Konflikte oder positive Beispiele ihrem Zeitraum und ihrer Bezugsgruppe zu; ein einzelner Vorfall beschreibt nicht ohne Weiteres das gesamte Verhalten. Formuliere bei Änderungsbedarf einen vollständigen Satz, der die tatsächlich relevanten Gruppen und das belegte Bewertungsniveau klar erfasst. Vermische Verhaltensnote, Führungsleistung und Gesamtleistung nicht.
+
+## 3. Fortführung des Auftrags
+
+Setze den Ersatzsatz in den laufenden Prüfvermerk und das bestellte Dokument ein. Frage nur nach einer Bezugsgruppe oder belegten Verhaltensbewertung, wenn dies den Satz ändert; unabhängige Abschnitte werden abgeschlossen. Nach der Antwort aktualisierst du nur den offenen Teil und führst den Auftrag ohne Neustart fort. Die Bearbeitung endet nicht mit einer bloßen Deutungsliste.

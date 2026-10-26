@@ -1,6 +1,6 @@
 ---
 name: pfueb-bank
-description: "Wenn es um PfÜB Bankkonto in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für PfÜB Bankkonto: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # PfÜB Bankkonto
@@ -15,8 +15,8 @@ description: "Wenn es um PfÜB Bankkonto in Zwangsvollstreckung geht: erstellt d
 
 ## Startet bei
 
-- Vollstreckbarer Titel liegt vor (Drei-Säulen-Prüfung grün – sonst zurück an `zv-titel-klausel-zustellung`).
-- Bankverbindung des Schuldners bekannt **oder** zu ermitteln (dann erst `zv-kontensuche-drittschuldner`).
+- Vollstreckbarer Titel liegt vor (Drei-Säulen-Prüfung grün – sonst zurück an `titel-klausel-zustellung`).
+- Bankverbindung des Schuldners bekannt **oder** zu ermitteln (dann erst `kontensuche-drittschuldner`).
 - Schuldner nicht in Insolvenz (Paragraf 89 InsO – sonst Stop).
 
 ## Rechtsgrundlagen

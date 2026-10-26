@@ -1,6 +1,6 @@
 ---
 name: eilantrag-krankenkassen-leistung
-description: "Wenn es um Eilantrag gegen die Krankenkasse — wenn Sie nicht warten können in selbstvertreter-sozialgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Eilantrag gegen die Krankenkasse — wenn Sie nicht warten können: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Eilantrag gegen die Krankenkasse — wenn Sie nicht warten können
@@ -40,7 +40,6 @@ Die Krankenkasse sagt Nein. Aber Sie brauchen die Hilfe schnell. Sie können zum
 - **§ 27 SGB V** — Anspruch auf Krankenbehandlung.
 - **§ 33 SGB V** — Hilfsmittel.
 - **§ 40 SGB V** — Reha.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Anleitung
 
@@ -156,4 +155,4 @@ Das Gericht ordnet die Leistung vorlaeufig an. Die KK muss bezahlen. Die Hauptsa
 
 ## Quellen und Aktualitaet
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

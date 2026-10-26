@@ -1,6 +1,6 @@
 ---
 name: verwaltungsprozess-modus
-description: "Wenn es um Verwaltungsprozess-Modus (VwGO) in aktenauszug-gerichtsverfahren geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verwaltungsprozess-Modus (VwGO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verwaltungsprozess-Modus (VwGO)
@@ -35,10 +35,6 @@ Aktenauszug für VwGO-Verfahren erstellen: Anfechtungs- Verpflichtungsklage Beru
 - §§ 124-124a VwGO — Berufungszulassung und Berufungsbegründung
 - § 132 VwGO — Revisionszulassung (Divergenz, Grundsatzbedeutung, Verfahrensmangel)
 - § 58 Abs. 2 VwGO — Jahresfrist bei fehlerhafter Rechtsbehelfsbelehrung
-
-## Rechtsprechung (BVerwG — Leitsätze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Klagenarten (§ 42 VwGO)
 
@@ -102,3 +98,5 @@ Berufung bedarf der Zulassung durch das Oberverwaltungsgericht. Zulassungsgründ
 - Verwaltungsakt mit vollständigem Inhalt und Datum erfassen
 - Widerspruchsbescheid als eigenes Dokument in der Sachverhaltschronologie
 - Behördliche Aktenzeichen neben Gerichtsaktenzeichen angeben
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

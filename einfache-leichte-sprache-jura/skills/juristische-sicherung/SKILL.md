@@ -1,6 +1,6 @@
 ---
 name: juristische-sicherung
-description: "Wenn es um Juristische Sicherung in Einfache und Leichte Sprache für juristische Texte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Juristische Sicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Juristische Sicherung
@@ -12,9 +12,6 @@ Dieses Fachmodul vor und nach jeder Übertragung.
 2. Welche Pflichten (Muss-Handlungen) und welche Rechte (Kann-Optionen) sind enthalten?
 3. Gibt es Ausnahmen oder Vorbehalte, die praktisch wichtig sein können?
 4. Sind rechtliche Unsicherheiten oder offene Prüfungen im Originaltext erkennbar?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 58 VwGO — Rechtsbehelfsbelehrung und Fristverlaengerung bei fehlerhafter Belehrung
@@ -109,3 +106,5 @@ Gib am Ende einen Vermerk aus:
 - Begriffe erklärt: ...
 - Nicht geklärt: ...
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

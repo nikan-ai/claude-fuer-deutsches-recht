@@ -1,6 +1,6 @@
 ---
 name: excel-multi-kreuzblatt-konsistenzpruefung-pdf
-description: "Wenn es um /tabellenreview-3d:excel-multi-sheet-export in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Excel Multi Kreuzblatt Konsistenzpruefung Pdf; Arbeitsfeld: Tabellenreview 3D."
+description: "Für /tabellenreview-3d:excel-multi-sheet-export: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # /tabellenreview-3d:excel-multi-sheet-export
@@ -22,7 +22,6 @@ description: "Wenn es um /tabellenreview-3d:excel-multi-sheet-export in Tabellen
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Aufbau der Excel-Datei
 
@@ -82,3 +81,5 @@ Reviewlauf-Zeitstempel, verwendete Modell-Version, Laufdauer, Anzahl Zellen, Anz
 ## Grenzen
 
 Excel kann große Stapel handeln; ab 100.000 Zellen sind PDF und CSV pro Reiter zu erwägen (siehe Skill `pdf-bericht-erzeugen`).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

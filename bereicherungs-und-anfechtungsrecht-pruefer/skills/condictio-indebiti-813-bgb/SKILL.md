@@ -1,6 +1,6 @@
 ---
 name: condictio-indebiti-813-bgb
-description: "Wenn es um Condictio indebiti — Paragraf 813 BGB in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Condictio indebiti — Paragraf 813 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Condictio indebiti — § 813 BGB
@@ -16,14 +16,6 @@ description: "Wenn es um Condictio indebiti — Paragraf 813 BGB in bereicherung
 ## Zentrale Normen
 
 § 813 BGB (Rückforderung bei dauernder Einrede) — § 214 BGB (Verjährungseinrede) — § 853 BGB (Einrede der Arglist) — § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) — § 814 BGB (Kenntnis der Nichtschuld) — § 818 BGB (Umfang der Herausgabe) — § 222 BGB a.F. (Verjährungseinrede, für Altfälle)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Obersatz
 
@@ -85,3 +77,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

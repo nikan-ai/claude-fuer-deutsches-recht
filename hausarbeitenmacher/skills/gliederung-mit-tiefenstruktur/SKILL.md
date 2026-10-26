@@ -1,6 +1,6 @@
 ---
 name: gliederung-mit-tiefenstruktur
-description: "Wenn es um Gliederung mit Tiefen-Struktur in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gliederung mit Tiefen-Struktur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gliederung mit Tiefen-Struktur
@@ -18,9 +18,6 @@ description: "Wenn es um Gliederung mit Tiefen-Struktur in hausarbeitenmacher �
 2. Wie ist die gewuenschte Tiefe der Gliederung (Anfaenger: A.I.1.a), Examen: tiefer)?
 3. Gibt es Konkurrenzen zwischen Anspruchsgrundlagen, die in der Gliederung sichtbar sein müssen?
 4. Sollen Hilfsweise-Prüfungen als eigene Gliederungspunkte oder als Unterpunkte erscheinen?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 242 BGB — Treu und Glauben: Gliederung muss die rechtlichen Beziehungen vollstaendig abbilden
@@ -269,3 +266,5 @@ B. Ansprüche des B gegen A....................................... 15
 - `zivilrecht-anspruchsgrundlagen-pruefung` — Detail Zivilrecht-Schema
 - `öffentliches-recht-statthaft-zulaessig-begruendet` — ÖR-Schema
 - `strafrecht-tatbestand-rechtswidrigkeit-schuld` — Strafrecht-Schema
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

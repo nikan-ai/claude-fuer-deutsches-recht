@@ -1,6 +1,6 @@
 ---
 name: anspruchsberechtigung-antragsgenerator
-description: "Wenn es um JVEG-Anspruchsberechtigung in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für JVEG-Anspruchsberechtigung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # JVEG-Anspruchsberechtigung
@@ -67,25 +67,3 @@ Rollenzuordnung mit Normenbegründung; Weiterleitung an spezifische Vergütungsp
 ## Leitplanken
 - Rollenzuordnung ist abschließend nach § 2 JVEG; keine analoge Ausweitung.
 - Hinweis: Keine Rechtsberatung. Ausgaben dienen der internen Arbeitsvorbereitung.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 JVEG
-- § 23 JVEG
-- § 4 JVEG
-- § 8a JVEG
-- § 2 JVEG
-- § 3 JVEG
-- § 7 JVEG
-- § 9 JVEG
-- § 6 JVEG
-- § 12 JVEG
-- § 8 JVEG
-- § 22 JVEG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

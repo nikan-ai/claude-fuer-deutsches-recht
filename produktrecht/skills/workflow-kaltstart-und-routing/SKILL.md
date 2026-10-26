@@ -1,6 +1,6 @@
 ---
 name: workflow-kaltstart-und-routing
-description: "Wenn es um Kaltstart und Routing in Produkthaftung und Produktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht."
 ---
 
 # Kaltstart und Routing
@@ -41,3 +41,4 @@ Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen,
 - **Rückrufmanagement:** Meldung an BAuA über Safety Business Gateway / Safety Gate (RAPEX); Behörden-Anordnungen nach § 8 ProdSG (Marktrücknahme, Rückruf, Verbot).
 - **Frist:** § 12 ProdHaftG 3 Jahre kenntnisabhängig, § 13 ProdHaftG 10 Jahre kenntnisunabhängig ab Inverkehrbringen.
 - Falle: KI- oder Lithium-Komponenten unterliegen zusätzlichen Pflichten (AI Act, Batterieverordnung); Konformität nicht nur national, sondern unionsweit prüfen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

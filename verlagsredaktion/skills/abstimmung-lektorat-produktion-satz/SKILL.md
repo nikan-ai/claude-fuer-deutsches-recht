@@ -1,6 +1,6 @@
 ---
 name: abstimmung-lektorat-produktion-satz
-description: "Wenn es um Abstimmung Lektorat / Redaktion (Format-Klärung) in Verlagsredaktion geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Abstimmung Lektorat / Redaktion (Format-Klärung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verlagsredaktion. Route: abstimmung-lektorat-produktion-satz."
 ---
 
 # Abstimmung Lektorat / Redaktion (Format-Klärung)
@@ -118,24 +118,3 @@ Mueller-Plattform_v7_druck.docx (an Produktion)
 - Byrd / Lehmann, Zitierfibel für Juristen, 2. Aufl. 2016.
 - Moellers, Juristische Arbeitstechnik, 11. Aufl. 2023.
 - Plachta, Editionswissenschaft, 4. Aufl. 2020 (zu Versionierungsdisziplin).
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 51 UrhG
-- § 38 UrhG
-- § 31a UrhG
-- § 33 VerlG
-- § 32a UrhG
-- Art. 6 DSGVO
-- § 8 DDG
-- § 27a UStG
-- § 14 UStG
-- § 203 StGB
-- § 32e UrhG
-- § 87 BetrVG
-
-### Leitentscheidungen
-
-- EuGH C-131/12

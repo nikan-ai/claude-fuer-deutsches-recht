@@ -1,6 +1,6 @@
 ---
 name: abgrenzung-konventionelle-software-vs-ki-system
-description: "Wenn es um Abgrenzung: Konventionelle Software versus digitale Werkzeuge-System in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Abgrenzung Konventionelle Software Vs Ki System."
+description: "Für Abgrenzung: Konventionelle Software versus digitale Werkzeuge-System: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: europäischem Technikregulierungsrecht. Route: abgrenzung-konventionelle-software-vs-ki-system."
 ---
 
 # Abgrenzung: Konventionelle Software versus KI-System
@@ -8,10 +8,10 @@ description: "Wenn es um Abgrenzung: Konventionelle Software versus digitale Wer
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Art. 5 Verbote ab 02.02.2025, Art. 51-55 GPAI ab 02.08.2025, Art. 50 Transparenz ab 02.08.2026, Hochrisiko Anhang III nach Digital-Omnibus-Zeitstrahl spätestens ab 02.12.2027, Anhang I spätestens ab 02.08.2028; vor Außenverwendung amtlichen Stand prüfen.
-- Tragende Normen verifizieren: KI-VO (EU 2024/1689) Art. 3, 5 (Verbote), 6 (Hochrisiko), 8-15 (Anforderungen), 16, 26 (Pflichten Anbieter/Betreiber), 50 (Transparenz), 51-55 (GPAI), 73, 99 (Sanktionen) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter, Betreiber, Importeur, Händler, Marktüberwachungsbehörde (BNetzA/BMDV), benannte Stelle, EU-AI-Office, AI Board.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung Art. 47, technische Dokumentation Anhang IV, Risikomanagement-System Art. 9, Datengovernance Art. 10, FRIA (Fundamental Rights Impact Assessment) Art. 27, EU-Datenbank-Registrierung Art. 49 — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: bisherige Verbote seit 02.02.2025, neue Verbote ab 02.12.2026; GPAI und Transparenz nach eigener Regel. Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, Anhang I ab 02.08.2028; Artikel 111 und 113 sowie einschlägige Zuständigkeit prüfen.
+- Tragende Normen verifizieren: KI-VO (EU 2024/1689) Art. 3, 5 (Verbote), 6 (Hochrisiko), 8-15 (Anforderungen), 16, 26 (Pflichten Anbieter/Betreiber), 50 (Transparenz), 51-55 (GPAI), 73, 99 (Sanktionen) — Unionsnormen in der aktuellen EUR-Lex-Fassung lesen; nationale Normen und Rechtsprechung an ihrer zuständigen amtlichen Quelle prüfen. Keine Modellwissen-Zitate und keine Suchauszüge als Volltextprüfung ausgeben.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter, Betreiber, Importeur, Händler, für den konkreten Bereich zuständige Marktüberwachungsbehörde, benannte Stelle, EU-AI-Office, AI Board.
+- Nur für den festgestellten Pflichtzweig benötigte Belege anfordern. Artikel 9 betrifft Systemrisiken, Artikel 17 das Qualitätsmanagement des Anbieters und Artikel 27 nur bestimmte Betreiber. Ein Risikoregister ersetzt keines dieser Produkte. Bei behaupteter Konformität die konkrete Systemfassung und gesetzliche Bewertungsroute, bei behaupteter Registrierung den zutreffenden Artikel-49-Zweig und Zugangsnachweis prüfen.
 
 ## Leitgedanke
 
@@ -119,32 +119,3 @@ System / Komponente: [NAME]
 ## Quellen- und Aktualitätshinweis
 
 Stand: 07/2026. Maßgeblich sind Art. 3 Nr. 1 KI-VO, Erwägungsgrund 12 und die Kommissionsleitlinien zur Definition des KI-Systems. Keine Rechtsberatung.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 KI-VO (verbotene Praktiken)
-- Art. 6, 7 KI-VO (Hochrisiko-KI-Systeme)
-- Art. 9, 10, 11 KI-VO (Risikomanagement, Daten, Technische Dokumentation)
-- Art. 13, 14 KI-VO (Transparenz, menschliche Aufsicht)
-- Art. 16 KI-VO (Pflichten Anbieter)
-- Art. 26, 27 KI-VO (Pflichten Betreiber)
-- Art. 50 KI-VO (Transparenz GPAI/Deepfakes)
-- Art. 53-55 KI-VO (Pflichten GPAI-Anbieter)
-- Art. 99-101 KI-VO (Sanktionen)
-- VO 2024/1689 (KI-VO, Inkrafttreten)
-
-### Leitentscheidungen
-
-- EuGH C-634/21 (automatisierte Entscheidung Art. 22 DSGVO)
-- EuGH C-203/22 (Profiling, Auskunftsrechte)
-- BVerfG, Urteil vom 16.02.2023 - 1 BvR 1547/19, 1 BvR 2634/20: automatisierte Polizeidatenanalyse verlangt normenklare Eingriffsschwellen, Zweckbindung und Verhältnismäßigkeit
-- OLG Köln 6 U 32/24 (Deepfake-Werbung)
-- OLG Stuttgart 2 U 63/22 (Mängel KI-System B2B)
-
-### Anwendung im Skill
-
-- KI-System-Klassifikation Art. 6 KI-VO: Risikoeinstufung vor Compliance-Pflichten prüfen.
-- Transparenz Art. 50 KI-VO erfasst auch Deepfakes; OLG Koeln 6 U 32/24 als Praxisbeispiel.
-- GPAI-Pflichten Art. 53-55 KI-VO ab August 2025; technische Dokumentation Annex XI vorhalten.

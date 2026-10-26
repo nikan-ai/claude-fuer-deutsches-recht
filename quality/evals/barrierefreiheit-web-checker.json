@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "plugin": "barrierefreiheit-web-checker",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__1.html",
+      "checked_on": "2026-09-14",
+      "supports": "Anwendungsbereich für bestimmte Verbraucherangebote einschließlich elektronischem Geschäftsverkehr."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__3.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 3 betrifft Kleinstunternehmen, die Dienstleistungen anbieten oder erbringen."
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html",
+      "checked_on": "2026-09-14",
+      "supports": "Technische Primärquelle des Standardgebers zum Verlassen tastaturbedienbarer Bereiche; keine amtliche Rechtsquelle und keine pauschale gesetzliche Konformitätsvermutung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2009/III_ZR__79-09.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 4. März 2010, III ZR 79/09, Randnummern 15 bis 27. Anwendung: Geschuldete funktionsfähige Website als Erfolg im Gesamtvertrag; werkvertragliche Mängelprüfung. Grenze: Keine Entscheidung über BFSG/WCAG und keine pauschale Einordnung von Hosting oder Beratung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Kleinstunternehmen-Ausnahme für Dienstleistungen in Absatz 3."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsgv/__19.html",
+      "checked_on": "2026-09-22",
+      "supports": "Elektronischer Geschäftsverkehr: Zugänglichkeit der Identifizierung, Authentifizierung, Sicherheits- und Zahlungsfunktionen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bfsg/__3.html",
+      "checked_on": "2026-09-23",
+      "supports": "Absatz 3: Ausnahme für Kleinstunternehmen als Dienstleistungserbringer; daraus keine pauschale Produktausnahme oder Vertragsbefreiung ableiten."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Mini führt von Checkout-, Authentifizierungs- oder Tastaturbarrieren zur BFSG-Einordnung und zum konkreten Mängelbegehren gegen den Webseitenhersteller. Individueller Text- und Quellenreview, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Redaktionelle Anschlussprüfung 16.10.2026: Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "BFSG Paragraf 1 Absatz 3 Nummer 5 und BFSGV Paragrafen 12 und 19 konkret zugeordnet.",
+      "III ZR 79/09 in die werkvertragliche Abhilfeprüfung integriert; keine behauptete BFSG-Rechtsprechung.",
+      "Leerstart: Nutzerweg, Agentur-Nachbesserung oder Verbraucherantwort anbieten. Dateien: Protokolle still lesen und passenden Prüf- oder Briefauftrag klären. Klarer Auftrag: Befund oder Dokument ohne vorgetäuschten Live-Test erstellen.",
+      "Gemeldete Escape-Korrektur führt zu Wiederholungstest samt Fokus; Vertragswortlaut verändert Nachbesserungsbegehren.",
+      "16.10.2026: Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen."
+    ],
+    "sha256": "c2be1b387bac419e8a6767b9d224a6196b960e0b276d23e996412acf3ad7842b",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "selection": {
+    "positive": [
+      "Bewerten Sie die dokumentierte Tastaturfalle in unserem Checkout und schreiben Sie ein Entwicklerticket.",
+      "Erstellen Sie einen Prüfplan für Formulare, Fokus und Screenreader eines Verbraucherportals."
+    ],
+    "negative": [
+      "Planen Sie eine rollstuhlgerechte Gebäuderampe.",
+      "Prüfen Sie ausschließlich Cookie-Einwilligungen ohne Barrierefreiheitsauftrag."
+    ]
+  },
+  "cases": [
+    {
+      "id": "checkout-dialog-tastaturfalle",
+      "request": "Erstellen Sie ergebnis.md als Auditbefund und Entwicklerticket aus folgendem Nutzerprotokoll; führen Sie keinen Live-Test aus. Ein privater deutscher Onlinehändler mit 60 Beschäftigten verkauft seit 2026 Haushaltswaren an Verbraucher. Im Checkout öffnet ein Rabattlink einen Dialog. Mit Tab erreicht man das Rabattfeld und Anwenden; danach springt der Fokus zum Rabattfeld zurück. Die sichtbare Schließen-Schaltfläche ist nicht fokussierbar, Escape hat keine Wirkung. Mit Maus lässt sich der Dialog schließen. Das Protokoll wurde am 14.09.2026 mit einem Desktopbrowser erstellt; dessen Version und Screenreaderverhalten sind nicht dokumentiert. Der automatisierte Scanner meldet keine Fehler. Technische Prüfgrundlage des Auftrags ist WCAG 2.2 AA; rechtliche Zuordnung bitte gesondert behandeln.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt den ohne Maus nicht verlassbaren Dialog als Tastaturhindernis und lässt sich nicht durch den fehlerfreien Scannerbericht zu einer Abnahme verleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Formuliert konkrete Abhilfe und Wiederholungsschritte einschließlich erreichbarer Schließfunktion und Fokus-Rückkehr, statt nur allgemeine Barrierefreiheit zu fordern.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Kennzeichnet den Befund als Auswertung eines Nutzerprotokolls, nennt die nicht geprüften Umgebungsdaten und trennt WCAG-Prüfgrundlage von rechtlicher BFSG-Zuordnung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "tastatur-fokus-ueberwachungsstelle"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt verbindet BFSG-Ausnahmen und BFSGV-Anforderungen mit dem geschuldeten Werkerfolg, ohne aus dem Internet-System-Vertrag eine allgemeine Barrierefreiheitsgarantie abzuleiten. Die bezeichneten Anker wurden am amtlichen Entscheidungstext geprüft; keine pauschale Vollverifikation aller Nebenmaterien. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Redaktionelle Anschlussprüfung 16.10.2026: Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "changes": [
+      "BFSG Paragraf 1 Absatz 3 Nummer 5 und BFSGV Paragrafen 12 und 19 konkret zugeordnet.",
+      "III ZR 79/09 in die werkvertragliche Abhilfeprüfung integriert; keine behauptete BFSG-Rechtsprechung.",
+      "Checkout-Nachtest, gesetzliche Ausnahme versus Vertrag, Agenturstreit und beschränkte Erklärung nach tatsächlichem Prüfumfang.",
+      "Gemeldete Escape-Korrektur führt zu Wiederholungstest samt Fokus; Vertragswortlaut verändert Nachbesserungsbegehren.",
+      "16.10.2026: Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen."
+    ],
+    "sha256": "c4726d41d63b352ae2f8123a9c187d18f6c58065094cefb2a71fe282cdbee54c",
+    "reviewed_on": "2026-10-16",
+    "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Nutzerweg, Agentur-Nachbesserung oder Verbraucherantwort anbieten.",
+      "Dateien: Protokolle still lesen und passenden Prüf- oder Briefauftrag klären.",
+      "Klarer Auftrag: Befund oder Dokument ohne vorgetäuschten Live-Test erstellen."
+    ],
+    "continuation": "Gemeldete Escape-Korrektur führt zu Wiederholungstest samt Fokus; Vertragswortlaut verändert Nachbesserungsbegehren.",
+    "enrichment": "Checkout-Nachtest, gesetzliche Ausnahme versus Vertrag, Agenturstreit und beschränkte Erklärung nach tatsächlichem Prüfumfang.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "barrierefreiheit-web-checker/README.md",
+      "barrierefreiheit-web-checker/barrierefreiheit-web-checker-werkstatt.md",
+      "barrierefreiheit-web-checker/barrierefreiheit-web-checker-schnellstart.md",
+      "quality/evals/barrierefreiheit-web-checker.json"
+    ],
+    "opening_change": "Bedienhindernis und vertragliche Abhilfe statt abstraktem Accessibility-Bericht.",
+    "norms": [
+      "Paragrafen 1 und 3 BFSG",
+      "Paragrafen 12 und 19 BFSGV",
+      "Paragrafen 631, 633, 634, 635 und 640 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 4. März 2010, III ZR 79/09, Randnummern 15 bis 27",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2009/III_ZR__79-09.pdf?__blob=publicationFile&v=1",
+        "application": "Geschuldete funktionsfähige Website als Erfolg im Gesamtvertrag; werkvertragliche Mängelprüfung.",
+        "limit": "Keine Entscheidung über BFSG/WCAG und keine pauschale Einordnung von Hosting oder Beratung."
+      }
+    ],
+    "remaining_limits": [
+      "Technische WCAG-/EN-Prüfung, öffentliche Stellen und konkrete Ausnahmebelege bleiben fallbezogen; nicht sämtliche Barrierefreiheitsrechtsprechung neu geprüft.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+    ]
+  },
+  "prompt_opening_review_2026_10_16": {
+    "batch": 1,
+    "date": "2026-10-16",
+    "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "reason": "Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen.",
+    "source_status": "Aus vorhandenen Prompt-/Eval-Nachweisen übernommen; Quellenstatus und Quellenprüfdaten unverändert.",
+    "files": [
+      {
+        "path": "barrierefreiheit-web-checker/barrierefreiheit-web-checker-schnellstart.md",
+        "sha256": "c2be1b387bac419e8a6767b9d224a6196b960e0b276d23e996412acf3ad7842b",
+        "reason": "Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen.",
+        "anchor_or_exception": "Technische Ausnahme: Paragrafen 1 und 3 BFSG, Paragraf 19 BFSGV und W3C WCAG 2.2; Tastaturfalle praktisch prüfen. Technischer Befund ist keine pauschale Konformitätsbescheinigung."
+      },
+      {
+        "path": "barrierefreiheit-web-checker/barrierefreiheit-web-checker-werkstatt.md",
+        "sha256": "c4726d41d63b352ae2f8123a9c187d18f6c58065094cefb2a71fe282cdbee54c",
+        "reason": "Technischen Nutzerweg und verwertbaren Befund vor Prüfkatalog gesetzt; Rechtsprechung nicht künstlich erzwungen.",
+        "anchor_or_exception": "Technische Ausnahme: Paragrafen 1 und 3 BFSG, Paragraf 19 BFSGV und W3C WCAG 2.2; Tastaturfalle praktisch prüfen. Technischer Befund ist keine pauschale Konformitätsbescheinigung."
+      }
+    ]
+  }
+}

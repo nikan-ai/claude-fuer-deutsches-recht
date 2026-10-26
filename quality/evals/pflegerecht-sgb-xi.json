@@ -1,0 +1,817 @@
+{
+  "schema_version": 1,
+  "plugin": "pflegerecht-sgb-xi",
+  "reviewed_on": "2026-09-30",
+  "sources": [
+    {
+      "url": "https://www.bsg.bund.de/DE/Verfahren/Verhandlungstermine/verhandlungstermine_uebersicht_2026.html",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche Übersicht: Pflegeurteile aus März und Juni; B 3 P 2/25 R und B 3 P 3/25 R am Stichtag nur für 01.10.2026 angekündigt."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_P_01_25_R.html",
+      "checked_on": "2026-09-30",
+      "supports": "Volltext: Corona-Erstattung, fehlende Verwaltungsaktbefugnis, echte Leistungsklage, ungedeckte Ausschlussfrist, Verzugszinsen und Gerichtskosten."
+    },
+    {
+      "url": "https://sozialgerichtsbarkeit.hessen.de/presse/verhinderungspflege",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche Mitteilung vom 28.09.2026 zu L 6 P 10/25 vom 22.06.2026; kein hier geprüfter Volltext. Verhinderungspflege und Rechtsnachfolge."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_11_13_B_03_P_03_24_R.html",
+      "checked_on": "2026-09-30",
+      "supports": "Volltext: kein automatischer vertraglicher Schadensersatz allein aus Aufhebung des Kündigungsbescheids."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_06_12_B_03_P_08_23_R.html",
+      "checked_on": "2026-09-30",
+      "supports": "Volltext: Sachleistungsaushilfe ist kein deutsches Pflegegeldwahlrecht; eigene Versicherung und EU-Zuständigkeit prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__15.html",
+      "checked_on": "2026-09-30",
+      "supports": "Punkteumrechnung, Module und Kinderzuordnung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__37.html",
+      "checked_on": "2026-09-30",
+      "supports": "Pflegegeld und aktuelle halbjährliche Pflichtberatung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+      "checked_on": "2026-09-30",
+      "supports": "Ersatzpflegekosten, Näheverhältnis und Erstattungsfrist."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__43c.html",
+      "checked_on": "2026-09-30",
+      "supports": "Bemessungsgrundlage und Berechnung durch die Pflegekasse ab Juli 2026."
+    },
+    {
+      "url": "https://www.bsg.bund.de/DE/Verfahren/Verhandlungstermine/verhandlungstermine_uebersicht_2026.html",
+      "checked_on": "2026-10-01",
+      "supports": "Jahresübersicht erneut gelesen: B 3 P 2/25 R und B 3 P 3/25 R zum Abruf weiterhin mit Terminvorschau; kein veröffentlichter Terminbericht 30/26 festgestellt. Keine Sachentscheidung daraus abgeleitet.",
+      "verification_status": "frisch_verfahrensuebersicht_keine_urteilspruefung"
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Verhandlungen/DE/2026/2026_10_01_B_03_P_02_25_R.html",
+      "checked_on": "2026-10-16",
+      "supports": "Die Wahl einer Bezugspflegekraft erlaubt keine Pflegevergütung oberhalb der vereinbarten Preise nach Paragraf 89 SGB XI. Investitionskosten können dem Entlastungsbetrag zugeordnet werden, wenn sie unmittelbar mit der Leistung verbunden, wirksam vereinbart und nach Paragraf 82 Absatz 3 oder 4 gesondert berechnet sind. Im Fall fehlte der Nachweis gesonderter Berechnung; die Revision blieb erfolglos. Grenze: Nur amtlicher Entscheidungsbericht vollständig gelesen, keine erfundenen Randnummern. Die Jahresübersicht verlinkte noch keine Urteilsgründe zu diesem Verfahren; daraus wird keine weltweite Nichtverfügbarkeit abgeleitet. Vor tragender Schriftsatzverwendung Gründe nachrecherchieren. Streitzeitraum 2017 mit 125 Euro nicht auf aktuellen Entlastungsbetrag von 131 Euro übertragen.",
+      "verification_status": "16.10.2026: Web-Werkzeug lieferte 403; amtliche HTML-Seite anschließend unmittelbar mit curl erfolgreich abgerufen und Bericht vollständig gelesen. Normen 45b und 82 mit Web-Werkzeug gelesen. Lokaler Beleg /tmp/bsg-p2-sozial-steuer.html."
+    },
+    {
+      "url": "https://www.bsg.bund.de/SharedDocs/Verhandlungen/DE/2026/2026_10_01_B_03_P_03_25_R.html",
+      "checked_on": "2026-10-16",
+      "supports": "Bei aktueller Kostenerstattung nach Paragraf 91 Absatz 2 SGB XI ohne Pflegesatzvereinbarung kein Zuschlag nach Paragraf 43c. Nach Wechsel in das Pflegesatzregime zählen jedoch auch frühere Bezugsmonate vollstationärer Pflege nach Paragraf 91 Absatz 2 für die Zuschlagsstufe; ebenso beim Vertragswechsel desselben Heims. Revision überwiegend erfolgreich. Grenze: Nur amtlicher Terminbericht vollständig gelesen. Keine Zuschlagszusage für die Zeit ohne Pflegesatzvereinbarung, keine Zuschüsse auf sämtliche Heimkosten, keine Übernahme historischer Prozentsätze. Bericht vor Verwendung als solchen benennen und nach Urteilsgründen suchen.",
+      "verification_status": "16.10.2026: Web-Abruf 403, unmittelbarer amtlicher HTML-Abruf erfolgreich. Einzelbericht vollständig gelesen; Normen 43c und 91 aktuell mit Web-Werkzeug gelesen. Lokaler Beleg /tmp/bsg-p3-sozial-steuer.html. Jahresübersicht ebenfalls unmittelbar amtlich gelesen."
+    }
+  ],
+  "selection": {
+    "target_skill": "pflegefall-bearbeiten",
+    "positive": [
+      "Mein Vater kommt aus der Klinik. Pflegebescheid und Dienstangebot liegen vor. Führe mich zum passenden Antrag und einer tragfähigen Versorgung nach SGB XI.",
+      "Übernimm den Pflegefall aus dem Ordner. Pflegegrad, Ersatzpflege und Heimzuschlag sind ungeklärt; bestimme den nächsten nötigen Antrag."
+    ],
+    "negative": [
+      "Prüfe die Kündigung einer angestellten Pflegefachkraft nach KSchG, nicht ihre Pflegeversicherung.",
+      "Prüfe die Kostenübernahme eines Krebsmedikaments nach SGB V; Pflegebedürftigkeit steht nicht im Raum."
+    ]
+  },
+  "cases": [
+    {
+      "id": "ersatzpflege-nach-tod",
+      "target_skill": "verhinderungs-kurzzeitpflege-abrechnen",
+      "request": "Meine Mutter starb 2022. Für Ersatzpflege aus 2020 bis 2022 wurden 4850 Euro vereinbart, aber nie bezahlt. Vor ihrem Tod gab es dazu keinen Erstattungsantrag und keine Feststellung. Ich habe als Erbe innerhalb von zwölf Monaten beantragt. Prüfe am 30.09.2026, ob allein diese Frist genügt, und entwirf eine Antwort. Vorhanden ist nur die amtliche Mitteilung vom 28.09.2026 zu L 6 P 10/25.",
+      "input_files": [],
+      "deliverables": [
+        "antwort.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt Paragraf 35 SGB XI von Paragraf 59 SGB I und verneint eine sichere Erstattung allein aufgrund der Zwölfmonatsfrist.",
+          "deliverables": [
+            "antwort.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Kennzeichnet L 6 P 10/25 als LSG-Entscheidung laut amtlicher Mitteilung, erfindet weder Volltextlektüre noch Randnummern.",
+          "deliverables": [
+            "antwort.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft Zahlung und damaligen Verfahrensstand ohne die Erstattungsfrist ab 2026 rückwirkend anzuwenden; liefert einen vollständigen Antwortentwurf.",
+          "deliverables": [
+            "antwort.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corona-erstattung-frist-und-klageart",
+      "target_skill": "pflegeeinrichtungen-verguetung-qualitaet-pruefen",
+      "request": "Ein zugelassener Heimträger verlangt nachgewiesene Corona-Mehraufwendungen aus Oktober bis Dezember 2021. Antrag vom 06.05.2022, Ablehnung nur wegen der in den Festlegungen genannten Frist 31.03.2022. Es liegen förmliche Ablehnungsbescheide vor. Erstelle anhand von B 3 P 1/25 R den Verfahrensvorschlag und einen verwendbaren Zahlungsantrag; über Verjährung und Rechtsbehelfszugang fehlen Angaben.",
+      "input_files": [],
+      "deliverables": [
+        "antrag.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet BSG vom 18.06.2026 dem alten Paragraf 150 zu, nicht einer heutigen Förderung, und unterscheidet ungedeckte Festlegungsfrist von gesetzlichen Fristen.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erkennt echte Leistungsklage und gesonderte Anfechtung erlassener Formalverwaltungsakte; Bescheide nicht ignorieren.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fragt nach Zugang und Verjährungsdaten, prüft Zinsbeginn und Gerichtskosten nach Paragraf 197a SGG, ohne einen sicheren Erfolg zu versprechen.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ankuendigung-ist-kein-urteil",
+      "target_skill": "pflegeheimkosten-zuschlag-pruefen",
+      "request": "Heute ist der 30.09.2026. Das Heim hatte nur einen Versorgungsvertrag, keine Pflegesatzvereinbarung. Ich möchte den Zuschlag nach Paragraf 43c auf die Kostenerstattung nach Paragraf 91 Absatz 2 rechnen. B 3 P 3/25 R steht morgen im Kalender. Formuliere das Schreiben bitte nicht so, als sei schon entschieden.",
+      "input_files": [],
+      "deliverables": [
+        "schreiben.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Kennzeichnet B 3 P 3/25 R als Terminvorschau für 01.10.2026, nicht als entschiedenes BSG-Urteil.",
+          "deliverables": [
+            "schreiben.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt regulären Heimzuschlag von der offenen Kostenerstattungsfrage und rechnet nicht vorbehaltlos die Standardstufen.",
+          "deliverables": [
+            "schreiben.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erstellt verwendbaren Antrag mit offengelegtem Streitpunkt und wahrt laufende Fristen, statt die gesamte Arbeit bis morgen einzustellen.",
+          "deliverables": [
+            "schreiben.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entlastung-bezugspflege-offen",
+      "target_skill": "haeusliche-pflegeleistungen-planen",
+      "request": "Am 30.09.2026 soll ein Antrag zu Entlastungsleistungen mit Aufschlag für eine feste Bezugspflegekraft und Investitionskosten vorbereitet werden. Ich halte B 3 P 2/25 R für eine sichere höchstrichterliche Bestätigung dieser Kosten. Preisvereinbarung und getrennte Rechnungspositionen liegen noch nicht vor.",
+      "input_files": [],
+      "deliverables": [
+        "antrag.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Korrigiert die behauptete Entscheidung: zum Stichtag nur Verhandlung für 01.10.2026 angekündigt.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Fordert Vertrag, Preise und Kostenaufteilung nach und prüft Paragrafen 45b Absatz 4 und 89 statt pauschaler Zusage.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erstellt einen vorläufig verwendbaren Antrag, trennt unstreitige Positionen und kündigt keine automatische spätere Entscheidungskontrolle an.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1-kein-pflegegeldwahlrecht",
+      "target_skill": "pflegeversicherung-beitraege-klaeren",
+      "request": "Meine Mutter lebt in Deutschland, erhält nur eine polnische Rente, ist ausschließlich dort versichert und hat S1-Sachleistungsaushilfe mit Pflegegrad 3. Sie möchte statt des Dienstes deutsches Pflegegeld. Bitte prüfe das anhand von B 3 P 8/23 R und erstelle das nächste zweckmäßige Schreiben.",
+      "input_files": [],
+      "deliverables": [
+        "schreiben.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Begründet aus Sachleistungsaushilfe kein Wahlrecht auf deutsches Pflegegeld und errechnet nicht automatisch eine Kombination.",
+          "deliverables": [
+            "schreiben.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Knüpft an Versicherungszuordnung statt Staatsangehörigkeit an; überträgt das Ergebnis nicht pauschal auf Doppelrentner.",
+          "deliverables": [
+            "schreiben.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft konkreten ausländischen Antrag und Weiterleitung, ohne aus Artikel 81 einen materiellen deutschen Leistungsanspruch abzuleiten.",
+          "deliverables": [
+            "schreiben.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuendigungsaufhebung-kein-haftungsautomatismus",
+      "target_skill": "pflegeeinrichtungen-verguetung-qualitaet-pruefen",
+      "request": "Die Kündigung des Versorgungsvertrags wurde wegen Begründungsfehlern aufgehoben. Der Heimträger will deshalb seinen gesamten entgangenen Gewinn ohne weitere Prüfung ersetzt verlangen. Bereite einen Brief zur Durchsetzung vor, aber ordne B 3 P 3/24 R korrekt ein. Zu Vertragsmängeln, milderen Mitteln und Schadenshöhe fehlen noch Belege.",
+      "input_files": [],
+      "deliverables": [
+        "brief.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Leitet aus der Aufhebung nicht automatisch eine vertragliche Pflichtverletzung ab; prüft Paragraf 61 Satz 2 SGB X und Paragraf 280 BGB.",
+          "deliverables": [
+            "brief.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Fordert konkrete Angaben zu Kündigungssachverhalt und Verhältnismäßigkeit nach und wahrt die bestehende Aufhebung.",
+          "deliverables": [
+            "brief.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erfindet weder Schadenssumme noch eine vom BSG entschiedene Beweislastregel zu Kausalität; formuliert die benötigte weitere Aufklärung verständlich.",
+          "deliverables": [
+            "brief.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aufnahme-ohne-neustart",
+      "target_skill": "pflegefall-bearbeiten",
+      "request": "Meine Mutter ist sozial pflegeversichert und hat Pflegegrad 3. Der Dienst beginnt Montag. Ich habe bereits den Bescheid und ein Angebot; bitte nur einen Antrag auf Kombinationsleistung vorbereiten, nicht nochmals sämtliche Stammdaten erfragen. Noch unklar ist die monatliche Sachleistungsabrechnung.",
+      "input_files": [],
+      "deliverables": [
+        "antrag.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Führt zur häuslichen Kombination und fragt gezielt nach dem maßgeblichen Dienstbetrag statt neuer Vollaufnahme.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erfindet keine monatliche Quote und benennt den davon abhängigen offenen Antragsteil.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert einen ausformulierten Antrag, keine bloße Übersicht der möglichen Skills.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-nicht-addieren",
+      "target_skill": "pflegegrad-gutachten-pruefen",
+      "request": "Im Gutachten meines volljährigen Vaters stehen bereits gewichtete Werte: Modul 1 null, Modul 2 zehn, Modul 3 fünfzehn, Modul 4 zwanzig, Modul 5 fünf, Modul 6 sieben Komma fünf Punkte. Ich möchte Module 2 und 3 addieren und Pflegegrad 4 verlangen. Prüfe Rechnung und Einwand.",
+      "input_files": [],
+      "deliverables": [
+        "pruefung.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Verwendet max(10,15), nicht die Summe und keine erneute Gewichtung der bereits gewichteten Werte.",
+          "deliverables": [
+            "pruefung.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ermittelt 47.5 Gesamtpunkte und regulär Pflegegrad 3, ohne eine medizinische Neuprüfung als erledigt darzustellen.",
+          "deliverables": [
+            "pruefung.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bezieht B 3 P 5/24 R auf Gewichtung und fragt für eine höhere Bewertung nach konkreten falsch erfassten Kriterien.",
+          "deliverables": [
+            "pruefung.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kombination-2026",
+      "target_skill": "haeusliche-pflegeleistungen-planen",
+      "request": "Für September 2026 gilt durchgehend Pflegegrad 3. Der zugelassene Dienst hat genau 898.20 Euro Sachleistung verbraucht, keine weiteren Anrechnungen oder Unterbrechungen. Bitte rechne Restpflegegeld und erkläre der Familie, ob sie jedes Vierteljahr zur Pflichtberatung muss.",
+      "input_files": [],
+      "deliverables": [
+        "brief.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Rechnet 60 Prozent Sachleistungsverbrauch und 239.60 Euro Pflegegeld.",
+          "deliverables": [
+            "brief.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Nennt aktuelle halbjährliche Pflichtberatung, nicht alte pauschale Vierteljahresregeln.",
+          "deliverables": [
+            "brief.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert verständlichen vollständigen Brief mit nachvollziehbarer Rechnung.",
+          "deliverables": [
+            "brief.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ersatzpflege-frist-und-budget",
+      "target_skill": "verhinderungs-kurzzeitpflege-abrechnen",
+      "request": "Für Ersatzpflege im August 2026 soll im November 2027 Erstattung beantragt werden. Pflegegrad 3 besteht. Kurzzeitpflege hat schon 2100 Euro verbraucht. Die im Haushalt wohnende Tochter hat nicht erwerbsmäßig vertreten und verlangt 1400 Euro ohne weitere belegte Auslagen. Bereite die Antwort vor.",
+      "input_files": [],
+      "deliverables": [
+        "antwort.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet rechnerischen Rest 1439 Euro von der regelmäßigen Angehörigengrenze 1198 Euro.",
+          "deliverables": [
+            "antwort.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verlangt Kostennachweis und prüft Antrag bis 31.12.2027, ohne vorherige Beantragung zu fordern.",
+          "deliverables": [
+            "antwort.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erfindet keine Auslagen, Stunden oder Quittungen zum Ausschöpfen des Restbudgets.",
+          "deliverables": [
+            "antwort.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rampe-und-bad-gesamtmassnahme",
+      "target_skill": "pflegehilfsmittel-wohnumfeld-beantragen",
+      "request": "Rampe und Badumbau waren im September 2026 objektiv gleichzeitig wegen desselben Pflegebedarfs notwendig. Zwei Firmen rechnen je 4000 Euro ab. Der Versicherte lebt allein und beantragt zweimal 4180 Euro. Bitte prüfe dies und entwirf ein sachgerechtes Schreiben, ohne zusätzliche Tatsachen zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "antrag.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt Gesamtmaßnahme und höchstens 4180 Euro bei dieser einen Person, nicht einen Zuschuss je Rechnung.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ordnet B 3 P 5/22 R begrenzt zu Gesamtmaßnahme und Abgrenzung zu, nicht als automatische Rampenbewilligung.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fordert nötige Funktions- und Kostenbelege und formuliert den Antrag ohne technische Garantie.",
+          "deliverables": [
+            "antrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heimwechsel-zuschlag",
+      "target_skill": "pflegeheimkosten-zuschlag-pruefen",
+      "request": "Im August 2026 wechselt ein Bewohner mit Pflegegrad 3 nach zwölf berücksichtigten Bezugsmonaten das Heim. Der neue Monat ist der dreizehnte. Pflegebedingter Eigenanteil 1200 Euro, weitere nicht zuschussfähige Kosten 1200 Euro. Das Heim nennt wegen Neueinzugs 15 Prozent auf alles. Bitte korrigieren.",
+      "input_files": [],
+      "deliverables": [
+        "korrektur.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Setzt 30 Prozent auf 1200 Euro, also 360 Euro Zuschlag, an; keine Kürzung der gesamten 2400 Euro.",
+          "deliverables": [
+            "korrektur.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verliert Voraufenthalt nicht und berücksichtigt Berechnung durch Kasse ab Juli 2026.",
+          "deliverables": [
+            "korrektur.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verlangt Datenabgleich und korrigierte Rechnung, ohne eigenmächtigen Zahlungsstopp.",
+          "deliverables": [
+            "korrektur.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pflegeperson-erwerbsstunden",
+      "target_skill": "pflegepersonen-absicherung-pruefen",
+      "request": "Ich pflege meinen Vater mit Pflegegrad 3 an vier Tagen insgesamt zwölf Stunden pro Woche, arbeite daneben regelmäßig 32 Stunden und frage nach Rentenbeiträgen sowie Unfallversicherung. Meine Schwester möchte außerdem Pflegeunterstützungsgeld. Es fehlen Angaben zu bereits genutzten Ausfalltagen.",
+      "input_files": [],
+      "deliverables": [
+        "beratung.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft Überschreitung der 30-Stunden-Erwerbsgrenze für Rentenbeiträge.",
+          "deliverables": [
+            "beratung.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verneint Unfallversicherung nicht automatisch aus derselben Grenze.",
+          "deliverables": [
+            "beratung.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fragt für Pflegeunterstützungsgeld nach Ausfall, Entgeltfortzahlung und bereits genutzten Tagen für denselben Angehörigen.",
+          "deliverables": [
+            "beratung.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beitrag-elterneigenschaft",
+      "target_skill": "pflegeversicherung-beitraege-klaeren",
+      "request": "Mein zweites Kind ist im August 2026 fünfundzwanzig geworden. Die Lohnabrechnung setzt nun Kinderlosenzuschlag an und verwendet einfach die Zahl aus Paragraf 55 Absatz 1. Ich arbeite in Sachsen. Bitte prüfe die Vorgehensweise und bereite eine gezielte Anfrage an die Abrechnungsstelle vor.",
+      "input_files": [],
+      "deliverables": [
+        "anfrage.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt dauerhafte Elterneigenschaft von altersbegrenztem Mehrkinderabschlag.",
+          "deliverables": [
+            "anfrage.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft wirksame Beitragssatzverordnung und Sachsenregel statt pauschaler Halbteilung.",
+          "deliverables": [
+            "anfrage.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verlangt monatliche Rechengrundlage und behauptet ohne sie keinen endgültigen Erstattungsbetrag.",
+          "deliverables": [
+            "anfrage.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "private-pflegeablehnung",
+      "target_skill": "pflegebescheid-rechtsbehelf-erstellen",
+      "request": "Mein privater Pflegepflichtversicherer lehnt die beantragte Leistung mit einfachem Brief ab. Es geht weder um Beihilfe noch um einen Zusatzvertrag. Ein Bekannter meint, ich müsse binnen eines Monats Widerspruch nach Paragraf 84 SGG einlegen und danach vor das Zivilgericht. Bitte bereite die richtige nächste Reaktion vor.",
+      "input_files": [],
+      "deliverables": [
+        "reaktion.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Kein Verwaltungsakt und kein automatisches förmliches Widerspruchsverfahren nach Paragraf 84.",
+          "deliverables": [
+            "reaktion.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ordnet private Pflegepflichtversicherung dem Sozialrechtsweg nach Paragraf 51 SGG zu.",
+          "deliverables": [
+            "reaktion.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verlangt Vertrag, Ablehnungsgründe und Leistung und liefert verwendbare Leistungsaufforderung ohne erfundene Frist.",
+          "deliverables": [
+            "reaktion.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "einrichtung-pruefbericht",
+      "target_skill": "pflegeeinrichtungen-verguetung-qualitaet-pruefen",
+      "request": "Ein ambulanter Betreuungsdienst erhält nach Prüfung im September 2026 Beanstandungen und eine Rückforderung für acht Einsätze. Der Leiter möchte fehlende Unterschriften nachtragen und den stationären Prüfkatalog verwenden. Rahmenvertrag und Vergütungsvereinbarung fehlen noch. Bereite eine belastbare Stellungnahme vor.",
+      "input_files": [],
+      "deliverables": [
+        "stellungnahme.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Wählt passende ambulante Richtlinie Teil 1b und prüft 2026 geltende Fassung anhand Besuchsdatum.",
+          "deliverables": [
+            "stellungnahme.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erfindet keine Unterschriften oder rückdatierten Nachweise und unterscheidet heutigen erläuternden Nachtrag.",
+          "deliverables": [
+            "stellungnahme.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fordert Verträge nach und bearbeitet belegbare Positionen, ohne sämtliche Arbeit einzustellen oder Vergütung zu erfinden.",
+          "deliverables": [
+            "stellungnahme.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-30",
+    "method": "desk_review",
+    "files": [
+      "pflegerecht-sgb-xi/README.md",
+      "pflegerecht-sgb-xi/pflegerecht-sgb-xi-werkstatt.md",
+      "pflegerecht-sgb-xi/pflegerecht-sgb-xi-schnellstart.md",
+      "pflegerecht-sgb-xi/references/rechtsstand-und-quellen.md",
+      "pflegerecht-sgb-xi/skills/haeusliche-pflegeleistungen-planen/SKILL.md",
+      "pflegerecht-sgb-xi/skills/pflegebescheid-rechtsbehelf-erstellen/SKILL.md",
+      "pflegerecht-sgb-xi/skills/pflegeeinrichtungen-verguetung-qualitaet-pruefen/SKILL.md",
+      "pflegerecht-sgb-xi/skills/pflegefall-bearbeiten/SKILL.md",
+      "pflegerecht-sgb-xi/skills/pflegeheimkosten-zuschlag-pruefen/SKILL.md"
+    ],
+    "opening_change": "Pflegegrad, Versorgung, Kosten und Rechtsbehelf als konkrete Einstiegspfade; vorhandene Belege vor Rückfragen.",
+    "norms": [
+      "Paragrafen 14 und 15 SGB XI",
+      "Paragrafen 37 bis 40 und 42a SGB XI",
+      "Paragraf 43c SGB XI",
+      "Paragrafen 51, 84 und 87 SGG"
+    ],
+    "decisions": [
+      {
+        "citation": "Hessisches LSG, Urteil vom 22.06.2026, L 6 P 10/25",
+        "url": "https://sozialgerichtsbarkeit.hessen.de/presse/verhinderungspflege",
+        "application": "Zahlung vor Tod, Rechtsnachfolge und vorherigen Verfahrensstand prüfen; Zwölfmonatsfrist allein genügt nicht.",
+        "limit": "Amtliche Pressemitteilung vom 28.09.2026, kein hier geprüfter Volltext; Altleistungen nicht mit Frist ab 2026 vermischen.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BSG, Urteil vom 18.06.2026, B 3 P 1/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_06_18_B_03_P_01_25_R.html",
+        "application": "Ungedeckte Ausschlussfrist nach altem Paragraf 150; Formalverwaltungsakte und Zahlungsbegehren getrennt behandeln.",
+        "limit": "Gesetzliche Fristen, Verjährung und Verwirkung bleiben bestehen; keine neue Förderung heutiger Kosten.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BSG, Urteil vom 13.11.2025, B 3 P 3/24 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_11_13_B_03_P_03_24_R.html",
+        "application": "Kündigungssachverhalt und Verhältnismäßigkeit eigenständig für vertragliche Pflichtverletzung prüfen.",
+        "limit": "Keine automatische Haftung aus Bescheidaufhebung, aber auch kein allgemeiner Haftungsausschluss; Kausalität und Höhe nicht tragend.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BSG, Urteil vom 12.06.2025, B 3 P 8/23 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_06_12_B_03_P_08_23_R.html",
+        "application": "S1-Sachleistungsaushilfe, eigene Mitgliedschaft und EU-Geldleistungszuständigkeit vor Kombination trennen.",
+        "limit": "Keine Ablehnung nach Staatsangehörigkeit; Doppelrentner und eigene deutsche Versicherung gesondert prüfen.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BSG, Urteil vom 05.03.2026, B 3 P 5/24 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_03_05_B_03_P_05_24_R.html",
+        "application": "Gewichtung der Module und besondere Bedarfskonstellation getrennt prüfen.",
+        "limit": "Kein Ausschluss eines Pflegegrads allein wegen einer Diagnose.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendete_dokumentierte_fallkarte"
+      },
+      {
+        "citation": "BSG, Urteil vom 12.12.2024, B 3 P 9/23 R",
+        "url": "https://www.sozialgerichtsbarkeit.de/node/177388/pdf",
+        "application": "Krankheitsbedingten Mehrbedarf des Kindes konkret auch in Modulen 3 und 4 untersuchen.",
+        "limit": "Kein automatischer Pflegegrad bei Diabetes.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendete_dokumentierte_fallkarte"
+      },
+      {
+        "citation": "BSG, Urteil vom 30.11.2023, B 3 P 5/22 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_11_30_B_03_P_05_22_R.html",
+        "application": "Technische Hilfe, Wohnumfeld und Gesamtmaßnahme unterscheiden.",
+        "limit": "Keine Zusage einer Krankenversicherungsleistung; Verzögerungszahlung nach damaliger Fassung.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendete_dokumentierte_fallkarte"
+      },
+      {
+        "citation": "BSG, Urteil vom 01.10.2026, B 3 P 2/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Verhandlungen/DE/2026/2026_10_01_B_03_P_02_25_R.html",
+        "application": "Die Wahl einer Bezugspflegekraft erlaubt keine Pflegevergütung oberhalb der vereinbarten Preise nach Paragraf 89 SGB XI. Investitionskosten können dem Entlastungsbetrag zugeordnet werden, wenn sie unmittelbar mit der Leistung verbunden, wirksam vereinbart und nach Paragraf 82 Absatz 3 oder 4 gesondert berechnet sind. Im Fall fehlte der Nachweis gesonderter Berechnung; die Revision blieb erfolglos.",
+        "limit": "Nur amtlicher Entscheidungsbericht vollständig gelesen, keine erfundenen Randnummern. Die Jahresübersicht verlinkte noch keine Urteilsgründe zu diesem Verfahren; daraus wird keine weltweite Nichtverfügbarkeit abgeleitet. Vor tragender Schriftsatzverwendung Gründe nachrecherchieren. Streitzeitraum 2017 mit 125 Euro nicht auf aktuellen Entlastungsbetrag von 131 Euro übertragen.",
+        "checked_on": "2026-10-16",
+        "verification_status": "16.10.2026: Web-Werkzeug lieferte 403; amtliche HTML-Seite anschließend unmittelbar mit curl erfolgreich abgerufen und Bericht vollständig gelesen. Normen 45b und 82 mit Web-Werkzeug gelesen. Lokaler Beleg /tmp/bsg-p2-sozial-steuer.html.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json",
+        "workflow_effect": "Vertrag, Abtretung, Preisvereinbarung, getrennte Rechnungspositionen und Restbudget abgleichen. Fehlende gesonderte Berechnung nachfordern; weder alle Investitionskosten ausschließen noch jeden Bezugspflegeaufschlag erstatten. Landeszustimmung beziehungsweise Mitteilung und öffentliche Förderung nach Paragraf 82 gesondert beachten."
+      },
+      {
+        "citation": "BSG, Urteil vom 01.10.2026, B 3 P 3/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Verhandlungen/DE/2026/2026_10_01_B_03_P_03_25_R.html",
+        "application": "Bei aktueller Kostenerstattung nach Paragraf 91 Absatz 2 SGB XI ohne Pflegesatzvereinbarung kein Zuschlag nach Paragraf 43c. Nach Wechsel in das Pflegesatzregime zählen jedoch auch frühere Bezugsmonate vollstationärer Pflege nach Paragraf 91 Absatz 2 für die Zuschlagsstufe; ebenso beim Vertragswechsel desselben Heims. Revision überwiegend erfolgreich.",
+        "limit": "Nur amtlicher Terminbericht vollständig gelesen. Keine Zuschlagszusage für die Zeit ohne Pflegesatzvereinbarung, keine Zuschüsse auf sämtliche Heimkosten, keine Übernahme historischer Prozentsätze. Bericht vor Verwendung als solchen benennen und nach Urteilsgründen suchen.",
+        "checked_on": "2026-10-16",
+        "verification_status": "16.10.2026: Web-Abruf 403, unmittelbarer amtlicher HTML-Abruf erfolgreich. Einzelbericht vollständig gelesen; Normen 43c und 91 aktuell mit Web-Werkzeug gelesen. Lokaler Beleg /tmp/bsg-p3-sozial-steuer.html. Jahresübersicht ebenfalls unmittelbar amtlich gelesen.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json",
+        "workflow_effect": "Anspruch vor dem Vertragswechsel und Prozentsatz danach trennen. Wirksamkeitsbeginn der Vereinbarung einschließlich möglicher Rückwirkung und frühere Leistungsbescheide anfordern; belegte Differenz berechnen und Korrekturschreiben verfassen. Keine pauschale offene Doppelrechnung mehr nach bereits veröffentlichtem Terminbericht."
+      }
+    ],
+    "remaining_limits": [
+      "Redaktionelle Quellenprüfung und Ergebnisfälle, noch keine unabhängigen Modellläufe.",
+      "Keine medizinische Diagnose oder verbindliche technische Rampenprüfung.",
+      "Landesrecht, Versicherungsvertrag und historische Beträge bleiben fallbezogen zu prüfen.",
+      "B 3 P 2/25 R und B 3 P 3/25 R am 30.09.2026 nur Terminvorschauen, kein Urteilsergebnis."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-30",
+    "method": "desk_review",
+    "opening_modes": [
+      "Klarer Antrag mit vorhandenen Belegen: unmittelbar entwerfen.",
+      "Unklarer Pflegefall: konkrete Richtung und entscheidende Lücke klären.",
+      "Naher Fristablauf: fristwahrenden Entwurf priorisieren.",
+      "Rückantwort: vorhandenen Vorgang ohne Neustart fortführen."
+    ],
+    "continuation": "Neue Belege ändern nur abhängige Bewertungen, Rechnungen und Textteile; offene Nachweise gezielt anfordern.",
+    "enrichment": "Leistungszeitraum, Versicherungsart, konkrete Hilfehandlungen, Rechenbeispiele und ausformulierte Empfängertexte.",
+    "limits": "Keine selbsttätige Einreichung, Diagnose oder tatsächlich nicht erzeugte Datei."
+  },
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Vertrag, Abtretung, Preisvereinbarung, getrennte Rechnungspositionen und Restbudget abgleichen. Fehlende gesonderte Berechnung nachfordern; weder alle Investitionskosten ausschließen noch jeden Bezugspflegeaufschlag erstatten. Landeszustimmung beziehungsweise Mitteilung und öffentliche Förderung nach Paragraf 82 gesondert beachten.; Anspruch vor dem Vertragswechsel und Prozentsatz danach trennen. Wirksamkeitsbeginn der Vereinbarung einschließlich möglicher Rückwirkung und frühere Leistungsbescheide anfordern; belegte Differenz berechnen und Korrekturschreiben verfassen. Keine pauschale offene Doppelrechnung mehr nach bereits veröffentlichtem Terminbericht.",
+    "changes": [
+      "Aktueller Beratungsrhythmus, Ersatzpflegefrist und Heimzuschlag.",
+      "Sieben eingegrenzte Entscheidungen und zwei als offen gekennzeichnete Verfahren; Fortsetzung bis zum Schreiben.",
+      "2026-10-16, redaktioneller Einstiegsreview: Pflegeprodukt und konkrete Lücken statt erneuter Aufnahme; vorhandener früher Pflegegradanker im Mini erhalten, Werkstatt ergänzt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: BSG, Urteil vom 01.10.2026, B 3 P 2/25 R; BSG, Urteil vom 01.10.2026, B 3 P 3/25 R"
+    ],
+    "sha256": "dc24e57ee56b6c38e5bc9b99e2ab733e1f7976e258fac332ac61e6a358a9dce1",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Vertrag, Abtretung, Preisvereinbarung, getrennte Rechnungspositionen und Restbudget abgleichen. Fehlende gesonderte Berechnung nachfordern; weder alle Investitionskosten ausschließen noch jeden Bezugspflegeaufschlag erstatten. Landeszustimmung beziehungsweise Mitteilung und öffentliche Förderung nach Paragraf 82 gesondert beachten.; Anspruch vor dem Vertragswechsel und Prozentsatz danach trennen. Wirksamkeitsbeginn der Vereinbarung einschließlich möglicher Rückwirkung und frühere Leistungsbescheide anfordern; belegte Differenz berechnen und Korrekturschreiben verfassen. Keine pauschale offene Doppelrechnung mehr nach bereits veröffentlichtem Terminbericht.",
+    "changes": [
+      "Kriterienprüfung, Kostenzuordnung und Versicherungswege mit spezifischen Nachfragen.",
+      "Ausformulierte Ergebnisarten, fachliche Grenzen und belastbare Fortsetzung.",
+      "2026-10-16, redaktioneller Einstiegsreview: Pflegeprodukt und konkrete Lücken statt erneuter Aufnahme; vorhandener früher Pflegegradanker im Mini erhalten, Werkstatt ergänzt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: BSG, Urteil vom 01.10.2026, B 3 P 2/25 R; BSG, Urteil vom 01.10.2026, B 3 P 3/25 R"
+    ],
+    "sha256": "61ed77d1c44f457634a0af3f99cb7fd08afba5d735776b5593ffe9df2138fbe3",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json"
+    ],
+    "decisions": [
+      {
+        "citation": "BSG, Urteil vom 01.10.2026, B 3 P 2/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Verhandlungen/DE/2026/2026_10_01_B_03_P_02_25_R.html",
+        "application": "Die Wahl einer Bezugspflegekraft erlaubt keine Pflegevergütung oberhalb der vereinbarten Preise nach Paragraf 89 SGB XI. Investitionskosten können dem Entlastungsbetrag zugeordnet werden, wenn sie unmittelbar mit der Leistung verbunden, wirksam vereinbart und nach Paragraf 82 Absatz 3 oder 4 gesondert berechnet sind. Im Fall fehlte der Nachweis gesonderter Berechnung; die Revision blieb erfolglos.",
+        "limit": "Nur amtlicher Entscheidungsbericht vollständig gelesen, keine erfundenen Randnummern. Die Jahresübersicht verlinkte noch keine Urteilsgründe zu diesem Verfahren; daraus wird keine weltweite Nichtverfügbarkeit abgeleitet. Vor tragender Schriftsatzverwendung Gründe nachrecherchieren. Streitzeitraum 2017 mit 125 Euro nicht auf aktuellen Entlastungsbetrag von 131 Euro übertragen.",
+        "checked_on": "2026-10-16",
+        "verification_status": "16.10.2026: Web-Werkzeug lieferte 403; amtliche HTML-Seite anschließend unmittelbar mit curl erfolgreich abgerufen und Bericht vollständig gelesen. Normen 45b und 82 mit Web-Werkzeug gelesen. Lokaler Beleg /tmp/bsg-p2-sozial-steuer.html.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json",
+        "workflow_effect": "Vertrag, Abtretung, Preisvereinbarung, getrennte Rechnungspositionen und Restbudget abgleichen. Fehlende gesonderte Berechnung nachfordern; weder alle Investitionskosten ausschließen noch jeden Bezugspflegeaufschlag erstatten. Landeszustimmung beziehungsweise Mitteilung und öffentliche Förderung nach Paragraf 82 gesondert beachten."
+      },
+      {
+        "citation": "BSG, Urteil vom 01.10.2026, B 3 P 3/25 R",
+        "url": "https://www.bsg.bund.de/SharedDocs/Verhandlungen/DE/2026/2026_10_01_B_03_P_03_25_R.html",
+        "application": "Bei aktueller Kostenerstattung nach Paragraf 91 Absatz 2 SGB XI ohne Pflegesatzvereinbarung kein Zuschlag nach Paragraf 43c. Nach Wechsel in das Pflegesatzregime zählen jedoch auch frühere Bezugsmonate vollstationärer Pflege nach Paragraf 91 Absatz 2 für die Zuschlagsstufe; ebenso beim Vertragswechsel desselben Heims. Revision überwiegend erfolgreich.",
+        "limit": "Nur amtlicher Terminbericht vollständig gelesen. Keine Zuschlagszusage für die Zeit ohne Pflegesatzvereinbarung, keine Zuschüsse auf sämtliche Heimkosten, keine Übernahme historischer Prozentsätze. Bericht vor Verwendung als solchen benennen und nach Urteilsgründen suchen.",
+        "checked_on": "2026-10-16",
+        "verification_status": "16.10.2026: Web-Abruf 403, unmittelbarer amtlicher HTML-Abruf erfolgreich. Einzelbericht vollständig gelesen; Normen 43c und 91 aktuell mit Web-Werkzeug gelesen. Lokaler Beleg /tmp/bsg-p3-sozial-steuer.html. Jahresübersicht ebenfalls unmittelbar amtlich gelesen.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/sozial-steuer.json",
+        "workflow_effect": "Anspruch vor dem Vertragswechsel und Prozentsatz danach trennen. Wirksamkeitsbeginn der Vereinbarung einschließlich möglicher Rückwirkung und frühere Leistungsbescheide anfordern; belegte Differenz berechnen und Korrekturschreiben verfassen. Keine pauschale offene Doppelrechnung mehr nach bereits veröffentlichtem Terminbericht."
+      }
+    ],
+    "files": [
+      {
+        "path": "pflegerecht-sgb-xi/README.md",
+        "sha256": "664bd8cab69f831296fc218ff993dd8f3f8b3f55b9c114bc92248d7d73d09a92"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/pflegerecht-sgb-xi-schnellstart.md",
+        "sha256": "dc24e57ee56b6c38e5bc9b99e2ab733e1f7976e258fac332ac61e6a358a9dce1"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/pflegerecht-sgb-xi-werkstatt.md",
+        "sha256": "61ed77d1c44f457634a0af3f99cb7fd08afba5d735776b5593ffe9df2138fbe3"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/references/rechtsstand-und-quellen.md",
+        "sha256": "28416c7bbdac8ed214859b264a2e6b7e96a1b6b26a362592a065038922e14cb3"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/skills/haeusliche-pflegeleistungen-planen/SKILL.md",
+        "sha256": "5743e5e8654f305a4802353fc7fce29202c32d226dd08428fe59537f1b4b3c3c"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/skills/pflegebescheid-rechtsbehelf-erstellen/SKILL.md",
+        "sha256": "cada911d685b423f76a39d7397de7eebb4de2962810a2d96dd1177beedc3f66e"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/skills/pflegeeinrichtungen-verguetung-qualitaet-pruefen/SKILL.md",
+        "sha256": "bc4bf69e041830726462a59b7ded0055acbc2d17cba80b9d726e8f4dea055867"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/skills/pflegefall-bearbeiten/SKILL.md",
+        "sha256": "44376db370b227441d409230a95cbdd4c23bc4caca98fb0ab1fc4681d615bb8d"
+      },
+      {
+        "path": "pflegerecht-sgb-xi/skills/pflegeheimkosten-zuschlag-pruefen/SKILL.md",
+        "sha256": "f9b45722c863d5d7c432719d3ac477d5af772292a876a21f9a757420bb8b956b"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

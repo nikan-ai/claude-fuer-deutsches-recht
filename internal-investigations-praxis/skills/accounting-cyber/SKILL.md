@@ -1,6 +1,6 @@
 ---
 name: accounting-cyber
-description: "Wenn es um Bilanzierungsunregelmäßigkeiten und Accounting-Forensik in Internal Investigations Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Bilanzierungsunregelmäßigkeiten und Accounting-Forensik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bilanzierungsunregelmäßigkeiten und Accounting-Forensik
@@ -87,26 +87,3 @@ Strukturiert die forensische Buchprüfung und klärt die strafrechtlichen, regul
 - **Restatement-Szenarioanalyse**
 
 Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 93 AktG
-- § 26 BDSG
-- § 130 OWiG
-- § 102 BetrVG
-- § 87 BetrVG
-- § 203 StGB
-- § 266 StGB
-- Art. 33 DSGVO
-- § 30 OWiG
-- § 80 BetrVG
-- § 84 AktG
-- § 107 AktG
-
-### Leitentscheidungen
-
-- BGH II ZR 234/09
-- EuGH C-550/07
-- EuGH C-311/18

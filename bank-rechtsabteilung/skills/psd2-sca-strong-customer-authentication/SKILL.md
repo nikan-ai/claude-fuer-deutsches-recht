@@ -1,6 +1,6 @@
 ---
 name: psd2-sca-strong-customer-authentication
-description: "Wenn es um PSD2 SCA in Bank-Rechtsabteilung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für PSD2 SCA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # PSD2 SCA
@@ -9,7 +9,6 @@ description: "Wenn es um PSD2 SCA in Bank-Rechtsabteilung geht: ordnet Sachverha
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -92,8 +91,12 @@ Baue das Ergebnis mit diesen Elementen:
 - Rechtsgrundlagen: Art. 97 PSD2 (RL 2015/2366) iVm § 55 ZAG, Delegierte VO (EU) 2018/389 RTS SCA (Regulatory Technical Standards), EBA Final Report on RTS Amendments, EBA Opinions zu SCA.
 - Drei-Faktoren-Modell: Wissen (PIN/Passwort), Besitz (Karte/Smartphone), Inhärenz (Biometrie); zwei unabhängige Faktoren aus verschiedenen Kategorien zwingend; "Independence" und "Dynamic Linking" (Art. 5 RTS) bei Überweisungen — Betrag und Empfänger müssen in Auth integriert sein.
 - Ausnahmen (Art. 10-18 RTS): Kontoabfragen 90-Tage-Regel (Art. 10 — Anpassung durch Delegierte VO 2022/2360 unter strengeren Bedingungen), Niedrigwertige Zahlungen (Art. 16 — bis 30 EUR/100 EUR kumulativ), Trusted Beneficiary (Art. 13), Transaktionsanalyse mit niedrigem Risk Score (Art. 18); jede Ausnahme dokumentieren und Risiko-Monitoring.
-- Haftung: § 675v BGB iVm § 675w BGB — bei fehlender SCA Bank haftet (außer Vorsatz/grobe Fahrlässigkeit Kunde); bei korrekter SCA Beweislast für Authentifizierungsmangel beim Zahler.
+- Haftung und Nachweis getrennt: Paragraf 675v Absatz 4 BGB schließt bei dort erfasster fehlender starker Kundenauthentifizierung den Ersatzanspruch gegen den Zahler grundsätzlich aus; die Ausnahme betrifft betrügerische Absicht, nicht bloße grobe Fahrlässigkeit. Auch bei erfolgreicher starker Authentifizierung gilt Paragraf 675w BGB: Die Bank muss die dort bezeichneten technischen Nachweise und unterstützende Beweismittel für Betrug, Vorsatz oder grobe Fahrlässigkeit vorlegen. Ein Erfolgslog allein beweist nicht notwendig Zustimmung oder Kundenverschulden.
 - Praktiker-Tipp: Reporting nach Art. 96 PSD2 zu Major Incidents an BaFin/Bundesbank (über MVP); Phishing-Resilience prüfen (Push-Notification-Spam, OAuth-Phishing), Kundenkommunikation klare SCA-Erläuterungen ohne irreführende Versprechen; Bei Reklamation forensische Logs (Device-Fingerprint, Geolocation, Zeitstempel) für Gerichtsverfahren bereithalten.
+
+## Erstattung vor abschließender Regressprüfung
+
+[EuGH, Urteil vom 15.10.2026, C-70/25, Tukowiecka, ECLI:EU:C:2026:852](https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE), Rn. 31–42, 45–47 und 52: Trägt die unverzügliche Erstattung der nicht autorisierten Zahlung trotz bloß behaupteter grober Fahrlässigkeit; trägt nicht die endgültige Entlastung des Kunden oder eine Vermutung fehlender Zustimmung bei jeder Phishing-Meldung. Der laufende technische SCA-Abgleich ist keine allgemeine Erstattungsfristverlängerung. Interne Entscheidung und Kundenantwort benennen Erstattungszeitpunkt, Nachweisbedarf und gesonderten Gegenanspruch. [Amtlicher Norm- und Entscheidungsabgleich](../../references/eugh-c-70-25-erstattung-und-regress.md). Endprodukte vollständig ausformuliert, bei Export Times New Roman 11 pt und dezimale Gliederung.
 
 ## Qualitätsgate
 

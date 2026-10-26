@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "plugin": "oeffentliches-wirtschaftsrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/BJNR252110998.html",
+      "checked_on": "2026-09-14",
+      "supports": "Paragraf 108 Absatz 1: ähnliche Kontrolle, mehr als 80 Prozent betraute Tätigkeiten und private Kapitalbeteiligung als getrennte Voraussetzungen."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62004CJ0340",
+      "checked_on": "2026-09-23",
+      "supports": "Gericht, Urteil, Datum und Rn. 36–40 im amtlichen Volltext gelesen; Kontrollmaßstab, keine Übernahme historischer Quoten."
+    },
+    {
+      "url": "https://ssl.bverwg.de/150415U8C6.14.0",
+      "checked_on": "2026-09-23",
+      "supports": "Eigene gerichtliche Gründe Rn. 11–26 gelesen: maßgeblicher Zeitpunkt, erweiterte Untersagung, spätere Insolvenz, Vollstreckung und Wiedergestattung getrennt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__108.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuelle vollständige Norm: Betrauung Absatz 7 und Berechnung Absatz 8, mehr als 80 Prozent."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo/__35.html",
+      "checked_on": "2026-09-23",
+      "supports": "Untersagung, Erweiterung, Wiedergestattung und besondere Gewerberegelungen im vollständigen aktuellen Normtext."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo/__12.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktueller Insolvenz- und Restrukturierungsschutz einschließlich Freigaberegel vollständig gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/BJNR252110998.html",
+      "checked_on": "2026-09-23",
+      "supports": "Erneuter Workflow-Review: Paragraf 108 Absätze 1 bis 8 im Gesamtgesetz gelesen, einschließlich aktueller Betrauungs- und Berechnungsregeln. Einzelabruf von Paragraf 108 scheiterte; keine Rückkehr zur früheren Absatzfolge. Vertrags- und Nachweisabläufe auf dieser Grundlage ergänzt."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individueller Ganztext-Desk-Review am 2026-09-23: Drei projektbezogene Einstiege, stille Dokumentaufnahme und konkrete Fortschreibung der Ratsvorlage ergänzt; Kontrollmaßstab und aktuelle Absatzfolge 7/8 erhalten. Redaktionelle Einstiegslektüre am 16.10.2026: Öffentliches Eigentum früh von tatsächlicher Inhouse-Kontrolle unterschieden.",
+    "changes": [
+      "Carbotermo an autonome Geschäftsleitung und Holdingstruktur gebunden, heutiges GWB ausdrücklich getrennt.",
+      "Zwölf bestehende Sachgebiete erhalten, leere Tabellen und affirmative Stopplisten durch konkrete Prüfungen ersetzt.",
+      "Grunduntersagung, erweiterte Untersagung, Insolvenzschutz und Vollstreckung unterschieden.",
+      "Vollständige Empfängerschreiben und Fortsetzung nach gezielten Nachweisen statt bloßem Entwurfsvorbehalt.",
+      "Leere Eingabe auf Direktauftrag, Bau- und Betriebsvertrag oder Finanzierung begrenzt; Dateien ohne Auftrag lösen nur Zielklärung aus.",
+      "Neue Umsatzzuordnung verändert im bestehenden ratsvorlage.md Rechnung und Beschlussempfehlung; Textausgabe bei fehlendem Schreibzugriff.",
+      "Redaktion 16.10.2026: Öffentliches Eigentum früh von tatsächlicher Inhouse-Kontrolle unterschieden. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "6299cd719863513993748055898623f163eb1902738a7919f15f12713e1ba3b9",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individueller Ganztext-Desk-Review am 2026-09-23: Projektleistung und Entgelt, widersprüchliche Kontrollunterlagen, Förderverwendung und Sanierungsnachweise mit konkreten Dokumentfolgen vertieft; frühere Rechtskorrekturen erhalten. Redaktionelle Einstiegslektüre am 16.10.2026: Öffentliches Eigentum früh von tatsächlicher Inhouse-Kontrolle unterschieden.",
+    "changes": [
+      "Carbotermo an autonome Geschäftsleitung und Holdingstruktur gebunden, heutiges GWB ausdrücklich getrennt.",
+      "Zwölf bestehende Sachgebiete erhalten, leere Tabellen und affirmative Stopplisten durch konkrete Prüfungen ersetzt.",
+      "Grunduntersagung, erweiterte Untersagung, Insolvenzschutz und Vollstreckung unterschieden.",
+      "Vollständige Empfängerschreiben und Fortsetzung nach gezielten Nachweisen statt bloßem Entwurfsvorbehalt.",
+      "Verfügbarkeit, Investitionsersatz und Entgeltmechanik an tatsächlicher Risikoübernahme ausgerichtet.",
+      "Kontrollkonflikte und ungeeigneten Nennerwechsel, Förderbelege und Sanierungsgegenbelege als eigene Arbeitszweige ergänzt.",
+      "Konkrete Zielpfade, Abschlusspunkte und externe Freigabe von interner Ausarbeitung getrennt.",
+      "Redaktion 16.10.2026: Öffentliches Eigentum früh von tatsächlicher Inhouse-Kontrolle unterschieden. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "7fc7141ecc136cfa3772f27c89fdaabad594530dc0c8c4226a28b433f4df8619",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe den Direktauftrag der Gemeinde an ihre Betriebsgesellschaft.",
+      "Bewerte die Risikoaufteilung im kommunalen Schulbau-PPP."
+    ],
+    "negative": [
+      "Berechne ausschließlich die HOAI-Vergütung des Architekten eines kommunalen Bauprojekts.",
+      "Prüfe die arbeitsrechtliche Kündigung eines Mitarbeiters der kommunalen Service-GmbH ohne Organisations- oder Beschaffungsfrage."
+    ]
+  },
+  "cases": [
+    {
+      "id": "kommunale-tochter-genau-achtzig",
+      "request": "Verfasse ergebnis.md für den Gemeinderat zur vorgesehenen Direktvergabe eines Betriebsauftrags an die zu 100 Prozent kommunale Service-GmbH. Die Gemeinde kann deren strategische Ziele und wesentliche Entscheidungen verbindlich bestimmen; privates Kapital gibt es nicht. Als für diesen Fall maßgebliche und korrekt ermittelte Tätigkeitsquote sind 80 Prozent betraute Gemeindeaufgaben und 20 Prozent freie Marktaufträge festgestellt. Die Verwaltung begründet die Inhouse-Ausnahme allein mit der vollständigen Beteiligung. Andere Ausnahmetatbestände sind nicht vorgetragen. Der Rat möchte wissen, ob diese Begründung den Direktauftrag trägt und welche Entscheidung jetzt vorbereitet werden sollte; eine vertiefte landeskommunalrechtliche Prüfung ist nicht beauftragt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt, dass genau 80 Prozent die Voraussetzung von mehr als 80 Prozent nicht erfüllen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft Kontrolle und Beteiligung getrennt von der Tätigkeitsquote und lässt vollständiges Eigentum die fehlende Quote nicht ersetzen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Empfiehlt keine Freigabe auf dieser Ausnahmegrundlage und bereitet einen vergaberechtlich geprüften alternativen Beschaffungsweg vor, ohne eine nicht belegte Ausnahme zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "oew-006-inhouse-vergabe-pruefen"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "oeffentliches-wirtschaftsrecht/README.md",
+      "oeffentliches-wirtschaftsrecht/oeffentliches-wirtschaftsrecht-werkstatt.md",
+      "oeffentliches-wirtschaftsrecht/oeffentliches-wirtschaftsrecht-schnellstart.md",
+      "quality/evals/oeffentliches-wirtschaftsrecht.json",
+      "oeffentliches-wirtschaftsrecht/skills/oew-006-inhouse-vergabe-pruefen/SKILL.md"
+    ],
+    "opening_change": "Direktauftrag, Betriebsfortführung und Finanzierung als getrennte konkrete Mandate; Ratsvorlage statt gewerberechtlicher Standardkaskade.",
+    "norms": [
+      "Paragraf 108 Absätze 1 bis 8 GWB",
+      "Paragraf 12 und Paragraf 35 GewO",
+      "Artikel 107 Absatz 1 und Artikel 108 Absatz 3 AEUV",
+      "Paragraf 80, Paragraf 80a und Paragraf 123 VwGO"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 11. Mai 2006, C-340/04, Carbotermo, Rn. 36–40",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62004CJ0340",
+        "application": "Eigentum ersetzt keine Steuerungsrechte bei autonomer Geschäftsleitung.",
+        "limit": "Historisches Vergaberecht; keine heutige Tätigkeitsquote und kein generelles Holdingverbot.",
+        "checked_on": "2026-09-23"
+      },
+      {
+        "citation": "BVerwG, Urteil vom 15. April 2015, 8 C 6.14, Rn. 14–26",
+        "url": "https://ssl.bverwg.de/150415U8C6.14.0",
+        "application": "Untersagung zum Behördenentscheidungszeitpunkt; spätere Besserung gesondert.",
+        "limit": "Kein starrer Schuldenbetrag und kein pauschales insolvenzrechtliches Vollstreckungsverbot.",
+        "checked_on": "2026-09-23"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Modell- oder Mandantentest.",
+      "Keine Vollverifikation sämtlicher Landeskommunal-, Förder-, Beihilfe- und Berufsqualifikationsregeln.",
+      "GewO-Zitat 8 B 6.23 aus Altfassung nicht verifiziert und entfernt.",
+      "Ordentlicher Skill oew-006-inhouse-vergabe-pruefen gelesen, außerhalb Schreibbereich und unverändert; dort nur generisches Prüfschema.",
+      "Workflow-Nachprüfung 2026-09-23: Frühere Quellenprüfung als datierter Nachweis erhalten. GWB Paragraf 108 im Gesamttext und BVerwG-Gründe erneut zugänglich; Carbotermo-Abruf lieferte diesmal keinen lesbaren Entscheidungstext, GewO-Einzelseiten Abruffehler. Keine erneute Vollverifikation dieser Quellen behauptet; kein Live-Mandat, keine Rats- oder Behördenausführung."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "oeffentliches-wirtschaftsrecht/oeffentliches-wirtschaftsrecht-schnellstart.md",
+        "oeffentliches-wirtschaftsrecht/oeffentliches-wirtschaftsrecht-werkstatt.md"
+      ],
+      "result": "Inhouse-Steuerungsrechte werden nicht allein aus Eigentum abgeleitet. Gewerbeuntersagung prüft Zuverlässigkeit zum maßgeblichen Zeitpunkt; spätere Besserung und Insolvenzschutz bleiben gesondert.",
+      "search_2026": "2026-Curia-Treffer zur Abfallvergabe/Jelgava war als Schlussantrags-/Dokumenttreffer nicht hinreichend als Urteil verifiziert; keine neue Inhouse-Regel daraus abgeleitet.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Werkstatt bietet Betrieb, kommunale Kooperation oder Finanzierung; Mini konkret Direktauftrag, Bau- und Betriebsvertrag oder Finanzierung.",
+      "Dateien ohne Auftrag: Gesellschafts-, Bescheid- oder Finanzierungsunterlagen still lesen und nur das gewünschte Arbeitsprodukt klären.",
+      "Klarer Auftrag: Ratsvorlage, Vertragsregel oder Anhörungsantwort unmittelbar bearbeiten; nur entscheidende fehlende Angaben erfragen."
+    ],
+    "continuation": "Neue betraute Umsatzposition ändert im bestehenden ratsvorlage.md Zuordnung, Rechnung und Beschlussempfehlung; später Zahlungsbeleg verändert zeitpunktbezogene Argumentation statt erneuter Aufnahme.",
+    "enrichment": "ÖPP-Verfügbarkeit und Investitionsersatz, tatsächliche Kontrollrechte, konsistente Tätigkeitsquote, Fördermittelbelege und Sanierungsgegenargumente mit vollständigem Dokumentabschluss.",
+    "limits": "desk review; no live client execution"
+  }
+}

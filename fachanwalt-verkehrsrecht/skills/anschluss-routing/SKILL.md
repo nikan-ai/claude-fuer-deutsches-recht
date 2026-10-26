@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Verkehrsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verkehrsrecht."
 ---
 
 # Anschluss-Routing
@@ -20,9 +20,9 @@ Dieses Anschluss-Routing für **Fachanwalt Verkehrsrecht** wählt nach dem erste
 - `fahrerlaubnis-entzug-paragraf-3-stvg` — Fahrerlaubnis Entzug Paragraf 3 Stvg
 - `fahrerlaubnis-compliance-dokumentation-und-akte` — Fahrerlaubnis Kanzlei Personen
 - `haftpflicht-paragraf-115-vvg` — Haftpflicht Paragraf 115 VVG
-- `kaskoversicherung-paragraf-81-vvg-bgh-iv-zr-25-21` — Kaskoversicherung Paragraf 81 VVG BGH IV ZR 25 21
+- `kaskoversicherung-unfallort-aufklaerungsobliegenheit` — Kaskoleistung und Aufklärungsobliegenheit prüfen
 - `kfz-handel-paragraf-434-bgb` — KFZ Handel Paragraf 434 BGB
-- `mandat-triage-sportrecht` — Mandat Triage Schriftsatzkern Substantiierung
+- `mandat-triage-verkehrsrecht` — Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen
 - `mpu-vorbereitung` — MPU Vorbereitung Orientierung
 - `dokumente-intake` — Dokumente Intake
 - `einstieg-routing` — Einstieg Routing
@@ -40,28 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Verkehrsrecht** wählt nach dem erste
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 67 OWiG
-- § 69a StGB
-- § 7 StVG
-- § 18 StVG
-- § 115 VVG
-- § 69 StGB
-- § 4 StVG
-- § 33 OWiG
-- § 24a StVG
-- § 17 StVG
-- § 55 OWiG
-- § 26 StVG
-
-### Leitentscheidungen
-
-- BGH VI ZR 12/24
-- BGH VI ZR 280/22
-- BGH VI ZR 253/22
-- BGH VI ZR 239/22
-- BGH VI ZR 24/25

@@ -1,6 +1,6 @@
 ---
 name: falsche-wiese-warnung-ki-vo
-description: "Wenn es um Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete
@@ -73,15 +73,12 @@ description: "Wenn es um Warnung: Falsche Wiese — Verwechslung der Rechtsgebie
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
-- Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
+- Art. 99 KI-VO — den konkreten Verstoß und die jeweils einschlägige Sanktionsstufe prüfen; nicht den Artikel-5-Höchstsatz auf alle Pflichten übertragen
 
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
@@ -97,7 +94,7 @@ PRUEFERGEBNIS — FALSCHE WIESE WARNUNG KI VO
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
 [AKTENZEICHEN]
 
-Gepruefte Norm(en): [Art. 6 Rn. 10]
+Gepruefte Norm(en): [Artikel 6, Absatz/Satz/Buchstabe und amtliche Fassung]
 
 Ergebnis:
 [ ] Anforderung erfuellt
@@ -109,3 +106,5 @@ Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

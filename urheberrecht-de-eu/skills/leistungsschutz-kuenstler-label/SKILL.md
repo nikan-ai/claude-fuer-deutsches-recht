@@ -1,6 +1,6 @@
 ---
 name: leistungsschutz-kuenstler-label
-description: "Wenn es um Leistungsschutzrechte Künstler und Label in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Leistungsschutzrechte Künstler und Label: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Leistungsschutzrechte Künstler und Label
@@ -20,7 +20,7 @@ description: "Wenn es um Leistungsschutzrechte Künstler und Label in Urheberrec
 
 ## Wofür dieser Arbeitsgang da ist
 
-Leistungsschutzrechte Künstler und Label schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Ordne die Leistungsschutzrechte der beteiligten Künstler und Labels anhand von Aufnahme, Darbietung und Verträgen zu. Beziehe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise in das angeforderte Prüfungsergebnis ein.
 
 ## Sofortstart
 

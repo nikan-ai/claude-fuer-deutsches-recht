@@ -1,6 +1,6 @@
 ---
 name: anlagenverzeichnis-kanzlei-grundaufbau-bea
-description: "Wenn es um Anlagenverzeichnis für Gericht, Kanzlei und intern in Anlagen zu Schriftsätzen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Anlagenverzeichnis Kanzlei Grundaufbau Bea; Arbeitsfeld: Anlagen zu Schriftsätzen."
+description: "Für Anlagenverzeichnis für Gericht, Kanzlei und intern: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Anlagen zu Schriftsätzen. Route: anlagenverzeichnis-kanzlei-grundaufbau-bea."
 ---
 
 # Anlagenverzeichnis für Gericht, Kanzlei und intern
@@ -11,7 +11,8 @@ Arbeitsfokus: **Anlagenverzeichnis für Gericht, Kanzlei und intern**. Prüfe di
 
 - `§ 130a Abs. 1 ZPO` — elektronisches Dokument.
 - `§ 130a Abs. 3 ZPO` — Signatur/sicherer Übermittlungsweg.
-- `§ 130a Abs. 6 ZPO` — Ersatzeinreichung bei technischer Störung.
+- ZPO Paragraf 130a Absatz 6 — gerichtlicher Hinweis und unverzügliche geeignete Nachreichung bei technisch ungeeignetem elektronischem Dokument.
+- ZPO Paragraf 130d Sätze 2 bis 4 — Ersatzeinreichung bei vorübergehender technischer Unmöglichkeit.
 - `§ 2 ERVV` — Dateiformate und technische Anforderungen.
 - `§ 3 ERVV` — Übermittlung elektronischer Dokumente.
 - `§ 371a Abs. 1 ZPO` — Beweiswert elektronischer Dokumente.

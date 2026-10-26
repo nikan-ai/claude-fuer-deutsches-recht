@@ -1,6 +1,6 @@
 ---
 name: spezial-richtlinie-red-team-und-qualitaetskontrolle
-description: "Wenn es um Richtlinie: Red-Team und Qualitätskontrolle in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Richtlinie: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Richtlinie: Red-Team und Qualitätskontrolle
@@ -44,7 +44,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Qualitätskontrolle Inhalte
 - **Norm-Aktualität**: Verweise auf BRAO/BORA/DSGVO/KI-VO mit Datum und ggf. Fassungsstand.
-- **Geltungsdaten KI-VO**: Art. 5 Verbote ab 02.02.2025; Art. 6 Hochrisiko ab 02.08.2026 — Richtlinie muss vorausschauend formuliert sein.
+- **Geltungsdaten KI-VO**: Art. 5 Verbote ab 02.02.2025; Artikel 113 neuer Fassung: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5, Anhang III ab 02.12.2027 und Anhang I ab 02.08.2028 — Richtlinie muss vorausschauend formuliert sein.
 - **DAV-/BRAK-Stellungnahmen**: aktueller Stand, ohne aus Modellwissen zu zitieren; Live-Verweis auf brak.de / anwaltverein.de.
 - **Datentransfer**: DPF, SCC, BCR korrekt unterschieden; bei US-Tools Aktualität DPF-Selbstzertifizierung.
 - **Berufshaftpflicht**: Hinweis auf Anpassung der Versicherung (§ 51 BRAO, § 19 VVG-Anzeigepflichten).
@@ -85,3 +85,4 @@ Eine extrem strikte Richtlinie ("Kein KI-Tool ohne Sozietäts-Freigabe") schafft
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Paywall-Literatur nur verwerten, wenn sie von der Nutzerin oder dem Nutzer als Text bereitgestellt wurde; dann nicht als frei verifizierte Quelle ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

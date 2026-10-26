@@ -1,6 +1,6 @@
 ---
 name: pruefer-uebergabe-paket
-description: "Wenn es um /tabellenreview-3d:prüfer-übergabe-paket in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /tabellenreview-3d:prüfer-übergabe-paket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /tabellenreview-3d:prüfer-übergabe-paket
@@ -14,7 +14,6 @@ description: "Wenn es um /tabellenreview-3d:prüfer-übergabe-paket in Tabellenr
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Bestandteile
 
@@ -77,3 +76,5 @@ Erst nach dokumentierter Prüfer-Abnahme darf das Paket (oder Auszüge davon) an
 - BRAO Paragraph 43a Absatz 2 — Verschwiegenheit
 - StGB Paragraph 203 — Privatgeheimnisse
 - RDG Paragraph 2 — Rechtsdienstleistung darf nur durch Rechtsanwalt erbracht werden — der Würfel ist Vorbereitung, die Abnahme ist die Rechtsdienstleistung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

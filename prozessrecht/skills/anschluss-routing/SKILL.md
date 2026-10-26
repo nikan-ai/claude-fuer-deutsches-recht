@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Prozessrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Prozessrecht."
 ---
 
 # Anschluss-Routing
@@ -41,26 +41,3 @@ Dieses Anschluss-Routing für **Prozessrecht** wählt nach dem ersten Ergebnis d
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 203 StGB
-- Paragraf 45 GKG
-- Paragraf 115 VVG
-- Paragraf 7 StVG
-- Paragraf 68 GKG
-- Paragraf 43 GKG
-- Paragraf 3a RVG
-- Paragraf 97a UrhG
-- Paragraf 23 RVG
-- Paragraf 4a RVG
-- Paragraf 74 VwGO
-- Paragraf 17 StVG
-
-### Leitentscheidungen
-
-- BGH VI ZR 184/10
-- BGH VI ZR 226/16
-- BGH VI ZR 73/20

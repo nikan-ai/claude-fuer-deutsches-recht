@@ -1,6 +1,6 @@
 ---
 name: strafprozess-biometrischer-internetabgleich-98d-stpo-e
-description: "Wenn es um Strafprozess Biometrischer Internetabgleich 98d StPO E in Fachanwalt Strafrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Strafprozess Biometrischer Internetabgleich 98d StPO E: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verteidigung gegen automatisierten biometrischen Internetabgleich nach dem Regierungsentwurf zu § 98d StPO-E: Rechtsstand prüfen, Akteneinsicht nachfordern, Anordnung, Zweck, Anlasstat, Subsidiarität, Protokollierung, Löschung, KI-VO, Drittbetroffenheit, Trefferqualität, Black-Box-Risiko und Verwertbarkeit angreifen.
@@ -158,3 +158,4 @@ Wir bitten um vollständige Akteneinsicht in alle Unterlagen zur biometrischen A
 
 Vor vollständiger Offenlegung kann die Verteidigung weder die Rechtmäßigkeit noch die Beweisbedeutung des behaupteten Treffers prüfen.
 ```
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Rekonstruieren Sie Eingangsdaten, Softwareversion, Selektionsregeln und konkrete menschliche Prüfung. Ein Modellsignal beweist weder Täterschaft noch die Zulässigkeit der Datenauswertung. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

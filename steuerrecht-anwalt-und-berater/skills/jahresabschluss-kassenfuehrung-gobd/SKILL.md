@@ -1,6 +1,6 @@
 ---
 name: jahresabschluss-kassenfuehrung-gobd
-description: "Wenn es um Kassenfuehrung — GoBD-Pflichten in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Jahresabschluss Kassenfuehrung Gobd; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Kassenführung — GoBD-Pflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: jahresabschluss-kassenfuehrung-gobd."
 ---
 
 # Kassenfuehrung — GoBD-Pflichten
@@ -95,7 +95,7 @@ Bei Mandanten mit Bargeschaeft (Gastronomie, Einzelhandel) ist die Kassenfuehrun
 
 - Die TSE-Pflicht ist hart durchgesetzt; der Bussgeldrahmen reicht nach § 379 Abs. 6 AO bis 25.000 EUR pro Verstoss.
 - Die Verfahrensdokumentation (Konfiguration, Bedienungsanleitung, Änderungsprotokoll) ist haeufig vernachlaessigt, aber ausdruecklich Pflichtbestandteil nach GoBD (BMF v. 28.11.2019, Rz. 153 ff.).
-- Bei Mandanten mit hohem Bargeschaeft ist eine kontinuierliche StB-Begleitung sinnvoll; bei Verdacht auf Manipulation der Aufzeichnungen ist der Mandant nachweisbar (Aktenvermerk, schriftliche Belehrung) auf die Sanktionsrisiken nach § 379 AO bzw. § 370 AO hinzuweisen — vgl. die Eskalations-Routine in `stb-mandantenanfrage-reaktion-frist-laufend` und die berufsrechtliche Hinweispflicht aus § 102 StaRUG bei drohender Insolvenz.
+- Bei Mandanten mit hohem Bargeschäft ist eine kontinuierliche Begleitung sinnvoll. Bei konkretem Manipulationsverdacht die Berichtigungs-, Mitwirkungs-, Haftungs- und Sanktionsrisiken nach Abgabenordnung und Strafrecht mandatsgerecht dokumentieren. Paragraf 102 StaRUG nur zusätzlich prüfen, wenn ein Jahresabschluss erstellt wird, Anhaltspunkte für einen möglichen Insolvenzgrund offenkundig sind und die mögliche Insolvenzreife dem Mandanten vermutlich nicht bewusst ist.
 - Die Kassennachschau nach § 146b AO erfolgt unangekuendigt — auch zu Beginn der Geschäftsoeffnung; Mandanten sollten auf den Umgang mit dem Prüfer (Vorlage Kassen-Z-Bons, TSE-DSFinV-K-Daten) geschult werden.
 
 ## Quellen und Updates

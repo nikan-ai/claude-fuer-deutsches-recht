@@ -1,6 +1,6 @@
 ---
 name: workflow-chronologie-und-belegmatrix
-description: "Wenn es um Chronologie und Belegmatrix in Insolvenzplan- und StaRUG-Planwerkstatt geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix. Fachgebiet: Insolvenzplan- und StaRUG-Planwerkstatt."
 ---
 
 # Chronologie und Belegmatrix
@@ -56,7 +56,7 @@ Dieser Arbeitsgang macht **Chronologie und Belegmatrix** im Bereich **insolvenzp
 ## Belegmatrix-Spalten
 | Datum | Ereignis | Norm | Beleg | Konsequenz |
 |---|---|---|---|---|
-| TT.MM.JJJJ | Drohende ZU erkannt | § 18 InsO | Liquiditätsplan 24 Monate | StaRUG eröffnet, § 1 StaRUG Pflicht aktiv |
+| TT.MM.JJJJ | Drohende Zahlungsunfähigkeit erkannt | Paragraf 18 InsO | Liquiditätsplan, regelmäßig 24 Monate | gerichtliche Instrumente nach Paragrafen 29 bis 31 StaRUG gesondert prüfen |
 | TT.MM.JJJJ | StaRUG-Anzeige | § 31 StaRUG | Anzeige Restrukturierungsgericht | Stabilisierung möglich |
 | TT.MM.JJJJ | Planabstimmung | § 23 StaRUG / § 235 InsO | Abstimmungsprotokoll | Mehrheiten je Gruppe |
 | TT.MM.JJJJ | Gerichtsbestätigung | § 60 StaRUG / § 248 InsO | Beschluss | Rechtskraft, Wirkung gegen alle Beteiligten |

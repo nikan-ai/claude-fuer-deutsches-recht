@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um /steuerrecht-anwalt-und-berater:stb-kaltstart-interview in Steuerrecht – Steuerberater und Anwälte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /steuerrecht-anwalt-und-berater:stb-kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /steuerrecht-anwalt-und-berater:stb-kaltstart-interview
@@ -18,12 +18,8 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `/steuerrecht-anwalt-und-berater:stb-kaltstart-interview` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -34,11 +30,8 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - **StBerG** § 3 (Befugnis), § 57 (Verschwiegenheit), § 64 (Vergütung)
 - **AO** §§ 149 ff. (Erklärungspflichten), § 153 (Berichtigungspflicht), § 371 (Selbstanzeige)
 - **HGB** §§ 238 ff. (Buchführungspflicht), §§ 264 ff. (Jahresabschluss)
-- **InsO** §§ 17 19 (Insolvenzgründe), § 15a (Antragspflicht)
-- **StaRUG** § 102 (Hinweispflichten bei drohender Insolvenz)
-
-### Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **InsO** Paragrafen 17 bis 19 (Insolvenzgründe), Paragraf 15a (Antragspflicht)
+- **StaRUG** Paragraf 102 (begrenzter Hinweis bestimmter Berufsträger bei Jahresabschlusserstellung)
 
 ### Quellenregel
 
@@ -55,7 +48,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 Prüft die Konnektoren-Verfügbarkeit (DATEV-Schnittstelle, Dokumentenspeicher, Mandanten-Portal, E-Mail). Aktualisiert nur den Abschnitt `## Verfügbare Integrationen`, führt kein neues Interview durch.
 
-Beim Prüfen: nur `✓` melden, wenn ein MCP-Tool-Aufruf tatsächlich erfolgreich war. Konfigurierte-aber-ungetestete Konnektoren als `⚪` markieren.
+Beim Prüfen nur „verfügbar“ melden, wenn ein Werkzeugaufruf tatsächlich erfolgreich war. Konfigurierte, aber ungetestete Verbindungen als „nicht verifiziert“ markieren.
 
 ---
 
@@ -83,7 +76,7 @@ Beim Prüfen: nur `✓` melden, wenn ein MCP-Tool-Aufruf tatsächlich erfolgreic
 
 ### 4. Liquiditätsplanung
 
-- **Standard-Horizonte:** 3 / 6 / 12 Monate (Standard für Mandantenberatung) / 13-Wochen-Planung (Krise) / 21-Tage-Planung (drohende Zahlungsunfähigkeit, § 17 InsO)
+- **Standard-Horizonte:** drei, sechs oder zwölf Monate für die Beratung; 13 Wochen für die operative Krisensteuerung; Drei-Wochen-Status für die Prüfung eingetretener Zahlungsunfähigkeit nach Paragraf 17 InsO; in aller Regel 24 Monate für drohende Zahlungsunfähigkeit nach Paragraf 18 Absatz 2 InsO
 - **Schwellenwert für Warnungen:** Liquiditätsgrad I, II, III nach Bilanz-Kennzahlen
 - **Eskalation an Insolvenzberater / Sanierungsberater:** ab wann (z. B. < 7 Tage Liquidität)?
 
@@ -91,10 +84,11 @@ Beim Prüfen: nur `✓` melden, wenn ein MCP-Tool-Aufruf tatsächlich erfolgreic
 
 - **Hauptverpflichtungen:**
  - Umsatzsteuer-Voranmeldung (§ 18 UStG): monatlich / quartalsweise
- - Jahresabschluss (§ 264 HGB, § 325 HGB): 12 Monate nach GJ-Ende für mittelgroße/große, 6 Monate für kleine GmbH
+ - Aufstellung des Jahresabschlusses nach Paragraf 264 Absatz 1 HGB grundsätzlich in den ersten drei Monaten; kleine Kapitalgesellschaften dürfen bei ordnungsgemäßem Geschäftsgang bis zu sechs Monate nutzen
+ - Offenlegung nach Paragraf 325 HGB grundsätzlich spätestens ein Jahr nach dem Abschlussstichtag; Sonderfristen gesondert prüfen
  - Lohnsteueranmeldung
  - E-Bilanz nach § 5b EStG
-- **Hinweispflichten gegenüber Mandanten** (§ 102 StaRUG): bei drohender Insolvenz
+- **Hinweis nach Paragraf 102 StaRUG:** nur bei Jahresabschlusserstellung, offenkundigen Anhaltspunkten für einen möglichen Insolvenzgrund und vermuteter Unkenntnis des Mandanten
 
 ### 6. Beratungstiefe
 
@@ -127,9 +121,11 @@ Das Praxisprofil wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/s
 - **UStG** — § 18 (Voranmeldung, Jahreserklärung)
 - **EStG** — § 5b (E-Bilanz)
 - **HGB** — §§ 238 ff. (Buchführungspflicht), §§ 264 ff. (Jahresabschluss), § 325 (Offenlegung)
-- **InsO** — §§ 17, 18, 19, 15a (für Hinweispflicht bei Mandantenkrise)
-- **StaRUG** — § 102 (Hinweispflichten der Geschäftsleiter)
+- **InsO** — Paragrafen 17 bis 19 und 15a für Insolvenzgründe und Antragspflicht
+- **StaRUG** — Paragraf 102 für den tatbestandsgebundenen Hinweis der dort genannten Berufsträger bei Jahresabschlusserstellung; die Pflicht der Geschäftsleitung steht in Paragraf 1 StaRUG
 
 ## Hinweise
 
-Dieses Plugin ist kein Ersatz für die individuelle Mandantenberatung durch einen Steuerberater. Es liefert Werkzeuge und Vorlagen zur Strukturierung der Arbeit. Zitate aus Trainingsdaten sind vor Verwendung gegen Primärquellen zu prüfen.
+Dieses Plugin ist kein Ersatz für die individuelle Mandantenberatung durch einen Steuerberater. Es liefert Werkzeuge und Vorlagen zur Strukturierung der Arbeit. Tragende Zitate und Rechtsstände sind vor Verwendung anhand amtlicher oder frei zugänglicher Primärquellen zu prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

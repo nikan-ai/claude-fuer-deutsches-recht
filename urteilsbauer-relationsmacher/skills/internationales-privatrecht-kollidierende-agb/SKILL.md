@@ -1,6 +1,6 @@
 ---
 name: internationales-privatrecht-kollidierende-agb
-description: "Wenn es um Internationales Privatrecht in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Internationales Privatrecht Kollidierende Agb; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Internationales Privatrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Urteilsbauer und Relationsmacher. Route: internationales-privatrecht-kollidierende-agb."
 ---
 
 # Internationales Privatrecht
@@ -27,10 +27,6 @@ Bei Auslandsbezug immer prüfen, welches Recht zur Anwendung kommt.
 2. Welches EU-Kollisionsrecht ist einschlägig — Rom-I (Vertrag) oder Rom-II (Delikt/Bereicherung)?
 3. Haben die Parteien eine wirksame Rechtswahl getroffen (Art. 3 Rom-I)?
 4. Ist CISG vorrangig anwendbar (vor dem IPR-Kollisionsrecht)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -103,3 +99,5 @@ Verkäufer seinen gewöhnlichen Aufenthalt hat: [STAAT].
 ## Eingriffsnormen
 
 DSGVO Artikel 3 (raeumlicher Anwendungsbereich) ist Eingriffsnorm. Das deutsche Datenschutzrecht ist auf Verarbeitungen anwendbar, die sich an Personen in der EU richten, unabhängig vom Sitz des Verantwortlichen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

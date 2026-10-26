@@ -1,6 +1,6 @@
 ---
 name: transaktionen-dd
-description: "Wenn es um Energie-Transaktionen und Due Diligence in Energierecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Energie-Transaktionen und Due Diligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Energie-Transaktionen und Due Diligence
@@ -267,10 +267,6 @@ description: "Wenn es um Energie-Transaktionen und Due Diligence in Energierecht
 3. Skalen-Vorteile (Wartung, Vermarktung)
 4. Exit-Strategie 5-7 Jahre
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 453, 437, 434 BGB (Rechtskauf, Maengelhaftung, Beschaffenheitsvereinbarung) — §§ 75 ff. UmwG (Spaltung, Umstrukturierung Energiegesellschaft) — §§ 48, 49 VwVfG (Widerruf Foerderbescheid) — § 33 EEG (MaStR-Eintrag) — Art. 107, 108 AEUV (Beihilfen-Rueckforderung)
@@ -297,4 +293,5 @@ description: "Wenn es um Energie-Transaktionen und Due Diligence in Energierecht
 - Bundeskartellamt-Praxis Energie-Fusionen
 
 ---
-<!-- AUDIT 27.05.2026 -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: nutztierhaltung-kontrolle
-description: "Wenn es um Nutztierhaltung Kontrolle in Tierschutzrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Nutztierhaltung Kontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Nutztierhaltung Kontrolle
@@ -33,6 +33,8 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - § 90a BGB, Sachenrecht nur entsprechend und mit Schutzlogik
 - Veterinärbehörden, Anordnung, Fortnahme, Haltungserlaubnis
 - Straf-/OWi-Schnittstelle, Beweis, Gutachten, Eilrechtsschutz
+
+[BVerwG, Urteil vom 23.04.2026 – 3 C 2.25](https://www.bverwg.de/230426U3C2.25.0), Rn. 17–29, 34–42: Fehlende spezielle Putenhaltungsverordnung sperrt ein Einschreiten nach Paragrafen 2 und 16a TierSchG nicht. Die Puteneckwerte 2013 ersetzen kein tragfähiges Gutachten. Erfasse Besatzdichte, Gruppengröße und Stallstruktur im Zusammenwirken, fachliche Befunde sowie Kosten und Wirkung konkreter Verbesserungen. Der Fall trägt Neubescheidung mit behördlicher Maßnahmenauswahl, kein pauschales Haltungsverbot und keine bundesweite feste Besatzgrenze.
 
 ## Prüfroutine
 

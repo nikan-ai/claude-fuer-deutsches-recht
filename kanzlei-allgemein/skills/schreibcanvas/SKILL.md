@@ -1,6 +1,6 @@
 ---
 name: schreibcanvas
-description: "Wenn es um Schreib-Canvas in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schreib-Canvas: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schreib-Canvas
@@ -18,9 +18,6 @@ description: "Wenn es um Schreib-Canvas in Kanzlei-Allgemein geht: erstellt den 
 2. Gibt es Tatsachenluecken oder fehlende Beweisangebote im bisherigen Entwurf?
 3. Sollen Rechtsgrundlagen automatisch vorgeschlagen oder manuell eingefuegt werden?
 4. Ist eine Frist einzuhalten, die den Schreibprozess zeitlich begrenzt?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 130 ZPO — Inhalt von Schriftsaetzen: Vollstaendigkeit von Antraegen und Tatsachen
@@ -76,3 +73,4 @@ Formulierungen:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: deaktivieren
-description: "Wenn es um /deaktivieren — Skill deaktivieren (ohne Dateilöschung) in Kanzlei-Builder-Hub geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /deaktivieren — Skill deaktivieren (ohne Dateilöschung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /deaktivieren — Skill deaktivieren (ohne Dateilöschung)
@@ -25,11 +25,7 @@ description: "Wenn es um /deaktivieren — Skill deaktivieren (ohne Dateilöschu
 - **§ 50 BRAO** — Pflicht zur Aktenführung; jede Statusänderung eines installierten Skills ist als Teil der Kanzleiorganisation zu protokollieren.
 - **Art. 32 DSGVO** — Pflicht zu technisch-organisatorischen Maßnahmen; vorübergehende Deaktivierung ist ein legitimes Sicherheitsinstrument bei Verdacht auf Fehlfunktionen.
 - **§ 43a Abs. 2 BRAO i. V. m. § 203 StGB** — Verschwiegenheitspflicht; Skills mit Zugriff auf Mandantendaten müssen bei Sicherheitsbedenken sofort stillgelegt werden können.
-- **AI Act Art. 26** — Deployer-Pflichten: Betreiber von KI-Systemen müssen angemessene Kontrollmechanismen einrichten, einschließlich der Möglichkeit zur sofortigen Außerbetriebnahme.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Artikel 26 KI-Verordnung:** Zuerst einen erfassten Hochrisiko-Betrieb und zeitliche Anwendung begründen. Absatz 1 betrifft geeignete Maßnahmen zur Nutzung nach Betriebsanleitung, Absatz 2 die beauftragte menschliche Aufsicht, Absatz 5 Überwachung und gegebenenfalls Aussetzung/Information, Absatz 6 kontrollierte Logs. Kein allgemeines gesetzliches Installations- oder Deinstallationsprotokoll aus Artikel 26 erfinden. Interne Nachweise als Organisationsmaßnahme kennzeichnen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ### Quellenregel
 
@@ -147,10 +143,12 @@ Bei der Ausführung dieses Skills sind folgende Quellen zu berücksichtigen:
 - § 43a Abs. 2 BRAO, § 203 StGB (Verschwiegenheit; Schutz von Mandantendaten)
 - Art. 32 DSGVO (technisch-organisatorische Maßnahmen; Deaktivierung als Sicherheitsinstrument)
 - AI Act Art. 26 (Deployer-Pflichten; Kontrollmechanismen für KI-Systeme)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Hartung/Scharmer, in: Hartung/Scharmer, Berufs- und Fachanwaltsordnung, 7. Aufl. 2022, § 50 BRAO Rn. 12
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 > Detaillierte Deaktivierungs-, Deinstallations- und Reaktivierungs-Arbeitsabläufe liegen im `skill-verwalter`-Referenz-Skill — vor substanzieller Arbeit laden.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Legen Sie für jeden Baustein fest, welche Daten er lesen, verändern und versenden darf. Prüfen Sie die tatsächliche Funktion und die nach außen behauptete Leistung; ein Agentenetikett ersetzt keine Einordnung. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

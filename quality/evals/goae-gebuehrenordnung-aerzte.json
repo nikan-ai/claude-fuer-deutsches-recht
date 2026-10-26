@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "plugin": "goae-gebuehrenordnung-aerzte",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/go__1982/__5.html",
+      "checked_on": "2026-09-14",
+      "supports": "Unterschiedliche Schwellen und Höchstsätze für allgemeine, A/E/O- und Laborleistungen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/go__1982/__12.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 3: individuelle schriftliche Begründung der jeweiligen Schwellenüberschreitung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/go__1982/__5.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur Prüfung: Paragraf 5 Absatz 2 und Paragraf 12 Absatz 3 GOÄ. Keine Gesamtverifikation sämtlicher Nebenmaterien."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2007/III_ZR__54-07.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 08.11.2007, III ZR 54/07: Durchschnittliche ärztliche Leistung darf mit 2,3 beziehungsweise einschlägig 1,8 bemessen werden; oberhalb Schwelle gesonderte Begründung prüfen. Grenze/Prüftiefe: Amtlicher Leitsatz gelesen, Volltextabruf gescheitert; nicht auf Laborsätze oder unbewiesene Leistungen übertragen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Schnellstart vollständig individuell gelesen und überarbeitet: Rechnungspositionen, Faktoren und Korrekturbeträge anhand der Leistungsnachweise prüfen. Schwellenwert nicht als Ausnahmehonorar behandelt; Überschreitung braucht individuellen Aufwand, Laborhöchstsatz bleibt eigenständig. Redaktionelle Quellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Leistungsnachweis, Faktor und Betrag zum Einstieg verbunden; Schwellenwerturteil nur mit dokumentierter Leitsatz-Prüftiefe aufgenommen. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Schwellenwert nicht als Ausnahmehonorar behandelt; Überschreitung braucht individuellen Aufwand, Laborhöchstsatz bleibt eigenständig.",
+      "Kernfall mit operativem Entscheidungsanker, gezielten Nachfragen und Fortsetzung zum vollständigen angeforderten Dokument.",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt.",
+      "Einstiegsredaktion 16.10.2026: Leistungsnachweis, Faktor und Betrag zum Einstieg verbunden; Schwellenwerturteil nur mit dokumentierter Leitsatz-Prüftiefe aufgenommen."
+    ],
+    "sha256": "62f111d917c95a2f843859b62233a221484f18420f47aeccf219dfda1bb81f5a"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die unterschiedlichen Faktoren einer GOÄ-Rechnung zeilenweise.",
+      "Formuliere eine konkrete Nachforderung zur Begründung einer Schwellenüberschreitung."
+    ],
+    "negative": [
+      "Prüfe ausschließlich einen zahnärztlichen GOZ-Heilkostenplan.",
+      "Bewerte einen Behandlungsfehler ohne Honorarfrage."
+    ]
+  },
+  "cases": [
+    {
+      "id": "laborfaktor-ueber-hoechstsatz",
+      "request": "Erstelle ergebnis.md als Patientenvermerk zu einer ambulanten privatärztlichen Rechnung. Keine Honorarvereinbarung oder tarifliche Sonderregel besteht. Zeile A ist eine allgemeine ärztliche Leistung außerhalb A, E, O und M sowie außerhalb Nummer 437, korrekt erbrachter Inhalt, Faktor 3,5 ohne jede Begründung. Zeile B ist unstreitig eine Laborleistung aus Abschnitt M mit Faktor 1,8 und der Begründung hoher Aufwand. Leistungserbringung und Ziffernzuordnung sind ansonsten unstreitig. Prüfe ausschließlich Faktoren und Begründungsbedarf und formuliere eine sachliche Nachforderung, ohne zusätzliche Behandlungstatsachen zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Für A werden die fehlende individuelle Begründung oberhalb 2,3 und der allgemeine Höchstsatz 3,5 auseinandergehalten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Für B werden Laborschwelle 1,15 und Höchstsatz 1,3 angewandt; eine Aufwandsbegründung legitimiert Faktor 1,8 nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Nachforderung verlangt vorhandene konkrete Erläuterungen beziehungsweise Rechnungskorrektur, erfindet aber keine Schwierigkeit und erklärt nicht pauschal jede Leistung für unbezahlt oder unerbracht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "gebuehrenrahmen-schwellenwert-ampel"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig individuell gelesen und überarbeitet: Rechnungspositionen, Faktoren und Korrekturbeträge anhand der Leistungsnachweise prüfen. Schwellenwert nicht als Ausnahmehonorar behandelt; Überschreitung braucht individuellen Aufwand, Laborhöchstsatz bleibt eigenständig. Redaktionelle Quellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Leistungsnachweis, Faktor und Betrag zum Einstieg verbunden; Schwellenwerturteil nur mit dokumentierter Leitsatz-Prüftiefe aufgenommen. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Schwellenwert nicht als Ausnahmehonorar behandelt; Überschreitung braucht individuellen Aufwand, Laborhöchstsatz bleibt eigenständig.",
+      "Vorhandene Fachzweige, Beispiele und Zugriffsalternativen erhalten; schwache Rechtsprechungshinweise entfernt oder auf belegte Reichweite begrenzt.",
+      "Rechnungsversionen, tatsächlich geleistete Zahlungen, patientenbezogene Faktorbegründung, Analogbewertung und Trennung von Honorar und Versicherung.",
+      "Einstiegsredaktion 16.10.2026: Leistungsnachweis, Faktor und Betrag zum Einstieg verbunden; Schwellenwerturteil nur mit dokumentierter Leitsatz-Prüftiefe aufgenommen."
+    ],
+    "sha256": "061fbd6e9e473bd060a13308af500e254bfa7552b07792b616dd223f162fbb1f"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "goae-gebuehrenordnung-aerzte/README.md",
+      "goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-schnellstart.md",
+      "goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-werkstatt.md",
+      "quality/evals/goae-gebuehrenordnung-aerzte.json"
+    ],
+    "opening_change": "Rechnungspositionen, Faktoren und Korrekturbeträge anhand der Leistungsnachweise prüfen",
+    "norms": [
+      "Paragraf 5 Absatz 2 und Paragraf 12 Absatz 3 GOÄ"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 08.11.2007, III ZR 54/07",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2007/III_ZR__54-07.pdf?__blob=publicationFile&v=1",
+        "application": "Durchschnittliche ärztliche Leistung darf mit 2,3 beziehungsweise einschlägig 1,8 bemessen werden; oberhalb Schwelle gesonderte Begründung prüfen.",
+        "limit": "Amtlicher Leitsatz gelesen, Volltextabruf gescheitert; nicht auf Laborsätze oder unbewiesene Leistungen übertragen.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung, kein Live-Client- oder Modelltest; übrige Fachzweige nicht vollständig rechtlich neu verifiziert.",
+      "Amtlicher Leitsatz gelesen, Volltextabruf gescheitert; nicht auf Laborsätze oder unbewiesene Leistungen übertragen.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Rechnung, Steigerungsfaktor oder Versichererkürzung wählen.",
+      "Rechnungen und Kürzungsschreiben still lesen; Gebühreneinwand oder Erstattungsbrief anbieten.",
+      "Konkreten GOÄ-Abgleich oder Brief unmittelbar fertigstellen."
+    ],
+    "continuation": "Neue Faktorbegründung -> einzelne Position neu beurteilen; Tarifauszug -> Erstattungsargument statt Gebührenanspruch ändern.",
+    "enrichment": "Rechnungsversionen, tatsächlich geleistete Zahlungen, patientenbezogene Faktorbegründung, Analogbewertung und Trennung von Honorar und Versicherung.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2007-11&Gericht=bgh&file=dokument.pdf&linked=urt&nr=41965",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2007/III_ZR__54-07.pdf?__blob=publicationFile&v=1",
+        "sha256": "ac68dc99f891298e91e8053fa14dc89780bfad2734ffcac09a814da368f70a52"
+      }
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Leistungsnachweis, Faktor und Betrag zum Einstieg verbunden; Schwellenwerturteil nur mit dokumentierter Leitsatz-Prüftiefe aufgenommen.",
+    "anchor_or_exception": "BGH, Urteil vom 08.11.2007, III ZR 54/07; Paragrafen 5, 6, 12 GOÄ",
+    "source_status": "Bestand: amtlicher Leitsatz gelesen; Volltextabruf gescheitert; keine neue Prüfung.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "2e0db90451acf7216e50870a046bcb27a41d1b40bc22b2aef770db89f53047da",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "273a08920d155c3b3610c1fd413d30fc2dc4e1178fa7b3d5b1bdc70a6bf77526",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-werkstatt.md",
+        "sha256": "061fbd6e9e473bd060a13308af500e254bfa7552b07792b616dd223f162fbb1f",
+        "characters": 15768,
+        "utf8_bytes": 16057
+      },
+      {
+        "path": "goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-schnellstart.md",
+        "sha256": "62f111d917c95a2f843859b62233a221484f18420f47aeccf219dfda1bb81f5a",
+        "characters": 6256,
+        "utf8_bytes": 6369
+      }
+    ]
+  }
+}

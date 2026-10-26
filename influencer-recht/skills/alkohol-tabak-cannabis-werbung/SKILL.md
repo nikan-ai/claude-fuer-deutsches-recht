@@ -1,6 +1,6 @@
 ---
 name: alkohol-tabak-cannabis-werbung
-description: "Wenn es um Influencer-Recht: Alkohol, Tabak und Cannabis – Werberestriktionen in Influencer-Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Influencer-Recht: Alkohol, Tabak und Cannabis – Werberestriktionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Influencer-Recht: Alkohol, Tabak und Cannabis – Werberestriktionen
@@ -76,29 +76,3 @@ Suchtmittel-Werbung ist massiv eingeschränkt:
 - Ablehnungsschreiben an Brand
 - Konforme Alkohol-Disclaimer-Vorlage
 - JMStV-Audience-Check-Protokoll
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5a UWG
-- § 5 UWG
-- § 22 KUG
-- § 5 TMG
-- § 31 UrhG
-- § 19 UStG
-- § 15 EStG
-- § 3a UStG
-- § 4 EStG
-- § 3 UWG
-- § 8 EStG
-- § 13 UWG
-
-### Leitentscheidungen
-
-- BGH I ZR 35/21
-- BGH I ZR 90/20
-- BGH I ZR 125/20
-- BGH I ZR 126/20
-- BGH III ZR 183/21
-- BFH XI R 14/09

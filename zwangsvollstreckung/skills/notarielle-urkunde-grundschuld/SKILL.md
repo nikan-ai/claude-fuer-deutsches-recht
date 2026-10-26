@@ -1,13 +1,13 @@
 ---
 name: notarielle-urkunde-grundschuld
-description: "Wenn es um Vollstreckung aus notarieller Grundschuldurkunde in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vollstreckung aus notarieller Grundschuldurkunde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vollstreckung aus notarieller Grundschuldurkunde
 
 ## Arbeitsbereich
 
-Gläubiger hat notarielle Grundschuld-Urkunde und will vollstrecken. § 794 Abs. 1 Nr. 5 ZPO Zwangsvollstreckung aus notarieller Urkunde. Prüfraster: Unterwerfungsklausel dinglich und persoenlich Klauselumschreibung § 727 ZPO bei Abtretung Sicherungsabrede Kündigung § 1193 BGB 6-Monats-Frist Vollstreckung Grundstueck ZVG vs. persönliches Vermögen PfUeB. Output: Vollstreckungsstrategie und Schriftsatz-Entwurf. Abgrenzung zu zv-zvg-antrag-gläubiger (Versteigerung) und zv-titel-klausel-zustellung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Gläubiger hat eine notarielle Grundschuldurkunde und will vollstrecken. Prüfraster: Unterwerfung nach Paragraf 794 Absatz 1 Nummer 5 ZPO, dinglicher und persönlicher Titel, Klauselumschreibung nach Paragraf 727 ZPO, Sicherungsabrede, Kündigung und Sechsmonatsfrist nach Paragraf 1193 BGB sowie ZVG oder PfÜB als Vollstreckungsweg. Output: Vollstreckungsstrategie und ausformulierter Antrag. Abgrenzung zu `zvg-antrag-glaeubiger` und `titel-klausel-zustellung`.
 
 ## Arbeitsweg
 
@@ -43,8 +43,8 @@ Gläubiger hat notarielle Grundschuld-Urkunde und will vollstrecken. § 794 Abs.
  - **Zustellung** der vollstreckbaren Ausfertigung an den Schuldner; bei dinglicher Vollstreckung an den Eigentümer (auch Dritter) nach § 800 Abs. 2 ZPO.
 2. **Kündigung Grundschuld § 1193 BGB**: sechs Monate Kündigungsfrist, abdingbar nur eingeschränkt (AGB-Kontrolle gem. § 307 BGB). Kündigungsschreiben zustellen.
 3. **Sicherungsabrede prüfen**: Welche Forderungen sichert die Grundschuld? Aktuelle Höhe? Zinsen? Übersicherung? Einrede § 1192 Abs. 1a BGB bei Abtretung.
-4. **Dingliche Vollstreckung**: ZVG-Antrag → `zv-zvg-antrag-glaeubiger`.
-5. **Persönliche Vollstreckung**: zusätzlich PfÜB Bank/Lohn → `zv-pfueb-bank` / `zv-pfueb-arbeitsentgelt`.
+4. **Dingliche Vollstreckung**: ZVG-Antrag → `zvg-antrag-glaeubiger`.
+5. **Persönliche Vollstreckung**: zusätzlich PfÜB Bank/Lohn → `pfueb-bank` / `pfueb-arbeitsentgelt`.
 6. **Insolvenz**: Bei Schuldner-Insolvenz wird der Grundschuldgläubiger Absonderungsberechtigter (§ 49 InsO) – Vollstreckung außerhalb der Insolvenztabelle weiterhin möglich, aber Verwertung über Insolvenzverwalter ggf. günstiger.
 
 ## Klauselumschreibung § 727 ZPO bei Forderungsabtretung
@@ -64,7 +64,6 @@ Schuldner kann gegenüber neuem Erwerber alle Einreden geltend machen, die ihm g
 ## Leitentscheidungen
 
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
@@ -82,7 +81,7 @@ Klausel § 727: [nicht erforderlich / umschrieben am DD.MM.JJJJ]
 Zustellung § 750: [erfolgt an DD.MM.JJJJ]
 Vollstreckungswege: [ZVG / PfÜB Bank / PfÜB Lohn]
 
-NÄCHSTE SKILLS: zv-zvg-antrag-glaeubiger, zv-pfueb-bank
+NÄCHSTE SKILLS: zvg-antrag-glaeubiger, pfueb-bank
 WIEDERVORLAGE: DD.MM.JJJJ + 6 Monate (Kündigungsfrist)
 ```
 

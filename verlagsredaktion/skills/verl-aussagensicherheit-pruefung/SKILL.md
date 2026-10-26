@@ -1,6 +1,6 @@
 ---
 name: verl-aussagensicherheit-pruefung
-description: "Wenn es um Aussagensicherheits-Pruefung (\"darf das so im Druck?\") in Verlagsredaktion geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Kontrolliert die Belegbarkeit veröffentlichungsreifer Aussagen. Ordnet Behauptung, Beleg, Gegenposition und Veröffentlichungsrisiko ein und erstellt eine Aussagenmatrix mit präzisen Überarbeitungsvorschlägen für die Redaktion."
 ---
 
 # Aussagensicherheits-Pruefung ("darf das so im Druck?")

@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um Erstgespräch Vertragsrecht — Mandatsaufnahme in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch Vertragsrecht — Mandatsaufnahme: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erstgespräch Vertragsrecht — Mandatsaufnahme
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Eingaben
 
@@ -60,13 +58,9 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 ### Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Transparenzgebot bei Zinsklauseln in AGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Haftungsbeschränkung in AGB; Inhaltskontrolle § 307 BGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Einbeziehung von AGB im unternehmerischen Verkehr; § 305 Abs. 2 BGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Überraschungsklausel § 305c BGB; Leitentscheidung zur Klauselkontrolle)
 
 ### Quellenregel
@@ -294,7 +288,7 @@ Anwaltszugang / Nichtjurist/in ohne Anwaltszugang]
 
 ### Kunden-Seite (fremdes Muster / fremde AGB)
 
-*[Falls noch nicht konfiguriert: Hinweis, dass `/vertragsrecht:vertragsrecht-kaltstart-interview --side auftraggeber` auszuführen ist.]*
+*[Falls noch nicht konfiguriert: Hinweis, dass `/vertragsrecht:kaltstart-interview --side auftraggeber` auszuführen ist.]*
 
 [Gleiche Unterstruktur, kalibriert auf Kunden-Seite: was akzeptieren wir
 von Vertragspartnern]
@@ -373,7 +367,7 @@ Zeigen Sie eine Zusammenfassung und bieten Sie an:
 - **Ersten Vertragstest:** "Möchten Sie einen Vertrag einreichen, um zu
  sehen, wie das Playbook funktioniert?"
 - **Hinweis auf Änderbarkeit:** "Das Profil ist eine Textdatei — direkt
- bearbeitbar. Einzelne Positionen ändern: `/vertragsrecht:vertragsrecht-anpassen`."
+ bearbeitbar. Einzelne Positionen ändern: `/vertragsrecht:anpassen`."
 
 ---
 
@@ -411,8 +405,9 @@ Jede Vertragsanalyse und jedes Playbook-Ergebnis muss Nachweise führen aus:
 
 - Gesetzestexten (BGB, UWG, HGB, DSGVO/BDSG) mit konkretem Paragraphen
 - BGH-Rechtsprechung in korrekter Zitierweise
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
  Ist eine Literaturquelle erforderlich, nur als "vom Nutzer bereitgestellte/lizenziert live geprüfte Quelle" mit exakter Fundstelle kennzeichnen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

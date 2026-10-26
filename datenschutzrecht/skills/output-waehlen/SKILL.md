@@ -1,6 +1,6 @@
 ---
 name: output-waehlen
-description: "Wenn es um Output wählen in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Datenschutzrecht. Route: output-waehlen."
 ---
 
 # Output wählen
@@ -15,7 +15,7 @@ Diese Output-Weiche für **Datenschutzrecht** entscheidet, ob Memo, Antrag, Schr
 - `einstieg-schnelltriage-fallrouting` — Anschluss
 - `anwendungsfall-triage` — Anwendungsfall Triage
 - `art-9-besondere-kategorien` — ART 9 Besondere Kategorien
-- `dsv-art-9-besondere-kategorien` — ART Besondere Aufnahme Statusinformation
+- `art-9-besondere-kategorien` — Besondere Kategorien Art. 9 DSGVO im Datenschutzvorfall
 - `aufnahme-statusinformation` — Aufnahme Statusinformation
 - `auskunft-behoerden-gerichts-registerweg` — Auskunft Behoerden Gerichts Registerweg
 - `avv-art-26-joint-controllership-deutsch` — AVV ART 26 Joint Controllership Deutsch

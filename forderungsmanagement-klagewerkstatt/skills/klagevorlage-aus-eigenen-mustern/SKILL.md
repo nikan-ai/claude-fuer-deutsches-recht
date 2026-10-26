@@ -1,6 +1,6 @@
 ---
 name: klagevorlage-aus-eigenen-mustern
-description: "Wenn es um Klagewerkstatt — Lernlauf aus eigenen Mustern in Forderungsmanagement — Klagewerkstatt geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Klagewerkstatt — Lernlauf aus eigenen Mustern: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Klagewerkstatt — Lernlauf aus eigenen Mustern
@@ -41,7 +41,6 @@ Aus dem Lernkorpus extrahieren (Zusammenfassung am Schluss dem Nutzer vorlegen):
 - Standardklauseln: Antragswortlaut, Zinsantrag, vorgerichtliche RA-Kosten als Nebenforderung, Mahnverzugsbeginn, Verzugszinsen (Paragrafen 286, 288 BGB), Verzugsschaden (Paragraf 280 BGB).
 - Tonalität: knapp/ausführlich; aktiv/passiv; Direktanrede des Gerichts.
 - Zitierweise: Pinpoint, Randnummer, jüngere BGH-Entscheidungen zuerst, deutsche Kommentartradition.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Anlagenstrategie und Anlagensigel (K1, K2, …).
 
 **Schritt 4 — Hauseigene Standardvorlage erzeugen**
@@ -128,9 +127,6 @@ Bei Zustimmung: zwei Seiten, DOCX oder Markdown.
 - **Paragraf 286 BGB** Verzug; **Paragraf 288 Abs. 1 BGB** Verzugszinsen 5 Prozentpunkte über Basiszins; **Paragraf 288 Abs. 2 BGB** 9 Prozentpunkte zwischen Unternehmern für Entgeltforderung; **Paragraf 288 Abs. 5 BGB** Verzugspauschale 40 EUR (B2B).
 - **Paragraf 280 BGB** Schadensersatz inkl. vorgerichtlicher RA-Kosten.
 
-### Leitentscheidungen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -157,20 +153,20 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 - Bei drohender Zahlungsunfähigkeit der Beklagten an Liquiditätsplanung (`liquiditaetsplanung`) zur Schnellprüfung.
 - Bei einstweiligem Rechtsschutz/Mahnverfahren an `prozessrecht` (Plugin) oder das freistehende
-  Plugin `zwangsvollstreckung` (`zv-mahnbescheid-online`, `zv-vollstreckungsbescheid-folge`) verweisen.
-- Nach Rechtskraft des Titels an `zwangsvollstreckung` zur operativen Durchsetzung (`zv-pfueb-bank`,
-  `zv-pfueb-arbeitsentgelt`, `zv-vermoegensauskunft-gv`).
+  Plugin `zwangsvollstreckung` (`mahnbescheid-online-mobiliar-gv`, `vollstreckungsbescheid-zv`) verweisen.
+- Nach Rechtskraft des Titels an `zwangsvollstreckung` zur operativen Durchsetzung (`pfueb-bank`,
+  `pfueb-arbeitsentgelt`, `vermoegensauskunft-gv`).
 - Wenn der Nutzer beim nächsten Mal nur den Sachverhalt einreichen will: Schwester-Skill `klage-aus-eigenem-skill` mit dem im Schritt 8 erzeugten Plugin verwenden.
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
 ## Audit-Hinweise (27.05.2026)
 
 Drei halluzinierte Rechtsprechungsbelege wurden im Abschnitt "Leitentscheidungen" korrigiert:
 
 | # | Fehlerhaftes AZ | Status | Korrektur |
 |---|---|---|---|
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Recherchequelle: dejure.org (Abruf 27.05.2026). Frontmatter unveraendert. Kein Commit.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

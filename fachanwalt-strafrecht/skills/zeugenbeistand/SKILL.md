@@ -1,6 +1,6 @@
 ---
 name: zeugenbeistand
-description: "Wenn es um Zeugenbeistand in Fachanwalt Strafrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zeugenbeistand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Zeugenbeistand im Strafverfahren für Zeugen mit eigenem Rechtsinteresse: Anwendungsfall Person ist als Zeuge geladen hat aber eigenes Aussageverweigerungsrecht oder Selbstbelastungsrisiko und benoetigt anwaltlichen Beistand
@@ -67,7 +67,6 @@ Der Zeugenbeistand ist die anwaltliche Begleitperson eines Zeugen – nicht des 
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -190,7 +189,6 @@ Ich beantrage Einsicht in die Verfahrensakte, insbesondere:
 Das berechtigte Interesse ergibt sich aus der bevorstehenden
 Zeugenvernehmung am [Termin]. Eine sachgerechte Vorbereitung
 ist ohne Kenntnis des Verfahrensstands und der bereits vor-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 [Ort, Datum]
 [Unterschrift]
@@ -231,9 +229,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Gegenargument | Erwiderung |
 |---|---|
 | "Die Zeugin muss aussagen, § 48 StPO gilt uneingeschränkt" | § 48 StPO begründet Pflicht, enthält aber keine Aussagepflicht bei Verweigerungsrechten; §§ 52, 53, 55 StPO gehen als lex specialis vor |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Zeugenbeistand darf nicht sprechen" | § 68b Abs. 1 S. 2 StPO erlaubt Beanstandungen; bei Beiordnung auch Erklärungen; BGH hat Erklärungsrecht bestätigt |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Adressanonymisierung ist unverhältnismäßig" | § 68 Abs. 3 StPO erfordert nur drohende Gefahr, nicht bereits eingetretene Schädigung; pauschal aber unzureichend |
 
 ---
@@ -254,7 +250,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ### Konstellation A: Familienmitglied als Zeuge gegen Angehörigen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Konstellation B: Mit-Beschuldigter als Zeuge im Parallelverfahren
 
@@ -299,3 +294,5 @@ HinSchG-Schutz prüfen (Hinweisgeberschutzgesetz 2023). Identitätsschutz und Ad
 ## Quellen
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

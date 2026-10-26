@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bank-kapitalmarktrecht-ombudsmann-bafin-schlichtung
-description: "Wenn es um Bank-/Kapitalmarktrecht — Ombudsmann, BaFin, Schlichtung in Fachanwalt Bank Kapitalmarktrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Bank-/Kapitalmarktrecht — Ombudsmann, BaFin, Schlichtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bank-/Kapitalmarktrecht — Ombudsmann, BaFin, Schlichtung
@@ -72,7 +72,7 @@ Außergerichtliche Beschwerde- und Schlichtungsverfahren im Bank-/Kapitalmarktre
 
 ### Phase 5 — Klage bei Scheitern
 
-- LG-Streit für > 5.000 EUR
+- Gerichtlicher Weg nach Verfahrensordnung, Spezialzuweisung und Streitwert; allgemeine Landgerichtszuständigkeit erst über 10.000 Euro
 - Sachverständigen-Beweis (Bankgutachten BdSt, BaFin-Beratungs-Standards)
 - ggf. Mediation § 278a ZPO
 
@@ -81,7 +81,6 @@ Außergerichtliche Beschwerde- und Schlichtungsverfahren im Bank-/Kapitalmarktre
 - **Ombudsmann zuerst**: kostengünstig, oft Vergleichsdruck auf Bank
 - **BaFin parallel**: bei systematischen Verstößen (Beratungsfehler, MiFID-Pflichten)
 - **Beweislast-Erleichterungen** § 280 BGB i.V.m. WpHG-Beratungspflichten dokumentieren
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **MiFID-Beratungsdokumentation** rügen: Bank muss vollständig dokumentieren
 
 ## Querverweise
@@ -98,7 +97,6 @@ Stand: 05/2026. VSBG seit 2017. BaFin-Beschwerden 2024 ca. 8.000/Jahr. Bei FIDA-
 
 ### Leitsaetze zum Ombudsmann und ADR-Verfahren
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Kette ADR-Schlichtung
 - § 204 Abs. 1 Nr. 4 BGB — Verjaebrungshemmung durch staatlich anerkannte Guetestelle
@@ -175,11 +173,7 @@ Anlagen:
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
 
-<!-- AUDIT 27.05.2026 | bundle_053
-Geprüft: BGH VI ZR 516/19 (NOT_FOUND auf dejure.org)
-Ersatz: BGH III ZR 60/19, NJW 2021, 153 (verifiziert auf dejure.org)
-Thema: Güteantrag Verjährungshemmung § 204 BGB — thematisch passend für Schlichtungs-Kontext
--->
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -189,3 +183,4 @@ Thema: Güteantrag Verjährungshemmung § 204 BGB — thematisch passend für Sc
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

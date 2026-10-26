@@ -1,6 +1,6 @@
 ---
 name: gesetzentwurf-gg-konformitaet-pruefen
-description: "Wenn es um Gesetzentwurf — GG-Konformität prüfen (Gesetzgebersicht) in verfassungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gesetzentwurf — GG-Konformität prüfen (Gesetzgebersicht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gesetzentwurf — GG-Konformität prüfen (Gesetzgebersicht)
@@ -42,7 +42,6 @@ Skill `bverfg-rechtsprechung-recherchieren` zuerst. Jede Aussage benötigt BVerf
 
 - Materiebestimmung (Schwerpunkt)
 - Art. 70–74 GG durchgehen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei Abweichungsgesetzgebung Art. 72 Abs. 3 GG: Verhältnis Bund/Land klären.
 
 ### Schritt 3 — Formelle Verfassungsmäßigkeit (Aufruf Skill `formelle-verfassungsmaessigkeit`)
@@ -51,7 +50,6 @@ Skill `bverfg-rechtsprechung-recherchieren` zuerst. Jede Aussage benötigt BVerf
 - **Zustimmungs- oder Einspruchsgesetz?** Prüfung früh, da Mehrheitsverhältnisse im Bundesrat berücksichtigt werden müssen.
 - **Bestimmtheit:** Tatbestandsmerkmale, Rechtsfolgen, Zuständigkeiten klar regeln. Generalklauseln vermeiden, soweit Grundrechtsrelevanz hoch.
 - **Zitiergebot Art. 19 Abs. 1 S. 2 GG:** Falls ein Grundrecht eingeschränkt wird, im Eingangsabschnitt das eingeschränkte Grundrecht unter Angabe des Artikels nennen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Schritt 4 — Materielle Verfassungsmäßigkeit pro betroffenes Grundrecht
 
@@ -85,7 +83,6 @@ Für jedes betroffene Grundrecht (Aufruf Skill `grundrechtspruefung`):
 
 #### 5c. Sozialstaatsprinzip (Art. 20 Abs. 1 GG)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Gleichmäßige Lastenverteilung.
 
 #### 5d. Bundesstaatsprinzip (Art. 20 Abs. 1 GG)
@@ -95,7 +92,6 @@ Für jedes betroffene Grundrecht (Aufruf Skill `grundrechtspruefung`):
 
 #### 5e. Europarechtsfreundlichkeit
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Mit Unionsrecht vereinbar? Verstoß gegen Grundrechtecharta?
 
 ### Schritt 6 — Begründung des Entwurfs
@@ -176,3 +172,5 @@ BVerfG-Pinpoints
 ## Disclaimer-Wiederholung
 
 Diese Prüfung ersetzt nicht die externe verfassungsrechtliche Begutachtung. Insbesondere die abschließende Beurteilung der Verfassungsmäßigkeit obliegt im Streitfall allein dem BVerfG.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

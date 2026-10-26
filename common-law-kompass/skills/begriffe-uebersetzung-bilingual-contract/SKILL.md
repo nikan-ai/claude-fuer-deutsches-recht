@@ -1,6 +1,6 @@
 ---
 name: begriffe-uebersetzung-bilingual-contract
-description: "Wenn es um Begriffs- und Übersetzungswerkstatt in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Begriffs- und Übersetzungswerkstatt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Begriffs- und Übersetzungswerkstatt
@@ -98,17 +98,3 @@ Begriff | Kontext | Empfohlene dt. Entsprechung | Risiko Fehluebers.
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 29 VwVfG
-- Art. 267 AEUV
-- § 31 BVerfGG
-- § 4 EuRAG
-- Art. 15 DSGVO
-
-### Leitentscheidungen
-
-- BGH XI ZR 39/04

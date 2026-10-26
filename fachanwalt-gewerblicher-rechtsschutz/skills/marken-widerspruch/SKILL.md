@@ -1,6 +1,6 @@
 ---
 name: marken-widerspruch
-description: "Wenn es um Widerspruch gegen Markenanmeldung beim DPMA oder EUIPO einlegen oder abwehren in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Widerspruch gegen Markenanmeldung beim DPMA oder EUIPO einlegen oder abwehren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Widerspruch gegen Markenanmeldung beim DPMA oder EUIPO einlegen oder abwehren
@@ -35,21 +35,15 @@ description: "Wenn es um Widerspruch gegen Markenanmeldung beim DPMA oder EUIPO 
 - § 26 MarkenG — Benutzungspflicht und Nichtbenutzungseinwand
 - § 14 Abs. 2 Nr. 3 MarkenG — Bekanntheit als erweiterter Schutz
 - § 50 MarkenG — Nichtigkeit (nach Widerspruchsfrist: Loeschungsklage)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Art. 46, 8 UMV — EUIPO-Widerspruch
 
 ## Verwechslungsgefahr: 4-Stufen-Test
 
 | Stufe | Prüfkriterium | Hinweis |
 |-------|---------------|---------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 2 | Waren-/Dienstleistungsaehnlichkeit | Nizza-Klassifikation; funktionale Austauschbarkeit |
 | 3 | Bekanntheitsgrad aeltere Marke | Steigernd auf Verwechslungsgefahr |
 | 4 | Wechselwirkung | Niedriger Wert Stufe 1 kann durch hohen Wert Stufe 3 kompensiert werden |
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfraster Benutzungspflicht § 26 MarkenG
 
@@ -105,7 +99,6 @@ Schritt 6: Inhaltliche Begruendung
  → Stellungnahmen-Austausch, DPMA/EUIPO entscheidet
 
 Schritt 7: Bei Niederlage — Beschwerde
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  → EUIPO: Boards of Appeal binnen 2 Monaten Art. 68 UMV
 ```
 
@@ -207,3 +200,5 @@ Anlage W3: [Gebührenbeleg]
 - `fachanwalt-gewerblicher-rechtsschutz-markenanmeldung` — Strategische Anmeldung vor Widerspruch
 - `markenrecht-fashion-luxus/dpma-widerspruch-und-loeschung` — Loeschungsverfahren
 - `gewerblicher-rechtsschutz/markenrecherche` — Kollisionsrecherche vor Anmeldung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

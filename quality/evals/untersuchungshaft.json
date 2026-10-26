@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "plugin": "untersuchungshaft",
+  "reviewed_on": "2026-10-16",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__119.html",
+      "checked_on": "2026-10-16",
+      "supports": "Vorläufige Beschränkungen und gerichtliche Vorlage innerhalb von drei Werktagen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stpo/__122.html",
+      "checked_on": "2026-10-16",
+      "supports": "Besondere OLG-Haftprüfung, Gehör und Ermessen über mündliche Verhandlung."
+    },
+    {
+      "url": "https://recht.nrw.de/lrgv/gesetz/01042026-untersuchungshaftvollzugsgesetz-nordrhein-westfalen-uvollzg-nrw/",
+      "checked_on": "2026-10-16",
+      "supports": "Aktuelle Landesfassung ab April 2026 für Vollzugsbedingungen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/AK__46-26.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-16",
+      "supports": "Haftbefehl wegen vermeidbarer Verzögerung aufgehoben, Entlassung in dieser Sache trotz unveränderter sonstiger Haftvoraussetzungen. Unbegründet verzögerte Eröffnung, fehlende Ermittlungsfristen, ungenutzte Terminangebote und dauerhafte Gerichtsüberlastung; keine hinreichende Kompensation durch künftige Verhandlungsdichte. Grenze: Konkreter Zwischenverfahrensfall, keine automatische Neun-/Zehnmonatsgrenze und kein starrer Wochenquotient; andere Hafttitel gesondert.",
+      "verification_status": "Am 16.10.2026 amtliches BGH-PDF nach Webrecherche und fehlgeschlagenem Webtool-Volltextabruf direkt heruntergeladen, vollständig einschließlich Kopf, Tenor und Gründen gelesen (pdftotext). Kein Pressemitteilungsersatz."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/StB___3-26.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-16",
+      "supports": "Ruhen nach Paragraf 121 Absatz 3 StPO verlängert eine befristete Zuständigkeitsübertragung nach Paragraf 122 Absatz 3 Satz 3 nicht. Nach Ablauf hätte das OLG den Antrag dem wieder zuständigen BGH vorlegen müssen. Die spätere besondere Fortdauerentscheidung ließ den Antrag gegenstandslos werden. Grenze: Tenor hebt die prozessuale Verwerfung auf, nicht den Haftbefehl. Rn. 9 enthält den Gegenfall: bei fortbestehender gewöhnlicher Zuständigkeit grundsätzlich Unzulässigkeit eines parallelen Aufhebungsantrags während anhängiger besonderer Haftprüfung.",
+      "verification_status": "Am 16.10.2026 amtliches BGH-PDF nach Webrecherche und fehlgeschlagenem Webtool-Abruf direkt heruntergeladen und vollständig einschließlich aller zwölf Randnummern gelesen."
+    }
+  ],
+  "selection": {
+    "target_skill": "uhaft-verfahren-steuern",
+    "positive": [
+      "Prüfe den Haftbefehl und bereite einen Antrag auf Haftverschonung vor.",
+      "Die Haft dauert fast sechs Monate. Bearbeite die OLG-Vorlage mit den Belegen."
+    ],
+    "negative": [
+      "Erstelle eine Nebenkostenabrechnung für eine Mietwohnung.",
+      "Prüfe einen Grundstückskaufvertrag vor Beurkundung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "rollenstart",
+      "target_skill": "uhaft-verfahren-steuern",
+      "request": "Ich bin der Bruder eines seit gestern Inhaftierten. Im Ordner liegen Haftbefehl und Arbeitgebermail. Ich möchte einen Antrag stellen; eine Vollmacht habe ich nicht und über den Verteidiger weiß ich nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Klären, ob eigener Antrag des Betroffenen oder Unterstützung eines bevollmächtigten Verteidigers; keine Vertretungsmacht des Bruders erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Aktuellen Haftbefehl zuerst lesen, notwendige Verteidigung und Eile sichern; nicht mit vollständigem Interview beginnen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Konkreten Kontaktentwurf und fehlende Berechtigung benennen; keine erfolgte Einreichung behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdacht-gegenbeleg",
+      "target_skill": "haftbefehl-voraussetzungen-pruefen",
+      "request": "Der Haftbefehl Fliederborn beruht auf einem Zugangschip und einer Kameraerkennung. Die spätere Zeugenvernehmung relativiert beides. Prüfe für das Gericht den fortbestehenden dringenden Verdacht und erstelle einen Entscheidungsvorschlag.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Neue Aussage, Chiprückgabe und nicht abgeschlossenen Seriennummernabgleich getrennt würdigen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Haftgrund und Verhältnismäßigkeit neben dem Tatverdacht prüfen, weder Freispruch noch Haftende aus einer Unsicherheit ableiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Begründeten Beschlussentwurf mit Gegenbelegen und offenen Beweisfragen statt bloßer Ampel erstellen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vorfuehrung",
+      "target_skill": "vorfuehrung-verteidigung-sichern",
+      "request": "Festnahme Montag 21:10 Uhr; Dienstag 10 Uhr sind Anwalt und Dolmetscher noch nicht erreicht. Die Person versteht die Belehrung nicht sicher. Bereite für den Angehörigen eine sofortige Kontaktanfrage vor, ohne den Tatvorwurf zu erfragen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unverzüglichkeit und äußere Zeitgrenze unterscheiden; nächsten Tag nicht als frei verfügbare Wartezeit verstehen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verteidigung vor Haftentscheidung sowie Sprachverständnis sichern und medizinischen Bedarf nicht vertagen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Nur belegte Zeiten aufnehmen und keinen angeblichen Kontakt oder Richtertermin erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verschonung",
+      "target_skill": "haftverschonung-entlassung-beantragen",
+      "request": "Für Fliederborn sind Wohnung bis März 2027, Beschäftigung und 3500 EUR der Schwester belegt. Noch ist kein Geld eingezahlt. Erstelle als Verteidiger einen Antrag mit geeigneter Alternative, ohne die Sicherheit als bereits bestellt darzustellen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Aufhebung mangels Voraussetzungen von Außervollzugsetzung bei fortbestehendem Haftbefehl trennen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Auflagen, Arbeitszeiten, Finanzierung und begrenzte Aufsicht der Schwester konkret abgleichen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Ausformulierten Haupt- und gegebenenfalls Hilfsantrag mit erfüllbaren Bedingungen liefern.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muendliche-pruefung",
+      "target_skill": "haftpruefung-muendlich-vorbereiten",
+      "request": "Das OLG hat nach sechs Monaten Haftfortdauer angeordnet und die weitere Haftprüfung nicht übertragen. Der Betroffene verlangt einen mündlichen Termin binnen zwei Wochen. Formuliere den passenden Antrag und erkläre die Verfahrensgrenzen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "OLG-Zuständigkeit und Ermessen nach Paragraf 122 Absatz 3 Satz 4 von regulärer Haftprüfung trennen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Keinen unbedingten mündlichen Terminanspruch binnen zwei Wochen behaupten; erneute Prüfung und Gehör konkret beantragen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Laufende Beschwerde oder Prüfung ermitteln und keinen unzulässigen Parallelweg einleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beschwerde",
+      "target_skill": "haftbeschwerde-begruenden",
+      "request": "Die Familie erhielt gestern einen Haftfortdauerbeschluss und meint, es bleibe nur eine Woche. Der Verteidiger soll Beschwerde einlegen; beim Ausgangsgericht liegt noch kein Haftprüfungsantrag. Bereite einen begründeten Rechtsbehelf vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Keine allgemeine Wochenfrist für gewöhnliche Haftbeschwerde erfinden; zuständigen Ausgangsrichter bestimmen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Dreitagesvorlagefrist von Einlegungsfrist trennen und Grenzen weiterer Beschwerde erläutern.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Tragende Beschlussgründe angreifen, Form der Einreichung prüfen und keine automatische Haftunterbrechung versprechen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sechsmonate",
+      "target_skill": "haftdauer-beschleunigung-pruefen",
+      "request": "Kornfeld ist seit 20. April in Haft. Die OLG-Vorlage ging am 15. Oktober ein; Hauptverhandlung ist für November geplant. Gutachterauftrag und Zeitjournal liegen vor. Prüfe den tatsächlichen Verlauf und bereite die Stellungnahme vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Zeitabschnitte zwischen Beweissicherung, Auftrag, Gutachten und Anklage getrennt belegen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Fristruhen bei rechtzeitiger Vorlage prüfen; keine automatische Entlassung am 20. Oktober versprechen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Vermeidbare Verzögerungen konkret bearbeiten, Terminquote nicht schematisch verwenden und Quellenstatus kennzeichnen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kontaktvorlage",
+      "target_skill": "beschraenkungen-kontakt-pruefen",
+      "request": "Eine JVA ordnete am Montag wegen nicht erreichbaren Richters vorläufig eine Postkontrolle an und legte sie am Mittwoch vor. Freitag fehlt die gerichtliche Entscheidung. Prüfe für die Verteidigung die Maßnahme und einen Eilantrag.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Dreiwerktagefrist als Vorlagefrist anwenden, nicht als Frist für gerichtliche Genehmigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Zweck, Dringlichkeit, Begründung und betroffene Kommunikation einzeln prüfen; Verteidigerverkehr gesondert behandeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Statthaften gerichtlichen Rechtsbehelf mit konkreter begehrter Änderung ausformulieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vollzug-koeln",
+      "target_skill": "vollzugsbedingungen-gerichtlich-pruefen",
+      "request": "Falkenried möchte ihre Tochter sehen, Privatkleidung tragen und einen Facharzttermin wahrnehmen. Es gibt gerichtliche Kontaktverbote nur für zwei andere Personen und mehrere Anstaltsantworten. Erstelle die erforderlichen getrennten Anträge.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Gerichtliche Haftbeschränkung und vollzugsrechtliche Entscheidung nach NRW-Recht auseinanderhalten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Dreiwochenregel in Paragraf 119a nicht als Ausschlussfrist oder zwingende Wartepflicht bei Eile behandeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Medizinische Dringlichkeit klären, keine Therapie anordnen; konkrete Besuchs- und Kleidungsnachweise nachfordern.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jugend-bremen",
+      "target_skill": "jugendliche-heranwachsende-pruefen",
+      "request": "Wolkensteg ist 15 Jahre alt, war zwei Nächte beim Onkel und kam wieder in die Schule. Eine betreute Wohngruppe bietet bedingte Aufnahme an. Bereite für das Gericht die Alternativenprüfung zur Haftentscheidung vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Besondere Unter-16-Voraussetzungen des Paragrafen 72 Absatz 2 JGG prüfen; Schulabwesenheit nicht mit Flucht gleichsetzen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Finanzierung, Sorgeberechtigtenzustimmung und Aufnahmezeit verifizieren; bloße Zusage nicht als vollzogene Unterbringung behandeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verteidigung und Anhörung sichern; Jugendregel nicht pauschal über Paragraf 109 auf jeden Heranwachsenden übertragen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Anklageeingang, Eröffnungsreife, notwendige Nachermittlungen mit Fristen, angebotene Verteidigertermine und Gerichtsplanung abgleichen; bei vergleichbarer zurechenbarer Verzögerung Aufhebung nach Paragraf 120 StPO begründen.; Übertragungsbeschluss, Enddatum, Anhängigkeit und Zeitpunkt der Fortdauerentscheidung sichern; daraus richtigen Adressaten, Vorlagebitte oder aktuellen Antrag bestimmen. Keine Entlassung aus bloßem Zuständigkeitsfehler ableiten.",
+    "changes": [
+      "Rollen, Beweisfragen und Rechtsbehelfe in kurze Absätze und getrennte Listen gegliedert.",
+      "Rechtsprechung unmittelbar bei Vorführung, Verschonung, Haftkontrolle und Kontakten eingeordnet; einschließlich Nichtannahme und Grenzen der Entlassungsfolge.",
+      "Längenprüfung erfasst UTF-8 und Windows-Zeilenumbrüche; vollständige Enddokumente mit eigenem Exporthinweis.",
+      "Quellenvertiefung 16.10.2026: BGH, Beschluss vom 09.09.2026, AK 46/26; BGH, Beschluss vom 05.02.2026, StB 3/26"
+    ],
+    "sha256": "cbbf1a5cc3b209984c9669b0e936ddd1f215d7d4295b9912f1812c78e46755fc"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Anklageeingang, Eröffnungsreife, notwendige Nachermittlungen mit Fristen, angebotene Verteidigertermine und Gerichtsplanung abgleichen; bei vergleichbarer zurechenbarer Verzögerung Aufhebung nach Paragraf 120 StPO begründen.; Übertragungsbeschluss, Enddatum, Anhängigkeit und Zeitpunkt der Fortdauerentscheidung sichern; daraus richtigen Adressaten, Vorlagebitte oder aktuellen Antrag bestimmen. Keine Entlassung aus bloßem Zuständigkeitsfehler ableiten.",
+    "changes": [
+      "Wiederinvollzugsetzung, Gehör, Gutachterplanung, OLG-Untätigkeit und Familienkontakte gezielt vertieft.",
+      "Erledigter Haftbefehl und ausdrücklich offengelassene Fortgeltung von Verschonungsauflagen getrennt.",
+      "Elf amtliche Originalentscheidungen und zwei sekundär abgeglichene BGH-Beschlüsse transparent unterschieden.",
+      "Quellenvertiefung 16.10.2026: BGH, Beschluss vom 09.09.2026, AK 46/26; BGH, Beschluss vom 05.02.2026, StB 3/26"
+    ],
+    "sha256": "4760dc37244ba04bd84ef67be1cf18cb3e75137b70953602dbeaa504ded1c527"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-10-16",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerer Start klärt Rolle, Haftstand und vorrangiges Anliegen.",
+      "Haftbefehl und Belege liegen vor: unmittelbar passenden Antrag bearbeiten.",
+      "Neue gerichtliche Entscheidung: bisherige Prüfung fortsetzen und Rechtsbehelf neu abgleichen."
+    ],
+    "continuation": "Neue Wohnzusage, Terminsmitteilung oder Anstaltsantwort nur in betroffenen Schritten einarbeiten; offene Nachweise gezielt anfordern.",
+    "enrichment": "Zehn individuelle Fälle prüfen Rollenbefugnis, Beweisänderung, Verteidigung, Auflagen, Rechtsbehelfe, Haftzeit, Kontakt, Vollzug und Alter.",
+    "limits": "Redaktionelle Anweisungsprüfung und technische Tests, keine tatsächlich durchgeführten Modellläufe."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-16",
+    "method": "desk_review",
+    "files": [
+      "untersuchungshaft/untersuchungshaft-werkstatt.md",
+      "untersuchungshaft/untersuchungshaft-schnellstart.md",
+      "untersuchungshaft/README.md",
+      "untersuchungshaft/references/rechtsquellen.md",
+      "untersuchungshaft/skills/haftdauer-beschleunigung-pruefen/SKILL.md",
+      "untersuchungshaft/skills/haftpruefung-muendlich-vorbereiten/SKILL.md"
+    ],
+    "opening_change": "Anstehendes Schriftstück bestimmt den Einstieg; zehn kurze Mini-Abschnitte und konkrete Rückfragen ersetzen einen allgemeinen Aktenbericht.",
+    "norms": [
+      "Paragrafen 112 bis 123 StPO: Haft, Alternativen, Prüfung und Fortdauer.",
+      "Paragrafen 119 und 119a StPO: Beschränkung und Vollzugsrechtsschutz.",
+      "Paragrafen 72 und 109 JGG: unterschiedliche Reichweite der Jugendregeln."
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 05.02.2025, 2 BvR 24/25 und 2 BvR 69/25",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250206_2bvr002425.html",
+        "application": "Vertiefte individuelle Begründung der Haftfortdauer und tatsächliche Beschleunigung.",
+        "limit": "Keine automatische Entlassungsfolge für andere Verfahren und kein unmittelbares Besuchsrecht aus diesem Beschluss.",
+        "source_status": "official_full_text",
+        "paragraphs": "25-36"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 15.05.2002, 2 BvR 2292/00",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2002/05/rs20020515_2bvr229200.html",
+        "application": "Organisatorisch wirksamer Richtervorbehalt und unverzügliche Befassung neben äußerer Grenze.",
+        "limit": "Polizeigewahrsam im Abschiebungszusammenhang, keine eigene StPO-Spezialfrist.",
+        "source_status": "official_full_text",
+        "paragraphs": "27-28"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 07.03.2012, 2 BvR 988/10",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2012/03/rk20120307_2bvr098810.html",
+        "application": "Vertraulicher Verteidigerkontakt und Paragraf 148 StPO bei Ablehnung eines Telefonats.",
+        "limit": "Kein unbegrenztes Telefonrecht; historisches Übergangsrecht nicht als heutiges Landesrecht verwenden.",
+        "source_status": "official_full_text",
+        "paragraphs": "32-34"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 30.10.2014, 2 BvR 1513/14",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2014/10/rk20141030_2bvr151314.html",
+        "application": "Zusätzliche Beschränkungen benötigen konkrete Erforderlichkeit neben dem Haftgrund.",
+        "limit": "Keine pauschale Aufhebung aller Kontrollen; aktuelle Ermittlungen und einzelne Maßnahme prüfen.",
+        "source_status": "official_full_text",
+        "paragraphs": "18-22"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 01.04.2020, 2 BvR 225/20",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/04/rk20200401_2bvr022520.html",
+        "application": "Neuterminierung, Gutachterverfügbarkeit und zulässiges Verteidigungsverhalten unterscheiden.",
+        "limit": "Notwendige Begutachtung darf Zeit beanspruchen; vermeidbare Abschnitte konkret belegen.",
+        "source_status": "official_full_text",
+        "paragraphs": "65-78"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 17.12.2020, 2 BvR 1787/20",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/rk20201217_2bvr178720.html",
+        "application": "Schutz der Verschonungsentscheidung auch beim zusammenhängenden Ersatz durch neuen Haftbefehl prüfen.",
+        "limit": "Keine allgemeine Immunität gegen spätere Haft wegen beliebiger anderer Taten.",
+        "source_status": "official_full_text",
+        "paragraphs": "49-56"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 08.07.2021, 2 BvR 575/21",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/07/rk20210708_2bvr057521.html",
+        "application": "Neue haftgrundbezogene Tatsachen, ursprüngliche Prognose und Auflagentreue vor Wiederinvollzugsetzung.",
+        "limit": "Bloße Verdachtsverdichtung reicht nicht; erhebliche Änderung der Fluchtprognose bleibt gesondert prüfbar.",
+        "source_status": "official_full_text",
+        "paragraphs": "41-48"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 15.11.2022, 2 BvR 1139/22",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/11/rk20221115_2bvr113922.html",
+        "application": "Telefonüberwachung gegenüber Eltern nach konkreter Gefahr, Familienbezug und Dauer abwägen.",
+        "limit": "Überhaft während psychiatrischer Unterbringung; kein allgemeines unüberwachtes Besuchsrecht.",
+        "source_status": "official_full_text",
+        "paragraphs": "25-30"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 23.01.2023, 2 BvR 1343/22",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/01/rk20230123_2bvr134322.html",
+        "application": "Verspätete Vorlage nach Paragraf 306 Absatz 2 und ihre tatsächlichen Folgen getrennt beurteilen.",
+        "limit": "Nichtannahme; nicht jeder Vorlageverstoß führt zur Haftaufhebung, trotzdem keine Verzögerungserlaubnis.",
+        "source_status": "official_full_text",
+        "paragraphs": "2-5"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 21.09.2023, 2 BvR 825/23",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/09/rk20230921_2bvr082523.html",
+        "application": "Zeitnahen effektiven Rechtsschutz trotz Fristruhens im besonderen OLG-Prüfungsverfahren verlangen.",
+        "limit": "Festgestellte Rechtsschutzverletzung ist nicht allein Haftaufhebungsgrund; keine allgemeine Untätigkeitsbeschwerde erfinden.",
+        "source_status": "official_full_text",
+        "paragraphs": "24-36"
+      },
+      {
+        "citation": "BVerfG, Beschluss vom 17.01.2024, 2 BvR 1756/23",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2024/01/rk20240117_2bvr175623.html",
+        "application": "Subsidiarität und Gehör bei übergangenem Kernvorbringen; außerdem Entscheidungsreife im Zwischenverfahren.",
+        "limit": "Nichtannahme wegen Unzulässigkeit trotz materieller Kritik, keine erfolgreiche Entlassungsentscheidung.",
+        "source_status": "official_full_text",
+        "paragraphs": "8-20"
+      },
+      {
+        "citation": "BGH, Beschluss vom 03.04.2025, StB 8/25",
+        "url": "https://www.anwalt24.de/urteile/bgh/2025-04-03/stb-8_25",
+        "application": "Erledigung des Untersuchungshaftbefehls mit rechtskräftiger Verurteilung auch nach Außervollzugsetzung.",
+        "limit": "Fortgeltung isolierter Auflagen ausdrücklich offengelassen; keine Nichtbefolgung empfehlen.",
+        "source_status": "two_secondary_full_texts",
+        "paragraphs": "4-11",
+        "comparison_url": "https://www.hrr-strafrecht.de/hrr/2/25/stb-8-25.pdf"
+      },
+      {
+        "citation": "BGH, Beschluss vom 04.08.2026, StB 46/26",
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-08-04/stb-46-26",
+        "application": "Tatsächliche Förderung umfangreicher Hauptverhandlung einschließlich Selbstleseverfahren würdigen.",
+        "limit": "Verfassungsrechtliche Verhandlungsanforderungen nicht absenken; Umfangsverfahren nicht als Freibrief für gewöhnliche Liegezeiten.",
+        "source_status": "two_secondary_full_texts",
+        "paragraphs": "12-19",
+        "comparison_url": "https://www.anwalt24.de/urteile/bgh/2026-08-04/stb-46_26"
+      },
+      {
+        "citation": "BGH, Beschluss vom 09.09.2026, AK 46/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/AK__46-26.pdf?__blob=publicationFile&v=1",
+        "application": "Haftbefehl wegen vermeidbarer Verzögerung aufgehoben, Entlassung in dieser Sache trotz unveränderter sonstiger Haftvoraussetzungen. Unbegründet verzögerte Eröffnung, fehlende Ermittlungsfristen, ungenutzte Terminangebote und dauerhafte Gerichtsüberlastung; keine hinreichende Kompensation durch künftige Verhandlungsdichte.",
+        "limit": "Konkreter Zwischenverfahrensfall, keine automatische Neun-/Zehnmonatsgrenze und kein starrer Wochenquotient; andere Hafttitel gesondert.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Am 16.10.2026 amtliches BGH-PDF nach Webrecherche und fehlgeschlagenem Webtool-Volltextabruf direkt heruntergeladen, vollständig einschließlich Kopf, Tenor und Gründen gelesen (pdftotext). Kein Pressemitteilungsersatz.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json",
+        "workflow_effect": "Anklageeingang, Eröffnungsreife, notwendige Nachermittlungen mit Fristen, angebotene Verteidigertermine und Gerichtsplanung abgleichen; bei vergleichbarer zurechenbarer Verzögerung Aufhebung nach Paragraf 120 StPO begründen.",
+        "source_status": "official_full_text",
+        "paragraphs": "19-24"
+      },
+      {
+        "citation": "BGH, Beschluss vom 05.02.2026, StB 3/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/StB___3-26.pdf?__blob=publicationFile&v=1",
+        "application": "Ruhen nach Paragraf 121 Absatz 3 StPO verlängert eine befristete Zuständigkeitsübertragung nach Paragraf 122 Absatz 3 Satz 3 nicht. Nach Ablauf hätte das OLG den Antrag dem wieder zuständigen BGH vorlegen müssen. Die spätere besondere Fortdauerentscheidung ließ den Antrag gegenstandslos werden.",
+        "limit": "Tenor hebt die prozessuale Verwerfung auf, nicht den Haftbefehl. Rn. 9 enthält den Gegenfall: bei fortbestehender gewöhnlicher Zuständigkeit grundsätzlich Unzulässigkeit eines parallelen Aufhebungsantrags während anhängiger besonderer Haftprüfung.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Am 16.10.2026 amtliches BGH-PDF nach Webrecherche und fehlgeschlagenem Webtool-Abruf direkt heruntergeladen und vollständig einschließlich aller zwölf Randnummern gelesen.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json",
+        "workflow_effect": "Übertragungsbeschluss, Enddatum, Anhängigkeit und Zeitpunkt der Fortdauerentscheidung sichern; daraus richtigen Adressaten, Vorlagebitte oder aktuellen Antrag bestimmen. Keine Entlassung aus bloßem Zuständigkeitsfehler ableiten.",
+        "source_status": "official_full_text",
+        "paragraphs": "8-11"
+      }
+    ],
+    "remaining_limits": [
+      "BGH StB 8/25 und StB 46/26 über Sekundärvolltexte abgeglichen, amtlicher Abruf bleibt vor tragender Verwendung erforderlich.",
+      "Landesrecht, konkrete Haftakte und Zuständigkeit müssen für jeden Auftrag neu geprüft werden.",
+      "Keine Leistungszusage für fremde Oberflächen oder Modelle."
+    ]
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 09.09.2026, AK 46/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/AK__46-26.pdf?__blob=publicationFile&v=1",
+        "application": "Haftbefehl wegen vermeidbarer Verzögerung aufgehoben, Entlassung in dieser Sache trotz unveränderter sonstiger Haftvoraussetzungen. Unbegründet verzögerte Eröffnung, fehlende Ermittlungsfristen, ungenutzte Terminangebote und dauerhafte Gerichtsüberlastung; keine hinreichende Kompensation durch künftige Verhandlungsdichte.",
+        "limit": "Konkreter Zwischenverfahrensfall, keine automatische Neun-/Zehnmonatsgrenze und kein starrer Wochenquotient; andere Hafttitel gesondert.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Am 16.10.2026 amtliches BGH-PDF nach Webrecherche und fehlgeschlagenem Webtool-Volltextabruf direkt heruntergeladen, vollständig einschließlich Kopf, Tenor und Gründen gelesen (pdftotext). Kein Pressemitteilungsersatz.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json",
+        "workflow_effect": "Anklageeingang, Eröffnungsreife, notwendige Nachermittlungen mit Fristen, angebotene Verteidigertermine und Gerichtsplanung abgleichen; bei vergleichbarer zurechenbarer Verzögerung Aufhebung nach Paragraf 120 StPO begründen.",
+        "source_status": "official_full_text",
+        "paragraphs": "19-24"
+      },
+      {
+        "citation": "BGH, Beschluss vom 05.02.2026, StB 3/26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/3_StS/2026/StB___3-26.pdf?__blob=publicationFile&v=1",
+        "application": "Ruhen nach Paragraf 121 Absatz 3 StPO verlängert eine befristete Zuständigkeitsübertragung nach Paragraf 122 Absatz 3 Satz 3 nicht. Nach Ablauf hätte das OLG den Antrag dem wieder zuständigen BGH vorlegen müssen. Die spätere besondere Fortdauerentscheidung ließ den Antrag gegenstandslos werden.",
+        "limit": "Tenor hebt die prozessuale Verwerfung auf, nicht den Haftbefehl. Rn. 9 enthält den Gegenfall: bei fortbestehender gewöhnlicher Zuständigkeit grundsätzlich Unzulässigkeit eines parallelen Aufhebungsantrags während anhängiger besonderer Haftprüfung.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Am 16.10.2026 amtliches BGH-PDF nach Webrecherche und fehlgeschlagenem Webtool-Abruf direkt heruntergeladen und vollständig einschließlich aller zwölf Randnummern gelesen.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/oeffentlich-straf.json",
+        "workflow_effect": "Übertragungsbeschluss, Enddatum, Anhängigkeit und Zeitpunkt der Fortdauerentscheidung sichern; daraus richtigen Adressaten, Vorlagebitte oder aktuellen Antrag bestimmen. Keine Entlassung aus bloßem Zuständigkeitsfehler ableiten.",
+        "source_status": "official_full_text",
+        "paragraphs": "8-11"
+      }
+    ],
+    "files": [
+      {
+        "path": "untersuchungshaft/README.md",
+        "sha256": "494057c386dfce91cdb691e5b38a9c1052fa7e947ba4383a34077f6af3753b06"
+      },
+      {
+        "path": "untersuchungshaft/references/rechtsquellen.md",
+        "sha256": "dc8e6afc84d53e48d04968d07974a7b3635250220be4bcd521dc885750581565"
+      },
+      {
+        "path": "untersuchungshaft/skills/haftdauer-beschleunigung-pruefen/SKILL.md",
+        "sha256": "95af76f66422df95ac98545fc33f1a8fa25c29dac083ec8271618437402f8531"
+      },
+      {
+        "path": "untersuchungshaft/skills/haftpruefung-muendlich-vorbereiten/SKILL.md",
+        "sha256": "14322ae00b290153be877b3861a062629ffcb5eba54c64aa09c02ada25ab7096"
+      },
+      {
+        "path": "untersuchungshaft/untersuchungshaft-schnellstart.md",
+        "sha256": "cbbf1a5cc3b209984c9669b0e936ddd1f215d7d4295b9912f1812c78e46755fc"
+      },
+      {
+        "path": "untersuchungshaft/untersuchungshaft-werkstatt.md",
+        "sha256": "4760dc37244ba04bd84ef67be1cf18cb3e75137b70953602dbeaa504ded1c527"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

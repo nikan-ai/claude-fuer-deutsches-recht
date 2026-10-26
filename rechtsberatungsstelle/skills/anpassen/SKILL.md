@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um /anpassen in Plugin für die studentische Rechtsberatungsstelle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Plugin für die studentische Rechtsberatungsstelle."
 ---
 
 # /anpassen
@@ -30,11 +30,8 @@ description: "Wenn es um /anpassen in Plugin für die studentische Rechtsberatun
 3. Sind neue Studenten aufgenommen worden, die in die CLAUDE.md eingetragen werden müssen?
 4. Soll gleichzeitig ein Fachbereichsleitfaden angepasst werden oder nur das Hauptprofil?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- § 6 Abs. 2 Nr. 2 RDG — Anleitungsstruktur muss aktuell und wirksam sein; Semesterwechsel erfordert Profil-Update
+- Paragraf 6 Absatz 2 RDG — Anleitungsstruktur muss aktuell und wirksam sein; Semesterwechsel erfordert Profil-Update
 - Art. 30 DSGVO — Verarbeitungsverzeichnis: bei Änderung des Verarbeitungsumfangs zu aktualisieren
 - §§ 43, 43a BRAO — Berufspflichten des Anleiters: kontinuierliche Aktualitaet der Organisationsunterlagen
 - § 203 Abs. 4 StGB — Einbeziehung Dritter: bei Wechsel von Studentenn neue Verschwiegenheitsvereinbarungen prüfen
@@ -59,7 +56,7 @@ Fachbereich in `CLAUDE.md` unter `Fachbereiche` ergänzen. Dann sofort:
 
 > Welche Gates sollen geändert werden? Verschärfen oder lockern?
 
-Tabelle in `CLAUDE.md` → `Aufsichtsmodell` anpassen. Hinweis: Lockerung nur bei nachgewiesener Erfahrung der Studentenn. § 6 Abs. 2 Nr. 2 RDG verlangt tatsächliche Anleitung.
+Tabelle in `CLAUDE.md` → `Aufsichtsmodell` anpassen. Hinweis: Lockerung nur bei nachgewiesener Erfahrung der Studentenn. Paragraf 6 Absatz 2 RDG verlangt tatsächliche Anleitung.
 
 ### 4. Gesetzesänderungen einpflegen
 
@@ -108,7 +105,7 @@ Am Ende der `CLAUDE.md` einen Änderungseintrag hinzufügen:
 ```
 
 ## Änderungshistorie
-- [Datum] Abschnitt [B] geändert: SGB IX / § 76b hinzugefügt. [Kürzel Anleiter]
+- [Datum] Abschnitt [B] geändert: Eingliederungshilfe und Aufenthaltsstatus getrennt erfasst. [Kürzel Anleiter]
 - [Datum] Abschnitt [H] geändert: Semesterwechsel SS 2025. [Kürzel Anleiter]
 ```
 
@@ -118,24 +115,4 @@ Am Ende der `CLAUDE.md` einen Änderungseintrag hinzufügen:
 - **Gesetzesänderungen nicht eingepflegt:** Veraltertes Profil führt dazu, dass der Skill mit überholten Normen arbeitet (z. B. falsche Regelbedarfsstufen, falsche Fristen).
 - **Mandate ohne Übergabe:** Beim Semesterwechsel sicherstellen, dass alle laufenden Mandate über `/rechtsberatungsstelle:semester-übergabe` übergeben werden, bevor das Profil auf das neue Semester umgestellt wird.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 6 RDG
-- § 203 StGB
-- § 4 KSchG
-- § 84 SGG
-- § 74 AsylG
-- § 70 VwGO
-- § 8 RDG
-- Art. 30 DSGVO
-- Art. 28 DSGVO
-- § 3 RDG
-- Art. 13 DSGVO
-- § 3 AsylG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

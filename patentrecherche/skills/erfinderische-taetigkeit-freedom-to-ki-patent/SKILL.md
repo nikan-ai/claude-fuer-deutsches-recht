@@ -1,6 +1,6 @@
 ---
 name: erfinderische-taetigkeit-freedom-to-ki-patent
-description: "Wenn es um erfinderische-tätigkeit-prüfen in patentrecherche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für erfinderische-tätigkeit-prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # erfinderische-tätigkeit-prüfen
@@ -15,10 +15,12 @@ description: "Wenn es um erfinderische-tätigkeit-prüfen in patentrecherche geh
 
 ## Rechtsrahmen
 
+Für Anspruchsauslegung und Rechercheauswahl [BGH, Urteil vom 09.06.2026 – X ZR 35/24, Referenzkontur, Rn. 19–28 und 79–86](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2024/X_ZR__35-24.pdf?__blob=publicationFile&v=1) verwenden: Bestimme anhand Anspruch und Beschreibung, ob eine Zweckangabe nur Eignung beschreibt oder einen auszuführenden Verfahrensschritt begrenzt. Die bloße Etikettierung als Zweckangabe entscheidet das nicht. Begründe außerdem mit Umständen am Prioritätstag, weshalb der Fachmann gerade diese Entgegenhaltung als Ausgangspunkt und gegebenenfalls ein fremdes Fachgebiet heranziehen würde. Beim Klebstoffauftrag konnten Lösungen aus der Schweißsteuerung wegen vergleichbarer optischer Führungsprobleme Anlass bieten. Das ist weder ein allgemeines Verbot gebietsübergreifender Recherche noch ein universelles Gebot tatsächlicher Zweckverwendung.
+
 - **§ 4 PatG.** Eine Erfindung gilt als auf einer erfinderischen Tätigkeit beruhend, wenn sie sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergibt.
 - **Art. 56 EPÜ.** Wortgleich für das EPA.
 - **Geheime ältere Anmeldungen** (§ 3 Abs. 2 PatG / Art. 54 Abs. 3 EPÜ) sind **nicht** für die erfinderische Tätigkeit relevant — sondern nur für die Neuheit.
-- **EPA-Methodik:** **Problem-Solution-Approach** (PSA). Bindend für die EPA-Prüfung und EPA-Beschwerdekammer-Rechtsprechung; in der DPMA- und BPatG-Praxis ebenfalls maßgeblich, wenn auch nicht so dogmatisch.
+- **Methodik:** Im EPA-Verfahren den Problem-Solution-Approach anhand einschlägiger Richtlinien und Kammerrechtsprechung prüfen. Für die deutsche Nichtigkeitsprüfung die oben belegte Veranlassungsprüfung anwenden; keine Bindung deutscher Gerichte an eine schematische Auswahl genau eines „nächstliegenden“ Dokuments behaupten.
 
 ## Problem-Solution-Approach in drei Stufen
 
@@ -92,7 +94,7 @@ Recherche-Treffer durchgehen — gibt es eine Entgegenhaltung, die neuronale Net
 
 → **Ergebnis:** Der Fachmann hätte ausgehend von EP 3 456 789 A1 mit Anregung aus WO 2017/123 mit Erwartung auf Erfolg den Weg von Anspruch 1 beschritten. **Erfinderische Tätigkeit fraglich**, Anspruch sollte engerer gefasst werden (z. B. Spezifikum des Trainingsverfahrens, Kombination mit weiteren Merkmalen).
 
-Oder, wenn keine Anregung besteht: **Erfinderische Tätigkeit liegt vor.**
+Fehlt für diese Kombination eine tragfähige Veranlassung, scheitert dieser Angriff; andere Ausgangspunkte und Nichtigkeitsgründe bleiben zu prüfen.
 
 ## Sekundärindizien
 
@@ -106,7 +108,7 @@ Wenn die Could-Would-Prüfung nahelegend ausfällt, aber dennoch Zweifel bestehe
 
 ## Hinweise
 
-- **EPA-Standardphrase:** "Could-would-approach." Im DPMA-/BPatG-Verfahren weniger formelhaft, aber inhaltlich gleich.
+- **Verfahrensunterschied:** EPA-Methodik und deutsche Veranlassungsprüfung nicht schlicht gleichsetzen. Ausgangspunkt, Fachmann und konkreten technischen Anlass jeweils begründen.
 - **Mehrfach-PSA.** Wenn mehrere CPA-Kandidaten denkbar: PSA für jeden, schwächste Position für die Mandantin maßgeblich.
 - **Mosaike** sind hier — anders als bei der Neuheit — **zulässig**, aber nur, wenn der Fachmann eine Verbindung gezogen hätte (Pointer aus CPA, allgemeines Fachwissen).
 - **Hindsight-Verbot.** Die Argumentation darf nicht auf die Mandanten-Anmeldung zurückblicken ("wenn man weiß, wie es geht, ist es immer leicht").
@@ -126,8 +128,7 @@ Bevor der Problem-Solution-Approach angewendet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EPA, Technische Beschwerdekammer, T 21/81 (Unerwarteter technischer Effekt):** Ein unerwarteter technischer Effekt, der über das aus dem Stand der Technik Vorhersehbare hinausgeht, ist ein Indiz für erfinderische Taetigkeit; er muss im Anspruch oder in der Beschreibung hinreichend offenbart sein.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

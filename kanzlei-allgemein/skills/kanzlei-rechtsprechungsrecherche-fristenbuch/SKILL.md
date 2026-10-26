@@ -1,6 +1,6 @@
 ---
 name: kanzlei-rechtsprechungsrecherche-fristenbuch
-description: "Wenn es um Rechtsprechungsrecherche und Fundstellenablage in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechtsprechungsrecherche und Fundstellenablage: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Rechtsprechungsrecherche und Fundstellenablage
@@ -18,9 +18,6 @@ description: "Wenn es um Rechtsprechungsrecherche und Fundstellenablage in Kanzl
 2. Welche amtlichen Datenbanken stehen zur Verfuegung: Bundesgerichtsdatenbank, juris, Beck-online, OpenJur?
 3. Muss der Sachverhalt vor der Suche abstrahiert/anonymisiert werden (Mandatsgeheimnis)?
 4. Soll die Fundstelle in die Akte oder in einen Schriftsatz eingearbeitet werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43 BRAO — Sorgfaltspflicht: Recherchepflicht als Teil der anwaltlichen Beratung
@@ -144,3 +141,4 @@ Wenn eine Online-Ablage gewünscht ist:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

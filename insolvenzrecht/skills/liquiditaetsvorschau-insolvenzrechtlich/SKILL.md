@@ -1,14 +1,12 @@
 ---
 name: liquiditaetsvorschau-insolvenzrechtlich
-description: "Wenn es um Liquiditätsvorschau als insolvenzrechtliches Beweismittel in Insolvenzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Liquiditätsvorschau als insolvenzrechtliches Beweismittel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Liquiditätsvorschau als insolvenzrechtliches Beweismittel
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Liquiditätsvorschau als insolvenzrechtliches Beweismittel` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -18,9 +16,11 @@ description: "Wenn es um Liquiditätsvorschau als insolvenzrechtliches Beweismit
 Vor Ausgabe BGH-Aktenzeichen zu Liquiditätsbilanz, Stundungen und Zahlungseinstellung über dejure.org / openjur.de / bundesgerichtshof.de mit Datum, Aktenzeichen und Randnummer verifizieren. Aktuelle Linie:
 - **BGH IX ZR 129/22 vom 18.04.2024** — Liquiditätsstatus und Liquiditätsbilanz müssen gegenüber außenstehenden Dritten einzelpostenfähig belegt werden; fehlen Einzelheiten, Rechnungen, Kontoauszüge oder sonstige Unterlagen, kann einfaches Bestreiten genügen.
 - **BGH IX ZR 229/22 vom 23.01.2025** — Randnummer 34 und 35: objektive Rechtslage und objektiver Zahlungsmittelmangel; vorläufig vollstreckbar titulierte fällige Forderungen sind bei eingeleiteter Vollstreckung mit dem Nennwert einzustellen; keine Kürzung nach Prozessrisiko. Randnummer 27: Irrtum nur bei ungeklärter Rechtsfrage, nicht bei eigener Vertragsauslegung.
-- **BGH II ZR 139/23 vom 11.03.2025** — für die Passivseite zählt die materielle Rechtslage: bestehende und fällige Verbindlichkeiten gehören hinein, nicht bestehende oder nicht fällige Forderungen nicht.
+- **BGH, Beschluss vom 11.03.2025 - II ZR 139/23** — bestätigt im Nichtzulassungsbeschwerdeverfahren den materiellen Bestand als Maßstab; kein eigenständiges Grundsatzurteil.
 - **BGH IX ZB 38/24 vom 22.05.2025** — die Belegwirkung eines Titels für einen Insolvenzantrag kann entfallen, wenn die Vollstreckung vorläufig eingestellt ist.
 - Grundlegende Linie zum 10-%-/3-Wochen-Schema vor Ausgabe verifizieren.
+
+Die Irrtumsaussage in Rn. 27 betrifft die subjektiven Voraussetzungen der Vorsatzanfechtung. Sie ist weder ein allgemeiner Entlastungstatbestand noch ein automatischer Verschuldensmaßstab für Antragspflicht oder Geschäftsleiterhaftung. Objektiven Forderungsbestand, tatsächliche Kenntnis und die Voraussetzungen des konkret geprüften Anspruchs getrennt begründen.
 
 ## Zweck
 
@@ -179,14 +179,15 @@ zu dokumentieren.
 | GELB | Lücke ≥ 10 %, aber Beseitigung binnen 3 Wochen überwiegend wahrscheinlich | Zahlungsstockung; Überwachungspflicht; Maßnahmen dokumentieren |
 | ROT | Lücke ≥ 10 % und keine Beseitigung binnen 3 Wochen | Zahlungsunfähigkeit nach § 17 InsO; Antragspflicht § 15a InsO ausgelöst |
 
-**Schritt 5 — 24-Monats-Vorschau (Fortbestehensprognose)**
-Aufbauend auf der 13-Wochen-Vorschau wird die integrierte Finanzplanung auf 24 Monate
-verlängert. Die Prämissen sind schriftlich zu fixieren und durch unabhängige Belege
-(Auftragsbestand, Vertragskonditionen, Finanzierungszusagen) zu unterlegen. Das Ergebnis
-ist ein monatlicher Cashflow-Plan mit expliziter Darstellung der
-Mindestliquiditätsreserve. Für die Fortbestehensprognose nach § 19 Abs. 2 InsO muss
-die Liquiditätsplanung zeigen, dass der Schuldner mit überwiegender Wahrscheinlichkeit
-in der Lage sein wird, seine Verbindlichkeiten laufend zu erfüllen.
+**Schritt 5 — Zwölf- und 24-Monats-Prognose getrennt rechnen**
+Aufbauend auf der 13-Wochen-Vorschau wird die integrierte Finanzplanung monatlich
+fortgeführt. Für die Fortführungsprognose nach Paragraf 19 Absatz 2 InsO sind die
+nächsten zwölf Monate zu beurteilen. Soll zugleich drohende Zahlungsunfähigkeit
+geprüft werden, ist die Planung für Paragraf 18 Absatz 2 InsO in aller Regel auf
+24 Monate zu verlängern. Beide Ergebnisse, Zeitachsen und Rechtsfolgen bleiben
+getrennt. Die Prämissen sind schriftlich zu fixieren und durch unabhängige Belege
+wie Auftragsbestand, Vertragskonditionen und belastbare Finanzierungszusagen zu
+unterlegen.
 
 Wenn daraus ein Sanierungskonzept werden soll, ergänze:
 
@@ -218,9 +219,9 @@ Das Ausgabedokument ist eine **juristische Stellungnahme im Gutachtenstil** und 
  (Aktiv/Passiv), Netto-Liquiditätsposition und prozentualer Lücke
 4. **Ampel-Ergebnis** je Woche mit rechtlicher Bewertung (GRÜN/GELB/ROT + Begründung)
 5. **Stundungsabzüge und Streitforderungen** — Einzelauflistung aller herausgerechneten Verbindlichkeiten, aller streitigen Passiva und aller Titel mit Bestand, Fälligkeit, Vollstreckungsstand und Begründung
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-6. **24-Monats-Vorschau** (sofern Fortbestehensprognose zu beurteilen) — monatlicher
- Cashflow, Prämissenblatt, Szenarioanalyse
+6. **Monatliche integrierte Planung** — zwölf Monate für Paragraf 19 Absatz 2 InsO;
+ bei zusätzlicher Prüfung des Paragrafen 18 Absatz 2 InsO in aller Regel 24 Monate;
+ jeweils mit Prämissenblatt und Szenarioanalyse
 7. **Rechtliche Subsumtion** — Abschließende Einordnung: liegt § 17 InsO vor, wenn ja
  seit wann?; liegt § 19 InsO vor?
 8. **Hinweis auf Antragspflicht** — soweit Tatbestand des § 15a InsO ausgelöst
@@ -270,7 +271,6 @@ Forderungseingänge 14.300 EUR. Summe verfügbarer Mittel: 23.700 + 14.300 = **3
 
 *III. Fällige und binnen 3 Wochen fällig werdende Verbindlichkeiten (Passivseite):*
 Fällige Verbindlichkeiten 87.400 EUR abzüglich dokumentierte Stundung Fischer
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 binnen-3-Wochen-Verbindlichkeiten 34.600 EUR. Passivseite gesamt: **117.800 EUR**.
 
 *IV. Liquiditätslücke:*
@@ -278,13 +278,11 @@ binnen-3-Wochen-Verbindlichkeiten 34.600 EUR. Passivseite gesamt: **117.800 EUR*
 
 *V. Ampel-Bewertung:*
 Die Liquiditätslücke beträgt 67,7 % und liegt damit weit über dem Schwellenwert von
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 binnen drei Wochen ist angesichts der abgelehnten Kreditlinienerweiterung, des hohen
 SV-Rückstands und des begrenzten Auftragsbestands nicht überwiegend wahrscheinlich.
 **Ergebnis: ROT — Zahlungsunfähigkeit nach § 17 InsO liegt vor.**
 
 *VI. Zeitpunkt der Zahlungsunfähigkeit:*
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 SV-Beiträge Februar 2025, die am 28.02.2025 fällig waren; Überziehung der KK-Linie
 auf 92 % bereits seit Januar 2025 laut Kontoauszügen) ist Zahlungsunfähigkeit nicht
 erst am 10.03.2025, sondern spätestens **Ende Februar 2025** eingetreten. Die
@@ -301,7 +299,6 @@ begeht einen methodischen Fehler.
 
 **2. Unkritische Übernahme von Stundungsbehauptungen**
 Die bloße Duldung durch einen Gläubiger (kein Mahn-, kein Vollstreckungsschreiben)
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 nachweis führt zur Aufnahme der Position in die Passivseite.
 
 **2a. Aussetzung der Vollziehung (§ 361 AO / § 69 FGO) fälschlich als Stundung werten**
@@ -347,7 +344,7 @@ zwingend zu zitieren und zu berücksichtigen:
 
 - Grundlegende BGH-Entscheidung zum 10-%-/3-Wochen-Schema (Abgrenzung Zahlungsunfähigkeit/Zahlungsstockung).
 - Grundlegende BGH-Entscheidung zum Indizienkatalog der Zahlungseinstellung iSd § 17 Abs. 2 S. 2 InsO.
-- **BGH IX ZR 129/22 vom 18.04.2024** — Liquiditätsstatus gegenüber außenstehenden Dritten konkret darlegen; ohne Einzelheiten und Belege kann einfaches Bestreiten ausreichen. Für die Vorsatzanfechtung außerdem konkrete Erwartung dauerhafter Nichtbefriedigung darlegen. https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22
+- BGH, Urteil vom 18.04.2024 - IX ZR 129/22: Ein außenstehender Dritter darf einen nur pauschal aufgestellten und nicht mit Einzelpositionen oder Belegen unterlegten Liquiditätsstatus grundsätzlich einfach bestreiten. Die Entscheidung ist ein Darlegungsanker zu Paragraf 17 InsO, kein pauschaler Beleg für geringere Anfechtungsrisiken.
 - **BGH IX ZR 122/23 vom 05.12.2024** — Unlauterkeit Bargeschäft (Relevanz für Stundungs- und Ratenvergleiche in der Krise). <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
 
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
@@ -369,6 +366,8 @@ Bevor losgelegt wird, klaere:
 
 1. **Zweck?** ZU-Test § 17 InsO (3-Wochen-Fenster) oder Fortbestehensprognose § 19 Abs. 2 InsO (12 Monate)?
 2. **Methode?** Direkte Methode (Cash In / Cash Out) bevorzugt für InsO-Beurteilung.
-3. **Zeitraum?** 3 Wochen (akute ZU-Prüfung), 13 Wochen (operativer Forecast), 12-24 Monate (Fortbestehensprognose).
+3. **Zeitraum?** Drei Wochen für die akute Prüfung, 13 Wochen für die operative Steuerung, zwölf Monate für Paragraf 19 Absatz 2 InsO und gesondert in aller Regel 24 Monate für Paragraf 18 Absatz 2 InsO.
 4. **Eingabedaten?** Offene Posten (OPOS), Bankkontoauszuege, Steuer- und SV-Verbindlichkeiten.
 5. **Stichtag?** Für InsO-Verfahren muss Stichtag tag-genau sein.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

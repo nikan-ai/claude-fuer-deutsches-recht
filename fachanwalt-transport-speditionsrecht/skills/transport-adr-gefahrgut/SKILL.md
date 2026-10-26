@@ -1,6 +1,6 @@
 ---
 name: transport-adr-gefahrgut
-description: "Wenn es um Transport Adr Gefahrgut in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Transport Adr Gefahrgut: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gefahrguttransport-Haftung und ADR-Verstoss klären: Gefahrgutkennzeichnung, Verantwortlichkeiten, Bußgelder
@@ -128,10 +128,6 @@ description: "Wenn es um Transport Adr Gefahrgut in Fachanwalt Transport Spediti
 - `fachanwalt-transport-cmr-schadensregulierung` — bei int. Transport
 - `testakten/umweltrecht-industrieanlage-genehmigung` — bei verbundenen Anlagen
 
-## Aktuelle Rechtsprechung Gefahrgut / ADR
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen ADR / Gefahrgut
 
 - ADR (European Agreement concerning the International Carriage of Dangerous Goods by Road) — Anlage A (Einstufung, Verpackung) und Anlage B (Befoerderungsbedingungen)
@@ -139,3 +135,5 @@ description: "Wenn es um Transport Adr Gefahrgut in Fachanwalt Transport Spediti
 - § 35 GGVSEB (Gefahrgutverordnung Strasse, Eisenbahn und Binnenschifffahrt) — Sanktionsnormen
 - § 431 HGB — Haftungsbegrenzung Frachtfuehrer (SDR-Betrag; entfaellt bei qualifiziertem Verschulden)
 - § 435 HGB — qualifiziertes Verschulden: Vorsatz oder Leichtfertigkeit in Kenntnis wahrscheinlichen Schadenseintritts
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

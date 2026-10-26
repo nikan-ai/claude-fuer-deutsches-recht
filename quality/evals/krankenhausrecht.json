@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "plugin": "krankenhausrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/khg/__8.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 1: Fördervoraussetzungen, bei Investitionen nach Paragraf 9 Absatz 1 Nummer 1 zusätzlich Investitionsprogramm; Planfeststellung und Förderung nicht gleichsetzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/khg/__8.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur Prüfung: Paragraf 8 KHG; Paragraf 109 SGB V. Keine Gesamtverifikation sämtlicher Nebenmaterien."
+    },
+    {
+      "url": "https://www.bverwg.de/140411U3C17.10.0",
+      "checked_on": "2026-09-22",
+      "supports": "BVerwG, Urteil vom 14.04.2011, 3 C 17.10: Versorgungsvertrag bindet die Krankenhausplanung nicht automatisch; eigenen Aufnahmeanspruch nach Planungsmaßstäben prüfen. Grenze/Prüftiefe: Volltext Rn. 12 bis 23; keine Entscheidung über heutige Leistungsgruppen oder konkrete Förderhöhe."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/khg/__8.html",
+      "checked_on": "2026-09-23",
+      "supports": "Erneut gelesen: Planaufnahme, Investitionsprogramm und Förderentscheidung bleiben getrennte Grundlagen. Neue Betragsbeispiele sind ausdrücklich Rechenfälle, keine Förderquote oder Zusage."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "2026-09-23: Individuell vollständig gelesen und fachbezogen erweitert. Leerer Eingang, stille Dateisichtung und direkte Auftragsbearbeitung ausdrücklich getrennt; generische Fortsetzungsprosa durch Förderbescheid -> finanzierung.md ersetzt. Desk-Review; kein Live-Client- oder Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Versorgungsvertrag und Planaufnahme bereits im Einstieg unterschieden.",
+    "changes": [
+      "Versorgungsvertrag von Planaufnahme und Investitionsbewilligung getrennt; Neubau-Finanzierung bleibt mit belegter Lücke statt erwarteter Förderquote.",
+      "Kernfall mit operativem Entscheidungsanker, gezielten Nachfragen und Fortsetzung zum vollständigen angeforderten Dokument.",
+      "Leerer Eingang, stille Dateisichtung und direkte Auftragsbearbeitung ausdrücklich getrennt; generische Fortsetzungsprosa durch Förderbescheid -> finanzierung.md ersetzt.",
+      "Redaktion 16.10.2026: Versorgungsvertrag und Planaufnahme bereits im Einstieg unterschieden. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "b9ebbde1f167d1c03df9d82e9c600adae76ad5fb3daaa402c997283266b771fc",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe, ob der geplante Klinikneubau tatsächlich finanziert ist.",
+      "Gleiche Krankenhausplan, Förderprogramm und Investitionsbescheid für einen Standort ab."
+    ],
+    "negative": [
+      "Berechne das Schmerzensgeld einer einzelnen Patientin nach einem Behandlungsfehler.",
+      "Prüfe ausschließlich die PKV-Erstattung einer privaten Arztrechnung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "planaufnahme-ohne-baufoerderung",
+      "request": "Erstelle ergebnis.md als Finanzierungsvorprüfung für einen Klinikträger. Der Standort ist in den Krankenhausplan aufgenommen. Geplant ist ein Neubau, dessen Einordnung als Investition nach Paragraf 9 Absatz 1 Nummer 1 KHG für die Aufgabe feststeht. Die Gesamtprojektkosten betragen 12 Millionen Euro. Eine Aufnahme in das Investitionsprogramm und ein Förderbescheid liegen noch nicht vor. Die Geschäftsführung erwartet 8 Millionen Euro Förderung aus einem unverbindlichen Gespräch. Zwei Millionen Euro Eigenmittel und zwei Millionen Euro Bankmittel sind verbindlich zugesagt. Weitere Mittel sind nicht belegt. Die Geschäftsführung möchte wissen, ob sie die 8 Millionen Euro bereits als gesichert ausweisen darf. Prüfe keine landesspezifische Förderquote und löse keine Bestellung aus.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Planaufnahme wird nicht als Bewilligung der erwarteten 8 Millionen Euro behandelt; fehlendes Investitionsprogramm und fehlender Förderbescheid bleiben entscheidende Nachweise.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Rechnung weist 4 Millionen Euro belegte Finanzierung und 8 Millionen Euro offene Finanzierung aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Ausgabe unterscheidet unverbindliche Erwartung von gesicherten Mitteln und erfindet weder eine landesrechtliche Förderquote noch eine bereits erteilte Bau- oder Bestellfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "investitionsfoerderung-einzelfoerderung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "2026-09-23: Individuell vollständig gelesen und fachbezogen erweitert. Planungsnachweise nach Standort und Zeitpunkt, Bewilligung gegenüber Bauzahlungsplan, Kostenüberleitung und konkrete MD-Kürzungsgründe vertieft. Desk-Review; kein Live-Client- oder Modelltest. Redaktionelle Einstiegslektüre am 16.10.2026: Versorgungsvertrag und Planaufnahme bereits im Einstieg unterschieden.",
+    "changes": [
+      "Versorgungsvertrag von Planaufnahme und Investitionsbewilligung getrennt; Neubau-Finanzierung bleibt mit belegter Lücke statt erwarteter Förderquote.",
+      "Vorhandene Fachzweige, Beispiele und Zugriffsalternativen erhalten; schwache Rechtsprechungshinweise entfernt oder auf belegte Reichweite begrenzt.",
+      "Planungsnachweise nach Standort und Zeitpunkt, Bewilligung gegenüber Bauzahlungsplan, Kostenüberleitung und konkrete MD-Kürzungsgründe vertieft.",
+      "Redaktion 16.10.2026: Versorgungsvertrag und Planaufnahme bereits im Einstieg unterschieden. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "98cff8cbd44806ee57a6cc1971cec9eb189209bcb403450080328533c0e9bfc1",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "krankenhausrecht/README.md",
+      "krankenhausrecht/krankenhausrecht-werkstatt.md",
+      "krankenhausrecht/krankenhausrecht-schnellstart.md",
+      "quality/evals/krankenhausrecht.json"
+    ],
+    "opening_change": "Planstatus, Förderentscheidung und tatsächliche Finanzierung des Standorts auseinanderhalten",
+    "norms": [
+      "Paragraf 8 KHG",
+      "Paragraf 109 SGB V"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Urteil vom 14.04.2011, 3 C 17.10",
+        "url": "https://www.bverwg.de/140411U3C17.10.0",
+        "application": "Versorgungsvertrag bindet die Krankenhausplanung nicht automatisch; eigenen Aufnahmeanspruch nach Planungsmaßstäben prüfen.",
+        "limit": "Volltext Rn. 12 bis 23; keine Entscheidung über heutige Leistungsgruppen oder konkrete Förderhöhe.",
+        "checked_on": "2026-09-22",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung, kein Live-Client- oder Modelltest; übrige Fachzweige nicht vollständig rechtlich neu verifiziert.",
+      "Volltext Rn. 12 bis 23; keine Entscheidung über heutige Leistungsgruppen oder konkrete Förderhöhe.",
+      "2026-09-23: Workflow-Desk-Review. Bestehende Profilquellen Paragraf 8 KHG und BVerwG 3 C 17.10 erneut geöffnet; tragende Auszüge zur eigenständigen Planungsentscheidung gelesen. Keine neue Vollprüfung der Krankenhausreform, konkreter Leistungsgruppen, Förderprogramme oder PrüfvV-Fassungen; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Planungsentscheidung, Baufinanzierung oder Budget-/Abrechnungsstreit wählen.",
+      "Dateien ohne Auftrag: Bescheide und Abrechnung still lesen; nur das gewünschte Arbeitsprodukt erfragen.",
+      "Klarer Auftrag: Standort, Budgetjahr und Streitposition aus vorhandenen Unterlagen übernehmen und direkt Entwurf oder Prüfung liefern."
+    ],
+    "continuation": "Förderbescheid verändert in finanzierung.md Deckung und Abruf; Befund oder Empfangsbeleg verändert in md-erwiderung.md die konkrete Kürzung, Anlagen und Restforderung. Nutzerpfad geht vor.",
+    "enrichment": "Standortbezogener Personal- und Kooperationsnachweis, Ausbauabsicht gegenüber verfügbarer Struktur, Förderlücke mit 12/4/6 Millionen Euro und Zwischenfinanzierung, Personal-Doppelansätze sowie erbrachte, dokumentierte und rechtzeitig übermittelte Leistung getrennt.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "krankenhausrecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Klären Sie, wer das KI-System beschafft, in medizinische Abläufe einbindet und ändert. Dokumentierte klinische Verantwortlichkeiten und KI-Anbieterrollen müssen am realen Ablauf geprüft werden.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

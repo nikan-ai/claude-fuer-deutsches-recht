@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Anwalts-Dashboard Fachanwalt Arbeitsrecht in Fachanwalt Arbeitsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anwalts-Dashboard Fachanwalt Arbeitsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwalts-Dashboard Fachanwalt Arbeitsrecht
@@ -15,7 +15,7 @@ description: "Wenn es um Anwalts-Dashboard Fachanwalt Arbeitsrecht in Fachanwalt
 | --- | --- | --- |
 | Rolle | Wen vertrete ich? (Mandant · Gegenseite · Mehrere) | Mandantenmail, Vertretungsbestellung |
 | Verfahrensstand | Vorprozessual · außergerichtlich · Klage · Rechtsmittel · Vollstreckung | Vorhandene Schriftsätze, Eingangsstempel |
-| Eilfrist | **Paragraf 4 KSchG: 3 Wochen** ab Zugang Kündigung. Daneben Paragraf 626 II BGB (außerordentlich, 2 Wochen ab Kenntnis), Paragraf 15 IV AGG (2 Monate Geltendmachung), Paragraf 17 KSchG (Massenentlassungsanzeige), Paragraf 9 MuSchG, Paragraf 613a VI BGB (1 Monat Widerspruch). | Frist aus Zugangs-/Kenntnisdatum berechnen |
+| Eilfrist | **Paragraf 4 KSchG: drei Wochen** ab Zugang der Kündigung. Daneben: Erklärungsfrist nach Paragraf 626 Absatz 2 BGB, Geltendmachungsfrist nach Paragraf 15 Absatz 4 AGG, Anzeige vor Massenentlassungen nach Paragraf 17 KSchG, Kündigungsverbot und behördliche Zulässigerklärung nach Paragraf 17 MuSchG sowie einmonatige Widerspruchsfrist nach Paragraf 613a Absatz 6 BGB. | Auslöser, Zugang, Beginn und Ende für jede Frist getrennt berechnen |
 | Hauptanspruch | Kündigungsschutz Paragrafen 1, 4, 7 KSchG · Lohn Paragrafen 611a, 614, 615 BGB (Annahmeverzug) · Schadensersatz Paragrafen 280 I, 823 BGB · AGG-Entschädigung Paragrafen 7, 15 AGG · Betriebsübergang Paragraf 613a BGB. | Sachverhaltsabgleich mit Tatbestandsmerkmalen |
 | Zuständigkeit | Arbeitsgericht am Arbeitsort (Paragraf 48 ArbGG, Paragraf 17 ZPO). Streitwert KSchG-Klage: 1/4 Bruttojahresgehalt (Paragraf 42 II GKG). | Gesetz, Vertrag, Gerichtsstandsklausel |
 
@@ -69,7 +69,7 @@ Drei aktuelle Leitentscheidungen, die über das Arbeitsrecht in den letzten zwoe
 
 | Entscheidung | Tragende Aussage | Skill-Vertiefung |
 | --- | --- | --- |
-| **BAG, Urt. v. 23.10.2025 - 8 AZR 300/24** | **Equal Pay - Paarvergleich genuegt.** Eine einzige besser bezahlte Vergleichsperson des anderen Geschlechts mit gleicher oder gleichwertiger Arbeit reicht, um die Vermutung des $ 22 AGG auszuloesen. Der Arbeitgeber muss konkret darlegen, dass die Differenz ausschließlich auf objektiven, geschlechtsneutralen Gruenden beruht. Pauschale Hinweise auf Medianwerte, Durchschnittsbetrachtungen oder Verhandlungsgeschick reichen nicht. Art. 157 AEUV bekommt damit Schaerfe. | `bag-equal-pay-paarvergleich` (fachanwalt-arbeitsrecht) / `bag-equal-pay-paarvergleich-8azr30024` (arbeitsrecht) |
+| **BAG, Urt. v. 23.10.2025 - 8 AZR 300/24** | **Equal Pay - Paarvergleich genuegt.** Eine einzige besser bezahlte Vergleichsperson des anderen Geschlechts mit gleicher oder gleichwertiger Arbeit reicht, um die Vermutung des Paragraf 22 AGG auszuloesen. Der Arbeitgeber muss konkret darlegen, dass die Differenz ausschließlich auf objektiven, geschlechtsneutralen Gruenden beruht. Pauschale Hinweise auf Medianwerte, Durchschnittsbetrachtungen oder Verhandlungsgeschick reichen nicht. Art. 157 AEUV bekommt damit Schaerfe. | `bag-equal-pay-paarvergleich` (fachanwalt-arbeitsrecht) / `bag-equal-pay-paarvergleich-8azr30024` (arbeitsrecht) |
 | **BAG, Urt. v. 03.06.2025 - 9 AZR 104/24** | **Kein Verzicht auf gesetzlichen Mindesturlaub.** Im bestehenden Arbeitsverhaeltnis können Arbeitnehmer:innen auf den gesetzlichen Mindesturlaub nicht wirksam verzichten - auch nicht durch gerichtlichen Vergleich. Gilt selbst dann, wenn die Beendigung bereits feststeht und absehbar ist, dass der Urlaub krankheitsbedingt nicht mehr genommen werden kann. Ausgleichs-/Erledigungs-/Abgeltungsklauseln müssen sauber zwischen gesetzlichem Mindesturlaub, vertraglichem Mehrurlaub und bereits entstandener Urlaubsabgeltung unterscheiden. | `bag-mindesturlaub-kein-verzicht` (fachanwalt-arbeitsrecht) / `bag-mindesturlaub-kein-verzicht-9azr10424` (arbeitsrecht) |
 | **BAG, Urt. v. 25.03.2026 - 5 AZR 108/25** | **Pauschale Freistellungsklauseln in Arbeitsvertragsformularen unwirksam.** Eine formularmaessige Freistellungsklausel, die dem Arbeitgeber das einseitige Recht gibt, Beschäftigte nach Kuendigung unter Fortzahlung der Vergütung freizustellen, ist nach AGB-Kontrolle unwirksam, wenn sie Arbeitnehmer:innen unangemessen benachteiligt. Freistellung bleibt im konkreten Fall möglich - braucht aber einen tragfaehigen Grund (ueberwiegende schutzwuerdige Arbeitgeberinteressen). Die pauschale Vorratsklausel reicht nicht. | `bag-freistellungsklausel-unwirksam` (fachanwalt-arbeitsrecht) / `bag-freistellungsklausel-unwirksam-5azr10825` (arbeitsrecht) |
 

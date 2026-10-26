@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bau-architektenrecht-kontaminierter-baugrund-bbodschg
-description: "Wenn es um Kontaminierter Baugrund — Werkvertrag + BBodSchG-Sanierungspflicht in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kontaminierter Baugrund — Werkvertrag + BBodSchG-Sanierungspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kontaminierter Baugrund — Werkvertrag + BBodSchG-Sanierungspflicht
@@ -104,7 +104,6 @@ Pflichten des Bauunternehmers:
 | Schritt | Prüfpunkt | Norm | Rechtsfolge bei Bejahung |
 |---------|-----------|------|--------------------------|
 | 1 | VOB/B wirksam einbezogen? | § 305 BGB | VOB/B-Regelungen anwendbar |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | Bodengutachten vor Vertragsschluss vorhanden? | § 633 BGB | Inhalt und Mängel bestimmen Risikozuweisung |
 | 4 | Kenntnis Bauherr von Kontamination vor Vertragsschluss? | § 311 Abs. 2 BGB | c.i.c.-Schadensersatz |
 | 5 | Behinderungsanzeige § 6 Abs. 1 VOB/B erfolgt? | § 6 Abs. 1 VOB/B | Anspruchserhalt; bei Unterlassen Anspruchsverlust |
@@ -272,10 +271,8 @@ Bauzeitverlängerung: [Anzahl] Werktage ab [Datum]
 
 | Gegenargument Bauherr/Behörde | Reaktion |
 |-------------------------------|---------|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Behinderungsanzeige zu spät" | Offenkundigkeit der Behinderung entbindet von Anzeigepflicht (§ 6 Abs. 1 Satz 2 VOB/B); zudem Anzeige binnen 48 h beweisbar |
 | "Mehrkosten überhöht" | Detaillierte Kalkulation nach VOB/B § 2 Abs. 5; § 287 ZPO-Schätzung durch Gericht zulässig wenn Grundlage vorhanden |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Unternehmer ist Verursacher" | Trennung: vorbestehende Altlast vs. durch Unternehmer neu verursachte Kontamination; Sachverständigenbeweis |
 | "c.i.c. ausgeschlossen wegen AGB-Haftungsausschluss" | § 309 Nr. 7 BGB — grob fahrlässige Pflichtverletzung nicht ausschließbar |
 
@@ -332,8 +329,7 @@ Bauzeitverlängerung: [Anzahl] Werktage ab [Datum]
 - VOB/B §§ 2, 6
 - NachwV (Nachweisverordnung Gefahrenabfall)
 - KrWG §§ 3, 28
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Kommentar- oder Handbuchfundstellen aus Modellwissen als Beleg verwenden; tragende Aussage nur mit frei prüfbarer Norm, Behördenquelle oder Gerichtsentscheidung ausgeben.
 - Stand: 05/2026; PFAS-Regulierung im Wandel (TFA, GenX), bei Neuregelung EU-Trinkwasserrichtlinie aktualisieren
 
-<!-- AUDIT 27.05.2026: BGH VII ZR 184/97 (14.11.2002) WRONG_TOPIC – tatsächlich Luftschallschutz-Urteil vom 14.05.1998. Ersetzt durch BGH VII ZR 205/07 (20.08.2009), BGHZ 182, 158, verifiziert auf dejure.org (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=20.08.2009&Aktenzeichen=VII+ZR+205%2F07). Ebenso Quellen-Verweis auf VII ZR 235/04 durch VII ZR 205/07 ersetzt (VII ZR 235/04 nicht auf dejure auffindbar). -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

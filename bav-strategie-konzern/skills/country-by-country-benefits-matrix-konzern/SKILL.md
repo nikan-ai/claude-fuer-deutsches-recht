@@ -1,6 +1,6 @@
 ---
 name: country-by-country-benefits-matrix-konzern
-description: "Wenn es um Country-by-Country Benefits-Matrix für Konzerne in BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Country-by-Country Benefits-Matrix für Konzerne: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Country-by-Country Benefits-Matrix für Konzerne
@@ -48,7 +48,6 @@ Je Land — kurze Übersicht (Details je Skill `internationale-harmonisierung-ko
 | Insolvenzsicherung | PSV (§ 7 ff. BetrAVG) — Direktzusage/UK/PF |
 | Governance | IORP II (§§ 232 ff. VAG) für PK/PF; Mitbestimmung § 87 BetrVG |
 | Expat | Typischerweise GRV-pflichtig; Doppelversicherung bei Kurzentsendung durch A1-Bescheinigung vermieden |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ### Vereinigtes Königreich (UK)
 
@@ -177,13 +176,11 @@ J. Lokaler Rechtsberater-Kontakt: [...]
 - → `expatriate-pensionsplanung-und-totalization` — Expatriate-Sonderfragen
 - → `japan-bav-und-corporate-pension-iorp` — Japan-Vertiefung
 
-## Aktuelle Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor der Matrix-Erstellung
 
 1. Welche Länder sind im Konzern-Fussabdruck enthalten?
 2. Gibt es DB-Plaene mit bilanzieller Relevanz (IAS 19)?
 3. Kommen Expats vor, die Anwartschaften in mehreren Ländern aufgebaut haben?
 4. Ist eine M&A-Transaktion der Anlass? → Dann Due-Diligence-Fokus
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

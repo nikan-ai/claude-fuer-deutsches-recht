@@ -1,6 +1,6 @@
 ---
 name: agentur-abnahme-vergabe
-description: "Wenn es um Agentur, Abnahme, Vergabe in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Agentur, Abnahme, Vergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Agentur, Abnahme, Vergabe
@@ -47,25 +47,3 @@ Accessibility-Overlay, Plugin oder Widget ersetzt keine barrierefreie Umsetzung.
 - Beurteile nicht nur formal, sondern aus Nutzersicht: Tastatur, Screenreader, Zoom/Reflow, Kontrast, Fehlermeldungen, Zeitlimits und Dokumentzugang.
 - Automatische Scanner sind nur Startpunkt. Markiere False Positives, manuelle Nachpruefung und reproduzierbare Testschritte.
 - Formuliere Fixes als Entwickler-Tickets mit Komponente, Problem, Nutzerwirkung, Normbezug, Prioritaet und Re-Test.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 37 BFSG
-- § 38 BFSG
-- § 19 BFSG
-- § 17 BFSG
-- § 1 BFSG
-- § 3 BFSG
-- § 7 BFSG
-- § 21 BFSG
-- § 6 BFSG
-- § 23a GVG
-- § 113 FamFG
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

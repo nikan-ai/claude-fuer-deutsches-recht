@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bau-architektenrecht-abnahme-mit-vorbehalt
-description: "Wenn es um Abnahme mit Vorbehalt in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abnahme mit Vorbehalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bau Architektenrecht. Route: fachanwalt-bau-architektenrecht-abnahme-mit-vorbehalt."
 ---
 
 # Abnahme mit Vorbehalt
@@ -57,7 +57,6 @@ Weitere Entscheidungen vor Verwendung per dejure.org / BGH-Webseite verifizieren
 | 5 | Vertragsstrafe verwirkt — Vorbehalt § 341 Abs. 3 erklärt? | § 341 Abs. 3 BGB | Nein → Verlust Vertragsstrafenrecht |
 | 6 | Einbehalt nach § 641 Abs. 3 BGB? | § 641 Abs. 3 BGB | Bis zu doppelte Mängelbeseitigungskosten zurückbehalten |
 | 7 | Verjährungsfrist dokumentiert? | § 634a BGB | Beginn Fristlauf; Fristenbuch eintragen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Abnahmeformen im Detail
 
@@ -81,7 +80,6 @@ Weitere Entscheidungen vor Verwendung per dejure.org / BGH-Webseite verifizieren
 ### Konkludente Abnahme
 
 **Tatbestand:** Ingebrauchnahme ohne ausdrückliche Rüge oder Vorbehalt.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Gefahr: Auftraggeber nimmt Werk in Betrieb → Abnahme unterstellt
 - Schutz: Nutzungsaufnahme unter Vorbehalt schriftlich erklären
 
@@ -115,7 +113,6 @@ Weitere Entscheidungen vor Verwendung per dejure.org / BGH-Webseite verifizieren
 | Rechtswirkung | Inhalt | Konsequenz |
 |--------------|--------|-----------|
 | Fälligkeit Werklohn | § 641 Abs. 1 BGB | Auftraggeber muss Schlussrechnung innerhalb vereinbarter Frist bezahlen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Verjährungsbeginn | § 634a Abs. 2 BGB | 5-Jahres-Frist beginnt mit Abnahme; Fristenbuch eintragen |
 | Gefahrübergang | § 644 BGB | Zufallsschäden (Brand, Sturm) nach Abnahme trägt Auftraggeber |
 | Verlust Mangelansprüche | § 640 Abs. 3 BGB | Für bei Abnahme bekannte Mängel ohne Vorbehalt |
@@ -265,7 +262,6 @@ wesentlichen Mängel möglich.
 |--------|---------------------|--------------|
 | Auftragnehmer | Fertigstellung des Werks | Baubeschreibung, Fotos, Bautagebuch |
 | Auftragnehmer | Abnahme erfolgt | Abnahmeprotokoll, E-Mail-Bestätigung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Auftraggeber | Vorbehalt erklärt | Abnahmeprotokoll, Vorbehaltserklärung |
 | Auftraggeber | Abnahme-Verweigerung berechtigt | Wesentlicher Mangel laut SV |
 | Auftragnehmer | Vorbehalt § 341 Abs. 3 (Vertragsstrafe) | Protokolleintrag oder schriftliche Erklärung |
@@ -286,7 +282,6 @@ wesentlichen Mängel möglich.
 
 | Gegenargument | Reaktion |
 |--------------|---------|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Vertragsstrafenvorbehalt vergessen" | § 341 Abs. 3 BGB ist Ausschlussregel — kein Wiedereinsetzungsrecht; Schaden als Schadensersatz nach §§ 280, 286 BGB geltend machen |
 | "Einbehalt überhöht" | § 641 Abs. 3 BGB: Einbehalt auf doppelten Mängelbeseitigungsaufwand begrenzt; Unverhältnismäßigkeit als Einwand |
 
@@ -329,3 +324,5 @@ wesentlichen Mängel möglich.
 - Vor Verwendung weiterer Rechtsprechung: dejure.org / bundesgerichtshof.de Verifikation
 - Keine Kommentar- oder Handbuchfundstellen aus Modellwissen als Beleg verwenden; tragende Aussage nur mit frei prüfbarer Norm, Behördenquelle oder Gerichtsentscheidung ausgeben.
 - Stand: 05/2026
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
