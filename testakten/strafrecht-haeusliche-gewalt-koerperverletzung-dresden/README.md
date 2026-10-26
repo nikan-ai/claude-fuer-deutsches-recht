@@ -1,18 +1,25 @@
 # Akte: Häusliche Gewalt und gefährliche Körperverletzung Dresden
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 33 KB) | PDF | [`gesamt-pdf/strafrecht-haeusliche-gewalt-koerperverletzung-dresden_gesamt.pdf`](gesamt-pdf/strafrecht-haeusliche-gewalt-koerperverletzung-dresden_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-haeusliche-gewalt-koerperverletzung-dresden_gesamt.pdf`](gesamt-pdf/strafrecht-haeusliche-gewalt-koerperverletzung-dresden_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-haeusliche-gewalt-koerperverletzung-dresden-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -64,7 +71,7 @@ Mandatsbezug: Marlene Krüger, Nebenklageinteressentin und Geschädigte
 
 ```
 strafrecht-haeusliche-gewalt-koerperverletzung-dresden/
-├── 01_mandatsnotiz_erstgespraech.docx                                — Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `13_lichtbildmappe_verletzungsdokumentation_2026-06-04.docx` | Lichtbildmappe mit Verletzungsdokumentation und Bodycam-Hinweis |
 ├── 02_sachverhalt_chronologie.docx                                   — ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                                  — Auszüge aus polizeilichen und staatsanwaltlichen Vermerken mit Beweismittelübersicht
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx                         — Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -76,10 +83,12 @@ strafrecht-haeusliche-gewalt-koerperverletzung-dresden/
 ├── 10_polizeilicher_einsatzbericht_2026-06-04.docx                   — Einsatzbericht vom Tatabend mit Erstangaben und Nachbarzeugen
 ├── 11_beschuldigteneinlassung_verteidiger_2026-06-22.docx           — Schriftliche Einlassung des Beschuldigten über seinen Verteidiger
 ├── 12_eskalationschronologie_2026-03-22_bis_2026-06-06.csv           — Chronologie aus Notrufen, Einsätzen, Beratungen und Klinikaufnahme; Kern der Eskalationsauswertung
+├── 14_abschrift_notizzettel_krueger_kontaktversuche.docx               — Abschrift eines handschriftlichen Merkzettels der Geschädigten zu Kontaktversuchen nach der Wegweisung
 ├── eml/
 │   ├── 2026-06-06_polizei_gefaehrderansprache_vermerk.eml            — Vermerk zur Gefährderansprache mit Bestreiten früherer Einsätze
 │   ├── 2026-06-08_klinikum_attestuebersendung.eml                    — Übersendung des ärztlichen Befundes durch die Notaufnahme
-│   └── 2026-06-19_frauenberatungsstelle_an_vertretung.eml           — Bestätigung des Beratungsverlaufs seit März 2026
+│   ├── 2026-06-19_frauenberatungsstelle_an_vertretung.eml           — Bestätigung des Beratungsverlaufs seit März 2026
+│   └── 2026-07-10_staatsanwaltschaft_zwischennachricht_akteneinsicht.eml — Zwischennachricht der Staatsanwaltschaft zu Akteneinsicht, Bodycam-Daten und Fristverlängerung
 ├── whatsapp/
 │   └── chatverlauf.txt                                               — WhatsApp-Verlauf mit drohenden Nachrichten rund um den Vorfall
 ├── rubric.yaml                                                       — Sechs Prüfpunkte für die fachliche Auswertung

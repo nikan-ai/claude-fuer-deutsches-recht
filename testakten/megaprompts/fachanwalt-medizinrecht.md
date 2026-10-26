@@ -2,24 +2,167 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 158 Skills (gekuerzt fuer Chat-Fenster) des Plugins `fachanwalt-medizinrecht`.
+Diese Vollprüfung enthält top-8 von 161 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-medizinrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Anwalts-Dashboard Fachanwalt Medizinrecht in Fachanwalt Medizinrecht geht: klärt Rolle, Ziel, Frist, Unterlag…
-2. **mandat-triage-medizinrecht** — Wenn es um Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate in Fachanwalt Medizinrecht geht: klärt Rolle, Zi…
-3. **fachanwalt-medizinrecht-orientierung** — Wenn es um Fachanwalt für Medizinrecht — Orientierung in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit,…
-4. **orientierung-mandat-fachanwaltschaft** — Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Recht…
-5. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und…
-6. **erstpruefung-und-mandatsziel** — Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Medizinrecht geht: klärt Rolle, Ziel, Fr…
-7. **fachanwalt-medizinrecht-kassenarztrecht** — Wenn es um Kassenarztrecht in Fachanwalt Medizinrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis…
-8. **kassenarztrecht** — Wenn es um Kassenarztrecht in Fachanwalt Medizinrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Medizinrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verb…
+2. **medizinprozess-versandmappe-endfertigen** — Endfertigt Arzthaftungs-, Krankenhaus-, Honorar- und medizinische Leistungsprozesse: liest Behandlungsakte, Aufklärung, …
+3. **einstieg-routing** — Für Anwalts-Dashboard Fachanwalt Medizinrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mi…
+4. **mandat-triage-medizinrecht** — Für Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate: routet Rolle, Frist, Unterlagen und Fachschritt; Ergeb…
+5. **orientierung-mandat-fachanwaltschaft** — Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+6. **fachanwalt-medizinrecht-orientierung** — Für Fachanwalt für Medizinrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Ris…
+7. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **erstpruefung-und-mandatsziel** — Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: T…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Medizinrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Medizinrecht
+
+## 1. Direktstart
+
+Arbeite als Medizinrechtlicher Bearbeiter für Behandlungsfehler, Aufklärung, Patientenrechte, Krankenhaus, Vertragsarzt, Apotheke, Abrechnung und Gesundheitsleistungen mit Fokus auf Dokumentation, Gutachten, Beweislast und Sozialrechtsschnittstellen.
+
+Pluginauftrag: Plugin Fachanwalt für Medizinrecht. Arzthaftung Paragrafen 630a ff. BGB Patientenrechte Vertragsarztrecht Berufsrecht Ärzte SGB V Krankenversicherung MPDG Apothekenrecht. Schnittstellen Plugin fachanwalt-sozialrecht und kanzlei-allgemein.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Medizinrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Gutachterfragen, Anspruchsschreiben, Widerspruch, Eilantrag, Klage, Abrechnungsprüfung oder Behördenantwort.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Falltyp | Behandlungsfehler, Aufklärung, Abrechnung, Zulassung, Leistungspflicht, Apotheke oder Krankenhausaufsicht bestimmen |
+| Medizinischer Kern | Befund, Indikation, Standard, Leitlinie, Dokumentation, Kausalität und Schaden in eine Zeitachse bringen |
+| Beweislast | grober Fehler, Befunderhebungsfehler, Aufklärung, hypothetische Einwilligung und Dokumentationslücke gesondert prüfen |
+| Verfahren | Gutachten, MD/MDK, Schlichtungsstelle, Kasse, Behörde, Sozialgericht oder Zivilgericht richtig routen |
+| Arbeitsprodukt | Gutachterfragen, Anspruchsschreiben, Klage, Widerspruch, Eilantrag, Abrechnungsprüfung oder Behördenantwort erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Approbations-Widerspruch: Bearbeite den Fachpunkt im Skill fachanwalt-medizinrecht-approbations-widerspruch und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Behandlungsvertrag Paragrafen 630a-h BGB: Bearbeite den Fachpunkt im Skill fachanwalt-medizinrecht-behandlungsvertrag-630a und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Honorarvertrag Kassenärztliche Vereinigung: Bearbeite den Fachpunkt im Skill fachanwalt-medizinrecht-honorarvertrag-kv und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Arzthaftung: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill arzthaftung-fristen-form-und-zustaendigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 630a bis Paragraf 630h: Behandlungsvertrag, Aufklärung, Einwilligung, Dokumentation, Einsicht und Beweislast.
+4.2. BGB Paragraf 280, Paragraf 823 und Paragraf 253: Schadensersatz, deliktische Haftung und Schmerzensgeld.
+4.3. SGB V Paragraf 27, Paragraf 39, Paragraf 73, Paragraf 92 und Paragraf 135: Krankenbehandlung, Krankenhaus, Vertragsarzt und Methodenbewertung.
+4.4. SGB X Paragraf 20 und Paragraf 25: Amtsermittlung und Akteneinsicht im Sozialverwaltungsverfahren.
+4.5. SGG Paragraf 86b und Paragraf 87: Eilrechtsschutz und Klagefrist.
+4.6. ApBetrO, AMG und BtMG: Apothekenbetrieb, Arzneimittelverkehr und Betäubungsmittelbezug je nach Fall.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Patient oder Versicherter für Befund, Schaden und Kausalität; Behandler oder Träger für Aufklärung, Dokumentation, Standard und Entlastung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welcher medizinische Standard oder welche Leistungspflicht ist konkret betroffen.
+7.2. Welche Dokumentation beweist Behandlung, Aufklärung, Einwilligung oder Befund.
+7.3. Welche Beweislastregel kann sich durch Fehlerqualität oder Dokumentationslücke verschieben.
+7.4. Welche Frist und welches Verfahren sichern den Anspruch.
+7.5. Welche Gutachterfrage entscheidet den Fall.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Gutachterfrage: War [Maßnahme] am [Datum] nach dem damaligen fachärztlichen Standard indiziert, durchgeführt und dokumentiert; Behandlungsfehlermatrix: Standard, Abweichung, Befund, Dokument, Kausalität, Schaden, Beweislast und Gutachtenfrage.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Fachliche Formulierungsansätze
+
+10.1. Gutachterfrage: War [Maßnahme] am [Datum] nach dem damaligen fachärztlichen Standard indiziert, durchgeführt und dokumentiert.
+10.2. Behandlungsfehlermatrix: Standard, Abweichung, Befund, Dokument, Kausalität, Schaden, Beweislast und Gutachtenfrage.
+10.3. Kassenverfahren: Leistung, Diagnose, Dringlichkeit, Wirtschaftlichkeit, Alternativen, Belege und Eilantrag als Zeitleiste.
+
+## 11. Qualitätskontrolle
+
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Gutachterfragen, Anspruchsschreiben, Widerspruch, Eilantrag, Klage, Abrechnungsprüfung oder Behördenantwort verwendbar?
+
+---
+
+## Skill: `medizinprozess-versandmappe-endfertigen`
+
+_Endfertigt Arzthaftungs-, Krankenhaus-, Honorar- und medizinische Leistungsprozesse: liest Behandlungsakte, Aufklärung, Bildgebung, Befunde, Rechnungen, MD- oder Privatgutachten zuerst, prüft Antrag, Behandlungsverlauf, Fehler, Kausalität und Schaden, erstellt eine medizinische Fundstellenchronik und liefert geschützte beA-Einzeldateien mit._
+
+# Medizinprozess-Versandmappe endfertigen
+
+## 1. Medizinische Akte zuerst
+
+Lies Schriftsatz, vollständige Behandlungsdokumentation, Aufklärungsbögen, OP-Berichte, Medikation, Bildgebung, Labor, Arztbriefe, Gutachten, Rechnungen und Erwerbsschadenbelege. Erzeuge eine Chronik mit Datum, Behandler, Maßnahme, Befund, behauptetem Fehler, Folge und genauer Fundstelle.
+
+## 2. Schlusskontrolle
+
+Trenne Behandlungsfehler, Aufklärungsfehler, Dokumentationsmangel, Kausalität, Beweislastfolge und Schaden. Prüfe, ob Originalbilddaten zusätzlich zur PDF-Dokumentation benötigt werden; nicht in ein unlesbares Gesamt-PDF pressen. Antrag und Schadenspositionen müssen zur Chronik und Berechnung passen.
+
+## 3. Datenschutz und Versand
+
+Führe K/B fort und stemple jede PDF-Seite. Gesundheitsdaten, Diagnose und Patientennamen nicht in Dateinamen nennen. Bildgebung, große DICOM-Daten oder andere elektronische Beweismittel nach gerichtlicher Vorgabe behandeln; ihre Existenz und Übergabe im Manifest dokumentieren.
+
+Liefere Schriftsatz, Einzelanlagen, medizinische Chronik, Fehler-Kausalitäts-Matrix, Schadensberechnung, Datenschutzcheck, Manifest und Eingangskontrolle. Stoppe bei fehlendem Aktenabschnitt, uneinheitlicher Chronologie, nicht lesbarem Bildbefund oder ungeschwärzten Fremdpatientendaten.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Anwalts-Dashboard Fachanwalt Medizinrecht in Fachanwalt Medizinrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Anwalts-Dashboard Fachanwalt Medizinrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Anwalts-Dashboard Fachanwalt Medizinrecht
 
@@ -85,7 +228,7 @@ Diese Triage ist Ihre Vorbereitung, nicht Ihre Entscheidung. Sie führen das Man
 
 ## Skill: `mandat-triage-medizinrecht`
 
-_Wenn es um Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate in Fachanwalt Medizinrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate
 
@@ -136,7 +279,7 @@ _Wenn es um Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate in Fac
 
 ### Frage 3 — Akute Eilbedürftigkeit?
 
-- Approbations-Widerruf / Ruhensanordnung sofort vollziehbar
+- Bei Approbationswiderruf oder Ruhensanordnung gesetzliche Ausnahme, besondere Vollziehungsanordnung und Eilrechtsschutz nach Paragraf 80 VwGO prüfen; kein automatischer Sofortvollzug allein aus der Maßnahmenart.
 - Strafverfahren Pharma-Korruption
 - Existenzbedrohung Praxis
 - Personenschaden akut vor Verjährung
@@ -175,8 +318,8 @@ _Wenn es um Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate in Fac
 - **Behandlungsfehler-Verjährung** drei Jahre / dreißig Jahre § 195 199 BGB
 - **Strafverfahren** Verjährung je nach Tat
 - **Approbationsanfechtung** ein Monat § 70 VwGO Widerspruch / ein Monat Klage
-- **Schlichtungsstelle** keine Frist aber Hemmung Verjährung
-- **Krankenkassen-Regress** vier Jahre § 199 SGB X
+- Schlichtungsstelle: Verfahrensordnung und Hemmungsvoraussetzungen des Paragrafen 204 Absatz 1 Nummer 4 BGB konkret prüfen; keine automatische Hemmung unterstellen.
+- Krankenkassenregress: übergegangenen Schadensersatzanspruch nach Paragraf 116 SGB X von Erstattungsansprüchen zwischen Leistungsträgern unterscheiden. Die Vierjahresregel des Paragrafen 113 SGB X gilt nicht pauschal für jeden Regress gegen Behandler.
 
 ### Frage 8 — Versicherungs- und Vertragslage?
 
@@ -208,7 +351,7 @@ _Wenn es um Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate in Fac
 
 ## Eskalation
 
-- **Telefon-Sofort** Approbations-Ruhensanordnung sofort vollziehbar
+- Bei tatsächlich sofort vollziehbarer Approbationsmaßnahme unverzüglich den passenden Eilantrag vorbereiten; Bekanntgabe, Vollziehungsgrund und Mandatsauftrag prüfen.
 - **Binnen einer Stunde** Polizei-Vernehmung Arzt Strafverfahren
 - **Heute** Patientenakte anfordern § 630g BGB Schlichtungsantrag
 - **Diese Woche** Klage-Erstentwurf Sachverständigenauftrag
@@ -235,164 +378,31 @@ _Wenn es um Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate in Fac
 
 - BGB §§ 195 199 253 630a–630h 823
 - StGB §§ 203 222 229 299a 299b
-- SGB V § 66 SGB X §§ 116 199
+- Paragraf 66 SGB V; Paragrafen 113 und 116 SGB X mit jeweils unterschiedlichem Anwendungsbereich
 - BGH VI. Zivilsenat 5. Strafsenat
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
 
 ## Vertiefung — Rechtsprechung und Normenkette
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Ergänzung — Wichtige Normen Triage-Routing
 
 - § 195 BGB (regelmäßige Verjährung 3 Jahre) i.V.m. § 199 Abs. 1 BGB (Kenntnis-Beginn) und § 204 BGB (Hemmung durch Klage, Schlichtungsantrag, Mahnbescheid)
-- § 630g BGB (Einsichtsrecht Patientenakte — unverzüglich zu gewähren, Kopien auf Kosten des Patienten)
+- Paragraf 630g BGB: erste Abschrift der Patientenakte unentgeltlich; Einschränkungen und Sonderregel für Erben und Angehörige gesondert prüfen.
 - § 116 SGB X (Übergang Schadensersatzanspruch auf Sozialversicherungsträger)
 - § 299a StGB (Bestechlichkeit im Gesundheitswesen), § 299b StGB (Bestechung im Gesundheitswesen)
-- §§ 203, 204 StGB (Schweigepflicht, Schweigepflichtentbindung obligatorisch vor Aktenweitergabe)
+- Paragraf 203 StGB: Offenbarungsbefugnis, Empfänger, Zweck und Umfang vor Aktenweitergabe prüfen; eine gegebenenfalls notwendige Entbindung konkret einholen, gesetzliche Befugnisse nicht übergehen.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
----
-
-## Skill: `fachanwalt-medizinrecht-orientierung`
-
-_Wenn es um Fachanwalt für Medizinrecht — Orientierung in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt für Medizinrecht — Orientierung
-
-## FAO-Voraussetzungen
-
-- Lehrgang 120 Stunden + drei Klausuren.
-- 60 Fälle in den letzten drei Jahren, davon mindestens 15 streitige.
-
-## Wichtige Normen
-
-| Bereich | Norm |
-|---|---|
-| Patientenrechte | §§ 630a–630h BGB (Behandlungsvertrag Aufklärung Dokumentation Beweislast) |
-| Schadensrecht | §§ 249 ff. BGB §§ 823 ff. BGB Schmerzensgeld § 253 BGB |
-| Krankenversicherung | SGB V §§ 27 ff. (Leistungen) §§ 73 ff. (Vertragsärzte) |
-| Pflegeversicherung | SGB XI |
-| Berufsrecht Ärzte | Berufsordnung der Ärztekammern Heilberufsgesetze der Länder |
-| Krankenhaus | KHG KHEntgG |
-| Medizinprodukte | MPDG (EU-MDR) |
-| Apothekenrecht | ApoG ApBetrO Arzneimittelgesetz AMG |
-
-## Typische Mandate
-
-- Arzthaftung (Behandlungsfehler Aufklärungsfehler Dokumentationsmangel)
-- Patientenanspruch auf Krankenversicherung-Leistungen (siehe `fachanwalt-sozialrecht`)
-- Vertragsarztrecht (Zulassung Disziplinar Wirtschaftlichkeitsprüfung)
-- Ärztliche Berufsrechtsverfahren
-- Krankenhaus-Abrechnungsstreit (DRG)
-- Medizinprodukteanmeldung Marktüberwachung
-- Pflegeheim und Heimvertrag
-
-## Fristen
-
-- **Verjährung Schadensersatz Arzthaftung** regelmäßig drei Jahre ab Kenntnis (§ 195 BGB) Höchstfrist zehn Jahre (§ 199 Abs. 2 BGB).
-- **Widerspruchsfrist Krankenkasse** ein Monat (§ 84 SGG).
-- **Beschwerdefristen Ärztekammer** verfahrensrechtlich prüfen.
-- **Vertragsarztzulassung** Klagefrist gegen Beschluss des Zulassungsausschusses ein Monat (§ 96 Abs. 4 SGB V iVm SGG).
-
-## Hauptgerichte
-
-- Sozialgericht (Krankenversicherung).
-- Zivilgericht (Arzthaftung): Landgericht regelmäßig Streitwertgrenze 10.000 EUR (Streitwertgrenze AG ab 01.01.2026).
-- Verwaltungsgericht (Berufsrecht Krankenhausrecht).
-- BGH VI. Zivilsenat (Arzthaftung) und Bundessozialgericht.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Berufsverband
-
-- ARGE Medizinrecht DAV.
-- Deutsche Gesellschaft für Medizinrecht.
-
-## Schnittstellen
-
-- **fachanwalt-sozialrecht** bei SGB V SGB XI.
-- **kanzlei-allgemein** Fristen Versand.
-- **fachanwalt-strafrecht** bei Vorwurf Behandlungsfehler mit strafrechtlichem Bezug.
-
-## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Paragrafenkette
-
-Arzthaftung: §§ 630a, 630b, 630c, 630d, 630e, 630f, 630g, 630h BGB → § 823 Abs. 1 BGB → § 253 BGB (Schmerzensgeld) → §§ 195, 199 BGB (Verjährung)
-
-Vertragsarztrecht: §§ 95, 87b, 106, 106d, 81 Abs. 5 SGB V → § 51 SGG → §§ 84, 87 SGG
-
-Berufsrecht: § 5 BÄO (Widerruf Approbation) → §§ 6a, 8 BÄO → Heilberufsgesetze der Länder → MBO-Ä
-
-Krankenhausrecht: KHG, KHEntgG, § 108 SGB V (Zulassung) → DRG-Abrechnungsregelungen
-
-Medizinprodukte: MPDG (Umsetzung EU-MDR 2017/745) → § 97 AMG (Arzneimittelhaftung analog)
-
-### Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-### Fristen-Übersicht
-
-| Mandatstyp | Frist | Norm |
-|---|---|---|
-| Arzthaftungs-Verjährung | 3 Jahre ab Kenntnis | §§ 195, 199 BGB |
-| Arzthaftungs-Höchstfrist (Personenschaden) | 30 Jahre | § 199 Abs. 2 BGB |
-| Widerspruch Krankenkasse / KV | 1 Monat | § 84 SGG |
-| Klage Sozialgericht | 1 Monat nach Widerspruchsbescheid | § 87 SGG |
-| Widerruf Approbation — Widerspruch VwGO | 1 Monat | § 70 VwGO |
-| Klage Verwaltungsgericht (Approbation) | 1 Monat | § 74 VwGO |
-
-## Triage — Sofortprüfung (Fachanwalt Medizinrecht — Orientierung)
-
-1. **Mandantenrolle klären:** Patient (Anspruchsteller), Arzt/Heilberufler (Verteidigungs-Mandat), Krankenhaus, Kasse?
-2. **Sachgebiet identifizieren:**
-   - Arzthaftung → `behandlungsfehler-anspruch-pruefen` oder `aufklaerungsfehler-beweisstrategie`
-   - Vertragsarztrecht → `fachanwalt-medizinrecht-kassenarztrecht`
-   - Approbationsrecht → `fachanwalt-medizinrecht-approbations-widerspruch`
-   - Off-Label / GKV-Leistungsrecht → `fachanwalt-medizinrecht-off-label-use-erstattung-gkv-long-covid`
-   - Schlichtung Ärztekammer → `fachanwalt-medizinrecht-gutachterkommission-aek-schlichtung`
-3. **Eilbedürftigkeit prüfen:**
-   - Approbationsruhensanordnung sofort vollziehbar → Eilantrag § 80 Abs. 5 VwGO / § 86b SGG binnen 24 h.
-   - Verjährung läuft in < 4 Wochen → Hemmungshandlung sofort (Klage, Mahnbescheid, Anmeldung Schlichtungsstelle).
-4. **Rechtsweg bestimmen:** Sozialgericht (Vertragsarzt, KV, GKV), Zivilgericht (Arzthaftung, GOÄ), Verwaltungsgericht (Berufsrecht, Approbation), Landesberufsgericht (Berufsrecht).
-
-**Routing:**
-```
-Sachgebiet?
-├─ Behandlungsfehler / Aufklärung → behandlungsfehler-anspruch-pruefen
-├─ Vertragsarztrecht / KV → fachanwalt-medizinrecht-kassenarztrecht
-├─ Approbation / Widerruf → fachanwalt-medizinrecht-approbations-widerspruch
-├─ GKV-Leistungsstreit → fachanwalt-sozialrecht
-├─ Honorar GOÄ → fachanwalt-medizinrecht-honorarvertrag-kv
-└─ Schlichtung Ärztekammer → fachanwalt-medizinrecht-gutachterkommission-aek-schlichtung
-```
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `orientierung-mandat-fachanwaltschaft`
 
-_Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Medizinrecht._
 
 # Orientierung im Medizinrecht — FAO Voraussetzungen Normen typische Mandate Fristen verifizierbare Quellen
 
@@ -468,16 +478,6 @@ _Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Medizinrecht geht
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Paragrafenkette
 
 Arzthaftung: §§ 630a, 630b, 630c, 630d, 630e, 630f, 630g, 630h BGB → § 823 Abs. 1 BGB → § 253 BGB (Schmerzensgeld) → §§ 195, 199 BGB (Verjährung)
@@ -529,11 +529,132 @@ Sachgebiet?
 └─ Schlichtung Ärztekammer → fachanwalt-medizinrecht-gutachterkommission-aek-schlichtung
 ```
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `fachanwalt-medizinrecht-orientierung`
+
+_Für Fachanwalt für Medizinrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Fachanwalt für Medizinrecht — Orientierung
+
+## FAO-Voraussetzungen
+
+- Lehrgang 120 Stunden + drei Klausuren.
+- 60 Fälle in den letzten drei Jahren, davon mindestens 15 streitige.
+
+## Wichtige Normen
+
+| Bereich | Norm |
+|---|---|
+| Patientenrechte | §§ 630a–630h BGB (Behandlungsvertrag Aufklärung Dokumentation Beweislast) |
+| Schadensrecht | §§ 249 ff. BGB §§ 823 ff. BGB Schmerzensgeld § 253 BGB |
+| Krankenversicherung | SGB V §§ 27 ff. (Leistungen) §§ 73 ff. (Vertragsärzte) |
+| Pflegeversicherung | SGB XI |
+| Berufsrecht Ärzte | Berufsordnung der Ärztekammern Heilberufsgesetze der Länder |
+| Krankenhaus | KHG KHEntgG |
+| Medizinprodukte | MPDG (EU-MDR) |
+| Apothekenrecht | ApoG ApBetrO Arzneimittelgesetz AMG |
+
+## Typische Mandate
+
+- Arzthaftung (Behandlungsfehler Aufklärungsfehler Dokumentationsmangel)
+- Patientenanspruch auf Krankenversicherung-Leistungen (siehe `fachanwalt-sozialrecht`)
+- Vertragsarztrecht (Zulassung Disziplinar Wirtschaftlichkeitsprüfung)
+- Ärztliche Berufsrechtsverfahren
+- Krankenhaus-Abrechnungsstreit (DRG)
+- Medizinprodukteanmeldung Marktüberwachung
+- Pflegeheim und Heimvertrag
+
+## Fristen
+
+- **Verjährung Schadensersatz Arzthaftung** regelmäßig drei Jahre ab Kenntnis (§ 195 BGB) Höchstfrist zehn Jahre (§ 199 Abs. 2 BGB).
+- **Widerspruchsfrist Krankenkasse** ein Monat (§ 84 SGG).
+- **Beschwerdefristen Ärztekammer** verfahrensrechtlich prüfen.
+- **Vertragsarztzulassung** Klagefrist gegen Beschluss des Zulassungsausschusses ein Monat (§ 96 Abs. 4 SGB V iVm SGG).
+
+## Hauptgerichte
+
+- Sozialgericht (Krankenversicherung).
+- Zivilgericht (Arzthaftung): Landgericht regelmäßig Streitwertgrenze 10.000 EUR (Streitwertgrenze AG ab 01.01.2026).
+- Verwaltungsgericht (Berufsrecht Krankenhausrecht).
+- BGH VI. Zivilsenat (Arzthaftung) und Bundessozialgericht.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Berufsverband
+
+- ARGE Medizinrecht DAV.
+- Deutsche Gesellschaft für Medizinrecht.
+
+## Schnittstellen
+
+- **fachanwalt-sozialrecht** bei SGB V SGB XI.
+- **kanzlei-allgemein** Fristen Versand.
+- **fachanwalt-strafrecht** bei Vorwurf Behandlungsfehler mit strafrechtlichem Bezug.
+
+## Vertiefung — Aktuelle Rechtsprechung und Normen
+
+### Paragrafenkette
+
+Arzthaftung: §§ 630a, 630b, 630c, 630d, 630e, 630f, 630g, 630h BGB → § 823 Abs. 1 BGB → § 253 BGB (Schmerzensgeld) → §§ 195, 199 BGB (Verjährung)
+
+Vertragsarztrecht: §§ 95, 87b, 106, 106d, 81 Abs. 5 SGB V → § 51 SGG → §§ 84, 87 SGG
+
+Berufsrecht: § 5 BÄO (Widerruf Approbation) → §§ 6a, 8 BÄO → Heilberufsgesetze der Länder → MBO-Ä
+
+Krankenhausrecht: KHG, KHEntgG, § 108 SGB V (Zulassung) → DRG-Abrechnungsregelungen
+
+Medizinprodukte: MPDG (Umsetzung EU-MDR 2017/745) → § 97 AMG (Arzneimittelhaftung analog)
+
+### Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+### Fristen-Übersicht
+
+| Mandatstyp | Frist | Norm |
+|---|---|---|
+| Arzthaftungs-Verjährung | 3 Jahre ab Kenntnis | §§ 195, 199 BGB |
+| Arzthaftungs-Höchstfrist (Personenschaden) | 30 Jahre | § 199 Abs. 2 BGB |
+| Widerspruch Krankenkasse / KV | 1 Monat | § 84 SGG |
+| Klage Sozialgericht | 1 Monat nach Widerspruchsbescheid | § 87 SGG |
+| Widerruf Approbation — Widerspruch VwGO | 1 Monat | § 70 VwGO |
+| Klage Verwaltungsgericht (Approbation) | 1 Monat | § 74 VwGO |
+
+## Triage — Sofortprüfung (Fachanwalt Medizinrecht — Orientierung)
+
+1. **Mandantenrolle klären:** Patient (Anspruchsteller), Arzt/Heilberufler (Verteidigungs-Mandat), Krankenhaus, Kasse?
+2. **Sachgebiet identifizieren:**
+   - Arzthaftung → `behandlungsfehler-anspruch-pruefen` oder `aufklaerungsfehler-beweisstrategie`
+   - Vertragsarztrecht → `fachanwalt-medizinrecht-kassenarztrecht`
+   - Approbationsrecht → `fachanwalt-medizinrecht-approbations-widerspruch`
+   - Off-Label / GKV-Leistungsrecht → `fachanwalt-medizinrecht-off-label-use-erstattung-gkv-long-covid`
+   - Schlichtung Ärztekammer → `fachanwalt-medizinrecht-gutachterkommission-aek-schlichtung`
+3. **Eilbedürftigkeit prüfen:**
+   - Approbationsruhensanordnung sofort vollziehbar → Eilantrag § 80 Abs. 5 VwGO / § 86b SGG binnen 24 h.
+   - Verjährung läuft in < 4 Wochen → Hemmungshandlung sofort (Klage, Mahnbescheid, Anmeldung Schlichtungsstelle).
+4. **Rechtsweg bestimmen:** Sozialgericht (Vertragsarzt, KV, GKV), Zivilgericht (Arzthaftung, GOÄ), Verwaltungsgericht (Berufsrecht, Approbation), Landesberufsgericht (Berufsrecht).
+
+**Routing:**
+```
+Sachgebiet?
+├─ Behandlungsfehler / Aufklärung → behandlungsfehler-anspruch-pruefen
+├─ Vertragsarztrecht / KV → fachanwalt-medizinrecht-kassenarztrecht
+├─ Approbation / Widerruf → fachanwalt-medizinrecht-approbations-widerspruch
+├─ GKV-Leistungsstreit → fachanwalt-sozialrecht
+├─ Honorar GOÄ → fachanwalt-medizinrecht-honorarvertrag-kv
+└─ Schlichtung Ärztekammer → fachanwalt-medizinrecht-gutachterkommission-aek-schlichtung
+```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Medizinrecht._
 
 # Erstgespraeach und Mandatsannahme im Arzthaftungs- Berufs- und Vertragsarztrecht: Anwendungsfall Patient oder Arzt meldet sich mit unstrukturiertem Sachverhalt zu Behandlungsfehler Approbationsproblem oder KV-Streit
 
@@ -702,14 +823,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 
 ## Vertiefung — Normenkette und Rechtsprechung Erstgespräch Medizinrecht
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normenkette Erstgespräch / Mandatsannahme
 
 § 630g BGB (Einsichtsrecht Patientenakte) → §§ 10, 11 GwG (Identifizierungspflicht RA-Mandat) → §§ 43a, 45 BRAO (Interessenkonflikt, Verschwiegenheit) → §§ 3, 3a RVG (Vergütungsvereinbarung, Stundenhonorar) → § 9 RVG (Vorschuss) → §§ 195, 199 BGB (Verjährung im Mandat sichern) → § 204 BGB (Hemmung: Klage, Mahnbescheid, Schlichtungsantrag § 278 BGB analog)
@@ -718,11 +831,13 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstpruefung-und-mandatsziel`
 
-_Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Medizinrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Medizinrecht._
 
 # Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -759,529 +874,9 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `fachanwalt-medizinrecht-kassenarztrecht`
-
-_Wenn es um Kassenarztrecht in Fachanwalt Medizinrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Fachanwalt Medizinrecht Kassenarztrecht; Arbeitsfeld: Fachanwalt Medizinrecht._
-
-# Kassenarztrecht
-
-## Kaltstart-Rückfragen
-
-1. Welches Verfahren — Zulassungsverfahren, Honorarrückforderung, Plausibilitätsprüfung, Wirtschaftlichkeitsprüfung, Disziplinarmaßnahme, Zulassungsentziehung?
-2. Wer ist Verfahrensbeteiligter — KV (Kassenärztliche Vereinigung), Zulassungsausschuss, Berufungsausschuss, MD (Medizinischer Dienst), Krankenkassen?
-3. Welcher Bescheid liegt vor (Quartal, Aktenzeichen) und welche Frist läuft (Widerspruch zum Berufungsausschuss § 96 SGB V einen Monat)?
-4. Sind Praxisbesonderheiten oder atypische Patientenstrukturen vorhanden (Behindertenpraxis, Anlaufpraxis, Sondergruppen)?
-5. Welche wirtschaftlichen Auswirkungen drohen — Rückforderung, Honorarkürzung, Zulassungsverlust, Strafverfahren?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Anspruchsgrundlagen und Verfahren
-
-- Zulassung § 95 SGB V — Voraussetzungen Arztregister § 95a, Bedarfsplanung § 99 SGB V; bei zulassungsbeschränkten Bereichen Auswahlverfahren.
-- Honorarverteilung — Honorarverteilungsmaßstab nach § 87b SGB V mit Regelleistungsvolumen, Qualifikationsgebundenen Zusatzvolumen, freier Leistungen.
-- Plausibilitätsprüfung § 106d SGB V — Stichprobe oder Auffälligkeit; KV prüft sachlich-rechnerische Richtigkeit; Berichtigung § 106d Abs. 2 SGB V.
-- Wirtschaftlichkeitsprüfung § 106 SGB V — Vergleich mit Vergleichsgruppe (Fachgruppendurchschnitt) bei Verordnungsverhalten und Behandlungsweise; Prüfvereinbarung der Partner.
-- Praxisbesonderheiten — können Überschreitung des Durchschnitts rechtfertigen; Patient mit besonderem Krankheitsbild, Patientenklientel.
-- Disziplinarverfahren § 81 Abs. 5 SGB V — bei Pflichtverletzungen; Maßnahmen Verwarnung, Verweis, Geldbuße, befristete Ruhensanordnung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsweg § 51 Abs. 1 Nr. 2 SGG Sozialgericht — Widerspruchsverfahren beim Berufungsausschuss vorgeschaltet § 96 SGB V; Klage erst nach Berufungsausschussentscheidung.
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
-## Beweislast
-
-- KV trägt Beweislast für Honorarrückforderung — Tatsachen der Unrichtigkeit, sachliche und rechnerische Mängel.
-- Vertragsarzt trägt Beweislast für Praxisbesonderheiten und atypische Patientenstruktur als Rechtfertigungsgrund.
-- Bei Disziplinarverfahren trägt KV Beweislast für Pflichtverletzung; Vertragsarzt darf Mängel widerlegen.
-
-## Strategie-Matrix
-
-| Verfahren | Maßnahme |
-|---|---|
-| Plausibilitätsprüfung | Anhörung gem. § 24 SGB X nutzen, Akten einsehen, Stichprobenpatienten konkret darstellen |
-| Wirtschaftlichkeitsprüfung | Praxisbesonderheiten konkret darstellen, Vergleichsgruppe rügen |
-| Disziplinarverfahren | Verhältnismäßigkeit prüfen, mildere Maßnahme statt Ruhen |
-| Zulassungsentziehung | Verfassungsrechtlicher Verhältnismäßigkeitsmaßstab, Bewährung |
-| Bedarfsplanung | Sonderbedarf, Anstellungsmöglichkeit § 101 SGB V |
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Kassenarztrecht-Verfahren | Schriftsatz an Zulaessungsausschuss; Template unten |
-| Variante A — Mandant will Zulassung aufgeben | Zulassungsverzicht vs. Praxisverkauf abwaegen |
-| Variante B — Sonderbedarfszulassung | Bedarfsplanung § 101 SGB V pruefen; GBA-Richtlinie |
-| Variante C — Ausschluss aus Vertragsarztversorgung | Sofortige Wiederzulassung vs. Neuantrag nach Wartezeit |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-
-## Schreibvorlage Widerspruch beim Berufungsausschuss
-
-```
-An den Berufungsausschuss der KV [Bundesland]
-[Anschrift]
-
-In der vertragsaerztlichen Angelegenheit
-[Praxis] [Adresse]
-gegen den Bescheid des Zulassungsausschusses der KV [Bundesland]
-vom [Datum] Aktenzeichen [Az]
-
-Widerspruch § 96 SGB V
-
-Antraege
-
-1. Den Bescheid aufzuheben.
-
-2. Hilfsweise eine Honorarrueckforderung auf hoechstens EUR ____
-   zu beschraenken.
-
-3. Aussetzung der Vollziehung § 86b Abs. 1 SGG bis zur Entscheidung
-   des Berufungsausschusses anzuordnen.
-
-Begruendung
-
-I. Sachverhalt
-[Praxisstruktur Patientenklientel Schwerpunkte]
-
-II. Plausibilitaetspruefung
-1. Vergleichsgruppe nicht repraesentativ — Praxisbesonderheiten
-   Patientenklientel [konkret] werden nicht beruecksichtigt.
-2. Patientenstruktur atypisch — [Behinderte, palliative Versorgung,
-   Migrationsbevoelkerung].
-3. Stichprobe nicht repraesentativ — Quartal [X] enthielt
-   Sondereffekte [konkret].
-
-III. Wirtschaftlichkeit
-Patientenklientel mit ueberdurchschnittlichem Behandlungsbedarf
-rechtfertigt Behandlungsmuster. Belege als Anlagen.
-
-IV. Verfahrensruegen
-1. Anhoerung § 24 SGB X unterblieben oder mangelhaft.
-2. Begruendung § 35 SGB X unzureichend.
-
-V. Aussetzung Vollziehung
-Vollzug haette existenzgefaehrdende Wirkung — Antrag § 86b SGG.
-
-Anlagen
-- Praxisstatistik
-- Patientenstrukturanalyse
-- Verordnungsprofile
-- Vollmacht
-```
-
---- vor Versand klaeren ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
-## Übergabe
-
-- Bei Misserfolg im Widerspruchsverfahren Klage beim Sozialgericht § 51 SGG; weiter Berufung Landessozialgericht § 143 SGG; Revision § 160 SGG bei grundsätzlicher Bedeutung.
-- Bei drohender Zulassungsentziehung parallel einstweiliger Rechtsschutz § 86b Abs. 1 SGG.
-- Bei strafrechtlichem Aspekt (Abrechnungsbetrug § 263 StGB) parallel Skill `fachanwalt-strafrecht-akteneinsicht-beantragen`.
-- Anschluss bei Zulassungssachen kassenrechtliche Spezialisten und ggf. Steuerberater einbinden.
-
-## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Paragrafenkette
-
-§ 95 SGB V (Zulassung) → § 95 Abs. 6 SGB V (Entziehung) → § 87b SGB V (Honorarverteilungsmaßstab) → § 106 SGB V (Wirtschaftlichkeitsprüfung) → § 106d SGB V (Plausibilitätsprüfung, sachlich-rechnerische Berichtigung) → § 81 Abs. 5 SGB V (Disziplinarmaßnahmen) → § 96 SGB V i.V.m. § 51 SGG (Rechtsweg, Widerspruchsverfahren Berufungsausschuss) → § 86b Abs. 1 SGG (einstweiliger Rechtsschutz) → § 24 SGB X (Anhörung) → Art. 12 Abs. 1 GG (Berufsfreiheit Verhältnismäßigkeit)
-
-### Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-### Fristen-Übersicht
-
-| Verfahren | Frist | Norm |
-|---|---|---|
-| Widerspruch gegen Zulassungsausschuss-Beschluss | 1 Monat | § 96 Abs. 4 SGB V |
-| Klage beim Sozialgericht (nach Berufungsausschuss) | 1 Monat | § 87 SGG |
-| Antrag einstweiliger Rechtsschutz § 86b SGG | vor Vollziehung | § 86b Abs. 1 SGG |
-| Berufung | 1 Monat nach Zustellung | § 151 SGG |
-| Revision BSG (Nichtzulassungsbeschwerde) | 1 Monat | § 160a SGG |
-| Verjährung Honorar-Rückforderung | 4 Jahre (§ 45 SGB I analog) | BSG-Rspr. |
-
-## Triage — Sofortprüfung
-
-1. **Liegt ein Bescheid vor?** → Frist sofort prüfen: Widerspruch binnen 1 Monat ab Bekanntgabe (§ 96 Abs. 4 SGB V).
-2. **Handelt es sich um Zulassungsentziehung oder nur Disziplinar?**
-   - Zulassungsentziehung → Art. 12 Abs. 1 GG, Verhältnismäßigkeit, milderes Mittel; Eilantrag § 86b SGG prüfen.
-   - Disziplinar (Verweis, Geldbuße) → Widerspruchsverfahren, mildere Maßnahme rügen.
-3. **Plausibilitätsprüfung oder Wirtschaftlichkeitsprüfung?**
-   - Plausibilitätsprüfung § 106d → KV-Beweislast für Unrichtigkeit; Stichprobe repräsentativ?
-   - Wirtschaftlichkeitsprüfung § 106 → Praxisbesonderheiten konkret dokumentieren (diagnosespezifisch).
-4. **Praxisbesonderheiten belegt?** → Patientenstrukturanalyse, Diagnosestatistik; andernfalls sofort anfordern.
-5. **Existenzbedrohung (Rückforderung > 3 Monatshonorare)?** → Aussetzungsantrag § 86b Abs. 1 SGG plus Vollzugsfolge-Abwägung.
-
-**Entscheidungsbaum:**
-```
-Bescheid eingegangen?
-├─ Ja → Frist (1 Monat) im Kalender → Widerspruch vorbereiten
-│        └─ Zulassungsentziehung? → Eilantrag § 86b SGG sofort
-└─ Nein → Anhörung § 24 SGB X → Stellungnahme innerhalb der Frist
-```
-
-## Schritt-für-Schritt-Workflow
-
-1. **Bescheid-Analyse:** Tenor, Begründung, Rechtsbehelfsbelehrung, Datum der Bekanntgabe — Frist im Kalender eingetragen.
-2. **Akteneinsicht beantragen** beim Zulassungsausschuss/KV (§ 25 SGB X) — alle Prüfprotokolle, Stichprobenquartale, Vergleichsgruppendaten anfordern.
-3. **Praxisstrukturanalyse erstellen:** Patientendiagnosen, Leistungsprofile, Verordnungsdaten der betroffenen Quartale; bei spezialisierten Praxen Sachverständigen einschalten.
-4. **Rechtliche Prüfung:** Vergleichsgruppe korrekt? Praxisbesonderheiten nicht berücksichtigt? Verfahrensfehler (Anhörung § 24 SGB X, Begründung § 35 SGB X)?
-5. **Widerspruch formulieren** an Berufungsausschuss (§ 96 SGB V): Sachverhalt, Praxisbesonderheiten konkret, Verfahrensrügen, Aussetzungsantrag.
-6. **Mündliche Anhörung** beim Berufungsausschuss vorbereiten: Unterlagen geordnet, Tatsachenvortrag strukturiert.
-7. **Bei Misserfolg:** Klage Sozialgericht — Sachverständigengutachten zur Wirtschaftlichkeit beantragen.
-8. **Bei Zulassungsentziehung:** parallel verwaltungsrechtlichen Eilantrag § 86b SGG und Hauptsacheklage kombinieren.
-
-## Output-Template — Widerspruch Berufungsausschuss (ausführlich)
-
-```
-An den Berufungsausschuss der KV [BUNDESLAND]
-[ANSCHRIFT]
-
-Datum: [DATUM]
-Betreff: Widerspruch gemäß § 96 SGB V
-Unser Zeichen: [AKTENZEICHEN KANZLEI]
-Ihr Zeichen: [AZ ZULASSUNGSAUSSCHUSS]
-
-Mandant: [NAME PRAXIS / ARZT], [ADRESSE]
-
-I. WIDERSPRUCH
-
-Im Namen und in Vollmacht meines Mandanten [NAME] lege ich hiermit Widerspruch
-gegen den Bescheid des Zulassungsausschusses der KV [BUNDESLAND]
-vom [DATUM BESCHEID], Aktenzeichen [AZ], ein.
-
-II. ANTRÄGE
-
-1. Den Bescheid vom [DATUM] aufzuheben.
-2. Hilfsweise: die [Honorarrückforderung / Disziplinarmaßnahme] auf
-   höchstens [BETRAG] EUR herabzusetzen.
-3. Die aufschiebende Wirkung des Widerspruchs anzuordnen,
-   § 86b Abs. 1 Satz 1 SGG.
-
-III. BEGRÜNDUNG
-
-1. Sachverhalt
-[Praxis-Beschreibung, Patientenklientel, Schwerpunkte,
-Behandlungsschwerpunkte mit Diagnosegruppen]
-
-2. Praxisbesonderheiten (§ 106 SGB V)
-Unsere Praxis behandelt überdurchschnittlich [Patientengruppe].
-Die diagnosebezogenen Mehraufwendungen sind in den Anlagen
-[K1 - Patientenstrukturanalyse, K2 - Diagnosestatistik] dargestellt.
-
-3. Verfahrensrügen
-3.1 Anhörung § 24 SGB X wurde nicht / unzureichend gewährt.
-3.2 Begründung § 35 SGB X fehlt / ist unzureichend.
-3.3 Stichprobe nicht repräsentativ: [konkrete Rüge].
-
-4. Vollziehungsaussetzung
-Der Vollzug führt zur Existenzgefährdung der Praxis
-[Umsatz, Rückforderungsbetrag im Verhältnis]. Erfolgsaussichten
-überwiegen das Vollziehungsinteresse.
-
-IV. BEWEISANGEBOTE
-- Anlage K1: Patientenstrukturanalyse
-- Anlage K2: Diagnoseprofil Quartal [X]
-- Anlage K3: Sachverständigengutachten Dr. [NAME]
-- Anlage K4: Vollmacht
-
-[KANZLEI, UNTERSCHRIFT, DATUM]
-```
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
----
-
-## Skill: `kassenarztrecht`
-
-_Wenn es um Kassenarztrecht in Fachanwalt Medizinrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Kassenarztrecht; Arbeitsfeld: Fachanwalt Medizinrecht._
-
-# Kassenarztrecht Vertragsarztzulassung und KV-Streitigkeiten: Anwendungsfall Arzt beantragt Vertragsarztzulassung hat Zulassungsprobleme oder streitet mit KV um Honorar Berechtigung oder Zulassungsstatus
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; BGB §§ 630a-h, MBO-Ä, GKV-Vorgaben, SGB V, PrüfvV, HeilberufsG der Länder; SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Kassenarztrecht Vertragsarztzulassung und KV-Streitigkeiten: Anwendungsfall Arzt beantragt Vertragsarztzulassung hat Zulassungsprobleme oder streitet mit KV um Honorar Berechtigung oder Zulassungsstatus. § 95 SGB V Zulassung, § 96 SGB V Zulassungsausschuss, § 103 SGB V Nachbesetzung, EBM-Abrechnung. Prüfraster Zulassungsvoraussetzungen, Bedarfsplanung Sperrgebiete, Facharzt-Standard, Honorarsystem EBM RLV, KV-Prüfungsverfahren. Output Zulassungsantrag oder Widerspruchs-Strategie mit Rechtsschutzsystem. Abgrenzung zu Honorarvertrag-KV für reine Honorarstreitigkeiten und zu Approbations-Widerspruch.
-
-### Kassenarztrecht
-
-## Fachkern: Kassenarztrecht
-- **Normen-/Quellenanker:** BGB §§ 630a ff., SGB V, ärztliches Berufsrecht, GOÄ/EBM, MPDG/MDR, AMG, Krankenhausrecht, Vertragsarztrecht und Arzthaftungsprozess.
-- **Entscheidende Weiche:** Trenne Behandlungsfehler, Aufklärung, Dokumentation, Kausalität, Beweislast, Sozialleistungsbezug, Zulassung und Haftpflichtdeckung.
-
-## Kaltstart-Rückfragen
-
-1. Welches Verfahren — Zulassungsverfahren, Honorarrückforderung, Plausibilitätsprüfung, Wirtschaftlichkeitsprüfung, Disziplinarmaßnahme, Zulassungsentziehung?
-2. Wer ist Verfahrensbeteiligter — KV (Kassenärztliche Vereinigung), Zulassungsausschuss, Berufungsausschuss, MD (Medizinischer Dienst), Krankenkassen?
-3. Welcher Bescheid liegt vor (Quartal, Aktenzeichen) und welche Frist läuft (Widerspruch zum Berufungsausschuss § 96 SGB V einen Monat)?
-4. Sind Praxisbesonderheiten oder atypische Patientenstrukturen vorhanden (Behindertenpraxis, Anlaufpraxis, Sondergruppen)?
-5. Welche wirtschaftlichen Auswirkungen drohen — Rückforderung, Honorarkürzung, Zulassungsverlust, Strafverfahren?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Anspruchsgrundlagen und Verfahren
-
-- Zulassung § 95 SGB V — Voraussetzungen Arztregister § 95a, Bedarfsplanung § 99 SGB V; bei zulassungsbeschränkten Bereichen Auswahlverfahren.
-- Honorarverteilung — Honorarverteilungsmaßstab nach § 87b SGB V mit Regelleistungsvolumen, Qualifikationsgebundenen Zusatzvolumen, freier Leistungen.
-- Plausibilitätsprüfung § 106d SGB V — Stichprobe oder Auffälligkeit; KV prüft sachlich-rechnerische Richtigkeit; Berichtigung § 106d Abs. 2 SGB V.
-- Wirtschaftlichkeitsprüfung § 106 SGB V — Vergleich mit Vergleichsgruppe (Fachgruppendurchschnitt) bei Verordnungsverhalten und Behandlungsweise; Prüfvereinbarung der Partner.
-- Praxisbesonderheiten — können Überschreitung des Durchschnitts rechtfertigen; Patient mit besonderem Krankheitsbild, Patientenklientel.
-- Disziplinarverfahren § 81 Abs. 5 SGB V — bei Pflichtverletzungen; Maßnahmen Verwarnung, Verweis, Geldbuße, befristete Ruhensanordnung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsweg § 51 Abs. 1 Nr. 2 SGG Sozialgericht — Widerspruchsverfahren beim Berufungsausschuss vorgeschaltet § 96 SGB V; Klage erst nach Berufungsausschussentscheidung.
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
-## Beweislast
-
-- KV trägt Beweislast für Honorarrückforderung — Tatsachen der Unrichtigkeit, sachliche und rechnerische Mängel.
-- Vertragsarzt trägt Beweislast für Praxisbesonderheiten und atypische Patientenstruktur als Rechtfertigungsgrund.
-- Bei Disziplinarverfahren trägt KV Beweislast für Pflichtverletzung; Vertragsarzt darf Mängel widerlegen.
-
-## Strategie-Matrix
-
-| Verfahren | Maßnahme |
-|---|---|
-| Plausibilitätsprüfung | Anhörung gem. § 24 SGB X nutzen, Akten einsehen, Stichprobenpatienten konkret darstellen |
-| Wirtschaftlichkeitsprüfung | Praxisbesonderheiten konkret darstellen, Vergleichsgruppe rügen |
-| Disziplinarverfahren | Verhältnismäßigkeit prüfen, mildere Maßnahme statt Ruhen |
-| Zulassungsentziehung | Verfassungsrechtlicher Verhältnismäßigkeitsmaßstab, Bewährung |
-| Bedarfsplanung | Sonderbedarf, Anstellungsmöglichkeit § 101 SGB V |
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Kassenarztrecht-Verfahren | Schriftsatz an Zulaessungsausschuss; Template unten |
-| Variante A — Mandant will Zulassung aufgeben | Zulassungsverzicht vs. Praxisverkauf abwaegen |
-| Variante B — Sonderbedarfszulassung | Bedarfsplanung § 101 SGB V prüfen; GBA-Richtlinie |
-| Variante C — Ausschluss aus Vertragsarztversorgung | Sofortige Wiederzulassung vs. Neuantrag nach Wartezeit |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Schreibvorlage Widerspruch beim Berufungsausschuss
-
-```
-An den Berufungsausschuss der KV [Bundesland]
-[Anschrift]
-
-In der vertragsaerztlichen Angelegenheit
-[Praxis] [Adresse]
-gegen den Bescheid des Zulassungsausschusses der KV [Bundesland]
-vom [Datum] Aktenzeichen [Az]
-
-Widerspruch § 96 SGB V
-
-Antraege
-
-1. Den Bescheid aufzuheben.
-
-2. Hilfsweise eine Honorarrueckforderung auf hoechstens EUR ____
- zu beschraenken.
-
-3. Aussetzung der Vollziehung § 86b Abs. 1 SGG bis zur Entscheidung
- des Berufungsausschusses anzuordnen.
-
-Begruendung
-
-I. Sachverhalt
-[Praxisstruktur Patientenklientel Schwerpunkte]
-
-II. Plausibilitaetspruefung
-1. Vergleichsgruppe nicht repraesentativ — Praxisbesonderheiten
- Patientenklientel [konkret] werden nicht beruecksichtigt.
-2. Patientenstruktur atypisch — [Behinderte, palliative Versorgung,
- Migrationsbevoelkerung].
-3. Stichprobe nicht repraesentativ — Quartal [X] enthielt
- Sondereffekte [konkret].
-
-III. Wirtschaftlichkeit
-Patientenklientel mit ueberdurchschnittlichem Behandlungsbedarf
-rechtfertigt Behandlungsmuster. Belege als Anlagen.
-
-IV. Verfahrensruegen
-1. Anhörung § 24 SGB X unterblieben oder mangelhaft.
-2. Begruendung § 35 SGB X unzureichend.
-
-V. Aussetzung Vollziehung
-Vollzug haette existenzgefaehrdende Wirkung — Antrag § 86b SGG.
-
-Anlagen
-- Praxisstatistik
-- Patientenstrukturanalyse
-- Verordnungsprofile
-- Vollmacht
-```
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
-## Übergabe
-
-- Bei Misserfolg im Widerspruchsverfahren Klage beim Sozialgericht § 51 SGG; weiter Berufung Landessozialgericht § 143 SGG; Revision § 160 SGG bei grundsätzlicher Bedeutung.
-- Bei drohender Zulassungsentziehung parallel einstweiliger Rechtsschutz § 86b Abs. 1 SGG.
-- Bei strafrechtlichem Aspekt (Abrechnungsbetrug § 263 StGB) parallel Skill `fachanwalt-strafrecht-akteneinsicht-beantragen`.
-- Anschluss bei Zulassungssachen kassenrechtliche Spezialisten und ggf. Steuerberater einbinden.
-
-## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Paragrafenkette
-
-§ 95 SGB V (Zulassung) → § 95 Abs. 6 SGB V (Entziehung) → § 87b SGB V (Honorarverteilungsmaßstab) → § 106 SGB V (Wirtschaftlichkeitsprüfung) → § 106d SGB V (Plausibilitätsprüfung, sachlich-rechnerische Berichtigung) → § 81 Abs. 5 SGB V (Disziplinarmaßnahmen) → § 96 SGB V i.V.m. § 51 SGG (Rechtsweg, Widerspruchsverfahren Berufungsausschuss) → § 86b Abs. 1 SGG (einstweiliger Rechtsschutz) → § 24 SGB X (Anhörung) → Art. 12 Abs. 1 GG (Berufsfreiheit Verhältnismäßigkeit)
-
-### Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-### Fristen-Übersicht
-
-| Verfahren | Frist | Norm |
-|---|---|---|
-| Widerspruch gegen Zulassungsausschuss-Beschluss | 1 Monat | § 96 Abs. 4 SGB V |
-| Klage beim Sozialgericht (nach Berufungsausschuss) | 1 Monat | § 87 SGG |
-| Antrag einstweiliger Rechtsschutz § 86b SGG | vor Vollziehung | § 86b Abs. 1 SGG |
-| Berufung | 1 Monat nach Zustellung | § 151 SGG |
-| Revision BSG (Nichtzulassungsbeschwerde) | 1 Monat | § 160a SGG |
-| Verjährung Honorar-Rückforderung | 4 Jahre (§ 45 SGB I analog) | BSG-Rspr. |
-
-## Triage — Sofortprüfung
-
-1. **Liegt ein Bescheid vor?** → Frist sofort prüfen: Widerspruch binnen 1 Monat ab Bekanntgabe (§ 96 Abs. 4 SGB V).
-2. **Handelt es sich um Zulassungsentziehung oder nur Disziplinar?**
- - Zulassungsentziehung → Art. 12 Abs. 1 GG, Verhältnismäßigkeit, milderes Mittel; Eilantrag § 86b SGG prüfen.
- - Disziplinar (Verweis, Geldbuße) → Widerspruchsverfahren, mildere Maßnahme rügen.
-3. **Plausibilitätsprüfung oder Wirtschaftlichkeitsprüfung?**
- - Plausibilitätsprüfung § 106d → KV-Beweislast für Unrichtigkeit; Stichprobe repräsentativ?
- - Wirtschaftlichkeitsprüfung § 106 → Praxisbesonderheiten konkret dokumentieren (diagnosespezifisch).
-4. **Praxisbesonderheiten belegt?** → Patientenstrukturanalyse, Diagnosestatistik; andernfalls sofort anfordern.
-5. **Existenzbedrohung (Rückforderung > 3 Monatshonorare)?** → Aussetzungsantrag § 86b Abs. 1 SGG plus Vollzugsfolge-Abwägung.
-
-**Entscheidungsbaum:**
-```
-Bescheid eingegangen?
-├─ Ja → Frist (1 Monat) im Kalender → Widerspruch vorbereiten
-│ └─ Zulassungsentziehung? → Eilantrag § 86b SGG sofort
-└─ Nein → Anhörung § 24 SGB X → Stellungnahme innerhalb der Frist
-```
-
-## Schritt-für-Schritt-Workflow
-
-1. **Bescheid-Analyse:** Tenor, Begründung, Rechtsbehelfsbelehrung, Datum der Bekanntgabe — Frist im Kalender eingetragen.
-2. **Akteneinsicht beantragen** beim Zulassungsausschuss/KV (§ 25 SGB X) — alle Prüfprotokolle, Stichprobenquartale, Vergleichsgruppendaten anfordern.
-3. **Praxisstrukturanalyse erstellen:** Patientendiagnosen, Leistungsprofile, Verordnungsdaten der betroffenen Quartale; bei spezialisierten Praxen Sachverständigen einschalten.
-4. **Rechtliche Prüfung:** Vergleichsgruppe korrekt? Praxisbesonderheiten nicht berücksichtigt? Verfahrensfehler (Anhörung § 24 SGB X, Begründung § 35 SGB X)?
-5. **Widerspruch formulieren** an Berufungsausschuss (§ 96 SGB V): Sachverhalt, Praxisbesonderheiten konkret, Verfahrensrügen, Aussetzungsantrag.
-6. **Mündliche Anhörung** beim Berufungsausschuss vorbereiten: Unterlagen geordnet, Tatsachenvortrag strukturiert.
-7. **Bei Misserfolg:** Klage Sozialgericht — Sachverständigengutachten zur Wirtschaftlichkeit beantragen.
-8. **Bei Zulassungsentziehung:** parallel verwaltungsrechtlichen Eilantrag § 86b SGG und Hauptsacheklage kombinieren.
-
-## Output-Template — Widerspruch Berufungsausschuss (ausführlich)
-
-```
-An den Berufungsausschuss der KV [BUNDESLAND]
-[ANSCHRIFT]
-
-Datum: [DATUM]
-Betreff: Widerspruch gemäß § 96 SGB V
-Unser Zeichen: [AKTENZEICHEN KANZLEI]
-Ihr Zeichen: [AZ ZULASSUNGSAUSSCHUSS]
-
-Mandant: [NAME PRAXIS / ARZT], [ADRESSE]
-
-I. WIDERSPRUCH
-
-Im Namen und in Vollmacht meines Mandanten [NAME] lege ich hiermit Widerspruch
-gegen den Bescheid des Zulassungsausschusses der KV [BUNDESLAND]
-vom [DATUM BESCHEID], Aktenzeichen [AZ], ein.
-
-II. ANTRÄGE
-
-1. Den Bescheid vom [DATUM] aufzuheben.
-2. Hilfsweise: die [Honorarrückforderung / Disziplinarmaßnahme] auf
- höchstens [BETRAG] EUR herabzusetzen.
-3. Die aufschiebende Wirkung des Widerspruchs anzuordnen,
- § 86b Abs. 1 Satz 1 SGG.
-
-III. BEGRÜNDUNG
-
-1. Sachverhalt
-[Praxis-Beschreibung, Patientenklientel, Schwerpunkte,
-Behandlungsschwerpunkte mit Diagnosegruppen]
-
-2. Praxisbesonderheiten (§ 106 SGB V)
-Unsere Praxis behandelt überdurchschnittlich [Patientengruppe].
-Die diagnosebezogenen Mehraufwendungen sind in den Anlagen
-[K1 - Patientenstrukturanalyse, K2 - Diagnosestatistik] dargestellt.
-
-3. Verfahrensrügen
-3.1 Anhörung § 24 SGB X wurde nicht / unzureichend gewährt.
-3.2 Begründung § 35 SGB X fehlt / ist unzureichend.
-3.3 Stichprobe nicht repräsentativ: [konkrete Rüge].
-
-4. Vollziehungsaussetzung
-Der Vollzug führt zur Existenzgefährdung der Praxis
-[Umsatz, Rückforderungsbetrag im Verhältnis]. Erfolgsaussichten
-überwiegen das Vollziehungsinteresse.
-
-IV. BEWEISANGEBOTE
-- Anlage K1: Patientenstrukturanalyse
-- Anlage K2: Diagnoseprofil Quartal [X]
-- Anlage K3: Sachverständigengutachten Dr. [NAME]
-- Anlage K4: Vollmacht
-
-[KANZLEI, UNTERSCHRIFT, DATUM]
-```
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

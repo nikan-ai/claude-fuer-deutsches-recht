@@ -1,18 +1,25 @@
-# Akte Luna Kanal: Sachleistungen, Rabattcodes, Musikrechte und Steuerprüfung
-
+# Akte Luna Kanal: Sachleistungen, Rabattcodes, Musikrechte und Steuerunterlagen
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 109 KB) | PDF | [`gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf`](gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-influencer-recht-creator-sachleistungen-steuer-werbung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-influencer-recht-creator-sachleistungen-steuer-werbung.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-influencer-recht-creator-sachleistungen-steuer-werbung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-influencer-recht-creator-sachleistungen-steuer-werbung-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf`](gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-influencer-recht-creator-sachleistungen-steuer-werbung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-influencer-recht-creator-sachleistungen-steuer-werbung.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-influencer-recht-creator-sachleistungen-steuer-werbung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-influencer-recht-creator-sachleistungen-steuer-werbung-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -20,26 +27,38 @@ Diese Akte gehört zu den Plugins `influencer-recht`, `steuerrecht-anwalt-und-be
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 - [Gesamt-PDF](gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf)
-- Die Einzeldateien in diesem Ordner bilden den Aktenwust aus E-Mail, Tabelle, Vermerk, Bild und Anlagen ab.
+- Die Einzeldateien bilden den ursprünglichen Datenraum aus Verträgen, Kundenbriefings, Abrechnungen, Korrespondenz, Behördenpost und Rohdaten ab.
 
 ## Aktenstücke
 
 | Datei | Inhalt |
 | --- | --- |
-| `01-sachverhalt-und-offene-punkte.docx` | Chronologie, Rollen, erste Streitpunkte |
-| `02-risiko-und-fristenmatrix.xlsx` | Fristen, Zuständigkeiten, Risikoampel |
-| `03-email-auftakt.eml` | Mandats-/Projektauftakt mit Rückfragen |
-| `04-arbeitsvermerk.docx` | interner Arbeitsvermerk |
-| `05-dashboard.csv` | strukturierte Prüfspur |
-| `06-screenshot-notizen.jpg` | Foto/Screenshot einer chaotischen Arbeitsnotiz |
+| `16_agenturabrechnung_kampagnen_und_sachleistungen.docx` | Agenturabrechnung zu Honoraren, Sachleistungen, Reise und noch nicht abgerechneten Retouren |
+| `17_email_creator_musikdatei_und_rohclip.eml` | Nachricht von Luna Weiß zur Herkunft der Musikdatei, zur Werbeanzeige und zum Rohclip |
+| `18_kampagnenzahlungen_und_sachleistungen_roh.csv` | Export der Agentur zu Kampagnenzahlungen, Produkten, Retouren und Belegen |
+| `19_creator_managementvertrag_2026.docx` | Unterzeichneter Managementvertrag zu Vermittlung, Provision, Abrechnung und Nutzungsumfang |
+| `20_glowgarden_kampagnenauftrag_gg_188.docx` | Kampagnenauftrag mit Veröffentlichungsplan, Honorar, Produktwert und Rabattcode-Laufzeit |
+| `21_audiopeak_produktionsbriefing_ap_77.docx` | Produktionsbriefing zu Vorserienmuster, Tondatei, Drehplan und organischer Veröffentlichung |
+| `22_medienanstalt_auskunftsersuchen_werbekennzeichnung.docx` | Behördliches Auskunftsersuchen zu zwei Beiträgen, Rabattcode und bezahlter Ausspielung |
+| `23_sorgeberechtigte_bestaetigung_minderjaehrigenaufnahme.docx` | Schreiben der Mutter zum ungeplanten Auftritt ihres minderjährigen Sohnes |
+| `24_citysleep_hotelrechnung_gaestedaten.docx` | Hotelabrechnung mit Buchungsdaten, zweitem Gast und vom Kunden beglichenem Betrag |
+| `25_steuerberatung_unterlagenanforderung_q2_2026.docx` | Unterlagenanforderung der Steuerkanzlei mit konkreten Zahlungs- und Sachleistungsvorgängen |
+| `26_email_audiopeak_paid_media_freigabekette.eml` | Vollständige E-Mail-Kette zur Ausspielung des Reels als bezahlte Anzeige |
+| `27_glowgarden_rabattcode_bestellungen_roh.csv` | Einzelbestellungen mit Zeitstempeln, Retouren und Nutzungen nach dem geplanten Kampagnenende |
+| `28_messenger_export_aydin_freigabe.txt` | von Selin Aydin nachgereichter Chat-Export zur Aufnahme ihres Sohnes, ohne die Sprachnachricht vom Drehtag |
+| `29_telefonvermerk_medienanstalt_frist.docx` | Vermerk der Agentur über das Telefonat mit der Medienanstalt zu Teilfristen und zum Rabattcode-Hinweis |
 | `gesamt-pdf/influencer-recht-creator-sachleistungen-steuer-werbung_gesamt.pdf` | Gesamt-PDF der Akte |
 
 ## Sachstand
 
-- Eine Creatorin erhält Hotelaufenthalt, Kamera und Honorar für mehrere Storys und Reels.
-- Ein Rabattcode läuft weiter, obwohl der Vertrag beendet ist.
-- Die Steuerberatung fragt nach Bewertung der Sachleistungen und Umsatzsteuer.
-- Ein Reel nutzt populäre Musik aus der Plattformbibliothek zusätzlich als Werbeanzeige.
-- Ein Minderjähriger erscheint im Video; die Einwilligung ist nur per Messenger dokumentiert.
-- Die Medienanstalt fragt wegen unklarer Werbekennzeichnung nach.
+- Luna Weiß wird von der Studio Kanal & Maß Creator Management GmbH betreut; der Vertrag sieht zwanzig Prozent Provision und kampagnenbezogene Einzelaufträge vor.
+- Für GlowGarden erscheinen am 18. Mai 2026 ein Reel und drei Storys. Der Rabattcode LUNA20 bleibt nach der im Auftrag genannten Laufzeit technisch aktiv; die Rohdaten enthalten Verkäufe und Retouren bis Ende Juni.
+- AudioPeak stellt ein Vorserienmuster und eine Tondatei bereit. Der veröffentlichte Clip wird später über das Werbekonto des Kunden als Anzeige ausgespielt.
+- Während des GlowGarden-Drehs gerät der fünfzehnjährige Milan Aydin ungeplant ins Bild. Seine Mutter dokumentiert, was sie zuvor per Messenger freigegeben hatte.
+- Hotel, Bahn, Produkte, Auszahlungen und offene Rabattcodeerlöse tauchen in unterschiedlichen Abrechnungen auf. Die Steuerkanzlei fordert die zugehörigen Originalbelege an.
+- Die Medienanstalt Berlin-Brandenburg verlangt bis zum 23. Juli 2026 Auskunft zu Kennzeichnung, Gegenleistungen, Musikherkunft und bezahlter Ausspielung.

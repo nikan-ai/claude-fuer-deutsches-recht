@@ -1,24 +1,30 @@
 # Windpark-Drittanfechtung Bürgerinitiative Uckermark
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 864 KB) | PDF | [`gesamt-pdf/windpark-drittanfechtung-buergerinitiative-uckermark_gesamt.pdf`](gesamt-pdf/windpark-drittanfechtung-buergerinitiative-uckermark_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-windpark-drittanfechtung-buergerinitiative-uckermark.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-windpark-drittanfechtung-buergerinitiative-uckermark.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-windpark-drittanfechtung-buergerinitiative-uckermark-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-windpark-drittanfechtung-buergerinitiative-uckermark-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/windpark-drittanfechtung-buergerinitiative-uckermark_gesamt.pdf`](gesamt-pdf/windpark-drittanfechtung-buergerinitiative-uckermark_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-windpark-drittanfechtung-buergerinitiative-uckermark.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-windpark-drittanfechtung-buergerinitiative-uckermark.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-windpark-drittanfechtung-buergerinitiative-uckermark-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-windpark-drittanfechtung-buergerinitiative-uckermark-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 **Plugin:** `fachanwalt-verwaltungsrecht`
-**Erstellt für:** Plugin-Testbetrieb / Qualitätssicherung
-**Kanzlei (fiktiv):** Maaßmann Umwelt- und Energierecht, Stadtkanal 19, 14467 Potsdam
+**Kanzlei:** Maaßmann Umwelt- und Energierecht, Stadtkanal 19, 14467 Potsdam
 **Aktenzeichen:** 4 K 218/26 (VG Potsdam) | 4 L 89/26 (Eilantrag) | OVG 2 A 18.26 (Normenkontrolle)
 **Genehmigungszeichen LfU:** 40.2-LfU-7204-22/26
 **Stand:** 25.04.2026
@@ -102,6 +108,7 @@ Die Bürgerinitiative „Lebenswerte Uckermark e.V." (247 Mitglieder, Sitz Templ
 | `eml/02-maaßmann-mandatsbestaetigung.eml` | Mandatsbestätigung mit Kostenhinweis (18.03.2026) |
 | `eml/03-lfu-akteneinsicht-antwort.eml` | LfU gewährt Akteneinsicht (21.03.2026) |
 | `eml/04-nabu-kartierungsdaten-übermittlung.eml` | NABU sendet Rotmilan-Kartierungsdaten (29.03.2026) |
+| `eml/05-riedering-zwischenstand-schall.eml` | Zwischenstand des Schallgutachters: Datenblatt Rev. 4 liegt vor, Betriebsdaten der Altanlagen fehlen (18.04.2026) |
 
 ### Behördenunterlagen / Gutachten (PDF)
 
@@ -154,10 +161,10 @@ Die Bürgerinitiative „Lebenswerte Uckermark e.V." (247 Mitglieder, Sitz Templ
 | Markdown-Aktenstücke | 22 | `.md` |
 | Schriftsätze | 3 | `.docx` |
 | Tabellen | 2 | `.xlsx` |
-| E-Mails | 4 | `.eml` |
+| E-Mails | 5 | `.eml` |
 | Behördenunterlagen | 2 | `.pdf` |
 | Grafiken/Karten | 3 | `.jpg` |
-| **Gesamt** | **36** | |
+| **Gesamt** | **37** | |
 
 ### Testabdeckung der Skills
 

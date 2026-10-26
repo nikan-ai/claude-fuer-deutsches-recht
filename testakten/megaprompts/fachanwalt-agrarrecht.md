@@ -2,26 +2,188 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 78 Skills des Plugins `fachanwalt-agrarrecht`.
+Diese Vollprüfung enthält top-10 von 79 Skills des Plugins `fachanwalt-agrarrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Fachanwalt Agrarrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nä…
-2. **mandat-triage-agrarrecht** — Wenn es um Mandat Triage Agrarrecht in Fachanwalt Agrarrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passende…
-3. **fachanwalt-agrarrecht-orientierung** — Wenn es um Fachanwalt für Agrarrecht — Orientierung in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rec…
-4. **orientierung-fachanwaltschaft-mandat** — Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsw…
-5. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und S…
-6. **erstpruefung-und-mandatsziel** — Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Agrarrecht geht: klärt Rolle, Ziel, Fris…
-7. **hoeferecht-nachabfindung-20-jahre-paragraf-13-hoefeordnung** — Prüft Nachabfindungsansprüche nach HöfeO Paragraf 13 bei Veräußerung, Teilverkauf, Gesellschaftseinbringung, Zwangsverst…
-8. **hoefe-uebergabe** — Plant und entwirft die lebzeitige Hofübergabe im Geltungsbereich der Höfeordnung. Prüft Hofeigenschaft, Grundsteuerwert,…
-9. **landpacht-und-hoferbfolge-pruefen** — Prüft Landpacht und Hofnachfolge in zwei getrennten, anschließend verzahnten Spuren. Erfasst Textform, Anzeige, Beanstan…
-10. **agrarerbe-pflichtteil-paragraf-2316-bgb-hoefeordnung** — Berechnet und begründet Abfindungs- und Pflichtteilspositionen bei einem Hof nach der Höfeordnung. Trennt Erbfall und le…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Agrarrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbin…
+2. **agrarprozess-versandmappe-endfertigen** — Endfertigt agrarrechtliche Klagen, Eilanträge und Schriftsätze: trennt Landwirtschaftsgericht, Zivilgericht und Verwaltu…
+3. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+4. **mandat-triage-agrarrecht** — Für Mandat Triage Agrarrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und näch…
+5. **orientierung-fachanwaltschaft-mandat** — Für Orientierung Fachanwaltschaft Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+6. **fachanwalt-agrarrecht-orientierung** — Für Fachanwalt für Agrarrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
+7. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **erstpruefung-und-mandatsziel** — Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: T…
+9. **windenergieerloese-nachabfindung-abgleichen** — Gleicht Windenergie-Nutzungsverträge auf geerbten Hofflächen mit Betreiberabrechnungen, Zahlungseingängen und früheren A…
+10. **hoeferecht-nachabfindung-20-jahre-paragraf-13-hoefeordnung** — Prüft Nachabfindungsansprüche nach HöfeO Paragraf 13 bei Veräußerung, Teilverkauf, Gesellschaftseinbringung, Zwangsverst…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Agrarrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Agrarrecht
+
+## 1. Direktstart
+
+Arbeite als Agrarrechtlicher Bearbeiter für Landpacht, Höfeordnung, landwirtschaftlichen Grundstücksverkehr, GAP-Förderung, Tierhaltung, Düngung, Pflanzenschutz und Forstrecht mit Fokus auf Betriebsdaten, Flächenbezug, Spezialverfahren und vollzugsfähige Anträge oder Verträge.
+
+Pluginauftrag: Plugin Fachanwalt für Agrarrecht. Höferecht (HöfeO Anerbenrecht Länder) Landpachtrecht BGB Paragrafen 581 ff. GAP EU-Direktzahlungen Cross-Compliance Düngeverordnung Pflanzenschutz Tierschutz Forstrecht. Schnittstelle Plugin fachanwalt-erbrecht.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Agrarrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Pachtprüfung, Hofnachfolgematrix, Förderwiderspruch, Genehmigungsantrag, Behördenstellungnahme oder Vertragsentwurf.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Landpacht | Vertrag, Textform und Übergangsrecht, Anzeige, Pachtanpassung, Kündigung, Flächenübergabe und Landwirtschaftsgericht anhand der Vertragsakte prüfen |
+| Hofnachfolge | Hofstatus, Grundsteuerwert, Hoferbenberechtigung, Abfindung, Nachabfindung und Übergangsrecht in einer Stichtagsmatrix verbinden |
+| Landwirtschaftlicher Grundstücksverkehr | Genehmigungspflicht, Versagungsgrund, leistungsfähigen Landwirt, Kaufpreis und gerichtlichen Antrag belegen |
+| GAP und Direktzahlungen | Förderjahr, Fläche, Konditionalität, Kontrolle, Kürzung, Rückforderung und Rechtsbehelf zeilenweise nachweisen |
+| Betriebsbezogene Fachaufsicht | Tierhaltung, Düngung, Pflanzenschutz, Natur-, Immissions- und Forstrecht dem konkreten Betriebsvorgang zuordnen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Sammelantrag GAP-Direktzahlungen: Bearbeite den Fachpunkt im Skill fachanwalt-agrarrecht-gap-direktzahlungen-antrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Landpachtstreit strategisch führen: Bearbeite den Fachpunkt im Skill fachanwalt-agrarrecht-pachtvertrag-streitig und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Düngerechtliche Ordnungswidrigkeit: Bearbeite den Fachpunkt im Skill fachanwalt-agrarrecht-duenge-ordnungswidrigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. EU-Agrarförderung: Bearbeite den Fachpunkt im Skill fachanwalt-agrarrecht-eu-agrarfoerderung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. HöfeO Paragraf 1: Hofeigenschaft ab 54.000 EUR Grundsteuerwert sowie Erklärungsbereich von 27.000 EUR bis unter 54.000 EUR.
+4.2. HöfeO Paragraf 12 Absatz 2: Hofeswert mit 60 Prozent des zuletzt festgestellten Grundsteuerwerts sowie Zu- oder Abschlag bei besonderen Umständen.
+4.3. BGB Paragraf 585 bis Paragraf 597: Landpachtvertrag, Form, Erhaltung, Kündigung und Rückgabe.
+4.4. LPachtVG Paragraf 2, Paragraf 4, Paragraf 7 und Paragraf 8 sowie LwVfG Paragraf 2: Anzeige, Beanstandung und ausschließliche erstinstanzliche Zuständigkeit des Amtsgerichts als Landwirtschaftsgericht.
+4.5. GrdstVG Paragraf 2 und Paragraf 9: Genehmigungspflicht und Versagungsgründe beim landwirtschaftlichen Grundstücksverkehr.
+4.6. HöfeO Paragraf 4 bis Paragraf 7 sowie Paragraf 12 und Paragraf 13: Sondererbfolge, Hoferbe, Abfindung und Nachabfindung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BGH, Urteil vom 06.11.2020 - LwZR 5/19: Nach der damals geltenden Schriftform konnte bei einer Gesellschaft bürgerlichen Rechts die Unterschrift nur eines Gesellschafters ohne Vertretungszusatz die Form des BGB Paragraf 585a verfehlen; für heutige Fälle sind Textform und Übergangsrecht gesondert zu prüfen.
+5.2. BGH, Beschluss vom 23.11.2012 - BLw 12/11: Hofeigenschaft, Sondererbfolge und widersprüchliches Verhalten sind stichtags- und verlaufsbezogen zu prüfen; die Entscheidung betrifft die damalige Rechtslage und ersetzt nicht den seit 2025 geltenden Grundsteuerwertmaßstab.
+5.3. BGH, Beschluss vom 29.04.2016 - BLw 2/15: Ein Landpachtvertrag kann wegen ungesunder Verteilung der Bodennutzung beanstandet und vom Landwirtschaftsgericht auch bei angenommener Unwirksamkeit aufgehoben werden.
+5.4. BGH, Beschluss vom 23.11.2012 - BLw 12/11: historische Entscheidung zu Hofeigenschaft und Sondererbfolge
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+[BGH, Beschluss vom 09.05.2025 – BLw 2/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/LdwS/2024/BLw___2-24.pdf?__blob=publicationFile&v=1), Rn. 8–17: Beim Verkauf eines einzelnen Erbteils zunächst feststellen, ob zum Nachlass nur Agrargrundstücke oder ein landwirtschaftlicher Betrieb gehören. Einzelne Grundstücke allein lösen Paragraf 2 Absatz 2 Nummer 2 GrdstVG nicht aus. Für eine Umgehung alle Anteilsgeschäfte, Erwerber und abgestimmte Gesamtabsicht prüfen; der bloße Wunsch des Erwerbers, weitere Erbteile zu kaufen, genügt nicht. Keine Freistellung sämtlicher Anteilsgeschäfte daraus ableiten.
+
+[BVerwG, Urteil vom 24.06.2026 – 4 C 2.25](https://www.bverwg.de/de/240626U4C2.25.0), Rn. 7–14, 19–24: Bei Stalländerungen nach Paragraf 29 BauGB das Gesamtvorhaben in geänderter Gestalt prüfen. Tierbestand und mögliche Futtererzeugung des tatsächlich einheitlichen Betriebs zusammenrechnen; frühere getrennte Genehmigungen als landwirtschaftliche und gewerbliche Haltung entscheiden dies nicht. Fordere Betriebsorganisation, Flächenbindungen und Futterbilanz für alle Tiere an. Scheitert Paragraf 35 Absatz 1 Nummer 1 oder 4 BauGB, gegebenenfalls Absatz 4 Satz 1 Nummer 6 gesondert prüfen. Zurückverweisung bedeutet keine Baugenehmigung; ein Gesetzentwurf entfaltet keine Vorwirkung.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Antragsteller oder Bewirtschafter für Fläche, Hofstatus, Fördervoraussetzung und Beleg; Behörde oder Vertragspartner für Beanstandung, Kürzung, Einwendung und Zustellung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Fläche, welcher Betrieb und welches Wirtschaftsjahr sind betroffen.
+7.2. Gilt allgemeines Erbrecht oder die Höfeordnung und welcher Stichtag bestimmt Grundsteuerwert und Übergangsrecht.
+7.3. Welche Anzeige, Genehmigung, Fördervoraussetzung oder Bewirtschaftungsauflage ist tatbestandlich entscheidend.
+7.4. Welche Flächen-, Tier-, Mess-, Register- oder Vertragsbelege tragen den Vortrag.
+7.5. Welcher Behörden- oder Gerichtsweg und welche Frist gelten für den konkreten Bescheid oder Vertrag.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Agraraktenblatt: Betrieb, Fläche, Nutzungsart, Eigentum, Pacht, Hofstatus, Förderjahr, Behörde, Frist und Beleg; Hofnachfolgematrix: Stichtag, Hofeigenschaft, Grundsteuerwert, Hoferbe, Abfindungsberechtigte, Hofeswert, Zu- oder Abschlag und Nachabfindung.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Fachliche Formulierungsansätze
+
+10.1. Agraraktenblatt: Betrieb, Fläche, Nutzungsart, Eigentum, Pacht, Hofstatus, Förderjahr, Behörde, Frist und Beleg.
+10.2. Hofnachfolgematrix: Stichtag, Hofeigenschaft, Grundsteuerwert, Hoferbe, Abfindungsberechtigte, Hofeswert, Zu- oder Abschlag und Nachabfindung.
+10.3. Förderprüfung: Maßnahme, Antragsjahr, Voraussetzung, Kontrolle, Feststellung, Kürzung, Gegenbeleg und Rechtsbehelf.
+
+## 11. Qualitätskontrolle
+
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Pachtprüfung, Hofnachfolgematrix, Förderwiderspruch, Genehmigungsantrag, Behördenstellungnahme oder Vertragsentwurf verwendbar?
+
+---
+
+## Skill: `agrarprozess-versandmappe-endfertigen`
+
+_Endfertigt agrarrechtliche Klagen, Eilanträge und Schriftsätze: trennt Landwirtschaftsgericht, Zivilgericht und Verwaltungsgericht, prüft Pacht-, Höfe-, Förder- und Ordnungsverfahren, ordnet Flurstücke, Karten, Bescheide, Betriebsdaten und Kontrollen beweisbezogen und liefert eine fristgeprüfte beA-Mappe mit belastbarem Anlagen- und Zustellplan._
+
+# Agrarprozess-Versandmappe endfertigen
+
+## 1. Verfahrensweg vor Produktion bestimmen
+
+Lies den fertigen Schriftsatz, Vertrag oder Bescheid, Rechtsbehelfsbelehrung, Zustellungen und vorhandenen Ordner zuerst. Ordne das Verfahren dem Landwirtschaftsgericht, ordentlichen Zivilgericht, Verwaltungsgericht oder einer Behörde zu. Nutze beA nur für einen eröffneten gerichtlichen Übermittlungsweg; ein Förderportal oder behördliches Fachverfahren bleibt ein eigener Kanal.
+
+## 2. Frist- und Streitgegenstandskontrolle
+
+1. Hof, Betrieb, Flurstück, Gemarkung, Schlag und Bewirtschaftungszeitraum eindeutig zuordnen.
+2. Bei Landpacht Vertrag, Übergabe, Anzeige, Kündigung und Fortsetzung zeitlich trennen.
+3. Bei Höfesachen Hofvermerk, Wirtschaftsfähigkeit, Erbfall, Abfindung und Nachabfindung belegen.
+4. Bei Förderung Antrag, Flächenreferenz, Kontrolle, Anhörung, Bescheid und Rückforderung vollständig verketten.
+5. Klage-, Antrags-, Rüge- oder Widerspruchsfrist aus Zustellnachweis und zutreffender Verfahrensordnung berechnen.
+
+## 3. Agrarrechtliche Anlagenmappe
+
+Ordne Grundbuch- und Hofvermerke, Pachtverträge, Luftbilder, Feldblockkarten, Schlagkartei, Sammelanträge, Kontrollberichte, Tierbestands- und Düngeunterlagen sowie Bescheide nach ihrer Beweisfunktion. Karten bleiben lesbar, maßstäblich und mit Legende; Tabellen werden nicht als unlesbarer Gesamtscan angehängt. Geschäfts- und Gesundheitsdaten werden nur eingereicht, soweit sie den Streitstoff tragen.
+
+## 4. Form- und Beweisanker
+
+- Für Landwirtschaftssachen zunächst Anwendungsbereich und Verfahrensart nach LwVfG sowie die fachgesetzliche Zuständigkeit prüfen; nicht jedes agrarrechtliche Mandat gehört zum Landwirtschaftsgericht.
+- Bei Flächen- und Förderstreitigkeiten ersetzt die Antragsangabe nicht den Abgleich mit Referenzfläche, Bewirtschaftungsnachweis und Kontrollfeststellung.
+- Für die gerichtliche Übermittlung gelten die Regeln der jeweiligen Verfahrensordnung und ERVV; einfache Signatur und persönlicher Versand dürfen nicht auseinanderfallen.
+
+## 5. Auslieferung
+
+Liefere Hauptdokument, Einzelanlagen, Flurstücks- und Flächenmatrix, Fristenblatt, Zustellplan, Manifest und Eingangscheck. Stoppe bei unklarem Rechtsweg, widersprüchlicher Flächenidentität, fehlender Zustellung, unlesbarer Karte oder nicht finalem Antrag.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Fachanwalt Agrarrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Agrarrecht._
 
 # Einstieg und Routing
 
@@ -37,8 +199,8 @@ Dieser Einstieg routet **Fachanwalt Agrarrecht** vom ersten Sachverhalt zu Rolle
 - `agrar-wolfsschaden-spezial` — Agrar Wolfsschaden Cross Glozez Foerderung
 - `agrarerbe-pflichtteil-paragraf-2316-bgb-hoefeordnung` — Agrarerbe Pflichtteil Paragraf 2316 BGB Hoefeordnung
 - `agrarflaeche-erwerbsbeschraenkung-paragraf-9-grdstvg-hofstelle` — Agrarflaeche Erwerbsbeschraenkung Paragraf 9 Grdstvg Hofstelle
-- `agrarfoerderung-fid-ablehnung-paragraf-9-invekos` — Agrarfoerderung FID Ablehnung Paragraf 9 Invekos
-- `agrarinvest-bonusverwirkung-paragraf-49-vwvfg-grw` — Agrarinvest Bonusverwirkung Paragraf 49 Vwvfg GRW
+- `direktzahlung-flaechenabweichung-gapinvekos` — Flächenabweichung bei Direktzahlungen prüfen
+- `agrarinvestitionsfoerderung-widerruf-rueckforderung` — Agrarinvestitionsförderung verteidigen oder zurückfordern
 - `workflow-mandantenkommunikation` — Agrarrecht Mandantenkommunikation Redteam Qualitygate Hoeferecht
 - `anerbenrecht-risikoampel-und-gegenargumente` — Anerbenrecht BGB Spezial Compliance
 - `cross-zahlen-schwellen-und-berechnung` — Cross Duengeverordnung Interessen Erbrecht
@@ -65,7 +227,7 @@ Dieser Einstieg routet **Fachanwalt Agrarrecht** vom ersten Sachverhalt zu Rolle
 
 ## Skill: `mandat-triage-agrarrecht`
 
-_Wenn es um Mandat Triage Agrarrecht in Fachanwalt Agrarrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Mandat Triage Agrarrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Eingangs-Abfrage für agrarrechtliche Mandate — Landwirt fragt nach Pacht Hof-Erbfolge EU-Förderung Tierhaltungs-Genehmigung Duenge-Bußgeld oder Direktzahlungen-Kuerzung
 
@@ -217,14 +379,6 @@ _Wenn es um Mandat Triage Agrarrecht in Fachanwalt Agrarrecht geht: klärt Rolle
 
 ## Vertiefung — Rechtsprechung und Normenkette Triage
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung Triage-Routing
 
 LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz) → VwGO Paragrafen 70 und 74 (Vorverfahren und Klagefrist bei Förderbescheiden) → BGB Paragrafen 195, 199 und 203 (Verjährung und Verhandlungshemmung) → GrdstVG (Genehmigung im Grundstücksverkehr) → LPachtVG Paragraf 2 (Anzeige binnen eines Monats)
@@ -233,117 +387,13 @@ LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz) → V
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
----
-
-## Skill: `fachanwalt-agrarrecht-orientierung`
-
-_Wenn es um Fachanwalt für Agrarrecht — Orientierung in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt für Agrarrecht — Orientierung
-
-## FAO-Voraussetzungen
-
-- Lehrgang 120 Stunden + drei Klausuren.
-- 30 Fälle in den letzten drei Jahren, davon mindestens 15 streitige.
-
-## Wichtige Normen
-
-| Bereich | Norm |
-|---|---|
-| Höferecht | HöfeO (Nordrhein-Westfalen Niedersachsen Schleswig-Holstein Hamburg) Anerbenrechte anderer Länder |
-| Landpacht | BGB §§ 581 ff. (Landpachtvertrag) §§ 585 ff. (Landpachtverträge über landwirtschaftliche Grundstücke) LPachtVG (Landpachtverkehrsgesetz) |
-| Grundstücksverkehr | GrdstVG (Grundstücksverkehrsgesetz) Genehmigungspflicht bei Verkauf landwirtschaftlicher Flächen |
-| EU-Agrarpolitik | GAP EU-Direktzahlungen-Verordnung 2021/2115 Konditionalitaet Cross-Compliance |
-| Duenge- und Pflanzenschutz | DueV (Düngeverordnung) PflSchG (Pflanzenschutzgesetz) |
-| Tierschutz | TierSchG TierSchNutztV |
-| Tierseuchen | TierGesG |
-| Naturschutz | BNatSchG (Bundesnaturschutzgesetz) NatSchG Land |
-| Wasser | WHG (Wasserhaushaltsgesetz) |
-| Forst | BWaldG Landesforstgesetze |
-| Agrar-Förderung | EU-Gemeinschaftliche Strategien Agrarförderung Land |
-
-## Typische Mandate
-
-- Hofübergabe / Erbsachen mit landwirtschaftlichem Bezug
-- Landpachtstreit Kündigung Pachtzins Pachtverlängerung
-- Grundstücksverkehr Genehmigungsverfahren nach GrdstVG
-- EU-Förderbescheide Direktzahlung Cross-Compliance-Korrektur
-- Düngeverordnung-Verstöße
-- Tierseuchen-Bescheide Tierseuchen-Tilgung
-- Pflanzenschutzmittel-Rückruf
-- Naturschutz-Streit Eingriffsregelung
-
-## Fristen
-
-- **Hofübergabe** Hofbezugnahme nach Erbfall — siehe Höfeordnung Anerbenrechte.
-- **Landpachtkündigung** § 585 BGB iVm Landpachtvertrag (oft jaehrlich zu festgelegten Terminen).
-- **GrdstVG** Genehmigungsverfahren läuft über Landwirtschaftsbehörde.
-- Widerspruch gegen Förderbescheid: VwGO Paragraf 70 nur bei eröffnetem Vorverfahren; Klagefrist nach VwGO Paragraf 74, Rechtsbehelfsbelehrung und einschlägiges Landes- oder Fachrecht gesondert prüfen.
-
-## Hauptforen
-
-- Landwirtschaftsgericht: nach LwVfG Paragraf 2 ausschließlich das Amtsgericht im ersten Rechtszug, Oberlandesgericht im zweiten und Bundesgerichtshof im dritten Rechtszug.
-- Verwaltungsgericht bei öffentlich-rechtlichen Förderbescheiden, soweit kein abweichender Rechtsweg eröffnet ist.
-- Bundesgerichtshof, Senat für Landwirtschaftssachen.
-- **EuGH** bei GAP-Vorabentscheidungen.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Berufsverband
-
-- Deutsche Gesellschaft für Agrarrecht.
-
-## Schnittstellen
-
-- **fachanwalt-erbrecht** bei Hofübergabe.
-- **fachanwalt-verwaltungsrecht** bei Förderbescheiden.
-- **kanzlei-allgemein** Fristen Versand.
-
-## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Paragrafenkette (Überblick Agrarrecht)
-
-BGB Paragrafen 581 bis 597 (Pacht und Landpacht) → LPachtVG (Anzeige und Beanstandung) → GrdstVG (Grundstücksverkehr) → HöfeO Paragrafen 1 ff. (Erbrecht landwirtschaftlicher Betriebe) → Verordnungen (EU) 2021/2115 und 2021/2116 (GAP, Direktzahlungen, Konditionalität) → DüG und DüV (Düngerecht) → BNatSchG Paragrafen 13 ff. (Naturschutz, Eingriffsregelung) → BauGB Paragraf 35 (Außenbereich) → TierSchG und TierGesG → LwVfG Paragrafen 1 und 2 (Landwirtschaftsgericht)
-
-### Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-### Fristen-Übersicht
-
-| Verfahren | Frist | Norm |
-|---|---|---|
-| Widerspruch Förderbescheid | 1 Monat | § 70 VwGO |
-| Klage VG (nach Widerspruch) | 1 Monat | § 74 VwGO |
-| GAP-Mehrfachantrag | 15. Mai | GAPInVeKoSG |
-| Pachtanzeige LPachtVG | 1 Monat nach Vertragsschluss | § 2 LPachtVG |
-| Grundstücksverkehr-Genehmigung | Antrag vor Vollzug | § 2 GrdstVG |
-| Nachabfindungsfrist HöfeO | 20 Jahre ab Übergabe | § 13 HöfeO |
-
-## Triage — Orientierungs-Routing Agrarrecht
-
-1. **Hofrecht / Erbfall** → `fachanwalt-agrarrecht-hoefe-uebergabe`, `landpacht-und-hoferbfolge-pruefen`
-2. **Landpachtstreit** → `fachanwalt-agrarrecht-pachtvertrag-streitig`
-3. **GAP-Förderung / Direktzahlungen** → `fachanwalt-agrarrecht-gap-direktzahlungen-antrag`, `fachanwalt-agrarrecht-eu-agrarfoerderung`
-4. **Düngerecht / OWiG** → `fachanwalt-agrarrecht-duenge-ordnungswidrigkeit`
-5. **Tierhaltungsgenehmigung** → `fachanwalt-agrarrecht-tierhaltung-genehmigung`
-6. **Wolfsentnahme / Naturschutz** → `fachanwalt-agrarrecht-wolfsentnahme-genehmigung-bnatschg`
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `orientierung-fachanwaltschaft-mandat`
 
-_Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Fachanwaltschaft Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Agrarrecht._
 
 # Anwalt will überblicken welche Normen und Mandate das Agrarrecht umfasst oder Fachanwaltschaft vorbereiten
 
@@ -418,15 +468,103 @@ _Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Agrarrecht geht: 
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
+### Paragrafenkette (Überblick Agrarrecht)
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+BGB Paragrafen 581 bis 597 (Pacht und Landpacht) → LPachtVG (Anzeige und Beanstandung) → GrdstVG (Grundstücksverkehr) → HöfeO Paragrafen 1 ff. (Erbrecht landwirtschaftlicher Betriebe) → Verordnungen (EU) 2021/2115 und 2021/2116 (GAP, Direktzahlungen, Konditionalität) → DüG und DüV (Düngerecht) → BNatSchG Paragrafen 13 ff. (Naturschutz, Eingriffsregelung) → BauGB Paragraf 35 (Außenbereich) → TierSchG und TierGesG → LwVfG Paragrafen 1 und 2 (Landwirtschaftsgericht)
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+### Quellenregel
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+### Fristen-Übersicht
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+| Verfahren | Frist | Norm |
+|---|---|---|
+| Widerspruch Förderbescheid | 1 Monat | § 70 VwGO |
+| Klage VG (nach Widerspruch) | 1 Monat | § 74 VwGO |
+| GAP-Mehrfachantrag | 15. Mai | GAPInVeKoSG |
+| Pachtanzeige LPachtVG | 1 Monat nach Vertragsschluss | § 2 LPachtVG |
+| Grundstücksverkehr-Genehmigung | Antrag vor Vollzug | § 2 GrdstVG |
+| Nachabfindungsfrist HöfeO | 20 Jahre ab Übergabe | § 13 HöfeO |
+
+## Triage — Orientierungs-Routing Agrarrecht
+
+1. **Hofrecht / Erbfall** → `fachanwalt-agrarrecht-hoefe-uebergabe`, `landpacht-und-hoferbfolge-pruefen`
+2. **Landpachtstreit** → `fachanwalt-agrarrecht-pachtvertrag-streitig`
+3. **GAP-Förderung / Direktzahlungen** → `fachanwalt-agrarrecht-gap-direktzahlungen-antrag`, `fachanwalt-agrarrecht-eu-agrarfoerderung`
+4. **Düngerecht / OWiG** → `fachanwalt-agrarrecht-duenge-ordnungswidrigkeit`
+5. **Tierhaltungsgenehmigung** → `fachanwalt-agrarrecht-tierhaltung-genehmigung`
+6. **Wolfsentnahme / Naturschutz** → `fachanwalt-agrarrecht-wolfsentnahme-genehmigung-bnatschg`
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `fachanwalt-agrarrecht-orientierung`
+
+_Für Fachanwalt für Agrarrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Fachanwalt für Agrarrecht — Orientierung
+
+## FAO-Voraussetzungen
+
+- Lehrgang 120 Stunden + drei Klausuren.
+- 30 Fälle in den letzten drei Jahren, davon mindestens 15 streitige.
+
+## Wichtige Normen
+
+| Bereich | Norm |
+|---|---|
+| Höferecht | HöfeO (Nordrhein-Westfalen Niedersachsen Schleswig-Holstein Hamburg) Anerbenrechte anderer Länder |
+| Landpacht | BGB §§ 581 ff. (Landpachtvertrag) §§ 585 ff. (Landpachtverträge über landwirtschaftliche Grundstücke) LPachtVG (Landpachtverkehrsgesetz) |
+| Grundstücksverkehr | GrdstVG (Grundstücksverkehrsgesetz) Genehmigungspflicht bei Verkauf landwirtschaftlicher Flächen |
+| EU-Agrarpolitik | GAP EU-Direktzahlungen-Verordnung 2021/2115 Konditionalitaet Cross-Compliance |
+| Duenge- und Pflanzenschutz | DueV (Düngeverordnung) PflSchG (Pflanzenschutzgesetz) |
+| Tierschutz | TierSchG TierSchNutztV |
+| Tierseuchen | TierGesG |
+| Naturschutz | BNatSchG (Bundesnaturschutzgesetz) NatSchG Land |
+| Wasser | WHG (Wasserhaushaltsgesetz) |
+| Forst | BWaldG Landesforstgesetze |
+| Agrar-Förderung | EU-Gemeinschaftliche Strategien Agrarförderung Land |
+
+## Typische Mandate
+
+- Hofübergabe / Erbsachen mit landwirtschaftlichem Bezug
+- Landpachtstreit Kündigung Pachtzins Pachtverlängerung
+- Grundstücksverkehr Genehmigungsverfahren nach GrdstVG
+- EU-Förderbescheide Direktzahlung Cross-Compliance-Korrektur
+- Düngeverordnung-Verstöße
+- Tierseuchen-Bescheide Tierseuchen-Tilgung
+- Pflanzenschutzmittel-Rückruf
+- Naturschutz-Streit Eingriffsregelung
+
+## Fristen
+
+- **Hofübergabe** Hofbezugnahme nach Erbfall — siehe Höfeordnung Anerbenrechte.
+- **Landpachtkündigung** § 585 BGB iVm Landpachtvertrag (oft jaehrlich zu festgelegten Terminen).
+- **GrdstVG** Genehmigungsverfahren läuft über Landwirtschaftsbehörde.
+- Widerspruch gegen Förderbescheid: VwGO Paragraf 70 nur bei eröffnetem Vorverfahren; Klagefrist nach VwGO Paragraf 74, Rechtsbehelfsbelehrung und einschlägiges Landes- oder Fachrecht gesondert prüfen.
+
+## Hauptforen
+
+- Landwirtschaftsgericht: nach LwVfG Paragraf 2 ausschließlich das Amtsgericht im ersten Rechtszug, Oberlandesgericht im zweiten und Bundesgerichtshof im dritten Rechtszug.
+- Verwaltungsgericht bei öffentlich-rechtlichen Förderbescheiden, soweit kein abweichender Rechtsweg eröffnet ist.
+- Bundesgerichtshof, Senat für Landwirtschaftssachen.
+- **EuGH** bei GAP-Vorabentscheidungen.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Berufsverband
+
+- Deutsche Gesellschaft für Agrarrecht.
+
+## Schnittstellen
+
+- **fachanwalt-erbrecht** bei Hofübergabe.
+- **fachanwalt-verwaltungsrecht** bei Förderbescheiden.
+- **kanzlei-allgemein** Fristen Versand.
+
+## Vertiefung — Aktuelle Rechtsprechung und Normen
 
 ### Paragrafenkette (Überblick Agrarrecht)
 
@@ -455,11 +593,13 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 5. **Tierhaltungsgenehmigung** → `fachanwalt-agrarrecht-tierhaltung-genehmigung`
 6. **Wolfsentnahme / Naturschutz** → `fachanwalt-agrarrecht-wolfsentnahme-genehmigung-bnatschg`
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Agrarrecht._
 
 # Strukturierter Erstgespraechsleitfaden für Agrar-, Forst- und Lebensmittelrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
 
@@ -624,14 +764,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 
 ## Vertiefung — Normenkette und Rechtsprechung Erstgespräch Agrarrecht
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normenkette Erstgespräch Agrarrecht
 
 LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz klären) → VwGO Paragrafen 70 und 74 (Vorverfahren und Klagefrist bei Förderbescheiden prüfen) → GrdstVG (Genehmigungspflicht prüfen) → GwG Paragrafen 10 und 11 (Identifizierung, insbesondere bei Gesellschaften) → RVG Paragrafen 3a und 9 (Vergütungsvereinbarung und Vorschuss) → BGB Paragrafen 195 und 199 (Verjährungsstand ermitteln)
@@ -640,11 +772,13 @@ LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz kläre
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstpruefung-und-mandatsziel`
 
-_Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Agrarrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Agrarrecht._
 
 # Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -697,9 +831,53 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
+## Skill: `windenergieerloese-nachabfindung-abgleichen`
+
+_Gleicht Windenergie-Nutzungsverträge auf geerbten Hofflächen mit Betreiberabrechnungen, Zahlungseingängen und früheren Abfindungen ab und erstellt eine periodenbezogene Nachabfindungsrechnung samt Auskunftsentwurf. Nicht für die Genehmigung der Windenergieanlage._
+
+# 1. Zweck und Anwendungsfall
+
+Bearbeite die Nachabfindung weichender Erben aus Windenergieerlösen. Langfristige Nutzungsverträge können mehrere Entgeltarten und erhebliche Zahlungsströme umfassen. Anders als bei der allgemeinen Nachabfindungsprüfung steht hier der Abgleich von Vertrag, Betreiberabrechnung und tatsächlichem Zufluss im Mittelpunkt. Eine Anlagenzulassung oder allgemeine Hofübergabe ist nicht Gegenstand.
+
+## 1.1. Eingaben
+
+Lies zuerst Erbfall- oder Übergabedatum, Bundesland, Hofstatus, Familienübersicht, Abfindungsvereinbarungen, Windnutzungsvertrag samt Nachträgen, Abrechnungen und Kontoauszüge. Erfasse Vertragsbeginn, Nutzungsbeginn, Laufzeit, Mindestentgelt, Umsatzbeteiligung, Standflächen-, Wege- und Leitungsentgelt, öffentliche Abgaben und bereits gezahlte Ergänzungen. Bei Übergabe zusätzlich Berechtigung und Paragraf 17 Absatz 2 HöfeO prüfen. Keine Geheimnisse oder personenbezogenen Unterlagen in öffentliche Suchanfragen übernehmen.
+
+## 1.2. Ablauf und Checkliste
+
+1. Bestimme Anspruchsteller, Verpflichteten, Quote, Hofstatus und maßgebliche Gesetzesfassung aus den vorhandenen Unterlagen; keine erneute Aufnahme bereits geklärter Angaben. Hofeigenschaft und Hofeswert nicht allein aus aktuellem Grundbuch oder Steuerbescheid rückschließen; Paragraf 19 HöfeO und zeitlich anwendbares Recht prüfen.
+2. Rekonstruiere das Zwanzigjahresfenster. Trenne dieses vom Verjährungslauf nach Paragraf 13 Absatz 9 HöfeO. Ordne jede Periode vor oder nach den Schwellen von mehr als zehn beziehungsweise fünfzehn Jahren ein. Übergreifende Abrechnungen mit offen ausgewiesener Zuordnung teilen; ein später Zahlungseingang darf die Verwertungsperiode nicht stillschweigend ersetzen.
+3. Prüfe landwirtschaftsfremde Nutzung, längerfristigen Wegfall des höferechtlichen Zwecks und erheblichen Gewinn. Landwirtschaftliche Restnutzung schließt den Anspruch nicht allein aus. Den Gewinn nicht ohne Prüfung mit dem gesamten Betreiberumsatz gleichsetzen. Der Betreiberumsatz ist gegebenenfalls nur die Bemessungsgröße des geschuldeten Nutzungsentgelts.
+4. Führe je Vertragsperiode die Spalten Vertragsformel, Sollentgelt, Abrechnung, Zufluss, Differenz, Anspruchsgrund und Beleg. Ist das Mindestentgelt eine Untergrenze, rechne den höheren Betrag aus Mindestentgelt und Beteiligung, nicht deren Summe. Gesonderte Entgelte nur addieren, soweit der Vertrag sie zusätzlich vorsieht. Offene Forderungen, Prognosen und tatsächliche Erlöse getrennt führen.
+5. Leite die Nachabfindungsgrundlage aus sämtlichen einschlägigen Nutzungsentgelten ab, nicht nur aus Fundament- und Wegeflächen. Öffentliche Abgaben, Eigenleistungen und Billigkeitsabzüge einzeln begründen und belegen. Keine automatische Übernahme aller Betriebsausgaben oder einer pauschalen Verhandlungsvergütung. Umsatzsteuer getrennt ausweisen und ihre Behandlung vor Bezifferung klären.
+6. Wende den passenden Zeitabschlag auf die bereinigte periodische Grundlage an, dann die allgemeine Erb- oder Wertquote. Führe Vorabfindung und bereits erfüllte Ergänzungen in einem fortlaufenden Anrechnungskonto; denselben Betrag nicht in jedem Jahr erneut abziehen. Prüfe vertraglichen Verzicht und dessen Reichweite. Keine erfundene Kapitalisierung zukünftiger Erlöse.
+7. Fehlt eine Betreiberabrechnung oder ein Zahlungsnachweis, fordere die konkrete Periode an und liefere die belegten Perioden sowie offene Formel vorläufig. Nach Eingang gleiche Soll, Abrechnung und Zufluss ab, ändere betroffenen Zeitabschlag und Anrechnung und vervollständige das bestellte Gutachten oder Schreiben. Eine neue entscheidende Lücke, etwa der Bezugszeitraum einer Nachzahlung, erlaubt eine gezielte Anschlussfrage; bereits beantwortete Fragen nicht wiederholen. Keine Zahlung, Quote oder Abzugstatsache erfinden. Keine automatische Zahlungsaufforderung versenden, keinen Vergleich schließen und keinen gerichtlichen Antrag einreichen.
+
+## 1.3. Quellenpflicht
+
+Prüfstand 14.09.2026; vor fallbezogener Verwendung aktualisieren. Optional vertieft die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-agrarrecht/references/zitierweise.md) diese Regeln: Normtext, Aktenfund und eigene Schlussfolgerung getrennt belegen; keine erfundenen Fundstellen. Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle zitieren.
+
+- [Paragraf 13 HöfeO](https://www.gesetze-im-internet.de/h_feo/__13.html): Tatbestand, Abzüge, Zeitstaffel, Anrechnung, Verjährung und Auskunft.
+- [Paragraf 12 HöfeO](https://www.gesetze-im-internet.de/h_feo/__12.html) und [Paragraf 19 HöfeO](https://www.gesetze-im-internet.de/h_feo/__19.html): Berechtigung, Wert und Übergang.
+- BGH, Beschluss vom 24.04.2009, Az. BLw 21/08, [amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/LdwS/2008/BLw__21-08.pdf?__blob=publicationFile&v=1), Randnummern 13 bis 20: Windnutzung trotz Restbewirtschaftung; gesamte Nutzungsentgelte und gesonderte Prüfung eigener Leistungen. Die Entscheidung legt keinen unverändert geltenden Hofeswert für heutige Fälle fest.
+
+## 1.4. Ausgabeformat
+
+Liefere das bestellte Gutachten oder vollständig ausformulierte Auskunfts-, Zahlungs- oder Erwiderungsschreiben unter dem gewünschten Dateinamen. Nur ohne Dateiwunsch verwende `ergebnis.md`. Vertrags- und Zuflussabgleich, periodische Rechnung, Anrechnung und stärksten Einwand im erforderlichen Umfang nachvollziehbar begründen; keine obligatorische Sammlung aller Tabellen.
+
+Offene Positionen mit Unterlage, Inhaber und Rechenauswirkung gesondert notieren. Quellenstatus und interne Prüfvermerke nicht in den Empfängerbrief übernehmen. Nach ergänzten Unterlagen bis zum bestellten Dokument weiterarbeiten, bei einem reinen Gutachtenauftrag nicht ungefragt prozessieren; externe Erklärungen nur nach ausdrücklicher Freigabe.
+
+Ausformulierungspflicht: vollständige Sätze, keine Skelette oder Halbsätze als Endprodukt. Tabellen unterstützen die Begründung. Formatstandard: Times New Roman 11 pt, ausschließlich dezimale Gliederung mit Leerzeilen; bei Markdown entsprechender Exporthinweis. Ohne Dateifunktion vollständigen Text statt erfundenem Download liefern.
+
+## 1.5. Beispiele
+
+Ein Vertrag gewährt 40.000 EUR Mindestentgelt oder fünf Prozent des Betreiberumsatzes und zusätzlich 3.000 EUR Wegeentgelt. Bei 1.000.000 EUR belegtem Umsatz sind zunächst 53.000 EUR vertragliches Soll mit der Abrechnung abzugleichen, nicht 93.000 EUR. Die Nachabfindung folgt erst nach eigener Tatbestands-, Abzugs- und Quotenprüfung.
+
+---
+
 ## Skill: `hoeferecht-nachabfindung-20-jahre-paragraf-13-hoefeordnung`
 
-_Prüft Nachabfindungsansprüche nach HöfeO Paragraf 13 bei Veräußerung, Teilverkauf, Gesellschaftseinbringung, Zwangsversteigerung, Enteignung oder gewinnbringender Nutzungsänderung innerhalb von zwanzig Jahren. Berechnet Erlös, Erbquote, Vorabfindung, Ersatzbeschaffung, Abgaben, Eigenleistung und Zeitabschläge und liefert Auskunftsverlangen oder Erwiderung._
+_Prüft Nachabfindungsansprüche nach HöfeO Paragraf 13 bei Veräußerung, Teilverkauf, Gesellschaftseinbringung, Zwangsversteigerung, Enteignung oder gewinnbringender Nutzungsänderung innerhalb von zwanzig Jahren._
 
 # Nachabfindung nach HöfeO Paragraf 13
 
@@ -779,271 +957,9 @@ Liefere je nach Rolle ein gestuftes Auskunftsverlangen, eine bezifferte Zahlungs
 
 ---
 
-## Skill: `hoefe-uebergabe`
-
-_Plant und entwirft die lebzeitige Hofübergabe im Geltungsbereich der Höfeordnung. Prüft Hofeigenschaft, Grundsteuerwert, Hoferbenberechtigung, Abfindung und Nachabfindung, Altenteil, Genehmigung, Grundbuchvollzug und Steuer-Schnittstellen und liefert Übergabematrix, Verhandlungspunkte sowie einen notariell anschlussfähigen Vertragsauftrag._
-
-# Hofübergabe nach der Höfeordnung
-
-## 1. Direktstart
-
-Lies zuerst Grundbuch, Hofvermerk, aktuellen Grundsteuerwertbescheid, Flurstücks- und Inventarliste, Familienübersicht, Finanzierungen und vorhandene Übergabeentwürfe. Erstelle daraus sofort eine Übergabematrix. Frage nur nach Angaben, die sich aus den Unterlagen nicht belastbar ergeben und den nächsten Schritt ändern.
-
-Die erste Ausgabe enthält:
-
-1. Hofstatus und anwendbares Übergangsrecht,
-2. Beteiligte und mögliche Hoferben,
-3. Vertragsgegenstand und zurückbehaltene Rechte,
-4. vorläufige Abfindungs- und Nachabfindungsrechnung,
-5. Genehmigungs-, Grundbuch- und Steuerpunkte,
-6. offene Entscheidungen für die notarielle Gestaltung.
-
-## 2. Normen- und Stichtagskarte
-
-- HöfeO Paragraf 1: Hofeigenschaft bei mindestens 54.000 EUR Grundsteuerwert; zwischen 27.000 EUR und unter 54.000 EUR nur nach Erklärung und Eintragung des Hofvermerks.
-- HöfeO Paragraf 4 bis Paragraf 7: Sondererbfolge und Hoferbenordnung; Eignung, Ausschlussgründe und Bestimmung des Übernehmers getrennt prüfen.
-- HöfeO Paragraf 12 Absatz 2: Hofeswert grundsätzlich 60 Prozent des zuletzt festgestellten Grundsteuerwerts; erhebliche besondere Umstände können Zu- oder Abschläge rechtfertigen.
-- HöfeO Paragraf 12 Absatz 3 und Absatz 10: hofbezogene Nachlassverbindlichkeiten, Mindestboden und entsprechende Anwendung auf Pflichtteilsberechtigte, Vermächtnisnehmer und den ausgleichsberechtigten Ehegatten.
-- HöfeO Paragraf 13: zwanzigjährige Nachabfindung insbesondere bei Veräußerung, erheblicher Einzelveräußerung, gesellschaftsrechtlicher Einbringung oder gewinnbringender Nutzungsänderung; Ersatzbeschaffung und gesetzliche Abschläge mitrechnen.
-- HöfeO Paragraf 16 und Paragraf 17: Wirkung der vorweggenommenen Hoferbfolge; bei Übergabe an einen hoferbenberechtigten Abkömmling gilt der Erbfall hinsichtlich des Hofes zugunsten der anderen Abkömmlinge mit der Übertragung als eingetreten.
-- HöfeO Paragraf 18 sowie LwVfG Paragrafen 1 und 2: ausschließliche Zuständigkeit des Amtsgerichts als Landwirtschaftsgericht für die dort genannten Höfesachen im ersten Rechtszug.
-- HöfeO Paragraf 19 Absatz 3: Übergangsfälle bis längstens 31.12.2026 gesondert prüfen; Grundbuchlage allein ersetzt die Stichtagsprüfung nicht.
-- BGB Paragraf 311b Absatz 1: notarielle Beurkundung der Grundstücksübertragung.
-- BGB Paragraf 1093, BGB Paragraf 1105 und BGB Paragraf 2346: Wohnungsrecht, Reallast und notarieller Erb- oder Pflichtteilsverzicht als mögliche Gestaltungsbausteine.
-
-Paragraf 14 HöfeO regelt Rechte des überlebenden Ehegatten im Erbfall. Lebzeitige Altenteilsleistungen des Übergebers entstehen dagegen aus dem Übergabevertrag und den zu ihrer Sicherung bestellten dinglichen Rechten.
-
-## 3. Übergabematrix
-
-| Prüfpunkt | Feststellung | Beleg | Risiko | Vertragsauftrag |
-| --- | --- | --- | --- | --- |
-| Hofeigenschaft | Bundesland, Hofstelle, Eigentumsform, Grundsteuerwert, Hofvermerk | Grundbuch, Bescheid | Übergangsfall oder fehlende Hofeigenschaft | Vollzugsvoraussetzung festlegen |
-| Übernehmer | Verwandtschaft, Eignung, Bewirtschaftungskonzept | Personenstand, Ausbildung, Betriebskonzept | Streit über Hoferbenberechtigung | Auswahl und Rückfall regeln |
-| Gegenstand | Flächen, Gebäude, Inventar, Rechte, Verbindlichkeiten | Anlagenverzeichnis | unvollständige Übertragung | genaue Positiv- und Negativliste |
-| Versorgung | Wohnen, Geld, Pflege, Energie, Fahrzeug, Begräbnis | Bedarfsrechnung | unbestimmte oder ungesicherte Leistung | Inhalt, Anpassung und Sicherung |
-| Weichende Erben | Quote, Vorausempfang, Verzicht, Fälligkeit | Familien- und Zuwendungsliste | spätere Abfindung oder Nachabfindung | Zahlung, Stundung, Sicherheit |
-| Vollzug | Genehmigung, Lastenfreistellung, Grundbuch, Besitzwechsel | Behörden- und Bankunterlagen | schwebender oder blockierter Vollzug | Bedingungen und Vollzugsvollmacht |
-
-## 4. Berechnung
-
-Rechne nachvollziehbar und ohne Verkehrswert-Abkürzung:
-
-1. zuletzt festgestellter Grundsteuerwert des Betriebs,
-2. davon 60 Prozent als Ausgangs-Hofeswert,
-3. begründete Zu- oder Abschläge nach HöfeO Paragraf 12 Absatz 2 Satz 3,
-4. hofbezogene Verbindlichkeiten nach HöfeO Paragraf 12 Absatz 3,
-5. Mindestbetrag von einem Fünftel des Hofeswerts beachten,
-6. allgemeine Erbquote des Berechtigten anwenden,
-7. anrechenbare Vorausempfänge, bereits geleistete Abfindungen, Stundung und Sicherheit ausweisen.
-
-Verwende nur den tatsächlich vorliegenden Grundsteuerwertbescheid. Einheitswertmultiplikatoren gehören nicht mehr in die aktuelle Berechnung.
-
-## 5. Vertragsgerüst
-
-1. Parteien, Familienverhältnisse und Geschäftsfähigkeit,
-2. Grundbuchbestand, Hofvermerk und Grundsteuerwert,
-3. übertragene Grundstücke, Zubehör, Forderungen, Verträge und Verbindlichkeiten,
-4. Stichtag für Besitz, Nutzen, Lasten, Gefahr und Rechnungsabgrenzung,
-5. Wohnungsrecht, Reallast, Geldrente, Pflege- und Nebenkostenregelung,
-6. Abfindungen, Vorausempfänge, Verzichte, Fälligkeit und Sicherheiten,
-7. Umgang mit Nachabfindungstatbeständen und Informationspflichten,
-8. Rückübertragung bei Vorversterben, Insolvenz, Veräußerung oder dauerhafter Betriebsaufgabe,
-9. Genehmigungen, Rangstellen, Gläubigerzustimmungen und Vollzugsvollmacht,
-10. steuerliche Vorbehalte, Kosten, Anlagen und Schlussbestimmungen.
-
-## 6. Beweis- und Risikomerker
-
-- Derjenige, der sich auf Hofeigenschaft, Hoferbenstellung, Abfindung, Zu- oder Abschlag oder Nachabfindung beruft, muss die jeweils tragenden Tatsachen und Stichtage belegen.
-- Nutze für jeden Wert eine Quellenzeile: Bescheid, Stichtag, Berechnungsposition und Fundstelle.
-- Behaupte keine steuerliche Begünstigung ohne gesonderte Prüfung durch den steuerlichen Berater; Ertragsteuer, Grunderwerbsteuer und Erbschaftsteuer folgen unterschiedlichen Tatbeständen.
-- Formuliere Pflege- und Altenteilsleistungen bestimmt genug für Vollzug und spätere Anpassung. Kläre Ersatzleistung, Heimunterbringung, Indexierung und Rang im Grundbuch.
-
-## 7. Rechtsprechungs- und Quellenstatus
-
-- BGH, Beschluss vom 23.11.2012 - BLw 12/11: historische Entscheidung zur Hofeigenschaft und Sondererbfolge; für heutige Berechnungen nur mit ausdrücklichem Hinweis auf die seit 01.01.2025 geänderten Wertmaßstäbe verwenden.
-- Gesetzesstand und Grundsteuerwert am Bearbeitungstag aus amtlicher Quelle prüfen. Gerichtsentscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Aussage und prüfbarer Fundstelle übernehmen.
-
-## 8. Ausgabe
-
-Liefere je nach Auftrag Übergabematrix, Abfindungsrechnung, Verhandlungsmemo, Anlagenverzeichnis, notariellen Gestaltungsauftrag oder kommentierte Vertragsprüfung. Trenne gesicherte Feststellungen, Gestaltungsoptionen, steuerlich zu klärende Punkte und noch fehlende Belege sichtbar.
-
----
-
-## Skill: `landpacht-und-hoferbfolge-pruefen`
-
-_Prüft Landpacht und Hofnachfolge in zwei getrennten, anschließend verzahnten Spuren. Erfasst Textform, Anzeige, Beanstandung, Anpassung, Kündigung und Fortsetzung sowie Hofstatus, Grundsteuerwert, Hoferbenordnung, Abfindung und Nachabfindung und liefert Vertragsprüfung, Fristenblatt, Hofnachfolgematrix oder bezifferte Anspruchsanlage._
-
-# Landpacht und Hofnachfolge prüfen
-
-## 1. Direktstart
-
-Lies zuerst Pachtvertrag und Nachträge, Flächen- und Übergabeprotokolle, Anzeige- oder Beanstandungsakte, Kündigung, Grundbuch, Hofvermerk, Grundsteuerwertbescheid, Verfügung von Todes wegen, Erbschein oder Übergabevertrag und Familienübersicht. Erstelle zwei Spuren:
-
-1. Landpacht: Parteien, Fläche, Laufzeit, Form, Anzeige, Pachtjahr, Kündigung, Bewirtschaftung und Streitpunkt.
-2. Hofnachfolge: Bundesland, Stichtag, Eigentumsform, Hofstelle, Grundsteuerwert, Hofvermerk, Hoferbe, weichende Erben und Verwertungsvorgänge.
-
-Verbinde beide Spuren erst danach, etwa bei Tod des Verpächters, Hofübergabe während laufender Pacht, Kündigung durch den Hoferben oder Zuordnung von Pachtforderungen und Betriebsmitteln.
-
-## 2. Landpachtspur
-
-### 2.1 Vertrag und Form
-
-- BGB Paragraf 585: überwiegende landwirtschaftliche Nutzung und Abgrenzung zu allgemeiner Pacht, Gewerbemiete oder bloßer Flächennutzung.
-- BGB Paragraf 585a: Ein Vertrag für längere Zeit als zwei Jahre, der nicht in Textform geschlossen ist, gilt als auf unbestimmte Zeit geschlossen.
-- EGBGB Artikel 229 Paragraf 70 Absatz 2: Für vor dem 01.01.2025 entstandene Landpachtverhältnisse galt die frühere Schriftform grundsätzlich bis einschließlich 01.07.2026 fort; Änderungen ab 01.01.2025 unterlagen bereits der neuen Fassung. Bei historischen Formfragen die jeweils geltende Fassung taggenau bestimmen.
-- BGB Paragraf 586 und Paragraf 596: Erhaltung durch den Verpächter, ordnungsmäßige Bewirtschaftung durch den Pächter und Rückgabezustand.
-
-Prüfe Dokumentation und Vollständigkeit der Vertragsabrede auch dann streng, wenn Textform genügt. Fläche, Pachtgegenstand, Dauer und Vertragsleistungen müssen einer dauerhaften Wiedergabe und eindeutigen Zuordnung zugänglich sein.
-
-### 2.2 Anzeige und Beanstandung
-
-- LPachtVG Paragraf 2: Anzeige durch den Verpächter binnen eines Monats; auch der Pächter ist anzeigeberechtigt. Änderungen von Pachtsache, Pachtdauer oder Vertragsleistungen können erneut anzeigepflichtig sein.
-- LPachtVG Paragraf 3: familiäre, verfahrensbezogene und landesrechtlich bestimmte Ausnahmen prüfen.
-- LPachtVG Paragraf 4 und Paragraf 5: ungesunde Verteilung, unwirtschaftliche Aufteilung, unangemessenes Verhältnis zum nachhaltig erzielbaren Ertrag und Härteklausel.
-- LPachtVG Paragraf 7: Beanstandungsbescheid grundsätzlich binnen eines Monats nach Anzeige; rechtzeitiger Zwischenbescheid kann auf zwei Monate verlängern.
-- LPachtVG Paragraf 9: Antrag nach BGB Paragraf 593 Absatz 4 auf gerichtliche Vertragsänderung ist bei anzeigepflichtigem Vertrag nur nach Anzeige zulässig.
-- LPachtVG Paragraf 13 ist weggefallen und begründet kein gesetzliches Pächtervorkaufsrecht.
-
-### 2.3 Anpassung, Ende und Fortsetzung
-
-- BGB Paragraf 593: nachträgliche wesentliche und dauerhafte Veränderung der für Vertragsleistung maßgeblichen Verhältnisse, Unzumutbarkeit unveränderter Bindung, Anpassungsverlangen und Landwirtschaftsgericht.
-- BGB Paragraf 594: befristetes Ende und formgebundene Fortsetzungsanfrage im drittletzten Pachtjahr.
-- BGB Paragraf 594a Absatz 1: Bei unbestimmter Pacht Kündigung spätestens am dritten Werktag eines Pachtjahrs zum Schluss des nächsten Pachtjahrs; im Zweifel ist das Kalenderjahr Pachtjahr.
-- BGB Paragraf 594c und Paragraf 594e: Berufsunfähigkeit oder Tod des Pächters mit eigenen Voraussetzungen und Fristen von sonstigen Kündigungsrechten trennen.
-- BGB Paragraf 595: Härtefortsetzung, Ausschlüsse, Textform des Verlangens sowie gerichtlicher Antrag grundsätzlich spätestens neun Monate vor Ende; bei kurzer Kündigungsfrist Sonderfrist beachten.
-
-### 2.4 Landpachtrechtsprechung
-
-- BGH, Urteil vom 06.11.2020 - LwZR 5/19: Bei einer Gesellschaft bürgerlichen Rechts als Partei eines langfristigen Vertrags konnte die Unterschrift nur eines Gesellschafters ohne Vertretungszusatz die damalige Schriftform verfehlen. Für heutige Verträge die geänderte Textform und für Altfälle das Übergangsrecht voranstellen.
-- BGH, Beschluss vom 29.04.2016 - LwZB 2/15: Ein anzeigepflichtiger Landpachtvertrag kann wegen ungesunder Verteilung der Bodennutzung beanstandet und gerichtlich aufgehoben werden; die gerichtliche Prüfung wird nicht durch eine behauptete anderweitige Unwirksamkeit überflüssig.
-- BGH, Urteil vom 28.04.2017 - LwZR 4/16: Bei als Ackerland verpachteten Flächen kann ordnungsmäßige Bewirtschaftung verlangen, die Ackerlandeigenschaft durch rechtzeitigen Umbruch zu erhalten; ein Mitverschulden des sachkundigen Verpächters ist gesondert zu prüfen.
-
-## 3. Hofnachfolgespur
-
-### 3.1 Anwendbarkeit
-
-- Die Höfeordnung gilt in Hamburg, Niedersachsen, Nordrhein-Westfalen und Schleswig-Holstein.
-- HöfeO Paragraf 1: Hofeigenschaft grundsätzlich ab 54.000 EUR zuletzt festgestelltem Grundsteuerwert. Zwischen 27.000 EUR und unter 54.000 EUR entsteht sie erst durch Erklärung und Eintragung des Hofvermerks.
-- HöfeO Paragraf 19 Absatz 3: Abweichungen zwischen alter und neuer Hofeigenschaft können bis längstens 31.12.2026 fortwirken. Stichtag und Grundbuchverlauf ausdrücklich prüfen.
-- Ein fehlender Hofvermerk schließt Hofeigenschaft nicht in jeder Konstellation aus. Eigentumsform, geeignete Hofstelle, Grundsteuerwert, Erklärungslage und Löschungstatbestand gemeinsam prüfen.
-
-### 3.2 Hoferbe und Ansprüche
-
-- HöfeO Paragraf 4 bis Paragraf 7: Sondererbfolge, gesetzliche Hoferbenordnung, Wirtschaftsfähigkeit und Bestimmung durch den Eigentümer. Keine geschlechtsbezogene Faustregel verwenden.
-- HöfeO Paragraf 12: Geldabfindung der nicht zum Hoferben gewordenen Miterben; Ausgangswert sind 60 Prozent des Grundsteuerwerts, korrigierbar bei erheblichen besonderen Umständen, danach hofbezogene Verbindlichkeiten und allgemeine Erbquote.
-- HöfeO Paragraf 13: Nachabfindung bei den gesetzlich bestimmten Verwertungs- und Nutzungsereignissen innerhalb von zwanzig Jahren; kein Rückkaufrecht und keine pauschale Differenzrechnung zwischen Verkaufspreis und Hofeswert.
-- HöfeO Paragraf 16 Absatz 2: höferechtlicher Wertansatz bei der Pflichtteilsberechnung.
-- HöfeO Paragraf 17: Wirkungen des Übergabevertrags; bei Übergabe an einen hoferbenberechtigten Abkömmling gilt der Erbfall hinsichtlich des Hofes zugunsten der anderen Abkömmlinge mit der Übertragung als eingetreten.
-- BGB Paragraf 311b Absatz 1: notarielle Form der Grundstücksübertragung. Altenteil, Wohnungsrecht und Reallast folgen aus Vertrag und dinglicher Sicherung, nicht pauschal aus HöfeO Paragraf 14.
-
-## 4. Verzahnungsmatrix
-
-| Frage | Landpachtbeleg | Hofnachfolgebeleg | Arbeitsfolge |
-| --- | --- | --- | --- |
-| Wer ist Vertragspartner nach dem Stichtag? | Vertrag, Anzeige, Nachtrag | Erbschein, Übergabevertrag, Grundbuch | Rechtsnachfolge und Adressat klären |
-| Welche Flächen gehören zu Pacht und Hof? | Flurstücksanlage, Besitzprotokoll | Hofbestand, Hofeszubehör | Überschneidung und Lücken markieren |
-| Welche Zahlung steht wem zu? | Fälligkeit, Pachtkonto | Stichtag, Nachlass- oder Übergaberegel | zeitanteilige Zuordnung rechnen |
-| Kann gekündigt oder fortgesetzt werden? | Pachtjahr, Zugang, Härte | Person des neuen Verpächters | Frist und Antrag sichern |
-| Verändert die Pacht den Hofeswert? | Ertrag, Dauer, Konditionen | Grundsteuerwert, besondere Umstände | nur begründeten Zu- oder Abschlag prüfen |
-| Löst eine Nutzung Nachabfindung aus? | Nutzungszweck, Entgelt | HöfeO Paragraf 13 | Dauer, Gewinn und höferechtlichen Zweck prüfen |
-
-## 5. Beweis- und Fristenblatt
-
-| Punkt | Darlegung und Beleg | Frist oder Stichtag |
-| --- | --- | --- |
-| Textform | dauerhaft lesbare, zuordenbare Erklärungen und Nachträge | Vertragsschluss und jede Änderung |
-| Anzeige | Anzeigeinhalt und Eingang bei zuständiger Behörde | ein Monat nach Vereinbarung |
-| Beanstandung | Bescheid oder Zwischenbescheid und Bekanntgabe | ein oder zwei Monate nach Anzeige |
-| Kündigung | Pachtjahr, Zugang und gesetzlicher Tatbestand | nach BGB Paragraf 594a ff. |
-| Fortsetzung | Existenzgrundlage, Härte, Interessen und rechtzeitiger Antrag | BGB Paragraf 595 Absatz 5 und Absatz 7 |
-| Hofstatus | Stichtag, Grundsteuerwert, Eigentumsform, Hofstelle und Hofvermerk | Erbfall oder Übertragung |
-| Abfindung | Quote, Grundsteuerwert, Korrektur, Hofschulden und Vorausempfang | HöfeO Paragraf 12 |
-| Nachabfindung | Ereignis, Erlös, Abzug, Kenntnis und Mitteilung | zwanzigjähriges Fenster; Verjährung gesondert |
-
-## 6. Gegenpositionen
-
-- Es liegt keine Landpacht, sondern allgemeine Pacht oder bloße Nutzungsüberlassung vor.
-- Die Textform ist gewahrt oder der Formmangel führt nur zur unbestimmten Laufzeit, nicht zur Nichtigkeit.
-- Anzeige war ausgenommen; Beanstandung war verspätet oder materiell unbegründet.
-- Eine Pachtanpassung scheitert an fehlender dauerhafter Veränderung oder zumutbarer Risikozuweisung.
-- Kündigung oder Fortsetzungsantrag verfehlt Pachtjahr, Form oder Frist.
-- Der Besitz ist am Stichtag kein Hof oder fällt unter das Übergangsrecht.
-- Abfindungsrechnung verwendet falschen Wert, falsche Quote oder nicht hofbezogene Verbindlichkeiten.
-- Ein behaupteter Nachabfindungsvorgang erfüllt Tatbestand, Erlös- oder Verjährungsvoraussetzungen nicht.
-
-## 7. Ausgabe
-
-Liefere je nach Auftrag eine Vertrags-Redline, Anzeige- und Beanstandungsmatrix, Kündigungs- oder Fortsetzungsprüfung, Hofnachfolgematrix, Abfindungsrechnung oder Nachabfindungsanlage. Trenne beide Rechtsgebiete sichtbar und füge erst zum Schluss einen gemeinsamen Maßnahmenplan mit Adressat, Frist, Beleg und nächstem Dokument an.
-
----
-
-## Skill: `agrarerbe-pflichtteil-paragraf-2316-bgb-hoefeordnung`
-
-_Berechnet und begründet Abfindungs- und Pflichtteilspositionen bei einem Hof nach der Höfeordnung. Trennt Erbfall und lebzeitige Übergabe, bestimmt Hofstatus, Grundsteuerwert, Quoten, Verbindlichkeiten, Vorausempfänge und Nachabfindung und liefert Rechenblatt, Auskunftsverlangen oder Anspruchserwiderung mit Beweisplan._
-
-# Abfindung und Pflichtteil beim Hof
-
-## 1. Direktstart
-
-Lies zuerst Erbschein oder Verfügung von Todes wegen, Grundbuch, Hofvermerk, Grundsteuerwertbescheid, Nachlassverzeichnis, Darlehen, Familienstandsurkunden, frühere Zuwendungen und einen etwaigen Übergabevertrag. Erstelle unmittelbar ein Stichtags- und Rechenblatt; frage nur nach fehlenden Werten, die das Ergebnis ändern.
-
-## 2. Fallweichen
-
-1. Erbfall oder lebzeitige Übergabe bestimmen.
-2. Hofeigenschaft am maßgeblichen Stichtag nach HöfeO Paragraf 1 und bei Übergangsfällen nach HöfeO Paragraf 19 Absatz 3 prüfen.
-3. Hoferbe, sonstige Erben, Pflichtteilsberechtigte, Vermächtnisnehmer und ausgleichsberechtigten Ehegatten getrennt erfassen.
-4. Allgemeine Erbquote, höferechtliche Abfindungsquote und Pflichtteilsquote nicht vermischen.
-5. Ergänzungsansprüche wegen lebzeitiger Zuwendungen nach allgemeinem Pflichtteilsrecht gesondert von Abfindung und Nachabfindung behandeln.
-
-## 3. Normenanker
-
-- HöfeO Paragraf 12 Absatz 1: nicht zum Hoferben gewordene Miterben erhalten grundsätzlich eine Geldabfindung anstelle eines Hofanteils.
-- HöfeO Paragraf 12 Absatz 2: Ausgangswert sind 60 Prozent des zuletzt festgestellten Grundsteuerwerts; erhebliche besondere Umstände können einen Zu- oder Abschlag nach billigem Ermessen tragen.
-- HöfeO Paragraf 12 Absatz 3: hofbezogene Nachlassverbindlichkeiten abziehen; der verbleibende Betrag darf den gesetzlichen Mindestboden nicht unterschreiten und wird nach den allgemeinen Erbquoten verteilt.
-- HöfeO Paragraf 12 Absatz 4 bis Absatz 10: Vorausempfänge, Stundung, Minderjährige und entsprechende Anwendung auf Pflichtteilsberechtigte, Vermächtnisnehmer sowie bestimmte Ehegattenpositionen.
-- HöfeO Paragraf 16 Absatz 2: Für den Pflichtteil der übrigen Erben ist der höferechtliche Erbteil maßgeblich; der Hof wird mit dem Wert nach HöfeO Paragraf 12 Absatz 2 angesetzt.
-- HöfeO Paragraf 17: Bei Übergabe an einen hoferbenberechtigten Abkömmling gilt der Erbfall hinsichtlich des Hofes zugunsten der anderen Abkömmlinge mit der Übertragung als eingetreten.
-- HöfeO Paragraf 13: Nachabfindung bei den gesetzlich bestimmten Verwertungs- und Nutzungsereignissen innerhalb von zwanzig Jahren.
-- BGB Paragraf 2303, Paragraf 2311, Paragraf 2314, Paragraf 2315 und Paragraf 2325: allgemeiner Pflichtteil, Nachlasswert, Auskunft, Anrechnung und Pflichtteilsergänzung für nicht höferechtlich privilegierte Vermögensteile oder gesonderte Ergänzungsfragen.
-- BGB Paragraf 2316: Ausgleichungspflicht bei der Pflichtteilsberechnung; nur anwenden, wenn eine ausgleichungspflichtige Zuwendung nach BGB Paragraf 2050 ff. tatsächlich vorliegt.
-
-## 4. Rechenblatt
-
-| Position | Betrag | Rechtsgrund | Beleg | Streit |
-| --- | ---: | --- | --- | --- |
-| letzter Grundsteuerwert | [Betrag] | HöfeO Paragraf 12 Absatz 2 | Bescheid vom [Datum] | Stichtag oder Zuordnung |
-| 60 Prozent Ausgangswert | [Betrag] | HöfeO Paragraf 12 Absatz 2 | Rechenweg | keiner |
-| Zu- oder Abschlag | [Betrag] | besondere Umstände | Gutachten und Betriebsdaten | Erheblichkeit und Höhe |
-| hofbezogene Verbindlichkeiten | [Betrag] | HöfeO Paragraf 12 Absatz 3 | Valuten und Zweck | Hofbezug |
-| Mindestboden | [Betrag] | ein Fünftel des Hofeswerts | Rechenweg | Anwendung |
-| Anteil nach allgemeiner Erbquote | [Betrag] | HöfeO Paragraf 12 Absatz 3 | Erbfolge | Quote |
-| Vorausempfang oder frühere Abfindung | [Betrag] | HöfeO Paragraf 12 Absatz 4 | Vertrag und Zahlung | Anrechnung |
-| bereits geleistet | [Betrag] | Erfüllung | Kontoauszug | Tilgungszweck |
-| verbleibender Anspruch | [Betrag] | Ergebnis | Summenprobe | Fälligkeit und Stundung |
-
-Berechne hoffreies Vermögen separat nach allgemeinem Erbrecht. Stelle anschließend Abfindung, allgemeinen Pflichtteil, Pflichtteilsergänzung und Nachabfindung in vier getrennten Ergebniszeilen dar.
-
-## 5. Beweis- und Einwendungsplan
-
-- Anspruchsteller: Verwandtschaft, Erb- oder Pflichtteilsquote, Hofstatus, Grundsteuerwert, behauptete besondere Umstände, Vorausempfänge und Nachabfindungsauslöser konkret darlegen.
-- Hoferbe: hofbezogene Verbindlichkeiten, Erfüllung, Anrechnung, Stundungsgründe, Ersatzbeschaffung und gesetzliche Abschläge belegen.
-- Für Auskunft und Bewertung jedes verlangte Dokument mit Zweck und Zeitraum benennen; kein pauschales „vollständiges Vermögen“ ohne Anspruchsbezug.
-- Verkehrswertgutachten kann für einen Zu- oder Abschlag oder eine Nachabfindungstatsache relevant sein, ersetzt aber nicht automatisch den gesetzlichen Hofeswert.
-
-## 6. Rechtsprechungs- und Quellenstatus
-
-- BGH, Beschluss vom 23.11.2012 - BLw 12/11: historische Entscheidung zu Hofeigenschaft und Sondererbfolge; bei heutiger Anwendung den seit 01.01.2025 geltenden Grundsteuerwertmaßstab und das Übergangsrecht ausdrücklich voranstellen.
-- Keine Entscheidung allein wegen eines Schlagworts übernehmen. Vor Verwendung Gericht, Entscheidungsform, Datum, Aktenzeichen, tragende Aussage, Gesetzesfassung und prüfbare Primärquelle kontrollieren.
-
-## 7. Arbeitsprodukte
-
-Liefere je nach Rolle ein beziffertes Anspruchsschreiben, ein gestuftes Auskunftsverlangen, eine Erwiderung mit Einwendungen, einen Stundungsantrag oder eine Rechenanlage für das Landwirtschaftsgericht. Jede Zahl erhält Rechenweg und Beleg; offene Rechts- oder Tatsachenfragen werden als Varianten ausgewiesen.
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

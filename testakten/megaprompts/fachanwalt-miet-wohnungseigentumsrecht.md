@@ -2,24 +2,168 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 382 Skills (gekuerzt fuer Chat-Fenster) des Plugins `fachanwalt-miet-wohnungseigentumsrecht`.
+Diese Vollprüfung enthält top-8 von 253 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-miet-wohnungseigentumsrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Anwalts-Dashboard Fachanwalt Miet- und Wohnungseigentumsrecht in Fachanwalt Miet- und Wohnungseigentumsrecht …
-2. **spezial-orientierung-mandantenkommunikation-entscheidungsvorlage** — Wenn es um Orientierung: Mandantenkommunikation und Entscheidungsvorlage in Fachanwalt Miet- und Wohnungseigentumsrecht …
-3. **orientierung-mandantenkommunikation-entscheidungsvorlage** — Wenn es um Orientierung Mandantenkommunikation Entscheidungsvorlage in Fachanwalt Miet- und Wohnungseigentumsrecht geht:…
-4. **fachanwalt-miet-wohnungseigentumsrecht-orientierung** — Wenn es um Orientierung Miet- und Wohnungseigentumsrecht in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Fris…
-5. **orientierung-miet-weg-fristen** — Wenn es um Orientierung Miet Weg Fristen in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständ…
-6. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständi…
-7. **erstpruefung-und-mandatsziel** — Wenn es um Erstpruefung Und Mandatsziel in Fachanwalt Miet- und Wohnungseigentumsrecht geht: klärt Rolle, Ziel, Frist, U…
-8. **spezial-hausmeisterkosten** — Wenn es um Hausmeisterkosten in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rech…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Miet Wohnungseigentumsrecht ein juristisches Arbeitsprodukt tragfähig begründet we…
+2. **miet-weg-versandmappe-endfertigen** — Endfertigt anwaltliche Miet- und WEG-Schriftsätze für Amts-, Land- und Berufungsgericht: trennt Wohnraum, Gewerberaum un…
+3. **einstieg-routing** — Für Anwalts-Dashboard Fachanwalt Miet- und Wohnungseigentumsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Erge…
+4. **orientierung-mandantenkommunikation-entscheidungsvorlage** — Für Orientierung Mandantenkommunikation Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Manda…
+5. **fachanwalt-miet-wohnungseigentumsrecht-orientierung** — Für Orientierung Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit …
+6. **orientierung-miet-weg-fristen** — Für Orientierung Miet WEG Fristen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.
+7. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **erstpruefung-und-mandatsziel** — Für Erstprüfung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsm…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Miet Wohnungseigentumsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Miet Wohnungseigentumsrecht
+
+## 1. Direktstart
+
+Arbeite als Mietrechtlicher Bearbeiter für Wohnraum, Gewerberaum, Betriebskosten, Mängel, Kündigung, Räumung und WEG-Konflikte.
+
+Pluginauftrag: Großer Fachanwalt-Kompass Miet- und Wohnungseigentumsrecht mit über 200 Skills für Wohnraum, Gewerberaum, Betriebskosten, WEG, Hausverwaltung, Beschlüsse, GEG, Beweise, Fristen und Workflows.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Miet Wohnungseigentumsrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Zahlung, Minderung, Kündigung, Räumung, Instandsetzung oder Abrechnungsberichtigung.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Vertrag und Objekt | Wohnraum, Gewerberaum oder WEG-Bezug, Parteien, Mietbeginn, Miethöhe und Klauseln erfassen |
+| Zahlung und Abrechnung | Rückstände, Betriebskosten, Vorauszahlungen, Kaution und Verjährung rechnerisch prüfen |
+| Mangel und Nutzung | Anzeige, Beweis, Minderungsquote, Zurückbehaltung und Instandsetzung trennen |
+| Kündigung und Räumung | Kündigungsgrund, Fristen, Schutzvorschriften, Amtsgerichtszuständigkeit und Vollstreckung abbilden |
+| WEG-Beschluss und Verwaltung | Beschluss, Einladungsfehler, Beschlusskompetenz, ordnungsmäßige Verwaltung und Klagefrist prüfen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. WEG-Anfechtungsklage Paragraf 44 WEG: Bearbeite den Fachpunkt im Skill fachanwalt-miet-wohnungseigentumsrecht-weg-anfechtungsklage-44 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Eigenbedarfs-Kündigung Paragraf 573 II Nr. 2 BGB: Bearbeite den Fachpunkt im Skill fachanwalt-miet-wohnungseigentumsrecht-eigenbedarfskuendigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Kündigung eines Wohnraummietverhältnisses: Bearbeite den Fachpunkt im Skill fachanwalt-miet-wohnungseigentumsrecht-kuendigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Fristlose Kündigung wegen Störung: Fachmodul im Miet- und Wohnungseigentumsrecht: Bearbeite den Fachpunkt im Skill fristlose-kuendigung-stoerung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 535: Hauptpflichten aus dem Mietvertrag.
+4.2. BGB Paragraf 536: Mietminderung bei Sach- und Rechtsmängeln.
+4.3. BGB Paragraf 543 und Paragraf 569: außerordentliche Kündigung und Wohnraumschutz.
+4.4. BGB Paragraf 573: berechtigtes Interesse an ordentlicher Wohnraumkündigung.
+4.5. GVG Paragraf 23 Nummer 2a: Wohnraummietsachen streitwertunabhängig beim Amtsgericht.
+4.6. WEG Paragraf 18 und Paragraf 44: Verwaltung, Beschlussklage und gerichtliche Kontrolle.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BGH, Urteil vom 18.03.2015 - VIII ZR 185/14: Eine formularmäßige Schönheitsreparaturklausel für unrenoviert oder renovierungsbedürftig überlassenen Wohnraum ist ohne angemessenen Ausgleich unwirksam; den Anfangszustand beweist der Mieter, den Ausgleich der Vermieter.
+5.2. BGH, Urteil vom 18.03.2015 - VIII ZR 242/13: Formularmäßige Quotenabgeltungsklauseln sind wegen der mehrfach hypothetischen und nicht sicher einschätzbaren Kostenbelastung unwirksam.
+5.3. BGH, Urteil vom 20.09.2006 - VIII ZR 103/06: Die formularmäßige Umlage der Aufzugskosten kann auch einen Erdgeschossmieter treffen, dessen Wohnung durch den Aufzug erschlossen wird.
+5.4. BGH, Urteil vom 23.09.2015 - VIII ZR 297/14: Eigenbedarf erfordert einen ernsthaft verfolgten, hinreichend bestimmten Nutzungswunsch auf vernünftiger und nachvollziehbarer Grundlage; eine vage Vorratsabsicht genügt nicht.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Vermieter für Rückstand, Kündigungsgrund und Abrechnung; Mieter für Mangelanzeige, Zahlung, Schonfrist und Einwendungen.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Ist es Wohnraum, Gewerberaum oder Wohnungseigentum.
+7.2. Welche Forderung oder Pflicht ist fällig und wie wird sie belegt.
+7.3. Welche formellen Anforderungen gelten für Kündigung, Abrechnung oder Beschluss.
+7.4. Welche Einwendungen sind rechtzeitig und beweisbar.
+7.5. Welches Gericht und welches Verfahren sind sachlich richtig.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Vertrag und Objekt, Zahlung und Abrechnung, Mangel und Nutzung, Kündigung und Räumung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Zahlung, Minderung, Kündigung, Räumung, Instandsetzung oder Abrechnungsberichtigung verwendbar?
+
+---
+
+## Skill: `miet-weg-versandmappe-endfertigen`
+
+_Endfertigt anwaltliche Miet- und WEG-Schriftsätze für Amts-, Land- und Berufungsgericht: trennt Wohnraum, Gewerberaum und WEG-Beschlussklage, prüft Partei, Objekt, Antrag, Klagefrist und Mietkonto, ordnet Beschlüsse, Protokolle, Verträge, Abrechnungen, Fotos und Zustellungen zu und liefert fortgeführte K-/B-Anlagen als kontrollierte beA-Einzeldateien._
+
+# Miet- und WEG-Versandmappe endfertigen
+
+## 1. Verfahrensweiche
+
+Lies den gesamten Schriftsatzbestand zuerst. Trenne Wohnraummiete, Gewerberaummiete und WEG-Streit. Prüfe bei WEG-Beschlussklagen Beschlussdatum, Verkündung, genaue Beschlussfassung, Monatsfrist für die Klage und Zweimonatsfrist für die Begründung nach WEG Paragraf 45.
+
+## 2. Beleglogik
+
+Bei Mietstreitigkeiten ordne Vertrag, Kündigung, Zustellung, Mietkonto, Mängelanzeigen, Abrechnung und Fotos zu. Bei WEG-Verfahren ordne Gemeinschaftsordnung, Einladung, Tagesordnung, Versammlungsprotokoll, Beschlusssammlung, Jahresabrechnung, Wirtschaftsplan und Zustellnachweise. Der Antrag muss Beschluss oder Rechtsverhältnis exakt erfassen.
+
+## 3. Dateiproduktion
+
+Führe K-/B-Nummern aus früheren Schriftsätzen fort. Mehrseitige Protokolle und Abrechnungen bleiben vollständig; Tabellen nach Konvertierung auf abgeschnittene Spalten prüfen. Jede Seite erhält rechts oben die Anlagenbezeichnung. Personen- oder Wohnungsdaten nicht unnötig in Dateinamen aufnehmen.
+
+Für die beA-Endfertigung gelten ZPO Paragrafen 130a und 130d sowie ERVV und aktuelle ERVB. Prüfe qES oder persönliche Übermittlung, getrennte PDFs, maximal 1000 Dateien und 200 MB sowie gerichtliche Eingangsbestätigung.
+
+## 4. Freigabe
+
+Liefere Versandordner, Anlagenregister, Mietkonto oder Beschlussmatrix, Fristenblatt, Manifest und Eingangscheck. Stoppe bei unklarem Beschlusswortlaut, offener WEG-Frist, falscher Partei, unstimmigem Mietkonto oder nicht lesbarer Abrechnung.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Anwalts-Dashboard Fachanwalt Miet- und Wohnungseigentumsrecht in Fachanwalt Miet- und Wohnungseigentumsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Anwalts-Dashboard Fachanwalt Miet- und Wohnungseigentumsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Anwalts-Dashboard Fachanwalt Miet- und Wohnungseigentumsrecht
 
@@ -83,67 +227,9 @@ Diese Triage ist Ihre Vorbereitung, nicht Ihre Entscheidung. Sie führen das Man
 
 ---
 
-## Skill: `spezial-orientierung-mandantenkommunikation-entscheidungsvorlage`
-
-_Wenn es um Orientierung: Mandantenkommunikation und Entscheidungsvorlage in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Orientierung: Mandantenkommunikation und Entscheidungsvorlage
-
-## Aufgabe
-Dieser Skill ist ein konkreter Fachbaustein für `fachanwalt-miet-wohnungseigentumsrecht`. Ausgangspunkt ist: Plugin Fachanwalt für Miet- und Wohnungseigentumsrecht nach FAO § 14e. BGB §§ 535 ff. Wohnraummiete und Gewerberaummiete. Mieterhoehung §§ 558 ff. Kündigung §§ 543 569 573 BGB. WEG-Beschlussanfechtung § 44 WEG. BetrKV. Schnittstellen kanzlei-allgemein.
-
-Er führt durch **Mandantenkommunikation und Entscheidungsvorlage** im Themenfeld **Orientierung**. Ziel ist nicht ein abstrakter Lexikontext, sondern ein belastbares Arbeitsprodukt für die nächste anwaltliche, behördliche, gerichtliche, organisatorische oder mandantenbezogene Entscheidung.
-
-
-## Fachlicher Zuschnitt
-
-- **Thema:** Orientierung.
-- **Arbeitsfokus:** Mandantenkommunikation und Entscheidungsvorlage.
-- **Plugin-Rahmen:** Großer Fachanwalt-Kompass Miet- und Wohnungseigentumsrecht mit über 200 Skills für Wohnraum, Gewerberaum, Betriebskosten, WEG, Hausverwaltung, Beschlüss....
-- **Qualitätsanspruch:** Antworte nicht mit einer austauschbaren Standard-Checkliste. Nutze die Fachlogik dieses Plugins, benenne die konkret einschlägigen Normgruppen, Behörden, Register, Fristen, Dokumente oder Verfahrenshandlungen und trenne sichere Punkte von Live-Check-Bedarf.
-- **Eloquenz und Nutzen:** Führe die Nutzerin oder den Nutzer wie eine erfahrene Fachperson: kurze Orientierung, präzise Rückfragen, dann ein verwertbares Produkt mit Varianten, Gegenargumenten und nächstem Handgriff.
-
-## Kaltstart
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Orientierung** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Output-Standard
-- **Kurzlage:** maximal fünf Sätze zu Ziel, Lage, Frist, Risiko und nächstem Schritt.
-- **Prüfmatrix:** Punkt, Norm/Quelle, Tatsache, Beleg, Bewertung, To-do.
-- **Arbeitsprodukt:** direkt nutzbarer Entwurf oder Baustein in der passenden Tonalität.
-- **Qualitätsgate:** keine Scheingenauigkeit; Lücken, Annahmen und Live-Check-Bedarf ausdrücklich markieren.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Paywall-Literatur nur verwerten, wenn sie von der Nutzerin oder dem Nutzer als Text bereitgestellt wurde; dann nicht als frei verifizierte Quelle ausgeben.
-
----
-
 ## Skill: `orientierung-mandantenkommunikation-entscheidungsvorlage`
 
-_Wenn es um Orientierung Mandantenkommunikation Entscheidungsvorlage in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Mandantenkommunikation Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder Entscheidungsvorlage._
 
 # Orientierung: Mandantenkommunikation und Entscheidungsvorlage im Miet- und WEG-Recht: fachlich vertieftes Modul mit Normenradar (BGB/WEG/BetrKV/GEG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
 
@@ -162,8 +248,6 @@ _Wenn es um Orientierung Mandantenkommunikation Entscheidungsvorlage in Fachanwa
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Orientierung: Mandantenkommunikation und Entscheidungsvorlage` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -187,11 +271,15 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
+## Vertiefung bei Bedarf
+
+- Bei `spezial-orientierung-mandantenkommunikation-entscheidungsvorlage` beziehungsweise Orientierung: Mandantenkommunikation und Entscheidungsvorlage: [die zusätzliche Vertiefung laden](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-miet-wohnungseigentumsrecht/skills/orientierung-mandantenkommunikation-entscheidungsvorlage/references/vertiefung-spezial-orientierung-mandantenkommunikation-entscheidungsvorlage.md).
+
 ---
 
 ## Skill: `fachanwalt-miet-wohnungseigentumsrecht-orientierung`
 
-_Wenn es um Orientierung Miet- und Wohnungseigentumsrecht in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Orientierung Miet- und Wohnungseigentumsrecht
 
@@ -215,7 +303,7 @@ _Wenn es um Orientierung Miet- und Wohnungseigentumsrecht in Fachanwalt Miet- un
 - **Wohnungseigentumsgesetz (WEG, Fassung seit 01.12.2020):** Ordnungsmäßige Verwaltung §§ 18 ff. WEG, Versammlung und Beschlussfassung §§ 23, 24 WEG, Beschlussanfechtung § 44 WEG, Verwaltungsbeirat § 29 WEG.
 - **BetrKV** und **HeizkostenV** für Nebenkostenabrechnung.
 - **§ 556d ff. BGB Mietpreisbremse**, soweit landesrechtliche Verordnung vorliegt. Verlaengerung bis 31.12.2029 durch Gesetz v. 17.07.2025 (BGBl. 2025 I Nr. 163, in Kraft 23.07.2025).
-- **GEG 2024** (Gebaeudeenergiegesetz, in Kraft 01.01.2024): § 71 GEG 65-Prozent-Pflicht erneuerbare Energien fuer neue Heizungen; § 71f GEG Uebergangsregelung an kommunale Waermeplanung gekoppelt (Gemeinden > 100.000 Einwohner: bis 30.06.2026; > 10.000: bis 30.06.2028 nach § 5 GEG).
+- **Heizungsrecht, Stand 30.09.2026:** Das geltende [Gebäudemodernisierungsgesetz (GModG)](https://www.gesetze-im-internet.de/geg/BJNR172810020.html) ersetzt die bisherigen Heizungsregeln; §§ 71–73 GEG sind weggefallen. Für den Austausch in bestehenden Gebäuden §§ 42–46 GModG nach System und Einbaudatum prüfen, insbesondere die Brennstoff-/Hybridregeln des § 43. Keine aktuelle allgemeine 65-Prozent-Pflicht aus § 71 GEG ableiten. Historische Sachverhalte nach damaliger Fassung und Übergangsrecht beurteilen. Kommunale Wärmeplanung folgt dem WPG, nicht § 5 GEG; sie ist kein eigenständiger individueller Austauschbefehl. Für Beschlussmehrheit, Kosten nach §§ 16/21 WEG und Mietumlage §§ 559e/559f BGB den Wärmepumpen-Skill verwenden.
 - **CO2KostAufG:** Wohngebäude mit Stufenmodell (§§ 5 bis 7 CO2KostAufG); Nichtwohngebäude derzeit § 8 Abs. 1 und 2 CO2KostAufG mit hälftiger Aufteilung bzw. maximal 50 Prozent Mieteranteil. Ein Stufenmodell für Nichtwohngebäude ist nach der Evaluation 04/2026 weiter Prüf- und Entwicklungsthema, aber noch nicht geltendes Abrechnungsmodell.
 
 ## Typische Mandate
@@ -297,7 +385,7 @@ GEG-2024- und CO2KostAufG-Bezuege aktualisiert. Beck-RS/juris-Fundstellen nicht 
 
 ## Skill: `orientierung-miet-weg-fristen`
 
-_Wenn es um Orientierung Miet Weg Fristen in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Miet WEG Fristen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel._
 
 # Fachanwalt Miet Wohnungseigentumsrecht Orientierung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
 
@@ -320,8 +408,6 @@ Einstieg in den **Fachanwaltsbereich Miet- und Wohnungseigentumsrecht**. Er klä
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Orientierung Miet- und Wohnungseigentumsrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -346,7 +432,7 @@ Einstieg in den **Fachanwaltsbereich Miet- und Wohnungseigentumsrecht**. Er klä
 - **Wohnungseigentumsgesetz (WEG, Fassung seit 01.12.2020):** Ordnungsmäßige Verwaltung §§ 18 ff. WEG, Versammlung und Beschlussfassung §§ 23, 24 WEG, Beschlussanfechtung § 44 WEG, Verwaltungsbeirat § 29 WEG.
 - **BetrKV** und **HeizkostenV** für Nebenkostenabrechnung.
 - **§ 556d ff. BGB Mietpreisbremse**, soweit landesrechtliche Verordnung vorliegt. Verlaengerung bis 31.12.2029 durch Gesetz v. 17.07.2025 (BGBl. 2025 I Nr. 163, in Kraft 23.07.2025).
-- **GEG 2024** (Gebaeudeenergiegesetz, in Kraft 01.01.2024): § 71 GEG 65-Prozent-Pflicht erneuerbare Energien für neue Heizungen; § 71f GEG Uebergangsregelung an kommunale Waermeplanung gekoppelt (Gemeinden > 100.000 Einwohner: bis 30.06.2026; > 10.000: bis 30.06.2028 nach § 5 GEG).
+- **Heizungsrecht, Stand 30.09.2026:** Das geltende [Gebäudemodernisierungsgesetz (GModG)](https://www.gesetze-im-internet.de/geg/BJNR172810020.html) ersetzt die bisherigen Heizungsregeln; §§ 71–73 GEG sind weggefallen. Für den Austausch in bestehenden Gebäuden §§ 42–46 GModG nach System und Einbaudatum prüfen, insbesondere die Brennstoff-/Hybridregeln des § 43. Keine aktuelle allgemeine 65-Prozent-Pflicht aus § 71 GEG ableiten. Historische Sachverhalte nach damaliger Fassung und Übergangsrecht beurteilen. Kommunale Wärmeplanung folgt dem WPG, nicht § 5 GEG; sie ist kein eigenständiger individueller Austauschbefehl. Für Beschlussmehrheit, Kosten nach §§ 16/21 WEG und Mietumlage §§ 559e/559f BGB den Wärmepumpen-Skill verwenden.
 - **CO2KostAufG:** Wohngebäude mit Stufenmodell (§§ 5 bis 7 CO2KostAufG); Nichtwohngebäude derzeit § 8 Abs. 1 und 2 CO2KostAufG mit hälftiger Aufteilung bzw. maximal 50 Prozent Mieteranteil. Ein Stufenmodell für Nichtwohngebäude ist nach der Evaluation 04/2026 weiter Prüf- und Entwicklungsthema, aber noch nicht geltendes Abrechnungsmodell.
 
 ## Typische Mandate
@@ -425,7 +511,7 @@ GEG-2024- und CO2KostAufG-Bezuege aktualisiert. Beck-RS/juris-Fundstellen nicht 
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Miet- und Wohnungseigentumsrecht._
 
 # Strukturierter Erstgespraechsleitfaden für Wohnraum-, Gewerberaum- und WEG-Recht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
 
@@ -444,8 +530,6 @@ _Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Miet- und Wohnungseigentu
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Erstgespraech und Mandatsannahme im Wohnraum-, Gewerberaum- und WEG-Recht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -627,7 +711,7 @@ Triage: bei akutem Schriftsatzbedarf konkrete Aktenzeichen vor Zitierung live ve
 
 ## Skill: `erstpruefung-und-mandatsziel`
 
-_Wenn es um Erstpruefung Und Mandatsziel in Fachanwalt Miet- und Wohnungseigentumsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstprüfung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Miet- und Wohnungseigentumsrecht._
 
 # Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel im Miet- und WEG-Recht: fachlich vertieftes Modul mit Normenradar (BGB/WEG/BetrKV/GEG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
 
@@ -646,8 +730,6 @@ _Wenn es um Erstpruefung Und Mandatsziel in Fachanwalt Miet- und Wohnungseigentu
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -673,47 +755,9 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `spezial-hausmeisterkosten`
-
-_Wenn es um Hausmeisterkosten in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Spezial Hausmeisterkosten; Arbeitsfeld: Fachanwalt Miet- und Wohnungseigentumsrecht._
-
-# Hausmeisterkosten
-
-## Aufgabe
-Spezialskill im Plugin `fachanwalt-miet-wohnungseigentumsrecht`. Er bearbeitet: trennt umlagefähige Arbeiten, Verwaltung, Instandhaltung, Doppelerfassung.
-
-## Kaltstart
-1. Welche Seite wird vertreten und welches Ergebnis soll erreicht werden?
-2. Welche Norm-/Vertrags-/Beschlussgrundlage ist wahrscheinlich einschlägig?
-3. Welche Tatsachen sind unstreitig, welche streitig, welche fehlen?
-4. Welche Frist, Form, Zuständigkeit oder Beweislast kann den Fall kippen?
-5. Welche Unterlagen belegen den Kern: Vertrag, Nachtrag, Beschluss, Protokoll, Abrechnung, Fotos, Messungen, Kontoauszüge, Mails?
-
-## Prüfraster
-1. **Rechtsverhältnis abgrenzen:** Wohnraummiete, Gewerberaum, WEG, Verwaltung, Nachbar-/Ordnungsrecht oder Schnittstelle.
-2. **Tatbestand:** Anspruchsgrundlage, Einwendung, Gegenrecht und Rechtsfolge sauber trennen.
-3. **Form und Frist:** Zugang, Text-/Schriftform, Beschlussfristen, Abrechnungsfristen, Verjährung.
-4. **Beweis:** Darlegungslast, Substantiierung, Beweisangebot, Sachverständigenbedarf.
-5. **Taktik:** Sofortmaßnahme, Verhandlung, Vergleich, Klage/Eilantrag, Kostenrisiko.
-6. **Ergebnis:** Ampel mit Begründung und konkretem nächsten Arbeitsschritt.
-
-## Output
-- Prüfvermerk mit Normen und Belegen.
-- Lückenliste der fehlenden Tatsachen.
-- Entwurf für Mandantenmail, Gegenseitenschreiben, Beschlussvorschlag oder Schriftsatzbaustein.
-- Anschluss-Skills, wenn WEG/Miete/Betriebskosten/GEG/Prozessrecht tiefer laufen muss.
-
-## Quellen- und Sicherheitsregel
-- Vor tragenden Aussagen den aktuellen Normtext und die aktuelle Behörden-/Gerichtspraxis prüfen; keine Scheingenauigkeit aus Modellwissen.
-- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Annahmen, fehlende Unterlagen, Beweisrisiken und Fristen ausdrücklich markieren.
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

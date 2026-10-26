@@ -1,29 +1,39 @@
 # Akte: Außenwirtschaft, Zoll, Sanktionen und CBAM – Globalmaschinen GmbH
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 126 KB) | PDF | [`gesamt-pdf/aussenwirtschaft-zoll-sanktionen-globalmaschinen_gesamt.pdf`](gesamt-pdf/aussenwirtschaft-zoll-sanktionen-globalmaschinen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/aussenwirtschaft-zoll-sanktionen-globalmaschinen_gesamt.pdf`](gesamt-pdf/aussenwirtschaft-zoll-sanktionen-globalmaschinen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen` (Akte) | [testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip) |
+| `testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen` (Akte) | [testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-aussenwirtschaft-zoll-sanktionen-globalmaschinen.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 **Arbeitsakte** | Maschinenbau | Exportkontrolle | Dual-Use | Sanktionsrecht | Zollrecht | CBAM | Verbrauchsteuer | AML/KYC
 
@@ -106,10 +116,11 @@ Die Syndikusrechtsanwältin **Dr. Sabine Brennecke** koordiniert die interne Kri
 | Datei | Inhalt |
 |---|---|
 | [README.md](README.md) | Diese Übersicht: Sachverhalt, Akteure, Zeitleiste und Prüffokus |
-| [01_intake/email_mandant_globalmaschinen.txt](01_intake/email_mandant_globalmaschinen.txt) | Erstanfrage Mandant (Kurzübersicht aller Themen) |
+| [01_intake/email_mandant_globalmaschinen.eml](01_intake/email_mandant_globalmaschinen.eml) | Erstanfrage der Rechts- und Exportkontrollleitung zum Auftrag KZ-4471 |
 | [02_waren/produktdaten_cnc_modul.docx](02_waren/produktdaten_cnc_modul.docx) | Technisches Datenblatt GX-900 + Klassifizierungsbegründung (EU + US EAR) |
 | [03_exportkontrolle/dual_use_pruefung_roh.docx](03_exportkontrolle/dual_use_pruefung_roh.docx) | Vollständige Dual-Use-Prüfung (2B001.b, Catch-All, ECCN-Vergleich, De-minimis) |
 | [04_sanktionen/sanktionslisten_treffer_roh.docx](04_sanktionen/sanktionslisten_treffer_roh.docx) | Sanktionslistenscreening-Bericht mit Trefferverdacht (Murat A., Al Noor FZE) |
+| [04_sanktionen/teams_chat_export_kasachstan_2026-03-15.txt](04_sanktionen/teams_chat_export_kasachstan_2026-03-15.txt) | Teams-Chat-Export Bergmann/Karaca mit der Passage "dann halt über Kasachstan" und Löschvermerken |
 | [05_zoll/taric_vzta_ursprung.docx](05_zoll/taric_vzta_ursprung.docx) | Tarifierungsmemo 8537 10 99 + Entwurf vZTA-Antrag + Ursprungsanalyse |
 | [06_cbam/cbam_importe_stahl_aluminium.csv](06_cbam/cbam_importe_stahl_aluminium.csv) | CBAM-Importliste (Rohdaten Q1/2026: Stahl, Aluminium) |
 | [06_cbam/cbam_importe_stahl_aluminium.xlsx](06_cbam/cbam_importe_stahl_aluminium.xlsx) | CBAM-Stoffstromliste (aufbereitet, Excel) |
@@ -122,6 +133,7 @@ Die Syndikusrechtsanwältin **Dr. Sabine Brennecke** koordiniert die interne Kri
 | [11_pruefung_ermittlung/hza_bafa_pruefung_anhoerung.docx](11_pruefung_ermittlung/hza_bafa_pruefung_anhoerung.docx) | Verteidigungsschriftsatz als DOCX-Binärdatei |
 | [12_presse/krisenkommunikation_entwurf.docx](12_presse/krisenkommunikation_entwurf.docx) | Q&A-Katalog + Pressemitteilungs-Entwurf + Kommunikationsplan |
 | [12_presse/krisenkommunikation_pressemitteilung.docx](12_presse/krisenkommunikation_pressemitteilung.docx) | Pressemitteilung als DOCX-Binärdatei |
+| [12_presse/presseanfrage_swz_2026-04-14.eml](12_presse/presseanfrage_swz_2026-04-14.eml) | Presseanfrage der Süddeutschen Wirtschaftszeitung vom 14.04.2026 mit vier Einzelfragen und Fristsetzung 16:00 Uhr |
 | [13_icp/exportkontrollsystem_gap.docx](13_icp/exportkontrollsystem_gap.docx) | ICP-Gap-Analyse (40 Lücken, 20-Punkte-Maßnahmenplan, Kostenrahmen) |
 
 ---
@@ -153,6 +165,5 @@ Diese Akte zeigt die typische Mehrdimensionalität von Exportkontroll- und Zollr
 ---
 
 ## Disclaimer
-
 
 Die Rechtslagen sind nach bestem Wissen zum Bearbeitungszeitpunkt dargestellt; Rechtsentwicklungen nach Redaktionsschluss sind nicht eingearbeitet.

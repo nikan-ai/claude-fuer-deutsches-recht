@@ -1,127 +1,64 @@
-# Akte Geldwäscheprävention, AML und KYC: Musterholding GmbH
+<!-- decimal-anchor --> <a id="akte-geldwäscheprävention-aml-und-kyc-musterholding-gmbh"></a>
 
+# 1. Akte Geldwäscheprävention, AML und KYC: Musterholding GmbH
+
+<!-- decimal-headings -->
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
-## Akte komplett herunterladen
+<!-- decimal-anchor --> <a id="akte-komplett-herunterladen"></a>
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+## 1.1. Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 1179 KB) | PDF | [`gesamt-pdf/geldwaesche-aml-kyc-musterholding_gesamt.pdf`](gesamt-pdf/geldwaesche-aml-kyc-musterholding_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-geldwaesche-aml-kyc-musterholding.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-geldwaesche-aml-kyc-musterholding.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-geldwaesche-aml-kyc-musterholding-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-geldwaesche-aml-kyc-musterholding-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/geldwaesche-aml-kyc-musterholding_gesamt.pdf`](gesamt-pdf/geldwaesche-aml-kyc-musterholding_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-geldwaesche-aml-kyc-musterholding.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-geldwaesche-aml-kyc-musterholding.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-geldwaesche-aml-kyc-musterholding-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-geldwaesche-aml-kyc-musterholding-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
-## ⬇️ Direkt-Download
+<!-- decimal-anchor --> <a id="vorhandene-unterlagen"></a>
 
-| Akte | Direkt-Download |
-| --- | --- |
-| `testakte-geldwaesche-aml-kyc-musterholding` (Akte) | [testakte-geldwaesche-aml-kyc-musterholding.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-geldwaesche-aml-kyc-musterholding.zip) |
+## 1.2. Vorhandene Unterlagen
 
-Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
+Die Musterholding GmbH in Frankfurt am Main handelt mit Industriekomponenten und Spezialmaschinen. Eine Tochtergesellschaft verwaltet Gewerbeimmobilien. Im Frühjahr 2026 entstehen Unterlagen zu einem neuen Vertriebspartner, der Danube Trade Solutions SRL in Bukarest. Eine Zahlung über 187500 Euro stammt von Adriatic Commerce Ltd. aus Malta; die Beteiligungsangaben nennen außerdem Blue Harbor Holdings Ltd. auf Zypern.
 
+Die Sammlung enthält Kundenangaben, interne Bearbeitungsstände, Bankkorrespondenz, Aufsichtsunterlagen und bereits entstandene Entwürfe. Angaben und Bewertungen der jeweiligen Verfasser sind Teil des Aktenbestands und keine verbindliche Einordnung durch diese Übersicht. Ein Firmenname in einer Beteiligungskette bezeichnet noch keine natürliche Person als wirtschaftlich Berechtigten; reine Immobilienverwaltung ist nicht mit Immobilienvermittlung gleichzusetzen.
 
-Arbeitsakte für ein mittelständisches Konglomerat mit internationalem Vertrieb, das als Verpflichteter nach dem Geldwäschegesetz (GwG) eingestuft ist. Die Akte zeigt den vollständigen Compliance-Zyklus: Risikoanalyse, KYC-Prüfung, UBO-Ermittlung, PEP/Sanktionsscreening, Transaktionsmonitoring, Verdachtsmeldung an die FIU, Behördenkommunikation, Mitarbeiterschulung, internes Audit und Krisenkommunikation.
+Die Dokumente stammen aus unterschiedlichen Bearbeitungszeitpunkten. Für Datum, Status und tatsächlich übermittelte Fassungen ist jeweils das Aktenstück maßgeblich. Die Übersicht trifft keine Entscheidung über die Berechtigung eines Verdachts oder die weitere Abwicklung.
 
----
+<!-- decimal-anchor --> <a id="dateien-in-dieser-akte"></a>
 
-## Sachverhalt
+## 1.3. Dateien in dieser Akte
 
-Die Musterholding GmbH mit Sitz in Frankfurt am Main betreibt seit 2009 Handel mit hochwertigen Industriekomponenten und Spezialmaschinen sowie eine Tochtergesellschaft für Gewerbeimmobilienverwaltung (Musterholding Immobilien GmbH). Der jährliche Konzernumsatz beläuft sich auf ca. 38 Mio. EUR. Aufgrund des Güterhandels mit Edelmetallen und Industrie-Edelsteinen (gelegentliche Bargeldtransaktionen über 10.000 EUR) sowie der Tätigkeit im Immobiliensektor unterliegt die Musterholding GmbH dem Geldwäschegesetz als Verpflichtete i.S.d. § 2 Abs. 1 Nr. 16 GwG (Güterhändler) und § 2 Abs. 1 Nr. 14 GwG (Immobilienmakler und -verwalter in Bezug auf die Tochter).
-
-Im April 2026 eskaliert der interne Compliance-Beauftragte einen neuen Vertriebspartner: die Danube Trade Solutions SRL mit Sitz in Bukarest, Rumänien. Das Unternehmen soll als Distributor für Ersatzteile in Südosteuropa tätig werden und hat ein erwartetes Jahresvolumen von 2,4 Mio. EUR angemeldet. Das KYC-Verfahren stößt auf mehrere Auffälligkeiten: Der angegebene wirtschaftlich Berechtigte ist eine Holdinggesellschaft mit Sitz auf Zypern (Blue Harbor Holdings Ltd.), die erste Zahlung in Höhe von 187.500 EUR geht nicht vom Vertragspartner, sondern von einer dritten Gesellschaft (Adriatic Commerce Ltd., Malta) ein, und beim Screening des Geschäftsführers Andrei Moldovan taucht eine Namensähnlichkeit zu einem ehemaligen stellvertretenden Wirtschaftsminister auf.
-
-Parallel dazu stellt die Compliance-Abteilung eine Unstimmigkeit im Transparenzregister fest: Bei der deutschen Tochtergesellschaft Musterholding Immobilien GmbH weicht der dort eingetragene wirtschaftlich Berechtigte von der internen Gesellschafterliste ab. Die Landesaufsichtsbehörde Hessen (RP Darmstadt, Referat Geldwäscheaufsicht Güterhandel) fordert im selben Zeitraum eine umfangreiche Dokumentenvorlage an, darunter die aktualisierte Risikoanalyse, Schulungsnachweise und KYC-Unterlagen zu drei Hochrisikokunden.
-
-Die Geschäftsführung steht unter Zeitdruck, da der Distributor bereits erste Aufträge akquiriert hat. Der Geldwäschebeauftragte entscheidet sich nach interner Rücksprache mit dem Rechtsanwalt für eine Verdachtsmeldung an die Financial Intelligence Unit (FIU) via goAML-Portal, erlässt einen vorläufigen Transaktionsstopp und leitet die Behördenkommunikation ein.
-
----
-
-## Eckdaten
-
-| Merkmal | Inhalt |
-|---|---|
-| **Mandantin** | Musterholding GmbH, Gutleutstraße 44, 60329 Frankfurt am Main |
-| **HRB** | HRB 74281 B (Amtsgericht Frankfurt am Main) |
-| **Geschäftsführer** | Klaus-Dieter Brenner, Sabine Wollner |
-| **GwG-Status** | Verpflichtete gem. § 2 Abs. 1 Nr. 14, 16 GwG |
-| **Geldwäschebeauftragter** | Thomas Eckhardt (intern) |
-| **Beratungsmandat** | RA Dr. Franziska Heller, Kanzlei Heller & Schönfeld, Frankfurt |
-| **Risikokundenprofil** | Danube Trade Solutions SRL, Bukarest (Hochrisiko) |
-| **UBO (fraglich)** | Blue Harbor Holdings Ltd., Nikosia, Zypern |
-| **Drittzahler** | Adriatic Commerce Ltd., Valletta, Malta |
-| **Screening-Treffer** | Andrei Moldovan (GF) / Namensähnlichkeit PEP |
-| **Transaktionsbetrag (Alert)** | 187.500 EUR (Erstpayment, Drittzahler) |
-| **Verdachtsmeldung-Nr.** | VM-MH-2026-0041 |
-| **goAML-Eingang** | 19.05.2026 |
-| **Aktenzeichen Kanzlei** | 2026/AML/047-MH |
-| **Aufsichtsbehörde** | RP Darmstadt, Ref. IV/AML, Wilhelminenstr. 1–3, 64283 Darmstadt |
-| **Frist Behördenvorlag** | 05.06.2026 |
-| **Transparenzregister-Unstimmigkeit** | Musterholding Immobilien GmbH (HRB 88341 B) |
-| **Bearbeitungsstand** | Laufend (Stand: Mai 2026) |
-
----
-
-## Beteiligte
-
-| Person / Einheit | Rolle |
-|---|---|
-| Klaus-Dieter Brenner | Geschäftsführer Musterholding GmbH |
-| Sabine Wollner | Geschäftsführerin, zuständig Finanzen |
-| Thomas Eckhardt | Geldwäschebeauftragter (intern) |
-| RA Dr. Franziska Heller | Externe AML-Beraterin, Kanzlei Heller & Schönfeld |
-| Andrei Moldovan | GF Danube Trade Solutions SRL (Screening-Treffer) |
-| Blue Harbor Holdings Ltd. | Behaupteter UBO, Zypern |
-| Adriatic Commerce Ltd. | Drittzahler, Malta |
-| RP Darmstadt (Ref. IV/AML) | Aufsichtsbehörde für Güterhändler Hessen |
-| FIU (Bundeszollamt) | Empfänger der Verdachtsmeldung |
-| Bundeszentralamt für Steuern | Auskunftsbehörde Transparenzregister |
-
----
-
-## Zeitachse
-
-| Datum | Ereignis |
-|---|---|
-| 07.04.2026 | Erstkontakt Danube Trade Solutions SRL; Vertrieb meldet Anfrage an Compliance |
-| 14.04.2026 | Beginn KYC-Verfahren; Anforderung Registerauszüge und UBO-Selbstauskunft |
-| 22.04.2026 | Screening-Treffer Andrei Moldovan (PEP-Namensähnlichkeit) |
-| 28.04.2026 | Eingang Zahlung 187.500 EUR von Adriatic Commerce Ltd. (Drittzahler-Alert) |
-| 30.04.2026 | Internes Eskalations-E-Mail Compliance an GF (Akte 01_intake) |
-| 05.05.2026 | Mandatsgespräch RA Dr. Heller; Mandatsnotiz erstellt |
-| 08.05.2026 | Feststellung Transparenzregister-Unstimmigkeit Immobilien-Tochter |
-| 12.05.2026 | Eingang Auskunftsersuchen RP Darmstadt (Frist 05.06.2026) |
-| 15.05.2026 | Risikoanalyse aktualisiert und intern freigegeben |
-| 16.05.2026 | Mittelherkunftsanforderung an Danube Trade Solutions SRL |
-| 19.05.2026 | Verdachtsmeldung VM-MH-2026-0041 über goAML eingereicht |
-| 20.05.2026 | Transaktionsstopp angeordnet; Schreiben an RP Darmstadt vorbereitet |
-| 26.05.2026 | Mitarbeiterschulung AML/KYC durchgeführt |
-| 28.05.2026 | Internes Audit-Memo; Presseabteilung informiert |
-
----
-
-## Dateien in dieser Akte
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|
-| [README.md](README.md) | Diese Übersicht: Sachverhalt, Eckdaten, Zeitachse, Dateitabelle und Prüffokus |
-| [Fall_Übersicht_Onepager.pdf](Fall_Uebersicht_Onepager.pdf) | One-Pager mit Stammdaten, Eckdaten und Beteiligten (Druckversion) |
-| [Fall_Übersicht_Onepager.png](Fall_Uebersicht_Onepager.png) | One-Pager als PNG (Bildschirmversion) |
 | [Fall_Zeitstrahl_AML_Musterholding.pdf](Fall_Zeitstrahl_AML_Musterholding.pdf) | Zeitstrahl der Ereignisse 07.04.–28.05.2026 (Druckversion) |
 | [Fall_Zeitstrahl_AML_Musterholding.png](Fall_Zeitstrahl_AML_Musterholding.png) | Zeitstrahl als PNG (Bildschirmversion) |
-| [01_intake/email_compliance_leitung.txt](01_intake/email_compliance_leitung.txt) | Eskalations-E-Mail Compliance-Abteilung an GF |
-| [01_intake/email_compliance_eskalation_v2.txt](01_intake/email_compliance_eskalation_v2.txt) | Nachfass-E-Mail Compliance an GF (zweite Eskalationsstufe) |
-| [01_intake/email_vertrieb_eskalation.txt](01_intake/email_vertrieb_eskalation.txt) | Erstmeldung Vertrieb an Compliance zum Neukunden Danube |
-| [01_intake/email_bank_rueckfrage.txt](01_intake/email_bank_rueckfrage.txt) | E-Mail der Hausbank zur Drittzahlung Adriatic Commerce |
-| [01_intake/email_vorstand_klarstellung.txt](01_intake/email_vorstand_klarstellung.txt) | Interne Anfrage Geschäftsführung an Compliance |
-| [01_intake/mandatsnotiz_eingangsgespraech.docx](01_intake/mandatsnotiz_eingangsgespraech.docx) | Mandatsnotiz zum Eingangs­gespräch bei RA Dr. Heller (05.05.2026) |
+| [01_intake/email_compliance_leitung.eml](01_intake/email_compliance_leitung.eml) | Eskalations-E-Mail der Compliance-Leitung zur Drittzahlung und zur Beteiligungskette |
+| [01_intake/email_compliance_eskalation_v2.eml](01_intake/email_compliance_eskalation_v2.eml) | Nachfass-E-Mail der Compliance-Leitung an die Geschäftsführung |
+| [01_intake/email_vertrieb_eskalation.eml](01_intake/email_vertrieb_eskalation.eml) | E-Mail des Vertriebs zur ausstehenden Freigabe von Danube |
+| [01_intake/email_bank_rueckfrage.eml](01_intake/email_bank_rueckfrage.eml) | E-Mail der Hausbank zur Drittzahlung von Adriatic Commerce |
+| [01_intake/email_vorstand_klarstellung.eml](01_intake/email_vorstand_klarstellung.eml) | Interne Weisung der Geschäftsführung an Compliance |
 | [01_intake/mandatsvollmacht.pdf](01_intake/mandatsvollmacht.pdf) | Mandatsvollmacht zugunsten Kanzlei Heller & Schönfeld (PDF) |
 | [01_intake/sachverhaltsmemo.pdf](01_intake/sachverhaltsmemo.pdf) | Sachverhaltsmemo Kanzlei: chronologische Darstellung des Mandats |
-| [02_verpflichtetenstatus/branchenprofil.docx](02_verpflichtetenstatus/branchenprofil.docx) | Vermerk: Verpflichtetenstatus nach § 2 GwG, Sicherungspflichten |
+| [02_verpflichtetenstatus/branchenprofil.docx](02_verpflichtetenstatus/branchenprofil.docx) | Vermerk: Verpflichtetenstatus nach Paragraf  2 GwG, Sicherungspflichten |
 | [03_risikoanalyse/risikoanalyse_alt_2024.docx](03_risikoanalyse/risikoanalyse_alt_2024.docx) | Aktualisierte Risikoanalyse 2026 mit Risikomatrix |
 | [04_kyc/kunde_onboarding_rohdaten.docx](04_kyc/kunde_onboarding_rohdaten.docx) | KYC-Prüfformular Danube Trade Solutions SRL (ausgefüllt) |
 | [04_kyc/kyc_checkliste_danube_trade_solutions.xlsx](04_kyc/kyc_checkliste_danube_trade_solutions.xlsx) | XLSX: KYC-Checkliste mit Prüfschritten, Verantwortlichen und Status |
@@ -136,43 +73,22 @@ Die Geschäftsführung steht unter Zeitdruck, da der Distributor bereits erste A
 | [07_transaktionen/ungewöhnliche_zahlung.csv](07_transaktionen/ungewoehnliche_zahlung.csv) | Rohdaten Zahlungseingang Drittzahler |
 | [07_transaktionen/transaktionsmonitoring_alert.docx](07_transaktionen/transaktionsmonitoring_alert.docx) | Transaktionsmonitoring-Alert-Bericht (Drittzahlung 187.500 EUR) |
 | [07_transaktionen/transaktionshistorie_12monate_danube.xlsx](07_transaktionen/transaktionshistorie_12monate_danube.xlsx) | XLSX: 12-Monats-Transaktionshistorie Danube mit Anomalie-Flags |
-| [08_mittelherkunft/source_of_funds_antwort.txt](08_mittelherkunft/source_of_funds_antwort.txt) | Rohdaten Mittelherkunftsantwort |
+| [07_transaktionen/telefonvermerk_hausbank_carpathian_2026-05-22.docx](07_transaktionen/telefonvermerk_hausbank_carpathian_2026-05-22.docx) | Telefonvermerk zur zweiten Drittzahlung über 480000 Euro von Carpathian Consulting LLC und deren Separierung |
+| [08_mittelherkunft/source_of_funds_antwort.eml](08_mittelherkunft/source_of_funds_antwort.eml) | Antwort zur Drittzahlung und zu noch fehlenden Mittelherkunftsbelegen |
 | [08_mittelherkunft/mittelherkunftsnachweis_anforderung.docx](08_mittelherkunft/mittelherkunftsnachweis_anforderung.docx) | Schreiben: Anforderung Mittelherkunftsnachweis an Danube Trade |
-| [08_mittelherkunft/email_an_adriatic_commerce.txt](08_mittelherkunft/email_an_adriatic_commerce.txt) | E-Mail an Adriatic Commerce Ltd. zur Klärung der Drittzahlung |
+| [08_mittelherkunft/email_an_adriatic_commerce.eml](08_mittelherkunft/email_an_adriatic_commerce.eml) | E-Mail an Adriatic Commerce Ltd. zur Klärung der Drittzahlung |
 | [09_verdachtsmeldung/goaml_entwurfsnotiz.docx](09_verdachtsmeldung/goaml_entwurfsnotiz.docx) | Vollständige Verdachtsmeldung (SAR) an FIU, VM-MH-2026-0041 |
-| [09_verdachtsmeldung/email_fiu_eingangsbestaetigung.txt](09_verdachtsmeldung/email_fiu_eingangsbestaetigung.txt) | Eingangsbestätigung FIU zur Verdachtsmeldung VM-MH-2026-0041 |
+| [09_verdachtsmeldung/email_fiu_eingangsbestaetigung.eml](09_verdachtsmeldung/email_fiu_eingangsbestaetigung.eml) | Eingangsbestätigung der FIU zur Verdachtsmeldung VM-MH-2026-0041 |
 | [10_transparenzregister/unstimmigkeit_register.docx](10_transparenzregister/unstimmigkeit_register.docx) | Unstimmigkeitsmeldung Transparenzregister Immobilien-Tochter |
 | [11_behoerde/auskunftsersuchen_landesaufsicht.docx](11_behoerde/auskunftsersuchen_landesaufsicht.docx) | Antwortschreiben an RP Darmstadt (Aufsichtsbehörde) |
-| [11_behoerde/email_kanzlei_update_mandant.txt](11_behoerde/email_kanzlei_update_mandant.txt) | Kanzlei-Update an Mandant zum Stand des Behördenverfahrens |
+| [11_behoerde/email_kanzlei_update_mandant.eml](11_behoerde/email_kanzlei_update_mandant.eml) | Kanzlei-Update an den Mandanten zum Stand des Behördenverfahrens |
 | [12_schulung/schulungsstand.csv](12_schulung/schulungsstand.csv) | Schulungsstand-Übersicht Mitarbeiter |
 | [12_schulung/schulungsunterlage_aml_kyc.docx](12_schulung/schulungsunterlage_aml_kyc.docx) | Schulungsunterlage Geldwäscheprävention für Mitarbeiter |
 | [12_schulung/schulungstracking_2025_2026.xlsx](12_schulung/schulungstracking_2025_2026.xlsx) | XLSX: Schulungstracking 2025/2026 mit Quoten und Auffrischungsfristen |
 | [13_audit/internal_audit_findings.docx](13_audit/internal_audit_findings.docx) | Internes Audit-Memo AML-Compliance |
-| [14_presse/presseanfrage.txt](14_presse/presseanfrage.txt) | Eingehende Presseanfrage |
+| [14_presse/presseanfrage.eml](14_presse/presseanfrage.eml) | Eingehende Presseanfrage mit Fragenkatalog und Antwortfrist |
 | [14_presse/krisenkommunikation_entwurf.docx](14_presse/krisenkommunikation_entwurf.docx) | Entwurf Krisenkommunikation / Pressemitteilung |
 | [09_verdachtsmeldung/verdachtsmeldung_FIU.docx](09_verdachtsmeldung/verdachtsmeldung_FIU.docx) | DOCX: Verdachtsmeldung SAR (druckfertig) |
 | [11_behoerde/antwort_rp_darmstadt.docx](11_behoerde/antwort_rp_darmstadt.docx) | DOCX: Schreiben an RP Darmstadt / BaFin |
 | [03_risikoanalyse/risikoanalyse_2026.docx](03_risikoanalyse/risikoanalyse_2026.docx) | DOCX: Risikoanalyse 2026 (Vorlage für Behörde) |
 | [03_risikoanalyse/risikomatrix_2026.xlsx](03_risikoanalyse/risikomatrix_2026.xlsx) | XLSX: Risikomatrix mit Bewertungsfeldern |
-
----
-
-## Prüffokus
-
-Diese Akte vermittelt den vollständigen Compliance-Workflow nach dem deutschen Geldwäschegesetz (GwG) in einem mittelständischen Unternehmen:
-
-1. **Verpflichtetenstatus** — Wie ermittelt ein Unternehmen, ob und nach welchem Tatbestand des § 2 GwG es verpflichtet ist, und welche Sicherungspflichten gem. §§ 4–17 GwG daraus folgen.
-2. **Risikoanalyse** — Aufbau einer GwG-konformen Risikoanalyse (§ 5 GwG) mit Risikokategorien, Risikomatrix und Freigabeprozess.
-3. **KYC/CDD** — Durchführung der Sorgfaltspflichten (§§ 10–13 GwG): Identifizierung, Vertragspartnerprüfung, UBO-Ermittlung, vereinfachte vs. verstärkte Sorgfalt.
-4. **UBO-Durchleuchtung** — Analyse komplexer Beteiligungsstrukturen (Offshore-Holding), Transparenzregister-Abgleich, Dokumentationspflicht.
-5. **PEP/Sanktionsscreening** — Trefferanalyse, False-Positive-Entscheidung, Vier-Augen-Prinzip, Dokumentation.
-6. **Transaktionsmonitoring** — Erkennung und Dokumentation ungewöhnlicher Zahlungen (§ 15 GwG), Drittzahlungsrisiko.
-7. **Verdachtsmeldung (SAR)** — Aufbau einer vollständigen Verdachtsmeldung nach § 43 GwG über das goAML-Portal der FIU.
-8. **Behördenverkehr** — Reaktion auf ein Auskunftsersuchen der Landesaufsicht; Vorlagefristen, Dokumentenpakete.
-9. **Transparenzregister** — Unstimmigkeitsmeldungspflicht (§ 23a GwG) und Korrekturverfahren.
-10. **Schulung und Audit** — GwG-Schulungspflicht (§ 6 Abs. 2 Nr. 6 GwG) und internes Prüfwesen.
-11. **Krisenkommunikation** — Umgang mit Medienanfragen im AML-Kontext ohne Verletzung der Meldepflicht-Vertraulichkeit (§ 47 GwG).
-
----
-
-## Disclaimer

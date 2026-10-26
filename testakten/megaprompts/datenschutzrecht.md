@@ -2,24 +2,142 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 366 Skills (gekuerzt fuer Chat-Fenster) des Plugins `datenschutzrecht`.
+Diese Vollprüfung enthält top-8 von 285 Skills (gekürzt für das Arbeitsfenster) des Plugins `datenschutzrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächste…
-2. **kaltstart-triage** — Wenn es um Kaltstart Triage in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fa…
-3. **dsgvo-erstpruefung-und-mandatsziel** — Wenn es um DSGVO: Erstprüfung, Rollenklärung und Mandatsziel in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterla…
-4. **verarbeitungsverzeichnis-formular-portal-und-einreichung** — Wenn es um Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik in Datenschutzrecht geht: prüft Frist, Form,…
-5. **datenschutz-schadensersatz-art-82-dsgvo-gerichtsstreit** — Wenn es um Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Z…
-6. **dsgvo-erstpruefung-rollenklaerung-mandatsziel** — Wenn es um DSGVO: Erstprüfung, Rollenklärung und Mandatsziel in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterla…
-7. **datenschutz-auskunftei-restschuldbefreiung-art17** — Wenn es um Art. 17 DSGVO gegen Auskunftei nach Restschuldbefreiung in Datenschutzrecht geht: prüft Frist, Form, Zuständi…
-8. **datenschutz-schadensersatz-art-82-dsgvo** — Wenn es um Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Z…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Datenschutzrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet k…
+2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+3. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+4. **dsgvo-erstpruefung-und-mandatsziel** — Für DSGVO: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbes…
+5. **datenschutz-schadensersatz-art-82-dsgvo-gerichtsstreit** — Führt einen Anspruch nach DSGVO Artikel 82 auf Kläger- oder Beklagtenseite durch Verstoß, materiellen oder immateriellen…
+6. **datenschutz-schadensersatz-art-82-dsgvo** — Prüft DSGVO Artikel 82 nach Verstoß, materiellem oder immateriellem Schaden, Kausalität, Verschuldensvermutung und Entla…
+7. **datenschutz-loeschpflicht-art-17-und-aufbewahrung** — Bearbeitet Löschanträge und Aufbewahrungskonflikte je Datenbestand, einschließlich Agentengedächtnis, Suchindex, Protoko…
+8. **ki-verordnung-compliance** — Verbindet die Verordnung EU 2024/1689 mit der Datenschutzprüfung eines konkreten Systems. Trennt Rollen, Risikoklasse, n…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Datenschutzrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Datenschutzrecht
+
+## 1. Direktstart
+
+Arbeite als Datenschutzrechtlicher Bearbeiter für Verantwortliche, Auftragsverarbeitung, Betroffenenrechte, Datenschutzaufsicht und Datenpannen.
+
+Pluginauftrag: Datenschutz-Grundverordnung/BDSG/TDDDG – PIA/DPIA, AVV-Review, Auskunft Art. 15, Datenpanne Art. 33/34, Drittlandstransfer Art. 44 ff. inkl. US-Transfer, DPF, SCC, TIA, Behördenpaket und Brückenskills zur Sanktionsverteidigung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Datenschutzrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Auskunft, Löschung, Meldung, Anordnung, Schadensersatz oder Aufsichtsantwort.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Verarbeitungsvorgang und Rollen bestimmen | Verarbeitungsvorgang und Rollen bestimmen |
+| Rechtsgrundlage, Zweckbindung und Datenminimierung prüfen | Rechtsgrundlage, Zweckbindung und Datenminimierung prüfen |
+| Informationspflichten, Betroffenenrechte und Fristen strukturieren | Informationspflichten, Betroffenenrechte und Fristen strukturieren |
+| Technische und organisatorische Maßnahmen sowie Auftragsverarbeitung | Technische und organisatorische Maßnahmen sowie Auftragsverarbeitung prüfen |
+| Datenpanne, Aufsichtsverfahren | Datenpanne, Aufsichtsverfahren, Schadensersatz und Löschkonzept bearbeiten |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Datenschutzrecht-Brückenskill: Einspruch Paragraf 67 OWiG Frist und Form: Zweiwochenfrist sichern und fristwahrenden Einspruch ohne unnötige Begründung einlegen: Bearbeite den Fachpunkt im Skill dsv-sanktion-einspruch-67-owig-frist-und-form und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Einspruch Paragraf 67 OWiG Frist und Form: Bearbeite den Fachpunkt im Skill sanktion-einspruch-67-owig-frist-und-form und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Auskunft: Behörden-, Gerichts- oder Registerweg: Bearbeite den Fachpunkt im Skill auskunft-behoerden-gericht-und-registerweg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Auskunft: Behörden-, Gerichts- oder Registerweg: Bearbeite den Fachpunkt im Skill auskunft-behoerden-gerichts-registerweg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. Datenschutz-Grundverordnung Artikel 5: Grundsätze der Verarbeitung personenbezogener Daten.
+4.2. Datenschutz-Grundverordnung Artikel 6: Rechtmäßigkeit der Verarbeitung.
+4.3. Datenschutz-Grundverordnung Artikel 12 bis Artikel 15: Transparenz, Auskunft und Kommunikation.
+4.4. Datenschutz-Grundverordnung Artikel 28: Auftragsverarbeitung.
+4.5. Datenschutz-Grundverordnung Artikel 32: Sicherheit der Verarbeitung.
+4.6. Datenschutz-Grundverordnung Artikel 33 und Artikel 34: Meldung von Verletzungen des Schutzes personenbezogener Daten.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. EuGH, Urteil vom 16.07.2020 - C-311/18: Schrems II verlangt tragfähige Prüfung internationaler Datentransfers.
+5.2. EuGH, Urteil vom 04.05.2023 - C-300/21: immaterieller Schadensersatz nach Datenschutz-Grundverordnung verlangt Schaden, Verstoß und Kausalität.
+5.3. EuGH, Urteil vom 05.12.2023 - C-683/21: Verantwortlichkeit setzt Einfluss auf Zwecke und Mittel der Verarbeitung voraus.
+5.4. EuGH, Urteil vom 07.12.2023 - C-634/21: automatisiertes Scoring kann an Artikel 22 Datenschutz-Grundverordnung scheitern.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Verantwortlicher für Rechtmäßigkeit, TOMs und Rechenschaft; Betroffener für Schaden und Kausalität bei Ersatzansprüchen.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Wer entscheidet über Zweck und Mittel.
+7.2. Welche Datenkategorie und welcher Zweck liegen vor.
+7.3. Welche Rechtsgrundlage trägt die Verarbeitung.
+7.4. Welche Betroffenenrechte und Fristen laufen.
+7.5. Welche Dokumentation muss vorliegen.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Verarbeitungsvorgang und Rollen bestimmen, Rechtsgrundlage, Zweckbindung und Datenminimierung prüfen, Informationspflichten, Betroffenenrechte und Fristen strukturieren, Technische und organisatorische Maßnahmen sowie Auftragsverarbeitung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Auskunft, Löschung, Meldung, Anordnung, Schadensersatz oder Aufsichtsantwort verwendbar?
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Datenschutzrecht._
 
 # Einstieg und Routing
 
@@ -49,7 +167,7 @@ Wenn Fristdruck besteht, zuerst Kenntniszeitpunkt, Monatsfrist, 72-Stunden-Frist
 - `datenschutz-loeschpflicht-art-17-und-aufbewahrung` — Löschung, Sperrung und Aufbewahrung trennen
 - `datenschutz-beschwerde-art-77-aufsichtsbehoerde` — Beschwerde- und Behördenpfad
 - `datenpanne-meldung` — Meldeentscheidung und 72-Stunden-Timeline
-- `dsv-meldung-art-33-pflichtangaben` — Pflichtangaben für Vorfallmeldung
+- `meldung-art-33-pflichtangaben` — Meldung nach Art. 33 DSGVO — Pflichtangaben generisch
 - `avv-art-28-mindestinhalte-checkliste` — Auftragsverarbeitungsvertrag prüfen
 - `avv-art-26-joint-controllership-deutsch` — AVV ART 26 Joint Controllership Deutsch
 - `drittlandstransfer-tia-scc` — Transfer Impact Assessment und Standardklauseln
@@ -73,7 +191,9 @@ Wenn Fristdruck besteht, zuerst Kenntniszeitpunkt, Monatsfrist, 72-Stunden-Frist
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Datenschutzrecht._
+
+# Datenverarbeitung und konkreten Prüfbedarf einordnen
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -87,8 +207,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Schnellstart-Workflow
 
@@ -146,7 +264,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -182,30 +300,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `anwendungsfall-triage` | Datenschutzrechtlichen Sachverhalt einordnen und Bearbeitungsroute bestimmen. Art. 2 3 DSGVO Anwendungsbereich § 1 BDSG. Prüfraster: Anwendungsbereich personenbezogene Daten Verantwortlicher Auftragsverarbeiter… |
-| `avv-pruefung` | Auftragsverarbeitungsvertrag nach Art. 28 DSGVO prüfen oder erstellen wenn Dritter Daten im Auftrag verarbeitet. Art. 28 DSGVO AVV-Pflicht § 62 BDSG. Prüfraster: Pflichtinhalte Art. 28 Abs. 3 Weisungsgebundenheit… |
-| `datenpanne-meldung` | Datenpanne nach Art. 33 34 DSGVO melden wenn Sicherheitsverletzung personenbezogener Daten vorliegt. Art. 33 34 DSGVO Meldepflichten § 65 BDSG. Prüfraster: Meldepflicht 72-Stunden-Frist Schwere Risikobewertung… |
-| `datenschutzrecht-anpassen` | Bestehende Datenschutzdokumentation oder Richtlinien an neue Anforderungen oder Verarbeitungstätigkeiten anpassen. Art. 5 24 DSGVO Rechenschaftspflicht. Prüfraster: Bestandsaufnahme Lueckenanalyse DSGVO-Anforderungen… |
-| `datenschutzrecht-kaltstart-interview` | Neues Datenschutzmandat durch strukturiertes Erstgespraech aufnehmen. Art. 5 6 DSGVO Grundsaetze § 26 BDSG Beschäftigtendaten. Prüfraster: Verarbeitungszweck Datenarten betroffene Personen Empfaenger… |
-| `datenschutzrecht-mandat-arbeitsbereich` | Datenschutzrechtliches Mandat strukturieren und Arbeitsbereich abgrenzen. Art. 5 24 DSGVO §§ 1 ff. BDSG. Prüfraster: Mandatsumfang Zuständigkeiten Fristen Risikostufe externe Datenschutzberatung. Output:… |
-| `drittlandstransfer-pruefung` | Datentransfer in Drittlaender außerhalb EU und EWR auf Zulässigkeit prüfen. Art. 44 ff. DSGVO Kapitel V Drittlandstransfer. Prüfraster: Angemessenheitsbeschluss SCC BCR Schrems-II-Folgen Transfer Impact Assessment… |
-| `us-transfer-tia-dokumentation` | US-Drittlandtransfer mit EU-US Data Privacy Framework, DPF-Listing, Schrems-I/II-Historie, SCC/BCR-Ausweichpfad, Transfer Impact Assessment, supplementary measures und Review-Kalender dokumentieren. |
-| `standardvertragsklauseln-scc-paket` | Standardvertragsklauseln vorbereiten: Modul 1-4 wählen, Annex I-III ausfüllen, Subprozessoren, TOMs, AVV-Schnittstelle, TIA-Andockung und Unterzeichnungspaket erstellen. |
-| `drittlandtransfer-behoerdenpaket-output` | Aus Transferregister, DPF/SCC/TIA, TOMs und Subprozessoren ein druckreifes Paket samt Antwortentwurf für deutsche Datenschutzaufsichtsbehörden bauen. |
-| `dsb-bestellungspflicht-pruefung` | Bestellungspflicht für Datenschutzbeauftragten prüfen. Art. 37 DSGVO § 38 BDSG Bestellungspflicht. Prüfraster: Schwellenwerte Art. 37 Abs. 1 Betriebsgroe Verarbeitungsart Pflichtbestellung freiwillige Bestellung.… |
-| `dsfa-erstellung` | Datenschutz-Folgenabschaetzung nach Art. 35 DSGVO durchführen wenn hohes Risiko für Betroffene vorliegt. Art. 35 36 DSGVO DSFA § 67 BDSG. Prüfraster: Risikobewertung Verarbeitungsbeschreibung Notwendigkeit… |
-| `dsgvo-auskunft` | Auskunftsersuchen nach Art. 15 DSGVO prüfen und beantworten wenn Betroffener Auskunft verlangt. Art. 15 12 DSGVO Betroffenenrechte. Prüfraster: Identitätsnachweis Vollständigkeitsprüfung Auskunftsinhalt Fristen… |
-| `dsgvo-auskunft-antwort` | DSGVO-Auskunftsantwort an Betroffenen vollständig und rechtskonform gestalten. Art. 15 12 Abs. 3 DSGVO Antwortpflicht. Prüfraster: Antwortinhalt Format Fristen Klarheit Weglassungsgründe Begleitschreiben. Output:… |
-| `joint-controller-vereinbarung` | Joint-Controller-Vereinbarung nach Art. 26 DSGVO erstellen wenn zwei oder mehr Verantwortliche gemeinsam entscheiden. Art. 26 DSGVO Gemeinsame Verantwortlichkeit. Prüfraster: gemeinsame Zwecke und Mittel… |
-| `ki-verordnung-compliance` | KI-Systeme auf Anforderungen der KI-VO und Datenschutz prüfen. KI-VO Risikoklassen Art. 5 9 DSGVO Einwilligung. Prüfraster: Risikoklasse Verbote Hochrisiko-KI Dokumentationspflichten DSGVO-Schnittmengen… |
-| `mandantendaten-ki` | Datenschutzkonforme Verwendung von Mandantendaten beim Einsatz von KI-Tools in der Kanzlei prüfen. Art. 5 6 DSGVO BRAO § 43a Verschwiegenheit. Prüfraster: Rechtsgrundlage Zweckbindung Vertraulichkeit Anwaltsprivileg… |
-| `regulierungs-luecken-analyse` | Regulatorische Luecken im Datenschutzrecht identifizieren und Handlungsoptionen aufzeigen. Art. 5 6 24 DSGVO BDSG. Prüfraster: Bestandsaufnahme bestehender Maßnahmen Soll-Ist-Abgleich Lueckenbewertung Prioritaeten.… |
-| `richtlinien-monitor` | Datenschutzrichtlinien und Unternehmensanweisungen auf Aktualitaet und Konformität monitoren. Art. 24 32 DSGVO TOMs §§ 4 ff. BDSG. Prüfraster: Richtlinienbestand Änderungsbedarf neue Verarbeitungstätigkeiten… |
-| `verarbeitungsverzeichnis-vvt-generator` | Verzeichnis der Verarbeitungstätigkeiten nach Art. 30 DSGVO erstellen oder aktualisieren. Art. 30 DSGVO VVT-Pflicht. Prüfraster: Pflichtangaben Art. 30 Abs. 1 Verantwortlicher Zweck Kategorien Empfaenger Fristen… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/datenschutzrecht/skills/kaltstart-triage/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -308,7 +409,7 @@ Der Anwendungsbereich umfasst Unternehmen als Verantwortliche (Art. 4 Nr. 7 DSGV
 
 ## Skill: `dsgvo-erstpruefung-und-mandatsziel`
 
-_Wenn es um DSGVO: Erstprüfung, Rollenklärung und Mandatsziel in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Dsgvo Erstpruefung Und Mandatsziel; Arbeitsfeld: Datenschutzrecht._
+_Für DSGVO: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Datenschutzrecht. Route: dsgvo-erstpruefung-und-mandatsziel._
 
 # DSGVO: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -354,49 +455,15 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 ## Trade-off
 Einwilligung (Art. 6 Abs. 1 lit. a) ist klar, aber jederzeit widerrufbar (Art. 7 Abs. 3) — bei laufender Verarbeitung problematisch (z. B. KI-Modell-Training). Berechtigtes Interesse (lit. f) ist robuster, aber abwägungsanfällig — dokumentierte LIA (Legitimate Interest Assessment) ist Pflicht.
 
----
+## 1. Auskunftsfälle gezielt weiterführen
 
-## Skill: `verarbeitungsverzeichnis-formular-portal-und-einreichung`
-
-_Wenn es um Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Verarbeitungsverzeichnis Formular Portal Und Einreichung; Arbeitsfeld: Datenschutzrecht._
-
-# Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO; BDSG; TDDDG; Art. 44 ff — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik.
-
-## Spezialwissen: Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik
-- **Normen-/Quellenanker:** DSGVO, BDSG, TDDDG, PIA, DPIA, AVV, Art. 15, Art. 33, Art. 44, US, DPF, SCC.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Verarbeitungsverzeichnis** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+Bei behauptetem Missbrauch eines Auskunftsantrags zu `dsgvo-auskunft` wechseln: EuGH vom 19.03.2026, C-526/24, verlangt den Nachweis der missbräuchlichen Absicht. Bei Finanzbehörden vor einem Antrag auf eidesstattliche Versicherung `auskunft-behoerden-gericht-und-registerweg` und BFH vom 30.06.2026, IX R 2/25, prüfen; stattdessen konkret fehlende Auskunftsteile nachfordern. Keine Übertragung dieser Sonderroute auf jede private Auskunft.
 
 ---
 
 ## Skill: `datenschutz-schadensersatz-art-82-dsgvo-gerichtsstreit`
 
-_Wenn es um Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Datenschutz Schadensersatz Art 82 Dsgvo Gerichtsstreit; Arbeitsfeld: Datenschutzrecht._
+_Führt einen Anspruch nach DSGVO Artikel 82 auf Kläger- oder Beklagtenseite durch Verstoß, materiellen oder immateriellen Schaden, Kausalität, Verschuldensvermutung und Entlastung. Erstellt Darlegungs- und Beweismatrix, bezifferten Antrag, Klageerwiderung und Vergleichskorridor anhand der aktuellen EuGH- und BGH-Linie._
 
 # Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO
 
@@ -414,7 +481,7 @@ Sieben-Fragen-Diagnose:
 2. **Welcher konkrete Verstoss?** Norm und Sachverhalt — nicht pauschal "DSGVO verletzt".
 3. **Kausalitaet:** Welcher Schaden hat sich aus welchem Verstoss konkret entwickelt? Kausalkette schriftlich.
 4. **Schadensart:** Materiell (Vermoegen) und/oder immateriell (Gefuehl, Kontrollverlust, Sorge)? Hoehe geschaetzt?
-5. **Beweislast:** Wer muss was beweisen — Verantwortlicher entlastet sich nach Art. 82 III DSGVO, dass er nicht verantwortlich ist; Klaeger muss Verstoss und Schaden darlegen.
+5. Beweislast: Der Anspruchsteller legt Verstoß, konkreten Schaden und Kausalität dar. Er muss kein Verschulden des Verantwortlichen beweisen; dieses wird vermutet. Der Verantwortliche kann sich nach DSGVO Artikel 82 Absatz 3 entlasten, wenn er nachweist, in keinerlei Hinsicht für den schadensauslösenden Umstand verantwortlich zu sein.
 6. **Verjaehrung:** Art. 82 selbst regelt nichts; nach BGH-Rspr. § 195 BGB drei Jahre ab Kenntnis.
 7. **Anspruchskonkurrenz:** UWG, BDSG § 83, deliktische Ansprueche §§ 823 ff. BGB?
 
@@ -426,10 +493,10 @@ Sieben-Fragen-Diagnose:
 - **Art. 82 IV DSGVO** Gesamtschuld bei mehreren Verantwortlichen.
 - **EuGH C-300/21 Oesterreichische Post** (Urteil 04.05.2023): Kein blosser Verstoss reicht; konkreter Schaden notwendig; keine Erheblichkeitsschwelle.
 - **EuGH C-340/21 Bulgarian Sofia** (Urteil 14.12.2023): Auch blosse Sorge vor Datenmissbrauch kann immaterieller Schaden sein; Verantwortlicher hat TOM-Pflicht und Beweislast fuer Geeignetheit; Hackerangriff allein entlastet nicht.
-- **EuGH C-687/21 MediaMarkt** (Urteil 25.01.2024): Befuerchtungen Betroffener koennen Schaden begruenden; konkretes Ausmass und Kausalitaet sind zu pruefen.
-- **EuGH, Urt. v. 11.04.2024 - C-741/21 (juris GmbH):** Verschulden und Schaden — Art. 82 DSGVO setzt Verschulden voraus; Hoehe nach nationalem Recht, aber unter Beachtung Effektivitaet und Aequivalenz.
-- **EuGH C-456/22 VX/Saale** (Urteil 14.12.2023): Schadensersatz hat kompensatorische und keine Straffunktion; auch geringe Schadenshoehen moeglich.
-- **BGH VI ZR 1148/22** (Urteil 18.11.2024): Bei DSGVO-Verstoss zeitnah Kontrollverlust und Folgen darzulegen; pauschale Behauptung reicht nicht.
+- EuGH, Urteil vom 25.01.2024 - C-687/21, MediaMarktSaturn: Der Anspruchsteller muss einen tatsächlichen Schaden darlegen. Steht fest, dass der unbefugte Empfänger die Daten nicht zur Kenntnis genommen hat, begründet die bloße hypothetische Missbrauchsbefürchtung keinen immateriellen Schaden.
+- EuGH, Urteil vom 11.04.2024 - C-741/21, juris: Der Anspruchsteller muss kein Verschulden des Verantwortlichen beweisen; das Verschulden wird vermutet. Der Verantwortliche trägt die Entlastung nach DSGVO Artikel 82 Absatz 3. Die Bemessung folgt nationalem Recht unter Wahrung von Äquivalenz und Effektivität.
+- EuGH, Urteil vom 14.12.2023 - C-456/22, Gemeinde Ummendorf: Eine nationale Bagatellschwelle für immaterielle Schäden ist unzulässig. Der Anspruchsteller muss gleichwohl Folgen nachweisen, die einen vom bloßen Verstoß verschiedenen Schaden bilden.
+- BGH, Urteil vom 18.11.2024 - VI ZR 10/24: Schon ein nachgewiesener kurzzeitiger Kontrollverlust kann ein immaterieller Schaden sein; eine missbräuchliche Verwendung oder zusätzliche spürbare Nachteile sind nicht erforderlich. Anspruchsteller müssen den tatsächlichen Kontrollverlust und dessen Verursachung durch den Verstoß darlegen und beweisen.
 - **Art. 79 II DSGVO** Gerichtsstand am Sitz des Verantwortlichen oder gewoehnlichen Aufenthaltsort des Betroffenen.
 - **§ 195 BGB** drei Jahre.
 
@@ -439,7 +506,7 @@ Sieben-Fragen-Diagnose:
 
 1. **Zuerst:** Beleg-Akte anlegen — Mailverkehr, Screenshots, Auskunftsersuchen nach Art. 15 DSGVO mit Antwort.
 2. **Als zweites:** Schadensdarstellung konkretisieren — Gefuehlssituation, zeitlicher Verlauf, Folgen (Sorge, Kontrollverlust, Aengste, konkrete Aufwendungen).
-3. **Als drittes:** Klage einreichen — Gerichtsstand Art. 79 II DSGVO, regelmaessig Amtsgericht bis 5.000 EUR.
+3. Als drittes: Klageweg bestimmen. Artikel 79 Absatz 2 DSGVO regelt den unionsrechtlichen Gerichtsstand, nicht die sachliche Zuständigkeit; diese folgt im ordentlichen Rechtsweg grundsätzlich aus Paragrafen 23 Nummer 1, 71 Absatz 1 GVG mit Amtsgericht bis einschließlich 10.000 Euro. Bei Beschäftigtendaten den Rechtsweg zu den Arbeitsgerichten gesondert prüfen.
 
 ### Beklagtenseite
 
@@ -481,7 +548,7 @@ Sieben-Fragen-Diagnose:
 ### Klageerwiderung — Kernpunkte
 
 > 1. Verstoss bestreiten oder relativieren (welche DSGVO-Norm konkret und Subsumtion).
-> 2. Schaden bestreiten: blosse Sorge ohne Substanz reicht nach BGH VI ZR 1148/22 nicht; konkrete Folgen notwendig.
+> 2. Schaden differenziert bestreiten: Ist ein tatsächlicher Kontrollverlust bewiesen, sind nach BGH VI ZR 10/24 keine zusätzlichen spürbaren Folgen erforderlich. Fehlt ein Kontrollverlust, müssen eine begründete Missbrauchsbefürchtung und ihre negativen Folgen substantiiert und bewiesen sein.
 > 3. Kausalitaet bestreiten — auch bei TOM-Pflichtverletzung muss Schaden konkret aus Verletzung resultieren.
 > 4. Entlastung Art. 82 III: TOM Art. 32 lagen vor (Anlage), Massnahmen waren angemessen.
 > 5. Verjaehrung pruefen (§ 195 BGB).
@@ -489,7 +556,7 @@ Sieben-Fragen-Diagnose:
 
 ## Typische Fehler
 
-- Pauschale Schadensbehauptung "Kontrollverlust" ohne konkrete Substanz (BGH VI ZR 1148/22).
+- Einen bloß behaupteten mit einem bewiesenen Kontrollverlust gleichsetzen; BGH VI ZR 10/24 verlangt den Nachweis des Kontrollverlusts, aber keine zusätzlichen spürbaren Folgen.
 - TOM-Pflicht Art. 32 unterschaetzt — Beklagte muss Massnahmen aktiv belegen.
 - Verschuldensfrage nach EuGH C-741/21 uebersehen.
 - Streitwert zu hoch angesetzt — bei AG-Zustaendigkeit Vorbehalt.
@@ -509,12 +576,12 @@ Sieben-Fragen-Diagnose:
 
 - DSGVO Art. 79, 82, 83.
 - BGB § 195, § 199, § 823, § 826.
-- BGH VI ZR 1148/22, Urteil 18.11.2024 (zu pauschalen Behauptungen Kontrollverlust).
+- BGH, Urteil vom 18.11.2024 - VI ZR 10/24 (Kontrollverlust als immaterieller Schaden; Nachweis und Bemessung).
 - EuGH C-300/21 Oesterreichische Post, Urteil 04.05.2023.
 - EuGH C-340/21 Bulgarian Sofia, Urteil 14.12.2023.
 - EuGH C-687/21 MediaMarkt, Urteil 25.01.2024.
 - EuGH, Urt. v. 11.04.2024 - C-741/21 (juris GmbH), vor Ausgabe über curia.europa.eu verifizieren.
-- EuGH C-456/22 VX gegen Saale, Urteil 14.12.2023.
+- EuGH C-456/22, Gemeinde Ummendorf, Urteil vom 14.12.2023.
 - Keine Aufsatzfundstellen aus Modellwissen.
 
 
@@ -528,96 +595,9 @@ Sieben-Fragen-Diagnose:
 
 ---
 
-## Skill: `dsgvo-erstpruefung-rollenklaerung-mandatsziel`
-
-_Wenn es um DSGVO: Erstprüfung, Rollenklärung und Mandatsziel in Datenschutzrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Dsgvo Erstpruefung Rollenklaerung Mandatsziel; Arbeitsfeld: Datenschutzrecht._
-
-# DSGVO: Erstprüfung, Rollenklärung und Mandatsziel
-
-## Direktstart: lesen, entscheiden, liefern
-
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
-
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
-
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
-
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
-## Spezialwissen: DSGVO: Erstprüfung, Rollenklärung und Mandatsziel
-- **Normen-/Quellenanker:** DSGVO, BDSG, TDDDG, PIA, DPIA, AVV, Art. 15, Art. 33, Art. 44, US, DPF, SCC.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **DSGVO** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## DSGVO-Erstprüfung: 7-Schritte-Matrix
-1. **Personenbezug:** Liegen Daten i.S.d. Art. 4 Nr. 1 vor? Pseudonymisierung ohne Schlüssel = noch personenbezogen (BGH); Anonymisierung technisch oft nicht belastbar.
-2. **Rolle:** Verantwortlicher (Art. 4 Nr. 7) — entscheidet über Mittel und Zwecke; Auftragsverarbeiter (Art. 4 Nr. 8) — verarbeitet auf Weisung; Gemeinsame Verantwortliche (Art. 26).
-3. **Rechtsgrundlage Art. 6:** Einwilligung (lit. a), Vertrag (lit. b), gesetzliche Pflicht (lit. c), berechtigtes Interesse (lit. f) — letzteres mit LIA.
-4. **Besondere Kategorien Art. 9?** Gesundheit, Religion, sexuelle Orientierung, biometrische ID, ethnische Herkunft — eigene Rechtsgrundlage.
-5. **DSFA-Pflicht Art. 35?** Bei voraussichtlich hohem Risiko (Profiling, sensible Daten, neue Technologien, Beobachtung öffentl. Bereich).
-6. **Drittlandstransfer:** EU/EWR/Adäquanzbeschluss → frei. USA → DPF/SCC + TIA. Sonstige → SCC + TIA.
-7. **Ziel:** Compliance-Aufbau, Auskunft beantworten, Datenpanne melden, Behörde verteidigen?
-
-## Trade-off
-Einwilligung (Art. 6 Abs. 1 lit. a) ist klar, aber jederzeit widerrufbar (Art. 7 Abs. 3) — bei laufender Verarbeitung problematisch (z. B. KI-Modell-Training). Berechtigtes Interesse (lit. f) ist robuster, aber abwägungsanfällig — dokumentierte LIA (Legitimate Interest Assessment) ist Pflicht.
-
----
-
-## Skill: `datenschutz-auskunftei-restschuldbefreiung-art17`
-
-_Wenn es um Art. 17 DSGVO gegen Auskunftei nach Restschuldbefreiung in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Datenschutz Auskunftei Restschuldbefreiung Art17; Arbeitsfeld: Datenschutzrecht._
-
-# Art. 17 DSGVO gegen Auskunftei nach Restschuldbefreiung
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: DSGVO; BDSG; TDDDG; Art. 44 ff — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Art. 17 DSGVO im Auskunfteifall: Interessenabwägung, öffentliche Registerfrist, Einschränkung, Widerspruch und gerichtliche Durchsetzung.
-
-## Norm- und Quellenanker
-
-DSGVO Art. 6 Abs. 1 lit. f, Art. 17, 18, 21; EuGH C-26/22/C-64/22.
-
-## Red Flags
-
-- pauschales Brancheninteresse
-- keine Empfängerliste
-- Löschung mit Berichtigung verwechselt
-
-## Arbeitsstil
-
-Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschalen Empfehlungen; Rechtsprechung nur verifiziert mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle.
-
----
-
 ## Skill: `datenschutz-schadensersatz-art-82-dsgvo`
 
-_Wenn es um Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Datenschutz Schadensersatz Art 82 Dsgvo; Arbeitsfeld: Datenschutzrecht._
+_Prüft DSGVO Artikel 82 nach Verstoß, materiellem oder immateriellem Schaden, Kausalität, Verschuldensvermutung und Entlastung. Erstellt eine beweisfähige Schadenschronologie, Anspruchsmatrix, Bezifferung und das passende Anspruchs- oder Abwehrschreiben nach aktueller EuGH- und BGH-Rechtsprechung._
 
 # Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO
 
@@ -631,7 +611,7 @@ Sieben-Fragen-Diagnose:
 2. **Welcher konkrete Verstoss?** Norm und Sachverhalt — nicht pauschal "DSGVO verletzt".
 3. **Kausalitaet:** Welcher Schaden hat sich aus welchem Verstoss konkret entwickelt? Kausalkette schriftlich.
 4. **Schadensart:** Materiell (Vermögen) und/oder immateriell (Gefuehl, Kontrollverlust, Sorge)? Höhe geschaetzt?
-5. **Beweislast:** Wer muss was beweisen — Verantwortlicher entlastet sich nach Art. 82 III DSGVO, dass er nicht verantwortlich ist; Kläger muss Verstoss und Schaden darlegen.
+5. Beweislast: Der Anspruchsteller legt Verstoß, konkreten Schaden und Kausalität dar. Er muss kein Verschulden des Verantwortlichen beweisen; dieses wird vermutet. Der Verantwortliche kann sich nach DSGVO Artikel 82 Absatz 3 entlasten, wenn er nachweist, in keinerlei Hinsicht für den schadensauslösenden Umstand verantwortlich zu sein.
 6. **Verjährung:** Art. 82 selbst regelt nichts; nach BGH-Rspr. § 195 BGB drei Jahre ab Kenntnis.
 7. **Anspruchskonkurrenz:** UWG, BDSG § 83, deliktische Ansprueche §§ 823 ff. BGB?
 
@@ -643,10 +623,10 @@ Sieben-Fragen-Diagnose:
 - **Art. 82 IV DSGVO** Gesamtschuld bei mehreren Verantwortlichen.
 - **EuGH C-300/21 Oesterreichische Post** (Urteil 04.05.2023): Kein blosser Verstoss reicht; konkreter Schaden notwendig; keine Erheblichkeitsschwelle.
 - **EuGH C-340/21 Bulgarian Sofia** (Urteil 14.12.2023): Auch blosse Sorge vor Datenmissbrauch kann immaterieller Schaden sein; Verantwortlicher hat TOM-Pflicht und Beweislast für Geeignetheit; Hackerangriff allein entlastet nicht.
-- **EuGH C-687/21 MediaMarkt** (Urteil 25.01.2024): Befürchtungen Betroffener können Schaden begruenden; konkretes Ausmass und Kausalitaet sind zu prüfen.
-- **EuGH, Urt. v. 11.04.2024 - C-741/21 (juris GmbH):** Verschulden und Schaden — Art. 82 DSGVO setzt Verschulden voraus; Höhe nach nationalem Recht, aber unter Beachtung Effektivitaet und Äquivalenz.
-- **EuGH C-456/22 VX/Saale** (Urteil 14.12.2023): Schadensersatz hat kompensatorische und keine Straffunktion; auch geringe Schadenshoehen möglich.
-- **BGH VI ZR 1148/22** (Urteil 18.11.2024): Bei DSGVO-Verstoss zeitnah Kontrollverlust und Folgen darzulegen; pauschale Behauptung reicht nicht.
+- EuGH, Urteil vom 25.01.2024 - C-687/21, MediaMarktSaturn: Der Anspruchsteller muss einen tatsächlichen Schaden darlegen. Steht fest, dass der unbefugte Empfänger die Daten nicht zur Kenntnis genommen hat, begründet die bloße hypothetische Missbrauchsbefürchtung keinen immateriellen Schaden.
+- EuGH, Urteil vom 11.04.2024 - C-741/21, juris: Der Anspruchsteller muss kein Verschulden des Verantwortlichen beweisen; das Verschulden wird vermutet. Der Verantwortliche trägt die Entlastung nach DSGVO Artikel 82 Absatz 3. Die Bemessung folgt nationalem Recht unter Wahrung von Äquivalenz und Effektivität.
+- EuGH, Urteil vom 14.12.2023 - C-456/22, Gemeinde Ummendorf: Eine nationale Bagatellschwelle für immaterielle Schäden ist unzulässig. Der Anspruchsteller muss gleichwohl Folgen nachweisen, die einen vom bloßen Verstoß verschiedenen Schaden bilden.
+- BGH, Urteil vom 18.11.2024 - VI ZR 10/24: Schon ein nachgewiesener kurzzeitiger Kontrollverlust kann ein immaterieller Schaden sein; eine missbräuchliche Verwendung oder zusätzliche spürbare Nachteile sind nicht erforderlich. Anspruchsteller müssen den tatsächlichen Kontrollverlust und dessen Verursachung durch den Verstoß darlegen und beweisen.
 - **Art. 79 II DSGVO** Gerichtsstand am Sitz des Verantwortlichen oder gewoehnlichen Aufenthaltsort des Betroffenen.
 - **§ 195 BGB** drei Jahre.
 
@@ -656,7 +636,7 @@ Sieben-Fragen-Diagnose:
 
 1. **Zuerst:** Beleg-Akte anlegen — Mailverkehr, Screenshots, Auskunftsersuchen nach Art. 15 DSGVO mit Antwort.
 2. **Als zweites:** Schadensdarstellung konkretisieren — Gefuehlssituation, zeitlicher Verlauf, Folgen (Sorge, Kontrollverlust, Aengste, konkrete Aufwendungen).
-3. **Als drittes:** Klage einreichen — Gerichtsstand Art. 79 II DSGVO, regelmaessig Amtsgericht bis 5.000 EUR.
+3. Als drittes: Klageweg bestimmen. Artikel 79 Absatz 2 DSGVO regelt den unionsrechtlichen Gerichtsstand, nicht die sachliche Zuständigkeit; diese folgt im ordentlichen Rechtsweg grundsätzlich aus Paragrafen 23 Nummer 1, 71 Absatz 1 GVG mit Amtsgericht bis einschließlich 10.000 Euro. Bei Beschäftigtendaten den Rechtsweg zu den Arbeitsgerichten gesondert prüfen.
 
 ### Beklagtenseite
 
@@ -698,7 +678,7 @@ Sieben-Fragen-Diagnose:
 ### Klageerwiderung — Kernpunkte
 
 > 1. Verstoss bestreiten oder relativieren (welche DSGVO-Norm konkret und Subsumtion).
-> 2. Schaden bestreiten: blosse Sorge ohne Substanz reicht nach BGH VI ZR 1148/22 nicht; konkrete Folgen notwendig.
+> 2. Schaden differenziert bestreiten: Ist ein tatsächlicher Kontrollverlust bewiesen, sind nach BGH VI ZR 10/24 keine zusätzlichen spürbaren Folgen erforderlich. Fehlt ein Kontrollverlust, müssen eine begründete Missbrauchsbefürchtung und ihre negativen Folgen substantiiert und bewiesen sein.
 > 3. Kausalitaet bestreiten — auch bei TOM-Pflichtverletzung muss Schaden konkret aus Verletzung resultieren.
 > 4. Entlastung Art. 82 III: TOM Art. 32 lagen vor (Anlage), Maßnahmen waren angemessen.
 > 5. Verjährung prüfen (§ 195 BGB).
@@ -706,7 +686,7 @@ Sieben-Fragen-Diagnose:
 
 ## Typische Fehler
 
-- Pauschale Schadensbehauptung "Kontrollverlust" ohne konkrete Substanz (BGH VI ZR 1148/22).
+- Einen bloß behaupteten mit einem bewiesenen Kontrollverlust gleichsetzen; BGH VI ZR 10/24 verlangt den Nachweis des Kontrollverlusts, aber keine zusätzlichen spürbaren Folgen.
 - TOM-Pflicht Art. 32 unterschaetzt — Beklagte muss Maßnahmen aktiv belegen.
 - Verschuldensfrage nach EuGH C-741/21 uebersehen.
 - Streitwert zu hoch angesetzt — bei AG-Zuständigkeit Vorbehalt.
@@ -718,19 +698,114 @@ Sieben-Fragen-Diagnose:
 
 - DSGVO Art. 79, 82, 83.
 - BGB § 195, § 199, § 823, § 826.
-- BGH VI ZR 1148/22, Urteil 18.11.2024 (zu pauschalen Behauptungen Kontrollverlust).
+- BGH, Urteil vom 18.11.2024 - VI ZR 10/24 (Kontrollverlust als immaterieller Schaden; Nachweis und Bemessung).
 - EuGH C-300/21 Oesterreichische Post, Urteil 04.05.2023.
 - EuGH C-340/21 Bulgarian Sofia, Urteil 14.12.2023.
 - EuGH C-687/21 MediaMarkt, Urteil 25.01.2024.
 - EuGH, Urt. v. 11.04.2024 - C-741/21 (juris GmbH), vor Ausgabe über curia.europa.eu verifizieren.
-- EuGH C-456/22 VX gegen Saale, Urteil 14.12.2023.
+- EuGH C-456/22, Gemeinde Ummendorf, Urteil vom 14.12.2023.
 - Keine Aufsatzfundstellen aus Modellwissen.
+
+---
+
+## Skill: `datenschutz-loeschpflicht-art-17-und-aufbewahrung`
+
+_Bearbeitet Löschanträge und Aufbewahrungskonflikte je Datenbestand, einschließlich Agentengedächtnis, Suchindex, Protokollen und Modelltraining. Erstellt begründete Antwort, Löschanweisung und überprüfbaren Nachweis ohne pauschale Sperr- oder Filterlösung._
+
+# 1. Löschung und rechtmäßige Aufbewahrung abgrenzen
+
+## 1. Zweck und Anwendungsfall
+
+Beantworte einen Löschantrag oder entwirf eine konkret ausführbare Löschanweisung. Prüfe jeden betroffenen Bestand und Zweck; weder „alles löschen“ noch „alles wegen Buchhaltung behalten“ ist eine tragfähige Entscheidung.
+
+## 2. Eingaben
+
+Lies Antrag und Eingangsdatum, Datenverzeichnis, Zwecke, Empfänger, Speicherorte und geltend gemachte Aufbewahrungsgründe. Bei Agenten zusätzlich Gedächtnis, Suchindex, Protokolle, Werkzeugdienste und etwaige Trainingsnutzung erfassen. Nur tatsächlich entscheidende Lücken nachfragen; ein fehlendes Gesamtkonzept rechtfertigt keine unbearbeitete Monatsfrist nach Artikel 12 Absatz 3 DSGVO.
+
+## 3. Ablauf und Checkliste
+
+### 3.1. Löschgrund und Ausnahme prüfen
+
+Artikel 17 Absatz 1 je Datenkategorie prüfen, dann eine konkret belegte Ausnahme nach Absatz 3. Gesetzliche Aufbewahrung und erforderliche Rechtsverteidigung erlauben nur den jeweils nötigen Umfang und Zweck. Artikel 18 hat eigene Voraussetzungen; er ist kein allgemeiner Ersatz für technisch schwierige Löschung. Zweckbeschränkung und Zugriffsschutz verbleibender Belege sind nicht automatisch eine Einschränkung nach Artikel 18.
+
+Paragraf 257 HGB unterscheidet grundsätzlich zehn Jahre für Bücher/Abschlüsse, acht für Buchungsbelege und sechs für Handelsbriefe; Sonderregeln für bestimmte Finanzunternehmen beachten. Paragraf 147 AO mit Belegart, Fristbeginn, Übergang und steuerlicher Verlängerung gesondert prüfen. Geldwäscherechtliche Dokumentation richtet sich nach Paragraf 8 Absatz 4 GwG, nicht Paragraf 17: grundsätzlich fünf Jahre, andere längere gesetzliche Pflichten und Vernichtungsgrenze berücksichtigen. Keine pauschale Sechsmonatsfrist für alle Bewerberdaten als Gesetz ausgeben.
+
+### 3.2. Speicher und Empfänger bearbeiten
+
+Unterscheide Originalakte, aktive Kopie, Sitzungsspeicher, dauerhaftes Gedächtnis, Vektorsuchindex, Werkzeugprotokolle und Sicherungen. Ein Embedding ist nicht allein wegen seines Zahlenformats anonym. Löschung in der Chatoberfläche belegt nicht die Löschung aller nachgelagerten Kopien. Auftragsverarbeiter anweisen, Nachweis einholen und Empfängerinformation nach Artikel 19 prüfen. Bei Veröffentlichung Artikel 17 Absatz 2 eigens bearbeiten.
+
+Sicherungen nicht als pauschale Dauer-Ausnahme behandeln: begründeter Löschzyklus, Zugriffsbeschränkung, Verhinderung erneuter Produktivnutzung und erneute Löschung nach Wiederherstellung. Belege für rechtlich notwendige Verteidigung zugriffsbeschränkt separieren; kein unbegrenztes Vollarchiv „für spätere Audits“.
+
+### 3.3. Trainingsdaten und Modellparameter
+
+Kläre zunächst, ob die betreffenden Daten tatsächlich für Training verwendet wurden und ob ein identifizierbarer Personenbezug im Modell verbleibt. Keine Unmöglichkeit selektiver Löschung aus dem Schlagwort Sprachmodell ableiten. Trainingskopien, Modellstände, Anpassungskomponenten und ausgegebene Inhalte getrennt untersuchen.
+
+Ein Ausgabefilter ist keine automatisch gleichwertige Löschung. Er kann eine vorläufige Schutzmaßnahme sein, beseitigt aber Speicherung, Abrufbarkeit oder Personenbezug nicht notwendig. Anbieter muss Verfahren, Wirksamkeit, verbleibende Risiken und geprüfte Alternativen erläutern; etwa erneutes Training oder eine belegte Modellanpassung fallbezogen prüfen. Pseudonymisierung nicht mit Anonymisierung gleichsetzen. Technische Unsicherheit als solche benennen und den bereits erfüllbaren Teil des Antrags bearbeiten.
+
+### 3.4. Antwort und Vollzug
+
+Begründe je Bestand: gelöscht, aus welchem Grund bis wann aufbewahrt oder noch technisch zu klären. Eine Verlängerung nach Artikel 12 Absatz 3 fristgerecht mit Grund mitteilen; kein automatischer Aufschub. Bei Ablehnung Artikel 12 Absatz 4 mit Beschwerde- und Rechtsschutzhinweis beachten. Nach Löschprotokoll die Antwort vervollständigen, statt neue Grundfragen zu stellen. Keine Löschung ohne autorisierten Auftrag ausführen.
+
+## 4. Quellenpflicht
+
+Artikel 5, 12, 17 bis 19 und 28 [DSGVO](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de), [Paragraf 257 HGB](https://www.gesetze-im-internet.de/hgb/__257.html), [Paragraf 147 AO](https://www.gesetze-im-internet.de/ao_1977/__147.html), [Paragraf 8 GwG](https://www.gesetze-im-internet.de/gwg_2017/__8.html). Prüfstand 2. Oktober 2026; bei späterer Verwendung aktuelle Fassung prüfen. Kein Urteil zur Gleichwertigkeit von Filtern erfinden. [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/datenschutzrecht/references/zitierweise.md).
+
+## 5. Ausgabeformat
+
+Vollständig ausformulierte Betroffenenantwort oder interne Löschanweisung mit Datenumfang, Verantwortlichem, Frist und Nachweis. Keine bloße Konzeptskizze, keine Halbsätze. Times New Roman 11 pt, dezimale Gliederung. Technische Lücken getrennt dokumentieren; keine ausgeführte Löschung oder Speicherung behaupten.
+
+## 6. Beispiele
+
+Eine Rechnung muss aufbewahrt werden, ein daraus erzeugter personenbezogener Agentenmerkzettel hat keinen verbleibenden Zweck: beide Bestände getrennt entscheiden. Der Lieferant hat nur einen Namenfilter aktiviert: Schutzwirkung anerkennen, aber ohne weiteren Nachweis keine vollständige Löschbestätigung versenden.
+
+---
+
+## Skill: `ki-verordnung-compliance`
+
+_Verbindet die Verordnung EU 2024/1689 mit der Datenschutzprüfung eines konkreten Systems. Trennt Rollen, Risikoklasse, neue Fristen, sensible Daten nach Artikel 4a und deutsche Aufsicht, ohne Reformvorschläge als geltendes Datenschutzrecht auszugeben._
+
+# 1. Systemregulierung und Datenschutz zusammen prüfen
+
+## 1. Zweck und Anwendungsfall
+
+Arbeite an der Freigabe, Beschaffung oder laufenden Nutzung eines konkreten Systems. Eine Konformitätserklärung ersetzt weder Datenschutzgrundlage noch menschliche Entscheidung. Die Verordnung (EU) 2026/1744 und das deutsche KI-MIG sind geltendes Recht; COM(2025) 837 ist ein gesondertes laufendes Gesetzgebungsverfahren.
+
+## 2. Eingaben
+
+Lies Systembeschreibung, Zweck, Einführungsdatum, Modell- und Anbieterangaben, Datenfluss, Vertrag und vorhandene Folgenabschätzungen. Bei konkretem Auftrag sofort am gewünschten Dokument arbeiten. Nur fehlende Weichen wie neue Zweckbestimmung oder Zugriff auf sensible Daten gesammelt nachfragen.
+
+## 3. Ablauf
+
+1. Anwendungsbereich und Rollen nach Artikeln 2 und 3 der Verordnung (EU) 2024/1689 bestimmen. Anbieter, Betreiber, Importeur, Händler und Bevollmächtigter nicht mit Verantwortlichem und Auftragsverarbeiter gleichsetzen. Bei Änderung Artikel 25 gesondert prüfen.
+2. Artikel 5 zuerst: bisherige Verbote und neue Tatbestände für intime Inhalte beziehungsweise Missbrauchsdarstellungen ab 2. Dezember 2026 unterscheiden. Offenlegung heilt kein Verbot.
+3. Artikel 6 Absatz 1 mit Anhang I und Absatz 2 mit Anhang III getrennt prüfen. Bei Absatz 3 Ausnahme und Rückausnahme für Profiling dokumentieren; keine bloße Herstellerbehauptung übernehmen.
+4. Kalender nach Artikel 113 neuer Fassung: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 2. Dezember 2027, für Anhang I ab 2. August 2028. Andere Vorschriften nicht pauschal verschieben. GPAI und Artikel 111 mit System- beziehungsweise Modellbestand separat führen.
+5. Artikel 50 grundsätzlich seit 2. August 2026: technische Anbieterkennzeichnung und Betreiberhinweis auseinanderhalten. Nachholfrist bis 2. Dezember 2026 nur nach Artikel 111 Absatz 4 für Absatz 2 bei vorher vermarkteten Systemen.
+6. Datenschutzgrundlage nach Artikeln 6 und 9, Zweckbindung, Informationspflichten, Löschung, Sicherheit und gegebenenfalls Drittlandstransfer prüfen. Artikel 4a der Systemverordnung gestattet sensible Daten nur zur unbedingt erforderlichen Verzerrungskorrektur mit sämtlichen Sicherungen; Absatz 1 für Hochrisikoanbieter und Absatz 2 für weitere Akteure gesondert prüfen. Keine pauschale Trainingserlaubnis.
+7. Datenschutz-Folgenabschätzung nach Artikel 35, Grundrechte-Folgenabschätzung nach Artikel 27 der Systemverordnung und Risikomanagement nach Artikel 9 der Systemverordnung als verschiedene Instrumente behandeln. Vorhandene Analyse wiederverwenden, fehlende Perspektive ergänzen. Nicht jedes Hochrisikosystem löst für jeden Betreiber automatisch Artikel 27 aus.
+8. Artikel 22 der Datenschutz-Grundverordnung: tatsächliche menschliche Mitwirkung, erhebliche Entscheidungswirkung, Ausnahmegrund und Schutzmaßnahmen prüfen. Eine formale Unterschrift allein macht einen automatisierten Vorgang nicht menschlich.
+9. Kompetenzförderung nach Artikel 4 neuer Fassung planen: kontextgerechte Maßnahmen ohne Garantie eines individuellen Niveaus. Menschliche Hochrisikoaufsicht nach Artikel 26 Absatz 2 bleibt eine gesonderte Anforderung.
+10. Deutsche Zuständigkeit nach Paragraf 2 KI-MIG prüfen: Bundesnetzagentur grundsätzlich, Produkt-, Finanz-, Landes- und Medienausnahmen im konkreten Fall. Datenschutzaufsicht daneben nach Artikeln 55 und 56 bestimmen. EU-Sonderaufsicht nach Artikeln 75 ff. und 88 ff. beachten.
+
+Für eine Freigabe technische Nachweise und konkrete Befugnisse abgleichen. Die Verordnung verlangt nicht pauschal eine Begutachtung jedes Systems durch eine benannte Stelle; den richtigen Weg nach Artikel 43 und Anhang VI beziehungsweise VII prüfen. Eine vereinfachte Registrierung ist kein Wegfall jeder Registrierung.
+
+## 4. Quellenpflicht
+
+[Rechtsstandkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/datenschutzrecht/references/digitaler-omnibus-2026.md), [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/datenschutzrecht/references/zitierweise.md). Normfassung und Ereignisdatum dokumentieren. Die vorgeschlagenen 96 Stunden bei Datenschutzverletzungen gelten nicht: Artikel 33 bleibt bei unverzüglicher Meldung, möglichst binnen 72 Stunden; Betroffeneninformation nach Artikel 34 ist eine andere Prüfung. Vorgeschlagene Verzeichnisschwellen nicht vorwegnehmen.
+
+## 5. Ausgabeformat
+
+Vollständig ausformulierter Freigabe- oder Beanstandungsvermerk mit sechs Spalten: Funktion, Rolle, Rechtsregime, Tatbestand, Nachweis, nächste Maßnahme. Bei Beschaffung konkrete Vertragsänderung, bei Vorfall adressierte Meldung, bei risikobehafteter Nutzung begründete Freigabesperre formulieren. Keine pauschale Konformitätsbescheinigung ohne belastbare Nachweise. Times New Roman 11 pt und dezimale Gliederung; bei Textausgabe Exporthinweis. Keine automatische Einreichung.
+
+## 6. Beispiele
+
+Ein Bewerber-Ranking wird auf Hochrisiko, Diskriminierung und automatisierte Entscheidung geprüft, auch wenn Hochrisikopflichten noch vorbereitet werden. Bei einem Support-Chatbot können Transparenz und Datenschutz schon aktuell greifen. Ein Bias-Test mit Gesundheitsdaten benötigt eine eigenständige Artikel-4a-Prüfung und ist kein Freibrief für allgemeines Modelltraining.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

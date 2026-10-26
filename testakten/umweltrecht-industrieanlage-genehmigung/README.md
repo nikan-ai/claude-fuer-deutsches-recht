@@ -1,29 +1,39 @@
 # Akte Umweltrecht: Industrieanlage — Genehmigung, Emissionshandel, Altlast und Transaktion
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 61 KB) | PDF | [`gesamt-pdf/umweltrecht-industrieanlage-genehmigung_gesamt.pdf`](gesamt-pdf/umweltrecht-industrieanlage-genehmigung_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-umweltrecht-industrieanlage-genehmigung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-umweltrecht-industrieanlage-genehmigung.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-umweltrecht-industrieanlage-genehmigung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-umweltrecht-industrieanlage-genehmigung-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/umweltrecht-industrieanlage-genehmigung_gesamt.pdf`](gesamt-pdf/umweltrecht-industrieanlage-genehmigung_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-umweltrecht-industrieanlage-genehmigung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-umweltrecht-industrieanlage-genehmigung.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-umweltrecht-industrieanlage-genehmigung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-umweltrecht-industrieanlage-genehmigung-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-umweltrecht-industrieanlage-genehmigung` (Akte) | [testakte-umweltrecht-industrieanlage-genehmigung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-umweltrecht-industrieanlage-genehmigung.zip) |
+| `testakte-umweltrecht-industrieanlage-genehmigung` (Akte) | [testakte-umweltrecht-industrieanlage-genehmigung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-umweltrecht-industrieanlage-genehmigung.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Arbeitsakte über einen komplexen umweltrechtlichen Beratungsfall rund um die geplante Erweiterung einer Spezialchemie-Anlage in Nordrhein-Westfalen. Die Akte deckt das gesamte Spektrum des modernen betrieblichen Umweltrechts ab: Immissionsschutz, Emissionshandel, Wasserrecht, Bodenschutz, Naturschutz, Ordnungswidrigkeiten und umweltrechtliche Due Diligence bei einem Unternehmensverkauf.
 
@@ -87,15 +97,18 @@ Schließlich prüft ein Investor die Übernahme von Gesellschaftsanteilen an der
 
 | Ordner / Datei | Inhalt |
 |---|---|
-| [01_intake/email_anlagenbetreiber.txt](01_intake/email_anlagenbetreiber.txt) | Erstes E-Mail-Briefing der Betreiberin an die Kanzlei; Auflistung aller Themen |
+| [01_intake/email_anlagenbetreiber.eml](01_intake/email_anlagenbetreiber.eml) | Vollständiges E-Mail-Briefing zu Linie 4, Beschwerden, UIG-Antrag und Anhörung |
+| [01_intake/telefonvermerk_bergerhausen_fundament.docx](01_intake/telefonvermerk_bergerhausen_fundament.docx) | Telefonvermerk der Kanzlei: Fundamenttermin, verschobene Trocknerlieferung, behördliche Nachforderung, neue Geruchsbeschwerde |
 | [02_bimschg/aenderungsanzeige_roh.docx](02_bimschg/aenderungsanzeige_roh.docx) | Vollständige Änderungsanzeige nach § 15 BImSchG mit Briefkopf, Anlagenbeschreibung, Emissionsprognose, Abgrenzung § 16 BImSchG, Nachbarschaftsstellungnahme |
 | [02_bimschg/aenderungsanzeige_roh.docx](02_bimschg/aenderungsanzeige_roh.docx) | DOCX-Fassung der Änderungsanzeige (Word-Dokument) |
 | [03_tehg/zuteilung_dehst_notiz.docx](03_tehg/zuteilung_dehst_notiz.docx) | Interner Aktenvermerk zur TEHG-Kapazitätsänderungsprüfung + förmliches DEHSt-Schreiben zur Monitoring-Plan-Revision 4 |
 | [03_tehg/zuteilung_dehst_notiz.docx](03_tehg/zuteilung_dehst_notiz.docx) | DOCX-Fassung des DEHSt-Schreibens |
 | [04_abfall/stoffstromliste.csv](04_abfall/stoffstromliste.csv) | Abfallstrom-Bilanz aller Fraktionen (EAK-Schlüssel, Menge, Einstufung, Entsorger, eANV-Status) |
 | [05_wasser_boden/einleitung_altlast.docx](05_wasser_boden/einleitung_altlast.docx) | Fachlicher Vermerk zur WHG-Einleitungserlaubnis (Kapazitätsänderung) und Anzeige des Altlastenverdachts Südhalle S-02 nach § 9 BBodSchG |
+| [05_wasser_boden/rammkernsondierung_s02_messwerte.csv](05_wasser_boden/rammkernsondierung_s02_messwerte.csv) | Labor-Messwerte der orientierenden Untersuchung Südhalle S-02 (Boden- und Grundwasserproben, ein unplausibler Wert in Wiederholung) |
 | [06_naturschutz/artenschutz_hinweis.docx](06_naturschutz/artenschutz_hinweis.docx) | Artenschutzrechtliche Vorprüfung (Stufe I) nach § 44 BNatSchG: Fledermäuse, Vogelarten, Zauneidechse, FFH-Bezug |
 | [07_uig_ifg/uig_antrag_umweltverband.txt](07_uig_ifg/uig_antrag_umweltverband.txt) | UIG-Antrag des Rheinischen Umweltschutzvereins auf Zugang zu Genehmigungsunterlagen, Emissionsdaten, Geruchsgutachten und Altlastdokumenten |
+| [07_uig_ifg/zwischennachricht_bezirksregierung_uig.docx](07_uig_ifg/zwischennachricht_bezirksregierung_uig.docx) | Zwischennachricht der Bezirksregierung zum UIG-Antrag: Fristverlängerung, Drittbeteiligung der RS GmbH, gesonderte Prüfung des OWi-Vorgangs |
 | [08_bussgeld/anhoerung_verspätete_meldung.docx](08_bussgeld/anhoerung_verspaetete_meldung.docx) | Anhörungsschreiben der Bezirksregierung (OWi § 62 BImSchG) + Verteidigungsschreiben der Kanzlei Rosengart & Partner |
 | [08_bussgeld/anhoerung_verspätete_meldung.docx](08_bussgeld/anhoerung_verspaetete_meldung.docx) | DOCX-Fassung Anhörung und Verteidigungsentwurf |
 | [09_transaktion/umwelt_dd_roh.docx](09_transaktion/umwelt_dd_roh.docx) | Umwelt-Due-Diligence-Fragenliste (7 Abschnitte, inkl. Antworten) + Red-Flag-Memo mit Risikomatrix für Anteilskäufer |

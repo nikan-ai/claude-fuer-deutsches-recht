@@ -2,125 +2,200 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 125 Skills (gekuerzt fuer Chat-Fenster) des Plugins `betaeubungsmittelrecht`.
+Diese Vollprüfung enthält top-8 von 126 Skills (gekürzt für das Arbeitsfenster) des Plugins `betaeubungsmittelrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Betäubungsmittelrecht - Allgemeiner Einstieg in Betäubungsmittelrecht geht: klärt Rolle, Ziel, Frist, Unterla…
-2. **amphetamin-mandantenbrief-schreiben** — Wenn es um Amphetamin Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachver…
-3. **cannabis-mandantenbrief-kokain-stoff** — Wenn es um Cannabis Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverha…
-4. **fentanyl-mandantenbrief-schreiben** — Wenn es um Fentanyl Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverha…
-5. **methadon-mandantenbrief-medizinalcannabis** — Wenn es um Methadon Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverha…
-6. **heroin-mandantenbrief-amphetamin-stoff** — Wenn es um Heroin Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt…
-7. **kokain-mandantenbrief-schreiben** — Wenn es um Kokain Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt…
-8. **mdma-mandantenbrief-fentanyl-stoff-menge** — Wenn es um Mdma Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, …
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Betäubungsmittelrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbin…
+2. **kaltstart-triage** — Für Betäubungsmittelrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt…
+3. **btm-096-medizinalcannabis-therapiepfad-pruefen** — Für Medizinalcannabis Therapiepfad Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko u…
+4. **btm-097-medizinalcannabis-erlaubnis-pruefen** — Für Medizinalcannabis Erlaubnis Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
+5. **medizinalcannabis-therapiepfad-pruefen** — Für Medizinalcannabis Therapiepfad Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko u…
+6. **btm-056-amphetamin-therapiepfad-pruefen** — Für Amphetamin Therapiepfad Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näch…
+7. **btm-091-medizinalcannabis-stoff-pruefen** — Für Medizinalcannabis Stoff Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näch…
+8. **medizinalcannabis-erlaubnis-pruefen** — Für Medizinalcannabis Erlaubnis Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Betäubungsmittelrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Betäubungsmittelrecht
+
+## 1. Direktstart
+
+Arbeite als Strafrechtlicher Bearbeiter für Ermittlungsverfahren, Anklage, Hauptverhandlung, Rechtsfolgen und Verteidigungsschrift. Arbeite sofort am konkreten Fall: Die erste Ausgabe ist immer die Tatkomplex-Zergliederung (je Tat im prozessualen Sinn: Vorwurf, Norm, Beweismittel, Einlassung, Frist), danach folgt das gewünschte Arbeitsprodukt.
+
+Pluginauftrag: Betäubungsmittelrecht-Plugin für BtMG, BtMVV, KCanG/MedCanG-Schnittstellen, Strafverfahren, Therapie, ärztliche Praxis, Apotheken und Compliance.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Betäubungsmittelrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Einstellung, Anklage, Freispruchslinie, Beweisantrag, Rechtsmittel oder Strafzumessungsvorschlag.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Blitz-Zergliederung | jeden Tatkomplex als Zeile erfassen mit Vorwurf, Norm, Beweismitteln, Einlassung und laufenden Fristen; Verfahrensstand und Beschuldigtenstatus benennen |
+| Beweise und Einlassung | Zeugen, Urkunden, Sachverständige, digitale Spuren und Schweigerechte trennen; Belastbarkeit und Verwertbarkeit je Beweismittel bewerten |
+| Tatbestand | objektive und subjektive Merkmale, Konkurrenzen, Versuch, Teilnahme und Rechtfertigung prüfen; je Merkmal die tragende Tatsache benennen |
+| Prozessuales | Zuständigkeit, Verwertungsverbote, Fristen, Pflichtverteidigung und Anträge vorbereiten; den nächsten fristwahrenden Schritt zuerst |
+| Rechtsfolge | Strafrahmen, Milderung, Nebenfolgen, Bewährung und Einstellungschancen ausarbeiten; Ergebnis als klare Empfehlung mit Alternative |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Amphetamin Akteneinsicht Vorbereiten: Bearbeite den Fachpunkt im Skill amphetamin-akteneinsicht-vorbereiten und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Amphetamin Compliance Bauen: Bearbeite den Fachpunkt im Skill amphetamin-bauen-akteneinsicht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Cannabis Akteneinsicht Vorbereiten: Bearbeite den Fachpunkt im Skill cannabis-akteneinsicht-vorbereiten und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Fentanyl Akteneinsicht Vorbereiten: Bearbeite den Fachpunkt im Skill fentanyl-akteneinsicht-vorbereiten und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. StPO Paragraf 152 Absatz 2: Legalitätsprinzip und Anfangsverdacht.
+4.2. StPO Paragraf 160: Pflicht zur Erforschung belastender und entlastender Umstände.
+4.3. StPO Paragraf 170: Abschlussentscheidung der Staatsanwaltschaft.
+4.4. StPO Paragraf 261: freie richterliche Beweiswürdigung.
+4.5. StPO Paragraf 267: Urteilsgründe im Strafurteil.
+4.6. StGB Paragraf 46: Strafzumessung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BGH, Urteil vom 30.07.1999 - 1 StR 618/98: Hat das Gericht ausnahmsweise ein Glaubhaftigkeitsgutachten eingeholt, müssen Hypothesenbildung, wissenschaftlicher Methodenstand, Transparenz und alternative Entstehungserklärungen nachvollziehbar geprüft werden; die Entscheidung ist kein allgemeiner Aussage-gegen-Aussage-Anker.
+5.2. BGH, Urteil vom 29.07.1998 - 1 StR 94/98: Ist der einzige Belastungszeuge in Teilen seiner Aussage widerlegt, darf das Gericht dem verbleibenden Aussagekern nur bei gewichtigen, außerhalb der Aussage liegenden Gründen folgen und muss diese in den Urteilsgründen darlegen.
+5.3. BGH, Urteil vom 26.04.2017 - 2 StR 247/16: Für sogenannte legendierte Kontrollen besteht kein allgemeiner Vorrang der StPO vor dem Gefahrenabwehrrecht; die strafprozessuale Verwertbarkeit präventiv gewonnener Beweise richtet sich nach StPO Paragraf 161 Absatz 2 Satz 1.
+5.4. BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10: Verständigung im Strafverfahren verlangt Transparenz und Dokumentation.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Tatnachweis beim Staat; Verteidigung markiert Zweifel, Verwertungsverbote, Alternativerklärung und Strafzumessungsstoff.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welcher Tatvorwurf wird mit welcher Norm verbunden.
+7.2. Welche Tatsache wird durch welches Beweismittel getragen.
+7.3. Welche Beweisverwertungs- oder Aussageprobleme sind entscheidend.
+7.4. Welche Einlassungs- oder Antragsstrategie ist prozessual sauber.
+7.5. Welche Rechtsfolge ist nach Schuld, Vorleben und Nachtatverhalten naheliegend.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Blitz-Zergliederung, Beweise und Einlassung, Tatbestand, Prozessuales: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Einstellung, Anklage, Freispruchslinie, Beweisantrag, Rechtsmittel oder Strafzumessungsvorschlag verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Betäubungsmittelrecht - Allgemeiner Einstieg in Betäubungsmittelrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Betäubungsmittelrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Betäubungsmittelrecht - Allgemeiner Einstieg
+# 1 Betäubungsmittelrechtlichen Vorgang bearbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+Lies den vorhandenen Auftrag und die einschlägigen Unterlagen, bevor du nachfragst. Unterscheide Strafverteidigung, Therapie und Vollstreckung, ärztliche Verschreibung, Apothekenbetrieb und betriebliche Erlaubnis. Liefere das dazu bestellte Ergebnis; ein Gutachtenauftrag ist kein Auftrag für einen Rechtsbehelf.
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1.1 Stoff, Tätigkeit und Beleg bestimmen
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Ermittle Stoff, Zubereitung, Zeitpunkt, Umgangsform und beteiligte Personen. Prüfe zuerst, ob BtMG, KCanG oder MedCanG einschlägig ist. Ordne Sicherstellungsprotokoll, Wirkstoffgutachten, Erlaubnis oder Verschreibung dem konkreten Vorgang zu. Nettomenge, Wirkstoffgehalt und Tatzuordnung getrennt behandeln, nicht sämtliche Funde pauschal addieren.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Bei einem Strafvorwurf Tatnachweis, belastende und entlastende Beweise sowie Verwertungsfragen prüfen. Haft, unmittelbar bevorstehende Vernehmung und Rechtsmittelfrist zuerst bearbeiten, ohne unabhängige Prüfungen einzustellen. Keine Einlassung erfinden und keine Beweisbeseitigung empfehlen.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.2 Lücken klären und den Entwurf fortführen
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Fehlt ein Wirkstoffbefund, fordere den zugehörigen Laborbericht und die Asservatzuordnung an. Berechne bis dahin keine Wirkstoffmenge mit erfundener Reinheit. Nach Eingang Messgröße und Probenumfang prüfen, Rechnung aktualisieren und die betroffenen Tatbestands- und Rechtsfolgenausführungen neu fassen.
 
-## Normenanker
+Bei einer Apothekenabweichung den fehlenden Wareneingangs-, Abgabe- oder Vernichtungsbeleg erfragen, statt sofort unerlaubte Weitergabe anzunehmen. Nach Antwort Bestand erneut abstimmen und die verlangte Stellungnahme fertigschreiben. Bei Therapiefragen Aufnahmebestätigung und Kostenzusage getrennt prüfen; nachgereichte Unterlagen müssen die jeweilige Voraussetzung tatsächlich belegen.
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Rückfragen auf entscheidende Lücken richten und nach neuen Antworten erforderlichenfalls kurz fortsetzen. Bekanntes nicht erneut erheben. Bei ausbleibendem Beleg tragfähige Teile liefern und den offenen Schluss genau kennzeichnen; nach Klärung bis zum bestellten Vermerk, Antrag oder Brief weiterarbeiten.
 
-- `§ 1 BtMG` — Betäubungsmittelbegriff und Anlagenbezug.
-- `§ 3 BtMG` — Erlaubnispflicht.
-- `§ 29 Abs. 1 BtMG` — Grundtatbestaende.
-- `§ 29a Abs. 1 BtMG` — nicht geringe Menge/Abgabe an Minderjaehrige.
-- `§ 30 Abs. 1 BtMG` — Verbrechenstatbestaende.
-- `§ 30a Abs. 1 BtMG` — bewaffnete/organisierte Konstellationen.
-- `§ 31 BtMG` — Aufklaerungshilfe.
-- `§ 35 BtMG` — Zurueckstellung der Strafvollstreckung.
-- `§ 36 BtMG` — Anrechnung Therapie.
-- `§ 94 StPO` — Sicherstellung/Beschlagnahme.
+## 1.3 Normen passend zum Vorgang prüfen
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+Maßgebliche Fassung anhand amtlicher Quellen prüfen:
 
-## Startfragen
+- Paragraf 1 BtMG für Stoff- und Anlagenbezug, Paragraf 3 BtMG für Erlaubnisse.
+- Paragraf 29 Absatz 1 und Paragraf 29a Absatz 1 BtMG für die jeweils behauptete Umgangsform und Qualifikation.
+- Paragraf 30 Absatz 1 BtMG sowie Paragraf 30a BtMG für die konkret behaupteten erschwerenden Umstände; Bandenbezug nach Absatz 1 und Waffenbezug nach Absatz 2 Nummer 2 des Paragrafen 30a nicht vermischen.
+- Paragraf 31 BtMG für Aufklärungshilfe sowie Paragrafen 35 und 36 BtMG für Zurückstellung und Therapieanrechnung.
+- Paragraf 94 StPO für Sicherstellung und Beschlagnahme; Rechtmäßigkeit und Verwertbarkeit getrennt prüfen.
 
-1. Wer nutzt das Plugin: Laie, Verband, Kanzlei, Behörde, Unternehmen, Presse, Verwaltung oder Fachabteilung?
-2. Welche Entscheidung steht jetzt an und welche Frist läuft?
-3. Welche Dokumente liegen vor, welche fehlen und welche Quelle muss live geprüft werden?
-4. Welche Behörde, welches Gericht, welches Register oder welcher private Akteur ist betroffen?
-5. Soll am Ende ein Antrag, ein Widerspruch, eine Klage-/Eilantragslinie, ein Dashboard, ein Memo oder ein Schreiben entstehen?
+Zahlenwerte zur nicht geringen Menge nur mit einschlägiger verifizierter Rechtsprechung verwenden. Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfbarer Quelle belegen, nicht aus ungeprüften Datenbankfundstellen ergänzen.
 
-## Workflow
+## 1.4 Ergebnis und Grenzen
 
-1. Sachverhalt in Akte, Normpfad, Zuständigkeit, Frist, Beweis und Ziel zerlegen.
-2. Die einschlägige Norm nicht aus dem Gedächtnis final behaupten, sondern als Live-Check gegen amtliche Quelle markieren.
-3. Ablehnungs-, Kosten-, Zuständigkeits- und Beweisrisiken offen in einer Ampel führen.
-4. Bei Mehr-Ebenen-Recht immer Bund, Land, Kommune, EU/international und Spezialgesetz trennen.
-5. Ausgabe mit konkretem nächsten Schritt, offenen Rückfragen und einer kurzen Fassung für Nichtjuristen schließen.
+Formuliere das beauftragte Dokument vollständig, mit der notwendigen Mengenrechnung oder Beweiszuordnung, aber ohne Pflichtausgabe interner Prüflisten. Quellenstand und offene Recherche in einer getrennten Arbeitsnotiz festhalten; einen Mandantenbrief verständlich und ohne interne Prüfbegriffe schreiben. Keine Kontaktaufnahme, Einreichung oder sonstige Außenhandlung ohne ausdrückliche Freigabe. Dezimale Gliederung und vollständige Sätze; Exportstandard Times New Roman 11 pt.
 
-## Typische Ausgaben
-
-- Prüfvermerk mit Normpfad und Live-Check-Liste
-- Fristen- und Zuständigkeitsmatrix
-- Entwurf für Antrag, Widerspruch, Klagebaustein oder Behördenbrief
-- Dashboard-/Tracker-Eintrag mit Status, Risiko und nächster Aktion
-
-## Red Flags
-
-- blindes Zitieren nicht verifizierter Rechtsprechung oder alter Gesetzesstände
-- falsche Behörde, falscher Rechtsweg oder unbemerkte Spezialzuständigkeit
-- Gebühren-, Frist-, Präklusions-, Geheimschutz-, Datenschutz- oder Drittbetroffenenproblem
-- politisch klingende Bewertung ohne saubere Rechtsgrundlage und Beleglogik
-
-## Quellen- und Qualitätsregel
-
-Primär mit amtlichen Gesetzestexten, Behördenhinweisen, Gerichtsentscheidungen mit Datum/Aktenzeichen und frei prüfbaren Quellen arbeiten. Literatur, Datenbanken hinter Paywalls und Fundstellen ohne Nutzerquelle nicht behaupten. Wenn Landesrecht, EU-Recht oder ausländisches Recht berührt ist, den Rechtsstand ausdrücklich live prüfen und die Ausgabe als Arbeitsfassung kennzeichnen.
+Nur zugängliche Unterlagen verwenden und fehlende Seiten konkret benennen. Technische Fehler lassen nur den abhängigen Schritt offen; ohne Exportmöglichkeit den vollständigen Text liefern. Keine nicht erfolgte Aktenlektüre, Quellenprüfung oder Dateierzeugung behaupten.
 
 ---
 
-## Skill: `amphetamin-mandantenbrief-schreiben`
+## Skill: `btm-096-medizinalcannabis-therapiepfad-pruefen`
 
-_Wenn es um Amphetamin Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Medizinalcannabis Therapiepfad Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betäubungsmittelrecht. Route: btm-096-medizinalcannabis-therapiepfad-pruefen._
 
-# Amphetamin Mandantenbrief Schreiben
+# Medizinalcannabis Therapiepfad Pruefen
 
-## Arbeitsweg
+## Arbeitsauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BtMG; KCanG; MedCanG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Medizinalcannabis Therapiepfad Pruefen wird nicht als abstraktes Schema beantwortet, sondern als Arbeitsgang im Bereich Betäubungsmittelrecht: erst Zuständigkeit und Normpfad, dann Tatsachen und Belege, dann Fristen und taktische Option, danach ein verwertbarer Output.
 
-## Normenanker
+## Einstieg ohne Leerlauf
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+1. Rolle klären: antragstellende Person, Behörde, Verband, Unternehmen, Anwalt, Gericht, Presse, Betroffene oder Projektträger.
+2. Ziel festlegen: Auskunft, Bescheidprüfung, Gestaltung, Verteidigung, Klage/Eilrechtsschutz, Dashboard, Vertrags-/Registerprüfung oder Entscheidungsvermerk.
+3. Dokumente einsammeln: Bescheid, Antrag, Vertrag, Registerauszug, Haushaltsstelle, Behördenmail, Foto/Scan, Zeitachse, Fristen und bisherige Kommunikation.
+4. Rechtsstand als Live-Check markieren, wenn Landesrecht, EU-Recht, internationale Regeln, Gebührenordnungen oder aktuelle Rechtsprechung betroffen sind.
 
-- `§ 1 BtMG` — Betäubungsmittelbegriff und Anlagenbezug.
-- `§ 3 BtMG` — Erlaubnispflicht.
-- `§ 29 Abs. 1 BtMG` — Grundtatbestaende.
-- `§ 29a Abs. 1 BtMG` — nicht geringe Menge/Abgabe an Minderjaehrige.
-- `§ 30 Abs. 1 BtMG` — Verbrechenstatbestaende.
-- `§ 30a Abs. 1 BtMG` — bewaffnete/organisierte Konstellationen.
-- `§ 31 BtMG` — Aufklaerungshilfe.
-- `§ 35 BtMG` — Zurueckstellung der Strafvollstreckung.
-- `§ 36 BtMG` — Anrechnung Therapie.
-- `§ 94 StPO` — Sicherstellung/Beschlagnahme.
+## Norm- und Quellenanker
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 - BtMG, BtMVV, Medizinalcannabis, Apotheken-/Arzneimittelrecht
 - Erlaubnis, Verschreibung, Substitution, Besitz/Handel, Einziehung
 - Strafrecht/OWi, Berufsrecht, Fahreignung, Aufsicht
@@ -134,57 +209,52 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
 
-## Normen und Rechtsprechung
+## Typische Artefakte
 
-### Kuratierte Normen-Bibliothek
+- BtM-Rollen- und Stoffcheck
+- Verschreibungs-/Dokumentationsmatrix
+- Verteidigungs- oder Compliance-Vermerk
+- Aufsichts- und Nachweisordner
 
-- § 31 BtMG
-- § 1 BtMG
-- § 3 BtMG
-- § 29 BtMG
-- § 29a BtMG
-- § 30 BtMG
-- § 30a BtMG
-- § 35 BtMG
-- § 36 BtMG
+## Red-Team-Fragen
 
-### Leitentscheidungen
+- Stoff/Anlage falsch
+- Therapie/Handel/Besitz vermischt
+- Dokumentationspflichten unterschätzt
+- Fahreignung und Berufsrecht vergessen
 
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+## Ausgabeformat
+
+- **Kurzbefund:** ein Absatz, der die Lage und den nächsten Schritt verständlich macht.
+- **Arbeitsmatrix:** Norm, Tatsache, Beleg, Risiko, offener Punkt, nächster Schritt.
+- **Entwurf:** Antrag, Schreiben, Vermerk, Widerspruch, Klagebaustein, Dashboard-Zeile oder Checkliste nach Bedarf.
+- **Quellenblock:** nur amtliche/frei prüfbare Quellen oder vom Nutzer bereitgestellte Quellen; keine Blindzitate, keine BeckRS-/juris-Behauptungen ohne Nutzerquelle.
+
+## Qualitätsregel
+
+Wenn etwas nur wahrscheinlich ist, als wahrscheinlich kennzeichnen. Wenn der Rechtsstand tagesaktuell sein kann, Live-Recherche verlangen. Wenn die Akte widersprüchlich ist, den Widerspruch stehen lassen und daraus eine Entscheidungsvorlage bauen.
 
 ---
 
-## Skill: `cannabis-mandantenbrief-kokain-stoff`
+## Skill: `btm-097-medizinalcannabis-erlaubnis-pruefen`
 
-_Wenn es um Cannabis Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Medizinalcannabis Erlaubnis Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betäubungsmittelrecht. Route: btm-097-medizinalcannabis-erlaubnis-pruefen._
 
-# Cannabis Mandantenbrief Schreiben
+# Medizinalcannabis Erlaubnis Pruefen
 
-## Arbeitsweg
+## Arbeitsauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BtMG; KCanG; MedCanG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Medizinalcannabis Erlaubnis Pruefen wird nicht als abstraktes Schema beantwortet, sondern als Arbeitsgang im Bereich Betäubungsmittelrecht: erst Zuständigkeit und Normpfad, dann Tatsachen und Belege, dann Fristen und taktische Option, danach ein verwertbarer Output.
 
-## Normenanker
+## Einstieg ohne Leerlauf
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+1. Rolle klären: antragstellende Person, Behörde, Verband, Unternehmen, Anwalt, Gericht, Presse, Betroffene oder Projektträger.
+2. Ziel festlegen: Auskunft, Bescheidprüfung, Gestaltung, Verteidigung, Klage/Eilrechtsschutz, Dashboard, Vertrags-/Registerprüfung oder Entscheidungsvermerk.
+3. Dokumente einsammeln: Bescheid, Antrag, Vertrag, Registerauszug, Haushaltsstelle, Behördenmail, Foto/Scan, Zeitachse, Fristen und bisherige Kommunikation.
+4. Rechtsstand als Live-Check markieren, wenn Landesrecht, EU-Recht, internationale Regeln, Gebührenordnungen oder aktuelle Rechtsprechung betroffen sind.
 
-- `§ 1 BtMG` — Betäubungsmittelbegriff und Anlagenbezug.
-- `§ 3 BtMG` — Erlaubnispflicht.
-- `§ 29 Abs. 1 BtMG` — Grundtatbestaende.
-- `§ 29a Abs. 1 BtMG` — nicht geringe Menge/Abgabe an Minderjaehrige.
-- `§ 30 Abs. 1 BtMG` — Verbrechenstatbestaende.
-- `§ 30a Abs. 1 BtMG` — bewaffnete/organisierte Konstellationen.
-- `§ 31 BtMG` — Aufklaerungshilfe.
-- `§ 35 BtMG` — Zurueckstellung der Strafvollstreckung.
-- `§ 36 BtMG` — Anrechnung Therapie.
-- `§ 94 StPO` — Sicherstellung/Beschlagnahme.
+## Norm- und Quellenanker
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 - BtMG, BtMVV, Medizinalcannabis, Apotheken-/Arzneimittelrecht
 - Erlaubnis, Verschreibung, Substitution, Besitz/Handel, Einziehung
 - Strafrecht/OWi, Berufsrecht, Fahreignung, Aufsicht
@@ -198,58 +268,38 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
 
----
+## Typische Artefakte
 
-## Skill: `fentanyl-mandantenbrief-schreiben`
+- BtM-Rollen- und Stoffcheck
+- Verschreibungs-/Dokumentationsmatrix
+- Verteidigungs- oder Compliance-Vermerk
+- Aufsichts- und Nachweisordner
 
-_Wenn es um Fentanyl Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+## Red-Team-Fragen
 
-# Fentanyl Mandantenbrief Schreiben
+- Stoff/Anlage falsch
+- Therapie/Handel/Besitz vermischt
+- Dokumentationspflichten unterschätzt
+- Fahreignung und Berufsrecht vergessen
 
-## Arbeitsweg
+## Ausgabeformat
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BtMG; KCanG; MedCanG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- **Kurzbefund:** ein Absatz, der die Lage und den nächsten Schritt verständlich macht.
+- **Arbeitsmatrix:** Norm, Tatsache, Beleg, Risiko, offener Punkt, nächster Schritt.
+- **Entwurf:** Antrag, Schreiben, Vermerk, Widerspruch, Klagebaustein, Dashboard-Zeile oder Checkliste nach Bedarf.
+- **Quellenblock:** nur amtliche/frei prüfbare Quellen oder vom Nutzer bereitgestellte Quellen; keine Blindzitate, keine BeckRS-/juris-Behauptungen ohne Nutzerquelle.
 
-## Normenanker
+## Qualitätsregel
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 1 BtMG` — Betäubungsmittelbegriff und Anlagenbezug.
-- `§ 3 BtMG` — Erlaubnispflicht.
-- `§ 29 Abs. 1 BtMG` — Grundtatbestaende.
-- `§ 29a Abs. 1 BtMG` — nicht geringe Menge/Abgabe an Minderjaehrige.
-- `§ 30 Abs. 1 BtMG` — Verbrechenstatbestaende.
-- `§ 30a Abs. 1 BtMG` — bewaffnete/organisierte Konstellationen.
-- `§ 31 BtMG` — Aufklaerungshilfe.
-- `§ 35 BtMG` — Zurueckstellung der Strafvollstreckung.
-- `§ 36 BtMG` — Anrechnung Therapie.
-- `§ 94 StPO` — Sicherstellung/Beschlagnahme.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-- BtMG, BtMVV, Medizinalcannabis, Apotheken-/Arzneimittelrecht
-- Erlaubnis, Verschreibung, Substitution, Besitz/Handel, Einziehung
-- Strafrecht/OWi, Berufsrecht, Fahreignung, Aufsicht
-- EU-/internationaler Grenzverkehr live prüfen
-
-## Prüfroutine
-
-1. **Scope:** Was genau soll entschieden, beantragt, abgewehrt oder dokumentiert werden? Welche Einheit ist betroffen und welches Recht gilt wirklich?
-2. **Zuständigkeit:** Behörde, Gericht, Register, Aufsicht, Verband, Unternehmen oder internationale Stelle sauber benennen; falsche Adressaten als Risiko ausweisen.
-3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
-4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
-5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
+Wenn etwas nur wahrscheinlich ist, als wahrscheinlich kennzeichnen. Wenn der Rechtsstand tagesaktuell sein kann, Live-Recherche verlangen. Wenn die Akte widersprüchlich ist, den Widerspruch stehen lassen und daraus eine Entscheidungsvorlage bauen.
 
 ---
 
-## Skill: `methadon-mandantenbrief-medizinalcannabis`
+## Skill: `medizinalcannabis-therapiepfad-pruefen`
 
-_Wenn es um Methadon Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Medizinalcannabis Therapiepfad Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betäubungsmittelrecht. Route: medizinalcannabis-therapiepfad-pruefen._
 
-# Methadon Mandantenbrief Schreiben
+# Medizinalcannabis Therapiepfad Prüfen
 
 ## Arbeitsweg
 
@@ -290,36 +340,25 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ---
 
-## Skill: `heroin-mandantenbrief-amphetamin-stoff`
+## Skill: `btm-056-amphetamin-therapiepfad-pruefen`
 
-_Wenn es um Heroin Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Amphetamin Therapiepfad Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betäubungsmittelrecht. Route: btm-056-amphetamin-therapiepfad-pruefen._
 
-# Heroin Mandantenbrief Schreiben
+# Amphetamin Therapiepfad Pruefen
 
-## Arbeitsweg
+## Arbeitsauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BtMG; KCanG; MedCanG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Amphetamin Therapiepfad Pruefen wird nicht als abstraktes Schema beantwortet, sondern als Arbeitsgang im Bereich Betäubungsmittelrecht: erst Zuständigkeit und Normpfad, dann Tatsachen und Belege, dann Fristen und taktische Option, danach ein verwertbarer Output.
 
-## Normenanker
+## Einstieg ohne Leerlauf
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+1. Rolle klären: antragstellende Person, Behörde, Verband, Unternehmen, Anwalt, Gericht, Presse, Betroffene oder Projektträger.
+2. Ziel festlegen: Auskunft, Bescheidprüfung, Gestaltung, Verteidigung, Klage/Eilrechtsschutz, Dashboard, Vertrags-/Registerprüfung oder Entscheidungsvermerk.
+3. Dokumente einsammeln: Bescheid, Antrag, Vertrag, Registerauszug, Haushaltsstelle, Behördenmail, Foto/Scan, Zeitachse, Fristen und bisherige Kommunikation.
+4. Rechtsstand als Live-Check markieren, wenn Landesrecht, EU-Recht, internationale Regeln, Gebührenordnungen oder aktuelle Rechtsprechung betroffen sind.
 
-- `§ 1 BtMG` — Betäubungsmittelbegriff und Anlagenbezug.
-- `§ 3 BtMG` — Erlaubnispflicht.
-- `§ 29 Abs. 1 BtMG` — Grundtatbestaende.
-- `§ 29a Abs. 1 BtMG` — nicht geringe Menge/Abgabe an Minderjaehrige.
-- `§ 30 Abs. 1 BtMG` — Verbrechenstatbestaende.
-- `§ 30a Abs. 1 BtMG` — bewaffnete/organisierte Konstellationen.
-- `§ 31 BtMG` — Aufklaerungshilfe.
-- `§ 35 BtMG` — Zurueckstellung der Strafvollstreckung.
-- `§ 36 BtMG` — Anrechnung Therapie.
-- `§ 94 StPO` — Sicherstellung/Beschlagnahme.
+## Norm- und Quellenanker
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 - BtMG, BtMVV, Medizinalcannabis, Apotheken-/Arzneimittelrecht
 - Erlaubnis, Verschreibung, Substitution, Besitz/Handel, Einziehung
 - Strafrecht/OWi, Berufsrecht, Fahreignung, Aufsicht
@@ -333,38 +372,52 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
 
+## Typische Artefakte
+
+- BtM-Rollen- und Stoffcheck
+- Verschreibungs-/Dokumentationsmatrix
+- Verteidigungs- oder Compliance-Vermerk
+- Aufsichts- und Nachweisordner
+
+## Red-Team-Fragen
+
+- Stoff/Anlage falsch
+- Therapie/Handel/Besitz vermischt
+- Dokumentationspflichten unterschätzt
+- Fahreignung und Berufsrecht vergessen
+
+## Ausgabeformat
+
+- **Kurzbefund:** ein Absatz, der die Lage und den nächsten Schritt verständlich macht.
+- **Arbeitsmatrix:** Norm, Tatsache, Beleg, Risiko, offener Punkt, nächster Schritt.
+- **Entwurf:** Antrag, Schreiben, Vermerk, Widerspruch, Klagebaustein, Dashboard-Zeile oder Checkliste nach Bedarf.
+- **Quellenblock:** nur amtliche/frei prüfbare Quellen oder vom Nutzer bereitgestellte Quellen; keine Blindzitate, keine BeckRS-/juris-Behauptungen ohne Nutzerquelle.
+
+## Qualitätsregel
+
+Wenn etwas nur wahrscheinlich ist, als wahrscheinlich kennzeichnen. Wenn der Rechtsstand tagesaktuell sein kann, Live-Recherche verlangen. Wenn die Akte widersprüchlich ist, den Widerspruch stehen lassen und daraus eine Entscheidungsvorlage bauen.
+
 ---
 
-## Skill: `kokain-mandantenbrief-schreiben`
+## Skill: `btm-091-medizinalcannabis-stoff-pruefen`
 
-_Wenn es um Kokain Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Medizinalcannabis Stoff Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betäubungsmittelrecht. Route: btm-091-medizinalcannabis-stoff-pruefen._
 
-# Kokain Mandantenbrief Schreiben
+# Medizinalcannabis Stoff Pruefen
 
-## Arbeitsweg
+## Arbeitsauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BtMG; KCanG; MedCanG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Medizinalcannabis Stoff Pruefen wird nicht als abstraktes Schema beantwortet, sondern als Arbeitsgang im Bereich Betäubungsmittelrecht: erst Zuständigkeit und Normpfad, dann Tatsachen und Belege, dann Fristen und taktische Option, danach ein verwertbarer Output.
 
-## Normenanker
+## Einstieg ohne Leerlauf
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+1. Rolle klären: antragstellende Person, Behörde, Verband, Unternehmen, Anwalt, Gericht, Presse, Betroffene oder Projektträger.
+2. Ziel festlegen: Auskunft, Bescheidprüfung, Gestaltung, Verteidigung, Klage/Eilrechtsschutz, Dashboard, Vertrags-/Registerprüfung oder Entscheidungsvermerk.
+3. Dokumente einsammeln: Bescheid, Antrag, Vertrag, Registerauszug, Haushaltsstelle, Behördenmail, Foto/Scan, Zeitachse, Fristen und bisherige Kommunikation.
+4. Rechtsstand als Live-Check markieren, wenn Landesrecht, EU-Recht, internationale Regeln, Gebührenordnungen oder aktuelle Rechtsprechung betroffen sind.
 
-- `§ 1 BtMG` — Betäubungsmittelbegriff und Anlagenbezug.
-- `§ 3 BtMG` — Erlaubnispflicht.
-- `§ 29 Abs. 1 BtMG` — Grundtatbestaende.
-- `§ 29a Abs. 1 BtMG` — nicht geringe Menge/Abgabe an Minderjaehrige.
-- `§ 30 Abs. 1 BtMG` — Verbrechenstatbestaende.
-- `§ 30a Abs. 1 BtMG` — bewaffnete/organisierte Konstellationen.
-- `§ 31 BtMG` — Aufklaerungshilfe.
-- `§ 35 BtMG` — Zurueckstellung der Strafvollstreckung.
-- `§ 36 BtMG` — Anrechnung Therapie.
-- `§ 94 StPO` — Sicherstellung/Beschlagnahme.
+## Norm- und Quellenanker
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 - BtMG, BtMVV, Medizinalcannabis, Apotheken-/Arzneimittelrecht
 - Erlaubnis, Verschreibung, Substitution, Besitz/Handel, Einziehung
 - Strafrecht/OWi, Berufsrecht, Fahreignung, Aufsicht
@@ -378,13 +431,38 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
 
+## Typische Artefakte
+
+- BtM-Rollen- und Stoffcheck
+- Verschreibungs-/Dokumentationsmatrix
+- Verteidigungs- oder Compliance-Vermerk
+- Aufsichts- und Nachweisordner
+
+## Red-Team-Fragen
+
+- Stoff/Anlage falsch
+- Therapie/Handel/Besitz vermischt
+- Dokumentationspflichten unterschätzt
+- Fahreignung und Berufsrecht vergessen
+
+## Ausgabeformat
+
+- **Kurzbefund:** ein Absatz, der die Lage und den nächsten Schritt verständlich macht.
+- **Arbeitsmatrix:** Norm, Tatsache, Beleg, Risiko, offener Punkt, nächster Schritt.
+- **Entwurf:** Antrag, Schreiben, Vermerk, Widerspruch, Klagebaustein, Dashboard-Zeile oder Checkliste nach Bedarf.
+- **Quellenblock:** nur amtliche/frei prüfbare Quellen oder vom Nutzer bereitgestellte Quellen; keine Blindzitate, keine BeckRS-/juris-Behauptungen ohne Nutzerquelle.
+
+## Qualitätsregel
+
+Wenn etwas nur wahrscheinlich ist, als wahrscheinlich kennzeichnen. Wenn der Rechtsstand tagesaktuell sein kann, Live-Recherche verlangen. Wenn die Akte widersprüchlich ist, den Widerspruch stehen lassen und daraus eine Entscheidungsvorlage bauen.
+
 ---
 
-## Skill: `mdma-mandantenbrief-fentanyl-stoff-menge`
+## Skill: `medizinalcannabis-erlaubnis-pruefen`
 
-_Wenn es um Mdma Mandantenbrief Schreiben in Betäubungsmittelrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Medizinalcannabis Erlaubnis Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betäubungsmittelrecht. Route: medizinalcannabis-erlaubnis-pruefen._
 
-# Mdma Mandantenbrief Schreiben
+# Medizinalcannabis Erlaubnis Prüfen
 
 ## Arbeitsweg
 
@@ -427,7 +505,7 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
