@@ -1,9 +1,33 @@
 {
   "schema_version": 1,
   "plugins": {
-    "un-kaufrecht-cisg": {
+    "arbeitsrecht-kuendigungsschutzklagewerkstatt": {
       "standalone": ["werkstatt", "schnellstart", "hauptproblem"],
       "formats": ["md"],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "eu-sanktionspruefer": {
+      "standalone": ["werkstatt", "schnellstart", "hauptproblem"],
+      "formats": ["md"],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "us-sanktionspruefer": {
+      "standalone": ["werkstatt", "schnellstart", "hauptproblem"],
+      "formats": ["md"],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "un-kaufrecht-cisg": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart",
+        "hauptproblem"
+      ],
+      "formats": [
+        "md"
+      ],
       "megaprompt": false,
       "hand_curated": true
     },
@@ -272,7 +296,8 @@
         "schnellstart"
       ],
       "formats": [
-        "md"
+        "md",
+        "txt"
       ],
       "megaprompt": false,
       "hand_curated": true
@@ -643,6 +668,44 @@
         "werkstatt",
         "schnellstart",
         "hauptproblem"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "insolvenzanfechtung": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart",
+        "hauptproblem"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "insolvenzsachbearbeitung": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart",
+        "hauptproblem"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "insolvenzverwaltung-berichtsersteller": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart"
       ],
       "formats": [
         "md",

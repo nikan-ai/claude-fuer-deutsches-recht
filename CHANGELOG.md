@@ -1,4 +1,52 @@
+# 1. Kündigungsschutzklagewerkstatt 1.1.0 vom 22. Oktober 2026
+
+Das Mandat Muster / Seewerk ist in zwei getrennten Fassungen aufgenommen: vorlagengetreu mit vierzehn logischen Anlagen sowie als ausführliche Lebensakte mit weiteren Originaldokumenten und App-Ansichten. Jede Fassung bietet einen Gesamtband, dokumentweise getrennte Einzel-PDFs, native Originale und einen zusätzlichen Satz mit genau K1 bis K14.
+
+Mündliche Zusatzangaben und verifizierte Quellenkorrekturen sind ausschließlich gesondertes Referentenmaterial. Die Quellenkarte berichtigt insbesondere die europäische Monatsfrist und begrenzt die Übertragung der Entscheidungen zu privatem Kontozugriff, Bonus, Ausschlussfrist und Beschäftigungstitel. Die drei bisherigen kleinen Akten bleiben unverändert. [Releaseumfang und Prüfgrenzen](docs/releases/arbeitsrecht-kuendigungsschutzklagewerkstatt-v1.1.0.md).
+
+# 2. Insolvenzverwaltung Berichtsersteller 1.1.0 vom 22. Oktober 2026
+
+Die vierte fiktive Testakte Klangbogen Bühnen- und Probenraumtechnik GmbH aus Bamberg ergänzt den Berichtsersteller um 22 Zwischenberichte mit zusammen 233 Berichtsseiten. Das Komponentenrelease umfasst nun vier Akten und 22 geprüfte Assets; die beiden Plugin-ZIPs und die neue Akte werden über v1.1.0 ausgeliefert, während die drei bisherigen Aktenrouten auf v1.0.0 stabil bleiben. [Umfang und Prüfgrenzen](docs/releases/insolvenzverwaltung-berichtsersteller-v1.1.0.md).
+
+# 3. Insolvenzverwaltung Berichtsersteller 1.0.0 vom 22. Oktober 2026
+
+Der neue Zwischen- und Schlussbericht-Ersteller führt zehn Fachskills und einen Hauptskill vom fortlaufenden Sachstandsbericht über Schlussbericht, Schlussrechnung und Schlussverzeichnis bis zu gerichtlichen Freigaben, Schlussverteilung, Aufhebung und Nachtragsverteilung. Werkstatt und Schnellstart verbinden Stichtage, führende Fassungen, Belege, Rechenbrücke und acht menschliche Freigabegates. Amtlich geprüfte Norm- und BGH-Anker werden jeweils mit ihrer Aussagegrenze verwendet.
+
+Die vollständig fiktive Mainbogen-Akte enthält vier Zwischenberichte, zwei Schlussberichtsfassungen, neutrale Word-Vorlagen, rechenfähige Excel-Arbeitsmappen, E-Mails mit echten Anhängen und einen getrennten Nachtragsprüffall. Nordlicht und Möbelwerk Havelberg wurden bis zum Schlussverteilungs- und Nachtragsstadium erweitert. Die historische Nutzervorlage lieferte ausschließlich eine abstrahierte Gliederungslogik; ihre Namen, Daten, Beträge und sonstigen Inhalte wurden nicht übernommen. [Umfang und Prüfgrenzen](docs/releases/insolvenzverwaltung-berichtsersteller-v1.0.0.md).
+
+# 4. Kündigungsschutzklagewerkstatt 1.0.0 vom 22. Oktober 2026
+
+Zehn Fachskills und ein Hauptskill führen vom Kündigungszugang über die richtige Klage oder Erwiderung bis zu Vergleich, Weiterbeschäftigung und Vergütung. Eigenständige Werkstatt-, Mini- und Hauptproblem-Prompts enthalten konkrete Frist- und Beteiligungswege sowie eingeordnete BAG-Rechtsprechung einschließlich der Entscheidungen 2026 zu Massenentlassungsanzeigen und zum Zugangsbeweis.
+
+Drei kleine Akten aus Leipzig, Bonn und Augsburg ergänzen den Bestand mit Originaldateien, Gesamt-PDF und flachen Einzel-PDF- sowie Originalformat-ZIPs. Individuelle redaktionelle Prüffälle erfassen jeden der elf Skills. [Umfang und Prüfgrenzen](docs/releases/arbeitsrecht-kuendigungsschutzklagewerkstatt-v1.0.0.md).
+
+# insolvenzanfechtung-v1.1.0 – 2026-10-22
+
+Zwei kleine Kölner §-135-Akten ergänzen den Bestand: eine direkte Rückzahlung von 150.000 Euro an einen Gesellschafter mit 25 Prozent Beteiligung und ein bewusst schwieriger Zessionsfall nach einer achtzehn Monate vor dem Antrag vollzogenen Forderungsübertragung. Beide Akten führen Belegkette, Korrespondenz und Tabellen bis zum ausführlichen Klageentwurf; der Zessionsfall enthält zusätzlich Klageerwiderung und Risikomemo.
+
+Der Gesellschafterfinanzierungs-Skill trennt nun ausdrücklich Jahresfrist, objektive Gläubigerbenachteiligung und Krisenwissen. Amtlich geprüfte Anker zu IX ZR 196/13, IX ZR 32/12 und IX ZR 173/23 sichern die zeitliche Grenze der Zession und verhindern eine wirtschaftliche Zurechnung aus bloßen Verdachtsmerkmalen.
+
+# insolvenzsachbearbeitung-v1.1.0 – 2026-10-22
+
+Die Insolvenzsachbearbeitung führt den Aktenlauf jetzt in sechs Gesprächsphasen mit stabilem Statusblock, vier Freigabestufen, zehn Produktkennungen und ausdrücklichen Fehlerrouten. Werkstatt, Schnellstart, Hauptproblem und Hauptskill schreiben Nachreichungen als Delta in der führenden Fassung fort und benennen für jede Übergabe Produkt, Bearbeitungsstand und nächsten Schritt.
+
+Der Forderungsprüfer 445.35.5 enthält vierzehn ausformulierte Prüffälle und vier vollständige Musterbriefe. Sechs zusätzliche amtlich gelesene BAG- und BGH-Entscheidungen präzisieren Anmeldung, Prüfung, Bestreiten, Identität, Nebenforderungen, Forderungsklasse, Absonderung und die Trennung von Insolvenz- und Masseforderungen. Der Quellenbericht nennt gelesene Randnummern, Aussage und Aussagegrenze.
+
+# sanktionen-eu-us-v1.0.0 – 2026-10-21
+
+Zwei getrennte Plugins prüfen EU- und US-Sanktionen für Unternehmen und Kanzleien. Je ein Hauptskill und neun Fachskills führen vom belegten Identitäts- und Transaktionsabgleich über Eigentum, Kontrolle und konkrete Verbote zum Schreiben, Genehmigungsantrag oder internen Entscheidungsvermerk. Die eigenständigen Werkstatt-, Mini- und Hauptproblem-Prompts bleiben von der Installation getrennt. Behördenhinweise, Normtexte und gerichtliche Entscheidungen werden mit ihrer Aussagegrenze ausgewiesen.
+
+Vier Akten mit insgesamt 48 Originalunterlagen ergänzen die Pakete. Personen, Staaten, Organisationen und Listungen sind vollständig erfunden; Listungsdokumente sind ausdrücklich keine echten EU- oder US-Rechtsakte. Gesamt-PDF, flaches Einzel-PDF-ZIP und flaches Originalformat-ZIP werden inhaltlich abgeglichen. E-Mails enthalten echte Anlagen. Individuelle redaktionelle Prüffälle, reproduzierbarer Paketbau und Downloadprüfungen begleiten das Komponentenrelease; unveränderte Sammelarchive werden nicht überschrieben.
+
+[Umfang und Prüfgrenzen](docs/releases/sanktionen-eu-us-v1.0.0.md).
+
 # un-kaufrecht-cisg-v1.0.0 – 2026-10-18
+
+## Komponentenrelease Insolvenzanfechtung 1.0.0 – 21.10.2026
+
+Eigenständiges Plugin mit zehn Fachskills und einem Hauptskill, ausführlicher Werkstatt sowie Mini- und Hauptproblem-Prompt. Separate Anfechtungs-Werkstatt und Mini-Prompt beim Fachanwalt für Insolvenz- und Sanierungsrecht (445.35.4); der bestehende Anfechtungsskill wurde anhand amtlicher Volltexte präzisiert.
+
+Die Weserfunken-Akte erhält 20 zusätzliche Originale bei unveränderten 42 Bestandsdateien. Zwei weitere Akten aus Bamberg und Fürth enthalten jeweils 24 Originale mit echten E-Mail-Anhängen, Word, PDF und berechenbaren Excel-Arbeitsmappen. Drei Gesamt-PDFs und beide ZIP-Varianten sind getrennt von den installierbaren Plugins veröffentlicht. [Umfang und Prüfgrenzen](docs/releases/insolvenzanfechtung-v1.0.0.md).
 
 Eigenständiges UN-Kaufrechtspaket mit zehn Fachskills und einem Hauptskill, ausführlicher Werkstatt sowie kompaktem Mini- und Hauptproblem-Prompt. Vertragsschluss, ausdrückliche Abwahl, kollidierende AGB, Mängelrechte, Aufhebung, Schaden und Transport werden bis zum fertigen Dokument bearbeitet. Quellenstatus und Reichweite der BGH-Entscheidungen aus 2001, 2002, 2025 und 2026 bleiben ausdrücklich getrennt.
 

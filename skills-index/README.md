@@ -2,7 +2,7 @@
 
 Eine Detailseite pro Plugin mit allen Skills, Beschreibungen und Einzel-Downloads. Stand: `v445.35.3`.
 
-Die Aufteilung verhindert, dass eine einzige Seite alle 23321 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
+Die Aufteilung verhindert, dass eine einzige Seite alle 23385 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
 
 English: Each plugin has one lightweight detail page containing its complete skill list, descriptions and direct Markdown downloads. Open a plugin page to choose a skill; links labelled `Download MD` save the file instead of opening a source preview.
 
@@ -24,6 +24,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [anwaltschaft-generell](./anwaltschaft-generell.md) (10 Skills)
 - [apothekenrecht](./apothekenrecht.md) (66 Skills)
 - [arbeitsrecht](./arbeitsrecht.md) (100 Skills)
+- [arbeitsrecht-kuendigungsschutzklagewerkstatt](./arbeitsrecht-kuendigungsschutzklagewerkstatt.md) (11 Skills)
 - [arbeitszeugnis-analyse](./arbeitszeugnis-analyse.md) (51 Skills)
 - [arbeitszeugnisgenerator](./arbeitszeugnisgenerator.md) (5 Skills)
 - [arbeitszeugnispruefer](./arbeitszeugnispruefer.md) (31 Skills)
@@ -101,6 +102,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [energierecht](./energierecht.md) (96 Skills)
 - [enteignung-artikel-14](./enteignung-artikel-14.md) (9 Skills)
 - [erbbaurecht-praxis](./erbbaurecht-praxis.md) (51 Skills)
+- [eu-sanktionspruefer](./eu-sanktionspruefer.md) (10 Skills)
 - [europaeisches-prozessrecht](./europaeisches-prozessrecht.md) (22 Skills)
 - [europarecht-kompass](./europarecht-kompass.md) (58 Skills)
 
@@ -178,11 +180,14 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [influencer-recht](./influencer-recht.md) (130 Skills)
 - [informationsfreiheit-presseauskunft](./informationsfreiheit-presseauskunft.md) (118 Skills)
 - [insiderrecht-compliance](./insiderrecht-compliance.md) (112 Skills)
+- [insolvenzanfechtung](./insolvenzanfechtung.md) (11 Skills)
 - [insolvenzforderungen-checker](./insolvenzforderungen-checker.md) (11 Skills)
 - [insolvenzforderungsanmeldungspruefung](./insolvenzforderungsanmeldungspruefung.md) (59 Skills)
 - [insolvenzplan-starug-planwerkstatt](./insolvenzplan-starug-planwerkstatt.md) (58 Skills)
 - [insolvenzrecht](./insolvenzrecht.md) (99 Skills)
+- [insolvenzsachbearbeitung](./insolvenzsachbearbeitung.md) (11 Skills)
 - [insolvenzverwaltung](./insolvenzverwaltung.md) (53 Skills)
+- [insolvenzverwaltung-berichtsersteller](./insolvenzverwaltung-berichtsersteller.md) (11 Skills)
 - [internal-investigations-praxis](./internal-investigations-praxis.md) (110 Skills)
 - [internationales-handelsrecht-lex-mercatoria](./internationales-handelsrecht-lex-mercatoria.md) (193 Skills)
 
@@ -345,6 +350,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [urteilsbauer-relationsmacher](./urteilsbauer-relationsmacher.md) (84 Skills)
 - [us-bankruptcy-code](./us-bankruptcy-code.md) (101 Skills)
 - [us-copyright-registrierung-verlag](./us-copyright-registrierung-verlag.md) (101 Skills)
+- [us-sanktionspruefer](./us-sanktionspruefer.md) (10 Skills)
 
 ### V
 
