@@ -6117,7 +6117,9 @@ PROFILE += (
             "Normidentität, maßgebliche Fassung und Übergangsrecht erst am konkret einschlägigen amtlichen Volltext prüfen; keine abstrakte Rechtsgrundlage für eine Quellenbestätigung erfinden.",
         ),
         entscheidungen=(
-            "Methodischer Quellenanker, keine Gerichtsentscheidung: Rechtsprechung im Internet beschreibt seinen Bestand als ausgewählte Entscheidungen. Eine erfolglose Suche beweist deshalb keine Nichtexistenz. Keine einzelne Entscheidung ist durch diesen Portalhinweis verifiziert.",
+            "BAG, Beschluss vom 30.09.2026 – 2 AZN 339/26, Rn. 4 und 8–10: Trägt eigene Prüfung fremder Schriftsätze und gesonderte Darlegung der Zulassungsgründe; trägt kein pauschales KI-Verbot. Amtlicher Volltext: https://www.bundesarbeitsgericht.de/entscheidung/2-azn-339-26/",
+            "VGH Baden-Württemberg, Beschluss vom 12.03.2026 – 12 S 470/26, Rn. 1–8: Trägt Eigenprüfung wesentlicher Teile; konkrete Beschwerde trotz eines ungeprüften KI-Absatzes zulässig, später unbegründet. Trägt keinen automatischen Ausschluss bei einem Promptrest. Amtlicher Volltext: https://www.landesrecht-bw.de/perma?d=NJRE001640794",
+            "KG, Beschluss vom 20.11.2025 – 17 WF 144/25, Rn. 7–8: Trägt Kontrolle eingefügter Quellen und konkreten Eilvortrags; trägt keine Zurückweisung allein wegen KI. Amtlicher Volltext: https://gesetze.berlin.de/perma?d=NJRE001640995",
         ),
         stationen=("Ausgangstext und sämtliche Vorkommen erfassen", "Originalquelle und tatsächlich lesbaren Volltext erschließen", "Identität und Fundpunkt getrennt prüfen", "Aussagekraft, Zeitbezug und Fallübertragbarkeit begründen", "Prüfbericht und getrennte Korrekturfassung nachprüfen"),
         pruefraster=("Existenzbeleg und Zugang", "Gericht, Form, Datum, Aktenzeichen, ECLI und Parallelfundstelle", "Fundpunkt, Sprecher, Negation und Kontext", "Trägt und trägt nicht", "Fallunterschiede und tatsächlicher Rechercheumfang"),
@@ -6127,10 +6129,30 @@ PROFILE += (
     ),
 )
 
+PROFILE += (
+    ThemenProfil(
+        key="insolvenzanfechtung",
+        label="Insolvenzanfechtung aus Verwalter- und Empfängersicht",
+        rolle="Einzelne Vermögensverschiebungen rekonstruieren und bis zum begründeten Anspruchsschreiben, zur Erwiderung oder zum Vergleich prüfen.",
+        normen=("Paragrafen 129 bis 147 InsO: Grundvoraussetzungen, besondere Tatbestände, Zeitpunkte und Rechtsfolgen getrennt prüfen.",
+                "Paragrafen 17 und 39 InsO: Zahlungsunfähigkeit und Gesellschafterfinanzierung jeweils anhand der Voraussetzungen prüfen.",
+                "Artikel 103j EGInsO: maßgebliche Gesetzesfassung; Paragrafen 195, 199, 203 und 204 BGB: gesonderte Verjährungsrechnung."),
+        entscheidungen=("BGH, Urteil vom 23.10.2025 – IX ZR 125/23, Rn. 17 bis 31: Trägt die gesonderte Prüfung erkennbarer Drittzahlungen und wertloser Forderungen gegen den Vertragsschuldner; trägt keine automatische Unentgeltlichkeit jeder Zahlung aus einem fremden Konto. Amtlicher Volltext: https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2023/IX_ZR_125-23.pdf?__blob=publicationFile&v=1",),
+        stationen=("Auftrag und Perspektive lesen", "Zahlung, Sicherheit, Rechtsgrund und Kenntniszeitpunkt belegen", "Zeitbezogen jeden einschlägigen Tatbestand und Gegenargument prüfen", "Rückgewähradressat, Betrag und Verjährung bestimmen", "Beauftragtes Dokument ausformulieren und nach neuen Belegen fortsetzen"),
+        pruefraster=("Antragseingang und Wirkungszeitpunkt", "Gläubigerbenachteiligung und Gegenleistung", "Deckung, Vorsatz, Unentgeltlichkeit und Gesellschafterfinanzierung", "Bargeschäft, Rückgewähr und Wiederaufleben", "Darlegung, Beweise und offene Quellen"),
+        stop=("Keine Kenntnis aus interner E-Mail automatisch beim Empfänger unterstellen", "Keine Ratenvereinbarung als automatische Haftung oder Immunität", "Keine fingierte Drittzahlung oder pauschale 30-Tage-Grenze"),
+        skelette=("Ausformuliertes Anspruchs- oder Verteidigungsschreiben", "Zahlungsbezogene Berechnung mit Belegverweisen", "Begründeter Schriftsatz oder Vergleich mit konkreter Rückgewährregelung"),
+        oeffnungssatz="Prüfen Sie die bezeichneten Zahlungen und Sicherheiten anhand der vorhandenen Belege und erstellen Sie das beauftragte Dokument aus der gewählten Perspektive.",
+    ),
+)
+
 PROFILE_BY_KEY = {p.key: p for p in PROFILE}
 
 
 EXACT_PROFILE_KEYS: dict[str, str] = {
+    "eu-sanktionspruefer": "transport_handel",
+    "us-sanktionspruefer": "transport_handel",
+    "insolvenzanfechtung": "insolvenzanfechtung",
     "ki-halluzinationsreduzierer": "fundstellenverifikation",
     "un-kaufrecht-cisg": "transport_handel",
     "due-diligence": "ma_finanzierung",
