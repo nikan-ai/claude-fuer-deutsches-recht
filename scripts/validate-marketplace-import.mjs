@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import path from 'node:path';
+import { promptEnabled, promptKinds, promptFormats, promptProfileErrors } from './prompt-profiles.mjs';
+import { createHash } from 'node:crypto';
 
+// Dateischutz für eigenständige Downloads; Skill- und Modellbudgets bleiben getrennt.
+import { promptLimits, miniWithinLimits } from './prompt-limits.mjs';
 const root = process.cwd();
 const errors = [];
 const warnings = [];
@@ -89,6 +93,86 @@ function checkSkillFile(file) {
 const marketplacePath = path.join(root, '.claude-plugin', 'marketplace.json');
 const marketplace = readJson(marketplacePath);
 if (!marketplace) process.exit(1);
+const scopedPath = path.join(root, 'scripts', 'scoped-release-assets.json');
+const scoped = fs.existsSync(scopedPath) ? readJson(scopedPath) : { schema_version: 1, assets: {} };
+if (!scoped || scoped.schema_version !== 1 || !scoped.assets || typeof scoped.assets !== 'object' || Array.isArray(scoped.assets)) {
+  errors.push('scripts/scoped-release-assets.json: ungültige Komponentenregistrierung');
+}
+
+function isRecord(value) {
+  return value !== null && typeof value === 'object' && !Array.isArray(value);
+}
+
+// Ein Bundle-Tag darf nur mit einem erhaltenen Paketnachweis von der
+// tatsächlichen Pluginversion abweichen. Eine Tag-Ausnahme allein genügt nicht.
+function verifiedPackageVersions() {
+  const configPath = path.join(root, 'scripts', 'scoped-release-package-versions.json');
+  const verified = new Map();
+  if (!fs.existsSync(configPath)) return verified;
+  const config = readJson(configPath);
+  if (!isRecord(config) || config.schema_version !== 1 || !isRecord(config.assets)) {
+    errors.push(`${rel(configPath)}: ungültige Paketversionsregistrierung`);
+    return verified;
+  }
+  for (const [asset, entry] of Object.entries(config.assets)) {
+    const invalid = (reason) => errors.push(`${rel(configPath)}:${asset}: ${reason}`);
+    if (!/^[a-z0-9-]+\.zip$/.test(asset) || !isRecord(entry)
+        || typeof entry.tag !== 'string' || !/^[a-z0-9][a-z0-9.-]*$/.test(entry.tag)
+        || typeof entry.version !== 'string' || !/^\d+\.\d+\.\d+$/.test(entry.version)
+        || typeof entry.sha256 !== 'string' || !/^[0-9a-f]{64}$/.test(entry.sha256)) {
+      invalid('ungültiger Paketversionsnachweis');
+      continue;
+    }
+    if (scoped?.assets?.[asset] !== entry.tag) {
+      invalid('Paketversionsnachweis passt nicht zum Komponentenpin');
+      continue;
+    }
+    const evidenceRel = entry.evidence;
+    const parts = typeof evidenceRel === 'string' ? evidenceRel.split('/') : [];
+    if (typeof evidenceRel !== 'string' || evidenceRel.includes('\\')
+        || parts.length < 2 || parts[0] !== 'quality' || !evidenceRel.endsWith('.json')
+        || parts.some(part => !part || part === '.' || part === '..')) {
+      invalid('Nachweispfad muss unverändert unter quality/ liegen');
+      continue;
+    }
+    let evidencePath = root;
+    try {
+      for (const part of parts) {
+        evidencePath = path.join(evidencePath, part);
+        if (fs.lstatSync(evidencePath).isSymbolicLink()) throw new Error('Symlink im Nachweispfad');
+      }
+      if (!fs.statSync(evidencePath).isFile()) throw new Error('Nachweis ist keine Datei');
+    } catch (error) {
+      invalid(`Nachweispfad ist nicht lesbar oder enthält einen Symlink: ${error.message}`);
+      continue;
+    }
+    const evidence = readJson(evidencePath);
+    const name = asset.slice(0, -4);
+    if (!isRecord(evidence) || evidence.version !== entry.version || evidence.release !== entry.tag
+        || !isRecord(evidence.assets) || evidence.assets[asset] !== entry.sha256
+        || !Array.isArray(evidence.plugins)
+        || !evidence.plugins.some(plugin => isRecord(plugin) && plugin.name === name)) {
+      invalid('Paketversion, Release, Assethash oder Plugin fehlt im übereinstimmenden Nachweis');
+      continue;
+    }
+    verified.set(asset, entry);
+  }
+  return verified;
+}
+
+const packageVersions = verifiedPackageVersions();
+
+function registeredVersion(entry) {
+  if (entry.version === marketplace.version) return true;
+  const asset = `${entry.name}.zip`;
+  const tag = scoped?.assets?.[asset];
+  const packageVersion = packageVersions.get(asset);
+  return /^\d+\.\d+\.\d+$/.test(String(entry.version || ''))
+    && typeof tag === 'string'
+    && /^[a-z0-9][a-z0-9.-]*$/.test(tag)
+    && (tag.endsWith(`-v${entry.version}`)
+      || (packageVersion?.tag === tag && packageVersion.version === entry.version));
+}
 
 checkDescription('.claude-plugin/marketplace.json', marketplace.description, 300);
 if (!/^\d+\.\d+\.\d+$/.test(String(marketplace.version || ''))) {
@@ -115,7 +199,7 @@ for (const entry of marketplace.plugins || []) {
   }
   lastName = entry.name;
   checkDescription(`Marketplace:${entry.name}`, entry.description, 300);
-  if (entry.version !== marketplace.version) {
+  if (!registeredVersion(entry)) {
     errors.push(`Marketplace:${entry.name}: Version ${entry.version} passt nicht zu ${marketplace.version}`);
   }
   if (typeof entry.source !== 'string' || !entry.source.startsWith('./')) {
@@ -135,7 +219,21 @@ for (const entry of marketplace.plugins || []) {
   const manifest = readJson(manifestPath);
   if (!manifest) continue;
   if (manifest.name !== entry.name) errors.push(`${rel(manifestPath)}: name passt nicht zum Marketplace`);
-  if (manifest.version !== marketplace.version) errors.push(`${rel(manifestPath)}: Version passt nicht zum Marketplace`);
+  if (manifest.version !== entry.version) errors.push(`${rel(manifestPath)}: Version passt nicht zum Marketplace-Eintrag`);
+  const codexManifestPath = path.join(pluginRoot, '.codex-plugin', 'plugin.json');
+  if (fs.existsSync(codexManifestPath)) {
+    const codexManifest = readJson(codexManifestPath);
+    if (!codexManifest || typeof codexManifest !== 'object' || Array.isArray(codexManifest)) {
+      errors.push(`${rel(codexManifestPath)}: Manifest muss ein JSON-Objekt sein`);
+    } else {
+      if (codexManifest.name !== entry.name || codexManifest.name !== manifest.name) {
+        errors.push(`${rel(codexManifestPath)}: name passt nicht zu Marketplace und Claude-Manifest`);
+      }
+      if (codexManifest.version !== entry.version || codexManifest.version !== manifest.version) {
+        errors.push(`${rel(codexManifestPath)}: Version passt nicht zu Marketplace und Claude-Manifest`);
+      }
+    }
+  }
   checkDescription(rel(manifestPath), manifest.description, 300);
   if (!manifest.author || manifest.author.name !== 'Klotzkette') errors.push(`${rel(manifestPath)}: author.name fehlt oder ist falsch`);
   if (!manifest.author || manifest.author.email !== '39582916+Klotzkette@users.noreply.github.com') {
@@ -153,16 +251,41 @@ for (const entry of marketplace.plugins || []) {
   for (const suspicious of suspiciousSkillPaths) {
     errors.push(`${rel(suspicious)}: Schnellstart- oder Prompt-Datei liegt unter skills/`);
   }
+  errors.push(...promptProfileErrors(pluginRoot, entry.name, root));
   const werkstatt = path.join(pluginRoot, `${entry.name}-werkstatt.md`);
   const schnellstart = path.join(pluginRoot, `${entry.name}-schnellstart.md`);
-  if (!fs.existsSync(werkstatt)) errors.push(`${entry.name}: Werkstatt-Markdown fehlt`);
-  if (!fs.existsSync(schnellstart)) errors.push(`${entry.name}: Schnellstart-Markdown fehlt`);
-  if (fs.existsSync(schnellstart) && fs.statSync(schnellstart).size > 7500) {
-    errors.push(`${rel(schnellstart)}: Schnellstart ist größer als 7500 Bytes`);
+  if (promptEnabled(entry.name, "werkstatt") && !fs.existsSync(werkstatt)) errors.push(`${entry.name}: Werkstatt-Markdown fehlt`);
+  if (promptEnabled(entry.name, "schnellstart") && !fs.existsSync(schnellstart)) errors.push(`${entry.name}: Schnellstart-Markdown fehlt`);
+  if (fs.existsSync(schnellstart) && !miniWithinLimits(entry.name, fs.readFileSync(schnellstart))) {
+    errors.push(`${rel(schnellstart)}: Schnellstart überschreitet Byte-/Zeichengrenze`);
   }
   if (fs.existsSync(werkstatt)) {
+    const reviewPath = path.join(root, 'quality', 'evals', `${entry.name}.json`);
+    const profile = fs.existsSync(reviewPath) ? readJson(reviewPath) : null;
+    const review = profile?.workshop_review;
+    if (review != null) {
+      const hash = createHash('sha256').update(fs.readFileSync(werkstatt)).digest('hex');
+      if (typeof review !== 'object' || Array.isArray(review)
+          || !['revised', 'retained'].includes(review.verdict)
+          || typeof review.reason !== 'string' || !review.reason.trim()
+          || !Array.isArray(review.changes ?? [])
+          || (review.changes ?? []).some(item => typeof item !== 'string' || !item.trim())
+          || new Set(review.changes ?? []).size !== (review.changes ?? []).length
+          || review.sha256 !== hash) {
+        errors.push(`${rel(werkstatt)}: Werkstatt-Prüfung ungültig oder seit Prüfung verändert`);
+      }
+    }
     const size = fs.statSync(werkstatt).size;
-    if (size < 12 * 1024 || size > 22 * 1024) errors.push(`${rel(werkstatt)}: Werkstatt-Größe außerhalb Zielkorridor (${size} Bytes)`);
+    if (size > promptLimits.workshop_max_bytes) errors.push(`${rel(werkstatt)}: Werkstatt ist größer als ${promptLimits.workshop_max_bytes} Bytes (${size} Bytes)`);
+    // Umfang ist kein Nachweis fachlicher Substanz; keine Mindestlänge erzwingen.
+    const text = readText(werkstatt);
+    if (!text.startsWith('# ') || (text.match(/^# /gm) || []).length !== 1) {
+      errors.push(`${rel(werkstatt)}: eindeutige H1 am Dateianfang fehlt`);
+    }
+    const sections = text.split(/^## [^\r\n]+\r?$/m).slice(1);
+    if (!sections.length || sections.some((section) => !section.replace(/<!--[^]*?-->/g, '').replace(/^#{1,6} .*$/gm, '').trim())) {
+      errors.push(`${rel(werkstatt)}: gegliederter Abschnitt mit Inhalt fehlt`);
+    }
   }
   const readme = path.join(pluginRoot, 'README.md');
   if (!fs.existsSync(readme)) {
@@ -170,14 +293,24 @@ for (const entry of marketplace.plugins || []) {
   } else {
     readmeCount += 1;
     const text = readText(readme);
-    const sourceRel = String(entry.source || `./${entry.name}`).replace(/^\.\//, '');
-    const werkstattRaw = `https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/${sourceRel}/${entry.name}-werkstatt.md`;
-    const schnellstartRaw = `https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/${sourceRel}/${entry.name}-schnellstart.md`;
-    if (!text.includes(werkstattRaw) || !new RegExp(`<a href="${werkstattRaw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" download>`).test(text)) {
-      errors.push(`${rel(readme)}: Werkstatt-Direktdownload fehlt oder ist nicht als download markiert`);
+    const visibleVersion = text.match(/\*\*Version:\*\*\s*`?(\d+\.\d+\.\d+)`?/);
+    if (visibleVersion && visibleVersion[1] !== entry.version) {
+      errors.push(`${rel(readme)}: sichtbare Version ${visibleVersion[1]} passt nicht zu ${entry.version}`);
     }
-    if (!text.includes(schnellstartRaw) || !new RegExp(`<a href="${schnellstartRaw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" download>`).test(text)) {
-      errors.push(`${rel(readme)}: Schnellstart-Direktdownload fehlt oder ist nicht als download markiert`);
+    const sourceRel = String(entry.source || `./${entry.name}`).replace(/^\.\//, '');
+    const downloadBase = 'https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=';
+    const werkstattDownload = `${downloadBase}${sourceRel}/${entry.name}-werkstatt.md`;
+    const schnellstartDownload = `${downloadBase}${sourceRel}/${entry.name}-schnellstart.md`;
+    if (promptEnabled(entry.name, "werkstatt") && !text.includes(werkstattDownload)) {
+      errors.push(`${rel(readme)}: Werkstatt-Direktdownload fehlt`);
+    }
+    if (promptEnabled(entry.name, "schnellstart") && !text.includes(schnellstartDownload)) {
+      errors.push(`${rel(readme)}: Schnellstart-Direktdownload fehlt`);
+    }
+    for (const kind of promptKinds(entry.name)) {
+      for (const ext of promptFormats(entry.name)) {
+        if (!text.includes(`${downloadBase}${sourceRel}/${entry.name}-${kind}.${ext}`)) errors.push(`${rel(readme)}: ${kind}-${ext}-Direktdownload fehlt`);
+      }
     }
     for (const line of text.split(/\r?\n/)) {
       const cells = line.startsWith('|') ? line.split('|').slice(1, -1).map((cell) => cell.trim()) : [];

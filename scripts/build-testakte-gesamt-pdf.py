@@ -15,13 +15,21 @@ import io
 import re
 import sys
 import csv
+import json
+import tempfile
+import xml.etree.ElementTree as ET
+from copy import deepcopy
 from email import policy
 from email.parser import BytesParser
+from html import unescape as html_unescape
+from html.parser import HTMLParser
 from pathlib import Path
+
+import yaml
 
 # Drittabhaengigkeiten
 from openpyxl import load_workbook
-from pypdf import PdfReader, PdfWriter
+from pypdf import PageObject, PdfReader, PdfWriter, Transformation
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
@@ -35,14 +43,18 @@ from reportlab.platypus import (
     Table,
     TableStyle,
     HRFlowable,
+    KeepTogether,
 )
 from reportlab.lib.utils import ImageReader
 from reportlab.lib.enums import TA_LEFT
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+import reportlab
 
 from testakte_file_filter import include_in_working_dump
+from testakte_office_pdf import OFFICE_EXTS, OfficeRenderError, render_office_batch, uncached_formula_cells
+from testakte_disclaimer import without_notice_pages
 
 # DOCX
 try:
@@ -63,6 +75,13 @@ SURFACE = HexColor("#F7F6F2")
 # auf Netzwerk-Downloads, damit das Skript offline laeuft.
 FONT_REG = "Helvetica"
 FONT_BOLD = "Helvetica-Bold"
+A4_PORTRAIT = (float(A4[0]), float(A4[1]))
+
+
+def invariant_canvas(*args, **kwargs):
+    """Erzeugt PDFs ohne laufzeitabhaengige IDs und Zeitstempel."""
+    kwargs["invariant"] = 1
+    return canvas.Canvas(*args, **kwargs)
 
 styles = getSampleStyleSheet()
 s_cover_label = ParagraphStyle(
@@ -110,29 +129,84 @@ s_meta = ParagraphStyle(
     fontName=FONT_REG, fontSize=9, leading=12, textColor=MUTED,
     spaceAfter=4,
 )
+s_record = ParagraphStyle("Record", parent=s_meta, textColor=black, spaceAfter=2)
 s_partlabel = ParagraphStyle(
     "PartLabel", parent=styles["BodyText"],
     fontName=FONT_BOLD, fontSize=11, leading=14, textColor=MUTED,
     spaceAfter=2,
 )
+# Kopf jedes Aktenstuecks im Gesamt-PDF: Kategorie-Kicker, Dateititel, Pfad.
+s_file_kicker = ParagraphStyle(
+    "FileKicker",
+    fontName=FONT_BOLD, fontSize=8, leading=10, textColor=MUTED, spaceAfter=1,
+)
+s_file_title = ParagraphStyle(
+    "FileTitle",
+    fontName=FONT_BOLD, fontSize=13, leading=16, textColor=TEAL, spaceAfter=1,
+)
+s_file_path = ParagraphStyle(
+    "FilePath",
+    fontName=FONT_REG, fontSize=8, leading=10, textColor=MUTED, spaceAfter=4,
+)
 
 # Reihenfolge der Datei-Typen im Gesamt-PDF
-TYPE_ORDER = ["md", "txt", "eml", "csv", "xlsx", "docx", "image", "pdf"]
+TYPE_ORDER = [
+    "md",
+    "txt",
+    "eml",
+    "csv",
+    "xlsx",
+    "structured",
+    "docx",
+    "odt",
+    "image",
+    "pdf",
+]
 IMAGE_EXTS = {"jpg", "jpeg", "png"}
+STRUCTURED_EXTS = {"json", "yaml", "yml", "xml", "ics", "abc"}
 TYPE_LABEL = {
     "md": "Aktenstücke",
     "txt": "Notizen und Textdateien",
     "eml": "E-Mails",
     "csv": "CSV-Tabellen",
     "xlsx": "Excel-Tabellen",
+    "structured": "Strukturierte Rohdaten und Kalenderdateien",
     "docx": "Word-Dokumente",
+    "odt": "OpenDocument-Textdateien",
     "image": "Bildanlagen und Screenshots",
     "pdf": "PDF-Anhänge (Originaldokumente)",
 }
 
 
+class DocumentRenderError(RuntimeError):
+    """Eine Arbeitsunterlage konnte nicht vollständig in PDF überführt werden."""
+
+
 def escape(s: str) -> str:
-    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    escaped = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    # Die PDF-Standardschrift enthält keine tiefgestellten Unicode-Ziffern.
+    # Nach XML-Escaping echte Tiefstellung setzen, etwa für CO₂; vom Quelltext
+    # mitgebrachte Markup-Tags bleiben weiterhin ungefährlicher Klartext.
+    escaped = re.sub(r"[₀-₉]+", lambda match: "<sub>" + "".join(
+        str(ord(character) - ord("₀")) for character in match.group(0)
+    ) + "</sub>", escaped)
+    extra = set(re.findall(r"[\u0100-\u024f]", escaped))
+    if not extra:
+        return escaped
+    # Helvetica deckt etwa das türkische punktlose i nicht ab. Die mitgelieferte
+    # Schrift ergänzt nur betroffene Zeichen; bestehende Seiten bleiben stabil.
+    name = "AktenLatin"
+    if name not in pdfmetrics.getRegisteredFontNames():
+        font_path = Path(reportlab.__file__).resolve().parent / "fonts" / "Vera.ttf"
+        pdfmetrics.registerFont(TTFont(name, str(font_path)))
+    supported = pdfmetrics.getFont(name).face.charToGlyph
+    for character in sorted(extra):
+        try:
+            character.encode("cp1252")
+        except UnicodeEncodeError:
+            if ord(character) in supported:
+                escaped = escaped.replace(character, f'<font name="{name}">{character}</font>')
+    return escaped
 
 
 def md_to_flowables(md_text: str) -> list:
@@ -234,14 +308,18 @@ def md_to_flowables(md_text: str) -> list:
 
 
 def _inline_markup(s: str) -> str:
-    """Escape minimal, lasse erlaubte Inline-Tags."""
-    s = s.replace("&", "&amp;")
-    # Erlaubte Tags wieder herstellen
-    s = re.sub(r"&lt;(/?(?:b|i|sub|sup))&gt;", r"<\1>", s)
-    s = s.replace("&lt;font face='Courier'&gt;", "<font face='Courier'>")
-    s = s.replace("&lt;/font&gt;", "</font>")
-    # Eckige Klammern in normalem Text: behalten, aber nicht als Tag
-    return s
+    """Escapt Nutztext und erhält ausschließlich selbst erzeugte Inline-Tags."""
+    allowed = re.compile(r"</?(?:b|i|sub|sup)>|<font face='Courier'>|</font>")
+    tokens: list[str] = []
+
+    def store(match: re.Match[str]) -> str:
+        tokens.append(match.group(0))
+        return f"@@INLINE{len(tokens) - 1}@@"
+
+    escaped = escape(allowed.sub(store, s))
+    for index, token in enumerate(tokens):
+        escaped = escaped.replace(f"@@INLINE{index}@@", token)
+    return escaped
 
 
 def txt_to_flowables(text: str) -> list:
@@ -255,6 +333,102 @@ def txt_to_flowables(text: str) -> list:
     return out
 
 
+class _MailHTMLTextExtractor(HTMLParser):
+    """Reduziert HTML-Mails auf ihren sichtbaren Text für die PDF-Ausgabe."""
+
+    BLOCK_TAGS = {
+        "address",
+        "blockquote",
+        "br",
+        "div",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "hr",
+        "li",
+        "ol",
+        "p",
+        "table",
+        "td",
+        "th",
+        "tr",
+        "ul",
+    }
+    SKIP_TAGS = {"head", "script", "style"}
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs) -> None:
+        tag = tag.lower()
+        if tag in self.SKIP_TAGS:
+            self.skip_depth += 1
+        elif not self.skip_depth and tag in self.BLOCK_TAGS:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if tag in self.SKIP_TAGS and self.skip_depth:
+            self.skip_depth -= 1
+        elif not self.skip_depth and tag in self.BLOCK_TAGS:
+            self.parts.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if not self.skip_depth:
+            self.parts.append(data)
+
+    def text(self) -> str:
+        joined = html_unescape("".join(self.parts)).replace("\xa0", " ")
+        lines = [re.sub(r"[ \t]+", " ", line).strip() for line in joined.splitlines()]
+        return "\n".join(line for line in lines if line).strip()
+
+
+def html_mail_to_text(raw_html: str) -> str:
+    parser = _MailHTMLTextExtractor()
+    parser.feed(raw_html)
+    parser.close()
+    return parser.text()
+
+
+def structured_text_to_flowables(path: Path) -> list:
+    """Rendert strukturierte Originaldaten lesbar, ohne ihren Inhalt zu deuten."""
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        raw = path.read_text(encoding="latin-1")
+    except Exception as exc:
+        raise DocumentRenderError(f"Strukturierte Datei konnte nicht gelesen werden: {exc}") from exc
+
+    ext = path.suffix.lower()
+    try:
+        if ext == ".json":
+            content = json.dumps(json.loads(raw), ensure_ascii=False, indent=2)
+        elif ext in {".yaml", ".yml"}:
+            content = yaml.safe_dump(
+                yaml.safe_load(raw),
+                allow_unicode=True,
+                sort_keys=False,
+                default_flow_style=False,
+            )
+        elif ext == ".xml":
+            root = ET.fromstring(raw)
+            ET.indent(root)
+            content = ET.tostring(root, encoding="unicode")
+        else:
+            content = raw
+    except Exception as exc:
+        raise DocumentRenderError(f"{ext[1:].upper()} konnte nicht geparst werden: {exc}") from exc
+
+    if not content.strip():
+        raise DocumentRenderError("strukturierte Datei enthält keinen lesbaren Inhalt")
+    return txt_to_flowables(content)
+
+
 def eml_to_flowables(path: Path) -> list:
     out = []
     try:
@@ -263,14 +437,18 @@ def eml_to_flowables(path: Path) -> list:
         headers = [
             ("Von", msg.get("From", "")),
             ("An", msg.get("To", "")),
+            ("Kopie", msg.get("Cc", "")),
             ("Datum", msg.get("Date", "")),
             ("Betreff", msg.get("Subject", "")),
+            ("Anlagen", msg.get("X-Attachments", "")),
         ]
+        headers = [(label, value) for label, value in headers if value]
         body_part = msg.get_body(preferencelist=("plain", "html"))
         body = body_part.get_content() if body_part else ""
-    except Exception as e:
-        out.append(Paragraph(f"<i>E-Mail konnte nicht gelesen werden: {escape(str(e))}</i>", s_meta))
-        return out
+        if body_part and body_part.get_content_type() == "text/html":
+            body = html_mail_to_text(body)
+    except Exception as exc:
+        raise DocumentRenderError(f"E-Mail konnte nicht gelesen werden: {exc}") from exc
 
     rows = [
         [Paragraph(label, s_meta), Paragraph(escape(value), s_meta)]
@@ -300,19 +478,21 @@ def eml_to_flowables(path: Path) -> list:
 def csv_to_flowables(path: Path) -> list:
     out = []
     try:
-        with open(path, encoding="utf-8") as f:
-            reader = csv.reader(f)
-            rows = list(reader)
+        text = path.read_text(encoding="utf-8-sig")
     except UnicodeDecodeError:
-        with open(path, encoding="latin-1") as f:
-            reader = csv.reader(f)
-            rows = list(reader)
-    except Exception as e:
-        out.append(Paragraph(f"<i>CSV konnte nicht gelesen werden: {escape(str(e))}</i>", s_meta))
-        return out
+        text = path.read_text(encoding="latin-1")
+    except Exception as exc:
+        raise DocumentRenderError(f"CSV konnte nicht gelesen werden: {exc}") from exc
+
+    try:
+        dialect = csv.Sniffer().sniff(text[:8192], delimiters=",;\t|")
+        rows = list(csv.reader(io.StringIO(text), dialect))
+    except csv.Error:
+        delimiter = ";" if text.count(";") > text.count(",") else ","
+        rows = list(csv.reader(io.StringIO(text), delimiter=delimiter))
 
     if not rows:
-        return out
+        raise DocumentRenderError("CSV enthält keine lesbare Datenzeile")
     max_cols = max(len(r) for r in rows)
     rows = [r + [""] * (max_cols - len(r)) for r in rows]
     out.extend(_render_table(rows, header=True))
@@ -321,39 +501,41 @@ def csv_to_flowables(path: Path) -> list:
 
 def xlsx_to_flowables(path: Path) -> list:
     out = []
+    missing = uncached_formula_cells(path)
+    if missing:
+        raise DocumentRenderError(
+            "XLSX enthält unberechnete Formeln; native Office-Konvertierung erforderlich: "
+            + ", ".join(missing[:5])
+        )
     try:
         wb = load_workbook(path, data_only=True)
-    except Exception as e:
-        out.append(Paragraph(f"<i>XLSX konnte nicht gelesen werden: {escape(str(e))}</i>", s_meta))
-        return out
-    for sheet_name in wb.sheetnames:
-        ws = wb[sheet_name]
-        out.append(Paragraph(f"Tabellenblatt: {escape(sheet_name)}", s_h3))
-        rows = []
-        for row in ws.iter_rows(values_only=True):
-            rows.append(
-                [_format_cell(c) for c in row]
-            )
-        if not rows:
-            continue
-        # Leere Zeilen/Spalten am Ende abschneiden
-        while rows and not any(c.strip() for c in rows[-1]):
-            rows.pop()
-        if not rows:
-            continue
-        max_cols = max(len(r) for r in rows)
-        if max_cols == 0:
-            continue
-        # Hinten leere Spalten abschneiden
-        while max_cols > 0 and all(
-            (len(r) <= max_cols - 1) or (not r[max_cols - 1].strip()) for r in rows
-        ):
-            max_cols -= 1
-        if max_cols == 0:
-            continue
-        rows = [r[:max_cols] + [""] * (max_cols - len(r[:max_cols])) for r in rows]
-        out.extend(_render_table(rows, header=True))
-        out.append(Spacer(1, 6))
+    except Exception as exc:
+        raise DocumentRenderError(f"XLSX konnte nicht gelesen werden: {exc}") from exc
+    try:
+        for sheet_name in wb.sheetnames:
+            ws = wb[sheet_name]
+            sheet_flow: list = []
+            rows = [[_format_cell(c) for c in row] for row in ws.iter_rows(values_only=True)]
+            while rows and not any(c.strip() for c in rows[-1]):
+                rows.pop()
+            if not rows:
+                continue
+            max_cols = max(len(r) for r in rows)
+            while max_cols > 0 and all(
+                (len(r) <= max_cols - 1) or (not r[max_cols - 1].strip()) for r in rows
+            ):
+                max_cols -= 1
+            if max_cols == 0:
+                continue
+            rows = [r[:max_cols] + [""] * (max_cols - len(r[:max_cols])) for r in rows]
+            sheet_flow.append(Paragraph(f"Tabellenblatt: {escape(sheet_name)}", s_h3))
+            sheet_flow.extend(_render_table(rows, header=True))
+            sheet_flow.append(Spacer(1, 6))
+            out.extend(sheet_flow)
+    finally:
+        wb.close()
+    if not out:
+        raise DocumentRenderError("XLSX enthält kein lesbares Tabellenblatt")
     return out
 
 
@@ -408,26 +590,36 @@ def _render_table(rows: list, header: bool = False) -> list:
     # Bei sehr breiten Tabellen (>12 Spalten) faellt es sequentiell zurueck,
     # weil die Spaltenbreite sonst kleiner ist als die kleinste Wortbreite
     # und ReportLab Cell-Overflow-Fehler wirft.
-    if max_cell_len > _MAX_CELL_CHARS or max_cols_in_table > 12:
+    record_layout = max_cols_in_table > 5 and max_cell_len > 40
+    if max_cell_len > _MAX_CELL_CHARS or max_cols_in_table > 12 or record_layout:
         out = []
         header_row = rows[0] if header else None
         body_rows = rows[1:] if header else rows
+        compact_record = record_layout and max_cell_len <= 160 and max_cols_in_table <= 12
         for ri, r in enumerate(body_rows):
+            record = []
             if header_row:
                 # Reihen-Trennlinie + Spaltenkopf pro Zelle
                 for ci, cell in enumerate(r):
+                    if not cell.strip():
+                        continue
                     label = header_row[ci] if ci < len(header_row) else f"Spalte {ci+1}"
+                    if compact_record:
+                        prefix = f"<b>{escape(label)}:</b> " if label.strip() else ""
+                        record.append(Paragraph(prefix + escape(cell), s_record))
+                        continue
                     if label.strip():
-                        out.append(Paragraph(f"<b>{escape(label)}</b>", s_meta))
+                        record.append(Paragraph(f"<b>{escape(label)}</b>", s_meta))
                     for chunk in _split_long_text(cell):
-                        out.append(Paragraph(escape(chunk), s_body))
+                        record.append(Paragraph(escape(chunk), s_body))
             else:
                 for ci, cell in enumerate(r):
                     for chunk in _split_long_text(cell):
-                        out.append(Paragraph(escape(chunk), s_body))
-            out.append(Spacer(1, 4))
-            out.append(HRFlowable(width="100%", thickness=0.2, color=BORDER))
-            out.append(Spacer(1, 4))
+                        record.append(Paragraph(escape(chunk), s_body))
+            record.append(Spacer(1, 4))
+            record.append(HRFlowable(width="100%", thickness=0.2, color=BORDER))
+            record.append(Spacer(1, 4))
+            out.append(KeepTogether(record))
         return out
 
     max_cols = max(len(r) for r in rows)
@@ -457,13 +649,11 @@ def _render_table(rows: list, header: bool = False) -> list:
 def docx_to_flowables(path: Path) -> list:
     out = []
     if Document is None:
-        out.append(Paragraph("<i>python-docx nicht installiert, Inhalt wird uebersprungen.</i>", s_meta))
-        return out
+        raise DocumentRenderError("python-docx ist nicht installiert")
     try:
         doc = Document(str(path))
-    except Exception as e:
-        out.append(Paragraph(f"<i>DOCX konnte nicht gelesen werden: {escape(str(e))}</i>", s_meta))
-        return out
+    except Exception as exc:
+        raise DocumentRenderError(f"DOCX konnte nicht gelesen werden: {exc}") from exc
     for para in doc.paragraphs:
         text = para.text.strip()
         if not text:
@@ -484,6 +674,49 @@ def docx_to_flowables(path: Path) -> list:
         if rows:
             out.extend(_render_table(rows, header=True))
             out.append(Spacer(1, 6))
+    if not out:
+        raise DocumentRenderError("DOCX enthält keinen lesbaren Text und keine Tabelle")
+    return out
+
+
+def odt_to_flowables(path: Path) -> list:
+    """Rendert ODT-Inhalte vollständig, wenn native Konvertierung fehlt."""
+    try:
+        from odf.element import Element
+        from odf.opendocument import load as odf_load
+    except ImportError as exc:
+        raise DocumentRenderError("odfpy ist nicht installiert") from exc
+    try:
+        doc = odf_load(str(path))
+    except Exception as exc:
+        raise DocumentRenderError(f"ODT konnte nicht gelesen werden: {exc}") from exc
+
+    out: list = []
+
+    def text_of(node) -> str:
+        parts: list[str] = []
+        for child in node.childNodes:
+            if child.nodeType == child.TEXT_NODE:
+                parts.append(child.data)
+            elif isinstance(child, Element):
+                parts.append(text_of(child))
+        return "".join(parts)
+
+    def walk(node) -> None:
+        for child in node.childNodes:
+            if not isinstance(child, Element):
+                continue
+            local = child.qname[1]
+            if local in ("p", "h"):
+                text = text_of(child).strip()
+                if text:
+                    out.append(Paragraph(escape(text), s_h3 if local == "h" else s_body))
+            else:
+                walk(child)
+
+    walk(doc.body)
+    if not out:
+        raise DocumentRenderError("ODT enthält keinen lesbaren Text")
     return out
 
 
@@ -498,8 +731,8 @@ def image_to_flowables(path: Path) -> list:
         out.append(img)
         out.append(Spacer(1, 4))
         out.append(Paragraph(f"Bilddatei: {escape(path.name)}", s_meta))
-    except Exception as e:
-        out.append(Paragraph(f"<i>Bild konnte nicht gerendert werden: {escape(str(e))}</i>", s_meta))
+    except Exception as exc:
+        raise DocumentRenderError(f"Bild konnte nicht gerendert werden: {exc}") from exc
     return out
 
 
@@ -587,6 +820,9 @@ def collect_files(testakte_dir: Path) -> dict[str, list[Path]]:
         if ext in IMAGE_EXTS:
             files_by_type["image"].append(f)
             continue
+        if ext in STRUCTURED_EXTS:
+            files_by_type["structured"].append(f)
+            continue
         if ext not in TYPE_ORDER:
             continue
         files_by_type[ext].append(f)
@@ -595,8 +831,54 @@ def collect_files(testakte_dir: Path) -> dict[str, list[Path]]:
     return files_by_type
 
 
-def build_text_pdf(testakte_dir: Path, files: dict[str, list[Path]], cover: list, tmp_path: Path) -> tuple[bool, list[Path]]:
-    """Baut den Text-Teil als PDF, sammelt PDF-Anhaenge separat."""
+def file_header_flowables(type_key: str, rel: Path) -> list:
+    """Einheitlicher, gut lesbarer Kopf je Aktenstück: Kategorie-Kicker,
+    Dateiname als Titel, ggf. Unterordnerpfad, darunter eine Trennlinie."""
+    kicker = TYPE_LABEL.get(type_key, "Aktenstück")
+    out = [
+        Paragraph(escape(kicker.upper()), s_file_kicker),
+        Paragraph(escape(rel.name), s_file_title),
+    ]
+    if str(rel.parent) not in (".", ""):
+        out.append(Paragraph(escape(str(rel)), s_file_path))
+    out.append(HRFlowable(width="100%", thickness=0.6, color=TEAL,
+                          spaceBefore=1, spaceAfter=8))
+    return out
+
+
+def draw_separator_header(c, kicker: str, label: str) -> None:
+    """Zeichnet den Kopf einer Trennseite (Anhänge) im gleichen Stil wie
+    file_header_flowables: Kategorie-Kicker, Dateititel, ggf. Pfad, Trennlinie."""
+    # Aufrufer übergeben ein Label mit vorangestelltem Etikett
+    # ("PDF-Anhang: pfad" / "Office-Dokument: pfad"); für die Anzeige wird der
+    # reine Pfad verwendet, das Etikett steckt bereits im Kicker.
+    rel = label.split(": ", 1)[-1].strip() if ": " in label else label
+    name = rel.rsplit("/", 1)[-1]
+    c.setFont(FONT_BOLD, 8)
+    c.setFillColor(MUTED)
+    c.drawString(2 * cm, 26.2 * cm, kicker.upper())
+    title = Paragraph(escape(name), s_file_title)
+    _, title_height = title.wrap(17 * cm, 10 * cm)
+    title_top = 25.8 * cm
+    title.drawOn(c, 2 * cm, title_top - title_height)
+    y_rule = title_top - title_height - 0.3 * cm
+    if "/" in rel:
+        source = Paragraph(escape(rel), s_file_path)
+        _, source_height = source.wrap(17 * cm, 10 * cm)
+        source.drawOn(c, 2 * cm, y_rule - source_height)
+        y_rule -= source_height + 0.3 * cm
+    c.setStrokeColor(TEAL)
+    c.setLineWidth(0.6)
+    c.line(2 * cm, y_rule, 19 * cm, y_rule)
+
+
+def build_text_pdf(
+    testakte_dir: Path,
+    files: dict[str, list[Path]],
+    cover: list,
+    tmp_path: Path,
+) -> tuple[list[tuple[str, bytes]], list[Path], bool]:
+    """Baut Textteile und sammelt layoutgetreue Office- sowie Original-PDFs."""
     doc = SimpleDocTemplate(
         str(tmp_path),
         pagesize=A4,
@@ -608,6 +890,11 @@ def build_text_pdf(testakte_dir: Path, files: dict[str, list[Path]], cover: list
     flow = list(cover)
 
     pdf_attachments: list[Path] = []
+    office_attachments: list[tuple[str, bytes]] = []
+    try:
+        office_cache = render_office_batch(files["docx"] + files["odt"] + files["xlsx"])
+    except OfficeRenderError as exc:
+        raise DocumentRenderError(str(exc)) from exc
     for t in TYPE_ORDER:
         if not files[t]:
             continue
@@ -617,84 +904,190 @@ def build_text_pdf(testakte_dir: Path, files: dict[str, list[Path]], cover: list
             continue
         for f in files[t]:
             rel = f.relative_to(testakte_dir)
-            flow.append(Paragraph(f"<b>Datei:</b> {escape(str(rel))}", s_meta))
-            flow.append(Spacer(1, 4))
+            if t in OFFICE_EXTS and f in office_cache:
+                office_attachments.append((str(rel), office_cache[f]))
+                continue
+            flow.extend(file_header_flowables(t, rel))
             try:
                 if t == "md":
-                    flow.extend(md_to_flowables(f.read_text(encoding="utf-8", errors="replace")))
+                    rendered = md_to_flowables(f.read_text(encoding="utf-8", errors="strict"))
                 elif t == "txt":
-                    flow.extend(txt_to_flowables(f.read_text(encoding="utf-8", errors="replace")))
+                    rendered = txt_to_flowables(f.read_text(encoding="utf-8", errors="strict"))
                 elif t == "eml":
-                    flow.extend(eml_to_flowables(f))
+                    rendered = eml_to_flowables(f)
                 elif t == "csv":
-                    flow.extend(csv_to_flowables(f))
+                    rendered = csv_to_flowables(f)
                 elif t == "xlsx":
-                    flow.extend(xlsx_to_flowables(f))
+                    rendered = xlsx_to_flowables(f)
+                elif t == "structured":
+                    rendered = structured_text_to_flowables(f)
                 elif t == "docx":
-                    flow.extend(docx_to_flowables(f))
+                    rendered = docx_to_flowables(f)
+                elif t == "odt":
+                    rendered = odt_to_flowables(f)
                 elif t == "image":
-                    flow.extend(image_to_flowables(f))
-            except Exception as e:
-                flow.append(Paragraph(f"<i>Inhalt konnte nicht gerendert werden: {escape(str(e))}</i>", s_meta))
+                    rendered = image_to_flowables(f)
+                else:
+                    raise DocumentRenderError(f"nicht unterstützter Dokumenttyp: {t}")
+            except Exception as exc:
+                if isinstance(exc, DocumentRenderError):
+                    raise DocumentRenderError(f"{rel}: {exc}") from exc
+                raise DocumentRenderError(f"{rel}: {type(exc).__name__}: {exc}") from exc
+            if not rendered:
+                raise DocumentRenderError(f"{rel}: Konverter lieferte keine PDF-Inhalte")
+            flow.extend(rendered)
             # Jedes Aktenstueck beginnt im Gesamt-PDF auf einer neuen Seite
             flow.append(PageBreak())
-
-    if not flow:
-        flow.append(Paragraph("Dateiablage: Original-PDFs folgen.", s_meta))
 
     # Trailing PageBreak entfernen, damit am Ende keine Leerseite entsteht.
     while flow and isinstance(flow[-1], PageBreak):
         flow.pop()
 
+    # Bei reinen Office-/PDF-Akten beginnt die Ausgabe direkt mit dem ersten
+    # Dokumenttrenner. Eine künstliche Füllseite würde nur den Aktenlauf stören.
+    if not flow:
+        return office_attachments, pdf_attachments, False
+
     hf = header_footer_factory(testakte_dir.name)
     try:
-        doc.build(flow, onFirstPage=no_header_footer, onLaterPages=hf)
-    except Exception as e:
-        print(f"  FEHLER beim Bauen: {e}")
-        return False, pdf_attachments
-    return True, pdf_attachments
+        doc.build(
+            flow,
+            onFirstPage=hf,
+            onLaterPages=hf,
+            canvasmaker=invariant_canvas,
+        )
+    except Exception as exc:
+        raise DocumentRenderError(f"Text-PDF konnte nicht gebaut werden: {exc}") from exc
+    return office_attachments, pdf_attachments, True
+
+
+def a4_normalized_page(source_page):
+    """Setzt nicht-A4-Seiten proportional und zentriert auf einen A4-Bogen.
+
+    Das Aktenstück selbst bleibt unverändert. Die Normalisierung betrifft nur
+    das zusammengeführte Gesamt-PDF, damit Druck, Durchsicht und Seitennavigation
+    nicht zwischen Letter-, A4- und Sonderformaten springen.
+    """
+    page = deepcopy(source_page)
+    if getattr(page, "rotation", 0):
+        page.transfer_rotation_to_content()
+
+    width = float(page.mediabox.width)
+    height = float(page.mediabox.height)
+    portrait = width <= height
+    target_width, target_height = A4_PORTRAIT
+    if not portrait:
+        target_width, target_height = target_height, target_width
+
+    if abs(width - target_width) < 1 and abs(height - target_height) < 1:
+        return page
+
+    scale = min(target_width / width, target_height / height)
+    x_offset = (target_width - width * scale) / 2
+    y_offset = (target_height - height * scale) / 2
+    target = PageObject.create_blank_page(width=target_width, height=target_height)
+    transform = Transformation().scale(scale).translate(x_offset, y_offset)
+    target.merge_transformed_page(page, transform, over=True)
+    return target
 
 
 def append_pdf_with_separator(writer: PdfWriter, label: str, pdf_path: Path, testakte_name: str) -> None:
+    try:
+        attachment_pages = list(PdfReader(io.BytesIO(without_notice_pages(pdf_path.read_bytes()))).pages)
+    except Exception as exc:
+        raise DocumentRenderError(f"{pdf_path.name}: PDF konnte nicht gelesen werden: {exc}") from exc
+    if not attachment_pages:
+        raise DocumentRenderError(f"{pdf_path.name}: PDF enthält keine Seite")
+
     sep = io.BytesIO()
-    c = canvas.Canvas(sep, pagesize=A4)
+    c = canvas.Canvas(sep, pagesize=A4, invariant=1)
     c.setTitle(label)
     c.setAuthor("Kanzleiakte")
-    c.setFont(FONT_BOLD, 14)
-    c.setFillColor(TEAL)
-    c.drawString(2 * cm, 25 * cm, "Datei")
-    c.setFont(FONT_REG, 9)
-    c.setFillColor(MUTED)
-    c.drawString(2 * cm, 24.2 * cm, label)
+    draw_separator_header(c, "PDF-Anhang (Originaldokument)", label)
     c.setStrokeColor(BORDER)
     c.setLineWidth(0.3)
     c.line(2 * cm, 1.6 * cm, 19 * cm, 1.6 * cm)
     c.setFont(FONT_REG, 8)
+    c.setFillColor(MUTED)
     c.drawString(2 * cm, 1.2 * cm, testakte_name)
     c.showPage()
     c.save()
     sep.seek(0)
     for p in PdfReader(sep).pages:
         writer.add_page(p)
+    for page in attachment_pages:
+        writer.add_page(a4_normalized_page(page))
+
+
+def append_pdf_bytes_with_separator(
+    writer: PdfWriter,
+    label: str,
+    data: bytes,
+    testakte_name: str,
+) -> None:
     try:
-        for p in PdfReader(str(pdf_path)).pages:
-            writer.add_page(p)
-    except Exception as e:
-        # PDF defekt oder verschluesselt -> Hinweisseite einfuegen
-        sep2 = io.BytesIO()
-        c2 = canvas.Canvas(sep2, pagesize=A4)
-        c2.setFont(FONT_REG, 10)
-        c2.drawString(2 * cm, 25 * cm, f"PDF konnte nicht eingebunden werden: {e}")
-        c2.showPage()
-        c2.save()
-        sep2.seek(0)
-        for p in PdfReader(sep2).pages:
-            writer.add_page(p)
+        attachment_pages = list(PdfReader(io.BytesIO(data)).pages)
+    except Exception as exc:
+        raise DocumentRenderError(f"{label}: PDF konnte nicht gelesen werden: {exc}") from exc
+    if not attachment_pages:
+        raise DocumentRenderError(f"{label}: PDF enthält keine Seite")
+
+    sep = io.BytesIO()
+    c = canvas.Canvas(sep, pagesize=A4, invariant=1)
+    c.setTitle(label)
+    c.setAuthor("Kanzleiakte")
+    low = label.lower()
+    if low.endswith(".docx"):
+        kicker = "Word-Dokument (Original-Layout)"
+    elif low.endswith(".odt"):
+        kicker = "OpenDocument-Textdatei (Original-Layout)"
+    elif low.endswith(".xlsx"):
+        kicker = "Excel-Tabelle (berechnete Druckfassung)"
+    else:
+        kicker = "Dokument (Original-Layout)"
+    draw_separator_header(c, kicker, label)
+    c.setStrokeColor(BORDER)
+    c.setLineWidth(0.3)
+    c.line(2 * cm, 1.6 * cm, 19 * cm, 1.6 * cm)
+    c.setFont(FONT_REG, 8)
+    c.setFillColor(MUTED)
+    c.drawString(2 * cm, 1.2 * cm, testakte_name)
+    c.showPage()
+    c.save()
+    sep.seek(0)
+    for page in PdfReader(sep).pages:
+        writer.add_page(page)
+    for page in attachment_pages:
+        writer.add_page(a4_normalized_page(page))
 
 
 def build_gesamt_pdf(testakte_dir: Path) -> tuple[str, str]:
     """Gibt (status, info) zurueck. status in {ok, skip, error}."""
     name = testakte_dir.name
+    project_builders = {
+        "bauvergabe-klinikum-muenster": "build-bauvergabe-pakete.py",
+        "bauvergabe-wohnhaus-bielefeld": "build-bauvergabe-pakete.py",
+        "bauwirtschaft-neubau-achtfamilienhaus-hildesheim": "build-bauwirtschaft-hildesheim-pakete.py",
+        "bauwirtschaft-hildesheim-lebensakte": "build-bauwirtschaft-hildesheim-lebensakte-pakete.py",
+        "fintech-darlehen-vertragsuebernahme-bremen": "build-fintech-bremen-pakete.py",
+        "gesellschafterstreit-klageerwiderung-berlin": "build-gesellschafter-vorfuehrpakete.py",
+        "gesellschafterstreit-shareholder-agreement-muenchen": "build-gesellschafter-vorfuehrpakete.py",
+    }
+    if name in project_builders:
+        # Durchgehende Projektakten benötigen Aktennummern-/Projektordnerfolge
+        # und Lesezeichen statt einer Gruppierung nach Dateityp.
+        import importlib.util
+        try:
+            builder_path = Path(__file__).with_name(project_builders[name])
+            spec = importlib.util.spec_from_file_location("hildesheim_release_pdf", builder_path)
+            builder = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(builder)
+            out_path = builder.build_release_pdf(testakte_dir)
+            count = len(builder.sources(testakte_dir))
+            size_kb = out_path.stat().st_size / 1024
+            return "ok", f"{out_path.relative_to(REPO_ROOT)} ({size_kb:.0f} KB, {count} Quelldateien mit Lesezeichen)"
+        except Exception as exc:
+            return "error", str(exc)
     out_dir = testakte_dir / "gesamt-pdf"
     out_dir.mkdir(exist_ok=True)
     out_path = out_dir / f"{name}_gesamt.pdf"
@@ -702,45 +1095,99 @@ def build_gesamt_pdf(testakte_dir: Path) -> tuple[str, str]:
     files = collect_files(testakte_dir)
     total_files = sum(len(v) for v in files.values())
     if total_files == 0:
-        return "skip", "keine Quelldateien"
+        if not out_path.is_file():
+            return "skip", "keine Quelldateien"
+        try:
+            current = out_path.read_bytes()
+            updated = without_notice_pages(current)
+            changed = updated != current
+            if changed:
+                temporary = out_path.with_name(f".{out_path.name}.tmp")
+                temporary.write_bytes(updated)
+                temporary.replace(out_path)
+            size_kb = out_path.stat().st_size / 1024
+            action = "alten Vorspruch entfernt" if changed else "Akteninhalt unverändert"
+            return "ok", f"{out_path.relative_to(REPO_ROOT)} ({size_kb:.0f} KB, {action})"
+        except Exception as exc:
+            return "error", f"bestehendes Gesamt-PDF: {exc}"
 
     cover: list = []
 
-    tmp_text = Path(f"/tmp/_gesamt_text_{name}.pdf")
-    ok, pdf_attachments = build_text_pdf(testakte_dir, files, cover, tmp_text)
-    if not ok:
-        return "error", "Text-PDF konnte nicht erzeugt werden"
-
-    writer = PdfWriter()
+    with tempfile.NamedTemporaryFile(prefix=f"gesamt-{name}-", suffix=".pdf", delete=False) as handle:
+        tmp_text = Path(handle.name)
+    tmp_output = out_path.with_name(f".{out_path.name}.tmp")
     try:
-        for page in PdfReader(str(tmp_text)).pages:
-            writer.add_page(page)
-    except Exception as e:
-        return "error", f"Text-PDF nicht lesbar: {e}"
-
-    for pdf in pdf_attachments:
-        rel = pdf.relative_to(testakte_dir)
-        label = f"PDF-Anhang: {rel}"
-        append_pdf_with_separator(writer, label, pdf, name)
-
-    writer.add_metadata(
-        {
-            "/Title": f"Akte {name}",
-            "/Author": "Kanzleiakte",
-            "/Subject": "Gesamtakte",
-        }
-    )
-    with open(out_path, "wb") as f:
-        writer.write(f)
+        office_attachments, pdf_attachments, has_text_pdf = build_text_pdf(
+            testakte_dir, files, cover, tmp_text
+        )
+        writer = PdfWriter()
+        if has_text_pdf:
+            for page in PdfReader(str(tmp_text)).pages:
+                writer.add_page(page)
+        for label, data in office_attachments:
+            append_pdf_bytes_with_separator(writer, f"Office-Dokument: {label}", data, name)
+        for pdf in pdf_attachments:
+            rel = pdf.relative_to(testakte_dir)
+            append_pdf_with_separator(writer, f"PDF-Anhang: {rel}", pdf, name)
+        writer.add_metadata(
+            {
+                "/Title": f"Akte {name}",
+                "/Author": "Kanzleiakte",
+                "/Subject": "Gesamtakte",
+            }
+        )
+        if name in {
+            "kommunale-haftpflicht-personenschaden",
+            "akha-wuerzburg-rohrbruch",
+            "akha-wuerzburg-betriebsfahrzeug",
+        } and not (testakte_dir / "schriftverkehr-und-klage").is_dir():
+            import importlib.util
+            helper_path = Path(__file__).with_name("build-kommunale-haftpflicht-akten.py")
+            spec = importlib.util.spec_from_file_location("kommunale_haftpflicht_pdf", helper_path)
+            helper = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(helper)
+            helper.add_release_bookmarks(writer, testakte_dir)
+        if name == "akha-wuerzburg-geburtsschaden" and not (testakte_dir / "schriftverkehr-und-klage").is_dir():
+            import importlib.util
+            helper_path = Path(__file__).with_name("build-geburtsschaden-akte.py")
+            spec = importlib.util.spec_from_file_location("geburtsschaden_pdf", helper_path)
+            helper = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(helper)
+            helper.add_release_bookmarks(writer, testakte_dir)
+        if name in {
+            "akha-wuerzburg-fahrzeugschaden", "akha-wuerzburg-schwimmbad",
+            "akha-wuerzburg-baumpflege", "akha-wuerzburg-schlagloch",
+            "akha-wuerzburg-glatteis", "akha-wuerzburg-antragsbearbeitung",
+            "akha-wuerzburg-baugenehmigung", "akha-wuerzburg-abwasseranlage",
+        } and not (testakte_dir / "schriftverkehr-und-klage").is_dir():
+            import importlib.util
+            helper_path = Path(__file__).with_name("build-kommunale-alltagsakten.py")
+            spec = importlib.util.spec_from_file_location("kommunale_alltagsakten_pdf", helper_path)
+            helper = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(helper)
+            helper.add_release_bookmarks(writer, testakte_dir)
+        if (name.startswith("akha-wuerzburg-") or name in {"kommunale-haftpflicht-personenschaden", "akha-fiktives-verletzungsrisiko"}) and ((testakte_dir / "schriftverkehr-und-klage").is_dir() or (testakte_dir / "kommunikation-und-deckung").is_dir()):
+            import importlib.util
+            helper_path = Path(__file__).with_name("build-kommunale-schriftverkehr.py")
+            spec = importlib.util.spec_from_file_location("kommunaler_schriftverkehr_pdf", helper_path)
+            helper = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(helper)
+            helper.add_release_bookmarks(writer, testakte_dir)
+        with tmp_output.open("wb") as handle:
+            writer.write(handle)
+        if not list(PdfReader(str(tmp_output)).pages):
+            raise DocumentRenderError("erzeugtes Gesamt-PDF enthält keine Seite")
+        tmp_output.replace(out_path)
+    except Exception as exc:
+        return "error", str(exc)
+    finally:
+        tmp_text.unlink(missing_ok=True)
+        tmp_output.unlink(missing_ok=True)
     size_kb = out_path.stat().st_size / 1024
-    try:
-        tmp_text.unlink()
-    except Exception:
-        pass
     return "ok", f"{out_path.relative_to(REPO_ROOT)} ({size_kb:.0f} KB, {total_files} Quelldateien)"
 
 
-def main() -> None:
+def main() -> int:
     targets = sys.argv[1:]
     all_dirs = sorted([d for d in TESTAKTEN.iterdir() if d.is_dir()])
     if targets:
@@ -755,7 +1202,8 @@ def main() -> None:
         print(f"  {sigil} {d.name}: {info}")
     print()
     print(f"Fertig: {counts['ok']} OK, {counts['skip']} skip, {counts['error']} Fehler")
+    return 1 if counts["error"] else 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

@@ -1,0 +1,869 @@
+#!/usr/bin/env python3
+"""Offline regressions for routing, staging and ordered release publication."""
+
+from __future__ import annotations
+
+import importlib.util
+import io
+import json
+import subprocess
+import sys
+import tempfile
+import unittest
+import zipfile
+from contextlib import redirect_stdout, redirect_stderr
+from functools import partial
+from pathlib import Path
+from unittest.mock import patch
+
+from release_asset_common import expected_asset_metadata, read_checksums, sha256_file, write_checksums
+import release_routing as R
+from testakte_download_notices import ensure_download_notices, missing_notice_positions
+
+SCRIPTS = Path(__file__).resolve().parent
+
+
+def load(name):
+    spec = importlib.util.spec_from_file_location(name, SCRIPTS / f"{name}.py")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+STAGE = load("stage-release-assets")
+PUBLISH = load("publish-release-assets")
+UPLOAD = load("upload-release-assets")
+CASES = load("inject-gesamt-pdf-section")
+PLUGINS = load("inject-direkt-loslegen-section")
+INDEX = load("generate-asset-index")
+CATALOG = load("generate-root-plugin-catalog")
+DOWNLOADS = load("validate-testakten-readme-downloads")
+SHA = "a" * 40
+VERSION = "777.2.3"
+TAG = f"akten-v{VERSION}"
+FIXTURE_CASES = ("fixture-alpha", "fixture-beta", "fixture-gamma", "fixture-delta")
+FIXTURE_ASSET_NAMES = {
+    "testakte-fixture-alpha.zip", "testakte-fixture-alpha-einzelpdfs.zip",
+    "testakte-fixture-beta.zip", "testakte-fixture-beta-einzelpdfs.zip",
+    "testakte-fixture-gamma.zip", "testakte-fixture-gamma-einzelpdfs.zip",
+    "testakte-fixture-delta.zip", "testakte-fixture-delta-einzelpdfs.zip",
+}
+
+
+class Fixture(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory(prefix="release-routing-")
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        (self.root / ".claude-plugin").mkdir()
+        (self.root / ".claude-plugin/marketplace.json").write_text(
+            json.dumps({"version": VERSION, "plugins": []}), encoding="utf-8",
+        )
+        self.dist = self.root / "dist"
+        self.dist.mkdir()
+        self.staging = self.root / "staging"
+        # Verhaltens- und Grenztests bleiben von produktiven Erweiterungen unabhängig.
+        self.config = self.root / "fixture-routes.json"
+        self.config.write_text(json.dumps({"schema_version": 1, "companion_case_slugs": FIXTURE_CASES}))
+        self.slugs = R.companion_cases(self.config)
+        self.names = set(FIXTURE_ASSET_NAMES)
+        self.empty_config = self.root / "no-routes.json"
+        self.empty_config.write_text(json.dumps({"schema_version": 1, "companion_case_slugs": []}))
+
+    def build(self, ordinary=1):
+        for name in self.names:
+            with zipfile.ZipFile(self.dist / name, "w") as archive:
+                archive.writestr("README.txt", "fixture")
+        for name in ("alle-testakten.zip", "alle-testakten-einzelpdfs.zip", "alles-komplettpaket.zip"):
+            with zipfile.ZipFile(self.dist / name, "w") as archive:
+                for asset in sorted(self.names):
+                    if name == "alle-testakten.zip" and asset.endswith("-einzelpdfs.zip"):
+                        continue
+                    if name == "alle-testakten-einzelpdfs.zip" and not asset.endswith("-einzelpdfs.zip"):
+                        continue
+                    prefix = "testakten/" if name == "alles-komplettpaket.zip" else ""
+                    archive.write(self.dist / asset, prefix + asset)
+        for i in range(ordinary):
+            (self.dist / f"existing-{i}.zip").write_bytes(b"existing")
+        write_checksums(self.dist)
+
+
+class RepositoryRoutingTests(unittest.TestCase):
+    def test_legacy_readmes_and_html_follow_version_idempotently(self):
+        from testakte_download_notices import update_download_readmes
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / ".claude-plugin").mkdir()
+            (root / ".claude-plugin/marketplace.json").write_text(
+                json.dumps({"version": VERSION, "plugins": []}), encoding="utf-8")
+            (root / "testakten/fixture-alpha").mkdir(parents=True)
+            legacy = root / "legacy/README.md"
+            legacy.parent.mkdir()
+            old = f"{R.RELEASE_BASE}/download/akten-v1.0.0/testakte-fixture-alpha.zip"
+            legacy.write_text(f"# Legacy\n\n[Download]({old})\n", encoding="utf-8")
+            html = root / "preview/index.html"
+            html.parent.mkdir()
+            html.write_text(f'<a href="{old}">Download</a>', encoding="utf-8")
+            ignored = root / "dist/index.html"
+            ignored.parent.mkdir()
+            ignored.write_text(html.read_text(), encoding="utf-8")
+            self.assertEqual(update_download_readmes(root), 2)
+            for path in (legacy, html):
+                self.assertIn(f"/download/{TAG}/", path.read_text())
+                self.assertNotIn("akten-v1.0.0", path.read_text())
+            self.assertIn("akten-v1.0.0", ignored.read_text())
+            self.assertEqual(update_download_readmes(root), 0)
+
+    def test_every_central_case_and_both_zip_variants_are_routed(self):
+        expected = tuple(sorted(
+            path.name for path in (R.ROOT / "testakten").iterdir()
+            if path.is_dir() and path.name != "megaprompts"
+        ))
+        slugs = R.companion_cases()
+        self.assertEqual(slugs, expected)
+        self.assertGreaterEqual(len(slugs), 380)
+        self.assertEqual(len(R.companion_asset_names(slugs)), 2 * len(slugs))
+        self.assertTrue({
+            "audi-ea288-weber-neuwagen",
+            "bmw-fischer-abweisungsrisiko",
+            "fiat-wohnmobil-bauer",
+            "mercedes-om651-schneider-thermofenster",
+            "rueckrufregister-kba",
+            "vollstreckung-vw-richter-titel",
+            "vw-ea189-hoffmann-verjaehrung-restschaden",
+            "vw-ea189-mueller-differenzschaden",
+            "vw-finanzierung-koch-widerrufsjoker",
+        }.issubset(slugs))
+        for slug in expected:
+            for suffix in ("", "-einzelpdfs"):
+                with self.subTest(slug=slug, suffix=suffix):
+                    scoped = json.loads((R.ROOT / "scripts/scoped-release-assets.json").read_text())["assets"]
+                    asset = f"testakte-{slug}{suffix}.zip"
+                    part = expected.index(slug) // 499 + 1
+                    tag = scoped.get(asset, TAG if part == 1 else f"akten-{part}-v{VERSION}")
+                    self.assertEqual(R.case_asset_url(slug, suffix, version=VERSION),
+                                     f"{R.RELEASE_BASE}/download/{tag}/{asset}")
+
+
+class RoutingTests(Fixture):
+    def test_arbitrary_case_count_is_sorted_and_partitioned_in_intact_pairs(self):
+        slugs = tuple(f"case-{i:04}" for i in range(1200))
+        groups = R.companion_case_groups(tuple(reversed(slugs)))
+        self.assertEqual(tuple(map(len, groups)), (499, 499, 202))
+        self.assertEqual(tuple(slug for group in groups for slug in group), slugs)
+        self.assertEqual(R.companion_case_groups(()), ())
+        self.assertEqual(R.companion_case_groups(slugs[:499]), (slugs[:499],))
+        self.assertEqual(R.companion_case_groups(slugs[:500]), (slugs[:499], slugs[499:500]))
+        self.assertEqual([R.companion_tag(VERSION, part) for part in (1, 2, 3)],
+                         [TAG, f"akten-2-v{VERSION}", f"akten-3-v{VERSION}"])
+        self.assertEqual([R.companion_stage(part) for part in (1, 2, 3)],
+                         ["companion", "companion-2", "companion-3"])
+        for part in (0, -1, 1.5, True, "2"):
+            with self.subTest(part=part), self.assertRaises(ValueError):
+                R.companion_tag(VERSION, part)
+
+    def test_later_companion_links_and_single_asset_component_pin(self):
+        slugs = tuple(f"case-{i:04}" for i in range(500))
+        self.config.write_text(json.dumps({"schema_version": 1, "companion_case_slugs": list(reversed(slugs))}))
+        (self.root / "scripts").mkdir()
+        (self.root / "scripts/scoped-release-assets.json").write_text(json.dumps({
+            "schema_version": 1, "assets": {"testakte-case-0499.zip": "component-v777.2.9"},
+        }))
+        expected = (
+            ("case-0498", "", TAG),
+            ("case-0498", "-einzelpdfs", TAG),
+            ("case-0499", "", "component-v777.2.9"),
+            ("case-0499", "-einzelpdfs", f"akten-2-v{VERSION}"),
+        )
+        for slug, suffix, tag in expected:
+            asset = f"testakte-{slug}{suffix}.zip"
+            url = f"{R.RELEASE_BASE}/download/{tag}/{asset}"
+            self.assertEqual(R.case_asset_url(slug, suffix, root=self.root, config=self.config), url)
+            old = f"{R.RELEASE_BASE}/download/akten-v1.0.0/{asset}"
+            self.assertEqual(R.rewrite_case_asset_urls(old, root=self.root, config=self.config), url)
+
+    def test_component_version_requires_its_own_exact_asset_pin(self):
+        plugin = {"name": "fixture-plugin", "version": VERSION}
+        R.validate_plugin_version(plugin, VERSION, root=self.root)
+        plugin["version"] = "777.2.9"
+        config = self.root / "scripts/scoped-release-assets.json"
+        config.parent.mkdir(parents=True, exist_ok=True)
+        for assets, valid in (
+            ({}, False),
+            ({"other.zip": "component-v777.2.9"}, False),
+            ({"fixture-plugin.zip": "component-v777.2.8"}, False),
+            ({"fixture-plugin.zip": "component-v777.2.9"}, True),
+        ):
+            config.write_text(json.dumps({"schema_version": 1, "assets": assets}))
+            with self.subTest(assets=assets):
+                if valid:
+                    R.validate_plugin_version(plugin, VERSION, root=self.root)
+                else:
+                    with self.assertRaises(ValueError):
+                        R.validate_plugin_version(plugin, VERSION, root=self.root)
+
+    def setUp(self):
+        super().setUp()
+        # Die Generatoren importieren eigene Aliase; die echten Helfer lesen die Fixture.
+        for module, helpers in (
+            (CASES, ("case_asset_url", "companion_cases", "rewrite_case_asset_urls")),
+            (PLUGINS, ("case_asset_url", "rewrite_case_asset_urls")),
+            (INDEX, ("case_asset_url", "companion_cases")),
+            (CATALOG, ("rewrite_case_asset_urls",)),
+            (DOWNLOADS, ("case_asset_url", "rewrite_case_asset_urls")),
+        ):
+            for name in helpers:
+                routing = patch.object(module, name, partial(getattr(R, name), config=self.config))
+                routing.start()
+                self.addCleanup(routing.stop)
+
+    def test_four_case_fixture_has_both_zip_variants(self):
+        self.assertEqual(self.slugs, FIXTURE_CASES)
+        self.assertEqual(R.companion_asset_names(self.slugs), FIXTURE_ASSET_NAMES)
+        self.assertFalse(TAG.startswith("v"))
+
+    def test_urls_follow_marketplace_not_a_hardcoded_version(self):
+        for slug in self.slugs:
+            for suffix in ("", "-einzelpdfs"):
+                self.assertEqual(R.case_asset_url(slug, suffix, root=self.root, config=self.config),
+                                 f"{R.RELEASE_BASE}/download/{TAG}/testakte-{slug}{suffix}.zip")
+        self.assertIn("/latest/download/", R.case_asset_url("old-case", root=self.root, config=self.config))
+        self.assertIn("/latest/download/", R.case_asset_url(self.slugs[0], config=self.empty_config))
+
+    def test_placeholders_and_older_pins_rewritten_but_existing_links_unchanged(self):
+        for route in ("latest/download", "download/akten-v1.2.3", "download/v1.2.3"):
+            source = "\n".join(f"[ZIP]({R.RELEASE_BASE}/{route}/{name})" for name in sorted(self.names))
+            unchanged = f"\n[other]({R.RELEASE_BASE}/latest/download/testakte-old-case.zip)"
+            expected = "\n".join(f"[ZIP]({R.RELEASE_BASE}/download/{TAG}/{name})" for name in sorted(self.names))
+            result = R.rewrite_case_asset_urls(source + unchanged, root=self.root, config=self.config)
+            self.assertEqual(result, expected + unchanged)
+            self.assertEqual(R.rewrite_case_asset_urls(result, root=self.root, config=self.config), result)
+        self.assertEqual(R.rewrite_case_asset_urls(source, config=self.empty_config), source)
+
+    def test_invalid_versions_and_config_fail_closed(self):
+        for value in ("v1.2.3", "1.2", "../x", "1.2.3\n", None):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                R.companion_tag(value)
+        for slugs in (["../case"], ["case", "case"], "case"):
+            self.empty_config.write_text(json.dumps({"schema_version": 1, "companion_case_slugs": slugs}))
+            with self.assertRaises(ValueError):
+                R.companion_cases(self.empty_config)
+
+    def test_all_central_scope_is_sorted_and_skips_only_build_helper_directory(self):
+        for slug in ("case-zulu", "case-alpha", "megaprompts"):
+            (self.root / "testakten" / slug).mkdir(parents=True)
+        config = self.root / "all-central.json"
+        config.write_text(json.dumps({
+            "schema_version": 2,
+            "companion_case_scope": R.CENTRAL_CASE_SCOPE,
+        }))
+        self.assertEqual(R.companion_cases(config, self.root), ("case-alpha", "case-zulu"))
+        for data in (
+            {"schema_version": 2, "companion_case_scope": "some-central"},
+            {"schema_version": 2, "companion_case_scope": R.CENTRAL_CASE_SCOPE, "extra": True},
+        ):
+            config.write_text(json.dumps(data))
+            with self.assertRaises(ValueError):
+                R.companion_cases(config, self.root)
+
+    def test_case_generator_rewrites_entire_readme_and_is_idempotent(self):
+        slug = self.slugs[0]
+        directory = self.root / "testakten" / slug
+        (directory / "gesamt-pdf").mkdir(parents=True)
+        (directory / "gesamt-pdf" / f"{slug}_gesamt.pdf").write_bytes(b"fixture")
+        readme = directory / "README.md"
+        readme.write_text(f"# Case\n\n[Legacy placeholder]({R.RELEASE_BASE}/latest/download/testakte-{slug}.zip)\n")
+        with patch.object(CASES, "REPO_ROOT", self.root), patch.object(CASES, "expected_arcnames", return_value=["doc.pdf"]):
+            self.assertEqual(CASES.inject(readme, slug), "inserted")
+            text = readme.read_text()
+            self.assertNotIn("/latest/download/", text)
+            self.assertIn(f"/download/{TAG}/", text)
+            self.assertNotIn("ZIP links refer to the latest", text)
+            self.assertEqual(missing_notice_positions(text, case_readme=True), [])
+            self.assertEqual(CASES.inject(readme, slug), "unchanged")
+
+    def test_plugin_case_links_and_asset_index_use_routes(self):
+        slug = self.slugs[0]
+        with patch.object(PLUGINS, "REPO", self.root), patch.object(PLUGINS, "TESTAKTEN_DIR", self.root / "testakten"), \
+                patch.object(PLUGINS, "get_akte_title", return_value="Case"):
+            text = PLUGINS.testakten_section("plugin", self.root / "plugin", [slug])
+        self.assertEqual(text.count(f"/download/{TAG}/"), 2)
+        section = ensure_download_notices("\n".join(INDEX.companion_section(VERSION)))
+        self.assertEqual(missing_notice_positions(section), [])
+        for name in self.names:
+            self.assertIn(f"/download/{TAG}/{name}", section)
+        self.assertIn(f"/download/{TAG}/checksums-sha256.txt", section)
+        with patch.object(INDEX, "companion_cases", return_value=()):
+            self.assertEqual(INDEX.companion_section(VERSION), [])
+
+    def test_root_catalog_regeneration_resolves_placeholders_in_both_catalogues(self):
+        placeholder = f"[ZIP]({R.RELEASE_BASE}/latest/download/testakte-{self.slugs[0]}.zip)"
+        readme, overview = self.root / "README.md", self.root / "cases.md"
+        readme.write_text(placeholder)
+        overview.write_text(f"Stand v1.0.0: 1 zentrale Testakten.\n{placeholder}")
+        marketplace = self.root / ".claude-plugin/marketplace.json"
+        marketplace.write_text(json.dumps({"version": VERSION, "plugins": [{"name": "p", "version": VERSION}]}))
+        subject_index = self.root / "references/rechtsgebiete-uebersicht.md"
+        subject_index.parent.mkdir(parents=True, exist_ok=True)
+        repository_index = CATALOG.REPO / "references/rechtsgebiete-uebersicht.md"
+        original_index = repository_index.read_bytes()
+        with patch.multiple(CATALOG, REPO=self.root, MARKETPLACE=marketplace, README=readme, TESTAKTEN_README=overview), \
+                patch.object(CATALOG, "build_directory", return_value=""), patch.object(CATALOG, "build_catalog", return_value=""), \
+                patch.object(CATALOG, "replace_directory", side_effect=lambda text, _: text), \
+                patch.object(CATALOG, "replace_catalog", side_effect=lambda text, _: text), \
+                patch.object(CATALOG, "inventory_counts", return_value={"skills": 0, "central_testakten": 4}), \
+                patch.object(CATALOG, "update_summary_counts", side_effect=lambda text, _: text), redirect_stdout(io.StringIO()):
+            CATALOG.main()
+        for page in (readme, overview):
+            self.assertIn(f"/download/{TAG}/", page.read_text())
+            self.assertNotIn("latest/download", page.read_text())
+        self.assertIn(f"Stand v{VERSION}: 1 Plugins", subject_index.read_text())
+        self.assertEqual(repository_index.read_bytes(), original_index)
+
+    def test_validator_rejects_placeholder_even_beside_correct_link(self):
+        with patch.object(DOWNLOADS, "ROOT", self.root):
+            correct = DOWNLOADS.release_url(self.slugs[0])
+            self.assertIn(f"/download/{TAG}/", correct)
+            for wrong in (correct.replace(f"download/{TAG}", "latest/download"), correct.replace(TAG, "akten-v1.0.0")):
+                errors = []
+                DOWNLOADS.validate_release_routes("README", correct + "\n" + wrong, errors)
+                self.assertEqual(len(errors), 1)
+                self.assertIn("README:2:", errors[0])
+
+    def test_validator_checks_repo_wide_user_facing_html(self):
+        slug = self.slugs[0]
+        correct = R.case_asset_url(slug, root=self.root, config=self.config)
+        wrong = correct.replace(f"download/{TAG}", "latest/download")
+        page = self.root / "plugin/assets/vorschau/index.html"
+        page.parent.mkdir(parents=True)
+        page.write_text(
+            f'<a href="{wrong}">Akte</a>\n',
+            encoding="utf-8",
+        )
+        ignored = self.root / ".venv/cache.html"
+        ignored.parent.mkdir()
+        ignored.write_text(page.read_text(encoding="utf-8"), encoding="utf-8")
+
+        with patch.object(DOWNLOADS, "ROOT", self.root):
+            errors: list[str] = []
+            self.assertEqual(DOWNLOADS.validate_html_release_routes(self.root, errors), 1)
+            self.assertEqual(len(errors), 1)
+            self.assertIn("plugin/assets/vorschau/index.html:1:", errors[0])
+
+            page.write_text(f'<a href="{correct}">Akte</a>\n', encoding="utf-8")
+            errors = []
+            self.assertEqual(DOWNLOADS.validate_html_release_routes(self.root, errors), 1)
+            self.assertEqual(errors, [])
+
+
+class StagingTests(Fixture):
+    def test_1003_assets_split_into_995_and_9_with_complete_aggregates(self):
+        self.build(ordinary=991)
+        before = {path.name: sha256_file(path) for path in self.dist.iterdir()}
+        self.assertEqual(len(before), 1003)
+        self.assertEqual(STAGE.stage_assets(self.dist, self.staging, self.slugs), {"main": 995, "companion": 9})
+        main, companion = (expected_asset_metadata(self.staging / name) for name in ("main", "companion"))
+        self.assertEqual(set(main) & set(companion), {"checksums-sha256.txt"})
+        self.assertEqual(set(companion) - {"checksums-sha256.txt"}, self.names)
+        self.assertFalse(self.names & read_checksums(self.staging / "main/checksums-sha256.txt").keys())
+        self.assertEqual(set(main) | set(companion), set(before))
+        self.assertEqual(before, {path.name: sha256_file(path) for path in self.dist.iterdir()})
+        for name in ("alle-testakten.zip", "alle-testakten-einzelpdfs.zip", "alles-komplettpaket.zip"):
+            with zipfile.ZipFile(self.staging / "main" / name) as archive:
+                if name == "alles-komplettpaket.zip":
+                    expected = {"testakten/" + asset for asset in self.names}
+                else:
+                    expected = {asset for asset in self.names if asset.endswith("-einzelpdfs.zip") == (name == "alle-testakten-einzelpdfs.zip")}
+                self.assertEqual(expected, set(archive.namelist()))
+
+    def test_incomplete_aggregates_are_rejected_before_partition(self):
+        for index, name in enumerate(("alle-testakten.zip", "alle-testakten-einzelpdfs.zip", "alles-komplettpaket.zip")):
+            self.build()
+            with zipfile.ZipFile(self.dist / name, "w") as archive:
+                archive.writestr("README.txt", "incomplete")
+            target = self.root / f"incomplete-{index}"
+            with self.subTest(name=name), self.assertRaisesRegex(ValueError, "Incomplete aggregate"):
+                STAGE.stage_assets(self.dist, target, self.slugs)
+            self.assertFalse(target.exists())
+
+    def test_empty_configuration_preserves_all_assets(self):
+        self.build()
+        original = expected_asset_metadata(self.dist)
+        STAGE.stage_assets(self.dist, self.staging, ())
+        self.assertEqual(expected_asset_metadata(self.staging / "main"), original)
+        self.assertFalse((self.staging / "companion").exists())
+
+    def test_main_limit_includes_checksum_and_fails_before_writing(self):
+        self.build(ordinary=996)
+        self.assertEqual(STAGE.stage_assets(self.dist, self.staging, self.slugs)["main"], 1000)
+        (self.dist / "one-more.zip").write_bytes(b"extra")
+        target = self.root / "over-limit"
+        with self.assertRaisesRegex(ValueError, "1001 assets"):
+            STAGE.stage_assets(self.dist, target, self.slugs)
+        self.assertFalse(target.exists())
+        with self.assertRaisesRegex(ValueError, "GitHub limit"):
+            expected_asset_metadata(self.dist)
+
+    def test_511_cases_split_with_checksums_and_complete_aggregates(self):
+        self.slugs = tuple(f"case-{i:04}" for i in range(511))
+        self.names = R.companion_asset_names(self.slugs)
+        self.build()
+        counts = STAGE.stage_assets(self.dist, self.staging, tuple(reversed(self.slugs)))
+        self.assertEqual(counts, {"main": 5, "companion": 999, "companion-2": 25})
+        for group, slugs in (("companion", self.slugs[:499]), ("companion-2", self.slugs[499:])):
+            self.assertEqual(set(expected_asset_metadata(self.staging / group)),
+                             R.companion_asset_names(slugs) | {"checksums-sha256.txt"})
+        for name in ("alle-testakten.zip", "alle-testakten-einzelpdfs.zip", "alles-komplettpaket.zip"):
+            self.assertEqual(sha256_file(self.staging / "main" / name), sha256_file(self.dist / name))
+            with zipfile.ZipFile(self.staging / "main" / name) as archive:
+                self.assertEqual(len(archive.namelist()), 1022 if name == "alles-komplettpaket.zip" else 511)
+
+    def test_missing_pair_and_nested_or_existing_stage_fail_without_deletion(self):
+        self.build()
+        (self.dist / next(iter(self.names))).unlink()
+        with self.assertRaisesRegex(ValueError, "missing"):
+            STAGE.stage_assets(self.dist, self.staging, self.slugs)
+        self.assertFalse(self.staging.exists())
+        for target in (self.dist, self.dist / "staging", self.root):
+            with self.assertRaises(ValueError):
+                STAGE.stage_assets(self.dist, target, ())
+        self.staging.mkdir()
+        sentinel = self.staging / "keep.txt"
+        sentinel.write_text("keep")
+        with self.assertRaises(ValueError):
+            STAGE.stage_assets(self.dist, self.staging, ())
+        self.assertEqual(sentinel.read_text(), "keep")
+
+
+class FakeGitHub:
+    def __init__(self):
+        self.refs = {f"v{VERSION}": {"type": "tag", "sha": "b" * 40}}
+        self.objects = {"b" * 40: {"type": "tag", "sha": "c" * 40}, "c" * 40: {"type": "commit", "sha": SHA}}
+        self.releases = {}
+        self.commands = []
+        self.head = SHA
+
+    def run(self, command):
+        self.commands.append(command)
+        def response(value=None, code=0, error=""):
+            return subprocess.CompletedProcess(command, code, json.dumps(value) if value is not None else "", error)
+        if command[0] == "git":
+            return subprocess.CompletedProcess(command, 0, self.head + "\n", "")
+        if command[:2] == ["gh", "api"]:
+            resource = command[2]
+            if "/git/ref/tags/" in resource:
+                obj = self.refs.get(resource.split("/git/ref/tags/")[1])
+                return response({"object": obj}) if obj else response(code=1, error="gh: Not Found (HTTP 404)")
+            if "/git/tags/" in resource:
+                return response({"object": self.objects[resource.rsplit("/", 1)[1]]})
+            if resource.endswith("/git/refs"):
+                tag = next(arg.removeprefix("ref=refs/tags/") for arg in command if arg.startswith("ref="))
+                sha = next(arg.removeprefix("sha=") for arg in command if arg.startswith("sha="))
+                self.refs[tag] = {"type": "commit", "sha": sha}
+                return response({"ref": tag})
+        if command[:3] == ["gh", "release", "view"]:
+            release = self.releases.get(command[3])
+            return response(release) if release else response(code=1, error="release not found")
+        if command[:3] == ["gh", "release", "create"]:
+            self.releases[command[3]] = {"tagName": command[3], "isDraft": True, "databaseId": 7}
+            return response()
+        raise AssertionError(f"Unexpected command: {command}")
+
+
+class PublicationTests(Fixture):
+    def setUp(self):
+        super().setUp()
+        self.build()
+        STAGE.stage_assets(self.dist, self.staging, self.slugs)
+        self.gh = FakeGitHub()
+        runner = patch.object(PUBLISH, "run", side_effect=self.gh.run)
+        runner.start()
+        self.addCleanup(runner.stop)
+        executor = patch.object(PUBLISH, "execute")
+        self.execute = executor.start()
+        self.addCleanup(executor.stop)
+
+    def publish(self, **kwargs):
+        PUBLISH.publish(self.staging, f"v{VERSION}", "owner/repo", root=self.root, config=self.config, **kwargs)
+
+    def split_companions(self):
+        limit = patch.object(R, "MAX_RELEASE_ASSETS", 5)
+        limit.start()
+        self.addCleanup(limit.stop)
+        self.staging = self.root / "multi-staging"
+        self.assertEqual(STAGE.stage_assets(self.dist, self.staging, self.slugs),
+                         {"main": 5, "companion": 5, "companion-2": 5})
+
+    def test_all_companions_are_verified_then_published_before_main(self):
+        self.split_companions()
+        self.publish()
+        commands = [call.args[0] for call in self.execute.call_args_list]
+        tags = [f"v{VERSION}", TAG, f"akten-2-v{VERSION}"]
+        self.assertEqual([cmd[3] for cmd in commands[:3]], tags)
+        self.assertEqual([cmd[3] for cmd in commands[3:6]], tags)
+        self.assertEqual([cmd[3] for cmd in commands[6:]], tags[1:] + tags[:1])
+        for cmd in commands[:3]:
+            self.assertIn("--protect-published", cmd)
+            self.assertEqual("--require-existing" in cmd, cmd[3] != tags[0])
+        for cmd in commands[6:-1]:
+            self.assertIn("--latest=false", cmd)
+        self.assertIn("--latest=true", commands[-1])
+        for tag in tags[1:]:
+            self.assertEqual(self.gh.refs[tag], {"type": "commit", "sha": SHA})
+        self.assertNotIn("--force", sum(self.gh.commands + commands, []))
+        self.assertNotIn("DELETE", sum(self.gh.commands + commands, []))
+
+    def test_mismatching_later_tag_blocks_all_remote_writes(self):
+        self.split_companions()
+        later = f"akten-2-v{VERSION}"
+        self.gh.refs[later] = {"type": "commit", "sha": "d" * 40}
+        with self.assertRaisesRegex(ValueError, "not changed"):
+            self.publish()
+        self.assertFalse(any("POST" in cmd or "create" in cmd for cmd in self.gh.commands))
+        self.execute.assert_not_called()
+
+    def test_every_multi_release_failure_keeps_main_unpublished(self):
+        self.split_companions()
+        for failing in range(8):
+            self.execute.reset_mock()
+            count = 0
+            def fail(command):
+                nonlocal count
+                count += 1
+                if count == failing + 1:
+                    raise subprocess.CalledProcessError(1, command)
+            self.execute.side_effect = fail
+            with self.subTest(failing=failing), self.assertRaises(subprocess.CalledProcessError):
+                self.publish()
+            commands = [call.args[0] for call in self.execute.call_args_list]
+            self.assertFalse(any(cmd[:4] == ["gh", "release", "edit", f"v{VERSION}"] for cmd in commands))
+            if failing < 6:
+                self.assertFalse(any(cmd[:3] == ["gh", "release", "edit"] for cmd in commands))
+
+    def test_tag_moving_while_companions_publish_blocks_main(self):
+        self.split_companions()
+        def move(command):
+            if command[:4] == ["gh", "release", "edit", f"akten-2-v{VERSION}"]:
+                self.gh.refs[TAG] = {"type": "commit", "sha": "e" * 40}
+        self.execute.side_effect = move
+        with self.assertRaisesRegex(ValueError, "moved"):
+            self.publish()
+        self.assertEqual(self.execute.call_count, 8)
+
+    def test_wrong_or_missing_pair_in_later_stage_stops_before_remote_calls(self):
+        self.split_companions()
+        first = self.staging / "companion"
+        later = self.staging / "companion-2"
+        one = next(path for path in first.glob("*.zip"))
+        other = next(path for path in later.glob("*.zip"))
+        temporary = self.root / "swap.zip"
+        one.rename(temporary)
+        other.rename(first / other.name)
+        temporary.rename(later / one.name)
+        write_checksums(first)
+        write_checksums(later)
+        with self.assertRaisesRegex(ValueError, "configured release routes"):
+            self.publish()
+        self.assertEqual(self.gh.commands, [])
+        self.execute.assert_not_called()
+
+    def test_missing_or_unexpected_companion_stage_stops_before_remote_calls(self):
+        self.split_companions()
+        expected = self.staging / "companion-2"
+        unexpected = self.staging / "companion-3"
+        expected.rename(unexpected)
+        with self.assertRaisesRegex(ValueError, "configured release routes"):
+            self.publish()
+        self.assertEqual(self.gh.commands, [])
+        self.execute.assert_not_called()
+
+    def test_annotated_parent_exact_sha_never_latest_and_publish_order(self):
+        self.publish()
+        create = next(cmd for cmd in self.gh.commands if cmd[:3] == ["gh", "release", "create"])
+        self.assertEqual(create[create.index("--target") + 1], SHA)
+        for flag in ("--draft", "--latest=false", "--verify-tag"):
+            self.assertIn(flag, create)
+        notes = create[create.index("--notes") + 1]
+        self.assertIn("vollständig", notes)
+        self.assertIn("für", notes)
+        post = next(cmd for cmd in self.gh.commands if "POST" in cmd)
+        self.assertIn(f"ref=refs/tags/{TAG}", post)
+        self.assertIn(f"sha={SHA}", post)
+        commands = [call.args[0] for call in self.execute.call_args_list]
+        self.assertEqual([Path(cmd[1]).name if cmd[0] == sys.executable else cmd[2] for cmd in commands],
+                         ["upload-release-assets.py"] * 2 + ["validate-release-assets.py"] * 2 + ["edit"] * 2)
+        self.assertIn("--require-existing", commands[1])
+        self.assertEqual(commands[-2][3], TAG)
+        self.assertIn("--latest=false", commands[-2])
+        self.assertEqual(commands[-1][3], f"v{VERSION}")
+        self.assertIn("--latest=true", commands[-1])
+        self.assertNotIn("--latest=false", commands[-1])
+        self.assertNotIn("--force", sum(self.gh.commands + commands, []))
+        self.assertNotIn("DELETE", sum(self.gh.commands + commands, []))
+
+    def test_existing_published_companion_is_reusable_without_recreation(self):
+        self.gh.refs[TAG] = {"type": "commit", "sha": SHA}
+        self.gh.releases[TAG] = {"tagName": TAG, "isDraft": False, "databaseId": 7}
+        self.publish()
+        self.assertFalse(any("POST" in cmd or "create" in cmd for cmd in self.gh.commands))
+
+    def test_lost_creation_responses_reuse_exact_ref_and_draft(self):
+        def lost_response(command):
+            result = self.gh.run(command)
+            if "POST" in command or command[:3] == ["gh", "release", "create"]:
+                return subprocess.CompletedProcess(command, 1, "", "lost response")
+            return result
+        with patch.object(PUBLISH, "run", side_effect=lost_response):
+            self.publish()
+        self.assertEqual(self.execute.call_count, 6)
+
+    def test_created_tag_waits_for_visibility_without_repeating_post(self):
+        for lost_response in (False, True):
+            with self.subTest(lost_response=lost_response):
+                self.gh = FakeGitHub()
+                created, hidden_reads = False, 0
+                def delayed(command):
+                    nonlocal created, hidden_reads
+                    result = self.gh.run(command)
+                    if "POST" in command:
+                        created = True
+                        return (subprocess.CompletedProcess(command, 1, "", "lost response")
+                                if lost_response else result)
+                    if created and command[:2] == ["gh", "api"] and "/git/ref/tags/" in command[2] and hidden_reads < 2:
+                        hidden_reads += 1
+                        return subprocess.CompletedProcess(command, 1, "", "gh: Not Found (HTTP 404)")
+                    return result
+                with patch.object(PUBLISH, "run", side_effect=delayed), patch("time.sleep") as sleep:
+                    PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+                self.assertEqual(hidden_reads, 2)
+                self.assertEqual(sleep.call_count, 2)
+                self.assertTrue(all(0 < call.args[0] <= 60 for call in sleep.call_args_list))
+                self.assertEqual(sum("POST" in cmd for cmd in self.gh.commands), 1)
+                self.assertEqual(self.gh.refs[TAG], {"type": "commit", "sha": SHA})
+                self.assertTrue(self.gh.releases[TAG]["isDraft"])
+
+    def test_tag_creation_timeout_can_be_confirmed_without_repeating_post(self):
+        def timed_out(command):
+            result = self.gh.run(command)
+            if "POST" in command:
+                raise subprocess.TimeoutExpired(command, 300)
+            return result
+        with patch.object(PUBLISH, "run", side_effect=timed_out), patch("time.sleep") as sleep:
+            PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+        self.assertEqual(sum("POST" in cmd for cmd in self.gh.commands), 1)
+        self.assertEqual(self.gh.refs[TAG]["sha"], SHA)
+        sleep.assert_not_called()
+
+    def test_created_tag_remaining_invisible_stops_after_five_reads(self):
+        created, reads = False, 0
+        def invisible(command):
+            nonlocal created, reads
+            result = self.gh.run(command)
+            if "POST" in command:
+                created = True
+            elif created and command[:2] == ["gh", "api"] and "/git/ref/tags/" in command[2]:
+                reads += 1
+                return subprocess.CompletedProcess(command, 1, "", "gh: Not Found (HTTP 404)")
+            return result
+        with patch.object(PUBLISH, "run", side_effect=invisible), patch("time.sleep") as sleep:
+            with self.assertRaisesRegex(RuntimeError, "after 5"):
+                PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+        self.assertEqual(reads, 5)
+        self.assertEqual(sleep.call_count, 4)
+        self.assertFalse(self.gh.releases)
+        self.assertEqual(sum("POST" in cmd for cmd in self.gh.commands), 1)
+
+    def test_delayed_wrong_tag_commit_is_rejected_without_change(self):
+        created, reads = False, 0
+        def wrong_commit(command):
+            nonlocal created, reads
+            result = self.gh.run(command)
+            if "POST" in command:
+                created = True
+                self.gh.refs[TAG] = {"type": "commit", "sha": "d" * 40}
+            elif created and command[:2] == ["gh", "api"] and "/git/ref/tags/" in command[2]:
+                reads += 1
+                if reads == 1:
+                    return subprocess.CompletedProcess(command, 1, "", "gh: Not Found (HTTP 404)")
+            return result
+        with patch.object(PUBLISH, "run", side_effect=wrong_commit), patch("time.sleep") as sleep:
+            with self.assertRaisesRegex(ValueError, "not changed"):
+                PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+        self.assertEqual(reads, 2)
+        sleep.assert_called_once()
+        self.assertEqual(self.gh.refs[TAG]["sha"], "d" * 40)
+        self.assertFalse(self.gh.releases)
+        self.assertEqual(sum("POST" in cmd for cmd in self.gh.commands), 1)
+        self.assertNotIn("DELETE", sum(self.gh.commands, []))
+        self.assertNotIn("--force", sum(self.gh.commands, []))
+
+    def test_post_creation_lookup_permission_error_is_not_visibility_retry(self):
+        created = False
+        def forbidden(command):
+            nonlocal created
+            result = self.gh.run(command)
+            if "POST" in command:
+                created = True
+            elif created and command[:2] == ["gh", "api"] and "/git/ref/tags/" in command[2]:
+                return subprocess.CompletedProcess(command, 1, "", "HTTP 403")
+            return result
+        with patch.object(PUBLISH, "run", side_effect=forbidden), patch("time.sleep") as sleep:
+            with self.assertRaisesRegex(RuntimeError, "HTTP 403"):
+                PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+        sleep.assert_not_called()
+        self.assertFalse(self.gh.releases)
+
+    def test_ensure_existing_companion_retry_does_not_change_latest(self):
+        self.gh.refs[TAG] = {"type": "commit", "sha": SHA}
+        for draft in (True, False):
+            self.gh.releases[TAG] = {"tagName": TAG, "isDraft": draft, "databaseId": 7}
+            self.gh.commands.clear()
+            PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+            self.assertTrue(all(
+                (cmd[:2] == ["gh", "api"] and len(cmd) == 3) or cmd[:3] == ["gh", "release", "view"]
+                for cmd in self.gh.commands
+            ))
+            self.execute.assert_not_called()
+
+    def test_release_lookup_failure_is_not_permission_to_create(self):
+        self.gh.refs[TAG] = {"type": "commit", "sha": SHA}
+        for message in ("HTTP 403", "network failure", "invalid authentication"):
+            def failed_view(command):
+                if command[:3] == ["gh", "release", "view"]:
+                    return subprocess.CompletedProcess(command, 1, "", message)
+                return self.gh.run(command)
+            with patch.object(PUBLISH, "run", side_effect=failed_view), self.assertRaises(RuntimeError):
+                self.publish()
+        self.assertFalse(any("create" in cmd for cmd in self.gh.commands))
+        self.execute.assert_not_called()
+
+    def test_mismatching_companion_is_not_overwritten(self):
+        self.gh.refs[TAG] = {"type": "commit", "sha": "d" * 40}
+        with self.assertRaisesRegex(ValueError, "not changed"):
+            self.publish()
+        self.assertFalse(any("POST" in cmd or "create" in cmd for cmd in self.gh.commands))
+        self.execute.assert_not_called()
+
+    def test_wrong_checkout_or_primary_version_stops_before_remote_writes(self):
+        self.gh.head = "e" * 40
+        with self.assertRaisesRegex(ValueError, "checkout"):
+            self.publish()
+        with self.assertRaisesRegex(ValueError, "marketplace version"):
+            PUBLISH.publish(self.staging, "v1.2.3", "owner/repo", root=self.root, config=self.config)
+        self.assertFalse(any("POST" in cmd or "create" in cmd for cmd in self.gh.commands))
+        self.execute.assert_not_called()
+
+    def test_every_upload_or_verification_failure_blocks_publication(self):
+        for failing in range(4):
+            self.execute.reset_mock()
+            count = 0
+            def fail(command):
+                nonlocal count
+                count += 1
+                if count == failing + 1:
+                    raise subprocess.CalledProcessError(1, command)
+            self.execute.side_effect = fail
+            with self.subTest(failing=failing), self.assertRaises(subprocess.CalledProcessError):
+                self.publish()
+            self.assertFalse(any(call.args[0][:3] == ["gh", "release", "edit"] for call in self.execute.call_args_list))
+
+    def test_failed_companion_publication_keeps_main_unpublished(self):
+        def fail(command):
+            if command[:4] == ["gh", "release", "edit", TAG]:
+                raise subprocess.CalledProcessError(1, command)
+        self.execute.side_effect = fail
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        self.assertEqual(self.execute.call_count, 5)
+        self.assertFalse(any(call.args[0][:4] == ["gh", "release", "edit", f"v{VERSION}"] for call in self.execute.call_args_list))
+
+    def test_tag_moved_after_verification_blocks_both_publications(self):
+        def move(command):
+            if "validate-release-assets.py" in command[1] and command[3] == TAG:
+                self.gh.refs[TAG] = {"type": "commit", "sha": "e" * 40}
+        self.execute.side_effect = move
+        with self.assertRaisesRegex(ValueError, "moved"):
+            self.publish()
+        self.assertEqual(self.execute.call_count, 4)
+
+    def test_auth_failure_is_not_treated_as_missing_tag(self):
+        with patch.object(PUBLISH, "run", return_value=subprocess.CompletedProcess([], 1, "", "HTTP 403")):
+            with self.assertRaises(RuntimeError):
+                PUBLISH.ensure_companion("owner/repo", TAG, f"v{VERSION}", SHA)
+
+    def test_malformed_stages_fail_before_remote_calls(self):
+        (self.staging / "companion" / "unexpected.zip").write_bytes(b"wrong")
+        write_checksums(self.staging / "companion")
+        with self.assertRaisesRegex(ValueError, "configured release routes"):
+            self.publish()
+        self.assertEqual(self.gh.commands, [])
+        self.execute.assert_not_called()
+
+    def test_no_companion_configuration_keeps_old_publisher_sequence(self):
+        stage = self.root / "ordinary-staging"
+        STAGE.stage_assets(self.dist, stage, ())
+        PUBLISH.publish(stage, "v1.2.3", "owner/repo", root=self.root, config=self.empty_config)
+        self.assertEqual(self.gh.commands, [])
+        commands = [call.args[0] for call in self.execute.call_args_list]
+        self.assertEqual(len(commands), 3)
+        self.assertNotIn("--protect-published", commands[0])
+        self.assertNotIn("--require-existing", commands[0])
+        self.assertEqual(commands[-1], ["gh", "release", "edit", "v1.2.3", "--draft=false", "--latest=true", "--repo", "owner/repo"])
+
+    def test_uploader_protects_published_assets_and_requires_existing_companion(self):
+        argv = ["upload", str(self.staging / "companion"), TAG, "--repo", "owner/repo", "--require-existing", "--protect-published"]
+        metadata = expected_asset_metadata(self.staging / "companion")
+        remote = {name: {**entry, "state": "uploaded"} for name, entry in metadata.items()}
+        with patch.object(sys, "argv", argv), patch.object(UPLOAD, "view_release") as view, \
+                patch.object(UPLOAD, "ensure_release") as ensure, patch.object(UPLOAD, "fetch_remote_assets", return_value=remote), \
+                patch.object(UPLOAD, "delete_asset") as delete, patch.object(UPLOAD, "upload_one") as upload, \
+                redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            view.return_value = {"id": 1, "isDraft": False}
+            self.assertEqual(UPLOAD.main(), 0)
+            remote[next(iter(self.names))]["size"] += 1
+            self.assertEqual(UPLOAD.main(), 1)
+            view.return_value = None
+            self.assertEqual(UPLOAD.main(), 1)
+            ensure.assert_not_called()
+            delete.assert_not_called()
+            upload.assert_not_called()
+
+
+class WorkflowTests(unittest.TestCase):
+    def test_partition_after_complete_packaging_and_checkout_requested_tag(self):
+        text = (SCRIPTS.parent / ".github/workflows/release-plugin-zips.yml").read_text()
+        self.assertLess(text.index('test -s dist/alles-komplettpaket.zip'), text.index("scripts/stage-release-assets.py"))
+        self.assertLess(text.index("scripts/stage-release-assets.py"), text.index("scripts/publish-release-assets.py"))
+        self.assertIn("ref: ${{ github.ref }}", text)
+        resolve = text.index('scripts/prepare-complete-release.py resolve "$TAG"')
+        checkout = text.index('git checkout --detach "$SHA"')
+        create_tag = text.index('scripts/prepare-complete-release.py ensure-tag "$RELEASE_TAG"')
+        self.assertLess(resolve, checkout)
+        self.assertLess(checkout, text.index("scripts/validate-root-readme-overview.py"))
+        self.assertIn('--fallback-sha "$GITHUB_SHA"', text)
+        self.assertIn('--expected-sha "$BUILD_SHA"', text)
+        self.assertIn('BUILD_SHA: ${{ steps.release_target.outputs.sha }}', text)
+        self.assertLess(text.index("scripts/stage-release-assets.py"), create_tag)
+        self.assertLess(create_tag, text.index("scripts/publish-release-assets.py"))
+        self.assertNotIn("git tag ", text)
+        self.assertNotIn("git push ", text)
+        self.assertIn("      - 'v[0-9]*'", text)
+        self.assertNotIn("      - 'v*'", text)
+        self.assertNotIn("      - 'akten-", text)
+        packaging = text.index("      - name: ZIPs bauen")
+        for validator in ("validate-root-readme-overview.py", "validate-readme-navigation.py",
+                          "validate-testakten-readme-downloads.py"):
+            self.assertLess(text.index(f"scripts/{validator}"), packaging)
+        self.assertLess(text.index("git diff --exit-code"), packaging)
+        self.assertNotIn(":(exclude,glob)**/gesamt-pdf/*.pdf", text)
+        for generator in ("generate-root-plugin-catalog.py", "generate-asset-index.py",
+                          "generate-skills-md.py", "generate-werkstatt-und-schnellstart-prompts.py",
+                          "build-testakte-gesamt-pdf.py", "build-plugin-testakte-gesamt-pdfs.py",
+                          "inject-gesamt-pdf-section.py", "refine-speed-and-elegance.py"):
+            self.assertNotIn(f"scripts/{generator}", text)
+
+
+if __name__ == "__main__":
+    unittest.main()

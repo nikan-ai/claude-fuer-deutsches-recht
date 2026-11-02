@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import path from 'node:path';
+import { validateSkillMapReferences } from './skill-map-references.mjs';
 
 const root = process.cwd();
 const textExt = new Set(['.md', '.json', '.yaml', '.yml', '.py', '.sh']);
@@ -21,6 +22,7 @@ function exists(file) {
 function walk(dir, predicate, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.name === '.git') continue;
+    if (entry.name === '.venv') continue;
     if (entry.name === 'dist') continue;
     if (entry.name === 'node_modules') continue;
     if (entry.name === '__pycache__') continue;
@@ -93,7 +95,7 @@ function checkMarketplace() {
     if (manifest.author && (typeof manifest.author !== 'object' || Array.isArray(manifest.author) || !manifest.author.name)) {
       errors.push(`${rel(manifestPath)}: author must be an object with name`);
     }
-    for (const unsupported of ['language', 'rechtsgebiet', 'adapted_from']) {
+    for (const unsupported of ['language', 'rechtsgebiet', 'adapted_from', 'interface']) {
       if (Object.hasOwn(manifest, unsupported)) {
         errors.push(`${rel(manifestPath)}: unsupported manifest key ${unsupported}`);
       }
@@ -142,6 +144,10 @@ function checkSkills() {
   ]);
   const skills = walk(root, f => path.basename(f) === 'SKILL.md');
   for (const skill of skills) {
+    const skillText = read(skill);
+    for (const error of validateSkillMapReferences(skill, skillText)) {
+      errors.push(`${rel(skill)}: ${error}`);
+    }
     const fm = parseFrontmatter(skill);
     if (!fm) continue;
     if (!topLevelField(fm, 'name')) errors.push(`${rel(skill)}: missing name`);
@@ -190,6 +196,11 @@ function checkSkills() {
       if (/\d\s*,\s*\d/.test(v)) {
         errors.push(`${rel(skill)}: description darf keine Zahl-Komma-Zahl-Sequenz enthalten (Cowork-Validator bricht); nutze 'Rn', 'und' oder '/'`);
       }
+    }
+    const bodyMatch = skillText.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/);
+    const body = bodyMatch ? bodyMatch[1].trim() : '';
+    if (body.length < 300) {
+      errors.push(`${rel(skill)}: skill body is too short (${body.length} chars; minimum 300)`);
     }
   }
 }

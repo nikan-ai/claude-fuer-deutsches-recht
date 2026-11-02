@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import path from 'node:path';
+import { promptEnabled, promptKinds, promptFormats, promptProfileErrors } from './prompt-profiles.mjs';
 
+// Dateischutz für eigenständige Downloads; Skill- und Modellbudgets bleiben getrennt.
+import { promptLimits, miniWithinLimits } from './prompt-limits.mjs';
 const root = process.cwd();
 const errors = [];
 
@@ -24,7 +27,7 @@ function readJson(file) {
 
 function walk(dir, predicate, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (['.git', 'node_modules', 'dist', '__pycache__'].includes(entry.name)) continue;
+    if (['.git', '.venv', 'node_modules', 'dist', '__pycache__'].includes(entry.name)) continue;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(full, predicate, out);
     else if (!predicate || predicate(full)) out.push(full);
@@ -36,16 +39,20 @@ function count(text, needle) {
   return text.split(needle).length - 1;
 }
 
-function regexpEscape(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
 function assert(condition, message) {
   if (!condition) errors.push(message);
 }
 
 const marketplace = readJson(path.join(root, '.claude-plugin', 'marketplace.json'));
 if (!marketplace) process.exit(1);
+const scopedPath = path.join(root, 'scripts', 'scoped-release-assets.json');
+const scoped = fs.existsSync(scopedPath) ? readJson(scopedPath) : { schema_version: 1, assets: {} };
+assert(scoped?.schema_version === 1 && scoped.assets && typeof scoped.assets === 'object' && !Array.isArray(scoped.assets), 'Komponentenregistrierung ungültig');
+
+function componentTag(entry) {
+  const tag = scoped?.assets?.[`${entry.name}.zip`];
+  return typeof tag === 'string' && /^[a-z0-9][a-z0-9.-]*$/.test(tag) ? tag : null;
+}
 
 const pluginNames = marketplace.plugins.map((plugin) => plugin.name);
 const sortedNames = [...pluginNames].sort((a, b) => a.localeCompare(b, 'de'));
@@ -55,15 +62,26 @@ assert(/^\d+\.\d+\.\d+$/.test(String(marketplace.version || '')), 'Marketplace: 
 
 const oldReadmePhrases = [
   'Alternative ohne Plugin-Setup',
-  'höchstens 7500 Zeichen',
-  'hoechstens 7500 Zeichen',
   'Spar-Alternative',
 ];
+
+function hasObsoleteLengthInstruction(text) {
+  // Dateigrößen beschreiben den Prompt, nicht die Länge seiner Fachantwort.
+  const artifactTables = text.replace(
+    /^(\| (?:Mini-Prompt|Schnellstart \/ Mini|Hauptproblem(?:-Prompt)?) \| [^|\r\n]*), h(?:ö|oe)chstens 7500 Zeichen und UTF-8-Bytes\.(?= \| [^\r\n]*download\.html\?path=[^\s)]+-(?:schnellstart|hauptproblem)\.(?:md|txt)\))/gmu,
+    '$1.',
+  );
+  const withoutArtifactLimits = artifactTables.replace(
+    /\b(?:Hauptproblem-Prompts?|Markdown-Prompts?|Markdown-Downloads?|Schnellstart-Prompts?)\s+mit\s+h(?:ö|oe)chstens 7500 Zeichen(?: und Bytes)?/gu,
+    '',
+  );
+  return /h(?:ö|oe)chstens 7500 Zeichen/u.test(withoutArtifactLimits);
+}
 
 const pluginSources = [];
 for (const entry of marketplace.plugins) {
   assert(/^[a-z0-9-]{1,64}$/.test(entry.name), `Marketplace:${entry.name}: ungültiger Slug`);
-  assert(entry.version === marketplace.version, `Marketplace:${entry.name}: Version passt nicht zu ${marketplace.version}`);
+  assert(/^\d+\.\d+\.\d+$/.test(String(entry.version || '')) && (entry.version === marketplace.version || componentTag(entry)?.endsWith(`-v${entry.version}`)), `Marketplace:${entry.name}: Version ohne passendes Komponentenrelease`);
   assert(typeof entry.source === 'string' && entry.source.startsWith('./'), `Marketplace:${entry.name}: source muss mit ./ beginnen`);
   assert(typeof entry.description === 'string' && entry.description.length <= 300, `Marketplace:${entry.name}: description zu lang`);
 
@@ -77,28 +95,41 @@ for (const entry of marketplace.plugins) {
   assert(Boolean(manifest), `${entry.name}: plugin.json fehlt`);
   if (manifest) {
     assert(manifest.name === entry.name, `${rel(manifestPath)}: name passt nicht zum Marketplace`);
-    assert(manifest.version === marketplace.version, `${rel(manifestPath)}: Version passt nicht zum Marketplace`);
+    assert(manifest.version === entry.version, `${rel(manifestPath)}: Version passt nicht zum Marketplace-Eintrag`);
     assert(manifest.description === entry.description, `${rel(manifestPath)}: description passt nicht zum Marketplace`);
     assert(typeof manifest.description === 'string' && manifest.description.length <= 300, `${rel(manifestPath)}: description zu lang`);
   }
 
+  errors.push(...promptProfileErrors(pluginRoot, entry.name, root));
   const werkstatt = path.join(pluginRoot, `${entry.name}-werkstatt.md`);
   const schnellstart = path.join(pluginRoot, `${entry.name}-schnellstart.md`);
-  assert(fs.existsSync(werkstatt), `${entry.name}: Werkstatt-Markdown fehlt`);
-  assert(fs.existsSync(schnellstart), `${entry.name}: Schnellstart-Markdown fehlt`);
+  if (promptEnabled(entry.name, "werkstatt")) assert(fs.existsSync(werkstatt), `${entry.name}: Werkstatt-Markdown fehlt`);
+  if (promptEnabled(entry.name, "schnellstart")) assert(fs.existsSync(schnellstart), `${entry.name}: Schnellstart-Markdown fehlt`);
   if (fs.existsSync(werkstatt)) {
     const size = fs.statSync(werkstatt).size;
-    assert(size >= 12 * 1024 && size <= 22 * 1024, `${rel(werkstatt)}: Werkstatt-Größe außerhalb Zielkorridor (${size} Bytes)`);
+    assert(size <= promptLimits.workshop_max_bytes, `${rel(werkstatt)}: Werkstatt ist größer als ${promptLimits.workshop_max_bytes} Bytes (${size} Bytes)`);
+    // Technische Struktur prüfen, nicht Textvolumen als Fachqualität ausgeben.
+    const text = readText(werkstatt);
+    assert(text.startsWith('# ') && (text.match(/^# /gm) || []).length === 1,
+      `${rel(werkstatt)}: eindeutige H1 am Dateianfang fehlt`);
+    const sections = text.split(/^## [^\r\n]+\r?$/m).slice(1);
+    assert(sections.length > 0 && sections.every((section) => section.replace(/<!--[^]*?-->/g, '').replace(/^#{1,6} .*$/gm, '').trim()),
+      `${rel(werkstatt)}: gegliederter Abschnitt mit Inhalt fehlt`);
   }
   if (fs.existsSync(schnellstart)) {
     const size = fs.statSync(schnellstart).size;
-    assert(size <= 7500, `${rel(schnellstart)}: Schnellstart ist größer als 7500 Bytes`);
+    assert(miniWithinLimits(entry.name, fs.readFileSync(schnellstart)), `${rel(schnellstart)}: Schnellstart überschreitet Byte-/Zeichengrenze`);
   }
 
   const readme = path.join(pluginRoot, 'README.md');
   assert(fs.existsSync(readme), `${entry.name}: README.md fehlt`);
   if (fs.existsSync(readme)) {
     const text = readText(readme);
+    const visibleVersion = text.match(/\*\*Version:\*\*\s*`?(\d+\.\d+\.\d+)`?/);
+    assert(
+      !visibleVersion || visibleVersion[1] === entry.version,
+      `${rel(readme)}: sichtbare Version ${visibleVersion?.[1]} passt nicht zu ${entry.version}`,
+    );
     const begin = '<!-- BEGIN direkt-loslegen (autogen) -->';
     const end = '<!-- END direkt-loslegen (autogen) -->';
     assert(count(text, begin) === 1 && count(text, end) === 1, `${rel(readme)}: Direkt-loslegen-Block nicht eindeutig`);
@@ -106,14 +137,20 @@ for (const entry of marketplace.plugins) {
       assert(!text.includes(phrase), `${rel(readme)}: alter Direkt-loslegen-Text gefunden`);
     }
     const releaseBase = 'https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download';
-    const rawBase = 'https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main';
+    const downloadBase = 'https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=';
     const relSource = entry.source.replace(/^\.\//, '');
-    const pluginZip = `${releaseBase}/${entry.name}.zip`;
-    const werkstattUrl = `${rawBase}/${relSource}/${entry.name}-werkstatt.md`;
-    const schnellstartUrl = `${rawBase}/${relSource}/${entry.name}-schnellstart.md`;
+    const tag = componentTag(entry);
+    const pluginZip = tag ? `https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/${tag}/${entry.name}.zip` : `${releaseBase}/${entry.name}.zip`;
+    const werkstattUrl = `${downloadBase}${relSource}/${entry.name}-werkstatt.md`;
+    const schnellstartUrl = `${downloadBase}${relSource}/${entry.name}-schnellstart.md`;
     assert(text.includes(pluginZip), `${rel(readme)}: Plugin-ZIP-Link fehlt`);
-    assert(new RegExp(`<a href="${regexpEscape(werkstattUrl)}" download><code>${regexpEscape(entry.name)}-werkstatt\\.md</code></a>`).test(text), `${rel(readme)}: Werkstatt-Download-Tag fehlt`);
-    assert(new RegExp(`<a href="${regexpEscape(schnellstartUrl)}" download><code>${regexpEscape(entry.name)}-schnellstart\\.md</code></a>`).test(text), `${rel(readme)}: Schnellstart-Download-Tag fehlt`);
+    if (promptEnabled(entry.name, "werkstatt")) assert(text.includes(werkstattUrl), `${rel(readme)}: Werkstatt-Direktdownload fehlt`);
+    if (promptEnabled(entry.name, "schnellstart")) assert(text.includes(schnellstartUrl), `${rel(readme)}: Schnellstart-Direktdownload fehlt`);
+    for (const kind of promptKinds(entry.name)) {
+      for (const ext of promptFormats(entry.name)) {
+        assert(text.includes(`${downloadBase}${relSource}/${entry.name}-${kind}.${ext}`), `${rel(readme)}: ${kind}-${ext}-Direktdownload fehlt`);
+      }
+    }
     for (const match of text.matchAll(/<code>(.*?)<\/code>/g)) {
       assert(!/[^\x00-\x7F]/.test(match[1]), `${rel(readme)}: <code>-Tag enthält Nicht-ASCII-Text`);
     }
@@ -130,6 +167,7 @@ for (const file of markdownFiles) {
   for (const phrase of oldReadmePhrases) {
     assert(!text.includes(phrase), `${rel(file)}: alter Download-Text gefunden`);
   }
+  assert(!hasObsoleteLengthInstruction(text), `${rel(file)}: alte Ausgabekürzung auf 7500 Zeichen gefunden`);
 }
 
 const forbiddenFetchWords = ['scra' + 'pe', 'scra' + 'ping', 'cra' + 'wl', 'cra' + 'wling'];
@@ -143,13 +181,20 @@ for (const file of walk(root)) {
 
 const workflow = readText(path.join(root, '.github', 'workflows', 'release-plugin-zips.yml'));
 for (const needle of [
-  'build-werkstatt-schnellstart-sammelzips.py',
-  'alle-werkstatt-prompts.zip',
-  'alle-schnellstart-prompts.zip',
   'testakte-*-einzelpdfs.zip',
 ]) {
   assert(workflow.includes(needle), `.github/workflows/release-plugin-zips.yml: ${needle} fehlt`);
 }
+for (const forbidden of [
+  'alle-werkstatt-prompts.zip',
+  'alle-schnellstart-prompts.zip',
+]) {
+  assert(!workflow.includes(forbidden), `.github/workflows/release-plugin-zips.yml: unerlaubtes Prompt-ZIP ${forbidden}`);
+}
+assert(
+  !fs.existsSync(path.join(root, 'scripts', 'build-werkstatt-schnellstart-sammelzips.py')),
+  'Sammel-ZIP-Builder für Werkstatt- und Schnellstart-Prompts ist nicht zulässig',
+);
 
 if (errors.length) {
   console.error(`audit-release-readiness: ${errors.length} Fehler`);

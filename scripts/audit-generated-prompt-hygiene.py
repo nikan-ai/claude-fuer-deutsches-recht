@@ -4,9 +4,16 @@
 from __future__ import annotations
 
 import json
+import hashlib
+import re
 from pathlib import Path
 
+from prompt_profiles import standalone_kinds
+
+from markdown_it import MarkdownIt
+
 REPO = Path(__file__).resolve().parent.parent
+MARKDOWN = MarkdownIt("commonmark")
 PROTECTED_LIST = REPO / "scripts" / "handkuratierte-prompts.txt"
 
 NOISE_BITS = (
@@ -18,9 +25,25 @@ NOISE_BITS = (
     "openJur",
     "openjur",
     "keine Modellwissen-Zitate",
-    "live prüfen",
-    "live pruefen",
 )
+
+# Fachlich geprüfte Quellenpflichten sind keine austauschbaren Generatorreste.
+# Die Ausnahme gilt nur für die genannte Datei und den vollständigen Absatz;
+# Leerraum darf variieren. Andere Hygieneprüfungen bleiben immer aktiv.
+REVIEWED_SOURCE_PARAGRAPHS: dict[str, dict[str, str]] = {
+    "agb-werkstatt/agb-werkstatt-hauptproblem.md": {
+        "8036fe6391dbabd691b360b7cc8f5c8a914602ac60acbc4d906f8f62c44d7dbf":
+            "Amtliche Fundstellen lesen; blockierte Volltexte und offenen Quellenstatus intern dokumentieren.",
+    },
+    "geldwaeschebeauftragter/geldwaeschebeauftragter-werkstatt.md": {
+        "238691dbc79ffe8cb926c289680ee0e16ec486139694690fcee6e590c92d6548":
+            "Bundes- und Unionsrecht am Volltext prüfen; Aufsichtshinweise und Portalhilfe nach ihrer Reichweite einordnen.",
+    },
+    "krankenhaus-it-ki/krankenhaus-it-ki-schnellstart.md": {
+        "6ce11967b1801b63a85f056bc9228a072176f254fc30ec8d261c8da17af45bc5":
+            "Konkrete Primärquellen für Datenschutz, KI, Medizinprodukte und Thüringer Landesrecht prüfen.",
+    },
+}
 
 PROSE_ASCII_BITS = (
     "Arbeitsverhaeltnis",
@@ -68,6 +91,44 @@ PROSE_ASCII_BITS = (
     "Klaeger",
     "Versorgungstraeger",
     "Schoeff",
+    "Bandzaehl",
+    "Aktenstueck",
+    "Interoperabilitaet",
+    "Datenportabilitaet",
+    "Tonalitaet",
+    "aussergewoehnlich",
+    "Jaehrlich",
+    "Grossplattform",
+    "Luecken-Fuelung",
+    "überhoeh",
+    "Überhoeh",
+    "Verhältnismaess",
+    "Vollstaendigkeitsgrundsatz",
+)
+
+COURT_BITS = ("BGH", "BVerfG", "BVerwG", "BAG", "BFH", "BSG", "EuGH", "OLG", "LG", "ArbG", "LAG")
+TRUNCATED_CASE_END = re.compile(
+    r"(?:\beingeleiteter|\bersetzt|\bstärkt|\bstatt einer|\bnicht der|"
+    r"\bBestandteil der Verpflichtung)\.?\s*(?:\|)?$",
+    flags=re.IGNORECASE,
+)
+ROUTE_PREFIXES = (
+    "Bearbeitungsauftrag:",
+    "Prüfschritte:",
+    "Norm- oder Entscheidungsbezug aus dem Fachmaterial:",
+)
+TRUNCATED_LEGAL_END = re.compile(
+    r"\b(?:Paragraf|Artikel|Absatz|Satz|Nummer|S\.|Rn\.|Urt\.|Beschl\.)\s*$",
+    flags=re.IGNORECASE,
+)
+TRUNCATED_ROUTE_PROSE_END = re.compile(
+    r"\b(?:Abs|Art|lit|Anh|vom|dann|erzeugt|bewertet|aktive|verwertbarer|"
+    r"technisch|unbefristetes|Beweisangebot|Dauer\s+max|Bei\s+alten)\.?$",
+    flags=re.IGNORECASE,
+)
+GENERIC_ROUTE_BITS = (
+    "Was soll sofort entstehen:",
+    "Wer fragt in welcher Rolle und welches Arbeitsergebnis wird gebraucht",
 )
 
 
@@ -97,35 +158,130 @@ def prompt_files() -> list[Path]:
             continue
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         slug = manifest.get("name") or plugin_dir.name
-        files.extend(
-            (
-                plugin_dir / f"{slug}-werkstatt.md",
-                plugin_dir / f"{slug}-schnellstart.md",
-            )
-        )
+        files.extend(plugin_dir / f"{slug}-{kind}.md" for kind in standalone_kinds(slug))
+        focus = plugin_dir / f"{slug}-hauptproblem.md"
+        if focus.is_file():
+            files.append(focus)
     return sorted(files, key=lambda p: p.as_posix())
 
 
+def visible_prose(line: str) -> str:
+    """Linkziele und Code auslassen, sichtbare Klammern dagegen erhalten."""
+    def content(tokens) -> str:
+        parts = []
+        for token in tokens:
+            if token.type == "code_inline":
+                continue
+            if token.children:
+                parts.append(content(token.children))
+            elif token.type == "text":
+                parts.append(token.content)
+        return "".join(parts)
+
+    prose = content(MARKDOWN.parseInline(line))
+    return re.sub(r"https?://[^\s<>\[\]()]+", "", prose)
+
+
+def source_noise(text: str, relative_path: str) -> list[str]:
+    reviewed = REVIEWED_SOURCE_PARAGRAPHS.get(relative_path, {})
+    unreviewed = [
+        paragraph for paragraph in re.split(r"\n\s*\n", text)
+        if hashlib.sha256(" ".join(paragraph.split()).encode("utf-8")).hexdigest() not in reviewed
+    ]
+    prose = "\n".join(visible_prose(line) for paragraph in unreviewed for line in paragraph.splitlines())
+    return [bit for bit in NOISE_BITS if bit in prose]
+
+
 def main() -> int:
-    protected = protected_slugs()
     problems: list[str] = []
     for path in prompt_files():
         if not path.exists():
             problems.append(f"{path.relative_to(REPO)}: erwarteter Prompt fehlt")
             continue
-        plugin_slug = path.parent.name
-        if plugin_slug in protected:
-            continue
         text = path.read_text(encoding="utf-8", errors="ignore")
-        for bit in NOISE_BITS:
-            if bit in text:
-                rel = path.relative_to(REPO)
-                problems.append(f"{rel}: Quellenrauschen gefunden: {bit}")
-                break
+        if path.name.endswith("-werkstatt.md"):
+            section_six = re.search(
+                r"^## 6\. Rechtsprechungsanker, Quellenstatus und Rechtsfolgen\s*$"
+                r"(?P<body>[\s\S]*?)(?=^## 7\.)",
+                text,
+                flags=re.MULTILINE,
+            )
+            section_eight = re.search(
+                r"^## 8\. Leitentscheidungen\s*$"
+                r"(?P<body>[\s\S]*?)(?=^## 9\.)",
+                text,
+                flags=re.MULTILINE,
+            )
+            if section_six and section_eight:
+                full_cases: dict[str, str] = {}
+                for bullet in section_eight.group("body").splitlines():
+                    if not bullet.startswith("- ") or ":" not in bullet:
+                        continue
+                    head, tail = bullet[2:].split(":", 1)
+                    full_cases[head.strip()] = tail.strip().rstrip(".")
+                for row in section_six.group("body").splitlines():
+                    if not row.startswith("|") or "Profilanker" not in row and "extrahierter Anker" not in row:
+                        continue
+                    cells = [cell.strip() for cell in row.strip("|").split("|")]
+                    if len(cells) != 3:
+                        continue
+                    head, _status, tail = cells
+                    expected = full_cases.get(head)
+                    if expected is not None and tail.rstrip(".") != expected:
+                        rel = path.relative_to(REPO)
+                        problems.append(
+                            f"{rel}: Rechtsprechungstabelle kürzt den Aussagekern zu {head}"
+                        )
+                        break
+        prose = "\n".join(visible_prose(line) for line in text.splitlines())
+        noise = source_noise(text, path.relative_to(REPO).as_posix())
+        if noise:
+            rel = path.relative_to(REPO)
+            problems.append(f"{rel}: Quellenrauschen gefunden: {noise[0]}")
         for bit in PROSE_ASCII_BITS:
-            if bit in text:
+            if bit in prose:
                 rel = path.relative_to(REPO)
                 problems.append(f"{rel}: unechter Umlaut in Prosa gefunden: {bit}")
+                break
+        for line_no, line in enumerate(text.splitlines(), start=1):
+            without_code = visible_prose(line)
+            if without_code.count("(") != without_code.count(")") or without_code.count("[") != without_code.count("]"):
+                rel = path.relative_to(REPO)
+                problems.append(
+                    f"{rel}:{line_no}: unausgeglichene Klammer in Promptzeile"
+                )
+                break
+            if re.search(r"[,:];\s+im (?:konkreten )?Sachverhalt", line):
+                rel = path.relative_to(REPO)
+                problems.append(
+                    f"{rel}:{line_no}: abgebrochener Normenanker vor Prüfsatz"
+                )
+                break
+            if line.startswith(ROUTE_PREFIXES) and TRUNCATED_LEGAL_END.search(line):
+                rel = path.relative_to(REPO)
+                problems.append(
+                    f"{rel}:{line_no}: Norm- oder Entscheidungsanker endet als Fragment"
+                )
+                break
+            if line.startswith(ROUTE_PREFIXES) and TRUNCATED_ROUTE_PROSE_END.search(line):
+                rel = path.relative_to(REPO)
+                problems.append(
+                    f"{rel}:{line_no}: Fachroute endet als unvollständiger Satz"
+                )
+                break
+            if line.startswith("Bearbeitungsauftrag:") and any(
+                bit in line for bit in GENERIC_ROUTE_BITS
+            ):
+                rel = path.relative_to(REPO)
+                problems.append(
+                    f"{rel}:{line_no}: austauschbarer Fachrouten-Auftakt"
+                )
+                break
+            if any(court in line for court in COURT_BITS) and TRUNCATED_CASE_END.search(line):
+                rel = path.relative_to(REPO)
+                problems.append(
+                    f"{rel}:{line_no}: Rechtsprechungsanker endet als Satzfragment"
+                )
                 break
     if problems:
         print("audit-generated-prompt-hygiene: FEHLER")

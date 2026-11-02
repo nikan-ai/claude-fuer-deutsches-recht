@@ -11,7 +11,6 @@ sha256 digest.
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import os
 import subprocess
@@ -20,8 +19,7 @@ import time
 from pathlib import Path
 from typing import Any
 
-
-ASSET_NAMES = {"marketplace.json", "checksums-sha256.txt"}
+from release_asset_common import expected_asset_metadata
 
 
 def fail(message: str) -> None:
@@ -46,32 +44,52 @@ def run_gh_api(resource: str) -> Any:
 
 
 def expected_assets(dist: Path) -> dict[str, dict[str, Any]]:
-    expected: dict[str, dict[str, Any]] = {}
-    for path in sorted(dist.iterdir(), key=lambda p: p.name):
-        if not path.is_file():
-            continue
-        if path.suffix not in {".zip", ".md"} and path.name not in ASSET_NAMES:
-            continue
-        data = path.read_bytes()
-        expected[path.name] = {
-            "size": len(data),
-            "digest": "sha256:" + hashlib.sha256(data).hexdigest(),
-        }
+    try:
+        expected = expected_asset_metadata(dist)
+    except (OSError, ValueError) as exc:
+        fail(str(exc))
     if not expected:
         fail(f"{dist}: no release assets found")
     return expected
 
 
-def fetch_assets(repo: str, tag: str) -> dict[str, dict[str, Any]]:
-    release = run_gh_api(f"repos/{repo}/releases/tags/{tag}")
-    release_id = release.get("id")
-    if not release_id:
+def release_id(repo: str, tag: str) -> int:
+    proc = subprocess.run(
+        [
+            "gh",
+            "release",
+            "view",
+            tag,
+            "--repo",
+            repo,
+            "--json",
+            "databaseId",
+        ],
+        check=False,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    if proc.returncode != 0:
+        fail(f"Release {repo}@{tag} konnte nicht gelesen werden: {proc.stderr.strip()}")
+    try:
+        value = json.loads(proc.stdout).get("databaseId")
+    except json.JSONDecodeError as exc:
+        fail(f"Release {repo}@{tag} lieferte ungültiges JSON: {exc}")
+    if not value:
         fail(f"{repo}@{tag}: release id missing")
+    return int(value)
+
+
+def fetch_assets(repo: str, tag: str) -> dict[str, dict[str, Any]]:
+    remote_release_id = release_id(repo, tag)
 
     assets: dict[str, dict[str, Any]] = {}
     page = 1
     while True:
-        batch = run_gh_api(f"repos/{repo}/releases/{release_id}/assets?per_page=100&page={page}")
+        batch = run_gh_api(
+            f"repos/{repo}/releases/{remote_release_id}/assets?per_page=100&page={page}"
+        )
         if not isinstance(batch, list):
             fail(f"{repo}@{tag}: assets response page {page} is not a list")
         for asset in batch:
