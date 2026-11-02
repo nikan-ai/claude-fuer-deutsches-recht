@@ -1,18 +1,25 @@
 # Akte: Alleinrennen, Unfallflucht und Dashcam Berlin
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 36 KB) | PDF | [`gesamt-pdf/strafrecht-verkehrsunfall-alleinrennen-berlin_gesamt.pdf`](gesamt-pdf/strafrecht-verkehrsunfall-alleinrennen-berlin_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-verkehrsunfall-alleinrennen-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-verkehrsunfall-alleinrennen-berlin.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-verkehrsunfall-alleinrennen-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-verkehrsunfall-alleinrennen-berlin-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-verkehrsunfall-alleinrennen-berlin_gesamt.pdf`](gesamt-pdf/strafrecht-verkehrsunfall-alleinrennen-berlin_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-verkehrsunfall-alleinrennen-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-verkehrsunfall-alleinrennen-berlin.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-verkehrsunfall-alleinrennen-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-verkehrsunfall-alleinrennen-berlin-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -66,7 +73,7 @@ Mandatsbezug: Kemal Arslan, 29 Jahre, Kfz-Mechatroniker
 
 ```
 strafrecht-verkehrsunfall-alleinrennen-berlin/
-├── 01_mandatsnotiz_erstgespraech.docx                     Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `13_dashcam_sicherstellung_und_auswertevermerk_2026-05-28.docx` | Sicherstellungs- und Auswerteprotokoll zur Dashcam-Aufzeichnung |
 ├── 02_sachverhalt_chronologie.docx                        Ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                       Auszüge aus polizeilichen und staatsanwaltlichen Vermerken
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx              Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -78,10 +85,12 @@ strafrecht-verkehrsunfall-alleinrennen-berlin/
 ├── 10_edr_telematik_zeitreihe.csv                         Sekundengenaue EDR-/Telematikdaten mit Ampelphase und kumuliertem Weg
 ├── 11_sachverstaendigengutachten_edr_2026-06-20.docx      Gutachtenauszug: Höchstgeschwindigkeit, Beschleunigungsdauer, Bremsweg, Rotlicht
 ├── 12_zeugenvernehmung_wysocki_2026-06-05.docx            Aussage des Lieferwagenfahrers zu Beschleunigung und Überholvorgang
+├── 14_zwischennachricht_ag_tiergarten_terminierung_2026-07-10.docx   Zwischennachricht des Gerichts zu Terminverlegung und Ausweichterminen
 ├── eml/
 │   ├── 01_beauftragung_sachverstaendiger_edr_2026-06-01.eml   Gutachtenauftrag zur EDR-Auslesung und Bremswegrekonstruktion
 │   ├── 02_zeuge_wysocki_videohinweis_2026-05-25.eml           Zeugenhinweis mit Angebot der Dashcam-Aufnahme
-│   └── 03_werkstatt_schadensgutachten_2026-06-08.eml         Schadensgutachten BMW 440i und geparktes Taxi
+│   ├── 03_werkstatt_schadensgutachten_2026-06-08.eml         Schadensgutachten BMW 440i und geparktes Taxi
+│   └── 04_taxiunternehmen_schadensregulierung_2026-06-22.eml  Zahlungsaufforderung des Taxiunternehmens mit Verdienstausfall und Fristsetzung
 ├── whatsapp/
 │   └── chatverlauf.txt                                    Chats Arslan/Derya und Arslan/Tuncay zu Fahrt und Unfallflucht
 ├── README.md                                              Diese Übersicht

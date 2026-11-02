@@ -1,18 +1,25 @@
 # Akte: Grossbankrott und Zeugenstreit — Mehrere Deliktszweige, Pellbach Logistik & Spedition GmbH, LG Köln
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 206 KB) | PDF | [`gesamt-pdf/grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln_gesamt.pdf`](gesamt-pdf/grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln_gesamt.pdf`](gesamt-pdf/grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-grossbankrott-und-zeugenstreit-mehrere-deliktszweige-vellbruck-koeln-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -78,7 +85,6 @@ Diese Akte zeigt **vier Konfliktfronten** im Strafverfahren:
 | Nr. | Datei | Inhalt |
 |---|---|---|
 | 00 | [`00_aktenuebersicht.md`](00_aktenuebersicht.md) | Lese-Reihenfolge, Fristen-Kalender, Verfahrensstand |
-| 01 | [`01_mandatsnotiz_erstgespraech.docx`](01_mandatsnotiz_erstgespraech.docx) | Erstgespräch 13.05.2026 JVA Köln-Ossendorf — Mandantenangaben, Strategie |
 | 02 | [`02_haftbefehl_ag_koeln_12_05_2026.docx`](02_haftbefehl_ag_koeln_12_05_2026.docx) | Haftbefehl AG Köln (502 Gs 4881/26) vom 12.05.2026 |
 | 03 | [`03_durchsuchungsbeschluss_und_protokoll.docx`](03_durchsuchungsbeschluss_und_protokoll.docx) | Durchsuchungsbeschluss vom 12.05.2026 + Durchsuchungsprotokoll Pellbach-Privat / Geschäftsräume |
 | 04 | [`04_anklageschrift_entwurf.docx`](04_anklageschrift_entwurf.docx) | Anklageschrift-Entwurf StA Köln (Stand 27.05.2026, noch nicht eröffnet, Vor-Eröffnung) |
@@ -118,6 +124,7 @@ Diese Akte zeigt **vier Konfliktfronten** im Strafverfahren:
 | [`eml/03_steuerberater_engelmeier_warnung_2024_12_18.eml`](eml/03_steuerberater_engelmeier_warnung_2024_12_18.eml) | Engelmeier an Pellbach, Warnung Insolvenzantragspflicht, 18.12.2024 |
 | [`eml/04_pellbach_an_kfw_klarstellung_2022_11_24.eml`](eml/04_pellbach_an_kfw_klarstellung_2022_11_24.eml) | Pellbach an KfW, Klarstellung Q3-Umsatzzahlen, 24.11.2022 |
 | [`eml/05_vellbruck_an_sta_akteneinsicht_2026_05_14.eml`](eml/05_vellbruck_an_sta_akteneinsicht_2026_05_14.eml) | Vellbruck an StA Köln, Akteneinsichtsantrag § 147 StPO, 14.05.2026 |
+| [`eml/06_tannekoetter_an_quasthoff_frachtmappen_2025_02_18.eml`](eml/06_tannekoetter_an_quasthoff_frachtmappen_2025_02_18.eml) | Standortmail zu Frachtmappen, Umbuchung und Palettenlisten, 18.02.2025 |
 
 ### Tabellen (tabellen/)
 
@@ -198,7 +205,6 @@ Diese Akte demonstriert besonders folgende Skills aus dem Plugin `fachanwalt-str
 Empfohlene Lese-Reihenfolge für Verteidiger / Prüfer:
 
 1. `00_aktenuebersicht.md` (Fristen, Personen, Stand)
-2. `01_mandatsnotiz_erstgespraech.docx` (Mandantenangaben)
 3. `02_haftbefehl_ag_koeln_12_05_2026.docx` (Vorwurfsbeschreibung amtlich)
 4. `04_anklageschrift_entwurf.docx` (vollständige Vorwürfe)
 5. `06_aktenauszug_zeugenvernehmung_quasthoff_01.docx` und `07_aktenauszug_zeugenvernehmung_quasthoff_02.docx` (Belastungsbasis)

@@ -1,65 +1,46 @@
-# Akte: KI-Richtlinie Musterkanzlei
-
+# Organisationsakte König, Brehm & Partner
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 66 KB) | PDF | [`gesamt-pdf/ki-richtlinie-musterkanzlei_gesamt.pdf`](gesamt-pdf/ki-richtlinie-musterkanzlei_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-richtlinie-musterkanzlei.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-richtlinie-musterkanzlei.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/ki-richtlinie-musterkanzlei_gesamt.pdf`](gesamt-pdf/ki-richtlinie-musterkanzlei_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-richtlinie-musterkanzlei.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-richtlinie-musterkanzlei.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
-## ⬇️ Direkt-Download
+## Akteninhalt
 
-| Akte | Direkt-Download |
+Die Akte dokumentiert die Einführung eines digitalen Recherche- und Textsystems in der Berliner Kanzlei König, Brehm & Partner mbB. Neben zwei intern umlaufenden Richtlinienfassungen enthält sie tatsächlich angefallene E-Mail-Korrespondenz, Teilnehmer- und Abrechnungsdaten, ein Vorfalljournal und eine Telefonnotiz aus dem Partnersekretariat. Widersprüche zwischen Nutzerzahl, Schulungsstand, Zugriffsrechten und Kostenstellen bleiben in den Originalunterlagen stehen.
+
+| Datei | Herkunft |
 | --- | --- |
-| `testakte-ki-richtlinie-musterkanzlei` (Akte) | [testakte-ki-richtlinie-musterkanzlei.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-richtlinie-musterkanzlei.zip) |
+| `KI-Richtlinie-Musterkanzlei-Entwurf.docx` | im Partnerkreis umlaufender Richtlinienentwurf |
+| `KI-Richtlinie-Musterkanzlei-Inhaltsverzeichnis.docx` | gesonderte Strukturübersicht aus dem Organisationsordner |
+| `01_partnerkreis_freigabe_2026-05-18.eml` | Nachricht von Dr. Eva König an den Partnerkreis |
+| `02_sekretariat_zugriffsstoerung_2026-05-21.eml` | Störungsmeldung des Sekretariats an den IT-Dienstleister |
+| `03_rollout_teilnehmer_2026-05.csv` | exportierte Teilnehmerliste |
+| `04_vorfalljournal_2026-05.csv` | laufendes Vorfalljournal der Kanzleiverwaltung |
+| `05_lizenzabrechnung_2026-q2.csv` | Abrechnungsdaten mit offenen Zuordnungen |
+| `06_dienstleister_vertragsanlagen_2026-05-19.eml` | Antwort des IT-Dienstleisters zu Vertragsanlagen |
+| `07_fortbildungsnachweise_2026.csv` | Nachweisliste aus der Personalverwaltung |
+| `08_telefonnotiz_freigabefrage_2026-05-22.eml` | E-Mail-Notiz des Partnersekretariats |
+| `09_chatprotokoll_ticket68419_2026-05-21.txt` | exportierter Portal-Chat mit dem IT-Dienstleister zum Berechtigungsvorfall |
+| `10_besprechungsprotokoll_fragment_partnerkreis_2026-05-28.docx` | unvollständiger Protokollauszug der Partnerkreissitzung, Seiten 3 und 4 fehlen |
+| `11_angebot_protokollspeicherung_2026-05-26.eml` | Angebot der IT-Service Havel GmbH zur erweiterten Protokollspeicherung |
 
-Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
-
-## Übersicht
-
-Diese Akte enthält einen ausgearbeiteten Richtlinienentwurf für die Anwaltskanzlei "Mustermann & Musterfrau Rechtsanwälte PartG mbB". Das Dokument ist als anpassbare Kanzleiunterlage für das Plugin `ki-richtlinie-kanzleien` angelegt.
-
-## Zweck
-
-Der Entwurf zeigt, wie das Plugin `ki-richtlinie-kanzleien` mit seinen 26 Skills eine vollständige, berufsrechtskonforme KI-Nutzungsrichtlinie nach deutschem Recht erstellen kann. Das Dokument deckt alle 13 Hauptkapitel der Mustervorlage ab (Einleitung, Executive Summary, Potenziale, Rechtsbegriff, Rechtliche Rahmenbedingungen, Generelle Handlungsempfehlungen, Spezifische Vorgaben, RDG-Exkurs, KI-Kompetenz, KI-VO-Exkurs, Ausblick, Disclaimer, Literatur) sowie die Anlage Prompting-Leitfaden und die Musterklauseln nach § 43e BRAO.
-
-## Hinweise zur Anpassung
-
-**Dieses Dokument ist ein Entwurf und kein fertiges Rechtsdokument.** Vor dem Einsatz in einer echten Kanzlei sind zwingend folgende Anpassungen vorzunehmen:
-
-1. **Name der Kanzlei**: Die Ausfüllstelle `[Name der Kanzlei]` durch den tatsächlichen Kanzleinamen ersetzen.
-2. **Verantwortliche Personen**: Ausfüllstellen wie `[Name Geschäftsführung]`, `[Name Datenschutzbeauftragter]`, `[Name Berufsrechtsbeauftragter]` durch die tatsächlichen Namen ersetzen.
-3. **Stand-Datum**: Die Ausfüllstelle `[Monat/Jahr]` durch das tatsächliche Datum der Verabschiedung ersetzen.
-4. **KI-Dienstleister**: Die konkret eingesetzten KI-Dienste benennen und die entsprechenden AVV- und § 43e-BRAO-Verträge abschließen.
-5. **Kanzlei-spezifische Regelungen**: Rechtsgebiete, Mandantenstruktur und interne Prozesse auf die tatsächliche Kanzlei-Situation anpassen.
-6. **Rechtsberatung einholen**: Der Entwurf ersetzt keine individuelle Rechtsberatung. Für die finale Verabschiedung wird empfohlen, einen auf Berufsrecht und Datenschutzrecht spezialisierten Anwalt hinzuzuziehen.
-
-## Plugin-Referenz
-
-Diese Akte wurde mit dem Plugin **`ki-richtlinie-kanzleien`** erstellt. Das Plugin ist verfügbar unter:
-[https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/v3.3.0/ki-richtlinie-kanzleien.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/v3.3.0/ki-richtlinie-kanzleien.zip)
-
-## Inhalt
-
-| Datei | Beschreibung |
-|---|---|
-| `README.md` | Diese Datei — Übersicht und Hinweise |
-| `KI-Richtlinie-Musterkanzlei-Entwurf.docx` | Vollständiger Word-Entwurf der KI-Nutzungsrichtlinie (13 Kapitel + Anlagen) |
-
-## Haftungsausschluss
-
-Diese Akte und das enthaltene Word-Dokument betreffen ausschließlich deutsches Recht und Europarecht, soweit es in Deutschland Anwendung findet. Die Dokumente ersetzen keine Rechtsberatung im Einzelfall. Bei spezifischen Fragen ist stets dringend geboten, rechtzeitig Rechtsrat einzuholen. Dritte können sich nicht rechtlich auf diese Dokumente verlassen oder ihre rechtlichen Einschätzungen darauf stützen.
-
----
-
-*Erstellt mit dem Plugin `ki-richtlinie-kanzleien` v3.3.0 | Klotzkette*
+Passendes Plugin: `ki-richtlinie-kanzleien`.

@@ -2,47 +2,164 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 129 Skills (gekuerzt fuer Chat-Fenster) des Plugins `influencer-recht`.
+Diese Vollprüfung enthält top-8 von 130 Skills (gekürzt für das Arbeitsfenster) des Plugins `influencer-recht`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Kaltstart Triage in Influencer-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fa…
-2. **brand-deal-leistungsbeschreibung-abnahme-und-nutzungsre** — Wenn es um Influencer-Recht: Brand Deal – Leistungsbeschreibung, Abnahme und Nutzungsrechte in Influencer-Recht geht: or…
-3. **content-lizenz-musik-reel-bildrechte-kug** — Wenn es um Influencer-Recht: Content-Lizenz, Nutzungsdauer, Media Buyout und Whitelisting in Influencer-Recht geht: ordn…
-4. **minderjaehrige-creator-gewinnspiel** — Wenn es um Influencer-Recht: Minderjährige Creator – Eltern, Jugendschutz, Vertragsrecht in Influencer-Recht geht: ordne…
-5. **werbekennzeichnung-instagram** — Wenn es um Influencer-Recht: Werbekennzeichnung – Instagram Story/Reel, TikTok, YouTube in Influencer-Recht geht: ordnet…
-6. **influencer-beauty-filter-medienanstalt** — Wenn es um Influencer-Recht: Influencer als Testimonial in Kapitalmarktkommunikation in Influencer-Recht geht: ordnet Sa…
-7. **agenturvertrag-exklusivitaet-foto** — Wenn es um Influencer-Recht: Agenturvertrag – Exklusivität, Provision und Kündigung in Influencer-Recht geht: ordnet Sac…
-8. **musik-im-reel-urheberrecht-plattformlizenz-gema** — Wenn es um Influencer-Recht: Musik im Reel – Urheberrecht, Plattformlizenz und GEMA in Influencer-Recht geht: ordnet Sac…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Influencer Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet k…
+2. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+3. **einkommensteuer-betriebseinnahme** — Für Influencer-Recht: Einkommensteuer – Betriebseinnahme und private Nutzung: ordnet Norm, Beweislast und Gegenargument;…
+4. **infl-001-kaltstart-creator-kooperation-plattform-steuer** — Für Influencer-Recht: Kaltstart Creator Kooperation Plattform Steuer: routet Rolle, Frist, Unterlagen und Fachschritt; E…
+5. **creator-kooperation-plattform-steuer** — Für Influencer-Recht: Kaltstart Creator – Kooperation, Plattform, Steuer: ordnet Norm, Beweislast und Gegenargument; Erg…
+6. **infl-006-einkommensteuer-betriebseinnahme-private-nutzung** — Für Influencer-Recht: Einkommensteuer Betriebseinnahme private Nutzung: ordnet Norm, Beweislast und Gegenargument; Ergeb…
+7. **brand-deal-leistungsbeschreibung-abnahme-und-nutzungsre** — Für Influencer-Recht: Brand Deal – Leistungsbeschreibung, Abnahme und Nutzungsrechte: ordnet Norm, Beweislast und Gegena…
+8. **infl-005-umsatzsteuer-bei-barter-deal-und-auslandsbrand** — Für Influencer-Recht: Umsatzsteuer bei Barter Deal und Auslandsbrand: ordnet Norm, Beweislast und Gegenargument; Ergebni…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Influencer Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Influencer Recht
+
+## 1. Direktstart
+
+Arbeite als Urheberrechtlicher Bearbeiter für Werk, Rechtekette, Lizenz, Nutzung, Schranken, Plattformen, Abmahnung und Unterlassung.
+
+Pluginauftrag: Plugin für Influencer, Creator, Agenturen und Unternehmen: Werbekennzeichnung, Steuer, Umsatzsteuer, Sachleistungen, Plattformrecht, Medienrecht, Marken, Urheberrecht, Datenschutz und Verträge.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Influencer Recht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Abmahnung, Unterlassung, Auskunft, Schadensersatz, Löschung, Widerspruch oder Verteidigung.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Schutzgegenstand | Werkart, Schöpfungshöhe, Lichtbild, Datenbank oder Leistungsschutzrecht bestimmen |
+| Rechtekette | Urheber, Rechteinhaber, Lizenz, Gebiet, Dauer, Nutzungsart und Weitergabe prüfen |
+| Nutzung | Vervielfältigung, öffentliche Wiedergabe, Bearbeitung, Upload, Plattform und System-Bezug trennen |
+| Schranken | Zitat, Unterricht, Text und Data Mining, Privatkopie und Berichterstattung konkret anwenden |
+| Arbeitsprodukt | Rechteclearing, Abmahnung, Lizenzklausel, Unterlassungserklärung oder Verteidigungsmemo formulieren |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Influencer-Recht: Agenturvertrag Exklusivität Provision und Kündigung: Bearbeite den Fachpunkt im Skill infl-010-agenturvertrag-exklusivitaet-provision-und-kuendigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Influencer-Recht: DSA Plattformbeschwerde und Account Sperre: Bearbeite den Fachpunkt im Skill infl-027-dsa-plattformbeschwerde-und-account-sperre und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Influencer-Recht: Hassrede Kommentare Moderation und Haftung: Bearbeite den Fachpunkt im Skill infl-028-hassrede-kommentare-moderation-und-haftung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Influencer-Recht: Foto-Shooting Vertrag Model Release Location: Bearbeite den Fachpunkt im Skill infl-033-foto-shooting-vertrag-model-release-location und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. UrhG Paragraf 2: geschützte Werke.
+4.2. UrhG Paragraf 15: Verwertungsrechte.
+4.3. UrhG Paragraf 31: Einräumung von Nutzungsrechten.
+4.4. UrhG Paragraf 51: Zitatrecht.
+4.5. UrhG Paragraf 97: Unterlassung und Schadensersatz.
+4.6. KUG Paragraf 22 und Paragraf 23: Bildnisschutz und Ausnahmen.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. EuGH, Urteil vom 16.07.2009 - C-5/08: Infopaq verlangt eigene geistige Schöpfung als unionsrechtlichen Werkanker.
+5.2. EuGH, Urteil vom 13.02.2014 - C-466/12: Svensson grenzt Verlinkung und öffentliche Wiedergabe ab.
+5.3. EuGH, Urteil vom 03.07.2012 - C-128/11: UsedSoft behandelt Erschöpfung bei Softwaredownloads.
+5.4. EuGH, Urteil vom 29.07.2019 - C-476/17: Pelham konkretisiert Sampling, Vervielfältigung und Kunstfreiheit.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Rechteinhaber für Schutzrecht, Inhaberschaft und Nutzung; Gegner für Einrede, Lizenz, Erschöpfung oder Nichtbenutzung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welcher Schutzgegenstand ist betroffen.
+7.2. Wer hat welche Rechte in welcher Kette erworben.
+7.3. Welche konkrete Nutzung löst welches Verwertungsrecht aus.
+7.4. Welche Schranke greift mit welchen Voraussetzungen.
+7.5. Welche Rechtsfolge ist verhältnismäßig und beweisbar.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Schutzgegenstand, Rechtekette, Nutzung, Schranken: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Abmahnung, Unterlassung, Auskunft, Schadensersatz, Löschung, Widerspruch oder Verteidigung verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Influencer-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Influencer-Recht._
+
+# Veröffentlichung, Kooperation und rechtliches Anliegen einordnen
 
 ## Direktstart: lesen, entscheiden, liefern
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Prüfe den konkreten Beitrag oder Kooperationsvertrag anhand der vorhandenen Darstellung, Vergütungsabrede und Rechteunterlagen. Übernimm bekannte Angaben zu Rolle, Ziel und Veröffentlichungstermin, statt sie erneut abzufragen.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+### Gegenleistung und Darstellung klären
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Fehlt die Absprache zu einem Geschenk oder die erste sichtbare Beitragsansicht, fordere genau diese Kommunikation oder Darstellung an. Gleiche die Antwort mit Vertrag und Beitrag ab und überarbeite Kennzeichnungsempfehlung und bestellte Textfassung. Neue entscheidende Unklarheiten erlauben weitere gezielte Fragen, nicht eine wiederholte Kampagnenaufnahme.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+### Rechte und Vertrag fertigstellen
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Fehlt die Lizenzreichweite für bezahlte Anzeigen, frage nach der konkreten Werbenutzung und dem Nachweis. Passe nach Eingang die betroffene Rechteklausel an und formuliere den bestellten Vertrag oder die Antwort fertig. Offene Rechte nicht als erteilt darstellen; ein Prüfauftrag führt nicht ungefragt zur Abmahnung.
 
 ## Schnellstart-Workflow
 
-Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Influencer- und Social-Media-Recht**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen. Tragende Normen (UWG §§ 5, 5a, MStV § 22, TMG) werden nicht aus Modellwissen finalisiert, sondern über die zugelassenen Live-Quellen geprüft.
+Ordne den Auftrag der Kennzeichnungs-, Rechte-, Vertrags- oder Plattformprüfung zu. Tragende Normen (UWG §§ 5, 5a, MStV § 22, TMG) werden nicht aus Modellwissen finalisiert, sondern nach ihrem zeitlichen Anwendungsbereich über die zugelassenen Live-Quellen geprüft.
 
 ### 0. Stummer Upload — Material ohne Begleittext
 
-Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+Lies hochgeladene Beiträge und Verträge auch ohne Begleittext. Kläre den gewünschten Verwendungszweck, wenn er aus dem Material nicht hervorgeht und für das Ergebnis entscheidend ist. Der Upload allein ermächtigt nicht zu Veröffentlichung, Abmahnung oder Vertragsabschluss.
 
 **Pflicht-Reihenfolge bei stummem Upload:**
 
@@ -51,18 +168,256 @@ Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder e
 3. **Rolle klären** — Mandant, Gegner, Behörde, Gericht, betroffene Stelle; mit welchem Ziel und welcher Reichweite?
 4. **Ziel bestimmen** — Prüfung, Entwurf, Antrag, Anmeldung, Schriftsatz, Verteidigung, Dashboard, Memo, Red-Team?
 5. **Rechtsquellen trennen** — Normtext, Behördenpraxis, Rechtsprechung, Vertrag, technischer Standard und Praxisroutine getrennt halten.
-6. **Fachmodule auswählen** — Drei bis sieben passende Skills aus diesem Plugin nennen mit Begründung, warum sie jetzt nützlich sind.
-7. **Erste verwertbare Ausgabe liefern** — Kurze Lagekarte mit nächstem Schritt oder erstem Entwurf, statt einer langen abstrakten Abhandlung.
+6. Einen passenden Fachskill optional nutzen; seine Benennung ersetzt nicht das bestellte Ergebnis.
+7. Den bestellten Text vollständig liefern. Bei einem Hindernis den begründbaren Teil vorläufig ausarbeiten und nach Eingang der konkret benötigten Angaben fortsetzen.
 
 ## Fachlicher Anker — Influencer- und Social-Media-Recht
 
 Tragende Anker: UWG §§ 5, 5a, MStV § 22, TMG. Tatsächliche Fundstellen werden über dejure.org, openJur, gesetze-im-internet.de, BGH-/BVerfG-/EuGH-/EuG-Datenbank live geprüft und nicht aus Modellwissen finalisiert.
 
+## Ausgabe und Grenzen
+
+Quellenstatus und technische Zugriffslücken getrennt vom Empfängertext dokumentieren. Vollständige Sätze, dezimale Gliederung und Times New Roman 11 pt beim Export, sonst entsprechender Exporthinweis. Keine Veröffentlichung, Unterlassungserklärung oder Einreichung eigenmächtig veranlassen.
+
+---
+
+## Skill: `einkommensteuer-betriebseinnahme`
+
+_Für Influencer-Recht: Einkommensteuer – Betriebseinnahme und private Nutzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Influencer-Recht: Einkommensteuer – Betriebseinnahme und private Nutzung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Kontext und Regelungslage
+
+Creator als Gewerbetreibende oder Freiberufler unterliegen der Einkommensteuer auf ihre Nettoeinkünfte:
+
+- **§ 15 EStG**: Einkünfte aus Gewerbebetrieb (Gewerbeanmeldung, nachhaltige Tätigkeit, Gewinnerzielungsabsicht).
+- **§ 18 EStG**: Freiberufliche Einkünfte (z. B. journalistische, künstlerische Tätigkeit) – ohne Gewerbesteuer.
+- **§ 4 Abs. 3 EStG**: Einnahmen-Überschuss-Rechnung (EÜR) als vereinfachte Gewinnermittlung.
+- **§ 6 Abs. 1 Nr. 4 EStG**: Private Nutzung betrieblicher Gegenstände (Kamera, Laptop, Smartphone) → Entnahme; 1 %-Regelung bei Kfz.
+- **§ 12 EStG**: Kosten der privaten Lebensführung nicht abziehbar; gemischte Aufwendungen müssen aufgeteilt werden.
+- **§ 10d EStG**: Verlustabzug in Anfangsjahren möglich (Anlaufverluste).
+
+### Abgrenzungstabelle Betrieb vs. Privat
+
+| Gegenstand | Betrieblich | Privat | Aufteilung |
+|------------|------------|--------|------------|
+| Kamera (nur Content) | 100 % | 0 % | Vollabzug |
+| Smartphone | 50–80 % | 20–50 % | Einzelnachweis oder Schätzung |
+| Reise (Content + Urlaub) | Anteilig | Anteilig | Zeittagebuch führen |
+| Kleidung (On-Screen) | 0 % | 100 % | Kein Abzug (§ 12 EStG) |
+| Fitness-Abo (Sport-Creator) | 50–100 % | 0–50 % | Einzelnachweis |
+
+## Kaltstart-Fragen (6)
+
+1. Gewerbebetrieb oder freiberufliche Tätigkeit (z. B. Journalist, Künstler)?
+2. Welche Betriebsmittel werden auch privat genutzt (Laptop, Kamera, Kfz)?
+3. Führst du bereits eine EÜR oder eine Buchführung?
+4. Gibt es Anlaufverluste aus dem Aufbaujahr?
+5. Liegen gemischte Reisen (Content + Urlaub) vor?
+6. Gewünschtes Ergebnis: EÜR-Vorlage, Abgrenzungsmemo oder Steueroptimierungscheck?
+
+## Prüfprogramm
+
+- Einkunftsart bestimmen: § 15 vs. § 18 EStG → Gewerbesteuerbelastung prüfen.
+- EÜR-Positionen: Einnahmen (Geld + Sach), Ausgaben (Betriebsmittel, Software, Coaching, Reisen).
+- Private Nutzung erfassen: Kfz nach 1-%-Regelung oder Fahrtenbuch; sonstige Gegenstände nach Schätzung.
+- Gemischte Reisen: Aufteilung nach Tagen/Stunden; reine Urlaubstage nicht abziehbar.
+- Sozialversicherung: Selbstständige zahlen volle KV/PV-Beiträge; ggf. KSK-Mitgliedschaft prüfen.
+- Gewerbesteuer: Ab 24 500 € Gewinn; kann auf ESt angerechnet werden (§ 35 EStG).
+
+## Typische Fallen
+
+- Kleidungskosten als Betriebsausgaben geltend gemacht → regelmäßig nicht anerkannt.
+- Privatreise mit einem Posting „bebildert" → Gesamtreise nicht abziehbar ohne klare Aufteilung.
+- Sachleistungen nicht in EÜR erfasst → Gewinn zu niedrig.
+- Verluste im ersten Jahr nicht vorgetragen → Nachholung nur eingeschränkt möglich.
+- KSK vergessen: Künstler/Publizisten können 50 % der Sozialversicherungsbeiträge sparen.
+
+## Normen und Quellen
+
+- § 15 EStG: https://www.gesetze-im-internet.de/estg/__15.html
+- § 18 EStG: https://www.gesetze-im-internet.de/estg/__18.html
+- § 4 Abs. 3 EStG: https://www.gesetze-im-internet.de/estg/__4.html
+- § 6 Abs. 1 Nr. 4 EStG: https://www.gesetze-im-internet.de/estg/__6.html
+- § 12 EStG: https://www.gesetze-im-internet.de/estg/__12.html
+- § 35 EStG: https://www.gesetze-im-internet.de/estg/__35.html
+
+## Output-Formate
+
+- EÜR-Vorlage für Creator
+- Private-Nutzung-Tabelle (Schätzungsprotokoll)
+- Steueroptimierungscheck: KSK, GewSt-Anrechnung, Verlustabzug
+
+---
+
+## Skill: `infl-001-kaltstart-creator-kooperation-plattform-steuer`
+
+_Für Influencer-Recht: Kaltstart Creator Kooperation Plattform Steuer: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Influencer-Recht: Kaltstart Creator Kooperation Plattform Steuer
+
+## Aufgabe
+
+Dieser Skill bearbeitet **Kaltstart Creator Kooperation Plattform Steuer** im Bereich **Influencer-Recht**. Er soll nicht schematisch antworten, sondern zuerst die praktische Lage sortieren: Wer handelt, welche Unterlagen liegen vor, welche Frist läuft, welche Behörde oder Gegenpartei entscheidet und welches Ergebnis gebraucht wird.
+
+## Kaltstart in 6 Fragen
+
+1. Welche Rolle hat die Nutzerin: Mandant, Unternehmen, Behörde, Kanzlei, Gericht, Verlag, Betreiber, Investor oder Betroffene?
+2. Geht es um Prüfung, Entwurf, Verteidigung, Anmeldung, Register, Frist, Verhandlung, Compliance, Streit oder Dokumentation?
+3. Welche Dokumente liegen vor und welche fehlen: Vertrag, Bescheid, Registerauszug, Screenshot, E-Mail, Rechnung, Gutachten, Normtext, Protokoll?
+4. Welche Rechtsordnung, Branche, Epoche, Sprache oder technische Umgebung ist betroffen?
+5. Welche Entscheidung muss heute fallen und welche Punkte dürfen erst nach Live-Check beantwortet werden?
+6. Soll das Ergebnis als Ampel, Memo, Klausel, Antrag, Fristenplan, Behördenschreiben, Red-Team oder Dashboard kommen?
+
+## Prüfprogramm
+
+- Sachverhalt in Tatsachen, Annahmen, Wertungen und offene Beweisfragen zerlegen.
+- Werbung, Redaktion, Eigeninteresse und Gegenleistung sauber trennen
+- Steuerlich Barzahlung und Sachleistung gleich ernst nehmen
+- Plattformrecht, UWG, MStV, Urheberrecht und Datenschutz zusammendenken
+- Screenshots und Verträge als Beweis sichern
+- Zuständigkeit, Form, Frist, Beweislast, Vollzug und Rechtsbehelf immer getrennt ausgeben.
+- Bei historischen, internationalen oder technischen Begriffen erst übersetzen, dann rechtlich einordnen.
+- Keine Scheingenauigkeit: Wenn Quelle, Normstand oder Rechtsprechung fehlen, einen Live-Check als nächsten Schritt formulieren.
+
+## Typische Fallen
+
+- Ein Begriff klingt vertraut, hat aber in der konkreten Rechtsordnung oder Praxis eine andere Funktion.
+- Zuständigkeit, Form oder Zustellung wird übersehen, obwohl der materielle Punkt gut aussieht.
+- Eine Behauptung wird aus Modellwissen mit einer Fundstelle versehen. Das ist verboten; erst prüfen, dann zitieren.
+- Der Output ist juristisch richtig, hilft aber der Nutzerin operativ nicht. Deshalb immer nächste Handlung und Dokumentationsspur liefern.
+
+## Output
+
+- Kennzeichnungsampel
+- Steuercheck
+- Kooperationsvertrag
+- Abmahnantwort
+- Posting-Freigabe
+- Buchhaltungsnotiz
+
+---
+
+## Skill: `creator-kooperation-plattform-steuer`
+
+_Für Influencer-Recht: Kaltstart Creator – Kooperation, Plattform, Steuer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Influencer-Recht: Kaltstart Creator – Kooperation, Plattform, Steuer
+
+## Kontext und Regelungslage
+
+Wer erstmals als Creator eine bezahlte Kooperation eingeht, löst gleichzeitig gewerbliche, steuerliche und medienrechtliche Pflichten aus. Die wichtigsten Weichen:
+
+- **Gewerbe**: Regelmäßige entgeltliche Tätigkeit begründet Gewerbepflicht (§ 1 GewO); Anmeldung beim zuständigen Gewerbeamt.
+- **Steuer**: Betriebseinnahmen aus Kooperationen sind nach § 15 EStG (Gewerbebetrieb) oder § 22 EStG (sonstige Einkünfte) zu versteuern; ab Gründung Fragebogen zur steuerlichen Erfassung ans Finanzamt.
+- **Umsatzsteuer**: Kleinunternehmerregelung (§ 19 UStG) bis 22 000 € Jahresumsatz möglich; Sachleistungen (Barter) sind umsatzsteuerlich zu bewerten.
+- **Werbekennzeichnung**: Bereits die erste gesponserte Story unterliegt § 5a Abs. 4 UWG und § 22 MStV (Trennungsgebot); Verstoß ist abmahnfähig.
+- **Plattform-AGB**: Instagram, TikTok, YouTube haben eigene Monetarisierungs- und Branded-Content-Regeln; Verstöße können Account-Sperre auslösen.
+
+## Kaltstart-Fragen (6)
+
+1. Welche Plattform(en) nutzt du, und gibt es bereits eine konkrete Kooperationsanfrage mit Vergütung oder Sachleistung?
+2. Bist du bereits gewerblich angemeldet oder handelst du bislang als Privatperson?
+3. Welches Jahresumsatzvolumen ist realistisch – unter oder über 22 000 €?
+4. Handelt es sich um Geld-, Sach- oder Mischvergütung (Barter Deal)?
+5. Liegt ein schriftlicher Kooperationsvertrag vor, oder wurde nur mündlich vereinbart?
+6. Soll das Ergebnis als To-do-Liste, Checkliste oder Mini-Memo für die erste Steuererklärung aufbereitet werden?
+
+## Prüfprogramm
+
+- Vergütungsform bestimmen (Geld / Sach / Misch) → steuerliche Bewertung nach § 8 EStG.
+- Gewerbe-Status prüfen: Hobby vs. Gewerbebetrieb nach Gewinnerzielungsabsicht.
+- Umsatzsteueroption analysieren: Kleinunternehmer vs. Regelbesteuerung.
+- Erstkooperation auf Kennzeichnungspflicht prüfen: § 5a Abs. 4 UWG, § 22 MStV.
+- Plattform-Branded-Content-Tool aktiviert? (Meta, TikTok Creator Marketplace, YouTube).
+- Schriftlichkeit des Vertrags sichern; Mindestinhalt: Leistungsbeschreibung, Vergütung, Nutzungsrechte, Kennzeichnungspflicht.
+
+## Typische Fallen
+
+- Sachleistungen werden nicht als Betriebseinnahme erfasst → Nachversteuerung bei Prüfung.
+- Gewerbe zu spät angemeldet → Ordnungswidrigkeit.
+- Erstes Posting ohne „Werbung"-Label → Abmahnung durch Mitbewerber oder Verband.
+- Kooperationsvertrag fehlt → Streit über Nutzungsrechte und Abnahme.
+- Kleinunternehmer-Option ohne Kalkulation gewählt → Vorsteuerausschluss bei Ausgaben.
+
+## Normen und Quellen
+
+- § 1 GewO – Gewerbeanmeldung: https://www.gesetze-im-internet.de/gewo/__1.html
+- § 15 EStG – Einkünfte aus Gewerbebetrieb: https://www.gesetze-im-internet.de/estg/__15.html
+- § 22 EStG – Sonstige Einkünfte: https://www.gesetze-im-internet.de/estg/__22.html
+- § 19 UStG – Kleinunternehmerregelung: https://www.gesetze-im-internet.de/ustg_1980/__19.html
+- § 5a Abs. 4 UWG – Werbekennzeichnung: https://www.gesetze-im-internet.de/uwg_2004/__5a.html
+- § 22 MStV – Trennungsgebot: https://www.gesetze-im-internet.de/mstv/__22.html
+
+## Output-Formate
+
+- Kaltstart-Checkliste (Gewerbeanmeldung, Steuerfragebogen, Kennzeichnung)
+- Vergütungscheck (Geld/Sach, USt-Pflicht)
+- Kurzvertrag-Template für Erstkooperation
+- Ampel: Kann das Posting so veröffentlicht werden?
+
+---
+
+## Skill: `infl-006-einkommensteuer-betriebseinnahme-private-nutzung`
+
+_Für Influencer-Recht: Einkommensteuer Betriebseinnahme private Nutzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Influencer-Recht: Einkommensteuer Betriebseinnahme private Nutzung
+
+## Aufgabe
+
+Dieser Skill bearbeitet **Einkommensteuer Betriebseinnahme private Nutzung** im Bereich **Influencer-Recht**. Er soll nicht schematisch antworten, sondern zuerst die praktische Lage sortieren: Wer handelt, welche Unterlagen liegen vor, welche Frist läuft, welche Behörde oder Gegenpartei entscheidet und welches Ergebnis gebraucht wird.
+
+## Kaltstart in 6 Fragen
+
+1. Welche Rolle hat die Nutzerin: Mandant, Unternehmen, Behörde, Kanzlei, Gericht, Verlag, Betreiber, Investor oder Betroffene?
+2. Geht es um Prüfung, Entwurf, Verteidigung, Anmeldung, Register, Frist, Verhandlung, Compliance, Streit oder Dokumentation?
+3. Welche Dokumente liegen vor und welche fehlen: Vertrag, Bescheid, Registerauszug, Screenshot, E-Mail, Rechnung, Gutachten, Normtext, Protokoll?
+4. Welche Rechtsordnung, Branche, Epoche, Sprache oder technische Umgebung ist betroffen?
+5. Welche Entscheidung muss heute fallen und welche Punkte dürfen erst nach Live-Check beantwortet werden?
+6. Soll das Ergebnis als Ampel, Memo, Klausel, Antrag, Fristenplan, Behördenschreiben, Red-Team oder Dashboard kommen?
+
+## Prüfprogramm
+
+- Sachverhalt in Tatsachen, Annahmen, Wertungen und offene Beweisfragen zerlegen.
+- Werbung, Redaktion, Eigeninteresse und Gegenleistung sauber trennen
+- Steuerlich Barzahlung und Sachleistung gleich ernst nehmen
+- Plattformrecht, UWG, MStV, Urheberrecht und Datenschutz zusammendenken
+- Screenshots und Verträge als Beweis sichern
+- Zuständigkeit, Form, Frist, Beweislast, Vollzug und Rechtsbehelf immer getrennt ausgeben.
+- Bei historischen, internationalen oder technischen Begriffen erst übersetzen, dann rechtlich einordnen.
+- Keine Scheingenauigkeit: Wenn Quelle, Normstand oder Rechtsprechung fehlen, einen Live-Check als nächsten Schritt formulieren.
+
+## Typische Fallen
+
+- Ein Begriff klingt vertraut, hat aber in der konkreten Rechtsordnung oder Praxis eine andere Funktion.
+- Zuständigkeit, Form oder Zustellung wird übersehen, obwohl der materielle Punkt gut aussieht.
+- Eine Behauptung wird aus Modellwissen mit einer Fundstelle versehen. Das ist verboten; erst prüfen, dann zitieren.
+- Der Output ist juristisch richtig, hilft aber der Nutzerin operativ nicht. Deshalb immer nächste Handlung und Dokumentationsspur liefern.
+
+## Output
+
+- Kennzeichnungsampel
+- Steuercheck
+- Kooperationsvertrag
+- Abmahnantwort
+- Posting-Freigabe
+- Buchhaltungsnotiz
+
 ---
 
 ## Skill: `brand-deal-leistungsbeschreibung-abnahme-und-nutzungsre`
 
-_Wenn es um Influencer-Recht: Brand Deal – Leistungsbeschreibung, Abnahme und Nutzungsrechte in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Influencer-Recht: Brand Deal – Leistungsbeschreibung, Abnahme und Nutzungsrechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Influencer-Recht: Brand Deal – Leistungsbeschreibung, Abnahme und Nutzungsrechte
 
@@ -148,514 +503,57 @@ Ein Brand Deal ist ein Werkvertrag (§ 631 BGB) oder gemischter Vertrag; entsche
 
 ---
 
-## Skill: `content-lizenz-musik-reel-bildrechte-kug`
+## Skill: `infl-005-umsatzsteuer-bei-barter-deal-und-auslandsbrand`
 
-_Wenn es um Influencer-Recht: Content-Lizenz, Nutzungsdauer, Media Buyout und Whitelisting in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Influencer-Recht: Umsatzsteuer bei Barter Deal und Auslandsbrand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
-# Influencer-Recht: Content-Lizenz, Nutzungsdauer, Media Buyout und Whitelisting
+# Influencer-Recht: Umsatzsteuer bei Barter Deal und Auslandsbrand
 
-## Arbeitsweg
+## Aufgabe
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Dieser Skill bearbeitet **Umsatzsteuer bei Barter Deal und Auslandsbrand** im Bereich **Influencer-Recht**. Er soll nicht schematisch antworten, sondern zuerst die praktische Lage sortieren: Wer handelt, welche Unterlagen liegen vor, welche Frist läuft, welche Behörde oder Gegenpartei entscheidet und welches Ergebnis gebraucht wird.
 
-## Kontext und Regelungslage
+## Kaltstart in 6 Fragen
 
-Content-Lizenzen sind der urheberrechtliche Kern jedes Brand Deals:
-
-- **UrhG § 2**: Fotos, Videos, Texte sind urheberrechtlich geschützte Werke; Creator ist Urheber.
-- **UrhG § 11**: Urheberpersönlichkeitsrecht: unveräußerlich; Creator kann nicht auf Namensnennung verzichten.
-- **UrhG § 31**: Nutzungsrechte (einfach/ausschließlich) müssen ausdrücklich eingeräumt werden; Umfang bestimmt Vergütung.
-- **UrhG § 32**: Angemessene Vergütung – Creator kann nachträgliche Anpassung verlangen, wenn Vergütung unangemessen.
-- **UrhG § 34, 35**: Weiterübertragung und Unterlizenzierung nur mit Creator-Zustimmung.
-- **Whitelisting**: Brand schaltet bezahlte Werbeanzeigen aus dem Creator-Account heraus → DSGVO- und KUG-Relevanz; eigene AGB-Regelung erforderlich.
-- **Media Buyout**: Pauschalvergütung für alle Nutzungsrechte ohne Zeitbeschränkung → Creator verliert Kontrolle; Nachvergütungsanspruch nach § 32 UrhG bleibt.
-
-### Lizenz-Vergütungsmodell
-
-| Lizenztyp | Nutzungsumfang | Typischer Aufschlag |
-|-----------|---------------|---------------------|
-| Organic Only | Nur organisch auf Creator-Account | Basis |
-| Social Paid | Bezahlte Boost-Anzeigen | +30–50 % |
-| Whitelisting | Ads aus Creator-Account | +50–100 % |
-| Offline/Print | Out-of-Home, Prospekte | +100–200 % |
-| Buyout | Unbegrenzt, unbefristet | +300–500 % |
-
-## Kaltstart-Fragen (6)
-
-1. Welche Nutzungsrechte verlangt der Brand im Vertragsentwurf?
-2. Soll Whitelisting aktiviert werden – und für wie lange?
-3. Ist Media Buyout gewünscht, oder soll die Lizenz zeitlich begrenzt sein?
-4. Wird Weiterübertragung an Dritte (z. B. Subagenturen) erlaubt?
-5. Ist die Vergütung angemessen in Relation zu den verlangten Rechten?
-6. Gewünschtes Ergebnis: Lizenzmatrix, Preiskalkulation oder Vertragsklausel?
+1. Welche Rolle hat die Nutzerin: Mandant, Unternehmen, Behörde, Kanzlei, Gericht, Verlag, Betreiber, Investor oder Betroffene?
+2. Geht es um Prüfung, Entwurf, Verteidigung, Anmeldung, Register, Frist, Verhandlung, Compliance, Streit oder Dokumentation?
+3. Welche Dokumente liegen vor und welche fehlen: Vertrag, Bescheid, Registerauszug, Screenshot, E-Mail, Rechnung, Gutachten, Normtext, Protokoll?
+4. Welche Rechtsordnung, Branche, Epoche, Sprache oder technische Umgebung ist betroffen?
+5. Welche Entscheidung muss heute fallen und welche Punkte dürfen erst nach Live-Check beantwortet werden?
+6. Soll das Ergebnis als Ampel, Memo, Klausel, Antrag, Fristenplan, Behördenschreiben, Red-Team oder Dashboard kommen?
 
 ## Prüfprogramm
 
-- Lizenzumfang: Plattform, Zeitraum, Territorium, Format für jeden Nutzungstyp separat.
-- Whitelisting-AGB: Plattformbedingungen (Meta, TikTok) prüfen; Creator muss Zugriff gewähren.
-- Vergütungsangemessenheit: § 32 UrhG – Gemeinsame Vergütungsregeln der Branche als Maßstab.
-- Nachvergütungsanspruch: Bei unerwartet hoher Verwertung kann Creator Aufstockung verlangen.
-- Rückrufrecht: § 41 UrhG – Nichtausübungsrückruf nach 2 Jahren möglich.
-- Exklusivität des Nutzungsrechts: Ausschließliches vs. einfaches NR – Creator kann mit einfachem NR weiter lizenzieren.
+- Sachverhalt in Tatsachen, Annahmen, Wertungen und offene Beweisfragen zerlegen.
+- Werbung, Redaktion, Eigeninteresse und Gegenleistung sauber trennen
+- Steuerlich Barzahlung und Sachleistung gleich ernst nehmen
+- Plattformrecht, UWG, MStV, Urheberrecht und Datenschutz zusammendenken
+- Screenshots und Verträge als Beweis sichern
+- Zuständigkeit, Form, Frist, Beweislast, Vollzug und Rechtsbehelf immer getrennt ausgeben.
+- Bei historischen, internationalen oder technischen Begriffen erst übersetzen, dann rechtlich einordnen.
+- Keine Scheingenauigkeit: Wenn Quelle, Normstand oder Rechtsprechung fehlen, einen Live-Check als nächsten Schritt formulieren.
 
 ## Typische Fallen
 
-- „Alle Rechte" ohne Zeitbegrenzung im Vertrag = faktischer Buyout ohne Buyout-Vergütung.
-- Whitelisting ohne Ende-Datum → Brand nutzt Creator-Account jahrelang für Ads.
-- Sublizenzierung erlaubt → Creator-Content wird ohne Wissen in fremden Kampagnen genutzt.
-- Urheberpersönlichkeitsrecht nicht gewahrt → kein Namensnennung → § 11 UrhG-Verstoß.
-
-## Normen und Quellen
-
-- § 2 UrhG: https://www.gesetze-im-internet.de/urhg/__2.html
-- § 31 UrhG: https://www.gesetze-im-internet.de/urhg/__31.html
-- § 32 UrhG – Angemessene Vergütung: https://www.gesetze-im-internet.de/urhg/__32.html
-- § 41 UrhG – Rückrufsrecht: https://www.gesetze-im-internet.de/urhg/__41.html
-
-## Output-Formate
-
-- Lizenzmatrix (Nutzungstyp × Plattform × Vergütung)
-- Whitelisting-Klausel-Vorlage
-- Preiskalkulations-Tool (Aufschlagstabelle)
-- Lizenzwiderruf-Schreiben
-
----
-
-## Skill: `minderjaehrige-creator-gewinnspiel`
-
-_Wenn es um Influencer-Recht: Minderjährige Creator – Eltern, Jugendschutz, Vertragsrecht in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Influencer-Recht: Minderjährige Creator – Eltern, Jugendschutz, Vertragsrecht
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Kontext und Regelungslage
-
-Minderjährige Creator unterliegen einem besonders dichten Schutzregime:
-
-- **§ 106 BGB**: Beschränkte Geschäftsfähigkeit ab 7 Jahren; Verträge mit Minderjährigen bedürfen elterlicher Genehmigung.
-- **§ 107 BGB**: Vorteilhafter Vertrag: ohne Genehmigung wirksam; Brand Deals sind regelmäßig nicht lediglich vorteilhaft.
-- **§ 1643 BGB**: Eltern als gesetzliche Vertreter; bei erheblichen Verpflichtungen ggf. Genehmigung des Familiengerichts.
-- **§ 1 JuSchG, § 2 JMStV**: Jugendschutzpflichten bei öffentlichen Angeboten; altersgerechte Inhalte.
-- **§ 45 ff. JArbSchG**: Beschäftigungsverbote und -einschränkungen für Minderjährige (Ruhezeiten, Schulzeit, Höchstarbeitszeit).
-- **§ 22 KUG**: Elternzustimmung für Bildveröffentlichung Minderjähriger.
-- **DSGVO Art. 8**: Einwilligung in Datenverarbeitung ab 16 Jahren (DE: 16 Jahre per Landesrecht).
-- **Steuer**: Einnahmen des Kindes sind eigene Einkünfte; aber Eltern-Haftung bei Versäumnissen.
-
-### Pflichten-Checkliste für Eltern
-
-| Pflicht | Norm | Handlung |
-|---------|------|----------|
-| Vertragsabschluss | § 107 BGB | Elterliche Genehmigung |
-| Bildfreigabe | § 22 KUG | Schriftliche Einwilligung |
-| Datenschutz | DSGVO Art. 8 | Einwilligung unter 16 J. |
-| Arbeitszeit | JArbSchG | Tätigkeitsdauer prüfen |
-| Kontenführung | § 1806 BGB | Mündelgeldanlage für Einkünfte |
-| Steuer | § 15/32 EStG | Steuererklärung für Kind |
-
-## Kaltstart-Fragen (6)
-
-1. Wie alt ist der minderjährige Creator (unter 14, 14–16, 16–18)?
-2. Haben beide Elternteile den Kooperationsvertrag genehmigt?
-3. Überschreiten die vereinbarten Leistungen die erlaubten Arbeitszeiten nach JArbSchG?
-4. Ist der Content für Minderjährige altersgerecht nach JMStV?
-5. Werden Einnahmen korrekt als Kindereinkünfte versteuert?
-6. Gewünschtes Ergebnis: Vertragsfreigabe, Jugendschutzcheck oder Familiengerichtsvorlage?
-
-## Prüfprogramm
-
-- Alter und Geschäftsfähigkeit: Unter 7 = geschäftsunfähig; 7–18 = beschränkt geschäftsfähig.
-- Elterliche Vertretung: Beide Elternteile? Alleinsorge? Bei Meinungsstreit: Familiengericht.
-- JArbSchG: Schulfreie Zeit, Ruhezeiten (mindestens 12 Stunden), keine Nachtarbeit.
-- Inhaltskontrolle: JMStV Schutzklassen; kein Alkohol-, Glücksspiel-, Erotik-Content.
-- Vermögensverwaltung: Einnahmen für das Kind treuhänderisch verwalten; keine Eltern-Nutzung.
-- DSGVO: Einwilligung für Tracking, Newsletter etc. unter 16 nur durch Eltern.
-
-## Typische Fallen
-
-- Nur ein Elternteil unterschreibt → bei gemeinsamer Sorge nicht ausreichend.
-- Creator-Kind filmt sich täglich für Stunden → JArbSchG-Verstoß.
-- Eltern nutzen Kind-Einnahmen für sich → Untreue (§ 266 StGB).
-- Keine DSGVO-Einwilligung der Eltern → Plattformsperre oder Bußgeld.
-
-## Normen und Quellen
-
-- § 107 BGB: https://www.gesetze-im-internet.de/bgb/__107.html
-- § 1643 BGB: https://www.gesetze-im-internet.de/bgb/__1643.html
-- § 1 JArbSchG: https://www.gesetze-im-internet.de/jarbschg/__1.html
-- § 22 KUG: https://www.gesetze-im-internet.de/kukg/__22.html
-- DSGVO Art. 8: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679
-
-## Output-Formate
-
-- Eltern-Genehmigungsformular für Kooperationsvertrag
-- JArbSchG-Zeiterfassungsvorlage
-- JMStV-Compliance-Checkliste
-- Familiengericht-Vorlage (bei erheblichem Vermögen)
-
----
-
-## Skill: `werbekennzeichnung-instagram`
-
-_Wenn es um Influencer-Recht: Werbekennzeichnung – Instagram Story/Reel, TikTok, YouTube in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Influencer-Recht: Werbekennzeichnung – Instagram Story/Reel, TikTok, YouTube
-
-## Arbeitsbereich
-
-Influencer-Recht: Werbekennzeichnung auf Instagram, TikTok und YouTube – § 5a UWG, § 22 MStV, BGH-Rechtsprechung, plattformspezifische Anforderungen. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Kontext und Regelungslage
-
-Die Werbekennzeichnungspflicht für Influencer ergibt sich aus mehreren Normen:
-
-- **§ 5a Abs. 4 UWG**: Kommerzieller Zweck eines Beitrags muss erkennbar sein; fehlende Kennzeichnung ist unlauter, wenn nicht bereits aus dem Kontext offensichtlich.
-- **§ 22 MStV** (Medienstaatsvertrag): Trennungsgebot – Werbung muss als solche klar erkennbar und vom redaktionellen Inhalt getrennt sein; gilt für Telemedien und Rundfunk.
-- **BGH „Luisa-Maxime Huss"** (I ZR 90/20, 09.09.2021): Erhält die Influencerin für einen Beitrag eine Gegenleistung, ist der kommerzielle Zweck grundsätzlich klar kennzeichnungspflichtig.
-- **BGH „Leonie Hanne" und „Cathy Hummels"** (I ZR 125/20 und I ZR 126/20, 09.09.2021): Tap-Tags ohne Gegenleistung führen nicht automatisch zur Kennzeichnungspflicht; zu prüfen ist, ob der kommerzielle Zweck aus dem Umfeld des Accounts und dem Inhalt des Posts bereits hinreichend erkennbar ist.
-- **BGH „Diana zur Löwen"** (I ZR 35/21, 13.01.2022): Geschenkprodukte, sonstige geldwerte Vorteile und produktbezogene Tap-Tags können die Kennzeichnungspflicht begründen; selbst gekaufte Produkte bleiben nur bei fehlendem werblichem Überschuss unproblematischer.
-
-### Plattformspezifische Anforderungen
-
-| Plattform | Mindeststandard | Empfehlung |
-|-----------|----------------|------------|
-| Instagram Story | Branded Content Tool + „Bezahlte Partnerschaft" | „Werbung" in erstem Frame, nicht nur als Sticker |
-| Instagram Reel/Post | Branded Content Tool + Label | „Werbung" im ersten sichtbaren Text |
-| TikTok | Branded Content Toggle | „#Werbung" im ersten Satz der Caption |
-| YouTube | Info-Card + Verbal im Video | „Werbung" in den ersten 3 Sekunden + Pinned Comment |
-
-## Kaltstart-Fragen (6)
-
-1. Liegt eine Gegenleistung vor (Geld, Produkt, Reise, Rabatt, Reichweitentausch)?
-2. Auf welcher Plattform und in welchem Format (Story, Reel, Post, Video) erscheint der Content?
-3. Wurde das Branded-Content-Tool der Plattform aktiviert?
-4. Handelt es sich um eine Eigenmarke oder ein fremdes Produkt?
-5. Besteht bereits eine Abmahnung oder Anfrage einer Landesmedienanstalt?
-6. Gewünschtes Ergebnis: Ampelcheck, Textkorrektur oder Verteidigungsschreiben?
-
-## Prüfprogramm
-
-- Gegenleistungstest: Geld, Sachleistung, Vorteil → Kennzeichnungspflicht bejahen.
-- Offensichtlichkeitstest nach BGH Influencer I/II: Ist das kommerzielle Eigeninteresse ohne Label bereits aus Account, Posting-Kontext und Produktbezug erkennbar?
-- Plattformtool aktiv? Branded Content Tool ≠ Ersatz für textuelles Label.
-- Positionierung: „Werbung" muss vor dem Swipe/Cut/Lesen sichtbar sein.
-- Eigenmarken-Sonderfall: BGH-Rspr. differenziert, kein pauschales Freistellungsurteil.
-- Mehrkanalstrategie: Kennzeichnung muss auf jeder Plattform separat erfolgen.
-
-## Typische Fallen
-
-- Nur Hashtag „#ad" am Ende einer langen Caption → nicht ausreichend nach deutschem Recht.
-- Branded Content Tool aktiviert, aber kein Wort „Werbung" im Post → zweifelhaft.
-- „PR-Sample" erhalten, aber beschriftet als eigene Empfehlung → Pflicht besteht dennoch.
-- Kennzeichnung nur im Beschreibungstext, nicht im Video selbst (YouTube) → unzureichend.
-- Tap-Tag ohne Gegenleistung: nach den BGH-Entscheidungen I ZR 125/20 und I ZR 126/20 nicht automatisch unlauter, aber dokumentationsbedürftig.
-
-## Normen und Quellen
-
-- § 5a Abs. 4 UWG: https://www.gesetze-im-internet.de/uwg_2004/__5a.html
-- § 22 MStV: https://www.gesetze-im-internet.de/mstv/__22.html
-- BGH I ZR 90/20 (Luisa-Maxime Huss): https://openjur.de/u/2395894.html
-- BGH I ZR 125/20 und I ZR 126/20 (Leonie Hanne/Cathy Hummels): https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2021/2021170.html
-- BGH I ZR 35/21 (Diana zur Löwen): https://openjur.de/u/2432342.html
-
-## Output-Formate
-
-- Kennzeichnungsampel (grün/gelb/rot pro Plattform)
-- Textkorrektur: Posting mit korrektem Label
-- Muster-Stellungnahme an Landesmedienanstalt
-- Checkliste vor Veröffentlichung
-
----
-
-## Skill: `influencer-beauty-filter-medienanstalt`
-
-_Wenn es um Influencer-Recht: Influencer als Testimonial in Kapitalmarktkommunikation in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Influencer-Recht: Influencer als Testimonial in Kapitalmarktkommunikation
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Kontext und Regelungslage
-
-Creator in Kapitalmarktumfeld tragen erhebliche Haftungsrisiken:
-
-- **§ 25 WpHG**: Anlageempfehlungen müssen als Werbung kenntlich gemacht sein; Creator-Testimonial für Wertpapierprodukt = Marketingmitteilung.
-- **§ 26 WpHG**: Offenlegung von Interessenkonflikten zwingend; Affiliate-Provision = Interessenkonflikt.
-- **MAR Art. 20 (EU 596/2014)**: Anlageempfehlungen und Informationen über Emittenten; Pflichten für Personen, die solche verbreiten.
-- **MAR Art. 12**: Marktmanipulation verboten; koordinierte Kauf-Empfehlungen ohne Offenlegung.
-- **§ 32 KWG**: Finanzdienstleistungserlaubnis; konkrete Empfehlung von Einzeltiteln kann erlaubnispflichtigen Bereich berühren.
-- **WpPG § 21**: Werbung für Wertpapierprospekte muss als solche erkennbar sein und auf Prospekt verweisen.
-- **§ 5 UWG**: Irreführende Aussagen über Wertpapiere.
-
-### Hochrisiko-Konstellationen
-
-| Konstellation | Risiko |
-|--------------|--------|
-| Creator empfiehlt Aktie mit Kauf-Aufruf + Provision | BaFin-Prüfung, § 32 KWG |
-| Testimonial für IPO-Werbematerial | WpPG § 21 |
-| Creator in Pump-and-Dump-Gruppe | MAR Art. 12 – Marktmanipulation |
-| Creator empfiehlt Krypto-Token + Provision | MiCA ab 2024 |
-| Creator als „Markenbotschafter" für Broker | WpHG §§ 25, 26 |
-
-## Kaltstart-Fragen (6)
-
-1. Soll der Creator für ein Wertpapierprodukt, einen Broker oder einen Krypto-Anbieter werben?
-2. Erhält der Creator eine Provision (Affiliate, CPA, Anzahl Depoteröffnungen)?
-3. Macht der Creator konkrete Kauf-Empfehlungen oder nur allgemeine Werbung?
-4. Hat der Brand eine BaFin-Lizenz oder einen EU-Pass?
-5. Gibt es eine Community oder Gruppe, in der koordinierte Kaufempfehlungen ausgegeben werden?
-6. Gewünschtes Ergebnis: Haftungs-Check, Offenlegungs-Text oder Ablehnungsempfehlung?
-
-## Prüfprogramm
-
-- Lizenz-Check: Hat der Brand BaFin-Lizenz? → Pflichtangabe in Creator-Content.
-- Interessenkonflikt-Offenlegung: Alle Provisionen und Vergütungsbeziehungen offenlegen.
-- MAR-Test: Ist die Community groß genug, um Marktbewegungen auszulösen? → Marktmanipulationsrisiko.
-- Anlageberatungsgrenze: „Dies ist keine Anlageberatung" schützt nicht, wenn tatsächlich Empfehlung gegeben wird.
-- MiCA: Krypto-Asset-Werbung ab 2024 reguliert; Brand muss MiCA-Zulassung haben.
-- Ablehnungsempfehlung: Bei fehlender BaFin-Lizenz des Brands → dringend ablehnen.
-
-## Typische Fallen
-
-- Testimonial für nicht zugelassenen Finanzdienstleister → KWG-Verstoß als Beihilfe.
-- Pump-and-Dump mitgemacht ohne Wissen → MAR Art. 12, ggf. Strafverfolgung.
-- Interessenkonflikt nicht offengelegt → § 26 WpHG-Verstoß.
-- Krypto-Empfehlung mit Renditeversprechen → MiCA + § 5 UWG.
-
-## Normen und Quellen
-
-- § 25 WpHG: https://www.gesetze-im-internet.de/wphg/__25.html
-- § 26 WpHG: https://www.gesetze-im-internet.de/wphg/__26.html
-- MAR Art. 12, 20: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32014R0596
-- MiCA EU 2023/1114: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32023R1114
-- § 32 KWG: https://www.gesetze-im-internet.de/kredwg/__32.html
-
-## Output-Formate
-
-- Kapitalmarkt-Creator-Ampel
-- Interessenkonflikt-Offenlegungstext
-- Ablehnungsschreiben für nicht lizenzierte Finanzprodukte
-- MAR-Compliance-Checkliste
-
----
-
-## Skill: `agenturvertrag-exklusivitaet-foto`
-
-_Wenn es um Influencer-Recht: Agenturvertrag – Exklusivität, Provision und Kündigung in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Influencer-Recht: Agenturvertrag – Exklusivität, Provision und Kündigung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Kontext und Regelungslage
-
-Agenturverträge sind für Creator häufig die rechtlich riskanteste Vertragsform:
-
-- **§§ 611, 631 BGB**: Agenturvertrag kann als Dienst- oder Werkvertrag ausgestaltet sein; Qualifikation bestimmt Gewährleistung und Kündigung.
-- **§ 84 HGB** (analog): Handelsvertreter-Grundsätze anwendbar, wenn Agentur dauerhaft Geschäfte vermittelt.
-- **§ 138 BGB**: Sittenwidrigkeit bei übermäßig langen Exklusivitätsklauseln oder unangemessener Knebelung.
-- **§ 305 ff. BGB (AGB-Recht)**: Agenturverträge als AGB – überraschende Klauseln (§ 305c), unangemessene Benachteiligung (§ 307).
-- **§ 626 BGB**: Außerordentliche fristlose Kündigung bei wichtigem Grund (z. B. Nichtzahlung, Vertragsverletzung der Agentur).
-- **§ 89b HGB** (analog): Ausgleichsanspruch des Creator-Handelsvertreters bei Vertragsende.
-- **§ 823 BGB**: Schadensersatz bei Verschulden; Agentur haftet für rechtswidrige Deals.
-
-### Typische Klauseln und Bewertung
-
-| Klausel | Rechtliche Bewertung |
-|---------|---------------------|
-| Exklusivität 2 Jahre, alle Branchen | Ggf. § 138 BGB sittenwidrig |
-| Provision 20–30 % | Marktüblich, zulässig |
-| Post-Term Non-Compete 1 Jahr | Bei Vergütung: zulässig; ohne: § 307 BGB |
-| Auto-Renewal ohne Frist | AGB-Falle: § 307 Abs. 1 BGB |
-| Nutzungsrechte Agentur > Creator | Prüfen: UrhG § 29 – Urheber bleibt Creator |
-
-## Kaltstart-Fragen (6)
-
-1. Liegt ein schriftlicher Agenturvertrag vor – oder soll einer geprüft / verhandelt werden?
-2. Gibt es eine Exklusivitätsklausel, und auf welche Bereiche / Branchen erstreckt sie sich?
-3. Wie hoch ist der Provisionssatz, und auf welchen Netto- oder Bruttobetrag bezieht er sich?
-4. Wie lang ist die Laufzeit, und gibt es eine automatische Verlängerung?
-5. Liegt ein Kündigungsgrund vor (Nichtzahlung, Untätigkeit, Vertragsverletzung)?
-6. Gewünschtes Ergebnis: Vertragscheck, Kündigungsschreiben oder Neuverhandlungs-Memo?
-
-## Prüfprogramm
-
-- Vertragsqualifikation: Dienst- oder Werkvertrag? → Kündigung nach § 621 BGB vs. § 649 BGB.
-- AGB-Prüfung: Ist der Vertrag vom Anwalt individuell verhandelt oder vom Auftraggeber gestellt?
-- Exklusivität: Zeitlich, sachlich und räumlich begrenzen; Branchen-Carve-outs verhandeln.
-- Provision: Nettobasis (nach Plattformgebühren) vs. Bruttobasis; Fälligkeitsregelung.
-- Kündigung: Ordentliche Frist im Vertrag? Außerordentlich nach § 626 BGB: Wichtiger Grund dokumentieren.
-- Nachvertragliches Wettbewerbsverbot: Ohne Karenzentschädigung regelmäßig unwirksam.
-
-## Typische Fallen
-
-- 3-Jahres-Exklusivvertrag unterzeichnet ohne Kündigunsrecht → Gefangen bei inaktiver Agentur.
-- Provision auf Bruttobetrag inkl. USt → Creator zahlt Provision auf den Steueranteil.
-- Auto-Renewal: Frist verpasst → ungewollt verlängert.
-- Nutzungsrechte gehen auf Agentur über → Creator kann Content nicht mehr kontrollieren.
-- Kündigung per WhatsApp → Schriftformerfordernis nicht gewahrt.
-
-## Normen und Quellen
-
-- §§ 611, 631 BGB: https://www.gesetze-im-internet.de/bgb/__611.html
-- § 138 BGB – Sittenwidrigkeit: https://www.gesetze-im-internet.de/bgb/__138.html
-- § 305 ff. BGB – AGB: https://www.gesetze-im-internet.de/bgb/__305.html
-- § 626 BGB – Außerordentliche Kündigung: https://www.gesetze-im-internet.de/bgb/__626.html
-- § 84 HGB: https://www.gesetze-im-internet.de/hgb/__84.html
-
-## Output-Formate
-
-- Vertragscheck-Ampel (kritische Klauseln markiert)
-- Kündigungsschreiben (ordentlich / außerordentlich)
-- Neuverhandlungs-Checkliste
-- Provisionskalkulations-Tabelle
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5a UWG
-- § 5 UWG
-- § 22 KUG
-- § 5 TMG
-- § 31 UrhG
-- § 19 UStG
-- § 15 EStG
-- § 3a UStG
-- § 4 EStG
-- § 3 UWG
-- § 8 EStG
-- § 13 UWG
-
-### Leitentscheidungen
-
-- BGH I ZR 35/21
-- BGH I ZR 90/20
-- BGH I ZR 125/20
-- BGH I ZR 126/20
-- BGH III ZR 183/21
-- BFH XI R 14/09
-
----
-
-## Skill: `musik-im-reel-urheberrecht-plattformlizenz-gema`
-
-_Wenn es um Influencer-Recht: Musik im Reel – Urheberrecht, Plattformlizenz und GEMA in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Influencer-Recht: Musik im Reel – Urheberrecht, Plattformlizenz und GEMA
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Kontext und Regelungslage
-
-Musik in Creator-Content ist ein unterschätztes Haftungsfeld:
-
-- **UrhG § 19a**: Öffentliche Zugänglichmachung von Musikwerken erfordert Lizenz des Rechteinhabers.
-- **UrhG § 97**: Schadensersatz bei Urheberrechtsverletzung (Lizenzanalogie oder entgangener Gewinn).
-- **GEMA**: Verwaltet Urheberrechte an Musikwerken und Liedtexten für die meisten Komponisten/Texter; nicht aber Tonträgerrechte (Label = Leistungsschutz).
-- **GVL**: Verwertungsgesellschaft für Leistungsschutzrechte ausübender Künstler und Plattenlabels.
-- **Plattformlizenzen**: Meta, TikTok, YouTube haben Lizenzverträge mit GEMA/GVL – gelten aber oft nur für organischen Content, nicht für kommerzielle Paid-Media-Nutzung.
-- **§ 60d UrhG**: Text-and-Data-Mining-Schranke; nicht einschlägig für Musiknutzung.
-- **Creative Commons / Royalty-Free**: Keine GEMA-Pflicht, wenn Musik unter CC0, CC BY oder bei lizenzfreien Plattformen (z. B. Epidemic Sound mit Lizenzvertrag).
-
-### Musik-Nutzungs-Matrix
-
-| Nutzungsart | GEMA-Lizenz nötig? | Plattformlizenz ausreichend? |
-|-------------|-------------------|------------------------------|
-| Organischer Reel (Instagram) | Meta-Vertrag mit GEMA | Ja (organisch) |
-| Bezahlter Ad-Boost | Nein, separater GEMA-Vertrag nötig | Nein |
-| YouTube-Video (Monetarisierung) | Content-ID-Verfahren | Bedingt (Revenue-Split) |
-| TikTok organisch | TikTok-GEMA-Deal | Ja (organisch) |
-| Brand-Deal-Video | Separate Synchronlizenz | Nein |
-
-## Kaltstart-Fragen (6)
-
-1. Welche Musik soll verwendet werden, und ist bekannt, ob sie GEMA-pflichtig ist?
-2. Ist der Content organisch oder wird er als Paid Ad geschaltet?
-3. Ist ein Brand Deal beteiligt, der eine kommerzielle Nutzungslizenz erfordert?
-4. Gibt es bereits eine Content-ID-Sperre oder eine Abmahnung?
-5. Wird royalty-freie Musik (z. B. Epidemic Sound, Artlist) eingesetzt?
-6. Gewünschtes Ergebnis: Compliance-Check, Lizenzierungspfad oder Reaktion auf Abmahnung?
-
-## Prüfprogramm
-
-- GEMA-Pflicht: Ist die Musik bei GEMA gemeldet? → gema.de Werksuche.
-- Leistungsschutzrecht: Label-Lizenz separat von GEMA-Lizenz; beide nötig.
-- Plattformvertrag prüfen: Gilt nur für organischen, nicht für kommerziellen Brand-Deal-Content.
-- Synchronlizenz: Für Brand Deals immer separate Lizenz beim Label / Publisher einholen.
-- Royalty-Free-Alternativen: Lizenzvertrag mit Epidemic Sound, Artlist, Musicbed prüfen – kommerzielle Nutzung einschließen.
-- Abmahnung: Lizenzanalogie als Schadensersatz – GEMA-Tarifsätze als Berechnungsgrundlage.
-
-## Typische Fallen
-
-- Instagram-Musik-Bibliothek für Brand-Deal-Video → nicht ausreichend lizenziert.
-- YouTube-Content-ID-Claim → Monetarisierung geht an Label, nicht Creator.
-- Musik im Hintergrund eines Videos → trotzdem Lizenzpflicht.
-- GEMA-frei ≠ lizenzfrei für Leistungsschutzrechte (Label-Rechte bestehen separat).
-
-## Normen und Quellen
-
-- § 19a UrhG: https://www.gesetze-im-internet.de/urhg/__19a.html
-- § 97 UrhG – Schadensersatz: https://www.gesetze-im-internet.de/urhg/__97.html
-- GEMA-Website (Werksuche): https://www.gema.de/musiknutzer/musik-suchen-und-finden/
-- GVL-Website: https://www.gvl.de/
-
-## Output-Formate
-
-- Musik-Compliance-Ampel (organisch / Paid / Brand Deal)
-- Lizenzierungspfad für kommerzielle Musik
-- Muster-Anfrage Synchronlizenz
-- Alternative-Plattformen-Liste (royalty-free mit kommerziellem Recht)
+- Ein Begriff klingt vertraut, hat aber in der konkreten Rechtsordnung oder Praxis eine andere Funktion.
+- Zuständigkeit, Form oder Zustellung wird übersehen, obwohl der materielle Punkt gut aussieht.
+- Eine Behauptung wird aus Modellwissen mit einer Fundstelle versehen. Das ist verboten; erst prüfen, dann zitieren.
+- Der Output ist juristisch richtig, hilft aber der Nutzerin operativ nicht. Deshalb immer nächste Handlung und Dokumentationsspur liefern.
+
+## Output
+
+- Kennzeichnungsampel
+- Steuercheck
+- Kooperationsvertrag
+- Abmahnantwort
+- Posting-Freigabe
+- Buchhaltungsnotiz
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

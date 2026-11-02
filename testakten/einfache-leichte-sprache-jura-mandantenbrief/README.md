@@ -1,29 +1,39 @@
 # Akte: Juristischer Mandantenbrief in Einfacher und Leichter Sprache
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 85 KB) | PDF | [`gesamt-pdf/einfache-leichte-sprache-jura-mandantenbrief_gesamt.pdf`](gesamt-pdf/einfache-leichte-sprache-jura-mandantenbrief_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-einfache-leichte-sprache-jura-mandantenbrief.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-einfache-leichte-sprache-jura-mandantenbrief.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-einfache-leichte-sprache-jura-mandantenbrief-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-einfache-leichte-sprache-jura-mandantenbrief-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/einfache-leichte-sprache-jura-mandantenbrief_gesamt.pdf`](gesamt-pdf/einfache-leichte-sprache-jura-mandantenbrief_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-einfache-leichte-sprache-jura-mandantenbrief.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-einfache-leichte-sprache-jura-mandantenbrief.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-einfache-leichte-sprache-jura-mandantenbrief-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-einfache-leichte-sprache-jura-mandantenbrief-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-einfache-leichte-sprache-jura-mandantenbrief` (Akte) | [testakte-einfache-leichte-sprache-jura-mandantenbrief.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-einfache-leichte-sprache-jura-mandantenbrief.zip) |
+| `testakte-einfache-leichte-sprache-jura-mandantenbrief` (Akte) | [testakte-einfache-leichte-sprache-jura-mandantenbrief.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-einfache-leichte-sprache-jura-mandantenbrief.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Diese Akte zeigt, wie ein juristisches Anwaltsschreiben in zwei vereinfachte Sprachstufen übertragen wird — **Einfache Sprache** (DIN SPEC 33429) und **Leichte Sprache** (Regelwerk Netzwerk Leichte Sprache). Zielgruppe ist eine Mandantin mit kognitiven Einschränkungen, die unter rechtlicher Betreuung steht.
 
@@ -115,6 +125,8 @@ Rechtsgrundlagen: § 11 BGG (Behindertengleichstellungsgesetz), BITV 2.0.
 | [`12_mandantenbrief3_betreuung_schwer.docx`](12_mandantenbrief3_betreuung_schwer.docx) | Markdown | Brief 3 -- Folgebetreuungsverfahren beim Amtsgericht, persönlicher Termin (Standardfassung) |
 | [`13_mandantenbrief3_einfache_und_leichte.docx`](13_mandantenbrief3_einfache_und_leichte.docx) | Markdown | Brief 3 in Einfacher und in Leichter Sprache mit Übersetzungshinweisen |
 | [`14_bitv_hinweis_und_compliance.docx`](14_bitv_hinweis_und_compliance.docx) | Markdown | Compliance-Hinweis BITV 2.0, BGG, DIN SPEC 33429, Zielgruppenprüfung, Risiken |
+| [`15_telefonvermerk_rueckmeldung_neumann.docx`](15_telefonvermerk_rueckmeldung_neumann.docx) | Markdown | Telefonvermerk der Kanzlei: Rückmeldung von Frau Neumann und Betreuerin Schmuck mit wörtlichen Verständnisfragen |
+| [`16_email_betreuerin_schmuck_unterlagen.eml`](16_email_betreuerin_schmuck_unterlagen.eml) | EML | E-Mail der Betreuerin mit Unterlagenübersendung, fehlenden Mietvertragsseiten und Wünschen zur verständlichen Fassung |
 
 ---
 

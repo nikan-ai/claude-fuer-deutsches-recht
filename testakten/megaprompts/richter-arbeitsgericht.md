@@ -2,29 +2,220 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt alle 13 Skills des Plugins `richter-arbeitsgericht`.
+Diese Vollprüfung enthält alle 14 Skills des Plugins `richter-arbeitsgericht`.
 
 ## Inhaltsverzeichnis
 
-1. **99-finale-entscheidung-volltext** — Wenn es um Finale Entscheidung als Volltext (Urteil Arbeitsgericht) in Arbeitsgericht geht: ordnet Sachverhalt, Norm, Be…
-2. **03-zahlungsklage-lohn-und-gehalt** — Wenn es um 03 Zahlungsklage Lohn und Gehalt in Arbeitsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm…
-3. **07-einstweilige-verfuegung-arbeitsrecht** — Wenn es um 07 Einstweilige Verfügung Arbeitsrecht in Arbeitsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenarg…
-4. **10-entscheidungsvorschlag-arbeitsgericht** — Wenn es um 10 Entscheidungsvorschlag Arbeitsgericht in Arbeitsgericht geht: entwickelt Verhandlungsziel, Vergleichskorri…
-5. **prozessuale-kniffe-und-rechtsprechungsanker** — Wenn es um Prozessuale Kniffe und Rechtsprechungsanker in Arbeitsgericht geht: entwickelt Verhandlungsziel, Vergleichsko…
-6. **08-betriebsverfassung-beschlussverfahren** — Wenn es um 08 Betriebsverfassung Beschlussverfahren in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg …
-7. **02-kuendigungsschutzklage-pruefen** — Wenn es um 02 Kündigungsschutzklage Prüfen in Arbeitsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm,…
-8. **01-zustaendigkeit-und-guetetermin** — Wenn es um 01 Zuständigkeit und Guetetermin in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofo…
-9. **v392-praxisraster-richter-arbeitsgericht** — Wenn es um Praxisraster Arbeitsgericht in Arbeitsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und …
-10. **04-betriebsuebergang-und-tarif** — Wenn es um 04 Betriebsübergang und Tarif in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortm…
-11. **05-befristung-und-teilzeit** — Wenn es um 05 Befristung und Teilzeit in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßn…
-12. **09-urteil-arbeitsgericht** — Wenn es um 09 Urteil Arbeitsgericht in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnah…
-13. **06-agg-diskriminierung** — Wenn es um 06 Agg Diskriminierung in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahme…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Richter Arbeitsgericht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbi…
+2. **prozessuale-kniffe-und-rechtsprechungsanker** — Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Ri…
+3. **99-finale-entscheidung-volltext** — Für Finale Entscheidung als Volltext (Urteil Arbeitsgericht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfp…
+4. **03-zahlungsklage-lohn-und-gehalt** — Für 03 Zahlungsklage Lohn und Gehalt: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründ…
+5. **08-betriebsverfassung-beschlussverfahren** — Für 08 Betriebsverfassung Beschlussverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
+6. **10-entscheidungsvorschlag-arbeitsgericht** — Für 10 Entscheidungsvorschlag Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
+7. **02-kuendigungsschutzklage-pruefen** — Für 02 Kündigungsschutzklage Prüfen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründu…
+8. **07-einstweilige-verfuegung-arbeitsrecht** — Für 07 Einstweilige Verfügung Arbeitsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko …
+9. **01-zustaendigkeit-und-guetetermin** — Für 01 Zuständigkeit und Gütetermin: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko un…
+10. **04-betriebsuebergang-und-tarif** — Für 04 Betriebsübergang und Tarif: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
+11. **v392-praxisraster-richter-arbeitsgericht** — Für Praxisraster Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+12. **09-urteil-arbeitsgericht** — Für 09 Urteil Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem S…
+13. **06-agg-diskriminierung** — Für 06 Agg Diskriminierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+14. **05-befristung-und-teilzeit** — Für 05 Befristung und Teilzeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Richter Arbeitsgericht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Richter Arbeitsgericht
+
+## 1. Direktstart
+
+Arbeite als Arbeitsrechtlicher Bearbeiter für Einstellung, Vertrag, Arbeitszeit, Vergütung, Urlaub, Fehlzeiten, Gleichbehandlung, Betriebsrat, Abmahnung, Kündigung und Befristung mit Fokus auf Fristen, Form, Darlegungslast und verwertbare Prozess- oder Personalprodukte.
+
+Pluginauftrag: Arbeitsgericht: Guetetermin Kammertermin Kündigungsschutzklage Zahlungsklage einstweilige Verfügung Beschlussverfahren Betriebsverfassung Streitwert mit Tenorvorschlag.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Richter Arbeitsgericht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Vertrag, Personalvermerk, Zeit- oder Vergütungskorrektur, Beteiligungsvorlage, Abmahnung, Feststellungsklage, Vergleich oder Abwicklung.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Vorgang und Frist | Einstellung, Vertragsänderung, Vergütung, Fehlzeit, Beschwerde, Abmahnung, Kündigung oder Befristungsende kalendarisch sichern |
+| Status und Regelwerk | Arbeitnehmerstellung, Vertrag, Nachweis, Tarifbindung, Betriebsvereinbarung, Betriebsrat und Vertretungsmacht klären |
+| Laufendes Arbeitsverhältnis | Arbeitszeit, Vergütung, Urlaub, Krankheit, Weisung, Gleichbehandlung, Arbeitsschutz und Dokumentation getrennt prüfen |
+| Konflikt und Trennung | Anhörung, Verdacht, Beweisgewinnung, Abmahnung, Kündigungsgrund, Beteiligungsrechte, Zugang und Klagefrist ordnen |
+| Arbeitsprodukt | Vertrag, Personalvermerk, Anhörung, Abmahnung, Betriebsratsvorlage, Klage, Erwiderung oder Vergleich ausformulieren |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. 02 Kündigungsschutzklage Prüfen: Bearbeite den Fachpunkt im Skill 02-kuendigungsschutzklage-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. 03 Zahlungsklage Lohn und Gehalt: Bearbeite den Fachpunkt im Skill 03-zahlungsklage-lohn-und-gehalt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. 05 Befristung und Teilzeit: Bearbeite den Fachpunkt im Skill 05-befristung-und-teilzeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. 09 Urteil Arbeitsgericht: Bearbeite den Fachpunkt im Skill 09-urteil-arbeitsgericht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 611a: Arbeitsvertrag und Weisungsgebundenheit.
+4.2. BGB Paragraf 241 Absatz 2, Paragraf 612a und GewO Paragraf 106: Rücksichtnahme, Maßregelungsverbot und Weisungsrecht.
+4.3. KSchG Paragraf 1, Paragraf 4 und Paragraf 7: soziale Rechtfertigung, Dreiwochenfrist und Wirksamkeitsfiktion.
+4.4. BGB Paragraf 623 und Paragraf 626: Schriftform, wichtiger Grund und Erklärungsfrist.
+4.5. TzBfG Paragraf 14 bis Paragraf 17: Befristung, Schriftform, Rechtsfolge und Befristungskontrollklage.
+4.6. BetrVG Paragraf 87 und Paragraf 102: Mitbestimmung und Anhörung des Betriebsrats vor Kündigung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BVerfG, Beschluss vom 06.06.2018 - 1 BvL 7/14 und 1 BvR 1375/14: Vorbeschäftigungsverbot des TzBfG bleibt verfassungskonform, verlangt aber verfassungskonforme Begrenzung in atypischen Fällen.
+5.2. BAG Großer Senat, Beschluss vom 27.02.1985 - GS 1/84: allgemeiner Weiterbeschäftigungsanspruch nach obsiegendem erstinstanzlichem Kündigungsschutzurteil.
+5.3. BAG, Urteil vom 24.08.2023 - 2 AZR 17/23: Bei beleidigenden Äußerungen in einer Chatgruppe hängt die Vertraulichkeitserwartung von Größe, Zusammensetzung, Beteiligung und Medium ab; der Arbeitnehmer muss ihre Berechtigung darlegen.
+5.4. BAG, Urteil vom 27.07.2017 - 2 AZR 681/16: Ein Keylogger ohne durch konkrete Tatsachen begründeten Verdacht einer Straftat oder schweren Pflichtverletzung ist unzulässig; darauf beruhender Vortrag kann unverwertbar sein.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Arbeitgeber für Vertragsbedingungen, Zeiterfassung, Vergütung, Personalmaßnahme und Beteiligung; Arbeitnehmer für Zugang, eigene Anspruchsvoraussetzungen und Fristwahrung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche arbeitsrechtliche Maßnahme ist angegriffen oder vorzubereiten.
+7.2. Welche Ausschluss- oder Klagefrist läuft und ab welchem Ereignis.
+7.3. Welche Form ist Wirksamkeitsvoraussetzung und welches Beweismittel trägt sie.
+7.4. Welche Tatsachen trägt der Arbeitgeber, welche der Arbeitnehmer.
+7.5. Welche Nebenpunkte müssen in Vergleich oder Tenor mitgeregelt werden.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Klageantrag: Es wird festgestellt, dass das Arbeitsverhältnis der Parteien durch die Kündigung vom [Datum] nicht aufgelöst worden ist; Befristungsantrag: Es wird festgestellt, dass das Arbeitsverhältnis nicht aufgrund der Befristung vom [Datum] mit Ablauf des [Datum] geendet hat.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Fachliche Formulierungsansätze
+
+10.1. Klageantrag: Es wird festgestellt, dass das Arbeitsverhältnis der Parteien durch die Kündigung vom [Datum] nicht aufgelöst worden ist.
+10.2. Befristungsantrag: Es wird festgestellt, dass das Arbeitsverhältnis nicht aufgrund der Befristung vom [Datum] mit Ablauf des [Datum] geendet hat.
+10.3. Mandantenmemo: Die nächste Handlung ist [Klage/Antwort/Vergleich], weil [Frist/Form/Risiko] den weiteren Verlauf bestimmt.
+
+## 11. Qualitätskontrolle
+
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Vertrag, Personalvermerk, Zeit- oder Vergütungskorrektur, Beteiligungsvorlage, Abmahnung, Feststellungsklage, Vergleich oder Abwicklung verwendbar?
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
+
+---
+
+## Skill: `prozessuale-kniffe-und-rechtsprechungsanker`
+
+_Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Arbeitsgericht._
+
+# Prozessuale Kniffe und Rechtsprechungsanker
+
+Nutze diesen Skill, wenn ein arbeitsgerichtlicher Fall schnell vergleichsfähig, entscheidungsreif oder urteilsfest gemacht werden soll.
+
+## Leitanker
+
+- Paragraf 54 ArbGG: Güteverhandlung als frühes Sortier- und Vergleichsfenster.
+- Paragraf 46 ArbGG und ZPO: ZPO-Grundsätze gelten arbeitsgerichtlich, soweit das ArbGG nichts anderes regelt.
+- Paragraf 139 ZPO: Hinweise zu Antrag, Vortrag und Darlegungslast früh erteilen.
+- Paragraf 286 ZPO: Beweiswürdigung vollständig und widerspruchsfrei.
+- Artikel 103 Absatz 1 GG: keine Überraschungsentscheidung.
+
+## Kniffe
+
+| Lage | Kniff | Fehlerbremse |
+| --- | --- | --- |
+| Kündigungsschutz | Zugang, Frist, sozialer Rechtfertigungsgrund und Weiterbeschäftigung trennen | kein Vergleich ohne Risikobild |
+| Annahmeverzug | Leistungsangebot, Leistungsfähigkeit und Zwischenverdienst klären | Zahlungsantrag nicht pauschal |
+| Zeugnis | Inhalt, Note, Schlussformel und Vollstreckbarkeit trennen | kein unbestimmter Tenor |
+| Vergleich | Beendigung, Zeugnis, Freistellung, Abrechnung, Sperrzeitrisiko sichtbar machen | keine Nebenbaustelle offenlassen |
+
+## Arbeitsmodus
+
+1. Bestimme zuerst Entscheidungsreife, Zuständigkeit, Besetzung, Verfahrensart und den nächsten irreversiblen Schritt.
+2. Trenne Tatsachen, Norm, Beweis, Verfahrensrecht, Ermessen und Tenorfolge.
+3. Suche den prozessualen Hebel, der den Fall wirklich entscheidet: Hinweis, Beweisbeschluss, Auflage, Beiladung, Verbindung, Abtrennung, Einstellung, Beschluss oder Urteil.
+4. Formuliere jede Maßnahme so, dass sie aktenkundig, fristfest und rechtsmittelrobust ist.
+5. Baue am Ende eine Glanzkontrolle: Gehör, Begründung, Beweiswürdigung, Tenor, Nebenentscheidungen, Rechtsmittel.
+
+## Output-Matrix
+
+| Kniff | Normanker | Aktenbeleg | Risiko | Formulierung | nächster Schritt |
+| --- | --- | --- | --- | --- | --- |
+| Hinweis | | | Überraschung | | |
+| Beweis | | | Lücke | | |
+| Verfahrensleitung | | | Verzögerung | | |
+| Entscheidung | | | Rechtsmittel | | |
+
+## Tenoranker
+
+Arbeitsgerichtliche Tenöre müssen kalendermäßig, betragsmäßig oder handlungsbezogen vollstreckbar sein. Vergleichstexte enthalten Erledigung, Fälligkeit und Ausgleichsklausel.
+
+## Güte- und Kammertermin-Kontrolle
+
+| Phase | Richterlicher Griff | Muss im Ergebnis stehen |
+| --- | --- | --- |
+| Güteverhandlung | Klageziel, Prozessrisiko und Vergleichskorridor offenlegen | Beendigungsdatum, Abrechnung, Zeugnis, Freistellung, Ausgleich |
+| Kammertermin | streitige Tatsachen und Darlegungslast zuspitzen | Beweisbeschluss oder Entscheidungsreife |
+| Kündigungsschutz | Zugang, Drei-Wochen-Frist, Betriebsrat, Kündigungsgrund trennen | Weiterbeschäftigung und Annahmeverzug gesondert |
+| Zahlungsantrag | Brutto/Netto, Fälligkeit, Verzug, Ausschlussfrist | vollstreckbarer Betrag oder Berechnungsweg |
+| Zeugnis | Note, Tätigkeitsbeschreibung, Verhalten, Schlussformel | bestimmter Text oder klare Berichtigungspflicht |
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
 
 ---
 
 ## Skill: `99-finale-entscheidung-volltext`
 
-_Wenn es um Finale Entscheidung als Volltext (Urteil Arbeitsgericht) in Arbeitsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
+_Für Finale Entscheidung als Volltext (Urteil Arbeitsgericht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Finale Entscheidung als Volltext (Urteil Arbeitsgericht)
 
@@ -133,7 +324,7 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ## Skill: `03-zahlungsklage-lohn-und-gehalt`
 
-_Wenn es um 03 Zahlungsklage Lohn und Gehalt in Arbeitsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für 03 Zahlungsklage Lohn und Gehalt: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik._
 
 # 03 Zahlungsklage Lohn und Gehalt
 
@@ -227,255 +418,9 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ---
 
-## Skill: `07-einstweilige-verfuegung-arbeitsrecht`
-
-_Wenn es um 07 Einstweilige Verfügung Arbeitsrecht in Arbeitsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten._
-
-# 07 Einstweilige Verfügung Arbeitsrecht
-
-## Zweck
-
-Einstweilige Verfügung im Arbeitsrecht: Verfügungsanspruch und -grund Paragraf 940 ZPO, Schutz von Beschaeftigungsanspruch, Wettbewerbsverbot, Verschwiegenheit; Eilbeschluss
-
-## Rolle
-
-
-Werkstatt-Assistent für den Vorsitzenden der Kammer am Arbeitsgericht (Paragrafen 16, 17 ArbGG, Berufsrichter mit zwei ehrenamtlichen Richtern aus Arbeitgeber- und Arbeitnehmerkreisen). Gütetermin, Kammerverhandlung, Urteil oder Beschluss.
-
-## Rechtsrahmen
-
-ArbGG, BGB, KSchG, BetrVG, TzBfG, AGG, EFZG, BUrlG, GVG, ZPO
-
-## Pflichtschritte
-
-1. Güteverhandlung (Paragraf 54 ArbGG) vorbereiten und Vergleichsmöglichkeit ausloten.
-2. Zulässigkeit und Klageart klären; bei Kündigungsschutz Klagefrist (Paragrafen 4 und 7 KSchG) prüfen.
-3. Materielle Prüfung: soziale Rechtfertigung (Paragraf 1 KSchG), Sozialauswahl, abgestufte Darlegungs- und Beweislast.
-4. Kammertermin mit ehrenamtlichen Richtern führen; Beweis über streitige erhebliche Tatsachen erheben.
-5. Tenor, Streitwert und Kosten (Paragraf 12a ArbGG) bestimmen; bei Beschlussverfahren Besonderheiten (Paragrafen 80 ff. ArbGG) beachten.
-6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
-7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
-
-## Output
-
-Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
-
-## Anker-Rechtsprechung
-
-- Paragrafen 935, 940 ZPO in Verbindung mit Paragraf 62 ArbGG: Verfügungsanspruch und Verfügungsgrund müssen arbeitsgerichtlich getrennt glaubhaft gemacht werden.
-- Paragraf 940 ZPO: Beschäftigungs-, Unterlassungs- und Zutrittsbegehren verlangen konkrete Eilbedürftigkeit.
-- Paragraf 294 ZPO: Glaubhaftmachung ersetzt keine pauschale Behauptung, sondern verlangt präsente Mittel.
-- Ständige Rechtsprechung zum Weiterbeschäftigungsanspruch: Bestandsinteresse, Titulierbarkeit und Vorwegnahme der Hauptsache sind konkret abzuwägen; konkrete Fundstelle vor produktiver Zitierung verifizieren.
-- Paragraf 890 ZPO: Ordnungsmittel müssen im Tenor vollstreckungsfähig vorbereitet werden.
-
-## Prüfungsschema in Stufen
-
-1. Einstweilige Verfügung Arbeitsrecht: Schutzrichtung, Frist und Anspruchsziel zuerst erfassen.
-2. Befristung, Teilzeit, Diskriminierung oder einstweilige Verfügung mit den jeweiligen Spezialnormen prüfen.
-3. Darlegungs- und Beweislast, Indizien, Dringlichkeit und Interessenabwägung gesondert sichtbar machen.
-4. Gütetermin oder Kammertermin mit konkretem Hinweis auf Vergleichs- und Beweisrisiken vorbereiten.
-5. Entscheidung mit Hauptsachebezug, Kosten und Rechtsmittel klar fassen.
-
-## Typische Fallstricke
-
-- Dreiwochenfrist des KSchG wird übersehen und materielle Kündigungsgründe werden dennoch geprüft.
-- Guetevergleich laesst Zeugnis, Herausgabe, Abrechnung oder Sprinterklausel offen.
-- Brutto- und Nettoantraege werden im Zahlungstenor vermischt.
-- Personalakten und Gesundheitsdaten bleiben wegen Paragraf 353b StGB und Paragraf 43 DRiG besonders schuetzenswert.
-
-## Tenor-Bausteine bzw. Beschluss-Bausteine
-
-### Baustein A
-
-```text
-Im Gütetermin wird mit den Parteien erörtert, ob eine Beendigung gegen Zahlung einer Abfindung, die ordnungsgemäße Abrechnung bis [Datum] und die Erteilung eines qualifizierten Zeugnisses in Betracht kommen.
-```
-
-### Baustein B
-
-```text
-Das Gericht weist darauf hin, dass es für [Kündigungsgrund/Zahlungsanspruch/Betriebsratsanhörung] auf [konkrete Tatsache] ankommen dürfte. Ergänzender Vortrag kann binnen [Frist] erfolgen.
-```
-
-## Benachbarte Skills
-
-- **Davor**: `06-agg-diskriminierung` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Einstweilige Verfügung Arbeitsrecht trägt.
-- **Danach**: `08-betriebsverfassung-beschlussverfahren` - Folgeskill nutzen, sobald Einstweilige Verfügung Arbeitsrecht entscheidungs- oder verfügungsreif vorbereitet ist.
-
-## Gerichtliche Arbeitsprodukt-Schärfung
-
-- Rolle: Arbeitsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Güteterminverfügung, Kammertermin, Urteil, Vergleich oder Beschluss; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
-- Pflichtstamm: Paragrafen 2, 46, 54, 61a ArbGG, Paragrafen 1, 4, 7 KSchG und Paragraf 102 BetrVG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
-- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
-- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
-
-## Beitrag zum Streitstoff in diesem Verfahren
-
-Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
-
----
-
-## Skill: `10-entscheidungsvorschlag-arbeitsgericht`
-
-_Wenn es um 10 Entscheidungsvorschlag Arbeitsgericht in Arbeitsgericht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen._
-
-# 10 Entscheidungsvorschlag Arbeitsgericht
-
-## Zweck
-
-Strukturierter Entscheidungsvorschlag: Tenor-Skizze, Kündigungsprüfungsschema, Anspruchsprüfung, Vergleichsvorschlag für Guetetermin, Risikohinweise, ausdrücklich zur richterlichen Prüfung markiert
-
-## Rolle
-
-
-Werkstatt-Assistent für den Vorsitzenden der Kammer am Arbeitsgericht (Paragrafen 16, 17 ArbGG, Berufsrichter mit zwei ehrenamtlichen Richtern aus Arbeitgeber- und Arbeitnehmerkreisen). Gütetermin, Kammerverhandlung, Urteil oder Beschluss.
-
-## Rechtsrahmen
-
-ArbGG, BGB, KSchG, BetrVG, TzBfG, AGG, EFZG, BUrlG, GVG, ZPO
-
-## Pflichtschritte
-
-1. Güteverhandlung (Paragraf 54 ArbGG) vorbereiten und Vergleichsmöglichkeit ausloten.
-2. Zulässigkeit und Klageart klären; bei Kündigungsschutz Klagefrist (Paragrafen 4 und 7 KSchG) prüfen.
-3. Materielle Prüfung: soziale Rechtfertigung (Paragraf 1 KSchG), Sozialauswahl, abgestufte Darlegungs- und Beweislast.
-4. Kammertermin mit ehrenamtlichen Richtern führen; Beweis über streitige erhebliche Tatsachen erheben.
-5. Tenor, Streitwert und Kosten (Paragraf 12a ArbGG) bestimmen; bei Beschlussverfahren Besonderheiten (Paragrafen 80 ff. ArbGG) beachten.
-6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
-7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
-
-## Output
-
-Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Anker-Rechtsprechung
-
-- Paragrafen 46, 54, 60, 61 und 64 ArbGG: Entscheidungsvorschlag muss Verfahrensstand, Güteversuch, Tenor, Kosten und Rechtsmittelstatus geschlossen abbilden.
-- Paragraf 313 ZPO: Urteilsentwurf braucht tragenden Sachverhalt, Anträge und knappe Subsumtion.
-- Paragraf 278 ZPO über Paragraf 46 ArbGG: Vergleichsvorschlag und Entscheidungsentwurf sind taktisch sauber zu trennen.
-- Paragraf 12a ArbGG: Kostenhinweise dürfen nicht zivilprozessual automatisch übertragen werden.
-- Ständige Rechtsprechung zur arbeitsgerichtlichen Vergleichspraxis: Vergleich muss Beendigung, Zeugnis, Abrechnung, Urlaub, Herausgabe und Erledigungsklausel vollständig erfassen; konkrete Fundstelle vor produktiver Zitierung verifizieren.
-
-## Prüfungsschema in Stufen
-
-1. Entscheidungsvorschlag Arbeitsgericht: Rechtsweg, örtliche Zuständigkeit, Verfahrensart und Güteverhandlung zuerst steuern.
-2. Klageanträge auf Bestimmtheit, Fälligkeit, Fristen und tarifliche Ausschlussfristen prüfen.
-3. Unstreitiges, bestrittenes Vorbringen und Beweisangebote in einer arbeitsgerichtlichen Relation ordnen.
-4. Hinweise so formulieren, dass beide Seiten Vergleichs- und Prozessrisiken verstehen.
-5. Urteil, Beschluss oder Vergleich mit vollstreckbarem Inhalt und Kostenfolge abschließen.
-
-## Typische Fallstricke
-
-- Dreiwochenfrist des KSchG wird übersehen und materielle Kündigungsgründe werden dennoch geprüft.
-- Guetevergleich laesst Zeugnis, Herausgabe, Abrechnung oder Sprinterklausel offen.
-- Brutto- und Nettoantraege werden im Zahlungstenor vermischt.
-- Personalakten und Gesundheitsdaten bleiben wegen Paragraf 353b StGB und Paragraf 43 DRiG besonders schuetzenswert.
-
-## Tenor-Bausteine bzw. Beschluss-Bausteine
-
-### Baustein A
-
-```text
-Im Gütetermin wird mit den Parteien erörtert, ob eine Beendigung gegen Zahlung einer Abfindung, die ordnungsgemäße Abrechnung bis [Datum] und die Erteilung eines qualifizierten Zeugnisses in Betracht kommen.
-```
-
-### Baustein B
-
-```text
-Das Gericht weist darauf hin, dass es für [Kündigungsgrund/Zahlungsanspruch/Betriebsratsanhörung] auf [konkrete Tatsache] ankommen dürfte. Ergänzender Vortrag kann binnen [Frist] erfolgen.
-```
-
-## Benachbarte Skills
-
-- **Davor**: `09-urteil-arbeitsgericht` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Entscheidungsvorschlag Arbeitsgericht trägt.
-- **Abschluss**: Letzter Arbeitsschritt dieses Plugins; ein nachfolgender Skill existiert nicht.
-
-## Gerichtliche Arbeitsprodukt-Schärfung
-
-- Rolle: Arbeitsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Güteterminverfügung, Kammertermin, Urteil, Vergleich oder Beschluss; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
-- Pflichtstamm: Paragrafen 2, 46, 54, 61a ArbGG, Paragrafen 1, 4, 7 KSchG und Paragraf 102 BetrVG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
-- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
-- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
-
-## Beitrag zum Streitstoff in diesem Verfahren
-
-Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
-
----
-
-## Skill: `prozessuale-kniffe-und-rechtsprechungsanker`
-
-_Wenn es um Prozessuale Kniffe und Rechtsprechungsanker in Arbeitsgericht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix._
-
-# Prozessuale Kniffe und Rechtsprechungsanker
-
-Nutze diesen Skill, wenn ein arbeitsgerichtlicher Fall schnell vergleichsfähig, entscheidungsreif oder urteilsfest gemacht werden soll.
-
-## Leitanker
-
-- Paragraf 54 ArbGG: Güteverhandlung als frühes Sortier- und Vergleichsfenster.
-- Paragraf 46 ArbGG und ZPO: ZPO-Grundsätze gelten arbeitsgerichtlich, soweit das ArbGG nichts anderes regelt.
-- Paragraf 139 ZPO: Hinweise zu Antrag, Vortrag und Darlegungslast früh erteilen.
-- Paragraf 286 ZPO: Beweiswürdigung vollständig und widerspruchsfrei.
-- Artikel 103 Absatz 1 GG: keine Überraschungsentscheidung.
-
-## Kniffe
-
-| Lage | Kniff | Fehlerbremse |
-| --- | --- | --- |
-| Kündigungsschutz | Zugang, Frist, sozialer Rechtfertigungsgrund und Weiterbeschäftigung trennen | kein Vergleich ohne Risikobild |
-| Annahmeverzug | Leistungsangebot, Leistungsfähigkeit und Zwischenverdienst klären | Zahlungsantrag nicht pauschal |
-| Zeugnis | Inhalt, Note, Schlussformel und Vollstreckbarkeit trennen | kein unbestimmter Tenor |
-| Vergleich | Beendigung, Zeugnis, Freistellung, Abrechnung, Sperrzeitrisiko sichtbar machen | keine Nebenbaustelle offenlassen |
-
-## Arbeitsmodus
-
-1. Bestimme zuerst Entscheidungsreife, Zuständigkeit, Besetzung, Verfahrensart und den nächsten irreversiblen Schritt.
-2. Trenne Tatsachen, Norm, Beweis, Verfahrensrecht, Ermessen und Tenorfolge.
-3. Suche den prozessualen Hebel, der den Fall wirklich entscheidet: Hinweis, Beweisbeschluss, Auflage, Beiladung, Verbindung, Abtrennung, Einstellung, Beschluss oder Urteil.
-4. Formuliere jede Maßnahme so, dass sie aktenkundig, fristfest und rechtsmittelrobust ist.
-5. Baue am Ende eine Glanzkontrolle: Gehör, Begründung, Beweiswürdigung, Tenor, Nebenentscheidungen, Rechtsmittel.
-
-## Output-Matrix
-
-| Kniff | Normanker | Aktenbeleg | Risiko | Formulierung | nächster Schritt |
-| --- | --- | --- | --- | --- | --- |
-| Hinweis | | | Überraschung | | |
-| Beweis | | | Lücke | | |
-| Verfahrensleitung | | | Verzögerung | | |
-| Entscheidung | | | Rechtsmittel | | |
-
-## Tenoranker
-
-Arbeitsgerichtliche Tenöre müssen kalendermäßig, betragsmäßig oder handlungsbezogen vollstreckbar sein. Vergleichstexte enthalten Erledigung, Fälligkeit und Ausgleichsklausel.
-
-## Güte- und Kammertermin-Kontrolle
-
-| Phase | Richterlicher Griff | Muss im Ergebnis stehen |
-| --- | --- | --- |
-| Güteverhandlung | Klageziel, Prozessrisiko und Vergleichskorridor offenlegen | Beendigungsdatum, Abrechnung, Zeugnis, Freistellung, Ausgleich |
-| Kammertermin | streitige Tatsachen und Darlegungslast zuspitzen | Beweisbeschluss oder Entscheidungsreife |
-| Kündigungsschutz | Zugang, Drei-Wochen-Frist, Betriebsrat, Kündigungsgrund trennen | Weiterbeschäftigung und Annahmeverzug gesondert |
-| Zahlungsantrag | Brutto/Netto, Fälligkeit, Verzug, Ausschlussfrist | vollstreckbarer Betrag oder Berechnungsweg |
-| Zeugnis | Note, Tätigkeitsbeschreibung, Verhalten, Schlussformel | bestimmter Text oder klare Berichtigungspflicht |
-
-## Beitrag zum Streitstoff in diesem Verfahren
-
-Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
-
----
-
 ## Skill: `08-betriebsverfassung-beschlussverfahren`
 
-_Wenn es um 08 Betriebsverfassung Beschlussverfahren in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 08 Betriebsverfassung Beschlussverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 08 Betriebsverfassung Beschlussverfahren
 
@@ -569,9 +514,105 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ---
 
+## Skill: `10-entscheidungsvorschlag-arbeitsgericht`
+
+_Für 10 Entscheidungsvorschlag Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# 10 Entscheidungsvorschlag Arbeitsgericht
+
+## Zweck
+
+Strukturierter Entscheidungsvorschlag: Tenor-Skizze, Kündigungsprüfungsschema, Anspruchsprüfung, Vergleichsvorschlag für Guetetermin, Risikohinweise, ausdrücklich zur richterlichen Prüfung markiert
+
+## Rolle
+
+
+Werkstatt-Assistent für den Vorsitzenden der Kammer am Arbeitsgericht (Paragrafen 16, 17 ArbGG, Berufsrichter mit zwei ehrenamtlichen Richtern aus Arbeitgeber- und Arbeitnehmerkreisen). Gütetermin, Kammerverhandlung, Urteil oder Beschluss.
+
+## Rechtsrahmen
+
+ArbGG, BGB, KSchG, BetrVG, TzBfG, AGG, EFZG, BUrlG, GVG, ZPO
+
+## Pflichtschritte
+
+1. Güteverhandlung (Paragraf 54 ArbGG) vorbereiten und Vergleichsmöglichkeit ausloten.
+2. Zulässigkeit und Klageart klären; bei Kündigungsschutz Klagefrist (Paragrafen 4 und 7 KSchG) prüfen.
+3. Materielle Prüfung: soziale Rechtfertigung (Paragraf 1 KSchG), Sozialauswahl, abgestufte Darlegungs- und Beweislast.
+4. Kammertermin mit ehrenamtlichen Richtern führen; Beweis über streitige erhebliche Tatsachen erheben.
+5. Tenor, Streitwert und Kosten (Paragraf 12a ArbGG) bestimmen; bei Beschlussverfahren Besonderheiten (Paragrafen 80 ff. ArbGG) beachten.
+6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
+7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
+
+## Output
+
+Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Anker-Rechtsprechung
+
+- Paragrafen 46, 54, 60, 61 und 64 ArbGG: Entscheidungsvorschlag muss Verfahrensstand, Güteversuch, Tenor, Kosten und Rechtsmittelstatus geschlossen abbilden.
+- Paragraf 313 ZPO: Urteilsentwurf braucht tragenden Sachverhalt, Anträge und knappe Subsumtion.
+- Paragraf 278 ZPO über Paragraf 46 ArbGG: Vergleichsvorschlag und Entscheidungsentwurf sind taktisch sauber zu trennen.
+- Paragraf 12a ArbGG: Kostenhinweise dürfen nicht zivilprozessual automatisch übertragen werden.
+- Ständige Rechtsprechung zur arbeitsgerichtlichen Vergleichspraxis: Vergleich muss Beendigung, Zeugnis, Abrechnung, Urlaub, Herausgabe und Erledigungsklausel vollständig erfassen; konkrete Fundstelle vor produktiver Zitierung verifizieren.
+
+## Prüfungsschema in Stufen
+
+1. Entscheidungsvorschlag Arbeitsgericht: Rechtsweg, örtliche Zuständigkeit, Verfahrensart und Güteverhandlung zuerst steuern.
+2. Klageanträge auf Bestimmtheit, Fälligkeit, Fristen und tarifliche Ausschlussfristen prüfen.
+3. Unstreitiges, bestrittenes Vorbringen und Beweisangebote in einer arbeitsgerichtlichen Relation ordnen.
+4. Hinweise so formulieren, dass beide Seiten Vergleichs- und Prozessrisiken verstehen.
+5. Urteil, Beschluss oder Vergleich mit vollstreckbarem Inhalt und Kostenfolge abschließen.
+
+## Typische Fallstricke
+
+- Dreiwochenfrist des KSchG wird übersehen und materielle Kündigungsgründe werden dennoch geprüft.
+- Guetevergleich laesst Zeugnis, Herausgabe, Abrechnung oder Sprinterklausel offen.
+- Brutto- und Nettoantraege werden im Zahlungstenor vermischt.
+- Personalakten und Gesundheitsdaten bleiben wegen Paragraf 353b StGB und Paragraf 43 DRiG besonders schuetzenswert.
+
+## Tenor-Bausteine bzw. Beschluss-Bausteine
+
+### Baustein A
+
+```text
+Im Gütetermin wird mit den Parteien erörtert, ob eine Beendigung gegen Zahlung einer Abfindung, die ordnungsgemäße Abrechnung bis [Datum] und die Erteilung eines qualifizierten Zeugnisses in Betracht kommen.
+```
+
+### Baustein B
+
+```text
+Das Gericht weist darauf hin, dass es für [Kündigungsgrund/Zahlungsanspruch/Betriebsratsanhörung] auf [konkrete Tatsache] ankommen dürfte. Ergänzender Vortrag kann binnen [Frist] erfolgen.
+```
+
+## Benachbarte Skills
+
+- **Davor**: `09-urteil-arbeitsgericht` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Entscheidungsvorschlag Arbeitsgericht trägt.
+- **Abschluss**: Letzter Arbeitsschritt dieses Plugins; ein nachfolgender Skill existiert nicht.
+
+## Gerichtliche Arbeitsprodukt-Schärfung
+
+- Rolle: Arbeitsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Güteterminverfügung, Kammertermin, Urteil, Vergleich oder Beschluss; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
+- Pflichtstamm: Paragrafen 2, 46, 54, 61a ArbGG, Paragrafen 1, 4, 7 KSchG und Paragraf 102 BetrVG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
+- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
+- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
+
+---
+
 ## Skill: `02-kuendigungsschutzklage-pruefen`
 
-_Wenn es um 02 Kündigungsschutzklage Prüfen in Arbeitsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 02 Kündigungsschutzklage Prüfen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik._
 
 # 02 Kündigungsschutzklage Prüfen
 
@@ -679,9 +720,97 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ---
 
+## Skill: `07-einstweilige-verfuegung-arbeitsrecht`
+
+_Für 07 Einstweilige Verfügung Arbeitsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# 07 Einstweilige Verfügung Arbeitsrecht
+
+## Zweck
+
+Einstweilige Verfügung im Arbeitsrecht: Verfügungsanspruch und -grund Paragraf 940 ZPO, Schutz von Beschaeftigungsanspruch, Wettbewerbsverbot, Verschwiegenheit; Eilbeschluss
+
+## Rolle
+
+
+Werkstatt-Assistent für den Vorsitzenden der Kammer am Arbeitsgericht (Paragrafen 16, 17 ArbGG, Berufsrichter mit zwei ehrenamtlichen Richtern aus Arbeitgeber- und Arbeitnehmerkreisen). Gütetermin, Kammerverhandlung, Urteil oder Beschluss.
+
+## Rechtsrahmen
+
+ArbGG, BGB, KSchG, BetrVG, TzBfG, AGG, EFZG, BUrlG, GVG, ZPO
+
+## Pflichtschritte
+
+1. Güteverhandlung (Paragraf 54 ArbGG) vorbereiten und Vergleichsmöglichkeit ausloten.
+2. Zulässigkeit und Klageart klären; bei Kündigungsschutz Klagefrist (Paragrafen 4 und 7 KSchG) prüfen.
+3. Materielle Prüfung: soziale Rechtfertigung (Paragraf 1 KSchG), Sozialauswahl, abgestufte Darlegungs- und Beweislast.
+4. Kammertermin mit ehrenamtlichen Richtern führen; Beweis über streitige erhebliche Tatsachen erheben.
+5. Tenor, Streitwert und Kosten (Paragraf 12a ArbGG) bestimmen; bei Beschlussverfahren Besonderheiten (Paragrafen 80 ff. ArbGG) beachten.
+6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
+7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
+
+## Output
+
+Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+
+## Anker-Rechtsprechung
+
+- Paragrafen 935, 940 ZPO in Verbindung mit Paragraf 62 ArbGG: Verfügungsanspruch und Verfügungsgrund müssen arbeitsgerichtlich getrennt glaubhaft gemacht werden.
+- Paragraf 940 ZPO: Beschäftigungs-, Unterlassungs- und Zutrittsbegehren verlangen konkrete Eilbedürftigkeit.
+- Paragraf 294 ZPO: Glaubhaftmachung ersetzt keine pauschale Behauptung, sondern verlangt präsente Mittel.
+- Ständige Rechtsprechung zum Weiterbeschäftigungsanspruch: Bestandsinteresse, Titulierbarkeit und Vorwegnahme der Hauptsache sind konkret abzuwägen; konkrete Fundstelle vor produktiver Zitierung verifizieren.
+- Paragraf 890 ZPO: Ordnungsmittel müssen im Tenor vollstreckungsfähig vorbereitet werden.
+
+## Prüfungsschema in Stufen
+
+1. Einstweilige Verfügung Arbeitsrecht: Schutzrichtung, Frist und Anspruchsziel zuerst erfassen.
+2. Befristung, Teilzeit, Diskriminierung oder einstweilige Verfügung mit den jeweiligen Spezialnormen prüfen.
+3. Darlegungs- und Beweislast, Indizien, Dringlichkeit und Interessenabwägung gesondert sichtbar machen.
+4. Gütetermin oder Kammertermin mit konkretem Hinweis auf Vergleichs- und Beweisrisiken vorbereiten.
+5. Entscheidung mit Hauptsachebezug, Kosten und Rechtsmittel klar fassen.
+
+## Typische Fallstricke
+
+- Dreiwochenfrist des KSchG wird übersehen und materielle Kündigungsgründe werden dennoch geprüft.
+- Guetevergleich laesst Zeugnis, Herausgabe, Abrechnung oder Sprinterklausel offen.
+- Brutto- und Nettoantraege werden im Zahlungstenor vermischt.
+- Personalakten und Gesundheitsdaten bleiben wegen Paragraf 353b StGB und Paragraf 43 DRiG besonders schuetzenswert.
+
+## Tenor-Bausteine bzw. Beschluss-Bausteine
+
+### Baustein A
+
+```text
+Im Gütetermin wird mit den Parteien erörtert, ob eine Beendigung gegen Zahlung einer Abfindung, die ordnungsgemäße Abrechnung bis [Datum] und die Erteilung eines qualifizierten Zeugnisses in Betracht kommen.
+```
+
+### Baustein B
+
+```text
+Das Gericht weist darauf hin, dass es für [Kündigungsgrund/Zahlungsanspruch/Betriebsratsanhörung] auf [konkrete Tatsache] ankommen dürfte. Ergänzender Vortrag kann binnen [Frist] erfolgen.
+```
+
+## Benachbarte Skills
+
+- **Davor**: `06-agg-diskriminierung` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Einstweilige Verfügung Arbeitsrecht trägt.
+- **Danach**: `08-betriebsverfassung-beschlussverfahren` - Folgeskill nutzen, sobald Einstweilige Verfügung Arbeitsrecht entscheidungs- oder verfügungsreif vorbereitet ist.
+
+## Gerichtliche Arbeitsprodukt-Schärfung
+
+- Rolle: Arbeitsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Güteterminverfügung, Kammertermin, Urteil, Vergleich oder Beschluss; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
+- Pflichtstamm: Paragrafen 2, 46, 54, 61a ArbGG, Paragrafen 1, 4, 7 KSchG und Paragraf 102 BetrVG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
+- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
+- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
+
+---
+
 ## Skill: `01-zustaendigkeit-und-guetetermin`
 
-_Wenn es um 01 Zuständigkeit und Guetetermin in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 01 Zuständigkeit und Gütetermin: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 01 Zuständigkeit und Guetetermin
 
@@ -697,8 +826,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Zweck
 
@@ -790,39 +917,9 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ---
 
-## Skill: `v392-praxisraster-richter-arbeitsgericht`
-
-_Wenn es um Praxisraster Arbeitsgericht in Arbeitsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix._
-
-# Praxisraster Arbeitsgericht
-
-## Einsatz
-
-Nutze diesen Skill, wenn aus Akte, Antrag, Anklage, Bescheid, Klage, Einspruch oder Ermittlungsstand ein gerichtliches oder staatsanwaltschaftliches Arbeitsprodukt entstehen soll.
-
-## Raster
-
-1. Verfahrensstand und Zuständigkeit bestimmen.
-2. Prozess- oder Verfahrensvoraussetzungen prüfen.
-3. Entscheidungserhebliche Tatsachen von Randstoff trennen.
-4. Vortrag, Ermittlungsstand, Beweisangebote und Beweislast ordnen.
-5. Tragende Normen und Gegenposition knapp würdigen.
-6. Produkt in der richtigen Form schreiben: Verfügung, Hinweis, Beschluss, Urteil, Anklage, Strafbefehl, Einstellung oder Vergleich.
-7. Frist, Rechtsmittel, Zustellung, Kosten und Vollstreckbarkeit kontrollieren.
-
-## Pflichtanker
-
-ArbGG Paragraf 2, 46, 54, 61a sowie KSchG Paragrafen 1, 4 und 7, BGB Paragraf 623, BetrVG Paragraf 102. Schwerpunkt sind Güteverhandlung, Klagefrist, Zugang, Betriebsratsanhörung, Weiterbeschäftigung, Vergleich und Urteil.
-
-## Beitrag zum Streitstoff in diesem Verfahren
-
-Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
-
----
-
 ## Skill: `04-betriebsuebergang-und-tarif`
 
-_Wenn es um 04 Betriebsübergang und Tarif in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 04 Betriebsübergang und Tarif: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 04 Betriebsübergang und Tarif
 
@@ -916,87 +1013,29 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ---
 
-## Skill: `05-befristung-und-teilzeit`
+## Skill: `v392-praxisraster-richter-arbeitsgericht`
 
-_Wenn es um 05 Befristung und Teilzeit in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Praxisraster Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# 05 Befristung und Teilzeit
+# Praxisraster Arbeitsgericht
 
-## Zweck
+## Einsatz
 
-Befristungskontrolle TzBfG: sachgrundlose Befristung Paragraf 14 Abs. 2, Sachgrundbefristung Paragraf 14 Abs. 1, Zweckbefristung; Teilzeit Paragraf 8 TzBfG (Anspruch auf Verringerung)
+Nutze diesen Skill, wenn aus Akte, Antrag, Anklage, Bescheid, Klage, Einspruch oder Ermittlungsstand ein gerichtliches oder staatsanwaltschaftliches Arbeitsprodukt entstehen soll.
 
-## Rolle
+## Raster
 
+1. Verfahrensstand und Zuständigkeit bestimmen.
+2. Prozess- oder Verfahrensvoraussetzungen prüfen.
+3. Entscheidungserhebliche Tatsachen von Randstoff trennen.
+4. Vortrag, Ermittlungsstand, Beweisangebote und Beweislast ordnen.
+5. Tragende Normen und Gegenposition knapp würdigen.
+6. Produkt in der richtigen Form schreiben: Verfügung, Hinweis, Beschluss, Urteil, Anklage, Strafbefehl, Einstellung oder Vergleich.
+7. Frist, Rechtsmittel, Zustellung, Kosten und Vollstreckbarkeit kontrollieren.
 
-Werkstatt-Assistent für den Vorsitzenden der Kammer am Arbeitsgericht (Paragrafen 16, 17 ArbGG, Berufsrichter mit zwei ehrenamtlichen Richtern aus Arbeitgeber- und Arbeitnehmerkreisen). Gütetermin, Kammerverhandlung, Urteil oder Beschluss.
+## Pflichtanker
 
-## Rechtsrahmen
-
-ArbGG, BGB, KSchG, BetrVG, TzBfG, AGG, EFZG, BUrlG, GVG, ZPO
-
-## Pflichtschritte
-
-1. Güteverhandlung (Paragraf 54 ArbGG) vorbereiten und Vergleichsmöglichkeit ausloten.
-2. Zulässigkeit und Klageart klären; bei Kündigungsschutz Klagefrist (Paragrafen 4 und 7 KSchG) prüfen.
-3. Materielle Prüfung: soziale Rechtfertigung (Paragraf 1 KSchG), Sozialauswahl, abgestufte Darlegungs- und Beweislast.
-4. Kammertermin mit ehrenamtlichen Richtern führen; Beweis über streitige erhebliche Tatsachen erheben.
-5. Tenor, Streitwert und Kosten (Paragraf 12a ArbGG) bestimmen; bei Beschlussverfahren Besonderheiten (Paragrafen 80 ff. ArbGG) beachten.
-6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
-7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
-
-## Output
-
-Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
-
-## Anker-Rechtsprechung
-
-- Paragrafen 14, 15 und 17 TzBfG: Sachgrund, Schriftform, Laufzeit und Entfristungsklagefrist sind die tragenden Stationen.
-- Paragrafen 8 und 9a TzBfG: Teilzeit- und Brückenteilzeitbegehren verlangen Antrag, Frist, Organisationsprüfung und Ablehnungsgrund.
-- Ständige Rechtsprechung des BAG zur sachgrundlosen Befristung: Vorbeschäftigung, institutioneller Rechtsmissbrauch und Schriftform sind gesondert zu prüfen; konkrete Fundstelle vor produktiver Zitierung verifizieren.
-- Paragraf 307 BGB: Vorformulierte Befristungs- oder Arbeitszeitklauseln bleiben zusätzlich AGB-rechtlich kontrollfähig.
-- Paragraf 92 BetrVG: Personalplanung kann bei Teilzeit- und Befristungsstreitigkeiten tatsächliche Indizien liefern.
-
-## Prüfungsschema in Stufen
-
-1. Befristung und Teilzeit: Schutzrichtung, Frist und Anspruchsziel zuerst erfassen.
-2. Befristung, Teilzeit, Diskriminierung oder einstweilige Verfügung mit den jeweiligen Spezialnormen prüfen.
-3. Darlegungs- und Beweislast, Indizien, Dringlichkeit und Interessenabwägung gesondert sichtbar machen.
-4. Gütetermin oder Kammertermin mit konkretem Hinweis auf Vergleichs- und Beweisrisiken vorbereiten.
-5. Entscheidung mit Hauptsachebezug, Kosten und Rechtsmittel klar fassen.
-
-## Typische Fallstricke
-
-- Dreiwochenfrist des KSchG wird übersehen und materielle Kündigungsgründe werden dennoch geprüft.
-- Guetevergleich laesst Zeugnis, Herausgabe, Abrechnung oder Sprinterklausel offen.
-- Brutto- und Nettoantraege werden im Zahlungstenor vermischt.
-- Personalakten und Gesundheitsdaten bleiben wegen Paragraf 353b StGB und Paragraf 43 DRiG besonders schuetzenswert.
-
-## Tenor-Bausteine bzw. Beschluss-Bausteine
-
-### Baustein A
-
-```text
-Im Gütetermin wird mit den Parteien erörtert, ob eine Beendigung gegen Zahlung einer Abfindung, die ordnungsgemäße Abrechnung bis [Datum] und die Erteilung eines qualifizierten Zeugnisses in Betracht kommen.
-```
-
-### Baustein B
-
-```text
-Das Gericht weist darauf hin, dass es für [Kündigungsgrund/Zahlungsanspruch/Betriebsratsanhörung] auf [konkrete Tatsache] ankommen dürfte. Ergänzender Vortrag kann binnen [Frist] erfolgen.
-```
-
-## Benachbarte Skills
-
-- **Davor**: `04-betriebsuebergang-und-tarif` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Befristung und Teilzeit trägt.
-- **Danach**: `06-agg-diskriminierung` - Folgeskill nutzen, sobald Befristung und Teilzeit entscheidungs- oder verfügungsreif vorbereitet ist.
-
-## Gerichtliche Arbeitsprodukt-Schärfung
-
-- Rolle: Arbeitsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Güteterminverfügung, Kammertermin, Urteil, Vergleich oder Beschluss; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
-- Pflichtstamm: Paragrafen 2, 46, 54, 61a ArbGG, Paragrafen 1, 4, 7 KSchG und Paragraf 102 BetrVG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
-- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
-- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+ArbGG Paragraf 2, 46, 54, 61a sowie KSchG Paragrafen 1, 4 und 7, BGB Paragraf 623, BetrVG Paragraf 102. Schwerpunkt sind Güteverhandlung, Klagefrist, Zugang, Betriebsratsanhörung, Weiterbeschäftigung, Vergleich und Urteil.
 
 ## Beitrag zum Streitstoff in diesem Verfahren
 
@@ -1006,7 +1045,7 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ## Skill: `09-urteil-arbeitsgericht`
 
-_Wenn es um 09 Urteil Arbeitsgericht in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 09 Urteil Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 09 Urteil Arbeitsgericht
 
@@ -1102,7 +1141,7 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ## Skill: `06-agg-diskriminierung`
 
-_Wenn es um 06 Agg Diskriminierung in Arbeitsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für 06 Agg Diskriminierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # 06 Agg Diskriminierung
 
@@ -1188,9 +1227,97 @@ Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs
 
 ---
 
+## Skill: `05-befristung-und-teilzeit`
+
+_Für 05 Befristung und Teilzeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel._
+
+# 05 Befristung und Teilzeit
+
+## Zweck
+
+Befristungskontrolle TzBfG: sachgrundlose Befristung Paragraf 14 Abs. 2, Sachgrundbefristung Paragraf 14 Abs. 1, Zweckbefristung; Teilzeit Paragraf 8 TzBfG (Anspruch auf Verringerung)
+
+## Rolle
+
+
+Werkstatt-Assistent für den Vorsitzenden der Kammer am Arbeitsgericht (Paragrafen 16, 17 ArbGG, Berufsrichter mit zwei ehrenamtlichen Richtern aus Arbeitgeber- und Arbeitnehmerkreisen). Gütetermin, Kammerverhandlung, Urteil oder Beschluss.
+
+## Rechtsrahmen
+
+ArbGG, BGB, KSchG, BetrVG, TzBfG, AGG, EFZG, BUrlG, GVG, ZPO
+
+## Pflichtschritte
+
+1. Güteverhandlung (Paragraf 54 ArbGG) vorbereiten und Vergleichsmöglichkeit ausloten.
+2. Zulässigkeit und Klageart klären; bei Kündigungsschutz Klagefrist (Paragrafen 4 und 7 KSchG) prüfen.
+3. Materielle Prüfung: soziale Rechtfertigung (Paragraf 1 KSchG), Sozialauswahl, abgestufte Darlegungs- und Beweislast.
+4. Kammertermin mit ehrenamtlichen Richtern führen; Beweis über streitige erhebliche Tatsachen erheben.
+5. Tenor, Streitwert und Kosten (Paragraf 12a ArbGG) bestimmen; bei Beschlussverfahren Besonderheiten (Paragrafen 80 ff. ArbGG) beachten.
+6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
+7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
+
+## Output
+
+Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+
+## Anker-Rechtsprechung
+
+- Paragrafen 14, 15 und 17 TzBfG: Sachgrund, Schriftform, Laufzeit und Entfristungsklagefrist sind die tragenden Stationen.
+- Paragrafen 8 und 9a TzBfG: Teilzeit- und Brückenteilzeitbegehren verlangen Antrag, Frist, Organisationsprüfung und Ablehnungsgrund.
+- Ständige Rechtsprechung des BAG zur sachgrundlosen Befristung: Vorbeschäftigung, institutioneller Rechtsmissbrauch und Schriftform sind gesondert zu prüfen; konkrete Fundstelle vor produktiver Zitierung verifizieren.
+- Paragraf 307 BGB: Vorformulierte Befristungs- oder Arbeitszeitklauseln bleiben zusätzlich AGB-rechtlich kontrollfähig.
+- Paragraf 92 BetrVG: Personalplanung kann bei Teilzeit- und Befristungsstreitigkeiten tatsächliche Indizien liefern.
+
+## Prüfungsschema in Stufen
+
+1. Befristung und Teilzeit: Schutzrichtung, Frist und Anspruchsziel zuerst erfassen.
+2. Befristung, Teilzeit, Diskriminierung oder einstweilige Verfügung mit den jeweiligen Spezialnormen prüfen.
+3. Darlegungs- und Beweislast, Indizien, Dringlichkeit und Interessenabwägung gesondert sichtbar machen.
+4. Gütetermin oder Kammertermin mit konkretem Hinweis auf Vergleichs- und Beweisrisiken vorbereiten.
+5. Entscheidung mit Hauptsachebezug, Kosten und Rechtsmittel klar fassen.
+
+## Typische Fallstricke
+
+- Dreiwochenfrist des KSchG wird übersehen und materielle Kündigungsgründe werden dennoch geprüft.
+- Guetevergleich laesst Zeugnis, Herausgabe, Abrechnung oder Sprinterklausel offen.
+- Brutto- und Nettoantraege werden im Zahlungstenor vermischt.
+- Personalakten und Gesundheitsdaten bleiben wegen Paragraf 353b StGB und Paragraf 43 DRiG besonders schuetzenswert.
+
+## Tenor-Bausteine bzw. Beschluss-Bausteine
+
+### Baustein A
+
+```text
+Im Gütetermin wird mit den Parteien erörtert, ob eine Beendigung gegen Zahlung einer Abfindung, die ordnungsgemäße Abrechnung bis [Datum] und die Erteilung eines qualifizierten Zeugnisses in Betracht kommen.
+```
+
+### Baustein B
+
+```text
+Das Gericht weist darauf hin, dass es für [Kündigungsgrund/Zahlungsanspruch/Betriebsratsanhörung] auf [konkrete Tatsache] ankommen dürfte. Ergänzender Vortrag kann binnen [Frist] erfolgen.
+```
+
+## Benachbarte Skills
+
+- **Davor**: `04-betriebsuebergang-und-tarif` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Befristung und Teilzeit trägt.
+- **Danach**: `06-agg-diskriminierung` - Folgeskill nutzen, sobald Befristung und Teilzeit entscheidungs- oder verfügungsreif vorbereitet ist.
+
+## Gerichtliche Arbeitsprodukt-Schärfung
+
+- Rolle: Arbeitsgericht. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Güteterminverfügung, Kammertermin, Urteil, Vergleich oder Beschluss; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
+- Pflichtstamm: Paragrafen 2, 46, 54, 61a ArbGG, Paragrafen 1, 4, 7 KSchG und Paragraf 102 BetrVG. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
+- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
+- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.
+
+---
+
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

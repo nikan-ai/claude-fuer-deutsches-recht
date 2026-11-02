@@ -1,18 +1,25 @@
 # Akte: Jugendstrafsache Schulhofraub Hamburg-Wilhelmsburg
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 40 KB) | PDF | [`gesamt-pdf/strafrecht-jugendlicher-raub-schulhof-hamburg_gesamt.pdf`](gesamt-pdf/strafrecht-jugendlicher-raub-schulhof-hamburg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-jugendlicher-raub-schulhof-hamburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-jugendlicher-raub-schulhof-hamburg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-jugendlicher-raub-schulhof-hamburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-jugendlicher-raub-schulhof-hamburg-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-jugendlicher-raub-schulhof-hamburg_gesamt.pdf`](gesamt-pdf/strafrecht-jugendlicher-raub-schulhof-hamburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-jugendlicher-raub-schulhof-hamburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-jugendlicher-raub-schulhof-hamburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-jugendlicher-raub-schulhof-hamburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-jugendlicher-raub-schulhof-hamburg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -66,7 +73,7 @@ Mandatsbezug: Emir Yilmaz, 16 Jahre, Schüler der Stadtteilschule Kirchdorf
 
 ```
 strafrecht-jugendlicher-raub-schulhof-hamburg/
-├── 01_mandatsnotiz_erstgespraech.docx                                — Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `13_chatauswertung_klassengruppe_2026-05-14.docx` | Auswertung der Nachrichtenverläufe aus der Klassengruppe |
 ├── 02_sachverhalt_chronologie.docx                                   — ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                                  — Auszüge aus polizeilichen und staatsanwaltlichen Vermerken mit Beweismittelübersicht
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx                         — Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -78,10 +85,12 @@ strafrecht-jugendlicher-raub-schulhof-hamburg/
 ├── 10_bericht_jugendgerichtshilfe_2026-06-26.docx                    — Bericht der Jugendgerichtshilfe nach Paragraf 38 JGG mit Diversionsempfehlung
 ├── 11_zeugenvernehmung_ayla_yilmaz_2026-06-16.docx                   — Vernehmung der Mutter zu Kellerfund, Übergabe an das PK 44 und Vorgeschichte
 ├── 12_ortungsprotokoll_samsung_a54_2026-05-12_bis_2026-05-13.csv     — Standortimpulse, Akkustände und Ortungsanfragen; Kern der Besitzdauer-Berechnung
+├── 14_telefonvermerk_toa_fachstelle_2026-07-06.docx                    — Telefonvermerk der Verteidigung zum Stand des Ausgleichsverfahrens und zu den Gesprächsthemen beider Familien
 ├── eml/
 │   ├── 2026-05-19_schulleitung_kirchdorf_an_pk44_vorfallsbericht.eml — Bericht der Schule mit Erstangaben Finns, Videosequenz und zwei Vorkonflikten
 │   ├── 2026-06-11_jugendgerichtshilfe_an_kanzlei_radtke.eml          — JGH-Zwischenstand: Hausbesuch, Fehltage, TOA-Anbahnung
-│   └── 2026-06-24_radtke_an_sta_hamburg_toa_und_ortungsprotokoll.eml — Verteidigung: Diversionsanregung, Ortungs-Diskrepanz, Antrag Klassenchat-Sicherung
+│   ├── 2026-06-24_radtke_an_sta_hamburg_toa_und_ortungsprotokoll.eml — Verteidigung: Diversionsanregung, Ortungs-Diskrepanz, Antrag Klassenchat-Sicherung
+│   └── 2026-07-02_sta_hamburg_zwischennachricht_toa.eml              — Zwischennachricht der Staatsanwaltschaft: TOA-Auftrag, Chat-Sicherung, Terminstand
 ├── whatsapp/
 │   └── chatverlauf.txt                                               — WhatsApp-Export Emir/Noura: Tatnachbesprechung, Schlüsselbund, Rückgabebedingung
 ├── rubric.yaml                                                       — Sechs Prüfpunkte für die fachliche Auswertung

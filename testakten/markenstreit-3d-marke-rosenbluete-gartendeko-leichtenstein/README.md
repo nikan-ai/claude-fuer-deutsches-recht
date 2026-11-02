@@ -1,18 +1,25 @@
 # Akte: Markenstreit 3D-Marke Rosenblüte — Leichtenstein Gartenkultur vs. FlowerWorld AG u. a.
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 588 KB) | PDF | [`gesamt-pdf/markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein_gesamt.pdf`](gesamt-pdf/markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein_gesamt.pdf`](gesamt-pdf/markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-markenstreit-3d-marke-rosenbluete-gartendeko-leichtenstein-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -61,7 +68,7 @@ Arbeitsakte zum Plugin `fachanwalt-gewerblicher-rechtsschutz`.
 
 | Nr. | Datei | Inhalt |
 |---|---|---|
-| 01 | [`01_mandatsaufnahme_erstnotiz.docx`](01_mandatsaufnahme_erstnotiz.docx) | Kanzleinotiz Erstgespräch, Sachverhaltsaufnahme |
+| 01a | [`01a_vollmacht_anlage_a1.docx`](01a_vollmacht_anlage_a1.docx) | Vollmacht der Mandantin für Verletzungsverfahren und EUIPO-Verteidigung (Anlage A-1) |
 | 02 | [`02_schutzrechtsportfolio_leichtenstein.docx`](02_schutzrechtsportfolio_leichtenstein.docx) | Übersicht aller Schutzrechte, Registerauszüge |
 | 03 | [`03_3d_marke_unterscheidungskraft_analyse.docx`](03_3d_marke_unterscheidungskraft_analyse.docx) | Rechtliche Analyse Art. 7 Abs. 1 lit. b UMV, EUIPO-Praxis |
 | 04 | [`04_verletzungsanalyse_flowerworld_ag.docx`](04_verletzungsanalyse_flowerworld_ag.docx) | Verwechslungsgefahr, Zeichenvergleich, § 14 Abs. 2 MarkenG |
@@ -83,10 +90,15 @@ Arbeitsakte zum Plugin `fachanwalt-gewerblicher-rechtsschutz`.
 | 20 | [`20_prozesstaktik_lg_mannheim.docx`](20_prozesstaktik_lg_mannheim.docx) | Beweisantritte, Gutachterauswahl, Terminsvorbereitung |
 | 21 | [`21_vollstreckung_ordnungsmittelantrag.docx`](21_vollstreckung_ordnungsmittelantrag.docx) | § 890 ZPO, Ordnungsgeldantrag, Verstöße nach eV |
 | 22 | [`22_gesamtstrategie_und_zeitachse.docx`](22_gesamtstrategie_und_zeitachse.docx) | Parallelverfahren, Meilensteine, Mandanteninformation |
+| 23 | [`23_monitoring_testkaeufe_flowerworld_2026-06.csv`](23_monitoring_testkaeufe_flowerworld_2026-06.csv) | Rohliste der Filial- und Online-Kontrollen nach der einstweiligen Verfügung mit Befunden und Belegen |
 
 ---
 
 ## Begleitdokumente
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Typ | Datei | Inhalt |
 |---|---|---|

@@ -2,675 +2,396 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 66 Skills des Plugins `verbraucher-rechtsstaat-alltag`.
+Diese Vollprüfung enthält top-10 von 67 Skills des Plugins `verbraucher-rechtsstaat-alltag`.
 
 ## Inhaltsverzeichnis
 
-1. **gerichtspost-familiengericht-laiencheck** — Wenn es um Gerichtspost Familiengericht verstehen in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, B…
-2. **vorladung-polizei-zeuge-beschuldigter** — Wenn es um Vorladung Polizei: Zeuge oder Beschuldigter in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, No…
-3. **fitnessstudio-rueckzahlung-schliessung** — Wenn es um Fitnessstudio Rückzahlung Schließung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Bew…
-4. **abo-kuendigung-fitness-streaming** — Wenn es um Abo-Kündigung Fitness und Streaming in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Bewe…
-5. **inkassokosten-konzerninkasso-jugendamt** — Wenn es um Inkassokosten Konzerninkasso Verzug in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Bewe…
-6. **online-bewertung-abmahnung** — Wenn es um Online-Bewertung und Abmahnung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislas…
-7. **kleine-dienstleistung-schlecht** — Wenn es um Kleine Dienstleistung schlecht in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislas…
-8. **bankentgelte-zustimmungsfiktion** — Wenn es um Bankentgelte Und Zustimmungsfiktion in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf…
-9. **online-bestellbutton-zahlungspflicht** — Wenn es um Online-Bestellbutton Und Zahlungspflicht in Verbraucher im Rechtsstaat Alltag geht: rechnet Schwellen, Beträg…
-10. **inkasso-brief-erste-hilfe** — Wenn es um Inkasso-Brief erste Hilfe in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachv…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Verbraucher Rechtsstaat Alltag ein juristisches Arbeitsprodukt tragfähig begründet werden mus…
+2. **baubehoerde-nachbarbrief** — Erstellt einen belastbaren Nachbarbrief an die Baubehörde: liest Baugenehmigung, Bekanntgabe, Pläne, Lageplan und Fotos …
+3. **arzt-rechnung-bankentgelte-zustimmungsfiktion** — Prüft eine private Arztrechnung für einen Patienten: ordnet jede GOÄ-Position, Faktorbegründung, Analogbewertung, Auslag…
+4. **bankentgelte-zustimmungsfiktion** — Prüft und beziffert Rückforderungen nach unwirksamer Zustimmungsfiktion bei Bankentgelten: rekonstruiert Preisverzeichni…
+5. **abo-kuendigung-fitness-streaming** — Bearbeitet Kündigung und Zahlungsstreit bei Fitnessstudio- und Streaming-Abos: trennt Nutzungsausfall, Probephase, Laufz…
+6. **abo-falle-kuendigung** — Prüft eine behauptete Abo-Falle vom Bestellbutton bis zur Kündigung: liest Bestätigung, Preis-, Laufzeit- und Widerrufsi…
+7. **kindergeld-kinderzuschlag-bescheid** — Prüft Bescheide zu steuerlichem Kindergeld, sozialrechtlichem Kindergeld und Kinderzuschlag, trennt Einspruch und Widers…
+8. **schriftsatz-vermerk-und-mustertext** — Für Schriftsatz, Vermerk und Mustertext: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begr…
+9. **kaltstart-routing** — Für Allgemeiner Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko…
+10. **sitzungs-terminvorbereitung-strom-gas-telefon** — Für Sitzungs- und Terminvorbereitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nä…
 
 ---
 
-## Skill: `gerichtspost-familiengericht-laiencheck`
+## Skill: `juristischer-argumentationskern`
 
-_Wenn es um Gerichtspost Familiengericht verstehen in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Schaltet sich ein, wenn in Verbraucher Rechtsstaat Alltag ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
 
-# Gerichtspost Familiengericht verstehen
+# Juristischer Argumentationskern - Verbraucher Rechtsstaat Alltag
 
-## Normenanker
+## 1. Direktstart
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Arbeite als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe.
 
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+Pluginauftrag: Kleines, hilfreiches Plugin für Verbraucher: E-Commerce, Kaufrecht, Reparaturen, kleine Dienstleistungen, Rechnungen, Inkasso, Plattformen, Behördenbriefe und Gerichtspost verständlich einordnen und vorsichtig reagieren.
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
-## Arbeitsweg
+## 2. Die tragende These
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Formuliere das Ergebnis für Verbraucher Rechtsstaat Alltag in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich.
 
-## Fachkern: Gerichtspost Familiengericht verstehen
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
-## Sofortsortierung
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
 
-1. Beteiligte, Rolle und Kommunikationskanal klären: Verbraucher, Behörde, Kammer, Gericht, Plattform, Bank, Kammer oder Verfahrensgegner.
-2. Fristen, Zustellungen, Aktenzeichen, Anhörungen, Mahnungen, Bescheide und Vollstreckungsdrohungen zuerst isolieren.
-3. Zahlungen, Anerkenntnisse, Aussagen gegenüber Polizei/Behörde/Kammer und irreversible Handlungen als rote Zone markieren.
-4. Fehlende Belege konkret nachfordern: Vertrag, Rechnung, AGB, Screenshot, Sendungsnummer, Bescheid, Protokoll, Vollmacht, Zustellnachweis.
-5. Den kleinsten sicheren nächsten Schritt formulieren, bevor ein großer Streit eröffnet wird.
+## 3. Materienspezifische Tatbestandsarbeit
 
-## Prüfprogramm
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Anspruchsziel | Leistung, Zahlung, Nacherfüllung, Rücktritt, Minderung, Schadensersatz, Unterlassung oder Vertragsfassung bestimmen |
+| Anspruchsgrundlage | Vertragstyp, Zustandekommen, Form, Vertretung, Einbeziehung und AGB-Kontrolle in der richtigen Reihenfolge prüfen |
+| Leistungsstörung | Pflichtverletzung, Mangel, Fristsetzung, Vertretenmüssen, Schaden und Kausalität mit Belegen verbinden |
+| Einwendungen | Erfüllung, Aufrechnung, Verjährung, Ausschluss, Widerruf, Anfechtung und treuwidriges Verhalten getrennt abarbeiten |
+| Beweis und Textprodukt | Anspruchsmatrix, Redline, Mahnung, Rücktritt, Klageentwurf, Mandantenbrief oder Vergleichsvorschlag erstellen |
 
-- **Normen- und Quellenanker:** FamFG, BGB Sorge/Umgang, Verfahrensbeistand, Jugendamt, Zustellung und Rechtsmittel live prüfen.
-- **Tatsachenmatrix:** sichere Tatsachen, streitige Tatsachen, fehlende Dokumente und Beweisrisiken getrennt ausgeben.
-- **Kommunikationsstrategie:** sachlich, knapp, fristwahrend; keine unnötigen Zusatzinformationen, keine vorschnellen Schuldanerkenntnisse.
-- **Gegenposition:** die stärkste plausible Gegenseite darstellen und sagen, welche Unterlage oder Norm sie trägt oder entkräftet.
-- **Entscheidungspfad:** sofort handeln, nachfordern, zahlen unter Vorbehalt, widersprechen, Beschwerde, Rechtsbehelf, Vergleich oder professionelle Hilfe.
+### 3.1. Verknüpfung mit den tragenden Fachskills
 
-## Typische Stolperstellen
+3.1.1. Abo-Falle und Kündigung: Bearbeite den Fachpunkt im Skill abo-falle-kuendigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Fitness- und Streaming-Abo kündigen: Bearbeite den Fachpunkt im Skill abo-kuendigung-fitness-streaming und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Behördenformular verstehen: Bearbeite den Fachpunkt im Skill behoerdenformular-verstehen-bescheid und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Bescheid oder Brief verstehen: Bearbeite den Fachpunkt im Skill bescheid-brief-verstehen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
 
-- Ladung bedeutet nicht automatisch Schuld oder Anklage.
-- Kindeswohlargumente brauchen konkrete Tatsachen.
-- Emotionale Vorwürfe ohne Beleg schaden oft.
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
-## Arbeitsprodukte
+## 4. Normenanker
 
-Erzeuge einfache Erklärung, Terminvorbereitung, Unterlagenliste, ruhige Stellungnahme und Fragenkatalog.
+4.1. BGB Paragraf 104 bis Paragraf 185: Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung.
+4.2. BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286: Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug.
+4.3. BGB Paragraf 305 bis Paragraf 310: Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote.
+4.4. BGB Paragraf 312 ff. und Paragraf 355 ff.: Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung.
+4.5. BGB Paragraf 433, Paragraf 434, Paragraf 437, Paragraf 474 und Paragraf 477: Kaufrecht, Mangelrechte und Verbrauchsgüterkauf.
+4.6. BGB Paragraf 631, Paragraf 633, Paragraf 634 und Paragraf 650 ff.: Werkvertrag, Mangelrechte, Bau- und Verbraucherbauvertrag.
 
-## Prompts, die dieser Skill stellen soll
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
-- Welches Verfahren: Umgang, Sorge, Schutz, Unterhalt?
-- Gibt es Eilmaßnahmen?
+## 5. Rechtsprechung und Quellenstatus
 
----
+5.1. EuGH, Urteil vom 7. April 2022, C-249/21: Maßgeblich ist die Beschriftung der auslösenden Schaltfläche selbst
+5.2. EuGH, Urteil vom 5. Oktober 2023, C-565/22: Beim Probeabo hängt ein weiteres Widerrufsrecht davon ab, ob über den späteren Preis bei Abschluss klar informiert wurde
+5.3. BGH, Urteil vom 4. Mai 2022, XII ZR 64/21: Nur für Fitnessstudio-Schließungsbeiträge und die damalige Laufzeitverlängerung heranziehen, nicht für jedes Abo
+5.4. EuGH, Urteil vom 7. April 2022, C-249/21: Für den Onlinevertrag zählt die eindeutige Buttonbeschriftung
 
-## Skill: `vorladung-polizei-zeuge-beschuldigter`
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
 
-_Wenn es um Vorladung Polizei: Zeuge oder Beschuldigter in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
+## 6. Beweislast und Gegenangriff
 
-# Vorladung Polizei: Zeuge oder Beschuldigter
+Ausgangspunkt für dieses Plugin: Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung.
 
-## Normenanker
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+## 7. Prüffolge
 
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+7.1. Wer verlangt welche Rechtsfolge aus welchem Vertrag oder gesetzlichen Anspruch.
+7.2. Ist der Vertrag wirksam zustande gekommen und welche Form- oder Vertretungsfrage kann kippen.
+7.3. Welche Klausel ist Individualabrede, AGB oder überraschende bzw. intransparente Regelung.
+7.4. Welche Pflichtverletzung oder welcher Mangel ist mit welchem Beleg bewiesen.
+7.5. Welche Einwendung ist entscheidungserheblich und wer trägt sie.
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+## 8. Juristisches Schreiben
 
-## Arbeitsweg
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben; Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 9. Ausgabemodi
 
-## Fachkern: Vorladung Polizei: Zeuge oder Beschuldigter
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
 
-## Sofortsortierung
+## 10. Fachliche Formulierungsansätze
 
-1. Beteiligte, Rolle und Kommunikationskanal klären: Verbraucher, Behörde, Kammer, Gericht, Plattform, Bank, Kammer oder Verfahrensgegner.
-2. Fristen, Zustellungen, Aktenzeichen, Anhörungen, Mahnungen, Bescheide und Vollstreckungsdrohungen zuerst isolieren.
-3. Zahlungen, Anerkenntnisse, Aussagen gegenüber Polizei/Behörde/Kammer und irreversible Handlungen als rote Zone markieren.
-4. Fehlende Belege konkret nachfordern: Vertrag, Rechnung, AGB, Screenshot, Sendungsnummer, Bescheid, Protokoll, Vollmacht, Zustellnachweis.
-5. Den kleinsten sicheren nächsten Schritt formulieren, bevor ein großer Streit eröffnet wird.
+10.1. Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben.
+10.2. Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
+10.3. Mandantenbrief: Ergebnis, sicherster nächster Schritt, Frist, benötigter Beleg und Kostenrisiko knapp ausformulieren.
 
-## Prüfprogramm
+## 11. Qualitätskontrolle
 
-- **Normen- und Quellenanker:** StPO Zeugen-/Beschuldigtenrechte, Ladungszuständigkeit, Aussage- und Schweigerechte, Opfer-/Zeugenbeistand live prüfen.
-- **Tatsachenmatrix:** sichere Tatsachen, streitige Tatsachen, fehlende Dokumente und Beweisrisiken getrennt ausgeben.
-- **Kommunikationsstrategie:** sachlich, knapp, fristwahrend; keine unnötigen Zusatzinformationen, keine vorschnellen Schuldanerkenntnisse.
-- **Gegenposition:** die stärkste plausible Gegenseite darstellen und sagen, welche Unterlage oder Norm sie trägt oder entkräftet.
-- **Entscheidungspfad:** sofort handeln, nachfordern, zahlen unter Vorbehalt, widersprechen, Beschwerde, Rechtsbehelf, Vergleich oder professionelle Hilfe.
-
-## Typische Stolperstellen
-
-- Polizeiliche Vorladung ist anders als staatsanwaltschaftliche oder gerichtliche Ladung.
-- Zeugen können in Beschuldigtennähe geraten.
-- Keine spontanen Selbstbelastungen.
-
-## Arbeitsprodukte
-
-Erzeuge Rollencheck, Telefonnotiz, Antwortentwurf, Fragen an Verteidiger/Zeugenbeistand und Fristenampel.
-
-## Prompts, die dieser Skill stellen soll
-
-- Von wem kommt die Ladung?
-- Steht Zeuge, Beschuldigter, Betroffener oder Auskunftsperson?
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich verwendbar?
 
 ---
 
-## Skill: `fitnessstudio-rueckzahlung-schliessung`
+## Skill: `baubehoerde-nachbarbrief`
 
-_Wenn es um Fitnessstudio Rückzahlung Schließung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Erstellt einen belastbaren Nachbarbrief an die Baubehörde: liest Baugenehmigung, Bekanntgabe, Pläne, Lageplan und Fotos zuerst, trennt bloße Rechtswidrigkeit von drittschützender Norm, prüft Akteneinsicht, Klage- und Eilrechtsschutz und liefert ein sachliches Schreiben mit konkreten Abstands-, Rücksichtnahme-, Immissions- und Verfahrensfragen._
 
-# Fitnessstudio Rückzahlung Schließung
+# Baubehörde und Nachbarbrief
 
-## Normenanker
+## 1. Frist und Vorhaben zuerst
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Lies Baugenehmigung oder Baustellenschild, Bekanntgabe, Lageplan, Bauzeichnungen, Bebauungsplan, Schriftverkehr und datierte Fotos. Bestimme Bundesland, Grundstücke, Vorhaben, Baufortschritt und möglichen Fristbeginn. Eine freundliche Behördenanfrage hemmt keine Klagefrist.
 
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+## 2. Drittschutz prüfen
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+1. Betroffenes Nachbargrundstück und Eigentümer- oder Nutzungsposition belegen.
+2. Genehmigungsgegenstand und tatsächliche Bauausführung trennen.
+3. Abstandsfläche, Gebietsverträglichkeit, Rücksichtnahme, Immission und landesrechtliche Nachbarbeteiligung einzeln prüfen.
+4. Für jede Norm ausdrücklich klären, ob sie gerade den Nachbarn schützt.
+5. Akteneinsicht, Anfechtung und Eilantrag nach VwGO Paragrafen 80a und 80 Absatz 5 zeitlich koordinieren.
 
-## Arbeitsweg
+## 3. Rechtsprechungsanker
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- BVerwG, Beschluss vom 4. Juli 2024, 4 B 5.24: Bei der Baunachbarklage können Änderungen der Genehmigung im Prozess erheblich sein; nachträgliche Änderungen zugunsten des Bauherrn sind zu berücksichtigen, wenn sie die Nachbarrechtsverletzung ausräumen.
+- BVerwG, Urteil vom 24. April 2024, 4 C 1.23: Aus objektiver Rechtswidrigkeit folgt kein Abwehrrecht; die herangezogene Norm muss subjektive Rechte des konkreten Nachbarn oder der Nachbargemeinde vermitteln.
 
-## Fachkern: Fitnessstudio Rückzahlung Schließung
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+Übertrage die Entscheidung zur Nachbargemeinde nicht ohne Weiteres auf einen privaten Grundstücksnachbarn. Maßgeblich bleiben Vorhaben, Bundesland und konkrete drittschützende Norm.
 
-## Rechtsanker
+## 4. Briefaufbau
 
-- §§ 275, 326, 313, 346 BGB.
-- BGH, Urteil vom 04.05.2022, XII ZR 64/21: Bei pandemiebedingter Schließung war die Leistung rechtlich unmöglich; Rückzahlung entrichteter Beiträge kam in Betracht, Vertragsverlängerung über § 313 BGB nicht.
-- § 312k BGB bei online kündbaren Verbraucherverträgen.
+Der Brief bezeichnet Vorhaben, Grundstücke, bekannte Genehmigung, konkrete Beeinträchtigung und gewünschte Behördenhandlung. Beantrage bei Bedarf Akteneinsicht und Übersendung der nachbarrelevanten Pläne. Formuliere Tatsachen aus eigener Wahrnehmung als solche; unterstelle keine ungenehmigte Bauausführung ohne Aktenabgleich.
 
-## Intake
+## 5. Output
 
-1. Zeitraum der Schließung oder Nichtnutzbarkeit.
-2. Wurden Beiträge weiter eingezogen?
-3. Hat das Studio Gutschein, Nachholzeit, Ruhezeit oder Vertragsverlängerung angeboten?
-4. Gibt es Kündigung, Attest, Umzugsnachweis, Lastschrift, Inkassopost?
-5. Ist der Streit alt genug, dass Verjährung relevant wird?
-
-## Prüfung
-
-- Schließung/Unmöglichkeit von freiwilliger Nichtnutzung trennen.
-- Gutscheinlösung und Sonderregelungen nur für den konkreten Zeitraum prüfen.
-- Kündigung und Rückforderung nicht vermischen.
-- Lastschrift und Inkasso nur nach Fristen- und Beweischeck angehen.
-- Bei Krankheit/Umzug nicht automatisch Sonderkündigungsrecht behaupten, sondern Vertragsklauseln und Zumutbarkeit prüfen.
-
-## Laienklartext
-
-"Nicht trainiert" ist nicht dasselbe wie "Studio konnte nicht leisten". Genau diese Unterscheidung entscheidet den Fall.
+Liefere Fristenampel, Nachbarrechtsmatrix, Fotoliste, Akteneinsichtsantrag und ausformulierten Behördenbrief. Stoppe bei laufender Bauausführung und ungeklärter Frist nicht mit einem bloßen Informationsschreiben, sondern weise ausdrücklich auf die Eilrechtsschutzprüfung hin.
 
 ---
 
-## Skill: `abo-kuendigung-fitness-streaming`
+## Skill: `arzt-rechnung-bankentgelte-zustimmungsfiktion`
 
-_Wenn es um Abo-Kündigung Fitness und Streaming in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Prüft eine private Arztrechnung für einen Patienten: ordnet jede GOÄ-Position, Faktorbegründung, Analogbewertung, Auslage und Honorarvereinbarung der erbrachten Leistung zu, trennt Fälligkeit von Erstattungsfragen und liefert Rechnungsprüfung, gezielte Rückfrage an Praxis oder Klinik und Unterlagenpaket für private Versicherung oder Beihilfe._
 
-# Abo-Kündigung Fitness und Streaming
+# Private Arztrechnung prüfen
 
-## Normenanker
+## 1. Rechnung und Behandlung zusammenlesen
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Lies vollständige Rechnung, Behandlungsdatum, Leistungsbeschreibung, Honorarvereinbarung, Aufklärung zu voraussichtlichen Kosten sowie Erstattungsentscheidung. Gesundheitsdaten nur in dem Umfang verarbeiten, der die konkrete Gebührenposition erklärt.
 
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+## 2. Positionsprüfung
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+| Prüffeld | Frage | Unterlage |
+| --- | --- | --- |
+| Leistung | wurde sie persönlich oder zulässig delegiert erbracht? | Behandlungsdokumentation |
+| Gebührennummer | erfasst sie die Leistung unmittelbar? | GOÄ-Verzeichnis |
+| Analogbewertung | ist eine selbständige, nicht enthaltene Leistung vergleichbar bewertet? | Begründung nach GOÄ |
+| Steigerungsfaktor | ist die Überschreitung nachvollziehbar begründet? | Rechnungstext |
+| Honorarvereinbarung | erfüllt sie Form und Pflichtinhalt? | Vereinbarung vor Leistung |
+| Fälligkeit | enthält die Rechnung die erforderlichen Angaben? | Rechnung |
 
-## Arbeitsweg
+## 3. Verifizierte Rechtsprechungsanker
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- BGH, Urteil vom 14. Oktober 2021, III ZR 353/20: Eine gesonderte Analogabrechnung setzt eine selbständige ärztliche Leistung voraus; ein bereits erfasster Leistungsbestandteil darf nicht doppelt berechnet werden.
+- BGH, Urteil vom 22. September 2022, III ZR 241/21: Gebührenposition und Abrechnungsbestimmung anhand des konkreten Leistungsverzeichnisses prüfen; keine vermeintliche Sitzungshöchstzahl ohne Normgrundlage erfinden.
+- BGH, Urteil vom 4. April 2024, III ZR 38/23: Ambulante ärztliche Leistungen unterliegen auch bei einer juristischen Leistungserbringerin dem zwingenden Preisrecht der GOÄ; eine formwidrige Pauschalhonorarvereinbarung kann unwirksam sein.
 
-## Fachkern: Abo-Kündigung Fitness und Streaming
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+## 4. Erstattung getrennt halten
 
-## Sofortsortierung
+Die fehlende Erstattung durch private Versicherung oder Beihilfe beweist nicht automatisch, dass die Rechnung unwirksam ist. Prüfe Behandlungsvertrag und GOÄ-Forderung einerseits, Versicherungs- oder Beihilfeanspruch andererseits. Formuliere bei Bedarf zwei getrennte Schreiben.
 
-1. Beteiligte, Rolle und Kommunikationskanal klären: Verbraucher, Behörde, Kammer, Gericht, Plattform, Bank, Kammer oder Verfahrensgegner.
-2. Fristen, Zustellungen, Aktenzeichen, Anhörungen, Mahnungen, Bescheide und Vollstreckungsdrohungen zuerst isolieren.
-3. Zahlungen, Anerkenntnisse, Aussagen gegenüber Polizei/Behörde/Kammer und irreversible Handlungen als rote Zone markieren.
-4. Fehlende Belege konkret nachfordern: Vertrag, Rechnung, AGB, Screenshot, Sendungsnummer, Bescheid, Protokoll, Vollmacht, Zustellnachweis.
-5. Den kleinsten sicheren nächsten Schritt formulieren, bevor ein großer Streit eröffnet wird.
+## 5. Output
 
-## Prüfprogramm
-
-- **Normen- und Quellenanker:** BGB Dauerschuldverhältnisse, faire Verbraucherverträge, Kündigungsbutton, AGB-Kontrolle und Inkassoregeln live prüfen.
-- **Tatsachenmatrix:** sichere Tatsachen, streitige Tatsachen, fehlende Dokumente und Beweisrisiken getrennt ausgeben.
-- **Kommunikationsstrategie:** sachlich, knapp, fristwahrend; keine unnötigen Zusatzinformationen, keine vorschnellen Schuldanerkenntnisse.
-- **Gegenposition:** die stärkste plausible Gegenseite darstellen und sagen, welche Unterlage oder Norm sie trägt oder entkräftet.
-- **Entscheidungspfad:** sofort handeln, nachfordern, zahlen unter Vorbehalt, widersprechen, Beschwerde, Rechtsbehelf, Vergleich oder professionelle Hilfe.
-
-## Typische Stolperstellen
-
-- Kündigung und Widerruf nicht vermischen.
-- Zugang der Kündigung beweisen.
-- Inkassokosten nur prüfen, nicht reflexhaft zahlen.
-
-## Arbeitsprodukte
-
-Erzeuge Kündigung, Widerspruch gegen Forderung, Belegliste und Kalender für nächste Abbuchungen.
-
-## Prompts, die dieser Skill stellen soll
-
-- Vertragsbeginn, Laufzeit, Kündigungskanal, Bestätigung vorhanden?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 UWG
-- § 31 BDSG
-- Art. 15 DSGVO
-- Art. 21 DSGVO
-- Art. 22 DSGVO
-
-### Leitentscheidungen
-
-- EuGH C-634/21
-- EuGH C-565/22
-- BGH XII ZR 64/21
-- BGH XI ZR 26/20
-- EuGH C-249/21
-
----
-
-## Skill: `inkassokosten-konzerninkasso-jugendamt`
-
-_Wenn es um Inkassokosten Konzerninkasso Verzug in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Inkassokosten Konzerninkasso Verzug
-
-## Normenanker
-
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Inkassokosten Konzerninkasso Verzug
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
-
-## Rechtsanker
-
-- §§ 280, 286, 249, 254 BGB.
-- RDG und Inkassodienstleistungsrecht live prüfen.
-- BGH, Urteil vom 19.02.2025, VIII ZR 138/23: Konzernverbundenheit des Inkassounternehmens schließt Ersatzfähigkeit nicht automatisch aus; erforderlich bleiben Verzug, Schaden, Erforderlichkeit und Höhe.
-
-## Prüffragen
-
-1. Besteht die Hauptforderung überhaupt?
-2. War der Verbraucher vor Einschaltung des Inkassos in Verzug?
-3. War die Forderung bestritten, unklar, verjährt oder bereits bezahlt?
-4. Ist das Inkassounternehmen registriert und wer ist wirtschaftlich verbunden?
-5. Sind Nebenforderungen doppelt, überhöht oder unverständlich?
-
-## Arbeitsplan
-
-Baue eine Forderungsmatrix:
-
-| Position | Betrag | Begründung Inkasso | Rechtsprüfung | Einwendung | Beleg |
-| --- | --- | --- | --- | --- | --- |
-
-Danach:
-
-- Hauptforderung getrennt von Nebenforderungen prüfen.
-- Kein Schuldanerkenntnis formulieren.
-- Bei unklarer Forderung Belege, Abtretung/Vollmacht und Gebührenberechnung verlangen.
-- Bei Mahnbescheid Widerspruchsfrist sofort sichern.
-
-## Ton
-
-Ruhig, knapp, keine emotionalen Vorwürfe. Der Text soll beweisbar machen: bestritten, begründet, fristgerecht, ohne unnötige Daten preiszugeben.
-
----
-
-## Skill: `online-bewertung-abmahnung`
-
-_Wenn es um Online-Bewertung und Abmahnung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Online-Bewertung und Abmahnung
-
-## Normenanker
-
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Online-Bewertung und Abmahnung
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
-
-## Sofortsortierung
-
-1. Beteiligte, Rolle und Kommunikationskanal klären: Verbraucher, Behörde, Kammer, Gericht, Plattform, Bank, Kammer oder Verfahrensgegner.
-2. Fristen, Zustellungen, Aktenzeichen, Anhörungen, Mahnungen, Bescheide und Vollstreckungsdrohungen zuerst isolieren.
-3. Zahlungen, Anerkenntnisse, Aussagen gegenüber Polizei/Behörde/Kammer und irreversible Handlungen als rote Zone markieren.
-4. Fehlende Belege konkret nachfordern: Vertrag, Rechnung, AGB, Screenshot, Sendungsnummer, Bescheid, Protokoll, Vollmacht, Zustellnachweis.
-5. Den kleinsten sicheren nächsten Schritt formulieren, bevor ein großer Streit eröffnet wird.
-
-## Prüfprogramm
-
-- **Normen- und Quellenanker:** BGB Persönlichkeitsrecht, Meinungsfreiheit, Plattformregeln, UWG-Schnittstellen und aktuelle Rechtsprechung nur verifiziert live prüfen.
-- **Tatsachenmatrix:** sichere Tatsachen, streitige Tatsachen, fehlende Dokumente und Beweisrisiken getrennt ausgeben.
-- **Kommunikationsstrategie:** sachlich, knapp, fristwahrend; keine unnötigen Zusatzinformationen, keine vorschnellen Schuldanerkenntnisse.
-- **Gegenposition:** die stärkste plausible Gegenseite darstellen und sagen, welche Unterlage oder Norm sie trägt oder entkräftet.
-- **Entscheidungspfad:** sofort handeln, nachfordern, zahlen unter Vorbehalt, widersprechen, Beschwerde, Rechtsbehelf, Vergleich oder professionelle Hilfe.
-
-## Typische Stolperstellen
-
-- Tatsachenbehauptungen brauchen Belege.
-- Schmähung und reine Polemik vermeiden.
-- Fristen in Abmahnungen ernst nehmen, aber nichts vorschnell unterschreiben.
-
-## Arbeitsprodukte
-
-Erzeuge Bewertungsanalyse, Belegmatrix, Antwortentwurf und sichere Ersatzformulierung.
-
-## Prompts, die dieser Skill stellen soll
-
-- Wortlaut, Plattform, eigener Kontakt, Belege, Abmahner, Frist?
-
----
-
-## Skill: `kleine-dienstleistung-schlecht`
-
-_Wenn es um Kleine Dienstleistung schlecht in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
-
-# Kleine Dienstleistung schlecht
-
-## Normenanker
-
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Kleine Dienstleistung schlecht
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
-
-## Sofortsortierung
-
-1. Beteiligte, Rolle und Kommunikationskanal klären: Verbraucher, Behörde, Kammer, Gericht, Plattform, Bank, Kammer oder Verfahrensgegner.
-2. Fristen, Zustellungen, Aktenzeichen, Anhörungen, Mahnungen, Bescheide und Vollstreckungsdrohungen zuerst isolieren.
-3. Zahlungen, Anerkenntnisse, Aussagen gegenüber Polizei/Behörde/Kammer und irreversible Handlungen als rote Zone markieren.
-4. Fehlende Belege konkret nachfordern: Vertrag, Rechnung, AGB, Screenshot, Sendungsnummer, Bescheid, Protokoll, Vollmacht, Zustellnachweis.
-5. Den kleinsten sicheren nächsten Schritt formulieren, bevor ein großer Streit eröffnet wird.
-
-## Prüfprogramm
-
-- **Normen- und Quellenanker:** BGB Dienst- und Werkvertrag, Verbraucherrecht, AGB, Beweislast und Schadensminderung live prüfen.
-- **Tatsachenmatrix:** sichere Tatsachen, streitige Tatsachen, fehlende Dokumente und Beweisrisiken getrennt ausgeben.
-- **Kommunikationsstrategie:** sachlich, knapp, fristwahrend; keine unnötigen Zusatzinformationen, keine vorschnellen Schuldanerkenntnisse.
-- **Gegenposition:** die stärkste plausible Gegenseite darstellen und sagen, welche Unterlage oder Norm sie trägt oder entkräftet.
-- **Entscheidungspfad:** sofort handeln, nachfordern, zahlen unter Vorbehalt, widersprechen, Beschwerde, Rechtsbehelf, Vergleich oder professionelle Hilfe.
-
-## Typische Stolperstellen
-
-- Dienstvertrag schuldet oft Tätigkeit, Werkvertrag Erfolg.
-- Geschmack und objektiver Mangel trennen.
-- Nachbesserung dokumentiert verlangen.
-
-## Arbeitsprodukte
-
-Erzeuge Vertragstypcheck, Reklamation, Beweisliste und pragmatischen Vergleichsvorschlag.
-
-## Prompts, die dieser Skill stellen soll
-
-- Was war versprochen, Ergebnis, Preis, Nachbesserung möglich?
+Liefere Positionsmatrix, Gesamtrechnung, konkrete Beanstandungen, Rückfrage an Praxis oder Klinik und Erstattungsanschreiben. Nenne keine medizinische Bewertung, die sich aus Rechnung und Dokumentation nicht ableiten lässt.
 
 ---
 
 ## Skill: `bankentgelte-zustimmungsfiktion`
 
-_Wenn es um Bankentgelte Und Zustimmungsfiktion in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Prüft und beziffert Rückforderungen nach unwirksamer Zustimmungsfiktion bei Bankentgelten: rekonstruiert Preisverzeichnisse, Änderungsmitteilungen, ausdrückliche Zustimmung, Belastungen und Verjährung, verarbeitet BGH XI ZR 26/20, XI ZR 139/23 und XI ZR 45/24 differenziert und liefert Anspruchsschreiben, Zinsrechnung und Prozessoption._
 
-# Bankentgelte Und Zustimmungsfiktion
+# Bankentgelte und Zustimmungsfiktion
 
-## Normenanker
+## 1. Kontomaterial zuerst
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Lies Kontovertrag, Preis- und Leistungsverzeichnisse, Änderungsmitteilungen, behauptete Zustimmung, Kontoauszüge und Reklamationen. Stelle jede Entgeltart und jede Erhöhung mit Datum und Betrag gegenüber.
 
-- `§ 13 BGB` — Verbraucherbegriff.
-- `§ 14 BGB` — Unternehmerbegriff.
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
-- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgüterkauf.
-- `§ 477 BGB` — Beweislastumkehr.
-- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+## 2. Anspruchsprüfung
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+1. Ausgangspreis und konkrete Änderung bestimmen.
+2. Klausel oder Mitteilung zur Zustimmungsfiktion wörtlich erfassen.
+3. Ausdrückliche Zustimmung von Schweigen, bloßer Kontonutzung und technischer Anmeldung trennen.
+4. Jede Belastung nach Entgeltart, Monat und Differenz berechnen.
+5. Rückforderung aus Bereicherungsrecht, Einwendungen und Verjährung getrennt prüfen.
 
-## Arbeitsweg
+## 3. Rechtsprechungsanker
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- BGH, Urteil vom 27. April 2021, XI ZR 26/20: Weitreichende Zustimmungsfiktionsklauseln in Bank-AGB können nach BGB Paragraf 307 unwirksam sein.
+- BGH, Urteil vom 19. November 2024, XI ZR 139/23: Widerspruchslose Kontonutzung allein begründet nicht ohne Weiteres eine neue Entgeltvereinbarung; die energierechtliche Dreijahreslösung ist nicht schematisch übertragbar.
+- BGH, Urteil vom 3. Juni 2025, XI ZR 45/24: Bei der Musterfeststellung zu Kontoführungsentgelten Anspruchsgruppen, Zustimmung und Verjährung präzise auseinanderhalten.
 
-## Fachkern: Bankentgelte Und Zustimmungsfiktion
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+Score-, Probeabo-, Fitnessstudio- und Buttonentscheidungen sind keine Bankentgeltanker und werden hier nicht verwendet.
 
-## Rechtsprechungsanker
+## 4. Rechenmatrix
 
-- BGH, Urteil vom 27.04.2021, XI ZR 26/20: Zustimmungsfiktionsklauseln im Verbraucherverkehr können nach § 307 BGB unwirksam sein.
-- BGH, Urteil vom 19.11.2024, XI ZR 139/23: Widerspruchslose Kontonutzung allein beseitigt den Rückforderungsanspruch nicht; Dreijahreslösung aus Energieverträgen nicht übertragen.
-- BGH, Urteil vom 03.06.2025, XI ZR 45/24: Musterfeststellungsklage zur Rückzahlung von Kontoführungsentgelten; Verjährung, Anspruchsgruppen und konkludente Zustimmung genau trennen.
-- §§ 307, 675f, 675g, 812, 195, 199 BGB.
-
-## Unterlagen
-
-Fordere:
-
-- Preis- und Leistungsverzeichnisse vor/nach Änderung.
-- Mitteilung über Änderung und angebliche Zustimmung.
-- Kontoauszüge mit jedem belasteten Entgelt.
-- Kündigungs- oder Zustimmungsdruck der Bank.
-- Schriftwechsel, Ombudsmann-Antworten, frühere Reklamationen.
-
-## Arbeitsmatrix
-
-Baue eine Tabelle:
-
-| Zeitraum | altes Entgelt | neues Entgelt | Differenz | Grundlage der Bank | ausdrückliche Zustimmung? | Rückforderbar? |
+| Zeitraum | Entgeltart | alter Preis | belasteter Preis | Differenz | Zustimmung | Verjährungsstatus |
 | --- | --- | --- | --- | --- | --- | --- |
 
-Prüfe danach:
+Berechne Hauptforderung und Zinsen getrennt. Fordere nicht pauschal alle Gebühren zurück, sondern nur die konkret nicht wirksam vereinbarte Differenz.
 
-1. War die Erhöhung eine echte Leistungs-/Preisänderung oder nur eine zulässige Einzelposition?
-2. Gab es eine ausdrückliche Zustimmung nach transparentem Angebot?
-3. Stützt sich die Bank nur auf Schweigen, Kontonutzung, Saldoanerkenntnis oder Online-Hinweis?
-4. Welche Jahre sind verjährungsgefährdet?
-5. Ist Ombudsmann, Schlichtungsstelle, Individualklage oder Anschluss an Verbandsverfahren sinnvoll?
+## 5. Output
 
-## Musterlogik
-
-Der Entwurf soll nicht pauschal "alle Gebühren" verlangen. Er soll exakt sagen:
-
-- welche Entgeltposition,
-- welcher Zeitraum,
-- welche Summe,
-- welche Rechtsgrundlage,
-- welche Frist zur Erstattung,
-- welche nächste Eskalation.
-
-## Laienhinweis
-
-Erkläre: Schweigen ist im Verbraucherbankrecht nicht automatisch Zustimmung. Aber nicht jede Bankgebühr ist deshalb falsch. Entscheidend ist, ob gerade diese Entgelterhöhung wirksam vereinbart wurde.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 UWG
-- § 31 BDSG
-- Art. 15 DSGVO
-- Art. 21 DSGVO
-- Art. 22 DSGVO
-
-### Leitentscheidungen
-
-- EuGH C-634/21
-- EuGH C-565/22
-- BGH XII ZR 64/21
-- BGH XI ZR 26/20
-- EuGH C-249/21
+Liefere Anspruchs- und Verjährungsampel, vollständige Rechenmatrix, beziffertes Aufforderungsschreiben, Belegliste und Empfehlung zu Ombudsmann, Vergleich oder Klage.
 
 ---
 
-## Skill: `online-bestellbutton-zahlungspflicht`
+## Skill: `abo-kuendigung-fitness-streaming`
 
-_Wenn es um Online-Bestellbutton Und Zahlungspflicht in Verbraucher im Rechtsstaat Alltag geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
+_Bearbeitet Kündigung und Zahlungsstreit bei Fitnessstudio- und Streaming-Abos: trennt Nutzungsausfall, Probephase, Laufzeit, automatische Verlängerung, Kündigungsbutton und Inkasso, prüft BGH XII ZR 64/21 sowie EuGH C-249/21 und C-565/22 nur im passenden Fall und liefert fristgerechte Schreiben mit Zahlungs- und Zugangsnachweis._
 
-# Online-Bestellbutton Und Zahlungspflicht
+# Fitness- und Streaming-Abo kündigen
 
-## Arbeitsweg
+## 1. Sachverhalt aus Dokumenten bilden
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Lies Vertrag, AGB-Fassung, Bestätigung, Beitragskonto, Kündigungsversuch, Nutzungs- oder Schließungszeitraum und Inkassoschreiben. Trenne Studiovertrag und rein digitalen Dienst; die geschuldete Hauptleistung und die Beendigungsmöglichkeiten sind nicht identisch.
 
-## Fachkern: Online-Bestellbutton Und Zahlungspflicht
-- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
-- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+## 2. Prüfroute
 
-## Harte Rechtsanker
+1. Vertragsschluss und Zahlungspflicht bei Onlineabschluss prüfen.
+2. Probezeit, späteren Preis und automatische Verlängerung feststellen.
+3. Mindestlaufzeit und Verlängerung nach der damals geltenden Gesetzesfassung bestimmen.
+4. Kündigungskanal, Zugang und Bestätigung beweisen.
+5. Leistungsstörung, Schließung oder dauerhafte Nutzungsunmöglichkeit gesondert prüfen.
+6. Hauptforderung, Rückstand, Mahn- und Inkassokosten getrennt berechnen.
 
-- § 312j Abs. 2 bis 4 BGB: Pflicht zur hervorgehobenen Information unmittelbar vor der Bestellung und eindeutige Button-Beschriftung.
-- EuGH, Urteil vom 07.04.2022, C-249/21, Fuhrmann-2: Die Schaltfläche muss aus ihrer Beschriftung klar machen, dass der Klick eine Zahlungspflicht auslöst.
-- Art. 8 Abs. 2 Verbraucherrechterichtlinie 2011/83/EU als unionsrechtlicher Hintergrund.
-- § 812 BGB für Rückforderung, wenn gezahlt wurde und kein Rechtsgrund bestand.
+## 3. Rechtsprechungsanker
 
-## Sofort-Intake
+- EuGH, Urteil vom 7. April 2022, C-249/21: Für den Onlinevertrag zählt die eindeutige Buttonbeschriftung.
+- EuGH, Urteil vom 5. Oktober 2023, C-565/22: Bei Probeabo und automatischer Verlängerung Preisaufklärung und Widerrufszeitpunkt getrennt prüfen.
+- BGH, Urteil vom 4. Mai 2022, XII ZR 64/21: Beiträge für die pandemiebedingte Studioschließung waren nach der dortigen Rechtslage zurückzuzahlen; eine Laufzeitverlängerung über Störung der Geschäftsgrundlage war nicht zulässig.
 
-Frage kurz und konkret:
+## 4. Schreiben
 
-1. Was stand exakt auf dem letzten Button oder Link?
-2. Gibt es Screenshot, Browserhistorie, E-Mail-Bestätigung, Rechnung, AGB, Preisangabe und Uhrzeit?
-3. Ging es um Waren, Dienstleistung, Hotel/Reise, Ticket, Abo, Makler, Coaching oder Finanzdienstleistung?
-4. Wurde schon gezahlt, zurückgebucht, widersprochen oder mit Inkasso kommuniziert?
-5. Läuft eine Frist aus Mahnung, Mahnbescheid, Chargeback oder Plattformverfahren?
+Das Schreiben benennt Vertragsnummer, Beendigungsgrund, Kündigungszeitpunkt, Zugangsnachweis, bestrittene Positionen und gegebenenfalls Rückforderungsbetrag. Fordere eine Schlussabrechnung und Löschung des Zahlungsmandats nur im rechtlich passenden Umfang. Bei Inkasso bestreite nicht pauschal, sondern Position für Position.
 
-## Prüfung
+## 5. Output
 
-1. **Anwendungsbereich:** Verbraucher, Unternehmer, elektronischer Geschäftsverkehr, Zahlungspflicht, keine bloß individuelle Kommunikation, keine Finanzdienstleistungsausnahme übersehen.
-2. **Informationslage unmittelbar vor Klick:** Preis, Laufzeit, Liefer-/Leistungsmerkmale, Nebenkosten und Widerruf nicht irgendwo versteckt behandeln.
-3. **Buttontext isoliert ernst nehmen:** "zahlungspflichtig bestellen" ist sicher; "Buchung abschließen", "weiter", "registrieren", "jetzt anmelden" kann problematisch sein, wenn daraus die Zahlungspflicht nicht eindeutig folgt.
-4. **Rechtsfolge:** Bei Verstoß gegen § 312j Abs. 3 BGB kommt nach § 312j Abs. 4 BGB kein Vertrag zustande.
-5. **Folgekommunikation:** Nicht vorschnell "kulant kündigen", wenn die bessere Linie lautet: kein Vertrag, keine Zahlungspflicht.
-
-## Vorsicht
-
-Keine künstliche Sicherheit: Wenn nur eine Bestätigungsmail vorliegt, aber kein Checkout-Screenshot, klar als Beweisproblem markieren. Bei gerichtlichem Mahnbescheid sofort zum Mahnbescheid-Skill routen.
+Liefere Vertragszeitachse, Zahlungsrechnung, Kündigung oder Widerruf, Inkassoantwort, Nachweischeck und Erinnerungstermin. Stoppe bei unbekannter Vertragsfassung oder fehlendem Zugangsnachweis, statt ein sicheres Vertragsende zu behaupten.
 
 ---
 
-## Skill: `inkasso-brief-erste-hilfe`
+## Skill: `abo-falle-kuendigung`
 
-_Wenn es um Inkasso-Brief erste Hilfe in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Prüft eine behauptete Abo-Falle vom Bestellbutton bis zur Kündigung: liest Bestätigung, Preis-, Laufzeit- und Widerrufsinformation, trennt fehlenden Vertragsschluss, Widerruf, Kündigung und Rückzahlung, verarbeitet EuGH C-249/21 und C-565/22 fallgenau und liefert Kündigung, Rückforderung und Belegplan in verständlicher Sprache._
 
-# Inkasso-Brief erste Hilfe
+# Abo-Falle und Kündigung
+
+## 1. Direkt mit den Unterlagen starten
+
+Lies Bestellbestätigung, Bildschirmbilder, Vertrags- und Preisangaben, Widerrufsinformation, Abbuchungen, Kündigungsversuch und Anbieterantwort. Liefere zuerst eine kurze Einordnung und einen fristwahrenden Entwurf; frage nur nach dem fehlenden Dokument, das Vertragsschluss oder Beendigung entscheidet.
+
+## 2. Vier Wege trennen
+
+| Weg | Kernfrage | mögliches Ergebnis |
+| --- | --- | --- |
+| kein wirksamer Vertrag | wies der Button eindeutig auf Zahlung hin? | Zahlung zurückweisen oder zurückfordern |
+| Widerruf | Belehrung, Frist und Probeabo-Information | Widerruf und Rückabwicklung |
+| ordentliche oder außerordentliche Kündigung | Laufzeit, Zugang, wichtiger Grund | Vertragsende und Abbuchungsstopp |
+| Rückforderung | welche Zahlung ohne Rechtsgrund? | bezifferte Erstattung |
+
+## 3. Normen- und Entscheidungsanker
+
+Prüfe BGB Paragrafen 312c, 312d, 312j, 355, 356 und 357 sowie bei Dauerschuldverhältnissen BGB Paragrafen 309 Nummer 9 und 312k in der für den Vertrag geltenden Fassung.
+
+- EuGH, Urteil vom 7. April 2022, C-249/21: Maßgeblich ist die Beschriftung der auslösenden Schaltfläche selbst.
+- EuGH, Urteil vom 5. Oktober 2023, C-565/22: Beim Probeabo hängt ein weiteres Widerrufsrecht davon ab, ob über den späteren Preis bei Abschluss klar informiert wurde.
+- BGH, Urteil vom 4. Mai 2022, XII ZR 64/21: Nur für Fitnessstudio-Schließungsbeiträge und die damalige Laufzeitverlängerung heranziehen, nicht für jedes Abo.
+
+## 4. Beleg- und Zahlungsplan
+
+Erfasse Tarif, Abschlussdatum, Buttontext, Preis, Probephase, Verlängerung, Mindestlaufzeit, Kündigungsdatum, Zugangsnachweis und jede Abbuchung. Rechne Rückforderung und weiter drohende Belastungen getrennt. Ein Screenshot ohne Datum und vollständigen Bestellweg bleibt eine Beweislücke.
+
+## 5. Output
+
+Liefere Ergebnisampel, Fristenblatt, Belegliste, ausformulierte Kündigung oder Widerrufserklärung, bezifferte Rückforderung und kurze Reaktion auf Inkasso. Behaupte keinen Widerrufserfolg, wenn der konkrete Preis- oder Buttonwortlaut fehlt.
+
+---
+
+## Skill: `kindergeld-kinderzuschlag-bescheid`
+
+_Prüft Bescheide zu steuerlichem Kindergeld, sozialrechtlichem Kindergeld und Kinderzuschlag, trennt Einspruch und Widerspruch und erstellt fristwahrende Rechtsbehelfe, Nachweislisten oder Bescheidentwürfe._
+
+# Kindergeld- und Kinderzuschlagsbescheide
+
+## 1. Zweck und Anwendungsfall
+
+Dieser Skill prüft Ablehnungs-, Aufhebungs-, Änderungs- und Erstattungsbescheide der Familienkasse. Er bestimmt vor jeder Sachprüfung, ob steuerrechtliches Kindergeld nach dem Einkommensteuergesetz, sozialrechtliches Kindergeld nach dem Bundeskindergeldgesetz oder Kinderzuschlag nach dem Bundeskindergeldgesetz betroffen ist. Diese Weiche entscheidet über Anspruchsgrundlage, Verfahren, Rechtsbehelf und Rechtsweg.
+
+Vorhandene Bescheide, Anträge, Nachweise und Zahlungsübersichten zuerst vollständig auslesen. Fehlen etwa der Ausbildungsnachweis für einen streitigen Monat oder die für den Kinderzuschlag verwendeten Einkommensbelege, genau diese Unterlagen anfordern. Nach Eingang Zeitraum, Anspruch und Berechnung neu abgleichen und die bestellte Rechtsbehelfsbegründung oder Beratung fertigstellen. Ergibt die Antwort einen entscheidenden Widerspruch zum Berechnungsbogen, kurz nachfassen; bereits beantwortete Angaben nicht wiederholen. Auch eine umfangreiche Akte rechtfertigt keine Annahmen über Haushaltsaufnahme oder Zufluss.
+
+## 2. Verfahrensweiche
+
+1. Steuerrechtliches Kindergeld beruht auf den Paragrafen 62 bis 78 EStG. Gegen den Verwaltungsakt ist grundsätzlich der Einspruch nach Paragraf 347 AO statthaft. Die regelmäßige Einspruchsfrist beträgt nach Paragraf 355 AO einen Monat nach Bekanntgabe; Form und Einlegungsstelle richten sich nach Paragraf 357 AO. Nach der Einspruchsentscheidung führt der Rechtsweg zu den Finanzgerichten.
+2. Sozialrechtliches Kindergeld beruht insbesondere auf Paragraf 1 BKGG. Kinderzuschlag beruht auf Paragraf 6a BKGG. Das Bundeskindergeldgesetz verweist ergänzend auf das Sozialgesetzbuch und eröffnet in Paragraf 15 BKGG den Sozialrechtsweg. Der Widerspruch ist grundsätzlich binnen eines Monats nach Bekanntgabe nach Paragraf 84 SGG einzulegen.
+3. Die Bezeichnung „Familienkasse“ entscheidet die Route nicht. Maßgeblich sind die im Bescheid genannte Anspruchsgrundlage, der Verfügungssatz und die Rechtsbehelfsbelehrung.
+4. Einspruch und Widerspruch sind nicht austauschbar. Eine unrichtige Rechtsbehelfsbelehrung ist gesondert auf ihre Fristwirkung zu prüfen; die zutreffende Rechtsbehelfsart ist dennoch ausdrücklich zu bestimmen.
+
+## 3. Eingaben
+
+- vollständiger Bescheid einschließlich Berechnungsbogen und Rechtsbehelfsbelehrung;
+- Datum und Art der Bekanntgabe sowie Briefumschlag, Zustellnachweis oder Portalnachricht;
+- Antrag und bisheriger Schriftwechsel mit der Familienkasse;
+- Daten zu Berechtigtem, Kind, Haushalt, Wohnsitz und gewöhnlichem Aufenthalt;
+- bei volljährigen Kindern Ausbildungs-, Studien-, Dienst-, Übergangs- und Erwerbsnachweise;
+- bei grenzüberschreitenden Fällen Erwerbsstaaten, Wohnsitze und ausländische Familienleistungen;
+- beim Kinderzuschlag Bedarfs-, Einkommens-, Vermögens-, Miet- und Heizkostennachweise für den maßgeblichen Bewilligungszeitraum;
+- Zahlungsübersicht, Aufrechnung, Erstattungsforderung und bereits geleistete Zahlungen.
+
+## 4. Prüfablauf
+
+1. Erfasse jeden Verfügungssatz getrennt: Festsetzung, Ablehnung, Aufhebung, Änderung, Erstattung, Aufrechnung, vorläufige Zahlungseinstellung oder laufende Auszahlung.
+2. Bilde für jeden Verfügungssatz eine eigene Fristzeile mit Bekanntgabedatum, Fristbeginn, regulärem Fristende, Belehrungsfehler und sicherstem Einreichungsweg.
+3. Ordne den Fall der steuerrechtlichen oder sozialrechtlichen Route zu. Bei gemischten Schreiben behandle jeden Regelungsgegenstand getrennt.
+4. Prüfe beim Kindergeld nach EStG insbesondere Anspruchsberechtigung nach Paragraf 62 EStG, berücksichtigungsfähiges Kind nach Paragraf 63 in Verbindung mit Paragraf 32 EStG, Anspruchskonkurrenz nach Paragraf 64 EStG, andere Leistungen nach Paragraf 65 EStG, Zahlungszeitraum nach Paragraf 66 EStG, Antrag nach Paragraf 67 EStG und Festsetzung oder Änderung nach Paragraf 70 EStG.
+5. Prüfe beim Kindergeld nach BKGG insbesondere den persönlichen Anwendungsbereich des Paragrafen 1 BKGG, konkurrierende Leistungen nach Paragraf 4 BKGG, den Bescheid nach Paragraf 14 BKGG und den Sozialrechtsweg nach Paragraf 15 BKGG.
+6. Prüfe beim Kinderzuschlag jedes Merkmal des Paragrafen 6a BKGG getrennt: Haushaltszugehörigkeit und Alter des Kindes, Kindergeldbezug, Mindesteinkommensgrenze, Vermeidung der Hilfebedürftigkeit, Bedarf der Eltern, Einkommen und Vermögen von Eltern und Kindern sowie den maßgeblichen Bewilligungszeitraum. Werte und Berechnungsparameter sind am aktuellen Normtext zu verifizieren.
+7. Erstelle eine Tatsachen- und Belegmatrix. Weise jedem Tatbestandsmerkmal einen Aktenfund, ein Beweismittel oder eine konkret bezeichnete Lücke zu. Haushaltsaufnahme, Ausbildung, Übergangszeiten, Behinderung, Einkommen und Zuflusszeitpunkt dürfen nicht aus bloßer Plausibilität abgeleitet werden.
+8. Trenne Rückforderung und laufenden Anspruch sowie jeden betroffenen Monat. Eine rechtliche oder tatsächliche Änderung kann nur einen Teilzeitraum erfassen.
+9. Prüfe die stärkste Gegenposition der Familienkasse und benenne genau, welche Norm, Berechnung oder Unterlage sie trägt oder widerlegt.
+10. Bei drohender Einziehung oder Aufrechnung prüfe den vorläufigen Rechtsschutz gesondert. Ein Einspruch hemmt die Vollziehung nicht automatisch; für die steuerrechtliche Route ist insbesondere Paragraf 361 AO zu prüfen. In der sozialrechtlichen Route sind die Wirkungen des Widerspruchs und ein Eilantrag nach den Paragrafen 86a und 86b SGG fallbezogen zu bestimmen.
+
+## 5. Arbeitsprodukte
+
+Auftrag, Rolle und Verfahrensstand bestimmen das benötigte Produkt; nicht alle folgenden Dokumente gleichzeitig erzeugen:
+
+1. ein fristwahrender Einspruch nach der AO oder Widerspruch nach dem SGG mit eindeutigem Antrag, Bescheidbezug und vorbehaltener Begründung;
+2. eine ausformulierte Begründung mit Monatsmatrix, Tatbestandsmerkmalen, Belegen und Gegenargumenten;
+3. eine Nachweis- und Lückenliste, die nur entscheidungserhebliche Unterlagen anfordert;
+4. ein Antrag auf Aussetzung der Vollziehung oder sozialgerichtlichen Eilrechtsschutz, sofern Einziehung, Aufrechnung oder existenzielle Nachteile konkret drohen;
+5. aus Behördensicht ein Bescheid- oder Abhilfeentwurf mit bestimmtem Verfügungssatz, festgestelltem Sachverhalt, nachvollziehbarer Berechnung, tragender Begründung und zutreffender Rechtsbehelfsbelehrung.
+
+Eine Nachweisliste oder vorläufige Begründung ist nur ein Zwischenstand, wenn die vollständige Begründung bestellt ist. Nach Eingang der Unterlagen betroffene Monate und Beträge aktualisieren und den Text abschließen. Ein Beratungsauftrag führt nicht ungefragt zu einem Eilantrag; Einreichungen nur nach Freigabe. Quellenprüfvermerke und technische Grenzen getrennt vom Empfängertext halten. Das Endprodukt ist vollständig ausformuliert. Ein formatiertes Dokument verwendet, soweit technisch möglich, Times New Roman in 11 Punkt und ausschließlich dezimale Gliederung.
+
+## 6. Quellenpflicht
+
+Normen und Fristen sind vor Verwendung am aktuellen amtlichen Text zu prüfen. Maßgebliche Einstiege sind die [Paragrafen 62 bis 78 EStG](https://www.gesetze-im-internet.de/estg/), [Paragrafen 1 und 6a sowie 13 bis 18 BKGG](https://www.gesetze-im-internet.de/bkgg_1996/), [Paragraf 347 AO](https://www.gesetze-im-internet.de/ao_1977/__347.html), [Paragraf 355 AO](https://www.gesetze-im-internet.de/ao_1977/__355.html) und [Paragraf 84 SGG](https://www.gesetze-im-internet.de/sgg/__84.html). Rechtsprechung wird nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Randnummer und amtlicher oder frei zugänglicher Volltextquelle verwendet.
+
+---
+
+## Skill: `schriftsatz-vermerk-und-mustertext`
+
+_Für Schriftsatz, Vermerk und Mustertext: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Verbraucher im Rechtsstaat Alltag._
+
+# Schriftsatz, Vermerk und Mustertext
 
 ## Normenanker
 
@@ -697,47 +418,149 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Fachkern: Inkasso-Brief erste Hilfe
+## Fachkern: Schriftsatz, Vermerk und Mustertext
 - **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
 - **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
 - **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
 
-## Sofortsortierung
+## Kaltstart in fünf Schritten
 
-1. Beteiligte, Rolle und Kommunikationskanal klären: Verbraucher, Behörde, Kammer, Gericht, Plattform, Bank, Kammer oder Verfahrensgegner.
-2. Fristen, Zustellungen, Aktenzeichen, Anhörungen, Mahnungen, Bescheide und Vollstreckungsdrohungen zuerst isolieren.
-3. Zahlungen, Anerkenntnisse, Aussagen gegenüber Polizei/Behörde/Kammer und irreversible Handlungen als rote Zone markieren.
-4. Fehlende Belege konkret nachfordern: Vertrag, Rechnung, AGB, Screenshot, Sendungsnummer, Bescheid, Protokoll, Vollmacht, Zustellnachweis.
-5. Den kleinsten sicheren nächsten Schritt formulieren, bevor ein großer Streit eröffnet wird.
+1. Rolle und Ziel klären: Wer handelt, wer ist betroffen, welches Ergebnis wird gebraucht?
+2. Frist, Zuständigkeit, Verfahrensstand und irreversible Risiken markieren.
+3. Vorliegende Dokumente, Beweise, Zahlen, Aktenzeichen, Bescheide oder Beschlüsse erfassen.
+4. Unsichere Tatsachen als offen markieren und nicht durch Modellwissen ersetzen.
+5. Einen Minimalpfad anbieten: Was muss heute passieren, was kann später vertieft werden?
 
-## Prüfprogramm
+## Prüf- und Arbeitslogik
 
-- **Normen- und Quellenanker:** RDG, Inkassokostenrecht, BGB Verzug, ZPO-Mahnverfahren, SCHUFA-/Auskunftei-Regeln und Verbraucherinformationen live prüfen.
-- **Tatsachenmatrix:** sichere Tatsachen, streitige Tatsachen, fehlende Dokumente und Beweisrisiken getrennt ausgeben.
-- **Kommunikationsstrategie:** sachlich, knapp, fristwahrend; keine unnötigen Zusatzinformationen, keine vorschnellen Schuldanerkenntnisse.
-- **Gegenposition:** die stärkste plausible Gegenseite darstellen und sagen, welche Unterlage oder Norm sie trägt oder entkräftet.
-- **Entscheidungspfad:** sofort handeln, nachfordern, zahlen unter Vorbehalt, widersprechen, Beschwerde, Rechtsbehelf, Vergleich oder professionelle Hilfe.
+- **Normenanker:** BGB Kauf- und Werkvertragsrecht, Verbraucherrecht, VSBG, ZPO-Mahnverfahren, PAngV, DDG und einschlägige EU-Regeln live prüfen
+- **Tatsachenarbeit:** sichere Tatsachen, streitige Tatsachen, fehlende Unterlagen und Beweisprobleme trennen.
+- **Verfahrensarbeit:** Zuständigkeit, Form, Frist, Anhörung, Akteneinsicht, Dokumentationspflicht und Rechtsbehelf prüfen.
+- **Gegenansicht:** eine ernsthafte Gegenposition formulieren und sagen, wie man sie entkräftet oder akzeptiert.
+- **Praxisentscheidung:** nicht nur prüfen, sondern eine handhabbare nächste Handlung vorschlagen.
 
-## Typische Stolperstellen
+---
 
-- Nicht jeder Brief ist ein gerichtlicher Mahnbescheid.
-- Teilzahlungen können Anerkenntnisrisiken haben.
-- Auskunftei-Drohungen müssen rechtlich geprüft werden.
+## Skill: `kaltstart-routing`
 
-## Arbeitsprodukte
+_Für Allgemeiner Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verbraucher im Rechtsstaat Alltag._
 
-Erzeuge Forderungsprüfung, Widerspruch, Auskunftsverlangen, Ratenzahlungswarnung und Fristenblatt.
+# Allgemeiner Kaltstart und Routing
 
-## Prompts, die dieser Skill stellen soll
+## Direktstart: lesen, entscheiden, liefern
 
-- Ist die Hauptforderung bekannt?
-- Kam schon ein gelber Umschlag vom Gericht?
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Kaltstart in fünf Schritten
+
+1. Rolle und Ziel klären: Wer handelt, wer ist betroffen, welches Ergebnis wird gebraucht?
+2. Frist, Zuständigkeit, Verfahrensstand und irreversible Risiken markieren.
+3. Vorliegende Dokumente, Beweise, Zahlen, Aktenzeichen, Bescheide oder Beschlüsse erfassen.
+4. Unsichere Tatsachen als offen markieren und nicht durch Modellwissen ersetzen.
+5. Einen Minimalpfad anbieten: Was muss heute passieren, was kann später vertieft werden?
+
+## Prüf- und Arbeitslogik
+
+- **Normenanker:** BGB Kauf- und Werkvertragsrecht, Verbraucherrecht, VSBG, ZPO-Mahnverfahren, PAngV, DDG und einschlägige EU-Regeln live prüfen
+- **Tatsachenarbeit:** sichere Tatsachen, streitige Tatsachen, fehlende Unterlagen und Beweisprobleme trennen.
+- **Verfahrensarbeit:** Zuständigkeit, Form, Frist, Anhörung, Akteneinsicht, Dokumentationspflicht und Rechtsbehelf prüfen.
+- **Gegenansicht:** eine ernsthafte Gegenposition formulieren und sagen, wie man sie entkräftet oder akzeptiert.
+- **Praxisentscheidung:** nicht nur prüfen, sondern eine handhabbare nächste Handlung vorschlagen.
+
+## Rechtsprechungsbasiertes Routing
+
+- Bei Online-Bestellung, Buchungsseite oder unklarem "Jetzt anmelden"/"Buchung abschließen" sofort `online-bestellbutton-zahlungspflicht` vorschlagen.
+- Bei Kontoentgelten, Preisverzeichnis, Schweigen auf Bankpost oder Online-Banking-Zustimmung `bankentgelte-zustimmungsfiktion` nutzen.
+- Bei Auskunftei, Score, Kredit-/Konto-/Mietabsage oder Restschuldbefreiung `schufa-scoring-negativeintrag-dsgvo` nutzen.
+- Bei kostenloser Testphase, Lernplattform, Streaming, App oder automatischer Verlängerung `probeabo-widerruf-kuendigung` nutzen.
+- Bei Inkasso-Nebenforderungen, Konzerninkasso oder unklaren Gebühren `inkassokosten-konzerninkasso-verzug` nutzen.
+- Bei Fitnessstudio-Schließung, Vertragsverlängerung oder Beitragsrückzahlung `fitnessstudio-rueckzahlung-schliessung` nutzen.
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 13 BGB` — Verbraucherbegriff.
+- `§ 14 BGB` — Unternehmerbegriff.
+- `§ 312c BGB` — Fernabsatzvertrag.
+- `§ 312d BGB` — Informationspflichten.
+- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
+- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
+- `§ 434 BGB` — Sachmangel.
+- `§ 475 BGB` — Verbrauchsgüterkauf.
+- `§ 477 BGB` — Beweislastumkehr.
+- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+---
+
+## Skill: `sitzungs-terminvorbereitung-strom-gas-telefon`
+
+_Für Sitzungs- und Terminvorbereitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verbraucher im Rechtsstaat Alltag._
+
+# Sitzungs- und Terminvorbereitung
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 13 BGB` — Verbraucherbegriff.
+- `§ 14 BGB` — Unternehmerbegriff.
+- `§ 312c BGB` — Fernabsatzvertrag.
+- `§ 312d BGB` — Informationspflichten.
+- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
+- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
+- `§ 434 BGB` — Sachmangel.
+- `§ 475 BGB` — Verbrauchsgüterkauf.
+- `§ 477 BGB` — Beweislastumkehr.
+- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Sitzungs- und Terminvorbereitung
+- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
+- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Kaltstart in fünf Schritten
+
+1. Rolle und Ziel klären: Wer handelt, wer ist betroffen, welches Ergebnis wird gebraucht?
+2. Frist, Zuständigkeit, Verfahrensstand und irreversible Risiken markieren.
+3. Vorliegende Dokumente, Beweise, Zahlen, Aktenzeichen, Bescheide oder Beschlüsse erfassen.
+4. Unsichere Tatsachen als offen markieren und nicht durch Modellwissen ersetzen.
+5. Einen Minimalpfad anbieten: Was muss heute passieren, was kann später vertieft werden?
+
+## Prüf- und Arbeitslogik
+
+- **Normenanker:** BGB Kauf- und Werkvertragsrecht, Verbraucherrecht, VSBG, ZPO-Mahnverfahren, PAngV, DDG und einschlägige EU-Regeln live prüfen
+- **Tatsachenarbeit:** sichere Tatsachen, streitige Tatsachen, fehlende Unterlagen und Beweisprobleme trennen.
+- **Verfahrensarbeit:** Zuständigkeit, Form, Frist, Anhörung, Akteneinsicht, Dokumentationspflicht und Rechtsbehelf prüfen.
+- **Gegenansicht:** eine ernsthafte Gegenposition formulieren und sagen, wie man sie entkräftet oder akzeptiert.
+- **Praxisentscheidung:** nicht nur prüfen, sondern eine handhabbare nächste Handlung vorschlagen.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

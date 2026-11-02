@@ -1,18 +1,25 @@
 # Methodenlehre im Bürgerlichen Recht — Fall Tannenmoor/Radarwarner (Meckenheim)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 573 KB) | PDF | [`gesamt-pdf/methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim_gesamt.pdf`](gesamt-pdf/methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim_gesamt.pdf`](gesamt-pdf/methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-methodenlehre-falldiskurs-radarwarner-werkstattvertrag-tannenmoor-meckenheim-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -82,39 +89,15 @@ Tannenmoor erteilt RA Dr. Roosendaal Auftrag zur Prüfung der Rechtslage.
 |-----|-------|--------|
 | 01 | `01-fallschilderung-tannenmoor-werkstatt.docx` | Sachverhaltsdarstellung durch RA Dr. Roosendaal |
 | 02 | `02-fragenkatalog-mandant.docx` | Fragen des Mandanten Lars Tannenmoor |
-| 03 | `03-erste-grobgutachten-skizze.docx` | Erste Rechtsprüfungsskizze |
-| 04 | `04-anwendungsbereich-werkvertrag-823-bgb.docx` | Vertragstyp und Deliktsrecht |
-| 05 | `05-wortlautauslegung-mangelbegriff-633.docx` | Grammatikalische Auslegung § 633 BGB |
-| 06 | `06-systematische-stellung-werkvertragsrechts.docx` | Systematische Auslegung |
-| 07 | `07-historische-auslegung-schuldrechtsmodernisierung-2002.docx` | Historische Auslegung |
-| 08 | `08-teleologische-auslegung-mangelschutz.docx` | Teleologische Auslegung |
-| 09 | `09-verfassungskonforme-auslegung-art-2-gg.docx` | Verfassungskonforme Auslegung |
-| 10 | `10-analogie-zu-kaufrecht-prueft-bgh-vii-zr-2017.docx` | Analogie (BGH VII ZR 235/15) |
-| 11 | `11-teleologische-reduktion-bei-illegalen-zwecken.docx` | Teleologische Reduktion |
-| 12 | `12-rechtsfortbildung-radarwarner-rechtsprechung.docx` | Richterliche Rechtsfortbildung |
-| 13 | `13-konkurrenzen-werk-und-deliktsrecht.docx` | Konkurrenzlehre |
-| 14 | `14-bgh-rechtsprechungsanalyse-vii-zr-zum-werkvertrag.docx` | BGH-Analyse VII ZR |
-| 15 | `15-bverfg-rechtsprechungslinie-vertragsfreiheit.docx` | BVerfG Art. 12 GG |
-| 16 | `16-literaturmeinungen-medicus-larenz-rueckert.docx` | Literaturauswertung |
-| 17 | `17-eigene-stellungnahme-loesung.docx` | Stellungnahme und Ergebnis |
 | 18 | `18-uebungsklausur-fallabwandlung-i.docx` | Übungsklausur Abwandlung I |
 | 19 | `19-uebungsklausur-fallabwandlung-ii.docx` | Übungsklausur Abwandlung II |
-| 20 | `20-musterloesung-fallabwandlung.md` | Musterlösung Abwandlungen |
-| 21 | `21-merkblatt-aufbau-pruefungsaufbau.docx` | Prüfungsaufbau-Merkblatt |
-| 22 | `22-zusammenfassung-methodenkanon.docx` | Zusammenfassung Methodenkanon |
 
 ## Sonstige Dokumente
 
-- `gutachten-methodenanwendung-radarwarner.docx` — Ausführliches Gutachten (DOCX)
-- `klausurkonzept-radarwarner-i-staatsexamen.docx` — Klausurkonzept Staatsexamen (DOCX)
-- `referat-handout-uebung-im-buergerlichen-recht.docx` — Referat-Handout (DOCX)
-- `auslegungs-matrix.xlsx` — Auslegungsmatrix (XLSX)
+- `31_mahnung_werklohn_tannenmoor.docx` — Zahlungserinnerung und Mahnung der Werkstatt an Sauer-Hellbrunn über 2.380 EUR Werklohn
 - `bgh-rechtsprechungs-uebersicht-werkvertrag.xlsx` — BGH-Rechtsprechungsübersicht (XLSX)
-- `gutachten-tannenmoor-final.pdf` — Finalgutachten (PDF)
-- `methodenkanon-leitfaden.pdf` — Methodenleitfaden (PDF)
 - `radarwarner-foto-tatobjekt.jpg` — Tatortfoto Radarwarner
 - `werkstatt-tannenmoor-schaufenster.jpg` — Werkstattfoto
-- `tafelbild-methoden-uebersicht.jpg` — Tafelbild Methodenüberblick
 
 ## Quellen
 

@@ -2,26 +2,175 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 77 Skills des Plugins `fachanwalt-transport-speditionsrecht`.
+Diese Vollprüfung enthält top-10 von 79 Skills des Plugins `fachanwalt-transport-speditionsrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Fachanwalt Transport Speditionsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und d…
-2. **mandat-triage-transport-speditionsrecht** — Wenn es um Ersteinordnung neuer Mandate im Transport- und Speditionsrecht: Vertragstyp, national vs in Fachanwalt Transp…
-3. **fachanwalt-transport-speditionsrecht-orientierung** — Wenn es um Fachanwalt für Transport- und Speditionsrecht — Orientierung in Fachanwalt Transport Speditionsrecht geht: pr…
-4. **orientierung-mandat-fachanwaltschaft** — Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständ…
-5. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, …
-6. **erstpruefung-und-mandatsziel** — Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Transport Speditionsrecht geht: klärt Ro…
-7. **lieferverzug** — Wenn es um Lieferverzug im Gueterverkehr prüfen: Verspaetungsschaden, Haftungshoechstbetrag, Fristen in Fachanwalt Trans…
-8. **transport-tio-schiedsgericht-adsp-klauseln** — Wenn es um TIO-Schiedsgerichtsklauseln und ADSP-Bedingungen im Transport- und Speditionsrecht prüfen in Fachanwalt Trans…
-9. **reklamationsschreiben-cmr-hgb** — Wenn es um Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten in Fachanwalt Transpo…
-10. **transport-cmr-schadensregulierung** — Wenn es um Schadensregulierung im grenzüberschreitenden Gueterverkehr nach CMR durchführen in Fachanwalt Transport Spedi…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Transport Speditionsrecht ein juristisches Arbeitsprodukt tragfähig begründet werd…
+2. **transportprozess-versandmappe-endfertigen** — Endfertigt Fracht-, Speditions- und multimodale Transportprozesse: bestimmt Strecke, Obhut, Beteiligte, Haftungsregime u…
+3. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+4. **mandat-triage-transport-speditionsrecht** — Für Ersteinordnung neuer Mandate im Transport- und Speditionsrecht: Vertragstyp, national vs: routet Rolle, Frist, Unter…
+5. **orientierung-mandat-fachanwaltschaft** — Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+6. **fachanwalt-transport-speditionsrecht-orientierung** — Für Fachanwalt für Transport- und Speditionsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: P…
+7. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **erstpruefung-und-mandatsziel** — Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: T…
+9. **teilverlust-packstueckabgleich-haftungsdurchbrechung** — Rekonstruiert verdeckte Teilverluste aus Packlisten, Wiegedaten, Umschlagscans und Ablieferbelegen und prüft Haftungsgre…
+10. **kanzlei-red-team-und-qualitaetskontrolle** — Für Kanzlei: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit B…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Transport Speditionsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Transport Speditionsrecht
+
+## 1. Direktstart
+
+Arbeite als Bearbeiter für grenzüberschreitende Mandate: Kollisionsrecht, internationale Zuständigkeit, CISG und Einheitsrecht, Schiedsverfahren, Anerkennung und Vollstreckung sowie Exportkontrolle. Arbeite sofort am konkreten Fall: Die erste Ausgabe ist immer die Auslands-Zergliederung (Parteien und Sitzstaaten, Vertrags- und Gerichtsstandsklauseln, Anknüpfungsmomente, Fristen), danach folgt das gewünschte Arbeitsprodukt.
+
+Pluginauftrag: Plugin Fachanwalt für Transport- und Speditionsrecht. HGB Paragrafen 407 ff. Frachtvertrag Paragrafen 453 ff. Spedition CMR COTIF Montrealer Übereinkommen Haager Visby Regeln ADSp. Schnittstelle Plugin kanzlei-allgemein.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Transport Speditionsrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Zuständigkeitsrüge, Rechtswahlvermerk, Anerkennung, Vollstreckung oder Schiedsstrategie.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Auslands-Zergliederung | Parteien mit Sitzstaaten, Vertragsklauseln zu Rechtswahl, Gerichtsstand und Schiedsverfahren, Anknüpfungsmomente und Fristen als Raster erfassen |
+| Forum | internationale Zuständigkeit prüfen (Brüssel-Ia-VO, Gerichtsstandsklausel, Schiedsvereinbarung); Torpedo- und Parallelverfahrensrisiken benennen |
+| Anwendbares Recht | Rechtswahl und objektive Anknüpfung nach Rom I und Rom II bestimmen; CISG-Anwendbarkeit und Abwahl gesondert prüfen |
+| Materielle Prüfung nach dem berufenen Recht | bei ausländischem Recht Ermittlungsweg nach Paragraf 293 ZPO benennen statt Inhalte zu erfinden |
+| Durchsetzung | Anerkennung und Vollstreckung, Schiedsspruch nach dem New Yorker Übereinkommen, Zustellung ins Ausland sowie Sanktions- und Exportkontrollfilter vor jedem Vollzugsschritt |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. CMR-Haftung – Grenzüberschreitender Straßengüterverkehr: Bearbeite den Fachpunkt im Skill fachanwalt-transport-speditionsrecht-cmr-haftung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Autonome LKW-Konvois – Haftung Paragraf 1d StVG und CMR: Bearbeite den Fachpunkt im Skill fachanwalt-transport-autonome-lkw-konvois-haftung-1d-stvg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Speditions-Haftung Paragrafen 453 ff. HGB: Bearbeite den Fachpunkt im Skill fachanwalt-transport-speditionshaftung-hgb und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Ladungsschaden – Innerdeutscher Frachtverkehr (HGB): Bearbeite den Fachpunkt im Skill fachanwalt-transport-speditionsrecht-ladungsschaden und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. Brüssel-Ia-VO Artikel 4, 7 und 25: allgemeiner und besonderer Gerichtsstand sowie Gerichtsstandsvereinbarung.
+4.2. Rom-I-VO Artikel 3 und 4: Rechtswahl und objektive Anknüpfung vertraglicher Schuldverhältnisse; Artikel 9: Eingriffsnormen.
+4.3. Rom-II-VO Artikel 4: Erfolgsortanknüpfung außervertraglicher Schuldverhältnisse.
+4.4. CISG Artikel 1 und 6: Anwendungsbereich und Abwahl; Artikel 38 und 39: Untersuchungs- und Rügepflicht; Artikel 74: Schadensersatz.
+4.5. New Yorker Übereinkommen Artikel II und V: Schiedsvereinbarung und Anerkennungsversagungsgründe.
+4.6. ZPO Paragraf 293: Ermittlung ausländischen Rechts durch das Gericht.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Anspruchsteller für Anknüpfung, Zuständigkeit und Vollstreckbarkeit; Gegner für Gerichtsstand, ordre public und Einreden.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Klausel regelt Forum und Recht, und ist sie wirksam vereinbart.
+7.2. Welches Gericht oder Schiedsgericht ist zuständig, und wo droht ein Parallelverfahren.
+7.3. Welches Sachrecht ist berufen, und gilt CISG oder nationales Recht.
+7.4. Wie wird der Inhalt ausländischen Rechts belastbar ermittelt.
+7.5. Wo wird vollstreckt, und welche Anerkennungs-, Zustellungs- oder Sanktionshürde steht davor.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Auslands-Zergliederung, Forum, Anwendbares Recht, Materielle Prüfung nach dem berufenen Recht: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Zuständigkeitsrüge, Rechtswahlvermerk, Anerkennung, Vollstreckung oder Schiedsstrategie verwendbar?
+
+---
+
+## Skill: `transportprozess-versandmappe-endfertigen`
+
+_Endfertigt Fracht-, Speditions- und multimodale Transportprozesse: bestimmt Strecke, Obhut, Beteiligte, Haftungsregime und Gerichtsstand, ordnet Frachtbriefe, Scans, Vorbehalte, Wiege-, Temperatur-, Ortungs- und Schadensdaten und liefert eine beA-fertige Versandmappe mit Haftungs-, Fristen- und Mengenmatrix._
+
+# Transportprozess-Versandmappe endfertigen
+
+## 1. Transportkette abbilden
+
+Lies Schriftsatz, Auftrag, Frachtbrief, Unterfrachtverträge, Übergabe- und Ablieferbelege, Vorbehalte und Schadensunterlagen zuerst. Zeichne Versandort, Umschlag, Verkehrsträger, Grenzübertritte und Ablieferung mit Uhrzeit und verantwortlichem Beteiligten nach. Erst danach Haftungsregime und Versandmappe festlegen.
+
+## 2. Haftungs- und Fristenkontrolle
+
+1. Absender, Frachtführer, Spediteur, Unterfrachtführer, Empfänger, Lagerhalter und Versicherer exakt bezeichnen.
+2. HGB, CMR, Montrealer Übereinkommen, COTIF, Seehandelsrecht oder Multimodalrecht abschnittsbezogen zuordnen.
+3. Obhutszeit, Verlust, Beschädigung oder Lieferfristüberschreitung mit Übergabepunkten belegen.
+4. Vorbehalts-, Anzeige-, Ausschluss- und Verjährungsfristen getrennt berechnen.
+5. Rohschaden, Haftungshöchstbetrag, Sonderziehungsrechte, qualifiziertes Verschulden und Mitverursachung in einer Rechenmatrix offenlegen.
+
+## 3. Transportanlagen lesbar machen
+
+Ordne Auftrag, Frachtbrief, Ladeliste, Scanereignisse, CMR-Vorbehalt, Fotos, Temperatur- und Ortungsdaten, Gutachten, Handelsrechnung, Ersatzbeschaffung und Regresskorrespondenz nach Sendung und Packstück. Lange Trackingexporte erhalten eine Ereignistabelle mit Fundstellen; fremdsprachige Dokumente bleiben mit Übersetzung verknüpft.
+
+## 4. Verfahrensanker
+
+- Internationale Zuständigkeit und Gerichtsstand aus dem tatsächlich anwendbaren Transportübereinkommen prüfen, nicht allein aus AGB oder allgemeinem Zivilprozessrecht.
+- Die Darlegung muss Strecke, Obhutszeit und konkretes Schadensbild verbinden; eine bloße Schadenssumme ersetzt weder Warenwert noch Haftungsberechnung.
+- Bei deutschem Gericht Hauptdokument und Anlagen einzeln als PDF übermitteln und den Eingang anhand der automatisierten Bestätigung samt Anhängen prüfen.
+
+## 5. Auslieferung
+
+Liefere Hauptdokument, Einzelanlagen, Transportketten- und Beteiligtenmatrix, Haftungsrechnung, Fristenblatt, Zustellplan, Manifest und Eingangscheck. Stoppe bei ungeklärtem Verkehrsträger, fehlendem Übergabepunkt, widersprüchlicher Sendungsnummer oder nicht nachvollziehbarer Schadensberechnung.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Fachanwalt Transport Speditionsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Transport Speditionsrecht._
 
 # Einstieg und Routing
 
@@ -65,7 +214,7 @@ Dieser Einstieg routet **Fachanwalt Transport Speditionsrecht** vom ersten Sachv
 
 ## Skill: `mandat-triage-transport-speditionsrecht`
 
-_Wenn es um Ersteinordnung neuer Mandate im Transport- und Speditionsrecht: Vertragstyp, national vs in Fachanwalt Transport Speditionsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Ersteinordnung neuer Mandate im Transport- und Speditionsrecht: Vertragstyp, national vs: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Ersteinordnung neuer Mandate im Transport- und Speditionsrecht: Vertragstyp, national vs
 
@@ -82,8 +231,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -220,84 +367,13 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 ## Aktuelle Rechtsprechung Triage Transport
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
----
-
-## Skill: `fachanwalt-transport-speditionsrecht-orientierung`
-
-_Wenn es um Fachanwalt für Transport- und Speditionsrecht — Orientierung in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt für Transport- und Speditionsrecht — Orientierung
-
-## FAO-Voraussetzungen
-
-- Lehrgang 120 Stunden + drei Klausuren.
-- 40 Fälle in den letzten drei Jahren, davon mindestens 25 streitige.
-
-## Wichtige Normen
-
-| Bereich | Norm |
-|---|---|
-| Frachtvertrag | HGB §§ 407 ff. |
-| Haftung Frachtführer | HGB §§ 425 ff. (Obhutshaftung Haftungshöchstbetrag § 431) |
-| Speditionsvertrag | HGB §§ 453 ff. |
-| Lagervertrag | HGB §§ 467 ff. |
-| Straßenverkehr international | CMR (Convention relative au contrat de transport international de marchandises par Route) |
-| Eisenbahn international | COTIF / CIM (Convention concernant les transports internationaux ferroviaires) |
-| Luftverkehr | Montrealer Übereinkommen 1999 |
-| Seehandel | Haager Visby Regeln BGB-HGB §§ 476 ff. Hamburg-Regeln (nicht in Deutschland in Kraft) |
-| Multimodaler Transport | CMR / CIM in Anwendung |
-| AGB Spedition | ADSp 2017 |
-| EU-Recht | RL 2009/103 Kfz-Versicherung VO 261/2004 Fluggastrechte |
-
-## Typische Mandate
-
-- Frachtschadens-Klage (Verlust Beschädigung Verspätung)
-- Spediteurshaftung
-- Haftungshöchstgrenzen § 431 HGB CMR Art. 23 Montrealer Übereinkommen Art. 22
-- Reklamations- und Klagefristen
-- ADSp-Anwendung (Spediteursklauseln)
-- Container-Streitigkeiten in Seehandel
-- Pflichtversicherung Kraftverkehr Spediteur Frachtführer
-- Internationale Vollstreckung
-
-## Fristen
-
-- **Reklamationsfrist** HGB / CMR / Montrealer:
-  - HGB § 438 — sieben Tage bei äußerlich erkennbarem Schaden binnen drei Tagen.
-  - CMR Art. 30 — sofort bei Annahme Verluste / Beschädigung; sieben Tage bei nicht erkennbaren.
-  - Montrealer Art. 31 — 14 Tage Beschädigung 21 Tage Verspätung.
-- **Verjährung Frachtschaden** § 439 HGB — ein Jahr (drei Jahre bei Vorsatz / grob fahrlaessig).
-- **CMR Art. 32** — ein Jahr (drei Jahre bei Vorsatz).
-- **Klagefrist Fluggast** keine Frist im Montrealer; Verjährung zwei Jahre Art. 35 MontU.
-
-## Hauptgerichte
-
-- Amtsgericht / Landgericht Zivilkammer.
-- OLG.
-- BGH I. Zivilsenat Transportrecht (Sondersenat).
-- Ausländische Gerichte bei Auslandsbezug.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Berufsverband
-
-- ARGE Transportrecht DAV.
-
-## Schnittstellen
-
-- **gesellschaftsrecht** bei Spediteur-Gesellschaft.
-- **fachanwalt-internationales-wirtschaftsrecht** bei grenzüberschreitenden Transporten.
-- **fachanwalt-versicherungsrecht** bei Transportversicherung.
-- **kanzlei-allgemein** Fristen Versand.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `orientierung-mandat-fachanwaltschaft`
 
-_Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Transport Speditionsrecht._
 
 # Orientierungs-Skill Transport- und Speditionsrecht: richtigen Skill anhand Sachverhalt auswaehlen
 
@@ -314,8 +390,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -391,9 +465,80 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 ---
 
+## Skill: `fachanwalt-transport-speditionsrecht-orientierung`
+
+_Für Fachanwalt für Transport- und Speditionsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Fachanwalt für Transport- und Speditionsrecht — Orientierung
+
+## FAO-Voraussetzungen
+
+- Lehrgang 120 Stunden + drei Klausuren.
+- 40 Fälle in den letzten drei Jahren, davon mindestens 25 streitige.
+
+## Wichtige Normen
+
+| Bereich | Norm |
+|---|---|
+| Frachtvertrag | HGB §§ 407 ff. |
+| Haftung Frachtführer | HGB §§ 425 ff. (Obhutshaftung Haftungshöchstbetrag § 431) |
+| Speditionsvertrag | HGB §§ 453 ff. |
+| Lagervertrag | HGB §§ 467 ff. |
+| Straßenverkehr international | CMR (Convention relative au contrat de transport international de marchandises par Route) |
+| Eisenbahn international | COTIF / CIM (Convention concernant les transports internationaux ferroviaires) |
+| Luftverkehr | Montrealer Übereinkommen 1999 |
+| Seehandel | Haager Visby Regeln BGB-HGB §§ 476 ff. Hamburg-Regeln (nicht in Deutschland in Kraft) |
+| Multimodaler Transport | CMR / CIM in Anwendung |
+| AGB Spedition | ADSp 2017 |
+| EU-Recht | RL 2009/103 Kfz-Versicherung VO 261/2004 Fluggastrechte |
+
+## Typische Mandate
+
+- Frachtschadens-Klage (Verlust Beschädigung Verspätung)
+- Spediteurshaftung
+- Haftungshöchstgrenzen § 431 HGB CMR Art. 23 Montrealer Übereinkommen Art. 22
+- Reklamations- und Klagefristen
+- ADSp-Anwendung (Spediteursklauseln)
+- Container-Streitigkeiten in Seehandel
+- Pflichtversicherung Kraftverkehr Spediteur Frachtführer
+- Internationale Vollstreckung
+
+## Fristen
+
+- **Reklamationsfrist** HGB / CMR / Montrealer:
+  - HGB § 438 — sieben Tage bei äußerlich erkennbarem Schaden binnen drei Tagen.
+  - CMR Art. 30 — sofort bei Annahme Verluste / Beschädigung; sieben Tage bei nicht erkennbaren.
+  - Montrealer Art. 31 — 14 Tage Beschädigung 21 Tage Verspätung.
+- **Verjährung Frachtschaden** § 439 HGB — ein Jahr (drei Jahre bei Vorsatz / grob fahrlaessig).
+- **CMR Art. 32** — ein Jahr (drei Jahre bei Vorsatz).
+- **Klagefrist Fluggast** keine Frist im Montrealer; Verjährung zwei Jahre Art. 35 MontU.
+
+## Hauptgerichte
+
+- Amtsgericht / Landgericht Zivilkammer.
+- OLG.
+- BGH I. Zivilsenat Transportrecht (Sondersenat).
+- Ausländische Gerichte bei Auslandsbezug.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Berufsverband
+
+- ARGE Transportrecht DAV.
+
+## Schnittstellen
+
+- **gesellschaftsrecht** bei Spediteur-Gesellschaft.
+- **fachanwalt-internationales-wirtschaftsrecht** bei grenzüberschreitenden Transporten.
+- **fachanwalt-versicherungsrecht** bei Transportversicherung.
+- **kanzlei-allgemein** Fristen Versand.
+
+---
+
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Transport Speditionsrecht._
 
 # Erstgespraeches-Aufnahme im Transport- und Speditionsrecht strukturiert durchführen: Sachverhalt, Vertragstyp, Schadenstyp
 
@@ -556,10 +701,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
 - Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
 
-## Aktuelle Rechtsprechung Erstgespraech Transport
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen Erstgespraech Transport
 
 - §§ 407-413 HGB — Frachtvertrag (Grundlagen, Pflichten, Haftung)
@@ -568,11 +709,13 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - Art. 5 CMR — Frachtbrief als Beweisurkunde
 - §§ 10 ff. GwG — Identifizierungspflichten auch im Transportrechtsmandat
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstpruefung-und-mandatsziel`
 
-_Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Transport Speditionsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Transport Speditionsrecht._
 
 # Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -623,27 +766,87 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `lieferverzug`
+## Skill: `teilverlust-packstueckabgleich-haftungsdurchbrechung`
 
-_Wenn es um Lieferverzug im Gueterverkehr prüfen: Verspaetungsschaden, Haftungshoechstbetrag, Fristen in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Rekonstruiert verdeckte Teilverluste aus Packlisten, Wiegedaten, Umschlagscans und Ablieferbelegen und prüft Haftungsgrenze sowie qualifiziertes Verschulden. Für wertvolle Stückgutsendungen nach HGB, nicht für reinen Lieferverzug oder abstrakte Exportkontrolle._
 
-# Lieferverzug im Gueterverkehr prüfen: Verspaetungsschaden, Haftungshoechstbetrag, Fristen
+# 1. Teilverlust, Packstückabgleich und Haftung
+
+## 1.1. Zweck und Anwendungsfall
+
+Bearbeite den Teilverlust einer wertvollen Sendung trotz quittierter Ablieferung anhand einer Packstück- und Ereigniskette. Im Mittelpunkt stehen die Differenz zwischen Warenwert und gewichtsbezogener Haftungsgrenze sowie der erforderliche Beweis. Anders als allgemeine Haftungsmodule stellt dieser Arbeitsgang Packinhalt, Verpackungsmanipulation und Informationslücken des Frachtführers für den konkreten Transport gegenüber.
+
+## 1.2. Eingaben
+
+Lies Frachtauftrag, Transportstrecke und Verkehrsträger, Frachtbrief, Packliste, Packprotokoll, Wiegedaten, Scans, Fotos, Empfängerprotokoll, Warenrechnung und Reklamation. Erfasse Auftraggeber, Frachtführer, Unterfrachtführer, Empfänger und gegebenenfalls Versicherer mit Anspruchsübergang aus den vorhandenen Angaben. Frage nach entscheidenden fehlenden Nachweisen und liefere daneben die gesicherten Teile vorläufig. Unterscheide Sollinhalt laut Packliste und tatsächlich belegten Ausgangsinhalt.
+
+## 1.3. Ablauf und Checkliste
+
+### 1.3.1. Regime und Beweiskette
+
+Prüfe zuerst, ob ein rein innerdeutscher Straßentransport nach HGB vorliegt. Bei grenzüberschreitender oder multimodaler Beförderung keine HGB-Fristen und Gewichtsformeln ungeprüft verwenden; stattdessen Regime und Übergang ausdrücklich bestimmen. ADSp nur nach belegter Einbeziehung, Fassung und Wirksamkeitsprüfung.
+
+Ordne jeder Packstückkennung Sollinhalt, bestätigten Ausgangsinhalt, Gewicht samt Verpackung, Siegel, Übergabe, Umschlag, Zustellung und Istinhalt zu. Trenne physischen Scan, vorangekündigten Systemstatus und manuellen Nachtrag. Eine quittierte Kiste beweist nicht notwendig ihren unversehrten Inhalt. Zeige Zeitfenster des möglichen Verlusts; prüfe zugleich Alternativen vor Übernahme und nach Ablieferung. Zeugen und Fotos mit Zeitpunkt und konkreter Wahrnehmung benennen.
+
+Bei Verladung [BGH, Urteil vom 18.06.2026 – Az. I ZR 125/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_125-25.pdf?__blob=publicationFile&v=1), Rn. 14–25, 35: Ein vertraglich zugesagtes besonderes Lademittel spricht regelmäßig für übernommene Verladung und Obhut ab Besitzergreifung zum Laden. Auftrag und Gerätezusage beiziehen; Hebebühne oder Fahrerhilfe allein genügen nicht. Schadensursache und Mitverschulden blieben aufklärungsbedürftig.
+
+### 1.3.2. Haftung und qualifiziertes Verschulden
+
+Prüfe Obhutsverlust nach Paragraf 425 HGB, Zurechnung nach Paragraf 428 und konkrete Entlastungstatsachen. Paragraf 435 HGB erfasst alternativ Vorsatz oder Leichtfertigkeit mit Bewusstsein wahrscheinlichen Schadenseintritts. Nachgewiesene vorsätzliche Entwendung durch eine zurechenbare Transportperson erfordert kein zusätzliches leichtfertiges Organisationsverschulden. Bei einem außenstehenden Dieb dessen Vorsatz nicht dem Frachtführer zurechnen, sondern dessen eigenen oder nach Paragraf 428 zurechenbaren Beitrag mit dem erforderlichen Verschulden prüfen. Diese Unterscheidung trägt BGH I ZR 87/11, Randnummer 19, für Artikel 3 und 29 CMR; für HGB anhand Paragrafen 428 und 435 eigenständig begründen. Fehlender Scan oder hoher Schaden allein beweist keine Alternative. Trage greifbare Anhaltspunkte für Manipulation, Kontrollausfall oder ungeklärte Übergabe zusammen.
+
+Leite eine sekundäre Darlegungslast nicht pauschal aus jedem Verlust ab. Bei nachgewiesener Öffnung, Entnahme und Wiederverschluss während der Obhut den Darlegungsgrundsatz aus BGH I ZR 87/11, Randnummern 16 bis 20, begründet auf Paragraf 435 HGB übertragen: Transportlauf, Schnittstellenkontrollen, Sicherheitsmaßnahmen und Nachforschung konkret erfragen. Das ersetzt nicht die ursprüngliche Beweislast. Wertwarnung muss nach Randnummern 26 bis 28 noch rechtzeitige Reaktion im normalen Geschäftsgang ermöglichen; Vertragsabschluss ist nicht zwingend die späteste Grenze. Keine automatische Halbierung.
+
+### 1.3.3. Betrag und Fristen
+
+Ermittle Wert am Ort und zur Zeit der Übernahme, Menge, Restwert und Nebenkosten getrennt. Rechne im HGB-Regelfall die Grenze mit 8,33 Sonderziehungsrechten je Kilogramm des nach Paragraf 431 maßgeblichen Rohgewichts; bei Teilentwertung betroffener Gesamtstücke Gewicht und Wertverlust gesondert prüfen. Kurs, Stichtag und Quelle ausweisen. Vergleiche gedeckelte Haftung und belegbare unbeschränkte Variante ohne erfundene Erfolgsquote.
+
+Nach Paragraf 438 HGB unterscheiden: äußerlich erkennbarer Schaden bei Ablieferung, verdeckter Schaden innerhalb von sieben Tagen und Lieferfristüberschreitung innerhalb von 21 Tagen. Fehlende Verlustanzeige begründet eine Vermutung, nicht den automatischen Anspruchsuntergang des Verlustanspruchs. Verjährung nach Paragraf 439 mit Beginn, Anspruchserhebung, Ablehnung und deren Zugang separat erfassen; Wiederholung desselben Anspruchs hemmt nicht erneut. Für jedes Regressglied eine eigene Zeile führen.
+
+Fehlen Wiege- oder Packnachweise, fordere sie packstückbezogen an und kläre, wer den Inhalt zu welchem Zeitpunkt wahrgenommen hat. Nachgereichte Unterlagen gegen Scan- und Übergabezeiten abgleichen; danach Verlustzeitraum, maßgebliches Gewicht, Schadensrechnung und betroffene Haftungsargumentation aktualisieren. Ergibt sich etwa ein abweichender Öffnungszeitpunkt, frage gezielt nach, ohne den übrigen Transport erneut aufzunehmen. Schreibe anschließend die bestellte Anspruchsbegründung oder Erwiderung fertig und prüfe die geänderten Gewichte, Summen und Fristen. Keine Haftbarhaltung versenden, keinen Vergleich schließen und keine Verjährungsverzichtserklärung abgeben.
+
+## 1.4. Quellenpflicht
+
+Optional zur Vertiefung: [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-transport-speditionsrecht/references/zitierweise.md). Auch ohne Referenzzugriff gilt: Tragende Aussagen mit aktueller Norm und amtlicher Entscheidung samt Gericht, Form, Datum, Aktenzeichen und überprüfter Passage belegen; Literatur nur bei tatsächlich zugänglicher Quelle. Amtliche Normen: [Paragraf 431 HGB](https://www.gesetze-im-internet.de/hgb/__431.html), [Paragraf 435](https://www.gesetze-im-internet.de/hgb/__435.html), [Paragraf 438](https://www.gesetze-im-internet.de/hgb/__438.html), [Paragraf 439](https://www.gesetze-im-internet.de/hgb/__439.html).
+
+BGH, Urteil vom 13.06.2012, Az. I ZR 87/11, [amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2011/I_ZR__87-11.pdf?__blob=publicationFile&v=1), Leitsätze: sekundäre Darlegung bei geöffneter und wieder verschlossener Verpackung; rechtzeitiger Hinweis auf hohen Warenwert. Der Fall betrifft CMR, nicht unmittelbar HGB; die allgemeine Beweislogik nur nach ausdrücklichem Übertragbarkeitscheck verwenden. Quellenprüfung: 14.09.2026.
+
+Für die getrennten Berechnungswege: BGH, Urteil vom 02.07.2026, Az. I ZR 134/25, [amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_134-25.pdf?__blob=publicationFile&v=1), Randnummern 19 bis 20 und 58 bis 68, am 22.09.2026 erneut gelesen. Bei qualifiziertem Verschulden besteht die Wahl zwischen Wertersatz nach Paragraf 429 HGB mit dessen Grenzen und Schadensersatz nach Paragraf 435 HGB in Verbindung mit Paragrafen 249 und 252 BGB. Keine Mischrechnung. Bergungskosten fallen nicht unter Paragraf 432 Satz 1 HGB; die Frage unmittelbar substanzrettender Kosten im Wertersatz blieb offen. Der Aufliegerschaden belegt weder Verpackungsmanipulation noch qualifiziertes Verschulden im konkreten Teilverlustfall.
+
+## 1.5. Ausgabeformat
+
+Liefere die bestellte Anspruchsbegründung oder Erwiderung mit bezifferter Alternativrechnung unter dem gewünschten Dateinamen, ohne Vorgabe unter `ergebnis.md`. Packstück- und Ereignisübersichten sowie Fristenaufstellungen nur als benötigte Erläuterung ergänzen; ein reiner Prüfauftrag führt nicht ungefragt zur Klage. Offene Nachweise und ihr Einfluss auf das Ergebnis bleiben kenntlich.
+
+Technische Grenzen und Quellenstatus stehen in einer getrennten Arbeitsnotiz. Ohne Dateiexport den bestellten Text mit Packstückabgleich und den erforderlichen Haftungsberechnungen vollständig in der Antwort bereitstellen, nicht nur einen Dateinamen oder angeblichen Download. Vollständige Sätze statt Stichwortskelette. Dezimale Gliederung, Paragraf ausgeschrieben, keine Doppelsterne im Fließtext. Exporthinweis: Times New Roman, 11 pt.
+
+## 1.6. Beispiele
+
+Geeignet: Ein wieder verklebter Karton enthält nach innerdeutschem Transport nur sechs statt zehn Geräte; vergleichen Sie Packbeweise, Gewichtshaftung und Organisationsmängel.
+
+Nicht geeignet: Prüfen Sie ausschließlich eine Exportgenehmigung für eine vollständig angelieferte Maschine.
+
+---
+
+## Skill: `kanzlei-red-team-und-qualitaetskontrolle`
+
+_Für Kanzlei: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: Fachanwalt Transport Speditionsrecht._
+
+# Kanzlei: Red-Team und Qualitätskontrolle
 
 
-## Direktstart: lesen, entscheiden, liefern
+## Normenanker
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+- `§ 241 Abs. 2 BGB` — Rücksichtnahme-, Schutz- und Organisationspflichten.
+- `§ 242 BGB` — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit.
+- `§ 280 Abs. 1 BGB` — Pflichtverletzung, Vertretenmuessen, Schaden.
+- `§ 286 Abs. 1 BGB` — Verzug und Fristlogik.
+- `§ 195 BGB` — regelmäßige Verjährung.
+- `§ 199 Abs. 1 BGB` — Beginn der regelmäßigen Verjährung.
+- `§ 253 Abs. 2 ZPO` — Bestimmtheit von Antrag und Klagegrund.
+- `§ 138 Abs. 1 ZPO` — Wahrheitspflicht und vollstaendiger Tatsachenvortrag.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
-
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 
 ## Arbeitsweg
 
@@ -653,662 +856,32 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** Lieferverzug im Gueterverkehr prüfen: Verspaetungsschaden, Haftungshoechstbetrag, Fristen. Normen: §§ 423 425 HGB, Art. 19 23 CMR. Prüfraster: Ablieferungsfrist, Verspaetungsschaden, Haftungsgrenze dreifacher Frachtpreis, Verjaebrung. Output: Lieferverzug-Haftungsanalyse. Abgrenzung: nicht Ladungsschaden.
-
-### Lieferverzug
-
-## Kaltstart-Rückfragen
-
-1. Wurde eine konkrete Lieferfrist vereinbart oder gilt eine angemessene Frist § 423 HGB?
-2. Inländischer Transport (HGB) oder grenzüberschreitend (CMR)?
-3. Wann ist die Ablieferung tatsächlich erfolgt und wie viele Tage Verzug liegen vor?
-4. Welcher Schaden ist eingetreten (Vertragsstrafe gegenüber Endkunde, Produktionsausfall, Deckungskäufe)?
-5. Wurde die Schadensanzeige binnen 21 Tagen § 438 Abs. 3 HGB erstattet?
-
-## Anspruchsgrundlagen
-
-- Lieferfrist § 423 HGB — vereinbarte Frist oder angemessene Frist; Wegfall des Lieferinteresses führt zu Schadensersatz wegen Nichterfüllung.
-- Haftung für Lieferverzug § 425 HGB.
-- Höchstbetrag bei reinem Verzugsschaden § 431 Abs. 3 HGB — höchstens dreifache Fracht.
-- CMR Art. 19: Lieferverzug wenn vereinbarte Frist überschritten oder bei fehlender Frist die Frist, die einem sorgfältigen Frachtführer billigerweise zugestanden werden muss, überschritten ist.
-- CMR Art. 23 Abs. 5: Verzugsentschädigung höchstens Frachtbetrag.
-- Wertdeklaration § 449 HGB / Art. 26 CMR durchbricht Höchstbetrag.
-- Qualifiziertes Verschulden § 435 HGB / Art. 29 CMR unbegrenzte Haftung.
-- Schadensanzeige § 438 Abs. 3 HGB / Art. 30 Abs. 3 CMR: 21 Tage nach Ablieferung — sonst Anspruch erloschen (CMR) bzw. Beweislastnachteil (HGB).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Beweislast und Frist
-
-- Anspruchsteller trägt Beweis für vereinbarte oder angemessene Lieferfrist, Verzug, Schaden und Kausalität.
-- Frachtführer trägt Beweis für Entlastung § 426 HGB / Art. 17 Abs. 2 CMR.
-- Schadensanzeige § 438 Abs. 3 HGB: binnen 21 Tagen schriftlich.
-- CMR Art. 30 Abs. 3 CMR: binnen 21 Tagen schriftlich, sonst Anspruch ausgeschlossen.
-- Verjährung § 439 HGB / Art. 32 CMR ein Jahr.
-
-## Prüfschema
-
-```
-1. Anwendungsbereich HGB oder CMR?
-2. Lieferfrist konkret oder angemessen § 423 HGB / Art. 19 CMR
-3. Verzugseintritt + tatsaechliche Ablieferung
-4. Schadensanzeige 21 Tage gewahrt?
-5. Entlastungsbeweis Frachtfuehrer
-6. Schadenshoehe
- - HGB: dreifache Fracht § 431 Abs. 3 HGB
- - CMR: Frachtbetrag Art. 23 Abs. 5 CMR
-7. Wertdeklaration § 449 HGB / Art. 26 CMR pruefen
-8. Qualifiziertes Verschulden § 435 HGB / Art. 29 CMR
-9. Wegfall Lieferinteresse § 423 HGB — Schadensersatz statt Erfuellung
-```
-
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-
-## Schreibvorlage Verzugsforderung
-
-```
-Sehr geehrte Damen und Herren,
-
-namens und in Vollmacht unserer Mandantschaft machen wir Schadens-
-ersatz wegen Lieferverzugs aus dem Frachtvertrag vom [Datum]
-(Frachtbrief-Nr. [...]) geltend.
-
-Sachverhalt:
-- Vereinbarte Lieferfrist: Ankunft beim Empfaenger spaetestens [Datum/
- Uhrzeit] gemaess Frachtauftrag Ziffer [X] (Anlage K1)
-- Tatsaechliche Ablieferung: [Datum/Uhrzeit] = [N] Stunden / Tage
- Verzug
-- Schadensanzeige § 438 Abs. 3 HGB / Art. 30 Abs. 3 CMR mit Schreiben
- vom [Datum] (innerhalb 21 Tage)
-
-Haftung:
-- Lieferfrist nicht eingehalten § 423 HGB / Art. 19 CMR
-- Entlastung § 426 HGB / Art. 17 Abs. 2 CMR nicht ersichtlich
-- Hilfsweise Qualifiziertes Verschulden § 435 HGB / Art. 29 CMR durch
- [Pflichtverletzung]
-
-Schaden:
-- Vertragsstrafe an Endkunde EUR [Betrag] (Anlage K2)
-- Produktionsausfall EUR [Betrag] (Anlage K3)
-- Deckungskaeufe EUR [Betrag] (Anlage K4)
-
-Hoechstbetrag bei reinem Verzugsschaden:
-- HGB: dreifache Fracht EUR [Betrag]
-- CMR: Frachtbetrag EUR [Betrag]
-Bei Qualifiziertem Verschulden Vollersatz.
-
-Wir fordern Sie auf binnen 14 Tagen EUR [Betrag] zu erstatten. Die
-Verjährungsfrist § 439 HGB / Art. 32 CMR endet am [Datum].
-
-Mit freundlichen Gruessen
-```
-
-## Übergabe
-
-- Bei Ablehnung: Klage am Frachtführersitz bzw. Ablieferungsort.
-- Verjährungsfrist im Aktenkalender notieren.
-- Bei größerem Schaden Wertdeklaration § 449 HGB / Art. 26 CMR für künftige Aufträge empfehlen.
-
----
-
-## Skill: `transport-tio-schiedsgericht-adsp-klauseln`
-
-_Wenn es um TIO-Schiedsgerichtsklauseln und ADSP-Bedingungen im Transport- und Speditionsrecht prüfen in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# TIO-Schiedsgerichtsklauseln und ADSP-Bedingungen im Transport- und Speditionsrecht prüfen
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: §§ 407 ff. Frachtvertrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** TIO-Schiedsgerichtsklauseln und ADSP-Bedingungen im Transport- und Speditionsrecht prüfen. Normen: ADSP 2017, §§ 1025 ff. ZPO. Prüfraster: Schiedsklausel-Wirksamkeit, AGB-Kontrolle, TIO-Schiedsprozess. Output: Klauselprüfung ADSP. Abgrenzung: nicht staatliches Gerichtsverfahren.
-
-### Transport-Recht — TIO / ADSp-Schiedsklauseln
-
-## Eingaben
-
-- Vertragstyp (Speditionsvertrag § 453 HGB, Frachtvertrag § 407 HGB, Lagervertrag)
-- Anwendbares Recht (HGB, ADSp 2017 — Stand Mai 2026 weiterhin geltende Branchenfassung —, CMR, COTIF, Montreal)
-- Streitgegenstand (Frachtschaden, Verlust, Lieferverzug, Spedition-Versäumnis)
-- Versicherer-Beteiligung (CMR-Vers., Speditions-Vers.)
-- Streitwert
-
-## Rechtlicher Rahmen
-
-- **§§ 407-475h HGB** — Frachtvertrag / Spedition
-- **CMR-Übereinkommen** (Internationale Straße)
-- **Montrealer Übereinkommen** (Luftfracht)
-- **Haager-Visby-Regeln** (Seefracht)
-- **COTIF** (Schiene)
-- **ADSp 2017** — Stand Mai 2026 weiterhin Branchenstandard (keine konsolidierte Folgefassung verifiziert); zukünftige Anpassungen über [dslv.org](https://www.dslv.org/de/adsp) prüfen
-- **§ 21 ADSp** — Schiedsklausel TIO
-- **§ 1029 ff. ZPO**
-
-## ADR-Pfade
-
-### Pfad 1 — TIO (Transport Industry Tribunal Hamburg)
-
-- ADSp § 21 Schiedsklausel
-- Spezialisierte Schiedsrichter
-- Streitwerte > 50.000 EUR
-- Verfahrens-Dauer 12-18 Monate
-
-### Pfad 2 — DGI-Schlichtungsstelle
-
-- DSLV-Schlichtungsstelle für Spediteure
-- Niedrigschwellig
-- Bei Spediteur-Mitgliedschaft
-
-### Pfad 3 — CMR-Versicherer-Verhandlung
-
-- Bei internationalen Straßenstückgut
-- 8,33 SZR/kg Höchstbetrag Art. 23 III CMR
-- Direkter Versicherer-Kontakt
-
-### Pfad 4 — Klage HG-Spezialkammer
-
-- LG-Kammer für Handelssachen
-- Bei TIO-Klausel ausgeschlossen
-
-### Pfad 5 — ICC bei internationalen Verfahren
-
-- Containerladung, Hafenstreit
-- Bei mehrländrigem Streit
-
-## Workflow
-
-### Phase 1 — Schadensanzeige
-
-- 7-Tage-Frist Anzeige Frachtführer (§ 438 HGB)
-- Bei CMR: 21 Tage bei nicht-erkennbaren Schaden
-- Foto-/Doku am Empfangsort
-
-### Phase 2 — Versicherer-Korrespondenz
-
-- Schadensformular
-- Beweise (Gutachten, Lieferschein, AVB)
-- Verhandlungs-Bereitschaft signalisieren
-
-### Phase 3 — ADR-Wahl
-
-- Bei ADSp-Klausel: TIO
-- Sonst: LG-Kammer / Vergleich
-
-### Phase 4 — Verfahren
-
-- Schiedsverfahren-Eröffnung
-- Beweisaufnahme (Sachverständige)
-- Schiedsspruch
-
-### Phase 5 — Vollstreckung
-
-- Schiedsspruch vollstreckbar
-- Bei Auslands: New Yorker Übereinkommen
-
-## Strategie und Taktik
-
-- **8,33 SZR/kg Cap** — bei wertvoller Ware Sondervereinbarung § 449 HGB
-- **Bei Vorsatz / grober Fahrlässigkeit**: § 435 HGB; volle Haftung
-- **CMR-Frist 21 Tage** kurz; sofort handeln
-- **Mehrere Beteiligte**: Frachtführer + Subunternehmer + Versicherer
-- **ADSp-Aktualität**: Stand 05/2026 ist die ADSp 2017 maßgeblich. Eine konsolidierte Folgefassung ist im Skill-Recherche-Stand nicht verifiziert. Im Mandat aktuellen Stand über DSLV/BGL prüfen.
-
-## Quellen und Updates
-
-Stand: 05/2026. ADSp 2017 weiterhin als Branchenstandard. CMR 1956. Montrealer Übereinkommen 1999. Rechtsprechung im Mandat live verifizieren.
-
-- ADSp 2017 — [dslv.org](https://www.dslv.org/de/adsp)
-- CMR (UNECE) — [unece.org](https://unece.org/transport/standards/transport/road)
-- HGB §§ 407 ff. — [gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/)
-- BGH I. Zivilsenat (Transport) — [bundesgerichtshof.de](https://www.bundesgerichtshof.de)
-
----
-
-## Skill: `reklamationsschreiben-cmr-hgb`
-
-_Wenn es um Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: §§ 407 ff. Frachtvertrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten. Normen: § 438 HGB, Art. 30 CMR. Prüfraster: Reklamationsfrist sieben Tage, schriftliche Anzeige, Schadensnachweis. Output: Reklamationsschreiben HGB oder CMR. Abgrenzung: nicht Klageschrift.
-
-### Reklamationsschreiben CMR und HGB
-
-## Kernsachverhalt & Mandantenfragen
-
-Das Reklamationsschreiben ist im Transport- und Speditionsrecht die entscheidende Weichenstellung: Wer die Frist versäumt, verliert faktisch seinen Anspruch. Die Reklamation muss richtig adressiert, rechtzeitig abgesandt, inhaltlich ausreichend und beweisbar zugegangen sein. Fehler in Tonalität oder Adressierung können einen millionenschweren Anspruch zunichtemachen.
-
-**8 Kaltstart-Rückfragen:**
-
-1. Handelt es sich um einen grenzüberschreitenden Straßentransport (CMR anwendbar) oder um einen innerdeutschen Transport (HGB §§ 425 ff.)?
-2. Wann wurde die Sendung empfangen und wann wurde der Schaden erstmals festgestellt? War der Schaden äußerlich erkennbar?
-3. Liegt ein CMR-Frachtbrief oder HGB-Frachtbrief vor? Wurden bei der Annahme schriftliche Vorbehalte in den Frachtbrief eingetragen?
-4. Was ist die Art des Schadens: vollständiger Verlust, Teilverlust, Beschädigung des Inhalts, bloße Verspätung?
-5. Welches Gewicht (Bruttogewicht in kg) hatte die Sendung und welchen Warenwert hat sie laut Handelsrechnung?
-6. Wurde eine Wertdeklaration (Art. 24 CMR bzw. § 449 HGB) im Frachtbrief eingetragen?
-7. Wurde die Transport-/Cargo-Versicherung bereits informiert? Drohen Anzeigefristen der eigenen Versicherung?
-8. Ist die Identität des Frachtführers klar oder besteht eine Speditionskette mit Subfrachtführern?
-
----
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Rechtsgrundlagen
-
-| Norm | Inhalt |
-|---|---|
-| CMR Art. 1 | Anwendungsbereich: entgeltlicher grenzüberschreitender Straßengüterverkehr |
-| CMR Art. 17 | Obhutshaftung: Verlust, Beschädigung, Lieferverzug zwischen Übernahme und Ablieferung |
-| CMR Art. 23 | Haftungshöchstbetrag: 8.33 SZR pro kg Bruttogewicht |
-| CMR Art. 24 | Wertdeklaration: erhöhte Haftung bei Eintrag im Frachtbrief |
-| CMR Art. 26 | Besonderes Lieferinteresse: erhöhte Haftung für Verspätungsschäden |
-| CMR Art. 29 | Qualifiziertes Verschulden: Vorsatz oder gleichstehendes Verschulden → unbegrenzte Haftung |
-| CMR Art. 30 | Reklamationspflicht und -fristen: sofort / 7 Tage / 21 Tage |
-| CMR Art. 32 | Verjährung: 1 Jahr (3 Jahre bei Vorsatz) |
-| CMR Art. 41 | Zwingendes Recht: Abweichungen im Vertrag unwirksam |
-| § 425 HGB | Obhutshaftung innerdeutscher Transport |
-| § 427 HGB | Privilegierungstatbestände: Eigenmangel, fehlende Verpackung |
-| § 429 HGB | Schadensberechnung: Verkehrswert am Übernahmeort |
-| § 431 HGB | Haftungshöchstbetrag: 8.33 SZR/kg |
-| § 435 HGB | Qualifiziertes Verschulden: unbegrenzte Haftung bei Leichtfertigkeit |
-| § 438 HGB | Reklamationspflicht und -fristen (gleichlaufend mit CMR Art. 30) |
-| § 439 HGB | Verjährung: 1 Jahr / 3 Jahre |
-| § 449 HGB | Wertdeklaration bei innerstaatlichem Transport |
-
----
-
-## Leitentscheidungen
-
-| Aktenzeichen | Gericht / Datum | Leitsatz |
-|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-
----
-
-## Prüfschema Reklamation
-
-| Schritt | Inhalt | Grundlage |
-|---|---|---|
-| 1 | Anwendbares Recht bestimmen: grenzüberschreitend → CMR (Art. 1); innerdeutsch → HGB §§ 425 ff. | CMR Art. 1, § 425 HGB |
-| 2 | Schadensart und Erkennbarkeit prüfen: äußerlich erkennbar (sofort) oder verdeckt (7 Tage)? | CMR Art. 30, § 438 HGB |
-| 3 | Fristbeginn ermitteln: Datum der Ablieferung; ggf. vereinbarte Lieferfrist für Verspätungsreklamation | CMR Art. 30 Abs. 3 |
-| 4 | Frachtbrief-Vorbehalt prüfen: bei Annahme Schaden in Frachtbrief vermerkt? Unterschrift des Fahrers? | CMR Art. 30 Abs. 1 |
-| 5 | Förmliche schriftliche Reklamation formulieren: vollständige Identifikation, Schadensbeschreibung, Wertangabe, Beweismittel | CMR Art. 30, § 438 HGB |
-| 6 | Zugangsnachweis sicherstellen: Einschreiben mit Rückschein oder Fax mit Sendebericht | § 130 BGB |
-| 7 | Eigene Versicherung informieren: Cargo-/Transportversicherung; Anzeigefristen einhalten | § 30 VVG |
-| 8 | Verjährungsfrist in Fristenkalender eintragen: 1 Jahr ab Ablieferung (CMR Art. 32/§ 439 HGB); Hemmung durch Reklamation | CMR Art. 32 |
-| 9 | Qualifiziertes Verschulden prüfen: Organisationsmängel des Frachtführers? → unbegrenzte Haftung | CMR Art. 29, § 435 HGB |
-| 10 | Wertdeklaration prüfen: Eintrag im Frachtbrief vorhanden? → Höchstbetrag entfällt | CMR Art. 24 |
-| 11 | Haftungshöchstbetrag berechnen: Bruttogewicht (kg) × 8.33 SZR × SDR-Tageskurs | CMR Art. 23 Abs. 3 |
-| 12 | Strategie bei Frachtführer-Abweisung: Klage vorbereiten; Gerichtsstand CMR Art. 31 (Wahl) | CMR Art. 31 |
-
----
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Reklamationsschreiben CMR/HGB | Reklamationsschreiben; Template unten |
-| Variante A — Mandant will sofortigen Schadensersatz | Sofortruegeprotokoll CMR Art. 30 Abs. 1; Fristen einhalten |
-| Variante B — Frachtfuehrer bestreitet Schaden | Sachverstaendigen-Untersuchung vor Weiterverarbeitung |
-| Variante C — Teilschaden | Quotelung; Selbstbeteiligung Versicherung koordinieren |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Schriftsatzbausteine
-
-### Baustein 1 – Frachtbrief-Vorbehalt bei Annahme (sofort)
-
-```
-SCHADENVORBEHALT gemäß Art. 30 CMR / § 438 HGB
-
-Datum: [Datum]
-Frachtbrief-Nr.: [...]
-Übernehmende Person: [Name, Unterschrift]
-Frachtführer / Fahrer: [Name]
-
-Beschreibung: Sendung weist folgenden Schaden auf:
-[z.B. Außenverpackung gebrochen; Nassflecken auf Karton;
-Paletteneinheit 3 fehlt].
-
-Genaue Schadenbezifferung nach interner Prüfung vorbehalten.
-Alle Ansprüche aus dem Frachtvertrag bleiben ausdrücklich
-vorbehalten.
-
-[Unterschrift Empfänger] [ggf. Unterschrift Fahrer]
-```
-
-### Baustein 2 – Förmliches Reklamationsschreiben (CMR Art. 30)
-
-```
-[Briefkopf des Auftraggebers / Empfängers]
-
-[Ort, Datum]
-
-An: [Frachtführer, vollständige Anschrift]
-– per Einschreiben mit Rückschein –
-– gleichzeitig per E-Mail an: [E-Mail-Adresse] –
-
-REKLAMATION gemäß Art. 30 CMR / § 438 HGB
-Frachtbrief-Nr.: [...]
-Unser Zeichen: [...]
-
-Sehr geehrte Damen und Herren,
-
-wir zeigen die anwaltliche Vertretung der [Mandantschaft]
-an und machen folgende Schadensersatzansprüche geltend:
-
-1. SACHVERHALT
- Transport: von [Verladeort] nach [Entladeort]
- Datum Übernahme: [Datum]
- Datum Ablieferung: [Datum]
- Sendung: [Bezeichnung], Bruttogewicht [X] kg
- Wert laut Handelsrechnung: EUR [Betrag] (Anlage K1)
-
-2. SCHADEN
- Art: [vollständiger Verlust / Teilverlust / Beschädigung /
- Lieferverspätung um [X] Tage]
- Feststellung: [bei Annahme / nach Entpacken am Datum]
- Vorbehalt im Frachtbrief: [ja/nein; Datum]
-
-3. REKLAMATIONSFRIST
- Die Reklamation erfolgt innerhalb der Fristen des
- Art. 30 CMR / § 438 HGB:
- – Bei erkennbarem Schaden: sofort bei Annahme
- (Frachtbrief-Vorbehalt vom [Datum], Anlage K2)
- – Bei verdecktem Schaden: innerhalb 7 Tage (Datum
- Ablieferung [X], Frist endet [X+7 Werktage]).
-
-4. SCHADENSBERECHNUNG
- Verkehrswert der Sendung: EUR [Betrag]
- Haftungshöchstbetrag Art. 23 CMR: [X] kg × 8.33 SZR
- × Tageskurs [EUR/SZR] = EUR [Betrag]
- [Bei qualifiziertem Verschulden Art. 29 CMR: voller
- Schadenersatz EUR [Betrag]]
-
-5. BEWEISMITTEL
- Anlage K1: Handelsrechnung
- Anlage K2: Frachtbrief (Kopie mit Vorbehalt)
- Anlage K3: Fotos des Schadens
- Anlage K4: Sachverständigenprotokoll / Schadengutachten
-
-6. FORDERUNG
- Wir fordern Sie auf, bis zum [Datum, 14 Tage] folgende
- Beträge zu zahlen:
- – Schadensersatz: EUR [Betrag]
- – Frachtrückerstattung: EUR [Betrag]
- – Zinsen 5 % p.a. ab Reklamationsdatum (Art. 27 CMR)
- – Gesamtforderung: EUR [Summe]
-
- Bei ausbleibender Zahlung behalten wir uns Klage vor.
- Die Verjährungsfrist Art. 32 CMR endet am [Datum].
-
-Mit freundlichen Grüßen
-[Kanzlei, Unterschrift]
-```
-
-### Baustein 3 – Schadensberechnung Muster (Verlust, ohne Wertdeklaration)
-
-```
-SCHADENSBERECHNUNG gemäß CMR Art. 23
-
-Sendung: Maschinenteile, 850 kg Bruttogewicht
-Warenwert: EUR 75.000 (Handelsrechnung, Anlage K1)
-
-1. Haftungshöchstbetrag CMR Art. 23 Abs. 3:
- 850 kg × 8.33 SZR/kg = 7.080 SZR
- × SDR-Kurs 1.33 EUR/SZR (Ablieferungstag) = EUR 9.417
-
-2. Frachtanteil CMR Art. 23 Abs. 4:
- Fracht EUR 1.200 + Zoll EUR 0 = EUR 1.200
-
-3. Anspruch bei Regelhaftung: EUR 9.417 + EUR 1.200 = EUR 10.617
-
-4. Bei qualifiziertem Verschulden Art. 29 CMR:
- Warenwert EUR 75.000 + Frachtanteil EUR 1.200 = EUR 76.200
-
-Differenz zu regulärer Haftung: EUR 65.583
-→ Nachweis qualifiziertes Verschulden Art. 29 CMR
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-```
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
----
-
-## Beweislast
-
-| Konstellation | Beweislast |
-|---|---|
-| Übernahme in ordnungsgemäßem Zustand | Absender/Empfänger; erleichtert durch Frachtbrief ohne Vorbehalt seitens Frachtführer |
-| Schaden zwischen Übernahme und Ablieferung | Anspruchsteller; durch Frachtbrief mit Vorbehalt und Fotos |
-| Haftungsausschluss CMR Art. 17 Abs. 2/4 | Frachtführer |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Wertdeklaration (erhöhte Haftung) | Absender: Nachweis des Eintrags im Frachtbrief; fehlender Eintrag geht zu seinen Lasten |
-
----
-
-## Fristen und Verjährung
-
-| Frist | Inhalt | Norm |
-|---|---|---|
-| Sofort bei Annahme | Äußerlich erkennbarer Verlust oder Beschädigung: Vorbehalt in Frachtbrief | CMR Art. 30 Abs. 1, § 438 Abs. 1 HGB |
-| 7 Tage nach Ablieferung | Verdeckter (nicht erkennbarer) Schaden: schriftliche Reklamation (Sonn-/Feiertage abgezogen) | CMR Art. 30 Abs. 1, § 438 Abs. 2 HGB |
-| 21 Tage nach Ablieferung | Lieferfristüberschreitung (Verspätung) | CMR Art. 30 Abs. 3, § 438 Abs. 4 HGB |
-| 1 Jahr ab Ablieferung | Verjährungsfrist (regulär) | CMR Art. 32, § 439 HGB |
-| 3 Jahre | Verlängerte Verjährung bei Vorsatz oder gleichstehendem Verschulden | CMR Art. 32 Abs. 1 S. 2 |
-| Ab schriftlicher Reklamation | Hemmung der Verjährung bis schriftliche Ablehnung | CMR Art. 32 Abs. 2, § 439 Abs. 3 HGB |
-
----
-
-## Typische Gegenargumente
-
-| Gegenargument | Erwiderung |
-|---|---|
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| "Schaden entstand nicht während Transport" | Frachtbrief ohne Beanstandungen seitens Frachtführer bei Übernahme begründet Vermutung ordnungsgemäßer Übergabe; Frachtführer muss gegenteiligen Beweis führen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| "Reklamationsfrist verpasst; Anspruch erloschen" | § 438 HGB / Art. 30 CMR begründen nur Beweiserleichterung zugunsten des Frachtführers, kein materieller Anspruchsverlust; Anspruch bleibt bestehen, aber schwerer zu beweisen |
-| "Cargo-Versicherung hat bereits gezahlt; kein Schaden mehr" | Subrogation nach § 86 VVG; Versicherung tritt in Anspruch des Versicherungsnehmers ein; eigene Regulierung des Frachtführers gegenüber Versicherer möglich |
-
----
-
-## Streitwert / Kosten
-
-| Position | Berechnung |
-|---|---|
-| Haftungsregulierung bis Haftungshöchstbetrag | Streitwert = tatsächliche Schadenssumme bis max. 8.33 SZR × kg |
-| Bei Art. 29 CMR / § 435 HGB Erfolg | Streitwert = voller Warenwert; erheblich höhere RVG-Gebühren |
-| Anwaltsgebühren Gegenstandswert bis EUR 20.000 | VV-RVG 2300 ff. nach GKG/RVG (z.B. EUR 1.500–2.500 Gebühren) |
-| Gerichtskosten LG (Streitwert über EUR 10.000) | Gerichtsgebühren nach GKG; Anlage 2 GKG |
-| Sachverständigengutachten | Zusätzliche Kosten EUR 1.500–5.000; als Schadensposition ersatzfähig |
-
----
-
-## Strategische Empfehlung
-
-| Situation | Empfehlung |
-|---|---|
-| Haftungshöchstbetrag deckt Schaden | Standardreklamation; keine Notwendigkeit für Art. 29 CMR |
-| Haftungshöchstbetrag viel niedriger als Schaden | Art. 29 CMR / § 435 HGB prüfen; Organisationsmangel recherchieren; Behördenverfahren (Polizeibericht) auswerten |
-| Verspätungsschaden | Art. 26 CMR / besonderes Lieferinteresse vorab im Frachtbrief eingetragen? Wenn nein: Schadenshöhe auf Frachtbetrag begrenzt |
-| Multimodaler Transport | Schadensstrecke identifizieren: Schienen-, Luft-, See- oder Straßenanteil? CMR gilt nur für Straßenanteil |
-| Speditionskette | Direkte Reklamation gegen ausführenden Unterfrachtführer und gegen Hauptspediteur (§ 453 i.V.m. § 425 HGB) |
-
----
-
-## Anschluss-Skills
-
-- `frachtfuehrerhaftung-pruefen` – systematische Haftungsprüfung nach CMR/HGB
-- `fachanwalt-transport-speditionsrecht-cmr-haftung` – tiefgehende CMR-Haftungsanalyse
-- `fachanwalt-transport-speditionsrecht-ladungsschaden` – HGB-spezifische Ladungsschäden
-- `fachanwalt-transport-autonome-lkw-konvois-haftung-1d-stvg` – bei autonomen Fahrzeugschäden
-
----
-
-## Quellen
-
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-
----
-
-## Skill: `transport-cmr-schadensregulierung`
-
-_Wenn es um Schadensregulierung im grenzüberschreitenden Gueterverkehr nach CMR durchführen in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Schadensregulierung im grenzüberschreitenden Gueterverkehr nach CMR durchführen
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: §§ 407 ff. Frachtvertrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Schadensregulierung im grenzüberschreitenden Gueterverkehr nach CMR durchführen. Normen: Art. 17 ff. 23 ff. CMR. Prüfraster: Schadensanzeige, Haftungsgrenzen 8.33 SZR je Kilogramm, Schadensberechnung, Fristen. Output: CMR-Schadensregulierungsschreiben. Abgrenzung: nicht nationales HGB-Recht.
-
-### CMR-Schadensregulierung
-
-## 1) Anwendbarkeit Art. 1 CMR
-
-- Straßentransport
-- International (von / nach Vertragsstaat)
-- Gegen Entgelt
-- Eingeschlossen: kombiniert (Straße + Schiff)
-
-## 2) CMR-Frachtbrief Art. 4-9 CMR
-
-### Bedeutung Art. 9 CMR
-
-- **Beweis** des Vertragsabschlusses
-- **Beweis** der Überngabe in Wirklichkeit
-- Bei Mangel-Vermerk: Vermutung Verkehrs-Schaden Frachtführer
-
-### Pflichtinhalte Art. 6 CMR
-
-- Absender, Empfänger
-- Ware-Beschreibung
-- Frachtführer
-- Bestimmungs-Ort
-
-## 3) Haftungs-Grenze Art. 23 III CMR
-
-- **8,33 SZR / kg** (Sonderziehungs-Recht ca. 10 EUR)
-- Pro Brutto-Kilogramm der verlorenen Ware
-- Beispiel: 1.000 kg Ware bei vollem Verlust = 10.000 EUR Höchstgrenze
-
-### Aufhebung Haftungsbegrenzung
-
-- Bei qualifiziertem Verschulden Art. 29 CMR (Vorsatz / grobe Fahrlaessigkeit)
-- Volle Schadensbegleichung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## 4) Reklamation Art. 30 CMR
-
-### Frist
-
-- Bei aeusserlich sichtbaren Schäden: **bei Ablieferung**
-- Bei verdeckten Schäden: **7 Tage** nach Ablieferung
-- Bei Verspätung: 21 Tage
-
-### Form
-
-- Schriftlich
-- Bei Versäumnis: Verlust der Anspruche (Vermutungs-Wirkung Art. 30)
-
-## 5) Verjährung Art. 32 CMR
-
-- **1 Jahr** ab Ablieferung
-- Bei Vorsatz / grober Fahrlaessigkeit: **3 Jahre**
-- Hemmung durch schriftliche Reklamation
-
-## 6) Schadens-Regulierung
-
-### Phase 1 — Schadens-Aufnahme
-
-- Foto am Ablieferungs-Ort
-- Bestätigung Empfänger
-- CMR-Frachtbrief-Vermerk
-
-### Phase 2 — Reklamation
-
-- Schriftlich an Frachtführer
-- Innerhalb 7 Tage (verdeckt)
-- Schadens-Aufstellung
-
-### Phase 3 — Versicherer
-
-- Frachtführer-Versicherer
-- Eigene Transport-Versicherung
-- Zeitgleiche Geltendmachung
-
-### Phase 4 — Klage
-
-- Bei Verzug Versicherer: Klage AG / LG je Streitwert
-- Sachliche Zuständigkeit Art. 31 CMR — Schädigungs-Ort, Empfänger-Ort
-
-## 7) Beweisaufnahme
-
-### Schaden-Beweis
-
-- Foto-Dokumentation
-- Sachverständigen-Gutachten
-- Zeugen-Aussagen
-
-### Verschuldens-Frage
-
-- Frachtführer-Verhalten
-- Bei Vorsatz / grober Fahrlaessigkeit: Aufhebung Begrenzung
-
-## 8) Typische Fehler
-
-1. **Reklamationsfrist 7 Tage versäumt**
-2. **CMR-Frachtbrief-Vermerk fehlt** bei Mangel
-3. **Verjährung 1 Jahr verpasst**
-4. **Haftungs-Aufhebung Art. 29 CMR nicht geltend gemacht**
-
-## 9) BGH-Linien
-
-Stand 05/2026 — Rechtsprechung im Mandat live verifizieren über [bundesgerichtshof.de](https://www.bundesgerichtshof.de) (BGH I. Zivilsenat) sowie [openjur.de](https://openjur.de).
-
-Aktuelle BGH-Linie zum Anwendungsbereich der CMR-Gerichtsstandsregelung (Art. 31 CMR): Ausweitung auf Direktklageansprüche gegen den Verkehrshaftungsversicherer ist Gegenstand jüngerer Entscheidungen — vor Ausgabe Aktenzeichen, Datum, Tenor live prüfen.
-
-Bei Verlust mit Falschablieferung trägt der Frachtführer die Beweislast dafür, gleichwohl an einen berechtigten Empfänger abgeliefert zu haben (Linie der OLG-Rechtsprechung 2024/2025; konkrete Fundstelle im Schriftsatz verifizieren).
-
-ADSp-Aktualität: Die ADSp 2017 sind weiterhin Branchenstandard (keine ADSp 2025 ausgewiesen; Stand der Recherche Mai 2026). Im Mandat über [dslv.org](https://www.dslv.org/de/adsp) auf Aktualität prüfen.
-
-## Anschluss
-
-- `frachtfuehrerhaftung-pruefen` — Prüfraster
-- `fachanwalt-transport-speditionsrecht-orientierung` — Triage
-- `deckungsanfrage-pruefen` — bei Versicherer
+**Fokus:** Kanzlei: Red-Team und Qualitätskontrolle.
+
+## Spezialwissen: Kanzlei: Red-Team und Qualitätskontrolle
+- **Normen-/Quellenanker:** HGB, CMR, COTIF.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Kanzlei** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

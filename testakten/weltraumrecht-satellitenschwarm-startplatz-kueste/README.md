@@ -1,24 +1,35 @@
 # Akte Nordlicht-Orbit: Satellitenschwarm, Küstenstartplatz und Absturzrisiko
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 124 KB) | PDF | [`gesamt-pdf/weltraumrecht-satellitenschwarm-startplatz-kueste_gesamt.pdf`](gesamt-pdf/weltraumrecht-satellitenschwarm-startplatz-kueste_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-weltraumrecht-satellitenschwarm-startplatz-kueste.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-weltraumrecht-satellitenschwarm-startplatz-kueste.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-weltraumrecht-satellitenschwarm-startplatz-kueste-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-weltraumrecht-satellitenschwarm-startplatz-kueste-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/weltraumrecht-satellitenschwarm-startplatz-kueste_gesamt.pdf`](gesamt-pdf/weltraumrecht-satellitenschwarm-startplatz-kueste_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-weltraumrecht-satellitenschwarm-startplatz-kueste.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-weltraumrecht-satellitenschwarm-startplatz-kueste.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-weltraumrecht-satellitenschwarm-startplatz-kueste-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-weltraumrecht-satellitenschwarm-startplatz-kueste-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 Diese Akte gehört zu den Plugins `weltraumrecht`.
 
 ## Downloads
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 - [Gesamt-PDF](gesamt-pdf/weltraumrecht-satellitenschwarm-startplatz-kueste_gesamt.pdf)
 - Die Einzeldateien in diesem Ordner bilden den Aktenwust aus E-Mail, Tabelle, Vermerk, Bild und Anlagen ab.
@@ -27,14 +38,24 @@ Diese Akte gehört zu den Plugins `weltraumrecht`.
 
 | Datei | Inhalt |
 | --- | --- |
-| `01-sachverhalt-und-offene-punkte.docx` | Chronologie, Rollen, erste Streitpunkte |
-| `02-risiko-und-fristenmatrix.xlsx` | Fristen, Zuständigkeiten, Risikoampel |
-| `03-email-auftakt.eml` | Mandats-/Projektauftakt mit Rückfragen |
-| `04-arbeitsvermerk.docx` | interner Arbeitsvermerk |
-| `05-dashboard.csv` | strukturierte Prüfspur |
-| `06-screenshot-notizen.jpg` | Foto/Screenshot einer chaotischen Arbeitsnotiz |
-| `gesamt-pdf/weltraumrecht-satellitenschwarm-startplatz-kueste_gesamt.pdf` | Gesamt-PDF der Akte |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
+| `01-behoerdenanschreiben-projektanzeige.docx` | Projektanzeige mit Konstellation, Startplatz, Frequenzen und Abstimmungsbedarf |
+| `02-missionsbeschreibung-nordlicht-1.docx` | technische Missionsbeschreibung für 240 Satelliten und den Erststart |
+| `03-email-hansesat-interferenzmeldung.eml` | Interferenzmeldung der Empfangsstelle Borkum mit Messzeiten und Anhängen |
+| `04-bundesnetzagentur-nachforderung.docx` | behördliche Nachforderung zu Kanälen, Messwerten und internationaler Koordinierung |
+| `05-satellitenregister-stammdaten.csv` | Seriennummern, Massen und Fertigungsstände der 30 Satelliten des Erststarts |
+| `06-frequenzmessung-bodenstation-stade.csv` | zeitgestempelte X-Band-Messwerte der Bodenstation Stade |
+| `07-wsa-sicherheitszonen-anhoerung.docx` | Anhörung zu Sperrkorridor, Schiffsverkehr und Bergung |
+| `08-borealis-anomaliebericht.docx` | detaillierter Bericht zum Telemetrieverlust des Testartikels NLO-PF-03 |
+| `09-versicherer-vorbehaltsschreiben.docx` | vorläufige Deckungseckpunkte und konkret angeforderte Versicherungsunterlagen |
+| `10-email-investoren-due-diligence.eml` | vollständige Unterlagenanforderung aus der Finanzierungsprüfung |
+| `11-telemetrieereignisse-nlo-pf-03.csv` | Ereignisfolge mit Zeitstempeln, Messwerten und Sequenznummern |
+| `12-email-nachforderung-messrohdaten.eml` | E-Mail-Verlauf zu fehlenden Originaldateien und abweichenden Zeitreferenzen |
+| `13-fischerverband-stellungnahme.docx` | Stellungnahme zu betroffenen Fangfahrten, Vorwarnzeit und Umfahrungsaufwand |
+| `14-startplatz-betriebsbericht.docx` | Monatsbericht zu Anlagen, Zufahrt, Umfeldkontakten und Vorfällen |
+| `15-launch-services-vertragsnachtrag.docx` | ausführlicher Vertragsnachtrag zu Startfenster, Anomalie, Bergung und Haftung |
+| `16-bodensegment-uebergabeprotokoll.docx` | Übergabeprotokoll der Bodenstation mit Messwerten und Abweichungen |
+| `17-email-bsi-rueckfragen-meldung.eml` | Rückfragen des BSI zum Vorgang BSI-2026-041188 mit angeforderten Protokollen und Frist |
+| `18-betriebslog-stade-sendezeiten-2026-07-06.csv` | Betriebslog der Bodenstation Stade mit Kalibrieraussendungen am Abend des 6. Juli 2026 |
 
 ## Sachstand
 

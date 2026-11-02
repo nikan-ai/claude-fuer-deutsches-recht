@@ -2,26 +2,144 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 72 Skills des Plugins `ecommerce-recht`.
+Diese Vollprüfung enthält top-10 von 73 Skills des Plugins `ecommerce-recht`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um E-Commerce-Recht — Allgemein in E-Commerce-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden…
-2. **gewaehrleistung-digitale-produkte-warenkauf-327-ff-434-ff-bgb** — Wenn es um Gewährleistung digitale Produkte Warenkauf Paragrafen 327 ff 434 ff BGB in E-Commerce-Recht geht: ordnet Sach…
-3. **rechtsabteilung-omnibus-preisangaben-und-rabattkommunikation** — Wenn es um Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation in E-Commerce-Recht geht: ordnet Sachverhalt, N…
-4. **informationspflichten-vertragsschluss** — Wenn es um Informationspflichten vor Vertragsschluss Art. 246a EGBGB in E-Commerce-Recht geht: ordnet Sachverhalt, Norm,…
-5. **rechtsabteilung-dark-patterns-und-verbraucherwiderruf** — Wenn es um Rechtsabteilung: Dark Patterns und Verbraucherwiderruf in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Be…
-6. **rechtsabteilung-cross-border-shop-eu-verbraucherrecht** — Wenn es um Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Be…
-7. **rechtsabteilung-online-marktplatz-nach-dsa** — Wenn es um Rechtsabteilung: Online-Marktplatz nach DSA in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, G…
-8. **ki-gestuetzte-klarna-paypal-kuendigungsbutton** — Wenn es um digitale Werkzeuge-gestützte Preisbildung Diskriminierung in E-Commerce-Recht geht: ordnet Akteninhalt, Beleg…
-9. **kundenservice-chatbot-lieferzeiten** — Wenn es um Kundenservice Chatbot digitale Werkzeuge Act Transparenz in E-Commerce-Recht geht: ordnet Akteninhalt, Belege…
-10. **agb-online-altersverifikation-jugendschutz** — Wenn es um AGB im Online-Shop – Einbeziehung Paragraf 305 BGB in E-Commerce-Recht geht: ordnet Akteninhalt, Belege, Lück…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Ecommerce Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet ko…
+2. **kaltstart-triage** — Für E-Commerce-Recht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und …
+3. **oss-ioss-umsatzsteuer-e-commerce** — Prüft Union-OSS und Import-One-Stop-Shop für grenzüberschreitende B2C-Umsätze, ordnet Lieferort, Registrierung, Erklärun…
+4. **gewaehrleistung-digitale-produkte-warenkauf-327-ff-434-ff-bgb** — Für Gewährleistung digitale Produkte Warenkauf Paragrafen 327 ff 434 ff BGB: ordnet Norm, Beweislast und Gegenargument; …
+5. **rechtsabteilung-cross-border-shop-eu-verbraucherrecht** — Für Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnitt…
+6. **rechtsabteilung-omnibus-preisangaben-und-rabattkommunikation** — Für Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: …
+7. **grenzueberschreitender-verbrauchervertrag-rom-i-bruessel-ia** — Für Grenzüberschreitender Verbrauchervertrag Rom I Brüssel Ia: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüf…
+8. **informationspflichten-vertragsschluss** — Für Informationspflichten vor Vertragsschluss Art. 246a EGBGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüf…
+9. **ki-gestuetzte-klarna-paypal-kuendigungsbutton** — Für digitale Werkzeuge-gestützte Preisbildung Diskriminierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüf…
+10. **kundenservice-chatbot-lieferzeiten** — Für Kundenservice Chatbot digitale Werkzeuge Act Transparenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfp…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Ecommerce Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Ecommerce Recht
+
+## 1. Direktstart
+
+Arbeite als IT-rechtlicher Bearbeiter für Software, SaaS, IT-Projekte, Cloud, Leistungsstörung, Datenschutzschnittstellen, Service-Level und Vertragsabnahme.
+
+Pluginauftrag: Super-Plugin für Online-Shops, Plattformen, Marktplätze und digitale Verbraucherprozesse.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Ecommerce Recht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Abnahme, Nacherfüllung, SLA-Gutschrift, Rechteklärung, Change Request oder Haftungsvorschlag.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Leistungsmodell | Kauf, Miete, Werk, Dienst, SaaS, Cloud oder Mischvertrag einordnen |
+| Pflichtenheft | Funktion, Schnittstelle, Meilenstein, Testfall, Service-Level und Abnahme festlegen |
+| Störung | Mangel, Verzug, Change Request, Mitwirkungsdefizit und Eskalationsmechanik trennen |
+| Rechte und Daten | Nutzungsrechte, Open Source, Datenschutzschnittstelle, Zugriff und Löschung prüfen |
+| Arbeitsprodukt | IT-Vertragsklausel, Mängelrüge, Abnahmeprotokoll, Exit-Plan oder Projektmemo erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Abmahnung einstweilige Verfügung Sofortplan: Bearbeite den Fachpunkt im Skill abmahnung-einstweilige-verfuegung-sofortplan und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Abmahnung UWG Unterlassungserklärung: Bearbeite den Fachpunkt im Skill abmahnung-uwg-abo-falle-accessibility-bfsg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Digitale Inhalte Abo Kündigungsbutton: Bearbeite den Fachpunkt im Skill digitale-inhalte-abo-kuendigungsbutton und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Dropshipping Drittland Zoll Einfuhrumsatzsteuer: Bearbeite den Fachpunkt im Skill dropshipping-drittland-oss-ioss-abmahnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 327: Verbraucherverträge über digitale Produkte.
+4.2. BGB Paragraf 327e: Vertragsmäßigkeit digitaler Produkte.
+4.3. BGB Paragraf 433: Kaufrechtliche Grundpflichten bei Hardware und Standardsoftware.
+4.4. BGB Paragraf 631: Werkvertragliche Pflichten bei Projektleistungen.
+4.5. BGB Paragraf 634: Rechte bei Mängeln des Werkes.
+4.6. BGB Paragraf 280: Schadensersatz wegen Pflichtverletzung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. EuGH, Urteil vom 03.07.2012 - C-128/11: UsedSoft behandelt Erschöpfung bei Softwaredownloads.
+5.2. BGH, Urteil vom 15.11.2006 - XII ZR 120/04: Application-Service-Providing kann mietvertragliche Elemente tragen.
+5.3. BGH, Urteil vom 04.03.2010 - III ZR 79/09: Internet-System-Vertrag ist regelmäßig werkvertraglich geprägt.
+5.4. BGH, Urteil vom 26.07.2012 - VII ZR 262/11: Eine Entgeltklausel für einen Eintrag in ein Internet-Branchenverzeichnis ist überraschend und wird nicht Vertragsbestandteil, wenn die Leistung nach dem Erscheinungsbild des Formulars unentgeltlich wirkt und die Vergütung drucktechnisch unauffällig verborgen ist.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Auftraggeber für Mangel und Abnahmevorbehalt; Anbieter für Leistung, Change Request, Mitwirkung und Haftungsbegrenzung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Vertragstypen prägen die Leistung.
+7.2. Welche Spezifikation ist messbar und abnahmefähig.
+7.3. Welche Mitwirkung hat gefehlt oder war verzugsrelevant.
+7.4. Welche Nutzungsrechte und Datenpflichten sind erforderlich.
+7.5. Welche Eskalation verhindert Projektstillstand.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Leistungsmodell, Pflichtenheft, Störung, Rechte und Daten: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Abnahme, Nacherfüllung, SLA-Gutschrift, Rechteklärung, Change Request oder Haftungsvorschlag verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um E-Commerce-Recht — Allgemein in E-Commerce-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für E-Commerce-Recht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # E-Commerce-Recht — Allgemein
 
@@ -37,8 +155,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Sofortstart
 Dieses Allgemein-Skill ist der Empfangstresen und Projektleiter des Plugins **E-Commerce-Recht**. Es soll den Nutzer nicht belehren, sondern schnell arbeitsfähig machen: erst die Lage erfassen, dann den passenden Pfad wählen, dann direkt einen verwertbaren Output erzeugen.
@@ -184,9 +300,124 @@ Diese Tabelle wird aus dem tatsächlichen Skillbestand des Plugins gebildet. Wen
 
 ---
 
+## Skill: `oss-ioss-umsatzsteuer-e-commerce`
+
+_Prüft Union-OSS und Import-One-Stop-Shop für grenzüberschreitende B2C-Umsätze, ordnet Lieferort, Registrierung, Erklärung, Zahlung und Nachweise und erstellt einen belastbaren Umsatzsteuervermerk._
+
+# OSS und IOSS im E-Commerce
+
+## 1. Auftrag
+
+Ordne grenzüberschreitende B2C-Umsätze dem Union-OSS nach Paragraf 18j UStG, dem IOSS nach Paragraf 18k UStG oder dem allgemeinen Besteuerungsverfahren zu. Erstelle eine Umsatzmatrix je Bestimmungsland, eine Fristenübersicht und eine Liste der fehlenden Transaktionsnachweise. Verbrauchervertragsrecht gehört nicht zum Kern dieses Skills.
+
+## 2. Aktenaufnahme
+
+Lies zuerst Shop-Export, Rechnungen, Zahlungsdaten, Versandnachweise, Retouren, Plattformabrechnungen und bisherige Umsatzsteuererklärungen. Frage danach nur zu offenen Weichen:
+
+1. Wo hat der Unternehmer Sitz und Betriebsstätten?
+2. Aus welchem Staat beginnt und in welchem Staat endet die Beförderung oder Versendung?
+3. Ist der Empfänger Unternehmer oder ein in Paragraf 3a Absatz 5 Satz 1 UStG bezeichneter Nichtunternehmer?
+4. Wird aus einem EU-Mitgliedstaat oder unmittelbar aus dem Drittlandsgebiet geliefert?
+5. Handelt der Händler selbst oder wird eine elektronische Schnittstelle nach Paragraf 3 Absatz 3a UStG zum fingierten Lieferer?
+6. Welchen Sachwert hat jede aus dem Drittland eingeführte Sendung und enthält sie verbrauchsteuerpflichtige Waren?
+7. Welche OSS- oder IOSS-Registrierung besteht bereits und in welchem Mitgliedstaat?
+
+## 3. Lieferort und Umsatztyp
+
+### 3.1 Innergemeinschaftlicher Fernverkauf
+
+Nach Paragraf 3c Absatz 1 UStG liegt der Lieferort grundsätzlich dort, wo sich der Gegenstand am Ende der Beförderung oder Versendung an den Erwerber befindet. Prüfe vor Anwendung die Empfängereigenschaft, Beginn und Ende der Warenbewegung sowie die Ausnahmen des Paragrafen 3c Absatz 5 UStG.
+
+Die länderübergreifende Umsatzschwelle des Paragrafen 3c Absatz 4 UStG beträgt insgesamt 10000 Euro für die dort zusammengefassten innergemeinschaftlichen Fernverkäufe und bestimmten sonstigen Leistungen. Sie greift nur bei einem in genau einem Mitgliedstaat ansässigen Unternehmer und nur, wenn die Schwelle im Vorjahr und im laufenden Jahr nicht überschritten wurde. Einen Verzicht bindet das Gesetz mindestens zwei Kalenderjahre.
+
+### 3.2 Fernverkauf aus dem Drittlandsgebiet
+
+Paragraf 3c Absatz 2 und 3 UStG unterscheidet danach, in welchem Mitgliedstaat die Ware eingeführt wird und ob die Steuer über IOSS erklärt wird. Dokumentiere Einfuhrmitgliedstaat, Bestimmungsmitgliedstaat, Zollanmeldung, IOSS-Identifikationsnummer und den Zeitpunkt der Zahlungsannahme. Vermeide eine Doppelbelastung aus Einfuhrumsatzsteuer und Bestimmungslandumsatzsteuer durch Abgleich von Zoll- und Verkaufsdaten.
+
+### 3.3 Elektronische Schnittstelle
+
+Prüfe bei Marktplätzen und Plattformen die Lieferfiktion des Paragrafen 3 Absatz 3a UStG. Trenne die Lieferung des ursprünglichen Lieferers an den Schnittstellenbetreiber von dessen Lieferung an den Endkunden. Verwende nicht ungeprüft die Rechnung oder Steuernummer des wirtschaftlichen Verkäufers für die fingierte Plattformlieferung.
+
+## 4. Union-OSS nach Paragraf 18j UStG
+
+Union-OSS kann insbesondere innergemeinschaftliche Fernverkäufe, bestimmte Lieferungen einer elektronischen Schnittstelle innerhalb eines Mitgliedstaats und bestimmte sonstige B2C-Leistungen eines im Gemeinschaftsgebiet ansässigen Unternehmers in anderen Mitgliedstaaten erfassen.
+
+1. Im Regelfall ist die Teilnahme vor Beginn des Kalendervierteljahrs anzuzeigen, ab dem das Verfahren genutzt werden soll. Erbringt der Unternehmer erstmals einen erfassten Umsatz oder überschreitet er erstmals die Umsatzschwelle von 10000 Euro und hatte er zuvor nicht auf deren Anwendung verzichtet, lässt Abschnitt 18j.1 Absatz 1 Satz 7 UStAE die Teilnahme bereits ab dem Tag dieses ersten Umsatzes zu, wenn die Anzeige spätestens am zehnten Tag des Folgemonats erfolgt. Dokumentiere deshalb Umsatzdatum, Schwellenberechnung, bisherigen Verzichtsstatus und Eingangsbestätigung der Anzeige.
+2. Sie gilt einheitlich für alle Mitgliedstaaten und alle erfassten Umsätze; einzelne Bestimmungsländer dürfen nicht herausgelöst werden.
+3. Besteuerungszeitraum ist nach Paragraf 16 Absatz 1d UStG das Kalendervierteljahr.
+4. Erklärung und Zahlung sind spätestens am letzten Tag des auf das Kalendervierteljahr folgenden Monats fällig.
+5. Berichtigungen innerhalb von drei Jahren erfolgen grundsätzlich in einer späteren Erklärung unter Benennung des ursprünglichen Besteuerungszeitraums.
+6. Inländische Unternehmer zeigen die Teilnahme im Inland gegenüber dem Bundeszentralamt für Steuern an.
+
+## 5. IOSS nach Paragraf 18k UStG
+
+IOSS kann die in Paragraf 18k Absatz 1 UStG bezeichneten Fernverkäufe von aus dem Drittlandsgebiet eingeführten Gegenständen in Sendungen mit einem Sachwert von höchstens 150 Euro erfassen, wenn der Unternehmer dafür Steuerschuldner ist.
+
+1. Verbrauchsteuerpflichtige Waren sind ausgeschlossen.
+2. Bei nicht im Gemeinschaftsgebiet ansässigen Unternehmern ist zu prüfen, ob ein im Gemeinschaftsgebiet ansässiger Vertreter erforderlich und wirksam bestellt ist.
+3. Die Teilnahme gilt einheitlich für alle Mitgliedstaaten und alle erfassten Fernverkäufe.
+4. Besteuerungszeitraum ist nach Paragraf 16 Absatz 1e UStG der Kalendermonat.
+5. Erklärung und Zahlung sind spätestens am letzten Tag des folgenden Monats fällig.
+6. Die individuelle IOSS-Identifikationsnummer ist vertraulich zu behandeln und muss in der Zollanmeldung korrekt verwendet werden; sie gehört nicht als öffentliche Händlerangabe in Kundenunterlagen.
+7. Retouren, Stornierungen und Erstattungen sind dem ursprünglichen Umsatz und Besteuerungszeitraum nachvollziehbar zuzuordnen.
+
+## 6. Daten- und Belegmatrix
+
+Erstelle mindestens folgende Spalten:
+
+| Feld | Zweck |
+| --- | --- |
+| Bestell- und Zahlungsdatum | Steuerentstehung und Periodenzuordnung |
+| Warenbewegung von und nach | Lieferort und Verfahren |
+| Empfängerstatus | B2C-Abgrenzung |
+| Plattformrolle | Lieferfiktion oder Vermittlung |
+| Sendungssachwert | IOSS-Grenze von 150 Euro |
+| Bestimmungsland und Steuersatz | Steuerberechnung |
+| Nettoentgelt und Steuer | Erklärung je Mitgliedstaat |
+| Retoure oder Erstattung | Berichtigung |
+| Versand-, Zahlungs- und Zollbeleg | Nachweiskette |
+
+Währungsbeträge sind im besonderen Besteuerungsverfahren nach den in Paragraf 16 Absatz 6 UStG bezeichneten Kursen der Europäischen Zentralbank für den letzten Tag des Besteuerungszeitraums umzurechnen.
+
+## 7. Aufzeichnung und Kontrolle
+
+Die für Paragrafen 18j und 18k UStG erforderlichen Aufzeichnungen sind nach Paragraf 22 Absatz 1 UStG zehn Jahre ab Ende des Jahres aufzubewahren und auf Anfrage elektronisch bereitzustellen. Stimme deshalb Shop-, Zahlungs-, Versand-, Retouren-, Zoll- und Erklärungsdaten transaktionsbezogen ab.
+
+Kontrolliere vor Abgabe:
+
+1. Sind sämtliche Bestimmungsländer und dort geltenden Steuersätze für den Leistungszeitpunkt belegt?
+2. Stimmen Brutto, Netto und Steuer je Land sowie insgesamt mit Zahlungsdienstleister und Hauptbuch überein?
+3. Sind OSS, IOSS und allgemeines Verfahren ohne Doppel- oder Nichtdeklaration getrennt?
+4. Sind Sendungen über 150 Euro und verbrauchsteuerpflichtige Waren aus IOSS ausgeschieden?
+5. Sind Plattformfiktionen, Retouren und Kursumrechnungen nachvollziehbar?
+6. Stimmen Erklärung, Zahlung, Referenz und Eingangsbestätigung?
+
+## 8. Ergebnis
+
+Liefere einen kurzen Umsatzsteuervermerk mit:
+
+1. Sachverhalt und Unternehmerrolle.
+2. Lieferort und Umsatztyp je Transaktionsgruppe.
+3. Zuordnung zu Union-OSS, IOSS oder allgemeinem Verfahren.
+4. Steuerbemessung je Bestimmungsland.
+5. Erklärungs- und Zahlungsfristen.
+6. Abweichungs-, Beleg- und Korrekturliste.
+
+## 9. Amtliche Quellen
+
+1. Paragraf 3c UStG: https://www.gesetze-im-internet.de/ustg_1980/__3c.html
+2. Paragraf 16 UStG: https://www.gesetze-im-internet.de/ustg_1980/__16.html
+3. Paragraf 18j UStG: https://www.gesetze-im-internet.de/ustg_1980/__18j.html
+4. Paragraf 18k UStG: https://www.gesetze-im-internet.de/ustg_1980/__18k.html
+5. Paragraf 22 UStG: https://www.gesetze-im-internet.de/ustg_1980/__22.html
+6. Bundeszentralamt für Steuern, One-Stop-Shop: https://www.bzst.de/DE/Unternehmen/Umsatzsteuer/One-Stop-Shop_EU/one_stop_shop_eu.html
+7. Umsatzsteuer-Anwendungserlass in der aktuellen Fassung vom 2. Juni 2026, Abschnitt 18j.1 Absatz 1 Sätze 5 bis 7: https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/Umsatzsteuer-Anwendungserlass-aktuell.pdf?__blob=publicationFile
+
+---
+
 ## Skill: `gewaehrleistung-digitale-produkte-warenkauf-327-ff-434-ff-bgb`
 
-_Wenn es um Gewährleistung digitale Produkte Warenkauf Paragrafen 327 ff 434 ff BGB in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Gewährleistung digitale Produkte Warenkauf Paragrafen 327 ff 434 ff BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Gewährleistung digitale Produkte Warenkauf §§ 327 ff 434 ff BGB
 
@@ -241,189 +472,9 @@ Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast,
 
 ---
 
-## Skill: `rechtsabteilung-omnibus-preisangaben-und-rabattkommunikation`
-
-_Wenn es um Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation
-
-## Normenanker
-
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 312j BGB` — Button-Loesung.
-- `§ 355 Abs. 1 BGB` — Widerruf.
-- `§ 357 BGB` — Widerrufsfolgen.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgueterkauf.
-- `§ 5 DDG` — Impressum.
-- `§ 5 UWG` — Irrefuehrung.
-- `Art. 6 Abs. 1 DSGVO` — Rechtsgrundlage Datenverarbeitung.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation
-- **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
-- **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
-
-## Spezialkern: Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation
-
-- **Konkretes Problem:** Rabatte, Streichpreise und personalisierte Preise werden schnell geprüft.
-- **Norm-/Quellenanker:** einschlägige Spezialnormen des Plugin-Fachgebiets, amtliche Gesetzesfassungen, Behördenpraxis und verifizierte Rechtsprechung mit Datum und Aktenzeichen.
-- **Entscheidende Weiche:** Tatbestand, Dokumentenbeweis, Zuständigkeit, Frist, Rechtsfolge, Gegenargument und Eskalationsweg getrennt entscheiden; keine bloße To-do-Liste liefern.
-- **Arbeitsprodukt:** Rechtsabteilungsfähige Kurzentscheidung mit Ampel, Originalbelegen, offener-Tatsachen-Liste, Formulierungsvorschlag und nächstem Owner.
-
-## Norm- und Rechtsprechungsanker
-
-PAngV § 11; UWG § 5; EU-Preisangabenrecht
-
-## Sofortprüfung
-
-1. Geschäftsvorfall präzise benennen: Vertrag, Produkt, Organentscheidung, Behördenschreiben, Claim, Krise oder Prozess.
-2. Dokumente sichern: Vertrag, Nachträge, E-Mails, Beschlussvorlagen, Logs, Rechnungen, Kundenkommunikation und interne Freigaben.
-3. Rechtsfolge trennen: Unwirksamkeit, Schadensersatz, Bußgeld, Unterlassung, Rückabwicklung, Organhaftung oder Meldepflicht.
-4. Beweisproblem markieren: Wer weiß was, welches Dokument trägt, welche Quelle ist nur Behauptung?
-5. Entscheidungsvorlage ausgeben: Ampel, Optionen, Frist, Owner, Eskalation und Formulierungsvorschlag.
-
-## Fachlicher Zuschnitt
-
-Rabatte, Streichpreise und personalisierte Preise werden schnell geprüft.
-
-## Output für die Rechtsabteilung
-
-- One-page legal memo mit Risikoampel und klarer Empfehlung.
-- Belegmatrix mit Originalquelle, Datum, Verantwortlichem und Lücke.
-- Entwurf für interne Weisung, Vorstandsvorlage, Gegenanwaltsschreiben oder Behördenantwort.
-- Liste der passenden Nachbarskills aus diesem Plugin und angrenzenden Plugins.
-
----
-
-## Skill: `informationspflichten-vertragsschluss`
-
-_Wenn es um Informationspflichten vor Vertragsschluss Art. 246a EGBGB in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Informationspflichten vor Vertragsschluss Art. 246a EGBGB
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Informationspflichten vor Vertragsschluss Art. 246a EGBGB
-- **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
-- **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
-
-## Startfragen
-- Wer fragt in welcher Rolle und welches Arbeitsergebnis wird gebraucht?
-- Welche Frist, Zuständigkeit, Behörde, Gericht oder Vertragssituation ist erkennbar?
-- Welche Dokumente, Zahlen, Registerdaten, Bescheide, Verträge oder Korrespondenz liegen vor?
-- Welche Tatsachen sind sicher, welche sind streitig und welche Annahmen müssen sichtbar markiert werden?
-- Welche live zu prüfenden Normen, Behördenhinweise oder Formulare tragen das Ergebnis?
-
-## Prüf- und Arbeitslogik
-1. **Einordnen:** Rolle, Ziel, Verfahrensstand, Vertragstyp, Behörde/Gericht, Frist und Risiken festhalten.
-2. **Normen live prüfen:** Vor tragenden Aussagen den aktuellen Stand aus amtlichen oder frei zugänglichen Quellen kontrollieren. Besonders prüfen: die im Fachkern genannten Normen-/Quellenanker, aktuellen amtlichen oder frei zugänglichen Fachquellen und die für diese Speziallage tragenden Formulare/Behördenhinweise.
-3. **Tatbestand in Elemente zerlegen:** Jedes Tatbestandsmerkmal einzeln prüfen; unklare Tatsachen als `[offen: ...]` markieren.
-4. **Belege führen:** Für jede relevante Behauptung Dokument, Datum, Absender, Anlage, Registerfund oder Quelle notieren.
-5. **Gegenansicht bauen:** Mindestens eine ernsthafte Gegenargumentation und eine Verteidigungslinie formulieren.
-6. **Ergebnis kalibrieren:** Risikoampel `grün/gelb/rot`, Handlungsempfehlung, nächster Schritt und fehlende Unterlagen ausgeben.
-
-## Qualitätsgate
-Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast, Zahlen, Form und gewünschter Output vollständig? Ist erkennbar, was sicher ist und was noch Sachverhaltsarbeit braucht?
-
----
-
-## Skill: `rechtsabteilung-dark-patterns-und-verbraucherwiderruf`
-
-_Wenn es um Rechtsabteilung: Dark Patterns und Verbraucherwiderruf in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Rechtsabteilung: Dark Patterns und Verbraucherwiderruf
-
-## Normenanker
-
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 312c BGB` — Fernabsatzvertrag.
-- `§ 312d BGB` — Informationspflichten.
-- `§ 312j BGB` — Button-Loesung.
-- `§ 355 Abs. 1 BGB` — Widerruf.
-- `§ 357 BGB` — Widerrufsfolgen.
-- `§ 434 BGB` — Sachmangel.
-- `§ 475 BGB` — Verbrauchsgueterkauf.
-- `§ 5 DDG` — Impressum.
-- `§ 5 UWG` — Irrefuehrung.
-- `Art. 6 Abs. 1 DSGVO` — Rechtsgrundlage Datenverarbeitung.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Rechtsabteilung: Dark Patterns und Verbraucherwiderruf
-- **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
-- **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
-
-## Spezialkern: Rechtsabteilung: Dark Patterns und Verbraucherwiderruf
-
-- **Konkretes Problem:** Checkout, Kündigungsbutton und Abo-Fallen werden als UX-Legal-Audit geprüft.
-- **Norm-/Quellenanker:** einschlägige Spezialnormen des Plugin-Fachgebiets, amtliche Gesetzesfassungen, Behördenpraxis und verifizierte Rechtsprechung mit Datum und Aktenzeichen.
-- **Entscheidende Weiche:** Tatbestand, Dokumentenbeweis, Zuständigkeit, Frist, Rechtsfolge, Gegenargument und Eskalationsweg getrennt entscheiden; keine bloße To-do-Liste liefern.
-- **Arbeitsprodukt:** Rechtsabteilungsfähige Kurzentscheidung mit Ampel, Originalbelegen, offener-Tatsachen-Liste, Formulierungsvorschlag und nächstem Owner.
-
-## Norm- und Rechtsprechungsanker
-
-UWG, BGB Widerrufsrecht, DSA, Verbraucherrechterichtlinie
-
-## Sofortprüfung
-
-1. Geschäftsvorfall präzise benennen: Vertrag, Produkt, Organentscheidung, Behördenschreiben, Claim, Krise oder Prozess.
-2. Dokumente sichern: Vertrag, Nachträge, E-Mails, Beschlussvorlagen, Logs, Rechnungen, Kundenkommunikation und interne Freigaben.
-3. Rechtsfolge trennen: Unwirksamkeit, Schadensersatz, Bußgeld, Unterlassung, Rückabwicklung, Organhaftung oder Meldepflicht.
-4. Beweisproblem markieren: Wer weiß was, welches Dokument trägt, welche Quelle ist nur Behauptung?
-5. Entscheidungsvorlage ausgeben: Ampel, Optionen, Frist, Owner, Eskalation und Formulierungsvorschlag.
-
-## Fachlicher Zuschnitt
-
-Checkout, Kündigungsbutton und Abo-Fallen werden als UX-Legal-Audit geprüft.
-
-## Output für die Rechtsabteilung
-
-- One-page legal memo mit Risikoampel und klarer Empfehlung.
-- Belegmatrix mit Originalquelle, Datum, Verantwortlichem und Lücke.
-- Entwurf für interne Weisung, Vorstandsvorlage, Gegenanwaltsschreiben oder Behördenantwort.
-- Liste der passenden Nachbarskills aus diesem Plugin und angrenzenden Plugins.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
----
-
 ## Skill: `rechtsabteilung-cross-border-shop-eu-verbraucherrecht`
 
-_Wenn es um Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
+_Für Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
 # Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht
 
@@ -488,11 +539,11 @@ Rechtswahl, Gerichtsstand, Sprachversionen und Lieferlandrisiken werden sortiert
 
 ---
 
-## Skill: `rechtsabteilung-online-marktplatz-nach-dsa`
+## Skill: `rechtsabteilung-omnibus-preisangaben-und-rabattkommunikation`
 
-_Wenn es um Rechtsabteilung: Online-Marktplatz nach DSA in E-Commerce-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Rechtsabteilung: Online-Marktplatz nach DSA
+# Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation
 
 ## Normenanker
 
@@ -519,20 +570,20 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Fachkern: Rechtsabteilung: Online-Marktplatz nach DSA
+## Fachkern: Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation
 - **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
 - **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
 
-## Spezialkern: Rechtsabteilung: Online-Marktplatz nach DSA
+## Spezialkern: Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation
 
-- **Konkretes Problem:** Notice-and-Action, Trader Traceability und Rankingtransparenz werden operationalisiert.
+- **Konkretes Problem:** Rabatte, Streichpreise und personalisierte Preise werden schnell geprüft.
 - **Norm-/Quellenanker:** einschlägige Spezialnormen des Plugin-Fachgebiets, amtliche Gesetzesfassungen, Behördenpraxis und verifizierte Rechtsprechung mit Datum und Aktenzeichen.
 - **Entscheidende Weiche:** Tatbestand, Dokumentenbeweis, Zuständigkeit, Frist, Rechtsfolge, Gegenargument und Eskalationsweg getrennt entscheiden; keine bloße To-do-Liste liefern.
 - **Arbeitsprodukt:** Rechtsabteilungsfähige Kurzentscheidung mit Ampel, Originalbelegen, offener-Tatsachen-Liste, Formulierungsvorschlag und nächstem Owner.
 
 ## Norm- und Rechtsprechungsanker
 
-DSA, P2B-VO, UWG, Produktsicherheit
+PAngV § 11; UWG § 5; EU-Preisangabenrecht
 
 ## Sofortprüfung
 
@@ -544,7 +595,7 @@ DSA, P2B-VO, UWG, Produktsicherheit
 
 ## Fachlicher Zuschnitt
 
-Notice-and-Action, Trader Traceability und Rankingtransparenz werden operationalisiert.
+Rabatte, Streichpreise und personalisierte Preise werden schnell geprüft.
 
 ## Output für die Rechtsabteilung
 
@@ -555,9 +606,102 @@ Notice-and-Action, Trader Traceability und Rankingtransparenz werden operational
 
 ---
 
+## Skill: `grenzueberschreitender-verbrauchervertrag-rom-i-bruessel-ia`
+
+_Für Grenzüberschreitender Verbrauchervertrag Rom I Brüssel Ia: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Grenzüberschreitender Verbrauchervertrag Rom I Brüssel Ia
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 312c BGB` — Fernabsatzvertrag.
+- `§ 312d BGB` — Informationspflichten.
+- `§ 312j BGB` — Button-Loesung.
+- `§ 355 Abs. 1 BGB` — Widerruf.
+- `§ 357 BGB` — Widerrufsfolgen.
+- `§ 434 BGB` — Sachmangel.
+- `§ 475 BGB` — Verbrauchsgueterkauf.
+- `§ 5 DDG` — Impressum.
+- `§ 5 UWG` — Irrefuehrung.
+- `Art. 6 Abs. 1 DSGVO` — Rechtsgrundlage Datenverarbeitung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Grenzüberschreitender Verbrauchervertrag Rom I Brüssel Ia
+- **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
+- **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
+
+## Startfragen
+- Wer fragt in welcher Rolle und welches Arbeitsergebnis wird gebraucht?
+- Welche Frist, Zuständigkeit, Behörde, Gericht oder Vertragssituation ist erkennbar?
+- Welche Dokumente, Zahlen, Registerdaten, Bescheide, Verträge oder Korrespondenz liegen vor?
+- Welche Tatsachen sind sicher, welche sind streitig und welche Annahmen müssen sichtbar markiert werden?
+- Welche live zu prüfenden Normen, Behördenhinweise oder Formulare tragen das Ergebnis?
+
+## Prüf- und Arbeitslogik
+1. **Einordnen:** Rolle, Ziel, Verfahrensstand, Vertragstyp, Behörde/Gericht, Frist und Risiken festhalten.
+2. **Normen live prüfen:** Vor tragenden Aussagen den aktuellen Stand aus amtlichen oder frei zugänglichen Quellen kontrollieren. Besonders prüfen: die im Fachkern genannten Normen-/Quellenanker, aktuellen amtlichen oder frei zugänglichen Fachquellen und die für diese Speziallage tragenden Formulare/Behördenhinweise.
+3. **Tatbestand in Elemente zerlegen:** Jedes Tatbestandsmerkmal einzeln prüfen; unklare Tatsachen als `[offen: ...]` markieren.
+4. **Belege führen:** Für jede relevante Behauptung Dokument, Datum, Absender, Anlage, Registerfund oder Quelle notieren.
+5. **Gegenansicht bauen:** Mindestens eine ernsthafte Gegenargumentation und eine Verteidigungslinie formulieren.
+6. **Ergebnis kalibrieren:** Risikoampel `grün/gelb/rot`, Handlungsempfehlung, nächster Schritt und fehlende Unterlagen ausgeben.
+
+## Qualitätsgate
+Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast, Zahlen, Form und gewünschter Output vollständig? Ist erkennbar, was sicher ist und was noch Sachverhaltsarbeit braucht?
+
+---
+
+## Skill: `informationspflichten-vertragsschluss`
+
+_Für Informationspflichten vor Vertragsschluss Art. 246a EGBGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Informationspflichten vor Vertragsschluss Art. 246a EGBGB
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Informationspflichten vor Vertragsschluss Art. 246a EGBGB
+- **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
+- **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
+
+## Startfragen
+- Wer fragt in welcher Rolle und welches Arbeitsergebnis wird gebraucht?
+- Welche Frist, Zuständigkeit, Behörde, Gericht oder Vertragssituation ist erkennbar?
+- Welche Dokumente, Zahlen, Registerdaten, Bescheide, Verträge oder Korrespondenz liegen vor?
+- Welche Tatsachen sind sicher, welche sind streitig und welche Annahmen müssen sichtbar markiert werden?
+- Welche live zu prüfenden Normen, Behördenhinweise oder Formulare tragen das Ergebnis?
+
+## Prüf- und Arbeitslogik
+1. **Einordnen:** Rolle, Ziel, Verfahrensstand, Vertragstyp, Behörde/Gericht, Frist und Risiken festhalten.
+2. **Normen live prüfen:** Vor tragenden Aussagen den aktuellen Stand aus amtlichen oder frei zugänglichen Quellen kontrollieren. Besonders prüfen: die im Fachkern genannten Normen-/Quellenanker, aktuellen amtlichen oder frei zugänglichen Fachquellen und die für diese Speziallage tragenden Formulare/Behördenhinweise.
+3. **Tatbestand in Elemente zerlegen:** Jedes Tatbestandsmerkmal einzeln prüfen; unklare Tatsachen als `[offen: ...]` markieren.
+4. **Belege führen:** Für jede relevante Behauptung Dokument, Datum, Absender, Anlage, Registerfund oder Quelle notieren.
+5. **Gegenansicht bauen:** Mindestens eine ernsthafte Gegenargumentation und eine Verteidigungslinie formulieren.
+6. **Ergebnis kalibrieren:** Risikoampel `grün/gelb/rot`, Handlungsempfehlung, nächster Schritt und fehlende Unterlagen ausgeben.
+
+## Qualitätsgate
+Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast, Zahlen, Form und gewünschter Output vollständig? Ist erkennbar, was sicher ist und was noch Sachverhaltsarbeit braucht?
+
+---
+
 ## Skill: `ki-gestuetzte-klarna-paypal-kuendigungsbutton`
 
-_Wenn es um digitale Werkzeuge-gestützte Preisbildung Diskriminierung in E-Commerce-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für digitale Werkzeuge-gestützte Preisbildung Diskriminierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # KI-gestützte Preisbildung Diskriminierung
 
@@ -612,7 +756,7 @@ Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast,
 
 ## Skill: `kundenservice-chatbot-lieferzeiten`
 
-_Wenn es um Kundenservice Chatbot digitale Werkzeuge Act Transparenz in E-Commerce-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Kundenservice Chatbot digitale Werkzeuge Act Transparenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Kundenservice Chatbot AI Act Transparenz
 
@@ -665,146 +809,9 @@ Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast,
 
 ---
 
-## Skill: `agb-online-altersverifikation-jugendschutz`
-
-_Wenn es um AGB im Online-Shop – Einbeziehung Paragraf 305 BGB in E-Commerce-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# AGB im Online-Shop – Einbeziehung § 305 BGB
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: AGB im Online-Shop – Einbeziehung § 305 BGB
-- **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
-- **Entscheidende Weiche:** Trenne Shop-Frontend, Bestellstrecke, Informationspflicht, Preis, Widerruf, Mängelrecht, Werbung, Tracking und Plattform-/Marketplace-Pflichten.
-
-## Worum geht es konkret
-
-Allgemeine Geschäftsbedingungen (AGB) werden nur Vertragsbestandteil, wenn sie wirksam einbezogen wurden (§ 305 II BGB) und einer Inhaltskontrolle (§§ 307 ff. BGB) standhalten. Im Online-Shop entscheidet die Einbeziehung über die gesamte Vertragsgrundlage (Lieferung, Mängelhaftung, Eigentumsvorbehalt, Streitbeilegung). Der Skill ordnet Einbeziehung, Klauseltypen und Inhaltskontrolle.
-
-## Wann dieses Modul hilft / Kaltstart-Fragen
-
-- Wo sind die AGB im Bestellprozess platziert?
-- Wird vor Bestellabgabe ausdrücklich auf die AGB hingewiesen?
-- Sind die AGB unmittelbar abrufbar und speicherbar?
-- Welche Klauseln sind streitig (Versand, Vorkasse, Eigentumsvorbehalt, Haftungsausschluss, Gerichtsstand)?
-- B2C oder B2B?
-- Schon Abmahnung wegen unwirksamer AGB erhalten?
-
-## Rechtlicher Rahmen
-
-- § 305 II BGB: Einbeziehung – ausdrücklicher Hinweis, zumutbare Kenntnisnahme, Einverständnis.
-- § 305c BGB: Überraschende Klauseln.
-- § 306 BGB: Rechtsfolge der Nichteinbeziehung/Unwirksamkeit – Vertrag im Übrigen wirksam.
-- §§ 307–309 BGB: Inhaltskontrolle, Klauselverbote.
-- § 310 BGB: Anwendungsbereich – AGB auch im B2B, jedoch ohne Verbraucherschutz §§ 308, 309.
-- UWG § 3a: Marktverhaltensregel.
-- UKlaG: Unterlassungsklage Verbraucherverbände.
-- BGH zur Online-AGB-Einbeziehung – ständige Rechtsprechung: Hinweis und Möglichkeit der Kenntnisnahme reichen; Pflicht zur Aktivbestätigung (Checkbox) nicht erforderlich, aber praktisch empfohlen.
-
-## / Schritt für Schritt
-
-1. **Einbeziehungspfad prüfen.** Vor Bestellabgabe Hinweis "Es gelten unsere AGB"; Link unmittelbar zur Volltext-Fassung; Druck- und Speicherfunktion.
-2. **AGB-Inhalt strukturieren.**
- - Geltungsbereich,
- - Vertragsschluss / Angebot,
- - Lieferung und Versand,
- - Preise und Zahlung,
- - Eigentumsvorbehalt,
- - Mängelhaftung / Gewährleistung,
- - Haftungsbegrenzung,
- - Widerrufsrecht (Verlinkung),
- - Streitbeilegung / Gerichtsstand,
- - Datenschutz (Verweis).
-3. **Inhaltskontrolle.**
- - § 309 Nr. 7 BGB: Haftungsausschluss bei Vorsatz/grober Fahrlässigkeit/wesentlichen Pflichten unzulässig.
- - § 309 Nr. 8 BGB: Gewährleistungsausschluss bei Neuware unzulässig.
- - § 309 Nr. 9 BGB: Laufzeit Dauerschuldverhältnisse begrenzt.
- - § 309 Nr. 12 BGB: Vorausabtretung von Gegenforderungen.
-4. **Versionierung.** Stand-Vermerk, Archivierung, Verlauf.
-5. **Update-Mechanismus.** Bei wesentlichen Änderungen: Mitteilung mit Widerspruchsrecht.
-6. **Streitfall.** Klausel angreifen: nicht einbezogen oder unwirksam.
-
-## Trade-off-Matrix
-
-| Klauseltyp | Wirksam B2C | Wirksam B2B |
-| --- | --- | --- |
-| Vollständiger Haftungsausschluss | unwirksam § 309 Nr. 7 | meist unwirksam § 307 |
-| Pauschaler Wertersatz Widerruf | unwirksam | – |
-| Verlängerungsautomatik Abo > 12 Monate | unwirksam § 309 Nr. 9 | unwirksam § 307 |
-| Gerichtsstandsklausel | grundsätzlich § 38 III ZPO | wirksam unter Kaufleuten |
-| Eigentumsvorbehalt | wirksam | wirksam |
-
-## Praxistipps
-
-- Im Bestellprozess: Checkbox "Ich habe die AGB gelesen und akzeptiere sie" mit Link – einbeziehungssicher, aber nicht zwingend.
-- Versionsnummer + Datum in den AGB sichtbar – beweissicher.
-- Bei AGB-Update Bestandsverträge berücksichtigen – Vereinbarung erforderlich (Änderungskündigung oder Zustimmungslösung).
-- Klauseln aus Musterverträgen blind übernehmen – häufig veraltet, vor allem zu § 312k.
-- Internationale Lieferung: Rom-I-Anpassungen, Geo-Blocking-VO.
-
-## Mustertexte
-
-**Einbeziehungshinweis im Checkout:**
-"Mit Klick auf 'zahlungspflichtig bestellen' bestätigen Sie, dass Sie unsere Allgemeinen Geschäftsbedingungen [LINK] und die Widerrufsbelehrung [LINK] gelesen haben und einverstanden sind."
-
-**Standardklauseln (Kurzfassung):**
-- Vertragspartner: [Firma], [Anschrift], [HRB], [USt-IdNr.].
-- Angebot der Waren stellt unverbindliche Aufforderung dar; Vertragsschluss durch Annahmebestätigung des Anbieters.
-- Lieferung: [Standard innerhalb 3–5 Werktagen]; Versandkosten ausgewiesen.
-- Zahlung: [Kreditkarte, PayPal, Klarna, Vorkasse].
-- Eigentumsvorbehalt bis vollständige Zahlung.
-- Gewährleistung gesetzlich; bei Verbrauchern 2 Jahre.
-- Widerrufsbelehrung siehe Anlage.
-
-**Update-Mitteilung:**
-"Wir aktualisieren unsere AGB zum [Datum]. Wesentliche Änderungen: [...]. Sie können den Änderungen binnen 6 Wochen widersprechen; sonst gelten die neuen AGB als angenommen. Volltext: [LINK]."
-
-## Typische Fehler
-
-- AGB nur als PDF zum Download – Kenntnisnahme erschwert, oft nicht ausreichend.
-- Klausel zur Vorauszahlung bei Verbraucherkauf ohne Liefersicherung.
-- Pauschale Bearbeitungsgebühr bei Widerruf.
-- Gerichtsstand auf Sitz des Unternehmers für Verbraucher – unwirksam.
-- Klausel "AGB können jederzeit geändert werden" ohne konkreten Änderungsmechanismus – unwirksam.
-
-## Quellen Stand 06/2026
-
-- §§ 305–310 BGB – Volltext gesetze-im-internet.de.
-- UKlaG, UWG §§ 3a – Volltexte gesetze-im-internet.de.
-- BGH zur Online-AGB-Einbeziehung – ständige Rechtsprechung; Volltexte bundesgerichtshof.de.
-- EuGH C-186/16 (Andriciuc) und C-26/13 (Kasler) zur Klauselkontrolle – curia.europa.eu.
-- Verbraucherrechte-RL 2011/83/EU; Klausel-RL 93/13/EWG – EUR-Lex.
-- VZBV – Klagepraxis und Datenbank unwirksamer Klauseln.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 DDG
-- § 5 UWG
-- § 1 EGBGB
-- § 6 DDG
-- § 27a UStG
-- § 3a UWG
-- § 26 DDG
-
-### Leitentscheidungen
-
-- EuGH C-249/21
-- EuGH C-208/19
-- EuGH C-186/16
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

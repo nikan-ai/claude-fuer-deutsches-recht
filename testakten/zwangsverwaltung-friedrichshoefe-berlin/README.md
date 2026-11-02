@@ -1,29 +1,39 @@
 # Akte: Zwangsverwaltung Büro- und Geschäftshaus "Friedrichshöfe"
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 410 KB) | PDF | [`gesamt-pdf/zwangsverwaltung-friedrichshoefe-berlin_gesamt.pdf`](gesamt-pdf/zwangsverwaltung-friedrichshoefe-berlin_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-zwangsverwaltung-friedrichshoefe-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-friedrichshoefe-berlin.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-zwangsverwaltung-friedrichshoefe-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-friedrichshoefe-berlin-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/zwangsverwaltung-friedrichshoefe-berlin_gesamt.pdf`](gesamt-pdf/zwangsverwaltung-friedrichshoefe-berlin_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-zwangsverwaltung-friedrichshoefe-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsverwaltung-friedrichshoefe-berlin.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-zwangsverwaltung-friedrichshoefe-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsverwaltung-friedrichshoefe-berlin-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-zwangsverwaltung-friedrichshoefe-berlin` (Akte) | [testakte-zwangsverwaltung-friedrichshoefe-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-friedrichshoefe-berlin.zip) |
+| `testakte-zwangsverwaltung-friedrichshoefe-berlin` (Akte) | [testakte-zwangsverwaltung-friedrichshoefe-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsverwaltung-friedrichshoefe-berlin.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 **Beispielfall** zur Bearbeitung des Plugins `zwangsverwaltung-zvg`.
 
@@ -83,6 +93,9 @@ Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das
 | 8 | Eröffnungsbeschluss | nach 19.07.2024 |
 | IV — Zwangsverwaltung | | |
 | 9 ff. | Anordnungsbeschluss, Besitzübernahmeprotokoll, Mieterliste (Rent Roll), Versicherungsunterlagen, Kontoeröffnung Anderkonto, Erstbericht Zwangsverwalterin, § 155-Verteilungsrechnungen, Mietkorrespondenz, Instandhaltungsmaßnahmen, Schlussrechnung (in Vorbereitung) |
+| 10 | Umsatzliste Anderkonto Berliner Volksbank Oktober 2024 (`10_Anderkonto_Umsatzliste_10-2024.csv`) — Mieteingänge, Bewirtschaftungsausgaben, Versicherungsleistung | 31.10.2024 |
+| 11 | E-Mail des Hausmeisters Cortinhal (`11_Email_Hausmeister_Cortinhal_29-11-2024.eml`) — Heizungsstörung Haus 145, Konferenzraumbelegung, Beobachtungen bei Aurelius | 29.11.2024 |
+| 12 | Telefonvermerk zur Räumungssache Aurelius (`12_Telefonvermerk_Aurelius_22-01-2025.docx`) — Räumungs- und Ratenzahlungsangebot des Gegenanwalts | 22.01.2025 |
 
 ## Rechtliche Knackpunkte
 
@@ -95,5 +108,3 @@ Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das
 ## Passendes Plugin
 
 `zwangsverwaltung-zvg` — vollständiger Workflow von Anordnung bis Schlussrechnung.
-
-## Disclaimer

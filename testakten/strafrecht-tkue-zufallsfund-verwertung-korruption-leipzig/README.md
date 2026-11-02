@@ -1,18 +1,25 @@
 # Testakte: TKÜ-Zufallsfund und Verwertbarkeit — Bestechlichkeit in der Führerscheinstelle (Leipzig)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 56 KB) | PDF | [`gesamt-pdf/strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig_gesamt.pdf`](gesamt-pdf/strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig_gesamt.pdf`](gesamt-pdf/strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -50,6 +57,7 @@ strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig/
 ├── 09_durchsuchungsprotokoll_2026-03-19.docx            Sicherstellungen: Bargeld, Haftnotiz, Kalender, Mobiltelefon, Vorgänge
 ├── 10_beschuldigtenvernehmung_kabusch_2026-04-08.docx   Einlassung: Flohmarkt-Erlöse, keine Zahlungsannahme
 ├── 11_zeugenvernehmung_petrasch_2026-04-21.docx         Vernehmung des BtM-Beschuldigten mit § 55-Verweigerung in Kernfragen
+├── 12_vermerk_flohmarkt_standlisten_2026-05-11.docx       Vermerk zu Markttagen und Standanmeldungen im Abgleich mit den Bareinzahlungen
 ├── 13_anklageschrift_2026-05-27.docx                    Anklage wegen Bestechlichkeit in sieben Fällen mit Einziehungsantrag
 ├── 14_verteidigerschriftsatz_verwertungsverbot_2026-06-16.docx Einwendungen: hypothetischer Ersatzeingriff, Einzelfallschwere, Fernwirkung
 ├── 15_stellungnahme_sta_verwertbarkeit_2026-06-30.docx  Erwiderung der StA zu Katalogtat, § 100e Abs. 6 StPO und Fernwirkung
@@ -57,7 +65,8 @@ strafrecht-tkue-zufallsfund-verwertung-korruption-leipzig/
 ├── eml/
 │   ├── 01_kpi_an_sta_zufallsfund_2026-01-21.eml         Übersendung des Zufallsfund-Vermerks an die StA mit Verwendungsanregung
 │   ├── 02_stadt_leipzig_an_sta_kalenderexport_2026-03-24.eml Übersendung von Kalenderexport, Vorgangsliste und interner Beanstandung
-│   └── 03_hentschke_an_sta_akteneinsicht_2026-04-14.eml Akteneinsicht in die TKÜ-Sonderakte und Ankündigung des Verwertungswiderspruchs
+│   ├── 03_hentschke_an_sta_akteneinsicht_2026-04-14.eml Akteneinsicht in die TKÜ-Sonderakte und Ankündigung des Verwertungswiderspruchs
+│   └── 04_markttreff_an_kpi_standlisten_2026-05-08.eml  Auskunft der Flohmarktveranstalterin zu Markttagen und Standanmeldungen
 ├── whatsapp/
 │   └── chatverlauf.txt                                  Chat Kabusch/Ehefrau: "schon wieder 500 vom Kumpel?" und Flohmarkt-Einträge
 ├── README.md                                            Diese Übersicht

@@ -1,18 +1,25 @@
 # MedTech Jena: Eigenverwaltung, Schutzschirm und Liquiditätsstatus
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 17 KB) | PDF | [`gesamt-pdf/insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena_gesamt.pdf`](gesamt-pdf/insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena_gesamt.pdf`](gesamt-pdf/insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzrecht-eigenverwaltung-schutzschirm-medtech-jena-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -25,7 +32,7 @@ Ein Medizintechnikzulieferer mit öffentlichem Förderdarlehen, FDA-Delay und Li
 | `01_geschaeftsfuehrer_vermerk_krisensitzung_2026-06-29.docx` | Vermerk zur Krisensitzung, Deckungslücke KW30 |
 | `02_liquiditaetsstatus_13_wochen_erlaeuterung_2026-07-03.docx` | Erläuterung 13-Wochen-Status |
 | `03_lieferant_vorkasse_und_liefersperre_2026-06-26.docx` | Lieferantenkorrespondenz Vorkasse/Liefersperre |
-| `04_bankmail_covenant_und_stillhaltebitte_2026-06-30.docx` | Bank-Mail zu Covenant und Stillhaltebitte |
+| `04_bankmail_covenant_und_stillhaltebitte_2026-06-30.eml` | Original-E-Mail der Hausbank zu Covenant, Unterlagen und Kreditgespräch |
 | `05_rangruecktritt_entwurf_gesellschafter_2026-07-04.docx` | Rangrücktritt-Entwurf Gesellschafterdarlehen |
 | `06_schutzschirm_antrag_arbeitsfassung_2026-07-05.docx` | Schutzschirmantrag, Arbeitsfassung |
 | `07_bank_dashboard_auszug_2026-07-03.pdf` | Bank-Dashboard-Auszug |
@@ -51,6 +58,7 @@ Ein Medizintechnikzulieferer mit öffentlichem Förderdarlehen, FDA-Delay und Li
 | `27_kaufinteressent_nda_loi.docx` | NDA und LOI mit Kaufinteressent Sensortech Holding |
 | `28_anzeige_drohende_zahlungsunfaehigkeit_18_inso_notiz.docx` | Interne Notiz zur Anzeige drohender Zahlungsunfähigkeit |
 | `emails/`, `eml/` | E-Mail-Korrespondenz zwischen Geschäftsführung, Sachwalter, IG Metall, Investor |
+| `eml/07_aufbaubank_foerderdarlehen.eml` | Thüringer Aufbaubank zum Förderdarlehen: offene Rate, fehlender Verwendungsnachweis, Sicherungseigentum, Standortbindung |
 | `csv/` | Kontobewegungen, Fristenliste Schutzschirmverfahren |
 | `xlsx/` | Streitige Forderungen, aktualisierte 13-Wochen-Liquiditätsplanung |
 | `pdfs/` | Original-PDF-Belege (u.a. Kündigungsschreiben COFINSURE) |

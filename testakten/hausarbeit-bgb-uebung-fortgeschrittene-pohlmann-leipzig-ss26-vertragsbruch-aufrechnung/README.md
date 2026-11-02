@@ -1,18 +1,25 @@
 # Akte: Hausarbeit BGB Übung Fortgeschrittene — Pohlmann / Leipzig / SS 26
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 765 KB) | PDF | [`gesamt-pdf/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung_gesamt.pdf`](gesamt-pdf/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung_gesamt.pdf`](gesamt-pdf/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -85,26 +92,8 @@ Arbeitsakte zum Plugin `hausarbeitenmacher`.
 |---|---|---|
 | 01 | [`01_sachverhalt_aufgabenstellung_ss26.docx`](01_sachverhalt_aufgabenstellung_ss26.docx) | Sachverhalt und Aufgabenstellung (Wandersleben SS 26) |
 | 02 | [`02_problemkreis_uebersicht_aufgabenanalyse.docx`](02_problemkreis_uebersicht_aufgabenanalyse.docx) | Problemliste, Strukturvorschlag, Zeitplanung |
-| 03 | [`03_anspruchsschema_a_gegen_b_par433_par437.docx`](03_anspruchsschema_a_gegen_b_par433_par437.docx) | Anspruchsschemata A gegen B — §§ 433, 280, 286 |
-| 04 | [`04_anspruchsschema_b_gegen_c_par437_kette.docx`](04_anspruchsschema_b_gegen_c_par437_kette.docx) | Anspruchsschemata B gegen C — §§ 404, 406, Abtretung |
-| 05 | [`05_aufrechnung_par387_bgb_voraussetzungen.docx`](05_aufrechnung_par387_bgb_voraussetzungen.docx) | Aufrechnung §§ 387–389 BGB — alle Voraussetzungen, Streitstand § 389 |
-| 06 | [`06_schlechtleistung_par434_par437_bgb_kontrolle.docx`](06_schlechtleistung_par434_par437_bgb_kontrolle.docx) | Sachmangel § 434 BGB — Subsumtion Farbabplatzung |
-| 07 | [`07_kaufmann_nachbesserung_par439_bgb.docx`](07_kaufmann_nachbesserung_par439_bgb.docx) | Nacherfüllung § 439 BGB — Verweigerung, Fristsetzungsentbehrlichkeit |
-| 08 | [`08_ruecktritt_par323_par326_bgb_pruefschema.docx`](08_ruecktritt_par323_par326_bgb_pruefschema.docx) | Rücktritt §§ 323, 326, 437 Nr. 2 BGB — Erheblichkeit, Streitstand |
-| 09 | [`09_schadensersatz_par280_par281_bgb_subsumtion.docx`](09_schadensersatz_par280_par281_bgb_subsumtion.docx) | Schadensersatz §§ 280, 281 BGB — kleiner/großer SE |
-| 10 | [`10_verbrauchsgueterkauf_par474ff_bgb_drittland.docx`](10_verbrauchsgueterkauf_par474ff_bgb_drittland.docx) | Verbrauchsgüterkauf §§ 474 ff. BGB — Reform 2022, § 477 |
 | 11 | [`11_zitierweise_methodenlehre_palandt_muekomm.docx`](11_zitierweise_methodenlehre_palandt_muekomm.docx) | Zitierweise Palandt/MüKo/BGH, Gutachtenstil, Fußnoten |
-| 12 | [`12_streitstandsdarstellung_par389_pluralitaet.docx`](12_streitstandsdarstellung_par389_pluralitaet.docx) | Streitstand § 389 BGB — Fiktionstheorie vs. teleologische Reduktion |
-| 13 | [`13_aufbau_plan_gutachtenstil_zwischenergebnis.docx`](13_aufbau_plan_gutachtenstil_zwischenergebnis.docx) | Vollständige Gliederung, Seitenplanung, Checkliste |
-| 14 | [`14_verzug_par286_bgb_mahnung_par280abs2.docx`](14_verzug_par286_bgb_mahnung_par280abs2.docx) | Verzug § 286 BGB — automatischer Verzug, Vertretenmüssen, § 288 |
-| 15 | [`15_gefahruebergang_par446_par447_bgb.docx`](15_gefahruebergang_par446_par447_bgb.docx) | Gefahrübergang §§ 446, 447 BGB — Übergabe, Versendungskauf |
-| 16 | [`16_eigentumsuebertragung_par929_par930.docx`](16_eigentumsuebertragung_par929_par930.docx) | Eigentumsübertragung §§ 929, 930 BGB — Abstraktionsprinzip |
-| 17 | [`17_eingrenzung_aufrechnungslagen_prozessual.docx`](17_eingrenzung_aufrechnungslagen_prozessual.docx) | Prozessuale Aufrechnung § 322 Abs. 2 ZPO — Hilfsaufrechnung, Streitstand |
-| 18 | [`18_zeitwert_par818abs2_alternative.docx`](18_zeitwert_par818abs2_alternative.docx) | Bereicherungsrecht § 818 Abs. 2 BGB — Zeitwert, Subsidiärität |
-| 19 | [`19_streitwert_par3_zpo_uebung_punkte.docx`](19_streitwert_par3_zpo_uebung_punkte.docx) | Streitwert § 3 ZPO, GKG, Wandersleben-Bewertungsmaßstab |
-| 20 | [`20_korrekturlauf_redaktionelle_glaettung.docx`](20_korrekturlauf_redaktionelle_glaettung.docx) | Korrekturlauf v1 → v3, Stilfehler, Zitatkontrolle, Abgabe |
 | 21 | [`21_pruefer_erwartungen_wandersleben_zitierfreude.docx`](21_pruefer_erwartungen_wandersleben_zitierfreude.docx) | Prüfer-Erwartungen Wandersleben, Lieblingsstreitstände, Taktik |
-| 22 | [`22_abschluss_ergebnisuebersicht_punktevergabe.docx`](22_abschluss_ergebnisuebersicht_punktevergabe.docx) | Gesamtergebnis, Streitstandsmatrix, Selbstbewertung |
 
 ---
 
@@ -114,7 +103,6 @@ Arbeitsakte zum Plugin `hausarbeitenmacher`.
 
 | Datei | Inhalt |
 |---|---|
-| [`docx/hausarbeit_pohlmann_vollausarbeitung_v3_endfassung.docx`](docx/hausarbeit_pohlmann_vollausarbeitung_v3_endfassung.docx) | Vollausarbeitung der Hausarbeit (v3, Endfassung, ca. 26 Seiten, Gutachtenstil) |
 | [`docx/aufgabenstellung_wandersleben_ss26_original.docx`](docx/aufgabenstellung_wandersleben_ss26_original.docx) | Aufgabenstellung Prof. Dr. Wandersleben SS 26 (Original) |
 | [`docx/pruefungssekretariat_anmeldebogen.docx`](docx/pruefungssekretariat_anmeldebogen.docx) | Anmeldebogen Prüfungssekretariat Juristenfakultät Leipzig |
 
@@ -123,7 +111,6 @@ Arbeitsakte zum Plugin `hausarbeitenmacher`.
 | Datei | Inhalt |
 |---|---|
 | [`xlsx/zitierprotokoll_belegliste_pohlmann.xlsx`](xlsx/zitierprotokoll_belegliste_pohlmann.xlsx) | Zitierprotokoll — alle Belege (BGH, Kommentare, Aufsätze) mit Prüfstatus |
-| [`xlsx/pruefraster_anspruchsmatrix_streitstaende.xlsx`](xlsx/pruefraster_anspruchsmatrix_streitstaende.xlsx) | Anspruchsmatrix (Sheet 1) + Streitstandsübersicht (Sheet 2) |
 
 ### E-Mails (.eml)
 
@@ -134,13 +121,17 @@ Arbeitsakte zum Plugin `hausarbeitenmacher`.
 | [`emails/2026-05-08_lehrstuhl_an_pohlmann_klarstellung.eml`](emails/2026-05-08_lehrstuhl_an_pohlmann_klarstellung.eml) | Klarstellung Lehrstuhl (Dr. Klausberg) zu Rückfragen |
 | [`emails/2026-05-22_pohlmann_an_familie_zeitdruck.eml`](emails/2026-05-22_pohlmann_an_familie_zeitdruck.eml) | Pohlmann an Familie — Zeitdruck, Korrekturstand |
 | [`emails/2026-06-04_pohlmann_an_pruefungssekretariat_abgabe.eml`](emails/2026-06-04_pohlmann_an_pruefungssekretariat_abgabe.eml) | Ankündigung Abgabe an Prüfungssekretariat |
+| [`emails/2026-07-20_lehrstuhl_an_studenten_rueckgabe_besprechung.eml`](emails/2026-07-20_lehrstuhl_an_studenten_rueckgabe_besprechung.eml) | Rundmail des Lehrstuhls: Rückgabe, Notenstatistik, Besprechungs- und Klausurtermin |
 
 ### PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|
 | [`pdf/aufgabenstellung_hausarbeit_ss26_redacted.pdf`](pdf/aufgabenstellung_hausarbeit_ss26_redacted.pdf) | Aufgabenstellung (PDF-Version, für Archivierung) |
-| [`pdf/musterloesung_bgh_xii_zr_75_22_anhang.pdf`](pdf/musterloesung_bgh_xii_zr_75_22_anhang.pdf) | BGH XII ZR 75/22 — Anhang Auszug für Lehrzwecke (§§ 387, 389, 286 BGB) |
 
 ### Diagramme (JPG)
 
@@ -148,7 +139,6 @@ Arbeitsakte zum Plugin `hausarbeitenmacher`.
 |---|---|
 | [`jpg/gutachtenstil_aufbau_diagramm.jpg`](jpg/gutachtenstil_aufbau_diagramm.jpg) | Gutachtenstil-Aufbaudiagramm (Obersatz → Definitionen → Subsumtion → Ergebnis) |
 | [`jpg/zitierweise_palandt_screenshot.jpg`](jpg/zitierweise_palandt_screenshot.jpg) | Zitierweise-Übersicht Wandersleben-Standard (korrekt vs. fehlerhaft) |
-| [`jpg/anspruchsmatrix_diagramm.jpg`](jpg/anspruchsmatrix_diagramm.jpg) | Anspruchsmatrix A/B/C — Beziehungen und Ergebnisse visualisiert |
 
 ---
 

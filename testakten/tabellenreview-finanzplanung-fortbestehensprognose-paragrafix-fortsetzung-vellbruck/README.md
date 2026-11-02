@@ -3,15 +3,23 @@
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 536 KB) | PDF | [`gesamt-pdf/tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck_gesamt.pdf`](gesamt-pdf/tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck_gesamt.pdf`](gesamt-pdf/tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-tabellenreview-finanzplanung-fortbestehensprognose-paragrafix-fortsetzung-vellbruck-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -64,22 +72,10 @@ Arbeitsakte zum Plugin `tabellenreview-3d`.
 | 04 | [`04-versionierung-uebersicht-v18-v23.docx`](04-versionierung-uebersicht-v18-v23.docx) | Versionshistorie v18–v23, Änderungsmatrix |
 | 05 | [`05-review-axe-1-konsistenz-quer-bezuege.docx`](05-review-axe-1-konsistenz-quer-bezuege.docx) | Querbezugsprüfung, Blatt-zu-Blatt-Konsistenz |
 | 06 | [`06-review-axe-2-plausibilitaet-zahlenstamm.docx`](06-review-axe-2-plausibilitaet-zahlenstamm.docx) | Plausibilitätstests, Benchmarks, Branchenwerte |
-| 07 | [`07-review-axe-3-formelarchitektur-zirkularitaet.docx`](07-review-axe-3-formelarchitektur-zirkularitaet.docx) | Formelprüfung, Zirkularbezüge, Namenskonventionen |
-| 08 | [`08-finding-1-zirkularer-bezug-cashflow-zinsen.docx`](08-finding-1-zirkularer-bezug-cashflow-zinsen.docx) | Finding 1: Zirkulärer Bezug CF/Zinsen — kritisch |
-| 09 | [`09-finding-2-hardcoded-werte-statt-formel.docx`](09-finding-2-hardcoded-werte-statt-formel.docx) | Finding 2: 47 hardcoded Werte in Rechenbereichen |
-| 10 | [`10-finding-3-falsche-summenformel-bilanzsumme.docx`](10-finding-3-falsche-summenformel-bilanzsumme.docx) | Finding 3: Fehlerhafter SUM-Bereich Bilanzsumme |
-| 11 | [`11-finding-4-veraltete-prognoseannahmen-zins.docx`](11-finding-4-veraltete-prognoseannahmen-zins.docx) | Finding 4: Zinsannahme v22→v23 manuell gedrückt |
-| 12 | [`12-finding-5-doppelte-buchungen-rueckstellung.docx`](12-finding-5-doppelte-buchungen-rueckstellung.docx) | Finding 5: Doppelte Rückstellungsbuchung Pensions |
-| 13 | [`13-finding-6-versteckte-blaetter-mit-restposten.docx`](13-finding-6-versteckte-blaetter-mit-restposten.docx) | Finding 6: 2 versteckte Sheets, Restpostenproblematik |
-| 14 | [`14-finding-7-fehlende-quellen-szenarioparameter.docx`](14-finding-7-fehlende-quellen-szenarioparameter.docx) | Finding 7: Szenarioparameter ohne Quellenangabe |
-| 15 | [`15-finding-8-fehlende-szenariorechnung-stress.docx`](15-finding-8-fehlende-szenariorechnung-stress.docx) | Finding 8: Stress-/Downside-Szenario fehlt komplett |
-| 16 | [`16-finding-9-abweichende-makro-ausfuehrung.docx`](16-finding-9-abweichende-makro-ausfuehrung.docx) | Finding 9: VBA-Makro überschreibt manuell Sollwerte |
-| 17 | [`17-finding-10-iddw-s-11-konformitaet-fortbestehensprognose.docx`](17-finding-10-iddw-s-11-konformitaet-fortbestehensprognose.docx) | Finding 10: IDW-S-11-Konformitätslücken |
 | 18 | [`18-handlungsempfehlungen-roadmap-fix.docx`](18-handlungsempfehlungen-roadmap-fix.docx) | Fix-Roadmap, Prioritäten, Zeitplan, Verantwortliche |
-| 19 | [`19-vergleichsreview-v22-vs-v23.docx`](19-vergleichsreview-v22-vs-v23.docx) | Detaillierter Diff v22/v23, Manipulationsverdacht |
 | 20 | [`20-stellungnahme-an-geschaeftsfuehrung.docx`](20-stellungnahme-an-geschaeftsfuehrung.docx) | Formelle Stellungnahme WP an GF/CFO |
 | 21 | [`21-protokoll-review-workshop.docx`](21-protokoll-review-workshop.docx) | Protokoll Review-Workshop 14.01.2026 |
-| 22 | [`22-abschlussvermerk-reviewer.docx`](22-abschlussvermerk-reviewer.docx) | Abschlussvermerk, Einschränkungen, Votum |
+| 23 | [`23-zellpruefprotokoll-rohexport-2026-01-11.csv`](23-zellpruefprotokoll-rohexport-2026-01-11.csv) | Zeitgestempelter Rohabzug aus sechs geprüften Modellzellen |
 
 ---
 
@@ -89,15 +85,12 @@ Arbeitsakte zum Plugin `tabellenreview-3d`.
 
 | Datei | Inhalt |
 |---|---|
-| [`docx/tabellenreview-bericht-paragrafix-fortbestehensprognose-v23.docx`](docx/tabellenreview-bericht-paragrafix-fortbestehensprognose-v23.docx) | Reviewbericht gesamt (Entwurf zur Freigabe) |
-| [`docx/reviewer-checkliste-iddw-s-11.docx`](docx/reviewer-checkliste-iddw-s-11.docx) | IDW-S-11-Prüfcheckliste mit Abarbeitungsstatus |
 | [`docx/stellungnahme-geschaeftsfuehrung.docx`](docx/stellungnahme-geschaeftsfuehrung.docx) | Formelle Stellungnahme an Geschäftsführung |
 
 ### XLSX
 
 | Datei | Inhalt |
 |---|---|
-| [`xlsx/findings-register-tabellenreview.xlsx`](xlsx/findings-register-tabellenreview.xlsx) | Findings-Register: 10 Findings mit Schwere, Auswirkung EUR, Maßnahme, Status |
 | [`xlsx/version-changelog-modell.xlsx`](xlsx/version-changelog-modell.xlsx) | Versionshistorie v18–v23 mit Bearbeiter, Begründung, Reviewstatus |
 
 ### E-Mails (.eml)
@@ -112,17 +105,17 @@ Arbeitsakte zum Plugin `tabellenreview-3d`.
 
 ### PDFs
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Datei | Inhalt |
 |---|---|
-| [`pdfs/tabellenreview-bericht-final.pdf`](pdfs/tabellenreview-bericht-final.pdf) | Reviewbericht final (druckfertig) |
-| [`pdfs/findings-register-print.pdf`](pdfs/findings-register-print.pdf) | Findings-Register Druckversion |
 
 ### Fotos / Diagramme
 
 | Datei | Inhalt |
 |---|---|
-| [`jpg/modellarchitektur-diagramm.jpg`](jpg/modellarchitektur-diagramm.jpg) | Schematische Darstellung der 18-Sheet-Modellarchitektur |
-| [`jpg/screenshot-finding-2-hardcoded.jpg`](jpg/screenshot-finding-2-hardcoded.jpg) | Annotierter Screenshot: Hardcoded-Werte in Rechenblatt |
 | [`jpg/cashflow-prognose-chart.jpg`](jpg/cashflow-prognose-chart.jpg) | Cashflow-Prognosechart v22 vs. v23 |
 
 ---
@@ -141,7 +134,7 @@ Arbeitsakte zum Plugin `tabellenreview-3d`.
 | Wirtschaftsprüfer Birkholz & Partner | Koordination läuft; vorläufige Versagung Testat |
 | Sanierungskredit Mittelstandsbank | Ausstehend; Bank wartet belastbares Modell |
 | Fix-Roadmap Paragrafix | In Umsetzung; Frist 31.01.2026 |
-| Insolvenzantragspflicht § 15a InsO | Geprüft; aktuell kein akuter Antragsbedarf (Ergebnis vorbehaltlich) |
+| Unterlagen zur Finanzlage | Bilanz, Finanzplanung und Dokumentation der Finanzierungsannahmen liegen zur eigenständigen Prüfung vor |
 | § 283b StGB Bilanzfälschung | Strafrechtliches Risiko adressiert; externe StR-Beratung empfohlen |
 
 Federführung Review: **Dr. Henrike Wittfeldt-Steinheim**, TabellenReview Wittfeldt Federkamp PartG, Berlin

@@ -1,18 +1,25 @@
 # Erbrecht — Unternehmernachfolge und Testamentsvollstrecker in Würzburg
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 16 KB) | PDF | [`gesamt-pdf/erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg_gesamt.pdf`](gesamt-pdf/erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg_gesamt.pdf`](gesamt-pdf/erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-erbrecht-unternehmernachfolge-testamentsvollstrecker-wuerzburg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -37,18 +44,25 @@ Nachlass des Maschinenbauunternehmers Heinrich Baumann mit GmbH-Anteilen, Testam
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_erstgespraech.docx` | 01 mandatsnotiz erstgespräch.docx |
-| `02_chronologie_arbeitsstand.docx` | 02 chronologie arbeitsstand.docx |
-| `03_sachverhalt_aus_mandantensicht.docx` | 03 sachverhalt aus mandantensicht.docx |
-| `04_gegenseite_standpunkt.docx` | 04 gegenseite standpunkt.docx |
-| `05_testament_unternehmernachfolge.docx` | 05 testament unternehmernachfolge.docx |
-| `06_bank_covenant_mail.docx` | 06 bank covenant mail.docx |
-| `09_entwurf_naechstes_schreiben.docx` | 09 entwurf nächstes schreiben.docx |
-| `csv/gesellschaftsrechtliche_to_dos.csv` | csv/gesellschaftsrechtliche to dos.csv |
-| `emails/2026-06-30_mara_bankdruck.eml` | emails/2026 06 30 mara bankdruck.eml |
-| `pdfs/satzung_nachfolgeklausel_auszug.pdf` | pdfs/satzung nachfolgeklausel auszug.pdf |
-| `xlsx/nachlass_und_gmbh_wertband.xlsx` | xlsx/nachlass und gmbh wertband.xlsx |
+| `02_chronologie_arbeitsstand.docx` | Zeitachse vom Unternehmertestament bis zur offenen Gesellschafterliste mit Vollzugsstatus und Abhängigkeiten |
+| `03_sachverhalt_aus_mandantensicht.docx` | Unterzeichnete Erklärung der Geschäftsführerin Mara Baumann zu Nachfolgeplanung, Bank, Liquidität und Verhältnis zu Tilo |
+| `04_gegenseite_standpunkt.docx` | Anwaltsschreiben Tilo Baumanns zu Auskunft, unabhängiger Unternehmensbewertung, Testamentsvollstreckung und Vergleich |
+| `05_testament_unternehmernachfolge.docx` | Ausformuliertes notarielles Testament mit Erbquoten, Unternehmensbindung, Verwaltungsvollstreckung und Ersatzbestimmung |
+| `06_bank_covenant_mail.docx` | Bankbestätigung zur befristeten Kreditlinie, Kontrollwechselklausel, Unterlagenanforderung und Zwischenauflagen |
+| `07_gesellschaftsvertrag_nachfolgeklauseln.docx` | Satzungsauszug zu Anteilen, Vinkulierung, Tod, gemeinsamer Vertretung, Einziehung und Abfindung |
+| `08_kreditgeber_covenant_und_freigabe.docx` | Befristete Bankfreigabe für die Investitionsfinanzierung mit Kennzahlen, Nachweisen und Vorbehalten |
+| `09_entwurf_naechstes_schreiben.docx` | Schreiben an den Testamentsvollstrecker zu Befugnismatrix, Bewertung, Bankkommunikation und Berichtsstruktur |
+| `10_testamentsvollstrecker_bericht.docx` | Vollständiger Verwaltungsbericht mit Amtsstand, Beteiligung, vorläufigen Nachlasswerten, Konflikten und Fristen |
+| `11_gesellschafterversammlung_18_mai.docx` | Niederschrift zu Vertretung, Investitionsplan, Bankabruf und Protokollvorbehalten |
+| `12_telefonnotiz_bank_claudia_rehm.docx` | Telefonvermerk zu Liquiditätsreserve, Bankunterlagen und Unterschriftenmatrix |
+| `13_fristkalender_und_postausgang.docx` | Fristen, Datenraumversionen, Banktermine und Versandnachweise |
+| `14_telefonvermerk_notarin_kueppers.docx` | Telefonvermerk zur Gesellschafterliste: fehlendes Testamentsvollstreckerzeugnis, Zeitfenster, Stellungnahme für die Bank |
+| `emails/2026-07-03_rehm_unterschriftenmatrix.eml` | E-Mail der Bank mit Unterschriftenmatrix, Unterlagenliste zum 10.07. und Sitzungstermin des Kreditkomitees |
+| `csv/gesellschaftsrechtliche_to_dos.csv` | Vollzugsliste für Register, Gesellschafterversammlung, Bank, Gutachter und Nachlassverwaltung |
+| `emails/2026-06-30_mara_bankdruck.eml` | E-Mail der Geschäftsführerin zur Kreditfrist und den Folgen für Löhne, Lieferanten und Investition |
+| `pdfs/satzung_nachfolgeklausel_auszug.pdf` | Beglaubigter Satzungsauszug zu Vinkulierung, Todesfall und Abfindung |
+| `xlsx/nachlass_und_gmbh_wertband.xlsx` | Konsistentes Nachlass-, Pflichtteils- und Bankliquiditätsband mit Formeln und Quellen |
 
 ## Arbeitsnotiz
 
-Der Fall eignet sich für Erbschein, Testamentsvollstreckerbefugnisse, Pflichtteil, gesellschaftsrechtliche Vollzugsfragen und Vergleich unter Liquiditätsdruck.
+Der Fall verbindet Erbschein, Testamentsvollstreckerbefugnisse, Pflichtteil, Gesellschaftsvollzug und Finanzierung. Satzung, Testament, Bankauflagen und operative Geschäftsführung liefern bewusst unterschiedliche Regelungsebenen, die in einer belastbaren Vollzugs- und Liquiditätsroute zusammengeführt werden müssen.

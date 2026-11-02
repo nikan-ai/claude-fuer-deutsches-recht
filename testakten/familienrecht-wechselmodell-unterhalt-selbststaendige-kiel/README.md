@@ -1,18 +1,25 @@
 # Familienrecht — Wechselmodell, Unterhalt und selbstständiges Einkommen in Kiel
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 17 KB) | PDF | [`gesamt-pdf/familienrecht-wechselmodell-unterhalt-selbststaendige-kiel_gesamt.pdf`](gesamt-pdf/familienrecht-wechselmodell-unterhalt-selbststaendige-kiel_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/familienrecht-wechselmodell-unterhalt-selbststaendige-kiel_gesamt.pdf`](gesamt-pdf/familienrecht-wechselmodell-unterhalt-selbststaendige-kiel_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-familienrecht-wechselmodell-unterhalt-selbststaendige-kiel-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -37,18 +44,23 @@ Trennung von Rieke und Malte Henning in Kiel mit zwei Kindern, praktiziertem Wec
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_erstgespraech.docx` | 01 mandatsnotiz erstgespräch.docx |
-| `02_chronologie_arbeitsstand.docx` | 02 chronologie arbeitsstand.docx |
-| `03_sachverhalt_aus_mandantensicht.docx` | 03 sachverhalt aus mandantensicht.docx |
-| `04_gegenseite_standpunkt.docx` | 04 gegenseite standpunkt.docx |
-| `05_jugendamt_gespraechsvermerk.docx` | 05 jugendamt gesprächsvermerk.docx |
-| `06_einkommen_und_mehrbedarf.docx` | 06 einkommen und mehrbedarf.docx |
-| `09_entwurf_naechstes_schreiben.docx` | 09 entwurf nächstes schreiben.docx |
-| `csv/fristen_und_zahlungen.csv` | csv/fristen und zahlungen.csv |
-| `emails/2026-07-02_rieke_an_kanzlei.eml` | emails/2026 07 02 rieke an kanzlei.eml |
-| `pdfs/schulbescheinigung_und_kostenblatt.pdf` | pdfs/schulbescheinigung und kostenblatt.pdf |
-| `tabellen/betreuungstage_und_einkommen.xlsx` | tabellen/betreuungstage und einkommen.xlsx |
+| `02_chronologie_arbeitsstand.docx` | Zeitachse und Zahlungsübersicht mit Quellen, Auskunftslücken und abweichenden Elternkalendern |
+| `03_sachverhalt_aus_mandantensicht.docx` | Unterzeichnete Erklärung Rieke Hennings zu tatsächlicher Betreuung, Kosten, Praxiseinkommen und gewünschter Zwischenregelung |
+| `04_gegenseite_standpunkt.docx` | Anwaltsschreiben Malte Hennings zu Betreuungszeiten, Mehrjahreseinkommen, Sachleistungen und Zwischenzahlung |
+| `05_jugendamt_gespraechsvermerk.docx` | Jugendamtsvermerk zu gemeinsamen Zielen, abweichenden Darstellungen, Kinderäußerungen und praktischen Vereinbarungen |
+| `06_einkommen_und_mehrbedarf.docx` | Steuerberaterliche Mehrjahresübersicht zu Umsatz, Gewinn, Entnahmen, Darlehen, Pkw, Vorsorge und Kinderkosten |
+| `07_betreuungskalender_uebergabeprotokoll.docx` | Monatsweiser Abgleich von Nächten, streitigen Terminen und Zusatzbetreuung mit einer neutralen Auswertungsregel |
+| `08_praxis_einkommensauskunft_mehrjahresbild.docx` | Auskunftserklärung des Selbstständigen mit Einkunftsarten, Belegverzeichnis, Buchungserläuterungen und Vollständigkeitsversicherung |
+| `09_entwurf_naechstes_schreiben.docx` | Schreiben zu Auskunftslücken, Kalenderabgleich, vorläufiger Zahlung und Organisation der Kinderkosten |
+| `10_schulische_stellungnahme.docx` | Gemeinsame Auskunft von Gymnasium und Grundschule zu Abholungen, Krankheit, Kinderäußerungen und Portalregel |
+| `11_chatverlauf_eltern_juni_juli.txt` | Nachrichtenverlauf der Eltern zu Übernachtungszahlen, Musikschule, Klassenfahrt, Krankheitsbetreuung und Ferientausch |
+| `csv/fristen_und_zahlungen.csv` | Monatliche Zahlungs- und Fristenübersicht für Auskunft, Rückstand und Zwischenregelung |
+| `emails/2026-07-02_rieke_an_kanzlei.eml` | Mandantenmail zu Kalenderabweichungen, Bonus und ausstehenden Kosten |
+| `emails/2026-07-16_gegenanwalt_an_kanzlei.eml` | Schreiben der Gegenseite: Jahresabschluss 2023, Reisedaten Ferienwoche, Teilzahlung Klassenfahrt, Zwischenzahlung ab August |
+| `pdfs/schulbescheinigung_nora_henning.pdf` | Eigenständige Schulbescheinigung zu Schulbesuch, Musikprofil und Klassenfahrt |
+| `pdfs/kostenmitteilung_nora_henning.pdf` | Gesonderte Zahlungsmitteilung der Schulkasse mit Fälligkeiten und Kontoverbindung |
+| `tabellen/betreuungstage_und_einkommen.xlsx` | Rechenmappe mit Betreuungstagen, Mehrjahreseinkommen und getrennten Kinderbedarfen |
 
 ## Arbeitsnotiz
 
-Die Akte eignet sich für Unterhaltsberechnung, Betreuungsmodell, Mehrbedarf, Auskunft und gerichtliche Vergleichsvorbereitung. Sie enthält bewusst mehrere Zahlenstände und widersprüchliche Betreuungsnotizen.
+Die Unterlagen erfassen Unterhaltsberechnung, Betreuungsmodell, Mehrbedarf, Auskunft und gerichtliche Vergleichsvorbereitung. Abweichende Zahlenstände und Betreuungsnotizen lassen sich jeweils auf ihre Quelle zurückführen.

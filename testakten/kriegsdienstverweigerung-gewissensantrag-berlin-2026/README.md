@@ -1,24 +1,35 @@
 # Akte: KDV-Verfahren Malte Eberhard Rabenow / Berlin-Köln 2026
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 126 KB) | PDF | [`gesamt-pdf/kriegsdienstverweigerung-gewissensantrag-berlin-2026_gesamt.pdf`](gesamt-pdf/kriegsdienstverweigerung-gewissensantrag-berlin-2026_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/kriegsdienstverweigerung-gewissensantrag-berlin-2026_gesamt.pdf`](gesamt-pdf/kriegsdienstverweigerung-gewissensantrag-berlin-2026_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kriegsdienstverweigerung-gewissensantrag-berlin-2026-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 Diese Akte bündelt Unterlagen eines laufenden Verfahrens zur Anerkennung als Kriegsdienstverweigerer aus Gewissensgründen. Die Person ist ungedient, vor dem 01.01.2010 geboren und möchte nicht den Staat, nicht eine bestimmte Regierung und nicht jede Dienstpflicht ablehnen, sondern den Kriegsdienst mit der Waffe aus Gewissensgründen verweigern.
 
 ## Gesamt-PDF
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 - [Gesamt-PDF der Akte](gesamt-pdf/kriegsdienstverweigerung-gewissensantrag-berlin-2026_gesamt.pdf)
 
@@ -42,3 +53,20 @@ Diese Akte bündelt Unterlagen eines laufenden Verfahrens zur Anerkennung als Kr
 - `kriegsdienstverweigerung-wehrdienst`
 - `bundeswehrrecht-wehrrecht`
 - `fachanwalt-verwaltungsrecht`
+
+---
+
+<!-- BEGIN nachgereichte-originalunterlagen -->
+## Nachgereichte Originalunterlagen
+
+Diese Dateien ergänzen den Datenraum um später eingegangene Primärunterlagen. Sie enthalten Tatsachen, Rohdaten und Korrespondenz, aber keine rechtliche Lösung.
+
+| Datei | Herkunft und Inhalt |
+| --- | --- |
+| [`16_arbeitgeberbestaetigung_lebenslaufstationen.docx`](16_arbeitgeberbestaetigung_lebenslaufstationen.docx) | Arbeitgeberbestätigung zu konkret ausgeübten sozialen Tätigkeiten |
+| [`17_email_freund_erinnerung_schulzeit.eml`](17_email_freund_erinnerung_schulzeit.eml) | Private Erinnerungsmail mit klar benannten Wahrnehmungsgrenzen |
+| [`18_termine_und_unterlagen_fundliste.csv`](18_termine_und_unterlagen_fundliste.csv) | Fundliste real vorhandener biografischer Unterlagen |
+| [`19_erklaerung_kiessling_unterzeichnet.docx`](19_erklaerung_kiessling_unterzeichnet.docx) | Unterzeichnete Erklärung des Schulfreundes zu selbst wahrgenommenen biografischen Stationen |
+| [`emails/2026-10-28_bapersbw-an-kanzlei-zwischennachricht.eml`](emails/2026-10-28_bapersbw-an-kanzlei-zwischennachricht.eml) | Zwischennachricht des BAPersBw mit Vorgangsnummer, Abgabe an das BAFzA und Hinweis auf offene Anhörungsantwort |
+
+<!-- END nachgereichte-originalunterlagen -->

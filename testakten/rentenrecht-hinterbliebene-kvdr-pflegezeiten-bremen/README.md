@@ -5,15 +5,23 @@ Akte einer Witwe mit Witwenrentenbescheid, eigener kleiner Rente, Unterstützung
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 54 KB) | PDF | [`gesamt-pdf/rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen_gesamt.pdf`](gesamt-pdf/rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen_gesamt.pdf`](gesamt-pdf/rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -32,7 +40,6 @@ Neu hinzugekommen ist ein vierter Streitpunkt: Die Weser Krankenkasse stellt nac
 ```
 rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen/
 ├── README.md                                  ← diese Datei
-├── 01_mandatsaufnahme.docx                      ← Kanzleivermerk: Beteiligte, Fristen, Arbeitsauftrag
 ├── 02_drv_bescheid_witwenrente.docx             ← Bewilligungsbescheid mit Sterbevierteljahr, Anrechnung, Rechtsbehelfsbelehrung
 ├── 03_unterstuetzungskasse_leistungsmitteilung.docx ← Zahlstelle erklärt Beitragsabzug ab Juni 2026
 ├── 04_krankenkasse_beitragsmitteilung.docx      ← KVdR-Einordnung, Beitragssätze, angekündigte Nachberechnung
@@ -44,16 +51,16 @@ rentenrecht-hinterbliebene-kvdr-pflegezeiten-bremen/
 ├── 10_kontoauszug_zahlungseingaenge.txt         ← Zahlungseingänge Juni 2026 mit Notiz der Mandantin
 ├── 11_email_nachfragen_tochter.eml              ← Fragen der Tochter, Zeugin für den Erhebungsbogen 2023
 ├── 12_kvdr_vorversicherung_datenkern.csv        ← Datenkern: Rahmenfrist, Belegungszeiten, Kindererziehung; Neun-Zehntel-Belegung nachrechenbar
-├── 13_anwaltliche_stellungnahme_kvdr_2026-07-03.md ← Stellungnahme an die Krankenkasse: Kindererziehung führt über die Schwelle
-├── 14_drv_bescheinigung_kindererziehungszeiten_2026-06-29.md ← DRV-Bescheinigung der drei Kindererziehungszeiten
+├── 13_anwaltliche_stellungnahme_kvdr_2026-07-03.docx ← Stellungnahme an die Krankenkasse: Kindererziehung führt über die Schwelle
+├── 14_drv_bescheinigung_kindererziehungszeiten_2026-06-29.docx ← DRV-Bescheinigung der drei Kindererziehungszeiten
+├── 15_telefonvermerk_drv_widerspruch_2026-07-10.docx ← Telefonat mit dem Fachreferat: Anlage zur Anrechnung folgt, Verläufe getrennt, Zahlung läuft weiter
 ├── rubric.yaml                                  ← Prüfkriterien für die Bearbeitung
 ├── eml/
     ├── 01_weser_kk_kvdr_ueberpruefung.eml       ← Krankenkasse: Vorversicherungszeit angeblich nicht erfüllt (172 von 252)
     ├── 02_kanzlei_an_weser_kk_kindererziehung.eml ← Kanzlei: drei Kinder mal drei Jahre erfüllen die Schwelle
     ├── 03_pflegekasse_erhebungsbogen.eml        ← Pflegekasse zur Beitragslücke 07/2023 bis 11/2023 und zur Zeugin
+    ├── 04_weser_kk_geburtsurkunden_nachforderung.eml ← Krankenkasse fordert Geburtsurkunden nach und verlangt Nachweis der PKV-Zeit 2004 bis 2012
     └── chatverlauf_geschwister_bruns.txt        ← WhatsApp-Export der drei Kinder zur Suche der Geburtsurkunden
-├── 91_fristsachen_belege_offene_punkte_2026-07-06.csv    # Fristsachen, Belege und offene Punkte (Ergaenzung v426)
-└── eml/2026-07-06_sachstand_nachforderung.eml            # Sachstand zur Nachforderung (Ergaenzung v426)
 ```
 
 Der Datenkern in `12_kvdr_vorversicherung_datenkern.csv` macht den KVdR-Streit rechnerisch nachvollziehbar: Zweite Rahmenfristhälfte 280 Monate, Schwelle 252 Monate, belegt 172 Monate, Kindererziehung 108 Monate, zusammen 280 Monate. Die Krankenkasse kommt nur deshalb auf ein Fehlen der Vorversicherungszeit, weil sie die 108 Monate Kindererziehung nicht mitzählt.

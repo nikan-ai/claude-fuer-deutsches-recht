@@ -2,31 +2,152 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-15 von 59 Skills des Plugins `ki-richtlinie-kanzleien`.
+Diese Vollprüfung enthält top-15 von 60 Skills des Plugins `ki-richtlinie-kanzleien`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Kanzleirichtlinien für digitale Werkzeuge geht: klärt Rolle, Ziel, Frist, Unterlagen …
-2. **pflegt-erstpruefung-und-mandatsziel** — Wenn es um Pflegt: Erstprüfung, Rollenklärung und Mandatsziel in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, U…
-3. **automatisierte-entscheidungen-art-22-dsgvo** — Wenn es um Automatisierte Entscheidungen Art. 22 DSGVO in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Sachver…
-4. **start-chronologie-fristen** — Wenn es um digitale Werkzeuge-Richtlinie für Kanzleien und Rechtsabteilungen — Allgemein in diesem Spezialbereich geht: …
-5. **syndikus-schriftsatz-brief-und-memo-bausteine** — Wenn es um Syndikus: Schriftsatz-, Brief- und Memo-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwu…
-6. **rechtsabteilungen-syndikus-verordnung** — Wenn es um Rechtsabteilungen: Risikoampel, Gegenargumente und Verteidigungslinien in diesem Spezialbereich geht: zerlegt…
-7. **kennzeichnungspflichten-veroeffentlichungen** — Wenn es um Kennzeichnungspflichten für Veröffentlichungen in diesem Spezialbereich geht: erstellt den passenden Entwurf …
-8. **dsgvo-compliance-dokumentation-und-akte** — Wenn es um DSGVO: Compliance-Dokumentation und Aktenvermerk in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, L…
-9. **nutzung-mandatsdaten** — Wenn es um Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg in diesem Spezialbereich geht: prüft Frist, Fo…
-10. **vo-hochrisiko-kirk-fortbildung-bauleiter** — Wenn es um europäischer Technikregulierungsrahmen Hochrisiko Personalwesen in diesem Spezialbereich geht: zerlegt Ergebn…
-11. **bora-brak-dsgvo** — Wenn es um Bora: Zahlen, Schwellenwerte und Berechnung in diesem Spezialbereich geht: rechnet Schwellen, Beträge, Varian…
-12. **executive-summary-1-pager-template** — Wenn es um Executive Summary 1-Pager Template in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nach…
-13. **ki-vo-betreiber-pflichten** — Wenn es um europäischer Technikregulierungsrahmen Betreiber-Pflichten in diesem Spezialbereich geht: zerlegt Ergebnis, F…
-14. **brao-quellenkarte** — Wenn es um Brao Quellenkarte in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Sachverhalt, Norm, Beweislast, Ge…
-15. **anonymisierung-pseudonymisierung** — Wenn es um Anonymisierung und Pseudonymisierung in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Na…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn eine Systemrichtlinie für Kanzleien tragfähig begründet werden muss; verbindet Einsatzfall, Beru…
+2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+3. **pflegt-erstpruefung-und-mandatsziel** — Für Pflegt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbe…
+4. **ki-kompetenz-erwerb-plan** — Erstellt einen schlanken Kompetenzförderplan für Kanzleimitarbeiter nach Artikel 4 neuer Fassung. Verbindet konkrete Wer…
+5. **ki-vo-betreiber-pflichten** — Prüft die konkrete Betreiberrolle einer Kanzlei, ihre KI-Funktionen und die zugehörigen Pflichten. Trennt Kompetenzmaßna…
+6. **start-chronologie-fristen** — Für digitale Werkzeuge-Richtlinie für Kanzleien und Rechtsabteilungen — Allgemein: prüft Frist, Form, Zuständigkeit und …
+7. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **anschluss-routing** — Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+9. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+10. **workflow-chronologie-und-belegmatrix** — Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix…
+11. **rechtsabteilungen-syndikus-verordnung** — Für Rechtsabteilungen: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und Gegenargument; E…
+12. **output-waehlen** — Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fac…
+13. **workflow-unterlagen-lueckenliste** — Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fac…
+14. **workflow-fristen-und-risikoampel** — Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachge…
+15. **vo-hochrisiko-kirk-fortbildung-bauleiter** — Für europäischer Technikregulierungsrahmen Hochrisiko Personalwesen: ordnet Norm, Beweislast und Gegenargument; Ergebnis…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn eine Systemrichtlinie für Kanzleien tragfähig begründet werden muss; verbindet Einsatzfall, Berufspflicht, technische Kontrolle, Verantwortlichkeit, stärkste Gegenposition und konkrete Regelungsfolge._
+
+# Juristischer Argumentationskern - Systemrichtlinie für Kanzleien
+
+## 1. Direktstart
+
+Arbeite als Kanzleiorganisatorischer Bearbeiter für Mandatsannahme, Interessenkontrolle, Vollmacht, Fristen, elektronische Einreichung, Aufgabenverteilung, Budget, Rechnung, Aktenführung und Mandatsabschluss mit Fokus auf Verantwortlichkeit und belegten Übergaben.
+
+Pluginauftrag: Erstellt und pflegt eine berufsrechtskonforme System-Nutzungsrichtlinie für Kanzleien und Rechtsabteilungen mit Anwälten und Syndikus-Anwälten. Beruht auf BRAO, BORA, Datenschutz-Grundverordnung, Regulierungsrahmen sowie BRAK- und DAV-Hinweisen.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für die Systemrichtlinie in einem Satz und nenne darin Einsatzfall, verantwortliche Rolle, betroffene Berufspflicht und erforderliche Kontrollregel. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Freigaberegel, Verbotsfall, Vier-Augen-Kontrolle, Dokumentationspflicht, Vorfallweg, Löschvorgabe oder Schulungsbaustein.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Mandatsannahme | Beteiligte, Gegner, Interessenkontrolle, Identität, Umfang, Vollmacht, Vergütung und Annahmebestätigung sichern |
+| Fristenkontrolle | Auslöser, Bekanntgabe, Kalenderberechnung, Eintrag, Gegenkontrolle, Verantwortlicher und Vertretung dokumentieren |
+| Bearbeitung und Freigabe | Arbeitsauftrag, Aktenstand, offene Entscheidung, Vieraugenkontrolle, Budget und Freigabefassung führen |
+| Elektronischer Versand | Empfänger, Dateiformat, Signatur, Anlagen, Übermittlungsweg, Eingangsbestätigung und Fehlerreaktion prüfen |
+| Abrechnung und Fremdgeld | Gebührentatbestand, Gegenstandswert, Vereinbarung, Vorschuss, Fremdgeld, Rechnung und Zahlungslauf abstimmen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Auftragsverarbeitungsvertrag prüfen: Bearbeite den Fachpunkt im Skill auftragsverarbeitungsvertrag-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Musterklauseln IT-Vertrag: Bearbeite den Fachpunkt im Skill musterklauseln-it-vertrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Syndikus: Schriftsatz-, Brief- und Memo-Bausteine: Bearbeite den Fachpunkt im Skill syndikus-schriftsatz-brief-und-memo-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Automatisierte Entscheidungen Art. 22 Datenschutz-Grundverordnung: Bearbeite den Fachpunkt im Skill automatisierte-entscheidungen-art-22-dsgvo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BRAO Paragraf 43a Absatz 2 und Absatz 4: Verschwiegenheit und Verbot widerstreitender Interessen.
+4.2. BRAO Paragraf 43e: Inanspruchnahme von Dienstleistungen und vertragliche Sicherung der Verschwiegenheit.
+4.3. BRAO Paragraf 31a sowie ZPO Paragraf 130a: besonderes elektronisches Anwaltspostfach und elektronische Dokumente.
+4.4. GwG Paragraf 10 und Paragraf 11: allgemeine Sorgfaltspflichten und Identifizierung bei verpflichteten Kanzleien.
+4.5. RVG Paragraf 3a und Paragraf 10: Vergütungsvereinbarung und Berechnung.
+4.6. HGB Paragraf 257 und AO Paragraf 147: handels- und steuerrechtliche Aufbewahrung, soweit auf den Kanzleivorgang anwendbar.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Verantwortlicher Bearbeiter für Annahme, Vollmacht, Frist, Freigabe und Versandnachweis; Mandant für Identitäts-, Sachverhalts- und Entscheidungsangaben.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Ist das Mandat wirksam angenommen und der Umfang eindeutig dokumentiert.
+7.2. Sind Interessenkontrolle, Identität, Vollmacht und verantwortlicher Bearbeiter belegt.
+7.3. Welche Frist oder Freigabe ist der nächste nicht reversible Schritt.
+7.4. Ist der Versand technisch und rechtlich vollständig nachgewiesen.
+7.5. Sind Budget, Rechnung, offene Aufgaben und Mandatsabschluss konsistent.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Mandatsblatt: Beteiligte, Gegner, Gegenstand, Umfang, Vollmacht, Interessenkontrolle, Frist, Bearbeiter, Budget und nächster Schritt; Versandkontrolle: Dokument, Fassung, Signatur, Anlagen, Empfänger, Kanal, Zeitpunkt, Bestätigung und Fehlerprotokoll.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Fachliche Formulierungsansätze
+
+10.1. Mandatsblatt: Beteiligte, Gegner, Gegenstand, Umfang, Vollmacht, Interessenkontrolle, Frist, Bearbeiter, Budget und nächster Schritt.
+10.2. Versandkontrolle: Dokument, Fassung, Signatur, Anlagen, Empfänger, Kanal, Zeitpunkt, Bestätigung und Fehlerprotokoll.
+10.3. Abschlussblatt: Ergebnis, Restpunkte, Vollstreckung, Rechnung, Fremdgeld, Rückgabe, Aufbewahrung und Wiedervorlage.
+
+## 11. Qualitätskontrolle
+
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Mandatsblatt, Fristenkontrolle, Arbeitsauftrag, Versandprotokoll, Budgetbericht, Rechnung oder Abschlussblatt verwendbar?
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Kanzleirichtlinien für digitale Werkzeuge geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
 
 # Einstieg und Routing
 
@@ -70,7 +191,7 @@ Dieser Einstieg routet **Ki Richtlinie Kanzleien** vom ersten Sachverhalt zu Rol
 
 ## Skill: `pflegt-erstpruefung-und-mandatsziel`
 
-_Wenn es um Pflegt: Erstprüfung, Rollenklärung und Mandatsziel in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Pflegt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix._
 
 # Pflegt: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -86,8 +207,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Normenanker
 
@@ -142,114 +261,111 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 6. **Ziel:** Vollständige Erstrichtlinie? Nachbesserung? Tool-Einzelfreigabe? Schulungsprogramm?
 
 ## Trade-off
-Eine sehr lange, vollständige Richtlinie ist schwer durchsetzbar — sie wird nicht gelesen. Eine sehr kurze Richtlinie verfehlt regulatorische Anforderungen (Art. 4 KI-VO, DSGVO Verzeichnis Art. 30). Empfehlung: Zweischichtig — Langversion mit allen Details + One-Pager für den Arbeitsplatz. Schulung mit Quiz dokumentiert.
+Die Richtlinie muss am Arbeitsplatz nutzbar sein. Eine Langfassung mit zugänglichem One-Pager kann helfen; ihre Länge belegt keine Rechtskonformität. Artikel 4 schreibt weder ein bestimmtes Richtlinienformat noch ein Quiz vor. Passende Einweisung und Nacharbeit anhand der tatsächlichen Tätigkeit planen; Datenschutzdokumentation eigenständig führen.
 
 ---
 
-## Skill: `automatisierte-entscheidungen-art-22-dsgvo`
+## Skill: `ki-kompetenz-erwerb-plan`
 
-_Wenn es um Automatisierte Entscheidungen Art. 22 DSGVO in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Erstellt einen schlanken Kompetenzförderplan für Kanzleimitarbeiter nach Artikel 4 neuer Fassung. Verbindet konkrete Werkzeuge, Quellenkontrolle, Vertraulichkeit und Freigaberollen, ohne pauschale Kurs-, Zertifikats- oder Wiederholungspflichten zu erfinden._
 
-# Automatisierte Entscheidungen Art. 22 DSGVO
+# 1. Kompetenzförderung im Kanzleialltag
 
-## Arbeitsbereich
+## 1. Zweck und Anwendungsfall
 
-Automatisierte Einzelentscheidungen nach Art. 22 DSGVO in Kanzleien prüfen: Anwendungsfall Kanzlei plant KI-gestützte Mandatszuordnung Honorarberechnung oder Bonitätsprüfung und muss prüfen ob automatisierte Entscheidung ohne Mensch zulässig ist. Art. 22 DSGVO Verbot automatisierter Einzelentscheidungen, Art. 6 DSGVO Rechtsgrundlage, DSGVO Einwilligung. Prüfraster erhebliche Auswirkung der Entscheidung, Ausnahmen Einwilligung Vertrag gesetzliche Grundlage, Widerspruchsrecht und Gegendarstellung. Output Prüfprotokoll mit Einordnung und notwendigen Schutzmaßnahmen. Abgrenzung zu KI-VO-Betreiber-Pflichten und zu DSGVO-Compliance. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Überarbeite den vorhandenen Einweisungsplan für die tatsächlichen Arbeitsplätze. Artikel 4 der Verordnung (EU) 2024/1689 verlangt seit der Änderung vom 27. Juli 2026 Fördermaßnahmen, aber kein garantiertes individuelles Kompetenzniveau. Die anwaltliche Verantwortung für das Arbeitsergebnis entfällt dadurch nicht.
 
-## Arbeitsweg
+## 2. Eingaben
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Nutze Toolfreigaben, Mandatsabläufe, vorhandene Schulungen, Befugnisse und beobachtete Fehler. Keine vollständige Abfrage aller Mitarbeiter, wenn nur ein Team ein neues Werkzeug erhält. Bei fehlenden Unterlagen mit einem klar abgegrenzten Entwurf beginnen.
 
-## Spezialwissen
+## 3. Ablauf
 
-Art. 22 DSGVO schützt Personen vor Entscheidungen, die ausschließlich auf automatisierter Verarbeitung — also ohne menschliche Überprüfung — beruhen und erhebliche Auswirkungen auf die betroffene Person haben. Beim Einsatz von KI-Systemen in Kanzleien ist dieses Verbot besonders relevant: Keine rechtlich bedeutsame Entscheidung darf allein auf der Grundlage eines KI-Outputs getroffen werden.
+1. Arbeitsplätze nach Tätigkeit unterscheiden: Posteingang und Aktenaufbereitung, Recherche, Vertragsentwurf, Mandantenkommunikation, anwaltliche Endkontrolle.
+2. Je Arbeitsplatz höchstens die entscheidenden Risiken herausarbeiten: falsche Zuordnung, erfundene Quelle, fehlender Kontext, unzulässige Eingabe oder irrtümliche Außenfreigabe.
+3. Vorhandene passende Unterweisung übernehmen. Für die konkrete Lücke eine kurze Übung mit zulässigen Übungsdaten, Ansprechpartner und Arbeitsanweisung ergänzen. Kursdauer und jährliche Wiederholung sind Organisationsentscheidungen, keine Vorgaben des Artikels 4.
+4. Festhalten, wer welches Werkzeug für welchen Zweck nutzen darf und wann Rückfrage nötig ist. Fördermaßnahmen nach Erfahrung, Ausbildung, Einsatzkontext und betroffenen Personen ausrichten; keine Garantie aller Lernergebnisse verlangen.
+5. Nachweis knapp: Datum, Thema, Zielgruppe, Material, zuständiger Ansprechpartner und Anlass einer Wiederholung. Keine gesetzliche Dreijahresfrist für sämtliche Schulungsbelege erfinden; angemessenes Aufbewahrungskonzept wählen.
+6. Fachanwaltliche Fortbildung nach Paragraf 15 FAO gesondert prüfen: Fachbezug und anerkannte Form, nicht jede allgemeine Tool-Einweisung automatisch anrechnen. Bei Betriebsrat betriebliche Bildungsmaßnahmen nach Paragrafen 96 bis 98 BetrVG prüfen; Paragraf 87 Absatz 1 Nummer 6 nur bei technischer Leistungs- oder Verhaltenskontrolle.
+7. Bei tatsächlicher menschlicher Hochrisikoaufsicht Artikel 26 Absatz 2 zusätzlich mit Kompetenz, Ausbildung, Befugnissen und Unterstützung prüfen. Kein gewöhnliches Schreibwerkzeug allein wegen anwaltlicher Nutzung zu Hochrisiko erklären.
 
-## Rechtlicher Hintergrund
+## 4. Quellenpflicht
 
-Art. 22 Abs. 1 DSGVO: Betroffene haben das Recht, nicht einer ausschließlich auf automatisierter Verarbeitung beruhenden Entscheidung unterworfen zu werden, die ihnen gegenüber rechtliche Wirkung entfaltet oder sie in ähnlicher Weise erheblich beeinträchtigt. Art. 22 Abs. 2 DSGVO: Ausnahmen — Vertragsdurchführung (lit. a), gesetzliche Grundlage (lit. b), ausdrückliche Einwilligung (lit. c). Art. 22 Abs. 3 DSGVO: Bei Ausnahmen müssen geeignete Maßnahmen zum Schutz der Rechte und Freiheiten sowie der berechtigten Interessen getroffen werden, mindestens: Recht auf menschliche Einflussnahme, Darlegung des eigenen Standpunkts, Anfechtung der Entscheidung. Art. 22 Abs. 4 DSGVO: Besonders sensitive Kategorien nach Art. 9 DSGVO dürfen nicht Grundlage automatisierter Entscheidungen sein, außer bei ausdrücklicher Einwilligung oder erheblichem öffentlichem Interesse. Erwägungsgrund 71 DSGVO: Klarstellung zum Anwendungsbereich.
+[Rechtsstandkarte, Abschnitt 1.2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/digitaler-omnibus-2026.md), Artikel 4 neuer Fassung, Artikel 3 Nummer 56 und Artikel 26 Absatz 2. Paragrafen 43, 43a und 43e BRAO bleiben eigenständige Prüfungen. [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/zitierweise.md).
 
-## Vorgehen
+## 5. Ausgabeformat
 
-1. **Entscheidungstypen identifizieren**: Welche Entscheidungen in der Kanzlei könnten vollständig oder teilweise durch KI-Systeme getroffen werden?
-2. **Automatisierungsgrad prüfen**: Eine Entscheidung ist nur dann nach Art. 22 DSGVO verboten, wenn sie ausschließlich automatisiert ergeht und eine erhebliche Wirkung hat. Menschliche Endkontrolle durchbricht den Tatbestand.
-3. **Ausnahmen prüfen**: Liegt eine der Ausnahmen des Art. 22 Abs. 2 DSGVO vor?
-4. **Menschliche Aufsicht sicherstellen**: Für jede relevante Entscheidung muss ein Mensch die finale Verantwortung übernehmen und die Möglichkeit haben, das KI-Ergebnis zu korrigieren.
-5. **Sensible Daten ausschließen**: Bei Entscheidungen, die auf besonderen Datenkategorien nach Art. 9 DSGVO beruhen, ist besondere Vorsicht geboten.
-6. **Betroffenenrechte kommunizieren**: Mandanten und Beschäftigte müssen über ihr Recht informiert werden, automatisierte Entscheidungen anzufechten.
+Ausformulierter Kanzleiplan mit konkreten Übungsaufgaben, Freigaberegel und Termin nur für erforderliche Nacharbeit. Beispielklausel: „Die Kanzlei stellt den betroffenen Mitarbeitern eine auf das freigegebene Werkzeug und ihren Aufgabenbereich bezogene Einweisung sowie einen erreichbaren Ansprechpartner bereit. Bei erkennbaren Unsicherheiten oder wesentlichen Einsatzänderungen wird die Einweisung gezielt ergänzt.“ Nicht als Garantie eines bestimmten Lernerfolgs formulieren. Times New Roman 11 pt und dezimale Gliederung, bei Textausgabe Exporthinweis.
 
-## Vorlagentext / Bausteine
+## 6. Beispiele
 
-**Baustein Verbot automatisierter Letztentscheidung:**
-Kein KI-System trifft in der Kanzlei eine abschließende Entscheidung mit rechtlicher Wirkung oder erheblicher tatsächlicher Beeinträchtigung für eine natürliche Person. Alle von KI-Systemen erzeugten Empfehlungen, Einstufungen oder Bewertungen sind ausnahmslos von einer qualifizierten menschlichen Person zu überprüfen, zu bewerten und freizugeben. Dies gilt insbesondere für: Mandatszuordnungen, Honorarberechnungen, Bonitätsbewertungen von Mandanten sowie Personalentscheidungen.
+Die Assistenz übt an einem Schriftsatz die zuverlässige Anlagenzuordnung; der Anwalt prüft eine unzutreffende Fundstelle am Original. Wer nur Termine überträgt, benötigt keinen umfassenden Kurs zur Modellentwicklung. Ein ausdrücklich vereinbarter Kanzleistandard darf strenger sein als Artikel 4, muss dann aber als interne Vorgabe erkennbar bleiben.
 
-**Baustein Menschliche Überprüfung:**
-Mitarbeiter, die KI-generierte Ergebnisse für Entscheidungsprozesse nutzen, sind angewiesen, das KI-Ergebnis stets als Hilfsmittel — nicht als Entscheidung — zu behandeln. Die menschliche Überprüfung muss inhaltlich erfolgen; ein rein formales "Abnicken" des KI-Outputs ohne eigene Prüfung genügt nicht den Anforderungen des Art. 22 DSGVO.
+---
 
-**Baustein Betroffenenrechte:**
-Sofern KI-Systeme an Entscheidungen mit Auswirkungen auf Mandanten oder Dritte beteiligt sind, informiert die Kanzlei betroffene Personen auf Anfrage über die Logik der Entscheidungsfindung sowie über das Recht, eine menschliche Überprüfung der Entscheidung zu verlangen (Art. 22 Abs. 3 DSGVO).
+## Skill: `ki-vo-betreiber-pflichten`
 
-## Hinweise zur Aktualisierung
+_Prüft die konkrete Betreiberrolle einer Kanzlei, ihre KI-Funktionen und die zugehörigen Pflichten. Trennt Kompetenzmaßnahmen, Transparenz, Hochrisiko-Nutzung, Rollenwechsel und Meldungen._
 
-Mit zunehmender Integration von KI-Systemen in Kanzleimanagement-Software (z.B. automatische Mandatszuordnung, Dokumentenpriorisierung) steigt die Relevanz des Art. 22 DSGVO. Neue EuGH- oder BGH-Entscheidungen zur Auslegung von Art. 22 DSGVO sowie Leitlinien des Europäischen Datenschutzausschusses (EDSA) sind regelmäßig zu prüfen.
+# KI-Betreiberpflichten der Kanzlei
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## 1. Zweck und Anwendungsfall
 
-## Zentrale Normen (Paragrafenkette)
-- Art. 22 Abs. 1 DSGVO — Verbot vollautomatisierter Einzelentscheidungen mit Rechtswirkung
-- Art. 22 Abs. 2 lit. a-c DSGVO — Ausnahmen (Vertrag, gesetzliche Pflicht, Einwilligung)
-- Art. 22 Abs. 3 DSGVO — Widerspruchsrecht und menschliche Prüfung
-- Art. 13/14 DSGVO — Informationspflichten bei automatisierten Entscheidungen
-- § 26 BDSG — Beschäftigtendatenschutz bei KI-Mitarbeiterbewertung
+Erstellen Sie eine einsatzbezogene Arbeitsanweisung für die Kanzlei. Die berufliche Nutzung eines fremden Dienstes begründet häufig eine Betreiberrolle; die Bezeichnung „nur Nutzer“ schafft keine allgemeine Ausnahme. Eigenentwicklung, Entwicklung im Auftrag und Änderungen unter eigenem Namen können weitere Rollen auslösen. Juristische Texte allein machen ein System nicht zur Justiz-KI.
 
-## Triage zu Beginn
-1. Liegt eine vollautomatisierte Entscheidung mit Rechtswirkung oder erheblicher Beeintraechtigung vor?
-2. Ist eine Rechtsgrundlage nach Art. 22 Abs. 2 lit. a-c DSGVO gegeben?
-3. Ist ein menschlicher Überprüfer vorgesehen — oder stempelt er nur ab (Stempel-Risiko)?
-4. Werden Betroffene nach Art. 13/14 DSGVO über die automatisierte Entscheidung informiert?
-5. Ist ein Widerspruchsrecht und eine Korrekturmoeglichkeit nach Art. 22 Abs. 3 DSGVO implementiert?
+## 2. Eingaben
 
-## Output-Template — Art. 22 DSGVO-Prüfprotokoll
-**Adressat:** DSB / Compliance — Tonfall: strukturiert, rechtlich
-```
-ART. 22 DSGVO-PRUEFPROTOKOLL
-[DATUM] — System: [SYSTEMNAME] — Anwendungsfall: [BESCHREIBUNG]
+Erfassen Sie Werkzeug und Version, Vertragspartner, tatsächliche Funktionen, vorgesehene Entscheidungen, betroffene Personen, verwendete Daten, Zugänge, bisherige Betriebszeitpunkte und Änderungen. Trennen Sie interne Entwürfe, Mandanteninteraktion, Veröffentlichung und Personalentscheidungen. Eine Anbieterfolie ersetzt keine Funktionsbeschreibung.
 
-Vollautomatisiert: [JA / NEIN]
-Rechtswirkung / erhebliche Beeintraechtigung: [JA / NEIN — BEGRUENDUNG]
-Art. 22 Abs. 1 DSGVO einschlaegig: [JA / NEIN]
+## 3. Ablauf und Checkliste
 
-Falls einschlaegig — Rechtsgrundlage Art. 22 Abs. 2:
-☑/☐ lit. a — Vertragserfuellung
-☑/☐ lit. b — gesetzliche Pflicht
-☑/☐ lit. c — ausdrueckliche Einwilligung
+### 3.1. Einstieg und Rolle
 
-Human-in-the-Loop: [JA — wie: BESCHREIBUNG / NEIN / NOMINELL — Stempel-Risiko]
-Widerspruchsrecht implementiert: [JA / NEIN]
-Informationspflicht Art. 13/14 DSGVO erfuellt: [JA / NEIN]
+Fragen Sie, ob zunächst eine Bestandsaufnahme, die Freigabe eines bestimmten Einsatzes oder ein fertiger Richtlinienbaustein benötigt wird. Verarbeiten Sie vorhandene Unterlagen sofort. Prüfen Sie Artikel 2 und 3 sowie einen möglichen Rollenwechsel nach Artikel 25. Nicht jede Konfiguration ist eine wesentliche Änderung; nicht jede Eigenentwicklung bleibt bloße Nutzung.
 
-Ergebnis: [ZULASSIG / UNZULASSIG — MASSNAHME ERFORDERLICH]
-Massnahme: [BESCHREIBUNG bis DATUM]
-Geprueft von: [NAME], [DATUM]
-```
+### 3.2. Funktion und Zeit
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+Prüfen Sie verbotene Praktiken nach Artikel 5 zuerst. Prüfen Sie beide Hochrisikopfade nach Artikel 6 mit Anhang I und Anhang III. Ein Bewerbungsscore kann Anhang III Nummer 4 erfüllen. Im Anhang-III-Pfad muss eine Ausnahme nach Absatz 3 fehlendes erhebliches Risiko einschließlich fehlender wesentlicher Entscheidungsbeeinflussung und mindestens eine der Fallgruppen a bis d tragen. Profiling sperrt die Ausnahme. Der Anbieter dokumentiert und registriert auch die erfasste Ausnahmebewertung nach Absatz 4 und Artikel 49 Absatz 2.
+
+Artikel 113 Buchstabe c betrifft Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: Anhang III ab 02.12.2027, Anhang I ab 02.08.2028. Bestand nach Artikel 111 und Normen außerhalb dieser Verschiebung gesondert prüfen. Keine pauschale sofortige Registerpflicht für jeden Altbestand und keine pauschale Befreiung bis 2028 behaupten.
+
+### 3.3. Kompetenz und Transparenz
+
+Artikel 4 neuer Fassung verlangt angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Einweisung, Quellenprüfung und Eskalation am Arbeitsplatz können solche Maßnahmen sein. Weder individuelles Erfolgsniveau noch Jahreskurs oder Zertifikat sind allgemein vorgeschrieben. Dokumentieren Sie angemessene Maßnahmen und erkannte Lücken.
+
+Artikel 50 getrennt nach Anbieter/Betreiber und Funktion prüfen. Ein interner anwaltlicher Entwurf ist nicht allein ein veröffentlichter Text zu Angelegenheiten öffentlichen Interesses. Ein Kanzleiblog kann den Texttatbestand erfüllen; tatsächliche menschliche Überprüfung oder redaktionelle Kontrolle und die verantwortliche Person sind zu belegen. Eine Unterschrift allein ist keine pauschale Ausnahme. Deepfake-Offenlegung bleibt eigenständig. Artikel 111 Absatz 4 verlängert nur Artikel 50 Absatz 2 bei erfassten generativen Alt-Systemen bis 02.12.2026.
+
+### 3.4. Hochrisiko-Betrieb
+
+Artikel 26 Absatz 1: geeignete technische und organisatorische Maßnahmen für Nutzung nach Betriebsanleitung. Absatz 2: zuständige Personen für menschliche Aufsicht mit Kompetenz, Ausbildung, Befugnis und Unterstützung. Absatz 4: kontrollierte Eingabedaten müssen zweckbezogen relevant und ausreichend repräsentativ sein. Absatz 5: Betrieb überwachen und bei den gesetzlichen Auslösern informieren, Nutzung aussetzen oder melden. Absatz 6: kontrollierte automatisch erzeugte Protokolle grundsätzlich mindestens sechs Monate aufbewahren, soweit anderes einschlägiges Recht nichts anderes vorsieht. Nicht sämtliche Daten unbegrenzt speichern.
+
+Absatz 7: betroffene Arbeitnehmervertretung und Beschäftigte vor Verwendung am Arbeitsplatz informieren. Absatz 11: Information natürlicher Personen bei den dort erfassten entscheidungsbezogenen Anhang-III-Einsätzen. Diese Pflichten ersetzen keine arbeitsrechtliche Mitbestimmung und keine Datenschutzinformation.
+
+Eine FRIA nach Artikel 27 ist nicht für jede private Kanzlei mit HR-System verpflichtend. Prüfen Sie die genannten öffentlichen Einrichtungen, privaten Erbringer öffentlicher Dienstleistungen und Betreiber von Systemen nach Anhang III Nummer 5 Buchstaben b/c; Nummer 2 ist ausgenommen. DSFA nach Artikel 35 DSGVO separat prüfen. Technische Dokumentation Artikel 11, Risikomanagement Artikel 9 und Konformitätsbewertung Artikel 43 sind nicht ohne Rollenwechsel allgemeine Betreiberaufgaben.
+
+### 3.5. Ergebnis und Fortsetzung
+
+Ordnen Sie jede Maßnahme einer Person und einem Nachweis zu. Halten Sie fehlende Anbieterunterlagen in einem ausformulierten Nachforderungsschreiben fest. Erzeugen Sie ein Versandstück erst nach konkreter Prüfung von Adressat und Fassung; markieren Sie unbestätigte Tatsachen. Bei Vorfall Kenntniszeitpunkt und betroffene Version sichern, Anbieter- und Betreiberwege getrennt prüfen; die DSGVO-Frist ist keine allgemeine KI-Vorfallfrist.
+
+## 4. Quellenpflicht
+
+Prüfstand 09.10.2026: [Amtliche KI-Verordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727), insbesondere Artikel 2 bis 6, 25 bis 27, 49, 50, 111 und 113, einschließlich Änderung 2026/1744 und Berichtigung 29.09.2026. Notieren Sie Absatz, Tatsachenbeleg und Grenze. Artikel 29 betrifft Konformitätsbewertungsstellen, keine zusätzlichen allgemeinen Betreiberpflichten. Eine nationale Zuständigkeit muss anhand geltenden Organisationsrechts belegt werden; eine Gesetzesankündigung reicht nicht.
+
+## 5. Ausgabeformat
+
+Liefern Sie einen ausformulierten Statusvermerk, einen unmittelbar verwendbaren Richtlinienbaustein und höchstens vier Tabellenspalten: Funktion/Rolle, Pflicht/Datum, Nachweis/Lücke, Verantwortung/Nächster Schritt. Exporte in Times New Roman 11 pt. Freigabe, dokumentierte Ausnahme und noch offene Prüfung sichtbar unterscheiden.
+
+## 6. Beispiele
+
+Die Kanzlei will denselben Assistenten für interne Schriftsatzentwürfe, öffentliche Blogtexte und Bewerberranking nutzen. Erstellen Sie drei getrennte Funktionszeilen. Quellenkontrolle im Schriftsatz ersetzt keine Transparenzprüfung beim Blog und keine Hochrisiko-/Profilingprüfung im Personalbereich. Der Anbieter verspricht „vollständige Compliance durch ISO-Zertifikat“: Fordern Sie den konkreten Systembezug und erforderlichen Verfahrensnachweis an; ein Managementzertifikat allein entscheidet die Rechtsfrage nicht.
+
+Bei einem reinen Rechtschreibhelfer ohne Bewertungsfunktion begründen Sie die Begrenzung anhand der technischen Beschreibung. Wenn später eine Rangfolge oder Eignungsbewertung hinzukommt, eröffnen Sie die Einstufung erneut und halten die geänderte Version fest.
 
 ---
 
 ## Skill: `start-chronologie-fristen`
 
-_Wenn es um digitale Werkzeuge-Richtlinie für Kanzleien und Rechtsabteilungen — Allgemein in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste._
+_Für digitale Werkzeuge-Richtlinie für Kanzleien und Rechtsabteilungen — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix._
 
 # KI-Richtlinie für Kanzleien und Rechtsabteilungen — Allgemein
 
@@ -317,7 +433,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -353,40 +469,17 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `anonymisierung-pseudonymisierung` | Anonymisierung und Pseudonymisierung von Mandatsdaten vor KI-Eingabe: Anwendungsfall Anwalt will Mandatsdokument in KI-System eingeben und muss Namen Adressen Aktenzeichen und Identifikatoren schützen. Art. 4 Nr. 5… |
-| `auftragsverarbeitungsvertrag-pruefen` | Auftragsverarbeitungsvertrag nach Art. 28 DSGVO bei KI-Anbietern prüfen: Anwendungsfall Kanzlei schließt Vertrag mit KI-Dienstleister und muss AVV auf DSGVO-Konformität prüfen. Art. 28 DSGVO AVV-Pflicht, § 43e BRAO… |
-| `automatisierte-entscheidungen-art-22-dsgvo` | Automatisierte Einzelentscheidungen nach Art. 22 DSGVO in Kanzleien prüfen: Anwendungsfall Kanzlei plant KI-gestützte Mandatszuordnung Honorarberechnung oder Bonitätsprüfung und muss prüfen ob automatisierte… |
-| `berufsrecht-bausteine` | Berufsrechtliche Textbausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei erstellt KI-Richtlinie und braucht praezise Bausteine zu Verschwiegenheit Sorgfaltspflicht und Eigenverantwortung. § 43… |
-| `bias-und-diskriminierung-pruefung` | Bias und Diskriminierung in KI-Outputs für Kanzleien prüfen: Anwendungsfall Kanzlei nutzt KI-System bei Personalentscheidungen Mandantenberatung oder Rechercheaufgaben und muss sicherstellen dass keine… |
-| `compliance-regelsatz-erstellen` | Compliance-Regelsatz Zehn Gebote für KI-Einsatz in Kanzleien erstellen: Anwendungsfall Kanzlei benoetigt praegnante Verhaltensregeln für alle Mitarbeitern zu erlaubten und verbotenen KI-Nutzungen. § 43a BRAO… |
-| `dienstleister-due-diligence` | KI-Dienstleister Due Diligence für Kanzleien durchführen: Anwendungsfall Kanzlei moechte neuen KI-Dienst beauftragen und muss eigenverantwortlich Datenschutz Berufsrecht und Sicherheit prüfen. § 43e BRAO… |
-| `dokumentationspflichten-protokoll` | Dokumentationspflichten und beweissichere Protokollierung von KI-Nutzung in Kanzleien: Anwendungsfall Kanzlei muss KI-Inputs und KI-Outputs nachvollziehbar dokumentieren für Datenschutzbehörden, Mandanten-Beschwerden… |
-| `dsgvo-compliance-bausteine` | DSGVO-Textbausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei erstellt oder aktualisiert KI-Richtlinie und benoetigt prazise datenschutzrechtliche Formulierungen. Art. 2 Abs. 1 DSGVO… |
-| `executive-summary-bausteine` | Executive Summary der KI-Nutzungsrichtlinie für Kanzleien erstellen: Anwendungsfall Kanzleiführung will Mitarbeitern die wichtigsten Kernpunkte in kurzem Executive Summary vermitteln. § 43a BRAO Verschwiegenheit, §… |
-| `geschgehg-bausteine` | GeschGehG-Bausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei muss beim KI-Einsatz Geschäftsgeheimnisse von Mandanten und eigene Kanzleiinformationen schützen. § 1 Abs. 3 Nr. 1 GeschGehG… |
-| `halluzinations-handhabung` | Halluzinationen von KI in juristischer Arbeit erkennen und Prozessbetrug vermeiden: Anwendungsfall Anwalt nutzt KI für Rechtsprechungs-Recherche und muss sicherstellen dass keine falschen Fundstellen in Schriftsatz… |
-| `kanzlei-kontext-analyse` | Kanzlei-Kontext erfassen für massgeschneiderte KI-Nutzungsrichtlinie: Anwendungsfall vor Erstellung einer KI-Richtlinie muss Groesse Rechtsgebiete Mandantenstruktur IT-Infrastruktur und Syndikus-Inhouse-Besonderheiten… |
-| `kennzeichnungspflichten-veroeffentlichungen` | Kennzeichnungspflichten für KI-generierte Inhalte in Kanzlei-Veröffentlichungen prüfen: Anwendungsfall Kanzlei veröffentlicht KI-unterstuetzte Artikel Blog-Posts Pressemitteilungen oder Mandantenbriefe und muss… |
-| `ki-kompetenz-erwerb-plan` | KI-Kompetenz-Schulungsplan für Kanzleien nach Art. 4 KI-VO erstellen: Anwendungsfall Kanzlei muss seit 2. Februar 2025 sicherstellen dass Personal ausreichend KI-Kompetenz hat. Art. 4 KI-VO KI-Kompetenz-Pflicht… |
-| `ki-vo-betreiber-pflichten` | KI-VO Betreiber-Pflichten für Kanzleien erläutern und umsetzen: Anwendungsfall Kanzlei als Betreiber von KI-Diensten muss Pflichten nach EU AI Act kennen und in Richtlinie umsetzen. Art. 3 Nr. 4 KI-VO… |
-| `ki-vo-hochrisiko-personalwesen` | KI-VO Hochrisiko-Anforderungen für Personalwesen in Kanzleien ab August 2026: Anwendungsfall Kanzlei setzt KI im HR-Bereich ein oder beraet Mandanten zum AGG-konformen KI-Einsatz bei Bewerberauswahl. Anhang III Nr. 4… |
-| `literatur-und-quellen` | Pflicht-Literatur und Aktualisierungsliste für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei will Richtlinie auf dem neuesten Stand halten und benoetigt strukturierte Quellenübersicht. BRAK-Hinweise… |
-| `musterklauseln-it-vertrag` | Musterklauseln für IT-Verträge mit KI-Dienstleistern in Kanzleien: Anwendungsfall Kanzlei verhandelt Vertrag mit KI-Anbieter und braucht Klauseln zu Verschwiegenheit Training-Opt-out Löschpflichten und Haftung. § 43e… |
-| `prompting-leitfaden` | Prompting-Leitfaden für juristische KI-Nutzung in Kanzleien: Anwendungsfall Anwalt oder Mitarbeiter wollen KI effektiver nutzen und benoetigen praxiserprobte Prompt-Methoden. Mandantenkommunikation mit KI,… |
-| `rdg-pruefung-chatbot` | RDG-Prüfung ob KI-Chatbot unerlaubte Rechtsdienstleistung erbringt: Anwendungsfall Kanzlei betreibt oder beraet Mandanten bei KI-Chatbot-Service und muss prüfen ob Chatbot-Output als Rechtsdienstleistung nach RDG… |
-| `richtlinien-skelett-erzeugen` | KI-Nutzungsrichtlinie Skelett für Kanzleien erzeugen: Anwendungsfall Kanzlei will erstmals KI-Nutzungsrichtlinie erstellen und benoetigt vollständige Grundstruktur. § 43a BRAO Verschwiegenheit, § 43e BRAO… |
-| `richtlinien-update-zyklus` | KI-Nutzungsrichtlinie regelmäßig prüfen und aktualisieren: Anwendungsfall bestehende KI-Richtlinie ist aelter als sechs Monate oder es gibt wesentliche neue Rechtsentwicklung. Art. 4 KI-VO KI-Kompetenz, KI-VO… |
-| `schatten-ki-aufdeckung` | Schatten-KI in Kanzleien erkennen und konstruktiv umgehen: Anwendungsfall Kanzleiführung vermutet oder stellt fest dass Mitarbeiter nicht autorisierte KI-Dienste mit privaten Accounts nutzen. § 43a BRAO… |
-| `transparenz-mandanten` | Transparenz gegenüber Mandanten bei KI-Einsatz in Kanzleien sicherstellen: Anwendungsfall Kanzlei muss Mandaten informieren dass KI-Systeme bei Mandatsbearbeitung eingesetzt werden. Art. 6 Abs. 1 lit. a DSGVO… |
-| `urheberrecht-bausteine` | Urheberrechtliche Bausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei will wissen ob KI-generierte Texte urheberrechtlich schützbar sind und welche Texte als Eingabe hochgeladen werden dürfen. §… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/skills/start-chronologie-fristen/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
-Das Plugin unterstuetzt Kanzleien und Rechtsabteilungen bei der Erstellung, Anpassung und regelmäßigen Aktualisierung einer berufsrechtskonformen KI-Nutzungsrichtlinie. Eine solche Richtlinie ist seit Inkrafttreten der KI-Kompetenz-Pflicht nach Art. 4 KI-VO (2. Februar 2025) und angesichts zunehmender KI-Nutzung in anwaltlichen Workflows keine Kuer mehr, sondern ein berufsrechtliches Erfordernis.
+Das Plugin unterstützt Kanzleien und Rechtsabteilungen bei einer praktikablen KI-Nutzungsrichtlinie. Diese ist ein Organisationsinstrument für konkrete Berufs-, Geheimhaltungs- und Datenschutzpflichten sowie angemessene Kompetenzmaßnahmen. Artikel 4 KI-Verordnung schreibt keine bestimmte Richtlinie und kein pauschales Pflichtzertifikat vor. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 Das Plugin verbindet DSGVO-Anforderungen, berufsrechtliche Vorgaben aus BRAO und BORA, die neuen Pflichten aus dem EU AI Act sowie die aktuellen Hinweise von BRAK und DAV zu einer praxistauglichen Richtlinienstruktur. Es richtet sich an Kanzleiinhaber, Compliance-Verantwortliche und Datenschutzbeauftragte.
 
@@ -401,8 +494,8 @@ Das Plugin verbindet DSGVO-Anforderungen, berufsrechtliche Vorgaben aus BRAO und
 ## Fachbegriffe (kurz erklaert)
 
 - **KI-Verordnung (EU AI Act)** — Verordnung (EU) 2024/1689; legt Pflichten für Anbieter und Betreiber von KI-Systemen fest.
-- **Art. 4 KI-VO** — KI-Kompetenz-Pflicht: Betreiber von KI-Systemen müssen sicherstellen, dass ihr Personal ausreichend KI-Kompetenz hat (seit 2. Februar 2025).
-- **Hochrisiko-KI** — KI-Systeme nach Anhang III KI-VO mit besonderen Anforderungen; z. B. KI in Personalentscheidungen.
+- Artikel 4 der Verordnung (EU) 2024/1689: Seit 27. Juli 2026 gilt die geänderte Pflicht zu kontextgerechten Fördermaßnahmen ohne Garantie eines bestimmten individuellen Kompetenzniveaus. Vorhandene geeignete Einweisungen verwerten; keinen Pflichtkurs aus einem fehlenden Zertifikat ableiten.
+- **Hochrisiko:** Artikel 6 Absatz 1 mit Anhang I sowie Absatz 2 mit Anhang III; Ausnahme Absatz 3 nur im zweiten Pfad. Personal-KI anhand ihrer konkreten Funktion prüfen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Schatten-KI** — Nicht genehmigte KI-Dienste, die Mitarbeiter mit privaten Accounts nutzen; Verschwiegenheitsrisiko.
 - **§ 43e BRAO** — Berufsrechtliche Dienstleisterregelung für Rechtsanwaelte; verpflichtet zur Sorgfalt bei IT-Diensten.
 - **AVV** — Auftragsverarbeitungsvertrag nach Art. 28 DSGVO; Pflicht bei KI-Dienstleistern, die personenbezogene Daten verarbeiten.
@@ -448,7 +541,7 @@ Das Plugin verbindet DSGVO-Anforderungen, berufsrechtliche Vorgaben aus BRAO und
 - `kennzeichnungspflichten-veroeffentlichungen` — Kennzeichnungspflichten für KI-generierte Inhalte in Kanzlei-Veroeffentlichungen prüfen.
 - `ki-kompetenz-erwerb-plan` — KI-Kompetenz-Schulungsplan nach Art. 4 KI-VO erstellen und dokumentieren.
 - `ki-vo-betreiber-pflichten` — KI-VO-Betreiber-Pflichten für Kanzleien erläutern und in Richtlinie umsetzen.
-- `ki-vo-hochrisiko-personalwesen` — Hochrisiko-Anforderungen für KI im HR-Bereich ab August 2026 prüfen.
+- `ki-vo-hochrisiko-personalwesen` — Recruiting und Personalmanagement nach Anhang III Nummer 4, Ausnahme Artikel 6 Absatz 3, Profiling sowie Artikel 111/113 prüfen.
 - `literatur-und-quellen` — Pflicht-Literatur und Aktualisierungsliste für KI-Nutzungsrichtlinien.
 - `musterklauseln-it-vertrag` — Musterklauseln für IT-Verträge mit KI-Dienstleistern (Verschwiegenheit, Training-Opt-out).
 - `prompting-leitfaden` — Prompting-Leitfaden für juristische KI-Nutzung mit Vorlagen und Checkliste.
@@ -461,11 +554,11 @@ Das Plugin verbindet DSGVO-Anforderungen, berufsrechtliche Vorgaben aus BRAO und
 
 ## Worauf besonders achten
 
-- **Art. 4 KI-VO-Pflicht seit 2. Februar 2025**: Kanzleien als Betreiber von KI-Systemen müssen nachweisbare KI-Kompetenz sicherstellen; fehlende Schulungsnachweise sind ein Compliance-Risiko.
+- Kompetenzförderung nach Artikel 4 neuer Fassung: Maßnahmen und konkrete Kenntnislücken dokumentieren; das Fehlen eines Zertifikats allein ist kein Nachweis eines Verstoßes. Für historische Zeiträume die damals geltende Fassung prüfen.
 - **Schatten-KI ist das groesste Praxisproblem**: Viele Mitarbeiter nutzen private ChatGPT-Accounts; Mandatsdaten gelangen ohne AVV und ohne Belehrung an Drittanbieter.
 - **DSGVO und Berufsrecht parallel prüfen**: Ein AVV reicht für die berufsrechtliche Konformitaet nach § 43e BRAO nicht aus.
 - **Richtlinie mindestens alle sechs Monate aktualisieren**: KI-VO, BRAK-Stellungnahmen und neue Rechtsprechung ändern sich schnell.
-- **Hochrisiko-Klassifizierung für HR-KI ab August 2026**: Kanzleien, die KI in Personalentscheidungen nutzen, müssen bis dahin Konformitaetsbewertungen abschliessen.
+- **HR-KI vor Einführung prüfen:** Artikel 6 Absatz 2 mit Anhang III Nummer 4 und Ausnahme Absatz 3 prüfen. Konformitätsbewertung ist grundsätzlich Anbieteraufgabe; der Betreiber prüft seine Pflichten und einen möglichen Rollenwechsel. Anwendungszeitpunkt nach Artikel 111/113 konkret bestimmen.
 
 ## Typische Fehler
 
@@ -479,89 +572,189 @@ Das Plugin verbindet DSGVO-Anforderungen, berufsrechtliche Vorgaben aus BRAO und
 
 - Stand: 05/2026
 - Gesetzesfassungen zum Stand-Datum
-- KI-Verordnung (EU) 2024/1689, gueltig seit 2. August 2024; KI-Kompetenz-Pflicht seit 2. Februar 2025
+- KI-Verordnung in Kraft seit 01.08.2024; Artikel 4 gilt seit 02.02.2025 und wurde mit Wirkung zum 27.07.2026 neu gefasst. Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - BRAK-Hinweise 12/2024
 - DAV-Stellungnahme Nr. 32/2025
 
 ---
 
-## Skill: `syndikus-schriftsatz-brief-und-memo-bausteine`
+## Skill: `workflow-kaltstart-und-routing`
 
-_Wenn es um Syndikus: Schriftsatz-, Brief- und Memo-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
 
-# Syndikus: Schriftsatz-, Brief- und Memo-Bausteine
+# Kaltstart und Routing
 
-## Normenanker
+## Aufgabe
+Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+## Kaltstart
+Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
 
-- `§ 241 Abs. 2 BGB` — Rücksichtnahme-, Schutz- und Organisationspflichten.
-- `§ 242 BGB` — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit.
-- `§ 280 Abs. 1 BGB` — Pflichtverletzung, Vertretenmuessen, Schaden.
-- `§ 286 Abs. 1 BGB` — Verzug und Fristlogik.
-- `§ 195 BGB` — regelmäßige Verjährung.
-- `§ 199 Abs. 1 BGB` — Beginn der regelmäßigen Verjährung.
-- `§ 253 Abs. 2 ZPO` — Bestimmtheit von Antrag und Klagegrund.
-- `§ 138 Abs. 1 ZPO` — Wahrheitspflicht und vollstaendiger Tatsachenvortrag.
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+## Arbeitsworkflow
+1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
+2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
+3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
+4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
+
+## Routing-Diagnose Kanzlei-KI-Richtlinie
+- **"Wir wollen eine Richtlinie für KI in der Kanzlei"** → Standardgliederung: Zweck, Anwendungsbereich, zulässige Tools, verbotene Tools, Mandantendaten, Schulungspflicht, Verantwortlichkeiten, Verstoßfolgen.
+- **"Welches Tool dürfen Mitarbeiter benutzen?"** → Whitelist erstellen mit AVV-Status, US-Cloud-Status (DPF/SCC/TIA), Kategorisierung "Mandantendaten ja/nein".
+- **"Mandantenkommunikation zu KI-Einsatz"** → Transparenzhinweise in Mandatsvereinbarung, ggf. Einwilligung; Berufsrechtliche Aufklärungspflicht § 49b BRAO.
+- **Kompetenznachweise:** Artikel 4 verlangt angemessene Maßnahmen zur Förderung; vorhandene Einweisungen und Nacharbeit prüfen. Kein bestimmtes individuelles Niveau oder Zertifikat als gesetzliche Voraussetzung erfinden. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **"Mitbestimmung im Betriebsrat"** → § 87 Abs. 1 Nr. 6 BetrVG bei "technischen Einrichtungen zur Überwachung"; § 80 Abs. 3 BetrVG Hinzuziehung externer Sachverständiger; § 95 BetrVG Auswahlrichtlinien.
+
+## Praxis-Tipp
+Empfohlener Organisationsablauf: Werkzeuge und Einsatzgrenzen festlegen, verständliche Richtlinie bereitstellen, tätigkeitsgerechte Einweisung und anlassbezogene Nacharbeit organisieren. Ein jährliches Re-Briefing kann intern vereinbart werden; Artikel 4 schreibt weder Jahresrhythmus noch eine bestimmte Schulungsform vor. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+
+## Output-Standard
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
+
+## Quellenregel
+- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
+
+---
+
+## Skill: `anschluss-routing`
+
+_Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
+
+# Anschluss-Routing
+
+## Einsatzlage
+
+Dieses Anschluss-Routing für **Ki Richtlinie Kanzleien** wählt nach dem ersten Ergebnis die passende Vertiefung, Eskalation, Fristensicherung oder Dokumentenerstellung.
+
+## Fachlandkarte dieses Plugins
+
+- `anonymisierung-pseudonymisierung` — Anonymisierung Pseudonymisierung
+- `anwaelten-berufsrechtskonforme-beruht` — Anwaelten Berufsrechtskonforme Beruht
+- `auftragsverarbeitungsvertrag-pruefen` — Auftragsverarbeitungsvertrag Prüfen
+- `automatisierte-entscheidungen-art-22-dsgvo` — Automatisierte Entscheidungen ART 22 DSGVO
+- `berufsrecht-bausteine` — Berufsrecht Bausteine
+- `berufsrechtskonforme-tatbestand-beweis-und-belege` — Berufsrechtskonforme Tatbestand Beweis und Belege
+- `beruht-verhandlung-vergleich-und-eskalation` — Beruht Verhandlung Vergleich und Eskalation
+- `bias-diskriminierung-regelsatz-erstellen` — Bias Diskriminierung Regelsatz Erstellen
+- `bora-brak-dsgvo` — BORA Brak DSGVO
+- `brak-internationaler-bezug-und-schnittstellen` — Brak Internationaler Bezug und Schnittstellen
+- `brao-quellenkarte` — BRAO Quellenkarte
+- `compliance-regelsatz-erstellen` — Compliance Regelsatz Erstellen
+- `dienstleister-due-diligence` — Dienstleister DUE Diligence
+- `dokumente-intake` — Dokumente Intake
+- `einstieg-routing` — Einstieg Routing
 
 ## Arbeitsweg
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- Ergebnis sichten: Welche Ki Richtlinie Kanzleien-Fragen sind nach diesem Skill beantwortet, welche bleiben offen oder neu entstehen?
+- Anschlussweichen identifizieren: drohende Frist (die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren), notwendige Dokumente (Vertragsurkunden, Schriftsätze, Verwaltungsakte, Protokolle, Bescheide und externe Beweismittel des Fachgebiets), nächste Verfahrensstufe oder Sachgebiet.
+- Konkreten Folge-Skill aus der Fachlandkarte oben benennen — nicht generisch "weitermachen", sondern Skill-Slug nennen.
+- Eskalation an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen oder Spezialisten klären, wenn der Vorgang die Skill-Grenze überschreitet.
+- Mandantenkommunikation vorbereiten: Was muss der Mandant tun, bis wann, welche Unterlagen bringen, welche Risiken sind offen?
 
-## Spezialwissen: Syndikus: Schriftsatz-, Brief- und Memo-Bausteine
-- **Normen-/Quellenanker:** KI, BRAO, BORA, DSGVO, BRAK, DAV.
+## Qualitätsanker
 
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
 
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
 
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Syndikus-KI-Memo** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+## Quellenkontrolle
 
-## Memo-Bausteine Syndikus-KI-Richtlinie
-- **Memo "Tool-Freigabe an Unternehmensleitung"** mit Aufbau:
- 1. Anlass + Hintergrund
- 2. Geprüfte Tools mit Klassifizierung KI-VO/DSGVO
- 3. Vertragsprüfung (AVV, SCC, DPF, TIA)
- 4. Empfehlung mit Risikoampel
- 5. Vorgeschlagene Auflagen (z. B. "ohne Mandantendaten in Strafrecht-Mandaten")
- 6. Inkrafttreten
-- **Brief "Aufklärung Mandant über KI-Nutzung"** mit:
- 1. Transparenz über Tool-Nutzung
- 2. Datenarten und -fluss
- 3. Sicherheitsmaßnahmen (TOM)
- 4. ggf. Einwilligungs-Option
- 5. Widerspruchsmöglichkeit
-- **Schriftsatz "Verteidigung gegen Aufsichtsbeschwerde"** mit:
- 1. Sachverhalt aus Mandantenperspektive
- 2. Eigene Risikomatrix
- 3. Konformitätsnachweis (Whitelist, Schulung, AVV)
- 4. Hinweis auf DAV/BRAK-Hinweise
- 5. Bitte um Einstellung
+Die Richtlinie muss Berufsrecht, Verschwiegenheit, Datenschutz, Arbeitsrecht und technische Organisation getrennt abbilden. Paragraf 43a Absatz 2 und Paragraf 43e BRAO, Paragraf 203 StGB sowie Artikel 5, 28 und 32 DSGVO nur für den jeweils geregelten Vorgang verwenden. Rechtsprechung nur mit einer konkret passenden tragenden Aussage aufnehmen.
 
-## Praxis-Tipp
-Memo an Unternehmensleitung: zuerst eine Seite mit Executive Summary + Risikoampel + Empfehlung; erst auf den Folgeseiten die Detailbegründung. Geschäftsleitung entscheidet auf Basis des ersten Absatzes — wer alle Details auf Seite 1 packt, verliert die Entscheidung im Rauschen.
+---
+
+## Skill: `quellen-livecheck`
+
+_Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
+
+# Rechtsquellen-Livecheck
+
+## Einsatzlage
+
+Dieser Quellen-Livecheck für **Ki Richtlinie Kanzleien** trennt amtliche Normfassung, frei prüfbare Rechtsprechung, Behördenhinweise, Formularstand und offene Aktualitätsrisiken.
+
+## Fachlandkarte dieses Plugins
+
+- `anonymisierung-pseudonymisierung` — Anonymisierung Pseudonymisierung
+- `anwaelten-berufsrechtskonforme-beruht` — Anwaelten Berufsrechtskonforme Beruht
+- `auftragsverarbeitungsvertrag-pruefen` — Auftragsverarbeitungsvertrag Prüfen
+- `automatisierte-entscheidungen-art-22-dsgvo` — Automatisierte Entscheidungen ART 22 DSGVO
+- `berufsrecht-bausteine` — Berufsrecht Bausteine
+- `berufsrechtskonforme-tatbestand-beweis-und-belege` — Berufsrechtskonforme Tatbestand Beweis und Belege
+- `beruht-verhandlung-vergleich-und-eskalation` — Beruht Verhandlung Vergleich und Eskalation
+- `bias-diskriminierung-regelsatz-erstellen` — Bias Diskriminierung Regelsatz Erstellen
+- `bora-brak-dsgvo` — BORA Brak DSGVO
+- `brak-internationaler-bezug-und-schnittstellen` — Brak Internationaler Bezug und Schnittstellen
+- `brao-quellenkarte` — BRAO Quellenkarte
+- `compliance-regelsatz-erstellen` — Compliance Regelsatz Erstellen
+- `dienstleister-due-diligence` — Dienstleister DUE Diligence
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Tragende Normen (DSGVO) zuerst amtlich verifizieren: gesetze-im-internet.de oder spezialisiertes Bundesgesetzblatt-Portal; nicht aus Modellwissen finalisieren.
+- Rechtsprechung nur mit vollständiger Zitatkette: Gericht, Senat, Entscheidungsform, Datum, Aktenzeichen, Fundstelle (BGHZ/BVerfGE/amtl. Sammlung) und frei prüfbare Quelle (dejure.org, openJur, Pressemitteilungen des Gerichts, BGH-/BVerfG-Datenbank).
+- Paywall-Quellen (juris, beck-online) nicht als alleinige Verifikation nutzen; immer eine freie Bestätigung beilegen.
+- Dynamische Bereiche im Ki Richtlinie Kanzleien (Rechtsverordnungen, Verwaltungspraxis, Mietspiegel, Tarife) gesondert tagesaktuell prüfen, weil Modellwissen veraltet ist.
+- Quellenstand und offene Unsicherheit im Output sichtbar machen — kein Pseudo-Zitat ohne Live-Check.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+---
+
+## Skill: `workflow-chronologie-und-belegmatrix`
+
+_Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
+
+# Chronologie und Belegmatrix
+
+## Arbeitsauftrag
+
+Dieser Arbeitsgang macht **Chronologie und Belegmatrix** im Bereich **ki-richtlinie-kanzleien** sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten oder das Arbeitsprodukt wirklich verändern.
+
+## Aktenstart ohne Leerlauf
+
+1. Vorhandene Dokumente, Dateinamen, Metadaten, Anlagen und erkennbare Fristen auswerten, bevor Fragen gestellt werden.
+2. Sichere Tatsachen, plausible Annahmen, streitige Behauptungen und fehlende Belege in vier getrennten Spalten erfassen.
+3. Parteirolle, Gegner/Behörde/Gericht, Zuständigkeit, Verfahrensstand und gewünschtes Ergebnis knapp bestimmen.
+4. Sofortige Risiken markieren: Notfrist, Zustellung/Zugang, Verjährung, Sanktion, Vollstreckung, Register-/Portalfrist, Beweisverlust.
+5. Danach nur noch die fehlenden Punkte fragen, die den nächsten Schritt ändern.
+
+## Fachliche Anker
+
+- BRAO §§ 43, 43a, 43e, 46 ff.; BORA §§ 2, 3, 6, 11, 12; RVG/VV RVG bei Kosten- und Vergütungsfragen.
+- ZPO § 130d und beA-Pflichten; DSGVO Art. 5, 6, 28, 32; GeschGehG §§ 2, 4 bei vertraulichen Mandatsinformationen.
+- Bei Kommunikation immer Mandatsgeheimnis, Interessenkollision, Sachlichkeitsgebot, Fristwahrung und Dokumentationsspur prüfen.
+
+## Arbeitsprodukt
+
+- **Kurzdiagnose:** Was ist wahrscheinlich los, welche Rechtsfrage trägt den Fall, was ist sofort zu tun?
+- **Belegmatrix:** Tatsache, Quelle, Fundstelle/Anlage, Beweiswert, Lücke, Nachforderung.
+- **Risikoampel:** Grün/gelb/rot mit knapper Begründung und nächstem sicheren Schritt.
+- **Entwurf:** je nach Fall E-Mail, Mandantenmemo, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Fristenplan.
+- **Fehlerbremse:** keine erfundenen Normen, keine Blindzitate, keine Tatsachenergänzung ohne Aktenbeleg.
 
 ---
 
 ## Skill: `rechtsabteilungen-syndikus-verordnung`
 
-_Wenn es um Rechtsabteilungen: Risikoampel, Gegenargumente und Verteidigungslinien in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Rechtsabteilungen: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Rechtsabteilungen: Risikoampel, Gegenargumente und Verteidigungslinien
 
@@ -609,117 +802,78 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `kennzeichnungspflichten-veroeffentlichungen`
+## Skill: `output-waehlen`
 
-_Wenn es um Kennzeichnungspflichten für Veröffentlichungen in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
 
-# Kennzeichnungspflichten für Veröffentlichungen
+# Output wählen
 
-## Arbeitsbereich
+## Einsatzlage
 
-Kennzeichnungspflichten für KI-generierte Inhalte in Kanzlei-Veröffentlichungen prüfen: Anwendungsfall Kanzlei veröffentlicht KI-unterstuetzte Artikel Blog-Posts Pressemitteilungen oder Mandantenbriefe und muss Kennzeichnungspflichten einhalten. Art. 50 Abs. 4 KI-VO Kennzeichnungspflicht, § 43 BRAO Sorgfaltspflicht, UrhG Urheberrecht KI-Content. Prüfraster Anwendungsbereich Art. 50 Abs. 4, redaktionelle Verantwortung als Ausnahme, Best-Practice-Hinweise transparente Kommunikation. Output Kennzeichnungs-Leitfaden für unterschiedliche Content-Typen. Abgrenzung zu Urheberrecht-Bausteine und zu Transparenz-Mandanten. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Diese Output-Weiche für **Ki Richtlinie Kanzleien** entscheidet, ob Memo, Antrag, Schriftsatz, Tabelle, Risikoampel, Fragenliste oder Mandantenbrief der richtige nächste Schritt ist.
+
+## Fachlandkarte dieses Plugins
+
+- `anonymisierung-pseudonymisierung` — Anonymisierung Pseudonymisierung
+- `anwaelten-berufsrechtskonforme-beruht` — Anwaelten Berufsrechtskonforme Beruht
+- `auftragsverarbeitungsvertrag-pruefen` — Auftragsverarbeitungsvertrag Prüfen
+- `automatisierte-entscheidungen-art-22-dsgvo` — Automatisierte Entscheidungen ART 22 DSGVO
+- `berufsrecht-bausteine` — Berufsrecht Bausteine
+- `berufsrechtskonforme-tatbestand-beweis-und-belege` — Berufsrechtskonforme Tatbestand Beweis und Belege
+- `beruht-verhandlung-vergleich-und-eskalation` — Beruht Verhandlung Vergleich und Eskalation
+- `bias-diskriminierung-regelsatz-erstellen` — Bias Diskriminierung Regelsatz Erstellen
+- `bora-brak-dsgvo` — BORA Brak DSGVO
+- `brak-internationaler-bezug-und-schnittstellen` — Brak Internationaler Bezug und Schnittstellen
+- `brao-quellenkarte` — BRAO Quellenkarte
+- `compliance-regelsatz-erstellen` — Compliance Regelsatz Erstellen
+- `dienstleister-due-diligence` — Dienstleister DUE Diligence
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
 
 ## Arbeitsweg
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- Ergebnistyp bestimmen: Schriftsatz an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen, Mandantenmemo, Risikobericht, Vertragsentwurf, Entscheidungsvorlage, Behörden-Stellungnahme — was braucht der Mandant wirklich?
+- Pflichtformate festlegen: Tenor / Antrag / Begründung (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis); konkrete Norm-Pinpoints im Ki Richtlinie Kanzleien (DSGVO) einarbeiten.
+- Adressat-Klarheit: Sprache, Detailtiefe und juristische Vorbildung des Empfängers berücksichtigen; bei Mandant ohne Vorbildung Klartext-Zusammenfassung voranstellen.
+- Beweis- und Anlagenstruktur planen (chronologisch, thematisch, K- und B-Anlagen); Bezugnahmen sauber kennzeichnen.
+- Quellenfußnoten und Zitierweise sichern; offene Punkte und Annahmen explizit als solche kennzeichnen.
 
-## Spezialwissen
+## Qualitätsanker
 
-Art. 50 Abs. 4 KI-VO regelt die Transparenzpflicht für Betreiber von KI-Systemen, die Text zur Information der Öffentlichkeit über Angelegenheiten von öffentlichem Interesse erzeugen. Für Kanzleien ist der Anwendungsbereich dieser Norm verhältnismäßig begrenzt — die wichtigsten Ausnahmen greifen regelmäßig. Gleichwohl empfiehlt sich ein klarer interner Standard für die Kennzeichnung.
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
 
-## Rechtlicher Hintergrund
+---
 
-Art. 50 Abs. 4 Unterabs. 2 Satz 1 KI-VO: Betreiber eines KI-Systems, das Text zur Information der Öffentlichkeit über Angelegenheiten von öffentlichem Interesse erzeugt, müssen offenlegen, dass der Text KI-generiert ist. Art. 50 Abs. 4 Unterabs. 2 Satz 2 KI-VO: Ausnahme — keine Kennzeichnungspflicht, wenn (a) die Inhalte einem Verfahren der menschlichen Überprüfung oder redaktionellen Kontrolle unterzogen wurden und (b) eine natürliche oder juristische Person die redaktionelle Verantwortung für die Veröffentlichung trägt. Martini/Wendehorst, KI-VO, Art. 50 Rn. 113: Schriftsätze an Gerichte sind nicht "an die Öffentlichkeit" gerichtet, sondern an einen überschaubaren bekannten Empfängerkreis. Rn. 114: Anwalt, der Schriftsatz unterschreibt, übernimmt redaktionelle Verantwortung. Lauber-Rönsberg, lizenzpflichtige Literaturquelle KI-Recht, Art. 50 Rn. 73: Schutzzweck der Norm ist massenhafter unkontrollierter Falschinformation vorzubeugen.
+## Skill: `workflow-unterlagen-lueckenliste`
 
-## Strategische Optionen (vor dem Template entscheiden)
+_Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+# Unterlagen- und Lückenliste
 
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Kennzeichnungsbaustein für KI-generierte Publikation | Kennzeichnung nach Schema; Template unten |
-| Variante A — Interne Nutzung kein Veroeffentlichungszweck | Keine Pflicht-Kennzeichnung; interne Notiz genuegt |
-| Variante B — Gericht will Herkunft aller Teile wissen | Erweiterte Offenlegung mit Werkzeug-Benennung |
-| Variante C — Gemischtes Dokument KI und Mensch | Hybride Kennzeichnung; nur KI-Teile markieren |
+## Aufgabe
+Nutze diesen Workflow-Skill für Unterlagen- und Lückenliste: erstellt eine präzise Nachforderungsliste statt allgemeiner Fragebögen.
 
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+## Kaltstart
+Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
 
-## Vorlagentext / Bausteine
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
 
-**Baustein Kennzeichnungsregel:**
-Veröffentlichungen der Kanzlei (Blogs, Newsletter, Social-Media-Beiträge, Pressemitteilungen), die wesentlich unter Mitwirkung von KI-Systemen erstellt wurden und ohne substantielle menschliche inhaltliche Überarbeitung veröffentlicht werden, sind mit dem Hinweis zu versehen: "Dieser Text wurde unter Mitwirkung eines KI-Assistenzsystems erstellt." Bei vollständiger menschlicher redaktioneller Kontrolle und inhaltlicher Überarbeitung entfällt die Kennzeichnungspflicht nach Art. 50 Abs. 4 KI-VO.
+## Arbeitsworkflow
+1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
+2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
+3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
+4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
 
-**Baustein Schriftsatz-Ausnahme:**
-Anwaltliche Schriftsätze, die unter Nutzung von KI-Assistenzsystemen erstellt wurden, unterliegen keiner gesetzlichen Kennzeichnungspflicht nach Art. 50 Abs. 4 KI-VO. Dies ergibt sich daraus, dass (1) Schriftsätze nicht an die Öffentlichkeit, sondern an einen überschaubaren Empfängerkreis gerichtet sind, und (2) die unterzeichnende Rechtsanwältin oder der unterzeichnende Rechtsanwalt die redaktionelle Verantwortung für den gesamten Inhalt übernimmt.
-
-**Baustein Interne Dokumentation:**
-Unabhängig von der externen Kennzeichnungspflicht dokumentiert die Kanzlei intern, bei welchen Veröffentlichungen KI-Systeme in welchem Umfang eingesetzt wurden. Diese Dokumentation dient der Qualitätssicherung und der Nachweisbarkeit bei etwaigen späteren Anfragen.
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
-
-Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
-
-Schlussabsatz Variante B (formal-streng):
-Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
-## Hinweise zur Aktualisierung
-
-Die Auslegung des Art. 50 Abs. 4 KI-VO durch Datenschutzbehörden, das Europäische KI-Büro oder Gerichte ist zu beobachten. Ebenso entwickeln Berufsverbände (z.B. Presserats-Äquivalente für juristische Veröffentlichungen) möglicherweise eigene Standards zur Kennzeichnung.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zentrale Normen (Paragrafenkette)
-- Art. 50 Abs. 1 KI-VO — Kennzeichnungspflicht bei KI-Interaktionen (Chatbot-Offenlegung)
-- Art. 50 Abs. 4 KI-VO — Kennzeichnung synthetischer Inhalte (Deepfake)
-- § 5 UWG — Verbot irreführender Geschäftspraktiken
-- § 43b BRAO — Werbeverbot für Anwaelte (Irreführungsschutz)
-- § 1 UrhG — Urheberrecht an KI-generierten Inhalten (kein Schutz ohne menschliche Schaepfungshoehe)
-
-## Triage zu Beginn
-1. Werden KI-generierte Texte in Veroeffentlichungen, Mandantenschreiben oder Schriftsaetzen verwendet?
-2. Ist Art. 50 KI-VO anwendbar — handelt es sich um einen Chatbot oder synthetischen Inhalt?
-3. Besteht ein berufsrechtliches Risiko nach § 43b BRAO bei fehlender Kennzeichnung?
-4. Sind Mandanten oder Gerichte über KI-Unterstuetzung zu informieren?
-5. Hat die Kanzlei ein einheitliches Kennzeichnungsschema für verschiedene Veroeffentlichungsarten?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Output-Template — Kennzeichnungs-Baustein
-**Adressat:** Kanzlei-Mitarbeiter / Redaktion — Tonfall: klar, praktisch
-```
-KENNZEICHNUNGS-LEITFADEN KI-GENERIERTE INHALTE
-[KANZLEI] — Stand: [DATUM]
-
-1. SCHRIFTSAETZE UND RECHTLICHE STELLUNGNAHMEN:
- Interne Kennzeichnung in Arbeitsexemplar genuegt; externe Kennzeichnung
- gegenueber Gericht nur bei Anfrage oder wenn inhaltlich relevant.
- Formulierung: "Dieser Abschnitt wurde mit KI-Unterstuetzung erstellt
- und menschlich geprueft."
-
-2. MANDANTENSCHREIBEN:
- Keine zwingende externe Kennzeichnung (ausser wenn Mandant fragt oder
- Richtlinie es verlangt).
-
-3. VEROEFFENTLICHUNGEN (Fachaufsaetze, Blog, LinkedIn):
- Kennzeichnung empfohlen: "Erstellt mit KI-Unterstuetzung, redaktionell
- geprueft und verantwortet."
-
-4. CHATBOT-EINSATZ (Art. 50 Abs. 1 KI-VO):
- Pflicht zur Offenlegung gegenueber Nutzern dass sie mit KI interagieren.
-
-5. DEEPFAKES / SYNTHETISCHE MEDIEN (Art. 50 Abs. 4 KI-VO):
- Pflicht zur Kennzeichnung als KI-generiert.
-
-Internes Kennzeichnungs-Symbol: [SYMBOL / TAG z.B. [KI-draft]]
-```
+## Output-Standard
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -729,127 +883,66 @@ Internes Kennzeichnungs-Symbol: [SYMBOL / TAG z.B. [KI-draft]]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
----
-
-## Skill: `dsgvo-compliance-dokumentation-und-akte`
-
-_Wenn es um DSGVO: Compliance-Dokumentation und Aktenvermerk in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# DSGVO: Compliance-Dokumentation und Aktenvermerk
-
-## Normenanker
-
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
-
-- `§ 241 Abs. 2 BGB` — Rücksichtnahme-, Schutz- und Organisationspflichten.
-- `§ 242 BGB` — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit.
-- `§ 280 Abs. 1 BGB` — Pflichtverletzung, Vertretenmuessen, Schaden.
-- `§ 286 Abs. 1 BGB` — Verzug und Fristlogik.
-- `§ 195 BGB` — regelmäßige Verjährung.
-- `§ 199 Abs. 1 BGB` — Beginn der regelmäßigen Verjährung.
-- `§ 253 Abs. 2 ZPO` — Bestimmtheit von Antrag und Klagegrund.
-- `§ 138 Abs. 1 ZPO` — Wahrheitspflicht und vollstaendiger Tatsachenvortrag.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Spezialwissen: DSGVO: Compliance-Dokumentation und Aktenvermerk
-- **Normen-/Quellenanker:** DSGVO, KI, BRAO, BORA, BRAK, DAV.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **DSGVO** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+## Quellenregel
+- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
 
 ---
 
-## Skill: `nutzung-mandatsdaten`
+## Skill: `workflow-fristen-und-risikoampel`
 
-_Wenn es um Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge._
 
-# Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg
+# Fristen- und Risikoampel
 
-## Arbeitsweg
+## Arbeitsauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **ki-richtlinie-kanzleien** sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten oder das Arbeitsprodukt wirklich verändern.
 
-## Spezialwissen: Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg
-- **Normen-/Quellenanker:** KI, BRAO, BORA, DSGVO, BRAK, DAV.
+## Aktenstart ohne Leerlauf
 
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+1. Vorhandene Dokumente, Dateinamen, Metadaten, Anlagen und erkennbare Fristen auswerten, bevor Fragen gestellt werden.
+2. Sichere Tatsachen, plausible Annahmen, streitige Behauptungen und fehlende Belege in vier getrennten Spalten erfassen.
+3. Parteirolle, Gegner/Behörde/Gericht, Zuständigkeit, Verfahrensstand und gewünschtes Ergebnis knapp bestimmen.
+4. Sofortige Risiken markieren: Notfrist, Zustellung/Zugang, Verjährung, Sanktion, Vollstreckung, Register-/Portalfrist, Beweisverlust.
+5. Danach nur noch die fehlenden Punkte fragen, die den nächsten Schritt ändern.
 
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+## Fachliche Anker
 
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Nutzungsrichtlinie** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+- BRAO §§ 43, 43a, 43e, 46 ff.; BORA §§ 2, 3, 6, 11, 12; RVG/VV RVG bei Kosten- und Vergütungsfragen.
+- ZPO § 130d und beA-Pflichten; DSGVO Art. 5, 6, 28, 32; GeschGehG §§ 2, 4 bei vertraulichen Mandatsinformationen.
+- Bei Kommunikation immer Mandatsgeheimnis, Interessenkollision, Sachlichkeitsgebot, Fristwahrung und Dokumentationsspur prüfen.
 
-## Bestandteile der KI-Nutzungsrichtlinie (Mindestumfang)
-1. **Geltungsbereich**: Anwälte, Syndizi, Referendare, Mitarbeiter; alle Kanzlei-IT.
-2. **Zweck**: Verschwiegenheit § 43a BRAO, § 203 StGB; DSGVO; KI-VO; Mandatssorgfalt.
-3. **Tool-Klassifizierung**: Tool-Liste mit Freigabestatus (freigegeben / mit Auflagen / verboten).
-4. **Datenklassifizierung**: öffentlich / intern / vertraulich / hochsensibel (Mandantengeheimnis, besondere Kategorien).
-5. **Trainingsausschluss**: vertraglich und in den Einstellungen; Beweis der Konfiguration.
-6. **Verifikationspflicht**: KI-Output muss vom Berufsträger geprüft werden (Halluzinationskontrolle, Quellenverifikation).
-7. **Mandantenaufklärung**: wann und wie; ggf. Einwilligung.
-8. **Vorfallmeldung**: Pflicht zur Meldung von Datenpannen, Halluzinationen mit Mandantenwirkung.
-9. **Schulungen**: Onboarding, jährliche Auffrischung.
-10. **Reviews**: jährliche Überprüfung der Richtlinie; Anlassbezogen bei neuen Tools.
+## Arbeitsprodukt
 
-## Form und Zuständigkeit
-- **Erlass**: Sozietätsleitung / Geschäftsführung; Mitbestimmung durch Betriebsrat (§ 87 Abs. 1 Nr. 6, Nr. 7 BetrVG bei technischer Überwachung / Verhaltensregeln).
-- **Form**: Textform genügt formell; signierte Empfangsbestätigung der Mitarbeiter empfehlenswert.
-- **Verbindlichkeit**: arbeitsrechtliche Weisungsgrundlage; Zuwiderhandlung als Pflichtverletzung abmahnfähig.
+- **Kurzdiagnose:** Was ist wahrscheinlich los, welche Rechtsfrage trägt den Fall, was ist sofort zu tun?
+- **Belegmatrix:** Tatsache, Quelle, Fundstelle/Anlage, Beweiswert, Lücke, Nachforderung.
+- **Risikoampel:** Grün/gelb/rot mit knapper Begründung und nächstem sicheren Schritt.
+- **Entwurf:** je nach Fall E-Mail, Mandantenmemo, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Fristenplan.
+- **Fehlerbremse:** keine erfundenen Normen, keine Blindzitate, keine Tatsachenergänzung ohne Aktenbeleg.
 
-## Fristen
-- **Erstellung**: vor Einführung von KI-Tools verbindlich vorhalten; spätestens vor erstem produktivem Einsatz mit Mandantendaten.
-- **Review-Zyklus**: Jährlich; ad-hoc bei wesentlichen Änderungen (neue KI-VO-Stufen 02.02.2025 für Art. 5 Verbote, 02.08.2026 für Art. 6 Hochrisiko).
-- **Aufbewahrung**: Versionsstände mindestens 6 Jahre (§ 50 BRAO-Analogie für mandatsbezogene Dokumentation).
+## Ergänzende Hinweise
 
-## Rechtsweg bei Streit
-- **Intern**: Disziplinarverfahren, Abmahnung, Kündigung (arbeitsrechtlich).
-- **Anwaltsgericht**: bei berufsrechtlich relevanten Verstößen (§§ 113 ff. BRAO) — über RAK.
-- **Datenschutzaufsicht**: bei DSGVO-Verstößen; LDA/BfDI.
-- **Marktüberwachungsbehörde KI-VO**: ab Geltung Art. 6 ff. (02.08.2026); Bundesnetzagentur als Marktüberwachung in Deutschland vorgesehen.
+## Kanzlei-KI-Richtlinie-typische Fristen
+- **Artikel 4 KI-Verordnung:** Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. Geeignete Maßnahmen intern nachvollziehbar festhalten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **Art. 5 KI-VO (Verbote)**: seit **02.02.2025**.
+- **Art. 51 ff. KI-VO (GPAI)**: seit **02.08.2025**.
+- Artikel 113 neuer Fassung: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 gelten für Anhang III ab 02.12.2027 und Anhang I ab 02.08.2028. Artikel 111 zum Bestand und andere schon geltende Pflichten gesondert prüfen.
+- **DSGVO Art. 33** (bei KI-Datenpanne mit Mandantenbezug): 72 Stunden.
+- **§ 113 BRAO**: anwaltsgerichtliches Verfahren — keine konkrete Frist, aber rasche Reaktion auf Beschwerde geboten.
 
-## Trade-off
-Verbotsorientierte Richtlinie ("Keine ChatGPT-Nutzung") ist klar, wird aber umgangen ("Schatten-IT"). Erlaubnisorientierte Richtlinie mit gestuften Freigaben und Schulungen erzeugt Akzeptanz und reduziert tatsächlich Risiko — verlangt aber laufende Pflege der Tool-Liste.
+## Ampelkriterien
+- **Rot:** Nicht freigegebene Übermittlung von Mandantendaten oder nachweislich untaugliche Kontrollprozesse; angemessene Kompetenzmaßnahmen fehlen. Das Risiko konkret begründen, nicht allein aus einem fehlenden Schulungszertifikat ableiten.
+- **Gelb**: Richtlinie existiert formell, aber Whitelist fehlt; AVV-Status der genutzten Tools nicht dokumentiert; Schulung nur ad hoc.
+- **Grün**: Richtlinie + Whitelist + dokumentierte Schulung + ggf. Betriebsratseinbindung + Mandantenaufklärung im Mandatsvertrag.
 
 ---
 
 ## Skill: `vo-hochrisiko-kirk-fortbildung-bauleiter`
 
-_Wenn es um europäischer Technikregulierungsrahmen Hochrisiko Personalwesen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix._
+_Für europäischer Technikregulierungsrahmen Hochrisiko Personalwesen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # KI-VO Hochrisiko Personalwesen
 
@@ -863,38 +956,35 @@ _Wenn es um europäischer Technikregulierungsrahmen Hochrisiko Personalwesen in 
 
 ## Spezialwissen
 
-Ab dem 2. August 2026 gelten die strengen Hochrisiko-Anforderungen der KI-Verordnung auch für KI-Systeme, die im Personalwesen eingesetzt werden. Für Kanzleien ist dies in zweifacher Hinsicht relevant: zum einen beim eigenen Einsatz von KI im Personalbereich der Kanzlei selbst, zum anderen bei der Beratung von Mandanten, die solche Systeme im Arbeitsrecht-Kontext verwenden.
+Personal-KI anhand der konkreten Auswahl-, Bewertungs-, Zuweisungs- oder Überwachungsfunktion nach Anhang III Nummer 4 prüfen. Die Kanzlei kann selbst Betreiber sein oder Mandanten beraten. Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Rechtlicher Hintergrund
 
-Art. 6 Abs. 2 KI-VO i.V.m. Anhang III Nr. 4 KI-VO: Hochrisiko-KI-Systeme im Personalwesen — KI-Systeme zur Bewerberauswahl, zu Beförderungsentscheidungen, zur Kündigung, zur Aufgabenzuweisung und zur Leistungsüberwachung. Inkrafttreten: 2. August 2026 (Art. 113 KI-VO). Hochrisiko-Pflichten für Betreiber nach Art. 26 KI-VO: menschliche Aufsicht, Risikobeurteilung, Protokollierung, Transparenz gegenüber Betroffenen, Meldung schwerwiegender Vorfälle. Art. 86 KI-VO: Recht auf Erläuterung bei Hochrisiko-Entscheidungen. § 80 Abs. 3 BetrVG (analog): Betriebsratsrechte bei Einführung technischer Überwachungseinrichtungen. AGG: Diskriminierungsverbot bei Bewerberauswahl.
+Artikel 6 Absatz 2 mit Anhang III Nummer 4 nach konkretem Zweck und Datenfluss subsumieren. Bei Aufgabenzuweisung die dort genannten personenbezogenen Grundlagen prüfen. Artikel 26 verpflichtet den erfassten Betreiber insbesondere zu geeigneter Nutzung, menschlicher Aufsicht, Überwachung und gegebenenfalls Information und Meldung; ein Risikomanagementsystem nach Artikel 9 ist keine automatische Betreiberpflicht. Artikel 86 gesondert prüfen. Mitbestimmung und AGG bleiben eigenständige Prüfungen. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Vorgehen
 
 1. **Bestandsaufnahme**: Werden KI-Systeme in der Kanzlei für die Vorauswahl von Bewerbungen, Personalbeurteilungen, Kündigungsentscheidungen oder Schichtplanung eingesetzt?
-2. **Hochrisiko-Einordnung prüfen**: Fällt das konkrete System unter Anhang III Nr. 4? Rückausnahmen nach Art. 6 Abs. 3 KI-VO (nur vorbereitende, eng begrenzte Aufgaben, kein Profiling) prüfen.
+2. **Hochrisiko-Einordnung prüfen:** Artikel 6 Absatz 3 gilt nur im Anhang-III-Pfad: kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte, einschließlich keiner wesentlichen Beeinflussung des Entscheidungsergebnisses, und mindestens eine Fallgruppe nach Buchstaben a bis d belegen. Profiling natürlicher Personen schließt die Ausnahme aus. Anbieter dokumentieren nach Absatz 4 und registrieren nach Artikel 49 Absatz 2; menschliche Schlusskontrolle oder die Bezeichnung „vorbereitend“ allein genügen nicht. Produktpfad separat prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 3. **Betreiber-Pflichten umsetzen**: Risikobeurteilung durchführen, Technische Dokumentation einholen, menschliche Aufsicht sicherstellen, Protokollierung einrichten, Betroffene informieren.
 4. **Betriebsrat einbinden**: Bei Einführung von KI im Personalwesen Mitbestimmungsrechte des Betriebsrats beachten (§§ 87 Abs. 1 Nr. 6, 95 BetrVG).
-5. **Mandantenberatung**: Im arbeitsrechtlichen Mandat prüfen, ob Mandanten-HR-Systeme unter Anhang III Nr. 4 fallen und die Hochrisiko-Pflichten ab 2. August 2026 eingehalten werden.
-6. **Vorbereitung bis 2026**: Rechtzeitig vor dem 2. August 2026 prüfen, welche Systeme betroffen sind, und die erforderliche Dokumentation und Risikobeurteilung erstellen.
+5. **Mandantenberatung**: Im arbeitsrechtlichen Mandat prüfen, ob Mandanten-HR-Systeme unter Anhang III Nr. 4 fallen und die Hochrisiko-Pflichten ab 2. Dezember 2027 eingehalten werden.
+6. **Vorbereitung bis 2026**: Rechtzeitig vor dem 2. Dezember 2027 prüfen, welche Systeme betroffen sind, und die erforderliche Dokumentation und Risikobeurteilung erstellen.
 
 ## Vorlagentext / Bausteine
 
 **Baustein Hochrisiko Personalwesen:**
-Ab dem 2. August 2026 unterliegen KI-Systeme, die zur Bewerberauswahl, zu Beförderungs- oder Kündigungsentscheidungen, zur Leistungsüberwachung oder zur Aufgabenzuweisung im Personalbereich eingesetzt werden, den strengen Anforderungen für Hochrisiko-KI-Systeme nach Art. 6 KI-VO i.V.m. Anhang III Nr. 4 KI-VO. Die Kanzlei stellt sicher, dass vor dem Einsatz solcher Systeme eine umfassende Risikobeurteilung durchgeführt wurde, menschliche Aufsicht gewährleistet ist und betroffene Personen über den Einsatz des Systems transparent informiert werden.
+Vor Einführung des konkret beschriebenen Personalsystems wird die Einstufung mit Quellen dokumentiert. Bei Hochrisiko werden die jeweils anwendbaren Betreiberpflichten in Zuständigkeiten und Arbeitsanweisungen übersetzt; Anbieterpflichten gehen nicht automatisch auf die Kanzlei über. Menschliche Schlusskontrolle und ein Schulungszertifikat ersetzen keine Tatbestandsprüfung. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 **Baustein Menschliche Aufsicht:**
 Beim Einsatz von KI-Systemen im Personalwesen darf keine ausschließlich automatisierte Entscheidung im Sinne des Art. 22 DSGVO getroffen werden. Jede personalrelevante Entscheidung, die durch ein KI-System vorbereitet oder unterstützt wird, bedarf der abschließenden Überprüfung und Freigabe durch eine autorisierende Person mit Entscheidungsbefugnis.
 
 **Baustein Dokumentationspflicht HR-KI:**
-Beim Einsatz von Hochrisiko-KI-Systemen im Personalwesen sind gemäß Art. 26 Abs. 6 KI-VO automatisch erzeugte Protokolldaten aufzubewahren, soweit diese unter Kontrolle der Kanzlei stehen. Die Aufbewahrungsdauer beträgt mindestens sechs Monate. Diese Protokolle sind der zuständigen Datenschutzbehörde oder der KI-Aufsichtsbehörde auf Anfrage vorzulegen.
+Bei zeitlich erfassten Hochrisiko-Systemen nach Artikel 26 Absatz 6 kontrollierte automatisch erzeugte Logs für einen angemessenen Zeitraum von grundsätzlich mindestens sechs Monaten aufbewahren, soweit anderes einschlägiges Unionsrecht oder nationales Recht nichts anderes vorgibt. Empfänger, Rechtsgrundlage und Umfang eines behördlichen Herausgabeverlangens konkret prüfen; keine pauschale Vollaktenübermittlung an jede Aufsicht. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Hinweise zur Aktualisierung
 
-Die konkrete Ausgestaltung der Hochrisiko-Pflichten durch Durchführungsrechtsakte der EU-Kommission und durch Leitlinien des Europäischen KI-Büros ist bis zum 2. August 2026 zu verfolgen. Ebenso sind BAG- und Landesarbeitsgericht-Entscheidungen zur Zulässigkeit von KI-Systemen im Personalwesen zu beobachten.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Die konkrete Ausgestaltung der Hochrisiko-Pflichten durch Durchführungsrechtsakte der EU-Kommission und durch Leitlinien des Europäischen KI-Büros ist bis zum 2. Dezember 2027 zu verfolgen. Ebenso sind BAG- und Landesarbeitsgericht-Entscheidungen zur Zulässigkeit von KI-Systemen im Personalwesen zu beobachten.
 
 ## Zentrale Normen (Paragrafenkette)
 - Art. 6 Abs. 2 i. V. m. Anhang III Nr. 4 KI-VO — Hochrisiko-Kategorie: Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit
@@ -916,7 +1006,7 @@ Die konkrete Ausgestaltung der Hochrisiko-Pflichten durch Durchführungsrechtsak
 HOCHRISIKO-KI PERSONALWESEN-CHECK
 [DATUM] — System: [SYSTEMNAME] — Einsatzzweck: [BESCHREIBUNG]
 
-Anhang III Nr. 4 KI-VO — Hochrisiko: JA, wenn die Zweckbestimmung den konkreten Personalprozess erfasst
+Anhang III Nummer 4: konkreten Personalzweck belegen, anschließend Artikel 6 Absatz 3 und insbesondere Profiling prüfen; kein automatisches Ergebnis allein aus der Branchenüberschrift.
 Anwendbare Betreiberpflichten Art. 26 KI-VO: ALLE
 
 Betriebsrat nach § 87 Abs. 1 Nr. 6 BetrVG:
@@ -946,467 +1036,13 @@ Verantwortlicher: [NAME], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
----
-
-## Skill: `bora-brak-dsgvo`
-
-_Wenn es um Bora: Zahlen, Schwellenwerte und Berechnung in diesem Spezialbereich geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
-
-# Bora: Zahlen, Schwellenwerte und Berechnung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Spezialwissen: Bora: Zahlen, Schwellenwerte und Berechnung
-- **Normen-/Quellenanker:** KI, BRAO, BORA, DSGVO, BRAK, DAV.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **BORA** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Schwellen und Pflichten BORA + BRAO + DSGVO
-- **§ 2 BORA**: Verschwiegenheitspflicht in jedem Mandat — keine Bagatellgrenze, gilt auch bei interner Tool-Nutzung.
-- **§ 5 BORA**: Sachliche Bezeichnungen und Sorgfalt bei Außenkommunikation; gilt für KI-generierte Texte sinngemäß.
-- **§ 6 BORA**: Werbung — KI-generierte Inhalte ohne menschliche Kontrolle bergen Risiko unwahrer oder reißerischer Aussagen.
-- **§ 43e BRAO**: Inanspruchnahme Dienstleister; Verpflichtung auf Verschwiegenheit, Sorgfaltsauswahl, Überwachung.
-- **§ 50 BRAO**: Aufbewahrungspflicht 6 Jahre — gilt auch für KI-Tool-bezogene Daten, wenn Mandatsrelevanz besteht.
-- **§ 51 BRAO**: Berufshaftpflicht Mindestversicherungssumme 250.000 EUR; Jahresleistung mindestens das Vierfache (1 Mio. EUR).
-
-## Sanktionsschwellen
-- **§ 113 BRAO**: Anwaltsgerichtliche Geldbuße bis 25.000 EUR; bis 5 Jahre Berufsverbot; Ausschließung aus Anwaltschaft.
-- **§ 203 StGB** (Verletzung Privatgeheimnisse): Freiheitsstrafe bis 1 Jahr; qualifizierte Tatbestände Abs. 4 bis 5 Jahre.
-- **DSGVO Art. 83 Abs. 5**: bis 20 Mio. EUR oder 4 % weltweiter Konzernumsatz.
-- **KI-VO Art. 99**: bei Hochrisiko-Verstößen bis 15 Mio. EUR oder 3 % Umsatz; verbotene Praktiken Art. 5 bis 35 Mio. EUR oder 7 %.
-
-## Berechnungsbasis Berufshaftpflicht
-- **Mindestsumme** je Versicherungsfall: 250.000 EUR (§ 51 Abs. 4 BRAO).
-- **Maximierung pro Jahr**: viermal Mindestsumme (1 Mio. EUR), kann unter besonderen Risiken (etwa M&A-Tätigkeit) anzupassen sein.
-- **Sozietät**: § 51 BRAO i. V. m. § 59n Abs. 2 BRAO (Mindestversicherung Berufsausübungsgesellschaft).
-- KI-Risiko: Versicherer fragen zunehmend nach KI-Tool-Inventar; falsche Antworten können Leistungsfreiheit (§ 19 VVG) auslösen.
-
-## Trade-off in der Richtlinie
-Strenge Schwellenwerte ("Keine Mandantendaten an Cloud-KI") schaffen Klarheit, behindern aber operative Nutzung. Differenziertes Modell mit Tool-Klassen (freigegeben / freigegeben mit Auflagen / verboten) je nach Datenklassifizierung (öffentlich / intern / vertraulich / hochsensibel) ist meist praxistauglicher.
-
----
-
-## Skill: `executive-summary-1-pager-template`
-
-_Wenn es um Executive Summary 1-Pager Template in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Executive Summary 1-Pager Template
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Wann dieses Modul hilft
-
-- Onboarding neuer Mitarbeiter und Referendare
-- Aushang im Kopierraum oder digitalen Intranet
-- Anlage zu Mandatsbestaetigungen, wenn Mandanten nach KI-Politik fragen
-- Schulungs-Handout für Pflichtfortbildung nach Art. 4 KI-VO
-
-## Kaltstart-Fragen (Abfragesystem)
-
-1. Name und Standort der Kanzlei?
-2. Welche KI-Tools sind freigegeben? (Liste oder Hinweis auf Tool-Katalog)
-3. Wer ist KI-Beauftragter oder Compliance-Ansprechpartner?
-4. Wer ist Datenschutzbeauftragter?
-5. Naechster Revisionstermin? (Standard: jaehrlich oder bei Rechtsaenderung)
-6. Soll der 1-Pager nur intern oder auch für Mandanten freigegeben werden?
-
-## Rechtlicher Rahmen
-
-- KI-VO 2024/1689: Art. 4 KI-Kompetenz (gilt ab 02.02.2025), Art. 5 verbotene Praktiken (ab 02.02.2025), Art. 26 Betreiberpflichten Hochrisiko (ab 02.08.2026), Art. 50 Transparenzpflichten
-- BRAO: Paragraf 43a Abs. 2 Verschwiegenheit, Paragraf 43e Auftragsverarbeitung an IT-Dienstleister
-- StBerG Paragraf 62a, WPO Paragraf 50a, BNotO Paragraf 26a, PAO Paragraf 39a: Parallelregelungen Schweigepflicht
-- StGB Paragraf 203: strafbewehrtes Berufsgeheimnis
-- DSGVO Art. 5 Grundsaetze, Art. 6 Rechtmaessigkeit, Art. 28 Auftragsverarbeitung, Art. 32 Sicherheit, Art. 44 ff. Drittlandtransfer
-
-## Ablauf / Schritt für Schritt
-
-1. Kaltstart-Fragen beantworten lassen.
-2. Mustertext unten uebernehmen und Platzhalter in eckigen Klammern fuellen.
-3. Auf eine Seite kuerzen; pro Block max. 4 Stichpunkte.
-4. Logo und Datum einsetzen.
-5. Vom KI-Beauftragten und der Geschäftsführung gegenzeichnen lassen.
-6. Termin für naechste Revision in Kanzlei-Kalender setzen.
-
-## Mustertext / Vorlage
-
-```
-KI-NUTZUNG IN [KANZLEI/RECHTSABTEILUNG] — EXECUTIVE SUMMARY
-Stand: [MONAT/JAHR] | Version [X.Y] | Naechste Revision: [DATUM]
-
-WAS IST ERLAUBT
-- Nutzung der freigegebenen KI-Tools laut Anlage Tool-Katalog
-- Recherche, Formulierungshilfe, Zusammenfassungen ohne Mandatsbezug
-- Verarbeitung anonymisierter Texte (alle Namen, Aktenzeichen, Mandatsdetails entfernt)
-- Eigene Kanzlei-Accounts (keine Privat-Logins)
-
-WAS IST NICHT ERLAUBT
-- Upload identifizierender Mandatsdaten ohne Anonymisierung (Paragraf 43a BRAO, Paragraf 203 StGB)
-- Nutzung von KI-Diensten ohne abgeschlossenen AVV nach Art. 28 DSGVO
-- Verbotene Praktiken nach Art. 5 KI-VO (Social Scoring, manipulative KI etc.)
-- Ungepruefte Uebernahme von KI-Output als Rechtsbehauptung oder Zitat
-
-WO VORSICHT GEBOTEN IST
-- Drittland-Transfer (USA, China, Indien): nur mit Schrems-II-Pruefung
-- Hochrisiko-KI nach Anhang III KI-VO ab 02.08.2026
-- Gemeinsame Verantwortlichkeit Art. 26 DSGVO bei Mandanten-eigenen KI-Tools
-- KI-Output zu Personalentscheidungen, Bewerbungen, Mitarbeiterbewertungen
-
-ANLAUFSTELLEN
-- KI-Beauftragter: [NAME], [TEL], [E-MAIL]
-- Datenschutzbeauftragter: [NAME], [TEL], [E-MAIL]
-- Geschaeftsfuehrung: [NAME]
-- Externe: BfDI, Landesdatenschutzbehoerde, RAK [ORT]
-
-NAECHSTE REVISION
-- Plantermin: [DATUM]
-- Anlass-Revisionen sofort: KI-VO-Durchfuehrungsrechtsakte, neue BRAK-Hinweise,
- Schrems-III, neue Anbieter-Risiken
-- Diese Seite ersetzt nicht die Vollrichtlinie (Anlage 1)
-
-[UNTERSCHRIFT GESCHAEFTSFUEHRUNG] [UNTERSCHRIFT KI-BEAUFTRAGTER]
-```
-
-Pro Block maximal 50 Worte, gesamt unter 300 Worte. Schriftgrad 11 Punkt.
-
-## Typische Fehler
-
-- Mehr als eine Seite: dann ist es kein Executive Summary mehr
-- Verweis auf Tools, die im Katalog nicht aufgefuehrt sind
-- Fehlende Anlaufstelle (Mitarbeiter weiss nicht, wen er fragen kann)
-- Keine Datierung und keine Versionsnummer
-- Halbsatz-Verweise auf KI-VO-Artikel ohne konkrete Norm
-
-## Quellen Stand 06/2026
-
-- VO (EU) 2024/1689 (KI-VO), insb. Art. 4, 5, 26, 50
-- BRAO i. d. F. 2024, Paragraf 43a, Paragraf 43e
-- StBerG Paragraf 62a, WPO Paragraf 50a, BNotO Paragraf 26a, PAO Paragraf 39a
-- StGB Paragraf 203
-- VO (EU) 2016/679 (DSGVO), insb. Art. 5, 6, 28, 32, 44 ff.
-- BRAK-Hinweise zur KI-Nutzung (Stand prüfen vor Veroeffentlichung)
-- DAV-Stellungnahme zu Legal-AI (Stand prüfen vor Veroeffentlichung)
-
----
-
-## Skill: `ki-vo-betreiber-pflichten`
-
-_Wenn es um europäischer Technikregulierungsrahmen Betreiber-Pflichten in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix._
-
-# KI-VO Betreiber-Pflichten
-
-## Arbeitsbereich
-
-KI-VO Betreiber-Pflichten für Kanzleien erläutern und umsetzen: Anwendungsfall Kanzlei als Betreiber von KI-Diensten muss Pflichten nach EU AI Act kennen und in Richtlinie umsetzen. Art. 3 Nr. 4 KI-VO Betreiber-Definition, Art. 4 KI-VO KI-Kompetenz-Pflicht, Art. 6 KI-VO Hochrisiko-Abgrenzung, Art. 50 Abs. 4 KI-VO Kennzeichnung. Prüfraster Betreiber-Eigenschaft prüfen, Hochrisiko-Klassifizierung Anhang III, Pflichten-Katalog zusammenstellen, Umsetzungsfristen. Output Betreiber-Pflichten-Übersicht mit Textbausteinen für KI-Richtlinie. Abgrenzung zu KI-VO-Hochrisiko-Personalwesen und zu Compliance-Regelsatz. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Spezialwissen
-
-Kanzleien und Rechtsabteilungen, die externe KI-Dienste beruflich nutzen, sind in aller Regel "Betreiber" im Sinne der KI-Verordnung (KI-VO, Verordnung (EU) 2024/1689). Als Betreiber unterliegen sie spezifischen Pflichten, die sich von den Pflichten der "Anbieter" (Hersteller) unterscheiden. Dieser Skill erläutert die relevanten Pflichten und gibt Textbausteine für die Richtlinie.
-
-## Rechtlicher Hintergrund
-
-Art. 3 Nr. 4 KI-VO: "Betreiber" — wer ein KI-System in eigener Verantwortung beruflich verwendet, also typischerweise eine Kanzlei, die einen externen KI-Dienst nutzt. Art. 3 Nr. 3 KI-VO: "Anbieter" — wer ein KI-System entwickelt und in Verkehr bringt; Kanzleien sind in der Regel keine Anbieter. Art. 4 KI-VO: Pflicht zur KI-Kompetenz (seit 2. Februar 2025 in Kraft). Art. 6 Abs. 2 KI-VO i.V.m. Anhang III Nr. 8.a: Hochrisiko-KI für Justizbehörden — Anwaltschaft ist keine staatliche Justizbehörde, daher in der Regel kein Hochrisiko-Tatbestand. Art. 6 Abs. 3 KI-VO: Rückausnahmen vom Hochrisiko-Status. Art. 50 Abs. 4 KI-VO: Kennzeichnungspflicht für öffentliche Informationstexte — Ausnahme bei redaktioneller Verantwortung. Art. 3 Nr. 63 KI-VO: GPAI-Modell (KI-Modell mit allgemeinem Verwendungszweck).
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Betreiberpflichten KI-VO checklisten-artig aufbereiten | Checkliste nach Schema; Template unten |
-| Variante A — Kanzlei ist nicht Betreiber nur Nutzer | Nutzer-Pflichten statt Betreiber-Pflichten prüfen |
-| Variante B — Hochrisiko-KI nach Annex III KI-VO betroffen | Erweiterte Pflichten-Checkliste für Hochrisiko-Systeme |
-| Variante C — KI-System noch in Entwicklung kein Einsatz | Planungs-Checkliste; Betreiberpflichten ab Inbetriebnahme |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Vorlagentext / Bausteine
-
-**Baustein Betreiber-Status:**
-Die Kanzlei handelt beim Einsatz externer KI-Dienste als Betreiber im Sinne des Art. 3 Nr. 4 KI-VO. Als Betreiber ist die Kanzlei verpflichtet, die KI-Systeme entsprechend den Anweisungen der Anbieter zu nutzen und sicherzustellen, dass das damit befasste Personal über ausreichende KI-Kompetenz nach Art. 4 KI-VO verfügt.
-
-**Baustein Hochrisiko-Abgrenzung:**
-Die in der Kanzlei eingesetzten KI-Systeme zur Unterstützung juristischer Arbeit fallen nicht unter die Hochrisiko-Kategorie des Art. 6 Abs. 2 KI-VO i.V.m. Anhang III Nr. 8.a, da Rechtsanwaltskanzleien keine staatlichen Justizbehörden sind. Eine Hochrisiko-Einstufung nach Anhang III Nr. 4 (Personalwesen) kommt in Betracht, sobald KI-Systeme zur Bewerberauswahl oder Personalentscheidungen eingesetzt werden; in diesem Fall sind die Anforderungen des Hochrisiko-Regimes ab dem 2. August 2026 zu beachten (vgl. Skill `ki-vo-hochrisiko-personalwesen`).
-
-**Baustein Kennzeichnungspflicht:**
-Eine gesetzliche Pflicht zur Kennzeichnung KI-generierter Inhalte in anwaltlichen Schriftsätzen besteht nach Art. 50 Abs. 4 KI-VO nicht, da Schriftsätze nicht an die "Öffentlichkeit über Angelegenheiten von öffentlichem Interesse" gerichtet sind und der Anwalt durch seine Unterschrift die redaktionelle Verantwortung übernimmt. Bei Kanzlei-Blogs, Pressemitteilungen oder öffentlichen Beiträgen ohne individuelle menschliche Endkontrolle ist eine Kennzeichnung hingegen geboten.
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
-
-Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
-
-Schlussabsatz Variante B (formal-streng):
-Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
-## Hinweise zur Aktualisierung
-
-Die KI-VO wird durch Durchführungsrechtsakte und Leitlinien des Europäischen KI-Büros konkretisiert. Neue Leitlinien zu Betreiber-Pflichten oder zu GPAI-Modellen sind regelmäßig zu beobachten. Ebenso ist die Umsetzung der KI-VO in nationales deutsches Recht (KI-Aufsichtsbehörde, Bußgeldvorschriften) zu verfolgen.
-
-## Faktische Updates (Stand 05/2026)
-
-- **Art. 4 KI-VO (KI-Kompetenz) — seit 02.02.2025 anwendbar:** Kanzleien müssen bereits jetzt für ausreichende KI-Kompetenz des Personals sorgen (Schulungen dokumentieren, Use-Case-spezifisch). Verstoesse können ab 02.08.2025 sanktioniert werden.
-- **Art. 50 KI-VO (Transparenzpflichten) — ab 02.08.2026:** Bei Kanzlei-Chatbots gegenueber Mandanten/Interessenten (Art. 50 Abs. 1), Deepfakes / synthetische Inhalte (Art. 50 Abs. 2), KI-generierter öffentlicher Text bei öffentlichem Interesse (Art. 50 Abs. 3). Schriftsatzunterzeichnung durch Anwalt = redaktionelle Verantwortung (Ausnahme).
-- **Art. 26 KI-VO (Betreiberpflichten Hochrisiko) — ab 02.08.2026:** Insbesondere bei Hochrisiko-Anwendungen in der Personalauswahl (Anhang III Nr. 4) — vor Einsatz Eignungspruefung, menschliche Aufsicht, Logging, Information betroffener Personen.
-- **Nationale Aufsicht:** In Deutschland ist die BNetzA als koordinierende KI-Aufsichtsbehoerde benannt; sektorale Zuständigkeiten (BfDI, BaFin, BAuA, Bundeskartellamt etc.) bleiben bestehen. Aktuellen Stand der nationalen KI-VO-Durchfuehrungsregelungen über bundestag.de / bmbf.de / bmwk.de live prüfen.
-- **GPAI Code of Practice:** Bei Nutzung von GPAI-Diensten (z.B. LLM-Chatbots) Anbieter-Code-of-Practice-Anschluss prüfen — kann für Kanzlei Dokumentations- und Sorgfaltsnachweise erleichtern.
-- **DORA / NIS-2:** Bei IT-Sicherheits- oder Cyber-Risiken im KI-Betrieb der Kanzlei parallel die einschlaegigen IT-Sicherheits-Regelwerke beachten (BSIG n. F., Art. 32 DSGVO).
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zentrale Normen (Paragrafenkette)
-- Art. 26 KI-VO — Betreiberpflichten (Eignungspruefung, Anleitung, menschliche Aufsicht, Protokollierung)
-- Art. 29 KI-VO — Weitere Betreiberpflichten (Datenverwaltung, Anleitung-Einhaltung)
-- Art. 27 KI-VO — FRIA-Pflicht für bestimmte Betreiber
-- Art. 3 Nr. 4 KI-VO — Definition Betreiber
-- Art. 99 KI-VO — Bussgelder bis 15 Mio. EUR bei Betreiber-Verstossen
-
-## Triage zu Beginn
-1. Handelt die Kanzlei als Betreiber nach Art. 3 Nr. 4 KI-VO — oder als Anbieter?
-2. Welche Hochrisiko-KI-Systeme (Anhang III) werden betrieben — welche Art. 26-Pflichten greifen?
-3. Ist eine menschliche Aufsicht nach Art. 26 Abs. 1 lit. b KI-VO sichergestellt?
-4. Werden Protokolle nach Art. 26 Abs. 1 lit. d KI-VO gefuehrt?
-5. Ist eine FRIA nach Art. 27 KI-VO erforderlich (öffentliche Stelle oder öffentlich finanzierter Dienst)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Output-Template — Betreiberpflichten-Checkliste KI-VO
-**Adressat:** Compliance / KI-Beauftragter — Tonfall: checklisten-strukturiert
-```
-BETREIBERPFLICHTEN-CHECKLISTE KI-VO
-[DATUM] — System: [SYSTEMNAME] — Klasse: [HOCHRISIKO / BEGRENZT / MINIMAL]
-
-Art. 26 KI-VO — Betreiberpflichten:
-☑/☐ Eignungspruefung des KI-Systems für geplanten Anwendungsfall (Art. 26 Abs. 1 lit. a)
-☑/☐ Anleitung des Anbieters befolgt (Art. 26 Abs. 1 lit. b)
-☑/☐ Menschliche Aufsicht sichergestellt (Art. 26 Abs. 1 lit. c)
-☑/☐ Eingabedaten relevant und ausreichend repraesentativ (Art. 26 Abs. 1 lit. d)
-☑/☐ Protokollierung der automatisch erzeugten Logs (Art. 26 Abs. 1 lit. e)
-☑/☐ Betroffene informiert bei HR/Kreditentscheidungen (Art. 26 Abs. 6)
-☑/☐ Widerspruchs- und Korrekturmechanismus implementiert (Art. 26 Abs. 6)
-
-Art. 27 KI-VO — FRIA:
-☑/☐ Nicht erforderlich (Begruendung: [BEGRUENDUNG])
-☑/☐ FRIA durchgefuehrt am [DATUM]
-
-Bussgeldrisikoklasse: [BIS 15 MIO. EUR / BIS 35 MIO. EUR]
-Verantwortlicher: [NAME], [DATUM]
-```
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 035:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
-
----
-
-## Skill: `brao-quellenkarte`
-
-_Wenn es um Brao Quellenkarte in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten._
-
-# Brao Quellenkarte
-
-## Zweck
-
-Diese Quellenkarte sichert für **KI-Richtlinie für Kanzleien** jede tragende Aussage ab: Norm, Rechtsprechung, Behördenpraxis und Zitierfähigkeit werden vor Ausgabe verifiziert.
-
-## Tragende Normen (live prüfen)
-
-- **BRAO § 43e** — amtlichen Stand vor tragender Aussage prüfen
-- **BORA** — amtlichen Stand vor tragender Aussage prüfen
-- **DSGVO Art. 28** — amtlichen Stand vor tragender Aussage prüfen
-- **KI-VO** — amtlichen Stand vor tragender Aussage prüfen
-
-## Zuständige Spruchkörper und Behörden
-
-- RAK
-- Datenschutzaufsicht
-
-## Amtliche und frei zugängliche Datenbanken
-
-- gesetze-im-internet.de (Bundesrecht amtlich)
-- rechtsprechung-im-internet.de
-- dejure.org / openJur (frei zugängliche Rechtsprechung)
-
-## Fristen mit Quellenrelevanz
-
-- materielle und prozessuale Fristen des Sachgebiets
-
-## Prüfroute
-
-1. Normtext gegen die amtliche Quelle prüfen (Fassung, Inkrafttreten, Übergangsrecht).
-2. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Fundstelle ausgeben; Senat/Spruchkörper benennen.
-3. Behördenpraxis (Merkblätter, Erlasse, FAQ) mit Stand-Datum zitieren.
-4. Ergebnis als Quellenmatrix: Aussage — Quelle — Stand — Tragweite — Restunsicherheit.
-
-## Fehlerbremse
-
-- Keine BeckRS-/juris-Blindzitate aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-- Zitierform nach `references/zitierweise.md`; Quellenhygiene nach `references/quellenhygiene.md`.
-
----
-
-## Skill: `anonymisierung-pseudonymisierung`
-
-_Wenn es um Anonymisierung und Pseudonymisierung in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
-
-# Anonymisierung und Pseudonymisierung
-
-## Arbeitsbereich
-
-Anonymisierung und Pseudonymisierung von Mandatsdaten vor KI-Eingabe: Anwendungsfall Anwalt will Mandatsdokument in KI-System eingeben und muss Namen Adressen Aktenzeichen und Identifikatoren schützen. Art. 4 Nr. 5 DSGVO Pseudonymisierung, Art. 2 Abs. 1 DSGVO Anwendungsbereich, § 43a BRAO Verschwiegenheit. Prüfraster Stufenmodell Anonymisierung vs. Pseudonymisierung, Re-Identifikationsrisiko prüfen, Platzhalter-Konsistenz bei Mehrfachverwendung. Output anonymisiertes Dokument mit Ersetzte-Felder-Protokoll und Risikobewertung. Abgrenzung zu DSGVO-Compliance-Bausteine und zu Berufsrecht-Bausteine. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Spezialwissen
-
-Die Anonymisierung von Mandatsdaten vor der Eingabe in KI-Systeme ist eine der wichtigsten praktischen Schutzmaßnahmen in der Kanzlei. Echte Anonymisierung — bei der ein Personenbezug nicht mehr herstellbar ist — schließt die Anwendbarkeit der DSGVO aus und reduziert das Berufsrechtsrisiko erheblich. Pseudonymisierung mindert das Risiko, schließt die DSGVO aber nicht aus. Dieser Skill beschreibt ein praxistaugliches Stufenmodell.
-
-## Rechtlicher Hintergrund
-
-Erwägungsgrund 26 DSGVO: Anonymisierte Daten fallen nicht unter die DSGVO — aber die Anonymisierung muss irreversibel sein. Art. 4 Nr. 5 DSGVO: Pseudonymisierung als Verarbeitungstechnik, die den Personenbezug ohne Zusatzinformationen nicht mehr herstellen lässt. Art. 5 Abs. 1 lit. c DSGVO: Datenminimierungsgrundsatz. Art. 25 DSGVO: Datenschutz durch Technikgestaltung (Privacy by Design). § 43a Abs. 2 BRAO: Die Anonymisierung reduziert das Risiko eines Geheimnisverrats, da der Chatbot ohne Personenbezug keine Mandanteninformationen identifizieren kann. Erwägungsgrund 28 DSGVO: Pseudonymisierung als geeignete Schutzmaßnahme.
-
-## Vorlagentext / Bausteine
-
-**Baustein Anonymisierungspflicht:**
-Vor der Eingabe mandatsbezogener Informationen in KI-Systeme sind alle personenbezogenen Daten zu anonymisieren. Die Anonymisierung hat so vollständig zu sein, dass aus dem anonymisierten Text keine Rückschlüsse auf die betroffene Person möglich sind. Zu anonymisierende Informationen umfassen mindestens: vollständige Namen aller Beteiligten, Adressen und Kontaktdaten, Aktenzeichen und Verfahrensnummern, Kontonummern und Finanzdaten, Geburtsdaten sowie alle Angaben, die in Kombination zur Identifizierung führen könnten.
-
-**Baustein Platzhalter-Schema:**
-Beim Ersetzen personenbezogener Daten durch Platzhalter wird folgendes Schema verwendet:
-- Mandanten: "[Mandant-1]", "[Mandant-2]" etc.
-- Gegner: "[Gegner-1]", "[Gegner-2]" etc.
-- Zeuginnen und Zeugen: "[Zeuge-1]", "[Zeuge-2]" etc.
-- Unternehmen: "[Unternehmen-A]", "[Unternehmen-B]" etc.
-- Aktenzeichen: "[Az-1]", "[Az-2]" etc.
-- Adressen: "[Adresse-1]" etc.
-
-**Baustein Re-Identifikationscheck:**
-Nach abgeschlossener Anonymisierung ist das Dokument von einer zweiten Person auf verbliebene Re-Identifikationsrisiken zu überprüfen (Vier-Augen-Prinzip). Besonders kritisch zu prüfen sind seltene Kombinationen von Merkmalen (z.B. spezifische Branche + bestimmter Regionalmarkt + besonderes Schadensgeschehen), die auch ohne Namen zur Identifizierung führen können.
-
-## Hinweise zur Aktualisierung
-
-Automatisierungs-Tools für die Anonymisierung entwickeln sich rasch weiter. Die Kanzlei sollte halbjährlich prüfen, ob neue oder verbesserte Tools zur Verfügung stehen. Ebenso sind neue Datenschutzbehörden-Empfehlungen zur Anonymisierung zu beachten.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zentrale Normen (Paragrafenkette)
-- Art. 4 Nr. 1 DSGVO — Begriff personenbezogene Daten
-- Art. 4 Nr. 5 DSGVO — Pseudonymisierung
-- Erwaegungsgrund 26 DSGVO — Anonymisierung und Re-Identifikationsrisiko
-- § 43a Abs. 2 BRAO — Verschwiegenheitspflicht
-- § 203 StGB — Berufsgeheimnis
-
-## Triage zu Beginn
-1. Handelt es sich um echte Anonymisierung oder nur Pseudonymisierung — besteht ein Zuordnungsschluessel?
-2. Welche Datenkategorien sind betroffen — besondere Kategorien nach Art. 9 DSGVO?
-3. Ist ein Re-Identifikationsrisiko durch Kombination verbleibender Merkmale (Branche, Ort, Umstaende) möglich?
-4. Wird das Dokument in einem KI-System mit Training verarbeitet — besteht Risiko des Modell-Memorizings?
-5. Ist der Anonymisierungsprozess dokumentiert und vieraugengeprueft?
-
-## Output-Template — Anonymisierungsprotokoll
-**Adressat:** Kanzlei intern (Akte) — Tonfall: knapp, dokumentierend
-```
-ANONYMISIERUNGSPROTOKOLL
-[DATUM] — [AKTENZEICHEN] — Dokument: [BEZEICHNUNG]
-
-Anonymisiert von: [NAME]
-Datum: [DATUM]
-Verfahren: Platzhalter-Schema (M1/G1/Z1/Az-1)
-
-Ersetzte Kategorien:
-☑ Namen
-☑ Adressen
-☑ Aktenzeichen
-☑ Geburtsdaten
-☑ Kontonummern
-☐ Gesundheitsdaten (falls betroffen)
-☐ Sonstige: [BESCHREIBUNG]
-
-Re-Identifikationsrisiko-Check:
-Vier-Augen-Pruefung durch: [NAME]
-Ergebnis: [KEIN RISIKO / RISIKO — WEITERE SCHWAERZUNG: BESCHREIBUNG]
-
-Anonymisierungsgrad: [ANONYMISIERT / PSEUDONYMISIERT]
-DSGVO anwendbar: [JA / NEIN]
-```
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 28 DSGVO
-- § 203 StGB
-- Art. 22 DSGVO
-- Art. 9 DSGVO
-- Art. 6 DSGVO
-- § 2 UrhG
-- Art. 30 DSGVO
-- Art. 46 DSGVO
-- Art. 13 DSGVO
-- § 44b UrhG
-- Art. 35 DSGVO
-- § 5 UrhG
-
-### Leitentscheidungen
-
-- BGH VI ZR 273/16
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

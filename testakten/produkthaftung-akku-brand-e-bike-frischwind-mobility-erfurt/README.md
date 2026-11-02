@@ -3,15 +3,23 @@
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 420 KB) | PDF | [`gesamt-pdf/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt_gesamt.pdf`](gesamt-pdf/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt_gesamt.pdf`](gesamt-pdf/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -69,7 +77,6 @@ Arbeitsakte zum Plugin `produktrecht` mit Schwerpunkten Produktsicherheit, CE-Ko
 | 04 | [`04-vorfall-1-koepenick-totalbrand-wohnung.docx`](04-vorfall-1-koepenick-totalbrand-wohnung.docx) | Vorfall 1 — Berlin-Köpenick, 14.03.2025, Personenschaden |
 | 05 | [`05-vorfall-2-leipzig-akku-explosion-fahrt.docx`](05-vorfall-2-leipzig-akku-explosion-fahrt.docx) | Vorfall 2 — Leipzig, 07.08.2025, Explosion während Fahrt |
 | 06 | [`06-vorfall-3-stuttgart-leichte-rauchentwicklung.docx`](06-vorfall-3-stuttgart-leichte-rauchentwicklung.docx) | Vorfall 3 — Stuttgart, 02.01.2026, Rauchentwicklung Keller |
-| 07 | [`07-ce-konformitaetsbewertung-pruefung.docx`](07-ce-konformitaetsbewertung-pruefung.docx) | CE-Konformitätsbewertungsverfahren, benannte Stelle |
 | 08 | [`08-en-15194-pedelec-konformitaet.docx`](08-en-15194-pedelec-konformitaet.docx) | EN 15194:2017 Pedelec-Norm, Prüfbericht, Abweichungen |
 | 09 | [`09-2006-42-eg-maschinenrichtlinie.docx`](09-2006-42-eg-maschinenrichtlinie.docx) | Maschinenrichtlinie 2006/42/EG, Anhang I, technische Dokumentation |
 | 10 | [`10-zellanalyse-bms-firmware-bug.docx`](10-zellanalyse-bms-firmware-bug.docx) | BMS-Firmware-Bug V3.9.1, Sachverständigengutachten, Zellanalyse |
@@ -80,7 +87,6 @@ Arbeitsakte zum Plugin `produktrecht` mit Schwerpunkten Produktsicherheit, CE-Ko
 | 15 | [`15-presseerklaerung-vorstand.docx`](15-presseerklaerung-vorstand.docx) | Presserklärung Sven Frischwind, Krisenkommunikation |
 | 16 | [`16-produkthaftpflichtversicherung-anzeige.docx`](16-produkthaftpflichtversicherung-anzeige.docx) | Allianz-Anzeige, Deckungsverweigerung, Obliegenheitsverletzung |
 | 17 | [`17-schmerzensgeldforderung-geschaedigter-1-bgh.docx`](17-schmerzensgeldforderung-geschaedigter-1-bgh.docx) | 280.000 EUR Forderung Raskolnikow, ProdHaftG, BGH-Rspr. |
-| 18 | [`18-prodhaftg-stellungnahme-fertigungsfehler.docx`](18-prodhaftg-stellungnahme-fertigungsfehler.docx) | § 1, § 3 ProdHaftG, Fertigungsfehler-Analyse, Regressansprüche |
 | 19 | [`19-strafverfahren-eroeffnung-fahrlaessige-koerperverletzung.docx`](19-strafverfahren-eroeffnung-fahrlaessige-koerperverletzung.docx) | StA Erfurt 188 Js 4711/26, § 229 StGB, Verteidigung CTO |
 | 20 | [`20-gewerbeaufsicht-untersagung-vorlaeufig.docx`](20-gewerbeaufsicht-untersagung-vorlaeufig.docx) | Gewerbeaufsicht Thüringen, vorläufige Untersagung § 35 GewO |
 | 21 | [`21-redesign-bms-firmware-v4-3.docx`](21-redesign-bms-firmware-v4-3.docx) | BMS-Firmware V4.3, technisches Redesign, Freigabe-Roadmap |
@@ -114,8 +120,13 @@ Arbeitsakte zum Plugin `produktrecht` mit Schwerpunkten Produktsicherheit, CE-Ko
 | [`eml/email-haftpflicht-versicherer-meldung.eml`](eml/email-haftpflicht-versicherer-meldung.eml) | Allianz Haftpflicht an Frischwind, vorläufige Deckungsablehnung |
 | [`eml/email-zulieferer-akku-chinatech.eml`](eml/email-zulieferer-akku-chinatech.eml) | ChinaTech ShenZhen an CTO, Haftungsablehnung |
 | [`eml/email-staatsanwaltschaft-erfurt-anfrage.eml`](eml/email-staatsanwaltschaft-erfurt-anfrage.eml) | StA Erfurt an RA Roosendaal, Verfahrensanfrage |
+| [`eml/email-haendler-rueckmeldung-rueckruf.eml`](eml/email-haendler-rueckmeldung-rueckruf.eml) | Vertragshändler Nr. 31 (Jena) bestätigt Rückruf-Eingang, meldet Rückgabezahlen, Portalfehler und einen Kunden, der die Rückgabe verweigert |
 
 ### PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|

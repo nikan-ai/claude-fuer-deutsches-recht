@@ -1,22 +1,29 @@
 # Statusfeststellungsakte GmbH-Geschäftsführer Minderheitsbeteiligung Erlangen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen_gesamt.pdf`](gesamt-pdf/statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen-einzelpdfs.zip) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
-Arbeitsakte zur Statusprüfung eines Minderheits-Gesellschafter-Geschäftsführers einer Medizintechnik-GmbH mit Vetorechten, Bürgschaften, Geschäftsführervertrag und faktischer Gründerautorität. Die Akte ist für `sozialversicherungsstatus-pruefer`, `rentenpruefer`, `fachanwalt-sozialrecht` und `gesellschaftsrecht` gedacht.
+Arbeitsakte zur Statusprüfung eines Minderheits-Gesellschafter-Geschäftsführers einer Medizintechnik-GmbH mit Vetorechten, Bürgschaften, Geschäftsführervertrag und faktischer Gründerautorität. Die Akte ist für `sozialversicherungsstatus-prüfer`, `rentenpruefer`, `fachanwalt-sozialrecht` und `gesellschaftsrecht` gedacht.
 
 Enthalten sind ausformulierte Aktenstücke, Bescheide, Notarurkunden, Handelsregisterauszug, das komplette DRV-Verfahren von Antrag über Anhörung, Bescheid, Widerspruch und Widerspruchsbescheid bis zu Klage, Klageerwiderung und Vergleich, außerdem Betriebsprüfungsbericht, Beitragsberechnung, Gesellschafterprotokolle, ein Chat-Auszug zwischen den Gesellschaftern und Fristenmaterial. Die rechtliche Bewertung bleibt offen: Die Akte liefert Rohbelege wie Vertragsklauseln, Zahlungsflüsse und wörtliche Chat-Zitate, aus denen der sozialversicherungsrechtliche Status selbst abgeleitet werden muss, keine vorgefertigte Indizien-Matrix.
 
@@ -24,7 +31,6 @@ Enthalten sind ausformulierte Aktenstücke, Bescheide, Notarurkunden, Handelsreg
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_clearingstelle.docx` | Erstnotiz mit Beteiligten, Anteilsverhältnissen und Verfahrensstand |
 | `02_gesellschaftsvertrag.docx` | Vollständiger Gesellschaftsvertrag mit Beirat, Mehrheitserfordernissen, Wettbewerbsverbot, Vinkulierung, Einziehung und Abfindung |
 | `03_geschaeftsfuehrervertrag.docx` | Anstellungsvertrag mit Vergütung, Urlaub, Zustimmungsvorbehalten und Kündigungsregeln |
 | `04_beiratsprotokolle.docx` | Beiratssitzungen mit Eingriffen in Budget, Personal und Patentverwertung |
@@ -58,8 +64,8 @@ Enthalten sind ausformulierte Aktenstücke, Bescheide, Notarurkunden, Handelsreg
 | `32_gehaltsabrechnungen_auszuege.docx` | Gehaltsabrechnungen ohne Sozialversicherungsabzug über den Verfahrenszeitraum |
 | `33_verfahrenskalender.csv` | Fristen und Verfahrensstationen von Antrag bis Vergleich |
 | `emails/` | E-Mail-Wechsel zwischen Gesellschaftern und zum Abberufungsbeschluss |
-| `eml/` | E-Mail-Korrespondenz mit der DRV zu Nachbesserung und Vergleich |
+| `eml/` | E-Mail-Korrespondenz mit der DRV zu Nachbesserung und Vergleich, einschließlich der überarbeiteten Beitragsaufstellung mit Erläuterung der Bonuszahlungen 2024 |
 | `csv/` | Urlaubstage und variable Vergütung im Zeitverlauf |
 | `xlsx/` | Zahlungsflüsse aus Bürgschaft und Gesellschafterdarlehen |
-| `pdfs/` | Auszug der Bürgschaftsurkunde |
+| `pdfs/` | Vollständige Bürgschaftsurkunde der finanzierenden Bank mit Sicherungszweck, Höchstbetrag, Laufzeit und Unterschriften |
 | `jpg/` | Chat-Screenshot der Gesellschafter und Handelsregisterportal-Auszug |

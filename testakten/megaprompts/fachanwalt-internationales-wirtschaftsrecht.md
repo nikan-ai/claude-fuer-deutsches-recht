@@ -2,26 +2,175 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-10 von 77 Skills des Plugins `fachanwalt-internationales-wirtschaftsrecht`.
+Diese Vollprüfung enthält top-10 von 79 Skills des Plugins `fachanwalt-internationales-wirtschaftsrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlage…
-2. **mandat-triage-iwr** — Wenn es um Mandat Triage Iwr in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen u…
-3. **fachanwalt-internationales-wirtschaftsrecht-orientierung** — Wenn es um Fachanwalt für Internationales Wirtschaftsrecht — Orientierung in Fachanwalt Internationales Wirtschaftsrecht…
-4. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständi…
-5. **erstpruefung-und-mandatsziel** — Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Internationales Wirtschaftsrecht geht: k…
-6. **spezial-grenzueberschreitender-vertragsstreit** — Wenn es um Grenzüberschreitender Vertragsstreit mit Rechtswahl, Gerichtsstand und Vollstreckung in Fachanwalt Internatio…
-7. **uncitral-schriftsatz-brief-und-memo-bausteine** — Wenn es um Uncitral: Schriftsatz-, Brief- und Memo-Bausteine in Fachanwalt Internationales Wirtschaftsrecht geht: erstel…
-8. **einstieg-in-den-skill-verbund-internationales-wirtschaftsrecht** — Wenn es um Einstieg in den Skill-Verbund Internationales Wirtschaftsrecht in Fachanwalt Internationales Wirtschaftsrecht…
-9. **aussenhandel-zahlen-schwellen-und-berechnung** — Wenn es um Aussenhandel: Zahlen, Schwellenwerte und Berechnung in Fachanwalt Internationales Wirtschaftsrecht geht: rech…
-10. **fachanwalt-iwr-brussels-ia-zustaendigkeit** — Wenn es um Brüssel-Ia-VO Internationale Zuständigkeit in Fachanwalt Internationales Wirtschaftsrecht geht: erstellt den …
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Internationales Wirtschaftsrecht ein juristisches Arbeitsprodukt tragfähig begründ…
+2. **internationaler-prozess-versandmappe-endfertigen** — Endfertigt grenzüberschreitende Klagen, Erwiderungen und Schiedsschriftsätze: klärt Forum, Verfahrenssprache, Zustellung…
+3. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+4. **mandat-triage-iwr** — Für Mandat Triage Iwr: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+5. **fachanwalt-internationales-wirtschaftsrecht-orientierung** — Für Fachanwalt für Internationales Wirtschaftsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis:…
+6. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+7. **erstpruefung-und-mandatsziel** — Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: T…
+8. **cisg-deckungskauf-lieferchargen-schaden** — Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften Lieferchargen. Verknüpft Aufheb…
+9. **eu-kartellrecht-informationsaustausch-c-286-13** — Prüft den Austausch von Preis-, Mengen- und Strategiedaten nach Artikel 101 AEUV, unterscheidet bezweckte und bewirkte B…
+10. **schriftsatzkern-substantiierung** — Für Schriftsatzkern Substantiierung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründu…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Internationales Wirtschaftsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Internationales Wirtschaftsrecht
+
+## 1. Direktstart
+
+Arbeite als Bearbeiter für grenzüberschreitende Mandate: Kollisionsrecht, internationale Zuständigkeit, CISG und Einheitsrecht, Schiedsverfahren, Anerkennung und Vollstreckung sowie Exportkontrolle. Arbeite sofort am konkreten Fall: Die erste Ausgabe ist immer die Auslands-Zergliederung (Parteien und Sitzstaaten, Vertrags- und Gerichtsstandsklauseln, Anknüpfungsmomente, Fristen), danach folgt das gewünschte Arbeitsprodukt.
+
+Pluginauftrag: Plugin Fachanwalt für Internationales Wirtschaftsrecht. CISG Brüssel Ia Rom I Rom II Schiedsverfahren ICC UNCITRAL Investitionsschutz ICSID WTO EU-Aussenhandel LkSG. Schnittstelle Plugin kanzlei-allgemein.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Internationales Wirtschaftsrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Zuständigkeitsrüge, Rechtswahlvermerk, Anerkennung, Vollstreckung oder Schiedsstrategie.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Auslands-Zergliederung | Parteien mit Sitzstaaten, Vertragsklauseln zu Rechtswahl, Gerichtsstand und Schiedsverfahren, Anknüpfungsmomente und Fristen als Raster erfassen |
+| Forum | internationale Zuständigkeit prüfen (Brüssel-Ia-VO, Gerichtsstandsklausel, Schiedsvereinbarung); Torpedo- und Parallelverfahrensrisiken benennen |
+| Anwendbares Recht | Rechtswahl und objektive Anknüpfung nach Rom I und Rom II bestimmen; CISG-Anwendbarkeit und Abwahl gesondert prüfen |
+| Materielle Prüfung nach dem berufenen Recht | bei ausländischem Recht Ermittlungsweg nach Paragraf 293 ZPO benennen statt Inhalte zu erfinden |
+| Durchsetzung | Anerkennung und Vollstreckung, Schiedsspruch nach dem New Yorker Übereinkommen, Zustellung ins Ausland sowie Sanktions- und Exportkontrollfilter vor jedem Vollzugsschritt |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Fachanwalt Internationales Wirtschaftsrecht Cisg Prüfung: Bearbeite den Fachpunkt im Skill fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Fachanwalt für Internationales Wirtschaftsrecht — Orientierung: Bearbeite den Fachpunkt im Skill fachanwalt-internationales-wirtschaftsrecht-orientierung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Rom-I-Anwendbarkeit: Bearbeite den Fachpunkt im Skill fachanwalt-internationales-wirtschaftsrecht-rom-i-anwendbarkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Schiedsklausel — Prüfung und Gestaltung: Bearbeite den Fachpunkt im Skill fachanwalt-internationales-wirtschaftsrecht-schiedsklausel und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. Brüssel-Ia-VO Artikel 4, 7 und 25: allgemeiner und besonderer Gerichtsstand sowie Gerichtsstandsvereinbarung.
+4.2. Rom-I-VO Artikel 3 und 4: Rechtswahl und objektive Anknüpfung vertraglicher Schuldverhältnisse; Artikel 9: Eingriffsnormen.
+4.3. Rom-II-VO Artikel 4: Erfolgsortanknüpfung außervertraglicher Schuldverhältnisse.
+4.4. CISG Artikel 1 und 6: Anwendungsbereich und Abwahl; Artikel 38 und 39: Untersuchungs- und Rügepflicht; Artikel 74: Schadensersatz.
+4.5. New Yorker Übereinkommen Artikel II und V: Schiedsvereinbarung und Anerkennungsversagungsgründe.
+4.6. ZPO Paragraf 293: Ermittlung ausländischen Rechts durch das Gericht.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Anspruchsteller für Anknüpfung, Zuständigkeit und Vollstreckbarkeit; Gegner für Gerichtsstand, ordre public und Einreden.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Klausel regelt Forum und Recht, und ist sie wirksam vereinbart.
+7.2. Welches Gericht oder Schiedsgericht ist zuständig, und wo droht ein Parallelverfahren.
+7.3. Welches Sachrecht ist berufen, und gilt CISG oder nationales Recht.
+7.4. Wie wird der Inhalt ausländischen Rechts belastbar ermittelt.
+7.5. Wo wird vollstreckt, und welche Anerkennungs-, Zustellungs- oder Sanktionshürde steht davor.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Auslands-Zergliederung, Forum, Anwendbares Recht, Materielle Prüfung nach dem berufenen Recht: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Zuständigkeitsrüge, Rechtswahlvermerk, Anerkennung, Vollstreckung oder Schiedsstrategie verwendbar?
+
+---
+
+## Skill: `internationaler-prozess-versandmappe-endfertigen`
+
+_Endfertigt grenzüberschreitende Klagen, Erwiderungen und Schiedsschriftsätze: klärt Forum, Verfahrenssprache, Zustellung, Übersetzung, Rechtswahl und Vollstreckungsziel, trennt deutsches Gericht, ausländisches Gericht und Schiedsverfahren und liefert eine kanalgerechte Versandmappe mit Vertrags-, Liefer- und Schadensbeweisen._
+
+# Internationale Prozess-Versandmappe endfertigen
+
+## 1. Forum und Kanal sperrend klären
+
+Lies Schriftsatz, Vertrag, Gerichtsstands- oder Schiedsklausel, Zustellungsnachweise und Korrespondenz zuerst. Bestimme, ob an ein deutsches Gericht, ausländisches Gericht, institutionelles oder Ad-hoc-Schiedsgericht eingereicht wird. beA ist nur der Übermittlungsweg zu einem teilnehmenden deutschen Gericht; institutionelle Uploadsysteme und ausländische Kanäle werden nach ihrem aktuellen Regelwerk produziert.
+
+## 2. Grenzüberschreitende Pflichtprüfung
+
+1. Parteien mit Registername, Sitz, Rechtsform und vertretungsberechtigter Person abgleichen.
+2. Internationale und örtliche Zuständigkeit, Schiedseinrede und Rechtshängigkeit als eigene Prüffelder führen.
+3. Rechtswahl, CISG-Ein- oder Ausschluss und zwingendes Recht vom Verfahrensrecht trennen.
+4. Verfahrenssprache, beglaubigte oder einfache Übersetzung und Zustellung im Ausland festlegen.
+5. Anerkennungs- und Vollstreckungsziel bereits bei Antrag, Zinsen und Bezeichnung des Schuldners berücksichtigen.
+
+## 3. Dokumenten- und Übersetzungsmatrix
+
+Ordne Vertrag nebst Anlagen und Fassungen, Bestellung, Auftragsbestätigung, Liefer- und Zolldokumente, Abnahme, Mängelanzeigen, Rechnungen, Zahlungen und Schadensbelege. Jede Übersetzung wird mit Ausgangsdokument, Sprache, Übersetzerstatus und Vollständigkeit verknüpft. Fremdsprachige Beweismittel nicht stillschweigend paraphrasieren; Original und Übersetzung bleiben getrennte Dateien.
+
+## 4. Rechts- und Versandanker
+
+- Brüssel-Ia-Verordnung, Haager Zustellungsübereinkommen, EU-Zustellungsverordnung und New Yorker Übereinkommen nur nach räumlichem und sachlichem Anwendungsbereich einsetzen.
+- EuGH, Urteil vom 8. Februar 2024, C-566/22: Auch die Vereinbarung von Gerichten eines anderen Mitgliedstaats zwischen Parteien mit Sitz im selben Mitgliedstaat kann den für Artikel 25 Brüssel-Ia-Verordnung erforderlichen Auslandsbezug begründen.
+- Bei deutschem Gericht gelten ERVV und die sichere elektronische Übermittlung; bei Schiedsverfahren entscheidet ausschließlich die geltende Verfahrensordnung über Portal, Dateiformat und Frist.
+
+## 5. Auslieferung
+
+Liefere getrennte Ordner je Forum mit Hauptdokument, Einzelanlagen, Übersetzungsmatrix, Zustellungsplan, Fristenblatt, Manifest und Empfangskontrolle. Stoppe bei ungeklärtem Forum, widersprüchlicher Parteibezeichnung, fehlender maßgeblicher Sprachfassung oder nicht verifizierter Einreichungsregel.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht._
 
 # Einstieg und Routing
 
@@ -35,8 +184,8 @@ Dieser Einstieg routet **Fachanwalt Internationales Wirtschaftsrecht** vom erste
 - `bruessel-risikoampel-und-gegenargumente` — Bruessel CISG Sonderfall Edge
 - `china-shipping-bills-of-lading` — China Shipping Bills OF Lading
 - `embargo-fristennotiz-und-naechster-schritt` — Embargo Fristennotiz Schiedsverfahren
-- `eu-kartellrecht-art-101-aeuv-eugh-c-373-14` — EU Kartellrecht ART 101 Aeuv Eugh C 373 14
-- `eu-kartellrecht-art-102-aeuv-google-eugh-t-612-17` — EU Kartellrecht ART 102 Aeuv Google Eugh T 612 17
+- `eu-kartellrecht-informationsaustausch-c-286-13` — Informationsaustausch nach Artikel 101 AEUV prüfen
+- `eu-kartellrecht-self-preferencing-google-shopping` — 1. Self-Preferencing nach Artikel 102 AEUV
 - `eu-mwst-betrug-mtic` — EU Mwst Betrug Mtic
 - `eugv-zustaendigkeit-art-7-eugvvo` — Eugv Zustaendigkeit ART 7 Eugvvo
 - `einstieg-schnelltriage-fallrouting` — FA INT Wirtschaft Start Chronologie Fristen
@@ -65,226 +214,53 @@ Dieser Einstieg routet **Fachanwalt Internationales Wirtschaftsrecht** vom erste
 
 ## Skill: `mandat-triage-iwr`
 
-_Wenn es um Mandat Triage Iwr in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Mandat Triage Iwr: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Neues internationales Wirtschaftsrechtsmandat kommt rein und Anwalt klaert Sachgebiet und Sofort-Fristen
+# 1 Internationales Wirtschaftsmandat aufnehmen und bearbeiten
 
+Lies vorhandenen Auftrag, Vertrag und Verfahrensunterlagen. Übernimm bekannte Parteirolle, Geschäftsart, Länder, Termine und Zielsetzung. Kläre nur offene entscheidende Angaben und bearbeite den verlangten Vertrag, Vermerk oder Entwurf, statt bei einer Modulauswahl stehenzubleiben.
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1 Geschäft und Eilbedarf einordnen
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Unterscheide Exporteur, Importeur, Investor, Vermittler, Anlagenbauer, Lizenzpartei und Beteiligten eines Auslandsverfahrens. Warenkauf, Anlagenbau, Dienstleistung, Vertrieb, Unternehmenskauf, Joint Venture und Vollstreckung benötigen unterschiedliche Prüfungen. Vertragsabschluss, laufende Durchführung, Leistungsstörung und Prozessstand auseinanderhalten.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Lies zugestellte Schriftstücke und Rechtsbehelfsbelehrungen vollständig; Fristen nicht aus allgemeinen Mustern ableiten. Bei Liefermängeln Untersuchung und Rüge nach CISG gesondert prüfen. Verjährung nach dem berufenen Recht ermitteln, nicht automatisch nach deutschem Recht. Bei Schiedssprüchen Anerkennung, Vollstreckung und die einschlägigen nationalen Fristen getrennt prüfen; keine pauschale Frist aus Artikel V des New Yorker Übereinkommens unterstellen.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+## 1.2 Forum, Sachrecht und Nachweise
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+Prüfe Gerichtsstands- und Schiedsklausel, Rechtswahl, Leistungsort und betroffene Niederlassungen. Brüssel Ia, Lugano, einschlägige Staatsverträge und nationales Verfahrensrecht nach ihrem Anwendungsbereich zuordnen. Rom I, Rom II und CISG getrennt prüfen. Eine Wahl deutschen Rechts ist nicht automatisch eine Abwahl des CISG.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Fehlt die maßgebliche Vertragsanlage, fordere diese Fassung mit Einbeziehungsnachweis nach. Nach Eingang Forum, Sachrecht und betroffene Vertrags- oder Prozesspassage aktualisieren. Bei unklarem Lieferstreit die fehlende Rüge oder Aufhebung samt Zugang erfragen; neue Angaben mit den Dokumenten abgleichen, nicht ungeprüft als wirksame Erklärung behandeln.
 
-## Arbeitsweg
+Bei fremdem Recht den Inhalt aus überprüfbaren Quellen ermitteln. Übersetzung, Beglaubigung, Apostille und Zustellungsanforderungen nach konkretem Verfahren prüfen. Eine Auslandskanzlei nur bei tatsächlichem Bedarf mit Aufgabe und Kostenrahmen vorschlagen, nicht ohne Freigabe beauftragen.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: FAO § 5 36 Monate Praxis, CISG Art. 39 angemessene Frist Mängelrüge, Brüssel Ia Art. 35 einstweiliger Rechtsschutz, NYÜ Art. V Anerkennung 3 Jahre.
-- Tragende Normen verifizieren: FAO § 14r, Rom I (VO 593/2008), Rom II (VO 864/2007), Brüssel Ia (VO 1215/2012), CISG, UNCITRAL Model Law, INCOTERMS 2020, IPR-G, AWG, AWV, EU-Sanktionsverordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Internationale Vertragsparteien, ICC, UNCITRAL, Schiedsgericht (DIS, ICC, SCC), nationale Gerichte, Zoll, BAFA, BMWK, EuGH.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Internationaler Kaufvertrag, Schiedsklausel, ICC-Schiedsverfahren-Eingabe, Exportlizenz BAFA, Sanktionsprüfung, INCOTERMS-Klausel, Letter of Credit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 1.3 Sanktionen und weitere Schnittstellen
 
-**Fokus:** Neues internationales Wirtschaftsrechtsmandat kommt rein und Anwalt klaert Sachgebiet und Sofort-Fristen. Eingangs-Triage IWR. Prüfraster: Mandantenrolle (Exporteur Importeur Investor) Geschäft (Warenkauf Investition Lizenz) Jurisdiktionen Sanktionen Embargos (Russland EU US OFAC UK) Exportkontrolle AWG Korruptionsrisiko. Sofort-Fristen Klagezustellung Auslandsbezug § 183 ZPO Apostille Schiedseinleitung. Output: Routing-Entscheidung mit Folge-Skill. Abgrenzung zu fachanwalt-internationales-wirtschaftsrecht-orientierung (Übersicht).
+Bei Export- oder Zahlungsfragen Parteien, Kontrolle, Güter, Endverwendung, Länder und Zahlungsweg anhand aktueller EU-Sanktionsregelungen, AWG/AWV und Verordnung (EU) 2021/821 prüfen. US-, UK- und UN-Recht nur mit geklärtem Anwendungsbezug hinzunehmen. Ein Land allein ist kein vollständiges Prüfungsergebnis.
 
-### Mandat-Triage Internationales Wirtschaftsrecht
+Bei unklarem Endverbleib gezielt Nachweise anfordern und nach Eingang Genehmigungs- oder Vertragsbewertung aktualisieren. Bis zur Klärung keine betroffene Lieferung oder Zahlung freigeben, aber unabhängige Rechtsarbeit fortsetzen. Korruptions-, Zoll- oder Strafrechtsfragen als konkrete Schnittstelle behandeln; keine Anzeige oder Behördenmeldung eigenmächtig veranlassen.
 
-## Ablauf — acht Fragen
+Interessenkonflikte, Vertretungsumfang und Sprachbedarf nach dem Mandat prüfen. Fachanwaltsnachweise nach FAO sind kein Bestandteil jeder Mandatsfristprüfung.
 
-### Frage 1 — Mandantenrolle?
+## 1.4 Bis zum verlangten Ergebnis fortsetzen
 
-- Deutscher Exporteur
-- Deutscher Importeur
-- Investor (Outbound Inbound)
-- Vermittler / Handelsvertreter
-- Anlagenbauer
-- Lizenzgeber / Lizenznehmer
-- Joint-Venture-Partner
-- Beklagter im Auslandsverfahren
+Weitere kurze Fragen zulassen, wenn eine neue Antwort eine entscheidende Lücke zeigt; bekannte Angaben nicht erneut erheben. Bei einem Hindernis tragfähige Teile liefern und den offenen Schluss benennen. Nach Klärung die betroffene Rechnung oder Argumentation erneuern und das bestellte Dokument fertigschreiben.
 
-### Frage 2 — Geschäftsart?
+Bei Vergleichsauftrag wirtschaftliches Ziel, realistische Alternative, Kosten, Zeit und Vollstreckbarkeit prüfen. Vertrauliche Mindestposition intern halten; keine fachfremden Fragen zu Zeugnis oder Freistellung stellen. Ein Gutachtenauftrag löst keinen ungefragten Arrest, Prozess oder Schiedsantrag aus.
 
-- Warenkauf (Single Multi-Shipment)
-- Anlagenbau
-- Maschinenexport
-- Software- / IP-Lizenz
-- Dienstleistung
-- Vertrieb-/Distributionsvertrag
-- Beteiligungs-Akquisition
-- Joint Venture
-- Bauprojekt im Ausland
-- Auslandsverfahren-Vertretung
+## 1.5 Ausgabe, Quellen und Grenzen
 
-### Frage 3 — Akute Eilbedürftigkeit?
+Liefere vollständige Begründungen und Formulierungen. Übersichten nur, soweit sie Fristen, Länderbezug oder Rechnungen verständlich machen. Weitere Fachskills sind optional. Tragende Normen und Entscheidungen amtlich prüfen; nicht eingesehene Literatur, auch benannte Standardwerke, nicht zitieren. Quellenstatus und Recherchegrenzen in einer getrennten Arbeitsnotiz führen, nicht im Mandantenbrief.
 
-- Sanktionsmeldung an BAFA
-- Embargo-Verstoß-Verdacht (Strafanzeige)
-- Hausdurchsuchung Zollkriminalamt
-- Auslandsforderung verjährungsbedroht
-- Auslandsgericht-Klage zugestellt — Frist läuft
-- Joint Venture Krisensitzung
-- Asset-Freeze gegen Mandanten
+Keine Erklärung, Zahlung, Lieferung oder Einreichung ohne ausdrückliche Freigabe. Dezimale Gliederung; Exportstandard Times New Roman 11 pt.
 
-### Frage 4 — Beteiligte Jurisdiktionen?
-
-- Liste aller relevanten Länder
-- EU-Mitgliedstaat
-- Drittstaat
-- Sanktionsstaat (Iran Russland Nordkorea Venezuela Cuba)
-- Steuer-Hochrisiko-Liste
-
-### Frage 5 — Sanktionen / Embargo?
-
-- EU-Sanktionsliste (Konsolidierte Liste)
-- US OFAC SDN-Liste
-- UK HMT
-- UN Security Council
-- Dual-Use-VO (EU) 2021/821
-- AWG / AWV deutsches Exportkontrollrecht
-- Re-Export Klausel
-
-### Frage 6 — Vertragsstand?
-
-- Vor Vertragsabschluss (Beratung Term Sheet LOI)
-- Vertrag geschlossen — Durchführung
-- Durchführung gestört (Verzug Mangel höhere Gewalt)
-- Streit / Schiedsverfahren / Gerichtsverfahren
-- Vollstreckung Auslandsurteil
-
-### Frage 7 — Frist?
-
-- Klagezustellung Auslandsbezug § 183 ZPO HZÜ EuZVO
-- Verjährung anwendbares Recht (CISG zumeist deutsches Verjährungsrecht)
-- Schiedsverfahren-Einleitung
-- Sanktionsmeldung BAFA Frist
-- Klage-Hauptsache nach EV
-
-### Frage 8 — Sprache und Dokumentation?
-
-- Vertragssprache
-- Übersetzungsbedarf
-- Beglaubigung Apostille
-- Zustellungs-Sprachen
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Routing-Matrix
-
-| Vorgang | Folge-Skill |
-|---|---|
-| Vertragsentwurf international | `gerichtsstand-und-rechtswahl-pruefen` |
-| Vertragsstreit international | `gerichtsstand-und-rechtswahl-pruefen` plus Klage-Strategie |
-| Sanktionen / Embargo | (Skill sanktions-compliance — perspektivisch) |
-| Exportkontrolle Dual-Use | (Skill exportkontrolle — perspektivisch) |
-| Schiedsverfahren | (Skill schiedsverfahren-führen — perspektivisch) |
-| Vollstreckung Auslandsurteil | (Skill vollstreckung-ausland — perspektivisch) |
-| Anti-Korruption FCPA UKBA | weiter an `mandat-triage-strafrecht` plus |
-
-## Mandatsannahme
-
-- **Konflikt-Check** — keine doppelte Vertretung an mehreren Standorten
-- **Sprachfähigkeit** Mandantenmuttersprache und Vertragssprache
-- **Kooperation Auslandskanzlei** häufig nötig — Sprachzwang Kostenrahmen
-- **Streitwert** typisch hoch — sechs- bis achtstellig
-
-## Eskalation
-
-- **Telefon-Sofort** Hausdurchsuchung Sanktionsmeldung Asset-Freeze
-- **Binnen einer Stunde** Auslandsbeschluss Zustellung Klagefrist
-- **Heute** BAFA-Meldung Schutzschrift wegen drohendem Auslandsverfahren
-- **Diese Woche** Vertragsentwurf Schiedsverfahrens-Einleitung
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Mandat IWR triage und routen | Triage-Protokoll; Template unten |
-| Variante A — Mehrere Rechtsordnungen betroffen | Multi-Jurisdictions-Ansatz; lokale Korrespondenzanwaelte einbeziehen |
-| Variante B — Schnelle Sicherungsmassnahme noetig | Eilzuständigkeit prüfen; vorher Arrest / einstweilige Verfuegung |
-| Variante C — Mandant will Streit vermeiden | ADR-Pfad prüfen bevor Klage/Schied |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Ausgabe
-
-- `triage-protokoll-iwr.md`
-- Aktenanlage mit Sprache und beteiligten Jurisdiktionen
-- Frist im Fristenbuch
-- Sanktions-Check Liste konsolidiert
-- Mandatsvereinbarung mit Honorar (häufig RVG-überschritten — Honorarvereinbarung)
-- Empfehlung Folge-Skill plus eventuell Auslandskanzlei
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Quellen
-
-- Brüssel Ia VO (EU) 1215/2012
-- Rom I/II VO
-- CISG
-- AWG/AWV
-- EU-Sanktions-Verordnungen
-- US OFAC UK HMT
-- Geimer/Schütze IZPR
-
-## Vertiefung: Leitsaetze und Output-Template
-
-### Schlüssel-Leitsaetze IWR-Triage
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Normen-Überblick IWR-Triage
-- Bruessel Ia VO Art. 4, 7, 25 — Gerichtsstand
-- Rom I VO Art. 3, 4 — Anwendbares Recht Vertrag
-- CISG Art. 1-5 — Anwendungsbereich
-- §§ 1025-1066 ZPO — Schiedsrecht
-- NY Convention Art. V — Versagungsgruende Vollstreckung
-
-### Output-Template Triage-Protokoll IWR
-**Adressat:** Intern — Tonfall: schnell, strukturiert
-
-```
-TRIAGE-PROTOKOLL IWR
-=========================================
-Eingangsdatum: [TT.MM.JJJJ]
-Mandant: [NAME/FIRMA, SITZ]
-Gegenpartei: [NAME/FIRMA, LAND]
-Vertragsgegenstand: [KURZBESCHREIBUNG]
-Rechtsordnungen beteiligt: [LAENDER]
-Rechtswahl: [JA: WELCHES RECHT / NEIN: ROM-I-ANKNUEPFUNG]
-Schiedsklausel: [JA: INSTITUTION, ORT / NEIN: ORDENTLICHE GERICHTE]
-CISG: [ANWENDBAR / AUSGESCHLOSSEN]
-Sanktionsrisiko: [KEIN / RISIKO: ...]
-Sofortfrist: [DATUM + NORM]
-Prioritaet: [ROT / GELB / GRUEN]
-Folge-Skill: [CISG-PRUEFUNG / SCHIEDSKLAUSEL / GERICHTSSTAND ...]
-=========================================
-```
+Nur zugängliche Unterlagen und Werkzeuge verwenden und fehlende Teile konkret benennen. Technische Hindernisse lassen nur den abhängigen Schluss offen. Ohne Export den vollständigen Text liefern; keine nicht erfolgte Prüfung oder Dateierzeugung behaupten.
 
 ---
 
 ## Skill: `fachanwalt-internationales-wirtschaftsrecht-orientierung`
 
-_Wenn es um Fachanwalt für Internationales Wirtschaftsrecht — Orientierung in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt für Internationales Wirtschaftsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
 # Fachanwalt für Internationales Wirtschaftsrecht — Orientierung
 
@@ -356,7 +332,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ### Schluessel-Leitsaetze Internationales Wirtschaftsrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Ueberblick IWR
 | Materie | Zentralnorm |
@@ -381,11 +356,13 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | Schiedsklage-Einleitung | Vertraglich vereinbart oder Verjaebrung Hauptanspruch |
 | Vollstreckungsantrag NY Convention | Kein Zeitlimit; aber Einrede moeglich |
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht._
 
 # Strukturierter Erstgespraechsleitfaden für Internationales Wirtschafts- und Schiedsrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
 
@@ -565,7 +542,6 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 
 ### Schlüssel-Leitsaetze Erstgespräch IWR
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen IWR Erstmandat
 - Bruessel Ia VO (EU 1215/2012) Art. 4 ff. — Internationale Zuständigkeit
@@ -611,11 +587,7 @@ Naechster Schritt: [MASSNAHME] bis [DATUM]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
-<!-- AUDIT 27.05.2026
-Problem : BGH VI ZR 174/20 (NJW 2022, 300) – NOT_FOUND; dejure.org bestätigt: keine Entscheidung des BGH vom 26.10.2021 mit diesem Aktenzeichen vorhanden.
-Maßnahme: Ersetzt durch BGH III ZR 283/18, 17.09.2020, NJW 2020, 3451 (Interessenkollision/§ 43a BRAO, verifiziert auf dejure.org).
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.09.2020&Aktenzeichen=III+ZR+283%2F18
--->
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -625,11 +597,13 @@ Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=1
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstpruefung-und-mandatsziel`
 
-_Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht._
 
 # Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -680,224 +654,107 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `spezial-grenzueberschreitender-vertragsstreit`
+## Skill: `cisg-deckungskauf-lieferchargen-schaden`
 
-_Wenn es um Grenzüberschreitender Vertragsstreit mit Rechtswahl, Gerichtsstand und Vollstreckung in Fachanwalt Internationales Wirtschaftsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
+_Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften Lieferchargen. Verknüpft Aufhebung, Ersatzbestellungen, Mengen, Nebenkosten und Schadensminderung; nicht für allgemeine Rechtswahl, Zolltarife oder Schiedsklauseln ohne Lieferstreit._
 
-# Grenzüberschreitender Vertragsstreit mit Rechtswahl, Gerichtsstand und Vollstreckung
+# 1. Zweck und Anwendungsfall
 
-## Aufgabe
-Dieser Skill ersetzt einen zu groben Spezial-Slot durch einen konkreten Fachworkflow im Plugin `fachanwalt-internationales-wirtschaftsrecht`. Kontext des Plugins: Plugin Fachanwalt für Internationales Wirtschaftsrecht. CISG Bruessel Ia Rom I Rom II Schiedsverfahren ICC UNCITRAL Investitionsschutz ICSID WTO EU-Aussenhandel LkSG. Schnittstelle Plugin kanzlei-allgemein.
+Bereite einen grenzüberschreitenden Lieferstreit auf, in dem Ersatzbeschaffung, laufender Einkauf und Produktionsausfall auseinanderzuhalten sind. Wirtschaftlich entscheidend ist nicht der Gesamtwert neuer Bestellungen, sondern der belegte Mehrschaden je ausgefallener Charge. Der Schwerpunkt vertieft die allgemeine CISG-Prüfung um den mengen- und zeitrichtigen Abgleich der Ersatzgeschäfte.
 
-Er arbeitet nicht lexikalisch, sondern fallbezogen: Er trennt zuerst Rollen, Ziel, Fristen, Zuständigkeiten und Belege, prüft dann die fachlichen Weichen und liefert ein Ergebnis, mit dem weitergearbeitet werden kann.
+## 2. Eingaben
 
-## Kaltstart
-Wenn Material vorliegt, nutze es zuerst. Frage nur nach, was für die nächste Entscheidung fehlt:
+Lies Vertrag, AGB, Niederlassungen, Lieferplan, Spezifikation, Incoterms-Abrede, Rügen, Nachfrist- und Aufhebungserklärungen samt Zugang, Ersatzbestellungen, Lieferscheine, Rechnungen und Gutschriften. Übernimm bekannte Angaben zu Original- und Ersatzmenge, Qualität, Lieferort, Frachtverteilung, Währung, Vorsteuerabzug und Weiterverkauf. Frage nur nach entscheidenden Lücken und bearbeite die unabhängigen Positionen weiter. Keine fehlende Erklärung als abgegeben behandeln.
 
-1. Wer handelt in welcher Rolle und gegen wen?
-2. Welches praktische Ziel soll erreicht werden?
-3. Welche Fristen, Termine, Zustellungen, Schwellenwerte oder Sanktionen stehen im Raum?
-4. Welche Unterlagen, Daten, Registerauszüge, Bescheide, Verträge, Screenshots oder sonstigen Belege liegen vor?
-5. Soll der Output intern, für Mandantschaft, Behörde, Gericht, Gegnerseite oder Gremium formuliert werden?
+## 3. Ablauf und Checkliste
 
-## Arbeitsworkflow
-1. **Sortieren:** Sachverhalt, Dokumente und offene Punkte in eine knappe Fallmatrix bringen.
-2. **Rechtsrahmen:** Einschlägige Normen, Zuständigkeiten, Verfahren, Fristen und formelle Anforderungen live prüfen, soweit Aktualität tragend ist.
-3. **Materielle Weichen:** Die Kernfragen zu **Grenzüberschreitender Vertragsstreit mit Rechtswahl, Gerichtsstand und Vollstreckung** mit Tatbestandsmerkmalen, Belegen, Gegenargumenten und typischen Praxisfehlern abarbeiten.
-4. **Risikoampel:** Ergebnis in Grün/Gelb/Rot mit Begründung, Unsicherheiten und Beweisbedarf einordnen.
-5. **Anschluss:** Passende weitere Skills desselben Plugins vorschlagen, wenn Spezialprüfung, Schriftsatz, Tabelle, Brief oder Verhandlungsstrategie sinnvoll ist.
+### 3.1. Anspruchsweg
 
-## Output-Standard
-- Kurzbild in fünf Sätzen: Lage, Ziel, Frist, Risiko, nächster Schritt.
-- Prüfmatrix mit Punkt, Norm/Quelle, Tatsachen, Beleg, Bewertung, To-do.
-- Konkreter Textbaustein oder Arbeitsprodukt passend zur Lage: Memo, Mandantenbrief, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Verhandlungsagenda.
-- Keine Scheingenauigkeit: Annahmen, Lücken und Live-Check-Bedarf offen markieren.
+Prüfe CISG nach Artikeln 1 bis 3 und 6 sowie Vertragsstaaten, Vorbehalte und maßgeblichem Zeitpunkt. Eine Wahl deutschen Rechts nicht allein als CISG-Ausschluss behandeln. Forum und Sachrecht bleiben getrennt. Kläre bei Mängeln Untersuchung und hinreichend bestimmte Rüge nach Artikeln 38 und 39 sowie mögliche Ausnahmen. Trenne Nichtlieferung, verspätete und mangelhafte Lieferung.
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+[EuGH, Urteil vom 27.02.2025 – Az. C-537/23, Società Italiana Lastre](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0537), Rn. 57–67: Asymmetrische Gerichtsstandsklauseln nach Artikel 25 Brüssel-Ia-VO sind nicht allein wegen der Ungleichheit unwirksam. Gerichte müssen in EU-/Lugano-Staaten liegen und objektiv hinreichend bestimmbar sein; Schutzregeln und ausschließliche Zuständigkeiten bleiben zwingend. Klauselwortlaut nachfordern, keine weltweite Wahl beliebiger Gerichte freigeben.
 
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Paywall-Literatur nur verwenden, wenn die Nutzerin oder der Nutzer den Text selbst bereitstellt; dann nicht als frei verifizierte Quelle ausgeben.
+### 3.2. Aufhebung und Ersatzgeschäft
 
----
+Prüfe Artikel 25, 26, 47 und 49 CISG: Grund, Reichweite, Erklärung und Zeitpunkt der Aufhebung. Eine erfolglos gesetzte Nachfrist trägt Artikel 49 Absatz 1 Buchstabe b bei Nichtlieferung, nicht unterschiedslos bei jedem Mangel. Bei Teillieferungen Artikel 51, bei Sukzessivlieferungen Artikel 73 gesondert prüfen. Artikel 75 setzt grundsätzlich ein angemessenes Ersatzgeschäft innerhalb angemessener Zeit nach der Aufhebung voraus. Ein früherer Kauf wird nicht automatisch dieser Norm unterstellt; einen möglichen Anspruch nach Artikel 74 mit seinen eigenen Voraussetzungen prüfen. Nicht selbst eine Aufhebung erklären.
 
-## Skill: `uncitral-schriftsatz-brief-und-memo-bausteine`
+### 3.3. Chargenzuordnung und Preisvergleich
 
-_Wenn es um Uncitral: Schriftsatz-, Brief- und Memo-Bausteine in Fachanwalt Internationales Wirtschaftsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+Ordne jede Ersatzposition genau einer ausgefallenen Charge zu. Eine Sammelrechnung in Deckungsmenge und normalen Vorratseinkauf aufteilen; Unterschiede bei Qualität, Menge, Lieferort und Zahlungsbedingungen erläutern. Berechne für zugeordnete Mengen: Ersatzpreis minus ursprünglicher Preis, jeweils auf vergleichbarer Nettobasis. Bereits enthaltene Fracht nicht erneut addieren. Wechselkurs mit Quelle und Bezugsdatum ausweisen; bei unklarer Umrechnung zunächst in Originalwährung rechnen. Übermengen, Retouren, Rabatte und ersparte Kosten separat behandeln.
 
-# Uncitral: Schriftsatz-, Brief- und Memo-Bausteine
+### 3.4. Folgeschaden und Schadensminderung
 
+Prüfe zusätzliche Transport-, Prüf- und Stillstandskosten sowie entgangenen Gewinn nach Artikel 74 CISG auf Kausalität und Vorhersehbarkeit bei Vertragsschluss. Umsatz ist kein entgangener Gewinn. Für gerettete Weiterverkäufe nicht zugleich vollständigen Gewinnausfall fordern. Artikel 77 verlangt eine konkrete Betrachtung tatsächlich verfügbarer zumutbarer Alternativen; der billigste Listenpreis ohne lieferbare Ware beweist keine vermeidbaren Mehrkosten. Gegenangebote, Liefertermin, Menge und Qualität belegen. Einwendungen nach Artikel 79 getrennt behandeln. Tatsachen für einen billigeren zumutbaren Einkauf und die Höhe vermeidbaren Schadens konkret zuordnen.
 
-## Normenanker
+### 3.5. Fortsetzung und Kontrolle
 
-Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+Fehlt die Aufteilung einer Sammelbestellung, frage nach ausgefallener Charge, Deckungsmenge und Vorratsanteil. Bei behauptet günstigerem Einkauf das konkrete Angebot mit Qualität, Menge und Lieferbarkeit klären. Nach Antwort Nachweis prüfen, Schadensrechnung erneuern und die betroffene Forderungs- oder Abwehrbegründung vollständig überarbeiten. Neue entscheidende Lücken kurz nachfragen; Bekanntes nicht wiederholen. Bei einem Hindernis tragfähige Teile liefern und nach Klärung bis zum beauftragten Ergebnis fortsetzen.
 
-- `§ 241 Abs. 2 BGB` — Rücksichtnahme-, Schutz- und Organisationspflichten.
-- `§ 242 BGB` — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit.
-- `§ 280 Abs. 1 BGB` — Pflichtverletzung, Vertretenmuessen, Schaden.
-- `§ 286 Abs. 1 BGB` — Verzug und Fristlogik.
-- `§ 195 BGB` — regelmäßige Verjährung.
-- `§ 199 Abs. 1 BGB` — Beginn der regelmäßigen Verjährung.
-- `§ 253 Abs. 2 ZPO` — Bestimmtheit von Antrag und Klagegrund.
-- `§ 138 Abs. 1 ZPO` — Wahrheitspflicht und vollstaendiger Tatsachenvortrag.
+Rechne belegten Kernbetrag und streitige Zusatzbeträge getrennt nach. Artikel 76 nicht zusätzlich auf bereits nach Artikel 75 abgerechnete Mengen anwenden. Rückzahlung einer Vorausleistung nach Aufhebung separat von der Preisdifferenz führen; offene Kaufpreisforderungen und Aufrechnung nicht stillschweigend saldieren. Zinsen nach Artikel 78 mit gesondert ermitteltem Zinssatz, nicht automatisch deutschem Verzugszins berechnen. Keine Aufrechnung, Rüge, Aufhebung oder Klage eigenmächtig versenden.
 
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+## 4. Quellenpflicht
 
-## Arbeitsweg
+Beachte [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-internationales-wirtschaftsrecht/references/zitierweise.md), soweit vorhanden. Prüfe Normstand, Vertragsstaaten und Gerichtsanker live; keine Literatur aus bloßer Erinnerung.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: FAO § 5 36 Monate Praxis, CISG Art. 39 angemessene Frist Mängelrüge, Brüssel Ia Art. 35 einstweiliger Rechtsschutz, NYÜ Art. V Anerkennung 3 Jahre.
-- Tragende Normen verifizieren: FAO § 14r, Rom I (VO 593/2008), Rom II (VO 864/2007), Brüssel Ia (VO 1215/2012), CISG, UNCITRAL Model Law, INCOTERMS 2020, IPR-G, AWG, AWV, EU-Sanktionsverordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Internationale Vertragsparteien, ICC, UNCITRAL, Schiedsgericht (DIS, ICC, SCC), nationale Gerichte, Zoll, BAFA, BMWK, EuGH.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Internationaler Kaufvertrag, Schiedsklausel, ICC-Schiedsverfahren-Eingabe, Exportlizenz BAFA, Sanktionsprüfung, INCOTERMS-Klausel, Letter of Credit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- [CISG, amtliche deutsche Übersetzung im RIS](https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002854), insbesondere Artikel 25, 26, 49 und 74 bis 79. Österreichische Veröffentlichung des Übereinkommens, keine Wahl österreichischen Sachrechts.
+- [OLG Hamm, Urteil vom 25.03.2019, Az. 2 U 132/18](https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=/nrwe/olgs/hamm/j2019/2_U_132_18_Urteil_20190325.html), Randnummern 114 bis 154: Tatsächliche Ersatzlieferungen zuordnen, Übermengen korrigieren und günstigere zumutbare Beschaffung konkret darlegen lassen. Keine umfassende Suche nach dem billigsten Marktpreis verlangen. Randnummer 126 lässt ausnahmsweise ein Ersatzgeschäft vor Aufhebung zu, wenn das Aufhebungsrecht bereits bestand und endgültige Erfüllungsverweigerung feststand. Diese Ausnahme in Abschnitt 3.2 gesondert prüfen, nicht auf bloße Lieferunsicherheit übertragen. Amtlichen Text am 22.09.2026 erneut gelesen; Preise, Mengen und Zeitspannen sind keine allgemeine Schablone.
 
-**Fokus:** Uncitral: Schriftsatz-, Brief- und Memo-Bausteine.
+## 5. Ausgabeformat
 
-## Spezialwissen: Uncitral: Schriftsatz-, Brief- und Memo-Bausteine
-- **Normen-/Quellenanker:** CISG, II, ICC, UNCITRAL, ICSID, WTO, EU, LkSG.
+Verwende den gewünschten Dateinamen; nur ohne Dateivorgabe gilt `ergebnis.md`. Liefere nachvollziehbaren Chargenabgleich, Preis- und Schadensrechnung sowie Gegenargumente. Einen Forderungs- oder Verteidigungsentwurf nur bei entsprechendem Auftrag vollständig ausformulieren. Tabellen enthalten Mengen, Einheiten, Formeln und Belege; sie ersetzen nicht die Begründung.
 
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+Keine Skelette oder Halbsätze. Dezimale Gliederung, Times New Roman 11 pt im Export, bei Markdown als Exporthinweis. Rechenannahmen offenlegen und nicht als bewiesene Mengen in den Empfängertext übernehmen. Quellenstatus und Recherchegrenzen getrennt notieren.
 
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+## 6. Beispiele
 
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Uncitral** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+Passend: Ein Importeur muss Deckungskäufe aus drei Sammelrechnungen den ausgefallenen Abrufen zuordnen. Ebenfalls passend: Ein Lieferant bestreitet, dass ein teurerer Vorratseinkauf Ersatz seines Ausfalls war. Nicht passend sind ein isolierter Gerichtsstandsvertrag oder eine Warentarifierung.
+
+## 7. Technische Grenzen
+
+Nur zugängliche Unterlagen und Werkzeuge verwenden und fehlende Teile konkret benennen. Bei technischen Hindernissen die unabhängigen Positionen weiterbearbeiten. Ohne Export den vollständigen Text liefern; keine nicht erfolgte Quellenprüfung oder Dateierzeugung behaupten.
 
 ---
 
-## Skill: `einstieg-in-den-skill-verbund-internationales-wirtschaftsrecht`
+## Skill: `eu-kartellrecht-informationsaustausch-c-286-13`
 
-_Wenn es um Einstieg in den Skill-Verbund Internationales Wirtschaftsrecht in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Prüft den Austausch von Preis-, Mengen- und Strategiedaten nach Artikel 101 AEUV, unterscheidet bezweckte und bewirkte Beschränkungen und erstellt eine belastbare Risiko-, Beweis- und Abstellungsstrategie._
 
-# Einstieg in den Skill-Verbund Internationales Wirtschaftsrecht
+# Informationsaustausch nach Artikel 101 AEUV prüfen
 
+## 1. Einsatz und Ziel
 
-## Arbeitsweg
+Prüfe Inhalt, Aktualität, Individualisierbarkeit und Marktbezug der ausgetauschten Informationen. Nicht jeder Kontakt ist ein Kartell, aber ein einziger strategischer Austausch kann genügen, wenn er die Ungewissheit über das Marktverhalten vermindert.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: FAO § 5 36 Monate Praxis, CISG Art. 39 angemessene Frist Mängelrüge, Brüssel Ia Art. 35 einstweiliger Rechtsschutz, NYÜ Art. V Anerkennung 3 Jahre.
-- Tragende Normen verifizieren: FAO § 14r, Rom I (VO 593/2008), Rom II (VO 864/2007), Brüssel Ia (VO 1215/2012), CISG, UNCITRAL Model Law, INCOTERMS 2020, IPR-G, AWG, AWV, EU-Sanktionsverordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Internationale Vertragsparteien, ICC, UNCITRAL, Schiedsgericht (DIS, ICC, SCC), nationale Gerichte, Zoll, BAFA, BMWK, EuGH.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Internationaler Kaufvertrag, Schiedsklausel, ICC-Schiedsverfahren-Eingabe, Exportlizenz BAFA, Sanktionsprüfung, INCOTERMS-Klausel, Letter of Credit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 2. Normenanker
 
-**Fokus:** Einstieg in den Skill-Verbund Internationales Wirtschaftsrecht. FAO § 14i IWR CISG UN-Kaufrecht Bruessel-Ia-VO Rom I und II VO grenzüberschreitende Vertragspraxis Schiedsverfahren ICC UNCITRAL VIAC. Investitionsschutzrecht ICSID Welthandelsrecht WTO. Sanktionen EU-Russland USA-OFAC LkSG. Output: Routing zu passendem Folge-Skill. Abgrenzung zu mandat-triage-iwr (konkrete Falltriage) und sanktions-compliance-prüfung.
+- Artikel 101 Absatz 1 AEUV: Vereinbarung, abgestimmte Verhaltensweise und Beschluss einer Unternehmensvereinigung.
+- Artikel 101 Absatz 3 AEUV: Freistellung nur bei nachgewiesenen Effizienzvorteilen und angemessener Verbraucherbeteiligung.
+- Paragraf 1 GWB und Paragraf 2 GWB: nationale Parallelprüfung.
+- Paragrafen 33a bis 33h GWB: private Durchsetzung und Beweisfragen.
 
-### Fachanwalt für Internationales Wirtschaftsrecht — Orientierung
+## 3. Verifizierter Rechtsprechungsanker
 
-## FAO-Voraussetzungen
+- EuGH, Urteil vom 19.03.2015, C-286/13 P, Dole Food und Dole Fresh Fruit Europe gegen Kommission: Ein Austausch künftiger Preisfaktoren kann eine bezweckte Wettbewerbsbeschränkung sein; nimmt ein Unternehmen an einem wettbewerbswidrigen Kontakt teil und distanziert es sich nicht öffentlich, kann sein späteres Marktverhalten in die Beweiswürdigung einbezogen werden.
 
-- Lehrgang 120 Stunden + drei Klausuren.
-- 60 Fälle in den letzten drei Jahren, davon mindestens 30 mit Auslandsbezug.
+## 4. Prüfprogramm
 
-## Wichtige Normen
+1. Beteiligte Unternehmen, Marktstufen, Kommunikationskanäle und Datenfelder erfassen.
+2. Historische aggregierte Daten von aktuellen individualisierten Zukunftsdaten trennen.
+3. Bezweckung anhand Inhalt, Ziele und wirtschaftlichem Kontext prüfen; erst danach erforderlichenfalls Wirkungen untersuchen.
+4. Selbständiges Marktverhalten, öffentliche Distanzierung und tatsächliche Umsetzung beweisbezogen bewerten.
+5. Kronzeugen-, Kooperations-, Aufbewahrungs- und Abstellungsmaßnahmen mit Verteidigungsrechten abstimmen.
 
-| Bereich | Norm |
-|---|---|
-| UN-Kaufrecht | CISG (BGBl. II 1989 S. 588); aktueller Vertragsstaaten-Stand 12/2024: 97 Staaten — Liste UNCITRAL: https://uncitral.un.org/en/texts/salegoods/conventions/sale_of_goods/status |
-| Gerichtsstand EU | Bruessel Ia VO (EU 1215/2012): https://eur-lex.europa.eu/eli/reg/2012/1215 |
-| Anwendbares Recht Vertrag | Rom I VO (EG 593/2008): https://eur-lex.europa.eu/eli/reg/2008/593 |
-| Anwendbares Recht ausservertraglich | Rom II VO (EG 864/2007): https://eur-lex.europa.eu/eli/reg/2007/864 |
-| Anerkennung Auslandsurteile | HAVUe 2019 (für EU in Kraft seit 01.09.2023; UK seit 01.07.2025): https://www.hcch.net/en/instruments/conventions/full-text/?cid=137 ; Haager Gerichtsstandsuebereinkommen 2005 |
-| Anerkennung Schiedssprueche | New Yorker UN-Uebereinkommen 1958 (über 170 Vertragsstaaten): https://uncitral.un.org/en/texts/arbitration/conventions/foreign_arbitral_awards/status2 |
-| Schiedsverfahren | UNCITRAL Modellgesetz 1985/2006, ICC Rules 2021, LCIA Rules 2020, HKIAC Rules 2024, SIAC Rules 2025 (7th ed.), DIS-SchO 2018, ZPO §§ 1025 ff. (Reform BMJ pendent) |
-| Investitionsschutz | ICSID-Konvention; ICSID Rules 2022 (seit 01.07.2022); BIT-Netzwerk; Achmea (EuGH C-284/16); Komstroy (EuGH C-741/19) intra-EU-Beschraenkung |
-| Welthandel | WTO-Recht (GATT GATS TRIPS DSU); Status Appellate Body weiterhin blockiert; MPIA als Alternative |
-| EU-Aussenhandel | EU-Zollkodex (VO 952/2013); EU-Sanktionsverordnungen (VO 833/2014 zuletzt 16. Paket VO 2025/395 v. 24.02.2025 und 17. Paket 20.05.2025; VO 269/2014); Dual-Use-VO (EU) 2021/821; Anti-Coercion-Instrument VO (EU) 2023/2675 (anwendbar seit 27.12.2023) |
-| Lieferketten | LkSG (BGBl. I 2021, 2959; in Kraft 01.01.2023; aktueller Stand prüfen: BMWE/BAFA Vereinfachungs- und Änderungsgesetz 09/2025, Berichtspflicht-Aussetzung BAFA-Hinweis vom 01.10.2025, Änderungsgesetz voraussichtlich Anfang 2026) und EU CSDDD (Richtlinie (EU) 2024/1760; in Kraft 25.07.2024; Anwendung gestaffelt; nach Omnibus I-Anpassung Umsetzungsfrist 26.07.2028, Anwendung ab 26.07.2029): https://eur-lex.europa.eu/eli/dir/2024/1760 |
-| Wirtschaftliche Zwangsmassnahmen | Anti-Coercion Instrument (VO (EU) 2023/2675; in Kraft 27.12.2023): https://eur-lex.europa.eu/eli/reg/2023/2675 |
-| Internationale Vollstreckung | EuVTVO (VO (EG) 805/2004), EUKoVO (VO (EG) 1896/2006), Bruessel Ia: https://eur-lex.europa.eu/eli/reg/2012/1215 |
+## 5. Arbeitsergebnis
 
-## Typische Mandate
-
-- Internationale Vertragsgestaltung (Lieferung Kauf Dienstleistung)
-- Schiedsverfahren (ICC Wien Genf London)
-- Anerkennung und Vollstreckung ausländischer Urteile
-- Investitionsschutz-Schiedsverfahren ICSID
-- EU-Sanktionen Compliance Russland Iran etc.
-- Außenwirtschaftsrecht Genehmigungen Exportkontrolle
-- LkSG-Compliance Lieferantenkette Risikoanalyse
-
-## Fristen
-
-- **CISG-Mängelruege** unverzueglich Art. 39 CISG (binnen angemessener Frist).
-- **Schiedsklage** vertraglich vereinbarte Frist; Verjährung des Hauptanspruchs (oft drei Jahre nach Rom I anwendbarem Recht).
-- **Anerkennung Auslandsurteile** Brüssel Ia VO keine Frist.
-- **EU-Sanktion** sofortige Geltung.
-
-## Hauptforen
-
-- Landgericht und OLG bei Wirtschaftssachen mit Auslandsbezug.
-- BGH ggf. mit Vorlage an EuGH.
-- ICC International Chamber of Commerce.
-- ICSID Washington.
-- WTO Dispute Settlement Body.
-
-## Berufsverband
-
-- ARGE Internationales Wirtschaftsrecht DAV.
-- ICC Germany.
-- DIS Deutsche Institution für Schiedsgerichtsbarkeit.
-
-## Schnittstellen
-
-- **gesellschaftsrecht** bei grenzüberschreitenden M&A.
-- **regulatorisches-recht** bei BaFin-Aufsicht Außenhandel.
-- **fachanwalt-vergaberecht** bei grenzüberschreitender Vergabe.
-- **kanzlei-allgemein** Fristen Versand.
-
-## Vertiefung: Rechtsprechung und Normen IWR
-
-### Schlüssel-Leitsaetze Internationales Wirtschaftsrecht
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Normen-Überblick IWR
-| Materie | Zentralnorm |
-|---|---|
-| Intl. Zuständigkeit (EU) | Bruessel Ia VO Art. 4, 7, 25 |
-| Anwendb. Recht Vertrag (EU) | Rom I VO Art. 3, 4 |
-| Anwendb. Recht Delikt (EU) | Rom II VO Art. 4, 14 |
-| UN-Kaufrecht | CISG Art. 1, 6, 39 |
-| Schiedsrecht DE | §§ 1025-1066 ZPO |
-| Intl. Schiedsrecht | NY Convention 1958 |
-| Investitionsschutz | ICSID-Konvention; BIT-Netzwerk |
-| EU-Sanktionen | VO (EG) 765/2006 + Russland-Pakete |
-
-### Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-### Fristen IWR Überblick
-| Frist | Norm |
-|---|---|
-| CISG Maengelruege | Art. 39 CISG: unverzueglich; spaetestens 2 Jahre Art. 39 Abs. 2 |
-| Verjaebrung (BGB) | §§ 195, 199 BGB: 3 Jahre |
-| Schiedsklage-Einleitung | Vertraglich vereinbart oder Verjaebrung Hauptanspruch |
-| Vollstreckungsantrag NY Convention | Kein Zeitlimit; aber Einrede möglich |
+Erstelle Kommunikationsmatrix, Risikoeinstufung je Datenkategorie, Beweisplan und einen sofort umsetzbaren Abstellungs- und Untersuchungsplan.
 
 ---
 
-## Skill: `aussenhandel-zahlen-schwellen-und-berechnung`
+## Skill: `schriftsatzkern-substantiierung`
 
-_Wenn es um Aussenhandel: Zahlen, Schwellenwerte und Berechnung in Fachanwalt Internationales Wirtschaftsrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
+_Für Schriftsatzkern Substantiierung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht._
 
-# Aussenhandel: Zahlen, Schwellenwerte und Berechnung
+# Substantiierter Schriftsatzkern für Klage mit CISG-/EuGVVO-Bezug, Schiedsklage, Vollstreckung Auslandsurteil: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge, Replik-/Duplik-Vorausschau.
 
 
 ## Direktstart: lesen, entscheiden, liefern
@@ -913,8 +770,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
@@ -923,214 +778,298 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Internationale Vertragsparteien, ICC, UNCITRAL, Schiedsgericht (DIS, ICC, SCC), nationale Gerichte, Zoll, BAFA, BMWK, EuGH.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Internationaler Kaufvertrag, Schiedsklausel, ICC-Schiedsverfahren-Eingabe, Exportlizenz BAFA, Sanktionsprüfung, INCOTERMS-Klausel, Letter of Credit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** Aussenhandel: Zahlen, Schwellenwerte und Berechnung.
+**Fokus:** Substantiierter Schriftsatzkern für Klage mit CISG-/EuGVVO-Bezug, Schiedsklage, Vollstreckung Auslandsurteil: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge, Replik-/Duplik-Vorausschau.
 
-## Spezialwissen: Aussenhandel: Zahlen, Schwellenwerte und Berechnung
-- **Normen-/Quellenanker:** CISG, II, ICC, UNCITRAL, ICSID, WTO, EU, LkSG.
+### Schriftsatzkern und Substantiierung im Internationales Wirtschafts- und Schiedsrecht
 
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+## Wann dieser Arbeitsgang greift
 
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+- Es soll ein vollwertiger Schriftsatz im Bereich Internationales Wirtschafts- und Schiedsrecht erstellt werden, typischerweise: Klage mit CISG-/EuGVVO-Bezug, Schiedsklage, Vollstreckung Auslandsurteil.
+- Die Mandatsannahme und ggf. Vergleichsverhandlung sind abgeschlossen oder gescheitert.
+- Klage-, Widerspruchs-, Einspruchs-, Rechtsmittel-Frist ist bekannt und im Kalender eingetragen.
 
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Aussenhandel** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+## Aufbauschema
 
----
+### A. Rubrum
 
-## Skill: `fachanwalt-iwr-brussels-ia-zustaendigkeit`
+- Parteien (Bezeichnung wie im Vorprozess oder Bescheid, exakte Schreibweise!).
+- Zustellungsanschrift Bevollmaechtigte.
+- Gericht/Behörde (Zuständigkeit prüfen und im Schriftsatz darstellen, wenn streitig).
+- Aktenzeichen (Bezugs-Az., neues Az. nach Eingang).
+- Streitwert/Gegenstandswert.
 
-_Wenn es um Brüssel-Ia-VO Internationale Zuständigkeit in Fachanwalt Internationales Wirtschaftsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+### B. Antraege
 
-# Brüssel-Ia-VO Internationale Zuständigkeit
+Klassischer Antrag-Block; je nach Verfahrenstyp:
 
-## Zweck
+- Leistungsantrag (zu zahlen, zu unterlassen, zu beseitigen, herauszugeben).
+- Feststellungsantrag (Feststellungsinteresse darlegen).
+- Gestaltungsantrag (Aufhebung, Anfechtung, Scheidung).
+- Hilfsantraege staffeln (von eng nach weit oder von hoch nach niedrig).
 
-Prüfung, welches EU-Gericht international zustaendig ist (VO (EU) 1215/2012, Brüssel-Ia).
+### C. Tatsachenvortrag
 
-## 1) Eingangs-Abfrage
+Der Substantiierungs-Kern; pro Anspruchsgrundlage in CISG, Rom-I-VO, Rom-II-VO, EuGVVO, NYC58, ICC-/DIS-Schiedsordnung eine eigene Tatsachen-Sequenz:
 
-1. Sitz Kläger und Beklagter?
-2. Streitgegenstand (Vertrag, Delikt, Verbraucher, Arbeitnehmer, Sachenrecht)?
-3. Erfüllungsort der Hauptleistung?
-4. Gerichtsstands-Vereinbarung vorhanden?
-5. Eilbedürftigkeit?
+1. **Sachverhalts-Chronologie** mit konkreten Daten (Tag, Uhrzeit, Ort, Personen).
+2. **Mandantenseitige Tatsachenbehauptungen** mit Beweisangeboten.
+3. **Gegnerisches Verhalten** mit Belegen (Schreiben, Aussage, Verhalten).
+4. **Schaden/Folgen** bezifferbar (Hauptforderung, Nebenforderung, Zinsen, Folgekosten).
 
-## 2) Allgemeiner Gerichtsstand Art. 4 VO
+### D. Rechtliche Wuerdigung
 
-- **Beklagter-Wohnsitz / Sitz** in EU-Mitgliedstaat
-- Bei juristischer Person: Satzungssitz, Hauptverwaltung, Hauptniederlassung (Art. 63)
-- Standard für alle Streitigkeiten
+Anspruchsaufbau klassisch:
 
-## 3) Besonderer Gerichtsstand Art. 7
+1. **Anspruchsgrundlage** nennen (z.B. § X iVm § Y).
+2. **Tatbestandsmerkmale** durchgehen; jedes Merkmal wird gegen den Tatsachenvortrag gespiegelt.
+3. **Einwendungen** der Gegenseite vorwegnehmen und entkraeften.
+4. **Rechtsprechungs-Verweise:** BAG/BGH/BVerfG/EuGH/BFH je nach Fachgebiet; bei Internationales Wirtschafts- und Schiedsrecht typischerweise die letzte hoechstrichterliche Linie zitieren.
+5. **Subsumtion-Ergebnis** klar formulieren.
 
-### Vertragsrecht Art. 7 Nr. 1
+### E. Beweisangebote
 
-- **Erfüllungsort der vertraglichen Leistung**
-- **Lit. b**: Bei Warenkauf — Lieferort
-- **Lit. b**: Bei Dienstleistungs-Vertrag — Erbringungsort
-- Bei anderen Verträgen: charakteristische Leistung
+Pflichtbestandteil, ohne den Substantiierung nicht ausreicht:
 
-### Deliktsrecht Art. 7 Nr. 2
+- Urkundenbeweis: konkrete Anlage Kxx benennen, Inhalt nicht nur "Vertrag" sondern "Vertrag vom TT.MM.JJJJ, dort § X Abs. Y, Anlage K1".
+- Zeugenbeweis: Name, ladungsfaehige Anschrift, Beweisthema in einem Satz.
+- Sachverstaendigenbeweis: ggf. Privatgutachten mit anfuegen, gerichtliches Gutachten beantragen.
+- Parteivernehmung als letzte Stufe, mit Antrag § 448 ZPO und Indiziengeruest.
+- Inaugenscheinnahme: bei Sache vor Ort (Mietraum, Baustelle, Fahrzeug, Hardware).
 
-- **Tatort** der unerlaubten Handlung
-- Erfolgsort UND Handlungsort
-- BGH-Linie und EuGH-Linie
+### F. Anlagenverzeichnis
 
-### Niederlassungs-Streitigkeit Art. 7 Nr. 5
+- K1, K2 ... durchnummeriert (Antragstellerin/Klägerin).
+- Bei Beklagten B1, B2 ...
+- Jede Anlage mit Datum, Absender, Empfaenger, Inhaltsbeschreibung in einem Satz.
+- Pflicht-Erwaehnung im Tatsachenvortrag.
 
-- Streitigkeit aus Betrieb einer Zweigniederlassung
-- Sitz der Niederlassung
+## Substantiierungs-Fallen im Internationales Wirtschafts- und Schiedsrecht
 
-## 4) Verbraucherschutz Art. 17-19
+- **Pauschaltatsachen** ohne konkrete Daten ("seit Jahren", "regelmaessig", "in mehreren Faellen") werden vom Gericht uebergangen.
+- **Beweisangebot zur falschen Tatsache:** Beweisthema deckt nur Teilaussage ab.
+- **Selbst-widersprueche** zwischen Schriftsatz und Anlage ("Im Vertrag steht doch was anderes").
+- **Verspaeteter Vortrag** § 296 ZPO/§ 87b VwGO: Rueglich-Fristen beachten, Verschulden vermeiden.
+- **Anspruchskonkurrenz** zwischen mehreren Grundlagen: nicht eine wegfallen lassen.
 
-### Verbraucher
+## Prüfkette vor Versand
 
-- Vertrag für privaten Zweck
-- Beruflicher Empfänger ausgeschlossen
+1. Antragsformulierung tenoriert (urteilstauglich, vollstreckbar)?
+2. Jede Tatbestandsmerkmal-Subsumtion mit eigener Tatsache + Beweis hinterlegt?
+3. Frist eingehalten (Eingangsstempel/elektronische Uebermittlung)?
+4. Zuständigkeit positiv festgestellt?
+5. Streitwert plausibel, ggf. mit Anlage Streitwert-Berechnung?
+6. Anlagenverzeichnis vollstaendig und nummerisch konsistent?
+7. beA-/EGVP-/EBO-Konformitaet (PDF/A, ERVV-Signatur)?
+8. Vier-Augen-Prüfung durch Sozius oder Senior-Anwaeltin?
 
-### Klagestand Verbraucher
+## Rechtsprechungs-Werkzeugkasten
 
-- Art. 18 I: Verbraucher kann am **eigenen Wohnsitz** klagen
-- Verbraucher-Klage gegen Unternehmer am eigenen Wohnsitz
+- BVerfG, BGH, BAG, BFH, BVerwG, EuGH und die jeweils massgeblichen Fachsenate für Internationales Wirtschafts- und Schiedsrecht.
+- CISG, Rom-I-VO, Rom-II-VO, EuGVVO, NYC58, ICC-/DIS-Schiedsordnung sowie Verordnungen/Richtlinien dazu.
+- Aktuelle Reform- und Gesetzgebungslage einbeziehen.
 
-### Klage gegen Verbraucher
+## Pflicht-Output
 
-- Art. 18 II: Nur am Wohnsitz des Verbrauchers
+1. **Schriftsatz** mit Rubrum, Antraegen, Tatsachenvortrag, Rechtsausfuehrung, Beweisangeboten, Anlagenverzeichnis.
+2. **Anlagen-Konvolut** numerisch geordnet, jede Anlage einzeln benannt.
+3. **Frist-Doku** mit Eingangsbestaetigung (beA-Eingangsnachricht, EB).
+4. **Streitwertskizze** (eigenes Memo, falls > 1 Anspruch).
+5. **Mandanten-Erinnerung** mit Naechster-Schritt-Aufgaben (Zeuginnen vorbereiten, Sachverstaendiger?).
 
-### "Targeting Test" Art. 17 I c)
+## Beispiel-Anspruchsgrundlagen im Internationales Wirtschafts- und Schiedsrecht
 
-- Unternehmer richtet Aktivitäten gezielt auf Mitgliedstaat des Verbrauchers
-- Website in Sprache, Waehrung, Versand-Adresse
+Drei haeufig gebrauchte Anspruchsgrundlagen aus CISG, Rom-I-VO, Rom-II-VO, EuGVVO, NYC58, ICC-/DIS-Schiedsordnung und ihre Substantiierungs-Anforderungen:
 
-## 5) Arbeitnehmerschutz Art. 20-23
+### Grundlage 1
 
-- AN kann an Sitz des AG oder gewoehnlichem Arbeitsort klagen
-- AG kann nur am Wohnsitz des AN klagen
-- Gerichtsstands-Klausel nur nachtraeglich wirksam
+- Tatbestandsmerkmal 1: konkrete Tatsache + Beweis.
+- Tatbestandsmerkmal 2: konkrete Tatsache + Beweis.
+- Tatbestandsmerkmal 3: konkrete Tatsache + Beweis.
+- Rechtsfolge: konkreter Antrag.
 
-## 6) Gerichtsstands-Vereinbarung Art. 25
+### Grundlage 2
 
-### Voraussetzungen
+Analog - jede Tatsache braucht ein Beweisangebot.
 
-- **Schriftform** oder elektronisch (mit Bestätigung)
-- **Beide Parteien zustimmen**
-- Geltend für kuenftige Streitigkeiten
+### Grundlage 3 (Auffanggrundlage / Sekundaeranspruch)
 
-### Asymmetrische Klauseln
+Hilfsweise vortragen, klar als Hilfsantrag/Hilfsvortrag kennzeichnen.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- "A klagt nur in DE, B kann in DE oder am Sitz von A klagen"
+## Antrags-Muster nach Verfahrenstyp
 
-## 7) Ausschließliche Zuständigkeit Art. 24
+Typische Antraege in Internationales Wirtschafts- und Schiedsrecht (Klage mit CISG-/EuGVVO-Bezug, Schiedsklage, Vollstreckung Auslandsurteil):
 
-### Sachenrecht Immobilien
+- Hauptantrag (Leistung/Feststellung/Gestaltung).
+- Hilfsantrag (z.B. für den Fall, dass Hauptforderung verjaehrt ist).
+- Annex-Antraege (Zinsen, Nebenforderungen, Kosten).
+- Streitwert-Antrag (falls Streitwert streitig).
 
-- Lage der Sache
+## Beweisaufnahme - was das Gericht sehen will
 
-### Gesellschafts-Beschlüsse
+### Urkundenbeweis
 
-- Sitz der Gesellschaft
+- Anlage K1: Bezeichnung, Datum, kurze Inhaltsbeschreibung.
+- Im Tatsachenvortrag: "Diese Behauptung beruht auf dem als Anlage K1 vorgelegten Schreiben der Beklagten vom TT.MM.JJJJ, dort Seite Y, Absatz Z."
 
-### Eintragungen Register
+### Zeugenbeweis
 
-- Sitz Register-Gericht
+- Form: "Beweis: Aussage der Zeugin Name, ladungsfaehige Anschrift, zum Beweisthema (konkret in einem Satz)."
+- Mehrere Zeuginnen zum gleichen Thema: Indiziengeruest staerken.
+- Keine Beweisermittlung über Zeugnis - das Beweisthema muss konkret sein.
 
-## 8) Workflow
+### Sachverstaendigenbeweis
 
-### Schritt 1 — Sachverhaltsanalyse
+- Bei Internationales Wirtschafts- und Schiedsrecht-typischen Streitfaellen oft notwendig (Bauwerk, IT-System, Anlagebewertung, medizinische Frage).
+- Privatgutachten als Anlage K vorlegen + zugleich gerichtliches Gutachten beantragen.
+- Verfahrensoekonomie: Sachverstaendigen-Kosten frueh mit Mandantin besprechen.
 
-- Vertraglich, deliktisch, sachenrechtlich?
-- Sitze beider Parteien
-- Erfüllungsort
+### Parteivernehmung (§ 448 ZPO)
 
-### Schritt 2 — Gerichtsstands-Prüfung
+- Letzte Stufe, nur wenn andere Beweismittel ausgeschoepft.
+- Indiziengeruest vortragen, das eine gewisse Wahrscheinlichkeit der Behauptung tragt.
 
-- Allgemein Art. 4 (Beklagter-Sitz)
-- Besonderer Stand Art. 7
-- Bei Verbraucher: Art. 17-19
-- Vereinbarung Art. 25 vorrangig
+## Replik-/Duplik-Vorausschau
 
-### Schritt 3 — Klage-Strategie
+Schon im Klageschriftsatz die wahrscheinlichen Einwaende der Gegenseite vorwegnehmen:
 
-- Gerichts-Wahl (Forum-Shopping bei mehreren Gerichtsstaenden)
-- Sprache des Verfahrens
-- Vollstreckungs-Erleichterung im Empfängerstaat
+- Verjährung -> Hemmungstatbestand vortragen.
+- Erfuellung/Aufrechnung -> rechtzeitige Tatsachenbasis schaffen.
+- Formmangel -> Heilung/Schutz-Argument bereit halten.
+- Treuwidrigkeit -> Indiziengeruest gegen Treuwidrigkeits-Vorwurf.
 
-## 9) Anerkennung / Vollstreckung
+## Elektronische Einreichung (beA, EGVP, EBO, ELSTER)
 
-- Art. 36: Urteil eines MS wird in anderem MS **ohne Anerkennungsverfahren** anerkannt
-- Art. 39: Vollstreckung ohne Vollstreckungserklärung
-- Versagungs-Gründe Art. 45 / 46 begrenzt
+- PDF/A-2 oder PDF/A-3, mit eingebetteten Schriften.
+- Strukturdatensatz nach ERVV pflicht-konform (Sender, Empfaenger, Az., Versanddatum).
+- Qualifizierte elektronische Signatur (qeS) der einreichenden RA-Person oder einfacher elektronischer Versand über beA (sicherer Uebermittlungsweg).
+- Eingangsbestaetigung aufbewahren - Datum der Einreichung ist Fristwahrungs-Beweis.
+- 1.10.2026 / 1.10.2027 - ZVollstrDigitG-Änderungen im Vollstreckungsbereich; in Internationales Wirtschafts- und Schiedsrecht ggf. spezifische ERV-Pflichten beachten.
 
-## 10) Drittstaaten
+## Schriftsatz-Stil
 
-- Nicht Bruessel-Ia (VO (EU) Nr. 1215/2012: https://eur-lex.europa.eu/eli/reg/2012/1215)
-- Nationales IZPR (§§ 12 ff. ZPO bei DE): https://www.gesetze-im-internet.de/zpo/__12.html
-- **Haager Uebereinkommen ueber Gerichtsstandsvereinbarungen 2005** (HGUe; EU-Vertragsstaat seit 01.10.2015): https://www.hcch.net/en/instruments/conventions/full-text/?cid=98
-- **HAVUe 2019** (Haager Uebereinkommen ueber die Anerkennung und Vollstreckung auslaendischer Urteile in Zivil- und Handelssachen; EU-Beitritt 29.08.2022; in Kraft fuer EU + Ukraine seit 01.09.2023; Daenemark nicht gebunden gem. Art. 27 HAVUe): https://www.hcch.net/en/instruments/conventions/full-text/?cid=137
-- Brexit-Folge: UK seit 01.01.2021 nicht mehr Bruessel-Ia-Vertragsstaat; UK hat HAVUe am 12.01.2024 unterzeichnet und am 27.06.2024 ratifiziert; in Kraft fuer UK seit 01.07.2025: https://www.hcch.net/en/news-archive/details/?varevent=1085
+- Aktiv, kurze Saetze, klare Subsumtion.
+- Keine Floskeln ("Die Klage ist zulässig und begruendet" als Ueberschrift, aber dann substantiieren).
+- Mandanten- und Beweismittel-Zitate woertlich, in Anfuehrungszeichen, mit Anlage-Verweis.
+- Keine Gefuehlsausbrueche - sachlich auch bei provokanter Gegenseite.
 
-## 11) Typische Fehler
+## Vier-Augen-Check
 
-1. **Verbraucher-Eigenschaft übersehen** -> falsche Zuständigkeit
-2. **Erfüllungsort falsch bestimmt** bei Wahllieferung
-3. **Targeting-Test ignoriert** bei Online-Verkauf
-4. **Gerichtsstands-Klausel ohne Schriftform** -> unwirksam
-5. **Asymmetrische Klausel ungenau gestaltet** -> Streit
+Vor Versand:
 
-## 12) EuGH-/BGH-Linien
+- [ ] Antrag tenorierungsfaehig
+- [ ] Frist gewahrt mit Reserve
+- [ ] Jede Tatsache hat Beweis
+- [ ] Anlagen vollstaendig und nummeriert
+- [ ] Rechtsprechungs-Zitat aktuell
+- [ ] Streitwert plausibel
+- [ ] beA/EGVP-konform
+- [ ] Senior-/Sozius-Freigabe
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## Cross-Refs
 
-## Anschluss
+- `erstgespraech-mandatsannahme` (im selben Plugin) für die Tatsachen-Grundlage und Streitwertskizze.
+- `vergleichsverhandlung-strategie` (im selben Plugin) für parallelen Vergleichsversuch (Gueteverhandlung, Mediation).
 
-- `fachanwalt-iwr-cisg-anwendbarkeit` — bei materiellem Warenkauf
-- `fachanwalt-iwr-embargo-pruefung-russland` — bei Sanktions-Prüfung
-- `internationales-privatrecht` — bei IPR-Themen
+## Vertiefung: Rechtsprechung und Normen (Internationales Wirtschaftsrecht)
 
-## Vertiefung: Triage und Output-Template Bruessel Ia
+### Leitsaetze zur Substantiierung im grenzueberschreitenden Prozess
 
-### Triage — Bevor losgelegt wird, klaere:
 
-1. Haben beide Parteien Wohnsitz/Sitz in EU-Mitgliedstaaten? → Art. 4 Bruessel Ia (Beklagter-Domizil)
-2. Liegt Gerichtsstandsvereinbarung Art. 25 Bruessel Ia vor? → Ausschliessliche Zustaendigkeit
-3. Liegt Verbraucher- oder Arbeitnehmervertrag vor? → Art. 17-22 Bruessel Ia schutzspeziell
-4. Schiedsklausel statt Gerichtsstandsklausel? → Art. 1 Abs. 2 lit. d Bruessel Ia: nicht erfasst
-5. Ist eine auslaendische Entscheidung anzuerkennen? → Art. 36 ff. Bruessel Ia
+### Normen-Kette Schriftsatzsubstantiierung IWR
 
-### Ergaenzende Leitsaetze Bruessel Ia
+- **Art. 23, 53, 35, 74 CISG** — Vertragsschluss, Kaufpreispflicht, Mangel, Schaden
+- **Art. 7 Nr. 1 lit. b EuGVVO (VO 1215/2012)** — besonderer Gerichtsstand am Erfulllungsort
+- **Art. 4, 6 Rom-I-VO (VO 593/2008)** — anwendbares Vertragsrecht; Regelanknupfung und Rechtswahl
+- **§§ 1025–1066 ZPO** — Schiedsverfahrensrecht; §§ 1060–1061 ZPO Vollstreckbarerklarung
+- **§ 328 ZPO** — Anerkennungshindernisse ausländischer Urteile; Art. 45 EuGVVO — Versagungsgruende EU
+- **§ 296 ZPO** — Zurueckweisung verspateten Vortrags; § 139 ZPO — richterliche Hinweispflicht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+### Quellenregel
 
-### Output-Template Gerichtsstand-Memo Bruessel Ia
-**Adressat:** Mandant — Tonfall: klar erklaerend, ergebnisorientiert
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+## Triage vor Schriftsatzerstellung
+
+Bevor losgelegt wird, klaere:
+1. Welches Gericht ist zustandig — nationaler oder internationaler Gerichtsstand (EuGVVO, Schiedsklausel)?
+2. Welches materielle Recht gilt — CISG, ROM-I-Rechtswahl, nationale Kollisionsnormen?
+3. Liegt ein vollstreckbarer Titel aus dem Ausland vor — Prüfung § 328 ZPO bzw. Art. 45 EuGVVO?
+4. Ist die Klagefrist gewahrt — Verjährung nach CISG Art. 39 (2 Jahre ab Mangel), § 195 BGB, Sonderfristen?
+5. Welche Beweismittel sind verfugbar — Urkunden, Zeugen im Ausland (Hager Beweisaufnahmeubereinkommen)?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Strategische Optionen (vor dem Template entscheiden)
+
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+
+| Konstellation | Empfohlener Weg |
+|---|---|
+| Standard — Schriftsatz internationales Verfahren verfassen | Schriftsatz-Vorlage; Template unten |
+| Variante A — Zweisprachiges Verfahren | Englischsprachige Version parallel vorbereiten |
+| Variante B — Schiedsverfahren statt Gericht | Statement of Claim nach ICC/UNCITRAL Rules; anderes Skill |
+| Variante C — Eilverfahren noetig | Verkuerztes Template; Eilantrag an zuständiges Gericht |
+
+Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+
+## Output-Template: Klageschrift IWR-Kurzrubrum
+
+**Adressat:** Landgericht [ORT] — Internationale Handelskammer / Schiedsgericht
+**Tonfall:** Sachlich-juristisch, praezise Subsumtion
 
 ```
-GERICHTSSTAND-MEMO (Bruessel Ia)
-Parteien: [KLAEGER, SITZ] ./. [BEKLAGTER, SITZ]
-Streitgegenstand: [VERTRAG / DELIKT]
+An das Landgericht [ORT]
+[Anschrift]
+— Handelskammer —
 
-1. Beklagter hat Sitz in EU: JA → Art. 4 Bruessel Ia gilt
-2. Gerichtsstandsvereinbarung (Art. 25): [JA: [GERICHT] / NEIN]
-3. Besonderer Gerichtsstand (Art. 7):
-   Vertrag Art. 7 Nr. 1: Erfuellungsort = [LAND/GERICHT]
-   Delikt Art. 7 Nr. 2: Schadensort = [LAND/GERICHT]
-4. Verbraucher (Art. 17-19): [JA → Wohnsitz Verbraucher / NEIN]
-5. Empfohlenes Gericht: [GERICHT, ORT, ZUSTAENDIGKEIT]
+Klage
+
+[KLAGER], [ANSCHRIFT], [LAND]
+— Klager —
+Prozessbevollmachtigte: [KANZLEI, ADRESSE]
+
+gegen
+
+[BEKLAGTE], [ANSCHRIFT], [LAND]
+— Beklagte —
+
+wegen: Kaufpreiszahlung / Schadensersatz (CISG)
+Streitwert: EUR [BETRAG]
+
+I. KLAGEANTRAG
+Die Beklagte wird verurteilt, an den Klager EUR [BETRAG] nebst Zinsen
+in Hohe von [X] % seit [DATUM] zu zahlen.
+
+II. ZUSTANDIGKEIT
+Das LG [ORT] ist international und ortlich zustandig nach Art. 7 Nr. 1
+lit. b EuGVVO: Erfulllungsort des Kaufvertrages war [ORT/STAAT].
+
+III. ANWENDBARES RECHT
+Das UN-Kaufrecht (CISG) findet Anwendung; beide Parteien haben
+Niederlassungen in CISG-Vertragsstaaten (Art. 1 Abs. 1 lit. a CISG).
+Eine Abwahl nach Art. 6 CISG ist nicht erfolgt.
+
+IV. SACHVERHALT
+Am [DATUM] schlossen die Parteien einen Kaufvertrag ueber [WARE]
+zum Preis von EUR [BETRAG] (Anlage K1: Kaufvertrag).
+[...]
+
+V. RECHTLICHE WUERDIGUNG
+[Subsumtion CISG Art. 53, 74; ggf. EuGVVO Erfulllungsort]
+
+VI. BEWEISANGEBOTE
+- Anlage K1: Kaufvertrag vom [DATUM]
+- Anlage K2: Liefernachweis / Handelsrechnung
+- Zeuge: [NAME], [ADRESSE], zum Beweisthema: [...]
+
+[KANZLEI], [ORT], [DATUM]
+[RECHTSANWAELTIN/RECHTSANWALT]
 ```
 
-<!-- AUDIT 27.05.2026
-Alle übrigen Zitate in diesem Skill wurden nicht beanstandet.
--->
+--- vor Versand klären ---
+1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
+2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
+3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -1140,11 +1079,13 @@ Alle übrigen Zitate in diesem Skill wurden nicht beanstandet.
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

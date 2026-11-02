@@ -1,18 +1,25 @@
 # Familienrecht — Sorge, Umgang und Gewaltschutz in Essen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 16 KB) | PDF | [`gesamt-pdf/familienrecht-sorge-umgang-gewaltschutz-essen_gesamt.pdf`](gesamt-pdf/familienrecht-sorge-umgang-gewaltschutz-essen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-familienrecht-sorge-umgang-gewaltschutz-essen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-familienrecht-sorge-umgang-gewaltschutz-essen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-familienrecht-sorge-umgang-gewaltschutz-essen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-familienrecht-sorge-umgang-gewaltschutz-essen-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/familienrecht-sorge-umgang-gewaltschutz-essen_gesamt.pdf`](gesamt-pdf/familienrecht-sorge-umgang-gewaltschutz-essen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-familienrecht-sorge-umgang-gewaltschutz-essen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-familienrecht-sorge-umgang-gewaltschutz-essen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-familienrecht-sorge-umgang-gewaltschutz-essen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-familienrecht-sorge-umgang-gewaltschutz-essen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -37,17 +44,22 @@ Eilsache nach Trennung der Eheleute Derya und Cem Aydin in Essen. Es gibt einen 
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_erstgespraech.docx` | 01 mandatsnotiz erstgespräch.docx |
-| `02_chronologie_arbeitsstand.docx` | 02 chronologie arbeitsstand.docx |
-| `03_sachverhalt_aus_mandantensicht.docx` | 03 sachverhalt aus mandantensicht.docx |
-| `04_gegenseite_standpunkt.docx` | 04 gegenseite standpunkt.docx |
-| `05_schulsozialarbeit_notiz.docx` | 05 schulsozialarbeit notiz.docx |
-| `06_polizei_einsatzvermerk_auszug.docx` | 06 polizei einsatzvermerk auszug.docx |
-| `09_entwurf_naechstes_schreiben.docx` | 09 entwurf nächstes schreiben.docx |
-| `csv/fristen_eilsache.csv` | csv/fristen eilsache.csv |
-| `emails/2026-07-03_schule_abholfrage.eml` | emails/2026 07 03 schule abholfrage.eml |
-| `pdfs/fotoblatt_tuer_und_flur.pdf` | pdfs/fotoblatt tür und flur.pdf |
-| `xlsx/umgangskalender_und_risiken.xlsx` | xlsx/umgangskalender und risiken.xlsx |
+| `02_chronologie_arbeitsstand.docx` | Zeitachse mit Uhrzeiten, Quellen, Widersprüchen und getrennter Fristspur für Gewaltschutz, Wohnung und Umgang |
+| `03_sachverhalt_aus_mandantensicht.docx` | Unterzeichnete, differenzierte Erklärung Derya Aydins zum Ereignis, früheren Konflikten, Kindern und gewünschtem Umgang |
+| `04_gegenseite_standpunkt.docx` | Anwaltsschreiben Cem Aydins mit abweichender Ereignisschilderung, Wohnungsabholung und stufenweisem Umgangsvorschlag |
+| `05_schulsozialarbeit_notiz.docx` | Schulvermerk mit unmittelbaren Äußerungen Leilas, Beobachtungen der Klassenleitung und ungeklärter Abholbefugnis |
+| `06_polizei_einsatzvermerk_auszug.docx` | Vollständiger Einsatzbericht zu Lage, Aussagen, objektiven Spuren, Zeugin, Rötung, Wegweisung und Strafanzeige |
+| `07_notruf_und_einsatzdisposition.docx` | Zeitgestempeltes Leitstellenprotokoll mit Notrufangaben, Hintergrundwahrnehmungen und Dispositionsverlauf |
+| `08_aerztlicher_befundbericht.docx` | Befundbericht mit klarer Trennung von Anamnese, objektivem Befund, Behandlung und begrenzter Aussagekraft |
+| `09_entwurf_naechstes_schreiben.docx` | Konkreter Eilantragsentwurf zu Schutzanordnung, Wohnung, Umgang, Anhörung, Aufklärung und Glaubhaftmachung |
+| `10a_jugendamt_hausbesuchsvermerk_2026-06-26.docx` | Eigenständiger Jugendamtsvermerk zu Hausbesuch, Wohnlage, Einzelgesprächen mit den Kindern und unmittelbaren Beobachtungen |
+| `10b_jugendamt_vorlaeufiger_hilfeplan_2026-06-27.docx` | Davon getrennter vorläufiger Hilfeplan mit Zielen, Zuständigkeiten, Übergaberegeln und Folgeterminen |
+| `11_elternchat_auszug_2026-06.txt` | Export aus der Eltern-App mit Reisestreit im Mai, ausgefallener Abholung am 21.06. und strittigem Tablet-Kontakt |
+| `12_amtsgericht_zwischennachricht_2026-07-08.docx` | Gerichtliche Zwischennachricht mit Geschäftsnummern, Anhörungstermin 13.07.2026 und Auflagen zur Nachreichung |
+| `csv/fristen_eilsache.csv` | Fristen- und Terminspur für Wegweisung, Eilantrag, Anhörung und Umgangsbegleitung |
+| `emails/2026-07-03_schule_abholfrage.eml` | Schulmail zur praktischen Abholung und zu fehlenden gerichtlichen Nachweisen |
+| `pdfs/fotoblatt_tuer_und_flur.pdf` | Fotografische Dokumentation von Türzarge, Flur und Wäschekorb mit beschränktem Beweiswert |
+| `xlsx/umgangskalender_und_risiken.xlsx` | Arbeitsmappe zu Kontakten, Übergaben, Kommunikationswegen und Sicherheitsauflagen |
 
 ## Arbeitsnotiz
 

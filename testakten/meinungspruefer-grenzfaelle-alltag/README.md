@@ -1,18 +1,25 @@
 # Akte: Meinungsprüfer - Grenzfälle im Alltag
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 85 KB) | PDF | [`gesamt-pdf/meinungspruefer-grenzfaelle-alltag_gesamt.pdf`](gesamt-pdf/meinungspruefer-grenzfaelle-alltag_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-meinungspruefer-grenzfaelle-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-meinungspruefer-grenzfaelle-alltag.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/meinungspruefer-grenzfaelle-alltag_gesamt.pdf`](gesamt-pdf/meinungspruefer-grenzfaelle-alltag_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-meinungspruefer-grenzfaelle-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-meinungspruefer-grenzfaelle-alltag.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -54,6 +61,8 @@ Die Akte verlangt nacheinander Wortlautsicherung, Kontextklärung, Trennung von 
 | `16_polizei_anzeige_konvolut.docx` | Strafanzeige, polizeilicher Vermerk, StA-Telefonat, Verletztenvertretung |
 | `17_whistleblower_statement_okb_insider.docx` | Whistleblower-Statement, Quellenschutzfragen und HinSchG-Implikationen |
 | `18_gegendarstellung_und_klarstellung_entwurf.docx` | Entwürfe für Klarstellungen, modifizierte Unterlassungserklärungen und Folge-Kommentare |
+| `19_elternchat_export_klasse7b_roh.txt` | Roher Chat-Export der Gruppe "7b Eltern Austausch" vom 13. bis 16.05.2026 mit Screenshot-Streit und Hausverbots-Gerücht |
+| `20_hanselicht_hr_gespraechsprotokoll_fragment.docx` | Unvollständiges HR-Protokoll des Personalgesprächs vom 19.05.2026 bei HanseLicht |
 
 ## Vorführpfad
 
@@ -68,4 +77,8 @@ Die Akte verlangt nacheinander Wortlautsicherung, Kontextklärung, Trennung von 
 
 ## Direkt-Download
 
-[testakte-meinungspruefer-grenzfaelle-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-meinungspruefer-grenzfaelle-alltag.zip)
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[testakte-meinungspruefer-grenzfaelle-alltag.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-meinungspruefer-grenzfaelle-alltag.zip)

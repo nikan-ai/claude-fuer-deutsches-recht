@@ -3,15 +3,23 @@
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 530 KB) | PDF | [`gesamt-pdf/arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum_gesamt.pdf`](gesamt-pdf/arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum_gesamt.pdf`](gesamt-pdf/arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-arzthaftung-geburtsschaden-meinhardt-evangelisches-klinikum-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -107,12 +115,17 @@ Arbeitsakte zum Plugin `fachanwalt-medizinrecht`.
 
 | Datei | Datum | Inhalt |
 |---|---|---|
+| [`emails/2024-10-08_vital-care_an_meinhardt_einsatzplan.eml`](emails/2024-10-08_vital-care_an_meinhardt_einsatzplan.eml) | 08.10.2024 | Pflegedienst bestätigt Einsatzzeiten, Begleitung zum SPZ und vorläufigen Eigenanteil |
 | [`emails/2024-11-15_meinhardt_an_kanzlei_erstanfrage.eml`](emails/2024-11-15_meinhardt_an_kanzlei_erstanfrage.eml) | 15.11.2024 | Erstanfrage Frau Meinhardt bei Kanzlei Klotzkette |
 | [`emails/2025-03-21_assekuranzalpha_an_kanzlei_vergleichsangebot.eml`](emails/2025-03-21_assekuranzalpha_an_kanzlei_vergleichsangebot.eml) | 21.03.2025 | Vergleichsangebot AssekuranzAlpha EUR 95.000 |
 | [`emails/2025-05-08_aek_schlichtungsstelle_zustellung.eml`](emails/2025-05-08_aek_schlichtungsstelle_zustellung.eml) | 08.05.2025 | Zustellung Schlichtungsentscheid durch AÄK |
 | [`emails/2025-05-14_wendelborg_an_kanzlei_ablehnung.eml`](emails/2025-05-14_wendelborg_an_kanzlei_ablehnung.eml) | 14.05.2025 | Ablehnung Schlichtungsvorschlag durch Klinik |
 
 ### PDFs (pdfs/)
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|
@@ -129,7 +142,7 @@ Arbeitsakte zum Plugin `fachanwalt-medizinrecht`.
 
 ---
 
-## Beteiligte (Fiktiv)
+## Beteiligte
 
 **Mandantschaft:** Lina Meinhardt (Klägerin Ziff. 1), Helene Meinhardt (Klägerin Ziff. 2, gesetzl. Vertreterin: Mutter), Lars Eichner (Lebenspartner, Zeuge)
 

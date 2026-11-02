@@ -1,18 +1,25 @@
 # Schwerbehindertenrechtsakte Autismus ADHS Arbeitsleben Wuppertal
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 27 KB) | PDF | [`gesamt-pdf/schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal_gesamt.pdf`](gesamt-pdf/schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal_gesamt.pdf`](gesamt-pdf/schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -22,7 +29,7 @@ Enthalten sind ausformulierte Aktenstücke, Bescheide, medizinische oder betrieb
 
 ## Kurzbild
 
-Julian Arendt, geboren am 28.07.1988, technischer Zeichner bei der Bergische Anlagenbau GmbH in Wuppertal, hat 2025 die Spätdiagnose Autismus-Spektrum-Störung erhalten; hinzu kommen ADHS, eine rezidivierende depressive Störung und eine chronische Migräne. Nach einem Änderungsantrag vom 11.03.2026 hat das Versorgungsamt Wuppertal mit Bescheid vom 19.06.2026 den Grad der Behinderung unverändert bei 30 belassen und ein Merkzeichen abgelehnt. Der Streit dreht sich um die Bildung des Gesamt-GdB nach den Versorgungsmedizinischen Grundsätzen: Der Ärztliche Dienst setzt die führende Autismus-Spektrum-Störung nur mit einem Einzel-GdB von 30 an, während der behandelnde Facharzt und die Autismusambulanz einen führenden Einzel-GdB von 40 und für die eigenständige depressive Störung 30 vertreten. Wird integrativ und nicht additiv gebildet, ist ein Gesamt-GdB von 50 und damit die Schwerbehinderteneigenschaft plausibel. Parallel laufen ein betriebliches Eingliederungsmanagement, ein drohender Arbeitsplatzkonflikt und die Prüfung von Gleichstellung, Teilhabe am Arbeitsleben und Reha.
+Julian Arendt, geboren am 28.07.1988, technischer Zeichner bei der Bergische Anlagenbau GmbH in Wuppertal, hat 2025 die Spätdiagnose Autismus-Spektrum-Störung erhalten; hinzu kommen ADHS, eine rezidivierende depressive Störung und eine chronische Migräne. Nach einem Änderungsantrag vom 11.03.2026 hat das Versorgungsamt Wuppertal mit Bescheid vom 19.06.2026 den Grad der Behinderung unverändert bei 30 belassen und ein Merkzeichen abgelehnt. Der Streit dreht sich um die Bildung des Gesamt-GdB nach den Versorgungsmedizinischen Grundsätzen: Der Ärztliche Dienst setzt die führende Autismus-Spektrum-Störung nur mit einem Einzel-GdB von 30 an, während der behandelnde Facharzt und die Autismusambulanz einen führenden Einzel-GdB von 40 und für die eigenständige depressive Störung 30 vertreten. Die ärztlichen Stellungnahmen gewichten die Beeinträchtigungen unterschiedlich. Parallel laufen ein betriebliches Eingliederungsmanagement, ein drohender Arbeitsplatzkonflikt und die Prüfung von Gleichstellung, Teilhabe am Arbeitsleben und Reha.
 
 ## Beteiligte
 
@@ -42,7 +49,6 @@ Julian Arendt, geboren am 28.07.1988, technischer Zeichner bei der Bergische Anl
 ```
 schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal/
 ├── README.md                                   <- diese Übersicht
-├── 01_mandatsnotiz_neurodivergenz.docx         <- Mandat, Diagnosen, rentenberaterliche Perspektive
 ├── 02_bescheid_gdb_30.docx                      <- Feststellungsbescheid GdB 30 mit Begründungslücken
 ├── 03_autismusambulanz_bericht.docx             <- Diagnostik, Teilhabe, arbeitsbezogene Empfehlung
 ├── 04_arbeitgeber_bem_notiz.docx                <- Fehlzeiten, Konfliktpunkte, BEM-Angebot
@@ -54,13 +60,15 @@ schwerbehindertenrecht-autismus-adhs-arbeitsleben-wuppertal/
 ├── 10_versorgungsaerztliche_stellungnahme_09062026.docx <- interne gutachterliche Stellungnahme (Einzel-GdB 30)
 ├── 11_nervenaerztlicher_befundbericht_reinsch.docx <- fachärztlicher Befund mit Einzel-GdB 40 und 30
 ├── 12_chat_vertrauensperson.txt                 <- Chat mit der Schwerbehindertenvertretung
+├── 13_erprobungsprotokoll_bem_fragment.docx       <- ungeprüfte Mitschrift zum Zwischenstand der BEM-Erprobung vom 24.07.2026
 ├── eml/
 │   ├── 01_versorgungsamt_eingangsbestaetigung.eml <- Eingangsbestätigung Widerspruch, Hinweis GdB-Bildung
 │   ├── 02_facharzt_befunduebersendung.eml        <- Facharzt übersendet Befund und Einzel-GdB-Einschätzung
-│   └── 03_bevollmaechtigte_gdb_bildung.eml        <- Bevollmächtigte legt die Gesamt-GdB-Bildung offen
+│   ├── 03_bevollmaechtigte_gdb_bildung.eml        <- Bevollmächtigte legt die Gesamt-GdB-Bildung offen
+│   └── 04_klinik_entlassungsbericht_anforderung.eml <- Klinik zum stationären Aufenthalt Januar 2026: Entlassungsbericht nur gegen Schweigepflichtentbindung
 └── gesamt-pdf/                                   <- konsolidierte Lesefassung als PDF
 ```
 
 ## Bearbeitungsziel
 
-Aus der GdB-Bewertungstabelle, der versorgungsärztlichen Stellungnahme und dem fachärztlichen Befund ist die (Fehl-)Bildung des Gesamt-GdB nachzurechnen: Der Gesamt-GdB wird nicht addiert, sondern integrativ aus dem führenden Einzel-GdB gebildet. Herauszuarbeiten ist, dass ein führender Einzel-GdB von 40 zusammen mit der eigenständigen depressiven Störung plausibel einen Gesamt-GdB von 50 ergibt, während der Bescheid bei 30 verharrt. Zusätzlich sind Gleichstellung, Teilhabe am Arbeitsleben und die Abgrenzung zur Erwerbsminderungsrente zu prüfen. Die Diskrepanz zwischen den Einzel-GdB des Ärztlichen Dienstes und den fachärztlichen Werten gehört zur Beweiswürdigung.
+Die Tabelle stellt die Einzelwerte des Facharztes und des Versorgungsamts nebeneinander. Die vollständigen Befunde, die versorgungsärztliche Stellungnahme und Unterlagen zum Arbeitsplatz stehen für eine eigenständige Auswertung bereit. Eine Gesamtbewertung ist nicht vorgegeben.

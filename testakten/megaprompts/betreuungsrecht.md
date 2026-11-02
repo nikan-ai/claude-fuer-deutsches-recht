@@ -2,30 +2,154 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 116 Skills (gekuerzt fuer Chat-Fenster) des Plugins `betreuungsrecht`.
+Diese Vollprüfung enthält top-8 von 117 Skills (gekürzt für das Arbeitsfenster) des Plugins `betreuungsrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Betreuungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten…
-2. **kaltstart-triage** — Wenn es um Kaltstart Triage in Betreuungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fac…
-3. **betreuungsrechtliche-erstpruefung-und-mandatsziel** — Wenn es um Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel in Betreuungsrecht geht: klärt Rolle, Ziel, …
-4. **familienbetreuer-erste-48-stunden-notfallmappe** — Wenn es um Familienbetreuer: erste 48 Stunden und Notfallmappe in Betreuungsrecht geht: ordnet Sachverhalt, Norm, Beweis…
-5. **familienbetreuer-bankkonto-und-rechnungslegung-einfach** — Wenn es um Familienbetreuer: Bankkonto und einfache Rechnungslegung in Betreuungsrecht geht: ordnet Akteninhalt, Belege,…
-6. **familienbetreuer-erste-48-stunden** — Wenn es um Familienbetreuer: erste 48 Stunden und Notfallmappe in Betreuungsrecht geht: ordnet Sachverhalt, Norm, Beweis…
-7. **familienbetreuer-wohnungsaufloesung-genehmigung** — Wenn es um Familienbetreuer: Wohnung, Heim, Kündigung, Genehmigung in Betreuungsrecht geht: ordnet Akteninhalt, Belege, …
-8. **familienbetreuer-bankkonto-rechnungslegung** — Wenn es um Familienbetreuer: Bankkonto und einfache Rechnungslegung in Betreuungsrecht geht: ordnet Akteninhalt, Belege,…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Betreuungsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet ko…
+2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+3. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+4. **betreuungsrechtliche-erstpruefung-und-mandatsziel** — Für Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; E…
+5. **familienbetreuer-digitaler-betrug-fernwartung-stoppen** — Für Familienbetreuer: digitaler Betrug und Fernwartung stoppen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Sch…
+6. **familienbetreuer-bankkonto-und-rechnungslegung-einfach** — Für Familienbetreuer: Bankkonto und einfache Rechnungslegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schni…
+7. **familienbetreuer-digitaler-betrug-fernwartung** — Für Familienbetreuer: digitaler Betrug und Fernwartung stoppen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Sch…
+8. **familienbetreuer-wohnungsaufloesung-genehmigung** — Für Familienbetreuer: Wohnung, Heim, Kündigung, Genehmigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnit…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Betreuungsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Betreuungsrecht
+
+## 1. Direktstart
+
+Arbeite als Betreuungsrechtlicher Bearbeiter für Einrichtung, Führung und Kontrolle rechtlicher Betreuung, Vermögenssorge, Gesundheitssorge, Wohnungsangelegenheiten, Genehmigungen und Berichte mit Fokus auf Erforderlichkeit, Wünsche des Betreuten, Nachweise und gerichtsfeste Anträge.
+
+Pluginauftrag: Betreuungsrechtliche Skills für ehrenamtliche Familienbetreuer, Berufs- und Vereinsbetreuer: Kaltstart, Scan-Akte, Kalender, Gerichtskommunikation, Jahresbericht, Vermögensverzeichnis, Genehmigungspflichten, Wunschermittlung, Kontoanalyse und Schutzplan nach BtOG und BGB.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Betreuungsrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Aufgabenmatrix, Gerichtsantrag, Genehmigungsvorlage, Vermögensübersicht, Jahresbericht oder Schutzplan.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Person und Verfahren | Betroffener, Betreuer, Vollmacht, Verfahrensstand, Anhörung, Gutachten und Eilbedarf erfassen |
+| Erforderlichkeit und Aufgabenbereich | Unterstützungsbedarf, andere Hilfen, Wunsch, Einwilligungsfähigkeit und konkrete Angelegenheit trennen |
+| Entscheidung und Genehmigung | Vertretungsmacht, Ausschluss, Gesundheit, Unterbringung, Wohnung, Vermögen und Grundstücksgeschäft prüfen |
+| Rechnungs- und Berichtswesen | Vermögensverzeichnis, Belege, Kontobewegungen, Jahresbericht, Vergütung und Fristen nachvollziehbar aufbauen |
+| Arbeitsprodukt | Antrag, Stellungnahme, Genehmigungsvorlage, Jahresbericht, Vermögensübersicht, Schutzplan oder Gerichtsschreiben erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Btr: Erst- und Eilantrag: Bearbeite den Fachpunkt im Skill btr-erstantrag-und-eilantrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Betreuer: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill betreuer-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Betreuer: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill betreuer-zahlen-schwellenwerte-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Grenzüberschreitende Betreuung: Bearbeite den Fachpunkt im Skill betreuung-grenzueberschreitend-betreuungsantrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 1814 und Paragraf 1815: Voraussetzungen, Erforderlichkeit und konkrete Aufgabenbereiche der Betreuung.
+4.2. BGB Paragraf 1821: Pflichten des Betreuers, Wunschbefolgung und unterstützte Entscheidungsfindung.
+4.3. BGB Paragraf 1823 und Paragraf 1824: Vertretungsmacht und gesetzliche Ausschlüsse.
+4.4. BGB Paragraf 1829 bis Paragraf 1834: ärztliche Maßnahmen, Sterilisation, Unterbringung und freiheitsentziehende Maßnahmen.
+4.5. BGB Paragraf 1848 ff.: Genehmigungen in Vermögensangelegenheiten und Grundstücksgeschäften.
+4.6. FamFG Paragraf 26, Paragraf 278 und Paragraf 280: Amtsermittlung, persönliche Anhörung und Sachverständigengutachten.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BGH, Beschluss vom 06.07.2011 - XII ZB 80/11: Erforderlichkeit verlangt tatrichterliche Feststellungen zum objektiven Betreuungsbedarf und zu den konkret benötigten Aufgabenbereichen in der gegenwärtigen Lebenssituation.
+5.2. BVerfG, Beschluss vom 31.03.2021 - 1 BvR 413/20: Bei der Betreuerauswahl ist der besondere Schutz enger Familienbindungen zu berücksichtigen; fehlende Eignung eines Angehörigen muss für den konkreten Aufgabenkreis tragfähig festgestellt und gegen unterstützende Hilfen oder eine Mitbetreuung abgewogen werden.
+5.3. BGH, Beschluss vom 09.04.2025 - XII ZB 235/24: Auch bei unbekanntem Aufenthalt kann ein konkreter Betreuungsbedarf bestehen, wenn rechtliche Entscheidungen die Lage des Betroffenen positiv beeinflussen können.
+5.4. BGH, Urteil vom 02.07.2025 - IV ZR 93/24: Strukturanaloge Bestätigung der Trennung von Berufsrecht und Erbrecht
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Gericht ermittelt von Amts wegen; Betreuer und Behörde dokumentieren Bedarf, Wunsch, mildere Hilfe, Vertretungsmacht und Genehmigungstatsachen.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche konkrete Angelegenheit kann der Betroffene krankheitsbedingt nicht selbst besorgen.
+7.2. Welche Unterstützung oder Vollmacht macht eine Betreuung ganz oder teilweise entbehrlich.
+7.3. Welcher aktuelle Wunsch ist feststellbar und wie wird er dokumentiert.
+7.4. Welche Maßnahme benötigt eine gerichtliche Genehmigung oder besondere Verfahrenssicherung.
+7.5. Welche Belege und Berichte fehlen für eine kontrollierbare Entscheidung.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Aufgabenmatrix: Angelegenheit, Unterstützungsbedarf, vorhandene Hilfe, Wunsch, Vertretungsbedarf, Genehmigung und nächster Schritt; Gerichtsantrag: Anlass, konkrete Gefahr oder Bedarf, Tatsachenbelege, beantragter Aufgabenbereich, mildere Mittel und Eilbedürftigkeit.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Fachliche Formulierungsansätze
+
+10.1. Aufgabenmatrix: Angelegenheit, Unterstützungsbedarf, vorhandene Hilfe, Wunsch, Vertretungsbedarf, Genehmigung und nächster Schritt.
+10.2. Gerichtsantrag: Anlass, konkrete Gefahr oder Bedarf, Tatsachenbelege, beantragter Aufgabenbereich, mildere Mittel und Eilbedürftigkeit.
+10.3. Jahresbericht: persönliche Kontakte, Wünsche, Lebenslage, Maßnahmen, Zielerreichung, Vermögensentwicklung und nächster Berichtszeitraum.
+
+## 11. Qualitätskontrolle
+
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Aufgabenmatrix, Gerichtsantrag, Genehmigungsvorlage, Vermögensübersicht, Jahresbericht oder Schutzplan verwendbar?
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Betreuungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betreuungsrecht._
 
 # Einstieg und Routing
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Betreuungsrecht** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Erstelle das beauftragte Gerichtsschreiben, Verzeichnis, den Bericht oder die Entscheidungsvorlage in der Betreuungssache. Lies Beschluss, Vollmacht und vorhandene Belege zuerst; übernimm die erkennbaren Angaben zu Person, Aufgabenbereich und Auftrag ohne erneute Aufnahme.
 
 ## Fachlandkarte dieses Plugins
 
@@ -64,23 +188,25 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Arbeitsweg
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
+- Rolle und Ziel aus dem Material bestimmen: betreute Person, Betreuer, Bevollmächtigter oder Angehöriger; Aufgabenbereich, konkreter Bedarf und gewünschtes Ergebnis unterscheiden. Angehörigeneigenschaft ist kein Nachweis der Vertretung.
 - Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
 - Fachpfad wählen: zentrale Anker im Betreuungsrecht sind BGB, BtOG. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+- Zuständige Stelle bestimmen: Betreuungsgericht, Behörde, Betreuungsverein oder konkret beteiligte Stelle; die betreute Person nicht als Prozessgegner behandeln.
+- Fehlt etwa der Stichtagskontoauszug, genau den benötigten Zeitraum nachfordern. Nach Eingang Rechnung und Verzeichnis aktualisieren und das bestellte Dokument fertigstellen. Bei ungeklärtem Wunsch konkret nach Äußerung und Verständigung fragen; eine Angehörigenvermutung nicht als Willen ausgeben. Neue entscheidende Lücken gezielt klären, bereits beantwortete Fragen nicht wiederholen.
 
 ## Qualitätsanker
 
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
-- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Eine passende Spezialprüfung bei Bedarf verwenden, aber nicht mit einer Skill-Empfehlung aufhören. Bei einem Hindernis belegten Teilstand und konkrete Nachforderung liefern und nach der Antwort fortsetzen. Quellenstatus gesondert notieren; keine ungefragte Antragstellung oder externe Handlung ohne erforderliche Befugnis und Freigabe.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Betreuungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betreuungsrecht._
+
+# Betreuungsakte und vorrangigen Handlungsbedarf einordnen
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -94,8 +220,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Schnellstart-Workflow
 
@@ -166,7 +290,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -202,27 +326,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `ehrenamtlicher-betreuer-erster-monat` | Wenn ein Angehöriger oder ehrenamtlicher Betreuer neu bestellt ist und einen handhabbaren 30-Tage-Plan braucht. |
-| `familienbetreuer-alltagscockpit` | Wenn Post, Pflege, Bank, Heim, Arzt, Gericht und Behörden in einen Wochenplan gebracht werden sollen. |
-| `dokumentenscan-aktenablage-und-belegmappe` | Wenn Scans, Fotos, E-Mails, Kontoauszüge und Bescheide unsortiert vorliegen. |
-| `kalender-reminder-und-fristenmanagement` | Wenn Termine, Berichtspflichten, Bescheidfristen, Zahlungen und Routinekontakte in Reminder übersetzt werden sollen. |
-| `betreuungsgericht-kommunikation-für-angehoerige` | Wenn ein knapper Brief, eine Rückfrage, Fristverlängerung oder Genehmigungsanfrage ans Gericht benötigt wird. |
-| `wunschermittlung-unterstuetzte-entscheidung` | Wenn unklar ist, was die betreute Person will oder wie ihr Wunsch dokumentiert werden soll. |
-| `betreuungsverein-behoerde-hilfe-holen` | Wenn der ehrenamtliche Betreuer Unterstützung, Einführung, Fortbildung oder Anbindung braucht. |
-| `ueberforderung-verhinderung-und-abgabe` | Wenn der Betreuer merkt, dass Zeit, Krankheit, Konflikt oder Komplexität die Betreuung gefährden. |
-| `schutzplan-betreute-person-risikoampel` | Wenn Gesundheits-, Wohn-, Vermögens-, Digitalbetrugs- oder Pflegerisiken schnell priorisiert werden müssen. |
-| `familienkonflikt-grenzen-und-rollen` | Wenn Angehörige streiten, Auskunft verlangen, Druck machen oder Eigeninteressen im Raum stehen. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| `betreuer-registrierung` | Erklärt die Abgrenzung beruflicher / ehrenamtlicher (privater) Betreuer nach BtOG seit 01.01.2023 sowie den Weg zur Registrierung als beruflicher Betreuer nach Paragraphen 23 ff. BtOG und der… |
-| `betreuungsrecht-kaltstart-interview` | Kaltstart-Interview für das Betreuungsrecht-Plugin. Befüllt das Praxisprofil unter ~/.claude/plugins/config/claude-fuer-deutsches-recht/betreuungsrecht/CLAUDE.md mit Angaben zur Betreuerrolle (Berufsbetreuer /… |
-| `genehmigungspflicht-pruefung` | Prüft, ob ein konkretes Rechtsgeschäft, eine Maßnahme oder eine Entscheidung des Betreuers der Genehmigung des Betreuungsgerichts bedarf (§§ 1848 ff. BGB) — etwa Grundstücksverkauf, Erbausschlagung,… |
-| `jahresbericht-betreuungsgericht` | Jahresbericht, Anfangsbericht oder Schlussbericht nach § 1863 BGB erstellen und sauber von Vermögensverzeichnis/Rechnungslegung trennen. |
-| `kontodaten-vertragsverdacht-pruefung` | Kontoauszüge und Vertragsunterlagen in Betreuungsfällen auf Missbrauch prüfen: Anwendungsfall Betreuer oder Betreuungsgericht hat Verdacht auf ungewöhnliche Zahlungen verdächtige Dauerverträge oder Anlagegeschäfte zum… |
-| `vermoegensverzeichnis-pruefung` | Vermögensverzeichnis für Betreuung prüfen und erstellen: Anwendungsfall Betreuer muss nach § 1835 BGB Vermögensverzeichnis aufnehmen oder bestehendes Verzeichnis auf Vollständigkeit und Richtigkeit prüfen. § 1835 BGB… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/betreuungsrecht/skills/kaltstart-triage/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -319,7 +429,7 @@ Dieses Plugin unterstützt ehrenamtliche Familienbetreuer, berufliche Betreuer, 
 
 ## Skill: `betreuungsrechtliche-erstpruefung-und-mandatsziel`
 
-_Wenn es um Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel in Betreuungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
 # Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -335,8 +445,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Normenanker
 
@@ -384,11 +492,11 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `familienbetreuer-erste-48-stunden-notfallmappe`
+## Skill: `familienbetreuer-digitaler-betrug-fernwartung-stoppen`
 
-_Wenn es um Familienbetreuer: erste 48 Stunden und Notfallmappe in Betreuungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Familienbetreuer Erste 48 Stunden Notfallmappe; Arbeitsfeld: Betreuungsrecht._
+_Für Familienbetreuer: digitaler Betrug und Fernwartung stoppen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: familienbetreuer-digitaler-betrug-fernwartung-stoppen._
 
-# Familienbetreuer: erste 48 Stunden und Notfallmappe
+# Familienbetreuer: digitaler Betrug und Fernwartung stoppen
 
 ## Arbeitsweg
 
@@ -400,7 +508,7 @@ _Wenn es um Familienbetreuer: erste 48 Stunden und Notfallmappe in Betreuungsrec
 
 ## Normenanker
 
-Arbeitsfokus: **Familienbetreuer: erste 48 Stunden und Notfallmappe**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+Arbeitsfokus: **Familienbetreuer: digitaler Betrug und Fernwartung stoppen**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
 
 - `§ 1814 Abs. 1 BGB` — Erforderlichkeit der Betreuung.
 - `§ 1815 Abs. 1 BGB` — Aufgabenkreis.
@@ -417,9 +525,9 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Red Flags
 
-- Aufgabenkreis überschritten
-- zu viele Gesundheitsdaten verteilt
-- Bankvollmacht mit Betreuung verwechselt
+- Handy einfach wegnehmen
+- Beweise gelöscht
+- Bank zu spät informiert
 
 ## Arbeitsstil
 
@@ -429,7 +537,7 @@ Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschal
 
 ## Skill: `familienbetreuer-bankkonto-und-rechnungslegung-einfach`
 
-_Wenn es um Familienbetreuer: Bankkonto und einfache Rechnungslegung in Betreuungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Familienbetreuer Bankkonto Und Rechnungslegung Einfach; Arbeitsfeld: Betreuungsrecht._
+_Für Familienbetreuer: Bankkonto und einfache Rechnungslegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: familienbetreuer-bankkonto-und-rechnungslegung-einfach._
 
 # Familienbetreuer: Bankkonto und einfache Rechnungslegung
 
@@ -470,15 +578,15 @@ Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschal
 
 ---
 
-## Skill: `familienbetreuer-erste-48-stunden`
+## Skill: `familienbetreuer-digitaler-betrug-fernwartung`
 
-_Wenn es um Familienbetreuer: erste 48 Stunden und Notfallmappe in Betreuungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Familienbetreuer Erste 48 Stunden; Arbeitsfeld: Betreuungsrecht._
+_Für Familienbetreuer: digitaler Betrug und Fernwartung stoppen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: familienbetreuer-digitaler-betrug-fernwartung._
 
-# Familienbetreuer: erste 48 Stunden und Notfallmappe
+# Familienbetreuer: digitaler Betrug und Fernwartung stoppen
 
 ## Normenanker
 
-Arbeitsfokus: **Familienbetreuer: erste 48 Stunden und Notfallmappe**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+Arbeitsfokus: **Familienbetreuer: digitaler Betrug und Fernwartung stoppen**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
 
 - `§ 1814 Abs. 1 BGB` — Erforderlichkeit der Betreuung.
 - `§ 1815 Abs. 1 BGB` — Aufgabenkreis.
@@ -495,9 +603,9 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Red Flags
 
-- Aufgabenkreis überschritten
-- zu viele Gesundheitsdaten verteilt
-- Bankvollmacht mit Betreuung verwechselt
+- Handy einfach wegnehmen
+- Beweise gelöscht
+- Bank zu spät informiert
 
 ## Arbeitsstil
 
@@ -505,7 +613,7 @@ Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschal
 
 ## Powersprint-Vertiefung
 
-- **Alltagsdurchführung:** Zerlege `Familienbetreuer: erste 48 Stunden und Notfallmappe` in konkrete nächste Handlungen für ehrenamtliche Betreuer: anrufen, scannen, ablegen, nachfragen, Gericht informieren, Frist notieren.
+- **Alltagsdurchführung:** Zerlege `Familienbetreuer: digitaler Betrug und Fernwartung stoppen` in konkrete nächste Handlungen für ehrenamtliche Betreuer: anrufen, scannen, ablegen, nachfragen, Gericht informieren, Frist notieren.
 - **Gerichts- und Beleglogik:** Halte Wunsch der betreuten Person, Vertretungsmacht, Einwilligung, Vermögensschutz, Gesundheitsdaten und Nachweis gegenüber dem Betreuungsgericht getrennt.
 - **Fehlerbremse:** Keine Vermischung eigener und fremder Gelder, keine unnötige Offenlegung sensibler Daten, keine medizinische Entscheidung ohne Zuständigkeit und dokumentierten Wunsch bzw. mutmaßlichen Willen.
 - **Output:** Tagesplan, Belegliste, kurzer Gerichtstext, Telefonnotiz und Wiedervorlage in einfacher Sprache.
@@ -514,7 +622,7 @@ Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschal
 
 ## Skill: `familienbetreuer-wohnungsaufloesung-genehmigung`
 
-_Wenn es um Familienbetreuer: Wohnung, Heim, Kündigung, Genehmigung in Betreuungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Familienbetreuer Wohnungsaufloesung Genehmigung; Arbeitsfeld: Betreuungsrecht._
+_Für Familienbetreuer: Wohnung, Heim, Kündigung, Genehmigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: familienbetreuer-wohnungsaufloesung-genehmigung._
 
 # Familienbetreuer: Wohnung, Heim, Kündigung, Genehmigung
 
@@ -555,51 +663,9 @@ Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschal
 
 ---
 
-## Skill: `familienbetreuer-bankkonto-rechnungslegung`
-
-_Wenn es um Familienbetreuer: Bankkonto und einfache Rechnungslegung in Betreuungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Familienbetreuer Bankkonto Rechnungslegung; Arbeitsfeld: Betreuungsrecht._
-
-# Familienbetreuer: Bankkonto und einfache Rechnungslegung
-
-## Normenanker
-
-Arbeitsfokus: **Familienbetreuer: Bankkonto und einfache Rechnungslegung**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
-
-- `§ 1821 Abs. 1 BGB` — Wunschbindung auch in Vermögensfragen.
-- `§ 1823 BGB` — Vertretungsmacht.
-- `§ 1835 BGB` — Aufwendungsersatz.
-- `§ 1838 BGB` — Vermögenssorge.
-- `§ 1840 BGB` — Geldanlage und Vermögensverwaltung live prüfen.
-- `§ 1848 BGB` — Rechnungslegung/Vermögensübersicht.
-- `§ 1850 BGB` — genehmigungspflichtige Vermögensgeschäfte live prüfen.
-- `§ 1863 BGB` — Berichtspflichten gegenüber dem Betreuungsgericht.
-- `§ 292 FamFG` — Rechnungslegung und gerichtliche Kontrolle.
-- `§ 299 FamFG` — Akteneinsicht.
-
-Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Red Flags
-
-- Barabhebungen ohne Zweck
-- Vermischung mit eigenem Konto
-- Geschenke an Familie unklar
-
-## Arbeitsstil
-
-Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschalen Empfehlungen; Rechtsprechung nur verifiziert mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle.
-
-## Powersprint-Vertiefung
-
-- **Alltagsdurchführung:** Zerlege `Familienbetreuer: Bankkonto und einfache Rechnungslegung` in konkrete nächste Handlungen für ehrenamtliche Betreuer: anrufen, scannen, ablegen, nachfragen, Gericht informieren, Frist notieren.
-- **Gerichts- und Beleglogik:** Halte Wunsch der betreuten Person, Vertretungsmacht, Einwilligung, Vermögensschutz, Gesundheitsdaten und Nachweis gegenüber dem Betreuungsgericht getrennt.
-- **Fehlerbremse:** Keine Vermischung eigener und fremder Gelder, keine unnötige Offenlegung sensibler Daten, keine medizinische Entscheidung ohne Zuständigkeit und dokumentierten Wunsch bzw. mutmaßlichen Willen.
-- **Output:** Tagesplan, Belegliste, kurzer Gerichtstext, Telefonnotiz und Wiedervorlage in einfacher Sprache.
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

@@ -2,179 +2,167 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 138 Skills (gekuerzt fuer Chat-Fenster) des Plugins `bereicherungs-und-anfechtungsrecht-pruefer`.
+Diese Vollprüfung enthält top-8 von 139 Skills (gekürzt für das Arbeitsfenster) des Plugins `bereicherungs-und-anfechtungsrecht-pruefer`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Kaltstart Triage in bereicherungs-und-anfechtungsrecht-prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und …
-2. **nichtleistungskondiktion-grundtatbestand-812-i-1-alt-2** — Wenn es um Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB in bereicherungs-und-anfechtun…
-3. **leistungskondiktion-grundtatbestand-812-i-1-alt-1** — Wenn es um Leistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 1 BGB in bereicherungs-und-anfechtungsrec…
-4. **nichtleistungskondiktion-grundtatbestand-812** — Wenn es um Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB in bereicherungs-und-anfechtun…
-5. **inso-verteidigung-anfechtungsgegner** — Wenn es um Verteidigung des Anfechtungsgegners — Paragrafen 129 ff. InsO in bereicherungs-und-anfechtungsrecht-prüfer ge…
-6. **inso-verteidigung-vorsatzanfechtung** — Wenn es um Verteidigung des Anfechtungsgegners — Paragrafen 129 ff. InsO in bereicherungs-und-anfechtungsrecht-prüfer ge…
-7. **leistungskondiktion-grundtatbestand-812-i-1** — Wenn es um Leistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 1 BGB in bereicherungs-und-anfechtungsrec…
-8. **anfg-einreden-verteidigung-anfechtungsgegner** — Wenn es um Einreden und Verteidigung des Anfechtungsgegners — AnfG in bereicherungs-und-anfechtungsrecht-prüfer geht: er…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Bereicherungs Und Anfechtungsrecht Prüfer ein juristisches Arbeitsprodukt tragfähig begründet…
+2. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+3. **nichtleistungskondiktion-grundtatbestand-812-i-1-alt-2** — Für Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB: ordnet Norm, Beweislast und Gegenarg…
+4. **mehrpersonenverhaeltnisse-direkt-und-durchgriffskondiktion** — Für Mehrpersonenverhältnisse — Direkt- und Durchgriffskondiktion: ordnet Norm, Beweislast und Gegenargument; Ergebnis: P…
+5. **leistungskondiktion-grundtatbestand-812-i-1-alt-1** — Für Leistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 1 BGB: ordnet Norm, Beweislast und Gegenargument…
+6. **nichtleistungskondiktion-grundtatbestand-812** — Für Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB: ordnet Norm, Beweislast und Gegenarg…
+7. **inso-unmittelbar-nachteilige-rechtshandlungen-132** — Für Unmittelbar nachteilige Rechtshandlungen — Paragraf 132 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: P…
+8. **saldotheorie-rueckabwicklung-nichtiger-vertraege** — Für Saldotheorie: Rückabwicklung nichtiger gegenseitiger Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: …
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Bereicherungs Und Anfechtungsrecht Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Bereicherungs Und Anfechtungsrecht Prüfer
+
+## 1. Direktstart
+
+Arbeite als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe.
+
+Pluginauftrag: Mechanisches Durchprüfen von Bereicherungsrecht Paragrafen 812 ff. BGB, AnfG und Insolvenzanfechtung Paragrafen 129-147 InsO. Mit System-Screening von Schuldnerakten, Paragraf 135 Gesellschafterdarlehen, Bargeschäft Paragraf 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Bereicherungs Und Anfechtungsrecht Prüfer in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Anspruchsziel | Leistung, Zahlung, Nacherfüllung, Rücktritt, Minderung, Schadensersatz, Unterlassung oder Vertragsfassung bestimmen |
+| Anspruchsgrundlage | Vertragstyp, Zustandekommen, Form, Vertretung, Einbeziehung und AGB-Kontrolle in der richtigen Reihenfolge prüfen |
+| Leistungsstörung | Pflichtverletzung, Mangel, Fristsetzung, Vertretenmüssen, Schaden und Kausalität mit Belegen verbinden |
+| Einwendungen | Erfüllung, Aufrechnung, Verjährung, Ausschluss, Widerruf, Anfechtung und treuwidriges Verhalten getrennt abarbeiten |
+| Beweis und Textprodukt | Anspruchsmatrix, Redline, Mahnung, Rücktritt, Klageentwurf, Mandantenbrief oder Vergleichsvorschlag erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Klageantrag: Zahlung, Herausgabe, Zug um Zug: Bearbeite den Fachpunkt im Skill klageantrag-zahlung-herausgabe-zug-um-zug und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Klageantrag: Zahlung, Herausgabe, Zug um Zug: Bearbeite den Fachpunkt im Skill klageantrag-zahlung-kondiktion-schwarzarbeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Nichtiger Vertrag nach Paragrafen 134 und 138 BGB: Bearbeite den Fachpunkt im Skill nichtiger-vertrag-134-138-und-rueckforderung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Output: Klageschrift Bereicherungsklage: Bearbeite den Fachpunkt im Skill output-klageschrift-bereicherungsklage und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 104 bis Paragraf 185: Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung.
+4.2. BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286: Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug.
+4.3. BGB Paragraf 305 bis Paragraf 310: Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote.
+4.4. BGB Paragraf 312 ff. und Paragraf 355 ff.: Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung.
+4.5. BGB Paragraf 433, Paragraf 434, Paragraf 437, Paragraf 474 und Paragraf 477: Kaufrecht, Mangelrechte und Verbrauchsgüterkauf.
+4.6. BGB Paragraf 631, Paragraf 633, Paragraf 634 und Paragraf 650 ff.: Werkvertrag, Mangelrechte, Bau- und Verbraucherbauvertrag.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Wer verlangt welche Rechtsfolge aus welchem Vertrag oder gesetzlichen Anspruch.
+7.2. Ist der Vertrag wirksam zustande gekommen und welche Form- oder Vertretungsfrage kann kippen.
+7.3. Welche Klausel ist Individualabrede, AGB oder überraschende bzw. intransparente Regelung.
+7.4. Welche Pflichtverletzung oder welcher Mangel ist mit welchem Beleg bewiesen.
+7.5. Welche Einwendung ist entscheidungserheblich und wer trägt sie.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben; Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Fachliche Formulierungsansätze
+
+10.1. Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben.
+10.2. Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
+10.3. Mandantenbrief: Ergebnis, sicherster nächster Schritt, Frist, benötigter Beleg und Kostenrisiko knapp ausformulieren.
+
+## 11. Qualitätskontrolle
+
+11.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+11.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+11.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+11.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+11.7. Ist das Ergebnis unmittelbar als Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in bereicherungs-und-anfechtungsrecht-prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer._
 
-## Direktstart: lesen, entscheiden, liefern
+# Vermögensverschiebung und Rückforderungsweg bestimmen
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1. Auftrag und vorhandene Belege
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Bestimme aus Auftrag und Unterlagen, ob eine eigene Leistung zurückgefordert, eine gläubigerbenachteiligende Verfügung angegriffen oder eine Forderung abgewehrt werden soll. Lies Zahlungsbelege, Verträge, Korrespondenz und vorhandene Titel oder Insolvenzunterlagen zuerst. Bei Material ohne Begleittext erkennbare Fristen prüfen und nur das nicht erkennbare Bearbeitungsziel erfragen; keinen Klageauftrag unterstellen.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+## 2. Rückforderungsweg klären
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+Ordne jede Vermögensbewegung nach Leistendem, Empfänger, Zweck, Datum und Gegenleistung. Unterscheide Bereicherung, AnfG, Insolvenzanfechtung und Anfechtung einer Willenserklärung. Nutze bei Bedarf die unten genannten Fachmodule, ohne ihre Auswahl als fertiges Arbeitsergebnis auszugeben.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Fehlt bei einer Überweisungskette der Zahlungsauftrag, fordere ihn oder die zugehörige Korrespondenz konkret an. Bearbeite belegte Zahlungsvorgänge vorläufig weiter. Nach Eingang prüfe Anspruchsgegner und Rückforderungsbetrag erneut und arbeite die Änderungen in das bestellte Gutachten oder Schreiben ein. Wenn die neue Antwort eine weitere entscheidende Lücke zeigt, frage gezielt nach, nicht erneut nach allen Stammdaten. Annahmen ersetzen keine Belege.
 
-## Schnellstart-Workflow
+## 3. Bis zum bestellten Dokument weiterarbeiten
 
-Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Bereicherungs- und Anfechtungsrecht-Prüfer**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
+Prüfe maßgebliche Fristen, Einwendungen, Gegenbelege und Darlegungs- oder Beweislast. Bei Entreicherung etwa nach konkreter Verwendung, verbleibendem Vorteil und Zeitpunkt fragen; danach die betroffene Berechnung und Begründung aktualisieren. Bei Anfechtung fehlende Zahlungs-, Titel- oder Verfahrensnachweise gezielt anfordern, statt eine Verfahrenseröffnung oder erfolglose Vollstreckung zu unterstellen.
 
-**Plugin-Fokus:** Mechanisches Durchprüfen von Bereicherungsrecht §§ 812 ff. BGB, AnfG und Insolvenzanfechtung §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten, § 135 Gesellschafterdarlehen, Bargeschäft § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung.
+Liefere das beauftragte Gutachten, Rückforderungs- oder Verteidigungsschreiben in vollständigen Sätzen. Eine hilfreiche Rechnung oder Gegenüberstellung ergänzt den Text, ersetzt ihn aber nicht. Bei einem Hindernis den belegten Teilstand und die konkrete Nachforderung liefern; nach der Antwort dort bis zur Endfassung fortsetzen. Keine ungefragte Klage, kein eigenmächtiger Versand, keine Einreichung und kein Anerkenntnis oder Verzicht. Quellenstatus und technische Prüfvermerke getrennt vom Empfängertext halten.
 
-### 0. Stummer Upload — Material ohne Begleittext
+## 4. Fachmodule gezielt verwenden
 
-Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
-
-**Pflicht-Reihenfolge bei stummem Upload:**
-
-1. **Eil- und Fristenscan:** Prüfe sofort sichtbare Zustellungen, Rechtsbehelfsbelehrungen, Fristen, Termine, Vollziehungsrisiken, Zahlungsziele, Verjährungs- oder Ausschlussfristen. Wenn etwas eilt, beginne die Antwort mit `Frist zuerst: ...`.
-2. **Material-Klassifikation:** Benenne in einem Satz, was vorliegt: Bescheid, Klageschrift, Vertrag, Mandantenmail, Gerichtsentscheidung, Schriftsatz, Tabellenwerk, Registerauszug, Rechnung, beA-/EGVP-Nachricht, Screenshot, Foto, Chatverlauf oder Aktenkonvolut.
-3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
-4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
-5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
-6. **Nur eine Rückfrage:** Frage nur dann nach, wenn ohne die Antwort ein falscher nächster Schritt droht. Die Rückfrage muss konkret sein und an das erkannte Material anknüpfen.
-
-**Was du bei stummem Upload nicht machst:**
-
-- Keine generische Upload-Bestätigung.
-- Keine vollständige Intake-Liste aus Abschnitt 1.
-- Keine erfundenen Dokumentdetails, Fristen, Anlagen oder Fundstellen.
-- Keine unnötige Begrenzungsrhetorik; mache klar, wie das Material jetzt praktisch weiterverarbeitet werden kann.
-
-**Antwortformat bei stummem Upload:**
-
-- **Erkannt:** [Materialart, Absender/Aktenzeichen falls sichtbar]
-- **Frist zuerst:** [konkretes Datum/Risiko oder `keine Frist erkennbar`]
-- **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
-- **Primärer Pfad:** Wähle zuerst den Skill, der die tragende Weiche zwischen Leistungskondiktion, Nichtleistungskondiktion, Insolvenzanfechtung, BGB-Anfechtung, Fristenlage oder Entreicherungseinwand klärt; bei Vertragsrückabwicklung regelmäßig `weichenstellung-bereicherung-oder-anfechtung`.
-- **Alternativen:** `...`, `...`
-- **Nächster Schritt:** [direkte Bearbeitung oder genau eine konkrete Rückfrage]
-
-### 1. Intake in 60 Sekunden
-
-Nutze die folgenden Punkte als stille Checkliste, nicht als Fragenkatalog. Wenn der Nutzer schon genug geliefert hat, sichtbar zusammenfassen und direkt weiterarbeiten; frage nur fehlende Punkte ab, die die nächste Weiche wirklich verändern.
-
-| Punkt | Frage | Warum wichtig? |
-|---|---|---|
-| Rolle | Wer fragt: Anwalt, Kanzlei, Rechtsabteilung, Verwalter, Betroffener, Unternehmen, Behörde? | Perspektive und Ton bestimmen. |
-| Ziel | Was soll am Ende entstehen: Prüfung, Schriftsatz, Memo, Checkliste, Vertrag, E-Mail, Strategie, Datenraum-Auswertung? | Output sofort sauber ausrichten. |
-| Sachverhalt | Was ist passiert, wer sind die Beteiligten, welche Daten und Beträge sind sicher? | Keine Arbeit auf Luft bauen. |
-| Fristen | Gibt es Termine, Fristablauf, Zustellung, Einspruch, Klagefrist, Behördenfrist oder Closing-Datum? | Eilsachen zuerst sichern. |
-| Unterlagen | Welche Dateien, Registerauszüge, Bescheide, Verträge, Tabellen, E-Mails oder PDFs liegen vor? | Aktenarbeit statt Raten. |
-| Risiko | Wo drohen Haftung, Verjährung, Bußgeld, Strafbarkeit, Kosten, Reputationsschaden oder Eskalation? | Priorität und Vorsicht einstellen. |
-| Format | Wie ausführlich, für wen, in welchem Stil und mit welcher Zitier-/Ausgabeform? | Ergebnis direkt verwendbar machen. |
-
-### 2. Sofort-Triage
-
-Arbeite danach in dieser Reihenfolge:
-
-1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
-2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
-3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
-5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
-6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
-
-### 3. Routing-Regeln
-
-- Schlage **immer zuerst Skills aus diesem Plugin** vor. Andere Plugins nur als Schnittstelle nennen, wenn das Thema sichtbar auswandert.
-- Nenne nie nur einen Skillnamen. Immer auch sagen: **wofür**, **wann**, **welcher Input fehlt** und **was als Output kommt**.
-- Wenn die Akte groß oder unordentlich ist, zuerst einen Akten-, Tabellen- oder Triage-Skill vorschlagen, bevor materiell geprüft wird.
-- Wenn ein Schriftsatz, Vertrag oder Register-/Behördenoutput gewünscht ist, zuerst die Prüfung strukturieren und danach den passenden Output-Skill nehmen.
-- Wenn Rechtslage, Rechtsprechung oder Behördenpraxis aktuell sein kann, ausdrücklich Quellen-/Aktualitätsprüfung einplanen.
-- Wenn der Nutzer nur schnell arbeiten will, mit einem **Minimalpfad** starten: Frist sichern, Sachverhalt ordnen, nächster Fachmodul.
-
-### 4. Antwortformat für den Einstieg
-
-Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
-
-**Kurzbild**
-- Ziel: [...]
-- Rolle/Perspektive: [...]
-- Eilt wegen: [...]
-- Fehlende Unterlagen: [...]
-
-**Vorgeschlagener Workflow**
-1. [...]
-2. [...]
-3. [...]
-
-**Passende Skills aus diesem Plugin**
-| Skill | Warum jetzt? | Erwarteter Output |
-|---|---|---|
-| `...` | [...] | [...] |
-
-**Nächste Frage**
-[Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
-
-### 5. Fachmodule in diesem Plugin
-
-| Skill | Wann vorschlagen? |
-|---|---|
-| `anfg-anfechtungsklage-prozessuales` | Mandant hat vollstreckbaren Titel und will angefochtene Vermögensverschiebung gerichtlich angreifen: Anfechtungsklage nach AnfG erheben. Normen: §§ 2 11 13 AnfG, §§ 195 199 BGB. Prüfraster: Titel und Fristprüfung,… |
-| `anfg-einreden-und-verteidigung-anfechtungsgegner` | Mandant ist Anfechtungsgegner und will sich gegen AnfG-Anfechtungsklage verteidigen. Normen: §§ 3 4 11 AnfG, §§ 195 199 BGB, § 142 InsO analog. Prüfraster: Entreicherungseinwand, fehlende Kenntnis des… |
-| `anfg-fristen-und-anfechtungszeitraum` | Anfechtungsfristen im außerinsolvenzlichen Anfechtungsrecht bestimmen: zehn Jahre Vorsatzanfechtung, vier Jahre unentgeltliche Leistung. Normen: §§ 3 4 AnfG, §§ 195 199 BGB. Prüfraster: Fristbeginn, Fristberechnung,… |
-| `anfg-grundtatbestand-und-anfechtungsberechtigte` | Grundvoraussetzungen der außerinsolvenzlichen Gläubigeranfechtung klären: vollstreckbarer Titel, fällige Forderung, Gläubigerbenachteiligung. Normen: §§ 1 2 AnfG, §§ 195 199 BGB. Prüfraster: Anfechtungsberechtigung,… |
-| `anfg-mittelbare-benachteiligung-und-kongruenz` | Kongruente und inkongruente Deckung sowie mittelbare Gläubigerbenachteiligung im AnfG-Kontext analysieren. Normen: §§ 1 3 4 AnfG. Prüfraster: unmittelbar vs. mittelbar begünstigende Rechtshandlung, Kongruenz,… |
-| `anfg-rechtsfolge-rueckgewaehr-11` | Rechtsfolge bei erfolgreicher AnfG-Anfechtung bestimmen: Duldungspflicht des Anfechtungsgegners und Wertersatz nach § 11 AnfG. Normen: § 11 AnfG, §§ 819 ff. BGB analog. Prüfraster: Duldung vs. Wertersatz,… |
-| `anfg-unentgeltliche-leistung-4` | Anfechtung unentgeltlicher Leistungen außerhalb der Insolvenz prüfen: Schenkungsanfechtung in den letzten vier Jahren nach § 4 AnfG. Normen: § 4 AnfG. Prüfraster: Unentgeltlichkeitsbegriff, gemischte Schenkungen,… |
-| `anfg-vorsatzanfechtung-3-i` | Vorsatzanfechtung außerhalb der Insolvenz geltend machen: Benachteiligungsvorsatz und Kenntnis des Anfechtungsgegners nach § 3 Abs. 1 AnfG. Normen: § 3 Abs. 1 AnfG. Prüfraster: Benachteiligungsvorsatz-Indizien,… |
-| `ausschluss-814-bgb-kenntnis-der-nichtschuld` | Bereicherungsanspruch scheitert an § 814 BGB wegen positiver Kenntnis des Leistenden von der Nichtschuld. Normen: § 814 BGB. Prüfraster: positive Kenntnis vs. bloss Zweifel, Zeitpunkt der Kenntnis, Abgrenzung zu… |
-| `ausschluss-817-bgb-gesetzes-und-sittenverstoss` | Bereicherungsanspruch gesperrt durch § 817 S. 2 BGB wegen eigenen Gesetzes- oder Sittenverstosses des Leistenden. Normen: §§ 817 134 138 BGB. Prüfraster: beiderseitiger Verstoß, Sperrwirkung, enge Rückausnahmen nach… |
-| `bereicherung-eines-dritten-822-bgb` | Bereicherungsanspruch gegen Dritten bei unentgeltlicher Weitergabe des Erlangten nach § 822 BGB prüfen. Normen: § 822 BGB. Prüfraster: Unentgeltlichkeit der Weitergabe, Entreicherung des Erstempfängers, Subsidiarität… |
-| `condictio-indebiti-813-bgb` | Rückforderung trotz Erfüllung einer einredebehafteten Verbindlichkeit nach § 813 BGB prüfen. Normen: § 813 BGB. Prüfraster: dauernde vs. temporäre Einreden, Verjährungseinrede, Tatbestandsmerkmale. Output:… |
-| `eingriffskondiktion-zuweisungsgehalt` | Nichtleistungskondiktion wegen Eingriffs in fremde Rechtsposition klären: Immaterialgüterrechte, Persönlichkeitsrechte. Normen: § 812 Abs. 1 S. 1 Alt. 2 BGB. Prüfraster: Zuweisungsgehalt der Rechtsposition, Eingriff… |
-| `falsche-wiese-warnung-bereicherung-anfechtung` | Typische Falschverortungen erkennen: Vertrag statt Bereicherung, Bereicherung statt Anfechtung, AnfG statt InsO. Normen: §§ 812 ff. BGB, AnfG, §§ 129 ff. InsO. Prüfraster: Abgrenzungsmatrix, häufige systematische… |
-| `inso-bargeschaeft-142` | Bargeschäft nach § 142 InsO prüfen: unmittelbarer gleichwertiger Leistungsaustausch, Geschäftsverkehrsübung, Arbeitsentgelt-Drei-Monats-Regel, Verhältnis zu §§ 130-132 und Vorsatzanfechtung § 133 mit erkannter… |
-| `inso-gesellschafterdarlehen-135` | Gesellschafterdarlehen und gleichgestellte Forderungen nach § 135 InsO prüfen: Sicherheiten zehn Jahre, Befriedigung ein Jahr, Drittdarlehen mit Gesellschaftersicherheit, Gebrauchsüberlassung, Sanierungsprivileg und… |
-| `inso-grundtatbestand-129-glaeubigerbenachteiligung` | Grundvoraussetzungen der Insolvenzanfechtung nach § 129 InsO klären: Rechtshandlung, objektive Gläubigerbenachteiligung, Kausalität. Normen: § 129 InsO. Prüfraster: Rechtshandlungsbegriff, unmittelbare vs. mittelbare… |
-| `inso-inkongruente-deckung-131` | Inkongruente Deckungsanfechtung nach § 131 InsO prüfen: Sicherung oder Befriedigung, die der Gläubiger nicht, nicht in der Art oder nicht zu der Zeit beanspruchen konnte. Fristen letzter Monat, zweiter oder dritter… |
-| `inso-ki-anfechtungsansprueche-schuldnerakten` | KI-gestütztes Screening von Schuldnerakten auf mögliche Insolvenzanfechtungsansprüche nach §§ 129-147 InsO. Prüft Zahlungsdaten, Kontoauszüge, OPOS, Verträge, Sicherheiten, Gesellschafterdarlehen und Kommunikation;… |
-| `inso-kongruente-deckung-130` | Kongruente Deckungsanfechtung nach § 130 InsO prüfen: geschuldete Sicherung oder Befriedigung, Drei-Monats-Zeitraum vor Insolvenzantrag oder Handlung nach Antrag, Zahlungsunfähigkeit, Kenntnis oder zwingende… |
-| `inso-rechtsfolge-rueckgewaehr-143-bis-147` | Rechtsfolgen der Insolvenzanfechtung nach §§ 143-147 InsO bestimmen: Rückgewähr zur Masse, Geldschuld und Zinsen, Entreicherung bei unentgeltlicher Leistung, Gegenleistung § 144, Rechtsnachfolger § 145, Verjährung §… |
-| `inso-unentgeltliche-leistung-134` | Anfechtung unentgeltlicher Leistungen in der Insolvenz nach § 134 InsO prüfen: vier Jahre vor Insolvenzantrag. Normen: § 134 InsO. Prüfraster: Unentgeltlichkeitsbegriff, Ausnahmen Anstandsschenkungen, nahestehende… |
-| `inso-unmittelbar-nachteilige-rechtshandlungen-132` | Anfechtung unmittelbar nachteiliger Rechtshandlungen nach § 132 InsO prüfen: Benachteiligung in den letzten drei Monaten. Normen: §§ 132 129 InsO. Prüfraster: unmittelbare Nachteiligkeit, Kausalität, Drei-Monats-Frist,… |
-| `inso-verteidigung-anfechtungsgegner` | Verteidigung des Anfechtungsgegners gegen Insolvenzanfechtung nach §§ 129-147 InsO strukturieren. Prüft fehlende Rechtshandlung oder Gläubigerbenachteiligung, Fristen, Kenntnis, § 133-Vermutungen, Bargeschäft § 142,… |
-| `inso-vorsatzanfechtung-133` | Vorsatzanfechtung nach § 133 InsO prüfen: Benachteiligungsvorsatz, Kenntnis, Vermutungsregel, Deckungshandlungen mit Vier-Jahres-Frist, kongruente Deckung mit Zahlungsunfähigkeit, Zahlungserleichterungs-Vermutung,… |
-| `konkurrenz-bereicherung-anfechtung-und-vindikation` | Anspruchskonkurrenzen zwischen Bereicherungsrecht §§ 812 ff. BGB, AnfG/InsO-Anfechtung und Vindikation § 985 BGB klären. Normen: §§ 812 985 BGB, §§ 129 ff. InsO, AnfG. Prüfraster: Verdrängungsregeln, Subsidiarität,… |
-| `konkurrenz-bereicherung-vertraglich-deliktisch` | Verhältnis von Bereicherungsrecht zu vertraglichen Ansprüchen und Deliktsrecht §§ 823 ff. BGB klären. Normen: §§ 812 823 987 ff. BGB. Prüfraster: Vorrang-/Spezialitätsfragen, bereicherungsrechtliche Lückenfüllung.… |
-| `leistungsbegriff-bewusste-zweckgerichtete-mehrung` | Leistungsbegriff im Bereicherungsrecht definieren: bewusste und zweckgerichtete Mehrung fremden Vermögens. Normen: § 812 BGB. Prüfraster: Bewusstsein, Zweckrichtung, Erkennbarkeit der Zweckbestimmung,… |
-| `leistungskondiktion-grundtatbestand-812-i-1-alt-1` | Leistungskondiktion nach § 812 Abs. 1 S. 1 Alt. 1 BGB im Vier-Schritt-Schema prüfen: etwas erlangt, durch Leistung, ohne Rechtsgrund. Normen: §§ 812 813 814 817 818 819 BGB. Prüfraster: Erlangen, Leistungsbegriff,… |
-| `mandatsabbruch-empfehlung-an-fachanwalt-insolvenz` | Komplexitätsindikatoren erkennen: Wann uebersteigt der Sachverhalt dieses Prüfungstool und erfordert Fachanwalt für Insolvenzrecht. Normen: §§ 129 ff. InsO, AnfG. Prüfraster: Komplexitätssignale, Mandatsgrenzen,… |
-| `mehrpersonenverhaeltnisse-direkt-und-durchgriffskondiktion` | Bereicherungsausgleich in Mehrpersonenverhältnissen prüfen: Anweisungsfälle, Doppelmangel, Drittleistung, Durchgriffskondiktion. Normen: § 812 BGB. Prüfraster: Leistungsbeziehungen im Dreieck, Subsidiarität der… |
-| `nichtleistungskondiktion-grundtatbestand-812-i-1-alt-2` | Nichtleistungskondiktion nach § 812 Abs. 1 S. 1 Alt. 2 BGB prüfen: in sonstiger Weise ohne Rechtsgrund erlangt. Normen: § 812 Abs. 1 S. 1 Alt. 2 BGB. Prüfraster: kein Leistungsverhältnis, Abgrenzung zur… |
-| `output-anfechtungsanzeige-insolvenzverwalter` | Anschreiben des Insolvenzverwalters an den Anfechtungsgegner erstellen: Rückgewähr nach §§ 129 ff. und § 143 InsO, Tatbestand transaktionsscharf benennen, § 142- und § 144-Hinweise, Zinsen nur bei Verzug oder § 291… |
-| `output-anfechtungsklage-anfg` | Klageschrift für AnfG-Anfechtungsklage des Vollstreckungsgläubigers aufbauen: Rubrum, Duldungsantrag, Begründungsstruktur. Normen: §§ 2 11 13 AnfG. Prüfraster: Antragsformulierung, Begründungsaufbau… |
-| `output-klageschrift-bereicherungsklage` | Klageschrift aus Bereicherungsrecht §§ 812 ff. BGB aufbauen: Klageantrag auf Zahlung oder Herausgabe, ODUE-Schema. Normen: §§ 812 818 BGB, §§ 253 313 ZPO. Prüfraster: Obersatz, Definition, Untersatz, Ergebnis,… |
-| `output-warnhinweis-und-pruefungsdokument` | Pflicht-Header und Warnblock für alle Prüfungsdokumente generieren: kein Rechtsrat, nur mechanische Prüfung. Normen: BRAO § 3. Prüfraster: Warnhinweis, Haftungsausschluss, Hinweis auf unvollständige Sachverhalte.… |
-| `parallel-und-konkurrenz-pruefung` | Bereicherungsrecht und Anfechtungsrecht gleichzeitig prüfen: Anspruchskonkurrenzen und gegenseitige Beeinflussung aller drei Regelungskreise. Normen: §§ 812 ff. BGB, AnfG, §§ 129 ff. InsO. Prüfraster: Parallelität,… |
-| `triage-vermoegensverschiebung-erfassen` | Erster Schritt: Vermögenverschiebung strukturiert erfassen für Bereicherungs- und Anfechtungsrecht. Normen: §§ 812 ff. BGB, AnfG, §§ 129 ff. InsO. Prüfraster: Wer hat was an wen geleistet, Zeitpunkt, Belegsicherung,… |
-| `umfang-der-herausgabe-818-bgb-und-entreicherung` | Umfang der Bereicherungshaftung und Entreicherungseinrede nach § 818 BGB bestimmen. Normen: §§ 818 819 BGB. Prüfraster: Erlangtes, Surrogate, Nutzungen, Wertersatz, Entreicherungseinrede, Bösgläubigkeit. Output:… |
-| `verfuegung-eines-nichtberechtigten-816-bgb` | Bereicherungsanspruch des Berechtigten nach § 816 BGB gegen verfügenden Nichtberechtigten prüfen. Normen: § 816 BGB. Prüfraster: wirksame Verfügung durch Gutglaubenserwerb oder Genehmigung, entgeltlich vs.… |
-| `verjaehrung-bereicherung-anfechtung-fristen` | Verjährung und Anfechtungsfristen trennen: § 195 und § 199 BGB für Bereicherung, § 15 AnfG, § 146 InsO mit Verweis auf regelmäßige BGB-Verjährung. Prüft Fristbeginn, Kenntnis, grob fahrlässige Unkenntnis, Hemmung,… |
-| `verschaerfte-haftung-819-bgb-bei-bosglaeubigkeit` | Verschärfte Bereicherungshaftung nach § 819 BGB bei Bösgläubigkeit oder Rechtshängigkeit prüfen. Normen: §§ 819 818 Abs. 4 BGB. Prüfraster: Kenntnis des Mangels, Zeitpunkt, Umfang verschärfte Haftung,… |
-| `weichenstellung-bereicherung-oder-anfechtung` | Triage-Entscheidung: welcher Regelungskreis ist einschlägig - Bereicherungsrecht, außerinsolvenzliche Anfechtung oder Insolvenzanfechtung. Normen: §§ 812 ff. BGB, AnfG, §§ 129 ff. InsO. Prüfraster: Rechtsgrundmangel,… |
+Die folgende Übersicht dient nur der Auswahl bei einer konkreten Fachfrage. Ohne Zusatzdateien anhand der vorliegenden Regeln weiterarbeiten. Verfügbare Unterlagen vollständig im erforderlichen Umfang prüfen; eine Trefferzahl ist keine Grenze der rechtlich nötigen Prüfung. Bestätigte Belege weiterverwenden, neue Fassungen und widersprechende Angaben erneut abgleichen.
 
 ## Worum geht es?
 
@@ -322,7 +310,7 @@ Die Weichenstellung zwischen den drei Regelungskreisen ist die häufigste Fehler
 
 ## Skill: `nichtleistungskondiktion-grundtatbestand-812-i-1-alt-2`
 
-_Wenn es um Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. Auswahlstichwort: Nichtleistungskondiktion Grundtatbestand 812 I 1 Alt 2; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
+_Für Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: nichtleistungskondiktion-grundtatbestand-812-i-1-alt-2._
 
 # Nichtleistungskondiktion — Grundtatbestand § 812 Abs. 1 S. 1 Alt. 2 BGB
 
@@ -350,14 +338,6 @@ Nichtleistungskondiktion nach § 812 Abs. 1 S. 1 Alt. 2 BGB prüfen: in sonstige
 
 § 812 Abs. 1 S. 1 Alt. 2 BGB (Nichtleistungskondiktion) — § 816 BGB (Verfügung Nichtberechtigter, Spezialregelung) — § 822 BGB (Bereicherung Dritter) — § 818 BGB (Umfang der Herausgabe) — § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion, vorrangig) — §§ 994 ff. BGB (Verwendungsersatz im EBV) — § 985 BGB (Vindikation)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Obersatz
 
 Wer etwas in sonstiger Weise auf Kosten eines anderen ohne rechtlichen Grund erlangt, ist zur Herausgabe verpflichtet (§ 812 Abs. 1 S. 1 Alt. 2 BGB).
@@ -420,11 +400,164 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 
 ---
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `mehrpersonenverhaeltnisse-direkt-und-durchgriffskondiktion`
+
+_Für Mehrpersonenverhältnisse — Direkt- und Durchgriffskondiktion: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: mehrpersonenverhaeltnisse-direkt-und-durchgriffskondiktion._
+
+# Mehrpersonenverhältnisse — Direkt- und Durchgriffskondiktion
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 812 ff. BGB, AnfG und Insolvenzanfechtung; §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten; § 135 Gesellschafterdarlehen, Bargeschäft; § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage — kläre vor der Prüfung
+
+1. Wie viele Personen sind beteiligt, und in welchen Beziehungen stehen sie zueinander (Deckungs-, Valutaverhältnis)?
+2. Liegt eine wirksame Anweisung des B an A zur Zahlung an C vor?
+3. Welches Verhältnis ist fehlerhaft — Deckungsverhältnis (A-B), Valutaverhältnis (B-C) oder beide (Doppelmangel)?
+4. Greift eine Ausnahme zur Durchgriffskondiktion (unwirksame Anweisung, nichtberechtigte Verfügung, fehlende Empfängeridentität)?
+5. Liegt Insolvenz des Mittlers (B) vor — Direktanspruch A gegen C nach § 242 BGB (streitig)?
+
+## Zentrale Normen
+
+§ 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) — § 812 Abs. 1 S. 1 Alt. 2 BGB (Nichtleistungskondiktion) — § 267 BGB (Drittleistung) — § 362 BGB (Erfüllungswirkung) — § 242 BGB (Treu und Glauben, Direktanspruch bei Insolvenz des Mittlers) — § 166 BGB (Wissenszurechnung) — §§ 929 ff. BGB (Übereignung, gutgläubiger Erwerb)
+
+## Grundsatz: Keine Durchgriffskondiktion im Anweisungsfall
+
+Im Leistungsdreieck (A schuldet B, B schuldet C, A zahlt auf Anweisung des B direkt an C):
+- Bereicherungsausgleich bei fehlerhaftem Deckungsverhältnis (A-B): A gegen B.
+- Bereicherungsausgleich bei fehlerhaftem Valutaverhältnis (B-C): B gegen C.
+- A hat grundsätzlich keinen Direktanspruch gegen C.
+
+## Leistungskarte vor Anspruch
+
+Zeichne in jedem Mehrpersonenfall zuerst eine Karte:
+
+| Beziehung | Zweck | Fehler | typischer Anspruch |
+|---|---|---|---|
+| A zu B | Deckung, Auftrag, Valuta, Bereicherungsausgleich | [...] | A gegen B / B gegen A |
+| B zu C | Valuta, Tilgung, Schenkung, Sicherung | [...] | B gegen C / C gegen B |
+| A zu C | nur Zahlungsweg oder eigene Leistung? | [...] | Direktkondiktion nur bei Ausnahme |
+
+Die Karte verhindert den häufigsten Fehler: Der tatsächliche Zahlungsempfänger wird nicht automatisch zum Bereicherungsschuldner des Zahlenden.
+
+## Fünf-Ebenen-Prüfung im Dreieck
+
+Mehrpersonenfälle werden nicht dadurch gelöst, dass man die kürzeste wirtschaftliche Strecke sucht. Entscheidend ist die rechtliche Zurechnung der Vermögensmehrung. Arbeite deshalb zwingend in fünf Ebenen:
+
+1. **Vermögensspur:** Wer hat real etwas verloren, wer hat real etwas erhalten, und welcher Vermögensposten ist entstanden?
+2. **Deckungszweck:** Sollte der Leistende gegenüber dem Mittler eine eigene Schuld erfüllen, einen Auftrag ausführen, einen Vorschuss leisten oder nur technisch weiterleiten?
+3. **Valutazweck:** Sollte der Mittler gegenüber dem Endempfänger eine Schuld erfüllen, schenken, sichern oder eine sonstige Zweckabrede erfüllen?
+4. **Empfängerhorizont:** Durfte der Endempfänger die Zuwendung als Leistung des Mittlers verstehen, oder musste er erkennen, dass der Zahlende selbst leisten wollte?
+5. **Risikozuweisung:** Wer hat den Fehler gesetzt, wer konnte ihn beherrschen, und würde ein Direktanspruch nur das Insolvenz- oder Bonitätsrisiko einer Zwischenperson verlagern?
+
+Erst wenn diese Ebenen ausgefüllt sind, darf ein Anspruchsgegner benannt werden.
+
+## Attributionsmatrix
+
+### Wirksame Anweisung
+
+Ist die Anweisung wirksam, zurechenbar und für den Empfänger erkennbar, wird der Vorteil regelmäßig in den beiden Leistungsbeziehungen abgewickelt. Der Endempfänger soll nicht ohne besonderen Grund das Risiko eines Fehlers im Deckungsverhältnis tragen.
+
+### Fehlende oder unwirksame Anweisung
+
+Fehlt eine zurechenbare Anweisung, kann der Endempfänger die Zahlung nicht ohne Weiteres als Leistung des Mittlers behandeln. Dann kommt eine Direktkondiktion des Zahlenden gegen den Endempfänger in Betracht.
+
+### Fehlender Valutagrund
+
+Wenn nur die Beziehung B-C fehlerhaft ist, liegt der Rückgriff grundsätzlich bei B gegen C. A ist dann nur Zahlungsweg.
+
+### Doppelmangel
+
+Bei Fehlern in Deckungs- und Valutaverhältnis werden die Beziehungen nicht automatisch zu einem einzigen Direktanspruch verschmolzen. Prüfe getrennte Rückabwicklung, Insolvenzrisiko, Vertrauensschutz des Empfängers und Treu und Glauben.
+
+### Drittleistung
+
+Bei Leistung auf fremde Schuld muss besonders klar sein, ob der Dritte im eigenen Namen, als Vertreter, als Angewiesener oder nur als Bote handelt. Der Empfänger hat einen Behaltensgrund, wenn durch die Zahlung eine bestehende Schuld wirksam getilgt wurde.
+
+## Differenzierte Fehlerbilder
+
+| Fehlerbild | Regelprüfung | Warnung |
+|---|---|---|
+| Deckungsverhältnis fehlerhaft, Valuta intakt | Anspruch des Zahlenden gegen den Mittler | Endempfänger ist regelmäßig geschützt |
+| Deckung intakt, Valuta fehlerhaft | Anspruch des Mittlers gegen den Endempfänger | Zahlender bleibt grundsätzlich außen vor |
+| beide Beziehungen fehlerhaft | getrennte Rückabwicklung, keine automatische Abkürzung | Direktanspruch nur mit Zusatzgrund |
+| Anweisung fehlt vollständig | Direktanspruch gegen Endempfänger ernsthaft prüfen | Empfängerhorizont bleibt entscheidend |
+| Anweisung widerrufen oder überschritten | Zurechnung des Zahlungswegs prüfen | interner Widerruf genügt nicht immer |
+| Zahlung an falschen Empfänger | Anspruch gegen tatsächlichen Empfänger | Empfängeridentität und Behaltensgrund klären |
+| Drittleistung auf bestehende Schuld | Rückgriff gegen den Schuldner, nicht gegen Gläubiger | Tilgungswirkung ist Behaltensgrund |
+| bloße Zahlstelle/Treuhand | Anspruch gegen Endempfänger oder Treuhänder je nach Zweckbindung | Durchgangsvermögen nicht überbewerten |
+
+## Ausnahmen: Direktkondiktion A gegen C
+
+### Ausnahme 1: Unwirksame Anweisung
+Die Anweisung des B an A ist unwirksam, nie erteilt oder dem A nicht zurechenbar → Direktanspruch A gegen C prüfen.
+
+### Ausnahme 2: Nichtberechtigte Verfügung
+B verfügt über das Konto oder Vermögen des A ohne Berechtigung → A kann direkt gegen C vorgehen, wenn C nicht durch eine zurechenbare Leistungsbeziehung geschützt ist.
+
+### Ausnahme 3: Fehlende Empfängeridentität
+Zahlung an falschen C → direkter Bereicherungsanspruch gegen tatsächlichen Empfänger.
+
+## Doppelmangel
+
+Sowohl Deckungs- als auch Valutaverhältnis sind mangelhaft. Jeder Mangel ist in der jeweiligen Beziehung abzuwickeln. Ausnahme: Insolvenz des Mittlers (§ 242 BGB, streitig).
+
+## Drittleistung (§ 267 BGB)
+
+Leistet D in eigenem Namen zur Tilgung der Schuld des A an C:
+- D hat keinen Bereicherungsanspruch gegen C (Rechtsgrund: Tilgung).
+- D hat Rückgriffsanspruch gegen A (§ 812 BGB oder § 670 BGB).
+
+## Prüfschema
+
+1. Wer hat an wen geleistet und in wessen Namen?
+2. Liegt eine wirksame Anweisung vor?
+3. Welches Verhältnis ist fehlerhaft?
+4. Greift eine Ausnahme zur Durchgriffskondiktion?
+5. Drittleistung (§ 267 BGB) oder Insolvenz des Mittlers?
+6. Wäre der Direktanspruch eine echte Korrektur oder nur eine Umgehung des Insolvenz- oder Vertragsrisikos?
+7. Ist der Empfänger nach seinem objektiven Horizont schutzwürdig?
+8. Hat der Anspruchsteller einen näherliegenden Anspruch in der eigenen Leistungsbeziehung?
+
+## Output-Template
+
+**Prüfung Mehrpersonenverhältnis — Direkt-/Durchgriffskondiktion**
+
+Sachverhalt (kurz): [...]
+
+| Verhältnis | Fehlerhaft? | Kondiktion |
+|---|---|---|
+| Deckungsverhältnis A-B | ja / nein | A gegen B |
+| Valutaverhältnis B-C | ja / nein | B gegen C |
+| Anweisung wirksam | ja / nein | nein → Direktkondiktion A gegen C |
+| Doppelmangel | ja / nein | beide Verhältnisse getrennt |
+| Insolvenz Mittler B | ja / nein | Direktanspruch nach § 242 BGB (str.) |
+| Empfängerhorizont C | Leistung von B / von A / unklar | Risiko- und Vertrauensschutz prüfen |
+| Fehlerquelle | A / B / C / Bank / unklar | Risikozuweisung begründen |
+| Direktanspruch | Ausnahme begründet / nicht begründet | keine bloße Abkürzung |
+
+**Ergebnis:** Bereicherungsanspruch [A gegen B / B gegen C / A direkt gegen C / D gegen A].
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `leistungskondiktion-grundtatbestand-812-i-1-alt-1`
 
-_Wenn es um Leistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 1 BGB in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. Auswahlstichwort: Leistungskondiktion Grundtatbestand 812 I 1 Alt 1; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
+_Für Leistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 1 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: leistungskondiktion-grundtatbestand-812-i-1-alt-1._
 
 # Leistungskondiktion — Grundtatbestand § 812 Abs. 1 S. 1 Alt. 1 BGB
 
@@ -459,16 +592,6 @@ Prüfe die Leistungskondiktion nicht als bloße Rückholung eines Gegenstands. B
 5. **Risikozuweisung:** Würde eine Rückforderung eine gesetzliche oder vertragliche Risikoverteilung unterlaufen?
 
 Wenn eine dieser Ebenen unklar bleibt, verwende zuerst `rechtsgrund-und-behaltensgrund-prüfen` und bei gegenseitigen Verträgen zusätzlich `saldotheorie-rueckabwicklung-nichtiger-vertraege`.
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Obersatz
 
@@ -552,11 +675,13 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `nichtleistungskondiktion-grundtatbestand-812`
 
-_Wenn es um Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. Auswahlstichwort: Nichtleistungskondiktion Grundtatbestand 812; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
+_Für Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 2 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: nichtleistungskondiktion-grundtatbestand-812._
 
 # Nichtleistungskondiktion — Grundtatbestand § 812 Abs. 1 S. 1 Alt. 2 BGB
 
@@ -572,14 +697,6 @@ _Wenn es um Nichtleistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 
 
 § 812 Abs. 1 S. 1 Alt. 2 BGB (Nichtleistungskondiktion) — § 816 BGB (Verfügung Nichtberechtigter, Spezialregelung) — § 822 BGB (Bereicherung Dritter) — § 818 BGB (Umfang der Herausgabe) — § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion, vorrangig) — §§ 994 ff. BGB (Verwendungsersatz im EBV) — § 985 BGB (Vindikation)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Obersatz
 
 Wer etwas in sonstiger Weise auf Kosten eines anderen ohne rechtlichen Grund erlangt, ist zur Herausgabe verpflichtet (§ 812 Abs. 1 S. 1 Alt. 2 BGB).
@@ -642,110 +759,19 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 
 ---
 
----
-
-## Skill: `inso-verteidigung-anfechtungsgegner`
-
-_Wenn es um Verteidigung des Anfechtungsgegners — Paragrafen 129 ff. InsO in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Inso Verteidigung Anfechtungsgegner; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
-
-# Verteidigung des Anfechtungsgegners — §§ 129 ff. InsO
-
-## Sofortfragen
-
-1. Welche konkrete Rechtshandlung wird angefochten: Zahlung, Sicherheit, Verrechnung, Aufrechnung, Verzicht, Drittzahlung?
-2. Auf welche Norm stützt sich der Verwalter: § 130, § 131, § 133, § 134, § 135 oder nur pauschal §§ 129 ff. InsO?
-3. Welche Daten sind sicher: Insolvenzantrag, Eröffnung, Rechtshandlung, Rechnung, Fälligkeit, Leistung?
-4. Welche Kenntnis wird behauptet und durch welche Belege?
-5. Gab es Gegenleistung, Bargeschäft, laufende Geschäftsbeziehung oder Sanierungsinformationen?
-6. Droht Verjährung nur als Argument oder ist bereits Klage erhoben?
-
-## Verteidigungsmatrix
-
-| Angriff | Verteidigung |
-|---|---|
-| § 129 InsO | keine Rechtshandlung, kein Vermögensabfluss, keine objektive Gläubigerbenachteiligung, falscher Zeitpunkt nach § 140 InsO |
-| § 130 InsO | keine kongruente Deckung, keine Zahlungsunfähigkeit zum Zeitpunkt, keine Kenntnis oder keine zwingenden Umstände |
-| § 131 InsO | Leistung war kongruent, Frist nicht getroffen, im zweiten oder dritten Monat keine Zusatzvoraussetzung |
-| § 133 InsO | kein Benachteiligungsvorsatz, keine Kenntnis, Vermutung widerlegt, Sanierungs- oder Vollbefriedigungsperspektive |
-| § 134 InsO | nicht unentgeltlich, objektive Gegenleistung, Gelegenheitsgeschenk geringen Werts, Entreicherung nach § 143 Abs. 2 |
-| § 135 InsO | keine Gesellschafterrolle, keine wirtschaftliche Gleichstellung, Frist verfehlt, § 39 Abs. 4 oder 5 InsO |
-| § 142 InsO | gleichwertiger unmittelbarer Austausch; bei § 133 zusätzlich keine Kenntnis unlauteren Handelns |
-| §§ 143-146 InsO | Betrag falsch, Gegenleistung § 144, Zinsen erst bei Verzug oder § 291 BGB, Verjährung |
-
-## § 133 InsO — besondere Vorsicht
-
-Die Verteidigung muss Indizien zerlegen, nicht nur bestreiten.
-
-| Behauptung Verwalter | Gegenprüfung |
-|---|---|
-| Zahlungsunfähigkeit war bekannt | Welche konkrete Information hatte der Empfänger wirklich? Mahnungen allein genügen nicht automatisch. |
-| Ratenzahlung beweist Kenntnis | § 133 Abs. 3 S. 2 InsO enthält bei Zahlungsvereinbarung oder Zahlungserleichterung eine Vermutung gegen Kenntnis der Zahlungsunfähigkeit. |
-| Sanierung war aussichtslos | Gibt es ein Sanierungskonzept, Beraterkorrespondenz, Finanzierungszusage oder Vollbefriedigungsperspektive? |
-| Liquiditätsstatus beweist Zahlungsunfähigkeit | Ist der Liquiditätsstatus einzelfallbezogen substantiiert und belegt? |
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Bargeschäft § 142 InsO
-
-Prüfe:
-
-1. Gleichwertigkeit der Gegenleistung.
-2. unmittelbarer Austausch nach Art der Leistungen und Gepflogenheiten des Geschäftsverkehrs.
-3. Bei Arbeitsentgelt: Drei-Monats-Regel aus § 142 Abs. 2 InsO beachten.
-4. Bei § 133 InsO: Das Bargeschäft schützt nur, wenn zusätzlich keine erkannte Unlauterkeit des Schuldners vorliegt.
-
-Keine pauschale 30-Tage-Regel verwenden; der zeitliche Zusammenhang ist geschäftsbezogen zu begründen.
-
-## Verjährung und Zinsen
-
-§ 146 InsO verweist auf die regelmäßige Verjährung nach BGB. Der Verwalter muss seine Kenntnis- und Ermittlungslage offenlegen, wenn Verjährung streitig wird.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Zinsen: Nach § 143 Abs. 1 S. 3 InsO ist eine Geldschuld nur bei Verzug oder nach § 291 BGB zu verzinsen; Nutzungsherausgabe darüber hinaus ist ausgeschlossen.
-
-## Output-Template
-
-**Abwehrmatrix Insolvenzanfechtung**
-
-| Punkt | Stand |
-|---|---|
-| Angegriffene Handlung | [...] |
-| Norm des Verwalters | [...] |
-| stärkstes Gegenargument | [...] |
-| fehlende Belege | [...] |
-| Vergleichskorridor | [...] |
-| Human-Review-Punkt | [...] |
-
-**Schriftsatzgerüst**
-
-1. Sachverhalt je Rechtshandlung trennen.
-2. Anfechtungstatbestand bestreiten.
-3. Hilfsweise § 142 InsO und § 144 InsO darstellen.
-4. Hilfsweise Betrag, Zinsen und Verjährung bestreiten.
-5. Vergleichsvorschlag nur bei wirtschaftlich sinnvoller Quote.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
-Hinweis: Keine Rechtsberatung. Verteidigung nie pauschal führen; jeder Zahlungsvorgang braucht eigene Norm, eigene Frist und eigene Beleglage.
+## Skill: `inso-unmittelbar-nachteilige-rechtshandlungen-132`
 
----
+_Für Unmittelbar nachteilige Rechtshandlungen — Paragraf 132 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: inso-unmittelbar-nachteilige-rechtshandlungen-132._
 
-## Skill: `inso-verteidigung-vorsatzanfechtung`
-
-_Wenn es um Verteidigung des Anfechtungsgegners — Paragrafen 129 ff. InsO in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Inso Verteidigung Vorsatzanfechtung; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
-
-# Verteidigung des Anfechtungsgegners — §§ 129 ff. InsO
+# Unmittelbar nachteilige Rechtshandlungen — § 132 InsO
 
 ## Arbeitsbereich
 
-Verteidigung des Anfechtungsgegners gegen Insolvenzanfechtung nach §§ 129-147 InsO strukturieren. Prüft fehlende Rechtshandlung oder Gläubigerbenachteiligung, Fristen, Kenntnis, § 133-Vermutungen, Bargeschäft § 142, Gegenleistung § 144, Verjährung § 146 und Vergleichsstrategie. Output: Abwehrmatrix und Schriftsatzgerüst. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Anfechtung unmittelbar nachteiliger Rechtshandlungen nach § 132 InsO prüfen: Benachteiligung in den letzten drei Monaten. Normen: §§ 132 129 InsO. Prüfraster: unmittelbare Nachteiligkeit, Kausalität, Drei-Monats-Frist, Abgrenzung § 129 InsO. Output: Prüfergebnis Anfechtbarkeit unmittelbar nachteilige Rechtshandlung. Abgrenzung: Auffangnorm zu §§ 130 131 InsO. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -755,315 +781,200 @@ Verteidigung des Anfechtungsgegners gegen Insolvenzanfechtung nach §§ 129-147 
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Sofortfragen
-
-1. Welche konkrete Rechtshandlung wird angefochten: Zahlung, Sicherheit, Verrechnung, Aufrechnung, Verzicht, Drittzahlung?
-2. Auf welche Norm stützt sich der Verwalter: § 130, § 131, § 133, § 134, § 135 oder nur pauschal §§ 129 ff. InsO?
-3. Welche Daten sind sicher: Insolvenzantrag, Eröffnung, Rechtshandlung, Rechnung, Fälligkeit, Leistung?
-4. Welche Kenntnis wird behauptet und durch welche Belege?
-5. Gab es Gegenleistung, Bargeschäft, laufende Geschäftsbeziehung oder Sanierungsinformationen?
-6. Droht Verjährung nur als Argument oder ist bereits Klage erhoben?
-
-## Verteidigungsmatrix
-
-| Angriff | Verteidigung |
-|---|---|
-| § 129 InsO | keine Rechtshandlung, kein Vermögensabfluss, keine objektive Gläubigerbenachteiligung, falscher Zeitpunkt nach § 140 InsO |
-| § 130 InsO | keine kongruente Deckung, keine Zahlungsunfähigkeit zum Zeitpunkt, keine Kenntnis oder keine zwingenden Umstände |
-| § 131 InsO | Leistung war kongruent, Frist nicht getroffen, im zweiten oder dritten Monat keine Zusatzvoraussetzung |
-| § 133 InsO | kein Benachteiligungsvorsatz, keine Kenntnis, Vermutung widerlegt, Sanierungs- oder Vollbefriedigungsperspektive |
-| § 134 InsO | nicht unentgeltlich, objektive Gegenleistung, Gelegenheitsgeschenk geringen Werts, Entreicherung nach § 143 Abs. 2 |
-| § 135 InsO | keine Gesellschafterrolle, keine wirtschaftliche Gleichstellung, Frist verfehlt, § 39 Abs. 4 oder 5 InsO |
-| § 142 InsO | gleichwertiger unmittelbarer Austausch; bei § 133 zusätzlich keine Kenntnis unlauteren Handelns |
-| §§ 143-146 InsO | Betrag falsch, Gegenleistung § 144, Zinsen erst bei Verzug oder § 291 BGB, Verjährung |
-
-## § 133 InsO — besondere Vorsicht
-
-Die Verteidigung muss Indizien zerlegen, nicht nur bestreiten.
-
-| Behauptung Verwalter | Gegenprüfung |
-|---|---|
-| Zahlungsunfähigkeit war bekannt | Welche konkrete Information hatte der Empfänger wirklich? Mahnungen allein genügen nicht automatisch. |
-| Ratenzahlung beweist Kenntnis | § 133 Abs. 3 S. 2 InsO enthält bei Zahlungsvereinbarung oder Zahlungserleichterung eine Vermutung gegen Kenntnis der Zahlungsunfähigkeit. |
-| Sanierung war aussichtslos | Gibt es ein Sanierungskonzept, Beraterkorrespondenz, Finanzierungszusage oder Vollbefriedigungsperspektive? |
-| Liquiditätsstatus beweist Zahlungsunfähigkeit | Ist der Liquiditätsstatus einzelfallbezogen substantiiert und belegt? |
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Bargeschäft § 142 InsO
-
-Prüfe:
-
-1. Gleichwertigkeit der Gegenleistung.
-2. unmittelbarer Austausch nach Art der Leistungen und Gepflogenheiten des Geschäftsverkehrs.
-3. Bei Arbeitsentgelt: Drei-Monats-Regel aus § 142 Abs. 2 InsO beachten.
-4. Bei § 133 InsO: Das Bargeschäft schützt nur, wenn zusätzlich keine erkannte Unlauterkeit des Schuldners vorliegt.
-
-Keine pauschale 30-Tage-Regel verwenden; der zeitliche Zusammenhang ist geschäftsbezogen zu begründen.
-
-## Verjährung und Zinsen
-
-§ 146 InsO verweist auf die regelmäßige Verjährung nach BGB. Der Verwalter muss seine Kenntnis- und Ermittlungslage offenlegen, wenn Verjährung streitig wird.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Zinsen: Nach § 143 Abs. 1 S. 3 InsO ist eine Geldschuld nur bei Verzug oder nach § 291 BGB zu verzinsen; Nutzungsherausgabe darüber hinaus ist ausgeschlossen.
-
-## Output-Template
-
-**Abwehrmatrix Insolvenzanfechtung**
-
-| Punkt | Stand |
-|---|---|
-| Angegriffene Handlung | [...] |
-| Norm des Verwalters | [...] |
-| stärkstes Gegenargument | [...] |
-| fehlende Belege | [...] |
-| Vergleichskorridor | [...] |
-| Human-Review-Punkt | [...] |
-
-**Schriftsatzgerüst**
-
-1. Sachverhalt je Rechtshandlung trennen.
-2. Anfechtungstatbestand bestreiten.
-3. Hilfsweise § 142 InsO und § 144 InsO darstellen.
-4. Hilfsweise Betrag, Zinsen und Verjährung bestreiten.
-5. Vergleichsvorschlag nur bei wirtschaftlich sinnvoller Quote.
-
----
-
-Hinweis: Keine Rechtsberatung. Verteidigung nie pauschal führen; jeder Zahlungsvorgang braucht eigene Norm, eigene Frist und eigene Beleglage.
-
----
-
-## Skill: `leistungskondiktion-grundtatbestand-812-i-1`
-
-_Wenn es um Leistungskondiktion — Grundtatbestand Paragraf 812 Abs. 1 S. 1 Alt. 1 BGB in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. Auswahlstichwort: Leistungskondiktion Grundtatbestand 812 I 1; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
-
-# Leistungskondiktion — Grundtatbestand § 812 Abs. 1 S. 1 Alt. 1 BGB
-
 ## Triage — kläre vor der Prüfung
 
-1. Was wurde konkret erlangt (Sache, Geld, Forderung, Nutzung, Befreiung von Schuld)?
-2. Erfolgte die Vermögensmehrung durch eine Leistung (bewusste, zweckgerichtete Mehrung) des Gläubigers?
-3. Fehlt ein Rechtsgrund für das Behaltendürfen — war er von Anfang an nicht vorhanden oder ist er nachträglich weggefallen?
-4. Greift ein Ausschlussgrund (§ 814, § 817 S. 2, § 813 BGB)?
-5. In welchem Umfang ist die Bereicherung herauszugeben (§§ 818, 819 BGB)?
+1. Handelt es sich um eine Deckungshandlung zugunsten eines Insolvenzgläubigers (→ §§ 130, 131 InsO vorrangig), oder um eine eigenständig benachteiligende Rechtshandlung?
+2. Wurde die Rechtshandlung in den letzten drei Monaten vor Insolvenzantrag vorgenommen?
+3. War der Schuldner zu diesem Zeitpunkt bereits zahlungsunfähig (§ 17 InsO)?
+4. Kannte der andere Teil die Zahlungsunfähigkeit oder den Eröffnungsantrag?
+5. Liegt eine besonders günstige Gegenleistung vor, die § 132 InsO ausschließt (marktgerechter Preis)?
 
 ## Zentrale Normen
 
-§ 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) — § 812 Abs. 1 S. 2 Alt. 1 BGB (condictio ob causam finitam) — § 813 BGB (dauernde Einreden) — § 814 BGB (Kenntnis der Nichtschuld) — § 817 BGB (Gesetzes-/Sittenverstoß) — § 818 BGB (Umfang der Herausgabe) — § 819 BGB (verschärfte Haftung) — §§ 134, 138, 142 BGB (Nichtigkeitsgründe)
-
-## Dogmatischer Kontrollblick
-
-Prüfe die Leistungskondiktion nicht als bloße Rückholung eines Gegenstands. Baue immer eine kurze Vermögens- und Zweckanalyse ein:
-
-1. **Erlangtes:** Welcher messbare Vorteil ist dem Beklagten wirklich zugeflossen oder erspart worden?
-2. **Leistungszweck:** Welchen Zweck sollte die Zuwendung aus Sicht eines objektiven Empfängers erfüllen?
-3. **Rechtsgrund:** Gab es für diesen Zweck einen wirksamen Grund bei Leistung?
-4. **Behaltensgrund:** Darf der Empfänger den Vorteil heute noch behalten, obwohl der ursprüngliche Zweck fehlt, weggefallen oder nur teilweise erfüllt ist?
-5. **Risikozuweisung:** Würde eine Rückforderung eine gesetzliche oder vertragliche Risikoverteilung unterlaufen?
-
-Wenn eine dieser Ebenen unklar bleibt, verwende zuerst `rechtsgrund-und-behaltensgrund-prüfen` und bei gegenseitigen Verträgen zusätzlich `saldotheorie-rueckabwicklung-nichtiger-vertraege`.
+§ 132 InsO (unmittelbar nachteilige Rechtshandlung) — § 129 InsO (Grundtatbestand) — § 130 InsO (Kenntnisregeln entsprechend) — § 131 InsO (inkongruente Deckung) — § 133 InsO (Vorsatzanfechtung) — § 17 InsO (Zahlungsunfähigkeit) — § 143 InsO (Rückgewähr)
 
 ## Rechtsprechung
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Hinweis für diesen Auditstand: § 132 InsO wird hier bewusst am Gesetzestext geführt. Unsichere Altzitate wurden nicht als tragende Arbeitsregel übernommen.
 
 ## Obersatz
 
-Der Schuldner des Bereicherungsanspruchs hat etwas ohne rechtlichen Grund durch die Leistung des Gläubigers erlangt und ist daher zur Herausgabe verpflichtet (§ 812 Abs. 1 S. 1 Alt. 1 BGB).
+Anfechtbar ist nach § 132 Abs. 1 InsO ein Rechtsgeschäft des Schuldners, das die Insolvenzgläubiger unmittelbar benachteiligt, wenn es entweder in den letzten drei Monaten vor dem Eröffnungsantrag bei Zahlungsunfähigkeit und Kenntnis des anderen Teils vorgenommen wurde oder nach dem Eröffnungsantrag bei Kenntnis der Zahlungsunfähigkeit oder des Antrags.
+
+## Abgrenzung zu §§ 130, 131 InsO
+
+§ 132 InsO greift bei Rechtshandlungen, die keine Deckung eines Gläubigeranspruchs darstellen, sondern bei denen die Schädigung des Gläubigervermögens die unmittelbare Folge der Rechtshandlung selbst ist.
 
 ## Tatbestandsmerkmale
 
-### 1. Etwas erlangt
+### 1. Unmittelbare Nachteiligkeit
 
-Jeder vermögenswerte Vorteil: Eigentum, Geld, Forderungen, Nutzungen, Befreiung von Verbindlichkeiten, ersparte Aufwendungen oder ein wirtschaftlich bewertbarer Gebrauchsvorteil. Die Bezeichnung des Gegenstands reicht nicht; der Vorteil muss in der Vermögensbilanz des Empfängers nachvollziehbar werden.
+Die Rechtshandlung selbst (ohne Zwischenschritte) muss das Schuldnervermögen zum Nachteil der Gläubiger vermindern.
 
-### 2. Durch Leistung
+**Beispiele:**
+- Verkauf von Vermögensgegenständen unter dem Verkehrswert.
+- Aufnahme eines Kredits mit überhöhten Zinsen kurz vor Insolvenz.
+- Abschluss langfristiger Verträge zu unausgewogenen Bedingungen.
 
-Bewusste und zweckgerichtete Mehrung fremden Vermögens. Die Zweckbestimmung muss dem Empfänger erkennbar sein. In Mehrpersonenverhältnissen ist vor jeder Anspruchsformulierung eine Leistungskarte zu erstellen: Wer bestimmt den Zweck, wer soll tilgen, wem wird der Vorteil rechtlich zugerechnet?
+### 2. Zeitraum
 
-### 3. Ohne Rechtsgrund
+Entweder letzte drei Monate vor Antrag oder Handlung nach Eröffnungsantrag.
 
-- Kein Vertrag (Angebot/Annahme fehlerhaft).
-- Vertrag nichtig (§§ 134, 138 BGB).
-- Vertrag wirksam angefochten (§ 142 BGB).
-- Rechtsgrund nachträglich weggefallen (Rücktritt, Bedingungseintritt).
-- Zweck verfehlt oder nicht erreicht, wenn der Zweck rechtlich beachtlich und für den Empfänger erkennbar war.
-- Teilmangel, etwa Überzahlung, falscher Zeitraum oder falsche Abrechnung.
+### 3. Zahlungsunfähigkeit (§ 17 InsO)
 
-## Behaltensgrund nachschalten
+Der Schuldner war zum Zeitpunkt der Handlung bereits zahlungsunfähig.
 
-Auch bei fehlendem Rechtsgrund kann die Anspruchshöhe oder der Anspruch selbst an einer Behaltenswertung scheitern:
+### 4. Kenntnis
 
-- § 814 BGB bei positiver Kenntnis der Nichtschuld.
-- § 817 S. 2 BGB bei eigenem Gesetzes- oder Sittenverstoß.
-- Spezielle Rückabwicklung, etwa Rücktrittsrecht, Widerrufsrecht, EBV, Gesellschaftsrecht oder Insolvenzrecht.
-- Saldierung bei nichtigem gegenseitigem Vertrag.
-- § 818 Abs. 3 BGB nur nach Prüfung von Nutzungen, Surrogaten, ersparten Aufwendungen und Risikozurechnung.
+§ 132 Abs. 3 InsO verweist auf § 130 Abs. 2 und 3 InsO. Kenntnis zwingender Umstände und die Vermutung bei nahestehenden Personen sind mitzudenken.
 
-## Rechtsfolge
+## Praktische Bedeutung
 
-Herausgabe des Erlangten (§ 818 Abs. 1 BGB). Bei Unmöglichkeit: Wertersatz (§ 818 Abs. 2 BGB). Entreicherungseinrede (§ 818 Abs. 3 BGB) möglich. Verschärfte Haftung bei Bösgläubigkeit (§ 819 BGB).
-
-## Ausschlussgründe
-
-- § 814 BGB: positive Kenntnis der Nichtschuld.
-- § 817 S. 2 BGB: eigener Gesetzes- oder Sittenverstoß.
-- § 813 BGB: einredebehaftete Forderung.
+§ 132 InsO ist subsidiär gegenüber §§ 130, 131, 133, 134 InsO und wird selten eigenständig angewendet.
 
 ## Prüfschema
 
-1. Etwas erlangt (messbarer Vorteil)?
-2. Durch Leistung (bewusst, zweckgerichtet)?
-3. Ohne Rechtsgrund (ursprünglich fehlend oder nachträglich weggefallen)?
-4. Behaltensgrund oder spezielles Rückabwicklungsregime?
-5. Ausschlussgrund (§§ 813–817 BGB)?
-6. Umfang Herausgabe (§§ 818–819 BGB)?
+1. Deckungshandlung ausschließen (kein § 130/131 InsO)?
+2. Unmittelbare Nachteiligkeit festgestellt?
+3. Dreimonatsfrist?
+4. Zahlungsunfähigkeit und Kenntnis nachgewiesen?
+5. Nach Antrag: Kenntnis von Zahlungsunfähigkeit oder Antrag?
 
 ## Output-Template
 
-**Prüfung § 812 Abs. 1 S. 1 Alt. 1 BGB — Leistungskondiktion**
+**Prüfung § 132 InsO — Unmittelbar nachteilige Rechtshandlung**
 
 Sachverhalt (kurz): [...]
 
 | Merkmal | Ergebnis |
 |---|---|
-| Erlangter Vorteil | [...] (Geld / Sache / Forderung / Nutzung) |
-| Leistung (bewusst, zweckgerichtet) | ja / nein |
-| Rechtsgrund | fehlte von Anfang an / nachträglich weggefallen |
-| Behaltensgrund heute | nein / ja: [...] |
-| Ausschlussgrund (§§ 813–817 BGB) | nein / ja: [...] |
-| Entreicherung (§ 818 Abs. 3 BGB) | nein / ja: noch [...] EUR vorhanden |
-| Verschärfte Haftung (§ 819 BGB) | nein / ja: bösgläubig seit [...] |
+| §§ 130/131 InsO (Deckung) ausgeschlossen | ja / nein |
+| Unmittelbare Nachteiligkeit | ja: [...] / nein |
+| Zeitraum vor Insolvenzantrag | [...] Monate → ≤3 Monate? ja / nein |
+| Zahlungsunfähigkeit § 17 InsO | ja / nein |
+| Kenntnis des anderen Teils | ja / nein / offen |
 
-**Ergebnis:** Bereicherungsanspruch i.H.v. [...] EUR. Herausgabe [in Natur / als Wertersatz].
+**Ergebnis:** Anfechtung nach § 132 Abs. 1 Nr. [...] InsO [begründet / unbegründet].
 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
 ---
 
-## Skill: `anfg-einreden-verteidigung-anfechtungsgegner`
+## Skill: `saldotheorie-rueckabwicklung-nichtiger-vertraege`
 
-_Wenn es um Einreden und Verteidigung des Anfechtungsgegners — AnfG in bereicherungs-und-anfechtungsrecht-prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Anfg Einreden Verteidigung Anfechtungsgegner; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer._
+_Für Saldotheorie: Rückabwicklung nichtiger gegenseitiger Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: saldotheorie-rueckabwicklung-nichtiger-vertraege._
 
-# Einreden und Verteidigung des Anfechtungsgegners — AnfG
+# Saldotheorie: Rückabwicklung nichtiger gegenseitiger Verträge
 
-## Triage — kläre die Verteidigungsstrategie
+## Arbeitsweg
 
-1. Auf welchen Anfechtungstatbestand stützt der klagende Gläubiger seinen Anspruch (§ 3 oder § 4 AnfG)?
-2. Liegt echte Unentgeltlichkeit vor oder wurde eine Gegenleistung erbracht?
-3. Hatte der Anfechtungsgegner tatsächlich Kenntnis vom Benachteiligungsvorsatz des Schuldners?
-4. Besteht die Möglichkeit der analogen Anwendung des Bargeschäftsprivilegs?
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 812 ff. BGB, AnfG und Insolvenzanfechtung; §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten; § 135 Gesellschafterdarlehen, Bargeschäft; § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Zentrale Normen
+## Triage — kläre vor der Berechnung
 
-- § 3 AnfG — Vorsatzanfechtung (Kenntnis des Anfechtungsgegners als Tatbestandsmerkmal)
-- § 4 AnfG — Unentgeltliche Leistung (kein Verschuldenserfordernis; Frist 4 Jahre)
-- § 11 Abs. 2 AnfG — Wertersatz (bei Untergang des Gegenstands)
-- § 142 InsO — Bargeschäftsprivileg (analoge Anwendung im AnfG str.)
-- §§ 812 ff. BGB — Bereicherungsrecht (Gegenleistungs-Rückforderung gegen Schuldner)
+1. Liegt ein gegenseitiger Vertrag vor, der nichtig, angefochten oder sonst rückabzuwickeln ist?
+2. Welche Leistungen wurden auf beiden Seiten tatsächlich ausgetauscht?
+3. Was ist noch in Natur vorhanden, was ist verbraucht, verschlechtert, zerstört oder weiterveräußert?
+4. Welche Nutzungen, Gebrauchsvorteile, Erlöse, Versicherungsleistungen oder ersparten Aufwendungen gibt es?
+5. Gibt es Schutzgründe gegen eine schematische Saldierung, etwa Minderjährigenschutz, Verbraucherschutz, Sittenverstoß, arglistiges Verhalten oder Bösgläubigkeit?
 
-## Rechtsprechung (BGH — Verteidigung gegen AnfG-Klage)
+## Leitgedanke
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Bei gegenseitigen Verträgen hängen Leistung und Gegenleistung wirtschaftlich zusammen. Die Rückabwicklung darf diese Verbindung nicht künstlich zerreißen. Deshalb wird vor der Anspruchsformulierung ein gemeinsamer Saldo gebildet, soweit keine Schutzwertung entgegensteht.
 
-## Überblick
+## Arbeitsschritte
 
-Der Anfechtungsgegner hat verschiedene Verteidigungsmöglichkeiten gegen eine AnfG-Anfechtungsklage. Sie richten sich nach dem jeweiligen Anfechtungstatbestand.
+### 1. Austauschverhältnis erfassen
 
-## Verteidigung gegen § 3 AnfG (Vorsatzanfechtung)
+Erstelle eine Leistungstabelle:
 
-### Fehlende Kenntnis des Benachteiligungsvorsatzes
+| Partei | Leistung | Wert bei Empfang | heutiger Zustand | Nutzungen/Surrogate |
+|---|---|---:|---|---|
+| A | [...] | [...] | [...] | [...] |
+| B | [...] | [...] | [...] | [...] |
 
-Der Anfechtungsgegner bestreitet, dass er zum Zeitpunkt der Handlung den Benachteiligungsvorsatz des Schuldners kannte. Argumente:
-- Keine Kenntnis von der Zahlungsunfähigkeit des Schuldners.
-- Keine Kenntnis von der Gläubigerbenachteiligungsabsicht.
-- Fehlen der nahestehenden-Personen-Eigenschaft (keine Vermutung).
+### 2. Naturalherausgabe vor Geldsaldo
 
-### Kein Benachteiligungsvorsatz des Schuldners
+Prüfe zuerst, was real zurückgegeben werden kann:
 
-Schuldner handelte zur Erfüllung einer berechtigten Verpflichtung, ohne Benachteiligungsabsicht.
+- Sache noch vorhanden.
+- Forderung noch abtretbar.
+- Geldbetrag noch vorhanden.
+- Nutzungen herauszugeben.
+- Surrogate oder Ersatzleistungen vorhanden.
 
-## Verteidigung gegen § 4 AnfG (Unentgeltlichkeit)
+Erst wenn Naturalherausgabe ausscheidet oder unpraktisch ist, wird Wertersatz angesetzt.
 
-- Nachweis einer Gegenleistung (kein Schenkungscharakter).
-- Leistung in Erfüllung einer sittlichen Pflicht (§ 4 Abs. 2 AnfG).
-- Fristablauf (mehr als vier Jahre seit Rechtshandlung).
+### 3. Gemeinsamen Saldo bilden
 
-## Bargeschäftsargument
+Rechne nicht zwei isolierte Ansprüche blind gegeneinander. Baue den Saldo aus:
 
-Das Bargeschäftsprivileg des § 142 InsO gilt im AnfG nicht unmittelbar. Analoge Anwendung ist umstritten. Argument: Gleichwertiger Leistungsaustausch ohne Gläubigerbenachteiligung schließt Anfechtung aus (teleologische Reduktion). Nach überwiegender Meinung greift diese Argumentation im AnfG-Rahmen nur eingeschränkt.
+- Wert der Leistung A an B.
+- Wert der Leistung B an A.
+- Nutzungen, Gebrauchsvorteile und ersparte Aufwendungen.
+- Wertminderungen, Untergang und Weiterveräußerung.
+- Risikozuweisung: Wer soll das Risiko des Wegfalls im konkreten Verhältnis tragen?
 
-## Entreicherungseinwand
+### 4. Schutzkorrekturen prüfen
 
-Im AnfG gibt es keine dem § 818 Abs. 3 BGB entsprechende allgemeine Entreicherungseinrede. Bei gutgläubigem Anfechtungsgegner kann Entreicherung jedoch nach Treu und Glauben berücksichtigt werden (str.).
+Eine schematische Saldierung kann unpassend sein, wenn sie eine Schutzentscheidung unterläuft:
 
-## Gegenforderung (Gegenleistungs-Rückforderung)
+- Minderjährige oder geschäftsunfähige Personen.
+- Gesetzes- oder Sittenverstoß einer Partei.
+- Verbraucherschützende Widerrufs- oder Informationsregeln.
+- Arglist, Täuschung oder bewusstes Ausnutzen.
+- Bösgläubigkeit nach § 819 BGB.
+- Spezielle Rückabwicklungsordnung, etwa Rücktritt, Widerruf, EBV oder Deliktsrecht.
 
-Hat der Anfechtungsgegner für das Empfangene eine Gegenleistung erbracht, kann er bei Rückgewähr seine Gegenleistung zurückfordern — aber nur gegen den Schuldner, nicht gegen den anfechtenden Gläubiger.
+### 5. Klageziel formulieren
+
+Am Ende muss klar sein:
+
+- Wer verlangt was von wem?
+- Ist Herausgabe, Zahlung, Zug-um-Zug-Verurteilung oder Feststellung sinnvoll?
+- Welche Gegenleistung ist im Antrag zu berücksichtigen?
+- Welche Einreden des Gegners sind vorweg zu behandeln?
+
+## Typische Fehler
+
+- Nur die eigene Leistung zurückfordern und die Gegenleistung ignorieren.
+- § 818 Abs. 3 BGB auf einen Gegenstand anwenden, ohne Nutzungen, Surrogate und ersparte Aufwendungen zu prüfen.
+- Bei Minderjährigen oder sittenwidrigen Geschäften dieselbe Rechenlogik wie bei zwei voll informierten Kaufleuten verwenden.
+- Zug-um-Zug-Fragen erst im Vollstreckungsstadium bemerken.
+
+## Output-Template
+
+**Saldoanalyse Rückabwicklung**
+
+Sachverhalt: [...]
+
+| Position | Wert |
+|---|---:|
+| Leistung A an B | [...] EUR |
+| Nutzungen/Surrogate bei B | [...] EUR |
+| Leistung B an A | [...] EUR |
+| Nutzungen/Surrogate bei A | [...] EUR |
+| Wertminderung/Untergang | [...] EUR |
+| Schutzkorrektur | ja / nein: [...] |
+| vorläufiger Saldo | [...] EUR zugunsten [...] |
+
+**Prozessualer Vorschlag:** Antrag auf [...] gegen [...] Zug um Zug gegen [...].
 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 812 BGB (Herausgabeanspruch ungerechtfertigte Bereicherung)
-- § 813 BGB (Leistung trotz Einrede)
-- § 814 BGB (Kenntnis der Nichtschuld)
-- § 815 BGB (Nichteintritt des Erfolges)
-- § 817 BGB (Verstoß gegen Verbotsgesetz)
-- § 818 BGB (Umfang des Bereicherungsanspruchs)
-- § 819 BGB (verschärfte Haftung)
-- § 820 BGB (Verbrauchskondiktion)
-- § 821 BGB (Einrede der Bereicherung)
-- §§ 119, 123 BGB (Anfechtung Willenserklärung)
-
-### Leitentscheidungen
-
-- BGH XI ZR 116/15 (Leistungskondiktion bei verdeckter Provision)
-- BGH VIII ZR 91/04 (Saldotheorie)
-- BGH V ZR 215/11 (Nichteintritt des Erfolges)
-- BGH IX ZR 196/14 (Insolvenzanfechtung)
-- BGH XI ZR 233/16 (Kontoeröffnungs-Anfechtung)
-
-### Anwendung im Skill
-
-- Leistungs- vs. Nichtleistungskondiktion strikt trennen; § 812 Abs. 1 S. 1 1. Alt. BGB ist kein Auffang.
-- Saldotheorie BGH VIII ZR 91/04 bei nichtigen Vertraegen anwenden; Zwei-Kondiktionen-Lehre als Gegenmodell prüfen.
-- Anfechtung §§ 119, 123 BGB binnen Jahresfrist § 124 BGB; verschaerfte Haftung § 819 BGB ab Kenntnis.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

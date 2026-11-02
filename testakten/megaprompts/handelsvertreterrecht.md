@@ -2,91 +2,182 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 128 Skills (gekuerzt fuer Chat-Fenster) des Plugins `handelsvertreterrecht`.
+Diese Vollprüfung enthält top-8 von 129 Skills (gekürzt für das Arbeitsfenster) des Plugins `handelsvertreterrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Allgemein in Handelsvertreterrecht und Vertriebsverträge geht: klärt Rolle, Ziel, Frist, Unterlagen und den p…
-2. **schiedsgericht** — Wenn es um Schiedsklausel im Handelsvertretervertrag nach Paragrafen 1029 ff. ZPO und Paragraf 92c HGB in Handelsvertret…
-3. **einstweiliger-rechtsschutz** — Wenn es um Einstweiliger Rechtsschutz in Handelsvertreterstreitigkeiten nach Paragrafen 916 ff. ZPO in Handelsvertreterr…
-4. **kartellrecht-vertikal** — Wenn es um Kartellrecht und vertikale Beschränkungen im Handelsvertretervertrieb nach Art. 101 AEUV in Handelsvertreterr…
-5. **nachvertragliche-provision-rechtsabteilung** — Wenn es um Provision nach Vertragsende nach Paragraf 87 Abs. 3 HGB — Folgeprovision und Nachwirkung in Handelsvertreterr…
-6. **alters-krankheitskuendigung** — Wenn es um Kündigung wegen Alters oder Krankheit des Handelsvertreters nach Paragraf 89 Abs. 3 HGB in Handelsvertreterre…
-7. **post-contract-principal-direktgeschaeft** — Wenn es um Nachvertragliches Wettbewerbsverbot nach Paragraf 90a HGB — Durchsetzung und Verletzung in Handelsvertreterre…
-8. **gebietsschutz** — Wenn es um Gebietsschutz im Handelsvertretervertrag nach Paragraf 87 Abs. 2 HGB und Kartellrecht in Handelsvertreterrech…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Handelsvertreterrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbin…
+2. **kaltstart-triage** — Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. F…
+3. **kundendaten-dsgvo** — Prüft die Nutzung und Weitergabe von Kundendaten im Handelsvertreterverhältnis nach DSGVO und Paragraf 90 HGB; trennt da…
+4. **datentraeger-rueckgabe** — Prüft die Rückgabe von Datenträgern und Unterlagen nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf 667…
+5. **deutscher-vertreter-ecommerce-marketplace** — Für Deutscher Handelsvertreter für ausländischen Unternehmer — Rechtsschutz und Gerichtsstand: ordnet Norm, Beweislast u…
+6. **crm-und-datenschutz** — Prüft CRM-Daten im Handelsvertreterverhältnis: Datenschutzrollen, Herausgabe nach Vertrag und Paragraf 675 Absatz 1 in V…
+7. **stornoreserve-training-material** — Für Stornoreserve im Handelsvertretervertrag — Zulässigkeit nach Paragraf 307 BGB und Paragraf 87a HGB: ordnet Norm, Bew…
+8. **kundenliste-herausgabe-kundenschutz-makler** — Prüft die Herausgabe von Kundenlisten nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf 667 BGB; trennt …
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Handelsvertreterrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Handelsvertreterrecht
+
+## 1. Direktstart
+
+Arbeite als Handelsrechtlicher Bearbeiter für Kaufmann, Firma, Registerpublizität, Prokura, Handelsgeschäft, Handelskauf, Kommission, Handelsvertreter, Fracht, Spedition und Lagergeschäft.
+
+Pluginauftrag: Handelsvertreterrecht nach HGB: Status, Provision, Buchauszug, Kündigung, Ausgleich Paragraf 89b, Wettbewerbsverbot Paragraf 90a und Vertriebsmodelle.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Handelsvertreterrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Kurzvermerk, Prüfmatrix, Entwurf, Antrag, Entscheidungsvorschlag oder Fristenblatt.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Status und Register | Kaufmann, Unternehmensträger, Firma, Eintragung, Bekanntmachung und Vertrauenslage bestimmen |
+| Vertretung | Organ, Prokura, Handlungsvollmacht, Rechtsschein, Umfang und Nachweis der Vertretungsmacht prüfen |
+| Geschäft | Vertragstyp, beiderseitiges Handelsgeschäft, Handelsbrauch, kaufmännisches Bestätigungsschreiben und AGB einordnen |
+| Leistungsstörung | Lieferung, Untersuchung, Rüge, Fixtermin, Zurückbehaltung, Provision, Ausgleich oder Transporthaftung mit Belegen verbinden |
+| Arbeitsprodukt | Registeranmeldung, Vertragsklausel, Rüge, Provisionsabrechnung, Buchauszugsverlangen, Kündigung oder Klageentwurf erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Kündigungsfristen 89: Bearbeite den Fachpunkt im Skill kuendigungsfristen-89 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Fristlose Kündigung nach Paragraf 89a HGB — wichtiger Grund und Rechtsfolgen: Bearbeite den Fachpunkt im Skill fristlose-kuendigung-89a und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Rechtsprechungs-Livecheck BGH und EuGH zum Handelsvertreterrecht: Bearbeite den Fachpunkt im Skill rechtsprechung-livecheck-fristlose-kuendigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Alleinvertreter und Bezirksprovision nach Paragraf 87 Abs. 2 HGB: Bearbeite den Fachpunkt im Skill alleinvertreter-alters-krankheitskuendigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. HGB Paragraf 1 bis Paragraf 6: Kaufmannseigenschaft und Anwendungsbereich des Handelsrechts.
+4.2. HGB Paragraf 15 und Paragraf 17 bis Paragraf 37: Registerpublizität und Firmenrecht.
+4.3. HGB Paragraf 48 bis Paragraf 58: Prokura und Handlungsvollmacht.
+4.4. HGB Paragraf 84 bis Paragraf 92c: Handelsvertreter, Provision, Buchauszug, Kündigung und Ausgleich.
+4.5. HGB Paragraf 343 bis Paragraf 354: Handelsgeschäfte, Sorgfalt, Kontokorrent, Zinsen und Vergütung.
+4.6. HGB Paragraf 373 bis Paragraf 376 und Paragraf 377: Annahmeverzug, Fixhandelskauf sowie Untersuchungs- und Rügeobliegenheit.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Anspruchsteller für anspruchsbegründende Tatsachen; Gegner für Einwendungen, Fristablauf, Erfüllung und Ausschlüsse.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Wer ist aus welchem Grund Kaufmann und welche Registerlage ist veröffentlicht.
+7.2. Wer handelte mit welcher Vertretungsmacht und welcher Rechtsschein greift.
+7.3. Welcher HGB-Vertragstyp und welche Sonderregel verdrängen allgemeines BGB-Recht.
+7.4. Welche Untersuchungs-, Rüge-, Abrechnungs- oder Ausschlussfrist läuft.
+7.5. Welche Rechnung, Korrespondenz, Registerangabe oder Transporturkunde trägt das Ergebnis.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Status und Register, Vertretung, Geschäft, Leistungsstörung: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Kurzvermerk, Prüfmatrix, Entwurf, Antrag, Entscheidungsvorschlag oder Fristenblatt verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Allgemein in Handelsvertreterrecht und Vertriebsverträge geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Handelsvertreterrecht und Vertriebsverträge._
 
-# Allgemein
+# 1. Handelsvertretermandat bearbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+Ordne die konkrete Vertriebsbeziehung und bearbeite den bestellten Provisions-, Vertrags- oder Beendigungsauftrag. Eine bereits erkennbare Aufgabe wird nicht durch eine neue Mandatsaufnahme oder einen allgemeinen Fallfahrplan ersetzt.
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1.1. Eingaben
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Lies vorliegende Verträge, Gebietsabreden, Abrechnungen, Kundenlisten und Kündigung einschließlich Zugangsnachweis. Entnimm daraus vertretene Partei, Tätigkeit, Zeitraum und Dokumentwunsch. Frage nur nach fehlenden Angaben, die Anspruch, Rechnung, Frist oder Erklärung tatsächlich ändern.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+## 1.2. Fachlicher Ablauf
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+1. Unterscheide selbstständige Handelsvertretung, angestellten Vertrieb, Makler und Vertragshändler nach Vertrag und tatsächlicher Tätigkeit. Bei unklarem Status gezielt nach Weisungen, Arbeitsorganisation und Geschäftsabschluss fragen, statt aus der Überschrift des Vertrags zu entscheiden.
+2. Bei Provision Geschäft, Vermittlung oder Bezirkszuordnung, Ausführung, Basis, Satz und verbuchte Zahlung vergleichen. Fehlen Stornogrund oder Ausführungsdaten, konkrete Positionen nachfordern; nach Antwort Anspruch und Rechnung aktualisieren und den verlangten Brief oder Berechnungsvermerk ausformulieren.
+3. Bei Vertragsende Kündigung und Zugang, Endtermin, nachvertragliche Provision und Ausgleich auseinanderhalten. Fehlende Kundenerträge oder Anmeldungsnachweise gezielt erfragen; nach Eingang Fristbewertung und Ausgleichsrechnung fortführen, nicht bei der Nachforderung stehen bleiben.
+4. Bei Vertragsgestaltung Gebietsrechte, Vergütung, Informationspflichten, Laufzeit und Beendigung aufeinander abstimmen. Ändert eine Antwort den Vertriebskanal oder Kundenkreis, die davon betroffenen Klauseln überarbeiten und die bestellte Fassung fertigstellen.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Weitere kurze Rückfragerunden sind zulässig, wenn eine Antwort eine neue entscheidende Lücke zeigt. Bereits geklärte Angaben nicht nochmals erheben. Bei Hindernissen den belastbaren Teil vorläufig liefern; fehlende Belege nicht durch vermeintlich sichere Annahmen ersetzen.
 
-## Wofür dieser Arbeitsgang da ist
-Wer ist was, welche Geschäfte, welche Vergütung, welches Gebiet, welches Ende und welcher Anspruch.
+## 1.3. Recht und Belege
 
-Dieser Skill arbeitet nicht als abstraktes Merkblatt. Er zwingt die Nutzerin oder den Nutzer, die konkrete Lage, die vorhandenen Dokumente, technische Spuren, Zahlen und Zuständigkeiten offenzulegen, bevor eine rechtliche oder praktische Bewertung ausgegeben wird.
+Prüfe die einschlägigen Paragrafen 84 bis 92c HGB und die Richtlinie 86/653/EWG anhand amtlicher Quellen. Anspruch, Informationsrecht, Einwendung und Beweislast konkret zuordnen. Eine Geschäftsbezeichnung beweist ebenso wenig den Status wie eine Provisionssumme die Vollständigkeit eines Buchauszugs.
 
-## Kaltstartfragen
+Entscheidungen nur mit überprüftem Gericht, Datum, Aktenzeichen und tragender Aussage verwenden; keine Literaturfundstellen aus Modellwissen. Die optional verfügbare `references/zitierweise.md` ergänzt die Zitierweise. Offene Rechtsprüfung und fehlende Geschäftsdaten in einer getrennten Arbeitsnotiz unterscheiden.
 
-- Welche konkrete Entscheidung steht jetzt an und wer muss sie verantworten?
-- Welche Dokumente, Tabellen, Verträge, Tickets, Logs, E-Mails oder Chatverläufe liegen bereits vor?
-- Welche Frist, Behörde, Vertragspartei, Kundengruppe oder interne Eskalation macht Druck?
-- Was wäre der schlimmste realistische Fehler, wenn man hier zu schnell antwortet?
-- Welche Quelle muss live geprüft werden, bevor eine Norm, Frist oder Rechtsprechung zitiert wird?
+## 1.4. Ausgabe und Grenzen
 
-## Arbeitslogik
+Liefere die gewünschte Beratung, Berechnung, Vertragsklausel oder Erklärung vollständig ausformuliert. Ein Beratungsauftrag rechtfertigt keinen ungefragten Klageentwurf; ein bestellter Brief ist nicht durch einen Fahrplan erledigt. Tabellen nur für Geschäftsdaten, Rechnungen oder echte Varianten verwenden, keine Pflichtampeln oder internen Prüffeldnamen ausgeben.
 
-1. **Sachverhalt festnageln:** Beteiligte, Zeitraum, Dokumente, Zahlen, Systeme, Rollen und offene Lücken in einer kurzen Matrix erfassen.
-2. **Pflichtanker setzen:** Maßgebliche Normen und Behördenquellen live prüfen; keine BeckRS-, Juris-, Kommentar- oder Aufsatz-Blindzitate verwenden.
-3. **Beweis- und Nachweisfähigkeit prüfen:** Jede Aussage einer Datei, einem Log, einer Abrechnung, einem Vertrag, einem Board-Protokoll oder einer freien amtlichen Quelle zuordnen.
-4. **Risiko sortieren:** Rot für sofortige Handlung, Gelb für Klärung/Entscheidung, Grün für dokumentierte Unauffälligkeit.
-5. **Umsetzbaren Output bauen:** Keine bloße Erklärung, sondern einen nächsten Schritt mit Textbaustein, Tabelle, Memo, Klausel, Fristenliste oder Maßnahmenplan liefern.
+Die Nutzerbenennung für die Datei geht vor. Formatierte Dokumente möglichst in Times New Roman 11 pt und mit dezimaler Gliederung; bei Textausgabe einen getrennten Exporthinweis geben. Kündigung, Anmeldung, Versand oder Einreichung nur nach ausdrücklicher Freigabe veranlassen.
 
-## Fachanker
+## 1.5. Beispiel
 
-- Primärer Anker: HGB §§ 84-92c; RL 86/653/EWG.
-- Ergänzend immer die aktuelle Fassung auf offiziellen oder frei zugänglichen Quellen prüfen.
-- Rechtsprechung nur nennen, wenn Gericht, Entscheidungsdatum, Aktenzeichen und eine frei überprüfbare Quelle vorliegen.
+Für eine Provisionsforderung fehlen bei drei Aufträgen die Ausführungsdaten. Fordere diese Angaben gezielt an und berechne zunächst nur die belegten Positionen. Nach Eingang die drei Aufträge prüfen, Gesamtdifferenz aktualisieren und das bestellte Forderungsschreiben fertigstellen; widersprüchliche Stornos gesondert klären.
 
-## Typische Stolperstellen
-
-- Aus einem bloßen Policy-Dokument wird vorschnell auf tatsächliche Umsetzung geschlossen.
-- Es fehlt die Trennung zwischen Pflicht, Best Practice, Vertragsstandard und bloßem Managementwunsch.
-- Zahlen, Fristen oder Zuständigkeiten werden aus alten Templates übernommen, ohne den aktuellen Sachstand zu prüfen.
-- Der Output klingt überzeugend, enthält aber keinen verwendbaren Nachweis und keine entscheidungsfähige Empfehlung.
-
-## Ergebnisformat
-
-Erzeuge bevorzugt: Fallfahrplan. Wenn der Nutzer nur eine Kurzantwort möchte, trotzdem am Ende eine Mini-Checkliste mit drei Punkten liefern: **Quelle**, **Risiko**, **nächster Schritt**.
-
-## Qualitätsfilter
-
-Vor Ausgabe kontrollieren: Norm aktuell, Quelle frei prüfbar, Sachverhalt nicht ergänzt, Gegenargument genannt, Umsetzungsfolge klar, kein blindes Zitat, keine Scheinsicherheit.
+Ohne weitere Skills anhand dieses Ablaufs weiterarbeiten. Nicht zugängliche Dateien oder Quellen konkret benennen, keine erfolgte Prüfung vortäuschen. Ohne Export vollständigen Text liefern.
 
 ---
 
-## Skill: `schiedsgericht`
+## Skill: `kundendaten-dsgvo`
 
-_Wenn es um Schiedsklausel im Handelsvertretervertrag nach Paragrafen 1029 ff. ZPO und Paragraf 92c HGB in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Prüft die Nutzung und Weitergabe von Kundendaten im Handelsvertreterverhältnis nach DSGVO und Paragraf 90 HGB; trennt davon Herausgabeansprüche nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf 667 BGB._
 
-# Schiedsklausel im Handelsvertretervertrag nach §§ 1029 ff. ZPO und § 92c HGB
+# Kundendaten im Handelsvertretervertrag: Datenschutz, Geheimnisschutz und Herausgabe
 
 ## Arbeitsweg
 
@@ -98,92 +189,7 @@ _Wenn es um Schiedsklausel im Handelsvertretervertrag nach Paragrafen 1029 ff. Z
 
 ## Überblick
 
-Unterstützt bei rechtlichen Fragen rund um Schiedsklausel im Handelsvertretervertrag nach §§ 1029 ff. ZPO und § 92c HGB.
-Er deckt HGB §§ 84–92c und die EU-Handelsvertreterrichtlinie 86/653/EWG ab.
-Ziel: konkrete, umsetzbare Ergebnisse für Handelsvertreter und Unternehmer.
-Zwingende Normen (§ 92c HGB) schützen den Handelsvertreter auch bei ausländischer Rechtswahl.
-BGH und EuGH haben zentrale Rechtsfragen durch Leitentscheidungen geprägt.
-
-## Mandantenfall
-
-- Unternehmer Y hat im Handelsvertretervertrag eine Schiedsklausel vereinbart; Handelsvertreter X fragt, ob er den Ausgleich dennoch vor einem ordentlichen Gericht einklagen kann.
-- Handelsvertreter X hat ein Schiedsverfahren gewonnen; Unternehmer Y will den Schiedsspruch anfechten mit der Begründung, zwingendes Handelsvertreterrecht sei nicht angewendet worden.
-- Handelsvertreter X soll eine Schiedsklausel für seinen neuen Vertrag mit ausländischem Unternehmer Y aushandeln; er fragt nach Vor- und Nachteilen.
-
-## Erste Schritte
-
-1. Schiedsklausel auf Wirksamkeit nach §§ 1029 ff. ZPO prüfen.
-2. Vereinbarkeit der Schiedsklausel mit § 92c HGB — zwingende Normen müssen auch im Schiedsverfahren gelten.
-3. Schiedsgericht und anwendbares Recht (Schiedsinstitution, Sitz, Sprache) klären.
-4. Kosten und Zeitaufwand eines Schiedsverfahrens realistisch einschätzen.
-5. Anfechtungsgründe für Schiedssprüche nach § 1059 ZPO prüfen.
-6. Vollstreckung des Schiedsspruchs in Deutschland und im Ausland klären.
-
-## Rechtsrahmen
-
-- §§ 1029–1066 ZPO — Schiedsverfahren
-- § 1059 ZPO — Aufhebungsantrag gegen Schiedssprüche
-- § 92c HGB — Zwingende Normen müssen im Schiedsverfahren beachtet werden
-- NY Convention (1958) — Anerkennung ausländischer Schiedssprüche
-- § 1031 ZPO — Form der Schiedsvereinbarung
-- Art. 17 RL 86/653/EWG — Muss auch im Schiedsverfahren angewendet werden
-
-## Prüfraster
-
-- Ist die Schiedsklausel nach §§ 1029 ff. ZPO wirksam vereinbart?
-- Wird das zwingende Handelsvertreterrecht (§ 92c HGB) im Schiedsverfahren angewendet?
-- Kann der Schiedsspruch wegen Verstoß gegen zwingendes Recht angefochten werden?
-- Welche Schiedsinstituion und welches Recht gelten?
-- Ist ein Schiedsverfahren für den konkreten Streit kosteneffizient?
-- Kann der Schiedsspruch in Deutschland und im relevanten Ausland vollstreckt werden?
-
-## Typische Fallstricke
-
-- Schiedsklausel schließt zwingende deutsche Normen nicht aus — Schiedsspruch anfechtbar.
-- Wahl ausländischer Schiedsinstitution ohne Bedacht auf Vollstreckbarkeit.
-- Schiedsverfahren teurer als ordentliches Gericht — falsche Kostenerwartung.
-- Schiedsgericht wendet ausländisches Recht an — zwingende § 92c HGB-Normen ignoriert.
-
-## Hintergrund und Kontext
-
-Das Handelsvertreterrecht steht im fünften Buch des HGB (§§ 84 bis 92c).
-Es gilt als Sonderprivatrecht zwischen Arbeits- und allgemeinem Handelsrecht.
-Die EU-Handelsvertreterrichtlinie 86/653/EWG setzt europäische Mindeststandards.
-Kernprinzipien: Selbständigkeit, Provisionsanspruch, Buchauszug, Ausgleich bei Vertragsende.
-Nachvertragliches Wettbewerbsverbot (§ 90a HGB) und Delkredere (§ 86b HGB) regeln Sonderlagen.
-Zwingende Vorschriften nach § 92c HGB schützen den Handelsvertreter.
-Entgegenstehende Klauseln sind nach § 134 BGB nichtig.
-Für grenzüberschreitende Sachverhalte bestimmt die Rom-I-Verordnung das anwendbare Recht.
-Zwingende Normen wie Ausgleich (§ 89b HGB) und Buchauszug (§ 87c HGB) stehen nicht zur Disposition.
-Bei Statusfragen (Selbständigkeit) ist das Statusfeststellungsverfahren nach § 7a SGB IV maßgeblich.
-
-## Quellen
-
-- [§ 1029 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__1029.html)
-- [§ 1059 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__1059.html)
-- [§ 92c HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__92c.html)
-- [NY Convention auf UNCITRAL](https://uncitral.un.org/en/texts/arbitration/conventions/foreign_arbitral_awards)
-- [Dejure § 1029 ZPO](https://dejure.org/gesetze/ZPO/1029.html)
-
----
-
-## Skill: `einstweiliger-rechtsschutz`
-
-_Wenn es um Einstweiliger Rechtsschutz in Handelsvertreterstreitigkeiten nach Paragrafen 916 ff. ZPO in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Einstweiliger Rechtsschutz in Handelsvertreterstreitigkeiten nach §§ 916 ff. ZPO
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Überblick
-
-Unterstützt bei rechtlichen Fragen rund um Einstweiliger Rechtsschutz in Handelsvertreterstreitigkeiten nach §§ 916 ff. ZPO.
+Prüft die datenschutzrechtliche Zulässigkeit der Kundendatenverarbeitung und den Geheimnisschutz nach Paragraf 90 HGB. Herausgabeansprüche aus Vertrag und Paragrafen 675 Absatz 1, 667 BGB sind gesondert zu bestimmen; sie erlauben keine datenschutzwidrige Übermittlung.
 Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
 und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
 Ziel sind konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
@@ -191,43 +197,130 @@ Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
 
 ## Mandantenfall
 
-- Handelsvertreter X wird nach fristloser Kündigung von Unternehmer Y sofort durch einen neuen Vertreter ersetzt; X beantragt einstweilige Verfügung auf Unterlassung.
-- Unternehmer Y hat Kenntnis, dass früherer Handelsvertreter X seine Kunden systematisch abwirbt; Y beantragt einstweilige Verfügung auf Unterlassung des Wettbewerbs.
-- Handelsvertreter X befürchtet, dass Unternehmer Y Vermögen ins Ausland verschiebt, bevor über den Ausgleichsanspruch entschieden ist; X beantragt Arrest nach § 916 ZPO.
+- Handelsvertreter X hat während der Vertragslaufzeit umfangreiche Kundendaten gesammelt; bei Vertragsende streitet er mit Unternehmer Y, wem diese Daten gehören.
+- Unternehmer Y erhält eine Anfrage der Datenschutzbehörde, weil sein Handelsvertreter X Kundendaten ohne Rechtsgrundlage an Dritte weitergegeben hat.
+- Handelsvertreter X fragt, ob er nach Vertragsende noch Kundendaten für eigene Werbezwecke nutzen darf; zu prüfen sind die konkrete datenschutzrechtliche Nutzungsbefugnis und gegebenenfalls Paragraf 90 HGB.
 
 ## Erste Schritte
 
-1. Verfügungsanspruch bestimmen: welches Recht soll gesichert werden?
-2. Verfügungsgrund glaubhaft machen: Dringlichkeit und Eilbedürftigkeit.
-3. Arrest nach §§ 916 ff. ZPO prüfen bei Geldansprüchen und Vermögensgefährdung.
-4. Antrag auf einstweilige Verfügung beim zuständigen Landgericht stellen.
-5. Sicherheitsleistung einplanen; Schadensersatzrisiko nach § 945 ZPO berücksichtigen.
-6. Hauptsacheklage innerhalb der gesetzlichen Frist nach Verfügungserlass erheben.
+1. Rechtsgrundlage für Kundendatenverarbeitung nach Art. 6 DSGVO klären.
+2. Zugriffs- und Nutzungsrechte sowie Herausgabepflichten aus Vertrag und Paragrafen 675 Absatz 1, 667 BGB anhand der Herkunft und des Auftragsbezugs der Daten bestimmen; kein allgemeines Dateneigentum annehmen.
+3. Auftragsverarbeitungsvertrag nach Art. 28 DSGVO prüfen oder abschließen.
+4. Für Paragraf 90 HGB feststellen, welche Daten anvertraute oder durch die Tätigkeit bekannt gewordene Geschäfts- oder Betriebsgeheimnisse enthalten und ob die konkrete Nutzung nach den gesamten Umständen unzulässig ist. Nicht alle Kundendaten unterliegen automatisch einem nachvertraglichen Nutzungsverbot.
+5. Datenschutz-Folgenabschätzung bei CRM-Einsatz nach Art. 35 DSGVO prüfen.
+6. Bußgeldrisiken nach Art. 83 DSGVO bei Datenschutzverstößen einschätzen.
 
 ## Rechtsrahmen
 
-- §§ 935–945 ZPO — Einstweilige Verfügung: Anspruch und Grund
-- §§ 916–934 ZPO — Arrest zur Sicherung von Geldansprüchen
-- § 945 ZPO — Schadensersatzpflicht bei unberechtigter einstweiliger Verfügung
-- § 940 ZPO — Regelungsverfügung bei besonderem Bedarf
-- § 90a HGB — Wettbewerbsverbot als Grundlage einer Unterlassungsverfügung
-- § 89b HGB — Sicherung des Ausgleichsanspruchs als Verfügungsanspruch
+- Paragraf 90 HGB: Geheimnisschutz, auch nach Vertragsende; Paragraf 88 HGB ist weggefallen.
+- Paragrafen 675 Absatz 1, 667 BGB: auftragsbezogene Herausgabe neben vertraglichen Regelungen, getrennt von datenschutzrechtlichen Verarbeitungsbefugnissen.
+- Art. 6 DSGVO — Rechtmäßigkeit der Verarbeitung personenbezogener Daten
+- Art. 28 DSGVO — Auftragsverarbeitungsvertrag
+- Art. 35 DSGVO — Datenschutz-Folgenabschätzung
+- Art. 83 DSGVO — Bußgelder bei Verstößen
+- § 26 BDSG — Datenverarbeitung für Beschäftigungszwecke (analog für Handelsvertreter)
 
 ## Prüfraster
 
-- Liegt ein Verfügungsanspruch (materiell-rechtlicher Anspruch) vor?
-- Besteht ein Verfügungsgrund (Dringlichkeit, Eilbedürftigkeit)?
-- Ist der Antrag hinreichend bestimmt und glaubhaft gemacht?
-- Droht ein irreparabler Schaden ohne einstweiligen Rechtsschutz?
-- Besteht Schadensersatzrisiko nach § 945 ZPO bei unbegründeter Verfügung?
-- Ist Arrest oder einstweilige Verfügung das geeignetere Instrument?
+- Auf welcher Rechtsgrundlage verarbeitet der Handelsvertreter Kundendaten?
+- Wer darf welche Kundendaten nach Vertragsende nutzen und wer kann ihre Herausgabe verlangen?
+- Darf der Handelsvertreter Kundendaten nach Vertragsende für eigene Zwecke nutzen?
+- Besteht eine Pflicht zum Abschluss eines AVV nach Art. 28 DSGVO?
+- Welche Löschfristen gelten für Kundendaten nach Vertragsende?
+- Drohen Bußgelder nach Art. 83 DSGVO wegen Datenschutzverstößen?
 
 ## Typische Fallstricke
 
-- Verfügungsgrund nicht glaubhaft gemacht — Verfügung abgewiesen.
-- Zu weit gefasster Verfügungsantrag — Gericht weist wegen Unbestimmtheit zurück.
-- Schadensersatzrisiko nach § 945 ZPO bei unberechtigter Verfügung unterschätzt.
-- Hauptsacheklage nach Erlass der Verfügung versäumt — Verfügung verliert Wirkung.
+- Nutzung von Kundendaten nach Vertragsende ohne tragfähige Verarbeitungsgrundlage oder unter Verletzung des Geheimnisschutzes nach Paragraf 90 HGB; beide Voraussetzungen getrennt prüfen.
+- Fehlendes AVV nach Art. 28 DSGVO — erhöhtes Bußgeldrisiko.
+- Unklare Datenherkunft oder vertragliche Zuordnung: Umfang der Herausgabepflicht streitig.
+- Löschpflichten nach DSGVO nach Vertragsende nicht umgesetzt.
+
+## Hintergrund und Kontext
+
+Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in den §§ 84 bis 92c geregelt.
+Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
+Kernprinzipien: Selbständigkeit, Provisionsanspruch, Informationsrechte, Ausgleich bei Vertragsende.
+BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt.
+Zwingende Vorschriften nach § 92c HGB können nicht abgebedungen werden;
+entgegenstehende Klauseln sind nach § 134 BGB nichtig.
+Praktisch zentral: Provision (§ 87 HGB), Buchauszug (§ 87c HGB), Ausgleich (§ 89b HGB),
+Wettbewerbsverbot (§ 90a HGB) sowie Kündigung (§§ 89 und 89a HGB).
+Auskunftsrechte (Paragraf 87c HGB), Geheimnisschutz (Paragraf 90 HGB) und Delkredere (Paragraf 86b HGB)
+ergänzen das Recht praxisnah.
+
+## Quellen
+
+- [Paragraf 90 HGB](https://www.gesetze-im-internet.de/hgb/__90.html)
+- [Paragraf 667 BGB](https://www.gesetze-im-internet.de/bgb/__667.html)
+- [Paragraf 675 BGB](https://www.gesetze-im-internet.de/bgb/__675.html)
+- [Art. 6 DSGVO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679)
+- [Art. 28 DSGVO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679)
+- [Art. 83 DSGVO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679)
+
+---
+
+## Skill: `datentraeger-rueckgabe`
+
+_Prüft die Rückgabe von Datenträgern und Unterlagen nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf 667 BGB; trennt Gegenstände, Datenkopien, Löschung und Geheimnisschutz nach Paragraf 90 HGB._
+
+# Rückgabe von Datenträgern und Unterlagen bei Vertragsende
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Überblick
+
+Bestimmt die Rückgabe von Datenträgern und Unterlagen nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB. Die Herausgabe eines Firmenlaptops, die Übertragung geschäftlicher Daten und die Löschung verbliebener Kopien sind verschiedene Leistungen.
+Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
+und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
+Ziel sind konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
+Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
+
+## Mandantenfall
+
+- Nach Kündigung verweigert Handelsvertreter X die Herausgabe von Kundenlisten, Angeboten und Musterkoffern an Unternehmer Y.
+- Unternehmer Y verlangt die Rückgabe seines Firmenlaptops und aller darauf gespeicherten Geschäftsdaten von Handelsvertreter X.
+- Handelsvertreter X hat auf seinem privaten Laptop Kundendaten des Unternehmers Y gespeichert; Y verlangt Herausgabe und anschließende Löschung.
+
+## Erste Schritte
+
+1. Für jeden Gegenstand und Datenbestand Herkunft, Eigentümer und Auftragsbezug feststellen. Herausgabe nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB prüfen; auf einem privaten Gerät gespeicherte Geschäftsdaten begründen nicht ohne Weiteres einen Anspruch auf das Gerät selbst. Geheimnisschutz nach Paragraf 90 HGB ersetzt diese Anspruchsprüfung nicht.
+2. Inventar aller herauszugebenden Gegenstände und Daten erstellen.
+3. Vollstreckung der Herausgabepflicht nach § 883 ZPO (vertretbare Sachen) oder § 888 ZPO prüfen.
+4. Datenschutzrechtliche Löschpflichten nach Art. 17 DSGVO klären.
+5. Übergabeprotokoll für körperliche Gegenstände und digitale Zugänge erstellen.
+6. Schadensersatz bei Nichtherausgabe oder Beschädigung berechnen.
+
+## Rechtsrahmen
+
+- Paragraf 90 HGB: fortwirkender Geheimnisschutz unter den gesetzlichen Voraussetzungen, keine eigenständige Rückgabenorm; Paragraf 88 HGB ist weggefallen.
+- Paragrafen 675 Absatz 1, 667 BGB: Herausgabe der für die Geschäftsbesorgung erhaltenen oder daraus erlangten Gegenstände und Unterlagen neben vertraglichen Rückgabepflichten.
+- § 883 ZPO — Vollstreckung auf Herausgabe vertretbarer Sachen
+- § 888 ZPO — Vollstreckung unvertretbarer Handlungen
+- Art. 17 DSGVO — Recht auf Löschung
+- § 280 BGB — Schadensersatz bei Nichtherausgabe
+
+## Prüfraster
+
+- Welche Gegenstände und Daten unterliegen der Herausgabepflicht?
+- Hat der Handelsvertreter die Herausgabe vollständig und fristgerecht geleistet?
+- Besteht eine Löschpflicht für Kundendaten nach DSGVO nach Vertragsende?
+- Welche Vollstreckungsmaßnahmen kommen bei Verweigerung in Betracht?
+- Gibt es ein Zurückbehaltungsrecht des Handelsvertreters wegen offener Provisionen?
+- Sind vertragliche Regelungen zur Rückgabe wirksam vereinbart?
+
+## Typische Fallstricke
+
+- Kein Übergabeprotokoll — Streit über den Zustand zurückgegebener Gegenstände.
+- Digitale Zugänge nach Vertragsende nicht gesperrt — Missbrauchsgefahr.
+- Löschpflicht für Kundendaten auf privatem Gerät des Handelsvertreters nicht umgesetzt.
+- Zurückbehaltungsrecht des Handelsvertreters wegen offener Provisionen nicht berücksichtigt.
 
 ## Hintergrund und Kontext
 
@@ -244,19 +337,19 @@ Wettbewerbsverbot (§ 90a HGB) sowie Kündigung (§§ 89 und 89a HGB).
 
 ## Quellen
 
-- [§ 935 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__935.html)
-- [§ 916 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__916.html)
-- [§ 945 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__945.html)
-- [§ 89b HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__89b.html)
-- [Dejure § 935 ZPO](https://dejure.org/gesetze/ZPO/935.html)
+- [Paragraf 90 HGB](https://www.gesetze-im-internet.de/hgb/__90.html)
+- [§ 667 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__667.html)
+- [§ 883 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__883.html)
+- [Art. 17 DSGVO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679)
+- [Paragraf 675 BGB](https://www.gesetze-im-internet.de/bgb/__675.html)
 
 ---
 
-## Skill: `kartellrecht-vertikal`
+## Skill: `deutscher-vertreter-ecommerce-marketplace`
 
-_Wenn es um Kartellrecht und vertikale Beschränkungen im Handelsvertretervertrieb nach Art. 101 AEUV in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Deutscher Handelsvertreter für ausländischen Unternehmer — Rechtsschutz und Gerichtsstand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
-# Kartellrecht und vertikale Beschränkungen im Handelsvertretervertrieb nach Art. 101 AEUV
+# Deutscher Handelsvertreter für ausländischen Unternehmer — Rechtsschutz und Gerichtsstand
 
 ## Arbeitsweg
 
@@ -268,7 +361,7 @@ _Wenn es um Kartellrecht und vertikale Beschränkungen im Handelsvertretervertri
 
 ## Überblick
 
-Unterstützt bei rechtlichen Fragen rund um Kartellrecht und vertikale Beschränkungen im Handelsvertretervertrieb nach Art. 101 AEUV.
+Unterstützt bei rechtlichen Fragen rund um Deutscher Handelsvertreter für ausländischen Unternehmer — Rechtsschutz und Gerichtsstand.
 Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
 und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
 Ziel sind konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
@@ -276,76 +369,72 @@ Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
 
 ## Mandantenfall
 
-- Unternehmer Y schreibt Handelsvertreter X Mindestverkaufspreise vor; die Kartellbehörde prüft, ob dies eine unzulässige Preisbindung der zweiten Hand darstellt.
-- Handelsvertreter X hat vertraglich ein exklusives Gebiet; Unternehmer Y prüft, ob die Gebietsschutzklausel nach der Vertikal-GVO freigestellt ist.
-- Unternehmer Y will bestimmten Kundengruppen den Direktkauf ermöglichen; er prüft, ob diese Kundengruppenklausel kartellrechtlich zulässig ist.
+- Handelsvertreter X (Sitz Deutschland) vertritt US-Unternehmer Y; nach Kündigung streitet X um den Ausgleich nach § 89b HGB und fragt, ob deutsches Recht gilt.
+- Handelsvertreter X hat im Vertrag mit dem britischen Unternehmer Y englisches Recht vereinbart; X prüft, ob er sich trotzdem auf § 89b HGB berufen kann.
+- Handelsvertreter X soll gegen einen insolventen französischen Unternehmer Y seinen Ausgleichsanspruch in Deutschland geltend machen.
 
 ## Erste Schritte
 
-1. Einordnung der Vereinbarung: echte Handelsvertretung oder selbständiger Vertriebsmittler?
-2. Preisbindungsklausel auf kartellrechtliche Zulässigkeit nach Art. 101 AEUV prüfen.
-3. Gebietsschutz- und Kundengruppen-Klauseln auf Freistellung nach Vertikal-GVO prüfen.
-4. Marktanteilsschwelle der Vertikal-GVO (30 %) für Unternehmer Y ermitteln.
-5. Hardcore-Restrictions identifizieren: absolute Gebietsschutz- oder Preisbindungsklauseln.
-6. Einzelfreistellung nach Art. 101 Abs. 3 AEUV für Fälle außerhalb der GVO prüfen.
+1. Rechtswahl im Vertrag bestimmen und auf Wirksamkeit prüfen.
+2. Eingriffsnormen nach Art. 9 Rom-I-VO und § 92c HGB identifizieren.
+3. RL 86/653/EWG gilt als Mindeststandard in allen EU-Staaten.
+4. Gerichtsstand Deutschland nach Art. 7 EuGVVO (Erfüllungsort) oder Gerichtsstandsklausel prüfen.
+5. Zustellung und Vollstreckung gegen ausländischen Unternehmer klären.
+6. Insolvenzrecht des ausländischen Unternehmers auf Auswirkungen für Provisionsansprüche prüfen.
 
 ## Rechtsrahmen
 
-- Art. 101 AEUV — Kartellverbot für vertikale Vereinbarungen
-- Vertikal-GVO (EU) Nr. 2022/720 — Gruppenfreistellung
-- Art. 4 Vertikal-GVO — Hardcore-Restrictions (Preisbindung und absolute Gebietsabschottung)
-- § 1 GWB — Deutsches Kartellverbot
-- § 84 HGB — Echte Handelsvertretung als Ausnahme vom Kartellverbot
-- Art. 101 Abs. 3 AEUV — Einzelfreistellung
+- Art. 3 und 4 Rom-I-VO — Rechtswahl und objektives Anknüpfungsstatut
+- Art. 9 Rom-I-VO — Eingriffsnormen (§ 92c HGB als Eingriffsnorm)
+- § 92c HGB — Zwingende Schutzvorschriften für in Deutschland tätige Handelsvertreter
+- Art. 17 RL 86/653/EWG — Ausgleichsanspruch Mindeststandard EU
+- Art. 7 EuGVVO — Besonderer Gerichtsstand Erfüllungsort
+- § 328 ZPO — Anerkennung ausländischer Urteile
 
 ## Prüfraster
 
-- Ist die Vertriebsvereinbarung kartellrechtlich als echte Handelsvertretung privilegiert?
-- Enthält der Vertrag Hardcore-Restrictions nach Art. 4 Vertikal-GVO?
-- Ist die Marktanteilsschwelle der Vertikal-GVO überschritten?
-- Sind Gebietsschutz und Kundengruppen wirksam freigestellt?
-- Kommt eine Einzelfreistellung nach Art. 101 Abs. 3 AEUV in Betracht?
-- Welche Sanktionen drohen bei Verstößen gegen Art. 101 AEUV?
+- Gilt deutsches Recht trotz ausländischer Rechtswahl dank § 92c HGB und Art. 9 Rom-I-VO?
+- Welcher Gerichtsstand ist in Deutschland begründet?
+- Wie wird ein deutsches Urteil im Ausland vollstreckt?
+- Sind zwingende Normen der RL 86/653/EWG auch bei Rechtswahl eines Drittstaats anwendbar?
+- Schützt § 92c HGB deutsche Handelsvertreter auch gegenüber nicht-EU-Unternehmern?
+- Welche Folgen hat Insolvenz des ausländischen Unternehmers für Ausgleich und Provision?
 
 ## Typische Fallstricke
 
-- Preisbindung der zweiten Hand als verbotene Hardcore-Restriction übersehen.
-- Marktanteil über 30 % — GVO-Freistellung entfällt, keine Einzelfallprüfung vorgenommen.
-- Absolute Gebietsabschottung als Hardcore-Restriction nicht erkannt.
-- Echte Handelsvertretung irrtümlich angenommen — Kartellprivileg entfällt.
+- Rechtswahl ausländisches Recht schließt zwingende deutsche Normen nicht aus.
+- EuGVVO gilt nur innerhalb der EU — Gerichtsstandsregeln für Drittstaaten unterschiedlich.
+- Vollstreckung in USA ohne bilaterales Anerkennungsabkommen kaum möglich.
+- § 92c HGB schützt nur in Deutschland tätige Handelsvertreter — Tätigkeitsort entscheidend.
 
 ## Hintergrund und Kontext
 
 Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in den §§ 84 bis 92c geregelt.
 Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
-Kernprinzipien: Selbständigkeit, Provisionsanspruch, Informationsrechte, Ausgleich bei Vertragsende.
-BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt.
+Kernprinzipien: Selbständigkeit des Handelsvertreters, Provisionsanspruch, Informationsrechte,
+Ausgleichsanspruch bei Vertragsende sowie Schutz vor einseitiger Benachteiligung.
+BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt,
+insbesondere zur Berechnung des Ausgleichs, zur Richtlinienkonformität und zu Ausschlussgründen.
 Zwingende Vorschriften nach § 92c HGB können nicht abgebedungen werden;
 entgegenstehende Klauseln sind nach § 134 BGB nichtig.
 Praktisch zentral: Provision (§ 87 HGB), Buchauszug (§ 87c HGB), Ausgleich (§ 89b HGB),
 Wettbewerbsverbot (§ 90a HGB) sowie Kündigung (§§ 89 und 89a HGB).
-Auskunftsrechte (§ 87c HGB), Geheimhaltungspflicht (§ 88 HGB) und Delkredere (§ 86b HGB)
-ergänzen das Recht praxisnah.
 
 ## Quellen
 
-- [Art. 101 AEUV auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A12012E101)
-- [Vertikal-GVO 2022/720 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32022R0720)
-- [§ 1 GWB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/gwb/__1.html)
-- [§ 84 HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__84.html)
-- [Dejure Art. 101 AEUV](https://dejure.org/gesetze/EGV/81.html)
+- [Art. 9 Rom-I-VO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32008R0593)
+- [§ 92c HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__92c.html)
+- [RL 86/653/EWG auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31986L0653)
+- [EuGVVO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32012R1215)
+- [Dejure § 92c HGB](https://dejure.org/gesetze/HGB/92c.html)
 
 ---
 
-## Skill: `nachvertragliche-provision-rechtsabteilung`
+## Skill: `crm-und-datenschutz`
 
-_Wenn es um Provision nach Vertragsende nach Paragraf 87 Abs. 3 HGB — Folgeprovision und Nachwirkung in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Prüft CRM-Daten im Handelsvertreterverhältnis: Datenschutzrollen, Herausgabe nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf 667 BGB sowie getrennt Geheimnisschutz nach Paragraf 90 HGB._
 
-# Provision nach Vertragsende nach § 87 Abs. 3 HGB — Folgeprovision und Nachwirkung
-
-## Arbeitsbereich
-
-Prüft Ansprüche auf Provision für Geschäfte nach Vertragsende nach § 87 Abs. 3 HGB: Folgeprovision für Geschäfte, die auf vor Vertragsende geleisteter Tätigkeit des Handelsvertreters beruhen, Abgrenzung zur Folgeprovision nach § 87 Abs. 1 HGB und Verjährung nachvertraglicher Provisionsansprüche. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+# CRM-Systeme, Datenherausgabe und Datenschutz im Handelsvertretervertrag
 
 ## Arbeitsweg
 
@@ -357,50 +446,224 @@ Prüft Ansprüche auf Provision für Geschäfte nach Vertragsende nach § 87 Abs
 
 ## Überblick
 
-Unterstützt bei rechtlichen Fragen rund um Provision nach Vertragsende nach § 87 Abs. 3 HGB — Folgeprovision und Nachwirkung.
+Prüft CRM-Nutzung und Datenschutzrollen sowie die bei Vertragsende herauszugebenden Daten nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB. Geheimnisschutz nach Paragraf 90 HGB ist davon getrennt zu beurteilen.
+Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
+und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
+Ziel sind konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
+Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
+
+## Mandantenfall
+
+- Unternehmer Y stellt seinem Handelsvertreter X ein CRM-System zur Verfügung; nach Kündigung verweigert X die Herausgabe der darin gespeicherten Kundendaten.
+- Handelsvertreter X pflegt Kundendaten in seinem eigenen CRM; nach Vertragsende verlangt Unternehmer Y deren Übertragung. Zu trennen sind für Y erhaltene oder aus der Geschäftsbesorgung erlangte Daten und fremde oder eigene, nicht diesem Auftrag zuzuordnende Bestände.
+- Handelsvertreter X fragt, ob er nach DSGVO Verantwortlicher oder Auftragsverarbeiter für die Kundendaten ist, die er im CRM des Unternehmers Y erfasst.
+
+## Erste Schritte
+
+1. Datenschutzrechtliche Rolle des Handelsvertreters bestimmen: Verantwortlicher oder Auftragsverarbeiter?
+2. Vertragliche Grundlage für CRM-Nutzung, Zugriffs- und Exportrechte prüfen; kein allgemeines Eigentum an Daten unterstellen.
+3. Herausgabe nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB nach Herkunft und Auftragsbezug der Datensätze bestimmen. Ein eigenes CRM schließt Herausgabe nicht aus; verlangt ist aber nicht ohne Weiteres der gesamte Datenbestand.
+4. Auftragsverarbeitungsvertrag nach Art. 28 DSGVO prüfen oder abschließen.
+5. Löschpflichten für Kundendaten nach DSGVO nach Vertragsende bestimmen.
+6. Datensicherheit im CRM-System und Zugriffsrechte nach Vertragsende absichern.
+
+## Rechtsrahmen
+
+- Paragraf 90 HGB: Verwertung oder Mitteilung anvertrauter oder durch die Tätigkeit bekannt gewordener Geschäfts- und Betriebsgeheimnisse; Voraussetzungen und Umstände der konkreten Nutzung prüfen. Paragraf 88 HGB ist weggefallen.
+- Paragrafen 675 Absatz 1, 667 BGB: Herausgabe dessen, was für die Geschäftsbesorgung erhalten oder daraus erlangt wurde, neben vertraglichen Regelungen.
+- Art. 4 Nr. 7 DSGVO — Verantwortlicher
+- Art. 28 DSGVO — Auftragsverarbeiter
+- Art. 17 DSGVO — Recht auf Löschung
+- § 26 BDSG — Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses
+
+## Prüfraster
+
+- Wer ist datenschutzrechtlich Verantwortlicher für die Kundendaten im CRM?
+- Gibt es einen Auftragsverarbeitungsvertrag nach Art. 28 DSGVO?
+- Welche CRM-Datensätze sind nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB herauszugeben, und ist ihre Übermittlung datenschutzrechtlich zulässig?
+- Welche Daten darf der Handelsvertreter nach Vertragsende noch nutzen oder speichern?
+- Gibt es Löschpflichten, die den Unternehmer oder den Handelsvertreter treffen?
+- Sind Zugriffsrechte auf das CRM nach Vertragsende rechtssicher geregelt?
+
+## Typische Fallstricke
+
+- Geheimnisqualität mit Herausgabepflicht verwechselt: Der auftragsbezogene Herausgabeanspruch nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB setzt nicht allein eine NDA oder den Nachweis eines Geschäftsgeheimnisses voraus.
+- Fehlendes AVV nach Art. 28 DSGVO — Bußgeldrisiko für den Unternehmer.
+- Eigene Akquise mit CRM-Daten nach Vertragsende: Geheimnisqualität und Verwertungsgrenzen nach Paragraf 90 HGB sowie die datenschutzrechtliche Nutzungsbefugnis prüfen, nicht jede Verwendung pauschal verbieten.
+- Löschpflichten nach DSGVO nicht umgesetzt — Haftungsrisiko für Verantwortlichen.
+
+## Hintergrund und Kontext
+
+Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in den §§ 84 bis 92c geregelt.
+Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
+Kernprinzipien: Selbständigkeit des Handelsvertreters, Provisionsanspruch, Informationsrechte,
+Ausgleichsanspruch bei Vertragsende sowie Schutz vor einseitiger Benachteiligung.
+BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt,
+insbesondere zur Berechnung des Ausgleichs, zur Richtlinienkonformität und zu Ausschlussgründen.
+Zwingende Vorschriften nach § 92c HGB können nicht abgebedungen werden;
+entgegenstehende Klauseln sind nach § 134 BGB nichtig.
+Praktisch zentral: Provision (§ 87 HGB), Buchauszug (§ 87c HGB), Ausgleich (§ 89b HGB),
+Wettbewerbsverbot (§ 90a HGB) sowie Kündigung (§§ 89 und 89a HGB).
+
+## Quellen
+
+- [Paragraf 90 HGB](https://www.gesetze-im-internet.de/hgb/__90.html)
+- [Art. 28 DSGVO auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679)
+- [§ 667 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__667.html)
+- [Paragraf 675 BGB](https://www.gesetze-im-internet.de/bgb/__675.html)
+- [Dejure Art. 28 DSGVO](https://dejure.org/gesetze/DSGVO/28.html)
+
+---
+
+## Skill: `stornoreserve-training-material`
+
+_Für Stornoreserve im Handelsvertretervertrag — Zulässigkeit nach Paragraf 307 BGB und Paragraf 87a HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Stornoreserve im Handelsvertretervertrag — Zulässigkeit nach § 307 BGB und § 87a HGB
+
+## Arbeitsbereich
+
+Prüft Zulässigkeit und Umfang von Stornoreserven im Handelsvertretervertrag: Einbehalt von Provisionen als Sicherheit gegen Vertragsstornierungen, AGB-Konformität von Stornoreserveklauseln nach § 307 BGB, Auszahlungsbedingungen sowie Zusammenhang mit § 87a Abs. 2 HGB bei Nichtausführung von Verträgen. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Überblick
+
+Unterstützt bei rechtlichen Fragen rund um Stornoreserve im Handelsvertretervertrag — Zulässigkeit nach § 307 BGB und § 87a HGB.
+Er deckt HGB §§ 84–92c und die EU-Handelsvertreterrichtlinie 86/653/EWG ab.
+Ziel: konkrete, umsetzbare Ergebnisse für Handelsvertreter und Unternehmer.
+Zwingende Normen (§ 92c HGB) schützen den Handelsvertreter auch bei ausländischer Rechtswahl.
+BGH und EuGH haben zentrale Rechtsfragen durch Leitentscheidungen geprägt.
+
+## Mandantenfall
+
+- Unternehmer Y behält 20 % der Provision des Handelsvertreters X als Stornoreserve ein; X fragt, ob dieser Einbehalt zulässig und die Klausel AGB-konform ist.
+- Handelsvertreter X hat den Vertrag beendet; Unternehmer Y verweigert die Auszahlung der Stornoreserve und verrechnet sie mit angeblichen Stornierungen aus der Vergangenheit.
+- Handelsvertreter X fragt, wie lange Unternehmer Y eine Stornoreserve nach Vertragsende einbehalten darf und unter welchen Voraussetzungen sie auszuzahlen ist.
+
+## Erste Schritte
+
+1. Stornoreserveklausel auf AGB-Konformität nach § 307 BGB prüfen.
+2. Höhe der Stornoreserve auf Angemessenheit und branchenübliche Praxis prüfen.
+3. Auszahlungsbedingungen und -fristen im Vertrag ermitteln.
+4. Zusammenhang zwischen Stornoreserve und § 87a Abs. 2 HGB (Nichtausführung) klären.
+5. Verrechnung der Stornoreserve mit anderen Forderungen auf Zulässigkeit prüfen.
+6. Anspruch auf Auszahlung der Stornoreserve nach Vertragsende geltend machen.
+
+## Rechtsrahmen
+
+- § 87a Abs. 2 HGB — Provisionsrückforderung bei Nichtausführung
+- § 307 BGB — AGB-Kontrolle der Stornoreserveklausel
+- § 87c HGB — Buchauszug als Grundlage für Stornoreserven-Kontrolle
+- § 87 HGB — Provisionsentstehung und Verrechnung
+- § 355 BGB — Verjährung des Auszahlungsanspruchs (analog)
+- Art. 11 RL 86/653/EWG — Rückforderungsbegrenzung auf Nichtausführung
+
+## Prüfraster
+
+- Ist die Stornoreserveklausel nach § 307 BGB wirksam und angemessen?
+- Entspricht die Höhe der Reserve dem branchenüblichen Maßstab?
+- Unter welchen Bedingungen und wann wird die Stornoreserve ausgezahlt?
+- Ist die Verrechnung der Reserve mit anderen Forderungen zulässig?
+- Haben tatsächliche Stornierungen stattgefunden, die die Reserve rechtfertigen?
+- Verjährt der Auszahlungsanspruch nach Vertragsende?
+
+## Typische Fallstricke
+
+- Unangemessen hohe Stornoreserve — Verstoß gegen § 307 BGB.
+- Keine Auszahlungsregelung im Vertrag — Reserve wird dauerhaft einbehalten.
+- Verrechnung mit fiktiven Stornierungen — unzulässige Eigenaufrechnung.
+- Buchauszug nicht eingeholt — Stornierungen nicht nachprüfbar.
+
+## Hintergrund und Kontext
+
+Das Handelsvertreterrecht steht im fünften Buch des HGB (§§ 84 bis 92c).
+Es gilt als Sonderprivatrecht zwischen Arbeits- und allgemeinem Handelsrecht.
+Die EU-Handelsvertreterrichtlinie 86/653/EWG setzt europäische Mindeststandards.
+Kernprinzipien: Selbständigkeit, Provisionsanspruch, Buchauszug, Ausgleich bei Vertragsende.
+Nachvertragliches Wettbewerbsverbot (§ 90a HGB) und Delkredere (§ 86b HGB) regeln Sonderlagen.
+Zwingende Vorschriften nach § 92c HGB schützen den Handelsvertreter.
+Entgegenstehende Klauseln sind nach § 134 BGB nichtig.
+Für grenzüberschreitende Sachverhalte bestimmt die Rom-I-Verordnung das anwendbare Recht.
+Zwingende Normen wie Ausgleich (§ 89b HGB) und Buchauszug (§ 87c HGB) stehen nicht zur Disposition.
+Bei Statusfragen (Selbständigkeit) ist das Statusfeststellungsverfahren nach § 7a SGB IV maßgeblich.
+
+## Quellen
+
+- [§ 87a HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__87a.html)
+- [§ 307 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__307.html)
+- [§ 87c HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__87c.html)
+- [§ 87 HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__87.html)
+- [Dejure § 87a HGB](https://dejure.org/gesetze/HGB/87a.html)
+
+---
+
+## Skill: `kundenliste-herausgabe-kundenschutz-makler`
+
+_Prüft die Herausgabe von Kundenlisten nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf 667 BGB; trennt Listenherkunft, Zurückbehaltungsrechte und Nutzungsgrenzen nach Paragraf 90 HGB._
+
+# Kundenliste und Herausgabepflicht bei Vertragsende
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Überblick
+
+Bestimmt, welche Kundenlisten bei Vertragsende nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB herauszugeben sind. Der Schutz enthaltener Geheimnisse nach Paragraf 90 HGB betrifft eine andere Frage als der Anspruch auf die Liste.
 Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
 und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
 Ziel: konkrete, umsetzbare Ergebnisse für Handelsvertreter und Unternehmer.
 
 ## Mandantenfall
 
-- Handelsvertreter X hat während seiner Vertragszeit Kundenbeziehungen aufgebaut; nach Vertragsende schließt Unternehmer Y Folgeverträge mit diesen Kunden ab; X verlangt Provision nach § 87 Abs. 3 HGB.
-- Unternehmer Y bestreitet die Folgeprovision mit dem Argument, die Folgegeschäfte seien auf die Tätigkeit des neuen Vertreters Z zurückzuführen.
-- Handelsvertreter X fragt, bis wann er nach Vertragsende Ansprüche auf nachvertragliche Provision geltend machen kann.
+- Unternehmer Y verlangt nach Vertragsende von Handelsvertreter X die Herausgabe aller Kundenlisten und Kontaktdaten.
+- Handelsvertreter X verweigert die Herausgabe der Kundenliste und beruft sich auf ein Zurückbehaltungsrecht wegen offener Provisionen.
+- Handelsvertreter X nutzt die Kundenliste nach Vertragsende weiter für eigene Akquise; Unternehmer Y klagt auf Unterlassung und Schadensersatz.
 
 ## Erste Schritte
 
-1. Nachvertragliche Provisionsansprüche nach § 87 Abs. 3 HGB identifizieren.
-2. Kausalzusammenhang zwischen vorvertraglicher Tätigkeit und Folgegeschäften nachweisen.
-3. Abgrenzung: Folgegeschäfte auf Basis vor Vertragsende erbrachter Tätigkeit vs. Tätigkeit des Nachfolgers.
-4. Buchauszug für nachvertragliche Geschäfte nach § 87c HGB verlangen.
-5. Verjährungsfristen für nachvertragliche Provisionsansprüche nach §§ 195 und 199 BGB prüfen.
-6. Stufenklage auf Buchauszug und nachvertragliche Provision vorbereiten.
+1. Herausgabe nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB bestimmen: vom Unternehmer überlassene Listen, während der Geschäftsbesorgung erlangte Kundendaten und vorbestehende eigene Bestände unterscheiden. Umfang und Auftragsbezug belegen, nicht pauschal alle Kontakte fordern.
+2. Zurückbehaltungsrecht nach § 273 BGB bei offenen Gegenforderungen prüfen.
+3. Datenschutzrechtliche Zulässigkeit der Übermittlung und Löschpflichten prüfen; die DSGVO begründet keinen allgemeinen Herausgabeanspruch des Unternehmers auf die Kundenliste.
+4. Vollstreckung der Herausgabe nach § 883 ZPO (körperliche Listen) oder § 888 ZPO vorbereiten.
+5. Bei Datenmissbrauch eine Verletzung von Paragraf 90 HGB oder einer wirksamen Vertragsbindung feststellen und Schadensersatz nach Paragraf 280 BGB prüfen. Geheimnisqualität, konkrete Nutzung, Vertretenmüssen und Schaden nicht aus der bloßen Weiterverwendung der Liste ableiten.
+6. Übergabeprotokoll mit Inventar aller herausgegebenen Daten erstellen.
 
 ## Rechtsrahmen
 
-- § 87 Abs. 3 HGB — Provision für Nachfolgegeschäfte nach Vertragsende
-- § 87a HGB — Fälligkeit der nachvertraglichen Provision
-- § 87c HGB — Buchauszugsanspruch auch für nachvertragliche Geschäfte
-- § 195 BGB — Regelmäßige Verjährungsfrist drei Jahre
-- § 199 BGB — Beginn der Verjährungsfrist
-- Art. 8 RL 86/653/EWG — Provision auf nach Vertragsende abgeschlossene Geschäfte
+- Paragraf 90 HGB: Schutz anvertrauter oder durch die Tätigkeit bekannt gewordener Geschäfts- und Betriebsgeheimnisse unter den gesetzlichen Voraussetzungen; Paragraf 88 HGB ist weggefallen.
+- Paragrafen 675 Absatz 1, 667 BGB: Herausgabe der für die Geschäftsbesorgung erhaltenen oder daraus erlangten Listen und Daten neben vertraglichen Regelungen.
+- § 273 BGB — Zurückbehaltungsrecht
+- § 883 ZPO — Vollstreckung auf Herausgabe bestimmter Sachen
+- Artikel 17 DSGVO: Recht auf Löschung, kein allgemeiner Herausgabeanspruch des Unternehmers.
+- § 280 BGB — Schadensersatz bei Datenmissbrauch
 
 ## Prüfraster
 
-- Sind die Folgegeschäfte ursächlich auf die vorvertragliche Tätigkeit des Handelsvertreters zurückzuführen?
-- Besteht ein Buchauszugsanspruch auch für nachvertragliche Geschäfte?
-- Hat der Nachfolger einen konkurrierenden Provisionsanspruch auf dieselben Folgegeschäfte?
-- Sind die Ansprüche noch nicht verjährt?
-- Wie sind Geschäfte abzugrenzen, die teils von X und teils von Z vermittelt wurden?
-- Hat der Unternehmer nachvertragliche Provisionen bei der Abschlussabrechnung berücksichtigt?
+- Welche Teile der Kundenliste unterliegen einer Herausgabepflicht nach Vertrag und Paragrafen 675 Absatz 1, 667 BGB?
+- Hat der Handelsvertreter ein Zurückbehaltungsrecht nach § 273 BGB?
+- Welche geschuldeten Daten dürfen übermittelt werden und welche verbliebenen Daten sind zu löschen?
+- Ist die Nutzung der Kundenliste nach Vertragsende verboten?
+- Kommt Vollstreckung nach § 883 oder § 888 ZPO in Betracht?
+- Welche Schadensersatzansprüche entstehen bei Datenmissbrauch?
 
 ## Typische Fallstricke
 
-- Kausalität zwischen Vortätigkeit und Folgegeschäft nicht ausreichend dokumentiert.
-- Nachvertragliche Provisionsansprüche nicht rechtzeitig geltend gemacht — Verjährung.
-- Buchauszug für nachvertragliche Geschäfte nicht angefordert.
-- Concurrent-Provision mit Nachfolger ungeklärt — Doppelzahlung oder Verlust.
+- Zurückbehaltungsrecht ohne durchsetzbare Gegenforderung — nicht berechtigt.
+- Kundenliste nach Vertragsende für eigene Akquise genutzt: konkrete Geheimnisse und Verwertungsgrenzen nach Paragraf 90 HGB prüfen, nicht allein aus dem Vertragsende ein Nutzungsverbot ableiten.
+- DSGVO-Löschpflichten nicht beachtet — Bußgeldrisiko.
+- Herausgabe ohne Übergabeprotokoll — Nachweis über vollständige Herausgabe fehlt.
 
 ## Hintergrund und Kontext
 
@@ -412,301 +675,23 @@ Zwingende Vorschriften nach § 92c HGB schützen den Handelsvertreter zwingend.
 Entgegenstehende Klauseln sind nach § 134 BGB nichtig.
 Praktisch zentral: Provision (§ 87 HGB), Buchauszug (§ 87c HGB), Ausgleich (§ 89b HGB),
 Wettbewerbsverbot (§ 90a HGB) und Kündigung (§§ 89 und 89a HGB).
-Auskunftsrechte (§ 87c HGB), Geheimhaltung (§ 88 HGB) und Delkredere (§ 86b HGB)
+Auskunftsrechte (Paragraf 87c HGB), Geheimnisschutz (Paragraf 90 HGB) und Delkredere (Paragraf 86b HGB)
 ergänzen den praxisrelevanten Rechtsrahmen.
 Für internationale Sachverhalte gilt zudem die Rom-I-Verordnung für das anwendbare Recht.
 
 ## Quellen
 
-- [§ 87 HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__87.html)
-- [§ 87c HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__87c.html)
-- [§ 195 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__195.html)
-- [Art. 8 RL 86/653/EWG auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31986L0653)
-- [Dejure § 87 HGB](https://dejure.org/gesetze/HGB/87.html)
-
----
-
-## Skill: `alters-krankheitskuendigung`
-
-_Wenn es um Kündigung wegen Alters oder Krankheit des Handelsvertreters nach Paragraf 89 Abs. 3 HGB in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Kündigung wegen Alters oder Krankheit des Handelsvertreters nach § 89 Abs. 3 HGB
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Überblick
-
-Unterstützt bei rechtlichen Fragen rund um Kündigung wegen Alters oder Krankheit des Handelsvertreters nach § 89 Abs. 3 HGB.
-Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
-und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie einschlägige BGH- und EuGH-Rechtsprechung ein.
-Der Skill zielt auf konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
-Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
-
-## Mandantenfall
-
-- Handelsvertreter X ist seit 14 Monaten krankheitsbedingt nicht mehr in der Lage, sein Vertretungsgebiet zu bearbeiten; Unternehmer Y will das Vertreterverhältnis beenden und prüft das Vorgehen.
-- Handelsvertreter X möchte wegen schwerer Erkrankung selbst kündigen und den Ausgleichsanspruch trotzdem erhalten; er prüft § 89b Abs. 3 Nr. 2 HGB.
-- Unternehmer Y kündigt dem 72-jährigen Handelsvertreter X ordentlich; X bestreitet, dass Alter allein ein Kündigungsgrund sei, und verlangt längere Frist.
-
-## Erste Schritte
-
-1. Krankheitsdauer und Prognose ärztlich dokumentieren lassen.
-2. Anwendbarkeit von § 89 Abs. 3 HGB (außerordentliche Kündigung bei Dauerunfähigkeit) prüfen.
-3. Ordentliche Kündigungsfristen nach § 89 HGB bestimmen und mit Sonderrecht vergleichen.
-4. Auswirkung auf Ausgleichsanspruch nach § 89b Abs. 3 Nr. 2 HGB (Kündigung aus gesundheitlichen Gründen) prüfen.
-5. Versorgungsansprüche und Sozialversicherungsstatus klären.
-6. Aufhebungsvereinbarung als Alternative zur einseitigen Kündigung prüfen.
-
-## Rechtsrahmen
-
-- § 89 Abs. 3 HGB — Außerordentliche Kündigung bei dauerhafter Arbeitsunfähigkeit
-- § 89 HGB — Ordentliche Kündigung und Fristen
-- § 89b Abs. 3 Nr. 2 HGB — Kein Ausgleichsausschluss bei krankheitsbedingter Kündigung des Vertreters
-- § 89a HGB — Kündigung aus wichtigem Grund
-- § 241 Abs. 2 BGB — Rücksichtnahmepflicht des Unternehmers
-- Art. 18 RL 86/653/EWG — Ausschluss des Ausgleichs nur bei schuldhaftem Verhalten
-
-## Prüfraster
-
-- Liegt eine dauerhafte Unfähigkeit zur Ausübung der Vertretertätigkeit vor?
-- Sind die Voraussetzungen für außerordentliche Kündigung nach § 89 Abs. 3 HGB erfüllt?
-- Welche Kündigungsfrist gilt bei ordentlicher Kündigung nach § 89 HGB?
-- Bleibt der Ausgleichsanspruch nach § 89b Abs. 3 Nr. 2 HGB erhalten?
-- Hat der Vertreter selbst aus Gesundheitsgründen gekündigt — Ausgleich nach § 89b Abs. 3 Nr. 2 HGB?
-- Sind Versorgungsleistungen oder Pensionszusagen im Vertrag vorhanden?
-
-## Typische Fallstricke
-
-- Außerordentliche Kündigung ohne ärztlichen Nachweis dauerhafter Arbeitsunfähigkeit — angreifbar.
-- Ausgleichsanspruch bei krankheitsbedingter Eigenkündigung des Vertreters irrtümlich verneint.
-- Ordentliche Kündigung ohne Einhaltung der gesetzlichen Fristen — Unwirksamkeit.
-- Diskriminierung wegen Alters als eigenständiger Kündigungsgrund — AGG beachten.
-
-## Hintergrund und Kontext
-
-Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in den §§ 84 bis 92c geregelt.
-Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
-Kernprinzipien sind: Selbständigkeit des Handelsvertreters, Provisionsanspruch, Informationsrechte,
-Ausgleichsanspruch bei Vertragsende sowie Schutz vor einseitiger Benachteiligung.
-BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt,
-insbesondere zur Berechnung des Ausgleichs, zur Richtlinienkonformität und zu Ausschlussgründen.
-Praktisch relevant sind insbesondere: Provisionsabrechnungen und Buchauszug (§ 87c HGB),
-nachvertragliches Wettbewerbsverbot (§ 90a HGB) und Ausgleichsanspruch (§ 89b HGB).
-Zwingende Vorschriften zum Schutz des Handelsvertreters nach § 92c HGB können vertraglich
-nicht abgebedungen werden; entgegenstehende Klauseln sind nach § 134 BGB nichtig.
-
-## Quellen
-
-- [§ 89 HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__89.html)
-- [§ 89b HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__89b.html)
-- [§ 89a HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__89a.html)
-- [RL 86/653/EWG auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31986L0653)
-- [Dejure § 89b HGB](https://dejure.org/gesetze/HGB/89b.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 9 Rom-I-VO
-- Art. 101 AEUV
-- Art. 28 DSGVO
-- § 14 UStG
-- § 19 UStG
-- § 5 ArbGG
-- § 59 VVG
-- § 1 UStG
-- § 23 GeschGehG
-- § 66c EnWG
-- Art. 17 DSGVO
-- § 75 AMG
-
-### Leitentscheidungen
-
-- EuGH C-465/04
-- EuGH C-381/19
-- EuGH C-217/05
-
----
-
-## Skill: `post-contract-principal-direktgeschaeft`
-
-_Wenn es um Nachvertragliches Wettbewerbsverbot nach Paragraf 90a HGB — Durchsetzung und Verletzung in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Nachvertragliches Wettbewerbsverbot nach § 90a HGB — Durchsetzung und Verletzung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Überblick
-
-Unterstützt bei rechtlichen Fragen rund um Nachvertragliches Wettbewerbsverbot nach § 90a HGB — Durchsetzung und Verletzung.
-Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
-und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
-Ziel: konkrete, umsetzbare Ergebnisse für Handelsvertreter und Unternehmer.
-Für internationale Sachverhalte gilt die Rom-I-Verordnung für das anwendbare Recht.
-Zwingende Normen (§ 92c HGB) schützen den Handelsvertreter auch bei ausländischer Rechtswahl.
-
-## Mandantenfall
-
-- Handelsvertreter X hat das Vertragsverhältnis beendet; er tritt sofort als Vertreter eines Wettbewerbers auf; Unternehmer Y klagt auf Unterlassung und Schadensersatz nach § 90a HGB.
-- Handelsvertreter X hat das Wettbewerbsverbot bis zum Ende der vereinbarten Laufzeit eingehalten; Unternehmer Y zahlt die Karenzentschädigung nicht; X verlangt Zahlung oder Loslösung.
-- Handelsvertreter X prüft, ob das Wettbewerbsverbot im Vertrag auf ein Jahr oder zwei Jahre begrenzt ist und ob es räumlich auf Deutschland beschränkt sein muss.
-
-## Erste Schritte
-
-1. Wettbewerbsverbotsklausel auf formelle Wirksamkeit nach § 90a Abs. 1 HGB prüfen.
-2. Räumliche, zeitliche und sachliche Reichweite des Verbots bestimmen.
-3. Laufzeit: maximal zwei Jahre nach § 90a Abs. 1 S. 1 HGB.
-4. Karenzentschädigung: mindestens 50 % der zuletzt bezogenen Vergütung.
-5. Loslösungsrecht bei fehlender Entschädigung nach § 90a Abs. 2 HGB.
-6. Vertragsstrafe bei Verstoß: Wirksamkeit nach § 307 BGB prüfen.
-
-## Rechtsrahmen
-
-- § 90a Abs. 1 HGB — Wettbewerbsverbot: Schriftform, Laufzeit maximal zwei Jahre
-- § 90a Abs. 1 S. 3 HGB — Mindestkarenzentschädigung 50 % der Jahresvergütung
-- § 90a Abs. 2 HGB — Loslösungsrecht bei unzureichender Entschädigung
-- § 90a Abs. 3 HGB — Auswirkung der Kündigung auf das Wettbewerbsverbot
-- § 307 BGB — AGB-Kontrolle von Vertragsstrafen
-- § 340 BGB — Vertragsstrafe neben Schadensersatz
-
-## Prüfraster
-
-- Ist das Wettbewerbsverbot schriftlich vereinbart und in einer Urkunde dokumentiert?
-- Überschreitet die Laufzeit zwei Jahre nach § 90a Abs. 1 S. 1 HGB?
-- Entspricht die Karenzentschädigung der Mindesthöhe nach § 90a Abs. 1 S. 3 HGB?
-- Hat der Handelsvertreter das Loslösungsrecht nach § 90a Abs. 2 HGB fristgerecht ausgeübt?
-- Ist eine Vertragsstrafe wirksam vereinbart und angemessen (§ 307 BGB)?
-- Wer hat gekündigt und beeinflusst das die Verbindlichkeit des Verbots (§ 90a Abs. 3 HGB)?
-
-## Typische Fallstricke
-
-- Laufzeit über zwei Jahre — Klausel teilweise nichtig, zwei Jahre bleiben wirksam.
-- Karenzentschädigung zu gering — Wettbewerbsverbot für Handelsvertreter unverbindlich.
-- Loslösungsrecht nicht fristgerecht ausgeübt — Wettbewerbsverbot bindet weiter.
-- Vertragsstrafe ohne Schriftform oder unangemessen hoch — nach § 307 BGB nichtig.
-
-## Hintergrund und Kontext
-
-Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in §§ 84 bis 92c geregelt.
-Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
-Kernprinzipien: Selbständigkeit, Provisionsanspruch, Informationsrechte, Ausgleich bei Vertragsende.
-BGH und EuGH haben das Handelsvertreterrecht durch zentrale Leitentscheidungen geprägt.
-Zwingende Vorschriften nach § 92c HGB schützen den Handelsvertreter.
-Entgegenstehende Klauseln sind nach § 134 BGB nichtig.
-Praktisch zentral: Provision (§ 87 HGB), Buchauszug (§ 87c HGB), Ausgleich (§ 89b HGB),
-Wettbewerbsverbot (§ 90a HGB) und Kündigung (§§ 89 und 89a HGB).
-Auskunftsrechte, Geheimhaltung (§ 88 HGB) und Delkredere (§ 86b HGB) ergänzen das Recht.
-
-## Quellen
-
-- [§ 90a HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__90a.html)
-- [§ 307 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__307.html)
-- [§ 340 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__340.html)
-- [Art. 20 RL 86/653/EWG auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31986L0653)
-- [Dejure § 90a HGB](https://dejure.org/gesetze/HGB/90a.html)
-
----
-
-## Skill: `gebietsschutz`
-
-_Wenn es um Gebietsschutz im Handelsvertretervertrag nach Paragraf 87 Abs. 2 HGB und Kartellrecht in Handelsvertreterrecht und Vertriebsverträge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Gebietsschutz im Handelsvertretervertrag nach § 87 Abs. 2 HGB und Kartellrecht
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Überblick
-
-Unterstützt bei rechtlichen Fragen rund um Gebietsschutz im Handelsvertretervertrag nach § 87 Abs. 2 HGB und Kartellrecht.
-Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
-und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie BGH- und EuGH-Rechtsprechung ein.
-Ziel sind konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
-Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
-
-## Mandantenfall
-
-- Handelsvertreter X hat einen vertraglich definierten Gebietsschutz; Unternehmer Y beliefert Kunden im Gebiet des X direkt ohne Provision zu zahlen.
-- Handelsvertreter X und Y streiten darüber, ob eine Key-Account-Ausnahme vom Gebietsschutz im Vertrag wirksam vereinbart ist.
-- Kartellbehörde prüft, ob die Gebietsschutzvereinbarung zwischen Unternehmer Y und Handelsvertreter X als wettbewerbsbeschränkende Abrede nach § 1 GWB einzustufen ist.
-
-## Erste Schritte
-
-1. Gebietsschutzklausel auf Wirksamkeit und Reichweite prüfen.
-2. Direktabschlüsse des Unternehmers im Schutzgebiet aus Buchauszug ermitteln.
-3. Provisionsanspruch nach § 87 Abs. 2 HGB für Direktabschlüsse berechnen.
-4. Kartellrechtliche Zulässigkeit der Gebietsschutzvereinbarung nach GWB und Vertikal-GVO prüfen.
-5. Schadensersatz bei Verletzung des Gebietsschutzes nach § 280 BGB prüfen.
-6. Unterlassungsanspruch bei andauernder Verletzung des Gebietsschutzes geltend machen.
-
-## Rechtsrahmen
-
-- § 87 Abs. 2 HGB — Bezirksprovision bei Alleinvertretung
-- § 280 BGB — Schadensersatz bei Verletzung des Gebietsschutzes
-- § 1 GWB — Kartellverbot für wettbewerbsbeschränkende Vereinbarungen
-- Vertikal-GVO (EU) Nr. 2022/720 — Gruppenfreistellung für Gebietsschutzklauseln
-- § 86a HGB — Unterstützungspflicht des Unternehmers
-- Art. 7 Abs. 2 RL 86/653/EWG — Provision auf Gebietsgeschäfte
-
-## Prüfraster
-
-- Ist der Gebietsschutz klar und vollständig definiert?
-- Hat der Unternehmer den Gebietsschutz durch Direktabschlüsse verletzt?
-- Sind Key-Account-Ausnahmen wirksam vereinbart?
-- Ist die Gebietsschutzvereinbarung kartellrechtskonform?
-- Wie hoch ist der Schadensersatz bei Verletzung des Gebietsschutzes?
-- Kommen Unterlassungsansprüche oder einstweiliger Rechtsschutz in Betracht?
-
-## Typische Fallstricke
-
-- Gebietsdefinition zu ungenau — Direktabschlüsse im Grenzbereich ohne klare Lösung.
-- Kartellrechtliche Grenze der Gebietsschutzklausel nicht geprüft — Vertrag nichtig.
-- Schadensersatz bei Verletzung nicht geltend gemacht — nur Provision eingeklagt.
-- Key-Account-Ausnahme nicht schriftlich vereinbart — Unternehmer kann sie nicht einwandfrei rechtfertigen.
-
-## Hintergrund und Kontext
-
-Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in den §§ 84 bis 92c geregelt.
-Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
-Kernprinzipien: Selbständigkeit, Provisionsanspruch, Informationsrechte, Ausgleich bei Vertragsende.
-BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt.
-Zwingende Vorschriften nach § 92c HGB können nicht abgebedungen werden;
-entgegenstehende Klauseln sind nach § 134 BGB nichtig.
-Praktisch zentral: Provision (§ 87 HGB), Buchauszug (§ 87c HGB), Ausgleich (§ 89b HGB),
-Wettbewerbsverbot (§ 90a HGB) sowie Kündigung (§§ 89 und 89a HGB).
-Auskunftsrechte (§ 87c HGB), Geheimhaltungspflicht (§ 88 HGB) und Delkredere (§ 86b HGB)
-ergänzen das Recht praxisnah.
-
-## Quellen
-
-- [§ 87 HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__87.html)
-- [§ 280 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__280.html)
-- [§ 1 GWB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/gwb/__1.html)
-- [Vertikal-GVO 2022/720 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32022R0720)
-- [Dejure § 87 HGB](https://dejure.org/gesetze/HGB/87.html)
+- [Paragraf 90 HGB](https://www.gesetze-im-internet.de/hgb/__90.html)
+- [§ 667 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__667.html)
+- [§ 273 BGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/__273.html)
+- [§ 883 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__883.html)
+- [Paragraf 675 BGB](https://www.gesetze-im-internet.de/bgb/__675.html)
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

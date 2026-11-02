@@ -2,24 +2,141 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 114 Skills (gekuerzt fuer Chat-Fenster) des Plugins `gesellschaftsgruender`.
+Diese Vollprüfung enthält top-8 von 114 Skills (gekürzt für das Arbeitsfenster) des Plugins `gesellschaftsgruender`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in gesellschaftsgründer — Gründungsassistent für deutsche geht: klärt Rolle, Ziel, Frist…
-2. **kaltstart-triage** — Wenn es um Gesellschaftsgründer Allgemein — leichter Kaltstart in gesellschaftsgründer — Gründungsassistent für deutsche…
-3. **gruendungsassistent-erstpruefung-und-mandatsziel** — Wenn es um Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel in gesellschaftsgründer — Gründungsassistent …
-4. **stammkapitalverlust-paragraf-49-gmbhg** — Wenn es um Pflichtversammlung bei Stammkapital-Verlust (Paragraf 49 Abs. 3 GmbHG) in gesellschaftsgründer — Gründungsass…
-5. **erste-vertraege-kunden-lieferanten-miete** — Wenn es um Erste Verträge für Kunden, Lieferanten und Miete in gesellschaftsgründer — Gründungsassistent für deutsche ge…
-6. **ug-vorbereitung** — Wenn es um UG-Vorbereitung (Unternehmergesellschaft haftungsbeschränkt) in gesellschaftsgründer — Gründungsassistent für…
-7. **sitz-geschaeftsanschrift-briefkastenrisiko** — Wenn es um Sitz, Geschäftsanschrift und Briefkastenrisiko in gesellschaftsgründer — Gründungsassistent für deutsche geht…
-8. **spezial-ueber-schriftsatz-brief-und-memo-bausteine** — Wenn es um Ueber: Schriftsatz-, Brief- und Memo-Bausteine in gesellschaftsgründer — Gründungsassistent für deutsche geht…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Gesellschaftsgründer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbind…
+2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+3. **kaltstart-triage** — Für Gesellschaftsgründer Allgemein — leichter Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüf…
+4. **gruendungsassistent-erstpruefung-und-mandatsziel** — Für Gründungsassistent: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Erg…
+5. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
+6. **gmbh-gesellschaftsgruender** — Für Fristen- und Risikoampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem S…
+7. **workflow-unterlagen-lueckenliste** — Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fac…
+8. **unterlagen-luecken** — Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebie…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Gesellschaftsgründer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Gesellschaftsgründer
+
+## 1. Direktstart
+
+Arbeite als Gesellschaftsrechtlicher Bearbeiter für GmbH, AG, Personengesellschaften, Organpflichten, Beschlussmängel und Transaktionen.
+
+Pluginauftrag: Gründungsassistent für deutsche Gesellschaften: Rechtsformwahl, Satzung, Notar, Handelsregister, Bank/KYC, Steuerstart, IP, Erlaubnisse, erste Verträge, Budget und Streitprävention.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Gesellschaftsgründer in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Beschlussfassung, Anfechtung, Organhaftung, Registervollzug, Abberufung oder Vergleich.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Gesellschaftsform, Registerlage | Gesellschaftsform, Registerlage, Beteiligungen und Organe feststellen |
+| Satzung, Gesellschaftervereinbarung | Satzung, Gesellschaftervereinbarung, Beschluss und Vertretung trennen |
+| Organpflichten, Treuepflichten | Organpflichten, Treuepflichten, Zustimmungserfordernisse und Haftung prüfen |
+| Transaktionsschritte, Notarform | Transaktionsschritte, Notarform, Closing-Bedingungen und Registervollzug planen |
+| Arbeitsprodukt | Beschlussvorschlag, Organmemo, Anteilsübertragungsvertrag oder Klageentwurf erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Transparenzregister: Bearbeite den Fachpunkt im Skill gesellschaftsgruender-transparenzregister und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Bank, KYC, UBO und Transparenzregister: Bearbeite den Fachpunkt im Skill bank-kyc-ubo-und-transparenzregister und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Geschäftsführer-Anstellungsvertrag GmbH: Bearbeite den Fachpunkt im Skill geschaeftsfuehrervertrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. GmbH-Gesellschaftsvertrag (Satzung): Bearbeite den Fachpunkt im Skill gesellschaftsvertrag-gmbh und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. BGB Paragraf 705: Gesellschaftsvertrag der Gesellschaft bürgerlichen Rechts.
+4.2. HGB Paragraf 105: offene Handelsgesellschaft.
+4.3. GmbHG Paragraf 13: Rechtsnatur der GmbH.
+4.4. GmbHG Paragraf 15: Übertragung von Geschäftsanteilen.
+4.5. GmbHG Paragraf 43: Sorgfalt und Verantwortlichkeit der Geschäftsführer.
+4.6. AktG Paragraf 93: Sorgfaltspflicht und Verantwortlichkeit des Vorstands.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Bestimme zuerst den konkreten Streitpunkt in Gesellschaftsgründer und öffne den dazu in Abschnitt 3.1 verknüpften Fachskill. Ein fachgebietsweiter Leitfall ersetzt keine streitpunktgenaue Recherche.
+5.2. Übernimm eine Entscheidung nur, wenn Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Rechtssatz und Tatsachenkontext sicher feststehen.
+5.3. Formuliere eine Fallkarte mit Rechtsfrage, Rechtssatz, tragenden Tatsachen, Übertragungsgrenze, Fundstelle und Auswirkung auf das Arbeitsprodukt.
+5.4. Fehlt ein sicherer Anker, benenne die offene Recherchefrage ohne Aktenzeichen. Eine nicht belegte Entscheidung ist kein Hilfsargument.
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Anspruchsteller für Pflichtverletzung, Schaden und Kausalität; Organ oder Gesellschafter für Entlastung, Beschlussbasis und Business Judgment.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Gesellschaftsform und welche Rechtsquelle bestimmen den Fall.
+7.2. Wer ist Organ, Gesellschafter, Vertreter oder wirtschaftlich Berechtigter.
+7.3. Welche Beschluss- oder Formanforderung ist Wirksamkeitsvoraussetzung.
+7.4. Welche Haftungsnorm und welcher Schaden sind konkret.
+7.5. Welcher Vollzugsschritt ist noch offen.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Gesellschaftsform, Registerlage, Satzung, Gesellschaftervereinbarung, Organpflichten, Treuepflichten, Transaktionsschritte, Notarform: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Beschlussfassung, Anfechtung, Organhaftung, Registervollzug, Abberufung oder Vergleich verwendbar?
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in gesellschaftsgründer — Gründungsassistent für deutsche geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: gesellschaftsgründer — Gründungsassistent für deutsche._
 
 # Einstieg und Routing
 
@@ -63,7 +180,7 @@ Dieser Einstieg routet **Gesellschaftsgruender** vom ersten Sachverhalt zu Rolle
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Gesellschaftsgründer Allgemein — leichter Kaltstart in gesellschaftsgründer — Gründungsassistent für deutsche geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Gesellschaftsgründer Allgemein — leichter Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Gesellschaftsgründer Allgemein — leichter Kaltstart
 
@@ -80,12 +197,9 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gesellschaftsgründer Allgemein — leichter Kaltstart` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -116,7 +230,7 @@ GmbHG, HGB, BGB, PartGG, GenG, AktG, GwG, GewO, AO/UStG, SGB IV/SGB VII, InsO Pa
 
 ## Skill: `gruendungsassistent-erstpruefung-und-mandatsziel`
 
-_Wenn es um Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel in gesellschaftsgründer — Gründungsassistent für deutsche geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Gründungsassistent: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix._
 
 # Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -133,8 +247,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
@@ -146,7 +258,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gruendungsassistent: Erstprüfung, Rollenklärung und Mandatsziel` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -175,7 +286,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 | Form | Mindestkapital | Gründungskosten | Haftung | Notar | Geeignet für |
 | --- | --- | --- | --- | --- | --- |
 | GbR (Paragraf 705 ff. BGB, MoPeG-novelliert) | kein | gering | unbeschränkt persönlich Paragraf 721 BGB | nicht zwingend; Gesellschaftsregister Paragraf 707 BGB optional (eGbR) | nicht-kaufmännische Personenzusammenschlüsse |
-| OHG (Paragraf 105 ff. HGB) | kein | gering | unbeschränkt persönlich Paragraf 128 HGB | HR-Anmeldung notariell | Kaufleute, Kleinbetriebe |
+| OHG (Paragraf 105 ff. HGB) | kein | gering | unbeschränkt persönlich nach Paragraf 126 HGB; beim Eintritt in eine bestehende OHG auch für Altverbindlichkeiten nach Paragraf 127 HGB | HR-Anmeldung notariell | Kaufleute, Kleinbetriebe |
 | KG (Paragraf 161 ff. HGB) | kein, Haftsumme frei wählbar | gering | Komplementär unbeschränkt; Kommanditist auf Haftsumme Paragraf 171 HGB | notarielle HR-Anmeldung | Investoren-Beteiligung |
 | GmbH & Co. KG | GmbH 25.000 EUR | mittel | Komplementär-GmbH | notariell | Mittelstand, Steueroptimierung |
 | UG (haftungsbeschränkt) Paragraf 5a GmbHG | 1 EUR Stammkapital, Aufstockungspflicht Paragraf 5a Abs. 3 GmbHG (25 % Gewinn) | gering, Musterprotokoll Paragraf 2 Abs. 1a GmbHG | begrenzt | notariell, vereinfachte Online-Gründung möglich (DiRUG) | Bootstrap-Startup |
@@ -193,498 +304,114 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `stammkapitalverlust-paragraf-49-gmbhg`
+## Skill: `workflow-kaltstart-und-routing`
 
-_Wenn es um Pflichtversammlung bei Stammkapital-Verlust (Paragraf 49 Abs. 3 GmbHG) in gesellschaftsgründer — Gründungsassistent für deutsche geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: gesellschaftsgründer — Gründungsassistent für deutsche._
 
-# Pflichtversammlung bei Stammkapital-Verlust (Paragraf 49 Abs. 3 GmbHG)
+# 1. Gründungsauftrag bearbeiten
 
-## Arbeitsbereich
+## 1.1. Auftrag und Unterlagen
 
-Hälftiger Stammkapitalverlust nach Paragraf 49 Abs. 3 GmbHG: Einberufungspflicht und Insolvenzprüfung. Normen: Paragraf 49 Abs. 3 64 GmbHG, Paragraf 15a InsO. Prüfraster: Bilanzkennzahlen, Einberufungspflicht, Haftungsrisiken GF. Output: Stellungnahme Stammkapitalverlust und Einberufungsschreiben. Abgrenzung: nicht Paragraf 64 GmbHG Zahlungsverbot bei Insolvenzreife. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Bearbeite die gewünschte Gründungsberatung oder Vertragsvorbereitung anhand vorhandener Abreden, Satzungsfassungen und Finanzierungsunterlagen. Entnimm daraus Rechtsform, Beteiligte, Kapital, Geschäftszweck und Gründungsstand; frage geklärte Angaben nicht erneut ab.
 
-## Arbeitsweg
+Eine bloße Frage nach der Rechtsform verlangt keine vollständige Notaraufnahme. Ein bereits bestellter Satzungsentwurf wird dagegen nicht durch eine Empfehlung anderer Skills ersetzt.
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: GmbHG Paragraf 2, 3, 5, 7-11, 13, 15, 16, 35, 40, 46, 47, 48, 51a, 53, 55, 64, BGB Paragraf 705 ff. n.F., HGB Paragraf 105 ff., AktG/UmwG nur bei einschlägiger Strukturmaßnahme sowie Handelsregister-/Notarformvorgaben live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+## 1.2. Fachlichen Weg bestimmen
 
-## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Pflichtversammlung bei Stammkapital-Verlust (Paragraf 49 Abs. 3 GmbHG)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
-- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
-- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+Bei GmbH oder UG Form, Kapital und Anmeldung nach Paragrafen 2, 5, 5a und 7 GmbHG prüfen. Bei GmbH & Co. KG die beiden Gesellschaften und ihre jeweiligen Einlagen, Vertretungen und Registerschritte getrennt behandeln; HGB Paragrafen 161 ff. nicht durch GmbH-Regeln ersetzen.
 
-## Triage — kläre beim ersten Anhaltspunkt
+Bei GbR oder eGbR BGB Paragrafen 705 ff. und 707 ff., bei PartG mbB Berufsrecht, Versicherung und Paragraf 8 Absatz 4 PartGG prüfen. Bei gGmbH die Gemeinnützigkeitsvoraussetzungen nach Paragrafen 51 ff. AO anhand der Satzung und Tätigkeit untersuchen. Online-Beurkundung nur nach den aktuellen gesetzlichen Voraussetzungen und dem konkreten Urkundengegenstand einplanen.
 
-1. Unterschreitet das Eigenkapital die Hälfte des Stammkapitals (z.B. EK < 12.500 EUR bei Stammkapital 25.000 EUR)?
-2. Liegt bereits Zahlungsunfähigkeit (Paragraf 17 InsO) oder Überschuldung (Paragraf 19 InsO) vor — dann gilt statt Paragraf 49 GmbHG die Insolvenzantragspflicht (Paragraf 15a InsO)!
-3. Wie wurde der Stammkapitalverlust festgestellt — Jahresabschluss, Zwischenbilanz, Liquiditätsstatus?
-4. Existieren stille Reserven, die bei Ansatz zu Verkehrswerten das Eigenkapital retten?
-5. Können Gesellschafter kurzfristig Kapital nachschießen (Kapitalerhöhung oder Gesellschafterdarlehen)?
-6. Ist bereits ein Berater / Restrukturierungsberater eingeschaltet?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+Bei Geschäftsführerfragen Organstellung, Vertretung nach Paragraf 35 GmbHG und Dienstvertrag unterscheiden. Bei Transparenzregisterfragen Kontrollverhältnisse und einschlägige GwG-Pflichten prüfen, nicht nur eine Anteilsquote übernehmen.
 
-## Zentrale Normen
+## 1.3. Fehlende Entscheidungen klären
 
-- **Paragraf 49 Abs. 3 GmbHG** — Einberufungspflicht der GV bei hälftigem Stammkapitalverlust; unverzüglich.
-- **Paragraf 43 GmbHG** — Sorgfaltspflicht und Haftung des GF: laufende Beobachtungspflicht.
-- **Paragraf 17 InsO** — Zahlungsunfähigkeit; fällige Verbindlichkeiten können nicht erfüllt werden.
-- **Paragraf 18 InsO** — Drohende Zahlungsunfähigkeit; Prognosezeitraum 24 Monate; ermöglicht StaRUG.
-- **Paragraf 19 InsO** — Überschuldung; Vermögen deckt Verbindlichkeiten nicht ohne positive Fortführungsprognose.
-- **Paragraf 15a InsO** — Insolvenzantragspflicht: 6 Wochen (Überschuldung) / 3 Wochen (Zahlungsunfähigkeit).
-- **Paragraf 15b InsO** — Zahlungsverbote nach Insolvenzreife; Haftung für masseschmälernde Zahlungen.
-- **Paragraf 1-9 StaRUG** — vorinsolvenzliches Restrukturierungsverfahren bei drohender Zahlungsunfähigkeit.
+Fehlt bei einem Kapitalbetrag der Einzahlungsnachweis, frage nach der konkreten Buchung und Zuordnung. Nach Eingang den offenen Betrag und die Aussage zur Anmeldereife aktualisieren. Fehlt bei einem Sonderstimmrecht die Reichweite, kläre die betroffenen Entscheidungen und passe anschließend die Satzung und erforderlichen Beschlussregeln an.
 
-## Aktuelle Rechtsprechung
+Neue Antworten können weitere entscheidende Lücken zeigen; dann gezielt nachfragen, ohne feste Fragenzahl und ohne Wiederholung. Angaben und wirksame Vereinbarungen unterscheiden. Bei einem Hindernis bearbeitbare Teile vorläufig liefern und nach Klärung bis zum bestellten Dokument fortsetzen.
 
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+## 1.4. Quellen und optionale Fachskills
 
-## Krisenampel: Überblick Handlungspflichten
+Normen, Registervorgaben und tragende Entscheidungen anhand zugänglicher amtlicher Quellen prüfen. Entscheidungen nur mit Gericht, Form, Datum, Aktenzeichen und überprüfter Passage; keine Literaturfundstellen aus Modellwissen.
 
-| Krisenphase | Erkennungszeichen | Handlungspflicht | Norm | Frist |
-|---|---|---|---|---|
-| Stammkapitalverlust 50 % | EK < Hälfte Stammkapital | GV einberufen | Paragraf 49 III GmbHG | unverzüglich |
-| Drohende Zahlungsunfähigkeit | Cash-Flow-Prognose negativ (24 Monate) | StaRUG prüfen | Paragraf 18 InsO + StaRUG | sofort |
-| Zahlungsunfähigkeit | fällige Forderungen > 10 % unerfüllt > 3 Wochen | Insolvenzantrag | Paragraf 15a InsO | 3 Wochen |
-| Überschuldung | Passiva > Aktiva ohne Fortführungsprognose | Insolvenzantrag | Paragraf 15a InsO | 6 Wochen |
-| Masseschmälernde Zahlung | Zahlung nach Insolvenzreife | Zahlung unterlassen | Paragraf 15b InsO | sofort ab Reife |
+Optional unterstützen `rechtsformwahl`, `gmbh-vorbereitung`, `ug-vorbereitung`, `kg-und-gmbhcokg`, `freiberufler-partg-gbr`, `geschaeftsfuehrervertrag`, `ggmbh-gemeinnuetzigkeit`, `transparenzregister` und `online-gruendung-dirug` den passenden Arbeitsschritt. Die Bearbeitung hängt nicht von ihrer Verfügbarkeit ab.
 
-## Prüfschema Paragraf 49 Abs. 3 GmbHG
+## 1.5. Ergebnis und Grenzen
 
-**Vorab:** Das folgende Prüfschema ist eine Standardlinie. Wenn die Mandantenlage abweicht, werden die Schritte gekürzt, umgestellt oder an einen Spezialskill übergeben. Maßgeblich ist ein belastbares Ergebnis, nicht das Abarbeiten einer Tabelle.
+Liefere das gewünschte Dokument unter dem vorgegebenen Dateinamen. Eine Beratung enthält Empfehlung und Folgen, ein Vertragsentwurf vollständige Regelungen und eine Notaranfrage geklärte Eckdaten mit konkretem Klärungsbedarf. Keine obligatorische Ampel oder zusätzliche Tabellenserie.
 
-| Schritt | Prüfungspunkt | Ergebnis |
-|---|---|---|
-| 1 | Stammkapital: Nominalhöhe feststellen | [EUR] |
-| 2 | Hälfte des Stammkapitals: Schwellenwert berechnen | [EUR] |
-| 3 | Eigenkapital: aktueller Stand (Zwischenbilanz, Verkehrswerte) | [EUR] |
-| 4 | Schwelle unterschritten? EK < Hälfte Stammkapital | Ja → Pflichtversammlung; Nein → weiter beobachten |
-| 5 | Insolvenzreife bereits eingetreten? (Paragraf 17, 19 InsO) | Ja → Paragraf 15a InsO-Antrag; Nein → Paragraf 49 GmbHG |
-| 6 | Stille Reserven vorhanden? (Immobilien, IP zu Buchwert) | Ja → Neubewertung; ggf. EK gerettet |
-| 7 | Sanierungsoptionen | Kapitalerhöhung / Gesellschafterdarlehen / StaRUG |
-| 8 | GV einberufen | Frist: unverzüglich; Form: Paragraf 51 GmbHG |
-| 9 | GV-Protokoll erstellen | Paragraf 48 GmbHG; Haftungsnachweis |
-| 10 | Maßnahmenbeschluss dokumentieren | Grundlage für Weiterfinanzierung / StaRUG |
+Vollständige Sätze und dezimale Gliederung; formatierte Dokumente in Times New Roman 11 pt, sonst Exporthinweis. Recherchevermerke getrennt vom Empfängertext halten. Externe Erklärungen, Zahlungen und Einreichungen nur nach ausdrücklicher Freigabe.
 
-## Schritt-für-Schritt-Workflow
+Ohne Zugriff konkrete Auszüge anfordern und unabhängige Teile weiterbearbeiten. Ohne Export vollständigen Text statt erfundener Dateilinks liefern. Nicht mögliche Prüfungen offenlegen, ohne fehlende Tatsachen zu ergänzen.
 
-1. **Triage** — 6 Triage-Fragen beantworten; Krisenphase bestimmen.
-2. **Eigenkapital-Berechnung** — Zwischenbilanz oder aktualisierte Vermögenslage erstellen; stille Reserven prüfen.
-3. **Krisenampel** — welche Phase liegt vor (Stammkapitalverlust / drohende ZU / ZU / Überschuldung)?
-4. **Wenn nur Paragraf 49 GmbHG** — GV unverzüglich einberufen; Tagesordnung mit Bericht, Alternativen, Beschlüssen.
-5. **Sanierungsoptionen analysieren** — Kapitalerhöhung, Gesellschafterdarlehen, Rangrücktritt, StaRUG-Plan?
-6. **Restrukturierungsberater einschalten** — bei drohender ZU: StaRUG-Zeitplanung; bei ZU: Insolvenzberater.
-7. **GV-Dokumentation** — Protokoll mit Bericht, Maßnahmenbeschlüssen, Abstimmungsergebnissen sichern.
-8. **Monitoring** — monatliche Liquiditätsprognose; nächste GV/Eskalation bei Verschlechterung.
+## 1.6. Beispiel
 
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Einberufung Pflichtversammlung Paragraf 49 Abs. 3 GmbHG | Einladungsschreiben nach Prüfschema; Template unten |
-| Variante A — Verlust behebbarer durch Kapitalerhoehung | Kapitalerhoehung vorbereiten; Versammlung als Beschlussgrundlage nutzen |
-| Variante B — Insolvenzreife parallel moegliche Antragspflicht | Insolvenz-Skill parallel prüfen; Antragspflicht Paragraf 15a InsO beachten |
-| Variante C — Gesellschafter wollen keine Versammlung Kosten | Umlaufbeschluss statt Praesenzversammlung wenn Satzung erlaubt |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Output-Template Einladung Pflichtversammlung Paragraf 49 Abs. 3 GmbHG
-
-**Adressat:** Gesellschafter — Tonfall sachlich-informierend
-```
-[Firmenname] GmbH
-[Adresse]
-
-[Datum]
-
-EINLADUNG ZUR GESELLSCHAFTERVERSAMMLUNG
-gemäß Paragraf 49 Abs. 3 GmbHG
-
-Sehr geehrte Gesellschafter,
-
-gemäß Paragraf 49 Abs. 3 GmbHG berufe ich hiermit unverzüglich eine außerordentliche
-Gesellschafterversammlung ein.
-
-Anlass: Die Lage der Gesellschaft erfordert nach den uns vorliegenden Unterlagen eine
-unverzügliche Befassung der Gesellschafter, da Anhaltspunkte für einen Verlust der
-Hälfte des Stammkapitals bestehen.
-
-Termin: [Datum], [Uhrzeit] Uhr
-Ort: [Adresse] / Video-Link: [ggf. URL]
-
-TAGESORDNUNG
-1. Bericht der Geschäftsführung zur Lage der Gesellschaft (Paragraf 49 Abs. 3 GmbHG)
- - Eigenkapital-Status (Stand [Datum])
- - Ursachen der Entwicklung
- - Liquiditätsprognose
-2. Beratung und Beschlussfassung über Sanierungsmaßnahmen
- a) Kapitalerhöhung (bar oder durch Gesellschafterdarlehen)
- b) Betriebliche Restrukturierungsmaßnahmen
- c) Einleitung StaRUG-Verfahren gemäß Paragraf 31 StaRUG (falls drohende Zahlungsunfähigkeit)
-3. Sonstiges
-
-Zu Ziffer 2 werden wir konkrete Beschlussvorlagen vorlegen.
-
-Mit freundlichen Grüßen
-[Name Geschäftsführer]
-Geschäftsführer [Firmenname] GmbH
-```
-
---- vor Versand klären ---
-1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
-
-Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
-
-Schlussabsatz Variante B (formal-streng):
-Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Rote Schwellen
-
-- Insolvenzreife bereits eingetreten → nicht Paragraf 49 GmbHG, sondern Paragraf 15a InsO; Insolvenzantragspflicht sofort prüfen.
-- Masseschmälernde Zahlungen nach Insolvenzreife → sofortige persönliche Haftung GF (Paragraf 15b InsO); Zahlungen stoppen.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
-- Keine Zwischenbilanz trotz Anhaltspunkten → Beobachtungspflicht verletzt; Haftungsrisiko.
-- Protokoll der Pflichtversammlung fehlt → kein Nachweis der Pflichterfullung; haftungsrechtlich gefährlich.
-
-## Quellen und Vertiefung
-
-- Paragraf 43, 49 GmbHG (GF-Pflichten, Pflichtversammlung)
-- Paragraf 15a, 15b, 17-19 InsO (Insolvenztatbestände, Antragspflicht, Zahlungsverbot)
-- Paragraf 1-9 StaRUG (vorinsolvenzlicher Restrukturierungsrahmen)
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
-- Scholz/Crezelius, GmbHG, Paragraf 49 Rn. 15-25
-
-## Übergabe an andere Skills
-
-- `gesellschaftsgruender-gf-meeting-templates` — Protokoll der Pflichtversammlung
-- `gesellschaftsgruender-kapitalerhoehung-bezugsrecht` — Kapitalerhöhung als Sanierungsmaßnahme
-- `gesellschaftsgruender-gv-einladung-tagesordnung` — GV-Einladung formgerecht erstellen
-- `corporate-kanzlei-restructuring-starug-insolvenzplan` — StaRUG-Verfahren bei drohender ZU
+Für eine UG liegen Satzungsdaten und ein Kontoauszug vor, doch ein Teil des Kapitals wurde als Darlehen bezeichnet. Kläre die tatsächliche Einlageabrede, prüfe danach die Kapitalaufbringung und vervollständige die beauftragte Notaranfrage. Die Zahlung wird nicht allein wegen ihres Kontoeingangs als Einlage bestätigt.
 
 ---
 
-## Skill: `erste-vertraege-kunden-lieferanten-miete`
+## Skill: `gmbh-gesellschaftsgruender`
 
-_Wenn es um Erste Verträge für Kunden, Lieferanten und Miete in gesellschaftsgründer — Gründungsassistent für deutsche geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Fristen- und Risikoampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: gesellschaftsgründer — Gründungsassistent für deutsche._
 
-# Erste Verträge für Kunden, Lieferanten und Miete
+# Fristen- und Risikoampel
 
-Nutze diesen Skill, wenn die Gesellschaft kurz vor oder nach Eintragung erste Verträge schließen will. Der Skill prüft, ob die Vertragslage zum Gründungsstatus, zur Haftung und zur Liquidität passt.
+## Arbeitsauftrag
 
-## Kaltstartfragen
+Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **gesellschaftsgruender** sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten oder das Arbeitsprodukt wirklich verändern.
 
-1. Ist die Gesellschaft schon eingetragen oder handelt die Vor-GmbH?
-2. Welcher Vertrag steht an: Kunde, Lieferant, Miete, Dienstleister, SaaS, Agentur?
-3. Welche Laufzeit, Kündigung, Zahlung und Mindestabnahme gelten?
-4. Gibt es persönliche Garantien der Gründer?
-5. Welche Haftung, Gewährleistung und IP-Regeln stehen im Entwurf?
-6. Ist der Vertrag für den Start unverzichtbar?
+## Aktenstart ohne Leerlauf
 
-## Vertragsampel
+1. Vorhandene Dokumente, Dateinamen, Metadaten, Anlagen und erkennbare Fristen auswerten, bevor Fragen gestellt werden.
+2. Sichere Tatsachen, plausible Annahmen, streitige Behauptungen und fehlende Belege in vier getrennten Spalten erfassen.
+3. Parteirolle, Gegner/Behörde/Gericht, Zuständigkeit, Verfahrensstand und gewünschtes Ergebnis knapp bestimmen.
+4. Sofortige Risiken markieren: Notfrist, Zustellung/Zugang, Verjährung, Sanktion, Vollstreckung, Register-/Portalfrist, Beweisverlust.
+5. Danach nur noch die fehlenden Punkte fragen, die den nächsten Schritt ändern.
 
-| Klausel | Gründerfrage | Risiko | Lösung |
-| --- | --- | --- | --- |
-| Partei | wer unterschreibt? | Handelndenhaftung | Status klarstellen |
-| Laufzeit | wie lange gebunden? | Liquiditätsfalle | kurze Kündigung |
-| Haftung | unbegrenzt? | Existenzrisiko | Cap |
-| IP | Rechte an Arbeitsergebnissen? | Produktverlust | Nutzungsrechte |
-| Zahlung | Vorkasse, Fälligkeit | Cashflow | Meilensteine |
+## Fachliche Anker
 
-## Prüfraster
+- BGB Paragraf 21 ff., 705 ff.; HGB; GmbHG; AktG; UmwG; FamFG/Registerrecht; PartG/Vereinsrecht je nach Organisation.
+- Organ, Vertretung, Beschluss, Ladung, Mehrheit, Registervollzug, Treuepflicht und Haftung getrennt prüfen.
+- Cap Table, Gesellschafterliste, Satzung, Protokoll, Registerstand und Nebenabreden nie vermischen.
 
-1. Vertragspartei und Gründungsstatus prüfen.
-2. Liquiditätswirkung und Mindestlaufzeit berechnen.
-3. Haftung, Gewährleistung und Vertragsstrafe markieren.
-4. IP, Daten und Vertraulichkeit einordnen.
-5. Unterschriftsvollmacht und Ablage sicherstellen.
+## Arbeitsprodukt
 
-## Rechtsprechungs- und Normanker
-
-- Paragraf 11 GmbHG: Vor-GmbH und Handelndenhaftung.
-- Paragraf 164 ff. BGB: Vertretung beim Vertragsschluss.
-- Paragraf 305 ff. BGB: AGB-Kontrolle bei Standardbedingungen.
-- Paragraf 31 UrhG: Nutzungsrechte an Arbeitsergebnissen.
-
-## Output
-
-Gib eine Vertragsrisiko-Tabelle, drei Verhandlungspunkte und eine Unterschriftsnotiz für Gründer aus.
+- **Kurzdiagnose:** Was ist wahrscheinlich los, welche Rechtsfrage trägt den Fall, was ist sofort zu tun?
+- **Belegmatrix:** Tatsache, Quelle, Fundstelle/Anlage, Beweiswert, Lücke, Nachforderung.
+- **Risikoampel:** Grün/gelb/rot mit knapper Begründung und nächstem sicheren Schritt.
+- **Entwurf:** je nach Fall E-Mail, Mandantenmemo, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Fristenplan.
+- **Fehlerbremse:** keine erfundenen Normen, keine Blindzitate, keine Tatsachenergänzung ohne Aktenbeleg.
 
 ---
 
-## Skill: `ug-vorbereitung`
+## Skill: `workflow-unterlagen-lueckenliste`
 
-_Wenn es um UG-Vorbereitung (Unternehmergesellschaft haftungsbeschränkt) in gesellschaftsgründer — Gründungsassistent für deutsche geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: gesellschaftsgründer — Gründungsassistent für deutsche._
 
-# UG-Vorbereitung (Unternehmergesellschaft haftungsbeschränkt)
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: GmbHG Paragraf 2, 3, 5, 7-11, 13, 15, 16, 35, 40, 46, 47, 48, 51a, 53, 55, 64, BGB Paragraf 705 ff. n.F., HGB Paragraf 105 ff., AktG/UmwG nur bei einschlägiger Strukturmaßnahme sowie Handelsregister-/Notarformvorgaben live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `UG-Vorbereitung (Unternehmergesellschaft haftungsbeschränkt)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
-- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
-- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Triage — kläre vor der Entscheidung UG vs. GmbH
-
-1. Verfügbares Startkapital: Unter 5.000 EUR → UG sinnvoll. Über 10.000 EUR → GmbH prüfen.
-2. Ist Investoren-Aufnahme in den nächsten 24 Monaten wahrscheinlich? Manche Investoren und Förderprogramme verlangen GmbH als Voraussetzung.
-3. Soll eine Sacheinlage eingebracht werden? Bei UG ausgeschlossen (Paragraf 5a Abs. 2 S. 1 GmbHG).
-4. Ist die Gesellschaft B2B-Auftritte gegenüber Großunternehmen oder Banken geplant? UG hat oft Kreditnachteile und Reputationsrisiken.
-5. Wieviele Gesellschafter und Geschäftsführer? Bis zu 3 Gesellschafter + 1 GF: Musterprotokoll möglich.
-6. Ist Thesaurierungspflicht (25 % Jahresgewinn) finanziell tragbar bis zum Erreichen von 25.000 EUR Stammkapital?
-
-## Zentrale Normen
-
-- **Paragraf 5a GmbHG** — UG als GmbH-Sondervariante; Mindestkapital 1 EUR; Bareinlage zwingend; Sacheinlage ausgeschlossen.
-- **Paragraf 5a Abs. 3 GmbHG** — Thesaurierungspflicht: 25 % des Jahresergebnisses in gesetzliche Rücklage bis 25.000 EUR Stammkapital.
-- **Paragraf 5a Abs. 5 GmbHG** — Umfirmierung zur GmbH nach Erreichen von 25.000 EUR.
-- **Paragraf 7 GmbHG** — Einzahlungspflicht vor Anmeldung: vollständige Bareinlage.
-- **Paragraf 7a SGB IV** — Statusfeststellungsverfahren für GF (Sozialversicherungspflicht).
-- **Paragraf 2, 2a GmbHG** — Musterprotokoll bei Standardgründung.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
-
-## UG vs. GmbH Vergleichsmatrix
-
-| Merkmal | UG (haftungsbeschränkt) | GmbH |
-|---|---|---|
-| Mindestkapital | 1 EUR | 25.000 EUR |
-| Mindesteinzahlung vor Anmeldung | Vollständig (Paragraf 7 GmbHG) | 12.500 EUR (Paragraf 7 Abs. 2 GmbHG) |
-| Sacheinlage | Ausgeschlossen (Paragraf 5a Abs. 2) | Möglich (mit Sachgründungsbericht) |
-| Thesaurierungspflicht | 25 % Jahresgewinn bis 25.000 EUR | Keine |
-| Firmenzusatz | "UG (haftungsbeschränkt)" zwingend | "GmbH" |
-| Notarkosten (Musterprotokoll) | ca. 250-450 EUR | ca. 400-600 EUR |
-| Investoren-Akzeptanz | Eingeschränkt | Standard |
-| Bankkredit | Erschwerter Zugang | Normal |
-| Umwandlung | In GmbH ab 25.000 EUR möglich | — |
-| Reputation | "Mini-GmbH"-Konnotation | Etabliert |
-
-## Thesaurierungspflicht Rechenbeispiel
-
-| Jahresgewinn | Thesaurierung 25 % | Entnahmefähig | Kumulierte Rücklage |
-|---|---|---|---|
-| Jahr 1: 10.000 EUR | 2.500 EUR | 7.500 EUR | 2.500 EUR |
-| Jahr 2: 20.000 EUR | 5.000 EUR | 15.000 EUR | 7.500 EUR |
-| Jahr 3: 30.000 EUR | 7.500 EUR | 22.500 EUR | 15.000 EUR |
-| Jahr 4: 40.000 EUR | 10.000 EUR | 30.000 EUR | 25.000 EUR → Umfirmierung möglich |
-
-## Schritt-für-Schritt-Workflow
-
-1. **UG vs. GmbH-Entscheidung** — Triage-Fragen beantworten; Vergleichsmatrix prüfen.
-2. **Stammkapital festlegen** — Mindestens ausreichend für Gründungskosten (Notar ca. 300-500 EUR); Empfehlung: 500-2.500 EUR.
-3. **Firmenname** — IHK-Vorprüfung; HR-Recherche; Firmenzusatz "UG (haftungsbeschränkt)" zwingend.
-4. **Gesellschafterstruktur** — Quoten; max. 3 Gesellschafter für Musterprotokoll.
-5. **Musterprotokoll oder individuelle Satzung** — bei UG meist Musterprotokoll ausreichend.
-6. **Notartermin** — alle Gesellschafter und GF anwesend oder bevollmächtigt.
-7. **Einzahlung** — vollständige Bareinlage vor Anmeldung auf UG-Bankkonto.
-8. **HR-Anmeldung** — Notar reicht ein; ca. 2-4 Wochen bis Eintragung.
-9. **Folgeakte** — Gewerbeanmeldung; Steuererfassungsbogen; Transparenzregister; GF-Anstellungsvertrag.
-10. **Thesaurierungs-Monitoring** — Jahresabschluss: 25 % Pflichteinstellung überwachen.
-11. **Umfirmierungs-Planung** — bei Erreichen von 25.000 EUR Rücklage: Satzungsänderung, Notar, HR-Anmeldung.
-
-## Output-Template Checkliste UG-Gründung
-
-**Adressat:** Gründer / Mandant — Tonfall verständlich-erklärend
-```
-CHECKLISTE UG-GRÜNDUNG
-Mandant: [Name(n) der Gründer]
-Firma (geplant): [Firmenname] UG (haftungsbeschränkt)
-Notartermin: [Datum, Uhrzeit, Ort]
-Stammkapital: [EUR]
-
-VOR DEM TERMIN
-[ ] Personalausweis / Reisepass — alle Gesellschafter + GF
-[ ] Firmenvorprüfung abgeschlossen (IHK oder eigene Recherche)
-[ ] Bankverbindung für UG-Konto: [Bank], Konto wird nach Beurkundung eröffnet
-[ ] Stammkapital bereit für sofortige Einzahlung: [EUR]
-[ ] Gesellschafterstruktur final: [Gesellschafter 1] [%], [Gesellschafter 2] [%]
-[ ] GF-Name und Vertretungsart festgelegt
-
-NACH BEURKUNDUNG
-[ ] Bareinlage vollständig einzahlen bis: [Datum]
-[ ] Einzahlungsbeleg an Notar bis: [Datum]
-[ ] HR-Eintragung abwarten (ca. 2-4 Wochen)
-[ ] Gewerbeanmeldung: [zuständiges Amt]
-[ ] Steuererfassungsbogen: Finanzamt [ORT]
-[ ] Transparenzregister: wirtschaftlich Berechtigte eintragen
-[ ] GF-Anstellungsvertrag abschließen
-
-THESAURIERUNGS-PLAN
-Jahresabschluss: 25 % des Jahresgewinns in gesetzliche Rücklage einzustellen
-Zielkapital für Umfirmierung: 25.000 EUR
-Geschätzte Dauer bis Umfirmierung: ca. [X] Jahre
-```
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Rote Schwellen
-
-- Sacheinlage bei UG geplant → nicht zulässig (Paragraf 5a Abs. 2 GmbHG); Bargründung zwingend.
-- Stammkapital von 1 EUR — Gründungskosten überschreiten sofort das Kapital → Überschuldung ab Beurkundung; Mindestens 300-500 EUR einplanen.
-- Firmenzusatz "GmbH" vor Umfirmierung verwendet → irreführend; unzulässig; ggf. abmahnungsfähig.
-- Einzahlung nicht vollständig vor Anmeldung → Anmeldevoraussetzung nicht erfüllt; persönliche GF-Haftung.
-- Investor fordert GmbH als Voraussetzung → Umfirmierung einplanen; Kosten und Zeitaufwand berücksichtigen.
-
-## Quellen und Vertiefung
-
-- Paragraf 5a, 7, 53 GmbHG (UG-Sondervorschriften)
-- Paragraf 7a SGB IV (Statusfeststellungsverfahren)
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
-- Scholz/Emmerich, GmbHG, Paragraf 5a Rn. 1-40
-
-## Übergabe an andere Skills
-
-- `gesellschaftsgruender-notar-vorbereitung` — Notarsitzung vorbereiten
-- `gesellschaftsgruender-stammkapital-einzahlung` — Einzahlungsnachweis
-- `gesellschaftsgruender-handelsregister-anmeldung` — HR-Eintragungsablauf
-- `gesellschaftsgruender-online-gruendung-dirug` — DiRUG-Online-Gründung (UG zulässig)
-- `gesellschaftsgruender-gf-sozialversicherungs-status` — SV-Status des GF prüfen
-- `gesellschaftsgruender-gmbh-vorbereitung` — bei Umfirmierung zur GmbH
-
----
-
-## Audit-Hinweis (27.05.2026)
-
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Status: WRONG_TOPIC — das Urteil betrifft Verjährung von Einlageforderungen nach Übergangsrecht (NJW-RR 2008, 843), nicht Vorbelastungshaftung UG.
-Maßnahme: Beide Nennungen des AZ (Rechtsprechungsabschnitt und Quellenabschnitt) entfernt. Kein verifizierter Ersatz für Vorbelastungshaftung UG auf dejure.org gefunden; kein Ersatz eingefügt.
-
----
-
-## Skill: `sitz-geschaeftsanschrift-briefkastenrisiko`
-
-_Wenn es um Sitz, Geschäftsanschrift und Briefkastenrisiko in gesellschaftsgründer — Gründungsassistent für deutsche geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# Sitz, Geschäftsanschrift und Briefkastenrisiko
-
-Nutze diesen Skill, wenn Sitz, Geschäftsanschrift, Coworking-Adresse oder virtuelle Büroanschrift festgelegt werden. Der Skill verbindet Registerfähigkeit, Zustellungssicherheit und Außenauftritt.
-
-## Kaltstartfragen
-
-1. Wo soll der Satzungssitz liegen?
-2. Wo ist die tatsächliche Geschäftsleitung?
-3. Welche Anschrift soll im Handelsregister stehen?
-4. Gibt es Mietvertrag, Coworking-Vertrag oder Postvollmacht?
-5. Wer nimmt Post, Behördenbriefe und Gerichtsunterlagen an?
-6. Ändert sich die Adresse kurzfristig nach Gründung?
-
-## Anschriftenmatrix
-
-| Punkt | Zweck | Beleg | Risiko |
-| --- | --- | --- | --- |
-| Satzungssitz | gesellschaftsrechtliche Zuordnung | Satzung | falsche Zuständigkeit |
-| Geschäftsanschrift | Zustellung und Register | Mietvertrag, Vollmacht | Nichterreichbarkeit |
-| Verwaltungssitz | tatsächliche Leitung | Organunterlagen | Steuer- und Registerfragen |
-| Außenauftritt | Impressum, Verträge | Website | Abmahnrisiko |
-
-## Prüfraster
-
-1. Sitz und Geschäftsanschrift begrifflich trennen.
-2. Erreichbarkeit und Postannahme praktisch absichern.
-3. Impressum, Rechnungen, Verträge und Registereintrag synchronisieren.
-4. Wechselprozesse vorbereiten: Beschluss, Anmeldung, Mitteilungen.
-5. Briefkastenmodelle kritisch auf Zustellungs- und Seriositätsrisiko prüfen.
-
-## Rechtsprechungs- und Normanker
-
-- Paragraf 4a GmbHG: Sitz der Gesellschaft.
-- Paragraf 8 GmbHG: Anmeldung mit Geschäftsanschrift.
-- Paragraf 35a GmbHG: Angaben auf Geschäftsbriefen.
-- Paragraf 5 DDG: Anbieterkennzeichnung im Online-Auftritt.
-
-## Output
-
-Gib eine Sitz- und Anschriftenentscheidung mit Belegliste, Registerangaben und Kommunikations-To-dos aus.
-
----
-
-## Skill: `spezial-ueber-schriftsatz-brief-und-memo-bausteine`
-
-_Wenn es um Ueber: Schriftsatz-, Brief- und Memo-Bausteine in gesellschaftsgründer — Gründungsassistent für deutsche geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# Ueber: Schriftsatz-, Brief- und Memo-Bausteine
+# Unterlagen- und Lückenliste
 
 ## Aufgabe
-Dieser Skill ist ein konkreter Fachbaustein für `gesellschaftsgruender`. Ausgangspunkt ist: Gründungsassistent deutsche Gesellschaften (GmbH UG GbR OHG KG GmbH und Co KG PartG mbB gGmbH). Von Rechtsformwahl über Gesellschaftsvertrag und Geschäftsführervertrag bis Notar Handelsregister Gewerbeamt Finanzamt Transparenzregister. MoPeG DiRUG GwG. Kein Ersatz für Anwaltsberatung.
-
-Er führt durch **Schriftsatz-, Brief- und Memo-Bausteine** im Themenfeld **Ueber**. Ziel ist nicht ein abstrakter Lexikontext, sondern ein belastbares Arbeitsprodukt für die nächste anwaltliche, behördliche, gerichtliche, organisatorische oder mandantenbezogene Entscheidung.
-
-
-## Fachlicher Zuschnitt
-
-- **Thema:** Ueber.
-- **Arbeitsfokus:** Schriftsatz-, Brief- und Memo-Bausteine.
-- **Plugin-Rahmen:** Anfängerfreundlicher Gründungsassistent für deutsche Gesellschaften: Rechtsformwahl, Satzung, SHA, Cap Table, Notar, Handelsregister, Bank/KYC, Behörden....
-- **Qualitätsanspruch:** Antworte nicht mit einer austauschbaren Standard-Checkliste. Nutze die Fachlogik dieses Plugins, benenne die konkret einschlägigen Normgruppen, Behörden, Register, Fristen, Dokumente oder Verfahrenshandlungen und trenne sichere Punkte von Live-Check-Bedarf.
-- **Eloquenz und Nutzen:** Führe die Nutzerin oder den Nutzer wie eine erfahrene Fachperson: kurze Orientierung, präzise Rückfragen, dann ein verwertbares Produkt mit Varianten, Gegenargumenten und nächstem Handgriff.
+Nutze diesen Workflow-Skill für Unterlagen- und Lückenliste: erstellt eine präzise Nachforderungsliste statt allgemeiner Fragebögen.
 
 ## Kaltstart
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
 
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Standard-Bausteine für Gründungsbetreuung
-
-| Baustein | Adressat | Inhalt | Norm |
-| --- | --- | --- | --- |
-| Anmeldungstext HRB | Registergericht | Firma, Sitz, Gegenstand, Stammkapital, GF | Paragraf 8 GmbHG / Paragraf 36 AktG |
-| Notarauftrag | Notar | Vertragsbeurkundung, Anmeldung, Beglaubigungen | Paragraf 2, 15 GmbHG / Paragraf 23 AktG |
-| Gewerbeanzeige | Gewerbeamt | Tätigkeit, Sitz, GF/Inhaber | Paragraf 14 GewO |
-| Transparenzregister-Eintragung | Bundesanzeiger | wirtschaftlich Berechtigte | Paragraf 19, 20 GwG |
-| Mandantenmemo Rechtsformwahl | Mandant | Vor-/Nachteile, Empfehlung, To-dos | – |
-| Geschäftsführervertrag | GF | Vergütung, Befreiung Paragraf 181 BGB, Wettbewerbsverbot, Kündigung | Paragraf 35, 43 GmbHG |
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
 
 ## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Bausteinwahl:** Welcher Output ist nötig? Notarauftrag bei Gründung GmbH/AG; Mandantenmemo bei Rechtsformwahl; Geschäftsführervertrag separat (nicht Teil Gesellschaftsvertrag, denn Gesellschaftsvertrag nur "organschaftliches" Verhältnis; Anstellungsverhältnis ist eigenständig).
-3. **Pflichtbestandteile prüfen:** Anmeldungstext HRB enthält Firma, Sitz, Gegenstand, Stammkapital, GF mit Vertretungsregelung (Paragraf 8 GmbHG). Gewerbeanzeige erforderlich vor Geschäftsbeginn, sonst Bußgeld Paragraf 146 Abs. 2 GewO.
-4. **Befreiung Paragraf 181 BGB:** Bei Ein-Personen-GmbH zwingend Insichgeschäfts-Befreiung im Gesellschaftsvertrag und konkrete Erteilung; sonst kann GF mit sich selbst nicht wirksam kontrahieren.
-5. **Anschluss:** Geschäftsführervertrag-Skill `spezial-geschaeftsfuehrervertrag-livequellen-check`; bei Transparenzregister `gesellschaftsgruender-transparenzregister`.
+1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
+2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
+3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
+4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
 
 ## Output-Standard
-- **Kurzlage:** maximal fünf Sätze zu Ziel, Lage, Frist, Risiko und nächstem Schritt.
-- **Prüfmatrix:** Punkt, Norm/Quelle, Tatsache, Beleg, Bewertung, To-do.
-- **Arbeitsprodukt:** direkt nutzbarer Entwurf oder Baustein in der passenden Tonalität.
-- **Qualitätsgate:** keine Scheingenauigkeit; Lücken, Annahmen und Live-Check-Bedarf ausdrücklich markieren.
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -698,13 +425,57 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Paywall-Literatur nur verwerten, wenn sie von der Nutzerin oder dem Nutzer als Text bereitgestellt wurde; dann nicht als frei verifizierte Quelle ausgeben.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
+
+---
+
+## Skill: `unterlagen-luecken`
+
+_Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: gesellschaftsgründer — Gründungsassistent für deutsche._
+
+# Unterlagen und Lücken
+
+## Einsatzlage
+
+Diese Unterlagenprüfung für **Gesellschaftsgruender** benennt fehlende Dokumente, streitige Tatsachen, Beweisrisiken und die kürzeste sichere Nachforderung.
+
+## Fachlandkarte dieses Plugins
+
+- `ag-kleine-ag` — AG Kleine AG
+- `anfaenger-kaltstart` — Anfaenger Kaltstart
+- `aufloesung-liquidation-start` — Aufloesung Liquidation Start
+- `auslandsgesellschafter-kyc` — Auslandsgesellschafter KYC
+- `bankkonto-kyc-beirat` — Bankkonto KYC Beirat
+- `beirat-advisory-board` — Beirat Advisory Board
+- `bilinguale-dokumente` — Bilinguale Dokumente
+- `board-pack-erste-100-tage` — Board Pack Erste 100 Tage
+- `cap-table` — CAP Table
+- `cashburn` — Cashburn
+- `checkliste-vor-unterschrift` — Checkliste vor Unterschrift
+- `daten-und-ki-compliance-start` — Daten und KI Compliance Start
+- `deadlock-und-mediation` — Deadlock und Mediation
+- `dokumente-intake` — Dokumente Intake
+- `einstieg-routing` — Einstieg Routing
+
+## Arbeitsweg
+
+- Sollkatalog aufstellen: Welche Dokumente brauche ich für die konkrete Gesellschaftsgruender-Frage zwingend (Vertragsurkunden, Schriftsätze, Verwaltungsakte, Protokolle, Bescheide und externe Beweismittel des Fachgebiets)?
+- Ist-Abgleich: Welche Dokumente sind vorhanden, welche fehlen, welche sind unvollständig, undatiert oder ohne Unterschrift?
+- Lückenliste priorisieren nach: fristrelevant (die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren), beweisrelevant, formerheblich.
+- Rückfrageschreiben an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen entwerfen — Wer hat das Dokument, woher kann es beschafft werden, bis wann?
+- Bei behördlichen Lücken: Akteneinsichtsrecht (z. B. Paragraf 29 VwVfG, Paragraf 147 StPO, Paragraf 25 SGB X) prüfen und nutzen.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

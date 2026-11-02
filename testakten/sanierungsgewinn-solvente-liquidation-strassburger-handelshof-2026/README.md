@@ -1,18 +1,25 @@
 # Akte: Sanierungsgewinn bei solventer GmbH-Liquidation — Strassburger Handelshof GmbH (Berlin-Charlottenburg)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 151 KB) | PDF | [`gesamt-pdf/sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026_gesamt.pdf`](gesamt-pdf/sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026_gesamt.pdf`](gesamt-pdf/sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sanierungsgewinn-solvente-liquidation-strassburger-handelshof-2026-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -80,17 +87,10 @@ Hinzu kommt auf Gesellschafterebene: Auflösungsverlust nach § 17 Abs. 4 EStG, 
 | Nr. | Datei | Inhalt |
 |---|---|---|
 | 00 | [`00_aktenuebersicht.md`](00_aktenuebersicht.md) | Aktenübersicht, Beteiligte, Chronologie |
-| 01 | [`01_mandatsnotiz_strassburger-wittenburg.docx`](01_mandatsnotiz_strassburger-wittenburg.docx) | Mandatsnotiz Erstgespräch Frau Strassburger-Wittenburg |
 | 02 | [`02_gesellschafterbeschluss_aufloesung_15_04_2026.docx`](02_gesellschafterbeschluss_aufloesung_15_04_2026.docx) | Gesellschafterbeschluss Auflösung § 60 GmbHG |
 | 03 | [`03_bekanntmachung_aufloesung_und_glaeubigeraufruf.docx`](03_bekanntmachung_aufloesung_und_glaeubigeraufruf.docx) | Bekanntmachung im Unternehmensregister, Gläubigeraufruf § 65 GmbHG |
 | 04 | [`04_liquidationsbilanz_zum_15_04_2026.docx`](04_liquidationsbilanz_zum_15_04_2026.docx) | Liquidations-Eröffnungsbilanz |
 | 05 | [`05_nachrangiges_darlehen_und_rangruecktritts-vereinbarung.docx`](05_nachrangiges_darlehen_und_rangruecktritts-vereinbarung.docx) | Darlehensvertrag und qualifizierter Rangrücktritt |
-| 06 | [`06_5_abs_2a_estg_passivierungsverbot_pruefung.docx`](06_5_abs_2a_estg_passivierungsverbot_pruefung.docx) | Prüfung § 5 Abs. 2a EStG (Passivierungsverbot) |
-| 07 | [`07_bfh_ii_r_19-01_und_ofd_frankfurt_memo.docx`](07_bfh_ii_r_19-01_und_ofd_frankfurt_memo.docx) | Memo zu BFH II R 19/01 und OFD Frankfurt |
-| 08 | [`08_szenario_a_darlehen_bleibt_passiviert_bis_loeschung.docx`](08_szenario_a_darlehen_bleibt_passiviert_bis_loeschung.docx) | Szenario A — Passivierung bis zur Löschung |
-| 09 | [`09_szenario_b_darlehen_ausgebucht_in_liquidationsbilanz.docx`](09_szenario_b_darlehen_ausgebucht_in_liquidationsbilanz.docx) | Szenario B — Ausbuchung in Liquidationsbilanz |
-| 10 | [`10_szenario_c_freiwilliger_verzicht_durch_gesellschafterin.docx`](10_szenario_c_freiwilliger_verzicht_durch_gesellschafterin.docx) | Szenario C — Freiwilliger Verzicht |
-| 11 | [`11_3a_estg_pruefung_bei_solventer_liquidation.docx`](11_3a_estg_pruefung_bei_solventer_liquidation.docx) | § 3a EStG — Voraussetzungen bei solventer Liquidation |
 | 12 | [`12_3a_iii_estg_verrechnung_und_keine_verlustvortraege.docx`](12_3a_iii_estg_verrechnung_und_keine_verlustvortraege.docx) | § 3a Abs. 3 EStG Verrechnungsreihenfolge |
 | 13 | [`13_finanzamt_charlottenburg_korrespondenz_und_verbindliche_auskunft.docx`](13_finanzamt_charlottenburg_korrespondenz_und_verbindliche_auskunft.docx) | Korrespondenz FA Berlin-Charlottenburg, Antrag verbindliche Auskunft § 89 Abs. 2 AO |
 | 14 | [`14_17_estg_aufloesungsverlust_gesellschafterin.docx`](14_17_estg_aufloesungsverlust_gesellschafterin.docx) | § 17 EStG Auflösungsverlust Gesellschafterin |
@@ -100,6 +100,8 @@ Hinzu kommt auf Gesellschafterebene: Auflösungsverlust nach § 17 Abs. 4 EStG, 
 | 18 | [`18_liquidationsbilanz_szenarien.csv`](18_liquidationsbilanz_szenarien.csv) | Drei Szenarien rechenbar |
 | 19 | [`19_mandantenbrief_strassburger_an_steuerberater.docx`](19_mandantenbrief_strassburger_an_steuerberater.docx) | Mandantenbrief der Mandantin an Steuerberater |
 | 20 | [`20_finalcheck_und_naechste_schritte.docx`](20_finalcheck_und_naechste_schritte.docx) | Finalcheck und nächste Schritte |
+| 21 | [`21_kontoauszug_geschaeftskonto_mai_2026.csv`](21_kontoauszug_geschaeftskonto_mai_2026.csv) | Kontoauszug Mai 2026: Gläubigerzahlungen, Forderungseingänge, Liquiditätshilfe der Gesellschafterin |
+| 22 | [`22_zwischennachricht_finanzamt_verbindliche_auskunft_2026-06-18.docx`](22_zwischennachricht_finanzamt_verbindliche_auskunft_2026-06-18.docx) | Zwischennachricht des FA Berlin-Charlottenburg mit Nachforderungen und Frist zum Auskunftsantrag |
 
 ---
 

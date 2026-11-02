@@ -2,24 +2,179 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 460 Skills (gekuerzt fuer Chat-Fenster) des Plugins `fachanwalt-migrationsrecht`.
+Diese Vollprüfung enthält top-8 von 176 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-migrationsrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Fachanwalt Migrationsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passend…
-2. **mandat-triage-migrationsrecht** — Wenn es um Mandat Triage Migrationsrecht in Fachanwalt Migrationsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und de…
-3. **fachanwalt-migrationsrecht-orientierung** — Wenn es um Fachanwalt für Migrationsrecht — Orientierung in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständi…
-4. **orientierung-fachanwaltschaft-mandat** — Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Re…
-5. **erstgespraech-mandatsannahme** — Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg …
-6. **erstpruefung-und-mandatsziel** — Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Migrationsrecht geht: klärt Rolle, Ziel,…
-7. **staat-st-vincent-und-die-grenadinen-migrationscheck** — Wenn es um Staaten- und Gebietscheck St in Fachanwalt Migrationsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachf…
-8. **staat-st-kitts-und-nevis-migrationscheck** — Wenn es um Staaten- und Gebietscheck St in Fachanwalt Migrationsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachf…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Fachanwalt Migrationsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; v…
+2. **migrationsprozess-versandmappe-endfertigen** — Endfertigt migrations- und asylrechtliche Klagen sowie Eilanträge: prüft Bescheid, Bekanntgabe, Aufenthaltsstatus, Vollz…
+3. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+4. **mandat-triage-migrationsrecht** — Für Mandat Triage Migrationsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und…
+5. **orientierung-fachanwaltschaft-mandat** — Für Orientierung Fachanwaltschaft Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko un…
+6. **fachanwalt-migrationsrecht-orientierung** — Für Fachanwalt für Migrationsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit …
+7. **erstgespraech-mandatsannahme** — Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **erstpruefung-und-mandatsziel** — Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: T…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Fachanwalt Migrationsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Fachanwalt Migrationsrecht
+
+## 1. Direktstart
+
+Arbeite als Verwaltungsrechtlicher Bearbeiter für Verwaltungsakt, Widerspruch, Klage, Eilrechtsschutz, Ermessen, Satzungen und behördliche Verfahren.
+
+Pluginauftrag: Großer Fachanwalt-Kompass Migrationsrecht mit über 200 Skills für Aufenthalt, Blaue Karte EU, Fachkräfte, Asyl, Dublin/GEAS, Einbürgerung, Staaten-/Gebietschecks und spanische/einfache Erklärung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Fachanwalt Migrationsrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Verwaltungshandeln | Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen |
+| Zulässigkeit | Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen |
+| Materielle Rechtmäßigkeit | Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen |
+| Eilrechtsschutz | aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren |
+| Arbeitsprodukt | Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Asyl-Folgeantrag Paragraf 71 AsylG: Bearbeite den Fachpunkt im Skill fachanwalt-migrationsrecht-asyl-folgeantrag-71 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Aufenthaltstitel-Antrag: Bearbeite den Fachpunkt im Skill fachanwalt-migrationsrecht-aufenthaltstitel-antrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Ausweisung-Widerspruch Paragraf 53 AufenthG: Bearbeite den Fachpunkt im Skill fachanwalt-migrationsrecht-ausweisung-widerspruch und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. GEAS-Reform: EU-Grenzverfahren 2024: Bearbeite den Fachpunkt im Skill fachanwalt-migrationsrecht-geas-reform-grenzverfahren-2024 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
+4.2. VwVfG Paragraf 28: Anhörung Beteiligter.
+4.3. VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
+4.4. VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
+4.5. VwGO Paragraf 80 Absatz 5: Eilrechtsschutz gegen sofort vollziehbare Verwaltungsakte.
+4.6. VwGO Paragraf 123: einstweilige Anordnung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Bestimme zuerst den konkreten Streitpunkt in Fachanwalt Migrationsrecht und öffne den dazu in Abschnitt 3.1 verknüpften Fachskill. Ein fachgebietsweiter Leitfall ersetzt keine streitpunktgenaue Recherche.
+5.2. Übernimm eine Entscheidung nur, wenn Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Rechtssatz und Tatsachenkontext sicher feststehen.
+5.3. Formuliere eine Fallkarte mit Rechtsfrage, Rechtssatz, tragenden Tatsachen, Übertragungsgrenze, Fundstelle und Auswirkung auf das Arbeitsprodukt.
+5.4. Fehlt ein sicherer Anker, benenne die offene Recherchefrage ohne Aktenzeichen. Eine nicht belegte Entscheidung ist kein Hilfsargument.
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+[BVerwG, Urteil vom 24.03.2026 – 1 C 6.25](https://www.bverwg.de/240326U1C6.25.0), Rn. 12–17: Auslandsanerkennung, Reiseausweis und Verantwortungsübergang allein tragen keinen Titel nach § 25 Abs. 2 Satz 1 Alternative 1 AufenthG. Andere Titel, Abschiebungsschutz und spätere GEAS-Anwendung eigenständig prüfen.
+
+[BVerwG, Urteil vom 26.08.2026 – 1 C 27.25](https://www.bverwg.de/260826U1C27.25.0), Rn. 19–30: Mitwirkung an notwendigem Passersatz kann trotz Nationalpass verlangt werden; Zumutbarkeit und Kausalität konkret. § 60b ist keine allgemeine Pflicht zur Beseitigung aller Abschiebungshindernisse.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Handlungsform liegt vor.
+7.2. Welche Klage- oder Antragsart ist statthaft.
+7.3. Welche formellen Fehler können geheilt werden und welche nicht.
+7.4. Welche Ermessensfehler oder Abwägungsdefizite tragen den Angriff.
+7.5. Welche vorläufige Regelung ist im Eilverfahren erforderlich.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Verwaltungshandeln, Zulässigkeit, Materielle Rechtmäßigkeit, Eilrechtsschutz: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur verwendbar?
+
+---
+
+## Skill: `migrationsprozess-versandmappe-endfertigen`
+
+_Endfertigt migrations- und asylrechtliche Klagen sowie Eilanträge: prüft Bescheid, Bekanntgabe, Aufenthaltsstatus, Vollzugsdruck, Klage- und Eilfrist, ordnet Identitäts-, Familien-, Gesundheits- und Herkunftsnachweise mit Übersetzungen und liefert eine datensparsame beA-Mappe samt Fristen-, Zustell- und Schutzbedarfscheck._
+
+# Migrationsprozess-Versandmappe endfertigen
+
+## 1. Bescheid und Vollzugslage zuerst
+
+Lies Bescheid vollständig einschließlich Rechtsbehelfsbelehrung, Zustellumschlag oder elektronischen Nachweis, Aufenthaltsdokumente, Vollzugsmitteilungen und den fertigen Schriftsatz. Bestimme Klageart, Eilrechtsschutz, aufschiebende Wirkung und aktuelle Abschiebungs- oder Überstellungsgefahr, bevor Dateien erzeugt werden.
+
+## 2. Frist- und Personenidentität
+
+1. Behörde, Gericht, Aktenzeichen und alle Namensschreibweisen aus Original und Umschrift abgleichen.
+2. Bekanntgabe, Klagefrist, Antragsfrist und behördlich angekündigten Vollzug getrennt notieren.
+3. Bei Familienverbänden jedes Mitglied, jeden Bescheid und jeden Antrag eindeutig verbinden.
+4. Bei Asyl- und Dublinverfahren Anhörung, Bescheidart, Zielstaat, Überstellungsstand und Fristregime gesondert prüfen.
+5. Bei Gesundheitsgefahren Diagnose, Funktionsbeeinträchtigung, Behandlung, Reise- und Zielstaatsbezug konkret belegen.
+
+## 3. Sensible Anlagen
+
+Ordne Pässe, Urkunden, Registerauszüge, Anhörungsprotokolle, Länderinformationen, ärztliche Unterlagen, Familien- und Beschäftigungsnachweise nach Beweistatsache. Original, Transliteration und Übersetzung bleiben miteinander verknüpft. Dateinamen enthalten keine Diagnose, Verfolgungsgrund oder unnötige Identitätsdaten; Schwärzungen dürfen den Beweiswert nicht zerstören.
+
+## 4. Form- und Rechtsprechungsanker
+
+- AsylG Paragrafen 74 und 36 sowie VwGO Paragrafen 80, 80a und 123 nur nach Bescheidart und Rechtsschutzziel kombinieren.
+- BVerwG, Beschluss vom 17. Januar 2023, 9 B 23.22, und Beschluss vom 19. Dezember 2023, 8 B 26.23: Ersatzübermittlung verlangt eine nachvollziehbare technische Störung; allgemeine oder organisatorische Gründe genügen nicht.
+- BVerwG, Beschluss vom 16. Mai 2025, 5 B 8.25: Ein Signaturprotokoll belegt nicht den Eingang; die automatisierte gerichtliche Eingangsbestätigung ist zu kontrollieren.
+
+## 5. Auslieferung
+
+Liefere Hauptdokument, Einzelanlagen, Bescheid- und Fristenblatt, Personen- und Namensmatrix, Übersetzungsverzeichnis, Schutzbedarfscheck, Manifest und Eingangsprüfung. Stoppe bei fehlender Bescheidseite, ungeklärter Zustellung, widersprüchlicher Identität, naher Vollzugsmaßnahme ohne Eilentscheidung oder ungeschützter sensibler Anlage.
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Fachanwalt Migrationsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Migrationsrecht._
 
 # Einstieg und Routing
 
@@ -63,7 +218,7 @@ Dieser Einstieg routet **Fachanwalt Migrationsrecht** vom ersten Sachverhalt zu 
 
 ## Skill: `mandat-triage-migrationsrecht`
 
-_Wenn es um Mandat Triage Migrationsrecht in Fachanwalt Migrationsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Mandat Triage Migrationsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Eingangs-Abfrage für migrationsrechtliche Mandate — Mandant ist Asylsuchender Geduldeter oder fragt nach Aufenthaltstitel Familiennachzug Abschiebungsabwehr Ausweisung oder Einbuergerung
 
@@ -80,8 +235,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -238,10 +391,6 @@ Bei drohender Abschiebung:
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette Triage
 
 - **§ 36 AsylG** — 1-Woche-Klagefrist bei offensichtlich unbegruedet; § 74 Abs. 1 AsylG — 2-Wochen-Klagefrist
@@ -296,160 +445,13 @@ Eskalation: [ ] Sofort-Telefon [ ] Heute [ ] Diese Woche
 Aktennummer: [AZ]
 ```
 
----
-
-## Skill: `fachanwalt-migrationsrecht-orientierung`
-
-_Wenn es um Fachanwalt für Migrationsrecht — Orientierung in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Fachanwalt für Migrationsrecht — Orientierung
-
-## FAO-Voraussetzungen
-
-- Lehrgang 120 Stunden + drei Klausuren.
-- 50 Fälle in den letzten drei Jahren, davon mindestens 30 streitige Verfahren.
-
-## Wichtige Normen
-
-| Bereich | Norm |
-|---|---|
-| Aufenthaltsrecht | AufenthG §§ 1 ff. (Aufenthaltstitel) § 60 (Abschiebungsverbote) § 25 (humanitaer) § 81 (Antragstellung Fiktionswirkung) |
-| Asylrecht | AsylG §§ 3 ff. (Fluechtlingsstatus) § 4 (subsidiaerer Schutz) § 36 (beschleunigtes Verfahren) § 74 (Klagefrist) |
-| Genfer Konvention | GFK 1951 Art. 1A (Fluechtlingsbegriff) Art. 33 Refoulementverbot |
-| EU-Recht | Dublin III VO (EU 604/2013) Qualifikations-RL 2011/95 Verfahrens-RL 2013/32 Aufnahme-RL 2013/33 Rückführungs-RL 2008/115 |
-| Staatsangehoerigkeit | StAG (Einbürgerung Anspruchseinbürgerung Ermessenseinbürgerung) |
-| Beschaeftigungsmigration | Beschaeftigungsverordnung BeschV Fachkraefteeinwanderungsgesetz |
-| Verfahrensrecht | VwGO (Klage gegen BAMF / Ausländerbehörde) AsylG (Sonderverfahren) |
-
-## Typische Mandate
-
-- Asylantrag und Asylklage
-- Aufenthaltstitel-Verlängerung und -Versagung
-- Abschiebungsverfahren Eilrechtsschutz § 80 Abs. 5 VwGO / § 123 VwGO
-- Familiennachzug §§ 27 ff. AufenthG
-- Einbürgerung StAG §§ 10 ff. (acht Jahre / verkürzbar)
-- Aufenthaltsverfestigung (Niederlassungserlaubnis Daueraufenthalt EU)
-- Duldung § 60a AufenthG
-- Ausländerrecht und Strafrecht (Ausweisung nach Straftat)
-- Dublin-Verfahren Überstellung in anderen EU-Mitgliedstaat
-
-## Notfristen
-
-- **Klagefrist § 36 AsylG-Bescheid** — **eine Woche** ab Bekanntgabe.
-- **Klagefrist sonstiger Asyl-Bescheid** zwei Wochen oder ein Monat je nach Bescheidart.
-- **Klage Ausländerbehörde** ein Monat (§ 74 VwGO).
-- **Eilrechtsschutz** sofort bei drohender Abschiebung.
-- **Wiedereinsetzung** § 60 VwGO zwei Wochen.
-
-## Hauptgerichte
-
-- Verwaltungsgericht — Asyl- und Ausländerrecht.
-- OVG / VGH — Berufung Berufungszulassung.
-- BVerwG Leipzig — Revision.
-- EuGH — Vorabentscheidung bei EU-rechtlichen Fragen.
-- EGMR — Strassburg bei Konventionsverletzungen.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Berufsverband
-
-- ARGE Migrationsrecht DAV.
-- Pro Asyl als Fachöffentlichkeit.
-
-## Schnittstellen
-
-- **rechtsberatungsstelle** bei pro-bono-Beratungsstellen.
-- **fachanwalt-verwaltungsrecht** bei VG-Verfahren.
-- **kanzlei-allgemein** Notfristen Versand.
-- **fachanwalt-strafrecht** bei Ausweisung nach Straftat.
-
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-Rechtsprechung im Mandat live verifizieren. Aktuelle Linien zur Orientierung (Stand 05/2026):
-
-- EuGH, Urt. v. 05.03.2026 — C-458/24 (Daraa) — Zuständigkeitsübergang nach Dublin III, wenn der ersuchende Mitgliedstaat die Überstellung binnen 6 Monaten nicht durchführt; einseitige Erklärung Italiens ohne Rücküberstellungsfähigkeit nicht ausreichend für automatischen Übergang. Verifikation über [curia.europa.eu](https://curia.europa.eu/).
-- GEAS-Reform: Asylverfahrensverordnung (EU) 2024/1348, Grenzverfahrensverordnung (EU) 2024/1349, Asyl- und Migrationsmanagementverordnung (EU) 2024/1351, Screening-VO (EU) 2024/1356, Qualifikations-VO (EU) 2024/1347, EURODAC-VO (EU) 2024/1358, Krisen-VO (EU) 2024/1359. **Anwendbarkeit ab 12.06.2026.** Stichtagsregelung: Verfahrensrecht (Art. 79 Abs. 3 AVV-VO) gilt für ab dem 12.06.2026 eingereichte Anträge; materielles Statusrecht (Qualifikations-VO) gilt mangels Übergangsregelung ab 12.06.2026 auch in laufenden Altverfahren.
-- BVerfG, Beschluss vom 14.11.2024 — 1 BvL 3/22 (PolG NRW Observation) — Spillover ins Migrationsrecht relevant bei Datenverarbeitung über Schutzsuchende.
-
-## Normen-Kette Migrationsrecht
-
-- **AsylG §§ 3, 3a, 3b, 4** — Fluchtlingsstatus, Verfolgungshandlungen/-gruende, subsidiaerer Schutz
-- **AufenthG §§ 25, 60, 60a, 81** — Humanitaere Aufenthaltstitel, Abschiebungsverbote, Duldung, Fiktionswirkung Antrag
-- **§§ 74 AsylG, 74 VwGO, 36 AsylG** — Klagefristen (1 Woche / 2 Wochen / 1 Monat)
-- **VwGO §§ 80 Abs. 5, 123** — Eilrechtsschutz aufschiebende Wirkung und einstweilige Anordnung
-- **Dublin III-VO (EU) 604/2013** Art. 3 Abs. 2 — systemische Maengel; Art. 17 — Selbsteintrittsrecht
-- **GFK 1951** Art. 1A Fluechtlingsbegriff; Art. 33 Refoulementverbot
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Triage vor Bearbeitung
-
-Bevor losgelegt wird, klaere:
-1. Akute Frist — §-36-AsylG-1-Woche-Frist bereits angelaufen? Wenn ja: Sofort-Eilantrag.
-2. Mandantenstatus exakt — Aufenthaltsgestattung, Duldung, bestehender Titel, EU-Buerger?
-3. Besteht bereits Bescheid — BAMF oder Auslaenderbehoerde?
-4. Familienangehoerige in Deutschland mit Titel — Relevant fuer Art. 6 GG / § 60a AufenthG?
-5. Gesundheitszustand Mandant — Attests-Bedarf fuer Reiseunfaehigkeit / psych. Erkrankung?
-
-## Output-Template: Orientierungs-Memo Migrationsrecht
-
-**Adressat:** Mandant (zur persoenlichen Erklaerung) oder internes Kanzlei-Memo
-**Tonfall:** Verstaendlich-erklaerend
-
-```
-ORIENTIERUNGS-MEMO MIGRATIONSRECHT
-Kanzlei: [KANZLEI]
-Mandant: [NAME, GEBURTSDATUM, NATIONALITAET]
-Datum: [DATUM]
-
-1. AKTUELLER STATUS
-   Aufenthaltsstatus: [Gestattung / Duldung / AE § ... / NE]
-   Laufendes Verfahren: [BAMF-Az. / VG-Az.]
-
-2. MOEGLICHE ANSPRUECHE / ROUTEN
-   a) Asylrechtliche Route: [Erstantrag / Folgeantrag § 71 AsylG / Klage]
-   b) Humanitaerer Aufenthaltstitel: [§ 25 Abs. ... AufenthG]
-   c) Abschiebungsschutz: [§ 60 Abs. 5 / Abs. 7 AufenthG / § 60a]
-   d) Familiennachzug: [§§ 27 ff. AufenthG — Grundvoraussetzungen gegeben?]
-
-3. NAECHSTE SCHRITTE
-   - [Schritt 1 mit Frist und Verantwortlichem]
-   - [Schritt 2]
-
-4. FRISTEN
-   Naechste Klagefrist: [DATUM]
-   Titelablauf: [DATUM]
-
-5. KOSTEN
-   PKH-Antrag: [gestellt / noch nicht gestellt / nicht erforderlich]
-   Beratungshilfe: [ja / nein]
-```
-
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Fehler: Skill behauptete das Urteil betreffe AsylRL/DublinVO — falsch.
-Tatsaechlicher Gegenstand: ne bis in idem (Art. 50 GRCh) im Steuerstrafrecht
-(Steuerhinterziehung, Doppelbestrafung durch steuerliche und strafrechtliche Sanktionen).
-Der allgemeine Grundsatz zu Art. 51 GRCh (Anwendungsbereich der Charta) ist korrekt
-und fuer das Migrationsrecht methodisch relevant; Urteil verifiziert auf
-dejure.org/2013,2363 (NJW 2013, 1415).
--->
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `orientierung-fachanwaltschaft-mandat`
 
-_Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Orientierung Fachanwaltschaft Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Migrationsrecht._
 
 # Anwalt will überblicken welche Normen und Mandate das Migrationsrecht umfasst oder Fachanwaltschaft vorbereiten
 
@@ -466,8 +468,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -598,15 +598,146 @@ Datum: [DATUM]
  Beratungshilfe: [ja / nein]
 ```
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Fehler: Skill behauptete das Urteil betreffe AsylRL/DublinVO — falsch.
-Tatsaechlicher Gegenstand: ne bis in idem (Art. 50 GRCh) im Steuerstrafrecht
-(Steuerhinterziehung, Doppelbestrafung durch steuerliche und strafrechtliche Sanktionen).
-Der allgemeine Grundsatz zu Art. 51 GRCh (Anwendungsbereich der Charta) ist korrekt
-und für das Migrationsrecht methodisch relevant; Urteil verifiziert auf
-dejure.org/2013,2363 (NJW 2013, 1415).
--->
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+---
+
+## Skill: `fachanwalt-migrationsrecht-orientierung`
+
+_Für Fachanwalt für Migrationsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Fachanwalt für Migrationsrecht — Orientierung
+
+## FAO-Voraussetzungen
+
+- Lehrgang 120 Stunden + drei Klausuren.
+- 50 Fälle in den letzten drei Jahren, davon mindestens 30 streitige Verfahren.
+
+## Wichtige Normen
+
+| Bereich | Norm |
+|---|---|
+| Aufenthaltsrecht | AufenthG §§ 1 ff. (Aufenthaltstitel) § 60 (Abschiebungsverbote) § 25 (humanitaer) § 81 (Antragstellung Fiktionswirkung) |
+| Asylrecht | AsylG §§ 3 ff. (Fluechtlingsstatus) § 4 (subsidiaerer Schutz) § 36 (beschleunigtes Verfahren) § 74 (Klagefrist) |
+| Genfer Konvention | GFK 1951 Art. 1A (Fluechtlingsbegriff) Art. 33 Refoulementverbot |
+| EU-Recht | Dublin III VO (EU 604/2013) Qualifikations-RL 2011/95 Verfahrens-RL 2013/32 Aufnahme-RL 2013/33 Rückführungs-RL 2008/115 |
+| Staatsangehoerigkeit | StAG (Einbürgerung Anspruchseinbürgerung Ermessenseinbürgerung) |
+| Beschaeftigungsmigration | Beschaeftigungsverordnung BeschV Fachkraefteeinwanderungsgesetz |
+| Verfahrensrecht | VwGO (Klage gegen BAMF / Ausländerbehörde) AsylG (Sonderverfahren) |
+
+## Typische Mandate
+
+- Asylantrag und Asylklage
+- Aufenthaltstitel-Verlängerung und -Versagung
+- Abschiebungsverfahren Eilrechtsschutz § 80 Abs. 5 VwGO / § 123 VwGO
+- Familiennachzug §§ 27 ff. AufenthG
+- Einbürgerung StAG §§ 10 ff. (acht Jahre / verkürzbar)
+- Aufenthaltsverfestigung (Niederlassungserlaubnis Daueraufenthalt EU)
+- Duldung § 60a AufenthG
+- Ausländerrecht und Strafrecht (Ausweisung nach Straftat)
+- Dublin-Verfahren Überstellung in anderen EU-Mitgliedstaat
+
+## Notfristen
+
+- **Klagefrist § 36 AsylG-Bescheid** — **eine Woche** ab Bekanntgabe.
+- **Klagefrist sonstiger Asyl-Bescheid** zwei Wochen oder ein Monat je nach Bescheidart.
+- **Klage Ausländerbehörde** ein Monat (§ 74 VwGO).
+- **Eilrechtsschutz** sofort bei drohender Abschiebung.
+- **Wiedereinsetzung** § 60 VwGO zwei Wochen.
+
+## Hauptgerichte
+
+- Verwaltungsgericht — Asyl- und Ausländerrecht.
+- OVG / VGH — Berufung Berufungszulassung.
+- BVerwG Leipzig — Revision.
+- EuGH — Vorabentscheidung bei EU-rechtlichen Fragen.
+- EGMR — Strassburg bei Konventionsverletzungen.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Berufsverband
+
+- ARGE Migrationsrecht DAV.
+- Pro Asyl als Fachöffentlichkeit.
+
+## Schnittstellen
+
+- **rechtsberatungsstelle** bei pro-bono-Beratungsstellen.
+- **fachanwalt-verwaltungsrecht** bei VG-Verfahren.
+- **kanzlei-allgemein** Notfristen Versand.
+- **fachanwalt-strafrecht** bei Ausweisung nach Straftat.
+
+## Vertiefung: Rechtsprechung und Leitsaetze
+
+Rechtsprechung im Mandat live verifizieren. Aktuelle Linien zur Orientierung (Stand 05/2026):
+
+- EuGH, Urt. v. 05.03.2026 — C-458/24 (Daraa) — Zuständigkeitsübergang nach Dublin III, wenn der ersuchende Mitgliedstaat die Überstellung binnen 6 Monaten nicht durchführt; einseitige Erklärung Italiens ohne Rücküberstellungsfähigkeit nicht ausreichend für automatischen Übergang. Verifikation über [curia.europa.eu](https://curia.europa.eu/).
+- GEAS-Reform: Asylverfahrensverordnung (EU) 2024/1348, Grenzverfahrensverordnung (EU) 2024/1349, Asyl- und Migrationsmanagementverordnung (EU) 2024/1351, Screening-VO (EU) 2024/1356, Qualifikations-VO (EU) 2024/1347, EURODAC-VO (EU) 2024/1358, Krisen-VO (EU) 2024/1359. **Anwendbarkeit ab 12.06.2026.** Stichtagsregelung: Verfahrensrecht (Art. 79 Abs. 3 AVV-VO) gilt für ab dem 12.06.2026 eingereichte Anträge; materielles Statusrecht (Qualifikations-VO) gilt mangels Übergangsregelung ab 12.06.2026 auch in laufenden Altverfahren.
+- BVerfG, Beschluss vom 14.11.2024 — 1 BvL 3/22 (PolG NRW Observation) — Spillover ins Migrationsrecht relevant bei Datenverarbeitung über Schutzsuchende.
+
+## Normen-Kette Migrationsrecht
+
+- **AsylG §§ 3, 3a, 3b, 4** — Fluchtlingsstatus, Verfolgungshandlungen/-gruende, subsidiaerer Schutz
+- **AufenthG §§ 25, 60, 60a, 81** — Humanitaere Aufenthaltstitel, Abschiebungsverbote, Duldung, Fiktionswirkung Antrag
+- **§§ 74 AsylG, 74 VwGO, 36 AsylG** — Klagefristen (1 Woche / 2 Wochen / 1 Monat)
+- **VwGO §§ 80 Abs. 5, 123** — Eilrechtsschutz aufschiebende Wirkung und einstweilige Anordnung
+- **Dublin III-VO (EU) 604/2013** Art. 3 Abs. 2 — systemische Maengel; Art. 17 — Selbsteintrittsrecht
+- **GFK 1951** Art. 1A Fluechtlingsbegriff; Art. 33 Refoulementverbot
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Triage vor Bearbeitung
+
+Bevor losgelegt wird, klaere:
+1. Akute Frist — §-36-AsylG-1-Woche-Frist bereits angelaufen? Wenn ja: Sofort-Eilantrag.
+2. Mandantenstatus exakt — Aufenthaltsgestattung, Duldung, bestehender Titel, EU-Buerger?
+3. Besteht bereits Bescheid — BAMF oder Auslaenderbehoerde?
+4. Familienangehoerige in Deutschland mit Titel — Relevant fuer Art. 6 GG / § 60a AufenthG?
+5. Gesundheitszustand Mandant — Attests-Bedarf fuer Reiseunfaehigkeit / psych. Erkrankung?
+
+## Output-Template: Orientierungs-Memo Migrationsrecht
+
+**Adressat:** Mandant (zur persoenlichen Erklaerung) oder internes Kanzlei-Memo
+**Tonfall:** Verstaendlich-erklaerend
+
+```
+ORIENTIERUNGS-MEMO MIGRATIONSRECHT
+Kanzlei: [KANZLEI]
+Mandant: [NAME, GEBURTSDATUM, NATIONALITAET]
+Datum: [DATUM]
+
+1. AKTUELLER STATUS
+   Aufenthaltsstatus: [Gestattung / Duldung / AE § ... / NE]
+   Laufendes Verfahren: [BAMF-Az. / VG-Az.]
+
+2. MOEGLICHE ANSPRUECHE / ROUTEN
+   a) Asylrechtliche Route: [Erstantrag / Folgeantrag § 71 AsylG / Klage]
+   b) Humanitaerer Aufenthaltstitel: [§ 25 Abs. ... AufenthG]
+   c) Abschiebungsschutz: [§ 60 Abs. 5 / Abs. 7 AufenthG / § 60a]
+   d) Familiennachzug: [§§ 27 ff. AufenthG — Grundvoraussetzungen gegeben?]
+
+3. NAECHSTE SCHRITTE
+   - [Schritt 1 mit Frist und Verantwortlichem]
+   - [Schritt 2]
+
+4. FRISTEN
+   Naechste Klagefrist: [DATUM]
+   Titelablauf: [DATUM]
+
+5. KOSTEN
+   PKH-Antrag: [gestellt / noch nicht gestellt / nicht erforderlich]
+   Beratungshilfe: [ja / nein]
+```
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -620,7 +751,7 @@ dejure.org/2013,2363 (NJW 2013, 1415).
 
 ## Skill: `erstgespraech-mandatsannahme`
 
-_Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Migrationsrecht._
 
 # Strukturierter Erstgespraechsleitfaden für Ausländer-, Asyl- und Staatsangehoerigkeitsrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
 
@@ -783,10 +914,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - `schriftsatzkern-substantiierung` (im selben Plugin) für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
 - Kanzlei-Allgemein-Plugin `kanzlei-allgemein` für Konflikt-, GwG- und PEP-Prüfroutinen.
 
-## Vertiefung: Rechtsprechung und Normen (Migrationsrecht Mandatsannahme)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette Erstgespraech
 
 - **§ 10 ff. GwG** — Sorgfaltspflichten und Identifizierung; § 2 Abs. 1 Nr. 10 GwG — Anwendung auf RA-Mandate
@@ -796,11 +923,13 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 - **§ 52 GKG** — Streitwert; Abs. 2 Regelstreitwert 5.000 EUR für Asylklage
 - **§ 25 Abs. 6 AsylG** — Recht auf anwaltlichen Beistand bei BAMF-Anhörung
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `erstpruefung-und-mandatsziel`
 
-_Wenn es um Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel in Fachanwalt Migrationsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Migrationsrecht._
 
 # Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -836,100 +965,15 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Qualitätsanker: Identität, Schutzstatus und aktuelle Lageprüfung
 
-- **Verifizierte Rechtsprechungsanker:** BVerwG, Urteil vom 13.12.2023 - 1 C 34.22 und BVerwG, Urteil vom 18.12.2025 - 1 C 27.24 zur Identitätsklärung/Stufenmodell im Einbürgerungsrecht; BVerwG, Urteil vom 16.04.2025 - 1 C 18.24 zur Tatsachenrevision und Art. 4 GRCh/Art. 3 EMRK bei anerkannten Schutzberechtigten in Griechenland.
 - **Prüfdisziplin:** Aufenthaltsrecht, Asylrecht, Staatsangehörigkeitsrecht, Freizügigkeit/EU, Dublin/GEAS, Abschiebungsschutz, Familiennachzug und Arbeit/Beschäftigung strikt trennen. Keine Auskunft „nach Gefühl“ über Länderpraxis oder Behördenlaufzeiten.
 - **Aktualitätsfilter:** Herkunftsland, Schutzstatus, Dokumentenlage, Identität, Passbeschaffung, Zumutbarkeit, Vulnerabilität und aktuelle Lageberichte/live verfügbare Gerichtsquellen sind tragend; bei Lagefragen immer Datum und Erkenntnisbasis nennen.
 - **Output-Pflicht:** Entscheidungsbaum mit Sofortfrist, zuständiger Behörde/Gericht, benötigten Unterlagen, Beweisnot-/Zumutbarkeitsargumenten und nächstem rechtssicheren Schritt.
 
 ---
 
-## Skill: `staat-st-vincent-und-die-grenadinen-migrationscheck`
-
-_Wenn es um Staaten- und Gebietscheck St in Fachanwalt Migrationsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Staat St Vincent Und Die Grenadinen Migrationscheck; Arbeitsfeld: Fachanwalt Migrationsrecht._
-
-# Staaten- und Gebietscheck St
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AufenthG §§ 4, 5, 7, 8, 9, 16a-16g, 18a-18g, 19c, 25, 27-36, 50, 53-55, 58, 60, 60a-60d, 81, 84, 95; AsylG §§ 13, 24-30, 34-38, 71, 74, 77; FreizügG/EU §§ 2-5; StAG §§ 4, 5, 8-10, 12a, 25, 30; AsylbLG §§ 1, 3, 6; VwGO §§ 74, 80, 123; Dublin-III-VO Art. 3, 17, 21-29; einschlägige EU-Richtlinien/GEAS-Normstand live prüfen; keine BeckRS-/juris-Blindzitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Staaten- und Gebietscheck St. Vincent und die Grenadinen: migrationsrechtlicher für Herkunfts-, Transit-, Dokumenten-, Visum-, Schutz-, Passbeschaffungs-, Rückführungs- und Aufenthaltstitelfragen mit Live-Quellencheck und optionaler spanischer Erklärung.
-
-### Staaten-/Gebietscheck: St. Vincent und die Grenadinen
-
-## Einstieg
-1. Welche Beziehung besteht zu St. Vincent und die Grenadinen: Staatsangehörigkeit, Geburt, Wohnsitz, Transit, Fluchtgrund, Urkunde, Pass, Familie, Arbeitgeber oder Zielstaat?
-2. Wo befindet sich die Person jetzt und mit welchem Aufenthaltsstatus?
-3. Geht es um Aufenthaltstitel, Blaue Karte EU, Visum, Familiennachzug, Asyl, Dublin/GEAS, Einbürgerung, Passbeschaffung, Abschiebungsabwehr oder Rückkehr?
-4. Welche Dokumente aus St. Vincent und die Grenadinen liegen vor und wie wurden sie beschafft/übersetzt/legalisiert?
-5. Welche aktuelle Länder-, Behörden- oder Sicherheitsquelle trägt das Ergebnis?
-
-## Prüfraster
-1. **Identität und Dokumente:** Pass, ID, Geburts-/Heiratsurkunden, Register, Übersetzung, Legalisation/Apostille, Echtheit, Zumutbarkeit der Beschaffung.
-2. **Aufenthaltsrecht Deutschland:** Passpflicht, Visumverfahren, Titelvoraussetzungen, Lebensunterhalt, Beschäftigung, Familie, Fiktionswirkung.
-3. **Schutzrecht:** Individuelle Verfolgung, Gruppen-/Regionenrisiko, innerstaatliche Fluchtalternative, Art. 3 EMRK, Krankheit, Vulnerabilität.
-4. **EU/Europarat:** Dublin/GEAS, sichere Herkunft/Drittstaaten, EMRK/HUDOC, EUAA/UNHCR-Quellen; nur anwenden, wenn aktuell und einschlägig.
-5. **Rückführung/Pass:** Botschaftspraxis, Heimreisedokument, Mitwirkung, Zumutbarkeit, Vollstreckungshindernisse.
-6. **Strategie:** Antrag, Nachreichung, Eilantrag, Länderquellenvermerk, Mandantenhinweis, spanische/einfache Erklärung bei Bedarf.
-
-## Quellen- und Sicherheitsregel
-- Vor tragenden Aussagen den aktuellen Normtext und die aktuelle Behörden-/Gerichtspraxis prüfen; keine Scheingenauigkeit aus Modellwissen.
-- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Annahmen, fehlende Unterlagen, Beweisrisiken und Fristen ausdrücklich markieren.
-
----
-
-## Skill: `staat-st-kitts-und-nevis-migrationscheck`
-
-_Wenn es um Staaten- und Gebietscheck St in Fachanwalt Migrationsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Staat St Kitts Und Nevis Migrationscheck; Arbeitsfeld: Fachanwalt Migrationsrecht._
-
-# Staaten- und Gebietscheck St
-
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AufenthG §§ 4, 5, 7, 8, 9, 16a-16g, 18a-18g, 19c, 25, 27-36, 50, 53-55, 58, 60, 60a-60d, 81, 84, 95; AsylG §§ 13, 24-30, 34-38, 71, 74, 77; FreizügG/EU §§ 2-5; StAG §§ 4, 5, 8-10, 12a, 25, 30; AsylbLG §§ 1, 3, 6; VwGO §§ 74, 80, 123; Dublin-III-VO Art. 3, 17, 21-29; einschlägige EU-Richtlinien/GEAS-Normstand live prüfen; keine BeckRS-/juris-Blindzitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-**Fokus:** Staaten- und Gebietscheck St. Kitts und Nevis: migrationsrechtlicher für Herkunfts-, Transit-, Dokumenten-, Visum-, Schutz-, Passbeschaffungs-, Rückführungs- und Aufenthaltstitelfragen mit Live-Quellencheck und optionaler spanischer Erklärung.
-
-### Staaten-/Gebietscheck: St. Kitts und Nevis
-
-## Einstieg
-1. Welche Beziehung besteht zu St. Kitts und Nevis: Staatsangehörigkeit, Geburt, Wohnsitz, Transit, Fluchtgrund, Urkunde, Pass, Familie, Arbeitgeber oder Zielstaat?
-2. Wo befindet sich die Person jetzt und mit welchem Aufenthaltsstatus?
-3. Geht es um Aufenthaltstitel, Blaue Karte EU, Visum, Familiennachzug, Asyl, Dublin/GEAS, Einbürgerung, Passbeschaffung, Abschiebungsabwehr oder Rückkehr?
-4. Welche Dokumente aus St. Kitts und Nevis liegen vor und wie wurden sie beschafft/übersetzt/legalisiert?
-5. Welche aktuelle Länder-, Behörden- oder Sicherheitsquelle trägt das Ergebnis?
-
-## Prüfraster
-1. **Identität und Dokumente:** Pass, ID, Geburts-/Heiratsurkunden, Register, Übersetzung, Legalisation/Apostille, Echtheit, Zumutbarkeit der Beschaffung.
-2. **Aufenthaltsrecht Deutschland:** Passpflicht, Visumverfahren, Titelvoraussetzungen, Lebensunterhalt, Beschäftigung, Familie, Fiktionswirkung.
-3. **Schutzrecht:** Individuelle Verfolgung, Gruppen-/Regionenrisiko, innerstaatliche Fluchtalternative, Art. 3 EMRK, Krankheit, Vulnerabilität.
-4. **EU/Europarat:** Dublin/GEAS, sichere Herkunft/Drittstaaten, EMRK/HUDOC, EUAA/UNHCR-Quellen; nur anwenden, wenn aktuell und einschlägig.
-5. **Rückführung/Pass:** Botschaftspraxis, Heimreisedokument, Mitwirkung, Zumutbarkeit, Vollstreckungshindernisse.
-6. **Strategie:** Antrag, Nachreichung, Eilantrag, Länderquellenvermerk, Mandantenhinweis, spanische/einfache Erklärung bei Bedarf.
-
-## Quellen- und Sicherheitsregel
-- Vor tragenden Aussagen den aktuellen Normtext und die aktuelle Behörden-/Gerichtspraxis prüfen; keine Scheingenauigkeit aus Modellwissen.
-- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Annahmen, fehlende Unterlagen, Beweisrisiken und Fristen ausdrücklich markieren.
-
----
-
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

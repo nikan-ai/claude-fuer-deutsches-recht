@@ -1,18 +1,25 @@
 # Sozialrecht: Wohnraumanpassung und Rampe in Wittenberge
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 40 KB) | PDF | [`gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf`](gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf`](gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -29,24 +36,29 @@ sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge/
 ├── README.md                              <- diese Übersicht
 ├── rubric.yaml                            <- Prüfkriterien für die Bearbeitung
 ├── 01_erstgespraech_tochter.docx            <- Erstberatung, Wohnsituation, Frist, Ziel
-├── 02_pflegegrad_und_md_gutachten.docx      <- Pflegegrad 3, Mobilitätsmodul, Hausarzt-Nachtrag
+├── 02a_pflegegradbescheid_2024-09-18.docx   <- Eigenständiger Pflegegradbescheid
+├── 02b_md_pflegegutachten_2024-09-11.docx   <- Gesondertes MD-Gutachten mit Mobilitätsmodul
+├── 02c_hausaerztliche_stellungnahme_rampe_2026-06-15.docx <- Eigenständige ärztliche Stellungnahme
 ├── 03_bauangebot_rampe.docx                 <- Angebot der Fachfirma mit Maßen und Alternativen
-├── 04_pflegekasse_bescheid.docx             <- Teilbewilligung mit Rechtsbehelfsbelehrung und Telefonnotiz
-├── 05_widerspruch_und_sozialhilfe.docx      <- Anwaltlicher Widerspruch, Prüfvermerk, Finanzlage
+├── 04a_pflegekassenbescheid_rampe_2026-06-24.docx <- Eigenständiger Teilbewilligungsbescheid
+├── 04b_telefonnotiz_tochter_pflegekasse_2026-06-28.docx <- Gesonderte Telefonnotiz der Tochter
+├── 05a_widerspruch_feste_rampe_2026-07-06.docx <- Eigenständiger anwaltlicher Widerspruch
+├── 05b_pruefvermerk_ergaenzende_kostentraeger.docx <- Getrennter Prüfvermerk zu weiteren Kostenträgern
 ├── 06_wohnumfeld_fotos_beschreibung.docx    <- Eingang, Maße, Fotobeschreibungen, Winterrisiko
 ├── 07_kosten_traeger_matrix.csv           <- Datenkern: Kostenpositionen, Höchstzuschuss, Eigenanteil, Finanzierungslücke
-├── 08_eilrechtsschutz_und_ortstermin.docx   <- Vermerk zu Eilbedürftigkeit, Beweisfragen, Vergleich
+├── 08a_kanzleivermerk_eilbeduerftigkeit_rampe.docx <- Getrennter Eilbedürftigkeits- und Belegvermerk
+├── 08b_anregung_ortstermin_pflegekasse.docx <- Eigenständiges Schreiben zur Anregung eines Ortstermins
 ├── 09_bauamt_ortstermin_und_skizzenmass.docx <- Protokoll des Ortstermins mit dem Bauamt
 ├── 10_email_nachbarin_zugang.eml          <- Nachbarin zu Stürzen, Winter und Rampenakzeptanz
 ├── 11_pflegetagebuch_sturzliste.txt       <- Sturzliste und Pflegetagebuch der Tochter
 ├── 12_sozialamt_prignitz_zwischennachricht.docx <- Sozialamt zu Nachrang, Höchstzuschuss und Nachweisen
+├── 13_einkommen_vermoegen_nachweisliste.csv <- Von der Tochter zusammengestellte Einkommens- und Vermögensliste für das Sozialamt
 ├── eml/
 │   ├── 01_pflegekasse_eingang_widerspruch.eml <- Pflegekasse bestätigt Widerspruch, nennt Höchstbetrag 4000 EUR
 │   ├── 02_teschner_angebotsklarstellung.eml    <- Fachfirma schlüsselt die 7920 EUR auf, mobile nicht selbst nutzbar
-│   └── 03_md_stellungnahme_selbstnutzbarkeit.eml <- Medizinischer Dienst zur Selbstnutzbarkeit der mobilen Rampe
-├── gesamt-pdf/                            <- konsolidierte Lesefassung als PDF
-├── 91_fristsachen_belege_offene_punkte_2026-07-06.csv    # Fristsachen, Belege und offene Punkte (Ergaenzung v426)
-└── eml/2026-07-06_sachstand_nachforderung.eml            # Sachstand zur Nachforderung (Ergaenzung v426)
+│   ├── 03_md_stellungnahme_selbstnutzbarkeit.eml <- Medizinischer Dienst zur Selbstnutzbarkeit der mobilen Rampe
+│   └── 04_pflegekasse_terminvorschlag_ortstermin.eml <- Pflegekasse schlägt Ortstermin am 22.07.2026 vor und stellt das Widerspruchsverfahren zurück
+└── gesamt-pdf/                            <- konsolidierte Lesefassung als PDF
 ```
 
 ## Bearbeitungsziel

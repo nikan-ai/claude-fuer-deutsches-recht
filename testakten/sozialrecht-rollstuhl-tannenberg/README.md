@@ -1,18 +1,25 @@
 # Akte: Familie Tannenberg - vier Sozialrechtsverfahren parallel
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 379 KB) | PDF | [`gesamt-pdf/sozialrecht-rollstuhl-tannenberg_gesamt.pdf`](gesamt-pdf/sozialrecht-rollstuhl-tannenberg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-rollstuhl-tannenberg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-rollstuhl-tannenberg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-rollstuhl-tannenberg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-rollstuhl-tannenberg-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sozialrecht-rollstuhl-tannenberg_gesamt.pdf`](gesamt-pdf/sozialrecht-rollstuhl-tannenberg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-rollstuhl-tannenberg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sozialrecht-rollstuhl-tannenberg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-rollstuhl-tannenberg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sozialrecht-rollstuhl-tannenberg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -36,42 +43,45 @@ sozialrecht-rollstuhl-tannenberg/
 ├── Fallkonferenz_Tannenberg_Workflow.docx               <- Fallkonferenz, Triage und Prüfmatrix über alle vier Verfahren
 ├── Familien-Stammbaum.docx                              <- Verwandtschaft, Haushalte, Versicherungen, PKH-Lage
 ├── Fristen_Familie_Tannenberg.xlsx                    <- Fristenübersicht als Tabelle mit Verfahrensverlauf
-├── Fristen_Familie_Tannenberg.docx                      <- Markdown-Vorschau der Fristen-XLSX
+├── Fristen_Familie_Tannenberg.docx                      <- Lesefassung der Fristen-XLSX
+├── Email_Sanitaetshaus_Olaf_Rollstuhl_12-08-2026.eml    <- Sanitätshaus zu abgelaufenem Kostenvoranschlag, Lieferzeit und untauglicher Leihversorgung
 ├── 01-olaf-rollstuhl/                                 <- Hilfsmittelstreit Aktivrollstuhl (SGB V)
 │   ├── Notiz_Kanzlei_Erstgespraech.txt                <- Erstgespräch und Auftragsklärung
-│   ├── Verordnung_Muster16_09-02-2026.pdf             <- Ärztliche Verordnung des Aktivrollstuhls
-│   ├── Aerztliches_Attest_Wallenstein_05-05-2026.pdf  <- Neurologisches Attest zur MS und Sturzgefahr
-│   ├── MDK-Gutachten_03-04-2026.pdf                   <- MD-Stellungnahme nach Aktenlage
-│   ├── Bescheid_Nordsee-BKK_18-04-2026.pdf            <- Ablehnungsbescheid der Krankenkasse
-│   ├── Korrespondenz_mit_Nordsee-BKK.pdf              <- Schriftwechsel mit der Kasse
-│   ├── Kostenvoranschlag_Sanitaetshaus_Reha-Aktiv-Nord.pdf <- Kostenvoranschlag Aktivrollstuhl
-│   ├── Pflegegrad_2_Bescheid_04-05-2023.pdf           <- Pflegegrad-Vorgeschichte
-│   ├── Reha-Bericht_2024_Damp.pdf                     <- Reha-Entlassungsbericht
-│   ├── Wegeaufstellung_Mandant.docx (+ .md)           <- Alltagswege und Distanzen des Mandanten
-│   ├── Wohnungsskizze_Mandant_Beschreibung.md         <- Wohnung, Zuschnitt, Engstellen
-│   ├── Bildbeschreibung_Rollator_kaputt.md            <- Zustand des vorhandenen Rollators
-│   ├── Widerspruchsschreiben_RA_Holm_20-05-2026.md    <- Anwaltlicher Widerspruch
-│   └── Eilantrag_SG_Kiel_25-08-2026.md                <- Eilantrag nach § 86b SGG
+│   ├── Verordnung_Muster16_09-02-2026.docx            <- Ärztliche Verordnung des Aktivrollstuhls
+│   ├── Aerztliches_Attest_Wallenstein_05-05-2026.docx <- Neurologisches Attest zur MS und Sturzgefahr
+│   ├── MDK-Gutachten_03-04-2026.docx                  <- MD-Stellungnahme nach Aktenlage
+│   ├── Bescheid_Nordsee-BKK_18-04-2026.docx           <- Ablehnungsbescheid der Krankenkasse
+│   ├── 01_antrag_aktivrollstuhl_olaf_tannenberg_2026-02-11.pdf <- Eigenständiger Antrag des Versicherten
+│   ├── 02_nordsee_bkk_nachforderung_2026-03-22.pdf     <- Gesondertes Nachforderungsschreiben der Krankenkasse
+│   ├── 03_ergaenzung_olaf_tannenberg_dr_wallenstein_2026-03-30.pdf <- Gemeinsame Ergänzung mit ärztlicher Stellungnahme
+│   ├── Kostenvoranschlag_Sanitaetshaus_Reha-Aktiv-Nord.docx <- Nachgerechneter Kostenvoranschlag Aktivrollstuhl
+│   ├── Pflegegrad_2_Bescheid_04-05-2023.docx          <- Pflegegradbescheid mit den im Jahr 2023 geltenden Beträgen
+│   ├── Reha-Bericht_2024_Damp.docx                    <- Reha-Entlassungsbericht
+│   ├── Wegeaufstellung_Mandant.docx                   <- Alltagswege und Distanzen des Mandanten
+│   ├── Wohnungsskizze_Mandant_Beschreibung.docx       <- Wohnung, Zuschnitt, Engstellen
+│   ├── Bildbeschreibung_Rollator_kaputt.docx          <- Zustand des vorhandenen Rollators
+│   ├── Widerspruchsschreiben_RA_Holm_20-05-2026.docx  <- Anwaltlicher Widerspruch
+│   └── Eilantrag_SG_Kiel_25-08-2026.docx              <- Eilantrag nach Paragraf 86b SGG
 ├── 02-lena-schulbegleitung/                           <- Eingliederungshilfe Schulbegleitung (SGB VIII)
 │   ├── Bescheid_Jugendamt_Kiel_12-03-2026.pdf         <- Ablehnung der Schulbegleitung
 │   ├── KJP-Stellungnahme_Dr_Maibaum_22-02-2026.pdf    <- Kinder- und jugendpsychiatrische Stellungnahme
 │   ├── Schulgutachten_Gelehrtenschule_Kiel_08-02-2026.pdf <- Schulische Dokumentation der Krisen
-│   ├── Vollmacht_Eltern_Tannenberg.docx (+ .md)       <- Vollmacht der Eltern
-│   ├── Mandantenbrief_Eltern_Tannenberg_Lena.md       <- Mandantenbrief in einfacher Sprache
-│   └── Widerspruchsentwurf_Lena_Schulbegleitung.md    <- Anwaltlicher Widerspruchsentwurf
+│   ├── Vollmacht_Eltern_Tannenberg.docx               <- Vollmacht der Eltern
+│   ├── Mandantenbrief_Eltern_Tannenberg_Lena.docx     <- Mandantenbrief in einfacher Sprache
+│   └── Widerspruchsentwurf_Lena_Schulbegleitung.docx  <- Anwaltlicher Widerspruchsentwurf
 ├── 03-margarete-pflegegrad/                           <- Höherstufung Pflegegrad 3 auf 4 (SGB XI)
 │   ├── Bescheid_Pflegekasse_AOK_NW_05-04-2026.pdf     <- Ablehnung der Höherstufung
 │   ├── MD-Pflegegutachten_18-03-2026.pdf              <- Pflegegutachten nach Hausbesuch
-│   ├── Pflegetagebuch_Margarete_Februar_2026.xlsx (+ .md) <- Pflegetagebuch der Schwiegertochter
+│   ├── Pflegetagebuch_Margarete_Februar_2026.xlsx     <- Pflegetagebuch der Schwiegertochter
 │   ├── Hausarzt_Stellungnahme_Dr_Petersen_25-03-2026.pdf <- Hausärztliche Stellungnahme
-│   └── Widerspruchsentwurf_Pflegegrad.md              <- Anwaltlicher Widerspruchsentwurf
+│   └── Widerspruchsentwurf_Pflegegrad.docx            <- Anwaltlicher Widerspruchsentwurf
 ├── 04-bodo-em-rente/                                  <- Volle Erwerbsminderungsrente (SGB VI)
 │   ├── Notiz_Kanzlei_Erstgespraech_Bodo.txt           <- Erstgespräch und Einkommenslage
 │   ├── DRV-Bescheid_Bodo_Petersen_15-04-2026.pdf      <- Ablehnung der vollen EM-Rente
 │   ├── Sozialmed_Gutachten_DRV_Brunsbuettel_27-02-2026.pdf <- Sozialmedizinisches Gutachten der DRV
 │   ├── Reha-Entlassungsbericht_Bad_Bramstedt_24-04-2024.pdf <- Reha-Bericht als Gegenbeweis
 │   ├── Psychiatrisches_Attest_Dr_Lornsen-Joost_06-04-2026.pdf <- Attest zu Depression und Schmerz
-│   └── Widerspruchsentwurf_Bodo_EM-Rente.md           <- Widerspruchsentwurf mit PKH-Hinweis
+│   └── Widerspruchsentwurf_Bodo_EM-Rente.docx         <- Widerspruchsentwurf mit PKH-Hinweis
 └── gesamt-pdf/                                        <- konsolidierte Lesefassung als PDF
 ```
 

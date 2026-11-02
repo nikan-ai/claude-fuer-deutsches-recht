@@ -1,18 +1,25 @@
 # Testakte: KI-Recht — GPAI, Deepfake-Transparenz und Wahlwerbung (Berlin/Havelbrück)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 70 KB) | PDF | [`gesamt-pdf/ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin_gesamt.pdf`](gesamt-pdf/ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin_gesamt.pdf`](gesamt-pdf/ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -53,9 +60,11 @@ ki-recht-gpai-transparenz-deepfake-wahlwerbung-berlin/
 ├── 12_antwort_kampagnenschmiede_2026-06-29.docx                   — Antwort des Integrators: AGB-Abwälzung, Zahlen zu „clean_master", Sofortmaßnahmen
 ├── 13_plattform_korrespondenz_klipstream_2026-06.docx             — DSA-Meldung, Zwischennachricht, Entfernungsentscheidung, Reichweiten-Auskunft
 ├── 14_normstand_vermerk_2026-07-02.docx                           — Normstand: zeitliche Anwendbarkeit der Transparenzpflichten, Omnibus-Vorbehalt
+├── 15_rechnung_spreekontor_phase2_2026-06-05.docx                   — Rechnung der Agentur an den Verein: Produktionspositionen, weiterberechnetes SzenenWerk-Kontingent
 ├── eml/
 │   ├── 2026-05-11_auftrag_stadtwende_an_spreekontor.eml           — Auftrag des Vereins: „Moment des Zweifels" als gekaufter Effekt
 │   ├── 2026-05-15_spreekontor_rueckfrage_kennzeichnung.eml        — Agentur empfiehlt Veröffentlichung ohne Wasserzeichen, „nachschärfen" bei Rückfragen
+│   ├── 2026-06-08_presseanfrage_stadtanzeiger.eml                 — Presseanfrage der Lokalzeitung mit Frist: KI-Erzeugung, fehlende Kennzeichnung, Auftraggeber
 │   ├── 2026-06-22_bnetza_request_nordlys_en.eml                   — Englischsprachiges Auskunftsersuchen an den GPAI-Anbieter (mit dänischer Behörde in Kopie)
 │   └── 2026-07-01_nordlys_reply_en.eml                            — Antwort des GPAI-Anbieters: Logs, Integrator-Vertrag, Remediation, Trainingsdaten-Summary
 ├── chat/

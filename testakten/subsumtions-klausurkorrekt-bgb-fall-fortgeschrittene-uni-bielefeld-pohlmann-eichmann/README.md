@@ -3,15 +3,23 @@
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 477 KB) | PDF | [`gesamt-pdf/subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann_gesamt.pdf`](gesamt-pdf/subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann_gesamt.pdf`](gesamt-pdf/subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-subsumtions-klausurkorrekt-bgb-fall-fortgeschrittene-uni-bielefeld-pohlmann-eichmann-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -53,7 +61,6 @@ Arbeitsakte zum Plugin `subsumtions-pruefer`.
 | Nr. | Datei | Inhalt |
 |---|---|---|
 | 01 | [`01-uebung-fortgeschrittene-fall-radarwarner-und-eigentumserwerb.docx`](01-uebung-fortgeschrittene-fall-radarwarner-und-eigentumserwerb.docx) | Originalfall, Sachverhalt, Bearbeitungshinweise |
-| 02 | [`02-musterloesung-lehrstuhl-pohlmann.md`](02-musterloesung-lehrstuhl-pohlmann.md) | Vollständige Musterlösung im Gutachtenstil |
 | 03 | [`03-bewertungsbogen-fuer-pruefer.docx`](03-bewertungsbogen-fuer-pruefer.docx) | Bewertungsschema, Gewichtung, Korrekturnormen |
 | 04 | [`04-klausur-01-eichmann-bewertung.docx`](04-klausur-01-eichmann-bewertung.docx) | Klara Eichmann: 16 Punkte, Einzelbewertung |
 | 05 | [`05-klausur-02-tannenfels-bewertung.docx`](05-klausur-02-tannenfels-bewertung.docx) | Sven Tannenfels: 10 Punkte, Einzelbewertung |
@@ -83,7 +90,6 @@ Arbeitsakte zum Plugin `subsumtions-pruefer`.
 
 | Datei | Inhalt |
 |---|---|
-| [`docx/musterloesung-uebung-fortgeschrittene-fall-radarwarner.docx`](docx/musterloesung-uebung-fortgeschrittene-fall-radarwarner.docx) | Musterlösung Fall Radarwarner, druckfertig |
 | [`docx/bewertungsbogen-vorlage-klausur.docx`](docx/bewertungsbogen-vorlage-klausur.docx) | Leerer Bewertungsbogen für Korrektoren |
 | [`docx/feedback-handout-klausuranten.docx`](docx/feedback-handout-klausuranten.docx) | Feedback-Handout für die Nachbesprechung |
 
@@ -103,12 +109,16 @@ Arbeitsakte zum Plugin `subsumtions-pruefer`.
 | [`emails/email-pruefungsamt-statistik.eml`](emails/email-pruefungsamt-statistik.eml) | Prüfungsamt: Statistik-Durchsage, 32 Prozent Durchfall |
 | [`emails/email-fachschaft-klausurnachbesprechung.eml`](emails/email-fachschaft-klausurnachbesprechung.eml) | Fachschaft: Einladung Klausurnachbesprechung |
 | [`emails/email-kollege-tannenfels-bewertungsfrage.eml`](emails/email-kollege-tannenfels-bewertungsfrage.eml) | Dr. Tannenmoor an Dr. Eichmann-Roosendaal: Bewertungsstreit Birkenhain |
+| [`emails/email-klausurant-birkenhain-einsicht-und-widerspruch.eml`](emails/email-klausurant-birkenhain-einsicht-und-widerspruch.eml) | Konrad Birkenhain: Einsichtsantrag, Widerspruchsankündigung und Rügen zu Randbemerkungen und Zweitkorrektur |
 
 ### PDFs
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Datei | Inhalt |
 |---|---|
-| [`pdfs/musterloesung-final.pdf`](pdfs/musterloesung-final.pdf) | Musterlösung Fall Radarwarner, finales PDF |
 | [`pdfs/bewertungsbogen-mustervorlage.pdf`](pdfs/bewertungsbogen-mustervorlage.pdf) | Bewertungsbogen als PDF-Vorlage |
 
 ### Fotos

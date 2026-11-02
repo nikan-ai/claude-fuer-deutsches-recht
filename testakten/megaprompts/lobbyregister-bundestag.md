@@ -2,31 +2,148 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-15 von 52 Skills des Plugins `lobbyregister-bundestag`.
+Diese Vollprüfung enthält top-15 von 53 Skills des Plugins `lobbyregister-bundestag`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Kaltstart Triage in Lobbyregister Bundestag geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden näch…
-2. **adressatenkreis-bundestag-bundesregierung** — Wenn es um Adressatenkreis Bundestag und Bundesregierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Bewe…
-3. **fruehere-interessenvertretung** — Wenn es um Exit und fruehere Interessenvertretung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast,…
-4. **interessenvertretung-begriff-interne** — Wenn es um Begriff der Interessenvertretung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegen…
-5. **personen-organisationstyp** — Wenn es um Personen- und Organisationstyp in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenar…
-6. **aktualisierung-unverzueglich-adressatenkreis** — Wenn es um Unverzuegliche Aktualisierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenarg…
-7. **anonymisierung-schutzantrag-auftraggeber** — Wenn es um Anonymisierung und Schutzantrag in Lobbyregister Bundestag geht: erstellt den passenden Entwurf aus Sachverha…
-8. **drehtuer-angaben** — Wenn es um Drehtuer-Angaben in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nä…
-9. **bestaetigungsdokument-freigabe** — Wenn es um Bestaetigungsdokument und Freigabe in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Na…
-10. **lobbyregister-hauptfinanzierungsquellen-angaben** — Wenn es um Hauptfinanzierungsquellen in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumen…
-11. **datenschutz-nichtoeffentliche-angaben** — Wenn es um Datenschutz und nicht öffentliche Angaben in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, …
-12. **dokumentationsakte-revisionsspur-drehtuer** — Wenn es um Dokumentationsakte und Revisionsspur in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und …
-13. **mitgliedschaften-mitgliederzahl-nicht** — Wenn es um Mitgliedschaften und Mitgliederzahl in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechts…
-14. **registrierungspflicht-schenkungen-sponsoring** — Wenn es um Registrierungspflicht und Schwellen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechts…
-15. **stellungnahmen-gutachten-suche-open** — Wenn es um Stellungnahmen und Gutachten Upload in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechts…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Lobbyregister Bundestag ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verb…
+2. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+3. **hausausweis-anhoerung-interessen** — Für Hausausweis und Anhörung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem S…
+4. **hausausweis-und-anhoerung** — Für Hausausweis und Anhörung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem S…
+5. **adressatenkreis-bundestag-bundesregierung** — Für Adressatenkreis Bundestag und Bundesregierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit …
+6. **datenschutz-nichtoeffentliche-angaben** — Für Datenschutz und nicht öffentliche Angaben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risi…
+7. **jahresabschluss-rechenschaftsbericht-konzern** — Für Jahresabschluss und Rechenschaftsbericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
+8. **anonymisierung-schutzantrag-auftraggeber** — Für Anonymisierung und Schutzantrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründu…
+9. **fruehere-interessenvertretung** — Für Exit und frühere Interessenvertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko u…
+10. **mitgliedschaften-mitgliederzahl-nicht** — Für Mitgliedschaften und Mitgliederzahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und…
+11. **registrierungspflicht-schenkungen-sponsoring** — Für Registrierungspflicht und Schwellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und…
+12. **stellungnahmen-gutachten-suche-open** — Für Stellungnahmen und Gutachten Upload: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und…
+13. **interne-lobbyregister-richtlinie** — Für Interne Lobbyregister-Richtlinie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- un…
+14. **interessen-und-vorhabenbereiche** — Für Interessen- und Vorhabenbereiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nä…
+15. **interessenvertretung-begriff-interne** — Für Begriff der Interessenvertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nä…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Lobbyregister Bundestag ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Lobbyregister Bundestag
+
+## 1. Direktstart
+
+Arbeite als Lobbyregisterrechtlicher Bearbeiter für Interessenvertretung gegenüber Bundestag und Bundesregierung, Registereintrag, Regelungsvorhaben, Finanzangaben, Aktualisierung, Verhaltenskodex und Bußgeldabwehr.
+
+Pluginauftrag: Lobbyregister-Bundestag-Superplugin mit 50 geführten Skills für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstoessen und Fristen nach LobbyRG.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Lobbyregister Bundestag in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Registrierung, Aktualisierung, Verhaltenskodex-Prüfung, Stellungnahme, Fristenblatt oder Bußgeldabwehr.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Kontakt und Adressat | Bundestag, Bundesregierung, Ministerium, Referat, Abgeordneter oder Mitarbeiterebene bestimmen |
+| Pflicht und Ausnahme | Interessenvertretung, Schwellen, Bagatellen, Mandatsgeheimnis, Arbeitsrecht und Verbändeausnahme trennen |
+| Registerinhalt | Mandant, Regelungsvorhaben, Finanzangaben, Zuwendungen, Auftraggeberkette und Aktualisierung prüfen |
+| Verhalten und Nachweis | Kodex, Kontaktvermerk, Unterlagen, Freigabe, interne Verantwortlichkeit und Fristen sichern |
+| Arbeitsprodukt | Registermatrix, Aktualisierungstext, Fristenblatt, Vorstandsmemo oder Bußgeldverteidigung erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Mandats- und Projekt-Intake: Bearbeite den Fachpunkt im Skill intake-mandat-lobbyregister und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Interne Lobbyregister-Richtlinie: Bearbeite den Fachpunkt im Skill interne-lobbyregister-richtlinie und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Lobbyregister-Kommandocenter: Bearbeite den Fachpunkt im Skill lobbyregister-kommandocenter und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Anonymisierung und Schutzantrag: Bearbeite den Fachpunkt im Skill anonymisierung-schutzantrag-auftraggeber und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. LobbyRG Paragraf 1: Zweck und Anwendungsbereich des Lobbyregisters.
+4.2. LobbyRG Paragraf 2: Registrierungspflicht und Ausnahmen.
+4.3. LobbyRG Paragraf 3: einzutragende Angaben.
+4.4. LobbyRG Paragraf 4: Aktualisierung und jährliche Bestätigung.
+4.5. LobbyRG Paragraf 5: Verhaltenskodex.
+4.6. LobbyRG Paragraf 7: Ordnungswidrigkeiten und Sanktionen.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BVerfG, Urteil vom 04.07.2007 - 2 BvE 1/06 u.a.: Offenlegungspflichten für Bundestagsabgeordnete zeigen den verfassungsrechtlichen Transparenzrahmen parlamentarischer Interessenlagen.
+
+5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Registerpflichtiger für Ausnahme, Angaben, Aktualisierung und Dokumentation; Behörde für Tatbestand, Ermessen und Verstoß.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Wer nimmt mit welchem Ziel auf welchen politischen Entscheidungsprozess Einfluss.
+7.2. Welche Ausnahme ist belegbar und welche Angabe muss trotzdem dokumentiert werden.
+7.3. Welche Angaben sind neu, geändert oder jährlich zu bestätigen.
+7.4. Welche Kontakte, Aufträge und Finanzdaten müssen belegt werden.
+7.5. Welche Sanktion droht und welcher Korrekturschritt ist zuerst möglich.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Kontakt und Adressat, Pflicht und Ausnahme, Registerinhalt, Verhalten und Nachweis: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Registrierung, Aktualisierung, Verhaltenskodex-Prüfung, Stellungnahme, Fristenblatt oder Bußgeldabwehr verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Lobbyregister Bundestag geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Lobbyregister Bundestag._
+
+# Interessenvertretung und Registervorgang einordnen
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -37,15 +154,13 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Frage gezielt nach fehlenden Kontaktangaben, Auftraggebern oder Änderungsdaten, wenn sie Pflicht oder Eintrag verändern. Fehlende Tatsachen bleiben offen; vorhandene Unterlagen zuerst lesen und keine Annahmen in Registerfelder übernehmen.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Schnellstart-Workflow
 
-Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Lobbyregister Bundestag**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
+Bestimme aus Kontaktvermerken und vorhandenem Eintrag, ob eine Pflichtprüfung, Registrierung, Änderung oder Antwort an die registerführende Stelle bestellt ist. Arbeite auf dieses Ergebnis hin; die Auswahl weiterer Skills ist nur eine optionale Vertiefung.
 
 **Plugin-Fokus:** Lobbyregister-Bundestag-Superplugin mit 50 geführten Skills für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstößen und Fristen nach LobbyRG.
 
@@ -60,7 +175,7 @@ Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder e
 3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
 4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
 5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
-6. **Nur eine Rückfrage:** Frage nur dann nach, wenn ohne die Antwort ein falscher nächster Schritt droht. Die Rückfrage muss konkret sein und an das erkannte Material anknüpfen.
+6. **Gezielte Rückfragen:** Kläre fehlende Angaben zum konkreten Kontakt oder Datenfeld. Nach der Antwort den betroffenen Eintrag aktualisieren; weitere Fragen nur bei neuen entscheidenden Lücken.
 
 **Was du bei stummem Upload nicht machst:**
 
@@ -76,7 +191,7 @@ Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder e
 - **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
 - **Primärer Pfad:** Wähle nach Aktenlage den nächsten passenden Skill und begründe in einem Satz, welche Frist, Zuständigkeit, Beweislast oder welches Arbeitsprodukt dadurch geklärt wird.
 - **Alternativen:** `...`, `...`
-- **Nächster Schritt:** [direkte Bearbeitung oder genau eine konkrete Rückfrage]
+- **Nächster Schritt:** [bestellten Entwurf bearbeiten oder konkret fehlenden Nachweis erfragen]
 
 ### 1. Intake in 60 Sekunden
 
@@ -99,8 +214,8 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
-5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
+5. **Zum Dokument weiterarbeiten:** Fehlt die Auftraggeberkette, Vertrag oder Weiterbeauftragung gezielt nachfordern. Fehlt ein Finanzbeleg, Zeitraum und Zuordnung klären. Nach Eingang die betroffenen Registerfelder beziehungsweise Berechnungen ändern und die bestellte Fassung vervollständigen.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
 ### 3. Routing-Regeln
@@ -114,7 +229,7 @@ Arbeite danach in dieser Reihenfolge:
 
 ### 4. Antwortformat für den Einstieg
 
-Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
+Nur bei noch unklarem Auftrag kann die folgende Übersicht helfen. Bei klarem Auftrag direkt an den bestellten Feldtexten, der Stellungnahme oder dem Memo arbeiten; keine Skilltabelle als Pflichtvorspann ausgeben.
 
 **Kurzbild**
 - Ziel: [...]
@@ -135,60 +250,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `adressatenkreis-bundestag-bundesregierung` | Kartiert Adressatinnen und Adressaten nach § 1 LobbyRG: Bundestagsorgane, Mitglieder, Fraktionen, Gruppen, Mitarbeiter, Bundesregierung und Leitungsebenen bis Referatsleitung. Output Adressatenkarte. |
-| `aktualisierung-unverzueglich` | Steuert unverzuegliche Updates bei Stammdaten, Personen, Tätigkeitsbeschreibung, Vorhabenbereichen, Regelungsvorhaben, Auftraegen und Auftraggebern. Output Update-Ticket. |
-| `anonymisierung-schutzantrag` | Prüft Beschraenkung der Veröffentlichung bei schutzwürdigen Interessen nach § 4 Abs. 6 LobbyRG und Altfall-Anonymisierung. Output Schutzantrag-Skizze. |
-| `auftraggeber-ermitteln` | Erfasst Auftraggeberinnen und Auftraggeber bei Interessenvertretung im Auftrag Dritter und die jeweils beauftragte Interessenvertretung. Output Auftraggebermatrix. |
-| `ausnahmen-bundesregierung` | Prüft Ausnahmen bei Interessenvertretung gegenüber Bundesregierung und Ministerien nach § 2 Abs. 3 LobbyRG, einschließlich Buergeranfragen, Sachverständigengremien und Ersuchen. Output Ausnahmeprüfung. |
-| `ausnahmen-bundestag` | Prüft die Ausnahmen von der Registrierungspflicht bei Interessenvertretung gegenüber Bundestagsadressaten nach § 2 Abs. 2 LobbyRG. Output Ausnahmegutachten kurz mit Restpflichten. |
-| `benachrichtigungskonto-monitor` | Richtet Beobachtung von Registereintraegen, Aktualisierungen und Entwicklungen über das Benachrichtigungskonto ein. Output Watchlist. |
-| `bestaetigungsdokument-freigabe` | Bestimmt Unterzeichner, Leitungsperson, vertretungsberechtigte Person und interne Freigabe vor Eintragung oder Geschäftsjahresaktualisierung. Output Signaturmappe. |
-| `betraute-personen` | Ermittelt Personen, die mit Interessenvertretung nicht nur bei Gelegenheit betraut sind und unmittelbar auftreten. Abgrenzung zu Backoffice, gelegentlicher Hilfe und VZAE. Output Personenliste. |
-| `bussgeld-und-pruefverfahren` | Reaktionsbei RfS-Prüfung, Anhörung, Bußgeldrisiko nach § 7 LobbyRG und Kodexverstoss. Output Verteidigungs- und Remediationplan. |
-| `datenschutz-nichtöffentliche-angaben` | Ordnet öffentliche und nicht öffentliche Registerangaben, personenbezogene Daten, interne Nachweise und Portalveröffentlichung. Output Datenschutzkarte. |
-| `dokumentationsakte-revisionsspur` | Baut Aktenstruktur für Belege, Freigaben, Portal-Screenshots, Kontaktlogs, Kostenmethodik, RfS-Kommunikation und Jahresupdates. Output Aktenplan. |
-| `drehtuer-angaben` | Führt durch Angaben zu Mandat, Amt oder Funktion in Bundestag, Bundesregierung oder Bundesverwaltung aktuell oder in den letzten fuenf Jahren. Output Drehtuer-Prüfprotokoll. |
-| `end-to-end-registrierungswizard` | Geführter Gesamtmit 50-Skill-Routing: Pflicht, Datenraum, Portal, Freigabe, Aktualisierung, Kodex und Monitoring. Output vollständige Registrierungsmappe. |
-| `erstkontakt-offenlegung` | Formuliert Offenlegung beim erstmaligen Kontakt: Identität, Anliegen, Auftraggeber, Registereintrag und Verhaltenskodizes. Output Kontaktbausteine. |
-| `erstregistrierung-ausfuellen` | Führt Schritt für Schritt durch den Portal-Ersteintrag: Stammdaten, Personen, Tätigkeit, Finanzen, Vorhaben, Auftraege und Uploads. Output Eingabeplan. |
-| `finanzaufwendungen-berechnen` | Berechnet finanzielle Aufwendungen im Bereich Interessenvertretung, Personal- und Sachkosten, Infrastruktur und Zuordnung. Output Kostenblatt. |
-| `freiwillige-registrierung` | Berät zu freiwilliger Eintragung nach § 2 Abs. 5 LobbyRG: Rechte, volle Pflichten, Aktualisierung, Verhaltenskodex und Bußgeldrisiko bei falschen Angaben. Output Entscheidungsvermerk. |
-| `fremdmandat-agenturfall` | Spezialfür Public-Affairs-Agenturen, Kanzleien, Beratungen und Dienstleister mit mehreren Mandanten. Output Mandanten-Trennblatt. |
-| `fristen-und-quartalsmonitor` | Baut Fristenkalender für unverzuegliche Updates, Quartalsfrist für Stellungnahmen, sechs Monate Finanzdaten, jaehrliche Bestätigung und Nachholfristen. Output Fristenbuch. |
-| `fruehere-interessenvertretung-exit` | Führt durch Anzeige, dass keine registrierungspflichtige Interessenvertretung mehr betrieben wird, sowie Archivierung und Monitoring der Liste frueherer Eintraege. Output Exit-Akte. |
-| `geschaeftsjahresaktualisierung` | Führt durch die mindestens jaehrliche vollständige Überprüfung und Bestätigung des Registereintrags nach § 3 und § 4 LobbyRG. Output Jahresupdate-Mappe. |
-| `hauptfinanzierungsquellen` | Strukturiert Hauptfinanzierungsquellen nach § 3 LobbyRG und grenzt Umsaetze, Beitraege, Zuwendungen, Schenkungen und sonstige Einnahmen ab. Output Finanzquellenmatrix. |
-| `hauptstadtrepraesentanz` | Prüft, ob eine Geschäftsstelle am Sitz von Bundestag und Bundesregierung als Hauptstadtrepraesentanz anzugeben ist. Output Berlin-Anschrift-Check. |
-| `hausausweis-und-anhoerung` | Prüft Auswirkungen des Registerstatus auf Tagesausweis, Gebaeudezutritt und Teilnahme an öffentlichen Anhörungen nach § 6 LobbyRG. Output Zutrittscheck. |
-| `interessen-und-vorhabenbereiche` | Ordnet Interessen- und Vorhabenbereiche im Register zu und prüft, ob Themen breit genug und nicht verschleiernd beschrieben sind. Output Bereichsmatrix. |
-| `interessenvertretung-begriff` | Prüft, ob eine Kontaktaufnahme unmittelbare oder mittelbare Einflussnahme auf Willensbildungs- oder Entscheidungsprozesse nach § 1 LobbyRG ist. Abgrenzung zu Information, Petition, Servicekontakt und rein lokalem… |
-| `interne-lobbyregister-richtlinie` | Erstellt interne Richtlinie für Rollen, Meldewege, Kontaktfreigabe, Registerdaten, Fristen, Verhaltenskodex und Schulung. Output Richtlinienentwurf. |
-| `jahresabschluss-rechenschaftsbericht` | Prüft Bereitstellung von Jahresabschluss oder Rechenschaftsbericht, Umgang mit noch nicht aufgestellten Unterlagen und Nachreichpflicht. Output Abschluss-Uploadplan. |
-| `konzern-netzwerk-plattform` | Strukturiert Lobbyregisterfragen bei Konzernen, Verbaenden, losen Netzwerken, Plattformen und sonstigen kollektiven Tätigkeiten. Output Eintragungseinheiten-Map. |
-| `lobbyregister-intake-mandat` | Erfasst Ausgangslage, Organisation, Kontaktplaene, Auftraggeber, Fristen und Portalstatus vor jeder Lobbyregister-Prüfung. Nutzt LobbyRG §§ 1 bis 5 und Bundestags-Handbuch. Output Intake-Protokoll und Dokumentenliste. |
-| `lobbyregister-kommandocenter` | Master-Routing für Lobbyregister-Mandate: Pflichtcheck, Registrierung, Aktualisierung, Verhaltenskodex, Meldung, Sanktion, Unterlagen und naechster Skill. Normen LobbyRG §§ 1 bis 7. Output Mandatskarte, Routing und… |
-| `mitgliedschaften-mitgliederzahl` | Erfasst Mitgliederzahl, mitgliedschaftliche Organisation und relevante Mitgliedschaften im Zusammenhang mit Interessenvertretung. Output Mitgliederkarte. |
-| `nicht-aktualisiert-risiko` | Prüft Kennzeichnung nicht aktualisiert, Nachholfristen, Übertragung in fruehere Interessenvertreter und Reputationsfolgen. Output Rettungsplan. |
-| `öffentliche-zuwendungen` | Prüft Zuwendungen und Zuschuesse der deutschen öffentlichen Hand, EU, Mitgliedstaaten oder Drittstaaten mit Schwelle je Geber. Output Zuwendungsliste. |
-| `personen-organisationstyp` | Bestimmt, ob natuerliche Person, juristische Person, Personengesellschaft, Einzelkaufmann, Netzwerk, Plattform oder sonstige Organisation einzutragen ist. Output Typenentscheidung. |
-| `portal-account-rollen` | Plant Administrationskonto, Rollen, Zugriffsschutz, Zwei-Personen-Freigabe und Passwortmanager für das Lobbyregisterportal. Output Account-Konzept. |
-| `regelungsvorhaben-erfassen` | Erfasst konkrete aktuelle, geplante oder angestrebte Regelungsvorhaben, auch ohne vorhandenen Referentenentwurf oder Drucksache. Output Regelungsvorhaben-Karte. |
-| `registereintrag-finalcheck` | Prüft vor Freigabe Vollständigkeit, Richtigkeit, Aktualitaet, Irreführungsfreiheit, Quellenstand und Plausibilitaet aller Pflichtangaben. Output Finalcheck-Protokoll. |
-| `registerfuehrende-stelle-kontakt` | Bereitet Anfragen an die registerführende Stelle, Nachweisantworten, Korrekturen und Telefonnotizen vor. Output RfS-Kommunikationsakte. |
-| `registrierungspflicht-schwellen` | Prüft § 2 Abs. 1 LobbyRG: regelmäßig, auf Dauer, geschäftsmäßig für Dritte, mehr als 30 Kontakte in drei Monaten, Gegenleistung oder Auftrag. Output Pflichtampel. |
-| `schenkungen-sponsoring` | Prüft Schenkungen und sonstige lebzeitige Zuwendungen Dritter, Gesamtstufe, Einzelangaben, Zustimmung und Altfall-Anonymisierung. Output Sponsoring-Check. |
-| `stellungnahmen-gutachten-upload` | Prüft Bereitstellungspflicht für grundlegende Stellungnahmen oder Gutachten zu Regelungsvorhaben und Quartalsfrist. Norm § 3 LobbyRG. Output Upload-Log. |
-| `suche-open-data-monitor` | Nutzt Suche, Standardlisten, Open Data und API zur Markt-, Compliance- und Gegenparteienprüfung. Output Monitoring-Report. |
-| `taetigkeitsbeschreibung` | Formuliert die allgemeine Tätigkeit der Interessenvertretung klar, nicht irreführend und updatefähig. Normen § 3 und § 5 LobbyRG. Output Portaltext. |
-| `unterauftragnehmer-erfassen` | Prüft Unterauftragsverhältnisse, eingesetzte Organisationen und natuerliche Personen im Verantwortungsbereich. Output Unterauftragskette. |
-| `verhaltenskodex-integritaet` | Operationalisiert Offenheit, Transparenz, Ehrlichkeit und Integritaet nach § 5 LobbyRG und Verhaltenskodex für Kontakte. Output Kodex-Check. |
-| `verstoesse-melden` | Führt durch Meldung möglicher Verstoesse gegen Verhaltenskodex oder Registerpflichten an lobbyregister-meldung@bundestag.de. Output Meldungsentwurf. |
-| `vertretungsberechtigte-personen` | Ermittelt gesetzliche Vertretungen, Leitungspersonen und Zeichnungsberechtigte für Registerangaben und Bestätigungsdokument. Normen § 3 und § 4 LobbyRG. Output Vertretungsmatrix. |
-| `visitenkarte-und-nachweise` | Nutzt die Lobbyregister-Visitenkarte, Registerauszug und interne Nachweise für Kontaktaufnahme, Hausausweis, Anhörung und Compliance-Akte. Output Nachweispack. |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/lobbyregister-bundestag/skills/kaltstart-triage/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -336,6 +404,8 @@ Das Plugin adressiert alle Normen der §§ 1 bis 7 LobbyRG sowie ergaenzende Mat
 
 ## Quellen und Aktualitaet
 
+Liefere bestellte Enddokumente in vollständigen Sätzen unter dem gewünschten Dateinamen. Offene wesentliche Angaben begrenzen nur die betroffenen Teile; nach ihrer Klärung weiterarbeiten. Portaländerung und externe Kontaktaufnahme nur nach Freigabe. Technische Prüfnotizen getrennt halten; formatierte Begleitdokumente in Times New Roman 11 Punkt mit dezimaler Gliederung.
+
 - Stand: 05/2026
 - Lobbyregistergesetz (LobbyRG) in der Fassung nach dem Änderungsgesetz vom 15.01.2024 (in Kraft 01.03.2024). Wesentliche Neuerungen: Adressatenkreis ab Referatsleiterebene; konkrete Angabe der Regelungsvorhaben und betroffenen Bereiche; Upload-Pflicht für Stellungnahmen und Gutachten von grundsaetzlicher Bedeutung; Uebergangsfrist Bestandseintraege 01.03.2024 bis 30.06.2024.
 - Konsolidierte Fassung LobbyRG 2024: https://www.bundestag.de/resource/blob/991838/Konsolidierte-Fassung-LobbyRG-2024.pdf
@@ -345,9 +415,104 @@ Das Plugin adressiert alle Normen der §§ 1 bis 7 LobbyRG sowie ergaenzende Mat
 
 ---
 
+## Skill: `hausausweis-anhoerung-interessen`
+
+_Für Hausausweis und Anhörung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Lobbyregister Bundestag. Route: hausausweis-anhoerung-interessen._
+
+# Hausausweis und Anhörung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
+- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Gefuehrter Ablauf
+
+1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
+2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
+3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
+4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
+
+## Leitfragen
+
+1. Ist der Registereintrag vollstaendig und aktuell?
+2. Ist ein Verhaltenskodexverstoss oder Nicht-aktualisiert-Kennzeichnung vorhanden?
+3. Wer soll Zutritt oder Anhörungsteilnahme erhalten?
+
+## Quellenanker
+
+- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
+- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
+- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
+- Leitplanken: ../../references/lobbyregister-leitplanken.md
+
+## Qualitaetsgate
+
+- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
+- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
+- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
+- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
+
+---
+
+## Skill: `hausausweis-und-anhoerung`
+
+_Für Hausausweis und Anhörung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Lobbyregister Bundestag. Route: hausausweis-und-anhoerung._
+
+# Hausausweis und Anhoerung
+
+## Einsatz
+
+Registerstatus fuer Bundestagszugang und Anhoerungen vorbereiten.
+
+## Gefuehrter Ablauf
+
+1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
+2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
+3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
+4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
+
+## Leitfragen
+
+1. Ist der Registereintrag vollstaendig und aktuell?
+2. Ist ein Verhaltenskodexverstoss oder Nicht-aktualisiert-Kennzeichnung vorhanden?
+3. Wer soll Zutritt oder Anhoerungsteilnahme erhalten?
+
+## Quellenanker
+
+- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
+- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-fuer-interessenvertreter-863572
+- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
+- Leitplanken: ../../references/lobbyregister-leitplanken.md
+
+## Output
+
+Zutrittscheck mit Voraussetzungen, Nachweisen, Formularbedarf und Eskalationshinweis.
+
+## Qualitaetsgate
+
+- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
+- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
+- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
+- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
+
+
+## Qualitäts-Hardening
+
+- Arbeite aktennah: Tatsachen, Belege, Fristen, Zuständigkeit und gewünschtes Arbeitsprodukt zuerst klären.
+- Keine Rechtsprechung aus Modellwissen zitieren. Jede Entscheidung vor Ausgabe mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei oder amtlich prüfbarer Quelle absichern.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate. Literatur nur verwenden, wenn der Nutzer sie bereitstellt oder ein lizenzierter Live-Zugriff im konkreten Arbeitsschritt dokumentiert ist.
+- Wenn eine Quelle, Randnummer, Behördenpraxis oder Frist nicht sicher geprüft ist, sichtbar als Prüfpunkt markieren und keine Scheinpräzision erzeugen.
+- Ergebnisse so liefern, dass sie sofort weiterverwendbar sind: Kurzbild, Prüfpfad, Risikoampel, Lückenliste und konkrete nächste Schritte.
+
+---
+
 ## Skill: `adressatenkreis-bundestag-bundesregierung`
 
-_Wenn es um Adressatenkreis Bundestag und Bundesregierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Adressatenkreis Bundestag und Bundesregierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Adressatenkreis Bundestag und Bundesregierung
 
@@ -376,27 +541,6 @@ _Wenn es um Adressatenkreis Bundestag und Bundesregierung in Lobbyregister Bunde
 
 Reformfassung des LobbyRG durch das Gesetz zur Aenderung des Lobbyregistergesetzes vom 15.01.2024, in Kraft seit 01.03.2024. Wesentliche Neuerung: Kontakte zu Bundesministerien werden bereits ab Referatsleiterebene erfasst (§ 1 Abs. 3 Nr. 2 LobbyRG n.F.). Uebergangsfrist für Bestandsregistrierungen lief bis 30.06.2024.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 LobbyRG
-- § 5 LobbyRG
-- § 2 LobbyRG
-- § 4 LobbyRG
-- § 1 LobbyRG
-- § 7 LobbyRG
-- § 6 LobbyRG
-- § 1 GeschGehG
-- Art. 21 GG
-- § 28 VwVfG
-- § 1 bis 7 LobbyRG
-- § 6b BMinG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
 
 ## Quellenanker
 
@@ -416,11 +560,11 @@ Reformfassung des LobbyRG durch das Gesetz zur Aenderung des Lobbyregistergesetz
 
 ---
 
-## Skill: `fruehere-interessenvertretung`
+## Skill: `datenschutz-nichtoeffentliche-angaben`
 
-_Wenn es um Exit und fruehere Interessenvertretung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Datenschutz und nicht öffentliche Angaben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Exit und fruehere Interessenvertretung
+# Datenschutz und nicht öffentliche Angaben
 
 ## Arbeitsweg
 
@@ -439,9 +583,9 @@ _Wenn es um Exit und fruehere Interessenvertretung in Lobbyregister Bundestag ge
 
 ## Leitfragen
 
-1. Wurde die Interessenvertretung dauerhaft eingestellt?
-2. Welche Auftraege, Vorhaben und Kontakte laufen noch aus?
-3. Welche Dokumente müssen archiviert werden?
+1. Welche Angaben werden im Portal veroeffentlicht?
+2. Welche Daten bleiben nicht öffentlich?
+3. Welche Einwilligungen, Informationspflichten oder internen Freigaben fehlen?
 
 ## Quellenanker
 
@@ -459,54 +603,11 @@ _Wenn es um Exit und fruehere Interessenvertretung in Lobbyregister Bundestag ge
 
 ---
 
-## Skill: `interessenvertretung-begriff-interne`
+## Skill: `jahresabschluss-rechenschaftsbericht-konzern`
 
-_Wenn es um Begriff der Interessenvertretung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Jahresabschluss und Rechenschaftsbericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Begriff der Interessenvertretung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
-- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Gefuehrter Ablauf
-
-1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
-2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
-3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
-4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
-
-## Leitfragen
-
-1. Welches Anliegen soll adressiert werden?
-2. Soll eine Regelung geschaffen, geaendert, beibehalten oder verhindert werden?
-3. Ist der Kontakt selbst geplant oder wurde er beauftragt?
-
-## Quellenanker
-
-- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
-- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
-- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
-- Leitplanken: ../../references/lobbyregister-leitplanken.md
-
-## Qualitaetsgate
-
-- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
-- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
-- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
-- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-
----
-
-## Skill: `personen-organisationstyp`
-
-_Wenn es um Personen- und Organisationstyp in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Personen- und Organisationstyp
+# Jahresabschluss und Rechenschaftsbericht
 
 ## Arbeitsweg
 
@@ -525,15 +626,11 @@ _Wenn es um Personen- und Organisationstyp in Lobbyregister Bundestag geht: ordn
 
 ## Leitfragen
 
-1. Wer tritt nach aussen auf?
-2. Handelt eine Person im eigenen Namen oder für eine Organisation?
-3. Gibt es mehrere Traeger, Netzwerkpartner oder Plattformstrukturen?
+1. Welches Geschaeftsjahr ist abgeschlossen?
+2. Liegt der Abschluss bereits vor?
+3. Welche Ersatzangaben oder Nachreichpflichten entstehen?
 
 ## Quellenanker
-
-## Spezialfall Auslandsrechtstraeger mit deutscher Zweigniederlassung
-
-Bei einer unselbststaendigen Zweigniederlassung ist zuerst der Rechtstraeger zu bestimmen. Die Handelsregistereintragung der Zweigniederlassung macht sie nicht automatisch zu einer eigenen juristischen Person. Der Skill soll deshalb die Eintragungseinheit, die Frankfurter oder Berliner Anschrift, die betrauten Personen und die Kosten-/Taetigkeitszuordnung auseinanderhalten. Eine zweite Registrierung der Zweigniederlassung darf nur als Pruefoption vorbereitet werden, nicht als selbstverstaendlicher Portal-Schritt.
 
 - LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
 - Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
@@ -546,90 +643,12 @@ Bei einer unselbststaendigen Zweigniederlassung ist zuerst der Rechtstraeger zu 
 - Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
 - Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
 - Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-
----
-
-## Skill: `aktualisierung-unverzueglich-adressatenkreis`
-
-_Wenn es um Unverzuegliche Aktualisierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen._
-
-# Unverzuegliche Aktualisierung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
-- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Gefuehrter Ablauf
-
-1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
-2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
-3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
-4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
-
-## Leitfragen
-
-1. Welche Angabe hat sich wann geaendert?
-2. Ist die Aenderung registerrelevant?
-3. Wer muss Text, Beleg und Freigabe liefern?
-4. Welche veroeffentlichten API-Felder müssen nach der Portalaktion kontrolliert werden?
-
-## API-Nachkontrolle
-
-Nach einer Portalaktualisierung soll der Skill eine Wiedervorlage für den öffentlichen API-Abgleich anlegen:
-
-1. Vorherige API-Antwort oder PDF-Version aus der Akte ziehen.
-2. Nach Veroeffentlichung `GET /registerentries/{registerNumber}?format=json` abrufen.
-3. Wenn die Version geaendert wurde, alte und neue Version gegenueberstellen.
-4. `lastUpdateDate`, `validFromDate`, `fiscalYearUpdate.updateMissing`, `refusedAnything`, Regelungsvorhaben, Stellungnahmen, Personen und Finanzdaten prüfen.
-5. Abweichungen in `assets/templates/registerexport-diff.md` dokumentieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 LobbyRG
-- § 5 LobbyRG
-- § 2 LobbyRG
-- § 4 LobbyRG
-- § 1 LobbyRG
-- § 7 LobbyRG
-- § 6 LobbyRG
-- § 1 GeschGehG
-- Art. 21 GG
-- § 28 VwVfG
-- § 1 bis 7 LobbyRG
-- § 6b BMinG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
-
-## Quellenanker
-
-- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
-- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
-- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
-- Leitplanken: ../../references/lobbyregister-leitplanken.md
-- Open Data/API: ../../references/open-data-api-v2.md
-
-## Qualitaetsgate
-
-- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
-- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
-- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
-- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-- Nach der Veroeffentlichung wird die API-Antwort als Beleg gesichert oder die fehlende Veroeffentlichung eskaliert.
 
 ---
 
 ## Skill: `anonymisierung-schutzantrag-auftraggeber`
 
-_Wenn es um Anonymisierung und Schutzantrag in Lobbyregister Bundestag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
+_Für Anonymisierung und Schutzantrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik._
 
 # Anonymisierung und Schutzantrag
 
@@ -715,27 +734,6 @@ _Wenn es um Anonymisierung und Schutzantrag in Lobbyregister Bundestag geht: ers
 - **Rechtsweg gegen Ablehnung**: nicht zum BVerwG, sondern VG Berlin (1. Instanz Verwaltungsgerichtsbarkeit).
 - **Verhältnismäßigkeit**: Antrag muss erforderlich und geeignet sein; weniger einschneidende Mittel (z. B. teilweise Beschränkung) zuerst prüfen.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 LobbyRG
-- § 5 LobbyRG
-- § 2 LobbyRG
-- § 4 LobbyRG
-- § 1 LobbyRG
-- § 7 LobbyRG
-- § 6 LobbyRG
-- § 1 GeschGehG
-- Art. 21 GG
-- § 28 VwVfG
-- § 1 bis 7 LobbyRG
-- § 6b BMinG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
 
 ## Quellenanker
 
@@ -753,11 +751,11 @@ _Wenn es um Anonymisierung und Schutzantrag in Lobbyregister Bundestag geht: ers
 
 ---
 
-## Skill: `drehtuer-angaben`
+## Skill: `fruehere-interessenvertretung`
 
-_Wenn es um Drehtuer-Angaben in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Exit und frühere Interessenvertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Drehtuer-Angaben
+# Exit und fruehere Interessenvertretung
 
 ## Arbeitsweg
 
@@ -776,48 +774,9 @@ _Wenn es um Drehtuer-Angaben in Lobbyregister Bundestag geht: ordnet Sachverhalt
 
 ## Leitfragen
 
-1. Welche aktuellen oder frueheren Aemter liegen vor?
-2. Betreffen sie Bundestag, Bundesregierung oder Bundesverwaltung?
-3. Seit wann und bis wann bestand die Funktion?
-
-## Drehtür-Pflicht § 3 I Nr. 4 LobbyRG (Pflichtangabe)
-
-**Anzugebende Personen** (für jede namentlich genannte natürliche Person):
-
-1. **aktuelles Mandat** im Deutschen Bundestag oder im Europäischen Parlament,
-2. **aktuelles Amt** als Bundesminister oder Parlamentarischer Staatssekretär oder Staatsminister,
-3. **in den letzten 5 Jahren bestehende** Tätigkeit als Mitglied
- - der Bundesregierung,
- - des Deutschen Bundestages,
- - als Parlamentarischer Staatssekretär,
- - als Beamter/Soldat ab Besoldungsgruppe B 3 bzw. äquivalenter Funktion
-4. Für **Beschäftigte und Beauftragte** (§ 1 III LobbyRG): die zur Interessenvertretung tätigen Personen (auch bei mittelbarer Beauftragung).
-
-## Pflicht-Datensatz im Portal
-
-- **Vor- und Nachname** der Person.
-- **Funktion / Amt** der vergangenen Tätigkeit (z. B. „Staatssekretär im BMI", „MdB").
-- **Zeitraum** der Tätigkeit (Beginn und Ende, ggf. „bis dato").
-- Ggf. **Aktualität** (laufend / abgeschlossen).
-
-## Rechtsfolgen / Sanktionen
-
-- Verstoß = OWi § 7 I Nr. 1, 2 LobbyRG (bis 50.000 Euro Bußgeld).
-- Eintragung im Register als „nicht vollständig" / "nicht aktuell" möglich (Reputationsrisiko).
-
-## Karenzpflichten / Cooling-Off-Period
-
-- **Ehemalige Bundesregierungsmitglieder** § 6b BMinG / KarenzG: Karenzzeit von bis zu 18 Monaten für Tätigkeiten, bei denen öffentliche Interessen betroffen sein können; Entscheidung Bundesregierung nach Anhörung beratenden Gremiums.
-- **Ehemalige Beamte** § 105 BBG / § 41 BeamtStG: Anzeigepflicht bei beruflicher Tätigkeit im Anschluss an aktive Tätigkeit, soweit Bezug zu früherer Amtsführung.
-- LobbyRG-Pflicht und Karenzpflichten sind unabhängig — beide können nebeneinander treten.
-
-## Praxisfallen
-
-- **Privatperson, die im Auftrag interessenvertretung macht**, ist „Beschäftigte" oder „Beauftragte" — Drehtür-Angaben fließen in das Profil der Organisation.
-- **Bundestagspraktika, Wahlkreismitarbeit** unter Besoldungsgruppe sind grundsätzlich nicht meldepflichtig; aber Vorsicht bei Stellung als Geschäftsführer einer politischen Stiftung etc.
-- **Beratungsverhältnis durch Berufsexpertin** (z. B. ehemalige Staatssekretärin als externe Beraterin): Drehtür-Angabe der Beraterin ist Pflicht, wenn sie als Beauftragte für die Lobbyorganisation tätig wird.
-- **Aktualisierung** § 3 Abs. 3 LobbyRG: Änderungen innerhalb von 30 Tagen.
-- **EU-Ebene**: Tätigkeit als ehemaliges Mitglied EP / Kommission separat zu vermelden.
+1. Wurde die Interessenvertretung dauerhaft eingestellt?
+2. Welche Auftraege, Vorhaben und Kontakte laufen noch aus?
+3. Welche Dokumente müssen archiviert werden?
 
 ## Quellenanker
 
@@ -832,200 +791,12 @@ _Wenn es um Drehtuer-Angaben in Lobbyregister Bundestag geht: ordnet Sachverhalt
 - Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
 - Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
 - Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-
----
-
-## Skill: `bestaetigungsdokument-freigabe`
-
-_Wenn es um Bestaetigungsdokument und Freigabe in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Bestaetigungsdokument und Freigabe
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
-- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Gefuehrter Ablauf
-
-1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
-2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
-3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
-4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
-
-## Leitfragen
-
-1. Welche Rechtsform liegt vor?
-2. Wer ist Leitungsperson oder vertretungsberechtigt?
-3. Welche interne Prüfung muss vor Unterschrift dokumentiert sein?
-
-## Quellenanker
-
-- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
-- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
-- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
-- Leitplanken: ../../references/lobbyregister-leitplanken.md
-
-## Qualitaetsgate
-
-- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
-- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
-- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
-- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-
----
-
-## Skill: `lobbyregister-hauptfinanzierungsquellen-angaben`
-
-_Wenn es um Hauptfinanzierungsquellen in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck._
-
-# Hauptfinanzierungsquellen
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
-- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Gefuehrter Ablauf
-
-1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
-2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
-3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
-4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
-
-## Leitfragen
-
-1. Woher stammen die wesentlichen Mittel?
-2. Welche Kategorien verlangt das Portal?
-3. Welche Nachweise liegen im Jahresabschluss oder Rechenschaftsbericht?
-
-## Quellenanker
-
-- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
-- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
-- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
-- Leitplanken: ../../references/lobbyregister-leitplanken.md
-
-## Qualitaetsgate
-
-- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
-- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
-- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
-- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-
----
-
-## Skill: `datenschutz-nichtoeffentliche-angaben`
-
-_Wenn es um Datenschutz und nicht öffentliche Angaben in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Datenschutz und nicht öffentliche Angaben
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
-- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Gefuehrter Ablauf
-
-1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
-2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
-3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
-4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
-
-## Leitfragen
-
-1. Welche Angaben werden im Portal veroeffentlicht?
-2. Welche Daten bleiben nicht öffentlich?
-3. Welche Einwilligungen, Informationspflichten oder internen Freigaben fehlen?
-
-## Quellenanker
-
-- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
-- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
-- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
-- Leitplanken: ../../references/lobbyregister-leitplanken.md
-
-## Qualitaetsgate
-
-- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
-- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
-- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
-- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-
----
-
-## Skill: `dokumentationsakte-revisionsspur-drehtuer`
-
-_Wenn es um Dokumentationsakte und Revisionsspur in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck._
-
-# Dokumentationsakte und Revisionsspur
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
-- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Gefuehrter Ablauf
-
-1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
-2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
-3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
-4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
-
-## Leitfragen
-
-1. Welche Belege liegen wo?
-2. Welche Entscheidungen wurden von wem freigegeben?
-3. Welche Portalaktionen müssen dokumentiert werden?
-4. Welche API- oder JSON-Exportantworten belegen den öffentlichen Datenstand?
-
-## API-Revisionsspur
-
-Für jeden API- oder JSON-Export muss die Akte enthalten:
-
-- Abrufdatum und `sourceDate`
-- verwendeter Endpunkt, Suchparameter und Cursor
-- Registernummer, Version, `detailsPageUrl` und `pdfUrl`
-- Hash oder unveraenderte Rohdatei
-- Bearbeiterin/Bearbeiter
-- Zweck der Abfrage
-- Verweis auf den dazugehoerigen Portalvorgang oder Monitoringlauf
-- Bewertung, ob eine Abweichung rechtlich, technisch oder nur formal ist
-
-## Quellenanker
-
-- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
-- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
-- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
-- Leitplanken: ../../references/lobbyregister-leitplanken.md
-- Open Data/API: ../../references/open-data-api-v2.md
-
-## Qualitaetsgate
-
-- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
-- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
-- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
-- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
-- API-Antworten werden unveraendert archiviert und nicht mit internen Arbeitshypothesen vermischt.
 
 ---
 
 ## Skill: `mitgliedschaften-mitgliederzahl-nicht`
 
-_Wenn es um Mitgliedschaften und Mitgliederzahl in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Mitgliedschaften und Mitgliederzahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Mitgliedschaften und Mitgliederzahl
 
@@ -1068,7 +839,7 @@ _Wenn es um Mitgliedschaften und Mitgliederzahl in Lobbyregister Bundestag geht:
 
 ## Skill: `registrierungspflicht-schenkungen-sponsoring`
 
-_Wenn es um Registrierungspflicht und Schwellen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Registrierungspflicht und Schwellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Registrierungspflicht und Schwellen
 
@@ -1116,7 +887,7 @@ Reformfassung LobbyRG durch Gesetz zur Aenderung des Lobbyregistergesetzes vom 1
 
 ## Skill: `stellungnahmen-gutachten-suche-open`
 
-_Wenn es um Stellungnahmen und Gutachten Upload in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Stellungnahmen und Gutachten Upload: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Stellungnahmen und Gutachten Upload
 
@@ -1163,9 +934,138 @@ Nach dem Portal-Upload soll der Skill eine Nachkontrolle anlegen: öffentlichen 
 
 ---
 
+## Skill: `interne-lobbyregister-richtlinie`
+
+_Für Interne Lobbyregister-Richtlinie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck._
+
+# Interne Lobbyregister-Richtlinie
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
+- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Gefuehrter Ablauf
+
+1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
+2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
+3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
+4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
+
+## Leitfragen
+
+1. Wer darf Interessenvertretung aufnehmen?
+2. Wie werden neue Kontakte und Vorhaben intern gemeldet?
+3. Welche Freigaben gelten für Stellungnahmen, Auftraggeberdaten und Finanzen?
+
+## Quellenanker
+
+- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
+- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
+- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
+- Leitplanken: ../../references/lobbyregister-leitplanken.md
+
+## Qualitaetsgate
+
+- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
+- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
+- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
+- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
+
+---
+
+## Skill: `interessen-und-vorhabenbereiche`
+
+_Für Interessen- und Vorhabenbereiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Interessen- und Vorhabenbereiche
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
+- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Gefuehrter Ablauf
+
+1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
+2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
+3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
+4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
+
+## Leitfragen
+
+1. Welche Branchen, Politikfelder oder Rechtsgebiete sind betroffen?
+2. Welche EU-, Bundes- oder Ministerialvorhaben sind relevant?
+3. Welche Bereiche müssen bei Aenderung unverzueglich aktualisiert werden?
+
+## Quellenanker
+
+- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
+- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
+- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
+- Leitplanken: ../../references/lobbyregister-leitplanken.md
+
+## Qualitaetsgate
+
+- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
+- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
+- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
+- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
+
+---
+
+## Skill: `interessenvertretung-begriff-interne`
+
+_Für Begriff der Interessenvertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Begriff der Interessenvertretung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 3 LobbyRG Eintragung vor erster Interessenvertretung, § 5 LobbyRG jährliche Aktualisierung, Berichtspflicht ggf. innerhalb 3 Monaten nach Ende des Geschäftsjahres.
+- Tragende Normen verifizieren: LobbyRG §§ 1, 2, 3, 5, 6, 7, 8 (i.d.F. Reform 2024), Verhaltenskodex Lobbyregister, GOBT, BGleiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Interessenvertreter, Bundestagsverwaltung (Lobbyregisterstelle), Geschäftsstelle, registrierte Verbände, Bundesregierung (zweiter Registerteil).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lobbyregistereintrag, Verhaltenskodex-Bestätigung, Tätigkeitsbericht, Hausausweisantrag, Finanzangaben, Verbandsmitgliederliste — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Gefuehrter Ablauf
+
+1. Sachverhalt in einem Satz zusammenfassen: Wer will mit wem worueber sprechen oder hat bereits gehandelt?
+2. Offizielle Quelle und Rechtsstand nennen: LobbyRG, Lobbyregister-FAQ, Handbuch oder Verhaltenskodex.
+3. Die folgenden Leitfragen nacheinander stellen und fehlende Angaben als offene Punkte markieren.
+4. Ergebnis nicht als Rechtsrat ausgeben, sondern als prueffaehige Arbeitsunterlage mit Annahmen, Belegen und naechster Portalaktion.
+
+## Leitfragen
+
+1. Welches Anliegen soll adressiert werden?
+2. Soll eine Regelung geschaffen, geaendert, beibehalten oder verhindert werden?
+3. Ist der Kontakt selbst geplant oder wurde er beauftragt?
+
+## Quellenanker
+
+- LobbyRG: https://www.gesetze-im-internet.de/lobbyrg/BJNR081800021.html
+- Lobbyregister FAQ: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-für-interessenvertreter-863572
+- Handbuch: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/handbuch
+- Leitplanken: ../../references/lobbyregister-leitplanken.md
+
+## Qualitaetsgate
+
+- Pflichtgrund, Ausnahme und freiwillige Registrierung werden getrennt.
+- Jede Frist bekommt Triggerdatum, Verantwortliche und Wiedervorlage.
+- Jede Portalangabe bekommt Quelle, Freigabe und offenen Pruefpunkt.
+- Unsichere Rechts- oder Tatsachenfragen werden nicht geglaettet, sondern sichtbar markiert.
+
+---
+
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

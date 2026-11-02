@@ -1,29 +1,39 @@
 # Akte Großkanzlei Corporate/M&A Datenraum
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 380 KB) | PDF | [`gesamt-pdf/grosskanzlei-corporate-ma-datenraum_gesamt.pdf`](gesamt-pdf/grosskanzlei-corporate-ma-datenraum_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-grosskanzlei-corporate-ma-datenraum.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grosskanzlei-corporate-ma-datenraum.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-grosskanzlei-corporate-ma-datenraum-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grosskanzlei-corporate-ma-datenraum-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/grosskanzlei-corporate-ma-datenraum_gesamt.pdf`](gesamt-pdf/grosskanzlei-corporate-ma-datenraum_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-grosskanzlei-corporate-ma-datenraum.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-grosskanzlei-corporate-ma-datenraum.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-grosskanzlei-corporate-ma-datenraum-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-grosskanzlei-corporate-ma-datenraum-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-grosskanzlei-corporate-ma-datenraum` (Akte) | [testakte-grosskanzlei-corporate-ma-datenraum.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grosskanzlei-corporate-ma-datenraum.zip) |
+| `testakte-grosskanzlei-corporate-ma-datenraum` (Akte) | [testakte-grosskanzlei-corporate-ma-datenraum.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-grosskanzlei-corporate-ma-datenraum.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 **Startprompt:**
 
@@ -75,7 +85,7 @@ Dieser Abschnitt dokumentiert den Aufbau der Akte für die Phasen 00 bis 09 der 
 | [00_kommandocenter/statuskarte_erwartung.docx](00_kommandocenter/statuskarte_erwartung.docx) | Statusampel-Karte aller Themenblöcke; offene Punkte mit Deadlines und Eskalationspfaden |
 | [00_kommandocenter/engagement_letter.docx](00_kommandocenter/engagement_letter.docx) | **DOCX** — Engagement Letter: Mandatsumfang, Honorar, Teambesetzung, anwendbares Recht |
 | [01_intake_conflicts/conflict_sanctions_rohdaten.docx](01_intake_conflicts/conflict_sanctions_rohdaten.docx) | Aktenvermerk Conflict-Check und Sanctions-Screening: alle Parteien, UBO-Analyse, GwG-Sorgfaltspflichten; offener Punkt Harald Grünwald-Konrad |
-| [01_intake_conflicts/email_mandant.txt](01_intake_conflicts/email_mandant.txt) | Erste Mandanten-E-Mail (Ausgangsimpuls für das Mandat) |
+| [01_intake_conflicts/email_mandant.eml](01_intake_conflicts/email_mandant.eml) | Erste Mandanten-E-Mail mit Konfliktprüfung, NDA und Datenraumauftrag |
 | [02_target_screening/outside_in_quellenliste.docx](02_target_screening/outside_in_quellenliste.docx) | Außen-Screening Solaris Industries AG: Bundesanzeiger, Creditreform, Pressearchiv, DPMA-Patente, Gerichtsrecherche; Risikoampeln je Bereich |
 | [02_target_screening/target_pipeline.csv](02_target_screening/target_pipeline.csv) | Target-Pipeline: 7 Unternehmen mit Umsatz, EBITDA, Marge, Mitarbeitern, Risiko, Synergie, Bieter-Status und EV-Indikation |
 | [03_teaser_processdocs/process_letter_draft.docx](03_teaser_processdocs/process_letter_draft.docx) | Vollständiger Process Letter Phase 1+2+3: Fristen, Anforderungen NBO/BO, Vertraulichkeit, Prozessregeln, Kontakt |
@@ -92,6 +102,7 @@ Dieser Abschnitt dokumentiert den Aufbau der Akte für die Phasen 00 bis 09 der 
 | [06_tabellenreview/review_grid.csv](06_tabellenreview/review_grid.csv) | Review-Grid: 15 Verträge (inkl. TSA-Entwürfe, IP-Lizenz) mit allen wesentlichen Parametern und SPA-Maßnahmen |
 | [07_qa_expert_calls/expert_call_note.docx](07_qa_expert_calls/expert_call_note.docx) | Protokoll Management Presentation 4.12.2024 und Expert Call COO/Compliance: Aussagen zu Lieferkette, Kunde A, Exportkontrolle; 6 neue Q&A-Fragen |
 | [07_qa_expert_calls/qa_register.csv](07_qa_expert_calls/qa_register.csv) | Q&A-Register: 15 Fragen (Corporate, Commercial, Employment, Financial, Regulatory, Tax) mit Status, Owner und SPA-Relevanz |
+| [07_qa_expert_calls/email_seller_counsel_qa_antworten.eml](07_qa_expert_calls/email_seller_counsel_qa_antworten.eml) | Teilantworten des Seller Counsel zur Q&A-Runde 1 (Q-001 bis Q-004): Gesellschafterliste zugesagt, Kunde A erst nach Binding Offers, Betriebsratsunterrichtung noch offen |
 | [08_structure_umwandlung_tax/kg_check.docx](08_structure_umwandlung_tax/kg_check.docx) | KG-Check: gesellschaftsrechtliche Analyse KG-Option (verworfen), Checkliste Ausgliederung Solaris Service GmbH nach UmwG |
 | [08_structure_umwandlung_tax/structure_options.docx](08_structure_umwandlung_tax/structure_options.docx) | Strukturgutachten Varianten A (Share Deal), B (Asset Deal), C (Vorab-Ausgliederung + Share Deal) mit steuerlichen Vor-/Nachteilen und Empfehlung |
 | [08_structure_umwandlung_tax/umwandlungssteuer_matrix.docx](08_structure_umwandlung_tax/umwandlungssteuer_matrix.docx) | Steuerliche Matrix: Verschmelzung 2024 (Rückwirkung, UmwStG), Ausgliederung Buchwert vs. gemeiner Wert, § 8c KStG, GILTI, US-Tax, offene Punkte |
@@ -122,5 +133,3 @@ Diese Akte zeigt exemplarisch den vollständigen Buy-side-M&A-Workflow einer deu
 Diese Akte enthält zusätzliche Ordner für Aktenanlage, Liquiditätsvorschau, Insolvenzreife, Billing/E-Rechnung und GoBD (Ordner 10–18). Diese Ordner wurden von einem zweiten Subagenten bearbeitet und sind unabhängig nutzbar.
 
 ---
-
-## Disclaimer

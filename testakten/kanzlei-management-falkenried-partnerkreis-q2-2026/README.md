@@ -1,18 +1,25 @@
 # Falkenried & Partner mbB — Managementakte Q2/2026
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 186 KB) | PDF | [`gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf`](gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf`](gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -35,8 +42,24 @@ Interne Managementakte einer mittelständischen deutschen Wirtschaftskanzlei mit
 | `11-ki-dms-investitionscase.docx` | Legal-Tech-/DMS-/KI-Investitionsvorlage mit Datenschutz- und § 203-Risiko |
 | `12-management-committee-beschlusslog.docx` | Entscheidungslog mit Ownern, Fristen und Review-Datum |
 | `gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf` | Durchsuchbares Gesamt-PDF der Akte |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
 
 ## Geeignete Plugins
 
 `kanzlei-management`, ergänzend `kanzlei-allgemein`, `kanzlei-mandant-lifecycle`, `berufsrecht-anwaelte`, `datenschutzrecht`, `ki-governance`, `word-legal-ai-plugin-and-skill-for-german-lawyers`.
+
+---
+
+<!-- BEGIN nachgereichte-originalunterlagen -->
+## Nachgereichte Originalunterlagen
+
+Diese Dateien ergänzen den Datenraum um später eingegangene Primärunterlagen. Sie enthalten Tatsachen, Rohdaten und Korrespondenz, aber keine rechtliche Lösung.
+
+| Datei | Herkunft und Inhalt |
+| --- | --- |
+| [`14_forderungsbestand_und_rechnungsfreigaben.docx`](14_forderungsbestand_und_rechnungsfreigaben.docx) | Finance-Bericht zum unveränderten Forderungs- und Freigabestand |
+| [`15_email_partner_rabattzusage.eml`](15_email_partner_rabattzusage.eml) | Partnermail zum tatsächlich zugesagten Rabattumfang |
+| [`16_offene_forderungen_systemexport_roh.csv`](16_offene_forderungen_systemexport_roh.csv) | Systemexport mit strittigen und technischen Positionen |
+| [`17_chat_export_associates_winter_bleibtreu.txt`](17_chat_export_associates_winter_bleibtreu.txt) | Messenger-Export der beiden belasteten Associates zu Auslastung, Headhunter-Kontakt und Stay Interviews |
+| [`18_telefonvermerk_maerkische_energie_forderung.docx`](18_telefonvermerk_maerkische_energie_forderung.docx) | Finance-Telefonat zur offenen Rechnung über 241.800 EUR mit Kostenstellen-Aufteilung und Zahlzusage |
+
+<!-- END nachgereichte-originalunterlagen -->

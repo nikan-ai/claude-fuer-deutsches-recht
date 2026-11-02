@@ -2,31 +2,149 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-15 von 53 Skills des Plugins `insolvenzverwaltung`.
+Diese Vollprüfung enthält top-15 von 53 Skills des Plugins `insolvenzverwaltung`.
 
 ## Inhaltsverzeichnis
 
-1. **einstieg-routing** — Wenn es um Einstieg und Routing in Insolvenzverwaltung - IV-Cockpit geht: klärt Rolle, Ziel, Frist, Unterlagen und den p…
-2. **kaltstart-triage** — Wenn es um Kaltstart Triage in Insolvenzverwaltung - IV-Cockpit geht: klärt Rolle, Ziel, Frist, Unterlagen und den passe…
-3. **insolvenzverwaltungs-erstpruefung-und-mandatsziel** — Wenn es um Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel in Insolvenzverwaltung - IV-Cockpit geht: kl…
-4. **anfechtung-iv-arbeitsrecht** — Wenn es um Insolvenzanfechtung Paragrafen 129 ff. InsO in Insolvenzverwaltung - IV-Cockpit geht: ordnet Sachverhalt, Nor…
-5. **cross-iv-eigenverwaltung** — Wenn es um IV Cross-Border Assets — Trustee, DIP, Registervollzug in Insolvenzverwaltung - IV-Cockpit geht: ordnet Sachv…
-6. **plan-integrierte-kommandocenter** — Wenn es um Integrierte Planrechnung für Plan und Sanierungskonzept in Insolvenzverwaltung - IV-Cockpit geht: rechnet Sch…
-7. **plan-verfahrenswahl** — Wenn es um IV-integrierte Verfahrenswahl und Routenentscheidung in Insolvenzverwaltung - IV-Cockpit geht: rechnet Schwel…
-8. **plan-planvollzug-monitoring** — Wenn es um IV-integrierte Planvollzug und Monitoring in Insolvenzverwaltung - IV-Cockpit geht: ordnet Akteninhalt, Beleg…
-9. **zahlungsklagen-insolvenzverwaltungs** — Wenn es um Zahlungsklagen nach Paragraf 15b InsO in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwur…
-10. **plan-gerichtliche-schritte** — Wenn es um IV-integrierte Gerichtliche Schritte in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwurf…
-11. **plan-stabilisierung-stakeholder** — Wenn es um IV-integrierte StaRUG-Stabilisierung in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwurf…
-12. **insolvenzverwalter-fristen-form-und-zustaendigkeit** — Wenn es um Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg in Insolvenzverwaltung - IV-Cockpit geht: prüf…
-13. **spezial-sicht-tatbestand-beweis-und-belege** — Wenn es um Sicht: Tatbestandsmerkmale, Beweisfragen und Beleglage in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist,…
-14. **masseunzulaenglichkeit-208** — Wenn es um Anzeige der Masseunzulänglichkeit Paragraf 208 InsO in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Fo…
-15. **plan-sicherheiten-drittsicherheiten** — Wenn es um IV-integrierte Sicherheiten und Drittsicherheiten in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Form…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Insolvenzverwaltung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbinde…
+2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+3. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
+4. **insolvenzverwaltungs-erstpruefung-und-mandatsziel** — Für Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; E…
+5. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
+6. **masseunzulaenglichkeit-208** — Für Anzeige der Masseunzulänglichkeit Paragraf 208 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittste…
+7. **verteilung-iv-vorlaeufige** — Für Schlussbericht, Schlussrechnung und Verteilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenk…
+8. **plan-integrierte-kommandocenter** — Für Integrierte Planrechnung für Plan und Sanierungskonzept: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfpr…
+9. **berichte-iv-masseunzulaenglichkeit** — Für Berichte an Gericht und Gläubigerorgane: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mi…
+10. **cross-iv-eigenverwaltung** — Für IV Cross-Border Assets — Trustee, DIP, Registervollzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfpro…
+11. **plan-iv-steuern** — Für IV-integrierte Steuern und Bilanzfolgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mi…
+12. **steuern-sozialversicherung** — Für Steuern, Sozialversicherung und Abgaben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mi…
+13. **plan-verfahrenswahl** — Für IV-integrierte Verfahrenswahl und Routenentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodu…
+14. **plan-sicherheiten-drittsicherheiten** — Für IV-integrierte Sicherheiten und Drittsicherheiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt …
+15. **idw-iv** — Für Sanierungsfähigkeit-Gate für Insolvenzverwaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt m…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Insolvenzverwaltung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Insolvenzverwaltung
+
+## 1. Direktstart
+
+Arbeite als Insolvenzrechtlicher Bearbeiter für Krisenfrüherkennung, Insolvenzantrag, Forderungsanmeldung, Anfechtung, Plan und Sanierung.
+
+Pluginauftrag: Freistehendes Insolvenzverwaltungs-Plugin aus Sicht von Insolvenzverwalter, Sachwalter und vorläufiger Verwaltung: Regelverfahren, Eigenverwaltung, Schutzschirm, Anfechtung, Paragraf 15b InsO, Masse, Forderungsprüfung, Insolvenzplan, StaRUG-Planwerkstatt, Gutachten, Berichte und Schlussrechnung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Insolvenzverwaltung in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Krise feststellen | Liquiditätsstatus, Fälligkeiten, Fortbestehensprognose und Zahlungsstockung trennen |
+| Pflichten zuordnen | Geschäftsleitung, Gläubiger, Berater, Insolvenzgericht und Verwalterrolle klären |
+| Antrag und Sicherung | Insolvenzantrag, vorläufige Maßnahmen, Masseerhalt und Kommunikation vorbereiten |
+| Forderung und Tabelle | Anmeldung, Bestreiten, Feststellung, Sicherheiten und Aussonderung aufbereiten |
+| Anfechtung und Plan | Rechtshandlung, Kenntnis, Gläubigerbenachteiligung, Sanierungsvergleich und Planlogik prüfen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Zahlungsklagen nach Paragraf 15b InsO: Bearbeite den Fachpunkt im Skill zahlungsklagen-insolvenzverwaltungs und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill insolvenzverwalter-fristen-form-und-zustaendigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. IV-integrierte Datenraum und Dokumentenregister: Bearbeite den Fachpunkt im Skill plan-datenraum-register und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel: Bearbeite den Fachpunkt im Skill insolvenzverwaltungs-erstpruefung-und-mandatsziel und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. InsO Paragraf 17: Zahlungsunfähigkeit.
+4.2. InsO Paragraf 18: drohende Zahlungsunfähigkeit.
+4.3. InsO Paragraf 19: Überschuldung.
+4.4. InsO Paragraf 129 bis Paragraf 147: Insolvenzanfechtung.
+4.5. InsO Paragraf 174: Forderungsanmeldung.
+4.6. StaRUG Paragraf 1: Krisenfrüherkennungspflichten.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. BGH, Urteil vom 24.05.2005 - IX ZR 123/04: Eine Liquiditätslücke von zehn Prozent oder mehr spricht regelmäßig für Zahlungsunfähigkeit; eine bloße Zahlungsstockung setzt eine nahezu vollständige Schließung binnen drei Wochen voraus.
+5.2. BGH, Urteil vom 19.12.2017 - II ZR 88/16: In den Liquiditätsstatus gehören auch die binnen drei Wochen fällig werdenden und eingeforderten Verbindlichkeiten; ein Geschäftsführer darf buchhalterisch ausgewiesene Passiva nicht pauschal bestreiten.
+5.3. BGH, Urteil vom 06.05.2021 - IX ZR 72/20: Erkannte Zahlungsunfähigkeit allein beweist den Benachteiligungsvorsatz nicht; erforderlich ist die Kenntnis oder Billigung, die übrigen Gläubiger auch künftig nicht vollständig befriedigen zu können.
+5.4. BGH, Urteil vom 10.02.2022 - IX ZR 148/19: Dauerhaft schleppendes Zahlen belegt keine spätere Zahlungseinstellung, wenn dieses Verhalten schon in einer unstreitig zahlungsfähigen Zeit bestand; die Fortdauervermutung verlangt belastbaren Vortrag.
+
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Liegt Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit oder Überschuldung vor.
+7.2. Welche Frist oder Pflicht trifft welche Person.
+7.3. Welche Zahlung oder Sicherheit ist anfechtbar.
+7.4. Welche Forderung ist mit welchem Rang anzumelden.
+7.5. Welche Sanierungsoption ist realistisch belegbar.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Krise feststellen, Pflichten zuordnen, Antrag und Sicherung, Forderung und Tabelle: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt verwendbar?
 
 ---
 
 ## Skill: `einstieg-routing`
 
-_Wenn es um Einstieg und Routing in Insolvenzverwaltung - IV-Cockpit geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenzverwaltung - IV-Cockpit._
 
 # Einstieg und Routing
 
@@ -68,7 +186,9 @@ Dieser Einstieg routet **Insolvenzverwaltung** vom ersten Sachverhalt zu Rollen,
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Kaltstart Triage in Insolvenzverwaltung - IV-Cockpit geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenzverwaltung - IV-Cockpit._
+
+# Insolvenzakte, Verfahrensstand und Sofortmaßnahmen bestimmen
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -83,12 +203,8 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Insolvenzverwaltung — Allgemein` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -149,7 +265,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -185,55 +301,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `iv-aktenanlage-verfahrenscockpit` | Neue Verfahrensakte anlegen und Verfahrenscockpit strukturieren wenn Insolvenzverwalter oder Sachwalter bestellt wird. §§ 56 80 InsO Verwalterbestellung und Verwaltungsbefugnis. Prüfraster: Aktenzeichen… |
-| `iv-anfechtung-129ff` | Insolvenzanfechtungsansprüche nach §§ 129-147 InsO aus Verwaltersicht prüfen und verfolgen. Enthält KI-gestütztes Schuldnerakten-Screening, Kandidatenmatrix, §§ 130/131/133/134/135, Bargeschäft § 142, Rechtsfolgen §§… |
-| `iv-arbeitsrecht-insolvenzgeld` | Personalthemen im Insolvenzverfahren bearbeiten: Lohnrückstaende Insolvenzgeld Kündigungen Betriebsuebergang Betriebsrat. §§ 113 125 InsO § 165 SGB III Insolvenzgeld. Prüfraster: Arbeitnehmerbestand Rückstaende… |
-| `iv-berichte-gericht-glaeubiger` | Zwischenberichte Sachstandsberichte und Beschlussvorlagen für Insolvenzgericht Gläubiger­ausschuss und Gläubiger­versammlung erstellen. §§ 58 66 79 InsO Berichtspflichten. Prüfraster: Stichtag Massestand Tabelle… |
-| `iv-eigenverwaltung-sachwaltung` | Sachwalter­kontrolle und Schnittstellenmanagement bei Eigenverwaltung nach §§ 270 ff. InsO. §§ 270 274 275 InsO Sachwalterbefugnisse und Kontrollrechte. Prüfraster: Rollenabgrenzung Finanzplankontrolle Rechnungslegung… |
-| `iv-eroeffnungsgutachten` | Eroeffnungsgutachten als Sachverständiger oder vorläufiger Insolvenzverwalter erstellen wenn Gericht Prüfauftrag erteilt. §§ 17 18 19 InsO Eroffnungsgründe §§ 26 54 InsO Massekostendeckung. Prüfraster:… |
-| `iv-forderungsanmeldung-pruefung` | Eingehende Forderungsanmeldungen nach § 174 InsO prüfen und Tabelle für Prüfungstermin vorbereiten. §§ 174 175 176 InsO §§ 38 39 InsO Rang. Prüfraster: Schriftform Beleg Grund Betrag Rang Absonderungsrechte… |
-| `iv-idw-s6-sanierungsfaehigkeit-gate` | Sanierungskonzept auf IDW-S-6-Niveau aus Insolvenzverwalter-, Sachwalter- oder vorläufiger Verwaltungsperspektive prüfen: Fortbestehensprognose, nachhaltige Sanierungsfähigkeit, Leitbild, Maßnahmen, integrierte Planung, Dokumentation und Go/No-go. |
-| `iv-kommandocenter` | Einstiegspunkt für neue Insolvenzverwaltungsmandate: Verfahrensart bestimmen Prioritaeten setzen naechste Workstreams planen. §§ 56 80 InsO Verwalterbestellung § 270d Schutzschirm StaRUG. Prüfraster: Verfahrensrolle… |
-| `iv-masseeinsammlung` | Massepositionen erfassen und realisieren: Bankguthaben Debitoren Herausgabeansprüche Versicherungen Rückstaende. §§ 80 148 InsO Verwaltungsbefugnis und Massezugehoerigkeit. Prüfraster: Massekarte Priorisierung… |
-| `iv-massemehrung-asset-realisation` | Verwertungsstrategie und Massemehrung entwickeln wenn Masse niedrig oder Quote ungewiss ist. §§ 159 160 InsO Verwertung § 133 InsO Vorsatzanfechtung § 15b InsO Haftungsansprüche. Prüfraster: Werthebel Assets Prozesse… |
-| `iv-masseunzulaenglichkeit-208` | Masseunzulaenglichkeit anzeigen und Zahlungsrangfolge steuern wenn Masseverbindlichkeiten nicht für alle ausreichen. § 208 InsO §§ 53 54 InsO Massekosten. Prüfraster: Ist- oder Prognoseunzulaenglichkeit Alt- und… |
-| `iv-plan-abstimmung-mehrheiten` | Abstimmungsmehrheiten für Insolvenzplan und StaRUG-Plan simulieren und Abstimmungstermin vorbereiten. §§ 244 245 InsO Kopf- und Summenmehrheit §§ 25 26 StaRUG Klassenmehrheit. Prüfraster: Stimmberechtigte… |
-| `iv-plan-anlagenpaket` | Anlagenpaket für Insolvenzplan oder StaRUG-Plan vollständig zusammenstellen. §§ 229 230 InsO Plananlagen §§ 14 15 StaRUG Unterlagen. Prüfraster: Pflichtanlagen je Route Vermögensuebersicht Finanzplan Erklärungen… |
-| `iv-plan-cramdown-obstruktion` | Obstruktionsverbot und gruppenuebergreifende Mehrheitsentscheidung prüfen wenn ablehnende Gruppen oder Klassen vorhanden sind. § 245 InsO § 27 StaRUG Cramdown. Prüfraster: Schlechterstellung angemessene Beteiligung… |
-| `iv-plan-darstellender-teil` | Darstellenden Teil des Insolvenzplans oder StaRUG-Plans vollständig und widerspruchsfrei verfassen. § 220 InsO § 6 StaRUG Darstellungspflichten. Prüfraster: Krisengeschichte Maßnahmen Vergleichsrechnung Sonderaktiva… |
-| `iv-plan-datenraum-register` | Planbegleitenden Datenraum aufbauen und Dokumentenregister führen wenn alle Planbausteine belegbar sein müssen. §§ 218 229 InsO §§ 14 15 StaRUG Planunterlagen. Prüfraster: Pflichtunterlagen Jahresabschluesse BWA OPOS… |
-| `iv-plan-gerichtliche-schritte` | Gerichtliche Verfahrensschritte für Insolvenzplan und StaRUG-Plan steuern von Einreichung bis Bestätigung. §§ 231 232 248 InsO Vorprüfung Bestätigung §§ 45 ff. StaRUG Gerichtsverfahren. Prüfraster: Einreichungsantrag… |
-| `iv-plan-gestaltender-teil` | Gestaltenden Teil des Insolvenzplans mit konkreten Rechtsaenderungen Quoten und Vollstreckungsgrundlagen formulieren. § 221 InsO § 7 StaRUG Planwirkungen. Prüfraster: Rechtsaenderungen je Gruppe Quoten Stundungen… |
-| `iv-plan-gruppen-klassenbildung` | Abstimmungsgruppen nach InsO und Klassen nach StaRUG sachgerecht bilden um Planbestätigungsrisiken zu minimieren. §§ 222 223 InsO Gruppenbildung §§ 9 10 StaRUG Klassenbildung. Prüfraster: Rechtsstellung wirtschaftliche… |
-| `iv-plan-insolvenzplan-architektur` | Vollständigen Insolvenzplan nach §§ 217 ff. InsO von Grund auf strukturieren. §§ 217 220 221 InsO Planarchitektur. Prüfraster: Planvorlageberechtigung darstellender gestaltender Teil Anlagen Gruppen Sicherheiten… |
-| `iv-plan-integrierte-planung` | Integrierte Planrechnung aus GuV Liquiditaet und Bilanz für Insolvenzplan oder StaRUG erstellen. §§ 220 229 InsO Finanzplanung § 14 StaRUG. Prüfraster: Ist-Zahlen Planannahmen Base-Case Stressszenarien Brückenrechnung… |
-| `iv-plan-kaltstart-interview` | Erstes Mandatsgespräch strukturieren wenn Insolvenzplan oder StaRUG-Verfahren startet und kaum Unterlagen vorliegen. §§ 13 15a 17 InsO §§ 29 42 StaRUG Antragspflichten. Prüfraster: Basisdaten Krisenursachen… |
-| `iv-plan-kommandocenter` | Insolvenzplan- oder StaRUG-Mandat starten Verfahrensroute bestimmen Ampelstatus setzen. §§ 217 218 InsO §§ 29 ff. StaRUG. Prüfraster: Rolle Verfahrensziel Datenraumstand Zahlenstand Stakeholder Fristen naechste Aktion.… |
-| `iv-plan-minderheitenschutz` | Schlechterstellungsrisiken und Beschwerderisiken einzelner opponierender Beteiligter analysieren und Planverbesserungen vorschlagen. § 251 InsO § 64 StaRUG Minderheitenschutz. Prüfraster: individuelle… |
-| `iv-plan-planbetroffene-auswahl` | Planbetroffene im StaRUG-Verfahren sachgerecht auswaehlen und Nichteinbeziehung begründen. §§ 2 4 StaRUG Gestaltbarkeit. Prüfraster: gestaltbare Rechtsverhältnisse Ausnahmen Arbeitnehmer deliktische Forderungen… |
-| `iv-plan-planvollzug-monitoring` | Planvollzug nach Bestätigung ueberwachen Zahlungen kontrollieren und Abweichungen dokumentieren. §§ 248 261 InsO Planueberwachung §§ 69 72 StaRUG. Prüfraster: Bedingungen Fälligkeiten Quoten Zahlstellen Covenants… |
-| `iv-plan-redteam-qualitygate` | Insolvenzplan oder StaRUG-Plan vor Einreichung hart auf Fehler prüfen aus Sicht opponierender Gläubiger und Gericht. §§ 231 245 251 InsO Versagungsgründe. Prüfraster: Vollständigkeit Bewertungswiderspruch… |
-| `iv-plan-sanierungskonzept` | Sanierungskonzept als wirtschaftliche Grundlage für Insolvenzplan oder StaRUG erstellen oder prüfen. §§ 220 229 InsO §§ 6 14 StaRUG Fortbestehensfähigkeit. Prüfraster: Krisenstadium Ursachen Leitbild Maßnahmenpakete… |
-| `iv-plan-sicherheiten-drittsicherheiten` | Absonderungsrechte und Drittsicherheiten im Insolvenzplan und StaRUG planfest behandeln und Ausfallwerte bestimmen. §§ 49 50 51 224 InsO Absonderung § 2 Abs. 4 StaRUG Drittsicherheiten. Prüfraster: Sicherheitenregister… |
-| `iv-plan-stabilisierung-starug` | StaRUG-Stabilisierungsmassnahmen und Vollstreckungssperre beantragen wenn Vollstreckungsdruck die Sanierung gefaehrdet. §§ 49 50 51 StaRUG Stabilisierungsanordnung. Prüfraster: Stabilisierungsbedarf Verhältnismäßigkeit… |
-| `iv-plan-stakeholder-kommunikation` | Gläubiger Banken Arbeitnehmer Lieferanten Gericht und Investoren zielgruppengerecht über Insolvenzplan oder StaRUG informieren. §§ 232 235 InsO Planeroerterung §§ 17 20 StaRUG Gläubigerinfo. Prüfraster:… |
-| `iv-plan-starug-plan-architektur` | StaRUG-Restrukturierungsplan vollständig strukturieren von Planbetroffenenauswahl bis Bestätigungspfad. §§ 6 7 8 StaRUG Planinhalt §§ 60 ff. StaRUG Abstimmung und Gerichtsverfahren. Prüfraster:… |
-| `iv-plan-steuern-bilanz-folgen` | Steuerliche und bilanzielle Folgen des Insolvenzplans oder StaRUG prüfen damit Planwirkungen nicht an Nebenwirkungen scheitern. §§ 3a 3c EStG Sanierungsgewinn § 8c KStG Verlustvortrag. Prüfraster: Erlass Stundung… |
-| `iv-plan-verfahrenswahl` | Passenden Sanierungsrahmen auswaehlen und Insolvenzplan Eigenverwaltung Schutzschirm StaRUG und außergerichtliche Einigung vergleichen. §§ 270 270a 270d InsO §§ 29 42 StaRUG. Prüfraster: Zahlungsunfähigkeit… |
-| `iv-plan-vergleichsrechnung` | Vergleichsrechnung als Herzstück des Insolvenzplans oder StaRUG-Plans erstellen: Planfall gegen Ohne-Plan-Szenario. §§ 220 229 InsO Vergleichsdarstellung § 6 Abs. 2 StaRUG. Prüfraster: Masse Kosten Sicherheiten… |
-| `iv-qualitaets-und-plausibilitaetsgate` | IV-Arbeitsergebnisse vor Versand oder Entscheidung auf Widersprueche Rechenfehler fehlende Belege und Rollenfehler prüfen. §§ 58 66 InsO Prüfungspflichten des Gerichts. Prüfraster: Rollencheck Zahlencheck Normencheck… |
-| `iv-regelverfahren-eroeffnung` | Regelinsolvenzverfahren nach Eroffnungsbeschluss umsetzen: Besitzuebergang Masse Tabelle Berichtstermin Verwertung. §§ 80 148 149 InsO §§ 151 ff. InsO Masseberechnung. Prüfraster: Verfuegungsbefugnis Bekanntmachungen… |
-| `iv-schutzschirm-270d` | Schutzschirmverfahren nach § 270d InsO begleiten von Antrag und Bescheinigung bis Planvorlageschluss. § 270d InsO Schutzschirm §§ 270 274 InsO Eigenverwaltung Sachwaltung. Prüfraster: Voraussetzungen Bescheinigung… |
-| `iv-sicherung-betriebsfortfuehrung` | Betrieb in Insolvenz fortführen wenn Massemehrung oder Sanierung geplant ist und Lohn Lieferanten und Auftraege gesichert werden müssen. §§ 22 55 InsO Massebegrundung §§ 113 120 InsO Arbeitsverhältnisse. Prüfraster:… |
-| `iv-steuern-sozialversicherung` | Steuerliche und sozialversicherungsrechtliche Verbindlichkeiten im Insolvenzverfahren klassifizieren und bearbeiten. §§ 38 55 InsO Rangklassen §§ 34 35 AO Haftung. Prüfraster: Insolvenzforderung Masseverbindlichkeit… |
-| `iv-tabelle-pruefungstermin` | Insolvenztabelle konsolidieren und Prüfungstermin nach §§ 175 ff. InsO vorbereiten. §§ 175 176 177 InsO Tabellenführung und Widersprueche. Prüfraster: Tabellenbereinigung Doubletten Rang Zinsen Widersprueche nach Grund… |
-| `iv-verteilung-schlussrechnung` | Abschlussphase des Insolvenzverfahrens durchführen: Schlussrechnung Schlussbericht Verteilungsverzeichnis Quote Nachtragsverteilung. §§ 196 197 InsO Schlussverteilung §§ 66 67 InsO Schlussrechnung. Prüfraster:… |
-| `iv-vorläufige-verwaltung` | Erste Maßnahmen als vorlaeufliger Insolvenzverwalter nach § 21 InsO umsetzen: Bankkonten Besitz Post Drittschuldner Betrieb. § 21 InsO Sicherungsmassnahmen § 22 InsO Pflichten des vorl. Verwalters. Prüfraster:… |
-| `iv-zahlungsklagen-15b` | Zahlungsklagen nach § 15b InsO gegen Geschäftsleiter vorbereiten wenn Zahlungen nach Insolvenzreife erfolgt sind. § 15b InsO §§ 17 19 InsO Insolvenzreife. Prüfraster: Insolvenzreifedatum Zahlungen nach Stichtag… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzverwaltung/skills/kaltstart-triage/references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -256,7 +330,7 @@ Besonderer Schwerpunkt liegt auf dem mehrstufigen Insolvenzplan: Das Plugin enth
 - **Schutzschirm** — Besondere Form der Eigenverwaltung bei drohender Zahlungsunfaehigkeit (§ 270d InsO).
 - **Masseunzulaenglichkeit** — Situation, in der Masseverbindlichkeiten die Masse uebersteigen; Anzeige nach § 208 InsO.
 - **StaRUG** — Unternehmensstabilisierungs- und -restrukturierungsgesetz; vorinsolvenzliches Sanierungsverfahren.
-- **Cramdown** — Gruppenuebergreifende Mehrheitsentscheidung nach § 245 InsO / § 27 StaRUG; Plan kann über ablehnende Klassen hinweggesetzt werden.
+- **Cramdown** — Gruppenübergreifende Mehrheitsentscheidung nach Paragraf 245 InsO beziehungsweise Paragraf 26 StaRUG; die Voraussetzungen beider Regelungsmodelle dürfen nicht vermischt werden.
 - **Vergleichsrechnung** — Gegenueberstellen von Plan-Fall und Liquidationsszenario zur Demonstration des Planmehrwerts.
 - **PSV** — Pensionssicherungsverein; sichert Pensionsansprueche der Arbeitnehmer bei Insolvenz des Arbeitgebers.
 - **§ 15b InsO** — Zahlungsverbote nach Insolvenzreife; Haftung des Geschäftsleiters für nicht privilegierte Zahlungen.
@@ -360,7 +434,7 @@ Besonderer Schwerpunkt liegt auf dem mehrstufigen Insolvenzplan: Das Plugin enth
 
 ## Skill: `insolvenzverwaltungs-erstpruefung-und-mandatsziel`
 
-_Wenn es um Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel in Insolvenzverwaltung - IV-Cockpit geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix._
 
 # Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel
 
@@ -377,8 +451,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
@@ -389,8 +461,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Insolvenzverwaltungs: Erstprüfung, Rollenklärung und Mandatsziel` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -438,15 +508,66 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `anfechtung-iv-arbeitsrecht`
+## Skill: `workflow-kaltstart-und-routing`
 
-_Wenn es um Insolvenzanfechtung Paragrafen 129 ff. InsO in Insolvenzverwaltung - IV-Cockpit geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenzverwaltung - IV-Cockpit._
 
-# Insolvenzanfechtung §§ 129 ff. InsO
+# Kaltstart und Routing
 
-## Arbeitsbereich
+## Aufgabe
+Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
 
-Insolvenzanfechtungsansprüche nach §§ 129-147 InsO aus Verwaltersicht prüfen und verfolgen. Enthält KI-gestütztes Schuldnerakten-Screening, Kandidatenmatrix, §§ 130/131/133/134/135, Bargeschäft § 142, Rechtsfolgen §§ 143-147, Verjährung § 146 und Grenzen bei § 133-Wertungen sowie Dreiecksverhältnissen. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+## Kaltstart
+Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
+
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
+
+## Arbeitsworkflow
+1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
+2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
+3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
+4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
+
+## Output-Standard
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
+
+## Quellenregel
+- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
+
+## Insolvenzverwaltungs-Routing
+- **Verfahrensphase?**
+  - Vorläufige Verwaltung § 21 InsO (schwach mit Zustimmungsvorbehalt § 21 Abs. 2 Nr. 2 Alt. 2 InsO oder stark mit Verwaltungs- und Verfügungsbefugnis § 22 InsO).
+  - Eröffnetes Verfahren § 80 InsO: Verwaltungs- und Verfügungsbefugnis geht auf Verwalter über.
+  - Schlussverteilung § 196 InsO oder Aufhebung § 200 InsO.
+- **Eilige Eröffnungsentscheidungen (in den ersten 14 Tagen):**
+  - § 158 InsO Stilllegung Betrieb oder Fortführung — Berichtstermin § 156 InsO entscheidend.
+  - § 22 Abs. 1 Nr. 2 InsO Sicherungsmaßnahmen (insb. Inbesitznahme, Buchhaltung, IT-Systeme).
+  - Insolvenzgeld-Vorfinanzierung § 170 SGB III — Antrag bei BA, Vorfinanzierungsbank.
+  - § 109 InsO Mietverhältnisse mit 3-Monats-Sonderkündigungsrecht für Verwalter.
+  - § 113 InsO Arbeitsverhältnisse mit 3-Monats-Kündigungsfrist.
+- **Mandantenrolle?** Insolvenzverwalter selbst, vorl. Sachwalter (Eigenverwaltung § 270 InsO), externer Berater des Verwalters, Gläubigerausschuss-Mitglied, Geschäftsführer/Vorstand (Auskunfts- und Mitwirkungspflicht § 97 InsO).
+
+## Kompetenzgrenzen Verwalter
+- § 160 InsO besonders bedeutsame Rechtshandlungen: Zustimmung Gläubigerausschuss/-versammlung (Betriebsstilllegung, Veräußerung im Ganzen, Aufnahme von Massedarlehen, langfristige Verträge).
+- § 164 InsO Verfügungen über bestimmte Gegenstände.
+- § 161 InsO besonders bedeutsame Rechtshandlungen Eigenverwaltung — Mitwirkung Sachwalter.
+
+---
+
+## Skill: `masseunzulaenglichkeit-208`
+
+_Für Anzeige der Masseunzulänglichkeit Paragraf 208 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Anzeige der Masseunzulänglichkeit § 208 InsO
 
 ## Arbeitsweg
 
@@ -457,147 +578,79 @@ Insolvenzanfechtungsansprüche nach §§ 129-147 InsO aus Verwaltersicht prüfen
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Insolvenzanfechtung §§ 129 ff. InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Anzeige der Masseunzulänglichkeit § 208 InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Startet bei
 
-- Zahlungen, Sicherheiten oder Verrechnungen vor Insolvenzantrag auffällig sind.
-- Kontoauszüge, OPOS, E-Mails und Schuldnerakten auf Anfechtungskandidaten durchsucht werden sollen.
-- Anfechtungsschreiben, Klage, Vergleich oder Gläubigerausschuss-Vorlage vorbereitet wird.
+- Masseverbindlichkeiten nicht oder bald nicht fällig erfüllbar sind
+- Kosten des Verfahrens gedeckt sind, aber sonstige Masseverbindlichkeiten kritisch sind
+- Zahlungen priorisiert oder gestoppt werden müssen
 
 ## Eingaben
 
-- Antragsdatum, Eröffnungsbeschluss und Verwalterbestellung.
-- Kontoauszüge, Zahlungsjournal, OPOS, Kreditoren-/Debitorenkonten.
-- Verträge, Sicherheiten, Ratenzahlungsvereinbarungen, Mahnungen, Vollstreckungen.
-- Unterlagen zu Zahlungsunfähigkeit, Sanierung, Liquiditätsstatus und Gesellschafterfinanzierung.
+- Massebestand, Kosten, Masseverbindlichkeiten
+- Fälligkeitsliste, Fortführungsplan, Prognose
+- Gerichtskommunikation und Gläubigerliste
 
 ## Workflow
 
-### 1. KI-Screening nur beleggebunden
-
-Erstelle eine Kandidatenliste aus der Akte. Jede Tatsache braucht eine Quelle.
-
-| ID | Datum | Empfänger | Betrag | Vorgang | Quelle | Erstnorm |
-|---|---:|---|---:|---|---|---|
-| IA-001 | [...] | [...] | [...] EUR | Zahlung | Kontoauszug [...] | § 130 InsO |
-
-KI darf Kandidaten markieren und Belege sortieren. KI darf insbesondere bei § 133 InsO keinen Benachteiligungsvorsatz als bewiesen behaupten, sondern nur Indizien und Gegenindizien ausgeben.
-
-### 2. Tatbestandsrouting
-
-| Sachverhalt | Norm |
-|---|---|
-| geschuldete Sicherung oder Befriedigung | § 130 InsO |
-| nicht geschuldete, nicht so geschuldete oder vorzeitige Deckung | § 131 InsO |
-| unmittelbar nachteilige Nicht-Deckungshandlung | § 132 InsO |
-| Benachteiligungsvorsatz und Kenntnis | § 133 InsO |
-| objektiv unentgeltliche Leistung | § 134 InsO |
-| Gesellschafterdarlehen oder gleichgestellte Forderung | § 135 InsO |
-| gleichwertiger unmittelbarer Austausch | § 142 InsO als Verteidigung |
-| Rückgewähr, Gegenleistung, Rechtsnachfolger, Verjährung | §§ 143-147 InsO |
-
-### 3. § 133 Human Review
-
-Bei § 133 InsO zwingend getrennt ausgeben:
-
-- belegte Zahlungsunfähigkeit oder drohende Zahlungsunfähigkeit.
-- Kenntnis des Empfängers.
-- Sanierungs- oder Vollbefriedigungsperspektive.
-- Zahlungsvereinbarung und § 133 Abs. 3 S. 2 InsO.
-- Bargeschäft und erkannte Unlauterkeit nach § 142 InsO.
-
-**Pflicht-Zitate (Stand Mai 2026):**
-
-- **BGH IX ZR 72/20 vom 06.05.2021** — Grundsatzentscheidung Neuausrichtung Vorsatzanfechtung; aus bloßer Zahlungsunfähigkeit allein kein Schluss auf Vorsatz iSd § 133 Abs. 1 InsO.
-- **BGH IX ZR 129/22 vom 18.04.2024** — Bestätigung: Verwalter muss konkret darlegen, dass der Schuldner wusste oder billigend in Kauf nahm, andere Gläubiger zu späterer Zeit nicht vollständig zu befriedigen. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
-- **BGH IX ZR 122/23 vom 05.12.2024** — Konkretisierung Unlauterkeit § 142 Abs. 1 Hs. 2 InsO: erfordert gezielt schädigendes Verhalten oder gezielte Bevorzugung; bloße Verlustsituation genügt nicht. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
-
-### 4. Dreiecksverhältnisse markieren
-
-Human Review ist zwingend bei:
-
-- Drittzahlungen, Cash-Pooling, Zentralregulierung.
-- Factoring, Globalzession, Kontokorrent, Aufrechnung.
-- Drittdarlehen mit Gesellschaftersicherheit.
-- Treuhand, Anderkonto, Sicherheitenpool.
-
-Die Ausgabe muss dann Beteiligte, Forderungswege, Vermögensabfluss und offene Rechtsfragen getrennt darstellen.
-
-### 5. Anspruch und Wirtschaftlichkeit
-
-Rechne nicht nur den Nominalbetrag. Prüfe:
-
-- Rückgewährbetrag nach § 143 InsO.
-- Zinsen nur bei Verzug oder nach § 291 BGB.
-- Gegenleistung und Wiederaufleben nach § 144 InsO.
-- Verjährung nach § 146 InsO in Verbindung mit BGB.
-- Prozesskosten, Beweisrisiko und Vergleichskorridor.
-- Wirtschaftlichkeitsschwelle: nach BGH IX ZR 129/22 (18.04.2024) sind die Erfolgsaussichten bei kongruenten Deckungen geringer; Vergleichsquote 30 – 60 % typisch.
+1. **Status rechnen** - Kosten des Verfahrens, fällige und künftige Masseverbindlichkeiten trennen.
+2. **Anzeige prüfen** - Ist- oder Prognoseunzulänglichkeit bestimmen und Begründung vorbereiten.
+3. **Rangfolge steuern** - Zahlungen stoppen, Alt-/Neumasseverbindlichkeiten und Kommunikation ordnen.
+4. **Fortverwaltung** - Verwertung und Berichte nach Anzeige fortführen.
 
 ## Ausgabe
 
-- Anfechtungsmatrix.
-- Beleg- und Lückenliste.
-- Anspruchsberechnung.
-- Entwurf Anfechtungsschreiben oder Klagegerüst.
-- Human-Review-Liste für § 133 und komplexe Strukturen.
+- § 208-Prüfvermerk
+- Anzeigeentwurf an das Gericht
+- Zahlungs- und Kommunikationsplan
 
 ## Qualitätsgates
 
-- kein Tatbestand ohne Rechtshandlungsdatum.
-- keine § 130-Prüfung ohne Kenntnisblock.
-- keine § 133-Bewertung ohne Indizien- und Gegenindizienmatrix.
-- kein Bargeschäft ohne Gegenleistung und Unmittelbarkeit.
-- keine Zinsen ohne Verzug oder Rechtshängigkeit.
-- keine finale KI-Bewertung bei Dreiecksverhältnis.
+- Kosten des Verfahrens gesondert geprüft
+- Fälligkeiten belegt
+- Rangfolge nach Anzeige dokumentiert
+
+## Rote Schwellen
+
+- Zahlung einzelner Massegläubiger kurz vor Anzeige
+- Fortführung ohne Deckung
+- fehlende öffentliche Bekanntmachung im Blick
 
 ## Interne Vorlagen
 
-- `assets/templates/anfechtungsmatrix-129ff.md`
-- `assets/templates/anfechtungsschreiben.md`
+- assets/templates/masseunzulaenglichkeit-208.md
+- assets/templates/massenachverfolgung.csv
+
+## Amtliche Erstquellen
+
+- § 208 InsO
+- §§ 209 ff. InsO
+
+## Paragrafenkette Insolvenzverwaltung
+
+§ 56 InsO (Bestellung IV) → § 60 InsO (Haftung) → § 61 InsO (persönliche Haftung Masseglaeubigeransprueche) → § 66 InsO (Rechnungslegung) → § 69 InsO (Ausschuss-Informationspflicht) → § 160 InsO (Zustimmung bei bedeutenden Maßnahmen) → § 208 InsO (Masseunzulaenglichkeit) → §§ 187-216 InsO (Verteilung)
+
+## Triage — Verfahrensstand
+
+Bevor losgelegt wird, klaere:
+1. **Verfahrensstatus?** Vorlaeufige Verwaltung (§ 22 InsO) oder Eroeffnung (§ 27 InsO)?
+2. **Massedeckung?** § 54/55 InsO: Verfahrenskosten gedeckt? Masseunzulaenglichkeit § 208 droht?
+3. **Zustimmungserfordernis § 160 InsO?** Handlung besonders bedeutsam → Gläubigerausschuss oder -versammlung einbeziehen.
+4. **Dokumentation vollstaendig?** Schlussrechnung § 66 InsO vorbereitet?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
-Hinweis: Keine Rechtsberatung. Die KI kann Anfechtungsrisiken aus Akten sichtbar machen; die rechtliche Endentscheidung bleibt Fachprüfung.
+## Skill: `verteilung-iv-vorlaeufige`
 
-## Normen und Rechtsprechung
+_Für Schlussbericht, Schlussrechnung und Verteilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
-### Kuratierte Normen-Bibliothek
-
-- § 6 StaRUG
-- § 27 StaRUG
-- § 2 StaRUG
-- § 64 StaRUG
-- § 8c KStG
-- § 14 StaRUG
-- § 7 StaRUG
-- § 26 StaRUG
-- § 34 StaRUG
-- § 266a StGB
-- § 15 GmbHG
-- § 40 GmbHG
-
-### Leitentscheidungen
-
-- BGH IX ZR 129/22
-- BGH IX ZR 122/23
-- BGH IX ZR 127/24
-- BGH IX ZR 114/23
-- BGH II ZR 206/22
-
----
-
-## Skill: `cross-iv-eigenverwaltung`
-
-_Wenn es um IV Cross-Border Assets — Trustee, DIP, Registervollzug in Insolvenzverwaltung - IV-Cockpit geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck._
-
-# IV Cross-Border Assets — Trustee, DIP, Registervollzug
+# Schlussbericht, Schlussrechnung und Verteilung
 
 ## Arbeitsweg
 
@@ -608,83 +661,77 @@ _Wenn es um IV Cross-Border Assets — Trustee, DIP, Registervollzug in Insolven
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV Cross-Border Assets — Trustee, DIP, Registervollzug` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Schlussbericht, Schlussrechnung und Verteilung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
-## Typische Startfälle
+## Startet bei
 
-- US Chapter 11 debtor in possession will GmbH-Anteile an einer deutschen Tochter übertragen.
-- US trustee verkauft ein deutsches Grundstück der US-Schuldnerin.
-- Kanadischer trustee/receiver/monitor will Bankkonten, Forderungen oder IP-Rechte in Deutschland verwerten.
-- Deutsche Insolvenzverwaltung muss prüfen, ob eine ausländische Verfahrensperson wirklich über ein deutsches Asset verfügen darf.
-- Käufer, Notar oder Grundbuchamt blockiert, weil die Rechtsmacht nicht grundbuch- oder registertauglich nachgewiesen ist.
+- Verwertung abgeschlossen oder weitgehend abgeschlossen ist
+- Schlussverteilung vorbereitet wird
+- Gericht Schlussbericht oder Schlussrechnung erwartet
 
-## Entscheidungsbaum
+## Eingaben
 
-### 1. Asset und Schuldner trennen
+- Massekonto, Buchhaltung, Verwertungserlöse
+- Tabelle, Rangklassen, Kosten, Vergütung
+- offene Prozesse und Nachtragsrisiken
 
-- **Asset des ausländischen Schuldners:** ausländisches Insolvenzstatut kann Verfügungsbefugnis verschieben; deutscher Vollzug bleibt nach deutschem Form-/Registerrecht.
-- **Asset der deutschen Tochter:** Nicht automatisch Masse der ausländischen Mutter. Der office holder kontrolliert allenfalls die Gesellschafterrechte der Mutter, nicht unmittelbar das Vermögen der Tochter.
-- **GmbH-Anteile:** Asset des Gesellschafters; § 15 GmbHG, § 40 GmbHG, notarielle Liste.
-- **Grundstück:** lex rei sitae Deutschland; §§ 873, 925, 311b BGB, § 29 GBO.
+## Workflow
 
-### 2. Rechtsmacht prüfen
+1. **Abschlussreife** - offene Masse, Prozesse, Steuern und Verwertung prüfen.
+2. **Rechnung** - Einnahmen, Ausgaben, Kosten, Vergütung und Belege konsolidieren.
+3. **Verteilung** - Rang, Quote, Abschläge und Verteilungsverzeichnis erstellen.
+4. **Bericht** - Schlussbericht, Anlagenliste und Nachtragsverteilungsnotiz ausgeben.
 
-- EU-Verfahren: EuInsVO prüfen, insbesondere automatische Anerkennung und Befugnisse des Verwalters, aber immer mit deutschem Vollzugsrecht koppeln.
-- Drittstaaten: §§ 335 ff., 343 InsO. Kein deutsches Chapter-15-Vorschaltverfahren. Anerkennung und konkrete Befugnis werden praktisch inzident geprüft.
-- Ausländisches Recht: office holder status, Umfang der Befugnis, stay, plan, court approval, creditor committee consent, ordinary-course-Grenze.
+## Ausgabe
 
-### 3. Nachweisfähigkeit bauen
+- Schlussbericht
+- Schlussrechnung
+- Verteilungsverzeichnis
 
-Für die IV-Akte wird eine Nachweismappe angelegt:
+## Qualitätsgates
 
-| Register | Mindestnachweise |
-| --- | --- |
-| Notar | Eröffnungs-/Bestellungsurkunde, Identität, Befugnis, Übersetzung, Apostille/Legalisation, AML |
-| Handelsregister/Gesellschafterliste | notarielle Abtretung, neue Liste, Einreichungsbefugnis, fremdrechtliche Vertretungsmacht |
-| Grundbuch | § 29 GBO, Auflassung/Bewilligung, öffentliche Urkunden, § 346 InsO bei Verfügungsbeschränkung |
-| Bank/Drittschuldner | Legitimation, Vollmacht, Kontosperren, Sanktionen/AML, Zahlungsinstruktion |
-| Prozessgericht | Prozessstandschaft/Parteiwechsel, Vollmacht, Aktivlegitimation |
+- Massekonto stimmt mit Buchhaltung
+- Tabelle final geprüft
+- Nachtragspositionen markiert
 
-## Masse- und Haftungsfragen
+## Rote Schwellen
 
-- **Masseinteresse:** Ist die deutsche Verwertung für die Masse wirtschaftlich sinnvoll, oder verursacht sie nur Vollzugskosten?
-- **Drittrechte:** Pfandrechte, Vorkaufsrechte, Absonderungsrechte, Share Pledges, negative pledge, drag/tag, consent matters.
-- **Anfechtung:** Ausländische avoidance actions und deutsche Insolvenzanfechtung nicht unbesehen vermischen; Kollisionsrecht und Gerichtsstand prüfen.
-- **Haftung:** Wer falsch über deutsche Assets verfügt, riskiert Registerblockade, Käuferhaftung, Notarhaftungsdiskussion, Organpflichtverletzungen und spätere Insolvenzanfechtung.
+- offener Prozess mit Quotenwirkung
+- nicht gebuchte Kosten
+- Rangfehler
 
-## Arbeitsprodukt
+## Interne Vorlagen
 
-Liefere:
+- assets/templates/schlussbericht-schlussrechnung.md
+- assets/templates/verteilungsverzeichnis.md
 
-1. **Cross-Border-Asset-Matrix:** Asset, Eigentümer, Verfahren, office holder, deutsches Vollzugsrecht, Risiko.
-2. **Urkundenfahrplan:** Was liegt vor, was fehlt, welche Form braucht die deutsche Stelle?
-3. **Vollzugsroute:** Notartermin, Register-/Grundbuchantrag, Insolvenzgericht nach §§ 344 bis 346 InsO, Bankfreigabe oder Deal-Stopp.
-4. **Kommunikationspaket:** Fragenkatalog an ausländische counsel und Notarbrief.
-5. **Massevermerk:** Nutzen, Kosten, Dauer, Risiken, Alternativverwertung.
+## Amtliche Erstquellen
 
-## Stoppschilder
+- §§ 187 ff. InsO
+- §§ 196 ff. InsO
 
-- Ausländischer office holder behauptet nur „control over group“, ohne Anteilseigentum und Befugnisnachweis.
-- Deutsche Tochter soll Assets verkaufen, obwohl nur die Mutter insolvent ist.
-- GmbH-Anteilskauf ohne notarielle Abtretung.
-- Grundbuchvollzug ohne §-29-GBO-taugliche Urkunden.
-- US Chapter 11 non-ordinary-course sale ohne erkennbare court approval.
-- Kanadische Rolle unklar: trustee, receiver und monitor haben nicht automatisch dieselben Befugnisse.
+## Paragrafenkette Insolvenzverwaltung
 
-## Quellenregel
+§ 56 InsO (Bestellung IV) → § 60 InsO (Haftung) → § 61 InsO (persönliche Haftung Masseglaeubigeransprueche) → § 66 InsO (Rechnungslegung) → § 69 InsO (Ausschuss-Informationspflicht) → § 160 InsO (Zustimmung bei bedeutenden Maßnahmen) → § 208 InsO (Masseunzulaenglichkeit) → §§ 187-216 InsO (Verteilung)
 
-Tragende Normen live prüfen: InsO §§ 335 ff., 343, 346 bis 348, EuInsVO, GBO § 29, GmbHG §§ 15, 40, BGB §§ 873, 925, 311b. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
+## Triage — Verfahrensstand
+
+Bevor losgelegt wird, klaere:
+1. **Verfahrensstatus?** Vorlaeufige Verwaltung (§ 22 InsO) oder Eroeffnung (§ 27 InsO)?
+2. **Massedeckung?** § 54/55 InsO: Verfahrenskosten gedeckt? Masseunzulaenglichkeit § 208 droht?
+3. **Zustimmungserfordernis § 160 InsO?** Handlung besonders bedeutsam → Gläubigerausschuss oder -versammlung einbeziehen.
+4. **Dokumentation vollstaendig?** Schlussrechnung § 66 InsO vorbereitet?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `plan-integrierte-kommandocenter`
 
-_Wenn es um Integrierte Planrechnung für Plan und Sanierungskonzept in Insolvenzverwaltung - IV-Cockpit geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
+_Für Integrierte Planrechnung für Plan und Sanierungskonzept: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # Integrierte Planrechnung für Plan und Sanierungskonzept
 
@@ -698,8 +745,6 @@ _Wenn es um Integrierte Planrechnung für Plan und Sanierungskonzept in Insolven
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Integrierte Planrechnung für Plan und Sanierungskonzept` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -798,9 +843,263 @@ Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum e
 
 Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
 
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
+## Paragrafenkette (IV-Insolvenzplan)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+§ 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
+
+## Triage — IV-Plan
+
+Bevor losgelegt wird, klaere:
+1. **Plan sinnvoller als Liquidation?** Vergleichsrechnung: Plan-Quote vs. Liquidationsquote.
+2. **Gruppenbildung konsistent?** § 222 InsO: gesicherte, nicht gesicherte, Kleinglaeubieger, Arbeitnehmer.
+3. **Mehrheiten realistisch?** Simulation Kopf- + Summenmehrheit je Gruppe.
+4. **Cramdown-Szenario?** § 245 InsO: ablehnende Gruppe ueberstimmbar wenn Best-Interest-Test bestanden.
+
+## IV-Einordnung
+
+Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `berichte-iv-masseunzulaenglichkeit`
+
+_Für Berichte an Gericht und Gläubigerorgane: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Berichte an Gericht und Gläubigerorgane
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Berichte an Gericht und Gläubigerorgane` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Startet bei
+
+- Zwischenbericht, Sachstandsbericht oder Ausschussbericht fällig ist
+- wichtige Verwertungs- oder Fortführungsentscheidungen anstehen
+- Gläubigerkommunikation konsistent werden muss
+
+## Eingaben
+
+- Verfahrensstatus, Masse, Tabelle, Verwertung
+- Prozess- und Anfechtungsstand, Fortführung, Kosten
+- gerichtliche Verfügung oder Ausschussagenda
+
+## Workflow
+
+1. **Berichtsstand** - Stichtag, Zeitraum und Adressat festlegen.
+2. **Faktenblock** - Masse, Tabelle, Verwertung, Prozesse, Personal, Steuern und Risiken aktualisieren.
+3. **Entscheidungen** - Beschlussbedarf, Optionen und Empfehlung formulieren.
+4. **Belege** - Anlagen, Tabellen und Nachweise referenzieren.
+
+## Ausgabe
+
+- Zwischenbericht
+- Ausschussbericht
+- Beschlussvorlage mit Anlagenliste
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Qualitätsgates
+
+- keine Bewertung ohne Zahlenstand
+- Adressatengerechte Tiefe
+- offene Punkte klar markiert
+
+## Rote Schwellen
+
+- Masseunzulänglichkeit verschwiegen
+- Quote ohne Basis
+- Interessenkonflikt bei Verwertung
+
+## Interne Vorlagen
+
+- assets/templates/zwischenbericht.md
+- assets/templates/glaeubigerausschuss-bericht.md
+
+## Amtliche Erstquellen
+
+- InsO Berichtspflichten nach Verfahrenslage
+- § 156 InsO als Berichtstermin-Schnittstelle
+
+## Paragrafenkette Insolvenzverwaltung
+
+§ 56 InsO (Bestellung IV) → § 60 InsO (Haftung) → § 61 InsO (persönliche Haftung Masseglaeubigeransprueche) → § 66 InsO (Rechnungslegung) → § 69 InsO (Ausschuss-Informationspflicht) → § 160 InsO (Zustimmung bei bedeutenden Maßnahmen) → § 208 InsO (Masseunzulaenglichkeit) → §§ 187-216 InsO (Verteilung)
+
+## Triage — Verfahrensstand
+
+Bevor losgelegt wird, klaere:
+1. **Verfahrensstatus?** Vorlaeufige Verwaltung (§ 22 InsO) oder Eroeffnung (§ 27 InsO)?
+2. **Massedeckung?** § 54/55 InsO: Verfahrenskosten gedeckt? Masseunzulaenglichkeit § 208 droht?
+3. **Zustimmungserfordernis § 160 InsO?** Handlung besonders bedeutsam → Gläubigerausschuss oder -versammlung einbeziehen.
+4. **Dokumentation vollstaendig?** Schlussrechnung § 66 InsO vorbereitet?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `cross-iv-eigenverwaltung`
+
+_Für IV Cross-Border Assets — Trustee, DIP, Registervollzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# IV Cross-Border Assets — Trustee, DIP, Registervollzug
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV Cross-Border Assets — Trustee, DIP, Registervollzug` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Typische Startfälle
+
+- US Chapter 11 debtor in possession will GmbH-Anteile an einer deutschen Tochter übertragen.
+- US trustee verkauft ein deutsches Grundstück der US-Schuldnerin.
+- Kanadischer trustee/receiver/monitor will Bankkonten, Forderungen oder IP-Rechte in Deutschland verwerten.
+- Deutsche Insolvenzverwaltung muss prüfen, ob eine ausländische Verfahrensperson wirklich über ein deutsches Asset verfügen darf.
+- Käufer, Notar oder Grundbuchamt blockiert, weil die Rechtsmacht nicht grundbuch- oder registertauglich nachgewiesen ist.
+
+## Entscheidungsbaum
+
+### 1. Asset und Schuldner trennen
+
+- **Asset des ausländischen Schuldners:** ausländisches Insolvenzstatut kann Verfügungsbefugnis verschieben; deutscher Vollzug bleibt nach deutschem Form-/Registerrecht.
+- **Asset der deutschen Tochter:** Nicht automatisch Masse der ausländischen Mutter. Der office holder kontrolliert allenfalls die Gesellschafterrechte der Mutter, nicht unmittelbar das Vermögen der Tochter.
+- **GmbH-Anteile:** Asset des Gesellschafters; § 15 GmbHG, § 40 GmbHG, notarielle Liste.
+- **Grundstück:** lex rei sitae Deutschland; §§ 873, 925, 311b BGB, § 29 GBO.
+
+### 2. Rechtsmacht prüfen
+
+- EU-Verfahren: EuInsVO prüfen, insbesondere automatische Anerkennung und Befugnisse des Verwalters, aber immer mit deutschem Vollzugsrecht koppeln.
+- Drittstaaten: §§ 335 ff., 343 InsO. Kein deutsches Chapter-15-Vorschaltverfahren. Anerkennung und konkrete Befugnis werden praktisch inzident geprüft.
+- Ausländisches Recht: office holder status, Umfang der Befugnis, stay, plan, court approval, creditor committee consent, ordinary-course-Grenze.
+
+### 3. Nachweisfähigkeit bauen
+
+Für die IV-Akte wird eine Nachweismappe angelegt:
+
+| Register | Mindestnachweise |
+| --- | --- |
+| Notar | Eröffnungs-/Bestellungsurkunde, Identität, Befugnis, Übersetzung, Apostille/Legalisation, AML |
+| Handelsregister/Gesellschafterliste | notarielle Abtretung, neue Liste, Einreichungsbefugnis, fremdrechtliche Vertretungsmacht |
+| Grundbuch | § 29 GBO, Auflassung/Bewilligung, öffentliche Urkunden, § 346 InsO bei Verfügungsbeschränkung |
+| Bank/Drittschuldner | Legitimation, Vollmacht, Kontosperren, Sanktionen/AML, Zahlungsinstruktion |
+| Prozessgericht | Prozessstandschaft/Parteiwechsel, Vollmacht, Aktivlegitimation |
+
+## Masse- und Haftungsfragen
+
+- **Masseinteresse:** Ist die deutsche Verwertung für die Masse wirtschaftlich sinnvoll, oder verursacht sie nur Vollzugskosten?
+- **Drittrechte:** Pfandrechte, Vorkaufsrechte, Absonderungsrechte, Share Pledges, negative pledge, drag/tag, consent matters.
+- **Anfechtung:** Ausländische avoidance actions und deutsche Insolvenzanfechtung nicht unbesehen vermischen; Kollisionsrecht und Gerichtsstand prüfen.
+- **Haftung:** Wer falsch über deutsche Assets verfügt, riskiert Registerblockade, Käuferhaftung, Notarhaftungsdiskussion, Organpflichtverletzungen und spätere Insolvenzanfechtung.
+
+## Arbeitsprodukt
+
+Liefere:
+
+1. **Cross-Border-Asset-Matrix:** Asset, Eigentümer, Verfahren, office holder, deutsches Vollzugsrecht, Risiko.
+2. **Urkundenfahrplan:** Was liegt vor, was fehlt, welche Form braucht die deutsche Stelle?
+3. **Vollzugsroute:** Notartermin, Register-/Grundbuchantrag, Insolvenzgericht nach §§ 344 bis 346 InsO, Bankfreigabe oder Deal-Stopp.
+4. **Kommunikationspaket:** Fragenkatalog an ausländische counsel und Notarbrief.
+5. **Massevermerk:** Nutzen, Kosten, Dauer, Risiken, Alternativverwertung.
+
+## Stoppschilder
+
+- Ausländischer office holder behauptet nur „control over group“, ohne Anteilseigentum und Befugnisnachweis.
+- Deutsche Tochter soll Assets verkaufen, obwohl nur die Mutter insolvent ist.
+- GmbH-Anteilskauf ohne notarielle Abtretung.
+- Grundbuchvollzug ohne §-29-GBO-taugliche Urkunden.
+- US Chapter 11 non-ordinary-course sale ohne erkennbare court approval.
+- Kanadische Rolle unklar: trustee, receiver und monitor haben nicht automatisch dieselben Befugnisse.
+
+## Quellenregel
+
+Tragende Normen live prüfen: InsO §§ 335 ff., 343, 346 bis 348, EuInsVO, GBO § 29, GmbHG §§ 15, 40, BGB §§ 873, 925, 311b. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.
+
+---
+
+## Skill: `plan-iv-steuern`
+
+_Für IV-integrierte Steuern und Bilanzfolgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# IV-integrierte Steuern und Bilanzfolgen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV-integrierte Steuern und Bilanzfolgen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Startet bei
+
+- neuem Planmandat oder Sanierungsprojekt
+- unvollständiger Datenlage
+- Vorbereitung von Insolvenzplan, Eigenverwaltung, Schutzschirm oder StaRUG
+- Prüfung eines vorhandenen Planentwurfs
+
+## Geführter Workflow
+
+1. Erlass, Stundung, Debt-Equity-Swap, Sicherheitenverwertung und Veräußerungen steuerlich markieren.
+2. Bilanzielle Behandlung, Rückstellungen, Sanierungsbeiträge, Verlustvorträge und Zahlungszeitpunkte erfassen.
+3. Finanzamt, Sozialversicherung und Lohnsteuer als Stakeholder und Risiko trennen.
+4. Steuerberater- und Wirtschaftsprüferfragen gezielt vorbereiten.
+
+## Ausgabe
+
+- Steuerrisikomatrix
+- Bilanzfolgenliste
+- Beraterfragen
+- Planannahmen für Steuern
+
+## Qualitätsgates
+
+- Keine Rechtswirkung ohne genaue Betroffenengruppe, Betrag, Zeitpunkt und Beleg.
+- Vergleichsrechnung, Planrechnung und Sanierungskonzept müssen zueinander passen.
+- Annahmen, Schätzungen und fehlende Quellen werden sichtbar markiert.
+- Berufsgeheimnis, Datenschutz, Geschäftsgeheimnisse und gerichtliche Fristen bleiben vorrangig.
+
+## Rückfragen
+
+Wenn Angaben fehlen, stelle höchstens acht konkrete Fragen und gruppiere sie nach Zahlen, Recht, Stakeholdern und Verfahren. Bei Eilfällen liefere zuerst eine Minimalroute mit Stoppern.
+
+## Arbeitsstil
+
+Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum eine Information wichtig ist, und macht aus unsortiertem Material einen belastbaren nächsten Arbeitsschritt.
+
+## IV-Einordnung
+
+Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
 
 ## Paragrafenkette (IV-Insolvenzplan)
 
@@ -818,11 +1117,100 @@ Bevor losgelegt wird, klaere:
 
 Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `steuern-sozialversicherung`
+
+_Für Steuern, Sozialversicherung und Abgaben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
+
+# Steuern, Sozialversicherung und Abgaben
+
+## Arbeitsbereich
+
+Steuerliche und sozialversicherungsrechtliche Verbindlichkeiten im Insolvenzverfahren klassifizieren und bearbeiten. §§ 38 55 InsO Rangklassen §§ 34 35 AO Haftung. Prüfraster: Insolvenzforderung Masseverbindlichkeit Haftungsrisiken Erklärungspflichten § 15b InsO Steuerprivileg. Output: Klassifizierungstabelle Erklärungsplan Haftungsnotiz. Abgrenzung: nicht für steuerliche Planfolgen (iv-plan-steuern-bilanz-folgen). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Steuern, Sozialversicherung und Abgaben` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Startet bei
+
+- Finanzamt, Krankenkassen oder Zoll Forderungen anmelden
+- laufende Steuererklärungen, Lohnsteuer oder Umsatzsteuer anstehen
+- § 15b-Ausnahmen bei Steuerzahlungen zu prüfen sind
+
+## Eingaben
+
+- Steuerkonten, SV-Rückstände, Lohn- und USt-Daten
+- Bescheide, Prüfungsanordnungen, Zahlungsjournale
+- Fortführungs- und Masseplan
+
+## Workflow
+
+1. **Klassifizieren** - Insolvenzforderung, Masseverbindlichkeit, Neumasse und Haftung trennen.
+2. **Erklärungen** - laufende Abgaben und Erklärungspflichten erfassen.
+3. **Zahlungen** - Steuer- und SV-Zahlungen im Lichte von Masse und § 15b prüfen.
+4. **Kommunikation** - Finanzamt, Krankenkassen, Zoll und Gericht koordiniert anschreiben.
+
+## Ausgabe
+
+- Abgabenmatrix
+- Steuer-/SV-To-do-Liste
+- Zahlungs- und Haftungsvermerk
+
+## Qualitätsgates
+
+- Zeitraum entscheidet die Einordnung
+- Bescheide und Buchungen abgeglichen
+- Steuerprivileg nicht überdehnt
+
+## Rote Schwellen
+
+- unerkannte Massesteuern
+- § 266a StGB-Risiko vor Verfahren
+- Lohnsteuer während Fortführung
+
+## Interne Vorlagen
+
+- assets/templates/steuern-sozialversicherung.md
+- assets/templates/zahlungsklage-15b.md
+
+## Amtliche Erstquellen
+
+- § 15b Abs. 8 InsO
+- AO und SGB als zu prüfende Schnittstelle
+
+## Paragrafenkette Insolvenzverwaltung
+
+§ 56 InsO (Bestellung IV) → § 60 InsO (Haftung) → § 61 InsO (persönliche Haftung Masseglaeubigeransprueche) → § 66 InsO (Rechnungslegung) → § 69 InsO (Ausschuss-Informationspflicht) → § 160 InsO (Zustimmung bei bedeutenden Maßnahmen) → § 208 InsO (Masseunzulaenglichkeit) → §§ 187-216 InsO (Verteilung)
+
+## Triage — Verfahrensstand
+
+Bevor losgelegt wird, klaere:
+1. **Verfahrensstatus?** Vorlaeufige Verwaltung (§ 22 InsO) oder Eroeffnung (§ 27 InsO)?
+2. **Massedeckung?** § 54/55 InsO: Verfahrenskosten gedeckt? Masseunzulaenglichkeit § 208 droht?
+3. **Zustimmungserfordernis § 160 InsO?** Handlung besonders bedeutsam → Gläubigerausschuss oder -versammlung einbeziehen.
+4. **Dokumentation vollstaendig?** Schlussrechnung § 66 InsO vorbereitet?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
 ---
 
 ## Skill: `plan-verfahrenswahl`
 
-_Wenn es um IV-integrierte Verfahrenswahl und Routenentscheidung in Insolvenzverwaltung - IV-Cockpit geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
+_Für IV-integrierte Verfahrenswahl und Routenentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # IV-integrierte Verfahrenswahl und Routenentscheidung
 
@@ -836,8 +1224,6 @@ _Wenn es um IV-integrierte Verfahrenswahl und Routenentscheidung in Insolvenzver
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV-integrierte Verfahrenswahl und Routenentscheidung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -882,10 +1268,6 @@ Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum e
 
 Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
 
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette (IV-Insolvenzplan)
 
 § 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
@@ -902,604 +1284,13 @@ Bevor losgelegt wird, klaere:
 
 Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
 
----
-
-## Skill: `plan-planvollzug-monitoring`
-
-_Wenn es um IV-integrierte Planvollzug und Monitoring in Insolvenzverwaltung - IV-Cockpit geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# IV-integrierte Planvollzug und Monitoring
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV-integrierte Planvollzug und Monitoring` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Startet bei
-
-- neuem Planmandat oder Sanierungsprojekt
-- unvollständiger Datenlage
-- Vorbereitung von Insolvenzplan, Eigenverwaltung, Schutzschirm oder StaRUG
-- Prüfung eines vorhandenen Planentwurfs
-
-## Geführter Workflow
-
-1. Bedingungen, Fälligkeiten, Quoten, Zahlstellen, Treuhänder und Vollzugsakte erfassen.
-2. Monatliches Monitoring für Liquidität, Maßnahmen, Covenants und Planerfüllung aufsetzen.
-3. Abweichungen, Wiederaufleben, Streitforderungen und Nachzügler gesondert führen.
-4. Reports für Gericht, Gläubiger, Investor und Geschäftsleitung erzeugen.
-
-## Ausgabe
-
-- Planvollzugskalender
-- Monitoringbericht
-- Abweichungslog
-- Zahlungsliste
-
-## Qualitätsgates
-
-- Keine Rechtswirkung ohne genaue Betroffenengruppe, Betrag, Zeitpunkt und Beleg.
-- Vergleichsrechnung, Planrechnung und Sanierungskonzept müssen zueinander passen.
-- Annahmen, Schätzungen und fehlende Quellen werden sichtbar markiert.
-- Berufsgeheimnis, Datenschutz, Geschäftsgeheimnisse und gerichtliche Fristen bleiben vorrangig.
-
-## Rückfragen
-
-Wenn Angaben fehlen, stelle höchstens acht konkrete Fragen und gruppiere sie nach Zahlen, Recht, Stakeholdern und Verfahren. Bei Eilfällen liefere zuerst eine Minimalroute mit Stoppern.
-
-## Arbeitsstil
-
-Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum eine Information wichtig ist, und macht aus unsortiertem Material einen belastbaren nächsten Arbeitsschritt.
-
-## IV-Einordnung
-
-Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
-
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Paragrafenkette (IV-Insolvenzplan)
-
-§ 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
-
-## Triage — IV-Plan
-
-Bevor losgelegt wird, klaere:
-1. **Plan sinnvoller als Liquidation?** Vergleichsrechnung: Plan-Quote vs. Liquidationsquote.
-2. **Gruppenbildung konsistent?** § 222 InsO: gesicherte, nicht gesicherte, Kleinglaeubieger, Arbeitnehmer.
-3. **Mehrheiten realistisch?** Simulation Kopf- + Summenmehrheit je Gruppe.
-4. **Cramdown-Szenario?** § 245 InsO: ablehnende Gruppe ueberstimmbar wenn Best-Interest-Test bestanden.
-
-## IV-Einordnung
-
-Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
-
----
-
-## Skill: `zahlungsklagen-insolvenzverwaltungs`
-
-_Wenn es um Zahlungsklagen nach Paragraf 15b InsO in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# Zahlungsklagen nach § 15b InsO
-
-## Arbeitsbereich
-
-Zahlungsklagen nach § 15b InsO gegen Geschäftsleiter vorbereiten wenn Zahlungen nach Insolvenzreife erfolgt sind. § 15b InsO §§ 17 19 InsO Insolvenzreife. Prüfraster: Insolvenzreifedatum Zahlungen nach Stichtag Organstellung Ausnahmen ordnungsgemaeßer Geschäftsgang D-und-O-Deckung Vergleichsanker. Output: Haftungsanalyse Klageentwurf Vergleichsrechnung. Abgrenzung: nicht für Anfechtungsansprüche (iv-anfechtung-129ff). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Zahlungsklagen nach § 15b InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Startet bei
-
-- Zahlungsunfähigkeit oder Überschuldung vor Antrag plausibel ist
-- Zahlungen nach Eintritt der Insolvenzreife rekonstruiert werden
-- D&O-Deckung oder Vergleich geprüft wird
-
-## Eingaben
-
-- Liquiditätsstatus, BWA, OPOS, Bankjournale
-- Organstellung, Geschäftsverteilung, Beschlüsse
-- Zahlungslisten, Steuer- und SV-Zahlungen, Fortführungsmaßnahmen
-
-## Workflow
-
-1. **Insolvenzreife datieren** - Paragraf 17 und Paragraf 19 InsO getrennt, stichtagsbezogen und belegbasiert prüfen.
-2. **Zahlungen filtern** - Zahlungen nach Stichtag mit Empfänger, Zweck, Konto und Beleg erfassen.
-3. **Ausnahmen prüfen** - ordnungsgemäßer Geschäftsgang, Antragstellung, Steuerprivileg und Masseinteresse prüfen.
-4. **Klage bauen** - Anspruch, Schaden, Verjährung, D&O und Beweisangebot strukturieren.
-
-### Streitige Passiva im Stichtagsvortrag
-
-Bei der Datierung der Zahlungsunfähigkeit jede streitige Forderung als eigene Beweiszeile führen. Nicht titulierte Forderungen werden nach objektiver Rechtslage bewertet: Bestand und Fälligkeit führen zum Ansatz, Nichtbestehen oder fehlende Fälligkeit schließen den Ansatz aus. Keine prozentuale Kürzung nach Prozessrisiko. Liegt ein vorläufig vollstreckbarer Titel vor und ist die Vollstreckung eingeleitet, ist der Nennwert in die Liquiditätsbilanz einzustellen.
-
-Für die Klage gegen den Geschäftsleiter zusätzlich prüfen: Hat er die Forderung herausgenommen, welches finale Gutachten lag vor, welche Unterlagen tragen den Gegenbeweis, und warum war ein etwaiger Rechtsirrtum mehr als bloße Vertragsauslegung? Leitanker: BGH IX ZR 229/22 vom 23.01.2025.
-
-## Ausgabe
-
-- § 15b-Zahlungsmatrix
-- Anspruchs- und Verteidigungsmatrix
-- Klageentwurf oder Vergleichsvermerk
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Qualitätsgates
-
-- Insolvenzreife nicht geschätzt, sondern begründet
-- Zahlungslisten bankseitig belegbar
-- Ausnahmen transparent geprüft
-- Streitig herausgenommene Passiva mit Gegenbeweis, Titelstatus und Gutachtenstand belegt
-
-## Rote Schwellen
-
-- unvollständige Bankdaten
-- unklare Organstellung
-- Verjährungsdruck
-
-## Interne Vorlagen
-
-- assets/templates/zahlungsklage-15b.md
-- assets/templates/liquiditaetsstatus-kurzcheck.md
-
-## Amtliche Erstquellen
-
-- § 15b InsO
-- §§ 17, 19 InsO
-
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Paragrafenkette Insolvenzverwaltung
-
-§ 56 InsO (Bestellung IV) → § 60 InsO (Haftung) → § 61 InsO (persönliche Haftung Masseglaeubigeransprueche) → § 66 InsO (Rechnungslegung) → § 69 InsO (Ausschuss-Informationspflicht) → § 160 InsO (Zustimmung bei bedeutenden Maßnahmen) → § 208 InsO (Masseunzulaenglichkeit) → §§ 187-216 InsO (Verteilung)
-
-## Triage — Verfahrensstand
-
-Bevor losgelegt wird, klaere:
-1. **Verfahrensstatus?** Vorlaeufige Verwaltung (§ 22 InsO) oder Eroeffnung (§ 27 InsO)?
-2. **Massedeckung?** § 54/55 InsO: Verfahrenskosten gedeckt? Masseunzulaenglichkeit § 208 droht?
-3. **Zustimmungserfordernis § 160 InsO?** Handlung besonders bedeutsam → Gläubigerausschuss oder -versammlung einbeziehen.
-4. **Dokumentation vollstaendig?** Schlussrechnung § 66 InsO vorbereitet?
-
----
-
-## Skill: `plan-gerichtliche-schritte`
-
-_Wenn es um IV-integrierte Gerichtliche Schritte in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# IV-integrierte Gerichtliche Schritte
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV-integrierte Gerichtliche Schritte` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Startet bei
-
-- neuem Planmandat oder Sanierungsprojekt
-- unvollständiger Datenlage
-- Vorbereitung von Insolvenzplan, Eigenverwaltung, Schutzschirm oder StaRUG
-- Prüfung eines vorhandenen Planentwurfs
-
-## Geführter Workflow
-
-1. Verfahrensstand und zuständiges Gericht bestimmen.
-2. Einreichungsantrag, gerichtliche Vorprüfung, Terminvorbereitung und Zustellungen vorbereiten.
-3. Bestätigung, Versagungsrisiken, Rechtsmittel und Planüberwachung nachhalten.
-4. Fristenkalender und Verantwortliche je Schritt erzeugen.
-
-## Ausgabe
-
-- Gerichtsfahrplan
-- Antragsentwürfe
-- Fristenkalender
-- Termin-Q&A
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Qualitätsgates
-
-- Keine Rechtswirkung ohne genaue Betroffenengruppe, Betrag, Zeitpunkt und Beleg.
-- Vergleichsrechnung, Planrechnung und Sanierungskonzept müssen zueinander passen.
-- Annahmen, Schätzungen und fehlende Quellen werden sichtbar markiert.
-- Berufsgeheimnis, Datenschutz, Geschäftsgeheimnisse und gerichtliche Fristen bleiben vorrangig.
-
-## Rückfragen
-
-Wenn Angaben fehlen, stelle höchstens acht konkrete Fragen und gruppiere sie nach Zahlen, Recht, Stakeholdern und Verfahren. Bei Eilfällen liefere zuerst eine Minimalroute mit Stoppern.
-
-## Arbeitsstil
-
-Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum eine Information wichtig ist, und macht aus unsortiertem Material einen belastbaren nächsten Arbeitsschritt.
-
-## IV-Einordnung
-
-Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
-
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Paragrafenkette (IV-Insolvenzplan)
-
-§ 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
-
-## Triage — IV-Plan
-
-Bevor losgelegt wird, klaere:
-1. **Plan sinnvoller als Liquidation?** Vergleichsrechnung: Plan-Quote vs. Liquidationsquote.
-2. **Gruppenbildung konsistent?** § 222 InsO: gesicherte, nicht gesicherte, Kleinglaeubieger, Arbeitnehmer.
-3. **Mehrheiten realistisch?** Simulation Kopf- + Summenmehrheit je Gruppe.
-4. **Cramdown-Szenario?** § 245 InsO: ablehnende Gruppe ueberstimmbar wenn Best-Interest-Test bestanden.
-
-## IV-Einordnung
-
-Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
-
----
-
-## Skill: `plan-stabilisierung-stakeholder`
-
-_Wenn es um IV-integrierte StaRUG-Stabilisierung in Insolvenzverwaltung - IV-Cockpit geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# IV-integrierte StaRUG-Stabilisierung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV-integrierte StaRUG-Stabilisierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Startet bei
-
-- neuem Planmandat oder Sanierungsprojekt
-- unvollständiger Datenlage
-- Vorbereitung von Insolvenzplan, Eigenverwaltung, Schutzschirm oder StaRUG
-- Prüfung eines vorhandenen Planentwurfs
-
-## Geführter Workflow
-
-1. Stabilisierungsbedarf, Gläubigerkreis, Forderungen, Vollstreckungsdruck und Fortführungsinteresse aufnehmen.
-2. Verhältnismäßigkeit, Dauer, Verlängerung, Sicherheiten und betroffene Rechte prüfen.
-3. Kommunikationslinie für Banken, Lieferanten und Gericht vorbereiten.
-4. Risiken bei Insolvenznähe und Organpflichten klar markieren.
-
-## Ausgabe
-
-- Stabilisierungsantrag
-- Betroffenenliste
-- Verhältnismäßigkeitsnotiz
-- Kommunikationspaket
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Qualitätsgates
-
-- Keine Rechtswirkung ohne genaue Betroffenengruppe, Betrag, Zeitpunkt und Beleg.
-- Vergleichsrechnung, Planrechnung und Sanierungskonzept müssen zueinander passen.
-- Annahmen, Schätzungen und fehlende Quellen werden sichtbar markiert.
-- Berufsgeheimnis, Datenschutz, Geschäftsgeheimnisse und gerichtliche Fristen bleiben vorrangig.
-
-## Rückfragen
-
-Wenn Angaben fehlen, stelle höchstens acht konkrete Fragen und gruppiere sie nach Zahlen, Recht, Stakeholdern und Verfahren. Bei Eilfällen liefere zuerst eine Minimalroute mit Stoppern.
-
-## Arbeitsstil
-
-Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum eine Information wichtig ist, und macht aus unsortiertem Material einen belastbaren nächsten Arbeitsschritt.
-
-## IV-Einordnung
-
-Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
-
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Paragrafenkette (IV-Insolvenzplan)
-
-§ 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
-
-## Triage — IV-Plan
-
-Bevor losgelegt wird, klaere:
-1. **Plan sinnvoller als Liquidation?** Vergleichsrechnung: Plan-Quote vs. Liquidationsquote.
-2. **Gruppenbildung konsistent?** § 222 InsO: gesicherte, nicht gesicherte, Kleinglaeubieger, Arbeitnehmer.
-3. **Mehrheiten realistisch?** Simulation Kopf- + Summenmehrheit je Gruppe.
-4. **Cramdown-Szenario?** § 245 InsO: ablehnende Gruppe ueberstimmbar wenn Best-Interest-Test bestanden.
-
-## IV-Einordnung
-
-Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
-
----
-
-## Skill: `insolvenzverwalter-fristen-form-und-zustaendigkeit`
-
-_Wenn es um Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Spezialwissen: Insolvenzverwalter: Fristen, Form, Zuständigkeit und Rechtsweg
-- **Normen-/Quellenanker:** InsO, StaRUG.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Insolvenzverwalter** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Insolvenzverwalter-Fristen — Kernzeiten
-- **§ 22 InsO Sicherungsmaßnahmen:** ab Bestellung sofort (in der Praxis: erste 24–72 Stunden).
-- **§ 156 InsO Berichtstermin:** ca. 6 Wochen bis 3 Monate nach Eröffnung — Verwalter berichtet zu Lage, Fortführung/Stilllegung, Vergleichsoptionen.
-- **§ 158 InsO Stilllegung:** vor Berichtstermin nur mit Zustimmung Gläubigerausschuss oder bei Massearmut.
-- **§ 176 InsO Prüfungstermin:** Frist zur Anmeldung (regelmäßig 4–6 Wochen) endet vor diesem Termin.
-- **§ 187, § 196 InsO Verteilung:** Abschlagsverteilung möglich nach Prüfungstermin; Schlussverteilung am Ende.
-- **§ 200 InsO Aufhebung:** nach Schlussverteilung.
-- **§ 174 Abs. 3 InsO Nachrang § 39 InsO:** gesonderte Aufforderung des Gerichts erforderlich, vor Aufforderung keine Anmeldung erfolgt.
-- **§ 113 InsO Kündigungsfrist Arbeitsverhältnisse:** 3 Monate (auch bei längerer ordentlicher Kündigungsfrist) — Sonderkündigungsrecht Verwalter.
-- **§ 109 InsO Mietverhältnisse:** Sonderkündigungsrecht Verwalter mit 3-Monats-Frist.
-- **§ 103 InsO Erfüllungswahl:** unverzüglich, sonst Nichterfüllungswahl angenommen — bei Hinweis des Vertragspartners zur Stellungnahme aufgefordert.
-
-## Zuständigkeit
-- **Insolvenzgericht** = Amtsgericht am Sitz des Schuldners (§ 2 InsO). Bei Sitzverlegung in den letzten 6 Monaten: vorheriger Sitz (§ 3 Abs. 1 InsO).
-- **Beschwerden gegen Verwalter-Entscheidungen:** sofortige Beschwerde § 6 InsO.
-- **Restrukturierungsgericht** = Landgericht beim OLG-Sitz (§ 34 StaRUG) — nur für StaRUG-Verfahren.
-
-## Form
-- Berichte und Anträge zum Insolvenzgericht: schriftlich (Schriftsatz) oder beA-Übermittlung; Anlagen elektronisch oder in Papier.
-- Verwaltervergütungsantrag § 63 InsO i.V.m. InsVV § 8 ff. — mit Begründung der Zu- und Abschläge.
-- Schlussbericht und Schlussrechnung § 197 InsO — beim Insolvenzgericht einzureichen.
-
----
-
-## Skill: `spezial-sicht-tatbestand-beweis-und-belege`
-
-_Wenn es um Sicht: Tatbestandsmerkmale, Beweisfragen und Beleglage in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Sicht: Tatbestandsmerkmale, Beweisfragen und Beleglage
-
-## Aufgabe
-Dieser Skill ist ein konkreter Fachbaustein für `insolvenzverwaltung`. Ausgangspunkt ist: Freistehendes Insolvenzverwaltungs-Plugin aus Sicht von Insolvenzverwalter, Sachwalter und vorläufiger Verwaltung: Regelverfahren, Eigenverwaltung, Schutzschirm, Anfechtung, § 15b InsO, Masse, Forderungsprüfung, Insolvenzplan, StaRUG-Planwerkstatt, Gutachten, Berichte und Schlussrechnung.
-
-Er führt durch **Tatbestandsmerkmale, Beweisfragen und Beleglage** im Themenfeld **Sicht**. Ziel ist nicht ein abstrakter Lexikontext, sondern ein belastbares Arbeitsprodukt für die nächste anwaltliche, behördliche, gerichtliche, organisatorische oder mandantenbezogene Entscheidung.
-
-
-## Fachlicher Zuschnitt
-
-- **Thema:** Sicht.
-- **Arbeitsfokus:** Tatbestandsmerkmale, Beweisfragen und Beleglage.
-- **Plugin-Rahmen:** Freistehendes Insolvenzverwaltungs-Plugin aus Sicht von Insolvenzverwalter, Sachwalter und vorläufiger Verwaltung: Regelverfahren, Eigenverwaltung, Schu....
-- **Qualitätsanspruch:** Antworte nicht mit einer austauschbaren Standard-Checkliste. Nutze die Fachlogik dieses Plugins, benenne die konkret einschlägigen Normgruppen, Behörden, Register, Fristen, Dokumente oder Verfahrenshandlungen und trenne sichere Punkte von Live-Check-Bedarf.
-- **Eloquenz und Nutzen:** Führe die Nutzerin oder den Nutzer wie eine erfahrene Fachperson: kurze Orientierung, präzise Rückfragen, dann ein verwertbares Produkt mit Varianten, Gegenargumenten und nächstem Handgriff.
-
-## Kaltstart
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Sicht** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Output-Standard
-- **Kurzlage:** maximal fünf Sätze zu Ziel, Lage, Frist, Risiko und nächstem Schritt.
-- **Prüfmatrix:** Punkt, Norm/Quelle, Tatsache, Beleg, Bewertung, To-do.
-- **Arbeitsprodukt:** direkt nutzbarer Entwurf oder Baustein in der passenden Tonalität.
-- **Qualitätsgate:** keine Scheingenauigkeit; Lücken, Annahmen und Live-Check-Bedarf ausdrücklich markieren.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Verwalter-Sicht — Standard-Tatbestände im Anfechtungs- und Haftungsstreit
-- **§ 130 InsO Kongruente Deckung:** Letzte 3 Monate vor Antrag; Anfechtbar bei Zahlungsunfähigkeit zum Zeitpunkt der Handlung + Kenntnis oder Kenntnis der Umstände, aus denen die Zahlungsunfähigkeit folgt.
-- **§ 131 InsO Inkongruente Deckung:** Letzter Monat ohne weitere Voraussetzungen; 2.–3. Monat nur bei Zahlungsunfähigkeit oder Kenntnis benachteiligter Gläubiger.
-- **§ 133 InsO Vorsatzanfechtung:** Zentralbestimmung; Frist 10 Jahre vor Antrag (Stand prüfen — SanInsFoG hat bei kongruenten Leistungen auf 4 Jahre verkürzt); Vorsatz des Schuldners und Kenntnis des Anfechtungsgegners von Gläubigerbenachteiligungsabsicht (§ 133 Abs. 1 Satz 2 InsO Vermutung).
-- **§ 135 InsO Gesellschafterdarlehen:** Rückzahlung im letzten Jahr vor Antrag anfechtbar; Sicherung in den letzten 10 Jahren — strikt verschuldensunabhängig.
-- **§ 134 InsO Unentgeltliche Leistung:** Letzte 4 Jahre vor Antrag anfechtbar; objektiver Tatbestand reicht.
-- **§ 15b InsO Zahlungsverbot:** Geschäftsführerhaftung für Zahlungen nach Insolvenzreife; Privilegierung für Zahlungen "im ordnungsgemäßen Geschäftsgang" (§ 15b Abs. 2 InsO, Stand prüfen).
-- **Beleglage Verwalter:** Kontoauszüge, Buchhaltung, Korrespondenz Schuldner-Gläubiger, Liquiditätsstatus zum Zahlungszeitpunkt, Mahnungen, Stundungsverhandlungen — Verwalter trägt grds. Darlegungslast für Kenntnis.
-
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Paywall-Literatur nur verwerten, wenn sie von der Nutzerin oder dem Nutzer als Text bereitgestellt wurde; dann nicht als frei verifizierte Quelle ausgeben.
-
----
-
-## Skill: `masseunzulaenglichkeit-208`
-
-_Wenn es um Anzeige der Masseunzulänglichkeit Paragraf 208 InsO in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
-
-# Anzeige der Masseunzulänglichkeit § 208 InsO
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Anzeige der Masseunzulänglichkeit § 208 InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Startet bei
-
-- Masseverbindlichkeiten nicht oder bald nicht fällig erfüllbar sind
-- Kosten des Verfahrens gedeckt sind, aber sonstige Masseverbindlichkeiten kritisch sind
-- Zahlungen priorisiert oder gestoppt werden müssen
-
-## Eingaben
-
-- Massebestand, Kosten, Masseverbindlichkeiten
-- Fälligkeitsliste, Fortführungsplan, Prognose
-- Gerichtskommunikation und Gläubigerliste
-
-## Workflow
-
-1. **Status rechnen** - Kosten des Verfahrens, fällige und künftige Masseverbindlichkeiten trennen.
-2. **Anzeige prüfen** - Ist- oder Prognoseunzulänglichkeit bestimmen und Begründung vorbereiten.
-3. **Rangfolge steuern** - Zahlungen stoppen, Alt-/Neumasseverbindlichkeiten und Kommunikation ordnen.
-4. **Fortverwaltung** - Verwertung und Berichte nach Anzeige fortführen.
-
-## Ausgabe
-
-- § 208-Prüfvermerk
-- Anzeigeentwurf an das Gericht
-- Zahlungs- und Kommunikationsplan
-
-## Qualitätsgates
-
-- Kosten des Verfahrens gesondert geprüft
-- Fälligkeiten belegt
-- Rangfolge nach Anzeige dokumentiert
-
-## Rote Schwellen
-
-- Zahlung einzelner Massegläubiger kurz vor Anzeige
-- Fortführung ohne Deckung
-- fehlende öffentliche Bekanntmachung im Blick
-
-## Interne Vorlagen
-
-- assets/templates/masseunzulaenglichkeit-208.md
-- assets/templates/massenachverfolgung.csv
-
-## Amtliche Erstquellen
-
-- § 208 InsO
-- §§ 209 ff. InsO
-
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Paragrafenkette Insolvenzverwaltung
-
-§ 56 InsO (Bestellung IV) → § 60 InsO (Haftung) → § 61 InsO (persönliche Haftung Masseglaeubigeransprueche) → § 66 InsO (Rechnungslegung) → § 69 InsO (Ausschuss-Informationspflicht) → § 160 InsO (Zustimmung bei bedeutenden Maßnahmen) → § 208 InsO (Masseunzulaenglichkeit) → §§ 187-216 InsO (Verteilung)
-
-## Triage — Verfahrensstand
-
-Bevor losgelegt wird, klaere:
-1. **Verfahrensstatus?** Vorlaeufige Verwaltung (§ 22 InsO) oder Eroeffnung (§ 27 InsO)?
-2. **Massedeckung?** § 54/55 InsO: Verfahrenskosten gedeckt? Masseunzulaenglichkeit § 208 droht?
-3. **Zustimmungserfordernis § 160 InsO?** Handlung besonders bedeutsam → Gläubigerausschuss oder -versammlung einbeziehen.
-4. **Dokumentation vollstaendig?** Schlussrechnung § 66 InsO vorbereitet?
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
 
 ---
 
 ## Skill: `plan-sicherheiten-drittsicherheiten`
 
-_Wenn es um IV-integrierte Sicherheiten und Drittsicherheiten in Insolvenzverwaltung - IV-Cockpit geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für IV-integrierte Sicherheiten und Drittsicherheiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
 # IV-integrierte Sicherheiten und Drittsicherheiten
 
@@ -1517,8 +1308,6 @@ Absonderungsrechte und Drittsicherheiten im Insolvenzplan und StaRUG planfest be
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `IV-integrierte Sicherheiten und Drittsicherheiten` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -1563,10 +1352,6 @@ Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum e
 
 Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
 
-## Rechtliche Grundlagen und BGH-Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette (IV-Insolvenzplan)
 
 § 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
@@ -1583,11 +1368,146 @@ Bevor losgelegt wird, klaere:
 
 Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Gläubigerausschuss sowie Planvollzugsfaehigkeit.
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
+## Skill: `idw-iv`
+
+_Für Sanierungsfähigkeit-Gate für Insolvenzverwaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+
+# Sanierungsfähigkeit-Gate für Insolvenzverwaltung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Sanierungsfähigkeit-Gate für Insolvenzverwaltung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Kaltstart in acht Fragen
+
+Stelle zu Beginn nur diese Fragen, soweit die Akte sie nicht bereits beantwortet:
+
+1. Welche Rolle liegt vor: Insolvenzverwalter, Sachwalter, vorläufige Verwaltung, Schuldnerberatung, Gläubigerprüfung?
+2. Geht es um Insolvenzplan, Schutzschirm, Eigenverwaltung, StaRUG, außergerichtliche Sanierung oder nur um Plausibilisierung?
+3. Gibt es bereits Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit oder rechnerische Überschuldung?
+4. Welche Planungsunterlagen liegen vor: Liquiditätsplan, GuV-Plan, Bilanzplan, Maßnahmenplan, BWA, SuSa, OPOS, Bankauszüge?
+5. Welche Krise dominiert: Stakeholder-, Strategie-, Produkt-/Absatz-, Erfolgs-, Liquiditäts- oder Insolvenzkrise?
+6. Welche Sanierungsmaßnahmen sind rechtlich oder faktisch schon verbindlich?
+7. Wer muss überzeugt werden: Gericht, Gläubigerausschuss, Bankenpool, Arbeitnehmer, Investor, Finanzamt, Sozialversicherung?
+8. Welcher Output wird gebraucht: Vermerk, Datenanforderung, Red-Team-Liste, Berichtsbaustein oder Entscheidungsampel?
+
+Wenn Eile besteht, erstelle sofort eine Minimalampel mit Stoppern und fordere danach gezielt Unterlagen nach.
+
+## Kernlogik: zwei Ebenen sauber trennen
+
+### Ebene 1: Fortbestehensprognose
+
+Prüfe zunächst, ob das Unternehmen im relevanten Prognosezeitraum mit überwiegender Wahrscheinlichkeit zahlungsfähig bleibt oder durch rechtzeitig verbindliche Maßnahmen zahlungsfähig gehalten wird. Dafür reicht keine reine Managementabsicht. Es braucht eine nachvollziehbare Liquiditätsplanung, gesicherte Finanzierungsquellen, klare Fälligkeiten und eine Sensitivität gegen plausible Abweichungen.
+
+### Ebene 2: Nachhaltige Sanierungsfähigkeit
+
+Danach prüfen: Ist das Unternehmen nach Umsetzung der Maßnahmen wieder wettbewerbs-, rendite- und finanzierungsfähig? Eine bloße Verlängerung der Liquiditätsreichweite genügt nicht. Die wesentlichen Krisenursachen müssen beseitigt oder beherrschbar sein; das Geschäftsmodell muss nach der Sanierung ohne dauerhafte Sonderstützung tragfähig sein.
+
+## Pflichtbausteine des Sanierungskonzepts
+
+Arbeite jeden Baustein sichtbar ab:
+
+| Baustein | Prüffrage | Typischer Mangel |
+|---|---|---|
+| Auftrag und Umfang | Was soll das Konzept leisten, für wen und mit welcher Haftungs-/Verwendungsgrenze? | Unklarer Zweck, falsche Adressatenlogik |
+| Unternehmensbild | Rechtliche, wirtschaftliche, steuerliche und operative Ausgangslage vollständig? | Nur BWA und Bankliste, keine Geschäftsmodellanalyse |
+| Vermögens-, Finanz- und Ertragslage | Ist die Ist-Lage stichtagsbezogen, rechnerisch geschlossen und belegbar? | SuSa passt nicht zu Bank, OPOS oder Steuerständen |
+| Krisenstadium | Welche Krise liegt wirklich vor und wie weit ist sie fortgeschritten? | Liquiditätsproblem wird als reines Kostenproblem behandelt |
+| Krisenursachen | Sind Ursachen von Symptomen getrennt? | Maßnahmen bekämpfen nur Zahlungsdruck |
+| Leitbild | Wie sieht das sanierte Unternehmen konkret aus? | Allgemeiner Zukunftssatz ohne Markt-, Produkt- und Margenlogik |
+| Maßnahmen | Welche Maßnahme wirkt wann, kostet was, braucht wen und hängt wovon ab? | Maßnahmenliste ohne Verantwortliche, Timing und Nachweis |
+| Integrierte Planung | Sind GuV, Bilanz und Liquidität verzahnt? | Liquiditätsplan widerspricht Planbilanz oder Working Capital |
+| Sanierungsfähigkeit | Gibt es positive Fortbestehensprognose und nachhaltige Wettbewerbsfähigkeit? | Nur kurzfristige Finanzierungslücke geschlossen |
+| Dokumentation | Können Quellen, Annahmen und Rechenwege von Dritten nachvollzogen werden? | Keine Versionierung, keine Annahmenliste, keine Belegspur |
+
+## Leitbild des sanierten Unternehmens
+
+Formuliere das Leitbild nicht als Marketingtext, sondern als prüfbare Zielarchitektur:
+
+- **Markt:** Zielkunden, Nachfrage, Wettbewerb, Preisfähigkeit, Marktrisiken.
+- **Leistung:** Produkte, Dienstleistungen, Qualität, Lieferfähigkeit, Kernkompetenzen.
+- **Organisation:** Geschäftsleitung, Schlüsselpersonen, Prozesse, IT, Controlling, Governance.
+- **Ertrag:** Zielmargen, Fixkostenbasis, Break-even, Kostentreiber, Preis- und Mengenlogik.
+- **Finanzierung:** Kapitalstruktur, Working Capital, Linien, Covenants, Sicherheiten, Eigenbeiträge.
+- **Resilienz:** Abhängigkeiten von Kunden, Lieferanten, Energie, Cyber, ESG-/Nachhaltigkeitsrisiken, Regulatorik.
+
+Jede Maßnahme muss zu diesem Leitbild passen. Maßnahmen ohne Bezug zum Leitbild sind zu streichen oder als Sonderfall zu begründen.
+
+## Integrierte Planung
+
+Verlange eine Planung, die mindestens GuV, Bilanz und Liquidität verknüpft. Für die ersten Monate muss die Liquidität engmaschig nachvollziehbar sein; für das laufende und folgende Planjahr ist regelmäßig eine monatliche Darstellung zweckmäßig. Spätere Jahre können gröber verdichtet werden, sofern die Übergänge rechnerisch geschlossen bleiben.
+
+Prüfe insbesondere:
+
+- Ertragswirkung jeder Maßnahme: Umsatz, Rohertrag, Personal, sonstige Kosten, Zinsen, Steuern.
+- Liquiditätswirkung jeder Maßnahme: Einmalzahlung, laufender Effekt, Vorfinanzierungsbedarf, Fälligkeit.
+- Bilanzwirkung jeder Maßnahme: Forderungen, Vorräte, Verbindlichkeiten, Eigenkapital, Rückstellungen.
+- Working-Capital-Logik: Zahlungsziele, Vorratsreichweite, Debitorenrisiko, Lieferantenkredite.
+- Finanzierungslogik: Linien, Covenants, Tilgungen, Sicherheiten, Rangrücktritte, Patronate, Kapitalzufuhr.
+- Sensitivitäten: Umsatzverzug, Margendruck, Forderungsausfall, Kostenanstieg, Maßnahmenverzug.
+- Steuer- und Sozialversicherungseffekte, wenn sie für Liquidität oder Planergebnis wesentlich sind.
+
+## Proportionalität bei kleineren Unternehmen
+
+Bei kleinen oder weniger komplexen Unternehmen darf der Umfang schlanker sein. Der Prüfmaßstab wird aber nicht leer: Auch dort braucht es klare Ausgangslage, Krisenursachen, Leitbild, Maßnahmen, integrierte Planung und Ergebnis. Geringere Komplexität erlaubt weniger Berichtsumfang, nicht weniger Wahrheit.
+
+Praktische Vereinfachungen:
+
+- Management- und Organisationsanalyse knapper, wenn wenige Schlüsselpersonen den Betrieb tragen.
+- Marktanalyse fokussiert auf Hauptkunden, Auftragsbestand und lokale Wettbewerber.
+- Planung mit weniger Kontenzeilen, aber vollständiger Verknüpfung von Ergebnis, Bilanz und Liquidität.
+- Dokumentation mit sauberer Belegliste statt großem Gutachtenband.
+
+## Dokumentationsregister
+
+Erstelle ein Register mit:
+
+- Quellenliste: Jahresabschlüsse, BWA, SuSa, OPOS, Bank, Verträge, Steuerstände, Lohn/SV, Aufträge, Gesellschafterbeschlüsse.
+- Annahmenlog: jede wesentliche Annahme mit Quelle, Verantwortlichem, Plausibilisierung und Sensitivität.
+- Maßnahmenlog: Maßnahme, Eigentümer, Voraussetzung, Kosten, Wirkung, Frist, Status, Nachweis.
+- Planversionen: Dateiname, Stand, Ersteller, Änderung gegenüber Vorversion.
+- Offene Punkte: fehlender Beleg, Auswirkung, Verantwortlicher, Frist.
+- Entscheidungsvermerk: warum trotz Unsicherheiten ein Go, Conditional Go oder No-go vertretbar ist.
+
+## Red Flags
+
+- Plan zeigt Liquidität, aber keine Planbilanz.
+- GuV verbessert sich, obwohl keine Maßnahme mit Timing und Eigentümer hinterlegt ist.
+- Gesellschafterbeitrag ist als sicher geplant, aber nicht beschlossen oder finanziert.
+- Lieferantenstundung wird unterstellt, obwohl keine Vereinbarungen vorliegen.
+- Einmalige Liquiditätshilfe wird als dauerhafte Sanierung verkauft.
+- Krisenursache bleibt bestehen, wird aber im Leitbild nicht adressiert.
+- Steuer-, Sozialversicherungs- oder Zinslasten fehlen.
+- Sensitivität kippt sofort in Zahlungsunfähigkeit.
+- Datenstand ist unklar oder Planungsversionen widersprechen sich.
+
+## Anschluss-Skills
+
+- `iv-plan-sanierungskonzept` für Aufbau und Text des Sanierungskonzepts.
+- `iv-plan-integrierte-planung` für GuV-/Bilanz-/Liquiditätsmodell.
+- `iv-plan-vergleichsrechnung` für Planfall gegen Liquidation.
+- `iv-plan-redteam-qualitygate` für die harte Endprüfung.
+- `iv-schutzschirm-270d` bei Schutzschirm- oder Eigenverwaltungsroute.
+
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

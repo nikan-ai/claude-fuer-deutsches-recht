@@ -1,22 +1,33 @@
 # Nachtfalter Studio: Capsule Collection, Lieferkette, Influencer und Plattformkopien
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 160 KB) | PDF | [`gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesamt.pdf`](gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-fashion-law-moderecht-nachtfalter-kollektion-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-fashion-law-moderecht-nachtfalter-kollektion-2026.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-fashion-law-moderecht-nachtfalter-kollektion-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-fashion-law-moderecht-nachtfalter-kollektion-2026-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesamt.pdf`](gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-fashion-law-moderecht-nachtfalter-kollektion-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-fashion-law-moderecht-nachtfalter-kollektion-2026.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-fashion-law-moderecht-nachtfalter-kollektion-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-fashion-law-moderecht-nachtfalter-kollektion-2026-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 Nachtfalter Studio GmbH launcht eine kleine Premium-Kollektion mit recyceltem Obermaterial, digitaler Passformberatung und Creator-Kampagne. Kurz vor dem Drop kommen widersprüchliche Supplier-Angaben, ein Safety-Hinweis zu Kinderaccessoires, Green-Claims-Fragen, Retoure-Ärger und Copycat-Angebote auf einer Plattform zusammen.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 Gesamt-PDF: [`gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesamt.pdf`](./gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesamt.pdf)
 
@@ -33,6 +44,22 @@ Gesamt-PDF: [`gesamt-pdf/fashion-law-moderecht-nachtfalter-kollektion-2026_gesam
 | `06-green-claims-und-retouren.xlsx` | Nachhaltigkeitsclaims, Belege, Retouren- und Dark-Pattern-Risiken |
 | `07-kampagnenbild-und-plattformcopy.jpg` | Bildanlage Kampagne/Copycat |
 | `08-marketplace-takedown-entwurf.docx` | Entwurf Notice-and-Action gegen Plattformlisting |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
 
 Passt zu: `fashion-law-moderecht`, `markenrecht-fashion-luxus`, `datenschutzrecht`, `ecommerce-recht`
+
+---
+
+<!-- BEGIN nachgereichte-originalunterlagen -->
+## Nachgereichte Originalunterlagen
+
+Diese Dateien ergänzen den Datenraum um später eingegangene Primärunterlagen. Sie enthalten Tatsachen, Rohdaten und Korrespondenz, aber keine rechtliche Lösung.
+
+| Datei | Herkunft und Inhalt |
+| --- | --- |
+| [`12_lieferantenerklaerung_materialcharge_nf26.docx`](12_lieferantenerklaerung_materialcharge_nf26.docx) | Lieferantenerklärung mit tatsächlicher Chargenvermischung |
+| [`13_email_creator_nutzungsumfang.eml`](13_email_creator_nutzungsumfang.eml) | Creator-Mail zu Rohmaterial, Musik und noch fehlender Freigabe |
+| [`14_materialchargen_und_pruefbelege.csv`](14_materialchargen_und_pruefbelege.csv) | Ballen- und Prüfbelegdaten aus der Produktion |
+| [`15_zwischennachricht_modehafen_takedown.eml`](15_zwischennachricht_modehafen_takedown.eml) | Zwischenstand der Plattform zu Vorgang NTC-2026-19077 mit Rückfragen und Fristsetzung |
+| [`16_testkauf_vermerk_night_moth_coat.docx`](16_testkauf_vermerk_night_moth_coat.docx) | Vermerk über Testkauf des Copycat-Mantels: Bestellung, Lieferung aus Venlo, Vergleich mit Muster NF-01 |
+
+<!-- END nachgereichte-originalunterlagen -->

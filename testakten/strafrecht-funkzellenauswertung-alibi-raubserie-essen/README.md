@@ -1,18 +1,25 @@
 # Testakte: Funkzellenauswertung und Alibi — Raubserie auf Spätverkaufsstellen (Essen)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 60 KB) | PDF | [`gesamt-pdf/strafrecht-funkzellenauswertung-alibi-raubserie-essen_gesamt.pdf`](gesamt-pdf/strafrecht-funkzellenauswertung-alibi-raubserie-essen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-funkzellenauswertung-alibi-raubserie-essen_gesamt.pdf`](gesamt-pdf/strafrecht-funkzellenauswertung-alibi-raubserie-essen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-funkzellenauswertung-alibi-raubserie-essen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -33,7 +40,7 @@ Der Datenauswertungs-Kern verlangt den eigenständigen Abgleich dreier Quellen: 
 | Staatsanwaltschaft | StA Essen, StA Dr. Kalthoff, 70 Js 883/26 |
 | Polizei | PP Essen, KK 13, EK „Späti", KHKin Trosdorf, Tgb.-Nr. KK13-2026-1104 |
 | Ermittlungsrichter | AG Essen, 44 Gs 2107/26 (§ 100g StPO), 44 Gs 2312/26 (Haftbefehl) |
-| Mobilfunkanbieter | TeleNord Mobilfunk GmbH, Hamburg (fiktiv) |
+| Mobilfunkanbieter | TeleNord Mobilfunk GmbH, Hamburg |
 
 ## Aktenstruktur
 
@@ -48,6 +55,7 @@ strafrecht-funkzellenauswertung-alibi-raubserie-essen/
 ├── 07_verkehrsdaten_mobilfunk_0171_5583912_2026-05-28.csv       — 31 Verkehrsdatensätze mit Zellen-ID, Standort und Zeitstempel
 ├── 08_taten_uebersicht_beute_ek_spaeti_2026-05-18.csv           — Taten-Zeitleiste mit Tatzeiten, Adressen und rechnerischer Beute
 ├── 09_lichtbildvorlage_protokoll_bulut_2026-05-27.docx          — Wahllichtbildvorlage mit protokollierter Einzelbildvorzeigung und Auswahlmängeln
+├── 10_durchsuchungsbericht_wohnung_rautenberg_2026-06-05.docx     — Durchsuchung bei Festnahme: Handy, Sneaker, Kapuzenpullover, Bargeld, Polo-Zweitschlüssel; kein Messer
 ├── 11_haftbefehl_ag_essen_2026-06-04.docx                       — Haftbefehl wegen besonders schweren Raubes in drei Fällen
 ├── 12_beschuldigtenvernehmung_rautenberg_2026-06-05.docx        — Einlassung: ganzer Abend bei der Schwester, Handy nutzt nur er selbst
 ├── 13_zeugenvernehmung_jasmin_rautenberg_2026-06-08.docx        — Pauschale Alibibestätigung der Schwester, freiwillige Chat-Herausgabe
@@ -57,7 +65,8 @@ strafrecht-funkzellenauswertung-alibi-raubserie-essen/
 ├── eml/
 │   ├── 2026-05-21_sta_essen_ersuchen_telenord.eml               — Übersendung des Beschlusses an den Anbieter, Bitte um CSV-Lieferung
 │   ├── 2026-05-28_telenord_datenlieferung.eml                   — Datenlieferung mit Hinweisen zu Zellradius und Speicherfristen
-│   └── 2026-06-16_verteidigung_akteneinsicht_rohdaten.eml       — Verteidigung fordert Rohdaten und Lichtbildbögen an
+│   ├── 2026-06-16_verteidigung_akteneinsicht_rohdaten.eml       — Verteidigung fordert Rohdaten und Lichtbildbögen an
+│   └── 2026-06-22_sta_essen_antwort_rohdaten_lichtbildboegen.eml — Antwort der StA: CSV-Übermittlung, Lichtbildscans, offene KTU- und Handyauswertung
 ├── whatsapp/
 │   └── chatverlauf.txt                                          — Chatexport Jasmin/Kevin mit der Nachricht vom 02.05.2026, 21:47 Uhr
 ├── rubric.yaml                                                  — Sechs Prüfpunkte zur Bewertung einer Bearbeitung

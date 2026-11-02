@@ -2,234 +2,239 @@
 
 ## Zusammensetzung
 
-Dieser Vollprüfung enthaelt top-8 von 178 Skills (gekuerzt fuer Chat-Fenster) des Plugins `beamtenrecht`.
+Diese Vollprüfung enthält top-8 von 179 Skills (gekürzt für das Arbeitsfenster) des Plugins `beamtenrecht`.
 
 ## Inhaltsverzeichnis
 
-1. **kaltstart-triage** — Wenn es um Allgemein in Beamtenrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; li…
-2. **disziplinar-bemessung-13-bdg-stufenfolge** — Wenn es um Disziplinarmaßnahme bemessen - Paragraf 13 BDG und Stufenfolge in Beamtenrecht geht: ordnet Sachverhalt, Norm…
-3. **besoldung-versorgung-familienzuschlag** — Wenn es um Versorgung, Familienzuschlag und offene Übertragungsfragen in Beamtenrecht geht: ordnet Sachverhalt, Norm, Be…
-4. **konkurrentenklage-einstweiliger-rechtsschutz** — Wenn es um Konkurrentenklage — einstweiliger Rechtsschutz nach Paragraf 123 VwGO in Beamtenrecht geht: erstellt den pass…
-5. **pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv** — Wenn es um pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast,…
-6. **konkurrentenschutz-nach-ernennung-schadensersatz** — Wenn es um konkurrentenschutz-nach-ernennung-schadensersatz in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, …
-7. **zulagen-ruhegehaltfaehigkeit-und-rueckforderung** — Wenn es um zulagen-ruhegehaltfaehigkeit-und-rueckforderung in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, G…
-8. **beihilfe-implantatfaehige-hoergeraete** — Wenn es um Beihilfe Spezialhilfsmittel — Hoergeraete Cochlea-Implantat Sehhilfen in Beamtenrecht geht: rechnet Schwellen…
+1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Beamtenrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkr…
+2. **kaltstart-triage** — Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. F…
+3. **schwerbehinderte-bewerber-schwerbehinderung** — Prüft die Bewerbung eines schwerbehinderten oder gleichgestellten Menschen beim öffentlichen Arbeitgeber: Kenntnis, Einl…
+4. **konkurrentenschutz-bestenauslese-art-richter** — Prüft beamtenrechtlichen Konkurrentenschutz nach GG Artikel 33 Absatz 2: Anforderungsprofil, dienstliche Beurteilungen, …
+5. **schwerbehinderte-bewerber-165-sgb-9** — Für Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX: ordnet Norm, Beweislast und Gegenargument; E…
+6. **laufbahnrecht-laender-lehrer-schule-live** — Für Laufbahnrecht Länder Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+7. **laufbahnrecht-laender-matrix** — Für Laufbahnrecht Länder Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+8. **anlassbeurteilung-vs-regelbeurteilung** — Für Anlassbeurteilung vs. Regelbeurteilung — Aktualität und Vergleichbarkeit: ordnet Norm, Beweislast und Gegenargument;…
+
+---
+
+## Skill: `juristischer-argumentationskern`
+
+_Schaltet sich ein, wenn in Beamtenrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
+
+# Juristischer Argumentationskern - Beamtenrecht
+
+## 1. Direktstart
+
+Arbeite als Verwaltungsrechtlicher Bearbeiter für Verwaltungsakt, Widerspruch, Klage, Eilrechtsschutz, Ermessen, Satzungen und behördliche Verfahren.
+
+Pluginauftrag: Beamtenrecht für Bund, Länder und Richterdienst: Status, Laufbahn, Besoldung, Versorgung, Konkurrentenstreit, Disziplinarrecht, Dienstunfähigkeit, Richterlaufbahn, Landesrecht und verständliche Mandatsführung.
+
+1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
+1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+## 2. Die tragende These
+
+Formuliere das Ergebnis für Beamtenrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur.
+
+Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+
+2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
+2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
+2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
+2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
+2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
+2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
+2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
+2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+
+## 3. Materienspezifische Tatbestandsarbeit
+
+| Prüfpunkt | Konkrete Arbeitsfrage |
+| --- | --- |
+| Verwaltungshandeln | Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen |
+| Zulässigkeit | Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen |
+| Materielle Rechtmäßigkeit | Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen |
+| Eilrechtsschutz | aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren |
+| Arbeitsprodukt | Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen |
+
+### 3.1. Verknüpfung mit den tragenden Fachskills
+
+3.1.1. Widerspruch Klage Vwgo: Bearbeite den Fachpunkt im Skill widerspruch-klage-vwgo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.2. Besold Besoldungswiderspruch Zeitnahe Geltendmachung: Bearbeite den Fachpunkt im Skill besold-neu-016-besoldungswiderspruch-zeitnahe-geltendmachung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.3. Reaktivierung nach Paragraf 29 BBG — Rückkehr aus dem Ruhestand: Bearbeite den Fachpunkt im Skill reaktivierung-29-bbg-rechtsanspruch und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+3.1.4. Fristen Und Sofortmaßnahmen: Bearbeite den Fachpunkt im Skill fristen-und-sofortmassnahmen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+
+Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
+
+## 4. Normenanker
+
+4.1. VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
+4.2. VwVfG Paragraf 28: Anhörung Beteiligter.
+4.3. VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
+4.4. VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
+4.5. VwGO Paragraf 80 Absatz 5: Eilrechtsschutz gegen sofort vollziehbare Verwaltungsakte.
+4.6. VwGO Paragraf 123: einstweilige Anordnung.
+
+Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
+
+## 5. Rechtsprechung und Quellenstatus
+
+5.1. Bestimme zuerst den konkreten Streitpunkt in Beamtenrecht und öffne den dazu in Abschnitt 3.1 verknüpften Fachskill. Ein fachgebietsweiter Leitfall ersetzt keine streitpunktgenaue Recherche.
+5.2. Übernimm eine Entscheidung nur, wenn Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Rechtssatz und Tatsachenkontext sicher feststehen.
+5.3. Formuliere eine Fallkarte mit Rechtsfrage, Rechtssatz, tragenden Tatsachen, Übertragungsgrenze, Fundstelle und Auswirkung auf das Arbeitsprodukt.
+5.4. Fehlt ein sicherer Anker, benenne die offene Recherchefrage ohne Aktenzeichen. Eine nicht belegte Entscheidung ist kein Hilfsargument.
+5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
+5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+
+## 6. Beweislast und Gegenangriff
+
+Ausgangspunkt für dieses Plugin: Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit.
+
+6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
+6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
+6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
+6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
+
+## 7. Prüffolge
+
+7.1. Welche Handlungsform liegt vor.
+7.2. Welche Klage- oder Antragsart ist statthaft.
+7.3. Welche formellen Fehler können geheilt werden und welche nicht.
+7.4. Welche Ermessensfehler oder Abwägungsdefizite tragen den Angriff.
+7.5. Welche vorläufige Regelung ist im Eilverfahren erforderlich.
+
+## 8. Juristisches Schreiben
+
+8.1. Stelle das Ergebnis oder den Antrag an den Anfang. Der Leser muss nach dem ersten Absatz wissen, welche Position vertreten wird und warum.
+8.2. Verwende pro tragendem Punkt die Reihenfolge Kernsatz, Rechtsregel, konkrete Tatsache mit Fundstelle, Subsumtion, Gegenargument, Antwort und Rechtsfolge.
+8.3. Schreibe Tatsachen konkret mit Datum, Person, Handlung, Betrag und Dokument. Vermeide Leerformeln wie offensichtlich, zweifellos oder nach ständiger Rechtsprechung ohne Beleg.
+8.4. Trenne Hauptargument, Hilfsargument und bloßen Recherchepunkt. Die stärkste Linie steht zuerst; Varianten werden nach Erfolgsaussicht, Beweisrisiko und praktischem Aufwand geordnet.
+8.5. Typische fertige Ausgabe für dieses Plugin: Ausgabe entlang der Kernfelder Verwaltungshandeln, Zulässigkeit, Materielle Rechtmäßigkeit, Eilrechtsschutz: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+
+## 9. Ausgabemodi
+
+| Bedarf | Sofortausgabe |
+| --- | --- |
+| Schnell entscheiden | Kernsatz, stärkster Anker, schwächster Punkt, Gegenposition, Empfehlung und nächster Schritt |
+| Vertieft prüfen | Tatbestandsmatrix mit Norm, Tatsache, Fundstelle, Beweislast, Gegenargument, Antwort und Rechtsfolge |
+| Versenden | Empfängergerechter Entwurf mit Antrag oder Ziel, Tatsachenvortrag, Rechtsausführung, Beweisangeboten und Anlagenbezug |
+| Verhandeln | Hauptposition, belastbare Untergrenze, gegnerischer Hebel, Zugeständnisfolge und formulierter Vorschlag |
+| Entscheiden | Optionen mit Rechtsgrundlage, Tatsachenbasis, Risiko, Aufwand, Termin und dokumentierter Empfehlung |
+
+## 10. Qualitätskontrolle
+
+10.1. Deckt jeder Antrag oder Ergebnissatz eine benannte Rechtsfolge ab?
+10.2. Ist jedes tragende Tatbestandsmerkmal mit konkreter Tatsache und Fundstelle verknüpft?
+10.3. Ist die Beweislast dort benannt, wo eine Tatsache streitig oder offen ist?
+10.4. Wurde die stärkste Gegenposition fair aufgebaut und beantwortet?
+10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
+10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
+10.7. Ist das Ergebnis unmittelbar als Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur verwendbar?
 
 ---
 
 ## Skill: `kaltstart-triage`
 
-_Wenn es um Allgemein in Beamtenrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten._
+_Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Beamtenrecht._
 
-# Allgemein
+# 1. Beamtenrechtlichen Auftrag aufnehmen und ausarbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+Lies den Nutzerauftrag und die vorhandenen Urkunden, Bescheide, Beurteilungen und Gutachten. Bestimme Status, Dienstherr, Bundesland, Maßnahme und gewünschtes Dokument aus diesen Unterlagen. Frage diese Angaben nicht erneut ab, wenn sie schon feststehen.
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 2. Fachlichen Weg wählen
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Trenne Bundes-, Landes-, Richter-, Soldaten- und Tarifbeschäftigtenrecht. Ordne Verwaltungsakt, Weisung, Auswahlentscheidung, Realakt oder bloße Kommunikation zu. Prüfe im einschlägigen Recht Tatbestand, Ermessen, Beteiligung, Begründung, Gleichbehandlung, Fürsorge und Verhältnismäßigkeit.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Bei bevorstehender Ernennung den Termin und den Sicherungsbedarf vorrangig prüfen. Bei Ruhestand, Beihilfe, Pflege, Heilfürsorge oder gesetzlicher Rente die jeweils betroffenen Berechnungen getrennt halten. Verfahrensfragen wie Anhörung, Akteneinsicht, Frist, Widerspruch und Eilrechtsschutz richten sich nach Maßnahme und Auftrag, nicht nach einem pauschalen Klageablauf.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 3. Lücken gezielt klären und fortsetzen
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Fehlt im Auswahlverfahren der Auswahlvermerk, frage nach ihm und der Ernennungsmitteilung. Nach Eingang die beanstandeten Kriterien mit Beurteilungen und Auswahlchance abgleichen und den bestellten Befund oder Eilantrag überarbeiten. Ein fehlender Vermerk verhindert nicht die Vorbereitung des beauftragten dringenden Sicherungsschritts.
 
-## Pflichtfragen
+Fehlt bei Dienstunfähigkeit die Beschreibung der tatsächlich auszuübenden Aufgaben, frage nach dieser Grundlage. Nach Antwort die funktionellen Einschränkungen und Gutachterfragen neu zuordnen und die Stellungnahme fertigstellen; eine Diagnose nicht selbst zur Feststellung der Dienstunfähigkeit machen.
 
-- Welcher Status liegt vor: Beamter, Richter, Bewerber, Anwärter, Tarifbeschäftigter, Wahlbeamter oder Mischfall?
-- Welcher Dienstherr und welches Bundesland sind betroffen?
-- Gibt es einen Bescheid, eine Beurteilung, eine Ausschreibung, einen Auswahlvermerk oder eine Verfügung mit Datum und Zugang?
-- Welche Frist läuft und welches Ergebnis soll erreicht werden?
-- Welche Unterlagen fehlen noch: Personalakte, Beurteilungsbeiträge, amtsärztliches Gutachten, Berechnungsblatt, Beteiligungsvermerk, Versorgungsauskunft, Beihilfebescheid, PKV-Schreiben, Auswahlvermerk?
+Fehlt bei Versorgung oder Beihilfe eine Berechnungsposition, fordere den betreffenden Bescheidteil oder Nachweis an. Nach Eingang die betroffene Rechnung korrigieren und den verlangten Brief oder Antrag vollständig formulieren. Die Nachforderung setzt nicht voraus, dass die behauptete Position schon belegt ist.
 
-## Prüfprogramm
+Weitere kurze Rückfragen stellen, wenn neue Antworten entscheidende Lücken zeigen. Bekanntes nicht erneut abfragen. Bei einem fortbestehenden Hindernis den tragfähigen Teilstand liefern und nach Klärung weiterarbeiten, bis das bestellte Dokument fertig ist.
 
-1. **Status und Rechtsquelle:** Bundesrecht, Landesrecht oder Richterrecht trennen; Normen live gegen amtliche Quellen prüfen.
-2. **Eingriff und Ziel:** Verwaltungsakt, dienstliche Weisung, Auswahlentscheidung, Realakt oder bloße Kommunikation einordnen.
-3. **Materielle Prüfung:** Tatbestand, Ermessen, Beteiligung, Begründung, Gleichbehandlung, Fürsorge und Verhältnismäßigkeit prüfen.
-4. **Verfahren:** Anhörung, Akteneinsicht, Frist, Widerspruch, Klageart, Eilrechtsschutz und Glaubhaftmachung klären.
-5. **Pension/Beihilfe-Sonderroute:** Bei Ruhestand, Krankheit, Pflege, Heilfürsorge oder gesetzlicher Rente sofort in die Versorgungsskills routen; bei Bewerbungs- oder Beförderungsstreit die Konkurrentenschutzskills mit Eilrechtsschutz vorschalten.
-6. **Output:** Eine klare Handlungsempfehlung, einen Entwurf oder eine Risikomatrix erzeugen.
+## 4. Passendes Ergebnis
 
-## Erweiterte Spezialrouten
+Ein Gutachten beantwortet die gestellte Frage mit Begründung, ohne ungefragte Klage. Ein Schreiben oder Rechtsbehelf wird vollständig ausformuliert; eine Fragenliste allein erledigt diesen Auftrag nicht. Tabellen nur für tatsächlich nötige Vergleiche und Rechnungen, nicht als obligatorische interne Fallkarte ausgeben.
 
-- **Pension und Versorgung:** `pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv`, `versorgungsakte-dokumentenintake-und-berechnung`, `pension-und-gesetzliche-rente-55-beamtvg`.
-- **Krankheitskosten:** `krankheitskosten-beihilfe-pkv-widerspruch`, `pflege-beihilfe-pflegeversicherung-beamte`, `heilfürsorge-ruhestand-pkv-anwartschaft`.
-- **Konkurrentenschutz:** `konkurrentenschutz-sofortprogramm-einzelgerechtigkeit`, `konkurrentenschutz-auswahlvermerk-und-akteneinsicht`, `konkurrentenschutz-nach-ernennung-schadensersatz`.
+Optionale Vertiefungen sind die vorhandenen Versorgungsskills, etwa `pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv` und `versorgungsakte-dokumentenintake-und-berechnung`, sowie `krankheitskosten-beihilfe-pkv-widerspruch` und `konkurrentenschutz-auswahlvermerk-und-akteneinsicht`. Ohne diese Zusatzdateien den konkreten Fall anhand der vorstehenden Schritte weiterbearbeiten.
+
+## 5. Quellen und Grenzen
+
+Normen in der maßgeblichen Bundes- oder Landesfassung amtlich prüfen. Entscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und belegter Passage zitieren. Interne Quellenprüfung und Recherchegrenzen gesondert notieren, nicht in den Mandantenbrief übernehmen. Materielle und verfahrensrechtliche Voraussetzungen bleiben trotz verfügbarer Akte eigenständig zu prüfen.
+
+Externe Einreichung, Aktenanforderung oder Kommunikation nur nach ausdrücklicher Freigabe. Nur vorhandene Unterlagen und Werkzeuge nutzen, fehlende Seiten benennen und unabhängige Teile weiterbearbeiten. Ohne Export vollständigen Text liefern, keinen Link erfinden. Vollständige Sätze, dezimale Überschriften mit Leerzeilen; Times New Roman 11 pt beziehungsweise Exporthinweis.
 
 ---
 
-## Skill: `disziplinar-bemessung-13-bdg-stufenfolge`
+## Skill: `schwerbehinderte-bewerber-schwerbehinderung`
 
-_Wenn es um Disziplinarmaßnahme bemessen - Paragraf 13 BDG und Stufenfolge in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Prüft die Bewerbung eines schwerbehinderten oder gleichgestellten Menschen beim öffentlichen Arbeitgeber: Kenntnis, Einladung, offensichtliches Fehlen fachlicher Eignung, Beteiligung der Schwerbehindertenvertretung und AGG-Indizien. Erstellt Pflichtmatrix, Auskunfts- und Entschädigungsschreiben sowie Konkurrenteneilantrag._
 
-# Disziplinarmaßnahme bemessen - § 13 BDG und Stufenfolge
+# Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX
 
-## Arbeitsweg
+## Direktauftrag
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
-- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Rekonstruiere Bewerbung, erkennbare Schwerbehinderung oder Gleichstellung, Anforderungsprofil, Einladung oder Absage, Beteiligung der Schwerbehindertenvertretung und Auswahlentscheidung. Prüfe die Einladungspflicht nach SGB IX Paragraf 165 Satz 3 und die enge Ausnahme des offensichtlich fehlenden fachlichen Eignung nach Satz 4 getrennt von beamtenrechtlicher Bestenauslese und gesundheitlicher Eignung.
 
-## Leitidee
-
-Disziplinarrecht ist keine Strafzumessung mit Uniform. Maßgeblich ist, welche Maßnahme erforderlich ist, um die Funktionsfähigkeit des öffentlichen Dienstes und das Vertrauen in das Amt zu sichern. Dieser Skill zwingt zur Gesamtwürdigung.
-
-## Intake
-
-- Innerdienstlich oder außerdienstlich?
-- Einmalig, wiederholt, systematisch?
-- Amt, Laufbahn, Vertrauensstellung, Vorgesetztenrolle?
-- Schaden, Gefährdung, Öffentlichkeit?
-- Vorsatz, Fahrlässigkeit, Einsicht?
-- Vorbelastungen, Beurteilungen, Dienstalter?
-- Strafurteil, Einstellung, Strafbefehl?
-
-## Stufenfolge
-
-- Verweis.
-- Geldbuße.
-- Kürzung der Dienstbezüge.
-- Zurückstufung.
-- Entfernung aus dem Beamtenverhältnis.
-- Bei Ruhestandsbeamten: Kürzung oder Aberkennung des Ruhegehalts.
-
-## Schwereachsen
-
-| Achse | Beispiele |
-| --- | --- |
-| Amtsbezug | Kasse, Polizei, Justiz, Schule, Geheimschutz, Steuerverwaltung. |
-| Vertrauensbruch | Vermögensdelikt, Lüge, Urkunden, Datenzugriff, Korruption. |
-| Außenwirkung | Medien, Bürgerkontakt, Amtsautorität, Social Media. |
-| Dauer | Augenblicksversagen, Serie, Vertuschung. |
-| Entlastung | Selbstanzeige, Schadenswiedergutmachung, Belastungssituation, Therapie. |
-
-## Wichtig
-
-Der Skill zitiert keine angeblichen Vergleichsfälle aus privaten Datenbanken. Wenn Vergleichsrechtsprechung genutzt wird, dann nur nach Live-Verifikation mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle.
-
----
-
-## Skill: `besoldung-versorgung-familienzuschlag`
-
-_Wenn es um Versorgung, Familienzuschlag und offene Übertragungsfragen in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
-
-# Versorgung, Familienzuschlag und offene Übertragungsfragen
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
-- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Wann nutzen?
-
-Anwendungsfall: nicht der aktive Beamte allein betroffen ist, sondern Versorgungsempfänger, Witwen-/Witwergeld, Waisengeld, Familienzuschläge, kinderreiche Familien, Teilzeit oder Rückforderung von Überzahlungen.
-
-## Kernthese
-
-Die Alimentationsrechtsprechung ist stark an aktiven Beamten und Richtern entwickelt. Für Versorgungsempfänger und Hinterbliebene können die Grundgedanken Bedeutung haben, aber die Übertragung ist nicht automatisch. Der Skill arbeitet deshalb mit einer vorsichtigen „Ja, aber"-Struktur.
-
-## Prüfroute
-
-1. Status: aktiv, Ruhestand, Hinterbliebene, begrenzte Dienstfähigkeit, Teilzeit.
-2. Rechtsquelle: Bundesversorgung oder Landesversorgung.
-3. Anspruchstyp: laufende Versorgung, Nachzahlung, Familienzuschlag, Rückforderung.
-4. Zeitraum und Bescheidlage.
-5. Besteht eine eigene verfassungsrechtliche Unteralimentation oder nur eine mittelbare Folgewirkung?
-
-## Familienzuschlag
-
-- Kindbezogene Komponenten separat erfassen.
-- Konkurrenzfälle abfragen: anderer Elternteil im öffentlichen Dienst, Teilzeit, Trennung, Wechselmodell, Kindergeldberechtigung.
-- Nachweispflichten prüfen, aber keine Rückforderung ohne Anhörung, Vertrauensschutz und Entreicherung prüfen.
-- Bei kinderreichen Familien die besondere Belastung nicht im Grundgehalt verstecken.
-
-## Versorgung
-
-Der Skill trennt:
-
-- ruhegehaltfähige Dienstzeit;
-- Ruhegehaltssatz;
-- Mindestversorgung;
-- Versorgungsabschläge;
-- Witwen-/Witwer- und Waisengeld;
-- Ruhen, Anrechnung und Erwerbseinkommen;
-- Unfallfürsorge.
-
-## Sperre gegen Überbehauptung
-
-Der Skill darf nicht schreiben „Versorgungsempfänger haben sicher denselben Nachzahlungsanspruch wie aktive Beamte". Richtig ist: Die hergebrachten Grundsätze und das Alimentationsprinzip können auch Versorgung prägen; Reichweite und Rechtsfolge hängen aber von Norm, Status, Zeitraum und Rechtsprechungsstand ab.
-
----
-
-## Skill: `konkurrentenklage-einstweiliger-rechtsschutz`
-
-_Wenn es um Konkurrentenklage — einstweiliger Rechtsschutz nach Paragraf 123 VwGO in Beamtenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik._
-
-# Konkurrentenklage — einstweiliger Rechtsschutz nach § 123 VwGO
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
-- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- Start: Vorhandene Dateien zuerst lesen und gesicherte Angaben übernehmen. Im Arbeitsmodus `Fallbearbeitung` unmittelbar mit dem Arbeitsprodukt beginnen: Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX-Prüfvermerk mit Ergebnis, Gegenposition, Beleglücken und nächstem Schritt.
+- Tatbestand und Beweis: Ordne jedem entscheidungserheblichen Merkmal einen Aktenfund oder eine ausdrücklich bezeichnete Lücke zu; bloße Plausibilität ersetzt weder Vortrag noch Beweis.
+- Kernnormen: SGB IX Paragrafen 151, 165 und 178, AGG Paragrafen 1, 7, 15 und 22 sowie bei Ämtervergabe GG Artikel 33 Absatz 2.
+- Rechtsprechung: BAG, Urteil vom 23.11.2023 - 8 AZR 164/22: Bei rechtzeitig mitgeteiltem gewichtigen Verhinderungsgrund kann die Einladungspflicht einen zumutbaren Ersatztermin verlangen. BAG, Urteil vom 25.04.2024 - 8 AZR 143/23: Die Einladungspflicht kann auch bei internen Stellenausschreibungen bestehen.
+- Einsatzgrenze: Normfassung und tragende Aussage am amtlichen Volltext prüfen; eine Entscheidung nicht auf andere Tatbestands-, Beweis- oder Verfahrensstufen übertragen.
+- Abschluss: Das Ergebnis muss `Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX` konkret beantworten, die stärkste Gegenposition verarbeiten und den nächsten verwendbaren Text, Antrag, Rechenweg oder Vollzugsschritt liefern.
 
 ## 1. Zweck und Anwendungsfall
 
-Skill für Bewerber im öffentlichen Dienst, die nach Mitteilung einer Auswahlentscheidung verhindern müssen, dass der Konkurrent ernannt wird. Sobald die Ernennung erfolgt ist, ist sie nach dem Grundsatz der Aemterstabilitaet in der Regel unangreifbar; daraus folgt die zentrale Bedeutung des einstweiligen Rechtsschutzes.
+Skill für schwerbehinderte oder gleichgestellte Bewerber im öffentlichen Dienst. Klaert die zwingenden Verfahrenspflichten der öffentlichen Arbeitgeber, insbesondere die Einladungspflicht und das Zusammenwirken mit Schwerbehindertenvertretung und Gleichstellungsbeauftragten.
 
 ## 2. Eingaben
 
-- Mitteilung des Dienstherrn über die Auswahlentscheidung samt Datum
-- Frist, bis zu der nach Mitteilung die Ernennung erfolgen kann (vorlaufzeit, in der Regel zwei Wochen — laenderspezifisch prüfen)
-- Auswahlvermerk, dienstliche Beurteilung, Anforderungsprofil
-- Beurteilung der ausgewaehlten Konkurrentin oder des Konkurrenten (Akteneinsicht oder Auskunftsanspruch)
-- Statusamt und Besoldungsgruppe des Mandanten
+- Schwerbehindertenausweis oder Gleichstellungsbescheid
+- Datum der Bewerbung
+- Stellenausschreibung
+- Akteneinsicht (Auswahlvermerk)
+- Information über Beteiligung der Schwerbehindertenvertretung
+- Absageschreiben
 
 ## 3. Ablauf / Checkliste
 
-### a) Form und Fristen
-- Form: Schriftsatz an das zuständige Verwaltungsgericht; Vertretung durch Rechtsanwalt nicht zwingend, aber im OVG zwingend (§ 67 IV VwGO).
-- Antragsfrist: Eingang vor Ablauf der Mitteilungsfrist; in der Praxis sofort nach Erhalt der Konkurrentenmitteilung.
+### a) Einladungspflicht
+- § 165 Satz 3 SGB IX: Oeffentliche Arbeitgeber müssen schwerbehinderte Bewerber zum Vorstellungsgespraech einladen, es sei denn, die fachliche Eignung fehlt offensichtlich. "Offensichtlich" eng auszulegen.
+- Bei Konzentrationsbewerbungen über zentrale Stellen sind die Pflichten nicht gemindert.
 
-### b) Antrag
-- "Dem Antragsgegner wird im Wege der einstweiligen Anordnung untersagt, den ausgewaehlten Bewerber zu ernennen, bevor über die Bewerbung der Antragstellerin / des Antragstellers rechtsfehlerfrei und unter Beachtung der Rechtsauffassung des Gerichts erneut entschieden ist."
-- Hilfsweise: Sicherung des Bewerbungsverfahrensanspruchs durch Untersagung der Aushaendigung der Ernennungsurkunde.
+### b) Interne Besetzung
+- § 165 Sätze 1 und 2 SGB IX: vor externer Ausschreibung Prüfpflicht, ob die Stelle intern mit schwerbehinderten Personen besetzt werden kann (Vermittlungsvorschlag der Bundesagentur für Arbeit; interner Aufruf).
 
-### c) Anordnungsanspruch
-- Verletzung des bewerbungsverfahrensrechtlichen Anspruchs aus Art. 33 Abs. 2 GG.
-- Mögliche Fehlerquellen: konstitutives Anforderungsprofil falsch, Beurteilung fehlerhaft, Auswahlvermerk inhaltsleer, falsche Auslegung der Beurteilungsnoten, falsche Gewichtung, kein Vergleich der Einzelmerkmale bei gleicher Gesamtnote.
+### c) Beteiligung Schwerbehindertenvertretung
+- § 178 Abs. 2 SGB IX: Unterrichtungs- und Anhörungsrecht in allen Angelegenheiten, die Schwerbehinderte betreffen, einschliesslich Bewerbungen.
+- § 179 SGB IX Behinderungen der Vertrauensperson sanktioniert.
+- Verstoss = Verfahrensfehler mit Indizwirkung für Diskriminierung.
 
-### d) Anordnungsgrund
-- Drohende Ernennung des Konkurrenten und damit Aemterstabilitaet; Schadensersatz allein ist nicht gleichwertig.
+### d) Eignung
+- Schwerbehinderung als solche ist kein Eignungsmangel.
+- Eignungsdefizit ist konkret und nachvollziehbar zu begruenden.
 
-### e) Akteneinsichtsanspruch
-- Akteneinsicht in eigene Personalakte (§ 110 BBG / § 50 BeamtStG i.V.m. LBG); Konkurrentenakte regelmaessig nur via Gericht.
-
-### f) Beendigung des Eilverfahrens
-- Wird der Konkurrent gleichwohl ernannt, ist im Hauptsacheverfahren Klage auf Aufhebung / Schadensersatz / Bewerbungsverfahrensgarantie zu prüfen — Skill `schadensersatz-nichtbefoerderung`.
+### e) Folgen von Verstoessen
+- AGG-Entschaedigungsanspruch wegen vermuteter Diskriminierung (§ 22 AGG, § 15 Abs. 2 AGG).
+- Bewerbungsverfahrensanspruch verletzt; Anfechtung der Auswahlentscheidung; Konkurrenteneilantrag.
 
 ## 4. Quellenpflicht
 
-- Normen: § 123 VwGO; Art. 33 Abs. 2 GG; § 9 BBG; § 22 BBG; §§ 32 ff. BLV.
-- Rspr.: BVerwG und BVerfG zum Eilrechtsschutz im Konkurrentenstreit — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Normen: §§ 151, 165, 178, 179 SGB IX; §§ 1, 6, 15, 22 AGG; Art. 33 Abs. 2 GG.
+- BAG zu § 165 SGB IX (frueher § 82 SGB IX) — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
 - Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
 
 ## 5. Ausgabeformat
 
-- Antragsschrift einstweilige Anordnung (Rubrum, Antrag, Begruendung Anordnungsanspruch, Anordnungsgrund, Glaubhaftmachung, eidesstattliche Versicherung).
-- Alternativ Schriftsatzentwurf zur Internabstimmung.
+- Prüfraster Verfahrenspflichten öffentlicher Arbeitgeber.
+- AGG-Entschaedigungsschreiben.
+- Konkurrenteneilantrag.
 
 ## 6. Verifizierte Quellenanker
 
@@ -241,15 +246,163 @@ Skill für Bewerber im öffentlichen Dienst, die nach Mitteilung einer Auswahlen
 
 ## 7. Beispiel (Kurzfassung)
 
-Mandantin ist Regierungsraetin A13. A14-Beförderung. Konkurrentenmitteilung am 15.05.; Ernennung droht ab 29.05. Skill liefert Antrag auf einstweilige Anordnung beim VG, Einreichung am 18.05., parallel Akteneinsicht in eigene Personalakte und Antrag auf Vorlage des Auswahlvermerks an das Gericht.
+Mandant Grad der Behinderung 60 bewirbt sich auf A12-Stelle im Bundesministerium. Wird nicht zum Vorstellungsgespraech eingeladen; Absage ohne Begruendung. Skill liefert Indizienanalyse, AGG-Entschaedigungsschreiben mit Zwei-Monats-Frist und Begruendung des Anordnungsanspruchs für Eilantrag.
 
 ---
 
-## Skill: `pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv`
+## Skill: `konkurrentenschutz-bestenauslese-art-richter`
 
-_Wenn es um pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Prüft beamtenrechtlichen Konkurrentenschutz nach GG Artikel 33 Absatz 2: Anforderungsprofil, dienstliche Beurteilungen, Binnendifferenzierung, Auswahlvermerk, Beteiligung und drohende Ernennung. Erstellt Akteneinsichtsantrag, Auswahlmatrix und einen fristgerechten Antrag nach VwGO Paragraf 123._
 
-# pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv
+# Konkurrentenschutz — Bestenauslese nach Art. 33 Abs. 2 GG
+
+## Direktauftrag
+
+Sichere vor einer Ernennung sofort Auswahlmitteilung, Auswahlvermerk, Stellenausschreibung und dienstliche Beurteilungen. Vergleiche Anforderungsprofil, Statusämter, Beurteilungszeiträume, Gesamturteile, Einzelmerkmale und Hilfskriterien; prüfe Fehlerkausalität und formuliere bei drohendem Vollzug einen Antrag nach VwGO Paragraf 123.
+
+- Start: Vorhandene Dateien zuerst lesen und gesicherte Angaben übernehmen. Im Arbeitsmodus `Fallbearbeitung` unmittelbar mit dem Arbeitsprodukt beginnen: Konkurrentenschutz — Bestenauslese nach Art. 33 Abs. 2 GG-Prüfvermerk mit Ergebnis, Gegenposition, Beleglücken und nächstem Schritt.
+- Tatbestand und Beweis: Ordne jedem entscheidungserheblichen Merkmal einen Aktenfund oder eine ausdrücklich bezeichnete Lücke zu; bloße Plausibilität ersetzt weder Vortrag noch Beweis.
+- Kernnormen: GG Artikel 33 Absatz 2, BBG Paragraf 9 oder BeamtStG Paragraf 9 sowie VwGO Paragraf 123; zusätzlich das jeweils geltende Laufbahn-, Beurteilungs- und Beteiligungsrecht.
+- Rechtsprechung: BVerwG, Beschluss vom 03.03.2025 - 2 VR 4.24: Eine fiktive Fortschreibung dienstlicher Beurteilungen benötigt eine hinreichende gesetzliche Grundlage. BVerwG, Beschluss vom 13.05.2025 - 2 VR 5.24: Ungeklärte Zweifel an der gesundheitlichen Eignung des ausgewählten Bewerbers können den Bewerbungsverfahrensanspruch des Konkurrenten verletzen; aussagekräftige ältere Beurteilungen sind einzubeziehen.
+- Einsatzgrenze: Normfassung und tragende Aussage am amtlichen Volltext prüfen; eine Entscheidung nicht auf andere Tatbestands-, Beweis- oder Verfahrensstufen übertragen.
+- Abschluss: Das Ergebnis muss `Konkurrentenschutz — Bestenauslese nach Art. 33 Abs. 2 GG` konkret beantworten, die stärkste Gegenposition verarbeiten und den nächsten verwendbaren Text, Antrag, Rechenweg oder Vollzugsschritt liefern.
+
+## 1. Zweck und Anwendungsfall
+
+Skill für Bewerber im öffentlichen Dienst, die in einem Auswahlverfahren um Einstellung, Beförderung oder Übertragung eines höherwertigen Dienstpostens unterlegen sind oder unterliegen koennten. Liefert das materielle Prüfschema des Art. 33 Abs. 2 GG (Bestenauslese als grundrechtsgleiches Recht / bewerbungsverfahrensrechtlicher Anspruch).
+
+Anwendung typischerweise vor und neben den Skills `konkurrentenklage-einstweiliger-rechtsschutz`, `anlassbeurteilung-vs-regelbeurteilung`, `anforderungsprofil-konstitutiv-deklaratorisch`, `auswahlgespraech-dokumentationspflicht`, `plausibilisierung-gleicher-gesamtnoten`.
+
+## 2. Eingaben
+
+- Stellenausschreibung (Wortlaut, Anforderungsprofil)
+- Auswahlvermerk / Beförderungsranking
+- Eigene letzte dienstliche Beurteilung des Mandanten
+- Beurteilung der ausgewaehlten Konkurrentin oder des Konkurrenten (soweit zugaenglich)
+- Mitteilung des Dienstherrn über die Auswahlentscheidung mit Frist
+- Auskunft, ob bereits Ernennung erfolgt ist (Ämterstabilitaet)
+
+## 3. Ablauf / Checkliste
+
+### a) Sachlicher Anwendungsbereich
+- Steht eine "Einstellung" oder eine "Beförderung" im statusrechtlichen Sinne in Rede oder bloss eine Umsetzung? Bei reiner Umsetzung greift Art. 33 Abs. 2 GG nicht; dann Skill `umsetzung-kein-va-rechtsschutz` heranziehen.
+- Ist der Dienstposten höherwertig als das Statusamt des Mandanten? Falls ja, gilt Bestenauslese auch bei Dienstpostenkonkurrenz nach staendiger Rechtsprechung des BVerwG; Az im Einzelfall verifizieren.
+
+### b) Die drei Auswahlkriterien
+- Eignung — koerperliche, geistige, charakterliche Eignung; Verfassungstreue
+- Befaehigung — Ausbildung, Erfahrung, Vorbildung, allgemeine Faehigkeiten
+- Fachliche Leistung — bisherige dienstliche Leistung, Erfolg, Verwendungsbreite
+
+### c) Beurteilungsgrundlage
+- Primaer aktuelle dienstliche Beurteilung (Regel- oder Anlassbeurteilung).
+- Bei gleicher Gesamtnote: Binnendifferenzierung durch Einzelmerkmale (BVerwG-Rechtsprechung, konkret vor Zitat frei prüfen).
+- Erst danach hilfsweise Auswahlgespraech, Assessment Center, Beurteilungsbeitraege.
+
+### d) Kontrolldichte
+- Gerichtliche Kontrolle des Auswahlvermerks auf Verfahrensfehler, Anwendung falscher Massstaebe, Nichteinbeziehung wesentlicher Gesichtspunkte, Verkennung der Beurteilungsstruktur.
+- Kein eigener Beurteilungsmaszstab des Gerichts.
+
+### e) Aemterstabilitaet
+- Ist die Ernennung des Konkurrenten bereits erfolgt, ist die Auswahlentscheidung in der Regel nicht mehr ruekgaengig zu machen; Skill `schadensersatz-nichtbefoerderung` heranziehen.
+
+## 4. Quellenpflicht
+
+- Normen: Art. 33 Abs. 2 GG; § 9 BBG; § 9 BeamtStG; § 22 BBG; §§ 32 ff. BLV.
+- BVerfG zur Bestenauslese und zum bewerbungsverfahrensrechtlichen Anspruch — ständige Rechtsprechung, konkret vor Zitat frei prüfen, Az im Einzelfall verifizieren.
+- BVerwG zur Auswahlentscheidung — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+
+## 5. Ausgabeformat
+
+- Kurzgutachten in Memoform (Sachverhalt — Frage — Kurzantwort — Bewertung — Risiko — Quellen) oder
+- Mandantenbrief mit Empfehlung zu Widerspruch / Eilantrag / Klage.
+
+## 6. Verifizierte Quellenanker
+
+- Art. 33 Abs. 2 GG: Bestenauslese nach Eignung, Befähigung und fachlicher Leistung.
+- Art. 74 Abs. 1 Nr. 27 GG und Art. 70 GG: Statusrechtliche Bundeskompetenz, Laufbahn/Besoldung/Versorgung der Länder grundsätzlich Landesrecht.
+- BeamtStG und BBG immer nach Dienstherr trennen; Landesbeamtengesetz und Beurteilungsrichtlinien live prüfen.
+- BVerwG, 11.10.2016 - 2 C 11.15 als verifizierter Anker zu Art. 33 Abs. 2 GG und Eignungsanforderungen bei Höchstaltersgrenzen.
+- Für Spezialfragen der dienstlichen Beurteilung, Anlassbeurteilung, Binnendifferenzierung und Auswahlgespräch keine privaten Datenbankzitate verwenden; konkrete Rechtsprechung nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+
+## 7. Beispiel (Kurzfassung)
+
+Mandant ist Polizeihauptkommissar Besoldungsgruppe A11. Dienstposten A12 wird ausgeschrieben. Ranking ergibt 17 Bewerber. Mandant Rang 3 mit Gesamtnote "uebertrifft die Anforderungen". Rang 1 hat dieselbe Gesamtnote. Aufgabe: Prüfe Anforderungsprofil, Binnendifferenzierung, Auswahlvermerk; bereite Antrag auf einstweiligen Rechtsschutz nach § 123 VwGO vor.
+
+---
+
+## Skill: `schwerbehinderte-bewerber-165-sgb-9`
+
+_Für Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Beamtenrecht. Route: schwerbehinderte-bewerber-165-sgb-9._
+
+# Schwerbehinderte Bewerber im oeffentlichen Dienst — § 165 SGB IX
+
+## 1. Zweck und Anwendungsfall
+
+Skill fuer schwerbehinderte oder gleichgestellte Bewerber im oeffentlichen Dienst. Klaert die zwingenden Verfahrenspflichten der oeffentlichen Arbeitgeber, insbesondere die Einladungspflicht und das Zusammenwirken mit Schwerbehindertenvertretung und Gleichstellungsbeauftragten.
+
+## 2. Eingaben
+
+- Schwerbehindertenausweis oder Gleichstellungsbescheid
+- Datum der Bewerbung
+- Stellenausschreibung
+- Akteneinsicht (Auswahlvermerk)
+- Information ueber Beteiligung der Schwerbehindertenvertretung
+- Absageschreiben
+
+## 3. Ablauf / Checkliste
+
+### a) Einladungspflicht
+- § 165 Satz 3 SGB IX: Oeffentliche Arbeitgeber muessen schwerbehinderte Bewerber zum Vorstellungsgespraech einladen, es sei denn, die fachliche Eignung fehlt offensichtlich. "Offensichtlich" eng auszulegen.
+- Bei Konzentrationsbewerbungen ueber zentrale Stellen sind die Pflichten nicht gemindert.
+
+### b) Interne Besetzung
+- § 165 Sätze 1 und 2 SGB IX: vor externer Ausschreibung Pruefpflicht, ob die Stelle intern mit schwerbehinderten Personen besetzt werden kann (Vermittlungsvorschlag der Bundesagentur fuer Arbeit; interner Aufruf).
+
+### c) Beteiligung Schwerbehindertenvertretung
+- § 178 Abs. 2 SGB IX: Unterrichtungs- und Anhoerungsrecht in allen Angelegenheiten, die Schwerbehinderte betreffen, einschliesslich Bewerbungen.
+- § 179 SGB IX Behinderungen der Vertrauensperson sanktioniert.
+- Verstoss = Verfahrensfehler mit Indizwirkung fuer Diskriminierung.
+
+### d) Eignung
+- Schwerbehinderung als solche ist kein Eignungsmangel.
+- Eignungsdefizit ist konkret und nachvollziehbar zu begruenden.
+
+### e) Folgen von Verstoessen
+- AGG-Entschaedigungsanspruch wegen vermuteter Diskriminierung (§ 22 AGG, § 15 Abs. 2 AGG).
+- Bewerbungsverfahrensanspruch verletzt; Anfechtung der Auswahlentscheidung; Konkurrenteneilantrag.
+
+## 4. Quellenpflicht
+
+- Normen: §§ 151, 165, 178, 179 SGB IX; §§ 1, 6, 15, 22 AGG; Art. 33 Abs. 2 GG.
+- BAG zu § 165 SGB IX (frueher § 82 SGB IX) — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+
+## 5. Ausgabeformat
+
+- Pruefraster Verfahrenspflichten oeffentlicher Arbeitgeber.
+- AGG-Entschaedigungsschreiben.
+- Konkurrenteneilantrag.
+
+## 6. Verifizierte Quellenanker
+
+- Art. 33 Abs. 2 GG: Bestenauslese nach Eignung, Befähigung und fachlicher Leistung.
+- Art. 74 Abs. 1 Nr. 27 GG und Art. 70 GG: Statusrechtliche Bundeskompetenz, Laufbahn/Besoldung/Versorgung der Länder grundsätzlich Landesrecht.
+- BeamtStG und BBG immer nach Dienstherr trennen; Landesbeamtengesetz und Beurteilungsrichtlinien live prüfen.
+- BVerwG, 11.10.2016 - 2 C 11.15 als verifizierter Anker zu Art. 33 Abs. 2 GG und Eignungsanforderungen bei Höchstaltersgrenzen.
+- Für Spezialfragen der dienstlichen Beurteilung, Anlassbeurteilung, Binnendifferenzierung und Auswahlgespräch keine privaten Datenbankzitate verwenden; konkrete Rechtsprechung nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+
+## 7. Beispiel (Kurzfassung)
+
+Mandant Grad der Behinderung 60 bewirbt sich auf A12-Stelle im Bundesministerium. Wird nicht zum Vorstellungsgespraech eingeladen; Absage ohne Begruendung. Skill liefert Indizienanalyse, AGG-Entschaedigungsschreiben mit Zwei-Monats-Frist und Begruendung des Anordnungsanspruchs fuer Eilantrag.
+
+---
+
+## Skill: `laufbahnrecht-laender-lehrer-schule-live`
+
+_Für Laufbahnrecht Länder Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Beamtenrecht. Route: laufbahnrecht-laender-lehrer-schule-live._
+
+# Laufbahnrecht Länder Matrix
 
 ## Arbeitsweg
 
@@ -261,118 +414,67 @@ _Wenn es um pensionierung-gesamtcheck-ruhegehalt-beihilfe-pkv in Beamtenrecht ge
 
 ## Pflichtfragen
 
-- Bund oder welches Bundesland, welcher Dienstherr und welcher Status: Beamter, Richter, Versorgungsempfänger, Bewerber oder Ruhestandsfall?
-- Welcher Bescheid, welche Verfügung, welche Auswahlmitteilung, welche Versorgungsauskunft oder welcher Beihilfebescheid liegt vor?
-- Datum, Zugang, Frist, Rechtsbehelf und gewünschtes Ziel?
-- Welche Aktenbestandteile fehlen: Personalakte, Auswahlvermerk, Beurteilungen, Berechnungsblatt, amtsärztliches Gutachten, Beihilfeakte, PKV-Schreiben?
+- Welcher Status liegt vor: Beamter, Richter, Bewerber, Anwärter, Tarifbeschäftigter, Wahlbeamter oder Mischfall?
+- Welcher Dienstherr und welches Bundesland sind betroffen?
+- Gibt es einen Bescheid, eine Beurteilung, eine Ausschreibung, einen Auswahlvermerk oder eine Verfügung mit Datum und Zugang?
+- Welche Frist läuft und welches Ergebnis soll erreicht werden?
+- Welche Unterlagen fehlen noch: Personalakte, Beurteilungsbeiträge, amtsärztliches Gutachten, Berechnungsblatt, Beteiligungsvermerk?
 
 ## Prüfprogramm
 
-1. **Rechtsquelle trennen:** Bundesrecht, Landesrecht, Richterrecht und Satzungs-/Versorgungsrecht sauber auseinanderhalten.
-2. **Eilbedürftigkeit prüfen:** Konkurrentenschutz, Widerspruchsfrist, Klagefrist, Beihilfefrist, Dienstunfallmeldung oder Ruhestandsdatum sichern.
-3. **Materiellen Kern prüfen:** Art. 33 Abs. 2 oder Abs. 5 GG, BeamtVG, BBhV/landesrechtliche Beihilfe, BBesG/Landesbesoldung, BeamtStG/BBG und VwGO.
-4. **Akte auswerten:** Nicht nur Normen, sondern Dokumentation, Ermessen, Beteiligung, Begründung, Plausibilität und Beweiswert bewerten.
-5. **Output bauen:** Sofortmaßnahme, Antrag, Widerspruch, Eilantrag, Akteneinsicht, Mandantenbrief oder Berechnungsmatrix.
-
-## Ausgabe
-
-- Kurzbild mit Frist und Ziel.
-- Prüfmatrix mit Normgruppe, Tatsachen, Unterlagen und Risiken.
-- Konkreter nächster Schritt mit Entwurf oder Anlagenliste.
-
-## Quellen-Hardening
-
-Keine Rechtsprechung aus Modellwissen zitieren. Entscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher/frei prüfbarer Quelle. Landesrecht und Beihilferecht live prüfen.
+1. **Status und Rechtsquelle:** Bundesrecht, Landesrecht oder Richterrecht trennen; Normen live gegen amtliche Quellen prüfen.
+2. **Eingriff und Ziel:** Verwaltungsakt, dienstliche Weisung, Auswahlentscheidung, Realakt oder bloße Kommunikation einordnen.
+3. **Materielle Prüfung:** Tatbestand, Ermessen, Beteiligung, Begründung, Gleichbehandlung, Fürsorge und Verhältnismäßigkeit prüfen.
+4. **Verfahren:** Anhörung, Akteneinsicht, Frist, Widerspruch, Klageart, Eilrechtsschutz und Glaubhaftmachung klären.
+5. **Output:** Eine klare Handlungsempfehlung, einen Entwurf oder eine Risikomatrix erzeugen.
 
 ---
 
-## Skill: `konkurrentenschutz-nach-ernennung-schadensersatz`
+## Skill: `laufbahnrecht-laender-matrix`
 
-_Wenn es um konkurrentenschutz-nach-ernennung-schadensersatz in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Laufbahnrecht Länder Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Beamtenrecht. Route: laufbahnrecht-laender-matrix._
 
-# konkurrentenschutz-nach-ernennung-schadensersatz
+# Laufbahnrecht Laender Matrix
 
-## Arbeitsweg
+## Aufgabe
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
-- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Länder-Laufbahnrecht-Matrix: fragt Bundesland, Laufbahngruppe, Fachrichtung, Vorbildung und Zielamt ab.
+
+## Arbeitsweise
+
+Erzeuge eine Ländermatrix mit zu prüfenden Normen. Behaupte keine landesspezifische Spezialfrist ohne amtliche Quelle.
 
 ## Pflichtfragen
 
-- Bund oder welches Bundesland, welcher Dienstherr und welcher Status: Beamter, Richter, Versorgungsempfänger, Bewerber oder Ruhestandsfall?
-- Welcher Bescheid, welche Verfügung, welche Auswahlmitteilung, welche Versorgungsauskunft oder welcher Beihilfebescheid liegt vor?
-- Datum, Zugang, Frist, Rechtsbehelf und gewünschtes Ziel?
-- Welche Aktenbestandteile fehlen: Personalakte, Auswahlvermerk, Beurteilungen, Berechnungsblatt, amtsärztliches Gutachten, Beihilfeakte, PKV-Schreiben?
+- Welcher Status liegt vor: Beamter, Richter, Bewerber, Anwärter, Tarifbeschäftigter, Wahlbeamter oder Mischfall?
+- Welcher Dienstherr und welches Bundesland sind betroffen?
+- Gibt es einen Bescheid, eine Beurteilung, eine Ausschreibung, einen Auswahlvermerk oder eine Verfügung mit Datum und Zugang?
+- Welche Frist läuft und welches Ergebnis soll erreicht werden?
+- Welche Unterlagen fehlen noch: Personalakte, Beurteilungsbeiträge, amtsärztliches Gutachten, Berechnungsblatt, Beteiligungsvermerk?
 
 ## Prüfprogramm
 
-1. **Rechtsquelle trennen:** Bundesrecht, Landesrecht, Richterrecht und Satzungs-/Versorgungsrecht sauber auseinanderhalten.
-2. **Eilbedürftigkeit prüfen:** Konkurrentenschutz, Widerspruchsfrist, Klagefrist, Beihilfefrist, Dienstunfallmeldung oder Ruhestandsdatum sichern.
-3. **Materiellen Kern prüfen:** Art. 33 Abs. 2 oder Abs. 5 GG, BeamtVG, BBhV/landesrechtliche Beihilfe, BBesG/Landesbesoldung, BeamtStG/BBG und VwGO.
-4. **Akte auswerten:** Nicht nur Normen, sondern Dokumentation, Ermessen, Beteiligung, Begründung, Plausibilität und Beweiswert bewerten.
-5. **Output bauen:** Sofortmaßnahme, Antrag, Widerspruch, Eilantrag, Akteneinsicht, Mandantenbrief oder Berechnungsmatrix.
+1. **Status und Rechtsquelle:** Bundesrecht, Landesrecht oder Richterrecht trennen; Normen live gegen amtliche Quellen prüfen.
+2. **Eingriff und Ziel:** Verwaltungsakt, dienstliche Weisung, Auswahlentscheidung, Realakt oder bloße Kommunikation einordnen.
+3. **Materielle Prüfung:** Tatbestand, Ermessen, Beteiligung, Begründung, Gleichbehandlung, Fürsorge und Verhältnismäßigkeit prüfen.
+4. **Verfahren:** Anhörung, Akteneinsicht, Frist, Widerspruch, Klageart, Eilrechtsschutz und Glaubhaftmachung klären.
+5. **Output:** Eine klare Handlungsempfehlung, einen Entwurf oder eine Risikomatrix erzeugen.
 
-## Ausgabe
+## Ausgabeformat
 
-- Kurzbild mit Frist und Ziel.
-- Prüfmatrix mit Normgruppe, Tatsachen, Unterlagen und Risiken.
-- Konkreter nächster Schritt mit Entwurf oder Anlagenliste.
-
-## Quellen-Hardening
-
-Keine Rechtsprechung aus Modellwissen zitieren. Entscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher/frei prüfbarer Quelle. Landesrecht und Beihilferecht live prüfen.
+- Kurzantwort in drei Sätzen.
+- Checkliste der fehlenden Tatsachen.
+- Rechtliche Einordnung mit passenden Normgruppen.
+- Nächste Schritte mit Fristen und Anlagen.
+- Quellenhygiene: keine nicht überprüfbaren Fundstellen, keine Kommentar- oder Aufsatzblindzitate.
 
 ---
 
-## Skill: `zulagen-ruhegehaltfaehigkeit-und-rueckforderung`
+## Skill: `anlassbeurteilung-vs-regelbeurteilung`
 
-_Wenn es um zulagen-ruhegehaltfaehigkeit-und-rueckforderung in Beamtenrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt._
+_Für Anlassbeurteilung vs. Regelbeurteilung — Aktualität und Vergleichbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen._
 
-# zulagen-ruhegehaltfaehigkeit-und-rueckforderung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
-- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Pflichtfragen
-
-- Bund oder welches Bundesland, welcher Dienstherr und welcher Status: Beamter, Richter, Versorgungsempfänger, Bewerber oder Ruhestandsfall?
-- Welcher Bescheid, welche Verfügung, welche Auswahlmitteilung, welche Versorgungsauskunft oder welcher Beihilfebescheid liegt vor?
-- Datum, Zugang, Frist, Rechtsbehelf und gewünschtes Ziel?
-- Welche Aktenbestandteile fehlen: Personalakte, Auswahlvermerk, Beurteilungen, Berechnungsblatt, amtsärztliches Gutachten, Beihilfeakte, PKV-Schreiben?
-
-## Prüfprogramm
-
-1. **Rechtsquelle trennen:** Bundesrecht, Landesrecht, Richterrecht und Satzungs-/Versorgungsrecht sauber auseinanderhalten.
-2. **Eilbedürftigkeit prüfen:** Konkurrentenschutz, Widerspruchsfrist, Klagefrist, Beihilfefrist, Dienstunfallmeldung oder Ruhestandsdatum sichern.
-3. **Materiellen Kern prüfen:** Art. 33 Abs. 2 oder Abs. 5 GG, BeamtVG, BBhV/landesrechtliche Beihilfe, BBesG/Landesbesoldung, BeamtStG/BBG und VwGO.
-4. **Akte auswerten:** Nicht nur Normen, sondern Dokumentation, Ermessen, Beteiligung, Begründung, Plausibilität und Beweiswert bewerten.
-5. **Output bauen:** Sofortmaßnahme, Antrag, Widerspruch, Eilantrag, Akteneinsicht, Mandantenbrief oder Berechnungsmatrix.
-
-## Ausgabe
-
-- Kurzbild mit Frist und Ziel.
-- Prüfmatrix mit Normgruppe, Tatsachen, Unterlagen und Risiken.
-- Konkreter nächster Schritt mit Entwurf oder Anlagenliste.
-
-## Quellen-Hardening
-
-Keine Rechtsprechung aus Modellwissen zitieren. Entscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher/frei prüfbarer Quelle. Landesrecht und Beihilferecht live prüfen.
-
----
-
-## Skill: `beihilfe-implantatfaehige-hoergeraete`
-
-_Wenn es um Beihilfe Spezialhilfsmittel — Hoergeraete Cochlea-Implantat Sehhilfen in Beamtenrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen._
-
-# Beihilfe Spezialhilfsmittel — Hoergeraete Cochlea-Implantat Sehhilfen
+# Anlassbeurteilung vs. Regelbeurteilung — Aktualitaet und Vergleichbarkeit
 
 ## Arbeitsweg
 
@@ -384,63 +486,63 @@ _Wenn es um Beihilfe Spezialhilfsmittel — Hoergeraete Cochlea-Implantat Sehhil
 
 ## 1. Zweck und Anwendungsfall
 
-Skill für Beihilfeberechtigte, denen die Beihilfestelle bei der Erstattung hochwertiger Hilfsmittel die volle Kostenerstattung verweigert hat. Anwendung typischerweise bei Hoergeraeten oberhalb des Festbetrags und bei Cochlea-Implantat-Folgekosten.
+Skill für den haeufigen Streit, ob die Auswahlentscheidung auf einer ausreichend aktuellen, miteinander vergleichbaren Beurteilungsgrundlage beruht. Zwei zentrale Konstellationen: (a) Mandant hat alte Regelbeurteilung, Konkurrent eine frische Anlassbeurteilung; (b) Mandant hat juengere Anlassbeurteilung, Konkurrent steht in Regelbeurteilung. Skill liefert die Argumentationsbausteine.
 
 ## 2. Eingaben
 
-- Aerztliche Verordnung Hilfsmittel
-- Kostenvoranschlag des Hilfsmittelerbringers
-- Beihilfebescheid mit Begruendung der Teilablehnung
-- Anlage zur Beihilfeverordnung (z. B. Anlage 6 BBhV)
-- Audiogramm oder vergleichbarer Funktionsnachweis
+- Beurteilungsstichtag der Regelbeurteilung des Dienstherrn (typisch dreijaehriger Turnus, laenderspezifisch)
+- Datum der letzten Beurteilung Mandant und letzter Beurteilung des Konkurrenten
+- Beurteilungsrichtlinie des Dienstherrn (Behörden-RL, ZBR, VwV)
+- Konkurrentenmitteilung samt Auswahlvermerk
 
 ## 3. Ablauf / Checkliste
 
-### a) Beihilfefaehigkeit dem Grunde nach
-- Hilfsmittel ist beihilfefaehig, wenn medizinisch notwendig und in der Anlage der Beihilfeverordnung gelistet oder gleichgestellt.
-- Anlage 6 BBhV gibt Festbetraege für typische Hilfsmittel vor.
+### a) Aktualitaetsgrenze
+- Eine Beurteilung gilt nach staendiger Rechtsprechung des BVerwG nur eine begrenzte Zeit als hinreichend aktuell. Faustregel: rund drei Jahre, Einzelfall prüfen. Bei Aelterer Regelbeurteilung ist eine Anlassbeurteilung in der Regel geboten.
 
-### b) Festbetrag und Mehrkosten
-- Erstattung bis zum Festbetrag.
-- Mehrkosten beihilfefaehig nur bei besonderer medizinischer Notwendigkeit (z. B. hochgradige Schwerhoerigkeit, berufliche Erfordernisse, Kombination mit Cochlea-Implantat).
+### b) Anlassbeurteilung als Pflicht oder Verbot
+- Pflicht: wenn seit der letzten Beurteilung relevanter Zeitraum verstrichen ist oder eine wesentliche Veraenderung der Verwendung eingetreten ist.
+- Unzulaessig oder problematisch: wenn die Anlassbeurteilung zu einer Ungleichbehandlung der Konkurrenten fuehrt, weil nur einer eine neue Beurteilung erhaelt.
 
-### c) Medizinische Notwendigkeit
-- Aerztliche Begruendung und audiologischer Nachweis, dass das gewuenschte Geraet erforderlich ist und einfachere Hilfsmittel nicht ausreichen (BVerwG-Rechtsprechung, konkret vor Zitat frei prüfen).
+### c) Vergleichbarkeit
+- Gleicher Beurteilungsmaszstab, gleicher Beurteilungszeitraum, gleiche Beurteilungsskala — sonst Auswahlfehler.
+- Bei unterschiedlichen Beurteilungssystemen (z. B. nach Wechsel zwischen Bund und Land) ist eine "Umsetzungsbetrachtung" erforderlich; ständige Rechtsprechung, konkret vor Zitat frei prüfen.
 
-### d) Verfahren
-- Widerspruch gegen Beihilfebescheid; Klage zum VG; Aussetzungsantrag bei drohender hoher Belastung.
-- Im Eilrechtsschutz vorläufige Erstattung nur bei akutem Versorgungsbedarf.
+### d) Beurteilungszeitraum
+- Kein nahtloser Anschluss erforderlich, aber Luecke darf nicht groesser sein als der Regelturnus.
+- Beurteilungen über sehr kurzen Zeitraum (unter sechs Monaten) sind in der Regel angreifbar; Substanz im Beurteilungszeitraum nicht gegeben.
 
-### e) Cochlea-Implantat
-- Nachsorge mit Sprachprozessoren und Wartung beihilfefaehig in regelmäßigen Abstaenden; Streit oft um die Generation des Prozessors.
+### e) Verwertbarkeit
+- Eine in einem anderen Auswahlverfahren erstellte Anlassbeurteilung kann im neuen Verfahren grundsätzlich herangezogen werden, sofern weiterhin aktuell und vergleichbar.
 
 ## 4. Quellenpflicht
 
-- Normen: BBhV (insbesondere Anlage 6); landesrechtliche Beihilfeverordnungen.
-- Rspr.: BVerwG zur Beihilfefaehigkeit hochwertiger Hilfsmittel — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Normen: §§ 21, 22 BBG; § 18 BLV; Beurteilungsrichtlinien des Bundes oder des jeweiligen Landes.
+- Rspr.: BVerwG zur Aktualitaet und Vergleichbarkeit von Beurteilungen — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
 - Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
 
 ## 5. Ausgabeformat
 
-- Widerspruchsschrift mit medizinischer Begruendung.
-- Antrag auf Erstattung in voller Höhe.
+- Prüfvermerk in Memoform mit Spalten "Aktualitaet — Vergleichbarkeit — Maßstab — Spielraum".
+- Schriftsatzbaustein "Begruendung Anordnungsanspruch" für Konkurrenteneilantrag.
 
 ## 6. Verifizierte Quellenanker
 
-- BBhV insbesondere Anlage 6 (Hilfsmittel und Festbetraege); landesrechtliche Beihilfeverordnungen mit eigenen Hilfsmittelverzeichnissen.
-- Festbetragsregelung als Regelgrenze; medizinische Notwendigkeit als Maßstab für beihilfefaehige Mehrkosten.
-- BVerwG zur Beihilfefaehigkeit hochwertiger Hilfsmittel und zur Prüfung medizinischer Notwendigkeit — Datum und Az vor Zitat live verifizieren.
-- Hilfsmittelrichtlinie des G-BA und einschlaegige HNO- und audiologische Leitlinien als Begruendungsgrundlage.
+- Art. 33 Abs. 2 GG: Bestenauslese nach Eignung, Befähigung und fachlicher Leistung.
+- Art. 74 Abs. 1 Nr. 27 GG und Art. 70 GG: Statusrechtliche Bundeskompetenz, Laufbahn/Besoldung/Versorgung der Länder grundsätzlich Landesrecht.
+- BeamtStG und BBG immer nach Dienstherr trennen; Landesbeamtengesetz und Beurteilungsrichtlinien live prüfen.
+- BVerwG, 11.10.2016 - 2 C 11.15 als verifizierter Anker zu Art. 33 Abs. 2 GG und Eignungsanforderungen bei Höchstaltersgrenzen.
+- Für Spezialfragen der dienstlichen Beurteilung, Anlassbeurteilung, Binnendifferenzierung und Auswahlgespräch keine privaten Datenbankzitate verwenden; konkrete Rechtsprechung nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
 
 ## 7. Beispiel (Kurzfassung)
 
-Mandant beidseitige Schwerhoerigkeit; HNO empfiehlt Geraet mit Bluetooth und Spezialakustik für Berufstaetigkeit als Richter (Verhandlung in großen Saelen). Kostenvoranschlag 5.800 Euro, Festbetrag 1.500 Euro. Skill liefert Widerspruch mit Begruendung der Mehrkosten als medizinisch notwendig.
+Regelbeurteilung Mandant Stichtag vor 4 Jahren, Bewertung "uebertrifft die Anforderungen". Konkurrentin erhielt vor drei Monaten Anlassbeurteilung mit der gleichen Endnote. Skill liefert Argument: entweder Anlassbeurteilung auch für Mandant erforderlich oder Auswahlvergleich auf Basis veralteter Regelbeurteilung unzulaessig — Auswahlentscheidung aufzuheben.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diesen Vollprüfung als Kontext in den Chat einfuegen oder als Datei hochladen.
+1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
 2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Chat-Agent bitten, sich anhand der oben aufgefuehrten Skills zu orientieren.
-4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.
+3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
+4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.

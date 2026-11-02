@@ -1,29 +1,39 @@
 # Akte: Insolvenzforderungsanmeldungsprüfung Phoenix Solar Montage GmbH
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 189 KB) | PDF | [`gesamt-pdf/insolvenzforderungsanmeldungspruefung-phoenix-solar_gesamt.pdf`](gesamt-pdf/insolvenzforderungsanmeldungspruefung-phoenix-solar_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzforderungsanmeldungspruefung-phoenix-solar_gesamt.pdf`](gesamt-pdf/insolvenzforderungsanmeldungspruefung-phoenix-solar_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar` (Akte) | [testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip) |
+| `testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar` (Akte) | [testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzforderungsanmeldungspruefung-phoenix-solar.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Arbeitsakte für das KI-Plugin `insolvenzforderungsanmeldungspruefung`. Sie simuliert einen vollständigen Forderungsprüfungslauf nach Eröffnung des Insolvenzverfahrens über das Vermögen der Phoenix Solar Montage GmbH. Die Akte deckt alle typischen Problemlagen ab: formale Mängel, Dubletten, Sicherheiten mit unbekanntem Verwertungsausfall, besonderer Rechtsgrund (Steuerstraftat, vbuH), Nachrangdarlehen, Schuldnerwiderspruch, Feststellungsklage und abschließende Verteilung nach § 189 InsO.
 
@@ -101,6 +111,8 @@ Im Prüfungstermin erhob der Schuldner Wendler **Widerspruch** gegen zwei Forder
 | [21_forderungsanmeldung_bank.docx](21_forderungsanmeldung_bank.docx) | DOCX: Musterformular Forderungsanmeldung Havelbank AG |
 | [22_feststellungsklage_entwurf.docx](22_feststellungsklage_entwurf.docx) | DOCX: Feststellungsklageschrift Solarteile Nord GmbH gegen Marcus Wendler |
 | [23_nachforderungsschreiben_sammel.docx](23_nachforderungsschreiben_sammel.docx) | DOCX: Nachforderungsschreiben Insolvenzverwalter (alle Adressaten) |
+| [24_email_solarteile_nachfrage_widerspruch.eml](24_email_solarteile_nachfrage_widerspruch.eml) | E-Mail der Solarteile Nord GmbH: Nachfragen zu Schuldnerwiderspruch, Rechnung SN-2026-016 und Klagefrist |
+| [25_telefonvermerk_vogt_insolvenzgeld.docx](25_telefonvermerk_vogt_insolvenzgeld.docx) | Telefonvermerk der Verwalterkanzlei: Insolvenzgeld-Auszahlung an Lena Vogt, Stundenzettel, Schmerzensgeld-Rückfrage |
 
 ---
 
@@ -122,5 +134,3 @@ Diese Akte zeigt folgende typische Prüfungsprobleme im Insolvenzrecht:
 12. **Vorsteuerberichtigung** (§ 17 UStG): Entstehen der Forderung mit Eröffnung, Einordnung als Insolvenzforderung.
 
 ---
-
-## Disclaimer

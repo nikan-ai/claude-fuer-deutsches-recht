@@ -1,18 +1,25 @@
 # Akte: Revision nach abgelehntem Beweisantrag Duisburg
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 35 KB) | PDF | [`gesamt-pdf/strafrecht-revision-beweisantrag-lg-duisburg_gesamt.pdf`](gesamt-pdf/strafrecht-revision-beweisantrag-lg-duisburg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-revision-beweisantrag-lg-duisburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-revision-beweisantrag-lg-duisburg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-revision-beweisantrag-lg-duisburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-revision-beweisantrag-lg-duisburg-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-revision-beweisantrag-lg-duisburg_gesamt.pdf`](gesamt-pdf/strafrecht-revision-beweisantrag-lg-duisburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-revision-beweisantrag-lg-duisburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-revision-beweisantrag-lg-duisburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-revision-beweisantrag-lg-duisburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-revision-beweisantrag-lg-duisburg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -63,7 +70,6 @@ Mandatsbezug: Murat Candan, verurteilt wegen schweren Raubes
 
 ```
 strafrecht-revision-beweisantrag-lg-duisburg/
-├── 01_mandatsnotiz_erstgespraech.docx                  Erstkontakt, Rolle, Sofortfragen und Mandatsziel
 ├── 02_sachverhalt_chronologie.docx                     Ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                    Auszüge aus Verfahrens- und Urteilsunterlagen
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx           Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -75,10 +81,12 @@ strafrecht-revision-beweisantrag-lg-duisburg/
 ├── 10_hauptverhandlung_protokoll_chronologie.csv      Sitzungschronologie mit Quelle und Protokolldeckung (Datenauswertungs-Kern)
 ├── 11_revisionsbegruendung_bgh_2026-05-19.docx         Ausformulierte Revisionsbegründung mit Verfahrens-, Aufklärungs- und Sachrüge
 ├── 12_protokollauszug_und_mitschrift_2026-02-12.docx   Gegenüberstellung amtliches Protokoll und Verteidiger-Mitschrift
+├── 13_telefonvermerk_zeuge_nowak_2026-06-20.docx         Telefonvermerk zum Erinnerungsstand des Zeugen, GPS-Verlauf und Urlaubszeiten
 ├── eml/
 │   ├── 01_falkenberg_protokollberichtigung_2026-06-07.eml Anregung der Protokollberichtigung an den Vorsitzenden
 │   ├── 02_vorsitzender_berichtigungsvermerk_2026-06-15.eml Ablehnung der Berichtigung durch den Vorsitzenden
-│   └── 03_taxiruf_nowak_verfuegbarkeit_2026-05-12.eml     Verfügbarkeit des Zeugen Nowak und Fahrtenprotokoll
+│   ├── 03_taxiruf_nowak_verfuegbarkeit_2026-05-12.eml     Verfügbarkeit des Zeugen Nowak und Fahrtenprotokoll
+│   └── 04_lg_duisburg_aktenvorlage_bgh_2026-06-26.eml     Mitteilung der Geschäftsstelle zur Aktenvorlage an den Generalbundesanwalt
 ├── whatsapp/
 │   └── chatverlauf.txt                                  Chat Nowak/Disposition der Tatnacht: Aufnahme Bahnhof 21:18 Uhr
 ├── README.md                                            Diese Übersicht

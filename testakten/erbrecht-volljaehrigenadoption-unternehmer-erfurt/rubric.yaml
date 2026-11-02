@@ -1,11 +1,53 @@
 name: erbrecht-volljaehrigenadoption-unternehmer-erfurt
-description: Unternehmernachlass mit Volljährigenadoption, Alleinerbeneinsetzung, Pflichtteil leiblicher Kinder, GmbH-Bewertung und Erbscheinstaktik.
+plugin: "fachanwalt-erbrecht"
+description: Unternehmernachlass mit Volljährigenadoption, Alleinerbeneinsetzung, Pflichtteil leiblicher Kinder,
+  GmbH-Bewertung und Erbscheinstaktik.
 checks:
-  - Rechtskräftige Volljährigenadoption nicht vorschnell ignorieren; Bestandskraft, Rechtsbehelfe und erbrechtliche Wirkung trennen.
-  - Erbschein, Pflichtteil und Unternehmensbewertung als getrennte Ebenen behandeln.
-  - Pflichtteilsquote mit und ohne Mitzählen des Angenommenen als Streitvariante darstellen (Stück 06).
-  - Auskunfts- und Wertermittlungsansprüche priorisieren; das Verlangen nach einem notariellen Nachlassverzeichnis erkennen.
-  - Testierfähigkeit nur bei konkreten Tatsachen problematisieren.
-  - Spannungsfeld zwischen buchwertnaher Abfindungsklausel (Stück 14) und Ertragswertspanne des Steuerberaters (Stück 09) für die Pflichtteilsbemessung herausarbeiten.
-  - Fehlen der Ferienwohnung Zinnowitz in der Nachlassaufstellung der Gegenseite als Aufklärungspunkt benennen.
-  - Zuordnung der beschlossenen, nicht ausgezahlten Ausschüttung 2025 und der Kaufpreisrestforderung gegen den Erben als offene Fragen behandeln.
+  - id: datei-02-adoptionsbeschluss-und-beziehung
+    check_type: file_exists
+    description: Die eigenständige Ausfertigung des Adoptionsbeschlusses ist für die Fallauswertung vorhanden.
+    path: 02_adoptionsbeschluss_amtsgericht_erfurt_2024.docx
+  - id: datei-15-adoptionsantrag
+    check_type: file_exists
+    description: Der vollständige Adoptionsantrag mit Beziehungstatsachen und offengelegten Vermögensfolgen ist vorhanden.
+    path: 15_adoptionsantrag_beziehungsdarstellung.docx
+  - id: datei-16-bezugspersonen
+    check_type: file_exists
+    description: Die Stellungnahmen der langjährigen Bezugspersonen sind vorhanden und nicht mit einer Anhörung der leiblichen Kinder verwechselt.
+    path: 16_stellungnahmen_bezugspersonen.docx
+  - id: datei-17-anhoerungsniederschrift
+    check_type: file_exists
+    description: Die familiengerichtliche Anhörungsniederschrift ist vorhanden.
+    path: 17_familiengerichtliche_anhaerungsniederschrift.docx
+  - id: fachpruefung-01
+    check_type: human_review
+    description: Rechtskräftige Volljährigenadoption nicht vorschnell ignorieren; Bestandskraft, Rechtsbehelfe und
+      erbrechtliche Wirkung trennen.
+  - id: fachpruefung-02
+    check_type: human_review
+    description: Erbschein, Pflichtteil und Unternehmensbewertung als getrennte Ebenen behandeln.
+  - id: fachpruefung-03
+    check_type: human_review
+    description: Typ und konkrete Wirkungen der rechtskräftigen Adoption anhand des Beschlusses bestimmen und keine unbelegte Quotenvariante bilden.
+  - id: fachpruefung-04
+    check_type: human_review
+    description: Auskunfts- und Wertermittlungsansprüche priorisieren; das Verlangen nach einem notariellen Nachlassverzeichnis
+      erkennen.
+  - id: fachpruefung-05
+    check_type: human_review
+    description: Testierfähigkeit nur bei konkreten Tatsachen problematisieren.
+  - id: fachpruefung-06
+    check_type: human_review
+    description: Spannungsfeld zwischen buchwertnaher Abfindungsklausel (Stück 14) und Ertragswertspanne des Steuerberaters
+      (Stück 09) für die Pflichtteilsbemessung herausarbeiten.
+  - id: fachpruefung-07
+    check_type: human_review
+    description: Fehlen der Ferienwohnung Zinnowitz in der Nachlassaufstellung der Gegenseite als Aufklärungspunkt
+      benennen.
+  - id: fachpruefung-08
+    check_type: human_review
+    description: Zuordnung der beschlossenen, nicht ausgezahlten Ausschüttung 2025 und der Kaufpreisrestforderung
+      gegen den Erben als offene Fragen behandeln.
+  - id: fachpruefung-09
+    check_type: human_review
+    description: Fehlende förmliche Beteiligung von Nele und Peer im Adoptionsverfahren als Verfahrensfrage dokumentieren, ohne eine Rechtsfolge vorwegzunehmen.

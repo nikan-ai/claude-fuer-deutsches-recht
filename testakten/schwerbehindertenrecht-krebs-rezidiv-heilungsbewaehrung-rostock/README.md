@@ -1,18 +1,25 @@
 # Schwerbehindertenrechtsakte Krebsrezidiv Heilungsbewährung Rostock
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 26 KB) | PDF | [`gesamt-pdf/schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock_gesamt.pdf`](gesamt-pdf/schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock_gesamt.pdf`](gesamt-pdf/schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -40,7 +47,6 @@ Doreen Kahl, geboren am 30.05.1976, Verkäuferin in einer Buchhandlung in Rostoc
 ```
 schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock/
 ├── README.md                                   <- diese Übersicht
-├── 01_mandatsnotiz_onkologie.docx              <- Mandat, Erst- und Rezidiverkrankung, Verfahrensstand
 ├── 02_onkologiebericht.docx                     <- Diagnose, Funktionsfolgen, Prognose
 ├── 03_bescheid_gdb_40.docx                      <- Feststellungsbescheid mit Einzel-GdB und Begründung
 ├── 04_therapiekalender.csv                      <- Behandlungstermine, Folgen, Arbeitsausfall
@@ -62,3 +68,20 @@ schwerbehindertenrecht-krebs-rezidiv-heilungsbewaehrung-rostock/
 ## Bearbeitungsziel
 
 Aus der Zeitleiste, dem Onkologiebericht und den Stellungnahmen ist der GdB-Verlauf nachzurechnen: Erstdiagnose 2019 mit Heilungsbewährung bis 2024 (GdB 50), Herabsetzung auf 30, Rezidiv 2026 mit erneuter Geschwulstentfernung am 04.04.2026 und dadurch neuer, bis 04.04.2031 laufender Heilungsbewährung. Herauszuarbeiten ist, dass während dieser Heilungsbewährung ein Grad der Behinderung von mindestens 50 maßgeblich ist und damit die Schwerbehinderteneigenschaft besteht, während der Bescheid bei 40 verharrt. Die Diskrepanz zwischen dem Bescheidwert 40 und dem Heilungsbewährungssatz 50 sowie der widersprüchliche Umgang der Behörde mit der laufenden Therapie gehören zur Beweiswürdigung. Parallel sind Krankengeld, onkologische Reha und die Rentenabgrenzung zu sichern.
+
+---
+
+<!-- BEGIN nachgereichte-originalunterlagen -->
+## Nachgereichte Originalunterlagen
+
+Diese Dateien ergänzen den Datenraum um später eingegangene Primärunterlagen. Sie enthalten Tatsachen, Rohdaten und Korrespondenz, aber keine rechtliche Lösung.
+
+| Datei | Herkunft und Inhalt |
+| --- | --- |
+| [`16_onkologischer_verlaufsbericht_rezidiv.docx`](16_onkologischer_verlaufsbericht_rezidiv.docx) | Onkologischer Verlauf mit messbaren Funktionsbeeinträchtigungen |
+| [`17_email_arbeitgeber_fehlzeiten_anpassung.eml`](17_email_arbeitgeber_fehlzeiten_anpassung.eml) | Arbeitgebermail zur tatsächlich gelebten Arbeitsplatzanpassung |
+| [`18_therapie_lymphoedem_und_belastung.csv`](18_therapie_lymphoedem_und_belastung.csv) | Therapie-, Mess- und Fehlzeitendaten |
+| [`19_telefonvermerk_brenner_lagus.docx`](19_telefonvermerk_brenner_lagus.docx) | Telefonvermerk des Bevollmächtigten zu Aktenlage und Operationsdatum |
+| [`eml/04_lagus_zwischennachricht_widerspruch.eml`](eml/04_lagus_zwischennachricht_widerspruch.eml) | Zwischennachricht der Widerspruchsstelle mit Verfahrensstand und Fristen |
+
+<!-- END nachgereichte-originalunterlagen -->

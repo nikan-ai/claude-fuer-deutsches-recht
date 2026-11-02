@@ -1,36 +1,44 @@
 # Schifffahrtsakte
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 80 KB) | PDF | [`gesamt-pdf/seerecht-schiffshypothek-werft-wrack-bermuda_gesamt.pdf`](gesamt-pdf/seerecht-schiffshypothek-werft-wrack-bermuda_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-seerecht-schiffshypothek-werft-wrack-bermuda.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-seerecht-schiffshypothek-werft-wrack-bermuda.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-seerecht-schiffshypothek-werft-wrack-bermuda-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-seerecht-schiffshypothek-werft-wrack-bermuda-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/seerecht-schiffshypothek-werft-wrack-bermuda_gesamt.pdf`](gesamt-pdf/seerecht-schiffshypothek-werft-wrack-bermuda_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-seerecht-schiffshypothek-werft-wrack-bermuda.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-seerecht-schiffshypothek-werft-wrack-bermuda.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-seerecht-schiffshypothek-werft-wrack-bermuda-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-seerecht-schiffshypothek-werft-wrack-bermuda-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 Schifffahrtsakte: Werftvertrag, Schiffshypothek, Bermuda-Flagge, Wrack, Arrest, P&I und ITLOS/UNCLOS-Notiz.
 
-## Dateien
+## Kernunterlagen
 
 | Datei | Inhalt |
-|---|---|
-| `01-sachverhalt-und-akte.docx` | Ausgangslage, Personen, Behörden/Gegner und Problemkern |
-| `02-fristen-kosten-risiken.csv` | Fristen-, Kosten- und Risikomatrix |
-| `03-email-anfrage-oder-behoerdenpost.eml` | E-Mail/Behördenpost aus der Akte |
-| `04-arbeitsvermerk.docx` | Arbeitsvermerk als Word-Datei |
-| `05-dashboard.xlsx` | Tracker-/Dashboard-Tabelle |
-| `06-bildanlage-lagekarte.jpg` | Bildanlage/Lagekarte als JPG |
-| `07-entwurf-naechster-schritt.docx` | Entwurf für Antrag, Widerspruch, Klagebaustein oder Strategie |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
-
+| --- | --- |
+| `01_werft_schlussrechnung_ms_nordlicht_vale.docx` | MS NORDLICHT VALE, IMO 9384412 · Schlussrechnung Dockung und Reparatur |
+| `02_werftrechnungen_zahlungen_und_sicherheiten.xlsx` | Tabellarische Rohdaten Werftkonto mit 6 Datensätzen |
+| `03_email_bank_hypothek_und_auszahlung.eml` | E-Mail mit vollständigem Header: MS NORDLICHT VALE / Bermuda mortgage BMA-77184 / Werftzahlung |
+| `04_hafenbehoerde_wrackbeseitigung_2026-04-08.docx` | MS NORDLICHT VALE · gesunkener Vorschiffsbereich am Liegeplatz 7 |
+| `05_ereignislog_havarie_und_hafenmassnahmen.csv` | Rohdatenexport mit 7 Einträgen und unveränderten Quellenangaben |
+| `06_email_pi_deckungsvorbehalt_2026-04-07.eml` | E-Mail mit vollständigem Header: Without prejudice / NORDLICHT VALE casualty Emden / P&I 441-982 |
+| `07_kapitaensbericht_wassereinbruch_2026-04-06.docx` | Master’s report concerning water ingress at berth 7 |
+| `08_zahlungserinnerung_werft_2026-03-27.docx` | Zahlungserinnerung der Werft über 425100,00 Euro mit Fristsetzung zum 3. April und Zurückbehaltung der Klassenbescheinigungen |
+| `09_chatprotokoll_lenz_voss_2026-04-06.txt` | Gesicherter Chatverlauf Kapitän Lenz / Werft-Projektleiter Voss aus der Havarienacht, u. a. zum fehlenden Abdrückprotokoll |
+| `10_liegeplatz_und_bergungskosten_aufstellung.csv` | Laufende Kostenaufstellung zu Schleppern, Ölsperre, Tauchern und angekündigtem Liegeplatz-Nutzungsausfall |
 ## Passende Plugins
 
 `seerecht-schifffahrtsrecht`

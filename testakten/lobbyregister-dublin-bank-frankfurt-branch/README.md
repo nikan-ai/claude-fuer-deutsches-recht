@@ -1,29 +1,39 @@
 # Akte Lobbyregister: Emerald Liffey Bank plc / Zweigniederlassung Frankfurt
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 69 KB) | PDF | [`gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf`](gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-lobbyregister-dublin-bank-frankfurt-branch.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf`](gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-lobbyregister-dublin-bank-frankfurt-branch.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-lobbyregister-dublin-bank-frankfurt-branch` (Akte) | [testakte-lobbyregister-dublin-bank-frankfurt-branch.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip) |
+| `testakte-lobbyregister-dublin-bank-frankfurt-branch` (Akte) | [testakte-lobbyregister-dublin-bank-frankfurt-branch.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 Akte für das Plugin `lobbyregister-bundestag`. Sie bündelt die schwierige Eintragungseinheit bei einer ausländischen Bank mit unselbstständiger deutscher Zweigniederlassung.
 
@@ -44,7 +54,7 @@ Muss, darf oder soll die Bank im Lobbyregister einmal oder zweimal erscheinen?
 | Datei | Inhalt |
 |---|---|
 | [00_aktenuebersicht.md](00_aktenuebersicht.md) | Aktenplan, Prüffokus und Arbeitsauftrag |
-| [01_mandatsanfrage_email.txt](01_mandatsanfrage_email.txt) | E-Mail der Bank an die Kanzlei |
+| [01_mandatsanfrage_email.eml](01_mandatsanfrage_email.eml) | E-Mail der Bank an die Kanzlei |
 | [02_cro_registerauszug_dublin.docx](02_cro_registerauszug_dublin.docx) | Irischer Registerauszug |
 | [03_handelsregister_frankfurt_zweigniederlassung.docx](03_handelsregister_frankfurt_zweigniederlassung.docx) | Handelsregisterauszug der Zweigniederlassung |
 | [04_bafin_passporting_notiz.docx](04_bafin_passporting_notiz.docx) | Notiz zu BaFin/Passporting und Erlaubnislage |
@@ -72,9 +82,9 @@ Muss, darf oder soll die Bank im Lobbyregister einmal oder zweimal erscheinen?
 | [25_api_abfrageplan_open_data.docx](25_api_abfrageplan_open_data.docx) | API-Abfrageplan für Dublin/Frankfurt-Dublettencheck |
 | [26_api_mock_response_dublin.json](26_api_mock_response_dublin.json) | API-Antwort für den veröffentlichten Dublin-Eintrag |
 | [27_registerexport_diff_dublin.docx](27_registerexport_diff_dublin.docx) | Diff zwischen Freigabeakte und öffentlichem API/API-Export |
+| [28_email_rfs_eingangsbestaetigung.eml](28_email_rfs_eingangsbestaetigung.eml) | Eingangsbestätigung der registerführenden Stelle mit Nachforderungen und Hinweis auf laufende Registrierungsverantwortung |
+| [29_protokollfragment_compliance_call_dublin_frankfurt.docx](29_protokollfragment_compliance_call_dublin_frankfurt.docx) | Unvollständiges Protokoll des Compliance-Calls: Terminlage Juli, Streit um den Finanzblock des Portalentwurfs |
 
 ## Prüffokus
 
 Die Akte zwingt das Plugin, `personen-organisationstyp`, `konzern-netzwerk-plattform`, `erstregistrierung-ausfuellen`, `registereintrag-finalcheck`, `registerfuehrende-stelle-kontakt`, `suche-open-data-monitor` und `fristen-und-quartalsmonitor` zusammenzuspielen. Entscheidend ist nicht eine voreilige Antwort, sondern eine saubere Registerpraxis: Primärentwurf, Streitvermerk, RfS-Anfrage, API-Dublettencheck und keine Doppelung ohne Klärung.
-
-## Disclaimer
