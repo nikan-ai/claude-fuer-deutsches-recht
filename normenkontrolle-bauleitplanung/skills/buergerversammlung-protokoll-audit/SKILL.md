@@ -1,6 +1,6 @@
 ---
 name: buergerversammlung-protokoll-audit
-description: "Wenn es um Bürgerversammlung — Protokoll-Audit in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Bürgerversammlung — Protokoll-Audit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bürgerversammlung — Protokoll-Audit
@@ -138,4 +138,4 @@ description: "Wenn es um Bürgerversammlung — Protokoll-Audit in Normenkontrol
 
 ## Aktuelle Rechtsprechung — Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

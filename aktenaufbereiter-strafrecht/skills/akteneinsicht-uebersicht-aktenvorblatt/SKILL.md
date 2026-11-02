@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-uebersicht-aktenvorblatt
-description: "Wenn es um Akteneinsicht-Übersicht in Aktenaufbereiter Strafrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Akteneinsicht-Übersicht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Aktenaufbereiter Strafrecht. Route: akteneinsicht-uebersicht-aktenvorblatt."
 ---
 
 # Akteneinsicht-Übersicht
@@ -48,25 +48,3 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46b StGB
-- § 203 StGB
-- § 46 StGB
-- § 73a StGB
-- § 73c StGB
-- § 73e StGB
-- § 46a StGB
-- § 49 StGB
-- § 47 StGB
-- Art. 6 EMRK
-- § 27 StGB
-- § 244a StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

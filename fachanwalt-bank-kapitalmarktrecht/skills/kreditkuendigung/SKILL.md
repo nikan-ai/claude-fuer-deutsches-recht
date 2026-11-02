@@ -1,6 +1,6 @@
 ---
 name: kreditkuendigung
-description: "Wenn es um Kreditkuendigung in Fachanwalt Bank Kapitalmarktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kreditkündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bank Kapitalmarktrecht. Route: kreditkuendigung."
 ---
 
 # Fachanwalt Bank Kapitalmarktrecht Kreditkuendigung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -33,7 +33,6 @@ description: "Wenn es um Kreditkuendigung in Fachanwalt Bank Kapitalmarktrecht g
 - Allgemeines Kündigungsrecht aus wichtigem Grund § 314 BGB — Abmahnung erforderlich falls Pflichtverletzung.
 - Bei Verbraucherdarlehen § 498 BGB: qualifizierter Zahlungsverzug erforderlich (zwei aufeinander folgende Raten ganz oder teilweise; bei Restlaufzeit > 3 Jahre 10 %, bei kürzerer 5 % des Nennbetrags); zweiwöchige Heilungsfrist nach Mahnung.
 - AGB-Banken Nr. 19 (ordentliche Kündigung) und Nr. 26 (außerordentliche Kündigung) — AGB-Kontrolle § 307 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Treu und Glauben § 242 BGB — Kündigung zur Unzeit oder ohne überwiegenden Bankinteressen.
 
 ## Beweislast und Frist
@@ -103,7 +102,6 @@ Mit freundlichen Gruessen
 
 ### Leitsaetze Kreditkuendigung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Kette
 
@@ -169,28 +167,3 @@ Wir fordern Zuruecknahme der Kuendigung bis [DATUM +7 Tage].
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 82 DSGVO
-- § 64 WpHG
-- § 263 StGB
-- § 4b FinDAG
-- § 31 BDSG
-- § 44 KWG
-- § 10 ZAG
-- § 1 KWG
-- § 32 KWG
-- § 25a KWG
-- § 1 ZAG
-- Art. 22 DSGVO
-
-### Leitentscheidungen
-
-- BGH XI ZR 22/24
-- BGH XI ZR 133/24
-- EuGH C-26/22
-- EuGH C-634/21
-- BGH VI ZR 183/22

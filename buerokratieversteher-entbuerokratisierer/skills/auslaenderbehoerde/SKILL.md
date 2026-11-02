@@ -1,6 +1,6 @@
 ---
 name: auslaenderbehoerde
-description: "Wenn es um Ausländerbehörde in Bürokratieversteher und Entbürokratisierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ausländerbehörde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ausländerbehörde
@@ -44,25 +44,3 @@ Für Laien gilt: Das Plugin erklärt vorsichtig und respektvoll. Es empfiehlt be
 - frei prüfbare Rechtsprechung nur mit Gericht, Datum und Aktenzeichen
 - Bei Landesrecht, Kommunalrecht, Satzungen, Wahlvorschriften, Formularen, Fristen oder Behördenpraxis immer Live-Check markieren, wenn keine aktuelle amtliche Quelle vorliegt.
 - Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate; Rechtsprechung nur verifiziert mit Gericht, Datum, Aktenzeichen und frei prüfbarem Link.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 70 VwGO
-- § 80 VwGO
-- § 28 VwVfG
-- § 123 VwGO
-- Art. 3 GG
-- § 60 VwGO
-- § 5 VIG
-- § 75 VwGO
-- § 40 VwVfG
-- § 10 StAG
-- § 86b SGG
-- § 183 SGG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

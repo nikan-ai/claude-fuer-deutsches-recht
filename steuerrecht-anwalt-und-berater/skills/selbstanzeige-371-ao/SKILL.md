@@ -1,19 +1,19 @@
 ---
 name: selbstanzeige-371-ao
-description: "Wenn es um Selbstanzeige — Paragraf 371 AO Wirksamkeit Sperrgruende und Strafmilderung in Steuerrecht – Steuerberater und Anwälte geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Selbstanzeige — Paragraf 371 AO Wirksamkeit Sperrgründe und Strafmilderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Selbstanzeige — § 371 AO Wirksamkeit Sperrgruende und Strafmilderung
 
 ## Fachlicher Anker
 
-- **Normen:** § 371 AO, § 6a, § 371 Abs. 1 AO.
+- **Normen:** § 371 Abs. 1 bis 3 AO, § 398a AO und § 153 AO.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Triage — kläre vor der Bearbeitung
 
-1. Sind alle Steuerarten und Veranlagungszeitraeume seit den letzten zehn Jahren erfasst (Vollstaendigkeit § 371 Abs. 1 AO)?
+1. Sind zu jeder betroffenen Steuerart sämtliche unverjährten Steuerstraftaten, mindestens aber alle Steuerstraftaten dieser Steuerart innerhalb der letzten zehn Kalenderjahre, vollständig erfasst (§ 371 Abs. 1 AO)? Die Vollständigkeit je Steuerart prüfen; zehn Jahre sind keine allgemeine Obergrenze.
 2. Liegt ein Sperrgrund § 371 Abs. 2 AO vor (Prüfungsanordnung Einleitung Erscheinen des Prüfers Tatentdeckung)?
 3. Kann der Hinterziehungsbetrag innerhalb der gesetzten Frist gezahlt werden (§ 371 Abs. 3 AO)?
 4. Liegt der Hinterziehungsbetrag über 25 000 Euro je Tat — § 398a AO Zuschlag 10 bis 20 Prozent zu beachten?
@@ -30,7 +30,6 @@ description: "Wenn es um Selbstanzeige — Paragraf 371 AO Wirksamkeit Sperrgrue
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesfinanzhof.de, bundesverfassungsgericht.de, dejure.org, openjur.de, gesetze-im-internet.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
 
 ## Zentrale Normen
@@ -70,3 +69,5 @@ Es wird gebeten von der Einleitung eines Strafverfahrens abzusehen.
 - Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
 - Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
 - Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

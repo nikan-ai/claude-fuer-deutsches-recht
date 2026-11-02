@@ -1,6 +1,6 @@
 ---
 name: einschlaegige-normen-vorschlagen-de
-description: "Wenn es um Einschlägige Normen vorschlagen — Deutsches Recht in Subsumtions-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Einschlägige Normen vorschlagen — Deutsches Recht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Einschlägige Normen vorschlagen — Deutsches Recht
@@ -28,12 +28,6 @@ description: "Wenn es um Einschlägige Normen vorschlagen — Deutsches Recht in
 - Bereicherungsrecht: §§ 812 ff. BGB — subsidiär zu Vertrag
 - Strafrecht: §§ 263, 266, 303, 223, 242, 249 StGB — Strafantrag bei Antragsdelikten (§ 77 StGB, 3 Monate)
 - Verwaltungsrecht: § 35 VwVfG (VA-Definition), § 42 VwGO (Anfechtungs-/Verpflichtungsklage)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026: BGH VI ZR 188/17 geloescht – AZ existiert (19.01.2021, NJW 2021, 1818), betrifft aber Haftungsmassstab Sporttrainer (Tischtennis-Erste-Hilfe), nicht Einbeziehung AGB / Schutzgesetz § 823 Abs. 2 BGB (WRONG_TOPIC). BGH VI ZR 26/21 geloescht – AZ auf dejure.org nicht auffindbar (NOT_FOUND). -->
 
 ## Schritt-für-Schritt-Vorgehen
 
@@ -91,3 +85,5 @@ Das System weist ausdrücklich darauf hin, dass:
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

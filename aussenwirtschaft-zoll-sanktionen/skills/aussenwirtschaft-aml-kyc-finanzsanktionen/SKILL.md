@@ -1,6 +1,6 @@
 ---
 name: aussenwirtschaft-aml-kyc-finanzsanktionen
-description: "Wenn es um AML/KYC und Sanktionen: Risikobasierte Kundenpruefung und Sanktionsscreening in Außenwirtschaft, Sanktionen, Zoll und CBAM geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für AML/KYC und Sanktionen: Risikobasierte Kundenprüfung und Sanktionsscreening: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AML/KYC und Sanktionen: Risikobasierte Kundenpruefung und Sanktionsscreening
@@ -77,25 +77,3 @@ Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbeson
 - [EU Finanzsanktionsliste (FSDB)](https://eeas.europa.eu/topics/sanctions-policy/8442/consolidated-list-sanctions_en)
 - [BaFin Merkblatt Geldwaeschegesetz](https://www.bafin.de/DE/Aufsicht/Geldwaeschebekaempfung/geldwaeschebekaempfung_node.html)
 - [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 18 AWG
-- § 22 AWG
-- § 130 OWiG
-- § 22 ZollVG
-- § 14 AWG
-- § 19 AWG
-- § 10 ZollVG
-- § 10-17 GwG
-- § 21 ZollVG
-- § 43 GwG
-- § 9 AWG
-- § 25 UmwG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

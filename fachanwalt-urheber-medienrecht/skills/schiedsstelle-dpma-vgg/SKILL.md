@@ -1,6 +1,6 @@
 ---
 name: schiedsstelle-dpma-vgg
-description: "Wenn es um Schiedsstellenverfahren beim DPMA nach VGG einleiten oder verteidigen in Fachanwalt Urheber Medienrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schiedsstellenverfahren beim DPMA nach VGG einleiten oder verteidigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schiedsstellenverfahren beim DPMA nach VGG einleiten oder verteidigen
@@ -108,10 +108,8 @@ description: "Wenn es um Schiedsstellenverfahren beim DPMA nach VGG einleiten od
 - **Plattform-Streit**: DSM-RL Art. 17 Übergangs-Themen
 - **Lizenz-Audit**: vorsichtig, DSGVO-Konflikt
 
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellen und Updates
 
 Stand: 05/2026. VGG seit 2016. DPMA-Schiedsstellen-Praxis stabil. DSM-RL ab 7.6.2021 (Online-Inhalte).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

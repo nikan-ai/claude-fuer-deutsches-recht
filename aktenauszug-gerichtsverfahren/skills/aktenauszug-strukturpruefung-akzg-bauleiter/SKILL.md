@@ -1,6 +1,6 @@
 ---
 name: aktenauszug-strukturpruefung-akzg-bauleiter
-description: "Wenn es um Aktenauszug — Strukturprüfung in aktenauszug-gerichtsverfahren geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aktenauszug — Strukturprüfung: ordnet Akte, Belege und Lücken; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Aktenauszug — Strukturprüfung
@@ -26,10 +26,6 @@ description: "Wenn es um Aktenauszug — Strukturprüfung in aktenauszug-gericht
 - § 253 ZPO — Inhalt der Klageschrift (Mindestinhalt als Vergleichsmassstab)
 - § 495a ZPO — Vereinfachtes Verfahren unter 600 EUR
 - §§ 355-414 ZPO — Beweisaufnahme (Zeugenbeweis, Sachverständigenbeweis, Augenschein)
-
-## Rechtsprechung zu Vollstaendigkeit und Ordnung der Akte
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfcheckliste
 
@@ -122,27 +118,9 @@ description: "Wenn es um Aktenauszug — Strukturprüfung in aktenauszug-gericht
 
 Adressat: Sachbearbeiter / Kanzleiintern — Tonfall: sachlich-juristisch, präzise Mängelangabe.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 4 KSchG
-- § 80 VwGO
-- § 86b SGG
-- § 74 VwGO
-- § 124 VwGO
-- § 64 ArbGG
-- § 72 ArbGG
-- § 132 VwGO
-- § 123 VwGO
-- § 103 SGG
-- § 151 SGG
-- § 66 ArbGG
+Ein Aktenauszug übernimmt Rechtsprechung nicht als bloße Aktenzeichenliste. Jede Entscheidung wird mit Gericht, Datum, Aktenzeichen, Fundstelle, Streitfrage, tragender Aussage und prozessualer Bedeutung erfasst. Akteneinsicht und Aktenzugang richten sich nach dem konkreten Verfahren, insbesondere Paragraf 299 ZPO, Paragraf 147 StPO, Paragraf 100 VwGO, Paragraf 120 SGG oder Paragraf 13 FamFG; Normen verschiedener Rechtswege nicht vermischen.
 
-### Leitentscheidungen
-
-- BGH VII ZB 36/20
-- BGH VI ZR 146/19
-- BGH VI ZR 84/19
-- BGH VI ZR 396/18
-- BGH VII ZR 131/13
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

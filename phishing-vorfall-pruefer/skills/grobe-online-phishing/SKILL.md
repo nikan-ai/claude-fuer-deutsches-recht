@@ -1,6 +1,6 @@
 ---
 name: grobe-online-phishing
-description: "Wenn es um Grobe: Formular, Portal und Einreichungslogik in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Grobe: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Grobe: Formular, Portal und Einreichungslogik
@@ -36,7 +36,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Definition grobe Fahrlässigkeit:** Verletzung der im Verkehr erforderlichen Sorgfalt in besonders schwerem Maße, naheliegende Überlegungen werden nicht angestellt.
 - **Beweislast:** Bank (§ 675w S. 4 BGB), die Behauptung allein genügt nicht.
 - **Typische "grobe Fahrlässigkeit"-Argumente der Bank — und Gegenargumente:**
- - "Kunde klickte auf Link in Phishing-Mail" — laut BGH XI ZR 91/14 (26.01.2016) reicht das *nicht*, sofern Mail täuschend echt war.
+ - "Das Protokoll zeigt eine erfolgreiche Authentifizierung" — daraus folgt nach BGH XI ZR 91/14 (26.01.2016) weder ohne Weiteres die Autorisierung noch ein allgemeiner Anscheinsbeweis grober Fahrlässigkeit; Sicherungsverfahren und konkreter Ablauf sind getrennt zu beweisen.
  - "Kunde gab PIN/TAN über Anruf weiter" — kommt auf Vortäuschungsqualität an; Call-ID-Spoofing kann nicht-grob fahrlässig sein.
  - "Kunde gab mehrere TANs" — könnte grobe Fahrlässigkeit nahelegen, wenn typische Bankhinweise ignoriert wurden.
  - "Kunde hat AGB-Warnhinweise ignoriert" — nur, wenn diese verständlich, prominent und konkret waren.
@@ -44,7 +44,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 ## Bank-Formularwege Reklamation
 - **Bankenformulare**: oft "Reklamation nicht autorisierte Zahlung" oder "Schadensanzeige"; alle Banken haben eigene Formulare/Online-Portale.
 - **Schlichtungsantrag:** Webformular der zuständigen Schlichtungsstelle (Bundesbank, Bankenverband-Ombudsmann, DSGV-Schlichter, BVR-Schlichter).
-- **BaFin-Beschwerde:** über bafin.de — keine direkten Anspruchsdurchsetzung, aber aufsichtsrechtliche Hebelwirkung.
+- **BaFin-Beschwerde:** über bafin.de — keine direkte Anspruchsdurchsetzung, aber aufsichtsrechtliche Hebelwirkung.
 
 ## Praxis-Tipp
-Bei "grobe Fahrlässigkeit"-Streit auf Bankspezifika der Nutzerführung achten: Wurde der Kunde durch täuschend echte App- oder Webseite getäuscht? Hat die Bank-App keine Anti-Phishing-Warnung? War der TAN-Bestätigungsdialog ausreichend deutlich? Beweisanforderungen verschieben sich zunehmend zugunsten des Kunden, wenn die Bank die Erkennung nicht aktiv unterstützt.
+Beim Streit über grobe Fahrlässigkeit die tatsächlich sichtbare Nutzerführung, Hinweise, erkennbare Täuschung und die konkrete Handlung würdigen. Weder das Fehlen einer allgemeinen Anti-Phishing-Warnung noch eine täuschend echte Oberfläche entscheidet die Haftung automatisch. Die Bankbeweislast folgt aus Paragraf 675w BGB; keinen unbelegten Rechtsprechungstrend behaupten. Der Verschuldensstreit betrifft den möglichen späteren Rückgriff und darf die unverzügliche Erstattung nicht allein aufschieben (EuGH, Urt. v. 15.10.2026 – Az. C-70/25, Rn. 31–42 und 46; [Quelle und Grenzen](../../references/eugh-c-70-25-tukowiecka.md)).

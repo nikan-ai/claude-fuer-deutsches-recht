@@ -1,6 +1,6 @@
 ---
 name: plaedoyer-vorbereitung-strafverteidigung
-description: "Wenn es um Plaedoyer Vorbereitung Strafverteidigung in Fachanwalt Strafrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Plädoyer Vorbereitung Strafverteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Plaedoyer für Strafverteidigung vorbereiten und strukturieren: Anwendungsfall nach Abschluss der Beweisaufnahme muss Strafverteidiger Schlusspledoyer mit Schuldfrage Strafzumessung und Verfahrenshindernissen vorbereiten
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -82,7 +80,6 @@ Das Plädoyer ist der letzte große Auftritt der Verteidigung in der Hauptverhan
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -158,7 +155,6 @@ III. RECHTLICHE WÜRDIGUNG
 IV. STRAFZUMESSUNG (hilfsweise)
  Strafrahmen: § [X] StGB: [Mindeststrafe] bis [Höchststrafe].
  Strafmilderung:
- - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  - Erstmals straffällig
  - Schadenswiedergutmachung: [Betrag EUR] bereits geleistet
  - Familie: [X] Kinder, Alleinverdiener
@@ -264,7 +260,6 @@ Timing: Kurz (1–3 Minuten). Wirkung: Menschlichkeit zeigen.
 |---|---|
 | "Geständnis wurde freiwillig abgelegt" | § 136a StPO prüfen; Geständnis nach langer Vernehmung ohne Pause, unter psychischem Druck oder nach falscher Versprechung kann Verwertungsverbot begründen |
 | "Zeuge ist glaubwürdig, kein Grund zur Zweifel" | Methodische Glaubwürdigkeitsprüfung: Konstanz (Aussage-Polizei vs. HV), Detailreichtum, Eigeninteresse; BGH-Maßstäbe (BGH NStZ 2007, 112) |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Keine Revision möglich, da Berufungsurteil" | § 333 StPO erlaubt Revision auch gegen Berufungsurteile; Verfahrensrügen aus der Berufungsverhandlung sind rügefähig |
 
 ---
@@ -306,3 +301,5 @@ Timing: Kurz (1–3 Minuten). Wirkung: Menschlichkeit zeigen.
 ## Quellen
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

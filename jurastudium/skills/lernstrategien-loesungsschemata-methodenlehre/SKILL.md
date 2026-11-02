@@ -1,6 +1,6 @@
 ---
 name: lernstrategien-loesungsschemata-methodenlehre
-description: "Wenn es um Lernstrategien für Jura in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Lernstrategien für Jura: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Lernstrategien für Jura
@@ -18,9 +18,6 @@ description: "Wenn es um Lernstrategien für Jura in Jurastudium geht: prüft Fr
 2. Welche Lernstrategie soll eingesetzt oder verbessert werden: Spaced Repetition, Retrieval Practice, Interleaving?
 3. Gibt es konkrete Schwachstellen (Vergessen nach kurzer Zeit, Subsumtionsprobleme, Zeitdruck)?
 4. Wie viel Zeit steht pro Lerneinheit zur Verfuegung?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 195 BGB — Regelverjaehrung: Muster-Anker für Spaced Repetition im Schuldrecht
@@ -113,3 +110,5 @@ description: "Wenn es um Lernstrategien für Jura in Jurastudium geht: prüft Fr
 - Sie schreibt keinen fertigen Lernplan (das macht `lernplan`).
 - Sie gibt keine pauschale "so musst du lernen"-Antwort. Sie nennt Strategien, der Studenten wählt.
 - Sie ist keine Motivationsberatung. Wer kein Examen schreiben will, lernt nicht effektiver, weil ein Plugin Ratschläge gibt.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

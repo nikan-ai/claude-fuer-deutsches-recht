@@ -1,6 +1,6 @@
 ---
 name: audit-rights-supplier
-description: "Wenn es um Audit-Rechte gegenüber Lieferanten in Internationales Handelsrecht und Lex Mercatoria geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Audit-Rechte gegenüber Lieferanten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Audit-Rechte gegenüber Lieferanten
@@ -48,28 +48,3 @@ Audit-Rechte in Lieferverträgen ermöglichen dem Auftraggeber die Überprüfung
 - LkSG-Risikoanalyse: erst Fragebogen, dann risikobasiert physisches Audit
 - CAR-Prozess: Frist setzen (30/60/90 Tage je nach Schwere); Follow-up-Audit verankern
 - Shared Audit: SEDEX/EcoVadis-Plattform für Multi-Stakeholder-Auditsharing nutzen
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 6 UStG
-- § 17 UWG
-- § 13b UStG
-- § 69a UrhG
-- § 9 GeschGehG
-- § 19 AktG
-- § 5 HGeschGehG
-- § 14 MarkenG
-- Art. 28 DSGVO
-- Art. 101 AEUV
-- Art. 29 EUV
-- Art. 215 AEUV
-
-### Leitentscheidungen
-
-- BGH VIII ZR 136/01
-- EuGH C-126/97
-- BGH VIII ZR 274/98
-- BGH VIII ZR 304/00
-- EuGH C-311/18

@@ -1,6 +1,6 @@
 ---
 name: anschluss-router
-description: "Wenn es um Produktrecht — Allgemein in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Produktrecht — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Produktrecht — Allgemein
@@ -69,7 +69,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -105,19 +105,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `feature-risikobewertung` | Tiefgehende Risikobewertung für ein einzelnes Feature oder einen Produktbereich wenn der Launch-Review etwas gefunden hat das mehr als eine Tabellenzeile braucht. Strukturierte Analyse: was könnte schiefgehen, wie… |
-| `impressum-pflicht` | Prüft die Impressumspflicht für Websites, Apps und Social-Media-Profile nach §§ 5 und 6 DDG und § 18 MStV, erstellt konforme Impressumstexte und identifiziert typische Abmahnrisiken nach UWG. Lädt bei Fragen zu… |
-| `ist-das-ein-problem` | Schnelle "Ist-das-ein-Problem?\"-Antwort für die schnelle Slack-Frage – muster-erkennt gegen Ihre Kalibrierung. Verwenden wenn der Nutzer sagt "ist das ein Problem\", "kurze Frage\", "können wir X machen\", "brauche… |
-| `launch-pruefung` | Produktmanager oder Rechtsabteilung will vor dem Launch prüfen ob das Produkt oder Feature produktrechtlich freigegeben werden kann. Vollständige rechtliche Freigabeprufung gegen konfiguriertes Prüfrahmenwerk und… |
-| `preisangaben` | Prüft die Einhaltung der Preisangabenverordnung 2022 (PAngV) bei Gesamtpreisen, Grundpreisen, Streichpreisen und Versandkosten, insbesondere die 30-Tage-Niedrigstpreisregel bei Preisreduzierungen. Lädt bei Fragen zu… |
-| `produktrecht-anpassen` | Geführte Anpassung Ihres Produktrecht-Praxisprofils – eine Sache ändern ohne das gesamte Kaltstart-Interview erneut auszuführen. Risikokalibrierung, Eskalationskontakte, Launch-Review-Framework, Werbeaussagen-Haltung… |
-| `produktrecht-kaltstart-interview` | Produktrecht-Plugin erstmalig einrichten und Launch-Tracker verbinden sowie Risikokalibrierung der Rechtsabteilung erfassen. Verbindet Launch-Tracker liest vergangene Reviews lernt Risikokalibrierung. Normen ProdSG… |
-| `produktrecht-mandat-arbeitsbereich` | Verwaltung von Produktmandats-Workspaces — Anlegen, Auflisten, Wechseln, Schließen oder Deaktivieren (auf Kanzleiebene). Lädt, wenn der Nutzer ein neues Mandat anlegen, zwischen Mandaten wechseln, ein Mandat… |
-| `werbeaussagen-pruefung` | Prüfung von Werbeaussagen auf Irreführungs- und Wettbewerbsrechtsrisiken nach deutschem und europäischem Recht. Lädt, wenn der Nutzer "Werbetext prüfen\", "Marketingaussagen freigeben\", "UWG-Prüfung\", "Health… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -187,7 +181,7 @@ Das Plugin richtet sich an ein internes Rechts-Ops-Publikum: Entscheider in Rech
 
 - **Impressumspflicht gilt auch für Social-Media-Profile** — Gewerblich genutzte Profile bei Instagram, LinkedIn oder X müssen vollstaendiges Impressum enthalten oder klar darauf verlinken.
 - **30-Tage-Regel ist keine Empfehlung, sondern Pflicht** — Streichpreise müssen auf dem Niedrigstpreis der letzten 30 Tage vor Reduzierung basieren; Verstaesse sind abmahnbar.
-- **KI-Features benoetigen KI-VO-Check** — Der AI Act gilt für KI-Systeme ab August 2026 in vollem Umfang; Hochrisiko-Systeme und verbotene Praktiken müssen vorab identifiziert werden.
+- **KI-Verordnung bei Systemen und Produkten:** Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. GPAI grundsätzlich seit 02.08.2025, Altmodelle nach Artikel 111 Absatz 3 gesondert. Für Produkte Artikel 2 Absatz 2, Artikel 6 Absätze 1 bis 1c und Anhang I Abschnitt A/B unterscheiden. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Health Claims erfordern Zulassung** — Nicht zugelassene Gesundheitsversprechen sind ohne Ausnahme unzulaessig; Positivliste VO 1924/2006 ist abschliessend.
 - **Risikokalibrierung ist Ausgangspunkt** — Ohne konfiguriertes Praxisprofil liefert das Plugin nur generische Ergebnisse; `produktrecht-kaltstart-interview` zuerst ausfuehren.
 
@@ -207,28 +201,6 @@ Das Plugin richtet sich an ein internes Rechts-Ops-Publikum: Entscheider in Rech
 - UWG in der geltenden Fassung — [gesetze-im-internet.de](https://www.gesetze-im-internet.de/uwg_2004/)
 - **GPSR (EU) 2023/988** — Allgemeine Produktsicherheitsverordnung; **seit 13.12.2024 unmittelbar anwendbar** in allen EU-Mitgliedstaaten; ersetzt RL 2001/95/EG; bindet Hersteller, Einführer, Bevollmächtigte, Händler, Fulfillment-Dienstleister und Online-Marktplätze; ergänzend zu sektorspezifischen Rechtsakten — [EUR-Lex 32023R0988](https://eur-lex.europa.eu/eli/reg/2023/988/oj).
 - **Produkthaftungs-RL (EU) 2024/2853** — Neue Produkthaftungsrichtlinie; Umsetzungsfrist in nationales Recht **bis 09.12.2026**, gilt für Produkte, die **nach dem 09.12.2026** in Verkehr gebracht oder in Betrieb genommen werden; weitgefasster Produktbegriff (auch Software, digitale Konstruktionsunterlagen, Elektrizität, Rohstoffe); Streichung des 500-EUR-Selbstbehalts und der 85-Mio-EUR-Obergrenze; Haftung auch von Importeuren, Beauftragten, Fulfillment-Dienstleistern und bestimmten Online-Plattform-Anbietern — [EUR-Lex 32024L2853](https://eur-lex.europa.eu/eli/dir/2024/2853/oj).
-- **KI-VO (EU) 2024/1689** in der geltenden Fassung; Verbote Art. 5 anwendbar seit 02.02.2025; Allgemeine KI-Modelle (GPAI) ab 02.08.2025; Hochrisiko-KI-Pflichten in der Hauptanwendung ab **02.08.2026** — [EUR-Lex 32024R1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj).
+- **KI-Verordnung bei Systemen und Produkten:** Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. GPAI grundsätzlich seit 02.08.2025, Altmodelle nach Artikel 111 Absatz 3 gesondert. Für Produkte Artikel 2 Absatz 2, Artikel 6 Absätze 1 bis 1c und Anhang I Abschnitt A/B unterscheiden. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Maschinenverordnung (EU) 2023/1230** — anwendbar ab 20.01.2027.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 DDG
-- § 6 UWG
-- § 5 UWG
-- § 5a UWG
-- § 3 UWG
-- § 203 StGB
-- § 1-4 ProdHaftG
-- § 1 ProdHaftG
-- § 7 UWG
-- § 16 DDG
-- § 25 TDDDG
-- § 5-6 DDG
-
-### Leitentscheidungen
-
-- EuGH C-249/21
-- BGH VI ZR 721/15
-- BGH VI ZR 405/18
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,0 +1,400 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Behandlungsakte und Gutachten vor Pflichtübersicht; rechtliche Bewertung von medizinischer Beleglage getrennt und angefragtes Anspruchsschreiben vollständig vorgesehen.",
+    "files": [
+      {
+        "path": "fachanwalt-medizinrecht/README.md",
+        "sha256": "e4f17d55a3df77d67ceb1501b59217334f4fa115e1a427a4711d1b2288d6578c"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Konkreter Behandlungsanlass und fertiges Schreiben stehen vor dem Fachprogramm; Einwilligung wird ohne starre Bedenkfrist, aber mit erkennbarem Überlegungsbedarf erklärt.",
+    "norms_or_source_basis": "Paragrafen 630d, 630e und 630h BGB",
+    "selected_anchor_identifiers": [
+      "VI ZR 375/21"
+    ],
+    "application_limit": "Vorhandene amtliche Leitsätze b und c, keine vollständigen Gründe; keine allgemeine Aussage zur Studieneinwilligung.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-medizinrecht/fachanwalt-medizinrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "3d52f1b8b3cd7ad926081662d73797554c017c8f1682b8abc590a8839a730595",
+      "characters": 7240,
+      "utf8_bytes": 7345,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-medizinrecht/fachanwalt-medizinrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "d12683c4feed7c77f5d2e4faaaf1906bf25bb254e1679b76b8af005dc4f2edbc",
+      "characters": 21085,
+      "utf8_bytes": 21413,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "fachanwalt-medizinrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__249.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zum Vergleich mit dem Zustand ohne schädigendes Ereignis und erforderlichen Geldbetrag bei Personenverletzung geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__843.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext zu Mehrbedarf, Geldrente, Kapitalabfindung bei wichtigem Grund und fehlendem Ausschluss durch Unterhaltspflicht Dritter gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__287.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext zur Schätzung von Schaden und Höhe anhand konkreter Umstände geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__116.html",
+      "checked_on": "2026-09-14",
+      "supports": "Anspruchsübergang bei Sozialleistungen gleicher Schadensart und gleichen Zeitraums sowie quotenbezogene Regelungen im Normtext geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__630h.html",
+      "checked_on": "2026-09-14",
+      "supports": "Normtext gelesen: Aufklärungsbeweis, Dokumentationsvermutung und besondere Voraussetzungen der Kausalitätsvermutung statt pauschaler vollständiger Beweislastumkehr."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2009-2&Gericht=bgh&Seite=9&anz=282&nr=47069&pos=274",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 03.02.2009, Az. VI ZR 183/08: amtlichen Leitsatz im Suchauszug zur Tabellenorientierung mangels abweichender konkreter Gesichtspunkte geprüft. Volltextabruf gesperrt; kein aktueller Lohn- oder spezieller Arzthaftungsanker."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__630e.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur Prüfung: Paragraf 630d, Paragraf 630e und Paragraf 630h BGB; Paragraf 843 BGB; Paragraf 287 ZPO. Keine Gesamtverifikation sämtlicher Nebenmaterien."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2021/VI_ZR_375-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 20.12.2022, VI ZR 375/21: Nach rechtzeitiger Aufklärung keine abstrakte Wartefrist; erkennbaren zusätzlichen Überlegungsbedarf bei medizinisch möglichem Aufschub berücksichtigen. Grenze/Prüftiefe: Amtliche Leitsätze b und c, Volltextabruf gescheitert; keine Entbehrlichkeit rechtzeitiger Aufklärung und keine Übertragung auf Studienzustimmung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_183-08.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 03.02.2009, VI ZR 183/08: Haushaltsschaden aus tatsächlichen Aufgaben und Einschränkungen berechnen; Tabellen nur als Orientierung ohne abweichende Umstände. Grenze/Prüftiefe: Amtlicher Leitsatz, Volltext nicht erreichbar; kein automatischer Stundenpreis oder Kausalitätsbeweis."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__630h.html",
+      "supports": "Erneuter Normabruf zu den differenzierten Beweisregeln der Behandlungshaftung; Dokumentationsmangel und Haftung nicht pauschal gleichsetzen.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2023/VI_ZR_165-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Urteil vom 25.11.2025, VI ZR 165/23: Hypothetische Einwilligung muss die tatsächlich durchgeführte Maßnahme decken; bloße Zustimmung zu einer späteren Operation genügt nicht. Grenze: Rechtmäßiges Alternativverhalten bleibt selbständig möglich; Behandlungsseite muss gleichen Schaden bei rechtmäßigem Verlauf beweisen. Gelesen: Entscheidungskopf/Leitsätze und Rn. 10–23",
+      "verification_status": "frisch_amtlicher_volltext_passagen",
+      "source_sha256": "b759910dc9984ad400c94bbca866bb26b05ef58fda7a2cf984959d4c5cdc6508",
+      "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-medizinrecht.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR__51-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "BGH, Urteil vom 25.11.2025, VI ZR 51/24: Mangelhafter ärztlicher Nachtdienst ist als Organisations-/Behandlungsfehler zu prüfen, nicht als aufklärungspflichtiges Operationsrisiko. Grenze: Kausalität grundsätzlich vom Patienten zu beweisen; Paragraf 630h Absatz 4/5 gesondert, keine automatische Beweislastumkehr aus dem Organisationsmangel. Gelesen: Entscheidungskopf/Leitsatz und Rn. 9–18",
+      "verification_status": "frisch_amtlicher_volltext_passagen",
+      "source_sha256": "efb19a166adc41d857e0aeec4e3b3225cc795cae5f10e443c5b72adc31c112cc",
+      "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-medizinrecht.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR_335-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-16",
+      "supports": "Auskunft nach Paragraf 84a AMG verlangt Indiztatsachen und plausible Verursachung, nicht überwiegende Wahrscheinlichkeit. Auskunft nicht allein auf das individuelle Krankheitsbild begrenzen. Eine abstrakte unbekannte Reserveursache genügt nicht zur Beseitigung der Kausalitätsvermutung nach Paragraf 84 Absatz 2 AMG. Grenze: Zurückverweisung; kein Schadensersatz zugesprochen. Auskunft und Haftung bleiben getrennt, ebenso Behandlerhaftung und soziale Entschädigung. Nicht alle 48 Seiten vollständig nachgeprüft.",
+      "verification_status": "Amtliches PDF unmittelbar geladen; Kopf, Leitsätze, Tenor und Rn. 18–37 sowie 63–80 gelesen. Operative Ergänzungen beschränkt auf Rn. 18–24, 27–37 und 65–66."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Befunde und konkrete andere Ursachen erheben, bestimmtes Auskunftsschreiben erstellen und nach Antwort die Haftungsbegründung gesondert ausarbeiten. Keine automatische Schmerzensgeldzusage.",
+    "changes": [
+      "Werkstatt trennt Standard, Kausalität und Beweislast; Aufklärung ohne starre Wartefrist sowie individuell belegte Haushaltshilfe statt pauschaler Tabellenansprüche.",
+      "Kernfall mit operativem Entscheidungsanker, gezielten Nachfragen und Fortsetzung zum vollständigen angeforderten Dokument.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Zwei BGH-Urteile vom 25.11.2025 erstmals konkret in Aufklärung und Organisationshaftung integriert; keine 2026-Entscheidung nur wegen Jahreszahl hinzugefügt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Konkreter Behandlungsanlass und fertiges Schreiben stehen vor dem Fachprogramm; Einwilligung wird ohne starre Bedenkfrist, aber mit erkennbarem Überlegungsbedarf erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: BGH, Urteil vom 09.03.2026, VI ZR 335/24"
+    ],
+    "sha256": "afb67dd2f172b2a96c86e25cb428339baee7ab3e505a292b2cd030dc29b4b32d",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem-Prompt und zugeordneter Skill vollständig gelesen. Werkstatt trennt Standard, Kausalität und Beweislast; Aufklärung ohne starre Wartefrist sowie individuell belegte Haushaltshilfe statt pauschaler Tabellenansprüche. Skill unverändert, da mit dem präzisierten Prompt vereinbar. Quellenprüfung im dokumentierten Umfang, kein Live-Modelltest. Workflow-Ergänzung: Einkaufen ist seit Juni wieder möglich -> Hilfebedarf und Monate korrigieren; neuer Gerätebericht -> Dokumentationslücke von fortbestehender Behandlungsfrage trennen. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen.",
+    "changes": [
+      "Werkstatt trennt Standard, Kausalität und Beweislast; Aufklärung ohne starre Wartefrist sowie individuell belegte Haushaltshilfe statt pauschaler Tabellenansprüche.",
+      "Konkreten Einstieg und Anwendung samt Grenzen des Entscheidungsankers im Hauptproblem ergänzt; zugeordneten Skill unverändert gelassen.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-medizinrecht/fachanwalt-medizinrecht-hauptproblem.md",
+    "prompt_sha256": "a8f73d467e16847248a19d1e54cfd2120ab954dca9ea4ee0d2c624536c21005c",
+    "skill_path": "fachanwalt-medizinrecht/skills/behandlungsfolgen-haushalt-pflege-abgleich/SKILL.md",
+    "skill_sha256": "436433c69286fa094039ed93443a26644aeb9f7dd1be19a61242f483a334b57b"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Befunde und konkrete andere Ursachen erheben, bestimmtes Auskunftsschreiben erstellen und nach Antwort die Haftungsbegründung gesondert ausarbeiten. Keine automatische Schmerzensgeldzusage.",
+    "changes": [
+      "Werkstatt trennt Standard, Kausalität und Beweislast; Aufklärung ohne starre Wartefrist sowie individuell belegte Haushaltshilfe statt pauschaler Tabellenansprüche.",
+      "Vorhandene Fachzweige, Beispiele und Zugriffsalternativen erhalten; schwache Rechtsprechungshinweise entfernt oder auf belegte Reichweite begrenzt.",
+      "Zeitgebundene Befundkenntnis statt Rückschau, konkrete Gutachtenfrage und Gegenursache, Aufklärungsgespräch gegenüber Formular, hypothetische Einwilligung sowie überlappende Pflege- und Haushaltshilfe und Leistungsübergang.",
+      "Zwei BGH-Urteile vom 25.11.2025 erstmals konkret in Aufklärung und Organisationshaftung integriert; keine 2026-Entscheidung nur wegen Jahreszahl hinzugefügt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Konkreter Behandlungsanlass und fertiges Schreiben stehen vor dem Fachprogramm; Einwilligung wird ohne starre Bedenkfrist, aber mit erkennbarem Überlegungsbedarf erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: BGH, Urteil vom 09.03.2026, VI ZR 335/24"
+    ],
+    "sha256": "87286c5ad5f85b5f07a06259b91b02cdf14a401b2a9a643c9ef62c2377d0208c",
+    "reviewed_on": "2026-10-01",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Nach einer Operationsfolge brauchen wir eine zeitabschnittsweise Rechnung über Haushaltshilfe und Angehörigenpflege mit Abgleich der Kassenleistungen.",
+      "Für die Klinikversicherung sollen Doppelansätze zwischen Pflegerechnungen und fiktivem Haushaltsausfall anhand der Tätigkeitsprotokolle geprüft werden."
+    ],
+    "negative": [
+      "Bestimmen Sie ausschließlich eine Schmerzensgeldspanne wegen eines Aufklärungsfehlers.",
+      "Entwerfen Sie einen Widerspruch gegen den Pflegegradbescheid, ohne Haftungs- oder Schadensersatzauftrag."
+    ],
+    "target_skill": "behandlungsfolgen-haushalt-pflege-abgleich"
+  },
+  "cases": [
+    {
+      "id": "operationsfolge-haushaltsstunden-pflegedienst",
+      "request": "Erstellen Sie ergebnis.md als nachvollziehbare Schadensaufstellung und Entwurf an die Klinikversicherung. Diese hat die vollständige Haftung für eine Operationsfolge und sämtliche hier beschriebenen funktionellen Einschränkungen schriftlich anerkannt; Schmerzensgeld und Zukunft sind nicht Gegenstand dieses Auftrags. Abzurechnen sind genau vier aufeinanderfolgende Wochen nach Entlassung im Mai 2026. Die Patientin führte schon vor der Operation wegen einer alten Schultererkrankung nur 21 Stunden Haushalt pro Woche selbst: Kochen 7, Reinigung 7, Wäsche 3 und Einkauf 4. Nach der Operation konnte sie weiterhin 7 Stunden Kochen und 3 Stunden Wäsche leisten, Reinigung und Einkauf dagegen gar nicht. Die früheren 21 Stunden und die Restfähigkeiten sind durch beide Seiten bestätigt. Eine Haushaltshilfe erledigte in allen vier Wochen jeweils 6 Stunden Reinigung zu erforderlichen 18 EUR je Stunde; die Rechnung über 432 EUR wurde bezahlt. Der Pflegedienst rechnete im selben Zeitraum 20 Stunden zu erforderlichen 30 EUR ab: laut Leistungsnachweis davon 4 Stunden Reinigung und 16 Stunden Körperpflege. Die Reinigung ergänzt die Haushaltshilfe, überschneidet sich mit ihr zeitlich nicht und ersetzt ausgefallene eigene Reinigungsstunden. Die Schwester übernahm darüber hinaus exakt die übrigen ausgefallenen Haushaltsstunden unentgeltlich. Für diese noch nicht durch bezahlte Kräfte gedeckten Stunden akzeptiert die Versicherung einen fiktiven Nettoansatz von 15 EUR. Die 16 Stunden Körperpflege waren ausschließlich operationsbedingt zusätzlich erforderlich, ohne vorbestehenden Pflegebedarf. Die Krankenkasse hat aufgrund einer bestandskräftigen Leistungsbewilligung genau 300 EUR für die im Zeitraum abgerechnete Körperpflege zu tragen und bereits erstattet; weitere Sozialleistungen, Ansprüche von Leistungsträgern, Haftungsquoten oder Zahlungen des Schädigers bestehen nicht. Bitte ordnen Sie die gemischte Pflegerechnung nachvollziehbar zu und beziffern Sie den verbleibenden Anspruch der Patientin, ohne das Schreiben zu versenden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Stundenrechnung ermittelt 11 ausgefallene eigene Haushaltsstunden je Woche und 44 Stunden insgesamt; sie setzt nicht die gesamten 21 früheren Wochenstunden als Ausfall an und berücksichtigt die Vorerkrankung nicht ein zweites Mal.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Haushaltsrechnung ordnet 24 Stunden beziehungsweise 432 EUR der Haushaltshilfe, 4 Stunden beziehungsweise 120 EUR dem Reinigungsanteil des Pflegedienstes und 16 Reststunden beziehungsweise 240 EUR der fiktiven Hilfe zu; sie ergibt 792 EUR ohne doppelte Stundenansätze.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der persönliche Pflegemehrbedarf beträgt 480 EUR aus 16 Stunden. Die 300 EUR Kassenleistung wird sachlich und zeitlich diesem Pflegeanspruch zugeordnet, nicht pauschal vom Haushalt oder nochmals vom Gesamtergebnis abgezogen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Die Aufstellung weist 1.272 EUR Gesamtschaden, 300 EUR übergegangenen Anteil und 972 EUR verbleibenden Eigenanspruch aus. Sie behandelt den Übergang als Frage der Anspruchsinhaberschaft und nicht als Wegfall des ursprünglichen Schadens.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Der Entwurf bleibt auf vier Wochen und materielle Schäden begrenzt, erfindet keine zusätzlichen Pflege- oder Zukunftsstunden und erklärt weder eine Abfindung noch einen bereits erfolgten Versand.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "behandlungsfolgen-haushalt-pflege-abgleich"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-medizinrecht/README.md",
+      "fachanwalt-medizinrecht/fachanwalt-medizinrecht-schnellstart.md",
+      "fachanwalt-medizinrecht/fachanwalt-medizinrecht-werkstatt.md",
+      "fachanwalt-medizinrecht/fachanwalt-medizinrecht-hauptproblem.md",
+      "fachanwalt-medizinrecht/skills/behandlungsfolgen-haushalt-pflege-abgleich/SKILL.md",
+      "quality/evals/fachanwalt-medizinrecht.json",
+      "fachanwalt-medizinrecht/skills/aufklaerungsfehler-beweisstrategie/SKILL.md",
+      "fachanwalt-medizinrecht/skills/behandlungsfehler-anspruch-pruefen/SKILL.md",
+      "fachanwalt-medizinrecht/skills/impfschaden-arzthaftung/SKILL.md",
+      "fachanwalt-medizinrecht/skills/mandat-triage-medizinrecht/SKILL.md"
+    ],
+    "opening_change": "Behandlungsablauf, Aufklärung und belegte Folgen für Haushalt und Pflege rechtlich prüfen Workflow-Ergänzung: Leer: Behandlungsfehlerprüfung, Haushalts-/Pflegeschaden oder Leistungsablehnung anbieten. Dateien ohne Aufgabe: Behandlungsakte, Befunde und Kosten still lesen; Haftungs-, Bezifferungs- oder Widerspruchsziel klären. Klarer Auftrag: konkrete Stellungnahme oder Forderung direkt ausarbeiten, keine ungefragte medizinische Gesamtbewertung.",
+    "norms": [
+      "Paragraf 630d, Paragraf 630e und Paragraf 630h BGB",
+      "Paragraf 843 BGB",
+      "Paragraf 287 ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 20.12.2022, VI ZR 375/21",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2021/VI_ZR_375-21.pdf?__blob=publicationFile&v=1",
+        "application": "Nach rechtzeitiger Aufklärung keine abstrakte Wartefrist; erkennbaren zusätzlichen Überlegungsbedarf bei medizinisch möglichem Aufschub berücksichtigen.",
+        "limit": "Amtliche Leitsätze b und c, Volltextabruf gescheitert; keine Entbehrlichkeit rechtzeitiger Aufklärung und keine Übertragung auf Studienzustimmung.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Urteil vom 03.02.2009, VI ZR 183/08",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_183-08.pdf?__blob=publicationFile&v=1",
+        "application": "Haushaltsschaden aus tatsächlichen Aufgaben und Einschränkungen berechnen; Tabellen nur als Orientierung ohne abweichende Umstände.",
+        "limit": "Amtlicher Leitsatz, Volltext nicht erreichbar; kein automatischer Stundenpreis oder Kausalitätsbeweis.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Urteil vom 25.11.2025, VI ZR 165/23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2023/VI_ZR_165-23.pdf?__blob=publicationFile&v=1",
+        "application": "Hypothetische Einwilligung muss die tatsächlich durchgeführte Maßnahme decken; bloße Zustimmung zu einer späteren Operation genügt nicht.",
+        "limit": "Rechtmäßiges Alternativverhalten bleibt selbständig möglich; Behandlungsseite muss gleichen Schaden bei rechtmäßigem Verlauf beweisen.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_amtlicher_volltext_passagen",
+        "passages_read": "Entscheidungskopf/Leitsätze und Rn. 10–23",
+        "source_sha256": "b759910dc9984ad400c94bbca866bb26b05ef58fda7a2cf984959d4c5cdc6508",
+        "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-medizinrecht.json"
+      },
+      {
+        "citation": "BGH, Urteil vom 25.11.2025, VI ZR 51/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR__51-24.pdf?__blob=publicationFile&v=1",
+        "application": "Mangelhafter ärztlicher Nachtdienst ist als Organisations-/Behandlungsfehler zu prüfen, nicht als aufklärungspflichtiges Operationsrisiko.",
+        "limit": "Kausalität grundsätzlich vom Patienten zu beweisen; Paragraf 630h Absatz 4/5 gesondert, keine automatische Beweislastumkehr aus dem Organisationsmangel.",
+        "checked_on": "2026-10-01",
+        "verification_status": "frisch_amtlicher_volltext_passagen",
+        "passages_read": "Entscheidungskopf/Leitsatz und Rn. 9–18",
+        "source_sha256": "efb19a166adc41d857e0aeec4e3b3225cc795cae5f10e443c5b72adc31c112cc",
+        "source_audit": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-medizinrecht.json"
+      },
+      {
+        "citation": "BGH, Urteil vom 09.03.2026, VI ZR 335/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR_335-24.pdf?__blob=publicationFile&v=1",
+        "application": "Auskunft nach Paragraf 84a AMG verlangt Indiztatsachen und plausible Verursachung, nicht überwiegende Wahrscheinlichkeit. Auskunft nicht allein auf das individuelle Krankheitsbild begrenzen. Eine abstrakte unbekannte Reserveursache genügt nicht zur Beseitigung der Kausalitätsvermutung nach Paragraf 84 Absatz 2 AMG.",
+        "limit": "Zurückverweisung; kein Schadensersatz zugesprochen. Auskunft und Haftung bleiben getrennt, ebenso Behandlerhaftung und soziale Entschädigung. Nicht alle 48 Seiten vollständig nachgeprüft.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Amtliches PDF unmittelbar geladen; Kopf, Leitsätze, Tenor und Rn. 18–37 sowie 63–80 gelesen. Operative Ergänzungen beschränkt auf Rn. 18–24, 27–37 und 65–66.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/medizin-zentral.json",
+        "workflow_effect": "Befunde und konkrete andere Ursachen erheben, bestimmtes Auskunftsschreiben erstellen und nach Antwort die Haftungsbegründung gesondert ausarbeiten. Keine automatische Schmerzensgeldzusage."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung, kein Live-Client- oder Modelltest; übrige Fachzweige nicht vollständig rechtlich neu verifiziert.",
+      "Amtliche Leitsätze b und c, Volltextabruf gescheitert; keine Entbehrlichkeit rechtzeitiger Aufklärung und keine Übertragung auf Studienzustimmung.",
+      "Workflow-Review 23.09.2026: Paragraf 630h BGB erneut eingesehen. Bestehende Fallanker weiterhin nur in verifizierter Leitsatzreichweite, keine zugänglichen neuen Volltexte behauptet.",
+      "Fachanwaltsaktualisierung 01.10.2026: zwei ausgewählte aktuelle Entscheidungen frisch im amtlichen Volltext passagenbezogen geprüft; keine Gesamtneuverifikation aller Altanker oder neuen Modelltests. Hauptproblem rechnet Haushalts- und Pflegefolgen. Die zwei aktuellen Haftungsgrundentscheidungen ersetzen den Schadensberechnungsanker VI ZR 183/08 nicht; sie stehen in den fachgebietsweiten Prompts und Haftungsskills."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Behandlungsfehlerprüfung, Haushalts-/Pflegeschaden oder Leistungsablehnung anbieten.",
+      "Dateien ohne Aufgabe: Behandlungsakte, Befunde und Kosten still lesen; Haftungs-, Bezifferungs- oder Widerspruchsziel klären.",
+      "Klarer Auftrag: konkrete Stellungnahme oder Forderung direkt ausarbeiten, keine ungefragte medizinische Gesamtbewertung."
+    ],
+    "continuation": "Einkaufen ist seit Juni wieder möglich -> Hilfebedarf und Monate korrigieren; neuer Gerätebericht -> Dokumentationslücke von fortbestehender Behandlungsfrage trennen.",
+    "enrichment": "Zeitgebundene Befundkenntnis statt Rückschau, konkrete Gutachtenfrage und Gegenursache, Aufklärungsgespräch gegenüber Formular, hypothetische Einwilligung sowie überlappende Pflege- und Haushaltshilfe und Leistungsübergang.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022&Gericht=bgh&anz=3168&nr=132534&pos=29",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2021/VI_ZR_375-21.pdf?__blob=publicationFile&v=1",
+        "sha256": "6fd269bca0c196fefdc1a87dabbfc34fbdbbb46ef034b7397ff3e95340f924dd"
+      },
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2009-2&Gericht=bgh&Sort=1&anz=282&nr=47069&pos=10",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_183-08.pdf?__blob=publicationFile&v=1",
+        "sha256": "f2f94c7fd09eb06b9a89269b0ee5cd8432d704ed39f5b813258b50f17fc20ee4"
+      }
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-medizinrecht.json",
+    "scope": "Zwei ausgewählte aktuelle Entscheidungen, amtlicher Volltext und operative Prompt-/Skillanwendung; keine pauschale Gesamtprüfung.",
+    "decisions": [
+      "BGH, Urteil vom 25.11.2025, VI ZR 165/23",
+      "BGH, Urteil vom 25.11.2025, VI ZR 51/24"
+    ],
+    "new_model_test": false
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "fachanwalt-medizinrecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Prüfen Sie medizinische Zweckbestimmung und notwendige Drittbewertung getrennt von der bloßen Verwendung im Krankenhaus. Verwaltungssoftware und medizinische Sicherheitskomponente brauchen verschiedene Einstufungen und Vorfallwege.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/medizin-zentral.json"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 09.03.2026, VI ZR 335/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR_335-24.pdf?__blob=publicationFile&v=1",
+        "application": "Auskunft nach Paragraf 84a AMG verlangt Indiztatsachen und plausible Verursachung, nicht überwiegende Wahrscheinlichkeit. Auskunft nicht allein auf das individuelle Krankheitsbild begrenzen. Eine abstrakte unbekannte Reserveursache genügt nicht zur Beseitigung der Kausalitätsvermutung nach Paragraf 84 Absatz 2 AMG.",
+        "limit": "Zurückverweisung; kein Schadensersatz zugesprochen. Auskunft und Haftung bleiben getrennt, ebenso Behandlerhaftung und soziale Entschädigung. Nicht alle 48 Seiten vollständig nachgeprüft.",
+        "checked_on": "2026-10-16",
+        "verification_status": "Amtliches PDF unmittelbar geladen; Kopf, Leitsätze, Tenor und Rn. 18–37 sowie 63–80 gelesen. Operative Ergänzungen beschränkt auf Rn. 18–24, 27–37 und 65–66.",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/medizin-zentral.json",
+        "workflow_effect": "Befunde und konkrete andere Ursachen erheben, bestimmtes Auskunftsschreiben erstellen und nach Antwort die Haftungsbegründung gesondert ausarbeiten. Keine automatische Schmerzensgeldzusage."
+      }
+    ],
+    "files": [
+      {
+        "path": "fachanwalt-medizinrecht/README.md",
+        "sha256": "94209107aec8ff9b1fc54faf3961e01407a57360d343141715e539f488d3d90c"
+      },
+      {
+        "path": "fachanwalt-medizinrecht/fachanwalt-medizinrecht-schnellstart.md",
+        "sha256": "afb67dd2f172b2a96c86e25cb428339baee7ab3e505a292b2cd030dc29b4b32d"
+      },
+      {
+        "path": "fachanwalt-medizinrecht/fachanwalt-medizinrecht-werkstatt.md",
+        "sha256": "87286c5ad5f85b5f07a06259b91b02cdf14a401b2a9a643c9ef62c2377d0208c"
+      },
+      {
+        "path": "fachanwalt-medizinrecht/skills/impfschaden-arzthaftung/SKILL.md",
+        "sha256": "96ceccb74df7527d91c3edbd687acb82433b1839ee9d64fb746f262b8ee7baf0"
+      },
+      {
+        "path": "fachanwalt-medizinrecht/skills/mandat-triage-medizinrecht/SKILL.md",
+        "sha256": "09c2aed90bcc99371b276155f543bbdbaa40788cb45950059f4bf75c3ab127c1"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

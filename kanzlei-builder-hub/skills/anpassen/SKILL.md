@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um /anpassen — Kanzleiprofil und Einstellungen anpassen in Kanzlei-Builder-Hub geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /anpassen — Kanzleiprofil und Einstellungen anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /anpassen — Kanzleiprofil und Einstellungen anpassen
@@ -18,9 +18,6 @@ description: "Wenn es um /anpassen — Kanzleiprofil und Einstellungen anpassen 
 2. Liegt ein konkreter Anlass vor (neue Rechtsgebiet-Erweiterung, Datenschutzaenderung, Teamaenderung)?
 3. Ist die bestehende Konfiguration vollstaendig und ohne Platzhalter (sonst Kaltstart-Interview noetig)?
 4. Betrifft die Änderung datenschutzrechtlich relevante Konfiguration (TOM, AVV, Verarbeitungsverzeichnis)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 25 DSGVO — Privacy by Design und Default: Konfigurationsaenderungen müssen Datenschutz beruecksichtigen
@@ -44,7 +41,7 @@ description: "Wenn es um /anpassen — Kanzleiprofil und Einstellungen anpassen 
 
 ### Schritt 1: Aktuellen Zustand laden
 
-Konfiguration aus dem Config-Pfad lesen. Wenn die Datei nicht existiert oder noch Platzhalter enthält: den Nutzer auf `/kanzlei-builder-hub:kanzlei-builder-hub-kaltstart-interview` hinweisen.
+Konfiguration aus dem Config-Pfad lesen. Wenn die Datei nicht existiert oder noch Platzhalter enthält: den Nutzer auf `/kanzlei-builder-hub:kaltstart-interview` hinweisen.
 
 ### Schritt 2: Änderungsbereich bestimmen
 
@@ -125,7 +122,7 @@ Zitierweise nach `../references/zitierweise.md`.
 ### Beispiel 1: Neues Rechtsgebiet hinzufügen
 
 ```
-/kanzlei-builder-hub:kanzlei-builder-hub-anpassen --profil
+/kanzlei-builder-hub:anpassen --profil
 
 Aktueller Wert:
  Rechtsgebiet(e): Arbeitsrecht
@@ -143,7 +140,7 @@ Neuer Wert:
 ### Beispiel 2: TOM-Status aktualisieren
 
 ```
-/kanzlei-builder-hub:kanzlei-builder-hub-anpassen --tom
+/kanzlei-builder-hub:anpassen --tom
 
 TOM-Status aktualisieren:
 - Verarbeitungsverzeichnis (Art. 30 DSGVO): in Bearbeitung → vorhanden
@@ -163,28 +160,8 @@ TOM-Status aktualisieren:
 
 ## Was dieser Skill nicht tut
 
-- Das vollständige Interview ersetzen. Bei Ersteinrichtung `/kanzlei-builder-hub:kanzlei-builder-hub-kaltstart-interview` ausführen.
+- Das vollständige Interview ersetzen. Bei Ersteinrichtung `/kanzlei-builder-hub:kaltstart-interview` ausführen.
 - Konfigurationsänderungen ohne explizite Genehmigung vornehmen.
 - Erste Kanzlei-Grunddaten (Kanzleiname, allgemeine Rechtsgebiete) separat von `kanzlei-profil.md` verwalten — diese immer im geteilten Profil ändern.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 32 DSGVO
-- § 203 StGB
-- Art. 28 DSGVO
-- Art. 30 DSGVO
-- Art. 35 DSGVO
-- § 4 KSchG
-- Art. 25 DSGVO
-- Art. 17 DSGVO
-- § 5 KSchG
-- § 29 VwVfG
-- § 102 BetrVG
-- § 17 MuSchG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

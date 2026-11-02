@@ -1,6 +1,6 @@
 ---
 name: pyramide-check-dsgvo-p2b-anti-steering
-description: "Wenn es um Digitalregulierung — Pyramiden-Check in DSA, DMA und Digitalregulierung der EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Digitalregulierung — Pyramiden-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Digitalregulierung — Pyramiden-Check
@@ -89,7 +89,6 @@ Wer hat das Anliegen?
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
@@ -129,3 +128,6 @@ Einschlägige Rechtsakte:
 
 Empfohlene Vertiefung: → Skill [SPEZIALSKILL]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Plattformdienst, GPAI-Modell und konkrete Systemfunktion auseinander. Aus VLOP-Eigenschaft folgt weder eine beliebige KI-VO-Risikoklasse noch dieselbe Zuständigkeit für jede Betreiberfunktion. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

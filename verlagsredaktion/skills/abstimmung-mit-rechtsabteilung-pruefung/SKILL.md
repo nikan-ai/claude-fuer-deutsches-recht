@@ -1,6 +1,6 @@
 ---
 name: abstimmung-mit-rechtsabteilung-pruefung
-description: "Wenn es um Inhouse-Legal-Check vor Veroeffentlichung in Verlagsredaktion geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Inhouse-Legal-Check vor Veröffentlichung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Inhouse-Legal-Check vor Veroeffentlichung
@@ -132,24 +132,3 @@ Unterschrift: [Name]
 - DSGVO Art. 6, 17, 85 - Datenverarbeitung, Loeschung, Medienprivileg.
 - DDG § 5 - Impressumspflicht; MStV § 18 - journalistische Sorgfalt.
 - BVerfG, st. Rspr. zur Abwaegung Meinungsfreiheit / Persoenlichkeitsrecht (Volltexte zur amtlichen Prüfung unter bundesverfassungsgericht.de).
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 51 UrhG
-- § 38 UrhG
-- § 31a UrhG
-- § 33 VerlG
-- § 32a UrhG
-- Art. 6 DSGVO
-- § 8 DDG
-- § 27a UStG
-- § 14 UStG
-- § 203 StGB
-- § 32e UrhG
-- § 87 BetrVG
-
-### Leitentscheidungen
-
-- EuGH C-131/12

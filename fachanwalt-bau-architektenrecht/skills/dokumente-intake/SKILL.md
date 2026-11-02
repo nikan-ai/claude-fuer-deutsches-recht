@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bau Architektenrecht."
 ---
 
 # Dokumentenintake
@@ -18,20 +18,18 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Fachanwalt Bau Architektenrecht** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
 
 ## Fachlandkarte dieses Plugins
 
-- `abnahme-fiktion-paragraf-640-bgb-bgh-vii-zr-301-13` — Abnahme Fiktion Paragraf 640 BGB BGH VII ZR 301 13
+- `abnahmefiktion-paragraf-640-bgb-pruefen` — Abnahmefiktion nach Paragraf 640 Absatz 2 BGB prüfen
 - `abnahme-quellenkarte` — Abnahme Quellenkarte
 - `architektenhonorar-hoai-mindestsatz-eugh-c-377-17` — Architektenhonorar HOAI Mindestsatz Eugh C 377 17
 - `einstieg-schnelltriage-fallrouting` — BAU Abnahme Nachtrag
 - `abnahme-verweigerung` — Bauablauf VBG
-- `baugenehmigung-nachbarklage-paragraf-58-vwgo-bverwg-4-c-1-19` — Baugenehmigung Nachbarklage Paragraf 58 Vwgo Bverwg 4 C 1 19
+- `nachbarklage-baugenehmigung-frist-und-drittschutz` — Nachbarklage gegen eine Baugenehmigung prüfen
 - `bauordnungsrecht-behoerden-gericht-und-registerweg` — Bauordnungsrecht Einfuehrung Fachanwalt HOAI
 - `bautraeger-abnahme-formgerecht-640-bgb` — Bautraeger Abnahme Formgerecht Abnahmefiktion
 - `bautraeger-belehrungspflicht-17-beurkg` — Bautraeger Belehrungspflicht

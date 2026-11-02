@@ -1,6 +1,6 @@
 ---
 name: steuerberater-stberg-modus
-description: "Wenn es um Steuerberater-Modus (StBerG/BOStB) in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Steuerberater Stberg Modus; Arbeitsfeld: E-Mail-Umformulierer."
+description: "Für Steuerberater-Modus (StBerG/BOStB): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: E-Mail-Umformulierer. Route: steuerberater-stberg-modus."
 ---
 
 # Steuerberater-Modus (StBerG/BOStB)
@@ -16,9 +16,6 @@ Dieser Skill passt den Umformulierungsprozess an die spezifischen Berufspflichte
 2. Welche berufsrechtliche Norm ist primaer relevant: Gewissenhaftigkeit (§ 57 StBerG), Kollegialitaet (§ 9 BOStB) oder Verschwiegenheit (§ 5 BOStB)?
 3. Enthalt das Schreiben kritische Aeusserungen über den Vorgaenger-Steuerberater oder das Finanzamt?
 4. Hat das Schreiben rechtsverbindliche Wirkung (Einspruch, Klage) oder ist es nur informell?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 57 StBerG — Allgemeine Berufspflichten: Gewissenhaftigkeit, Verschwiegenheit, Sachlichkeit
@@ -55,3 +52,5 @@ Einschlägige Normen: § 57 StBerG (Allgemeine Berufspflichten), § 57a StBerG (
 
 **Vorher:** "Das habe ich Ihnen doch schon hundertmal erklärt!"
 **Nachher:** "Wie bereits in meinem Schreiben vom TT.MM.JJJJ dargelegt, gilt folgendes..."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: abwaegung-art-arbeitgeber-betrieb
-description: "Wenn es um Art. 5 GG - Abwägung in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Art. 5 GG - Abwägung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Art. 5 GG - Abwägung
@@ -43,25 +43,3 @@ Art. 5 GG schützt auch scharfe, polemische und verletzende Meinungen. Das bedeu
 - Trenne strikt: Tatsachenbehauptung, Werturteil, gemischte Aeusserung, Satire/Spott, Schmähungs- oder Prangerkontext.
 - Gewichte meinungsfreiheitsfreundlich, aber nicht blind: Sachbezug, Machtkritik, Beleglage, Formalbeleidigung, Privatbereich und Eskalationsrisiko getrennt ausweisen.
 - Keine erfundene Rechtsprechung. Entscheidungen nur mit Gericht, Datum, Aktenzeichen und verifizierbarer Quelle nennen; sonst Recherchebedarf markieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 GG
-- § 188 StGB
-- Art. 11 GRCh
-- Art. 10 EMRK
-- § 193 StGB
-- § 187 StGB
-- § 186 StGB
-- § 185 StGB
-- § 194 StGB
-- § 77b StGB
-- § 29 VwVfG
-- § 11 HmbPresseG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

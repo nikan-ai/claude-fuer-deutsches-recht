@@ -1,6 +1,6 @@
 ---
 name: nutzungsrechte-lizenzkette
-description: "Wenn es um Nutzungsrechte und Lizenzkette in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Nutzungsrechte und Lizenzkette: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Nutzungsrechte und Lizenzkette
@@ -20,7 +20,7 @@ description: "Wenn es um Nutzungsrechte und Lizenzkette in Urheberrecht DE EU ge
 
 ## Wofür dieser Arbeitsgang da ist
 
-Nutzungsrechte und Lizenzkette schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Rekonstruiere, wer welche Nutzungsrechte eingeräumt hat und ob die Lizenzkette die konkrete Verwendung umfasst. Berücksichtige Gegenstand, menschlichen Beitrag, Nutzungshandlung und Schranke und dokumentiere die Beweise und Lücken im verlangten Ergebnis.
 
 ## Sofortstart
 

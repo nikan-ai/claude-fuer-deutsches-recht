@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "plugin": "strassenrecht-infrastruktur",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/vwgo/__74.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Normtext gelesen: Monatsfrist und unterschiedliche Auslöser nach Vorverfahren beziehungsweise unmittelbarer Klage. Fachrechtliche Planungsfristen bleiben gesondert zu prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fstrg/__8.html",
+      "checked_on": "2026-09-14",
+      "supports": "Sondernutzung und Erlaubnis in Ortsdurchfahrten; Zustimmung bei fremder Straßenbaulast; Koordination statt zusätzlicher Sondernutzungserlaubnis in den Fällen des Absatzes 6."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fstrg/__8.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktueller vollständiger Normtext gelesen: Ortsdurchfahrt, Zustimmung, Folgekosten, Gebühren, Konzentration und bürgerlich-rechtliche Nutzung nach Absatz 10."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fstrg/__8a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktueller vollständiger Normtext gelesen: Zufahrtsänderung, dauerhafte Unterbrechung, Existenzgefährdung bei Straßenarbeiten und Ausnahmen."
+    },
+    {
+      "url": "https://ssl.bverwg.de/111214U3C6.13.0",
+      "checked_on": "2026-09-23",
+      "supports": "Gerichtliche Gründe Rn. 13–30 amtlich gelesen: erforderliche Ausnahme, Zuständigkeitswechsel und verbleibende Gebühren, keine universelle Landesregel."
+    },
+    {
+      "url": "https://www.bverwg.de/300614B9B6.14.0",
+      "checked_on": "2026-09-23",
+      "supports": "Rn. 13 im amtlichen Beschluss gelesen; Anbindung und Abwägung, keine Garantie vorteilhafter Lage."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individueller Ganztextreview: drei echte Dokumentwege bei leerem Einstieg, stilles Lesen und unmittelbare klare Aufträge; dauerhafter Zufahrtsverlust und neue Kostenpositionen ändern die konkrete Fassung. Vorherige Zuständigkeits- und Fallabgrenzungen erhalten. Redaktioneller Nachtrag 16.10.2026: Vorhandenen Bauzaunanker nach vorn gestellt; erforderliche Ausnahme von bereits erteilter Ausnahme unterschieden. Kein Zuständigkeitsübertrag von Niedersachsen auf Bundesfernstraßen; Zufahrts- und Folgekostenprüfung erhalten. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "BVerwG 3 C 6.13 auf Konzentration begrenzt und NStrG vom FStrG getrennt.",
+      "BVerwG 9 B 6.14 gegen Anspruch auf unveränderte günstige Anbindung, zugleich Abwägungspflicht.",
+      "Vertrags- und gesetzliche Kostenmassen nicht aus Rechnungsabsender oder pauschalem Kreuzungsbegriff ableiten.",
+      "Gezielte Nachforderung von Widmung/Aufmaß, Fortsetzung und vollständige Endfassung erhalten.",
+      "Zwei konkrete Antwortbeispiele führen zu Ersatzbegehren beziehungsweise geänderter Kostenklausel; beide 7500-Grenzen eingehalten."
+    ],
+    "sha256": "c317cc16ec781e1796e70436d8ccff5f4bb90fa0fdcf81b46448592f87a2442b",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individueller Ganztextreview: Zugangsverlust und Betriebsfortführung, Bühnenaufstellung, Planänderungen sowie prüffähige Kostenvereinbarung wesentlich mit Gegenbefunden, Antwortfolgen und vollständigen Dokumentzielen ausgebaut; vorhandene Fachabgrenzungen erhalten. Redaktioneller Nachtrag 16.10.2026: Vorhandenen Bauzaunanker nach vorn gestellt; erforderliche Ausnahme von bereits erteilter Ausnahme unterschieden. Kein Zuständigkeitsübertrag von Niedersachsen auf Bundesfernstraßen; Zufahrts- und Folgekostenprüfung erhalten. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "BVerwG 3 C 6.13 auf Konzentration begrenzt und NStrG vom FStrG getrennt.",
+      "BVerwG 9 B 6.14 gegen Anspruch auf unveränderte günstige Anbindung, zugleich Abwägungspflicht.",
+      "Vertrags- und gesetzliche Kostenmassen nicht aus Rechnungsabsender oder pauschalem Kreuzungsbegriff ableiten.",
+      "Gezielte Nachforderung von Widmung/Aufmaß, Fortsetzung und vollständige Endfassung erhalten.",
+      "Betriebsfortführungsnachweis statt Umsatzautomatismus; Ersatz vor Geld im Anwendungsbereich des Paragrafen 8a Absatz 4.",
+      "Geänderte Pläne verändern konkrete Einwendungen, gemischte Rechnungen die Kostenmasse und nicht nur die Summe; Fristauslöser und Freigaben getrennt."
+    ],
+    "sha256": "43c0de87f37b6b062ec63c2d0eba20f357e94b7e99f66e7a43ebf39c0f7288d0",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie eine Sondernutzung in der Ortsdurchfahrt einer Bundesstraße einschließlich Zuständigkeit.",
+      "Ordnen Sie für eine Baustellennutzung Erlaubnis, Ausnahmegenehmigung und Straßenbaulast ein."
+    ],
+    "negative": [
+      "Verteidigen Sie mich gegen ein Bußgeld wegen Geschwindigkeitsüberschreitung.",
+      "Prüfen Sie allein die bauordnungsrechtliche Genehmigung eines Hauses ohne Straßennutzung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "ortsdurchfahrt-koordinierte-erlaubnis",
+      "request": "Ein Unternehmen will für zwei Tage eine Arbeitsbühne in der Ortsdurchfahrt einer Bundesstraße aufstellen. Die Gemeinde ist nicht Trägerin der Straßenbaulast. Für diesen konkret geplanten Einsatz ist nach bereits abgeschlossener fachlicher Prüfung eine Ausnahmegenehmigung nach Straßenverkehrsrecht erforderlich; das soll im Auftrag nicht erneut geprüft werden. Es liegt noch keine Genehmigung vor. Ein interner Entwurf fordert ohne weitere Begründung zusätzlich immer eine gesonderte Sondernutzungserlaubnis nach Paragraf 8 FStrG und will den Straßenbaulastträger nicht beteiligen. Erstellen Sie ergebnis.md zur Korrektur des Verfahrensplans und den nötigen Abstimmungen. Beantragen Sie nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Ausgabe prüft die vorgegebene verkehrsrechtliche Ausnahme unter Paragraf 8 Absatz 6 FStrG und korrigiert die Behauptung einer ausnahmslos zusätzlich erforderlichen Sondernutzungserlaubnis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Wegfall einer gesonderten Erlaubnis wird nicht mit dem Wegfall straßenrechtlicher Beteiligung verwechselt; die sonst zuständige Erlaubnisbehörde und Belange der Straßenbaulast werden in die Abstimmung aufgenommen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bundesstraße und Ortsdurchfahrt bleiben Grundlage der Zuständigkeitsprüfung; der Plan erklärt den noch ungenehmigten Zustand und behauptet weder erteilte Zustimmung noch einen bereits gestellten Antrag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "kaltstart-strassenrechtsfall"
+    }
+  ],
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Flächennutzungsantrag, Straßenplaneinwendung oder Kreuzungs-/Folgekostenvereinbarung.",
+      "Dateien: Widmung, Pläne und Bescheide still lesen; nur bei offenem Ziel passende Dokumentwege anbieten.",
+      "Klarer Auftrag: sofort Antrag, Einwendung oder Kostenregelung erstellen; nur entscheidende Maße, Statusunterlagen oder Kostenbelege nachfordern."
+    ],
+    "continuation": "Dauerhafter statt temporärer Zufahrtsverlust ändert Ersatzbegehren; alte Unterhaltung im neuen Aufmaß ändert Kostenmasse und Zahlungsklausel; Planänderung ändert betroffene Einwendung.",
+    "enrichment": "Betriebsfortführung und Gegenursachen, angemessener Zugang statt Lagegarantie, Abstützungen und Verkehrsraum, konkrete Planvarianten, Nachtrags- und Förderzuordnung, prüffähige Abrechnung und getrennte Fristauslöser.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "strassenrecht-infrastruktur/README.md",
+      "strassenrecht-infrastruktur/strassenrecht-infrastruktur-schnellstart.md",
+      "strassenrecht-infrastruktur/strassenrecht-infrastruktur-werkstatt.md",
+      "quality/evals/strassenrecht-infrastruktur.json"
+    ],
+    "opening_change": "Zulassung der Arbeitsbühne/Zufahrt, Beteiligung und Kosten statt bloßem Rechtsgebietskatalog.",
+    "norms": [
+      "Paragraf 8 und Paragraf 8a FStrG",
+      "Paragraf 12, Paragraf 13 und Paragraf 17 FStrG",
+      "Paragraf 32 und Paragraf 46 Absatz 1 Satz 1 Nummer 8 StVO"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerwG, Urteil vom 11. Dezember 2014, 3 C 6.13, Rn. 13–19",
+        "url": "https://ssl.bverwg.de/111214U3C6.13.0",
+        "application": "Bauzaun mit erforderlicher Verkehrsausnahme: Konzentration trotz noch fehlender Erteilung, Gebühren bleiben möglich.",
+        "limit": "Niedersächsischer Fall; heutige Bundeszuständigkeit aus Paragraf 8 Absatz 6 FStrG.",
+        "checked_on": "2026-09-23"
+      },
+      {
+        "citation": "BVerwG, Beschluss vom 30. Juni 2014, 9 B 6.14, Rn. 13",
+        "url": "https://www.bverwg.de/300614B9B6.14.0",
+        "application": "Veränderte Anbindung ohne Bestandsgarantie des Lagevorteils, Anliegerbelang in Abwägung.",
+        "limit": "Nichtzulassungsbeschluss zur Planung, keine pauschale Zufahrtsentscheidung.",
+        "checked_on": "2026-09-23"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Modelllauf.",
+      "Landesstraßenrecht, konkrete Widmung und Kostenvereinbarungen bleiben fallbezogen zu prüfen; Kreuzungsgesetze und sämtliche Planungsfristen nicht vollständig neu verifiziert.",
+      "Workflow-Review: Paragrafen 8 und 8a FStrG sowie 74 VwGO erneut amtlich gelesen; vorhandene gerichtliche Anker aus dem vorherigen Quellenreview übernommen. Abrufe von Paragraf 17e FStrG und 73 VwVfG scheiterten; daraus keine neue konkrete Sonderfrist abgeleitet."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "strassenrecht-infrastruktur/strassenrecht-infrastruktur-schnellstart.md",
+        "strassenrecht-infrastruktur/strassenrecht-infrastruktur-werkstatt.md"
+      ],
+      "result": "Bauzaun-Konzentration und verbleibende Gebühren korrekt getrennt. Lagevorteile sind keine unveränderliche Anbindungsgarantie; Landes- und Bundeszuständigkeit bleiben getrennt.",
+      "search_2026": "9 B 1.25 vom 27.01.2026 gefunden; Suchpassagen Rn. 4–7 zu nicht revisiblem hessischem Straßenrecht. Kein sachlicher Grund für Änderung der vorhandenen Bauzaun-/Anbindungsanker.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  }
+}

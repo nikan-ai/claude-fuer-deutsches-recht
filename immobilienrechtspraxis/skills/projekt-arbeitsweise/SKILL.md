@@ -1,6 +1,6 @@
 ---
 name: projekt-arbeitsweise
-description: "Wenn es um Projekt-Arbeitsweise Immobilienrecht in Immobilienrechtspraxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Projekt-Arbeitsweise Immobilienrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Projekt-Arbeitsweise Immobilienrecht
@@ -94,7 +94,7 @@ Falls in `vorgaben.md` hinterlegt werden zusätzlich geprüft:
 - Mindest-Vertragsstrafen bei Geheimhaltungsverletzung
 - Maximal akzeptierte Indexierungs-Schwellen bei
  Gewerbemietverträgen
-- Schriftform-Mindestanforderungen Gewerbemiete § 550 BGB
+- Textform und beweissichere Vertragskette der Gewerbemiete nach Paragraf 578 Absatz 1 und 550 BGB
 
 ## Auto-Routing
 
@@ -164,8 +164,6 @@ ist nachvollziehbar wer wann mit welchen Vorgaben geprüft hat.
 - "Erzeuge audit.md für den Quartalsbericht — welche Skills
  wurden im Projekt Erbpacht Tegel zwischen Januar und März
  angewandt?"
-
-## Aktuelle Rechtsprechung — Projekt-relevante Normen
 
 ## Paragrafenkette Projekt-Setup
 

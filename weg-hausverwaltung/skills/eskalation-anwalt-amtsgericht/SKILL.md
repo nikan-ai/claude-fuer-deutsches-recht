@@ -1,6 +1,6 @@
 ---
 name: eskalation-anwalt-amtsgericht
-description: "Wenn es um Eskalation: Anwalt und Amtsgericht in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Eskalation: Anwalt und Amtsgericht: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Eskalation: Anwalt und Amtsgericht
@@ -27,7 +27,7 @@ Rechtzeitig markieren, wann die Verwaltung nicht weiter allein handeln sollte. F
 
 ## Eskalationsgründe
 
-- **Beschlussklage**: drohende oder laufende Klagefrist (1 Monat, § 45 WEG), Klagebegründung (2 Monate, BGH V ZR 33/23 vom 09.02.2024).
+- **Beschlussklage**: drohende oder laufende Klagefrist (1 Monat, § 45 WEG), Klagebegründung (2 Monate, § 45 WEG).
 - **Erkundigungsobliegenheit**: bei verzögerter Klagezustellung muss der Kläger spätestens binnen 1 Jahr beim Gericht den Sachstand erfragen — BGH, Urteil vom 25.10.2024, V ZR 17/24 (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=25.10.2024&Aktenzeichen=V+ZR+17/24).
 - **Nichtigkeitsrisiko**, fehlende Beschlusskompetenz, massive Kostenverschiebung.
 - **Hausgeldrückstände**, Sonderumlage, Liquiditätskrise; bei Verweigerung der Vorschusszahlung: kein Zurückbehaltungsrecht des Eigentümers, BGH V ZR 190/24 vom 14.11.2025 (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=14.11.2025&Aktenzeichen=V+ZR+190/24).

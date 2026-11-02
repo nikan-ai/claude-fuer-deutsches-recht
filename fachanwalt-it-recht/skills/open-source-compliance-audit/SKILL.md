@@ -1,6 +1,6 @@
 ---
 name: open-source-compliance-audit
-description: "Wenn es um Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM
@@ -143,7 +143,6 @@ description: "Wenn es um Open-Source-Software Compliance Audit für GPL LGPL MIT
 
 ### Klage-Risiko
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Streitwert nach Lizenz-Höhe + Schadensersatz
 
 ## 8) M&A-Kontext
@@ -179,10 +178,6 @@ description: "Wenn es um Open-Source-Software Compliance Audit für GPL LGPL MIT
 - `fachanwalt-gewerblicher-rechtsschutz-orientierung` — bei IP-Streit
 - `corporate-kanzlei` — bei M&A
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Welche Lizenzen sind im Software-Stack vorhanden? (SBOM-Analyse erforderlich?)
@@ -211,5 +206,6 @@ Handlungsempfehlungen:
 1. [Quellcode-Offenlegung für GPL-Komponenten bis DATUM]
 2. [Lizenzwechsel oder Isolierung der AGPL-Komponente]
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

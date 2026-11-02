@@ -1,6 +1,6 @@
 ---
 name: stb-lohn-arbeitsvertrag-pruefung-lohn-relevant
-description: "Wenn es um Arbeitsvertrag aus lohnrelevanter Sicht pruefen in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arbeitsvertrag aus lohnrelevanter Sicht prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Arbeitsvertrag aus lohnrelevanter Sicht pruefen
@@ -151,7 +151,6 @@ Stand: 05/2026.
 - LStR; BMF zu Dienstwagen, JobRad.
 - Sachbezugswerte SvEV (Verpflegung, Unterkunft) werden jaehrlich angepasst; aktuelle Werte ueber BMAS/SvEV-Verordnung zum Jahreswechsel abrufen (Stand 2025: Verpflegung frei 313 EUR/Monat, Unterkunft 278 EUR/Monat).
 
-<!-- AUDIT 27.05.2026 | welle 6 | 1 Marker aufgeloest: 1 ersetzt (SvEV-Hinweis neu formuliert ohne Marker) -->
 
 
 ## Qualitäts-Hardening

@@ -1,6 +1,6 @@
 ---
 name: output-konformitaetserklaerung-eu-anhang-v
-description: "Wenn es um Output: EU-Konformitätserklärung — Art. 47 und Anhang V europäischer Technikregulierungsrahmen in europäischem Technikregulierungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Output: EU-Konformitätserklärung — Art. 47 und Anhang V europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Output: EU-Konformitätserklärung — Art. 47 und Anhang V KI-VO
@@ -9,7 +9,7 @@ description: "Wenn es um Output: EU-Konformitätserklärung — Art. 47 und Anha
 
 Art. 47 KI-VO verpflichtet Anbieter, für jedes Hochrisiko-KI-System eine EU-Konformitätserklärung auszustellen. Diese Erklärung bestätigt, dass das System die Anforderungen der KI-VO erfüllt. Inhalt und Format sind in Anhang V KI-VO festgelegt.
 
-**Wichtiger Hinweis:** Die EU-Konformitätserklärung ist nur dann rechtlich wirksam, wenn tatsächlich eine vollständige Konformitätsbewertung nach Art. 43 bis 49 KI-VO durchgeführt wurde. Die Erklärung ist kein Ersatz für die Konformitätsbewertung.
+**Prüfgrenze:** Eine positive Erklärung setzt einen belegten, zutreffenden Konformitätsbewertungsweg nach Artikel 43 voraus. Eine unzutreffende Erklärung ersetzt diesen Nachweis nicht. Keine pauschale, im Normtext nicht geregelte Aussage zur zivilrechtlichen Wirksamkeit erfinden. Mit Ausstellung übernimmt der Anbieter nach Artikel 47 Absatz 4 die Verantwortung für die Erfüllung der Anforderungen des Abschnitts 2.
 
 ## Muster EU-Konformitätserklärung (Anhang V KI-VO)
 
@@ -48,7 +48,12 @@ Nr.: [Eindeutige Erklärungsnummer]
  Unionsrechtsvorschriften:
  Verordnung (EU) 2024/1689 (KI-VO)
 
-7. Angaben zu den angewandten harmonisierten
+7. Bei erforderlicher Verarbeitung personenbezogener Daten:
+ Erklärung nach Anhang V Nummer 5 zur Konformität mit den dort
+ genannten Datenschutzrechtsakten, nach Prüfung ihres jeweiligen
+ Anwendungsbereichs. Ohne Nachweis keine positive Versicherung.
+
+8. Angaben zu den angewandten harmonisierten
  Normen, gemeinsamen Spezifikationen oder
  sonstigen Spezifikationen, auf die sich
  die Konformitätserklärung bezieht:
@@ -56,14 +61,14 @@ Nr.: [Eindeutige Erklärungsnummer]
  [Verweis auf gemeinsame Spezifikationen, falls einschlaegig]
  [Verweis auf sonstige technische Spezifikationen, z.B. interne Tests oder ISO/IEC-Standards ohne Vermutungswirkung]
 
-8. Angaben zur beteiligten benannten Stelle
+9. Angaben zur beteiligten notifizierten Stelle
  (falls zutreffend):
  [Name der benannten Stelle]
  [Kennnummer der benannten Stelle]
  [Art der Konformitätsbewertung]
  [Bescheinigungsnummer und -datum]
 
-9. Zusätzliche Informationen
+10. Zusätzliche Informationen
  [Besondere Einsatzbedingungen,
  Einschränkungen oder Hinweise]
 
@@ -83,6 +88,7 @@ Die Erklärung muss mindestens enthalten:
 - Name und Anschrift des Anbieters und seines Bevollmächtigten
 - Eine Beschreibung des Hochrisiko-KI-Systems, einschließlich seiner Bezeichnung und Version
 - Eine Erklärung, dass das KI-System den Anforderungen der KI-VO und gegebenenfalls anderer einschlägiger Unionsrechtsakte entspricht
+- Bei erforderlicher Verarbeitung personenbezogener Daten die Erklärung nach Anhang V Nummer 5; die dort genannten Datenschutzregime anhand des jeweiligen Anwendungsbereichs prüfen
 - Verweis auf die angewandten harmonisierten Normen oder gemeinsamen Spezifikationen
 - Gegebenenfalls Name und Kennnummer der beteiligten benannten Stelle, Verweis auf die ausgestellten Bescheinigungen
 - Ort und Datum der Ausstellung, Unterschrift
@@ -93,7 +99,7 @@ Die EU-Konformitätserklärung ist zehn Jahre ab dem Datum des Inverkehrbringens
 
 ## Verbindung zum Evidence-Pack
 
-Wenn nicht nur die Erklärung, sondern eine druckreife Konformitätsbescheinigung, ein Art.-43-Nachweis, ein Evidence Index und eine Lückenliste gebraucht werden, nutze `output-konformitaetsbescheinigung-evidence-pack`. Dieser Skill verhindert, dass eine interne Readiness-Bewertung fälschlich als finale Konformität oder als Bescheinigung einer notifizierten Stelle ausgegeben wird.
+Wenn nicht nur die Erklärung, sondern eine druckreife Konformitätsbescheinigung, ein Art.-43-Nachweis, ein Evidence Index und eine Lückenliste gebraucht werden, nutze `konformitaetsbescheinigung-evidence-pack`. Dieser Skill verhindert, dass eine interne Readiness-Bewertung fälschlich als finale Konformität oder als Bescheinigung einer notifizierten Stelle ausgegeben wird.
 
 ## Aktualisierung
 
@@ -106,15 +112,12 @@ Die Erklärung ist zu aktualisieren, wenn:
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
-- Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
+- Art. 99 KI-VO — den konkreten Verstoß und die jeweils einschlägige Sanktionsstufe prüfen; nicht den Artikel-5-Höchstsatz auf alle Pflichten übertragen
 
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
@@ -142,3 +145,9 @@ Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+## Amtlicher Abgleich vom 9. Oktober 2026
+
+Artikel 47 und Anhang V wurden vollständig gelesen. Die Erklärung ist schriftlich, maschinenlesbar und physisch oder elektronisch unterzeichnet; eine Kopie ist zuständigen nationalen Behörden auf Anfrage zu übermitteln. Mehrere einschlägige unionsrechtliche Erklärungsregime nach Artikel 47 Absatz 3 in einer Erklärung verbinden. [Rechtsstand und Grenzen](../../references/rechtsstand-2026-10-09.md).

@@ -1,6 +1,6 @@
 ---
 name: mittelstand-ma-erechnung-gobd
-description: "Wenn es um Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand) in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand)
@@ -15,8 +15,6 @@ description: "Wenn es um Freistehender Billing-, GoBD- und E-Rechnungs(Mittelsta
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -62,7 +60,6 @@ Mit der Einführung der E-Rechnungspflicht im B2B-Verkehr (§ 14 UStG n.F. ab 01
 
 | Gericht | Az. | Datum | Leitsatz (kurz) |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema / Billing-Workflow
 
@@ -221,7 +218,6 @@ Eine rückwirkende Änderung oder Löschung der Ursprungsrechnung ist unzulässi
 | Risiko / Schadensfall | Ansatz | Norm |
 |---|---|---|
 | GoBD-Verstoß: Rechnungsänderung ohne Storno | Bußgeld bei Betriebsprüfung; Verweigerung Vorsteuerabzug Mandant | GoBD; § 15 UStG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Rückdatierung von Rechnungen | Steuerstrafrecht; § 370 AO | § 370 AO; GoBD |
 | Nicht valide XRechnung | Ablehnung durch Empfangssystem; Verzug | KoSIT-Validierungsregeln |
 
@@ -241,9 +237,8 @@ Eine rückwirkende Änderung oder Löschung der Ursprungsrechnung ist unzulässi
 
 ## Quellen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 14, § 14a, § 13b, § 15 UStG; §§ 145–147 AO; GoBD-Erlass BMF 28.11.2019; §§ 4, 49b BRAO; XRechnung CEN EN 16931; ZUGFeRD 2.3 (Factur-X)
 
 ## Ergaenzende Rechtsprechung (v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: patentfamilien-analyse
-description: "Wenn es um patentfamilien-analyse in patentrecherche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für patentfamilien-analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # patentfamilien-analyse
@@ -17,7 +17,7 @@ description: "Wenn es um patentfamilien-analyse in patentrecherche geht: prüft 
 
 ### INPADOC-Familie
 
-Definition über den **Prioritätstag**. Alle Anmeldungen weltweit, die direkt oder indirekt auf dieselbe Erstanmeldung priorisieren (Pariser Verbandsübereinkunft, Art. 4 PVÜ — 12 Monate Prioritätsfrist).
+Eine erweiterte INPADOC-Familie verbindet Patentdokumente über Prioritätsansprüche: Jedes Mitglied teilt direkt oder über weitere Mitglieder mindestens eine Priorität. Ein gleicher Prioritätstag allein genügt nicht; technischer Inhalt und beanspruchte Prioritäten müssen nicht bei allen Mitgliedern identisch sein. Die Datenbankzuordnung ist keine Entscheidung über die rechtliche Wirksamkeit einer Priorität.
 
 - Eine Erstanmeldung in DE am 15.03.2018.
 - Innerhalb 12 Monaten Nachanmeldungen in EP, US, JP, CN, KR mit Priorität DE 15.03.2018.
@@ -61,7 +61,6 @@ Pro Familienmitglied:
 | EP 3 456 789 A1 | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt | H02J 3/14 | DE FR GB | EPO-Register-Link |
 | EP 3 456 789 B1 | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt 12.09.2021 | H02J 3/14 | DE FR GB IT NL | EPO-Register-Link |
 | US 10,876,543 B2 | Siemens AG | 15.03.2019 | DE 15.03.2018 | erteilt 05.10.2020 | H02J 3/14 | US | USPTO-Link |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | CN 110123456 A | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt CN | H02J 3/14 | CN | Espacenet-CN-Link |
 | JP 6789012 B2 | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt JP | H02J 3/14 | JP | Espacenet-JP-Link |
 
@@ -83,7 +82,7 @@ Familientabelle als strukturiertes YAML/JSON an `freedom-to-operate-recherche` o
 ## Hinweise
 
 - **Datenlücken.** Nicht alle Ämter melden vollständig an INPADOC. Bei JP-, CN-, KR-Patenten kann die Familie unvollständig erfasst sein. Bei kritischen Mandaten: amtliche Direktrecherche im Zielland.
-- **Späte Nachanmeldungen** außerhalb der 12-Monats-Prioritätsfrist sind keine echte Familie, sondern eigenständige Anmeldungen mit eigenem Stand der Technik.
+- Familienzuordnung und wirksame Inanspruchnahme einer Priorität getrennt prüfen. Eine Zeitspanne von mehr als zwölf Monaten allein erlaubt keinen Ausschluss aus einer erweiterten INPADOC-Familie; maßgeblich sind die dokumentierten Prioritätsverbindungen und der jeweilige Anmeldungsweg.
 - **EP-Patente mit Einheitlichem Patent (UP).** Seit Juni 2023 gibt es das Einheitliche Patent. Erfasst alle Teilnehmer-Staaten als ein einziges Schutzrecht; in der Familienliste oft als "European patent with unitary effect" gekennzeichnet.
 - **PCT-Anmeldungen** (WO …) sind keine eigentlichen Patente, sondern Anmeldewege. Erst durch nationale Phasen entstehen die einzelnen Patente.
 - **Anmelderwechsel.** Familienmitglieder können verschiedene Anmelder haben (Anmelderwechsel, Konzernverschiebung). Bei FTO immer auf den **aktuellen** eingetragenen Inhaber im jeweiligen Register prüfen.
@@ -102,8 +101,9 @@ Bevor die Familienanalyse begonnen wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> **EPA, Erweiterte Beschwerdekammer, G 2/10 (Teilanmeldung):** Eine EP-Teilanmeldung kann nur Gegenstande umfassen, die in der Stammanmeldung zum Zeitpunkt der Einreichung der Teilanmeldung offenbart waren; neue Merkmale können nicht nachtraeglich in eine Teilanmeldung eingefuehrt werden.
+EPA, Erweiterte Beschwerdekammer, Entscheidung vom 30.08.2011, G 2/10, Leitsatz 1a und 1b: Bei einem Disclaimer zu ursprünglich offenbartem Gegenstand ist nach Art. 123 Abs. 2 EPÜ zu prüfen, ob der verbleibende Anspruchsgegenstand unmittelbar und eindeutig aus der ursprünglichen Anmeldung hervorgeht. Das ist kein Anker für die Definition einer Patentfamilie und keine pauschale Entscheidung über die Zulässigkeit von Teilanmeldungen.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Gezielte Primärquellenprüfung am 16.10.2026: [EPA-Familiendefinition](https://www.epo.org/de/searching-for-patents/helpful-resources/first-time-here/patent-families/inpadoc) und [G 2/10, amtlicher Leitsatz](https://www.epo.org/en/legal/official-journal/2012/06/p376). Geprüft wurden diese Zuordnungen, nicht sämtliche nationalen Anmeldungswege oder Registerstände.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

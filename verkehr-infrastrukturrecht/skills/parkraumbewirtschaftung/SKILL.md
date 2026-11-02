@@ -1,6 +1,6 @@
 ---
 name: parkraumbewirtschaftung
-description: "Wenn es um Parkraumbewirtschaftung in Verkehrs- und Infrastrukturrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Parkraumbewirtschaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Parkraumbewirtschaftung
@@ -33,7 +33,6 @@ description: "Wenn es um Parkraumbewirtschaftung in Verkehrs- und Infrastrukturr
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-bei Abschleppung
@@ -49,3 +48,5 @@ description: "Wenn es um Parkraumbewirtschaftung in Verkehrs- und Infrastrukturr
 - Abschleppkosten-Erstattung ist Verwaltungsakt; Widerspruch und VG-Klage.
 - Privater Parkplatzbetreiber: Zivilgericht; AGB-Kontrolle der Vertragsstrafe.
 - Anwaltliche Endkontrolle bei Widerspruchsschreiben und Klagen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

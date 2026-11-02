@@ -1,6 +1,6 @@
 ---
 name: insol-sanierungsgewinn-iv-haftung-fuer-versaumte-3a-iv-antraege
-description: "Wenn es um Sanierungsgewinn — IV-Haftung fuer versaeumte Paragraph 3a-Antraege in Insolvenzrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Sanierungsgewinn — IV-Haftung für versäumte Paragraph 3a-Anträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenzrecht. Route: insol-sanierungsgewinn-iv-haftung-fuer-versaumte-3a-iv-antraege."
 ---
 
 # Sanierungsgewinn — IV-Haftung fuer versaeumte Paragraph 3a-Antraege
@@ -183,5 +183,5 @@ In anderen Plugins:
 - Paragraphen 56, 58, 92 InsO, `gesetze-im-internet.de/inso/`.
 - Paragraphen 69, 89, 251 AO, `gesetze-im-internet.de/ao_1977/`.
 - Paragraph 3a EStG, Paragraph 7b GewStG.
-- FG Koeln, Urteil vom 04.11.2025 — 12 K 1413/25. Verifikation ueber `dejure.org`.
+- FG Köln, Urteil vom 04.11.2025 - 12 K 1413/25: Eine Steuerbefreiung nach Paragraf 3a EStG setzt den Nachweis von Sanierungsbedürftigkeit, Sanierungsfähigkeit, Sanierungseignung, Sanierungsabsicht und betrieblicher Veranlassung des Schuldenerlasses voraus; die Eignung ist aus Sicht des Erlasszeitpunkts zu beurteilen.
 - Zitierweise und Quellenpruefung siehe `references/zitierweise.md`.

@@ -1,6 +1,6 @@
 ---
 name: zeilenprompts-definieren
-description: "Wenn es um Zeilenprompts für einzelne Prüfpositionen im 3D-Tabellenreview definieren in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zeilenprompts für einzelne Prüfpositionen im 3D-Tabellenreview definieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zeilenprompts für einzelne Prüfpositionen im 3D-Tabellenreview definieren
@@ -27,7 +27,6 @@ description: "Wenn es um Zeilenprompts für einzelne Prüfpositionen im 3D-Tabel
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Typische Zeilenprompt-Muster
 
@@ -92,6 +91,7 @@ Wenn die meisten Zeilen einen ähnlichen Zeilenprompt brauchen ist das ein Hinwe
 
 ## Audit-Hinweise
 
-<!-- AUDIT 27.05.2026 -->
 - Geprüft: 27.05.2026 (Halluzinations-Reparatur, Task 234)
 - Frontmatter unveraendert. Keine Komma-Zahlen eingefuehrt. Kein Kyrillisch vorhanden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: intake
-description: "Wenn es um Intake und Eingangstriage in Kanzlei-Allgemein geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Intake und Eingangstriage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Intake und Eingangstriage
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
@@ -33,9 +31,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 2. Gibt es ein bestehendes Mandat, dem der Eingang zugeordnet werden kann, oder handelt es sich um einen Neueingang?
 3. Enthaelt der Eingang fristwahrendes Material (Klage, Bescheid, Urteil, EB)?
 4. Sind Datenschutzrisiken oder Mandatsgeheimnis-relevante Informationen im Eingang enthalten?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 51 BRAO — Haftung für Organisationspflichtverletzungen im Kanzleibetrieb
@@ -85,6 +80,7 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - Eingangsstempel und Lesbarkeit prüfen.
 - Bei Fristbezug Originaleingang und Scanzeit trennen.
 
+```markdown
 ## Intake-Karte
 
 - Kanal:
@@ -108,3 +104,5 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - Frist oder Handlung: `kanzlei-allgemein-fristen-monitor`.
 - Antwortentwurf oder Versand: `kanzlei-allgemein-output-versand`.
 - beA-Journal, beA-ZIP oder elektronisches Empfangsbekenntnis: `kanzlei-allgemein-bea-journal`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: mandantenkommunikation-bwa-uebergabe-quartal
-description: "Wenn es um Quartalsgespraech — BWA-Übergabe mit dem Mandanten in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Mandantenkommunikation Bwa Uebergabe Quartal; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Quartalsgespräch — BWA-Übergabe mit dem Mandanten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder Entscheidungsvorlage. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: mandantenkommunikation-bwa-uebergabe-quartal."
 ---
 
 # Quartalsgespraech — BWA-Übergabe mit dem Mandanten
@@ -15,8 +15,6 @@ description: "Wenn es um Quartalsgespraech — BWA-Übergabe mit dem Mandanten i
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Quartalsgespraech — BWA-Uebergabe mit dem Mandanten` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -44,7 +42,7 @@ Das Quartalsgespraech ist Standard für mittelstaendische Mandanten: BWA-Besprec
 
 **§ 57 StBerG** — Gewissenhaftigkeit.
 
-**§ 102 StaRUG** — Hinweispflicht.
+Paragraf 102 StaRUG: Die BWA-Übergabe löst die Norm nicht selbst aus; Jahresabschlussauftrag und weitere Tatbestandsmerkmale gesondert prüfen.
 
 **§ 5 RDG** — Abgrenzung Rechtsberatung.
 
@@ -139,7 +137,7 @@ Termin: [Datum, Uhrzeit]
 ### Phase 4 — Krisengespraech (Sonderfall)
 
 - Bei Krisensignalen: BWA mit Hervorhebung der negativen Kennzahlen vorbereiten (drohende Zahlungsunfaehigkeit, Ueberschuldung, sinkendes Eigenkapital).
-- § 102 StaRUG-Hinweispflicht ausdruecklich ansprechen und schriftlich dokumentieren — der Mandant ist auf das Risiko der Insolvenzantragspflicht (§ 15a InsO) und auf die Notwendigkeit anwaltlicher / insolvenzrechtlicher Beratung hinzuweisen.
+- Bei konkreten Insolvenzindizien den Warnbedarf schriftlich dokumentieren. Nur bei erfülltem Tatbestand als Hinweis nach Paragraf 102 StaRUG bezeichnen; Antragspflicht und spezialisierte Prüfung sachgerecht ansprechen.
 - Anwalt (Insolvenz- bzw. Sanierungsspezialist) empfehlen — die StB-Hinweispflicht erfuellt keine insolvenzrechtliche Beratung iSv § 5 RDG.
 - Dokumentation: Aktenvermerk mit Datum, Inhalt des Hinweises, anwesende Personen; ggf. zusaetzliches Bestaetigungsschreiben an Mandant.
 

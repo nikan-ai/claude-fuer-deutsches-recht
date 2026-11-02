@@ -1,9 +1,11 @@
 ---
 name: datenpanne-vor-bussgeld-selbstmeldung
-description: "Wenn es um Datenpanne vor Bußgeld Selbstmeldung taktisch nutzen in Datenschutz-Sanktionsverfahren und Verteidigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Datenpanne vor Bußgeld Selbstmeldung taktisch nutzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Datenschutz-Sanktionsverfahren und Verteidigung."
 ---
 
 # Datenpanne vor Bußgeld Selbstmeldung taktisch nutzen
+
+Rechtsstand 10. September 2026: COM(2025) 837, Verfahren 2025/0360(COD), ist noch ein Gesetzgebungsvorschlag. Die vorgeschlagenen 96 Stunden und eine erhöhte Meldeschwelle sind kein geltendes Recht. Artikel 33 verlangt bei meldepflichtigen Verletzungen unverzügliche Meldung, möglichst binnen 72 Stunden ab Kenntnis. Artikel 34 betrifft gesondert hohes Risiko. Nicht auf vollständige Aufklärung oder Akteneinsicht warten: tragfähige Erstmeldung mit kenntlich unvollständigen Angaben nach Artikel 33 Absatz 4 zur rechtzeitigen Freigabe vorbereiten. Pflichtmeldung und freiwillige Verteidigungsstellungnahme trennen; keine ungeprüften Schuldanerkenntnisse. Eine Meldung an die Bundesnetzagentur ersetzt die Datenschutzmeldung nicht. [Amtlicher Reformstand und Zuständigkeit](../../references/digitaler-omnibus-2026.md).
 
 ## Aufgabe
 

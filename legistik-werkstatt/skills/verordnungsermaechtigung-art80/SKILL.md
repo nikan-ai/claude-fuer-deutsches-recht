@@ -1,6 +1,6 @@
 ---
 name: verordnungsermaechtigung-art80
-description: "Wenn es um Verordnungsermaechtigung Art. 80 GG in Legistik-Werkstatt geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Verordnungsermächtigung Art. 80 GG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verordnungsermaechtigung Art. 80 GG
@@ -60,10 +60,6 @@ Auf Landesebene gilt regelmäßig Art. 80 GG analog über die Landesverfassungen
 | Bundesrats-Zustimmung | Ja/Nein | Wortlaut + Stammgesetz |
 | Anhörungspflichten | Ja/Nein | Spezialgesetz |
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 Art. 80 Abs. 1 GG (Ermaechtigungs-Bestimmtheitstrias) — Art. 80 Abs. 1 Satz 4 GG (Sub-Delegation) — Art. 80 Abs. 2 GG (Bundesrats-Zustimmung) — § 51 BImSchG (Beispiel-Ermaechtigungsnorm mit Anhörungspflicht)
@@ -79,3 +75,5 @@ Prüfprotokoll plus Empfehlung:
 ## Anschluss
 
 `normenkartierung` und `referentenentwurf-bauen` (mit korrektem Citatum).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

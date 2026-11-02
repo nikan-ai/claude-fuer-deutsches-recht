@@ -1,13 +1,13 @@
 ---
 name: elektronische-zustellung-eu
-description: "Wenn es um Elektronische Zustellung in der Zwangsvollstreckung – ZVollstrDigitG in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Elektronische Zustellung in der Zwangsvollstreckung – ZVollstrDigitG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Elektronische Zustellung in der Zwangsvollstreckung – ZVollstrDigitG
 
 ## Arbeitsbereich
 
-Gläubiger oder Kreditinstitut fragt: Was ändert sich durch die Digitalisierung der Zwangsvollstreckung ab 2026/2027? Maßgeblich ist das im Bundesgesetzblatt 2026 I Nr. 152 verkündete Gesetz zur weiteren Digitalisierung der Zwangsvollstreckung. Prüfraster: elektronischer PfÜB-Antrag nach Paragraf 829a ZPO n.F. ab 1.10.2026, XML-Datensatz nach Paragraf 829 Absatz 5 ZPO n.F. ab 1.1.2027, sicherer Übermittlungsweg für Kreditinstitute nach Paragraf 173 Absatz 2 Nummer 1 ZPO n.F. ab 1.6.2027 und Drittschuldnererklärung nach Paragraf 840 ZPO. Output: Umstellungs-Checkliste und aktualisierte Workflow-Anpassung. Abgrenzung zu zv-pfueb-bank (PfUeB gegen Konto) und zv-titel-klausel-zustellung (klassisch).
+Gläubiger oder Kreditinstitut fragt: Was ändert sich durch die Digitalisierung der Zwangsvollstreckung ab 2026/2027? Maßgeblich ist das Gesetz vom 20. Mai 2026, verkündet am 26. Mai 2026 im BGBl. 2026 I Nr. 152. Prüfraster: elektronischer PfÜB-Antrag nach Paragraf 829a ZPO n.F. ab 1.10.2026, XML-Datensatz nach Paragraf 829 Absatz 5 ZPO n.F. ab 1.1.2027, sicherer Übermittlungsweg für Kreditinstitute nach Paragraf 173 Absatz 2 Nummer 1 ZPO n.F. ab 1.6.2027 und Drittschuldnererklärung nach Paragraf 840 ZPO. Output: Umstellungs-Checkliste und aktualisierte Workflow-Anpassung. Abgrenzung zu `pfueb-bank` (PfÜB gegen Konto) und `titel-klausel-zustellung` (klassisch).
 
 ## Arbeitsweg
 
@@ -24,10 +24,6 @@ Gläubiger oder Kreditinstitut fragt: Was ändert sich durch die Digitalisierung
 3. Hat die Kanzlei-Software die XML-Unterstützung nach Paragraf 829 Absatz 5 ZPO n.F. bereits implementiert?
 4. Ist die Zielbank bereits im eBO-Verzeichnis registriert?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - Paragraf 130a ZPO — elektronischer Rechtsverkehr (Schriftsätze)
@@ -42,14 +38,14 @@ Gläubiger oder Kreditinstitut fragt: Was ändert sich durch die Digitalisierung
 | Datum | Inhalt |
 | --- | --- |
 | 19.3.2026 | Bundestag beschließt das Gesetz; konsolidierter Nachweis über BT-Drs. 21/4816 |
-| 13.5.2026 | Verkündung im BGBl. 2026 I Nr. 152 |
+| 26.5.2026 | Verkündung des Gesetzes vom 20. Mai 2026 im BGBl. 2026 I Nr. 152 |
 | 1.10.2026 | Inkrafttreten wesentlicher Hauptteile, darunter der elektronische PfÜB-Antrag nach Paragraf 829a ZPO n.F. |
-| 1.1.2027 | Strukturierter XML-Datensatz nach Paragraf 829 Absatz 5 ZPO n.F. kann zusammen mit dem PDF-Antrag genutzt werden; bei Widerspruch ist der XML-Datensatz maßgeblich |
+| 1.1.2027 | Nach Paragraf 829 Absatz 5 ZPO n.F. können die einzelnen Formulare als PDF oder als strukturierter XML-Datensatz übermittelt werden; ein zusätzliches PDF ist bei XML nicht erforderlich. Nur wenn dasselbe Formular gleichzeitig in beiden Formaten übermittelt wird, ist XML für die gerichtliche Prüfung maßgeblich. |
 | 1.6.2027 | Kreditinstitute müssen einen sicheren elektronischen Übermittlungsweg eröffnen nach Paragraf 173 Absatz 2 Nummer 1 ZPO n.F. |
 
 Bei jeder neuen Beratung prüfen, ob seit BGBl. 2026 I Nr. 152 weitere Formular-, ZVFV- oder ERV-Anpassungen veröffentlicht wurden. Quellen:
 
-- BGBl. 2026 I Nr. 152
+- [BGBl. 2026 I Nr. 152](https://www.recht.bund.de/bgbl/1/2026/152/regelungstext.pdf?__blob=publicationFile&v=1), Artikel 18: Inkrafttreten der Hauptteile am 1.10.2026, des Artikels 2 am 1.1.2027 und des Artikels 3 am 1.6.2027.
 - BT-Drs. 21/4816
 - BRAK-Newsletter Ausgabe 8/2026 vom 1.5.2026 ("Zwangsvollstreckung künftig mit weniger Medienbrüchen")
 - DGVB-Beitrag zum elektronischen Rechtsverkehr in der Vollstreckung
@@ -68,7 +64,7 @@ Bei jeder neuen Beratung prüfen, ob seit BGBl. 2026 I Nr. 152 weitere Formular-
 
 ### 1. Elektronischer Antrag und XML-Datensatz
 
-Ab 1.10.2026 ist die erleichterte elektronische Antragstellung nach Paragraf 829a ZPO n.F. zu prüfen. Ab 1.1.2027 kann der PfÜB-Antrag zusätzlich zum PDF-Antrag eine maschinenlesbare XML-Struktur nach Paragraf 829 Absatz 5 ZPO n.F. enthalten. Bei Diskrepanz gilt der XML-Datensatz. Wer Software einsetzt, sollte vor dem 1.1.2027 testen, ob die Kanzlei-Software den ZVFV-konformen XML-Anhang erzeugt.
+Ab 1.10.2026 ist die erleichterte elektronische Antragstellung nach Paragraf 829a ZPO n.F. zu prüfen. Ab 1.1.2027 können die einzelnen Formulare nach Paragraf 829 Absatz 5 ZPO n.F. als PDF oder als strukturierter maschinenlesbarer XML-Datensatz übermittelt werden. Ein zusätzliches PDF ist bei XML nicht erforderlich. Nur bei gleichzeitiger Übermittlung desselben Formulars in beiden Formaten wird die XML-Fassung der gerichtlichen Prüfung zugrunde gelegt, auch bei abweichenden Angaben. Wer Software einsetzt, sollte vor dem 1.1.2027 testen, ob die Kanzlei-Software den ZVFV-konformen XML-Datensatz erzeugt.
 
 ### 2. Pflicht der Kreditinstitute zum sicheren Übermittlungsweg
 
@@ -113,3 +109,5 @@ Die Aufforderung zur Drittschuldnererklärung wird zusammen mit dem Pfändungsbe
 - XML-Schema-Versionen prüfen – ZVFV-Update nicht verpassen.
 - Niemals annehmen, jede Bank sei vor 1.6.2027 elektronisch erreichbar – im Übergang konkret beim GV nachfragen.
 - Bei Anwaltsmandat § 130d ZPO als aktive Nutzungspflicht stets beachten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

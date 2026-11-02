@@ -1,6 +1,6 @@
 ---
 name: rechtsabteilung-us-work-made-for-hire-im-deutschen-projekt
-description: "Wenn es um Rechtsabteilung: US Work Made for Hire im deutschen Projekt in Softwarerecht Deutschland/EU/International/USA geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Rechtsabteilung: US Work Made for Hire im deutschen Projekt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Rechtsabteilung: US Work Made for Hire im deutschen Projekt
@@ -46,3 +46,4 @@ US-Templates werden auf deutsche Rechteübertragung und moral rights angepasst.
 - Belegmatrix mit Originalquelle, Datum, Verantwortlichem und Lücke.
 - Entwurf für interne Weisung, Vorstandsvorlage, Gegenanwaltsschreiben oder Behördenantwort.
 - Liste der passenden Nachbarskills aus diesem Plugin und angrenzenden Plugins.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie Vertrag, Anleitung und tatsächlich ausgelieferten Funktionsumfang. Modellanpassung, Änderung der Zweckbestimmung und wesentliche Systemänderung sind verschiedene Fragen und benötigen jeweils technische Belege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

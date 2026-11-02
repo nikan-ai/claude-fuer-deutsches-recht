@@ -1,6 +1,6 @@
 ---
 name: vollstreckung
-description: "Wenn es um Zwangsvollstreckung – Überblick und Praxis in Prozessrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Zwangsvollstreckung – Überblick und Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zwangsvollstreckung – Überblick und Praxis
@@ -18,12 +18,12 @@ description: "Wenn es um Zwangsvollstreckung – Überblick und Praxis in Prozes
 Dieser Skill bleibt der prozessrechtliche Überblick. Für die operative Durchführung – Antragsformulare,
 Drittschuldnerwahl, P-Konto-Berechnung, ZVollstrDigitG-Übergänge 2026/2027, notarielle Urkunde Paragraf 800 ZPO,
 Tabellenauszug Paragraf 201 InsO, Räumung Paragraf 885 ZPO, Schuldnerschutz – lädt das freistehende Plugin
-`zwangsvollstreckung` mit 17 spezialisierten Skills (`zv-kommandocenter`, `zv-titel-klausel-zustellung`,
-`zv-pfueb-bank`, `zv-pfueb-arbeitsentgelt`, `zv-pfueb-mieter-finanzamt`, `zv-vermoegensauskunft-gv`,
-`zv-kontensuche-drittschuldner`, `zv-notarielle-urkunde-grundschuld`, `zv-zvg-antrag-glaeubiger`,
-`zv-tabellenauszug-201-inso`, `zv-mobiliar-gv-auftrag`, `zv-raeumung-885`, `zv-abwehr-schuldner`,
-`zv-pfaendungstabelle-2025`, `zv-elektronische-zustellung-2027`, `zv-mahnbescheid-online`,
-`zv-vollstreckungsbescheid-folge`). Dieser Hub-Skill ist die richtige Adresse für die dogmatische
+`zwangsvollstreckung` mit spezialisierten Skills (`kommandocenter`, `titel-klausel-zustellung`,
+`pfueb-bank`, `pfueb-arbeitsentgelt`, `pfueb-802l-arbeit`, `vermoegensauskunft-gv`,
+`kontensuche-drittschuldner`, `notarielle-urkunde-grundschuld`, `zvg-antrag-glaeubiger`,
+`tabellenauszug-201-inso`, `mobiliar-gv-auftrag`, `raeumung-tabellenauszug-inso`, `abwehr-schuldner`,
+`pfaendungstabelle-pfueb-arbeitsentgelt`, `elektronische-zustellung-eu`, `mahnbescheid-online-mobiliar-gv`,
+`vollstreckungsbescheid-zv`). Dieser Hub-Skill ist die richtige Adresse für die dogmatische
 Gesamtschau; das Plugin ist die richtige Adresse für die einzelne Vollstreckungsmaßnahme.
 
 ## Eingaben
@@ -73,7 +73,7 @@ Das Modell benötigt:
 
 ### Rechtsstand 2025/2026
 
-- Pfaendungsfreigrenzenbekanntmachung 2025 (BGBl. 2025 I Nr. 110): Grundfreibetrag 1.555 EUR ab 01.07.2025 bis 30.06.2026. Quelle: https://www.recht.bund.de/bgbl/1/2025/110/VO.html
+- Pfändungsfreigrenzenbekanntmachung 2026 (BGBl. 2026 I Nr. 80): Grundfreibetrag 1.587,40 Euro vom 1. Juli 2026 bis 30. Juni 2027. Amtliche Quelle: https://www.gesetze-im-internet.de/pf_ndfreigrbek_2026/
 - Justizstandort-Staerkungsgesetz (BGBl. 2025 I Nr. 318 vom 11.12.2025): Wertgrenzenreform ab 01.01.2026 mit Auswirkungen auf Beschwerdesummen Paragraf 511 Abs. 2 ZPO (jetzt 1.000 EUR) und Paragraf 23 GVG (AG 10.000 EUR).
 
 ### Quellenregel
@@ -130,12 +130,10 @@ ca. EUR 264/Monat pfändbar nach aktueller Pfändungstabelle). PfÜB ist beim Vo
 am Wohnsitz des S zu beantragen; Drittschuldnerin ist die Musterfirma GmbH.
 
 *Empfehlung*: Zusätzlich Kontopfändung bei bekannter Hausbank (Paragraf 829 ZPO); Cave: P-Konto-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Risiken und typische Fehler
 
 - **Fehlende Zustellung** (Paragraf 750 ZPO): Vollstreckung rechtswidrig; Erinnerung Paragraf 766 ZPO
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **P-Konto übersehen**: Pfändung auf Girokonto leer, wenn Schuldner P-Konto führt;
  Freibeträge sind automatisch geschützt (Paragraf 850k ZPO).
 - **Falsche Pfändungsfreigrenze**: Bei Unterhaltspflichten des Schuldners erhöhte Freigrenze
@@ -154,8 +152,4 @@ nach `references/zitierweise.md` zu belegen. BGH-Beschlüsse vollständig mit Da
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 (Stöber/Rellermeyer) Autoren, Titel, Aufl., Jahr, Rn. zitieren.
 
-<!-- AUDIT 27.05.2026
-Datum 01.07.2010 (nicht 20.05.2010), aber mit falschem Thema: real handelt das Urteil von
-Vorteilsausgleichung/Steuervorteile, nicht von Drittwiderspruchsklage Paragraf 771 ZPO (WRONG_TOPIC).
-Halluzinierte Referenz geloescht. Keine Ersatzquelle für Paragraf 771 ZPO-Leitentscheidung ergaenzt.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

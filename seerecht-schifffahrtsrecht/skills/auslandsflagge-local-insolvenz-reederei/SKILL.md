@@ -1,6 +1,6 @@
 ---
 name: auslandsflagge-local-insolvenz-reederei
-description: "Wenn es um Auslandsflagge und Local Counsel – Flaggenstaat-Compliance in See- und Schifffahrtsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Auslandsflagge und Local Counsel – Flaggenstaat-Compliance: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Auslandsflagge und Local Counsel – Flaggenstaat-Compliance
@@ -98,17 +98,3 @@ Eine deutsche Reederei betreibt ihre Flotte unter Panama-Flagge und bekommt Port
 - BSH ISM: https://www.bsh.de/DE/THEMEN/Schifffahrt/ISM_Code/ism_code_node.html
 - Paris MOU: https://www.parismou.org
 - ITLOS M/V Saiga: https://www.itlos.org/en/main/cases/list-of-cases/
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 WSG
-- § 267 StGB
-- § 49 EStG
-- § 8b KStG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

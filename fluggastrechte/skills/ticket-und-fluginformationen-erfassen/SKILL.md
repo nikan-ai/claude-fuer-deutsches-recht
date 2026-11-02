@@ -1,6 +1,6 @@
 ---
 name: ticket-und-fluginformationen-erfassen
-description: "Wenn es um Ticket- und Fluginformationen erfassen in Fluggastrechte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Ticket- und Fluginformationen erfassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ticket- und Fluginformationen erfassen
@@ -83,10 +83,6 @@ belege:
 - Verbraucher-relevante öffentliche Datenquellen sind regelmäßig **zahlungspflichtig oder nicht autoritativ** (FlightAware FlightRadar24 etc.); im Streit beweisbedeutsam ist die **Eingangsbestätigung der Airline** und die offizielle **Verspätungs-/Annullierungsmeldung** der Airline.
 - Bei strittiger Ist-Zeit: Empfehlung **eigenhändige Dokumentation am Tag des Ereignisses** (Fotos Anzeigentafel SMS-Eingaenge) als späterer Beweis.
 
-## Leitentscheidungen Informationserfassung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Ausgabe
 
 - `fallakte.yaml` mit allen Stammdaten.
@@ -96,11 +92,6 @@ belege:
 ## Mehrere Passagiere
 
 Pro Flug wird **ein** Anspruchsfall mit mehreren Passagieren erfasst. Jeder Passagier hat aber einen **eigenen Ausgleichsanspruch** (Art. 7 VO 261/2004 ist persönlich). Daher bei der Klage je Passagier eigener Antrag (Streitgenossenschaft möglich). Vollmacht der Mitreisenden falls einer für alle vorgeht — Skill `vollmacht-familienmitglieder`.
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Tatsächliches Thema laut dejure.org: Pešková und Peška/Travel Service – Vogelschlag als außergewöhnlicher Umstand i.S.v. Art. 5 Abs. 3 VO 261/2004.
-Aktion: Eintrag mit korrektem Thema und Fundstelle EU:C:2017:342 ersetzt.
--->
 
 ## Normen & Rechtsprechung
 
@@ -111,3 +102,5 @@ Konkret zu prüfen:
 - Art. 6 VO 261/2004 (Verspätung)
 - Art. 7 VO 261/2004 (Ausgleichszahlung 250/400/600 EUR)
 - EuGH C-402/07 (Sturgeon)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

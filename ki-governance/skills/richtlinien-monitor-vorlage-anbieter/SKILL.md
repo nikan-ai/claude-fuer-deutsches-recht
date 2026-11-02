@@ -1,6 +1,6 @@
 ---
 name: richtlinien-monitor-vorlage-anbieter
-description: "Wenn es um digitale Werkzeuge-Richtlinien-Monitor in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für digitale Werkzeuge-Richtlinien-Monitor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Richtlinien-Monitor
@@ -8,8 +8,8 @@ description: "Wenn es um digitale Werkzeuge-Richtlinien-Monitor in diesem Spezia
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Geltungsbeginn gestaffelt (02.02.2025 Verbote, 02.08.2025 GPAI, 02.08.2026 Hochrisiko Anhang III), schwerwiegender Vorfall 15 Tage, DSGVO DPIA vorab.
-- Tragende Normen verifizieren: EU KI-VO 2024/1689 Art. 9, 10, 14, 22, 27, 50, ISO/IEC 42001, NIST AI RMF 1.0, OECD AI Principles, DSGVO Art. 22, 35, Produkthaftungs-RL 2024/2853 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, für Anhang I ab 02.08.2028. Artikel 4 neuer Fassung, Artikel 4a, Verbote und Transparenz gesondert prüfen; Vorfallfrist nach Tatbestand und Ereignis, Datenschutz-Folgenabschätzung vor riskanter Verarbeitung.
+- Tragende Rechtsgrundlagen am amtlichen EUR-Lex-Text der KI-Verordnung und der gegebenenfalls einschlägigen DSGVO prüfen. ISO/IEC 42001, NIST AI RMF und OECD-Prinzipien sind keine Verordnungsartikel. Bei harmonisierten Normen konkrete Fassung, Amtsblattfundstelle und abgedeckte Anforderungen nach Artikel 40 feststellen; freiwilliges Managementzertifikat und Konformitätsverfahren nach Artikel 43 trennen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsleitung, KI-Officer, Datenschutzbeauftragter, Compliance, Aufsichtsrat, Marktüberwachung, externer Auditor, betroffene Personen.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: KI-Inventar, Risikoanalyse, FRIA (Fundamental Rights Impact Assessment), AI Governance Policy, Modellkarten, Audit-Bericht, DSGVO-DPIA, Schulungsnachweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -27,7 +27,7 @@ Richtlinien-Verpflichtungen und Anwendungsfall-Register aus `CLAUDE.md`.
 
 - **AI Act Art. 17 KI-VO**: Anbieter von Hochrisiko-KI müssen ein Qualitäts-
  managementsystem unterhalten inkl. laufender Überprüfung. Für Betreiber:
- Art. 29 Abs. 1–4 KI-VO (Überwachungs- und Meldepflichten).
+ Artikel 26 Absatz 5 KI-Verordnung (Überwachung und Meldewege des Hochrisiko-Betreibers).
 - **DSGVO Art. 5 Abs. 2 (Rechenschaftspflicht)**: Verantwortliche müssen
  Einhaltung der Grundsätze nachweisen; Richtlinie und gelebte Praxis
  müssen übereinstimmen.
@@ -39,10 +39,8 @@ Richtlinien-Verpflichtungen und Anwendungsfall-Register aus `CLAUDE.md`.
 
 **Leitentscheidungen**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  KI-Richtlinie ohne Adressierung von Scoring-Systemen schafft materielle
  Lücke, wenn entsprechende Systeme operativ eingesetzt werden.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Vergessen I): Grundrechtliche Schutzpflichten gegenüber algorithmischen
  Systemen; Transparenzgebot beim KI-Einsatz.
 
@@ -95,6 +93,7 @@ Abgleich gegen Richtlinie und Register:
 | Offenlegung ggü. Betroffenen | [Richtlinien-Zusage] | [erforderlich?] | |
 | Anbieter-Datennutzung | [Playbook-Position] | [Anbieter-Bedingungen] | |
 
+```markdown
 ## ERFORDERLICHE Änderungen
 ### [Lücke]
 Quelle: [Datei] | Was geschieht: [Beschreibung]
@@ -146,10 +145,9 @@ nennen. Ergebnis: RICHTLINIENÄNDERUNG EMPFOHLEN.
 ## Quellenpflicht
 
 - **AI Act Art. 17** (Qualitätsmanagement) bei Hochrisiko-Anwendungsfällen.
-- **AI Act Art. 29** (Betreiberpflichten, Überwachung).
+- **Artikel 26 Absatz 5 KI-Verordnung** (Überwachung durch den Hochrisiko-Betreiber).
 - **DSGVO Art. 5 Abs. 2** (Rechenschaftspflicht) bei Richtlinien-Dokumentation.
 - **DSGVO Art. 22** bei automatisierten Entscheidungen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Wendehorst/Grinzinger, AI Act, 1. Aufl. 2024, Art. 17.**
 - **Ehmann/Selmayr, DS-GVO, 3. Aufl. 2024, Art. 5 Rn. 62 ff.**
 
@@ -157,11 +155,8 @@ nennen. Ergebnis: RICHTLINIENÄNDERUNG EMPFOHLEN.
 1. Sweep-Modus oder Direktanfrage — neue Praxis oder regelmäßiger Policy-Abgleich?
 2. Wann war der letzte Sweep — sind neue Anwendungsfaelle oder Folgenabschaetzungen seit dann dazugekommen?
 3. Gibt es bereits bekannte Richtlinien-Praxis-Kluft (z.B. Anwendungsfall ohne Richtlinien-Deckung)?
-4. Betrifft die neue Praxis einen Hochrisiko-Bereich (Art. 9 KI-VO Qualitaetsmanagement)?
+4. Betrifft die neue Funktion Hochrisiko-KI? Artikel 9 (Systemrisikomanagement) und Artikel 17 (Anbieter-Qualitätsmanagement) getrennt zuordnen.
 5. Ist eine Betriebsrats-Beteiligung nach § 87 Abs. 1 Nr. 6 BetrVG relevant?
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Output-Template — Richtlinien-Monitor-Bericht
 **Adressat:** KI-Governance-Verantwortlicher — Tonfall: sachlich-strukturiert
@@ -192,3 +187,6 @@ NAECHSTE SCHRITTE:
 Naechster Sweep: [DATUM]
 Erstellt: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

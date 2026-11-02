@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um Gewerblicher Rechtsschutz: Plugin anpassen in Plugin: Gewerblicher Rechtsschutz geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Gewerblicher Rechtsschutz: Plugin anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gewerblicher Rechtsschutz: Plugin anpassen
@@ -135,26 +135,7 @@ Basierend auf Profil empfehlen, welche Fachmodule bevorzugt genutzt werden sollt
 - `allgemein` – Plugin-Übersicht
 - `gewerblicher-rechtsschutz-kaltstart-interview` – Kaltstart-Interview für neues Mandat
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 97a UrhG
-- § 97 UrhG
-- § 8c UWG
-- § 14 MarkenG
-- § 42 MarkenG
-- § 8 UWG
-- § 13 UWG
-- § 26 MarkenG
-- § 9 PatG
-- § 66 MarkenG
-- § 8 MarkenG
-- § 6 ArbnErfG
-
-### Leitentscheidungen
-
-- BGH I ZR 153/16
-- BGH I ZR 82/99
-- BGH I ZR 20/07
-- BGH X ZR 171/12
+Das betroffene Schutzrecht zuerst bestimmen und Patentgesetz, Markengesetz, Designgesetz, Urheberrechtsgesetz, Gesetz gegen den unlauteren Wettbewerb sowie Unionsrecht nicht vermischen. Eine Entscheidung wird nur mit Streitgegenstand, Tatbestandsmerkmal, tragender Aussage und Quelle zugeordnet; allgemeine Aktenzeichenlisten sind für Anmeldung, Abmahnung und Prozessstrategie ungeeignet.

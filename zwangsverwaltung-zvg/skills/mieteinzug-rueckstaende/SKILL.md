@@ -1,6 +1,6 @@
 ---
 name: mieteinzug-rueckstaende
-description: "Wenn es um Mieteinzug und Rückstände in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mieteinzug und Rückstände: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mieteinzug und Rückstände
@@ -72,10 +72,6 @@ Mieteinzug und Rückstandsbehandlung in der Zwangsverwaltung. Anwendungsfall Mie
 - § 8 ZwVwV
 - § 13 ZwVwV
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Mieteinzug/Rückstände
 
 § 153 ZVG (Einziehung Nutzungen) → § 535 Abs. 2 BGB (Mietzinszahlungspflicht) → § 543 Abs. 2 Nr. 3 BGB (Kündigung wegen Zahlungsverzug) → § 286 BGB (Verzug) → § 288 BGB (Verzugszinsen) → §§ 12-13 ZwVwV (Buchführung Rückstände)
@@ -116,3 +112,5 @@ Bitte übergeben Sie die Wohnung spätestens zum [DATUM] geräumt.]
 
 [UNTERSCHRIFT ZWANGSVERWALTER]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

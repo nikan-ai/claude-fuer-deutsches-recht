@@ -1,6 +1,6 @@
 ---
 name: mehrsprachige-antwort-muster-erstantwort-spam
-description: "Wenn es um Mehrsprachige-Antwort in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mehrsprachige-Antwort: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mehrsprachige-Antwort
@@ -8,7 +8,7 @@ description: "Wenn es um Mehrsprachige-Antwort in mandantenanfragen-assistent ge
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -22,9 +22,6 @@ Dieser Skill erkennt die Sprache der eingehenden Mandantenanfrage und schaltet d
 2. Gibt es landesspezifische Anredekonventionen (EN, FR, IT) die abweichen von deutschen Regeln?
 3. Muss der Datenschutzhinweis (Art. 13 DSGVO) und der Kein-Mandat-Disclaimer ebenfalls in der Fremdsprache formuliert werden?
 4. Ist die Anfrage moeglicherweise automatisch übersetzt worden (Qualitaet der Sprache prüfen)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 13 DSGVO — Informationspflicht in verstaendlicher Sprache: gilt bei Fremdsprachler uneingeschraenkt
@@ -152,3 +149,5 @@ der das Erstgespräch führen kann? Falls nein: Hinweis in der Mail aufnehmen.
 - `anfrage-eingang-parser` — erkennt die Sprache der Anfrage
 - `erstantwort-generator` — erhält den Sprachmodus
 - `anrede-uebernehmen` — liefert die sprachangepasste Anrede
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

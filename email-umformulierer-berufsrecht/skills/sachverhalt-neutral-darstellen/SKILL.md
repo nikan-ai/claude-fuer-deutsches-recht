@@ -1,6 +1,6 @@
 ---
 name: sachverhalt-neutral-darstellen
-description: "Wenn es um Sachverhalt neutral darstellen in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sachverhalt neutral darstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Sachverhalt neutral darstellen
@@ -16,9 +16,6 @@ Dieser Skill transformiert subjektiv gefärbte, vorwurfsvolle oder emotionale Sa
 2. Muss der Sachverhalt vollstaendig erhalten bleiben oder darf er kondensiert werden?
 3. Für welchen Adressaten: Gericht (maximale Sachlichkeit), Mandant (erklaerend), Gegner (zurueckhaltend)?
 4. Gibt es Passagen, bei denen die Distanzierungsformel ("nach Ihrer Darstellung") benoetigt wird?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot und Wahrheitspflicht bei Sachverhaltsschilderungen
@@ -55,3 +52,5 @@ Für die Wiedergabe fremder Darstellungen ohne eigene Wertung gelten folgende Fo
 
 **Vorher:** "Anscheinend ist Ihnen die Vertragstreue nicht wichtig."
 **Nachher:** "Die vereinbarte Leistung ist bis zum TT.MM.JJJJ nicht erbracht worden."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

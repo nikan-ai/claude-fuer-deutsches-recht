@@ -1,6 +1,6 @@
 ---
 name: abgabe-an-staatsanwaltschaft
-description: "Wenn es um Abgabe An Staatsanwaltschaft in Ordnungswidrigkeitenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abgabe an Staatsanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abgabe An Staatsanwaltschaft
@@ -41,25 +41,3 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 OWiG
-- § 8 OWiG
-- § 9 OWiG
-- § 17 OWiG
-- § 30 OWiG
-- § 31 OWiG
-- § 47 OWiG
-- § 55 OWiG
-- § 66 OWiG
-- § 67 OWiG
-- § 72 OWiG
-- § 130 OWiG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

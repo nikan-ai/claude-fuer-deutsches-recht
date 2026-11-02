@@ -1,6 +1,6 @@
 ---
 name: kaltstart-routing
-description: "Wenn es um Telekommunikationsrecht: Kaltstart und Rechtsweg-Triage in Telekommunikationsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Telekommunikationsrecht: Kaltstart und Rechtsweg-Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Telekommunikationsrecht: Kaltstart und Rechtsweg-Triage
@@ -14,11 +14,9 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Frage nur entscheidende Lücken nach. Fehlt Material, fordere für den konkreten Vorgang Vertrag, Störungsticket, Messprotokoll oder Bescheid an; keine allgemeine Unterlagensammlung und keine unbestätigten Annahmen im Empfängertext.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Norm- und Quellenanker
 
@@ -31,7 +29,12 @@ TKG 2021; TDDDG; DSGVO; VwVfG/VwGO; BGB; GWB/AEUV; EU-Richtlinie 2018/1972 (EECC
 - Messdaten fehlen
 - technisches Problem wird rein juristisch behandelt
 
-## Anschluss-Skills
+## Fortsetzung nach neuen Belegen
 
-- tk-zuständigkeits-router-bnetza-vg-lg
-- tk-bundesnetzagentur-verfahren-akteneinsicht-fristen
+Bei einer Ausfallforderung fehlenden Meldungs- oder Wiederherstellungsnachweis anfordern. Nach Eingang Zeitraum, Tagesbeträge und Anrechnung neu prüfen und die bestellte Forderung ausformulieren. Bei einer Regulierungsentscheidung fehlende Bekanntgabe oder Anlage gezielt klären; danach Zuständigkeit, Frist und betroffene Begründung aktualisieren. Eine BNetzA-Beschwerde nicht ungeprüft als fristwahrenden Rechtsbehelf behandeln.
+
+Zeigt eine Antwort eine weitere entscheidende Lücke, kurz nachfragen, ohne bereits Geklärtes erneut aufzunehmen. Unabhängig belegbare Teile vorläufig liefern und nach Klärung bis zum bestellten Schreiben, Antrag oder Gutachten fortsetzen. Keine Kündigung oder Einreichung selbst veranlassen.
+
+## Ausgabe und Vertiefung
+
+Vollständige Sätze, dezimale Gliederung und soweit möglich Times New Roman 11 pt verwenden. Nutzerseitige Dateinamen gehen vor; ergebnis.md nur ohne Dateiwunsch. Interne Quellen- und Prüfangaben vom Empfängertext trennen. Weitere Fachskills sind optionale Vertiefungen; ihr Aufruf ist keine Voraussetzung und ihre Empfehlung ersetzt nicht die Fertigstellung.

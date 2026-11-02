@@ -1,6 +1,6 @@
 ---
 name: insolvenzverschleppung-bankrott-beweisimport
-description: "Wenn es um Insolvenzverschleppung und Bankrott: Tatzeitraum sauber schneiden in Staatsanwaltschaft Praxis-Einstieg geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. Auswahlstichwort: Insolvenzverschleppung Bankrott Beweisimport; Arbeitsfeld: Staatsanwaltschaft Praxis-Einstieg."
+description: "Für Insolvenzverschleppung und Bankrott: Tatzeitraum sauber schneiden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Insolvenzverschleppung und Bankrott: Tatzeitraum sauber schneiden
@@ -32,13 +32,6 @@ description: "Wenn es um Insolvenzverschleppung und Bankrott: Tatzeitraum sauber
 - **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
 - **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
 - **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.
-
-## Normen & Rechtsprechung
-
-- BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug bei Durchsuchungen ist eng zu verstehen und aktenkundig zu begründen.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Digitale Ermittlungsmaßnahmen brauchen eine tragfähige gesetzliche Grundlage, Richtervorbehalt und Kernbereichsschutz.
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigung und informelle Absprache dürfen die Wahrheitsfindung und Dokumentationspflicht nicht unterlaufen.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: EncroChat-Daten sind auf Rechtshilfeweg, Zuständigkeit, Verteidigungsrechte und Beweiszugang zu prüfen.
 
 ## Prüf- und Arbeitslogik
 

@@ -1,6 +1,6 @@
 ---
 name: notaranderkonto-auszahlungsreife
-description: "Wenn es um Notaranderkonto Auszahlungsreife in Berufsrecht Notare geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Notaranderkonto Auszahlungsreife: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notare: notaranderkonto auszahlungsreife - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
@@ -40,7 +40,7 @@ description: "Wenn es um Notaranderkonto Auszahlungsreife in Berufsrecht Notare 
 Konkret zu prüfen:
 
 - § 23 BNotO (Notaranderkonto)
-- § 54a BeurkG
+- §§ 57 bis 60 BeurkG (Verwahrung, Durchführung und Widerruf)
 - DONot § 11
 - § 23 BNotO
 - DONot § 12

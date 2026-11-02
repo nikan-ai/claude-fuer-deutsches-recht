@@ -1,6 +1,6 @@
 ---
 name: vollmacht-familienmitglieder
-description: "Wenn es um Vollmacht für Familienmitglieder und Mitreisende in Fluggastrechte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vollmacht für Familienmitglieder und Mitreisende: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vollmacht für Familienmitglieder und Mitreisende
@@ -108,10 +108,6 @@ Liebe Grüße
 - Aufbewahrung bis Anspruchsabwicklung plus drei Jahre (Verjährung).
 - Datenschutz beachten — keine unnoetige Weiterleitung.
 
-## Leitentscheidungen Vollmacht / Familienvertretung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Ausgabe
 
 - `vollmacht-<name>-<datum>.docx` pro Mitreisendem.
@@ -135,3 +131,5 @@ Konkret zu prüfen:
 - Art. 6 VO 261/2004 (Verspätung)
 - Art. 7 VO 261/2004 (Ausgleichszahlung 250/400/600 EUR)
 - EuGH C-402/07 (Sturgeon)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

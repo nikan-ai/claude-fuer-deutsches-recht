@@ -1,6 +1,6 @@
 ---
 name: aufklaerungsfehler-beweisstrategie
-description: "Wenn es um Aufklaerungsfehler Beweisstrategie in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufklärungsfehler Beweisstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Aufklaerungsfehler Beweisstrategie: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -43,10 +43,6 @@ description: "Wenn es um Aufklaerungsfehler Beweisstrategie in Fachanwalt Medizi
 - **§ 630c Abs. 3 BGB** — wirtschaftliche Aufklärung: bei Kenntnis, dass Behandlungskosten nicht vollständig übernommen werden, ist aufzuklären.
 - **§ 630h Abs. 2 BGB** — Beweislastumkehr: Behandelnder muss beweisen, dass Aufklärung ordnungsgemäß erfolgt ist und wirksame Einwilligung des Patienten vorliegt.
 
-### BGH-Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Prüfschema
 
 | Nr. | Prüfschritt | Norm | Kernfrage |
@@ -61,8 +57,11 @@ description: "Wenn es um Aufklaerungsfehler Beweisstrategie in Fachanwalt Medizi
 | 8 | Wirksame Einwilligung | § 630d BGB | Einwilligungsfähig? Ausreichend informiert? |
 | 9 | Beweislastumkehr | § 630h Abs. 2 BGB | Arzt hat Beweis für ordnungsgemäße Aufklärung? |
 | 10 | Kausalität Aufklärungsmangel — Schaden | § 630h Abs. 2 BGB analog | Eingetretene Folge von nicht aufgeklärtem Risiko? |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Schadensumfang | §§ 249, 253 BGB | Körperverletzung rechtswidrig = alle Schadensfolgen |
+
+### Tatsächlicher Eingriff und Alternativverlauf
+
+[BGH, Urteil vom 25.11.2025, VI ZR 165/23](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2023/VI_ZR_165-23.pdf?__blob=publicationFile&v=1), Rn. 16–22: Hypothetische Einwilligung betrifft die tatsächlich vorgenommene Maßnahme; Zustimmung zu einer späteren Operation reicht nicht. Rechtmäßiges Alternativverhalten gesondert prüfen: Den gleichen Schaden auch bei rechtmäßigem Verlauf muss die Behandlungsseite beweisen. Zeitpunkt, gewünschten Aufschub und Gegenursache gezielt klären.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -151,7 +150,6 @@ II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
  last für eine ordnungsgemaesse Aufklaerung und eine
  wirksame Einwilligung. Diese Beweislast kann mit dem
  vorgelegten Standard-Aufklaerungsbogen nicht erfuellt werden
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 4. Keine hypothetische Einwilligung
  Die Beklagte kann sich nicht mit Erfolg auf eine
@@ -160,7 +158,6 @@ II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
  einem plausiblen Entscheidungskonflikt, weil [konkret:
  Familienplanung, weniger invasive Alternative bekannt etc.].
  Dies ergibt sich aus [Mandantenvortrag + ggf. Zeuge].
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ```
 
 --- vor Versand klären ---
@@ -193,10 +190,8 @@ II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
 
 | Einwand Arzt | Reaktion Patient |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Patient kannte Risiko aus früherer Behandlung | Aufklärungspflicht bleibt bei jedem Eingriff; früheres Wissen entlastet nur bei identischen Risiken und sehr kurzem Abstand |
 | Eingriff war eilbedürftig | § 630d Abs. 1 Satz 4 BGB — bei Notfall mutmaßliche Einwilligung; Eilbedürftigkeit muss dokumentiert sein |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Streitwert und Kosten
 
@@ -224,6 +219,5 @@ II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
 ## Quellen
 
 - BGB §§ 630c, 630d, 630e, 630h, 249, 253
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentar-, Handbuch- oder Aufsatzblindzitate.
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.

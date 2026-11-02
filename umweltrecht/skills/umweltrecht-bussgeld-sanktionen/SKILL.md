@@ -1,6 +1,6 @@
 ---
 name: umweltrecht-bussgeld-sanktionen
-description: "Wenn es um Bussgeld, Sanktionen und Anhoerung im Umweltrecht in Umweltrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bussgeld, Sanktionen und Anhörung im Umweltrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Umweltrecht. Route: umweltrecht-bussgeld-sanktionen."
 ---
 
 # Bussgeld, Sanktionen und Anhoerung im Umweltrecht
@@ -28,10 +28,6 @@ description: "Wenn es um Bussgeld, Sanktionen und Anhoerung im Umweltrecht in Um
 - **§ 68 OWiG** — Hauptverhandlung beim Amtsgericht
 - **§ 30 OWiG** — Verbandsgeldbuse gegen jur. Person
 - **§ 31 OWiG** — Verjaeahrung (3 Jahre bei max. Bussgeld > 1.000 EUR)
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -149,3 +145,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `umweltrecht-verfahren` — Gerichtsverfahren nach Einspruch
 - `umweltrecht-immissionsschutz-bimschg` — Nachtraegliche Auflagen als Busjgeld-Alternative
 - `umweltrecht-kommandocenter` — Intake und Mandats-Triage
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,13 +1,13 @@
 ---
 name: azubi-zeugnis-analyse
-description: "Wenn es um Ausbildungszeugnis-Analyse (Azubi-Zeugnis) in Arbeitszeugnis-Analyse geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ausbildungszeugnis-Analyse (Azubi-Zeugnis): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Ausbildungszeugnis-Analyse (Azubi-Zeugnis)
 
 ## Fachlicher Anker
 
-- **Normen:** Paragrafen 611a, Paragrafen 1, Paragrafen 14.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
@@ -42,10 +42,6 @@ description: "Wenn es um Ausbildungszeugnis-Analyse (Azubi-Zeugnis) in Arbeitsze
 - **Paragraf 13 BBiG** — Pflichten des Auszubildenden; Pflichtverletzungen dürfen nur bei tragfähiger Tatsachengrundlage in die Beurteilung einfließen
 - Allgemeine Zeugnisgrundsätze zu Wahrheit, Klarheit und Wohlwollen sind bei Ausbildungszeugnissen entsprechend zu berücksichtigen
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor der Azubi-Analyse
 
 1. Abschlusszeugnis oder Zwischenzeugnis (Paragraf 16 Abs. 2 BBiG)?
@@ -63,3 +59,4 @@ description: "Wenn es um Ausbildungszeugnis-Analyse (Azubi-Zeugnis) in Arbeitsze
 | **BAG, Urt. v. 14.10.2003 - 9 AZR 12/03** | Zur vollen Zufriedenheit bescheinigt durchschnittliche Leistung (Note 3); Beweislast für bessere Note beim Arbeitnehmer, für schlechtere beim Arbeitgeber. | bundesarbeitsgericht.de / dejure.org |
 | **BAG, Urt. v. 18.11.2014 - 9 AZR 584/13** | "Befriedigend" als Mitte der Skala; Arbeitnehmer traegt Beweislast für bessere Note; Branchenueblichkeit guter Noten verschiebt die Beweislast nicht. | bundesarbeitsgericht.de / dejure.org |
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

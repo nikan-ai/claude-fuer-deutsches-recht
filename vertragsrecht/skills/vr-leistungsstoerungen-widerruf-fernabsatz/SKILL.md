@@ -1,6 +1,6 @@
 ---
 name: vr-leistungsstoerungen-widerruf-fernabsatz
-description: "Wenn es um Vertragsrecht: Leistungsstoerungen in Vertragsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Vertragsrecht: Leistungsstörungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vertragsrecht: Leistungsstoerungen
@@ -13,7 +13,6 @@ Spezialfall Leistungsstoerungen: Unmoeglichkeit § 275 BGB, Verzug § 286 BGB, S
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; §§ 305 ff. BGB, NDA, SaaS- — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -60,3 +59,7 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
+
+## Bereits erklärte Rückabwicklung richtig auslegen
+
+Eine bereits versandte Anfechtungs- oder Widerrufserklärung nach Inhalt und erkennbarem Rückabwicklungsziel auslegen. [BGH, Urteil vom 11.02.2026 – VIII ZR 37/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2024/VIII_ZR__37-24.pdf?__blob=publicationFile&v=1), Rn. 31–39: Auch ein anwaltliches Schreiben kann zugleich einen Rücktritt erklären, wenn Kaufpreisrückzahlung und Rückgabeangebot aus Empfängersicht den unbedingten Lösungswillen zeigen. Das Wort „Rücktritt“ ist nicht zwingend. Nicht jedes erfolglose Widerrufsschreiben automatisch umdeuten: vollständigen Wortlaut und Empfängerhorizont prüfen. Mangel, Fristsetzung oder ihre Entbehrlichkeit und die weiteren Rücktrittsvoraussetzungen bleiben gesondert erforderlich; darüber entschied der BGH nicht abschließend. Die Entscheidung betraf einen Kauf von 2019, weshalb ihre Anwendung alten Kaufmängelrechts nicht auf heutige Verträge übertragen werden darf.

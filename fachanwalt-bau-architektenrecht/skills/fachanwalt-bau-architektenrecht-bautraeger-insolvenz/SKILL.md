@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bau-architektenrecht-bautraeger-insolvenz
-description: "Wenn es um Bauträger-Insolvenz — Erwerber-Schutz in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bauträger-Insolvenz — Erwerber-Schutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bauträger-Insolvenz — Erwerber-Schutz
@@ -177,10 +177,3 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - `insolvenzforderungsanmeldungspruefung` — bei Tabellenanmeldung
 - `fachanwalt-insolvenz-sanierungsrecht-anfechtungsklage-verwalter` — bei InsO-Anfechtung
 - `fachanwalt-bau-architektenrecht-abnahme-verweigerung` — bei Mangel-Konstellation
-
-
-<!-- AUDIT 27.05.2026 bundle_055
-Halluzinations-Reparatur: BGH VII ZR 141/18 (NOT_FOUND) geloescht.
-Kein Ersatz gefunden: Kein BGH-Urteil mit diesem Aktenzeichen auf dejure.org
-nachweisbar. Bestehende Zitate IX ZR 109/04, IX ZR 235/12, IX ZR 285/14 bleiben.
--->

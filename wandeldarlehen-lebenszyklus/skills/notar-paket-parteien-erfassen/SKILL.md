@@ -1,6 +1,6 @@
 ---
 name: notar-paket-parteien-erfassen
-description: "Wenn es um Notar-Paket zur Handelsregister-Anmeldung in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Notar-Paket zur Handelsregister-Anmeldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notar-Paket zur Handelsregister-Anmeldung
@@ -29,9 +29,6 @@ description: "Wenn es um Notar-Paket zur Handelsregister-Anmeldung in Wandeldarl
 - § 40 GmbHG (Gesellschafterliste – nach Kapitalerhöhung neue Liste beim Handelsregister)
 - § 78 GmbHG (Notarielle Beglaubigung der Anmeldung)
 - § 8 GmbHG (Inhalt der Anmeldung allgemein)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -90,12 +87,8 @@ Stand: 05/2026. Bei Änderung GmbHG §§ 57 ff. oder GwG § 19 aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 §§ 53, 54, 55 GmbHG (Beurkundung Kapitalerhöhungsbeschluss + Übernahme) → § 56 Abs. 2 GmbHG (Sacheinlagebericht) → §§ 1-17 BeurkG (Beurkundungsgesetz, Pflichten Notar) → § 40 GmbHG (Gesellschafterliste nach Wandlung) → § 57 GmbHG (Handelsregisteranmeldung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

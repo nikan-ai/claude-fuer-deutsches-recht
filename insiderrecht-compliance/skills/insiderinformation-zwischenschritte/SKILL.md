@@ -1,6 +1,6 @@
 ---
 name: insiderinformation-zwischenschritte
-description: "Wenn es um Insiderinformation nach Art. 7 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Insiderinformation Zwischenschritte; Arbeitsfeld: Insiderrecht Compliance."
+description: "Für Insiderinformation nach Art. 7 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insiderrecht Compliance. Route: insiderinformation-zwischenschritte."
 ---
 
 # Insiderinformation nach Art. 7 MAR
@@ -44,8 +44,7 @@ zu verneinen. Ergebnis ist immer ein schriftlicher Insidervermerk mit Quellennac
 - Bestimme, ob die Information eine konkrete Tatsache oder ein konkretes Ereignis betrifft oder
  mit hinreichender Wahrscheinlichkeit eintreten wird.
 - Trenne Tatsachen (vergangen/gegenwärtig) von Prognosen, Gerüchten und Analysen.
-- Wende den Geltl/Daimler-Test an: Auch Zwischenschritte in einem mehrstufigen Prozess können
- präzise Informationen sein, sofern ihr Eintritt hinreichend wahrscheinlich ist (EuGH C-19/11).
+- EuGH, 28.06.2012 – C-19/11, Geltl, Rn. 38–40, 49–56: Bereits eingetretene Zwischenschritte können selbst präzise Informationen sein; die Wahrscheinlichkeit des finalen Ereignisses ist dafür kein allgemeines Zusatzmerkmal. Nur bei erwarteten Ereignissen deren tatsächliche Erwartbarkeit aus dem damaligen Gesamtbild prüfen, ohne starre Prozentquote.
 - Halte fest: Welches Ereignis? Welches Datum/welcher Zeitraum? Welche Eintrittswahrscheinlichkeit?
 
 ### Schritt 2 – Nichtöffentlichkeit

@@ -1,6 +1,6 @@
 ---
 name: mandatsabbruch-empfehlung-an-fachanwalt-insolvenz
-description: "Wenn es um Mandatsabbruch und Empfehlung an Fachanwalt in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Mandatsabbruch Empfehlung An Fachanwalt Insolvenz; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer."
+description: "Für Mandatsabbruch und Empfehlung an Fachanwalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: mandatsabbruch-empfehlung-an-fachanwalt-insolvenz."
 ---
 
 # Mandatsabbruch und Empfehlung an Fachanwalt
@@ -24,14 +24,6 @@ description: "Wenn es um Mandatsabbruch und Empfehlung an Fachanwalt in bereiche
 ## Zentrale Normen
 
 § 17 InsO (Zahlungsunfähigkeit) — § 19 InsO (Überschuldung) — § 138 InsO (nahestehende Personen) — Art. 3 ff. EuInsVO (internationale Zuständigkeit) — § 14a FAO (Fachanwalt für Insolvenzrecht) — § 14g FAO (Fachanwalt für Bank- und Kapitalmarktrecht) — § 208 InsO (Masseunzulänglichkeit)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Komplexitätsindikatoren
 
@@ -95,3 +87,4 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

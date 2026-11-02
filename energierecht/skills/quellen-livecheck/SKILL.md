@@ -1,6 +1,6 @@
 ---
 name: quellen-livecheck
-description: "Wenn es um Rechtsquellen-Livecheck in Energierecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Energierecht."
 ---
 
 # Rechtsquellen-Livecheck
@@ -12,7 +12,7 @@ Dieser Quellen-Livecheck für **Energierecht** trennt amtliche Normfassung, frei
 ## Fachlandkarte dieses Plugins
 
 - `anfrage-mehrparteien-konflikt-und-interessen` — Anfrage Mehrparteien Konflikt und Interessen
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `energierecht-erstpruefung-und-mandatsziel` — Energierecht: Erstprüfung, Rollenklärung und Mandatsziel
 - `bess-abfall-recycling-rueckbau` — Bess Abfall Recycling Rueckbau
 - `bess-abstandsflaechen-baurecht-brandenburg` — Bess Abstandsflaechen Baurecht Brandenburg
 - `bess-baurecht-brandenburg` — Bess Baurecht Brandenburg

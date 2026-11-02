@@ -1,13 +1,13 @@
 ---
 name: abwehr-schuldner
-description: "Wenn es um Schuldnerabwehr in der Zwangsvollstreckung in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Schuldnerabwehr in der Zwangsvollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schuldnerabwehr in der Zwangsvollstreckung
 
 ## Arbeitsbereich
 
-Schuldner will sich gegen laufende Zwangsvollstreckung wehren oder hat unrechtmäßigen Pfaendungs-Beschluss erhalten. §§ 766 767 768 771 765a 850k 769 ZPO Schuldnerrechte. Prüfraster: Erinnerung § 766 formale Maengel Vollstreckungsabwehrklage § 767 materielle Einwendungen Klauselgegenklage § 768 Drittwiderspruchsklage § 771 Vollstreckungsschutz § 765a P-Konto-Freigabe § 850k Einstellung § 769. Output: Abwehrstrategie-Memo und passender Schriftsatz-Entwurf. Abgrenzung zu zv-vollstreckungsschutz-haertefall-765a (Haertefall-Schutz) und zv-pfaendungstabelle-2025 (Pfaendungsberechnung). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Schuldner will sich gegen laufende Zwangsvollstreckung wehren oder hat unrechtmäßigen Pfaendungs-Beschluss erhalten. §§ 766 767 768 771 765a 850k 769 ZPO Schuldnerrechte. Prüfraster: Erinnerung § 766 formale Maengel Vollstreckungsabwehrklage § 767 materielle Einwendungen Klauselgegenklage § 768 Drittwiderspruchsklage § 771 Vollstreckungsschutz § 765a P-Konto-Freigabe § 850k Einstellung § 769. Output: Abwehrstrategie-Memo und passender Schriftsatz-Entwurf. Abgrenzung zu vollstreckungsschutz-haertefall-765a (Haertefall-Schutz) und pfaendungstabelle-pfueb-arbeitsentgelt (Pfaendungsberechnung). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -72,10 +72,6 @@ Antrag muss vor Vollstreckungsmaßnahme gestellt sein; Aussetzung § 769 ZPO mit
 
 ## Leitentscheidungen
 
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabeformat

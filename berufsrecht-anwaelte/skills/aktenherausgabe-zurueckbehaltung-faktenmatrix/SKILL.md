@@ -1,6 +1,6 @@
 ---
 name: aktenherausgabe-zurueckbehaltung-faktenmatrix
-description: "Wenn es um Aktenherausgabe Zurueckbehaltung Faktenmatrix in Berufsrecht Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aktenherausgabe Zurückbehaltung Faktenmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwälte: aktenherausgabe und zurueckbehaltung - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
@@ -47,7 +47,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

@@ -1,6 +1,6 @@
 ---
 name: formfehler-heilungs-timeline
-description: "Wenn es um Formfehler und Heilungs-Timeline in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Formfehler und Heilungs-Timeline: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix."
 ---
 
 # Formfehler und Heilungs-Timeline
@@ -46,12 +46,11 @@ description: "Wenn es um Formfehler und Heilungs-Timeline in Wandeldarlehen-Lebe
 
 - **Textform § 126b BGB** ausreichend (Lenders Beweis-Sicherheit)
 - **Schriftform empfohlen** für Rangrücktritt-Klarheit
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Verfügungs-Geschäft (Anteils-Übertragung bei Wandlung)
 
 - **Notarielle Beurkundung** zwingend § 15 Abs. 3 GmbHG bei Verfügung über existierende Anteile
-- **Bei Wandlung durch Kapitalerhöhung** Kapitalerhöhungs-Beschluss notariell zu beurkunden § 53 Abs. 2 GmbHG
+- **Bei Wandlung durch Kapitalerhöhung:** Dreiviertelmehrheit nach Paragraf 53 Absatz 2 GmbHG und notarielle Beurkundung des Beschlusses nach Absatz 3 getrennt prüfen.
 - **Übernahme-Erklärung** beim Notar
 - **Handelsregister-Anmeldung** notariell beglaubigt § 12 Abs. 1 HGB
 
@@ -187,7 +186,6 @@ Vertrags-Schluss.
 
 - **Sofortige Form-Heilung** sicherstellen
 - **Beratung mit Skill** `mandat-triage-insolvenzrecht`
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Wandlung erwägen** vor Insolvenz-Eröffnung
 
 ### Nach Insolvenz-Eröffnung
@@ -307,14 +305,6 @@ Termin-Vorschlag: [Datum-Vorschlaege]
 - Anfechtungs-Risiko-Memo
 - Frist im Fristenbuch (Heilung sofort)
 
-## Vertiefung — Aktuelle Rechtsprechung
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellen
 
 - BGB §§ 125 126 126a 126b 128 177
@@ -322,5 +312,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - HGB § 12
 - InsO §§ 39 130 131 132 133 174
 - eIDAS-VO 910/2014 und 2024/1183
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - GNotKG
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

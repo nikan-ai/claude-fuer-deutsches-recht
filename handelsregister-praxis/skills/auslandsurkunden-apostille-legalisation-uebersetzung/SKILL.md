@@ -1,6 +1,6 @@
 ---
 name: auslandsurkunden-apostille-legalisation-uebersetzung
-description: "Wenn es um Auslandsurkunden registerfest machen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Auslandsurkunden registerfest machen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Auslandsurkunden registerfest machen
@@ -34,6 +34,8 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 Prüft Apostille, Legalisation, beglaubigte Übersetzung, Existenznachweis und Vertretungsnachweis.
 
+Bei Onlinebeglaubigung die abstrakten Verfahrensgarantien des Herkunftsrechts prüfen: [BGH, Beschluss vom 25.02.2026 – II ZB 13/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZB__13-24.pdf?__blob=publicationFile&v=1), Rn. 8–29, verneint die Gleichwertigkeit der geprüften österreichischen Onlinebeglaubigung nach Paragraf 79 Absatz 9 in Verbindung mit Paragraf 69b Absatz 2 Satz 1 Nummer 1 oder 2 öNotO. Frage nach Identifizierung, persönlicher Prüfung durch den Notar, elektronischem Lichtbild und hoheitlicher Plattform; einzelne zusätzliche Maßnahmen ersetzen keine abstrakte Gleichwertigkeit. Die Entscheidung verwirft nicht sämtliche ausländischen Präsenzbeglaubigungen. Maßgebliche heutige Verfahrensfassung und Paragraf 12 HGB zusätzlich prüfen.
+
 ## Quellenrahmen
 
 HGB §§ 8 ff. und § 15, FamFG-Registerverfahrensrecht, GmbHG/HGB/AktG/UmwG je nach Gesellschaftsform, HRV/Registerportal-Praxis.
@@ -45,17 +47,3 @@ HGB §§ 8 ff. und § 15, FamFG-Registerverfahrensrecht, GmbHG/HGB/AktG/UmwG je 
 3. **Hindernisse benennen:** Formuliere jedes Hindernis konkret: behebbar, streitig, riskant, rein redaktionell oder materiell-rechtlich.
 4. **Nächste Handlung erzeugen:** Liefere bei Bedarf Nachreichungsschreiben, Mandantenupdate, Checkliste, Fristenlog, Beschwerdegerüst oder Vollzugsmatrix.
 5. **Belegdisziplin:** Zitiere Normen nur, wenn sie zum Schritt passen. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarem Link; sonst ausdrücklich als zu verifizieren markieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 39 GmbHG
-- § 40 GmbHG
-- § 382 FamFG
-- § 395 FamFG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

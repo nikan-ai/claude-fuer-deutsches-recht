@@ -1,6 +1,6 @@
 ---
 name: digital-products-international
-description: "Wenn es um Digitale Produkte im internationalen Handel in Internationales Handelsrecht und Lex Mercatoria geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Digitale Produkte im internationalen Handel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Digitale Produkte im internationalen Handel
@@ -21,7 +21,7 @@ Digitale Produkte (Software, Datenbanken, KI-Modelle) stellen besondere Herausfo
 
 - **EU RL 2019/770 Art. 2-3**: Anwendungsbereich — digitale Inhalte und Dienste (auch B2C)
 - **EU RL 2019/770 Art. 7-9**: Vertragsmäßigkeit digitaler Inhalte
-- **AI Act (EU) 2024/1689 Art. 6**: Risikoklassen von KI-Systemen (verboten, hoch, mittel, minimal)
+- **KI-Verordnung:** Artikel 5 (Verbote), Artikel 6 mit Anhang I und III (Hochrisiko), Artikel 50 (funktionsbezogene Transparenz) sowie Modellpflichten nach Kapitel V parallel prüfen. „Mittel“ und „minimal“ sind keine eigenständigen gesetzlichen Klassen nach Artikel 6. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **CISG Art. 1-3**: Anwendung auf Software — körperliche vs. unkörperliche Übertragung
 - **§§ 327-327u BGB**: Deutsches Umsetzungsrecht RL 2019/770 (ab 1.1.2022)
 - **DSGVO Art. 44-49**: Datenschutz bei Cloud-Software-Nutzung
@@ -48,3 +48,4 @@ Digitale Produkte (Software, Datenbanken, KI-Modelle) stellen besondere Herausfo
 - AI-Act-Compliance: Risikoklassifikation vor Markteinführung; CE-Kennzeichnung für Hochrisiko
 - SaaS-Vertrag: Service Level Agreements (SLA), Datenschutz (DPA), Exit-Strategie
 - Open-Source-Lizenz-Audit: SBOM (Software Bill of Materials) für Lizenzkonformität
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie den in der Union vorgesehenen Einsatz, die Lieferkette und die konkrete Systemverantwortung zu. Vertragliche Rechtswahl ersetzt keine Prüfung des räumlichen KI-VO-Anwendungsbereichs. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

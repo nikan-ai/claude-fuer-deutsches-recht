@@ -1,6 +1,6 @@
 ---
 name: richtlinien-monitor
-description: "Wenn es um Policy-Monitor – Drift-Monitoring Datenschutzerklärung in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Policy-Monitor – Drift-Monitoring Datenschutzerklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Policy-Monitor – Drift-Monitoring Datenschutzerklärung
@@ -85,7 +85,6 @@ Verbindlich nach `../../references/zitierweise.md`.
 **Analyse:**
 - Neue Datenkategorie: Nein (Nutzungsverhalten bereits erfasst).
 - Neuer Empfänger (Drittland USA): **Ja** – Art. 13 Abs. 1 lit. f DSGVO (Drittlandtransfer mit Transfermechanismus angeben).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Consent-Management: Ist der Anbieter nur nach Einwilligung aktiv (§ 25 TDDDG)? Dann Cookie-Banner anpassen (neue Kategorie / neuer Anbieter).
 - DSFA: `anwendungsfall-triage` empfehlen – bei umfangreichem Tracking ggf. DSFA nach Art. 35 DSGVO erforderlich.
 
@@ -109,10 +108,6 @@ Stand: 05/2026. Aktualität prüfen bei Änderungen des TDDDG, neuen EDSA-Leitli
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — Drittlandtransfer-Passagen in Datenschutzerklärungen
 - `datenschutzrecht/skills/anwendungsfall-triage/SKILL.md` — Neue Verarbeitungstätigkeiten identifizieren
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Faktische Updates (Stand 05/2026)
 
 - **TDDDG (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz):** Seit 14.05.2024 (loest TTDSG ab); enthaelt §§ 24-25 zur Cookie- und Endgeraetezugriffs-Einwilligung. Quelle: gesetze-im-internet.de/tdddg.
@@ -120,7 +115,7 @@ Stand: 05/2026. Aktualität prüfen bei Änderungen des TDDDG, neuen EDSA-Leitli
 - **DSK-Beschlüsse (Datenschutzkonferenz Bund-Länder):** Aktuelle DSK-Beschlüsse zu Cookies, Drittlandtransfer, KI, Beschäftigtendatenschutz live über datenschutzkonferenz-online.de prüfen.
 - **EuGH-Linie Cookies / Einwilligung:** Aktuelle EuGH-Verfahren zur Granularitaet, Freiwilligkeit, Pay-or-OK-Modellen live über curia.europa.eu prüfen.
 - **DSA-Werbetransparenz:** Datenschutzerklaerung sollte bei Plattformen Hinweise auf DSA-Werbearchiv (Art. 39 DSA) und Empfehlungssysteme (Art. 38 DSA) enthalten.
-- **KI-VO Art. 50:** Falls Webseite Chatbot oder KI-generierte Inhalte enthaelt — KI-VO-Transparenzpflichten ab 02.08.2026 in Datenschutzerklaerung / Impressum / Hinweise integrieren.
+- **KI-Verordnung bei Webseiten:** Artikel 50 trennt Anbieter- und Betreiberpflichten: Interaktionsinformation, technische Kennzeichnung synthetischer Ausgaben, Information bei Emotions-/Biometriekategorisierung sowie Offenlegung bei Deepfakes und Texten zu Angelegenheiten öffentlichen Interesses. Die redaktionelle Ausnahme des Absatzes 4 betrifft den dortigen Textfall, nicht pauschal Deepfakes. Artikel 113 nennt grundsätzlich den 02.08.2026; Artikel 111 Absatz 4 verschiebt nur Artikel 50 Absatz 2 für vor diesem Datum in Verkehr gebrachte generative Systeme auf den 02.12.2026. Einen erforderlichen Hinweis am tatsächlichen Kontakt- oder Veröffentlichungspunkt vorsehen; ein versteckter Satz im Impressum genügt nicht automatisch. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Triage zu Beginn
 
@@ -150,3 +145,6 @@ Keine Abweichungen: [LISTE GEPRÜFTER BEREICHE]
 Empfehlung: Aktualisierung bis [DATUM]
 Verantwortlich: [PERSON/ROLLE]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Identifizierungsmittel je Datenempfänger und den Zweck jeder Verarbeitung. Eine Berufung auf diskriminierungsfreie Entwicklung begründet noch keine allgemeine Befugnis zur Nutzung sensibler Daten. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

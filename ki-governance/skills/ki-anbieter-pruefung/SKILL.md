@@ -1,6 +1,6 @@
 ---
 name: ki-anbieter-pruefung
-description: "Wenn es um digitale Werkzeuge-Anbieterprüfung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für digitale Werkzeuge-Anbieterprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # KI-Anbieterprüfung
@@ -12,8 +12,8 @@ Prüft KI-Anbieterverträge gegen die unternehmenseigenen Governance- Positionen
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Geltungsbeginn gestaffelt (02.02.2025 Verbote, 02.08.2025 GPAI, 02.08.2026 Hochrisiko Anhang III), schwerwiegender Vorfall 15 Tage, DSGVO DPIA vorab.
-- Tragende Normen verifizieren: EU KI-VO 2024/1689 Art. 9, 10, 14, 22, 27, 50, ISO/IEC 42001, NIST AI RMF 1.0, OECD AI Principles, DSGVO Art. 22, 35, Produkthaftungs-RL 2024/2853 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, für Anhang I ab 02.08.2028. Artikel 4 neuer Fassung, Artikel 4a, Verbote und Transparenz gesondert prüfen; Vorfallfrist nach Tatbestand und Ereignis, Datenschutz-Folgenabschätzung vor riskanter Verarbeitung.
+- Tragende Rechtsgrundlagen am amtlichen EUR-Lex-Text der KI-Verordnung und der gegebenenfalls einschlägigen DSGVO prüfen. ISO/IEC 42001, NIST AI RMF und OECD-Prinzipien sind keine Verordnungsartikel. Bei harmonisierten Normen konkrete Fassung, Amtsblattfundstelle und abgedeckte Anforderungen nach Artikel 40 feststellen; freiwilliges Managementzertifikat und Konformitätsverfahren nach Artikel 43 trennen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsleitung, KI-Officer, Datenschutzbeauftragter, Compliance, Aufsichtsrat, Marktüberwachung, externer Auditor, betroffene Personen.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: KI-Inventar, Risikoanalyse, FRIA (Fundamental Rights Impact Assessment), AI Governance Policy, Modellkarten, Audit-Bericht, DSGVO-DPIA, Schulungsnachweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -49,11 +49,8 @@ Anbieter mit unseren Daten macht).
 
 - **AI Act Art. 3 Nr. 3/4 KI-VO**: Definitionen Anbieter/Betreiber; maßgeblich
  für Pflichtenzuordnung.
-- **AI Act Art. 25 KI-VO**: Verantwortlichkeiten in der Lieferkette; vertragliche
- Pflichten-Übertragung; Betreiber darf keine Art. 5-Verbote veranlassen
- (Art. 25 Abs. 2 KI-VO).
-- **AI Act Art. 26/29 KI-VO**: Betreiberpflichten (Eignung prüfen, Anleitung
- befolgen, menschliche Aufsicht sicherstellen, Protokollierung).
+- **Artikel 25 KI-Verordnung:** Rollenwechsel und Lieferkettenverantwortung anhand der einzelnen Absätze prüfen. Absatz 2 betrifft ursprüngliche Anbieter bei den geregelten Rollenwechseln, Absatz 4 die schriftliche Vereinbarung über notwendige Informationen, Fähigkeiten, technischen Zugang und Unterstützung mit den dortigen Ausnahmen. Behördenverantwortung ist nicht beliebig vertraglich abwälzbar.
+- **Artikel 26 KI-Verordnung:** konkrete Hochrisiko-Betreiberpflichten nach Funktion und Zeit prüfen; Artikel 29 betrifft Notifizierungsanträge von Konformitätsbewertungsstellen.
 - **DSGVO Art. 28**: AVV-Pflichten bei KI-Auftragsverarbeitung; Prüfungsrecht
  Art. 28 Abs. 3 lit. h DSGVO.
 - **GeschGehG §§ 2, 4**: Eingabe vertraulicher Daten in externe KI kann
@@ -67,15 +64,11 @@ Anbieter mit unseren Daten macht).
 
 **Leitentscheidungen**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Vertragsgestaltung muss DSGVO Art. 22 Widerspruchs- und Prüfungsrechte
  operationalisieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  von Haftungsausschlüssen bei komplexen IT-Systemen; Maßstab für KI-
  Anbieter-Haftungsklauseln.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Anforderungen an Vertragsgestaltung zum Schutz von Geschäftsgeheimnissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Datenübermittlung an externe Dienstleister; übertragbar auf KI-AVV.
 
 **Kommentare**
@@ -156,6 +149,7 @@ Widerspruchsrecht nicht operationalisiert. Jeden Widerspruch kennzeichnen.
 So klein wie möglich. Wort → Phrase → Unterklausel → Satz → Klausel.
 Chirurgische Redlines signalisieren: wir haben sorgfältig gelesen.
 
+```markdown
 ## Ergebnis
 [2 Sätze: Können wir einsetzen? Was muss sich zuerst ändern?]
 Befunde: [N]❌ [N]🟠 [N]⚠️ [N]✅
@@ -198,8 +192,7 @@ Betreiberpflichten Art. 26/29 dokumentieren. AVV: DSGVO Art. 28 prüfen.
 - **DSGVO Art. 28** bei Auftragsverarbeitung.
 - **GeschGehG § 2 Nr. 1** bei Training-auf-Daten.
 - **BGB §§ 305 ff. (§ 307)** bei AGB-Haftungsklauseln.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- **Wendehorst/Grinzinger, AI Act, 1. Aufl. 2024, Art. 25 Rn. 5** (Doppelautoren-Kommentar).
+- Die Lieferkettenaussage am tatsächlichen Wortlaut des Artikels 25 prüfen; eine nicht im Original gelesene Kommentar-Randnummer wird nicht als Beleg verwendet. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - **Bertermann, in: Ehmann/Selmayr, DS-GVO, 3. Aufl. 2024, Art. 28 Rn. 30.**
 
@@ -244,3 +237,6 @@ WENN ANBIETER NICHT NACHGIBT:
 
 Erstellt: [NAME], [DATUM] — Vor Unterzeichnung anwaltliche Prüfung einholen.
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

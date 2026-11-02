@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bau-architektenrecht-vob-schiedsgutachten-schlichtung
-description: "Wenn es um VOB-Schiedsgericht / SOBau / Schlichtung im Baurecht in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für VOB-Schiedsgericht / SOBau / Schlichtung im Baurecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # VOB-Schiedsgericht / SOBau / Schlichtung im Baurecht
@@ -26,10 +26,6 @@ Bauspezifische außergerichtliche Streitbeilegung: **VOB/B § 18 Schiedsgericht*
 - **§ 485 ZPO** — Selbstständiges Beweisverfahren (sehr bauüblich)
 - **SOBau 2020** — DIS-Streitlösungsordnung für Bauwesen
 - **§ 17 ArchitektenG** — Pflichten Architekt
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## ADR-Pfade
 
@@ -114,3 +110,5 @@ Bauspezifische außergerichtliche Streitbeilegung: **VOB/B § 18 Schiedsgericht*
 ## Quellen und Updates
 
 Stand: 05/2026. SOBau 2020. § 18 VOB/B unverändert. BGH-Linien stabil. Bei VOB-Reform aktualisieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

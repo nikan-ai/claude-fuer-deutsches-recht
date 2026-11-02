@@ -1,9 +1,11 @@
 ---
 name: verbraucherrecht-abo-kuendigung-button
-description: "Wenn es um Verbraucherrecht Abo Kuendigung Button in Verbraucherschutzrecht Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Verbraucherrecht Abo Kündigung Button: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abo, Kündigungsbutton und Laufzeitfallen: Dauerschuldverhältnis, Online-Kündigung, Verlängerung und Nachweis.
+
+Bei einer Kündigungsstrecke jede Seite sichern, besonders die Bestätigungsseite: [BGH, Urteil vom 16.07.2026 – I ZR 200/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_200-25.pdf?__blob=publicationFile&v=1), Rn. 16–36. Auf dieser Seite sind Rückgewinnungs- oder Pausenangebote unzulässig; die dort zulässigen Angaben sind in Paragraf 312k Absatz 2 Satz 3 BGB abschließend geregelt. Dass man technisch trotzdem kündigen kann, genügt nicht. Angebote vor Betätigung der ersten Kündigungsschaltfläche sind gesondert nach Zugänglichkeit und Verfügbarkeit zu prüfen (Rn. 34). Beschriftungsfehler und unzulässigen Seiteninhalt als unterschiedliche Verletzungsformen behandeln; die Entscheidung bestimmt nicht automatisch jeden individuellen Vertragsendtermin.
 
 ## Arbeitsweg
 

@@ -1,6 +1,6 @@
 ---
 name: stb-liquiditaetsvorschau-3-6-12-monate
-description: "Wenn es um Liquiditaetsvorschau 3/6/12 Monate in Steuerrecht – Steuerberater und Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Liquiditätsvorschau 3/6/12 Monate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Liquiditaetsvorschau 3/6/12 Monate
@@ -11,7 +11,7 @@ Dieser Skill erstellt eine rollierende Liquiditaetsplanung fuer Krisenmandate. E
 
 - §§ 17, 18, 19 InsO fuer Liquiditaets- und Fortbestehensbezug.
 - § 15a InsO fuer Eskalation bei Insolvenzreife.
-- § 102 StaRUG fuer Hinweispflichten.
+- Paragraf 102 StaRUG nur bei Jahresabschlusserstellung, offenkundigen Anhaltspunkten für einen möglichen Insolvenzgrund und vermuteter Unkenntnis des Mandanten.
 - §§ 34, 69 AO fuer Steuerzahlungs- und Haftungsrisiken.
 - § 43 GmbHG fuer Geschaeftsfuehrerpflichten.
 

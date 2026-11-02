@@ -1,6 +1,6 @@
 ---
 name: wandlungsausschluss-wandlungsmechanik
-description: "Wenn es um Wandlungsausschluss-Prüfung in Wandeldarlehen-Lebenszyklus geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Wandlungsausschluss-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wandlungsausschluss-Prüfung
@@ -30,9 +30,6 @@ description: "Wenn es um Wandlungsausschluss-Prüfung in Wandeldarlehen-Lebenszy
 - § 4.4 Wandeldarlehensvertrag (Verfristung: ein Monat nach Wandlungsmitteilung)
 - § 242 BGB (Treu und Glauben – Verwirkung nach langem Zuwarten)
 - § 93 InsO (Anfechtung von Verfügungen über Wandlungsrechte)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -79,12 +76,8 @@ Stand: 05/2026. Bei Änderung BGB-Verjährungsrecht aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 305c Abs. 2 BGB (Unklarheitenregelung gegen Verwender) → § 307 BGB (AGB-Kontrolle) → § 39 InsO (Nachrang Gesellschafterdarlehen) → § 119 InsO (Unwirksamkeit insolvenzabhängiger Lösungsklauseln) → §§ 55, 56 GmbHG (Kapitalerhöhung, Voraussetzung Wandlung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

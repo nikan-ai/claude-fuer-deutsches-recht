@@ -1,6 +1,6 @@
 ---
 name: turbo-zeitnarrative
-description: "Wenn es um Schriftsatz-Turbo: Klage, Replik, Antrag in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schriftsatz-Turbo: Klage, Replik, Antrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schriftsatz-Turbo: Klage, Replik, Antrag
@@ -23,9 +23,6 @@ Erstellt schnell Klage Replik Antrag Klageerwiderung oder Schriftsatzantwort mit
 3. Welche Frist laeuft und wann ist spaetester Einreichungstermin?
 4. Sind alle Beweisangebote und Anlagen vorhanden und vorbereitet?
 - **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 253 ZPO — Klageschrift: Formerfordernis und Antragspflicht
@@ -181,3 +178,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

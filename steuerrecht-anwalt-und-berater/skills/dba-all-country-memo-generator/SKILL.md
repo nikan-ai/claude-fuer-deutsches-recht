@@ -1,14 +1,12 @@
 ---
 name: dba-all-country-memo-generator
-description: "Wenn es um DBA-All-Country-Memo-Generator in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für DBA-All-Country-Memo-Generator: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # DBA-All-Country-Memo-Generator
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `DBA-All-Country-Memo-Generator` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -82,7 +80,7 @@ Baue bei Bedarf Varianten:
 ## Beispiel-Varianten und Live-Marker
 
 - **Arbeitnehmer 47 Home-Office-Tage + Bonus Vorjahr**: prüfe Konsultationsvereinbarung Home-Office; prüfe 183-Tage-Regel mit Aufenthaltskalender; Bonus aufteilen nach Vesting-Zeitraum.
-- **GmbH-Softwarelizenz an ausländische Schwester**: prüfe § 50a EStG-Einbehalt; Freistellungsbescheinigung BZSt; § 4j EStG-Lizenzschranke.
+- **Softwarezahlung einer GmbH an ihre ausländische Schwester**: Rechteumfang und deutsche Abzugspflicht vor einer BZSt-Entlastung klären. Die Lizenzschranke nach § 4j EStG a.F. bleibt nur für offene Veranlagungszeiträume bis 2024 Prüfpunkt (§ 52 Abs. 8c Satz 3 EStG); ab VZ 2025 entfällt sie. Vgl. [Quellen und Abgrenzung](../../references/lizenzzahlungen-software.md).
 - **Deutsche KG mit ausländischer BS und Verlusten**: prüfe Freistellung-Aktivitaetsklausel; § 2a EStG-Verlustberuecksichtigung.
 - **Verkauf Immobilien-Holding**: prüfe Art. 13 DBA (grundstuecksreiche Gesellschaft); Belegenheitsstaat.
 - **Pensionaer mit DRV + Betriebsrente Wegzug Portugal**: prüfe Art. 18 DBA-PT; NHR; § 50d Abs. 9 EStG.

@@ -1,6 +1,6 @@
 ---
 name: output-anfechtungsklage-anfg
-description: "Wenn es um Output: Anfechtungsklage nach AnfG in bereicherungs-und-anfechtungsrecht-prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Output: Anfechtungsklage nach AnfG: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Output: Anfechtungsklage nach AnfG
@@ -16,16 +16,6 @@ description: "Wenn es um Output: Anfechtungsklage nach AnfG in bereicherungs-und
 ## Zentrale Normen
 
 § 1 AnfG (Anwendungsbereich) — § 2 AnfG (Titelerfordernis) — § 3 AnfG (Vorsatzanfechtung) — § 4 AnfG (Unentgeltlichkeit) — § 11 AnfG (Rechtsfolge: Duldung der Zwangsvollstreckung) — § 13 AnfG (Verjährung) — § 253 ZPO (Klageerhebung) — § 916 ZPO (Arrest zur Sicherung)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Hinweis
 
@@ -78,3 +68,5 @@ Durch die Übertragung ist die Vollstreckung in diesen Gegenstand vereitelt word
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

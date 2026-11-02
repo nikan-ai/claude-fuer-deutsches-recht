@@ -1,6 +1,6 @@
 ---
 name: stellvertretung-routing-paragraphen-164-181
-description: "Wenn es um Stellvertretung — Routing Paragrafen 164 bis 181 BGB in BGB AT Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Stellvertretung — Routing Paragrafen 164 bis 181 BGB: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Stellvertretung — Routing §§ 164 bis 181 BGB
@@ -12,6 +12,8 @@ description: "Wenn es um Stellvertretung — Routing Paragrafen 164 bis 181 BGB 
 - Klausurkonstellation: Komplexes Stellvertretungsproblem mit mehreren Fragen — Routing zum richtigen Teilskill.
 
 ## Erste Schritte
+
+Lies die vorgelegte Erklärung, Vollmacht und Korrespondenz zuerst. Fehlt der Vollmachtsumfang, frage nach dem konkreten Auftrag oder der Vollmachtsurkunde und prüfe die übrigen Voraussetzungen weiter. Nach der Antwort aktualisiere Zurechnung und Genehmigungsbedarf; eine weitere entscheidende Unklarheit kurz klären, ohne beantwortete Fragen zu wiederholen. Liefere das bestellte Gutachten oder Schreiben vollständig, nicht lediglich die Auswahl eines Teilskills. Keine Genehmigung oder rechtsgeschäftliche Erklärung ohne Freigabe abgeben.
 
 1. Handeln in fremdem Namen prüfen: Offenkundigkeit nach § 164 Abs. 1 BGB gegeben?
 2. Vollmacht identifizieren: Innen- oder Außenvollmacht, Prokura, gesetzliche Vertretung?
@@ -65,8 +67,7 @@ der Vollmacht, (5) Ausnahmen: Duldungs-/Anscheinsvollmacht, (6) Vollmachtloser V
 
 ### Routing-Logik
 
-Dient als Einstiegspunkt. Bei komplexen Stellvertretungsfragen werden die spezifischen
-Teilskills aufgerufen: vollmacht-erteilung-umfang-erloeschen für Vollmachtsfragen,
+Bei komplexen Stellvertretungsfragen können verfügbare Teilskills vertiefen; ohne sie die Prüfung hier fortsetzen: vollmacht-erteilung-umfang-erloeschen für Vollmachtsfragen,
 duldungs-anscheinsvollmacht für Rechtsschein, insichgeschaeft-paragraph-181 für § 181 BGB.
 
 ### Klausur-Checkliste Routing

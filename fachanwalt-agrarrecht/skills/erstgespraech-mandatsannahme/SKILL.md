@@ -1,6 +1,6 @@
 ---
 name: erstgespraech-mandatsannahme
-description: "Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Agrarrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Agrarrecht."
 ---
 
 # Strukturierter Erstgespraechsleitfaden für Agrar-, Forst- und Lebensmittelrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
@@ -166,14 +166,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 
 ## Vertiefung — Normenkette und Rechtsprechung Erstgespräch Agrarrecht
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normenkette Erstgespräch Agrarrecht
 
 LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz klären) → VwGO Paragrafen 70 und 74 (Vorverfahren und Klagefrist bei Förderbescheiden prüfen) → GrdstVG (Genehmigungspflicht prüfen) → GwG Paragrafen 10 und 11 (Identifizierung, insbesondere bei Gesellschaften) → RVG Paragrafen 3a und 9 (Vergütungsvereinbarung und Vorschuss) → BGB Paragrafen 195 und 199 (Verjährungsstand ermitteln)
@@ -181,3 +173,5 @@ LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz kläre
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

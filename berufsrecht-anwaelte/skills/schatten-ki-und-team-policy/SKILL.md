@@ -1,6 +1,6 @@
 ---
 name: schatten-ki-und-team-policy
-description: "Wenn es um Schatten-digitale Werkzeuge und Kanzlei-Team-Policy in Berufsrecht Anwälte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Schatten-digitale Werkzeuge und Kanzlei-Team-Policy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schatten-KI und Kanzlei-Team-Policy
@@ -54,3 +54,4 @@ Frage knapp ab:
 4. **Menschliche Kontrolle:** Kein Schriftsatz, keine Frist, kein Vergleichsvorschlag ohne Berufsträgerprüfung.
 5. **Vorfälle:** Meldeschiene an IT, Datenschutz, Berufsrecht, Mandatsverantwortliche; Sofortstopp bei Geheimnisabfluss.
 6. **KI-Kompetenz:** Schulung nicht als Folienfriedhof, sondern mit echten Kanzleifällen: falsches Zitat, Prompt-Injection, versehentlicher Upload, Drittstaatfrage.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Recherche, Mandantendialog und entscheidungsunterstützende Systeme getrennt ein. Die persönliche Berufspflicht und das konkrete Dienstleisterrisiko bleiben neben der KI-VO bestehen; eine Softwarefreigabe beantwortet sie nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

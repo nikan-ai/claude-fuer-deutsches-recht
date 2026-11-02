@@ -1,6 +1,6 @@
 ---
 name: mehrseitige-maerkte-plattformen
-description: "Wenn es um Mehrseitige Märkte und Plattformen in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mehrseitige Märkte und Plattformen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mehrseitige Märkte und Plattformen
@@ -27,8 +27,6 @@ Klassische Marktdefinition setzt einen Preis voraus. Plattformmärkte sind häuf
 ### Getrennte Märkte
 
 Der EuGH tendiert dazu, die Marktseiten als getrennte Märkte zu definieren:
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Integrierte Betrachtung
@@ -75,5 +73,6 @@ Probleme:
 
 ## Leitentscheidungen Mehrseitige Maerkte
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BKartA, Beschl. v. 01.02.2022 — B6-22/21 (Facebook/Meta) — Plattformmacht; Social-Network-Markt; Nutzerdaten als Wechselkostenfaktor.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

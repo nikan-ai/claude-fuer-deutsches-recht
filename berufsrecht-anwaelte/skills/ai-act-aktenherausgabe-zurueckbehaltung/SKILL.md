@@ -1,6 +1,6 @@
 ---
 name: ai-act-aktenherausgabe-zurueckbehaltung
-description: "Wenn es um europäischer Technikregulierungsrahmen-Transparenz bei Kanzlei-Chatbot, Website und Schriftsatz in Berufsrecht Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für europäischer Technikregulierungsrahmen-Transparenz bei Kanzlei-Chatbot, Website und Schriftsatz: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-VO-Transparenz bei Kanzlei-Chatbot, Website und Schriftsatz
@@ -45,3 +45,4 @@ Für Transparenzpflichten immer das konkrete Szenario prüfen:
 - Veröffentlichung gegenüber Dritten
 - redaktionelle Kontrolle durch Menschen
 - gesetzliche Ausnahmen oder Sonderpflichten
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Recherche, Mandantendialog und entscheidungsunterstützende Systeme getrennt ein. Die persönliche Berufspflicht und das konkrete Dienstleisterrisiko bleiben neben der KI-VO bestehen; eine Softwarefreigabe beantwortet sie nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

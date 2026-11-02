@@ -1,6 +1,6 @@
 ---
 name: takedown-anweisung-unterlassungsverlangen
-description: "Wenn es um Notice-and-Take-Down / Meldeverfahren in Plugin: Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Notice-and-Take-Down / Meldeverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notice-and-Take-Down / Meldeverfahren
@@ -38,10 +38,6 @@ Befehlsargument:
 
 **NetzDG / weitere:**
 - **§§ 1–3 NetzDG** — Plattformpflichten bei Hassrede und sonstigen strafbaren Inhalten; spezialgesetzliche Entfernungspflicht unabhängig vom allgemeinen Notice-and-Take-Down
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Kommentare
 
@@ -321,7 +317,6 @@ Bei DSA-Plattformen: Beschwerdemechanismus nach Art. 20 DSA nutzen; ggf. außerg
 Alle Aussagen zu Haftung, Schranken und Verfahren müssen belegbar sein:
 
 - **Gesetze:** §§ 7, 10 DDG (entspr. TMG); §§ 51, 51a, 97 UrhG; Art. 16, 17, 20, 21 DSA; §§ 1–3 NetzDG
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Kommentar:** Spindler/Schuster eMedienR oder Köhler/Bornkamm/Feddersen UWG mit § und Randnummer
 - Modellannahmen als `[Modellwissen — verifizieren]` kennzeichnen.
 
@@ -335,12 +330,8 @@ Bevor der Takedown ausgeloest wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **DSA (EU) 2022/2065, Art. 16/17 (Digital Services Act):** Hosting-Dienstleister müssen wirksame und zugaengliche Melde- und Abhilfemechanismen einrichten; bei VLOP gelten verstaerkte Transparenz- und Reaktionspflichten; Verstoss kann zu Bussgeldern bis 6 % des globalen Jahresumsatzes fuehren.
 
-<!-- AUDIT 27.05.2026: Bundle 032 Halluzinations-Reparatur
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

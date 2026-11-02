@@ -1,6 +1,6 @@
 ---
 name: post-eintragung-rangruecktritt-formulieren
-description: "Wenn es um Post-Eintragung-Checkliste in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Post-Eintragung-Checkliste: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Post-Eintragung-Checkliste
@@ -29,9 +29,6 @@ description: "Wenn es um Post-Eintragung-Checkliste in Wandeldarlehen-Lebenszykl
 - § 17 Abs. 1 EStG (Veräußerungsgewinn bei Anteilsübertragung – Sperrfrist-Thematik)
 - § 22 UmwStG (Einbringungsgewinn – Sperrfrist sieben Jahre bei Buchwertansatz)
 - § 147 AO (Aufbewahrung steuerrelevanter Unterlagen zehn Jahre)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -82,12 +79,8 @@ Stand: 05/2026. Bei Änderung UmwStG § 22 oder EStG § 17 aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 40 GmbHG (Gesellschafterliste, unverzügliche Einreichung) → § 16 GmbHG (Legitimationswirkung ab Listeneintragung) → § 53 GmbHG (Satzungsänderung falls erforderlich) → § 8 HGB (Handelsregisterpublizität) → § 57 Abs. 4 GmbHG (Haftung bei unrichtiger Kapitalerhöhungsanmeldung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: beirat-insolvenznaehe
-description: "Wenn es um Beirat Insolvenznaehe in Gesellschaftsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Beirat Insolvenznähe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Gesellschaftsrecht."
 ---
 
 # Beirat Insolvenznaehe
@@ -16,7 +16,6 @@ description: "Wenn es um Beirat Insolvenznaehe in Gesellschaftsrecht geht: ordne
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Beirat Insolvenznaehe` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -53,7 +52,7 @@ Frage nur nach, wenn es die rechtliche Weiche wirklich verändert:
 | Geschäftsleiterpflichten | Antragspflicht, Zahlungsverbot und Dokumentationsschutz in die Agenda nehmen | Beirat darf Geschäftsleitung nicht in Fristversäumnis drängen |
 | Interessenkonflikt | Bank-, Investor- oder Gesellschaftervertreter offenlegen lassen | Sonderwissen nicht zum Nachteil der Gesellschaft nutzen |
 
-Leitanker: BGH IX ZR 229/22 vom 23.01.2025, BGH II ZR 139/23 vom 11.03.2025, BGH IX ZR 133/14 vom 05.03.2015, BGH IX ZR 143/17 vom 06.12.2018 und BGH II ZR 84/20 vom 13.07.2021.
+Leitanker: BGH IX ZR 229/22 vom 23.01.2025 zur objektiven Zahlungsunfähigkeit und zu streitigen Forderungen; ergänzend BGH, Beschluss vom 11.03.2025 - II ZR 139/23 zum materiellen Bestand, ausdrücklich nur als Nichtzulassungsbeschwerde-Beschluss. BGH IX ZR 133/14 vom 05.03.2015 und BGH IX ZR 143/17 vom 06.12.2018 betreffen den qualifizierten Rangrücktritt, BGH II ZR 84/20 vom 13.07.2021 die Patronatserklärung.
 
 ## Arbeitsmodus
 

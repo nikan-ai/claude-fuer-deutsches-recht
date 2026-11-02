@@ -1,6 +1,6 @@
 ---
 name: arzneimittel-off-label-und-lifestyle-abgrenzung
-description: "Wenn es um Arzneimittel: Off-Label-Use und Lifestyle-Abgrenzung in Krankenkassenrecht und Krankenversicherung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arzneimittel: Off-Label-Use und Lifestyle-Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Arzneimittel: Off-Label-Use und Lifestyle-Abgrenzung
@@ -87,28 +87,3 @@ Kläre, wann die GKV Arzneimittelkosten übernimmt – und wann nicht. Schwerpun
 - [BVerfG 1 BvR 347/98](https://www.bverfg.de/e/rs19990109_1bvr034798.html)
 - [dejure.org § 34 SGB V](https://dejure.org/gesetze/SGB_V/34.html)
 - [IQWiG Nutzenbewertungen](https://www.iqwig.de/methoden/nutzenbewertungen/)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 192 VVG
-- § 204 VVG
-- § 193 VVG
-- § 84 SGG
-- § 86b SGG
-- § 203 VVG
-- § 88 SGG
-- § 6 AsylbLG
-- § 152 VAG
-- § 205 VVG
-- § 153 VAG
-- § 4 AsylbLG
-
-### Leitentscheidungen
-
-- BGH IV ZR 255/17
-- BGH IV ZR 84/11
-- BGH III ZR 17/18
-- BGH IV ZR 194/07
-- BGH IV ZR 62/16

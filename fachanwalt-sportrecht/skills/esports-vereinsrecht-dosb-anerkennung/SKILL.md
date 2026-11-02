@@ -1,6 +1,6 @@
 ---
 name: esports-vereinsrecht-dosb-anerkennung
-description: "Wenn es um Esports Vereinsrecht Dosb Anerkennung in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Esports Vereinsrecht Dosb Anerkennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # eSports-Organisator oder Verein fragt ob DOSB-Anerkennung möglich und wie steuerliche Gemeinnuetzigkeit erreichbar ist
@@ -38,7 +38,6 @@ description: "Wenn es um Esports Vereinsrecht Dosb Anerkennung in Fachanwalt Spo
 
 ### Gerichts-/Verwaltungsentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - FinMin NRW Erlass 2024 zu eSports-Verein-Gemeinnützigkeit (eSports nicht als Sport § 52 AO anerkannt)
 - DOSB-Beschluss 2018 (eSports keine Mitgliedssportart) — bis 2026 unverändert
 
@@ -89,7 +88,6 @@ description: "Wenn es um Esports Vereinsrecht Dosb Anerkennung in Fachanwalt Spo
 
 - Antrag auf Gemeinnützigkeit
 - Bei Ablehnung: Widerspruch + ggf. Klage Finanzgericht
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Phase 5 — Verbandsanbindung
 
@@ -100,18 +98,9 @@ description: "Wenn es um Esports Vereinsrecht Dosb Anerkennung in Fachanwalt Spo
 
 | Konstellation | Rot | Orange | Grün |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Profi-Spieler mit Gehalt aus Verein | Selbstlosigkeit § 55 AO verletzt | Klärung läuft | klare Trennung Profi-/Amateur-Bereich |
 | Werbung / Sponsoring überwiegt | Wirtschaftsbetrieb statt Idealverein | Klärung läuft | Idealzweck-Schwerpunkt |
 | Jugendschutz-Verstoß (USK) | Vereinsaufsicht; Imageschaden | Compliance läuft | USK-konforme Spiele |
-
-## Quellen und Updates
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Aktuelle Rechtsprechung eSports / Vereinsrecht
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen eSports-Vereinsrecht
 
@@ -121,3 +110,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - § 51 AO — allgemeine Gemeinnuetzigkeitsvoraussetzungen
 - § 67a AO — Sportveranstaltungen-Steuerbefreiung
 - § 58 Nr. 7 AO — Mittelbeschaffungskoerperschaft als Ausweg
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: hochrisiko-art-6-abs-2-anhang-iii
-description: "Wenn es um Hochrisiko-digitale Werkzeuge nach Art. 6 Abs. 2 i.V.m. Anhang III europäischer Technikregulierungsrahmen in europäischem Technikregulierungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Hochrisiko Art 6 Abs 2 Anhang Iii; Arbeitsfeld: europäischem Technikregulierungsrecht."
+description: "Für Hochrisiko-digitale Werkzeuge nach Art. 6 Abs. 2 i.V.m. Anhang III europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: europäischem Technikregulierungsrecht. Route: hochrisiko-art-6-abs-2-anhang-iii."
 ---
 
 # Hochrisiko-KI nach Art. 6 Abs. 2 i.V.m. Anhang III KI-VO
@@ -194,7 +194,7 @@ Wenn ein Anhang-III-Tatbestand passt, ist die Prüfung noch nicht fertig:
 
 1. Profiling natürlicher Personen? Wenn ja, keine Rückausnahme.
 2. Kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte?
-3. Eine der vier Fallgruppen: enge Verfahrensaufgabe, Verbesserung bereits abgeschlossener menschlicher Tätigkeit, Mustererkennung ohne Ersatz/Einfluss auf frühere menschliche Bewertung, vorbereitende Aufgabe?
+3. Eine der vier Fallgruppen: enge Verfahrensaufgabe, Verbesserung bereits abgeschlossener menschlicher Tätigkeit, Mustererkennung ohne Ersetzung oder Beeinflussung einer abgeschlossenen menschlichen Bewertung ohne angemessene menschliche Überprüfung, vorbereitende Aufgabe?
 4. Dokumentationspflicht und Registrierung nach Art. 6 Abs. 4 beachten, wenn Anbieter das System trotz Anhang III als nicht Hochrisiko einstuft.
 
 Weiter: `rueckausnahme-art-6-abs-3`.
@@ -243,4 +243,4 @@ Nr. 8 Rechtspflege/demokratische Prozesse: [JA/NEIN/UNKLAR] — [Begründung]
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 07/2026. Maßgeblich sind Art. 3 Nr. 12, Nr. 13 und Nr. 23, Art. 6 Abs. 2 bis 5 und Anhang III KI-VO sowie die Kommissionsmaterialien zur Hochrisiko-Klassifikation. Die im Mai 2026 veröffentlichten Hochrisiko-Leitlinien waren zum Stand dieses Skills als Entwurf/Konsultationsmaterial zu behandeln, bis sie formal angenommen sind. Keine Rechtsberatung.
+Normabgleich: 9. Oktober 2026. Maßgeblich sind Art. 3 Nr. 12, Nr. 13 und Nr. 23, Art. 6 Abs. 2 bis 5 und Anhang III KI-VO sowie die Kommissionsmaterialien zur Hochrisiko-Klassifikation. Die im Mai 2026 veröffentlichten Hochrisiko-Leitlinien waren zum Stand dieses Skills als Entwurf/Konsultationsmaterial zu behandeln, bis sie formal angenommen sind. [Aktueller Rechtsstand und Quellen](../../references/rechtsstand-2026-10-09.md). Keine abschließende Konformität ohne konkrete Evidenz.

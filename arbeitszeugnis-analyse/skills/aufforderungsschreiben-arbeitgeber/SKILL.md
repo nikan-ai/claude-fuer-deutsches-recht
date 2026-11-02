@@ -1,13 +1,13 @@
 ---
 name: aufforderungsschreiben-arbeitgeber
-description: "Wenn es um Aufforderungsschreiben an den Arbeitgeber in Arbeitszeugnis-Analyse geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufforderungsschreiben an den Arbeitgeber: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aufforderungsschreiben an den Arbeitgeber
 
 ## Fachlicher Anker
 
-- **Normen:** Paragrafen 611a, Paragrafen 1, Paragrafen 14.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
@@ -37,7 +37,6 @@ Pro Streitstelle ein Block mit fester Struktur. Zitat des bisherigen Wortlauts i
 
 ### Baustein 5 Schlussformel und Gesamtbild
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Baustein 6 Fristsetzung
 
@@ -100,11 +99,6 @@ Bleibt die Frist fruchtlos, geht es weiter mit `klage-strategie-zeugnisberichtig
 - **Paragraf 288 BGB** — Verzugszinsen; Anwaltskosten als Verzugsschaden ab Fristablauf
 - **Paragraf 242 BGB** — Treu und Glauben; Verwirkung bei sehr langem Zuwarten ohne Beanstandung
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
 ## Leitentscheidungs-Anker (Beweislast & Massregelungsverbot)
 
 > Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
@@ -116,5 +110,6 @@ Bleibt die Frist fruchtlos, geht es weiter mit `klage-strategie-zeugnisberichtig
 | **BAG, Urt. v. 20.02.2001 - 9 AZR 44/00** | Beginn der staendigen Linie: kein Anspruch auf Schlussformel mit Dank und guten Wuenschen; Fehlen kein unzulaessiges Geheimzeichen. | bundesarbeitsgericht.de / dejure.org |
 | **BAG, Urt. v. 11.12.2012 - 9 AZR 227/11** | Kein Anspruch auf Dank/Wuensche; bei unzufriedener Mandantschaft mit erteilter Schlussformel ist nur ein Zeugnis OHNE Schlussformel einklagbar - keine Umformulierung. | bundesarbeitsgericht.de / dejure.org |
 | **BAG, Urt. v. 25.01.2022 - 9 AZR 146/21** | Bestaetigung der Linie; Abwaegung mit Meinungsfreiheit des Arbeitgebers (Art. 5 I GG). | bundesarbeitsgericht.de / dejure.org |
-| **BAG, Urt. v. 06.06.2023 - 9 AZR 272/22** | Massregelungsverbot $ 612a BGB: eine einmal erteilte Dankes-/Wunschformel darf nicht in spaeterer Fassung gestrichen werden, nur weil der Arbeitnehmer berechtigte Änderungswuensche geltend gemacht hat. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Versäumnisurt. v. 06.06.2023 - 9 AZR 272/22** | Maßregelungsverbot Paragraf 612a BGB: eine einmal erteilte Dankes-/Wunschformel darf nicht in späterer Fassung gestrichen werden, nur weil der Arbeitnehmer berechtigte Änderungswünsche geltend gemacht hat. | bundesarbeitsgericht.de / dejure.org |
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

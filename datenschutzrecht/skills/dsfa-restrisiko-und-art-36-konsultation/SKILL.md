@@ -1,6 +1,6 @@
 ---
 name: dsfa-restrisiko-und-art-36-konsultation
-description: "Wenn es um Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO
@@ -101,5 +101,7 @@ Mit freundlichen Gruessen
 - Art. 58, 83 DSGVO
 - EDSA-Leitlinien WP 248 rev.01
 - BfDI / Landesbehoerden — Verfahrenshinweise zur Vorabkonsultation
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Identifizierungsmittel je Datenempfänger und den Zweck jeder Verarbeitung. Eine Berufung auf diskriminierungsfreie Entwicklung begründet noch keine allgemeine Befugnis zur Nutzung sensibler Daten. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

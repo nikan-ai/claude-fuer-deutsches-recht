@@ -1,20 +1,22 @@
 ---
 name: steigerungsadverbien-pruefen
-description: "Wenn es um Steigerungsadverbien pruefen in Arbeitszeugnispruefer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Prüft Grad- und Einschränkungswörter in Leistungs- und Verhaltenssätzen eines Arbeitszeugnisses auf ihre konkrete Bewertungswirkung. Liefert kontextgerechte Ersatzformulierungen statt einer starren Wort-zu-Note-Zuordnung; reine Häufigkeits- und Dauerangaben werden gesondert geprüft."
 ---
 
-# Steigerungsadverbien pruefen
+# Steigerungs- und Einschränkungswörter prüfen
 
-Die deutsche Zeugnissprache regelt die Note massgeblich ueber das Adverb, das einer Bewertungsaussage vorangestellt ist. Ein fehlendes Adverb entspricht einer ganzen Note Abzug. Der Pruefer prueft systematisch, welche Adverbien an welcher Stelle stehen, und ordnet sie der Notenwirkung zu.
+## 1. Auslegung im Satz
 
-Maximalsteigerer (Note 1): „stets vollster", „jederzeit aeusserst", „vollkommen", „aeusserst", „in hoechstem Masse", „uneingeschraenkt", „absolut", „in allen Belangen". Diese Adverbien sind nur an der Stelle Note 1 belegend, wo sie stehen; ein Maximalsteigerer in einem Detailsatz hebt nicht automatisch die Gesamtnote.
+Prüfe nach Paragraf 109 Absätze 1 und 2 GewO. Für die Zufriedenheitsskala siehe BAG, Urteil vom 18. November 2014, 9 AZR 584/13, Rn. 10 bis 13 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/)); verwende diese Skala nicht für beliebige andere Prädikate. „Sehr engagiert“ kann Einsatz beschreiben, ohne ein bestimmtes Arbeitsergebnis zu bescheinigen. Kläre bei einer gewünschten Verstärkung deshalb zuerst, ob Einsatz, Können oder Erfolg gemeint ist.
 
-Standardsteigerer (Note 1 bis 2): „stets", „jederzeit", „immer", „durchgehend", „zu jeder Zeit", „ohne Ausnahme". Sie heben die Aussage um eine Note gegenueber der Grundformel. „Stets zur vollen Zufriedenheit" ergibt Note 2; „zur vollen Zufriedenheit" ohne „stets" ergibt Note 3.
+Bestimme, auf welches Prädikat und welchen Beurteilungsgegenstand ein Wort wie „voll“, „äußerst“, „überwiegend“ oder „im Wesentlichen“ bezogen ist. Unterscheide Intensität und Einschränkung. Die Wirkung ergibt sich erst aus Grammatik, Gesamtsatz, üblicher Formulierungspraxis und dem übrigen Zeugnis; ein einzelnes Wort hebt oder senkt nicht automatisch um genau eine Notenstufe. Häufigkeits- und Dauerangaben leitest du an den dafür vorgesehenen Prüfschritt weiter.
 
-Scheinsteigerer (Note 3): „regelmaessig", „im Allgemeinen", „zumeist". Diese Adverbien klingen nach Steigerung, beschreiben aber nur die Normallage und erheben die Note nicht.
+Prüfe besonders, ob eine Einschränkung konkrete Ausnahmen nahelegt, ob ein Superlativ sprachlich stimmig ist und ob Gesamt- und Einzelbewertungen zusammenpassen. Das Fehlen eines Steigerungsworts in einem Detailsatz ist nicht ohne Weiteres ein Mangel. Leite die Leistungs- oder Verhaltensnote nicht aus einer bloßen Wortliste ab und bewerte die Schlussformel getrennt.
 
-Abschwaecher (Note 3 bis 4): „ueberwiegend", „weitgehend", „grundsaetzlich". Alle drei beinhalten sprachlich die Implikation von Ausnahmen und draengen die Note in Richtung 3 bis 4.
+## 2. Ergebnis
 
-Starke Negativsteigerer (Note 4 bis 5): „im Wesentlichen", „im Grossen und Ganzen", „bei guten Tagen". Sie signalisieren erhebliche Maengel oder schwankende Leistung.
+Dokumentiere Originalsatz, grammatischen Bezug, vertretbare Bewertungswirkung, Kontext und Beweisgrundlage. Unterscheide eine eindeutige Abschwächung, eine mehrdeutige Formulierung und eine stilistische Variante. Formuliere bei erheblicher Abweichung einen vollständigen Ersatzsatz auf dem belegten Bewertungsniveau.
 
-Auslassungsregel: Fehlt der Steigerer im gesamten Zeugnis, ist Note 1 nicht erreichbar. Fehlt er an genau einer Stelle, waehrend alle anderen Saetze einen Standardsteigerer tragen, ist das ein punktuelles Drift-Signal an dieser Stelle. Der Pruefer fuehrt jeden Satz mit dem zugehoerigen Adverb in der Einschaetzungsmatrix auf.
+## 3. Fortführung des Auftrags
+
+Führe den Ersatzsatz in die laufende Gesamtbewertung und das bestellte Dokument zurück. Frage nur nach einer Leistungstatsache, die zwischen zwei Formulierungsstufen entscheidet; unabhängige Teile werden fertiggestellt. Nach der Antwort passt du nur die betroffene Passage an und setzt ohne Neustart fort. Eine Liste gefundener Adverbien genügt nicht als Endprodukt.

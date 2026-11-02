@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Insolvenzrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenzrecht."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Insolvenzrecht** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -27,7 +25,7 @@ Dieser Dokumenten-Intake für **Insolvenzrecht** ordnet Anlagen, Registerdaten, 
 ## Fachlandkarte dieses Plugins
 
 - `anfechtungsrechte-antragspflicht-15a` — Anfechtungsrechte Antragspflicht 15A
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `mandat-triage-insolvenzrecht` — Mandat-Triage Insolvenzrecht
 - `antragspflicht-15a-17-19` — Antragspflicht 15A 17 19
 - `antragspflicht-15a-inso` — Antragspflicht 15A Inso
 - `auslaendischer-insolvenzverwalter-register-und-grundbuch` — Ausländischer Insolvenzverwalter Register und Grundbuch

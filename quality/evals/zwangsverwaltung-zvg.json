@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "plugin": "zwangsverwaltung-zvg",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/zvg/__152.html",
+      "checked_on": "2026-09-14",
+      "supports": "Erhaltung und ordnungsmäßige Nutzung; Geltendmachung beschlagnahmter Ansprüche; Miet- und Pachtbindung nach Absatz 2."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zvg/__155.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlich indexierter Absatz 1: Verwaltungsausgaben und bestimmte Verfahrenskosten vorweg aus Nutzungen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zwvwv/__13.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlich indexierte Masseverwaltungs- und Rechnungslegungsregel, Soll-Ist-Abgleich und Belege."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zwvwv/__14.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlich indexierte Einnahmenüberschussrechnung ergänzt um Solleinnahmen und Jahresrechnung nach Kalenderjahren."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zvg/__152.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 152 Absatz 2 ZVG gelesen; Bezug: Mietforderungen, tatsächliche Liquidität und zweckgebundene Gelder abgleichen. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2008/VIII_ZR_336-08.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 23.09.2009, VIII ZR 336/08: Bei vor Beschlagnahme überlassener Wohnung Kautionsanlage auch ohne Übergabe verlangen; begrenzten Mieteinbehalt und Mittelbedarf vor Mahnung beziehungsweise Ausschüttung berücksichtigen. Amtlich indizierter Volltext einschließlich Rn. 10 bis 13 gelesen; direkter Abruf 403. Kein unbegrenzter Einbehalt, kein allgemeiner Insolvenzrang und keine ungeprüfte Gewerbemietübertragung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zvg/__155.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text gelesen: Verwaltungsausgaben und Verteilung der Nutzungen unterscheiden; Kautionsanlagepflicht nicht mit frei ausschüttbarer Masse gleichsetzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__551.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text einschließlich Absatz 3 gelesen: Wohnraumbarkaution getrennt anlegen, Zinsen dem Mieter zuordnen. Gewerberaum und besondere Anlageformen nicht ungeprüft gleichsetzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zwvwv/__3.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext vollständig gelesen: Inhalt des Berichts über Besitzerlangung und unverzügliche Nachholung zunächst nicht feststellbarer Verhältnisse samt Anzeige an das Gericht; keine allgemeine Monatsfrist."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zwvwv/__14.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Normtext vollständig gelesen: Sollergänzung der Einnahmenüberschussrechnung, Schlussrechnung bei Aufhebung und spätere Endabrechnung nach beendetem Zahlungsverkehr sowie Konto null."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zvg/__152.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Text erneut gelesen: Erhaltung, Nutzung und Vertragsbindung bei Überlassung vor Beschlagnahme. Neuer Nachweis des Überlassungszeitpunkts verändert Bericht und Anschreiben."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zvg/__155.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Text erneut gelesen: notwendige Verwaltungsausgaben und weitere Verteilung getrennt. Beispiel zur Liquidität ist ausdrücklich Rechenannahme, keine ausgeführte Abrechnung oder gerichtliche Freigabe."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt vollständig erneut gelesen. Drei Einstiegswege und konkrete Folgen von Kautionsnachweis sowie Reparaturmehrkosten für Schreiben und Budget ergänzt; vorhandene Wohnraumgrenzen erhalten. Redaktionelle Einstiegsprüfung 16.10.2026: Mieten, gebundene Gelder und Rechnungslegung als Arbeitsgegenstand. VIII ZR 336/08 früh für die Wohnraumbarkaution, mit betragsbegrenztem Zurückbehaltungsrecht und ohne allgemeinen Insolvenzrang. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "Übernahmebericht, Mieterbrief oder Rechnungslegung als konkrete Wege bei leerer Eingabe; Dateien ohne Aufgabe still lesen.",
+      "Nachgewiesene Kautionsanlage verändert Einwand und Brief; geänderte Reparaturkosten verändern Budget, Vorschuss und Verteilungsempfehlung.",
+      "Mieten, gebundene Gelder und Rechnungslegung als Arbeitsgegenstand. VIII ZR 336/08 früh für die Wohnraumbarkaution, mit betragsbegrenztem Zurückbehaltungsrecht und ohne allgemeinen Insolvenzrang."
+    ],
+    "sha256": "dd99af4b645987962e6454a4a9fbfa85828c6c1c3fa669d0d3bd8dbadcfa93c3",
+    "method": "desk_review",
+    "reviewed_on": "2026-10-16"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig erneut gelesen. Übernahme mit Unterlagenlücken, Kautionseinwand, dringende Versorgung und Abschlussabrechnung konkret ausgebaut; neue Berichts- und Rechnungsnormen amtlich geprüft, keine Live-Verwaltung. Redaktionelle Einstiegsprüfung 16.10.2026: Mieten, gebundene Gelder und Rechnungslegung als Arbeitsgegenstand. VIII ZR 336/08 früh für die Wohnraumbarkaution, mit betragsbegrenztem Zurückbehaltungsrecht und ohne allgemeinen Insolvenzrang. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "Überlassungszeitpunkt und ungeklärte Besitzverhältnisse verändern Bericht und Mieterinformation.",
+      "Kautionsbelege, tatsächlicher Zahlungseingang und höhere Reparaturkosten bis zur aktualisierten Vorschussbegründung verfolgen.",
+      "Schlussrechnung bei Aufhebung von Endabrechnung nach abgeschlossenem Zahlungsverkehr unterscheiden; weitere Zahlungsvorgänge nachführen.",
+      "Mieten, gebundene Gelder und Rechnungslegung als Arbeitsgegenstand. VIII ZR 336/08 früh für die Wohnraumbarkaution, mit betragsbegrenztem Zurückbehaltungsrecht und ohne allgemeinen Insolvenzrang."
+    ],
+    "sha256": "490a56e795c521381724149879f823b4fa9110e7a23a67a69a5cecd95c35bb83",
+    "method": "desk_review",
+    "reviewed_on": "2026-10-16"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Übernahmebericht, Mieteranschreiben oder Rechnungslegung mit Liquiditätsprüfung anbieten.",
+      "Dateien ohne Aufgabe: Beschlüsse, Mietverträge und Objektkonten still lesen; nur bei unklarem Ziel Dokumentwege anbieten.",
+      "Klarer Auftrag: unmittelbar Bericht, Mietsaldo oder Budget bearbeiten und nur entscheidende Belege erfragen."
+    ],
+    "continuation": "Kautionsanlage, Überlassungsdatum oder Reparaturangebot -> geänderter Mieterbrief, Übernahmebericht, Liquiditätsplan und gegebenenfalls Vorschussantrag.",
+    "enrichment": "Unvollständige Übernahme, begrenzter Kautionseinwand, Versorgungskosten statt Ausschüttung und zeitlich getrennte Schluss- und Endabrechnung ausgearbeitet.",
+    "limits": "desk review; no live client execution"
+  },
+  "selection": {
+    "positive": [
+      "Gleiche Mietsoll, Konto und verfügbaren Ausschüttungsbetrag einer Zwangsverwaltung ab.",
+      "Erstelle einen gerichtlichen Zwischenbericht zu Bewirtschaftung und Reparaturbedarf."
+    ],
+    "negative": [
+      "Berechne das geringste Gebot für eine reine Zwangsversteigerung ohne Verwaltung.",
+      "Erstelle die private Einkommensteuererklärung eines Vermieters."
+    ]
+  },
+  "cases": [
+    {
+      "id": "mietsoll-keine-liquiditaet",
+      "request": "Schreibe ergebnis.md als Kassen- und Freigabevermerk für eine bestellte Zwangsverwalterin. Für September: Anfangsbestand 0, Sollmiete 8000 Euro, tatsächliche Mieteingänge 6000 Euro, bereits gezahlte belegte Verwaltungsausgaben 1000 Euro, Konto somit 5000 Euro. Eine notwendige und genehmigte Reparaturrechnung über 3000 Euro ist morgen fällig. Keine Kautionen oder anderen gebundenen Gelder auf diesem Konto. Ein Gläubiger verlangt sofortige Ausschüttung von 5000 Euro. Verteilungsplan und Prüfung weiterer Rangpositionen stehen noch aus. Beurteile Liquidität und Bericht, veranlasse keine Zahlung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Gleicht 6000 minus 1000 zu 5000 Euro Kontostand ab und führt 2000 Euro offene Miete gesondert, nicht als verfügbare Liquidität.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Berücksichtigt die fällige Reparatur von 3000 Euro und weist höchstens 2000 Euro rechnerischen Rest vor weiterer Rang- und Verteilungsprüfung aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Lehnt eine sofortige Freigabe der verlangten 5000 Euro ab und unterscheidet rechnerischen Rest von rechtlich freigegebener Ausschüttung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "treuhandkonto-versteigerung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "zwangsverwaltung-zvg/README.md",
+      "zwangsverwaltung-zvg/zwangsverwaltung-zvg-werkstatt.md",
+      "zwangsverwaltung-zvg/zwangsverwaltung-zvg-schnellstart.md",
+      "quality/evals/zwangsverwaltung-zvg.json"
+    ],
+    "opening_change": "Mietforderungen, tatsächliche Liquidität und zweckgebundene Gelder abgleichen",
+    "norms": [
+      "Paragraf 152 Absatz 2 ZVG",
+      "Paragraf 155 ZVG",
+      "Paragraf 551 Absatz 3 BGB",
+      "Paragraf 273 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 23.09.2009, VIII ZR 336/08",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2008/VIII_ZR_336-08.pdf?__blob=publicationFile&v=1",
+        "application": "Bei vor Beschlagnahme überlassener Wohnung Kautionsanlage auch ohne Übergabe verlangen; begrenzten Mieteinbehalt und Mittelbedarf vor Mahnung beziehungsweise Ausschüttung berücksichtigen.",
+        "limit": "Amtlich indizierter Volltext einschließlich Rn. 10 bis 13 gelesen; direkter Abruf 403. Kein unbegrenzter Einbehalt, kein allgemeiner Insolvenzrang und keine ungeprüfte Gewerbemietübertragung.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "remaining_limits": [
+      "Workflow-Review: keine Zahlung, Abrechnung oder neue Vergütungsprüfung; frühere BGH-Verifikation bleibt mit dokumentierter direkter Abrufsperre erhalten, nicht erneut als Volltextprüfung behauptet.",
+      "Amtlich indizierter Volltext einschließlich Rn. 10 bis 13 gelesen; direkter Abruf 403. Kein unbegrenzter Einbehalt, kein allgemeiner Insolvenzrang und keine ungeprüfte Gewerbemietübertragung.",
+      "Keine Live-Abrechnung und keine vollständige Neuprüfung der ZwVwV-Vergütung; Wohnraumentscheidung begründet keinen allgemeinen Insolvenzrang.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest."
+    ]
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/bgh_notp/document.py?Art=en&Datum=2009-9-23&Gericht=bgh&Sort=3&anz=21&pos=13",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2008/VIII_ZR_336-08.pdf?__blob=publicationFile&v=1",
+        "sha256": "01042c1ad8f06de05e04e92ac665b3204a2585a0af2938b533d3dc858ac93297"
+      }
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  }
+}

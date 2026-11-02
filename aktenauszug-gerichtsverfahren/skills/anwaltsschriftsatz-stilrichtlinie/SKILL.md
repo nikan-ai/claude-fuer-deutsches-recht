@@ -1,6 +1,6 @@
 ---
 name: anwaltsschriftsatz-stilrichtlinie
-description: "Wenn es um Anwaltsschriftsatz-Stilrichtlinie in aktenauszug-gerichtsverfahren geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anwaltsschriftsatz-Stilrichtlinie: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Anwaltsschriftsatz-Stilrichtlinie
@@ -20,10 +20,6 @@ description: "Wenn es um Anwaltsschriftsatz-Stilrichtlinie in aktenauszug-gerich
 - § 253 Abs. 2 ZPO — Klageschrift: bestimmter Antrag, Sachverhalt, Benennung Gericht
 - § 520 Abs. 3 ZPO — Berufungsbegründung: Bezeichnung der Angriffspunkte, neues Vorbringen
 - § 551 Abs. 3 ZPO — Revisionsbegründung: Angabe der Revisionsgründe
-
-## Rechtsprechung zum Schriftsatzstil und Schriftsatz-Anforderungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Sprache
 
@@ -118,10 +114,4 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 - [ ] Überschriften-Hierarchie korrekt?
 - [ ] Schriftsatz erfüllt Mindestanforderungen §§ 130-131 ZPO?
 
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:
-- VII ZR 248/12 (BGH): ersatzlos entfernt (NOT_FOUND auf dejure.org; kein Urteil vom 06.11.2013 nachweisbar)
-- VII ZR 126/02 (BGH): ersatzlos entfernt (WRONG_TOPIC: tatsaechliches Thema ist Werkvertragsrecht/Verputzungsfehler/§ 421 BGB, nicht Prozessrecht; Quelle: https://dejure.org/2003,299)
-- Aktenzeichen-Formatbeispiele sind frei erfunden und dürfen nicht als Rechtsprechungszitate verwendet werden.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: 5b-standardtarif-gebuehren-andere-6a
-description: "Wenn es um GOÄ Paragraf 5b Standardtarif PKV in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für GOÄ Paragraf 5b Standardtarif PKV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen."
 ---
 
 # GOÄ § 5b Standardtarif PKV
@@ -38,14 +38,3 @@ GOÄ § 5b Standardtarif PKV: prüft die einschlägigen Voraussetzungen, Dokumen
 
 ## Qualitätsgate
 Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast, Zahlen, Form und gewünschter Output vollständig? Ist erkennbar, was sicher ist und was noch Sachverhaltsarbeit braucht?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 17 KHEntgG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

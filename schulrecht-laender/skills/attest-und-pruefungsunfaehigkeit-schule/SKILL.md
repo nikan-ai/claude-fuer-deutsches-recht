@@ -1,6 +1,6 @@
 ---
 name: attest-und-pruefungsunfaehigkeit-schule
-description: "Wenn es um Attest Und Prüfungsunfaehigkeit Schule in Schulrecht der Bundesländer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Attest und Prüfungsunfähigkeit Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Attest Und Prüfungsunfaehigkeit Schule
@@ -70,14 +70,3 @@ Der Skill arbeitet landes- und satzungsbezogen: Er fragt zuerst nach Bundesland,
 ## Ergebnisformat
 
 Erzeuge bevorzugt: Attestfahrplan. Am Ende immer drei Zeilen: **Frist**, **fehlende Quelle**, **nächster sicherer Schritt**.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 3 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

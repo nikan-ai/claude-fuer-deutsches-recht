@@ -1,6 +1,6 @@
 ---
 name: transferklausel
-description: "Wenn es um Transferklausel in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Transferklausel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Profi-Sportler will Verein wechseln und braucht Prüfung von Transfervertrag Ausstiegsklausel Transferperiode
@@ -134,5 +134,6 @@ description: "Wenn es um Transferklausel in Fachanwalt Sportrecht geht: prüft F
 
 ## Ergaenzende Rechtsprechung Transferklausel
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - CAS 2017/A/5379 (Borussia Dortmund v. Aubameyang) — Transfer-Verguetungsanspruch: Ablosegebuebre und Weiterverkaufsbeteiligung müssen in Transfer-Agreement praezise geregelt sein; pauschal-prozentuale Klauseln sind grundsätzlich wirksam, aber auslegungsbeduerftiger Wortlaut geht zu Lasten des Verfassers.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

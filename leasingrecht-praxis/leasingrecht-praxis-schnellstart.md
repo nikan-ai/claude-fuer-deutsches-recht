@@ -1,70 +1,39 @@
-Wenn du das hier öffnest, willst du eine gesellschaftsrechtliche Maßnahme rechtssicher beschließen und dokumentieren.
+# 1. Leasingakte bearbeiten
 
-# Leasingrecht Praxis — Schnellstart
+Prüfe, ob die verlangten Leasingraten, Rückgabekosten und Minderwerte durch den konkreten Vertrag und den nachgewiesenen Objektzustand gedeckt sind. Verfasse daraus den bestellten Abrechnungseinwand, Vertragsentwurf oder Rechenvergleich.
 
-Ziel: Wirtschaftsrechtliches Praxisplugin für Leasing, Sale-and-lease-back, Equipment Finance, Fahrzeugflotten, IT-Leasing, Insolvenz, Restwert, Sicherheiten und Vertragsgestaltung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Paragraf 506 Absatz 2 BGB knüpft an das Vertragsmodell an. BGH, Urteil vom 24.02.2021, Az. VIII ZR 36/20, trägt nach der unten belegten amtlichen Pressemitteilung kein verbraucherkreditrechtliches Widerrufsrecht beim dortigen Kilometerleasing ohne Erwerbspflicht, Andienungsrecht und Restwertgarantie. Das entscheidet nicht jede Leasingabrechnung; ein gelesener Volltext wird hier nicht behauptet.
 
-## 1. Schnellmodus
+Bei leerem Eingang biete kurz „Rückgabeabrechnung, Mangel am Leasingobjekt oder Vertragsänderung“ an. Bei Dateien ohne Auftrag lies sie still und kläre nur, welches Ergebnis gewünscht ist. Bei klarem Auftrag beginne direkt; nur entscheidende Fragen stellen, keine Materialübersicht und keine feste Folge von Dialogrunden.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Lies zuerst Sachverhalt, Vertrag, einbezogene Bedingungen, Übergabe- und Rückgabeprotokoll sowie Abrechnung. Bestimme Leasinggeber, Leasingnehmer, Lieferant und Eigentümer aus der Akte; ordne Rahmenvertrag und Einzelabruf, ohne bekannte Angaben erneut abzufragen.
 
-## 2. Direktstart
+## 1.1. Vertragsmodell
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Trenne Kilometerabrechnung, Restwertvereinbarung, Erwerbspflicht und Andienungsrecht. Bei Verbrauchern prüfe [Paragraf 506 Absatz 2 BGB](https://www.gesetze-im-internet.de/bgb/__506.html); leite Finanzierungshilferecht nicht allein aus dem Wort Leasing ab. Bei Maschinen erfasse Abnahme, Wartung, Ausfallzeiten und die Abtretung von Lieferantenansprüchen. Eine Lieferantenbeanstandung nicht ohne Vertragsprüfung als Berechtigung zum Einbehalt aller Leasingraten behandeln.
 
-## 3. Kernroute
+## 1.2. Rückgabeabrechnung
 
-1. Gesellschaftsform, Registerlage, Beteiligungen und Organe feststellen.
-2. Satzung, Gesellschaftervereinbarung, Beschluss und Vertretung trennen.
-3. Organpflichten, Treuepflichten, Zustimmungserfordernisse und Haftung prüfen.
-4. Transaktionsschritte, Notarform, Closing-Bedingungen und Registervollzug planen.
-5. Arbeitsprodukt: Beschlussvorschlag, Organmemo, Anteilsübertragungsvertrag oder Klageentwurf erstellen.
-6. Kfz-Leasing: Kilometervertrag, Restwertvertrag, Rückgabe: Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen.
+BGH, Urteil vom 24. Februar 2021, VIII ZR 36/20: Kilometerleasing ohne Erwerbspflicht, Andienungsrecht und Restwertgarantie begründet über Paragraf 506 Absatz 2 BGB kein verbraucherkreditrechtliches Widerrufsrecht. Quelle: [amtliche Pressemitteilung 39/2021](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2021/2021039.html), kein hier geprüfter Volltext. Vertragsinhalt, abweichende Erwerbspflichten, gesonderte Rechte und Abschlussweg eigenständig prüfen. Keine allgemeine Unwiderruflichkeit aller Leasingverträge behaupten.
 
-## 4. Fallkarte
+Rechne Mehr- und Minderkilometer nach Satz und Freigrenzen. Trenne Restwertdifferenz und Zustandsschäden. Ordne jede Schadensposition der Objektstelle, einem datierten Foto und dem Übergabe-/Rückgabebefund zu. Trenne Reparaturkosten, verbleibenden Minderwert und Gebühren; addiere sie nicht ungeprüft für denselben Nachteil.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 705; HGB Paragraf 105; GmbHG Paragraf 13 |
-| Rechtsprechung | BGH, Urteil vom 29.01.2001 - II ZR 331/00; BGH, Urteil vom 04.07.2005 - II ZR 354/03 |
-| Tatbestand | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen |
-| Beweislast | Anspruchsteller für Pflichtverletzung, Schaden und Kausalität; Organ oder Gesellschafter für Entlastung, Beschlussbasis und Business Judgment |
-| Rechtsfolge | Beschlussfassung, Anfechtung, Organhaftung, Registervollzug, Abberufung oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Vergleiche vertragsgemäßen Gebrauch mit Beschädigung anhand Laufzeit, Nutzung und vereinbartem Zustand. [Paragraf 538 BGB](https://www.gesetze-im-internet.de/bgb/__538.html) ist der Ausgangspunkt; die Einordnung des Leasingvertrags bleibt erforderlich. Ein einseitiges Gutachten ist weder automatisch bindend noch wertlos. Fehlende Fotos beweisen keine Schadenfreiheit. Verjährung nach Anspruchsart prüfen, nicht jede Schlussabrechnung einer Sechsmonatsfrist unterwerfen.
 
-## 5. Einsatzfelder
+## 1.3. Weitere Störungen
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Kfz-Leasing: Kilometervertrag, Restwertvertrag, Rückgabe | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Leasingrecht: AGB-Klauseln im Leasingvertrag prüfen | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Leasingrecht: Fahrzeugleasing Kilometervertrag Restwertvertrag Rückgabe | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Leasingrecht: Leasingvertrag Redline für Anbieter | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Leasingrecht: Leasingvertrag Redline für Leasingnehmer | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Kaltstart: Leasingakte, Vertrag, Objekt, Zahlungsstrom | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Bei Mängeln Liefervertrag, abgetretene Rechte und Leasingfolgen getrennt prüfen. Bei Kündigung Rückstände, Zugang, Rückholung, Verwertungserlös und Anrechnung aufgliedern. In der Insolvenz Schuldnerseite, Gegenstand, Erfüllungsstand und Eröffnung bestimmen; [Paragraf 103 InsO](https://www.gesetze-im-internet.de/inso/__103.html) ist ein Prüfanker für unerfüllte gegenseitige Verträge, keine Lösung sämtlicher Leasingfälle.
 
-## 6. Anker
+## 1.4. Ergebnis
 
-- BGB Paragraf 705: Gesellschaftsvertrag der Gesellschaft bürgerlichen Rechts.
-- HGB Paragraf 105: offene Handelsgesellschaft.
-- GmbHG Paragraf 13: Rechtsnatur der GmbH.
-- GmbHG Paragraf 15: Übertragung von Geschäftsanteilen.
-- Paragrafen 108, 109 InsO: Insolvenzverwalter kann Vertrag fortführen oder kündigen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 535–548 BGB: Mietrecht analog: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 506–509 BGB: Verbraucherleasing: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 398 BGB: Abtretung der Gewährleistungsansprüche: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Urteil vom 29.01.2001 - II ZR 331/00: ARAG/Garmenbeck prägt die Pflicht zur Verfolgung von Organhaftungsansprüchen.
-- BGH, Urteil vom 04.07.2005 - II ZR 354/03: Trihotel zur Existenzvernichtungshaftung.
-- BGH VIII ZR 172/05: Minderwertklausel muss klar unterscheiden zwischen normaler Abnutzung und übermäßigem Verschleiß
-- BGH, Urteil vom 28.05.2014 - VIII ZR 179/13 und VIII ZR 241/13 (Restwertgarantie): https://www.bgh.de
+Beispiel für eine Fortsetzung: „Die 700 Euro sind der nach Reparatur verbleibende Minderwert.“ Ergänze im vorhandenen `abrechnungseinwand.md` die Bewertungsprüfung und ändere den Saldo nur, soweit der verbleibende Nachteil belegt ist. Die bloße neue Bezeichnung rechtfertigt keine Addition zu 900 Euro Reparaturkosten. Nutzerpfad beibehalten; bei fehlendem Dateizugriff die Ersatzpassage im Chat liefern.
 
-## 7. Antwortform
+Fehlt zu einer Schadensposition das datierte Foto oder die Bewertungsgrundlage, fordere genau diesen Nachweis an. Fehlt bei vorzeitiger Beendigung der Verwertungserlös, frage nach Verkaufsabrechnung und bereits angerechneten Beträgen. Liefere solange die prüfbaren Positionen mit einem vorläufigen Saldo; fehlende Unterlagen weder als Schadenfreiheit noch als Anerkennung behandeln.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Kfz-Leasing: Kilometervertrag, Restwertvertrag, Rückgabe, Leasingrecht: AGB-Klauseln im Leasingvertrag prüfen, Leasingrecht: Fahrzeugleasing Kilometervertrag Restwertvertrag Rückgabe, Leasingrecht: Leasingvertrag Redline für Anbieter: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste.
+Nach Eingang ändere die betroffenen Positionen und den Gesamtbetrag und schreibe das bestellte Dokument fertig. Eine weitere gezielte Frage ist zulässig, wenn etwa das neue Gutachten eine bisher nicht abgerechnete Vorschädigung erkennen lässt. Bereits beantwortete Fragen nicht wiederholen; keine ungefragte Klage und kein eigenmächtiger Versand oder Vergleich.
 
-## 8. Stop
+Liefere je nach Auftrag eine begründete Prüfung, ein ausformuliertes Schreiben oder einen vollständigen Vertragsentwurf unter dem gewünschten Dateinamen. Kennzeichne Streitbetrag und verbleibenden Nachweisbedarf. Quellenstatus und technische Hinweise stehen getrennt vom Empfängertext.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Optional vertieft `flottenleasing-schaden-minderwert-und-gutachten` Flottenfälle; ohne ihn die vorstehende Abrechnungsprüfung durchführen. Seine pauschalen Beweis- und Verjährungsaussagen nicht ungeprüft übernehmen. Weitere Normen und Entscheidungen amtlich verifizieren.
+
+Ohne Datei- oder Quellenzugriff benenne die konkrete Lücke und bearbeite den verfügbaren Teil. Ohne Export den fertigen Text liefern, keine Dateierstellung vortäuschen; Export: Times New Roman, 11 pt, dezimale Gliederung.

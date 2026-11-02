@@ -1,6 +1,6 @@
 ---
 name: akkreditiv-ucp-600
-description: "Wenn es um Akkreditiv nach UCP 600 in Internationales Handelsrecht und Lex Mercatoria geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Akkreditiv nach UCP 600: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Akkreditiv nach UCP 600
@@ -48,28 +48,3 @@ Das Dokumentenakkreditiv (Letter of Credit, L/C) ist die sicherste Zahlungsform 
 - Dokumentenprüfung: Checkliste UCP 600 Art. 20-28 für jedes Dokumententyp
 - Diskrepanz-Management: Waiver-Anfrage vs. Neuvorlage vs. Ablehnung priorisieren
 - eUCP: nur wenn Akkreditiv ausdrücklich eUCP einbezieht
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 6 UStG
-- § 17 UWG
-- § 13b UStG
-- § 69a UrhG
-- § 9 GeschGehG
-- § 19 AktG
-- § 5 HGeschGehG
-- § 14 MarkenG
-- Art. 28 DSGVO
-- Art. 101 AEUV
-- Art. 29 EUV
-- Art. 215 AEUV
-
-### Leitentscheidungen
-
-- BGH VIII ZR 136/01
-- EuGH C-126/97
-- BGH VIII ZR 274/98
-- BGH VIII ZR 304/00
-- EuGH C-311/18

@@ -1,6 +1,6 @@
 ---
 name: dsfa-erstellung
-description: "Wenn es um DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO
@@ -128,7 +128,7 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 - **DSFA als Einmalvorgang:** Art. 35 Abs. 11 DSGVO – DSFA muss bei wesentlichen Änderungen der Verarbeitungstätigkeit wiederholt werden. Änderungsmanagement im Verfahren verankern.
 - **Vorab-Konsultation übergangen:** Wenn Restrisiko nach Maßnahmen hoch bleibt, ist Art. 36 DSGVO keine Option, sondern Pflicht. Unterlassung ist eigenständiger Bußgeldtatbestand (Art. 83 Abs. 4 lit. a DSGVO).
 - **BfDI-Blacklist-Stand nicht geprüft:** Blacklist kann aktualisiert werden. Immer aktuelle Fassung auf bfdi.bund.de prüfen.
-- **KI-VO-Überschneidung (ab 2026):** Für KI-Systeme mit hohem Risiko nach VO (EU) 2024/1689 (KI-VO) ist eine Konformitätsprüfung nach KI-VO und eine DSFA nach Art. 35 DSGVO durchzuführen. Beide Instrumente ergänzen sich; die KI-VO-Konformitätsbewertung ersetzt die DSFA nicht. `[Modellwissen – Zeitplan KI-VO prüfen]`
+- **KI-VO und DSFA:** Eine Hochrisiko-Einstufung ersetzt nicht die eigenständige Prüfung des Artikels 35 DSGVO. Konformitätsbewertung nach Artikel 43 KI-Verordnung, Betreiberpflichten und Datenschutz-Folgenabschätzung getrennt nach Rolle, System und Datum zuordnen. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Quellen / Updates
 
@@ -139,14 +139,10 @@ Stand: 05/2026. Aktualität prüfen bei EDSA-Aktualisierungen der Leitlinien 09/
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — TIA als Bestandteil der DSFA bei Drittlandbezug
 - `datenschutzrecht/skills/datenpanne-meldung/SKILL.md` — Vorab-Konsultation Art. 36 DSGVO nach negativer DSFA
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Faktische Updates (Stand 05/2026)
 
-- **DSFA + FRIA (Art. 27 KI-VO) bei Hochrisiko-KI:** Art. 50-Transparenzpflichten bleiben ab 02.08.2026 gesondert zu prüfen. Für Hochrisiko-Systeme nach Anhang III ist nach aktuellem Digital-Omnibus-Zeitstrahl spätestens 02.12.2027 einzuplanen; Anhang-I-Systeme spätestens 02.08.2028. DSFA und FRIA können integriert werden, bleiben aber rechtlich eigenständig. Vor Außenverwendung finalen Normtext und Kommissionsstand prüfen.
-- **EDSA-Stellungnahme 28/2024 zu KI-Modellen:** verbindliche Auslegungshilfe zur DSGVO-Bewertung von KI-Modellen und KI-Diensten, insb. zu personenbezogenen Daten in Modell-Gewichten und Training. Quelle: edpb.europa.eu.
+- **DSFA und FRIA:** Artikel 27 erfasst Betreiber, die Einrichtungen des öffentlichen Rechts oder private Einrichtungen sind, die öffentliche Dienstleistungen erbringen, sowie Betreiber der Systeme nach Anhang III Nummer 5 Buchstaben b und c. Systeme nach Anhang III Nummer 2 sind ausgenommen. Öffentliche Finanzierung allein ist kein Tatbestand. DSFA und FRIA haben eigene Voraussetzungen; vorhandene DSFA-Ergebnisse können nach Artikel 27 Absatz 4 einbezogen werden. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
+- **EDSA-Stellungnahme 28/2024 zu Modellen:** nicht bindende aufsichtsbehördliche Orientierungshilfe zur Bewertung personenbezogener Daten in Modellgewichten und Trainingsvorgängen; Normtext und einschlägige Rechtsprechung gehen vor. Quelle: edpb.europa.eu.
 - **BfDI-/LfDI-Blacklist Art. 35 Abs. 4 DSGVO:** Aktuelle Liste verpflichtender DSFA-Faelle live über bfdi.bund.de prüfen; auch Landesdatenschutzbehoerden veröffentlichen Listen (z.B. LfDI BW, LDA Bayern).
 - **Art. 36 DSGVO Vorab-Konsultation:** Bei Restrisiko nach DSFA Pflicht zur Konsultation der Aufsichtsbehoerde. Frist 8 Wochen, Verlaengerung 6 Wochen möglich.
 
@@ -201,3 +197,6 @@ Datum: [DATUM]
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Identifizierungsmittel je Datenempfänger und den Zweck jeder Verarbeitung. Eine Berufung auf diskriminierungsfreie Entwicklung begründet noch keine allgemeine Befugnis zur Nutzung sensibler Daten. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

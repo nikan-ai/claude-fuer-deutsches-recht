@@ -1,6 +1,6 @@
 ---
 name: stb-lohn-vermoegenswirksame-leistungen
-description: "Wenn es um Vermoegenswirksame Leistungen (VL) und AN-Sparzulage in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Vermögenswirksame Leistungen (VL) und AN-Sparzulage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vermoegenswirksame Leistungen (VL) und AN-Sparzulage
@@ -115,7 +115,6 @@ Stand: 05/2026.
 - BMF zur Sparzulage.
 - Sparzulage-Saetze 2025: Bausparen 9% (max. 43 EUR/Jahr, Grenze 17.900 EUR ledig), Aktien-Fonds 20% (max. 80 EUR/Jahr, Grenze 20.000 EUR ledig); 5. VermBG; BZSt pruefen.
 
-<!-- AUDIT 27.05.2026 | welle 6 | 3 Marker aufgeloest: 2 bestaetigt (VermBG-Saetze 2025 eingesetzt), 1 ersetzt (Normbestand Pruefhinweis ohne Marker) -->
 
 
 ## Qualitäts-Hardening

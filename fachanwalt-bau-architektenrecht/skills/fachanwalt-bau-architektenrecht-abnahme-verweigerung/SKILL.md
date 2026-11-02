@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bau-architektenrecht-abnahme-verweigerung
-description: "Wenn es um Abnahme-Verweigerung wegen Mängeln in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abnahme-Verweigerung wegen Mängeln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abnahme-Verweigerung wegen Mängeln
@@ -45,7 +45,6 @@ Mandate zur Abnahme: Auftraggeber will Abnahme verweigern wegen Mängeln; Auftra
 
 ### Verweigerung-Grenzwert
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 4) Abnahme-Formen
 
@@ -62,7 +61,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ### Fiktion § 640 II 2 BGB
 
 - Ohne Reaktion AG nach Aufforderung in **angemessener Frist** -> Abnahme fingiert
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Bei VOB/B
 
@@ -135,7 +133,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ## 9) BGH-Linien
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 10) Honorar
 
@@ -149,4 +146,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - `fachanwalt-bau-architektenrecht-bautraeger-insolvenz` — bei Insolvenz-Fall
 
 ---
-<!-- AUDIT 27.05.2026: BGH VII ZR 49/15 (WRONG_TOPIC) — auf dejure.org verifiziert als BGH 25.02.2016, NJW 2016, 1572: Keine Verkürzung der Verjährungsfrist durch antizipierte Abnahme (Bauträgervertrag, Nachzügler). Eintrag von falscher Kurzbeschreibung "Abnahme-Fiktion" auf korrektes Thema korrigiert. -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

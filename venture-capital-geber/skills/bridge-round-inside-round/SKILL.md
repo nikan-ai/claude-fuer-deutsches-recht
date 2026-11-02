@@ -1,6 +1,6 @@
 ---
 name: bridge-round-inside-round
-description: "Wenn es um Bridge Round und Inside Round in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bridge Round und Inside Round: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bridge Round und Inside Round
@@ -48,14 +48,4 @@ Brücken als Rettung oder Verzögerung erkennen.
 ## Quellen- und Qualitätsregel
 
 Wenn KAGB, BaFin, Wertpapieraufsicht, GmbH-Formalia, Steuer, Sanktionen, FDI, Kartellrecht, Datenschutz, AI Act oder internationale Securities-Themen berührt sind, nicht aus Modellwissen final entscheiden. Aktuelle amtliche Quellen oder lokale Counsel verlangen und die Ausgabe als Struktur-/Prüfvermerk kennzeichnen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 19a EStG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Aussagen zur Produktreife mit belastbaren Systemtests, Rollen und geltenden Pflichtenterminen. Ein ISO-Zertifikat des Dienstleisters darf keine unbeschränkte Garantie des Startups begründen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

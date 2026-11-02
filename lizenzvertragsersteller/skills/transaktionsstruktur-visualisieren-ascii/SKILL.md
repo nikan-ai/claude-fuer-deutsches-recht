@@ -1,6 +1,6 @@
 ---
 name: transaktionsstruktur-visualisieren-ascii
-description: "Wenn es um Transaktionsstruktur visualisieren — ASCII in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Transaktionsstruktur visualisieren — ASCII: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Transaktionsstruktur visualisieren — ASCII
@@ -23,7 +23,7 @@ description: "Wenn es um Transaktionsstruktur visualisieren — ASCII in Lizenzv
  |  GmbH      |              |  Mutter   |              |  Tochter   |
  +-----------+              +-----------+              +------------+
    (Lizenzgeber)            (Hauptlizenz-              (Sub-License,
-                             nehmer)                   Definition $ 15 AktG)
+                             nehmer)                   Definition Paragraf 15 AktG)
 ```
 
 ## Konstellation 3 — Cross-License (Patentaustausch)

@@ -1,6 +1,6 @@
 ---
 name: luftvg-anwendungsbereich
-description: "Wenn es um LuftVG Anwendungsbereich – Normanwendbarkeit im Einzelfall in Luftrecht und Flughafenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für LuftVG Anwendungsbereich – Normanwendbarkeit im Einzelfall: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # LuftVG Anwendungsbereich – Normanwendbarkeit im Einzelfall
@@ -77,7 +77,7 @@ Für Mandate im Bereich Luftrecht sind folgende Dokumente regelmäßig anzuforde
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

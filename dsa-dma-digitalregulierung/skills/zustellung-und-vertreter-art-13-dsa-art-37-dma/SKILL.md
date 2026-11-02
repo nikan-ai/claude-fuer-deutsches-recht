@@ -1,6 +1,6 @@
 ---
 name: zustellung-und-vertreter-art-13-dsa-art-37-dma
-description: "Wenn es um Zustellung Und Vertreter Art 13 Dsa Art 37 Dma in DSA, DMA und Digitalregulierung der EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zustellung und Vertreter Art 13 Dsa Art 37 Dma: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zustellung gegen Plattform mit Sitz außerhalb der EU und EU-Vertreter-Pflichten: Kläger will Schriftstuecke zustellen oder Behörde will Plattform erreichen
@@ -47,7 +47,6 @@ description: "Wenn es um Zustellung Und Vertreter Art 13 Dsa Art 37 Dma in DSA, 
 |---|---|
 | Verbraucher klagt Plattform | Art. 17 ff. Brüssel-Ia: Wohnsitz Verbraucher |
 | Gewerblicher Nutzer | Art. 7 Nr. 1: Erfüllungsort (idR Sitz Plattform) |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | Plattform außerhalb EU | nationale Auffangregeln (§ 23 ZPO Vermögensgerichtsstand bei Vermögen im Inland) |
 
 ## Zustellungswege
@@ -92,10 +91,6 @@ description: "Wenn es um Zustellung Und Vertreter Art 13 Dsa Art 37 Dma in DSA, 
 - Bundesnetzagentur als DSC führt **öffentliches Verzeichnis** der Art.-13-Vertreter
 - Bei Pflichtverstoß (kein Vertreter benannt): Bußgeld nach DDG, ggf. Diensteinschränkung
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - Art. 13 DSA — Pflicht zur Benennung eines gesetzlichen Vertreters in der EU für Nicht-EU-Anbieter
@@ -133,3 +128,5 @@ Bevorzugter Zustellungsweg:
 Internationale Zuständigkeit: Art. [X] Bruessel-Ia-VO (VO 1215/2012)
 Gerichtsstand: [GERICHT]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

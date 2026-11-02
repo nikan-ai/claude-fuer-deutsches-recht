@@ -1,6 +1,6 @@
 ---
 name: werbung-und-aussenauftritt
-description: "Wenn es um Werbung und Außenauftritt in Berufsrecht Steuerberater geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Werbung und Außenauftritt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Berufsrecht Steuerberater."
 ---
 
 # Werbung und Außenauftritt
@@ -14,13 +14,17 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
 - `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Verifizierter Rechtsprechungsanker
+
+- BVerfG, Beschluss vom 26.10.2004 - 1 BvR 981/00: Werbung ist Teil der Berufsausübung. Das Sachlichkeitsgebot beschränkt die Darstellung nicht auf nüchterne Fakten; ein Verbot braucht einen Bezug zu den geschützten Belangen der Steuerrechtspflege und darf nicht allein an Werbeträger, Größe oder Unüblichkeit anknüpfen. Prüfe daneben insbesondere Wahrheit, Irreführungsgefahr und die Grenze zur Auftragswerbung im Einzelfall.
 
 ## Arbeitsweg
 

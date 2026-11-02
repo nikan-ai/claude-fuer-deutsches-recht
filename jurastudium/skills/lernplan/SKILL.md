@@ -1,6 +1,6 @@
 ---
 name: lernplan
-description: "Wenn es um Staatsexamen-Lernplan in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Staatsexamen-Lernplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Staatsexamen-Lernplan
@@ -37,10 +37,8 @@ Der Pflichtstoffkatalog richtet sich nach dem jeweiligen Juristenausbildungsgese
 **Prüfungsrelevante Leitentscheidungen (Planungsmaßstab):**
 
 Für BGB-Schwerpunktplanung:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Für Strafrecht-Schwerpunktplanung:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Kanonische Repetitorien-Literatur:**
 - Alpmann Schmidt, Gesamtdarstellungen — kompakt, examensnah
@@ -231,6 +229,4 @@ Hinweis: Dieser Lernplan ersetzt keine Beratung durch Seminarleiter, Repetitoren
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-
-## Audit-Hinweis (27.05.2026)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

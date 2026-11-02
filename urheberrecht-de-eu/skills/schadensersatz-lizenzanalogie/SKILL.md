@@ -1,6 +1,6 @@
 ---
 name: schadensersatz-lizenzanalogie
-description: "Wenn es um Schadensersatz und Lizenzanalogie in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schadensersatz und Lizenzanalogie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schadensersatz und Lizenzanalogie
@@ -20,7 +20,7 @@ description: "Wenn es um Schadensersatz und Lizenzanalogie in Urheberrecht DE EU
 
 ## Wofür dieser Arbeitsgang da ist
 
-Schadensersatz und Lizenzanalogie schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite die urheberrechtliche Schadensberechnung einschließlich Lizenzanalogie anhand der Nutzungs- und Vergütungsbelege vor. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke und leite daraus das verlangte Berechnungs- oder Anspruchsergebnis ab.
 
 ## Sofortstart
 

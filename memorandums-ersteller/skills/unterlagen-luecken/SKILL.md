@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Memorandums-Ersteller geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Memorandums-Ersteller."
 ---
 
 # Unterlagen und Lücken
@@ -20,7 +20,7 @@ Diese Unterlagenprüfung für **Memorandums Ersteller** benennt fehlende Dokumen
 - `juristisches-questions-fristennotiz` — Juristisches Questions Fristennotiz
 - `laenge-formate-mandantenfreundliche-fassung` — Laenge Formate Mandantenfreundliche Fassung
 - `mandantenanfrage-schnell` — Mandantenanfrage Schnell
-- `workflow-mandantenkommunikation` — Mandantenkommunikation Redteam
+- `mandantenkommunikation-redteam` — Mandantenkommunikation
 - `mandantenunterlagen-tatbestand-beweis-und-belege` — Mandantenunterlagen Tatbestand Beweis und Belege
 - `memo-board-pack-besondere-anlaesse-spezial` — Memo Board Pack Besondere Anlaesse Spezial
 - `memo-compliance-vorfall-intern` — Memo Compliance Vorfall Intern

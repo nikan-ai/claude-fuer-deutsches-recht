@@ -1,6 +1,6 @@
 ---
 name: wandelereignis-eingang
-description: "Wenn es um Wandelereignis – Eingang Wandlungserklärung in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wandelereignis – Eingang Wandlungserklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wandelereignis – Eingang Wandlungserklärung
@@ -28,10 +28,7 @@ description: "Wenn es um Wandelereignis – Eingang Wandlungserklärung in Wande
 - § 132 BGB (Zugang bei Verweigerung der Annahme)
 - § 4.4 Wandeldarlehensvertrag (Frist: ein Monat nach Zugang Wandlungsmitteilung)
 - § 286 BGB (Verzug bei Fristversäumnis der Gesellschaft)
-- Zugangsfiktion bei einfachem Brief: seit Postrechtsmodernisierungsgesetz (PostModG, 1.1.2025) gilt regelmäßig **vier-Tage-Frist** ab Aufgabe zur Post (zuvor drei Tage); maßgeblich bei Berechnung der Wandlungsfrist, wenn Wandlungserklärung oder Wandlungsmitteilung postalisch verschickt wird
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Für privatrechtliche Wandlungserklärungen und Wandlungsmitteilungen gibt es keine allgemeine Vier-Tage-Zugangsfiktion. Nach Paragraf 130 BGB zählt der tatsächliche Zugang; Aufgabe zur Post und Sendungsverfolgung sind nur Indizien. Vertragliche Zugangsklauseln gesondert auf Wortlaut und Wirksamkeit prüfen, bei Fristrisiko einen nachweisbaren Übermittlungsweg wählen.
 
 ## Vorgehen
 
@@ -89,12 +86,8 @@ Stand: 05/2026. Bei Änderung BGB Zugangsregeln aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 488 BGB (Darlehensvertrag, Wandlungsrecht als Nebenabrede) → §§ 130, 132 BGB (Zugang der Wandlungsmitteilung) → § 280 BGB (Schadensersatz bei Verletzung Mitteilungspflicht) → § 55 GmbHG (Kapitalerhöhung nach Wandlungserklärung) → §§ 195, 199 BGB (Verjährung des Wandlungsrechts)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

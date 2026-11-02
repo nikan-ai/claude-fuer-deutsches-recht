@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sozialrecht-erwerbsminderungsrente
-description: "Wenn es um Erwerbsminderungsrente (Paragrafen 43. 240 SGB VI) in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erwerbsminderungsrente (Paragrafen 43. 240 SGB VI): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erwerbsminderungsrente (§§ 43, 240 SGB VI)
@@ -159,7 +159,6 @@ Belegt durch:
 - Reha-Entlassungsbericht [Klinik] vom [Datum] (Anlage W4)
 
 Die Erkrankungen sind in ihrer Gesamtwirkung zu beurteilen
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 [Falls 3–6 Stunden angenommen wird:]
 IV. Verschlossener Teilzeitarbeitsmarkt
@@ -180,7 +179,6 @@ Unsere Mandantschaft hat Geburtsjahrgang [Jahr] und fällt
 damit in den Anwendungsbereich des § 240 SGB VI. Sie ist
 als [Beruf] im bisherigen Beruf nicht mehr zu sechs Stunden
 täglich einsetzbar. Eine sozial und gesundheitlich zumutbare
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 worden.
 
 Wir beantragen:
@@ -279,7 +277,7 @@ Mit freundlichen Grüßen
 | Streitwert EM-Rente (Vollrente) | 13-facher monatlicher Rentenwert (§ 42 GKG i.V.m. § 9 ZPO analog) |
 | Gerichtskosten SG | Kostenfrei § 183 SGG |
 | Anwaltskosten | PKH/LSG prüfen; sonst ca. EUR 1200 bis 2000 (erste Instanz) |
-| § 109-Gutachten | EUR 800 bis 3000; Vorschuss Kläger, Erstattung bei Erfolg |
+| § 109-Gutachten | Vorschuss nach Paragraf 109 Absatz 1 Satz 2 SGG; spätere Übernahme auf die Staatskasse gesondert prüfen, keine automatische Erstattung allein bei Obsiegen und keine PKH-Deckung |
 | LSG-Berufung | Streitwert > EUR 750 (§ 144 Abs. 1 SGG) |
 
 ---
@@ -330,3 +328,5 @@ Mit freundlichen Grüßen
 - Weitere Rechtsprechung vor Verwendung live in dejure.org / openjur.de / bsg.bund.de verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

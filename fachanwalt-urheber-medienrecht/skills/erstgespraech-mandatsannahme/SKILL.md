@@ -1,6 +1,6 @@
 ---
 name: erstgespraech-mandatsannahme
-description: "Wenn es um Erstgespraech im Urheber- und Medienrechtsmandat strukturieren und Mandat sauber aufnehmen in Fachanwalt Urheber Medienrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch im Urheber- und Medienrechtsmandat strukturieren und Mandat sauber aufnehmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erstgespraech im Urheber- und Medienrechtsmandat strukturieren und Mandat sauber aufnehmen
@@ -37,10 +37,6 @@ description: "Wenn es um Erstgespraech im Urheber- und Medienrechtsmandat strukt
 - § 43a Abs. 4 BRAO, § 3 BORA — Interessenkonflikt
 - §§ 10 ff. GwG — Identifizierungspflicht
 
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Phasen des Erstgespraechs
 
 ### 1. Aufnahme der Konstellation (10-15 Min.)
@@ -70,7 +66,6 @@ Standard-Streitwerte im Urheber- und Medienrecht:
 |---------|---------------------|------|
 | Einzel-Foto Verletzung | 6.000-10.000 EUR | BGH marions-kochbuch.de |
 | Filesharing Film/Musik | 1.000-10.000 EUR | § 97a Abs. 3 UrhG |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | Gegendarstellung Presse | 10.000-30.000 EUR | OLG-Rspr. |
 | Software Open Source | 5.000-50.000 EUR | Marktbedeutung |
 
@@ -161,8 +156,4 @@ Schritt 6: E-Mail-Zusammenfassung binnen 48 h an Mandanten
 - `fachanwalt-urheber-medienrecht-gegendarstellung-presse` — Gegendarstellung
 - `vergleichsverhandlung-strategie` — Vergleich nach Abmahnung
 
-<!-- AUDIT 27.05.2026 | bundle_053
-Geprüft: BGH VI ZR 483/17 (NOT_FOUND auf dejure.org)
-Ersatz: BGH VI ZR 439/17, NJW 2019, 1881 (verifiziert auf dejure.org)
-Thema: Persönlichkeitsrecht Online-Archiv Berichterstattung — thematisch passend für Persönlichkeitsrecht-Kontext
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

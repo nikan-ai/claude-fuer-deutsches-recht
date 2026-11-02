@@ -1,6 +1,6 @@
 ---
 name: competitive-intelligence-lawful
-description: "Wenn es um Lawful Competitive Intelligence in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Lawful Competitive Intelligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Lawful Competitive Intelligence
@@ -48,3 +48,4 @@ Neugierig bleiben, ohne Geheimnisverrat oder unfaire Methoden.
 ## Quellen- und Qualitätsregel
 
 Wenn KAGB, BaFin, Wertpapieraufsicht, GmbH-Formalia, Steuer, Sanktionen, FDI, Kartellrecht, Datenschutz, AI Act oder internationale Securities-Themen berührt sind, nicht aus Modellwissen final entscheiden. Aktuelle amtliche Quellen oder lokale Counsel verlangen und die Ausgabe als Struktur-/Prüfvermerk kennzeichnen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Aussagen zur Produktreife mit belastbaren Systemtests, Rollen und geltenden Pflichtenterminen. Ein ISO-Zertifikat des Dienstleisters darf keine unbeschränkte Garantie des Startups begründen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

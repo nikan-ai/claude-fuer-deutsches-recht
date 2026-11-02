@@ -1,6 +1,6 @@
 ---
 name: biometrie-emotion-ce-zeichen-chirurgie-op
-description: "Wenn es um Biometrie, Emotion und Personenerkennung in der Robotik in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Biometrie Emotion Ce Zeichen Chirurgie Op; Arbeitsfeld: robotik-recht."
+description: "Für Biometrie, Emotion und Personenerkennung in der Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: biometrie-emotion-ce-zeichen-chirurgie-op."
 ---
 
 # Biometrie, Emotion und Personenerkennung in der Robotik
@@ -8,7 +8,7 @@ description: "Wenn es um Biometrie, Emotion und Personenerkennung in der Robotik
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Geltungsbeginn 02.08.2026 für Hochrisiko (Art. 6 Anhang III), Verbote ab 02.02.2025, Maschinen-VO 20.01.2027, ProdHaftRL-Umsetzung 09.12.2026, KI-VO Art. 73 schwerwiegender Vorfall innerhalb 15 Tagen.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, für Anhang I ab 02.08.2028; Maschinenverordnung ab 20.01.2027 und Produkthaftungsrichtlinien-Umsetzung bis 09.12.2026 getrennt prüfen. Keine pauschale 15-Tage-Frist: Artikel 73 nach Ereignis, Pflichtadressat und Geltungsbeginn prüfen.
 - Tragende Normen verifizieren: EU KI-VO (VO 2024/1689) Art. 6, 8-15, 16, 26, 50, 73, 99, Maschinenverordnung 2023/1230, Produkthaftungs-Richtlinie 2024/2853, BGB §§ 823, 831, ProdHaftG, EU NIS2-RL 2022/2555, EU CRA — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Hersteller, Importeur, Händler, Betreiber, Endnutzer, Marktüberwachungsbehörde (BMAS/BNetzA/BMDV), benannte Stelle (Notified Body), KI-Aufsicht (BNetzA-Stelle).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung, technische Dokumentation Anhang IV KI-VO, Risikomanagement-System Art. 9, Datengovernance-Konzept Art. 10, FAT/SAT-Protokoll, Betriebsanleitung, CE-Kennzeichnung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -19,7 +19,7 @@ description: "Wenn es um Biometrie, Emotion und Personenerkennung in der Robotik
 
 ## Worum geht es konkret
 
-Roboter mit Personenerkennung kollidieren mit harten Verboten der KI-VO und mit der DSGVO. Art. 5 Abs. 1 KI-VO untersagt seit 02.02.2025 u. a. Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen (Art. 5 Abs. 1 lit. f), Social Scoring (lit. c) sowie – mit engen Ausnahmen – biometrische Echtzeit-Fernidentifizierung im öffentlich zugänglichen Raum zu Strafverfolgungszwecken (lit. h). Biometrische Daten sind besondere Kategorie (Art. 9 DSGVO). Prüfe, welches Verfahren im konkreten Roboter zulässig ist und welche Transparenz-/Konformitätspflichten greifen.
+Bei Robotern mit Personenerkennung zuerst die Funktion unterscheiden: Identifizierung, Verifizierung, Kategorisierung oder Emotionserkennung. Artikel 5 Absatz 1 Buchstaben c, f, g und h haben verschiedene Voraussetzungen und Ausnahmen; nicht jede Erkennung ist verboten. Biometrische Daten sind nach Artikel 9 DSGVO besonders geschützt, soweit sie zur eindeutigen Identifizierung verarbeitet werden. KI-Zulässigkeit und datenschutzrechtliche Erlaubnis getrennt prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Wann dieses Modul hilft / Kaltstart-Fragen
 
@@ -32,7 +32,7 @@ Roboter mit Personenerkennung kollidieren mit harten Verboten der KI-VO und mit 
 ## Rechtlicher Rahmen
 
 - **KI-VO Art. 5** Verbotene Praktiken (ab 02.02.2025): lit. f Emotionserkennung im Arbeits- und Bildungsbereich (Ausnahme: medizinische/sicherheitsbezogene Gründe); lit. e ungezielte Massensammlung; lit. h Echtzeit-Biometrie im öffentlichen Raum zu Strafverfolgungszwecken mit engen Ausnahmen.
-- **KI-VO Anhang III** Hochrisiko: biometrische Identifikation, Kategorisierung, Emotionserkennung außerhalb des Art. 5-Verbots.
+- **Biometrische Hochrisiko-Funktionen:** Anhang III Nummer 1 nach genauer Unterkategorie prüfen; Identifikation, reine Verifizierung, Kategorisierung und Emotionserkennung unterscheiden. Artikel 5 vorrangig und Artikel 6 Absatz 3 einschließlich Profiling-Sperre gesondert. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **KI-VO Art. 50** Transparenz: Information bei interaktiven KI-Systemen, Erkennung von Emotionen / biometrischer Kategorisierung.
 - **DSGVO Art. 9** Verbot der Verarbeitung biometrischer Daten zur eindeutigen Identifizierung; Ausnahmen Abs. 2 lit. a (ausdrückliche Einwilligung), lit. b (Arbeitsrecht mit gesetzlicher Grundlage), lit. g (erhebliches öffentliches Interesse).
 - **DSGVO Art. 22** automatisierte Einzelfallentscheidung mit Rechtsfolgen.
@@ -59,7 +59,7 @@ Roboter mit Personenerkennung kollidieren mit harten Verboten der KI-VO und mit 
 | Biometrische Authentifizierung Mitarbeiter | mit BV und Einwilligung | dauerhaftes Tracking | – |
 | Emotionserkennung Patient (med. Indikation) | mit DSFA und Aufklärung | – | – |
 | Emotionserkennung Beschäftigte (HR) | – | – | Art. 5 Abs. 1 lit. f KI-VO |
-| Live-Gesichtserkennung im öffentlichen Raum | – | – | grundsätzlich Art. 5 lit. h KI-VO |
+| Biometrische Echtzeit-Fernidentifizierung im öffentlich zugänglichen Raum | Zweck und Akteur feststellen | Strafverfolgungszweck und gesetzliche Ausnahmen/Genehmigung nach Artikel 5 Absatz 1 Buchstabe h und Absätzen 2 bis 7 prüfen | Kein allgemeines Verbot jeder Live-Kamera |
 
 ## Praxistipps
 
@@ -85,7 +85,7 @@ Roboter mit Personenerkennung kollidieren mit harten Verboten der KI-VO und mit 
 - **"Anonyme" Personenerkennung** mit Re-Identifikationspotenzial – DSGVO greift.
 - **DSFA nicht durchgeführt** – Aufsichtsbehörden-Risiko.
 - **Cloud-Übermittlung** ohne TIA.
-- **Beschwerde ignoriert** – Bußgeldrisiko Art. 99 Abs. 3 KI-VO (bis 35 Mio. EUR oder 7 %).
+- **Beschwerde:** Inhalt, betroffene Funktion und mögliche Pflichtverletzung prüfen. Artikel 99 Absatz 3 sanktioniert Artikel-5-Verstöße; bloßes Ignorieren einer beliebigen Beschwerde fällt nicht automatisch darunter. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Quellen Stand 06/2026
 
@@ -94,3 +94,4 @@ Roboter mit Personenerkennung kollidieren mit harten Verboten der KI-VO und mit 
 - BDSG §§ 22, 26.
 - EuGH, Urteil vom 1. August 2022, Rs. C-184/20 - Vyriausioji tarnybinės etikos komisija, ECLI:EU:C:2022:601.
 - Live-Verifikation auf eur-lex.europa.eu, edpb.europa.eu, bfdi.bund.de; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: locked-box
-description: "Wenn es um Locked Box Completion Accounts in Großkanzlei Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. Auswahlstichwort: Locked Box; Arbeitsfeld: Großkanzlei Corporate/M&A."
+description: "Für Locked Box Completion Accounts: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Großkanzlei Corporate/M&A. Route: locked-box."
 ---
 
 # Locked Box Completion Accounts
@@ -8,7 +8,6 @@ description: "Wenn es um Locked Box Completion Accounts in Großkanzlei Corporat
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: Locked Box Completion Accounts

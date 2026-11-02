@@ -1,12 +1,9 @@
 ---
 name: fachanwalt-sozialrecht-orientierung
-description: "Wenn es um Fachanwalt für Sozialrecht — Orientierung in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fachanwalt für Sozialrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fachanwalt für Sozialrecht — Orientierung
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -58,7 +55,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Sozialgericht (SG) — erste Instanz, Kammern.
 - Landessozialgericht (LSG) — Berufung.
 - Bundessozialgericht (BSG) — Revision, Kassel.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
@@ -80,3 +76,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **`kanzlei-allgemein`** für Fristen und Versand.
 - **`fachanwalt-arbeitsrecht`** bei Sperrzeit Arbeitslosengeld und Schwerbehinderung im Arbeitsverhältnis.
 - **`fachanwalt-medizinrecht`** bei medizinischer Begutachtung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Transport Speditionsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Transport Speditionsrecht."
 ---
 
 # Anschluss-Routing
@@ -40,20 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Transport Speditionsrecht** wählt na
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1d StVG
-- § 1g StVG
-- § 7 StVG
-- § 1 ProdHaftG
-- § 1h StVG
-- § 1f StVG
-- § 18 StVG
-- § 12 StVG
-- § 86 VVG
-- § 3 ProdHaftG
-- § 1 PflVG
-- § 29 VwVfG

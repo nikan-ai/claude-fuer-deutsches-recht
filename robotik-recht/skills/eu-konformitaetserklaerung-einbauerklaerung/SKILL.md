@@ -1,6 +1,6 @@
 ---
 name: eu-konformitaetserklaerung-einbauerklaerung
-description: "Wenn es um EU-Konformitäts- und Einbauerklärung in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: EU Konformitaetserklaerung Einbauerklaerung; Arbeitsfeld: robotik-recht."
+description: "Für EU-Konformitäts- und Einbauerklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: robotik-recht. Route: eu-konformitaetserklaerung-einbauerklaerung."
 ---
 
 # EU-Konformitäts- und Einbauerklärung
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Erstellt und prüft EU-Konformitätserklärung, Einbauerklärung, Sprachfassung, Unterzeichner und technische Bezüge.**
 
 Quellen-/Normenanker: Maschinenverordnung; MaschinenDG; ProdSG.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

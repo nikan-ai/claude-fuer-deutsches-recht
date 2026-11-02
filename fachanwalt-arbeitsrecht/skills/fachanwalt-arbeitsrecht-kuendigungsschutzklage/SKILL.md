@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-arbeitsrecht-kuendigungsschutzklage
-description: "Wenn es um Kündigungsschutzklage (Paragraf 4 KSchG) in Fachanwalt Arbeitsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kündigungsschutzklage (Paragraf 4 KSchG): erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Kündigungsschutzklage (Paragraf 4 KSchG)
@@ -89,7 +89,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | 4 | Betriebsgröße > 10 VZÄ? | Paragraf 23 KSchG | Kein KSchG-Schutz |
 | 5 | Sonderkündigungsschutz? (MuSchG, BEEG, SGB IX, BetrVG) | Paragrafen 17 MuSchG, 18 BEEG, 168 SGB IX | Unwirksamkeit ohne behördliche Zustimmung |
 | 6 | BR-Anhörung ordnungsgemäß? | Paragraf 102 BetrVG | Unwirksamkeit |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | Außerordentl.: wichtiger Grund + 2 Wochen-Frist? | Paragraf 626 BGB | Unwirksamkeit |
 | 9 | Soziale Rechtfertigung: betrieblich/verhaltens-/personenbedingt? | Paragraf 1 Abs. 2 KSchG | Kündigung sozialwidrig |
 | 10 | Sozialauswahl korrekt? | Paragraf 1 Abs. 3 KSchG | Sozialwidrige Kündigung |
@@ -248,5 +247,6 @@ rechtlichen Möglichkeiten konsequent ausgeschöpft.
 - SGB IX Paragrafen 168, 174
 - MuSchG Paragraf 17; BEEG Paragraf 18
 - GKG Paragraf 42
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Kleinebrink/Grau/Diepenbruck Kündigung im Arbeitsrecht; APS KSchG-Kommentar
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

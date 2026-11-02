@@ -1,6 +1,6 @@
 ---
 name: datenschutz-livecheck-bfdi-laender-aufsichtsbehoerden
-description: "Wenn es um Datenschutz Livecheck Bfdi Laender Aufsichtsbehoerden in Datenschutzrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Datenschutz Livecheck Bfdi Länder Aufsichtsbehörden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Livecheck-Skill für aktuelle Veroeffentlichungen BfDI und Landesdatenschutzbehoerden vor Abgabe Schriftsatz oder Stellungnahme
@@ -129,3 +129,4 @@ Verifizierung: [Quelle, URL gespeichert in Akte].
 - EuGH curia.europa.eu.
 - Landesaufsichten siehe Liste oben.
 - Keine Aufsatzfundstellen aus Modellwissen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Identifizierungsmittel je Datenempfänger und den Zweck jeder Verarbeitung. Eine Berufung auf diskriminierungsfreie Entwicklung begründet noch keine allgemeine Befugnis zur Nutzung sensibler Daten. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

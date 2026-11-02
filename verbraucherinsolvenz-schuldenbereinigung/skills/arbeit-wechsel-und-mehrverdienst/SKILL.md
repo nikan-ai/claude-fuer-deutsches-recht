@@ -1,6 +1,6 @@
 ---
 name: arbeit-wechsel-und-mehrverdienst
-description: "Wenn es um Arbeit Wechsel Und Mehrverdienst in Verbraucherinsolvenz und Schuldenbereinigung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Arbeit Wechsel und Mehrverdienst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Arbeitsaufnahme, Jobwechsel und Mehrverdienst: pfändbarer Anteil, Motivation, Anzeige und Vergleichschancen.
@@ -28,14 +28,3 @@ Dieser Skill arbeitet. Er soll Laien, Schuldnerberatung, Anwältinnen und Angeh�
 ## Norm- und Praxisanker
 
 InsO § 295; ZPO § 850c. Entscheidend ist immer der aktuelle Normstand der InsO, die amtlichen Formulare des Insolvenzgerichts und die örtliche Praxis. Wenn eine Frist, ein Formular oder ein Pfändungsbetrag tragend ist, muss live geprüft werden.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 266a StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

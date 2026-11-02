@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "plugin": "richter-finanzgericht",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/fgo/__69.html",
+      "checked_on": "2026-09-14",
+      "supports": "Gerichtliche AdV vor Klageerhebung, Behördenvorbefassung und Ausnahmen, Aufhebung bei bereits erfolgter Vollziehung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fgo/__128.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 3: Beschwerde gegen AdV-Entscheidungen nur bei Zulassung; entsprechende Anwendung der Zulassungsgründe aus Paragraf 115 Absatz 2, keine Revision gegen den Beschluss."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fgo/__114.html",
+      "checked_on": "2026-09-14",
+      "supports": "Einstweilige Anordnung als gesondertes Verfahren; Absatz 5 grenzt die Fälle des Paragrafen 69 aus."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fgo/__69.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlichen Text zu Paragraf 69 FGO gelesen; Bezug: Streitige Steuerfestsetzung und Aussetzungsbetrag aus Bescheidkette und Gegenrechnung bestimmen. Keine vollständige neue Verifikation sämtlicher weiterer Normen des Plugins."
+    },
+    {
+      "url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520179/",
+      "checked_on": "2026-09-22",
+      "supports": "BFH, Beschluss vom 06.06.2025, II B 43/24 (AdV): Gewichtige Gegenargumente bei summarischer Prüfung reichen ohne Überwiegen; dokumentierte Doppelzählung auf beantragten Mehrsteuerbetrag beziehen. Amtlicher Volltext gelesen, tragend Gründe II.1; Schenkungsteuerfall liefert nur allgemeinen AdV-Maßstab, nicht materielles Ergebnis anderer Steuerarten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fgo/__69.html",
+      "checked_on": "2026-09-23",
+      "supports": "Vollzogene Beträge, Änderungsbescheide, Doppelansatz desselben Erlöses und geänderte Schätzungsgrundlagen. Quellenstatus: Paragraf 69 direkt gelesen; Paragraf 68 nach gescheitertem Direktabruf im amtlichen Suchindex geprüft. Bisherige BFH-Anwendungsgrenze bleibt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/fgo/__68.html",
+      "checked_on": "2026-09-23",
+      "supports": "Vollzogene Beträge, Änderungsbescheide, Doppelansatz desselben Erlöses und geänderte Schätzungsgrundlagen. Quellenstatus: Paragraf 69 direkt gelesen; Paragraf 68 nach gescheitertem Direktabruf im amtlichen Suchindex geprüft. Bisherige BFH-Anwendungsgrenze bleibt."
+    },
+    {
+      "url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202610056/",
+      "checked_on": "2026-10-01",
+      "supports": "Amtlicher Volltext: Tenor und Entscheidungsgründe II.1–6 gelesen, verwendet II.1–3. Ernstliche Zweifel an einem Einzelansatz tragen keine AdV, soweit gegenläufige Fehler desselben Bescheids die Entlastung aufzehren. Beide Korrekturen und verbleibenden Aussetzungsbetrag berechnen. Grenze: Verböserungsverbot beachten; keine Verrechnung beliebiger anderer Steuerjahre. Materielle Auslegung des § 50d Absatz 9 Satz 4 EStG blieb im Eilverfahren offen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "AdV-Maßstab aus II B 43/24 bleibt summarisch ohne Überwiegensforderung. Neu VI B 44/25 ergänzt bescheidbezogene Gegenrechnung in Werkstatt, Mini und AdV-Skill; anderer Steuerzeitraum nicht verrechenbar. Begrenzte Ankerprüfung, kein Live-Client-Test. 2026-10-16, redaktioneller Einstiegsreview: Steuerbetrag und Entscheidungsentwurf vor Beispielen; AdV-Maßstab nicht als materielles Steuerrecht verallgemeinert. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "AdV-Maßstab ohne überwiegende Erfolgswahrscheinlichkeit mit Doppelzählungsfall verknüpft; Beschwerde und Revision sowie Paragraf 114 abgegrenzt.",
+      "Gewichtige Gegenargumente bei summarischer Prüfung reichen ohne Überwiegen; dokumentierte Doppelzählung auf beantragten Mehrsteuerbetrag beziehen.",
+      "Abbuchung -> Aussetzung/Aufhebung unterscheiden; Änderungsbescheid -> Streitgegenstand und verbleibende Steuerwirkung abgleichen.",
+      "Vollzogene Beträge, Änderungsbescheide, Doppelansatz desselben Erlöses und geänderte Schätzungsgrundlagen.",
+      "AdV-Maßstab aus II B 43/24 bleibt summarisch ohne Überwiegensforderung. Neu VI B 44/25 ergänzt bescheidbezogene Gegenrechnung in Werkstatt, Mini und AdV-Skill; anderer Steuerzeitraum nicht verrechenbar.",
+      "2026-10-16, redaktioneller Einstiegsreview: Steuerbetrag und Entscheidungsentwurf vor Beispielen; AdV-Maßstab nicht als materielles Steuerrecht verallgemeinert. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "e5bf3a1073e5ebf201aca1f3c2a901abc8b8c84c00a732223a84e9013bd736fa",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "AdV-Maßstab aus II B 43/24 bleibt summarisch ohne Überwiegensforderung. Neu VI B 44/25 ergänzt bescheidbezogene Gegenrechnung in Werkstatt, Mini und AdV-Skill; anderer Steuerzeitraum nicht verrechenbar. Begrenzte Ankerprüfung, kein Live-Client-Test. 2026-10-16, redaktioneller Einstiegsreview: Steuerbetrag und Entscheidungsentwurf vor Beispielen; AdV-Maßstab nicht als materielles Steuerrecht verallgemeinert. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Streitige Steuerfestsetzung und Aussetzungsbetrag aus Bescheidkette und Gegenrechnung bestimmen.",
+      "Gewichtige Gegenargumente bei summarischer Prüfung reichen ohne Überwiegen; dokumentierte Doppelzählung auf beantragten Mehrsteuerbetrag beziehen.",
+      "Abbuchung -> Aussetzung/Aufhebung unterscheiden; Änderungsbescheid -> Streitgegenstand und verbleibende Steuerwirkung abgleichen.",
+      "Vollzogene Beträge, Änderungsbescheide, Doppelansatz desselben Erlöses und geänderte Schätzungsgrundlagen.",
+      "AdV-Maßstab aus II B 43/24 bleibt summarisch ohne Überwiegensforderung. Neu VI B 44/25 ergänzt bescheidbezogene Gegenrechnung in Werkstatt, Mini und AdV-Skill; anderer Steuerzeitraum nicht verrechenbar.",
+      "2026-10-16, redaktioneller Einstiegsreview: Steuerbetrag und Entscheidungsentwurf vor Beispielen; AdV-Maßstab nicht als materielles Steuerrecht verallgemeinert. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "dba8ed8f20cb5645bdb23b6fa267260840b434ad9ac0647c05d3f70a878374f4",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Bereiten Sie einen finanzgerichtlichen AdV-Beschluss vor.",
+      "Prüfen Sie im Dezernat den Aussetzungsbetrag eines geänderten Steuerbescheids."
+    ],
+    "negative": [
+      "Erstellen Sie meine Umsatzsteuervoranmeldung.",
+      "Verfassen Sie einen sozialgerichtlichen Eilantrag auf Bürgergeld."
+    ]
+  },
+  "cases": [
+    {
+      "id": "adv-vor-einspruchsentscheidung",
+      "request": "Erstellen Sie ergebnis.md als finanzgerichtlichen AdV-Prüfvermerk. Ein Steuerbescheid setzt 18.000 Euro fest; 10.000 Euro Vorauszahlungen sind angerechnet, 8.000 Euro noch unbezahlt. Einspruch und behördlicher AdV-Antrag wurden fristgerecht gestellt. Die Behörde lehnte AdV schriftlich ab, über den Einspruch ist noch nicht entschieden; eine Klage gibt es noch nicht. Der gerichtliche Antrag richtet sich auf 3.000 Euro der offenen Forderung. Belegt ist, dass ein bereits in der erklärten Bemessungsgrundlage enthaltener Erlös nochmals angesetzt wurde; die steuerliche Auswirkung von 3.000 Euro ist zwischen den Beteiligten rechnerisch unstreitig. Die Behörde bestätigt die Doppelzählung, hat aber noch nicht korrigiert. Keine Zahlung oder Vollstreckung ist erfolgt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Verneint die Zulässigkeit nicht wegen fehlender Einspruchsentscheidung oder noch nicht erhobener Klage.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Begrenzt die Prüfung auf die beantragten 3.000 Euro und verwechselt diese nicht mit 18.000 Euro Festsetzung oder 8.000 Euro Rest.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Ordnet die belegte Doppelzählung der Prüfung ernstlicher Zweifel zu und behandelt mangels Vollzug Aussetzung statt Aufhebung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "03-aussetzung-der-vollziehung"
+    },
+    {
+      "id": "vollstreckung-droht-beschwerde-statt-revision",
+      "request": "Erstellen Sie ergebnis.md als finanzgerichtlichen Prüfvermerk. Gegen einen Steuerbescheid über noch offene 4.000 Euro ist fristgerecht Einspruch eingelegt; eine Einspruchsentscheidung und eine Klage gibt es nicht. Ein behördlicher AdV-Antrag wurde bisher nicht gestellt. Das Finanzamt hat nachweislich eine Kontopfändung für den nächsten Werktag angekündigt. Der Antragsteller beantragt beim Finanzgericht AdV über die gesamten 4.000 Euro. Für diesen Auftrag sind ernstliche Zweifel an der Steuerfestsetzung und fehlende Sicherheitsbedenken vorgegeben. Der interne Entwurf will den Antrag allein wegen fehlender behördlicher Ablehnung verwerfen und alternativ bei Stattgabe die Revision nach Paragraf 115 FGO zulassen. Die Kammer hat noch nicht über Zulassungsgründe eines Rechtsmittels beraten. Prüfen Sie die beiden Entwurfspunkte und bereiten Sie den weiteren Entscheidungsweg vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft die konkret angekündigte Kontopfändung als Ausnahme wegen drohender Vollstreckung nach Paragraf 69 Absatz 4 Satz 2 Nummer 2 FGO; verwirft nicht allein wegen des fehlenden Behördenantrags.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt fehlende Einspruchsentscheidung und fehlende Klage nicht als zwingende Zulässigkeitshindernisse und bleibt bei AdV statt das Verfahren ohne Anlass in Paragraf 114 FGO umzudeuten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Ersetzt die vorgesehene Revisionszulassung durch die Prüfung einer Beschwerdezulassung nach Paragraf 128 Absatz 3 FGO; behauptet weder automatische Zulassung noch einen bereits gefassten Beschluss.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "03-aussetzung-der-vollziehung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "gerichtsplugins/richter-finanzgericht/README.md",
+      "gerichtsplugins/richter-finanzgericht/richter-finanzgericht-werkstatt.md",
+      "gerichtsplugins/richter-finanzgericht/richter-finanzgericht-schnellstart.md",
+      "quality/evals/richter-finanzgericht.json",
+      "gerichtsplugins/richter-finanzgericht/skills/03-aussetzung-der-vollziehung/SKILL.md"
+    ],
+    "opening_change": "Streitige Steuerfestsetzung und Aussetzungsbetrag aus Bescheidkette und Gegenrechnung bestimmen",
+    "norms": [
+      "Paragraf 69 FGO",
+      "Paragraf 128 Absatz 3 FGO",
+      "Paragraf 114 Absatz 5 FGO"
+    ],
+    "decisions": [
+      {
+        "citation": "BFH, Beschluss vom 06.06.2025, II B 43/24 (AdV)",
+        "url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520179/",
+        "application": "Gewichtige Gegenargumente bei summarischer Prüfung reichen ohne Überwiegen; dokumentierte Doppelzählung auf beantragten Mehrsteuerbetrag beziehen.",
+        "limit": "Amtlicher Volltext gelesen, tragend Gründe II.1; Schenkungsteuerfall liefert nur allgemeinen AdV-Maßstab, nicht materielles Ergebnis anderer Steuerarten.",
+        "checked_on": "2026-09-22"
+      },
+      {
+        "citation": "BFH, Beschluss vom 04.03.2026, VI B 44/25 (AdV)",
+        "url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202610056/",
+        "application": "Ernstliche Zweifel an einem Einzelansatz tragen keine AdV, soweit gegenläufige Fehler desselben Bescheids die Entlastung aufzehren. Beide Korrekturen und verbleibenden Aussetzungsbetrag berechnen.",
+        "limit": "Verböserungsverbot beachten; keine Verrechnung beliebiger anderer Steuerjahre. Materielle Auslegung des § 50d Absatz 9 Satz 4 EStG blieb im Eilverfahren offen.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Volltext gelesen, tragend Gründe II.1; Schenkungsteuerfall liefert nur allgemeinen AdV-Maßstab, nicht materielles Ergebnis anderer Steuerarten.",
+      "Keine vollständige Prüfung des materiellen Rechts sämtlicher Steuerarten oder Live-Berechnung einer Steuerakte.",
+      "Individuelle redaktionelle Akten- und Quellenprüfung (desk review), kein Live-Client- oder Modelltest.",
+      "Workflow-Vertiefung 2026-09-23: Paragraf 69 direkt gelesen; Paragraf 68 nach gescheitertem Direktabruf im amtlichen Suchindex geprüft. Bisherige BFH-Anwendungsgrenze bleibt. Desk review; kein Live-Client-Test."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_with_targeted_correction",
+      "files": [
+        "gerichtsplugins/richter-finanzgericht/richter-finanzgericht-schnellstart.md",
+        "gerichtsplugins/richter-finanzgericht/richter-finanzgericht-werkstatt.md",
+        "gerichtsplugins/richter-finanzgericht/skills/03-aussetzung-der-vollziehung/SKILL.md"
+      ],
+      "result": "AdV-Maßstab aus II B 43/24 bleibt summarisch ohne Überwiegensforderung. Neu VI B 44/25 ergänzt bescheidbezogene Gegenrechnung in Werkstatt, Mini und AdV-Skill; anderer Steuerzeitraum nicht verrechenbar.",
+      "search_2026": "VI B 44/25 (AdV) vom 04.03.2026 neu amtlich gelesen und ergänzt.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Hauptsache, AdV oder Aufklärungsverfügung auswählen.",
+      "Bescheidkette und Zahlungen still lesen; nur Arbeitsziel klären.",
+      "Bestellten Beschluss ohne vorgeschalteten Aktenbericht erstellen."
+    ],
+    "continuation": "Abbuchung -> Aussetzung/Aufhebung unterscheiden; Änderungsbescheid -> Streitgegenstand und verbleibende Steuerwirkung abgleichen.",
+    "enrichment": "Vollzogene Beträge, Änderungsbescheide, Doppelansatz desselben Erlöses und geänderte Schätzungsgrundlagen.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "gerichtsplugins/richter-finanzgericht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Unterscheiden Sie bei der Anwendung für finanzgerichtliches Verfahren technische Aktenorganisation von der Würdigung von Tatsachen und Recht. Prüfen Sie den konkreten Justiz- oder Strafverfolgungsbezug in Anhang III und den tatsächlichen Einfluss auf die Entscheidung; eine formale Schlusszeichnung allein genügt nicht als Gegenbeleg.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

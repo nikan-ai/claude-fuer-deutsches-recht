@@ -1,6 +1,6 @@
 ---
 name: verschwiegenheitsklausel-pruefen
-description: "Wenn es um Verschwiegenheitsklausel prüfen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Verschwiegenheitsklausel prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verschwiegenheitsklausel prüfen
@@ -72,10 +72,6 @@ Ausdrücklicher Verweis auf §§ 203, 204 StGB. Idealerweise als Anlage der Norm
 - US-AGB mit "trade secret"-Sprache statt deutscher Berufsgeheimnis-Anlehnung
 - Klausel im FAQ oder Trust Center statt im Vertragstext
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - §§ 43e Abs. 3 Nr. 1, 43e Abs. 3 Nr. 2 BRAO — Verschwiegenheits- und Belehrungspflicht in Textform
@@ -116,13 +112,6 @@ Luecken: [BESCHREIBUNG]
 Handlungsbedarf: [ERGAENZUNGSKLAUSEL / RUECKFRAGE]
 ```
 
-<!-- AUDIT 27.05.2026
-Task: Bundle 016 – Halluzinations-Reparatur
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Beanspruchtes Thema: Haftung Notar Geheimnisverrat § 18 BNotO; NJW-RR 2021, 145.
-Maßnahme: Eintrag vollständig gelöscht (nicht verifizierbare Entscheidung – Halluzination).
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=OLG+Frankfurt&Datum=17.11.2020&Aktenzeichen=8+U+25/20
--->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -132,3 +121,4 @@ Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=OLG+Frankfu
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

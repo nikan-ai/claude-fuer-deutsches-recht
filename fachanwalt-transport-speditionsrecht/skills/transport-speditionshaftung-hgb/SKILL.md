@@ -1,6 +1,6 @@
 ---
 name: transport-speditionshaftung-hgb
-description: "Wenn es um Transport Speditionshaftung HGB in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Transport Speditionshaftung HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Speditionshaftung nach HGB prüfen: Fixkostenspediteur, Sammelladungsspediteur, Haftungsgrenzen
@@ -102,7 +102,6 @@ description: "Wenn es um Transport Speditionshaftung HGB in Fachanwalt Transport
 
 ## 8) BGH-Linien
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anschluss
 
@@ -110,19 +109,4 @@ description: "Wenn es um Transport Speditionshaftung HGB in Fachanwalt Transport
 - `frachtfuehrerhaftung-pruefen` — Prüfraster
 - `fachanwalt-transport-speditionsrecht-orientierung` — Triage
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1d StVG
-- § 1g StVG
-- § 7 StVG
-- § 1 ProdHaftG
-- § 1h StVG
-- § 1f StVG
-- § 18 StVG
-- § 12 StVG
-- § 86 VVG
-- § 3 ProdHaftG
-- § 1 PflVG
-- § 29 VwVfG
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

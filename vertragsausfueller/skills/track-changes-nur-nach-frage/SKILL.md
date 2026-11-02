@@ -1,6 +1,6 @@
 ---
 name: track-changes-nur-nach-frage
-description: "Wenn es um Track Changes nur nach Frage in Vertragsausfüller geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Track Changes nur nach Frage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Track Changes nur nach Frage
@@ -19,10 +19,6 @@ description: "Wenn es um Track Changes nur nach Frage in Vertragsausfüller geht
 2. Liegt eine saubere Ausgangsfassung vor (Clean-Entwurf nach Quality Gate)?
 3. Ist klar, welche Version als Ausgangspunkt für die Änderungsmarkierungen dient?
 4. Sollen alle Änderungen kommentiert werden oder nur materiell relevante?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -66,3 +62,5 @@ description: "Wenn es um Track Changes nur nach Frage in Vertragsausfüller geht
 - Track Changes, Redline oder Vergleichsfassung nur nach ausdrücklicher Rückfrage und Bestätigung.
 - Offene Werte bleiben sichtbar; sie werden nicht erfunden.
 - Juristische Wahlentscheidungen werden erklärt und protokolliert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

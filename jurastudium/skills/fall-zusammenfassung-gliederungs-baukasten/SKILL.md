@@ -1,6 +1,6 @@
 ---
 name: fall-zusammenfassung-gliederungs-baukasten
-description: "Wenn es um Fallbearbeitung im Gutachtenstil in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fallbearbeitung im Gutachtenstil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fallbearbeitung im Gutachtenstil
@@ -18,9 +18,6 @@ description: "Wenn es um Fallbearbeitung im Gutachtenstil in Jurastudium geht: p
 2. Soll das Gutachten vollstaendig oder nur schwerpunktmaessig erstellt werden?
 3. Gibt es spezifische Anspruchsgrundlagen oder Streitstaende, die besonders durchgearbeitet werden sollen?
 4. Soll das Ergebnis als Lernuebung (mit Rueckfragen) oder als fertiges Gutachten ausgegeben werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 433-453 BGB — Kaufrecht: Standardkomplex für Zivilrecht-Gutachten
@@ -125,7 +122,6 @@ Beispiel-Korrektur:
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 **Leitentscheidungen (Beispiele für häufige Streitstände):**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beispiel
 
@@ -166,3 +162,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **Konkurrenzfragen nicht lösen:** Wenn § 823 Abs. 1 BGB und §§ 437, 280 BGB nebeneinander bestehen, dies kurz konstatieren (kumulative Anspruchskonkurrenz).
 - **Zu lange Obersätze:** Der Obersatz soll die Rechtsfolge benennen, nicht die gesamte Prüfung vorwegnehmen.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

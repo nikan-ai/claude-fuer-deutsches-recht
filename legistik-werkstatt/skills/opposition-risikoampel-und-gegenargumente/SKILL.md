@@ -1,6 +1,6 @@
 ---
 name: opposition-risikoampel-und-gegenargumente
-description: "Wenn es um Opposition: Risikoampel, Gegenargumente und Verteidigungslinien in Legistik-Werkstatt geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Opposition Risikoampel Und Gegenargumente; Arbeitsfeld: Legistik-Werkstatt."
+description: "Für Opposition: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Legistik-Werkstatt. Route: opposition-risikoampel-und-gegenargumente."
 ---
 
 # Opposition: Risikoampel, Gegenargumente und Verteidigungslinien
@@ -46,3 +46,4 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie bestehende unionsrechtliche Anforderungen von zusätzlichem nationalem Regelungsbedarf. Eine technische Norm oder Kommissionsleitlinie darf nicht ohne Prüfung ihres Rechtsstatus als gesetzliche Ermächtigung behandelt werden. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: art-50-ki-vo-schriftsatz-marketing-chatbot
-description: "Wenn es um Art. 50 europäischer Technikregulierungsrahmen: Schriftsatz, Marketing, Legal Update und Chatbot in anwaltlichem Berufsrecht und Vertragsprüfung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Art. 50 europäischer Technikregulierungsrahmen: Schriftsatz, Marketing, Legal Update und Chatbot: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Art. 50 KI-VO: Schriftsatz, Marketing, Legal Update und Chatbot
@@ -27,24 +27,8 @@ Prüfe den Geltungsstand live. Als Arbeitsstand gilt: Transparenzpflichten nach 
 
 Ein Hinweis "KI-generiert" heilt keine ungeprüfte Rechtsauskunft, kein unzulässiges Mandatsversprechen und keinen Geheimnisverstoß. Berufsrecht, Mandatsvertrag, Datenschutz und Haftung laufen parallel.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 203 StGB
-- Art. 28 DSGVO
-- § 204 StGB
-- § 62a StBerG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- Art. 32 DSGVO
-
-### Leitentscheidungen
-
-- BGH VI ZR 36/20
-- BGH VIII ZR 78/20
+Berufsrecht, Geheimnisschutz und Datenschutz getrennt prüfen: Paragraf 43a Absatz 2 und Paragraf 43e BRAO, Paragraf 2 BORA, Paragraf 203 StGB sowie Artikel 28 und 32 DSGVO. Eine Gerichtsentscheidung nur einsetzen, wenn ihr Sachverhalt die konkrete Vertrags-, Verschwiegenheits- oder Sicherheitsfrage trägt; ein nicht erläutertes Aktenzeichen ist kein Rechtsanker.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

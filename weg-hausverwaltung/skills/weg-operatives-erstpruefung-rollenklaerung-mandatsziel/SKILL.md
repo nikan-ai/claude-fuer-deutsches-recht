@@ -1,6 +1,6 @@
 ---
 name: weg-operatives-erstpruefung-rollenklaerung-mandatsziel
-description: "Wenn es um Operatives: Erstprüfung, Rollenklärung und Mandatsziel in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Operatives: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Operatives: Erstprüfung, Rollenklärung und Mandatsziel
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Fachlicher Anker
 
@@ -48,7 +46,6 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Qualitätsanker: WEG-Reform, Beschlussgegenstand und Abrechnungsspitze
 
-- **Verifizierte Rechtsprechungsanker:** BGH, Urteil vom 20.09.2024 - V ZR 195/23: Fehler der Jahresabrechnung tragen die Ungültigerklärung nur, wenn sie sich auf Abrechnungsspitze und Zahlungspflicht auswirken. BGH, Urteil vom 14.02.2025 - V ZR 236/23 und V ZR 128/23: Kostenverteilung nach § 16 Abs. 2 WEG verlangt Beschlusskompetenz, Sachgrund und saubere Belastungslogik. Bei jeder Ausgabe vor Zitat freie Quelle erneut prüfen.
 - **Reformlogik:** Seit der WEG-Reform ist nicht „die Jahresabrechnung als Zahlenwerk“ der Beschlussgegenstand, sondern Nachschüsse und Anpassung der Vorschüsse nach § 28 Abs. 2 WEG. Das ist die zentrale Weiche für Anfechtung, Bestimmtheit und Fehlerrelevanz.
 - **Praktische Prüfung:** Beschlusskompetenz, Bestimmtheit, Ladung/Tagesordnung, Stimmrecht, Verteilungsschlüssel, Belegprüfung, Rücklage/Vermögensbericht, HeizKV, Umsatzsteuer/Vorsteuer und Anfechtungsfrist getrennt prüfen.
 - **Output-Pflicht:** Für Verwaltung/Eigentümer immer eine Beschluss- oder Anfechtungsmatrix liefern: Beschlusswortlaut, Rechtsgrundlage, Fehler, Zahlungsrelevanz, Beleg, Frist, Heilungs- oder Neufassungsoption.

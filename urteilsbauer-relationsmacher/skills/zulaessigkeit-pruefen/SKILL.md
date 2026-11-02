@@ -1,6 +1,6 @@
 ---
 name: zulaessigkeit-pruefen
-description: "Wenn es um Zulässigkeit der Zivilklage in Urteilsbauer und Relationsmacher geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Zulässigkeit der Zivilklage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zulässigkeit der Zivilklage
@@ -13,10 +13,6 @@ Schritt-für-Schritt Prüfung der Zulässigkeit nach klassischem Schema.
 2. Was ist der Streitwert — sachliche Zuständigkeit AG (bis 10.000 EUR, § 23 Nr. 1 GVG n. F. für Neufälle seit 01.01.2026) oder LG (über 10.000 EUR, § 71 GVG)? Übergangsfälle live prüfen.
 3. Ist der Kläger Verbraucher — besonderer Gerichtsstand nach Art. 17 ff. EuGVVO?
 4. Gibt es eine ausschließliche Gerichtsstandsvereinbarung (§ 38 ZPO, Art. 25 EuGVVO)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -89,3 +85,5 @@ da der Streitwert [BETRAG] EUR beträgt und damit die aktuelle Grenze von 10.000
 ## Ausgabe
 
 Tabelle: Prüfpunkt / Norm / Ergebnis / Begründung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: tenor-bauen-zivil
-description: "Wenn es um Tenor bauen Zivilurteil in Urteilsbauer und Relationsmacher geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Tenor bauen Zivilurteil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Tenor bauen Zivilurteil
@@ -13,10 +13,6 @@ Der Tenor ist das Herzstück des Urteils. Er muss vollstreckbar sein.
 2. Ist der Kläger voll, teilweise oder gar nicht erfolgreich?
 3. Welcher Zinssatz gilt — 5 Prozentpunkte über Basiszinssatz (§ 288 Abs. 1 BGB) oder 9 Prozentpunkte (§ 288 Abs. 2 BGB, B2B)?
 4. Ist vorläufige Vollstreckbarkeit mit oder ohne Sicherheitsleistung anzuordnen (§ 708 Nr. 11 oder § 709 ZPO)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -95,4 +91,5 @@ Der Tenor muss aus sich heraus vollstreckbar sein. Keine Bezugnahmen auf den Tat
 Im Repository werden Geldbetraege im Fliesstext mit Punkt geschrieben (Repo-Konvention).
 
 ---
-<!-- AUDIT 27.05.2026: BGH VII ZR 213/10 (NJW 2011, 2885) auf dejure.org nicht auffindbar (NOT_FOUND) — Eintrag ersatzlos geloescht. Uebrige Rechtsprechungseintraege wurden nicht geprueft. -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

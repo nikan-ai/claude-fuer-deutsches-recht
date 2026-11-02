@@ -1,6 +1,6 @@
 ---
 name: fotos-bilder-gema-gvl-gerichtlicher
-description: "Wenn es um Fotos, Bilder und Design in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fotos, Bilder und Design: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fotos, Bilder und Design
@@ -20,7 +20,7 @@ description: "Wenn es um Fotos, Bilder und Design in Urheberrecht DE EU geht: pr
 
 ## Wofür dieser Arbeitsgang da ist
 
-Fotos, Bilder und Design schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Untersuche den Schutz und den zulässigen Nutzungsumfang der vorgelegten Fotos, Bilder oder Gestaltungen. Begründe das gewünschte Arbeitsergebnis anhand des Gegenstands, des menschlichen Beitrags, der Rechtekette, der Nutzungshandlung, der Schranke und der Beweise.
 
 ## Sofortstart
 

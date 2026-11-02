@@ -1,6 +1,6 @@
 ---
 name: 01-eingangspruefung-zustaendigkeit
-description: "Wenn es um 01 Eingangsprüfung Zuständigkeit in Richter Amtsgericht Zivilsachen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 01 Eingangsprüfung Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # 01 Eingangsprüfung Zuständigkeit
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Zweck
 
@@ -58,9 +56,6 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 ## Anker-Rechtsprechung
 
 - BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02, BVerfGE 107, 395: Rechtliches Gehör verlangt, dass entscheidungserheblicher Vortrag erkennbar zur Kenntnis genommen und erwogen wird.
-- BGH, Urteil vom 24.07.2018 - VI ZR 599/16, frei nachweisbar über dejure/openJur: Substantiierungsanforderungen dürfen nicht so überspannt werden, dass schlüssiger Tatsachenvortrag abgeschnitten wird.
-- BGH, Urteil vom 01.10.2019 - VI ZR 164/18, frei nachweisbar über dejure/openJur: Paragraf 286 ZPO verlangt persönliche Überzeugung mit praktisch brauchbarem Gewissheitsgrad, nicht mathematische Sicherheit.
-- BGH, Urteil vom 18.04.2013 - III ZR 156/12, NJW 2013, 2201: Nach Erledigung vor Rechtshängigkeit bleibt die materielle Kostenerstattungsklage neben Paragraf 269 Abs. 3 Satz 3 ZPO möglich.
 
 ## Prüfungsschema in Stufen
 

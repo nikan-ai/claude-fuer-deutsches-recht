@@ -1,6 +1,6 @@
 ---
 name: starug-beweislast-stundung-red-zwoelf
-description: "Wenn es um StaRUG: Beweislast, Darlegungslast und Substantiierung in Fortbestehensprognose geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für StaRUG: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # StaRUG: Beweislast, Darlegungslast und Substantiierung
@@ -9,7 +9,7 @@ description: "Wenn es um StaRUG: Beweislast, Darlegungslast und Substantiierung 
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
-- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), BGH II ZR 296/05 (Drei-Wochen-Lücke), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -35,7 +35,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 ## Beweislast/Darlegungslast Fortbestehensprognose und StaRUG
 - **Positive Fortbestehensprognose:** Schuldner trägt die Darlegungslast im Anfechtungs- und Haftungsprozess. Sie ist substantiiert mit Zahlen, Annahmen, Belegen und Plausibilisierung darzulegen (BGH ständige Rspr.).
 - **§ 1 StaRUG:** Geschäftsleiter müssen Krisenfrüherkennung dokumentieren; Verstoß löst Haftung nach §§ 43 GmbHG, 93 AktG aus. Die Dokumentation ist gerichtsfest aufzubewahren (Akten, Protokolle, Beschlüsse).
-- **§ 18 InsO drohende Zahlungsunfähigkeit:** Schwelle für StaRUG-Zugang (§ 29 StaRUG); Liquiditätsplan über idR 24 Monate, der zeigt, dass mehr Verbindlichkeiten als Mittel anfallen.
+- **Paragraf 18 InsO drohende Zahlungsunfähigkeit:** regelmäßig 24-monatige Prognose bestehender Zahlungspflichten; gerichtliche Instrumente nach Paragraf 29 StaRUG, Restrukturierungsfähigkeit nach Paragraf 30 und Anzeige nach Paragraf 31 gesondert prüfen.
 - **Maßstab "überwiegende Wahrscheinlichkeit":** Für die positive Fortbestehensprognose nach § 19 Abs. 2 Satz 1 InsO gilt die "überwiegende Wahrscheinlichkeit" der Fortführung als Bewertungsmaßstab (BGH ständige Rspr.).
 - **Sekundäre Darlegungslast:** Trägt der Insolvenzverwalter im Anfechtungsprozess Anhaltspunkte für Insolvenzreife vor, muss der Anfechtungsgegner substantiiert zu Annahmen und Quellen der Prognose vortragen.
 - **Praxis:** Annahmenkatalog mit Datum, Quelle, Schwankungsbreite und Sensitivitätsanalyse ist die belastbarste Form der Substantiierung. Lose Behauptungen ("Wir hatten genug Auftragsbestand") reichen nicht.

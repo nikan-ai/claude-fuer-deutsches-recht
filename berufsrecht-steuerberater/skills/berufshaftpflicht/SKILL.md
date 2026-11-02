@@ -1,6 +1,6 @@
 ---
 name: berufshaftpflicht
-description: "Wenn es um Berufshaftpflicht in Berufsrecht Steuerberater geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Berufshaftpflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Berufsrecht Steuerberater."
 ---
 
 # Berufshaftpflicht
@@ -14,13 +14,17 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
 - `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Verifizierter Rechtsprechungsanker
+
+- BGH, Urteil vom 14.06.2012 - IX ZR 145/11: Eine möglicherweise drittschützende Haftung für einen Insolvenzverschleppungsschaden setzt nach dieser Entscheidung einen ausdrücklichen Auftrag zur Prüfung der Insolvenzreife voraus. Der Anker begründet keine allgemeine Insolvenzprüfungspflicht aus einem gewöhnlichen steuerlichen Dauermandat; zuerst Auftragsinhalt, einbezogenen Personenkreis, Pflichtverletzung, Kausalität und Schaden getrennt feststellen.
 
 ## Arbeitsweg
 

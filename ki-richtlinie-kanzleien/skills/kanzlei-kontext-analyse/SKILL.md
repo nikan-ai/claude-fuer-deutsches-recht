@@ -1,9 +1,11 @@
 ---
 name: kanzlei-kontext-analyse
-description: "Wenn es um Kanzlei-Kontext-Analyse in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Kanzlei-Kontext-Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kanzlei-Kontext-Analyse
+
+Ermittle aus den vorhandenen Richtlinien, Verträgen und Arbeitsabläufen, welche Anforderungen die konkrete Nutzung in der Kanzlei stellt. Liefere die bestellte Kontextanalyse oder überführe ihre Ergebnisse in den ausdrücklich beauftragten Richtlinienabschnitt.
 
 ## Arbeitsweg
 
@@ -15,11 +17,11 @@ description: "Wenn es um Kanzlei-Kontext-Analyse in diesem Spezialbereich geht: 
 
 ## Spezialwissen
 
-Bevor eine KI-Nutzungsrichtlinie erstellt oder angepasst wird, muss der konkrete Kanzlei-Kontext systematisch erfasst werden. Größe, Rechtsgebiete, Mandantenstruktur und vorhandene IT-Infrastruktur bestimmen maßgeblich, welche Anforderungen an Datenschutz, Berufsrecht und Compliance gelten und wie streng die Richtlinie ausgestaltet sein muss.
+Verwende den bereits dokumentierten Kanzleikontext und ergänze nur, was die angefragte Nutzung oder Änderung betrifft. Größe, Rechtsgebiete, Mandantenstruktur und IT-Infrastruktur sind für die Anforderungen relevant; ein Änderungsauftrag verlangt aber nicht automatisch eine vollständige neue Bestandsaufnahme.
 
 ## Rechtlicher Hintergrund
 
-Die DSGVO verpflichtet Verantwortliche nach Art. 5 Abs. 2 DSGVO zur Rechenschaft über die Einhaltung ihrer Pflichten. § 43 BRAO verpflichtet zur gewissenhaften Berufsausübung, was eine angemessene organisatorische Ausstattung einschließt. Art. 4 KI-VO verlangt kontextspezifische KI-Kompetenz, also auf das konkrete Einsatzszenario zugeschnittene Kenntnisse. Für Syndikus-Anwälte gelten zusätzlich §§ 46 ff. BRAO mit besonderen Verschwiegenheitsregelungen gegenüber dem Arbeitgeber.
+Die DSGVO verpflichtet Verantwortliche nach Art. 5 Abs. 2 DSGVO zur Rechenschaft über die Einhaltung ihrer Pflichten. § 43 BRAO verpflichtet zur gewissenhaften Berufsausübung, was eine angemessene organisatorische Ausstattung einschließt. Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727) Für Syndikus-Anwälte gelten zusätzlich §§ 46 ff. BRAO mit besonderen Verschwiegenheitsregelungen gegenüber dem Arbeitgeber.
 
 ## Vorgehen
 
@@ -32,7 +34,7 @@ Die DSGVO verpflichtet Verantwortliche nach Art. 5 Abs. 2 DSGVO zur Rechenschaft
 
 ## Vorlagentext / Bausteine
 
-**Checkliste Kanzlei-Kontext (Musterfragen):**
+Nutze die folgenden Fragen als interne Prüfhilfe. Stelle nur diejenigen, deren Antwort noch fehlt und die konkrete Regel oder Bewertung verändert:
 
 - Wie viele zugelassene Rechtsanwältinnen und Rechtsanwälte sind in der Kanzlei tätig?
 - Gibt es Syndikus-Anwältinnen oder -Anwälte nach §§ 46 ff. BRAO?
@@ -49,9 +51,6 @@ Die DSGVO verpflichtet Verantwortliche nach Art. 5 Abs. 2 DSGVO zur Rechenschaft
 
 Die Kontextanalyse sollte bei wesentlichen Änderungen der Kanzleistruktur (Fusion, neue Rechtsgebiete, neue Standorte) erneut durchgeführt werden. Mindestens einmal jährlich ist zu überprüfen, ob sich die IT-Infrastruktur oder die genutzten KI-Dienstleister verändert haben, was eine Anpassung der Richtlinie erforderlich machen kann.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 43a Abs. 2 BRAO — Verschwiegenheit (kanzleigroessen-unabhaengig)
 - § 43e BRAO — IT-Dienstleister-Regelung
@@ -59,15 +58,22 @@ Die Kontextanalyse sollte bei wesentlichen Änderungen der Kanzleistruktur (Fusi
 - Art. 28 DSGVO — AVV-Pflicht für alle Kanzleigroessen
 - § 26 BDSG — Beschäftigtendatenschutz (bei Mitarbeiter-KI)
 
-## Triage zu Beginn
+## Offene Nutzungsbedingungen klären
+
+Lies zuerst die vorhandenen Unterlagen. Fehlt etwa die vertragliche Regelung zur Speicherung oder zum Training, fordere genau den betreffenden Anhang an; aus seinem Fehlen folgt weder eine erlaubte noch eine tatsächlich erfolgte Nutzung. Nach Eingang die betroffene Daten- und Kontrollregel aktualisieren und das bestellte Ergebnis fertigstellen. Neue entscheidende Widersprüche erlauben weitere gezielte Fragen, keine erneute Aufnahme bereits geklärter Kanzleidaten.
+
+Prüfe folgende Gesichtspunkte nur, soweit sie nicht bereits dokumentiert und für den Auftrag relevant sind:
 1. Wie groß ist die Kanzlei — Einzelanwalt, Boutique (2-10 RA), Mittelgross (11-50), Groß (50+)?
 2. Welche Rechtsgebiete werden betrieben — IT-Recht, Datenschutz, Strafrecht, Familienrecht?
 3. Gibt es Inhouse-/Syndikus-Anwaelte — gelten andere Compliance-Anforderungen?
 4. Sind internationale Mandate vorhanden — welche Drittland-Jurisdiktionen?
 5. Welche IT-Dienstleister werden bereits eingesetzt — ist deren KI-Konformitaet bekannt?
 
-## Output-Template — Kanzlei-Kontext-Analyse
-**Adressat:** Richtlinien-Verantwortlicher — Tonfall: strukturiert, analysierend
+## Ergebnis für die Richtlinienverantwortlichen
+
+Liefere die angefragte Analyse mit nachvollziehbaren Begründungen; bei beauftragter Richtlinienänderung auch die ausformulierte Passage, nicht bloß einen Verweis auf weitere Skills. Verwende den gewünschten Dateinamen und führe Quellenstatus und verbleibende Prüffragen getrennt vom Richtlinientext. Einführung, Datentransfer und Versand benötigen eine gesonderte Freigabe.
+
+Die folgende Gliederung ist eine optionale Darstellung für eine umfassende Kontextanalyse, kein Pflichtformular für jede Einzeländerung:
 ```
 KANZLEI-KONTEXT-ANALYSE
 [DATUM] — Kanzlei: [NAME MANDANT]
@@ -84,11 +90,11 @@ Besonders sensible Rechtsgebiete: [STRAFRECHT / FAMILIENRECHT / MEDIZIN / ...]
 Datenschutz-Risikoniveau: [HOCH / MITTEL / NIEDRIG]
 
 BESTEHENDE IT-DIENSTLEISTER:
-| Dienstleister | Zweck | DSGVO-konform | KI-faehig |
+| Dienstleister | Zweck | Geprüfte Datenschutzanforderungen und offene Nachweise | Genutzte Funktion |
 |---|---|---|---|
-| [ANBIETER] | [ZWECK] | [JA/NEIN] | [JA/NEIN] |
+| [ANBIETER] | [ZWECK] | [BEFUND MIT GRUNDLAGE] | [FUNKTION] |
 
-TAILORING-ANFORDERUNGEN:
+ANFORDERUNGEN AN DIE RICHTLINIE:
 - [SPEZIFISCHE ANFORDERUNG aufgrund Kontext]
 - [SPEZIFISCHE ANFORDERUNG aufgrund Kontext]
 
@@ -103,3 +109,5 @@ Erstellt: [NAME], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

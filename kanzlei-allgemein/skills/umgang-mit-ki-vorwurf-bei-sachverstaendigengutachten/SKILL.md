@@ -1,6 +1,6 @@
 ---
 name: umgang-mit-ki-vorwurf-bei-sachverstaendigengutachten
-description: "Wenn es um Umgang mit dem digitale Werkzeuge-Vorwurf bei Sachverständigengutachten in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Umgang mit dem digitale Werkzeuge-Vorwurf bei Sachverständigengutachten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Umgang mit dem KI-Vorwurf bei Sachverständigengutachten
@@ -22,11 +22,6 @@ Anwaltliche Strategie bei dem Vorwurf, ein gerichtliches Sachverständigengutach
 2. Liegt ein konkreter Anhaltspunkt für den Vorwurf vor (auffaellige Formulierungen, fehlende Quellenbelege)?
 3. Welches prozessuale Stadium: vor Beauftragung, waehrend Begutachtung, nach Vorlage des Gutachtens?
 4. Wird eine Reduktion der Sachverstaendigenverguetung (§ 8a JVEG) oder die Unverwertbarkeit des Gutachtens angestrebt?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026: BGH VI ZB 59/18 geloescht – AZ existiert (30.07.2019), betrifft aber Musterfeststellungsklage § 606 ff. ZPO, nicht § 407a ZPO Hoechstpersoenlichkeit (WRONG_TOPIC). BGH VI ZR 286/21 geloescht – AZ auf dejure.org nicht auffindbar (NOT_FOUND). -->
 
 ## Zentrale Normen
 - § 407a Abs. 1 ZPO — Hoechstpersönliche Erstellungspflicht des Sachverstaendigen
@@ -190,3 +185,6 @@ oder Hilfskräfte beteiligt waren.
 - **Frist für Befangenheitsantrag** (§ 406 Abs. 2 ZPO) im Auge behalten — zwei Wochen ab Kenntnis vom Ablehnungsgrund.
 - **JVEG-Festsetzung 0 Euro** ist die schärfste Folge; nur bei objektiver Unverwertbarkeit und/oder echter Identitäts-Unklarheit erreichbar.
 - **Eigenes Gutachten widerlegt KI-Verdacht nicht**: Ein Privatgutachten der Gegenpartei kann methodische Schwächen aufzeigen, aber nicht beweisen, dass das Originalgutachten KI-erstellt war.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie Dateiorganisation, interne Entwürfe, Mandantenkommunikation und rechtsverbindliche Außenhandlungen. Technische Autonomie macht ein System nicht automatisch hochriskant und beseitigt keine Verschwiegenheits- oder Kontrollpflicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

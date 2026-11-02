@@ -1,6 +1,6 @@
 ---
 name: autonomous-driving-interessen-grossprojekt
-description: "Wenn es um Autonomous: Compliance-Dokumentation und Aktenvermerk in Verkehrs- und Infrastrukturrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Autonomous: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Autonomous: Compliance-Dokumentation und Aktenvermerk
@@ -31,24 +31,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 67 WHG
-- § 28 PBefG
-- § 73 VwVfG
-- § 42 VwGO
-- § 74 VwVfG
-- § 16 StrWG
-- § 17 FStrG
-- § 80 VwGO
-- § 70 VwGO
-- § 9 PBefG
-- § 8 FStrG
-- § 18 AEG
-
-### Leitentscheidungen
-
-- BGH VI ZR 281/13

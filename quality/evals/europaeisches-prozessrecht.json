@@ -1,0 +1,153 @@
+{
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Bestellter Schriftsatz und konkrete Verfahrenslage stehen vor der Zuständigkeitsübersicht; Vorlagepflicht wird mit ihren begrenzten Ausnahmen erklärt.",
+    "norms_or_source_basis": "Artikel 263 und 267 AEUV",
+    "selected_anchor_identifiers": [
+      "C-561/19"
+    ],
+    "application_limit": "Parteiantrag erzwingt keine Vorlage; Präklusion nur unter Wahrung von Äquivalenz und Effektivität.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/europaeisches-prozessrecht/europaeisches-prozessrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "e50c69f30af46e40bf92c70887f83ac71ed312df4ded0f9d9cef3e7eed375402",
+      "characters": 7343,
+      "utf8_bytes": 7454,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/europaeisches-prozessrecht/europaeisches-prozessrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "dc647efd9d0260c46b06acbe26312e373e9a45ebf8de4af4bdf5412c0115681b",
+      "characters": 16690,
+      "utf8_bytes": 16957,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "europaeisches-prozessrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2019/oj/deu",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 50b der Satzung: begrenzte Zuständigkeit des Gerichts für Vorabentscheidungen, Eingang beim Gerichtshof und Vorbehalt eigenständiger Primärrechtsfragen."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62019CJ0561",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 6. Oktober 2021, C-561/19, Consorzio Italian Management, Randnummern 48 bis 66. Anwendung: Letztinstanzliche Vorlagepflicht auch bei später aufgeworfenen Fragen prüfen; Ausnahme konkret begründen. Grenze: Parteiantrag erzwingt keine Vorlage; nationale Präklusion nur im Rahmen von Äquivalenz und Effektivität."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Mini verbindet Artikel 267 Absatz 3 AEUV mit der Begründung einer Vorlage oder ihres Unterbleibens trotz bereits erfolgter Vorlage. Individueller Text- und Quellenreview, kein Live-Modelltest. Workflow-Ergänzung einzeln geprüft: Unabhängiger nationaler Abweisungsgrund wird bekannt -> Entscheidungserheblichkeit der Vorlagefrage und Vorlageanregung ändern; neuer Zustellbeleg -> Friststand korrigieren. Einstiegsredaktion 16.10.2026, Batch 2: Bestellter Schriftsatz und konkrete Verfahrenslage stehen vor der Zuständigkeitsübersicht; Vorlagepflicht wird mit ihren begrenzten Ausnahmen erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "C-561/19 mit Ausnahmegründen und Begründungspflicht eingefügt.",
+      "Ungeprüfte dekorative Entscheidungslisten durch gezielte Rechercheaufträge ersetzt.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Bestellter Schriftsatz und konkrete Verfahrenslage stehen vor der Zuständigkeitsübersicht; Vorlagepflicht wird mit ihren begrenzten Ausnahmen erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "e50c69f30af46e40bf92c70887f83ac71ed312df4ded0f9d9cef3e7eed375402"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt behandelt letztinstanzliche Zweifel, späteren Parteivortrag und nationale Präklusion anhand Consorzio statt einer Liste klassischer Fallnamen. Die bezeichneten Anker wurden am amtlichen Entscheidungstext geprüft; keine pauschale Vollverifikation aller Nebenmaterien. Workflow-Ergänzung einzeln geprüft: Zwei mögliche nationale Ergebnisse als Relevanzprobe, Partei gegenüber vorlegendem Gericht, bindender Unionsakt gegenüber Durchführung, Rechtsfehler gegenüber Tatsachenrüge und konkret drohender Eilschaden. Einstiegsredaktion 16.10.2026, Batch 2: Bestellter Schriftsatz und konkrete Verfahrenslage stehen vor der Zuständigkeitsübersicht; Vorlagepflicht wird mit ihren begrenzten Ausnahmen erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "C-561/19 mit Ausnahmegründen und Begründungspflicht eingefügt.",
+      "Ungeprüfte dekorative Entscheidungslisten durch gezielte Rechercheaufträge ersetzt.",
+      "Zwei mögliche nationale Ergebnisse als Relevanzprobe, Partei gegenüber vorlegendem Gericht, bindender Unionsakt gegenüber Durchführung, Rechtsfehler gegenüber Tatsachenrüge und konkret drohender Eilschaden.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Bestellter Schriftsatz und konkrete Verfahrenslage stehen vor der Zuständigkeitsübersicht; Vorlagepflicht wird mit ihren begrenzten Ausnahmen erklärt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "dc647efd9d0260c46b06acbe26312e373e9a45ebf8de4af4bdf5412c0115681b"
+  },
+  "selection": {
+    "positive": [
+      "Entwirf eine Vorlageanregung für ein Finanzgerichtsverfahren.",
+      "Prüfe Zuständigkeit und Anlagen einer Nichtigkeitsklage vor dem Gericht der EU."
+    ],
+    "negative": [
+      "Vollstrecke ein französisches Zivilurteil in Deutschland.",
+      "Erstelle allein eine deutsche Einkommensteuererklärung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "mehrwertsteuer-vorlageeingang",
+      "request": "In einem deutschen Finanzgerichtsverfahren 2026 ist ausschließlich die Auslegung einer Vorschrift der Mehrwertsteuerrichtlinie entscheidungserheblich. Das Gericht erwägt eine Vorlage; eigenständige Fragen zu Primärrecht, Völkerrecht, allgemeinen Grundsätzen oder Grundrechten bestehen nach Aktenlage nicht. Der Anwalt möchte im Namen der Partei direkt beim Gericht der EU ein Vorabentscheidungsersuchen einreichen. Erstelle ergebnis.md mit zulässiger Verfahrensroute und kurzer Vorlageanregung an das nationale Gericht, ohne Übermittlung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Partei wird nicht als selbst vorlageberechtigt behandelt; der Entwurf ist eine Anregung an das nationale Gericht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Ergebnis erläutert den Eingang eines gerichtlichen Ersuchens beim Gerichtshof und dessen Zuständigkeitsprüfung vor Weiterleitung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Es berücksichtigt die besondere Mehrwertsteuerzuständigkeit des Gerichts, ohne daraus eine allgemeine Zuständigkeit für sämtliche Vorlagen zu machen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "eugh-vorabentscheidung-art-267"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "files": [
+      "europaeisches-prozessrecht/README.md",
+      "europaeisches-prozessrecht/europaeisches-prozessrecht-werkstatt.md",
+      "europaeisches-prozessrecht/europaeisches-prozessrecht-schnellstart.md",
+      "quality/evals/europaeisches-prozessrecht.json"
+    ],
+    "opening_change": "Unionsakt, nationalen Streit und konkrete Vorlagefrage dem richtigen Verfahren zuordnen. Workflow-Ergänzung: Leer: Vorlageanregung, Direktklage oder unionsgerichtliches Rechtsmittel anbieten. Dateien ohne Aufgabe: Entscheidung und Verfahrensunterlagen still lesen; Rechtsfrage, Klage- oder Rechtsmittelziel klären. Klarer Auftrag: bestellte gerichtliche Eingabe unmittelbar entwerfen; nur entscheidende Angaben zu Akt, Zustellung und Verfahrenslage erfragen.",
+    "norms": [
+      "Artikel 263, 267, 278 und 279 AEUV"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 6. Oktober 2021, C-561/19, Consorzio Italian Management, Randnummern 48 bis 66",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62019CJ0561",
+        "application": "Letztinstanzliche Vorlagepflicht auch bei später aufgeworfenen Fragen prüfen; Ausnahme konkret begründen.",
+        "limit": "Parteiantrag erzwingt keine Vorlage; nationale Präklusion nur im Rahmen von Äquivalenz und Effektivität."
+      }
+    ],
+    "remaining_limits": [
+      "Keine umfassende Neuverifikation der Verfahrensordnungen, e-Curia-Bedingungen und individuellen Klagefristen.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Review 23.09.2026: AEUV-267-Abruf nur begrenzt auswertbar; keine neuen Fristrettungsregeln oder Entscheidungen eingeführt. Vorhandene Quellen- und Verfahrensgrenzen beibehalten."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Vorlageanregung, Direktklage oder unionsgerichtliches Rechtsmittel anbieten.",
+      "Dateien ohne Aufgabe: Entscheidung und Verfahrensunterlagen still lesen; Rechtsfrage, Klage- oder Rechtsmittelziel klären.",
+      "Klarer Auftrag: bestellte gerichtliche Eingabe unmittelbar entwerfen; nur entscheidende Angaben zu Akt, Zustellung und Verfahrenslage erfragen."
+    ],
+    "continuation": "Unabhängiger nationaler Abweisungsgrund wird bekannt -> Entscheidungserheblichkeit der Vorlagefrage und Vorlageanregung ändern; neuer Zustellbeleg -> Friststand korrigieren.",
+    "enrichment": "Zwei mögliche nationale Ergebnisse als Relevanzprobe, Partei gegenüber vorlegendem Gericht, bindender Unionsakt gegenüber Durchführung, Rechtsfehler gegenüber Tatsachenrüge und konkret drohender Eilschaden.",
+    "limits": "desk review; no live client execution"
+  }
+}

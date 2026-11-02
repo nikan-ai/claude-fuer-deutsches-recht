@@ -1,6 +1,6 @@
 ---
 name: berufsgerichtliche-ruege
-description: "Wenn es um Berufsgerichtliche Ruege in Berufsrecht Steuerberater geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Berufsgerichtliche Rüge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Berufsrecht Steuerberater."
 ---
 
 # Steuerberater: berufsgerichtliche ruege steuerberater - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
@@ -36,7 +36,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

@@ -1,6 +1,6 @@
 ---
 name: abfall-circular-economy
-description: "Wenn es um Abfallrecht und Circular Economy in Umweltrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abfallrecht und Circular Economy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abfallrecht und Circular Economy
@@ -33,10 +33,6 @@ description: "Wenn es um Abfallrecht und Circular Economy in Umweltrecht geht: p
 - **§ 49 KrWG i.V.m. NachwV** — Nachweispflichten gefaehrliche Abfaelle
 - **§ 62 KrWG** — Anordnungsrecht der Behörde
 - **Art. 6 Richtlinie 2008/98/EG** — Ende der Abfalleigenschaft EU-Recht
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -102,25 +98,4 @@ Anlagen: Liefervertrag, SDS-Datenblatt, Laboranalyse
 - `esg-greenwashing-csrd` — CSRD-Berichtspflicht Kreislaufwirtschaft
 - `umweltrecht-wasser-bodenschutz` — Altlasten bei Deponien
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 BImSchG
-- § 70 VwGO
-- § 10 BImSchG
-- § 2 UmwRG
-- § 24 BBodSchG
-- § 74 VwGO
-- § 4 BBodSchG
-- § 34 BNatSchG
-- § 17 BImSchG
-- § 47 VwGO
-- § 44 BNatSchG
-- § 4 KrWG
-
-### Leitentscheidungen
-
-- EuGH C-243/15
-- BGH I ZR 98/23
-- BGH I ZR 142/23
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

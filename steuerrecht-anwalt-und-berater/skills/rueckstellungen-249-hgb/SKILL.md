@@ -1,6 +1,6 @@
 ---
 name: rueckstellungen-249-hgb
-description: "Wenn es um Rueckstellungen — Paragraf 249 HGB und steuerliche Vorgaben Paragraf 6 Abs. 1 Nr. 3a EStG in Steuerrecht – Steuerberater und Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Rueckstellungen 249 HGB; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Rückstellungen — Paragraf 249 HGB und steuerliche Vorgaben Paragraf 6 Abs. 1 Nr. 3a EStG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rueckstellungen — § 249 HGB und steuerliche Vorgaben § 6 Abs. 1 Nr. 3a EStG
@@ -30,7 +30,6 @@ description: "Wenn es um Rueckstellungen — Paragraf 249 HGB und steuerliche Vo
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesfinanzhof.de, bundesverfassungsgericht.de, dejure.org, openjur.de, gesetze-im-internet.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
 
 ## Zentrale Normen
@@ -42,3 +41,5 @@ description: "Wenn es um Rueckstellungen — Paragraf 249 HGB und steuerliche Vo
 - Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
 - Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
 - Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

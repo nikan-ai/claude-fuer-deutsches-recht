@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in hausarbeitenmacher — Didaktisches Plugin für juristische geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: hausarbeitenmacher — Didaktisches Plugin für juristische."
 ---
 
 # Anschluss-Routing
@@ -40,25 +40,3 @@ Dieses Anschluss-Routing für **Hausarbeitenmacher** wählt nach dem ersten Erge
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 267 AEUV
-- § 242 StGB
-- § 24 StGB
-- § 263 StGB
-- § 40 VwGO
-- Art. 20 GG
-- § 22 StGB
-- Art. 5 GG
-- § 74 VwGO
-- § 15 StGB
-- § 211 StGB
-- § 70 VwGO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

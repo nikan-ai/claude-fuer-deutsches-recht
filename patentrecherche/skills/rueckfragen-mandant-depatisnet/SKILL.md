@@ -1,6 +1,6 @@
 ---
 name: rueckfragen-mandant-depatisnet
-description: "Wenn es um rechtsstand-prüfen in patentrecherche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für rechtsstand-prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # rechtsstand-prüfen
@@ -17,7 +17,7 @@ description: "Wenn es um rechtsstand-prüfen in patentrecherche geht: prüft Fri
 
 - **Anmeldetag** (filing date) — Datum der Einreichung, **Schutzdauer-Beginn**.
 - **Prioritätstag** (priority date) — Datum einer früheren Erstanmeldung; **maßgeblich für Stand der Technik** (§ 4 PatG, Art. 89 EPÜ).
-- **Veröffentlichungstag** (publication date) — i. d. R. **18 Monate** nach Prioritätstag (§ 32 Abs. 2 PatG, Art. 93 EPÜ).
+- **Veröffentlichungstag** (publication date) — regelmäßig 18 Monate nach Anmelde- oder Prioritätstag; für deutsche Anmeldungen Paragraf 32 Absatz 2 PatG, für europäische Anmeldungen Artikel 93 EPÜ im Einzelfall prüfen.
 - **Erteilungstag** (grant date) — Veröffentlichung der Erteilung; **ab diesem Tag** Verbietungsrecht.
 - **Schutzdauer-Ende** — Anmeldetag + 20 Jahre (§ 16 PatG, Art. 63 EPÜ). Bei Arzneimittel / PSM: + maximal 5 Jahre SPC nach VO (EG) 469/2009 / VO (EG) 1610/96.
 - **Status:**
@@ -124,8 +124,7 @@ Bevor der Rechtsstand geprueft wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EPA, Erweiterte Beschwerdekammer, G 1/10 (Widerruf nach Einspruch):** Ein durch Einspruch angegriffenes Patent bleibt bis zur abschliessenden Einspruchsentscheidung in Kraft; der Rechtsstand ist waehrend des Einspruchsverfahrens unsicher, und ein Lizenznehmer sollte Klauseln für den Fall des Widerrufs vorsehen.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

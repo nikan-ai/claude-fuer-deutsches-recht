@@ -1,6 +1,6 @@
 ---
 name: down-red-gestaltender-gruppen
-description: "Wenn es um Down: Red-Team und Qualitätskontrolle in Insolvenzplan- und StaRUG-Planwerkstatt geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Down: Red-Team und Qualitätskontrolle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Down: Red-Team und Qualitätskontrolle
@@ -15,8 +15,6 @@ description: "Wenn es um Down: Red-Team und Qualitätskontrolle in Insolvenzplan
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Down: Red-Team und Qualitätskontrolle` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -42,9 +40,9 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Red-Team Cross-Class Cram-Down
 - **InsO § 245 Obstruktionsverbot:** Voraussetzungen: (1) Mehrheit der Gruppen hat zugestimmt, (2) ablehnende Gruppe wird nicht schlechter gestellt als ohne Plan (Best-Interest-Test § 245 Abs. 1 Nr. 1), (3) angemessene Beteiligung an wirtschaftlichem Wert (§ 245 Abs. 1 Nr. 2).
-- **StaRUG §§ 26–28 gruppenübergreifender Cram-Down:** Voraussetzungen ähnlich; (1) Mehrheit der Gruppen, (2) absolute oder relative Priorität nach § 27 StaRUG (Wahlrecht zwischen Vorrangregeln), (3) Schutz nachrangiger Gruppen.
-- **Absolute Priority Rule:** Eine Gruppe, die geringere Quote erhält als eine vorrangige Gruppe ihre volle Befriedigung, hat Vorrang vor nachrangigen Gruppen.
-- **Relative Priority Rule (RPR):** Nachrangige Gruppen müssen weniger erhalten als vorrangige — Maßstab "angemessen". § 27 Abs. 2 StaRUG eröffnet RPR als deutsches Alternativmodell.
-- **Best-Interest-Test:** Vergleich mit der besten Alternative (regelmäßig Zerschlagungsquote bei InsO bzw. Regelinsolvenz bei StaRUG) — jeder einzelne Planbetroffene muss bessergestellt sein.
-- **Typische Fallen:** Vergleichsrechnung mit zu optimistischer Liquidationsquote → Cram-Down fällt; Gruppenbildung zu fein → § 222 InsO/§ 9 StaRUG-Verstoß; nachrangige Gruppen nicht angemessen beteiligt → § 245 Abs. 1 Nr. 2 InsO/§ 26 StaRUG.
+- StaRUG-Paragrafen 26 bis 28: Ohne-Plan-Test, angemessene Beteiligung am Planwert und Mehrheit der abstimmenden Gruppen getrennt prüfen. Bei zwei Gruppen genügt die andere Gruppe; zustimmende Gruppen dürfen nicht ausschließlich aus Anteilsinhabern oder nachrangigen Restrukturierungsgläubigern bestehen.
+- Rangregel: Paragraf 27 StaRUG verhindert Überbefriedigung, Wertzufluss an nachrangige Beteiligte vor der überstimmten Gruppe und Besserstellung gleichrangiger Gläubiger.
+- Ausnahmen: Paragraf 28 StaRUG erlaubt nur die dort bezeichneten sachgerechten Abweichungen. Er begründet kein freies Wahlrecht zwischen absoluter und relativer Priorität.
+- Ohne-Plan-Test: Das realistische Alternativszenario kann Fortführung, Verkauf, Insolvenzplan oder Regelverfahren sein. Zerschlagung ist nicht automatisch der Maßstab. Individueller Minderheitenschutz folgt im StaRUG aus Paragraf 64.
+- Typische Fallen: Planwert und Ohne-Plan-Wert vermischen; Gruppen taktisch zersplittern; Rangfolge nicht abbilden; Ausnahme nach Paragraf 28 ohne Tatsachengrund behaupten.
 - **Praxis:** Cram-Down ist Letzter-Ausweg — Verhandlungslösung mit allen Gruppen ist robuster.

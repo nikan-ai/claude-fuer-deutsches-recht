@@ -1,6 +1,6 @@
 ---
 name: bussgeldverteidigung
-description: "Wenn es um DSA und DMA: Bussgeldverteidigung in DSA, DMA und Digitalregulierung der EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für DSA und DMA: Bussgeldverteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSA und DMA: Bussgeldverteidigung
@@ -56,25 +56,3 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 263 AEUV
-- Art. 11 GRCh
-- Art. 102 AEUV
-- Art. 296 AEUV
-- Art. 89 DSGVO
-- Art. 22 DSGVO
-- § 9 VDG
-- § 269 StGB
-- § 268 StGB
-- § 8b BSIG
-- § 29 VwVfG
-- Art. 267 AEUV
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

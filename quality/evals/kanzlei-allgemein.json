@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "plugin": "kanzlei-allgemein",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 5: Speicherung auf der gerichtlichen Empfangseinrichtung und automatisierte Eingangsbestätigung; ein lokaler Versandstatus ist damit nicht gleichzusetzen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2020/VIII_ZB___9-20.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 11.05.2021, VIII ZB 9/20: Randnummern 18, 21 bis 24 und 41 bis 54: Gerichtseingang und konkrete organisatorische Kontrolle der automatisierten Bestätigung; fehlender Nachweis verlangt rechtzeitige Klärung. Grenze: Eingangsbestätigung ersetzt weder Inhalts- noch Formprüfung; bloß fehlende Bestätigung beweist noch keine Verspätung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Elektronischer Gerichtseingang nach Absatz 5 und automatisierte Eingangsbestätigung; Form- und Übermittlungswegprüfung bleiben eigenständig."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__85.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Zurechnung anwaltlichen Verschuldens nach Absatz 2, nicht pauschale Zurechnung jedes Mitarbeiterfehlers."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__233.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Wiedereinsetzung setzt unverschuldete Fristversäumung im gesetzlichen Anwendungsbereich voraus; bloßer Technikhinweis ersetzt keine konkrete Darlegung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__407a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Absatz 3: persönliche Gutachterleistung, keine Übertragung des Auftrags; Mitarbeit mit Benennung und Umfang von Hilfsdiensten untergeordneter Bedeutung abgrenzen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130a.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Wortlaut erneut gelesen: Form, Übermittlungsweg und Eingang nach Absatz 5 getrennt; Bestätigung einer Nachricht ersetzt keinen Abgleich der tatsächlich übermittelten Dokumente."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_106-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tenor und Rn. 1–29. Zusätzliche einfache Signatur eines zweiten Anwalts schadet bei einfacher Signatur und persönlichem beA-Versand durch verantwortenden Anwalt nicht. Grenze: Rn. 22 lässt die Übermittlung aus einem Gesellschaftspostfach ausdrücklich offen; gewöhnliche Anlagen und qualifizierte Signaturen getrennt prüfen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZB__85-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf, Tenor und Gründe Rn. 1–44 vollständig. Ersatzfax braucht wirksame Signatur; konkrete technische Unmöglichkeit glaubhaft machen; Wegfall des Hindernisses und Wiedereinsetzungsfrist getrennt erfassen. Grenze: Berufungsbegründung: Monatsfrist, keine Verlängerung durch bloße Stellungnahmefrist; Faxalternative nur bei Zumutbarkeit. Zurückverweisung, keine automatische Wiedereinsetzung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. Redaktionelle Einstiegslektüre am 16.10.2026: Gerichtseingang von Versand, Inhalt und Form im Einstieg getrennt; redundante Aufnahmehinweise gestrafft.",
+    "changes": [
+      "VIII ZB 9/20 in beiden Versandkontrollen verankert.",
+      "Eingang, Formprüfung und behauptete Fristversäumung getrennt.",
+      "Paragraf 407a Absatz 3 ZPO zutreffend zugeordnet; keine allgemeine KI-Kennzeichnungspflicht erfunden.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24, BGH, Beschluss vom 30.07.2026 – I ZB 85/25, Rn. 14–26 und 33–44. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "Redaktion 16.10.2026: Gerichtseingang von Versand, Inhalt und Form im Einstieg getrennt; redundante Aufnahmehinweise gestrafft. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "b5a9f180b938f3c1c930ddcb5835888843e387a8e2ed1a56f8e6ac73371718ea",
+    "reviewed_on": "2026-10-01"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe, ob diese beA-Versandmappe organisatorisch abgeschlossen werden kann.",
+      "Ordne Posteingang, Fristverantwortung und Freigabestand für den heutigen Kanzleitag."
+    ],
+    "negative": [
+      "Begutachte ausschließlich die materiellen Erfolgsaussichten einer Patentklage.",
+      "Entwirf eine dreijährige Kanzleistrategie mit Partnervergütungsmodell."
+    ]
+  },
+  "cases": [
+    {
+      "id": "gesendet-ohne-gerichtseingang",
+      "request": "Erstelle ergebnis.md als Nachversandkontrolle. Heute ist der 14. September 2026, 16 Uhr. Eine zivilprozessuale Frist endet laut bereits geprüfter Fristnotiz heute um 24 Uhr. Hauptdokument und Anlagen sind final, die Signaturprüfung ist positiv. Im lokalen Versandjournal steht 15:55 Uhr gesendet, richtiges Gericht und Aktenzeichen. Eine automatisierte gerichtliche Eingangsbestätigung wurde bisher nicht abgerufen. Die Assistenz fragt, ob sie die Frist jetzt als erledigt markieren soll. Verantwortlicher Anwalt und Vertretung sind bis 18 Uhr erreichbar. Es gibt keinen Auftrag, selbst etwas zu versenden oder den Kalender zu ändern.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der lokale Versandstatus wird nicht als hinreichender Nachweis des gerichtlichen Eingangs behandelt; die Frist bleibt organisatorisch offen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Kontrolle verlangt den Abgleich der Eingangsbestätigung mit Empfänger, Zeitpunkt und übermittelten Dateien und benennt die verfügbare Reaktionsreserve.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Bericht veranlasst keine eigene Kalendereintragung oder Einreichung und beginnt nicht ohne Anlass eine neue Mandatsaufnahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "bea-versand-pruefen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. Redaktionelle Einstiegslektüre am 16.10.2026: Gerichtseingang von Versand, Inhalt und Form im Einstieg getrennt; redundante Aufnahmehinweise gestrafft.",
+    "changes": [
+      "VIII ZB 9/20 in beiden Versandkontrollen verankert.",
+      "Eingang, Formprüfung und behauptete Fristversäumung getrennt.",
+      "Paragraf 407a Absatz 3 ZPO zutreffend zugeordnet; keine allgemeine KI-Kennzeichnungspflicht erfunden.",
+      "Fristdruck bei widersprüchlichen Empfangsangaben, tatsächliche Vertretungsübernahme, versandte gegen freigegebene Fassung, konkrete Mandantenentscheidung sowie Honorar, Fremdgeld und Abschlussreste als ausführbare Dokumentwege vertieft.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24, BGH, Beschluss vom 30.07.2026 – I ZB 85/25, Rn. 14–26 und 33–44. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "Redaktion 16.10.2026: Gerichtseingang von Versand, Inhalt und Form im Einstieg getrennt; redundante Aufnahmehinweise gestrafft. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "3d9cd1a918fa33f745b99b16ed9fc03a79f9ed34027c96180cb97d8a54f8c815",
+    "reviewed_on": "2026-10-01"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "kanzlei-allgemein/kanzlei-allgemein-werkstatt.md",
+      "kanzlei-allgemein/kanzlei-allgemein-schnellstart.md",
+      "kanzlei-allgemein/README.md",
+      "quality/evals/kanzlei-allgemein.json"
+    ],
+    "opening_change": "Konkrete Fristen- und Eingangskontrolle oder Abgleich des Gebührenauftrags statt allgemeiner Kanzleibearbeitung.",
+    "norms": [
+      "ZPO Paragraf 130a Absätze 2, 3 und 5",
+      "ZPO Paragrafen 85 Absatz 2 und 233",
+      "ZPO Paragraf 407a Absatz 3"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 11.05.2021, VIII ZB 9/20",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2020/VIII_ZB___9-20.pdf?__blob=publicationFile&v=1",
+        "application": "Randnummern 18, 21 bis 24 und 41 bis 54: Gerichtseingang und konkrete organisatorische Kontrolle der automatisierten Bestätigung; fehlender Nachweis verlangt rechtzeitige Klärung.",
+        "limit": "Eingangsbestätigung ersetzt weder Inhalts- noch Formprüfung; bloß fehlende Bestätigung beweist noch keine Verspätung."
+      },
+      {
+        "citation": "BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_106-25.pdf?__blob=publicationFile&v=1",
+        "application": "Zusätzliche einfache Signatur eines zweiten Anwalts schadet bei einfacher Signatur und persönlichem beA-Versand durch verantwortenden Anwalt nicht.",
+        "limit": "Rn. 22 lässt die Übermittlung aus einem Gesellschaftspostfach ausdrücklich offen; gewöhnliche Anlagen und qualifizierte Signaturen getrennt prüfen."
+      },
+      {
+        "citation": "BGH, Beschluss vom 30.07.2026 – I ZB 85/25, Rn. 14–26 und 33–44",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZB__85-25.pdf?__blob=publicationFile&v=1",
+        "application": "Ersatzfax braucht wirksame Signatur; konkrete technische Unmöglichkeit glaubhaft machen; Wegfall des Hindernisses und Wiedereinsetzungsfrist getrennt erfassen.",
+        "limit": "Berufungsbegründung: Monatsfrist, keine Verlängerung durch bloße Stellungnahmefrist; Faxalternative nur bei Zumutbarkeit. Zurückverweisung, keine automatische Wiedereinsetzung."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "Gebühren-, Aufbewahrungs- und andere Verfahrensordnungen nicht vollständig neu verifiziert.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Frist- und Versandkontrolle, Mandantenbrief oder Honorarabgleich anbieten.",
+      "Dateien ohne Auftrag: Eingang, Fassungen und Versandmappe still lesen; Gerichtseingang oder konkrete Freigabelücke zur Auswahl stellen.",
+      "Klarer Auftrag: das bestellte Kanzleidokument unmittelbar fertigstellen, ohne bestehende Mandatsaufnahme zu wiederholen."
+    ],
+    "continuation": "Bestätigung nur für Anlagen -> Hauptdokument weiter als ungeklärt führen und zweite Nachricht prüfen; begrenzte Vergleichsfreigabe -> Abgeltungsklausel und Begleitbrief entsprechend beschränken.",
+    "enrichment": "Fristdruck bei widersprüchlichen Empfangsangaben, tatsächliche Vertretungsübernahme, versandte gegen freigegebene Fassung, konkrete Mandantenentscheidung sowie Honorar, Fremdgeld und Abschlussreste als ausführbare Dokumentwege vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "kanzlei-allgemein/references/ki-normen-und-fallpruefung.md",
+    "focus": "Trennen Sie Dateiorganisation, interne Entwürfe, Mandantenkommunikation und rechtsverbindliche Außenhandlungen. Technische Autonomie macht ein System nicht automatisch hochriskant und beseitigt keine Verschwiegenheits- oder Kontrollpflicht.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

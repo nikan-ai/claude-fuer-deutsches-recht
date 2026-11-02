@@ -1,6 +1,6 @@
 ---
 name: recherche-start-rechtsberatungsstelle
-description: "Wenn es um Recherchefahrplan: Orientierung, keine Recherche in Plugin für die studentische Rechtsberatungsstelle geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Recherchefahrplan: Orientierung, keine Recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Recherchefahrplan: Orientierung, keine Recherche
@@ -28,9 +28,6 @@ description: "Wenn es um Recherchefahrplan: Orientierung, keine Recherche in Plu
 - **Gesetzliche Grundlage → Ausführungsverordnung → Verwaltungsvorschrift** — Hierarchie im Verwaltungsrecht.
 - Für studentische Beratungsstellen besonders relevant: **BGB, ZPO, VwVfG, VwGO, AGG, KSchG, BerHG, RDG**.
 
-### Leitentscheidungen zur Recherchemethodik (exemplarisch)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -105,6 +102,7 @@ Wenn der Studenten bereits Recherchematerial hochgeladen hat: lesen, was abgedec
 > - Lücke: [Was der Fahrplan oben nahelegt, aber noch nicht gefunden wurde]
 > - `[PRÜFEN: Die zitierte Entscheidung [Name] — per Datenbank-Zitieranalyse prüfen, ob sie nicht durch spätere Rspr. eingeschränkt wurde]`
 
+```markdown
 ## Vorlagendokumente der Klinik (zuerst lesen)
 
 [Per Schritt 0. Passende Klinikdokumente mit Erläuterung benennen.
@@ -176,6 +174,4 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 ---
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

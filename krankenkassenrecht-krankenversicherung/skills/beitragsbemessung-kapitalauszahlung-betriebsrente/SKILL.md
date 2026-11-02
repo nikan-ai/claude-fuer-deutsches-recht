@@ -1,6 +1,6 @@
 ---
 name: beitragsbemessung-kapitalauszahlung-betriebsrente
-description: "Wenn es um Beitragsbemessung: Kapitalauszahlung und Betriebsrente in Krankenkassenrecht und Krankenversicherung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Beitragsbemessung: Kapitalauszahlung und Betriebsrente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beitragsbemessung: Kapitalauszahlung und Betriebsrente
@@ -87,28 +87,3 @@ Betriebsrenten und Kapitalzahlungen aus der betrieblichen Altersversorgung (bAV)
 - [BVerfG Doppelverbeitragung](https://www.bverfg.de/entscheidungen.html)
 - [GKV-Spitzenverband Versorgungsbezüge](https://www.gkv-spitzenverband.de)
 - [dejure.org § 229 SGB V](https://dejure.org/gesetze/SGB_V/229.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 192 VVG
-- § 204 VVG
-- § 193 VVG
-- § 84 SGG
-- § 86b SGG
-- § 203 VVG
-- § 88 SGG
-- § 6 AsylbLG
-- § 152 VAG
-- § 205 VVG
-- § 153 VAG
-- § 4 AsylbLG
-
-### Leitentscheidungen
-
-- BGH IV ZR 255/17
-- BGH IV ZR 84/11
-- BGH III ZR 17/18
-- BGH IV ZR 194/07
-- BGH IV ZR 62/16

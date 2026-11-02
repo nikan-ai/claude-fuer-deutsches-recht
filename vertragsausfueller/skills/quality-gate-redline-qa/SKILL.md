@@ -1,6 +1,6 @@
 ---
 name: quality-gate-redline-qa
-description: "Wenn es um Quality Gate — Vertragsausfueller in Vertragsausfüller geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Quality Gate — Vertragsausfüller: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Quality Gate — Vertragsausfueller
@@ -19,10 +19,6 @@ description: "Wenn es um Quality Gate — Vertragsausfueller in Vertragsausfüll
 2. Sind alle Klauselentscheidungen getroffen und protokolliert (vaf-klauselentscheidung)?
 3. Ist die Ampel des Quality Gate grün oder gibt es offene No-go-Kriterien?
 4. Hat der Mandant ausdrücklich Track Changes / Redline bestätigt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -87,7 +83,6 @@ Prüfen gegen typische AGB-Fallen und Klauselverbote:
 | Schadensersatzbeschraenkung auf Eigenleistung | Paragraf 309 Nr. 7a, b BGB | Ausschluss für Personenschäden -> nichtig |
 | Schiedsgerichtsklausel ohne Klarheit | Paragraf 1031 ZPO | Verbraucher ohne Sondervereinbarung -> nichtig |
 | Lange Bindungsfrist bei Verbrauchern | Paragraf 309 Nr. 9 BGB | Verlängerung > 1 Jahr automatisch -> Risiko |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 **Stopper-Kriterium**: Bei klarem Klauselverstoß B2C -> No-go. Bei B2B-Streitfall -> Warnung mit Risiko-Hinweis.
 
@@ -194,3 +189,5 @@ Empfehlung: Go / Go mit Warnungen / No-go
 - `vaf-redline-qa` — Review von Track-Changes-Fassungen
 - `vaf-clean-output` — finaler Clean-Entwurf nach GRUEN-Ampel
 - `vaf-track-changes-nur-nach-frage` — Track Changes nur nach Bestätigung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

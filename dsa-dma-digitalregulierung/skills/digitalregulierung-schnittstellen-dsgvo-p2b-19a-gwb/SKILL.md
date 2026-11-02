@@ -1,6 +1,6 @@
 ---
 name: digitalregulierung-schnittstellen-dsgvo-p2b-19a-gwb
-description: "Wenn es um Schnittstellen — DSA, DMA, DSGVO, P2B-VO und Paragraf 19a GWB in DSA, DMA und Digitalregulierung der EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schnittstellen — DSA, DMA, DSGVO, P2B-VO und Paragraf 19a GWB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Schnittstellen — DSA, DMA, DSGVO, P2B-VO und § 19a GWB
@@ -103,10 +103,6 @@ Bei einem Beratungsfall **alle relevanten Anker prüfen**:
 - **Wer trägt die Beweislast?** — Gerichtsstand, prozessuale Strategie
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - Art. 2 Abs. 4 DSA — DSGVO bleibt unberührt
@@ -142,3 +138,6 @@ Anspruchs-Matrix:
 Empfohlene Strategie: [BESCHREIBUNG]
 Nächste Schritte: [LISTE]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Plattformdienst, GPAI-Modell und konkrete Systemfunktion auseinander. Aus VLOP-Eigenschaft folgt weder eine beliebige KI-VO-Risikoklasse noch dieselbe Zuständigkeit für jede Betreiberfunktion. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

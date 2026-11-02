@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "plugin": "kartellrecht-marktabgrenzung-pruefung",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/C/2024/1645/oj?locale=de",
+      "checked_on": "2026-09-14",
+      "supports": "Amtliche Suchauszüge der Bekanntmachung C/2024/1645, Randnummern 25 und 26 sowie 32 und 33: Nachfrageausweichmöglichkeiten und kurzfristige wirksame Angebotssubstitution; direkter Volltextabruf eingeschränkt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/BJNR252110998.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Normauszug zu Paragraf 18 Absatz 4: Marktbeherrschungsvermutung ab mindestens 40 Prozent, keine Missbrauchsfeststellung allein daraus."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:61976CJ0027",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 14. Februar 1978, 27/76, United Brands, Randnummern 22 bis 35. Anwendung: Produkteigenschaften mit tatsächlich begrenzter Austauschbarkeit verbinden; zertifizierte Anwendungen gesondert mit Nachfragedaten prüfen. Grenze: Bananenfall zum damaligen Artikel 86; weder vorgegebener Medizinproduktmarkt noch numerischer SSNIP-Schwellenwert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__18.html",
+      "checked_on": "2026-09-22",
+      "supports": "Marktbeherrschung, Vermutung und besondere Kriterien mehrseitiger Märkte."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__18.html",
+      "checked_on": "2026-09-23",
+      "supports": "Am 23.09.2026 erneut gelesener Paragraf 18 GWB: Marktdefinition, Marktstellungsfaktoren und nationale Vermutung getrennt; keine abschließende ökonomische Beurteilung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Mini prüft Wechselhindernisse zertifizierter Anwendungen anhand tatsächlicher Nachfragesubstitution und vermeidet eine bloße Produktähnlichkeitsprüfung. Individueller Text- und Quellenreview, kein Live-Modelltest. Individueller Workflow-Durchgang am 23.09.2026: Neue Zertifizierung mit Datum und Verwendungsbereich -> Kundengruppe, zeitlichen Nenner, Marktanteil und Behörden-/Memotext gemeinsam ändern. Redaktionelle Einstiegslektüre am 16.10.2026: Tatsächliche Austauschbarkeit vor methodischer Navigation verankert; historischen Produktmarkt nicht übertragen.",
+    "changes": [
+      "27/76 mit Produktmerkmalen und nachgewiesener begrenzter Substitution operationalisiert.",
+      "Keinen festen Markt oder erfundene SSNIP-Grenze aus der Entscheidung abgeleitet.",
+      "Vier eigenständige Eingabemodi und fachbezogene Antwortfortsetzung ergänzt.",
+      "Kurzes Fachdialogbeispiel mit entscheidender Frage und konkreter Änderung des bestellten Dokuments ergänzt.",
+      "Redaktion 16.10.2026: Tatsächliche Austauschbarkeit vor methodischer Navigation verankert; historischen Produktmarkt nicht übertragen. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "c3127538ccedfd1cd0f43d0d20514b5fec14391140a678e6f671cb5972ac0999"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Einbeziehung nicht zertifizierter Ersatzprodukte in unseren Markt.",
+      "Berechne Marktanteile unter zwei begründeten Produktabgrenzungen."
+    ],
+    "negative": [
+      "Prüfe ausschließlich die wettbewerbsrechtliche Irreführung einer Anzeige.",
+      "Berechne ohne Marktfrage den konkreten Kartellschaden aus einer abgeschlossenen Schadensstudie."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zertifizierte-filter-zwei-nenner",
+      "request": "Erstelle ergebnis.md zur sachlichen Marktabgrenzung im deutschen GWB-Kontext. Ein Anbieter verkauft zertifizierte Filter für Klinikanlagen. Sein relevanter Jahresumsatz beträgt 4 Millionen Euro; der Gesamtumsatz aller zertifizierten Filter in Deutschland beträgt im selben Jahr 10 Millionen Euro. Einschließlich äußerlich ähnlicher nicht zertifizierter Filter wären es 20 Millionen Euro. Die betrachteten Kliniken dürfen nach ihren vorgegebenen Beschaffungsanforderungen nur zertifizierte Filter einsetzen. Eine Umrüstung würde mindestens zwei Jahre dauern und erhebliche Kosten verursachen. Die nicht zertifizierten Anbieter können die Zertifizierung nicht kurzfristig erhalten. Weitere Daten zur Marktstellung und zu einem möglichen missbräuchlichen Verhalten fehlen. Vergleiche die beiden Anteile und die Aussagekraft der weiten Abgrenzung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Berechnung ergibt 40 Prozent im engen und 20 Prozent im weiten Markt bei einheitlicher Umsatzbasis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die fehlende kurzfristige Verwendbarkeit und Zertifizierbarkeit spricht gegen die ungeprüfte Einbeziehung der nicht zertifizierten Filter; äußere Ähnlichkeit wird nicht als ausreichender Ersatzbeleg behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die deutsche Vermutung bei 40 Prozent wird von einer endgültigen Marktstellungsbewertung und dem nicht belegten Missbrauch getrennt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "produktmarkt-nachfragesubstitution"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt verwendet United Brands als methodischen Maßstab und begrenzt die Übertragung vom Bananenmarkt auf technische Produkte ausdrücklich. Die bezeichneten Anker wurden am amtlichen Entscheidungstext geprüft; keine pauschale Vollverifikation aller Nebenmaterien. Individueller Workflow-Durchgang am 23.09.2026: Umstrittene Ausweichbehauptung isoliert, neutrale Evidenzanforderung, belastende Vertriebsbelege, zeitabhängige Substitution und empfängerabhängige Behördenantwort. Redaktionelle Einstiegslektüre am 16.10.2026: Tatsächliche Austauschbarkeit vor methodischer Navigation verankert; historischen Produktmarkt nicht übertragen.",
+    "changes": [
+      "27/76 mit Produktmerkmalen und nachgewiesener begrenzter Substitution operationalisiert.",
+      "Keinen festen Markt oder erfundene SSNIP-Grenze aus der Entscheidung abgeleitet.",
+      "Umstrittene Ausweichbehauptung isoliert, neutrale Evidenzanforderung, belastende Vertriebsbelege, zeitabhängige Substitution und empfängerabhängige Behördenantwort.",
+      "Redaktion 16.10.2026: Tatsächliche Austauschbarkeit vor methodischer Navigation verankert; historischen Produktmarkt nicht übertragen. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+    ],
+    "sha256": "ba4ff39028268860d84cfe0355ba3f48daa0b8a6444c700cac05964a515afc40"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "kartellrecht-marktabgrenzung-pruefung/README.md",
+      "kartellrecht-marktabgrenzung-pruefung/kartellrecht-marktabgrenzung-pruefung-werkstatt.md",
+      "kartellrecht-marktabgrenzung-pruefung/kartellrecht-marktabgrenzung-pruefung-schnellstart.md",
+      "quality/evals/kartellrecht-marktabgrenzung-pruefung.json"
+    ],
+    "opening_change": "Nachgewiesene Austauschmöglichkeiten und Bezugsgrößen für den Marktanteil prüfen.",
+    "norms": [
+      "Artikel 101 und 102 AEUV",
+      "Paragrafen 18 bis 20 GWB"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 14. Februar 1978, 27/76, United Brands, Randnummern 22 bis 35",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:61976CJ0027",
+        "application": "Produkteigenschaften mit tatsächlich begrenzter Austauschbarkeit verbinden; zertifizierte Anwendungen gesondert mit Nachfragedaten prüfen.",
+        "limit": "Bananenfall zum damaligen Artikel 86; weder vorgegebener Medizinproduktmarkt noch numerischer SSNIP-Schwellenwert."
+      }
+    ],
+    "remaining_limits": [
+      "Marktabgrenzungsbekanntmachung 2024 und internationale Sonderregeln nicht erneut vollständig verifiziert; ökonomische Daten bleiben erforderlich.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Ergänzung am 23.09.2026: desk review; keine Live-Client-Ausführung, keine Installation, Übermittlung oder technische Funktionsprüfung. Bestehende Entscheidungsprüfung vom 22.09.2026 nicht als heutiger Neuabruf ausgegeben."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leere Eingabe: Ersatzprodukte, alternative Marktanteile oder Behördenauskunft auswählen.",
+      "Dateien ohne Aufgabe: Produkt-/Umsatzdaten still lesen und konkreten Prüfzweck klären.",
+      "Klarer Auftrag: Marktdefinition, Anteilskalkulation oder Antwort unmittelbar bearbeiten."
+    ],
+    "continuation": "Zertifizierung mit Datum und Verwendungsbereich -> marktdefinition.md mit geänderter Kundengruppe, zeitlichem Nenner, Marktanteil und Begründung; bei Behördenauftrag stattdessen betroffene Antwortpassage.",
+    "enrichment": "Umstrittene Ausweichbehauptung isoliert, neutrale Evidenzanforderung, belastende Vertriebsbelege, zeitabhängige Substitution und empfängerabhängige Behördenantwort.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "kartellrecht-marktabgrenzung-pruefung/skills/eugh-rechtsprechung-beweislast-jurisdiktion/SKILL.md",
+      "kartellrecht-marktabgrenzung-pruefung/skills/ssnip-test-anwendung/SKILL.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: quellen-livecheck
-description: "Wenn es um Rechtsquellen-Livecheck in Fachanwalt Verwaltungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verwaltungsrecht."
 ---
 
 # Rechtsquellen-Livecheck
@@ -22,7 +22,7 @@ Dieser Quellen-Livecheck für **Fachanwalt Verwaltungsrecht** trennt amtliche No
 - `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme FA Vwgo
 - `workflow-mandantenkommunikation` — FA Verwaltungsrecht Mandant Redteam Gate
 - `einstieg-schnelltriage-fallrouting` — FA Verwaltungsrecht Start Chronologie Fristen
-- `klagefrist-paragraf-58-vwgo-bverwg-4-c-1-19` — Klagefrist Paragraf 58 Vwgo Bverwg 4 C 1 19
+- `rechtsbehelfsbelehrung-jahresfrist-vwgo` — Rechtsbehelfsbelehrung und Jahresfrist prüfen
 - `kommunalrecht-paragraf-2-go` — Kommunalrecht Paragraf 2 GO
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake

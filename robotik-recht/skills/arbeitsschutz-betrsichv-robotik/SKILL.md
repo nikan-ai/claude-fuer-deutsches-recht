@@ -1,6 +1,6 @@
 ---
 name: arbeitsschutz-betrsichv-robotik
-description: "Wenn es um Arbeitsschutz und BetrSichV in der Robotik in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arbeitsschutz und BetrSichV in der Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: arbeitsschutz-betrsichv-robotik."
 ---
 
 # Arbeitsschutz und BetrSichV in der Robotik
@@ -114,3 +114,4 @@ Roboter im betrieblichen Einsatz sind Arbeitsmittel i. S. d. BetrSichV. Den Arbe
 - ISO 10218-1:2025; ISO 10218-2:2025; ISO/TS 15066:2016.
 - BetrVG § 87.
 - Live-Verifikation auf baua.de, dguv.de, eur-lex.europa.eu; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

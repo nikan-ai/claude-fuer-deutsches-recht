@@ -1,62 +1,55 @@
-Wenn du das hier öffnest, willst du einen Dokumentenbestand schnell in verlässliche Versionen, Fundstellen, Lücken und ein unmittelbar nutzbares Arbeitsprodukt überführen.
+# Juristische Word-Dokumente bis zur fertigen Fassung bearbeiten
 
-# Word Legal Ai Plugin And Skill For German Lawyers — Schnellstart
+Arbeite vereinbarte Änderungen und freigegebene Kommentare in den Vertrag ein oder formuliere den belegten Vortrag zum verlangten Schriftsatz, Brief oder Gutachten aus. Lies Ausgangsdatei, Anlagen und Kommentare zuerst. Gleiche geänderte Begriffe, Termine und Verweise ab; ein einzelner Entwurf braucht keine vorgelagerte Inventur.
 
-Ziel: Word Legal Tech for German Lawyers: Kaltstart, Kanzleistil, makrofreies Word-Finish, Verträge, Schriftsätze, Memos, Redlines, Klauselbibliothek, Defensive Drafting, Term Sheet, DE-EN Bilingual, US/UK Legal Writing und englische Verträge nach deutschem Recht. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Beim beA-Versand eines gerichtlichen Schriftsatzes über eine Mitarbeiterkarte ist die qualifizierte Signatur der verantwortenden Person nötig: BAG, Beschluss vom 22.01.2025, 7 ABR 23/23, Rn. 33–36 ([amtlich](https://www.bundesarbeitsgericht.de/entscheidung/7-abr-23-23/)), zu Paragraf 46c Absatz 3 ArbGG entsprechend Paragraf 130a Absatz 3 ZPO. Ein negativer Prüfvermerk ist widerlegbar; Originaldatei und Signatur prüfen, nach Änderung erneut. Nicht auf gewöhnliche Verträge, Beratungsbriefe oder interne Entwürfe übertragen; keine Inhaltsbestätigung.
 
-## 1. Schnellmodus
+## 1. Ausgangsfassung lesen
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Bei leerer Eingabe biete Änderungsvereinbarung, kommentierte Vertragsüberarbeitung oder bereinigte Schriftsatzfassung an. Dateien ohne Aufgabe still lesen; nur bei unklarem Ziel zwei oder drei passende Dokumentwege anbieten, keine Materialschau. Bei klarem Auftrag sofort bearbeiten, nur entscheidende Lücken klären. Die jüngste Datei ist nicht automatisch freigegeben; Originale erhalten.
 
-## 2. Direktstart
+## 2. Den passenden Arbeitsweg ausführen
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Bei einem Layoutauftrag ändere nicht ungefragt ausgehandelte Klauseln oder rechtliche Positionen. Benenne inhaltliche Widersprüche gesondert. Bei rechtlicher Überarbeitung formuliere die erforderlichen Änderungen vollständig; bei einem neuen Entwurf setze Term Sheet und belegte Angaben in den Text um.
 
-## 3. Kernroute
+Vertrag: Verpflichteten, Leistung, Voraussetzungen, Fälligkeit und Rechtsfolge miteinander verbinden. Definitionen, Anlagen und Verweise konsistent halten. Bei AGB Parteistatus, Einbeziehung, Kontrolle und Rechtsfolge nach Paragrafen 305 bis 310 BGB unterscheiden. Bedingungen und Termine nicht gleichsetzen. Eine Haftungsbegrenzung anhand des konkreten Vertragstyps prüfen, nicht nur sprachlich glätten.
 
-1. Inventur: Datei, Dokumenttyp, Datum, Autor, Version, Signatur, Bezug und Lesbarkeit erfassen.
-2. Fundstellenlinie: jede Aussage, Zahl, Klausel und Frist mit Dokument, Seite, Zelle oder Nachricht verbinden.
-3. Konsistenzprüfung: Dublette, Widerspruch, fehlende Anlage, Rechenabweichung, Copy-Paste-Fehler und Versionsbruch markieren.
-4. Bearbeitung: Zielstruktur, Priorität, Redline, Tabelle, Entwurf oder Exportformat bestimmen und reproduzierbar ausführen.
-5. Übergabe: Ergebnis, Quellen, offene Lücken, geprüfte Version, Dateinamen und nächste Handlung dokumentieren.
-6. Inventur und Version: Datei, Typ, Datum, Autor, Fassung, Signatur, Dublette, Lesbarkeit und maßgeblichen Stand erfassen.
+Schriftsatz: Antrag, Sachverhalt, Beweismittel und tragende Begründung aus den Belegen entwickeln. Bei Klageerwiderung einzelne Behauptungen nach Paragraf 138 ZPO behandeln. Keine pauschale Gegenposition an die Stelle erforderlicher konkreter Erklärung setzen. Fehlende Anlagen anfordern und vorhandene Nummern fortführen; eine Replik beginnt nicht automatisch erneut mit K1.
 
-## 4. Fallkarte
+Mandantenbrief: Ergebnis, verständliche Begründung und Empfehlung nennen. Interne Recherchenotizen bleiben außerhalb des Empfängertextes. Ein Gutachten beantwortet die gestellte Frage; es benötigt keine ungefragte Klage als Zusatz.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 126, Paragraf 126a und Paragraf 126b; ZPO Paragraf 130a; ZPO Paragraf 138 und Paragraf 253 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Datei, Typ, Datum, Autor, Fassung, Signatur, Dublette, Lesbarkeit und maßgeblichen Stand erfassen |
-| Beweislast | Bearbeiter für Version, Fundstelle, Rechenweg und Übergabe; offene oder widersprüchliche Originaldaten werden nicht stillschweigend harmonisiert |
-| Rechtsfolge | Dokumentenregister, Abweichungsmatrix, Redline, Prüftabelle, Entwurf, Exportpaket oder Übergabevermerk |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Zweisprachiger Vertrag: anwendbares Recht und Rang der Sprachfassungen bestimmen. Englische Sprache macht aus einem deutschen Vertrag keinen US-Vertrag. Definitionen, Beträge, Ausnahmen und Fristen in beiden Fassungen abgleichen. Bei einer Sprachänderung die betroffenen Parallelstellen nachführen.
 
-## 5. Einsatzfelder
+## 3. Kommentare, Rückfragen und Änderungen
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Inventur und Version | Datei, Typ, Datum, Autor, Fassung, Signatur, Dublette, Lesbarkeit und maßgeblichen Stand erfassen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fundstellenlinie | jede Aussage, Zahl, Klausel und Frist auf Dokument, Seite, Absatz, Zelle oder Nachricht zurückführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vergleich und Redline | Einfügung, Streichung, Widerspruch, fehlende Anlage, Rechenabweichung und materielle Auswirkung markieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Tabellen- und Rechenprüfung | Formel, Einheit, Bezugszelle, Rundung, Summenprobe, Filter und Exportverlust kontrollieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Entwurf und Format | Zielgruppe, Dokumenttyp, Gliederung, Form, Signatur, Anlagen und Einreichungskanal vor Ausgabe festlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Übergabe und Nachweis | Ergebnisdatei, Quellen, offene Lücke, Prüfschritt, Dateiname, Freigabestatus und nächste Handlung protokollieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Unterscheide freigegebene Anweisungen, Vorschläge und offene Entscheidungen. Bei widersprüchlichen Kommentaren frage nach der konkreten Auswahl und erläutere die Auswirkung. Bereits bearbeitbare Abschnitte weiterführen.
 
-## 6. Anker
+Nach Antwort die gewählte Fassung in Text, Definitionen und Anlagen einarbeiten. Entsteht eine weitere entscheidende Lücke, gezielt nachfragen. Nicht erneut mit der allgemeinen Aufnahme beginnen und nicht nach bloßer Analyse abbrechen.
 
-- BGB Paragraf 126, Paragraf 126a und Paragraf 126b: Schriftform, elektronische Form und Textform.
-- ZPO Paragraf 130a: Anforderungen an elektronische Dokumente im gerichtlichen Verfahren.
-- ZPO Paragraf 138 und Paragraf 253: Tatsachenvortrag, Erklärungslast, Antrag und Streitgegenstand.
-- ZPO Paragraf 286 und Paragraf 371a: Beweiswürdigung und Beweiskraft elektronischer Dokumente.
+Stehen im Term Sheet 30 und im Vertrag 14 Tage Zahlungsfrist, kläre die verbindliche Absprache und den Auslöser, etwa Rechnungszugang. Nach Antwort Klausel und Anlagen angleichen. Ein Kommentar „Haftung auf Jahresvergütung“ verlangt die konkrete Bezugsperiode und Prüfung vorhandener Ausnahmen. Bei widersprüchlichem Lieferschein tatsächlichen Lieferablauf klären; nach Antwort Bestreiten, Gegenvortrag und Beweisbezug ändern. Ungünstige Belege nicht verschweigen und keine bloße Sprachkorrektur in ein Tatsachenzugeständnis verwandeln.
 
-## 7. Antwortform
+Kläre anhand des Auftrags, ob eine saubere Lesefassung, ein kommentierter Entwurf oder echte Änderungsverfolgung erforderlich ist. Roter Text oder eine Tabelle „alt/neu“ ist keine echte Word-Revision. Änderungen nicht pauschal annehmen, solange die Entscheidung offen ist. Ohne Revisionstechnik die angebotene Vergleichsdarstellung ausdrücklich als solche bezeichnen.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Dokumentenregister: Datei, Typ, Datum, Version, Autor, Signatur, Bezug, Fundstelle, Status und Lücke; Abweichungsmatrix: Punkt, Quelle A, Quelle B, Unterschied, Auswirkung, Klärung und Verantwortlicher.
+## 4. Word-Datei gestalten
 
-## 8. Stop
+Verwende die vorhandene Kanzleivorlage; andernfalls Times New Roman 11 pt und dezimale Gliederung mit Leerzeilen. Nutze Formatvorlagen und stabile Nummerierung statt Leerzeichenketten. Prüfe Tabellenbreiten, wiederholte Tabellenköpfe, Seitenwechsel, Kopf- und Fußzeilen sowie Unterschriftsbereich.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Aktualisiere Inhaltsverzeichnis und Querverweise nach Umstellungen. Gleiche Anlagenverzeichnis und vorhandene Dateien ab. Erfinde keine Briefkopfdaten, Anlagen oder Unterschriften.
+
+Prüfe Kommentare, Revisionen, ausgeblendeten Text, Felder, eingebettete Objekte und Metadaten. Unsichtbar ist nicht gelöscht. Vertrauliche Hinweise nur aus einer gesonderten Empfängerkopie entfernen, soweit beauftragt; Originale erhalten.
+
+## 5. Form und tatsächliche Ausgabe prüfen
+
+Formfragen nach Paragrafen 126, 126a und 126b BGB vom Layout unterscheiden. Ein Unterschriftsbild ist keine qualifizierte elektronische Signatur. Für gerichtliche elektronische Dokumente Paragraf 130a ZPO und aktuelle technische Vorgaben prüfen; Signatur, verantwortende Person und Versandweg getrennt betrachten.
+
+Zwei einfache Signaturen sind bei persönlichem Versand durch den verantwortenden, selbst einfach signierenden Anwalt unschädlich: [BGH, Urteil vom 11.03.2026 – I ZR 106/25, Rn. 19–24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZR_106-25.pdf?__blob=publicationFile&v=1). Namen und tatsächlichen Absender abgleichen. Gesellschaftspostfach ausdrücklich offengelassen; Mitarbeiter-Versand gesondert prüfen.
+
+Öffne die erzeugte Datei erneut und kontrolliere die dargestellten Seiten. Prüfe insbesondere abgeschnittene Tabellen, verrutschte Verweise, Unterschriften und versehentlich sichtbare Kommentare. Bei PDF-Export auch die PDF prüfen. Keine Sichtprüfung behaupten, wenn nur Text ausgelesen werden konnte. Keine Makros oder aktiven Inhalte fremder Dokumente ausführen.
+
+## 6. Vollständig liefern und bei Antworten fortsetzen
+
+Liefere das bestellte Dokument unter dem gewünschten Dateinamen. Eine Prüfliste ersetzt keine fertige Fassung. Erläutere kurz verbleibende offene Punkte getrennt vom Empfängertext. Ist etwas Entscheidendes ungeklärt, kennzeichne die betroffene Stelle und frage nach dem konkreten Beleg. Nach Eingang korrigiere die abhängigen Teile und liefere die vollständige neue Fassung.
+
+Prüfe rechtliche Aussagen nur im beauftragten Umfang anhand amtlicher Quellen. Ausgangspunkte: [BGB](https://www.gesetze-im-internet.de/bgb/) und [ZPO](https://www.gesetze-im-internet.de/zpo/). Keine erfundenen Entscheidungen zur Ausschmückung.
+
+Keine Originaldatei überschreiben, Signatur setzen oder Einreichung auslösen. Ohne Export den vollständigen Text liefern und keinen Dateilink erfinden. Bei technischen Fehlern einen geeigneten Alternativweg versuchen; bleibt dieser erfolglos, nur den abhängigen Schritt als offen kennzeichnen. Ohne weitere Skills hier weiterarbeiten.

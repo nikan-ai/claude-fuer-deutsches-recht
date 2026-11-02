@@ -1,6 +1,6 @@
 ---
 name: stb-bwa-sus-bilanz-pruefung
-description: "Wenn es um BWA-, SuSa- und Bilanzpruefung bei Krisensignalen in Steuerrecht – Steuerberater und Anwälte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für BWA-, SuSa- und Bilanzprüfung bei Krisensignalen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # BWA-, SuSa- und Bilanzpruefung bei Krisensignalen
@@ -11,7 +11,7 @@ Dieser Skill prueft Rechnungswesenunterlagen einer GmbH, UG oder haftungsbeschra
 
 - §§ 17, 18, 19 InsO fuer Zahlungsunfaehigkeit, drohende Zahlungsunfaehigkeit und Ueberschuldung.
 - § 15a InsO fuer Antragspflicht.
-- § 102 StaRUG fuer Hinweis- und Warnpflichten bei Krisenanzeichen.
+- Paragraf 102 StaRUG nur bei Jahresabschlusserstellung, offenkundigen Anhaltspunkten und vermuteter Unkenntnis des Mandanten; BWA und SuSa sind lediglich mögliche Belegquellen.
 - §§ 34, 69 AO fuer steuerliche Vertreter- und Haftungsrisiken.
 - § 43 GmbHG fuer Geschaeftsfuehrerpflichten.
 

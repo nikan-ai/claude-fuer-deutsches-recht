@@ -1,6 +1,6 @@
 ---
 name: orientierung-miet-weg-fristen
-description: "Wenn es um Orientierung Miet Weg Fristen in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Orientierung Miet WEG Fristen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Fachanwalt Miet Wohnungseigentumsrecht Orientierung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -24,8 +24,6 @@ Einstieg in den **Fachanwaltsbereich Miet- und Wohnungseigentumsrecht**. Er klä
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Orientierung Miet- und Wohnungseigentumsrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -50,7 +48,7 @@ Einstieg in den **Fachanwaltsbereich Miet- und Wohnungseigentumsrecht**. Er klä
 - **Wohnungseigentumsgesetz (WEG, Fassung seit 01.12.2020):** Ordnungsmäßige Verwaltung §§ 18 ff. WEG, Versammlung und Beschlussfassung §§ 23, 24 WEG, Beschlussanfechtung § 44 WEG, Verwaltungsbeirat § 29 WEG.
 - **BetrKV** und **HeizkostenV** für Nebenkostenabrechnung.
 - **§ 556d ff. BGB Mietpreisbremse**, soweit landesrechtliche Verordnung vorliegt. Verlaengerung bis 31.12.2029 durch Gesetz v. 17.07.2025 (BGBl. 2025 I Nr. 163, in Kraft 23.07.2025).
-- **GEG 2024** (Gebaeudeenergiegesetz, in Kraft 01.01.2024): § 71 GEG 65-Prozent-Pflicht erneuerbare Energien für neue Heizungen; § 71f GEG Uebergangsregelung an kommunale Waermeplanung gekoppelt (Gemeinden > 100.000 Einwohner: bis 30.06.2026; > 10.000: bis 30.06.2028 nach § 5 GEG).
+- **Heizungsrecht, Stand 30.09.2026:** Das geltende [Gebäudemodernisierungsgesetz (GModG)](https://www.gesetze-im-internet.de/geg/BJNR172810020.html) ersetzt die bisherigen Heizungsregeln; §§ 71–73 GEG sind weggefallen. Für den Austausch in bestehenden Gebäuden §§ 42–46 GModG nach System und Einbaudatum prüfen, insbesondere die Brennstoff-/Hybridregeln des § 43. Keine aktuelle allgemeine 65-Prozent-Pflicht aus § 71 GEG ableiten. Historische Sachverhalte nach damaliger Fassung und Übergangsrecht beurteilen. Kommunale Wärmeplanung folgt dem WPG, nicht § 5 GEG; sie ist kein eigenständiger individueller Austauschbefehl. Für Beschlussmehrheit, Kosten nach §§ 16/21 WEG und Mietumlage §§ 559e/559f BGB den Wärmepumpen-Skill verwenden.
 - **CO2KostAufG:** Wohngebäude mit Stufenmodell (§§ 5 bis 7 CO2KostAufG); Nichtwohngebäude derzeit § 8 Abs. 1 und 2 CO2KostAufG mit hälftiger Aufteilung bzw. maximal 50 Prozent Mieteranteil. Ein Stufenmodell für Nichtwohngebäude ist nach der Evaluation 04/2026 weiter Prüf- und Entwicklungsthema, aber noch nicht geltendes Abrechnungsmodell.
 
 ## Typische Mandate

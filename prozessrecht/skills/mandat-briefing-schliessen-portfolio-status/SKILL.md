@@ -1,6 +1,6 @@
 ---
 name: mandat-briefing-schliessen-portfolio-status
-description: "Wenn es um Mandat-Briefing in Prozessrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Mandat-Briefing: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Mandat-Briefing
@@ -53,8 +53,6 @@ description: "Wenn es um Mandat-Briefing in Prozessrecht geht: erstellt den pass
 
 Verbindlich: `../references/zitierweise.md`.
 
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 ## Ausgabeformat
@@ -112,6 +110,4 @@ Vergleichspotential: [Einschätzung]
 - **Fristversäumnis-Risiko:** Das Briefing ersetzt nicht den Fristenkalender; jede Frist muss separat in das Kanzlei-Fristbuch eingetragen werden.
 - **Vertraulichkeit des Briefings:** Das Briefing enthält Mandatsgeheimnisse; Empfängerkreis sorgfältig wählen (Paragraf 43a Abs. 2 BRAO); nicht per unverschlüsselter E-Mail versenden.
 
-<!-- AUDIT 27.05.2026
-Halluzinierte Referenz geloescht. Keine Ersatzquelle gefunden.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

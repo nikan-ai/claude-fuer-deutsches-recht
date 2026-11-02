@@ -1,6 +1,6 @@
 ---
 name: mechanik-erstpruefung-und-mandatsziel
-description: "Wenn es um Mechanik: Erstprüfung, Rollenklärung und Mandatsziel in europäischem Technikregulierungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Mechanik Erstpruefung Und Mandatsziel; Arbeitsfeld: europäischem Technikregulierungsrecht."
+description: "Für Mechanik: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: europäischem Technikregulierungsrecht. Route: mechanik-erstpruefung-und-mandatsziel."
 ---
 
 # Mechanik: Erstprüfung, Rollenklärung und Mandatsziel
@@ -18,15 +18,13 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Art. 5 Verbote ab 02.02.2025, Art. 51-55 GPAI ab 02.08.2025, Art. 50 Transparenz ab 02.08.2026, Hochrisiko Anhang III nach Digital-Omnibus-Zeitstrahl spätestens ab 02.12.2027, Anhang I spätestens ab 02.08.2028; vor Außenverwendung amtlichen Stand prüfen.
-- Tragende Normen verifizieren: KI-VO (EU 2024/1689) Art. 3, 5 (Verbote), 6 (Hochrisiko), 8-15 (Anforderungen), 16, 26 (Pflichten Anbieter/Betreiber), 50 (Transparenz), 51-55 (GPAI), 73, 99 (Sanktionen) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter, Betreiber, Importeur, Händler, Marktüberwachungsbehörde (BNetzA/BMDV), benannte Stelle, EU-AI-Office, AI Board.
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung Art. 47, technische Dokumentation Anhang IV, Risikomanagement-System Art. 9, Datengovernance Art. 10, FRIA (Fundamental Rights Impact Assessment) Art. 27, EU-Datenbank-Registrierung Art. 49 — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: bisherige Verbote seit 02.02.2025, neue Verbote ab 02.12.2026; GPAI und Transparenz nach eigener Regel. Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, Anhang I ab 02.08.2028; Artikel 111 und 113 sowie einschlägige Zuständigkeit prüfen.
+- Tragende Normen verifizieren: KI-VO (EU 2024/1689) Art. 3, 5 (Verbote), 6 (Hochrisiko), 8-15 (Anforderungen), 16, 26 (Pflichten Anbieter/Betreiber), 50 (Transparenz), 51-55 (GPAI), 73, 99 (Sanktionen) — Unionsnormen in der aktuellen EUR-Lex-Fassung lesen; nationale Normen und Rechtsprechung an ihrer zuständigen amtlichen Quelle prüfen. Keine Modellwissen-Zitate und keine Suchauszüge als Volltextprüfung ausgeben.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter, Betreiber, Importeur, Händler, für den konkreten Bereich zuständige Marktüberwachungsbehörde, benannte Stelle, EU-AI-Office, AI Board.
+- Nur für den festgestellten Pflichtzweig benötigte Belege anfordern. Artikel 9 betrifft Systemrisiken, Artikel 17 das Qualitätsmanagement des Anbieters und Artikel 27 nur bestimmte Betreiber. Ein Risikoregister ersetzt keines dieser Produkte. Bei behaupteter Konformität die konkrete Systemfassung und gesetzliche Bewertungsroute, bei behaupteter Registrierung den zutreffenden Artikel-49-Zweig und Zugangsnachweis prüfen.
 
 ## Spezialwissen: Mechanik: Erstprüfung, Rollenklärung und Mandatsziel
 - **Normen-/Quellenanker:** KI, VO, EU, GPAI, Art. 43, CE, DB.
@@ -59,8 +57,8 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Art. 5 Verbote**: gilt ab **02.02.2025**.
 - **GPAI-Pflichten (Art. 51-55)** und **Governance (Art. 57 ff.)**: gilt ab **02.08.2025**.
 - **Art. 50 Transparenzpflichten** und nicht verschobene allgemeine Pflichten: ab **02.08.2026** einplanen.
-- **Anhang III Hochrisiko**: nach aktuellem Digital-Omnibus-Zeitstrahl spätestens ab **02.12.2027** einplanen; endgültigen Normtext und Kommissionsstand prüfen.
-- **Hochrisiko unter Anhang I (Sicherheitsbauteile bestehender Produktrichtlinien)**: nach aktuellem Digital-Omnibus-Zeitstrahl spätestens ab **02.08.2028** einplanen; sektorale Produktregeln gesondert prüfen.
+- **Anhang III Hochrisiko**: nach Artikel 113 in der Fassung 2026/1744 ab **02.12.2027** einplanen; Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 und Bestand nach Artikel 111 getrennt prüfen.
+- **Hochrisiko unter Anhang I (Sicherheitsbauteile bestehender Produktrichtlinien)**: nach Artikel 113 in der Fassung 2026/1744 ab **02.08.2028** einplanen; sektorale Produktregeln gesondert prüfen. Die verschobenen Pflichten betreffen Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5; Bestand nach Artikel 111 getrennt prüfen.
 
 ## Mandatsziel präzisieren
 - **Compliance-Roadmap** für Anbieter: typischerweise 6-18 Monate je nach Risikoklasse.

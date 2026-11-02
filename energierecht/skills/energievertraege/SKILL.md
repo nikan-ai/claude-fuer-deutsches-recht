@@ -1,6 +1,6 @@
 ---
 name: energievertraege
-description: "Wenn es um Energie-Verträge — Strukturierung und Prüfung in Energierecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Energie-Verträge — Strukturierung und Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Energie-Verträge — Strukturierung und Prüfung
@@ -70,7 +70,6 @@ description: "Wenn es um Energie-Verträge — Strukturierung und Prüfung in En
 
 ### Wirksamkeits-Kriterien BGH
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Häufige Klausel-Fehler
 
@@ -128,7 +127,6 @@ description: "Wenn es um Energie-Verträge — Strukturierung und Prüfung in En
 
 ### BGH-Linie
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BGH EnVR-Linie zu Übernahme-Bedingungen
 
 ## Schritt 5 — Industrie-Sondervertrag
@@ -166,7 +164,6 @@ Kern-Punkte hier:
 
 - AVBFernwärmeV als Standard-AGB
 - Preisanpassungs-Klauseln nach § 24 Abs. 4 AVBFernwärmeV
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Vertragsdauer max. 10 Jahre + Verlängerung
 
 ## Schritt 7 — Mieterstrom-Vertrag
@@ -252,9 +249,9 @@ Kern-Punkte:
 ## Aktuelle Rechtsprechung & Leitsätze (Stand 05/2026, verifiziert dejure.org / curia.europa.eu)
 
 - **EuGH 23.10.2014, C-359/11 (Schulz)**: Preisanpassungsklauseln in Strom-/Gaslieferungsvertraegen nach AVBEltV/GVV — Änderungen müssen rechtzeitig mitgeteilt werden, Verbraucher muss Kuendigungsrecht haben. Quelle: curia.europa.eu (CELEX 62011CJ0359).
-- **BGH 28.10.2015, VIII ZR 158/11**: Preisanpassung Energielieferungsvertrag — § 5 Abs. 2 GasGVV Transparenz-Anforderungen; AGB-Kontrolle § 307 BGB. Quelle: dejure.org/2015,33580.
-- **BGH 24.03.2010, VIII ZR 178/08**: Preisaenderungsklauseln in Sondervertraegen Strom/Gas — wirksame Indexbindung erfordert klare Berechnungsformel. Quelle: dejure.org/2010,5874.
-- **BGH 09.02.2011, VIII ZR 295/09**: Billigkeit der Leistungsbestimmung § 315 BGB; Beweislast Versorger für Billigkeit. Quelle: dejure.org/2011,4286.
+- **BGH 28.10.2015, VIII ZR 158/11**: Aus den damaligen gesetzlichen Vorschriften ließ sich nach der EuGH-Entscheidung kein transparentes gesetzliches Preisänderungsrecht mehr herleiten. Der BGH entwickelte für unbefristete Grundversorgungsverträge eine ergänzende Vertragsauslegung: Bezugskostensteigerungen dürfen nur weitergegeben werden, soweit ihnen keine Kostensenkungen gegenüberstehen; zusätzliche Gewinne sind nicht umfasst. Quelle: dejure.org/2015,33580.
+- **BGH 24.03.2010, VIII ZR 178/08**: Auch eine verständliche und nach dem Preisklauselgesetz zulässige Spannungsklausel unterliegt der Inhaltskontrolle. Die alleinige Bindung des Gasarbeitspreises an Heizöl benachteiligte den Kunden unangemessen, weil sinkende sonstige Gestehungskosten unberücksichtigt blieben. Quelle: dejure.org/2010,5874.
+- **BGH 09.02.2011, VIII ZR 295/09**: Das gesetzliche Preisänderungsrecht der früheren AVBGasV galt nicht unmittelbar für einen aus Kundensicht außerhalb der allgemeinen Tarife geschlossenen Sonderkundenvertrag. Vertragstyp, einbezogene Klausel, Preissockel und rechtzeitiger Widerspruch sind vor einer Billigkeitskontrolle zu bestimmen. Quelle: dejure.org/2011,4286.
 - **EuGH 02.09.2021, C-718/18**: Unabhaengigkeit der Bundesnetzagentur als Regulierungsbehoerde. Quelle: curia.europa.eu.
 
 **Gesetzeslage 2026:** EnSiG (Energiesicherungsgesetz) — § 24 Anpassungsklauseln bei Gasmangellage (BGBl. I 2022 S. 1054); EnWG-Novellen 2023/2024.
@@ -284,3 +281,5 @@ Weitere Aktenzeichen vor Ausgabe per dejure.org / curia.europa.eu verifizieren.
 - EuGH C-359/11 (Schulz, 23.10.2014); BGH VIII ZR 158/11 (28.10.2015); BGH VIII ZR 178/08 (24.03.2010); BGH VIII ZR 295/09 (09.02.2011); EuGH C-718/18 (02.09.2021)
 - DIS / ICC Schieds-Standards
 - Schiedsstelle Energie
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

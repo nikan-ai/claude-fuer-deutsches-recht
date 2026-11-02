@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-steuerrecht
-description: "Wenn es um Mandat-Triage Steuerrecht in Steuerrecht – Steuerberater und Anwälte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandat-Triage Steuerrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Mandat-Triage Steuerrecht
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Fachlicher Anker
 
 - **Normen:** § 6a, § 355 AO, § 356 AO.
@@ -30,10 +28,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 - **Spezialfrage (Mandat-Triage Steuerrecht):** Strukturierte Erstabfrage und Triage bei Eingang eines steuerrechtlichen Mandats. Anwendungsfall Mandant meldet sich mit Steuerproblem Art und Dringlichkeit noch unklar. Klaert Mandantenrolle Steuerart ESt KSt GewSt USt ErbSt GrESt Vorgang Festsetzungsbescheid Änderungsbescheid Schaetzungsbescheid Haftungsbescheid Aussenprüfung Selbstanzeige AdV verbindliche Auskunft Klage FG. Sofort-Fristen Einspruch § 355 AO ein Monat Jahresfrist § 356 AO Klage § 47 FGO. Eskalation Telefon-Sofort bei Selbstanzeige-Bedarf Hausdurchsuchung Steuerfahndung drohender Vollziehung. Output Triage-Ergebnis Fristenprotokoll naechste Schritte. Abgrenzung zu anw-kaltstart-interview Kanzlei-Konfiguration.
 - **Arbeitsweise:** Erst Sachverhalt, Norm, Frist, Zuständigkeit und Beweis klären; Rechtsprechung nur verifiziert als tragenden Beleg einsetzen.
-
-## Aktuelle Rechtsprechung (Orientierung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ablauf — acht Fragen
 
@@ -193,3 +187,5 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - BFH Std.Spruch
 - Tipke/Lang Steuerrecht
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: befristungsabrede-qes-rechtsprechung-stand-2026
-description: "Wenn es um Befristungsabrede — qES-Rechtsprechung Stand 2026 in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Befristungsabrede — qES-Rechtsprechung Stand 2026: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Befristungsabrede — qES-Rechtsprechung Stand 2026
@@ -107,10 +107,9 @@ Für **Kündigung** und **Aufhebungsvertrag** gilt Paragraf 623 BGB: Schriftform
 
 | Vorgang | Form | qES möglich? |
 |----|----|----|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Kündigung des Arbeitsverhältnisses (Paragraf 623 BGB) | Schriftform — elektronische Form ausgeschlossen | direkt nein; Paragraf 46h ArbGG im Prozess prüfen |
 | Aufhebungsvertrag (Paragraf 623 BGB) | Schriftform — elektronische Form ausgeschlossen | direkt nein; Paragraf 46h ArbGG im Prozess prüfen |
-| Arbeitszeugnis (Paragraf 109 GewO) | Schriftform — elektronische Form ausgeschlossen | **Nein** |
+| Arbeitszeugnis (Paragraf 109 GewO) | Papierform oder mit Einwilligung elektronische Form | ja, mit Einwilligung und qES nach Paragraf 126a BGB |
 
 ## Templates und Hinweise
 

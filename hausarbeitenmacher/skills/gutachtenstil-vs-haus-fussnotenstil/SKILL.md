@@ -1,6 +1,6 @@
 ---
 name: gutachtenstil-vs-haus-fussnotenstil
-description: "Wenn es um Gutachtenstil und Urteilsstil in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gutachtenstil und Urteilsstil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gutachtenstil und Urteilsstil
@@ -18,9 +18,6 @@ description: "Wenn es um Gutachtenstil und Urteilsstil in hausarbeitenmacher —
 2. Welcher Punkt ist streitig und erfordert volle Vier-Schritte-Subsumtion?
 3. Welche Punkte sind offensichtlich klar und dürfen im gedraengten Stil behandelt werden?
 4. Wurde der Obersatz hypothetisch formuliert ("koennte", "duerfte") oder verrät er schon das Ergebnis?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 313 Abs. 3 ZPO — Begruendungspflicht für Urteile: Urteilsstil als Vorbild für Schriftsaetze
@@ -232,3 +229,5 @@ Lies Deinen Text laut. Wenn er
 - `subsumtion-schritt-für-schritt` — Subsumtions-Übung
 - `gliederung-mit-tiefenstruktur` — Gliederung erstellen
 - `meinungsstreit-darstellen` — Bei Streit-Punkten
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

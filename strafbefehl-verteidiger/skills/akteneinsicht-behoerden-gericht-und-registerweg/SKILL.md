@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-behoerden-gericht-und-registerweg
-description: "Wenn es um Akteneinsicht: Behörden-, Gerichts- oder Registerweg in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Akteneinsicht: Behörden-, Gerichts- oder Registerweg: ordnet Akte, Belege und Lücken; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Akteneinsicht: Behörden-, Gerichts- oder Registerweg
@@ -50,25 +50,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46 StGB
-- § 69 StGB
-- § 40 StGB
-- § 44 StGB
-- § 17 StGB
-- § 69a StGB
-- § 1 StGB
-- § 15 StGB
-- § 16 StGB
-- § 42 StGB
-- § 43 StGB
-- § 201 StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

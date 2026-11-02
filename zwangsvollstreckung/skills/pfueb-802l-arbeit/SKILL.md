@@ -1,13 +1,13 @@
 ---
 name: pfueb-802l-arbeit
-description: "Wenn es um PfÜB Mieter, Finanzamt, sonstige Drittschuldner in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für PfÜB Mieter, Finanzamt, sonstige Drittschuldner: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # PfÜB Mieter, Finanzamt, sonstige Drittschuldner
 
 ## Arbeitsbereich
 
-Gläubiger will Mietforderung Steuererstattung oder Forderung gegen sonstigen Drittschuldner pfaenden. §§ 829 835 851 850b ZPO sonstige Drittschuldner. Prüfraster: Mieter Mietzinsforderung Finanzamt Steuererstattung Kranken-kasse Krankengeld Versicherung Rückkaufswert Geschäftspartner Rechnungen. § 851 ZPO Unuebertragbarkeit § 850b ZPO bedingt pfaendbar. Output: PfUeB-Antrag sonstiger Drittschuldner. Abgrenzung zu zv-pfueb-bank (Bank) und zv-pfueb-arbeitsentgelt (Lohn). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Gläubiger will Mietforderung Steuererstattung oder Forderung gegen sonstigen Drittschuldner pfaenden. §§ 829 835 851 850b ZPO sonstige Drittschuldner. Prüfraster: Mieter Mietzinsforderung Finanzamt Steuererstattung Kranken-kasse Krankengeld Versicherung Rückkaufswert Geschäftspartner Rechnungen. § 851 ZPO Unuebertragbarkeit § 850b ZPO bedingt pfaendbar. Output: PfUeB-Antrag sonstiger Drittschuldner. Abgrenzung zu pfueb-bank (Bank) und pfueb-arbeitsentgelt (Lohn). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -70,9 +70,6 @@ Pfändung der Mietforderung. Wichtige Punkte:
 
 ## Leitentscheidungen
 
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabeformat

@@ -1,6 +1,6 @@
 ---
 name: aktualisierung-unverzueglich-adressatenkreis
-description: "Wenn es um Unverzuegliche Aktualisierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Unverzügliche Aktualisierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Unverzuegliche Aktualisierung
@@ -37,27 +37,6 @@ Nach einer Portalaktualisierung soll der Skill eine Wiedervorlage für den öffe
 4. `lastUpdateDate`, `validFromDate`, `fiscalYearUpdate.updateMissing`, `refusedAnything`, Regelungsvorhaben, Stellungnahmen, Personen und Finanzdaten prüfen.
 5. Abweichungen in `assets/templates/registerexport-diff.md` dokumentieren.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 LobbyRG
-- § 5 LobbyRG
-- § 2 LobbyRG
-- § 4 LobbyRG
-- § 1 LobbyRG
-- § 7 LobbyRG
-- § 6 LobbyRG
-- § 1 GeschGehG
-- Art. 21 GG
-- § 28 VwVfG
-- § 1 bis 7 LobbyRG
-- § 6b BMinG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
 
 ## Quellenanker
 

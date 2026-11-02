@@ -1,6 +1,6 @@
 ---
 name: aktenplan-beweisarchiv-amtstraeger
-description: "Wenn es um Aktenplan Und Beweisarchiv in Wahlkampfrecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Aktenplan und Beweisarchiv: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Aktenplan Und Beweisarchiv
@@ -74,22 +74,3 @@ Ordnet Finanzen, Freigaben, Daten, Plakate, Vorfälle, Presse, Ads, Verträge un
 - Keine BeckRS-, juris-, Kommentar- oder Aufsatzfundstellen aus Modellwissen.
 - Bei politischer Online-Werbung die Verordnung (EU) 2024/900, Plattformregeln, DSGVO/BDSG und die konkrete Anzeigenbibliothek prüfen.
 - Bei Spenden, Sponsoring und Sachleistungen das Parteiengesetz, Bundestagsverwaltungshinweise und interne Schatzmeisterei-Regeln prüfen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 BWahlG
-- § 18 BWahlG
-- § 19 BWahlG
-- § 26 BWahlG
-- § 32 BWahlG
-- § 49a BWahlG
-- § 5 PartG
-- § 25 PartG
-- § 31d PartG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

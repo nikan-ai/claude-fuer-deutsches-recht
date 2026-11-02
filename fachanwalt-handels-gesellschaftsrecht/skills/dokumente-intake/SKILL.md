@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Handels- und Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Handels- und Gesellschaftsrecht."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Fachanwalt Handels Gesellschaftsrecht** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -28,7 +26,7 @@ Dieser Dokumenten-Intake für **Fachanwalt Handels Gesellschaftsrecht** ordnet A
 
 - `ag-vorstandsvertrag-vorbereiten` — AG Vorstandsvertrag HGR
 - `aktionaersklage-anfechtung-paragraf-243-aktg` — Aktionaersklage Anfechtung Paragraf 243 AKTG
-- `anfechtungsklage-bgb-gesellschaft-bgh-ii-zr-66-20` — Anfechtungsklage BGB Gesellschaft BGH II ZR 66 20
+- `beschlussmaengel-personengesellschaft-pruefen` — Beschlussmängel in Personengesellschaften prüfen
 - `einstieg-schnelltriage-fallrouting` — FA Handels Gesellschaft Start Chronologie Fristen
 - `erstpruefung-und-mandatsziel` — Fachanwalt FAO Gesellschafterstreit
 - `geschaeftsfuehrerhaftung-zahlen-schwellen-und-berechnung` — Geschäftsführerhaftung Holding
@@ -38,7 +36,7 @@ Dieser Dokumenten-Intake für **Fachanwalt Handels Gesellschaftsrecht** ordnet A
 - `gmbh-gf-haftung-paragraf-43-gmbhg` — Gmbh GF Haftung Paragraf 43 GMBHG
 - `gmbhg-schriftsatz-brief-und-memo-bausteine` — GMBHG Handels Handelsvertreterausgleich
 - `workflow-mandantenkommunikation` — Handels Gesellschaftsrecht Mandantenkommunikation Redteam
-- `hgb-einsichtsrecht-kommanditist-paragraf-166-hgb-bgh-ii-zr-31-21` — HGB Einsichtsrecht Kommanditist Paragraf 166 HGB BGH II ZR 31 21
+- `hgb-informationsrecht-kommanditist-paragraf-166` — Informationsrecht des Kommanditisten prüfen
 - `anschluss-routing` — Anschluss Routing
 - `einstieg-routing` — Einstieg Routing
 

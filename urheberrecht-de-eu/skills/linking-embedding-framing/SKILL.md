@@ -1,6 +1,6 @@
 ---
 name: linking-embedding-framing
-description: "Wenn es um Linking, Embedding und Framing in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Linking, Embedding und Framing: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Linking, Embedding und Framing
@@ -20,7 +20,7 @@ description: "Wenn es um Linking, Embedding und Framing in Urheberrecht DE EU ge
 
 ## Wofür dieser Arbeitsgang da ist
 
-Linking, Embedding und Framing schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Untersuche die konkrete Verlinkung oder Einbettung eines Inhalts. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke anhand der Beweise und verwende den Befund für die verlangte Risikobewertung, Antwort oder Plattforminformation.
 
 ## Sofortstart
 

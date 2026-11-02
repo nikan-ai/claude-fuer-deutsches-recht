@@ -1,6 +1,6 @@
 ---
 name: ausgabengruppen-systematik
-description: "Wenn es um Liqui: Ausgabengruppen in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Liqui: Ausgabengruppen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Liqui: Ausgabengruppen
@@ -49,27 +49,3 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 266a StGB
-- § 102 StaRUG
-- § 1 StaRUG
-- § 64 GmbHG
-- § 8b KStG
-- § 30 GmbHG
-- § 31 StaRUG
-- § 49 StaRUG
-- § 43 GmbHG
-- § 29 StaRUG
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BGH II ZR 296/05
-- BGH IX ZR 129/22
-- BGH II ZR 78/06
-- BGH IX ZR 122/23
-- BGH II ZR 206/22

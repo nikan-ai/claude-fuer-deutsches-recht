@@ -1,6 +1,6 @@
 ---
 name: kaltstart-routing
-description: "Wenn es um Allgemeiner Kaltstart und Routing in Staatsanwaltschaft Praxis-Einstieg geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Allgemeiner Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Staatsanwaltschaft Praxis-Einstieg."
 ---
 
 # Allgemeiner Kaltstart und Routing
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Kaltstart in fünf Schritten
 
@@ -45,13 +43,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 3. Ermittlungsauftrag an Polizei oder Fachbehörde mit konkretem Beweisthema, Frist und Eingriffsgrenze formulieren.
 4. Beschuldigtenrechte, Verletztenrechte, Zeugenschutz und dienstliche Verschwiegenheit sichtbar absichern.
 5. Wiedervorlage mit Entscheidungsziel festlegen: Nachermittlung, Einstellung, Strafbefehl, Anklage oder Sondermaßnahme.
-
-## Normen & Rechtsprechung
-
-- BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug bei Durchsuchungen ist eng zu verstehen und aktenkundig zu begründen.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Digitale Ermittlungsmaßnahmen brauchen eine tragfähige gesetzliche Grundlage, Richtervorbehalt und Kernbereichsschutz.
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigung und informelle Absprache dürfen die Wahrheitsfindung und Dokumentationspflicht nicht unterlaufen.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: EncroChat-Daten sind auf Rechtshilfeweg, Zuständigkeit, Verteidigungsrechte und Beweiszugang zu prüfen.
 
 ## Antrags- bzw. Verfügungs-Bausteine
 

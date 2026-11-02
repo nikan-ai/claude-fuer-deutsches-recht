@@ -1,6 +1,6 @@
 ---
 name: abmahnung-uwg
-description: "Wenn es um UWG-Abmahnung prüfen versenden oder auf Eingang reagieren in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für UWG-Abmahnung prüfen versenden oder auf Eingang reagieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # UWG-Abmahnung prüfen versenden oder auf Eingang reagieren
@@ -55,7 +55,6 @@ description: "Wenn es um UWG-Abmahnung prüfen versenden oder auf Eingang reagie
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema UWG-Abmahnung
 
@@ -235,7 +234,6 @@ und auf Ersatz unserer Abwehrkosten zu erheben.
 
 | Gegenargument | Herkunft | Reaktion |
 |--------------|---------|----------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Abmahnung ist missbräuchlich (§ 8c UWG)" | Abgemahnter | Gegenprüfung der Indizien; bei klaren Verstößen: Klage trotzdem zulässig und kostenpflichtig für Schuldner |
 | "Verstoß ist bagatellmäßig" | Abgemahnter | § 3 Abs. 1 UWG: "spürbar" Erfordernis; bei Schwarze-Liste-Verstößen keine Spürbarkeitserfordernis |
 | "Werbung ist Meinung, keine Tatsachenbehauptung" | Abgemahnter | Meinungsäußerung nur bei wertenden Aussagen ohne Tatsachenkern; gemischte Aussagen nach BGH-Kriterien aufteilen |
@@ -280,3 +278,4 @@ und auf Ersatz unserer Abwehrkosten zu erheben.
 - BGH I ZR 154/16: https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&az=I%20ZR%20154/16
 - BGH I ZR 45/11: https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&az=I%20ZR%2045/11
 - Zentrales Schutzschriftenregister: https://www.schutzschriftenregister.de/
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verlangen Sie bei einem beworbenen KI-Zertifikat Aussteller, geprüften Gegenstand, Systemversion und behauptete Rechtswirkung. Eine transparente Herkunftskennzeichnung ersetzt weder eine Lizenz noch den Nachweis einer Werbeaussage. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

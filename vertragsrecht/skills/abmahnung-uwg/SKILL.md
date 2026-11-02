@@ -1,6 +1,6 @@
 ---
 name: abmahnung-uwg
-description: "Wenn es um UWG-Abmahnung – Erstellung und Prüfung in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für UWG-Abmahnung – Erstellung und Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # UWG-Abmahnung – Erstellung und Prüfung
@@ -9,7 +9,6 @@ description: "Wenn es um UWG-Abmahnung – Erstellung und Prüfung in Vertragsre
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; §§ 305 ff. BGB, NDA, SaaS- — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -52,17 +51,13 @@ Das Modell benötigt folgende Informationen:
 
 ### Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Wiederholungsgefahr und die Beseitigungswirkung einer Unterlassungserklärung; eine
  eingeschränkt abgegebene UE beseitigt die Wiederholungsgefahr nur für den konkret bezeichneten
  Verletzungsfall.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Reichweite einer strafbewehrten Unterlassungserklärung; der Gläubiger muss konkret
  beschreiben, welche zukünftigen Handlungen erfasst sein sollen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Abmahnung": Die Abmahnung muss die beanstandete Verletzungshandlung so klar bezeichnen, dass
  der Abgemahnte die Berechtigung prüfen kann; andernfalls ist die Abmahnung unbeachtlich.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Dringlichkeitsvermutung im einstweiligen Verfügungsverfahren; selbst nach UWG-Reform 2021
  gilt die Dringlichkeitsfrist von 1 Monat ab Kenntnis als maßgeblich.
 
@@ -110,7 +105,6 @@ Produkt übertragbar. Der Mandant, die Quickprint AG, ist Mitbewerber im selben 
 Stiftung Warentest 2023" ist eine Angabe über wesentliche Merkmale des Produkts (Qualität,
 Prüfungsdatum). Sie ist unwahr, da das Testergebnis aus 2018 stammt. Die angesprochenen
 Verkehrskreise verstehen die Jahreszahl als Beleg eines aktuellen Tests; eine irreführende
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Einsatz der Werbung.
 
@@ -148,23 +142,4 @@ Az., Fundstelle, Rn., ggf. Kurzbezeichnung). Kommentarzitate mit Bearbeiter, Wer
 h. M. und Mindermeinung getrennt darstellen. Keine pauschalen "vgl."-Verweise ohne konkrete
 Seitenangabe.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 28 DSGVO
-- § 203 StGB
-- § 13 UWG
-- § 15 AktG
-- Art. 82 DSGVO
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-
-### Leitentscheidungen
-
-- EuGH C-249/21
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

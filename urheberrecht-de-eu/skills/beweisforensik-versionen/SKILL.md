@@ -1,6 +1,6 @@
 ---
 name: beweisforensik-versionen
-description: "Wenn es um Beweisforensik, Versionen und Hashes in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Beweisforensik, Versionen und Hashes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Beweisforensik, Versionen und Hashes
@@ -20,7 +20,7 @@ description: "Wenn es um Beweisforensik, Versionen und Hashes in Urheberrecht DE
 
 ## Wofür dieser Arbeitsgang da ist
 
-Beweisforensik, Versionen und Hashes schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Dokumentiere Herkunft, Entstehungszeit und Fassungen der relevanten Dateien mit den verfügbaren Nachweisen und Hashwerten. Ordne sie den Fragen zu Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung und Schranke zu; halte Beleglücken im verlangten Ergebnis fest.
 
 ## Sofortstart
 

@@ -1,6 +1,6 @@
 ---
 name: software-69a-computerprogramm
-description: "Wenn es um Computerprogramm nach Paragrafen 69a ff. UrhG in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Computerprogramm nach Paragrafen 69a ff. UrhG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Computerprogramm nach §§ 69a ff. UrhG
@@ -20,7 +20,7 @@ description: "Wenn es um Computerprogramm nach Paragrafen 69a ff. UrhG in Urhebe
 
 ## Wofür dieser Arbeitsgang da ist
 
-Dieser Arbeitsgang trennt Programm-Ausdruck von Funktion, Schnittstelle, Idee und technischem Ergebnis. Er arbeitet nicht mit Bauchgefühl, sondern baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Unterscheide die Ausdrucksform des Programms von Funktion, Schnittstelle, Idee und technischem Ergebnis. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke anhand der Beweise und bereite die verlangte Software-Schutz- oder Verletzungsprüfung vor.
 
 ## Sofortstart
 

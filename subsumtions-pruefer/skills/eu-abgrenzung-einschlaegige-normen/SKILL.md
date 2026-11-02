@@ -1,6 +1,6 @@
 ---
 name: eu-abgrenzung-einschlaegige-normen
-description: "Wenn es um Deutsches Recht und Unionsrecht — Abgrenzung in Subsumtions-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Deutsches Recht und Unionsrecht — Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Deutsches Recht und Unionsrecht — Abgrenzung
@@ -79,3 +79,4 @@ Entscheidungsbaum mit Schritt-für-Schritt-Prüfung: Liegt Unionsrechtsbezug vor
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie jedes Merkmal anhand eines bezeichneten Aktenbelegs und führen Sie die stärkste Gegenposition aus. Rechtsprechung zu verwandten Normen ist als begrenztes Argument und nicht als Ersatz des konkreten Tatbestands einzusetzen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

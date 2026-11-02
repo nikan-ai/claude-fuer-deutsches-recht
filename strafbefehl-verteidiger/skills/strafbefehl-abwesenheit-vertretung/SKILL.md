@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-abwesenheit-vertretung
-description: "Wenn es um Abwesenheit in der Hauptverhandlung — Paragraf 411 Abs. 2 StPO in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Abwesenheit in der Hauptverhandlung — Paragraf 411 Abs. 2 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abwesenheit in der Hauptverhandlung — § 411 Abs. 2 StPO
@@ -33,10 +33,6 @@ Mandant kann oder will zur Hauptverhandlung nach Strafbefehl-Einspruch nicht ers
 - **§ 44 StPO** — Wiedereinsetzung allgemein (s. separaten Skill)
 - **§ 231 StPO** — Unterbrechung bei Ausbleiben des Angeklagten (in der allgemeinen Hauptverhandlung; § 411 lex specialis)
 - **§ 213 StPO** — Terminbestimmung; Terminsverlegung möglich
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Entscheidungsbaum Abwesenheits-Strategie
 
@@ -88,3 +84,5 @@ Mit freundlichen Gruessen [KANZLEI]
 - Bei Verwerfung nach § 412 StPO: sofort Wiedereinsetzungsantrag (1-Woche-Frist § 45 StPO).
 - Mandant immer über Folgen des Nichterscheinens aufklaeren.
 - Anwaltliche Endkontrolle vor dem Termin.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,13 @@
 ---
 name: haftungsrisiko-rechtsanwalt-board-pack
-description: "Wenn es um Haftungsrisiko-Memo in Memorandums-Ersteller geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Haftungsrisiko-Memo: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Haftungsrisiko-Memo
 
 ## Arbeitsweg
+
+Bei neuen Gegenentscheidungen oder verschlechterter Beweislage gilt ergänzend [BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1): Bewerte selbst, wie sich die Erfolgsaussichten ändern, und berate den Mandanten schon vor völliger Aussichtslosigkeit erneut. Bloßer Versand der Parallelentscheidung oder der Hinweis, die Rechtsschutzversicherung zahle ohnehin, genügt nicht. Formuliere das ungefähre Risikomaß und den begründeten Rat zur Fortsetzung, Anpassung oder Beendigung neu; frage nach der darauf gestützten Entscheidung des Mandanten. Beratungspflicht, hypothetisches Verhalten, kausaler Schaden und Anscheinsbeweis bleiben getrennt. Der BGH hat die Haftung nicht abschließend zugesprochen.
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: Verjährung Anwaltshaftung § 195 BGB 3 Jahre, ggf. § 199 (Kenntnis), Mandatsannahme/Ablehnung unverzüglich, BRAO § 44 Annahme/Ablehnung.
@@ -14,7 +16,7 @@ description: "Wenn es um Haftungsrisiko-Memo in Memorandums-Ersteller geht: erst
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Memo (Sachverhalt, Frage, Kurzergebnis, Begründung, Risiko, Empfehlung), Akteneinsichtsantrag, Vollmacht, Honorarvereinbarung, Tatsachenpaket — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Spezialwissen: Haftungsrisiko-Memo
-- **Normen-/Quellenanker:** VVG.
+- **Normen-/Quellenanker:** Paragrafen 675 Absatz 1, 280 Absatz 1 BGB für anwaltliche Vertragshaftung. Versicherungsrecht nur für tatsächlich beauftragte Deckungsfragen; Rechtsschutzdeckung ersetzt die eigenständige Beratung zur Prozesschance nicht.
 
 ## Fallweichen
 Frage zu Beginn nur ab, was für den naechsten Schritt unverzichtbar ist. Wenn Material vorliegt, mit dem Material arbeiten und nur eine gezielte Rueckfrage stellen.

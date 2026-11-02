@@ -1,6 +1,6 @@
 ---
 name: anderkonto-und-verwahrung-kammerantwort-und-verfahrensst
-description: "Wenn es um Anderkonto Und Verwahrung Kammerantwort Und Verfahrensst in Berufsrecht Notare geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Anderkonto und Verwahrung Kammerantwort und Verfahrensst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notare: anderkonto und verwahrung - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
@@ -41,7 +41,7 @@ description: "Wenn es um Anderkonto Und Verwahrung Kammerantwort Und Verfahrenss
 Konkret zu prüfen:
 
 - § 23 BNotO (Notaranderkonto)
-- § 54a BeurkG
+- §§ 57 bis 60 BeurkG (Verwahrung, Durchführung und Widerruf)
 - DONot § 11
 - § 65 BNotO (Notarkammer)
 - § 92 BNotO (Aufsicht)

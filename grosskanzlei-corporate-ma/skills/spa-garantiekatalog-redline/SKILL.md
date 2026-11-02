@@ -1,6 +1,6 @@
 ---
 name: spa-garantiekatalog-redline
-description: "Wenn es um SPA-Garantiekatalog und Redline in Großkanzlei Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für SPA-Garantiekatalog und Redline: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 # SPA-Garantiekatalog und Redline
 
@@ -37,7 +37,6 @@ Arbeite je Garantie mit dieser Reihenfolge:
 
 ## Rechtsprechungs- und Normanker
 
-- BGH, 21.04.1997 - II ZR 175/95: Informationsgrundlage und Organpflichten als Leitbild für entscheidungsreife Risikoaufbereitung.
 - BGH, 20.11.2018 - II ZR 12/17: Legitimationswirkung der Gesellschafterliste bei GmbH-Anteilen als Anker für Title-Prüfungen.
 - Paragraf 433 und 434 sowie Paragraf 444 BGB: Sachmangel- und Haftungslogik nur als Ausgangspunkt, vertragliche Garantie bleibt eigenständig auszulegen.
 - Paragraf 15 und 16 sowie Paragraf 40 GmbHG: Abtretung, Gesellschafterliste und Registerunterlagen bei Anteilskäufen.

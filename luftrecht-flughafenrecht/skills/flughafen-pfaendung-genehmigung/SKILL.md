@@ -1,6 +1,6 @@
 ---
 name: flughafen-pfaendung-genehmigung
-description: "Wenn es um Flughafen – Pfändung planen in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Flughafen – Pfändung planen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Flughafen – Pfändung planen
@@ -70,7 +70,7 @@ Die Pfändung eines Luftfahrzeugs erfordert besondere Vorbereitung:
 - **Standortermittlung**: Aktueller Flugplan (ATC) und Flughafenslotbelegung geben Aufschluss über Standort; Abstimmung mit Flughafenoperator nötig.
 - **Arrestantrag**: Zuständiges Gericht am Belegenheitsort; Arrestgrund glaubhaft machen.
 - **Betriebsunterbrechung**: Pfändung eines Linienflugzeugs löst Betriebsunterbrechung aus; Schadensersatz bei unberechtigtem Arrest.
-- **Cape Town Priorität**: Vor Pfändung ICAO-Register prüfen; vorrangige Sicherungsinteressen können Arrest verhindern.
+- **Internationale Sicherheiten**: Nur bei belegtem Vertragsstaatenbezug ein Search Certificate des International Registry auswerten; Rang, Rechtsbehelf und Wirkung im Vollstreckungsstaat gesondert prüfen.
 
 ## Quellen
 
@@ -95,7 +95,7 @@ Für Mandate im Bereich Flughafenbetrieb und Planfeststellung sind folgende Doku
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

@@ -1,6 +1,6 @@
 ---
 name: stalking-vs-kontaktkonflikt
-description: "Wenn es um Stalking Paragraf 238 StGB in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Stalking Paragraf 238 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Stalking § 238 StGB
@@ -16,6 +16,8 @@ description: "Wenn es um Stalking Paragraf 238 StGB in Strafanzeige-Vorbereiter 
 ## Norm- und Quellenanker
 
 StGB § 238; GewSchG; StPO.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Kennzeichnen Sie modellgenerierte Vermutungen und sichern Sie Primärbelege. Eine algorithmische Risikoprognose über eine Person ersetzt keine konkrete Tatsachenschilderung für die Strafanzeige. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Normen & Rechtsprechung
 

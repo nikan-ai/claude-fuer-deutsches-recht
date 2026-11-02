@@ -1,6 +1,6 @@
 ---
 name: haftpflichtversicherung-und-schadenmeldung-organi
-description: "Wenn es um Haftpflichtversicherung Und Schadenmeldung Organi in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Haftpflichtversicherung und Schadenmeldung Organi: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Steuerberater: haftpflichtversicherung und schadenmeldung - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

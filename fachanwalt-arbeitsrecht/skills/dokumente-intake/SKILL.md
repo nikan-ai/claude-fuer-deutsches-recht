@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Arbeitsrecht."
 ---
 
 # Dokumentenintake
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Einsatzlage
 
@@ -38,7 +36,7 @@ Dieser Dokumenten-Intake für **Fachanwalt Arbeitsrecht** ordnet Anlagen, Regist
 - `befristung-tzbfg` — Befristung Tzbfg BEM Verfahren Fazugang
 - `beteiligung-betriebsrat-102-betrvg` — Beteiligung Betriebsrat Erstgespraech
 - `betriebsrat-zahlen-schwellen-und-berechnung` — Betriebsrat BETRVG Datum
-- `betriebsratswahl-anfechtung-leiharbeit-bag-7-abr-4-21` — Betriebsratswahl Anfechtung Leiharbeit BAG 7 ABR 4 21
+- `betriebsratswahl-leiharbeit-wahlrecht-anfechtung` — Leiharbeitnehmer bei der Betriebsratswahl prüfen
 - `anschluss-routing` — Anschluss Routing
 - `einstieg-routing` — Einstieg Routing
 

@@ -1,6 +1,6 @@
 ---
 name: mandat-arbeitsbereich
-description: "Wenn es um /mandat-arbeitsbereich in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für /mandat-arbeitsbereich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /mandat-arbeitsbereich
@@ -8,8 +8,8 @@ description: "Wenn es um /mandat-arbeitsbereich in diesem Spezialbereich geht: z
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Geltungsbeginn gestaffelt (02.02.2025 Verbote, 02.08.2025 GPAI, 02.08.2026 Hochrisiko Anhang III), schwerwiegender Vorfall 15 Tage, DSGVO DPIA vorab.
-- Tragende Normen verifizieren: EU KI-VO 2024/1689 Art. 9, 10, 14, 22, 27, 50, ISO/IEC 42001, NIST AI RMF 1.0, OECD AI Principles, DSGVO Art. 22, 35, Produkthaftungs-RL 2024/2853 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, für Anhang I ab 02.08.2028. Artikel 4 neuer Fassung, Artikel 4a, Verbote und Transparenz gesondert prüfen; Vorfallfrist nach Tatbestand und Ereignis, Datenschutz-Folgenabschätzung vor riskanter Verarbeitung.
+- Tragende Rechtsgrundlagen am amtlichen EUR-Lex-Text der KI-Verordnung und der gegebenenfalls einschlägigen DSGVO prüfen. ISO/IEC 42001, NIST AI RMF und OECD-Prinzipien sind keine Verordnungsartikel. Bei harmonisierten Normen konkrete Fassung, Amtsblattfundstelle und abgedeckte Anforderungen nach Artikel 40 feststellen; freiwilliges Managementzertifikat und Konformitätsverfahren nach Artikel 43 trennen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsleitung, KI-Officer, Datenschutzbeauftragter, Compliance, Aufsichtsrat, Marktüberwachung, externer Auditor, betroffene Personen.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: KI-Inventar, Risikoanalyse, FRIA (Fundamental Rights Impact Assessment), AI Governance Policy, Modellkarten, Audit-Bericht, DSGVO-DPIA, Schulungsnachweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -32,7 +32,7 @@ Dieser Skill verwaltet diese Workspaces.
  Falls `Aktiviert` = `✗`:
  > Mandate-Workspaces sind deaktiviert – Sie sind als In-house-Praxis mit einem Mandanten
  > konfiguriert, sodass das Plugin automatisch vom Praxiskontext arbeitet. Wenn Sie
- > tatsächlich für mehrere Mandanten arbeiten, führen Sie `/ki-governance:ki-governance-kaltstart-interview
+ > tatsächlich für mehrere Mandanten arbeiten, führen Sie `/ki-governance:kaltstart-interview
  > --redo` neu aus und wählen einen Kanzleikontext. Andernfalls benötigen Sie `/mandat-arbeitsbereich`
  > nicht.
 
@@ -49,13 +49,13 @@ Dieser Skill verwaltet diese Workspaces.
 
 ## Subbefehle
 
-- `/ki-governance:ki-governance-mandat-arbeitsbereich new <slug>` – neuen Mandats-Workspace anlegen, kurzes
+- `/ki-governance:mandat-arbeitsbereich new <slug>` – neuen Mandats-Workspace anlegen, kurzes
  Aufnahme-Interview, `mandat.md` schreiben
-- `/ki-governance:ki-governance-mandat-arbeitsbereich list` – Mandate mit Status und Aktiv-Flag auflisten
-- `/ki-governance:ki-governance-mandat-arbeitsbereich switch <slug>` – aktives Mandat setzen
-- `/ki-governance:ki-governance-mandat-arbeitsbereich close <slug>` – Mandat archivieren (nach
+- `/ki-governance:mandat-arbeitsbereich list` – Mandate mit Status und Aktiv-Flag auflisten
+- `/ki-governance:mandat-arbeitsbereich switch <slug>` – aktives Mandat setzen
+- `/ki-governance:mandat-arbeitsbereich close <slug>` – Mandat archivieren (nach
  `~/.claude/plugins/config/claude-fuer-deutsches-recht/ki-governance/mandate/_archiv/` verschieben, nie löschen)
-- `/ki-governance:ki-governance-mandat-arbeitsbereich none` – von aktivem Mandat trennen, nur auf Praxisebene
+- `/ki-governance:mandat-arbeitsbereich none` – von aktivem Mandat trennen, nur auf Praxisebene
  arbeiten
 
 ## Speicherlayout
@@ -98,7 +98,7 @@ Slugs sind kleingeschrieben mit Bindestrichen. Beispiele: `mueller-ki-review-202
 4. `mandate/<slug>/verlauf.md` mit einem einzigen "Eröffnet"-Eintrag initialisieren.
 5. Leere `mandate/<slug>/notizen.md` anlegen.
 6. **Nicht** automatisch auf das neue Mandat wechseln. Fragen: "Möchten Sie jetzt zu
- `<slug>` wechseln? (`/ki-governance:ki-governance-mandat-arbeitsbereich switch <slug>`)"
+ `<slug>` wechseln? (`/ki-governance:mandat-arbeitsbereich switch <slug>`)"
 
 ### `list`
 
@@ -232,9 +232,6 @@ Verbindliche Zitierweise gemäß `../references/zitierweise.md`.
 - **Schließen vs. Löschen.** Archivierte Mandate für Konflikts- und Aufbewahrungszwecke
  niemals löschen.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 43a Abs. 2 BRAO — Verschwiegenheitspflicht des Anwalts
 - § 203 StGB — Mandantengeheimnis
@@ -278,3 +275,5 @@ Aktiver Skill: [SKILL-NAME]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

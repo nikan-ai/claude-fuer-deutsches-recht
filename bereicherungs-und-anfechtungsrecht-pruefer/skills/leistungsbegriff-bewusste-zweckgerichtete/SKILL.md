@@ -1,6 +1,6 @@
 ---
 name: leistungsbegriff-bewusste-zweckgerichtete
-description: "Wenn es um Leistungsbegriff: Bewusste und zweckgerichtete Mehrung in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Leistungsbegriff: Bewusste und zweckgerichtete Mehrung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: leistungsbegriff-bewusste-zweckgerichtete."
 ---
 
 # Leistungsbegriff: Bewusste und zweckgerichtete Mehrung
@@ -16,16 +16,6 @@ description: "Wenn es um Leistungsbegriff: Bewusste und zweckgerichtete Mehrung 
 ## Zentrale Normen
 
 § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) — § 812 Abs. 1 S. 1 Alt. 2 BGB (Nichtleistungskondiktion) — § 814 BGB (Ausschluss bei Kenntnis) — § 817 BGB (Gesetzes-/Sittenverstoß) — § 267 BGB (Drittleistung) — § 362 BGB (Erfüllungswirkung) — § 242 BGB (Treu und Glauben bei Durchgriff)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Definition
 
@@ -101,3 +91,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

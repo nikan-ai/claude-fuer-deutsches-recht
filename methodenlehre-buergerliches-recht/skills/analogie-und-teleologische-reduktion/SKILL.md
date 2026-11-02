@@ -1,6 +1,6 @@
 ---
 name: analogie-und-teleologische-reduktion
-description: "Wenn es um Analogie und teleologische Reduktion (Rechtsfortbildung) in Methodenlehre bürgerliches Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Analogie und teleologische Reduktion (Rechtsfortbildung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Analogie und teleologische Reduktion (Rechtsfortbildung)
@@ -13,7 +13,7 @@ description: "Wenn es um Analogie und teleologische Reduktion (Rechtsfortbildung
 
 ## Worum geht es?
 
-Analogie und teleologische Reduktion sind die zentralen Werkzeuge der Rechtsfortbildung. Sie greifen, wo die Auslegung im engeren Sinne endet, also jenseits oder gegen den moeglichen Wortsinn (siehe Skill `wortlaut-grammatikalische-auslegung`).
+Analogie und teleologische Reduktion sind die zentralen Werkzeuge der Rechtsfortbildung. Sie greifen, wo die Auslegung im engeren Sinne endet, also jenseits oder gegen den möglichen Wortsinn (siehe Skill `wortlaut-grammatikalische-auslegung`).
 
 - **Analogie:** Eine Norm wird auf einen Fall angewendet, den ihr Wortlaut nicht erfasst, weil die Interessenlage vergleichbar ist.
 - **Teleologische Reduktion:** Eine Norm wird auf einen Fall **nicht** angewendet, obwohl ihr Wortlaut ihn erfasst, weil der Zweck der Norm den Fall nicht erfasst.
@@ -112,32 +112,3 @@ Im **Zivilrecht** ist Analogie grundsätzlich zulässig. Auch Analogien zulasten
 - `references/methodik-buergerliches-recht.md` im Repo.
 
 Stand: Mai 2026.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 20 Abs. 3 GG (Gesetzesbindung)
-- Art. 97 GG (richterliche Unabhängigkeit, Gesetzesbindung)
-- § 133 BGB (Auslegung Willenserklärung)
-- § 157 BGB (Auslegung Verträge)
-- § 242 BGB (Treu und Glauben)
-- § 305c Abs. 2 BGB (Unklarheitenregel)
-- EGBGB Art. 6 (ordre public)
-- GG Art. 1, 2 (Verfassungskonforme Auslegung)
-- ZPO § 286 (freie Beweiswürdigung)
-- GVG § 132 (Vorlage Großer Senat)
-
-### Leitentscheidungen
-
-- BVerfG 1 BvR 730/04 (verfassungskonforme Auslegung)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
-- BGH GSZ 1/11 (BGH-Methodik)
-- BVerfG 2 BvR 883/14 (Wortlautgrenze)
-- BGH V ZR 250/02 (teleologische Reduktion)
-
-### Anwendung im Skill
-
-- Auslegungscanon: Wortlaut, Systematik, Historie, Telos; verfassungskonforme Auslegung BVerfG 1 BvR 730/04 als Grenze.
-- Analogie nur bei planwidriger Regelungsluecke; teleologische Reduktion BGH V ZR 250/02 als Korrelat.
-- Richterrecht BGH GSZ 1/14: Rechtsfortbildung an Art. 20 Abs. 3, Art. 97 GG gebunden.

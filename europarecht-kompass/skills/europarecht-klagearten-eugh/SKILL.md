@@ -1,6 +1,6 @@
 ---
 name: europarecht-klagearten-eugh
-description: "Wenn es um EuGH-Klagearten und Rechtsschutz in Europarecht-Kompass für deutsche Juristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für EuGH-Klagearten und Rechtsschutz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # EuGH-Klagearten und Rechtsschutz
@@ -45,10 +45,6 @@ Bevor losgelegt wird, klaere:
 3. Ist direkte individuelle Betroffenheit nachweisbar (bei nicht privilegierten Klägern Art. 263 Abs. 4 AEUV)?
 4. Ist die 2-Monats-Frist Art. 263 Abs. 6 AEUV noch offen?
 5. Besteht Vorlagemoeglichkeit beim nationalen Gericht als Alternative (Art. 267 AEUV)?
-
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette EuGH-Klagearten
 
@@ -99,3 +95,5 @@ D. ERGEBNIS
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

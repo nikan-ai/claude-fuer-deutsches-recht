@@ -1,6 +1,6 @@
 ---
 name: wi-insurance
-description: "Wenn es um W&I-Versicherung in Großkanzlei Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für W&I-Versicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # W&I-Versicherung
@@ -8,7 +8,6 @@ description: "Wenn es um W&I-Versicherung in Großkanzlei Corporate/M&A geht: pr
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: W&I-Versicherung
@@ -23,7 +22,7 @@ Typische Auslöser:
 - "Mach daraus eine Partner-/Mandantenunterlage mit Risiken, Annahmen und offenen Punkten."
 - "Welche Dokumente, Registerauszüge, Freigaben oder Fristen fehlen noch?"
 
-Nicht dieser Skill ist vorrangig, wenn zuerst das Mandat selbst angelegt, die Deal-Phase bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-kommandocenter` oder `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-deal-intake`. Wenn der Nutzer ausdrücklich nur eine kurze Sprachfassung, Übersetzung oder E-Mail will, arbeite knapp und route nicht in einen Deep-Dive.
+Nicht dieser Skill ist vorrangig, wenn zuerst das Mandat selbst angelegt, die Deal-Phase bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/grosskanzlei-corporate-ma:kommandocenter` oder `/grosskanzlei-corporate-ma:deal-intake`. Wenn der Nutzer ausdrücklich nur eine kurze Sprachfassung, Übersetzung oder E-Mail will, arbeite knapp und route nicht in einen Deep-Dive.
 
 ## Voraussetzungen und Kontext laden
 Lies zuerst, falls vorhanden, den Matter-Workspace unter `~/.config/claude-fuer-deutsches-recht/grosskanzlei-corporate-ma/mandate/<slug>/`: `mandat.md`, `history.md`, `chronologie.md`, `fristen.yaml` und den aktuellen Dokumentenlog. Wenn kein Workspace existiert, frage nur die Mindestdaten ab: Rolle der Kanzlei, Deal-Typ, Zielgesellschaft, Käufer/Verkäufer, Jurisdiktionen, Signing-/Closing-Zeitplan, Vertraulichkeitsstufe und gewünschtes Output-Format.
@@ -58,9 +57,9 @@ Arbeite mit diesen Variablen: `deal_name`, `rolle`, `deal_phase`, `target`, `geg
 - AktG Paragraf 76, 93, 111 und 179a für Leitungs-/Kontrollpflichten und Strukturmaßnahmen.
 - BGB Paragraf 158 für Closing Conditions und Bedingungseintritt.
 
-**3. Organpflichten und Business Judgment.** Bei Geschäftsleitungs- oder Aufsichtsratsentscheidungen ist zu fragen, ob die Entscheidung auf angemessener Informationsgrundlage, ohne sachfremde Interessen und zum Wohl der Gesellschaft vorbereitet ist. Für die Pflicht zur eigenverantwortlichen Prüfung von Ansprüchen und Organverantwortung ist BGH, 21.04.1997 - II ZR 175/95, ARAG/Garmenbeck, als Leitentscheidung zu markieren: https://dejure.org/1997,161 `[dejure.org]`.
+**3. Organ- und Zuständigkeitsprüfung.** Nur wenn der konkrete Arbeitsschritt eine Organentscheidung vorbereitet, Zuständigkeit, Zustimmungsvorbehalte, Interessenkonflikte, Informationsgrundlage und Dokumentation prüfen. Der fachlich passende Haftungs- oder Board-Paper-Skill liefert die dafür einschlägige Rechtsprechung; ARAG/Garmenbeck ist kein Universalanker.
 
-**4. Register- und Gesellschafterlistenlogik.** Bei GmbH-Anteilen, Einziehung, Vollmachtskette oder Closing-Fähigkeit ist Paragraf 16 GmbHG gesondert zu prüfen. Zur Legitimationswirkung der Gesellschafterliste: BGH, 20.11.2018 - II ZR 12/17, abrufbar über BGH-Datenbank und dejure: https://dejure.org/2018,47817 `[BGH-Datenbank/dejure.org]`.
+**4. Register- und Gesellschafterlistenlogik.** Nur bei GmbH-Anteilen, Einziehung, Vollmachtskette oder streitiger Legitimation Paragraf 16 und 40 GmbHG sowie Registerstand und materielle Berechtigung getrennt prüfen. Ohne solche Title- oder Legitimationsfrage diesen Prüfstrang auslassen.
 
 **5. Regulatory und Vollzugshindernisse.** Wenn Fusionskontrolle, AWV/FDI, MAR, GwG, Sanktionen oder branchenspezifische Genehmigungen berührt sind, lautet der Zwischensatz nicht nur „Risiko“, sondern: Anmeldung erforderlich? Vollzugsverbot? Closing Condition? Long-Stop-Date gefährdet? Bußgeld- oder Nichtigkeitsfolge?
 
@@ -80,11 +79,11 @@ Nutze nur frei prüfbare Quellen oder vom Nutzer bereitgestellte/lizenzierte Que
 
 ## Hand-Off zu anderen Skills
 Nach diesem Skill weiter mit:
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-spa-apa-entwurf` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-vertragsmarkup-key-issues` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-disclosure-schedules` - wenn Garantien, Knowledge und Disclosure Letter abgeglichen werden.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-signing-closing-conditions` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-closing-bible-archiv` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
+- `/grosskanzlei-corporate-ma:spa-apa-entwurf` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
+- `/grosskanzlei-corporate-ma:vertragsmarkup-key-issues` - wenn der Befund in Vertragsentwurf, Markup oder Key-Issues-Liste einfließen soll.
+- `/grosskanzlei-corporate-ma:disclosure-schedules` - wenn Garantien, Knowledge und Disclosure Letter abgeglichen werden.
+- `/grosskanzlei-corporate-ma:signing-closing-conditions` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
+- `/grosskanzlei-corporate-ma:closing-bible-archiv` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
 
 ## Was dieser Arbeitsgang nicht macht
 - Er ersetzt keine Partnerentscheidung über Deal-Taktik, Signing-Freigabe oder Closing-Freigabe.
@@ -112,11 +111,15 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 
 ## Zentrale Rechtsgrundlagen
 
-- Paragraf 443, 311 BGB — selbständige Garantie als Haftungsgrundlage; W&I-Versicherung tritt als Schuldnerin ein wenn Garantie verletzt
-- Paragraf 61 VVG — Obliegenheitsverletzung bei arglistiger Taeusching: Versicherung kann leistungsfrei werden; gilt auch für bewusste Falschaussagen in Underwriting-Unterlagen
-- Paragraf 123 BGB — arglistige Taeusching durch Verkaeufer: Disclosure Letter schutzt nicht bei Arglist; Versicherer kann Regress nehmen
-- Paragraf 254 BGB — Mitverschulden des Kaeuf ers: mangelnde DD koennte Versicherungsanspruch mindern
-- Art. 22 DSGVO — Entscheidung durch automatisierte Verarbeitung: bei KI-gestuetzter DD koennte Bewertung Versicherungsanspruch beeinflussen; Transparenzpflicht
+- SPA-Garantien und Freistellungen einerseits sowie die W&I-Police andererseits sind getrennte Verträge. Deckung, Ausschlüsse, Selbstbehalt, Wissensdefinition und Regress folgen zuerst dem jeweiligen Wortlaut; Paragraf 443 BGB ist keine allgemeine Anspruchsgrundlage für M&A-Garantien.
+- Paragrafen 19 bis 22 VVG: Vorvertraglich sind die dem Versicherungsnehmer bekannten gefahrerheblichen Umstände anzuzeigen, nach denen der Versicherer in Textform gefragt hat. Rechtsfolge, Monatsfrist, Kausalität und Arglist getrennt prüfen.
+- Paragraf 20 VVG: Wird der Versicherungsvertrag durch einen Vertreter des Versicherungsnehmers geschlossen, werden für die dort genannten Vorschriften Kenntnis und Arglist des Vertreters und des Versicherungsnehmers berücksichtigt. Daraus folgt keine pauschale Zurechnung des Wissens jedes Deal-Team-Mitglieds oder Beraters.
+- Paragraf 28 VVG: Die Vorschrift betrifft die Verletzung einer vertraglich vereinbarten Obliegenheit. Leistungsfreiheit oder Kürzung setzen die vertragliche Anknüpfung sowie die gesetzlichen Voraussetzungen zu Verschulden, Kausalität und gegebenenfalls Belehrung voraus; sie folgen nicht automatisch aus einer Datenraumlücke.
+- Paragrafen 59 und 61 VVG: Erst die Rolle als Versicherungsvertreter oder Versicherungsmakler bestimmen; Paragraf 61 VVG regelt dessen Beratungs- und Dokumentationspflichten und ist keine Leistungsfreiheitsnorm des Versicherers.
+- Paragraf 166 BGB: Wissenszurechnung setzt eine konkrete Vertretung bei der maßgeblichen Willenserklärung voraus. Organ-, Deal-Team-, Makler- und Beraterwissen nicht ohne Prüfung von Funktion, Vollmacht, Police und Knowledge-Definition zusammenziehen.
+- Paragrafen 69 und 70 VVG: Empfangs- und Kenntniszurechnung betreffen den Versicherungsvertreter auf Versichererseite; sie gelten nicht ohne Rollenprüfung für Versicherungsmakler oder sonstige Underwriting-Beteiligte.
+- Paragraf 123 BGB und Paragraf 22 VVG: Eine Anfechtung des Versicherungsvertrags wegen arglistiger Täuschung erfordert eine Täuschung im Versicherungsverhältnis und deren konkrete Zurechnung. Verkäuferarglist begründet nicht automatisch Arglist des Versicherungsnehmers; Regress folgt nur aus den einschlägigen Vertrags- oder Gesetzesregeln.
+- Paragraf 210 VVG: Bei Großrisiken zuerst prüfen, welche VVG-Regeln abdingbar sind und welche abweichenden Police-Klauseln wirksam vereinbart wurden.
 
 ## Aktuelle Rechtsprechung
 
@@ -125,13 +128,13 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 ## Schritt-für-Schritt-Workflow
 
 1. **W&I-Struktur entscheiden:** Buy-side (Kaeufer versichert sich gegen Garantienverletzung des Verkaeuf ers) vs. Sell-side (Verkaeufer versichert seine Haftung); Buy-side in Europa Standard
-2. **Underwriting-Unterlagen zusammenstellen:** Vollstaendiger DD-Report, Red-Flag-Report, Disclosure Letter, DD-Fragenliste und Antworten, SPA-Entwurf
+2. **Underwriting-Unterlagen zusammenstellen:** Vollständiger DD-Report, Red-Flag-Report, Disclosure Letter, SPA-Entwurf sowie jede in Textform gestellte Underwriting-Frage mit der freigegebenen Antwort und ihrem Wissensgeber.
 3. **AI-DD-Transparenz-Erklaerung:** falls KI-gestuetzte Datenraumanalyse eingesetzt — Methodik, Prüftiefe, Human-in-the-loop-Verfahren an Underwriter kommunizieren
-4. **Deckungsausschluesse verhandeln:** bekannte Risiken, Environmental, Cyber, Steuern (oft Teil-Ausschluss), Pension Deficits; Ausschlussliste mit SPA-Risiken abgleichen
+4. **Deckungsausschlüsse verhandeln:** Bekannte Risiken, Umwelt, Cyber, Steuern, Pensionslasten und Rechtsstreitigkeiten positionsgenau zwischen DD-Befund, Disclosure, SPA und Police abgleichen; offene Tatsachen nicht vorschnell als bekannten Schaden behandeln.
 5. **Materiality Auslesen vereinbaren:** bei Auslesen wird die Materiality-Schwelle der SPA-Garantien für Versicherungsansprueche ignoriert
 6. **Synthetic Warranties:** für Garantien, die nicht im SPA stehen, aber Underwriter versichern wollen; separater Synthetic Warranty Schedule
 7. **Bindungsbestaetigung einholen:** Underwriter Confirmation als W&I-Closing CP
-8. **Notification-Pflichten postClosing:** Garantieverletzung innerhalb der Notification-Frist (haeufig 7 Tage nach Kenntnis) dem Versicherer melden
+8. **Anzeige nach dem Versicherungsfall:** Police-Frist, Adressat, Form, Mindestinhalt und maßgebliche Knowledge-Personen feststellen. Eine behauptete Obliegenheitsverletzung nach Paragraf 28 VVG anschließend nach Vertragsklausel, Verschulden, Kausalität und Belehrung prüfen.
 
 ## Entscheidungsbaum
 
@@ -170,9 +173,9 @@ BINDUNGSBESTAETIGUNG FRIST: bis [DATUM]
 
 ## Rote Schwellen
 
-- Unvollstaendiger DD-Report an Underwriter: Underwriter kann Deckung anfechten
-- Bekannte Risiken nicht discloset: Arglist; Versicherung wird leistungsfrei (Paragraf 28 VVG)
-- Notification-Frist versaeumt: Deckungsverlust
+- Unvollständiger DD-Report: Keine automatische Anfechtung unterstellen; konkrete Textformfrage, Kenntnis des Versicherungsnehmers, Zurechnung, Police-Wortlaut und Rechte nach den Paragrafen 19 bis 22 VVG prüfen.
+- Nicht offengelegtes bekanntes Risiko: Vorvertragliche Anzeige nach den Paragrafen 19 bis 22 VVG und vertragliche Obliegenheit nach Paragraf 28 VVG auseinanderhalten; Arglist, Kausalität und Großrisikenregelung gesondert prüfen.
+- Versäumte Anzeige- oder Mitwirkungsfrist: Deckungsverlust nicht pauschal behaupten; wirksame Obliegenheit, Fristbeginn, Verschulden, Kausalität, Belehrung und abweichende Police-Regelung prüfen.
 
 ## Standardausgabe
 

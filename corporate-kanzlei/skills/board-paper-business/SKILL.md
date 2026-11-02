@@ -1,6 +1,6 @@
 ---
 name: board-paper-business
-description: "Wenn es um Board Paper und Business Judgment in Corporate-Kanzlei geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Board Paper Business; Arbeitsfeld: Corporate-Kanzlei."
+description: "Für Board Paper und Business Judgment: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Corporate-Kanzlei. Route: board-paper-business."
 ---
 
 # Board Paper und Business Judgment
@@ -32,7 +32,6 @@ Vorstand, Geschäftsführung und Aufsichtsrat müssen Entscheidungen auf der Gru
 
 **§ 93 Abs. 1 S. 2 AktG** — Eine Pflichtverletzung liegt nicht vor, wenn das Vorstandsmitglied bei einer unternehmerischen Entscheidung vernünftigerweise annehmen durfte, auf der Grundlage angemessener Information zum Wohle der Gesellschaft zu handeln.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **§ 111 Abs. 4 AktG** — Aufsichtsrat kann Vorbehaltsgeschäfte festlegen; ohne Zustimmung keine wirksame Entscheidung.
 
@@ -42,7 +41,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Board Paper / BJR-Safe-Harbour
 
@@ -156,6 +154,7 @@ Freigabe (AR/GV): [Datum, Protokoll-Nr.]
 - AktG §§ 93, 107, 111, 112
 - GmbHG § 43
 - MAR / WpHG (Insiderrecht)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: entgeltgleichheit-paarvergleich-agg-entgtranspg
-description: "Wenn es um Entgeltgleichheit Paarvergleich Agg Entgtranspg in Fachanwalt Arbeitsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Entgeltgleichheit Paarvergleich Agg Entgtranspg: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Setzt BAG 23.10.2025 - 8 AZR 300/24 in einen arbeitsrechtlichen Prüffür Equal Pay, variable Vergütung, Vergleichsperson, Paragraf 22 AGG, EntgTranspG und Dokumentationsstrategie um.
@@ -31,13 +31,17 @@ Art. 157 AEUV, RL 2006/54/EG, AGG Paragrafen 1, 7, 15, 22, EntgTranspG Paragrafe
 4. **Indizien und Exkulpation:** Arbeitgeber muss objektive, geschlechtsneutrale Gründe plausibel und belegbar darstellen; nachgeschobene, diffuse „Performance“-Erzählung red-teamen.
 5. **Datenstrategie:** Auskunft, Vergleichsgruppe, Entgeltmedian, HRIS-Auszug, Zielvereinbarungen, Performance Ratings, Budgetrunden und Ausnahmefreigaben sichern.
 
+### Teilzeit-Zuschlagsgrenze konkret berechnen
+
+[BAG, Urteil vom 28.04.2026, 5 AZR 96/25](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-96-25/), Rn. 24–28 und 53–57: Einheitliche tarifliche Mehrarbeitszuschlagsgrenze für Vollzeit/Teilzeit diskriminiert im entschiedenen Tarifmodell; proportionale Grenze bestimmen. Tariflicher Leistungszweck und sachliche Rechtfertigung prüfen; nicht jede Stunde über individueller Sollzeit ist zuschlagspflichtig. Fordere Wochenarbeitszeit, Tarifgrenze und Stundenbelege an; berechne die proportionale Auslöseschwelle und arbeite sie in die Lohnforderung ein.
+
 ## Aktuelle BAG-Linie 2025/2026 (live verifizieren vor Schriftsatzverwendung)
 
 Drei aktuelle Leitentscheidungen, die über das Arbeitsrecht in den letzten zwoelf Monaten besonders weit ausstrahlen:
 
 | Entscheidung | Tragende Aussage | Skill-Vertiefung |
 | --- | --- | --- |
-| **BAG, Urt. v. 23.10.2025 - 8 AZR 300/24** | **Equal Pay - Paarvergleich genuegt.** Eine einzige besser bezahlte Vergleichsperson des anderen Geschlechts mit gleicher oder gleichwertiger Arbeit reicht, um die Vermutung des $ 22 AGG auszuloesen. Der Arbeitgeber muss konkret darlegen, dass die Differenz ausschließlich auf objektiven, geschlechtsneutralen Gruenden beruht. Pauschale Hinweise auf Medianwerte, Durchschnittsbetrachtungen oder Verhandlungsgeschick reichen nicht. Art. 157 AEUV bekommt damit Schaerfe. | `bag-equal-pay-paarvergleich` (fachanwalt-arbeitsrecht) / `bag-equal-pay-paarvergleich-8azr30024` (arbeitsrecht) |
+| **BAG, Urt. v. 23.10.2025 - 8 AZR 300/24** | **Equal Pay - Paarvergleich genuegt.** Eine einzige besser bezahlte Vergleichsperson des anderen Geschlechts mit gleicher oder gleichwertiger Arbeit reicht, um die Vermutung des Paragraf 22 AGG auszuloesen. Der Arbeitgeber muss konkret darlegen, dass die Differenz ausschließlich auf objektiven, geschlechtsneutralen Gruenden beruht. Pauschale Hinweise auf Medianwerte, Durchschnittsbetrachtungen oder Verhandlungsgeschick reichen nicht. Art. 157 AEUV bekommt damit Schaerfe. | `bag-equal-pay-paarvergleich` (fachanwalt-arbeitsrecht) / `bag-equal-pay-paarvergleich-8azr30024` (arbeitsrecht) |
 | **BAG, Urt. v. 03.06.2025 - 9 AZR 104/24** | **Kein Verzicht auf gesetzlichen Mindesturlaub.** Im bestehenden Arbeitsverhaeltnis können Arbeitnehmer:innen auf den gesetzlichen Mindesturlaub nicht wirksam verzichten - auch nicht durch gerichtlichen Vergleich. Gilt selbst dann, wenn die Beendigung bereits feststeht und absehbar ist, dass der Urlaub krankheitsbedingt nicht mehr genommen werden kann. Ausgleichs-/Erledigungs-/Abgeltungsklauseln müssen sauber zwischen gesetzlichem Mindesturlaub, vertraglichem Mehrurlaub und bereits entstandener Urlaubsabgeltung unterscheiden. | `bag-mindesturlaub-kein-verzicht` (fachanwalt-arbeitsrecht) / `bag-mindesturlaub-kein-verzicht-9azr10424` (arbeitsrecht) |
 | **BAG, Urt. v. 25.03.2026 - 5 AZR 108/25** | **Pauschale Freistellungsklauseln in Arbeitsvertragsformularen unwirksam.** Eine formularmaessige Freistellungsklausel, die dem Arbeitgeber das einseitige Recht gibt, Beschäftigte nach Kuendigung unter Fortzahlung der Vergütung freizustellen, ist nach AGB-Kontrolle unwirksam, wenn sie Arbeitnehmer:innen unangemessen benachteiligt. Freistellung bleibt im konkreten Fall möglich - braucht aber einen tragfaehigen Grund (ueberwiegende schutzwuerdige Arbeitgeberinteressen). Die pauschale Vorratsklausel reicht nicht. | `bag-freistellungsklausel-unwirksam` (fachanwalt-arbeitsrecht) / `bag-freistellungsklausel-unwirksam-5azr10825` (arbeitsrecht) |
 

@@ -1,6 +1,6 @@
 ---
 name: betriebsunterbrechung-sachschaden-trigger
-description: "Wenn es um Betriebsunterbrechung: Sachschaden-Trigger in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Betriebsunterbrechung: Sachschaden-Trigger: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Betriebsunterbrechung: Sachschaden-Trigger
@@ -41,25 +41,3 @@ VVG Schadenversicherung; FBUB/AMBUB/AVB; BGB; HGB Rechnungslegung als Schadensba
 
 - vvg-falligkeit-14-abschlagszahlung
 - elementarschaden-starkregen-ueberschwemmung
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 19 VVG
-- § 28 VVG
-- § 115 VVG
-- § 86 VVG
-- § 1 VVG
-- § 100 VVG
-- § 193 VVG
-- § 1 VAG
-- § 294 VAG
-- § 215 VVG
-- § 22 VVG
-- § 14 VVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

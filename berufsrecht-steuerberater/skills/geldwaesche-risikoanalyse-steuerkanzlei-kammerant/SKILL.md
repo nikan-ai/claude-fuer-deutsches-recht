@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-risikoanalyse-steuerkanzlei-kammerant
-description: "Wenn es um Geldwaesche Risikoanalyse Steuerkanzlei Kammerant in Berufsrecht Steuerberater geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Geldwäsche Risikoanalyse Steuerkanzlei Kammerant: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerberater: geldwaesche risikoanalyse steuerkanzlei - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

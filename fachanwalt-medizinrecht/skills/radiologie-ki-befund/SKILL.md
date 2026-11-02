@@ -1,6 +1,6 @@
 ---
 name: radiologie-ki-befund
-description: "Wenn es um Radiologie Ki Befund in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Radiologie Ki Befund: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Radiologie-KI und Befundfehler: moderner Medizinrechts-Skill für KI-Vorschlag, ärztlicher Befund, Overreliance, Softwareupdate und verpasster Zufallsbefund
@@ -62,3 +62,4 @@ Vor tragenden Aussagen live prüfen: amtliche Normfassung, zuständige Behörde/
 - BGB §§ 630a ff.: https://www.gesetze-im-internet.de/bgb/__630a.html
 - BGB § 630h: https://www.gesetze-im-internet.de/bgb/__630h.html
 - Product Liability Directive EU 2024/2853: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie medizinische Zweckbestimmung und notwendige Drittbewertung getrennt von der bloßen Verwendung im Krankenhaus. Verwaltungssoftware und medizinische Sicherheitskomponente brauchen verschiedene Einstufungen und Vorfallwege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: doping-cas-berufung
-description: "Wenn es um Doping Cas Berufung in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Doping Cas Berufung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Athlet muss Doping-Sperre vor CAS anfechten oder WADA/NADA legt Berufung gegen Freispruch ein
@@ -24,7 +24,6 @@ description: "Wenn es um Doping Cas Berufung in Fachanwalt Sportrecht geht: prü
 
 - Athlet haftet **ohne Verschulden** für positive Tests
 - Auch bei kontaminiertem Nahrungsergänzungsmittel
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Verbotene Substanzen
 
@@ -128,3 +127,5 @@ description: "Wenn es um Doping Cas Berufung in Fachanwalt Sportrecht geht: prü
 - `fachanwalt-sportrecht-orientierung` — Triage
 - `cas-berufung-vorbereiten` (Power-Tool) — Vorbereitung
 - `verbandsstrafe-anfechten` — bei Verbands-Sanktion
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-transport-speditionshaftung-hgb
-description: "Wenn es um Speditions-Haftung Paragrafen 453 ff. HGB in Fachanwalt Transport Speditionsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Speditions-Haftung Paragrafen 453 ff. HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Speditions-Haftung §§ 453 ff. HGB
@@ -93,10 +93,11 @@ Schaden bei Spediteur-Vertrag — Pflichten, Haftung, Anspruchs-Grundlagen.
 
 ## 8) BGH-Linien
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anschluss
 
 - `fachanwalt-transport-cmr-schadensregulierung` — bei internationaler Straße
 - `frachtfuehrerhaftung-pruefen` — Prüfraster
 - `fachanwalt-transport-speditionsrecht-orientierung` — Triage
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

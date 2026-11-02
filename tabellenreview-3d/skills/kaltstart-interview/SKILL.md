@@ -1,9 +1,9 @@
 ---
 name: kaltstart-interview
-description: "Wenn es um /tabellenreview-3d:tabellenreview-3d-kaltstart-interview in Tabellenreview 3D geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /tabellenreview-3d:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
-# /tabellenreview-3d:tabellenreview-3d-kaltstart-interview
+# /tabellenreview-3d:kaltstart-interview
 
 ## Direktstart: lesen, entscheiden, liefern
 
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Triage zu Beginn
 
 1. Welchen Teil des 3D-Wuerfels betrifft diese Operation?
@@ -29,7 +27,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ablauf
 
@@ -119,3 +116,5 @@ Das Praxisprofil wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/t
 ## Hinweise
 
 Dieses Plugin liefert eine Vorstrukturierung. Es ersetzt nicht die Prüfung durch einen zugelassenen Rechtsanwalt. Jede Zelle des Würfels ist ein Hinweis der Verifikation bedarf, kein abschließender Befund. Vor Mandatsabnahme erfolgt die Prüfung durch den anwaltlichen Prüfer (siehe Skill `pruefer-uebergabe-paket`).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

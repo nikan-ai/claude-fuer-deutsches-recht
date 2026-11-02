@@ -1,6 +1,6 @@
 ---
 name: it-recht-datenschutz-im-it-vertrag
-description: "Wenn es um Datenschutzklauseln im IT-Vertrag prüfen und gestalten in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Datenschutzklauseln im IT-Vertrag prüfen und gestalten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Datenschutzklauseln im IT-Vertrag prüfen und gestalten
@@ -14,7 +14,7 @@ description: "Wenn es um Datenschutzklauseln im IT-Vertrag prüfen und gestalten
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** Datenschutzklauseln im IT-Vertrag prüfen und gestalten. Schnittstelle IT-Recht und Datenschutzrecht. Sieben-Fragen-Diagnose: Vertragstyp Werkvertrag Dienstvertrag SaaS Lizenz personenbezogene Daten Rolle Verantwortlicher Auftragsverarbeiter gemeinsam Verantwortlicher Subverarbeiter Datenstandort. AVV Art. 28 DSGVO Joint Controllership Art. 26 DSGVO Drittlandstransfer Art. 44 ff DSGVO. Schritt-für-Schritt für Vertragspruefung. Mustertexte für Klauseln. Abgrenzung: kein reiner AVV (avv-prüfung) keine SaaS-Spezialklauseln (it-recht-saas-avv-und-tia-bundle).
+**Fokus:** Datenschutzklauseln im IT-Vertrag prüfen und gestalten. Schnittstelle IT-Recht und Datenschutzrecht. Sieben-Fragen-Diagnose: Vertragstyp Werkvertrag Dienstvertrag SaaS Lizenz personenbezogene Daten Rolle Verantwortlicher Auftragsverarbeiter gemeinsam Verantwortlicher Subverarbeiter Datenstandort. AVV Art. 28 DSGVO Joint Controllership Art. 26 DSGVO Drittlandstransfer Art. 44 ff DSGVO. Schritt-für-Schritt für Vertragspruefung. Mustertexte für Klauseln. Abgrenzung: kein reiner AVV (avv-pruefung) keine SaaS-Spezialklauseln (it-recht-saas-avv-und-tia-bundle).
 
 ### IT-Recht — Datenschutz im IT-Vertrag
 
@@ -59,6 +59,12 @@ Sieben-Fragen-Diagnose:
 5. **Als fuenftes: Subverarbeiter-Klausel.** Generelle Genehmigung mit Widerspruchsrecht (Art. 28 II Satz 2).
 6. **Als sechstes: Loeschung Rueckgabe.** Was passiert mit Daten nach Vertragsende?
 7. **NICHT** AVV einfach vom IT-Dienstleister einseitig akzeptieren ohne Vergleich mit Mandantenanforderungen.
+
+## 1. Personenbezogene Urteilsdatenbanken beschaffen
+
+Eine Datenlizenz legitimiert nicht jede Verarbeitung. Bei beanspruchtem Medienprivileg [EuGH, Urteil vom 09.07.2026, Az. C-199/24, Legal Newsdesk Sweden](https://juris.curia.europa.eu/juris/document/document.jsf?docid=313495&doclang=DE), Rn. 61 bis 77, prüfen: Artikel 85 Absatz 2 DSGVO erfordert journalistischen Zweck mit redaktioneller Bearbeitung oder zumindest redaktioneller Linie, Tatsachenprüfung und Berufsethik. Entgelt allein schließt Journalismus nicht aus. Vom Anbieter Nutzerkreis, redaktionelle Belege und konkrete nationale Ausnahme verlangen; reine Softwarebereitstellung von eigener Veröffentlichung trennen.
+
+Bei eigener Nutzung etwa zur Bewerberprüfung Artikel 10 DSGVO und eigene Rechtsgrundlage untersuchen; ein Anbieterprivileg geht nicht auf den Kunden über. Ohne Belege keine Freigabe dieser Nutzung. Zweckgrenzen, Nachweiszugang und Korrektur-/Löschmitwirkung im bestellten Vertrag ausformulieren und nach Antwort gezielt ergänzen. Kein pauschales Verbot von Presseangeboten und kein automatisch feststehender Löschungsanspruch; der EuGH entschied einen schwedischen Strafurteilsdatenbankfall, nicht über jeden deutschen Datenbankvertrag.
 
 ## Trade-off-Matrix
 

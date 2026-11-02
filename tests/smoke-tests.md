@@ -31,7 +31,7 @@ Wenn der Output nicht erscheint oder der Skill abbricht: das Plugin ist nicht fu
 
 **Eingang:** `testakten/fortbestehensprognose-paragrafix-gmbh/`.
 
-**Schritt 1 — Kaltstart:** `/insolvenzrecht:insolvenzrecht-kaltstart-interview` → liest Jahresabschluss, ausstehende Forderungen, Bürgschaften, Sanierungsoptionen.
+**Schritt 1 — Kaltstart:** `/insolvenzrecht:kaltstart-interview` → liest Jahresabschluss, ausstehende Forderungen, Bürgschaften, Sanierungsoptionen.
 
 **Schritt 2 — Prognose:** `/insolvenzrecht:liquiditaetsvorschau-insolvenzrechtlich` → 13-Wochen-Plan und Fortbestehensprognose-Skizze.
 
@@ -45,7 +45,7 @@ Wenn der Output nicht erscheint oder der Skill abbricht: das Plugin ist nicht fu
 
 **Eingang:** `testakten/fluggastrechte-familie-braeutigam/`.
 
-**Schritt 1 — Kaltstart:** `/fluggastrechte:fluggastrechte-kaltstart-interview` → erkennt Buchung, Annullierung, Anschlussflug, Passagieranzahl, Entfernung.
+**Schritt 1 — Kaltstart:** `/fluggastrechte:kaltstart-interview` → erkennt Buchung, Annullierung, Anschlussflug, Passagieranzahl, Entfernung.
 
 **Schritt 2 — Anspruch & Schreiben:** Skill für Ausgleichszahlung nach VO (EG) 261/2004.
 
@@ -73,7 +73,7 @@ Wenn der Output nicht erscheint oder der Skill abbricht: das Plugin ist nicht fu
 
 **Eingang:** `testakten/betreuung-hildegard-sauer/`.
 
-**Schritt 1 — Kaltstart:** `/betreuungsrecht:betreuungsrecht-kaltstart-interview` → erkennt Verfahrensart (Erstbestellung / Verlängerung / Aufgabenkreis-Erweiterung), Betroffene, Aufgabenkreise.
+**Schritt 1 — Kaltstart:** `/betreuungsrecht:kaltstart-interview` → erkennt Verfahrensart (Erstbestellung / Verlängerung / Aufgabenkreis-Erweiterung), Betroffene, Aufgabenkreise.
 
 **Schritt 2 — Stellungnahme:** Betreuerstellungnahme nach § 1863 BGB n. F. (Stand BtOG-Reform 2023).
 
@@ -141,7 +141,7 @@ Wenn der Output nicht erscheint oder der Skill abbricht: das Plugin ist nicht fu
 
 **Schritt 2 — Verzugszinsen:** `python3 werkzeuge/verzugszins_rechner.py --forderung <eur> --beginn <datum> --art b2b`.
 
-**Schritt 3 — Inkasso-Gate:** `/forderungsmanagement-klagewerkstatt:inkasso-zahlungsklage-ersteller` oder `python forderungsmanagement-klagewerkstatt/scripts/inkasso_claim_gate.py --input testakten/inkasso-zahlungsklage-modefuchs/08_claim_gate_input.json`.
+**Schritt 3 — Inkasso-Gate:** `/forderungsmanagement-klagewerkstatt:inkasso-zahlungsklage-ersteller` oder aus dem Repository-Wurzelverzeichnis `python forderungsmanagement-klagewerkstatt/scripts/inkasso_claim_gate.py --input quality/fixtures/modefuchs/08_claim_gate_input.json`. Ohne `--output` bleibt die Lauf-Ausgabe auf der Standardausgabe; sie wird nicht in die Arbeitsakte geschrieben. Die getrennten Prüfdaten gehören nicht zu den Akten-Downloads.
 
 **Erwarteter Output:** Aufstellung mit allen Basiszinsperioden zwischen Verzugsbeginn und Berechnungstag, taggenaue Zinsen, Endsumme. Beim ModeFuchs-Fall zusätzlich: Hauptforderung 698,00 EUR `ROT`, Nebenforderungen 99,84 EUR `GELB`, keine Klage über 797,84 EUR.
 

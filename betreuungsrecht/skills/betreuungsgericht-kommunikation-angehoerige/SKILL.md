@@ -1,6 +1,6 @@
 ---
 name: betreuungsgericht-kommunikation-angehoerige
-description: "Wenn es um Betreuungsgericht-Kommunikation für Angehörige in Betreuungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Betreuungsgericht Kommunikation Angehoerige; Arbeitsfeld: Betreuungsrecht."
+description: "Für Betreuungsgericht-Kommunikation für Angehörige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: betreuungsgericht-kommunikation-angehoerige."
 ---
 
 # Betreuungsgericht-Kommunikation für Angehörige
@@ -21,6 +21,10 @@ Arbeitsfokus: **Betreuungsgericht-Kommunikation für Angehörige**. Prüfe diese
 - `§ 23 BtOG` — Registrierung beruflicher Betreuer.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## 1. Anhörung und begrenzte Beschwerde
+
+Bei Beschwerden zuerst das angegriffene Entscheidungsstück feststellen: Eine ausdrücklich auf die Betreuerauswahl beschränkte Beschwerde eröffnet keine spätere Rechtsbeschwerde gegen die Betreuung als solche. BGH, Beschluss vom 29.07.2026 – XII ZB 171/26, [Rn. 5–11](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2026/XII_ZB_171-26.pdf?__blob=publicationFile&v=1), verlangt außerdem rechtzeitige Benachrichtigung und Teilnahmemöglichkeit des bestellten Verfahrenspflegers an der Anhörung. Ein später beauftragter Rechtsanwalt beendet dessen Bestellung nicht automatisch. Ladung, Anhörungsprotokoll und etwaigen Aufhebungsbeschluss anfordern; danach konkret die Verfahrensrüge und den zulässigen Beschwerdeumfang ausarbeiten. Die Zurückverweisung zur Betreuerauswahl bedeutet keine Aufhebung der Betreuung insgesamt.
 
 ## Grundton
 

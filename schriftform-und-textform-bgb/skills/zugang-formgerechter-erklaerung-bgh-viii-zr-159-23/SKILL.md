@@ -1,9 +1,14 @@
 ---
 name: zugang-formgerechter-erklaerung-bgh-viii-zr-159-23
-description: "Wenn es um Zugang Formgerechter Erklaerung Bgh Viii Zr 159 23 in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zugang Formgerechter Erklärung BGH Viii Zr 159 23: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+# Formgerechten Zugang elektronisch signierter Erklärungen prüfen
+
+Lies zuerst die Erklärung im vorliegenden Dateiformat, Signaturprüfberichte, Übermittlungs- und Empfangsnachweise sowie gerichtliche Zustellungsunterlagen. Rekonstruiere, welche Fassung wann auf welchem Weg den Empfänger erreicht haben soll. Liefere einen ausformulierten Prüfvermerk, der Form, Zugang und Nachweis getrennt bewertet und konkrete Beleglücken benennt; ordne die nachfolgende Entscheidung erst nach Prüfung des maßgeblichen Zeitpunkts und der amtlichen Quellen ein.
+
+Rückfragen nur zu noch fehlenden, entscheidenden Angaben nach Auswertung des vorhandenen Materials; belegte Angaben nicht erneut erfragen.
 
 ## Rechtsgrundlagen
 
@@ -84,7 +89,6 @@ Schritt 4: Empfänger muss Signatur prüfen können
 ```
 Thema: Kündigung Wohnraummiete per qualifizierter elektronischer Signatur
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Die Kündigung per qES ist grundsätzlich zulässig (Paragraf 568 Abs. 1 BGB i.V.m.
 Paragraf 126a Abs. 1 BGB). Aber: Das qES-Dokument muss dem Mieter so zugehen,
@@ -109,3 +113,5 @@ mit Originalunterschrift, übergeben durch Boten gegen Quittung.
 - → `wohnraummiete-kuendigung-paragraph-568-bgb`
 - → `mandantenwarnung-qes-per-email-whatsapp-und-zugang`
 - → `kuendigung-per-schriftsatz-zustellung-formfragen`
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

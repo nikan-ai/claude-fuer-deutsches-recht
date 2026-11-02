@@ -1,6 +1,6 @@
 ---
 name: abrechnung-goae-goz-und-erstattung
-description: "Wenn es um Abrechnung GOÄ/GOZ und Erstattung in Krankenkassenrecht und Krankenversicherung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abrechnung GOÄ/GOZ und Erstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abrechnung GOÄ/GOZ und Erstattung
@@ -89,28 +89,3 @@ PKV und Beihilfe erstatten ärztliche Honorare nach GOÄ und GOZ. Prüfe **Abrec
 - [BGH III ZR 17/18](https://www.bundesgerichtshof.de/DE/Entscheidungen/entscheidungen_node.html)
 - [Bundesärztekammer GOÄ](https://www.bundesaerztekammer.de)
 - [dejure.org GOÄ](https://dejure.org/gesetze/GO%C3%84)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 192 VVG
-- § 204 VVG
-- § 193 VVG
-- § 84 SGG
-- § 86b SGG
-- § 203 VVG
-- § 88 SGG
-- § 6 AsylbLG
-- § 152 VAG
-- § 205 VVG
-- § 153 VAG
-- § 4 AsylbLG
-
-### Leitentscheidungen
-
-- BGH IV ZR 255/17
-- BGH IV ZR 84/11
-- BGH III ZR 17/18
-- BGH IV ZR 194/07
-- BGH IV ZR 62/16

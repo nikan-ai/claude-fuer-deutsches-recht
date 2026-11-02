@@ -1,6 +1,6 @@
 ---
 name: rechtsprechung-internationaler-bezug-und-schnittstellen
-description: "Wenn es um Rechtsprechung Internationaler Bezug Und Schnittstellen in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechtsprechung Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Internationaler Bezug im Arbeitsrecht: EuGH-Rechtsprechung (Massenentlassung, Befristung, Diskriminierung, Urlaub), EU-Richtlinien (RL 2023/970, RL 2001/23, RL 2008/94, RL 2003/88), Entsendung AEntG, internationales Privatrecht Rom I.
@@ -16,12 +16,8 @@ description: "Wenn es um Rechtsprechung Internationaler Bezug Und Schnittstellen
 
 **Fokus:** Internationaler Bezug im Arbeitsrecht: EuGH-Rechtsprechung (Massenentlassung, Befristung, Diskriminierung, Urlaub), EU-Richtlinien (RL 2023/970, RL 2001/23, RL 2008/94, RL 2003/88), Entsendung AEntG, internationales Privatrecht Rom I.
 
-### Spezial: Rechtsprechung — Internationaler Bezug und Schnittstellen
-
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Spezial: Rechtsprechung — Internationaler Bezug und Schnittstellen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -66,7 +62,7 @@ Wenn ein Sachverhalt mit internationalem Bezug oder einer EU-Rechtsfrage vorlieg
 ### 5. Befristung — RL 1999/70/EG (Befristungsrichtlinie)
 
 - **Kettenbefristungsverbot:** RL schreibt Maßnahmen gegen Missbrauch vor; BAG hat Missbrauchsprüfung entwickelt
-- **EuGH zu Betriebsratsmitgliedern:** BAG 7 AZR 50/24 (18.06.2025) nach EuGH-Vorlage: Paragraf 14 Abs. 2 TzBfG gilt auch für BR-Mitglieder; Verweigerung des Folgevertrags wegen BR-Mandat = Schadensersatz
+- **BAG zu Betriebsratsmitgliedern:** BAG, Urteil vom 18.06.2025 - 7 AZR 50/24: Paragraf 14 Abs. 2 TzBfG gilt auch für Betriebsratsmitglieder; wird ein Folgevertrag gerade wegen des Mandats verweigert, kommt ein Schadensersatzanspruch nach Paragraf 78 Satz 2 BetrVG in Betracht. Das BAG hat keine Vorabentscheidung zu diesem Verfahren eingeholt; unionsrechtliche Grenzen behandelt es im Rahmen richtlinienkonformer Auslegung.
 
 ## Internationales Privatrecht — Rom I-VO Art. 8
 
@@ -103,3 +99,7 @@ Entsendendes Unternehmen muss Entsendung bei der ZKA (Zentrale Kontrolle der Sch
 ## Was dieser Arbeitsgang nicht macht
 - Keine umfassende Beratung zu internationalem Arbeitsrecht in Drittstaaten (USA, Großbritannien etc.).
 - Keine Prüfung von Sozialversicherungs-Entsenderecht (A1-Bescheinigung, Entsende-SV-Koordinierung).
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-rechtsprechung-internationaler-bezug-und-schnittstellen` beziehungsweise Rechtsprechung: Internationaler Bezug und Schnittstellen: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-rechtsprechung-internationaler-bezug-und-schnittstellen.md).

@@ -1,6 +1,6 @@
 ---
 name: ausnahmen-aussergewoehnliche-umstaende-02
-description: "Wenn es um Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004) in Fluggastrechte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Ausnahmen Aussergewoehnliche Umstaende 02; Arbeitsfeld: Fluggastrechte."
+description: "Für Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fluggastrechte. Route: ausnahmen-aussergewoehnliche-umstaende-02."
 ---
 
 # Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004)
@@ -94,7 +94,6 @@ Siehe Skill `airline-standardausreden-pruefen` mit detaillierten Standardgegenar
 - Hinweis: Bei strittiger Beweisfrage ist die Beweislast der Airline ein wichtiger Hebel.
 
 ---
-<!-- AUDIT 27.05.2026 bundle_004 -->
 **Halluzinations-Audit 27.05.2026**
 
 ## Normen & Rechtsprechung

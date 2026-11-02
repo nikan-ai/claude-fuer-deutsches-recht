@@ -1,6 +1,6 @@
 ---
 name: jahresabrechnung-quellenkarte
-description: "Wenn es um Jahresabrechnung Quellenkarte in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Jahresabrechnung Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Jahresabrechnung Quellenkarte
@@ -42,5 +42,13 @@ Diese Quellenkarte sichert für **WEG/Hausverwaltung** jede tragende Aussage ab:
 
 ## Fehlerbremse
 
+- Als engen Leitanker BGH, Urteil vom 20.09.2024 - V ZR 195/23, verwenden: Nicht jeder Rechen- oder Darstellungsfehler macht den Beschluss ungültig; entscheidend ist die Auswirkung auf Abrechnungsspitze und Zahlungspflicht.
+
 - Keine BeckRS-/juris-Blindzitate aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 - Zitierform nach `references/zitierweise.md`; Quellenhygiene nach `references/quellenhygiene.md`.
+
+## Soll, Ist, Vermögensbericht und neue Kostenschlüssel
+
+Für die konkrete Rechnungskette den [Abrechnungs-Leitweg](../wirtschaftsplan-jahresabrechnung-28-weg/SKILL.md) verwenden: Rechnung und Dublette, externe Zahlung und interne Umbuchung, beschlossene Soll-Vorschüsse und tatsächlich gezahlte Beträge auseinanderhalten. § 28-Spitze wird nicht aus rückständigem Hausgeld gebildet. Vermögensbericht mit Rücklagenstand/wesentlichem Gemeinschaftsvermögen jedem Eigentümer bereitstellen. Bei Schlüsseländerungen V ZR 50/25 vom 24.04.2026, Rn. 13–23, mit konkretem Belastungsvergleich anwenden. Zu jeder Korrektur Beleg-ID, alter/neuer Betrag, Grund und gegebenenfalls neuen Beschlussbedarf angeben; anschließend den verständlichen Eigentümerbrief verfassen.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

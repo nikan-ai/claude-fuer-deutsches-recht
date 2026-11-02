@@ -1,6 +1,6 @@
 ---
 name: streitwert-igr-berechnen
-description: "Wenn es um Streitwert im Gewerblichen Rechtsschutz berechnen in Plugin: Gewerblicher Rechtsschutz geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Streitwert im Gewerblichen Rechtsschutz berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Streitwert im Gewerblichen Rechtsschutz berechnen
@@ -59,12 +59,10 @@ Anwalt muss Streitwert für IP-Verletzungsklage oder einstweilige Verfuegung im 
 
 - **Wirtschaftliches Interesse** des Verletzten
 - Typischer Streitwert EUR 30000 bis EUR 200000 je nach Schwere
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 2 — Eilverfahren-Reduktion
 
 - Allgemein: **etwa ein Drittel bis Halb** des Hauptsachewerts
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Begründung: vorläufige Sicherung
 - Bei Klage in der Hauptsache Streitwert hoch — nach Vergleich auch hoch
 - Bei Reduktion Wert der Begründungs-Schritte einkalkulieren
@@ -190,14 +188,4 @@ Bevor der Streitwert festgesetzt wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:
-- BGH I ZR 20/07 (NOT_FOUND: Aktenzeichen nicht in dejure nachweisbar): ersetzt durch verifizierte Entscheidung BGH X ZR 171/12 vom 13.11.2013 (Einkaufskuehltasche), GRUR 2014, 206 (Quelle: dejure.org/2013,31771)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

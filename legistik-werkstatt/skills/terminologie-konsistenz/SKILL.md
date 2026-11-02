@@ -1,6 +1,6 @@
 ---
 name: terminologie-konsistenz
-description: "Wenn es um Terminologie-Konsistenz in Legistik-Werkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Terminologie-Konsistenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Terminologie-Konsistenz
@@ -52,10 +52,6 @@ Geschlechtergerechte Sprache. Bei Personenbezeichnungen entweder:
 
 Inkonsistenz vermeiden - eine Formel je Gesetz.
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 43-46 HdR (einheitliche Begriffsverwendung, Terminologie-Gebot) — Art. 20 Abs. 3 GG (Bestimmtheitsgebot, Normenklarheit) — § 288 AEUV (EU-Richtlinie verlangt einheitliche terminologische Umsetzung) — §§ 1-5 DIN 1422 (Norm Terminologie-Konsistenz in Rechtstexten)
@@ -75,3 +71,6 @@ Begriffstabelle als Anhang zum Entwurf. Kritische Fälle (Bruchbildung) markiert
 ## Anschluss
 
 `zirkelschluss-pruefen`, dann `referentenentwurf-bauen`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie bestehende unionsrechtliche Anforderungen von zusätzlichem nationalem Regelungsbedarf. Eine technische Norm oder Kommissionsleitlinie darf nicht ohne Prüfung ihres Rechtsstatus als gesetzliche Ermächtigung behandelt werden. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

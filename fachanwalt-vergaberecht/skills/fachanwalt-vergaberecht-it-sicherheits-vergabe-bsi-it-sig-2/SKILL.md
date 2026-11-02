@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-vergaberecht-it-sicherheits-vergabe-bsi-it-sig-2
-description: "Wenn es um IT-Sicherheits-Vergabe — IT-SiG 2.0 / NIS2 in Fachanwalt Vergaberecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für IT-Sicherheits-Vergabe — IT-SiG 2.0 / NIS2: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # IT-Sicherheits-Vergabe — IT-SiG 2.0 / NIS2
@@ -49,9 +49,7 @@ Spezial-Mandat: Öffentlicher Auftraggeber (KRITIS oder NIS2-Einrichtung) vergib
 | Gericht | Aktenzeichen | Kernaussage |
 |---|---|---|
 | VK Bund | VK 2-71/23 | BSI C5-Zertifikat als Mindest-Eignungskriterium bei Cloud-Vergabe zulässig |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | VK Südbayern | Z3-3-3194-1-27-05/23 | NIS2-Anforderungen als Zuschlagskriterium mit 25 % Gewichtung vergaberechtskonform |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema in Tabellenform
 
@@ -225,7 +223,6 @@ Mit freundlichen Gruessen
 | Einwand | Reaktion |
 |---|---|
 | ISO 27001 Typ 1 genügt nicht — KRITIS-Pflicht | BSI C5 Typ 2 nur zwingend bei Cloud nach BSI C5-Anwendungshinweis; Im On-Premises-Betrieb ISO 27001 ausreichend |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | NIS2 gilt noch nicht vollständig | BSIG-Übergangsfristen beachten; Vertragsklauseln schon jetzt auf NIS2-Niveau formulieren |
 | Bieter hat nur ISO 27001 Typ 1 | Nachbesserungspflicht prüfen: Kann Bieter bis Vertragsstart Typ 2 erwerben? Zustimmungsvorbehalt-Klausel |
 | Sub-Prozessor-Zustimmung nicht praktikabel | Allgemeine Sub-Prozessor-Liste im Vertrag; Widerspruchsrecht statt Vorab-Zustimmung nach Art. 28 Abs. 2 Satz 2 DSGVO |
@@ -248,10 +245,6 @@ Mit freundlichen Gruessen
 - `fachanwalt-vergaberecht-nachpruefungsantrag-vk` — bei VK-Verfahren über Sicherheitsanforderungen
 - `fachanwalt-vergaberecht-eignungspruefung` — Eignungsfehler Konkurrent
 - `fachanwalt-vergaberecht-vergabe-nachpruefung-aussicht` — Erfolgsaussicht Nachprüfungsantrag
-
-## Quellen
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vertiefung: Output-Template IT-Sicherheitsvergabe
 
@@ -280,7 +273,6 @@ Vergabe: [BEZEICHNUNG]
 2. Normen:
    § 122 Abs. 4 GWB (Eignungsanforderungen verhaeltnismaessig)
    § 97 Abs. 2 GWB (Gleichbehandlung)
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 3. Antrag:
    Abaenderung der Eignungsanforderung auf [angemessene Stufe].
@@ -290,9 +282,6 @@ Vergabe: [BEZEICHNUNG]
 
 ---
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 026:
--->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -311,3 +300,5 @@ Halluzinations-Reparatur Bundle 026:
 - Pruefe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
 - Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
 - Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

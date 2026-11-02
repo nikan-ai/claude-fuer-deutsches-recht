@@ -1,6 +1,6 @@
 ---
 name: qualitaetsmanagement-fristen-und-vier-augen-rechtsprechungscheck
-description: "Wenn es um Qualitaetsmanagement Fristen Und Vier Augen Rechtsprechungscheck in Berufsrecht Anwälte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Qualitätsmanagement Fristen und Vier Augen Rechtsprechungscheck: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Anwälte: qualitaetsmanagement fristen und vier augen - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

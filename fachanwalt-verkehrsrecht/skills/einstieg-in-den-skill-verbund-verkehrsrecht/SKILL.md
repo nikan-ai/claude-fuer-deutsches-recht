@@ -1,6 +1,6 @@
 ---
 name: einstieg-in-den-skill-verbund-verkehrsrecht
-description: "Wenn es um Einstieg in den Skill-Verbund Verkehrsrecht in Fachanwalt Verkehrsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg in den Skill-Verbund Verkehrsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einstieg in den Skill-Verbund Verkehrsrecht
@@ -70,4 +70,4 @@ description: "Wenn es um Einstieg in den Skill-Verbund Verkehrsrecht in Fachanwa
 
 ## Aktuelle Rechtsprechung Verkehrsrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

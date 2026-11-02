@@ -1,68 +1,41 @@
-Wenn du das hier öffnest, willst du eine gesellschaftsrechtliche Maßnahme rechtssicher beschließen und dokumentieren.
+# 1. Aufsichtsratsarbeit entscheidungsreif vorbereiten
 
-# Aufsichtsrat AG Se Praxis — Schnellstart
+Prüfe die Vorstandsvorlage und liefere das verlangte Votum, Informationsverlangen oder Protokoll. Nach Paragraf 111 AktG bleibt Überwachung von Geschäftsführung getrennt. BGH, Urteil vom 10.07.2018, II ZR 24/17: Eine wesentlich geänderte Investition erneut vorlegen; Einverständnis des Vorsitzenden ersetzt nicht die nötige Gremienzustimmung. Ausschussdelegation gesondert prüfen, keine automatische Haftung ableiten. Quelle unten.
 
-Ziel: Praxisplugin für Aufsichtsräte in AG und SE: Überwachung, Informationsrechte, Vorstand bestellen/abberufen, Vergütung, Ausschüsse, Protokoll, Business Judgment, Haftungsvermeidung, Börse, SE und Mitbestimmung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Lies zuerst Sachverhalt, Satzung, Geschäftsordnungen, Zustimmungskatalog, Vorstandsvorlage und Sitzungsunterlagen. Prüfe Zustimmungsbedarf, Finanzierung und entscheidungserhebliche Risiken; begründe Zustimmung, Ablehnung oder Vertagung.
 
-## 1. Schnellmodus
+Ohne Eingabe biete Investitionsvotum, Informationsverlangen oder Beschlussprotokoll an. Dateien ohne Auftrag still lesen und zwei oder drei passende Wege erfragen, noch keinen Gremienbericht. Bei klarem Auftrag direkt arbeiten. „Kredit nur bedingt zugesagt“ verändert Beschlussreife und Votum; „Vorsitzender einverstanden“ ersetzt nicht die Gremienbefassung; bestätigte Gegenstimme gehört in das Protokoll. Folgeantworten gezielt einarbeiten, bekannte Organangaben übernehmen. Nicht ungefragt zu Anteilsübertragung wechseln.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 2. Organ und Zuständigkeit
 
-## 2. Direktstart
+Erfasse AG oder SE, dualistische oder monistische Struktur, Börsennotierung, Mitbestimmung, Gremienbesetzung und zuständigen Ausschuss. Prüfe die maßgebliche Satzungs- und Geschäftsordnungsfassung. Bei monistischer SE nicht ungeprüft Vorstand und Aufsichtsrat unterstellen. Bankaufsichtliche Sonderregeln nur bei einem tatsächlich beaufsichtigten Unternehmen prüfen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Nach [Paragraf 111 AktG](https://www.gesetze-im-internet.de/aktg/__111.html) ist Überwachung von Geschäftsführung zu trennen. Zustimmung zu bestimmten Geschäften ersetzt keine Übertragung der Geschäftsführung. Eine Aufsichtsratsvorlage deshalb nicht als operative Weisung oder automatisch als Vertretung der Gesellschaft formulieren.
 
-## 3. Kernroute
+## 3. Informationsbasis und Entscheidung
 
-1. Gesellschaftsform, Registerlage, Beteiligungen und Organe feststellen.
-2. Satzung, Gesellschaftervereinbarung, Beschluss und Vertretung trennen.
-3. Organpflichten, Treuepflichten, Zustimmungserfordernisse und Haftung prüfen.
-4. Transaktionsschritte, Notarform, Closing-Bedingungen und Registervollzug planen.
-5. Arbeitsprodukt: Beschlussvorschlag, Organmemo, Anteilsübertragungsvertrag oder Klageentwurf erstellen.
-6. Aufsichtsrat Managerhaftung Regress: Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen.
+3.1. Zustimmungsvorbehalt: Konkretes Geschäft mit Wortlaut des Katalogs abgleichen. Schwellenwert, Bezugsgröße, Zusammenrechnung, Zeitpunkt und etwaige Ausnahmen anhand der Regelung prüfen. Eine unternehmensinterne Schwelle nicht als gesetzliche Zahl ausgeben. Bereits abgeschlossenes Geschäft und bevorstehende Zustimmung getrennt behandeln.
 
-## 4. Fallkarte
+3.2. Informationsgrundlage: Wirtschaftliches Ziel, Investitionsbetrag, Finanzierung, Liquiditätswirkung, Risiken, Alternativen und Folgen des Nichtstuns aus der Vorlage erfassen. Fehlende Varianten oder Sensitivitäten gezielt beim Vorstand anfordern. Berichtsrechte und Berichtsanlässe anhand [Paragraf 90 AktG](https://www.gesetze-im-internet.de/aktg/__90.html) prüfen; ein einzelnes Mitglied verlangt einen Bericht an das Gremium, nicht automatisch nur an sich persönlich.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 705; HGB Paragraf 105; GmbHG Paragraf 13 |
-| Rechtsprechung | BGH, Urteil vom 29.01.2001 - II ZR 331/00; BGH, Urteil vom 04.07.2005 - II ZR 354/03 |
-| Tatbestand | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen |
-| Beweislast | Anspruchsteller für Pflichtverletzung, Schaden und Kausalität; Organ oder Gesellschafter für Entlastung, Beschlussbasis und Business Judgment |
-| Rechtsfolge | Beschlussfassung, Anfechtung, Organhaftung, Registervollzug, Abberufung oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+3.3. Interessenkonflikte: Beziehung zu Vertragspartner, Berater oder Organmitglied aus konkreten Angaben feststellen. Offenlegung, Umgang mit Unterlagen, Beratung und Abstimmung gesondert prüfen. Nicht allein aus einer Rollenüberschneidung ohne Rechtsprüfung eine universelle Stimmsperre ableiten.
 
-## 5. Einsatzfelder
+3.4. Beschlussreife: Zustimmung, begründete Ablehnung, Vertagung oder klar bestimmte Bedingungen gegeneinander abwägen. Eine Bedingung darf die entscheidende offene Risikobewertung nicht unbemerkt an den Vorstand zurückgeben. Bei fehlender Finanzierungsbasis eine bloße Formel „nach pflichtgemäßem Ermessen“ nicht als Ersatz für Information nutzen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Aufsichtsrat Managerhaftung Regress | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Eigenhaftung Aufsichtsrat | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Haftungsradar | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vorstandsvergütung 87 Aktg | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vorstandsvertrag | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Abschlussprüfer Steuerung | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+3.5. Dokumentation: Maßgebliche Unterlagen mit Stand, offene Fragen, Antworten, Alternativen, Konfliktbehandlung, Abstimmungsverlauf und gefassten Beschluss getrennt protokollieren. Vorbereiteter Beschluss ist noch kein tatsächlich gefasster Beschluss. Verweigerte Zustimmung und mögliche weitere gesellschaftsrechtliche Schritte gesondert prüfen, nicht im Protokoll vorwegnehmen.
 
-## 6. Anker
+Fehlt die Liquiditätswirkung der Investition, fordere die entsprechende Planung an, statt eine Zustimmung unter pauschalem Vorbehalt zu formulieren. Gleiche die Antwort mit Betrag, Finanzierung und Alternativen ab; danach vervollständige das beauftragte Votum oder den Beschlussvorschlag. Bleibt eine wesentliche Annahme unbelegt, frage gezielt hierzu nach oder begründe die noch fehlende Beschlussreife. Bereits beantwortete Fragen nicht wiederholen. Bei einem Protokollauftrag fehlende Angaben zum tatsächlichen Abstimmungsverlauf klären, keine Abstimmung aus dem Beschlussentwurf ableiten.
 
-- BGB Paragraf 705: Gesellschaftsvertrag der Gesellschaft bürgerlichen Rechts.
-- HGB Paragraf 105: offene Handelsgesellschaft.
-- GmbHG Paragraf 13: Rechtsnatur der GmbH.
-- GmbHG Paragraf 15: Übertragung von Geschäftsanteilen.
-- Normen-/Quellenanker: AktG Paragrafen 90, 93, 111, 116, 118 ff., SE-VO/SEAG, DCGK, Geschäftsordnung, Zustimmungsvorbehalte, D&O und Insider-/Ad-hoc-Schnittstellen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 93/Paragraf 116 AktG: Business Judgment Rule nur bei informierter, interessenfreier, unternehmerischer Entscheidung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 90 AktG als Mindestlinie nutzen: Berichtsanlässe, Berichtstiefe, Nachfragen, Sonderberichte und Eskalation bei Ausweichen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 25d Abs. 1 KWG – Anforderungen an Mitglieder des Aufsichtsorgans: Zuverlässigkeit, ausreichende Sachkunde zur Wahrnehmung der Kontrollfunktion; eigenverantwortliche: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Urteil vom 29.01.2001 - II ZR 331/00: ARAG/Garmenbeck prägt die Pflicht zur Verfolgung von Organhaftungsansprüchen.
-- BGH, Urteil vom 04.07.2005 - II ZR 354/03: Trihotel zur Existenzvernichtungshaftung.
+Steigen nach einer Zustimmung die Kosten wesentlich oder entfällt die angenommene Finanzierung, ist eine erneute Gremienbefassung zu prüfen. [BGH, Urteil vom 10.07.2018 - Az. II ZR 24/17](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2017/II_ZR__24-17.pdf?__blob=publicationFile&v=1), Rn. 14 bis 22: Paragrafen 108 Absatz 1 und 111 Absatz 4 Satz 2 AktG verlangen grundsätzlich vorherige Zustimmung durch ausdrücklichen Beschluss; das Einverständnis des Vorsitzenden genügt nicht. Ausschussdelegation gesondert prüfen. Eine allgemeine Eilfallausnahme hat der BGH offengelassen. Eine hypothetische Zustimmung kann im Haftungsprozess nur unter den Voraussetzungen der Rn. 39 bis 52 entlasten, nicht die fehlende Beschlussreife im laufenden Vorgang ersetzen.
 
-## 7. Antwortform
+## 4. Weitere Organaufgaben
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Aufsichtsrat Managerhaftung Regress, Eigenhaftung Aufsichtsrat, Haftungsradar, Vorstandsvergütung 87 Aktg: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Bei Vorstandsbestellung oder Abberufung Organstellung und Dienstvertrag getrennt erfassen. Bei Vergütung konkrete Leistung, Vergleichsmaßstab und Entscheidungszuständigkeit prüfen. Bei Abschlussprüfung Berichte, kritische Bilanzierungsfragen und Rückfragen an den Prüfer verbinden. Bei Krisensignalen Berichtstakt, Liquiditätsdaten und konkreten Aufklärungsauftrag verdichten; keine pauschale Haftungsfreizeichnung durch Dokumentation versprechen.
 
-## 8. Stop
+Optional vertieft [Zustimmungsvorbehalte](skills/zustimmungsvorbehalte/SKILL.md) den Transaktionsbeschluss; [Vorstandsberichte](skills/berichte-des-vorstands-90-aktg/SKILL.md) helfen beim Informationsverlangen. Ohne diese Dateien mit den Stationen oben weiterarbeiten.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+## 5. Endfassung und Kontrolle
+
+Liefere das bestellte Fragenpapier, Votum, Protokoll oder den Beschlussentwurf; zusätzliche Produkte nur, wenn sie zur konkreten Aufgabe gehören. Verbinde jede tragende Bewertung mit Tatsache, Dokumentstelle, Rechtsmaßstab und verbleibendem Risiko. Rechtliche Haftungsmaßstäbe und Rechtsprechung fallbezogen amtlich prüfen, nicht aus einem pauschalen Business-Judgment-Verweis ableiten. Normfassung und bei Entscheidungen Gericht, Entscheidungsform, Datum, Aktenzeichen und belegte Randnummer nennen; die [Zitierweise](../references/zitierweise.md) ist optional. Quellenstatus in einer gesonderten Arbeitsnotiz dokumentieren, nicht im Beschluss oder Mandantenbrief.
+
+Dezimale Gliederung, Leerzeilen und Times New Roman 11 pt beziehungsweise Exporthinweis verwenden. Nutzerbenannte Dateien gehen vor; `ergebnis.md` ist nur ein Standard ohne anderen Dateiwunsch. Ohne Export Text liefern; ungelesene Unterlagen und fehlende Beschlussbelege in der Arbeitsnotiz offenlegen. Nur die betroffene Entscheidung zurückstellen und nach Klärung zum bestellten Dokument fortsetzen. Keine Sitzung, Unterzeichnung oder Registerhandlung als erfolgt behaupten oder ohne ausdrückliche Freigabe veranlassen.

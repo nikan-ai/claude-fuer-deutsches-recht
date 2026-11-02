@@ -1,6 +1,6 @@
 ---
 name: arbeitsrecht-anpassen
-description: "Wenn es um /arbeitsrecht:arbeitsrecht-anpassen in Arbeitsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für /arbeitsrecht:arbeitsrecht-anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /arbeitsrecht:arbeitsrecht-anpassen
@@ -21,7 +21,7 @@ Der Nutzer möchte etwas im Praxisprofil ändern – eine Jurisdiktion, eine Ris
 `~/.claude/plugins/config/claude-fuer-deutsches-recht/arbeitsrecht/CLAUDE.md` und `~/.claude/plugins/config/claude-fuer-deutsches-recht/unternehmens-profil.md` einlesen.
 
 Falls das Plugin noch nicht eingerichtet ist oder `[PLATZHALTER]` enthält:
-> Das Plugin wurde noch nicht eingerichtet. Führen Sie `/arbeitsrecht:arbeitsrecht-kaltstart-interview` aus.
+> Das Plugin wurde noch nicht eingerichtet. Führen Sie `/arbeitsrecht:kaltstart-interview` aus.
 
 ### 2. Gewünschte Änderung klären
 
@@ -57,7 +57,6 @@ Zitierstandard: `../references/zitierweise.md`. Methodik: `../references/methodi
 Relevante Normen je nach Änderungsbereich:
 - Neues Bundesland: Landesurlaubsgesetze, LDSG des Landes, ggf. Tarifvertrag mit Landesbezug
 - Betriebsrat: BetrVG Paragrafen 1, 87, 99, 102, 111 ff.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabeformat
 
@@ -105,3 +104,5 @@ Wir sind seit Januar diesem Jahr an den Tarifvertrag Einzelhandel NRW gebunden.
 - **Landesrecht übersehen.** Bayern, Brandenburg und andere Länder haben eigene Urlaubsgesetze mit abweichenden Mindesturlaubstagen. Bei neuem Bundesland immer Landesspezifika prüfen.
 - **Tarifbindung durch Bezugnahmeklausel.** Auch ohne Verbandsmitgliedschaft kann ein Tarifvertrag vertraglich einbezogen sein. Prüfen, ob neue Tarifbindung auch bestehende Verträge erfasst.
 - **Betriebsrat-Zuständigkeit.** Bei neuem Betriebsrat: Paragraf 102 BetrVG gilt für JEDE Kündigung, Paragraf 99 BetrVG für jede Einstellung – sofort in Eskalationstabelle aufnehmen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

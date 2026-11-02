@@ -1,6 +1,6 @@
 ---
 name: unfallregulierung-quoten
-description: "Wenn es um Unfallregulierung Quoten in Fachanwalt Verkehrsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unfallregulierung Quoten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandant hat Unfall mit Mitverschulden und fragt welche Schadensposten zu welcher Quote durchsetzbar sind
@@ -61,7 +61,7 @@ description: "Wenn es um Unfallregulierung Quoten in Fachanwalt Verkehrsrecht ge
 - Bei Reparatur: tatsächliche Werkstatt-Kosten
 - Bei Verkauf Restwert: WBW abzueglich Restwert
 - Bei fiktiver Abrechnung: 6 Monate Bindungs-Frist
-- Werkstattrisiko-Doktrin (BGH, Urt. v. 16.1.2024, VI ZR 253/22 und VI ZR 239/22): Geschädigter trägt grundsätzlich nicht das Risiko überhöhter Werkstattkosten. Übertragung auf Sachverstaendigenkosten: BGH VI ZR 280/22
+- Werkstattrisiko bei konkreter Abrechnung (BGH, Urteile vom 16.1.2024 - VI ZR 253/22 und VI ZR 239/22): Bezahlte und unbezahlte Rechnung sowie Anspruchsinhaber trennen. Bei unbezahlter Rechnung kann der Geschädigte Zahlung an die Werkstatt Zug um Zug gegen Abtretung verlangen; ein Zessionar trägt das Werkstattrisiko. Für Sachverständigenkosten BGH VI ZR 280/22 gesondert prüfen.
 
 ## 4) Werkstatt-Bindung
 
@@ -133,10 +133,10 @@ description: "Wenn es um Unfallregulierung Quoten in Fachanwalt Verkehrsrecht ge
 |---|---|---|---|
 | BGH VI ZR 280/22 | 12.3.2024 | Werkstattrisiko-Grundsätze auf überhöhte Sachverstaendigenkosten übertragen | juris.bundesgerichtshof.de |
 | BGH VI ZR 253/22 | 16.1.2024 | Werkstattrisiko Grundsatzurteil; Geschädigter trägt nicht Risiko überhöhter Werkstattkosten | juris.bundesgerichtshof.de |
-| BGH VI ZR 239/22 | 16.1.2024 | Werkstattrisiko parallel | juris.bundesgerichtshof.de |
+| BGH VI ZR 239/22 | 16.1.2024 | Unbezahlte Rechnung und Abtretung: besondere Risikozuordnung | juris.bundesgerichtshof.de |
 | BGH VI ZR 12/24 | 5.11.2024 | Fiktiver Haushaltsfuehrungsschaden; Mindestlohn als Untergrenze; nachvollziehbare Begründung erforderlich | juris.bundesgerichtshof.de |
-| BGH VI ZR 165/25 | 24.3.2026 | Schadensrecht Wiederherstellungskosten; vor Verwendung Volltext live verifizieren | bundesgerichtshof.de |
-| BGH VI ZR 25/24 | 8.4.2025 | Schadensrecht Folgefall Werkstattrisiko; Live-Volltext prüfen | juris.bundesgerichtshof.de |
+| BGH VI ZR 165/25 | 24.3.2026 | Maßgeblicher Zeitpunkt für den Wiederbeschaffungswert bei fiktiver Schadensabrechnung; Preisentwicklung bis zur vollständigen Schadensbehebung einordnen | juris.bundesgerichtshof.de |
+| BGH VI ZR 25/24 | 8.4.2025 | Feststellungsinteresse für spätere konkrete Abrechnung nach zunächst fiktiver Abrechnung; mögliche Umsatzsteuer und Nutzungsausfallfolgen | juris.bundesgerichtshof.de |
 
 Hinweis: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen. Tabelle ist nur Recherche-Anker — vor Versand jedes Aktenzeichen erneut in offener Quelle aufrufen.
 

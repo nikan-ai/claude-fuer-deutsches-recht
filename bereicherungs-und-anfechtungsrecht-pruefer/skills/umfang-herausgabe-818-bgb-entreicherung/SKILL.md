@@ -1,6 +1,6 @@
 ---
 name: umfang-herausgabe-818-bgb-entreicherung
-description: "Wenn es um Umfang der Herausgabe — Paragraf 818 BGB und Entreicherung in bereicherungs-und-anfechtungsrecht-prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Umfang der Herausgabe — Paragraf 818 BGB und Entreicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: umfang-herausgabe-818-bgb-entreicherung."
 ---
 
 # Umfang der Herausgabe — § 818 BGB und Entreicherung
@@ -16,16 +16,6 @@ description: "Wenn es um Umfang der Herausgabe — Paragraf 818 BGB und Entreich
 ## Zentrale Normen
 
 § 818 Abs. 1 BGB (Herausgabe, Nutzungen, Surrogate) — § 818 Abs. 2 BGB (Wertersatz) — § 818 Abs. 3 BGB (Entreicherungseinrede) — § 818 Abs. 4 BGB (Rechtshängigkeit) — § 819 BGB (verschärfte Haftung Bösgläubigkeit) — § 292 BGB (Haftung des Schuldners ab Rechtshängigkeit) — §§ 987–993 BGB (EBV, entsprechend anwendbar)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Primäranspruch: Herausgabe des Erlangten (§ 818 Abs. 1 BGB)
 
@@ -143,3 +133,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

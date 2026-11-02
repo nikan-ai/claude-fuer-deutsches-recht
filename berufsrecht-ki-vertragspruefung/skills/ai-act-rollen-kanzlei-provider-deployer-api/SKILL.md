@@ -1,6 +1,6 @@
 ---
 name: ai-act-rollen-kanzlei-provider-deployer-api
-description: "Wenn es um europäischer Technikregulierungsrahmen-Rollen: Kanzlei als Betreiberin, Anbieterin oder API-Orchestratorin in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für europäischer Technikregulierungsrahmen-Rollen: Kanzlei als Betreiberin, Anbieterin oder API-Orchestratorin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-VO-Rollen: Kanzlei als Betreiberin, Anbieterin oder API-Orchestratorin
@@ -32,24 +32,8 @@ Die Kanzlei ist nicht automatisch Anbieterin des zugrunde liegenden Modells. Sie
 
 Die KI-VO beantwortet nicht die Berufsgeheimnisfrage. Selbst ein KI-VO-konformes Tool kann berufsrechtlich unzulässig sein, wenn Verschwiegenheit, No-Training, Subunternehmer oder Drittstaat nicht tragen. Umgekehrt macht § 43e BRAO ein Tool nicht automatisch KI-VO-konform.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 203 StGB
-- Art. 28 DSGVO
-- § 204 StGB
-- § 62a StBerG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- Art. 32 DSGVO
-
-### Leitentscheidungen
-
-- BGH VI ZR 36/20
-- BGH VIII ZR 78/20
+Berufsrecht, Geheimnisschutz und Datenschutz getrennt prüfen: Paragraf 43a Absatz 2 und Paragraf 43e BRAO, Paragraf 2 BORA, Paragraf 203 StGB sowie Artikel 28 und 32 DSGVO. Eine Gerichtsentscheidung nur einsetzen, wenn ihr Sachverhalt die konkrete Vertrags-, Verschwiegenheits- oder Sicherheitsfrage trägt; ein nicht erläutertes Aktenzeichen ist kein Rechtsanker.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

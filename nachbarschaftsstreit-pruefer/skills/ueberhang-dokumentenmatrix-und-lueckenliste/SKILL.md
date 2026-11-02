@@ -1,6 +1,6 @@
 ---
 name: ueberhang-dokumentenmatrix-und-lueckenliste
-description: "Wenn es um Überhang: Dokumentenmatrix, Lückenliste und Nachforderung in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für Überhang: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste."
 ---
 
 # Überhang: Dokumentenmatrix, Lückenliste und Nachforderung
@@ -10,7 +10,7 @@ description: "Wenn es um Überhang: Dokumentenmatrix, Lückenliste und Nachforde
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: BGB § 906 Abs. 2 S. 2 nachbarrechtlicher Ausgleichsanspruch § 195 BGB 3 Jahre, NachbG-Anzeigefristen variieren (z. B. NRW § 7 Grenzwand 6 Wochen), § 15a EGZPO Schlichtung obligatorisch.
 - Tragende Normen verifizieren: BGB §§ 903, 906, 1004, 910, 912, 917, 921, 922, NachbG (Landesnachbarrechtsgesetze), BImSchG, BauO Land, BNatSchG (Bäume), Schlichtungsgesetze der Länder (z. B. § 15a EGZPO BW) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Grundstücksnachbarn, Schlichtungsstelle, AG (Streitwert bis 5.000 €), LG, OLG, Ordnungsamt, untere Bauaufsichtsbehörde, untere Naturschutzbehörde.
+- Zuständige Stelle und Adressat bestimmen: Grundstücksnachbar, nach Landesrecht erforderliche Gütestelle, Amtsgericht bei einem Streitwert bis einschließlich 10.000 Euro, sonst Landgericht sowie je nach Begehren Ordnungsamt, Bauaufsichts- oder Naturschutzbehörde; wertunabhängige Zuweisungen und den maßgeblichen Stichtag gesondert prüfen.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Schlichtungsantrag, Klage AG, Lichtbilder, Lärm-/Geruchsprotokoll, Sachverständigengutachten, Anwaltsschreiben, Vermessungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Spezialwissen: Überhang: Dokumentenmatrix, Lückenliste und Nachforderung
@@ -31,3 +31,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-ueberhang-dokumentenmatrix-und-lueckenliste` beziehungsweise Ueberhang: Dokumentenmatrix, Lückenliste und Nachforderung: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-ueberhang-dokumentenmatrix-und-lueckenliste.md).

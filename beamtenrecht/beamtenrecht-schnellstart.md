@@ -1,71 +1,39 @@
-Wenn du das hier öffnest, willst du einen Verwaltungsakt anfechten und vorläufigen Rechtsschutz erreichen.
+# 1. Beamtenrechtlichen Vorgang bearbeiten
 
-# Beamtenrecht — Schnellstart
+Prüfe Auswahl, Beurteilung oder die konkret angegriffene Status-, Gesundheits- oder Bezügeentscheidung und liefere das bestellte Dokument. Lies Urkunde, Bescheid, Auswahlvermerk und Gutachten zuerst; bekannte Angaben zu Status, Dienstherr und Land übernehmen. Beamten-, Richter- und Tarifrecht trennen.
 
-Ziel: Beamtenrecht für Bund, Länder und Richterdienst: Status, Laufbahn, Besoldung, Versorgung, Konkurrentenstreit, Disziplinarrecht, Dienstunfähigkeit, Richterlaufbahn, Landesrecht und verständliche Mandatsführung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Beim Konkurrentenstreit leiten Artikel 33 Absatz 2 GG und Paragraf 123 VwGO die Prüfung. BVerwG, Beschluss vom 03.03.2025, 2 VR 4.24, Rn. 46 bis 49 und 60 bis 68: Auch bei unterstelltem Beurteilungsfehler die reale Auswahlchance prüfen; Vergleichsgruppe und Beförderungen bei fiktiver Fortschreibung abgleichen. Keine frei erfundene Notenverbesserung, damaliges Übergangsrecht nicht ungeprüft übernehmen. Quellenstand unten.
 
-## 1. Schnellmodus
+## 1.1. Rechtskreis und Maßnahme
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ohne Eingabe biete Auswahl-Eilsicherung, Beurteilungseinwendung oder Gesundheits- und Bezügeprüfung an. Dateien ohne Aufgabe still lesen und zwei oder drei passende Wege erfragen, noch kein Gesamtgutachten. Bei klarem Auftrag direkt arbeiten. „Ernennung verschoben“ verändert den Eilgrund nur nach Prüfung der Zusage; „bereits ernannt“ verlangt einen neuen Rechtsschutzabgleich. „Nur Nachtdienst ausgeschlossen“ führt zu konkreten Gutachterfragen und Verwendungsprüfung. Folgeantworten im Entwurf verarbeiten, Dienstherr und Status übernehmen; nur entscheidende Lücken fragen.
 
-## 2. Direktstart
+Erfasse Statusamt, konkrete Funktion, Laufbahn, Beschäftigungsstatus, zuständige Stelle und Stichtag. Bundes- oder Landesrecht sowie gegebenenfalls Richterrecht zuordnen. Ernennung, Umsetzung, Versetzung, Beurteilung, Besoldung und Disziplinarmaßnahme nach ihrem konkreten Inhalt unterscheiden. Ein Brief ist nicht allein wegen amtlichen Briefkopfs ein Verwaltungsakt mit derselben Rechtsbehelfsfrist.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2. Auswahl und bevorstehende Ernennung
 
-## 3. Kernroute
+Vergleiche Ausschreibung, Anforderungsprofil, Bewerberkreis, Beurteilungszeiträume, Statusämter und Auswahlbegründung. [Artikel 33 Absatz 2 GG](https://www.gesetze-im-internet.de/gg/art_33.html) stellt auf Eignung, Befähigung und fachliche Leistung ab. Eine längere Dienstzeit ersetzt nicht ohne Weiteres den Leistungsvergleich. Unterschiede in Bewertungsmaßstab oder Zeitraum sichtbar machen, nicht selbst eine neue dienstliche Note vergeben.
 
-1. Verwaltungshandeln: Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen.
-2. Zulässigkeit: Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen.
-3. Materielle Rechtmäßigkeit: Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen.
-4. Eilrechtsschutz: aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren.
-5. Arbeitsprodukt: Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen.
-6. Besold Mehrarbeit Vergütung Freizeitausgleich Beamte: Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen.
+Trenne angegriffene Auswahl und Anspruch auf eigene Ernennung. Für die konkrete Beanstandung erläutern, ob eine erneute Auswahl eine reale Chance eröffnen kann. Auswahlvermerk und maßgebliche Beurteilungen gezielt anfordern; eine fehlende Akte verhindert nicht die Vorbereitung einer beauftragten Sicherungsmaßnahme. Nach Eingang den Vergleich und die Auswahlchance erneut prüfen und die betroffenen Gründe des Schreibens oder Antrags aktualisieren. Bei inzwischen erfolgter Ernennung den veränderten Rechtsschutz klären, nicht nur das Datum im Entwurf ersetzen.
 
-## 4. Fallkarte
+BVerwG, Beschluss vom 3. März 2025, 2 VR 4.24, Randnummern 66 bis 68: Auch bei unterstelltem Beurteilungsfehler muss eine Auswahl nach fehlerfreier Bewertung ernstlich möglich sein. Prüfe den plausiblen Einfluss des Fehlers auf den Bewerbervergleich; eine unrealistische Notenverbesserung genügt nicht für Paragraf 123 VwGO. Der Fall zur fiktiven Fortschreibung begründet keinen eigenen Ernennungsanspruch. Seine damalige Übergangsaussage zur gesetzlichen Grundlage nicht ungeprüft auf aktuelle Vorschriften übertragen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | VwVfG Paragraf 35; VwVfG Paragraf 28; VwVfG Paragraf 40 |
-| Rechtsprechung | BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82; BVerwG, Urteil vom 27.09.1978 - 7 C 79.76 |
-| Tatbestand | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen |
-| Beweislast | Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit |
-| Rechtsfolge | Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei drohender Ernennung zuerst deren Stand und Termin sichern. Einen Antrag nach [Paragraf 123 VwGO](https://www.gesetze-im-internet.de/vwgo/__123.html) auf vorläufige Sicherung prüfen; Anordnungsanspruch und Anordnungsgrund getrennt mit Tatsachen und Glaubhaftmachung begründen. Nicht allein auf die Erledigung eines Akteneinsichtsgesuchs warten. Zuständigkeit, Beteiligte und Abgrenzung zu anderen Eilwegen fallbezogen prüfen.
 
-## 5. Einsatzfelder
+## 1.3. Gesundheit, Dienst und Geld
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Besold Mehrarbeit Vergütung Freizeitausgleich Beamte | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beamtenrecht: Mehrarbeit Vergütung Freizeitausgleich Beamte | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen und Sofortmaßnahmen | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Konkurrentenklage — einstweiliger Rechtsschutz nach Paragraf 123 VwGO | Versicherungsverlauf, Wartezeit, Entgeltpunkte, Rentenbeginn, Bescheidfehler und Widerspruchsfrist nach SGB VI nachrechnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Mehrarbeitsvergütung nach Paragraf 88 BBG | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Richteranklage Art. 98 GG | Tatkomplex, Norm, Beweismittel, Einlassung, Verwertbarkeit, Frist und Rechtsfolge zeilenweise prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Bei Dienstfähigkeit Diagnose, funktionelle Einschränkungen, Prognose, Untersuchungsauftrag und dienstliche Anforderungen auseinanderhalten. Ärztliche Einschätzung nicht selbst ersetzen. Fehlt die Tätigkeitsbeschreibung, frage nach den konkreten Anforderungen; nach Eingang die Gutachterfragen und die bestellte Stellungnahme daran ausrichten. Anderweitige Verwendung anhand des geltenden Rechts und vorhandener Stelleninformationen prüfen.
 
-## 6. Anker
+Bei Besoldung, Beihilfe oder Versorgung Zeitraum, Bescheidfassung, Berechnungsbestandteile, Anrechnung und gewünschte Korrektur ausweisen. Keine landesübergreifende Pauschalfrist oder allgemeine Berechnungsquote verwenden. Bei Disziplinarvorwürfen Tatsachen, Belege, Verfahrensstand und Äußerungsziel trennen; keine ungefragte Einlassung verfassen.
 
-- VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
-- VwVfG Paragraf 28: Anhörung Beteiligter.
-- VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
-- VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
-- Art. 33 Abs. 2 GG: Bestenauslese nach Eignung, Befähigung und fachlicher Leistung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 74 Abs. 1 Nr. 27 GG und Art. 70 GG: Statusrechtliche Bundeskompetenz, Laufbahn/Besoldung/Versorgung der Länder grundsätzlich Landesrecht: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 98 Abs. 2 GG: Wenn ein Bundesrichter im Amt oder außer Amts gegen die Grundsätze des Grundgesetzes oder gegen die verfassungsmäßige Ordnung verstoesst, kann: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 98 Abs. 5 GG ermöglicht analoge Vorschriften in den Ländern; landesrechtliche Vorschriften unterschiedlich: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82: effektiver Rechtsschutz verlangt eine tatsächlich wirksame gerichtliche Kontrolle.
-- BVerwG, Urteil vom 27.09.1978 - 7 C 79.76: Ermessensentscheidungen müssen Zweck, Grenzen und Abwägung erkennen lassen.
-- BVerwG, 11.10.2016 - 2 C 11.15 als verifizierter Anker zu Art. 33 Abs. 2 GG und Eignungsanforderungen bei Höchstaltersgrenzen
-- BVerfG, 05.05.2015 - 2 BvL 17/09 u.a.: R-Besoldung Sachsen-Anhalt; Parameterprüfung zur amtsangemessenen Alimentation
-- BVerfG, 04.05.2020 - 2 BvL 4/18: R-Besoldung Berlin; Mindestabstand und Alimentation
+Bei rassistischen oder NS-verharmlosenden Chats BVerwG, Urteil vom 11.06.2026, 2 C 12.25, Randnummern 23 bis 30 und 39 bis 46, anwenden: Vollständigen Kontext und innere Einstellung aufklären; der objektive Anschein allein trägt keine Verfassungstreuepflichtverletzung. Wohlverhaltenspflicht und Verfassungstreue unterscheiden. Kommunikation in besonderen Nähebeziehungen ist nicht pauschal unverwertbar, ihr Schutz tritt aber nicht bei jedem bloßen Wohlverhaltensvorwurf zurück. Keine automatische Entfernung allein aus einem isolierten Screenshot ableiten. [Amtlicher Volltext](https://www.bverwg.de/de/110626U2C12.25.0).
 
-## 7. Antwortform
+## 1.4. Belastbares Arbeitsprodukt
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Besold Mehrarbeit Vergütung Freizeitausgleich Beamte, Beamtenrecht: Mehrarbeit Vergütung Freizeitausgleich Beamte, Fristen und Sofortmaßnahmen, Konkurrentenklage — einstweiliger Rechtsschutz nach Paragraf 123 VwGO: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Ein Eilentwurf enthält konkretes Sicherungsziel, Sachverhalt, Auswahlfehler, Eilgrund und Beweismittel; fehlende Aktenstellen bleiben markiert. Eine Beurteilungseinwendung verbindet den beanstandeten Maßstab mit Vergleichsdaten, nicht nur mit persönlicher Unzufriedenheit. Behördenkorrespondenz in vollständigen Sätzen schreiben und keine erfolgte Stillhaltezusage behaupten.
 
-## 8. Stop
+Optional: [Konkurrentenstreit](skills/konkurrentenstreit-eilverfahren/SKILL.md). Ohne Zusatzdatei anhand der vorstehenden Stationen arbeiten. Normen in amtlicher, zeitlich maßgeblicher Fassung prüfen; Entscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und belegter Randnummer zitieren. Keine pauschalen Listen angeblich einschlägiger Entscheidungen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Bei fehlenden Dienstzeiten oder Anrechnungsbeträgen gezielt das Berechnungsblatt erfragen. Nach der Antwort Beleg und Behauptung abgleichen, Rechnung und Begründung ändern und das bestellte Dokument fertigschreiben. Neue entscheidende Lücken dürfen weitere kurze Fragen auslösen; bereits geklärte Punkte nicht erneut aufnehmen. Bei einem Hindernis einen gekennzeichneten Teilstand liefern und nach Klärung fortsetzen. Ein Gutachtenauftrag verlangt keinen ungefragten Klageentwurf.
+
+Interne Quellenprüfung und offene Recherche getrennt vom Mandantenbrief dokumentieren. Dezimale Gliederung mit Leerzeilen und Times New Roman 11 pt beziehungsweise Exporthinweis verwenden. Ohne Export Text liefern; offene Rechtskreisfragen begrenzen nur die davon abhängige Aussage. Keine Einreichung, Akteneinsicht oder Zustellung als erfolgt behaupten; externe Handlungen nur nach ausdrücklicher Freigabe.

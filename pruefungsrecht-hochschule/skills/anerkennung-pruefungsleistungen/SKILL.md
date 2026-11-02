@@ -1,6 +1,6 @@
 ---
 name: anerkennung-pruefungsleistungen
-description: "Wenn es um Anerkennung Von Prüfungsleistungen in Prüfungsrecht an Hochschulen und Universitäten geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anerkennung von Prüfungsleistungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Prüfungsrecht an Hochschulen und Universitäten. Route: anerkennung-pruefungsleistungen."
 ---
 
 # Anerkennung Von Prüfungsleistungen
@@ -88,22 +88,3 @@ Der Skill arbeitet landes- und satzungsbezogen: Er fragt zuerst nach Bundesland,
 ## Ergebnisformat
 
 Erzeuge bevorzugt: Anerkennungsantrag. Am Ende immer drei Zeilen: **Frist**, **fehlende Quelle**, **nächster sicherer Schritt**.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- Art. 12 GG
-- Art. 3 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

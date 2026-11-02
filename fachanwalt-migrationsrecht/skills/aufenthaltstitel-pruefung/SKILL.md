@@ -1,6 +1,6 @@
 ---
 name: aufenthaltstitel-pruefung
-description: "Wenn es um Aufenthaltstitel Prüfung in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufenthaltstitel Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Ausländerbehoerde erhalten
@@ -74,7 +74,6 @@ description: "Wenn es um Aufenthaltstitel Prüfung in Fachanwalt Migrationsrecht
 
 | Aktenzeichen | Gericht/Datum | Inhalt |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | BVerwGE 162, 130 | BVerwG, 09.09.2021 | Ausweisungsinteresse; Ermessensabwägung; Bleibeinteressen |
 
 ---
@@ -85,7 +84,6 @@ description: "Wenn es um Aufenthaltstitel Prüfung in Fachanwalt Migrationsrecht
 |---|---|---|
 | 1 | Aufenthaltszweck identifizieren und Spezialnorm auswählen | §§ 16–26 AufenthG |
 | 2 | Allgemeine Erteilungsvoraussetzungen § 5 AufenthG vollständig prüfen | § 5 Abs. 1, 2 |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 4 | Identität und Pass prüfen | § 3, § 5 Abs. 1 Nr. 1a AufenthG |
 | 5 | Ausweisungsinteresse § 54 prüfen (Strafregister, Ermittlungsverfahren) | §§ 53–55 AufenthG |
 | 6 | Visumserfordernis: richtiges Visum bei Einreise? | § 5 Abs. 2, § 39 AufenthV |
@@ -173,7 +171,6 @@ Begründung:
 Die Behörde hat den Lebensunterhalt als nicht gesichert abgelehnt.
 Diese Einschätzung ist unzutreffend.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 gegeben, wenn das Nettoeinkommen den nach SGB II maßgeblichen Bedarf
 aller Familienmitglieder übersteigt. Maßgeblich sind:
 
@@ -267,10 +264,8 @@ Mit freundlichen Grüßen
 
 | Behörden-Argument | Rechtliche Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Visumserfordernis nicht erfüllt" | § 39 AufenthV-Ausnahmen: Nr. 1 (Familienangehörige Deutscher), Nr. 3 (humanitäre Gründe), Nr. 5 |
 | "Ausweisungsinteresse § 54 vorhanden" | Abwägung § 53 Abs. 1 AufenthG; Bleibeinteressen § 55 qualifiziert prüfen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hochschulabschluss nicht anerkannt" | KMK-Bescheid beantragen; anabin-Datenbank; ENIC-NARIC-Netzwerk |
 | "§ 11 Einreise-/Aufenthaltsverbot" | Befristungsantrag nach § 11 Abs. 4 AufenthG; humanitäre Ausnahme |
 | "§ 25b — Lebensunterhalt nicht eigenständig" | § 25b Abs. 1 Nr. 3 AufenthG: Stufenmodell; Ausnahme bei unverschuldeter Hilfsbedürftigkeit |
@@ -389,3 +384,4 @@ VI. NAECHSTE SCHRITTE
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

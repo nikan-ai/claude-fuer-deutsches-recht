@@ -1,6 +1,6 @@
 ---
 name: bilinguale-client-commercial-sonderfall
-description: "Wenn es um Bilinguale: Compliance-Dokumentation und Aktenvermerk in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Bilinguale: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bilinguale: Compliance-Dokumentation und Aktenvermerk
@@ -48,17 +48,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 29 VwVfG
-- Art. 267 AEUV
-- § 31 BVerfGG
-- § 4 EuRAG
-- Art. 15 DSGVO
-
-### Leitentscheidungen
-
-- BGH XI ZR 39/04

@@ -1,6 +1,6 @@
 ---
 name: 90a-bgb-richtig-einordnen
-description: "Wenn es um 90a Bgb Richtig Einordnen in Tierschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 90a BGB Richtig Einordnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 90a Bgb Richtig Einordnen
@@ -27,22 +27,3 @@ description: "Wenn es um 90a Bgb Richtig Einordnen in Tierschutzrecht geht: prü
 3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
 4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
 5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 TierSchG
-- § 2 TierSchG
-- § 3 TierSchG
-- § 4 TierSchG
-- § 6 TierSchG
-- § 11 TierSchG
-- § 16 TierSchG
-- § 17 TierSchG
-- § 18 TierSchG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

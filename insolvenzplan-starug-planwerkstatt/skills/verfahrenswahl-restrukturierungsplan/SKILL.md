@@ -1,6 +1,6 @@
 ---
 name: verfahrenswahl-restrukturierungsplan
-description: "Wenn es um Verfahrenswahl und Routenentscheidung in Insolvenzplan- und StaRUG-Planwerkstatt geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Verfahrenswahl und Routenentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verfahrenswahl und Routenentscheidung
@@ -15,8 +15,6 @@ description: "Wenn es um Verfahrenswahl und Routenentscheidung in Insolvenzplan-
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Verfahrenswahl und Routenentscheidung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -39,14 +37,18 @@ description: "Wenn es um Verfahrenswahl und Routenentscheidung in Insolvenzplan-
 
 | Befund | Route | Begründung |
 |---|---|---|
-| Paragraf 17 InsO eingetreten | Kein StaRUG als Hauptweg; Eigenverwaltung, Schutzschirm oder Regelverfahren prüfen | Vorinsolvenzlicher Rahmen setzt voraus, dass Zahlungsunfähigkeit noch nicht eingetreten ist |
-| Paragraf 19 InsO ohne positive Fortbestehensprognose | Antragspflicht und Insolvenzroute prüfen | Überschuldung löst Antragspflicht aus |
+| Paragraf 17 InsO eingetreten | Antragspflicht und Insolvenzroute prüfen; in anhängiger Restrukturierung Anzeige und §-33-Ausnahmen gesondert würdigen | Regelhafte Aufhebung mit eng begründeten Ermessensausnahmen; kein Schutzschirmzugang bei bereits eingetretener Zahlungsunfähigkeit (§ 270d InsO) |
+| Paragraf 19 InsO ohne positive Fortbestehensprognose | Vermögensdeckung, persönlichen Anwendungsbereich und Verfahrensstand prüfen | Bei festgestellter Überschuldung Antragspflicht; während rechtshängiger Restrukturierung Ruhen nach § 42 Absatz 1 StaRUG und unverzügliche Anzeige |
 | Paragraf 18 InsO, aber Paragraf 17 negativ | StaRUG, außergerichtlicher Standstill oder Schutzschirm-Option offen | Drohende Zahlungsunfähigkeit ist der Zugangspunkt |
 | Streitige Forderung ohne Fälligkeit oder Bestand | Nicht als Paragraf-17-Stopper behandeln | Materielle Rechtslage entscheidet |
 | Vorläufig vollstreckbarer Titel, Vollstreckung läuft | Nennwert in Drei-Wochen-Liquiditätsstatus einstellen | Vollstreckungsdruck kann Paragraf 17 auslösen |
 | Vollstreckung aus Titel vorläufig eingestellt | Gesondert würdigen | Belegwirkung kann entfallen |
 
-Leitanker für die Stopper: BGH IX ZR 229/22 vom 23.01.2025, BGH II ZR 139/23 vom 11.03.2025, BGH IX ZB 38/24 vom 22.05.2025. Keine prozentuale Kürzung streitiger Passiva nach Prozessrisiko.
+Leitanker für die Stopper: BGH IX ZR 229/22 vom 23.01.2025 zum vollstreckbaren Titel und zur objektiven Rechtslage; BGH, Beschluss vom 11.03.2025 - II ZR 139/23 ergänzend zum materiellen Bestand, ohne Grundsatzurteilswirkung; BGH IX ZB 38/24 vom 22.05.2025 nur zur Belegwirkung eines Titels beim Gläubigerantrag nach eingestellter Vollstreckung. Keine prozentuale Kürzung streitiger Passiva allein nach Prozessrisiko.
+
+Für die bereits anhängige Restrukturierung gilt BGH, Beschluss vom 23.04.2026 – [IX ZB 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZB__18-25.pdf?__blob=publicationFile&v=1), Rn. 10–23: Nach Anzeige von Zahlungsunfähigkeit oder Überschuldung gemäß § 32 Absatz 3 StaRUG ist die Aufhebung nach § 33 Absatz 2 Satz 1 Nummer 1 StaRUG die Regel. Die Ausnahmen eröffnen gerichtliches Ermessen, keinen automatischen Fortsetzungsanspruch. Bloß fehlende Vorteile eines Insolvenzverfahrens oder eine unsichere Ein-Prozent-Quote beweisen kein offensichtliches Gläubigerinteresse gegen die Eröffnung. Beruht Insolvenzreife auf vorgezogener Fälligkeit einer planbetroffenen Forderung, muss das Restrukturierungsziel überwiegend wahrscheinlich erreichbar sein. Frage nach Stand, Betrag, Bedingungen und Absicherung nötiger Drittbeiträge und aktualisiere Route, Liquiditätsplan und Vermerk. Eine freiwillige, ungesicherte Zusage genügt hierfür nicht ohne weitere tragfähige Umstände. Die Gruppenbildung wurde ausdrücklich offengelassen (Rn. 24). Ein Schutzschirm nach § 270d InsO setzt beim Zugang fehlende Zahlungsunfähigkeit voraus.
+
+Während der Rechtshängigkeit ruht die Antragspflicht nach [§ 42 Absatz 1 StaRUG](https://www.gesetze-im-internet.de/starug/__42.html); stattdessen Eintritt der Insolvenzreife ohne schuldhaftes Zögern anzeigen. Bei Wirkungsverlust der Anzeige lebt sie nach Absatz 4 wieder auf. Verfahrensstand und Zeitpunkt belegen.
 
 ## Ausgabe
 
@@ -74,20 +76,19 @@ Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum e
 
 - Eröffnungsgründe: § 17 InsO (ZU; Antragspflicht), § 18 InsO (drohende ZU; StaRUG-Zugang; Prognose 24 Monate), § 19 InsO (Überschuldung; Antragspflicht; Prognose 12 Monate seit 01.01.2024).
 - **BGH IX ZR 229/22 vom 23.01.2025** — titulierte und vollstreckte fällige Forderung mit Nennwert im Liquiditätsstatus; keine Prozessrisikoquote.
-- **BGH II ZR 139/23 vom 11.03.2025** — materieller Bestand und Fälligkeit der Forderung bestimmen die Passivierung.
+- **BGH, Beschluss vom 11.03.2025 - II ZR 139/23** — materieller Bestand als Maßstab im Nichtzulassungsbeschwerdeverfahren; keine eigenständige Grundsatzentscheidung.
 - **BGH IX ZB 38/24 vom 22.05.2025** — vorläufige Einstellung der Vollstreckung kann die Belegwirkung des Titels für den Insolvenzantrag entfallen lassen.
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (VARTA AG) — StaRUG verfassungsrechtlich tragfähig; relevant für Verfahrenswahl bei börsennotierten AGs. <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
 - **BGH II ZR 206/22 vom 23.07.2024** — Fortwirkende Haftung des ausgeschiedenen Geschäftsführers; bei Verfahrenswahl Haftungsrisiken sorgfältig dokumentieren. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
 
 ## Paragrafenkette (Insolvenzplan / StaRUG)
 
-§ 217 InsO (Plan-Option) → § 218 InsO (Plan-Vorlage) → §§ 220-221 InsO (darstellender und gestaltender Teil) → § 222 InsO (Gruppen) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Planbestaetigung) → § 254 InsO (Planwirkung) → §§ 7-39 StaRUG (StaRUG-Plan) → § 25 StaRUG (Mehrheiten) → § 26 StaRUG (Cramdown)
+Paragraf 217 InsO (Planoption) → Paragraf 218 InsO (Planvorlage) → Paragrafen 220 und 221 InsO (darstellender und gestaltender Teil) → Paragraf 222 InsO (Gruppen) → Paragrafen 235 bis 244 InsO (Abstimmung) → Paragraf 245 InsO (gruppenübergreifende Mehrheitsentscheidung) → Paragraf 248 InsO (Bestätigung) → Paragraf 254 InsO (Wirkung) → Paragrafen 2 bis 28 StaRUG (Planreichweite, Inhalt und Annahme) → Paragraf 25 StaRUG (Mehrheiten) → Paragraf 26 StaRUG (gruppenübergreifende Mehrheitsentscheidung)
 
 ## Triage — Plan-Vorarbeiten
 
 Bevor losgelegt wird, klaere:
-1. **Verfahrensart?** InsO-Plan (§§ 217 ff. InsO) oder StaRUG-Restrukturierungsplan (§§ 7-39 StaRUG)?
-2. **Klassenbildung schluessig?** § 222 InsO / § 10 StaRUG — gleiche Rechte und Interessen je Gruppe.
+1. **Verfahrensart?** Insolvenzplan nach Paragrafen 217 ff. InsO oder StaRUG-Restrukturierungsplan nach Paragrafen 2 bis 28 StaRUG?
+2. **Klassenbildung schluessig?** Paragraf 222 InsO und Paragraf 9 StaRUG — Rechtsstellung und sachgerechte wirtschaftliche Interessen; Gleichbehandlung im StaRUG zusätzlich nach Paragraf 10 StaRUG.
 3. **Mehrheits-Simulation?** Ist 75%-Schwelle (StaRUG) oder 50%+50% (InsO) realistisch?
 4. **Vergleichsrechnung?** Liquidationswert als Referenz für Best-Interest-Test berechnen.
 5. **Cramdown-Szenario?** Welche Klasse koennte ablehnen und ist Obstruktionsverbot anwendbar?

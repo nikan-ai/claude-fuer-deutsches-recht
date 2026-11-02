@@ -1,6 +1,6 @@
 ---
 name: anti-ki-beweissicherung-testkauf-bildmarke
-description: "Wenn es um Anti-digitale Werkzeuge-Marken und Authentizitätskennzeichen in markenrecht-fashion-luxus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anti-digitale Werkzeuge-Marken und Authentizitätskennzeichen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Anti-KI-Marken und Authentizitätskennzeichen
@@ -76,7 +76,7 @@ Die Comtesse Beatrice de Klotzzkettie hat klar positioniert: Kein Faden bei klô
 Die Maison will diesen französischen Claim als Wortmarke für Klasse 25 eintragen. Analyse: "Entièrement Humain" (vollständig menschlich) ist für Bekleidung weder beschreibend noch frei zuhaltend — aber möglicherweise nur schwach unterscheidungskräftig (anpreisend). Strategie: Wort-Bild-Marke mit besonderem Siegel-Signet; stärker als reine Wortmarke.
 
 ### Konstellation 2: Donauzon Marketplace nutzt KI-generierte Fälschungen
-Donauzon Marketplace GmbH betreibt Konten, die KI-generierte Produktbilder von gefälschten klôtzzkètté-Produkten zeigen. Zweigleisige Strategie: (1) Notice-and-Action nach DSA (vgl. Skill `plattform-piraterie-donauzon`); (2) Klage gegen Donauzon auf Unterlassung wegen Verletzung der Wortmarke klôtzzkètté; (3) Berufung auf EU AI Act Art. 50: Pflicht zur Kennzeichnung von KI-generierten Bildern verletzt.
+Im fiktiven Donauzon-Fall Markenverletzung und Plattformweg anhand der konkreten Produktbilder prüfen. Artikel 50 liefert keine allgemeine Kennzeichnungspflicht des Händlers für jedes KI-Bild: Anbieterkennzeichnung, Deepfake-Eigenschaft, tatsächliche Veröffentlichung und Zeitrecht gesondert prüfen. Fehlende Kennzeichnung ersetzt keinen Nachweis einer Markenverletzung. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ### Konstellation 3: Konkurrenzlabel wirbt mit "KI-optimiertes Design"
 Newcomer-Marke bewirbt sich mit "by Human & AI combined craftsmanship" für Mode in Klasse 25. Keine Markenverletzung von klôtzzkètté; aber Wettbewerbschance: Das klôtzzkètté-"100% Human"-Versprechen als Alleinstellungsmerkmal verstärken.
@@ -125,7 +125,7 @@ Entzug der Nutzungserlaubnis; Unterlassungsanspruch nach § 97 V MarkenG.
 ## Risiken & Stolperfallen
 
 - **Greenwashing-Parallele:** "Human Made"-Labels müssen substanziell belegbar sein — Irreführung nach § 5 UWG droht bei bloßem Lippenbekenntnis
-- **EU AI Act Compliance:** Auch wenn das Design human-created ist, kann Nutzung von KI im Marketing (z.B. KI-generierte Werbefotografien) Kennzeichnungspflichten auslösen (Art. 50 I lit. b UMV)
+- **Marketing:** Artikel 50 KI-Verordnung ist nicht Artikel 50 UMV. Medium, Anbieter-/Betreiberrolle, Deepfake-Eigenschaft und Veröffentlichungszweck gesondert prüfen; keine pauschale Kennzeichnungspflicht jedes KI-gestalteten Designs. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Kollektivmarken-Verwaltungsaufwand:** Satzung und Überwachungspflichten sind ressourcenintensiv — nur sinnvoll mit echtem Verbandsträger
 - **Keine markenrechtliche Exklusivität:** "Human Made" als Wortmarke ist in diversen Klassen bereits eingetragen — Kollisionsrisiko prüfen
 
@@ -135,19 +135,14 @@ Bevor das Anti-KI-Label entwickelt wird, kläre:
 1. Wird KI tatsächlich in keinem Schritt des Designprozesses eingesetzt (Dokumentation vorhanden)?
 2. Welche Kennzeichenart ist angestrebt — eigenständige Marke, Kollektivmarke oder Gewährleistungsmarke?
 3. Gibt es bereits bestehende "Human Made"-Marken in den relevanten Klassen (DPMA/EUIPO-Vorrecherche)?
-4. Ist die interne KI-Nutzung im Marketing (Bildgenerierung, Texterstellung) nach EU AI Act Art. 50 gekennzeichnet?
-
-## Aktuelle Rechtsprechung
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+4. Welche nach außen verwendeten Inhalte oder interaktiven Funktionen fallen tatsächlich unter welchen Absatz des Artikels 50 KI-Verordnung? Interne Bild- oder Textentwürfe nicht automatisch wie veröffentlichte Deepfakes behandeln.
 
 ## Faktische Updates (Stand 05/2026)
 
-- **KI-VO Art. 50:** Anwendbar ab 02.08.2026; Transparenzpflichten für Chatbots, Deepfakes, KI-generierten Text bei öffentlichem Interesse und Emotionserkennung. Quelle: VO (EU) 2024/1689, Art. 113 lit. c.
+- **Artikel 50 KI-Verordnung:** Artikel 50 trennt Anbieter- und Betreiberpflichten: Interaktionsinformation, technische Kennzeichnung synthetischer Ausgaben, Information bei Emotions-/Biometriekategorisierung sowie Offenlegung bei Deepfakes und Texten zu Angelegenheiten öffentlichen Interesses. Die redaktionelle Ausnahme des Absatzes 4 betrifft den dortigen Textfall, nicht pauschal Deepfakes. Artikel 113 nennt grundsätzlich den 02.08.2026; Artikel 111 Absatz 4 verschiebt nur Artikel 50 Absatz 2 für vor diesem Datum in Verkehr gebrachte generative Systeme auf den 02.12.2026. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **EUIPO-Praxis zu KI-bezogenen Marken:** EUIPO hat 2024/2025 verstaerkt Anmeldungen mit "AI"/"KI"-Bezug zurueckgewiesen, sofern beschreibend oder freihaltebeduerftig. Live-Recherche im EUIPO eSearch plus erforderlich.
 - **DPMA-Praxis "Human Made" / Authentizitaetsmarken:** Aktuelle DPMA-/BPatG-Entscheidungen zu Authentizitaets- und Negativ-Marken ("AI Free", "ohne KI") live über dpma.de und bpatg.bund.de prüfen.
 - **UWG § 5 Abs. 1 / § 5a UWG bei KI-Marketing:** BGH-Linie zur Irrefuehrung durch unzureichende Kennzeichnung KI-generierter Werbung / Influencer-Inhalte live über dejure.org prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie synthetische Gesichter, Produktabbildungen und behauptete Zertifizierungen jeweils getrennt. Marken- oder Persönlichkeitsrechte werden durch eine KI-Kennzeichnung nicht ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

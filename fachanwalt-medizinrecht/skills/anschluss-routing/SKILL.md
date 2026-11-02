@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Medizinrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Medizinrecht."
 ---
 
 # Anschluss-Routing
@@ -40,24 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Medizinrecht** wählt nach dem ersten
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 86b SGG
-- § 80 VwGO
-- § 4b AMG
-- § 87 SGG
-- § 51 SGG
-- § 84 SGG
-- § 70 VwGO
-- § 74 VwGO
-- § 203 StGB
-- § 3a RVG
-- § 229 StGB
-- § 78 StGB
-
-### Leitentscheidungen
-
-- BGH VI ZR 323/04

@@ -1,6 +1,6 @@
 ---
 name: entfristung-guetetermin-und-kammertermin-sprechzettel
-description: "Wenn es um Sprechzettel für Guetetermin und Kammertermin in der Entfristungsklage: Antragsstellung in Arbeitsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sprechzettel für Gütetermin und Kammertermin in der Entfristungsklage: Antragsstellung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Sprechzettel für Guetetermin und Kammertermin in der Entfristungsklage: Antragsstellung
@@ -20,8 +20,6 @@ description: "Wenn es um Sprechzettel für Guetetermin und Kammertermin in der E
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gütetermin und Kammertermin: Sprechzettel Entfristungsklage` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -43,10 +41,6 @@ description: "Wenn es um Sprechzettel für Guetetermin und Kammertermin in der E
 - Paragraf 14 Abs. 1 TzBfG — Sachgrundprüfung
 - Paragrafen 9, 10 KSchG i.V.m. Paragraf 17 Satz 2 TzBfG — Auflösungsantrag auf Abfindung
 - Paragraf 12a ArbGG — Kein Kostenerstattungsanspruch für Rechtsanwalt in erster Instanz
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Gütetermin (Paragraf 54 ArbGG)
 
@@ -74,7 +68,6 @@ description: "Wenn es um Sprechzettel für Guetetermin und Kammertermin in der E
 2. Die Beklagte zu verurteilen, mich als [BERUFSBEZEICHNUNG] zu unveränderten Arbeitsbedingungen weiterzubeschäftigen."
 
 ### Wenn Gegenseite behauptet, Vertrag sei ordnungsgemäß unterschrieben
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Wenn Sachgrund behauptet wird
 "Die Beklagte hat keinen konkreten Sachgrund nach Paragraf 14 Abs. 1 TzBfG dargelegt. Der behauptete [SACHGRUND] lag bei Vertragsschluss nicht vor / trägt die Befristungsdauer nicht. Der Arbeitgeber trägt die Darlegungs- und Beweislast für das Vorliegen des Sachgrunds."

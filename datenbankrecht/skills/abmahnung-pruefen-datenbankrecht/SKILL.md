@@ -1,6 +1,6 @@
 ---
 name: abmahnung-pruefen-datenbankrecht
-description: "Wenn es um Abmahnung prüfen im Datenbankrecht — Checkliste und Reaktionsoptionen in Datenbankrecht und Datenbankherstellerrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abmahnung prüfen im Datenbankrecht — Checkliste und Reaktionsoptionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abmahnung prüfen im Datenbankrecht — Checkliste und Reaktionsoptionen
@@ -67,28 +67,3 @@ Prüfung einer erhaltenen Datenbankrechts-Abmahnung: Berechtigungs-Check des Abm
 - [§ 87c UrhG — dejure.org](https://dejure.org/gesetze/UrhG/87c.html)
 - [§ 102 UrhG — dejure.org](https://dejure.org/gesetze/UrhG/102.html)
 - [§ 339 BGB — dejure.org](https://dejure.org/gesetze/BGB/339.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 87a UrhG
-- § 87b UrhG
-- § 87a-87e UrhG
-- § 44b UrhG
-- § 4 UrhG
-- § 60d UrhG
-- § 97 UrhG
-- § 87c UrhG
-- § 87d UrhG
-- § 97a UrhG
-- § 202a StGB
-- § 5 UrhG
-
-### Leitentscheidungen
-
-- EuGH C-203/02
-- EuGH C-202/12
-- EuGH C-545/07
-- EuGH C-338/02
-- EuGH C-170/12

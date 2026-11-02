@@ -1,6 +1,6 @@
 ---
 name: eilantrag-buergergeld-jobcenter
-description: "Wenn es um Eilantrag gegen das Jobcenter — Buergergeld retten in selbstvertreter-sozialgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Eilantrag gegen das Jobcenter — Bürgergeld retten: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Eilantrag gegen das Jobcenter — Buergergeld retten
@@ -42,7 +42,6 @@ Das Jobcenter zahlt nichts mehr. Sie haben kein Geld zum Leben. Gehen Sie schnel
 - **§ 31 SGB II** — Sanktionen.
 - **§ 7 SGB II** — Leistungsberechtigte.
 - **Art. 1 Abs. 1 GG i.V.m. Art. 20 Abs. 1 GG** — Existenzminimum als Verfassungsanspruch.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Anleitung
 
@@ -110,7 +109,6 @@ III. Anordnungsgrund
 - Mein Vermieter hat angedeutet, bei weiterer Nichtzahlung zu kuendigen.
 - Lebensmittel- und Hygieneartikel kann ich derzeit nicht mehr finanzieren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 IV. Glaubhaftmachung
 Beigefuegt ist eine eidesstattliche Versicherung.
@@ -156,4 +154,4 @@ Das SG hat einen Eilantragsdezernenten. Anruf ist erlaubt. Sagen Sie: "Mein Eila
 
 ## Quellen und Aktualitaet
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

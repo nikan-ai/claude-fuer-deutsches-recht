@@ -1,6 +1,6 @@
 ---
 name: gesetzgebungskompetenz-pruefen
-description: "Wenn es um Gesetzgebungskompetenz prüfen in Legistik-Werkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gesetzgebungskompetenz prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Legistik-Werkstatt."
 ---
 
 # Gesetzgebungskompetenz prüfen
@@ -39,10 +39,6 @@ Hat der Bund von seiner konkurrierenden Kompetenz Gebrauch gemacht? Dann Sperrwi
 
 Wenn Landesgesetz: Prüfung der Landesverfassung. Hat das Land Selbstverwaltung der Kommunen zu wahren (Art. 28 Abs. 2 GG analog Landesverfassungen)? Greift das Gesetz in ein landesverfassungsrechtliches Grundrecht ein (z.B. Bayerische Verfassung Art. 101 Wohnungswesen)?
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 Art. 70 GG (Auffangkompetenz Länder) — Art. 71-73 GG (ausschliessliche Bundeskompetenz) — Art. 72-74 GG (konkurrierende Kompetenz, Erforderlichkeit) — Art. 72 Abs. 3 GG (Abweichungskompetenz) — Art. 80 GG (Verordnungsermaechtigung)
@@ -69,3 +65,5 @@ Gutachten ein bis zwei Seiten mit:
 
 Wenn tragfähig: weiter mit `normenkartierung`.
 Wenn nicht tragfähig: zurueck zu `legistik-auftragsaufnahme` und Norm-Ebene wechseln.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

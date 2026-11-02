@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sportrecht-cas-dis-sport-verbands-schiedsverfahren
-description: "Wenn es um Sport-Schiedsgerichtsbarkeit — CAS / DIS-Sport / Verbände in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sport-Schiedsgerichtsbarkeit — CAS / DIS-Sport / Verbände: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sport-Schiedsgerichtsbarkeit — CAS / DIS-Sport / Verbände
@@ -24,7 +24,6 @@ Sportrecht ist überwiegend Schiedsrecht. **CAS Lausanne** als oberste Instanz, 
 - **NADA-Code** (DE)
 - **DIS-Sportschiedsgerichtsordnung**
 - **FIFA Statutes** Art. 56-62 (Schiedsgerichtsbarkeit)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## ADR-Pfade
 
@@ -38,7 +37,7 @@ Sportrecht ist überwiegend Schiedsrecht. **CAS Lausanne** als oberste Instanz, 
 
 - Bei nationaler Sport-Sache
 - Unabhängige Schiedsrichter
-- Schiedsspruch endgültig (außer CAS-Berufung)
+- Bindungswirkung, Schiedssitz und statthafte Rechtsbehelfe gesondert prüfen; unionsrechtliche Kontrolle nicht pauschal ausschließen.
 
 ### Pfad 3 — CAS Lausanne (international)
 
@@ -88,11 +87,10 @@ Sportrecht ist überwiegend Schiedsrecht. **CAS Lausanne** als oberste Instanz, 
 ### Phase 5 — Schweizerisches Bundesgericht
 
 - Letzte Instanz
-- Nur Verfahrens-Fragen (kein zweiter Sachvortrag)
+- Beschränkte Anfechtungsgründe nach anwendbarem Schweizer Recht; davon die unionsrechtliche Kontrolle durch zuständige Gerichte eines Mitgliedstaats unterscheiden.
 
 ## Strategie und Taktik
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **CAS-Erfahrung Schiedsrichter**: aus CAS-Liste auswählen
 - **Doping-Verteidigung**: kontaminierte Nahrungsergänzungs-Mittel als gängiger Verteidigungs-Anker (BGH-Linie zu Cannabis-Verseuchung)
 - **B-Probe**: immer beantragen (Chain of Custody)
@@ -115,3 +113,5 @@ Strategische Folge für Mandate: Nach CAS-Entscheidung kann je nach Konstellatio
 - DIS-Sportschiedsgerichtsordnung — [disarb.org](https://www.disarb.org)
 - WADA-Code — [wada-ama.org](https://www.wada-ama.org)
 - Rechtsprechung im Mandat live verifizieren; keine Aktenzeichen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

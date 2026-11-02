@@ -1,6 +1,6 @@
 ---
 name: klage-versicherer-strategie
-description: "Wenn es um Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz in Fachanwalt Versicherungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -54,7 +52,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 - **§ 28 VVG** — Obliegenheitsverletzung; Leistungsfreiheit bei Vorsatz; quotal bei grober Fahrlässigkeit; Kausalität § 28 Abs. 3 VVG.
 - **§ 81 VVG** — Herbeiführung Versicherungsfall grob fahrlässig; quotale Kürzung.
 - **§ 215 VVG** — Gerichtsstand Wohnsitz des VN; Verbraucherschutz; alternativ allgemeiner Gerichtsstand Versicherer § 17 ZPO.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 9 ZPO** — Streitwert bei wiederkehrenden Leistungen: 3,5-facher Jahreswert (deckelnder Wert bei kürzerer Restlaufzeit).
 - **§§ 280, 286, 288 BGB** — Verzug; Zinsen 5 Prozentpunkte über Basiszinssatz; Ersatz Verzugsschadens (Anwaltskosten).
 - **§§ 195, 199, 203, 204 BGB** — Verjährung 3 Jahre; Hemmung durch Verhandlungen, Ombudsstelle.
@@ -65,9 +62,7 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema in Tabellenform
 
@@ -80,7 +75,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 | 3 | Örtliche Zuständigkeit? | § 215 VVG | Wohnsitz VN (Verbraucherschutz) |
 | 4 | Verjährung noch nicht abgelaufen? | §§ 195, 199, 203, 204 BGB | Hemmung durch Ombudsstelle dokumentieren |
 | 5 | Vollständige außergerichtliche Phase? | § 14 VVG | Pflicht zur Abmahnung vor Klage bei noch laufender Prüfung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 7 | Beweisführung Versicherungsfall? | Urkundenbeweis, SV, Zeugen | Alle Beweismittel benennen |
 | 8 | Obliegenheitsverletzung des VN? | § 28 VVG | Kausalitätsdefense § 28 Abs. 3 VVG |
 | 9 | Grob fahrlässige Herbeiführung? | § 81 VVG | Quotale Kürzung; Verschuldensgrad |
@@ -89,7 +83,6 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 | 12 | Anwaltskosten außergerichtlich einklagbar? | § 249 BGB | Ab Verzugseinritt erstattungsfähig |
 | 13 | Sachverständige bestellt / vorgesehen? | § 411 ZPO; § 379 ZPO | Bei BU: medizinischer SV; bei Sachschaden: technischer SV |
 | 14 | PKH-Antrag oder Rechtsschutz-Deckung? | § 114 ZPO | Deckungszusage RS-Versicherung vorab |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -204,7 +197,6 @@ auszuüben. Sein konkretes Berufsbild umfasste folgende Tätigkeiten:
 [Detailbeschreibung der Haupttätigkeiten mit Zeitanteilen].
 
 Beweis: Sachverständigengutachten bezogen auf die konkrete
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Eine Verweisung auf Vergleichsberufe ist nach § [X] AVB
 ausgeschlossen / nach aktuellen AVB nicht vorgesehen.
@@ -212,7 +204,6 @@ ausgeschlossen / nach aktuellen AVB nicht vorgesehen.
 IV. FESTSTELLUNGSINTERESSE
 
 Feststellungsinteresse besteht, da die Beklagte die Leistungspflicht
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ```
 
 ### Baustein 3 — Antrag auf Prozesskostenhilfe
@@ -279,7 +270,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 |---|---|
 | Versicherungsfall nicht eingetreten | AVB-Definition schmal auslegen versuchen; § 305c Abs. 2 BGB gegen Versicherer |
 | Obliegenheitsverletzung — Verspätete Anzeige | § 28 Abs. 3 VVG: Kausalität; fehlende Kausalität beseitigt Leistungsfreiheit |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Forderung verjährt | Hemmungszeiträume (Ombudsstelle, Verhandlungen) in Rechnung stellen |
 | AVB-Ausschluss eindeutig | Transparenztest § 307 Abs. 1 S. 2 BGB; Auslegung § 305c Abs. 2 BGB |
 | Mahnverfahren zumutbar | Bei BU oder Feststellungsklage: Mahnverfahren ungeeignet; direkte Klage |
@@ -313,14 +303,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Ergänzung
 

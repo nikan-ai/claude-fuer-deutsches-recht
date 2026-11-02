@@ -1,6 +1,6 @@
 ---
 name: administrative-expenses-503
-description: "Wenn es um Administrative Expenses Paragraf 503 in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Administrative Expenses Paragraf 503: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Administrative Expenses § 503
@@ -55,19 +55,3 @@ Arbeite hier nicht nur abstrakt, sondern als strukturierter US-Counsel-Briefing-
 
 - Unklare US-Rechtsfragen werden nicht als sicher verkauft, sondern als Issue List für US-Counsel markiert.
 - Zahlen, Fristen, Fees, Formulare und Schwellenwerte werden vor konkreter Verwendung anhand offizieller aktueller Quellen geprüft.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 KWG
-- § 32 KWG
-- § 25a KWG
-- § 44 KWG
-- § 1 ZAG
-- § 10 ZAG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

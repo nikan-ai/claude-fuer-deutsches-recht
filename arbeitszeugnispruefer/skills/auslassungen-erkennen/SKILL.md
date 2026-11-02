@@ -1,14 +1,33 @@
 ---
 name: auslassungen-erkennen
-description: "Wenn es um Auslassungen erkennen in Arbeitszeugnispruefer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Prüft ein qualifiziertes Arbeitszeugnis auf konkret nachweisbare Lücken bei Art und Dauer der Tätigkeit, Leistung und Verhalten. Unterscheidet rechtlich erhebliche Auslassungen von bloßen Gestaltungswünschen und formuliert passende Ergänzungen."
 ---
 
-# Auslassungen erkennen
+# Erhebliche Auslassungen prüfen
 
-Schweigen ist im Arbeitszeugnis kein neutraler Zustand. Wenn ein Zeugnis zu einer fuer die Position erwarteten Eigenschaft schweigt, schliesst der kundige Leser darauf, dass die Eigenschaft nicht vorhanden oder problematisch war. Der Pruefer prueft systematisch, welche Aussagen erwartet werden und welche fehlen.
+## 1. Ausgangspunkt
 
-Auslassungsregel nach Positionstyp: Bei einer Kassentaetigkeit wird Ehrlichkeit erwartet; fehlt die Aussage, entsteht eine riskante Vertrauenslesart. Bei einer Fuehrungskraft wird Loyalitaet erwartet; fehlt sie, ist das ein roter Auslassungsbefund. Bei einer stressrelevanten Position (Notaufnahme, Projektleitung, Kundenhotline) wird Belastbarkeit erwartet; fehlt die Aussage, entsteht die Lesart eines Belastbarkeitsdefizits. Bei einer Kundenkontaktposition fehlt Kundenverhaltensangabe; das ist ein roter Auslassungscode.
+Prüfe zunächst den gesetzlich verlangten Inhalt nach Paragraf 109 Absatz 1 GewO, erst danach eine behauptete Branchenübung. BAG, Urteil vom 27. April 2021, 9 AZR 262/20, Rn. 21 bis 23 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-262-20/)), trägt die Prüfung einer vollständigen und verständlichen Tätigkeitsdarstellung. Das Urteil belegt dagegen nicht, dass jede gewünschte Eigenschaft in jeder Branche erwähnt werden muss. Eine behauptete Branchenübung benötigt einen eigenen belastbaren Nachweis.
 
-Vollstaendigkeitspruefer anwenden: Der Pruefer erstellt eine gedankliche Checkliste der fuer die konkrete Position branchenueblichen Aussagepflichten (Fachkompetenz, Fuehrung wo zutreffend, Belastbarkeit, Kundenkontakt, Eigeninitiative, Teamarbeit, Loyalitaet) und hakt ab, was vorhanden ist. Jeder fehlende Punkt wird als potenzieller Auslassungs-Code in der Einschaetzungsmatrix erfasst.
+Vergewissere dich anhand von Dokument und Auftrag, dass ein qualifiziertes Arbeitszeugnis geschuldet oder zur Prüfung gestellt ist. Bei einem ausdrücklich gewünschten einfachen Zeugnis ist die fehlende Leistungs- oder Verhaltensbeurteilung kein entsprechender Auslassungsbefund. Ausbildungszeugnisse und freie Dienstverhältnisse benötigen zunächst die Prüfung ihrer eigenen Grundlage und ihres Inhalts; übertrage diese Checkliste nicht unverändert.
 
-Gewichtung der Auslassung: Nicht jede Auslassung ist gleich schwer. Der Pruefer unterscheidet zwischen Kernauslassungen (fehlen Leistungs- oder Verhaltensbeurteilung im qualifizierten Zeugnis: eigenstaendiger Mangel nach Paragraf 109 Absatz 1 Satz 3 GewO) und Detailauslassungen (fehlt Belastbarkeit bei einer Buchhalterposition ohne Krisenkontext: geringe Relevanz). Kerneigenschaft fehlt: rot. Randaspekt fehlt bei nicht zutreffender Position: kein Befund notwendig. Im Mandantenbericht wird die Gewichtung transparent erklaert.
+Ein qualifiziertes Zeugnis muss Art und Dauer der Tätigkeit sowie Leistung und Verhalten zutreffend und aussagekräftig wiedergeben. Der Arbeitgeber darf einzelne Eigenschaften gewichten. Eine Auslassung ist deshalb nicht schon nach einer allgemeinen Checkliste negativ, sondern nur im Zusammenhang mit der tatsächlich ausgeübten Tätigkeit, dem übrigen Zeugnis und der berechtigten Erwartung eines verständigen Lesers zu beurteilen. Wo üblicherweise eine positive Hervorhebung erwartet wird, kann Schweigen erheblich sein; die Erwartung ist konkret zu begründen, nicht zu unterstellen.
+
+## 2. Prüfung und Formulierung
+
+Nutze bei streitigem Berufsbrauch Kapitel 21.6 des [Arbeitsbuchs](../../references/arbeitszeugnis-handbuch.md), bei fehlender Führung Kapitel 21.4. BAG, Urteil vom 12.08.2008 – Az. 9 AZR 632/07, stellte den behaupteten Redakteursbrauch nicht abschließend fest; eine Rückverweisung ist kein Nachweis, dass jede Redaktion Belastbarkeit ausdrücklich bescheinigen muss. Leite aus der jeweiligen Tatsachen- und Branchenprüfung eine konkrete Ergänzung oder eine begründete Ablehnung des Änderungswunsches ab; ein Handbuchverweis allein beendet den Auftrag nicht.
+
+Ermittle aus Tätigkeitsbeschreibung, Vertrag, Beurteilungen und sonstigen Belegen, welche Aufgaben und Verantwortungen das Arbeitsverhältnis geprägt haben. Vergleiche damit den Zeugnistext. Unterscheide:
+
+1. fehlenden gesetzlichen Mindestinhalt, insbesondere eine Leistungs- oder Verhaltensbeurteilung;
+2. ausgelassene prägende Tätigkeit oder nachgewiesene Führungsverantwortung;
+3. eine möglicherweise nachteilige Gewichtung im Gesamtzusammenhang;
+4. einen bloßen Wunsch nach ausführlicherer oder werblicher Darstellung.
+
+Unterstelle aus dem Fehlen von Aussagen zu Loyalität, Belastbarkeit, Ehrlichkeit oder Kundenkontakt keine persönliche Schwäche. Benenne eine solche Lücke nur, wenn Funktion, Branchenübung und Aktenlage die Erwartung tragen. Formuliere für jede erhebliche Lücke einen belegbaren Ergänzungssatz.
+
+Fehlt etwa bei einem Vertriebsleiter die Führung des dokumentierten Außendienstteams, frage nach Zeitraum, Teamgröße und Weisungsbefugnis. Fehlt dagegen bei einem Entwickler das Wort „ehrlich“, verlange nicht ohne konkreten Branchenbeleg dessen Aufnahme. Halte Tatsachenergänzung und wertende Aufwertung auseinander.
+
+## 3. Fortführung des Auftrags
+
+Führe den Befund mit Fundstelle, Kategorie, Beleg und Ergänzung in den laufenden Prüfbericht oder Entwurf zurück. Frage nur nach tatsächlichen Aufgaben oder Nachweisen, die die Einordnung ändern; alle anderen Abschnitte werden fertiggestellt. Nach der Antwort ergänzt du nur die betroffenen Stellen und setzt den Gesamtauftrag ohne Neustart fort. Ein bestelltes Dokument ist mit den gesicherten Ergänzungen auszuformulieren.

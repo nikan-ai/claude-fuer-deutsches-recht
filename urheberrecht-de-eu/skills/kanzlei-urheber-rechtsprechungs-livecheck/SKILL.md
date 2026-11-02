@@ -1,6 +1,6 @@
 ---
 name: kanzlei-urheber-rechtsprechungs-livecheck
-description: "Wenn es um Kanzlei-und Aktenführung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kanzlei-und Aktenführung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kanzlei-und Aktenführung
@@ -20,7 +20,7 @@ description: "Wenn es um Kanzlei-und Aktenführung in Urheberrecht DE EU geht: p
 
 ## Wofür dieser Arbeitsgang da ist
 
-Kanzlei-und Aktenführung schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite die urheberrechtliche Aktenführung mit einem Aktenplan und einer Fristen- und Aufgabenliste vor. Erfasse Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise so, dass das verlangte Ergebnis und die Mandanteninformation nachvollziehbar bleiben.
 
 ## Sofortstart
 

@@ -1,6 +1,6 @@
 ---
 name: arbeitsrecht-mandatsakte-kontexttrennung
-description: "Wenn es um Arbeitsrechtliche Mandatsakte und Kontexttrennung in Arbeitsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Arbeitsrechtliche Mandatsakte und Kontexttrennung: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Arbeitsrechtliche Mandatsakte und Kontexttrennung
@@ -31,7 +31,7 @@ Im Arbeitsrecht entspricht eine "Akte" typischerweise einem bestimmten Mandanten
 `~/.claude/plugins/config/claude-fuer-deutsches-recht/arbeitsrecht/CLAUDE.md` lesen, Abschnitt `## Mandantenakten` prüfen.
 
 Falls `Aktiviert: ✗` (Syndikus / in-house):
-> Mandantenakten sind deaktiviert – Sie sind als [Kanzlei/in-house] konfiguriert und arbeiten mit einem einzigen Mandantenkontext. Falls Sie tatsächlich mehrere Mandanten betreuen, führen Sie `/arbeitsrecht:arbeitsrecht-kaltstart-interview --redo` aus und wählen Sie Kanzleibetrieb. Andernfalls benötigen Sie `/arbeitsrecht:arbeitsrecht-mandat-arbeitsbereich` nicht.
+> Mandantenakten sind deaktiviert – Sie sind als [Kanzlei/in-house] konfiguriert und arbeiten mit einem einzigen Mandantenkontext. Falls Sie tatsächlich mehrere Mandanten betreuen, führen Sie `/arbeitsrecht:kaltstart-interview --redo` aus und wählen Sie Kanzleibetrieb. Andernfalls benötigen Sie `/arbeitsrecht:mandat-arbeitsbereich` nicht.
 
 ### Befehle
 
@@ -109,16 +109,16 @@ Mandantenakten – Arbeitsrecht
 ## Beispiele
 
 ```
-/arbeitsrecht:arbeitsrecht-mandat-arbeitsbereich neu mueller-ksg-2024
+/arbeitsrecht:mandat-arbeitsbereich neu mueller-ksg-2024
 Kündigung wegen betriebsbedingter Restrukturierung, Sozialauswahl streitig.
 ```
 
 ```
-/arbeitsrecht:arbeitsrecht-mandat-arbeitsbereich wechseln bayer-betriebsrat
+/arbeitsrecht:mandat-arbeitsbereich wechseln bayer-betriebsrat
 ```
 
 ```
-/arbeitsrecht:arbeitsrecht-mandat-arbeitsbereich auflisten
+/arbeitsrecht:mandat-arbeitsbereich auflisten
 ```
 
 ## Risiken / typische Fehler

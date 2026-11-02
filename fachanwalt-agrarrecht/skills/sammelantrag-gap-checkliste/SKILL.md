@@ -1,6 +1,6 @@
 ---
 name: sammelantrag-gap-checkliste
-description: "Wenn es um Sammelantrag Gap Checkliste in Fachanwalt Agrarrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Sammelantrag Gap Checkliste: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Landwirt muss jaehrlichen Sammelantrag für GAP-Direktzahlungen stellen und will sichergehen dass alle Pflichtangaben vollständig sind
@@ -50,9 +50,7 @@ description: "Wenn es um Sammelantrag Gap Checkliste in Fachanwalt Agrarrecht ge
 
 | Gericht | Aktenzeichen | Kernaussage |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Sammelantrag
 
@@ -178,7 +176,6 @@ Frist: § 68 VwGO — ein Monat ab Bekanntgabe (§ 41 VwVfG).
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei Vor-Ort-Kontrolle: Protokollinhalt hat faktische Beweiskraft — Widerspruch ohne Gegengutachten selten erfolgreich.
 
 ## Fristen
@@ -231,14 +228,8 @@ Frist: § 68 VwGO — ein Monat ab Bekanntgabe (§ 41 VwVfG).
 - VO (EU) 2021/2116 Horizontale Verordnung
 - GAPDZG, GAPInVeKoSG, GAPKondV
 - § 41 VwVfG (Bekanntgabefiktion), § 68 VwGO (Widerspruch)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
 ## Ergänzung — Aktuelle Rechtsprechung 2022-2024
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

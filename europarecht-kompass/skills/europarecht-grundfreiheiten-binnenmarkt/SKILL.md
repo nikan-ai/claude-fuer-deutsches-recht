@@ -1,6 +1,6 @@
 ---
 name: europarecht-grundfreiheiten-binnenmarkt
-description: "Wenn es um Grundfreiheiten und Binnenmarkt in Europarecht-Kompass für deutsche Juristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Grundfreiheiten und Binnenmarkt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Grundfreiheiten und Binnenmarkt
@@ -46,10 +46,6 @@ Bevor losgelegt wird, klaere:
 4. Koennte die Beschraenkung gerechtfertigt sein (Art. 36, 45 Abs. 3, 52 AEUV; zwingende Erfordernisse)?
 5. Verhältnismaessigkeitspruefung: Geeignetheit, Erforderlichkeit, Angemessenheit?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette Grundfreiheiten
 
 - **Art. 34-36 AEUV** — Freier Warenverkehr; Mengenmassige Beschraenkungen und Maßnahmen gleicher Wirkung; Rechtfertigungsgruende Art. 36
@@ -91,3 +87,6 @@ Sachverhalt: [KURZBESCHREIBUNG]
 [ ] Beschraenkung — gerechtfertigt
 [ ] Beschraenkung — nicht gerechtfertigt — EU-Rechtsverstoß
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

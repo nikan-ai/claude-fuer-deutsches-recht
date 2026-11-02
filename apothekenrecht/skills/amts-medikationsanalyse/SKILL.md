@@ -1,6 +1,6 @@
 ---
 name: amts-medikationsanalyse
-description: "Wenn es um AMTS Medikationsanalyse Beratungspflicht in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für AMTS Medikationsanalyse Beratungspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AMTS Medikationsanalyse Beratungspflicht
@@ -35,25 +35,3 @@ description: "Wenn es um AMTS Medikationsanalyse Beratungspflicht in Apothekenre
 
 ## Qualitätsgate
 Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast, Zahlen, Form und gewünschter Output vollständig? Ist erkennbar, was sicher ist und was noch Sachverhaltsarbeit braucht?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 73 AMG
-- § 11a ApoG
-- § 11 ApoG
-- § 7 HWG
-- § 78 AMG
-- § 8 ApoG
-- § 12a ApoG
-- § 79 AMG
-- § 1 ApoG
-- § 7 ApoG
-- Art. 12 GG
-- § 95 AMG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: berater-drohende-fruehwarnsystem
-description: "Wenn es um Berater: Verhandlung, Vergleich und Eskalation in Krisenfrüherkennung und StaRUG-Management geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Berater: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Berater: Verhandlung, Vergleich und Eskalation
@@ -32,35 +32,11 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
-## Beraterhaftung und Warnpflichten § 102 StaRUG
-- **§ 102 StaRUG:** Wirtschaftsprüfer, Steuerberater, Rechtsanwälte und vereidigte Buchprüfer sind verpflichtet, ihre Mandantin auf das Vorliegen eines möglichen Insolvenzgrunds und auf die Pflichten der Geschäftsleiter hinzuweisen, wenn ihnen entsprechende Anhaltspunkte erkennbar werden (Stand prüfen).
+## Beraterhaftung und Hinweis nach Paragraf 102 StaRUG
+- Paragraf 102 StaRUG: Bei der Erstellung eines Jahresabschlusses müssen die dort genannten Berufsträger auf einen möglichen Insolvenzgrund und die Pflichten der Geschäftsleiter und Überwachungsorgane hinweisen, wenn entsprechende Anhaltspunkte offenkundig sind und sie annehmen müssen, dass dem Mandanten die mögliche Insolvenzreife nicht bewusst ist. Andere Mandate lösen die Norm nicht allein aus; vertragliche Pflichten sind gesondert zu prüfen.
 - **Adressat der Warnung:** Geschäftsführung; bei führungsloser Gesellschaft Gesellschafter.
 - **Inhalt der Warnung:** Hinweis auf möglichen Eröffnungsgrund (§§ 17, 18, 19 InsO), Antragspflicht § 15a InsO, Zahlungsverbot § 15b InsO und § 1 StaRUG-Pflichten.
 - **Dokumentation:** Schriftlich, zeitnah, mit Empfangsbestätigung; Warnung erst nach erkennbaren Anhaltspunkten, nicht vorsorglich (Mandatsverlust-Risiko).
 - **Haftung bei Unterlassen:** Schadensersatz wegen Verletzung der Beraterpflicht — Anspruchsgrundlage § 280 BGB, § 311 BGB iVm Beratervertrag; bei Steuerberater/WP auch § 826 BGB möglich.
 - **Verhandlung Vergleich:** Bei drohendem Insolvenzantrag oft Stillhalteabkommen mit Banken und Großgläubigern (Standstill); StaRUG-Plan oder Sanierungsmoderator §§ 94 ff. StaRUG als Vermittlungsform.
 - **Praxis:** Berater-Warnung gehört zu den ersten Dokumenten in der Mandatsakte, sobald Anhaltspunkte erkennbar sind; ohne Warnung droht Mit-Haftung bei späteren Schäden.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 StaRUG
-- § 102 StaRUG
-- § 93 AktG
-- § 43 GmbHG
-- § 73 StaRUG
-- § 26 StaRUG
-- § 29 StaRUG
-- § 31 StaRUG
-- § 30 StaRUG
-- § 49-59 StaRUG
-- § 9 StaRUG
-- § 76 StaRUG
-
-### Leitentscheidungen
-
-- BGH IX ZR 285/14
-- BGH IX ZR 56/22
-- BGH II ZR 206/22
-- BGH IV ZR 66/25

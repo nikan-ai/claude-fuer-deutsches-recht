@@ -1,6 +1,6 @@
 ---
 name: abstimmung-mit-vertrieb-marketing
-description: "Wenn es um Abstimmung mit Vertrieb / Marketing in Verlagsredaktion geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Abstimmung mit Vertrieb / Marketing: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abstimmung mit Vertrieb / Marketing
@@ -116,24 +116,3 @@ Erscheinungsphasen:
 - UrhG für Marketing-Rechte (Bilder, Klappentexte).
 - Duden, Die deutsche Rechtschreibung, 29. Aufl. 2024.
 - Byrd / Lehmann, Zitierfibel für Juristen, 2. Aufl. 2016 (für Markeintegritaet).
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 51 UrhG
-- § 38 UrhG
-- § 31a UrhG
-- § 33 VerlG
-- § 32a UrhG
-- Art. 6 DSGVO
-- § 8 DDG
-- § 27a UStG
-- § 14 UStG
-- § 203 StGB
-- § 32e UrhG
-- § 87 BetrVG
-
-### Leitentscheidungen
-
-- EuGH C-131/12

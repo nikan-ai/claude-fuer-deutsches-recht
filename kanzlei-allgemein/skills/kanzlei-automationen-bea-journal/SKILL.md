@@ -1,6 +1,6 @@
 ---
 name: kanzlei-automationen-bea-journal
-description: "Wenn es um Automationen und Routinen in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Automationen und Routinen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Automationen und Routinen
@@ -22,9 +22,6 @@ Plant und dokumentiert wiederkehrende Kanzlei-Routinen als sichere automatisiert
 2. Ist eine echte Systemanbindung verfuegbar (beA-Connect, Outlook, DATEV) oder soll simuliert werden?
 3. Wer muss die Automation freigeben und welche Datenschutzfolgeabschaetzung ist erforderlich (Art. 35 DSGVO)?
 4. Gibt es Konflikte mit bestehenden Kanzlei-Prozessen oder Doppelzuständigkeiten?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 6 DSGVO — Rechtsgrundlage für automatisierte Datenverarbeitung in der Kanzlei
@@ -92,3 +89,5 @@ Bei HR- und Payroll-Automationen keine Diagnosen, keine unnötigen Gesundheitsda
 Bei Rechtsprechungsmonitoring keine vertraulichen Mandatsdaten in öffentliche Suchfelder übernehmen und keine Fundstellen öffentlich ablegen. Zulässig sind pseudonymisierte Suchabfragen, Trefferlisten, Verwertungsnotizen und Ablageprotokolle nach Freigabe.
 
 Bei Mandatsannahme- und GwG-Automationen keine Ausweisdokumente ungeschützt auslesen, keine Verdachtsmeldungen automatisch versenden und keine Mandatsannahme fingieren. Zulässig sind Erinnerungen, Checklisten, Dokumentationsentwürfe, Ablageprotokolle und Freigabeanforderungen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

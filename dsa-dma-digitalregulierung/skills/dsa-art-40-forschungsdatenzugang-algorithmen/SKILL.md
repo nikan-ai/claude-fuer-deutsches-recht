@@ -1,13 +1,13 @@
 ---
 name: dsa-art-40-forschungsdatenzugang-algorithmen
-description: "Wenn es um DSA — Art. 40 Forschungsdatenzugang in DSA, DMA und Digitalregulierung der EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für DSA — Art. 40 Forschungsdatenzugang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSA — Art. 40 Forschungsdatenzugang
 
 ## Arbeitsbereich
 
-Forschungsdatenzugang nach Art. 40 DSA beantragen oder gewaehren: Forscher will Plattformdaten erhalten oder Plattform muss Zugang einrichten. Normen: DSA (EU) 2022/2065 Art. 40 (vetted researchers, DSC-Koordinierung), Delegierte VO (EU) 2024/2987 (Bedingungen und Verfahren). Prüfraster: Drei Ebenen (DSC-Zugang, vetted researchers, öffentliche Daten), Antragsverfahren über DSC, Schutz Geschäftsgeheimnisse und Datenschutz. Output Antrag vetted researcher, Datenzugangs-Vereinbarung-Entwurf. Abgrenzung: VLOP-Risikobewertung siehe dsa-art-34-systemische-risikobewertung; Algorithmen-Pflichten siehe dsa-vlop-vlose-einordnung-und-pflichten. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Forschungsdatenzugang nach DSA Artikel 40 beantragen oder gewähren: Forscher benötigt Plattformdaten oder ein sehr großer Dienst muss Zugang einrichten. Maßgeblich sind DSA Verordnung (EU) 2022/2065 Artikel 40 und Delegierte Verordnung (EU) 2025/2050. Trenne Behördenzugang, Zugang für zugelassene Forscher und Zugang zu öffentlich zugänglichen Schnittstellendaten. Liefere Antragsakte, Datenkatalog, Schutzkonzept und einen umsetzbaren Zugangsplan.
 
 ## Arbeitsweg
 
@@ -41,15 +41,18 @@ VLOP/VLOSE muss dem **DSC am Niederlassungsort** oder der **Kommission** auf beg
 
 **Verfahren:**
 
-1. Antrag beim **DSC am Niederlassungsort der Plattform**
-2. DSC prüft Voraussetzungen, gewährt Forscher-Status
-3. DSC fordert Plattform zur Datenbereitstellung auf
-4. Plattform kann Antrag auf Änderung stellen — z. B. Schutz von Geschäftsgeheimnissen
-5. Streit entscheidet der DSC; Rechtsschutz möglich
+1. Antrag beim Koordinator für digitale Dienste am Niederlassungsort des Dienstes oder nach DSA Artikel 40 Absatz 9 beim Koordinator des Mitgliedstaats der Forschungseinrichtung
+2. Bei Antrag am Sitz der Forschungseinrichtung: dortige Erstprüfung und Weiterleitung an den Koordinator am Niederlassungsort des Dienstes
+3. Koordinator am Niederlassungsort prüft abschließend die Voraussetzungen und verleiht den Status als zugelassener Forscher
+4. Koordinator am Niederlassungsort richtet das begründete Zugangsverlangen an den Dienst
+5. Datenanbieter kann unter den Voraussetzungen des DSA Artikel 40 Absatz 5 eine Änderung des Zugangsverlangens beantragen, insbesondere wegen fehlenden Datenzugriffs oder erheblicher Sicherheits- und Geheimhaltungsrisiken
+6. Einwände des Datenanbieters, Vermittlung, Änderungsverlangen und Rechtsschutz nach DSA und Delegierter Verordnung getrennt bearbeiten
 
-**Konkretisierung durch Delegierte VO (EU) 2024/2987** (technische Bedingungen, sichere Datenräume, Antragsformat).
+Konkretisierung durch Delegierte Verordnung (EU) 2025/2050: Antragsinhalt, Datenkataloge, Zugangsmethoden, Schutzmaßnahmen, Vermittlung und Dokumentation.
 
-### Ebene 3: Öffentlich zugängliche Daten (Art. 40 Abs. 12)
+### Ebene 3: Öffentlich zugängliche Daten nach DSA Artikel 40 Absatz 12
+
+Dieser unmittelbare Zugang gilt nur für Daten, die auf der Online-Schnittstelle öffentlich zugänglich sind. Der Forscher muss die Voraussetzungen des DSA Artikel 40 Absatz 8 Buchstaben b bis e erfüllen und die Daten ausschließlich zur Erforschung systemischer Risiken nach DSA Artikel 34 Absatz 1 verwenden. Er ersetzt keinen Zugang zu internen Datensätzen.
 
 VLOP/VLOSE muss **unverzüglich Zugang zu öffentlich zugänglichen Daten** des Dienstes gewähren — z. B. über APIs oder strukturierte Datenextrakte. Ziel: niedrigschwellige Forschung zu öffentlichen Inhalten.
 
@@ -91,16 +94,15 @@ Forschungsdatenzugang nach DSA befreit **nicht** von DSGVO. Verarbeitung persone
 
 ## Schnittstelle AI Act
 
-Algorithmen-Untersuchung kann zugleich als Erforschung eines KI-Systems im Sinne des AI Act gelten — Forschungs-Ausnahme Art. 2 Abs. 6 AI Act greift bei reiner Forschungstätigkeit; sobald Ergebnisse in Markteinführung münden, gilt der AI Act voll.
+Artikel 2 Absatz 6 KI-Verordnung betrifft eigens für den alleinigen Zweck wissenschaftlicher Forschung und Entwicklung entwickelte und in Betrieb genommene Systeme oder Modelle. Absatz 8 betrifft Forschung, Tests und Entwicklung vor Inverkehrbringen/Inbetriebnahme, nimmt Tests unter Realbedingungen aber aus. Eine Forschungstätigkeit schafft keine pauschale Ausnahme für bereits eingesetzte kommerzielle Systeme. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Aktuelle Rechtsprechung
 
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Faktische Updates (Stand 05/2026)
 
-- **Delegierte VO (EU) 2024/2987 — Forschungsdatenzugang:** Die delegierte Verordnung zum Forschungsdatenzugang regelt Antragsverfahren, sichere Datenraeume und technische Bedingungen. Stand und Anwendungsbeginn live über eur-lex.europa.eu prüfen.
+- Delegierte Verordnung (EU) 2025/2050 zum Forschungsdatenzugang: regelt Antragsverfahren, Datenkataloge, sichere Zugangsformen, Vermittlung und technische Bedingungen. Geltung und Übergangsvorschriften vor der Ausgabe über EUR-Lex prüfen.
 - **DSC in Deutschland (BNetzA):** Antraege auf Forscher-Status nach Art. 40 Abs. 8 DSA werden in Deutschland über die BNetzA als DSC eingereicht. Verfahren und ggf. erforderliche Anlagen live über bundesnetzagentur.de prüfen.
 - **EDMO:** European Digital Media Observatory bleibt zentraler Ansprechpartner für Forscher im Bereich Desinformation und Plattformforschung. Quelle: edmo.eu.
 - **DSGVO-Schnittstelle:** Bei personenbezogenen Daten zusaetzlich Art. 6 / Art. 89 DSGVO prüfen; Pseudonymisierung / Anonymisierung als milderes Mittel.
@@ -110,7 +112,7 @@ Algorithmen-Untersuchung kann zugleich als Erforschung eines KI-Systems im Sinne
 - Art. 40 Abs. 1–3 DSA — Datenzugang für digitale Koordinatoren und Kommission
 - Art. 40 Abs. 4–8 DSA — Zugang für vetted researchers
 - Art. 40 Abs. 12 DSA — Öffentlich zugängliche Daten
-- Delegierte VO (EU) 2024/2987 — Verfahren und Bedingungen Forschungsdatenzugang
+- Delegierte Verordnung (EU) 2025/2050 - Verfahren und Bedingungen des Forschungsdatenzugangs
 - Art. 39 DSA — Werbetransparenz
 
 ## Triage zu Beginn
@@ -149,3 +151,5 @@ Entscheidung beantragt bis: [FRIST]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Plattformdienst, GPAI-Modell und konkrete Systemfunktion auseinander. Aus VLOP-Eigenschaft folgt weder eine beliebige KI-VO-Risikoklasse noch dieselbe Zuständigkeit für jede Betreiberfunktion. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: amnog-millionen-therapie
-description: "Wenn es um Amnog Millionen Therapie in Fachanwalt Medizinrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Amnog Millionen Therapie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AMNOG und Millionen-Therapie: moderner Medizinrechts-Skill für Einmaltherapie mit sehr hohem Preis, Budgetwirkung, Erstattungsbetrag, Outcome-Based-Modelle und Regressangst
@@ -58,24 +58,3 @@ Vor tragenden Aussagen live prüfen: amtliche Normfassung, zuständige Behörde/
 
 - EU HTA Regulation implementation: https://health.ec.europa.eu/health-technology-assessment/implementation-regulation-health-technology-assessment_en
 - Joint Clinical Assessments: https://health.ec.europa.eu/health-technology-assessment/implementation-regulation-health-technology-assessment/joint-clinical-assessments_en
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 86b SGG
-- § 80 VwGO
-- § 4b AMG
-- § 87 SGG
-- § 51 SGG
-- § 84 SGG
-- § 70 VwGO
-- § 74 VwGO
-- § 203 StGB
-- § 3a RVG
-- § 229 StGB
-- § 78 StGB
-
-### Leitentscheidungen
-
-- BGH VI ZR 323/04

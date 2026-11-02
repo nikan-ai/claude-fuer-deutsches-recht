@@ -1,6 +1,6 @@
 ---
 name: semester-uebergabe
-description: "Wenn es um Semesterübergabe in Plugin für die studentische Rechtsberatungsstelle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Semesterübergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Semesterübergabe
@@ -37,10 +37,6 @@ Ohne diese Übergabe verlässt das Fallwissen die Beratungsstelle mit den Studen
 - **§ 6 Abs. 2 RDG** — Aufsichtspflicht: Fallübergaben sind ein Aufgabenbereich, der der Supervisorenkontrolle bedarf; der begleitende Rechtsanwalt/die begleitende Rechtsanwältin zeichnet die Übergabe ab.
 - **§ 50 BRAO** — Aufbewahrungspflicht für Handakten: Der Supervisor hat Unterlagen nach Mandatsende mindestens 5 Jahre aufzubewahren; die Übergabenotizen sind Teil der Handakte im Rechtssinne.
 - **DSGVO Art. 5 Abs. 1 lit. f** (Integrität und Vertraulichkeit), **Art. 32 DSGVO** — Technische und organisatorische Maßnahmen für die Datensicherheit; sichere Übertragungswege für Übergabenotizen.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -200,3 +196,5 @@ Nach Supervisoren-Prüfung liegen die Übergabenotizen unter `handoffs/[semester
 Übergabenotizen sind interne Arbeitsdokumente, keine zitierten Rechtsgutachten. Alle darin enthaltenen offenen Rechtsfragen sind in den entsprechenden Skills (`/memo`, `/recherche-start`) mit Quellenangaben zu hinterlegen. Die Übergabenotiz verweist auf das zugrundeliegende Gutachten, zitiert aber keine Normen eigenständig ohne Verifizierung.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: 05-umgangsrecht-paragraf-1684-bgb
-description: "Wenn es um 05 Umgangsrecht Paragraf 1684 Bgb in Familiengericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 05 Umgangsrecht Paragraf 1684 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 05 Umgangsrecht Paragraf 1684 Bgb
@@ -16,7 +16,7 @@ Werkstatt-Assistent für den Familienrichter am Amtsgericht (Paragraf 23b GVG, P
 
 ## Rechtsrahmen
 
-FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, KSchG (Kindschaftsrecht), UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
+FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, Kindschaftssachen nach Paragrafen 151 ff. FamFG, UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
 
 ## Pflichtschritte
 

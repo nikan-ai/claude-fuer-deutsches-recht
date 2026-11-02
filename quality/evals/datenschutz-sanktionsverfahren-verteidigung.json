@@ -1,0 +1,233 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Behördenpost vor Fragen; angeordneter Rechtsschutz endet mit vollständigem Klage-/Eilantragsentwurf statt bloßem Gerüst. Verfahrensspuren bleiben getrennt.",
+    "files": [
+      {
+        "path": "datenschutz-sanktionsverfahren-verteidigung/README.md",
+        "sha256": "f876a89ab4701aedb283088ab7050c5cc59077f116363d6f25c8b190bcab27a6"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Bußgeldverteidigung und behördliche Anordnung sind früh getrennt; der gewünschte Rechtsbehelf folgt aus dem vorliegenden Material.",
+    "norms_or_source_basis": "Artikel 58 und 83 DSGVO",
+    "selected_anchor_identifiers": [
+      "C-807/21"
+    ],
+    "application_limit": "Deutsche Wohnen ersetzt weder Verschulden noch die eigenständige Prüfung anderer Anordnungen und Schäden.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/datenschutz-sanktionsverfahren-verteidigung/datenschutz-sanktionsverfahren-verteidigung-schnellstart.md",
+      "status": "changed",
+      "sha256": "b5ee5ba64b5ec42f0e7a49a6a9f48e2961f671e24cf9cb825c97ab60e65404d4",
+      "characters": 7322,
+      "utf8_bytes": 7424,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/datenschutz-sanktionsverfahren-verteidigung/datenschutz-sanktionsverfahren-verteidigung-werkstatt.md",
+      "status": "changed",
+      "sha256": "e8c413066f286189aabda464f022fd37bd8597d1d4c9a1e02efe60a0e56cba1f",
+      "characters": 18784,
+      "utf8_bytes": 19093,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": [
+      {
+        "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/datenschutz-sanktionsverfahren-verteidigung/datenschutz-sanktionsverfahren-verteidigung-schnellstart.txt",
+        "status": "changed",
+        "sha256": "b5ee5ba64b5ec42f0e7a49a6a9f48e2961f671e24cf9cb825c97ab60e65404d4",
+        "identical_to": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/datenschutz-sanktionsverfahren-verteidigung/datenschutz-sanktionsverfahren-verteidigung-schnellstart.md"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "plugin": "datenschutz-sanktionsverfahren-verteidigung",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__67.html",
+      "checked_on": "2026-09-14",
+      "supports": "Zwei Wochen nach Zustellung; Einspruch schriftlich oder zur Niederschrift bei der erlassenden Verwaltungsbehörde."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bdsg_2018/__20.html",
+      "checked_on": "2026-09-14",
+      "supports": "Verwaltungsrechtsweg für Streitigkeiten mit der Aufsichtsbehörde über datenschutzrechtliche Rechte, gesondert vom Bußgeldverfahren."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html",
+      "checked_on": "2026-09-14",
+      "supports": "Paragraf 41 verweist für Bußgeldverfahren auf OWiG und Strafverfahrensrecht mit besonderen Ausnahmen."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 33 und 34: Pflichtmeldung und Betroffenenbenachrichtigung; Artikel 58, 82 und 83: getrennte Abhilfe-, Haftungs- und Bußgeldspuren."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0807",
+      "checked_on": "2026-09-14",
+      "supports": "EuGH, Urteil vom 5. Dezember 2023, C-807/21: keine notwendige Identifizierung einer natürlichen Person, aber schuldhafter Verstoß als Bußgeldvoraussetzung."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de",
+      "checked_on": "2026-09-14",
+      "supports": "Geänderte Artikel 4, 4a, 111 und 113 der KI-Verordnung: Kompetenzförderung, begrenzte Bias-Datenverarbeitung und differenzierte Hochrisiko-Anwendungszeiten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/ki-mig/__2.html",
+      "checked_on": "2026-09-14",
+      "supports": "Auffangzuständigkeit der Bundesnetzagentur und besondere Produkt-, Finanz-, Landes- und Medienzuständigkeiten einschließlich unabhängiger Kammer."
+    },
+    {
+      "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0360%28COD%29",
+      "checked_on": "2026-09-14",
+      "supports": "COM(2025) 837 befindet sich noch im Gesetzgebungsverfahren und ersetzt die geltenden Meldevoraussetzungen nicht."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0807",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 5. Dezember 2023, C-807/21, Deutsche Wohnen, Randnummern 60 und 68 bis 78. Anwendung: Unternehmensgeldbuße ohne vorherige Identifizierung einer natürlichen Person möglich, Vorsatz oder Fahrlässigkeit bleiben erforderlich. Grenze: Keine verschuldenslose Haftung und kein Maßstab für sämtliche Anordnungen oder zivilrechtlichen Schäden."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/owig_1968/__67.html",
+      "checked_on": "2026-09-23",
+      "supports": "Zweiwochenfrist ab Zustellung des Bußgeldbescheids; daneben stehende Abhilfeanordnung benötigt gesonderte Rechtswegprüfung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Mini hält Unternehmensadressierung und Verschuldensnachweis auseinander und verbindet dies mit Einspruch und getrenntem Rechtsschutz gegen Aufsichtsmaßnahmen. Individueller Text- und Quellenreview, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Einstiegsredaktion 16.10.2026, Batch 2: Bußgeldverteidigung und behördliche Anordnung sind früh getrennt; der gewünschte Rechtsbehelf folgt aus dem vorliegenden Material. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "C-807/21 in Tatbestands- und Verschuldensprüfung eingebaut.",
+      "Nicht neu verifiziertes C-683/21 aus dem Prompt entfernt; Pflichtmeldung und freiwillige Einlassung bleiben getrennt.",
+      "Leer: Bußgeld, Abhilfeanordnung oder Pannenmeldung mit Verteidigung. Dateien: still lesen und maßnahmengerechte Dokumentwege anbieten. Klar: direkt bestellten Rechtsbehelf oder Verteidigungstext erstellen.",
+      "Neue Löschungsanordnung verlangt getrennten Weg; neue Logs ändern Befund und Meldung erst nach Prüfung ihrer Erfassungsgrenzen.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Bußgeldverteidigung und behördliche Anordnung sind früh getrennt; der gewünschte Rechtsbehelf folgt aus dem vorliegenden Material. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "b5ee5ba64b5ec42f0e7a49a6a9f48e2961f671e24cf9cb825c97ab60e65404d4"
+  },
+  "selection": {
+    "positive": [
+      "Entwirf den fristwahrenden Einspruch gegen den Datenschutz-Bußgeldbescheid und trenne die beigefügte Löschungsanordnung.",
+      "Bewerte unsere Verteidigung gegen einen vorgeworfenen DSGVO-Verstoß anhand der Behördenakte und der dokumentierten Abhilfemaßnahmen."
+    ],
+    "negative": [
+      "Erstelle für unsere neue Website erstmals eine Datenschutzerklärung ohne laufendes Verfahren.",
+      "Wehre eine kartellrechtliche Geldbuße des Bundeskartellamts wegen Preisabsprachen ab."
+    ]
+  },
+  "cases": [
+    {
+      "id": "einspruch-und-loeschungsanordnung-trennen",
+      "request": "Die Mandantin Archiv Service GmbH, vertreten durch Geschäftsführerin Lea Kern, hat uns am 14. September 2026 schriftlich mit der Verteidigung beauftragt. Das Bayerische Landesamt für Datenschutzaufsicht erließ am 10. September unter Aktenzeichen B-26-417 einen Bußgeldbescheid über 45.000 Euro wegen fortgesetzter Speicherung erledigter Kundenakten. Er wurde laut Zustellungsurkunde am 11. September zugestellt. Im selben Umschlag lag unter Aktenzeichen A-26-418 eine eigenständige Löschungsanordnung nach Artikel 58 mit eigener Rechtsbehelfsbelehrung. Heute soll nur der Bußgeldbescheid insgesamt angegriffen werden; die Löschungsanordnung besprechen wir morgen. Die Geschäftsführerin meint, der Bescheid sei allein deshalb unwirksam, weil er keinen handelnden Mitarbeiter nennt. Die Behörde behauptet fahrlässige Nichtumsetzung eines Löschkonzepts; die vollständige Ermittlungsakte haben wir noch nicht. Erstelle ergebnis.md mit einem kurzen Fristvermerk, einem vollständigen fristwahrenden Einspruchsentwurf und einer internen Einschätzung dieses Einwands. Kein Versand und noch keine ausführliche Einlassung zum tatsächlichen Löschablauf.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Fristvermerk leitet aus Zustellung am 11. September die Zweiwochenfrist bis 25. September 2026 ab, statt an das Bescheiddatum anzuknüpfen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Entwurf richtet sich an die erlassende Behörde, bezeichnet B-26-417 und greift den Bußgeldbescheid insgesamt an; die gesonderte Löschungsanordnung wird nicht versehentlich mit diesem Einspruch erledigt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Ergebnis verwirft die fehlende Mitarbeiteridentifizierung als allein tragenden Unwirksamkeitsgrund, verlangt aber weiterhin einen vorsätzlichen oder fahrlässigen Verstoß statt verschuldensloser Haftung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Die Fristwahrung wird ohne Aktenkenntnis nicht aufgeschoben; zugleich werden keine unbekannten Löschabläufe eingeräumt oder erfunden und keine tatsächliche Einreichung behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "einspruch-67-owig-frist-und-form"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt ersetzt lose EuGH-Nennungen durch die konkrete Prüfung von Organisation, Kenntnis und Fahrlässigkeit nach Deutsche Wohnen. Die bezeichneten Anker wurden am amtlichen Entscheidungstext geprüft; keine pauschale Vollverifikation aller Nebenmaterien. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Einstiegsredaktion 16.10.2026, Batch 2: Bußgeldverteidigung und behördliche Anordnung sind früh getrennt; der gewünschte Rechtsbehelf folgt aus dem vorliegenden Material. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "C-807/21 in Tatbestands- und Verschuldensprüfung eingebaut.",
+      "Nicht neu verifiziertes C-683/21 aus dem Prompt entfernt; Pflichtmeldung und freiwillige Einlassung bleiben getrennt.",
+      "Getrennte Maßnahmen, Zustellung, forensische Erkenntnisstände, konkrete Warnungen, Verschulden und konsistente Bemessungsargumente vertieft.",
+      "Neue Löschungsanordnung verlangt getrennten Weg; neue Logs ändern Befund und Meldung erst nach Prüfung ihrer Erfassungsgrenzen.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Bußgeldverteidigung und behördliche Anordnung sind früh getrennt; der gewünschte Rechtsbehelf folgt aus dem vorliegenden Material. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "e8c413066f286189aabda464f022fd37bd8597d1d4c9a1e02efe60a0e56cba1f"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Bußgeld, Abhilfeanordnung oder Pannenmeldung mit Verteidigung.",
+      "Dateien: still lesen und maßnahmengerechte Dokumentwege anbieten.",
+      "Klar: direkt bestellten Rechtsbehelf oder Verteidigungstext erstellen."
+    ],
+    "continuation": "Neue Löschungsanordnung verlangt getrennten Weg; neue Logs ändern Befund und Meldung erst nach Prüfung ihrer Erfassungsgrenzen.",
+    "enrichment": "Getrennte Maßnahmen, Zustellung, forensische Erkenntnisstände, konkrete Warnungen, Verschulden und konsistente Bemessungsargumente vertieft.",
+    "limits": "desk review; no live client execution"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "datenschutz-sanktionsverfahren-verteidigung/README.md",
+      "datenschutz-sanktionsverfahren-verteidigung/datenschutz-sanktionsverfahren-verteidigung-werkstatt.md",
+      "datenschutz-sanktionsverfahren-verteidigung/datenschutz-sanktionsverfahren-verteidigung-schnellstart.md",
+      "quality/evals/datenschutz-sanktionsverfahren-verteidigung.json"
+    ],
+    "opening_change": "Tatvorwurf, verantwortliche Einheit, Zeitraum und Verschulden vor der Verteidigungserklärung klären.",
+    "norms": [
+      "Artikel 58, 78 und 83 DSGVO",
+      "Paragrafen 20 und 41 BDSG",
+      "Paragraf 67 OWiG"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 5. Dezember 2023, C-807/21, Deutsche Wohnen, Randnummern 60 und 68 bis 78",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0807",
+        "application": "Unternehmensgeldbuße ohne vorherige Identifizierung einer natürlichen Person möglich, Vorsatz oder Fahrlässigkeit bleiben erforderlich.",
+        "limit": "Keine verschuldenslose Haftung und kein Maßstab für sämtliche Anordnungen oder zivilrechtlichen Schäden."
+      }
+    ],
+    "remaining_limits": [
+      "Nur der bezeichnete EuGH-Anker neu verifiziert; nationale Verfahrensdetails, Zustellung und Omnibus-Vorschläge benötigen fallbezogenen Aktualitätsabgleich.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet. EUR-Lex-DSGVO-Seite lieferte Zugriffssperre statt Normtext; keine neue Vollverifikation oder Umsetzung eines Reformvorschlags behauptet. Frühere Norm- und Entscheidungsgrenzen bleiben erhalten."
+    ]
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "datenschutz-sanktionsverfahren-verteidigung/references/ki-normen-und-fallpruefung.md",
+    "focus": "Trennen Sie die behauptete Datenpanne, die tatsächlichen Empfänger und einen möglichen KI-Systemvorfall. Weder die Speicherung pseudonymisierter Daten noch die Bezeichnung Bias-Test beantwortet Rechtmäßigkeit und Meldeweg allein.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: lizenzanalogie-musik-mandantenmemo
-description: "Wenn es um Musiklizenzanalogie und Tarife in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Musiklizenzanalogie und Tarife: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Musiklizenzanalogie und Tarife
@@ -20,7 +20,7 @@ description: "Wenn es um Musiklizenzanalogie und Tarife in Urheberrecht DE EU ge
 
 ## Wofür dieser Arbeitsgang da ist
 
-Musiklizenzanalogie und Tarife schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Bereite die Berechnung einer Musiklizenzanalogie anhand der konkreten Nutzung und geeigneter Tarif- oder Lizenzbelege vor. Berücksichtige Gegenstand, menschlichen Beitrag, Rechtekette und Schranke und begründe das gewünschte Arbeitsergebnis mit den verfügbaren Nachweisen.
 
 ## Sofortstart
 

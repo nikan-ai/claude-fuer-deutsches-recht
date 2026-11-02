@@ -1,6 +1,6 @@
 ---
 name: golden-share-und-vetorechte
-description: "Wenn es um Golden Share und Sondervetorechte in gesellschaftsgründer — Gründungsassistent für deutsche geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Golden Share und Sondervetorechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Golden Share und Sondervetorechte
@@ -16,7 +16,6 @@ description: "Wenn es um Golden Share und Sondervetorechte in gesellschaftsgrün
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Golden Share und Sondervetorechte` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -38,7 +37,7 @@ Klaere vor Gestaltung von Vetorechten:
 - **Paragraf 47 GmbHG** — Beschlussfassung; Mehrheitsprinzip; Abweichung durch Satzung möglich
 - **Paragraf 47 IV GmbHG** — Stimmverbot bei Eigen-Interesse; gilt auch für Vetorechts-Inhaber
 - **Paragraf 15a InsO** — Insolvenzantragspflicht des GF; wird durch Gesellschafter-Veto nicht beseitigt
-- **Paragraf 31 StaRUG** — Antrag auf Restrukturierungsverfahren; freiwillig; Veto-Klausel hier wirksam
+- **Paragraf 31 StaRUG** — Anzeige des Restrukturierungsvorhabens durch den Schuldner; ein internes Veto ändert weder die gesetzlichen Organpflichten noch die gerichtlichen Voraussetzungen
 - **Paragraf 133, 157 BGB** — Auslegung von Satzungs-Vetoklauseln bei Streit
 - **Paragraf 138 BGB** — Sittenwidrigkeit: Veto über alle Beschlüsse kann nichtig sein
 
@@ -54,8 +53,7 @@ Klaere vor Gestaltung von Vetorechten:
 | 2 | Umfang sachlich begrenzt? | Paragraf 138 BGB | Kein Pauschal-Veto; selektive Themen |
 | 3 | Stimmverbot bei Eigeninteresse beachtet? | Paragraf 47 IV GmbHG | Veto-Inhaber bei Eigen-Sache: kein Stimmrecht |
 | 4 | Insolvenzantragspflicht gecheckt? | Paragraf 15a InsO | GF muss bei Insolvenzreife stellen; Veto greift nicht |
-| 5 | StaRUG-Veto sinnvoll? | Paragraf 31 StaRUG | Freiwilliges Verfahren; Veto hier wirksam |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
+| 5 | Interne Zustimmung für gerichtliche Instrumente sinnvoll? | Paragraf 31 StaRUG und Gesellschaftsvertrag | Innenrechtliche Kompetenz klären; Organpflichten und Außenwirkung bleiben unberührt |
 | 7 | SHA-Stimmverpflichtung ergaenzend? | Paragraf 242 BGB | Schuldrechtliche Sicherung bei Verstoss |
 
 ## Schritt-für-Schritt-Workflow
@@ -85,15 +83,15 @@ a) Aenderung der Satzung;
 b) Wesentliche Aenderung des Unternehmensgegenstands;
 c) Veraeusserung von mehr als 20 % des
  Bilanzvermoegens;
-d) Stellung eines Antrags auf Restrukturierungs-
- verfahren nach Paragraf 31 StaRUG;
+d) Anzeige eines Restrukturierungsvorhabens und
+ Inanspruchnahme gerichtlicher Instrumente nach dem StaRUG;
 e) Aufloesung der Gesellschaft;
 f) Aufnahme neuer Gesellschafter mit Sonderrechten.
 
 (2) Die Insolvenzantragspflicht der Geschaeftsfuehrung
 nach Paragraf 15a InsO bleibt von Abs. 1 lit. d) unberuehrt.
-Das Sondervetorecht entbindet die Geschaeftsfuehrung
-nicht von der gesetzlichen Antragspflicht.
+Das Sondervetorecht entbindet die Geschäftsführung weder
+von gesetzlichen Organpflichten noch von der Insolvenzantragspflicht.
 
 (3) Das Sondervetorecht ist personenbezogen und
 nicht uebertragbar. Es erlischt mit dem Tod oder

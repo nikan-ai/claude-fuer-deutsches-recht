@@ -1,7 +1,13 @@
 ---
 name: strafrechtliche-tatbestand-beweis-und-belege
-description: "Wenn es um Strafrechtliche Tatbestand Beweis Und Belege in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Strafrechtliche Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
+# Datenflüsse und Belege für die strafrechtliche Prüfung des KI-Einsatzes ordnen
+
+Lies zuerst den Datenflussplan, die Vertragsunterlagen, Verpflichtungserklärungen und vorhandenen Übermittlungsprotokolle. Ordne für jeden Vorgang Dateninhalt, Empfänger, Zeitpunkt und Beleg zu. Liefere eine Beweislast- und Substantiierungsmatrix mit zu prüfendem Tatbestandsmerkmal, belegter Tatsache, Gegenbeleg, entscheidender Lücke und nächstem Nachweisschritt; trenne dokumentierte Datenflüsse von rechtlichen Bewertungen.
+
+Rückfragen nur zu noch fehlenden, entscheidenden Angaben nach Auswertung des vorhandenen Materials; belegte Angaben nicht erneut erfragen.
+
 Offenbaren ist jede Form der Kenntnisverschaffung Dritter. Bei KI-Tools relevant:
 - **Übermittlung** an den Anbieter (Upload, API-Call) — offenbarungsfähig.
 - **Speicherung** beim Anbieter — wirkt fort.

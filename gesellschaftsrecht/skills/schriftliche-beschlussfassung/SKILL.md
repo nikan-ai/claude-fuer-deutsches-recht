@@ -1,6 +1,6 @@
 ---
 name: schriftliche-beschlussfassung
-description: "Wenn es um Beschluss im schriftlichen Verfahren / Umlaufbeschluss in Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Beschluss im schriftlichen Verfahren / Umlaufbeschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beschluss im schriftlichen Verfahren / Umlaufbeschluss
@@ -20,7 +20,6 @@ Entwirft Beschlüsse im schriftlichen Verfahren (Paragraf 48 Abs. 2 GmbHG) oder 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Beschluss im schriftlichen Verfahren / Umlaufbeschluss` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -63,7 +62,7 @@ Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei 
 
 **AG/SE:** Paragraf 108 Abs. 4 AktG (Aufsichtsratumlaufbeschluss); Paragraf 118a AktG (virtuelle HV); Paragraf 130 AktG (notarielle Niederschrift HV-Beschlüsse).
 
-**Personengesellschaften (MoPeG ab 01.01.2024):** Paragraf 714 BGB n.F. (GbR-Beschlussfassung): https://www.gesetze-im-internet.de/bgb/__714.html ; Paragraf 105, 110 HGB (OHG); Paragraf 163 HGB (KG-Stimmrechte). Neues Beschlussmaengelrecht Paragraf 110-115 HGB n.F. (Anfechtungsmodell, Klage gegen die Gesellschaft, Frist drei Monate, Cram-down möglich) — gilt für OHG/KG, auf GbR analog soweit Gesellschaftsvertrag dies vorsieht (vgl. BGH "Schiedsfaehigkeit IV", Beschl. v. 23.09.2021 — I ZB 13/21, für Schiedsklauseln-Anpassungsbedarf): https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.09.2021&Aktenzeichen=I+ZB+13/21
+**Personengesellschaften seit dem MoPeG:** Für die GbR gilt grundsätzlich Einstimmigkeit nach Paragraf 714 BGB, soweit der Gesellschaftsvertrag nichts anderes bestimmt: https://www.gesetze-im-internet.de/bgb/__714.html. Bei der OHG verlangt Paragraf 109 Absatz 3 HGB grundsätzlich die Zustimmung aller stimmberechtigten Gesellschafter; eine Mehrheitsentscheidung setzt eine gesellschaftsvertragliche Grundlage voraus: https://www.gesetze-im-internet.de/hgb/__109.html. Die Paragrafen 110 bis 115 HGB regeln ausschließlich Beschlussmängel, insbesondere Anfechtungs- und Nichtigkeitsklage sowie die dreimonatige Klagefrist ab Bekanntgabe; sie enthalten keine Cram-down-Regel: https://www.gesetze-im-internet.de/hgb/__110.html und https://www.gesetze-im-internet.de/hgb/__112.html. Für die KG gelten diese OHG-Vorschriften über Paragraf 161 Absatz 2 HGB, soweit die besonderen KG-Regeln nichts anderes bestimmen. Paragraf 163 HGB verweist lediglich auf die besonderen Vorschriften der Paragrafen 164 bis 169 HGB und regelt kein eigenständiges Stimmrecht: https://www.gesetze-im-internet.de/hgb/__163.html. Für die GbR entsteht eine Anwendung des HGB-Beschlussmängelmodells nicht kraft gesetzlicher Analogie; die Gesellschafter können ein entsprechendes Modell jedoch im Gesellschaftsvertrag vereinbaren.
 
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 

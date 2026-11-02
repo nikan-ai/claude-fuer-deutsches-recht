@@ -1,6 +1,6 @@
 ---
 name: rechtschreibung-amtlich-aktuell
-description: "Wenn es um Rechtschreibung amtlich-aktuell in Verlagsredaktion geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Rechtschreibung amtlich-aktuell: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtschreibung amtlich-aktuell
@@ -106,3 +106,4 @@ DSGVO-konform (Bindestrich)
 - LanguageTool (Open Source), [https://languagetool.org](https://languagetool.org).
 - Byrd / Lehmann, Zitierfibel für Juristen, 2. Aufl. 2016 (für Sonderzeichen-Disziplin).
 - Moellers, Juristische Arbeitstechnik, 11. Aufl. 2023.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Halten Sie fest, wer welche Passage in welcher Fassung geprüft und die redaktionelle Verantwortung übernommen hat. Eine bloße Schlussfreigabe ohne erkennbaren Gegenstand ist als Beleg gesondert zu würdigen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

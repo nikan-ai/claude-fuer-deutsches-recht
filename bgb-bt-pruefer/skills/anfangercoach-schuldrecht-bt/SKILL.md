@@ -1,6 +1,6 @@
 ---
 name: anfangercoach-schuldrecht-bt
-description: "Wenn es um Workflow: Anfängercoach Schuldrecht BT in BGB BT Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Anfangercoach Schuldrecht Bt; Arbeitsfeld: BGB BT Prüfer."
+description: "Für Workflow: Anfängercoach Schuldrecht BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Workflow: Anfängercoach Schuldrecht BT
@@ -59,23 +59,3 @@ description: "Wenn es um Workflow: Anfängercoach Schuldrecht BT in BGB BT Prüf
 - https://www.gesetze-im-internet.de/bgb/
 - https://www.bundesgerichtshof.de/
 - https://dejure.org/gesetze/BGB
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 ProdHaftG
-- Art. 32 DSGVO
-- § 4 ProdHaftG
-- § 8 ProdHaftG
-- § 2 ProdHaftG
-- § 1 ProdHaftG
-- § 10 ProdHaftG
-- § 9 ProdHaftG
-- § 2 WoVermG
-- Art. 82 DSGVO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

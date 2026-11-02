@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sportrecht-stadion-hausverbot
-description: "Wenn es um Stadion-Hausverbot in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Stadion-Hausverbot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Stadion-Hausverbot
@@ -40,7 +40,6 @@ Verteidigung von Fans gegen Stadion-Hausverbot.
 
 ## 3) BGH-Linie
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 4) Workflow
 
@@ -59,7 +58,6 @@ Verteidigung von Fans gegen Stadion-Hausverbot.
 
 - BKA "Gewalttaeter Sport" Löschungs-Antrag
 - DSGVO Art. 17 Löschungs-Anspruch
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Schritt 4 — Klage
 
@@ -93,4 +91,4 @@ Verteidigung von Fans gegen Stadion-Hausverbot.
 
 ## Ergaenzende Rechtsprechung Stadion-Hausverbot
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

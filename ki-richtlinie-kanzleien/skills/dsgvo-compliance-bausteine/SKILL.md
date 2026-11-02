@@ -1,6 +1,6 @@
 ---
 name: dsgvo-compliance-bausteine
-description: "Wenn es um DSGVO-Compliance-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für DSGVO-Compliance-Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # DSGVO-Compliance-Bausteine
@@ -51,9 +51,6 @@ Beim Einsatz von KI-Anbietern mit Sitz außerhalb des Europäischen Wirtschaftsr
 ## Hinweise zur Aktualisierung
 
 Drittlandtransfer-Regelungen sind besonders anfällig für Änderungen (Schrems-Urteile, neue Kommissionsbeschlüsse). Der Baustein ist bei neuen EuGH-Entscheidungen oder Änderungen des EU-US-Rahmens sofort zu aktualisieren. Ebenso bei neuen Datenschutzbehörden-Entscheidungen zu konkreten KI-Anbietern.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - Art. 6 DSGVO — Rechtsgrundlagen der Verarbeitung
@@ -107,3 +104,4 @@ Geprueft von: [NAME DSB], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

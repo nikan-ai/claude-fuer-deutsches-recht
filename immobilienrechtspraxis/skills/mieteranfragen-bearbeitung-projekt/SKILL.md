@@ -1,9 +1,11 @@
 ---
 name: mieteranfragen-bearbeitung-projekt
-description: "Wenn es um Mieteranfragen Bearbeitung in Immobilienrechtspraxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mieteranfragen Bearbeitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mieteranfragen Bearbeitung
+
+Prüfe das Mieterschreiben anhand des Vertrags und der vorhandenen Verwaltungsunterlagen und verfasse die bestellte Antwort. Verwende Muster nur, soweit sie zum belegten Sachverhalt passen.
 
 ## Arbeitsweg
 
@@ -19,10 +21,7 @@ description: "Wenn es um Mieteranfragen Bearbeitung in Immobilienrechtspraxis ge
 
 ## Leitidee
 
-Wiederkehrende Mieteranfragen werden in der Praxis manuell beantwortet,
-obwohl die Antworten in 80 Prozent der Fälle musterhaft sind. Der Skill
-klassifiziert, wählt das passende Muster, befüllt es mit den konkreten
-Sachverhaltselementen und ergänzt aktuelle BGH-Rechtsprechung.
+Ordne die Anfrage einem oder mehreren mietrechtlichen Streitpunkten zu. Passe eine geeignete Musterfassung an die belegten Tatsachen und das konkrete Anliegen an; ergänze Rechtsprechung nur, soweit sie die Antwort trägt und tatsächlich geprüft wurde.
 
 ## Inputs
 
@@ -49,33 +48,24 @@ Sachverhaltselementen und ergänzt aktuelle BGH-Rechtsprechung.
 
 ## Methodik
 
-1. Schreiben klassifizieren (Mehrfachkategorien möglich)
-2. Sachverhalt verdichten (mittels Skill `sachverhaltsermittlung` oder
- direkt)
-3. Musterantwort auswählen, Platzhalter befuellen
-4. Rechtsprechung nur anhängen, wenn sie vor Ausgabe frei oder amtlich
- geprüft wurde; Datum und Aktenzeichen sind Pflicht
-5. Argumentationslinie zweistufig: erst Rechtslage, dann konkrete
- Subsumtion
-6. Aktenvermerk für interne Akte mit Kurzbegründung der gewählten
- Linie
+1. Lies Schreiben, Vertrag und bereits vorliegende Berichte. Ordne die Anfrage fachlich ein; nutze `sachverhaltsermittlung` nur optional und beginne keine erneute allgemeine Aufnahme.
+2. Fehlen bei Schimmel etwa Besichtigungsbefund und zeitlicher Verlauf, frage genau danach. Fehlt zur Abrechnung ein Zahlungsbeleg oder Schlüssel, fordere diesen an; behaupte weder eine Schadensursache noch eine nicht belegte Kostenposition als Tatsache.
+3. Nach Eingang aktualisiere die Bewertung des Mangels oder die betroffene Abrechnungsposition und passe den Antwortbrief an. Eine neue entscheidende Unklarheit darf eine weitere gezielte Frage auslösen; bereits Beantwortetes nicht wiederholen. Den unabhängig belegbaren Teil bis dahin liefern.
+4. Schreibe die bestellte Antwort fertig. Begründe sie mit der konkreten Rechtslage und Subsumtion; Rechtsprechung nur nach frei zugänglicher oder amtlicher Prüfung mit Datum und Aktenzeichen verwenden. Quellenstatus und interne Risiken gehören in einen getrennten Aktenvermerk, nicht als Warnetiketten in den Mieterbrief.
 
 ## Pinpoint-Zitierregel
 
-BGH zitiert mit Datum Aktenzeichen Fundstelle Randnummer. Beispiel:
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rn. 17. Juengere Entscheidungen stehen oben.
+Zitiere BGH-Entscheidungen mit Datum, Aktenzeichen und tatsächlich geprüfter Fundstelle samt einschlägiger Randnummer. Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. Ordne Belege nach Bedeutung für die konkrete Frage, nicht allein nach Alter.
 
 ## Anti-Risiko-Hinweis
 
-Bei folgenden Konstellationen erzeugt der Skill nur einen Entwurf MIT
-Warnsiegel, weil Einzelfallbewertung zwingend ist:
+Bei folgenden Konstellationen prüfe die individuelle Beweislage und erläutere offene Voraussetzungen in einer getrennten Arbeitsnotiz. Fehlende Belege begrenzen die betroffene Aussage; nach ihrer Vorlage die Prüfung fortsetzen und den bestellten Entwurf abschließen. Ohne gesonderte Freigabe nichts versenden oder erklären:
 
 - Kündigung wegen Pflichtverletzung mit unklarer Beweislage
 - Eigenbedarf mit Härteeinrede § 574 BGB
 - Mietminderung mit Schimmel und Streit über Ursache
 - Mietpreisbremse mit Bestandsschutz-Fragen
-- Gewerbemiete mit Schriftform-Risiko § 550 BGB
+- Gewerbemiete mit Textform- und Vertragskettenrisiko nach Paragraf 578 Absatz 1 und 550 BGB
 - Betriebskosten mit verweigerter Belegeinsicht, Zahlungsbelegen oder WEG-Datenlücken
 
 ## Beispielformulierungen
@@ -88,10 +78,6 @@ Warnsiegel, weil Einzelfallbewertung zwingend ist:
  antworte."
 - "Mieter verlangt Zahlungsbelege zur Betriebskostenabrechnung 2025. Erstelle Antwort und Belegeinsichtsplan."
 - "WEG-Verwalterabrechnung liegt vor; welche Positionen dürfen in die Mieterabrechnung?"
-
-## Aktuelle Rechtsprechung — Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Paragrafenkette
 
@@ -109,3 +95,5 @@ Warnsiegel, weil Einzelfallbewertung zwingend ist:
 - `betriebskostenabrechnung-erstellen-asset-management`
 - `betriebskostenabrechnung-pruefen-asset-management`
 - `weg-abrechnung-mieterschnittstelle-datenpaket`
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

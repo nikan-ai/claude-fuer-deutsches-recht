@@ -1,6 +1,6 @@
 ---
 name: wettbewerb
-description: "Wenn es um Wettbewerb und Beihilfen im Energierecht in Energierecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wettbewerb und Beihilfen im Energierecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wettbewerb und Beihilfen im Energierecht
@@ -256,7 +256,6 @@ description: "Wenn es um Wettbewerb und Beihilfen im Energierecht in Energierech
 
 ## Aktuelle Rechtsprechung & Leitsätze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bundeskartellamt, Beschl. v. 22.09.2022 — B8-70/21, BKartA-Entscheidungssammlung — Sektor-Untersuchung Fernwaerme; Hinweise auf missbräuchliche Preisgestaltung kommunaler Fernwaerme-Versorger; Einleitung Missbrauchs-Verfahren nach § 32 GWB angekuendigt
 
 ## Zentrale Normen (Paragrafenkette)
@@ -285,3 +284,5 @@ description: "Wenn es um Wettbewerb und Beihilfen im Energierecht in Energierech
 - BGH KZR-Linie
 - OLG Düsseldorf VI-3 Kart
 - EuGH-Linien zu Energie-Wettbewerb
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

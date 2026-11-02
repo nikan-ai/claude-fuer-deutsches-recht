@@ -1,6 +1,6 @@
 ---
 name: musikwerk-melodie-harmonie-rhythmus
-description: "Wenn es um Musikwerk, Melodie, Harmonie und Rhythmus in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Musikwerk, Melodie, Harmonie und Rhythmus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Musikwerk, Melodie, Harmonie und Rhythmus
@@ -20,7 +20,7 @@ description: "Wenn es um Musikwerk, Melodie, Harmonie und Rhythmus in Urheberrec
 
 ## Wofür dieser Arbeitsgang da ist
 
-Dieser Arbeitsgang macht Musik streitfähig prüfbar, ohne Musiktheorie und Urheberrecht zu vermischen. Er arbeitet nicht mit Bauchgefühl, sondern baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe die beanspruchten musikalischen Elemente und trenne dabei musiktheoretische Befunde von ihrer urheberrechtlichen Bewertung. Begründe das verlangte Ergebnis anhand von Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweisen.
 
 ## Sofortstart
 

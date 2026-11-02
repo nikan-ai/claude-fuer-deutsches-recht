@@ -1,6 +1,6 @@
 ---
 name: schatten-ki-aufdeckung
-description: "Wenn es um Schatten-digitale Werkzeuge Aufdeckung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Schatten-digitale Werkzeuge Aufdeckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schatten-KI Aufdeckung
@@ -19,7 +19,7 @@ description: "Wenn es um Schatten-digitale Werkzeuge Aufdeckung in diesem Spezia
 
 ## Rechtlicher Hintergrund
 
-§ 43a Abs. 2 BRAO, § 203 StGB: Jede Übermittlung von Mandatsgeheimnissen an nicht autorisierte externe Dienste kann eine Verletzung der Verschwiegenheitspflicht darstellen — auch wenn der Mitarbeiter dies nicht beabsichtigt. Art. 5 DSGVO: Rechenschaftspflicht des Verantwortlichen — die Kanzlei muss darlegen können, dass Daten rechtmäßig verarbeitet werden. § 87 Abs. 1 Nr. 6 BetrVG: Mitbestimmungsrecht des Betriebsrats bei technischer Überwachung von Mitarbeitern. § 26 BDSG: Zulässigkeit der Verarbeitung von Beschäftigtendaten. Art. 4 KI-VO: Pflicht zur KI-Kompetenz setzt voraus, dass der Einsatz bekannt und geregelt ist.
+§ 43a Abs. 2 BRAO, § 203 StGB: Jede Übermittlung von Mandatsgeheimnissen an nicht autorisierte externe Dienste kann eine Verletzung der Verschwiegenheitspflicht darstellen — auch wenn der Mitarbeiter dies nicht beabsichtigt. Art. 5 DSGVO: Rechenschaftspflicht des Verantwortlichen — die Kanzlei muss darlegen können, dass Daten rechtmäßig verarbeitet werden. § 87 Abs. 1 Nr. 6 BetrVG: Mitbestimmungsrecht des Betriebsrats bei technischer Überwachung von Mitarbeitern. § 26 BDSG: Zulässigkeit der Verarbeitung von Beschäftigtendaten. Artikel 4 KI-Verordnung verlangt angemessene Kompetenzmaßnahmen. Das Erfassen tatsächlicher Einsatzweisen dient ihrer sachgerechten Planung; eine bestimmte Inventar- oder Richtlinienform wird dort nicht vorgeschrieben.
 
 ## Vorlagentext / Bausteine
 
@@ -32,9 +32,6 @@ Für Fragen zum zulässigen Einsatz von KI-Systemen steht [Name Datenschutzbeauf
 ## Hinweise zur Aktualisierung
 
 Mit zunehmender Verbreitung von KI-Funktionen in alltäglichen Arbeitstools (MS Office, E-Mail-Clients) wird die Abgrenzung zwischen autorisierter und nicht autorisierter KI-Nutzung schwieriger. Die Richtlinie muss angepasst werden, sobald neue KI-Integrationen in bestehende Kanzlei-Software eingeführt werden.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - § 43a Abs. 2 BRAO — Verschwiegenheit (gilt auch bei privaten Accounts)
@@ -76,3 +73,6 @@ PRAEVENTION:
 
 Verantwortlicher: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

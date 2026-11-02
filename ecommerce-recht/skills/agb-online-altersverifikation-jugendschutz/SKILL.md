@@ -1,6 +1,6 @@
 ---
 name: agb-online-altersverifikation-jugendschutz
-description: "Wenn es um AGB im Online-Shop – Einbeziehung Paragraf 305 BGB in E-Commerce-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für AGB im Online-Shop – Einbeziehung Paragraf 305 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AGB im Online-Shop – Einbeziehung § 305 BGB
@@ -115,21 +115,3 @@ Allgemeine Geschäftsbedingungen (AGB) werden nur Vertragsbestandteil, wenn sie 
 - EuGH C-186/16 (Andriciuc) und C-26/13 (Kasler) zur Klauselkontrolle – curia.europa.eu.
 - Verbraucherrechte-RL 2011/83/EU; Klausel-RL 93/13/EWG – EUR-Lex.
 - VZBV – Klagepraxis und Datenbank unwirksamer Klauseln.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5 DDG
-- § 5 UWG
-- § 1 EGBGB
-- § 6 DDG
-- § 27a UStG
-- § 3a UWG
-- § 26 DDG
-
-### Leitentscheidungen
-
-- EuGH C-249/21
-- EuGH C-208/19
-- EuGH C-186/16

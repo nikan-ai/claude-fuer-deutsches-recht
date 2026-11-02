@@ -1,6 +1,6 @@
 ---
 name: ki-einsatz-lohnsteuer
-description: "Wenn es um digitale Werkzeuge zum Ausfüllen und Validieren nutzen in Berichtspflichten-Erlediger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für digitale Werkzeuge zum Ausfüllen und Validieren nutzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # KI zum Ausfüllen und Validieren nutzen
@@ -26,3 +26,4 @@ DSGVO; Geschäftsgeheimnisse; KI-VO je nach System; Fachrecht.
 ## Arbeitsstil
 
 Berichtspflichten werden wie kleine Verfahren behandelt: Rechtsgrundlage lesen, Pflichtenträger und Schwelle prüfen, Datenquelle sichern, nur erforderliche Daten melden, Vier-Augen-Freigabe dokumentieren, Versandnachweis ablegen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie die Übernahme von Lohnzahlen von einer Bewertung der Arbeitsleistung. Ein Bericht an die Finanzverwaltung wird nicht allein durch Automatisierung zu einem System für Personalentscheidungen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

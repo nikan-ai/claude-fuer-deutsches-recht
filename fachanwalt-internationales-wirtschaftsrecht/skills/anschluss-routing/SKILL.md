@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Internationales Wirtschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht."
 ---
 
 # Anschluss-Routing
@@ -15,8 +15,8 @@ Dieses Anschluss-Routing für **Fachanwalt Internationales Wirtschaftsrecht** w�
 - `bruessel-risikoampel-und-gegenargumente` — Bruessel CISG Sonderfall Edge
 - `china-shipping-bills-of-lading` — China Shipping Bills OF Lading
 - `embargo-fristennotiz-und-naechster-schritt` — Embargo Fristennotiz Schiedsverfahren
-- `eu-kartellrecht-art-101-aeuv-eugh-c-373-14` — EU Kartellrecht ART 101 Aeuv Eugh C 373 14
-- `eu-kartellrecht-art-102-aeuv-google-eugh-t-612-17` — EU Kartellrecht ART 102 Aeuv Google Eugh T 612 17
+- `eu-kartellrecht-informationsaustausch-c-286-13` — Informationsaustausch nach Artikel 101 AEUV prüfen
+- `eu-kartellrecht-self-preferencing-google-shopping` — 1. Self-Preferencing nach Artikel 102 AEUV
 - `eu-mwst-betrug-mtic` — EU Mwst Betrug Mtic
 - `eugv-zustaendigkeit-art-7-eugvvo` — Eugv Zustaendigkeit ART 7 Eugvvo
 - `einstieg-schnelltriage-fallrouting` — FA INT Wirtschaft Start Chronologie Fristen
@@ -40,24 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Internationales Wirtschaftsrecht** w�
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 18 AWG
-- § 7 AWG
-- § 43 GwG
-- Art. 102 AEUV
-- Art. 101 AEUV
-- Art. 25 EuGVVO
-- § 31 OWiG
-- § 3a RVG
-- Art. 9 DSGVO
-- Art. 45 EuGVVO
-- Art. 267 AEUV
-- Art. 7 EuGVVO
-
-### Leitentscheidungen
-
-- EuGH C-284/16

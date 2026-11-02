@@ -1,6 +1,6 @@
 ---
 name: untersuchungs-memo
-description: "Wenn es um Untersuchungs Memo in Arbeitsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Untersuchungs Memo: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Entwirft den vertraulichen Untersuchungsvermerk aus dem Untersuchungsprotokoll oder aktualisiert einen bestehenden Entwurf, wenn neue Daten hinzugekommen sind
@@ -20,8 +20,6 @@ description: "Wenn es um Untersuchungs Memo in Arbeitsrecht geht: erstellt den p
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Untersuchungsvermerk (Arbeitsrecht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -52,14 +50,11 @@ description: "Wenn es um Untersuchungs Memo in Arbeitsrecht geht: erstellt den p
 
 **Leitentscheidungen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Verdachtskündigung — dringender Tatverdacht auf Basis objektiver Umstände;
  umfassende Sachaufklärung vor der Kündigung; vorherige Anhörung des
  Arbeitnehmers als zwingend; inhaltliche Mindestanforderungen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Inhaltliche Anforderungen an die Anhörung vor Verdachtskündigung; Folgen
  fehlerhafter oder unvollständiger Anhörung; Heilungsmöglichkeiten
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Anforderungen an den Tatsachennachweis bei Tatkündigung —
  Überzeugungsmaßstab im Gegensatz zur Verdachtskündigung; Anforderungen
  an Aufklärung und Dokumentation
@@ -146,7 +141,6 @@ Beispiel-Ausgabe bei erster Erstellung mit fehlendem Hochprioritäts-Punkt:
 > Warnung: Quellencheckliste: Punkt 2 (Anhörung Beschuldigte/r) ist noch
 > offen und als hochprioritär markiert. Bei einer Verdachtskündigung nach
 > Paragraf 626 BGB ist die vorherige Anhörung der beschuldigten Person zwingende
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 > Entwurf trotzdem erstellen? (Antwort: ja/nein)
 
 ## Risiken und typische Fehler
@@ -174,7 +168,6 @@ Beispiel-Ausgabe bei erster Erstellung mit fehlendem Hochprioritäts-Punkt:
 Jede Ausgabe zum Verdachtskündigungsverfahren zitiert:
 - Paragraf 626 BGB (wichtiger Grund), Paragraf 626 Abs. 2 BGB (Frist)
 - Paragraf 102 BetrVG (BR-Anhörung)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Paragraf 626 BGB: Zwei-Wochen-Frist, Verdachtskündigung und Anhörung nur mit verifizierter BAG-Rechtsprechung oder Nutzerquelle vertiefen.
 
 Detaillierte Vermerkstruktur, Glaubwürdigkeitsbewertungsrahmen und
@@ -183,13 +176,11 @@ Aktualisierungsregeln befinden sich in der Referenz-Skill
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-## Ergänzende Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage — vor dem Vermerk klären
 
 1. Wie weit ist die Untersuchung fortgeschritten? (Alle Hauptzeugen befragt? Schlüsseldokumente gesichtet?)
 2. Wurde die beschuldigte Person angehört? (→ Pflichtvoraussetzung Verdachtskündigung)
 3. Ist ein Betriebsrat zu informieren? (Paragraf 102 BetrVG als nächster Schritt nach Vermerk)
 4. Dient der Vermerk als Grundlage für eine fristlose Kündigung? → Paragraf 626 Abs. 2 BGB-Frist läuft!
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

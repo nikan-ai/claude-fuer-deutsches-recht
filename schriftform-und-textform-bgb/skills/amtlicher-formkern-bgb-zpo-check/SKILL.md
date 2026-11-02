@@ -1,6 +1,6 @@
 ---
 name: amtlicher-formkern-bgb-zpo-check
-description: "Wenn es um Amtlicher Formkern BGB/ZPO in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Amtlicher Formkern BGB/ZPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Amtlicher Formkern BGB/ZPO
@@ -33,25 +33,3 @@ description: "Wenn es um Amtlicher Formkern BGB/ZPO in Schriftform und Textform 
 ## Referenz
 
 Nutze `references/amtlicher-formkern-bgb-zpo.md`.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 46h ArbGG
-- Paragraf 14 TzBfG
-- Paragraf 16 TzBfG
-- Paragraf 15 GmbHG
-- Paragraf 46c ArbGG
-- Paragraf 17 TzBfG
-- Paragraf 16a BeurkG
-- Paragraf 23a GVG
-- Paragraf 113 FamFG
-- Paragraf 2 HRG
-- Paragraf 4 HRG
-- Paragraf 7 HRG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

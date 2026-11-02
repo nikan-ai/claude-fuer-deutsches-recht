@@ -1,6 +1,6 @@
 ---
 name: abmahnung-wegen-fehlender-werbekennzeichnung
-description: "Wenn es um Influencer-Recht: Abmahnung wegen fehlender Werbekennzeichnung in Influencer-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Influencer-Recht: Abmahnung wegen fehlender Werbekennzeichnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Influencer-Recht: Abmahnung wegen fehlender Werbekennzeichnung
@@ -18,7 +18,7 @@ description: "Wenn es um Influencer-Recht: Abmahnung wegen fehlender Werbekennze
 Abmahnungen wegen Kennzeichnungsverstößen sind die häufigste Streitigkeit im Creator-Bereich:
 
 - **§ 8 Abs. 1 UWG**: Unterlassungsanspruch bei UWG-Verstoß; Abmahnung als außergerichtliche Geltendmachung.
-- **§ 13 Abs. 4 UWG**: Erstabmahnkosten sind auf 100 € begrenzt, wenn Antragsteller kein Mitbewerber und Unternehmen mit bis zu 100 Mitarbeitern; für Verbände weiterhin nach Streitwert.
+- **Paragraf 13 Absatz 4 UWG**: Bei den dort genannten Abmahnungen eines Mitbewerbers ist der Anspruch auf Ersatz der Abmahnkosten ausgeschlossen; die Vorschrift enthält weder einen pauschalen Betrag von 100 Euro noch eine allgemeine Kostenobergrenze.
 - **§ 13 Abs. 5 UWG**: Missbräuchliche Abmahnung ist unzulässig; missbräuchlich wenn Gebührenerzielungsabsicht im Vordergrund.
 - **§ 5a Abs. 4 UWG**: Kennzeichnungspflicht; Verstoß begründet Unterlassungsanspruch.
 - **§ 339 BGB**: Vertragsstrafe bei Verstoß gegen Unterlassungserklärung; nicht zu hoch vereinbaren.
@@ -30,7 +30,7 @@ Abmahnungen wegen Kennzeichnungsverstößen sind die häufigste Streitigkeit im 
 1. Formelle Prüfung: Abmahner legitimiert? Bevollmächtigter? Fristen?
 2. Materielle Prüfung: Lag tatsächlich ein Kennzeichnungsverstoß vor?
 3. BGH-Ausnahme: Eigenmarke? Offensichtliches Eigeninteresse?
-4. Kostenkalkulation: § 13 Abs. 4 UWG-Deckelung anwendbar?
+4. Kostenkalkulation: Ist der Aufwendungsersatz nach Paragraf 13 Absatz 4 UWG ausgeschlossen, oder greift der Grundsatz des Paragraf 13 Absatz 3 UWG?
 5. Reaktion: Abgeben? Modifizieren? Ablehnen?
 
 ## Kaltstart-Fragen (6)
@@ -48,7 +48,7 @@ Abmahnungen wegen Kennzeichnungsverstößen sind die häufigste Streitigkeit im 
 - Missbrauchsprüfung: Massen-Abmahnungen ohne konkretes Wettbewerbsinteresse?
 - Materiell: War der Post kennzeichnungspflichtig? BGH-Rechtsprechung anwenden.
 - Unterlassungserklärung: Nie ohne Modifikation abgeben; Streitwert reduzieren; Fallgruppe eng fassen.
-- Kosten: § 13 Abs. 4 UWG – 100 € Erstattungsdeckelung prüfen.
+- Kosten: Anspruchsberechtigung, ordnungsgemäße Abmahnung und möglichen Ausschluss des Aufwendungsersatzes nach Paragraf 13 Absatz 4 UWG getrennt prüfen.
 - Vertragsstrafe: Betrag verhandeln; „angemessene Vertragsstrafe nach billigem Ermessen" statt Fixbetrag.
 
 ## Typische Fallen
@@ -73,29 +73,3 @@ Abmahnungen wegen Kennzeichnungsverstößen sind die häufigste Streitigkeit im 
 - Modifizierte Unterlassungserklärung (Muster)
 - Ablehnungsschreiben (bei fehlender Legitimation)
 - Kostenberechnung § 13 UWG
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 5a UWG
-- § 5 UWG
-- § 22 KUG
-- § 5 TMG
-- § 31 UrhG
-- § 19 UStG
-- § 15 EStG
-- § 3a UStG
-- § 4 EStG
-- § 3 UWG
-- § 8 EStG
-- § 13 UWG
-
-### Leitentscheidungen
-
-- BGH I ZR 35/21
-- BGH I ZR 90/20
-- BGH I ZR 125/20
-- BGH I ZR 126/20
-- BGH III ZR 183/21
-- BFH XI R 14/09

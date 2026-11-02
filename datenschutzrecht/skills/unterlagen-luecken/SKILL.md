@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Datenschutzrecht."
 ---
 
 # Unterlagen und Lücken
@@ -15,7 +15,7 @@ Diese Unterlagenprüfung für **Datenschutzrecht** benennt fehlende Dokumente, s
 - `einstieg-schnelltriage-fallrouting` — Anschluss
 - `anwendungsfall-triage` — Anwendungsfall Triage
 - `art-9-besondere-kategorien` — ART 9 Besondere Kategorien
-- `dsv-art-9-besondere-kategorien` — ART Besondere Aufnahme Statusinformation
+- `art-9-besondere-kategorien` — Besondere Kategorien Art. 9 DSGVO im Datenschutzvorfall
 - `aufnahme-statusinformation` — Aufnahme Statusinformation
 - `auskunft-behoerden-gerichts-registerweg` — Auskunft Behoerden Gerichts Registerweg
 - `avv-art-26-joint-controllership-deutsch` — AVV ART 26 Joint Controllership Deutsch

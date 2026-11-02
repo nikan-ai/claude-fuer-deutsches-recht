@@ -1,6 +1,6 @@
 ---
 name: psv-pensionssicherungsverein-und-haftungsketten
-description: "Wenn es um PSV — Pensionssicherungsverein und Haftungsketten in BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für PSV — Pensionssicherungsverein und Haftungsketten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # PSV — Pensionssicherungsverein und Haftungsketten
@@ -29,7 +29,6 @@ description: "Wenn es um PSV — Pensionssicherungsverein und Haftungsketten in 
 - § 11 BetrAVG (Beitragsbemessungsgrundlage — Teilwert § 6a EStG oder versicherungstechnischer Barwert)
 - § 14 BetrAVG (Meldepflichten gegenüber PSV)
 - § 7 Abs. 4 BetrAVG (Konzernhaftung: bei Konzernverbund Haftungsketten)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - InsO §§ 35, 47, 80 (Insolvenzmasse, Aussonderung, Verwaltungsrecht Insolvenzverwalter)
 - § 613a BGB (Betriebsübergang — Haftungsübergang auf Erwerber)
 
@@ -153,7 +152,3 @@ bAV-Projektteam · fachliche Leitung
 - → `cta-contractual-trust-arrangement-strukturierung` — CTA und PSV-Beitrag
 - → `buyout-im-ma-deal-asset-vs-share` — § 613a BGB und PSV-Haftung im Deal
 - → `drei-stufen-theorie-eingriffsanalyse` — Eingriffe und Schutzumfang PSV
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 014:
--->

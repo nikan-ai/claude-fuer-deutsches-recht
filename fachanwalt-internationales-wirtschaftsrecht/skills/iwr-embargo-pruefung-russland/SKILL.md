@@ -1,6 +1,6 @@
 ---
 name: iwr-embargo-pruefung-russland
-description: "Wenn es um Sanktions-Prüfung EU-Russland-Sanktionen VO 833/2014 und VO 269/2014 in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sanktions-Prüfung EU-Russland-Sanktionen VO 833/2014 und VO 269/2014: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Sanktions-Prüfung EU-Russland-Sanktionen VO 833/2014 und VO 269/2014
@@ -56,7 +56,6 @@ Chronologische Übersicht GTAI: https://www.gtai.de/de/trade/eu/zoll/chronologis
 
 ### Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BAFA-Musterentscheidungen zu Art. 5a VO 833/2014 (Dienstleistungsverbote) — laufend aktualisiert.
 
 ## Prüfschema
@@ -236,11 +235,6 @@ Mit freundlichen Gruessen
 - BAFA-Russland-Hinweise: https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Embargos/Russland/russland.html
 - EU-Sanctions Map: https://www.sanctionsmap.eu/
 - GTAI Chronologie: https://www.gtai.de/de/trade/eu/zoll/chronologische-uebersicht-ueber-eu-sanktionen-gegenueber-russland-817424
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Vertiefung: Aktuelle Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette Embargo-Prüfung
 
@@ -292,3 +286,5 @@ Abgelegt unter: [ARCHIVPFAD / AKTENZEICHEN]
 
 [KANZLEI], [ORT], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

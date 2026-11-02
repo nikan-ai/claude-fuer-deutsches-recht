@@ -1,6 +1,6 @@
 ---
 name: parteivortrag-gegenueberstellung
-description: "Wenn es um Parteivortrag — Gegenüberstellung in aktenauszug-gerichtsverfahren geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Parteivortrag — Gegenüberstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Parteivortrag — Gegenüberstellung
@@ -27,10 +27,6 @@ description: "Wenn es um Parteivortrag — Gegenüberstellung in aktenauszug-ger
 - § 296 Abs. 1 ZPO — Präklusion verspäteten Vortrags in erster Instanz
 - § 531 Abs. 2 ZPO — Beschränktes Vorbringen neuer Angriffs- und Verteidigungsmittel in der Berufungsinstanz
 - § 139 ZPO — Richterliche Hinweispflicht; Gericht weist auf Lücken im Vortrag hin
-
-## Rechtsprechung zum Parteivortrag und Bestreiten
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Tabellenstruktur
 
@@ -79,9 +75,4 @@ Unstreitige Sachverhaltselemente werden unterhalb der Tabelle als Block "Unstrei
 - [ ] Unstreitiger Sachverhalt separat ausgewiesen?
 - [ ] Präkludierte Punkte (§§ 296 531 ZPO) als solche markiert?
 
-<!-- AUDIT 27.05.2026 bundle_055
-Halluzinations-Reparatur: BGH VII ZR 131/13 (WRONG_TOPIC) korrigiert.
-Echtes Thema laut dejure.org: Anforderungen an die Bestimmtheit eines Architektenvertrages
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Beschreibung entsprechend angepasst.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

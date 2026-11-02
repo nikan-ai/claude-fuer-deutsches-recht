@@ -1,6 +1,6 @@
 ---
 name: stadion-hausverbot
-description: "Wenn es um Fan erhaelt bundesweites Stadion-Hausverbot und will dieses anfechten in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Fan erhält bundesweites Stadion-Hausverbot und will dieses anfechten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fan erhaelt bundesweites Stadion-Hausverbot und will dieses anfechten
@@ -49,7 +49,6 @@ description: "Wenn es um Fan erhaelt bundesweites Stadion-Hausverbot und will di
 
 ## 3) BGH-Linie
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 4) Workflow
 
@@ -68,7 +67,6 @@ description: "Wenn es um Fan erhaelt bundesweites Stadion-Hausverbot und will di
 
 - BKA "Gewalttaeter Sport" Löschungs-Antrag
 - DSGVO Art. 17 Löschungs-Anspruch
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Schritt 4 — Klage
 
@@ -102,4 +100,4 @@ description: "Wenn es um Fan erhaelt bundesweites Stadion-Hausverbot und will di
 
 ## Ergaenzende Rechtsprechung Stadion-Hausverbot
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

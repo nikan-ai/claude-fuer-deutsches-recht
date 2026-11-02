@@ -1,6 +1,6 @@
 ---
 name: ausbildung-studium-bundeswehr-rueckforderung-ausbildungskosten
-description: "Wenn es um Ausbildung, Studium und Rückforderung von Ausbildungskosten in Bundeswehrrecht und Wehrrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ausbildung, Studium und Rückforderung von Ausbildungskosten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ausbildung, Studium und Rückforderung von Ausbildungskosten
@@ -106,25 +106,3 @@ Vor Ausgabe prüfen:
 - Gegenargumente und Verteidigungslinien formuliert?
 - Beweislastverteilung geklärt?
 - Output entspricht dem gewünschten Arbeitsergebnis?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 GG
-- § 81a SVG
-- § 81e SVG
-- § 27 SVG
-- § 9a BBesG
-- § 5 SVG
-- Art. 4 GG
-- § 5 WStG
-- § 81 SVG
-- § 70 BBesG
-- Art. 12a GG
-- § 22 SÜG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

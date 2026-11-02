@@ -1,6 +1,6 @@
 ---
 name: handelsregisteranmeldung-kapitalerhoehung-kyc
-description: "Wenn es um Handelsregisteranmeldung Kapitalerhöhung in Wandeldarlehen-Lebenszyklus geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für Handelsregisteranmeldung Kapitalerhöhung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Handelsregisteranmeldung Kapitalerhöhung
@@ -28,9 +28,6 @@ description: "Wenn es um Handelsregisteranmeldung Kapitalerhöhung in Wandeldarl
 - § 9c GmbHG (Prüfung durch das Registergericht – materielle Prüfung)
 - § 382 FamFG (Registerverfahren – Bearbeitungsfrist)
 - § 19 GwG (Transparenzregister-Anmeldepflicht nach HR-Änderung)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -82,14 +79,8 @@ Stand: 05/2026. Bei Änderung GmbHG §§ 57/9c oder FamFG aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 57 GmbHG (Anmeldung Kapitalerhöhung zum Handelsregister) → § 57a GmbHG (vereinfachte Kapitalerhöhung) → § 12 HGB i.V.m. §§ 374 ff. FamFG (elektronische Anmeldung) → § 56 Abs. 2 GmbHG (Sacheinlagebericht) → § 8 HGB (Inhalt Handelsregisteranmeldung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

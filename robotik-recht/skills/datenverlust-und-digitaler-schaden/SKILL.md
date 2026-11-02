@@ -1,6 +1,6 @@
 ---
 name: datenverlust-und-digitaler-schaden
-description: "Wenn es um Datenverlust und digitaler Schaden in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Datenverlust Und Digitaler Schaden; Arbeitsfeld: robotik-recht."
+description: "Für Datenverlust und digitaler Schaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: datenverlust-und-digitaler-schaden."
 ---
 
 # Datenverlust und digitaler Schaden
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Bewertet Schäden durch Datenverlust, Fehlsteuerung, Produktionsstillstand, Privacy-Schäden und reine Vermögensschäden.**
 
 Quellen-/Normenanker: Produkthaftungsrichtlinie; BGB; Datenschutz; Vertrag.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

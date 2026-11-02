@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-schulakte-attest
-description: "Wenn es um Akteneinsicht Schulakte in Schulrecht der Bundesländer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für Akteneinsicht Schulakte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Akteneinsicht Schulakte
@@ -70,14 +70,3 @@ Der Skill arbeitet landes- und satzungsbezogen: Er fragt zuerst nach Bundesland,
 ## Ergebnisformat
 
 Erzeuge bevorzugt: Akteneinsichtsantrag. Am Ende immer drei Zeilen: **Frist**, **fehlende Quelle**, **nächster sicherer Schritt**.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 3 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

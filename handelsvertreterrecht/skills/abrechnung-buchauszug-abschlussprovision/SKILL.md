@@ -1,6 +1,6 @@
 ---
 name: abrechnung-buchauszug-abschlussprovision
-description: "Wenn es um Provisionsabrechnung und Buchauszug nach Paragraf 87c HGB in Handelsvertreterrecht und Vertriebsverträge geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Provisionsabrechnung und Buchauszug nach Paragraf 87c HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Provisionsabrechnung und Buchauszug nach § 87c HGB
@@ -82,26 +82,3 @@ nicht abgebedungen werden; entgegenstehende Klauseln sind nach § 134 BGB nichti
 - [§ 254 ZPO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zpo/__254.html)
 - [RL 86/653/EWG auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31986L0653)
 - [Dejure § 87c HGB](https://dejure.org/gesetze/HGB/87c.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 9 Rom-I-VO
-- Art. 101 AEUV
-- Art. 28 DSGVO
-- § 14 UStG
-- § 19 UStG
-- § 5 ArbGG
-- § 59 VVG
-- § 1 UStG
-- § 23 GeschGehG
-- § 66c EnWG
-- Art. 17 DSGVO
-- § 75 AMG
-
-### Leitentscheidungen
-
-- EuGH C-465/04
-- EuGH C-381/19
-- EuGH C-217/05

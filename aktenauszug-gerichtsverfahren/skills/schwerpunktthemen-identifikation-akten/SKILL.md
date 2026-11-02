@@ -1,6 +1,6 @@
 ---
 name: schwerpunktthemen-identifikation-akten
-description: "Wenn es um Schwerpunktthemen-Identifikation in aktenauszug-gerichtsverfahren geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Schwerpunktthemen-Identifikation: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Schwerpunktthemen-Identifikation
@@ -26,10 +26,6 @@ description: "Wenn es um Schwerpunktthemen-Identifikation in aktenauszug-gericht
 - § 286 ZPO — Freie Beweiswürdigung; entscheidungserhebliche Tatsachen sind Schwerpunkte
 - § 359 ZPO — Beweisbeschluss; benennt beweisbedürftige Tatsachen
 - § 522 Abs. 2 ZPO — Berufungsverwerfung; Schwerpunkt in der Berufung ist Erfolgsaussicht
-
-## Rechtsprechung zu Schwerpunktthemen im Zivilprozess
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Kriterien für ein Schwerpunktthema
 
@@ -96,9 +92,9 @@ Schwerpunktthemen werden neutral dargestellt. Die Identifikation eines Themas al
 
 ## Audit-Hinweis
 
-<!-- AUDIT 27.05.2026 -->
 **Halluzinations-Reparatur durchgeführt am 27.05.2026.**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Quellen: dejure.org (https://dejure.org/2016,13484 ; https://dejure.org/2019,4759)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

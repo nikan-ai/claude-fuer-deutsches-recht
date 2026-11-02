@@ -1,6 +1,6 @@
 ---
 name: konkurrenzen-anspruchsgrundlagen
-description: "Wenn es um Konkurrenzen und Anspruchsgrundlagen in Subsumtions-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Konkurrenzen und Anspruchsgrundlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Konkurrenzen und Anspruchsgrundlagen
@@ -28,10 +28,6 @@ description: "Wenn es um Konkurrenzen und Anspruchsgrundlagen in Subsumtions-Pr�
 - §§ 280 ff. BGB i.V.m. §§ 434 ff. BGB — Kaufgewährleistung als lex specialis zu allg. Schadensersatz
 - § 823 Abs. 1 BGB — Echte Konkurrenz zu § 823 Abs. 2 BGB (jede Norm selbständig prüfen)
 - §§ 812 ff. BGB — Subsidiarität des Bereicherungsrechts gegenüber vertraglichen Ansprüchen
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Grundbegriffe
 
@@ -63,7 +59,6 @@ Eine Norm gilt nur, wenn eine andere Norm nicht eingreift.
 
 **Beispiele:**
 - § 826 BGB — subsidiär, aber eigenständig bei sittenwidrigem Schädigungsvorsatz
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Lex posterior und lex superior
 
@@ -77,7 +72,6 @@ Eine Norm gilt nur, wenn eine andere Norm nicht eingreift.
 
 **Ausnahme Spezialität bei reinem Äquivalenzinteresse:** Wenn der Schaden nur im Wert der mangelhaften Sache selbst besteht und kein Weiterfresserschaden vorliegt, verdrängt Kaufgewährleistung den Deliktsanspruch.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabe
 
@@ -95,3 +89,4 @@ Das System erstellt eine Konkurrenz-Tabelle:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

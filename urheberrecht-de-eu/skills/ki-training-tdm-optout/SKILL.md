@@ -1,6 +1,6 @@
 ---
 name: ki-training-tdm-optout
-description: "Wenn es um digitale Werkzeuge-Training, TDM und Opt-out in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für digitale Werkzeuge-Training, TDM und Opt-out: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Training, TDM und Opt-out
@@ -74,28 +74,4 @@ Vor einer belastbaren Ausgabe werden Gesetzesfassungen und tragende Rechtsprechu
 ## Anschluss-Skills
 
 Nach diesem Skill passen häufig `werkhoehe-schoepfungshoehe`, `nutzungsrechte-lizenzkette`, `beweisforensik-versionen`, `redteam-halluzinationsschutz` und `output-builder-urheberrecht`. Bei Musikfällen zusätzlich `musikwerk-melodie-harmonie-rhythmus`, `soundaufnahme-tontraeger` und `sampling-pastiche-remix`. Bei KI-Fällen zusätzlich `ki-output-menschlicher-beitrag`, `ki-training-tdm-optout` und `ki-act-gpai-copyright`.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 2 UrhG
-- § 97 UrhG
-- § 7 UrhG
-- § 15-24 UrhG
-- § 44b UrhG
-- § 60d UrhG
-- § 85 UrhG
-- § 73 UrhG
-- § 51a UrhG
-- § 97a UrhG
-- § 32a UrhG
-- § 51 UrhG
-
-### Leitentscheidungen
-
-- EuGH C-310/17
-- EuGH C-393/09
-- EuGH C-406/10
-- EuGH C-476/17
-- EuGH C-348/13
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie Trainingsbezug, Ausgabeinhalt und Veröffentlichung getrennt. Technische Markierung und redaktionelle Verantwortung beantworten nicht automatisch die urheberrechtliche Nutzungsbefugnis. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

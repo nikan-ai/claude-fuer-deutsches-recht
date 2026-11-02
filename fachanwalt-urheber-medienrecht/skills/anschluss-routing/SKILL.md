@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Urheber Medienrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Urheber Medienrecht."
 ---
 
 # Anschluss-Routing
@@ -40,24 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Urheber Medienrecht** wählt nach dem
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 97a UrhG
-- § 44b UrhG
-- § 97 UrhG
-- § 102 UrhG
-- § 101 UrhG
-- § 2 UrhG
-- § 8c UWG
-- Art. 5 GG
-- § 11 LPG
-- § 128 VGG
-- § 11 BlnPresseG
-- § 19a UrhG
-
-### Leitentscheidungen
-
-- EuGH C-682/18

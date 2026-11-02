@@ -1,6 +1,6 @@
 ---
 name: sftf-doppelschriftform-aufhebung-spezial
-description: "Wenn es um SfTf: Doppelschriftform-Aufhebung in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für SfTf: Doppelschriftform-Aufhebung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # SfTf: Doppelschriftform-Aufhebung
@@ -14,7 +14,7 @@ description: "Wenn es um SfTf: Doppelschriftform-Aufhebung in Schriftform und Te
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Spezialwissen: SfTf: Doppelschriftform-Aufhebung
-- **Normen-/Quellenanker:** BGH.
+Bei einer individuell vereinbarten doppelten Schriftformklausel nicht aus der mündlichen Abrede zugleich deren formlose Aufhebung ableiten: [BGH, Urteil vom 16.06.2026 – II ZR 85/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__85-25.pdf?__blob=publicationFile&v=1), Rn. 24–31. Im Freiberuflersozietätsfall kann die Treuepflicht unter engen Voraussetzungen eine rückwirkende formwirksame Zustimmung zur Gewinnverteilungsänderung verlangen; sie macht die mündliche Änderung nicht automatisch wirksam. Frage nach Individualabrede oder AGB, vollständiger Formklausel, zwingender Notwendigkeit, Belastung und formgerechter Zustimmung. Paragraf 305b BGB bei AGB und gesetzliche Beurkundungsgebote gesondert prüfen; das Urteil verweist zur Tatsachenklärung zurück.
 
 ## Fallweichen
 Frage zu Beginn nur ab, was für den naechsten Schritt unverzichtbar ist. Wenn Material vorliegt, mit dem Material arbeiten und nur eine gezielte Rueckfrage stellen.

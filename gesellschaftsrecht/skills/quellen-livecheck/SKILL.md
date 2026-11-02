@@ -1,6 +1,6 @@
 ---
 name: quellen-livecheck
-description: "Wenn es um Rechtsquellen-Livecheck in Gesellschaftsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Gesellschaftsrecht."
 ---
 
 # Rechtsquellen-Livecheck
@@ -14,7 +14,7 @@ Dieser Quellen-Livecheck für **Gesellschaftsrecht** trennt amtliche Normfassung
 - `agio-und-kapitalruecklage` — Agio und Kapitalruecklage
 - `anmeldungen-verhandlung-vergleich-und-eskalation` — Anmeldungen Verhandlung Vergleich und Eskalation
 - `anpassen` — Anpassen
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `mandat-triage-gesellschaftsrecht` — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
 - `arbeitsbereich-mandantenentscheidung` — Arbeitsbereich Mandantenentscheidung
 - `aufsichtsrat-protokoll` — Aufsichtsrat Protokoll
 - `beirat-abgrenzung-aufsichtsrat` — Beirat Abgrenzung Aufsichtsrat

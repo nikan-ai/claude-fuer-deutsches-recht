@@ -1,6 +1,6 @@
 ---
 name: anderkonto-und-verwahrung-organisationspflicht-und-praev
-description: "Wenn es um Anderkonto Und Verwahrung Organisationspflicht Und Praev in Berufsrecht Notare geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anderkonto und Verwahrung Organisationspflicht und Praev: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Notare: anderkonto und verwahrung - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle
@@ -41,7 +41,7 @@ description: "Wenn es um Anderkonto Und Verwahrung Organisationspflicht Und Prae
 Konkret zu prüfen:
 
 - § 23 BNotO (Notaranderkonto)
-- § 54a BeurkG
+- §§ 57 bis 60 BeurkG (Verwahrung, Durchführung und Widerruf)
 - DONot § 11
-- § 26 BNotO (Geschäftsstelle)
+- § 10 Abs. 2 bis 4 BNotO (Geschäftsstelle)
 - DONot

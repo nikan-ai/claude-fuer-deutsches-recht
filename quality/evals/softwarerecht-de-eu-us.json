@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "plugin": "softwarerecht-de-eu-us",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__69b.html",
+      "checked_on": "2026-09-14",
+      "supports": "Gesetzliche Zuordnung wirtschaftlicher Befugnisse an Arbeitnehmerprogrammen im Rahmen von Aufgaben oder Weisungen; keine pauschale Gleichsetzung mit freien Auftragnehmern."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__327.html",
+      "checked_on": "2026-09-14",
+      "supports": "Verbraucherverträge über digitale Produkte als persönlicher Anwendungsbereich; nicht automatisch auf rein unternehmerische Entwicklungsverträge übertragbar."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62011CJ0128",
+      "checked_on": "2026-09-22",
+      "supports": "EuGH, Urteil vom 3. Juli 2012, C-128/11, UsedSoft, Randnummern 44 bis 49, 69 bis 71 und 77 bis 88. Anwendung: Erschöpfung bei dauerhaft überlassener Downloadkopie mit wertentsprechendem Entgelt; Erwerbskette und Stilllegung beim Verkäufer prüfen. Grenze: Keine freie SaaS-Übertragung, keine Aufspaltung der dortigen Servermehrnutzerlizenz und keine Aussage zum US-Recht."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2009/III_ZR__79-09.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 4. März 2010, III ZR 79/09, Randnummern 15 bis 27. Anwendung: Geschuldete funktionsfähige Website als Erfolg im Gesamtvertrag; werkvertragliche Mängelprüfung. Grenze: Keine Entscheidung über BFSG/WCAG und keine pauschale Einordnung von Hosting oder Beratung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__69b.html",
+      "checked_on": "2026-09-22",
+      "supports": "Arbeitnehmerprogramme: Aufgaben oder Weisung erforderlich; keine pauschale Anwendung auf Freelancer."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__69d.html",
+      "checked_on": "2026-09-22",
+      "supports": "Bestimmungsgemäße Nutzung und Grenzen zustimmungsfreier Handlungen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__69b.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Text zu Arbeitnehmer-Computerprogrammen gelesen; nicht automatisch auf freie Entwickler oder sämtliche Drittkomponenten übertragen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Vertragsgemäße Schnittstelle von späterem Änderungswunsch trennen; interne und externe Verwertung sowie Freelancerrechte gesondert vereinbaren; SLA-Messung, Schaden und Exportvollständigkeit mit überprüfbaren Dokumentanforderungen verbinden. 2026-10-16, redaktioneller Einstiegsreview: Klausel, Mängelrüge und Rechtebewertung zuerst; UsedSoft auf Downloadkopien begrenzt, kein SaaS- oder US-Freibrief. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "C-128/11 in die Rechtekettenprüfung integriert.",
+      "III ZR 79/09 als begrenzten Werkvertragsmaßstab eingesetzt; fremde Branchenverzeichnis- und ungeprüfte ASP-Anker entfernt.",
+      "Leerstart: Mangel/Abnahme, Nutzungsrechte oder SaaS-Exit wählen.",
+      "Ein belegter Versionswechsel verändert Fehlervergleich und Nachbesserungsverlangen; fehlende Exportanhänge verändern die vollständige Exit-Klausel.",
+      "Vertragsgemäße Schnittstelle von späterem Änderungswunsch trennen; interne und externe Verwertung sowie Freelancerrechte gesondert vereinbaren; SLA-Messung, Schaden und Exportvollständigkeit mit überprüfbaren Dokumentanforderungen verbinden.",
+      "2026-10-16, redaktioneller Einstiegsreview: Klausel, Mängelrüge und Rechtebewertung zuerst; UsedSoft auf Downloadkopien begrenzt, kein SaaS- oder US-Freibrief. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "5b2ad5a232735f9bb8669a039e15d13869aa4f3bf901f1f91d1e71153f133901",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie die Rechtekette einer von freien Entwicklern erstellten B2B-Software vor dem Verkauf.",
+      "Ordnen Sie einen SaaS-Vertrag nach Vertragsparteien, Leistung und vereinbartem Rechtsraum ein."
+    ],
+    "negative": [
+      "Bewerten Sie ausschließlich die arbeitsrechtliche Wirksamkeit einer Entwicklerkündigung.",
+      "Erstellen Sie ohne Softwarebezug einen allgemeinen internationalen Warenkaufvertrag."
+    ]
+  },
+  "cases": [
+    {
+      "id": "freelancer-code-kein-automatischer-rechteuebergang",
+      "request": "Eine deutsche GmbH will eine von einer selbstständigen Entwicklerin für 18.000 Euro erstellte Lagerverwaltungssoftware an Kunden lizenzieren. Beide Seiten handeln unternehmerisch. Der schriftliche Auftrag lautet nur Entwicklung eines internen Lagerprogramms für die GmbH; er enthält keine ausdrückliche Regelung zu Weitervertrieb, Bearbeitung oder Unterlizenzierung. Die Rechnung ist bezahlt, der Quellcode übergeben. Ein Arbeitsverhältnis bestand nie. Die Geschäftsführung meint, Bezahlung und Paragraf 69b UrhG gäben ihr automatisch sämtliche Rechte. Drittkomponenten sind noch nicht inventarisiert. Erstellen Sie ergebnis.md mit belastbarer vorläufiger Einordnung und den nächsten Vertrags- und Rechteprüfungen, ohne eine Freigabe zum Vertrieb zu erteilen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Ausgabe lehnt den automatischen Vollrechteerwerb allein aus Paragraf 69b oder Bezahlung ab, prüft aber den vereinbarten Vertragszweck statt ebenso pauschal jegliche Nutzungsrechte zu verneinen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die rein unternehmerische Konstellation wird nicht ohne Weiteres dem Verbraucherregime der Paragrafen 327 ff. BGB unterstellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Interne Nutzung und geplanter Weitervertrieb werden unterschieden; Klärung von Bearbeitung, Unterlizenzierung und Drittkomponenten wird vor einer Vertriebsfreigabe konkret verlangt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "kaltstart-triage"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Vertragsgemäße Schnittstelle von späterem Änderungswunsch trennen; interne und externe Verwertung sowie Freelancerrechte gesondert vereinbaren; SLA-Messung, Schaden und Exportvollständigkeit mit überprüfbaren Dokumentanforderungen verbinden. 2026-10-16, redaktioneller Einstiegsreview: Klausel, Mängelrüge und Rechtebewertung zuerst; UsedSoft auf Downloadkopien begrenzt, kein SaaS- oder US-Freibrief. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "C-128/11 in die Rechtekettenprüfung integriert.",
+      "III ZR 79/09 als begrenzten Werkvertragsmaßstab eingesetzt; fremde Branchenverzeichnis- und ungeprüfte ASP-Anker entfernt.",
+      "Leerstart: Mangel/Abnahme, Nutzungsrechte oder SaaS-Exit wählen.",
+      "Ein belegter Versionswechsel verändert Fehlervergleich und Nachbesserungsverlangen; fehlende Exportanhänge verändern die vollständige Exit-Klausel.",
+      "Vertragsgemäße Schnittstelle von späterem Änderungswunsch trennen; interne und externe Verwertung sowie Freelancerrechte gesondert vereinbaren; SLA-Messung, Schaden und Exportvollständigkeit mit überprüfbaren Dokumentanforderungen verbinden.",
+      "2026-10-16, redaktioneller Einstiegsreview: Klausel, Mängelrüge und Rechtebewertung zuerst; UsedSoft auf Downloadkopien begrenzt, kein SaaS- oder US-Freibrief. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "6986c9cfe2cc7191961715b304846f949b6bc12295e4f9f9f26816da5bb26b60",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "softwarerecht-de-eu-us/README.md",
+      "softwarerecht-de-eu-us/softwarerecht-de-eu-us-werkstatt.md",
+      "softwarerecht-de-eu-us/softwarerecht-de-eu-us-schnellstart.md",
+      "quality/evals/softwarerecht-de-eu-us.json"
+    ],
+    "opening_change": "Geschuldete Softwarefunktion, belegte Abweichung und Berechtigung zur geplanten Nutzung prüfen.",
+    "norms": [
+      "Paragrafen 69b, 69c Nummer 3 Satz 2 und 69d Absatz 1 UrhG",
+      "Artikel 4 Absatz 2 und Artikel 5 Absatz 1 Richtlinie 2009/24/EG",
+      "Paragraf 631 BGB"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 3. Juli 2012, C-128/11, UsedSoft, Randnummern 44 bis 49, 69 bis 71 und 77 bis 88",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62011CJ0128",
+        "application": "Erschöpfung bei dauerhaft überlassener Downloadkopie mit wertentsprechendem Entgelt; Erwerbskette und Stilllegung beim Verkäufer prüfen.",
+        "limit": "Keine freie SaaS-Übertragung, keine Aufspaltung der dortigen Servermehrnutzerlizenz und keine Aussage zum US-Recht."
+      },
+      {
+        "citation": "BGH, Urteil vom 4. März 2010, III ZR 79/09, Randnummern 15 bis 27",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2009/III_ZR__79-09.pdf?__blob=publicationFile&v=1",
+        "application": "Geschuldete funktionsfähige Website als Erfolg im Gesamtvertrag; werkvertragliche Mängelprüfung.",
+        "limit": "Keine Entscheidung über BFSG/WCAG und keine pauschale Einordnung von Hosting oder Beratung."
+      }
+    ],
+    "remaining_limits": [
+      "US-Recht, Exportkontrolle und einzelstaatliches Vertragsrecht nicht neu verifiziert; EU-Entscheidungen ausdrücklich nicht als US-Recht ausgegeben.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "Workflow-Vertiefung 2026-09-23: Bestehende UsedSoft- und BGH-Entscheidungsgrenzen erhalten. US-Recht, neue Spezialregulierung und alle internationalen Vertragsfragen nicht vollständig neu verifiziert. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Mangel/Abnahme, Nutzungsrechte oder SaaS-Exit wählen.",
+      "Dateien: Vertrag, Fehlerbelege und Leistungsbeschreibung still lesen und das gewünschte Schreiben klären.",
+      "Klarer Auftrag: Mängelrüge, Rechtezusatz oder Exit-Klausel ohne allgemeines Softwaregutachten liefern."
+    ],
+    "continuation": "Ein belegter Versionswechsel verändert Fehlervergleich und Nachbesserungsverlangen; fehlende Exportanhänge verändern die vollständige Exit-Klausel.",
+    "enrichment": "Vertragsgemäße Schnittstelle von späterem Änderungswunsch trennen; interne und externe Verwertung sowie Freelancerrechte gesondert vereinbaren; SLA-Messung, Schaden und Exportvollständigkeit mit überprüfbaren Dokumentanforderungen verbinden.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "softwarerecht-de-eu-us/references/ki-normen-und-fallpruefung.md",
+    "focus": "Vergleichen Sie Vertrag, Anleitung und tatsächlich ausgelieferten Funktionsumfang. Modellanpassung, Änderung der Zweckbestimmung und wesentliche Systemänderung sind verschiedene Fragen und benötigen jeweils technische Belege.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

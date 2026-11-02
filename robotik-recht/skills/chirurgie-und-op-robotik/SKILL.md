@@ -1,6 +1,6 @@
 ---
 name: chirurgie-und-op-robotik
-description: "Wenn es um Chirurgie- und OP-Robotik in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Chirurgie- und OP-Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Chirurgie- und OP-Robotik
@@ -28,7 +28,7 @@ OP- und Chirurgieroboter sind regelmäßig Medizinprodukte hoher Risikoklasse (M
 - **MPBetreibV** Pflichten Betreiber, insb. § 3 Einweisung, § 6 Bestandsverzeichnis, § 11 sicherheitstechnische Kontrollen.
 - **BGB** §§ 630a, 630c, 630e (Aufklärung), 630f (Dokumentation), 630h (Beweislastregeln).
 - **§§ 823, 831 BGB** und ärztliche Haftung; ständige Rspr. BGH (Aufklärung, voll beherrschbare Risiken).
-- **KI-VO** Anhang III bei sicherheitskritischer KI-Funktion; integrierte Konformitätsbewertung mit MDR.
+- **Medizinrobotik:** Produktpfad nach Artikel 6 Absatz 1 mit einschlägigem Anhang-I-Abschnitt-A-Rechtsakt, Absätzen 1a bis 1c und Artikel 43 Absatz 3 prüfen. Sicherheitskritik allein ist kein Anhang-III-Tatbestand; beispielsweise Notfalltriage kann einen zusätzlichen Verwendungspfad eröffnen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **DSGVO** Art. 9 Patientendaten; § 22 BDSG.
 - **VO (EU) 2024/2853** Produkthaftung.
 
@@ -87,3 +87,4 @@ OP- und Chirurgieroboter sind regelmäßig Medizinprodukte hoher Risikoklasse (M
 - VO (EU) 2024/2853 (neue ProdHaftRL).
 - DSGVO Art. 9; BDSG § 22.
 - Live-Verifikation auf eur-lex.europa.eu, bfarm.de, dimdi/bfarm; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

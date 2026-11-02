@@ -1,6 +1,6 @@
 ---
 name: besold-versorgung-ruhegehalt-ruhegehaltfaehige-dienstzei
-description: "Wenn es um Besold Versorgung Ruhegehalt Ruhegehaltfaehige Dienstzei in Beamtenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Besold Versorgung Ruhegehalt Ruhegehaltfähige Dienstzei: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Besold Versorgung Ruhegehalt Ruhegehaltfaehige Dienstzei
@@ -38,8 +38,7 @@ description: "Wenn es um Besold Versorgung Ruhegehalt Ruhegehaltfaehige Dienstze
 
 ## Versorgungsausgleich bei Scheidung
 
-- §§ 1587 ff. BGB.
-- Externes Versorgungssystem für Ex-Ehepartner.
+- Versorgungsausgleich nach dem VersAusglG; bei Anrechten aus einem öffentlich-rechtlichen Dienstverhältnis insbesondere interne oder externe Teilung und die für den Dienstherrn maßgeblichen Sonderregelungen prüfen.
 
 ## Prüfraster
 

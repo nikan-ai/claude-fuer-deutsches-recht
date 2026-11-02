@@ -1,6 +1,6 @@
 ---
 name: rechtsmittelbelehrung-zivil-relation
-description: "Wenn es um Rechtsmittelbelehrung Zivil in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Rechtsmittelbelehrung Zivil Relation; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Rechtsmittelbelehrung Zivil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsmittelbelehrung Zivil
@@ -23,10 +23,6 @@ Paragraf 232 ZPO verlangt eine Rechtsmittelbelehrung bei jeder Entscheidung, geg
 2. Ist die Beschwer der Berufungsklägerin über 600 EUR (§ 511 Abs. 2 Nr. 1 ZPO)?
 3. Hat das Gericht die Berufung zugelassen (§ 511 Abs. 4 ZPO)?
 4. Welches Berufungsgericht ist zuständig — LG (bei AG-Urteilen) oder OLG (bei LG-Urteilen)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -91,8 +87,4 @@ Form und Frist:
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-
-## Audit-Hinweis (27.05.2026)
-
-Dieser Skill wurde im Rahmen von Bundle 046 auf halluzinierte Rechtsprechungsnachweise geprüft und korrigiert.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: veraenderungssperre-zurueckstellung-14-15
-description: "Wenn es um Veränderungssperre und Zurückstellung — Paragrafen 14. 15 BauGB in Normenkontrolle Bauleitplanung — Paragraf 47 VwGO geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Veraenderungssperre Zurueckstellung 14 15; Arbeitsfeld: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO."
+description: "Für Veränderungssperre und Zurückstellung — Paragrafen 14. 15 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. Route: veraenderungssperre-zurueckstellung-14-15."
 ---
 
 # Veränderungssperre und Zurückstellung — §§ 14, 15 BauGB
@@ -18,7 +18,6 @@ description: "Wenn es um Veränderungssperre und Zurückstellung — Paragrafen 
 ### Voraussetzungen
 
 a) **Aufstellungsbeschluss** für Bebauungsplan, der für das Gebiet gelten soll
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 c) **Sicherungs-Bedürfnis** zur Wahrung der Plan-Ziele
 
 ### Inhalt § 14 Abs. 1 BauGB
@@ -84,7 +83,6 @@ c) **Befürchten** dass das Vorhaben die Plan-Entwicklung gefährdet
 
 - Wertminderung im Sinne der Eigentumsgarantie
 - Wirtschaftliche Folgen für Eigentümer
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 4 — Wirkung auf Vorhabenträger / Bauherrn
 
@@ -123,7 +121,6 @@ c) **Befürchten** dass das Vorhaben die Plan-Entwicklung gefährdet
 #### Konkretisierungs-Mangel
 
 - Plan-Ziele zu unbestimmt
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 #### Verhältnismäßigkeit
 
@@ -243,10 +240,9 @@ d) Damit: **kein § 14-Verfahren möglich**, aber **Indiz für Gefälligkeitspla
 ## Quellen
 
 - BauGB §§ 14, 15, 17, 18, 24, 42
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Ernst/Zinkahn/Bielenberg BauGB
 - Battis/Krautzberger/Löhr BauGB
 
 ## Ergänzende Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

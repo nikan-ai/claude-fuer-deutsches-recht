@@ -1,6 +1,6 @@
 ---
 name: kaltstart-e-commerce-mandat
-description: "Wenn es um Kaltstart E-Commerce Mandat in E-Commerce-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart E-Commerce Mandat: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kaltstart E-Commerce Mandat
@@ -14,11 +14,9 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Fehlt die letzte Bestellansicht oder die abgemahnte Fassung, fordere sie gezielt an. Nach Eingang die betroffene Pflichtinformation und Rechtsfolge erneut prüfen und Ersatztext oder Antwort fertigstellen. Weitere kurze Rückfragen nur bei entscheidenden neuen Lücken; bekannte Shop- und Mandatsangaben übernehmen. Unbelegte Umsetzung nicht als Tatsache ausgeben, bei einem Hindernis unabhängig bearbeitbare Teile vorläufig liefern.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Fachkern: Kaltstart E-Commerce Mandat
 - **Normen-/Quellenanker:** BGB Fernabsatz/Widerruf, PAngV, UWG, DSGVO, DDG/DSA, TDDDG, Produktsicherheit, Gewährleistung, Zahlungsdienste und Plattformrecht.
@@ -37,7 +35,7 @@ Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben 
 3. **Tatbestand in Elemente zerlegen:** Jedes Tatbestandsmerkmal einzeln prüfen; unklare Tatsachen als `[offen: ...]` markieren.
 4. **Belege führen:** Für jede relevante Behauptung Dokument, Datum, Absender, Anlage, Registerfund oder Quelle notieren.
 5. **Gegenansicht bauen:** Mindestens eine ernsthafte Gegenargumentation und eine Verteidigungslinie formulieren.
-6. **Ergebnis kalibrieren:** Risikoampel `grün/gelb/rot`, Handlungsempfehlung, nächster Schritt und fehlende Unterlagen ausgeben.
+6. **Ergebnis ausarbeiten:** Das bestellte Gutachten, die Verbrauchertexte oder die Abmahnantwort in vollständigen Sätzen liefern. Nach nachgereichten Belegen die betroffenen Passagen aktualisieren, nicht mit einer Risikoampel oder Skill-Empfehlung abbrechen. Quellenstatus getrennt vom Empfängertext dokumentieren; externe Handlungen nur nach Freigabe.
 
 ## Normenanker
 

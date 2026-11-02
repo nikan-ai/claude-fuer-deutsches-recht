@@ -1,6 +1,6 @@
 ---
 name: anspruchstabelle-beweislast
-description: "Wenn es um Anspruchstabelle in Prozessrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anspruchstabelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Anspruchstabelle
@@ -48,11 +48,9 @@ Zwei Modi:
 Verbindlich: `../references/zitierweise.md`.
 
 Zivilrecht:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Patent:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Mes, PatG, 5. Aufl. 2020, Paragraf 9 Rn. 22 ff.
 - Schulte/Voß, PatG, 10. Aufl. 2017, Paragraf 9 Rn. 48 ff.
 
@@ -87,26 +85,3 @@ Patent:
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - **Patentanspruch zu weit ausgelegt:** Merkmalsanalyse muss wortsinngemäß beginnen; Äquivalenz erst im zweiten Schritt (BGH – "Schneidmesser II").
 - **Auskunfts-/Stufenklage nicht berücksichtigt:** Bei fehlender Kenntnis des Schadens kann Stufenklage (Paragraf 254 ZPO) sinnvoll sein; Anspruchstabelle sollte Auskunftsstufe separat ausweisen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 203 StGB
-- Paragraf 45 GKG
-- Paragraf 115 VVG
-- Paragraf 7 StVG
-- Paragraf 68 GKG
-- Paragraf 43 GKG
-- Paragraf 3a RVG
-- Paragraf 97a UrhG
-- Paragraf 23 RVG
-- Paragraf 4a RVG
-- Paragraf 74 VwGO
-- Paragraf 17 StVG
-
-### Leitentscheidungen
-
-- BGH VI ZR 184/10
-- BGH VI ZR 226/16
-- BGH VI ZR 73/20

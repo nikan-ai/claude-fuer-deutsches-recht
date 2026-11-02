@@ -1,6 +1,6 @@
 ---
 name: rechteclearing-sync-film-game
-description: "Wenn es um Rechteclearing für Film, Game und Werbung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechteclearing für Film, Game und Werbung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechteclearing für Film, Game und Werbung
@@ -20,7 +20,7 @@ description: "Wenn es um Rechteclearing für Film, Game und Werbung in Urheberre
 
 ## Wofür dieser Arbeitsgang da ist
 
-Rechteclearing für Film, Game und Werbung schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Ermittle die für Film, Computerspiel oder Werbung benötigten Rechte und gleiche sie mit den vorhandenen Freigaben ab. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise und bereite daraus das beauftragte Ergebnis zur Rechteklärung vor.
 
 ## Sofortstart
 

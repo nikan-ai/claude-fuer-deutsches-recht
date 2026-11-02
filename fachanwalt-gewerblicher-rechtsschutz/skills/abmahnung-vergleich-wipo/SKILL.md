@@ -1,6 +1,6 @@
 ---
 name: abmahnung-vergleich-wipo
-description: "Wenn es um Abmahnung oder Vergleich bei Domainnamen-Streit und WIPO-Schiedsverfahren vorbereiten in Fachanwalt Gewerblicher Rechtsschutz geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Abmahnung oder Vergleich bei Domainnamen-Streit und WIPO-Schiedsverfahren vorbereiten: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Abmahnung oder Vergleich bei Domainnamen-Streit und WIPO-Schiedsverfahren vorbereiten
@@ -38,10 +38,6 @@ description: "Wenn es um Abmahnung oder Vergleich bei Domainnamen-Streit und WIP
 - **§§ 339-345 BGB** — Vertragsstrafe
 - **WIPO Mediation Rules** / **WIPO Arbitration Rules** (2021)
 - **§ 1066 ZPO** — Vollstreckbarkeit Schiedsspruch
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Paragrafenkette bei Reaktion auf Abmahnung
 
@@ -194,3 +190,5 @@ Mit freundlichen Gruessen
 | Verletzergewinn | Tatsaechlicher Gewinn des Verletzers | Auskunftsklage § 19 MarkenG |
 | Einmaliger Pauschbetrag | Nach Billigkeit, haeufig 5.000-50.000 EUR | Gerichtliche Schaetzung § 287 ZPO |
 | Vertragsstrafe | Vereinbarter Betrag je Verstoß | Unterlassungserklaerung |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fortbestehensprognose geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fortbestehensprognose."
 ---
 
 # Anschluss-Routing
@@ -40,28 +40,3 @@ Dieses Anschluss-Routing für **Fortbestehensprognose** wählt nach dem ersten E
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 43 GmbHG
-- § 3a EStG
-- § 102 StaRUG
-- § 266a StGB
-- § 1 StaRUG
-- § 93 AktG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-
-### Leitentscheidungen
-
-- BGH II ZR 296/05
-- BGH IX ZR 285/14
-- BGH IX ZR 56/22
-- BGH II ZR 206/22
-- BGH IV ZR 66/25

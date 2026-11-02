@@ -1,6 +1,6 @@
 ---
 name: unfallanalyse-chain-of-custody
-description: "Wenn es um Unfallanalyse Chain of Custody in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unfallanalyse Chain of Custody: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Unfallanalyse Chain of Custody
@@ -11,22 +11,18 @@ description: "Wenn es um Unfallanalyse Chain of Custody in robotik-recht geht: p
 
 Fachmodul im Plugin `robotik-recht`. Nutze ihn, wenn der Fall Robotik, autonome oder teilautonome Maschinen, integrierte KI, Sensorik, Remote-Updates, Mensch-Roboter-Interaktion, Produktsicherheit, Haftung, Datenschutz, Cybersecurity oder Robotikverträge berührt.
 
-## Start
+## 1. Unfallbelege auswerten
 
-Kläre knapp:
+Bereite die Sicherung und Auswertung von Gerät, Logexport, Video, Firmware, Konfiguration, Zeugenangaben und Wartungsnachweisen vor. Lies vorhandene Ereignisberichte und Unterlagen zuerst; übernimm bekannte Rolle, Produkt und Unfallzeit, statt einen allgemeinen Robotikfragebogen voranzustellen.
 
-1. **Rolle:** Hersteller, Anbieter, Integrator, Importeur, Händler, Betreiber, Deployer, Wartung, Versicherer, Behörde oder Geschädigte Person.
-2. **Produkt:** Industrieroboter, Cobot, AMR/AGV, Service-, Pflege-, Medizin-, Haushalts-, Agrar-, Sicherheits-, Liefer- oder Sonderrobotik.
-3. **Ziel:** Freigabe, CE-Akte, Behördenantwort, Vertragsprüfung, Incident, Rückruf, Haftungsmemo, Datenschutzprüfung, Cyberprüfung, Klage/Verteidigung oder Vorstandsvorlage.
-4. **Dringlichkeit:** Unfall, Verletzung, Datenpanne, Cyberangriff, Marktüberwachung, Rückruf, Kundenstillstand, Frist oder nur Prävention.
-5. **Unterlagen:** Anleitung, Risikobeurteilung, EU-Konformitätserklärung, technische Dokumentation, Logs, Softwarestände, Verträge, DSFA, SBOM, Wartungsprotokolle, E-Mails.
+Unterscheide Original und Arbeitskopie. Erfasse Herkunft, Exportweg, Gerätezeit mit Zeitzone, Version, Hash und Übergaben, soweit tatsächlich feststellbar. Behaupte keinen berechneten Hash oder lückenlosen Gewahrsamsnachweis ohne Durchführung beziehungsweise Beleg; keine gefährliche Wiederholung des Ereignisses veranlassen.
 
 ## Prüfspur
 
-- Baue zuerst eine **Rollenmatrix**. Robotikfälle kippen oft daran, wer rechtlich Hersteller, Anbieter, Betreiber oder bloßer Zulieferer ist.
-- Prüfe dann **parallel**: Maschinenrecht/Produktsicherheit, KI-VO, Produkthaftung, Datenschutz, Cybersecurity, Data Act, sektorspezifisches Recht und Vertrag.
+- Ordne Sicherungs- und Auskunftsmöglichkeiten den tatsächlichen Rollen von Hersteller, Integrator, Betreiber und Zulieferer zu. Eine gesonderte Rollenmatrix ist nur bei entsprechender Komplexität nötig.
+- Prüfe die für Ereignis und Auftrag relevanten Schnittstellen zu Maschinenrecht, Produktsicherheit, KI-VO, Produkthaftung, Datenschutz, Cybersecurity, Data Act, Sektorrecht und Vertrag; nicht jedes Unfallprotokoll benötigt eine vollständige Prüfung aller Regime.
 - Trenne sichere Tatsachen, technische Annahmen und Rechtsbewertung. Markiere jede nicht belegte technische Annahme sichtbar.
-- Arbeite mit einer **Ampel**: Rot = sofort handeln; Gelb = Unterlagen/Rückfragen; Grün = derzeit tragfähig, aber live zu verifizieren.
+- Benenne konkrete dringliche Sicherungsmaßnahmen und fehlende Nachweise. Eine Risikofarbe ersetzt weder die Ursache noch deren Beleg.
 - Bei Rechtsprechung und aktuellen Normen: keine Paywall-Fundstellen, keine erfundenen Aktenzeichen; live über amtliche/freie Quellen prüfen.
 
 ## Spezifischer Fokus
@@ -35,17 +31,15 @@ Dieser Skill fokussiert: **Sichert Beweise nach Robotikunfall: Gerät, Logexport
 
 Quellen-/Normenanker: ZPO, BGB, Produkthaftung, Arbeitsschutz.
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
 ## Ergebnisformat
 
-Liefere je nach Auftrag eines der folgenden Formate:
+Fehlt ein Logabschnitt oder weichen Kamera- und Gerätezeit voneinander ab, frage nach der konkreten Exportdatei und Zeitquelle. Halte den Befund bis zur Klärung offen; das Fehlen einer Datei beweist keine bestimmte Unfallursache. Nach Eingang Chronologie und betroffene Fehlerhypothesen aktualisieren und neu erkennbare entscheidende Widersprüche gezielt klären.
 
-- **Kurzvermerk** mit Ergebnis, Begründung, Risikoampel und offenen Fragen.
-- **Rückfragenliste** an Technik/QM/IT-Security/Datenschutz/Vertrieb.
-- **Dokumentenmatrix** mit vorhandenen und fehlenden Nachweisen.
-- **Behörden- oder Mandantenentwurf** mit vorsichtiger Sprache und Quellenhinweisen.
-- **Red-Team-Check** mit Gegenargumenten, Worst Case und nächstem Schritt.
+Liefere den bestellten Sicherungsvermerk, Ereignisbericht oder Behördenentwurf in vollständigen Sätzen. Dokumentiere die tatsächlich belegte Beweiskette und ihre Lücken; eine vorläufige Chronologie darf nicht als abgeschlossene Ursachenfeststellung erscheinen. Setze nach Klärung bis zum bestellten Text fort, statt stets mit einer Fragenliste oder Skill-Empfehlung zu enden.
 
-Schlage am Ende passende Anschluss-Skills aus `robotik-recht` vor. Wenn Datenschutz, KI-VO, IT-Recht, Medizinrecht, Arbeitsrecht oder Vertragsrecht überwiegt, nenne zusätzlich das passende Nachbarplugin.
+Weitere Fachskills sind optional. Beachte gewünschten Dateinamen und soweit möglich Times New Roman 11 pt mit dezimaler Gliederung; interne Recherche- und Zugriffshinweise getrennt vom Empfängertext halten. Rückruf, Betriebsänderung, Datenübermittlung und Versand benötigen ausdrückliche Freigabe.
 
 ## Normen & Rechtsprechung
 

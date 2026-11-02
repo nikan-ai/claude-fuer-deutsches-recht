@@ -1,6 +1,6 @@
 ---
 name: kommandocenter
-description: "Wenn es um Kommandocenter in Einfache und Leichte Sprache für juristische Texte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Einfache und Leichte Sprache für juristische Texte."
 ---
 
 # Kommandocenter
@@ -13,9 +13,6 @@ Einfache Sprache oder Leichte Sprache.
 2. Welches Format: Brief, Bescheid, Formular, Website, Flyer, Gerichtsinformation?
 3. Darf der Text inhaltlich gekuerzt werden oder muss alles erhalten bleiben?
 4. Gibt es einen institutionellen Hausstil oder Prüfgruppen für Leichte Sprache?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 11 BGG — Barrierefreiheit: Behörden müssen Informationen in Leichter Sprache oder Einfacher Sprache bereitstellen
@@ -117,3 +114,5 @@ Liefere bei jedem Ergebnis:
 2. **Kurzprotokoll**, welche juristischen Inhalte erhalten wurden.
 3. **Glossar** für schwere Wörter.
 4. **Offene Prüfungen**, insbesondere Nutzerprüfung bei Leichter Sprache.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

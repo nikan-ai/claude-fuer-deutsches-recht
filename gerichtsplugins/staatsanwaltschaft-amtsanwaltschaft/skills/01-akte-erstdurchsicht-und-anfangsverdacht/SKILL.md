@@ -1,6 +1,6 @@
 ---
 name: 01-akte-erstdurchsicht-und-anfangsverdacht
-description: "Wenn es um 01 Akte-Erstdurchsicht und Anfangsverdacht in Staatsanwaltschaft und Amtsanwaltschaft geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für 01 Akte-Erstdurchsicht und Anfangsverdacht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 01 Akte-Erstdurchsicht und Anfangsverdacht
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Zweck
 
@@ -48,10 +46,9 @@ Strukturierter Erstdurchsichtsvermerk mit Verdachtssatz, Zuständigkeitsvermerk,
 
 ## Normen & Rechtsprechung
 
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigungen und verfahrensbeendende Absprachen brauchen Transparenz, Belehrung und Protokollierung.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Heimliche Zugriffe auf informationstechnische Systeme berühren das Grundrecht auf Gewährleistung der Vertraulichkeit und Integrität informationstechnischer Systeme.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: Übermittelte EncroChat-Daten verlangen eine unionsrechtlich tragfähige Rechtshilfe- und Verwertbarkeitsprüfung.
-- EuGH, Urteil vom 05.12.2023 - C-807/21, Deutsche Wohnen: Unternehmensgeldbußen nach Datenschutzrecht setzen unionsrechtlich geprägte Zurechnung und Verschulden voraus.
+- StPO Paragraf 152 Absatz 2 und Paragraf 160: zureichende tatsächliche Anhaltspunkte sowie Pflicht zur Erforschung belastender und entlastender Umstände.
+- StPO Paragrafen 163 und 170: Ermittlungsauftrag, Aktenreife und Abschlussentscheidung.
+- Anfangsverdacht, hinreichender Tatverdacht und Verurteilungswahrscheinlichkeit nicht vermischen; jede Stufe an konkrete Aktenfunde binden.
 
 ## Prüf- und Arbeitslogik
 

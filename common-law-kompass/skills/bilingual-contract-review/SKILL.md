@@ -1,6 +1,6 @@
 ---
 name: bilingual-contract-review
-description: "Wenn es um Bilingual Contract Review in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Bilingual Contract Review: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bilingual Contract Review
@@ -106,17 +106,3 @@ Controlling language: [English / German / Both — per Clause X]
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 29 VwVfG
-- Art. 267 AEUV
-- § 31 BVerfGG
-- § 4 EuRAG
-- Art. 15 DSGVO
-
-### Leitentscheidungen
-
-- BGH XI ZR 39/04

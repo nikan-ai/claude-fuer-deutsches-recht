@@ -1,13 +1,13 @@
 ---
 name: tabellenauszug-201-inso
-description: "Wenn es um Vollstreckung aus Tabellenauszug Paragraf 201 InsO in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vollstreckung aus Tabellenauszug Paragraf 201 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vollstreckung aus Tabellenauszug § 201 InsO
 
 ## Arbeitsbereich
 
-Gläubiger hat Insolvenzforderung die im Verfahren festgestellt wurde und will nach Insolvenzende vollstrecken. § 201 Abs. 2 InsO Tabellenauszug als Titel. Prüfraster: Voraussetzungen festgestellt nicht bestritten kein RSB-Versagungsgrund Klausel und Zustellung 30-Jahres-Verjährung § 197 BGB Schranken Restschuldbefreiung § 301 InsO. Output: Vollstreckungsantrag aus Tabellenauszug. Abgrenzung zu zv-titel-klausel-zustellung (klassischer Titel) und zv-kommandocenter. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+Gläubiger hat Insolvenzforderung die im Verfahren festgestellt wurde und will nach Insolvenzende vollstrecken. § 201 Abs. 2 InsO Tabellenauszug als Titel. Prüfraster: Voraussetzungen festgestellt nicht bestritten kein RSB-Versagungsgrund Klausel und Zustellung 30-Jahres-Verjährung § 197 BGB Schranken Restschuldbefreiung § 301 InsO. Output: Vollstreckungsantrag aus Tabellenauszug. Abgrenzung zu titel-klausel-zustellung (klassischer Titel) und kommandocenter. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
 ## Arbeitsweg
 
@@ -43,7 +43,7 @@ Gläubiger hat Insolvenzforderung die im Verfahren festgestellt wurde und will n
  - **Wohlverhaltensphase**: Vollstreckung gegen den pfändbaren Teil des Schuldnereinkommens nur eingeschränkt zulässig.
 4. **Klausel** beim Insolvenzgericht (§ 201 Abs. 2 Satz 2 InsO, § 727 ZPO) bzw. wenn Insolvenzgericht das Verfahren geführt hat – aus der vollstreckbaren Ausfertigung.
 5. **Zustellung** an Schuldner § 750 ZPO.
-6. **Pfändung** durchziehen über `zv-pfueb-bank`, `zv-pfueb-arbeitsentgelt` oder `zv-mobiliar-gv-auftrag`.
+6. **Pfändung** durchziehen über `pfueb-bank`, `pfueb-arbeitsentgelt` oder `mobiliar-gv-auftrag`.
 7. **Verjährung** beachten: 30 Jahre ab Eintragung (§ 197 Abs. 1 Nr. 5 BGB) – Zinsen separat (§ 197 Abs. 2 BGB drei Jahre regelmäßig, aber bei rechtskräftig festgestellten Zinsen 30 Jahre für ab Feststellung entstandene, drei Jahre für nach Feststellung entstehende künftige Zinsen).
 
 ## Schranken der Restschuldbefreiung
@@ -61,9 +61,6 @@ Nur diese Forderungen lassen sich nach Restschuldbefreiung weiterhin vollstrecke
 ## Leitentscheidungen
 
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabeformat
 
@@ -80,7 +77,7 @@ Verjährung: 30 Jahre ab Feststellung, ab DD.MM.JJJJ
 Klausel: [vorhanden / beim AG Insolvenzgericht beantragen]
 Zustellung § 750: [erfolgt am DD.MM.JJJJ / offen]
 
-NÄCHSTER SKILL: [zv-pfueb-bank / zv-pfueb-arbeitsentgelt / ...]
+NÄCHSTER SKILL: [pfueb-bank / pfueb-arbeitsentgelt / ...]
 ```
 
 ## Qualitätsgates

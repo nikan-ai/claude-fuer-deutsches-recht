@@ -1,6 +1,6 @@
 ---
 name: kollidierende-agb-pruefen
-description: "Wenn es um Kollidierende AGB in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kollidierende AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kollidierende AGB
@@ -14,10 +14,6 @@ Klassisches Problem im B2B-Geschäft: Beide Parteien verweisen auf ihre eigenen 
 3. Welche konkreten Klauseln kollidieren (Rechtswahlklausel, Gerichtsstand, Haftungsbeschränkung)?
 4. Wie haben die Parteien den Vertrag danach vollzogen — ist ein Vertrag zustande gekommen?
 - **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -78,7 +74,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 Beide Parteien haben auf ihre jeweiligen AGB verwiesen. Die Parteien haben den Vertrag
 gleichwohl vollzogen (Lieferung / Zahlung). Ein Vertrag ist zustande gekommen.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 | Klausel | AGB Kläger | AGB Beklagte | Ergebnis |
 |---|---|---|---|
@@ -110,3 +105,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Bezugnahme im Urteil
 
 Im Tatbestand: Inhalt der streitigen AGB-Klauseln knapp zitieren, Verweis auf die Anlagen mit Bezugnahme nach Paragraf 313 II 2 ZPO.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: aussenpruefung-strategien
-description: "Wenn es um Außenprüfung — Strategien und Begleitung in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Außenprüfung — Strategien und Begleitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Außenprüfung — Strategien und Begleitung
@@ -167,7 +167,6 @@ Sehr geehrte/r Frau/Herr [Prüfer],
 namens und in Vollmacht der [Mandantin] nehmen wir zu den Prüfungsfeststellungen wie folgt Stellung.
 
 1. Feststellung "[Bezeichnung]"
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  Antrag: Diese Feststellung wird nicht in den Prüfungsbericht aufgenommen.
 
 2. Feststellung "[Bezeichnung]"
@@ -204,7 +203,7 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 - Bei mangelnder Mitwirkung Schätzungsbefugnis FA weit.
 - Anfechtungs-Strategie: Konkrete Daten nachreichen; Schätzungsrahmen auf Willkür prüfen.
-- **BFH, Urteil vom 18.06.2025 — X R 19/21**: Erhebliche Zweifel daran, dass die amtliche **Richtsatzsammlung des BMF** in der gegenwaertigen Form als Schaetzungsgrundlage taugt; aeusserer Betriebsvergleich mit Rohgewinnaufschlagsatz von 300 Prozent nicht hinreichend substantiiert. Volltext über BFH-Datenbank (STRE202520256).
+- **BFH, Urteil vom 18.06.2025 – X R 19/21**, [amtlicher Volltext](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520256/), Rn. 31 und 48–63: Tragend war die nicht nachvollziehbar begründete Methodenwahl und Hinzuschätzung. Vergleiche verfügbare Betriebsdaten und begründe die zuverlässigere Methode. Die allgemeine Kritik an der damaligen Richtsatzsammlung ist ausdrücklich ergänzend, nicht tragend; kein generelles Schätzungsverbot. **BFH, Urteil vom 15.04.2026 – X R 14/24**, [Rn. 28–33](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202650130/): Schon das fehlende erkennbare Erwägen eines möglichen inneren Betriebsvergleichs ist rechtsfehlerhaft; die Schätzungsbefugnis bleibt gesondert.
 - **Grundsatz** (BFH stRspr.): innerer Betriebsvergleich vorrangig vor aeusserem; relativ unsichere Methoden sind subsidiaer. Wahlfreiheit FA / FG ist durch § 5 AO begrenzt.
 
 ### Typische Fehler
@@ -237,31 +236,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `anw-einspruch-finanzamt` — nach nachteiligem Bescheid
 - `fachanwalt-strafrecht` — bei Strafverdacht
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 8 AO (Wohnsitz, Aufenthalt)
-- §§ 33, 34 AO (Steuerpflichtiger, gesetzliche Vertreter)
-- § 42 AO (Gestaltungsmissbrauch)
-- §§ 169-171 AO (Festsetzungsverjährung)
-- §§ 233a, 235 AO (Verzinsung, Hinterziehungszinsen)
-- § 370 AO (Steuerhinterziehung)
-- §§ 153, 371 AO (Berichtigungserklärung, Selbstanzeige)
-- §§ 15, 32a EStG (Einkünfte aus Gewerbebetrieb, Tarif)
-- § 8 KStG, § 7 GewStG (Einkommen, Gewerbeertrag)
-- §§ 1, 15 UStG (Steuerbare Umsätze, Vorsteuerabzug)
-
-### Leitentscheidungen
-
-- BFH I R 36/18 (Hinzurechnungsbesteuerung AStG)
-- BFH XI R 11/22 (Reverse-Charge-Verfahren)
-- BFH IX R 49/13 (Liebhaberei vs. Einkunftserzielungsabsicht)
-- BVerfG 2 BvL 1/03 (Steuerfreistellung Existenzminimum)
-- EuGH C-280/10 (Vorsteuerabzug bei wirtschaftlicher Tätigkeit)
-
-### Anwendung im Skill
-
-- Beraterhaftung gegen Mandantenpflicht (§§ 153, 154 AO) klar trennen; Selbstanzeige nach § 371 AO ist eine Strafnorm, kein Steueroptimierungs-Tool.
-- Festsetzungsverjaehrung nach §§ 169-171 AO im Zweifel zugunsten des Steuerpflichtigen; Hemmung durch Aussenpruefung beachten.
-- Bei Gestaltungsmissbrauch § 42 AO immer alternative Wirtschaftsgruende dokumentieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: erstregistrierung-ausfuellen
-description: "Wenn es um Erstregistrierung ausfuellen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstregistrierung ausfüllen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erstregistrierung ausfuellen
@@ -25,8 +25,6 @@ description: "Wenn es um Erstregistrierung ausfuellen in Lobbyregister Bundestag
 1. Sind alle Pflichtfelder und Nachweise vorhanden?
 2. Welche Angaben sind noch unsicher?
 3. Welche Texte müssen vor Eintragung intern freigegeben werden?
-
-## Quellenanker
 
 ## Stop-Regel bei Zweigniederlassungen
 

@@ -1,6 +1,6 @@
 ---
 name: belegte-compliance-aktenvermerk
-description: "Wenn es um Belegte Compliance Aktenvermerk in Forderungsmanagement — Klagewerkstatt geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Belegte Compliance Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Belegte Compliance Aktenvermerk
@@ -65,28 +65,3 @@ vom [Datum] Anlage [Nr]. Wiedervorlage
 
 - [BORA 50](https://www.gesetze-im-internet.de/bora/__50.html)
 - [BRAO 43a](https://www.gesetze-im-internet.de/brao/__43a.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 3a RVG
-- Paragraf 71 GVG
-- Paragraf 19 GmbHG
-- Paragraf 8 RVG
-- Paragraf 4 RDGEG
-- Paragraf 41 GKG
-- Paragraf 13 GmbHG
-- Paragraf 31 GmbHG
-- Paragraf 9 RVG
-- Paragraf 23a GVG
-- Paragraf 23 RVG
-- Paragraf 215 VVG
-
-### Leitentscheidungen
-
-- BGH, Urteil vom 16.07.2007 - II ZR 3/04: Trihotel zum existenzvernichtenden Eingriff als Innenhaftung nach Paragraf 826 BGB.
-- BGH VII ZR 162/00
-- EuGH C-377/17
-- BGH VIII ZR 261/06
-- BGH XI ZR 564/15

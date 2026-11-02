@@ -1,6 +1,6 @@
 ---
 name: preisangaben
-description: "Wenn es um Preisangaben (PAngV 2022) in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Preisangaben (PAngV 2022): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Preisangaben (PAngV 2022)
@@ -79,10 +79,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 **Schritt 6 – Dokumentation**
 - 30-Tage-Preishistorie für alle Produkte mit Aktionen intern dokumentieren und archivieren (Beweislast im UWG-Prozess beim Händler).
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 1-4 PAngV (Preisangaben, Gesamtpreis, Grundpreis) — § 11 PAngV (30-Tage-Niedrigstpreisregel) — §§ 3, 5 UWG (Irreführende Werbung, Preisgestaltung) — Art. 6a RL 98/6/EG i.d.F. Omnibus-RL 2019/2161 (Preisreduzierungen)
@@ -103,7 +99,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 *Grundpreis (§ 4 PAngV)*: Olivenöl ist ein Lebensmittel nach Volumen; Grundpreis pro Liter = 8,99 €/l muss neben dem Gesamtpreis angegeben werden. Fehlt im Sachverhalt; Verstoß gegen § 4 PAngV.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Rechtsfolge*: Verstoß gegen § 11 PAngV begründet Abmahnrisiko nach § 3a UWG (Sosnitza, in: Ohly/Sosnitza, UWG, 8. Aufl. 2023, PAngV Vorbem. Rn. 18); Bußgeld nach § 19 PAngV bis 25.000 EUR.
 
@@ -119,16 +114,3 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Quellenpflicht
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur task_198 (3 Probleme):
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- Naehrwertdeklaration/LMIV, nicht PAngV/Streichpreise — kein passender Ersatz.
-1. Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- Preisangabenrechtliche Entscheidungen nur mit Gericht, Datum, Aktenzeichen
- und freier/amtlicher Quelle in die Ausgabe übernehmen.
-3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- explizites AZ-Zitat vorhanden; AZ existiert (BGH 25.03.2021), betrifft aber
- Nutzungsentgelt für bargeldlose Zahlungen (§ 270a BGB) — falsches Thema;
- kein Handlungsbedarf im Text, da AZ dort nicht vorkommt.
--->

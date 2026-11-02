@@ -1,19 +1,19 @@
 ---
 name: insolvenzreife-pruefung-17-19-inso
-description: "Wenn es um Anwaltliche Insolvenzreife-Prüfung Paragrafen 17. 19 InsO (Steueranwalts-Sicht) in Steuerrecht – Steuerberater und Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Anwaltliche Insolvenzreife-Prüfung Paragrafen 17. 19 InsO (Steueranwalts-Sicht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Anwaltliche Insolvenzreife-Prüfung §§ 17, 19 InsO (Steueranwalts-Sicht)
 
 ## Fachlicher Anker
 
-- **Normen:** §§ 17, § 6a, § 102.
+- **Normen:** Paragrafen 17 bis 19, 15a und 15b InsO; bei einschlägigem Jahresabschlussauftrag zusätzlich Paragraf 102 StaRUG.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Kernsachverhalt
 
-Der Steueranwalt ist typischerweise der erste Berater, der erkennt, dass seine Mandantin — eine GmbH oder UG — möglicherweise insolvenzreif ist. Anlass sind häufig hohe Steuerrückstände, laufende Einspruchs- oder AdV-Verfahren oder ein vom Steuerberater ausgelöster Hinweis nach § 102 StaRUG. Der Anwalt muss das vollständige Prüfgutachten zur Insolvenzreife (§§ 17, 19 InsO) erstellen, um den Geschäftsführer über seine Antragspflicht belehren zu können und um sich selbst nicht wegen Beihilfe zur Insolvenzverschleppung zu exponieren.
+Anlass der Prüfung können hohe Steuerrückstände, laufende Einspruchs- oder Aussetzungsverfahren, Vollstreckungsmaßnahmen oder ein tatbestandsgebundener Hinweis bei Jahresabschlusserstellung sein. Bestimme zuerst Stichtag, Organrolle und akute Antragspflicht. Liefere dann die für Paragrafen 17 und 19 InsO tragenden Berechnungen, Belege und offenen Punkte; behaupte keine Insolvenzreife ohne belastbare Tatsachengrundlage.
 
 ## Kaltstart-Rückfragen
 
@@ -33,13 +33,13 @@ Der Steueranwalt ist typischerweise der erste Berater, der erkennt, dass seine M
 
 **§ 17 InsO** — Zahlungsunfähigkeit: Schuldner nicht in der Lage, fällige Zahlungspflichten zu erfüllen. Vermutung bei Zahlungseinstellung (§ 17 Abs. 2 S. 2 InsO).
 
-**§ 18 InsO** — Drohende Zahlungsunfähigkeit (nur bei Eigenantrag; ergibt Eigenantragsoption mit § 270b InsO Schutzschirm).
+**§ 18 InsO** — Drohende Zahlungsunfähigkeit (nur bei Eigenantrag; ergibt Eigenantragsoption mit § 270d InsO Schutzschirm).
 
 **§ 19 InsO** — Überschuldung: Vermögen deckt die bestehenden Verbindlichkeiten nicht, es sei denn, Fortführung ist nach den Umständen überwiegend wahrscheinlich.
 
-**§ 19 Abs. 2 S. 1 InsO i.V.m. SanInsKG** — Prognosezeitraum 24 Monate für Anträge bis 31.12.2026.
+**Paragraf 19 Absatz 2 InsO** — Für die Fortführungsprognose ist in aller Regel ein Zeitraum von zwölf Monaten zugrunde zu legen. Die viermonatige SanInsKG-Sonderregelung endete am 31.12.2023.
 
-**§ 15a Abs. 1 S. 1 InsO** — Antragspflicht GF/Liquidator: drei Wochen ab Zahlungsunfähigkeit, sechs Wochen ab Überschuldung.
+**Paragraf 15a Absatz 1 InsO** — Antrag ohne schuldhaftes Zögern; höchstens drei Wochen ab Zahlungsunfähigkeit und sechs Wochen ab Überschuldung.
 
 **§ 15a Abs. 4 InsO** — Strafbarkeit der Insolvenzverschleppung (Freiheitsstrafe bis drei Jahre).
 
@@ -59,7 +59,6 @@ Der Steueranwalt ist typischerweise der erste Berater, der erkennt, dass seine M
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Insolvenzreife
 
@@ -75,12 +74,12 @@ Der Steueranwalt ist typischerweise der erste Berater, der erkennt, dass seine M
 | 6 | Deckungslücke berechnen | Lücke = Passiva I − Aktiva I; Quote = Lücke / Passiva I | Quote in % |
 | 7 | BGH-Schema 10 %/3 Wochen | < 10 %: Zahlungsstockung; ≥ 10 % beseitigbar binnen 3 Wochen: Stockung; ≥ 10 % nicht beseitigbar: Zahlungsunfähigkeit | § 17 InsO ja/nein |
 | 8 | Zahlungseinstellung § 17 Abs. 2 S. 2 InsO | Indizien: SV-Rückstände, Stundungsanträge, Lieferantenanmahnung, Lohnverzögerung | Zahlungsunfähigkeit ohne Deckungslücke möglich |
-| 9 | Fortbestehensprognose § 19 InsO Stufe 1 | Tragfähiges Konzept + integrierte Planung 24 Monate (SanInsKG) + überwiegende Wahrscheinlichkeit | Positiv: kein § 19 InsO |
+| 9 | Fortbestehensprognose Paragraf 19 InsO Stufe 1 | Tragfähiges Konzept, integrierte Planung für regelmäßig zwölf Monate und überwiegende Wahrscheinlichkeit | Positiv: kein Überschuldungsgrund nach Paragraf 19 InsO |
 | 10 | Überschuldungsstatus § 19 InsO Stufe 2 | Liquidationswerte; Rangrücktritt § 39 Abs. 2 InsO herausnehmen; Stille Reserven/Lasten | Rechnerische Unterdeckung |
 | 11 | Gesellschafterdarlehen | Qualifizierter Rangrücktritt → nicht Passiva; einfacher Rangrücktritt → weiter Passiva | Klausel-Prüfung |
 | 12 | Antragsfrist § 15a InsO | § 17: 3 Wochen; § 19: 6 Wochen; beide: 3 Wochen (kürzere greift) | Frist berechnen |
 | 13 | Steuerspezifische Haftungsrisiken | § 69 AO GF-Haftung Lohnsteuer; § 266a StGB SV-Beiträge; § 15b InsO Masseschmälerungsverbot | Parallelrisiken |
-| 14 | Drohende ZU § 18 InsO | Prognose 24 Monate; Eigenantragsoption → Schutzschirm § 270b InsO; StaRUG | Sanierungsalternative |
+| 14 | Drohende ZU § 18 InsO | Prognose 24 Monate; Eigenantragsoption → Schutzschirm § 270d InsO; StaRUG | Sanierungsalternative |
 | 15 | Belehrung und Dokumentation | Anwaltliches Belehrungsschreiben; Empfangsbestätigung; Aktenvermerk | Nachfolge-Skill aktivieren |
 
 ## Beweislast
@@ -98,20 +97,18 @@ Der Steueranwalt ist typischerweise der erste Berater, der erkennt, dass seine M
 
 | Insolvenzgrund | Frist § 15a InsO | Strafbarkeit | Hinweis |
 |---|---|---|---|
-| Zahlungsunfähigkeit § 17 InsO | 3 Wochen | § 15a Abs. 4 InsO | Ab Eintritt, nicht ab Kenntnis |
-| Überschuldung § 19 InsO | 6 Wochen | § 15a Abs. 4 InsO | Gilt nur für jur. Personen |
-| Beide Gründe | 3 Wochen | dito | Kürzere Frist greift |
-| Drohende ZU § 18 InsO | Kein Zwang | — | Eigenantragsoption; Schutzschirm § 270b InsO |
-| Verjährung Insolvenzverschleppung | 5 Jahre | § 78 StGB | Ab Beendigung der Tat |
+| Zahlungsunfähigkeit nach Paragraf 17 InsO | ohne schuldhaftes Zögern, höchstens drei Wochen | Paragraf 15a Absatz 4 InsO | ab objektivem Eintritt |
+| Überschuldung nach Paragraf 19 InsO | ohne schuldhaftes Zögern, höchstens sechs Wochen | Paragraf 15a Absatz 4 InsO | persönlichen und sachlichen Anwendungsbereich prüfen |
+| Beide Gründe | ohne schuldhaftes Zögern; der frühere Höchstzeitpunkt ist maßgeblich | Paragraf 15a Absatz 4 InsO | Eintritt jedes Grundes getrennt datieren |
+| Drohende Zahlungsunfähigkeit nach Paragraf 18 InsO | keine Antragspflicht aus Paragraf 15a InsO | — | Eigenantrag und Sanierungsinstrumente gesondert prüfen |
+| Strafrechtliche Verjährung | im Einzelfall prüfen | Paragrafen 78 und 78a StGB | Tatbeendigung und konkrete Begehungsform nicht pauschal datieren |
 
 ## Typische Gegenargumente
 
 | Gegenargument des GF | Erwiderung |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| "Steuerberater hat noch nichts gesagt" | § 102 StaRUG-Pflicht des StB trifft ihn, nicht den GF; GF muss eigenständig prüfen |
+| "Steuerberater hat noch nichts gesagt" | Die Geschäftsleitung muss eigenständig prüfen. Paragraf 102 StaRUG betrifft nur bestimmte Berufsträger bei Jahresabschlusserstellung und nur unter seinen weiteren Voraussetzungen. |
 | "Rangrücktritt des Gesellschafters liegt vor" | Qualifizierter Rangrücktritt nach § 39 Abs. 2 InsO erfordert: Verzicht auf Rückzahlung bis Beseitigung der Krise und nur aus freiem Vermögen; einfacher Rangrücktritt genügt nicht |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Es gibt noch Stille Reserven" | Stille Reserven sind im Überschuldungsstatus zu berücksichtigen, aber konkret zu belegen; bloße Behauptung genügt nicht |
 
 ## Strategische Optionen (vor dem Template entscheiden)
@@ -267,8 +264,10 @@ Gegenstand: Erörterung der Insolvenzreife-Prüfung und Belehrung
 
 4. Nächste Schritte: [Beschluss Beteiligter]
 
-5. Kopie dieses Aktenvermerks geht an den Steuerberater [Name]
- zur Dokumentation der § 102 StaRUG-Pflichterfüllung.
+5. Eine Kopie dieses Aktenvermerks geht nur nach Prüfung von Mandat,
+ Verschwiegenheit, Vollmacht und Zweckbindung an den Steuerberater [Name].
+ Ob damit zugleich ein Hinweis nach Paragraf 102 StaRUG dokumentiert wird,
+ hängt von dessen vollständigem Tatbestand und dem Urheber des Hinweises ab.
 
 Unterschrift RA: ___________________
 Datum: ___________________________
@@ -292,15 +291,13 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Anwaltliche Beratungsgebühr | RVG § 34 i.V.m. § 13 für Beratungsmandat; nach Gegenstandswert und Stundensatz | Ausgehend von Schadensvolumen oder Stundensatz vereinbaren |
 | Strafverteidigung bei § 15a Abs. 4 InsO | RVG § 14; gesonderte Vergütungsvereinbarung empfohlen | Strafrahmen bis 3 Jahre; Gegenstandswert hoch |
 | Insolvenzantrag durch beauftragten FA-InsR | Gerichtskostenvorschuss InsO | Muss vom GF als natürliche Person gestellt werden |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Strategische Empfehlung
 
 | Situation | Empfehlung |
 |---|---|
 | § 17 InsO eindeutig + keine Sanierungsperspektive | Sofortiger Eigenantrag beim Insolvenzgericht; FA InsR sofort mandatieren |
-| § 18 InsO drohende ZU, noch nicht § 17 | Schutzschirmverfahren § 270b InsO oder StaRUG-Restrukturierung erwägen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
+| Paragraf 18 InsO drohende Zahlungsunfähigkeit, noch nicht Paragraf 17 InsO | Schutzschirm nach Paragraf 270d InsO oder Restrukturierungsrahmen nach StaRUG anhand der Zugangsvoraussetzungen vergleichen |
 | Gesellschafterdarlehen ohne Rangrücktritt | Umgehend qualifizierten Rangrücktritt § 39 Abs. 2 InsO vereinbaren lassen |
 | SV-Rückstände über 2 Monate | § 266a StGB sofort erläutern; GF persönlich haftend und strafbar |
 
@@ -316,14 +313,9 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - InsO §§ 17, 18, 19, 15a, 15b, 39
 - AO §§ 69, 222, 266a StGB, 361, 370
 - EStG § 41a
-- SanInsKG (Prognosezeitraum 24 Monate bis 31.12.2026)
+- Paragraf 19 Absatz 2 InsO: regelmäßiger Zwölfmonatszeitraum seit 01.01.2024; historische SanInsKG-Sonderregelung nur bis 31.12.2023
 - SanInsFoG (§ 15b InsO statt § 64 GmbHG a.F.)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - IDW S 11 (Insolvenzeröffnungsgründe)
 - IDW S 6 (Sanierungskonzept)
 
-<!-- AUDIT 27.05.2026 bundle_044
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
- → Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=24.05.2005&Aktenzeichen=IX+ZR+123%2F04
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

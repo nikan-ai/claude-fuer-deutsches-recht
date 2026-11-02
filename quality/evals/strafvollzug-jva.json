@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "plugin": "strafvollzug-jva",
+  "reviewed_on": "2026-10-16",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/stvollzg/BJNR005810976.html",
+      "checked_on": "2026-10-16",
+      "supports": "Tatsächlich gelesene aktuelle §§109–121b: Antragsarten, Frist, Untätigkeit, Eilrechtsschutz, Rechtsbeschwerde und Kosten."
+    },
+    {
+      "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g26200433.pdf",
+      "checked_on": "2026-10-16",
+      "supports": "Berliner Änderung2026: Kinderbesuchszeiten, Verfahren und unterschiedliches Inkrafttreten."
+    },
+    {
+      "url": "https://recht.nrw.de/system/files/pdf/state-law-and-regulations/2026/03/31/05434d/01-04-2026-stvollzg-nrw-strafvollzugsgesetz-nordrh.pdf",
+      "checked_on": "2026-10-16",
+      "supports": "Aktuelle NRW-Fassung: Würde, Unterbringung, Hofgang, Versorgung, Arbeit, Beschwerde und Bundesrechtsschutz."
+    },
+    {
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayStVollzG/true",
+      "checked_on": "2026-10-16",
+      "supports": "Aktuelle Fassung ab15.09.2026; Bildung, Besitz, Kommunikation, Vergütung und Sicherheit."
+    },
+    {
+      "url": "https://voris.wolterskluwer-online.de/browse/document/74f6ce6d-6811-362d-a1bd-283e96b259ca",
+      "checked_on": "2026-10-16",
+      "supports": "Niedersachsen §13: Lockerungsarten und individuelle Prognose; weitere geöffnete Einzelvorschriften im Landeswegweiser."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/01/rk20250131_2bvr129024.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 31.01.2025 – Az. 2 BvR 1290/24, Rn. 15–28; Volltext gelesen, Reichweite in Entscheidungsreferenz."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2024/09/rk20240930_2bvr015024.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 30.09.2024 – Az. 2 BvR 150/24, Rn. 29–38; Volltext gelesen, Reichweite in Entscheidungsreferenz."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/06/rs20230620_2bvr016616.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Urt. v. 20.06.2023 – Az. 2 BvR 166/16 und 2 BvR 1683/17, Rn. 153–164 sowie 183–184; Volltext gelesen, Reichweite in Entscheidungsreferenz."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/09/rk20190918_2bvr068119.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 18.09.2019 – Az. 2 BvR 681/19, Rn. 17–24; Volltext gelesen, Reichweite in Entscheidungsreferenz."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/03/rk20190327_2bvr226818.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 27.03.2019 – Az. 2 BvR 2268/18, Rn. 4–11; Volltext gelesen, Reichweite in Entscheidungsreferenz."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/03/rk20160322_2bvr056615.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 22.03.2016 – Az. 2 BvR 566/15, Rn. 17–24; Volltext gelesen, Reichweite in Entscheidungsreferenz."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2018/09/rk20180921_2bvr164917.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 21.09.2018 – Az. 2 BvR 1649/17, Rn. 28–43. Familienkontakt ist auch unabhängig von seinem konkreten Resozialisierungsnutzen grundrechtlich geschützt. Die Versagung eines Langzeitbesuchs benötigt nachvollziehbare tatsächliche Gründe. Bloß behauptete Unzuverlässigkeit und ungeklärte Vermutungen über Gefahren für den Besuch tragen die Entscheidung nicht. Bei begleiteten Ausführungen muss geprüft werden, ob die Begleitung das angeführte Risiko beherrscht; die Anforderungen sind nicht mit offenem Vollzug gleichzusetzen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2008/11/rk20081107_2bvr187007.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 07.11.2008 – Az. 2 BvR 1870/07, Rn. 18–28. Geschlechterstereotype und tradierte Rollenerwartungen rechtfertigen keine Benachteiligung. Auch neutral formulierte Ausstattungsvorgaben können eine mittelbare Benachteiligung bewirken. Die Anstalt darf Unterschiede nicht beliebig durch verschiedene Ausstattung erzeugen und anschließend damit begründen. Die behaupteten Sicherheitsunterschiede müssen konkret, erfahrungsbasiert und überprüfbar sein; eine gemeinsame hohe Sicherheitsstufe erklärt für sich keine unterschiedliche Behandlung."
+    },
+    {
+      "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-28018",
+      "checked_on": "2026-10-16",
+      "supports": "BayObLG, Beschl. v. 04.09.2025 – Az. 203 StObWs 239/25, Rn. 19–27. Der Senat akzeptiert im konkreten bayerischen Fall die Berücksichtigung ethischer Überzeugungen entsprechend religiösen Speisevorschriften, verlangt aber keine Umsetzung sämtlicher Ernährungsgebote durch eine zusätzliche Speiselinie. Er billigt die Kombination aus vegetarischer, laktosefreier Anstaltskost und ergänzendem Eigenerwerb. Ressourcen und Küchenorganisation gehören in die Einzelfallabwägung. Rn. 27 hebt die vorherige Befassung der JVA mit zusätzlich gewünschten Alternativen hervor."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/07/rk20220728_2bvr181421.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 28.07.2022 – Az. 2 BvR 1814/21, Rn. 17–23. Die Erfolgsaussichtsprüfung darf das Hauptsacheverfahren nicht vollständig vorwegnehmen. Die mögliche Verletzung informationeller Selbstbestimmung durch Offenbarung von Gesundheitsdaten kann Gegenstand eines Antrags nach § 109 StVollzG sein. Die Bezeichnung als bloße Wissenserklärung schließt Rechtsschutz nicht aus. Ob die konkrete Datenweitergabe durch eine Offenbarungsbefugnis gedeckt war, musste in der Hauptsache geklärt werden."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/09/rk20200923_2bvr181019.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 23.09.2020 – Az. 2 BvR 1810/19, Rn. 21–32. Einzelfall- und Allgemeinanordnung sind nach der jeweiligen gesetzlichen Grundlage zu unterscheiden. Die Entscheidung muss eine Abweichung erlauben, wenn Missbrauch fernliegt oder gleich geeignete mildere Mittel bestehen. Das bloße Ankreuzen eines Formblatts belegt keine sorgfältige Ermessensausübung. Eine zusätzliche anwesende Person zu Ausbildungszwecken erfordert eine am Persönlichkeitsrecht orientierte Prüfung. Organisatorische Alternativen dürfen nicht übergangen werden."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/03/rk20190327_2bvr229418.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 27.03.2019 – Az. 2 BvR 2294/18, Rn. 17–26. In gesetzlich besonders geregelten Gefahrensituationen kann eine abstrakte Gefahr für eine Allgemeinanordnung genügen; ein individueller Schmuggelverdacht ist dort nicht stets erforderlich. Auch ein persönlich unauffälliger Gefangener kann durch andere unter Druck geraten. Gleichzeitig müssen Ausnahmemöglichkeiten, schonende Durchführung und gleich geeignete mildere Mittel geprüft werden. Im konkreten Fall beanstandete das Gericht die Begründung nicht."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/04/rk20200407_2bvr193519.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 07.04.2020 – Az. 2 BvR 1935/19, Rn. 25–35. Disziplinarmaßnahmen sind strafähnliche Sanktionen und setzen einen zweifelsfrei festgestellten schuldhaften Pflichtverstoß voraus. Substantiiertes Bestreiten darf nicht durch unkritische Übernahme knapper Anstaltsvermerke erledigt werden. Gesundheitszustand, Chronologie und konkret benannte Beweise können entscheidend sein. Auch nach Vollzug der Sanktion können Akteneintrag und mögliche Nachteile für Lockerungen oder Bewährung ein Rechtsschutzinteresse tragen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2015/01/rk20150121_2bvr185613.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 21.01.2015 – Az. 2 BvR 1856/13, Rn. 10–16. Die Aussetzung einer belastenden Maßnahme ist nicht schon deshalb eine unzulässige Vorwegnahme der Hauptsache, weil die vorübergehend nicht vollzogene Sanktion zeitlich nicht nachgeholt werden kann. Erforderlich ist die für diese Antragsart vorgesehene Interessenabwägung. Das Gericht darf nicht die sanktionierte Handlung oder die tragenden Pflichtwidrigkeitsgründe durch andere ersetzen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2006/10/rk20061024_2bvr003006.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 24.10.2006 – Az. 2 BvR 30/06, Rn. 22–29. Das Gericht kontrolliert die tatsächlich verhängte Sanktion einschließlich der zugehörigen Ermessensausübung. Es übt keine eigene Disziplinargewalt aus. Konkretes Verhalten und Schuld müssen festgestellt werden; ein bloßer Verdacht reicht nicht. Ein anderer plausibler Pflichtvorwurf kann die angegriffene Sanktion nicht nachträglich tragen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/01/qk20250121_2bvq000225.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 21.01.2025 – Az. 2 BvQ 2/25, Rn. 10–13. Eine Verletzung effektiven Rechtsschutzes lag bei dem dokumentierten Stillstand nahe. Allgemeiner Personalmangel oder hohe Verfahrensbelastung rechtfertigen eine überlange Dauer nicht. Gerichte besitzen zwar Spielraum bei Prioritäten, der Staat muss aber angemessen zeitnahe Entscheidungen ermöglichen. Für den verfassungsgerichtlichen Eilrechtsschutz gelten deutlich engere Voraussetzungen als für den fachgerichtlichen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2018/07/rs20180724_2bvr030915.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Urt. v. 24.07.2018 – Az. 2 BvR 309/15 und 2 BvR 502/16, Rn. 63–70 und 79–85. Nicht nur kurzfristige vollständige Fixierung kann eine eigenständige Freiheitsentziehung trotz bestehender Unterbringung sein. Gesetzliche Grundlage, erneuter Richtervorbehalt, strikte Verhältnismäßigkeit, Überwachung, Dokumentation und Hinweis auf nachträglichen Rechtsschutz sind wesentlich. Rn. 68 nennt für die dortige Fünf- beziehungsweise Siebenpunktfixierung als Regelorientierung die absehbare Unterschreitung von ungefähr einer halben Stunde. Isolation ist nicht automatisch ein milderes Mittel."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/04/rk20260420_2bvr165024.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 20.04.2026 – Az. 2 BvR 1650/24, Rn. 32–46. Mit zunehmender Dauer wachsen Eingriffsgewicht und Anforderungen an Verhältnismäßigkeit und Rechtsschutz. Gesundheitsfolgen, tatsächliche Kontakte, Schutz Dritter, konkrete Gefahren, alternative Maßnahmen und laufende Überprüfung gehören in die Gesamtbetrachtung. Rn. 46 verlangt trotz Nichtannahme, jede Möglichkeit zur Reduzierung der Gefährlichkeit zu ergreifen; dazu können alternative diagnostische und therapeutische Ansätze gehören. Ein Rechtsbehelf muss sich mit den tragenden Sicherheitsgründen auseinandersetzen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2015/03/rk20150318_2bvr111113.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 18.03.2015 – Az. 2 BvR 1111/13, Rn. 29–36; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2008/01/rk20080124_2bvr166106.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 24.01.2008 – Az. 2 BvR 1661/06, Rn. 34–43; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/01/rk20200115_2bvr176316.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 15.01.2020 – Az. 2 BvR 1763/16, Rn. 34–43; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/09/rk20190923_2bvr090318.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 23.09.2019 – Az. 2 BvR 903/18, Rn. 15–24; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/03/rk20230324_2bvr011623.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 24.03.2023 – Az. 2 BvR 116/23, Rn. 17–24; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/rk20201208_1bvr011716.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 08.12.2020 – Az. 1 BvR 117/16, Rn. 13–19; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2012/11/rk20121107_2bvr156711.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 07.11.2012 – Az. 2 BvR 1567/11, Rn. 1–5; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/11/rk20111107_1bvr140309.html",
+      "checked_on": "2026-10-16",
+      "supports": "BVerfG, Beschl. v. 07.11.2011 – Az. 1 BvR 1403/09, Rn. 40–43 und 46–50; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    },
+    {
+      "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+MUR%C5%A0I%C4%86+v.+CROATIA.pdf&id=001-167483&library=ECHR&logEvent=False",
+      "checked_on": "2026-10-16",
+      "supports": "EGMR (Große Kammer), Urt. v. 20.10.2016 – Beschwerde Nr. 7334/13, Muršić gegen Kroatien, Rn. 114 und 136–140; amtlicher Volltext gelesen; Tragweite und Grenze in der Referenz Haftbedingungen und Schutzmaßnahmen."
+    }
+  ],
+  "selection": {
+    "target_skill": "strafvollzug-fall-steuern",
+    "positive": [
+      "Prüfen Sie diesen Berliner JVA-Bescheid und erstellen Sie meinen gerichtlichen Antrag.",
+      "Ich bin Justiziar einer JVA und brauche einen begründeten Bescheidentwurf zur Besuchsregelung."
+    ],
+    "negative": [
+      "Prüfen Sie eine GmbH-Kapitalerhöhung.",
+      "Legen Sie ein Verzeichnis der Verarbeitungstätigkeiten an."
+    ]
+  },
+  "cases": [
+    {
+      "id": "berlin-kinderbesuch-2026",
+      "target_skill": "strafvollzug-fall-steuern",
+      "request": "Ein Berliner Bescheid vom Oktober 2026 behauptet, für Kinder gebe es neben dem Grundbesuch nur eine zusätzliche Stunde. Der Vater möchte den Schulweg und eine verlässliche Beziehung zu seinen beiden minderjährigen Kindern berücksichtigen. Erstellen Sie den Antrag.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft die Änderung vom Juni 2026: zwei zusätzliche Stunden neben mindestens zwei Grundstunden; übernimmt die alte Stundenangabe nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ermittelt konkrete Beziehung, Schulzeit, Besuchsbelege und geeignete Ausgestaltung statt Herkunft oder Religion als Gefahrenbeleg zu behandeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert einen vollständigen sachlichen Antrag mit praktischen Alternativen und Anlagenbezug.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Behandelt fehlende Rechtsbehelfsbelehrung unter aktuellem Berliner Recht nicht als automatische Aufhebung jeder Frist.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nrw-rollator-hofgang",
+      "target_skill": "gesundheit-unterbringung-pruefen",
+      "request": "Mara Wendel benutzt einen Rollator. Der Plan bezeichnet die Zelle mit 8 Quadratmetern; die nutzbare Fläche ist streitig. Die Toilette hat nur einen Vorhang. Der Weg zum Hof ist nicht ohne Stufen erreichbar. Prüfen Sie aus Gerichtssicht und erstellen Sie einen Aufklärungsvermerk.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Klärt konkrete Maße, Sanitärschutz, Belegung, Dauer, Einschluss und tatsächlich nutzbaren Hofgang; setzt acht Quadratmeter nicht als Unbedenklichkeitsgrenze ein.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt behauptete Verwaltungsangaben nicht als erwiesene Tatsachen und benennt Beweisfragen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft individuelle Behinderung und zumutbare konkrete Abhilfe; behauptet keine medizinische Diagnose.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Liefert ausformulierten Vermerk mit Gehör, nächsten Aufklärungsmaßnahmen und klarer Rollenbindung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bayern-offline-lernrechner",
+      "target_skill": "bildung-arbeit-digitalzugang-pruefen",
+      "request": "Korbinian Seidel benötigt für einen bestätigten Kurs einen Offline-Computer. Ein alter Ablehnungsbescheid zitiert allgemeine Missbrauchsgefahr. Der Lieferant bietet versiegelte Ports; die JVA nennt begrenzte Kontrollkapazität. Erstellen Sie einen begründeten Antrag.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet Lerngegenstand, elektronisches Unterhaltungsmedium und Telekommunikationszugang nach aktueller bayerischer Fassung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft konkret Kursbedarf, Schnittstellen, tatsächlichen Kontrollaufwand und erreichbare Alternativen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Legt BVerfG 2 BvR 2268/18 nicht als pauschalen Laptopanspruch oder allgemeines Verbot aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Liefert ausformulierten Antrag mit praktikablen Auflagen, Belegen und offenen technischen Rückfragen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "niedersachsen-freigang-familie",
+      "target_skill": "vollzugsplan-lockerungen-pruefen",
+      "request": "Samira Hartung hat eine Ausbildungszusage und möchte zusätzlich einen Termin mit ihrem Kind. Die JVA verweist auf einen älteren Regelverstoß. Erstellen Sie aus Anstaltssicht eine begründete Entscheidungsgrundlage mit abgestufter Erprobung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt beschäftigungsbezogenen Freigang, familienbezogenen Ausgang, offener Vollzug und Entlassungsvorbereitung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft aktuelle individuelle Flucht- und Missbrauchsprognose, verlässliche Erkenntnisse und konkrete Weisungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erklärt den alten Regelverstoß weder automatisch für bedeutungslos noch zu einem dauerhaften Ausschluss.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Liefert ausformulierte Entscheidungsgrundlage mit offenem Ermittlungsbedarf und realen Zusagen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rechtsschutz-frist-und-form",
+      "target_skill": "gerichtlichen-rechtsschutz-fuehren",
+      "request": "Ein Bescheid wurde am Montag, 05.10.2026 schriftlich bekanntgegeben. Heute ist der 16.10.2026. Eine interne Beschwerde läuft. Der Betroffene möchte dringende Abhilfe und glaubt, er könne gegen jeden Eilbeschluss Rechtsbeschwerde einlegen. Erstellen Sie Hauptsache- und Eilantrag als Entwürfe.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Berechnet bei diesen belegten Annahmen den Montag,19.10.2026, als Ende der Zweiwochenfrist und trennt Gerichtseingang von Briefabgabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt die interne Beschwerde und Eilantrag nicht als automatische Fristwahrung der Hauptsache.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet Aussetzung belastender Maßnahme und positive vorläufige Regelung; belegt drohenden Nachteil.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Beachtet Unanfechtbarkeit des §114-Eilbeschlusses und verwechselt §118-Monatsfrist und qualifizierte Form nicht mit dem ersten Antrag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Liefert vollständige Entwürfe; keine tatsächliche Einreichung oder ungeprüfte gerichtliche Zuständigkeit behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hessen-absonderung-vorakte",
+      "target_skill": "sicherheit-disziplin-kontrollieren",
+      "request": "Jannis Hagedorn wird in Hessen seit längerer Zeit getrennt untergebracht. Dienstberichte widersprechen sich, eine körperliche Misshandlung wird behauptet, medizinische Unterlagen fehlen teilweise. Der bisherige Anwalt hat einen pauschalen Antrag gestellt; ein vorläufiger Gerichtsbeschluss übernimmt die Anstaltsdarstellung. Prüfen Sie die gesamte Vorakte und erstellen Sie eine begründete Fortführung mit passenden Anlagen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt Einzelbelegung, Absonderung, Disziplinarrest und besondere Sicherungsmaßnahmen nach Maßnahme, Zeitraum und aktueller hessischer Befugnis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft bei längerer Absonderung die konkret einschlägige hessische Aufsichtsschwelle, deren Erreichen und dokumentierte Zustimmung; verwechselt Zustimmung nicht mit umfassender materieller Rechtmäßigkeit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Behandelt Misshandlung als streitigen Vorwurf und sichert unterschiedliche Wahrnehmungen und fehlende medizinische Dokumentation; stellt keinen Schuldnachweis allein aus einer Lücke her.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Prüft den älteren Schriftsatz nach Begehren, Tatsachen, Bekanntgabe, Eingang, Verfahrensstand und Anlagen und korrigiert ihn ohne einen automatischen Fristneubeginn zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Unterscheidet Hauptsache und vorläufigen Beschluss; formuliert konkrete Aufklärungs- und Eilbegehren, ohne eine unzulässige Beschwerde routinemäßig fortzuführen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Verwendet die Maßregelvollzugsentscheidung von 2026 nur mit ihrer tatsächlichen Übertragungsgrenze und liefert einen ausformulierten bearbeitbaren Schriftsatz mit benannten Lücken.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bw-schutz-haftraum-vorakte",
+      "target_skill": "gesundheit-unterbringung-pruefen",
+      "request": "Amira Finkbeiner befindet sich in baden-württembergischer Erwachsenenstrafhaft. Wegen dokumentierter Suizidgefahr wurden Gürtel und Bettlaken entzogen. Der Verlauf und die Ausgabe geeigneter Ersatzmaterialien sind unklar. Während eines Bauabschnitts lebt sie in einem eng belegten Haftraum mit widersprüchlichen Raumangaben. Ein älterer Antrag nennt pauschal eine Quadratmetergrenze, das Gericht hat knapp entschieden. Erstellen Sie eine sichere, belegte rechtliche Fortführung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Priorisiert reale medizinische Abklärung bei aktueller Gefahr; ordnet nicht selbst die unkontrollierte Rückgabe von Gegenständen an.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt Gefahrenanlass, einzelne Schutzmaßnahmen, menschenwürdige Durchführung, geeignetes Ersatzmaterial, ärztliche Befassung und dokumentierte Fortdauerprüfung nach baden-württembergischem Recht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Rechnet die widersprüchlichen Raumvarianten transparent, behandelt Sanitärfläche, Belegung, Einschlussdauer und tatsächliche Ausgleichsmöglichkeiten gesondert und macht aus einer Flächenzahl keine pauschale Zulässigkeitsregel.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Behandelt das Gericht nicht als gebunden an ungeprüfte Anstaltsangaben und fordert die entscheidenden Belege und Gehörsschritte konkret an.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Erkennt rechtliche und tatsächliche Schwächen der Vorakte, prüft Zustellung an die Vertretung getrennt von Ausgabe an die Mandantin und bestimmt den statthaften nächsten Schritt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Liefert einen ausformulierten Antrag mit erreichbarem Schutzkonzept, Anlagenbezug, offenen Angaben und ausdrücklicher menschlicher Freigabe vor Einreichung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurze dezimal gegliederte Arbeitsschritte mit verständlichen Sätzen und eigenständiger Frist-, Beleg- und Produktsteuerung. Redaktioneller Nachtrag 16.10.2026: Konkrete Antrags-, Bescheid- und Gerichtsprodukte im ersten Absatz benannt; vorhandenen Eilrechtsschutzanker vorgezogen. Erweiterte Fachzweige, aktuelle Länderunterschiede und Entscheidungsgrenzen erhalten. Im Mini nur wiederholte Quellen- und Ausgabeanweisungen gestrafft; typografische Anpassungen gesondert geprüft. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Lesbare Zwischenüberschriften und eigenständiger Einstieg ohne lange Textblöcke.",
+      "Rollen, Landesrecht und Haftart, Frist und gerichtlicher Eingang sowie passende Eilformen bleiben getrennt."
+    ],
+    "sha256": "5dc7f93b18ff2cad85152c94d3d8b64b061d53f7e67c22abf95aedec8471bdd7"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Thematische Entscheidungsanker werden mit Tatsachenprüfung, Gegenargument, Aussagegrenze und nächstem Arbeitsprodukt verbunden. Redaktioneller Nachtrag 16.10.2026: Konkrete Antrags-, Bescheid- und Gerichtsprodukte im ersten Absatz benannt; vorhandenen Eilrechtsschutzanker vorgezogen. Erweiterte Fachzweige, aktuelle Länderunterschiede und Entscheidungsgrenzen erhalten. Im Mini nur wiederholte Quellen- und Ausgabeanweisungen gestrafft; typografische Anpassungen gesondert geprüft. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Vertiefter fortsetzbarer Ablauf für jeden Vollzugsanlass; kein Quellenanhang als Ersatz der Subsumtion.",
+      "Zusätzliche amtliche Volltexte mit tatsächlich gelesenen Randnummern und ausdrücklichen Übertragungsgrenzen."
+    ],
+    "sha256": "8bc2f5b970e6d6b746afcf4c7ed4e166cf8cb56ac76dbe29205e82207d1f2c12"
+  },
+  "focus_review": {
+    "method": "desk_review",
+    "reviewed_on": "2026-10-16",
+    "verdict": "revised",
+    "reason": "Führt vom konkreten Begehren bis zum ausformulierten Arbeitsprodukt.",
+    "changes": [
+      "Rolle und Landesrecht vor Anspruchsprüfung; bearbeitbare Teile ohne unnötiges Vollinterview ausarbeiten.",
+      "Maßnahmenzeiträume, Schutzdurchführung und Reparatur früherer Anträge konkret in den Ablauf integriert."
+    ],
+    "prompt_path": "strafvollzug-jva/strafvollzug-jva-hauptproblem.md",
+    "skill_path": "strafvollzug-jva/skills/strafvollzug-fall-steuern/SKILL.md",
+    "prompt_sha256": "72a6234b151b75bd8f6e22130ecf481375c13fdfb5f5fe1e3d73758fed970604",
+    "skill_sha256": "1553507dcb6bd0b0be70eafdf13ea3157334bfa5c4e27b10cac6d61c9371a7b6"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-10-16",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerer Start klärt Rolle, Land, Haftart und gewünschtes Produkt.",
+      "Unterlagenstart liest Bescheid, Bekanntgabe und vorhandene Anlagen.",
+      "Fortsetzung aktualisiert nur betroffene Produkte."
+    ],
+    "continuation": "Offene Belege und Quellen bleiben sichtbar; unabhängige Arbeiten und gezielte Rückfragen werden ausformuliert.",
+    "enrichment": "Sechs vollständige Testakten und sieben fachlich konkrete Prüfszenarien mit 33 Kriterien; zwei vertiefte Fälle zu Absonderung, Schutzmaßnahmen, Vorakten und gerichtlicher Aufklärung.",
+    "limits": "Redaktionelle Fachprüfung; tatsächliche Anwendungsproben werden gesondert protokolliert. Kein beobachteter Live-Import in Claude oder ChatGPT."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-16",
+    "method": "desk_review",
+    "files": [
+      "strafvollzug-jva/strafvollzug-jva-werkstatt.md",
+      "strafvollzug-jva/strafvollzug-jva-schnellstart.md",
+      "strafvollzug-jva/strafvollzug-jva-hauptproblem.md"
+    ],
+    "opening_change": "Fortsetzbarer Arbeitslauf mit früh benanntem Produkt, gezielten Rückfragen, thematisch verankerten Entscheidungsmaßstäben und abschließender Gegenprüfung.",
+    "norms": [
+      "Geltendes Landesrecht für Vollzugsalltag; Bundesrecht §§109ff.StVollzG für gerichtlichen Rechtsschutz.",
+      "Menschenwürde, Gleichbehandlung und Resozialisierung mit individuellen Tatsachen verbinden."
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschl. v. 31.01.2025 – Az. 2 BvR 1290/24, Rn. 15–28",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/01/rk20250131_2bvr129024.html",
+        "application": "Fallbezogene Aussage und gelesene Randnummern in der Entscheidungsreferenz.",
+        "limit": "Trägt und Trägt nicht aus der Referenz erhalten; keine pauschale Übertragung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 30.09.2024 – Az. 2 BvR 150/24, Rn. 29–38",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2024/09/rk20240930_2bvr015024.html",
+        "application": "Fallbezogene Aussage und gelesene Randnummern in der Entscheidungsreferenz.",
+        "limit": "Trägt und Trägt nicht aus der Referenz erhalten; keine pauschale Übertragung."
+      },
+      {
+        "citation": "BVerfG, Urt. v. 20.06.2023 – Az. 2 BvR 166/16 und 2 BvR 1683/17, Rn. 153–164 sowie 183–184",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/06/rs20230620_2bvr016616.html",
+        "application": "Fallbezogene Aussage und gelesene Randnummern in der Entscheidungsreferenz.",
+        "limit": "Trägt und Trägt nicht aus der Referenz erhalten; keine pauschale Übertragung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 18.09.2019 – Az. 2 BvR 681/19, Rn. 17–24",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/09/rk20190918_2bvr068119.html",
+        "application": "Fallbezogene Aussage und gelesene Randnummern in der Entscheidungsreferenz.",
+        "limit": "Trägt und Trägt nicht aus der Referenz erhalten; keine pauschale Übertragung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 27.03.2019 – Az. 2 BvR 2268/18, Rn. 4–11",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/03/rk20190327_2bvr226818.html",
+        "application": "Fallbezogene Aussage und gelesene Randnummern in der Entscheidungsreferenz.",
+        "limit": "Trägt und Trägt nicht aus der Referenz erhalten; keine pauschale Übertragung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 22.03.2016 – Az. 2 BvR 566/15, Rn. 17–24",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/03/rk20160322_2bvr056615.html",
+        "application": "Fallbezogene Aussage und gelesene Randnummern in der Entscheidungsreferenz.",
+        "limit": "Trägt und Trägt nicht aus der Referenz erhalten; keine pauschale Übertragung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 21.09.2018 – Az. 2 BvR 1649/17, Rn. 28–43",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2018/09/rk20180921_2bvr164917.html",
+        "application": "Familienkontakt ist auch unabhängig von seinem konkreten Resozialisierungsnutzen grundrechtlich geschützt. Die Versagung eines Langzeitbesuchs benötigt nachvollziehbare tatsächliche Gründe. Bloß behauptete Unzuverlässigkeit und ungeklärte Vermutungen über Gefahren für den Besuch tragen die Entscheidung nicht. Bei begleiteten Ausführungen muss geprüft werden, ob die Begleitung das angeführte Risiko beherrscht; die Anforderungen sind nicht mit offenem Vollzug gleichzusetzen.",
+        "limit": "Rn. 40 lässt ausdrücklich offen, ob aus der Verfassung ein unmittelbarer Anspruch auf unüberwachten Langzeitbesuch folgt. Historische Besuchszeiten werden nicht als Berliner Recht von 2026 übernommen. Auch langjährige Haft macht jede Besuchsgestaltung nicht automatisch zulässig."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 07.11.2008 – Az. 2 BvR 1870/07, Rn. 18–28",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2008/11/rk20081107_2bvr187007.html",
+        "application": "Geschlechterstereotype und tradierte Rollenerwartungen rechtfertigen keine Benachteiligung. Auch neutral formulierte Ausstattungsvorgaben können eine mittelbare Benachteiligung bewirken. Die Anstalt darf Unterschiede nicht beliebig durch verschiedene Ausstattung erzeugen und anschließend damit begründen. Die behaupteten Sicherheitsunterschiede müssen konkret, erfahrungsbasiert und überprüfbar sein; eine gemeinsame hohe Sicherheitsstufe erklärt für sich keine unterschiedliche Behandlung.",
+        "limit": "Keine ausnahmslos identische Ausstattung jeder Abteilung. Rn. 24 lässt sachgerecht belegte Sicherheitsunterschiede als Rechtfertigung mittelbar verschiedener Behandlung zu. Die Entscheidung legt weder aktuelle Telefonbudgets noch ein universelles Einkaufsrecht fest."
+      },
+      {
+        "citation": "BayObLG, Beschl. v. 04.09.2025 – Az. 203 StObWs 239/25, Rn. 19–27",
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-28018",
+        "application": "Der Senat akzeptiert im konkreten bayerischen Fall die Berücksichtigung ethischer Überzeugungen entsprechend religiösen Speisevorschriften, verlangt aber keine Umsetzung sämtlicher Ernährungsgebote durch eine zusätzliche Speiselinie. Er billigt die Kombination aus vegetarischer, laktosefreier Anstaltskost und ergänzendem Eigenerwerb. Ressourcen und Küchenorganisation gehören in die Einzelfallabwägung. Rn. 27 hebt die vorherige Befassung der JVA mit zusätzlich gewünschten Alternativen hervor.",
+        "limit": "Kein bundesweites Verbot veganer Kost, keine ernährungsmedizinische Feststellung und kein Freibrief, Weltanschauungen zu ignorieren. Die Versorgung mittelloser Menschen darf nicht ohne Prüfung von Landesrecht, Gesundheitsbedarf und tatsächlichem Zugang als geklärt gelten. Die Aussage des Gerichts zur Finanzierung ist als dessen Rechtsauffassung, nicht als ungeprüfte bundesweite Regel wiederzugeben. Kein stattgebender Hauptsachetenor."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 28.07.2022 – Az. 2 BvR 1814/21, Rn. 17–23",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/07/rk20220728_2bvr181421.html",
+        "application": "Die Erfolgsaussichtsprüfung darf das Hauptsacheverfahren nicht vollständig vorwegnehmen. Die mögliche Verletzung informationeller Selbstbestimmung durch Offenbarung von Gesundheitsdaten kann Gegenstand eines Antrags nach § 109 StVollzG sein. Die Bezeichnung als bloße Wissenserklärung schließt Rechtsschutz nicht aus. Ob die konkrete Datenweitergabe durch eine Offenbarungsbefugnis gedeckt war, musste in der Hauptsache geklärt werden.",
+        "limit": "Kein generelles Verbot jeder Mitteilung des medizinischen Dienstes an andere Anstaltsbereiche. Keine abschließende Entscheidung über die Zulässigkeit der konkreten Offenbarung und kein Urteil über einen Anspruch auf vegetarische Kost. Prozesskostenhilfe ist nicht schon wegen Inhaftierung automatisch zu bewilligen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 23.09.2020 – Az. 2 BvR 1810/19, Rn. 21–32",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/09/rk20200923_2bvr181019.html",
+        "application": "Einzelfall- und Allgemeinanordnung sind nach der jeweiligen gesetzlichen Grundlage zu unterscheiden. Die Entscheidung muss eine Abweichung erlauben, wenn Missbrauch fernliegt oder gleich geeignete mildere Mittel bestehen. Das bloße Ankreuzen eines Formblatts belegt keine sorgfältige Ermessensausübung. Eine zusätzliche anwesende Person zu Ausbildungszwecken erfordert eine am Persönlichkeitsrecht orientierte Prüfung. Organisatorische Alternativen dürfen nicht übergangen werden.",
+        "limit": "Kein ausnahmsloses Verbot von Entkleidungsdurchsuchungen oder der Teilnahme von Auszubildenden. Nicht jede fehlende schriftliche Einzelbegründung beweist bereits die Rechtswidrigkeit; zu untersuchen ist die tatsächlich vorgenommene Prüfung. Die bayerischen Tatbestände werden nicht ungeprüft auf andere Länder übertragen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 27.03.2019 – Az. 2 BvR 2294/18, Rn. 17–26",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/03/rk20190327_2bvr229418.html",
+        "application": "In gesetzlich besonders geregelten Gefahrensituationen kann eine abstrakte Gefahr für eine Allgemeinanordnung genügen; ein individueller Schmuggelverdacht ist dort nicht stets erforderlich. Auch ein persönlich unauffälliger Gefangener kann durch andere unter Druck geraten. Gleichzeitig müssen Ausnahmemöglichkeiten, schonende Durchführung und gleich geeignete mildere Mittel geprüft werden. Im konkreten Fall beanstandete das Gericht die Begründung nicht.",
+        "limit": "Keine pauschale Unbedenklichkeit jeder Durchsuchung nach jedem Besuch. „Abstrakte Gefahr“ ersetzt weder die gesetzlich geregelte Situation noch die Prüfung des konkreten Ablaufs und der Ausnahmen. Nichtannahme bedeutet nicht, dass sämtliche denkbaren Alternativen materiell abschließend geprüft wurden; Rn. 26 lässt eine Frage mangels Substantiierung offen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 07.04.2020 – Az. 2 BvR 1935/19, Rn. 25–35",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/04/rk20200407_2bvr193519.html",
+        "application": "Disziplinarmaßnahmen sind strafähnliche Sanktionen und setzen einen zweifelsfrei festgestellten schuldhaften Pflichtverstoß voraus. Substantiiertes Bestreiten darf nicht durch unkritische Übernahme knapper Anstaltsvermerke erledigt werden. Gesundheitszustand, Chronologie und konkret benannte Beweise können entscheidend sein. Auch nach Vollzug der Sanktion können Akteneintrag und mögliche Nachteile für Lockerungen oder Bewährung ein Rechtsschutzinteresse tragen.",
+        "limit": "Kein Vorrang der Gefangenenschilderung und kein Zwang, jede offensichtlich unerhebliche Behauptung beliebig weiter zu erforschen. Das Gericht darf weitere Ermittlungen aus konkreten fallbezogenen Gründen für entbehrlich halten. Eine Disziplinarmaßnahme ist nicht allein wegen eines daneben geführten Strafverfahrens ausgeschlossen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 21.01.2015 – Az. 2 BvR 1856/13, Rn. 10–16",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2015/01/rk20150121_2bvr185613.html",
+        "application": "Die Aussetzung einer belastenden Maßnahme ist nicht schon deshalb eine unzulässige Vorwegnahme der Hauptsache, weil die vorübergehend nicht vollzogene Sanktion zeitlich nicht nachgeholt werden kann. Erforderlich ist die für diese Antragsart vorgesehene Interessenabwägung. Das Gericht darf nicht die sanktionierte Handlung oder die tragenden Pflichtwidrigkeitsgründe durch andere ersetzen.",
+        "limit": "Keine automatische Aussetzung jeder Disziplinarsanktion. Kein allgemeines Recht auf unbeschränkte Schreibhilfe. Ob im konkreten Fall zusätzlich die verzögerte Entscheidung und unzureichende Sachaufklärung selbstständig verfassungswidrig waren, ließ Rn. 16 offen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 24.10.2006 – Az. 2 BvR 30/06, Rn. 22–29",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2006/10/rk20061024_2bvr003006.html",
+        "application": "Das Gericht kontrolliert die tatsächlich verhängte Sanktion einschließlich der zugehörigen Ermessensausübung. Es übt keine eigene Disziplinargewalt aus. Konkretes Verhalten und Schuld müssen festgestellt werden; ein bloßer Verdacht reicht nicht. Ein anderer plausibler Pflichtvorwurf kann die angegriffene Sanktion nicht nachträglich tragen.",
+        "limit": "Keine Aussage, dass Rechtsdienstleistungen in Haft unbegrenzt erlaubt sind. Das damalige Rechtsberatungsgesetz ist kein heutiger Prüfungsmaßstab. Ein verlorener Prozess beweist für sich keinen Gehörsverstoß; die Entscheidung trennt fehlende Sachaufklärung von bloßer Unzufriedenheit mit dem Ergebnis."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 21.01.2025 – Az. 2 BvQ 2/25, Rn. 10–13",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/01/qk20250121_2bvq000225.html",
+        "application": "Eine Verletzung effektiven Rechtsschutzes lag bei dem dokumentierten Stillstand nahe. Allgemeiner Personalmangel oder hohe Verfahrensbelastung rechtfertigen eine überlange Dauer nicht. Gerichte besitzen zwar Spielraum bei Prioritäten, der Staat muss aber angemessen zeitnahe Entscheidungen ermöglichen. Für den verfassungsgerichtlichen Eilrechtsschutz gelten deutlich engere Voraussetzungen als für den fachgerichtlichen.",
+        "limit": "Keine allgemeine Entscheidungsfrist von 17 Monaten. Keine abschließende stattgebende Hauptsacheentscheidung und keine automatische Verfassungsbeschwerde wegen jeder Verzögerung. Die Behauptung eines Rechtsverstoßes ersetzt nicht die Darlegung schwerer Nachteile im Verfassungseilverfahren."
+      },
+      {
+        "citation": "BVerfG, Urt. v. 24.07.2018 – Az. 2 BvR 309/15 und 2 BvR 502/16, Rn. 63–70 und 79–85",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2018/07/rs20180724_2bvr030915.html",
+        "application": "Nicht nur kurzfristige vollständige Fixierung kann eine eigenständige Freiheitsentziehung trotz bestehender Unterbringung sein. Gesetzliche Grundlage, erneuter Richtervorbehalt, strikte Verhältnismäßigkeit, Überwachung, Dokumentation und Hinweis auf nachträglichen Rechtsschutz sind wesentlich. Rn. 68 nennt für die dortige Fünf- beziehungsweise Siebenpunktfixierung als Regelorientierung die absehbare Unterschreitung von ungefähr einer halben Stunde. Isolation ist nicht automatisch ein milderes Mittel.",
+        "limit": "Keine halbstündige Erlaubnis zur Fixierung ohne Rechtsgrundlage, keine Gleichsetzung jeder Fesselung mit vollständiger Fixierung und keine ungeprüfte Übernahme psychiatrischer Zuständigkeiten in die JVA. Die Anforderungen an ärztliche Anordnung und Eins-zu-eins-Betreuung stehen im konkreten Unterbringungskontext; das aktuelle Vollzugsgesetz bleibt zu prüfen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 20.04.2026 – Az. 2 BvR 1650/24, Rn. 32–46",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/04/rk20260420_2bvr165024.html",
+        "application": "Mit zunehmender Dauer wachsen Eingriffsgewicht und Anforderungen an Verhältnismäßigkeit und Rechtsschutz. Gesundheitsfolgen, tatsächliche Kontakte, Schutz Dritter, konkrete Gefahren, alternative Maßnahmen und laufende Überprüfung gehören in die Gesamtbetrachtung. Rn. 46 verlangt trotz Nichtannahme, jede Möglichkeit zur Reduzierung der Gefährlichkeit zu ergreifen; dazu können alternative diagnostische und therapeutische Ansätze gehören. Ein Rechtsbehelf muss sich mit den tragenden Sicherheitsgründen auseinandersetzen.",
+        "limit": "Weder Billigung beliebiger jahrelanger Einzelhaft noch pauschaler Anspruch auf sofortige Aufhebung jeder Isolation. Keine Übertragung des bremischen Psychiatriegesetzes auf eine JVA. Die im Beschluss zitierten EGMR-Entscheidungen sind hier nicht selbst am Original geprüft und dürfen nicht als eigenständig verifizierte Zusatzanker erscheinen."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 18.03.2015 – Az. 2 BvR 1111/13, Rn. 29–36",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2015/03/rk20150318_2bvr111113.html",
+        "application": "Im damaligen hessischen Strafhaftfall genügte eine allgemein aus randalierendem Verhalten abgeleitete Selbstgefährdung nicht für vollständige Entkleidung und dauernde Beobachtung. Die Notwendigkeit jeder kumulierten Maßnahme musste einzeln begründet werden. Ersatzbekleidung und Intimsphäre waren gesondert zu berücksichtigen. Für Finkbeiner: Entscheidung über Gürtel und Bettlaken, tatsächliche Ersatzversorgung, konkrete Gefahreneinschätzung und Fortdauer nicht in einer pauschalen Sammelbegründung verschmelzen.",
+        "limit": "Kein pauschales Verbot gefahrenbezogener Wegnahme und keine medizinische Zusage, gewöhnliche Bettwäsche sei sicher. Der damalige § 88 Bundes-StVollzG ist nicht die aktuelle Ermächtigung in Hessen oder Baden-Württemberg. Unterschiedliche Materialbeschreibungen in Rechtsprechung und Verwaltungstexten sind keine allgemeine Beschaffungsempfehlung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 24.01.2008 – Az. 2 BvR 1661/06, Rn. 34–43",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2008/01/rk20080124_2bvr166106.html",
+        "application": "Tatsächliche Gefahr, zeitnahe fachliche Untersuchung und weniger belastende Alternativen sind aufzuklären. Gerichtliche Kontrolle darf nicht an einer ungesicherten Tatsachengrundlage scheitern. Der Beschluss verlangt fallbezogene Betrachtung unter anderem von Spezialtextilien, fachlich vorgeschlagener Betreuung und Beobachtungsalternativen; der Verweis auf die übliche Ausstattung einer Sicherungszelle genügt nicht.",
+        "limit": "Der Ausgangsfall betraf Untersuchungshaft und damaliges Recht. Weder seine Ermächtigungsgrundlage noch jede medizinische Alternative ist unverändert auf heutigen Erwachsenenstrafvollzug übertragbar. Aus einer früheren Empfehlung folgt keine aktuelle Entwarnung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 15.01.2020 – Az. 2 BvR 1763/16, Rn. 34–43",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/01/rk20200115_2bvr176316.html",
+        "application": "Bei gewichtigen Vorwürfen gegen Amtsträger und struktureller Unterlegenheit im staatlichen Gewahrsam kommt effektiver strafrechtlicher Sachaufklärung besonderes Gewicht zu. Rn. 40 nennt ausdrücklich den Strafvollzug. Für Hagedorn: zeitnahe Verletzungsbefunde, Videoverfügbarkeit, Einsatzunterlagen, Zeugen und abweichende Darstellungen sichern und die beantragten Ermittlungen konkret benennen.",
+        "limit": "Keine Schuldvermutung gegen Beschäftigte, kein Anspruch auf bestimmte Verurteilung und keine automatisch zulässige Klageerzwingung. Der Ausgangsfall betraf psychiatrische Fixierung. Strafrechtliche Ermittlungen und vollzugsgerichtliche Überprüfung bleiben getrennte Verfahren."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 23.09.2019 – Az. 2 BvR 903/18, Rn. 15–24",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/09/rk20190923_2bvr090318.html",
+        "application": "Die gerichtliche Tatsachengrundlage muss tragfähig sein. Widersprechende Angaben zu Kleidung und Außenaufenthalt sowie zur Erreichbarkeit von Gericht oder Staatsanwaltschaft durften nicht ungeklärt bleiben. Trennen Sie in der Akte beobachtete Tatsachen, Mitteilungen der Einrichtung und Schlussfolgerungen; jede wesentliche Abweichung bekommt eine konkrete Aufklärungsfrage.",
+        "limit": "Das damals geprüfte hessische Maßregelvollzugsrecht ist keine JVA-Ermächtigung. Der Beschluss bestätigt nicht alle Behauptungen der untergebrachten Person und ersetzt keinen Nachweis der konkreten heutigen Beschränkung."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 24.03.2023 – Az. 2 BvR 116/23, Rn. 17–24",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/03/rk20230324_2bvr011623.html",
+        "application": "Die Intensität drohender Grundrechtsbeeinträchtigung beeinflusst die erforderliche rechtliche und tatsächliche Prüfung im Eilverfahren. Allgemeine Personalbelastung oder Erkrankung des zuständigen Richters rechtfertigen keine unangemessene Verzögerung. Die bereits vollzogene anstaltsinterne Verlegung beseitigte das Rechtsschutzbedürfnis nicht automatisch; vorläufige Rückgängigmachung musste geprüft werden.",
+        "limit": "Keine allgemeine starre Entscheidungsfrist und kein stets erfolgreicher Eilantrag. Eine erledigte Einzelmaßnahme, eine fortwirkende Verlegung und eine neue Fortdauerentscheidung sind auseinanderzuhalten; der passende Antrag folgt daraus und nicht aus einem kopierten Voranwaltsmuster."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 08.12.2020 – Az. 1 BvR 117/16, Rn. 13–19",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/rk20201208_1bvr011716.html",
+        "application": "In der dortigen Amtshaftungssache war es willkürlich, erheblichen Vortrag und angebotenen Beweis zu Raumgröße, Doppelbelegung und Toilettenabtrennung ohne tragfähige Auseinandersetzung zu übergehen und aufgehobene Erwägungen zu wiederholen. Für die Testakte sind Grundriss, Messmethode, Raumwechsel, Belegungsdauer und Sanitärsituation deshalb einzeln nachzuweisen.",
+        "limit": "Nicht jeder Rechtsfehler ist Willkür. Der Beschluss schafft weder eine bundeseinheitliche Quadratmeterzahl noch automatische Entschädigung. Die geforderte Auseinandersetzung mit einschlägigen Argumenten wird nicht als allgemeine Präjudizienbindung formuliert."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 07.11.2012 – Az. 2 BvR 1567/11, Rn. 1–5",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2012/11/rk20121107_2bvr156711.html",
+        "application": "Im konkreten hessischen Einzelhaftraumfall waren die Größe am unteren Rand und die erheblichen Aufenthaltsmöglichkeiten außerhalb der Zelle zusammen zu betrachten. Neue Tatsachen zur Bewegungsfläche und Fenstersituation mussten bereits fachgerichtlich vorgebracht werden. Einen mangelhaften Voranwaltsantrag daher früh durch zeitlich und räumlich bestimmtes Vorbringen mit Beweismitteln ergänzen.",
+        "limit": "Sechs Quadratmeter sind kein allgemeiner Freibrief, erst recht nicht für Mehrfachbelegung oder langdauernde Isolation. Historische, in der Entscheidung referierte Standards werden nicht als aktuelle Landesbauvorschrift ausgegeben. Versäumter Tatsachenvortrag ist nicht stets nachträglich heilbar."
+      },
+      {
+        "citation": "BVerfG, Beschl. v. 07.11.2011 – Az. 1 BvR 1403/09, Rn. 40–43 und 46–50",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/11/rk20111107_1bvr140309.html",
+        "application": "Bei der Prozesskostenhilfeprüfung einer Amtshaftungssache durften eine bloße Sichtschutzwand und fehlender förmlicher Verlegungsantrag die Auseinandersetzung mit menschenwürdiger Unterbringung nicht ersetzen. Ob unterlassene Rechtsbehelfe Schäden verhindert hätten, war tatsächlich und zeitlich aufzuklären. Erfassen Sie deshalb Beschwerden, Anträge, Reaktionen und den frühestmöglichen Abhilfezeitpunkt.",
+        "limit": "Keine garantierte Geldentschädigung, keine Befreiung von erforderlichen Rechtsbehelfen und keine pauschale Feststellung einer wirksamen oder unwirksamen Einwilligung. Das Prozesskostenhilfeverfahren ersetzt nicht die abschließende Beweisaufnahme."
+      },
+      {
+        "citation": "EGMR (Große Kammer), Urt. v. 20.10.2016 – Beschwerde Nr. 7334/13, Muršić gegen Kroatien, Rn. 114 und 136–140",
+        "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+MUR%C5%A0I%C4%86+v.+CROATIA.pdf&id=001-167483&library=ECHR&logEvent=False",
+        "application": "Bei Mehrfachbelegung wird die Sanitärfläche für diese Berechnung abgezogen, Möbelfläche grundsätzlich einbezogen; tatsächliche Bewegungsmöglichkeit bleibt erheblich. Unter drei Quadratmetern persönlicher Fläche besteht eine starke Vermutung einer Verletzung von Art. 3 EMRK. Eine Widerlegung setzt normalerweise kumulativ kurze, gelegentliche und geringfügige Unterschreitungen, ausreichende Bewegung/Aktivitäten außerhalb und ansonsten geeignete Bedingungen voraus. Zwischen drei und vier Quadratmetern sind zusätzliche Belastungen besonders zu prüfen; auch darüber bleiben andere Haftbedingungen relevant.",
+        "limit": "Keine zulässige deutsche Standardzellengröße von drei Quadratmetern, keine Rechnung allein aus Bruttofläche und keine Übertragung des Mehrfachbelegungsmaßstabs auf sämtliche Einzelhafträume. Nationale Grundrechtsanforderungen sind daneben zu prüfen. Die vorbeugenden CPT-Maßstäbe sind keine Landesgesetze."
+      }
+    ],
+    "remaining_limits": [
+      "Vier Länder vertieft; übrige Länder nur amtliche Rechercheeinstiege.",
+      "Keine tatsächliche Gerichtsübermittlung, medizinische Untersuchung oder automatische Entscheidung."
+    ]
+  }
+}

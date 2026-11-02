@@ -1,6 +1,6 @@
 ---
 name: internationale-buyout-datenflows-und-datenschutz
-description: "Wenn es um Internationale Buyout-Datenflows und Datenschutz in BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Internationale Buyout-Datenflows und Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Internationale Buyout-Datenflows und Datenschutz
@@ -26,7 +26,6 @@ description: "Wenn es um Internationale Buyout-Datenflows und Datenschutz in BAV
 - DSGVO Art. 6 (Rechtmäßigkeit der Verarbeitung — Interessenabwägung, Vertrag, rechtliche Verpflichtung)
 - DSGVO Art. 46 (Drittlandübermittlung — Standardvertragsklauseln SCC; Binding Corporate Rules BCR)
 - DSGVO Art. 28 (Auftragsverarbeitungsvertrag — AV-Vertrag mit Versicherer/Buyout-Partner)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - EU-US Data Privacy Framework (DPF, seit 10.7.2023) — neuer Angemessenheitsbeschluss USA
 - DSGVO Art. 13/14 (Informationspflichten bei Datenerhebung/-weitergabe — Berechtigte informieren)
 - DSGVO Art. 30 (Verarbeitungsverzeichnis)
@@ -209,3 +208,5 @@ Allgemein:
 - → `japan-bav-und-corporate-pension-iorp` — APPI Japan im Detail
 
 ## Aktuelle Rechtsprechung und Leitsaetze (Ergaenzung v14.2)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: persoenlichen-angriff-sachlichkeitsgebot
-description: "Wenn es um Persönlichen Angriff entschärfen in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Persoenlichen Angriff Sachlichkeitsgebot; Arbeitsfeld: E-Mail-Umformulierer."
+description: "Für Persönlichen Angriff entschärfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: E-Mail-Umformulierer. Route: persoenlichen-angriff-sachlichkeitsgebot."
 ---
 
 # Persönlichen Angriff entschärfen
@@ -24,9 +24,6 @@ Dieser Skill vermittelt konkrete Techniken zur Entschärfung persönlicher Angri
 2. Welche Technik ist am besten geeignet: Beobachtung statt Vorwurf, Frage statt Urteil, Ich-Botschaft, Sachverhaltsbezug?
 3. Gibt es zivilrechtlich oder strafrechtlich relevante Inhalte im Angriff (§ 185 StGB, § 823 BGB)?
 4. Muss der Angriff vollstaendig entfernt oder kann der sachliche Kern erhalten werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot: persönliche Angriffe unzulaessig
@@ -65,3 +62,5 @@ Den persönlichen Angriff durch Sachverhaltsbezug ersetzen: Statt "Sie" als hand
 | "Das können Sie nicht" | "Ich bezweifle, ob dafür die rechtliche Grundlage besteht" |
 | "Sie machen alles falsch" | "Es bestehen Korrekturbedarf in mehreren Punkten" |
 | "Sie kümmern sich nicht" | "Das Anliegen scheint bislang keine vorrangige Bearbeitung erhalten zu haben" |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

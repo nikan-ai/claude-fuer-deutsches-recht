@@ -1,6 +1,6 @@
 ---
 name: erzeugung-leitfaden-erstellen-mandanten
-description: "Wenn es um [VERALTET] Formularerstellung → siehe `/entwurf` in Plugin für die studentische Rechtsberatungsstelle geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für [VERALTET] Formularerstellung → siehe `/entwurf`: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # [VERALTET] Formularerstellung → siehe `/entwurf`
@@ -29,10 +29,6 @@ Die Trennung zwischen "Formularerstellung" und "Schriftsatzerstellung" war in de
 - **§ 117 ZPO** — PKH-Antrag: Einreichung mit Klage oder gesondertem Schriftsatz; wirtschaftliche Verhältnisse vollständig darlegen (Erklärung über persönliche und wirtschaftliche Verhältnisse, Formular bewilligen PKH-Schein).
 - **§ 6 Abs. 2 RDG** — Aufsichtspflicht: Ausgefüllte Formulare, die Rechtspositionen des Mandanten begründen oder geltend machen, sind keine formale Routineaufgabe — sie erfordern inhaltliche Supervisoren-Prüfung.
 - **§ 43a Abs. 2 BRAO** — Verschwiegenheitspflicht: Formulare enthalten sensitive Mandantendaten; strenge Vertraulichkeit.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -81,7 +77,4 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 ---
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Befund: GELOESCHT. Echtes Datum 22.10.2015 (Skill hatte 14.01.2016); echtes Thema Streitwert der Vollstreckungsgegenklage (§§ 3, 4 ZPO) — kein Bezug zu Beratungshilfe oder anwaltlicher Antragspruefungspflicht. Quelle: dejure.org/2015,32471. Ersatz: kein passender Beleg gefunden; Zeile entfernt.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

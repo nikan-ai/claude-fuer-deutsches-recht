@@ -1,6 +1,6 @@
 ---
 name: klare-bitte-formulieren
-description: "Wenn es um Klare Bitten formulieren in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Klare Bitten formulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klare Bitten formulieren
@@ -16,9 +16,6 @@ Dieser Skill wandelt fordernde, vorwurfsvolle oder unklare Handlungsaufforderung
 2. Welche Hoeflichkeitsstufe ist angemessen (sehr hoeflich, foermlich, distanziert-foermlich)?
 3. Gibt es bereits eine Frist oder muss sie neu gesetzt werden?
 4. Ist die Bitte Teil einer Mahnung (beachte § 286 BGB Mahnungswirkung) oder reine organisatorische Anforderung?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 286 BGB — Verzug: Mahnungserfordernis; klare Bitte mit Frist loest Verzug aus
@@ -56,3 +53,5 @@ Eine Frist ist nur wirksam, wenn sie eindeutig (TT.MM.JJJJ, nicht "bald"), reali
 
 **Vorher:** "Das ist Ihre Pflicht, das zu tun!"
 **Nachher:** "Nach meiner Auffassung obliegt Ihnen die Erfüllung der vereinbarten Pflicht X; ich darf Sie um entsprechende Ausführung bis TT.MM.JJJJ bitten."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

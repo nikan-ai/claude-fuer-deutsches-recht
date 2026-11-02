@@ -1,6 +1,6 @@
 ---
 name: steuererklaerung-ohne-vollstaendige-belege-kaltst
-description: "Wenn es um Steuererklaerung Ohne Vollstaendige Belege Kaltst in Berufsrecht Steuerberater geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Steuererklärung ohne Vollständige Belege Kaltst: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Steuerberater: steuererklaerung ohne vollstaendige belege - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

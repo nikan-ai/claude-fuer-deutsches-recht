@@ -1,6 +1,6 @@
 ---
 name: mindestvertragslaufzeit-tk-umzug
-description: "Wenn es um Mindestlaufzeit, Verlängerung, Kündigung in Telekommunikationsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Mindestlaufzeit, Verlängerung, Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mindestlaufzeit, Verlängerung, Kündigung
@@ -14,6 +14,8 @@ description: "Wenn es um Mindestlaufzeit, Verlängerung, Kündigung in Telekommu
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Norm- und Quellenanker
+
+Bei Glasfaser-Mindestlaufzeit [BGH, Urteil vom 08.01.2026 – III ZR 8/25, Rn. 23–36](https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/iii_zr___8-25.pdf) anwenden: Vertragsschluss und Freischaltung getrennt feststellen. Die anfängliche Bindung beginnt auch beim Erstvertrag über Telekommunikationsdienste mit Vertragsschluss; Paragraf 56 Absatz 1 TKG verdrängt Paragraf 309 Nummer 9 Buchstabe a BGB nicht. Rechne die Ausbauwartezeit daher nicht zusätzlich zu 24 Monaten ab Freischaltung. Ein Vertrag ausschließlich über die physische Verbindung ist nach Paragraf 56 Absatz 2 TKG anders zu prüfen. Die konkreten Verbraucher-AGB begründen keine automatische Aussage über jeden Geschäftskundenvertrag oder Schadensersatz.
 
 TKG Kundenschutz; BGB §§ 309, 312k, 314; TDDDG bei Onlineabschluss; AGB-Recht.
 

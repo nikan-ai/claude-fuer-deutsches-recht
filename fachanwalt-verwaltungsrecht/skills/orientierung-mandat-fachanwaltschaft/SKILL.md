@@ -1,6 +1,6 @@
 ---
 name: orientierung-mandat-fachanwaltschaft
-description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Verwaltungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verwaltungsrecht."
 ---
 
 # Orientierung im Fachanwaltsrecht Verwaltungsrecht: FAO-Voraussetzungen, Kerngebiete, typische Mandate und Fristen überblicken
@@ -64,10 +64,6 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Verw
 
 - ARGE Verwaltungsrecht DAV.
 
-## Aktuelle Rechtsprechung (Leitsaetze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Fristen im Überblick
 
 | Verfahrensschritt | Frist | Grundlage |
@@ -85,3 +81,5 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Verw
 - **kanzlei-allgemein** für Fristen Versand.
 - **fachanwalt-migrationsrecht** bei Ausländerrecht.
 - **fachanwalt-sozialrecht** bei Abgrenzung Sozialgericht vs. Verwaltungsgericht.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

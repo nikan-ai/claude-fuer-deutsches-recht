@@ -1,6 +1,6 @@
 ---
 name: 22-strafvollstreckung-paragraf-451
-description: "Wenn es um 22 Strafvollstreckung Paragraf 451 in Staatsanwaltschaft und Amtsanwaltschaft geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 22 Strafvollstreckung Paragraf 451: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 22 Strafvollstreckung Paragraf 451
@@ -33,10 +33,9 @@ Strukturierter Arbeitsstand: Pruefungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Normen & Rechtsprechung
 
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigungen und verfahrensbeendende Absprachen brauchen Transparenz, Belehrung und Protokollierung.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Heimliche Zugriffe auf informationstechnische Systeme berühren das Grundrecht auf Gewährleistung der Vertraulichkeit und Integrität informationstechnischer Systeme.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: Übermittelte EncroChat-Daten verlangen eine unionsrechtlich tragfähige Rechtshilfe- und Verwertbarkeitsprüfung.
-- EuGH, Urteil vom 05.12.2023 - C-807/21, Deutsche Wohnen: Unternehmensgeldbußen nach Datenschutzrecht setzen unionsrechtlich geprägte Zurechnung und Verschulden voraus.
+- StPO Paragrafen 449, 451 ff. und StGB Paragrafen 56a ff.: Rechtskraft, Vollstreckungsbehörde, Reihenfolge, Bewährung und Vollstreckungsentscheidungen.
+- Vollstreckungsblatt, Rechtskraftvermerk, Anrechnung, Unterbrechung, Zurückstellung und offene gerichtliche Entscheidung nach Rechtsgrundlage trennen.
+- Freiheitsentzug nur auf vollständiger Vollstreckungsgrundlage; Identität, Reststrafe, Anrechnungszeiten und Zuständigkeit vor jedem Auftrag gegenprüfen.
 
 ## Prüf- und Arbeitslogik
 

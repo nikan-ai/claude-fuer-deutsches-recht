@@ -1,28 +1,25 @@
 ---
 name: liquiditaetsvorschau-3wochen
-description: "Wenn es um Drei-Wochen-Liquiditätsvorschau (Paragraf 17 InsO Vorprüfung, Paragraf 1 StaRUG) in Steuerrecht – Steuerberater und Anwälte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Drei-Wochen-Liquiditätsvorschau (Paragraf 17 InsO Vorprüfung, Paragraf 1 StaRUG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Drei-Wochen-Liquiditätsvorschau (§ 17 InsO Vorprüfung, § 1 StaRUG)
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Drei-Wochen-Liquiditätsvorschau (§ 17 InsO Vorprüfung, § 1 StaRUG)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Fachkern: Drei-Wochen-Liquiditätsvorschau (§ 17 InsO Vorprüfung, § 1 StaRUG)
 
-- **Spezialfrage (Drei-Wochen-Liquiditätsvorschau (§ 17 InsO Vorprüfung, § 1 StaRUG)):** Steuerberaternahe Drei-Wochen-Liquiditaetsvorschau für § 17 InsO und § 102 StaRUG mit Wochenraster, Dokumentation und Quellenhygiene. Rechtsprechung nur nach Live-Prüfung.
+- **Spezialfrage:** Drei-Wochen-Liquiditätsstatus zur Vorprüfung des Paragrafen 17 InsO mit Wochenraster, Fälligkeits- und Belegmatrix. Paragraf 102 StaRUG ist nur ein gesondertes Eingangstor bei Jahresabschlusserstellung und erfüllten weiteren Voraussetzungen. Rechtsprechung nur nach Quellenprüfung einsetzen.
 - **Prüfzugriff:** Sachverhalt, Norm, Zugang/Form/Frist oder Anspruchsvoraussetzung zuerst klären; Rechtsprechung erst danach als verifizierten Beleg nutzen.
 
 ## Powerplugin-Hinweis
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Wenn nicht installiert, hier nach dem Steuerberater-spezifischen Schema arbeiten und am Ende ausdrücklich die Hinweispflicht nach § 102 StaRUG dokumentieren.
+Wenn nicht installiert, nach dem steuerberaterspezifischen Schema arbeiten. Paragraf 102 StaRUG nur bei einem Auftrag zur Jahresabschlusserstellung und erfüllten weiteren Voraussetzungen dokumentieren; sonst einen möglichen vertraglichen Warnbedarf getrennt ausweisen.
 
 ## Zweck
 
@@ -44,7 +41,6 @@ Minimum (für die Schnellrunde):
 - **Eröffnungsbestand liquider Mittel** zum Stichtag (Mo): Bank, Kasse, ungenutzte zugesagte Kreditlinien (nicht ausgeschöpfte und nicht gekündigte!).
 - **Fällige Verbindlichkeiten** der nächsten 3 Kalenderwochen, getrennt nach: Lohn/Gehalt + AG-Anteil SV, Lohnsteuer, Umsatzsteuer-Vorauszahlung, Sozialversicherungsbeiträge (monatliche Drittellast), Miete/Leasing, kritische Lieferanten, Zins+Tilgung, sonstige.
 - **Erwartete Zahlungseingänge** der nächsten 3 Wochen aus Debitoren (mit realistischem Ausfallrisiko / Skonto).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Wenn Daten fehlen: Annahmen explizit dokumentieren und im Worst Case rechnen.
 
@@ -56,7 +52,7 @@ Wenn Daten fehlen: Annahmen explizit dokumentieren und im Worst Case rechnen.
 - **§ 18 InsO** – drohende Zahlungsunfähigkeit (24-Monats-Prognose, hier nur Hinweisfunktion).
 - **§ 15a InsO** – Insolvenzantragspflicht: 3 Wochen ab Eintritt § 17 InsO.
 - **§ 1 StaRUG** – fortlaufende Krisenüberwachungspflicht der Geschäftsleitung.
-- **§ 102 StaRUG** – Hinweispflicht beratender Berufe (Steuerberater, Wirtschaftsprüfer, Rechtsanwälte).
+- Paragraf 102 StaRUG: begrenzter Hinweis der genannten Berufsträger bei der Jahresabschlusserstellung, wenn Anhaltspunkte offenkundig sind und die mögliche Insolvenzreife dem Mandanten vermutlich nicht bewusst ist.
 
 ### Leitentscheidungen
 
@@ -78,22 +74,19 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Spalten KW *t*, *t+1*, *t+2*.
 - Pro Spalte: Anfangsbestand, Einzahlungen je Bucket, Auszahlungen je Bucket, Endbestand, fällige Verbindlichkeiten der Folgewoche.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - `Lücke_t = max(0, fällige Verbindlichkeiten in t − verfügbare Mittel in t)`
 - `Lücke_3W = Summe aller offen bleibenden fälligen Verbindlichkeiten in t, t+1, t+2 abzüglich erwarteter Zugänge in t+1, t+2`
 - `Quote = Lücke_3W / fällige Verbindlichkeiten in t`
 - **Ampel**:
  - 🟢 **Grün**: Quote < 10 % (Zahlungsfähigkeit gegeben).
  - 🟡 **Gelb (Zahlungsstockung)**: Quote ≥ 10 %, aber Lücke_3W am Ende von *t+2* gleich null (binnen 3 Wochen schließbar).
- - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Hinweise auf Zahlungsunfähigkeit auch bei 🟡: SV-Rückstände, Lastschriftrückläufer, Stundungsanfragen, eingestellte Zahlungen an Finanzamt/Krankenkasse. Falls ≥ 2 Indizien → Eskalation wie 🔴.
 
 **Schritt 5 – Ergebnis und Eskalation**
 - 🟢: Routine dokumentieren, nächste Woche erneut.
 - 🟡: Engpasswoche identifizieren, Maßnahmen (Skontofinanzierung, Stundungsverhandlung, Avalziehung, Forderungsbeschleunigung); Dokumentation in Geschäftsleiter-Protokoll nach § 1 StaRUG.
-- 🔴: **Hinweispflicht § 102 StaRUG** prüfen (bei Mandant). Übergabe an Skill `zahlungsunfaehigkeit-pruefung-17-inso` und `antragspflicht-15a-inso` aus Plugin `insolvenzrecht`. Frist § 15a InsO (3 Wochen) läuft ab tatsächlichem Eintritt der Zahlungsunfähigkeit — nicht ab Erstellung des Plans.
+- Rot: Sofort an `zahlungsunfaehigkeit-pruefung-17-inso` und `antragspflicht-15a-inso` übergeben. Paragraf 102 StaRUG nur bei Jahresabschlussauftrag und erfüllten weiteren Voraussetzungen anwenden. Der Antrag nach Paragraf 15a InsO ist ohne schuldhaftes Zögern zu stellen; drei Wochen sind nur der Höchstzeitraum bei Zahlungsunfähigkeit.
 
 ## Beispiel
 
@@ -104,18 +97,14 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - KW 22: Eingang 14.400 EUR (80 % von 18.000), verbleibende Lücke kumuliert 38.600 EUR.
 - KW 23: Eingang 9.500 EUR, verbleibende Lücke 50.700 EUR plus neue Fälligkeit 17.600 EUR.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Typische Fehler
 
 - **Kontokorrent voll als Liquidität ansetzen**: Nur ungenutzter, zugesagter und ziehungsfähiger Teil zählt.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Aussetzung der Vollziehung (§ 361 AO / § 69 FGO) wie eine Stundung behandeln**: AdV hemmt nur die Vollziehung; die Fälligkeit der Steuerforderung bleibt unberührt. AdV-Beträge sind weiter **Passiva I**, soweit nicht zusätzlich eine schriftliche § 222 AO-Stundung mit Fälligkeitsverschiebung über den Stichtag hinaus vorliegt. Eine Herausnahme von AdV-Beträgen aus Passiva I führt zu falschem "nicht zahlungsunfähig"-Ergebnis.
 - **3-Wochen-Frist statisch ab Planerstellung rechnen**: Sie läuft ab **Eintritt** der Zahlungsunfähigkeit.
 - **Erwartete Großeingänge zu 100 % ansetzen**: Realistische Ausfall- und Skontoquote, im Zweifel Worst Case.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Lohnsteuer aufschieben**: Lohnsteuer-Rückstände sind ein klassisches Insolvenzindiz und persönlich haftungsauslösend.
 
 ## Quellenpflicht

@@ -1,6 +1,6 @@
 ---
 name: vollzugs-checkliste
-description: "Wenn es um Vollzugscheckliste M&A in Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Vollzugscheckliste M&A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vollzugscheckliste M&A
@@ -16,7 +16,6 @@ description: "Wenn es um Vollzugscheckliste M&A in Gesellschaftsrecht geht: prü
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vollzugscheckliste M&A` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -81,14 +80,13 @@ In deutschen SPA-Formulierungen wird MAC häufig als "wesentliche nachteilige Ve
 **Paragraf 293 AktG — Unternehmensvertrag (Beherrschungs-/Gewinnabführungsvertrag)**
 > HV-Beschluss des Tochterunternehmens mit 3/4-Mehrheit; Zustimmung der Hauptversammlung des Mutterunternehmens nach Paragraf 293 Abs. 2 AktG.
 
-**Paragraf 15a GmbHG — Insolvenzantragspflicht**
-> Spätestens 3 Wochen nach Zahlungsunfähigkeit oder Überschuldung: Pflicht zur Stellung des Insolvenzantrags. Relevant bei Distressed M&A: Vollzug darf nicht nach Eintritt der Insolvenzreife der Zielgesellschaft erfolgen.
+**Paragraf 15a InsO — Insolvenzantragspflicht**
+> Nach [§ 15a Abs. 1 InsO](https://www.gesetze-im-internet.de/inso/__15a.html) Antrag ohne schuldhaftes Zögern stellen, spätestens drei Wochen nach Zahlungsunfähigkeit beziehungsweise sechs Wochen nach Überschuldung. Die Höchstfristen erlauben kein grundloses Abwarten. Ein geplanter Transaktionsvollzug setzt die Antragspflicht nicht aus; Zulässigkeit einzelner Vollzugshandlungen und Zahlungen insbesondere nach § 15b InsO gesondert prüfen, kein pauschales Verbot jedes Vollzugs behaupten.
 
 ### Leitentscheidungen
 
 | Gericht | Aktenzeichen | Fundstelle | Leitsatz / Relevanz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema: Vollzugscheckliste
 
@@ -107,7 +105,7 @@ In deutschen SPA-Formulierungen wird MAC häufig als "wesentliche nachteilige Ve
 | 9 | Gesellschafterbeschlüsse | Paragraf 293 AktG; Paragraf 179a AktG; GV-Beschlüsse für Vermögensübertragung? Einladungsfristen beachtet? | Beschlüsse als Vollzugslieferung dokumentieren |
 | 10 | Sicherheiten und Freigaben | Bestehende Grundschulden, Pfandrechte, Abtretungen auf Vermögen der Zielgesellschaft? Freigabe-Vereinbarungen? | Treuhand-Freigabemechanismus im SPA prüfen |
 | 11 | MAC-Prüfung | Ist seit Signing eine wesentliche nachteilige Veränderung eingetreten? SPA-MAC-Definition ausgelöst? | Rechtsfolgen analysieren; ggf. Verhandlung mit Gegenpartei über Anpassung |
-| 12 | Insolvenzreife Zielgesellschaft | Paragraf 15a GmbHG: Zielgesellschaft zahlungsfähig und nicht überschuldet bis zum Vollzug? | Distressed M&A: aktualisierte Liquiditätsanalyse vor Vollzug |
+| 12 | Insolvenzreife Zielgesellschaft | Paragraf 15a InsO: Zielgesellschaft zahlungsfähig und nicht überschuldet bis zum Vollzug? | Distressed M&A: aktualisierte Liquiditätsanalyse vor Vollzug |
 | 13 | Vollzugslieferungen | Alle VL-Dokumente erstellt (Abtretungsvertrag, HR-Gesellschafterliste, Organbeschlüsse, Freigaben)? | Vollständigkeit der Schließungsmappe prüfen |
 | 14 | Kritischer Pfad | Welcher CP hat die längste Restbearbeitungszeit? Gefährdete Punkte identifiziert? | Kritischen Pfad dokumentieren; Frühwarnung an Deal-Team |
 | 15 | Vollzugsfreigabe | Alle CPs erfüllt oder weggefallen? Vollzugsbestätigung ausgestellt? | Folgenreiche-Handlung-Sperre beachten |
@@ -394,7 +392,7 @@ Vor Ausstellung einer Vollzugsfreigabe oder eines Vollzugsmemos: Falls Rolle **N
 | Fusionskontrolle als kritischer Pfad | Anmeldung so früh wie möglich nach Signing; Pre-Filing-Gespräche mit BKartA / EU-Kommission vor Signing erwägen; Vollzugsfrist im SPA entsprechend verlängern |
 | Viele CoC-Klauseln bei mittelständischem Target | CoC-Mapping bereits in DD-Phase beginnen; Ankündigungsfristen in Vollzugsplanung einbauen; ggf. wesentliche CoC-Klauseln als SPA-Garantie absichern |
 | FDI-Risiko unklar | Freiwillige Meldung beim BMWK erwägen; verhindert nachträgliche Untersagung und schafft Rechtssicherheit |
-| Zielgesellschaft hat Distress-Merkmale | Paragraf 15a GmbHG: Vollzug vor Eintritt der Insolvenzreife sicherstellen; Insolvenzgutachten als Closing-Condition verlangen |
+| Zielgesellschaft hat Distress-Merkmale | Paragrafen 15a und 15b InsO: Insolvenzreife, Antragspflicht und Zulässigkeit konkreter Vollzugshandlungen prüfen; ein Gutachten als Closing-Bedingung setzt gesetzliche Pflichten nicht aus |
 | MAC-Auslösung droht | Exakte Vertragsdefinition analysieren; Paragraf 313 BGB subsidiär; Gegenpartei frühzeitig ansprechen; Kaufpreisanpassung verhandeln |
 | Closing-Notartermin zu spät gebucht | Paragraf 15 GmbHG: Notare haben oft Vorlaufzeiten von 2–4 Wochen; Termin unmittelbar nach Signing vorbuchen |
 
@@ -415,7 +413,7 @@ Vor Ausstellung einer Vollzugsfreigabe oder eines Vollzugsmemos: Falls Rolle **N
 - Paragraf 40 GmbHG (Gesellschafterliste)
 - Paragraf 313 BGB (Wegfall Geschäftsgrundlage / MAC)
 - Paragraf 293 AktG (Unternehmensvertrag)
-- Paragraf 15a GmbHG (Insolvenzantragspflicht)
+- Paragraf 15a InsO (Insolvenzantragspflicht)
 
 Zitierweise nach `../../references/zitierweise.md`.
 

@@ -1,6 +1,6 @@
 ---
 name: mandat-einordnen-bearbeitungsroute
-description: "Wenn es um Gewerblichen Rechtsschutz-Mandat einordnen und Bearbeitungsroute bestimmen in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gewerblichen Rechtsschutz-Mandat einordnen und Bearbeitungsroute bestimmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gewerblichen Rechtsschutz-Mandat einordnen und Bearbeitungsroute bestimmen
@@ -70,10 +70,6 @@ Keine Eintragungs-Barriere vorhanden?
 | Designverletzungsklage | SdT-Recherche, Neuheits-Eigenarts-Test | Verjährung 3 Jahre §§ 195, 199 BGB |
 | Patent-Nichtigkeitsklage | StdT-Recherche, BPatG, Nebenintervention | Keine Frist, aber Verletzungsverfahren dringt |
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Fristen-Checkliste
 
 - [ ] Widerspruchsfrist Marke: 3 Monate (§ 42 MarkenG / Art. 46 UMV)
@@ -88,3 +84,5 @@ Keine Eintragungs-Barriere vorhanden?
 - Bei urheberrechtlichen Vorfragen: Plugin `urheberrecht` / `fachanwalt-urheber-medienrecht`.
 - Bei kartellrechtlichen Bezuegen (Lizenzkartell, Marktmissbrauch): Plugin `kartellrecht-grundlagen`.
 - Bei steuerrechtlicher Bewertung von IP-Rechten: Plugin `steuerrecht-anwalt-und-berater`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

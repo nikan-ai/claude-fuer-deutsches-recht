@@ -1,6 +1,6 @@
 ---
 name: klausel-lizenzgegenstand-und-anlage-ip-liste
-description: "Wenn es um Klausel Lizenzgegenstand + Anlage A in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Klausel Lizenzgegenstand + Anlage A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klausel Lizenzgegenstand + Anlage A
@@ -51,7 +51,7 @@ A.4 Know-how
 
 ## Klausel-Baustein
 
-> **$ 2 Lizenzgegenstand.**
+> **Paragraf 2 Lizenzgegenstand.**
 >
 > (1) Lizenzgegenstand sind die in **Anlage A** aufgefuehrten Schutzrechte und das in Anlage A definierte Know-how (gemeinsam "Lizenzgegenstand").
 >

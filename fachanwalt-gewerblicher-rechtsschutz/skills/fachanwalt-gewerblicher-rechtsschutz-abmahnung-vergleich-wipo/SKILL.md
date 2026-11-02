@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-abmahnung-vergleich-wipo
-description: "Wenn es um Abmahnungs-Vergleich / WIPO-Mediation im gewerblichen Rechtsschutz in Fachanwalt Gewerblicher Rechtsschutz geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Abmahnungs-Vergleich / WIPO-Mediation im gewerblichen Rechtsschutz: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Abmahnungs-Vergleich / WIPO-Mediation im gewerblichen Rechtsschutz
@@ -25,10 +25,6 @@ description: "Wenn es um Abmahnungs-Vergleich / WIPO-Mediation im gewerblichen R
 - **§§ 339-345 BGB** — Vertragsstrafe
 - **WIPO Mediation Rules** / **WIPO Arbitration Rules** (2021)
 - **§ 1066 ZPO** — Vollstreckbarkeit Schiedsspruch
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Paragrafenkette bei Reaktion auf Abmahnung
 
@@ -198,3 +194,5 @@ Mit freundlichen Gruessen
 - `fachanwalt-gewerblicher-rechtsschutz-uwg-einstweilige-verfuegung` — Eil-Verfahren nach Scheitern
 - `fachanwalt-gewerblicher-rechtsschutz-marken-widerspruch` — Marken-Verfahren parallel
 - `fachanwalt-gewerblicher-rechtsschutz-orientierung` — Triage
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bank-kapitalmarktrecht-kreditkuendigung
-description: "Wenn es um Kreditkündigung in Fachanwalt Bank Kapitalmarktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kreditkündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bank Kapitalmarktrecht. Route: fachanwalt-bank-kapitalmarktrecht-kreditkuendigung."
 ---
 
 # Kreditkündigung
@@ -20,7 +20,6 @@ description: "Wenn es um Kreditkündigung in Fachanwalt Bank Kapitalmarktrecht g
 - Allgemeines Kündigungsrecht aus wichtigem Grund § 314 BGB — Abmahnung erforderlich falls Pflichtverletzung.
 - Bei Verbraucherdarlehen § 498 BGB: qualifizierter Zahlungsverzug erforderlich (zwei aufeinander folgende Raten ganz oder teilweise; bei Restlaufzeit > 3 Jahre 10 %, bei kürzerer 5 % des Nennbetrags); zweiwöchige Heilungsfrist nach Mahnung.
 - AGB-Banken Nr. 19 (ordentliche Kündigung) und Nr. 26 (außerordentliche Kündigung) — AGB-Kontrolle § 307 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Treu und Glauben § 242 BGB — Kündigung zur Unzeit oder ohne überwiegenden Bankinteressen.
 
 ## Beweislast und Frist
@@ -90,7 +89,6 @@ Mit freundlichen Gruessen
 
 ### Leitsaetze Kreditkuendigung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Kette
 

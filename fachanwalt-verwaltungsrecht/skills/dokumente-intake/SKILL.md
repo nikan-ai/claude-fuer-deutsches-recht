@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Verwaltungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verwaltungsrecht."
 ---
 
 # Dokumentenintake
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Einsatzlage
 
@@ -37,7 +35,7 @@ Dieser Dokumenten-Intake für **Fachanwalt Verwaltungsrecht** ordnet Anlagen, Re
 - `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme FA Vwgo
 - `workflow-mandantenkommunikation` — FA Verwaltungsrecht Mandant Redteam Gate
 - `einstieg-schnelltriage-fallrouting` — FA Verwaltungsrecht Start Chronologie Fristen
-- `klagefrist-paragraf-58-vwgo-bverwg-4-c-1-19` — Klagefrist Paragraf 58 Vwgo Bverwg 4 C 1 19
+- `rechtsbehelfsbelehrung-jahresfrist-vwgo` — Rechtsbehelfsbelehrung und Jahresfrist prüfen
 - `kommunalrecht-paragraf-2-go` — Kommunalrecht Paragraf 2 GO
 - `anschluss-routing` — Anschluss Routing
 - `einstieg-routing` — Einstieg Routing

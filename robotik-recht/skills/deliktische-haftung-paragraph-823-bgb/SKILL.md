@@ -1,6 +1,6 @@
 ---
 name: deliktische-haftung-paragraph-823-bgb
-description: "Wenn es um Deliktische Haftung Paragraf 823 BGB in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Deliktische Haftung Paragraf 823 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Deliktische Haftung § 823 BGB
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft deliktische Haftung nach § 823 BGB bei Robotik: Verkehrssicherung, Organisationsverschulden, Schutzgesetze, Beweis und Verschulden.**
 
 Quellen-/Normenanker: BGB § 823; ProdSG; Arbeitsschutz; Datenschutz.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

@@ -1,6 +1,6 @@
 ---
 name: widerspruchsschrift
-description: "Wenn es um Widerspruchsschrift nach Paragrafen 68 ff in Fachanwalt Verwaltungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Widerspruchsschrift nach Paragrafen 68 ff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Widerspruchsschrift nach §§ 68 ff
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -77,7 +75,6 @@ Gegen einen belastenden Verwaltungsakt ist als Vorverfahren — sofern nicht dur
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Widerspruch
 
@@ -128,7 +125,6 @@ Gegen einen belastenden Verwaltungsakt ist als Vorverfahren — sofern nicht dur
 | Gegenargument der Behörde | Gegenstrategie |
 |---|---|
 | "Anhörungsmangel geheilt — Widerspruch ist Nachholung" | § 45 Abs. 1 Nr. 3 VwVfG: Heilung nur durch eigenständige, nicht nur pro forma erfolgte Anhörung; bloße Übersendung des Bescheids genügt nicht |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Widerspruchsverfahren ausgeschlossen" | Landespezifische Ausnahmen genau prüfen; bei Ausschluss nur in bestimmten Sachgebieten prüfen ob hier ein solches vorliegt |
 
 ## Strategische Optionen (vor dem Template entscheiden)
@@ -332,15 +328,12 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `energieanlagen-bimschg-genehmigung-verfahren` — Widerspruch gegen BImSchG-Bescheid
 - `energietrassen-planfeststellung-rechtsschutz` — Einwendungen im Planfeststellungsverfahren
 
-## Aktuelle Leitentscheidungen (v14.2 Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellen
 
 - VwGO §§ 42, 58, 68–79, 80, 113, 114
 - VwVfG §§ 28, 35, 39, 40, 41, 43, 44, 45, 80
 - GKG § 52
 - RVG Nr. 2300 VV
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

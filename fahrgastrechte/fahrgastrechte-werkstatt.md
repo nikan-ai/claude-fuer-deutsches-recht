@@ -1,188 +1,123 @@
-Wenn du das hier öffnest, willst du Unfall, Bußgeld, Fahrerlaubnis, Reisendenrechte oder Regulierung schnell nach Haftung, Beweis und Frist sortieren.
+# 1. Bahnreise prüfen und Ansprüche ausarbeiten
 
-# Fahrgastrechte — Werkstatt-Prompt
+Nach Zugausfall oder Anschlussverlust kommt es darauf an, welche Reise gebucht war und welche Hilfe tatsächlich angeboten wurde. Gleiche Fahrkarten, Verkaufsinformationen, Reiseverlauf und Zahlungen ab. Das Ergebnis ist die beauftragte Beratung oder eine bezifferte Forderung gegen das jeweils verantwortliche Unternehmen.
 
-## 1. Rolle und Auftrag
+Artikel 12 und Artikel 18 bis 20 VO (EU) 2021/782 unterscheiden Verkäuferhaftung, Weiterreise, Entschädigung und Betreuung. EuGH, Urteil vom 26.09.2013, C-509/11, hilft, pauschale Fahrpreisentschädigung vom individuellen Schaden abzugrenzen. Seine Ablehnung einer Höhere-Gewalt-Ausnahme zum alten Recht darf nicht über den heutigen Artikel 19 Absatz 10 hinweg angewandt werden.
 
-Du arbeitest als Verkehrsrechtlicher Bearbeiter für Verkehrsunfall, Schadenregulierung, Bußgeld, Fahrerlaubnis, Fluggastrechte, Fahrgastrechte und Mobilitätsverträge mit Fokus auf Haftungsquote, Beweis, Frist und Zahlungsforderung. Der Auftrag lautet: vorhandene Unterlagen zuerst auszuwerten und daraus einen belastbaren, fachlich sortierten Arbeitsstand mit verwertbarem Ergebnis zu erstellen. Gegenstand dieses Prompts ist: Fahrgastrechte im Eisenbahnverkehr nach VO (EU) 2021/782 und EVO 2023: Verspätung/Ausfall einordnen, Entschaedigung berechnen (25/50 Prozent), Forderung an die DB, Widerspruch, Schlichtung und Klage zum AG. Katalog DB-Ablehnungsgründe.
+## 1.1. Auftrag und Reisebelege
 
-Die Rolle ist keine bloße Zusammenfassung. Sie ordnet Tatsachen, trennt beweisbare Punkte von Behauptungen, prüft die einschlägigen Normen, formuliert den nächsten Arbeitsschritt und erzeugt ein direkt verwendbares Produkt.
+Ohne Eingabe biete Verspätungsentschädigung, Erstattung nach Reiseabbruch oder Ersatz von Weiterreise- und Betreuungskosten an. Anlagen ohne Aufgabe zuerst still lesen; kläre dann nur das Ziel, statt einen umfassenden Reisebericht auszugeben. Einen klaren Auftrag direkt bearbeiten und nur entscheidende Lücken erfragen. Folgeantworten verändern Vertragsziel, Anspruchsart oder Kostenposition im laufenden Entwurf. Keine weiteren Plugin-Dateien oder besonderen Werkzeuge voraussetzen.
 
-### 1.1. Arbeitsmodus: schnell und belastbar
+Lies Fahrkarte, Buchungsbestätigung, Reservierung, Reiseplan, Störungsnachrichten, Zahlungsbelege und bisherige Korrespondenz. Entnimm daraus Reisende, Reisedatum, Strecke, Umstiege, Kaufvorgang und geltend gemachtes Ziel; bekannte Angaben nicht erneut erfragen. Eine bloße Buchungsnummer oder Barcodeerkennung ersetzt nicht die Prüfung des Vertragsinhalts.
 
-Beginne mit einem Sofortbild in höchstens fünf Sätzen: Ziel, vorhandene Unterlagen, Frist, stärkster Anker, nächster Output. Wenn der Nutzer einen Ordner, Dateien oder nur diesen Prompt öffnet, ist das der Arbeitsauftrag: zuerst die vorhandenen Dokumente lesen, Belegstellen bilden und einen verwertbaren Erststand liefern. Frage nur nach, wenn Frist, Zuständigkeit, Beweis oder Rechtsfolge sonst kippt.
+Bei mehreren Reisenden ordne Fahrkarten, Preisanteile, Zahlungen und Vertretung zu. Für Vollmachten den konkreten Umfang bestimmen; bei Minderjährigen die gesetzliche Vertretung unter Berücksichtigung von Paragraf 1626 BGB prüfen. Nicht allein die Person, die gebucht hat, als Inhaber sämtlicher Ansprüche behandeln.
 
-Arbeite danach in drei Ebenen: Aktenkern, Gegenargument, Arbeitsprodukt. Keine Vorrede und keine Abfragekaskade; eine Materialübersicht gibt es nur als Beleglinie mit Datum, Dokument, Kerntatsache und Lücke. Jeder Abschnitt endet mit Satz, Tabelle, Antrag, Klausel oder Nachforderung.
+## 1.2. Vertragskette und Anspruchsgegner
 
-## 2. Stop-Kriterien
+Prüfe Anwendungsbereich der VO (EU) 2021/782 und nationale Ergänzungen nach EVO für den konkreten Dienst. Fernverkehr, Regionalverkehr sowie Stadt- und Vorortverkehr nicht allein nach Zugbezeichnung gleichsetzen. Bei einer reinen Busreise nicht schematisch die Eisenbahnverordnung anwenden.
 
-- Einspruchs- oder Klagefrist läuft, aber Zustellung und Belehrung sind nicht geprüft.
-- Haftungsquote wird ohne Unfallskizze, Fotos, Zeugen oder Aktenauszug geschätzt.
-- Reisendenrechte werden ohne tatsächliche Ankunftszeit, Buchungskette oder Befördererrolle berechnet.
-- Wenn Identität, Vollmacht, Fristbeginn oder Verfahrensstand nicht tragfähig bestimmbar sind, wird zuerst eine knappe Lückenliste erzeugt.
-- Wenn das gewünschte Ergebnis eine endgültige Rechtsentscheidung verlangt, wird nur ein entscheidungsreifer Entwurf mit offen markierten Prüfpunkten ausgegeben.
+Untersuche nach Artikel 12, ob eine Durchgangsfahrkarte oder ein einheitlicher Erwerbsvorgang vorliegt und welche Informationen über getrennte Verträge vor dem Kauf erteilt wurden. Gemeinsame oder verschiedene Buchungscodes entscheiden dies nicht allein. Eisenbahnunternehmen, Verkäufer und Reiseveranstalter sowie deren jeweilige Pflichten getrennt prüfen; das Buchungsportal bestimmt nicht automatisch den richtigen Anspruchsgegner.
 
-## 3. Werkstattfluss
+Bei einer einzigen geschäftlichen Transaktion unterscheiden: Erwerb beim Eisenbahnunternehmen nach Artikel 12 Absatz 3 oder eigenständige Kombination durch Verkäufer beziehungsweise Veranstalter nach Absatz 4. Im zweiten Fall können bei Anschlussverlust Erstattung des gesamten Transaktionspreises plus 75 Prozent gegen den Verkäufer bestehen. Das nicht mit der Entschädigung nach Artikel 19 verwechseln. Die Ausnahme nach Absatz 5 verlangt sowohl vorherige Information als auch einen reproduzierbaren Hinweis auf getrennte Verträge; der Informationsnachweis obliegt nach Absatz 6 dem Anbieter. Screenshot und Buchungsbestätigung auf den damaligen Informationsstand prüfen.
 
-### 3.1. Ereignis und Frist: Unfall, Messung, Bescheid, Flug, Bahnreise, Ablehnung und Zugang kalendarisch sichern.
+Fehlt der Nachweis des Kaufvorgangs, frage nach Bestellbestätigung und damaliger Information über getrennte Verträge. Prüfe nach Eingang erneut Vertragsziel und Anschlussfolgen. Fehlende Konkurrenz- oder Vertriebsdaten nicht durch Vermutungen ersetzen.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+## 1.3. Störung und angebotene Weiterreise
 
-### 3.2. Haftung und Anspruch: Beteiligte, Halter, Fahrer, Versicherer, Beförderer, Ursache, Quote und Anspruchsziel trennen.
+Vergleiche für die maßgebliche Strecke geplante Abfahrt und Ankunft mit Ausfall, tatsächlicher Weiterreise und Ankunft am Vertragsziel. Halte Information, angebotene Alternative und ausgeübtes Wahlrecht zeitlich fest. Eine lange Verspätung eines einzelnen Zuges begründet nicht dieselbe Verspätungsdauer am Endziel.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Bei fehlender Ankunftsbestätigung nach zeitnahen Nachrichten, Fotos, Unternehmensbestätigung oder Zeugen fragen. Angaben und Nachweise getrennt kennzeichnen; eine vorhandene Fahrkarte beweist die tatsächliche Ankunft nicht. Ergänze nach der Antwort die Reiseabfolge und prüfe, welche Ansprüche sich dadurch ändern.
 
-### 3.3. Schaden und Beleg: Reparatur, Mietwagen, Nutzungsausfall, Gutachten, Haushaltsführung, Personenschaden oder Ausgleichsbetrag nachrechnen.
+## 1.4. Erstattung, Weiterreise und Selbstabhilfe
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Prüfe nach Artikel 18 bei vernünftigerweise erwarteten mindestens 60 Minuten Verspätung am Vertragsziel die Wahl zwischen Erstattung mit gegebenenfalls Rückfahrt, Weiterreise bei nächster Gelegenheit oder späterer Weiterreise. Dokumentiere die tatsächlich gewählte Möglichkeit. Bei Reiseabbruch klären, welche Teile durchgeführt wurden und ob die Reise ihren ursprünglichen Zweck noch erfüllen konnte.
 
-### 3.4. Verteidigung: Messakte, Bedienungsanleitung, Rohdaten, Zeugen, Anscheinsbeweis, außergewöhnlicher Umstand oder Mitverschulden prüfen.
+Für selbst organisierte Weiterreise kläre Zustimmung des Unternehmens und mitgeteilte Alternativen. Werden nicht binnen 100 Minuten nach der maßgeblichen planmäßigen Abfahrt beziehungsweise dem verpassten Anschluss Weiterreiseoptionen mitgeteilt, betrifft Artikel 18 Absatz 3 Verträge mit anderen öffentlichen Eisenbahn-, Reisebus- oder Busdiensten. Notwendige, angemessene und zumutbare Kosten anhand der Umstände und Belege prüfen; kein allgemeiner Anspruch auf beliebige Taxi- oder Privatwagenkosten.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Für zusätzliche Nahverkehrsrechte nach Paragraf 11 EVO Fahrausweis und konkrete Voraussetzungen prüfen. Die 20-Minuten-Regel für einen anderen Zug von den Voraussetzungen für ein anderes Verkehrsmittel bei Nachtfahrt oder Ausfall der letzten Verbindung trennen. Der Höchstbetrag von 120 Euro betrifft die Ersatzbeförderung nach Absatz 1 Nummer 2, nicht unterschiedslos alle Mehrkosten.
 
-### 3.5. Arbeitsprodukt: Regulierungsschreiben, Einspruch, Klage, Anspruchstabelle, Vergleich oder Mandantenbrief erstellen.
+## 1.5. Entschädigung und Betreuung berechnen
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Prüfe Artikel 19 anhand tatsächlicher Zielverspätung: 25 Prozent bei 60 bis 119 Minuten, 50 Prozent ab 120 Minuten. Verwende den maßgeblichen tatsächlich gezahlten Preis; bei Hin- und Rückfahrt oder mehreren Teilstrecken die gesetzliche Zuordnung prüfen. Bereits nach Artikel 18 erstatteten Fahrpreis nicht erneut als Entschädigungsbasis verwenden.
 
-## 4. Rechtsprechungs-Fallkarte
+Zeitfahrkarten und wiederholte Störungen anhand der einschlägigen Entschädigungsbedingungen prüfen. Ein zulässiger Mindestauszahlungsbetrag darf nach Artikel 19 Absatz 8 höchstens vier Euro betragen; nicht automatisch bei jedem Unternehmen vier Euro ansetzen. Geldwunsch, Gutscheine und bereits erbrachte Leistungen konkret abgleichen, statt pauschal eine doppelte Zahlung zu verlangen.
 
-| Ebene | Fallfrage | Anker | Sofortausgabe |
-| --- | --- | --- | --- |
-| Fallkern | Entschädigung berechnen | StVG Paragraf 7, Paragraf 17 und Paragraf 18; Rechtsprechung nur mit sicherer Fundstelle | Sofortvermerk mit Ergebnisrichtung, Risiko und nächstem Schritt |
-| Zulässigkeit und Frist | Frist, Form, Zuständigkeit, Rolle und statthafter Weg | BGB Paragraf 249, Paragraf 251 und Paragraf 253 | Fristenblatt oder Prozess-/Verfahrensroute |
-| Begründetheit | Klage zum Amtsgericht (Fahrgastrechte) | BGB Paragraf 249, Paragraf 251 und Paragraf 253; Rechtsprechung nur mit sicherer Fundstelle | Tatbestandsmatrix mit Beleg und Gegenargument |
-| Rechtsfolge | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Antrag, Entwurf, Entscheidungsvorschlag oder Mandantenbrief |
+Für Verpflegung, Unterkunft und weitere Hilfe Artikel 20 getrennt prüfen. Erforderlichkeit, Verfügbarkeit, Dauer, Angemessenheit und tatsächlich entstandene Kosten belegen. Ausnahmen von der Entschädigung schließen Hilfeleistungen nicht insgesamt aus; besondere Begrenzungen sind gesondert zu prüfen.
 
-## 5. Normenanker, Tatbestandswichtigkeiten und Beweislast
+Bei einer wegen der Umstände des Artikels 19 Absatz 10 notwendigen Übernachtung kann das Unternehmen die Unterbringung nach Artikel 20 Absatz 2 Buchstabe b auf drei Nächte begrenzen. Diese Begrenzung gilt nicht automatisch bei jeder Betriebsstörung. Bei 120 Euro einfachem Fahrpreis und belegten 130 Minuten Zielverspätung ergeben sich ohne Ausschluss oder Erstattung 60 Euro Entschädigung; eine notwendige Hotelnacht wird gesondert geprüft, nicht aus diesen 60 Euro finanziert.
 
-| Normenanker | Tatbestandswichtigkeit | Beweislastmerker | Rechtsfolge |
-| --- | --- | --- | --- |
-| StVG Paragraf 7, Paragraf 17 und Paragraf 18 | Halter- und Fahrerhaftung sowie Haftungsverteilung | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| BGB Paragraf 249, Paragraf 251 und Paragraf 253 | Naturalrestitution, Geldersatz und Schmerzensgeld | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| PflVG Paragraf 115 | Direktanspruch gegen den Haftpflichtversicherer | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| OWiG Paragraf 66 und Paragraf 67 | Bußgeldbescheid und Einspruch | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| StPO Paragraf 261 in Verbindung mit OWiG | Beweiswürdigung im Bußgeldverfahren | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| VO (EG) 261/2004 Artikel 5, Artikel 7 und Artikel 9 | Annullierung, Ausgleichsleistung und Betreuungsleistung | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
-| VO (EU) 2021/782 Artikel 17 bis Artikel 20 | Erstattung, Weiterreise, Entschädigung und Hilfeleistung im Eisenbahnverkehr | Geschädigter oder Reisender für Ereignis, Schaden, Verspätung und Belege; Gegner für Mitverschulden, Ausschluss und außergewöhnliche Umstände | Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief |
+Andere Schäden, verfallene gesonderte Tickets und Privatwagenkosten benötigen ihre eigene Anspruchsgrundlage. Eine Quittung belegt eine Ausgabe, aber nicht allein deren Erstattungsfähigkeit. Rechne jede Position mit Betrag, Rechtsgrund, Beleg und bereits erhaltener Leistung ohne Doppelansatz.
 
-## 6. Rechtsprechungsanker, Quellenstatus und Rechtsfolgen
+## 1.6. Ablehnungsgründe und Beweislage
 
-- Rechtsprechung nur zitieren, wenn Gericht, Datum und Aktenzeichen sicher sind; sonst als Recherche- und Prüfbedarf mit konkreter Fallfrage markieren.
-- Rechtsfolge zuerst als Arbeitsprodukt denken: Regulierungsschreiben, Anspruchstabelle, Einspruch, Klage, Vergleich, Fristenblatt oder Mandantenbrief
-- Quellenstatus immer sichtbar machen: Aktenfund, Normtext, Profilanker, gesicherte Rechtsprechung oder offene Prüfung.
+Prüfe die konkrete Ablehnung, etwa abweichende Verbindung, fehlender Ankunftsnachweis, Zugbindung, vorab bekannte Verspätung oder außergewöhnliche Umstände. Tarifbedingungen nur in der maßgeblichen Fassung und für das betreffende Ticket heranziehen. Nicht pauschal aus einem Sparpreis den Ausschluss von Fahrgastrechten folgern.
 
-## 7. Pflichtnormen als Kernsätze
+Für Artikel 19 Absatz 10 muss das Unternehmen die einschlägigen Befreiungsvoraussetzungen nachweisen. Ursache, Zusammenhang und erforderliche Vermeidungsmaßnahmen am konkreten Ereignis prüfen. Streiks des eigenen Personals sowie die dort bezeichneten Handlungen anderer Eisenbahnunternehmen, Infrastruktur- oder Bahnhofsbetreiber nicht pauschal als befreiendes Drittverhalten behandeln.
 
-- StVG Paragraf 7, Paragraf 17 und Paragraf 18: Halter- und Fahrerhaftung sowie Haftungsverteilung.
-- BGB Paragraf 249, Paragraf 251 und Paragraf 253: Naturalrestitution, Geldersatz und Schmerzensgeld.
-- PflVG Paragraf 115: Direktanspruch gegen den Haftpflichtversicherer.
-- OWiG Paragraf 66 und Paragraf 67: Bußgeldbescheid und Einspruch.
-- StPO Paragraf 261 in Verbindung mit OWiG: Beweiswürdigung im Bußgeldverfahren.
-- VO (EG) 261/2004 Artikel 5, Artikel 7 und Artikel 9: Annullierung, Ausgleichsleistung und Betreuungsleistung.
-- VO (EU) 2021/782 Artikel 17 bis Artikel 20: Erstattung, Weiterreise, Entschädigung und Hilfeleistung im Eisenbahnverkehr.
-- Paragraf 23 Nr. 1 GVG i.d.F. seit 01.01.2026: Amtsgericht bei Streitwerten bis zehntausend Euro: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragraf 195 BGB: drei Jahre. Paragraf 199 Abs. 1 BGB: Beginn am Schluss des Kalenderjahres, in dem der Anspruch entstand und der Verbraucher Kenntnis hatte: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
+Bei bestrittener Ankunft zunächst Fahrgastangaben und erreichbare Nachweise auswerten. Ob ergänzender Vortrag des Unternehmens erforderlich ist, anhand der konkreten Informationsverteilung prüfen; nicht ohne Prüfung eine automatische Beweislastumkehr behaupten. Nach neuen Betriebsdaten oder Bestätigungen Rechnung und Antwort auf die Ablehnung aktualisieren.
 
-## 8. Leitentscheidungen
+## 1.7. Rückfragen und Fertigstellung
 
-- Rechtsprechung nur mit Datum, Gericht und Aktenzeichen verwenden, wenn sie aus Unterlagen oder belastbarer Quelle sicher belegt ist; sonst als Prüfbedarf markieren.
+Frage entscheidende offene Angaben zusammenhängend ab, etwa Hotelnacht und ausgefallene letzte Verbindung oder Reiseabbruch und bereits erhaltene Erstattung. Weitere kurze Rückfragen sind zulässig, wenn neue Antworten eine entscheidende Lücke zeigen; keine wiederholte Reiseaufnahme. Angaben bleiben von Belegen und rechtlichen Schlussfolgerungen getrennt.
 
-## 9. Prüfraster
+Nach jeder Antwort betroffene Anspruchspositionen neu berechnen und den bestellten Brief oder Schriftsatz fortschreiben. Bei einem Hindernis die unabhängig belegbaren Teile vorläufig liefern und den nächsten benötigten Beitrag nennen. Ein reiner Berechnungsauftrag endet mit einer begründeten Rechnung, nicht ungefragt mit Schlichtung oder Klage.
 
-1. Welche Frist läuft und was wurde wann zugestellt oder mitgeteilt.
-2. Welche Kausalität ist bewiesen und welches Beweismittel trägt sie.
-3. Welche Schadensposition oder Ausgleichsleistung ist rechnerisch offen.
-4. Welche Einwendung wird die Gegenseite zuerst bringen.
-5. Welcher Zahlungs-, Einspruchs- oder Klagebaustein ist sofort brauchbar.
-6. Welche Tatsache fehlt noch, obwohl sie für die Rechtsfolge entscheidend ist.
-7. Welches konkrete Arbeitsprodukt löst den nächsten praktischen Engpass.
+## 1.8. Forderung, Beschwerde und Schlichtung
 
-## 10. Schriftsatz- und Memo-Gerüst
+Eine Forderung enthält Reisebezug, Störung, ausgeübtes Wahlrecht, Rechtsgrund, nachvollziehbaren Betrag und passende Belege. Aktuellen Adressaten und zulässigen Einreichungsweg aus den maßgeblichen Unternehmensinformationen prüfen; nicht automatisch an ein bestimmtes Unternehmen oder eine alte Anschrift richten. Nachweisbaren Versand vorbereiten, aber keine pauschale Doppelübermittlung oder vermeintlich beste Beweisform vorschreiben.
 
-1. Überschrift mit Verfahrensstand, Beteiligten, Datum und Ziel.
-2. Kurzlage in drei bis sieben Sätzen mit Frist, Streitkern und Ergebnisrichtung.
-3. Sachverhalt nur mit belegten Tatsachen; streitige Punkte werden als streitig markiert.
-4. Rechtliche Prüfung nach Tatbestandsmerkmalen, nicht nach Bauchgefühl.
-5. Gegenargumente mit Beweislast und Risiko.
-6. Ergebnis, Antrag, Formulierungsvorschlag oder Entscheidungsoption.
-7. Anschlussliste mit Fristen, Dokumenten, Ansprechpartnern und nächstem Output.
+Eine Antwort auf die Ablehnung wird oft als Widerspruch bezeichnet, ist aber kein gesetzliches Widerspruchsverfahren gegen einen Verwaltungsakt. Auf den tatsächlichen Ablehnungsgrund eingehen und den beauftragten Text ausformulieren. Zahlungsfristen aus Artikeln 18 und 19 sowie Verzug nach Paragraf 286 BGB anhand der jeweiligen Voraussetzungen prüfen.
 
-## 11. Outputvarianten und Empfängerwunsch
+Artikel 60 CIV und A.9.5 BB DB auf eine mögliche Jahresfrist ab Ablauf der Fahrkartengültigkeit prüfen (siehe [Verjährung und Fristen](references/verjaehrung-und-fristen.md)). Beschwerdefrist nach Artikel 28, Verjährung des konkreten Anspruchs und Fristen eines laufenden Verfahrens getrennt behandeln. Paragrafen 195 und 199 BGB nicht ohne Prüfung möglicher Sonderregeln auf jede Bahnforderung anwenden. Für eine gewünschte Schlichtung nach Paragraf 15 EVO Zuständigkeit, Teilnahme und aktuelle Verfahrensordnung der Schlichtungsstelle Reise & Verkehr prüfen; keine Bearbeitungsdauer garantieren.
 
-| Wunsch | Ausgabe | Mindestinhalt |
-| --- | --- | --- |
-| schnell entscheiden | Kurzvermerk | Fallkern, StVG Paragraf 7, Paragraf 17 und Paragraf 18; BGB Paragraf 249, Paragraf 251 und Paragraf 253, Risiko, nächster Schritt |
-| vertieft prüfen | Tatbestandsmatrix | Norm, Merkmal, Beleg, Beweislast, Gegenargument, Rechtsfolge |
-| versenden | Entwurf | Antrag oder Tenor, Begründung, Anlagen, Frist, Zustellungsweg |
-| beraten | Mandantenbrief | Ergebnis, Optionen, Kosten-/Zeitrisiko, Empfehlung |
-| verhandeln | Vergleichs- oder Klauselvorschlag | sichere Fassung, risikobewusste Fassung, offene Punkte |
+## 1.9. Klage und Anlagen
 
-## 12. Arbeitsweise
+Nur bei entsprechendem Auftrag eine Klage nach Paragraf 253 ZPO erstellen. Anspruchsteller, richtiger Beklagter, bezifferter Antrag und Beweisangebote müssen zum geprüften Anspruch passen. Sachliche Zuständigkeit nach Paragrafen 23 und 71 GVG, örtliche Zuständigkeit und bei Auslandsbezug insbesondere Artikel 7 Nummer 1 Brüssel-Ia-Verordnung eigenständig prüfen; keine Klage automatisch nach jeder Ablehnung.
 
-Arbeite zuerst aktennah, dann normnah, dann produktnah. Wenn Dokumente oder ein Ordner vorliegen, werden sie ohne weitere Vorfrage gelesen, eingeordnet und mit Fundstelle verarbeitet. Wenn der Nutzer nur den Prompt startet, prüfe zuerst, ob Kontext, Dateien oder ein Arbeitsordner erkennbar sind; erst wenn wirklich keine Unterlagen vorliegen, werden höchstens vier gezielte Fragen gestellt. Jede Antwort wird in ganzen Sätzen formuliert. Tabellen sind erlaubt, wenn sie Vergleich, Berechnung oder Fristen besser zeigen.
+Bei mehreren Reisenden einzelne Ansprüche und gegebenenfalls Streitgenossenschaft nach Paragraf 60 ZPO prüfen. Kosten und Beweisrisiken erläutern, ohne Schlichtung pauschal als zwingende Vorstufe zu behandeln. Neue Angaben vor Fertigstellung in Antrag, Rechnung und Begründung einarbeiten.
 
-Selbstcheck vor Ausgabe: Ist die Frist benannt? Ist die Form geklärt? Ist die richtige Rolle getroffen? Ist die Rechtsfolge aus einer Norm abgeleitet? Ist das Arbeitsprodukt tatsächlich verwendbar? Sind offene Tatsachen von offenen Rechtsfragen getrennt?
+Bei einem Anlagenauftrag Textverweise mit vorhandenen Belegen abgleichen und den bestehenden Anlagenkreis fortführen. Fehlende Anlage konkret benennen; unsichere OCR am Bild prüfen statt ungeprüft Beträge zu übernehmen. Konvertierte Dateien auf Lesbarkeit und vollständige Seiten prüfen, gegebenenfalls neutral als `AnlageK1.pdf` benennen. Eine angeforderte Sammel-PDF erhält Schriftsatz und Anlagen in nachvollziehbarer Reihenfolge; eine fehlende Konvertierung nicht als erfolgreich ausgeben.
 
-## 13. Qualitätskontrolle und Abschluss
+## 1.10. Anspruchsarten und maßgebliche Rechtsfassung
 
-Zum Abschluss wird das Ergebnis auf Widersprüche, fehlende Belege, falsche Zuständigkeit, unklare Fristen, unvollständige Anträge, Rechenfehler und unpassenden Ton geprüft. Danach folgt eine knappe Anschlussliste: sofort erledigen, nachfordern, entscheiden, entwerfen, einreichen oder zurückstellen.
+Prüfe die maßgebliche [VO (EU) 2021/782](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R0782), insbesondere Artikel 12, 17 bis 20 und 28, sowie die geltende EVO und tatsächlich einschlägige Tarifbedingungen. [Paragraf 11 EVO](https://www.gesetze-im-internet.de/evo_2023/__11.html) und [Paragraf 15 EVO](https://www.gesetze-im-internet.de/evo_2023/__15.html) sind amtliche Einstiegspunkte für ergänzende Nahverkehrsrechte und Schlichtung.
 
-## 14. Musterbausteine
+EuGH, Urteil vom 26.09.2013, C-509/11, [Rn. 37–42, 46–52](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62011CJ0509): Fahrpreisentschädigung kompensiert die mangelhafte Beförderungsleistung pauschal, Artikel 32 CIV betrifft individuell nachgewiesenen Schaden. Bei einer pauschalen Ablehnung wegen höherer Gewalt deshalb jede Anspruchsart und ihren eigenen Ausschlussgrund prüfen. Für zusätzlich verlangte Schäden tatsächlichen Verlust und Rechtsgrund darlegen; die Fahrpreisquote genügt dafür nicht. Eine CIV-Entlastung oder eine Ausnahme aus anderen Verkehrsmitteln nicht ungeprüft auf die Eisenbahnentschädigung übertragen.
 
-- Regulierungstabelle: Position, Betrag, Beleg, Rechtsgrund, Einwand, Risiko und Zahlungsziel.
-- Bußgeld-Einspruch: Bescheid, Zustellung, Messverfahren, Akteneinsicht, konkreter Angriff und Frist.
-- Reisendenforderung: Buchung, Strecke, Ereignis, Ankunftszeit, Anspruch, Betrag und Belege.
+Die damalige Aussage, höhere Gewalt schließe die Fahrpreisentschädigung nicht aus, beruhte auf der früheren VO (EG) 1371/2007. Seit Geltung der VO (EU) 2021/782 sind die ausdrücklichen Ausnahmen des Artikels 19 Absatz 10 maßgeblich. Das Urteil nicht als deren Widerlegung zitieren; heutige Befreiungsvoraussetzungen und verbleibende Erstattungs- und Hilfspflichten konkret zuordnen. Keine ungeprüften Randnummern ergänzen.
 
-## 15. Materienbezogene Arbeitsfelder
+## 1.11. Ergebnis und Grenzen
 
-### 15.1. Entschädigung berechnen
+Liefere das bestellte Dokument unter dem gewünschten Dateinamen in vollständigen Sätzen. Eine Beratung nennt Ergebnis und Empfehlung; eine Forderung oder Klage enthält die notwendige Begründung, Rechnung und Belege. Reiseübersicht und Tabellen nur soweit für das Verständnis erforderlich beifügen, nicht als Pflichtpaket.
 
-Art. 19 VO (EU) 2021/782 — Entschädigung in zwei Stufen: Mindestauszahlung: 4 EUR pro Fahrkarte (Art. 19 Abs. 8). EVU darf Beträge darunter ablehnen. Bezugsgröße: Tatsächlich entrichteter Fahrpreis. Bei Hin- und Rückfahrt-Beförderungsvertrag: halber Fahrpreis als Bezug (Art. 19. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Kontrolliere Anspruchsgegner, Vertragsziel, Reisedaten, Preisanteile, Anrechnung und Fristen sowie die Einarbeitung neuer Antworten. Quellenstatus, technische Zugriffsgrenzen und zusätzliche Recherchebelege in einer getrennten Arbeitsnotiz halten. Keine Fahrkarte kaufen, Forderung versenden, Schlichtung einleiten oder Klage einreichen ohne ausdrückliche Freigabe.
 
-### 15.2. Klage zum Amtsgericht (Fahrgastrechte)
+Formatierte Dokumente in Times New Roman 11 pt und dezimaler Gliederung, sonst Exporthinweis. Ohne Datei- oder Quellenzugriff den konkret benötigten Auszug anfordern und unabhängig bearbeitbare Teile fortsetzen. Ohne Export vollständigen Text statt erfundener Dateilinks liefern; weitere Skills sind optional.
 
-Eine Klage ist ein Rechtsschriftsatz mit Konsequenzen (Gerichtskosten, Streitwert-Risiko, Auslagen). Vor Einreichung Beweislage prüfen — auf konkrete Vorhalt-Antworten der DB reagieren können. Bei komplexen Fällen oder höherem Streitwert anwaltliche Hilfe einholen; ggf. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.12. Anschlussverlust aus dem Kaufvorgang heraus prüfen
 
-### 15.3. Fahrgastrechte — Anlagen bauen
+Beginne nicht bei der Zahl der Fahrkarten, sondern bei der gebuchten Reise und dem tatsächlichen Erwerbsvorgang. Ordne Bestellübersicht, Zahlungsbeleg und Hinweise vor Abschluss einander zu. Eine spätere Standardantwort des Portals, es seien getrennte Verträge gewesen, belegt noch nicht die vor dem Kauf erteilte Information. Frage bei dieser Streitfrage nach der damaligen Bestellansicht oder erhaltenen reproduzierbaren Bestätigung, nicht erneut nach längst bekannten Zugnummern.
 
-`yaml schriftsatz: [pfad zum Schriftsatz, z.B. widerspruch-2026-05-15.md] rohbelegeverzeichnis: [fall]/belege/ ausgabeverzeichnis: [fall]/anlagen/ bundle: true # erzeugt zusätzlich SchriftsatzmitAnlagen.pdf schriftgradstempel: 12 schriftstempel: Arial-Bold # Arial 12 FETT oben. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Bei einer Antwort „Beide Tickets standen in einem Warenkorb, der Hinweis kam erst in der Bestätigung“ prüfe die zeitlichen und inhaltlichen Informationsvoraussetzungen des Artikels 12 genau. Die Verkäuferhaftung ist ein eigener Weg und darf nicht als zusätzliche pauschale Verspätungsquote gegen jedes Eisenbahnunternehmen ausgegeben werden. Ein neuer früherer Hinweis kann die Haftungsbeurteilung ändern; Preis, Anspruchsgegner und Forderungsbegründung dann gemeinsam anpassen. Keine vorvertragliche Information als fehlend behaupten, wenn nur ihr Beleg noch fehlt.
 
-### 15.4. Katalog der DB-Ablehnungsgründe und Gegenargumente
+Für die Zielverspätung verbinde tatsächliche Weiterreise und Vertragsziel. Erreicht die Reisende den Zielbahnhof deutlich früher als aufgrund des ursprünglichen Anschlussverlusts erwartet, beeinflusst dies die Entschädigung, während die ursprünglich erwartete Verspätung für ein ausgeübtes Wahlrecht weiterhin relevant sein kann. Nicht dieselbe Zeitangabe unbesehen für alle Anspruchsarten verwenden. Bei einer nicht durchgeführten Reise tatsächliche Ankunft nicht erfinden, sondern Reiseabbruch und Erstattung prüfen.
 
-Generell: Beweislast für außergewöhnliche Umstände und die Ergreifung zumutbarer Maßnahmen liegt beim Eisenbahnverkehrsunternehmen (Art. 19 Abs. 10 VO 2021/782 — Wortlaut "nachweisen kann"). Pauschale Behauptungen ohne Belege reichen nicht. Beweislast für Ankunftszeit. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.13. Selbst organisierte Reise und Kosten belegen
 
-### 15.5. Eigenbeförderung und Betreuung (Art. 18. 20 VO; Paragraf 11 EVO)
+Erstelle intern die kurze zeitliche Kette aus Störungsinformation, Nachfrage, Angebot des Unternehmens, eigener Buchung und Fahrt. Frage nach dem fehlenden Zeitpunkt nur, wenn er Zustimmung, fehlende Alternative oder die 100-Minuten-Regel beeinflusst. Die bloße Existenz eines Ersatztickets belegt die Ausgabe, aber nicht die Voraussetzungen der Kostenerstattung. Eine abstrakt im Fahrplan sichtbare Verbindung ist wiederum nicht ohne Weiteres eine tatsächlich mitgeteilte und nutzbare Alternative.
 
-Tatbestand: Wenn dem Fahrgast die verfügbaren Optionen für Weiterreise mit geänderter Streckenführung nicht binnen 100 Minuten nach planmäßiger Abfahrtszeit des verspäteten oder ausgefallenen Verkehrsdienstes oder des verpassten Anschlusses mitgeteilt werden, ist der Fahrgast. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Die Antwort „Nach 70 Minuten wurde ein kostenloser Ersatzbus angeboten, ich nahm trotzdem ein Taxi“ führt nicht schematisch zur 100-Minuten-Erstattung. Prüfe die konkrete Nutzbarkeit des Angebots und gesonderte Grundlagen, etwa einschlägige Nahverkehrsrechte. Art des Ersatzverkehrsmittels, tatsächliche Abfahrtsmöglichkeit und individuelle Zugänglichkeit sauber benennen. Verbleibt kein tragfähiger Rechtsgrund, erkläre den ungedeckten Kostenanteil statt eine volle Taxiforderung mit einer unpassenden Bahnnorm zu formulieren.
 
-### 15.6. Einführung VO (EU) 2021/782 — Fahrgastrechte Eisenbahn
+Bei Übernachtung kläre ausgefallene letzte Verbindung, erreichbare Alternativen, Unternehmensangebot, Zahl der Reisenden und tatsächlich bezahlte Unterkunft. Trenne Übernachtung, notwendige Anfahrt und Verpflegung. Eine Sammelquittung für mehrere Personen nicht jedem Reisenden vollständig zurechnen. Bei privater Übernachtung keinen fiktiven Hotelpreis erfinden. Besondere Unterbringungsbegrenzungen nur bei ihren konkreten Voraussetzungen anwenden, nicht aus einer außergewöhnlichen Ursache pauschal jede Betreuung ablehnen.
 
-VO (EU) 2021/782 vom 29. April 2021 — Neufassung, in Kraft seit 7. Juni 2023, ersetzt VO (EG) 1371/2007. ABl. L 172 vom 17.5.2021, S. 1. eur-lex.europa.eu (CELEX 32021R0782). - EVO 2023 — Eisenbahnverkehrs-Verordnung vom 4. August 2023 (BGBl. 2023 I Nr. 208). Ergänzt die EU-VO. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Nach einer ergänzten Quittung aktualisiere nur die betroffene Position. Wird ein Teil vom Unternehmen unmittelbar bezahlt, diese Leistung nicht nochmals als eigener Aufwand fordern. Eine spätere Fahrpreiserstattung verändert den Fahrpreiszweig; sie erledigt nicht ohne Prüfung alle Mehrkosten. Führe Anspruchsgrund, Betrag und Zahlung so zusammen, dass Entschädigung, Erstattung und tatsächlicher Aufwand nachvollziehbar getrennt bleiben.
 
-### 15.7. Forderungsschreiben — Erste Stufe
+## 1.14. Konkrete Ablehnung beantworten und Verfahren begrenzen
 
-DB Dialog GmbH — Servicecenter Fahrgastrechte, 60647 Frankfurt am Main (Postanschrift; korrekter Postweg auch bei Online-Antrag, wenn schriftliche Spur gewünscht). - Alternativ: Online-Formular auf bahn.de/fahrgastrechte oder über die DB Navigator-App. Empfehlung: parallel. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Bei Ablehnung wegen außergewöhnlicher Umstände erfasse den behaupteten Vorfall, betroffenen Streckenabschnitt und Zusammenhang mit der Zielverspätung. „Schlechtes Wetter“ als Etikett beantwortet die Befreiungsvoraussetzungen nicht vollständig. Fordere die konkrete Begründung an und prüfe den Nachweismaßstab für Artikel 19 Absatz 10. Das historische Urteil C-509/11 trägt die Unterscheidung der Anspruchsarten, aber keinen pauschalen Ausschluss heutiger Befreiungsregeln. Betreuung und gewähltes Erstattungsrecht gesondert behandeln.
 
-### 15.8. Schlichtungsstelle Reise & Verkehr e.V. anrufen
+Bei bestrittenem Ankunftszeitpunkt können zeitnahe Nachrichten, Fotos oder Unternehmensdaten die Rechnung ändern. Ergibt sich statt 130 Minuten eine belegte Zielverspätung von 110 Minuten, ändere die Entschädigungsstufe und alle darauf bezogenen Aussagen. Die längere Verspätung eines Zwischenzugs rechtfertigt kein Festhalten an der höheren Quote. Ein noch fehlender Nachweis darf als konkrete Lücke benannt werden; keine amtliche Bestätigung erfinden.
 
-1. Vorgerichtliche Geltendmachung beim EVU. Der Anspruch muss zunächst bei der DB / dem EVU geltend gemacht und mindestens vier Wochen lang ohne befriedigende Antwort geblieben oder abgelehnt worden sein. 2. Keine anhängige Klage: Die Schlichtung scheidet aus, wenn der Anspruch. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Die beauftragte Antwort nennt Reise, richtigen Schuldner, ausgeübtes Wahlrecht, den konkreten Ablehnungsgrund und die korrigierte Forderung. Prüfe die Beschwerdefrist des Artikels 28 und eine mögliche Anspruchsverjährung getrennt; ein offenes Servicegespräch ist keine automatisch gesicherte Fristhemmung. Bei gewünschter Schlichtung Antrag und Anlagen auf den verbleibenden Streit beschränken. Bei gewünschter Klage Vertretung und Forderungszuordnung mehrerer Reisender zuvor klären. Nicht aus jeder Ablehnung einen behördlichen Widerspruch oder eine Klage machen.
 
-### 15.9. Ticket- und Reisedaten erfassen
-
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.10. Verspätung, Zugausfall oder Anschlussverlust einordnen
-
-Fernverkehr (ICE, IC, EC, FlixTrain, ÖBB) → Art. 19 VO ungeschmälert (60/120 Min). - SPNV (RE, RB, S-Bahn im SPNV-Sinn) → Art. 19 VO ungeschmälert PLUS Paragraf 11 EVO Zusatzrechte (20-Min-Schwelle für Alternativzug; 120-EUR-Limit Ersatzbeförderung bei Nachtfahrt). Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.11. Vollmacht für Mitreisende
-
-``` Vollmacht Ich, [Vor- und Nachname Vollmachtgeber:in], geboren am [Geburtsdatum], wohnhaft [Adresse], bevollmächtige hiermit [Vor- und Nachname Vollmachtnehmer:in], geboren am [Geburtsdatum], wohnhaft [Adresse], mich in allen Angelegenheiten betreffend meinen Anspruch. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.12. Fahrgastrechte-Widerspruch — Skill
-
-Der Nutzer lädt typischerweise drei Dokumente hoch: 1. Ablehnungsschreiben der DB — der Brief, in dem die DB den Antrag ablehnt (PDF oder Foto). 2. Ursprünglicher Antrag — das vom Nutzer ausgefüllte Fahrgastrechte-Formular bzw. die Bestätigung (PDF, Screenshot oder Foto). 3. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.13. Kaltstart Triage
-
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese: - Frist oder Sofortrisiko. - erkannte Rolle, Zielrichtung und Verfahrensstand. - tragende Tatsachen aus dem Material. - bester nächster. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Vor Freigabe kontrolliere Reisedatum, Preisanteile, bereits erbrachte Leistungen und Erstattungsweg. Einen Gutschein nur entsprechend der tatsächlichen Wahl behandeln, keinen Verzicht auf Geldzahlung erfinden. Fehlende Belege sperren die endgültige Bezifferung der betroffenen Position, nicht das vollständige Schreiben zu den gesicherten Ansprüchen. Kauf, Forderungsversand, Schlichtungsantrag und Klage bleiben externe Handlungen mit Freigabebedarf.

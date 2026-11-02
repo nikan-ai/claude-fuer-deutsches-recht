@@ -1,6 +1,6 @@
 ---
 name: besitzuebernahme
-description: "Wenn es um Besitzerlangung und Objektaufnahme in ZVG-Zwangsverwaltung - Verwalter-Cockpit geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Besitzerlangung und Objektaufnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Besitzerlangung und Objektaufnahme
@@ -64,10 +64,6 @@ Besitzerlangung über das Zwangsverwaltungsobjekt nach § 150 ZVG. Anwendungsfal
 - § 3 ZwVwV
 - § 152 ZVG
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Besitzübernahme
 
 § 150 ZVG (Besitzeinweisung durch Gericht) → § 152 ZVG (Rechte und Pflichten ab Besitzerlangung) → § 3 ZwVwV (Besitzerlangung und Bericht) → § 858 BGB (verbotene Eigenmacht) → § 869 BGB (Besitzschutz Zwangsverwalter) → § 154 ZVG (Gerichtshilfe bei Verweigerung)
@@ -99,3 +95,5 @@ Anwesende: [ZWANGSVERWALTER, ZEUGE, ggf. SCHULDNER, MIETER]
 Unterschrift Zwangsverwalter: ___________________
 Unterschrift Zeuge: ___________________
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

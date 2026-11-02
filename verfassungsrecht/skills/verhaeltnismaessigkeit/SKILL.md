@@ -1,6 +1,6 @@
 ---
 name: verhaeltnismaessigkeit
-description: "Wenn es um Verhältnismäßigkeit (Vier-Stufen-Prüfung) in verfassungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verhältnismäßigkeit (Vier-Stufen-Prüfung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verhältnismäßigkeit (Vier-Stufen-Prüfung)
@@ -49,7 +49,6 @@ Skill `bverfg-rechtsprechung-recherchieren` zuerst. Pinpoint pro tragender Aussa
 **Frage:** Ist das Mittel zur Erreichung des Zwecks geeignet?
 
 - **Maßstab:** Das Mittel muss den Zweck **fördern können** (nicht: vollständig erreichen).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Eingeschränkter Maßstab: **Evident ungeeignet** bedeutet verfassungswidrig.
 
 ### Stufe 3 — Erforderlichkeit
@@ -75,7 +74,6 @@ Skill `bverfg-rechtsprechung-recherchieren` zuerst. Pinpoint pro tragender Aussa
 
 **Indikatoren für hohe Eingriffsintensität** (Verschärfung der Anforderungen):
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Heimliche Eingriffe ohne Kenntnis des Betroffenen
 - Streubreite (viele Unbeteiligte betroffen)
 - Lange Dauer / Dauerwirkung
@@ -146,3 +144,5 @@ Gesamtergebnis: [verhältnismäßig / unverhältnismäßig auf Stufe ___]
 ## Disclaimer-Wiederholung
 
 Die Verhältnismäßigkeitsabwägung ist im konkreten Einzelfall hochsensibel und wird im Streitfall verbindlich nur durch das BVerfG entschieden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

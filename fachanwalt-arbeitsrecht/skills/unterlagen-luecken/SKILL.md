@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Fachanwalt Arbeitsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Fachanwalt Arbeitsrecht."
 ---
 
 # Unterlagen und Lücken
@@ -23,7 +23,7 @@ Diese Unterlagenprüfung für **Fachanwalt Arbeitsrecht** benennt fehlende Dokum
 - `befristung-tzbfg` — Befristung Tzbfg BEM Verfahren Fazugang
 - `beteiligung-betriebsrat-102-betrvg` — Beteiligung Betriebsrat Erstgespraech
 - `betriebsrat-zahlen-schwellen-und-berechnung` — Betriebsrat BETRVG Datum
-- `betriebsratswahl-anfechtung-leiharbeit-bag-7-abr-4-21` — Betriebsratswahl Anfechtung Leiharbeit BAG 7 ABR 4 21
+- `betriebsratswahl-leiharbeit-wahlrecht-anfechtung` — Leiharbeitnehmer bei der Betriebsratswahl prüfen
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake
 

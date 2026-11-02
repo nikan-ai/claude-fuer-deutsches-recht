@@ -1,6 +1,6 @@
 ---
 name: potenzieller-wettbewerb-marktzutritt
-description: "Wenn es um Potenzieller Wettbewerb und Markteintrittsschranken in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Potenzieller Wettbewerb und Markteintrittsschranken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Potenzieller Wettbewerb und Markteintrittsschranken
@@ -35,7 +35,6 @@ Zeitrahmen: Fusionskontrolle üblicherweise 2 Jahre; Missbrauchsverfahren kontex
 
 ### 2. Strategische Schranken
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Exklusive Verträge, die potenziellen Kunden binden.
 - Patentstrategien und Standardisierung.
 
@@ -72,6 +71,6 @@ Potenzieller Wettbewerb diszipliniert Marktmacht: **ja / eingeschränkt / nein**
 
 ## Leitentscheidungen Potenzieller Wettbewerb
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - EK, Horizontal Merger Guidelines 2004 Rn. 68-79 — Potenzieller Wettbewerb; glaubwuerdige Marktzutrittsdrohung bei niedrigen Barrieren; Zeitrahmen 2 Jahre.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

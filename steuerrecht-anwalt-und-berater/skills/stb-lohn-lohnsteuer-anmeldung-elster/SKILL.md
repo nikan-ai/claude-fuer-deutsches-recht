@@ -1,6 +1,6 @@
 ---
 name: stb-lohn-lohnsteuer-anmeldung-elster
-description: "Wenn es um Lohnsteuer-Anmeldung ueber ELSTER in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Lohnsteuer-Anmeldung über ELSTER: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Lohnsteuer-Anmeldung ueber ELSTER
@@ -122,7 +122,6 @@ Stand: 05/2026.
 - LStR.
 - SolZ-Freigrenze 2025: 18.130 EUR ESt (Einzel); Milderungszone § 3 Abs. 3 SolZG; aktuelle Freigrenze jaehrlich pruefen (SolZG).
 
-<!-- AUDIT 27.05.2026 | welle 6 | 1 Marker aufgeloest: 1 bestaetigt (SolZ-Freigrenze 2025 eingesetzt) -->
 
 
 ## Qualitäts-Hardening

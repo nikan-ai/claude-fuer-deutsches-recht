@@ -1,6 +1,6 @@
 ---
 name: start-chronologie-fristen
-description: "Wenn es um Zwangsvollstreckung — Allgemein in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Zwangsvollstreckung — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix."
 ---
 
 # Zwangsvollstreckung — Allgemein
@@ -69,7 +69,7 @@ Arbeite danach in dieser Reihenfolge:
 1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
 2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
 3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
-4. **Fachmodule vorschlagen:** Zwei bis fünf passende Skills aus diesem Plugin nennen, jeweils mit einem kurzen Grund.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
 5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
 6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
 
@@ -105,29 +105,13 @@ Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
 **Nächste Frage**
 [Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
 
-### 5. Fachmodule in diesem Plugin
+### 5. Fachmodule gezielt und sparsam laden
 
-| Skill | Wann vorschlagen? |
-|---|---|
-| `zv-abwehr-schuldner` | Schuldner will sich gegen laufende Zwangsvollstreckung wehren oder hat unrechtmäßigen Pfaendungs-Beschluss erhalten. §§ 766 767 768 771 765a 850k 769 ZPO Schuldnerrechte. Prüfraster: Erinnerung § 766 formale Maengel… |
-| `zv-elektronische-zustellung-2027` | Gläubiger oder Kreditinstitut fragt nach Digitalisierung der Zwangsvollstreckung nach BGBl. 2026 I Nr. 152: elektronischer PfÜB-Antrag ab 1.10.2026, XML-Datensatz ab 1.1.2027 und sicherer Übermittlungsweg für Banken ab 1.6.2027. |
-| `zv-eu-kontenpfaendung-655-2014` | Gläubiger hat Schuldner der im EU-Ausland ein Bankkonto haelt und moechte dieses vorlaeufig sichern. EuKtPVO VO (EU) 655/2014 §§ 946 ff. ZPO. Prüfraster: Antrag deutsches Gericht Glaubhaftmachung Anspruch… |
-| `zv-kommandocenter` | Gläubiger oder Anwalt hat vollstreckbaren Titel und fragt: Welche Vollstreckungsart ist im konkreten Fall am sinnvollsten und wie wird sie eingeleitet? Startpunkt Zwangsvollstreckung. Prüfraster: Titelart und… |
-| `zv-kontensuche-drittschuldner` | Gläubiger hat Urteil aber kein bekanntes Konto oder Arbeitgeber des Schuldners. § 802l ZPO Drittauskunfte. Prüfraster: Rentenversicherung Bund Bundeszentralamt für Steuern Kontenabruf Kraftfahrt-Bundesamt… |
-| `zv-mahnbescheid-online` | Gläubiger will Forderung ohne Klage per Mahnbescheid titulieren lassen. §§ 688 ff. ZPO Online-Mahnverfahren. Prüfraster: Schlüssigkeitsprüfung Antragstyp Gerichtsstand Hauptforderung Nebenforderungen Zinsen… |
-| `zv-mobiliar-gv-auftrag` | Gläubiger beauftragt Gerichtsvollzieher mit Sachpfaendung beweglicher Gegenstaende beim Schuldner. §§ 808 ff. ZPO Mobiliar-Pfaendung. Prüfraster: GV-Auftrag Modulwahl § 802a ZPO Anlaufstellen Wohnung Geschäftsräume… |
-| `zv-notarielle-urkunde-grundschuld` | Gläubiger hat notarielle Grundschuld-Urkunde und will vollstrecken. § 794 Abs. 1 Nr. 5 ZPO Zwangsvollstreckung aus notarieller Urkunde. Prüfraster: Unterwerfungsklausel dinglich und persoenlich Klauselumschreibung §… |
-| `zv-pfaendungstabelle-2025` | Lohnpfaendung oder Rentenpfaendung ist beantragt und der pfaendbare Betrag muss konkret berechnet werden. Pfaendungsfreigrenzenbekanntmachung 1.7.2025 gueltig bis 30.6.2026. Prüfraster: Freibetrag § 850c ZPO… |
-| `zv-pfueb-arbeitsentgelt` | Gläubiger will Lohn oder Gehalt des Schuldners pfaenden lassen. §§ 829 835 850 ff. ZPO Lohnpfaendung PfUeB. Prüfraster: PfUeB gegen Arbeitgeber als Drittschuldner pfaendbarer Betrag Pfaendungstabelle 1.7.2025 bis… |
-| `zv-pfueb-bank` | Gläubiger will Bankkonto des Schuldners pfaenden lassen. §§ 829 835 ZPO PfUeB Bankkonten. Prüfraster: Antrag Drittschuldner-Bank P-Konto-Schutz § 850k ZPO Sockelbetrag Kindergeld Erhöhungen ZVollstrDigitG XML-Antrag ab… |
-| `zv-pfueb-mieter-finanzamt` | Gläubiger will Mietforderung Steuererstattung oder Forderung gegen sonstigen Drittschuldner pfaenden. §§ 829 835 851 850b ZPO sonstige Drittschuldner. Prüfraster: Mieter Mietzinsforderung Finanzamt Steuererstattung… |
-| `zv-raeumung-885` | Vermieter hat Räumungsurteil und will Wohnung oder Gewerberaum räumen lassen. § 885 ZPO Räumungsvollstreckung. Prüfraster: Räumungstitel Klausel Zustellung Mitbewohner Kinder Untermieter Drittwiderspruch § 771… |
-| `zv-tabellenauszug-201-inso` | Gläubiger hat Insolvenzforderung die im Verfahren festgestellt wurde und will nach Insolvenzende vollstrecken. § 201 Abs. 2 InsO Tabellenauszug als Titel. Prüfraster: Voraussetzungen festgestellt nicht bestritten kein… |
-| `zv-titel-klausel-zustellung` | Gläubiger hat Urteil oder sonstigen Titel und prüft vor Vollstreckungsbeginn die drei formalen Voraussetzungen. §§ 704 724 750 ZPO Titel Klausel Zustellung. Prüfraster: vollstreckbarer Titel Vollstreckungsklausel… |
-| `zv-vermoegensauskunft-gv` | Gläubiger weiss nichts über Vermögen des Schuldners und will Auskunft erzwingen. § 802c ZPO Vermogensauskunft EV. Prüfraster: Antrag beim GV Sperrfrist 2 Jahre § 802d ZPO Eintragung Schuldnerverzeichnis § 882b ZPO… |
-| `zv-vollstreckungsbescheid-folge` | Mahnbescheid wurde erlassen und Gläubiger muss entscheiden wie es weitergeht. § 699 ZPO Vollstreckungsbescheid Online-Mahnportal. Prüfraster: Beantragung VB Reaktion auf Einspruch § 700 ZPO Übergang streitiges… |
-| `zv-vollstreckungsschutz-haertefall-765a` | Schuldner ist schwerkrank suizidgefaehrdet oder sonst besonders schutzbedürftig und will Vollstreckung stoppen. § 765a ZPO Vollstreckungsschutz sittenwidrige Haerte. Prüfraster: Antrag Einstellung oder Beschraenkung… |
-| `zv-zvg-antrag-glaeubiger` | Gläubiger hat Grundschuld oder Hypothek und will Immobilie des Schuldners versteigern lassen. ZVG Zwangsversteigerungsgesetz. Prüfraster: Antrag Anordnung §§ 15 ff. ZVG Beitritt § 27 ZVG geringstes Gebot Bargebot… |
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
 
 ## Worum geht es?
 
@@ -179,25 +163,25 @@ Einbezogen sind auch EU-grenzueberschreitende Maßnahmen (EuKtPVO) und der Schul
 
 ## Skill-Tour (was gibt es hier?)
 
-- `zv-kommandocenter` — Routing: Welche Vollstreckungsart ist im konkreten Fall am sinnvollsten? Überblick und Weiterleitung.
-- `zv-mahnbescheid-online` — Mahnbescheid online beantragen und Vollstreckungsbescheid erwaerken nach §§ 688 ff. ZPO.
-- `zv-vollstreckungsbescheid-folge` — Nach Mahnbescheid: Vollstreckungsbescheid beantragen oder auf Widerspruch reagieren.
-- `zv-titel-klausel-zustellung` — Formale Trias prüfen: vollstreckbarer Titel, Vollstreckungsklausel, Zustellung an Schuldner.
-- `zv-pfueb-bank` — PfUeB für Bankkonto beantragen; Drittschuldner-Erklarung, P-Konto-Schutz.
-- `zv-pfueb-arbeitsentgelt` — PfUeB für Arbeitseinkommen; Pfaendungsfreigrenze nach § 850c ZPO berechnen.
-- `zv-pfueb-mieter-finanzamt` — PfUeB für Mietforderung, Steuererstattung oder sonstige Drittschuldner-Forderung.
-- `zv-pfaendungstabelle-2025` — Pfaendungsfreien Betrag nach aktueller Pfaendungstabelle (Stand 2025) konkret berechnen.
-- `zv-kontensuche-drittschuldner` — § 802l-Kontensuche und Drittauskunft wenn Konto oder Arbeitgeber des Schuldners unbekannt sind.
-- `zv-vermoegensauskunft-gv` — Vermögensauskunft nach § 802c ZPO durch Gerichtsvollzieher beantragen.
-- `zv-mobiliar-gv-auftrag` — Gerichtsvollzieher mit Sachpfaendung beweglicher Gegenstaende beauftragen (§§ 808 ff. ZPO).
-- `zv-raeumung-885` — Raeumungsvollstreckung nach § 885 ZPO; Gerichtsvollzieher-Auftrag, Berliner Raeumung.
-- `zv-notarielle-urkunde-grundschuld` — Vollstreckung aus notarieller Grundschuld-Urkunde nach § 794 Abs. 1 Nr. 5 ZPO.
-- `zv-zvg-antrag-glaeubiger` — ZVG-Antrag auf Zwangsversteigerung oder Zwangsverwaltung bei Immobilien.
-- `zv-tabellenauszug-201-inso` — Vollstreckung aus Insolvenz-Tabellenauszug nach § 201 InsO nach Verfahrensende.
-- `zv-eu-kontenpfaendung-655-2014` — Vorlaeufige EU-Kontenpfaendung nach EuKtPVO bei EU-Auslandskonto des Schuldners.
-- `zv-vollstreckungsschutz-haertefall-765a` — Haertefall-Schutzantrag für besonders schutzbeduerftige Schuldner nach § 765a ZPO.
-- `zv-abwehr-schuldner` — Schuldner-Abwehrmassnahmen: sofortige Beschwerde, Vollstreckungserinnerung, Haertefall, P-Konto.
-- `zv-elektronische-zustellung-2027` — Digitalisierung der Zwangsvollstreckung ab 2026/2027: neue Pflichten und Verfahren.
+- `kommandocenter` — Routing: Welche Vollstreckungsart ist im konkreten Fall am sinnvollsten? Überblick und Weiterleitung.
+- `mahnbescheid-online-mobiliar-gv` — Mahnbescheid online beantragen und Vollstreckungsbescheid erwaerken nach §§ 688 ff. ZPO.
+- `vollstreckungsbescheid-zv` — Nach Mahnbescheid: Vollstreckungsbescheid beantragen oder auf Widerspruch reagieren.
+- `titel-klausel-zustellung` — Formale Trias prüfen: vollstreckbarer Titel, Vollstreckungsklausel, Zustellung an Schuldner.
+- `pfueb-bank` — PfUeB für Bankkonto beantragen; Drittschuldner-Erklarung, P-Konto-Schutz.
+- `pfueb-arbeitsentgelt` — PfUeB für Arbeitseinkommen; Pfaendungsfreigrenze nach § 850c ZPO berechnen.
+- `pfueb-802l-arbeit` — PfUeB für Mietforderung, Steuererstattung oder sonstige Drittschuldner-Forderung.
+- `pfaendungstabelle-pfueb-arbeitsentgelt` — Pfaendungsfreien Betrag nach aktueller Pfaendungstabelle (Stand 2025) konkret berechnen.
+- `kontensuche-drittschuldner` — § 802l-Kontensuche und Drittauskunft wenn Konto oder Arbeitgeber des Schuldners unbekannt sind.
+- `vermoegensauskunft-gv` — Vermögensauskunft nach § 802c ZPO durch Gerichtsvollzieher beantragen.
+- `mobiliar-gv-auftrag` — Gerichtsvollzieher mit Sachpfaendung beweglicher Gegenstaende beauftragen (§§ 808 ff. ZPO).
+- `raeumung-tabellenauszug-inso` — Räumungsvollstreckung nach Paragraf 885 ZPO; Gerichtsvollzieherauftrag und beschränkte Räumung nach Paragraf 885a ZPO.
+- `notarielle-urkunde-grundschuld` — Vollstreckung aus notarieller Grundschuld-Urkunde nach § 794 Abs. 1 Nr. 5 ZPO.
+- `zvg-antrag-glaeubiger` — ZVG-Antrag auf Zwangsversteigerung oder Zwangsverwaltung bei Immobilien.
+- `tabellenauszug-201-inso` — Vollstreckung aus Insolvenz-Tabellenauszug nach § 201 InsO nach Verfahrensende.
+- `eu-kontenpfaendung-655-2014` — Vorlaeufige EU-Kontenpfaendung nach EuKtPVO bei EU-Auslandskonto des Schuldners.
+- `vollstreckungsschutz-haertefall-765a` — Haertefall-Schutzantrag für besonders schutzbeduerftige Schuldner nach § 765a ZPO.
+- `abwehr-schuldner` — Schuldner-Abwehrmassnahmen: sofortige Beschwerde, Vollstreckungserinnerung, Haertefall, P-Konto.
+- `elektronische-zustellung-eu` — Digitalisierung der Zwangsvollstreckung ab 2026/2027: neue Pflichten und Verfahren.
 
 ## Worauf besonders achten
 
@@ -219,6 +203,6 @@ Einbezogen sind auch EU-grenzueberschreitende Maßnahmen (EuKtPVO) und der Schul
 
 - Stand: 05/2026
 - ZPO, ZVG, InsO in aktuell geltender Fassung
-- Pfaendungsfreigrenzenbekanntmachung 2025 (BGBl. 2025 I Nr. 110 vom 11.04.2025), gueltig 01.07.2025 bis 30.06.2026. Quelle: https://www.recht.bund.de/bgbl/1/2025/110/VO.html
+- Pfändungsfreigrenzenbekanntmachung 2026 vom 19. März 2026 (BGBl. 2026 I Nr. 80), gültig vom 1. Juli 2026 bis 30. Juni 2027. Amtliche Quelle: https://www.gesetze-im-internet.de/pf_ndfreigrbek_2026/
 - Justizstandort-Staerkungsgesetz (BGBl. 2025 I Nr. 318 vom 11.12.2025): ab 01.01.2026 Amtsgerichts-Zuständigkeit bis 10.000 EUR (§ 23 GVG n.F.), Berufungssumme 1.000 EUR (§ 511 Abs. 2 ZPO n.F.); Uebergangsvorschrift § 47 EGZPO.
 - EuKtPVO (VO 655/2014) unmittelbar anwendbar.

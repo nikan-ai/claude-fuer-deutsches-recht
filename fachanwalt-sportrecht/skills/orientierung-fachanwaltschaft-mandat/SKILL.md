@@ -1,6 +1,6 @@
 ---
 name: orientierung-fachanwaltschaft-mandat
-description: "Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Orientierung Fachanwaltschaft Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt für Sportrecht."
 ---
 
 # Anwalt will Fachanwaltschaft Sportrecht erwerben oder Mandat im Sportrecht bearbeiten und braucht Orientierung
@@ -80,4 +80,4 @@ description: "Wenn es um Orientierung Fachanwaltschaft Mandat in Fachanwalt Spor
 
 ## Ergaenzende Rechtsprechung (2026-Update)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

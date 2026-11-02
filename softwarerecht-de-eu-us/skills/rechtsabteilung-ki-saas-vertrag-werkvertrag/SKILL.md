@@ -1,6 +1,6 @@
 ---
 name: rechtsabteilung-ki-saas-vertrag-werkvertrag
-description: "Wenn es um Rechtsabteilung: digitale Werkzeuge-Code und Trainingsdaten im Lizenzvertrag in Softwarerecht Deutschland/EU/International/USA geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Rechtsabteilung: digitale Werkzeuge-Code und Trainingsdaten im Lizenzvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsabteilung: KI-Code und Trainingsdaten im Lizenzvertrag
@@ -55,3 +55,4 @@ AI-assisted coding wird mit Warranty, Audit, Indemnity und Source-Hygiene gerege
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie Vertrag, Anleitung und tatsächlich ausgelieferten Funktionsumfang. Modellanpassung, Änderung der Zweckbestimmung und wesentliche Systemänderung sind verschiedene Fragen und benötigen jeweils technische Belege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

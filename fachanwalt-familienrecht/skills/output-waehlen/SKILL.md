@@ -1,6 +1,6 @@
 ---
 name: output-waehlen
-description: "Wenn es um Output wählen in Fachanwalt Familienrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Familienrecht."
 ---
 
 # Output wählen
@@ -12,20 +12,20 @@ Diese Output-Weiche für **Fachanwalt Familienrecht** entscheidet, ob Memo, Antr
 ## Fachlandkarte dieses Plugins
 
 - `anpassung-wegen-unterhalt-33-ff-versausglg` — Anpassung Wegen Anwartschaft Dynamisch
-- `anrechte-dokumentenintake` — Anrechte Dokumentenintake
+- `versorgungsauskuenfte-und-anrechtswerte-pruefen` — Anrechte Dokumentenintake
 - `beamtenrechtliche-kuerzung-und-rueckausnahme` — Beamtenrechtliche Kuerzung Beamtenversorgung
 - `ehegattenrecht-internationales-art-13-egbgb` — Ehegattenrecht Internationales ART 13 Egbgb
-- `ehevertrag-sittenwidrigkeit-bgh-xii-zr-129-04` — Ehevertrag Sittenwidrigkeit BGH XII ZR 129 04
-- `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme EU
+- `ehevertrag-inhalts-und-ausuebungskontrolle` — Ehevertrag kontrollieren
+- `familienmandat-aufnehmen-und-sofortmassnahmen-planen` — Erstgespraech Mandatsannahme EU
 - `workflow-fristen-und-risikoampel` — FA Familienrecht Fristen Risiko Mandant
 - `kindeswohlgefaehrdung-eilantrag` — Fachanwalt Familienrecht
 - `famfg-quellenkarte` — Famfg Quellenkarte
 - `familiengericht-verhandlung-vergleich-und-eskalation` — Familiengericht Familienrecht
-- `famr-mandantenaufnahme-spezial` — Famr Mandantenaufnahme Regenbogenfamilien
+- `familienmandat-aufnehmen-und-sofortmassnahmen-planen` — Famr Mandantenaufnahme Regenbogenfamilien
 - `allgemein-familienrecht-normenradar` — Famr Trennungsfolgen
 - `geringfuegigkeit-18-versausglg` — Geringfuegigkeit Versausglg Gesetzliche
-- `dokumente-intake` — Dokumente Intake
-- `einstieg-routing` — Einstieg Routing
+- `familienakte-ordnen-und-belege-anfordern` — Dokumente Intake
+- `familienmandat-aufnehmen-und-sofortmassnahmen-planen` — Einstieg Routing
 
 ## Arbeitsweg
 

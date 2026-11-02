@@ -1,6 +1,6 @@
 ---
 name: fachberaterbezeichnung-rechtsprechungscheck
-description: "Wenn es um Fachberaterbezeichnung Rechtsprechungscheck in Berufsrecht Steuerberater geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Fachberaterbezeichnung Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Steuerberater: fachberaterbezeichnung - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
@@ -14,13 +14,17 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
 - `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Verifizierter Rechtsprechungsanker
+
+- BFH, Urteil vom 23.02.2010 - VII R 24/09: Die nicht amtlich verliehene Bezeichnung „Fachberater für Sanierung und Insolvenzverwaltung (DStV)“ darf nicht als Zusatz unmittelbar neben der Berufsbezeichnung „Steuerberater“ geführt werden. Eine räumlich abgesetzte Werbung mit der Zusatzqualifikation ist davon zu trennen. Prüfe deshalb Wortlaut, Platzierung und Gesamteindruck des konkreten Werbemittels.
 
 ## Arbeitsweg
 

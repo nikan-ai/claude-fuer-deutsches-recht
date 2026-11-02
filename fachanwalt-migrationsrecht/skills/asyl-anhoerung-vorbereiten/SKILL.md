@@ -1,6 +1,6 @@
 ---
 name: asyl-anhoerung-vorbereiten
-description: "Wenn es um Asyl Anhoerung Vorbereiten in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Asyl Anhörung Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Asylsuchender muss zum BAMF zur Anhörung und Anwalt bereitet die Schilderung der Fluchtgründe vor
@@ -61,9 +61,7 @@ description: "Wenn es um Asyl Anhoerung Vorbereiten in Fachanwalt Migrationsrech
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | BVerwGE 124, 276 | BVerwG, 18.02.2021 | Subsidiärer Schutz bewaffneter Konflikt; innerstaatliche Fluchtalternative |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -95,7 +93,6 @@ description: "Wenn es um Asyl Anhoerung Vorbereiten in Fachanwalt Migrationsrech
 | 10 | Dolmetscher-Eignung prüfen (Dialekt, Vertrauen, keine Verfolger-Nationalität) | § 25 AsylG |
 | 11 | Logistik sichern (Anreise, Vollmacht, Beistand-Anmeldung) | § 25 Abs. 5 AsylG |
 | 12 | Vortrag strukturieren: chronologisch, konkret, eigene Wahrnehmung | Keine Spekulation |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 14 | Protokoll-Prüfung nach Anhörung: Korrekturen vor Unterschrift | § 25 AsylG |
 | 15 | Ergänzungsschreiben BAMF bei vergessenen Aspekten (mit Fristsetzung) | Mitwirkungspflicht |
 
@@ -176,7 +173,6 @@ II. Verfahrensfehler
  [konkret] wurde nicht abschließend erörtert.
 2. Dolmetscher sprach nicht den Dialekt des Mandanten [konkret].
 3. Trauma-Attest wurde dem BAMF nicht zur Kenntnis gegeben;
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 III. Materielles Schutzbegehren
 [Verfolgungshandlungen, Akteur, fehlender Schutz, keine
@@ -185,7 +181,6 @@ innerstaatliche Fluchtalternative]
 IV. Anordnungsgrund
 Ohne aufschiebende Wirkung droht Überstellung nach [Staat] /
 Abschiebung in den Herkunftsstaat. Dies verletzt Art. 33 GFK,
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 M.S.S. ./. Belgien).
 
 Mit freundlichen Grüßen
@@ -241,7 +236,6 @@ Mit freundlichen Grüßen
 |---|---|---|
 | Glaubhaftmachung Verfolgungsgefahr | Antragsteller | Eigener Vortrag, Dokumente, Atteste, Zeugen (§ 25 AsylG) |
 | Innerstaatliche Fluchtalternative | BAMF | BAMF trägt Darlegungslast; Einzelfallprüfung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Systemische Mängel Dublin-Erstland | Antragsteller | EGMR-Urteile, Länderberichte (UNHCR, AIDA) |
 | Trauma-bedingte Inkonsistenz erklärt | Antragsteller | Fachärztliches PTBS-Attest |
 | Staatlicher Schutz vorhanden | BAMF | Lageberichte AA; Prüfpflicht des BAMF |
@@ -269,7 +263,6 @@ Mit freundlichen Grüßen
 | Widersprüche zum Erstbefragungsprotokoll | Glaubwürdigkeitseinbruch | Erklärung: Erstbefragung war kurz/stressig; Ergänzung rechtzeitig |
 | Verfolgungsakteur unklar | Kein Zuständigkeitstreffer | Klarstellung: Staat / Miliz / Privatperson + staatlicher Schutz fehlt |
 | Dolmetscher-Qualität mangelhaft | Falsch-Protokoll | Sofort in Anhörung monieren; Protokoll korrigieren vor Unterschrift |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Dublin-III nicht thematisiert | Überstellung unangefochten | Fristen prüfen; Humanitäre Klausel Art. 17 Dublin-III; Familienzusammenführung |
 | Identitätsdokumente vernichtet | Identitätszweifel | Erklärungspflicht; Plausibilitätsprüfung; sonstige Beweise |
 
@@ -356,3 +349,5 @@ Naechste Schritte:
 1. [Schritt 1 — Owner — Frist]
 2. [Schritt 2]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

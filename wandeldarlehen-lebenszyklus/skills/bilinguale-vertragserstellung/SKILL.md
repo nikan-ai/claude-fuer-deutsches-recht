@@ -1,6 +1,6 @@
 ---
 name: bilinguale-vertragserstellung
-description: "Wenn es um Bilinguale Vertragserstellung DE/EN in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bilinguale Vertragserstellung DE/EN: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bilinguale Vertragserstellung DE/EN
@@ -30,9 +30,6 @@ description: "Wenn es um Bilinguale Vertragserstellung DE/EN in Wandeldarlehen-L
 - § 128 BGB (Notarielle Beurkundung – nur falls erforderlich)
 - § 15 Abs. 3, Abs. 4 GmbHG (Beurkundungspflicht Anteilsübertragung)
 - § 10.1 Standardklausel: Vorrang der deutschen Fassung
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -84,16 +81,8 @@ Stand: 05/2026. Bei Änderung BGB-Formvorschriften oder GmbHG aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
-§§ 133, 157 BGB (Auslegung mehrdeutiger Verträge) → Art. 3 Rom-I-VO (Rechtswahl im Vertrag) → § 184 Abs. 2 GVG (Amtssprache Deutsch bei Gericht) → § 55 Abs. 2 GmbHG (notarielle Beurkundung auf Deutsch)
+Paragrafen 133 und 157 BGB (Auslegung mehrdeutiger Verträge) → Artikel 3 Rom-I-VO (Rechtswahl) → Paragraf 5 BeurkG (Urkundssprache) → Paragraf 55 Absatz 1 GmbHG (Form der Übernahmeerklärung). Gerichtssprache nach Paragraf 184 GVG und Urkundssprache nicht vermischen.
 
-<!-- AUDIT 27.05.2026
-Problem : BGH VI ZR 232/09 (NJW 2010, 2812) – WRONG_TOPIC; tatsächlich: Schadensabrechnung und Restwert nach Kfz-Unfall (§ 249 Abs. 2 BGB), kein Bezug zu zweisprachigen Verträgen. Korrekte Fundstelle: NJW 2010, 2724.
-Maßnahme: Leitsatz-Zitat entfernt. Kein verifizierter BGH-Ersatz zur Sprachpriorität in zweisprachigen Verträgen gefunden; OLG München 31 Wx 79/16 (GmbHR 2016, 543) verbleibt als valide Quelle.
-Quelle: https://dejure.org/2010,477
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

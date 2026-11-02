@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sozialrecht-eu-rente-antrag
-description: "Wenn es um EU-Rente-Antrag in Fachanwalt Sozialrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für EU-Rente-Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # EU-Rente-Antrag
@@ -114,12 +114,10 @@ Pro-rata-Anteil = (Anrechnungs-Zeit DE / Gesamt-Anrechnungs-Zeit) × theoretisch
 3. **Sprachkenntnis nicht beachtet** Auslands-Bescheid
 4. **Verjaehrung Renten-Antrag** unbeachtet
 
-## 9) BSG-Linien und aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Anschluss
 
 - `fachanwalt-sozialrecht-orientierung` — Triage
 - `fachanwalt-sozialrecht-krankengeld-aussteuerung` — bei vorgelagertem KG
 - `fachanwalt-iwr-brussels-ia-zustaendigkeit` — bei Gerichts-Frage Ausland
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

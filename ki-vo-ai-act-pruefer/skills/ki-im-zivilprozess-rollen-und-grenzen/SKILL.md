@@ -1,11 +1,11 @@
 ---
 name: ki-im-zivilprozess-rollen-und-grenzen
-description: "Wenn es um digitale Werkzeuge im Zivilprozess in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für digitale Werkzeuge im Zivilprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI im Zivilprozess
 
-Kläre, wer im Zivilprozess KI einsetzen darf und wo die rechtlichen Grenzen liegen. Er trennt die Rollen von Partei, Anwalt, Gericht, Sachverständigem und Justizverwaltung, ordnet jeden Einsatz in die Risikostufen der KI-VO ein und benennt die prozessualen Leitplanken aus ZPO, Berufsrecht und Beweisrecht. Ergebnis ist eine Rollen- und Risikomatrix mit konkreter Handlungsempfehlung für den jeweiligen Akteur.
+Kläre, wer im Zivilprozess KI einsetzen darf und wo die rechtlichen Grenzen liegen. Trenne die Rollen von Partei, Anwalt, Gericht, Sachverständigem und Justizverwaltung, ordne jeden Einsatz in die Risikostufen der KI-VO ein und benenne die prozessualen Anforderungen aus ZPO, Berufsrecht und Beweisrecht. Ergebnis ist eine Rollen- und Risikomatrix mit konkreter Handlungsempfehlung für den jeweiligen Akteur.
 
 ## Rollen trennen
 

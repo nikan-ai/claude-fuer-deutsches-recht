@@ -1,6 +1,6 @@
 ---
 name: anschlussbereitstellung-tk
-description: "Wenn es um Anschlussbereitstellung und Verzug in Telekommunikationsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Anschlussbereitstellung und Verzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anschlussbereitstellung und Verzug
@@ -28,17 +28,3 @@ TKG Kundenschutz §§ 51 ff. live prüfen; BGB §§ 280, 286, 323; ZPO; BNetzA-V
 
 - tk-stoerung-minderung-ausfallentschaedigung
 - tk-glasfaser-hausanschluss-wegerecht
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- GG Art. 1, 3, 20 (Grundrechte, Rechtsstaat)
-- BGB §§ 133, 157, 242 (Auslegung, Treu und Glauben)
-- VwVfG §§ 28, 35, 48, 49 (Anhörung, Verwaltungsakt, Rücknahme/Widerruf)
-- VwGO §§ 42, 80, 113 (Anfechtungsklage, Eilrechtsschutz)
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

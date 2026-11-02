@@ -1,6 +1,6 @@
 ---
 name: zeugen-befragungsstrategie-strafbefehl
-description: "Wenn es um Zeugen-Befragungsstrategie in der Hauptverhandlung in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Zeugen-Befragungsstrategie in der Hauptverhandlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Zeugen-Befragungsstrategie in der Hauptverhandlung
@@ -36,10 +36,6 @@ Hauptverhandlung nach Strafbefehl-Einspruch — Zeugen erschuettern oder Entlast
 - **§ 240 StPO** — Fragerecht; alle Beteiligten können Fragen stellen
 - **§ 249 StPO** — Urkundenbeweis; Vorlesen von Dokumenten
 - **§ 254 StPO** — Verlesung von Protokollen richterlicher Vernehmung (Vorhalt)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorbereitung Zeugenbefragung — Checkliste
 
@@ -124,3 +120,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - Vorhalt nur mit konkreter Fundstelle in der Akte — nie pauschal.
 - Zeugnisverweigerungsrecht-Verletzung sofort in der HV ruegen.
 - Anwaltliche Endkontrolle bei Frageliste vor HV.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

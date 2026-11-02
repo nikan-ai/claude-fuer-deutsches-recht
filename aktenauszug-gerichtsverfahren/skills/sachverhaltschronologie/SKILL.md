@@ -1,6 +1,6 @@
 ---
 name: sachverhaltschronologie
-description: "Wenn es um Sachverhaltschronologie in aktenauszug-gerichtsverfahren geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste."
+description: "Für Sachverhaltschronologie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix."
 ---
 
 # Sachverhaltschronologie
@@ -28,10 +28,6 @@ description: "Wenn es um Sachverhaltschronologie in aktenauszug-gerichtsverfahre
 - §§ 433-442 BGB — Kaufvertrag (Übergabe, Mängelrechte)
 - §§ 195-199 BGB — Verjährung und Verjährungsbeginn (Kenntnis von Anspruch und Person)
 - § 307 BGB — Unwirksame AGB-Klauseln die Rechte des Vertragspartners beschneiden
-
-## Rechtsprechung zur Sachverhalts-Dokumentation und Vertragsschluss
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Was gehört hinein
 
@@ -95,3 +91,5 @@ description: "Wenn es um Sachverhaltschronologie in aktenauszug-gerichtsverfahre
 - [ ] Verjährungsrelevante Ereignisse besonders markiert?
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

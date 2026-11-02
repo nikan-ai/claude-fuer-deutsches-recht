@@ -1,6 +1,6 @@
 ---
 name: aussenwirtschaft-antidumping-ausgleich
-description: "Wenn es um Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung in Außenwirtschaft, Sanktionen, Zoll und CBAM geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung
@@ -76,25 +76,3 @@ Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbeson
 - [TARIC-Datenbank Europaeische Kommission](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp)
 - [UZK auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
 - [Zoll.de Antidumping](https://www.zoll.de/DE/Fachthemen/Zoelle/Zollrechtliche-Einfuhrbestimmungen/Besondere-Einfuhrabgaben/besondere-einfuhrabgaben_node.html)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 18 AWG
-- § 22 AWG
-- § 130 OWiG
-- § 22 ZollVG
-- § 14 AWG
-- § 19 AWG
-- § 10 ZollVG
-- § 10-17 GwG
-- § 21 ZollVG
-- § 43 GwG
-- § 9 AWG
-- § 25 UmwG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

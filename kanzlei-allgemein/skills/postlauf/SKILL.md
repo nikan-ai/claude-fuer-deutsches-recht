@@ -1,6 +1,6 @@
 ---
 name: postlauf
-description: "Wenn es um Postlauf um 11 Uhr in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Postlauf um 11 Uhr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Postlauf um 11 Uhr
@@ -18,9 +18,6 @@ description: "Wenn es um Postlauf um 11 Uhr in Kanzlei-Allgemein geht: prüft Fr
 2. Gibt es fristwaehrende Dokumente im Posteingang (Klageschrift, Bescheide, Urteile mit EB-Pflicht)?
 3. Muss das beA-Journal aktualisiert werden (neue Nachrichten, ZIP-Export, EB-Entscheidungen)?
 4. Welche offenen Action-Items aus dem letzten Postlauf sind noch ausstehend?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 173 ZPO — Zeitpunkt der beA-Zustellung: Eingang im Empfangspostfach
@@ -61,3 +58,5 @@ Wenn die Umgebung Automationen unterstützt, den Nutzer fragen:
 > Soll ich eine tägliche Erinnerung um 11 Uhr für den Postlauf einrichten?
 
 Ohne Automationsunterstützung eine manuelle Checkliste erzeugen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

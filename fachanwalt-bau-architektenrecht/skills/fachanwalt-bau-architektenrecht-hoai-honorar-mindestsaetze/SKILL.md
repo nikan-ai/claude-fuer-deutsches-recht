@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-bau-architektenrecht-hoai-honorar-mindestsaetze
-description: "Wenn es um HOAI-Honorar (nach EuGH-Urteil) in Fachanwalt Bau Architektenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für HOAI-Honorar (nach EuGH-Urteil): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # HOAI-Honorar (nach EuGH-Urteil)
@@ -98,7 +98,6 @@ Architektenhonorar berechnen, prüfen und durchsetzen — nach dem EuGH-Urteil z
 
 ### Frist zur Pruefbarmachung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Nach Schweigen Fälligkeit fingiert
 
 ## 6) Architektenvertrag § 650p ff. BGB
@@ -217,7 +216,8 @@ K 4 — Leistungsphasennachweise
 - `schriftsatzkern-substantiierung` — für Klagebegründung Honorarklage
 
 ---
-<!-- AUDIT 27.05.2026: Bundle 010 Halluzinations-Reparatur -->
-<!-- VII ZR 144/17 (behauptet 11.10.2018): NOT_FOUND auf dejure.org — geloescht -->
-<!-- VII ZR 107/19 (behauptet 22.10.2020): NOT_FOUND auf dejure.org — geloescht -->
+
+
 <!-- UPDATE 05/2026: EuGH C-377/17 (04.07.2019), EuGH C-261/20 (18.01.2022) Thelen, BGH VII ZR 174/19 (02.06.2022) ergaenzt; alle ueber curia.europa.eu bzw. bundesgerichtshof.de verifiziert -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: plagiatsanalyse-musik-text
-description: "Wenn es um Plagiatsanalyse Musik und Text in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Plagiatsanalyse Musik und Text: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Plagiatsanalyse Musik und Text
@@ -20,7 +20,7 @@ description: "Wenn es um Plagiatsanalyse Musik und Text in Urheberrecht DE EU ge
 
 ## Wofür dieser Arbeitsgang da ist
 
-Plagiatsanalyse Musik und Text schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Vergleiche die konkret beanstandeten Musik- oder Textpassagen und dokumentiere die belegten Ähnlichkeiten. Prüfe Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke und leite daraus das gewünschte Analyse- oder Verfahrensergebnis ab.
 
 ## Sofortstart
 

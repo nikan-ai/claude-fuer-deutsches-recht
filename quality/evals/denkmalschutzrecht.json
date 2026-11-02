@@ -1,0 +1,223 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Kompetenzrahmen von Artikel 73 auf Artikel 70 GG berichtigt; in Grundlagen Paragraf 11b EStG von selbstgenutztem Denkmal nach Paragraf 10f EStG getrennt.",
+    "files": [
+      {
+        "path": "denkmalschutzrecht/README.md",
+        "sha256": "8a6cd0add3f95a61d44fda514aecc46bd790080248b89478afb13af3f9f2cddf"
+      },
+      {
+        "path": "denkmalschutzrecht/skills/grundbegriffe-und-rechtsquellen/SKILL.md",
+        "sha256": "cbdad8b29d3436fab1b0d25d3bf71954561c956d0fb2625f40a4a9b4df114497"
+      },
+      {
+        "path": "denkmalschutzrecht/skills/juristischer-argumentationskern/SKILL.md",
+        "sha256": "62532e68f0a90ef914617849b61b0b730699851e5a9c079a87732625f568694a"
+      }
+    ],
+    "primary_sources_read": [
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_70.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Kompetenzgrundregel der Länder, soweit das GG dem Bund keine Befugnis zuweist.",
+        "limit": "Keine vollständige Landesgesetzprüfung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/estg/__10f.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Begünstigung zu eigenen Wohnzwecken genutzter Gebäude und Abzug wie Sonderausgaben.",
+        "limit": "Keine individuelle steuerliche Förderfähigkeit oder Übergangsprüfung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/estg/__11b.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Verteilung begünstigten Erhaltungsaufwands bei Baudenkmalen, nicht selbständiger Sonderausgabenabzug für Selbstnutzung.",
+        "limit": "Amtlichen HTML-Text per curl gelesen, nachdem Browserabruf scheiterte; keine vollständige Steuerprüfung."
+      }
+    ],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Genehmigung, Nutzung und Zumutbarkeit führen zu einem benannten Antrag oder Schreiben; reale Entlastung steht neben der Eigentumsbelastung.",
+    "norms_or_source_basis": "Artikel 14 GG und einschlägiges Landesdenkmalschutzrecht",
+    "selected_anchor_identifiers": [
+      "1 BvL 7/91"
+    ],
+    "application_limit": "Vorhandener Index-/Passagenstatus bleibt; früheres rheinland-pfälzisches Recht begründet keinen pauschalen Abriss- oder Geldanspruch.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/denkmalschutzrecht/denkmalschutzrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "37206166a9a9656959ea4d20051e034fe2d4357f500d15eeeeccb00a7e90a196",
+      "characters": 7242,
+      "utf8_bytes": 7345,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/denkmalschutzrecht/denkmalschutzrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "4c53b7e0469cbb203c6163047ac8e20dfcce8cf043a2ba91bce5c2ec10a087e2",
+      "characters": 18986,
+      "utf8_bytes": 19300,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "denkmalschutzrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayDSchG-6",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 6 in der ab Mai 2026 geltenden Fassung: Freistellungen, insbesondere bestimmte Küchen- und Baderneuerungen, und Verhältnis zur Baugenehmigung."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1999/03/ls19990302_1bvl000791.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Beschluss vom 02.03.1999, Az. 1 BvL 7/91, Randnummern 92 bis 104: Bei fehlender sinnvoller Nutzung und praktischer Unveräußerlichkeit reale Entlastung und gesetzlich vorgesehenen Ausgleich mit der belastenden Entscheidung prüfen. Grenze: Früheres rheinland-pfälzisches Recht; weder jeder Sanierungsverlust noch die Entscheidung selbst begründet einen Abriss- oder unmittelbaren Geldanspruch."
+    },
+    {
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayDSchG-6",
+      "checked_on": "2026-09-22",
+      "supports": "Vollständigen geltenden Artikel mit Stand ab 01.05.2026 gelesen; Freistellung substanzschonender Küchen-/Baderneuerungen und Konzentration bei Baugenehmigung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gg/art_14.html",
+      "checked_on": "2026-09-22",
+      "supports": "Eigentumsinhaltsbestimmung, Sozialbindung und Enteignung getrennt anhand des geltenden Wortlauts."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Bayerische Baderneuerung an sämtliche Freistellungsbedingungen gebunden; Bescheid löst keinen ungefragten Rechtsbehelf aus. Workflow-Ergänzung einzeln geprüft: Günstigeres Angebot für denselben Erhaltungsumfang -> Zumutbarkeitsrechnung, Ablehnungsgründe und Maßnahmenantrag gemeinsam ändern. Einstiegsredaktion 16.10.2026, Batch 2: Genehmigung, Nutzung und Zumutbarkeit führen zu einem benannten Antrag oder Schreiben; reale Entlastung steht neben der Eigentumsbelastung. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Artikel 6 Absatz 3 Nummer 1 Buchstabe a und Absatz 5 BayDSchG in geltender Fassung konkret angewendet",
+      "BVerfG-Zumutbarkeitsmaßstab mit Nutzung, Veräußerbarkeit, realer Entlastung und rechtzeitigem Ausgleich verbunden",
+      "Bestehende Boden-, Steuer-, Welterbe- und Brandenburg-Routen erhalten; interne Überschriften und Rückfall-Checkliste beseitigt",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Genehmigung, Nutzung und Zumutbarkeit führen zu einem benannten Antrag oder Schreiben; reale Entlastung steht neben der Eigentumsbelastung. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "37206166a9a9656959ea4d20051e034fe2d4357f500d15eeeeccb00a7e90a196"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe eine Baderneuerung im bayerischen Baudenkmal.",
+      "Ordne Auflagen für den Austausch historischer Fenster ein."
+    ],
+    "negative": [
+      "Berechne allein die Statik einer Betondecke.",
+      "Prüfe eine Mietminderung ohne denkmalrechtlichen Bezug."
+    ]
+  },
+  "cases": [
+    {
+      "id": "bayern-bad-ohne-substanzeingriff",
+      "request": "Für eine Eigentümerin in Augsburg soll ergebnis.md die Verfahrensfrage einer Baderneuerung im September 2026 klären. Das Haus ist unstreitig Baudenkmal. Ersetzt werden nur moderne Sanitärobjekte und Fliesen aus 1998; keine historische Ausstattung, kein Grundriss und kein Mauerwerk oder Bodenaufbau werden verändert. Die zuständige Bauaufsicht bestätigt, dass keine Baugenehmigung erforderlich ist. Eine ältere Handwerkercheckliste fordert stets eine Denkmalerlaubnis. Bitte bewerte diese Aussage und entwirf eine intern freizugebende Maßnahmenbeschreibung; Arbeiten haben noch nicht begonnen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Ergebnis prüft die aktuelle bayerische Freistellung statt allein aus der Denkmaleigenschaft eine Erlaubnispflicht abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Bewertung bindet die Freistellung an den fehlenden Verlust historischer Substanz und die unveränderte Raumstruktur.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Maßnahmenbeschreibung benennt die tatsächlich ausgetauschten Teile und ist keine eigenmächtige Baufreigabe oder Erklärung an die Behörde.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "erlaubnis-pflichtige-massnahmen"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Affirmative Stopplisten und Entwurfsbeschränkung entfernt; Landesrecht, Bodendenkmal und Zumutbarkeit sauber getrennt. Workflow-Ergänzung einzeln geprüft: Bauteilbezogene Reparatur- und Ersatzvarianten, Befundschichten und Planfassung; vergleichbarer Kostenumfang statt Komfortkosten; Förderungsausfall, Baustopp, Anhörung und getrennte Steuerbescheinigung. Einstiegsredaktion 16.10.2026, Batch 2: Genehmigung, Nutzung und Zumutbarkeit führen zu einem benannten Antrag oder Schreiben; reale Entlastung steht neben der Eigentumsbelastung. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Artikel 6 Absatz 3 Nummer 1 Buchstabe a und Absatz 5 BayDSchG in geltender Fassung konkret angewendet",
+      "BVerfG-Zumutbarkeitsmaßstab mit Nutzung, Veräußerbarkeit, realer Entlastung und rechtzeitigem Ausgleich verbunden",
+      "Bestehende Boden-, Steuer-, Welterbe- und Brandenburg-Routen erhalten; interne Überschriften und Rückfall-Checkliste beseitigt",
+      "Bauteilbezogene Reparatur- und Ersatzvarianten, Befundschichten und Planfassung; vergleichbarer Kostenumfang statt Komfortkosten; Förderungsausfall, Baustopp, Anhörung und getrennte Steuerbescheinigung.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Genehmigung, Nutzung und Zumutbarkeit führen zu einem benannten Antrag oder Schreiben; reale Entlastung steht neben der Eigentumsbelastung. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "4c53b7e0469cbb203c6163047ac8e20dfcce8cf043a2ba91bce5c2ec10a087e2"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "denkmalschutzrecht/denkmalschutzrecht-schnellstart.md",
+      "denkmalschutzrecht/denkmalschutzrecht-werkstatt.md",
+      "denkmalschutzrecht/README.md",
+      "quality/evals/denkmalschutzrecht.json"
+    ],
+    "opening_change": "Erlaubnisfreiheit, genehmigungsfähige Ausführung und unzumutbare Erhaltungsforderung am konkreten Befund statt abstrakter Denkmalschutzbearbeitung. Workflow-Ergänzung: Leer: Umbauerlaubnis, Antwort auf eine Erhaltungsforderung oder steuerliche Maßnahmenzuordnung anbieten. Dateien ohne Aufgabe: Befunde und Bescheid still lesen; Antrag für konkrete Bauteile oder Baustoppantwort klären. Klarer Auftrag: Maßnahmenbeschreibung oder Stellungnahme direkt ausarbeiten; bekannte Objekt- und Landesangaben übernehmen.",
+    "norms": [
+      "Artikel 14 Absätze 1 bis 3 GG",
+      "Artikel 6 Absatz 3 Nummer 1 Buchstabe a und Absatz 5 BayDSchG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 02.03.1999, Az. 1 BvL 7/91, Randnummern 92 bis 104",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1999/03/ls19990302_1bvl000791.html",
+        "application": "Bei fehlender sinnvoller Nutzung und praktischer Unveräußerlichkeit reale Entlastung und gesetzlich vorgesehenen Ausgleich mit der belastenden Entscheidung prüfen.",
+        "limit": "Früheres rheinland-pfälzisches Recht; weder jeder Sanierungsverlust noch die Entscheidung selbst begründet einen Abriss- oder unmittelbaren Geldanspruch.",
+        "checked_on": "2026-09-22"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "BVerfG-Direktabruf gesperrt; amtlich indexierte Leitsätze und entscheidende Randnummern 92 bis 104 ausgewertet, kein vollständig direkt abgerufener Urteilstext.",
+      "Keine aktuelle Vollprüfung der sechzehn Landesgesetze, Steuerbescheinigungen oder konkreten Welterbevorhaben.",
+      "Workflow-Review 23.09.2026: erneuter Abruf von Artikel 6 BayDSchG nicht erfolgreich; BVerfG-Zugang auf amtlich indexierte Passagen begrenzt. Keine Vollprüfung aller Landesdenkmalschutzgesetze."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "denkmalschutzrecht/denkmalschutzrecht-schnellstart.md",
+        "denkmalschutzrecht/denkmalschutzrecht-werkstatt.md",
+        "denkmalschutzrecht/skills/art-14-gg-eigentum-und-denkmalschutz/SKILL.md",
+        "denkmalschutzrecht/skills/enteignung-uebernahme-und-entschaedigung/SKILL.md",
+        "denkmalschutzrecht/skills/rechtsprechungsanker-denkmalrecht/SKILL.md"
+      ],
+      "result": "Fehlende Nutzungsmöglichkeit, Unveräußerlichkeit und gesetzlicher Ausgleich werden geprüft. Der historische Rheinland-Pfalz-Fall wird weder zur automatischen Abrisserlaubnis noch zum unmittelbaren Geldanspruch erweitert.",
+      "search_2026": "Gezielte Suche zu Denkmalschutz, Eigentum und Zumutbarkeit ergab ältere Fälle, keinen passenden neuen 2026-Anker.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Umbauerlaubnis, Antwort auf eine Erhaltungsforderung oder steuerliche Maßnahmenzuordnung anbieten.",
+      "Dateien ohne Aufgabe: Befunde und Bescheid still lesen; Antrag für konkrete Bauteile oder Baustoppantwort klären.",
+      "Klarer Auftrag: Maßnahmenbeschreibung oder Stellungnahme direkt ausarbeiten; bekannte Objekt- und Landesangaben übernehmen."
+    ],
+    "continuation": "Günstigeres Angebot für denselben Erhaltungsumfang -> Zumutbarkeitsrechnung, Ablehnungsgründe und Maßnahmenantrag gemeinsam ändern.",
+    "enrichment": "Bauteilbezogene Reparatur- und Ersatzvarianten, Befundschichten und Planfassung; vergleichbarer Kostenumfang statt Komfortkosten; Förderungsausfall, Baustopp, Anhörung und getrennte Steuerbescheinigung.",
+    "limits": "desk review; no live client execution"
+  }
+}

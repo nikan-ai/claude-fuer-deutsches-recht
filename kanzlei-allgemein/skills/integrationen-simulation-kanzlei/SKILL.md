@@ -1,6 +1,6 @@
 ---
 name: integrationen-simulation-kanzlei
-description: "Wenn es um Integrationen und Simulationsmodus in Kanzlei-Allgemein geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Integrationen und Simulationsmodus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Integrationen und Simulationsmodus
@@ -18,9 +18,6 @@ description: "Wenn es um Integrationen und Simulationsmodus in Kanzlei-Allgemein
 2. Ist die Integration echt angeschlossen oder soll ein Simulationsmodus aktiv werden?
 3. Welche Daten dürfen in den Simulationsmodus eingegeben werden (Anonymisierung von Mandantendaten)?
 4. Soll der Simulationsmodus für Training, Demo oder als dauerhafter Fallback genutzt werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 28 DSGVO — Auftragsverarbeitungsvertrag für externe Systemanbieter
@@ -81,3 +78,5 @@ Wenn der Nutzer `simulieren` wählt:
 ## Ausgabe
 
 `assets/templates/integrationsstatus-und-simulation.md` verwenden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

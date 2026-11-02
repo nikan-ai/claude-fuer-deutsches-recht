@@ -1,6 +1,6 @@
 ---
 name: software-mangel
-description: "Wenn es um Prüfung von Softwaremangelansprüchen nach Kauf-Werk- oder Dienstvertragsrecht in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Prüfung von Softwaremangelansprüchen nach Kauf-Werk- oder Dienstvertragsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Prüfung von Softwaremangelansprüchen nach Kauf-Werk- oder Dienstvertragsrecht
@@ -34,7 +34,6 @@ description: "Wenn es um Prüfung von Softwaremangelansprüchen nach Kauf-Werk- 
 - SaaS/Cloud: Mietrecht § 535 BGB — fortlaufende Gebrauchsgewährung, Mangel § 536 BGB führt zu Minderung kraft Gesetzes.
 - Nacherfüllungspflicht: § 439 BGB (Kauf) bzw. § 635 BGB (Werk) — Nachbesserung oder Neulieferung.
 - Sekundäre Rechte nach erfolglosem Fristablauf: Rücktritt § 437 Nr. 2 i.V.m. § 323 BGB, Minderung § 441 BGB, Schadensersatz § 437 Nr. 3 i.V.m. §§ 280, 281 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Frist
 
@@ -105,10 +104,6 @@ Mit freundlichen Gruessen
 - Bei laufendem SaaS: parallel Minderungsmitteilung an Vermieter nach § 536 BGB.
 - Verjährungsfrist im Aktenkalender notieren.
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Vertragstyp: Kauf / Werk / Miete / Dienst / Kombination?
@@ -139,9 +134,8 @@ Verjährung: § 438 BGB 2 Jahre ab Ablieferung / § 195 BGB 3 Jahre (§ 634a BGB
 ```
 
 ---
-<!-- AUDIT 27.05.2026: Bundle 010 Halluzinations-Reparatur -->
-<!-- VII ZR 124/18 (behauptet 06.06.2019, NJW 2019, 2867): NOT_FOUND auf dejure.org — geloescht -->
-<!-- VII ZR 190/20 (behauptet NJW 2021, 3438, Thema: Software-Mangel): WRONG_TOPIC — real: Kfz-Thermofenster delikthaftung, NJW 2021, 3721, verifiziert auf dejure.org/2021,37448 — geloescht -->
+
+
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -151,3 +145,4 @@ Verjährung: § 438 BGB 2 Jahre ab Ablieferung / § 195 BGB 3 Jahre (§ 634a BGB
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

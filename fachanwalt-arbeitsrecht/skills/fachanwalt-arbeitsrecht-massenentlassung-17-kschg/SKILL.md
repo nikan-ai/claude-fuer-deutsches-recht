@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-arbeitsrecht-massenentlassung-17-kschg
-description: "Wenn es um Massenentlassung Paragraf 17 KSchG in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Massenentlassung Paragraf 17 KSchG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Massenentlassung Paragraf 17 KSchG
@@ -47,7 +47,6 @@ Vollstaendige Anzeige-, Konsultations- und Sozialplan-Pflichten bei Massenentlas
 | 60 AN bis unter 500 AN | 10 % oder mehr als 25 Entlassungen |
 | 500 AN und mehr | Mindestens 30 Entlassungen |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Leitentscheidungen (Stand Mai 2026)
 
@@ -64,12 +63,9 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Schritt | Pruefpunkt | Norm | Rechtsfolge bei Fehler |
 |---|---|---|---|
 | 1 | Schwellenwert erreicht? (Betriebsgroesse x Entlassungszahl) | Paragraf 17 Abs. 1 KSchG | Kein Anzeigeverfahren noetig |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | Konsultation BR vollstaendig und rechtzeitig? | Paragraf 17 Abs. 2 KSchG | Anzeige und Kuendigungen unwirksam |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 5 | Anzeige schriftlich bei zustaendiger BA? | Paragraf 17 Abs. 3 KSchG | Fehlende Anzeige = Unwirksamkeit |
 | 6 | BR-Stellungnahme der Anzeige beigefuegt? | Paragraf 17 Abs. 3 S. 2 KSchG | Anzeige unvollstaendig |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | Entlassungssperre 1 Monat beachtet? | Paragraf 18 Abs. 1 KSchG | Kuendigung vor Fristablauf unwirksam |
 | 9 | Interessenausgleich versucht? | Paragraf 112 Abs. 2 BetrVG | Nachteilsausgleich Paragraf 113 BetrVG |
 | 10 | Sozialplan-Verhandlung oder Einigungsstelle? | Paragraf 112 Abs. 2-4 BetrVG | Erzwingbar; keine Kuendigung ohne Sozialplan moeglich wenn BR widerspricht |
@@ -104,7 +100,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 7. Erst jetzt: Kuendigungsschreiben aushaendigen
 ```
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anzeige Paragraf 17 Abs. 3 KSchG — Mindestinhalt
 
@@ -144,7 +139,6 @@ Anlagen:
 - Erzwingbar: wenn BR und AG sich nicht einigen, entscheidet **Einigungsstelle** (Paragraf 112 Abs. 4 BetrVG)
 - Inhalt: Abfindungs-Formel, Outplacement, Qualifizierungsmassnahmen, Transfergesellschaft
 - Typische Abfindungsformel: 0.5 bis 1.0 Bruttomonatsgehaelter je Beschaeftigungsjahr
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Nachteilsausgleich Paragraf 113 Abs. 3 BetrVG
 
@@ -211,7 +205,6 @@ Klageantrag:
 
 Begruendung (kumulativ):
 a) Verletzung Paragraf 17 KSchG: Anzeige bei BA fehlerhaft oder
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 b) BR-Anhoerung nach Paragraf 102 BetrVG mangelhaft;
 c) Soziale Rechtfertigung fehlt nach Paragraf 1 II KSchG.
 ```
@@ -255,7 +248,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | Kuendigungsschreiben vor BA-Eingang der Anzeige | Alle Kuendigungen unwirksam |
 | Anzeige ohne BR-Stellungnahme | Anzeige unvollstaendig; wiederholen |
 | Sozialplan-Verhandlung umgangen | Nachteilsausgleich Paragraf 113 BetrVG fuer alle entlassenen AN |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Paragraf 102 BetrVG-Anhoerung pro Kuendigung vergessen | Jede einzelne Kuendigung gesondert unwirksam |
 | Individuelle Kuendigung vor Ablauf der Entlassungssperre | Unwirksam nach Paragraf 18 Abs. 1 KSchG |
 
@@ -274,7 +266,6 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 |---|---|
 | Standard — Massenentlassung Paragraf 17 KSchG anfechten | Vollstaendige Unwirksamkeitspruefung; Klage nach Template unten |
 | Variante A — Anzeige vergessen (klarer Fehler) | Starke Unwirksamkeit; hohe Vergleichsbereitschaft des AG erwartbar |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Variante C — Mandant will schnell neue Stelle | Schneller Vergleich priorisieren; Klage als Druckmittel |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
@@ -340,8 +331,6 @@ Anhaltspunkte fuer eine hohe Abfindung sind vorhanden.
 - BGB Paragrafen 195, 199
 - GKG Paragraf 42
 - RL 98/59/EG (EU-Massenentlassungs-RL); RL 2002/14/EG
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
-<!-- AUDIT 27.05.2026
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: grunderwerbsteuer-share-deal
-description: "Wenn es um Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG in Steuerrecht – Steuerberater und Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Grunderwerbsteuer Share Deal; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: grunderwerbsteuer-share-deal."
 ---
 
 # Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG
@@ -30,7 +30,6 @@ description: "Wenn es um Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesfinanzhof.de, bundesverfassungsgericht.de, dejure.org, openjur.de, gesetze-im-internet.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
 
 ## Zentrale Normen
@@ -42,3 +41,5 @@ description: "Wenn es um Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2
 - Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
 - Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
 - Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,100 +1,56 @@
 ---
 name: vorsorgevollmacht
-description: "Wenn es um Vorsorgevollmacht in Notariat im Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Bereitet Vorsorgevollmacht, Patientenverfügung und Betreuungswünsche für das Notariat vor. Klärt Umfang, Ersatzvertretung, Immobilienbefugnis und besondere Gesundheitsmaßnahmen und erstellt abgestimmte Entwürfe ohne pauschale Vollmachts- oder Registerwirkungen."
 ---
 
-# Notariat im Alltag: Vorsorgevollmacht, Patientenverfügung, Betreuungsverfügung, Zentrales Vorsorgeregister
+# 1. Vorsorgewünsche in konkrete Erklärungen übertragen
 
-## Arbeitsweg
+## 1. Zweck und Anwendungsfall
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Bereite die tatsächlich gewünschte Vorsorge vor, nicht ein ungeprüftes Paket maximaler Befugnisse. Mitarbeiter formulieren zur notariellen Prüfung; persönliche Belehrung, Feststellungen zur Geschäftsfähigkeit und Amtshandlungen bleiben beim Notar.
 
-## Zweck und Anwendungsbereich
+## 2. Eingaben
 
-Vorsorgedokumente sichern die selbstbestimmte Handlungsfähigkeit für den Fall der Geschäftsunfähigkeit. Strukturiere Inhalt, Formvoraussetzungen, Beratungspflichten und die Registrierung im Zentralen Vorsorgeregister (ZVR) der Bundesnotarkammer.
+Vorhandene Vollmachten, gewünschte Vertrauensperson und Ersatzperson, Vermögensarten, bestehende Betreuung und konkrete Behandlungswünsche lesen. Ohne Unterlagen zunächst fragen, ob Vertretung im Alltag, medizinische Festlegungen oder beides gewünscht sind. Keine Diagnose aus einem Ausweis oder einer kurzen Nachricht ableiten.
 
-Rechtsgrundlagen: §§ 1814–1874 BGB n.F. (Betreuungsrecht ab 1.1.2023), § 1820 BGB n.F. (Vorsorgevollmacht), § 1901a BGB a.F. / § 1827 BGB n.F. (Patientenverfügung), § 1901b BGB a.F. / § 1828 BGB n.F. (Betreuungsverfügung), § 78d BNotO (Zentrales Vorsorgeregister), BeurkG §§ 6–35, § 17 BeurkG (Belehrungspflicht).
+## 3. Ablauf
 
-## Drei Instrumente im Überblick
+### 3.1. Außenmacht und interne Begrenzung bestimmen
 
-| Instrument | Zweck | Form | Wirkung |
-|---|---|---|---|
-| Vorsorgevollmacht | Bevollmächtigt Person für Gesundheit, Vermögen, Aufenthalt | Schriftlich; für Immobilien: notarielle Beglaubigung oder Beurkundung | Vermeidet Betreuung |
-| Patientenverfügung | Vorausbestimmung ärztlicher Behandlung | Schriftlich (§ 1827 BGB) | Bindet Arzt und Betreuer |
-| Betreuungsverfügung | Wunsch zur Person des Betreuers | Schriftlich | Gericht berücksichtigt sie |
+Einzelvertretung, gemeinschaftliche Vertretung, Ersatzfall, Untervollmacht, Schenkungen und Fortgeltung über den Tod hinaus einzeln klären. Befreiung von BGB Paragraf 181 ist eine bewusste Gestaltungsentscheidung, kein obligatorischer Mindestbestandteil. Eine nur im Innenverhältnis vereinbarte Beschränkung darf nicht als äußere Wirksamkeitsbedingung ausgegeben werden.
 
-## Inhalt der Vorsorgevollmacht
+### 3.2. Form nach Befugnis prüfen
 
-**Mindestinhalt:**
-- Bevollmächtigte Person (Name, Geburtsdatum, Anschrift)
-- Vertretungsumfang: Gesundheitsangelegenheiten, Aufenthaltsbestimmung, Vermögen, Behörden
-- Befreiung von § 181 BGB
-- Regelung für den Fall, dass Bevollmächtigte verhindert ist (Untervollmacht/Ersatzbevollmächtigter)
-- Außenverhältnis: Vollmacht gilt gegenüber Dritten sofort oder nur bei Nachweis der Geschäftsunfähigkeit?
+BGB Paragraf 167 Absatz 2 als Ausgangspunkt, besondere Form- und Nachweiserfordernisse gesondert prüfen. Grundstücksbezug bedeutet nicht immer zwingende Beurkundung der Vollmacht; GBO Paragraf 29 betrifft die Verwendbarkeit des Nachweises. Für die in BGB Paragraf 1820 Absatz 2 bezeichneten Gesundheits- und Freiheitsmaßnahmen schriftliche, ausdrückliche Erfassung prüfen. Gerichtliche Genehmigungserfordernisse werden durch die Vollmacht nicht beseitigt.
 
-**Zusätzliche Regelungen (empfohlen):**
-- Gesundheitssorge: ärztliche Behandlung, Einwilligung in schwere Eingriffe (§ 1829 BGB n.F.)
-- Unterbringung/freiheitsentziehende Maßnahmen (§ 1831 BGB n.F.): gesonderte Bevollmächtigung nötig
-- Grundstücksgeschäfte: nur mit notarieller Beurkundung der Vollmacht
-- Schenkungen: Beschränkung empfohlen
+### 3.3. Patienten- und Betreuungswünsche unterscheiden
 
-## Patientenverfügung (§ 1827 BGB n.F.)
+Patientenverfügung nach BGB Paragraf 1827 verbindet Behandlungssituation und konkrete Maßnahme. „Keine lebenserhaltenden Maßnahmen“ allein reicht nicht als universell eindeutige Festlegung. BGH, Beschluss vom 06.07.2016, XII ZB 61/16, behandelt diese Konkretisierung; die damaligen Normnummern nicht als heutige Nummern fortführen. Weder verlangt die Entscheidung ein medizinisches Lehrbuch noch eine stets unwirksame Verfügung bei jeder allgemein gehaltenen Wendung.
 
-Schriftliche Erklärung einer einwilligungsfähigen volljährigen Person, die Einwilligung oder Nichteinwilligung in bestimmte ärztliche Maßnahmen für zukünftige Situationen vorausverfügt. Bindend für Arzt und Bevollmächtigten/Betreuer, wenn sie auf die konkrete Situation passt. Ärztliche Beratung empfohlen, aber nicht zwingend.
+Betreuungswünsche nach BGB Paragraf 1816 Absatz 2 benennen gewünschte oder abgelehnte Personen; sie sind keine Vollmacht. Ärztliche Beratung bei offenen Behandlungsfragen empfehlen, ohne sie als allgemeine gesetzliche Wirksamkeitsvoraussetzung zu behaupten.
 
-## Zentrales Vorsorgeregister (ZVR)
+### 3.4. Nach Antwort Widersprüche auflösen
 
-Das ZVR der Bundesnotarkammer (§ 78d BNotO) ermöglicht Gerichten und Behörden, Vorsorgevollmachten schnell zu finden.
+Will der Auftraggeber die Immobilienbefugnis, aber keine Schenkungen, genau diese Grenze einarbeiten. Widersprechen neue Behandlungswünsche einem alten Text, nur mit eindeutigem Änderungsauftrag bereinigen. Registrierung im Zentralen Vorsorgeregister, Aufbewahrung der Urkunde und Zugang zur Vollmacht getrennt vorbereiten. Die Registereintragung ersetzt weder Vollmacht noch Behandlungserklärung und garantiert nicht, dass niemals eine Betreuung nötig wird.
 
-- **Registrierung:** Vollmachtgeber registriert selbst oder durch Notar (https://www.vorsorgeregister.de)
-- **Abruf:** Betreuungsgerichte fragen vor Betreuungsbestellung ab (§ 1814 Abs. 3 BGB n.F.)
-- **Empfehlung:** Jede notariell beglaubigte/beurkundete Vorsorgevollmacht sollte im ZVR registriert werden
-- **Gebühr:** 18,50 € einmalig (Notar kann für Mandant übernehmen)
+### 3.5. Besondere Gesundheitsbefugnis und eigene Behandlungserklärung ausarbeiten
 
-## Betreuungsreform 2023
+BGH, Beschluss vom 06.07.2016, XII ZB 61/16, Randnummern 17 bis 20: Die Vollmacht muss die qualifizierte Gefahr des Todes oder eines schweren und länger dauernden Gesundheitsschadens hinreichend klar erfassen; bloßer Verweis auf eine Paragrafennummer reicht nicht. Heute BGB Paragraf 1820 Absatz 2 Nummer 1 mit Paragraf 1829 prüfen. Freiheitsentziehung und ärztliche Zwangsmaßnahmen nach Paragraf 1820 Absatz 2 Nummern 2 und 3 bleiben gesonderte Entscheidungen; aus Zustimmung zur Gesundheitsvertretung keine solche Befugnis ergänzen.
 
-Seit 1.1.2023 gilt das neue Betreuungsrecht (§§ 1814 ff. BGB n.F.). Wesentliche Änderungen:
-- Stärkung der Selbstbestimmung des Betreuten
-- Neue Regelungen zur Unterbringung (§ 1831 BGB n.F.)
-- Gesundheitssorge: § 1829 BGB n.F. (Einwilligung in ärztliche Maßnahmen)
-- Vorsorgevollmacht: § 1820 BGB n.F. (inhaltliche Anforderungen)
+BGH, Beschluss vom 08.02.2017, XII ZB 604/15, Randnummern 17 bis 23: Für die Bestimmtheit der Patientenverfügung ist die schriftliche Erklärung insgesamt auszulegen; allgemeine Wendungen nicht isoliert für unwirksam erklären. Konkretisierung kann sich aus hinreichend beschriebenen Situationen und dem übrigen Text ergeben. Nach Klärung Situation, gewünschte beziehungsweise abgelehnte Maßnahmen und die zugehörige Vertretungsbefugnis in zusammenpassende vollständige Texte überführen. Eine Vertreterentscheidung und eine unmittelbar anwendbare eigene Patientenverfügung sind verschiedene Grundlagen; gerichtliche Genehmigung einschließlich der Ausnahme bei Einvernehmen nach BGB Paragraf 1829 Absatz 4 fallbezogen prüfen.
 
-## Prüfprogramm
+### 3.6. Übernommenen Registrierungsauftrag zeitnah vollziehen
 
-- Ist der Vollmachtgeber zum Zeitpunkt der Beurkundung/Beglaubigung geschäftsfähig?
-- Enthält die Vollmacht alle gewünschten Bereiche?
-- Sind freiheitsentziehende Maßnahmen und Unterbringung explizit aufgenommen?
-- Gibt es Widerspruch zur Patientenverfügung?
-- Notar-Beratungspflicht nach § 17 BeurkG: Belehrung über Tragweite und Widerruflichkeit dokumentiert?
-- ZVR-Registrierung veranlasst?
+[BGH, Beschluss vom 09.03.2026, NotSt (Brfg) 3/25, Randnummern 10 bis 21](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/NotS/2025/NotSt_Brfg___3-25.pdf?__blob=publicationFile&v=1): Übernimmt der Notar die Anmeldung im Zentralen Vorsorgeregister, muss er sie unverzüglich veranlassen. 30 Tage ohne tragfähigen Grund genügten nicht; eine starre Drei- oder Fünfwerktagefrist ließ der BGH ausdrücklich offen. Ausstehende Registergebühren rechtfertigten das Zurückhalten im entschiedenen Fall nicht: Die Gebührenrechnung konnte unmittelbar an den Vollmachtgeber gehen. Eine Pflicht des Notars, selbst vorzuschießen, folgt daraus nicht. Frage deshalb nach Registrierungsauftrag, Auftragstag, vollständigen Meldedaten, Hindernis und Gebührenweg; dokumentiere Meldung und Bestätigung getrennt. Fehlenden Vorschuss nicht als automatische Vollzugssperre führen. Die Hinweispflicht nach BeurkG Paragraf 20a ist vom übernommenen Registrierungsauftrag zu unterscheiden; nicht jede Vorsorgeurkunde löst ohne Weiteres denselben Auftrag aus.
 
-## Typische Fallen
+## 4. Quellenpflicht
 
-- Vorsorgevollmacht ohne Befreiung von § 181 BGB → Interessenkonflikte bei Eigengeschäften des Bevollmächtigten.
-- Patientenverfügung nicht aktuell/zu vage → Arzt kann Bindungswirkung ablehnen.
-- Keine Ersatzbevollmächtigten benannt → Ausfall des Bevollmächtigten → Betreuungsgericht zuständig.
-- Grundstücksgeschäfte in einfach schriftlicher Vollmacht → § 29 GBO-Anforderung nicht erfüllt.
-- ZVR-Registrierung vergessen → Betreuungsgericht bestellt Betreuer, obwohl Vollmacht existiert.
+[BGB Paragraf 1820](https://www.gesetze-im-internet.de/bgb/__1820.html), [1827](https://www.gesetze-im-internet.de/bgb/__1827.html), [1816](https://www.gesetze-im-internet.de/bgb/__1816.html). Die beiden [volltextgeprüften BGH-Entscheidungen mit Fundstellen und Anwendungsgrenzen](../../references/rechtsprechung-geprueft.md) heranziehen; alte Normnummern nicht als geltendes Recht behandeln. [Zitierweise](../../references/zitierweise.md) beachten.
 
-## Rechtsquellen
+## 5. Ausgabeformat
 
-- §§ 1814–1874 BGB n.F.: https://dejure.org/gesetze/BGB/1814.html
-- § 1827 BGB (Patientenverfügung): https://dejure.org/gesetze/BGB/1827.html
-- § 78d BNotO: https://dejure.org/gesetze/BNotO/78d.html
-- ZVR: https://www.vorsorgeregister.de
-- BNotK Vorsorge: https://www.bnotk.de
-- BGH zur Patientenverfügung: https://www.bgh.de
+Gewünschte Erklärungen vollständig ausformuliert als Entwurf zur notariellen Prüfung; konkrete medizinische Auswahlfragen getrennt. Times New Roman 11 pt, dezimale Gliederung. Keine erfundene ärztliche Beratung, Unterschrift oder starre Registergebühr.
 
-## Output-Formate
+## 6. Beispiel
 
-- **Vorsorgevollmacht-Muster** (mit allen Kernregelungen)
-- **Patientenverfügung-Hinweisblatt**
-- **ZVR-Anmeldeformular** (ausgefüllt)
-- **Mandantenberatungsnotiz** (Belehrungsinhalt nach § 17 BeurkG)
-- **Checkliste** (Form, Inhalt, Registrierung, Aufbewahrung)
-
-Quellen für Live-Check: https://dejure.org | https://openjur.de | https://www.gesetze-im-internet.de | https://www.bnotk.de | https://www.bgh.de | https://www.bverfg.de
+Die Tochter soll Bankgeschäfte allein führen, das Grundstück aber nur gemeinsam mit dem Sohn verkaufen dürfen. Formuliere diese Befugnisse getrennt und kläre den Ausfall einer Person. Keine pauschale Generalvollmacht mit unbemerkter Einzelvertretung liefern.

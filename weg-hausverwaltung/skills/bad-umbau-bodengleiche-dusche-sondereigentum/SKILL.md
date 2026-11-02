@@ -1,6 +1,6 @@
 ---
 name: bad-umbau-bodengleiche-dusche-sondereigentum
-description: "Wenn es um Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum
@@ -20,18 +20,18 @@ Barrierereduzierende Bad-Umbauten berühren häufig Gemeinschaftseigentum — be
 | Bauteil | Zuordnung | Begründung |
 |---|---|---|
 | Fliesen auf dem Boden | Sondereigentum | Oberflächen-Bekleidung |
-| Abdichtungsebene Boden (Wanne oder Verbundabdichtung) | Gemeinschaftseigentum | BGH 26.10.2012, V ZR 57/12 |
+| Abdichtungsebene Boden (Wanne oder Verbundabdichtung) | Funktion und Aufbau prüfen, keine pauschale Zuordnung | § 5 Abs. 1 und 2 WEG; technische Pläne und Gemeinschaftsordnung |
 | Steigleitung (Hauptstrang) | Gemeinschaftseigentum | § 5 Abs. 2 WEG analog |
 | Anschlussleitungen ab Hauptstrang bis Einheit | Sondereigentum (Regel) | BGH-Leitlinie; Teilungserklärung prüfen |
 | Lüftungsschacht (Gemeinschaftsschacht) | Gemeinschaftseigentum | § 5 Abs. 2 WEG |
 | Heizkörper, Badewanne, Waschbecken | Sondereigentum | Wenn austauschbar ohne GE-Eingriff |
 | Abflussrohr im Estrich (bis Steigleitung) | Grenzfall — Teilungserklärung maßgeblich | |
 
-BGH, Urteil vom 26.10.2012, V ZR 57/12: Die Abdichtungsebene des Bades gehört zum Gemeinschaftseigentum, auch wenn sie innerhalb der Wohnung liegt; ihr Eingriff für eine bodengleiche Dusche bedarf daher eines Beschlusses der GdWE. Verweis: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.10.2012&Aktenzeichen=V+ZR+57%2F12
+BGH, Urt. v. 26.10.2012 – Az. V ZR 57/12 betrifft Versorgungsleitungen im Gemeinschaftsbereich, nicht eine pauschale Zuordnung aller Badabdichtungen. Abdichtung, Estrich, tragende Decke und Leitungsabschnitte technisch getrennt nach § 5 WEG prüfen; den konkreten Eingriff ins Gemeinschaftseigentum benennen. Amtlicher Volltext und Reichweite: [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).
 
 ## Bodengleiche Dusche: Anforderungen und Beschluss
 
-Eingriff in Bodenabdichtung (GE) erfordert Beschluss. Anspruchsgrundlage: § 20 Abs. 2 Nr. 2 WEG (barrierefreier Umbau). Die GdWE kann Auflagen zur Ausführung (Abdichtungsklasse, Fachbetrieb, Versicherungsnachweis) stellen. Norm: https://www.gesetze-im-internet.de/woeigg/__20.html
+Soweit die konkret betroffene Abdichtung oder Tragkonstruktion Gemeinschaftseigentum ist, erfordert die bauliche Veränderung eine Beschlussprüfung. Anspruchsgrundlage: § 20 Abs. 2 Nr. 1 WEG (barrierefreier Umbau). Die GdWE kann Auflagen zur Ausführung (Abdichtungsklasse, Fachbetrieb, Versicherungsnachweis) stellen. Norm: https://www.gesetze-im-internet.de/woeigg/__20.html
 
 Abdichtungsnorm DIN 18534 (Abdichtung von Innenräumen, 2017): Beanspruchungsklasse W0-I bis W3-I; bodengleiche Duschen i.d.R. W2-I (intensive Beanspruchung). Fliese als Schutzschicht, darunter Verbundabdichtung (Flüssigfolie oder Dichtband). Estrich-Gefälle: mind. 1,5% zur Ablaufrinne.
 
@@ -62,28 +62,3 @@ Mietrecht § 554a BGB: Mieter mit Behinderung hat gegenüber dem Vermieter (hier
 ## Quellenpflicht
 
 `rechtsstand-mai-2026-faktenbank` laden. § 20 WEG über https://www.gesetze-im-internet.de/woeigg/__20.html, § 40 SGB XI über https://www.gesetze-im-internet.de/sgb_11/__40.html, § 554 BGB über https://www.gesetze-im-internet.de/bgb/__554.html live verifizieren. DIN 18534 gilt als anerkannte Regel der Technik — Fachbetrieb konsultieren.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 20 WEG
-- § 16 WEG
-- § 28 WEG
-- § 24 WEG
-- § 21 WEG
-- § 45 WEG
-- § 23 WEG
-- § 25 WEG
-- § 26 WEG
-- § 27 WEG
-- § 25 TDDDG
-- § 5 DDG
-
-### Leitentscheidungen
-
-- BGH V ZR 17/24
-- BGH V ZR 34/24
-- BGH V ZR 33/23
-- BGH V ZR 102/23
-- BGH V ZR 1/24

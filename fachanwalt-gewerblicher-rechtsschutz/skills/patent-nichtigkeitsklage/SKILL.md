@@ -1,6 +1,6 @@
 ---
 name: patent-nichtigkeitsklage
-description: "Wenn es um Patent Nichtigkeitsklage in Fachanwalt Gewerblicher Rechtsschutz geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Patent Nichtigkeitsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Patentnichtigkeitsklage beim BPatG vorbereiten oder Verteidigung des Patents gegen Nichtigkeitsangriff
@@ -64,10 +64,6 @@ description: "Wenn es um Patent Nichtigkeitsklage in Fachanwalt Gewerblicher Rec
 - Veroeffentlichungsdatum der Entgegenhaltung muss **vor dem Anmeldetag** des Patents liegen
 - Inhalt vollstaendig offenbart (nicht nur implizit)
 - Bei Vorbenutzung: Zeugen + zeitgestempelte Dokumente (Rechnungen, Lieferscheine, interne Berichte)
-
-## Zentrale Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zuständigkeit und Bifurkation
 
@@ -228,3 +224,5 @@ D2: [Titel, Veroeffentlichungsdatum]
 - `patentrecherche/freedom-to-operate-recherche` — vor Produktmarkteinfuehrung
 - `patentrecherche/neuheit-pruefen` — Entgegenhaltungsanalyse
 - `fachanwalt-gewerblicher-rechtsschutz-orientierung` — Triage
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

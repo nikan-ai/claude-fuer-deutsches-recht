@@ -1,6 +1,6 @@
 ---
 name: berufungsfest-beschluss-bauen-beweisbeschluss
-description: "Wenn es um Berufungsfestigkeit prüfen in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Berufungsfest Beschluss Bauen Beweisbeschluss; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Berufungsfestigkeit prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Berufungsfestigkeit prüfen
@@ -24,8 +24,6 @@ Fertiges Urteil gegen häufigste Aufhebungsgründe selbst prüfen: Richter will 
 3. Sind alle Anträge beschieden (§ 308 ZPO — ne ultra petita)?
 4. Ist der Tenor vollstreckungsfähig und bestimmt genug?
 5. Besteht eine Berufungszulassungsfrage (§ 511 Abs. 4 ZPO — Streitwert unter 600 EUR)?
-
-## Aktuelle Rechtsprechung zu Berufungsgründen
 
 ## Zentrale Normen
 

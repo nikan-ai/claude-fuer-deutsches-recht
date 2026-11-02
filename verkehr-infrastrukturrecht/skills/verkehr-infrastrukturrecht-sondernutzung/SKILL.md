@@ -1,6 +1,6 @@
 ---
 name: verkehr-infrastrukturrecht-sondernutzung
-description: "Wenn es um Sondernutzung oeffentlicher Strassenflaechen in Verkehrs- und Infrastrukturrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Sondernutzung öffentlicher Strassenflächen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verkehrs- und Infrastrukturrecht. Route: verkehr-infrastrukturrecht-sondernutzung."
 ---
 
 # Sondernutzung oeffentlicher Strassenflaechen
@@ -22,10 +22,6 @@ description: "Wenn es um Sondernutzung oeffentlicher Strassenflaechen in Verkehr
 - **§ 40 VwVfG** — Ermessen der Behoerde bei der Erlaubniserteilung; kein Anspruch, aber willkuerfreie Entscheidung
 - **§ 49 VwVfG** — Widerruf einer rechtmaessigen Erlaubnis
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -43,3 +39,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Gebuehren muessen verhaeltnismaessig sein — bei exzessiven Gebuehren Widerspruch.
 - Gleichbehandlung pruefen: Erlaubt die Gemeinde anderen Nutzern dasselbe?
 - Anwaltliche Endkontrolle bei Antraegen und Widerspruechen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

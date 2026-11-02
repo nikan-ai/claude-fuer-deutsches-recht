@@ -1,6 +1,6 @@
 ---
 name: sbgg-personenstandswechsel-folgen
-description: "Wenn es um Sbgg Personenstandswechsel Folgen in Fachanwalt Familienrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Sbgg Personenstandswechsel Folgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fachanwalt Familienrecht Sbgg Personenstandswechsel Folgen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -25,7 +25,6 @@ Einstieg in den **Fachanwaltsbereich Familienrecht**. Er klärt zunächst die Ve
 ## Fachlicher Kern — Familienrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Selbstbestimmungsgesetz (SBGG) — Personenstandswechsel und Familienrechtsfolgen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** BGB Paragrafen 1360a, 1361, 1565 ff., 1570 ff., 1601 ff., 1626 ff., 1684, 1687, 1687a; FamFG Paragrafen 49 ff., 76, 86 ff., 112 ff.; VersAusglG Paragrafen 1, 2, 5, 10 ff., 27, 51; GewSchG.
-- **Verifizierte Anker:** BGH, Beschluss vom 02.04.2025 - XII ZB 576/24 (Abänderung Versorgungsausgleich nach Tod, Paragraf 51 VersAusglG, Paragraf 88 Abs. 2 SGB VI); BGH, Beschluss vom 18.10.2023 - XII ZB 197/23 (Abänderung nur bei Veränderung, nicht Fehlerkorrektur der Ausgangsentscheidung).
 - **Arbeitsmodus:** Zuerst Verfahrenstyp und Eilbedarf klären: Sorge/Umgang, Unterhalt, Zugewinn, Versorgungsausgleich, Gewaltschutz; danach Kindesschutz, Titel, Fristen, Auskünfte, Beleglage und Vollstreckbarkeit.
 - **Outputpflicht:** Eilvermerk, Unterhalts-/Zugewinntabelle, Antragsentwurf, Jugendamts-/Gegnerbrief, Vergleichsvorschlag oder Mandantenfahrplan.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -72,7 +71,6 @@ Einstieg in den **Fachanwaltsbereich Familienrecht**. Er klärt zunächst die Ve
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 **Hinweis Stand 05/2026:** Das SBGG ist am 01.11.2024 in Kraft getreten. Eine gefestigte BGH-Rechtsprechung zu familienrechtlichen Folgewirkungen liegt noch nicht vor. Anhängige Verfassungsbeschwerden gegen einzelne Regelungen sind beim BVerfG anhängig — Stand vor Beratung über bundesverfassungsgericht.de prüfen.
 
@@ -86,7 +84,6 @@ Einstieg in den **Fachanwaltsbereich Familienrecht**. Er klärt zunächst die Ve
 | 2 | Jahresfrist seit letztem Wechsel? | Paragraf 5 SBGG | Kein Wechsel innerhalb eines Jahres möglich |
 | 3 | Dreimonate-Vormerkungsfrist eingeplant? | Paragraf 2 SBGG | Zwischen Anmeldung und Erklärung mindestens 3 Monate |
 | 4 | Mandatskonflikt prüfen | Paragraf 43a BRAO | Kanzlei darf nicht beide Ehegatten vertreten |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 7 | Versorgungsausgleich beeinflusst? | Paragrafen 1–49 VersAusglG | Anwartschaften berechnen; geschlechtsspezifische Tabellen Altverträge |
 | 8 | Offenbarungsverbot einhalten | Paragraf 6 SBGG | Kein Hinweis auf frühere Eintragung gegenüber Dritten |
 | 9 | Personalausweis, Reisepass, Versicherungen aktualisieren | Paragraf 4 SBGG | Ummeldungen nach Standesamtseintragung |
@@ -95,7 +92,6 @@ Einstieg in den **Fachanwaltsbereich Familienrecht**. Er klärt zunächst die Ve
 
 ### Folge 1 — Ehestatus und Fortführung der Ehe
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Praktische Konsequenzen:**
 - Kein automatischer Scheidungsgrund durch SBGG-Wechsel
@@ -128,7 +124,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 **Praktisches Problem:**
 - Versicherungsverträge (BU-Versicherung, Kapitallebensversicherung) mit geschlechtsspezifischen Tabellengrundlagen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Altverträge mit geschlechtsspezifischen Tabellen: Versicherungsunternehmen anfragen ob Anpassung möglich
 
 **Versorgungsausgleich in der Scheidung:**
@@ -319,7 +314,6 @@ eines Vermittlungstermins innerhalb eines Monats.
 
 | Gegenargument Behörde / Ehegatte | Reaktion |
 |----------------------------------|---------|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Offenbarungsverbot verhindert Behördentransparenz" | Paragraf 6 SBGG gilt nur für unbefugte Offenbarung; Behörden mit Sachgrund dürfen zugreifen |
 | "Minderjähriger muss Gutachten beibringen" | SBGG: kein Gutachten erforderlich; Zustimmung Sorgeberechtigte genügt |
 
@@ -349,12 +343,13 @@ eines Vermittlungstermins innerhalb eines Monats.
 - `fachanwalt-familienrecht-scheidungsantrag-stellen` — wenn Ehegatte Scheidung begehrt
 - `fachanwalt-familienrecht-mediation-156-famfg-cochemer` — bei Konflikten um Sorge/Umgang
 - `umgangsregelung-mustervorlagen` — Umgangsregelung nach Personenstandswechsel
-- `fachanwalt-familienrecht-duesseldorfer-tabelle-unterhalt` — Unterhaltsberechnung unverändert
+- `unterhalt-berechnen-und-gegenrechnen` — Unterhaltsberechnung unverändert
 
 ## Quellen
 
 - SBGG (Selbstbestimmungsgesetz) Paragrafen 1–14, in Kraft 01.11.2024
 - BGB Paragrafen 1353, 1565, 1591, 1592, 1626, 1684
 - VersAusglG Paragrafen 1–49
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Stand: 05/2026; weitere SBGG-Rechtsprechung im Entstehen — bei BGH-Linie aktualisieren
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

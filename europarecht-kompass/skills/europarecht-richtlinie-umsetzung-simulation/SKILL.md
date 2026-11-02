@@ -1,6 +1,6 @@
 ---
 name: europarecht-richtlinie-umsetzung-simulation
-description: "Wenn es um Richtlinie und Umsetzung in Europarecht-Kompass für deutsche Juristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Richtlinie und Umsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Richtlinie und Umsetzung
@@ -45,16 +45,12 @@ Bevor losgelegt wird, klaere:
 3. Hat der nationale Gesetzgeber den Umsetzungsspielraum ausgeschoepft oder ueberschossen (Gold-Plating)?
 4. Besteht eine Auslegungsfrage ob das nationale Recht richtlinienkonform interpretiert werden kann?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette Richtlinienumsetzung
 
 - **Art. 288 Abs. 3 AEUV** — Richtlinie: verbindliches Ziel; Form und Mittel den MS ueberlassen
 - **Art. 4 Abs. 3 EUV** — Umsetzungspflicht; Loyalitaetsgebot
 - **Art. 267 AEUV** — Vorabentscheidungsverfahren bei Auslegungsfragen
-- **§ 4a TMG / § 29b UStG etc.** — nationale Umsetzungsgesetze (Bsp. DSGVO-Ergaenzungsgesetze)
+- Nationales Umsetzungsrecht immer anhand der konkreten Richtlinie und der amtlichen Umsetzungshinweise bestimmen. Das frühere TMG wurde durch das Digitale-Dienste-Gesetz abgelöst; Verordnungen wie die DSGVO gelten unmittelbar und werden nicht als Richtlinie umgesetzt. Unbestimmte Sammelverweise und fachfremde UStG-Normen nicht verwenden.
 
 ## Output-Template: Umsetzungspruefung Richtlinie
 
@@ -98,3 +94,5 @@ Zustaendiges Gericht für Vorlage: [...]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

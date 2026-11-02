@@ -1,0 +1,831 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Starrer Drei-Fragen-/Ein-Schritt-Schnellstart zugunsten beauftragtem Dokument korrigiert; lokale Methodik zu Präzedenz, Rechtskraft und gesetzlicher Bindung mit Root-Passage angeglichen.",
+    "files": [
+      {
+        "path": "diesel-schadensersatz/README.md",
+        "sha256": "149776818a8af1be5ac1b92c1280d92b3f11bd669506f1eb5594bd1a8c08a18d"
+      },
+      {
+        "path": "diesel-schadensersatz/references/methodik-buergerliches-recht.md",
+        "sha256": "8dcc7ebf83ed9c52193b65f521c23b9e08c1bd639e9def4b571236f7092d2b07"
+      }
+    ],
+    "primary_sources_read": [
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__322.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Materielle Rechtskraft hinsichtlich des entschiedenen Anspruchs.",
+        "limit": "Amtlichen HTML-Text per curl gelesen; keine neue Prüfung der Diesel-Leitentscheidungen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__31.html",
+        "accessed_on": "2026-10-16",
+        "statement": "Besondere Bindungswirkung der Entscheidungen des BVerfG.",
+        "limit": "Keine vollständige Übersicht aller gesetzlichen Verfahrensbindungen."
+      }
+    ],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Fahrzeugbezogener Anspruch und gewünschtes Schreiben eröffnen den Prompt; redundante Modusaufnahme wurde entschärft, Sicherheits- und Fachzweige bleiben bestehen.",
+    "norms_or_source_basis": "Paragraf 823 Absatz 2 BGB; Paragrafen 6 und 27 EG-FGV",
+    "selected_anchor_identifiers": [
+      "VIa ZR 335/21"
+    ],
+    "application_limit": "Dokumentierter Profilstand wiederverwendet; Bruttokorridor von fünf bis fünfzehn Prozent ist kein Betroffenheitsbeweis und keine feste Quote.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/diesel-schadensersatz/diesel-schadensersatz-schnellstart.md",
+      "status": "changed",
+      "sha256": "9d83444466fc9907f51b4be432e0a3d90c1de73e63a0cbfe4a58461d7a8618e3",
+      "characters": 7303,
+      "utf8_bytes": 7360,
+      "previous_verdict": "retained"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/diesel-schadensersatz/diesel-schadensersatz-werkstatt.md",
+      "status": "changed",
+      "sha256": "bb4a683fb3ee50ad838a62a29fb5d0f8542c7b65c098582905a48d868d80ae06",
+      "characters": 23953,
+      "utf8_bytes": 24264,
+      "previous_verdict": "retained"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "diesel-schadensersatz",
+  "reviewed_on": "2026-09-30",
+  "sources": [
+    {
+      "url": "https://data.gov.de/suche/daten/auskunft-zu-von-diesel-abgasthematik-betroffenen-fahrzeugen",
+      "checked_on": "2026-09-30",
+      "supports": "Amtlicher GovData-/KBA-Datensatz zur fahrzeugbezogenen Abfrage. Ein dokumentierter Treffer stützt nur den ausgewiesenen Maßnahmenbezug; ein fehlender Treffer beweist weder Unbetroffenheit noch Rechtmäßigkeit."
+    },
+    {
+      "url": "https://www.kba.de/DE/Themen/Marktueberwachung/Abgasthematik/erster_ber_uk_vw_nox.pdf?__blob=publicationFile&v=2",
+      "checked_on": "2026-09-30",
+      "supports": "Amtlicher KBA-Untersuchungsbericht als historischer Behördenanker für die VW-/EA189-Fallgruppe; keine pauschale Übertragung auf EA288, BMW, Mercedes oder Stellantis."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62021CJ0100",
+      "checked_on": "2026-09-30",
+      "supports": "EuGH, Urteil vom 21.03.2023, C-100/21: unionsrechtlicher Schutz individueller Käuferinteressen und Erfordernis wirksamen Ersatzes bei schuldhaft verursachtem Schaden; keine automatische Haftung oder feste Schadensquote."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2021/VIa_ZR_335-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 26.06.2023, VIa ZR 335/21: Differenzschaden nach Paragraf 823 Absatz 2 BGB in Verbindung mit den EG-FGV-Normen, Korridor von fünf bis fünfzehn Prozent vor Vorteilsausgleich und fallbezogene Schätzung nach Paragraf 287 ZPO."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2020/X_ZR__83-20.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 28.11.2023, X ZR 83/20: Die Zehnjahresfrist des Paragrafen 852 Satz 2 BGB beginnt mit Entstehung des ursprünglichen Schadensersatzanspruchs, nicht erst nach Ablauf der Regelverjährung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2021/VIa_ZR__57-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 21.02.2022, VIa ZR 57/21: Beim Neuwagen-Ersterwerb über einen Händler kann der konkret auf Kosten des Käufers erlangte Herstellerzufluss Gegenstand von Paragraf 852 BGB sein; der Endkundenpreis ist nicht automatisch das Erlangte."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62021CJ0038",
+      "checked_on": "2026-09-30",
+      "supports": "EuGH, Urteil vom 21.12.2023 in den verbundenen Rechtssachen C-38/21, C-47/21 und C-232/21: Informationsmängel und Fristbeginn sind konkret zu prüfen; nach vollständiger Erfüllung des Kreditvertrags kann der Verbraucher das Widerrufsrecht nicht mehr ausüben."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2021/XI_ZR_162-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 28.01.2025, XI ZR 162/21: Kein später ausübbares Widerrufsrecht nach vollständiger Erfüllung eines verbundenen Allgemein-Verbraucherdarlehensvertrags."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2022/XI_ZR_258-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 27.02.2024, XI ZR 258/22: Widerrufsinformation, Pflichtangaben, Musterschutz und Relevanz sind anhand des konkreten Vertrags und seiner historischen Normfassung zu prüfen; Schlagworte ersetzen den Vertragsabgleich nicht."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__130a.html",
+      "checked_on": "2026-09-30",
+      "supports": "Amtlicher Text des Paragrafen 130a ZPO zu elektronischem Dokument, qualifizierter elektronischer Signatur oder einfacher Signatur mit sicherem Übermittlungsweg sowie gerichtlichem Eingang."
+    },
+    {
+      "url": "https://justiz.de/laender-bund-europa/elektronische_kommunikation/bundesanzeiger_29_07_2025.pdf",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche ERVB 2025 für zulässige Dateiformate und technische Einreichungsanforderungen; Paketproduktion, Signatur, Übermittlung und Eingangsbeleg bleiben getrennte Schritte."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2022/VIa_ZR_1559-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 18.06.2026, VIa ZR 1559/22: Die bloße Kanalangabe beA/EGVP ersetzt weder qualifizierte elektronische Signatur noch den Nachweis einer persönlichen sicheren Übermittlung mit VHN."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-95%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-95/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-152%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-152/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-162%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-162/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-173%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-173/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-189%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-189/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-232%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-232/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-270%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-270/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-293%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-293/26 ist am Prüftag anhängig; Vorlage und Berichtigung sind keine Sachentscheidung."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/documents.jsf?language=de&num=C-443%2F26",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche CURIA-Aktenansicht: C-443/26 ist am Prüftag anhängig; es liegt keine Sachentscheidung vor."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/liste.jsf?num=C-408%2F25&language=de",
+      "checked_on": "2026-09-30",
+      "supports": "Amtliche InfoCuria-Aktenansicht: C-408/25 und die verbundenen Rechtssachen C-438/25 und C-525/25 sind seit dem 21.07.2026 geschlossen. Eine veröffentlichte Abschlussentscheidung und damit die genaue Erledigungsart waren am Prüftag nicht feststellbar."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=311262&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-8/26: Beschluss des Präsidenten vom 24.04.2026, ECLI:EU:C:2026:394; nach Rücknahme gestrichen, keine Sachantwort."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314793&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-9/26: Beschluss des Präsidenten vom 04.08.2026, ECLI:EU:C:2026:638; nach Rücknahme gestrichen, keine Sachantwort."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314804&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-43/26: Beschluss des Präsidenten vom 05.08.2026, ECLI:EU:C:2026:647; nach Rücknahme gestrichen, keine Sachantwort."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314805&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-113/26: Beschluss des Präsidenten vom 05.08.2026, ECLI:EU:C:2026:639; nach Rücknahme gestrichen, keine Sachantwort."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314839&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-114/26: Beschluss des Präsidenten vom 12.08.2026, ECLI:EU:C:2026:651; nach Rücknahme gestrichen, keine Sachantwort."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314808&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-228/26: Beschluss des Präsidenten vom 05.08.2026, ECLI:EU:C:2026:641; nach Rücknahme gestrichen, keine Sachantwort auch nicht zur Prozesskostenfrage."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314807&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-440/26: Beschluss des Präsidenten vom 12.08.2026, ECLI:EU:C:2026:644; nach Rücknahme gestrichen, keine Sachantwort."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314810&doclang=DE&mode=req&pageIndex=0&part=1",
+      "checked_on": "2026-09-30",
+      "supports": "C-554/25: Beschluss des Präsidenten vom 06.08.2026, ECLI:EU:C:2026:636; nach Rücknahme gestrichen, keine Sachantwort zur Vorkonditionierung oder Regeneration."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR__17-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 26.08.2026, VIa ZR 17/23: Beim behaupteten Neuwagenkauf eines Audi SQ5 3.0 TDI Euro 5 durfte der Differenzschaden nicht allein wegen eines verneinten Schutzgesetzcharakters der §§ 6, 27 EG-FGV abgelehnt werden. Der BGH verwies zur Prüfung der Anspruchsvoraussetzungen zurück. Grenze: Als Anwendungsanker der Differenzschadenlinie verwenden, nicht als Feststellung einer unzulässigen Abschalteinrichtung, einer Haftung dem Grunde nach oder einer bestimmten Schadenshöhe. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-via-zr17-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_1157-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 26.08.2026, VIa ZR 1157/23: Im EA288-Euro-6-Fall ist konkreter Vortrag zu einer temperaturabhängig reduzierten Abgasrückführung nicht schon wegen fehlender interner Detailkenntnis Vortrag ins Blaue hinein. Bei objektivem Verstoß gegen §§ 6, 27 EG-FGV wird das Verschulden vermutet; tatsächlicher Verbotsirrtum und Unvermeidbarkeit sind vom Hersteller darzulegen und zu beweisen. Grenze: Als aktuellen EA288-Anwendungs- und Darlegungslastanker verwenden. Die Zurückverweisung belegt weder das Vorliegen einer unzulässigen Abschalteinrichtung noch Haftung, Quote oder Schadenshöhe im Einzelfall. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-via-zr1157-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2024/VIa_ZB___3-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-08-26",
+      "supports": "BGH, Beschluss vom 11.08.2026, VIa ZB 3/24: Wird gegen Haupt- und Ergänzungsurteil jeweils Berufung eingelegt, muss die Begründung die selbständig angefochtene Entscheidung und deren tragende Erwägungen erfassen. Eine Gegenerklärung, die nur bestreitet, dass bereits über alle Anträge entschieden worden sei, ersetzt keine den Anforderungen des § 520 Abs. 3 Satz 2 ZPO genügende Begründung gegen das Ergänzungsurteil. Ein Urteil ist nicht ergänzungsbedürftig, wenn Tenor und tragende Begründung sämtliche vollständig wiedergegebenen Anträge insgesamt abweisen. Grenze: Nach Haupt-, Teil- oder Ergänzungsurteil Tenor, Tatbestand, Gründe und jeden Antrag getrennt abgleichen. Für jedes selbständig angefochtene Urteil eine fristgerechte, entscheidungsbezogene Berufungsbegründung führen; Verbindung der Rechtsmittel ersetzt sie nicht. Vor einem Ergänzungsantrag nach § 321 ZPO prüfen, ob Tenor und Gründe den Antrag bereits insgesamt erfassen, und Gehörsrügen passage- sowie entscheidungserheblich begründen. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazb3-24-ergaenzungsurteil-berufung"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_782-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-08-09",
+      "supports": "BGH, Urteil vom 28.07.2026, VIa ZR 782/23: Der BGH wandte die Differenzschadenlinie auf einen Mercedes-Benz Marco Polo 250d mit OM651 und Euro 6 an und verwies zur Prüfung der Voraussetzungen zurück. Die Entscheidung bestätigt den Prüfpfad, stellt aber weder eine unzulässige Abschalteinrichtung noch Haftung oder Schadenshöhe im konkreten Fahrzeug fest. Grenze: Als aktuellen OM651-Anwendungsanker für den Differenzschadenspfad verwenden, nicht als Betroffenheits- oder Haftungsbeweis. Kühlmittel-Solltemperatur-Regelung, Fahrzeugkonfiguration, Verschulden, Kausalität, Quote und Vorteilsausgleich weiterhin konkret vortragen und belegen. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr782-23-om651-anwendung"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_545-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-08-26",
+      "supports": "BGH, Urteil vom 28.07.2026, VIa ZR 545/23: Konkreter Vortrag, die Abgasrückführung werde unter +17 °C um 33 Prozent reduziert und unter +5 °C sowie über +33 °C vollständig deaktiviert, genügte den Darlegungsanforderungen für die Prüfung eines Thermofensters. Der BGH bestätigte nur die Ablehnung des großen Schadensersatzes aus § 826 BGB und verwies zur erstmaligen Prüfung des Differenzschadens zurück; Einrichtung, Verschulden, Kausalität und Schadenshöhe wurden nicht festgestellt. Grenze: Temperaturschwellen, Reduktionsgrad und Abschaltwirkung mit fahrzeugbezogener Quelle vortragen und wirksames Bestreiten gesondert prüfen. Das Urteil als Darlegungs- und Anwendungsanker für Fiat-Euro-5-Wohnmobile verwenden, nicht als Serien-, Haftungs- oder Quotenbeweis; § 826 BGB und § 823 Abs. 2 BGB strikt trennen. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr545-23-fiat-thermofenster-vortrag"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2024/VIa_ZR__46-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-08-26",
+      "supports": "BGH, Beschluss vom 28.07.2026, VIa ZR 46/24: In einem EA288-Euro-6-Fall durfte das Berufungsgericht bei der Bejahung von § 826 BGB den zentralen Beklagtenvortrag nicht übergehen, das Kraftfahrt-Bundesamt habe die Fahrkurvenerkennung geprüft und nicht als unzulässig bewertet. Das Übergehen war entscheidungserheblich und verletzte Art. 103 Abs. 1 GG; der BGH stellte weder die Rechtmäßigkeit der Funktion noch einen allgemeinen Haftungsausschluss fest. Grenze: Konkret belegten Behördenvortrag und seine Informationsgrundlage bei der §-826-Vorsatz- und Sittenwidrigkeitsprüfung würdigen und beantworten. Den Beschluss nicht auf § 823 Abs. 2 BGB übertragen: Er enthält keine Entscheidung zu Differenzschaden, tatsächlichem Verbotsirrtum, vollständiger Behördeninformation oder Unvermeidbarkeit und ist kein Serienbeweis für EA288. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr46-24-ea288-fahrkurve-gehoer"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_151-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-08-26",
+      "supports": "BGH, Urteil vom 28.07.2026, VIa ZR 151/23: Der bereits erstinstanzlich gehaltene Vortrag zum Temperaturbereich einer reduzierten Abgasrückführung war nicht ins Blaue hinein erfolgt und durfte die Prüfung eines Differenzschadens nicht abschneiden. Der BGH billigte die Ablehnung des großen Schadensersatzes aus § 826 BGB und verwies nur zur Prüfung der Voraussetzungen des § 823 Abs. 2 BGB in Verbindung mit §§ 6, 27 EG-FGV zurück. Grenze: Im OM651-Euro-5-Fall Temperatursteuerung und Fahrzeugbezug konkret, aber ohne unerreichbare interne Detailkenntnis vortragen. Die Zurückverweisung belegt weder eine unzulässige Abschalteinrichtung noch Verschulden, Haftung oder Quote; Vorsatz- und Fahrlässigkeitsspur getrennt halten. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr151-23-om651-thermofenster-vortrag"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2024/VIa_ZR_549-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-08-09",
+      "supports": "BGH, Beschluss vom 21.07.2026, VIa ZR 549/24: Der BGH beanstandete es nicht, dass das Berufungsgericht die Nutzungsvorteile wegen einer über 13 Jahre festgestellten, mit durchschnittlich 5.750 Kilometern ungewöhnlich niedrigen Jahresfahrleistung zeitanteilig nach einem Bruchteil des Kaufpreises geschätzt hatte. Die Wahl der Schätzungsmethode liegt innerhalb der Grenzen des § 287 ZPO im tatrichterlichen Ermessen; die Entscheidung schreibt weder allgemein eine Zeitmethode noch allgemein die lineare Kilometermethode vor. Grenze: Bei Wohnmobilen, Sammler- oder sonstigen Fahrzeugen mit atypisch geringer Jahresfahrleistung mindestens Kilometer- und Zeitmethode als Sensitivität rechnen. Fahrzeugart, Nutzungsdauer, Jahresfahrleistung, Gesamtlaufleistungsannahme und wirtschaftliche Plausibilität offenlegen; keine Methode als universell zwingend ausgeben. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen. Gelesener Umfang: Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+      "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+      "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr549-24-nutzungsmethode"
+    }
+  ],
+  "selection": {
+    "positive": [
+      "Prüfe meine Dieselakte zum EA288: Rückrufstatus, konkrete Motorsteuerung, Anspruchsgrundlage, Verjährung und wirtschaftlich sinnvollen nächsten Schritt.",
+      "Berechne für meinen Mercedes-Dieselfall den Differenzschaden samt Nutzung und Restwert und entwirf anschließend eine belastbare Anspruchsstrategie.",
+      "Ist der Widerruf meines vollständig abbezahlten Autokredits aus 2018 noch möglich, und welche Originalunterlagen und Zahlungen sind dafür entscheidend?",
+      "Mache die anwaltlich freigegebene Dieselklage mit K-Anlagen technisch kontrolliert beA-versandfertig, ohne sie selbst zu versenden."
+    ],
+    "negative": [
+      "Prüfe die kaufrechtliche Gewährleistung für einen gebrauchten Benziner mit Motorschaden, ohne Bezug zu Abgasmanipulationen oder Dieseltechnik.",
+      "Verteidige mich gegen einen Bußgeldbescheid wegen einer Geschwindigkeitsüberschreitung und beantrage Akteneinsicht in die Messunterlagen.",
+      "Erstelle eine rein öffentlich-rechtliche Stellungnahme zur kommunalen Luftreinhalteplanung, ohne individuellen Fahrzeug- oder Schadensersatzfall.",
+      "Paketieren Sie einen fertigen mietrechtlichen Räumungsschriftsatz samt Anlagen für beA; ein Diesel- oder Fahrzeugbezug besteht nicht."
+    ]
+  },
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Schnellstart wurde individuell gegen Betroffenheit, Anspruchstrennung, Verjährung, die exakte Differenzschadensformel, Kreditvollerfüllung, den amtlich geprüften EuGH-Verfahrensstatus vom 30.09.2026 und das Versandgate geprüft. Er liefert Ergebnis, Beleggrenzen und genau einen nächsten Schritt, ohne Sachantworten aus bloßen Vorlagen oder Versand aus bloßer Paketierung abzuleiten. Einstiegsredaktion 16.10.2026, Batch 2: Fahrzeugbezogener Anspruch und gewünschtes Schreiben eröffnen den Prompt; redundante Modusaufnahme wurde entschärft, Sicherheits- und Fachzweige bleiben bestehen. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Einstiegsredaktion 16.10.2026, Batch 2: Fahrzeugbezogener Anspruch und gewünschtes Schreiben eröffnen den Prompt; redundante Modusaufnahme wurde entschärft, Sicherheits- und Fachzweige bleiben bestehen. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "9d83444466fc9907f51b4be432e0a3d90c1de73e63a0cbfe4a58461d7a8618e3"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Der Werkstattprompt wurde als vollständiger Dieselworkflow fachlich gelesen. Fahrzeugbezug, Anspruch, Frist, Schaden, Finanzierung, Prozess und beA bleiben getrennt; die Anker stehen auf 30.09.2026, die neuen BGH-Zurückverweisungen bleiben in ihrer Aussage begrenzt und geschlossene, gestrichene oder anhängige EuGH-Verfahren können nicht als Sachrechtsprechung in ein Ergebnis gelangen. Einstiegsredaktion 16.10.2026, Batch 2: Fahrzeugbezogener Anspruch und gewünschtes Schreiben eröffnen den Prompt; redundante Modusaufnahme wurde entschärft, Sicherheits- und Fachzweige bleiben bestehen. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Einstiegsredaktion 16.10.2026, Batch 2: Fahrzeugbezogener Anspruch und gewünschtes Schreiben eröffnen den Prompt; redundante Modusaufnahme wurde entschärft, Sicherheits- und Fachzweige bleiben bestehen. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "bb4a683fb3ee50ad838a62a29fb5d0f8542c7b65c098582905a48d868d80ae06"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-30",
+    "files": [
+      "diesel-schadensersatz/README.md",
+      "diesel-schadensersatz/diesel-schadensersatz-schnellstart.md",
+      "diesel-schadensersatz/diesel-schadensersatz-werkstatt.md",
+      "diesel-schadensersatz/references/gepruefte-anker-dieselgate.md",
+      "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.md",
+      "quality/evals/diesel-schadensersatz.json"
+    ],
+    "opening_change": "Ohne Skill- oder Fallartwahl unmittelbar aus den vorhandenen Unterlagen starten, Sicherheitsstopps und Fristen zuerst prüfen, ein belastbares Fachprodukt liefern und höchstens drei wirklich blockierende Fragen stellen.",
+    "norms": [
+      "Paragraf 823 Absatz 2 BGB in Verbindung mit Paragraf 6 Absatz 1 und Paragraf 27 Absatz 1 EG-FGV sowie Paragrafen 826 und 31 BGB",
+      "Paragrafen 195, 199, 203, 204, 204a und 852 BGB",
+      "Paragrafen 355, 358 und 495 BGB für den verbundenen Fahrzeugkredit",
+      "Paragraf 287 ZPO für Schadens- und Nutzungsschätzung",
+      "Paragrafen 130a und 130d ZPO sowie Paragrafen 2 und 5 ERVV"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 21.03.2023 – C-100/21, ECLI:EU:C:2023:229",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62021CJ0100",
+        "application": "Unionsrechtlichen Käuferindividualschutz als Ausgangspunkt der deutschen Differenzschadenspur verwenden.",
+        "limit": "Keine automatische Herstellerhaftung, keine Fahrzeugbetroffenheit und keine feste Quote; objektiver Verstoß, Verschulden, Kausalität und Schaden bleiben fallbezogen.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BGH, Urteil vom 26.06.2023 – VIa ZR 335/21",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2021/VIa_ZR_335-21.pdf?__blob=publicationFile&v=1",
+        "application": "Differenzschaden im Korridor von fünf bis fünfzehn Prozent zunächst brutto bestimmen und den Vorteilsausgleich anschließend transparent prüfen.",
+        "limit": "Die Entscheidung beweist keine konkrete Abschalteinrichtung und erlaubt keine schematische Zehn-Prozent-Quote.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BGH, Urteil vom 28.11.2023 – X ZR 83/20",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2020/X_ZR__83-20.pdf?__blob=publicationFile&v=1",
+        "application": "Für Paragraf 852 Satz 2 BGB die Zehnjahresfrist ab Entstehung des ursprünglichen Anspruchs und nicht erst ab dessen Regelverjährung berechnen.",
+        "limit": "Herstellerzufluss, unerlaubte Handlung, konkrete Erwerbskette und mögliche Hemmung werden dadurch nicht fingiert.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "EuGH, Urteil vom 21.12.2023 – verbundene Rechtssachen C-38/21, C-47/21 und C-232/21",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62021CJ0038",
+        "application": "Beim Kfz-Kredit vor jeder Detailprüfung von Pflichtangaben die vollständige Erfüllung anhand der Zahlungs- und Saldenbelege klären.",
+        "limit": "Ohne Vollerfüllung bleiben konkrete Widerrufsinformation, historische Normfassung, Musterschutz und Relevanz zu prüfen; technische Dieselansprüche folgen daraus nicht.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BGH, Urteil vom 18.06.2026 – VIa ZR 1559/22",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2022/VIa_ZR_1559-22.pdf?__blob=publicationFile&v=1",
+        "application": "Beim Übergang von Paketierung zu Einreichung entweder qES oder einfache Signatur plus persönliche sichere Übermittlung und VHN vollständig belegen.",
+        "limit": "Ein lokales Paket, eine beA-/EGVP-Kanalangabe oder eine nicht attestierte Receipt-Datei beweist weder wirksame Signatur noch gerichtlichen Eingang.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "EuGH, Beschluss des Präsidenten vom 05.08.2026 – C-113/26, ECLI:EU:C:2026:639",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=314805&doclang=DE&mode=req&pageIndex=0&part=1",
+        "application": "C-113/26 ausschließlich als nach Rücknahme gestrichene Statusakte kennzeichnen.",
+        "limit": "Keine Sachantwort zur Höhenkorrektur, Systemgrenze, Grenzwertfrage oder Beweislast; weder anhängiger Aussetzungsanker noch materielle EuGH-Leitlinie.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      },
+      {
+        "citation": "BGH, Urteil vom 26.08.2026, VIa ZR 17/23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR__17-23.pdf?__blob=publicationFile&v=1",
+        "application": "Beim behaupteten Neuwagenkauf eines Audi SQ5 3.0 TDI Euro 5 durfte der Differenzschaden nicht allein wegen eines verneinten Schutzgesetzcharakters der §§ 6, 27 EG-FGV abgelehnt werden. Der BGH verwies zur Prüfung der Anspruchsvoraussetzungen zurück.",
+        "limit": "Als Anwendungsanker der Differenzschadenlinie verwenden, nicht als Feststellung einer unzulässigen Abschalteinrichtung, einer Haftung dem Grunde nach oder einer bestimmten Schadenshöhe. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-via-zr17-23"
+      },
+      {
+        "citation": "BGH, Urteil vom 26.08.2026, VIa ZR 1157/23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_1157-23.pdf?__blob=publicationFile&v=1",
+        "application": "Im EA288-Euro-6-Fall ist konkreter Vortrag zu einer temperaturabhängig reduzierten Abgasrückführung nicht schon wegen fehlender interner Detailkenntnis Vortrag ins Blaue hinein. Bei objektivem Verstoß gegen §§ 6, 27 EG-FGV wird das Verschulden vermutet; tatsächlicher Verbotsirrtum und Unvermeidbarkeit sind vom Hersteller darzulegen und zu beweisen.",
+        "limit": "Als aktuellen EA288-Anwendungs- und Darlegungslastanker verwenden. Die Zurückverweisung belegt weder das Vorliegen einer unzulässigen Abschalteinrichtung noch Haftung, Quote oder Schadenshöhe im Einzelfall. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-09-30",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-via-zr1157-23"
+      },
+      {
+        "citation": "BGH, Beschluss vom 11.08.2026, VIa ZB 3/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2024/VIa_ZB___3-24.pdf?__blob=publicationFile&v=1",
+        "application": "Wird gegen Haupt- und Ergänzungsurteil jeweils Berufung eingelegt, muss die Begründung die selbständig angefochtene Entscheidung und deren tragende Erwägungen erfassen. Eine Gegenerklärung, die nur bestreitet, dass bereits über alle Anträge entschieden worden sei, ersetzt keine den Anforderungen des § 520 Abs. 3 Satz 2 ZPO genügende Begründung gegen das Ergänzungsurteil. Ein Urteil ist nicht ergänzungsbedürftig, wenn Tenor und tragende Begründung sämtliche vollständig wiedergegebenen Anträge insgesamt abweisen.",
+        "limit": "Nach Haupt-, Teil- oder Ergänzungsurteil Tenor, Tatbestand, Gründe und jeden Antrag getrennt abgleichen. Für jedes selbständig angefochtene Urteil eine fristgerechte, entscheidungsbezogene Berufungsbegründung führen; Verbindung der Rechtsmittel ersetzt sie nicht. Vor einem Ergänzungsantrag nach § 321 ZPO prüfen, ob Tenor und Gründe den Antrag bereits insgesamt erfassen, und Gehörsrügen passage- sowie entscheidungserheblich begründen. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-08-26",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazb3-24-ergaenzungsurteil-berufung"
+      },
+      {
+        "citation": "BGH, Urteil vom 28.07.2026, VIa ZR 782/23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_782-23.pdf?__blob=publicationFile&v=1",
+        "application": "Der BGH wandte die Differenzschadenlinie auf einen Mercedes-Benz Marco Polo 250d mit OM651 und Euro 6 an und verwies zur Prüfung der Voraussetzungen zurück. Die Entscheidung bestätigt den Prüfpfad, stellt aber weder eine unzulässige Abschalteinrichtung noch Haftung oder Schadenshöhe im konkreten Fahrzeug fest.",
+        "limit": "Als aktuellen OM651-Anwendungsanker für den Differenzschadenspfad verwenden, nicht als Betroffenheits- oder Haftungsbeweis. Kühlmittel-Solltemperatur-Regelung, Fahrzeugkonfiguration, Verschulden, Kausalität, Quote und Vorteilsausgleich weiterhin konkret vortragen und belegen. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-08-09",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr782-23-om651-anwendung"
+      },
+      {
+        "citation": "BGH, Urteil vom 28.07.2026, VIa ZR 545/23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_545-23.pdf?__blob=publicationFile&v=1",
+        "application": "Konkreter Vortrag, die Abgasrückführung werde unter +17 °C um 33 Prozent reduziert und unter +5 °C sowie über +33 °C vollständig deaktiviert, genügte den Darlegungsanforderungen für die Prüfung eines Thermofensters. Der BGH bestätigte nur die Ablehnung des großen Schadensersatzes aus § 826 BGB und verwies zur erstmaligen Prüfung des Differenzschadens zurück; Einrichtung, Verschulden, Kausalität und Schadenshöhe wurden nicht festgestellt.",
+        "limit": "Temperaturschwellen, Reduktionsgrad und Abschaltwirkung mit fahrzeugbezogener Quelle vortragen und wirksames Bestreiten gesondert prüfen. Das Urteil als Darlegungs- und Anwendungsanker für Fiat-Euro-5-Wohnmobile verwenden, nicht als Serien-, Haftungs- oder Quotenbeweis; § 826 BGB und § 823 Abs. 2 BGB strikt trennen. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-08-26",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr545-23-fiat-thermofenster-vortrag"
+      },
+      {
+        "citation": "BGH, Beschluss vom 28.07.2026, VIa ZR 46/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2024/VIa_ZR__46-24.pdf?__blob=publicationFile&v=1",
+        "application": "In einem EA288-Euro-6-Fall durfte das Berufungsgericht bei der Bejahung von § 826 BGB den zentralen Beklagtenvortrag nicht übergehen, das Kraftfahrt-Bundesamt habe die Fahrkurvenerkennung geprüft und nicht als unzulässig bewertet. Das Übergehen war entscheidungserheblich und verletzte Art. 103 Abs. 1 GG; der BGH stellte weder die Rechtmäßigkeit der Funktion noch einen allgemeinen Haftungsausschluss fest.",
+        "limit": "Konkret belegten Behördenvortrag und seine Informationsgrundlage bei der §-826-Vorsatz- und Sittenwidrigkeitsprüfung würdigen und beantworten. Den Beschluss nicht auf § 823 Abs. 2 BGB übertragen: Er enthält keine Entscheidung zu Differenzschaden, tatsächlichem Verbotsirrtum, vollständiger Behördeninformation oder Unvermeidbarkeit und ist kein Serienbeweis für EA288. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-08-26",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr46-24-ea288-fahrkurve-gehoer"
+      },
+      {
+        "citation": "BGH, Urteil vom 28.07.2026, VIa ZR 151/23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2023/VIa_ZR_151-23.pdf?__blob=publicationFile&v=1",
+        "application": "Der bereits erstinstanzlich gehaltene Vortrag zum Temperaturbereich einer reduzierten Abgasrückführung war nicht ins Blaue hinein erfolgt und durfte die Prüfung eines Differenzschadens nicht abschneiden. Der BGH billigte die Ablehnung des großen Schadensersatzes aus § 826 BGB und verwies nur zur Prüfung der Voraussetzungen des § 823 Abs. 2 BGB in Verbindung mit §§ 6, 27 EG-FGV zurück.",
+        "limit": "Im OM651-Euro-5-Fall Temperatursteuerung und Fahrzeugbezug konkret, aber ohne unerreichbare interne Detailkenntnis vortragen. Die Zurückverweisung belegt weder eine unzulässige Abschalteinrichtung noch Verschulden, Haftung oder Quote; Vorsatz- und Fahrlässigkeitsspur getrennt halten. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-08-26",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr151-23-om651-thermofenster-vortrag"
+      },
+      {
+        "citation": "BGH, Beschluss vom 21.07.2026, VIa ZR 549/24",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIa_ZS/2024/VIa_ZR_549-24.pdf?__blob=publicationFile&v=1",
+        "application": "Der BGH beanstandete es nicht, dass das Berufungsgericht die Nutzungsvorteile wegen einer über 13 Jahre festgestellten, mit durchschnittlich 5.750 Kilometern ungewöhnlich niedrigen Jahresfahrleistung zeitanteilig nach einem Bruchteil des Kaufpreises geschätzt hatte. Die Wahl der Schätzungsmethode liegt innerhalb der Grenzen des § 287 ZPO im tatrichterlichen Ermessen; die Entscheidung schreibt weder allgemein eine Zeitmethode noch allgemein die lineare Kilometermethode vor.",
+        "limit": "Bei Wohnmobilen, Sammler- oder sonstigen Fahrzeugen mit atypisch geringer Jahresfahrleistung mindestens Kilometer- und Zeitmethode als Sensitivität rechnen. Fahrzeugart, Nutzungsdauer, Jahresfahrleistung, Gesamtlaufleistungsannahme und wirtschaftliche Plausibilität offenlegen; keine Methode als universell zwingend ausgeben. Volltext, Randnummer, Fassung und Folgeentwicklung unmittelbar vor Einreichung erneut prüfen.",
+        "checked_on": "2026-08-09",
+        "verification_status": "wiederverwendeter_quellenmatrix_nachweis",
+        "passages_read": "Vorhandener Datensatz bezeichnet Volltextprüfung, nennt hier aber keine einzelnen Randnummern; keine heutige neue Passagenprüfung behauptet.",
+        "previous_review": "diesel-schadensersatz/references/diesel-rechtsprechung-2021-2026.json#bgh-viazr549-24-nutzungsmethode"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung; die Ergebnisfälle sind noch keine bestandenen unabhängigen Modellläufe und ersetzen keine anwaltliche Einzelfallprüfung.",
+      "Der lokale Rechtsstandsmonitor ruft keine Websites ab. Vor produktiver Zitierung bleiben amtlicher Volltext, Randnummer, Status, Folgeentwicklung und technische Fahrzeugvergleichbarkeit live zu prüfen.",
+      "Die amtlichen EuGH-Statusprüfungen bilden den Stand 30.09.2026 ab; spätere Entscheidungen oder Rücknahmen verlangen eine neue Statusprüfung.",
+      "Paketprüfung und Freigabe bewirken weder Signatur noch Übermittlung oder Eingang; Außenhandlungen benötigen die dafür vorgesehene anwaltliche und technische Autorisierung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-30",
+    "method": "desk_review",
+    "opening_modes": [
+      "Neue Akte oder Upload: Schlüsselunterlagen inventarisieren, Sicherheitsstopps und Fristen prüfen und sofort eine belegte Fallkarte mit höchstens drei Blockerfragen liefern.",
+      "Konkreter Fachauftrag: Betroffenheit, Anspruch, Verjährung, Schaden, Finanzierung oder beA unmittelbar bearbeiten, ohne den abgeschlossenen Intake zu wiederholen.",
+      "Fortsetzung mit neuem Beleg: nur betroffene Fakten, Konflikte, Gates, Rechtsanker und Ergebnisstellen aktualisieren; unveränderte Erkenntnisse erhalten.",
+      "Freigegebene Endfassung: Inhalt nicht stillschweigend verändern, sondern Originale, Anlagenbezüge, Hashes, Sichtprüfung, Fingerprint und Freigabe bis zum Paketgate kontrollieren."
+    ],
+    "continuation": "Nachgereichte FIN-, KBA-, Werkstatt-, Zahlungs-, Frist-, Restwert- oder Freigabebelege werden dem bestehenden Fallstand mit Fundstelle zugeordnet. Nur davon abhängige Schlussfolgerungen werden neu geöffnet; Widersprüche bleiben sichtbar und abgeschlossene unabhängige Teile werden nicht neu hergeleitet.",
+    "enrichment": "Der Workflow erzeugt aus belegten Fahrzeug- und Erwerbsdaten einen Betroffenheitsbefund, eine getrennte Anspruchs- und Fristenmatrix, reproduzierbare Schadens- und Widerrufsrechnungen sowie bei freigegebener Endfassung ein hashgebundenes beA-Paket mit Anlagen- und Kontrollspur.",
+    "limits": "Desk review ohne Live-Modellpass, ohne Sachverständigenfeststellung, ohne anwaltliche Freigabe und ohne Außenhandlung. Anhängige Vorlagen sind Fragenkataloge; gestrichene Akten enthalten keine Sachantwort."
+  },
+  "cases": [
+    {
+      "id": "ea288-betroffenheit-ohne-serienbeweis",
+      "request": "Erstelle ergebnis.md als fahrzeugbezogenen Betroffenheitsbefund für Michael Webers Audi A4 Avant B9 2.0 TDI. Lies Kaufvertrag, Fahrzeugdatenblatt, Werkstattrechnung, technische Anfrage, Herstellerantwort und Mandantennachreichung. Ordne FIN, DETA-Motor, Euro 6, Softwarestand, Fremdfoto, Winterverbrauch und telefonische Werkstattaussage jeweils nach Beweiswert ein. Ein amtlicher Rückruf- oder Feldmaßnahmentreffer ist in der Akte nicht dokumentiert. Entscheide nicht vorab über Haftung und erfinde keine Kalibrierungsdaten.",
+      "target_skill": "04-betroffenheit-motor-kba-rueckruf",
+      "input_files": [
+        "testakten/audi-ea288-weber-neuwagen/kaufvertrag_kaufvertrag.pdf",
+        "testakten/audi-ea288-weber-neuwagen/fahrzeug_fahrzeugdatenblatt.docx",
+        "testakten/audi-ea288-weber-neuwagen/fahrzeug_werkstattrechnung-softwarestand.pdf",
+        "testakten/audi-ea288-weber-neuwagen/korrespondenz_technische-auskunftsanfrage.docx",
+        "testakten/audi-ea288-weber-neuwagen/korrespondenz_herstellerantwort.pdf",
+        "testakten/audi-ea288-weber-neuwagen/korrespondenz_mandant-nachreichung-fotos-und-telefonnotiz.docx",
+        "testakten/audi-ea288-weber-neuwagen/mandat_mandantenfragebogen-rohfassung.docx"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Identitätskette nennt FIN WAUZZZ8W0JA098765, DETA, 140 kW und Euro 6 mit jeweiliger Fundstelle. EA288 oder Modellbezeichnung allein wird weder zum Serienbeweis noch zur Haftungsannahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das Foto aus einem fremden Diagnosesystem, subjektiver Winterverbrauch, erinnerte Werkstattaussage und allgemeine Herstellerantwort werden jeweils getrennt nach Herkunft, Aussage und Grenze gewürdigt. Material zu einer anderen FIN belegt keine Funktion dieses Fahrzeugs.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der fehlende dokumentierte KBA-Treffer wird weder als Unbetroffenheit noch als Rechtmäßigkeit ausgegeben. Die Einstufung bleibt offen oder höchstens als greifbare Anhaltspunkte bezeichnet; eine amtlich oder technisch substantiierte Zuordnung wird nicht erfunden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Die Lückenliste verlangt konkret dokumentierte KBA-/Herstellerabfrage zur FIN, vollständige Software- und Kalibrierungshistorie sowie technisch identischen Vergleichsbefund oder Gutachten. Der nächste Schritt führt genau in diese Fahrzeug-/Funktionsklärung, nicht unmittelbar zur Klage.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw-triage-bei-schwacher-primaerbeweislage",
+      "request": "Erstelle ergebnis.md als Anspruchs- und Strategietriage für Stefan Fischers 2019 gebraucht erworbenen BMW 320d F30 LCI. Werte Kaufvertrag, Fahrzeugdatenblatt, BMW-Rückrufabfrage, Werkstattdiagnose, anonymen Forenausdruck und Kanzleischreiben aus. Prüfe die Spuren aus Paragraf 826 BGB und Paragraf 823 Absatz 2 BGB getrennt, beziehe Verjährung, Restwert, Nutzung, Ermittlungsaufwand und Kostenrisiko ein und benenne genau einen wirtschaftlich vertretbaren nächsten Schritt. Eine konkrete Steuerungsfunktion und die genaue B47-Untervariante sind bislang nicht belegt.",
+      "target_skill": "06-anspruchstriage-fallstrategie",
+      "input_files": [
+        "testakten/bmw-fischer-abweisungsrisiko/kaufvertrag_kaufvertrag.pdf",
+        "testakten/bmw-fischer-abweisungsrisiko/fahrzeug_fahrzeugdatenblatt.docx",
+        "testakten/bmw-fischer-abweisungsrisiko/fahrzeug_bmw-rueckrufabfrage-2026-07-14.pdf",
+        "testakten/bmw-fischer-abweisungsrisiko/fahrzeug_werkstattrechnung-diagnose.pdf",
+        "testakten/bmw-fischer-abweisungsrisiko/korrespondenz_mandant-nachreichung-forumsausdruck.docx",
+        "testakten/bmw-fischer-abweisungsrisiko/korrespondenz_anspruchsschreiben.docx",
+        "testakten/bmw-fischer-abweisungsrisiko/finanzierung_zahlungsuebersicht.xlsx"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "B47-Familie, fehlende Motoruntervariante, ungeklärter Kalibrierungsstand, Rückrufabfrage, Werkstattbefund und Forenmaterial werden mit ihren unterschiedlichen Beweiswerten dargestellt. Fehlender Rückruf beweist keine Rechtmäßigkeit; ein anonymes Parallelfahrzeug keinen FIN-Bezug.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Paragraf 826 BGB mit Wissen und Vorsatz und die fahrlässige Schutzgesetzspur nach Paragraf 823 Absatz 2 BGB werden getrennt geprüft. Keine Spur wird allein aus Presse, Motorfamilie oder Verbrauchsbeobachtung freigegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Beratung benennt Frist- und Kenntnislücken, aktuellen Kilometerstand, objektiven Restwert und mögliche Prozesskosten als offene Entscheidungsgrößen; sie behauptet keinen bezifferten Schaden ohne Belege.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Die Ampel bildet das hohe Abweisungsrisiko ehrlich ab. Genau ein nächster Schritt beschafft zunächst die exakte Motor-/Softwarekonfiguration oder einen fahrzeugbezogenen technischen Befund; ein kostenträchtiges Gerichtsverfahren wird vorher nicht empfohlen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ea189-verjaehrung-und-restschaden-2013",
+      "request": "Erstelle ergebnis.md als Fristen- und Restschadensprüfung für Petra Hoffmanns am 04.03.2013 übergebenen neuen VW Passat EA189 zum Kaufpreis von 31.000 Euro. Prüfe Kauf- und Lieferbelege, Serviceaktion 23R7, Fristenjournal, Zahlungsübersicht, Mandantenfragebogen und den alten Onlineausdruck. Die Mandantin erinnert eine Sammelklageanmeldung, besitzt aber weder Registerbestätigung noch Aktenzeichen. Trenne Regelverjährung, behauptete Musterfeststellungshemmung und Paragraf 852 BGB; setze den Herstellerzufluss nicht mit dem Endkundenpreis gleich.",
+      "target_skill": "07-verjaehrung-restschadensersatz",
+      "input_files": [
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/kaufvertrag_kaufvertrag.pdf",
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/kaufvertrag_rechnung.pdf",
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/fahrzeug_servicebeleg-softwareupdate.pdf",
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/finanzierung_fristenjournal.xlsx",
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/finanzierung_zahlungsuebersicht.xlsx",
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/korrespondenz_mandant-nachreichung-alter-onlineausdruck.docx",
+        "testakten/vw-ea189-hoffmann-verjaehrung-restschaden/mandat_mandantenfragebogen-rohfassung.docx"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Bestellung, vollständige Kaufpreiszahlung und Übergabe am 04.03.2013 werden belegt datiert. Regelverjährung wird anspruchsbezogen aus Entstehung und konkreten Kenntnistatsachen berechnet und nicht erst mit späterer höchstrichterlicher Rechtsprechung begonnen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Onlineausdruck oder Newsletter und die bloße Erinnerung werden nicht als Anmeldung zum Klageregister behandelt. Für eine Hemmung werden Registerbestätigung, Verfahren, Anmeldedatum, Gegenstand und Abmeldung beziehungsweise Ende konkret verlangt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Zehnjahresfrist des Paragrafen 852 Satz 2 BGB beginnt mit Entstehung des ursprünglichen Anspruchs bei Übergabe und war bei einer erstmals 2026 verfolgten Erwerbsschadensspur aus 2013 grundsätzlich bereits abgelaufen; die Dreißigjahresgrenze ersetzt sie nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Hilfsweise werden unerlaubte Handlung, Herstellerrolle und konkreter Nettozufluss im Neuwagenvertriebsweg geprüft. Kaufpreis, Händlermarge und Erlangtes werden nicht gleichgesetzt; Nutzungsvorteile und Fahrzeugverbleib bleiben in einer etwaigen Herausgaberechnung sichtbar.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "differenzschaden-mit-teilweiser-aufzehrung",
+      "request": "Erstelle ergebnis.md als nachvollziehbare Differenzschadensberechnung und Antragsgrundlage. Unterstelle ausschließlich für die Rechnung einen schlüssig belegten objektiven Verstoß und einen Kaufpreis von 32.500 Euro. Die fallbezogen zu begründende Quote beträgt vorläufig zehn Prozent. Seit Übergabe wurden 98.400 Kilometer gefahren; die erwartbare Gesamtlaufleistung beträgt 250.000 Kilometer und der Übergabestand null. Der objektiv belegte Restwert beträgt 17.500 Euro. Berechne Bruttoschaden, Schwelle, Vorteilsausgleich und verbleibenden Zahlbetrag, ohne die Haftung oder Quote als bewiesen auszugeben.",
+      "target_skill": "15-klage-differenzschaden",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Brutto-Differenzschaden wird mit 32.500 Euro mal zehn Prozent gleich 3.250 Euro berechnet; die Quote bleibt als nach Paragraf 287 ZPO fallbezogen zu begründende Annahme und nicht als Automatismus gekennzeichnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Nutzungsvorteil wird mit 32.500 Euro mal 98.400 geteilt durch 250.000 gleich 12.792 Euro und die Aufzehrungsschwelle mit 32.500 Euro minus 3.250 Euro gleich 29.250 Euro ausgewiesen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Nutzungsvorteil und Restwert ergeben 30.292 Euro. Nur der Überschuss von 1.042 Euro oberhalb der Schwelle mindert den Bruttoschaden; der verbleibende Zahlbetrag beträgt 2.208 Euro und nicht null oder 3.250 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Das Ergebnis trennt Rechenannahmen von Haftungstatsachen, nennt Beleg- und Stichtagsbedarf für Laufleistung und Restwert und formuliert höchstens eine vorläufige Antragsgrundlage samt Prozesszinsen ab Rechtshängigkeit, nicht ab Kaufpreiszahlung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kfz-kredit-vollerfuellung-und-widerrufsentwurf",
+      "request": "Erstelle ergebnis.md als Zahlungs- und Widerrufsprüfung für Julia Kochs verbundenen VW-Tiguan-Kredit von 2018. Gleiche den Nettodarlehensbetrag von 33.500 Euro, den Plan über 48 Raten, die Rücklastschrift, den erneuten Einzug, den Kontoauszug bis 01.09.2022, Zahlungsjournal, Bankauskunft mit Saldo 0,00 Euro und Sicherheitenfreigabe ab. Prüfe außerdem, ob der private als ENTWURF bezeichnete Widerruf überhaupt zugegangen ist. Trenne die Finanzierung vollständig von einer nicht belegten technischen Dieselspur.",
+      "target_skill": "12-finanzierungswiderruf-verbundgeschaeft",
+      "input_files": [
+        "testakten/vw-finanzierung-koch-widerrufsjoker/kaufvertrag_kaufvertrag.pdf",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/finanzierung_darlehensvertrag.pdf",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/finanzierung_kontoauszug-ratennachweis.pdf",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/finanzierung_zahlungsjournal.xlsx",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/korrespondenz_anfrage-saldenbestaetigung.docx",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/korrespondenz_antwort-vw-bank.pdf",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/korrespondenz_widerrufsschreiben.docx",
+        "testakten/vw-finanzierung-koch-widerrufsjoker/gutachten_widerrufsinformation.pdf"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Vertragsplan, Rücklastschrift, erneuter Einzug, Zahl wirksamer Raten, letzte Zahlung, Saldo 0,00 Euro und Sicherheitenfreigabe werden zu einer belegten Vollerfüllungsfeststellung abgeglichen; eine doppelte oder fehlende Rate wird nicht aus dem Dateinamen geraten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Kanzleiliche Saldenanfrage, Bankantwort und privater ENTWURF werden nach Erklärungsgehalt und Zugang getrennt. Ohne Versand- oder Zugangsnachweis wird kein 2026 erklärter Widerruf behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Nach festgestellter vollständiger Erfüllung wird das Widerrufsgate unter C-38/21 unter anderem und XI ZR 162/21 rot gesetzt. Es werden weder Widerrufserklärung, Rückabwicklungsrechnung noch Klage freigegeben; XI ZR 258/22 erzeugt keinen Fehlerautomatismus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Finanzierungs- und technische Fahrzeugspur bleiben strikt getrennt. Aus Kreditunterlagen, Gutachten zur Widerrufsinformation oder Fahrzeugdatenblatt wird keine unzulässige Abschalteinrichtung hergeleitet; genau ein sinnvoller Abschluss- oder Beratungsweg wird benannt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bea-stop-bei-entwurf-und-fehlender-freigabe",
+      "request": "Erstelle ergebnis.md als beA-Produktions- und Stopbericht für eine Dieselklage. Vorliegen sollen nach dem Sachverhalt nur ein DOCX-Klageentwurf, Kaufvertrag und Rechnung als PDF, ein unvollständiger zweiseitiger Servicebeleg ohne Rückseite und eine alte lokale Anlagenliste K1 bis K3. Gericht, Aktenzeichen beziehungsweise Neueingang, verantwortliche Rechtsanwältin, Signaturweg, freigegebene Haupt-PDF, SHA-256-Auftrag, letzte tatsächlich eingereichte Anlagennummer, Sichtprüfung und anwaltliche Fingerprint-Freigabe fehlen. Prüfe, was vorbereitet werden darf und welchen Status das Paket haben muss; versende nichts.",
+      "target_skill": "21-bea-versandfertig-schriftsatz-anlagen",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Status lautet NICHT_VERSANDFERTIG, nicht FREIGABE_AUSSTEHEND oder VERSANDFERTIG: Endfassung, Verfahrensdaten, Verantwortlichkeit, Signaturweg, vollständige Anlage, tatsächliche Fortsetzungsnummer, Hashauftrag, Sichtprüfung und Freigabe sind offene harte Stopps.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "DOCX-Entwurf und unvollständiger Servicebeleg werden nicht als finale Versand-PDFs behandelt. Originale bleiben unverändert; Konvertierung, Stempelung und Benennung dürfen nur in Arbeitskopien und erst nach vollständiger Zuordnung erfolgen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die alte lokale K1-bis-K3-Liste beweist nicht die letzte tatsächlich eingereichte Anlagennummer. Jede Schriftsatzbezugnahme benötigt genau eine vollständige Anlage; jede Anlage eine freigegebene Funktion und einen nachvollziehbaren Original- und Versandhash.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Paketierung nach Skill 21 wird von Signatur und Übermittlung nach Skill 16 getrennt. Weder ein lokaler Prüfbericht noch die Angabe beA/EGVP beweist Versand oder Eingang; genau ein nächster Schritt fordert zuerst Endfassung und fehlende Rückseite beziehungsweise Freigabedaten an.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eugh-status-acht-gestrichen-neun-anhaengig-c408-geschlossen",
+      "request": "Erstelle statusvermerk.md mit Rechtsstand 30.09.2026 zu folgendem Gegnervortrag: Alle Verfahren C-114/26, C-152/26, C-232/26, C-270/26, C-95/26, C-173/26, C-408/25, C-554/25, C-8/26, C-9/26, C-43/26, C-162/26, C-189/26, C-440/26, C-443/26, C-228/26, C-293/26 und C-113/26 seien anhängig und bestätigten bereits eine Gesamtbetrachtung sowie Beweislastumkehr. Korrigiere den Status anhand der amtlichen Akten, trenne Verfahrensstand und Sachrecht und leite nur zulässige prozessuale Folgerungen ab.",
+      "target_skill": "06-anspruchstriage-fallstrategie",
+      "input_files": [],
+      "deliverables": [
+        "statusvermerk.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Als weiterhin anhängig werden exakt C-95/26, C-152/26, C-162/26, C-173/26, C-189/26, C-232/26, C-270/26, C-293/26 und C-443/26 geführt. Sie sind Vorabentscheidungsersuchen ohne Entscheidungs-ECLI und ohne Sachantwort. C-408/25 wird dagegen seit dem 21.07.2026 als geschlossen geführt.",
+          "deliverables": [
+            "statusvermerk.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Als nach Rücknahme gestrichen werden exakt C-8/26, C-9/26, C-43/26, C-113/26, C-114/26, C-228/26, C-440/26 und C-554/25 bezeichnet; Entscheidungsart Streichungsbeschluss und keine Sachentscheidung werden ausdrücklich genannt.",
+          "deliverables": [
+            "statusvermerk.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Vermerk weist für die acht Streichungen die richtigen ECLI aus: 394, 638, 647, 639, 651, 641, 644 und 636 jeweils als ECLI:EU:C:2026:… zum passenden Aktenzeichen. Weder einer offenen Akte noch C-408/25 wird ein Abschluss-ECLI zugeordnet; für C-408/25 bleiben veröffentlichte Abschlussentscheidung und genaue Erledigungsart ausdrücklich offen.",
+          "deliverables": [
+            "statusvermerk.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Weder offene Vorlagefragen noch Streichungsbeschlüsse noch der nur statusmäßig dokumentierte Abschluss von C-408/25 werden als entschiedene Gesamtbetrachtung, Beweislastumkehr, Realbetriebsgrenzwertpflicht, Haftungsbejahung oder Anerkenntnis verwendet. Technische Vergleichbarkeit und tragende Sachrechtsprechung bleiben gesondert zu prüfen.",
+          "deliverables": [
+            "statusvermerk.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 26.08.2026, VIa ZR 17/23",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 26.08.2026, VIa ZR 1157/23",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 11.08.2026, VIa ZB 3/24",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 28.07.2026, VIa ZR 782/23",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 28.07.2026, VIa ZR 545/23",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 28.07.2026, VIa ZR 46/24",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 28.07.2026, VIa ZR 151/23",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      },
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Beschluss vom 21.07.2026, VIa ZR 549/24",
+        "status": "wiederverwendeter_quellenmatrix_nachweis"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  }
+}

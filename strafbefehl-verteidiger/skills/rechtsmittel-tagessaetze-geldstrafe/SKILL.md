@@ -1,6 +1,6 @@
 ---
 name: rechtsmittel-tagessaetze-geldstrafe
-description: "Wenn es um Rechtsmittel nach Urteil im Strafbefehlsverfahren in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechtsmittel nach Urteil im Strafbefehlsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsmittel nach Urteil im Strafbefehlsverfahren
@@ -37,10 +37,6 @@ Rechtsmittel nach Urteil in der Hauptverhandlung nach Strafbefehl-Einspruch. Ber
 - **§ 344 StPO** — Revisionsbegründung: Erklaerung, welche gesetzlichen Vorschriften verletzt sind
 - **§ 345 StPO** — Revisionsbegründungsfrist: 1 Monat nach Zustellung der Urteilsgruende
 - **§ 338 StPO** — Absolute Revisionsgründe (z.B. Verletzung letztes Wort, Verletzung gesetzlicher Richter)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Entscheidungsbaum Rechtsmittelwahl
 
@@ -100,3 +96,5 @@ Mit freundlichen Gruessen [KANZLEI]
 - Revisionsbegründungsfrist 1 Monat — nach Zustellung der Urteilsgruende; nicht ab Verkuendung.
 - Annahme-Berufung (§ 313 StPO): Erfolgsaussichten darlegen.
 - Anwaltliche Endkontrolle vor Einlegung und vor Begründung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

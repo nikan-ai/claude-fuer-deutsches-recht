@@ -1,6 +1,6 @@
 ---
 name: gewrechts-geschgehg-kollisionen-nda-hinschg-urhg
-description: "Wenn es um Gewrechts Geschgehg Kollisionen Nda Hinschg Urhg in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gewrechts Geschgehg Kollisionen Nda Hinschg Urhg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kollisionen zwischen gewerblichem Rechtsschutz NDA-Recht HinSchG und Urheberrecht prüfen wenn mehrere Schutzrechtsregime sich ueberschneiden
@@ -55,7 +55,6 @@ description: "Wenn es um Gewrechts Geschgehg Kollisionen Nda Hinschg Urhg in Fac
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Vier-Stufen-Test § 2 Nr. 1 GeschGehG
 
@@ -244,7 +243,6 @@ je Verstoß zu zahlen, unbeschadet weitergehender Schadensersatzansprüche.
 | "Die Information ist allgemein bekannt / im Internet abrufbar" | Beklagter | Konkrete Quellenrecherche; Unterschied zwischen teilweise bekannter Struktur und spezifischer Detailkombination |
 | "Keine angemessenen Geheimhaltungsmaßnahmen — Klage scheitert" | Beklagter | Drei-Ebenen-Nachweis (org/vertragl/techn); ex-post-Dokumentation schadet nicht, wenn Maßnahmen tatsächlich bestanden |
 | "Ich bin Hinweisgeber — § 5 Nr. 2 GeschGehG / HinSchG schützt mich" | Beklagter | Prüfen: Deckt HinSchG § 2 den Sachverhalt ab? War Meldung nur zu eigenem Vorteil oder tatsächlich öffentliches Interesse? |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Reverse Engineering nach § 3 GeschGehG erlaubt" | Beklagter | Prüfen: Produkt rechtmäßig erlangt? Keine AGB-Beschränkung (§ 307 BGB)? Keine Urheberrechtsverletzung (§ 69e UrhG)? |
 | "NDA-Klausel ist nach § 307 BGB unwirksam" | Beklagter | Individualvertrag vs. AGB unterscheiden; bei Kaufmann § 310 BGB; Inhaltskontrolle trotzdem durchführen |
 
@@ -300,8 +298,4 @@ Bevor die Schutzstrategie entwickelt wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

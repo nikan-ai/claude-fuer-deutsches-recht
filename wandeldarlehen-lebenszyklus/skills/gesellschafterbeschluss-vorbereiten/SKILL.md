@@ -1,6 +1,6 @@
 ---
 name: gesellschafterbeschluss-vorbereiten
-description: "Wenn es um Gesellschafterbeschluss vorbereiten (vor Unterzeichnung) in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Gesellschafterbeschluss vorbereiten (vor Unterzeichnung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Gesellschafterbeschluss vorbereiten (vor Unterzeichnung)
@@ -29,9 +29,6 @@ description: "Wenn es um Gesellschafterbeschluss vorbereiten (vor Unterzeichnung
 - § 51 Abs. 3 GmbHG (Beschlussfassung ohne Einberufung bei Anwesenheit / Einverständnis aller)
 - § 47 GmbHG (Abstimmung, Mehrheitserfordernisse)
 - § 53 GmbHG (Satzungsänderung bedarf drei Viertel der abgegebenen Stimmen und notarieller Beurkundung)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -89,12 +86,8 @@ Stand: 05/2026. Bei Änderung GmbHG §§ 46 ff. aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 51 GmbHG (Einberufung Gesellschafterversammlung, Ladungsfrist eine Woche) → § 47 GmbHG (Beschlussfassung, Mehrheitserfordernisse) → § 53 GmbHG (Satzungsänderung, notarielle Form) → § 43 GmbHG (Geschäftsführerhaftung bei Pflichtverletzung) → § 56 Abs. 2 GmbHG (Sacheinlagebericht, Werthaltigkeit)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

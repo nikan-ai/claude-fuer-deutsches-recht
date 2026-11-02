@@ -1,6 +1,6 @@
 ---
 name: beweisbeschluss-vorbereiten
-description: "Wenn es um Beweisbeschluss vorbereiten in Urteilsbauer und Relationsmacher geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Beweisbeschluss vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Beweisbeschluss vorbereiten
@@ -13,10 +13,6 @@ Vor der Beweisaufnahme das, was streitig und beweisbedürftig ist, förmlich fes
 2. Welche Beweismittel sind angeboten (Zeuge, Sachverständiger, Urkunde, Augenschein, Parteivernehmung)?
 3. Wer trägt die Beweislast für welche Tatsache?
 4. Ist Beweis bereits ganz oder teilweise erhoben — was steht noch aus?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -78,5 +74,4 @@ Paragraf 286 ZPO - volle Überzeugung des Gerichts. Wahrscheinlichkeit alleine r
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-> **Audit-Hinweis (27.05.2026):** BGH VI ZR 255/03, NJW 2005, 354 entfernt. Tatsaechliche Fundstelle NJW 2005, 354 gehoert zu BGH VI ZR 335/03 (Urt. v. 30.11.2004) — Thema: Haftungsprivileg § 828 Abs. 2 BGB bei Kind mit Kickboard gegen parkendes Fahrzeug; kein Bezug zu Anscheinsbeweis im Haftpflichtrecht. Aktenzeichen VI ZR 255/03 existiert unter dejure.org/2004,220 und betrifft Schmerzensgeld bei Persoenlichkeitsrechtsverletzung (Caroline-Tochter). Quelle: dejure.org/2004,220, dejure.org/?Text=NJW+2005,354.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

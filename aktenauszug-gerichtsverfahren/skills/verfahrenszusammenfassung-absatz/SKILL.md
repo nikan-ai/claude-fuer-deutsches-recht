@@ -1,6 +1,6 @@
 ---
 name: verfahrenszusammenfassung-absatz
-description: "Wenn es um Verfahrenszusammenfassung — Absatz in aktenauszug-gerichtsverfahren geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Verfahrenszusammenfassung — Absatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verfahrenszusammenfassung — Absatz
@@ -27,10 +27,6 @@ description: "Wenn es um Verfahrenszusammenfassung — Absatz in aktenauszug-ger
 - § 261 ZPO — Anhängigkeit und Rechtshängigkeit (Verfahrensstand)
 - § 139 ZPO — Richterliche Prozessleitung (Hinweise des Gerichts beeinflussen den Stand)
 - § 286 ZPO — Freie Beweiswürdigung (offene Fragen zur Beweiswürdigung)
-
-## Rechtsprechung zur Verfahrensdokumentation und Einarbeitung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Aufbau (acht bis zehn Sätze)
 
@@ -108,4 +104,4 @@ Rechtlich offen ist die Frage [zentrale Rechtsfrage].
 - [ ] Keine Wertung, keine Prognose?
 - [ ] Richterliche Hinweise nach § 139 ZPO berücksichtigt?
 
-<!-- AUDIT 27.05.2026: BGH VI ZR 146/19 (NOT_FOUND auf dejure.org) entfernt und ersetzt durch BGH VI ZR 84/19, NJW 2021, 2364 (verifiziert auf dejure.org). -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

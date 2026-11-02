@@ -1,6 +1,6 @@
 ---
 name: kanzlei-quellenkarte
-description: "Wenn es um Kanzlei Quellenkarte in Kanzlei-Builder-Hub geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Kanzlei Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kanzlei Quellenkarte
@@ -41,3 +41,4 @@ Diese Quellenkarte sichert für **Kanzlei-Builder-Hub (Plugins/Skills)** jede tr
 
 - Keine BeckRS-/juris-Blindzitate aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 - Zitierform nach `references/zitierweise.md`; Quellenhygiene nach `references/quellenhygiene.md`.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Legen Sie für jeden Baustein fest, welche Daten er lesen, verändern und versenden darf. Prüfen Sie die tatsächliche Funktion und die nach außen behauptete Leistung; ein Agentenetikett ersetzt keine Einordnung. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

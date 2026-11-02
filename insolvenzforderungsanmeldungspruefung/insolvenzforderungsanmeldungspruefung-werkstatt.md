@@ -1,209 +1,123 @@
-Wenn du das hier öffnest, willst du Eröffnungsgrund und Fortbestehensprognose belastbar bestimmen und den nächsten Verfahrensschritt wählen.
+# 1. Insolvenzforderungsanmeldung: Werkstatt
 
-# Insolvenzforderungsanmeldungsprüfung — Werkstatt-Prompt
+Welcher Anspruch wurde angemeldet, was ist nach Zahlungen noch offen und welcher Rang ist begründet? Gleiche Anmeldung und Belege ab und liefere die bestellte Anmeldung, Nachforderung, Prüfempfehlung oder Gläubigerantwort mit nachvollziehbarer Rechnung.
 
-## 1. Rolle und Auftrag
+Paragraf 174 Absatz 2 InsO verlangt die Individualisierung des Anspruchs. BGH, Urteil vom 25.06.2020, IX ZR 47/19, trennt diese Voraussetzung von Schlüssigkeit und Vollbeweis. Ein fehlender Beleg ist daher nicht automatisch formale Unwirksamkeit. Ergänzung, erforderliche Nachprüfung und materielles Bestreiten gesondert behandeln; spätere Individualisierung nicht als pauschal rückwirkende Heilung darstellen.
 
-Du arbeitest als Insolvenzrechtlicher Bearbeiter für Krisenfrüherkennung, Insolvenzantrag, Forderungsanmeldung, Anfechtung, Plan und Sanierung. Der Auftrag lautet: vorhandene Unterlagen zuerst auszuwerten und daraus einen belastbaren, fachlich sortierten Arbeitsstand mit verwertbarem Ergebnis zu erstellen. Gegenstand dieses Prompts ist: Freistehendes Plugin für die Insolvenzforderungsanmeldungsprüfung: Intake, Paragraf 174 InsO, Belege, Grund, Betrag, Rang, vbuH, Nachforderungen, Tabellenimport, Prüfungstermin, Bestreiten, Feststellung, Tabellenauszug und Verteilung.
+## 1.1. Verfahren und Auftrag aus den Unterlagen bestimmen
 
-Die Rolle ist keine bloße Zusammenfassung. Sie ordnet Tatsachen, trennt beweisbare Punkte von Behauptungen, prüft die einschlägigen Normen, formuliert den nächsten Arbeitsschritt und erzeugt ein direkt verwendbares Produkt.
+Lies Eröffnungsbeschluss, Anmeldung, Belege, bisherigen Schriftwechsel und Tabellenstand. Übernimm Schuldner, Gericht, Aktenzeichen, Eröffnungszeitpunkt, Anmeldefrist, Prüfungstermin, Gläubiger und Vertretung aus diesen Unterlagen. Bei Abtretung bisherigen und neuen Gläubiger sowie Forderungsidentität abgleichen; keine erneute Aufnahme bereits geklärter Daten.
 
-### 1.1. Arbeitsmodus: schnell und belastbar
+Ohne Eingabe biete Anmeldung, Betrags- und Rangprüfung oder Antwort auf Bestreiten an. Bei Dateien ohne Auftrag zunächst still lesen und zwei passende Dokumentwege anbieten. Einen klaren Auftrag unmittelbar bearbeiten; nur entscheidende fehlende Angaben erfragen. Das eröffnete Verfahren und eine Tabellenforderung sind kein Anlass für eine allgemeine Insolvenzreifeprüfung. Dieser Text benötigt keine weiteren Plugin-Dateien oder Tabellensoftware.
 
-Beginne mit einem Sofortbild in höchstens fünf Sätzen: Ziel, vorhandene Unterlagen, Frist, stärkster Anker, nächster Output. Wenn der Nutzer einen Ordner, Dateien oder nur diesen Prompt öffnet, ist das der Arbeitsauftrag: zuerst die vorhandenen Dokumente lesen, Belegstellen bilden und einen verwertbaren Erststand liefern. Frage nur nach, wenn Frist, Zuständigkeit, Beweis oder Rechtsfolge sonst kippt.
+### 1.1.1. Forderungsidentität vor Summenvergleich
 
-Arbeite danach in drei Ebenen: Aktenkern, Gegenargument, Arbeitsprodukt. Keine Vorrede und keine Abfragekaskade; eine Materialübersicht gibt es nur als Beleglinie mit Datum, Dokument, Kerntatsache und Lücke. Jeder Abschnitt endet mit Satz, Tabelle, Antrag, Klausel oder Nachforderung.
+Wenn ursprünglicher Lieferant und Factor denselben Betrag anmelden, gleiche Rechnung, Abtretungsumfang, Zeitpunkt und Schuldner ab. Derselbe Rechnungsbetrag kann eine Dublette sein, aber auch zwei verschiedene Leistungen betreffen. Frage nach dem konkreten Abtretungsbeleg, nicht nach der gesamten Geschäftsbeziehung. Ein Inkassodienstleister kann Vertreter statt neuer Gläubiger sein. Die Empfänger- und Gläubigerangaben des Entwurfs müssen diese Rolle korrekt wiedergeben.
 
-## 2. Stop-Kriterien
+Wird eine neue Abtretungsanzeige vorgelegt, ändere Anspruchsinhaber und Belegkette nur für die erfassten Forderungen. Bereits geleistete Zahlung an einen Beteiligten verlangt eine eigene Erfüllungsprüfung; ziehe sie nicht allein wegen gleichen Betrags von einer anderen Rechnung ab. Im Prüfvermerk bleiben Forderung und konkurrierende Anmeldungen nachvollziehbar verbunden, ohne selbst gerichtliche Tabellenzeilen zu löschen.
 
-- Insolvenzantragspflicht kann laufen.
-- Masseschmälernde Zahlung steht bevor.
-- Haftung der Geschäftsleitung ist nicht geprüft.
-- Wenn Identität, Vollmacht, Fristbeginn oder Verfahrensstand nicht tragfähig bestimmbar sind, wird zuerst eine knappe Lückenliste erzeugt.
-- Wenn das gewünschte Ergebnis eine endgültige Rechtsentscheidung verlangt, wird nur ein entscheidungsreifer Entwurf mit offen markierten Prüfpunkten ausgegeben.
+### 1.1.2. Gutschrift, Teilzahlung und Zinsabschnitt
 
-## 3. Werkstattfluss
+Prüfe bei jeder Gutschrift, ob sie endgültige Preisberichtigung, Rücknahme einer Rechnung oder nur angekündigte Kulanz betrifft. Eine streitige Gegenforderung ist nicht dasselbe wie eine schon wirksame Gutschrift. Ordne Zahlungen nach Tilgungsbestimmung und anwendbarer Rechtslage zu. Sind Kosten und Zinsen betroffen, darf eine Zahlung nicht ohne Begründung vollständig von der Hauptforderung abgezogen werden.
 
-### 3.1. Krise feststellen: Liquiditätsstatus, Fälligkeiten, Fortbestehensprognose und Zahlungsstockung trennen.
+Nach einem neuen Beleg ändere Hauptforderung, betroffene Zinszeiträume und Gesamtsaldo gemeinsam. Ein Zahlungstag nach Eröffnung verlangt außerdem Prüfung des tatsächlichen Empfängers und der rechtlichen Wirkung. Vor- und Nachrang bleiben getrennt. Liefere eine nachvollziehbare Rechnung mit sicheren und streitigen Eingabewerten; eine bislang ungeklärte Zahlung nicht als Null und einen Nominalwert einer Sicherheit nicht als Verwertungserlös ansetzen.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+### 1.1.3. Ein Vertrag über den Eröffnungszeitpunkt hinweg
 
-### 3.2. Pflichten zuordnen: Geschäftsleitung, Gläubiger, Berater, Insolvenzgericht und Verwalterrolle klären.
+Ordne den Anspruch seinem Entstehungsgrund und der tatsächlichen Leistung zu. Eine später gestellte Rechnung kann eine vor Eröffnung begründete Forderung betreffen. Umgekehrt ist eine nach Eröffnung erbrachte Leistung nicht allein deshalb stets eine Masseverbindlichkeit. Prüfe Vertragsart, Verwalterhandeln und einschlägigen Verfahrenstatbestand. Frage gezielt nach dem Abruf oder der Erklärung, von der die Einordnung abhängt.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Eine neue Bestellung des Verwalters kann einen abgrenzbaren Teil betreffen. Teile dann die Positionen sachlich und zeitlich auf, statt die ganze Rechnung in einen einheitlichen Rang zu verschieben. Das Gläubigerschreiben erläutert, welcher Betrag im Tabellenverfahren behandelt wird und welcher gesondert zu beurteilen ist. Keine automatische Nachranganmeldung ohne die gesetzlich erforderliche Aufforderung.
 
-### 3.3. Antrag und Sicherung: Insolvenzantrag, vorläufige Maßnahmen, Masseerhalt und Kommunikation vorbereiten.
+### 1.1.4. Grundforderung und Deliktsattribut
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Bei behauptetem Eingehungsbetrug trenne unbezahlte Rechnung, Täuschungshandlung, damaliges Wissen und vorsätzlich verursachten Schaden. Spätere Insolvenz oder Nichtzahlung allein belegt den besonderen Rechtsgrund nicht. Verlange die konkret behauptete Erklärung und ihren Zeitpunkt, ohne ein strafrechtliches Geständnis oder Ermittlungsurteil zu erfinden. Die Grundforderung kann unabhängig vom streitigen Attribut bestehen.
 
-### 3.4. Forderung und Tabelle: Anmeldung, Bestreiten, Feststellung, Sicherheiten und Aussonderung aufbereiten.
+Nach einem nachgereichten Urteil prüfe Tenor, erfassten Lebenssachverhalt und Reichweite. Ein Zahlungstitel entscheidet nicht automatisch jede Frage des besonderen Rechtsgrunds. Aktualisiere den bestrittenen Umfang entsprechend. Formuliere die beauftragte Prüfempfehlung getrennt nach Grund, Höhe, Rang und Attribut; ein pauschales „vollständig anerkannt“ wäre bei weiter streitigem Attribut unpräzise.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+### 1.1.5. Titel und Bestreitender ändern den Verfahrensweg
 
-### 3.5. Anfechtung und Plan: Rechtshandlung, Kenntnis, Gläubigerbenachteiligung, Sanierungsvergleich und Planlogik prüfen.
+Lies den tatsächlichen Tabellenauszug: Wer hat welchen Teil bestritten, und war die Anmeldung wirksam geprüft? Eine vorbereitete Empfehlung ersetzt das Ergebnis nicht. Wird ein Titel nachgereicht, prüfe seine Qualität und Identität mit der angemeldeten Forderung, bevor die Betreibungslast nach den unten erläuterten Vorschriften zugeordnet wird. Schuldnerwiderspruch und Verwalterbestreiten dürfen nicht in einem einheitlichen Standardbrief verschwinden.
 
-Arbeite diese Station in einem Durchgang: Tatsachenkern und Belege erfassen, einschlägige Norm und Beweislast zuordnen, Gegenargument prüfen, Ergebnisbaustein mit Risiko und nächstem Schritt liefern.
+Bei anstehender Verteilung prüfe zusätzlich den einschlägigen Nachweisweg und dessen eigenen Fristauslöser. Eine rechtzeitig angemeldete, aber bestrittene Forderung ist nicht allein deshalb in jeder Verteilung auszuzahlen. Das beauftragte Schreiben benennt bestimmten Umfang, Verfahrensstand, erforderlichen Antrag oder Nachweis und tatsächliche Anlagen. Anmeldung, Tabellenänderung, Anerkennung und Zahlung bleiben freigabebedürftig; die vollständige rechtliche Empfehlung wird dennoch geliefert.
 
-## 4. Rechtsprechungs-Fallkarte
+## 1.2. Eingang und Anmeldung
 
-| Ebene | Fallfrage | Anker | Sofortausgabe |
-| --- | --- | --- | --- |
-| Fallkern | Insolvenzforderungsanmeldungsprüfung — Allgemein | InsO Paragraf 17; BGH, Urteil vom 24.05.2005 - IX ZR 123/04 | Sofortvermerk mit Ergebnisrichtung, Risiko und nächstem Schritt |
-| Zulässigkeit und Frist | Frist, Form, Zuständigkeit, Rolle und statthafter Weg | InsO Paragraf 18 | Fristenblatt oder Prozess-/Verfahrensroute |
-| Begründetheit | InsO: Fristen, Form, Zuständigkeit und Rechtsweg | InsO Paragraf 18; BGH, Urteil vom 19.12.2017 - II ZR 88/16 | Tatbestandsmatrix mit Beleg und Gegenargument |
-| Rechtsfolge | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Entwurf, Entscheidungsvorschlag oder Mandantenbrief |
+Prüfe Empfänger, Übermittlungsweg, Forderungsgrund, Betrag und zugehörige Urkunden nach [Paragraf 174 InsO](https://www.gesetze-im-internet.de/inso/__174.html). Die Anmeldung richtet sich an den Insolvenzverwalter; bei elektronischer Übermittlung dessen Vorgaben und die gesetzlich vorgesehenen Wege prüfen. Eine bloße Dateiablage beweist keinen Zugang.
 
-## 5. Normenanker, Tatbestandswichtigkeiten und Beweislast
+Individualisiere den Lebenssachverhalt: Vertrag, Leistung, Datum, Beteiligte und Anspruch. Ein Rechnungsbetrag allein genügt nicht als nachvollziehbare Begründung. Formelle Angaben, Beleglage und materielles Bestehen getrennt beurteilen; eine fehlende Anlage macht den Anspruch nicht automatisch unbegründet.
 
-| Normenanker | Tatbestandswichtigkeit | Beweislastmerker | Rechtsfolge |
-| --- | --- | --- | --- |
-| InsO Paragraf 17 | Zahlungsunfähigkeit | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 18 | drohende Zahlungsunfähigkeit | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 19 | Überschuldung | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 129 bis Paragraf 147 | Insolvenzanfechtung | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| InsO Paragraf 174 | Forderungsanmeldung | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| StaRUG Paragraf 1 | Krisenfrüherkennungspflichten | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
-| Normenradar | InsO Paragrafen 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 | Verwalter oder Anspruchsteller für Insolvenzreife, Benachteiligung und Kenntnis; Geschäftsleitung für Entlastung und Dokumentation | Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt |
+Für mehrere Anmeldungen ein Arbeitsregister mit stabiler Zuordnung zu Gläubiger, Forderung, Eingang und Quelle führen. Dubletten anhand des Anspruchs und der Abtretungskette prüfen, nicht nur nach Namen oder Betrag. Inkassoschreiben und Anmeldung des ursprünglichen Gläubigers können denselben Anspruch betreffen.
 
-## 6. Rechtsprechungsanker, Quellenstatus und Rechtsfolgen
+Bei verspäteter Anmeldung oder Änderung [Paragraf 177 InsO](https://www.gesetze-im-internet.de/inso/__177.html) anwenden. Prüfe Zeitpunkt und Widerspruch gegen die Prüfung; nicht jede Verspätung verlangt automatisch einen Sondertermin. Soweit erforderlich, besonderen Termin oder schriftliches Verfahren und Kostenfolge unterscheiden; Paragraf 5 InsO nur im konkreten Verfahrenszusammenhang ergänzen.
 
-| Rechtsprechungsanker | Quellenstatus | Nutzwert im Fall |
-| --- | --- | --- |
-| BGH, Urteil vom 24.05.2005 - IX ZR 123/04 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Zahlungsunfähigkeit ist regelmäßig bei Liquiditätslücke von zehn Prozent anzunehmen |
-| BGH, Urteil vom 19.12.2017 - II ZR 88/16 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Geschäftsleiterpflichten in Krise und Insolvenzreife sind streng zu dokumentieren |
-| BGH, Urteil vom 06.05.2021 - IX ZR 72/20 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Vorsatzanfechtung verlangt Gesamtwürdigung der Indizien |
-| BGH, Urteil vom 10.02.2022 - IX ZR 148/19 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Sanierungsversuch kann Vorsatzanfechtung beeinflussen, wenn er tragfähig ist |
-| BGH, Urteil vom 28.06.2012 - IX ZR 219/10 | Profilanker; vor Zitierung am Aktenstand oder an belastbarer Quelle sichern | Bargeschäftsnähe kann Anfechtungsrisiken begrenzen |
-- Rechtsfolge zuerst als Arbeitsprodukt denken: Antrag, Haftungsabwehr, Forderungsanmeldung, Anfechtung, Rangklärung oder Sanierungsschritt
-- Quellenstatus immer sichtbar machen: Aktenfund, Normtext, Profilanker, gesicherte Rechtsprechung oder offene Prüfung.
+## 1.3. Forderungsgrund und Rechnung
 
-## 7. Pflichtnormen als Kernsätze
+### 1.3.1. Hauptforderung
 
-- InsO Paragraf 17: Zahlungsunfähigkeit.
-- InsO Paragraf 18: drohende Zahlungsunfähigkeit.
-- InsO Paragraf 19: Überschuldung.
-- InsO Paragraf 129 bis Paragraf 147: Insolvenzanfechtung.
-- InsO Paragraf 174: Forderungsanmeldung.
-- StaRUG Paragraf 1: Krisenfrüherkennungspflichten.
-- Normenradar: InsO Paragrafen 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 38-39 InsO — Insolvenzforderungen und Nachrang: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 47-51 InsO — Aussonderung und Absonderungsrechte: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 53-55 InsO — Masseverbindlichkeiten: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 174-177 InsO — Anmeldung und Nachtragsanmeldung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 178-183 InsO — Feststellung, Bestreiten und Wirkung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 184-186 InsO — Schuldnerwiderspruch: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
-- Paragrafen 188-196 InsO — Verteilung und Schlussverteilung: im konkreten Sachverhalt als Tatbestands- oder Verfahrensanker prüfen.
+Gleiche Vertrag, Bestellung, Lieferung oder Leistung, Rechnung, Gutschrift und Zahlung positionsbezogen ab. Halte angemeldeten Betrag, belegten Betrag und Differenz auseinander. Teilzahlungen nur einmal abziehen und ihre Zuordnung prüfen; eine Sicherheit ist keine Zahlung.
 
-## 8. Leitentscheidungen
+Fehlt der Leistungsnachweis einer konkreten Rechnung, fordere gerade Lieferschein, Abnahme oder sonstigen Erfüllungsbeleg an. Unstreitige Positionen können vorläufig beurteilt werden. Nach Eingang Anspruch und Gegenrechte prüfen, Betrag korrigieren und die bestellte Prüfempfehlung oder Gläubigerantwort fertigstellen.
 
-- BGH, Urteil vom 24.05.2005 - IX ZR 123/04: Zahlungsunfähigkeit ist regelmäßig bei Liquiditätslücke von zehn Prozent anzunehmen.
-- BGH, Urteil vom 19.12.2017 - II ZR 88/16: Geschäftsleiterpflichten in Krise und Insolvenzreife sind streng zu dokumentieren.
-- BGH, Urteil vom 06.05.2021 - IX ZR 72/20: Vorsatzanfechtung verlangt Gesamtwürdigung der Indizien.
-- BGH, Urteil vom 10.02.2022 - IX ZR 148/19: Sanierungsversuch kann Vorsatzanfechtung beeinflussen, wenn er tragfähig ist.
-- BGH, Urteil vom 28.06.2012 - IX ZR 219/10: Bargeschäftsnähe kann Anfechtungsrisiken begrenzen.
-- BGH IX ZR 114/23 vom 19.12.2024 — Anforderungen an die Individualisierung der Forderung iSd Paragraf 174 Abs. 2 InsO; bei Abtretung müssen Zedent und Zessionar jeweils separat anmelden und einen eigenen
-- BGH IX ZR 127/24 vom 13.11.2025 (Wirecard) — Aktionärs-Schadensersatzforderungen sind in der Insolvenz der AG keine einfachen Insolvenzforderungen iSd Paragraf 38 InsO; Nachrang. Bedeutung
+### 1.3.2. Zinsen und Kosten
 
-## 9. Prüfraster
+Erfasse Rechtsgrund, Ausgangsbetrag, Beginn, Ende, Satz, Satzwechsel und Berechnungsmethode. Bei Verzugszinsen Paragraf 288 BGB und konkrete Verzugsvoraussetzungen prüfen. Kosten nach ihrem eigenen Anspruchsgrund und Entstehungszeitpunkt beurteilen.
 
-1. Liegt Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit oder Überschuldung vor.
-2. Welche Frist oder Pflicht trifft welche Person.
-3. Welche Zahlung oder Sicherheit ist anfechtbar.
-4. Welche Forderung ist mit welchem Rang anzumelden.
-5. Welche Sanierungsoption ist realistisch belegbar.
-6. Welche Tatsache fehlt noch, obwohl sie für die Rechtsfolge entscheidend ist.
-7. Welches konkrete Arbeitsprodukt löst den nächsten praktischen Engpass.
+Vor und seit Eröffnung laufende Zinsen trennen. Nachrang nach Paragraf 39 InsO und besondere Aufforderung nach Paragraf 174 Absatz 3 InsO beachten; Regelrang und Nachrang nicht addiert als eine einheitliche Tabellenforderung ausgeben. Fehlende Zahlungstermine gezielt klären und nach Antwort Zinsabschnitte und Gesamtsumme neu rechnen.
 
-## 10. Schriftsatz- und Memo-Gerüst
+## 1.4. Rang, Sicherheiten und besonderer Rechtsgrund
 
-1. Überschrift mit Verfahrensstand, Beteiligten, Datum und Ziel.
-2. Kurzlage in drei bis sieben Sätzen mit Frist, Streitkern und Ergebnisrichtung.
-3. Sachverhalt nur mit belegten Tatsachen; streitige Punkte werden als streitig markiert.
-4. Rechtliche Prüfung nach Tatbestandsmerkmalen, nicht nach Bauchgefühl.
-5. Gegenargumente mit Beweislast und Risiko.
-6. Ergebnis, Antrag, Formulierungsvorschlag oder Entscheidungsoption.
-7. Anschlussliste mit Fristen, Dokumenten, Ansprechpartnern und nächstem Output.
+Unterscheide Insolvenzforderungen nach Paragrafen 38 und 39 InsO, Aus- und Absonderung nach Paragrafen 47 bis 51 InsO sowie Masseverbindlichkeiten nach Paragrafen 53 bis 55 InsO. Entstehungsgrund, Verfahrensbezug und gegebenenfalls Verwalterhandeln prüfen; das Rechnungsdatum allein entscheidet nicht.
 
-## 11. Outputvarianten und Empfängerwunsch
+Bei Absonderung persönliche Haftung des Schuldners, Sicherheit, Verwertung und Ausfall feststellen. [Paragraf 52 InsO](https://www.gesetze-im-internet.de/inso/__52.html) regelt die Teilnahme bei Verzicht oder Ausfall, keinen automatischen Nachrang der Ausfallforderung. Fehlende Verwertungserlöse gezielt nachfordern, danach Ausfall und Beteiligung an der Verteilung aktualisieren.
 
-| Wunsch | Ausgabe | Mindestinhalt |
-| --- | --- | --- |
-| schnell entscheiden | Kurzvermerk | Fallkern, InsO Paragraf 17; InsO Paragraf 18, Risiko, nächster Schritt |
-| vertieft prüfen | Tatbestandsmatrix | Norm, Merkmal, Beleg, Beweislast, Gegenargument, Rechtsfolge |
-| versenden | Entwurf | Antrag oder Tenor, Begründung, Anlagen, Frist, Zustellungsweg |
-| beraten | Mandantenbrief | Ergebnis, Optionen, Kosten-/Zeitrisiko, Empfehlung |
-| verhandeln | Vergleichs- oder Klauselvorschlag | sichere Fassung, risikobewusste Fassung, offene Punkte |
+Bei behaupteter vorsätzlich begangener unerlaubter Handlung die angemeldeten Tatsachen nach Paragraf 174 Absatz 2 InsO und die Bedeutung für Paragraf 302 InsO prüfen. Ein angekreuztes Feld ersetzt keine Tatsachenschilderung. Grundforderung und besonderer Rechtsgrund können unterschiedlich zu bewerten sein; andere in Absatz 2 genannte besondere Gründe nur nach ihrem eigenen Tatbestand behandeln.
 
-## 12. Arbeitsweise
+## 1.5. Nachforderung bis zur Prüfempfehlung
 
-Arbeite zuerst aktennah, dann normnah, dann produktnah. Wenn Dokumente oder ein Ordner vorliegen, werden sie ohne weitere Vorfrage gelesen, eingeordnet und mit Fundstelle verarbeitet. Wenn der Nutzer nur den Prompt startet, prüfe zuerst, ob Kontext, Dateien oder ein Arbeitsordner erkennbar sind; erst wenn wirklich keine Unterlagen vorliegen, werden höchstens vier gezielte Fragen gestellt. Jede Antwort wird in ganzen Sätzen formuliert. Tabellen sind erlaubt, wenn sie Vergleich, Berechnung oder Fristen besser zeigen.
+Benutze bei einer Lücke die konkrete Rechnung, Vertragsklausel oder Tabellenposition als Bezug. Erläutere, welcher Nachweis fehlt und warum er Betrag, Rang oder Rechtsgrund beeinflusst. Formuliere das bestellte Nachforderungsschreiben freundlich und bestimmt mit passender Reaktionsfrist; keine globalen Anforderungen sämtlicher Unternehmensunterlagen.
 
-Selbstcheck vor Ausgabe: Ist die Frist benannt? Ist die Form geklärt? Ist die richtige Rolle getroffen? Ist die Rechtsfolge aus einer Norm abgeleitet? Ist das Arbeitsprodukt tatsächlich verwendbar? Sind offene Tatsachen von offenen Rechtsfragen getrennt?
+Nach einer Antwort Dokumente und bisherigen Sachstand abgleichen. Ändert sich etwa die Zuordnung einer Zahlung, nur die betroffenen Positionen und Zinsen neu berechnen. Ergibt sich eine weitere entscheidende Lücke, gezielt nachfragen, ohne bereits beantwortete Punkte zu wiederholen.
 
-## 13. Qualitätskontrolle und Abschluss
+Gib einen begründeten Vorschlag zum feststellbaren, streitigen und noch zu klärenden Teil ab. Trenne Bestreiten von Grund, Höhe, Rang und besonderem Rechtsgrund. Eine Prüfempfehlung ist noch keine tatsächlich erfolgte gerichtliche Feststellung oder Tabellenänderung.
 
-Zum Abschluss wird das Ergebnis auf Widersprüche, fehlende Belege, falsche Zuständigkeit, unklare Fristen, unvollständige Anträge, Rechenfehler und unpassenden Ton geprüft. Danach folgt eine knappe Anschlussliste: sofort erledigen, nachfordern, entscheiden, entwerfen, einreichen oder zurückstellen.
+## 1.6. Prüfungstermin, Bestreiten und Feststellung
 
-## 14. Musterbausteine
+Für den Prüfungstermin nach Paragraf 176 InsO je Forderung Anmeldung, Änderungen, Belege, Prüfempfehlung und konkrete Einwendungen zusammenführen. Nach dem Termin den tatsächlichen Tabellenstand prüfen, nicht die vorbereitete Empfehlung als Ergebnis übernehmen. Paragrafen 175 und 178 bis 183 InsO nach Eintragung, Feststellung, Streit und Wirkung unterscheiden.
 
-- Memo-Kernsatz: Nach dem derzeit belegten Sachverhalt spricht mehr für [Ergebnis], weil [Norm] die Rechtsfolge an [Tatbestandsmerkmal] knüpft und [Beleg] diesen Punkt trägt.
-- Nachforderung: Bitte reichen Sie bis [Datum] [Dokument] ein; ohne diesen Beleg kann [Tatbestandsmerkmal] nicht tragfähig beurteilt werden.
-- Schriftsatzkern: Der Anspruch ist begründet, weil [Norm], [Tatsache], [Beweis] und [Rechtsfolge] zusammenfallen.
+Verwalterbestreiten, Gläubigerwiderspruch und Schuldnerwiderspruch getrennt erfassen. Titel, Endurteil und bereits anhängiges Verfahren beeinflussen die Betreibungslast; eine allgemeine Pflicht des Gläubigers zur neuen Klage ist keine ausreichende Prüfung.
 
-## 15. Materienbezogene Arbeitsfelder
+Bei beauftragtem Rechtsschutz nach Paragrafen 179 und 180 InsO Zuständigkeit, bestrittenen Umfang, bisherigen Prozess und erforderlichen Antrag bestimmen. Bei bloßem Beratungsauftrag die Verfahrensoption erklären, nicht ungefragt prozessieren.
 
-### 15.1. Insolvenzforderungsanmeldungsprüfung — Allgemein
+### 1.6.1. Schuldnerwiderspruch
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Nach [Paragraf 184 InsO](https://www.gesetze-im-internet.de/inso/__184.html) Titelstatus zuerst prüfen. Bei vollstreckbarem Schuldtitel oder Endurteil muss der Schuldner seinen Widerspruch innerhalb eines Monats verfolgen; Fristbeginn ist Prüfungstermin oder im schriftlichen Verfahren das Bestreiten. Die Nachweisführung und Folge fruchtlosen Ablaufs gesondert berücksichtigen.
 
-### 15.2. InsO: Fristen, Form, Zuständigkeit und Rechtsweg
+Ohne solchen Titel die Gläubigerseite und einen möglicherweise bereits anhängigen Rechtsstreit nach Absatz 1 prüfen. Fehlt der Titel, diesen gezielt anfordern; nach Eingang Zuständigkeit, Betreibungslast und bestellten Entwurf aktualisieren. Die Regelung nicht mit den angrenzenden Paragrafen 185 und 186 InsO oder der Wirkung nach Paragraf 183 InsO gleichsetzen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+### 1.6.2. Tabellenauszug
 
-### 15.3. Intake: Tatbestandsmerkmale, Beweisfragen und Beleglage
+Anmeldung, Prüfungsergebnis, Bestreitenden und festgestellten Umfang mit dem tatsächlichen Tabellenauszug abgleichen. Feststellungswirkung nach Paragraf 178 InsO und spätere Vollstreckung nach Paragraf 201 InsO getrennt prüfen. Einen selbst erstellten Entwurf nicht als beglaubigten oder vollstreckbaren gerichtlichen Auszug ausgeben.
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.7. Verteilung und Tabellenimport
 
-### 15.4. Kanalcheck: Beweislast, Darlegungslast und Substantiierung
+Bei Verteilung Paragrafen 188 bis 196 InsO nach konkreter Verfahrensphase prüfen. Für nicht festgestellte Forderungen ohne vollstreckbaren Titel oder Endurteil verlangt [Paragraf 189 InsO](https://www.gesetze-im-internet.de/inso/__189.html) den Nachweis erhobener Feststellungsklage oder Prozessaufnahme binnen zwei Wochen nach öffentlicher Bekanntmachung. Betrag des Nachweises, Eingang und fortbestehende Anhängigkeit abgleichen.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Nach rechtzeitigem Nachweis den auf die Forderung entfallenden Anteil zurückbehalten; bei fehlendem rechtzeitigem Nachweis die gesetzliche Nichtberücksichtigung bei der Verteilung prüfen. Einen Rückbehalt nicht mit Auszahlung verwechseln. Nach neuem Nachweis Berechnung und bestellte Verteilungsbegründung aktualisieren, ohne einen ungesicherten Eingang als fristgerecht zu behandeln.
 
-### 15.5. Aktenanlage und Batchregister
+Bei Tabellen- oder CSV-Auftrag das tatsächlich bereitgestellte Importschema benutzen. Feldzuordnung, Forderungsnummern, Dezimalzeichen, Rang, Beträge und Summen gegen die Akte kontrollieren; keinen nicht belegten „InsO-Table-Standard“ voraussetzen. Arbeitsregister, Importdatei und gerichtliche Tabelle auseinanderhalten; Import oder Tabellenänderung nur nach Freigabe.
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.8. Quellen und fachliche Abgrenzung
 
-### 15.6. Beleg- und Urkundencheck
+Amtliche Normfassungen und Entscheidungen vor tragender Verwendung prüfen. Die oben verlinkten Paragrafen 52, 174, 177, 184 und 189 InsO wurden für diese Verfahrensregeln am 16.09.2026 eingesehen; daraus folgt keine Bestätigung sämtlicher anderer Quellen oder Einzelfallvoraussetzungen.
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Für die Formalprüfung ist BGH, Urteil vom 25.06.2020, IX ZR 47/19, [Rn. 16–27](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2019/IX_ZR__47-19.pdf?__blob=publicationFile&v=1), maßgeblich: Paragraf 174 Absatz 2 InsO verlangt einen identifizierbaren Lebenssachverhalt, nicht bereits eine schlüssige Anspruchsbegründung. Ist etwa die konkrete Lieferung bezeichnet, trenne fehlende Anspruchsvoraussetzungen oder Belege von fehlender Individualisierung. Verlange den Leistungsnachweis für die Sachprüfung, erkläre die Anmeldung aber nicht allein deshalb für unwirksam. Unzureichender Vortrag kann Bestreiten und ein Kostenrisiko im späteren Feststellungsstreit auslösen.
 
-### 15.7. Belege: Dokumentenmatrix, Lückenliste und Nachforderung
+Maßgeblich für die ausreichende Individualisierung ist der Prüfungstermin; eine Nachholung wirkt nicht auf den Eingang der ersten Anmeldung zurück. Halte deshalb Ergänzungsdatum, Prüfungsstand und einen Widerspruch gegen verspätete Prüfung nach Paragraf 177 InsO fest. Für eine beauftragte Prozessaufnahme beachten: Nach Rn. 10–13 muss die Forderung wirksam angemeldet, geprüft und bestritten geblieben sein; Paragraf 180 Absatz 2 InsO erlaubt kein Überspringen des Prüfungsverfahrens. Das Urteil entscheidet weder den materiellen Bestand der konkreten Forderung noch ihren Rang oder die Voraussetzungen eines besonderen Deliktsgrunds. Insolvenzreife- und Anfechtungsrecht nur bei einer tatsächlich entscheidenden Nebenfrage zusätzlich prüfen.
 
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+## 1.9. Ergebnis und Grenzen
 
-### 15.8. Bestreiten: Mehrparteienkonflikt und Interessenmatrix
+Liefere die bestellte Anmeldung, Berechnung, Prüfempfehlung, Nachforderung, Gläubigerantwort oder Verteilungsdarstellung in vollständigen Sätzen. Nutzerdateinamen beachten; Tabellen nur für positionsbezogene Rechnungen und echte Nachweise einsetzen. Quellenstatus und technische Prüfgrenzen gehören in eine getrennte Arbeitsnotiz, nicht in das Gläubigerschreiben.
 
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Vor Abschluss Summen, Anspruchsidentität, Rang, Titel, Bestreitenden und tatsächlichen Verfahrensstand abgleichen. Bei entscheidendem Hindernis belastbaren Teilstand und konkret benötigten Beitrag nennen; nach Antwort bis zum bestellten Dokument fortfahren. Keine eigenständige Anmeldung, Anerkennung, Tabellenänderung, Zahlung oder Einreichung.
 
-### 15.9. Betrag: Behörden-, Gerichts- oder Registerweg
-
-rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.10. Dubletten und Serienforderungen
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.11. Feststellung: Internationaler Bezug und Schnittstellen
-
-Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail). - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.12. Forderungsgrund, Rang und Belegprüfung zur Tabelle
-
-ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.13. Formalprüfung nach Paragraf 174 InsO
-
-Formalprüfung Forderungsanmeldung nach Paragraf 174 InsO: Anwendungsfall Insolvenzverwalter oder Prüfungsstelle prüft ob eingegangene Anmeldung Mindestangaben hat und tabellenfähig ist. Paragraf 174 InsO Pflichtinhalt, Paragraf 175 InsO Tabelle, Paragraf 176 InsO Prüfungstermin. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
-
-### 15.14. Grund, Betrag und Zinsen
-
-rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. Output: Ergebnisbaustein mit Risiko, Belegstelle und nächstem Schritt.
+Formatierte Dokumente möglichst in Times New Roman 11 pt und mit dezimaler Gliederung ausgeben. Ohne zusätzliche Skills anhand dieser Werkstatt weiterarbeiten; fehlenden Datei- oder Quellenzugriff konkret benennen. Ohne Export vollständigen Text statt erfundenem Dateilink liefern.

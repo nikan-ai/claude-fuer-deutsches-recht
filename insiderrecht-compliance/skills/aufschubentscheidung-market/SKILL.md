@@ -1,6 +1,6 @@
 ---
 name: aufschubentscheidung-market
-description: "Wenn es um Aufschubentscheidung nach Art. 17 Abs. 4 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufschubentscheidung nach Art. 17 Abs. 4 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aufschubentscheidung nach Art. 17 Abs. 4 MAR
@@ -19,7 +19,7 @@ description: "Wenn es um Aufschubentscheidung nach Art. 17 Abs. 4 MAR in Insider
 Art. 17 Abs. 4 MAR erlaubt dem Emittenten, die Veröffentlichung einer Insiderinformation
 aufzuschieben, wenn kumulativ drei Voraussetzungen erfüllt sind:
 (1) Legitimes Interesse des Emittenten an der Verzögerung,
-(2) keine Irreführung der Öffentlichkeit,
+(2) seit 05.06.2026 kein Widerspruch zur letzten öffentlichen Kommunikation des Emittenten in derselben Angelegenheit (Artikel 17 Absatz 4 Buchstabe b MAR, geändert durch Verordnung EU 2024/2809),
 (3) Sicherstellung der Vertraulichkeit.
 Der Aufschub ist kein Recht, sondern eine begrenzte Ausnahme. Der Emittent trägt die volle
 Beweislast. BaFin ist unverzüglich nach Ende des Aufschubs zu unterrichten (Art. 17 Abs. 4 UAbs. 3).

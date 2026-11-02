@@ -1,6 +1,6 @@
 ---
 name: strafrecht-tatbestand-rechtswidrigkeit-schuld
-description: "Wenn es um Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld
@@ -22,9 +22,6 @@ Student prüft Strafbarkeit in der Hausarbeit: Drei-Stufen-Schema Tatbestand Rec
 2. Gibt es Hinweise auf Versuch, Vollendung oder Ruecktritt nach § 24 StGB?
 3. Liegen Anzeichen für Rechtfertigungsgruende vor (Notwehr § 32, rechtfertigender Notstand § 34)?
 4. Gibt es Schuldunfaehigkeitsindikatoren (Alter, psychische Erkrankung, Trunkenheit)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 13-35 StGB — Allgemeiner Teil: Tatbestand, Rechtswidrigkeit, Schuld
@@ -287,3 +284,5 @@ III. Schuld
 - `subsumtion-schritt-für-schritt` — Subsumtions-Praxis
 - `meinungsstreit-darstellen` — Bei Streit (z.B. Vorsatz vs. Fahrlässigkeit, Tatbestands- vs. Verbotsirrtum)
 - `gliederung-mit-tiefenstruktur` — Gliederung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

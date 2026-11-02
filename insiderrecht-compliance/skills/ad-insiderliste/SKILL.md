@@ -1,6 +1,6 @@
 ---
 name: ad-insiderliste
-description: "Wenn es um Ad-hoc-Publizität nach Art. 17 MAR in Insiderrecht Compliance geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ad-hoc-Publizität nach Art. 17 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ad-hoc-Publizität nach Art. 17 MAR
@@ -82,26 +82,3 @@ Inhaltspflichten nach Art. 17 MAR und BaFin-Emittentenleitfaden:
 - BaFin-Eingangsbestätigung
 - Website-Screenshot mit Zeitstempel
 - Handelsaussetzung / -wiederaufnahme dokumentieren, falls erfolgt
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 119 WpHG
-- § 97 WpHG
-- § 120 WpHG
-- § 93 AktG
-- § 50 WpHG
-- § 10 WpÜG
-- § 4 WpHG
-- § 98 WpHG
-- § 80 WpHG
-- § 116 AktG
-- § 39 BörsG
-- § 89 KWG
-
-### Leitentscheidungen
-
-- EuGH C-19/11
-- EuGH C-628/13
-- BGH II ZB 26/12

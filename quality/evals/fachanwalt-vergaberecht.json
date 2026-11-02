@@ -1,0 +1,411 @@
+{
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Rüge, Vergabeentscheidung und konkretes Dokument stehen zuerst; zulässiges Notenmodell wird von der begründeten Einzelwertung getrennt.",
+    "norms_or_source_basis": "Paragraf 127 GWB; Paragrafen 8 und 58 VgV",
+    "selected_anchor_identifiers": [
+      "X ZB 3/17"
+    ],
+    "application_limit": "Keine eigene Wunschbenotung oder automatische Neuwertung; offene Komplexitätsfrage und Hinweise nicht als festgestellten Fehler darstellen.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-vergaberecht/fachanwalt-vergaberecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "3e0dc628740c52ae05bc45cec1c7c0965dd374e27e2b3736ff78a8bf5efdc39c",
+      "characters": 6896,
+      "utf8_bytes": 7024,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-vergaberecht/fachanwalt-vergaberecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "a70cba5235cd4c32d425bde38b6ab81245223a327177ecf93e38cec5b223b99e",
+      "characters": 24090,
+      "utf8_bytes": 24490,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "fachanwalt-vergaberecht",
+  "reviewed_on": "2026-09-30",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__127.html",
+      "checked_on": "2026-09-14",
+      "supports": "Veröffentlichte Zuschlagskriterien und Gewichtung sowie überprüfbare Wertung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vgv_2016/__58.html",
+      "checked_on": "2026-09-14",
+      "supports": "Preis-Leistungs-Verhältnis und qualitative Zuschlagskriterien; amtlichen Suchauszug geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__134.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absendungsbezogene Wartefrist, bei elektronischer Information zehn Kalendertage."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__160.html",
+      "checked_on": "2026-09-14",
+      "supports": "Kenntnis- und Erkennbarkeitsrügen sowie Frist nach Nichtabhilfe gesondert."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__169.html",
+      "checked_on": "2026-09-14",
+      "supports": "Zuschlagsverbot knüpft an Information des Auftraggebers durch die Vergabekammer an, nicht bloß an eine Rüge."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-4-4&Gericht=bgh&anz=18&nr=78215&pos=16",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Beschluss vom 04.04.2017, Az. X ZB 3/17: amtlich indexierte Leitsätze zur Notenwertung und Dokumentation geprüft; direkter Volltextabruf gescheitert, keine Randnummer behauptet."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2017/X_ZB___3-17.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-23",
+      "supports": "Amtliches 24-seitiges PDF vollständig gelesen. Randnummern 39–48 zur Zulässigkeit des Notenmodells bei verständlichen Anforderungen; vorsorgliche Hinweise 50–53 zur Dokumentation und Vergleichskontrolle. Besondere Komplexität ausdrücklich offengelassen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__127.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Bestimmte, überprüfbare Kriterien und veröffentlichte Gewichtung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vgv_2016/__8.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Fortlaufende Dokumentation einschließlich Auswahl- und Zuschlagsgründen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vgv_2016/__58.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Qualitätskriterien, Personalbezug und Festpreisfall."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vgv_2016/__56.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Nachforderungsermessen und Ausschluss wertungsrelevanter leistungsbezogener Unterlagen samt enger Preis-Ausnahme."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__134.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Absendungsbezogene Wartefrist und Ausnahmen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__160.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Kenntnis-/Erkennbarkeitsrüge und Nichtabhilfefrist, aktueller Gesamttext."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__169.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Aktueller Absatz 1 Satz 2: Ende beim Obsiegen des Auftraggebers bereits mit Bekanntgabe; Ausnahmen und weitere Absätze gelesen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__173.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Aktuell keine aufschiebende Wirkung der Beschwerde bei Ablehnung; keine alte Fortwirkungszusage."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__172.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Zweiwochen-Notfrist und gleichzeitige Beschwerdebegründung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__135.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Informations- und Bekanntmachungsfristen, Sechsmonatsgrenze, aktueller Absatz 4 mit begrenzter Ausnahme und alternativen Sanktionen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__132.html",
+      "checked_on": "2026-09-23",
+      "supports": "Aktuellen amtlichen Volltext gelesen: Wesentliche Änderungen, Options-/Zusatzbedarfstatbestände, bedingte 50-Prozent-Grenze, kumulative Bagatellgrenzen und Bekanntmachung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vgv_2016/__56.html",
+      "supports": "Erneuter Normabruf zur Nachforderung, zum Ausschluss wertungsrelevanter leistungsbezogener Unterlagen, zur engen Preis-Ausnahme und zur kalenderbestimmten Frist.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62025CO0316_INF",
+      "checked_on": "2026-09-30",
+      "supports": "EuGH, Beschluss vom 03.02.2026 – C-316/25, Regione Umbria, Tenor. Leistungseinkauf gegen Entgelt ist nicht allein wegen öffentlicher Rechtsform vergabefreie Kooperation. Amtliche Entscheidungsinformation mit Tenor gelesen. Grenze: Italienischer Registervertrag; kein behaupteter Volltextabruf. Inhouse-Kontrolle und heutiger § 108 GWB getrennt prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__108.html",
+      "checked_on": "2026-09-30",
+      "supports": "Aktuelle Absätze 1–9 gelesen: mehr als 80 Prozent, weniger als 20 Prozent, Kooperation/Privatbegünstigung, Betrauung jetzt Absatz 7 und Berechnung Absatz 8. Keine Datierung des historischen Inkrafttretens behauptet."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=310678&doclang=EN",
+      "checked_on": "2026-10-01",
+      "supports": "Technische Anforderungen müssen sachlich verhältnismäßig sein; objektive Rechtfertigung nicht zwingend schon bei Bekanntmachung veröffentlichen. Produkttypbindung ohne Gleichwertigkeitszusatz nur eng bei zwangsläufigem Sachbezug. Grenze: Fehlende Veröffentlichung ist keine materielle Rechtfertigung; keine Befreiung von nationalen Dokumentationspflichten. Nationales Gericht prüft konkrete OP-Räume."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A62025CO0316",
+      "checked_on": "2026-10-01",
+      "supports": "Bloßer entgeltlicher Leistungseinkauf keine öffentliche Zusammenarbeit; tatsächliche gemeinsame Beiträge und Ziele verlangen. Grenze: Italienisches Kraftfahrzeugsteuerregister; horizontale Kooperation von vertikaler Inhouse-Vergabe trennen."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE",
+      "checked_on": "2026-10-16",
+      "supports": "Rn. 39 bis 50: Hundertprozentige Tochter bleibt anderes Unternehmen im Sinne von Artikel 63 Richtlinie 2014/24/EU; kartellrechtlicher Begriff wirtschaftlicher Einheit nicht übertragbar. Rn. 52 bis 60: EEE ist nicht exklusives Nachweismittel; vorhandene Bescheinigungen auf tatsächliche Abdeckung der Eignung und Ausschlussgründe prüfen. Rn. 61 bis 65: Nachreichung kann nach nationalem Recht und unter Gleichbehandlung/Transparenz zulässig sein; Rn. 64 betrifft ursprünglich benannte Tochter und bestehende Tatsachen. Grenze: Keine allgemeine Nachforderungspflicht und kein bedingungsloser Ergänzungsanspruch; veröffentlichten Nachforderungsausschluss beachten. Keine neue Eignungsleihe als Formularberichtigung zulassen; gegebenenfalls Austauschregel gesondert prüfen. Rn. 59 zu personenidentischer Geschäftsführung deckt nicht alle Ausschlussgründe der Tochter. Urteil zur Richtlinie 2014/24/EU, kein unmittelbarer SektVO-Fall. Paragrafen 47/51 SektVO und Paragraf 142 GWB eigenständig prüfen. Verfügbarkeit der Mittel bleibt gesonderter Prüfungspunkt; Verpflichtungserklärung ist ein möglicher geeigneter Nachweis, nicht zwingend die einzig zulässige Form.",
+      "verification_status": "status: Amtliche deutsche Urteilsgründe und genannte Normen gezielt gelesen; read_scope: Relevanter Sachverhalt, Rn. 39 bis 66 und Tenor; keine vollständige Prüfung jeder Sachverhaltspassage behauptet; method: Webtool-Recherche und öffentlicher CURIA-Direktabruf bei technisch unlesbarem Webabruf. VgV 47 direkt abgerufen, übrige genannte Normen im Webtool gelesen.; verified_on: 2026-10-16"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren.",
+    "changes": [
+      "BGH X ZB 3/17 jetzt anhand des vollständigen amtlichen PDFs überprüft; Randnummern 39–48 und Hinweise 50–53 mit Anwendung und offener Komplexitätsgrenze in drei Prompts und Fokus-Skill.",
+      "Interne Materialnachforderung von Paragraf 56 Absatz 3 VgV getrennt; Hauptproblem um nachgerechnetes 84,00/86,55/bedingt 92,00-Punkte-Beispiel ergänzt.",
+      "Aktuelle Paragrafen 134, 160, 169 und 173 GWB abgeglichen; keine Zusage fortdauernden Zuschlagsschutzes nach Obsiegen des Auftraggebers.",
+      "Werkstatt differenziert Paragraf 132 GWB statt pauschaler Nachtragsfreigrenze; ungeprüfte historische Entscheidungsliste entfernt.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Die für dieses Gebiet dokumentierten Quellenpassagen vom 30.09.2026 fallbezogen eingearbeitet.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Rüge, Vergabeentscheidung und konkretes Dokument stehen zuerst; zulässiges Notenmodell wird von der begründeten Einzelwertung getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: EuGH, Urteil vom 22.01.2026, C-812/24"
+    ],
+    "sha256": "1e8dc447b0902688bf9674b72ec0ca3350ae39029b69a071a94fc3c1af848e54",
+    "reviewed_on": "2026-09-30"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem und zugeordneter Skill vollständig gelesen und konsistent überarbeitet: bedingter Rangwechsel, vorhandene Zusage versus Konzeptnachbesserung, amtlich volltextverifizierte Notenentscheidung und zeitlich passende Zuschlagssicherung. Workflow-Ergänzung: Seite mit Zusage war nicht Bestandteil des fristgerechten Angebots -> Tatsachengrundlage, Nachforderungsprüfung und Rüge ändern, nicht einfach höhere Note beanspruchen. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen.",
+    "changes": [
+      "BGH X ZB 3/17 jetzt anhand des vollständigen amtlichen PDFs überprüft; Randnummern 39–48 und Hinweise 50–53 mit Anwendung und offener Komplexitätsgrenze in drei Prompts und Fokus-Skill.",
+      "Interne Materialnachforderung von Paragraf 56 Absatz 3 VgV getrennt; Hauptproblem um nachgerechnetes 84,00/86,55/bedingt 92,00-Punkte-Beispiel ergänzt.",
+      "Aktuelle Paragrafen 134, 160, 169 und 173 GWB abgeglichen; keine Zusage fortdauernden Zuschlagsschutzes nach Obsiegen des Auftraggebers.",
+      "Werkstatt differenziert Paragraf 132 GWB statt pauschaler Nachtragsfreigrenze; ungeprüfte historische Entscheidungsliste entfernt.",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-vergaberecht/fachanwalt-vergaberecht-hauptproblem.md",
+    "prompt_sha256": "12a66e3269643bed0147a945ec2987d3d053fe365fdf1ade497755b115b9b0a8",
+    "skill_path": "fachanwalt-vergaberecht/skills/angebotswertung-punktespiegel-rangfolgenkontrolle/SKILL.md",
+    "skill_sha256": "f4350cfee4aa775c5860108759150b24ccadd7773c4201dd0d6ef648dd09c6f7"
+  },
+  "selection": {
+    "positive": [
+      "Rechnen Sie den Preis-Qualitäts-Punktespiegel nach und prüfen Sie die übergangene Vertretungszusage unseres Angebots.",
+      "Wir sind Vergabestelle: Prüfen Sie, ob unser dokumentierter Vergleich der Betriebskonzepte die Noten und Rangfolge trägt."
+    ],
+    "negative": [
+      "Prüfen Sie die Selbstreinigung eines Bieters nach einem Korruptionsfall.",
+      "Dürfen wir einen laufenden Liefervertrag ohne neue Ausschreibung um zusätzliche Mengen erweitern?"
+    ],
+    "target_skill": "angebotswertung-punktespiegel-rangfolgenkontrolle"
+  },
+  "cases": [
+    {
+      "id": "vertretungskonzept-preisformel-rangwechsel",
+      "request": "Heute ist der 14.09.2026. Wir vertreten Bieter A bei einer kommunalen EU-weiten offenen Vergabe von IT-Betriebsleistungen; die Anwendung der VgV und Oberschwelligkeit sind unstreitig. Die veröffentlichten Kriterien sind Preis 60 Punkte nach Formel 60 mal niedrigster Angebotspreis geteilt durch Angebotspreis sowie Betriebskonzept mit Rohnoten 0 bis 5, gewichtet mit 40 mal Rohnote geteilt durch 5. Es wird erst die Gesamtsumme auf zwei Dezimalstellen gerundet. A bietet netto 1000000 EUR, B netto 1100000 EUR; weitere wertbare Angebote gibt es nicht. A erhielt Rohnote 3, B Rohnote 4. In der für beide zugänglich gemachten Wertungsübersicht stehen A mit 84,00 und B mit 86,55 Punkten. Als einziger qualitativer Unterschied wird genannt, A habe keine verbindliche personelle Vertretung zugesagt. Auf Seite 18 des fristgerechten Angebots von A ist jedoch eine benannte gleichqualifizierte Vertretung mit durchgängiger Rufbereitschaft verbindlich zugesagt. Die Anlagenübersicht bestätigt die Abgabe dieser Seite. Weitere Bewertungsdetails des Angebots von B liegen nicht vor. Die Vorabinformation wurde am 11.09.2026 elektronisch abgesandt und nennt den 22.09.2026 als frühesten Zuschlag. A erfuhr erst dadurch den Bewertungsgrund. Es gibt noch keine Rüge, keine Nichtabhilfe und keinen Zuschlag. Erstellen Sie ein Memo mit Nachrechnung, Rangfolgenszenario und Rügeentwurf; versenden Sie nichts.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Originalwertung wird mit A 84,00 und B 86,55 reproduziert; bei nur bedingt unterstellter Rohnote 4 für A werden 92,00 Punkte und ein möglicher Rangwechsel gezeigt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der Angriff wird auf die übersehene Zusage auf Seite 18 gestützt, verlangt belegte Neubewertung und behauptet weder einen zwingenden Vier-Punkte-Anspruch noch den sicheren Zuschlag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Ergebnis behandelt die zehn Kalendertage nach elektronischer Vorabinformation getrennt von der Kenntnisrüge und weist darauf hin, dass die Rüge den Zuschlag nicht selbst sperrt; rechtzeitige Sicherung vor dem angekündigten Zuschlag wird priorisiert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Es werden keine unbekannten Qualitätsmerkmale des Angebots B erfunden und ein Notenmodell wird nicht allein wegen fehlender detaillierter Notendefinition verworfen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "angebotswertung-punktespiegel-rangfolgenkontrolle"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren.",
+    "changes": [
+      "BGH X ZB 3/17 jetzt anhand des vollständigen amtlichen PDFs überprüft; Randnummern 39–48 und Hinweise 50–53 mit Anwendung und offener Komplexitätsgrenze in drei Prompts und Fokus-Skill.",
+      "Interne Materialnachforderung von Paragraf 56 Absatz 3 VgV getrennt; Hauptproblem um nachgerechnetes 84,00/86,55/bedingt 92,00-Punkte-Beispiel ergänzt.",
+      "Aktuelle Paragrafen 134, 160, 169 und 173 GWB abgeglichen; keine Zusage fortdauernden Zuschlagsschutzes nach Obsiegen des Auftraggebers.",
+      "Werkstatt differenziert Paragraf 132 GWB statt pauschaler Nachtragsfreigrenze; ungeprüfte historische Entscheidungsliste entfernt.",
+      "Abgabenachweis gegenüber Arbeitskopie, Eignungsnachweis gegenüber wertungsrelevantem Konzept, Originalrechnung und bedingte Neubewertung, konkrete Abhilfe, Geheimschutz und Ausgangsoption bei Vertragsänderung.",
+      "Die für dieses Gebiet dokumentierten Quellenpassagen vom 30.09.2026 fallbezogen eingearbeitet.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Rüge, Vergabeentscheidung und konkretes Dokument stehen zuerst; zulässiges Notenmodell wird von der begründeten Einzelwertung getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+      "Quellenvertiefung 16.10.2026: EuGH, Urteil vom 22.01.2026, C-812/24"
+    ],
+    "sha256": "0be27a5217d28f86e24b99497b3b0868833e85ccbf359c348dc59471b6be8040",
+    "reviewed_on": "2026-09-30"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-vergaberecht/README.md",
+      "fachanwalt-vergaberecht/fachanwalt-vergaberecht-hauptproblem.md",
+      "fachanwalt-vergaberecht/fachanwalt-vergaberecht-schnellstart.md",
+      "fachanwalt-vergaberecht/fachanwalt-vergaberecht-werkstatt.md",
+      "fachanwalt-vergaberecht/skills/angebotswertung-punktespiegel-rangfolgenkontrolle/SKILL.md",
+      "fachanwalt-vergaberecht/skills/fachanwalt-vergaberecht-inhouse-interkommunal/SKILL.md",
+      "fachanwalt-vergaberecht/skills/inhouse-interkommunal/SKILL.md",
+      "fachanwalt-vergaberecht/skills/juristischer-argumentationskern/SKILL.md",
+      "fachanwalt-vergaberecht/skills/leistungsbeschreibung-neutralitaet-funktional/SKILL.md",
+      "quality/evals/fachanwalt-vergaberecht.json",
+      "fachanwalt-vergaberecht/skills/eignung-referenzen-umsatz-nachunternehmer/SKILL.md"
+    ],
+    "opening_change": "Beanstandete Ausschreibungsanforderung und dokumentierte Zuschlagswertung konkret benannt; Hauptproblem auf Rechen-/Tatsachenfehler gegenüber vertretbarer Bewertung ausgerichtet. Workflow-Ergänzung: Leer: Unterlagenrüge, Wertungsprüfung oder Auftraggeberkorrektur anbieten. Dateien ohne Aufgabe: Kriterienfassungen, Angebot und Wertung still lesen; Rüge-, Nachrechnungs- oder Korrekturziel klären. Klarer Auftrag: bestelltes Dokument unmittelbar bearbeiten; kein automatisches Nachprüfungsverfahren und keine erfundenen Konkurrenzdaten.",
+    "norms": [
+      "Paragrafen 127, 132, 134, 135, 160, 169, 172 und 173 GWB",
+      "Paragrafen 8, 56 und 58 VgV"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Beschluss vom 4. April 2017, X ZB 3/17, Postdienstleistungen, Randnummern 39–48 und Hinweise 50–53",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2017/X_ZB___3-17.pdf?__blob=publicationFile&v=1",
+        "application": "Bei streitigen Konzeptnoten zwischen zulässigem Notenmodell und konkret dokumentierter Bewertung unterscheiden; Angebotszusagen und Vergleichsbegründung abgleichen.",
+        "limit": "Keine eigene Wunschbenotung oder automatische Neuwertung allein wegen fehlender Punktebeschreibung; besondere Komplexität in Randnummer 48 offengelassen, Hinweise zur konkreten Wertung nicht als bereits festgestellter Wertungsfehler darstellen.",
+        "checked_on": "2026-09-23"
+      },
+      {
+        "citation": "EuGH, Beschluss vom 03.02.2026 – C-316/25, Regione Umbria, ECLI:EU:C:2026:135",
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A62025CO0316",
+        "application": "Bloßer entgeltlicher Leistungseinkauf keine öffentliche Zusammenarbeit; tatsächliche gemeinsame Beiträge und Ziele verlangen.",
+        "limit": "Italienisches Kraftfahrzeugsteuerregister; horizontale Kooperation von vertikaler Inhouse-Vergabe trennen.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "EuGH, Urteil vom 16.04.2026 – C-568/24, Sof Medica, ECLI:EU:C:2026:305",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=310678&doclang=EN",
+        "application": "Technische Anforderungen müssen sachlich verhältnismäßig sein; objektive Rechtfertigung nicht zwingend schon bei Bekanntmachung veröffentlichen. Produkttypbindung ohne Gleichwertigkeitszusatz nur eng bei zwangsläufigem Sachbezug.",
+        "limit": "Fehlende Veröffentlichung ist keine materielle Rechtfertigung; keine Befreiung von nationalen Dokumentationspflichten. Nationales Gericht prüft konkrete OP-Räume.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "EuGH, Urteil vom 22.01.2026, C-812/24",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE",
+        "application": "Rn. 39 bis 50: Hundertprozentige Tochter bleibt anderes Unternehmen im Sinne von Artikel 63 Richtlinie 2014/24/EU; kartellrechtlicher Begriff wirtschaftlicher Einheit nicht übertragbar. Rn. 52 bis 60: EEE ist nicht exklusives Nachweismittel; vorhandene Bescheinigungen auf tatsächliche Abdeckung der Eignung und Ausschlussgründe prüfen. Rn. 61 bis 65: Nachreichung kann nach nationalem Recht und unter Gleichbehandlung/Transparenz zulässig sein; Rn. 64 betrifft ursprünglich benannte Tochter und bestehende Tatsachen.",
+        "limit": "Keine allgemeine Nachforderungspflicht und kein bedingungsloser Ergänzungsanspruch; veröffentlichten Nachforderungsausschluss beachten. Keine neue Eignungsleihe als Formularberichtigung zulassen; gegebenenfalls Austauschregel gesondert prüfen. Rn. 59 zu personenidentischer Geschäftsführung deckt nicht alle Ausschlussgründe der Tochter. Urteil zur Richtlinie 2014/24/EU, kein unmittelbarer SektVO-Fall. Paragrafen 47/51 SektVO und Paragraf 142 GWB eigenständig prüfen. Verfügbarkeit der Mittel bleibt gesonderter Prüfungspunkt; Verpflichtungserklärung ist ein möglicher geeigneter Nachweis, nicht zwingend die einzig zulässige Form.",
+        "checked_on": "2026-10-16",
+        "verification_status": "status: Amtliche deutsche Urteilsgründe und genannte Normen gezielt gelesen; read_scope: Relevanter Sachverhalt, Rn. 39 bis 66 und Tenor; keine vollständige Prüfung jeder Sachverhaltspassage behauptet; method: Webtool-Recherche und öffentlicher CURIA-Direktabruf bei technisch unlesbarem Webabruf. VgV 47 direkt abgerufen, übrige genannte Normen im Webtool gelesen.; verified_on: 2026-10-16",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/eu-digital-vergabe.json",
+        "workflow_effect": "Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren."
+      }
+    ],
+    "remaining_limits": [
+      "Amtliches 24-seitiges BGH-PDF vollständig gelesen; Normen der Wertung, Nachforderung und Rechtsschutzfolgen in aktuellen Einzelnorm-Volltexten geprüft.",
+      "Keine umfassende Verifikation von Landes-Unterschwellenrecht, sämtlichen Sektoren-/Konzessionsregeln, Sicherheitsstandards oder EU-Schwellenwertverordnungen; im Prompt bleibt deren fallbezogene Prüfung erforderlich.",
+      "Aktuell abrufbare geänderte GWB-Regeln wurden ausdrücklich zeitabhängig formuliert; für historische Vergabeverfahren Übergangsrecht separat prüfen.",
+      "Desk-/Quellenreview mit Nachrechnung, kein Live-Mandanten- oder Modelltest.",
+      "Workflow-Review 23.09.2026: Paragraf 56 VgV erneut eingesehen; dokumentierte Volltextprüfung von X ZB 3/17 und geänderten GWB-Normen aus der vorhandenen Redaktion erhalten. Keine neue Landes- oder Schwellenwertvollprüfung.",
+      "Zweiter Schnelldurchgang 30.09.2026: ausschließlich die neu dokumentierten Fachpassagen und Entscheidungen; kein Vollaudit aller Skills, kein Live-Modelltest."
+    ],
+    "anchor_context_review": {
+      "date": "2026-10-01",
+      "scope": "anchor_context_review_reused",
+      "files": [
+        "fachanwalt-vergaberecht/fachanwalt-vergaberecht-hauptproblem.md",
+        "fachanwalt-vergaberecht/fachanwalt-vergaberecht-schnellstart.md",
+        "fachanwalt-vergaberecht/fachanwalt-vergaberecht-werkstatt.md",
+        "fachanwalt-vergaberecht/skills/angebotswertung-punktespiegel-rangfolgenkontrolle/SKILL.md",
+        "fachanwalt-vergaberecht/skills/fachanwalt-vergaberecht-inhouse-interkommunal/SKILL.md",
+        "fachanwalt-vergaberecht/skills/inhouse-interkommunal/SKILL.md"
+      ],
+      "result": "Notenmodell und dokumentierte Angebotswertung werden unterschieden. C-316/25 nur mit gelesenem amtlichem Tenor belegt; zwei vom Datumsscan gemeldete Konflikte sind Prüftag 30.09. versus Entscheidungsdatum 03.02.2026, keine falschen Entscheidungsdaten.",
+      "search_2026": "2026-Suche lieferte überwiegend Ergebnislisten; bestehender C-316/25 bleibt auf amtlichen Tenor aus der Vorprüfung beschränkt.",
+      "limits": "Ankerpassagen mit angrenzendem Arbeitsablauf; keine vollständige Neuprüfung aller übrigen Rechtsaussagen, Normen oder Testakten. Altquellendaten bleiben erhalten. Vollständige Einzelabgrenzung im Audit öffentliches Recht."
+    }
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Unterlagenrüge, Wertungsprüfung oder Auftraggeberkorrektur anbieten.",
+      "Dateien ohne Aufgabe: Kriterienfassungen, Angebot und Wertung still lesen; Rüge-, Nachrechnungs- oder Korrekturziel klären.",
+      "Klarer Auftrag: bestelltes Dokument unmittelbar bearbeiten; kein automatisches Nachprüfungsverfahren und keine erfundenen Konkurrenzdaten."
+    ],
+    "continuation": "Seite mit Zusage war nicht Bestandteil des fristgerechten Angebots -> Tatsachengrundlage, Nachforderungsprüfung und Rüge ändern, nicht einfach höhere Note beanspruchen.",
+    "enrichment": "Abgabenachweis gegenüber Arbeitskopie, Eignungsnachweis gegenüber wertungsrelevantem Konzept, Originalrechnung und bedingte Neubewertung, konkrete Abhilfe, Geheimschutz und Ausgangsoption bei Vertragsänderung.",
+    "limits": "desk review; no live client execution"
+  },
+  "fachanwaltschaft_source_review_2026_10_01": {
+    "method": "targeted_official_source_and_prompt_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-vergaberecht.json",
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 16.04.2026 – C-568/24, Sof Medica, ECLI:EU:C:2026:305",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=310678&doclang=EN",
+        "passages": "Rn. 33–64",
+        "retrieval": "Amtlicher englischer CURIA-Volltext, ausgewählte Gründe frisch gelesen",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "EuGH, Beschluss vom 03.02.2026 – C-316/25, Regione Umbria, ECLI:EU:C:2026:135",
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A62025CO0316",
+        "passages": "Rn. 16–24 und Tenor",
+        "retrieval": "Amtlicher italienischer EUR-Lex-Volltext, Gründe und Tenor frisch gelesen; zuvor nur amtlicher Tenor geprüft",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "focus_scope": "Hauptproblem Punktespiegel/Notenvergleich bleibt bei X ZB 3/17. Technische Mindestanforderungen und Direktvergabe tragen keine Benotungskorrektur; neue Anker deshalb in Werkstatt/Mini und Fachskills.",
+    "new_model_tests": false
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "fachanwalt-vergaberecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Formulieren Sie überprüfbare Anforderungen an System, Tests, Dokumentation und Änderungen. Verlangen Sie kein beliebiges ISO-Zertifikat als Ersatz für auftragsbezogene gesetzliche Nachweise.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/eu-digital-vergabe.json"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 22.01.2026, C-812/24",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE",
+        "application": "Rn. 39 bis 50: Hundertprozentige Tochter bleibt anderes Unternehmen im Sinne von Artikel 63 Richtlinie 2014/24/EU; kartellrechtlicher Begriff wirtschaftlicher Einheit nicht übertragbar. Rn. 52 bis 60: EEE ist nicht exklusives Nachweismittel; vorhandene Bescheinigungen auf tatsächliche Abdeckung der Eignung und Ausschlussgründe prüfen. Rn. 61 bis 65: Nachreichung kann nach nationalem Recht und unter Gleichbehandlung/Transparenz zulässig sein; Rn. 64 betrifft ursprünglich benannte Tochter und bestehende Tatsachen.",
+        "limit": "Keine allgemeine Nachforderungspflicht und kein bedingungsloser Ergänzungsanspruch; veröffentlichten Nachforderungsausschluss beachten. Keine neue Eignungsleihe als Formularberichtigung zulassen; gegebenenfalls Austauschregel gesondert prüfen. Rn. 59 zu personenidentischer Geschäftsführung deckt nicht alle Ausschlussgründe der Tochter. Urteil zur Richtlinie 2014/24/EU, kein unmittelbarer SektVO-Fall. Paragrafen 47/51 SektVO und Paragraf 142 GWB eigenständig prüfen. Verfügbarkeit der Mittel bleibt gesonderter Prüfungspunkt; Verpflichtungserklärung ist ein möglicher geeigneter Nachweis, nicht zwingend die einzig zulässige Form.",
+        "checked_on": "2026-10-16",
+        "verification_status": "status: Amtliche deutsche Urteilsgründe und genannte Normen gezielt gelesen; read_scope: Relevanter Sachverhalt, Rn. 39 bis 66 und Tenor; keine vollständige Prüfung jeder Sachverhaltspassage behauptet; method: Webtool-Recherche und öffentlicher CURIA-Direktabruf bei technisch unlesbarem Webabruf. VgV 47 direkt abgerufen, übrige genannte Normen im Webtool gelesen.; verified_on: 2026-10-16",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/eu-digital-vergabe.json",
+        "workflow_effect": "Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren."
+      }
+    ],
+    "files": [
+      {
+        "path": "fachanwalt-vergaberecht/fachanwalt-vergaberecht-schnellstart.md",
+        "sha256": "1e8dc447b0902688bf9674b72ec0ca3350ae39029b69a071a94fc3c1af848e54"
+      },
+      {
+        "path": "fachanwalt-vergaberecht/fachanwalt-vergaberecht-werkstatt.md",
+        "sha256": "0be27a5217d28f86e24b99497b3b0868833e85ccbf359c348dc59471b6be8040"
+      },
+      {
+        "path": "fachanwalt-vergaberecht/skills/eignung-referenzen-umsatz-nachunternehmer/SKILL.md",
+        "sha256": "41e8aad1bf1fb70eaec30ea398aa0a8f56b1a775e328131e39350c7f95331d80"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

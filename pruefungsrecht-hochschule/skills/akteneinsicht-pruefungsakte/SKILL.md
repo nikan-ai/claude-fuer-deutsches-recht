@@ -1,6 +1,6 @@
 ---
 name: akteneinsicht-pruefungsakte
-description: "Wenn es um Akteneinsicht Prüfungsakte in Prüfungsrecht an Hochschulen und Universitäten geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für Akteneinsicht Prüfungsakte: ordnet Akte, Belege und Lücken; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Akteneinsicht Prüfungsakte
@@ -71,22 +71,3 @@ Der Skill arbeitet landes- und satzungsbezogen: Er fragt zuerst nach Bundesland,
 ## Ergebnisformat
 
 Erzeuge bevorzugt: Akteneinsichtsantrag. Am Ende immer drei Zeilen: **Frist**, **fehlende Quelle**, **nächster sicherer Schritt**.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- Art. 12 GG
-- Art. 3 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: output-versand
-description: "Wenn es um Output und Versandsteuerung in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Output und Versandsteuerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Output und Versandsteuerung
@@ -10,9 +10,6 @@ description: "Wenn es um Output und Versandsteuerung in Kanzlei-Allgemein geht: 
 2. Ist der Entwurf vom Anwalt freigegeben (persönliche Freigabe Pflicht bei beA-Versand)?
 3. Wurde der Versand-Vor-Check bereits durchgefuehrt (Dokument, Unterschrift, Adressat, Anlagen)?
 4. Ist ein fristgebundenes Dokument dabei, das sofort nach Versand ins Fristenbuch muss?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 130a ZPO — Elektronisches Dokument: Anforderungen an Inhalt und Uebermittlungsweg
@@ -86,3 +83,5 @@ Messenger nur für geeignete Inhalte nutzen. Bei Fristen, vertraulichen Dokument
 ## Ausgabe
 
 `assets/templates/output-versandprotokoll.md` verwenden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

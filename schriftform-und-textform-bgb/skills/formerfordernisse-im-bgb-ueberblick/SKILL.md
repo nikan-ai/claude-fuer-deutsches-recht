@@ -1,6 +1,6 @@
 ---
 name: formerfordernisse-im-bgb-ueberblick
-description: "Wenn es um Formerfordernisse im BGB — Überblick in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Formerfordernisse im BGB — Überblick: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Formerfordernisse im BGB — Überblick
@@ -54,7 +54,6 @@ Heilung trotz Formmangels ist nur in gesetzlich bestimmten Ausnahmefällen mögl
 - **Grundstückskauf** Paragraf 311b Abs. 1 S. 2 BGB: Heilung durch Auflassung und Eintragung
 - **GmbH-Anteilsübertragung** Paragraf 15 Abs. 4 GmbHG: analog Heilung durch vollständige Erfüllung (streitig)
 - **Bürgschaft** Paragraf 766 S. 3 BGB: Heilung durch Hauptschuldnertilgung (str.)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Schritt 4 — Paragraf 242 BGB Treuwidrigkeitseinwand
 
@@ -86,6 +85,6 @@ Die Berufung auf einen Formmangel kann nach Paragraf 242 BGB treuwidrig sein, we
 
 ## Fallstricke
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Digitale Konvergenz**: WhatsApp und E-Mail erfüllen Textform (Paragraf 126b BGB), aber nicht Schriftform (Paragraf 126 BGB). Wer irrtümlich Textform für ausreichend hält, riskiert Nichtigkeit bei gesetzlichem Schriftformerfordernis.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

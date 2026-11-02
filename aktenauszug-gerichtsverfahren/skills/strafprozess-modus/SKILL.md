@@ -1,6 +1,6 @@
 ---
 name: strafprozess-modus
-description: "Wenn es um Strafprozess-Modus (StPO) in aktenauszug-gerichtsverfahren geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafprozess-Modus (StPO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Strafprozess-Modus (StPO)
@@ -34,10 +34,6 @@ Aktenauszug für StPO-Verfahren erstellen: Anklage Hauptverhandlung Revision §�
 - §§ 333-358 StPO — Revision; § 341 StPO — Revisionsfrist 1 Woche; § 345 — Begründungsfrist 1 Monat
 - §§ 314-332 StPO — Berufung (Landgericht als Berufungsgericht)
 - §§ 112-130 StPO — Untersuchungshaft (Haftgründe, Haftprüfung, Haftverschonung)
-
-## Rechtsprechung (BGH — Leitsätze Strafprozessrecht)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Typischer Verfahrensablauf
 
@@ -102,3 +98,5 @@ Gesondert darzustellen:
 - Keine Schuldvermutung im Aktenauszug
 - Freispruch und Verurteilung neutral darstellen
 - Bei laufender Untersuchungshaft: Haftverlängerungsbeschlüsse und Haftdauer hervorheben
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

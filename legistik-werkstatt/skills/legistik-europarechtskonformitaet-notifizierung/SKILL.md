@@ -1,6 +1,6 @@
 ---
 name: legistik-europarechtskonformitaet-notifizierung
-description: "Wenn es um Europarechtskonformität in Legistik-Werkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Legistik Europarechtskonformitaet Notifizierung; Arbeitsfeld: Legistik-Werkstatt."
+description: "Für Europarechtskonformität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Legistik-Werkstatt. Route: legistik-europarechtskonformitaet-notifizierung."
 ---
 
 # Europarechtskonformität
@@ -42,7 +42,6 @@ EuGH ist im Maßstab oft strenger als BVerfG.
 
 ## Prüfstation 5 - Notifizierungspflicht 2015/1535
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Prüfen: Faellt das Vorhaben unter:
 - "technische Vorschrift" iSd Art. 1 Nr. 11 RL 2015/1535
@@ -57,10 +56,6 @@ Auch wenn die EU zuständig waere - hat sie tatsächlich Recht gesetzt? Wenn nic
 ## Prüfstation 7 - Vorlagepflicht Art. 267 AEUV
 
 Anwendung im Vollzug: Wenn das nationale Gesetz zu EU-Recht Auslegungszweifel weckt, wird das Tatgericht ggf. den EuGH anrufen müssen.
-
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -89,3 +84,6 @@ Prüfgutachten ein bis drei Seiten:
 ## Anschluss
 
 `goldplating-vermeiden`, `verfassungsmaessigkeit-quercheck`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie bestehende unionsrechtliche Anforderungen von zusätzlichem nationalem Regelungsbedarf. Eine technische Norm oder Kommissionsleitlinie darf nicht ohne Prüfung ihres Rechtsstatus als gesetzliche Ermächtigung behandelt werden. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

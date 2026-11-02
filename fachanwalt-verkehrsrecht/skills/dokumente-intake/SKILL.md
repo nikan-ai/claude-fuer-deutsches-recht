@@ -1,6 +1,6 @@
 ---
 name: dokumente-intake
-description: "Wenn es um Dokumentenintake in Fachanwalt Verkehrsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verkehrsrecht."
 ---
 
 # Dokumentenintake
@@ -18,8 +18,6 @@ Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste 
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
 ## Einsatzlage
 
 Dieser Dokumenten-Intake für **Fachanwalt Verkehrsrecht** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
@@ -35,9 +33,9 @@ Dieser Dokumenten-Intake für **Fachanwalt Verkehrsrecht** ordnet Anlagen, Regis
 - `fahrerlaubnis-entzug-paragraf-3-stvg` — Fahrerlaubnis Entzug Paragraf 3 Stvg
 - `fahrerlaubnis-compliance-dokumentation-und-akte` — Fahrerlaubnis Kanzlei Personen
 - `haftpflicht-paragraf-115-vvg` — Haftpflicht Paragraf 115 VVG
-- `kaskoversicherung-paragraf-81-vvg-bgh-iv-zr-25-21` — Kaskoversicherung Paragraf 81 VVG BGH IV ZR 25 21
+- `kaskoversicherung-unfallort-aufklaerungsobliegenheit` — Kaskoleistung und Aufklärungsobliegenheit prüfen
 - `kfz-handel-paragraf-434-bgb` — KFZ Handel Paragraf 434 BGB
-- `mandat-triage-sportrecht` — Mandat Triage Schriftsatzkern Substantiierung
+- `mandat-triage-verkehrsrecht` — Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen
 - `mpu-vorbereitung` — MPU Vorbereitung Orientierung
 - `anschluss-routing` — Anschluss Routing
 - `einstieg-routing` — Einstieg Routing

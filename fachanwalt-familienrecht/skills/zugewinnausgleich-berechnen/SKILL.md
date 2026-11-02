@@ -1,6 +1,6 @@
 ---
 name: zugewinnausgleich-berechnen
-description: "Wenn es um Zugewinnausgleich Berechnen in Fachanwalt Familienrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zugewinnausgleich Berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zugewinnausgleich nach Paragrafen 1372-1390 BGB berechnen: Trennung oder Scheidung erfordert Aufstellung von Anfangs- und Endvermögen
@@ -21,7 +21,6 @@ description: "Wenn es um Zugewinnausgleich Berechnen in Fachanwalt Familienrecht
 ## Fachlicher Kern — Familienrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Zugewinnausgleich berechnen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** BGB Paragrafen 1360a, 1361, 1565 ff., 1570 ff., 1601 ff., 1626 ff., 1684, 1687, 1687a; FamFG Paragrafen 49 ff., 76, 86 ff., 112 ff.; VersAusglG Paragrafen 1, 2, 5, 10 ff., 27, 51; GewSchG.
-- **Verifizierte Anker:** BGH, Beschluss vom 02.04.2025 - XII ZB 576/24 (Abänderung Versorgungsausgleich nach Tod, Paragraf 51 VersAusglG, Paragraf 88 Abs. 2 SGB VI); BGH, Beschluss vom 18.10.2023 - XII ZB 197/23 (Abänderung nur bei Veränderung, nicht Fehlerkorrektur der Ausgangsentscheidung).
 - **Arbeitsmodus:** Zuerst Verfahrenstyp und Eilbedarf klären: Sorge/Umgang, Unterhalt, Zugewinn, Versorgungsausgleich, Gewaltschutz; danach Kindesschutz, Titel, Fristen, Auskünfte, Beleglage und Vollstreckbarkeit.
 - **Outputpflicht:** Eilvermerk, Unterhalts-/Zugewinntabelle, Antragsentwurf, Jugendamts-/Gegnerbrief, Vergleichsvorschlag oder Mandantenfahrplan.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -30,10 +29,6 @@ description: "Wenn es um Zugewinnausgleich Berechnen in Fachanwalt Familienrecht
 - **Normen-/Quellenanker:** BGB Familienrecht, FamFG, VersAusglG, Unterhaltsrecht, Zugewinn, Gewaltschutz, Kindschaft, internationale Verordnungen und Vollstreckung.
 - **Entscheidende Weiche:** Beteiligte, Kind/Unterhalt/Vermögen/Versorgung, Frist, Auskunft, Beleg, Eilbedarf und familiengerichtliche Verfahrensart trennen.
 - **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Kaltstart-Rückfragen
 
@@ -49,7 +44,6 @@ description: "Wenn es um Zugewinnausgleich Berechnen in Fachanwalt Familienrecht
 - Beendigung durch Tod, Scheidung oder Vereinbarung; Ausgleichsforderung als Geldanspruch (Paragraf 1378 Abs. 1 BGB).
 - Anfangsvermögen (Paragraf 1374 BGB) = Aktiva − Passiva bei Eheschließung; Erbschaften, Schenkungen, Ausstattung nach Paragraf 1374 Abs. 2 BGB werden hinzugerechnet (privilegierter Erwerb).
 - Endvermögen (Paragraf 1375 BGB) = Aktiva − Passiva am Stichtag Paragraf 1384 BGB (Rechtshängigkeit des Scheidungsantrags). Illoyale Vermögensminderungen werden hinzugerechnet (Paragraf 1375 Abs. 2 BGB).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Zugewinn = Endvermögen − Anfangsvermögen (nicht negativ — Paragraf 1373 BGB).
 - Ausgleichsforderung = (Zugewinn des Höhergewinnenden − Zugewinn des Wenigergewinnenden) ÷ 2 (Paragraf 1378 Abs. 1 BGB).
 - Begrenzung: Ausgleichsforderung wird durch Vermögen des Schuldners am Stichtag begrenzt (Paragraf 1378 Abs. 2 BGB).
@@ -111,3 +105,5 @@ Mit kollegialen Gruessen
 - Bei Auslandsvermögen Auskunftsanspruch erstreckt sich auch auf ausländisches Vermögen.
 - Bei Unternehmenswerten Sachverständigengutachten zur Bewertung notwendig — Kosten regelmäßig vorzustrecken.
 - Anschluss: Skill `fachanwalt-familienrecht-scheidungsantrag-stellen` bei Verbund nach Paragraf 137 FamFG.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: zeuge-vorbereitung
-description: "Wenn es um Zeugenvernehmung-Vorbereitung in Prozessrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zeugenvernehmung-Vorbereitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Zeugenvernehmung-Vorbereitung
@@ -69,21 +69,12 @@ Vorbereitung auf eine Zeugenvernehmung im deutschen Zivil- oder Strafverfahren. 
 Verbindlich: `../references/zitierweise.md`.
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Risiken / typische Fehler
 
 - **Zeugencoaching verboten:** Der Anwalt darf den Zeugen nicht zu einer bestimmten Aussage anleiten; nur Erläuterung des Ablaufs und Erinnerungshilfe auf Basis vorhandener Dokumente zulässig (vgl. Paragraf 1 BORA).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Gegnerischer Zeuge – keine Kontaktaufnahme:** Kontaktaufnahme mit gegnerischem Zeugen außerhalb des Verfahrens ist berufsrechtlich problematisch (Paragraf 12 BORA).
 - **Vereidigung:** Paragraf 391 ZPO – Gericht entscheidet; falsche Zeugenaussage ist strafbar (Paragraf 153 StGB); Zeuge vor Vernehmung hierüber belehren.
 
-<!-- AUDIT 27.05.2026
-einziger Treffer ist XI ZR 224/09 (06.07.2010, XI. Zivilsenat, Bankrecht/Anscheinsbeweis
-Kreditkarte) - falscher Senat, falsches Thema. Behauptetes Thema "Freie Beweiswuerdigung
-bei Zeugenaussagen Paragraf 286 ZPO" ist eine Halluzination. Referenz geloescht.
-Keine Ersatzquelle ergaenzt.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

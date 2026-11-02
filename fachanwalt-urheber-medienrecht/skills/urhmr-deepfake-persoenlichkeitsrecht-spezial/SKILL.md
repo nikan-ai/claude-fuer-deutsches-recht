@@ -1,6 +1,6 @@
 ---
 name: urhmr-deepfake-persoenlichkeitsrecht-spezial
-description: "Wenn es um Urhmr Deepfake Persoenlichkeitsrecht Spezial in Fachanwalt Urheber Medienrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Urhmr Deepfake Persönlichkeitsrecht Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Spezialfall Deepfake und allgemeines Persoenlichkeitsrecht: Bildnisrechte §§ 22 ff
@@ -53,3 +53,4 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie technische Markierung, Offenlegung gegenüber dem Publikum und Rechte am verwendeten Inhalt. Eine Kennzeichnung heilt keine fehlende Nutzungsbefugnis. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

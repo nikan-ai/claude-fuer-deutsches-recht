@@ -1,6 +1,6 @@
 ---
 name: aktenzeichen-schriftsatz-brief-und-memo-bausteine
-description: "Wenn es um Aktenzeichen: Schriftsatz-, Brief- und Memo-Bausteine in Zitierweise deutsches Recht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Aktenzeichen: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Zitierweise deutsches Recht. Route: aktenzeichen-schriftsatz-brief-und-memo-bausteine."
 ---
 
 # Aktenzeichen: Schriftsatz-, Brief- und Memo-Bausteine
@@ -53,25 +53,3 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Verbotene Routine:** Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen. Solche Angaben sind nur zulässig, wenn die Nutzerin/der Nutzer den Text oder lizenzierten Live-Zugriff bereitstellt; dann aber nicht als frei verifizierte Quelle ausgeben.
 - **Quellenhierarchie:** Amtliche Gerichtsseiten zuerst, danach rechtsprechung-im-internet.de, dejure/openJur/landesrechtliche Datenbanken als freie Kontrollquellen. Presseberichte und Kanzleiblogs nur als Suchhinweis, nicht als tragender Beleg.
 - **Output-Pflicht:** Bei jeder problematischen Fundstelle eine Bereinigungsmatrix liefern: Originalzitat, Problem, verifizierbarer Ersatz, tragende Aussage, Unsicherheitsvermerk.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 51 UrhG
-- § 117 VwGO
-- § 1 GVG
-- § 63 UrhG
-- § 97 UrhG
-- § 31 BVerfGG
-- § 72 ArbGG
-- § 90 ArbGG
-- § 160 SGG
-- § 163 SGG
-- § 32 KWG
-- § 132 GVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: mandatsabbruch-empfehlung-komplexe-faelle
-description: "Wenn es um Mandatsabbruch-Empfehlung bei komplexen europäischer Technikregulierungsrahmen-Fällen in europäischem Technikregulierungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Mandatsabbruch-Empfehlung bei komplexen europäischer Technikregulierungsrahmen-Fällen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandatsabbruch-Empfehlung bei komplexen KI-VO-Fällen
@@ -31,7 +31,7 @@ Wenn das System für biometrische Identifizierung, Strafverfolgung, Justiz, krit
 
 ### Indikator 3 — GPAI-Modelle mit systemischem Risiko
 
-Wenn das System ein General-Purpose-KI-Modell mit einer Trainingsrechenleistung von mehr als 10e25 FLOP ist oder sein könnte, gelten besondere Pflichten nach Art. 55 KI-VO, deren Ausgestaltung noch durch Leitlinien und Codes of Practice konkretisiert wird.
+Wenn das System ein General-Purpose-KI-Modell mit einer Trainingsrechenleistung von mehr als 10^25 Trainings-Gleitkommaoperationen ist oder sein könnte, gelten besondere Pflichten nach Art. 55 KI-VO, deren Ausgestaltung noch durch Leitlinien und Codes of Practice konkretisiert wird.
 
 **Fachrichtung:** Fachanwalt IT-Recht / Urheberrecht (Trainingsdaten)
 
@@ -75,15 +75,12 @@ Die Empfehlung eines Fachanwalts schließt die weitere Nutzung dieses Workflows 
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
-- Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
+- Art. 99 KI-VO — den konkreten Verstoß und die jeweils einschlägige Sanktionsstufe prüfen; nicht den Artikel-5-Höchstsatz auf alle Pflichten übertragen
 
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
@@ -99,7 +96,7 @@ PRUEFERGEBNIS — MANDATSABBRUCH EMPFEHLUNG KOMPLEXE FAELLE
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
 [AKTENZEICHEN]
 
-Gepruefte Norm(en): [Art. 9 Rn. 1]
+Gepruefte Norm(en): [Artikel 9, Absatz/Satz/Buchstabe und amtliche Fassung]
 
 Ergebnis:
 [ ] Anforderung erfuellt
@@ -120,3 +117,4 @@ Geprueft: [NAME], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: rechtsabteilung-transfer-pricing-ip
-description: "Wenn es um Rechtsabteilung: Transfer Pricing bei IP- und Softwarelizenzen in Steuerrecht – Steuerberater und Anwälte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. Auswahlstichwort: Rechtsabteilung Transfer Pricing Ip; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Rechtsabteilung: Transfer Pricing bei IP- und Softwarelizenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: rechtsabteilung-transfer-pricing-ip."
 ---
 
 # Rechtsabteilung: Transfer Pricing bei IP- und Softwarelizenzen
@@ -20,7 +20,7 @@ description: "Wenn es um Rechtsabteilung: Transfer Pricing bei IP- und Softwarel
 
 ## Norm- und Rechtsprechungsanker
 
-AO § 1 AStG; OECD-Verrechnungspreise; Lizenzschranke live prüfen
+§ 1 AStG; OECD-Verrechnungspreise. Die Lizenzschranke nach § 4j EStG a.F. nur für offene Altjahre bis VZ 2024 prüfen; ab VZ 2025 ist sie nicht mehr anwendbar (§ 52 Abs. 8c Satz 3 EStG). Vgl. [Quellen und zeitliche Abgrenzung](../../references/lizenzzahlungen-software.md).
 
 ## Sofortprüfung
 

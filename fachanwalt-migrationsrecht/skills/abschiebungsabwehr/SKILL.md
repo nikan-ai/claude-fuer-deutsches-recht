@@ -1,6 +1,6 @@
 ---
 name: abschiebungsabwehr
-description: "Wenn es um Abschiebung abwehren — Duldung Paragraf 60a AufenthG Abschiebungsverbote Paragraf 60 Abs in Fachanwalt Migrationsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Abschiebung abwehren — Duldung Paragraf 60a AufenthG Abschiebungsverbote Paragraf 60 Abs: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Abschiebung abwehren — Duldung § 60a AufenthG Abschiebungsverbote § 60 Abs
@@ -34,6 +34,7 @@ description: "Wenn es um Abschiebung abwehren — Duldung Paragraf 60a AufenthG 
 - Reiseunfähigkeit als rechtliches Hindernis § 60a Abs. 2c AufenthG — qualifiziertes ärztliches Attest.
 - Eilrechtsschutz: § 80 Abs. 5 VwGO bei vollziehbarem Verwaltungsakt; § 123 VwGO bei Anspruch auf Duldung.
 - Asylfolgeantrag § 71 AsylG bei neuen Beweismitteln/Wiederaufgreifensgründen § 51 VwVfG.
+- **Reichweite der Abschiebungsandrohung:** BVerwG, Urteil vom 13.12.2023 - 1 C 34.22. Eine negative Staatenbezeichnung nach Paragraf 59 Absatz 3 Satz 2 oder Paragraf 60 Absatz 10 Satz 2 AufenthG kann nach der Entscheidung überwiegend nicht isoliert fortbestehen, wenn die Abschiebungsandrohung im Übrigen aufgehoben wird. Der Leitsatz bezeichnet diese Aussage ausdrücklich als obiter dictum; das im Schriftsatz offenlegen.
 - **Dublin-III:** EuGH, Urt. v. 05.03.2026 — C-458/24 (Daraa) — Zuständigkeit geht nach Ablauf 6-Monatsfrist (Art. 29 Abs. 2 Dublin-III-VO) auf ersuchenden Mitgliedstaat über, wenn Überstellung an den primär zuständigen Staat tatsächlich nicht erfolgt; einseitige Erklärung Italiens, keine Dublin-Rückübernahmen mehr durchzuführen, bewirkt allein keinen Zuständigkeitswechsel. Verifikation: [curia.europa.eu](https://curia.europa.eu/) zum Az. C-458/24.
 - Weitere Rechtsprechung im Mandat live verifizieren — keine Aktenzeichen aus Modellwissen.
 
@@ -104,9 +105,7 @@ Mit freundlichen Gruessen
 
 ## Vertiefung: Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette Abschiebungsabwehr
 
@@ -163,3 +162,5 @@ Anlagen K1 bis K[X].
 [KANZLEI], [ORT], [DATUM]
 [RA-NAME]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: dsb-bestellungspflicht-pruefung
-description: "Wenn es um DSB-Bestellungspflicht und -Anforderungen in Datenschutzrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für DSB-Bestellungspflicht und -Anforderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # DSB-Bestellungspflicht und -Anforderungen
@@ -139,7 +139,6 @@ description: "Wenn es um DSB-Bestellungspflicht und -Anforderungen in Datenschut
 
 #### Geschäftsführer / Vorstand
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - ErwGr 97 DSGVO zur Unabhängigkeits-Anforderung
 - Strikte Trennung erforderlich
 
@@ -312,14 +311,9 @@ e) **Anlaufstelle Aufsichtsbehörde** für Fragen Beratung
 
 - DSGVO Art. 37 38 39 83; ErwGr 97 DSGVO
 - BDSG §§ 5 6 38
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BfDI Praxis-Empfehlungen
 - DSK Kurzpapier
 - GDD und BvD Standards
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 
@@ -351,3 +345,5 @@ Qualifikation ausreichend: ja / nein / unklar
 
 Empfehlung: DSB bestellen (bis [FRIST]) / DSB wechseln / kein Handlungsbedarf
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

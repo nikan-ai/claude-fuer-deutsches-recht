@@ -1,104 +1,132 @@
 # Schnellstart
 
-Diese Anleitung führt in 5 Minuten zur ersten produktiven Nutzung der Plugins in Claude Code oder Claude Desktop.
+[Startseite und fünf Verzeichnisse](./README.md#alle-vollständigen-listen-von-a-bis-z) · [Plugin-Katalog](./README.md#was-ist-drin) · [Downloads](./ASSET_INDEX.md) · [Testakten](./testakten/README.md)
 
-## 1. Voraussetzungen
+Diese Anleitung führt ohne Umweg zum ersten verwertbaren Arbeitsprodukt. Für einen einzelnen Vorgang genügt meistens ein Plugin oder sogar nur dessen Schnellstart-Markdown; der gesamte Marketplace ist nur sinnvoll, wenn viele Rechtsgebiete dauerhaft gebraucht werden.
 
-- Claude Code ≥ 1.0 oder Claude Desktop ≥ 0.7.
-- Optional: ein lokaler Mandats-/Aktenordner.
-- Optional: Zugang zu amtlichen oder frei zugänglichen Quellen; lizenzierte Datenbanken nur bei vorhandenem Zugang für aktuelle Fundstellen.
+## 1. Den passenden Weg wählen
 
-## 2. Installation
+| Bedarf | Weg | Zeit bis zum Start |
+| --- | --- | --- |
+| Ein Rechtsgebiet, dauerhaft nutzbar | Einzel-ZIP über die Plugin-README oder den [Download-Index](./ASSET_INDEX.md) wählen | wenige Minuten |
+| Viele Rechtsgebiete in einer Organisation | den für die Anwendung vorgesehenen Marketplace-Import verwenden, siehe Abschnitt 4 | einmalige Einrichtung |
+| Sofort arbeiten, nichts installieren | Schnellstart-Markdown aus der README des gewünschten Plugins laden | sofort |
+| Umfangreicher oder mehrstufiger Vorgang | Werkstatt-Markdown des gewünschten Plugins laden | sofort |
 
-### Option A – Marketplace direkt aus GitHub
+Der [Plugin-Katalog](./README.md#was-ist-drin) führt zu jeder Plugin-README. Dort stehen der Plugin-Download, die vorgesehenen eigenständigen Prompts, der Einstieg und gegebenenfalls passende Testakten. [beA-Versand](./bea-versand/README.md) hat bewusst nur die Werkstatt, keinen separaten Mini-Prompt.
+
+Die folgenden ZIP-Schritte gelten für Cowork. Für ChatGPT gelten die [gesonderten Importwege](./README.md#chatgpt-und-die-chatgpt-app). Die Sammelarchive sind ein festgehaltener Veröffentlichungsstand; später ergänzte oder überarbeitete Einzelpakete können in eigenen Releases liegen. Deshalb den Download des konkreten Plugins wählen, nicht auf der allgemeinen Release-Seite nach einem fehlenden ZIP suchen.
+
+## 2. Sofort ohne Installation arbeiten
+
+1. Im [Plugin-Katalog](./README.md#was-ist-drin) das Rechtsgebiet öffnen.
+2. Oben in der Plugin-README den kompakten Schnellstart als Markdown laden; ist keiner vorgesehen, die Werkstatt wählen.
+3. Die Markdown-Datei zusammen mit dem Arbeitsordner oder den relevanten Unterlagen öffnen.
+4. Diesen Startsatz verwenden:
+
+> Nutze die zugänglichen Unterlagen im ausgewählten Ordner und beginne mit meinem konkreten Auftrag. Frage bekannte Angaben nicht erneut ab. Ist noch kein Bearbeitungsziel genannt oder erkennbar, biete mir anhand der Unterlagen zwei passende nächste Schritte zur Auswahl an. Kein ungefragter Ordnerbericht. Fehlende Belege benennen und den Entwurf nach meiner Antwort fortführen.
+
+Für einen Folgewunsch genügt die gewünschte Änderung, etwa „Rechne zusätzlich die Gegenvariante“, „Formuliere daraus die Klage“ oder „Kürze den Mandantenbrief“. Der bereits erarbeitete Aktenstand soll fortgeführt und nicht neu abgefragt werden.
+
+## 3. Ein einzelnes Plugin installieren
+
+1. Das Plugin im [Download-Index](./ASSET_INDEX.md) oder im [Plugin-Katalog](./README.md#was-ist-drin) öffnen.
+2. Das gewünschte `<plugin>.zip` laden, beispielsweise `liquiditaetsplanung.zip`.
+3. In der Anwendung **Customize → Plugins** öffnen und das eigene Plugin-ZIP hochladen. In Cowork zuerst den Cowork-Bereich öffnen. Die Bezeichnung des Upload-Schalters kann je nach Oberfläche leicht abweichen.
+4. Eine neue Aufgabe öffnen. Den passenden Skill über `/` oder `+` auswählen oder den Auftrag unmittelbar mit dem Arbeitsordner stellen.
+
+Nicht das Repository-ZIP aus **Code → Download ZIP** verwenden. Das installierbare Einzel-ZIP enthält `.claude-plugin/plugin.json` und `skills/` unmittelbar auf seiner Wurzelebene.
+
+## 4. Den Marketplace einbinden
+
+In Cowork steht der organisationsweite Marketplace Team- und Enterprise-Organisationen zur Verfügung. Cowork und Skills müssen freigeschaltet sein; die Einrichtung erfolgt durch einen Owner unter **Organization settings → Plugins & skills → Marketplaces**. Die folgenden Spiegelungsregeln betreffen diesen Importweg, nicht den ChatGPT-Workspace-Import.
+
+Für die GitHub-Synchronisierung muss das verbundene Repository derzeit **privat oder intern** sein. Das öffentliche Original kann daher nicht unmittelbar als Organisations-Marketplace verbunden werden. Für den vollständigen Katalog wird sein Inhalt in ein privates oder internes Spiegelrepository übernommen; dort bleibt die relative Struktur aus [`marketplace.json`](./.claude-plugin/marketplace.json) unverändert. Danach den Dialog **Sync from GitHub** öffnen, das Spiegelrepository im Format `owner/repo` angeben und den ersten Sync abwarten.
+
+Der manuelle Organisationsweg lädt einzelne Plugin-ZIPs hoch, nicht `marketplace.json`. Aktuelle Größen- und Mengenlimits sowie Hinweise zur automatischen Aktualisierung stehen zentral in [Installation in einfach, Abschnitt 4](./INSTALLATION_EINFACH.md#4-marketplace-für-eine-organisation). Nach jedem Update den erfolgreichen Sync und die angezeigte Version prüfen; bei Bedarf **Update** in der Marketplace-Verwaltung auslösen.
+
+Im zugehörigen Kommandozeilen-Client kann das öffentliche Repository unmittelbar als Marketplace hinzugefügt werden:
 
 ```text
 /plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
-/plugin install arbeitsrecht@klotzkette-german-legal-skills
-/plugin install vertragsrecht@klotzkette-german-legal-skills
-/plugin install datenschutzrecht@klotzkette-german-legal-skills
+/plugin install <plugin-name>@klotzkette-german-legal-skills
 ```
 
-### Option B – Lokal aus Klon
+Der erste Repository-Sync ist deutlich größer als die Installation eines einzelnen Plugin-ZIPs. Bei nur einem Rechtsgebiet ist deshalb das Einzel-ZIP schneller.
 
-```bash
-git clone https://github.com/Klotzkette/claude-fuer-deutsches-recht.git
-cd claude-fuer-deutsches-recht
-claude
-```
+Im ChatGPT-Workspace importiert ein Administrator das öffentliche Repository unter `Admin > Plugins > Add > Import marketplace`; das Pfadfeld bleibt leer. Der erste Import eines großen Repositorys kann laut [Herstelleranleitung](https://learn.chatgpt.com/docs/enterprise/plugin-management) bis zu einer Stunde dauern. Diese Dauer und die dortige Aktualisierungsfunktion sind nicht mit der Cowork-Synchronisierung gleichzusetzen. Einzelheiten und weitere Wege stehen im [Haupt-README](./README.md#chatgpt-und-die-chatgpt-app).
 
-Danach im Claude-Code-Prompt:
+Aktuelle Oberflächen- und Planvorgaben: [Plugins verwenden](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), [Organisations-Marketplaces verwalten](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization) und [Skills verwenden](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
-```text
-/plugin marketplace add .
-/plugin install arbeitsrecht@klotzkette-german-legal-skills
-```
+## 5. Was der erste Lauf leisten soll
 
-### Option C – Einzelnes Plugin direkt
-
-```text
-/plugin install ./prozessrecht
-```
-
-## 3. Mandatsordner anlegen
-
-Empfohlene Struktur (siehe Skill `mandats-arbeitsbereich` in jedem Plugin):
-
-```
-~/Mandate/
-└── 2026-0142_Mueller_Kuendigung/
-    ├── 01_korrespondenz/
-    ├── 02_schriftsaetze/
-    ├── 03_urkunden/
-    ├── 04_recherche/
-    ├── 05_fristen/
-    └── mandat.yaml
-```
-
-## 4. Erste Tests
-
-### Arbeitsrecht – Kündigungsschutzklage
-
-```
-Lade Skill kuendigungsschutzklage. Mandant: Müller, Arbeitnehmer seit 2018,
-ordentliche Kündigung erhalten am 10.05.2026, Zugang 12.05.2026,
-Begründung "betriebsbedingt". Entwirf Klageschrift und prüfe 3-Wochen-Frist.
-```
-
-### Prozessrecht – Mahnverfahren
-
-```
-Lade Skill mahnbescheid. Gläubiger: GmbH X, Schuldner: Y, Forderung 12.430,50 €
-aus Rechnung 2026-0017, fällig 14.04.2026. Erstelle Antrag.
-```
-
-### Datenschutz – DSGVO-Auskunft
-
-```
-Lade Skill dsgvo-auskunft. Mandant hat Auskunftsersuchen erhalten,
-Verantwortlicher ist Plattformbetreiber, Frist Art. 12 III DSGVO. Erstelle Antwortentwurf
-mit Hinweis auf §§ 29 BDSG, 5 GeschGehG.
-```
-
-## 5. Verbindliche Regeln in jedem Skill
-
-- Jede juristische Aussage wird belegt – nach [`references/zitierweise.md`](./references/zitierweise.md).
-- Bei umstrittenen Fragen werden h. M. und Gegenauffassung getrennt zitiert.
-- Bei fehlender Rspr. wird dies ausdrücklich kenntlich gemacht ("soweit ersichtlich noch nicht entschieden").
-- Mandantengeheimnis: keine Übermittlung mandatsbezogener Daten an Tools ohne Auftragsverarbeitungsvertrag (AVV).
-
-## 6. Tipps
-
-- **Frist zuerst prüfen.** Jeder Skill, der eine Klage/Anfechtung/Berufung berührt, beginnt mit Fristprüfung.
-- **Streitwert berechnen.** Skill `streitwert` (in `prozessrecht`) liefert RVG/GKG-Tabellenauszüge.
-- **Vorlagen anpassen.** Die SKILL.md-Dateien sind Markdown – frei editierbar. Eigene Kanzleilogik gerne in `kanzlei-builder-hub` ergänzen.
-- **Quellen verifizieren.** Auch der beste Skill kann Aktenzeichen halluzinieren – immer in amtliche oder frei zugängliche Quellen; lizenzierte Datenbanken nur bei vorhandenem Zugang gegenchecken.
-
-## 7. Troubleshooting
-
-| Problem | Lösung |
+| Eingangslage | Erwartetes Verhalten |
 | --- | --- |
-| Skill wird nicht gefunden | `plugin.json` enthält Pfad? `/plugin reload` ausführen. |
-| MCP-Tool antwortet nicht | `.mcp.json` prüfen, Server neu starten. |
-| Falsche Fundstelle | manuell in Beck-Online prüfen und Skill korrigieren – PR willkommen. |
-| Datenschutzfrage | Skill `datenschutzrecht/mandantendaten-ki` aufrufen. |
+| Dateien oder Ordner vorhanden | Tragende Unterlagen gezielt lesen; bei klarem Auftrag das Arbeitsprodukt beginnen, andernfalls das Bearbeitungsziel klären |
+| Konkretes Dokument verlangt | Mit diesem Dokument beginnen; kein allgemeines Lagebild voranstellen |
+| Nur Skill oder Prompt gestartet | Vorhandenes Material berücksichtigen; ohne erkennbaren Auftrag passende Bearbeitungsziele zur Auswahl anbieten |
+| Keine verwertbaren Unterlagen | Zuerst die entscheidenden Angaben gebündelt erfragen; nur bei Bedarf gezielt nachfassen |
+| Großer Ordner | nach den ersten entscheidungserheblichen Dateien einen Teilstand liefern und offene Dateien nennen |
+| Folgewunsch | Tatsachen, Berechnungen und Quellen beibehalten; nur die gewünschte Dimension ändern |
+
+## 6. Große Akten und Microsoft 365 beschleunigen
+
+Lange Wartezeiten entstehen meist nicht beim Schreiben, sondern vor dem ersten Satz: Jede aktivierte automatische Skill-Route bringt ein Auswahlsignal mit, eine unbestimmte Suche durchläuft zu viele Ablagen und wiederholtes Öffnen derselben Datei verbraucht unnötig Arbeitszeit. Die installierbaren Plugins verdichten deshalb große Norm-, Länder-, Behörden- und Leistungsphasenserien hinter bedarfsgeladenen Fachroutern. Diese Reihenfolge hält den konkreten Lauf zusätzlich klein:
+
+1. Nur die für den Vorgang benötigten Plugins aktiv lassen und danach eine neue Aufgabe öffnen. Für einen einzelnen Fall ist ein Einzel-Plugin oder Schnellstart regelmäßig schneller als eine breite Auswahl.
+2. Wenn der Sachskill feststeht, ihn unmittelbar über `/` oder `+` wählen. Bei einer Serienfrage zuerst den passenden Fachrouter öffnen und dort genau eine Vertiefung laden; nicht mehrere Länder, Leistungsphasen oder Behörden vorsorglich mitlesen.
+3. Bei einem lokalen Arbeitsordner zuerst Dateinamen, Unterordner, Datum und Dateityp erfassen. Bei Microsoft 365 zusätzlich Website, Bibliothek oder Ordner, Zeitraum, Absender und einen genauen Suchbegriff nennen.
+4. Die erste Sichtung auf etwa 20 Treffer und fünf tragende Unterlagen begrenzen. Das ist ein Startbudget, keine Vollständigkeitsgrenze: Für den Auftrag benötigte weitere Belege anschließend gezielt lesen und offene Teile kenntlich machen.
+5. PDF- und Word-Dokumente gezielt lesen, Tabellen auf das einschlägige Blatt und den benötigten Bereich begrenzen und bei E-Mails den maßgeblichen Gesprächsverlauf statt des gesamten Postfachs öffnen. Bereits ausgewertete unveränderte Auszüge weiterverwenden; neue Fassungen und widersprüchliche Fundstellen neu prüfen.
+6. Mit dem verlangten Arbeitsprodukt beginnen. Ist es noch nicht abschließend möglich, den verwertbaren Teil und die konkrete Lücke nennen, statt ungefragt den gesamten Ordner zusammenzufassen. Belegte unveränderte Tatsachen und Extrakte weiterverwenden.
+
+Ein geeigneter Startsatz für große Ablagen lautet:
+
+> Arbeite in zwei Stufen. Erfasse zuerst nur Dateinamen und Metadaten, wähle höchstens fünf tragende Unterlagen und liefere daraus einen ersten belastbaren Stand. Erweitere die Suche nur für konkret benannte Beleglücken. Verwende belegte Auszüge unveränderter Dateien weiter; prüfe geänderte Fassungen neu. Frage nicht nach Angaben, die in zugänglichen Unterlagen bereits belegt sind.
+
+## 7. Kurzer Funktionstest
+
+1. Ein Plugin aktivieren oder seinen Schnellstart öffnen.
+2. Zwei bis fünf zusammengehörige Dokumente bereitstellen.
+3. Einen konkreten Auftrag stellen, beispielsweise: „Prüfe die laufende Frist und entwirf das nächste Schreiben.“
+
+Der erste Antwortblock soll bereits Ergebnisrichtung, Fundstelle, Frist oder Risiko und das nächste Arbeitsprodukt enthalten. Ein vorgeschalteter Fragenkatalog ist nur zulässig, wenn die Unterlagen die entscheidende Weiche tatsächlich nicht beantworten.
+
+## 8. Fehler schnell eingrenzen
+
+| Problem | Nächster Schritt |
+| --- | --- |
+| Plugin erscheint nach dem Upload nicht | neue Aufgabe öffnen, Pluginverwaltung neu laden und prüfen, ob wirklich das Einzel-ZIP gewählt wurde |
+| ZIP wurde automatisch entpackt | die ZIP erneut laden und das automatische Öffnen von Downloads vorübergehend ausschalten |
+| Skill wird nicht vorgeschlagen | Plugin aktivieren und den Skill einmal über `/` oder `+` wählen |
+| Öffentliches Repository wird beim Cowork-Organisations-Sync abgelehnt | privates oder internes Spiegelrepository verbinden; beim ChatGPT-Workspace-Import ist dieser Spiegel nicht erforderlich |
+| Marketplace-Sync dauert lange | Anwendung und Importbericht prüfen: Cowork nennt 30 Minuten als Timeout, ChatGPT bis zu einer Stunde für den Erstimport; für den sofortigen Start einen eigenständigen Prompt verwenden |
+| Lauf mit Microsoft 365 bleibt bei der Suche lange offen | Ablageort, Zeitraum, Absender, Dateityp und Suchbegriff eingrenzen; zuerst höchstens 20 Treffer und fünf Kerndokumente öffnen |
+| Antwort wird nach mehreren Schritten langsamer | neue Aufgabe mit dem bisherigen Ergebnisstand beginnen und nur die benötigten Plugins aktiv lassen |
+| Antwort fragt vorhandene Angaben erneut ab | auf den Arbeitsordner verweisen und „Dateien zuerst, dann Erstprodukt“ ergänzen |
+| Markdown wird nur im Browser angezeigt | „MD herunterladen“ in der Plugin-README oder im [Download-Index](./ASSET_INDEX.md) wählen; die Downloadseite muss JavaScript ausführen dürfen |
+
+Die Skill-Liste zeigt den Quellbestand. Einige Spezialserien werden im installierten Paket über einen Fachrouter geladen und erscheinen nicht einzeln im Menü. Nutze in diesem Fall den zugehörigen Router oder lade für den manuellen Einsatz den Skill samt benötigten Referenzen herunter.
+
+Eine kleinere Auswahl bedeutet nicht weniger Fachwissen: Zusammengehörige Arbeitsschritte werden über eine sprechende Hauptaufgabe geöffnet; Spezialfragen stehen in gezielt verlinkten Vertiefungen. Wähle nach dem gewünschten Ergebnis, etwa „Unterhalt berechnen“ oder „Organbeschlüsse vorbereiten“, nicht nach jedem einzelnen Zwischenschritt. Umbenannte und zusammengeführte Einstiege sind in der [Umstellungsübersicht](./docs/skill-auswahl-und-umstellungen.md) nachvollziehbar. Alte direkte Aufrufnamen müssen nach einem Plugin-Update gegebenenfalls ersetzt werden.
+
+Ausführliche Hinweise zu ZIP-Auswahl, Mac-Downloads und Organisations-Marketplaces stehen in [Installation in einfach](./INSTALLATION_EINFACH.md).
+
+## 9. Portabilität im eigenen Arbeitsplatz prüfen
+
+Nutze genau einen fachlich passenden Einstieg. Ein Prompt soll als Arbeitsanweisung verwendet werden, nicht bloß als eine weitere Fallunterlage in einer Dokumentensuche. Ohne unterstützten Pluginimport sind Werkstatt und Schnellstart die eigenständigen Wege; das bloße Hochladen eines ZIPs installiert keine Funktionen.
+
+| Probe mit zwei bis fünf Unterlagen | Erwartetes Ergebnis |
+| --- | --- |
+| Bankfall: „Formuliere nur das Erstattungsverlangen zu dieser Buchung.“ | Der Brief beginnt unmittelbar; keine vorgelagerte Produkt-, Aufsichts- oder Vermögensinventur. |
+| BWA: „Vergleiche diese beiden Jahresauswertungen.“ | Firma, Zeitraum und Einheit aus den Dateien; Zahlenbrücke mit Fundstellen statt Steuerbescheid-Interview. |
+| Baufall: „Schreibe die Nachricht zum Mangel im Bautagebuch.“ | Betroffenes Gewerk, Planstand und Eintrag; keine Prüfung sämtlicher Leistungsphasen. |
+| Historischer Text: „Stelle die beiden Fassungen gegenüber.“ | Synopse und belegte Lesarten, keine Übertragung in eine moderne Klageschrift. |
+| Fehlender Ordnerzugriff | Konkrete fehlende Datei oder benötigten Auszug nennen; keinen unsichtbaren Ordner als gelesen behandeln. |
+| Nicht erreichbare Quelle | Belegten Teil liefern, ungeprüfte Aussage abgrenzen; keine erneuten gleichartigen Abrufe ohne neue Aussicht auf Erfolg. |
+| Gewünschte PDF ohne Exportwerkzeug | Vollständigen Text oder Tabellenstand liefern und Export als offen kennzeichnen; kein erfundener Downloadlink. |
+| „Weiter, aber mit dieser korrigierten Tabelle.“ | Nur betroffene Berechnungen und Folgerungen erneuern; den geänderten Zahlenstand tatsächlich lesen. |
+
+Erfasse für den Vergleich Oberfläche, verwendeten Einstieg, tatsächlich verfügbare Werkzeuge und die Zeit bis zum ersten brauchbaren Ergebnis. Wiederhole mit denselben Unterlagen und demselben Auftrag. Unterschiedliche Quellenzugänge, Dokumentkonvertierungen oder aktivierte Plugins sind kein reiner Modellvergleich. Ein bestandener lokaler Strukturtest ersetzt diesen Praxistest nicht.
+
+Bei einer technischen Blockade den vorhandenen Stand sichern: Auftrag, gelesene Dateien mit Fassung und Fundstellen, tragende Zahlen, offene Frage und nächster Schritt. Diese knappe Übergabe reicht für die Fortsetzung; nicht vorsorglich den gesamten bisherigen Chat und alle Referenzdateien erneut laden.

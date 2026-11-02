@@ -1,6 +1,6 @@
 ---
 name: reparaturpflicht-hersteller-nach-gewaehrleistung
-description: "Wenn es um Hersteller-Reparaturpflicht nach Gewährleistung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Hersteller-Reparaturpflicht nach Gewährleistung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Hersteller-Reparaturpflicht nach Gewährleistung
@@ -40,3 +40,4 @@ description: "Wenn es um Hersteller-Reparaturpflicht nach Gewährleistung in Pro
 ## Anschluss-Skills
 
 Nach der Erstprüfung je nach Schwerpunkt `produkthaftung-grundlagen`, `produktbeobachtung-software-ota`, `produktbeobachtung-feldueberwachung`, `prodr-produktrueckruf-leitfaden`, `rueckruf-strategie-konzern`, `marktueberwachung-kommunikation`, `prodr-gpsr-cra-fitness-spezial` oder `ki-act-produktintegration` ziehen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

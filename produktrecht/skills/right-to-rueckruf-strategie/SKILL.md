@@ -1,6 +1,6 @@
 ---
 name: right-to-rueckruf-strategie
-description: "Wenn es um Right to Repair im Produktrecht in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck."
+description: "Für Right to Repair im Produktrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Right to Repair im Produktrecht
@@ -40,3 +40,4 @@ description: "Wenn es um Right to Repair im Produktrecht in Produkthaftung und P
 ## Anschluss-Skills
 
 Nach der Erstprüfung je nach Schwerpunkt `produkthaftung-grundlagen`, `produktbeobachtung-software-ota`, `produktbeobachtung-feldueberwachung`, `prodr-produktrueckruf-leitfaden`, `rueckruf-strategie-konzern`, `marktueberwachung-kommunikation`, `prodr-gpsr-cra-fitness-spezial` oder `ki-act-produktintegration` ziehen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

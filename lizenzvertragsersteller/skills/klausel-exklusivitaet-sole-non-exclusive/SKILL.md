@@ -1,6 +1,6 @@
 ---
 name: klausel-exklusivitaet-sole-non-exclusive
-description: "Wenn es um Klausel Exklusivitaet — sole, exclusive, non-exclusive in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Klausel Exklusivität — sole, exclusive, non-exclusive: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klausel Exklusivitaet — sole, exclusive, non-exclusive
@@ -16,7 +16,7 @@ description: "Wenn es um Klausel Exklusivitaet — sole, exclusive, non-exclusiv
 
 ## Klausel-Baustein
 
-> **$ 4 Exklusivitaet.**
+> **Paragraf 4 Exklusivitaet.**
 >
 > Option A — Ausschliessliche Lizenz:
 > Der Lizenzgeber raeumt dem Lizenznehmer eine **ausschliessliche Lizenz** ein. Der Lizenzgeber verzichtet auf eigene Nutzung des Lizenzgegenstands im Lizenzgebiet waehrend der Vertragslaufzeit; er wird auch keinen Dritten zur Nutzung berechtigen.

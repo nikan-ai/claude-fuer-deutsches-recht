@@ -1,6 +1,6 @@
 ---
 name: ambulantes-operieren-arbeitszeit
-description: "Wenn es um Ambulantes Operieren Paragraf 115b SGB V in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Ambulantes Operieren Paragraf 115b SGB V: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Ambulantes Operieren § 115b SGB V
@@ -79,24 +79,3 @@ description: "Wenn es um Ambulantes Operieren Paragraf 115b SGB V in Krankenhaus
 - AOP-Katalog Anlage 1 (jaehrlich aktualisiert).
 - Hybrid-DRG-Verordnung (Live-Check BMG).
 - BSG, staend. Rspr. zur Fehlbelegung und zum AOP-Vertrag.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1-23 KHG
-- § 17a-17d KHG
-- § 18a KHG
-- § 80 VwGO
-- § 5c IfSG
-- § 17 KHEntgG
-- § 14 ApoG
-- § 9 KHG
-- § 13 KHEntgG
-- § 6 IfSG
-- § 17c KHG
-- § 203 StGB
-
-### Leitentscheidungen
-
-- EuGH C-280/00

@@ -1,6 +1,6 @@
 ---
 name: kontodaten-vertragsverdacht-pruefung
-description: "Wenn es um Kontodaten- und Vertragsverdacht-Prüfung in Betreuungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste."
+description: "Für Kontodaten- und Vertragsverdacht-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Kontodaten- und Vertragsverdacht-Prüfung
@@ -15,15 +15,14 @@ Verdachtsmomente, offene Beweise und rechtliche Erstmaßnahmen. Er entscheidet
 nicht selbst über Geschäftsfähigkeit, Einwilligungsvorbehalt, Anfechtung,
 Genehmigung oder Strafbarkeit, sondern bereitet diese Prüfungen sauber vor.
 
+Für die vollständige Belegaufbereitung mit Excel-Saldierung und ausformulierten Anschreiben verwenden Sie den [Unterlagen-Auswerter](../unterlagen-auswerten-abrechnung-anschreiben/SKILL.md). Übergeben Sie Konto- und Buchungskennungen, Belegfundstellen, offene Erklärungen und bereits geprüfte Fristen. Dieser Skill vertieft anschließend konkrete Verdachts- und Schutzfragen, ohne die Buchungen erneut zu importieren.
+
 ## Triage — kläre vor Kontodaten-Prüfung
 1. Ist Vermögenssorge als Aufgabenkreis im Betreuungsbeschluss enthalten? Ohne diese kein Handlungsrecht.
 2. Besteht Einwilligungsvorbehalt (§ 1825 BGB) oder wurde er beim Gericht angeregt?
-3. Liegt akuter Missbrauchs-Verdacht vor — dann sofort Gericht informieren, ggf. einstweilige Massnahme (§ 300 FamFG)?
-4. Frist für SEPA-Widerruf (8 Wochen für autorisierte Zahlung, 13 Monate für nicht-autorisierte) — bereits abgelaufen?
-5. Strafanzeige (§§ 263, 266 StGB) erwägen wenn konkrete Fremdeinwirkung auf Konto erkennbar.
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+3. Besteht eine konkret belegte akute Gefährdung? Passende Schutzmaßnahmen, Zuständigkeit und eine gegebenenfalls erforderliche gerichtliche Entscheidung gesondert prüfen; ein auffälliger Betrag allein belegt keine Straftat.
+4. Zahlungsart und Autorisierung prüfen: Erstattungsverlangen nach § 675x Abs. 4 BGB grundsätzlich binnen acht Wochen ab Belastung; nicht autorisierte Vorgänge nach § 676b BGB unverzüglich nach Feststellung anzeigen und die dortige 13-Monatsgrenze samt Unterrichtungsanforderungen prüfen. Eine Rückgabe beendet nicht den Vertrag.
+5. Konkrete Fremdeinwirkung, Befugnisse, Willen und Beweismittel ermitteln; keine automatische Strafanzeige gegen Angehörige oder Helfer allein aufgrund einer Zahlung.
 
 ## Eingangsdaten
 
@@ -99,7 +98,7 @@ Akut ist regelmäßig anzunehmen bei:
  oder ähnliche Autoritätskulisse.
 - Fernwartung oder Sicherheitssoftware mit Zugang zum Rechner der betreuten
  Person, besonders bei weiteren Bank- oder Anlagezahlungen.
-- Auslandsüberweisung ohne plausible Dokumentation.
+- Unmittelbar bevorstehende weitere Zahlung nach belegter betrügerischer Ansprache. Eine Auslandsüberweisung ohne Dokumentation ist für sich genommen zunächst aufklärungsbedürftig, nicht automatisch akut.
 - Vermögensanlage, Immobilienreservierung oder Gesellschaftsbeteiligung bei
  unklarer Geeignetheit, hoher Bindung oder Totalverlustrisiko.
 - Ketten von Seniorenprodukten, Lotterie, Kontaktportal oder ähnlichen
@@ -170,3 +169,5 @@ Optional kann das Hilfsskript genutzt werden:
 python betreuungsrecht/scripts/betreuung_konto_vertragscheck.py \
  testakten/betreuung-schmalfeld-kontodaten-vertraege/05_schmalfeld_verdaechtige_transaktionen.json
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

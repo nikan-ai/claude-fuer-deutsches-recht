@@ -1,6 +1,6 @@
 ---
 name: automatischer-aktualisierer
-description: "Wenn es um /automatischer-aktualisierer — Automatische Aktualisierung mit Diff-Review in Kanzlei-Builder-Hub geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /automatischer-aktualisierer — Automatische Aktualisierung mit Diff-Review: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /automatischer-aktualisierer — Automatische Aktualisierung mit Diff-Review
@@ -25,11 +25,7 @@ description: "Wenn es um /automatischer-aktualisierer — Automatische Aktualisi
 - **§ 43a Abs. 2 BRAO** — Verschwiegenheitspflicht; unkontrollierte Skill-Updates können Mandatsdaten gefährden.
 - **Art. 32 DSGVO** — Pflicht zu technisch-organisatorischen Maßnahmen; Aktualisierungen von in Mandatsprozessen eingesetzten Werkzeugen sind sicherheitstechnisch zu überwachen.
 - **§ 50 BRAO** — Pflicht zur Aktenführung; das Installationsprotokoll dokumentiert alle Versionsänderungen als Teil der Kanzleiorganisation.
-- **AI Act Art. 26** — Deployer-Pflichten bei Hochrisiko-KI: Änderungen am KI-System sind zu überwachen und zu dokumentieren.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Artikel 26 KI-Verordnung:** Zuerst einen erfassten Hochrisiko-Betrieb und zeitliche Anwendung begründen. Absatz 1 betrifft geeignete Maßnahmen zur Nutzung nach Betriebsanleitung, Absatz 2 die beauftragte menschliche Aufsicht, Absatz 5 Überwachung und gegebenenfalls Aussetzung/Information, Absatz 6 kontrollierte Logs. Kein allgemeines gesetzliches Installations- oder Deinstallationsprotokoll aus Artikel 26 erfinden. Interne Nachweise als Organisationsmaßnahme kennzeichnen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ### Quellenregel
 
@@ -154,30 +150,10 @@ Bei der Ausführung dieses Skills sind folgende Quellen zu berücksichtigen:
 - Art. 32 DSGVO (technisch-organisatorische Maßnahmen)
 - § 50 BRAO (Aktenführung; Versionsprotokollierung)
 - AI Act Art. 26 (Deployer-Pflichten; Überwachung von KI-Systemänderungen)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 32 DSGVO
-- § 203 StGB
-- Art. 28 DSGVO
-- Art. 30 DSGVO
-- Art. 35 DSGVO
-- § 4 KSchG
-- Art. 25 DSGVO
-- Art. 17 DSGVO
-- § 5 KSchG
-- § 29 VwVfG
-- § 102 BetrVG
-- § 17 MuSchG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Legen Sie für jeden Baustein fest, welche Daten er lesen, verändern und versenden darf. Prüfen Sie die tatsächliche Funktion und die nach außen behauptete Leistung; ein Agentenetikett ersetzt keine Einordnung. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

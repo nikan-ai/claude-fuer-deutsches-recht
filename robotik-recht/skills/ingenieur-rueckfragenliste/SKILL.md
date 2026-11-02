@@ -1,6 +1,6 @@
 ---
 name: ingenieur-rueckfragenliste
-description: "Wenn es um Ingenieur-Rückfragenliste in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Ingenieur-Rückfragenliste: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: robotik-recht. Route: ingenieur-rueckfragenliste."
 ---
 
 # Ingenieur-Rückfragenliste
@@ -35,6 +35,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Erzeugt präzise Rückfragen an Technik, QM, Datenschutz, IT-Security, Vertrieb und Service, damit das Recht nicht im Nebel prüft.**
 
 Quellen-/Normenanker: Quellenmatrix im Plugin, Uploads, Rollenprofil, Fristen, Produktakte.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

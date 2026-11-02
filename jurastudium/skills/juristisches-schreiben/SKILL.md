@@ -1,6 +1,6 @@
 ---
 name: juristisches-schreiben
-description: "Wenn es um Juristisches Schreiben in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Juristisches Schreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Juristische Schreibberatung
@@ -32,7 +32,6 @@ Wissenschaftlicher juristischer Stil folgt Konventionen, die in Stil- und Method
 - Wissenschaftliche Schreibweise gemäß Hinweisen der Deutschen Vereinigung für Internationales Recht (DVIR) und Zeitschriftenrichtlinien JuS/NJW
 
 **Leitentscheidungen für Zitiergenauigkeit:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Kommentare und Formatnachweise:**
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
@@ -152,4 +151,4 @@ Zitierhinweise in diesem Feedback folgen den gängigen deutschen Zitierkonventio
 
 Hinweis: Diese Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-<!-- AUDIT 27.05.2026: BGH VI ZR 116/12 (WRONG_TOPIC: echtes Thema Straßenverkehrsunfall NJW 2013, 1679, nicht Schriftsatzanforderungen NJW 2013, 1682 Rn. 12) korrigiert; Fundstelle auf NJW 2013, 1679 berichtigt und Beschreibung an echten Urteilsinhalt angepasst. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

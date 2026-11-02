@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-it-recht-saas-vertrag-verhandlung
-description: "Wenn es um SaaS-Vertrag — Prüfung und Verhandlung in Fachanwalt It Recht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für SaaS-Vertrag — Prüfung und Verhandlung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # SaaS-Vertrag — Prüfung und Verhandlung
@@ -21,7 +21,6 @@ description: "Wenn es um SaaS-Vertrag — Prüfung und Verhandlung in Fachanwalt
 
 ### Vertragstyp und Mängelregime
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§§ 327–327u BGB** (seit 01.01.2022) — Verträge über digitale Inhalte und Dienstleistungen im B2C: § 327e BGB Sachmangel, § 327f BGB Aktualisierungspflicht, § 327j BGB Verjährung 2 Jahre, § 327k BGB Beweislastumkehr 1 Jahr.
 - **§§ 305–310 BGB** — AGB-Kontrolle: § 309 Nr. 7 BGB — keine Freizeichnung bei grober Fahrlässigkeit/Vorsatz; § 309 Nr. 5 BGB — angemessene Pauschalschadensersätze; § 308 Nr. 4 BGB — kein einseitiges Leistungsänderungsrecht ohne sachlichen Grund; § 309 Nr. 9 BGB — Laufzeit B2C max. 2 Jahre + monatliche Kündigung.
 
@@ -30,7 +29,6 @@ description: "Wenn es um SaaS-Vertrag — Prüfung und Verhandlung in Fachanwalt
 - **Art. 28 DSGVO** — Auftragsverarbeitungsvertrag (AVV): Pflichtinhalt (Abs. 3 lit. a–h), schriftlich oder elektronisch, Unterauftragsverarbeiter mit Genehmigung.
 - **Art. 32 DSGVO** — TOMs: Verschlüsselung, Pseudonymisierung, Zutrittskontrolle, Wiederherstellung nach Notfall.
 - **Art. 46 DSGVO** — Drittlandübertragung: Standardvertragsklauseln (SCC 2021), angemessener Schutz, BCR.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **EU-US Data Privacy Framework** (Commission Implementing Decision 2023/1795): gültiger Angemessenheitsbeschluss für zertifizierte US-Anbieter (Stand 2023).
 - **US CLOUD Act** — US-Behörden können bei US-Anbietern weltweit gespeicherte Daten anfordern; souveräne Cloud prüfen.
 
@@ -42,7 +40,6 @@ description: "Wenn es um SaaS-Vertrag — Prüfung und Verhandlung in Fachanwalt
 
 ### Entscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema
 
@@ -200,7 +197,6 @@ Pflicht-Inhalte AVV Art. 28 Abs. 3 DSGVO — Checkliste
 |---|---|
 | AVV fehlt vollständig | Eigenständige Datenschutzverletzung; DSGVO-Meldepflicht prüfen; AVV sofort nachfordern |
 | Server außerhalb EU ohne SCC | SCC 2021 (Moduldaten) + TIA beifügen; alternativ EU-Cloud-Anbieter |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Preisanpassungsrecht einseitig | § 308 Nr. 4 BGB — unwirksam ohne sachlichen Grund und Widerspruchsrecht |
 | Datenmigration nach Kündigung nur gegen Aufpreis | Verhandeln: kostenloses 90-Tage-Exportfenster als Standard |
 | US-Anbieter ohne DPF-Zertifizierung | Selbst TIA-Bewertung + SCC; alternativ: Anbieter ohne US-Nexus |
@@ -233,16 +229,13 @@ Pflicht-Inhalte AVV Art. 28 Abs. 3 DSGVO — Checkliste
 
 - BGB §§ 305–310, 327–327u, 535–548
 - DSGVO Art. 28, 32, 46, 83
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Commission Implementing Decision 2023/1795 (EU-US DPF)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BSI C5 Anforderungskatalog Cloud Computing
 - ISO/IEC 27001
 
 ## Aktuelle Rechtsprechung (v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: verzeichnis-durchsuchen
-description: "Wenn es um /verzeichnis-durchsuchen — Skill-Registry-Browser in Kanzlei-Builder-Hub geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /verzeichnis-durchsuchen — Skill-Registry-Browser: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /verzeichnis-durchsuchen — Skill-Registry-Browser
@@ -10,9 +10,6 @@ description: "Wenn es um /verzeichnis-durchsuchen — Skill-Registry-Browser in 
 2. Welche Registries sind in der Watchlist — und sind sie aktuell (Cache aelter als 7 Tage)?
 3. Soll eine neue Registry zur Watchlist hinzugefuegt werden (URL-Validierung und Sicherheitshinweis erforderlich)?
 4. Ist der Positivliste-Modus 'restrictive' (neue Registry muss auch in positivliste.yaml eingetragen werden)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 32 DSGVO — TOM: Sicherheitsprueung jeder neuen Registry vor Aufnahme in Watchlist
@@ -30,7 +27,7 @@ description: "Wenn es um /verzeichnis-durchsuchen — Skill-Registry-Browser in 
 
 ### Schritt 1: Kanzleiprofil laden
 
-Beobachtete Registries aus dem Config-Pfad lesen. Wenn keine Registries konfiguriert sind, hinweisen: "Keine beobachteten Registries konfiguriert. Führen Sie `/kanzlei-builder-hub:kanzlei-builder-hub-kaltstart-interview` aus oder geben Sie eine Registry-URL an."
+Beobachtete Registries aus dem Config-Pfad lesen. Wenn keine Registries konfiguriert sind, hinweisen: "Keine beobachteten Registries konfiguriert. Führen Sie `/kanzlei-builder-hub:kaltstart-interview` aus oder geben Sie eine Registry-URL an."
 
 Praxisprofil lesen (Rechtsgebiet, Kanzleityp) um Suchergebnisse zu gewichten und unpassende Skills als solche zu kennzeichnen.
 
@@ -139,3 +136,5 @@ Zuletzt verifiziert: 2024-09-01 ⚠️ Aktualität prüfen (>6 Monate)
 - Skills installieren. Das macht `skill-installierer`.
 - Skills bewerten oder Empfehlungen geben (nur Profil-Passung-Filterung). Den Rohtext prüfen; Sie urteilen.
 - Das gesamte Internet durchsuchen. Nur beobachtete Registries.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

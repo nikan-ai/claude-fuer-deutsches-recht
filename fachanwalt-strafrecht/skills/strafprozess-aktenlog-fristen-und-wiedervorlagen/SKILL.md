@@ -1,6 +1,6 @@
 ---
 name: strafprozess-aktenlog-fristen-und-wiedervorlagen
-description: "Wenn es um Strafprozess Aktenlog Fristen Und Wiedervorlagen in Fachanwalt Strafrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafprozess Aktenlog Fristen und Wiedervorlagen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel."
 ---
 
 # Aktenlog, Fristenbuch und Wiedervorlagen im Strafverfahren: erstellt aus Eingangspost, beA, EGVP, Verfügung, Ladung, Beschluss, Strafbefehl, Urteil und Aktennachlieferung eine robuste Fristen- und Aufgabensteuerung.
@@ -64,28 +64,3 @@ Lege mindestens an:
 - Nicht jedes Rechtsmittel ist sofortige Beschwerde; Statthaftigkeit prüfen.
 - Revisionsbegründung nicht mit Revisionseinlegung verwechseln.
 - Strafbefehl kann beschränkt angegriffen werden, aber Beschränkung muss strategisch sitzen.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46a StGB
-- § 263 StGB
-- § 49 StGB
-- § 177 StGB
-- § 46 StGB
-- § 46b StGB
-- § 35 BtMG
-- § 261 StGB
-- § 249 StGB
-- § 212 StGB
-- § 31 BtMG
-- § 240 StGB
-
-### Leitentscheidungen
-
-- EuGH C-610/15
-- EuGH C-527/15
-- EuGH C-128/11
-- EuGH C-145/10
-- EuGH C-355/12

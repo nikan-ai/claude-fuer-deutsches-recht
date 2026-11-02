@@ -1,6 +1,6 @@
 ---
 name: strafrecht-spezial-computerbetrug-263a-stgb
-description: "Wenn es um Strafrecht Spezial Computerbetrug 263a Stgb in Fachanwalt Strafrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strafrecht Spezial Computerbetrug 263a Stgb: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Computerbetrug § 263a StGB: Anwendungsfall Verteidigung bei Manipulation EC- und Kreditkarte, Skimming, Phishing, missbraeuchliche Online-Banking-Nutzung, Crypto-Wallet-Drainage
@@ -57,7 +57,7 @@ Spezial-Mandat: Vorwurf Computerbetrug. Praxistypisch: Missbrauch Online-Banking
 - **Datenherkunft prüfen.** Wenn Daten legitim erlangt wurden (Mandant hatte Vollmacht), entfaellt "unbefugte Verwendung". Auch innerfamiliaere Konstellationen prüfen.
 - **Vorsatz angreifen.** Bei Geldwaeschern, die nur Zugriffsdaten weitergeben, fehlt oft die direkte Bereicherungsabsicht — Prüfung Beihilfe § 27 StGB statt Mittaeterschaft.
 - **Schaden prüfen.** Bei Krypto-Drainage: Wechselkurs zum Tatzeitpunkt. Bei Bot-Order: Marktentwicklung beachten.
-- **Beweisverwertung.** Verwertbarkeit Cloud-Daten, Smartphone-Asservat, IP-Logs (Vorratsdatenspeicherung BVerfG-Rspr.); Beweisverwertungsverbot prüfen.
+- **Beweisverwertung.** Herkunft und Erhebungsgrundlage von Cloud-Daten, Smartphone-Asservaten und IP-Logs getrennt prüfen. Bei Telekommunikationsverkehrsdaten müssen Speichergrundlage, behördliche Abrufnorm, Richtervorbehalt und konkrete Erhebungskette feststehen; aus einer allgemeinen verfassungsgerichtlichen Speicherrechtsprechung folgt nicht automatisch ein Beweisverwertungsverbot.
 - **Verstaendigung** bei Massentaten über Pauschal-Abrede.
 
 ## Trade-off-Matrix
@@ -104,5 +104,5 @@ Spezial-Mandat: Vorwurf Computerbetrug. Praxistypisch: Missbrauch Online-Banking
 - BGH staendige Rspr. zur unbefugten Verwendung von Daten (betrugsspezifischer Verwendungswille); Aktenzeichen vor Verwendung verifizieren.
 - §§ 100a, 100d, 102 StPO, §§ 111b ff. StPO Vermögensabschoepfung.
 - §§ 73, 73b, 73c StGB.
-- BVerfG-Rspr. zur Vorratsdatenspeicherung — bei Verwendung Az. live verifizieren.
+- Rechtsprechung zu Verkehrsdatenspeicherung und -abruf nur einbauen, wenn die konkrete Datenart und Erhebungsgrundlage der Akte feststehen; Entscheidung, Datum, Aktenzeichen und tragende Aussage dann aus amtlicher Quelle belegen.
 - references/zitierweise.md.

@@ -1,6 +1,6 @@
 ---
 name: acc3-mandantenmemo-slot-register
-description: "Wenn es um ACC3 – Mandantenmemo schreiben in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für ACC3 – Mandantenmemo schreiben: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # ACC3 – Mandantenmemo schreiben
@@ -35,7 +35,7 @@ EU-DVO 2015/1998 EU-VO 300/2008 LuftVG LuftSiG § 9 InsO – die einschlägigen 
 - **LuftVG §§ 6 20 29 31 64**: Genehmigung Betrieb Register Aufsicht.
 - **LuftSiG §§ 7-9**: Zuverlässigkeitsüberprüfung Sicherheitsprogramme Aufsicht.
 - **EU-VO 1008/2008 Art. 3-9**: Betriebsgenehmigung finanzielle Leistungsfähigkeit Überwachung.
-- **Cape Town Convention Art. 2-16**: Internationale Sicherungsinteressen ICAO-Register.
+- **Kapstadt-Regime nur bei Anwendbarkeit**: Vertragsstaatenbezug und Erklärungen anhand des aktuellen UNIDROIT-Status prüfen; Deutschland hat Übereinkommen und Luftfahrzeugprotokoll nur unterzeichnet, nicht ratifiziert. Prioritäten folgen grundsätzlich Artikel 29 des Übereinkommens und Artikel XIV des Protokolls.
 - **LuftFzgG §§ 1-28**: Nationales Pfandrecht Vollstreckung AG Braunschweig.
 - **InsO §§ 15a 17-19 47 50**: Insolvenzantragspflicht Gläubigerrechte.
 - **VwGO §§ 68 74 80**: Widerspruch Klage aufschiebende Wirkung.
@@ -47,7 +47,7 @@ EU-DVO 2015/1998 EU-VO 300/2008 LuftVG LuftSiG § 9 InsO – die einschlägigen 
 1. Ist zuständige Behörde korrekt adressiert?
 2. Sind alle Register vollständig abgefragt?
 3. Laufen Fristen – sind alle gesichert?
-4. Besteht Cape-Town-Registrierung mit IDERA?
+4. Berührt der Fall einen Vertragsstaat, und bestehen internationale Registrierungen oder eine behördlich erfasste IDERA?
 5. Ist Insolvenzrisiko bewertet?
 6. Sind Sicherheitsauflagen auf Verhältnismäßigkeit geprüft?
 7. Ist der EU-Validator zugelassen und sein Bericht nicht älter als 3 Jahre?
@@ -97,36 +97,7 @@ Für Mandate im Bereich ACC3-Zulassung und Sicherheitsvalidierung Luftfracht Dri
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 6 LuftVG (Genehmigung Flughäfen)
-- § 8 LuftVG (Planfeststellung)
-- § 27c LuftVG (Flugverkehrskontrolle)
-- § 29 LuftVG (Luftaufsicht)
-- § 32 LuftVG (LuftVZO, LuftVO)
-- §§ 33, 33a LuftVG (Halterhaftung)
-- VO (EG) 261/2004 (Fluggastrechte)
-- VO (EU) 376/2014 (Meldung von Ereignissen Luftfahrt)
-- §§ 8, 8a FluLärmG (Lärmschutzbereiche)
-- EASA-Verordnungen (VO 2018/1139)
-
-### Leitentscheidungen
-
-- EuGH C-402/07 (Sturgeon, Ausgleichsleistung Verspätung)
-- EuGH C-432/20 (Annullierung außergewöhnliche Umstände)
-- BVerwG 4 A 5.08 (Planfeststellung Flughafen BER)
-- BVerwG 4 A 4001.18 (Flughafenausbau Verträglichkeit)
-- BGH X ZR 138/11 (Fluggastrechte und Gerichtsstand)
-
-### Anwendung im Skill
-
-- Fluggastrechte VO 261/2004 nach EuGH C-402/07 Sturgeon: 3-Stunden-Schwelle = Ausgleichsanspruch.
-- Planfeststellung § 8 LuftVG nach BVerwG 4 A 5.08 mit FFH-Vertraeglichkeit und Laermschutz.
-- Ausnahmegruende VO 261/2004 Art. 5 Abs. 3 eng auslegen; EuGH C-432/20 zu wilden Streiks.

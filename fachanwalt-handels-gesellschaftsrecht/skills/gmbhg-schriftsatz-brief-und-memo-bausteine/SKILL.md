@@ -1,6 +1,6 @@
 ---
 name: gmbhg-schriftsatz-brief-und-memo-bausteine
-description: "Wenn es um Gmbhg Schriftsatz Brief Und Memo Bausteine in Fachanwalt Handels- und Gesellschaftsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für GmbHG Schriftsatz Brief und Memo Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Gmbhg: Schriftsatz-, Brief- und Memo-Bausteine im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenradar (HGB/GmbHG/AktG/UmwG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
@@ -20,8 +20,6 @@ description: "Wenn es um Gmbhg Schriftsatz Brief Und Memo Bausteine in Fachanwal
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gmbhg: Schriftsatz-, Brief- und Memo-Bausteine` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG §§ 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG §§ 76, 93, 111, 119, 130, 243 ff.; HGB §§ 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Verifizierte Anker:** BGH, Urteil vom 08.11.2022 - II ZR 91/21 (zutreffende Gesellschafterliste/Listenstreit); BGH, Beschluss vom 18.03.2025 - II ZB 11/24 (Registerordner/Gesellschafterliste, Prüfungsumfang); BGH, Urteil vom 11.12.2006 - II ZR 166/05 und Urteil vom 12.04.2016 - II ZR 275/14 (Treuepflicht, Zustimmungspflichten); BGH, Urteil vom 30.09.2025 - II ZR 154/23 (Drittvergleich/verdeckte Vermögenszuwendung, Organ-/Beschlusskontrolle).
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -44,3 +42,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Bausteinwahl:** Schriftsatz an Registergericht (Anmeldungstext mit § 8 GmbHG-Inhalten), Aufforderungsbrief Gesellschafter (§ 26 GmbHG Nachschuss/§ 27 GmbHG Kaduzierung), Memo Geschäftsführerhaftung (§ 43 GmbHG Verschuldensmaßstab, § 43a GmbHG Kreditverbot), Beschlussvorschlag Gesellschafterversammlung (§ 47 GmbHG Stimmrecht je 1 EUR Geschäftsanteil eine Stimme).
 4. **Form- und Fristenkontrolle:** Notarielle Beurkundung bei Gründung (§ 2 GmbHG), Anteilsübertragung (§ 15 Abs. 3 GmbHG), Kapitalmaßnahmen (§§ 55 ff. GmbHG); MoPeG-Reform betrifft GbR/PartG, nicht GmbH unmittelbar. Anfechtungsfrist Gesellschafterbeschluss analog § 246 AktG: einen Monat, BGH ständige Rechtsprechung.
 5. **Anschluss:** Konkreten Textbaustein mit Platzhaltern liefern; spezial-Skills.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-gmbhg-schriftsatz-brief-und-memo-bausteine` beziehungsweise Gmbhg: Schriftsatz-, Brief- und Memo-Bausteine: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-gmbhg-schriftsatz-brief-und-memo-bausteine.md).

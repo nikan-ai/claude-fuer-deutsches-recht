@@ -1,0 +1,187 @@
+{
+  "readme_quality_followup_2026_10_16": {
+    "reviewed_on": "2026-10-16",
+    "method": "scoped_readme_and_workflow_desk_review",
+    "verdict": "revised",
+    "reason": "Widerspruch zwischen verlinkter Übungsakte und Behauptung keiner Testakte beseitigt; Verantwortung und Freigabe des Berufsträgers unverändert.",
+    "files": [
+      {
+        "path": "email-umformulierer-berufsrecht/README.md",
+        "sha256": "a79782831451751dfb37ac1c8fba5ebb510ffd7ee8f0d9d877c79c2911e30273"
+      }
+    ],
+    "primary_sources_read": [],
+    "limits": "Gezielte Qualitäts-Folgerunde. Keine fachliche Vollverifikation, keine Live-Modelltests. Werkstatt, Mini und Fokus-Reviews unverändert, da deren gebundene Dateien nicht geändert wurden. Historische Quellen- und Releaseangaben nicht pauschal aktualisiert.",
+    "hash_scope": "Dateiprüfsummen bezeichnen den Lektürestand. Der nachfolgende zentrale Abgleich der Katalogzahl und des Sammelpakethinweises ist mit dem abschließenden README-Hash in quality/qualitaetsrunde-2026-10-16/einzelpruefungen.json dokumentiert."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Die versandfertige E-Mail steht vor dem Prüfprogramm; Kontext und Empfängerkreis begrenzen den berufsrechtlichen Sachlichkeitsanker.",
+    "norms_or_source_basis": "Paragraf 43a Absatz 3 BRAO; Artikel 5 Absatz 1 GG",
+    "selected_anchor_identifiers": [
+      "1 BvR 1751/12"
+    ],
+    "application_limit": "Zivilrechtlicher Unterlassungsfall, keine berufsgerichtliche Rüge; kein Freibrief für falsche Tatsachen.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/email-umformulierer-berufsrecht/email-umformulierer-berufsrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "23436a0f0daca958827d92023154c7a7534c112f3c5bf9b07fa9836e0904f41a",
+      "characters": 6758,
+      "utf8_bytes": 6857,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/email-umformulierer-berufsrecht/email-umformulierer-berufsrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "b3bf4f17b6b5025c9d03c9363a79d4f218e3beb999eb7ae474a79f16ec51bc54",
+      "characters": 13584,
+      "utf8_bytes": 13782,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "email-umformulierer-berufsrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43a.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absätze 2 und 3: Verschwiegenheit sowie Sachlichkeitsgebot ohne Gleichsetzung mit Verzicht auf nachdrückliche Vertretung."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/07/rk20130702_1bvr175112.html",
+      "checked_on": "2026-09-22",
+      "supports": "BVerfG, Beschluss vom 2. Juli 2013, 1 BvR 1751/12, Randnummern 15–21. Bei anwaltlicher Zuspitzung Sachbezug, Anlass und Empfängerkreis prüfen; Schmähkritik eng bestimmen und betroffene Rechte abwägen. Grenze: Zivilrechtliche Unterlassungsurteile aufgehoben und zurückverwiesen, keine automatische Aufhebung einer Kammer­rüge und keine Erlaubnis bewusst falscher Tatsachen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43a.html",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Absatz 3: Sachlichkeitsgebot mit Grenzen bei bewussten Unwahrheiten und nicht veranlasster Herabsetzung; keine Pflicht, berechtigte scharfe Kritik zu beseitigen."
+    },
+    {
+      "url": "https://www.brak.de/fileadmin/02_fuer_anwaelte/berufsrecht/033-BORA_Stand_01.12.2025.pdf",
+      "checked_on": "2026-09-22",
+      "supports": "Amtlicher Wortlaut geprüft: Paragraf 12: Umgehungsverbot mit Gefahr-im-Verzug-Ausnahme und Unterrichtung; Paragraf 25: Vertraulichkeit berufsrechtlicher Beanstandungen, außer bei Wahrnehmung von Mandanten- oder Eigeninteressen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/brao/__43a.html",
+      "supports": "Erneuter Normabruf zu anwaltlichen Grundpflichten; sachliche, vertrauliche und adressatengerechte E-Mail-Fassung ohne behauptete Außenhandlung.",
+      "checked_on": "2026-09-23"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Die fertige E-Mail bleibt Hauptprodukt; scharfe Sachkritik wird nicht mit Schmähung gleichgesetzt. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest. Workflow-Ergänzung einzeln geprüft: Teilbetrag wird anerkannt oder Gegner ist anwaltlich vertreten -> Umfang des Bestreitens, Empfängerweg und Formulierung der Antwort gezielt ändern. Einstiegsredaktion 16.10.2026, Batch 2: Die versandfertige E-Mail steht vor dem Prüfprogramm; Kontext und Empfängerkreis begrenzen den berufsrechtlichen Sachlichkeitsanker. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "BVerfG-Kontextmaßstab an tatsächlichen Tonkorrekturauftrag gebunden.",
+      "Paragrafen 12 und 25 BORA gegenstandsbezogen konkretisiert.",
+      "Zitierapparat und Abwägung bei Bedarf nur in separate Änderungsnotiz.",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Die versandfertige E-Mail steht vor dem Prüfprogramm; Kontext und Empfängerkreis begrenzen den berufsrechtlichen Sachlichkeitsanker. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "23436a0f0daca958827d92023154c7a7534c112f3c5bf9b07fa9836e0904f41a"
+  },
+  "selection": {
+    "positive": [
+      "Formuliere meinen verärgerten Anwaltsbrief sachlich um.",
+      "Entferne persönliche Angriffe, ohne die bestrittene Forderung anzuerkennen."
+    ],
+    "negative": [
+      "Verteidige mich umfassend in einem anwaltsgerichtlichen Verfahren.",
+      "Erstelle eine erstmalige Gebührenabrechnung nach RVG."
+    ]
+  },
+  "cases": [
+    {
+      "id": "rechnung-bestreiten-interne-grenze",
+      "request": "Bitte schreibe ergebnis.md mit einer sachlichen E-Mail an die gegnerische Rechtsanwältin. Original: Ihre lächerliche Rechnung über 8.000 Euro ist frei erfunden. Unser Mandant bestreitet die Zusatzleistungen. Schicken Sie bis 30.09.2026 die unterschriebenen Aufträge und Leistungsnachweise. Interne Notiz, nicht für die Gegenseite: Mandant würde maximal 2.000 Euro zur Erledigung zahlen. Es soll kein Vergleich angeboten und keine Frist verlängert werden. Weitere Tatsachen oder Belege liegen nicht vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Außenfassung entfernt Herabsetzungen, erhält aber das Bestreiten der Zusatzleistungen und erkennt die 8.000 Euro nicht an.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die interne Grenze von 2.000 Euro erscheint weder als Angebot noch als offengelegte Verhandlungsinformation in der E-Mail.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die konkrete Anforderung unterschriebener Aufträge und Leistungsnachweise bis 30.09.2026 bleibt erhalten, ohne neue Drohung oder behauptete Versendung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "umform-anwaltsbrief-an-gegner-spezial"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Kontextabwägung, direkte Kontaktaufnahme und vertrauliche Beanstandung ersetzen unklare Kollegialitätsverweise. Vollständige Text- und gezielte Primärquellenprüfung; kein Live-Mandanten- oder Modelltest. Workflow-Ergänzung einzeln geprüft: Eingangstext gegenüber eigener Erklärung, unbeabsichtigtes Anerkenntnis und Vergleich, konkrete Nachweise, Vertraulichkeit, Vertretungslage sowie Entschuldigung ohne erfundene Haftungsübernahme. Einstiegsredaktion 16.10.2026, Batch 2: Die versandfertige E-Mail steht vor dem Prüfprogramm; Kontext und Empfängerkreis begrenzen den berufsrechtlichen Sachlichkeitsanker. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "BVerfG-Kontextmaßstab an tatsächlichen Tonkorrekturauftrag gebunden.",
+      "Paragrafen 12 und 25 BORA gegenstandsbezogen konkretisiert.",
+      "Zitierapparat und Abwägung bei Bedarf nur in separate Änderungsnotiz.",
+      "Eingangstext gegenüber eigener Erklärung, unbeabsichtigtes Anerkenntnis und Vergleich, konkrete Nachweise, Vertraulichkeit, Vertretungslage sowie Entschuldigung ohne erfundene Haftungsübernahme.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Die versandfertige E-Mail steht vor dem Prüfprogramm; Kontext und Empfängerkreis begrenzen den berufsrechtlichen Sachlichkeitsanker. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "b3bf4f17b6b5025c9d03c9363a79d4f218e3beb999eb7ae474a79f16ec51bc54"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "email-umformulierer-berufsrecht/email-umformulierer-berufsrecht-werkstatt.md",
+      "email-umformulierer-berufsrecht/email-umformulierer-berufsrecht-schnellstart.md",
+      "email-umformulierer-berufsrecht/README.md",
+      "quality/evals/email-umformulierer-berufsrecht.json"
+    ],
+    "opening_change": "Konkreten Zahlungswiderspruch oder Nachweisanforderung erhalten und persönliche Abwertung entfernen, ohne neue Bindung. Workflow-Ergänzung: Leer: Zahlungswiderspruch, Nachweisforderung oder sachliche Antwort auf persönliche Kritik anbieten. Dateien ohne Aufgabe: eingehende Nachricht und Entwurf still lesen; Ziel und Adressat nur bei Unklarheit klären. Klarer Auftrag: fertige E-Mail unmittelbar formulieren, ohne ungefragte materielle Vollprüfung oder Kommentarblock im Empfängertext.",
+    "norms": [
+      "BRAO Paragraf 43a Absatz 3",
+      "GG Artikel 5 Absatz 1",
+      "BORA Paragrafen 12 und 25"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 2. Juli 2013, 1 BvR 1751/12, Randnummern 15–21",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/07/rk20130702_1bvr175112.html",
+        "application": "Bei anwaltlicher Zuspitzung Sachbezug, Anlass und Empfängerkreis prüfen; Schmähkritik eng bestimmen und betroffene Rechte abwägen.",
+        "limit": "Zivilrechtliche Unterlassungsurteile aufgehoben und zurückverwiesen, keine automatische Aufhebung einer Kammer­rüge und keine Erlaubnis bewusst falscher Tatsachen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Mandanten- oder Modelltest.",
+      "README behauptet weiterhin ein allgemeines Kollegialitätsgebot aus Paragraf 25 BORA; außerhalb des Schreibbereichs nicht geändert.",
+      "Andere Berufsgruppen und Gebührennebenfragen nicht insgesamt neu verifiziert.",
+      "Workflow-Review 23.09.2026: Paragraf 43a BRAO erneut eingesehen; keine neue berufsrechtliche Rechtsprechung oder sachfremder Hauptsachefall hinzugefügt."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Zahlungswiderspruch, Nachweisforderung oder sachliche Antwort auf persönliche Kritik anbieten.",
+      "Dateien ohne Aufgabe: eingehende Nachricht und Entwurf still lesen; Ziel und Adressat nur bei Unklarheit klären.",
+      "Klarer Auftrag: fertige E-Mail unmittelbar formulieren, ohne ungefragte materielle Vollprüfung oder Kommentarblock im Empfängertext."
+    ],
+    "continuation": "Teilbetrag wird anerkannt oder Gegner ist anwaltlich vertreten -> Umfang des Bestreitens, Empfängerweg und Formulierung der Antwort gezielt ändern.",
+    "enrichment": "Eingangstext gegenüber eigener Erklärung, unbeabsichtigtes Anerkenntnis und Vergleich, konkrete Nachweise, Vertraulichkeit, Vertretungslage sowie Entschuldigung ohne erfundene Haftungsübernahme.",
+    "limits": "desk review; no live client execution"
+  }
+}

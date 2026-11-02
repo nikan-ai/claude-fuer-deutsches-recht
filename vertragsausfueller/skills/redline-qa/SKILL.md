@@ -1,6 +1,6 @@
 ---
 name: redline-qa
-description: "Wenn es um Redline-QA in Vertragsausfüller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Redline-QA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Redline-QA
@@ -19,10 +19,6 @@ description: "Wenn es um Redline-QA in Vertragsausfüller geht: prüft Frist, Fo
 2. Sind alle Track-Changes-Markierungen angenommen oder abgelehnt oder noch ausstehend?
 3. Entsprechen alle materiellen Änderungen freigegebenen Klauselentscheidungen?
 4. Hat der Mandant die Herausgabe der Redline ausdrücklich bestätigt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -69,6 +65,4 @@ description: "Wenn es um Redline-QA in Vertragsausfüller geht: prüft Frist, Fo
 
 ---
 
-<!-- AUDIT 27.05.2026
-Bundle: bundle_047.json
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

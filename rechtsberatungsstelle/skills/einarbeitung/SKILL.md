@@ -1,6 +1,6 @@
 ---
 name: einarbeitung
-description: "Wenn es um Einarbeitung: Semestereinarbeitung in Plugin für die studentische Rechtsberatungsstelle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einarbeitung: Semestereinarbeitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einarbeitung: Semestereinarbeitung
@@ -28,10 +28,6 @@ Falls die Konfigurationsdatei fehlt oder noch Platzhalter enthält: "Die Beratun
 - **§ 43a Abs. 2 BRAO, § 203 Abs. 3 StGB** — Mandatsgeheimnis und Verschwiegenheitspflicht: Gilt sinngemäß für Studenten als berufsmäßig tätige Gehilfen. Alle Mandantendaten, Fallnotizen und Korrespondenz sind vertraulich. Kein Austausch über Mandate außerhalb der Beratungsstelle.
 - **§§ 1, 2 BerHG** — Beratungshilfe: Häufig in der Mandatsarbeit relevant; Studenten müssen wissen, wann ein Beratungshilfe-Schein vor Leistungsbeginn einzuholen ist.
 - **§§ 114 ff. ZPO** — Prozesskostenhilfe (PKH): Voraussetzungen und typisches Prozedere in der Mandatsarbeit.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -154,3 +150,5 @@ Teil 3, Übung 1: Fiktiver Fall "Frau Erdem — Heizung defekt seit November". H
 Übung 3: `/recherche-start "§ 536 BGB Mietminderung Heizungsausfall"` → Fahrplan mit ungeprüften Normen. Hofer wählt § 536c BGB und erklärt: Prüfung über juris mit Aktualitätsdatum.
 
 Teil 4: Verifikationsgewohnheiten besprochen. Abschluss: `/einarbeitung --karte` aufgerufen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

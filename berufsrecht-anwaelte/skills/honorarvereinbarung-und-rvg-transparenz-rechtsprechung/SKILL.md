@@ -1,6 +1,6 @@
 ---
 name: honorarvereinbarung-und-rvg-transparenz-rechtsprechung
-description: "Wenn es um Honorarvereinbarung Und Rvg Transparenz Rechtsprechung in Berufsrecht Anwälte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Honorarvereinbarung und RVG Transparenz Rechtsprechung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwälte: honorarvereinbarung und rvg transparenz - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
@@ -54,9 +54,11 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Normen & Rechtsprechung
 
+Zur Reichweite und Zeitabrechnung [BGH, Urteil vom 19.02.2026 – IX ZR 226/22, Rn. 8–20 und 23–32](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_226-22.pdf?__blob=publicationFile&v=1): Lege die Honorarabrede zunächst anhand aller Umstände aus und prüfe danach, ob ihr Anwendungsbereich im Text hinreichend Ausdruck findet. Ein formfreier Auftrag erweitert eine bestehende Honorarabrede nicht automatisch. Verlange Mandatsbrief, Verweise, Auftragserweiterungen und konkrete Zeitnachweise. Eine formularmäßige Anerkennung abgerechneter Zeiten allein durch einmonatiges Schweigen ist auch gegenüber Unternehmen unwirksam; der restliche Vertrag bleibt grundsätzlich bestehen. Der ungenügende Kostenerstattungshinweis führt seinerseits nicht automatisch zum vollständigen Honorarverlust. Bei fehlenden Unterlagen keine Pauschalaussage „nur RVG“ treffen.
+
 Konkret zu prüfen:
 
 - § 49b BRAO
-- § 4 RVG (Vergütungsvereinbarung)
+- Paragraf 3a RVG (Vergütungsvereinbarung)
 - § 14 RVG (Rahmengebühr)
-- BGH NJW 2017, 2336
+- BGH, Urteil vom 19.02.2026 – IX ZR 226/22, Rn. 8–20 und 23–32 ([amtlich](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2022/IX_ZR_226-22.pdf?__blob=publicationFile&v=1)): Textform, Reichweite und Zeitnachweis konkret prüfen; keine Anerkenntnisfiktion aus einmonatigem Schweigen auch bei Unternehmern.

@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Gesellschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Gesellschaftsrecht."
 ---
 
 # Einstieg und Routing
@@ -29,7 +29,7 @@ Beiratsfragen sind eine Spezialspur. Nutze sie erst, wenn Satzungsgrundlage, Ent
 - `agio-und-kapitalruecklage` — Agio und Kapitalruecklage
 - `anmeldungen-verhandlung-vergleich-und-eskalation` — Anmeldungen Verhandlung Vergleich und Eskalation
 - `anpassen` — Anpassen
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `mandat-triage-gesellschaftsrecht` — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
 - `arbeitsbereich-mandantenentscheidung` — Arbeitsbereich Mandantenentscheidung
 - `aufsichtsrat-protokoll` — Aufsichtsrat Protokoll
 - `gesellschafterbeschluss` — Beschlussweg, Mehrheit, Form und Dokumentation

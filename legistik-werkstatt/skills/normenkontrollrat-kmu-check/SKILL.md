@@ -1,6 +1,6 @@
 ---
 name: normenkontrollrat-kmu-check
-description: "Wenn es um Normenkontrollrat / KMU-Check in Legistik-Werkstatt geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Normenkontrollrat / KMU-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Normenkontrollrat / KMU-Check
@@ -49,10 +49,6 @@ Seit 2015 Bundesregierungsregel: Jeder neue Bürokratieaufwand für die Wirtscha
 - Pro neuem Aufwand: identifizieren Sie das Pendant zur Entlastung
 - Methodische Hilfe: SKK Standard-Kostenmodell
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 1-8 NKRG (Normenkontrollrat-Gesetz) — § 62 Abs. 1 GGO (NKR-Beteiligung Pflicht) — Art. 5 EUV (EU-Verhältnismäßigkeit, KMU-Test) — Leitlinien KMU-Test Europaeische Kommission COM 2009 (SME-Test)
@@ -77,3 +73,5 @@ Seit 2015 Bundesregierungsregel: Jeder neue Bürokratieaufwand für die Wirtscha
 ## Anschluss
 
 `gesetzesentwurf-kabinett`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

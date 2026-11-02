@@ -1,6 +1,6 @@
 ---
 name: buergergeld-jobcenter-sgb-ii
-description: "Wenn es um Buergergeld — Streit mit dem Jobcenter in selbstvertreter-sozialgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bürgergeld — Streit mit dem Jobcenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Buergergeld — Streit mit dem Jobcenter
@@ -43,7 +43,6 @@ Buergergeld bekommen Sie, wenn Sie wenig Geld haben und arbeitsfaehig sind. Das 
 - **§ 22 SGB II** — KdU.
 - **§ 31 SGB II** — Sanktionen.
 - **§ 41a SGB II** — Vorlaeufige Bewilligung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Anleitung
 
@@ -133,4 +132,4 @@ Jobcenter rechnet alte Forderungen mit Buergergeld auf. Prüfen Sie:
 
 ## Quellen und Aktualitaet
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: anfg-rechtsfolge-rueckgewaehr-11
-description: "Wenn es um Rechtsfolge: Rückgewähr — Paragraf 11 AnfG in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechtsfolge: Rückgewähr — Paragraf 11 AnfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsfolge: Rückgewähr — § 11 AnfG
@@ -19,10 +19,6 @@ description: "Wenn es um Rechtsfolge: Rückgewähr — Paragraf 11 AnfG in berei
 - §§ 888 890 ZPO — Vollstreckung aus Duldungsurteil
 - §§ 812 ff. BGB — Bereicherungsrecht (Gegenleistungs-Rückforderung gegen Schuldner)
 - § 143 InsO — Rechtsfolge Insolvenzanfechtung (Vergleich: dort Rückgewähr zur Masse, hier nur Duldung)
-
-## Rechtsprechung (BGH — Rechtsfolge AnfG)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Grundsatz
 
@@ -57,3 +53,5 @@ Hat der Anfechtungsgegner eine Gegenleistung erbracht, kann er bei Rückgewähr 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

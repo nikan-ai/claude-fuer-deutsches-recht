@@ -1,6 +1,6 @@
 ---
 name: franchisenehmer-exit-qualitaetsgate
-description: "Wenn es um Franchiserecht: Franchisenehmer-Exit-Plan in Franchiserecht Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Franchiserecht: Franchisenehmer-Exit-Plan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Franchiserecht: Franchisenehmer-Exit-Plan
@@ -77,6 +77,4 @@ Die Übertragung des Franchisebetriebs an einen Nachfolger ist eine oft überseh
 
 ## Abgrenzung und Einordnung
 
-Franchiserecht ist in Deutschland kein eigener gesetzlich geregelter Vertragstyp. Die Rechtsordnung wendet typenverwandte Normen an: BGB-Schuldrecht für Vertragspflichten und Haftung, HGB für handelsrechtliche Besonderheiten, MarkenG für Schutzrechte, GWB und Vertikal-GVO EU 2022/720 für kartellrechtliche Grenzen sowie GeschGehG für Know-how-Schutz. Der BGH hat mit NJW 2003 S. 743 die vorvertragliche Aufklärungspflicht des Franchisegebers grundlegend geprägt. Der Code of Ethics des Deutschen Franchiseverbands (DFV) setzt branchenübliche Mindeststandards, ist aber kein Gesetz.
-
-## Abgrenzung und Einordnung
+Franchiserecht ist in Deutschland kein eigener gesetzlich geregelter Vertragstyp. Die Rechtsordnung wendet typenverwandte Normen an: BGB-Schuldrecht für Vertragspflichten und Haftung, HGB für handelsrechtliche Besonderheiten, MarkenG für Schutzrechte, GWB und Vertikal-GVO EU 2022/720 für kartellrechtliche Grenzen sowie GeschGehG für Know-how-Schutz. Der Code of Ethics des Deutschen Franchiseverbands (DFV) setzt branchenübliche Mindeststandards, ist aber kein Gesetz.

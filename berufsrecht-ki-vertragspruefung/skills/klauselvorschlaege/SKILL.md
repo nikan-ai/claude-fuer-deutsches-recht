@@ -1,6 +1,6 @@
 ---
 name: klauselvorschlaege
-description: "Wenn es um Klauselvorschläge — Bausteine in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix Stichwort für die Auswahl: Klauselvorschlaege."
+description: "Für Klauselvorschläge — Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: klauselvorschlaege."
 ---
 
 # Klauselvorschläge — Bausteine
@@ -30,7 +30,7 @@ Die folgenden Klauselvorschläge sind modular. Sie können einzeln oder als Pake
 
 ## Baustein 2 — Strafrechtliche Belehrung
 
-> Der Anbieter ist über die strafrechtlichen Folgen einer Verletzung der Verschwiegenheitspflicht nach § 203 Abs. 4 StGB und § 204 StGB belehrt. Der Anbieter verpflichtet seine eigenen Mitarbeiter und alle eingebundenen Subunternehmer in Textform (§ 126b BGB) zur Verschwiegenheit und belehrt sie ebenfalls über §§ 203, 204 StGB. Die Belehrung umfasst auch die gewerbsmäßige Variante nach § 203 Abs. 6 StGB. Der Normtext der §§ 203, 204 StGB ist als Anlage 1 Bestandteil dieses Vertrags.
+> Der Anbieter ist über die strafrechtlichen Folgen einer Verletzung der Verschwiegenheitspflicht nach § 203 Abs. 4 StGB und § 204 StGB belehrt. Der Anbieter verpflichtet seine eigenen Mitarbeiter und alle eingebundenen Subunternehmer in Textform (§ 126b BGB) zur Verschwiegenheit und belehrt sie ebenfalls über §§ 203, 204 StGB. Die Belehrung umfasst auch die höhere Strafandrohung bei Handeln gegen Entgelt oder in Bereicherungs- beziehungsweise Schädigungsabsicht nach Paragraf 203 Absatz 6 StGB. Der Normtext der §§ 203, 204 StGB ist als Anlage 1 Bestandteil dieses Vertrags.
 
 ## Baustein 3 — Erforderlichkeitsschwelle Kenntnis
 
@@ -107,16 +107,14 @@ Anlage 1 zum Vertrag — Strafrechtliche Belehrung
 - Beim Subunternehmer-Zustimmungsvorbehalt (Baustein 4) wehren sich Anbieter, weil ihre Lieferkette dann statisch wird; ein Widerspruchsrecht mit kurzer Frist ist ein realistischer Kompromiss.
 - "no training" (Baustein 5) ist heute Marktstandard und sollte verbindlich werden, nicht nur Default-Setting in einem Account.
 
-## Aktuelle Rechtsprechung zur AGB-Kontrolle
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
+
+Gezielter Normcheck am 16.10.2026: [Paragraf 203 StGB](https://www.gesetze-im-internet.de/stgb/__203.html), Absätze 4 und 6, gelesen. Nur Strafrechtszuordnung und Belehrungsbaustein abgeglichen; keine neue Vollprüfung der übrigen Vertragsklauseln.
 
 - §§ 305–310 BGB — AGB-Kontrolle; § 307 BGB (Unangemessene Benachteiligung)
 - § 126b BGB — Textform für Verpflichtungserklärungen
 - §§ 43e Abs. 3, 62a Abs. 3, 50a Abs. 3, 39c Abs. 3, 26a Abs. 3 — Vertragsinhalt Dienstleisterregelung
-- § 203 Abs. 4 Satz 2 Nr. 1 StGB — Sekundärpflicht des Dienstleisters
+- Paragraf 203 Absatz 4 Satz 2 Nummer 2 StGB: Weiterbeauftragung einer weiteren mitwirkenden Person; fehlende Sorge für deren Verpflichtung allein genügt nicht, erforderlich ist die dort beschriebene unbefugte Offenbarung.
 
 ## Triage zu Beginn
 
@@ -159,3 +157,4 @@ Bei Nichtunterzeichnung bis [FRIST]: Vertragskuendigung zum [DATUM].
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

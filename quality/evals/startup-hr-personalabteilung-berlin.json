@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "plugin": "startup-hr-personalabteilung-berlin",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+      "checked_on": "2026-09-14",
+      "supports": "Mitbestimmung insbesondere bei Arbeitszeitgestaltung und technischen Einrichtungen zur Überwachung von Verhalten oder Leistung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/arbschg/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Aktueller amtlicher Normtext zur Prüfung: Paragraf 3 Absatz 2 Nummer 1 ArbSchG; Paragraf 87 Absatz 1 Nummer 7 BetrVG. Keine Gesamtverifikation sämtlicher Nebenmaterien."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/1-abr-22-21/",
+      "checked_on": "2026-09-22",
+      "supports": "BAG, Beschluss vom 13.09.2022, 1 ABR 22/21: Beginn und Ende einschließlich Überstunden erfassen; Betriebsrat gestaltet gesetzlich offenen Rahmen mit, entscheidet nicht über das gesetzliche Ob. Grenze/Prüftiefe: Volltext Rn. 42 bis 43 und 60 bis 67; keine Pflicht zu elektronischer Form und keine Erlaubnis dauernder Bildschirmüberwachung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Text zur Mitbestimmung gelesen; konkrete Systemausgestaltung und gesetzliche Zeiterfassungspflicht getrennt behandeln."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Fachliche Startvarianten und konkrete Antwortfortsetzung einzeln geprüft. Technische Konfiguration und Anbieterversprechen, Bruttoanspruch und tatsächliche Auszahlung sowie Beschwerde, Schutzmaßnahme und Sanktion trennen; Austrittsorganisation nicht als wirksame Kündigung behandeln. Redaktioneller Nachtrag 16.10.2026: Vorhandenen Zeiterfassungsanker vor den Dialogeinstieg verschoben; Erfassungspflicht, Mitbestimmung und zusätzliche Überwachung bleiben getrennt. Verweis in der Werkstatt angepasst. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Arbeitszeiterfassung von Bildschirmkontrolle getrennt; Mitbestimmung über Ausgestaltung und Datenschutzprüfung statt pauschaler Systemfreigabe.",
+      "Kernfall mit operativem Entscheidungsanker, gezielten Nachfragen und Fortsetzung zum vollständigen angeforderten Dokument.",
+      "Leerstart: Vertrags-/Abrechnungskorrektur, Zeiterfassung mit Beteiligung oder Beschwerdebearbeitung wählen.",
+      "Nachweislich abgeschaltete Screenshots verändern die Rollout-Vorlage nur für die verbleibenden Funktionen; neue Zeitbuchung verändert Monatskorrektur und Mitarbeiterschreiben.",
+      "Technische Konfiguration und Anbieterversprechen, Bruttoanspruch und tatsächliche Auszahlung sowie Beschwerde, Schutzmaßnahme und Sanktion trennen; Austrittsorganisation nicht als wirksame Kündigung behandeln."
+    ],
+    "sha256": "22951e8c40f568b699484df4031cef5c16f4470da0eacfaa0590da3850c5f653",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie die Einführung einer digitalen Zeiterfassung mit Betriebsrat in unserem Berliner Unternehmen.",
+      "Erstellen Sie eine fallbezogene HR-Entscheidungsvorlage vor einer Personalmaßnahme."
+    ],
+    "negative": [
+      "Planen Sie eine Finanzierungsrunde ohne Personalbezug.",
+      "Führen Sie ein sozialgerichtliches Rentenverfahren für eine ehemalige Mitarbeiterin."
+    ]
+  },
+  "cases": [
+    {
+      "id": "zeiterfassung-mit-bildschirmkontrolle",
+      "request": "Ein Berliner Softwareunternehmen mit 100 Beschäftigten und bestehendem Betriebsrat will ab Montag ein neues Zeiterfassungssystem aktivieren. Es soll Beginn und Ende der Arbeit erfassen, zusätzlich alle fünf Minuten Bildschirmfotos speichern und Tastaturaktivität personenbezogen auswerten. Die Leitung begründet sämtliche Funktionen allein mit der Pflicht zur Arbeitszeiterfassung. Der Betriebsrat wurde noch nicht beteiligt; eine Betriebsvereinbarung fehlt. Zweck, Zugriff und Löschfristen der Bildschirmdaten wurden nicht festgelegt. Erstellen Sie ergebnis.md als Entscheidungsvorlage für HR mit getrennten offenen Freigabepunkten und einem kurzfristigen Vorgehen. Nehmen Sie keine Systemänderung vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Ausgabe unterscheidet die Erfassung von Arbeitszeiten von zusätzlicher Bildschirm- und Tastaturüberwachung und leitet deren Zulässigkeit nicht pauschal aus einer Zeiterfassungspflicht ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die konkret vorhandene Betriebsratsbeteiligung wird insbesondere wegen technischer Verhaltens- oder Leistungskontrolle geprüft; fehlende Beteiligung wird nicht durch einseitige HR-Freigabe ersetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Datenschutzfragen zu Zweck, Erforderlichkeit, Zugriff und Löschung bleiben eigenständige Prüfungen; selbst eine spätere Betriebsvereinbarung wird nicht als automatische Heilung sämtlicher Datenschutzmängel dargestellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "berlin-kaltstart-routing-hr-command-center"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Vollständige Werkstatt mit zusätzlichen fachlichen Entscheidungs- und Dokumentwegen einzeln geprüft. Technische Konfiguration und Anbieterversprechen, Bruttoanspruch und tatsächliche Auszahlung sowie Beschwerde, Schutzmaßnahme und Sanktion trennen; Austrittsorganisation nicht als wirksame Kündigung behandeln. Redaktioneller Nachtrag 16.10.2026: Vorhandenen Zeiterfassungsanker vor den Dialogeinstieg verschoben; Erfassungspflicht, Mitbestimmung und zusätzliche Überwachung bleiben getrennt. Verweis in der Werkstatt angepasst. Vorhandene Quellenbefunde übernommen; kein neuer Volltextabruf und kein Live-Modelltest.",
+    "changes": [
+      "Arbeitszeiterfassung von Bildschirmkontrolle getrennt; Mitbestimmung über Ausgestaltung und Datenschutzprüfung statt pauschaler Systemfreigabe.",
+      "Vorhandene Fachzweige, Beispiele und Zugriffsalternativen erhalten; schwache Rechtsprechungshinweise entfernt oder auf belegte Reichweite begrenzt.",
+      "Leerstart: Vertrags-/Abrechnungskorrektur, Zeiterfassung mit Beteiligung oder Beschwerdebearbeitung wählen.",
+      "Nachweislich abgeschaltete Screenshots verändern die Rollout-Vorlage nur für die verbleibenden Funktionen; neue Zeitbuchung verändert Monatskorrektur und Mitarbeiterschreiben.",
+      "Technische Konfiguration und Anbieterversprechen, Bruttoanspruch und tatsächliche Auszahlung sowie Beschwerde, Schutzmaßnahme und Sanktion trennen; Austrittsorganisation nicht als wirksame Kündigung behandeln."
+    ],
+    "sha256": "a41722c456158ca9ed2a2c9635cf4d6998278d540b77c568b1b088aa4a3eae4c",
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "startup-hr-personalabteilung-berlin/README.md",
+      "startup-hr-personalabteilung-berlin/startup-hr-personalabteilung-berlin-werkstatt.md",
+      "startup-hr-personalabteilung-berlin/startup-hr-personalabteilung-berlin-schnellstart.md",
+      "quality/evals/startup-hr-personalabteilung-berlin.json"
+    ],
+    "opening_change": "Konkrete Personalmaßnahme mit Vertrag, Zeitdaten, Abrechnung und Betriebsratsbeteiligung bearbeiten",
+    "norms": [
+      "Paragraf 3 Absatz 2 Nummer 1 ArbSchG",
+      "Paragraf 87 Absatz 1 Nummer 7 BetrVG"
+    ],
+    "decisions": [
+      {
+        "citation": "BAG, Beschluss vom 13.09.2022, 1 ABR 22/21",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/1-abr-22-21/",
+        "application": "Beginn und Ende einschließlich Überstunden erfassen; Betriebsrat gestaltet gesetzlich offenen Rahmen mit, entscheidet nicht über das gesetzliche Ob.",
+        "limit": "Volltext Rn. 42 bis 43 und 60 bis 67; keine Pflicht zu elektronischer Form und keine Erlaubnis dauernder Bildschirmüberwachung.",
+        "checked_on": "2026-09-22",
+        "verification_status": "wiederverwendeter_dokumentierter_profilstand"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenprüfung, kein Live-Client- oder Modelltest; übrige Fachzweige nicht vollständig rechtlich neu verifiziert.",
+      "Volltext Rn. 42 bis 43 und 60 bis 67; keine Pflicht zu elektronischer Form und keine Erlaubnis dauernder Bildschirmüberwachung.",
+      "Workflow-Vertiefung 2026-09-23: BAG 1 ABR 22/21 mit bestehender Reichweite erhalten; keine vollständige neue Prüfung aller arbeits-, datenschutz- und abrechnungsrechtlichen Spezialfragen oder tatsächliche Systemprüfung. Desk review; keine Live-Client-Ausführung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerstart: Vertrags-/Abrechnungskorrektur, Zeiterfassung mit Beteiligung oder Beschwerdebearbeitung wählen.",
+      "Dateien: relevante Personalunterlagen still lesen und nur den konkreten Vorgang klären.",
+      "Klarer Auftrag: Mitarbeiterschreiben, Korrekturauftrag oder Beteiligungsvorlage unmittelbar verfassen."
+    ],
+    "continuation": "Nachweislich abgeschaltete Screenshots verändern die Rollout-Vorlage nur für die verbleibenden Funktionen; neue Zeitbuchung verändert Monatskorrektur und Mitarbeiterschreiben.",
+    "enrichment": "Technische Konfiguration und Anbieterversprechen, Bruttoanspruch und tatsächliche Auszahlung sowie Beschwerde, Schutzmaßnahme und Sanktion trennen; Austrittsorganisation nicht als wirksame Kündigung behandeln.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "startup-hr-personalabteilung-berlin/references/ki-normen-und-fallpruefung.md",
+    "focus": "Vergleichen Sie reine Terminorganisation mit Auswahl, Ranking und Profiling von Bewerbenden. Eine abschließende Unterschrift der Personalleitung widerlegt maßgeblichen Systemeindruck nicht ohne tatsächliche Kontrollbelege.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

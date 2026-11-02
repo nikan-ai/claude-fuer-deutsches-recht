@@ -1,6 +1,6 @@
 ---
 name: fristenbuch-steuerrecht-onboarding-fristen-uebersicht
-description: "Wenn es um Fristenbuch Steuerrecht in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fristenbuch Steuerrecht Onboarding Fristen Uebersicht; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Fristenbuch Steuerrecht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: fristenbuch-steuerrecht-onboarding-fristen-uebersicht."
 ---
 
 # Fristenbuch Steuerrecht
@@ -19,8 +19,6 @@ Fristenbuch für steuerrechtliche Verfahren pflegen und Fristen berechnen. Anwen
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fristenbuch Steuerrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -32,10 +30,6 @@ Fristenbuch für steuerrechtliche Verfahren pflegen und Fristen berechnen. Anwen
 3. Fehlt die Rechtsbehelfsbelehrung oder ist sie fehlerhaft? → Jahresfrist (§ 356 AO), aber nicht warten — so früh wie möglich handeln
 4. Liegt bereits Fristversäumnis vor? → Wiedereinsetzung § 110 AO prüfen (Frist ein Monat nach Wegfall des Hindernisses)
 5. Besteht Festsetzungsverjährungs-Problematik (§ 169 AO)? → Ablaufhemmung prüfen (§ 171 AO)
-
-## Aktuelle Rechtsprechung (Fristen)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentralablage
 
@@ -139,3 +133,4 @@ Fristenbuch für steuerrechtliche Verfahren pflegen und Fristen berechnen. Anwen
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: stb-susa-formfehler-pruefen
-description: "Wenn es um SuSa-Pruefung — Formfehler, Plausibilitaet, Differenzen in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für SuSa-Prüfung — Formfehler, Plausibilität, Differenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: stb-susa-formfehler-pruefen."
 ---
 
 # SuSa-Pruefung — Formfehler, Plausibilitaet, Differenzen
@@ -132,7 +132,6 @@ Stand: 05/2026.
 - BMF v. 28.11.2019 zu GoBD.
 - IDW PS 480.
 
-<!-- AUDIT 27.05.2026 | welle 6 | 2 Marker aufgeloest: 2 ersetzt (DATEV-Kontonummern-Hinweise ohne Marker neu formuliert) -->
 
 
 ## Qualitäts-Hardening

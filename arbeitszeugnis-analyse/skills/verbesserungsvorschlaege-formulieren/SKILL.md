@@ -1,13 +1,13 @@
 ---
 name: verbesserungsvorschlaege-formulieren
-description: "Wenn es um Verbesserungsvorschläge formulieren in Arbeitszeugnis-Analyse geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verbesserungsvorschläge formulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verbesserungsvorschläge formulieren
 
 ## Fachlicher Anker
 
-- **Normen:** Paragrafen 611a, Paragrafen 1, Paragrafen 14.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
@@ -74,11 +74,6 @@ Begründung: "war in der Lage" (theoretische Fähigkeit) wird zu "löste" (tats�
 - **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
 - **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
 ## Leitentscheidungs-Anker (Notenstufen & Beweislast)
 
 > Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
@@ -110,3 +105,5 @@ Begründung: "war in der Lage" (theoretische Fähigkeit) wird zu "löste" (tats�
 2. **Ergebnis statt Wille** - "bemueht" und "in der Lage" durch konkrete Erfolgsaussage ersetzen.
 3. **Reihenfolge im Verhaltensteil** - Vorgesetzte vor Kollegen vor Kunden (oder branchenueblich begruendet). Reihenfolge ist Berichtigungspunkt.
 4. **Schlussformel in drei Elementen** - Bedauern, Dank, Wunsch. Vollstaendigkeit ist Verhandlungspunkt, kein automatischer Klageanspruch.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

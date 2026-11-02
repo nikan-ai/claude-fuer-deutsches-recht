@@ -1,6 +1,6 @@
 ---
 name: unterlagen-luecken
-description: "Wenn es um Unterlagen und Lücken in Fachanwalt Insolvenz- und Sanierungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: Fachanwalt Insolvenz- und Sanierungsrecht."
 ---
 
 # Unterlagen und Lücken
@@ -12,8 +12,8 @@ Diese Unterlagenprüfung für **Fachanwalt Insolvenz Sanierungsrecht** benennt f
 ## Fachlandkarte dieses Plugins
 
 - `absonderungsrecht-paragraf-50-inso` — Absonderungsrecht Paragraf 50 Inso
-- `anfechtung-vorsatz-paragraf-133-inso-bgh-ix-zr-65-16` — Anfechtung Vorsatz Paragraf 133 Inso BGH IX ZR 65 16
-- `eigenverwaltung-schutzschirm-paragraf-270b-inso` — Eigenverwaltung Schutzschirm Paragraf 270b Inso
+- `vorsatzanfechtung-paragraf-133-inso-pruefen` — Vorsatzanfechtung nach Paragraf 133 InsO prüfen
+- `eigenverwaltung-schutzschirm-paragraf-270b-inso` — Eigenverwaltung Paragraf 270b und Schutzschirm Paragraf 270d InsO
 - `eroeffnung-behoerden-gericht-und-registerweg` — Eroeffnung Fachanwalt FAO Gläubigerantrag
 - `fa-inso-sanierung-quellen-edge-case` — FA Inso Sanierung Quellen Edge Case
 - `fa-insolvenz-schuldschein-und-lma` — FA Schuldschein
@@ -23,7 +23,7 @@ Diese Unterlagenprüfung für **Fachanwalt Insolvenz Sanierungsrecht** benennt f
 - `einstieg-schnelltriage-fallrouting` — Insanw Fortbestehensprognose
 - `insolvenz-tatbestand-beweis-und-belege` — Insolvenz Insolvenzanfechtung Insolvenzrecht
 - `insolvenzgeld-paragraf-165-sgb-iii` — Insolvenzgeld Paragraf 165 SGB III
-- `insolvenzplan-paragraf-217-inso-bgh-ix-zb-66-19` — Insolvenzplan Paragraf 217 Inso BGH IX ZB 66 19
+- `insolvenzplan-paragraf-217-inso-planinhalt-pruefen` — Insolvenzplan nach Paragraf 217 InsO prüfen
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake
 

@@ -1,6 +1,6 @@
 ---
 name: betriebshaftpflicht-versicherungsfall-serienschaden
-description: "Wenn es um Betriebshaftpflicht: Versicherungsfall und Serienschaden in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Betriebshaftpflicht: Versicherungsfall und Serienschaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Betriebshaftpflicht: Versicherungsfall und Serienschaden
@@ -41,25 +41,3 @@ VVG §§ 100–124; AVB/BHV; BGB Delikt/Vertrag; ZPO Streitverkündung.
 
 - produkthaftpflicht-rueckrufkosten
 - subrogation-regress-86-vvg
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 19 VVG
-- § 28 VVG
-- § 115 VVG
-- § 86 VVG
-- § 1 VVG
-- § 100 VVG
-- § 193 VVG
-- § 1 VAG
-- § 294 VAG
-- § 215 VVG
-- § 22 VVG
-- § 14 VVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

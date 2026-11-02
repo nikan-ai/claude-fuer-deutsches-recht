@@ -1,6 +1,6 @@
 ---
 name: betreuer-als-erbe
-description: "Wenn es um Betreuer als Erbe und Beschenkter in Betreuungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Betreuer Als Erbe; Arbeitsfeld: Betreuungsrecht."
+description: "Für Betreuer als Erbe und Beschenkter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: betreuer-als-erbe."
 ---
 
 # Betreuer als Erbe und Beschenkter
@@ -15,7 +15,6 @@ Der Skill greift nicht, wenn der Bedachte **ehrenamtlicher** Betreuer im Sinne d
 
 - BGH, Urteil vom 02.07.2025 - IV ZR 93/24: Strukturanaloge Bestätigung der Trennung von Berufsrecht und Erbrecht. Eine Zuwendung von Todes wegen an den behandelnden Arzt ist nicht deshalb unwirksam, weil sie gegen § 32 Abs. 1 S. 1 (M)BO-Ä verstößt. Die Berufsordnung ist kein Verbotsgesetz i.S.d. § 134 BGB; die Testierfreiheit (Art. 14 GG) überwiegt; § 138 BGB bleibt Einzelfallprüfung. Übertragbarkeit der Argumentationsstruktur auf § 30 BtOG-Konstellationen ist sehr nahe liegend, BGH hat zu § 30 BtOG aber noch nicht ausdrücklich entschieden. Quelle: bundesgerichtshof.de PM 2025/2025122.html.
 - OLG Nürnberg (Live-Verifikation erforderlich für Aktenzeichen und Datum): bestätigte vor BGH-Entscheidung bereits, dass § 30 BtOG kein § 134 BGB-Verbotsgesetz ist, das Testament wirksam bleibt, aber berufsrechtliche Sanktion droht.
-- Weitere Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über bundesgerichtshof.de, dejure.org oder openjur.de verifizieren.
 
 ## Pflichtbestandteile der Antwort
 
@@ -152,28 +151,7 @@ Die Faustformel "Berufsbetreuer darf nicht erben" ist daher zu pauschal und in d
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Pinpoint-Zitierung mit Randnummer und juengere Entscheidungen zuerst.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 278 FamFG
-- § 5 BtOG
-- § 274 FamFG
-- § 280 FamFG
-- § 30 BtOG
-- § 23 BtOG
-- § 8 BtOG
-- § 293 FamFG
-- § 292 FamFG
-- § 299 FamFG
-- § 312 FamFG
-- § 319 FamFG
-
-### Leitentscheidungen
-
-- BGH XII ZB 174/18
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

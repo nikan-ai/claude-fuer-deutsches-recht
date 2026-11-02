@@ -1,6 +1,6 @@
 ---
 name: erwerbsminderungsrente
-description: "Wenn es um Erwerbsminderungsrente in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erwerbsminderungsrente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Versicherter erhielt Ablehnung der Erwerbsminderungsrente oder ist ausgesteuert und fragt nach Rentenanspruch
@@ -10,7 +10,7 @@ description: "Wenn es um Erwerbsminderungsrente in Fachanwalt Sozialrecht geht: 
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: SGG §§ 51, 78, 87, 90, 130a, 144, 160, 183, 193, SGB I, II, III, V, VI, IX, X; § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch; § 84 SGG Klage; § 87 SGG Eilantrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: Nur das im Skill betroffene Sozialgesetzbuch und die konkrete Verfahrensnorm heranziehen. Widerspruchsfrist nach Paragraf 84 SGG, Klagefrist nach Paragraf 87 SGG und einstweiliger Rechtsschutz nach Paragraf 86b SGG strikt trennen; Rechtsweg, Statthaftigkeit, aufschiebende Wirkung und Rechtsmittel gesondert prüfen.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -20,8 +20,6 @@ description: "Wenn es um Erwerbsminderungsrente in Fachanwalt Sozialrecht geht: 
 
 ## Fachlicher Kern — Sozialrecht und Sozialversicherungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Erwerbsminderungsrente (§§ 43, 240 SGB VI)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** SGB I, IV § 7 und § 7a, V, VI, VII, IX, X §§ 20, 24, 44, 45, 48, 50, 60 ff.; SGB II, XII; SGG §§ 54, 86a, 86b, 87, 90, 103, 109, 144, 151, 160; Pflegebegutachtung/MD-Richtlinien live prüfen.
-- **Verifizierte Anker:** BSG, Urteil vom 05.11.2024 - B 12 BA 3/23 R (Lehrer/Dozenten: Status immer einzelfallabhängig); BSG, Urteil vom 23.04.2024 - B 12 BA 9/22 R (Pilot/Freelancer, Eingliederung und unternehmerisches Risiko); BSG, Urteil vom 01.02.2022 - B 12 KR 37/19 R und Urteil vom 20.02.2024 - B 12 KR 1/22 R (GmbH-Geschäftsführer, Sperrminorität/mittelbare Beteiligung).
 - **Arbeitsmodus:** Immer Verwaltungsakt, Frist, Widerspruch/Klage/eA, Amtsermittlung, medizinische Tatsachen, Mitwirkungspflichten und Beweisgutachten trennen; bei Status § 7 SGB IV: tatsächliche Eingliederung, Weisung, Rechtsmacht und Unternehmerrisiko abgleichen.
 - **Outputpflicht:** Bescheidanalyse in einfacher Sprache, Widerspruch, eA-Antrag, Statusmatrix, medizinische Beweisfragen, Belegliste, Fristenplan oder SG-Schriftsatz.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -177,7 +175,6 @@ Belegt durch:
 - Reha-Entlassungsbericht [Klinik] vom [Datum] (Anlage W4)
 
 Die Erkrankungen sind in ihrer Gesamtwirkung zu beurteilen
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 [Falls 3–6 Stunden angenommen wird:]
 IV. Verschlossener Teilzeitarbeitsmarkt
@@ -198,7 +195,6 @@ Unsere Mandantschaft hat Geburtsjahrgang [Jahr] und fällt
 damit in den Anwendungsbereich des § 240 SGB VI. Sie ist
 als [Beruf] im bisherigen Beruf nicht mehr zu sechs Stunden
 täglich einsetzbar. Eine sozial und gesundheitlich zumutbare
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 worden.
 
 Wir beantragen:
@@ -297,7 +293,7 @@ Mit freundlichen Grüßen
 | Streitwert EM-Rente (Vollrente) | 13-facher monatlicher Rentenwert (§ 42 GKG i.V.m. § 9 ZPO analog) |
 | Gerichtskosten SG | Kostenfrei § 183 SGG |
 | Anwaltskosten | PKH/LSG prüfen; sonst ca. EUR 1200 bis 2000 (erste Instanz) |
-| § 109-Gutachten | EUR 800 bis 3000; Vorschuss Kläger, Erstattung bei Erfolg |
+| § 109-Gutachten | Vorschuss nach Paragraf 109 Absatz 1 Satz 2 SGG; spätere Übernahme auf die Staatskasse gesondert prüfen, keine automatische Erstattung allein bei Obsiegen und keine PKH-Deckung |
 | LSG-Berufung | Streitwert > EUR 750 (§ 144 Abs. 1 SGG) |
 
 ---
@@ -348,3 +344,5 @@ Mit freundlichen Grüßen
 - Weitere Rechtsprechung vor Verwendung live in dejure.org / openjur.de / bsg.bund.de verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

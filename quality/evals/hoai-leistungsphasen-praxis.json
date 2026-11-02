@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "plugin": "hoai-leistungsphasen-praxis",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/hoai_2013/__8.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlicher Suchauszug mit Absätzen 1 bis 3 gelesen: übertragene Phasen und Grundleistungsanteile; Direktabruf hatte Zeitüberschreitung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2019/VII_ZR_174-19A.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 02.06.2022, VII ZR 174/19, Rn. 17–29: Mindestsatzaufstockung aus HOAI-2013-Altvertrag zwischen Privaten nicht allein wegen Richtlinienverstoßes ablehnen; damalige Ausnahme und konkreten Vertrauensschutz prüfen. Grenze: Reiner Inlandssachverhalt zwischen Privaten; keine Übertragung auf HOAI 2021, öffentliche Auftraggeber oder fehlenden Stufenabruf."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hoai_2013/__7.html",
+      "checked_on": "2026-09-22",
+      "supports": "Textformvereinbarung, Basishonorarsatz und nur nach unten wirkende Folge fehlenden Verbraucherhinweises."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hoai_2013/__8.html",
+      "checked_on": "2026-09-22",
+      "supports": "Übertragene Phasen und Grundleistungsanteile; Textform gesonderter Koordinierungsvergütung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hoai_2013/__10.html",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlichen Volltext gelesen: Anpassung der Berechnungsgrundlage und Vereinbarung wiederholter Grundleistungen in Textform; neue Planfassung allein kein Nachweis vergütungspflichtiger Änderung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Vollständig gelesen; Stufen-, Leistungs- und Rechnungsabgleich erhalten. Honorarvereinbarung und Verbraucherhinweis sowie historische Mindestsatzgrenze konkretisiert. Individuelle redaktionelle Quellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Abruf, Leistung und Honorar früh getrennt; Altvertrags-Mindestsatzentscheidung zeitlich und personell begrenzt. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "VII ZR 174/19 mit Inland-/Privatparteigrenze und konkretem Vertrauensschutz angewandt.",
+      "Paragraf 7 HOAI: fehlender Verbraucherhinweis senkt höheres, erhöht aber kein niedriger vereinbartes Honorar.",
+      "Paragraf 8 und Stufenabruf bleiben getrennt von Mangelrechten; Überschriften dezimal vereinheitlicht.",
+      "Eigenständige Einstiege und fachbezogene Antwortfortsetzung ergänzt.",
+      "Einstiegsredaktion 16.10.2026: Abruf, Leistung und Honorar früh getrennt; Altvertrags-Mindestsatzentscheidung zeitlich und personell begrenzt."
+    ],
+    "sha256": "de84ddecf91af69ca7cf4cabf96c846bf39bacb56ba4fe338a2f33cf14f34881"
+  },
+  "selection": {
+    "positive": [
+      "Gleiche abgerufene Planungsstufen mit der Architektenrechnung ab.",
+      "Ordne fehlende Grundleistungen und Nachtragsforderungen nach Planständen."
+    ],
+    "negative": [
+      "Prüfe ausschließlich den Werklohn des Rohbauunternehmers nach VOB/B.",
+      "Berechne die Grunderwerbsteuer für den Grundstückskauf."
+    ]
+  },
+  "cases": [
+    {
+      "id": "nicht-abgerufene-planungsstufe",
+      "request": "Ein Architektenvertrag vom Februar 2025 sieht Stufe 1 mit Leistungsphasen 1 bis 3 für pauschal 24.000 Euro netto vor; Stufe 2 mit Phasen 4 und 5 kostet 28.000 Euro netto und bedarf laut wirksamer Vertragsklausel eines ausdrücklichen schriftlichen Abrufs. Stufe 1 ist unstreitig vollständig erbracht, abgenommen und mit 15.000 Euro netto angezahlt. Stufe 2 wurde weder abgerufen noch bearbeitet. Die Rechnung verlangt 52.000 Euro netto abzüglich 15.000 Euro und begründet die Einbeziehung der Stufe 2 allein mit ihrer Erwähnung im Vertrag. Es geht nicht um Kündigungsvergütung. Erstelle ergebnis.md als Rechnungsabgleich und Antwortentwurf.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet die bloße Vertragsoption von einem tatsächlichen Abruf und akzeptiert Stufe 2 nicht als erbrachte, beauftragte Leistung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Berechnet 9.000 Euro netto verbleibend für Stufe 1 und eine Differenz von 28.000 Euro gegenüber dem verlangten Nettosaldo von 37.000 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bleibt bei vereinbarten Pauschalen und dem vorgegebenen Abnahmestand, statt fehlende Kostenparameter oder eine Kündigung zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "stufenbeauftragung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Alle Leistungsphasen, Honorar-, Haftungs- und Förderzweige gelesen und erhalten. Aktuelles Preisrecht von verifiziertem Altvertragsurteil getrennt; EuGH-Hinweise als nicht eigenständig verifiziert ausgewiesen. Individuelle redaktionelle Quellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Abruf, Leistung und Honorar früh getrennt; Altvertrags-Mindestsatzentscheidung zeitlich und personell begrenzt. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "VII ZR 174/19 mit Inland-/Privatparteigrenze und konkretem Vertrauensschutz angewandt.",
+      "Paragraf 7 HOAI: fehlender Verbraucherhinweis senkt höheres, erhöht aber kein niedriger vereinbartes Honorar.",
+      "Paragraf 8 und Stufenabruf bleiben getrennt von Mangelrechten; Überschriften dezimal vereinheitlicht.",
+      "Planindex und Änderungsgrund, Textform nach Paragraf 10, nicht abgerufene versus mangelhafte Leistung, Kostenbasis, Abschläge und Kontrolle verdeckter Bauteile.",
+      "Einstiegsredaktion 16.10.2026: Abruf, Leistung und Honorar früh getrennt; Altvertrags-Mindestsatzentscheidung zeitlich und personell begrenzt."
+    ],
+    "sha256": "db7a53ac51027a872b6fd44d6108d94ec56dc2089f1515a677ceeef5dfa82545"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "hoai-leistungsphasen-praxis/hoai-leistungsphasen-praxis-werkstatt.md",
+      "hoai-leistungsphasen-praxis/hoai-leistungsphasen-praxis-schnellstart.md",
+      "hoai-leistungsphasen-praxis/README.md",
+      "quality/evals/hoai-leistungsphasen-praxis.json"
+    ],
+    "opening_change": "Beauftragung, Abruf, Erbringung und Abnahme mit abgerechnetem Honorar abgleichen.",
+    "norms": [
+      "Paragrafen 7 und 8 HOAI",
+      "Paragrafen 34 und 35 HOAI und Anlage 10",
+      "Paragrafen 650p bis 650t BGB",
+      "Paragraf 242 BGB",
+      "Artikel 15 Absätze 1 bis 3 der Richtlinie 2006/123/EG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 02.06.2022, VII ZR 174/19, Rn. 17–29",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2019/VII_ZR_174-19A.pdf?__blob=publicationFile&v=1",
+        "application": "Mindestsatzaufstockung aus HOAI-2013-Altvertrag zwischen Privaten nicht allein wegen Richtlinienverstoßes ablehnen; damalige Ausnahme und konkreten Vertrauensschutz prüfen.",
+        "limit": "Reiner Inlandssachverhalt zwischen Privaten; keine Übertragung auf HOAI 2021, öffentliche Auftraggeber oder fehlenden Stufenabruf.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenreview, kein Live-Modelltest.",
+      "BGH-Urteilsgründe und aktuelle Paragrafen 7 und 8 vollständig gelesen. EuGH-Volltexte und technische DIN-/VDI-Regelwerke nicht eigenständig neu verifiziert; keine Gesamtprüfung des HOAI-Preisrechts.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Honorar, Nachtrag oder Überwachungsmangel wählen.",
+      "Vertrag und Planstände still lesen; Rechnungseinwand oder Nachtragsangebot anbieten.",
+      "Konkrete Honorarprüfung oder Klausel direkt liefern."
+    ],
+    "continuation": "Neuer Planvergleich -> Änderung oder Nachbesserung; Stufenabruf -> Leistungsumfang; Zahlungsbeleg -> Saldo; Gutachten -> Pflichtzuordnung ändern.",
+    "enrichment": "Planindex und Änderungsgrund, Textform nach Paragraf 10, nicht abgerufene versus mangelhafte Leistung, Kostenbasis, Abschläge und Kontrolle verdeckter Bauteile.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Abruf, Leistung und Honorar früh getrennt; Altvertrags-Mindestsatzentscheidung zeitlich und personell begrenzt.",
+    "anchor_or_exception": "BGH, Urteil vom 02.06.2022, VII ZR 174/19; Paragrafen 650p bis 650t BGB, einschlägige HOAI-Fassung",
+    "source_status": "Vorhandene Fach- und Quellenangaben im Prüfprofil gelesen und redaktionell übernommen. Keine neue Online-Verifikation; bisherige Prüfdaten und fachliche Grenzen bleiben unverändert.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "75aaae3e69ec64088342d3c50a8e5af4bce33c6b73aa9581a03878b0703da4e9",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "9bb861034099b8134e633b48410202fa3635dd133eb43dd331f13de1cf08e46e",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "hoai-leistungsphasen-praxis/hoai-leistungsphasen-praxis-schnellstart.md",
+        "sha256": "de84ddecf91af69ca7cf4cabf96c846bf39bacb56ba4fe338a2f33cf14f34881",
+        "characters": 7085,
+        "utf8_bytes": 7178
+      },
+      {
+        "path": "hoai-leistungsphasen-praxis/hoai-leistungsphasen-praxis-werkstatt.md",
+        "sha256": "db7a53ac51027a872b6fd44d6108d94ec56dc2089f1515a677ceeef5dfa82545",
+        "characters": 19999,
+        "utf8_bytes": 20338
+      }
+    ]
+  }
+}

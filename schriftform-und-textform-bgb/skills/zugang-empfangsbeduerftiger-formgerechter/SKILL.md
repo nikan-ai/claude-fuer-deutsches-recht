@@ -1,6 +1,6 @@
 ---
 name: zugang-empfangsbeduerftiger-formgerechter
-description: "Wenn es um Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB
@@ -34,7 +34,6 @@ Maßgebend ist der **Empfänger-Horizont**: Wann ist gewöhnlicherweise mit Kenn
 - Einwurf nach der üblichen Postzustellungszeit (z. B. abends 18 Uhr) → Zugang erst am nächsten Werktag
 - Bei gewerblichem Empfänger: Bürozeiten maßgebend
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - E-Mail geht zu, wenn sie auf dem Mailserver des Empfängers eingegangen und abrufbar ist
 - Nicht erst, wenn der Empfänger sie tatsächlich gelesen hat
 - Absendung allein reicht nicht: Eingang im Postfach des Empfängers erforderlich
@@ -63,7 +62,6 @@ Grundloses Zurückweisen eines eingeschriebenen Briefs: Zugang mit Rückgabezeit
 | E-Mail (Empfänger-Postfach) | Eingang auf Empfänger-Mailserver, wenn abrufbar |
 | Fax | Eingang im Speicher des Empfänger-Faxgeräts |
 | WhatsApp / Messenger | Eingang auf Empfänger-Gerät (Doppelhaken) — str. |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ### Beweislast Zugang
 
@@ -90,7 +88,6 @@ Option A — Papier:
 Option B — Elektronisch (qES):
  qES-Dokument per E-Mail an Empfänger; Eingangsbestätigung anfordern.
  Achtung: Ausdruck durch Gericht oder Dritte wahrt keine Formwirksamkeit
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Option C — Gerichtliche Zustellung:
  Bei streitigem Verhältnis: Antrag auf Zustellung nach Paragraf 132 BGB möglich.
@@ -113,3 +110,5 @@ Option C — Gerichtliche Zustellung:
 - **Urlaubsabwesenheit des Empfängers**: Zugang tritt ein, wenn Brief im Briefkasten liegt — auch wenn Empfänger im Urlaub ist und Brief erst später liest. Ausnahme: Empfänger hat Urlaubs-Abwesenheit angekündigt und Erklärende wusste davon (einzelfallabhängig).
 - **Spam-Filter**: E-Mail landet im Spam-Ordner → BGH und OLG-Rechtsprechung uneinheitlich. Sicherheitshalber zusätzlich per Post übermitteln oder Empfangsbestätigung anfordern.
 - **qES und Zugang**: Die qES-Erklärung muss digital (nicht als Papierausdruck) beim Empfänger ankommen, damit Formwirksamkeit und Zugang zusammenfallen (→ `zugang-formgerechter-erklaerung-bgh-viii-zr-159-23`).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

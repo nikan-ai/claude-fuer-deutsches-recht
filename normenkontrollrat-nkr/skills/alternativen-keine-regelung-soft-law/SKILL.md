@@ -1,6 +1,6 @@
 ---
 name: alternativen-keine-regelung-soft-law
-description: "Wenn es um NKR-Alternativen-Prüfung — Verzicht, Soft-Law, Vollzug in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Alternativen Keine Regelung Soft Law; Arbeitsfeld: Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen."
+description: "Für NKR-Alternativen-Prüfung — Verzicht, Soft-Law, Vollzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrollrat (NKR) — Prüfung von Gesetzentwürfen. Route: alternativen-keine-regelung-soft-law."
 ---
 
 # NKR-Alternativen-Prüfung — Verzicht, Soft-Law, Vollzug
@@ -94,25 +94,3 @@ Rueckfrage nur wenn unklar: *"Welche Alternativen wurden erwogen — Verzicht, f
 - Better Regulation Guidelines der EU-Kommission (jeweils aktuelle Ausgabe)
 - NKR-Jahresbericht (jeweils aktuelle Ausgabe)
 - Live verifizieren über [www.normenkontrollrat.bund.de](https://www.normenkontrollrat.bund.de)
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 4 NKRG
-- § 5 NKRG
-- § 1 NKRG
-- § 6 NKRG
-- § 7 NKRG
-- Art. 5 EUV
-- § 1 BGleiG
-- § 3 NKRG
-- Art. 288 AEUV
-- § 9 NKRG
-- Art. 104a GG
-- Art. 82 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

@@ -1,6 +1,6 @@
 ---
 name: kreditkuendigung-490-bgb
-description: "Wenn es um Kreditkuendigung 490 BGB in Fachanwalt Bank Kapitalmarktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kreditkündigung 490 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bank kündigt Kredit nach § 490 BGB wegen wesentlicher Vermögensverschlechterung und Mandant braucht Sofort-Strategie
@@ -63,7 +63,7 @@ Verifizierte Aktenzeichen mit offener Quelle (vor Versand Volltext aufrufen):
 | Gericht | Aktenzeichen | Datum | Kernaussage | Offene Quelle |
 |---|---|---|---|---|
 | BGH XI. ZS | XI ZR 22/24 | 20.5.2025 | Verlust des Vorfälligkeitsentschädigungs-Anspruchs bei intransparenter Klausel im Immobiliardarlehen — Bedeutung auch für Kündigungsfolgen (Rückzahlung bereits gezahlter VFE) | juris.bundesgerichtshof.de |
-| BGH XI. ZS | XI ZR 133/24 | 21.10.2025 | Referenzzins für Zinsanpassungen Prämiensparvertrag | bundesgerichtshof.de PM Nr. 225/2025 |
+| BGH XI. ZS | XI ZR 133/24 | 21.10.2025 | Pflichtangaben und Effektivzins beim Immobiliar-Verbraucherdarlehen; Bedeutung für Widerrufsfrist und Abwicklung | bundesgerichtshof.de |
 
 Hinweis: Für die spezifischen Anforderungen des § 490 BGB (außerordentliche Kündigung wegen wesentlicher Verschlechterung) konkrete Aktenzeichen XI. ZS / III. ZS BGH vor Versand in juris.bundesgerichtshof.de oder dejure.org aufrufen.
 
@@ -165,7 +165,6 @@ des Kreditverhältnisses zu den bisherigen Konditionen.
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Bank**: muss bei § 498 BGB belegen, dass Verzugsschwelle + Mahnung + Frist eingehalten wurden.
 - **Kreditnehmer**: kann Gegenbeweis durch Liquiditätsplan, aktuelle BWA, Sachverständigengutachten erbringen.
 - **SCHUFA-Meldung**: Bank muss Berechtigung nach § 31 BDSG belegen; ggf. Anspruch auf Löschung.
@@ -174,7 +173,6 @@ des Kreditverhältnisses zu den bisherigen Konditionen.
 
 | Frist | Dauer | Rechtsgrundlage |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | § 498 BGB-Mahnung Reaktionsfrist | 2 Wochen nach Mahnung | § 498 Abs. 1 Nr. 2 BGB |
 | Klage gegen Kündigung | Vor Zwangsversteigerungs-Zuschlag | ZVG §§ 83, 100 |
 | Vollstreckungsgegenklage | Vor Beendigung der Vollstreckung | § 767 ZPO |
@@ -200,5 +198,4 @@ des Kreditverhältnisses zu den bisherigen Konditionen.
 - ZVG §§ 30b, 83, 100
 - ZPO §§ 767, 935, 940
 - BDSG § 31; DSGVO Art. 4
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Nobbe Kommentar Kreditrecht; Schimansky/Bunte/Lwowski Bankrechts-Handbuch

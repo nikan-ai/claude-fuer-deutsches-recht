@@ -1,6 +1,6 @@
 ---
 name: bilanzieller-status-aufnehmen
-description: "Wenn es um Bilanzieller Status aufnehmen in Fortbestehensprognose geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bilanzieller Status aufnehmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bilanzieller Status aufnehmen
@@ -9,7 +9,7 @@ description: "Wenn es um Bilanzieller Status aufnehmen in Fortbestehensprognose 
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
-- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), BGH II ZR 296/05 (Drei-Wochen-Lücke), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -131,19 +131,11 @@ Ergebnis: trotz **bilanzieller Überschuldung von 82.000 EUR** ist die **insolve
 - Bei **Einzelkaufmann** oder Personengesellschaft mit natürlich-personiger Vollhafter ist § 19 InsO **nicht anwendbar** — Insolvenzantragspflicht ergibt sich nur aus Zahlungsunfähigkeit § 17 InsO.
 - Die Erstellung des Status ist **Geschäftsleiter-Pflicht**. Bei Buchführungsmängeln (kein aktueller Stand kein Status möglich) kommt **Bankrott** § 283b StGB in Betracht.
 
-## Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Ausgabe
 
 - `bilanzieller-status.yaml` mit Stichtag Bilanzwerten stillen Reserven Lasten Rangrücktritt und insolvenzrechtlicher Bilanzbasis.
 - Erste Ergebnisaussage (insolvenzrechtliche Bilanzbasis positiv / negativ).
 - Empfehlung: bei negativer Bilanzbasis ohne Aussicht auf Fortbestehensprognose **sofort** Insolvenzanwalt — § 15a InsO Sechs-Wochen-Frist beginnt zu laufen.
-
-## Aktuelle Leitentscheidungen — Bilanzieller Status
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Paragrafenkette Bilanzieller Status
 
@@ -155,3 +147,5 @@ Ergebnis: trotz **bilanzieller Überschuldung von 82.000 EUR** ist die **insolve
 2. **Stille Reserven identifizieren:** Grundstuecke zum Buchwert vs. Verkehrswert; Forderungen vs. Marktpreis; Beteiligungen.
 3. **Ausserbilanzielle Verpflichtungen:** Pensionen, Buergschaften, noch nicht ausgewiesene Verluste aus schwebenden Geschäften.
 4. **Sanierungsmassnahmen einbeziehen?** Gesellschafterdarlehen mit Rangrücktritt, Patronatserklaerung, Kapitalzufuhr — bereits vorhanden oder noch planerisch?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

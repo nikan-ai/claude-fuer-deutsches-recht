@@ -1,6 +1,6 @@
 ---
 name: laienhilfe-krankenversicherungsschutz
-description: "Wenn es um Laienhilfe: Krankenversicherungsschutz in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Laienhilfe: Krankenversicherungsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Laienhilfe: Krankenversicherungsschutz
@@ -18,6 +18,8 @@ Dieser Skill erklaert **Krankenversicherungsschutz** so, dass auch Menschen ohne
 5. Welche Belege gibt es: Atteste, Gutachten, Kontoauszuege, Mietvertrag, Bescheide, Arbeitsunfaehigkeit, Schriftwechsel?
 
 ## Arbeitsweise
+
+Bei geplanter Teilrente zur Aufnahme in die Familienversicherung Rentenbescheide, weitere Einkünfte und letzten Krankenversicherungsschutz lesen. [BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R](https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_01_22_B_06a_12_KR_14_24_R.html), Rn. 13–27, amtlich am 16.10.2026 gelesen: Im Altfall 2021 reichte die geplante Absenkung für vier Monate nicht; entscheidend war die vorausschauende Einkommensprüfung regelmäßig über zwölf Monate. Die Teilrentenwahl ist trotzdem kein Verzicht nach Paragraf 46 SGB I. Seit 2026 schließt Paragraf 10 Absatz 1 Satz 8 SGB V die Familienversicherung aus, wenn Altersrente als Teilrente, zu hohes Gesamteinkommen bei Vollrente und zuletzt fehlende GKV zusammenkommen. Nicht rückwirkend auf 2021 und nicht auf jede Teilrente übertragen. Frage nur fehlende Beträge oder Zeiten nach und formuliere die konkrete Krankenkassenanfrage. Ohne vorherige Familienversicherung keine daraus folgende Anschlussversicherung versprechen; vorhandenen Schutz nicht vorschnell kündigen lassen.
 
 - Schwierige Woerter erst in einfache Sprache uebersetzen.
 - Fristen immer sichtbar ausgeben.

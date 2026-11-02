@@ -1,11 +1,19 @@
 ---
 name: klausel-verguetung-pauschale-royalty-tiered
-description: "Wenn es um Klausel Vergütung — Pauschale, Royalty, Tiered in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Klausel Vergütung — Pauschale, Royalty, Tiered: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Klausel Vergütung — Pauschale, Royalty, Tiered
 
-## Verguetungsformen
+Formuliere die bestellte Vergütungsklausel anhand des Vertragsentwurfs, der vereinbarten Parameter und der vorhandenen Abrechnungsdaten. Stimme Bemessungsgrundlage, Staffel, Mindestbetrag und Zahlungszeitpunkte aufeinander ab.
+
+## 1. Fehlende Abrechnungsparameter
+
+Lies bestehende Klauseln und Zahlen zuerst. Fehlen etwa Angaben zu Retouren, Konzernverkäufen oder der Anrechnung einer Vorauszahlung, frage gezielt nach diesen Positionen. Nach Eingang rechne die betroffenen Perioden und Staffelanteile neu und aktualisiere Klausel und Kontrollbeispiel; neue entscheidende Widersprüche dürfen weitere gezielte Fragen auslösen.
+
+Behandle nicht vereinbarte Parameter als offene Entscheidung, nicht als Tatsache. Liefere bis zur Klärung die unabhängig formulierbaren Teile und danach die bestellte Klausel vollständig. Erläuterungen und ungeprüfte Steuerfragen gehören in eine getrennte Arbeitsnotiz; den gewünschten Dateinamen beachten und nichts ohne Freigabe übermitteln oder vereinbaren.
+
+## 2. Vergütungsformen
 
 | Form | Mechanik | Wann sinnvoll |
 |---|---|---|
@@ -17,10 +25,12 @@ description: "Wenn es um Klausel Vergütung — Pauschale, Royalty, Tiered in Li
 | **Upfront + Running** | Initialzahlung + laufende Royalty | Patent mit Risikoteilung |
 | **Milestones** | Zahlung an bestimmte Erfolge gebunden | Pharma, Forschungs-Lizenz |
 
-## Klausel-Bausteine
+## 3. Klauselbausteine
+
+Die folgenden Zahlen und Zahlungsfristen sind Musterparameter, keine bereits getroffene Vereinbarung. Übernimm nur die beauftragte Vergütungsform und passe die Definition der Lizenzprodukte und Abzüge an den tatsächlichen Vertrag an.
 
 **A. Pauschale:**
-> "$ 5 Vergütung. Der Lizenznehmer zahlt eine einmalige Lizenzgebuehr in Höhe von [Betrag] EUR zzgl. gesetzlicher Umsatzsteuer, faellig binnen 30 Tagen nach Vertragsunterzeichnung auf das Konto des Lizenzgebers."
+> "Paragraf 5 Vergütung. Der Lizenznehmer zahlt eine einmalige Lizenzgebuehr in Höhe von [Betrag] EUR zzgl. gesetzlicher Umsatzsteuer, faellig binnen 30 Tagen nach Vertragsunterzeichnung auf das Konto des Lizenzgebers."
 
 **B. Running Royalty:**
 > "Der Lizenznehmer zahlt eine Running Royalty in Höhe von [X] Prozent des Nettoumsatzes mit Lizenzprodukten. 'Nettoumsatz' bezeichnet die mit den Lizenzprodukten erzielten Brutto-Erloese abzueglich Rabatte, Boni, Skonti, Umsatzsteuer, Versand- und Versicherungskosten. Die Royalty wird kalenderquartalsweise berechnet und ist binnen 30 Tagen nach Quartalsende faellig."
@@ -41,14 +51,14 @@ description: "Wenn es um Klausel Vergütung — Pauschale, Royalty, Tiered in Li
 > - Milestone 2 (Erstes Jahr mit Umsatz > [X]): [Betrag]
 > - Milestone 3 (Kumulierter Umsatz > [Y]): [Betrag]"
 
-## Rechen-Beispiel Tiered Royalty
+## 4. Kontrollrechnung zur Staffel
 
 Jahresumsatz 30 Mio. EUR mit Tieredmodell oben:
 - Tier 1: 10 Mio × 8 % = 800.000 EUR
 - Tier 2: 20 Mio × 5 % = 1.000.000 EUR
 - Summe: 1.800.000 EUR Royalty
 
-## Bezugsgroesse "Nettoumsatz" — Definitionsstreit
+## 5. Bezugsgröße Nettoumsatz
 
 Wesentliche Streitpunkte:
 - Rabatte (Listenpreis vs. Netto)
@@ -57,11 +67,11 @@ Wesentliche Streitpunkte:
 - Garantieleistungen
 → Vertrag muss "Nettoumsatz" praezise definieren.
 
-## Quellensteuer
+## 6. Quellensteuer
 
-Royalties haben Quellensteuer (DE: 15 % nach $ 49 EStG); bei DBA-Anwendung oft Reduktion auf 0/5/10 %. → Skill `steuern-quellensteuer-und-dba-lizenz`.
+Royalties haben Quellensteuer (DE: 15 % nach Paragraf 49 EStG); bei DBA-Anwendung oft Reduktion auf 0/5/10 %. → Skill `steuern-quellensteuer-und-dba-lizenz`.
 
-## Anschluss
+## 7. Optionale Vertiefung
 
 - Mindestlizenzen + Audit: `klausel-mindestlizenzen-meldungen-audit`
 - Steuern: `steuern-quellensteuer-und-dba-lizenz`

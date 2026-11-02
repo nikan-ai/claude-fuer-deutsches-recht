@@ -1,6 +1,6 @@
 ---
 name: agb-einbeziehung-amtlicher-zpo-anfechtung
-description: "Wenn es um AGB-Einbeziehung und Inhaltskontrolle — Paragrafen 305 bis 310 BGB in BGB AT Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Agb Einbeziehung Amtlicher ZPO Anfechtung; Arbeitsfeld: BGB AT Prüfer."
+description: "Für AGB-Einbeziehung und Inhaltskontrolle — Paragrafen 305 bis 310 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BGB AT Prüfer. Route: agb-einbeziehung-amtlicher-zpo-anfechtung."
 ---
 
 # AGB-Einbeziehung und Inhaltskontrolle — §§ 305 bis 310 BGB
@@ -87,26 +87,3 @@ Klauselverwendung genügt. Allerdings bleibt die Inhaltskontrolle nach § 307 BG
 - Hatte die andere Partei zumutbare Kenntnisnahmemöglichkeit?
 - Liegt eine überraschende Klausel nach § 305c Abs. 1 BGB vor?
 - Verstößt die Klausel gegen § 307 oder §§ 308/309 BGB?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46h ArbGG
-- § 35 GmbHG
-- § 291 StGB
-- § 22 RDG
-- § 13 GmbHG
-- § 11 GmbHG
-- § 14 TzBfG
-- § 46c ArbGG
-- § 41 VwVfG
-- § 291 bis 302 StGB
-- § 263 StGB
-
-### Leitentscheidungen
-
-- BGH NJW 1984/2279
-- BGH NJW 2004/1320
-- BGH NJW 2011/2643
-- BGH NJW 2005/53

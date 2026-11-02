@@ -1,6 +1,6 @@
 ---
 name: anspruchslandkarte-vertragstypen
-description: "Wenn es um Workflow: Anspruchslandkarte BGB BT in BGB BT Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Anspruchslandkarte Vertragstypen; Arbeitsfeld: BGB BT Prüfer."
+description: "Für Workflow: Anspruchslandkarte BGB BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: BGB BT Prüfer. Route: anspruchslandkarte-vertragstypen."
 ---
 
 # Workflow: Anspruchslandkarte BGB BT
@@ -60,23 +60,3 @@ description: "Wenn es um Workflow: Anspruchslandkarte BGB BT in BGB BT Prüfer g
 - https://www.gesetze-im-internet.de/bgb/
 - https://www.bundesgerichtshof.de/
 - https://openjur.de/
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 3 ProdHaftG
-- Art. 32 DSGVO
-- § 4 ProdHaftG
-- § 8 ProdHaftG
-- § 2 ProdHaftG
-- § 1 ProdHaftG
-- § 10 ProdHaftG
-- § 9 ProdHaftG
-- § 2 WoVermG
-- Art. 82 DSGVO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

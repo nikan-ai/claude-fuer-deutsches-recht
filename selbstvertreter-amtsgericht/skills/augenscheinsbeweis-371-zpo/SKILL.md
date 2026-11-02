@@ -1,6 +1,6 @@
 ---
 name: augenscheinsbeweis-371-zpo
-description: "Wenn es um Augenscheinsbeweis: Wenn das Gericht selbst sehen muss in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Augenscheinsbeweis: Wenn das Gericht selbst sehen muss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Augenscheinsbeweis: Wenn das Gericht selbst sehen muss
@@ -115,24 +115,3 @@ Vor-Ort-Termin: Reisekosten Gericht, ggf. Sachverstaendiger anwesend. Kosten mei
 ## Quellen und Aktualitaet
 
 Stand: 05/2026. § 371 ZPO unveraendert.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 23 GVG
-- § 114 FamFG
-- § 156 StGB
-- § 185 GVG
-- § 41 GKG
-- § 12 GKG
-- § 7 StVG
-- § 17 GKG
-- § 48 GKG
-- § 71 GVG
-- § 23a GVG
-- § 63 GKG
-
-### Leitentscheidungen
-
-- BGH VI ZR 67/15

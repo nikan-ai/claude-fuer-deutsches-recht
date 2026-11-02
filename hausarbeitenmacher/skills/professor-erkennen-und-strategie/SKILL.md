@@ -1,6 +1,6 @@
 ---
 name: professor-erkennen-und-strategie
-description: "Wenn es um Professor erkennen und Strategie wählen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Professor erkennen und Strategie wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Professor erkennen und Strategie wählen
@@ -18,9 +18,6 @@ description: "Wenn es um Professor erkennen und Strategie wählen in hausarbeite
 2. Ist es eine Hausarbeit (Korrekturassistent liest) oder Seminararbeit (Lehrkraft liest persoenlich)?
 3. Gibt es erkennbare Lehrstuhl-Praeferenzen bei bestimmten Streitstaenden?
 4. Soll die eigene Stellungnahme mit der Lehrmeinung uebereinstimmen oder respektvoll abweichen?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - Art. 5 Abs. 3 GG — Wissenschaftsfreiheit: eigene wissenschaftliche Position ist geschuetzt und erwuenscht
@@ -175,3 +172,5 @@ Das ist die Königsklasse. Und sie ist erlernbar.
 - `aufgabenstellung-erfassen` — Nun den Sachverhalt zerlegen
 - `seminararbeit-modus` — Spezifika für Seminararbeiten
 - `meinungsstreit-darstellen` — Faire Streit-Darstellung trotz Adressaten-Orientierung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

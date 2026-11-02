@@ -1,6 +1,6 @@
 ---
 name: cas-dis-sport-verbands-schiedsverfahren
-description: "Wenn es um Cas Dis Sport Verbands Schiedsverfahren in Fachanwalt Sportrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Cas Dis Sport Verbands Schiedsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Sportler Verein oder Verband wird in Schiedsverfahren vor CAS DIS oder Verbands-Schiedsgericht involviert
@@ -33,7 +33,10 @@ description: "Wenn es um Cas Dis Sport Verbands Schiedsverfahren in Fachanwalt S
 - **NADA-Code** (DE)
 - **DIS-Sportschiedsgerichtsordnung**
 - **FIFA Statutes** Art. 56-62 (Schiedsgerichtsbarkeit)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+### CAS-Spruch und unionsrechtliche Kontrolle
+
+Bei aufgezwungenem CAS-Verfahren mit wirtschaftlichem EU-Bezug gilt [EuGH, Urteil vom 01.08.2025, C-600/23 – Seraing](https://juris.curia.europa.eu/juris/document/document.jsf?docid=303003&doclang=DE), Rn. 96–108: Wirksame Kontrolle des EU-ordre-public durch das zuständige mitgliedstaatliche Gericht und Eilschutz prüfen; Schweizer Bestätigung ersetzt diese Kontrolle nicht. Kein allgemeiner neuer Berufungsweg oder vollständige Tatsachenrevision. Schiedsklausel, Sitz, Bindungswirkung und konkrete EU-Rechtsverletzung erfragen.
 
 ## ADR-Pfade
 
@@ -47,7 +50,7 @@ description: "Wenn es um Cas Dis Sport Verbands Schiedsverfahren in Fachanwalt S
 
 - Bei nationaler Sport-Sache
 - Unabhängige Schiedsrichter
-- Schiedsspruch endgültig (außer CAS-Berufung)
+- Bindungswirkung, Schiedssitz und statthafte Rechtsbehelfe gesondert prüfen; unionsrechtliche Kontrolle nicht pauschal ausschließen.
 
 ### Pfad 3 — CAS Lausanne (international)
 
@@ -97,11 +100,10 @@ description: "Wenn es um Cas Dis Sport Verbands Schiedsverfahren in Fachanwalt S
 ### Phase 5 — Schweizerisches Bundesgericht
 
 - Letzte Instanz
-- Nur Verfahrens-Fragen (kein zweiter Sachvortrag)
+- Beschränkte Anfechtungsgründe nach anwendbarem Schweizer Recht; davon die unionsrechtliche Kontrolle durch zuständige Gerichte eines Mitgliedstaats unterscheiden.
 
 ## Strategie und Taktik
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **CAS-Erfahrung Schiedsrichter**: aus CAS-Liste auswählen
 - **Doping-Verteidigung**: kontaminierte Nahrungsergänzungs-Mittel als gängiger Verteidigungs-Anker (BGH-Linie zu Cannabis-Verseuchung)
 - **B-Probe**: immer beantragen (Chain of Custody)
@@ -117,3 +119,5 @@ Strategische Folge für Mandate: Nach CAS-Entscheidung kann je nach Konstellatio
 - DIS-Sportschiedsgerichtsordnung — [disarb.org](https://www.disarb.org)
 - WADA-Code — [wada-ama.org](https://www.wada-ama.org)
 - Rechtsprechung im Mandat live verifizieren; keine Aktenzeichen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

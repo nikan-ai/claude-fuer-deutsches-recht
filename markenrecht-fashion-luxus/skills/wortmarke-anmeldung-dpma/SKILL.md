@@ -1,6 +1,6 @@
 ---
 name: wortmarke-anmeldung-dpma
-description: "Wenn es um Wortmarken-Anmeldung beim DPMA in markenrecht-fashion-luxus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Wortmarken-Anmeldung beim DPMA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Wortmarken-Anmeldung beim DPMA
@@ -39,7 +39,6 @@ Die Wortmarke ist das Fundament: Sie schützt das Wort unabhängig von Schriftar
 - **§§ 57-62 MarkenG:** Erinnerungsverfahren vor der Markenstelle
 - **§§ 66-68 MarkenG:** Beschwerde zum BPatG
 - **§ 83 MarkenG:** Rechtsbeschwerde zum BGH
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfungsschritte
 
@@ -83,13 +82,11 @@ Die Wortmarke ist das Fundament: Sie schützt das Wort unabhängig von Schriftar
 ## Falltypische Konstellationen
 
 ### Konstellation 1: "klôtzzkètté" — Unterscheidungskraft?
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Konstellation 2: "ATELIER DE LUXE" — fehlende Unterscheidungskraft
 klôtzzkètté möchte den Slogan "ATELIER DE LUXE" als Wortmarke schützen. Prognose: Klare Zurückweisung nach § 8 II Nr. 2 und Nr. 3 MarkenG — beschreibt unmittelbar das Tätigkeitsfeld. Empfehlung: Als Slogan-Marke gestalten (vgl. Skill `slogan-marke`) oder auf Bildmarke ausweichen.
 
 ### Konstellation 3: "KLOTZ" allein — Kurzmarke
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellen-Hardening
 
@@ -156,17 +153,4 @@ Bevor die Anmeldung erfolgt, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:
-- I ZB 40/08 (POST): ersetzt durch I ZB 48/07 (POST II, Beschl. v. 23.10.2008) (Quelle: dejure.org)
-- I ZB 56/09 (TOOOR!): ersetzt durch I ZB 115/08 (TOOOR!, Beschl. v. 24.06.2010) (Quelle: dejure.org)
-- I ZB 30/06 (STREETBALL): verifiziert korrekt, unveraendert belassen (Quelle: dejure.org)
-- I ZB 11/04 (ICON): Aktenzeichen gehoert zum Fall LOTTO (19.01.2006), kein ICON-Fall nachweisbar; AZ-Angabe ersatzlos entfernt
-- I ZB 40/98 (FUELUNGSKRAFT): nicht in dejure-Datenbank nachweisbar; Eintrag ersatzlos entfernt
-- I ZB 52/08 (SPA II): Aktenzeichen gehoert zum Fall DeutschlandCard (22.01.2009); SPA II ist I ZB 53/05 (Beschl. v. 13.03.2008); ersetzt durch korrektes AZ (Quelle: dejure.org)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

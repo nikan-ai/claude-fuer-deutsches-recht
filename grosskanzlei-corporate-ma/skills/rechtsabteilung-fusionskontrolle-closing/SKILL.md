@@ -1,6 +1,6 @@
 ---
 name: rechtsabteilung-fusionskontrolle-closing
-description: "Wenn es um Rechtsabteilung: Fusionskontrolle als Closing Condition in Großkanzlei Corporate/M&A geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für Rechtsabteilung: Fusionskontrolle als Closing Condition: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Rechtsabteilung: Fusionskontrolle als Closing Condition
@@ -8,7 +8,6 @@ description: "Wenn es um Rechtsabteilung: Fusionskontrolle als Closing Condition
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: Rechtsabteilung: Fusionskontrolle als Closing Condition

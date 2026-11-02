@@ -1,6 +1,6 @@
 ---
 name: eilantrag-80-abs-5-vwgo
-description: "Wenn es um Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach Paragraf 80 Abs in Fachanwalt Verwaltungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach Paragraf 80 Abs: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach § 80 Abs
@@ -56,8 +56,6 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema § 80 Abs. 5 VwGO
 
@@ -71,14 +69,11 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 | 4 | Hauptsache anhängig | Widerspruch oder Klage parallel eingereicht? | Pflichtvoraussetzung |
 | 5 | Begründungsmangel § 80 Abs. 3 | Vollziehungsanordnung floskelhaft? Kein Einzelfallbezug? | Eigenständiger Aufhebungsgrund |
 | 6 | Begründetheits-Prüfung Erfolgsaussicht | Offensichtlich erfolglos / offen / offensichtlich erfolgreich | Hauptansatz der Entscheidung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | Irreversibilität des Vollzugs | Schwere des Schadens; Nicht-Wiedergutzumachbarkeit | Je irreversibler, desto höher Aussetzungsinteresse |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Spezialfall Abgaben (Nr. 1) | Steuerbescheid; ernstliche Zweifel an Rechtmäßigkeit oder unbillige Härte | § 80 Abs. 4 Satz 3 VwGO |
 | 11 | Streitwert | Hälfte Hauptsache-Streitwert; § 52 GKG | Im Antrag angeben |
 | 12 | Entscheidungsform | Beschluss; ohne mündliche Verhandlung; Ausnahme Erörterung | Zeitplanung |
 | 13 | Beschwerde § 146 Abs. 4 VwGO | 2 Wochen ab Beschluss; Begründungsfrist 1 Monat; Auseinandersetzungspflicht | OVG-Beschwerde |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 15 | Vollstreckung nach Stattgabe | Behörde zur Aussetzung verpflichtet; Zwangsgeld § 172 VwGO möglich | Vollstreckungsweg vorbereiten |
 
 ## Beweislast
@@ -106,7 +101,6 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 
 | Gegenargument der Behörde | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hauptsache hat keine Erfolgsaussichten" | Substanziierte Rechtsauffassung mit Normen und Rspr.; Behörde muss Gegendarstellung liefern |
 | "Keine Existenzgefährdung" | Betriebswirtschaftliche Belege; BWA, Bilanzen; Liquiditätsplan; ggf. Steuerberater-Attest |
 | "Zu spät gestellt — Eilbedürftigkeit entfallen" | Konkrete Handlungsaufnahme der Behörde als Auslöser benennen; Zeitachse darstellen |
@@ -185,7 +179,6 @@ Nach der ständigen Rechtsprechung muss die Behörde in der
 Begründung das besondere öffentliche Interesse an der
 sofortigen Vollziehung auf den konkreten Einzelfall bezogen
 darlegen. Allgemeine Formulierungen und abstrakte Verweise auf
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Die vorliegende Begründung beschränkt sich auf [Beschreibung
 des Floskels: "im öffentlichen Interesse" / "Gefährdung der
@@ -299,7 +292,6 @@ Begründung
 I. Das Verwaltungsgericht hat den Begründungsmangel
 § 80 Abs. 3 VwGO unzutreffend verneint. Es hat die
 Begründung: "[Zitat]" als ausreichend angesehen, obwohl sie
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 erforderliche einzelfallbezogene Auseinandersetzung fehlt.
 
 II. Die Interessenabwägung ist fehlerhaft, weil das
@@ -363,3 +355,5 @@ Stand 05/2026.
 - BVerfG (für Verhältnismäßigkeits- und Folgenabwägungslinie) — [bundesverfassungsgericht.de](https://www.bundesverfassungsgericht.de)
 - Rechtsprechung im Mandat live verifizieren — keine Aktenzeichen aus Modellwissen.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: akkreditierung-und-qualitaet
-description: "Wenn es um Akkreditierung Und Qualitaet in Hochschulrecht der Bundesländer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Akkreditierung und Qualität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Akkreditierung Und Qualitaet
@@ -88,25 +88,3 @@ Der Skill arbeitet landes- und satzungsbezogen: Er fragt zuerst nach Bundesland,
 ## Ergebnisformat
 
 Erzeuge bevorzugt: Akkreditierungscheck. Am Ende immer drei Zeilen: **Frist**, **fehlende Quelle**, **nächster sicherer Schritt**.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 123 VwGO
-- § 70 VwGO
-- § 4 HRG
-- § 15 HRG
-- § 16 HRG
-- § 2 HRG
-- § 7 HRG
-- § 28 VwVfG
-- § 39 VwVfG
-- § 25 HRG
-- § 27 BDSG
-- § 42 ArbNErfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

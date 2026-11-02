@@ -1,6 +1,6 @@
 ---
 name: betriebsratsbeschluss-heilung
-description: "Wenn es um Betriebsratsbeschluss Heilung in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Betriebsratsbeschluss Heilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fachanwalt Arbeitsrecht Betriebsratsbeschluss Heilung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -20,8 +20,6 @@ description: "Wenn es um Betriebsratsbeschluss Heilung in Fachanwalt Arbeitsrech
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt Arbeitsrecht — Betriebsratsbeschluss-Heilung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -61,7 +59,6 @@ description: "Wenn es um Betriebsratsbeschluss Heilung in Fachanwalt Arbeitsrech
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Beschlussmangel
 
@@ -73,7 +70,6 @@ description: "Wenn es um Betriebsratsbeschluss Heilung in Fachanwalt Arbeitsrech
 | 2 | Vorsitzender leitete die Sitzung? | Paragraf 26 Abs. 1 BetrVG | Absoluter Mangel |
 | 3 | Beschlussfähigkeit — Mehrheit anwesend? | Paragraf 33 Abs. 2 BetrVG | Beschluss nichtig |
 | 4 | Verhinderung ordentlicher Mitglieder bekannt? Wann? | Paragraf 25 Abs. 2 BetrVG | Wesentlicher Verfahrensmangel |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 6 | Geschlechterquote eingehalten? | Paragraf 15 Abs. 2 BetrVG | Wesentlicher Mangel |
 | 7 | Anwaltsbeauftragung: Erforderlichkeit begründet? | Paragraf 40 Abs. 1 BetrVG | Kostentragung entfällt |
 | 8 | Beschlussmehrheit erreicht? | Paragraf 33 Abs. 1 BetrVG | Beschluss unwirksam |
@@ -96,7 +92,6 @@ Sofort zur **Heilungssitzung** raten, bevor der Arbeitgeber den Mangel rügt:
 
 ### Variante C — Mangel erst im laufenden Verfahren entdeckt
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Heilungsbeschluss in ordnungsgemäßer Sitzung fassen.
 - Heilungsbeschluss im Verfahren vortragen (Schriftsatznachreichung oder in der Verhandlung).
 - Heilung wirkt nach Paragraf 184 Abs. 1 BGB auf den Zeitpunkt der ursprünglichen Beauftragung zurück.
@@ -138,7 +133,6 @@ ursprüngliche Mandatierung gemäß Paragraf 184 Abs. 1 BGB
 rückwirkend genehmigt.
 
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Genehmigung möglich ist und die Erforderlichkeitsprüfung
 nach Paragraf 40 Abs. 1 BetrVG durch die Rückwirkung nicht
 relativiert wird, sofern der nachgeholte Beschluss einen
@@ -175,10 +169,8 @@ Begründung:
 
 ## Fallstricke aus Anwaltssicht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Heilung ≠ Neuvornahme**: Der Wille muss inhaltlich identisch sein. Bei inhaltlicher Änderung liegt ein neuer Beschluss vor, keine Heilung.
 - **Heilungssitzung selbst mangelfrei**: Eine fehlerhaft einberufene oder falsch besetzte Heilungssitzung heilt nichts.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Geschlechterquote bei Nachrücken**: Paragraf 15 Abs. 2 BetrVG gilt auch für Ersatzmitglieder; falsche Reihenfolge ist eigenständiger Mangel.
 
 ## Praktische Checkliste bei Erstkontakt mit Betriebsrat
@@ -210,7 +202,6 @@ Begründung:
 | Frist | Dauer | Rechtsgrundlage |
 |---|---|---|
 | Ladungsfrist Betriebsratssitzung | "rechtzeitig" (mindestens 2 Arbeitstage) | Paragraf 29 Abs. 2 BetrVG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Anspruch auf Anwaltskostenfreistellung | 3 Jahre reguläre Verjährung | Paragrafen 195, 199 BGB |
 | Rüge des Arbeitgebers | nicht präkludiert; jederzeit möglich | Keine Ausschluss-Frist |
 
@@ -229,7 +220,6 @@ Begründung:
 | Beschluss fehlerhaft, Verfahren noch nicht begonnen | Heilungssitzung sofort; kein Risiko |
 | Beschluss fehlerhaft, Verfahren läuft | Heilungssitzung sofort; Ergebnis ins Verfahren einführen |
 | Arbeitgeber rügt in Güteverhandlung | Kein Zugzwang; Heilung auch jetzt noch möglich |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
@@ -242,10 +232,4 @@ Begründung:
 - BetrVG Paragrafen 15, 25, 26, 29, 33, 40
 - BGB Paragraf 184 Abs. 1
 - ArbGG Paragrafen 12a, 78
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Fitting BetrVG-Kommentar; DKKW BetrVG
-
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:

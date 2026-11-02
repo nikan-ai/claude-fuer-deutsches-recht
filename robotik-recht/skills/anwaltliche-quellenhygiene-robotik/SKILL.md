@@ -1,6 +1,6 @@
 ---
 name: anwaltliche-quellenhygiene-robotik
-description: "Wenn es um Anwaltliche Quellenhygiene Robotik in robotik-recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Anwaltliche Quellenhygiene Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwaltliche Quellenhygiene Robotik
@@ -32,7 +32,7 @@ Robotik-Mandate verbinden technische und juristische Quellen. Falsche Aktenzeich
 ## Schritt für Schritt
 
 1. **EU-Rechtsakte stets über eur-lex.europa.eu** verifizieren. Stand der konsolidierten Fassung dokumentieren (CELEX-Nummer + Datum der Konsolidierung).
-2. **Geltungsstaffelung KI-VO** unbedingt prüfen: Verbote Art. 5 ab 02.02.2025; GPAI-Pflichten ab 02.08.2025; Hochrisiko Art. 6 ff. ab 02.08.2026; volle Anwendung 02.08.2027 (Art. 113 KI-VO).
+2. **Geltungsstaffelung KI-VO** unbedingt prüfen: Verbote Art. 5 ab 02.02.2025; GPAI-Pflichten ab 02.08.2025; Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027 und Anhang I ab 02.08.2028 (Artikel 113 neuer Fassung). Maschinen nun in Anhang I Abschnitt B; Produktrecht gesondert.
 3. **MaschinenVO** Geltung ab 20.01.2027 – die Maschinen-RL 2006/42/EG bleibt bis dahin maßgeblich. Übergangsregelungen Art. 50 ff. MaschinenVO prüfen.
 4. **CRA-Staffelung:** Schwachstellen-Meldepflichten ab 11.09.2026, Hauptpflichten ab 11.12.2027 (Art. 71 CRA).
 5. **Produkthaftungs-RL neu** VO (EU) 2024/2853: Inkrafttreten 09.12.2026; nationale Umsetzungsfrist 09.12.2026 (Art. 22).
@@ -75,7 +75,7 @@ Robotik-Mandate verbinden technische und juristische Quellen. Falsche Aktenzeich
 ## Typische Fehler
 
 - **"Maschinenrichtlinie 2006/42/EG"** angewandt nach 20.01.2027 ohne Übergangsregel.
-- **KI-VO als bereits voll geltend** behauptet vor 02.08.2026 für Hochrisiko-Pflichten.
+- **Falsche Zeitvereinfachung:** Weder „voll anwendbar seit August 2026“ noch „alles bis 2028 verschoben“ behaupten. Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Kommentar-Fundstellen aus Modellwissen** – berufsrechtlich riskant.
 - **Verlinkung statt Zitat** ohne Volltext-Sicherung.
 - **Norm ohne Jahresangabe** ("ISO 10218") – mehrdeutig.
@@ -119,3 +119,4 @@ Robotik-Mandate verbinden technische und juristische Quellen. Falsche Aktenzeich
 - § 43a Abs. 3 BRAO; § 138 ZPO.
 - eur-lex.europa.eu; ECLI-Portal; openJur; dejure.org; bundesgerichtshof.de.
 - Lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

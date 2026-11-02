@@ -1,6 +1,6 @@
 ---
 name: anfg-unentgeltliche-leistung-4
-description: "Wenn es um Unentgeltliche Leistung — Paragraf 4 AnfG in bereicherungs-und-anfechtungsrecht-prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Anfg Unentgeltliche Leistung 4; Arbeitsfeld: bereicherungs-und-anfechtungsrecht-prüfer."
+description: "Für Unentgeltliche Leistung — Paragraf 4 AnfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: anfg-unentgeltliche-leistung-4."
 ---
 
 # Unentgeltliche Leistung — § 4 AnfG
@@ -18,10 +18,6 @@ description: "Wenn es um Unentgeltliche Leistung — Paragraf 4 AnfG in bereiche
 - § 4 Abs. 2 AnfG — Ausnahme: Erfüllung sittlicher Pflicht oder anständiger Rücksicht
 - §§ 516 ff. BGB — Schenkung (Vergleichsbegriff; AnfG-Unentgeltlichkeit ist weiter)
 - §§ 195 199 BGB — Verjährung des Anfechtungsanspruchs
-
-## Rechtsprechung (BGH — Leitsätze § 4 AnfG / unentgeltliche Leistung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Obersatz
 
@@ -65,3 +61,5 @@ Typische Anwendungsfälle:
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

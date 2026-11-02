@@ -1,6 +1,6 @@
 ---
 name: incoterms-und-gefahruebergang
-description: "Wenn es um Incoterms und Gefahrübergang in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Incoterms und Gefahrübergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Incoterms und Gefahrübergang
@@ -13,10 +13,6 @@ Die Incoterms (International Commercial Terms) der Internationalen Handelskammer
 2. Welcher Lieferort ist im Vertrag benannt (Ort muss bei DAP, DDP, FCA genau angegeben sein)?
 3. Wurde die Klausel wirksam einbezogen (AGB-Recht, Einbeziehungsvereinbarung)?
 4. Hat ein Gefahrübergang stattgefunden — wann und wo?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -84,3 +80,5 @@ Incoterms sind keine gesetzliche Regelung, sondern Vertragsklausel. Sie konkreti
 ## Tatbestand
 
 Im Tatbestand die Klausel wörtlich oder als Bezugnahme angeben, im Entscheidungsgrund subsumieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

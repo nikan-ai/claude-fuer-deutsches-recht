@@ -1,6 +1,6 @@
 ---
 name: emissionshandel-tehg
-description: "Wenn es um Emissionshandel und TEHG in Umweltrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Emissionshandel und TEHG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Emissionshandel und TEHG
@@ -33,10 +33,6 @@ description: "Wenn es um Emissionshandel und TEHG in Umweltrecht geht: erstellt 
 - **§ 26 TEHG** — Sanktion 100 EUR/t CO2 bei Abgaberueckstand; keine Befreiung durch Zahlung
 - **ZuV 2020** — Zuteilungsverordnung 2020 — Benchmarks, Benchmark-Kurven, Cross-Sektoral-Correction-Faktor (CSCF)
 - **BEHG** — Brennstoffemissionshandelsgesetz (nationaler ETS); § 10 BEHG Berichts- und Abgabepflicht
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -128,3 +124,5 @@ Anlagen: Produktionsdaten, Pruefstellen-Bericht, Benchmark-Berechnung
 - `esg-greenwashing-csrd` — CSRD-Berichtspflicht ETS-Kosten
 - `energierecht-industriekunden` — Befreiung BES-Regelung CO2-Kompensation
 - `umweltrecht-kommandocenter` — Mandat-Intake
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

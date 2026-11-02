@@ -1,6 +1,6 @@
 ---
 name: schriftsatzkern-substantiierung
-description: "Wenn es um Klage oder Antrag im gewerblichen Rechtsschutz substantiiert ausformulieren in Fachanwalt Gewerblicher Rechtsschutz geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Klage oder Antrag im gewerblichen Rechtsschutz substantiiert ausformulieren: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Klage oder Antrag im gewerblichen Rechtsschutz substantiiert ausformulieren
@@ -81,10 +81,6 @@ DesignG:
 - K1, K2 ... durchnummeriert (Antragstellerin/Klägerin).
 - Bei Beklagten B1, B2 ...
 - Jede Anlage mit Datum, Absender, Empfaenger, Inhaltsbeschreibung in einem Satz.
-
-## Zentrale Rechtsprechung für Substantiierung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -200,3 +196,5 @@ K3: Eidesstattliche Versicherung [NAME] vom [DATUM]
 - `erstgespraech-mandatsannahme` — Tatsachen-Grundlage und Streitwertskizze
 - `vergleichsverhandlung-strategie` — paralleler Vergleichsversuch
 - `fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg` — UWG-spezifische Bausteine
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

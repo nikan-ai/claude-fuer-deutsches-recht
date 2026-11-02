@@ -1,6 +1,6 @@
 ---
 name: emotionale-fristen-form-und-zustaendigkeit
-description: "Wenn es um Emotionale: Fristen, Form, Zuständigkeit und Rechtsweg in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Emotionale Fristen Form Und Zuständigkeit; Arbeitsfeld: E-Mail-Umformulierer."
+description: "Für Emotionale: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: E-Mail-Umformulierer. Route: emotionale-fristen-form-und-zustaendigkeit."
 ---
 
 # Emotionale: Fristen, Form, Zuständigkeit und Rechtsweg
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `§ 3a RVG` — Vergütungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

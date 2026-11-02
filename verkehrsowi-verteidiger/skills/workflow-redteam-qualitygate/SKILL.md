@@ -1,6 +1,6 @@
 ---
 name: workflow-redteam-qualitygate
-description: "Wenn es um Red-Team Qualitygate in VerkehrsOWi-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: VerkehrsOWi-Verteidiger."
 ---
 
 # Red-Team Qualitygate
@@ -34,7 +34,7 @@ Dieser Arbeitsgang macht **Red-Team Qualitygate** im Bereich **verkehrsowi-verte
 ## Ergänzende Hinweise
 
 ## OWi-Red-Team-Checks
-- **Frist-Re-Check:** Einspruch § 67 OWiG 2 Wochen ab Zustellung; Rechtsbeschwerde §§ 79, 80 OWiG 1 Woche / 1 Monat; Verjährung § 26 III StVG 3 Monate (bis Bescheid) / 6 Monate (bis 1. Instanz Urteil); Unterbrechung § 33 OWiG.
+- **Frist-Re-Check:** Einspruch § 67 OWiG 2 Wochen ab Zustellung; Rechtsbeschwerde §§ 79, 80 OWiG 1 Woche / 1 Monat; Verjährung aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate für § 24 Abs. 1, Sonderfälle und historische Fassung prüfen; Unterbrechung/Höchstfrist nach § 33 OWiG (mindestens 2 Jahre), Ruhen/Ablaufhemmung § 32 OWiG. [Amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
 - **BKatV-Re-Check:** Aktuelle Anlage zur StVO und § 26a StVG; Regelbusse, Punkte, Fahrverbote stets gegen Tatzeit prüfen; bei Änderungen lex mitior § 4 III OWiG.
 - **Messverfahren-Check:**
  - **Eichschein** im Tatzeitraum gueltig?

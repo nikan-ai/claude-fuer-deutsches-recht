@@ -1,6 +1,6 @@
 ---
 name: betriebsuebergang-613a-pruefen
-description: "Wenn es um Betriebsuebergang 613a Pruefen in Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Betriebsübergang 613a Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Unternehmen wird verkauft oder Betrieb geht auf neuen Inhaber über und Arbeitnehmer fragen nach Rechten oder Kündigungsschutz
@@ -20,8 +20,6 @@ description: "Wenn es um Betriebsuebergang 613a Pruefen in Arbeitsrecht geht: pr
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Betriebsübergang Paragraf 613a BGB prüfen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -50,23 +48,18 @@ Bevor losgelegt wird, kläre:
 ## Zentrale Anspruchsgrundlagen & Normen
 
 - **Paragraf 613a Abs. 1 BGB** — Eintrittswirkung des Erwerbers in Rechte und Pflichten
-- **Paragraf 613a Abs. 2 BGB** — gesamtschuldnerische Haftung Erwerber/Veräußerer (Veräußerer haftet 1 Jahr für vorher fällig gewordene Ansprüche)
+- **Paragraf 613a Absatz 2 BGB** — gesamtschuldnerische Nachhaftung des bisherigen Arbeitgebers nur für vor dem Übergang entstandene Verpflichtungen, die vor Ablauf eines Jahres nach dem Übergang fällig werden; bei späterer Fälligkeit haftet er nur zeitanteilig für den vor dem Übergang liegenden Bemessungszeitraum.
 - **Paragraf 613a Abs. 4 BGB** — Kündigungsverbot wegen Betriebsübergangs (beidseitig)
 - **Paragraf 613a Abs. 5 BGB** — Pflicht zur schriftlichen Unterrichtung der Arbeitnehmer
 - **Paragraf 613a Abs. 6 BGB** — Widerspruchsrecht; Frist: 1 Monat ab Zugang der Unterrichtung
 - **Paragrafen 111, 112, 113 BetrVG** — Unterrichtung und Beratung Betriebsrat; Interessenausgleich; Sozialplan; Nachteilsausgleich bei Verletzung
-- **Paragrafen 322 ff., 324 UmwG** — Umwandlungsrecht; Paragraf 613a entsprechend anwendbar bei Spaltung und Verschmelzung
-- **Paragraf 125 InsO** — erleichterte Kündigung im Insolvenzverfahren; Paragraf 613a BGB gilt auch in Insolvenz
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Paragrafen 322 ff., 324 UmwG** — Umwandlungsrechtliche Arbeitnehmerfolgen und Verhältnis zu Paragraf 613a BGB nach der konkreten Maßnahme prüfen.
+- **Paragraf 125 InsO** — Interessenausgleich mit Namensliste im Insolvenzverfahren; hiervon die Anwendbarkeit des Paragraf 613a BGB und die Rechtsprechung zur Haftungsbegrenzung bei einem Erwerb nach Verfahrenseröffnung trennen.
 
 ## Ablauf
 
 ### Schritt 1 — Tatbestand: Identitätswahrung
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Sieben-Punkte-Prüfung BAG / EuGH:**
 
@@ -108,7 +101,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
  - Widerspruchsrecht mit Frist (Paragraf 613a Abs. 6 BGB)
 
 **Folge fehlerhafter Unterrichtung:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Schadensersatz bei schuldhafter Verletzung
 
 ### Schritt 4 — Widerspruchsrecht Paragraf 613a Abs. 6 BGB
@@ -128,8 +120,8 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ### Schritt 6 — Haftung Paragraf 613a Abs. 2 BGB
 
 - Erwerber haftet für alle nach Übergang fälligen Ansprüche
-- Veräußerer haftet **1 Jahr** gesamtschuldnerisch für **vor** Übergang fällig gewordene Ansprüche
-- Erwerber haftet auch für vorher fällig gewordene Ansprüche nach der Eintrittstheorie
+- Der Erwerber tritt in die bestehenden Arbeitsverhältnisse und deren Rechte und Pflichten ein.
+- Der Veräußerer haftet nach Paragraf 613a Absatz 2 BGB für vor dem Übergang entstandene Verpflichtungen nur, soweit sie vor Ablauf eines Jahres nach dem Übergang fällig werden; bei später fällig werdenden Dauerschulden ist der vor dem Übergang liegende Bemessungsanteil maßgeblich.
 
 ### Schritt 7 — Betriebsrat-Information Paragraf 111 BetrVG
 
@@ -158,7 +150,7 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zu
 | Standard — Arbeitnehmer will Betriebsuebergang anfechten | Widerspruchserklaerung nach Paragraf 613a Abs. 6 BGB; Template unten |
 | Variante A — Arbeitnehmer will beim neuen Betriebsinhaber bleiben | Uebergang hinnehmen; nur Konditionen-Prüfung sicherstellen |
 | Variante B — Betriebsuebergang rechtlich zweifelhaft | Feststellungsklage vorbereiten; Uebergang bestreiten |
-| Variante C — Insolvenz des alten Inhabers | Paragraf 613a Abs. 1 S. 4 BGB Sonderregelung prüfen; kurzfristige Handlung empfohlen |
+| Variante C — Erwerb aus der Insolvenz | Zeitpunkt der Verfahrenseröffnung, Massezugehörigkeit, übernommene Arbeitsverhältnisse und die richterrechtliche Begrenzung der Erwerberhaftung für vor Verfahrenseröffnung entstandene Ansprüche gesondert prüfen; Paragraf 613a Absatz 1 Satz 4 BGB betrifft Tarif- und Betriebsvereinbarungsnormen, nicht die Insolvenz. |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -216,5 +208,6 @@ Handlungsempfehlungen:
 Zitierstandard: `../references/zitierweise.md`.
 
 - Paragraf 613a BGB; Paragrafen 111–113 BetrVG; Paragrafen 322 ff. UmwG; Paragraf 125 InsO
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

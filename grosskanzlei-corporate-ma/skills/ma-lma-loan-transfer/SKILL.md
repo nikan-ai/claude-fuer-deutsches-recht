@@ -1,6 +1,6 @@
 ---
 name: ma-lma-loan-transfer
-description: "Wenn es um Big Law M&A: LMA Loan Transfer in Großkanzlei Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Big Law M&A: LMA Loan Transfer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Big Law M&A: LMA Loan Transfer
@@ -8,7 +8,6 @@ description: "Wenn es um Big Law M&A: LMA Loan Transfer in Großkanzlei Corporat
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: Big Law M&A: LMA Loan Transfer
@@ -36,3 +35,7 @@ BGB Abtretung, Vertragsübernahme, Sicherheiten, GmbHG/AktG Kapitalerhaltung, Da
 - Keine Blindzitate: Rechtsprechung, Behördenpraxis und Schwellenwerte vor tragender Aussage live anhand amtlicher oder frei zugänglicher Quellen prüfen.
 - Keine LMA-, Banken- oder Fondsformularsprache nacherzählen: Nutzer soll das aktuelle Dokument hochladen; der Skill arbeitet dann am konkreten Text.
 - Jede Annahme sichtbar markieren, insbesondere Zahlen, Fristen, regulatorische Rollen, Genehmigungsstand und Parteiperspektive.
+
+## Vertiefung bei Bedarf
+
+- Bei `gk-ma-lma-loan-transfer` beziehungsweise Prüft LMA-basierte Transfermechanik im syndizierten Kredit: Assignment, Novation, Transfer Certificate, Consent, Agent und Register.: [die zusätzliche Vertiefung laden](./references/vertiefung-gk-ma-lma-loan-transfer.md).

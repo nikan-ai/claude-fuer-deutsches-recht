@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um /anpassen in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Technik-Governance."
 ---
 
 # /anpassen
@@ -8,8 +8,8 @@ description: "Wenn es um /anpassen in diesem Spezialbereich geht: prüft Frist, 
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: KI-VO Geltungsbeginn gestaffelt (02.02.2025 Verbote, 02.08.2025 GPAI, 02.08.2026 Hochrisiko Anhang III), schwerwiegender Vorfall 15 Tage, DSGVO DPIA vorab.
-- Tragende Normen verifizieren: EU KI-VO 2024/1689 Art. 9, 10, 14, 22, 27, 50, ISO/IEC 42001, NIST AI RMF 1.0, OECD AI Principles, DSGVO Art. 22, 35, Produkthaftungs-RL 2024/2853 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Fristen und Eilrisiken zuerst markieren: Verordnung (EU) 2024/1689 in der Fassung 2026/1744: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 02.12.2027, für Anhang I ab 02.08.2028. Artikel 4 neuer Fassung, Artikel 4a, Verbote und Transparenz gesondert prüfen; Vorfallfrist nach Tatbestand und Ereignis, Datenschutz-Folgenabschätzung vor riskanter Verarbeitung.
+- Tragende Rechtsgrundlagen am amtlichen EUR-Lex-Text der KI-Verordnung und der gegebenenfalls einschlägigen DSGVO prüfen. ISO/IEC 42001, NIST AI RMF und OECD-Prinzipien sind keine Verordnungsartikel. Bei harmonisierten Normen konkrete Fassung, Amtsblattfundstelle und abgedeckte Anforderungen nach Artikel 40 feststellen; freiwilliges Managementzertifikat und Konformitätsverfahren nach Artikel 43 trennen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsleitung, KI-Officer, Datenschutzbeauftragter, Compliance, Aufsichtsrat, Marktüberwachung, externer Auditor, betroffene Personen.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: KI-Inventar, Risikoanalyse, FRIA (Fundamental Rights Impact Assessment), AI Governance Policy, Modellkarten, Audit-Bericht, DSGVO-DPIA, Schulungsnachweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -24,7 +24,7 @@ description: "Wenn es um /anpassen in diesem Spezialbereich geht: prüft Frist, 
 1. **Konfiguration lesen.** CLAUDE.md und unternehmens-profil.md lesen. Falls CLAUDE.md nicht
  existiert oder noch `[PLATZHALTER]`-Werte enthält:
 
- > Sie haben noch kein Setup durchgeführt. Führen Sie zuerst `/ki-governance:ki-governance-kaltstart-interview`
+ > Sie haben noch kein Setup durchgeführt. Führen Sie zuerst `/ki-governance:kaltstart-interview`
  > aus – anpassen dient der Anpassung eines bereits vorhandenen Profils.
 
 2. **Anpassbare Karte anzeigen.** Auflisten, was im Profil steht, gruppiert, mit
@@ -64,7 +64,7 @@ description: "Wenn es um /anpassen in diesem Spezialbereich geht: prüft Frist, 
  statt genehmigt markieren, mehr Folge-Prüfungen zur Folgenabschätzung einleiten und
  konservativere Vendor-KI-Redlines empfehlen."
  - *Eskalationskontakt hinzufügen:* "Jeder Skill, der Eskalationen weiterleitet
- (`/anwendungsfall-triage`, `/ki-anbieter-prüfung`, `/regulierungs-lücken-analyse`), wird diesen Kontakt
+ (`/anwendungsfall-triage`, `/ki-anbieter-prüfung`, `/regulierungs-luecken-analyse`), wird diesen Kontakt
  nun auf den relevanten Risikostufen einschließen."
  - *Neuer Use-Case-Register-Eintrag:* "`/anwendungsfall-triage` gleicht beim nächsten Lauf
  gegen diesen Eintrag ab. Bestehende Folgenabschätzungen werden nicht neu geschrieben –
@@ -81,7 +81,7 @@ description: "Wenn es um /anpassen in diesem Spezialbereich geht: prüft Frist, 
 6. **Abschluss.**
 
  > Erledigt. Ihr nächstes Ergebnis wird die Änderung widerspiegeln. Noch etwas? Sie können
- > `/ki-governance:ki-governance-anpassen` jederzeit ausführen.
+ > `/ki-governance:anpassen` jederzeit ausführen.
 
 ## Quellen und Zitierweise
 
@@ -112,12 +112,9 @@ Downstream-Auswirkungen von Konfigurationsänderungen können folgende Normen be
 - **Eine Änderung auf einmal.** Nicht das gesamte Interview neu stellen. Bei mehreren
  Änderungen sequenziell vorgehen und jede vor dem Weitermachen bestätigen.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 5 KI-VO — verbotene Praktiken (jede Profileinstellung muss dagegen gecheckt werden)
-- Art. 26/29 KI-VO — Betreiberpflichten (Anpassungen an Hochrisiko-Einstellungen)
+- Artikel 26 KI-Verordnung betrifft Hochrisiko-Betreiber; bei Änderungen zusätzlich Artikel 25 auf Rollenwechsel prüfen. Artikel 29 ist keine allgemeine Betreiberpflicht. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - Art. 22 DSGVO — automatisierte Einzelentscheidungen
 - Art. 35 DSGVO — DSFA-Ausloeser
 - § 87 Abs. 1 Nr. 6 BetrVG — Mitbestimmungsrecht bei Mitarbeiter-KI
@@ -156,24 +153,5 @@ Geaendert von: [NAME], [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 35 DSGVO
-- § 203 StGB
-- Art. 22 DSGVO
-- Art. 28 DSGVO
-- § 87 BetrVG
-- § 26 BDSG
-- § 44b UrhG
-- Art. 36 DSGVO
-- Art. 9 DSGVO
-- Art. 79 DSGVO
-- Art. 32 DSGVO
-- § 29 VwVfG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

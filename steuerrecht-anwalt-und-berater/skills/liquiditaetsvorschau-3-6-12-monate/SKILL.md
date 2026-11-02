@@ -1,14 +1,12 @@
 ---
 name: liquiditaetsvorschau-3-6-12-monate
-description: "Wenn es um Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose (Paragrafen 17. 19 InsO) in Steuerrecht – Steuerberater und Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose (Paragrafen 17. 19 InsO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte."
 ---
 
 # Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose (§§ 17, 19 InsO)
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose (§§ 17, 19 InsO)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -33,21 +31,19 @@ Krisenhafte GmbH/UG-Mandanten benötigen eine strukturierte, wöchentlich rollie
 
 ### Primärnormen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-**§ 18 InsO** — Drohende Zahlungsunfähigkeit: voraussichtliche Unfähigkeit im 24-Monats-Horizont; Grundlage Eigenantragsoption.
+**Paragraf 18 InsO** — Drohende Zahlungsunfähigkeit: voraussichtliche Unfähigkeit zur Erfüllung bestehender Zahlungspflichten bei Fälligkeit; in aller Regel gilt ein Prognosezeitraum von 24 Monaten.
 
-**§ 19 InsO** — Überschuldung: Fortbestehensprognose primär; bei negativer Prognose Liquidationswerte-Status. Prognosezeitraum nach SanInsKG 24 Monate (für Anträge bis 31.12.2026).
+**Paragraf 19 InsO** — Überschuldung: Fortführungsprognose für regelmäßig zwölf Monate; bei negativer Prognose Überschuldungsstatus zu Liquidationswerten.
 
-**§ 15a InsO** — Antragspflicht: 3 Wochen (§ 17), 6 Wochen (§ 19).
+**Paragraf 15a InsO** — Antrag ohne schuldhaftes Zögern; drei Wochen bei Zahlungsunfähigkeit und sechs Wochen bei Überschuldung sind nur Höchstzeiträume.
 
-**§ 102 StaRUG** — Hinweispflicht des Steuerberaters; Liquiditätsvorschau als technisches Instrument der Krisenfrüherkennung.
+**Paragraf 102 StaRUG** — Bei einem Auftrag zur Jahresabschlusserstellung prüfen, ob Anhaltspunkte für einen möglichen Insolvenzgrund offenkundig sind und die mögliche Insolvenzreife dem Mandanten vermutlich nicht bewusst ist. Die Liquiditätsvorschau ist nur eine mögliche Belegquelle und kein eigener Auslöser der Norm.
 
 ### Leitentscheidungen
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Liquiditätsvorschau
 
@@ -62,13 +58,11 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | 5 | Wochenraster 13 Wochen | Spalten: KW, Anfangsbestand, Einzahlungen, Auszahlungen, Endbestand, fällige VB Folgewoche, 3-Wochen-Lücke (kumuliert), Quote, Ampel | Primäres Instrument § 17 InsO |
 | 6 | 3-Wochen-Test § 17 InsO | Quote = Lücke_3W / fällige VB ≥ 10 %? Nicht binnen 3 Wochen schließbar? | Ampel Rot/Gelb/Grün |
 | 7 | SV- und Lohnsteuer-Position | SV-Beiträge (AG+AN-Anteil Drittellast); Lohnsteuer § 41a EStG; separate Zeile; nie aufrechnen | Passiva I korrekt |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Sensitivitätsanalyse | Best/Base/Worst: Zahlungseingang 100 %/80 %/60 %; Auftragserfüllung wie geplant/−10 %/−25 % | Risikoszenario |
 | 10 | Mittel- und Langfristhorizont | 26 Wochen (monatlich aggregiert ab Monat 4), 52 Wochen; Fortführungsprognose-Grundlage | § 18 und § 19 InsO |
 | 11 | Fortführungsprognose IDW S 6 | Krisenstadium; Konzept; integrierte Planung; überwiegende Wahrscheinlichkeit | § 19 InsO Stufe 1 |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 13 | Indizienkatalog prüfen | SV-Rückstände, Stundungsanträge, Lastschriftrückläufer, eingestellte Lieferantenzahlungen | Zahlungseinstellung ohne Deckungslücke möglich |
-| 14 | Ergebnis-Memo | Ampel-Zusammenfassung; frühester Rot-Eintritt (KW-Angabe); Handlungsempfehlung; § 102 StaRUG | Mandantenkommunikation |
+| 14 | Ergebnis-Memo | Ampel-Zusammenfassung; frühester Rot-Eintritt mit Kalenderwoche; Handlungsempfehlung; Tatbestand des Paragrafen 102 StaRUG bejaht, verneint oder offen | Mandantenkommunikation |
 | 15 | Excel-Export | Sheets: 13W, 26W, 52W, Fortführungsprognose, Annahmen; Ampel bedingte Formatierung | Arbeitsunterlage |
 
 ## Wochenraster-Struktur (Excel-Vorlage)
@@ -90,7 +84,6 @@ Stand: [Datum]
 
 | Beweisthema | Beweislastträger | Beweismittel |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Zahlungseingang-Wahrscheinlichkeit | GF / StB | Debitorenliste, Mahnstand, DA-Liste |
 | Kreditlinie ziehungsfähig | GF | Bankbescheinigung über Limit und Valuta |
 | SV-Rückstände | Offen aus Buchhaltung; BG-/KK-Bescheide | Konto-Auszüge SV-Beitragskonten |
@@ -104,13 +97,12 @@ Stand: [Datum]
 | Woche 0–13 | Zahlungsunfähigkeit; 3-Wochen-Test wöchentlich rollierend | Wöchentliche Aktualisierung |
 | Woche 0–26 | Mittelfristhorizont; Finanzierungsbedarf | Bankgespräch; Gesellschafterdarlehen |
 | Woche 0–52 | Fortbestehensprognose § 19 InsO; IDW S 6-Grundlage | Sanierungskonzept |
-| Monate 0–24 | § 18 InsO drohende ZU; SanInsKG | Eigenantragsoption; StaRUG |
+| Monate 0–24 | Paragraf 18 Absatz 2 InsO, drohende Zahlungsunfähigkeit | Eigenantrag und gerichtliche StaRUG-Instrumente gesondert prüfen |
 
 ## Typische Fehler
 
 | Fehler | Korrekte Vorgehensweise |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Kreditlinie vollständig als Aktiva I | Nur ziehungsfähiger, nicht gesperrter oder bereits ausgeschöpfter Teil |
 | Auftragseingang zu optimistisch ansetzen | Sensitivitätsanalyse: Worst-Case-Szenario immer einbeziehen; BGH verlangt realistische Annahmen |
 | USt-Voranmeldung fehlt in Auszahlungen | USt monatlich oder quartalsweise je nach Turnus; Dauerfristverlängerung berücksichtigen |
@@ -220,9 +212,9 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 | Situation | Empfehlung |
 |---|---|
-| Grüne Ampeln, kein § 17-Risiko | Monatliche Aktualisierung; § 102 StaRUG-Hinweispflicht dokumentiert erfüllt |
+| Grüne Ampeln, kein Paragraf-17-Risiko | Monatliche Aktualisierung; Tatbestand des Paragrafen 102 StaRUG nur bei Jahresabschlussauftrag prüfen und Ergebnis dokumentieren |
 | Gelbe Ampeln — Zahlungsstockung absehbar lösbar | Bankgespräch; Gesellschafterdarlehen; Debitoren-Beschleunigung; wöchentliche Aktualisierung |
-| Rote Ampele — § 17 InsO-Schwelle | Sofortige anwaltliche Beratung; Antragspflicht-Check; § 102 StaRUG-Warnschreiben |
+| Rote Ampel — Schwelle des Paragrafen 17 InsO | Sofortige anwaltliche Prüfung der Antragspflicht; Hinweis nach Paragraf 102 StaRUG nur bei Jahresabschlussauftrag und vollständig erfülltem Tatbestand |
 | Großauftrag als einziger Ausweg | Worst-Case-Szenario ohne Auftrag ausarbeiten; nicht auf Eingang vertrauen ohne Vertrag |
 | Kreditlinien ausgeschöpft | Neue Finanzierungsquellen (Factoring, Gesellschafter, Sale-and-Lease-back) prüfen |
 
@@ -230,15 +222,17 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 - `anw-insolvenzreife-pruefung-17-19-inso` — anwaltliche Insolvenzreife-Prüfung mit Datenbasis aus Liquiditätsvorschau
 - `stb-bwa-sus-bilanz-pruefung` — vorgelagerte BWA/SuSa-Prüfung
-- `stb-warnschreiben-krisensignale` — § 102 StaRUG-Pflichthinweis an GF
+- `stb-warnschreiben-krisensignale` - tatbestandsgebundener Hinweis nach Paragraf 102 StaRUG oder gesonderter vertraglicher Warnhinweis
 
 ## Quellen
 
-- InsO §§ 17, 18, 19, 15a, 15b
-- StaRUG §§ 1, 102
-- SanInsKG (Prognosezeitraum 24 Monate bis 31.12.2026)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- [Paragraf 17 InsO](https://www.gesetze-im-internet.de/inso/__17.html)
+- [Paragraf 18 InsO](https://www.gesetze-im-internet.de/inso/__18.html)
+- [Paragraf 19 InsO](https://www.gesetze-im-internet.de/inso/__19.html)
+- [Paragraf 15a InsO](https://www.gesetze-im-internet.de/inso/__15a.html)
+- [Paragraf 102 StaRUG](https://www.gesetze-im-internet.de/starug/__102.html)
+- Paragraf 19 Absatz 2 InsO: regelmäßiger Zwölfmonatszeitraum seit 01.01.2024; SanInsKG-Sonderregelung ausgelaufen
 - IDW S 6 (Sanierungskonzept); IDW S 11 (Insolvenzeröffnungsgründe)
-- K. Schmidt/Herchen, InsO § 17 Rn. 5–35
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
-- Pape/Schaltke, StaRUG § 102 Rn. 8–35
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

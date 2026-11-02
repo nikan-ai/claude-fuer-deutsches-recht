@@ -1,6 +1,6 @@
 ---
 name: konfliktcheck-vorab
-description: "Wenn es um Konfliktcheck-Vorab in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Konfliktcheck-Vorab: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Konfliktcheck-Vorab
@@ -12,7 +12,7 @@ Sekretariat soll vor Terminvergabe Interessenkonflikt prüfen. § 43a Abs. 4 BRA
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -27,20 +27,17 @@ Dieser Skill erinnert an die berufsrechtliche Pflicht zum Interessenkonflikt-Che
 3. Gibt es Anzeichen für einen Gesamtkonflikt (Sozietaet als Ganzes betroffen, § 3 Abs. 2 BORA)?
 4. Bei Interessenkonflikt: welche Konsequenz (Mandatsablehnug, Hinweis an Suchenden auf andere Kanzlei)?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 - § 43a Abs. 4 BRAO — Verbot der Vertretung widerstreitender Interessen
 - § 3 BORA — Konkretisierung des Interessenkonflikt-Verbots: gilt auch für ehemalige Mandanten und Sozietaetsmitglieder
 - § 356 StGB — Parteiverrat: strafrechtliche Konsequenz bei gleichzeitiger Vertretung gegenlaeufiger Interessen
-- § 14 BRAO — Widerruf der Zulassung bei schwerwiegenden Berufsrechtsverletzungen
+- Paragraf 14 BRAO enthält bestimmte Rücknahme- und Widerrufsgründe, keinen allgemeinen Widerrufstatbestand für Berufsrechtsverletzungen.
 
 ## Rechtsgrundlage
 
 ### § 43a Abs. 4 BRAO — Verbot der Vertretung widerstreitender Interessen
 
-> "Der Rechtsanwalt darf nicht tätig werden, wenn er eine andere Partei in derselben Rechtssache im widerstreitenden Interesse bereits beraten oder vertreten hat oder mit ihr in Sozietät verbunden ist."
+Prüfe die Vorbefassung in derselben Rechtssache und das widerstreitende Interesse anhand von Paragraf 43a Absatz 4 BRAO. Eine berufliche Verbindung mit anderen Rechtsanwälten ist gesondert nach den folgenden Absätzen zu prüfen; sie darf nicht als angeblicher Wortlaut des Absatzes 4 eingefügt werden.
 
 ### § 3 BORA — Verbot der Vertretung widerstreitender Interessen (Konkretisierung)
 
@@ -48,12 +45,14 @@ Dieser Skill erinnert an die berufsrechtliche Pflicht zum Interessenkonflikt-Che
 
 ### Folgen einer Pflichtverletzung
 
-- Möglicher Widerruf der Zulassung (§ 14 BRAO)
+- Zulassungsrechtliche Folgen nur bei einem konkret erfüllten gesetzlichen Tatbestand, nicht pauschal aus Paragraf 14 BRAO ableiten.
 - Schadensersatzpflicht gegenüber dem betroffenen Mandanten
 - Berufsrechtliche Ahndung durch die Rechtsanwaltskammer
 - Strafrechtliche Relevanz in besonders schweren Fällen (Parteiverrat § 356 StGB)
 
 ## Pflicht-Informationen für den Konfliktcheck
+
+Gezielter amtlicher Quellenabgleich am 16.10.2026: [Paragraf 43a BRAO](https://www.gesetze-im-internet.de/brao/__43a.html) und [Paragraf 14 BRAO](https://www.gesetze-im-internet.de/brao/__14.html). Korrigiert wurden das unzutreffende vermeintliche Normzitat und die pauschale Widerrufszuordnung; keine vollständige Neuprüfung aller Konflikt- und Sanktionstatbestände.
 
 Das Sekretariat muss vor Terminvergabe — oder spätestens beim Erstgespräch — folgende Informationen erfragen und im CRM vermerken:
 
@@ -136,3 +135,5 @@ Mit freundlichen Grüßen
 - `folgekorrespondenz-vorbereiten` — enthält Konfliktcheck-Statusfeld
 - `mandatsverhaeltnis-hinweis` — parallel relevanter Disclaimer
 - `vertraulichkeit-erinnerung` — nach erfolgreichem Check und Mandatsbegründung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

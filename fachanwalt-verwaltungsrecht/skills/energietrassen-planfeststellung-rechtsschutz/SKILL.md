@@ -1,6 +1,6 @@
 ---
 name: energietrassen-planfeststellung-rechtsschutz
-description: "Wenn es um Energietrassen Planfeststellung Rechtsschutz in Fachanwalt Verwaltungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Energietrassen Planfeststellung Rechtsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsschutz gegen Planfeststellungsbeschluss für Strom- und Gastrassen klagen: Anlieger oder Umweltverband klagt gegen Netzausbau
@@ -54,7 +54,6 @@ Bei Stromtrassen, Erdgas-Pipelines, LNG-Terminals, Wasserstoff-Stammnetz und Off
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Planfeststellungs-Rechtsschutz
 
@@ -67,13 +66,9 @@ Bei Stromtrassen, Erdgas-Pipelines, LNG-Terminals, Wasserstoff-Stammnetz und Off
 | 3 | Klagebefugnis Anlieger | Art. 14 GG Eigentumsgarantie; Enteignungs-Duldungspflicht; eigene Rechtsbetroffenheit aus Immissionsschutz | § 42 Abs. 2 VwGO analog |
 | 4 | Klagebefugnis Verband | § 2 UmwRG; Beteiligung im Planfeststellungsverfahren erfolgt; keine Verletzung eigener Rechte nötig | Beteiligung dokumentieren |
 | 5 | Sofortvollzug / Eilantrag | Anordnung sofortiger Vollziehung? Begründung § 80 Abs. 3 VwGO? | Eilantrag § 80 Abs. 5 VwGO |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | saP / Artenschutz | Artenschutzrechtliche Prüfung nach § 44 BNatSchG; Erfassungsmethodik; Vermeidungsmaßnahmen | Methodenfehler geltend machen |
 | 9 | Lärmschutz / TA Lärm | Bei Konverteranlagen, Umspannwerken; TA Lärm-Richtwerte; Schallgutachten korrekt? | Gegengutachten einsetzen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Entschädigungsanspruch | Enteignungs-Entschädigung nach § 18 EnWG; Wertgutachten Grundstück vor und nach | Eigene Verhandlungsführung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 14 | Aarhus-Kostenbarriere | Gerichtskosten dürfen effektiven Zugang nicht aushöhlen; Art. 9 Aarhus; EU-Recht | Kostenantrag bei Verband |
 | 15 | Beschwerde bei Eilabweisung | § 146 VwGO 2 Wochen; OVG/BVerwG; neue Tatsachen zulässig | Beschwerdebegründung 1 Monat |
 
@@ -105,9 +100,7 @@ Bei Stromtrassen, Erdgas-Pipelines, LNG-Terminals, Wasserstoff-Stammnetz und Off
 |---|---|
 | "Beschleunigungsgesetz schränkt Prüfung ein" | Grundrechtliche Mindestanforderungen bleiben; UVP-Richtlinie EU-Recht geht vor; Aarhus-Konvention Art. 9 |
 | "Klimaschutz rechtfertigt sofortigen Bau" | § 80 Abs. 3 VwGO Begründung muss auf Einzelfall eingehen; fossiles Vorhaben: Klimaschluss wirkt gegen Sofortvollzug |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Verband nicht klagebefugt — zu spät beteiligt" | Beteiligung muss nur im Planfeststellungsverfahren erfolgt sein, nicht bereits in Bundesfachplanung; Beteiligung dokumentieren |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Enteignungsentschädigung angemessen" | Unabhängiges Wertgutachten beauftragen; Folgeschäden (Wertminderung, Nutzungseinschränkung) erfassen |
 | "LNG-Terminal klimaneutral nutzbar" | Ohne verbindliche Wasserstoff-Umrüstungsklausel ist Klimaargument nicht tragfähig; BVerfG-Maßstab anlegen |
 
@@ -171,7 +164,6 @@ I. UVP-Defizite
 Der UVP-Bericht weist folgende materielle Lücken auf:
 — Alternativenprüfung unvollständig: Die Erdkabel-Variante
  entlang der Bestandsautobahn A[x] wurde nicht ernsthaft
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 — Artenschutzrechtliche Prüfung (saP) fehlerhaft: Rotmilan-
  Kartierung nur an [n] Terminen außerhalb der Hauptaktivitäts-
  zeiten.
@@ -180,7 +172,6 @@ II. Klimaschluss
 Das Vorhaben [LNG-Terminal / Erdgas-Pipeline] erhöht die
 Treibhausgasemissionen um [x] t CO2-Äquivalente p.a. und
 konterkariert die Pflicht des Staates zum Schutz künftiger
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Wir beantragen die Gewährung von Akteneinsicht in die vollständige
 Planfeststellungsakte sowie angemessene Verlängerung der
@@ -281,7 +272,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Streitwert Verbandsklage | § 52 Abs. 1 GKG; Auffangwert EUR 5.000 oder Orientierungswert Streitwertkatalog Verwaltungsgerichtsbarkeit; BVerwG-Streitwerte bei Großvorhaben bis EUR 100.000 | Keine wirtschaftlichen Eigeninteressen des Verbands |
 | Streitwert Anlieger | Wert der Eigentumsbeeinträchtigung; Entschädigungsforderung; typisch EUR 10.000–50.000 | § 52 Abs. 1 GKG nach wirtschaftlichem Interesse |
 | Eilantrag Streitwert | Hälfte des Hauptsache-Streitwerts | Beschlussmäßige Entscheidung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | Kostenprivileg Verbände | Art. 9 Abs. 4 Aarhus: Kosten dürfen nicht prohibitiv sein | Ermäßigung nach § 162 Abs. 3 VwGO beigeladener Verband |
 
 ## Strategische Empfehlung
@@ -290,19 +280,13 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 |---|---|
 | Klagefrist 1 Monat läuft | Sofortige Klage mit vorläufiger Begründung; Akteneinsicht parallel beantragen; Frist unbedingt wahren |
 | Sofortvollzug angeordnet | Eilantrag § 80 Abs. 5 VwGO; § 80 Abs. 3-Mangel als eigenständigen Aufhebungsgrund geltend machen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Anlieger Grundstück betroffen | Entschädigungsanspruch frühzeitig beziffern; Wertgutachten vor Baubeginn; ggf. zivilrechtliche Entschädigungsklage |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
 - `energieanlagen-bimschg-genehmigung-verfahren` — BImSchG-Genehmigung angrenzender Anlagen
 - `eilantrag-80-abs-5-vwgo` — Vertiefung Eilantrag-Schriftsatz
 - `fachanwalt-verwaltungsrecht-einstweiliger-rechtsschutz` — Grundlagen einstweiliger Rechtsschutz
-
-## Aktuelle Leitentscheidungen (v14.2 Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellen
 
@@ -315,4 +299,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - BNatSchG §§ 13, 44
 - UVPG
 - Aarhus-Konvention Art. 9 / EU-RL 2003/35
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

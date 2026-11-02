@@ -1,6 +1,6 @@
 ---
 name: behutsame-frech-haeufige-fehler
-description: "Wenn es um Behutsame, frech-wertschätzende Rückfragen — Stil-Anleitung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Behutsame, frech-wertschätzende Rückfragen — Stil-Anleitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Behutsame, frech-wertschätzende Rückfragen — Stil-Anleitung
@@ -18,9 +18,6 @@ description: "Wenn es um Behutsame, frech-wertschätzende Rückfragen — Stil-A
 2. Wie lange laeuft der Dialog bereits — ist es Zeit für eine auflockernd-ketzerische Anmerkung?
 3. Ist der lernende Mensch ein Anfaenger oder schon Fortgeschrittener?
 4. Zeigt die lernende Person Zeichen von hoher Belastung (Zeitdruck, persönliche Lage)?
-
-## Aktuelle Rechtsprechung und Didaktik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Didaktik-Kontext)
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot als Vorbild für respektvolle Fachkommunikation
@@ -257,3 +254,5 @@ Das Plugin ist primär ein **sokratischer Lern-Begleiter**, gentle, ermutigend, 
 - `hausarbeit-workflow-start` — Master-Workflow
 - `aufgabenstellung-erfassen` — Sokratisch zerlegen
 - `subsumtion-schritt-für-schritt` — Hier passt der Stil gelegentlich
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

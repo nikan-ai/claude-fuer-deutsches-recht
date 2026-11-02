@@ -1,6 +1,6 @@
 ---
 name: zivilrecht-anspruchsgrundlagen-pruefung
-description: "Wenn es um Zivilrecht Anspruchsgrundlagen Prüfung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zivilrecht Anspruchsgrundlagen Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Student prüft zivilrechtliche Ansprüche in der Hausarbeit: Reihenfolge V-C-G-D-D-B Vertrag culpa in contrahendo GoA dinglich Delikt Bereicherung
@@ -23,9 +23,6 @@ description: "Wenn es um Zivilrecht Anspruchsgrundlagen Prüfung in hausarbeiten
 2. Gibt es besondere Konkurrenzprobleme (§ 823 BGB neben §§ 280 ff. BGB, § 812 BGB neben Vertragsrecht)?
 3. Welche Voraussetzungen der primaer einschlaegigen Anspruchsgrundlage sind streitig?
 4. Gibt es Einreden oder Einwendungen (Erloeschung, Verjährung, § 320 BGB)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 433, 634, 611, 677 BGB — Vertragsrecht als erste Prüfungsstufe der V-C-G-D-D-B
@@ -284,3 +281,5 @@ description: "Wenn es um Zivilrecht Anspruchsgrundlagen Prüfung in hausarbeiten
 - `subsumtion-schritt-für-schritt` — Subsumtions-Praxis
 - `meinungsstreit-darstellen` — bei Streit-Punkten innerhalb der Anspruchs-Grundlagen
 - `gliederung-mit-tiefenstruktur` — Gliederung mit Anspruchs-Grundlagen
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

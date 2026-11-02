@@ -1,6 +1,6 @@
 ---
 name: redteam-halluzinationsschutz
-description: "Wenn es um Red-Team und Halluzinationsschutz in Urheberrecht DE EU geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Red-Team und Halluzinationsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Red-Team und Halluzinationsschutz
@@ -12,7 +12,7 @@ description: "Wenn es um Red-Team und Halluzinationsschutz in Urheberrecht DE EU
 
 ## Wofür dieser Arbeitsgang da ist
 
-Red-Team und Halluzinationsschutz schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe das urheberrechtliche Ergebnis kritisch auf unbelegte Aussagen und erfundene Fundstellen. Gleiche Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung und Schranke mit den Beweisen ab und liefere die verlangte Gegenprüfung oder korrigierte Fassung.
 
 ## Sofortstart
 

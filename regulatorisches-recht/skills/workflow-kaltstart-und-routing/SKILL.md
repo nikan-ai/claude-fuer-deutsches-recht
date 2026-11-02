@@ -1,6 +1,6 @@
 ---
 name: workflow-kaltstart-und-routing
-description: "Wenn es um Kaltstart und Routing in Regulatorisches Recht – Plugin für deutsches geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Regulatorisches Recht – Plugin für deutsches."
 ---
 
 # Kaltstart und Routing
@@ -25,7 +25,7 @@ Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen,
 ## Regulatorisches Routing (Sektor-Weichen)
 
 - **Daten/Plattformen:** DSGVO, ePrivacy, DSA/DMA (Plattformen ab 45 Mio Nutzer EU = VLOP), Data Act, Data Governance Act.
-- **KI:** AI Act (Risikoklassen: unannehmbar/hoch/begrenzt/minimal); Hochrisiko-Pflichten Anhang III; Verbindung zu Produkt- und Haftungsrecht (AI Liability Directive in Verhandlung).
+- **KI:** Verbote, beide Hochrisikopfade, Modellpflichten und Transparenz als parallele Spuren prüfen; „begrenzt/minimal“ sind keine gesetzlichen Klassen des Artikels 6. Einen früheren Vorschlag zur KI-Haftungsrichtlinie nicht ungeprüft als laufende Gesetzgebung oder geltendes Recht darstellen. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **Cybersicherheit:** NIS-2 (Wesentliche/Wichtige Einrichtungen), CRA (Cyber Resilience Act), KRITIS (BSI-Gesetz), DORA für Finanzsektor.
 - **Finanzdienstleistungen:** KWG, WpHG, KAGB, ZAG; MiFID II, EMIR, MiCA für Krypto, DORA für Ausfallresilienz, AML-Pakete.
 - **Telekommunikation/Medien:** TKG, TMG/DDG, Medienstaatsvertrag, Rundfunkstaatsvertrag.
@@ -45,3 +45,4 @@ Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen,
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Unsicherheiten und Annahmen ausdrücklich markieren.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

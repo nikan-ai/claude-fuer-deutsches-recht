@@ -1,6 +1,6 @@
 ---
 name: methodenlehre-strafrecht
-description: "Wenn es um Methodenlehre — Strafrecht in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Methodenlehre — Strafrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Methodenlehre — Strafrecht
@@ -22,9 +22,6 @@ description: "Wenn es um Methodenlehre — Strafrecht in Jurastudium geht: prüf
 2. Gibt es ein konkretes Fallbeispiel oder wird die Methodik abstrakt geuebt?
 3. Welcher Aspekt ist unklar: objektiver Tatbestand, subjektiver Tatbestand oder Trennungsfragen?
 4. Liegt ein Analogieproblem oder ein Bestimmtheitsproblem (Art. 103 Abs. 2 GG) vor?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 13-35 StGB — Allgemeiner Teil: methodischer Kern des Strafrechts
@@ -124,3 +121,5 @@ Die Konkurrenzen sind der zweite große Methodenkomplex im Strafrecht.
 
 - Sie korrigiert keine ausgeschriebenen Gutachten (das macht `gutachten-uebung`).
 - Sie übt nicht den Streit objektive/subjektive Theorie auf Detailniveau — sie übt die Anwendung in der Klausur.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

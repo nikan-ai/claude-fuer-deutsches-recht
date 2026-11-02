@@ -1,6 +1,6 @@
 ---
 name: vermerk-mustertext-sexualdelikte-aussage
-description: "Wenn es um Schriftsatz, Vermerk und Mustertext in Staatsanwaltschaft Praxis-Einstieg geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Vermerk Mustertext Sexualdelikte Aussage; Arbeitsfeld: Staatsanwaltschaft Praxis-Einstieg."
+description: "Für Schriftsatz, Vermerk und Mustertext: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Staatsanwaltschaft Praxis-Einstieg."
 ---
 
 # Schriftsatz, Vermerk und Mustertext
@@ -32,13 +32,6 @@ description: "Wenn es um Schriftsatz, Vermerk und Mustertext in Staatsanwaltscha
 3. Ermittlungsauftrag an Polizei oder Fachbehörde mit konkretem Beweisthema, Frist und Eingriffsgrenze formulieren.
 4. Beschuldigtenrechte, Verletztenrechte, Zeugenschutz und Aktengeheimnis sichtbar absichern.
 5. Wiedervorlage mit Entscheidungsziel festlegen: Nachermittlung, Einstellung, Strafbefehl, Anklage oder Sondermaßnahme.
-
-## Normen & Rechtsprechung
-
-- BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug bei Durchsuchungen ist eng zu verstehen und aktenkundig zu begründen.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Digitale Ermittlungsmaßnahmen brauchen eine tragfähige gesetzliche Grundlage, Richtervorbehalt und Kernbereichsschutz.
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigung und informelle Absprache dürfen die Wahrheitsfindung und Dokumentationspflicht nicht unterlaufen.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: EncroChat-Daten sind auf Rechtshilfeweg, Zuständigkeit, Verteidigungsrechte und Beweiszugang zu prüfen.
 
 ## Antrags- bzw. Verfügungs-Bausteine
 

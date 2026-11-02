@@ -1,11 +1,13 @@
 ---
 name: budget-overrun-escalation
-description: "Wenn es um Budget Overrun Escalation in Kanzlei-Mandant Lifecycle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Budget Overrun Escalation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Budget Overrun Escalation
 
 ## Arbeitsweg
+
+Bei neuen Gegenentscheidungen oder verschlechterter Beweislage gilt ergänzend [BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1): Bewerte selbst, wie sich die Erfolgsaussichten ändern, und berate den Mandanten schon vor völliger Aussichtslosigkeit erneut. Bloßer Versand der Parallelentscheidung oder der Hinweis, die Rechtsschutzversicherung zahle ohnehin, genügt nicht. Formuliere das ungefähre Risikomaß und den begründeten Rat zur Fortsetzung, Anpassung oder Beendigung neu; frage nach der darauf gestützten Entscheidung des Mandanten. Beratungspflicht, hypothetisches Verhalten, kausaler Schaden und Anscheinsbeweis bleiben getrennt. Der BGH hat die Haftung nicht abschließend zugesprochen.
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.

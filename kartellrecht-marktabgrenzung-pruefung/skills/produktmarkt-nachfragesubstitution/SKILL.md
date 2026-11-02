@@ -1,6 +1,6 @@
 ---
 name: produktmarkt-nachfragesubstitution
-description: "Wenn es um Produktmarkt — Nachfragesubstitution in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Produktmarkt — Nachfragesubstitution: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Produktmarkt — Nachfragesubstitution
@@ -74,4 +74,4 @@ Stufe: **eng / angemessen / zu weit** — mit Kurzformulierung der Hauptschwäch
 
 ## Leitentscheidungen Nachfragesubstitution
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

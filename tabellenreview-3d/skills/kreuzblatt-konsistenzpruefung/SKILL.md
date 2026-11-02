@@ -1,6 +1,6 @@
 ---
 name: kreuzblatt-konsistenzpruefung
-description: "Wenn es um /tabellenreview-3d:kreuzblatt-konsistenzprüfung in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /tabellenreview-3d:kreuzblatt-konsistenzprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # /tabellenreview-3d:kreuzblatt-konsistenzprüfung
@@ -14,7 +14,6 @@ description: "Wenn es um /tabellenreview-3d:kreuzblatt-konsistenzprüfung in Tab
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Methodik
 
@@ -52,3 +51,5 @@ description: "Wenn es um /tabellenreview-3d:kreuzblatt-konsistenzprüfung in Tab
 
 - **echter Widerspruch:** Kundenvertrag-042. Spalte 'Laufzeit'. Recht: '3 Jahre + 1 Jahr Verlängerung'. Wirtschaft: '4 Jahre Festlaufzeit'. Echter Widerspruch — Wirtschaft hat den Vertrag verkürzt gelesen.
 - **legitime Abweichung:** Lizenzvertrag-018. Spalte 'Haftung'. Recht: 'unwirksam BGB Paragraph 309 Nr 7'. Steuer: 'irrelevant — Pauschalhaftungs-Aufwand absetzbar'. Legitim — unterschiedliche Prüfmassstaebe.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: durchsuchung-beschlagnahme-kanzlei-arzt
-description: "Wenn es um Durchsuchung und Beschlagnahme in Staatsanwaltschaft Praxis-Einstieg geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Durchsuchung und Beschlagnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Staatsanwaltschaft Praxis-Einstieg."
 ---
 
 # Durchsuchung und Beschlagnahme
@@ -37,8 +37,6 @@ description: "Wenn es um Durchsuchung und Beschlagnahme in Staatsanwaltschaft Pr
 
 - BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug darf den Richtervorbehalt nur bei dokumentierter Eilbedürftigkeit verdrängen.
 - BVerfG, Beschluss vom 12.04.2005 - 2 BvR 1027/02, BVerfGE 113, 29: Durchsuchung und Beschlagnahme bei Berufsgeheimnisträgern verlangen gesteigerte Verhältnismäßigkeit und Schutz vertraulicher Mandatskommunikation.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Digitale Ermittlungsmaßnahmen brauchen eine tragfähige gesetzliche Grundlage, Richtervorbehalt und Kernbereichsschutz.
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigung und informelle Absprache dürfen die Wahrheitsfindung und Dokumentationspflicht nicht unterlaufen.
 
 ## Antrags- bzw. Verfügungs-Bausteine
 

@@ -1,6 +1,6 @@
 ---
 name: weg-beschlusskompetenz
-description: "Wenn es um WEG-Beschlusskompetenz: Fachmodul im Miet- und Wohnungseigentumsrecht in Fachanwalt Miet- und Wohnungseigentumsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für WEG-Beschlusskompetenz: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # WEG-Beschlusskompetenz: Fachmodul im Miet- und Wohnungseigentumsrecht
@@ -20,8 +20,6 @@ description: "Wenn es um WEG-Beschlusskompetenz: Fachmodul im Miet- und Wohnungs
 
 ## Fachlicher Kern — Miet- und WEG-Recht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `WEG-Beschlusskompetenz` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB §§ 535 ff., 536, 543, 546a, 548, 556, 556a, 558 ff., 573 ff.; BetrKV; HeizkostenV; WEG §§ 18, 19, 20, 23, 24, 28, 44, 45; GEG; CO2KostAufG.
-- **Verifizierte Anker:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15 (formelle Betriebskostenabrechnung); BGH, Urteil vom 15.12.2021 - VIII ZR 66/20 (Belegeinsicht Originale/Kopien); BGH, Urteil vom 14.02.2025 - V ZR 128/23 (§ 16 Abs. 2 Satz 2 WEG, Rücklagen/Kostenverteilung); BGH, Urteil vom 14.02.2025 - V ZR 86/24 (§ 20 WEG, bauliche Veränderung, Vorbefassung/Beschlussersetzung).
 - **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
 - **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -41,8 +39,16 @@ description: "Wenn es um WEG-Beschlusskompetenz: Fachmodul im Miet- und Wohnungs
 5. **Taktik:** Sofortmaßnahme, Verhandlung, Vergleich, Klage/Eilantrag, Kostenrisiko.
 6. **Ergebnis:** Ampel mit Begründung und konkretem nächsten Arbeitsschritt.
 
+### Delegierte Erhaltung am Gemeinschaftseigentum
+
+Bei delegierter Balkonerhaltung [BGH, Urteil vom 24.04.2026, V ZR 102/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZR_102-24.pdf?__blob=publicationFile&v=1), Rn. 13–14, 23 und 25–26, anwenden: Die GdWE behält ihre Beschlusskompetenz; wird sie tätig, bleibt die vereinbarte Kostenlast. Gemeinschaftsordnung, Sanierungsbedarf und Handlungsspielraum lesen. Kompetenz, Pflicht zum Tätigwerden und Kostentragung getrennt begründen; kein Anspruch auf jede gewünschte Sanierungsart.
+
 ## Quellen- und Sicherheitsregel
 - Vor tragenden Aussagen den aktuellen Normtext und die aktuelle Behörden-/Gerichtspraxis prüfen; keine Scheingenauigkeit aus Modellwissen.
 - Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Annahmen, fehlende Unterlagen, Beweisrisiken und Fristen ausdrücklich markieren.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-weg-beschlusskompetenz` beziehungsweise WEG-Beschlusskompetenz: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-weg-beschlusskompetenz.md).

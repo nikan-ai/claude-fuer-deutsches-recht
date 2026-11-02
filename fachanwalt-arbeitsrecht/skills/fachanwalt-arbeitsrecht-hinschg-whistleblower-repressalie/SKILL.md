@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-arbeitsrecht-hinschg-whistleblower-repressalie
-description: "Wenn es um HinSchG-Whistleblower-Schutz gegen Repressalie in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für HinSchG-Whistleblower-Schutz gegen Repressalie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # HinSchG-Whistleblower-Schutz gegen Repressalie
@@ -195,7 +195,6 @@ Anderenfalls erheben wir Klage zum Arbeitsgericht [Ort].
 |---|---|
 | Meldung nicht im Anwendungsbereich Paragraf 2 | Anhang RL 2019/1937 sorgfältig prüfen; weit auslegen; ggf. parallele allgemeine Arbeitnehmer-Schutzrechte |
 | Leistungsprobleme schon vor Meldung | Zeitstrahl mit HR-Dokumenten; fehlende Abmahnungen vor Meldung widersprechen dieser These |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Bewusst unwahre Meldung (Paragraf 38) | Nur bei positiver Kenntnis der Unwahrheit; Verdacht genügt nach Paragraf 3 Abs. 5 |
 | KSchG nicht anwendbar (Kleinstbetrieb) | Paragraf 35 HinSchG gilt unabhängig von Paragraf 23 KSchG; HinSchG-Unwirksamkeit = separater Unwirksamkeitsgrund |
 
@@ -258,5 +257,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - RL 2019/1937/EU (EU-Whistleblower-Richtlinie)
 - KSchG Paragrafen 4, 5
 - BGB Paragrafen 195, 199, 249
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

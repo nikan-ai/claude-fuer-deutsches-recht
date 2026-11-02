@@ -1,6 +1,6 @@
 ---
 name: verkehrsplanung-verkehrswende
-description: "Wenn es um Verkehrsplanung und Projektstrategie in Verkehrs- und Infrastrukturrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verkehrsplanung und Projektstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verkehrsplanung und Projektstrategie
@@ -36,10 +36,6 @@ Verkehrsplanung rechtlich begleiten: Kommune oder Verband plant Strassen- oder R
 - § 5 UVPG, Anlage 1 UVPG — UVP-Pflicht bei Strassenbauvorhaben
 - Art. 14 GG — Eigentumsgarantie; Enteignung nur gegen Entschaedigung (Art. 14 III GG)
 - § 74 VwVfG — Planfeststellungsbeschluss als rechtsgestaltender Verwaltungsakt
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt-für-Schritt-Workflow
 
@@ -123,3 +119,5 @@ Wir beantragen:
 - Abwaegungsgebot (§ 1 VII BauGB, § 74 VwVfG) muss alle Belange erfassen
 - Keine Trassenfestlegung ohne Variantenvergleich
 - Naturschutzrechtliche Eingriffsregelung (§§ 14 ff. BNatSchG) beachten
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

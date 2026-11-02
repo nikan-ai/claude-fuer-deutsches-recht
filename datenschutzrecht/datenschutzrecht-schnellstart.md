@@ -1,70 +1,55 @@
-Wenn du das hier öffnest, willst du einen Datenschutzverstoß bewerten und die richtige Reaktion gegenüber Aufsicht und Betroffenen aufsetzen.
+# 1. Datenschutzrecht: Schnellstart
 
-# Datenschutzrecht — Schnellstart
+Erstelle die bestellte Auskunft, Vorfallmeldung oder Vertragsfassung aus den Unterlagen. Ohne Auftrag den gewünschten Weg klären; entscheidende Lücken fragen, Antworten einarbeiten. Rechtsstand vor Anwendung prüfen. Artikel 22 DSGVO und Artikel 6 KI-VO getrennt subsumieren.
 
-Ziel: Datenschutz-Grundverordnung/BDSG/TDDDG – PIA/DPIA, AVV-Review, Auskunft Art. 15, Datenpanne Art. 33/34, Drittlandstransfer Art. 44 ff. inkl. US-Transfer, DPF, SCC, TIA, Behördenpaket und Brückenskills zur Sanktionsverteidigung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Bei Aktenkopien Artikel 15 Absätze 3 und 4 nach EuGH, Urteil vom 04.05.2023, C-487/21, CRIF, Randnummern 28 bis 45: Daten verständlich und originalgetreu, Dokumentkontext soweit für wirksame Rechte nötig; Rechte Dritter konkret schützen. Kein allgemeiner Vollaktenanspruch. [Volltext](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0487).
 
-## 1. Schnellmodus
+## 1.1 Verantwortlichen und Frist bestimmen
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Tatsächliche Zwecke und Mittel klären; Verantwortlicher, gemeinsam Verantwortliche und Auftragsverarbeiter je Verarbeitung trennen. Bei Betroffenenanträgen grundsätzlich ein Monat nach Artikel 12 Absatz 3; Verlängerungsgrund und rechtzeitige Mitteilung getrennt prüfen. Bei Datenpannen unverzüglich handeln und möglichst binnen 72 Stunden nach Artikel 33 melden, sofern ein Risiko nicht unwahrscheinlich ist. Hohe Risikoschwelle gehört zu Artikel 34. Unvollständige Angaben nach Artikel 33 Absatz 4 nachreichen, nicht auf vollständige Forensik warten.
 
-## 2. Direktstart
+## 1.2 Passenden Arbeitsweg wählen
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Auskunft: Identität verhältnismäßig klären, Daten und Empfänger auffinden, Drittrechte schützen, verständlich antworten. Löschung: Zweckfortfall, Aufbewahrung, Anspruchsabwehr und Empfängerinformation prüfen. Vertrag: Weisungen, Unterauftragnehmer, Sicherheit, Löschung und Transfers an Artikel 28 messen. Beschwerde: Pflichtverletzung, Beleg, Abhilfe und zuständige Aufsicht verbinden.
 
-## 3. Kernroute
+EuGH, Urteil vom 19.03.2026, C-526/24: Erstantrag bei bewiesener Missbrauchsabsicht exzessiv; Verdacht trägt weder Ablehnung noch Gebühr. Schaden/Kausalität bleiben nötig. [Pressemitteilung](https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/cp260038de.pdf), Volltext vor Zitat prüfen. BFH, Urteil vom 30.06.2026, IX R 2/25, II.3.: Finanzbehördliche Auskunft nachfordern, keine eidesstattliche Versicherung; Private gesondert prüfen. [Volltext](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202610168/).
 
-1. Verarbeitungsvorgang und Rollen bestimmen.
-2. Rechtsgrundlage, Zweckbindung und Datenminimierung prüfen.
-3. Informationspflichten, Betroffenenrechte und Fristen strukturieren.
-4. Technische und organisatorische Maßnahmen sowie Auftragsverarbeitung prüfen.
-5. Datenpanne, Aufsichtsverfahren, Schadensersatz und Löschkonzept bearbeiten.
-6. AVV-Haftung und Risikoallokation – Art. 82 Datenschutz-Grundverordnung: Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren.
+Urteilsdatenbank: [EuGH, Urteil vom 09.07.2026, Az. C-199/24](https://juris.curia.europa.eu/juris/document/document.jsf?docid=313495&doclang=DE), Rn. 61 bis 77: Artikel 85 DSGVO verlangt journalistischen Zweck mit redaktioneller Linie, Tatsachenprüfung und Berufsethik; Entgelt allein schadet nicht. Belege und nationale Ausnahme prüfen, sonst Artikel 10/17 anwenden. Kein automatischer Löschungsanspruch. DSGVO-Rechtsbehelfe bleiben; Verleumdungsbehelfe ersetzen sie nicht (Rn. 45 bis 51).
 
-## 4. Fallkarte
+Datenpanne: Kenntnis und Meldeentscheidung dokumentieren. Erstmeldung mit Verletzungsart, möglichst Kategorien/Zahlen Betroffener und Datensätze, Kontakt, Folgen und Abhilfe. Schätzungen kennzeichnen, Nachlieferung terminieren. Bei hohem Risiko gesonderte Betroffeneninformation; Empfänger-Löschzusage beweist keine Eindämmung. Auch Nichtmeldung begründen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | Datenschutz-Grundverordnung Artikel 5; Datenschutz-Grundverordnung Artikel 6; Datenschutz-Grundverordnung Artikel 12 bis Artikel 15 |
-| Rechtsprechung | EuGH, Urteil vom 16.07.2020 - C-311/18; EuGH, Urteil vom 04.05.2023 - C-300/21 |
-| Tatbestand | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren |
-| Beweislast | Verantwortlicher für Rechtmäßigkeit, TOMs und Rechenschaft; Betroffener für Schaden und Kausalität bei Ersatzansprüchen |
-| Rechtsfolge | Auskunft, Löschung, Meldung, Anordnung, Schadensersatz oder Aufsichtsantwort |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Artikel 82: EuGH, Urteil vom 04.05.2023, C-300/21, Österreichische Post, Rn. 32 bis 51, 58 bis 59: Verstoß, Schaden und Kausalität getrennt belegen; keine Erheblichkeitsschwelle, automatische Pauschale oder Strafentschädigung.
 
-## 5. Einsatzfelder
+### 1.2.1 Agenten
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| AVV-Haftung und Risikoallokation – Art. 82 Datenschutz-Grundverordnung | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Löschung und Rückgabe nach Vertragsende – Art. 28 Abs. 3 lit. g Datenschutz-Grundverordnung | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Bdsg: Tatbestandsmerkmale, Beweisfragen und Beleglage | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beweissicherung nach Datenschutzvorfall — Chain of Custody | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Bankablehnung wegen Score: Beweisplan | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Datenschutz Beschwerde Art. 77 Datenschutz-Grundverordnung — Aufsichtsbehörden-Praxis | Rolle, Rechtsgrundlage, Betroffenenrecht, Frist, TOMs, Auftragsverarbeitung und Aufsichtsrisiko dokumentieren. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Bei Agenten Inferenz, Gedächtnis, Werkzeugempfänger und Training je Zweck und Rolle prüfen. Ein lokales Modell macht externe Aufrufe nicht lokal. Ausgabefilter sind keine Löschbestätigung; Aufbewahrung begrenzt nicht automatisch jeden Löschanspruch. Artikel 18 ist kein pauschaler Ersatz. Artikel 22 verlangt Prüfung der tatsächlichen Entscheidungskette; Artikel 6 Absatz 1 Buchstabe f ist keine Ausnahme. Erfüllbare Teile beantworten, Nachweise gezielt anfordern.
 
-## 6. Anker
+## 1.3 Omnibus: geltendes Recht von Vorschlägen trennen
 
-- Datenschutz-Grundverordnung Artikel 5: Grundsätze der Verarbeitung personenbezogener Daten.
-- Datenschutz-Grundverordnung Artikel 6: Rechtmäßigkeit der Verarbeitung.
-- Datenschutz-Grundverordnung Artikel 12 bis Artikel 15: Transparenz, Auskunft und Kommunikation.
-- Datenschutz-Grundverordnung Artikel 28: Auftragsverarbeitung.
-- Paragraf 307, Paragraf 309 Nr. 7 BGB (AGB-rechtliche Schranken): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 4, 20, 41 BDSG (Aufsicht, Rechtsweg, Strafvorschriften): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 257 HGB, Paragraf 147 AO, Paragraf 50 BDSG, Paragraf 11 BORA – steuer-, handels- und berufsrechtliche Aufbewahrungspflichten: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 257 HGB, Paragraf 147 AO: 10 Jahre, 6 Jahre: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- EuGH, Urteil vom 16.07.2020 - C-311/18: Schrems II verlangt tragfähige Prüfung internationaler Datentransfers.
-- EuGH, Urteil vom 04.05.2023 - C-300/21: immaterieller Schadensersatz nach Datenschutz-Grundverordnung verlangt Schaden, Verstoß und Kausalität.
-- EuGH C-634/21 (automatisierte Bonitätsbewertung Schufa)
-- EuGH C-26/22 (Datenschutzbehörden-Befugnisse)
+COM(2025) 837, Verfahren 2025/0360(COD), ist noch nicht abgeschlossen. 96-Stunden-Meldung, geänderte Risikoschwelle, Trainingsprivilegien oder neue Auskunftsausnahmen nicht als geltendes Recht anwenden. Pseudonymisierte Daten sind nicht automatisch anonym.
 
-## 7. Antwortform
+COM(2025) 501, Verfahren 2025/0130(COD), ist eine andere Reformspur. Keine Verzeichnisbefreiung für 750 oder 1000 Beschäftigte vorwegnehmen. Artikel 30 Absatz 5 bleibt: Selbst unter 250 Beschäftigten sind insbesondere regelmäßige, riskante oder sensible Verarbeitungen erfasst. Gewöhnliche Personalverwaltung nicht aus dem Verzeichnis entfernen.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder AVV-Haftung und Risikoallokation – Art. 82 Datenschutz-Grundverordnung, Löschung und Rückgabe nach Vertragsende – Art. 28 Abs. 3 lit. g Datenschutz-Grundverordnung, Bdsg: Tatbestandsmerkmale, Beweisfragen und Beleglage, Beweissicherung nach Datenschutzvorfall — Chain of Custody: Kurzvermerk.
+## 1.4 Sensible Daten für Bias-Prüfung
 
-## 8. Stop
+Die bereits geltende Verordnung (EU) 2026/1744 änderte dagegen die Verordnung (EU) 2024/1689. Neuer Artikel 4a ersetzt Artikel 10 Absatz 5. Absatz 1 betrifft Hochrisikoanbieter, Absatz 2 weitere Anbieter und Betreiber nur unter zusätzlichen Bedingungen. Strikte Notwendigkeit, fehlende gleich wirksame andere Daten, technische Zweckbindung, Pseudonymisierung und Sicherheit, dokumentierte Zugriffe, keine Weitergabe und früheste Löschung prüfen. Die Gründe gehören ins Verarbeitungsverzeichnis.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Keine allgemeine Trainingserlaubnis. Artikel 6 und 9, Rechte der Betroffenen, Sicherheit und gegebenenfalls Folgenabschätzung bleiben zu prüfen. Ein Dienstleister darf nicht unter dem Etikett Bias-Korrektur beliebig sensible Kundenakten weiterverwenden.
+
+## 1.5 Systemrecht und Datenschutz koordinieren
+
+Artikel 4 verlangt Kompetenzförderung ohne individuelle Niveaugarantie. Artikel 50 betrifft Transparenz, Deepfakes gehören zu Absatz 4, nicht Artikel 4a. Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 gelten nach Artikel 113 bei Anhang III ab 2. Dezember 2027, bei Anhang I ab 2. August 2028; das verschiebt keine Datenschutz-Folgenabschätzung. Artikel 111 zum Bestand gesondert prüfen.
+
+Nach KI-MIG ist die Bundesnetzagentur Auffangbehörde für Systemaufsicht. Paragraf 2 enthält insbesondere Sonderzuständigkeiten für Produkte, bestimmte Finanzunternehmen, öffentliche Landesstellen und Medien sowie die unabhängige Kammer. Datenschutzaufsicht bleibt daneben zuständig. Meldungen, Rechtsbehelfe und Aktenzugang nicht vermischen.
+
+## 1.6 Arbeitsprodukt und Quellen
+
+Bestätigter Download: Linksperrung genügt nicht; lokale Kopie/Löschbestätigung prüfen, Brief anpassen. Fehlende CRM-Daten nachfordern, danach Datenkopie und Antwort ergänzen.
+
+Quellenstatus und ungelesenen Umfang separat nennen. Meldung, Löschung und Datenfreigabe nur mit Freigabe; ohne Export fertigen Text, ohne Quellenzugriff keine neue Normfassung behaupten.
+
+[Datenschutz-Grundverordnung](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de), [Verordnung (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de), [Paragraf 2 KI-MIG](https://www.gesetze-im-internet.de/ki-mig/__2.html), [Verfahren 2025/0360(COD)](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0360%28COD%29), [Verfahren 2025/0130(COD)](https://eur-lex.europa.eu/procedure/EN/2025_130?qid=1748035370044&rid=3). Für den Schadensersatz: [EuGH, Urteil vom 4. Mai 2023, C-300/21](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0300). Dezimale Gliederung, vollständige Sätze, beim formatierten Export Times New Roman 11 pt.
+
+## 1.7 Freigabestopp ohne Bearbeitungsstillstand
+
+Bei offener Rechtsgrundlage oder hohem Restrisiko keine endgültige Datenfreigabe. Auskunftsentwurf, Erstmeldung und belegte Teilprüfung fertigstellen; fehlende Forensik verschiebt keine Frist.

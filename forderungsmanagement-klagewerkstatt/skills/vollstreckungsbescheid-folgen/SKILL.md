@@ -1,6 +1,6 @@
 ---
 name: vollstreckungsbescheid-folgen
-description: "Wenn es um Vollstreckungsbescheid und Folgen in Forderungsmanagement — Klagewerkstatt geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Vollstreckungsbescheid und Folgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Vollstreckungsbescheid und Folgen
@@ -69,7 +69,7 @@ Vor Erlass: nochmalige Belehrung (Paragraf 692 Abs. 1 Nr. 5 ZPO bei MB, gilt for
 ## Strategische Hinweise
 
 - Antrag VB **nicht** zu spaet stellen – sonst neue Hemmung erforderlich.
-- VB sofort vollstrecken (insbesondere Konto-/Lohnpfaendung), Vermögensauskunft beantragen.
+- VB sofort vollstrecken (insbesondere Konto- oder Lohnpfändung), Vermögensauskunft beantragen.
 - Bei verspaetetem Einspruch: VB wirksam.
 - VB ist **keine Sachentscheidung** – bei spaeterem Streit über Anspruch nur Vollstreckungsabwehrklage Paragraf 767 ZPO.
 

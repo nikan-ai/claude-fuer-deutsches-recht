@@ -1,6 +1,6 @@
 ---
 name: cisg-pruefen
-description: "Wenn es um CISG-Prüfung in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für CISG-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # CISG-Prüfung
@@ -13,10 +13,6 @@ Das UN-Kaufrecht (Wiener Übereinkommen vom 11. April 1980 über Verträge über
 2. Ist der Gegenstand eine bewegliche körperliche Sache (kein Konsumkauf, keine Dienstleistung)?
 3. Haben die Parteien die Anwendung des CISG wirksam ausgeschlossen (Art. 6 CISG — ausdrücklicher Ausschluss nötig)?
 4. Welche Rügefrist gilt — ist die Rügeobliegenheit nach Art. 38, 39 CISG gewahrt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -80,3 +76,5 @@ Ein Ausschluss nach Art. 6 CISG liegt nicht vor. [Alternativ: CISG ausgeschlosse
 ## Kollisionsfälle
 
 Wenn die Parteien gleichzeitig deutsches und Schweizer Recht wählen (kollidierende AGB), greift in der Regel CISG, weil beide Staaten Vertragsstaaten sind und die Rechtswahl in beiden Fällen auf einen Vertragsstaat führt. Falls eine Partei den Ausschluss in ihren AGB hat und die andere nicht, ist nach der Theorie der Resstgültigkeit / Knock-out-Doktrin (Artikel 19 CISG, herrschende Meinung in Deutschland) der Ausschluss nicht wirksam vereinbart.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

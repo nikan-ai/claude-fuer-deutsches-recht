@@ -1,6 +1,6 @@
 ---
 name: anpassen
-description: "Wenn es um Customize – Praxisprofil anpassen in Datenschutzrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Customize – Praxisprofil anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Customize – Praxisprofil anpassen
@@ -77,10 +77,6 @@ Stand: 05/2026. Bei BDSG-Novellen, neuen BRAO-Regeln oder Aufsichtsbehörden-Neu
 - `datenschutzrecht/skills/datenschutzrecht-kaltstart-interview/SKILL.md` — Vollständige Neukonfiguration
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — Drittlandtransfer-Mechanismen im Praxisprofil
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Was genau soll geändert werden? (Aufsichtsbehörde / AVV-Dealbreaker / Systemliste / DSB)
@@ -106,31 +102,4 @@ Folgeaktionen:
 Durchgefuehrt von: [SACHBEARBEITER]
 ```
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 DSGVO (Grundsätze der Verarbeitung)
-- Art. 6, 9 DSGVO (Rechtsgrundlagen, besondere Datenkategorien)
-- Art. 13, 14 DSGVO (Informationspflichten)
-- Art. 15 DSGVO (Auskunftsrecht)
-- Art. 28 DSGVO (Auftragsverarbeitung)
-- Art. 32 DSGVO (Sicherheit der Verarbeitung)
-- Art. 33, 34 DSGVO (Meldepflichten bei Verletzung)
-- Art. 82 DSGVO (Schadensersatz)
-- Art. 83 DSGVO (Bußgelder)
-- §§ 4, 20, 41 BDSG (Aufsicht, Rechtsweg, Strafvorschriften)
-
-### Leitentscheidungen
-
-- EuGH C-300/21 (immaterieller Schaden Art. 82 DSGVO)
-- EuGH C-634/21 (automatisierte Bonitätsbewertung Schufa)
-- EuGH C-26/22 (Datenschutzbehörden-Befugnisse)
-- EuGH C-807/21 (Bußgeldhaftung juristischer Personen)
-- BVerfG 1 BvR 16/13 (Recht auf Vergessen I)
-
-### Anwendung im Skill
-
-- Rechtsgrundlage nach Art. 6 DSGVO sauber waehlen; berechtigte Interessen nach Art. 6 Abs. 1 lit. f DSGVO mit dokumentierter Abwaegung.
-- Bei Datenpannen die 72-Stunden-Frist nach Art. 33 DSGVO einhalten; Risikoabwaegung Art. 34 DSGVO separat dokumentieren.
-- Auskunftsanspruch Art. 15 DSGVO nicht mit Kopie nach Art. 15 Abs. 3 DSGVO verwechseln; EuGH C-307/22 Reichweite beachten.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

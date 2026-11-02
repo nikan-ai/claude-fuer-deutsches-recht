@@ -1,6 +1,6 @@
 ---
 name: mehrere-wandeldarlehen-parallel
-description: "Wenn es um Mehrere parallele Wandeldarlehen in Wandeldarlehen-Lebenszyklus geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mehrere parallele Wandeldarlehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mehrere parallele Wandeldarlehen
@@ -28,9 +28,6 @@ description: "Wenn es um Mehrere parallele Wandeldarlehen in Wandeldarlehen-Lebe
 - § 39 Abs. 2 InsO (Gleichrang der Nachrangforderungen untereinander)
 - § 55 GmbHG (Kapitalerhöhung – mehrere Übernahmen gleichzeitig möglich)
 - § 328 BGB (Drittschutz der Rangrücktrittsvereinbarung)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -83,12 +80,8 @@ Stand: 05/2026. Bei Änderung GmbHG §§ 55 ff. oder InsO § 39 aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 39 InsO (Nachrang Gesellschafterdarlehen) → § 135 InsO (Anfechtung) → §§ 55, 56 GmbHG (Kapitalerhöhung bei Wandlung) → § 5 Abs. 1 GmbHG (Mindest-Nennbetrag Anteile 1 EUR) → § 40 GmbHG (Gesellschafterliste parallele Updates)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

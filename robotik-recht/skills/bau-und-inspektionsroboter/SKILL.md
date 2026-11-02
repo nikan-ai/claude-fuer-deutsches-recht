@@ -1,6 +1,6 @@
 ---
 name: bau-und-inspektionsroboter
-description: "Wenn es um Bau- und Inspektionsroboter in robotik-recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bau- und Inspektionsroboter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bau- und Inspektionsroboter
@@ -29,7 +29,7 @@ Bau- und Inspektionsroboter (Vermessungs-Roboter, Mauerwerks-, 3D-Druck-, Schwei
 - **VOB/B** § 4 Ausführung, § 13 Mängelansprüche; ergänzend BGB Werkvertragsrecht §§ 631 ff., insb. § 633 Sach- und Rechtsmangel.
 - **§ 823 BGB / § 836 BGB / § 906 BGB** für Drittschäden, Immissionen, Lärm, Erschütterungen.
 - **ProdHaftG / VO (EU) 2024/2853** Hersteller, ggf. Quasi-Hersteller des Integrators.
-- **KI-VO** bei autonomer Wahrnehmung; bei sicherheitskritischer Erkennung ggf. Hochrisiko Anhang III KI-VO.
+- **Bau-/Inspektionsrobotik:** Sicherheitskritische Wahrnehmung führt nicht allein zu Anhang III. Artikel 6 Absatz 1 mit Anhang I einschließlich Abschnitt A/B und Artikel 2 Absatz 2 von Absatz 2 mit Anhang III trennen. Artikel 6 Absätze 1a bis 1c samt Berichtigung prüfen. Eine sicherheitsrelevante Maschinenfunktion ist nicht allein deshalb ein Anhang-III-Tatbestand. [amtlicher Text, geprüft 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Schritt für Schritt
 
@@ -85,3 +85,4 @@ Bau- und Inspektionsroboter (Vermessungs-Roboter, Mauerwerks-, 3D-Druck-, Schwei
 - VO (EU) 2024/2853 (neue ProdHaftRL).
 - VO (EU) 2024/1689 (KI-VO).
 - Live-Verifikation auf baua.de, bundesanzeiger.de, eur-lex.europa.eu; lizenzierte Datenbanken (beck-online, juris) nur bei vorhandenem Zugang.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

@@ -1,6 +1,6 @@
 ---
 name: geschaeftsgeheimnisse-und-logdaten
-description: "Wenn es um Geschäftsgeheimnisse und Logdaten in robotik-recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Geschaeftsgeheimnisse Und Logdaten; Arbeitsfeld: robotik-recht."
+description: "Für Geschäftsgeheimnisse und Logdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: geschaeftsgeheimnisse-und-logdaten."
 ---
 
 # Geschäftsgeheimnisse und Logdaten
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Prüft Schutz von Geschäftsgeheimnissen in Logs, Diagnosedaten, Trainingsdaten, Quellcode, Sachverständigenverfahren und Behördenkontakten.**
 
 Quellen-/Normenanker: GeschGehG, ZPO Geheimnisschutz, Data Act, Vertrag.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

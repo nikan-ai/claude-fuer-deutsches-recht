@@ -1,6 +1,6 @@
 ---
 name: evidenz-qualitaet-bewertung
-description: "Wenn es um Evidenz-Qualitätsbewertung in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Evidenz-Qualitätsbewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck."
 ---
 
 # Evidenz-Qualitätsbewertung
@@ -86,4 +86,4 @@ Selektivitätsrisiko: [niedrig / mittel / hoch]
 
 ## Leitentscheidungen Evidenzqualitaet
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

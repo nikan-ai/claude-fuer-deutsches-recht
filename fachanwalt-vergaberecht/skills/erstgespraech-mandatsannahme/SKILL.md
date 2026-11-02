@@ -1,6 +1,6 @@
 ---
 name: erstgespraech-mandatsannahme
-description: "Wenn es um Erstgespraech Mandatsannahme in Fachanwalt Vergaberecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Vergaberecht."
 ---
 
 # Strukturierter Erstgespraechsleitfaden für Vergaberecht (Oberschwellen- und Unterschwellenvergabe): Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinbarung, Fristen-Erstprognose und Handlungsweichen.
@@ -181,7 +181,6 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 
 ### Leitsaetze Erstgespräch und Fristen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen Vergaberecht Erstmandat
 - §§ 97-109 GWB — Grundsaetze des Vergaberechts (Wettbewerb, Transparenz, Gleichbehandlung)
@@ -246,27 +245,4 @@ Naechster Schritt: [Ruege / NPA / Klage § 181 GWB]
 - Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
 - Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 8a BSIG
-- § 8 WRegG
-- § 106 VwVfG
-- § 2 BSIG
-- § 8b BSIG
-- § 123 VwGO
-- Art. 28 DSGVO
-- Art. 46 DSGVO
-- § 29 VwVfG
-- § 5 IFG
-- § 129 StGB
-- § 261 StGB
-
-### Leitentscheidungen
-
-- EuGH C-377/17
-- BGH VII ZR 174/19
-- EuGH C-107/98
-- EuGH C-480/06
-- EuGH C-376/21
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

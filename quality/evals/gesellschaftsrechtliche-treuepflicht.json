@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "plugin": "gesellschaftsrechtliche-treuepflicht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_275-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-14",
+      "supports": "BGH 12.04.2016 II ZR 275/14, Randnummern 13–19: Zweckmäßigkeit genügt nicht für Zustimmungspflicht; Randnummer 23: Sondervorteilsblockade gesondert."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_275-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 12.04.2016 - II ZR 275/14, Rn. 13 bis 19 und 23: Erzwungene Zustimmung nur bei objektiv unabweisbarer Maßnahme zur Werterhaltung oder Schadensvermeidung und Zumutbarkeit prüfen; Alternativen und Eigeninteressen des Abstimmenden konkret würdigen. Grenze: Bloße Zweckmäßigkeit und Mehrheitswille genügen nicht. Der Standortfall entscheidet keine generelle Nachschuss- oder Finanzierungsverpflichtung; missbräuchlicher Sondervorteil war dort nicht festgestellt."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__85-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-10-01",
+      "supports": "Kopf/Berichtigung vom14.07.2026, Rn. 12–32; tragend24–31. Individuelle doppelte Schriftform grundsätzlich nicht mündlich abbedingen; Treuepflicht kann formgerechte rückwirkende Zustimmung verlangen. Grenze: Freiberuflersozietät, zurückverwiesen; weder automatische Heilung noch Übertragung auf §305bAGB oder gesetzliche Beurkundung."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Der Schnellstart legt die hohe Schwelle erzwungener Zustimmung offen und verlangt die Prüfung zumutbarer Alternativen statt bloßer Nützlichkeit einer Kapitalmaßnahme. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Gegenstimme von Pflichtverletzung abgegrenzt; Unabweisbarkeit, Zumutbarkeit und fehlender allgemeiner Nachschusszwang früh benannt. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Zustimmungszwang von wirtschaftlicher Zweckmäßigkeit und Mehrheitswunsch getrennt.",
+      "Keine pauschale Nachschusspflicht aus der Treuepflicht; sachverhaltsbezogene Zumutbarkeit und Alternativen eingefordert.",
+      "Rechtsformbezogene Normen an Stimmrechts-, Minderheits- und Haftungsfragen angebunden.",
+      "Schlusslektüre: Überschriften benennen Mitgliedschafts- und Organpflicht sowie Zustimmungserfordernis, Alternativen und Rechtsfolge statt interner Arbeitsbegriffe.",
+      "Eigenständige Starts und fachbezogene Antwortfortsetzung ergänzt.",
+      "Einstiegsredaktion 16.10.2026: Gegenstimme von Pflichtverletzung abgegrenzt; Unabweisbarkeit, Zumutbarkeit und fehlender allgemeiner Nachschusszwang früh benannt."
+    ],
+    "sha256": "de2f1ef2bbd62aab52b0c30a86835aebb2d60a9d8adf0a19d4834bfb32a5d02e"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe, ob die Minderheit einer Standorteröffnung aus Treuepflicht zustimmen muss.",
+      "Ordne behauptete Sondervorteilsforderungen bei einer Beschlussblockade ein."
+    ],
+    "negative": [
+      "Zähle nur die Stimmen bei gesetzlichem Verbot der eigenen Entlastung.",
+      "Prüfe ausschließlich eine Grundbuchvollmacht."
+    ]
+  },
+  "cases": [
+    {
+      "id": "nuetzliche-expansion-ohne-zustimmungszwang",
+      "request": "Erstelle ergebnis.md als Vermerk für eine GmbH mit 75 Prozent Beteiligung des A und 25 Prozent des B. Eine neue Filiale erfordert nach wirksamer Satzung 80 Prozent Zustimmung. A stimmt dafür, B dagegen. Die Filiale ist nach plausibler Planung profitabel, aber nicht notwendig, um bestehende Werte zu erhalten oder erhebliche Verluste abzuwenden. Die Gesellschaft ist dauerhaft liquide; ihr Bestand und bestehende Standorte sind ohne Expansion ungefährdet. B verlangt keine Sondervorteile und ist keine Stimmbindung eingegangen. Er hält Expansion für unnötig. A will die Gegenstimme allein wegen wirtschaftlicher Unvernunft unbeachtet lassen. Beurteile dies anhand eines verifizierten Entscheidungsankers.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das Ergebnis leitet aus erwarteter Profitabilität und Zumutbarkeit allein keine Zustimmungspflicht des B ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Es berücksichtigt das Fehlen objektiver Unabweisbarkeit und Sondervorteilsblockade und behandelt Bs Stimme nicht allein wegen Unzweckmäßigkeit als unwirksam.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Der Maßstab aus II ZR 275/14 wird am konkreten Sachverhalt angewandt; die erforderlichen 80 Prozent werden nicht als erreicht erklärt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "bgh-ii-zr-275-14-media-saturn"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Die Werkstatt verbindet II ZR 275/14 mit objektiver Unabweisbarkeit, Gesellschaftsinteresse und Zumutbarkeit; Sondervorteilsargumente werden nicht als im Ausgangsfall festgestellte Tatsachen dargestellt. Individuelle Text- und Primärquellenprüfung, kein Live-Modelltest. Einstiegsredaktion 16.10.2026: Gegenstimme von Pflichtverletzung abgegrenzt; Unabweisbarkeit, Zumutbarkeit und fehlender allgemeiner Nachschusszwang früh benannt. Keine neue fachliche Vollprüfung oder Live-Modellprobe.",
+    "changes": [
+      "Zustimmungszwang von wirtschaftlicher Zweckmäßigkeit und Mehrheitswunsch getrennt.",
+      "Keine pauschale Nachschusspflicht aus der Treuepflicht; sachverhaltsbezogene Zumutbarkeit und Alternativen eingefordert.",
+      "Rechtsformbezogene Normen an Stimmrechts-, Minderheits- und Haftungsfragen angebunden.",
+      "Finanzierungsalternativen, Zumutbarkeit persönlicher Sicherheiten, legitimes Eigeninteresse, Beschlussstadium und Schadenskausalität.",
+      "Einstiegsredaktion 16.10.2026: Gegenstimme von Pflichtverletzung abgegrenzt; Unabweisbarkeit, Zumutbarkeit und fehlender allgemeiner Nachschusszwang früh benannt."
+    ],
+    "sha256": "2a6826573744865710fc68051e3996f0b9a67ed948f0fb4c8c2009061b1c2861"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "gesellschaftsrechtliche-treuepflicht/README.md",
+      "gesellschaftsrechtliche-treuepflicht/gesellschaftsrechtliche-treuepflicht-werkstatt.md",
+      "gesellschaftsrechtliche-treuepflicht/gesellschaftsrechtliche-treuepflicht-schnellstart.md",
+      "gesellschaftsrechtliche-treuepflicht/skills/bgh-ii-zr-275-14-media-saturn/SKILL.md",
+      "quality/evals/gesellschaftsrechtliche-treuepflicht.json"
+    ],
+    "opening_change": "Konkrete verlangte Zustimmung, unterlassene Handlung oder Schadensfolge ersetzt allgemeine Gerechtigkeits- und Ergebnisprosa.",
+    "norms": [
+      "BGB Paragraf 242",
+      "GmbHG Paragraf 47",
+      "AktG Paragraf 53a",
+      "AktG Paragraf 243 Absatz 2"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 12.04.2016 - II ZR 275/14, Rn. 13 bis 19 und 23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_275-14.pdf?__blob=publicationFile&v=1",
+        "application": "Erzwungene Zustimmung nur bei objektiv unabweisbarer Maßnahme zur Werterhaltung oder Schadensvermeidung und Zumutbarkeit prüfen; Alternativen und Eigeninteressen des Abstimmenden konkret würdigen.",
+        "limit": "Bloße Zweckmäßigkeit und Mehrheitswille genügen nicht. Der Standortfall entscheidet keine generelle Nachschuss- oder Finanzierungsverpflichtung; missbräuchlicher Sondervorteil war dort nicht festgestellt."
+      },
+      {
+        "citation": "BGH, Urteil vom 16.06.2026 – II ZR 85/25, Kopf/Berichtigung vom14.07.2026, Rn. 12–32",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__85-25.pdf?__blob=publicationFile&v=1",
+        "application": "Individuelle doppelte Schriftform grundsätzlich nicht mündlich abbedingen; Treuepflicht kann formgerechte rückwirkende Zustimmung verlangen.",
+        "limit": "Freiberuflersozietät, zurückverwiesen; weder automatische Heilung noch Übertragung auf §305bAGB oder gesetzliche Beurkundung.",
+        "checked_on": "2026-10-01",
+        "verification": "fresh_primary_passages"
+      }
+    ],
+    "remaining_limits": [
+      "Sanierungs-, Konzern- und Ausschließungsfälle benötigen zusätzlich eigene Rechtsprechungsprüfung.",
+      "Gewöhnlicher Media-Saturn-Skill nur gelesen, nicht im freigegebenen Schreibbereich.",
+      "Desk- und Quellenprüfung; kein Live-Client- oder Live-Modelltest und keine vollständige Neuverifikation sämtlicher vorhandener Quellen.",
+      "Workflow-Ergänzung am 2026-09-23: individuelle Textprüfung, keine erneute Gesamtverifikation der bestehenden Entscheidungsanker; deren dokumentierte Quellen- und Zugriffsgrenzen bleiben bestehen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Sanierungszustimmung, Sondervorteil oder Schaden wählen.",
+      "Beschlüsse und Finanzierungsbelege still lesen; Zustimmungsaufforderung oder Abwehr anbieten.",
+      "Bestellte Treuepflichtprüfung oder Erklärung unmittelbar ausarbeiten."
+    ],
+    "continuation": "Belastbare Bankalternative -> Erforderlichkeit und Zustimmungsforderung ändern; neuer Beschluss -> passenden Rechtsschutz statt bloßer Abstimmungsaufforderung prüfen.",
+    "enrichment": "Finanzierungsalternativen, Zumutbarkeit persönlicher Sicherheiten, legitimes Eigeninteresse, Beschlussstadium und Schadenskausalität.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "context_and_primary_passages",
+    "report": "quality/source-audits/2026-10-01-breit/wirtschaft.json",
+    "files_changed": [
+      "gesellschaftsrechtliche-treuepflicht/gesellschaftsrechtliche-treuepflicht-schnellstart.md",
+      "gesellschaftsrechtliche-treuepflicht/gesellschaftsrechtliche-treuepflicht-werkstatt.md"
+    ],
+    "limits": "Gezielter Kontextabgleich zentraler Anker plus erfasster Spezialskill-Treffer; kein Volltext-Neuabruf aller Altentscheidungen, kein Live-Mandatstest."
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Gegenstimme von Pflichtverletzung abgegrenzt; Unabweisbarkeit, Zumutbarkeit und fehlender allgemeiner Nachschusszwang früh benannt.",
+    "anchor_or_exception": "BGH, Urteil vom 12.04.2016, II ZR 275/14; Paragraf 242 BGB",
+    "source_status": "Vorhandene Fach- und Quellenangaben im Prüfprofil gelesen und redaktionell übernommen. Keine neue Online-Verifikation; bisherige Prüfdaten und fachliche Grenzen bleiben unverändert.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "efe651c325a654ed9862154dd30503f7a01f92359f7b91bef2d47380539cce01",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "686b845201a8d6f17bf567afba0f61557b9ce43ce5b1fe7c263ce3844948eeb1",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "gesellschaftsrechtliche-treuepflicht/gesellschaftsrechtliche-treuepflicht-werkstatt.md",
+        "sha256": "2a6826573744865710fc68051e3996f0b9a67ed948f0fb4c8c2009061b1c2861",
+        "characters": 19078,
+        "utf8_bytes": 19345
+      },
+      {
+        "path": "gesellschaftsrechtliche-treuepflicht/gesellschaftsrechtliche-treuepflicht-schnellstart.md",
+        "sha256": "de2f1ef2bbd62aab52b0c30a86835aebb2d60a9d8adf0a19d4834bfb32a5d02e",
+        "characters": 6530,
+        "utf8_bytes": 6620
+      }
+    ]
+  }
+}

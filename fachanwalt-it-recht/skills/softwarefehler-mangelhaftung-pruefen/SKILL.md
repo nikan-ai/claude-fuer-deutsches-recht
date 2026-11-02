@@ -1,6 +1,6 @@
 ---
 name: softwarefehler-mangelhaftung-pruefen
-description: "Wenn es um Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung in Fachanwalt It Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung
@@ -37,7 +37,6 @@ description: "Wenn es um Strukturierte Prüfung bei mangelhafter Software mit Ve
 | Konstellation | Vertragstyp | Mangelnorm | Verjährung |
 |---|---|---|---|
 | Standardsoftware auf Datenträger (Kauf) | Kaufrecht §§ 433 ff. BGB | § 434 BGB | 2 Jahre § 438 BGB ab Übergabe |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Individualsoftware-Erstellung | Werkvertrag §§ 631 ff. BGB | § 633 BGB | 2 Jahre § 634a BGB ab Abnahme; 5 Jahre bei Bauwerk-Bezug |
 | Customizing / Anpassung | Werkvertrag §§ 631 ff. BGB | § 633 BGB | 2 Jahre § 634a BGB |
 | B2C digitale Inhalte / SaaS | §§ 327–327u BGB (seit 01.01.2022) | § 327e BGB | § 327j BGB |
@@ -56,10 +55,6 @@ description: "Wenn es um Strukturierte Prüfung bei mangelhafter Software mit Ve
 - **§ 536 BGB** — Mietvertrag Mangelbegriff: Tauglichkeit zum vertragsgemäßen Gebrauch aufgehoben oder erheblich gemindert.
 - **§§ 327–327u BGB** — Digitale-Produkte-Richtlinie B2C: Aktualisierungspflicht § 327f BGB, Sachmangel § 327e BGB, Beweislastumkehr § 327k BGB ein Jahr.
 - **§ 377 HGB** — Untersuchungs- und Rügeobliegenheit bei beidseitig kaufmännischem Handelsgeschäft: unverzüglich nach Lieferung bei offensichtlichem Mangel, nach Entdeckung bei verborgenem Mangel; Verlust Mängelrechte bei Versäumnis.
-
-### BGH-Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema
 
@@ -227,7 +222,6 @@ gemaess Kostenvoranschlag (Anlage K4) EUR ____.
 - BGB §§ 280, 327–327u, 433–453, 535–548, 631–650
 - HGB § 377
 - DSGVO Art. 32
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Marly Praxishandbuch Softwarerecht, 8. Aufl.
 - Schneider IT-Recht, 5. Aufl.
 
@@ -283,3 +277,5 @@ Anlagen: Fehlerprotokoll, Screenshots, Log-Auszuege (Anlage K1–K3)
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verknüpfen Sie die vereinbarte Leistung mit produktiver Version, beworbenem Zweck, Testnachweisen und Änderungsverfahren. Eine Garantie für sämtliche KI-Vorschriften ist ohne Rolle, Geltungsdatum und Systemgrenze nicht prüfbar. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

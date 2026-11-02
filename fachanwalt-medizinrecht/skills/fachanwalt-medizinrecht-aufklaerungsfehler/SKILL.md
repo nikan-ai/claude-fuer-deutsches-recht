@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-medizinrecht-aufklaerungsfehler
-description: "Wenn es um Aufklärungsfehler in Fachanwalt Medizinrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufklärungsfehler: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Medizinrecht. Route: fachanwalt-medizinrecht-aufklaerungsfehler."
 ---
 
 # Aufklärungsfehler
@@ -21,10 +21,8 @@ description: "Wenn es um Aufklärungsfehler in Fachanwalt Medizinrecht geht: pr�
 - Aufklärungspflicht § 630e Abs. 1 BGB — über sämtliche für die Einwilligung wesentlichen Umstände, insbesondere Art, Umfang, Durchführung, zu erwartende Folgen, Risiken, Notwendigkeit, Dringlichkeit, Eignung, Erfolgsaussichten der Maßnahme und Alternativen.
 - Form § 630e Abs. 2 BGB — mündlich, persönlich durch den Behandelnden oder eine Person mit notwendiger Ausbildung, rechtzeitig vor dem Eingriff so dass Patient wohlüberlegt entscheiden kann. Schriftliche Bögen ergänzen aber ersetzen Gespräch nicht.
 - Rechtzeitigkeit — bei stationären Operationen Vortag oder davor; bei ambulanten Eingriffen zumindest am Tag selbst aber vor Beginn der Vorbereitung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Selbstbestimmungsaufklärung: ihre Verletzung führt zur Rechtswidrigkeit der Behandlung und damit Haftung für jeden eingetretenen Schaden (§§ 823 Abs. 1, 280 BGB).
 - Beweislast § 630h Abs. 2 BGB — Behandelnder muss Aufklärung und wirksame Einwilligung darlegen und beweisen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Mutmaßliche Einwilligung § 630d Abs. 1 Satz 4 BGB: bei Notfall und fehlender Einwilligungsfähigkeit nach dem mutmaßlichen Willen handeln.
 
 ### BGH-Rechtsprechung (Stand Mai 2026)
@@ -165,9 +163,3 @@ Anlagen:
 - Weitere Rechtsprechung vor Ausgabe in dejure.org / openjur.de live verifizieren.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentar-, Handbuch- oder Aufsatzblindzitate.
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
-
-<!-- AUDIT 27.05.2026
-Datum 28.01.2014 fuer ein 2015-AZ unmoeglich (chronologischer Widerspruch).
-Ersatz: BGH VI ZR 323/04 (13.06.2006, BGHZ 168, 103) — verifiziert auf dejure.org;
-betrifft Aufklaerungspflicht bei Neulandmethode (Robodoc-Operation), inhaltlich passend.
--->

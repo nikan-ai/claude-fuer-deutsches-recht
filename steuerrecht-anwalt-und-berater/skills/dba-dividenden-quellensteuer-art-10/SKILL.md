@@ -1,14 +1,12 @@
 ---
 name: dba-dividenden-quellensteuer-art-10
-description: "Wenn es um Dividenden (Art. 10 OECD-MA) in Steuerrecht – Steuerberater und Anwälte geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Dividenden (Art. 10 OECD-MA): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Dividenden (Art. 10 OECD-MA)
 
 ## Fachlicher Kern — Steuerrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Dividenden (Art. 10 OECD-MA)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** AO, EStG, KStG, GewStG, UStG, GrEStG, UmwStG, AStG, FZulG, MinStG; BMF-Schreiben nur mit Datum, Titel und offizieller BMF-URL verwenden.
-- **Verifizierte Anker:** BMF-Schreiben vom 15.10.2025 zur obligatorischen E-Rechnung und UStAE-Anpassung; BMF-Seite Forschungszulage mit Hinweis zu Antrags-/Festsetzungslogik und BMF-Schreiben vom 07.02.2023; BMF/BZSt-Datensatzbeschreibung vom 05.08.2025 für Mindeststeuer-Berichte; BMF-Schreiben vom 25.05.2023 zu § 6a GrEStG; BMF-Schreiben vom 02.01.2025/01.08.2025 zum Umwandlungssteuer-Anwendungserlass live prüfen.
 - **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
 - **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -41,7 +39,6 @@ Dividenden grenzueberschreitend gezahlt: Quellenstaat behaelt Quellensteuer ein 
 - **DBA** je Vertragsstaat — Hoechstsaetze Art. 10.
 
 ### Leitentscheidungen und BMF-Schreiben
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BVerfG-Folgewirkungen, AbzStEntModG-Reform 2021.
 - Aktuelle BFH-Rechtsprechung zu Schachtelvoraussetzungen in freier amtlicher Quelle abrufen.
 - BMF-Schreiben zu § 43b EStG / Mutter-Tochter-Richtlinie — aktuellen Stand im BMF-Veroeffentlichungsverzeichnis prüfen.
@@ -104,7 +101,7 @@ Dividenden grenzueberschreitend gezahlt: Quellenstaat behaelt Quellensteuer ein 
 ## Praktiker-Tipps "Schnell zum Bescheid"
 
 - **BZSt-Antragsformular Dividenden-Erstattung**: das Formular für die Erstattung nach § 50c Abs. 3 EStG für ausländische Dividendenempfaenger findet sich im BZSt-Online-Portal (BOP, bzst.de) im Bereich "Kapitalertragsteuer/Solidaritaetszuschlag — Erstattung" (vom Anwender mit aktuellem BZSt-Formularverzeichnis abzugleichen — Bezeichnungen ändern sich periodisch).
-- **Freistellungsbescheinigung BZSt für Schachteldividenden** nach § 43b EStG / MTRL: vorab beantragen mit drei Jahren Geltungsdauer. Empfaengergesellschaft spart Cashflow-Vorfinanzierung.
+- **Freistellungsbescheinigung BZSt für Schachteldividenden** nach § 43b EStG / MTRL: vorab beantragen; die Bescheinigung gilt für höchstens fünf Jahre, frühestens ab Antragseingang (§ 50c Abs. 2 Satz 4 EStG). Empfaengergesellschaft spart Cashflow-Vorfinanzierung.
 - **Ansaessigkeitsbescheinigung des Heimat-FA mitsenden**: IRS Form 6166 (USA, über Form 8802; Bearbeitung 6-8 Wochen), HMRC Certificate of Residence (UK; 4-6 Wochen), CFR-1 (Polen). Ohne Ansaessigkeitsbescheinigung wird BZSt-Antrag im Erstcheck zurueckgewiesen.
 - **45-Tage-Cum-Cum-Frist § 50j EStG**: in der Praxis Anteils-Stichtag minus 45 Tage und plus 45 Tage festlegen — Stichtagsbuch des Depotverwalters anfordern.
 - **Substanz-Dokumentation aufbauen**: bei Holding/Konzern: Stammbuch Geschäftsführungssitzungen, Personalliste, Mietvertrag, Telefonanlage, Bankvollmachten — § 50d Abs. 3 EStG-Prüfung.
@@ -116,7 +113,7 @@ Dividenden grenzueberschreitend gezahlt: Quellenstaat behaelt Quellensteuer ein 
 
 | Trade-off | Pfad A | Pfad B | Empfehlung |
 |---|---|---|---|
-| Freistellungsbescheinigung vorab vs. Erstattung nachher | Antrag vor Zahlung — Empfaenger erhaelt brutto, max. 3 Jahre Geltung | Erstattung nach Einbehalt — vier Jahre Antragsfrist | bei regelmäßigen Dividenden Pfad A; bei einmaligen Pfad B |
+| Freistellungsbescheinigung vorab vs. Erstattung nachher | Antrag vor Zahlung — Empfaenger erhaelt brutto, höchstens fünf Jahre Geltung (§ 50c Abs. 2 Satz 4 EStG) | Erstattung nach Einbehalt — vier Jahre Antragsfrist | bei regelmäßigen Dividenden Pfad A; bei einmaligen Pfad B |
 | MTRL vs. DBA-Hoechstsatz | EU-MTRL 0 Prozent bei 10 Prozent Beteiligung und 12 Monate Halten | DBA-Hoechstsatz 5/15 Prozent | MTRL vorrangig, wenn Voraussetzungen erfuellt — sonst DBA |
 | EU-Holding vs. direkte Beteiligung | Holding in EU-Staat zur MTRL-Nutzung | direkte Beteiligung mit DBA | bei Substanz und Ueberlegungen jenseits Steuer Pfad A; bei reiner Steueroptimierung scheitert Pfad A an § 50d Abs. 3 EStG |
 | § 8b KStG-Befreiung vs. Teileinkuenfteverfahren | Koerperschaft als Empfaenger — 95 Prozent steuerfrei | natuerliche Person — Teileinkuenfteverfahren 40 Prozent | bei groesseren Beteiligungen Koerperschaftsmantel vorteilhaft |
@@ -154,6 +151,4 @@ Sachverhalt: Deutsche GmbH (Mutter) haelt 100 Prozent an Tochter in Frankreich (
 
 ## Quellen und Updates
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026 | welle 6 | 5 Marker aufgeloest: 0 belegt (alle Az nicht belegbar), 5 ersetzt (Az/Datum nicht belegbar, Saetze neu formuliert) -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

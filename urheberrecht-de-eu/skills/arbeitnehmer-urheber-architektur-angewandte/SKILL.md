@@ -1,6 +1,6 @@
 ---
 name: arbeitnehmer-urheber-architektur-angewandte
-description: "Wenn es um Arbeitnehmerurheber und Auftragswerke in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Arbeitnehmerurheber und Auftragswerke: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Arbeitnehmerurheber und Auftragswerke
@@ -20,7 +20,7 @@ description: "Wenn es um Arbeitnehmerurheber und Auftragswerke in Urheberrecht D
 
 ## Wofür dieser Arbeitsgang da ist
 
-Arbeitnehmerurheber und Auftragswerke schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Untersuche die Rechte an Werken von Arbeitnehmern und Auftragnehmern anhand ihrer Beiträge und der vertraglichen Rechteeinräumung. Beziehe Gegenstand, Nutzungshandlung, Schranke und Beweise in die Prüfung der Rechtekette ein und liefere das verlangte Arbeitsergebnis.
 
 ## Sofortstart
 

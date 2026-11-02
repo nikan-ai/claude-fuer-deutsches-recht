@@ -1,6 +1,6 @@
 ---
 name: methodenlehre-zahlenschwellen-berechnungen-buergerlichen-recht
-description: "Wenn es um Zahlenschwellen und Berechnungen im bürgerlichen Recht in Methodenlehre bürgerliches Recht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen."
+description: "Für Zahlenschwellen und Berechnungen im bürgerlichen Recht: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen."
 ---
 
 # Zahlenschwellen und Berechnungen im bürgerlichen Recht
@@ -22,7 +22,7 @@ description: "Wenn es um Zahlenschwellen und Berechnungen im bürgerlichen Recht
 1. Ermittle den Hauptsachebetrag und alle Nebenforderungen (Zinsen, Kosten, Schadensersatz) getrennt.
 2. Berechne Verzugszinsen nach §§ 288 Abs. 1 BGB (4,12 Prozent für Verbraucher) oder § 288 Abs. 2 BGB (9 Prozent über Basiszins für Unternehmer) auf den Hauptbetrag ab dem jeweils relevanten Zeitpunkt.
 3. Bestimme den Gesamtstreitwert nach §§ 4, 5 ZPO: Hauptforderung plus Zinsen bis zur Klageerhebung.
-4. Ordne den Streitwert der sachlichen Zuständigkeit zu: bis 5.000 Euro Amtsgericht (§ 23 GVG), darüber Landgericht (§ 71 GVG).
+4. Ordne den Streitwert der sachlichen Zuständigkeit zu: bis einschließlich 10.000 Euro Amtsgericht (Paragraf 23 Nummer 1 GVG), darüber Landgericht (Paragraf 71 Absatz 1 GVG); Sonderzuweisung und Stichtag vorab prüfen.
 5. Prüfe, ob Betragsgrenzen für spezifische Rechtsinstitute relevant sind (Bürgschaft, Leasing, Verbraucherkredit, Maklercourtage).
 6. Dokumentiere alle Berechnungsschritte mit Formel und Ergebnis, sodass sie im Schriftsatz darstellbar sind.
 

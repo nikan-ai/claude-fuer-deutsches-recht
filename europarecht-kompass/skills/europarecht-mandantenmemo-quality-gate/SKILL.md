@@ -1,6 +1,6 @@
 ---
 name: europarecht-mandantenmemo-quality-gate
-description: "Wenn es um Europarecht-Kommandocenter in Europarecht-Kompass für deutsche Juristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Europarecht-Kommandocenter: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Europarecht-Kommandocenter
@@ -47,7 +47,7 @@ Aktuelle Linien Q4 2025 - Q2 2026 (für Triage):
 - EuGH, Urt. v. 19.03.2026 — C-526/24 (Brillen Rottler) — Auch ein erstmaliger DSGVO-Auskunftsantrag (Art. 15 DSGVO) kann als rechtsmissbräuchlich zurückgewiesen werden, wenn er nur im Hinblick auf Schadensersatzansprüche aus Art. 82 DSGVO gestellt wird; Beweislast trägt der Verantwortliche.
 - EuGH, Urt. v. 01.08.2025 — C-600/23 (RFC Seraing) — Nationale Gerichte in EU-Mitgliedstaaten dürfen CAS-Schiedssprüche auf Vereinbarkeit mit Unionsrecht überprüfen.
 - EuGH, Urt. v. 05.03.2026 — C-458/24 (Daraa) — Dublin-III: Zuständigkeitsübergang nach Ablauf 6-Monatsfrist; einseitige Aussetzung der Rücknahme bewirkt keinen automatischen Übergang.
-- **KI-Verordnung (EU) 2024/1689:** Hauptanwendung Pflichten Hochrisiko-KI ab 02.08.2026; Verbote (Art. 5) bereits ab 02.02.2025 anwendbar; Allgemeine KI-Modelle (GPAI) ab 02.08.2025.
+- **KI-Verordnung (EU) 2024/1689:** Artikel 113 Buchstabe c erfasst Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5: bei Anhang III ab 02.12.2027, bei Anhang I ab 02.08.2028. Artikel 111 und die Zeitverschränkung mit anderen Abschnitten gesondert prüfen; keine pauschale Verschiebung sämtlicher Pflichten. Bestehende Verbote nach Artikel 5 gelten seit 02.02.2025; die neuen Regelungen in Absatz 1 Buchstaben ba und bb sowie Absätzen 1a und 1b gelten ab 02.12.2026. Zulässigkeit nach jedem konkreten Tatbestand und seiner Ausnahme prüfen. GPAI grundsätzlich seit 02.08.2025; Altmodellregel Artikel 111 Absatz 3 prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Triage Kommandocenter
 
@@ -85,3 +85,4 @@ Datum: [DATUM] — Mandant: [NAME]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie autonome Begriffe der Verordnung, unverbindliche Leitlinien und technische Normen. Begründen Sie eine Übertragung aus Datenschutz- oder Sicherheitsrecht ausdrücklich, statt sie als unmittelbare Auslegung der KI-VO auszugeben. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

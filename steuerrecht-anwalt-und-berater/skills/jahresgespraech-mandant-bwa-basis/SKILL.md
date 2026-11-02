@@ -1,6 +1,6 @@
 ---
 name: jahresgespraech-mandant-bwa-basis
-description: "Wenn es um Jahresgespraech mit dem Mandanten in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Jahresgespräch mit dem Mandanten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: jahresgespraech-mandant-bwa-basis."
 ---
 
 # Jahresgespraech mit dem Mandanten
@@ -34,7 +34,7 @@ Das Jahresgespraech ist die wichtigste Mandantenkommunikation des Jahres: Nach A
 
 **§ 57 StBerG** — Gewissenhaftigkeit.
 
-**§ 102 StaRUG** — Hinweispflicht.
+Paragraf 102 StaRUG: Im Jahresgespräch nur bei einem Auftrag zur Jahresabschlusserstellung und erfüllten weiteren Tatbestandsmerkmalen als gesetzlichen Hinweis behandeln.
 
 **§ 5 RDG** — Abgrenzung Rechtsberatung.
 

@@ -1,6 +1,6 @@
 ---
 name: lba-airline-flughafen-flugzeugleasing
-description: "Wenn es um LBA-Zuständigkeit prüfen – Behörde korrekt adressieren in Luftrecht und Flughafenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für LBA-Zuständigkeit prüfen – Behörde korrekt adressieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # LBA-Zuständigkeit prüfen – Behörde korrekt adressieren
@@ -83,7 +83,7 @@ Für Mandate im Bereich Luftrecht sind folgende Dokumente regelmäßig anzuforde
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

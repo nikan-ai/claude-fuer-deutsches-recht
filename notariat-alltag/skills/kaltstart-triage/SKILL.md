@@ -1,41 +1,68 @@
 ---
 name: kaltstart-triage
-description: "Wenn es um Kaltstart Triage in Notariat im Alltag geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Hauptworkflow für Notariatsmitarbeiter: führt Kundenunterlagen bis zur konkreten Urkunden- oder Anmeldevorlage an den Notar. Wählt zwischen Entwurf, Änderung und Vollzug, übernimmt belegte Daten und steuert nur den benötigten Fachskill samt gezielten Rückfragen."
 ---
 
-## Direktstart: lesen, entscheiden, liefern
+# 1. Hauptworkflow vom Kundenordner zur Urkundenmappe
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1. Zweck und Anwendungsfall
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Bereite für Notariatsmitarbeiter die bestellte Urkunde, Erklärung oder Registeranmeldung vor und führe sie nach Rückfragen zur konsistenten Vorlage. Die Aufgabe endet nicht bei einer Materialübersicht. Notarielle Belehrung, Identitätsfeststellung, Beurkundung, Beglaubigung und amtliche Freigabe bleiben beim Notar.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+## 2. Eingaben
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+Lies zuerst die konkret freigegebenen Dateien: Auftrag oder letzte E-Mail, vorhandener Entwurf, Auszug und Anlagenverzeichnis. Übernimm bereits belegte Angaben. Fehlt der Zugriff, sage das und bitte einmal um die betreffenden Dateien. Suche nicht eigenständig in anderen Mandantenordnern.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+## 3. Ablauf
 
-## Schnellstart-Workflow
+### 3.1. Den Auftrag am nächsten Arbeitsergebnis festmachen
 
-Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Notariat**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen. Tragende Normen (BNotO, BeurkG, GNotKG, GBO) werden nicht aus Modellwissen finalisiert, sondern über die zugelassenen Live-Quellen geprüft.
+Bei eindeutigem Auftrag beginne den gewünschten Entwurf. Ohne Auftrag, aber mit Material, lies zuerst Auftragsschreiben und aktuelle Entwurfsfassung intern. Frage dann etwa: „Soll ich die Grundschuldbestellung vorbereiten, die Bankvorgaben klären oder eine bestehende Fassung ändern?“ Nenne nur tatsächlich passende Alternativen, keine Liste sämtlicher Ordnerinhalte. Ohne Material frage nach dem Urkundengeschäft und der vorhandenen Vorlage. Lade nur den einen fachlich passenden Arbeitsweg; weitere folgen erst bei einer konkreten Anschlussfrage. Ein fertiger, klar bestellter Vermerk darf unmittelbar geliefert werden.
 
-### 0. Stummer Upload — Material ohne Begleittext
+| Material oder Wunsch | Arbeitsweg | Erstes Arbeitsprodukt |
+| --- | --- | --- |
+| Grundstückskauf, Bestandsobjekt oder Bauträger | `bautraegervertrag-mabv-familiengesellschaft` | Kaufvertragsentwurf und fehlende Objektanlagen |
+| Bankauftrag, Grundbuch, Sicherung | `grundschuld-buchgrundschuld-treuhand` | Bestellungsentwurf mit getrennten Erklärungen |
+| Unterschrift bestätigen oder Form klären | `formweg-beurkundung-beglaubigung` | Formblatt und Terminanschreiben |
+| Personalien, Vollmacht, Namensabweichung | `beteiligte-identitaet-vertretung` | Beteiligtenblatt mit Nachweisstand |
+| Neue GmbH oder UG | `gmbh-gruendung-gesellschafterliste` | Satzungs- und Anmeldeentwurf |
+| Neues Stammkapital | `kapitalerhoehung-beschluss-register` | Beschluss, Übernahme und Vollzugsfolge |
+| Geschäftsführer bestellen oder wechseln | `geschaeftsfuehrer-bestellung-register` | Beschluss- und Anmeldeentwurf |
+| Anteile verkaufen oder als Sicherheit geben | `gmbh-anteile-uebertragen-verpfaenden` | Anteilsübersicht und Vertragsentwurf |
+| Verschmelzen, spalten oder Rechtsform wechseln | `umwandlung-verschmelzung-kapitalerhoehung` | Urkunden- und Registerfolge |
+| Grundbuchantrag oder Zwischenverfügung | `grundbuchantrag-rangstelle-notarielle` | Antrag oder konkrete Nachreichung |
+| Änderungen an einer vorhandenen Urkunde | `urkundenentwurf-aendern-abgleichen` | Bereinigte Fassung und Änderungsvermerk |
+| Auslandsnachweis oder abwesender Vertreter | `auslandsurkunde-apostille-vollmacht` | Nachweisanforderung und Vertretungsabschnitt |
+| Beteiligung und Immobilienzahlung klären | `geldwaeschepruefung-immobilien` | Interne Prüfung und zulässige Nachforderung |
+| Ehevertrag oder Scheidungsfolgen | `ehevertrag-scheidungsfolgenvereinbarung` | Abgestimmte Vereinbarung |
+| Erbfolge und Nachlassübertragung | `nachlassauseinandersetzung-grundbuch` | Nachlassurkunde oder Grundbuchantrag |
+| Vorsorge und Behandlungswünsche | `vorsorgevollmacht` | Gewünschte Vorsorgeerklärungen |
+| Kosten des konkreten Vorgangs | `kostenrechnung-gnotkg` | Kostenberechnung mit Wertnachweisen |
+| Neue Vollzugspost oder Aktenabschluss | `vollzug-fristen-wiedervorlage` | Nachforderung oder Abschlussmitteilung |
+| Fertige Mappe prüfen | `urkundenmappe-zur-freigabe` | Vorlagevermerk an den Notar |
 
-Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+### 3.2. Angaben mit Herkunft übernehmen
 
-**Pflicht-Reihenfolge bei stummem Upload:**
+Führe Name, Geburtsdatum, Anschrift, Registergericht, Registernummer, Grundstück und Beträge mit Quelldatei und Stand. Trenne Auftraggeber, Beteiligten, Vertreter, wirtschaftlich Berechtigten und bloßen Ansprechpartner. Ein Ausweisscan bedeutet nicht, dass der Notar das Original gesehen hat. Zwei unterschiedliche Anschriften bleiben bis zur Klärung sichtbar.
 
-1. **Sofortrisiken zuerst markieren** — Fristen, Zustellung, Form, Zuständigkeit, Beweis-, Kosten- und Haftungsrisiken benennen.
-2. **Aktenlandkarte bauen** — Welche Dateien sind Original, welche nur Behauptung; was fehlt für einen verwertbaren nächsten Schritt?
-3. **Rolle klären** — Mandant, Gegner, Behörde, Gericht, betroffene Stelle; mit welchem Ziel und welcher Reichweite?
-4. **Ziel bestimmen** — Prüfung, Entwurf, Antrag, Anmeldung, Schriftsatz, Verteidigung, Dashboard, Memo, Red-Team?
-5. **Rechtsquellen trennen** — Normtext, Behördenpraxis, Rechtsprechung, Vertrag, technischer Standard und Praxisroutine getrennt halten.
-6. **Fachmodule auswählen** — Drei bis sieben passende Skills aus diesem Plugin nennen mit Begründung, warum sie jetzt nützlich sind.
-7. **Erste verwertbare Ausgabe liefern** — Kurze Lagekarte mit nächstem Schritt oder erstem Entwurf, statt einer langen abstrakten Abhandlung.
+### 3.3. Nur den blockierten Teil anhalten
 
-## Fachlicher Anker — Notariat
+Fehlt der genaue Geschäftsanteil, bereite die übrigen Vertragsabschnitte vor und frage gezielt nach der aktuellen Liste. Erfinde weder Grundbuchdaten noch erteilte Vollmachten. Bei großem Ordner zuerst Kernunterlagen; weitere Dateien nur bei konkreter Belegfrage lesen. Leselücken knapp benennen, ohne einen Datenbestand auszubreiten. Nach Rückmeldung nur betroffene Stellen fortschreiben; kein erneutes Kaltstart-Interview.
 
-Tragende Anker: BNotO, BeurkG, GNotKG, GBO. Tatsächliche Fundstellen werden über dejure.org, openJur, gesetze-im-internet.de, BGH-/BVerfG-/EuGH-/EuG-Datenbank live geprüft und nicht aus Modellwissen finalisiert.
+### 3.4. Fachschritte mit einem gemeinsamen Stand verbinden
+
+Führe intern Vorgangsnummer, gewünschtes Dokument, letzte Fassung, Beteiligtenrollen, entscheidende Belege und noch offene Bedingungen weiter. Beim Wechsel des Fachskills genau diesen Stand und die konkrete Anschlussfrage übergeben, nicht einen neuen Aufnahmeauftrag. Das Beteiligtenblatt wird einmal angelegt. Eine neue Bankantwort ändert die betroffene Haftungsklausel, nicht ungefragt die vereinbarten Erwerbsanteile. Eine Vollmacht als Scan und ihr späteres Original behalten getrennte Eingangsstände.
+
+Entwurfsarbeit benötigt keine Freigabe nach jedem Absatz. Externe Mitteilung, Einreichung und Amtshandlung dagegen nie aus dem Auftrag zur Vorbereitung ableiten. Zur Schlussprüfung nur dann `urkundenmappe-zur-freigabe` verwenden, wenn eine konkrete Mappe vorliegt; kein Kreislauf aus Einstieg und Schlussprüfung. Bleibt ein Sachpunkt offen, das genaue Nachforderungsschreiben fertigstellen und nach Antwort an dieser Stelle fortsetzen.
+
+## 4. Quellenpflicht
+
+BeurkG Paragrafen 10, 12 und 17 sowie der konkrete materielle Formtatbestand bestimmen die Vorbereitung. BGH, Urteil vom 07.02.2013, III ZR 121/12: Der bloße Wunsch nach schnellem Termin ersetzt keinen sachlichen Grund und keinen anderweitigen Übereilungsschutz bei der erfassten Verbraucherbeurkundung. Das ist weder eine allgemeine Frist für alle Urkunden noch eine Aussage automatischer Vertragsnichtigkeit. Nutze [Mitarbeiter-Formwege](../../references/mitarbeiter-formwege.md) und [Zitierweise](../../references/zitierweise.md); lies weitere Quellen nur zur tatsächlich anstehenden Rechtsfrage.
+
+## 5. Ausgabeformat
+
+Liefere ein ausformuliertes Dokument, getrennt davon offene Punkte und die erforderlichen nächsten Handlungen mit ihren Abhängigkeiten. Jeder Urkunden- oder Registertext trägt den Status „Entwurf zur notariellen Prüfung“. Keine fingierte UVZ-Nummer, kein behaupteter Versand. Formatierte Dokumente verwenden Times New Roman 11 pt und dezimale Gliederung; reine Stichwortskelette sind kein Endprodukt.
+
+## 6. Beispiel
+
+Im Ordner liegen Bankauftrag, Kaufvertrag und zwei Ausweiskopien. Beginne den Grundschuldentwurf anhand des bezeichneten Grundstücks. Frage nicht nochmals nach dem Kaufzweck. Ist nur einer der Eigentümer Darlehensnehmer, markiere die persönliche Haftung des anderen als gesondert zu klären.

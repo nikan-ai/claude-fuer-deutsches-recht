@@ -1,6 +1,6 @@
 ---
 name: konzern-netzwerk-plattform
-description: "Wenn es um Konzern, Netzwerk und Plattform in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Konzern, Netzwerk und Plattform: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Konzern, Netzwerk und Plattform
@@ -25,8 +25,6 @@ description: "Wenn es um Konzern, Netzwerk und Plattform in Lobbyregister Bundes
 1. Welche Einheit steuert Interessenvertretung?
 2. Wer hat eigene Kontakte, Budgets, Auftraggeber oder Aussenauftritt?
 3. Welche Netzwerkteilnehmer werden nur intern koordiniert?
-
-## Quellenanker
 
 ## Spezialfall doppelte Sichtbarkeit ohne doppelte Rechtsperson
 

@@ -1,6 +1,6 @@
 ---
 name: erforderlichkeit-dokumentieren
-description: "Wenn es um Erforderlichkeit dokumentieren in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Erforderlichkeit dokumentieren: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Erforderlichkeit dokumentieren
@@ -51,10 +51,6 @@ Bei zwei Konstellationen verlässt der Vorgang den Bereich des nach Abs. 1 Erfor
 ## Sonderfall Notar
 
 Bei Dienstleistungen, die unmittelbar einem einzelnen Amtsgeschäft dienen (§ 26a Abs. 4 BNotO), ist die Einwilligung des Beteiligten erforderlich. Die Erforderlichkeit nach Abs. 1 bleibt davon unberührt, tritt aber neben das Einwilligungserfordernis.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -128,3 +124,4 @@ Begruendung: [...]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

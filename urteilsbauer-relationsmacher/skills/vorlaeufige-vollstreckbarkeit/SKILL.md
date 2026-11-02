@@ -1,6 +1,6 @@
 ---
 name: vorlaeufige-vollstreckbarkeit
-description: "Wenn es um Vorläufige Vollstreckbarkeit in Urteilsbauer und Relationsmacher geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Vorläufige Vollstreckbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Vorläufige Vollstreckbarkeit
@@ -11,10 +11,6 @@ description: "Wenn es um Vorläufige Vollstreckbarkeit in Urteilsbauer und Relat
 2. Wie hoch ist der Verurteilungsbetrag — bis 1.500 EUR (§ 708 Nr. 11 ZPO) oder darüber (§ 709 ZPO)?
 3. Ist Berufung statthaft (Beschwer > 600 EUR) — wenn nein: § 713 ZPO (ohne Sicherheit)?
 4. Hat die unterlegene Partei einen Schutzantrag nach § 711 ZPO gestellt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -90,8 +86,4 @@ Paragraf 709 ZPO - vorläufige Vollstreckbarkeit gegen Sicherheitsleistung von 1
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-
-## Audit-Hinweis (27.05.2026)
-
-Dieser Skill wurde im Rahmen von Bundle 046 auf halluzinierte Rechtsprechungsnachweise geprüft und korrigiert.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

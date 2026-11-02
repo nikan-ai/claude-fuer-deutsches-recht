@@ -1,6 +1,6 @@
 ---
 name: orientierung-mandat-fachanwaltschaft
-description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Arbeitsrecht."
 ---
 
 # Orientierung im Individualarbeitsrecht und kollektiven Arbeitsrecht für Mandate und Fachanwaltschaft nach Paragraf 10 FAO
@@ -20,8 +20,6 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Arbe
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt für Arbeitsrecht — Orientierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -60,7 +58,6 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Arbe
 - **Kündigungsschutzklage** Paragraf 4 KSchG — drei Wochen ab Zugang der schriftlichen Kündigung.
 - **Befristungskontrollklage** Paragraf 17 TzBfG — drei Wochen nach vereinbartem Ende.
 - **AGG-Entschädigung** Paragraf 15 Abs. 4 AGG — schriftliche Geltendmachung binnen zwei Monaten; Klagefrist Paragraf 61b ArbGG drei Monate.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Anhörung des Betriebsrats** Paragraf 102 BetrVG — eine Woche bei ordentlicher, drei Tage bei außerordentlicher Kündigung.
 - **Sozialplanverhandlungen** Paragraf 112 Abs. 2, 3 BetrVG — Einigungsstelle nach Scheitern.
 
@@ -90,7 +87,7 @@ Folgende Leitentscheidungen sind im aktuellen Plugin-Stand mit offener Quelle (d
 - **BAG, 23.10.2025 - 8 AZR 300/24** (Paarvergleich Equal Pay): Ein einzelner Vergleichskollege des anderen Geschlechts genuegt zur Vermutung nach Paragraf 22 AGG. Siehe Skill `fachanwalt-arbeitsrecht-bag-equal-pay-paarvergleich`.
 - **BAG, 03.06.2025 - 9 AZR 104/24** (kein Urlaubsverzicht durch Prozessvergleich): Mindesturlaub waehrend laufenden Arbeitsverhaeltnisses nicht disponibel. Siehe Skill `fachanwalt-arbeitsrecht-bag-mindesturlaub-kein-verzicht`.
 - **BAG, 25.03.2026 - 5 AZR 108/25** (Freistellungsklausel unwirksam): Pauschale formularmäßige Freistellungsklausel verstoesst gegen Paragraf 307 BGB. Siehe Skill `fachanwalt-arbeitsrecht-bag-freistellungsklausel-unwirksam`.
-- **BAG, 01.04.2026 - 6 AZR 152/22 und 6 AZR 157/22** (Massenentlassung): Fehlerhafte oder verfruehte Massenentlassungsanzeige fuehrt zur Unwirksamkeit aller Kuendigungen. Siehe Skill `fachanwalt-arbeitsrecht-massenentlassung-17-kschg`.
+- **BAG, 01.04.2026 - 6 AZR 152/22 und 6 AZR 157/22** (Massenentlassung): Eine fehlende oder vor Abschluss des Konsultationsverfahrens erstattete Massenentlassungsanzeige führt zur Unwirksamkeit der erfassten Kündigungen. Siehe Skill `fachanwalt-arbeitsrecht-massenentlassung-17-kschg`.
 - **EuGH, 30.10.2025 - C-134/24 und C-402/24** (Massenentlassung): Keine Heilung fehlender oder verfruehter Anzeige nach Kuendigungsausspruch.
 - **BAG, 20.02.2025 - 8 AZR 61/24** (DSGVO-Schadensersatz): "Stoergefuehl" allein begruendet keinen Anspruch nach Art. 82 DSGVO.
 - **BAG, 18.06.2025 - 7 AZR 50/24** (Befristung Betriebsratsmitglieder): Paragraf 14 Abs. 2 TzBfG anwendbar; Schadensersatz auf Folgevertrag bei Mandatsbenachteiligung.
@@ -107,3 +104,5 @@ Vor Schriftsatzverwendung jeweils Volltext und ggf. neuere Rechtsprechung in off
 - Paragraf 102 BetrVG — Betriebsratsanhörung
 - Paragrafen 1, 3 BUrlG — Urlaubsanspruch; Paragraf 7 Abs. 3 BUrlG — Verfall
 - Paragraf 14 TzBfG — Befristung; Paragraf 17 TzBfG — Kontrollklage drei Wochen
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: mandat-arbeitsbereich-vr-einfuehrung
-description: "Wenn es um Mandatsarbeitsbereich Vertragsrecht in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandatsarbeitsbereich Vertragsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandatsarbeitsbereich Vertragsrecht
@@ -9,7 +9,6 @@ description: "Wenn es um Mandatsarbeitsbereich Vertragsrecht in Vertragsrecht ge
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 305-310, AGBG (alt), EuGH zu Klauseltransparenz (z. B. C-26/13, C-186/16), VerbrG; §§ 305 ff. BGB, NDA, SaaS- — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -41,12 +40,9 @@ und der anwaltlichen Verschwiegenheitspflicht verbunden:
 
 ### Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Anwaltliche Verschwiegenheitspflicht; Schadensersatz bei
  Geheimnisbruch durch Anwalt; § 43a BRAO)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Anwaltliche Aufbewahrungspflicht von Handakten; § 50 BRAO)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
  (Schutz von Verteidigungsunterlagen; Rechtsanwalt; § 97 StPO analog)
 
 ### Quellenregel
@@ -76,7 +72,7 @@ darauf hin:
 > Mandatsarbeitsbereiche sind deaktiviert — Sie sind als In-house-Praxis
 > mit einem Mandanten konfiguriert; das Plugin arbeitet automatisch auf
 > Kanzleiebene. Wenn Sie tatsächlich mit mehreren Mandanten arbeiten,
-> führen Sie `/vertragsrecht:vertragsrecht-kaltstart-interview --redo` aus und wählen
+> führen Sie `/vertragsrecht:kaltstart-interview --redo` aus und wählen
 > eine Kanzleisetting-Option. Andernfalls benötigen Sie
 > `/mandat-arbeitsbereich` nicht.
 
@@ -153,6 +149,7 @@ Aktives Mandat mit `*` markieren. Archivierte Mandate unter
 `Aktives Mandat:` im Kanzleiprofil auf `keine — Kanzleiebene` setzen.
 Mit Nutzer bestätigen.
 
+```markdown
 ## Parteien
 
 **Mandant:** [Name]
@@ -267,14 +264,10 @@ Slug `mueller-it-vertrag-2026` angelegt mit Abweichung:
 
 Bei mandatsspezifischen Hinweisen zur Vertraulichkeit oder Aufbewahrung:
 - § 43a Abs. 2 BRAO (Verschwiegenheit), § 50 BRAO (Handakten)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
 ---
 
-<!-- AUDIT 27.05.2026
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=17.12.1998&Aktenzeichen=IX+ZR+196%2F97
-Bundle: bundle_047.json
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: ki-output-fuer-kunden
-description: "Wenn es um digitale Werkzeuge-Output für Kunden in Solo-Selbstständige Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für digitale Werkzeuge-Output für Kunden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # KI-Output für Kunden
@@ -29,3 +29,4 @@ Erzeuge eine Kundenklausel oder Liefernotiz mit: KI-Einsatz ja/nein, menschliche
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Trennen Sie private Nutzung, betriebliche Dokumentenhilfe und öffentlich erreichbaren Kundenbot. Prüfen Sie die tatsächlich angebotene Leistung; geringe Betriebsgröße ist keine allgemeine Ausnahme. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

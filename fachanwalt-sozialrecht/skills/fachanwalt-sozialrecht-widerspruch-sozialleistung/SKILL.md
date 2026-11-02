@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-sozialrecht-widerspruch-sozialleistung
-description: "Wenn es um Widerspruch gegen Sozialleistungsbescheid (Paragraf 84 SGG) in Fachanwalt Sozialrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Widerspruch gegen Sozialleistungsbescheid (Paragraf 84 SGG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Widerspruch gegen Sozialleistungsbescheid (§ 84 SGG)
@@ -11,9 +11,6 @@ description: "Wenn es um Widerspruch gegen Sozialleistungsbescheid (Paragraf 84 
 3. Verfahrensmangel (§ 24 SGB X Anhörung, § 35 SGB X Begründung) — führt zur Aufhebung unabhängig von materieller Rechtslage.
 4. Bei bestandskräftigem Bescheid: Überprüfungsantrag § 44 SGB X möglich (4 Jahre rückwirkend)?
 5. Folgeantrag oder Widerspruch? Einige Leistungen müssen neu beantragt werden.
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -61,10 +58,6 @@ Das Postmodernisierungsgesetz (PostModG) hat die Bekanntgabefiktion von drei auf
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 
 ---
 
@@ -353,6 +346,7 @@ Bei Bescheiden über Aufhebung, Rückforderung oder Sanktion: Widerspruch hat ke
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

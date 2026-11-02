@@ -1,6 +1,6 @@
 ---
 name: anschluss-routing
-description: "Wenn es um Anschluss-Routing in Fachanwalt Insolvenz- und Sanierungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Insolvenz- und Sanierungsrecht."
 ---
 
 # Anschluss-Routing
@@ -12,8 +12,8 @@ Dieses Anschluss-Routing für **Fachanwalt Insolvenz Sanierungsrecht** wählt na
 ## Fachlandkarte dieses Plugins
 
 - `absonderungsrecht-paragraf-50-inso` — Absonderungsrecht Paragraf 50 Inso
-- `anfechtung-vorsatz-paragraf-133-inso-bgh-ix-zr-65-16` — Anfechtung Vorsatz Paragraf 133 Inso BGH IX ZR 65 16
-- `eigenverwaltung-schutzschirm-paragraf-270b-inso` — Eigenverwaltung Schutzschirm Paragraf 270b Inso
+- `vorsatzanfechtung-paragraf-133-inso-pruefen` — Vorsatzanfechtung nach Paragraf 133 InsO prüfen
+- `eigenverwaltung-schutzschirm-paragraf-270b-inso` — Eigenverwaltung Paragraf 270b und Schutzschirm Paragraf 270d InsO
 - `eroeffnung-behoerden-gericht-und-registerweg` — Eroeffnung Fachanwalt FAO Gläubigerantrag
 - `fa-inso-sanierung-quellen-edge-case` — FA Inso Sanierung Quellen Edge Case
 - `fa-insolvenz-schuldschein-und-lma` — FA Schuldschein
@@ -23,7 +23,7 @@ Dieses Anschluss-Routing für **Fachanwalt Insolvenz Sanierungsrecht** wählt na
 - `einstieg-schnelltriage-fallrouting` — Insanw Fortbestehensprognose
 - `insolvenz-tatbestand-beweis-und-belege` — Insolvenz Insolvenzanfechtung Insolvenzrecht
 - `insolvenzgeld-paragraf-165-sgb-iii` — Insolvenzgeld Paragraf 165 SGB III
-- `insolvenzplan-paragraf-217-inso-bgh-ix-zb-66-19` — Insolvenzplan Paragraf 217 Inso BGH IX ZB 66 19
+- `insolvenzplan-paragraf-217-inso-planinhalt-pruefen` — Insolvenzplan nach Paragraf 217 InsO prüfen
 - `dokumente-intake` — Dokumente Intake
 - `einstieg-routing` — Einstieg Routing
 
@@ -40,28 +40,3 @@ Dieses Anschluss-Routing für **Fachanwalt Insolvenz Sanierungsrecht** wählt na
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 26 StaRUG
-- § 49 StaRUG
-- § 25 StaRUG
-- § 31 StaRUG
-- § 29 StaRUG
-- § 9 StaRUG
-- § 23 EStG
-- § 4-65 StaRUG
-- § 73 StaRUG
-- § 64 StaRUG
-- § 7 StaRUG
-- § 8 StaRUG
-
-### Leitentscheidungen
-
-- BGH IX ZR 122/23
-- BGH IX ZR 129/22
-- BGH IX ZR 239/22
-- BGH IX ZR 127/24
-- BGH II ZR 206/22

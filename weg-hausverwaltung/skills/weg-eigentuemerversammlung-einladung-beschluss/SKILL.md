@@ -1,6 +1,6 @@
 ---
 name: weg-eigentuemerversammlung-einladung-beschluss
-description: "Wenn es um Eigentuemerversammlung: Risikoampel, Gegenargumente und Verteidigungslinien in WEG- und Hausverwaltung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Eigentümerversammlung: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Eigentuemerversammlung: Risikoampel, Gegenargumente und Verteidigungslinien
@@ -34,14 +34,13 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 ## Materielle Weichen Eigentuemerversammlung
 - **Einberufung:** § 24 WEG. Mindestfrist grundsätzlich drei Wochen (§ 24 Abs. 4 S. 2 WEG), sofern kein Fall besonderer Dringlichkeit vorliegt zwischen Zugang und Versammlung; Einladung mit Tagesordnung, Ort, Zeit. Bei Verstoß: Anfechtbarkeit des Beschlusses (§ 23 Abs. 4 WEG).
 - **Beschlussfähigkeit nach Reform 2020:** § 25 Abs. 1 WEG: jede ordnungsgemäß einberufene Versammlung ist beschlussfähig. Das frühere Quorum (mehr als die Hälfte der MEA anwesend) entfällt seit 01.12.2020.
-- **Mehrheitsverhältnisse:** Einfache Mehrheit der abgegebenen Stimmen (§ 25 Abs. 1 WEG) ist der Default. Ausnahmen: bauliche Veränderung mit Kostenverteilung auf Nicht-Zustimmende braucht doppelt qualifizierte Mehrheit (§ 21 Abs. 2 WEG: zwei Drittel der abgegebenen Stimmen und mehr als die Hälfte der MEA).
+- **Mehrheitsverhältnisse:** Einfache Mehrheit der abgegebenen Stimmen (§ 25 Abs. 1 WEG) ist der Default. Kosten baulicher Veränderungen gesondert nach § 21 WEG prüfen: Abs. 2 Nr. 1 setzt mehr als zwei Drittel der abgegebenen Stimmen und die Hälfte aller MEA voraus, außer bei unverhältnismäßigen Kosten; Nr. 2 enthält daneben die Amortisationsalternative. Beschlussmehrheit und Kostenfolge nicht gleichsetzen.
 - **Vertretung:** Stimmrechtsvollmacht zulässig (§ 25 Abs. 3 WEG); Vereinbarung in Gemeinschaftsordnung kann sie beschränken. Bei Beschränkung auf andere Eigentümer/Beirat/Verwalter: Praxis sollte Vollmachtsformular im Einladungsbrief mitsenden.
 - **Anfechtungsfrist § 45 WEG:** ein Monat ab Beschlussfassung, Begründung binnen weiterer zwei Monate. Klage gegen die GdWE, nicht gegen einzelne Eigentümer.
 - **Häufige Anfechtungsgründe:** Ladungsfehler, falscher Verteilungsschlüssel, unzureichend bestimmte Tagesordnung, Beschluss ohne Beschlusskompetenz (Nichtigkeit, kein Anfechtungserfordernis), Verletzung des Sachlichkeitsgebots durch Verwalter.
 
 ## Qualitätsanker: WEG-Reform, Beschlussgegenstand und Abrechnungsspitze
 
-- **Verifizierte Rechtsprechungsanker:** BGH, Urteil vom 20.09.2024 - V ZR 195/23: Fehler der Jahresabrechnung tragen die Ungültigerklärung nur, wenn sie sich auf Abrechnungsspitze und Zahlungspflicht auswirken. BGH, Urteil vom 14.02.2025 - V ZR 236/23 und V ZR 128/23: Kostenverteilung nach § 16 Abs. 2 WEG verlangt Beschlusskompetenz, Sachgrund und saubere Belastungslogik. Bei jeder Ausgabe vor Zitat freie Quelle erneut prüfen.
 - **Reformlogik:** Seit der WEG-Reform ist nicht „die Jahresabrechnung als Zahlenwerk“ der Beschlussgegenstand, sondern Nachschüsse und Anpassung der Vorschüsse nach § 28 Abs. 2 WEG. Das ist die zentrale Weiche für Anfechtung, Bestimmtheit und Fehlerrelevanz.
 - **Praktische Prüfung:** Beschlusskompetenz, Bestimmtheit, Ladung/Tagesordnung, Stimmrecht, Verteilungsschlüssel, Belegprüfung, Rücklage/Vermögensbericht, HeizKV, Umsatzsteuer/Vorsteuer und Anfechtungsfrist getrennt prüfen.
 - **Output-Pflicht:** Für Verwaltung/Eigentümer immer eine Beschluss- oder Anfechtungsmatrix liefern: Beschlusswortlaut, Rechtsgrundlage, Fehler, Zahlungsrelevanz, Beleg, Frist, Heilungs- oder Neufassungsoption.

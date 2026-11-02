@@ -1,6 +1,6 @@
 ---
 name: produktakte-gap-analyse
-description: "Wenn es um Produktakte Gap-Analyse in robotik-recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. Auswahlstichwort: Produktakte Gap Analyse; Arbeitsfeld: robotik-recht."
+description: "Für Produktakte Gap-Analyse: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: robotik-recht. Route: produktakte-gap-analyse."
 ---
 
 # Produktakte Gap-Analyse
@@ -34,6 +34,8 @@ Kläre knapp:
 Dieser Skill fokussiert: **Führt Gap-Analyse der Produktakte durch: fehlende Nachweise, falsche Annahmen, ungeklärte Rollen, nicht belegte Standards.**
 
 Quellen-/Normenanker: Maschinenverordnung, KI-VO, CRA, MDR, ProdSG.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## Ergebnisformat
 

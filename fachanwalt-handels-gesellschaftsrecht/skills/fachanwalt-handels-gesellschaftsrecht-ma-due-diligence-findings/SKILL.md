@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-handels-gesellschaftsrecht-ma-due-diligence-findings
-description: "Wenn es um M&A Due Diligence Findings in Fachanwalt Handels- und Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Fachanwalt Handels Gesellschaftsrecht M&A Due Diligence Findings; Arbeitsfeld: Fachanwalt Handels- und Gesellschaftsrecht."
+description: "Für M&A Due Diligence Findings: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Handels- und Gesellschaftsrecht. Route: fachanwalt-handels-gesellschaftsrecht-ma-due-diligence-findings."
 ---
 
 # M&A Due Diligence Findings
@@ -187,14 +187,6 @@ Strukturierte Erfassung von DD-Befunden, Bewertung und Auswirkung auf Kaufvertra
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Paragrafenkette
 
 §§ 311, 241 BGB (Garantien als eigenständige Haftungsversprechen) → § 442 BGB (Kenntnis des Käufers, Ausschluss Gewährleistung) → §§ 280, 281 BGB (Schadensersatz bei Garantieverletzung) → § 275 BGB (Unmöglichkeit bei MAC) → §§ 437, 439-441 BGB (Kaufrechtliche Gewährleistung — subsidiär bei Share Deal ohne Garantien) → § 123 BGB (Anfechtung wegen arglistiger Täuschung) → § 15 GmbHG (Anteilsabtretung, Formerfordernis) → §§ 17 ff. AktG (Aktienübertragung)
@@ -262,11 +254,4 @@ OFFENE PUNKTE
 [Liste der noch benötigten Dokumente oder Klärungen]
 ```
 
-<!-- AUDIT 27.05.2026 | Bundle 022 | Task 4
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Status: WRONG_TOPIC
-Erdgaspreiserhöhungen (keine stillschweigende Zustimmung bei vorbehaltloser Zahlung,
-§ 4 AVBGasV) – nichts mit M&A, Disclosure Schedules oder § 442 BGB zu tun.
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Maßnahme: Leitsatz-Zitat aus Abschnitt "Vertiefung – Aktuelle Rechtsprechung" gelöscht.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

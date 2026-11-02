@@ -1,6 +1,6 @@
 ---
 name: it-vertrag-verhandlung-eu-odr
-description: "Wenn es um IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtungsklauseln und EU-ODR-Optionen in Fachanwalt It Recht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtungsklauseln und EU-ODR-Optionen: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtungsklauseln und EU-ODR-Optionen
@@ -14,7 +14,7 @@ description: "Wenn es um IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtun
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtungsklauseln und EU-ODR-Optionen. Anwendungsfall IT-Vertrag soll verhandelt werden und Streitbeilegungsklauseln müssen aktuell gestaltet werden. Normen BGB §§ 305 ff. AGB-Kontrolle VSBG Verbraucherstreitbeilegung AI Act Art. 85 Beschwerdebearbeitung DGRI-Mediation. Prüfraster Vertragsklauseln Eskalationsverfahren Schiedsklausel ODR-Plattform nach Abschaltung Juli 2025 Streitbeilegungsoptionen. Output IT-Vertragsklausel-Paket mit Eskalationsverfahren und Streitbeilegungsformulierung. Abgrenzung zu fachanwalt-it-recht-saas-vertrag-verhandlung und softwarefehler-mangelhaftung-prüfen.
+**Fokus:** IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtungsklauseln und EU-ODR-Optionen. Anwendungsfall IT-Vertrag soll verhandelt werden und Streitbeilegungsklauseln müssen aktuell gestaltet werden. Normen BGB §§ 305 ff. AGB-Kontrolle VSBG Verbraucherstreitbeilegung Artikel 85 KI-Verordnung als eigenständige Beschwerde an die Marktüberwachungsbehörde, kein Vertrags-ADR DGRI-Mediation. Prüfraster Vertragsklauseln Eskalationsverfahren Schiedsklausel ODR-Plattform nach Abschaltung Juli 2025 Streitbeilegungsoptionen. Output IT-Vertragsklausel-Paket mit Eskalationsverfahren und Streitbeilegungsformulierung. Abgrenzung zu fachanwalt-it-recht-saas-vertrag-verhandlung und softwarefehler-mangelhaftung-prüfen.
 
 ### IT-Vertrag-Verhandlung / EU-ODR
 
@@ -111,11 +111,7 @@ description: "Wenn es um IT-Vertragsverhandlung SaaS Cloud Lizenz mit Schlichtun
 
 ## Quellen und Updates
 
-Stand: 05/2026. EU-ODR-VO 524/2013. VSBG. AI Act 2024/1689 Art. 85. DGRI-Schiedsordnung. Bei VSBG-Reform aktualisieren.
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Stand der AI-Act-Schnittstelle: 09.10.2026. Artikel 85 KI-Verordnung betrifft Beschwerden an die zuständige Marktüberwachungsbehörde, keine allgemeine vertragliche Streitbeilegung oder Ersatzplattform für EU-ODR. Vertragliche Eskalation, VSBG und DGRI-Verfahren getrennt prüfen. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -180,3 +176,5 @@ Nächster Termin: [DATUM]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Verknüpfen Sie die vereinbarte Leistung mit produktiver Version, beworbenem Zweck, Testnachweisen und Änderungsverfahren. Eine Garantie für sämtliche KI-Vorschriften ist ohne Rolle, Geltungsdatum und Systemgrenze nicht prüfbar. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

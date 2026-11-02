@@ -1,6 +1,6 @@
 ---
 name: aufgabenstellung-erfassen-fachgebiet
-description: "Wenn es um Aufgabenstellung erfassen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Aufgabenstellung erfassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aufgabenstellung erfassen
@@ -18,9 +18,6 @@ description: "Wenn es um Aufgabenstellung erfassen in hausarbeitenmacher — Did
 2. Welches Rechtsgebiet ist nach erster Lektuere des Sachverhalts erkennbar?
 3. Gibt es im Bearbeitungsvermerk explizite Einschraenkungen ("Verjährung ist nicht zu prüfen")?
 4. Wie viel Zeit bleibt bis zur Abgabe?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 133, 157 BGB — Auslegung von Willenserklärungen und Vertraegen: Maßstab für Sachverhaltswuerdigung
@@ -162,24 +159,4 @@ Wenn Du die Aufgabenstellung erfasst hast, gehe weiter zu
 - `fachgebiet-routing-zivil-oeffentlich-straf` — Welches Fachgebiet?
 - `bearbeitungsplan-erstellen` — Zeitplan und Stoff-Aufteilung
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 267 AEUV
-- § 242 StGB
-- § 24 StGB
-- § 263 StGB
-- § 40 VwGO
-- Art. 20 GG
-- § 22 StGB
-- Art. 5 GG
-- § 74 VwGO
-- § 15 StGB
-- § 211 StGB
-- § 70 VwGO
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

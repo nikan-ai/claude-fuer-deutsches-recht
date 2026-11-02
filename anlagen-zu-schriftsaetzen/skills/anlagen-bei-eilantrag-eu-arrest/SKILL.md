@@ -1,6 +1,6 @@
 ---
 name: anlagen-bei-eilantrag-eu-arrest
-description: "Wenn es um Anlagen bei Eilantrag und Arrest in Anlagen zu Schriftsätzen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Anlagen bei Eilantrag und Arrest: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Anlagen bei Eilantrag und Arrest
@@ -63,18 +63,7 @@ Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Norme
 - Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
 - Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 31 VVG
-- § 16 GeschGehG
-- § 174 GVG
-- Art. 32 DSGVO
-- § 29 VwVfG
-- § 203 StGB
-- § 184 GVG
-
-### Leitentscheidungen
-
-- BGH X ZR 39/16
+Für Anlagen sind Vollständigkeit, Bezug im Schriftsatz, Beweiszweck, Lesbarkeit, zulässiges Dateiformat und sicherer Eingang maßgeblich. Paragraf 130a und 130d ZPO sowie die ERVV und die jeweils aktuelle ERVB nur für den elektronischen Versand anwenden; fachrechtliche Beweisregeln aus dem Ausgangsverfahren getrennt erfassen. Rechtsprechung nur ergänzen, wenn sie genau die konkrete Einreichungs- oder Beweisfrage trägt.

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "plugin": "verlagsredaktion",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__39.html",
+      "checked_on": "2026-09-23",
+      "supports": "Vollständiger amtlich indexierter Normtext gelesen, nachdem Direktabrufe scheiterten: Änderungen von Werk, Titel und Urheberbezeichnung nach Vereinbarung sowie gesetzliche Grenze nach Treu und Glauben. Kein Direktabruf behauptet."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/11/rk20251103_1bvr057325.html",
+      "checked_on": "2026-09-25",
+      "supports": "BVerfG, Beschluss vom 03.11.2025, 1 BvR 573/25: Entscheidungskopf und Randnummern 51 und 52 am 25.09.2026 im amtlichen Volltext gelesen. Gesamtschau der Recherche, Mindestbestand an Beweistatsachen und Gewicht des öffentlichen Interesses statt schematischer strafprozessualer Verdachtsstufen; keine pauschale Freigabe von Namensnennungen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/11/rk20251103_1bvr057325.html",
+      "checked_on": "2026-09-25",
+      "supports": "BVerfG, Beschluss vom 03.11.2025, 1 BvR 573/25: Entscheidungskopf und Randnummern 51 und 52 am 25.09.2026 im amtlichen Volltext gelesen. Gesamtschau der Recherche, Mindestbestand an Beweistatsachen und Gewicht des öffentlichen Interesses statt schematischer strafprozessualer Verdachtsstufen; keine pauschale Freigabe von Namensnennungen."
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/11/rk20251103_1bvr057325.html",
+      "checked_on": "2026-09-25",
+      "supports": "BVerfG, Beschluss vom 03.11.2025, 1 BvR 573/25: Entscheidungskopf und Randnummern 51 und 52 am 25.09.2026 im amtlichen Volltext gelesen. Gesamtschau der Recherche, Mindestbestand an Beweistatsachen und Gewicht des öffentlichen Interesses statt schematischer strafprozessualer Verdachtsstufen; keine pauschale Freigabe von Namensnennungen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gg/art_5.html",
+      "checked_on": "2026-09-22",
+      "supports": "Meinungs- und Pressefreiheit mit gesetzlichen Schranken."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gvg/__169.html",
+      "checked_on": "2026-09-22",
+      "supports": "Gerichtsöffentlichkeit nicht mit freier Aufzeichnung gleichsetzen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Mini vollständig nachgelesen: Eingangsmodi, nachgereichter Volltext, Gegenbeleg und Autorenwiderspruch ändern Meldung oder Antwort konkret. Keine sachfremden Fallzitate bei Format- oder Exportauftrag; Desk-Review, kein Live-Ergebnistest. Redaktionelle Einstiegsprüfung 16.10.2026: Endfassung einer Meldung oder eines Manuskripts als Zweck; 1 BvR 573/25 trennt presserechtliche Sorgfalt von strafprozessualer Verdachtsstufe, ohne Mindesttatsachen und Anhörung aufzugeben. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "BVerfG-Entscheidung statt bloßer Fallliste in die Aussageprüfung integriert",
+      "Beispiel mit 2.000 von 10.000 Euro als begrenzte zivilrechtliche Meldung formuliert",
+      "Interne Quellenübersicht nicht als Pflichtprodukt vor den Empfängertext gestellt",
+      "Entscheidungsmeldung, Lektorat und Korrektur als konkrete Startwege angeboten; klare Aufgaben sofort bearbeitet.",
+      "Geänderte tragende Gründe und widerlegte Tatsachen bis in Überschrift und Schlussfolgerung übernommen; Autorenänderungen an Paragraf 39 UrhG gebunden.",
+      "Endfassung einer Meldung oder eines Manuskripts als Zweck; 1 BvR 573/25 trennt presserechtliche Sorgfalt von strafprozessualer Verdachtsstufe, ohne Mindesttatsachen und Anhörung aufzugeben."
+    ],
+    "sha256": "51bded26619aaedda4617f895220598c4242079db6748add1660b57c0efd40d4",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt vollständig nachgelesen: Volltextabgleich, konkrete Anhörung, Gegenbelege, Autorenbefugnis und veröffentlichte Fassungen führen zu fertigen Beiträgen oder Korrekturtexten. Vorhandene Honorar-, Rechte- und Produktionszweige erhalten; Desk-Review, kein Live-Ergebnistest. Redaktionelle Einstiegsprüfung 16.10.2026: Endfassung einer Meldung oder eines Manuskripts als Zweck; 1 BvR 573/25 trennt presserechtliche Sorgfalt von strafprozessualer Verdachtsstufe, ohne Mindesttatsachen und Anhörung aufzugeben. Keine erneute Vollprüfung der Altquellen; kein Live-Modelltest.",
+    "changes": [
+      "BVerfG-Entscheidung statt bloßer Fallliste in die Aussageprüfung integriert",
+      "Beispiel mit 2.000 von 10.000 Euro als begrenzte zivilrechtliche Meldung formuliert",
+      "Interne Quellenübersicht nicht als Pflichtprodukt vor den Empfängertext gestellt",
+      "Nachgereichten Tenor und tragende Gründe mit geänderter praktischer Folge verbunden; Gegenbelege korrigieren Tatsachen statt bloßer Bestreitensformel.",
+      "Konkrete Stellungnahmeanfrage, begründbarer Antworttermin, fachlicher Autorenwiderspruch und kanalbezogene Korrekturfortsetzung ergänzt.",
+      "Endfassung einer Meldung oder eines Manuskripts als Zweck; 1 BvR 573/25 trennt presserechtliche Sorgfalt von strafprozessualer Verdachtsstufe, ohne Mindesttatsachen und Anhörung aufzugeben."
+    ],
+    "sha256": "fe602b79386e801cf68a0f30fb5acb19e3974da6e6f0fb1ec721ad11850874fa",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: juristische Entscheidungsmeldung, Manuskriptlektorat mit Autorenantwort oder Korrektur eines veröffentlichten Beitrags anbieten.",
+      "Dateien: Manuskript, Quellen und Rückmeldungen still lesen; nur bei offenem Ziel passende Redaktionsdokumente anbieten.",
+      "Klarer Auftrag: sofort am Text arbeiten; nur entscheidende Fassung, Beleglücke oder Veröffentlichungsstand klären."
+    ],
+    "continuation": "Nachgereichter Volltext verändert Begründung und praktische Folge; Gegenbeleg korrigiert Tatsache und Überschrift; Autorenantwort verändert genau die abgestimmte Fassung samt Querverweisen.",
+    "enrichment": "Quellenarten, konkrete Anhörung und Antwortzeit, widerlegte Zuschreibung, Paragraf 39 UrhG, Redaktionsschluss und veröffentlichte Kanalversionen bis zur fertigen Meldung oder Korrektur verbunden.",
+    "limits": "desk review; no live client execution"
+  },
+  "selection": {
+    "positive": [
+      "Prüfe die Aussagensicherheit unserer Gerichtsmeldung vor Redaktionsschluss.",
+      "Erstelle aus einer gerichtlichen Pressemitteilung eine begrenzte Meldung mit Quellenstatus."
+    ],
+    "negative": [
+      "Verteidige mich gegen eine presserechtliche Unterlassungsklage.",
+      "Berechne den gebundenen Buchpreis nach einer Schulbestellung."
+    ]
+  },
+  "cases": [
+    {
+      "id": "pressemitteilung-nicht-urteil",
+      "request": "Liefere ergebnis.md mit überarbeiteter Kurzmeldung und Freigabevermerk. Einzige Quelle ist eine amtliche Pressemitteilung vom 10. September 2026: In einem Zivilprozess wurden einem Käufer 2000 von verlangten 10000 Euro zugesprochen, weil eine vertraglich zugesagte Eigenschaft fehlte; das Urteil ist noch nicht veröffentlicht, Rechtsmittelstatus unbekannt. Unser Entwurf lautet: Händler rechtskräftig wegen Betrugs verurteilt. Das Gericht bestätigt sämtliche Vorwürfe. Ergänze einen amtlichen Leitsatz. Eine strafrechtliche Entscheidung oder weitere Quelle liegt nicht vor. Überarbeite für einen juristischen Newsletter, ohne zu publizieren.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Berichtet über teilweises zivilrechtliches Obsiegen mit 2000 von 10000 Euro und behauptet keine strafrechtliche Betrugsverurteilung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Lässt Rechtskraft offen und benennt die Pressemitteilung als einzige Grundlage statt Urteilsvolltext vorzutäuschen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erfindet keinen amtlichen Leitsatz; liefert dennoch eine verwendbare begrenzte Meldung und benennt den Volltext als konkrete Nachforderung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "verl-aussagensicherheit-pruefung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "verlagsredaktion/verlagsredaktion-schnellstart.md",
+      "verlagsredaktion/verlagsredaktion-werkstatt.md",
+      "verlagsredaktion/README.md",
+      "quality/evals/verlagsredaktion.json"
+    ],
+    "opening_change": "Gerichtsmeldung Satz für Satz an Tenor, Quelle und Stellungnahme prüfen; zivilrechtlichen Teilerfolg nicht als Betrugsverurteilung darstellen.",
+    "norms": [
+      "Artikel 5 Absatz 1 und 2 GG",
+      "Paragrafen 823 und 1004 BGB analog",
+      "Paragrafen 22 und 23 KUG",
+      "Paragrafen 31, 51 und 63 UrhG",
+      "Paragrafen 169 GVG und 353d StGB"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, Beschluss vom 03.11.2025, Az. 1 BvR 573/25, Randnummern 51 und 52",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/11/rk20251103_1bvr057325.html",
+        "application": "Gesamtschau von Recherche und öffentlichem Interesse statt schematischer strafprozessualer Verurteilungswahrscheinlichkeit.",
+        "limit": "Mindestbestand an Beweistatsachen und Anhörung bleiben erforderlich; kein Freibrief für Namensnennung. Amtlichen Volltext am 25.09.2026 inhaltlich geprüft, insbesondere Randnummern 51 und 52 vollständig gelesen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "BVerfG am 25.09.2026 anhand des amtlichen Volltexts, insbesondere Randnummern 51 und 52, inhaltlich geprüft; Landesmedienrecht und Honorarsteuerfragen nicht vollständig neu verifiziert.",
+      "Workflow-Erweiterung 23.09.2026: Paragraf 39 UrhG und Randnummern 51/52 des vorhandenen BVerfG-Ankers damals amtlich indexiert gelesen. BVerfG-Randnummern 51/52 am 25.09.2026 im amtlichen Volltext nachgeprüft; keine neue Prüfung von Paragraf 39 UrhG behauptet."
+    ]
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "verlagsredaktion/references/ki-normen-und-fallpruefung.md",
+    "focus": "Halten Sie fest, wer welche Passage in welcher Fassung geprüft und die redaktionelle Verantwortung übernommen hat. Eine bloße Schlussfreigabe ohne erkennbaren Gegenstand ist als Beleg gesondert zu würdigen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: umwandlungssteuerrecht-buchwertantrag
-description: "Wenn es um Umwandlungssteuerrecht in Großkanzlei Corporate/M&A geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Umwandlungssteuerrecht Buchwertantrag; Arbeitsfeld: Großkanzlei Corporate/M&A."
+description: "Plant und prüft Buch- und Zwischenwertanträge bei Verschmelzung, Spaltung und Einbringung, sichert Antrags- und Achtmonatsfristen und erstellt eine steuerliche Struktur- und Vollzugsmatrix."
 ---
 
 # Umwandlungssteuerrecht
@@ -8,7 +8,6 @@ description: "Wenn es um Umwandlungssteuerrecht in Großkanzlei Corporate/M&A ge
 ## Fachlicher Anker
 
 - **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten; BGH, 20.11.2018 - II ZR 12/17 für Gesellschafterlisten. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Fachkern: Umwandlungssteuerrecht
@@ -23,7 +22,7 @@ Typische Auslöser:
 - "Mach daraus eine Partner-/Mandantenunterlage mit Risiken, Annahmen und offenen Punkten."
 - "Welche Dokumente, Registerauszüge, Freigaben oder Fristen fehlen noch?"
 
-Nicht dieser Skill ist vorrangig, wenn zuerst das Mandat selbst angelegt, die Deal-Phase bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-kommandocenter` oder `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-deal-intake`. Wenn der Nutzer ausdrücklich nur eine kurze Sprachfassung, Übersetzung oder E-Mail will, arbeite knapp und route nicht in einen Deep-Dive.
+Nicht dieser Skill ist vorrangig, wenn zuerst das Mandat selbst angelegt, die Deal-Phase bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/grosskanzlei-corporate-ma:kommandocenter` oder `/grosskanzlei-corporate-ma:deal-intake`. Wenn der Nutzer ausdrücklich nur eine kurze Sprachfassung, Übersetzung oder E-Mail will, arbeite knapp und route nicht in einen Deep-Dive.
 
 ## Voraussetzungen und Kontext laden
 Lies zuerst, falls vorhanden, den Matter-Workspace unter `~/.config/claude-fuer-deutsches-recht/grosskanzlei-corporate-ma/mandate/<slug>/`: `mandat.md`, `history.md`, `chronologie.md`, `fristen.yaml` und den aktuellen Dokumentenlog. Wenn kein Workspace existiert, frage nur die Mindestdaten ab: Rolle der Kanzlei, Deal-Typ, Zielgesellschaft, Käufer/Verkäufer, Jurisdiktionen, Signing-/Closing-Zeitplan, Vertraulichkeitsstufe und gewünschtes Output-Format.
@@ -58,9 +57,9 @@ Arbeite mit diesen Variablen: `deal_name`, `rolle`, `deal_phase`, `target`, `geg
 - BGB Paragraf 134, 138, 280, 311 Abs. 2 und 826 für Haftungs- und Sittenwidrigkeitsfragen.
 - UmwStG Paragraf 20 bis 24 und Paragraf 8c KStG nur mit Steuerteam verifizieren.
 
-**3. Organpflichten und Business Judgment.** Bei Geschäftsleitungs- oder Aufsichtsratsentscheidungen ist zu fragen, ob die Entscheidung auf angemessener Informationsgrundlage, ohne sachfremde Interessen und zum Wohl der Gesellschaft vorbereitet ist. Für die Pflicht zur eigenverantwortlichen Prüfung von Ansprüchen und Organverantwortung ist BGH, 21.04.1997 - II ZR 175/95, ARAG/Garmenbeck, als Leitentscheidung zu markieren: https://dejure.org/1997,161 `[dejure.org]`.
+**3. Organ- und Zuständigkeitsprüfung.** Nur wenn der konkrete Arbeitsschritt eine Organentscheidung vorbereitet, Zuständigkeit, Zustimmungsvorbehalte, Interessenkonflikte, Informationsgrundlage und Dokumentation prüfen. Der fachlich passende Haftungs- oder Board-Paper-Skill liefert die dafür einschlägige Rechtsprechung; ARAG/Garmenbeck ist kein Universalanker.
 
-**4. Register- und Gesellschafterlistenlogik.** Bei GmbH-Anteilen, Einziehung, Vollmachtskette oder Closing-Fähigkeit ist Paragraf 16 GmbHG gesondert zu prüfen. Zur Legitimationswirkung der Gesellschafterliste: BGH, 20.11.2018 - II ZR 12/17, abrufbar über BGH-Datenbank und dejure: https://dejure.org/2018,47817 `[BGH-Datenbank/dejure.org]`.
+**4. Register- und Gesellschafterlistenlogik.** Nur bei GmbH-Anteilen, Einziehung, Vollmachtskette oder streitiger Legitimation Paragraf 16 und 40 GmbHG sowie Registerstand und materielle Berechtigung getrennt prüfen. Ohne solche Title- oder Legitimationsfrage diesen Prüfstrang auslassen.
 
 **5. Regulatory und Vollzugshindernisse.** Wenn Fusionskontrolle, AWV/FDI, MAR, GwG, Sanktionen oder branchenspezifische Genehmigungen berührt sind, lautet der Zwischensatz nicht nur „Risiko“, sondern: Anmeldung erforderlich? Vollzugsverbot? Closing Condition? Long-Stop-Date gefährdet? Bußgeld- oder Nichtigkeitsfolge?
 
@@ -88,9 +87,9 @@ Nutze nur frei prüfbare Quellen oder vom Nutzer bereitgestellte/lizenzierte Que
 
 ## Hand-Off zu anderen Skills
 Nach diesem Skill weiter mit:
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-distressed-ma` - wenn Krise, Antragspflicht, Anfechtung oder Liquiditätsplanung entscheidend werden.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-restructuring-starug-insolvenzplan` - wenn Krise, Antragspflicht, Anfechtung oder Liquiditätsplanung entscheidend werden.
-- `/grosskanzlei-corporate-ma:grosskanzlei-corporate-ma-signing-closing-conditions` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
+- `/grosskanzlei-corporate-ma:distressed-ma` - wenn Krise, Antragspflicht, Anfechtung oder Liquiditätsplanung entscheidend werden.
+- `/grosskanzlei-corporate-ma:restructuring-starug-insolvenzplan` - wenn Krise, Antragspflicht, Anfechtung oder Liquiditätsplanung entscheidend werden.
+- `/grosskanzlei-corporate-ma:signing-closing-conditions` - wenn CPs, Closing Deliverables oder Signing Pack koordiniert werden.
 
 ## Was dieser Arbeitsgang nicht macht
 - Er ersetzt keine Partnerentscheidung über Deal-Taktik, Signing-Freigabe oder Closing-Freigabe.
@@ -110,21 +109,21 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 ## Triage — klaere mit Steuerteam vor Strukturentscheidung
 
 1. Soll die Umwandlung zu Buchwerten erfolgen — Paragraf 11, 13 UmwStG (Verschmelzung), Paragraf 15, 20 UmwStG (Spaltung/Einbringung)? Antrag erforderlich?
-2. Ist die steuerliche Rueckwirkungsfrist einzuhalten — Paragraf 2 Abs. 1 UmwStG: maximal 12 Monate vor Anmeldung beim HR?
+2. Welche Rückwirkungsfrist gilt — bei Verschmelzungen höchstens acht Monate zwischen Schlussbilanzstichtag und Registeranmeldung nach Paragraf 17 Absatz 2 UmwG in Verbindung mit Paragraf 2 Absatz 1 UmwStG, bei Sacheinlagen höchstens acht Monate nach Paragraf 20 Absatz 6 UmwStG?
 3. Gibt es steuerliche Verlustvortraege — Paragraf 8c KStG Verlustuntergang bei mehr als 50 % Anteilserwerb in 5 Jahren; Sanierungsklausel Paragraf 8c Abs. 1a KStG anwendbar?
-4. Ist der Grunderwerbsteuer-Ergaenzungstatbestand ausgeloct — Paragraf 1 Abs. 2a, 2b GrEStG: 90 % Anteilsuebergang an grundbesitzender Gesellschaft = GrESt-Pflicht?
+4. Ist ein Grunderwerbsteuer-Ergänzungstatbestand ausgelöst — insbesondere nach Paragraf 1 Absatz 2a oder 2b GrEStG durch einen Übergang von mindestens 90 Prozent der Anteile an einer grundbesitzenden Gesellschaft?
 5. Welche Sperrfristen sind zu beachten — Paragraf 22 UmwStG: 7 Jahre nach Einbringung kein schaedlicher Anteilsverkauf (sonst rueckwirkende Entstrickung)?
 6. Gibt es Organschaft (Paragraf 14-19 KStG) — koennte Umwandlung Organschaft beenden?
 
 ## Zentrale Rechtsgrundlagen
 
-- Paragraf 11-13 UmwStG — Verschmelzung: Ansatz Buchwert/Zwischenwert/gemeiner Wert; Antrag für Buchwert beim Finanzamt; spaetestens mit Einreichung Steuererklarung
+- Paragrafen 11 bis 13 UmwStG — Verschmelzung: Der Antrag der übertragenden Körperschaft auf Buch- oder Zwischenwertansatz ist über Paragraf 11 Absatz 3 und Paragraf 3 Absatz 2 Satz 2 UmwStG spätestens mit der erstmaligen Abgabe der steuerlichen Schlussbilanz zu stellen; der gesonderte Anteilseignerantrag nach Paragraf 13 Absatz 2 UmwStG spätestens mit der ersten Steuererklärung, die den Übertragungsstichtag erfasst
 - Paragraf 15, 16 UmwStG — Spaltung: Teilbetriebsvoraussetzung für Buchwertansatz; Ausschlussfrist
-- Paragraf 20-24 UmwStG — Einbringung: Einzeluebertragung oder Ausgliederung gegen Anteile; Buchwert nur wenn qualifizierter Teilbetrieb; Sperrfrist 7 Jahre
+- Paragrafen 20 bis 24 UmwStG — Einbringung eines Betriebs, Teilbetriebs oder Mitunternehmeranteils gegen neue Anteile; Buch- oder Zwischenwert nur auf fristgerechten Antrag und bei sämtlichen Voraussetzungen des Paragrafen 20 Absatz 2 UmwStG; Sperrfolgen nach Paragraf 22 UmwStG
 - Paragraf 22 UmwStG — Sperrfrist-Verletzung: rueckwirkende Entstrickung; Einbringungsgewinn I/II
 - Paragraf 8c KStG — Verlustuntergang: mehr als 50 % Anteilsuebergang (schaedlicher Beteiligungserwerb) in 5 Jahren fuehrt zum vollstaendigen Verlustuntergang; Ausnahmen: Konzernklausel, stille-Reserven-Klausel, Sanierungsklausel
-- Paragraf 1 Abs. 2a, 2b GrEStG — Grunderwerbsteuer-Ergaenzungstatbestand: 90 % Anteilsuebergang an grundbesitzender Gesellschaft loest GrESt aus; Steuersatz je nach Bundesland 3,5-6,5 %
-- Paragraf 3a EStG — steuerfreier Sanierungsertrag bei Forderungsverzicht im Sanierungsplan; Voraussetzungen: Sanierungsabsicht, Sanierungseignung, Sanierungsbeitraege aller Gläubiger
+- Paragraf 1 Absatz 2a und 2b GrEStG — Ergänzungstatbestände bei Übergang von mindestens 90 Prozent der Anteile an einer grundbesitzenden Gesellschaft; Rechtsvorgang, Beteiligungszeitraum und Steuersatz gesondert feststellen
+- Paragraf 3a EStG — steuerfreier Sanierungsertrag bei betrieblich begründetem Schuldenerlass; nachzuweisen sind zum Erlasszeitpunkt Sanierungsbedürftigkeit und Sanierungsfähigkeit des Unternehmens, Sanierungseignung des Erlasses und Sanierungsabsicht der Gläubiger
 
 ## Aktuelle Rechtsprechung
 
@@ -134,9 +133,9 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 
 1. **Zielstruktur mit Corporate-Team abstimmen:** welche Umwandlungsform (Verschmelzung, Ausgliederung, Formwechsel) ist beabsichtigt?
 2. **Verlustvortraege kartieren:** Paragraf 8c KStG-Prüfung — bisherige Anteilsuebertragungen der letzten 5 Jahre; Schwellenwerte berechnen; Sanierungsklausel prüfen
-3. **Buchwert-Antrag planen:** Antrag beim zuständigen Finanzamt; Frist (Paragraf 11 Abs. 1, 20 Abs. 2 UmwStG); ohne Antrag: gemeiner Wert = stille Reserven werden aufgedeckt
-4. **Rueckwirkungsfristen einhalten:** steuerlicher Abschlussstichtag bestimmen; maximal 12 Monate rueckwirkend (Paragraf 2 Abs. 1 UmwStG); HR-Anmeldung als Fristbeginn
-5. **Grunderwerbsteuer prüfen:** grundbesitzende Gesellschaft? Paragraf 1 Abs. 2a, 2b GrEStG Schwelle 90 %? Steuersatz; Steuerbefreiung Konzernklausel Paragraf 6a GrEStG?
+3. **Buchwert-Anträge planen:** Antragsteller, zuständiges Finanzamt und fristauslösende Einreichung je Tatbestand trennen; bei Paragraf 11 und Paragraf 20 Absatz 2 Satz 3 UmwStG ist die erste steuerliche Schlussbilanz, bei Paragraf 13 Absatz 2 UmwStG die erste einschlägige Steuererklärung maßgeblich; ohne wirksamen Antrag bleibt es grundsätzlich beim gemeinen Wert
+4. **Rückwirkungsfristen einhalten:** Schlussbilanzstichtag, Registeranmeldung, Einbringungsvertrag und Übergang des wirtschaftlichen Eigentums getrennt erfassen; die reguläre Achtmonatsgrenze nach Paragraf 17 Absatz 2 UmwG und Paragraf 20 Absatz 6 UmwStG für den konkreten Vorgang berechnen
+5. **Grunderwerbsteuer prüfen:** grundbesitzende Gesellschaft, konkreter Ergänzungstatbestand und 90-Prozent-Schwelle feststellen; Paragraf 6a GrEStG nur als enge Konzernklausel mit begünstigtem Rechtsvorgang, Beteiligungsstruktur und grundsätzlich fünfjähriger Vor- und Nachbehaltensfrist prüfen
 6. **Sperrfrist-Management:** nach Einbringung nach Paragraf 20 UmwStG keine schaedliche Veraeusserung für 7 Jahre; Paragraf 22 UmwStG Monitoring einrichten
 7. **Organschaft-Auswirkungen:** Umwandlung koennte Organschaft beenden; Verlustausgleich und Ergebnisabfuehrungsvertrag prüfen
 8. **Steuer-Rueckstellung und Haftungsrisiken im SPA adressieren:** Tax Warranties, Tax Indemnity, Steuer-Freistellungsklausel
@@ -144,7 +143,7 @@ Vor Mandatsarbeit sind Interessenkonflikte nach Paragraf 43a BRAO und Paragraf 3
 ## Entscheidungsbaum
 
 - Verlustvortraege vorhanden + mehr als 50 % Anteilserwerb → Paragraf 8c KStG → Verlustuntergang → Sanierungsklausel prufen?
-- Einbringung ohne Teilbetrieb → Paragraf 20 UmwStG Buchwert nicht möglich → stille Reserven aufzudecken → Steuerbelastung
+- Eingebrachte Sachgesamtheit ist weder Betrieb noch Teilbetrieb noch Mitunternehmeranteil → Tatbestand des Paragrafen 20 Absatz 1 UmwStG nicht erfüllt → Buchwertansatz nach dieser Vorschrift scheidet aus
 - GrEStG Paragraf 1 Abs. 2a/2b → 90 % Schwelle → GrESt-Pflicht → Konzernklausel Paragraf 6a GrEStG greifen?
 - Sperrfrist-Verletzung → Einbringungsgewinn I oder II → rueckwirkende Steuer bis zu 7 Jahre
 
@@ -190,32 +189,3 @@ Offene Fragen an Steuerteam: [konkrete Frage] — Verantwortlich: [Name] — Fri
 
 - assets/templates/steuerliche-strukturmatrix.md
 - assets/templates/umwandlungssteuer-checkliste.md
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Paragraf 705 ff. BGB (GbR)
-- Paragraf 105 ff. HGB (OHG)
-- Paragraf 161 ff. HGB (KG)
-- Paragraf 13, 15 GmbHG (Anteilsübertragung)
-- Paragraf 53 GmbHG (Satzungsänderung)
-- Paragraf 33 GWB, FKVO 139/2004 (Fusionskontrolle)
-- Paragraf 311 BGB i.V.m. Paragraf 433, 453 BGB (Unternehmenskauf, share/asset deal)
-- Paragraf 25, 28 HGB (Firmenfortführung, Haftung)
-- Paragraf 2-4 UmwG (Verschmelzung)
-- Paragraf 1 InvKG, AWG/AWV Paragraf 55-62 (Investitionsprüfung)
-
-### Leitentscheidungen
-
-- BGH II ZR 17/19 (Earn-Out-Klauseln, Kontrolle)
-- BGH II ZR 280/14 (Gewährleistungsausschluss share deal)
-- BGH II ZR 109/13 (W&I-Versicherung, Sale and Purchase)
-- EuGH C-93/13 P (FKVO-Verfahren)
-- BGH II ZR 71/11 (Auskunftsrechte Datenraum)
-
-### Anwendung im Skill
-
-- Share Deal vs. Asset Deal Wahl an Steuer-, Haftungs- und Genehmigungsfolgen, nicht am LMA-Standard ausrichten.
-- W&I-Versicherung nach BGH II ZR 109/13 ergaenzt, ersetzt aber keine Garantien.
-- Fusionskontrolle Paragraf 39 GWB und FKVO 139/2004: Anmeldepflicht vor Closing prüfen, sonst Paragraf 41 GWB-Vollzugsverbot.

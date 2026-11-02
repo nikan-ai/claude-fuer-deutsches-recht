@@ -1,14 +1,20 @@
 ---
 name: note-2-formeln-erkennen
-description: "Wenn es um Note-2-Formeln erkennen in Arbeitszeugnispruefer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Prüft gezielt, ob die zusammenfassende Leistungsbewertung eines Arbeitszeugnisses die Zielstufe ‚gut‘ trägt. Ordnet Zufriedenheitsformel, Einzelleistungen und Tatsachenbelege ein; nicht für eine offene Noteneinordnung oder die Verhaltensbeurteilung."
 ---
 
-# Note-2-Formeln erkennen
+# Gute Bewertung prüfen
 
-Note 2 im Arbeitszeugnis entsteht durch Standardsteigerer in Verbindung mit einer positiven Bewertungsgrundlage. Der Unterschied zu Note 1 liegt im Fehlen des Maximalsteigerers: Nicht „vollsten", sondern „vollen" Zufriedenheit; nicht „ausserordentlich", sondern „sehr gut". Der Pruefer prueft diese Grenze genau, weil sie ueber den Unterschied zwischen einer sehr guten und einer guten Gesamtbewertung entscheidet.
+## 1. Einordnung
 
-Klassische Note-2-Formeln sind: „stets zur vollen Zufriedenheit" (ohne „vollsten"), „jederzeit zur vollen Zufriedenheit", „immer zur vollen Zufriedenheit" und „sehr gute Leistungen" ohne Maximalsteigerung. Die Standardsteigerer „stets", „jederzeit", „immer", „durchgehend" und „zu jeder Zeit" heben das Zeugnis um eine Note gegenueber der Grundformel, erreichen aber nicht das Maximal-Niveau. Fehlt der Steigerer, faellt die Formel auf Note 3 zurueck.
+Ausgangspunkt für die gute Schlussbewertung ist BAG, Urteil vom 18. November 2014, 9 AZR 584/13, Rn. 8 bis 13 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/)), zu Paragraf 109 GewO. Prüfe deshalb zuerst, ob lediglich das beständige Leistungsniveau sprachlich falsch wiedergegeben wird oder ob tatsächlich eine bessere Bewertung als bisher beansprucht wird. Der zweite Weg verlangt mehr als die Behauptung, gute Zeugnisse seien branchenüblich.
 
-Weitere gruene Note-2-Signale: „in besonderem Masse" (Note 1 bis 2), vier von fuenf Schlussbausteinen vorhanden, Detailsaetze mit „hervorragend" oder „sehr gut" ohne durchgehendes Maximum. Der Pruefer notiert, wie viele Saetze auf Note-2-Niveau liegen, und prueft, ob die Zusammenfassungsformel die Einzelbewertungen widerspiegelt.
+Identifiziere die zusammenfassende Leistungsbeurteilung. Die Formel „stets zur vollen Zufriedenheit“ ist ein verbreiteter Anhaltspunkt für eine gute Gesamtleistung. Prüfe jedoch den vollständigen Wortlaut, die bewertete Funktion, die Einzelleistungen und mögliche Widersprüche. Wörter wie „stets“, „sehr“ oder „hervorragend“ haben nur in Verbindung mit dem jeweiligen Prädikat Aussagekraft; sie heben nicht automatisch das gesamte Zeugnis auf eine bestimmte Note.
 
-Abgrenzung nach oben und unten: Ist die Leistungsformel „stets zur vollen Zufriedenheit", aber beschreibt die Schlussformel nur drei von fuenf Bausteinen oder fehlt der Erfolgswunsch, ist das Gesamtbild Note 2 mit leicht gestutzter Schlussformel, ein orangefarbener Befund in der Schlussformelzeile. Ist umgekehrt der Maximalsteigerer an einer einzigen Stelle eingebaut, alle anderen Saetze aber auf Note-2-Niveau, verbleibt die Gesamtnote bei 2 mit Tendenz 1 bis 2. Diese Spanne wird im Mandantenbericht transparent ausgewiesen.
+Bewerte die Schlussformel getrennt. Anzahl und Wärme von Dankes-, Bedauerns- oder Wunschbestandteilen bestimmen nicht die Leistungsnote. Für eine verlangte Aufwertung von einer durchschnittlichen zu einer guten Bewertung sind konkrete überdurchschnittliche Leistungstatsachen und geeignete Nachweise zu benennen.
+
+## 2. Ergebnis und Fortführung
+
+Stelle die Gesamtformel den maßgeblichen Einzelsätzen gegenüber. Benenne die tragfähige Bewertungsstufe, einen etwaigen Widerspruch, den Belegbedarf und einen vollständigen Ersatzsatz. Gute, widerspruchsfreie Passagen bleiben unverändert; eine bloß gefälligere Formulierung wird nicht als Rechtsmangel ausgegeben.
+
+Führe das Ergebnis in den laufenden Prüfvermerk, die Gesamtbewertung, die Änderungsmatrix und die bestellte Fassung zurück. Frage nur nach Tatsachen, die das gute Bewertungsniveau tragen oder widerlegen, und stelle unabhängige Teile fertig. Nach der Antwort setzt du am offenen Bewertungspunkt ohne Neustart fort. Ein ausstehendes Schreiben oder Zeugnis ist vollständig auszuformulieren.

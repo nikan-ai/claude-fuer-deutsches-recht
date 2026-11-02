@@ -1,6 +1,6 @@
 ---
 name: schulung-urteilsbauer-aktenintake-beschluss
-description: "Wenn es um Trainer-Leitfaden Schulung Urteilsbauer in Urteilsbauer und Relationsmacher geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Schulung Urteilsbauer Aktenintake Beschluss; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Trainer-Leitfaden Schulung Urteilsbauer: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Trainer-Leitfaden Schulung Urteilsbauer
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -38,12 +36,6 @@ Zielgruppe: Proberichter, Assessoren, Rechtspfleger.
 2. Wird die Arbeitsakte `testakten/solis-vision-x-smartglasses/` verwendet oder eine andere Testakte?
 3. Wird ein-tägig oder zwei-tägig geschult — welche Themenblöcke können gestrichen werden?
 4. Sollen DOCX-Rendern und PDF-Export live vorgeführt werden (technische Voraussetzungen prüfen)?
-
-## Aktuelle Rechtsprechung (für Schulungsunterlagen)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (für Schulungsunterlagen)
 
@@ -138,8 +130,4 @@ Die Antworten werden im Akten-Workspace gespeichert (Datei `workflow-entscheidun
 
 ---
 
-<!-- AUDIT 27.05.2026 -->
-
-## Audit-Hinweis (27.05.2026)
-
-Dieser Skill wurde im Rahmen von Bundle 046 auf halluzinierte Rechtsprechungsnachweise geprüft und korrigiert.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,16 +1,16 @@
 ---
 name: orientierung-mandat-fachanwaltschaft
-description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Insolvenz- und Sanierungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Orientierung Mandat Fachanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Insolvenz- und Sanierungsrecht."
 ---
 
-# Orientierung im Insolvenz- und Sanierungsrecht für Mandate und Fachanwaltschaft nach § 14 FAO
+# Orientierung im Insolvenz- und Sanierungsrecht für Mandate und Fachanwaltschaft nach Paragraf 14 FAO
 
 
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: InsO §§ 1, 13-22, 35, 39, 47, 55-56, 60, 80, 87, 129, 133, 174, 175, 270 ff., 286-300, StaRUG §§ 1, 29, 31; StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270; AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO; § 14. InsO Eroeffnung Antragspflicht; § 15a Gläubigerantrag; § 14 InsO. StaRUG Restrukturierungsplan. Insolvenzanfechtung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
@@ -20,16 +20,18 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Inso
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt für Insolvenz- und Sanierungsrecht — Orientierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
-## FAO-Voraussetzungen (§ 14 FAO)
+## FAO-Voraussetzungen nach den Paragrafen 4, 4a, 5 und 14 FAO
 
-- Lehrgang 120 Stunden + drei Klausuren.
-- 60 Fälle in den letzten drei Jahren, davon mindestens 40 Fälle aus dem Insolvenzrecht und mindestens 20 rechtsförmliche Verfahren oder Aufgaben als Insolvenzverwalter, Sachwalter oder Sanierungsgeschäftsführer.
+- Theoretische Kenntnisse: Fachlehrgang mit mindestens 120 Zeitstunden; für die betriebswirtschaftlichen Grundlagen im Insolvenzrecht kommen 60 Zeitstunden hinzu. Zeiten für Leistungskontrollen werden nicht eingerechnet.
+- Leistungskontrollen: mindestens drei bestandene schriftliche Aufsichtsarbeiten in Präsenzform aus verschiedenen Lehrgangsbereichen, jeweils eine bis fünf Zeitstunden und insgesamt mindestens 15 Zeitstunden.
+- Praktische Erfahrung: innerhalb der letzten fünf Jahre vor Antragstellung persönlich und weisungsfrei bearbeitete Fälle.
+- Verfahrenspraxis: mindestens fünf eröffnete Verfahren aus dem ersten bis sechsten Teil der InsO als Insolvenzverwalter oder als Verfahrenskoordinator nach Paragraf 269e InsO; in zwei Verfahren muss der Schuldner bei Eröffnung mehr als fünf Arbeitnehmer beschäftigen.
+- Weitere Fallpraxis: 60 Fälle aus mindestens sieben der in Paragraf 14 Nummer 1 und 2 FAO bestimmten Gebiete. Ersetzungen der fünf Verfahren richten sich genau nach Paragraf 5 Absatz 1 Buchstabe g Nummer 3 FAO; für jedes ersetzte Verfahren sind zusätzlich acht Fälle nach Nummer 4 nachzuweisen.
+- Maßgeblich ist die [FAO in der seit 1. Dezember 2025 geltenden Fassung](https://www.brak.de/fileadmin/02_fuer_anwaelte/berufsrecht/028-FAO_Stand_01.12.2025.pdf).
 
 ## Wichtige Normen
 
@@ -65,7 +67,7 @@ description: "Wenn es um Orientierung Mandat Fachanwaltschaft in Fachanwalt Inso
 
 - **Antragspflicht** § 15a Abs. 1 S. 1 InsO — bei Zahlungsunfähigkeit ohne schuldhaftes Zögern, spätestens drei Wochen; bei Überschuldung sechs Wochen.
 - **Insolvenzanfechtung** §§ 129 ff. InsO — Anfechtungsfristen drei bis zehn Jahre rückwärts ab Antragstellung.
-- **Forderungsanmeldung** §§ 28, 174 InsO — bis zum Schlusstermin; verspätete Anmeldung möglich, ggf. Kostenfolge.
+- **Forderungsanmeldung:** Das Insolvenzgericht setzt die Anmeldefrist im Eröffnungsbeschluss nach Paragraf 28 Absatz 1 InsO. Eine spätere Anmeldung wird nach Paragraf 177 InsO geprüft und kann Kosten auslösen; der Schlusstermin ist keine gesetzliche Anmeldefrist.
 - **Berufung gegen Eröffnungsbeschluss** § 34 InsO — sofortige Beschwerde § 6 InsO, ggf. zwei Wochen.
 
 ## Hauptgerichte
@@ -101,9 +103,9 @@ Bevor losgelegt wird, klaere:
 
 - **BGH IX ZR 122/23 vom 05.12.2024** — Konkretisierung der *Unlauterkeit* iSd § 142 Abs. 1 Hs. 2 InsO bei der Vorsatzanfechtung im Bargeschäft.
  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
-- **BGH IX ZR 129/22 vom 18.04.2024** — Neuausrichtung der Vorsatzanfechtung; konkrete Erwartung dauerhafter Liquiditätsunterdeckung erforderlich.
+- BGH, Urteil vom 18.04.2024 - IX ZR 129/22: Ein außenstehender Dritter darf einen nur pauschal aufgestellten und nicht mit Einzelpositionen oder Belegen unterlegten Liquiditätsstatus grundsätzlich einfach bestreiten. Die Entscheidung ist ein Darlegungsanker zu Paragraf 17 InsO, kein pauschaler Beleg für geringere Anfechtungsrisiken.
  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
-- **BGH IX ZR 239/22 vom 18.04.2024** — Anfechtung gesellschafterähnlicher Stellung (§ 135 InsO).
+- **BGH IX ZR 239/22 vom 18.04.2024** — Bei der Vorsatzanfechtung lässt sich die erforderliche Deckungslücke regelmäßig nicht allein aus den bereits zur Zahlungseinstellung herangezogenen Verbindlichkeiten ableiten; wiederholte Zahlungsverzögerungen belegen für sich noch keine Zahlungseinstellung.
  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
 - **BGH IX ZR 114/23 vom 19.12.2024** — Forderungsanmeldung bei Abtretung; Individualisierung.
  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=19.12.2024&Aktenzeichen=IX+ZR+114/23>
@@ -113,7 +115,6 @@ Bevor losgelegt wird, klaere:
 - **BGH IV ZR 66/25 vom 19.11.2025** — D&O-Versicherung; Wissentlichkeitsausschluss erfordert positive Kenntnis pro konkreter Pflichtverletzung; § 15a / § 15b InsO nicht koppelbar.
 - **BGH 5 StR 287/24 vom 27.02.2025** — Faktischer Geschäftsführer / Firmenbestattung.
  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (VARTA AG) — Verfassungsbeschwerde gegen Bestätigung des StaRUG-Restrukturierungsplans unzulässig.
  <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
 
 ## — Ersteinschätzung in 5 Schritten
@@ -165,4 +166,3 @@ VI. KOSTEN / HONORARRAHMEN
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
-

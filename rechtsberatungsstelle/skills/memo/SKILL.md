@@ -1,6 +1,6 @@
 ---
 name: memo
-description: "Wenn es um Internes Rechtsgutachten: Gutachten-Gerüst in Plugin für die studentische Rechtsberatungsstelle geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Internes Rechtsgutachten: Gutachten-Gerüst: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Internes Rechtsgutachten: Gutachten-Gerüst
@@ -27,10 +27,6 @@ description: "Wenn es um Internes Rechtsgutachten: Gutachten-Gerüst in Plugin f
 - **§ 6 RDG** — Rechtsdienstleistungen durch studentische Beratungsstellen: zulässig als unentgeltliche Rechtsdienstleistung unter anwaltlicher Aufsicht. Das Gutachten ist ein internes Arbeitsmittel und kein Rechtsgutachten im Sinne eines anwaltlichen Leistungsprodukts.
 - **§ 43a Abs. 2 BRAO / § 203 StGB** — Mandatsgeheimnis: Das Gutachten enthält vertrauliche Mandanteninformationen und darf die Beratungsstelle nicht ohne Supervisoren-Freigabe verlassen.
 - Materialrecht des jeweiligen Rechtsgebiets (wird im Gutachten konkretisiert).
-
-### Leitentscheidungen (exemplarisch für häufige Rechtsgebiete)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -98,6 +94,7 @@ Separater Abschnitt nach den Prüfungsblöcken:
 - Rechtlich: [Was erfordert Recherche?]
 - Strategisch: [Ermessensentscheidungen für Studentenn/Supervisor]
 
+```markdown
 ## Kurzergebnis
 
 [Mandat annehmen / Ablehnen, weil X / Weitere Informationen zu Y erforderlich —
@@ -180,7 +177,4 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 ---
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Befund: KORRIGIERT. Skill hatte falschen Thementext: "Verbraucherrecht: Widerruf nach § 355 BGB". Echtes Thema: Eigenbedarfskündigung; Suizidgefahr des Mieters als Haertegrund (§ 574 BGB); Fortsetzung des Mietverhaeltnisses auf unbestimmte Zeit. Fundstelle korrigiert: NZM 2023 35 Rn. 24 (statt NJW 2023 142 Rn. 20). Quelle: dejure.org/2022,33020.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

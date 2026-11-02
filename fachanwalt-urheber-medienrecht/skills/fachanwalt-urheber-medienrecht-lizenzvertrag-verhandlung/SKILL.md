@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-urheber-medienrecht-lizenzvertrag-verhandlung
-description: "Wenn es um Lizenzvertrag-Verhandlung in Fachanwalt Urheber Medienrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Lizenzvertrag-Verhandlung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Lizenzvertrag-Verhandlung
@@ -150,12 +150,10 @@ Verhandlung Lizenz-Vertrag für urheberrechtlich geschuetzte Werke.
 4. **Schriftform versäumt bei kuenftigen Werken**
 5. **Lizenz-Kette nicht geprüft**
 
-## 9) BGH-Linien und aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Anschluss
 
 - `fachanwalt-urheber-medienrecht-gegendarstellung-presse` — bei Presse-Recht
 - `fachanwalt-urheber-medienrecht-filesharing-verteidigung` — bei Abmahnung
 - `markenrecht-fashion-luxus` — bei Marken-Bezug
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

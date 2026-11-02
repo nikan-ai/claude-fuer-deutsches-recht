@@ -1,6 +1,6 @@
 ---
 name: email-berufsrecht-unsachliche-dokumentenmatrix-lueckenliste
-description: "Wenn es um Unsachliche: Dokumentenmatrix, Lückenliste und Nachforderung in E-Mail-Umformulierer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Unsachliche: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebiet: E-Mail-Umformulierer. Route: email-berufsrecht-unsachliche-dokumentenmatrix-lueckenliste."
 ---
 
 # Unsachliche: Dokumentenmatrix, Lückenliste und Nachforderung
@@ -17,7 +17,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 2 BORA` — Verschwiegenheit.
 - `§ 3 BORA` — Interessenkollision.
 - `§ 10 BORA` — Briefbogen/Information.
-- `§ 4 RVG` — Verguetungsvereinbarung.
+- `§ 3a RVG` — Vergütungsvereinbarung.
 - `§ 10 RVG` — Abrechnung.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

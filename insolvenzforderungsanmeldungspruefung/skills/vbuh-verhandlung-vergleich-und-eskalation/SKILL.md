@@ -1,6 +1,6 @@
 ---
 name: vbuh-verhandlung-vergleich-und-eskalation
-description: "Wenn es um Vbuh Verhandlung Vergleich Und Eskalation in Insolvenzforderungsanmeldungsprüfung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Vbuh Verhandlung Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie."
 ---
 
 # Vbuh: Verhandlung, Vergleich und Eskalation im Forderungsprüfung: fachlich vertieftes Modul mit Normenradar (InsO/Tabelle/Bestreiten), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
@@ -20,8 +20,6 @@ description: "Wenn es um Vbuh Verhandlung Vergleich Und Eskalation in Insolvenzf
 
 ## Fachlicher Kern — Insolvenz- und Sanierungsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vbuh: Verhandlung, Vergleich und Eskalation` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** InsO §§ 1, 13, 15a, 17, 18, 19, 21, 38 ff., 47, 49 ff., 55, 80, 103 ff., 129-147, 165 ff., 217 ff., 270 ff., 343; StaRUG; COVInsAG/Übergangsrecht nur bei Altzeiträumen; SGB III § 165.
-- **Verifizierte Anker:** BGH, Urteil vom 10.02.2005 - IX ZR 211/02 (Grenzen § 133 InsO bei Zwangsvollstreckung/verschlepptem Antrag als Klassiker); ausländische Verfahren: § 343 InsO Anerkennung, kein deutsches Chapter-15-Verfahren, häufig inzidente Prüfung durch Register, Grundbuch, Prozessgericht und Banken.
 - **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
 - **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -53,3 +51,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 - **Typische Konstellationen:** Betrug (§ 263 StGB), Untreue (§ 266 StGB), unerlaubte Handlung gegen Lebensgüter, Steuerhinterziehung als Schädigung des Fiskus (mit Streitstand).
 - **Trade-off:** vbuH-Anmeldung macht im Restschuldbefreiungsverfahren wirtschaftlich Sinn — Mehrkosten der Beweisführung gegen die Aussicht auf vollständige Forderung nach dem Verfahren abwägen.
 - **Praxis:** Bei Strafurteil als Beweismittel früh ankündigen; bei laufendem Strafverfahren ggf. Tabellenfeststellung aussetzen.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-vbuh-verhandlung-vergleich-und-eskalation` beziehungsweise Vbuh: Verhandlung, Vergleich und Eskalation: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-vbuh-verhandlung-vergleich-und-eskalation.md).

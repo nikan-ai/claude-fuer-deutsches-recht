@@ -1,69 +1,46 @@
-Wenn du das hier öffnest, willst du eine belastbare Liquiditätsplanung aufstellen und drohende Zahlungsunfähigkeit frühzeitig erkennen.
+# 1. Liquiditätsplanung aus Zahlungsdaten
 
-# Liquiditätsplanung — Schnellstart
+Ermittle aus Bankauszügen, offenen Posten und Zahlungsterminen den ersten ungedeckten Zahlungsbedarf und den bis dahin erforderlichen Kreditabruf. Rechne die Wochen fort und begründe im Finanzierungsvermerk, ob zugesagte Mittel rechtzeitig reichen. Übernimm Währung, Stichtag und Zeittakt aus dem Auftrag; vorhandene Unterlagen zuerst auswerten.
 
-Ziel: Liquiditätsplanung nach deutschem Recht: 3-Wochen-Vorschau, 13/26/52-Wochen-Forecast, Excel-Export, Quote/Lücken-Ampel, Dokumentationspaket und Schnittstellen zu Fortbestehensprognose und Insolvenzrecht. Rechtsprechung nur nach Live-Verifikation. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Bei Krisensignalen Paragraf 17 InsO gesondert prüfen. BGH, Urteil vom 12.03.2026, Az. IX ZR 18/25, berücksichtigt tatsächlich verfügbare Drittmittel auch ohne einklagbaren Anspruch, nicht bloße Hoffnung. Der Fall stellt Zahlungsunfähigkeit nicht abschließend fest; Nachweis unten.
 
-## 1. Schnellmodus
+Nur bei offenem Ziel Wochenplan, Bankbedarf oder Krisenprüfung anbieten; sonst direkt rechnen. Nur entscheidende Lücken zu Betrag, Termin oder Verfügbarkeit erfragen. Mitgeteilte Zahlen genügen, soweit sie die Rechnung tragen; Antworten gezielt einarbeiten.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1. Zahlungsbestand abstimmen
 
-## 2. Direktstart
+Gleiche Anfangsbestand mit Konten ab. Erfasse je Zahlung Betrag, Fälligkeit, erwarteten Zahlungstag, Beleg und Sicherheit. Trenne gesperrte Guthaben, verfügbare Mittel und abrufbare Kreditlinien. Weise Kreditziehungen als Finanzierung aus; zähle sie nicht zugleich als Anfangsguthaben und Zufluss. Belege Stundungen mit Wirksamkeit und neuem Termin. Entferne keine Verbindlichkeit allein wegen geplanter Verhandlungen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2. Rechenweg offenlegen
 
-## 3. Kernroute
+Rechne je Woche Anfangsbestand plus Einzahlungen minus Auszahlungen gleich Endbestand; übernimm ihn in die Folgewoche. Trenne Finanzierung und operativen Zahlungsstrom. Verwende Bruttozahlungen konsistent; vermeide doppelte Umsatzsteuer- und OPOS-Erfassung. Stelle unterwöchige Engpässe trotz positivem Wochenabschluss heraus.
 
-1. Datenraum: Bankkonten, offene Posten, Lohnsteuer, Sozialabgaben, Kreditlinien, Sicherheiten und Fälligkeiten einsammeln.
-2. Dreizehn-Wochen-Plan: Anfangsliquidität, sichere Zuflüsse, unvermeidbare Abfluesse und freie Linien wochenweise darstellen.
-3. Stressszenarien: Zahlungsverzug von Kunden, Covenant-Bruch, Lieferantenstopp, Lohnlauf und Steuern separat simulieren.
-4. Insolvenznähe: Zahlungsstockung, Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit und Überschuldung getrennt dokumentieren.
-5. Anschlussentscheidung: Finanzierungsanfrage, Stundung, Gesellschafterbeitrag, Sanierungspfad oder Insolvenzantragsprüfung formulieren.
-6. Ausgabengruppen: Fristennotiz und nächster Schritt: Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen.
+Rechne Ausgangsfall, Stressfall für die konkrete unsichere Zahlung und Maßnahmenfall. Nenne ersten Fehlbetrag, maximalen Finanzierungsbedarf und benötigten Bereitstellungstag. Negative Bestände sind ungedeckter Bedarf, kein nutzbares Guthaben. Dokumentiere Änderungen an der abgestimmten Planversion.
 
-## 4. Fallkarte
+Bei 12.000 EUR Anfangsbestand, 18.000 EUR Zahlung am Dienstag und 15.000 EUR Eingang am Freitag fehlen am Dienstag 6.000 EUR trotz positivem Wochenabschluss. Eine rechtzeitig verfügbare Linie von 5.000 EUR lässt 1.000 EUR ungedeckt. Verwende Tagesdaten nur, wenn sie vorliegen oder für die Entscheidung benötigt werden. Bei Factoring Vorschuss und Restzahlung trennen; die ursprüngliche Forderung nicht nochmals voll als Eingang zählen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | InsO Paragraf 17; InsO Paragraf 18; InsO Paragraf 19 |
-| Rechtsprechung | BGH, Urteil vom 24.05.2005 - IX ZR 123/04; BGH, Urteil vom 19.12.2017 - II ZR 88/16 |
-| Tatbestand | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen |
-| Beweislast | Geschäftsleitung muss Status, Fälligkeiten und Prognose dokumentieren; Anspruchsteller greift Lücken und verspätete Reaktion an |
-| Rechtsfolge | Liquiditätsstatus, Antragspflichtvermerk, Rangrücktritt, Patronatserklärung oder Zahlungsstopp |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Fehlt die Bankbestätigung für eine Linie oder die wirksame Stundung eines Lieferantenpostens, frage nach genau diesem Nachweis. Bis dahin die Maßnahme nur als Annahme im gesonderten Szenario berücksichtigen. Nach der Antwort prüfe Bedingungen und Termine, aktualisiere die betroffenen Wochen und den Finanzierungsbedarf und schreibe den bestellten Vermerk oder die Finanzierungsanfrage fertig. Eine dadurch neu erkennbare entscheidende Lücke darf eine kurze Folgefrage auslösen; bereits geklärte Angaben nicht erneut erheben.
 
-## 5. Einsatzfelder
+Offene Sicherheitenbedingungen kennzeichnen; ohne Dateizugriff aktualisierte Tabelle und vollständigen Vermerk liefern.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Ausgabengruppen: Fristennotiz und nächster Schritt | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen- und Risikoampel Liquiditätsplanung | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Interessen Verifikation Beweislast Vorschau | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Start, Chronologie und Fristen Liquiditätsvorschau | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Verifikation: Beweislast, Darlegungslast und Substantiierung | Liquiditätsstatus, Fälligkeit, Fortbestehensprognose, Antragspflicht, Beweislast und Sanierungsoption in einer Entscheidungslinie ordnen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Planung und Rechtsbewertung
 
-## 6. Anker
+Eine 13-Wochen-Tabelle entscheidet nicht abschließend über Insolvenzreife. [Paragraf 17 InsO](https://www.gesetze-im-internet.de/inso/__17.html) betrifft fällige Zahlungspflichten, [Paragraf 18 InsO](https://www.gesetze-im-internet.de/inso/__18.html) künftige Erfüllbarkeit mit regelmäßig 24 Monaten Prognose. Benenne Datenlücken für weitergehende Tests. Keine Freigabe allein aus einer Prozentmarke und keinen automatischen Zahlungsstopp für sämtliche Positionen erklären. Bei Krisensignalen die sofortige rechtliche Prüfung anschließen, ohne die Rechenarbeit abzubrechen.
 
-- InsO Paragraf 17: Zahlungsunfähigkeit als harte Grenze der Liquiditätsplanung.
-- InsO Paragraf 18: drohende Zahlungsunfähigkeit als Sanierungs- und Planungswarnsignal.
-- InsO Paragraf 19: Überschuldung bei juristischen Personen.
-- StaRUG Paragraf 1: Krisenfrüherkennung und Krisenmanagement.
-- Normen-/Quellenanker: InsO Paragrafen 17, 18, 19, 15a, StaRUG-Früherkennung, IDW-S-6-/Planungslogik, 3-Wochen- und 13-Wochen-Forecast, Zahlungsstatus und Fortbestehensprognose: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- InsO Paragrafen 17-19, Paragraf 15a: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- SGB IV Paragraf 28e, StGB Paragraf 266a für Arbeitnehmeranteile: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- AO Paragrafen 34, 69, 370 bei Steuer-/Erklärungspflichten: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Urteil vom 24.05.2005 - IX ZR 123/04: Zahlungsunfähigkeit wird regelmäßig anhand einer erheblichen Liquiditätslücke beurteilt.
-- BGH, Urteil vom 19.12.2017 - II ZR 88/16: Geschäftsleiter müssen Krisenentscheidungen und Zahlungsverbote nachvollziehbar dokumentieren.
-- BGH IX ZR 129/22 vom 18.04.2024 ist als Pflichtanker zu prüfen, wenn ein Liquiditätsstatus gegenüber einem außenstehenden Dritten verwendet wird. Die Erklärungslast der Gegenseite steigt nur
 
-## 7. Antwortform
+Prüfe OCR-Zahlen an der Belegstelle und gegen Salden; unbekannt ist nicht null. Für Paragraf 17 tatsächlichen Stichtag und das volle Dreiwochenfenster verwenden. Bei Bilanzmethode AI/II und PI/II trennen: Lücke=max(0,PI+PII−AI−AII), Quote=Lücke/(PI+PII); Nenner null nicht quotieren. Altschuldenzahlungen nicht nochmals als neue Passiva zählen. Kein Indizienzählautomat: Ein starkes Indiz kann reichen, zwei schwache müssen nicht reichen (BGH, 28.04.2022 – IX ZR 48/21, Rn. 27–33).
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Ausgabengruppen: Fristennotiz und nächster Schritt, Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage, Fristen- und Risikoampel Liquiditätsplanung, Interessen Verifikation Beweislast Vorschau: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Unter zehn Prozent keine Entwarnung bei absehbarer Vergrößerung auf mindestens zehn Prozent. Ab zehn Prozent regelmäßig Zahlungsunfähigkeit; Ausnahme nur bei mit an Sicherheit grenzender Wahrscheinlichkeit baldiger vollständiger/nahezu vollständiger Schließung und zumutbarem Zuwarten (BGH, 24.05.2005 – IX ZR 123/04, Leitsätze b/c). Eine Tabellenfarbe ersetzt diese Subsumtion nicht.
 
-## 8. Stop
+Paragraf 19: zwölf Kalendermonate, belastbares Konzept/Finanzplan; ohne positive Fortbestehensprognose eigenständigen Überschuldungsstatus prüfen. Negatives HGB-Eigenkapital allein genügt nicht. Rangrücktritt nach Wortlaut, Rangtiefe und vorinsolvenzlicher Sperre prüfen; kein Erlass oder Geldzufluss (BGH, 05.03.2015 – IX ZR 133/14, Rn. 15–24, 32). Prognostizierte Drittbeiträge brauchen nicht zwingend einklagbaren Anspruch, aber konkrete überwiegende Wahrscheinlichkeit; weiche Patronate in der Krise nur unter engen Voraussetzungen (BGH, 13.07.2021 – II ZR 84/20, Rn. 68–85). Kein Aktivwert aus weicher Erklärung. Tragende Volltexte aktuell amtlich verifizieren.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+BGH, 12.03.2026 – [IX ZR 18/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__18-25.pdf?__blob=publicationFile&v=1), Rn. 27–32: Tatsächlich verfügbare Drittmittel zählen auch ohne einklagbare Zusage. Betrag, Zahlweg und Termin belegen; bloße Hoffnung nicht ansetzen. Im Prozess Wissensnähe prüfen, keine unmögliche Detailerwiderung vom Außenstehenden verlangen.
+
+## 1.4. Arbeitsprodukt
+
+Für die Überleitung zur Insolvenzprüfung gilt BGH, Urteil vom 19.12.2017, II ZR 88/16, [Rn. 50–62, 68–70](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2016/II_ZR__88-16.pdf?__blob=publicationFile&v=1): Zählst du Zuflüsse in den nächsten drei Wochen, berücksichtige spiegelbildlich neu fällige und eingeforderte Schulden. Eine kurzfristig kündbare Konzernforderung zählt nicht schon wegen der Kündbarkeit als Liquidität; belege rechtzeitige Zahlungsbereitschaft und Zahlungsfähigkeit. Die Entscheidung legt weder jeden Planungshorizont noch eine automatische Organhaftung fest.
+
+Liefere die verlangte Planung mit prüfbaren Rechenschritten, Annahmen, Stressvergleich und ausformuliertem Finanzierungsvermerk. Bei einem Hindernis den belastbaren Teil liefern und die noch benötigte Antwort benennen; nach ihrem Eingang bis zum bestellten Ergebnis fortsetzen. Ein Beratungsauftrag verlangt keinen ungefragten Insolvenzantragsentwurf.
+
+Der gewünschte Dateiname geht vor; `ergebnis.md` ist nur der Standard ohne Dateiwunsch. Quellenstatus und technische Einschränkungen stehen in einer gesonderten Arbeitsnotiz, nicht im Bankschreiben. Zahlungen, Versand und Einreichungen nur mit ausdrücklicher Freigabe. Textteil beim Export: Times New Roman, 11 pt, dezimale Gliederung; die Tabelle bleibt zahlenorientiert.
+
+Ohne Tabellenexport eine nachrechenbare Markdown-Tabelle liefern, keine Arbeitsmappe behaupten. In vorhandenen Arbeitsmappen Formeln und Ursprungsdaten erhalten. `forecast-wochenplanung` ist optional.

@@ -1,6 +1,6 @@
 ---
 name: auslandseinsatz-anerkennung-und-nachweise
-description: "Wenn es um Auslandseinsatz: Anerkennung und Nachweise in Bundeswehrrecht und Wehrrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Auslandseinsatz: Anerkennung und Nachweise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen."
 ---
 
 # Auslandseinsatz: Anerkennung und Nachweise
@@ -93,25 +93,3 @@ Vor Ausgabe prüfen:
 - Gegenargumente und Verteidigungslinien formuliert?
 - Beweislastverteilung geklärt?
 - Output entspricht dem gewünschten Arbeitsergebnis?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 5 GG
-- § 81a SVG
-- § 81e SVG
-- § 27 SVG
-- § 9a BBesG
-- § 5 SVG
-- Art. 4 GG
-- § 5 WStG
-- § 81 SVG
-- § 70 BBesG
-- Art. 12a GG
-- § 22 SÜG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

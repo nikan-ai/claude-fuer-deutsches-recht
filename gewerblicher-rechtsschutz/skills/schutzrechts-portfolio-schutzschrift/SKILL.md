@@ -1,6 +1,6 @@
 ---
 name: schutzrechts-portfolio-schutzschrift
-description: "Wenn es um IP-Portfolio-Verwaltung in Plugin: Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für IP-Portfolio-Verwaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # IP-Portfolio-Verwaltung
@@ -38,8 +38,8 @@ Befehlsargument:
 - **§ 17 PatG** — Patentlaufzeit: 20 Jahre ab Anmeldetag; Aufrechterhaltung durch jährliche Jahresgebühren (§ 17 Abs. 1 i. V. m. PatKostG Anlage)
 - **§ 20 Abs. 1 Nr. 3 PatG** — Erlöschen bei Nichtzahlung der Jahresgebühr
 - **§ 17 Abs. 2 PatG** — Schonfrist: 6 Monate mit Zuschlag
-- **Regel 51 EPÜ / Art. 86 EPÜ** — EP-Patent: Jahresgebühren beim nationalen Amt ab dem 3. Jahr nach Anmeldetag; Nationalisierung innerhalb von 31 Monaten (PCT)
-- **§ 13 GebrMG** — Gebrauchsmuster: Schutzdauer 3 Jahre ab Anmeldetag, verlängerbar auf max. 10 Jahre (je +3/+2 Jahre)
+- Artikel 86 und Regel 51 EPÜ: Jahresgebühren für die europäische Patentanmeldung sind ab dem dritten Jahr bis zur maßgeblichen Veröffentlichung der Erteilung an das EPA zu entrichten; danach richten sich nationale Jahresgebühren nach dem Recht der benannten Vertragsstaaten. PCT-Eintrittsfristen nicht mit dieser Gebührenregel vermischen.
+- Paragraf 23 GebrMG: Schutzdauer höchstens zehn Jahre ab Anmeldetag. Die Aufrechterhaltung setzt Gebühren für das vierte bis sechste, das siebte und achte sowie das neunte und zehnte Jahr voraus.
 
 **Designs:**
 - **§ 27 DesignG** — Schutzdauer: 5 Jahre ab Anmeldetag, verlängerbar bis max. 25 Jahre in 5-Jahres-Schritten
@@ -48,10 +48,6 @@ Befehlsargument:
 **Urheberrecht:**
 - **§ 64 UrhG** — Schutzfrist: 70 Jahre nach Tod des Urhebers; keine aktive Verlängerung erforderlich
 - **§§ 70–72 UrhG** — Verwandte Schutzrechte: abweichende Fristen
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Kommentare
 
@@ -93,7 +89,7 @@ Ausgabe (Arbeitsergebnis-Kopfzeile voranstellen):
 IP-PORTFOLIO-FRISTENBERICHT — [Datum]
 [Unternehmensname] — Fenster: nächste [N] Tage
 
-🔴 ERLOSCHEN / IN SCHONFRIST ([N])
+[KRITISCH] ERLOSCHEN / IN SCHONFRIST ([N])
  [ID] / [Behörde] / [Typ] / [Bezeichnung]
  [Handlung] — ursprünglich fällig [Datum], Schonfrist endet [Datum]
  Status: [schonfrist / erloschen]
@@ -265,4 +261,4 @@ Alle Fristenangaben müssen auf konkreten Normen beruhen. Pflichtquellen:
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

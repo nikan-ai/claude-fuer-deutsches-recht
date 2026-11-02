@@ -1,6 +1,6 @@
 ---
 name: mandat-schliessen
-description: "Wenn es um Mandat schließen in Prozessrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Mandat schließen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandat schließen
@@ -63,10 +63,8 @@ Vor jeder Klagerücknahme oder Erledigungserklärung ist bei Zahlung, Aufrechnun
 
 Verbindlich: `../references/zitierweise.md`.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - BRAO Paragraf 50 (Aufbewahrungspflicht Handakten: 6 Jahre); Paragraf 43a Abs. 5 BRAO (Fremdgelder).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ausgabeformat
 
@@ -119,6 +117,4 @@ _log.yaml-Status: archiv
 - **Vollstreckungsverjährung:** Vollstreckungstitel verjähren nach Paragraf 197 Abs. 1 Nr. 3 BGB in 30 Jahren; Abschluss nicht ohne Dokumentation der Vollstreckungsmaßnahmen.
 - **Erledigungsfalle bei Zahlung nach Klageeinreichung:** Nicht automatisch erledigen oder zurücknehmen. Zuerst prüfen, ob die Kosten des Klageverfahrens wegen Verzugs nach Paragrafen 280, 286 BGB als materieller Schaden feststellbar sind.
 
-<!-- AUDIT 27.05.2026
-Halluzinierte Referenz geloescht. Keine Ersatzquelle gefunden.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

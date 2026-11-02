@@ -1,6 +1,6 @@
 ---
 name: audit-trail-protokoll
-description: "Wenn es um /tabellenreview-3d:audit-trail-protokoll in Tabellenreview 3D geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für /tabellenreview-3d:audit-trail-protokoll: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # /tabellenreview-3d:audit-trail-protokoll
@@ -14,7 +14,6 @@ description: "Wenn es um /tabellenreview-3d:audit-trail-protokoll in Tabellenrev
 
 ## Rechtliche Grundlagen zur Dokumentationspflicht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Ereignistypen
 
@@ -84,27 +83,7 @@ description: "Wenn es um /tabellenreview-3d:audit-trail-protokoll in Tabellenrev
 ## Verwendung
 
 - Pflicht vor jeder Mandatsübergabe — der Prüfer signiert den letzten Audit-Stand.
-- Bei Beschwerden Aufsicht oder Haftungsfrage rückverfolgbar nachweisen welcher Reviewlauf welchen Output produziert hat.
+- Bei Beschwerden, Aufsichts- oder Haftungsfragen nachvollziehbar nachweisen, welcher Prüflauf welches Ergebnis erzeugt hat.
 - Verhindert dass Prompts schleichend geändert werden und alte Zellen `nicht mehr nachvollziehbar` sind.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 2 JVEG
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-- § 16 HRG
-- § 70 VwGO
-- § 123 VwGO
-- § 29 VwVfG
-- § 1 KSchG
-- § 7 KSchG
-- § 102 BetrVG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

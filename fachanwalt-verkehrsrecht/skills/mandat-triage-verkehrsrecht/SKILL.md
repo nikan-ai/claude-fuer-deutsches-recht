@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-verkehrsrecht
-description: "Wenn es um Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen in Fachanwalt Verkehrsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen
@@ -18,8 +18,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Arbeitsweg
 
@@ -152,12 +150,10 @@ Bei Fahrerlaubnis-vorläufig-entzogen § 111a StPO:
 Verifizierte Aktenzeichen mit offener Quelle (vor Versand jeweils Volltext in der angegebenen Quelle aufrufen):
 
 - BGH VI ZR 253/22, Urt. v. 16.1.2024 — Werkstattrisiko (juris.bundesgerichtshof.de)
-- BGH VI ZR 239/22, Urt. v. 16.1.2024 — Werkstattrisiko bei fiktiver Abrechnung (juris.bundesgerichtshof.de)
+- BGH VI ZR 239/22, Urt. v. 16.1.2024 — Werkstattrisiko bei unbezahlter Rechnung und Abtretung (juris.bundesgerichtshof.de)
 - BGH VI ZR 280/22, Urt. v. 12.3.2024 — Sachverstaendigenrisiko (juris.bundesgerichtshof.de)
 - BGH VI ZR 12/24, Urt. v. 5.11.2024 — Haushaltsfuehrungsschaden / Mindestlohn (juris.bundesgerichtshof.de)
 - BGH VI ZR 24/25, Urt. v. 14.10.2025 — Substantiierungsanforderungen Art. 103 Abs. 1 GG (juris.bundesgerichtshof.de)
 - BVerwG 3 B 2.24, Beschl. v. 8.1.2025 — Cannabis und KCanG (bverwg.de)
 - BVerfG 2 BvR 1167/20, Beschl. v. 20.6.2023 — Rohmessdaten Geschwindigkeitsmessung (bundesverfassungsgericht.de)
 - BVerfG 2 BvR 1616/18, Beschl. v. 12.11.2020 — Akteneinsicht / Informationszugang OWi (bundesverfassungsgericht.de)
-
-<!-- AUDIT 27.05.2026: BGH VI ZR 1/21 (NOT_FOUND auf dejure.org) entfernt und ersetzt durch BGH VI ZR 37/99, NJW 2000, 861 (verifiziert auf dejure.org). -->

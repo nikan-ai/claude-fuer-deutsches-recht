@@ -1,6 +1,6 @@
 ---
 name: bverfg-eilantrag-paragraf-32-doppelhypothese
-description: "Wenn es um BVerfG-Eilantrag nach Paragraf 32 BVerfGG in verfassungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck."
+description: "Für BVerfG-Eilantrag nach Paragraf 32 BVerfGG: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # BVerfG-Eilantrag nach § 32 BVerfGG
@@ -46,7 +46,7 @@ Die Abwägung muss die Folgen konkret benennen: Grundrechtseingriff, demokratisc
 
 ## Fehlerbremse
 
-- Keine vollständige Hauptsacheprüfung in den Eilantrag kippen; die Hauptsache wird nur auf offensichtliche Unzulässigkeit oder offensichtliche Unbegründetheit gescreent.
+- Keine vollständige Hauptsacheprüfung in den Eilantrag aufnehmen; die Hauptsache wird nur auf offensichtliche Unzulässigkeit oder offensichtliche Unbegründetheit geprüft.
 - Keine bloße Wiederholung des Hauptsachenvortrags: § 32 BVerfGG verlangt Folgen, nicht nur Rechtsmeinungen.
 - Keine Frist vergessen: Der Eilantrag ersetzt nicht die fristgerechte Hauptsache.
 - Keine symbolischen Tenöre beantragen; der Tenor muss vollziehbar und kontrollierbar sein.

@@ -1,6 +1,6 @@
 ---
 name: amtssprache-entschluesseln-anhoerung
-description: "Wenn es um Amtssprache Entschluesseln in Juristische Sprache Deutsch als Zweitsprache geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Amtssprache Entschlüsseln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Amtssprache Entschluesseln
@@ -68,25 +68,3 @@ Keine herablassende Sprache. Keine falsche Vereinfachung. Keine erfundenen Tatsa
 - **Leichte Sprache:** noch einfacher; Regeln nach DIN SPEC 33429. Eher für Personen mit kognitiver Einschraenkung.
 - **Behördensprache hoeflich-formal:** "Sehr geehrte Damen und Herren, mit Schreiben vom . teilen Sie mit ... Hierzu nehme ich wie folgt Stellung: ..."
 - Tipp: Mehrdeutige Formulierungen vermeiden ("erforderlichenfalls" → "wenn noetig"; "Sachverhalt" → "Geschehen").
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 185 GVG
-- § 4 KSchG
-- § 70 VwGO
-- § 74 VwGO
-- § 55 OWiG
-- § 59 StGB
-- § 187 GVG
-- § 84 SGG
-- § 87 SGG
-- § 183 SGG
-- § 86b SGG
-- § 159 FamFG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

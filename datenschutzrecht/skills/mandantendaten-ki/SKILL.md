@@ -1,6 +1,6 @@
 ---
 name: mandantendaten-ki
-description: "Wenn es um Mandantendaten und digitale Werkzeuge-Dienstleister (Paragraf 203 StGB, Art. 28 DSGVO) in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Mandantendaten und digitale Werkzeuge-Dienstleister (Paragraf 203 StGB, Art. 28 DSGVO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Mandantendaten und KI-Dienstleister (§ 203 StGB, Art. 28 DSGVO)
@@ -77,6 +77,8 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Jährliche Überprüfung des Dienstleisters (Zertifizierungen, Sicherheitsnachweise).
 - Geheimhaltungsvereinbarungen und AVV archivieren.
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Bestimmen Sie Identifizierungsmittel je Datenempfänger und den Zweck jeder Verarbeitung. Eine Berufung auf diskriminierungsfreie Entwicklung begründet noch keine allgemeine Befugnis zur Nutzung sensibler Daten. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
 ## Ausgabeformat
 
 - **Prüfmemo** (intern): Berufsrechtliche und datenschutzrechtliche Zulässigkeit des konkreten KI-/IT-Dienstleisters.
@@ -127,10 +129,6 @@ Stand: 05/2026. Aktualität prüfen bei Anpassungen von § 203 StGB, neuen BRAO-
 - `datenschutzrecht/skills/avv-pruefung/SKILL.md` — AVV-Prüfung für den konkreten KI-Dienstleister
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — Vollständige TIA-Methodik bei US- oder Drittland-KI-Diensten
 - **ki-richtlinie-kanzleien** (geplant ab v3.3.0): Kanzleiweite KI-Nutzungsrichtlinien, Rollen und Freigabeprozesse für den Einsatz von KI-Werkzeugen in der Rechtsberatung. Querverweis sobald Plugin verfügbar.
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 

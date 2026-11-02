@@ -1,6 +1,6 @@
 ---
 name: arbeitsrecht-tatbestand-beweis-und-belege
-description: "Wenn es um Arbeitsrecht Tatbestand Beweis Und Belege in Fachanwalt Arbeitsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Arbeitsrecht Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # Tatbestand, Beweis und Belege im Arbeitsrechtsprozess: Darlegungs- und Beweislastverteilung nach Normen, abgestufte Darlegungslast BAG-Linie, Beweismittel im Arbeitsgerichtsverfahren, DSGVO-konforme Beweiserhebung Paragraf 26 BDSG.
@@ -20,8 +20,6 @@ description: "Wenn es um Arbeitsrecht Tatbestand Beweis Und Belege in Fachanwalt
 
 ## Fachlicher Kern — Arbeitsrecht
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Spezial: Tatbestand, Beweis und Belege im Arbeitsrecht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** BGB Paragrafen 611a, 613a, 615, 623; KSchG Paragrafen 1, 4, 7; TzBfG Paragrafen 14, 15, 16; AGG Paragrafen 1, 3, 7, 15, 22; EntgTranspG Paragrafen 3, 5, 7; BUrlG Paragrafen 1, 3, 7; BetrVG Paragrafen 87, 99, 102; ArbZG; NachwG; SGB IX Paragrafen 164, 167, 168.
-- **Verifizierte Anker:** BAG, Urteil vom 23.10.2025 - 8 AZR 300/24 (Entgeltgleichheit, Paarvergleich, Beweislast, bundesarbeitsgericht.de); BAG, Urteil vom 03.06.2025 - 9 AZR 104/24 (kein Verzicht auf gesetzlichen Mindesturlaub im bestehenden Arbeitsverhältnis); bei Kündigungszugang immer Paragraf 623 BGB, Zugang nach Paragraf 130 BGB, Dreiwochenfrist Paragrafen 4, 7 KSchG und Beweis des konkreten Umschlags trennen.
 - **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
 - **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -75,7 +73,7 @@ Das BAG hat für viele arbeitsrechtliche Konstellationen eine „abgestufte Darl
 
 | Streitpunkt | Beweislast |
 |---|---|
-| Indizien für Benachteiligung (Paragraf 22 AGG) | Arbeitnehmer (Glaubhaftmachung) |
+| Indizien für Benachteiligung ([Paragraf 22 AGG](https://www.gesetze-im-internet.de/agg/__22.html)) | Arbeitnehmer beweist die Indiztatsachen; bei daraus folgender Vermutung trägt die andere Partei die Beweislast für das Nichtvorliegen eines Verstoßes. Bloße Glaubhaftmachung genügt im Hauptsacheverfahren nicht. |
 | Rechtfertigung der Benachteiligung | Arbeitgeber (nach Indizienvortrag) |
 | Einhaltung der Ausschlussfrist Paragraf 15 Abs. 4 AGG | Arbeitnehmer |
 
@@ -136,3 +134,7 @@ Datenerhebung im Arbeitsverhältnis ist nur zulässig, wenn sie zur Durchführun
 ## Was dieser Arbeitsgang nicht macht
 - Keine individuelle Beweismittelerhebung; Entscheidung über Beweisangebote bleibt dem Anwalt.
 - Keine abschließende DSGVO-Compliance-Prüfung für komplexe Überwachungssysteme.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-arbeitsrecht-tatbestand-beweis-und-belege` beziehungsweise Arbeitsrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-arbeitsrecht-tatbestand-beweis-und-belege.md).

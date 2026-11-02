@@ -1,6 +1,6 @@
 ---
 name: quellen-livecheck
-description: "Wenn es um Rechtsquellen-Livecheck in Fachanwalt Arbeitsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten."
+description: "Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Arbeitsrecht."
 ---
 
 # Rechtsquellen-Livecheck
@@ -23,7 +23,7 @@ Dieser Quellen-Livecheck für **Fachanwalt Arbeitsrecht** trennt amtliche Normfa
 - `befristung-tzbfg` — Befristung Tzbfg BEM Verfahren Fazugang
 - `beteiligung-betriebsrat-102-betrvg` — Beteiligung Betriebsrat Erstgespraech
 - `betriebsrat-zahlen-schwellen-und-berechnung` — Betriebsrat BETRVG Datum
-- `betriebsratswahl-anfechtung-leiharbeit-bag-7-abr-4-21` — Betriebsratswahl Anfechtung Leiharbeit BAG 7 ABR 4 21
+- `betriebsratswahl-leiharbeit-wahlrecht-anfechtung` — Leiharbeitnehmer bei der Betriebsratswahl prüfen
 - `anschluss-routing` — Anschluss Routing
 - `dokumente-intake` — Dokumente Intake
 

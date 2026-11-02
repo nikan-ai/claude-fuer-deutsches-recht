@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-strafrecht-einlassung-vorbereiten
-description: "Wenn es um Einlassung vorbereiten in Fachanwalt Strafrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einlassung vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einlassung vorbereiten
@@ -16,7 +16,6 @@ description: "Wenn es um Einlassung vorbereiten in Fachanwalt Strafrecht geht: p
 
 ## Strategische Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Lüge ist nicht strafbar als solche aber kann beweisrechtlich gegen den Beschuldigten ausschlagen.
 - Schriftliche Einlassung über den Verteidiger ist regelmäßig sicherer — keine spontanen Aussagen unter Druck, präzise Formulierung, Dokumentation.
 - Mündliche Einlassung in der Hauptverhandlung kann strategischen Mehrwert haben (persönlicher Eindruck Glaubwürdigkeit).
@@ -26,7 +25,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Beweislast und Würdigung
 
 - In dubio pro reo: Bei nicht ausräumbaren Zweifeln Freispruch.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Einlassung kann der Verteidigung dienen wenn sie die Tatversion plausibel macht oder Beweise zugunsten des Beschuldigten einleitet.
 
 ## Strategie-Matrix
@@ -111,4 +109,4 @@ Mit kollegialen Gruessen
 
 ## Ergaenzende Rechtsprechung Einlassung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

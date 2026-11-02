@@ -1,6 +1,6 @@
 ---
 name: flughafen-zustaendigkeit-pruefen
-description: "Wenn es um Flughafen – Zuständigkeit prüfen in Luftrecht und Flughafenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Flughafen – Zuständigkeit prüfen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Flughafen – Zuständigkeit prüfen
@@ -94,7 +94,7 @@ Für Mandate im Bereich Flughafenbetrieb und Planfeststellung sind folgende Doku
 
 - Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
 - AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
-- Cape-Town-Registerauszug (ICAO International Registry)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
 - Gültige Betriebsgenehmigung und AOC-Kopie
 - Leasingvertrag oder Eigentumsnachweis
 - Aktuelle Behördenbescheide und Aufsichtskorrespondenz

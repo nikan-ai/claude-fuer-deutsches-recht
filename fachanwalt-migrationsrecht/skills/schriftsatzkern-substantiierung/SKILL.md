@@ -1,6 +1,6 @@
 ---
 name: schriftsatzkern-substantiierung
-description: "Wenn es um Substantiierter Schriftsatzkern für Klage VG (Asyl/AufenthG), Eilantrag Paragraf 80 Abs in Fachanwalt Migrationsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Substantiierter Schriftsatzkern für Klage VG (Asyl/AufenthG), Eilantrag Paragraf 80 Abs: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Substantiierter Schriftsatzkern für Klage VG (Asyl/AufenthG), Eilantrag § 80 Abs
@@ -210,7 +210,6 @@ Vor Versand:
 
 ### Leitsaetze zur Substantiierung im VG-Asyl/Ausländerrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Kette Schriftsatz Migrationsrecht
 
@@ -311,3 +310,4 @@ IV. BEWEISANGEBOTE
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

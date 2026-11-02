@@ -1,6 +1,6 @@
 ---
 name: handelsregisteranmeldung-integrations
-description: "Wenn es um Handelsregisteranmeldung – HRB / HRA / GnR / PartGR in Gesellschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Handelsregisteranmeldung – HRB / HRA / GnR / PartGR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck."
 ---
 
 # Handelsregisteranmeldung – HRB / HRA / GnR / PartGR
@@ -20,7 +20,6 @@ Vorbereitung und Prüfung von Handelsregisteranmeldungen (HRB, HRA, GnR, PartGR)
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Handelsregisteranmeldung – HRB / HRA / GnR / PartGR` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -81,17 +80,11 @@ Vor der Anmeldungsvorbereitung klären:
 
 ### Leitentscheidungen
 
-1. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
- Zum Eintragungserfordernis bei Prokura-Erteilung: Die Eintragung der Prokura
- hat keine konstitutive Wirkung; die Prokura entsteht durch Erteilung, nicht
- durch Eintragung. Aus Paragraf 15 Abs. 1 HGB folgt jedoch, dass der nicht eingetragene
- Widerruf der Prokura Dritten gegenüber unwirksam ist, wenn diese keine
- Kenntnis hatten.
+1. BGH, Beschluss vom 17.12.2013 - II ZB 6/13: Eine durch einen ausländischen Notar vorgenommene Beglaubigung kann für Paragraf 12 HGB genügen, wenn das ausländische Verfahren der deutschen öffentlichen Beglaubigung nach Funktion und Verfahrensgarantien gleichwertig ist; der ausländische Amtssitz allein rechtfertigt keine Zurückweisung.
+2. BGH, Beschluss vom 25.02.2026 - II ZB 13/24: Die österreichische Online-Beglaubigung nach dem dort geprüften Verfahren ist der deutschen Online-Beglaubigung materiell nicht gleichwertig. Bei grenzüberschreitenden Online-Verfahren deshalb Identitätsprüfung, unmittelbare Wahrnehmung, Signatur, Amtsbefugnis und Gleichwertigkeit einzeln dokumentieren.
+3. Die Eintragung einer Prokura ist deklaratorisch; für nicht eingetragene oder unrichtig bekannt gemachte Tatsachen sind die Publizitätswirkungen des Paragraf 15 HGB gesondert zu prüfen.
 
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
- Rn. 14 – Zur Zurückweisung einer Handelsregisteranmeldung wegen unzureichender
- Beglaubigung: Paragraf 12 HGB verlangt öffentliche Beglaubigung der Unterschrift;
- bloße notarielle Beglaubigung von Ablichtungen genügt nicht.
+Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden. Für II ZB 13/24 ist der amtliche Volltext in der Entscheidungsdatenbank des Bundesgerichtshofs verfügbar.
 
 ### Quellenregel
 
@@ -220,7 +213,7 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - **Formfehler Paragraf 12 HGB (fehlende Beglaubigung)** — Registergericht weist Anmeldung zurueck; erneute Vorlage mit Zeitverlust; Notar vor Einreichung prüfen lassen.
 - **Versicherungspflicht Paragraf 8 Abs. 3 GmbHG fehlt** — Anmeldung ohne GF-Versicherung wird abgelehnt; Versicherung vor Notartermin einholen.
 - **Paragraf 15 Abs. 1 HGB: Verzoegerung > 2 Wochen** — Ausscheidender GF haftet ggf. weiterhin gegenueber Dritten; neuer GF kann Vertretungsmacht nicht aus Register beweisen; Anmeldung unverzueglich einreichen.
-- **Satzungsaenderung ohne notarielle Beurkundung** — Paragraf 53 Abs. 2 GmbHG: Formnichtigkeit; Notar muss beurkunden (nicht nur beglaubigen).
+- **Satzungsänderung ohne notarielle Beurkundung** — Paragraf 53 Absatz 3 GmbHG: Der Beschluss muss notariell beurkundet werden; eine bloße Unterschriftsbeglaubigung genügt nicht.
 
 ## Beispiel
 

@@ -1,6 +1,6 @@
 ---
 name: case-management-grundbuchanalyse-immo
-description: "Wenn es um Case Management Immobilienrecht in Immobilienrechtspraxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Case Management Immobilienrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Case Management Immobilienrecht
@@ -110,7 +110,7 @@ verifizierbarer Fundstelle vorliegen. Bei Unsicherheit Markierung
 - Mietkautionsrückforderung — angemessene Prüfungsfrist nach
  Auszug
 - Anfechtung WEG-Beschluss § 45 WEG — ein Monat ab Beschlussfassung
-- Schriftform Gewerbemietvertrag § 550 BGB bei Nachtraegen
+- Textform langfristiger Gewerberaummiete nach Paragraf 578 Absatz 1 und 550 BGB einschließlich Nachträgen und Übergangsrecht
 - Verjährung Mietminderung § 548 BGB — sechs Monate nach
  Rückgabe der Mietsache
 - Auskunftsverlangen Mietpreisbremse § 556g Abs. 3 BGB
@@ -128,9 +128,7 @@ verifizierbarer Fundstelle vorliegen. Bei Unsicherheit Markierung
 
 ## Aktuelle Rechtsprechung — Leitsaetze für Case-Management
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 45 WEG: Anfechtungsklage muss innerhalb eines Monats ab Beschlussfassung erhoben und innerhalb zweier Monate ab Beschlussfassung begruendet werden; beide Fristen sind materiell-rechtliche Ausschlussfristen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Relevante Fristen im Immobilienrecht
 
@@ -142,6 +140,4 @@ verifizierbarer Fundstelle vorliegen. Bei Unsicherheit Markierung
 | Mietkaution-Abrechnung | § 551 Abs. 3 BGB | Ca. 6 Monate nach Auszug |
 | Verjährung Mietforderung | §§ 195, 199 BGB | 3 Jahre ab Jahresende |
 
-<!-- AUDIT 27.05.2026 — Bundle 033 —
- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

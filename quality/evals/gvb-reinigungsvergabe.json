@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "plugin": "gvb-reinigungsvergabe",
+  "reviewed_on": "2026-10-10",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/sektvo_2016/__51.html",
+      "checked_on": "2026-10-10",
+      "supports": "Aktuelle Angebotsprüfung und Grenzen der Nachforderung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__173.html",
+      "checked_on": "2026-10-10",
+      "supports": "Keine automatische aufschiebende Wirkung bei abgelehntem Nachprüfungsantrag; Altverfahren getrennt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__169.html",
+      "checked_on": "2026-10-10",
+      "supports": "Zuschlagssperre und Ende bei Obsiegen nach aktueller Fassung."
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE",
+      "checked_on": "2026-10-16",
+      "supports": "Rn. 39 bis 50: Hundertprozentige Tochter bleibt anderes Unternehmen im Sinne von Artikel 63 Richtlinie 2014/24/EU; kartellrechtlicher Begriff wirtschaftlicher Einheit nicht übertragbar. Rn. 52 bis 60: EEE ist nicht exklusives Nachweismittel; vorhandene Bescheinigungen auf tatsächliche Abdeckung der Eignung und Ausschlussgründe prüfen. Rn. 61 bis 65: Nachreichung kann nach nationalem Recht und unter Gleichbehandlung/Transparenz zulässig sein; Rn. 64 betrifft ursprünglich benannte Tochter und bestehende Tatsachen. Grenze: Keine allgemeine Nachforderungspflicht und kein bedingungsloser Ergänzungsanspruch; veröffentlichten Nachforderungsausschluss beachten. Keine neue Eignungsleihe als Formularberichtigung zulassen; gegebenenfalls Austauschregel gesondert prüfen. Rn. 59 zu personenidentischer Geschäftsführung deckt nicht alle Ausschlussgründe der Tochter. Urteil zur Richtlinie 2014/24/EU, kein unmittelbarer SektVO-Fall. Paragrafen 47/51 SektVO und Paragraf 142 GWB eigenständig prüfen. Verfügbarkeit der Mittel bleibt gesonderter Prüfungspunkt; Verpflichtungserklärung ist ein möglicher geeigneter Nachweis, nicht zwingend die einzig zulässige Form.",
+      "verification_status": "status: Amtliche deutsche Urteilsgründe und genannte Normen gezielt gelesen; read_scope: Relevanter Sachverhalt, Rn. 39 bis 66 und Tenor; keine vollständige Prüfung jeder Sachverhaltspassage behauptet; method: Webtool-Recherche und öffentlicher CURIA-Direktabruf bei technisch unlesbarem Webabruf. VgV 47 direkt abgerufen, übrige genannte Normen im Webtool gelesen.; verified_on: 2026-10-16"
+    }
+  ],
+  "selection": {
+    "target_skill": "a1-reinigungsauftrag-und-vergabeverfahren",
+    "positive": [
+      "Bereite die Reinigung unserer Berliner Verkehrsanlagen ab Januar vor. Bedarf und Kostenblatt liegen im Ordner.",
+      "Unsere U-Bahn-Reinigung wird neu vergeben. Kläre Lose, Wert und Vergabeweg."
+    ],
+    "negative": [
+      "Entwirf eine private Wohnungsmietvereinbarung.",
+      "Berechne einen Pflichtteilsanspruch."
+    ]
+  },
+  "cases": [
+    {
+      "id": "a1-fachschritt",
+      "target_skill": "a1-reinigungsauftrag-und-vergabeverfahren",
+      "request": "Die Betriebsleitung legt Bedarf und Kostenansatz der GVB vor. Ordne sämtliche Lose einschließlich Option und Abrufen zu; erstelle den Vergabevermerk und frage nur noch nach tatsächlich fehlenden Freigaben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet Rechtsträger und Reinigungszweck getrennt zu und erfasst Option sowie Sonderabrufe im Gesamtwert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erstellt einen Vergabevermerk und fragt nur fehlende Entscheidungen ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Keine Publikation oder Befugnis behaupten; weiter zum belegten LV-Auftrag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-fachschritt",
+      "target_skill": "a2-reinigungsleistung-und-mengen",
+      "request": "Eine Fassade umfasst 780 m² einschließlich 90 m² Ladenfront. Bereite die konkrete Aufmaßrückfrage und eine bepreisbare Position vor; Glaslos und Spiegel im Stationslos bleiben getrennt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt einseitiges Aufmaß, Ladenfront und beidseitige Bearbeitung; keine stillschweigende Nullmenge.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Liefert LV-Position und konkrete Rückfrage, keine bloße Fallzusammenfassung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die offene Messfrage blockiert nur die betroffenen Mengen; keine fertige Gesamtfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a3-fachschritt",
+      "target_skill": "a3-eignung-wertung-reinigungsvertrag",
+      "request": "Für Nachtfenster werden Vertretung und erreichbare Objektleitung verlangt. Entwickle überprüfbare Bewertungsstufen und dazu passende Vertragsklauseln, ohne dieselbe Unternehmensreferenz nochmals zu bepunkten.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt Eignung, Mindestanforderung und Wertung und veröffentlicht keine neuen geheimen Schwellen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Formuliert vollständige objektbezogene Vertragsklauseln mit Vergütungs- und Nachweisregel.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Keine pauschale doppelte Bepunktung von Referenzen; Vertragsalternativen zur Entscheidung vorlegen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a4-fachschritt",
+      "target_skill": "a4-unterlagen-und-preisblatt-abgleichen",
+      "request": "Im älteren LV stehen drei Stunden, die Leitstelle nennt 90 Minuten. Zeige beide Fundstellen, korrigiere die betroffenen Unterlagen im Entwurf und übergib die Veröffentlichung an B2 statt Dateien still zu ersetzen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Belegt den Zeitfensterwiderspruch und zieht alle betroffenen Fassungen nach.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ändert veröffentlichte Dokumente nicht heimlich und hält leere Preiszellen von Nullpreisen getrennt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Rechenprobe nur in Kopie, keine erfundenen Bieterpreise im veröffentlichten Leerpreisblatt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a5-fachschritt",
+      "target_skill": "a5-bekanntmachung-fristen-veroeffentlichen",
+      "request": "Ein interner Versandcode liegt vor, eine EU-Veröffentlichungsquittung fehlt. Erstelle die Bekanntmachungsdaten und fordere den fehlenden Nachweis an, ohne eine TED-Nummer zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet Versandcode, Veröffentlichungsquittung und tatsächliche Bereitstellung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behauptet weder erfundene TED-Kennung noch ohne Schema validiertes XML.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fristen mit Ereignis und Nachweis dokumentieren und ohne Freigabe nicht veröffentlichen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-fachschritt",
+      "target_skill": "b1-bewerbungen-angebote-nachfordern",
+      "request": "Der Antrag nennt 100000 EUR Schlüsselverlustdeckung, verlangt sind 250000 EUR zum Leistungsbeginn. Untersuche den geforderten Zusagezeitpunkt und entwirf die passende Nachforderung statt sofort auszuschließen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft den geforderten Versicherungszeitpunkt und den vorhandenen Beleg vor einer Entscheidung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Liefert konkrete zulässige Nachforderung mit Frist und verwechselt sie nicht mit Konzeptnachbesserung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Nach Eingang der Versichererzusage nur betroffene Prüfpunkte fortsetzen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-fachschritt",
+      "target_skill": "b2-bieterfragen-ruegen-berichtigen",
+      "request": "Ein Bieter fragt nach dem Widerspruch zwischen drei Stunden und 90 Minuten. Erstelle die konkrete Antwort, prüfe die Auswirkung auf Kalkulation und Termine und bereite die gleiche Information für alle vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Klärt den tatsächlichen Umfang des verkürzten Zugangs und dessen Kalkulationswirkung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erstellt Antwort und gegebenenfalls Berichtigung mit Fristprüfung statt Einzelzusage.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Schutzwürdige Einzelangaben bei allgemeiner Antwort entfernen, gleiche Bereitstellung dokumentieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-fachschritt",
+      "target_skill": "b3-angebote-verhandeln-werten-preispruefen",
+      "request": "Spreeklar erläutert 26400 produktive Stunden und den Grundpreis von 748000 EUR. Rechne die Kostenteile nach, frage entscheidende Lohnannahmen ab und bewerte ausschließlich die veröffentlichten Kriterien.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Rechnet 432960 plus 58000 plus 100000 plus 54000 plus 38000 plus 22000 plus 30000 plus 13040 zu 748000.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt Preisaufklärung von Angebotsänderung und setzt keine erfundenen Qualitätswerte.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Keine rückdatierten Bewertungsnotizen; fehlende Entscheidung bleibt offen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4-fachschritt",
+      "target_skill": "b4-vorabinformation-zuschlag-uebergabe",
+      "request": "Ein Zuschlag ist für den 6. Oktober geplant, am 1. Oktober geht eine Kammermitteilung ein. Trenne vorbereitete Übergabe, noch nicht erteilten Auftrag und wirksame Zuschlagssperre.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Behandelt Kammermitteilung unabhängig vom Ablauf der Wartefrist als Zuschlagshindernis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt unverbindliche Mobilisierung und freizugebenden Zuschlag; liefert Dokumententwürfe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Keine Schlüsselübergabe als erfolgten Auftrag ausgeben; tatsächliche Freigabe abwarten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5-fachschritt",
+      "target_skill": "b5-nachpruefung-berlin-fortsetzen",
+      "request": "Die Kammer fordert bis 6. Oktober die Akte. Erstelle die Erwiderung und eine konkrete Geheimnisbegründung; fehlende Bewertungsnotizen bleiben als Lücke erkennbar und werden nicht nachdatiert.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erstellt Erwiderung und konkrete Geheimnisbegründung, ohne ursprüngliche Bewertung zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft Rechtsstand und Fortsetzung nach tatsächlicher Kammerentscheidung, keine automatische alte Sperrfrist.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Bei Quellen- oder Dateihindernis begrenzt nachfragen, sicheren Entwurf liefern und nach Antwort fortsetzen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren.",
+    "changes": [
+      "Eigenständiger kompakter Vergabeablauf mit kontrollierter Rückfrage und Fortsetzung.",
+      "Einstiegsredaktion 16.10.2026: Reinigungsunterlagen und konkreter Verfahrensschritt vorangestellt; funktionalen Sektorenbezug mit begrenztem Pegaso-Rechercheanker erläutert.",
+      "Genau ein Dokumenttitel; Haupt- und Unterkapitel darunter mit sinnvoller dezimaler Gliederung.",
+      "Quellenvertiefung 16.10.2026: EuGH, Urteil vom 22.01.2026, C-812/24"
+    ],
+    "sha256": "533699fd375daaaed7196f48859165d70f02b4b303eb7db9adf6e33531ecfb09"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Gezielte Quellenvertiefung: Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren.",
+    "changes": [
+      "Jeder Schritt liefert bestimmte Dokumente; Rücksprünge erhalten Los und Fassung.",
+      "Einstiegsredaktion 16.10.2026: Reinigungsunterlagen und konkreter Verfahrensschritt vorangestellt; funktionalen Sektorenbezug mit begrenztem Pegaso-Rechercheanker erläutert.",
+      "Genau ein Dokumenttitel; Haupt- und Unterkapitel darunter mit sinnvoller dezimaler Gliederung.",
+      "Quellenvertiefung 16.10.2026: EuGH, Urteil vom 22.01.2026, C-812/24"
+    ],
+    "sha256": "6a9e1c02951648f82a5da5dc82c83c6c6202cb0f8a3208a30952967d979b1cc9"
+  },
+  "prompt_workflow_review": {
+    "date": "2026-10-10",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerer Start klärt Verfahrensstand und nächste Frist.",
+      "Unterlagenstart liest vorhandene Belege und beginnt beim beauftragten Dokument.",
+      "Kammermitteilung führt direkt zu B5 ohne neues Vollinterview."
+    ],
+    "continuation": "RUECKFRAGE wartet auf Antwort; danach nur abhängige Dokumente fortsetzen. Externe Freigabe bleibt gesondert.",
+    "enrichment": "Zehn individuelle Fachprüffälle zu Losen, Mengen, Vertrag, Portal, Nachforderung, Rüge, Preis, Sperre und Aktenvorlage.",
+    "limits": "Redaktionelle und technische Prüfung; keine beobachteten Modellläufe in fremden Oberflächen."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-10-10",
+    "method": "desk_review",
+    "files": [
+      "gvb-reinigungsvergabe/gvb-reinigungsvergabe-werkstatt.md",
+      "gvb-reinigungsvergabe/gvb-reinigungsvergabe-schnellstart.md",
+      "gvb-reinigungsvergabe/README.md",
+      "gvb-reinigungsvergabe/references/quellenstand.md",
+      "gvb-reinigungsvergabe/skills/b1-bewerbungen-angebote-nachfordern/SKILL.md"
+    ],
+    "opening_change": "Konkrete Unterlagen einer Berliner Reinigungsvergabe statt abstrakter Methodenbeschreibung.",
+    "norms": [
+      "Paragrafen 99 bis 102 GWB: Auftraggeber, Tätigkeit und Beschaffungszweck.",
+      "Paragraf 51 SektVO: Angebotsprüfung und Nachforderung.",
+      "Paragrafen 169, 173 und 187 GWB: Zuschlagssperre und Übergangsrecht."
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, 14.07.2016, C-6/15, TNS Dimarso",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62015CJ0006",
+        "application": "Bewertungsmethode darf Kriterien und Gewichte nicht ändern.",
+        "limit": "Andere Richtlinienfassung; keine ausnahmslose Veröffentlichung jeder internen Methode."
+      },
+      {
+        "citation": "EuGH, Urteil vom 22.01.2026, C-812/24",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE",
+        "application": "Rn. 39 bis 50: Hundertprozentige Tochter bleibt anderes Unternehmen im Sinne von Artikel 63 Richtlinie 2014/24/EU; kartellrechtlicher Begriff wirtschaftlicher Einheit nicht übertragbar. Rn. 52 bis 60: EEE ist nicht exklusives Nachweismittel; vorhandene Bescheinigungen auf tatsächliche Abdeckung der Eignung und Ausschlussgründe prüfen. Rn. 61 bis 65: Nachreichung kann nach nationalem Recht und unter Gleichbehandlung/Transparenz zulässig sein; Rn. 64 betrifft ursprünglich benannte Tochter und bestehende Tatsachen.",
+        "limit": "Keine allgemeine Nachforderungspflicht und kein bedingungsloser Ergänzungsanspruch; veröffentlichten Nachforderungsausschluss beachten. Keine neue Eignungsleihe als Formularberichtigung zulassen; gegebenenfalls Austauschregel gesondert prüfen. Rn. 59 zu personenidentischer Geschäftsführung deckt nicht alle Ausschlussgründe der Tochter. Urteil zur Richtlinie 2014/24/EU, kein unmittelbarer SektVO-Fall. Paragrafen 47/51 SektVO und Paragraf 142 GWB eigenständig prüfen. Verfügbarkeit der Mittel bleibt gesonderter Prüfungspunkt; Verpflichtungserklärung ist ein möglicher geeigneter Nachweis, nicht zwingend die einzig zulässige Form.",
+        "checked_on": "2026-10-16",
+        "verification_status": "status: Amtliche deutsche Urteilsgründe und genannte Normen gezielt gelesen; read_scope: Relevanter Sachverhalt, Rn. 39 bis 66 und Tenor; keine vollständige Prüfung jeder Sachverhaltspassage behauptet; method: Webtool-Recherche und öffentlicher CURIA-Direktabruf bei technisch unlesbarem Webabruf. VgV 47 direkt abgerufen, übrige genannte Normen im Webtool gelesen.; verified_on: 2026-10-16",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/eu-digital-vergabe.json",
+        "workflow_effect": "Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren."
+      }
+    ],
+    "remaining_limits": [
+      "Berliner Beschlüsse sind bei nicht erreichbarem Original offene Suchhinweise.",
+      "Konkrete Rechtslage und externe Modellleistung bleiben fallbezogen zu prüfen."
+    ]
+  },
+  "prompt_opening_review": {
+    "date": "2026-10-16",
+    "batch": 3,
+    "status": "changed",
+    "method": "individual_editorial_reading",
+    "scope": "Individuelle Lektüre und Redaktion der Einstiege samt Workflowanschluss; bestehender substantieller Hauptteil erhalten, nicht fachlich vollumfänglich neu geprüft. Redaktionelle Herkunftshinweise aus dem Anwender-Einstieg entfernt.",
+    "finding": "Reinigungsunterlagen und konkreter Verfahrensschritt vorangestellt; funktionalen Sektorenbezug mit begrenztem Pegaso-Rechercheanker erläutert. Werkstatt auf einen Dokumenttitel und nachgeordnete dezimale H2/H3-Gliederung korrigiert. Mini auf einen Dokumenttitel und nachgeordnete dezimale Gliederung korrigiert.",
+    "anchor_or_exception": "EuGH, Urteil vom 28.10.2020, C-521/18; Paragrafen 137, 142 GWB, Paragraf 1 SektVO",
+    "source_status": "Vorhandener Werkstatt-Rechercheanker gelesen; sources dokumentieren keine gesonderte Pegaso-Volltextprüfung. Originalprüfung vor konkreter Verwendung ausdrücklich erhalten.",
+    "live_model_test": false,
+    "full_legal_review": false,
+    "previous_prompt_reviews": {
+      "mini_review": {
+        "sha256": "c27c9b14e5eadac5e195719a35948cc5d57815801fcf052412f9029089bf98b3",
+        "verdict": "revised"
+      },
+      "workshop_review": {
+        "sha256": "132535f0f5bc75d4281ca2d6f7760f1c49e669d57aa77e70b169ae8083a20260",
+        "verdict": "revised"
+      }
+    },
+    "files": [
+      {
+        "path": "gvb-reinigungsvergabe/gvb-reinigungsvergabe-werkstatt.md",
+        "sha256": "f78cc5e08fbfa4c65485c1f556d81149b96918afd89770231482ea1aff5f5f06",
+        "characters": 32860,
+        "utf8_bytes": 33414
+      },
+      {
+        "path": "gvb-reinigungsvergabe/gvb-reinigungsvergabe-schnellstart.md",
+        "sha256": "87e680e41129d23a6dfbab1077cfd838ac8c903a8d3c0ef9276a7b6bec8ae58c",
+        "characters": 7369,
+        "utf8_bytes": 7484
+      }
+    ]
+  },
+  "source_followup_2026_10_16": {
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "reports": [
+      "quality/rechtsprechung-vertiefung-2026-10-16/eu-digital-vergabe.json"
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 22.01.2026, C-812/24",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=307909&doclang=DE",
+        "application": "Rn. 39 bis 50: Hundertprozentige Tochter bleibt anderes Unternehmen im Sinne von Artikel 63 Richtlinie 2014/24/EU; kartellrechtlicher Begriff wirtschaftlicher Einheit nicht übertragbar. Rn. 52 bis 60: EEE ist nicht exklusives Nachweismittel; vorhandene Bescheinigungen auf tatsächliche Abdeckung der Eignung und Ausschlussgründe prüfen. Rn. 61 bis 65: Nachreichung kann nach nationalem Recht und unter Gleichbehandlung/Transparenz zulässig sein; Rn. 64 betrifft ursprünglich benannte Tochter und bestehende Tatsachen.",
+        "limit": "Keine allgemeine Nachforderungspflicht und kein bedingungsloser Ergänzungsanspruch; veröffentlichten Nachforderungsausschluss beachten. Keine neue Eignungsleihe als Formularberichtigung zulassen; gegebenenfalls Austauschregel gesondert prüfen. Rn. 59 zu personenidentischer Geschäftsführung deckt nicht alle Ausschlussgründe der Tochter. Urteil zur Richtlinie 2014/24/EU, kein unmittelbarer SektVO-Fall. Paragrafen 47/51 SektVO und Paragraf 142 GWB eigenständig prüfen. Verfügbarkeit der Mittel bleibt gesonderter Prüfungspunkt; Verpflichtungserklärung ist ein möglicher geeigneter Nachweis, nicht zwingend die einzig zulässige Form.",
+        "checked_on": "2026-10-16",
+        "verification_status": "status: Amtliche deutsche Urteilsgründe und genannte Normen gezielt gelesen; read_scope: Relevanter Sachverhalt, Rn. 39 bis 66 und Tenor; keine vollständige Prüfung jeder Sachverhaltspassage behauptet; method: Webtool-Recherche und öffentlicher CURIA-Direktabruf bei technisch unlesbarem Webabruf. VgV 47 direkt abgerufen, übrige genannte Normen im Webtool gelesen.; verified_on: 2026-10-16",
+        "source_audit": "quality/rechtsprechung-vertiefung-2026-10-16/eu-digital-vergabe.json",
+        "workflow_effect": "Identität, vorhandene Sachnachweise, Mittelverfügbarkeit und verbleibende Formularlücke trennen. Bereits benannte Tochter mit vorhandenen Tatsachen anders behandeln als neue Konzernreferenz nach Fristablauf. Zulässige konkrete Nachforderung oder begründeten Ablehnungsentwurf erstellen; nach Antwort Eignungsvermerk aktualisieren."
+      }
+    ],
+    "files": [
+      {
+        "path": "gvb-reinigungsvergabe/README.md",
+        "sha256": "4f64b89ef5a3e7f8e74a8c71d6f2a8541110265f8f814e310443591ede00dcc8"
+      },
+      {
+        "path": "gvb-reinigungsvergabe/gvb-reinigungsvergabe-schnellstart.md",
+        "sha256": "533699fd375daaaed7196f48859165d70f02b4b303eb7db9adf6e33531ecfb09"
+      },
+      {
+        "path": "gvb-reinigungsvergabe/gvb-reinigungsvergabe-werkstatt.md",
+        "sha256": "6a9e1c02951648f82a5da5dc82c83c6c6202cb0f8a3208a30952967d979b1cc9"
+      },
+      {
+        "path": "gvb-reinigungsvergabe/references/quellenstand.md",
+        "sha256": "138188f6c40835e36cffb7a88d0fdde8762d769ef429dbaccb12ee20e4af108a"
+      },
+      {
+        "path": "gvb-reinigungsvergabe/skills/b1-bewerbungen-angebote-nachfordern/SKILL.md",
+        "sha256": "02e89a743845f672ed7eeee33b52508db30dd5a1a04e8249fb129743bc9c8e94"
+      }
+    ],
+    "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  }
+}

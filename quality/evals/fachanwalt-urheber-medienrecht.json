@@ -1,0 +1,275 @@
+{
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Nutzung, Rechtekette und beauftragter Text eröffnen den Prompt; Nachlizenzierung wird von einem marktüblichen vorherigen Lizenzpreis getrennt.",
+    "norms_or_source_basis": "Paragraf 31 und Paragraf 97 Absatz 2 UrhG",
+    "selected_anchor_identifiers": [
+      "I ZR 93/19"
+    ],
+    "application_limit": "Vorhandener amtlich indexierter Leitsatz, Volltext gesperrt; weder kategorischer Ausschluss aller späteren Vereinbarungen noch verbindlicher Tarif.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-urheber-medienrecht/fachanwalt-urheber-medienrecht-schnellstart.md",
+      "status": "changed",
+      "sha256": "e91636b252528ee2f000f291f072446ff0885f93a75f9d97487b0bfbb8100817",
+      "characters": 6686,
+      "utf8_bytes": 6796,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/fachanwalt-urheber-medienrecht/fachanwalt-urheber-medienrecht-werkstatt.md",
+      "status": "changed",
+      "sha256": "e86e9f85c8a0733bd45bb5d4b3ee53f3b596bc7a6c051c01fcfe58729cea09e0",
+      "characters": 19674,
+      "utf8_bytes": 19995,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "fachanwalt-urheber-medienrecht",
+  "reviewed_on": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zu räumlich, zeitlich und inhaltlich begrenzten Nutzungsrechten und Vertragszweck geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__13.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zum Recht auf Anerkennung und Bestimmung der Urheberbezeichnung geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__287.html",
+      "checked_on": "2026-09-14",
+      "supports": "Amtlichen Normauszug zur gerichtlichen Schadensschätzung unter Würdigung der Umstände geprüft."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__97.html",
+      "checked_on": "2026-09-14",
+      "supports": "Absatz 2: Verschulden und alternative Schadensberechnung nach angemessener Vergütung."
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2020&Gericht=bgh&Seite=63&anz=3286&nr=108768&pos=1900",
+      "checked_on": "2026-09-14",
+      "supports": "BGH, Urteil vom 18.06.2020, Az. I ZR 93/19: amtlich indexierter Leitsatz und Auszüge geprüft; Nachlizenzierungen enthalten regelmäßig Streitbeilegungsmehrwert. Direkter Volltextabruf war nicht erfolgreich; keine Volltext-Randnummern verwendet."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2019/I_ZR__93-19.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 18.06.2020, Az. I ZR 93/19, Nachlizenzierung, amtlicher Leitsatz. Anwendung: Nach Verletzung vereinbarte Zahlungen regelmäßig nicht ohne Bereinigung als Indikator für den Preis einer zuvor eingeräumten Lizenz verwenden. Grenze und Prüfzugang: Kein kategorisches Verbot sämtlicher nachträglicher Vereinbarungen und keine verbindliche Pauschaltariftabelle; Leitsatz amtlich indexiert, Volltext gesperrt."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__97.html",
+      "checked_on": "2026-09-22",
+      "supports": "Lizenzanalogie neben anderen Schadensberechnungsarten."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "checked_on": "2026-09-22",
+      "supports": "Nutzungsumfang und Zweckübertragung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "supports": "Erneuter Normabruf zu begrenzten Nutzungsrechten und Vertragszweck; Medien, Nutzer, Bearbeitung und Weitergabe konkret regeln.",
+      "checked_on": "2026-09-23"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2022/I_ZR__96-22A.pdf?__blob=publicationFile&v=4",
+      "checked_on": "2026-10-01",
+      "supports": "Kein eigenständiger urheberrechtlicher Gesamteindruckstest: geschützte kreative Elemente in der insgesamt betrachteten neuen Gestaltung identifizieren. Grenze: Zurückverweisung; kein endgültiger Schutzbefund für USMHaller, keine Aussage zu Lizenzhöhe oder Gewinnquote; Designprüfung bleibt eigenständig."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0580",
+      "checked_on": "2026-10-01",
+      "supports": "Originalität freier kreativer Entscheidungen von Design-Neuheit und Eigenart trennen; keine höhere Originalitätsschwelle für angewandte Kunst; wiedererkennbare kreative Elemente für Verletzung maßgeblich. Grenze: Nicht mit Schlussanträgen vom08.05.2025 verwechseln; keine Schadensberechnung, keine Aussage zu bloßen Lichtbildern nach Paragraf72UrhG."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Foto-Lizenzpreis-Hauptproblem/Fokusskill bleiben beim speziellen Nachlizenzierungsanker I ZR93/19: Produktgestaltung ist keine Tarifentscheidung; Paragraf72UrhG nicht mit Originalität verwechseln. Beide neue Anker in breiter Werkstatt/Mini und vorhandenem Lizenzverhandlungsskill. Einstiegsredaktion 16.10.2026, Batch 2: Nutzung, Rechtekette und beauftragter Text eröffnen den Prompt; Nachlizenzierung wird von einem marktüblichen vorherigen Lizenzpreis getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Nachlizenzierung in Werkstatt, Mini und Hauptproblem mit Reichweitengrenze eingebunden",
+      "Vergleichssumme, Tabellenwert und marktübliche freie Lizenz getrennt",
+      "Datenbankwerk von Herstellerrecht unterschieden; ungesicherte Fallliste entfernt",
+      "Fachliche Leer-/Datei-/Auftragsstarts und gezielte Fortsetzung ohne Materialdump oder künstliche Fragerunde ergänzt.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 02.07.2026 – I ZR 96/22, USM Haller II, Rn. 23–32 und 60–63. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "EU- und BGH-Maßstab zur Produktgestaltung vor Lizenzgestaltung aufgenommen; Schutzgegenstand von Nutzungsumfang und Preis getrennt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Nutzung, Rechtekette und beauftragter Text eröffnen den Prompt; Nachlizenzierung wird von einem marktüblichen vorherigen Lizenzpreis getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "e91636b252528ee2f000f291f072446ff0885f93a75f9d97487b0bfbb8100817",
+    "reviewed_on": "2026-10-01"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Ankerkontext am 01.10.2026 geprüft; neue Quellen gemäß individuellem Quellenstatus integriert. Bestehende fachliche Workflow-Schritte erhalten. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Foto-Lizenzpreis-Hauptproblem/Fokusskill bleiben beim speziellen Nachlizenzierungsanker I ZR93/19: Produktgestaltung ist keine Tarifentscheidung; Paragraf72UrhG nicht mit Originalität verwechseln. Beide neue Anker in breiter Werkstatt/Mini und vorhandenem Lizenzverhandlungsskill. Einstiegsredaktion 16.10.2026, Batch 2: Nutzung, Rechtekette und beauftragter Text eröffnen den Prompt; Nachlizenzierung wird von einem marktüblichen vorherigen Lizenzpreis getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests.",
+    "changes": [
+      "Nachlizenzierung in Werkstatt, Mini und Hauptproblem mit Reichweitengrenze eingebunden",
+      "Vergleichssumme, Tabellenwert und marktübliche freie Lizenz getrennt",
+      "Datenbankwerk von Herstellerrecht unterschieden; ungesicherte Fallliste entfernt",
+      "Bild-ID und tatsächlicher Nutzungszeitraum, Paketvergleich und zweckbestimmte Zahlung, vollständiger Äußerungskontext, Gegendarstellung gegenüber Unterlassung sowie Agenturnutzung und eigene Kampagne weiterer Unternehmen.",
+      "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 02.07.2026 – I ZR 96/22, USM Haller II, Rn. 23–32 und 60–63. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen.",
+      "EU- und BGH-Maßstab zur Produktgestaltung vor Lizenzgestaltung aufgenommen; Schutzgegenstand von Nutzungsumfang und Preis getrennt.",
+      "Einstiegsredaktion 16.10.2026, Batch 2: Nutzung, Rechtekette und beauftragter Text eröffnen den Prompt; Nachlizenzierung wird von einem marktüblichen vorherigen Lizenzpreis getrennt. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
+    ],
+    "sha256": "e86e9f85c8a0733bd45bb5d4b3ee53f3b596bc7a6c051c01fcfe58729cea09e0",
+    "reviewed_on": "2026-10-01"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-09-23",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem um konkrete Vergleichslizenzprüfung und Nachlizenzierungsgrenze überarbeitet; vollständig gelesener Fokus-Skill bleibt inhaltlich unverändert, da seine Berechnung damit vereinbar ist. Kein Live-Modelltest. Workflow-Ergänzung: Vergleichsbetrag enthält Anwaltskosten oder Vertrag erlaubt Social Media -> Vergleichspreis beziehungsweise ungedeckten Nutzungsumfang und Zahlungsbrief ändern. Zugeordneten Fokus-Skill auf Kohärenz gelesen und unverändert belassen. 01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Foto-Lizenzpreis-Hauptproblem/Fokusskill bleiben beim speziellen Nachlizenzierungsanker I ZR93/19: Produktgestaltung ist keine Tarifentscheidung; Paragraf72UrhG nicht mit Originalität verwechseln. Beide neue Anker in breiter Werkstatt/Mini und vorhandenem Lizenzverhandlungsskill.",
+    "changes": [
+      "Nachlizenzierung in Werkstatt, Mini und Hauptproblem mit Reichweitengrenze eingebunden",
+      "Vergleichssumme, Tabellenwert und marktübliche freie Lizenz getrennt",
+      "Datenbankwerk von Herstellerrecht unterschieden; ungesicherte Fallliste entfernt",
+      "Eigenständige Startmodi und konkrete Antwort-zu-Dokument-Fortsetzung im Fokusprompt ergänzt; kohärenten Fokus-Skill beibehalten."
+    ],
+    "prompt_path": "fachanwalt-urheber-medienrecht/fachanwalt-urheber-medienrecht-hauptproblem.md",
+    "prompt_sha256": "a0440f968aeeeff0771ff7f4484f9b6c32b8901311c68e3d4c779f774068b01a",
+    "skill_path": "fachanwalt-urheber-medienrecht/skills/fotolizenzen-nutzungsmatrix-schadensberechnung/SKILL.md",
+    "skill_sha256": "bd4c94bf5c7c1768abaa58e5d150ab1332a8d7f3516dfa408e7609cff382c8d9"
+  },
+  "selection": {
+    "positive": [
+      "Gleichen Sie unsere 30 Shopfotos mit den Printnutzungen und bezahlten Lizenzpaketen ab und berechnen Sie den ungedeckten Nutzungsumfang.",
+      "Die Bildagentur fordert anhand früherer Abmahnvergleiche 18000 EUR. Prüfen Sie die Vergleichslizenzen und beziffern Sie eine belegbare Gegenposition."
+    ],
+    "negative": [
+      "Entwerfen Sie einen Lizenzvertrag für künftige Podcastmusik mit Gebiet und Laufzeit.",
+      "Formulieren Sie eine Gegendarstellung zu einer unwahren Behauptung in einer Tageszeitung."
+    ],
+    "target_skill": "fotolizenzen-nutzungsmatrix-schadensberechnung"
+  },
+  "cases": [
+    {
+      "id": "drei-fotos-shoplizenz-social-nachvergleich",
+      "request": "Wir vertreten eine Fotografin. Ein Händler durfte die Fotos A und B aufgrund eines bezahlten Vertrags nur im eigenen Webshop 2025 verwenden. Er veröffentlichte A und B zusätzlich vom 01.01. bis 30.06.2025 als Werbeposts auf seinem Social-Media-Konto; er bestätigt die Dauer und dass er die Shopbegrenzung kannte. Für C behauptet unsere Mandantin ebenfalls Rechte; die Originaldatei stammt jedoch von einem freien Mitarbeiter und eine Rechteübertragung ist nicht vorgelegt. Auch C wurde im selben Zeitraum eingesetzt. Die Mandantin legt drei vor der Verletzung frei geschlossene und bezahlte Verträge mit anderen Händlern vor: jeweils 240 EUR pro Foto für sechs Monate Social-Media-Werbung gleicher Reichweite, nicht exklusiv, mit Urheberbenennung. Alle drei streitigen Posts nannten die Fotografin. Zwei weitere Verträge über je 900 EUR pro Foto wurden erst nach Abmahnung geschlossen und umfassen laut Text vergangene Nutzung, Kosten und Streitbeilegung ohne Aufteilung. Der Händler hat bereits 100 EUR ausdrücklich auf den Schadensersatz für A und B gezahlt. Umsatzsteuer und Abmahnkosten sollen nicht Gegenstand dieses Auftrags sein. Erstellen Sie ein internes Bezifferungsmemo mit Nutzungs- und Vergleichsmatrix und einem freizugebenden Zahlungsschreiben. Es wurden keine Erklärungen oder Abtretungen abgegeben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Für A und B wird aus den vergleichbaren freien Lizenzen ein Ansatz von zusammen 480 EUR und nach der zweckbestimmten Zahlung ein Rest von 380 EUR nachvollziehbar berechnet; die Shoplizenz wird nicht nochmals berechnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die 900-EUR-Nachvergleiche werden wegen der ungetrennten Zusatzleistungen nicht ohne Bereinigung als normale Lizenzpreise eingesetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "C wird wegen der fehlenden Rechteübertragung nicht als gesicherter Anspruch der Fotografin in die sichere Forderung aufgenommen; die konkrete Rechtekettenlücke wird bezeichnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Es wird kein Benennungszuschlag verlangt, weil die Benennung erfolgt ist; das Zahlungsschreiben bleibt ein Entwurf und behauptet keinen Versand.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "fotolizenzen-nutzungsmatrix-schadensberechnung"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-10-01",
+    "files": [
+      "fachanwalt-urheber-medienrecht/README.md",
+      "fachanwalt-urheber-medienrecht/fachanwalt-urheber-medienrecht-hauptproblem.md",
+      "fachanwalt-urheber-medienrecht/fachanwalt-urheber-medienrecht-schnellstart.md",
+      "fachanwalt-urheber-medienrecht/fachanwalt-urheber-medienrecht-werkstatt.md",
+      "fachanwalt-urheber-medienrecht/skills/fotolizenzen-nutzungsmatrix-schadensberechnung/SKILL.md",
+      "fachanwalt-urheber-medienrecht/skills/lizenzvertrag-verhandlung/SKILL.md",
+      "quality/evals/fachanwalt-urheber-medienrecht.json"
+    ],
+    "opening_change": "Konkrete Bildnutzung und Rechteumfang; beim Hauptproblem Nutzung, freie Vergleichslizenz und Schadensposition abgleichen. Workflow-Ergänzung: Leer: Fotoforderung, Lizenzgestaltung oder Äußerungsabwehr anbieten. Dateien ohne Aufgabe: Veröffentlichung, Lizenz und Preisbelege still lesen; konkretes Rechte-, Text- oder Zahlungsziel klären. Klarer Auftrag: Vermerk, Medienantwort oder Lizenzfassung unmittelbar erstellen; kein ungefragter Materialbericht.",
+    "norms": [
+      "Paragrafen 31 und 97 Absatz 2 UrhG",
+      "Paragrafen 4 Absatz 2 und 87a UrhG",
+      "Paragraf 287 ZPO"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 18.06.2020, Az. I ZR 93/19, Nachlizenzierung, amtlicher Leitsatz",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2019/I_ZR__93-19.pdf?__blob=publicationFile&v=1",
+        "application": "Nach Verletzung vereinbarte Zahlungen regelmäßig nicht ohne Bereinigung als Indikator für den Preis einer zuvor eingeräumten Lizenz verwenden.",
+        "limit": "Kein kategorisches Verbot sämtlicher nachträglicher Vereinbarungen und keine verbindliche Pauschaltariftabelle; Leitsatz amtlich indexiert, Volltext gesperrt."
+      },
+      {
+        "citation": "BGH, Urteil vom 02.07.2026 – Az. I ZR 96/22 – USM Haller II, Rn. 23–26, 60–63 frisch; Rn.27–32 im vorhandenen Fachaudit wiederverwendet",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2022/I_ZR__96-22A.pdf?__blob=publicationFile&v=4",
+        "application": "Kein eigenständiger urheberrechtlicher Gesamteindruckstest: geschützte kreative Elemente in der insgesamt betrachteten neuen Gestaltung identifizieren.",
+        "limit": "Zurückverweisung; kein endgültiger Schutzbefund für USMHaller, keine Aussage zu Lizenzhöhe oder Gewinnquote; Designprüfung bleibt eigenständig.",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "EuGH, Urteil vom 04.12.2025 – Az. C-580/23 und C-795/23 – Mio/konektra, Rn. 50–58, 83–87",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0580",
+        "application": "Originalität freier kreativer Entscheidungen von Design-Neuheit und Eigenart trennen; keine höhere Originalitätsschwelle für angewandte Kunst; wiedererkennbare kreative Elemente für Verletzung maßgeblich.",
+        "limit": "Nicht mit Schlussanträgen vom08.05.2025 verwechseln; keine Schadensberechnung, keine Aussage zu bloßen Lichtbildern nach Paragraf72UrhG.",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung, kein Live-Ergebnistest.",
+      "Amtlichen Nachlizenzierungs-Leitsatz verifiziert; keine vollständige neue Judikaturprüfung aller Medienrechtszweige.",
+      "Workflow-Review 23.09.2026: Paragraf 31 UrhG erneut eingesehen; Nachlizenzierung weiterhin nur auf amtlich verifizierten Leitsatz gestützt, kein erfolgreicher Volltextabruf behauptet.",
+      "01.10.2026: gezielter amtlicher Quellen- und Textabgleich der zwei Fachgebietsanker; kein neuer Live-Modelltest. Foto-Lizenzpreis-Hauptproblem/Fokusskill bleiben beim speziellen Nachlizenzierungsanker I ZR93/19: Produktgestaltung ist keine Tarifentscheidung; Paragraf72UrhG nicht mit Originalität verwechseln. Beide neue Anker in breiter Werkstatt/Mini und vorhandenem Lizenzverhandlungsskill."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leer: Fotoforderung, Lizenzgestaltung oder Äußerungsabwehr anbieten.",
+      "Dateien ohne Aufgabe: Veröffentlichung, Lizenz und Preisbelege still lesen; konkretes Rechte-, Text- oder Zahlungsziel klären.",
+      "Klarer Auftrag: Vermerk, Medienantwort oder Lizenzfassung unmittelbar erstellen; kein ungefragter Materialbericht."
+    ],
+    "continuation": "Vergleichsbetrag enthält Anwaltskosten oder Vertrag erlaubt Social Media -> Vergleichspreis beziehungsweise ungedeckten Nutzungsumfang und Zahlungsbrief ändern.",
+    "enrichment": "Bild-ID und tatsächlicher Nutzungszeitraum, Paketvergleich und zweckbestimmte Zahlung, vollständiger Äußerungskontext, Gegendarstellung gegenüber Unterlassung sowie Agenturnutzung und eigene Kampagne weiterer Unternehmen.",
+    "limits": "desk review; no live client execution"
+  },
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=108768&Blank=1.pdf",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2019/I_ZR__93-19.pdf?__blob=publicationFile&v=1",
+        "sha256": "c94413fccd9c110ad280db80c26460e1fc98f62afa65ceb2c16393bc58d3de0c"
+      }
+    ]
+  },
+  "source_audit_fachanwaltschaft_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "method": "targeted_primary_source_and_editorial_review",
+    "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-urheber-medienrecht.json",
+    "limits": "Zwei aktuelle oberstgerichtliche Entscheidungen fachlich geprüft; keine Vollprüfung sämtlicher Fachskills oder älterer Quellen und kein neuer Modelllauf.",
+    "focus_scope": "Foto-Lizenzpreis-Hauptproblem/Fokusskill bleiben beim speziellen Nachlizenzierungsanker I ZR93/19: Produktgestaltung ist keine Tarifentscheidung; Paragraf72UrhG nicht mit Originalität verwechseln. Beide neue Anker in breiter Werkstatt/Mini und vorhandenem Lizenzverhandlungsskill."
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "fachanwalt-urheber-medienrecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Trennen Sie technische Markierung, Offenlegung gegenüber dem Publikum und Rechte am verwendeten Inhalt. Eine Kennzeichnung heilt keine fehlende Nutzungsbefugnis.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  }
+}

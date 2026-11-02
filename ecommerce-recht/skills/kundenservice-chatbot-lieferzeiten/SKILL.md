@@ -1,6 +1,6 @@
 ---
 name: kundenservice-chatbot-lieferzeiten
-description: "Wenn es um Kundenservice Chatbot digitale Werkzeuge Act Transparenz in E-Commerce-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Kundenservice Chatbot digitale Werkzeuge Act Transparenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Kundenservice Chatbot AI Act Transparenz
@@ -51,3 +51,4 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Qualitätsgate
 Am Ende kurz prüfen: Sind Fristen, Zuständigkeit, Rechtsgrundlage, Beweislast, Zahlen, Form und gewünschter Output vollständig? Ist erkennbar, was sicher ist und was noch Sachverhaltsarbeit braucht?
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie konkrete Dialoge, Preispräsentation und Auswahl schutzbedürftiger Gruppen. Eine irreführende Verkaufsbotschaft ist nicht ohne Schadens- und Wirkungssubsumtion bereits eine verbotene KI-Praxis. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

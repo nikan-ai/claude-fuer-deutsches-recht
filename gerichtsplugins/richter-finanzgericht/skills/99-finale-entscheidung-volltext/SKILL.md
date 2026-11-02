@@ -1,6 +1,6 @@
 ---
 name: 99-finale-entscheidung-volltext
-description: "Wenn es um Finale Entscheidung als Volltext (Urteil Finanzgericht) in Finanzgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen."
+description: "Für Finale Entscheidung als Volltext (Urteil Finanzgericht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Finale Entscheidung als Volltext (Urteil Finanzgericht)
@@ -25,7 +25,7 @@ Vor der Volltext-Erstellung müssen die vorbereitenden Skills dieses Plugins dur
 - gewürdigte Beweise oder Akten;
 - Tenor-Skizze mit Entscheidungsformel zu Hauptsache, Kosten und vorläufiger Vollstreckbarkeit oder Rechtsmittelbelehrung.
 
-Fehlt eines dieser Stücke, weist der Skill darauf hin und unterbricht die Volltext-Erstellung, bevor er Phantasie produziert.
+Fehlt eine dieser Grundlagen, weist der Skill darauf hin und unterbricht die Volltext-Erstellung, statt unbelegte Entscheidungsinhalte zu ergänzen.
 
 ## Aufbau des Volltextes
 

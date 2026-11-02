@@ -1,6 +1,6 @@
 ---
 name: rechtsabteilung-data-act-und-cloud-switching-klauseln
-description: "Wenn es um Rechtsabteilung: Data Act und Cloud-Switching-Klauseln in Softwarerecht Deutschland/EU/International/USA geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Rechtsabteilung: Data Act und Cloud-Switching-Klauseln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Rechtsabteilung: Data Act und Cloud-Switching-Klauseln
@@ -46,3 +46,4 @@ Softwareverträge werden auf Datenzugang, Portabilität und Exit-Charges geprüf
 - Belegmatrix mit Originalquelle, Datum, Verantwortlichem und Lücke.
 - Entwurf für interne Weisung, Vorstandsvorlage, Gegenanwaltsschreiben oder Behördenantwort.
 - Liste der passenden Nachbarskills aus diesem Plugin und angrenzenden Plugins.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie Vertrag, Anleitung und tatsächlich ausgelieferten Funktionsumfang. Modellanpassung, Änderung der Zweckbestimmung und wesentliche Systemänderung sind verschiedene Fragen und benötigen jeweils technische Belege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

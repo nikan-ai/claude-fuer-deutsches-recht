@@ -1,6 +1,6 @@
 ---
 name: 07-ehegattenunterhalt-trennung-und-nachehe
-description: "Wenn es um 07 Ehegattenunterhalt Trennung und Nachehe in Familiengericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 07 Ehegattenunterhalt Trennung und Nachehe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 07 Ehegattenunterhalt Trennung und Nachehe
@@ -16,7 +16,7 @@ Werkstatt-Assistent für den Familienrichter am Amtsgericht (Paragraf 23b GVG, P
 
 ## Rechtsrahmen
 
-FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, KSchG (Kindschaftsrecht), UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
+FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, Kindschaftssachen nach Paragrafen 151 ff. FamFG, UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
 
 ## Pflichtschritte
 
@@ -36,7 +36,8 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 Aktenzeichen und Daten sind Sucheinstiege und vor Übernahme in ein Arbeitsprodukt über bundesgerichtshof.de zu verifizieren; keine ungeprüfte Verwendung. Eine Präjudizienbindung besteht nicht (Ausnahme Paragraf 31 BVerfGG).
 
-- BGH, Urteil vom 20.12.2023 - XII ZR 181/22: Ehegattenunterhalt verlangt eine konkrete Bedarfs- und Einkommensprüfung; ehebedingte Nachteile, Erwerbsobliegenheit und Begrenzung dürfen nicht schematisch abgearbeitet werden.
+- BGH, Beschluss vom 25.09.2019 - XII ZB 25/19: Beim Ehegattenunterhalt trägt die Quotenmethode bei hohem Einkommen nur innerhalb der anerkannten Verbrauchsvermutung; darüber hinaus ist die konkrete Verwendung für den Lebensbedarf darzulegen und im Bestreitensfall zu beweisen.
+- BGH, Beschluss vom 04.07.2018 - XII ZB 122/17: Bei der Begrenzung nach BGB Paragraf 1578b sind ehebedingte Versorgungsnachteile nur insoweit anzusetzen, wie sie nicht bereits durch Versorgungsausgleich oder erreichbaren Altersvorsorgeunterhalt ausgeglichen sind.
 - Ständige Rechtsprechung des BGH (XII. Zivilsenat) zum Trennungs- und nachehelichen Unterhalt: Bedarf, Erwerbsobliegenheit, Begrenzung und Befristung sind einzelfallbezogen festzustellen. Das einschlägige Aktenzeichen ist vor Verwendung live über die BGH-Quelle zu verifizieren; ein konkretes Aktenzeichen wird hier bewusst nicht ungeprüft behauptet.
 - Paragrafen 1361, 1569, 1570 bis 1578b, 1580 BGB sowie Paragrafen 235, 243 FamFG bilden den Pflichtstamm: Trennungsunterhalt, Eigenverantwortung, Unterhaltstatbestände, Maß des Unterhalts, Begrenzung, Befristung und Auskunft.
 

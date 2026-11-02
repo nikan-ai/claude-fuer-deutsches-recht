@@ -1,6 +1,6 @@
 ---
 name: rechtshilfe-international-ristbv-finden
-description: "Wenn es um Internationale Rechtshilfe in Staatsanwaltschaft Praxis-Einstieg geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Internationale Rechtshilfe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Staatsanwaltschaft Praxis-Einstieg. Route: rechtshilfe-international-ristbv-finden."
 ---
 
 # Internationale Rechtshilfe
@@ -32,13 +32,6 @@ description: "Wenn es um Internationale Rechtshilfe in Staatsanwaltschaft Praxis
 3. Bei Rechtshilfe oder Europäischem Haftbefehl Ausschreibung, Spezialität, Verhältnismäßigkeit und Übersetzungen kontrollieren.
 4. Vorführung, Fristen, Verteidigerbestellung und Haftprüfung in der Verfügung festhalten.
 5. Antrag mit konkreter Tatsachengrundlage, Beweismitteln und Vollzugshinweisen formulieren.
-
-## Normen & Rechtsprechung
-
-- BVerfG, Beschluss vom 20.02.2001 - 2 BvR 1444/00, BVerfGE 103, 142: Gefahr im Verzug bei Durchsuchungen ist eng zu verstehen und aktenkundig zu begründen.
-- BVerfG, Urteil vom 27.02.2008 - 1 BvR 370/07 und 1 BvR 595/07, BVerfGE 120, 274: Digitale Ermittlungsmaßnahmen brauchen eine tragfähige gesetzliche Grundlage, Richtervorbehalt und Kernbereichsschutz.
-- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigung und informelle Absprache dürfen die Wahrheitsfindung und Dokumentationspflicht nicht unterlaufen.
-- EuGH, Urteil vom 30.04.2024 - C-670/22, M.N.: EncroChat-Daten sind auf Rechtshilfeweg, Zuständigkeit, Verteidigungsrechte und Beweiszugang zu prüfen.
 
 ## Antrags- bzw. Verfügungs-Bausteine
 

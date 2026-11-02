@@ -1,6 +1,6 @@
 ---
 name: space-065-ki-an-bord-autonomie-und-ai-act-schnittstelle
-description: "Wenn es um Weltraumrecht: digitale Werkzeuge an Bord Autonomie und digitale Werkzeuge Act Schnittstelle in Weltraumrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Weltraumrecht: digitale Werkzeuge an Bord Autonomie und digitale Werkzeuge Act Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Weltraumrecht: KI an Bord Autonomie und AI Act Schnittstelle
@@ -45,3 +45,4 @@ Dieser Skill bearbeitet **KI an Bord Autonomie und AI Act Schnittstelle** im Ber
 - Vertragsredline
 - Behördenbrief
 - Board-Dashboard
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Ermitteln Sie den tatsächlichen räumlichen und sachlichen Anwendungsbereich, bevor Sie aus dem technischen Gefahrenniveau eine KI-VO-Kategorie ableiten. Produktpfad, ziviler Einsatz und Systemfunktion brauchen eigene Belege. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

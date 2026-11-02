@@ -1,6 +1,6 @@
 ---
 name: output-klageschrift-bereicherungsklage
-description: "Wenn es um Output: Klageschrift Bereicherungsklage in bereicherungs-und-anfechtungsrecht-prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Output: Klageschrift Bereicherungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Output: Klageschrift Bereicherungsklage
@@ -11,21 +11,11 @@ description: "Wenn es um Output: Klageschrift Bereicherungsklage in bereicherung
 2. Was konkret ist herauszugeben (Geld, Sache, Nutzung) — Naturalrestitution oder Wertersatz (§ 818 Abs. 2 BGB)?
 3. Greift Entreicherung (§ 818 Abs. 3 BGB), und ist der Beklagte bösgläubig (§ 819 BGB)?
 4. Greift § 814 BGB oder § 817 S. 2 BGB als Ausschlussgrund?
-5. Welches Gericht ist zuständig (Amtsgericht bis 5.000 EUR Streitwert, Landgericht ab 5.001 EUR)?
+5. Welches Gericht ist zuständig (Amtsgericht bis einschließlich 10.000 Euro Streitwert, Landgericht darüber; Sonderzuweisungen und Übergangsrecht prüfen)?
 
 ## Zentrale Normen
 
 § 812 Abs. 1 S. 1 BGB (Leistungs-/Nichtleistungskondiktion) — § 814 BGB (Ausschluss) — § 817 BGB (Gesetzes-/Sittenverstoß) — § 818 BGB (Umfang der Herausgabe) — § 819 BGB (verschärfte Haftung) — § 291 BGB (Prozesszinsen) — §§ 253, 256 ZPO (Klageerhebung) — §§ 23, 71 GVG (Zuständigkeit)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Hinweis
 
@@ -112,3 +102,5 @@ Soweit das Gericht von einer Rückabwicklung eines gegenseitigen Vertrags ausgeh
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

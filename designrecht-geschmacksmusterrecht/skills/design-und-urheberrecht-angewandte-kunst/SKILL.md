@@ -1,11 +1,13 @@
 ---
 name: design-und-urheberrecht-angewandte-kunst
-description: "Wenn es um Design Und Urheberrecht Angewandte Kunst in designrecht-geschmacksmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Design und Urheberrecht Angewandte Kunst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Design Und Urheberrecht Angewandte Kunst
 
 ## Arbeitsweg
+
+Bei einem zusätzlichen Urheberrechtsschutz für Produktgestaltung prüfe [BGH, Urteil vom 02.07.2026 – I ZR 96/22, USM Haller II, Rn. 23–32 und 60–63](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2022/I_ZR__96-22A.pdf?__blob=publicationFile&v=4): Originalität objektiv an den erkennbaren kreativen Gestaltungsentscheidungen des Werks beurteilen, ohne erhöhte Schwelle für angewandte Kunst oder entscheidendes Abstellen auf eine behauptete Schöpfungsabsicht. Neuheit und Eigenart des Designs ersetzen diese Prüfung nicht. Für die Verletzung benenne die geschützten kreativen Elemente und ihre Wiedererkennbarkeit in der neuen Gestaltung; ein eigener Vergleich bloßer Gesamteindrücke ist kein entscheidender Urheberrechtsmaßstab mehr. Die neue Gestaltung trotzdem insgesamt betrachten. Das Urteil verweist die urheberrechtlichen Ansprüche zurück und stellt den Schutz von USM Haller nicht endgültig fest.
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
 - Fristen und Eilrisiken zuerst markieren: DesignG § 6 Neuheitsschonfrist 12 Monate, GGV Art. 7 (2) ebenfalls 12 Monate, DesignG § 27 Schutzdauer 25 Jahre in 5-Jahres-Verlängerungen, § 41 GGV Priorität 6 Monate.

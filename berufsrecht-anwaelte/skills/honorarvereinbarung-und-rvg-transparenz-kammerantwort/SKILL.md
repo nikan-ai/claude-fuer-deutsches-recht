@@ -1,6 +1,6 @@
 ---
 name: honorarvereinbarung-und-rvg-transparenz-kammerantwort
-description: "Wenn es um Honorarvereinbarung Und Rvg Transparenz Kammerantwort in Berufsrecht Anwälte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen."
+description: "Für Honorarvereinbarung und RVG Transparenz Kammerantwort: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwälte: honorarvereinbarung und rvg transparenz - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
@@ -40,7 +40,7 @@ description: "Wenn es um Honorarvereinbarung Und Rvg Transparenz Kammerantwort i
 Konkret zu prüfen:
 
 - § 49b BRAO
-- § 4 RVG (Vergütungsvereinbarung)
+- Paragraf 3a RVG (Vergütungsvereinbarung)
 - § 14 RVG (Rahmengebühr)
 - BGH NJW 2017, 2336
 - § 73 BRAO (Aufgaben der Kammer)

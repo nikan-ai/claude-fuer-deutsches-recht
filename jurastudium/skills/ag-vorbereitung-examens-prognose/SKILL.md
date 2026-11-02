@@ -1,6 +1,6 @@
 ---
 name: ag-vorbereitung-examens-prognose
-description: "Wenn es um AG/Seminar-Vorbereitung (Cold-Call-Prep) in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für AG/Seminar-Vorbereitung (Cold-Call-Prep): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # AG/Seminar-Vorbereitung (Cold-Call-Prep)
@@ -18,9 +18,6 @@ description: "Wenn es um AG/Seminar-Vorbereitung (Cold-Call-Prep) in Jurastudium
 2. Welches Thema oder welcher Fall steht auf dem AG-Plan?
 3. Wie viel Zeit bis zur AG — und welche Vorbereitung ist bisher erfolgt?
 4. Gibt es spezifische Fragen oder Schwachpunkte, die besonders geuebt werden sollen?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 133, 157 BGB — Auslegung als AG-Dauerthema
@@ -88,7 +85,6 @@ In der AG wird das **mündliche Zitieren** erwartet – kein vollständiges Lite
 
 **Quellen in AGs:**
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 ## Beispiel
 
@@ -120,23 +116,4 @@ Nachbohren: "Und wenn A beweist, dass der Defekt durch unsachgemäße Behandlung
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - **Defensives Schweigen:** Lieber eine strukturierte Antwort auf falschem Fundament als gar keine Antwort – der AG-Leiter kann nur korrigieren, was er hört.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 242 StGB
-- § 35 VwVfG
-- § 15 StGB
-- § 1 StGB
-- § 70 VwGO
-- Art. 3 GG
-- § 32 StGB
-- § 16 StGB
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
-
-### Leitentscheidungen
-
-- BGH VI ZR 116/12
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

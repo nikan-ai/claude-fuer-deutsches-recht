@@ -1,13 +1,13 @@
 ---
 name: onboarding-festsetzungsverjaehrung
-description: "Wenn es um Festsetzungsverjaehrung — Paragrafen 169 bis 171 AO in der Praxis in Steuerrecht – Steuerberater und Anwälte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Festsetzungsverjährung — Paragrafen 169 bis 171 AO in der Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Festsetzungsverjaehrung — §§ 169 bis 171 AO in der Praxis
 
 ## Fachlicher Anker
 
-- **Normen:** §§ 169, § 6a, § 170 Abs. 2 AO.
+- **Normen:** §§ 169 bis 171 AO, insbesondere § 170 Abs. 2 AO und § 171 Abs. 4, 5 und 10 AO.
 - **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
 - **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
@@ -25,12 +25,11 @@ description: "Wenn es um Festsetzungsverjaehrung — Paragrafen 169 bis 171 AO i
 - **§ 169 AO** — Festsetzungsverjaehrung; Regelfrist vier Jahre.
 - **§ 169 Abs. 2 S. 2 AO** — Verlaengerung auf zehn Jahre bei Hinterziehung; fuenf Jahre bei leichtfertiger Verkuerzung.
 - **§ 170 AO** — Beginn der Festsetzungsfrist; Anlaufhemmung.
-- **§ 171 AO** — Ablaufhemmung; verbreitetste Vorschrift Abs. 4 (Aussenpruefung) Abs. 5 (Strafverfahren) Abs. 14 (Grundlagenbescheid).
+- **§ 171 AO** — Ablaufhemmung; insbesondere Abs. 4 (Außenprüfung), Abs. 5 (Ermittlungen oder bekannt gegebenes Straf-/Bußgeldverfahren) und Abs. 10 (Grundlagenbescheid). Abs. 14 betrifft dagegen zusammenhängende Erstattungsansprüche. [Amtlicher Normtext](https://www.gesetze-im-internet.de/ao_1977/__171.html), geprüft am 25.09.2026; zeitliche Anwendungsbestimmungen im EGAO beachten.
 - **§ 47 AO** — Erloeschen durch Festsetzungsverjaehrung.
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesfinanzhof.de, bundesverfassungsgericht.de, dejure.org, openjur.de, gesetze-im-internet.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
 
 ## Zentrale Normen
@@ -42,3 +41,5 @@ description: "Wenn es um Festsetzungsverjaehrung — Paragrafen 169 bis 171 AO i
 - Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
 - Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
 - Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

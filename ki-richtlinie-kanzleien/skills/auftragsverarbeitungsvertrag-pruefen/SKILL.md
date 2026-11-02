@@ -1,6 +1,6 @@
 ---
 name: auftragsverarbeitungsvertrag-pruefen
-description: "Wenn es um Auftragsverarbeitungsvertrag prüfen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für Auftragsverarbeitungsvertrag prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Auftragsverarbeitungsvertrag prüfen
@@ -48,9 +48,6 @@ Art. 28 Abs. 1 DSGVO: Beauftragung nur von Auftragsverarbeitern mit hinreichende
 ## Hinweise zur Aktualisierung
 
 Die Anforderungen an AVV können sich durch Entscheidungen der Datenschutzbehörden oder neue EuGH-Rechtsprechung ändern. Ebenso müssen AVV bei wesentlichen Änderungen der Datenverarbeitungstätigkeit aktualisiert werden. Bei Änderungen der Unterauftragsverarbeiter des KI-Anbieters ist zu prüfen, ob eine erneute Risikobeurteilung erforderlich ist.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - Art. 28 DSGVO — Auftragsverarbeitung (Pflichtinhalt AVV)
@@ -100,23 +97,10 @@ Geprueft von: [NAME]
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- Art. 28 DSGVO
-- § 203 StGB
-- Art. 22 DSGVO
-- Art. 9 DSGVO
-- Art. 6 DSGVO
-- § 2 UrhG
-- Art. 30 DSGVO
-- Art. 46 DSGVO
-- Art. 13 DSGVO
-- § 44b UrhG
-- Art. 35 DSGVO
-- § 5 UrhG
+Die Richtlinie muss Berufsrecht, Verschwiegenheit, Datenschutz, Arbeitsrecht und technische Organisation getrennt abbilden. Paragraf 43a Absatz 2 und Paragraf 43e BRAO, Paragraf 203 StGB sowie Artikel 5, 28 und 32 DSGVO nur für den jeweils geregelten Vorgang verwenden. Rechtsprechung nur mit einer konkret passenden tragenden Aussage aufnehmen.
 
-### Leitentscheidungen
-
-- BGH VI ZR 273/16
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.

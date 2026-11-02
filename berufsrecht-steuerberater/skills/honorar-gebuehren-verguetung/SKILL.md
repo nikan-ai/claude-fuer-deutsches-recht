@@ -1,6 +1,6 @@
 ---
 name: honorar-gebuehren-verguetung
-description: "Wenn es um Honorar, Gebühren und Vergütung in Berufsrecht Steuerberater geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Honorar, Gebühren und Vergütung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen. Fachgebiet: Berufsrecht Steuerberater."
 ---
 
 # Honorar, Gebühren und Vergütung
@@ -14,7 +14,7 @@ Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen
 - `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
 - `§ 57a StBerG` — Werbung.
 - `§ 64 StBerG` — Gebühren.
-- `§ 67 StBerG` — Handakten.
+- `§ 66 StBerG` — Handakten.
 - `§ 80 AO` — Bevollmaechtigte und Beistand.
 - `§ 153 AO` — Berichtigungspflicht.
 - `§ 370 AO` — Steuerhinterziehung als Risikogrenze.

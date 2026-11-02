@@ -1,6 +1,6 @@
 ---
 name: amts-aktenintake-zivil-anspruchsgrundlagen
-description: "Wenn es um Amts: Fristen, Form, Zuständigkeit und Rechtsweg in Urteilsbauer und Relationsmacher geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Amts Aktenintake Zivil Anspruchsgrundlagen; Arbeitsfeld: Urteilsbauer und Relationsmacher."
+description: "Für Amts: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Akte, Belege und Lücken; Ergebnis: Tatbestands- oder Anspruchsmatrix."
 ---
 
 # Amts: Fristen, Form, Zuständigkeit und Rechtsweg
@@ -17,8 +17,6 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Normenanker
 
@@ -62,27 +60,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
-## Normen und Rechtsprechung
 
-### Kuratierte Normen-Bibliothek
+## Quellenkontrolle
 
-- § 38 FamFG
-- § 13 GVG
-- § 137 FamFG
-- Art. 3 DSGVO
-- Art. 9 DSGVO
-- Art. 6 DSGVO
-- § 70 VwGO
-- § 123 VwGO
-- § 71 GVG
-- § 63 GKG
-- Art. 103 GG
-- § 111 FamFG
-
-### Leitentscheidungen
-
-- BGH VI ZR 96/11
-- BGH VI ZR 113/17
-- BGH VII ZR 213/10
-- BGH VI ZR 39/20
-- BGH VI ZR 40/20
+Für die Relation gelten keine universellen materiell-rechtlichen Leitentscheidungen. Zuerst Anspruchsgrundlage und Einwendungen des konkreten Streitstoffs bestimmen; pro Rechtssatz nur eine Entscheidung mit Gericht, Datum, Aktenzeichen, tragender Aussage und Quelle verwenden. Verfahrensrechtlich insbesondere Paragraf 138, Paragraf 139, Paragraf 253 Absatz 2 Nummer 2, Paragraf 286, Paragraf 296 und Paragraf 308 ZPO fallbezogen prüfen.

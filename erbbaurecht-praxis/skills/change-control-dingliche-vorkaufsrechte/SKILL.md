@@ -1,6 +1,6 @@
 ---
 name: change-control-dingliche-vorkaufsrechte
-description: "Wenn es um Change of Control beim Erbbauberechtigten in Erbbaurecht Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Change of Control beim Erbbauberechtigten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Change of Control beim Erbbauberechtigten
@@ -53,20 +53,3 @@ Gerade Share Deals werden schnell als „nicht Grundstück“ missverstanden; de
 - offene entscheidende Fragen
 - konkreter Entwurf oder Checkliste
 - Risiko, das in der Praxis leicht übersehen wird
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 1 ErbbauRG
-- § 2 ErbbauRG
-- § 5 ErbbauRG
-- § 9a ErbbauRG
-- § 10 ErbbauRG
-- § 11 ErbbauRG
-- § 12 ErbbauRG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

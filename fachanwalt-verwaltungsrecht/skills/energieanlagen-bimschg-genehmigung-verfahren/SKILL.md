@@ -1,6 +1,6 @@
 ---
 name: energieanlagen-bimschg-genehmigung-verfahren
-description: "Wenn es um Energieanlagen Bimschg Genehmigung Verfahren in Fachanwalt Verwaltungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Energieanlagen Bimschg Genehmigung Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # BImSchG-Genehmigung für Energieanlagen (Wind, Biogas, Biomasse, Wasserstoff-Elektrolyseur) begleiten: Vorhabentraeger beantragt Genehmigung oder Drittbetroffener klagt dagegen
@@ -54,9 +54,7 @@ Energieanlagen (Wind, Biogas, Wasserstoff, größere Solarthermie, KWK, Geotherm
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema BImSchG-Genehmigungsverfahren
 
@@ -106,12 +104,10 @@ Energieanlagen (Wind, Biogas, Wasserstoff, größere Solarthermie, KWK, Geotherm
 
 | Gegenargument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "TA-Lärm-Werte eingehalten" | Vorbelastungs-Korrektur prüfen: wurden alle vorhandenen Windkraftanlagen in der Umgebung als Vorbelastung berücksichtigt? Kumulationseffekte? |
 | "Klimaschutz rechtfertigt sofortige Vollziehung" | § 80 Abs. 3 VwGO: Begründung muss auf Einzelfall eingehen; abstrakter Klimaschutzverweis reicht nicht (OVG-Ständige Rspr.) |
 | "Einwendungen präkludiert" | Präklusion greift nicht gegenüber UmwRG-Verbänden bei UVP-pflichtigen Vorhaben; UVP-Defizite jederzeit rügefähig |
 | "Drittbetroffener nicht klagebefugt" | § 5 Abs. 1 Nr. 1 BImSchG ist drittschützend; Nachbar im Einwirkungsbereich hat subjektives Recht; Möglichkeitstheorie großzügig |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Einwendungen nicht substantiiert" | Im BImSchG-Verfahren genügt allgemeine Darlegung der Betroffenheit; detaillierte Rüge erst in Klage erforderlich |
 
 ## Strategische Optionen (vor dem Template entscheiden)
@@ -294,8 +290,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Vorhabenträger | Klage Drittbetroffener | Sachverständige beiziehen; § 80 Abs. 3-Begründung präzise ausarbeiten; frühe Verhandlung anbieten |
 | Drittbetroffener | Bescheid ergangen | Eigenes Schallgutachten in Auftrag geben; Einwendungs-Präklusion prüfen; Klagefrist sichern |
 | Drittbetroffener | Sofortvollzug angeordnet | Eilantrag § 80 Abs. 5 VwGO; § 80 Abs. 3-Begründungsmangel angreifen; Hauptsache parallel einreichen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
@@ -303,10 +297,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `eilantrag-80-abs-5-vwgo` — Vertiefung Eilantragsstrategie und Schriftsatz
 - `fachanwalt-verwaltungsrecht-einstweiliger-rechtsschutz` — Grundlagen einstweiliger Rechtsschutz
 - `fachanwalt-verwaltungsrecht-widerspruchsschrift` — Widerspruch gegen Genehmigungsbescheid
-
-## Aktuelle Leitentscheidungen (v14.2 Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellen
 
@@ -319,9 +309,7 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - VwGO §§ 42, 74, 80, 113
 - UmwRG § 2
 - EU-RED III (Beschleunigungsgebiete)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
-<!-- AUDIT 27.05.2026 — Bundle 027 Halluzinations-Reparatur
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

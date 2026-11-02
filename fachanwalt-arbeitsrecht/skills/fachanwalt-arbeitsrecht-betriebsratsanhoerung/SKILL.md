@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-arbeitsrecht-betriebsratsanhoerung
-description: "Wenn es um Anhörung des Betriebsrats (Paragraf 102 BetrVG) in Fachanwalt Arbeitsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anhörung des Betriebsrats (Paragraf 102 BetrVG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anhörung des Betriebsrats (Paragraf 102 BetrVG)
@@ -56,7 +56,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | 1 | Betriebsrat existiert im Betrieb? | Paragraf 1 BetrVG | Keine Anhörungspflicht |
 | 2 | Anhörung schriftlich oder in Textform? | Paragraf 21a Abs. 2 BetrVG | Formmangel; heilbar? |
 | 3 | Zugang beim Vorsitzenden nachweisbar? | Paragraf 26 Abs. 2 BetrVG | Frist-Beginn unklar |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Stellungnahme abgewartet oder Frist abgelaufen? | Paragraf 102 Abs. 2 BetrVG | Kündigung vor Fristablauf = unwirksam |
 | 10 | Bei Widerspruch: Paragraf 102 Abs. 5-Anspruch beachtet? | Paragraf 102 Abs. 5 BetrVG | Weiterbeschäftigung möglicherweise einklagbar |
 
@@ -166,11 +165,9 @@ Paragraf 102 Abs. 2 BetrVG (Frist endet am [Datum]).
 - Voraussetzungen: wirksamer Widerspruch des BR nach Paragraf 102 Abs. 3 + Kündigungsschutzklage des Arbeitnehmers
 - Arbeitgeber muss Arbeitnehmer bis zur Klärung des Kündigungsstreits weiterbeschäftigen
 - AG kann Befreiung beantragen, wenn Kündigung offensichtlich wirksam, Weiterbeschäftigung unverhältnismäßig belastend
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Arbeitnehmer** bei Anhörungsrüge: muss konkreten Mangel darlegen (z.B. fehlende Sozialauswahl, nicht genannte Abmahnung).
 - Einwand "subjektiv vollständig": Arbeitgeber kann geltend machen, er habe gutgläubig alle ihm bekannten Gründe mitgeteilt.
 
@@ -194,8 +191,4 @@ Paragraf 102 Abs. 2 BetrVG (Frist endet am [Datum]).
 
 - BetrVG Paragrafen 1, 26, 79, 102
 - KSchG Paragrafen 1, 4
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Fitting BetrVG-Kommentar Paragraf 102; DKKW BetrVG Paragraf 102
-
-<!-- AUDIT 27.05.2026
--->

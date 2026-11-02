@@ -1,6 +1,6 @@
 ---
 name: quellen-livecheck
-description: "Wenn es um Rechtsquellen-Livecheck in Kartellrecht — Marktabgrenzungsprüfung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kartellrecht — Marktabgrenzungsprüfung."
 ---
 
 # Rechtsquellen-Livecheck
@@ -21,7 +21,7 @@ Dieser Quellen-Livecheck für **Kartellrecht Marktabgrenzung Prüfung** trennt a
 - `alternative-marktdefinition-weit` — Alternative Marktdefinition Weit
 - `angebotsumstellung-evidenz-flags-red-team-korrektur` — Angebotsumstellung Evidenz Flags RED Team Korrektur
 - `anmeldepflicht-joint-venture` — Anmeldepflicht Joint Venture
-- `einstieg-schnelltriage-fallrouting` — Anschluss
+- `einstieg-routing` — 1. Kartellrechtlichen Prüfauftrag bearbeiten
 - `art-101-aeuv-kooperationspruefung-einstieg` — ART 101 Aeuv Kooperationspruefung Einstieg
 - `art-101-aeuv-tatbestand-vereinbarung-beschluss-abgestimmte-verha` — ART 101 Aeuv Tatbestand Vereinbarung Beschluss Abgestimmte Verha
 - `dokumente-intake` — Dokumente Intake

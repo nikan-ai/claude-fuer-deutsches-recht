@@ -1,6 +1,6 @@
 ---
 name: karteikarten-lernplan-lernsitzung
-description: "Wenn es um Karteikarten-Drill in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Karteikarten-Drill: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Karteikarten-Drill
@@ -31,7 +31,6 @@ Karteikarten aus bereitgestellten Materialien sind vorrangig. Definitionen oder 
 
 **Leitentscheidungen (Beispiele für Kartenkontexte):**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Quellenregel:**
 
@@ -130,3 +129,5 @@ Jede Karte, die aus eigenen Unterlagen generiert wurde, trägt die Quellangabe d
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Diese Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: haftungswarn-15a-inso-mandant
-description: "Wenn es um Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht) in Steuerrecht – Steuerberater und Anwälte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. Auswahlstichwort: Haftungswarn 15a Inso Mandant; Arbeitsfeld: Steuerrecht – Steuerberater und Anwälte."
+description: "Für Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: haftungswarn-15a-inso-mandant."
 ---
 
 # Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht)
@@ -16,7 +16,7 @@ description: "Wenn es um Haftungswarn an GmbH-Geschäftsführung bei Insolvenzre
 - Mandant (GmbH/UG, vollständige Firma, HRB, Stammkapital, GF mit Vertretungsbefugnis)
 - Anlass (Steuerberater-Hinweis, eigener Anstoß, Gesellschafterbeschluss)
 - Datenlage: Bilanz, BWA, Liquidität — vom Steuerberater oder GF übergeben
-- Bisherige interne Krisenmaßnahmen (§ 102 StaRUG-Dokumentation)
+- Bisherige interne Krisenmaßnahmen nach Paragraf 1 StaRUG sowie gegebenenfalls ein tatbestandsgebundener Beraterhinweis nach Paragraf 102 StaRUG
 - Rangrücktritte, Patronate, Bürgschaften bekannt?
 - Mandatsumfang: nur Beratung Antragspflicht oder Vollmandat Sanierung/Antrag?
 - Vergütungsvereinbarung (Stundenhonorar, Pauschale, RVG nach Wert)
@@ -28,16 +28,11 @@ description: "Wenn es um Haftungswarn an GmbH-Geschäftsführung bei Insolvenzre
 - **§ 15a Abs. 1 Satz 1 InsO** — Insolvenzantragspflicht. Zahlungsunfähigkeit (§ 17 InsO) → drei Wochen. Überschuldung (§ 19 InsO) → sechs Wochen.
 - **§ 15a Abs. 4 InsO** — Strafbarkeit Insolvenzverschleppung (Freiheitsstrafe bis 3 Jahre / Geldstrafe; bei Fahrlässigkeit bis 1 Jahr).
 - **§ 15b InsO** — Zahlungsverbote nach Insolvenzreife. Geschäftsführerhaftung gegen die Gesellschaft (löste § 64 GmbHG a.F. ab; SanInsFoG, 1.1.2021).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 19 InsO** — Überschuldung (zweistufig: rechnerisch und Fortbestehensprognose; vgl. `stb-ueberschuldungspruefung-19-inso`).
 - **§ 18 InsO** — Drohende Zahlungsunfähigkeit (24-Monats-Horizont; Antragsrecht, keine Pflicht — Zugangstor StaRUG).
-- **§ 102 StaRUG** — Krisenfrüherkennungspflicht GF; ergänzt § 91 Abs. 2 AktG analog auf alle haftungsbeschränkten Gesellschaften.
+- Paragraf 1 StaRUG: fortlaufende Überwachungs-, Gegenmaßnahmen- und Berichtspflicht der Geschäftsleiter haftungsbeschränkter Rechtsträger. Paragraf 102 StaRUG betrifft demgegenüber nur den Hinweis bestimmter Berufsträger bei der Jahresabschlusserstellung unter seinen weiteren Voraussetzungen.
 - **§ 64 StBerG / § 43a Abs. 5 BRAO** — bei Honorarrückständen Berücksichtigung; keine Beratung ohne Vergütungsvereinbarung in Hochrisikofällen.
 - **§ 826 BGB / § 823 Abs. 2 BGB i.V.m. § 15a InsO** — Außenhaftung GF gegenüber Neugläubigern bei Insolvenzverschleppung.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -115,7 +110,6 @@ sechs Wochen ab Eintritt der Ueberschuldung].
  gemaess § 15b InsO (verbotene Zahlungen nach Insolvenzreife).
 3. Persoenliche Haftung gegenueber Neuglaeubigern aus § 823 Abs. 2
  BGB i.V.m. § 15a InsO bzw. § 826 BGB (Quotenschaden Altglaeubiger,
- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Empfehlung:**
 
@@ -159,9 +153,6 @@ Rechtsanwalt/-anwaeltin
 
 ## Quellen und Updates
 
-Stand: 05/2026. SanInsFoG (§ 15b InsO statt § 64 GmbHG a.F., 1.1.2021), SanInsKG (24-Monats-Prognose § 19 InsO bis 31.12.2026) berücksichtigt. § 11 BORA-Schriftformpflicht zentral. Bei Änderung InsO/BORA aktualisieren.
+Rechtsstand vor Versand prüfen. Paragraf 15b InsO ersetzt die früheren rechtsformspezifischen Zahlungsverbote. Für Paragraf 19 Absatz 2 InsO gilt seit 01.01.2024 wieder der regelmäßige Zwölfmonatszeitraum; die SanInsKG-Sonderregelung ist ausgelaufen.
 
-<!-- AUDIT 27.05.2026 bundle_043
-Maßnahme: Beschreibung des AZ korrigiert auf tatsächliches Thema: § 64 GmbHG a.F. — Zahlungsverbot nach Insolvenzreife; Aktiventausch und Rückgewähranspruch des GF. Das AZ ist damit thematisch passend für diesen Insolvenzreife-Skill und bleibt erhalten.
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=04.07.2017&Aktenzeichen=II+ZR+319%2F15
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

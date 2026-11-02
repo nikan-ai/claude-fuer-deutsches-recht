@@ -1,6 +1,6 @@
 ---
 name: rechte-an-rechteclearing-ki-sync
-description: "Wenn es um Prompts, Promptbooks und Workflows in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Prompts, Promptbooks und Workflows: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Prompts, Promptbooks und Workflows
@@ -20,7 +20,7 @@ description: "Wenn es um Prompts, Promptbooks und Workflows in Urheberrecht DE E
 
 ## Wofür dieser Arbeitsgang da ist
 
-Prompts, Promptbooks und Workflows schärft die Urheberrechtsprüfung auf den konkreten Teilbereich und bleibt beweisnah, quellensauber und outputorientiert. Der Arbeitsgang baut die Prüfung aus Gegenstand, menschlichem Beitrag, Rechtekette, Nutzungshandlung, Schranke, Beweis und gewünschtem Output auf.
+Prüfe Schutz und Nutzung der vorgelegten Prompts, Promptsammlungen oder Arbeitsabläufe. Berücksichtige Gegenstand, menschlichen Beitrag, Rechtekette, Nutzungshandlung, Schranke und Beweise und arbeite die verlangte Abgrenzung zu Vertrags- und Geheimnisschutz aus.
 
 ## Sofortstart
 

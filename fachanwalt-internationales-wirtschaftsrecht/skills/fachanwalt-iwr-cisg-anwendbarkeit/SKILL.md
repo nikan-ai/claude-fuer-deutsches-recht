@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-iwr-cisg-anwendbarkeit
-description: "Wenn es um CISG-Anwendbarkeit in Fachanwalt Internationales Wirtschaftsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für CISG-Anwendbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # CISG-Anwendbarkeit
@@ -41,7 +41,6 @@ Prüfung, ob das UN-Kaufrecht (CISG) auf grenzüberschreitenden Warenkauf anwend
 ### Voraussetzung
 
 - **Eindeutiger** Vertraglicher Ausschluss
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - "Es gilt deutsches Recht" -> CISG bleibt (Teil deutschen Rechts)
 - Korrekt: "Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts (CISG)"
 
@@ -64,7 +63,6 @@ Prüfung, ob das UN-Kaufrecht (CISG) auf grenzüberschreitenden Warenkauf anwend
 ### Ruegepflicht Art. 39 CISG
 
 - **Innerhalb angemessener Frist** nach Entdeckung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei Versäumnis: Verlust der Gewaehrleistungs-Rechte
 
 ### Spaetestens Art. 39 II CISG
@@ -114,7 +112,6 @@ Prüfung, ob das UN-Kaufrecht (CISG) auf grenzüberschreitenden Warenkauf anwend
 
 ## 9) BGH-Linien
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Anschluss
 
@@ -133,7 +130,6 @@ Prüfung, ob das UN-Kaufrecht (CISG) auf grenzüberschreitenden Warenkauf anwend
 
 ### Ergaenzende Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Output-Template Checkliste CISG-Anwendbarkeit
 **Adressat:** Intern (Kaltstart) — Tonfall: schnell, checkboxorientiert
@@ -152,9 +148,6 @@ ERGEBNIS:
 [ ] CISG NICHT ANWENDBAR → Anwendbares Recht nach Rom I
 ```
 
-<!-- AUDIT 27.05.2026
-Alle übrigen Zitate in diesem Skill wurden nicht beanstandet.
--->
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.

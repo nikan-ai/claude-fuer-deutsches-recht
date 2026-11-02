@@ -1,6 +1,6 @@
 ---
 name: spa-apa-entwurf
-description: "Wenn es um SPA/APA-Entwurf in Corporate-Kanzlei geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für SPA/APA-Entwurf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Corporate-Kanzlei."
 ---
 
 # SPA/APA-Entwurf
@@ -34,10 +34,6 @@ description: "Wenn es um SPA/APA-Entwurf in Corporate-Kanzlei geht: prüft Frist
 - **§§ 241 II, 311 II BGB** — Culpa in contrahendo; Informationspflichten pre-Signing
 - **§ 123 BGB** — Anfechtung wegen arglistiger Taeuschung
 - **§ 439 ff. BGB** — Nacherfuellung; Ruecktritt; Schadensersatz (wenn keine individuelle Regelung)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Praxiswissen: Kaufpreismechanik
 
@@ -195,7 +191,6 @@ Anlagen: Disclosure Letter, Locked-Box-Bilanz, CP-Liste, W&I-Term Sheet
 
 Die MAC-Klausel ist das wichtigste Ruecktrittsvehikel. Kernanforderung: Die Verschlechterung muss (a) wesentlich, (b) dauerhaft und (c) auf die Zielgesellschaft bezogen sein. Allgemeine Markt- oder Branchenrisiken (Systemkrise, Pandemie als solche) sind typischerweise ausgegrenzt — ausser der Zielgesellschaft trifft es ueberproportional.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Earn-Out — Praxisrisiken
 
@@ -218,3 +213,5 @@ Best Practice: (a) Accounting-Methodology einfrieren; (b) Nicht-Beeintrachtigung
 - MoPeG (in Kraft 01.01.2024) — Asset/Share Deal bei Personengesellschaften, neue eGbR-Eintragung: https://www.gesetze-im-internet.de/bgb/__705.html
 - Rechtsprechung im Uebrigen: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,6 +1,6 @@
 ---
 name: designverletzung
-description: "Wenn es um Geschmacksmuster- oder Designverletzung prüfen und Ansprüche durchsetzen oder abwehren in Fachanwalt Gewerblicher Rechtsschutz geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Geschmacksmuster- oder Designverletzung prüfen und Ansprüche durchsetzen oder abwehren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Geschmacksmuster- oder Designverletzung prüfen und Ansprüche durchsetzen oder abwehren
@@ -53,7 +53,6 @@ description: "Wenn es um Geschmacksmuster- oder Designverletzung prüfen und Ans
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Designverletzung
 
@@ -144,7 +143,6 @@ weist kein identisches vorbekanntes Design auf. Es besitzt Eigenart nach
 Designs einen anderen Gesamteindruck erhält: [Ausführung der prägenden Merkmale].
 
 IV. Designverletzung § 38 DesignG
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Kinderwagen I) denselben Gesamteindruck hervor wie das Klagedesign.
 Folgende prägende Gestaltungsmerkmale sind vollständig übernommen:
 [tabellarische Gegenüberstellung Klagedesign vs. Verletzungsmuster].
@@ -180,7 +178,6 @@ vertreiben oder zu bewerben.
 
 Dringlichkeit:
 Kenntnis am [Datum] durch [Testkauf / Hinweis]. Antrag nach [X] Tagen;
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Glaubhaftmachung:
 Anlage EV 1: Eidesstattliche Versicherung [Name];
@@ -235,7 +232,6 @@ den Rechteinhabern autorisiert sind.
 
 | Frist | Inhalt | Norm |
 |-------|--------|------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 Monate | Widerspruch Eintragung bei DPMA | § 42 DesignG |
 | 5 Jahre | Verlängerungsperiode Schutzdauer; max. 25 Jahre | § 47 DesignG |
 | 3 Jahre | Schadensersatzanspruch-Verjährung ab Kenntnis | §§ 195, 199 BGB iVm § 49 DesignG |
@@ -247,7 +243,6 @@ den Rechteinhabern autorisiert sind.
 | Gegenargument | Herkunft | Reaktion |
 |--------------|---------|----------|
 | "Design fehlt Eigenart" | Beklagte | Sachverständigengutachten einholen; Designvergleich mit Stand der Technik aufbereiten; hohe Hürde für Nichtigkeitsgegenklage |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | "Vorveröffentlichung durch Klägerin beseitigt Neuheit" | Beklagte | Neuheitsschonfrist § 5 DesignG (12 Monate) bei Eigenoffenbarung; Datum der Erstveröffentlichung prüfen |
 | "Erschöpfung § 48 DesignG" | Beklagte | War Erstinverkehrbringen durch Rechteinhaber autorisiert? Nachweis der Lieferkette |
 | "Antrag nicht dringlich — zu lange gewartet" | Beklagte | Genaues Kenntnis-Datum dokumentieren; subjektive Dringlichkeit (ab tatsächlicher Kenntnis, nicht Erkennbarkeitszeitpunkt) |
@@ -306,10 +301,9 @@ Bevor das Designverletzungsverfahren eingeleitet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

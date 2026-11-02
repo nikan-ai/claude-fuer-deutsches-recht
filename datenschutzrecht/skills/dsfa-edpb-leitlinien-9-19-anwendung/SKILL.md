@@ -1,6 +1,6 @@
 ---
 name: dsfa-edpb-leitlinien-9-19-anwendung
-description: "Wenn es um Anwendung der EDPB-Leitlinien WP 248 rev.01 zur DSFA in Datenschutzrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anwendung der EDPB-Leitlinien WP 248 rev.01 zur DSFA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwendung der EDPB-Leitlinien WP 248 rev.01 zur DSFA
@@ -109,5 +109,6 @@ Unterschrift DSB: ____________________
 - Art. 70 Abs. 1 lit. e DSGVO
 - EDSA-Stellungnahme 28/2024 zu KI-Modellen — Auslegungshilfe für Kriterium 8
 - BfDI- und Landeslisten (live prüfen)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe verifizieren
 - Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

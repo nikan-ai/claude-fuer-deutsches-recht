@@ -1,6 +1,6 @@
 ---
 name: autor-herausgeber-mitwirkende-rechtekette
-description: "Wenn es um Verl-003 · Autor, Herausgeber, Mitwirkende: Rechtekette im Sammelwerk in Verlagsrecht und Buchpreisbindung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Verl-003 · Autor, Herausgeber, Mitwirkende: Rechtekette im Sammelwerk: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Verl-003 · Autor, Herausgeber, Mitwirkende: Rechtekette im Sammelwerk
@@ -139,28 +139,3 @@ Für jede Komponente prüfen:
 - **Lückenliste**: Fehlende Verträge, offene Nutzungsarten
 - **Vergütungsübersicht**: Alle Beitragsautoren mit Vergütungsansprüchen
 - **Muster-Beitragsautorenvertrag**: Standardisiertes Kurzformular für Sammelwerke
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 41 UrhG
-- § 32d UrhG
-- § 32a UrhG
-- § 6 BuchPrG
-- § 32 UrhG
-- § 7 BuchPrG
-- § 38 UrhG
-- § 3 BuchPrG
-- § 31 UrhG
-- § 4 UrhG
-- § 14 UrhG
-- § 51 UrhG
-
-### Leitentscheidungen
-
-- EuGH C-174/15
-- BGH I ZR 198/13
-- BGH I ZR 136/20
-- EuGH C-299/23
-- EuGH C-202/12

@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "plugin": "rechtstheorie-rechtsphilosophie",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/01/rs20110125_1bvr091810.html",
+      "checked_on": "2026-09-22",
+      "supports": "Gesetzesmodell gegen vorgeschlagene richterliche Entscheidungsregel abgleichen. Grenze: Keine allgemeine Widerlegung einer philosophischen Theorie; keine aktuelle Unterhaltsberechnung. Amtlicher Leitsatz verifiziert; kein Randnummernnachweis für nicht ausgelesene Begründung behauptet."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gg/art_20.html",
+      "checked_on": "2026-09-23",
+      "supports": "Quantifizierung, Sprecher- und Editionskritik, identischer Vergleichsfall und Grenze zur heutigen Rechtsanwendung. Prüftiefe: Gesetzesbindung erneut gelesen; historische Autorenpositionen ohne vorgelegten Originaltext bleiben Zuschreibungsfragen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Kurzprompt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Quantifizierung, Sprecher- und Editionskritik, identischer Vergleichsfall und Grenze zur heutigen Rechtsanwendung. 2026-10-16, redaktioneller Einstiegsreview: Essay und Argumentrekonstruktion aus Original oder Paraphrase eröffnet; Theorie nicht an künstlicher Anspruchsprüfung gemessen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Geltungsgrund und tatsächliche argumentative Prämissen vor allgemeinen Analyseaufforderungen.",
+      "Gesetzesmodell gegen vorgeschlagene richterliche Entscheidungsregel abgleichen. Grenze: Keine allgemeine Widerlegung einer philosophischen Theorie; keine aktuelle Unterhaltsberechnung.",
+      "Einschränkende Folgepassage -> These, Gegenbeispiel und Fazit neu fassen.",
+      "Quantifizierung, Sprecher- und Editionskritik, identischer Vergleichsfall und Grenze zur heutigen Rechtsanwendung.",
+      "2026-10-16, redaktioneller Einstiegsreview: Essay und Argumentrekonstruktion aus Original oder Paraphrase eröffnet; Theorie nicht an künstlicher Anspruchsprüfung gemessen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "42faa049945c782011ff85a9e2d59fdd7ff60bf0dd9d4d040f4a048d0da21c70",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Prüfe den Schluss von tatsächlicher Regelbefolgung auf moralische Legitimität.",
+      "Rekonstruiere zwei vorgelegte Positionen zur rechtlichen Geltung anhand derselben Fallfrage."
+    ],
+    "negative": [
+      "Lege eine konkrete Lieferklausel anhand der Vertragsverhandlungen aus, ohne Theorievergleich oder Geltungsfrage.",
+      "Prüfe die formelle Wirksamkeit einer konkreten Kündigung ohne Theoriefrage."
+    ]
+  },
+  "cases": [
+    {
+      "id": "befolgung-und-legitimation",
+      "request": "Verfasse ergebnis.md als argumentationskritischen Abschnitt für ein internes Seminar. Untersuche ausschließlich diesen vollständig vorgelegten Gedankengang, ohne ihn einem historischen Autor zuzuschreiben: 'In unserer Organisation befolgen 95 Prozent die Regel R. Darum ist R rechtlich gültig. Was rechtlich gültig ist, ist moralisch gerechtfertigt. Deshalb darf R nicht kritisiert werden.' Der Befolgungsanteil ist für die Übung als richtig anzunehmen. Über Entstehungskompetenz, Verfahren, Inhalt und Sanktionen der Regel gibt es keine Angaben. Gewünscht sind Rekonstruktion, Kritik und eine präzisere, noch tragfähige Schlussfassung, kein Gutachten zu einer bestimmten staatlichen Rechtsordnung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt den empirischen Befolgungsbefund von rechtlicher Geltung und identifiziert die fehlende Verknüpfungsprämisse statt den vorgegebenen Anteil anzuzweifeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft die zusätzlichen Übergänge zu moralischer Rechtfertigung und Kritikverbot eigenständig und behandelt sie nicht als logische Folgen der Befolgung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Formuliert eine begrenzte Schlussfassung über tatsächliche Befolgung beziehungsweise weitere Prüfbedürftigkeit, ohne fehlende Kompetenz- oder Inhaltsdaten zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "rechtsbegriff-und-geltung"
+    }
+  ],
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Werkstatt individuell auf Einstieg, fachliche Fortsetzung und vollständiges Arbeitsprodukt geprüft. Quantifizierung, Sprecher- und Editionskritik, identischer Vergleichsfall und Grenze zur heutigen Rechtsanwendung. 2026-10-16, redaktioneller Einstiegsreview: Essay und Argumentrekonstruktion aus Original oder Paraphrase eröffnet; Theorie nicht an künstlicher Anspruchsprüfung gemessen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+    "changes": [
+      "Geltungsgrund und tatsächliche argumentative Prämissen vor allgemeinen Analyseaufforderungen.",
+      "Gesetzesmodell gegen vorgeschlagene richterliche Entscheidungsregel abgleichen. Grenze: Keine allgemeine Widerlegung einer philosophischen Theorie; keine aktuelle Unterhaltsberechnung.",
+      "Einschränkende Folgepassage -> These, Gegenbeispiel und Fazit neu fassen.",
+      "Quantifizierung, Sprecher- und Editionskritik, identischer Vergleichsfall und Grenze zur heutigen Rechtsanwendung.",
+      "2026-10-16, redaktioneller Einstiegsreview: Essay und Argumentrekonstruktion aus Original oder Paraphrase eröffnet; Theorie nicht an künstlicher Anspruchsprüfung gemessen. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+    ],
+    "sha256": "eebe219ee33670f9c6778574aa0982b1ac03bb09147e709388eff980be42a372",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "files": [
+      "rechtstheorie-rechtsphilosophie/rechtstheorie-rechtsphilosophie-werkstatt.md",
+      "rechtstheorie-rechtsphilosophie/rechtstheorie-rechtsphilosophie-schnellstart.md"
+    ],
+    "opening_change": "Geltungsgrund und tatsächliche argumentative Prämissen vor allgemeinen Analyseaufforderungen.",
+    "norms": [
+      "Artikel 20 Absatz 3 GG",
+      "Artikel 97 Absatz 1 GG",
+      "Artikel 2 Absatz 1 GG"
+    ],
+    "decisions": [
+      {
+        "citation": "BVerfG, 25.01.2011, 1 BvR 918/10, Leitsatz",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/01/rs20110125_1bvr091810.html",
+        "application": "Gesetzesmodell gegen vorgeschlagene richterliche Entscheidungsregel abgleichen.",
+        "limit": "Keine allgemeine Widerlegung einer philosophischen Theorie; keine aktuelle Unterhaltsberechnung."
+      }
+    ],
+    "remaining_limits": [
+      "Amtlicher Leitsatz verifiziert; kein Randnummernnachweis für nicht ausgelesene Begründung behauptet.",
+      "Workflow-Vertiefung 2026-09-23: Gesetzesbindung erneut gelesen; historische Autorenpositionen ohne vorgelegten Originaltext bleiben Zuschreibungsfragen. Desk review; kein Live-Client-Test."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Argumentkritik, Theorievergleich oder Rechtsfortbildung anbieten.",
+      "Original, Übersetzung und Paraphrase still unterscheiden, nur Textziel klären.",
+      "Vollständigen Essayauftrag ohne Zwang zur Anspruchsprüfung erfüllen."
+    ],
+    "continuation": "Einschränkende Folgepassage -> These, Gegenbeispiel und Fazit neu fassen.",
+    "enrichment": "Quantifizierung, Sprecher- und Editionskritik, identischer Vergleichsfall und Grenze zur heutigen Rechtsanwendung.",
+    "limits": "desk review; no live client execution"
+  }
+}

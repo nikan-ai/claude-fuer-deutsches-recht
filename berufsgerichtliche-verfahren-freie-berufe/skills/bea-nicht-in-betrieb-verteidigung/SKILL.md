@@ -1,6 +1,6 @@
 ---
 name: bea-nicht-in-betrieb-verteidigung
-description: "Wenn es um beA nicht in Betrieb: Verteidigungs- und Kammerantwort in Berufsgerichtliche Verfahren Freie Berufe geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für beA nicht in Betrieb: Verteidigungs- und Kammerantwort: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # beA nicht in Betrieb: Verteidigungs- und Kammerantwort
@@ -47,15 +47,3 @@ Erzeuge Stellungnahme, Akteneinsicht, Bestreiten, Einordnung, Entlastung, Wieder
 
 - Welche Kammer/Aufsicht handelt?
 - Geht es um Anhörung, Rüge, Anschuldigung, Zulassungsmaßnahme oder Rechtsmittel?
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- Art. 12 GG
-- Art. 5 GG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

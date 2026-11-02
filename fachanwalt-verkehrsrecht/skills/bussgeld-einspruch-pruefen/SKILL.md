@@ -1,6 +1,6 @@
 ---
 name: bussgeld-einspruch-pruefen
-description: "Wenn es um Bussgeld Einspruch Pruefen in Fachanwalt Verkehrsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Bussgeld Einspruch Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Bussgeld Einspruch Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
@@ -36,7 +36,6 @@ description: "Wenn es um Bussgeld Einspruch Pruefen in Fachanwalt Verkehrsrecht 
 
 - **§ 26 Abs. 3 StVG** — Verjährung drei Monate ab Tatzeit (bei Geschwindigkeitsüberschreitung etc.); Unterbrechung durch Anhörungsmaßnahmen § 33 OWiG.
 - **§ 33 OWiG** — Unterbrechungsgründe: Bekanntgabe der Einleitung des Verfahrens, Erlass des Bußgeldbescheids; Klageerhebung; nach Unterbrechung neue volle Verjährungsfrist.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 55 OWiG** — Anhörung: Betroffener muss vor Erlass des Bußgeldbescheids Gelegenheit zur Stellungnahme erhalten; Verletzung kann zu Verfahrenshindernis führen.
 - **§ 67 Abs. 1 OWiG** — Einspruch innerhalb zwei Wochen nach Bekanntgabe bei der erlassenden Behörde; schriftlich oder zur Niederschrift.
 - **§ 52 OWiG** — Wiedereinsetzung in den vorigen Stand bei unverschuldetem Fristversäumnis; unverzüglicher Antrag.
@@ -58,9 +57,7 @@ description: "Wenn es um Bussgeld Einspruch Pruefen in Fachanwalt Verkehrsrecht 
 | ProViDa 2000 | Video-Nachfahren | variabel | Abstandsberechnung fehleranfällig | Fallweise zu prüfen |
 | Multanova 6F | Radar | 3 km/h bis 100; 3 % über 100 | Schlechter Einstel-lungsnachweis | Standardisiert |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Bußgeldkatalog-Übersicht (Auszug, Stand 2024)
 
@@ -91,7 +88,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | 6 | Eichschein gültig zur Tatzeit? | § 31 MessEG | Abgelaufene Eichung: Beweisverwertungsverbot möglich |
 | 7 | Schulungsnachweis Messbeamter vorhanden? | Gerätebedienungsanleitung | Fehlt: Fehler im Messverfahren rügbar |
 | 8 | Toleranzabzug korrekt vorgenommen? | BGHSt 39, 291 | Zu geringe Toleranz: Abzug erhöhen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Bußgeld-Höhe und Punkte korrekt nach BKatV? | BKatV Anlage 1, 2 | Fehler: unmittelbare Rüge |
 | 11 | Fahrverbot regelkonform angeordnet? | § 25 StVG; BKatV | Kein Regelfall → Ermessen AG prüfen |
 | 12 | Härtefall Fahrverbot darlegbar? | § 4 Abs. 4 BKatV | Existenzgefährdung → Ersatz durch erhöhte Geldbuße |
@@ -310,4 +306,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
