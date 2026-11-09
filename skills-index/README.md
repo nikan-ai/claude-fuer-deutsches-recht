@@ -2,7 +2,7 @@
 
 Eine Detailseite pro Plugin mit allen Skills, Beschreibungen und Einzel-Downloads. Stand: `v445.35.3`.
 
-Die Aufteilung verhindert, dass eine einzige Seite alle 23385 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
+Die Aufteilung verhindert, dass eine einzige Seite alle 23399 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
 
 English: Each plugin has one lightweight detail page containing its complete skill list, descriptions and direct Markdown downloads. Open a plugin page to choose a skill; links labelled `Download MD` save the file instead of opening a source preview.
 
@@ -76,6 +76,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 
 - [commercial-courts-deutschland](./commercial-courts-deutschland.md) (59 Skills)
 - [common-law-kompass](./common-law-kompass.md) (59 Skills)
+- [compliance-abteilung-grosskonzern](./compliance-abteilung-grosskonzern.md) (5 Skills)
 - [corporate-contract-law](./corporate-contract-law.md) (20 Skills)
 - [corporate-kanzlei](./corporate-kanzlei.md) (88 Skills)
 
@@ -94,6 +95,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 
 ### E
 
+- [e-rechnung-werkstatt](./e-rechnung-werkstatt.md) (7 Skills)
 - [ecommerce-recht](./ecommerce-recht.md) (73 Skills)
 - [eigenbedarfskuendigungschecker](./eigenbedarfskuendigungschecker.md) (10 Skills)
 - [einfache-leichte-sprache-jura](./einfache-leichte-sprache-jura.md) (87 Skills)
@@ -109,7 +111,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 ### F
 
 - [fachanwalt-agrarrecht](./fachanwalt-agrarrecht.md) (79 Skills)
-- [fachanwalt-arbeitsrecht](./fachanwalt-arbeitsrecht.md) (107 Skills)
+- [fachanwalt-arbeitsrecht](./fachanwalt-arbeitsrecht.md) (108 Skills)
 - [fachanwalt-bank-kapitalmarktrecht](./fachanwalt-bank-kapitalmarktrecht.md) (88 Skills)
 - [fachanwalt-bau-architektenrecht](./fachanwalt-bau-architektenrecht.md) (123 Skills)
 - [fachanwalt-erbrecht](./fachanwalt-erbrecht.md) (32 Skills)
@@ -323,7 +325,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [startup-gruender](./startup-gruender.md) (18 Skills)
 - [startup-hr-personalabteilung-berlin](./startup-hr-personalabteilung-berlin.md) (112 Skills)
 - [status-navigator-step-plan](./status-navigator-step-plan.md) (36 Skills)
-- [steuerrecht-anwalt-und-berater](./steuerrecht-anwalt-und-berater.md) (238 Skills)
+- [steuerrecht-anwalt-und-berater](./steuerrecht-anwalt-und-berater.md) (239 Skills)
 - [strafanzeige-vorbereiter](./strafanzeige-vorbereiter.md) (57 Skills)
 - [strafbefehl-verteidiger](./strafbefehl-verteidiger.md) (61 Skills)
 - [strafvollzug-jva](./strafvollzug-jva.md) (11 Skills)

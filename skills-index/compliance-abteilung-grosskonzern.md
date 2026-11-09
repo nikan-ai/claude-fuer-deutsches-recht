@@ -1,0 +1,35 @@
+# compliance-abteilung-grosskonzern
+
+**5 Skills** · Stand `v445.35.9`
+
+[Repository-Start](../README.md) · [Skill-Gesamtübersicht](../SKILLS.md) · [Plugin-README](../compliance-abteilung-grosskonzern/README.md) · [Download-Index](../ASSET_INDEX.md) · [Testakten](../testakten/README.md)
+
+## Downloads
+
+| Paket | Format | Link |
+| --- | --- | --- |
+| **Großer Prompt (Werkstatt)** | Markdown | [`compliance-abteilung-grosskonzern-werkstatt.md` herunterladen](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/compliance-abteilung-grosskonzern-werkstatt.md) |
+| **Kleiner Prompt (Schnellstart)** | Markdown | [`compliance-abteilung-grosskonzern-schnellstart.md` herunterladen](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/compliance-abteilung-grosskonzern-schnellstart.md) |
+| **Alle Skills als Markdown** | ZIP | [alle-skills-markdown.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-skills-markdown.zip) |
+| **Plugin (installierbar)** | ZIP | [compliance-abteilung-grosskonzern.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/compliance-abteilung-grosskonzern-v445.35.9/compliance-abteilung-grosskonzern.zip) |
+
+## So benutzt man einen Skill
+
+Diese alphabetische Liste zeigt alle Skills im Quellbestand. Umfangreiche Spezialserien werden im installierten Paket teilweise über einen Fachrouter geöffnet und sind dann keine eigenen Menüeinträge. Werkstatt und Schnellstart sind eigenständige Ein-Datei-Prompts außerhalb des Plugin-ZIPs.
+
+English: This index lists source skills, including specialist series accessed through topic routers in the installed package. Workshop and quick-start files are separate standalone prompts. A skill download provides unchanged Markdown, not an installation; additional references or tools may be required.
+
+- **Schnelltest mit einer Datei:** oben auf den Schnellstart-Markdown klicken, die `.md` als Anhang in den Chatbot ziehen.
+- **Volle Ein-Datei-Tiefe:** oben auf den Werkstatt-Markdown klicken, die `.md` als ausführlichen Arbeitsmodus verwenden.
+- **Volle Skill-Tiefe:** das Sammel-ZIP `alle-skills-markdown.zip` herunterladen und entpacken. Es enthält neben jeder `SKILL.md` auch deren Markdown-Referenzen; beim manuellen Einsatz die benötigten Dateien gemeinsam bereitstellen.
+- **Einzelnen Skill laden:** in der Tabelle auf den Skillnamen oder auf `MD herunterladen` klicken. Beide Wege speichern dieselbe Markdown-Datei.
+
+## Skills in diesem Plugin
+
+| Skill | Beschreibung | Markdown-Datei |
+| --- | --- | --- |
+| [`compliance-auftrag-steuern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/compliance-auftrag-steuern/SKILL.md) | Steuert konkrete Aufträge der Konzernrechts- und Compliance-Abteilung bis zum fertigen Arbeitsprodukt. Für Richtlinienauskunft, Ausnahmeentscheidung, Rechtsrecherche und Regulierungsmonitoring sowie die Zuordnung zu KI-Freigabe, Meldestelle, Geschäftspartnerprüfung oder Organbericht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/compliance-auftrag-steuern/SKILL.md) |
+| [`geschaeftspartner-und-transaktionen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/geschaeftspartner-und-transaktionen/SKILL.md) | Bearbeitet Integritätsprüfung und Freigaben bei Lieferanten, Vermittlern, Bewirtungen und Unternehmenskäufen. Für Identitäts- und Trefferklärung, Leistungs- und Zahlungsabgleich, Korruptionsrisiko, ausformulierte Auflagen, Vertragsbedingungen und Integration mit Nachtest. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/geschaeftspartner-und-transaktionen/SKILL.md) |
+| [`ki-einsatz-und-freigabe`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/ki-einsatz-und-freigabe/SKILL.md) | Prüft KI-Beschaffung und konkrete Nutzung in Legal, Compliance und Beschäftigung. Für belastbare Pilottests, Prompt-Versionierung, Datenflüsse, Quellenkorrektur, menschliche Kontrolle, Fehlerzurechnung, Kompetenzmaßnahmen, Qualifizierung und zeitstandsbezogene Beschäftigungs-KI. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/ki-einsatz-und-freigabe/SKILL.md) |
+| [`kontrollen-und-organberichte`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/kontrollen-und-organberichte/SKILL.md) | Erstellt risikobasierte Kontrollpläne, belastbare Kennzahlen, Wirksamkeitstests, Schulungs- und Kommunikationsprodukte sowie Organvorlagen. Für Rohdatenabgleich, Nennerfehler, Stichprobengrenzen, lokale Zuständigkeit, Maßnahmenverfolgung und unabhängigen Nachtest. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/kontrollen-und-organberichte/SKILL.md) |
+| [`meldungen-und-untersuchungen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/meldungen-und-untersuchungen/SKILL.md) | Bearbeitet interne Meldungen, Schutzmaßnahmen und Untersuchungen bis zu verwendbaren Schreiben und Abschlussvermerken. Für HinSchG-Fristen, Vertraulichkeit, Beweissicherung, Gegenbelege, Interviews, korrigierte KI-Transkripte, Anhörung und Repressalienprüfung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=compliance-abteilung-grosskonzern/skills/meldungen-und-untersuchungen/SKILL.md) |
