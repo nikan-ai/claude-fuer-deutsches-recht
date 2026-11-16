@@ -11,12 +11,40 @@ eingecheckten Prompts frisch sind, ohne Dateien zu veraendern.
 from __future__ import annotations
 import argparse
 import re
+import sys
+import textwrap
 from pathlib import Path
 
-from skill_routing_priorities import MEGAPROMPT_MODULE_LIMITS, PLUGIN_PRIORITY_SKILLS, PLUGIN_TRIGGER_ROUTES, MINI_SKILL_SUMMARIES
+from skill_routing_priorities import MEGAPROMPT_MODULE_LIMITS, PLUGIN_PRIORITY_MODULES, PLUGIN_TRIGGER_ROUTES, MINI_MODULE_SUMMARIES, skill_call, rewrite_module_calls
 
 REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / 'testakten' / 'megaprompts'
+
+# Die konsolidierte Sammlung lädt wenige Auswahlskills; fachlicher Stoff bleibt
+# in allen ursprünglichen Modulen. Eigenständige Quellencheckouts bleiben nutzbar.
+if (REPO.parent / 'scripts' / 'skill_sources.py').is_file():
+    sys.path.append(str(REPO.parent / 'scripts'))
+    from skill_sources import original_skill_sources
+else:
+    def original_skill_sources(directory: Path) -> list[Path]:
+        return sorted((directory / 'skills').glob('*/SKILL.md'))
+
+# In der öffentlichen Sammlung gilt dieselbe Oberflächenführung wie für die
+# übrigen Plugins. Ein eigenständiger Quellencheckout ohne diese Erweiterung
+# bleibt weiter verwendbar; angereicherte Skills benötigen den gemeinsamen
+# Generator, damit keine unerfüllbaren lokalen Verweise im Einzelprompt stehen.
+_visual_scripts = REPO.parent / 'scripts'
+if (_visual_scripts / 'werkstatt_visualisierung.py').is_file():
+    sys.path.insert(0, str(_visual_scripts))
+    from werkstatt_visualisierung import block as visual_block, remove_block as remove_visual_block
+else:
+    def remove_visual_block(text: str) -> str:
+        if '<!-- BEGIN werkstatt-visualisierung -->' in text:
+            raise RuntimeError('Angereicherte Skills benötigen scripts/werkstatt_visualisierung.py aus der übergeordneten Sammlung')
+        return text
+
+    def visual_block(text: str, plugin: str) -> str:
+        return text
 
 EXCLUDE_PLUGINS: set[str] = set()
 
@@ -81,7 +109,7 @@ def collect_skills(plugin_dir: Path) -> list[tuple[str, Path, str, str]]:
     skills_dir = plugin_dir / 'skills'
     if not skills_dir.is_dir():
         return []
-    priority_first = PLUGIN_PRIORITY_SKILLS.get(
+    priority_first = PLUGIN_PRIORITY_MODULES.get(
         plugin_dir.name,
         [
             'vergabe-os-master-orchestrator',
@@ -100,16 +128,11 @@ def collect_skills(plugin_dir: Path) -> list[tuple[str, Path, str, str]]:
         ],
     )
     skills = []
-    for sd in sorted(skills_dir.iterdir()):
-        if not sd.is_dir():
-            continue
-        skill_md = sd / 'SKILL.md'
-        if not skill_md.is_file():
-            continue
+    for skill_md in original_skill_sources(plugin_dir):
         text = skill_md.read_text(encoding='utf-8', errors='ignore')
         fm, body = extract_frontmatter_and_body(text)
         desc = get_description(fm)
-        skills.append((sd.name, skill_md, desc, body))
+        skills.append((skill_md.parent.name, skill_md, desc, body))
 
     # Sortierung: Prioritaeten zuerst, dann Description-Länge (= Substanz-Proxy)
     def keyfn(item):
@@ -476,23 +499,23 @@ def build_megaprompt(plugin_dir: Path) -> str | None:
     lines.append('')
     lines.append('| Trigger | Exakter Skill-Slug |')
     lines.append('|---|---|')
-    for trigger, slug in PLUGIN_TRIGGER_ROUTES.get(plugin, []):
-        lines.append(f'| {trigger} | `{slug}` |')
+    for trigger, owner, module in PLUGIN_TRIGGER_ROUTES.get(plugin, []):
+        lines.append(f'| {trigger} | {skill_call(plugin, module)} |')
     lines.append('')
     lines.append('## Sichtbare Skill-Slugs')
     lines.append('')
     lines.append('Die folgenden Fachmodule sind in diesem Ein-Datei-Prompt vollständig enthalten; weitere Pluginskills bleiben über das Routing erreichbar.')
     lines.append('')
     for slug, _, desc, _ in skills:
-        summary = MINI_SKILL_SUMMARIES.get(slug, autark_prompt_text(desc))
-        lines.append(f'- `{slug}`: {shorten_text(autark_prompt_text(summary), 180)}')
+        summary = MINI_MODULE_SUMMARIES.get(slug, autark_prompt_text(desc))
+        lines.append(f'- {skill_call(plugin, slug)}: {shorten_text(autark_prompt_text(summary), 180)}')
     lines.append('')
     lines.append('## Inhaltsverzeichnis')
     lines.append('')
     for i, (slug, _, desc, body) in enumerate(skills, 1):
         short_desc = autark_prompt_text(desc)
         short = shorten_text(short_desc, 120)
-        lines.append(f'{i}. `{slug}` - {module_title(slug, body)} - {short}')
+        lines.append(f'{i}. {skill_call(plugin, slug)} - {module_title(slug, body)} - {short}')
     lines.append('')
     lines.append('---')
     lines.append('')
@@ -503,7 +526,7 @@ def build_megaprompt(plugin_dir: Path) -> str | None:
         if desc:
             lines.append(f'_{autark_prompt_text(desc)}_')
             lines.append('')
-        module_body = autark_prompt_text(strip_managed_output_block(body))
+        module_body = autark_prompt_text(strip_managed_output_block(remove_visual_block(body)))
         lines.append(demote_markdown_headings(module_body))
         lines.append('')
         lines.append('---')
@@ -524,7 +547,17 @@ def build_megaprompt(plugin_dir: Path) -> str | None:
     lines.append('3. Den Chat-Agent bitten, sich anhand der oben aufgeführten Arbeitsmodule zu orientieren.')
     lines.append('4. Bei Zitaten Quellenhygiene beachten: keine Modellwissens-Halluzinationen; alle Rspr. live verifizieren.')
     lines.append('')
-    return normalize_display_text('\n'.join(lines) + '\n')
+    original = normalize_display_text('\n'.join(lines) + '\n')
+    enriched = visual_block(original, plugin)
+    # Der eigenständige Vergabeprompt begrenzt auch Markdown-Quellzeilen.
+    # Nur den neuen Anhang umbrechen; kuratierter Fachtext bleibt bytegleich.
+    appendix = enriched[len(original):]
+    wrapped = '\n'.join(
+        textwrap.fill(line, width=120, break_long_words=False, break_on_hyphens=False)
+        if len(line) > 1000 else line
+        for line in appendix.splitlines()
+    )
+    return rewrite_module_calls(plugin, original + wrapped + ('\n' if appendix.endswith('\n') else ''))
 
 
 def main() -> int:

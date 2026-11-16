@@ -133,6 +133,67 @@ class QualityLabTests(unittest.TestCase):
                 with self.assertRaises(lab.LabError):
                     lab.validate_profile(self.profile, "fachgebiet", self.plugin, self.root)
 
+    def completed_review_fixture(self):
+        relative = "fachgebiet/skills/belegabgleich/SKILL.md"
+        sha = lab.digest((self.root / relative).read_bytes())
+        report = self.root / "quality/source-audits/nachpruefung.md"
+        report.parent.mkdir(parents=True, exist_ok=True)
+        report.write_text("Datei vollständig gelesen; Quellenreichweite und Beleglogik konkret geprüft.")
+        evidence = {
+            "schema_version": 1, "plugin": "fachgebiet", "date": "2026-11-14",
+            "method": "full_file_review", "limits": "Dateiprüfung; kein ausgeführter Modelltest.",
+            "previous_status": {"status": "needs_review", "reason": "Fassung verändert", "files": [relative]},
+            "files": [{"path": relative, "before_sha256": sha, "reviewed_sha256": sha,
+                       "full_file_read": True, "result": "retained",
+                       "checked_points": ["Quellen und Belege abgegrenzt", "Ergebnisauftrag vollständig"],
+                       "finding": "Belegabgleich bleibt fachlich klar begrenzt."}],
+            "reports": {report.relative_to(self.root).as_posix(): lab.digest(report.read_bytes())},
+        }
+        path = self.root / "quality/source-audits/nachpruefung.json"
+        lab.save(path, evidence)
+        self.profile["file_review_status"] = {
+            "status": "reviewed", "reason": "Vollständige dokumentierte Nachprüfung", "files": [relative],
+            "evidence": {"path": path.relative_to(self.root).as_posix(), "sha256": lab.digest(path.read_bytes())},
+        }
+        return evidence, path, report
+
+    def test_completed_file_review_unblocks_preparation_without_claiming_a_model_result(self):
+        self.completed_review_fixture()
+        self.write_profile()
+        self.assertEqual(lab.pending_file_reviews(self.profile, self.root), [])
+        self.assertEqual(lab.audit(self.root)[1], [])
+        self.assertTrue((self.prepare() / "run.json").is_file())
+
+    def test_completed_status_alone_cannot_clear_pending_review(self):
+        self.completed_review_fixture()
+        del self.profile["file_review_status"]["evidence"]
+        with self.assertRaisesRegex(lab.LabError, "Nachprüfungsbeleg"):
+            lab.validate_profile(self.profile, "fachgebiet", self.plugin, self.root)
+
+    def test_completed_review_rejects_missing_file_incomplete_read_and_wrong_profile(self):
+        for change in (lambda r: r.update(files=[]),
+                       lambda r: r["files"][0].update(full_file_read=False),
+                       lambda r: r.update(plugin="anderes-fachgebiet"),
+                       lambda r: r["previous_status"].update(files=[]),
+                       lambda r: r["files"][0].update(checked_points=[])):
+            with self.subTest(change=change):
+                record, path, _ = self.completed_review_fixture()
+                change(record)
+                lab.save(path, record)
+                self.profile["file_review_status"]["evidence"]["sha256"] = lab.digest(path.read_bytes())
+                with self.assertRaises(lab.LabError):
+                    lab.validate_profile(self.profile, "fachgebiet", self.plugin, self.root)
+
+    def test_completed_review_rejects_later_file_report_or_evidence_changes(self):
+        for target in ("file", "report", "evidence"):
+            with self.subTest(target=target):
+                _, evidence, report = self.completed_review_fixture()
+                path = {"file": self.plugin / "skills/belegabgleich/SKILL.md",
+                        "report": report, "evidence": evidence}[target]
+                path.write_text(path.read_text() + "\nVeränderte Fassung\n")
+                with self.assertRaisesRegex(lab.LabError, "seit dokumentierter Prüfung verändert"):
+                    lab.validate_profile(self.profile, "fachgebiet", self.plugin, self.root)
+
     def test_missing_target_skill_fails(self):
         self.profile["cases"][0]["target_skill"] = "missing"
         self.write_profile()
@@ -713,11 +774,55 @@ class QualityLabTests(unittest.TestCase):
 
     def test_distinct_repetitions_remain_comparable(self):
         runs = [self.ready("repeat-" + str(i)) for i in range(2)]
+        with (runs[1] / "output/ergebnis.md").open("a", encoding="utf-8") as output:
+            output.write("\nZweite, unabhängig formulierte Fassung.")
         for run in runs:
             lab.evaluate(run, self.config, root=self.root, caller=self.passing)
         groups = lab.compare(runs, self.root)["groups"]
         self.assertEqual(len(groups), 1)
         self.assertEqual(groups[0]["runs"], 2)
+
+    def test_changed_source_bytes_split_runs_of_same_case_and_revision(self):
+        self.profile["cases"][0]["input_files"] = ["kontoauszug.txt"]
+        source = self.root / "kontoauszug.txt"
+        source.write_text("Gutschrift 300 Euro", encoding="utf-8")
+        self.write_profile()
+        before = self.ready("eingabe-alt")
+        source.write_text("Gutschrift 310 Euro", encoding="utf-8")
+        after = self.ready("eingabe-neu")
+        for run in (before, after):
+            lab.evaluate(run, self.config, root=self.root, caller=self.passing)
+        groups = lab.compare([before, after], self.root)["groups"]
+        self.assertEqual(len(groups), 2)
+        self.assertEqual(len({group["case_hash"] for group in groups}), 1)
+        self.assertEqual(len({group["inputs_hash"] for group in groups}), 2)
+        self.assertEqual(len({group["grading"]["source_text_sha256"] for group in groups}), 2)
+
+    def test_grader_revisions_and_unrecorded_legacy_results_are_isolated(self):
+        runs = [self.ready(name) for name in ("jetzt", "andere-auswertung", "alt-eins", "alt-zwei")]
+        for i, run in enumerate(runs):
+            grader_hash = "a" * 64 if i == 1 else lab.GRADER_SHA256
+            with patch.object(lab, "GRADER_SHA256", grader_hash):
+                score = lab.evaluate(run, self.config, root=self.root, caller=self.passing)
+            if i >= 2:
+                del score["grading"]  # Ergebnisdatei im bisherigen Format
+                lab.save(run / "scores_dual.json", score)
+        groups = lab.compare(runs, self.root)["groups"]
+        self.assertEqual(len(groups), 4)
+        self.assertEqual(sum(group["grading"] is None for group in groups), 2)
+        self.assertTrue(all(group["strict_pass_rate"] == 1 for group in groups))
+
+    def test_changed_text_extraction_cannot_reuse_score_for_identical_bytes(self):
+        run = self.ready()
+        lab.evaluate(run, self.config, root=self.root, caller=self.passing)
+        read = lab.read_artifact
+
+        def changed_extraction(path, *, raw=None):
+            return read(path, raw=raw) + "\nAbweichende Textsicht"
+
+        with patch.object(lab, "read_artifact", side_effect=changed_extraction):
+            with self.assertRaisesRegex(lab.LabError, "abweichender Textsicht"):
+                lab.compare([run], self.root)
 
     def test_different_cases_never_share_aggregates(self):
         second = copy.deepcopy(self.profile["cases"][0])

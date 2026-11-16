@@ -7,6 +7,7 @@ import importlib.util
 import sys
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
 from themen_profile import PROFILE_BY_KEY
 
@@ -55,6 +56,25 @@ def main() -> int:
 
     with TemporaryDirectory() as folder:
         plugin = Path(folder)
+        originals = []
+        for slug, description in (("berufung", "Berufungsfrist und Berufungsbegründung prüfen."),
+                                  ("revision", "Revisionszulassung und Rechtsfehler prüfen.")):
+            source = plugin / "skills" / slug / "FACHINHALT.md"
+            source.parent.mkdir(parents=True)
+            source.write_text(f'---\nname: {slug}\ndescription: "{description}"\n---\n\n# {slug.title()}\n\n{description}\n', encoding="utf-8")
+            originals.append(source)
+        router = plugin / "skills" / "rechtsschutz" / "SKILL.md"
+        router.parent.mkdir(parents=True)
+        router.write_text('---\nname: rechtsschutz\ndescription: Auswahl des Verfahrens.\n---\n\n# Rechtsschutz\n', encoding="utf-8")
+        with patch.object(G, "original_skill_sources", return_value=originals):
+            collected = G.collect_skill_material(plugin)
+        require({item["slug"] for item in collected} == {"berufung", "revision"},
+                "Aktiver Sammelrouter hat die erhaltenen Fachthemen verdrängt")
+        require(all(item["desc"] in item["raw"] and item["body"] for item in collected),
+                "Erhaltene Fachmodule verlieren Beschreibung oder fachlichen Textauszug")
+
+    with TemporaryDirectory() as folder:
+        plugin = Path(folder)
         for number in range(85):
             skill = plugin / "skills" / f"fachthema-{number:03}"
             skill.mkdir(parents=True)
@@ -68,6 +88,27 @@ def main() -> int:
         require(late["heading"] == "Fachthema 084", "Titel eines späteren Skills fehlt")
         require("Nummer 084" in late["desc"], "Beschreibung eines späteren Skills fehlt")
         require(sum(bool(item["raw"]) for item in collected) == 80, "Volltextbudget der Materialauswahl überschritten")
+
+    with TemporaryDirectory() as folder:
+        plugin = Path(folder)
+        skill = plugin / "skills" / "vertrag-pruefen" / "SKILL.md"
+        skill.parent.mkdir(parents=True)
+        prefix = '---\nname: vertrag-pruefen\ndescription: Vertrag nach Belegen prüfen.\n---\n\n# Vertragsprüfung\n\n'
+        marked = (
+            '<!-- BEGIN werkstatt-visualisierung -->\n'
+            + 'Reine Oberflächenanweisung ohne Fachinhalt.\n' * 200
+            + '<!-- END werkstatt-visualisierung -->\n'
+        )
+        trailing = '\n## Nachgetragene Fachregel\n\nBelegtes Recht nach dem Visualblock nicht übergehen.\n'
+        remainder = ''.join(f'Weitere Fachzeile {number}.\n' for number in range(200))
+        skill.write_text(prefix + trailing + remainder, encoding="utf-8")
+        baseline = G.collect_skill_material(plugin)[0]
+        skill.write_text(prefix + marked + trailing + remainder, encoding="utf-8")
+        enriched = G.collect_skill_material(plugin)[0]
+        require(enriched == baseline, "Visualblock verdrängt spätere Fachregeln oder verbraucht das Fachzeilenbudget")
+        require("Belegtes Recht nach dem Visualblock" in enriched["raw"], "Nachgetragene Fachregel fehlt")
+        require(len(enriched["raw"].splitlines()) == 180, "Fachzeilenbudget wurde nicht unverändert angewendet")
+        require("Reine Oberflächenanweisung" not in enriched["raw"], "Oberflächenanweisungen wurden als Fachmaterial übernommen")
 
     print("test-prompt-generator-excerpts OK")
     return 0

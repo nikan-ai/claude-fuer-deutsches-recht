@@ -17,7 +17,7 @@ import re
 import zipfile
 
 TEXT_EXTS = {".md", ".txt", ".csv", ".eml"}
-CONTENT_SCAN_EXTS = TEXT_EXTS | {".docx", ".xlsx", ".odt", ".json", ".xml", ".yaml", ".yml"}
+CONTENT_SCAN_EXTS = TEXT_EXTS | {".docx", ".xlsx", ".odt", ".json", ".xml", ".yaml", ".yml", ".x83", ".x84"}
 
 META_MARKERS = (
     "demonstrationsakte",
@@ -280,10 +280,28 @@ def is_export_meta_file(path: Path, testakte_dir: Path) -> bool:
         and (
             (testakte_dir.name == 'bauwirtschaft-hildesheim-lebensakte'
              and relative.parts[0] == '12_Wordvorlagen')
+            or (testakte_dir.name in {
+                    'insolvenzreife-keramikfabrik-cottbus',
+                    'insolvenzreife-metallbau-berlin-zehlendorf',
+                    'insolvenzreife-hubschrauber-prenzlau',
+                } and relative.as_posix() in {
+                    '20_Vorlagen/01_Anfechtungsschreiben.docx',
+                    '20_Vorlagen/02_Anfechtungsklage.docx',
+                })
             or (testakte_dir.name.startswith('si-kanzlei-')
                 and relative.as_posix() == '09_Fachlicher_Dokumententwurf.docx')
             or (testakte_dir.name == 'gesellschaftervereinbarung-drohnenfriseur-berlin'
                 and relative.as_posix() == '02_Gesellschaftervereinbarung_Ausfuellfassung.docx')
+            or (testakte_dir.name == 'compliance-hameln-auskunft-mit-schwaerzungen'
+                and relative.as_posix() == '07_Vorlage_Auskunftsschreiben.docx')
+            or (testakte_dir.name == 'compliance-hameln-schokolade-charge-k17'
+                and relative.as_posix() in {
+                    'Grundakte/12_Vorlage_Erstentscheidung.docx',
+                    'Interne_Untersuchung/U09_Vorlage_Belegwuerdigung_und_Naechster_Schritt.docx',
+                    'Massnahmen_und_Auswertung/M11_Vorlage_Entscheidung_nach_Untersuchung.docx',
+                })
+            or (testakte_dir.name == 'compliance-hameln-geschenk-geschaeftsfuehrung'
+                and relative.as_posix() == '09_Vorlage_Entscheidungsvorlage.docx')
         )
     )
     if _contains_blocking_export_content(path, allow_template_fields=requested_template):

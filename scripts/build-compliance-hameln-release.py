@@ -22,9 +22,10 @@ from testakte_einzelpdf_common import document_arcname_pairs
 
 ROOT = Path(__file__).resolve().parents[1]
 PLUGIN = 'compliance-abteilung-grosskonzern'
-VERSION = '445.35.9'
+VERSION = '445.35.13'
 TAG = PLUGIN + '-v' + VERSION
 MATERIAL = ROOT / 'scripts/data/compliance-hameln-vertiefung.json'
+FACHVERTIEFUNG = MATERIAL.with_name('compliance-hameln-fachvertiefung.json')
 WORKSHOP = 'Hameln_Compliance_35_Testakten_und_Vorlagen.zip'
 DEBRIEF = 'Hameln_Compliance_Nachbesprechung_35.zip'
 
@@ -60,7 +61,7 @@ def inspect_archive(path, *, flat=False):
         return result
 
 
-def build_case(task):
+def build_case(task, *, individual=None):
     case, destination, rebuild = task
     dist = Path(destination)
     directory = ROOT / 'testakten' / case['slug']
@@ -69,7 +70,8 @@ def build_case(task):
     native = module('build-testakten-release-zips.py')
     separate_check = module('validate-testakten-einzelpdf-zips.py')
     native_check = module('validate-testakten-release-zips.py')
-    individual, _ = separate.build_single(directory, dist)
+    if individual is None:
+        individual, _ = separate.build_single(directory, dist)
     separate_check.assert_same(individual.name, [NOTICE_FILENAME, *separate_check.expected_arcnames(directory)],
                               separate_check.zip_entries(individual, expected_suffix='.pdf'))
     writer = PdfWriter()
@@ -78,9 +80,10 @@ def build_case(task):
     with ZipFile(individual) as archive:
         for source, arcname in pairs:
             reader = PdfReader(BytesIO(archive.read(arcname)))
-            writer.add_outline_item(source.name, len(writer.pages))
+            first_page = len(writer.pages)
             for page in reader.pages:
                 writer.add_page(page)
+            writer.add_outline_item(source.name, first_page)
     writer.compress_identical_objects(remove_duplicates=True, remove_unreferenced=True)
     buffer = BytesIO()
     writer.write(buffer)
@@ -118,6 +121,8 @@ def build(dist, *, rebuild=False, jobs=4):
     cases = json.loads(MATERIAL.read_text())['cases']
     if len(cases) != 35 or len({c['slug'] for c in cases}) != 35:
         raise ValueError('35 verschiedene Compliance-Akten sind erforderlich.')
+    if any((ROOT / 'testakten' / c['slug'] / '00_Einstieg.pdf').is_file() for c in cases):
+        raise ValueError('Für den historischen Release bitte den Tag ' + TAG + ' auschecken.')
     package = module('build-compatibility-release.py')
     plugin = ROOT / PLUGIN
     for manifest in ('plugin.json', '.claude-plugin/plugin.json', '.codex-plugin/plugin.json'):
@@ -140,8 +145,8 @@ def build(dist, *, rebuild=False, jobs=4):
     shutil.copyfile(ROOT / 'testakten/megaprompts' / (PLUGIN + '.md'), dist / (PLUGIN + '-master-prompt.md'))
     with ProcessPoolExecutor(max_workers=jobs) as executor:
         results = list(executor.map(build_case, ((c, str(dist), rebuild) for c in cases)))
-    if sum(c['documents'] for c in results) != 408:
-        raise ValueError('338 ursprüngliche und 70 ergänzende Dokumente erwartet.')
+    if sum(c['documents'] for c in results) != 420:
+        raise ValueError('338 ursprüngliche und 82 ergänzende Dokumente erwartet.')
     native = module('build-testakten-release-zips.py')
     with ZipFile(dist / WORKSHOP, 'x') as archive:
         native.write_bytes(archive, NOTICE_BYTES, NOTICE_FILENAME)
@@ -161,6 +166,7 @@ def build(dist, *, rebuild=False, jobs=4):
     members = {p.name: inspect_archive(p, flat=p.name != PLUGIN + '.zip') for p in sorted(dist.glob('*.zip'))}
     report = {'schema_version': 1, 'tag': TAG, 'version': VERSION, 'cases': results,
               'material_sha256': sha256(MATERIAL.read_bytes()).hexdigest(),
+              'fachvertiefung_sha256': sha256(FACHVERTIEFUNG.read_bytes()).hexdigest(),
               'plugin_members_sha256': hashes, 'archives': members}
     (dist / 'release-bestand.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     (dist / 'checksums-sha256.txt').write_text(''.join(f'{sha256(p.read_bytes()).hexdigest()}  {p.name}\n' for p in sorted(dist.iterdir())))

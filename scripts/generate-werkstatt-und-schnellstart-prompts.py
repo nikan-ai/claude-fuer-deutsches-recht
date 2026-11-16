@@ -27,6 +27,7 @@ from typing import Iterable
 
 from themen_profile import profile_for, ThemenProfil
 from prompt_limits import MAX_WORKSHOP_BYTES
+from skill_sources import original_skill_sources
 
 
 REPO = Path(__file__).resolve().parent.parent
@@ -3316,31 +3317,37 @@ def skill_directory_priority(path: Path) -> tuple[int, int, str]:
 
 def collect_skill_material(plugin_dir: Path) -> list[dict[str, str]]:
     items = []
-    skill_dirs = [
-        sd
-        for sd in (plugin_dir / "skills").glob("*")
-        if sd.is_dir()
-        and (sd / "SKILL.md").is_file()
-        and sd.name != "juristischer-argumentationskern"
+    skill_files = [
+        source for source in original_skill_sources(plugin_dir)
+        if source.parent.name != "juristischer-argumentationskern"
     ]
     # Alle Skills liefern Titel und Beschreibung für Auswahl und Routing. Nur
     # bei den 80 fachlich höchst priorisierten Skills wird zusätzlich ein
     # längerer Textauszug gelesen; so bleiben auch sehr große Plugins schnell,
     # ohne dass hintere Fachgebiete aus der Prompt-Landkarte verschwinden.
-    ordered_dirs = sorted(skill_dirs, key=skill_directory_priority)
-    for position, sd in enumerate(ordered_dirs):
-        slug = sd.name
-        skill_file = sd / "SKILL.md"
+    # Sammelrouter verkürzen das Auswahlmenü, nicht die fachliche Grundlage
+    # der autarken Prompts. Der Resolver liefert sämtliche Originalmodule.
+    ordered_files = sorted(skill_files, key=lambda source: skill_directory_priority(source.parent))
+    for position, skill_file in enumerate(ordered_files):
+        slug = skill_file.parent.name
         desc = slug.replace("-", " ")
         body = ""
         text = ""
         if skill_file.exists():
             try:
                 chunk_lines: list[str] = []
+                in_visual_block = False
                 with skill_file.open("r", encoding="utf-8", errors="ignore") as handle:
-                    for line_no, line in enumerate(handle, 1):
+                    for line in handle:
+                        if line.strip() == "<!-- BEGIN werkstatt-visualisierung -->":
+                            in_visual_block = True
+                            continue
+                        if in_visual_block:
+                            if line.strip() == "<!-- END werkstatt-visualisierung -->":
+                                in_visual_block = False
+                            continue
                         chunk_lines.append(line)
-                        if line_no >= (180 if position < 80 else 32):
+                        if len(chunk_lines) >= (180 if position < 80 else 32):
                             break
                 text = "".join(chunk_lines)
                 desc = frontmatter_description(text) or desc
@@ -7445,7 +7452,9 @@ def build_werkstatt(
         lines += [""] + practice_routes_lines(routes, 16)
 
     text = "\n".join(lines).strip() + "\n"
-    return sanitize(compact_werkstatt(text))
+    from werkstatt_visualisierung import block as visual_block
+
+    return compact_werkstatt(visual_block(sanitize(compact_werkstatt(text)), slug))
 
 
 def compact_schnellstart(text: str) -> str:
