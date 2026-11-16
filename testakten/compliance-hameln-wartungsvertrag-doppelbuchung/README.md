@@ -4,18 +4,28 @@ Merrensteg Elektrosysteme SE, Hameln. Vorgang ME-23. Interne Untersuchung, Beleg
 
 <!-- reserved-example-contacts -->
 
-## 1 Arbeitsauftrag
+## 1 Einstieg und Arbeitsauftrag
 
-Entwerfen Sie einen verhältnismäßigen Untersuchungsauftrag, ein Belegregister und einen vertraulichen Zwischenbericht mit Alternativerklärungen und Prüfschritten.
+Merrensteg hat eine Schaltfeldprüfung im Außendienst bestellt. In der Buchhaltung stehen zwei Rechnungen über je 18.760 Euro mit derselben Auftragsnummer, aber unterschiedlichen Gesellschaften und Bankverbindungen. Eine ist bereits bezahlt, die zweite wartet auf Freigabe. Im Anlagenbuch findet sich nur ein Termin. Nora Eibenrode soll klären, wer welche Leistung abrechnen darf und ob eine Bankverbindung geändert wurde.
 
-Für einen gestuften Vorführlauf zuerst die Stücke 01 bis 03 und den Arbeitsauftrag 08 verwenden. Datenregister, Screenshot und die Stücke 06 und 07 erst nach dem ersten Entwurf öffnen. Die PDF-Gesamtakte enthält den vollständigen Verlauf.
+Das Systemprotokoll nennt für die Änderung am 7. Oktober das technische Sammelkonto TK-Service. Zwei Vertretungen nutzen dieses Konto. Die vorgeschriebene unabhängige Rückfrage bei der bekannten Nummer ist in einer Notiz ohne Telefonnummer vermerkt. Ein KI-Entwurf kann aus „TK-Service änderte die Bankdaten“ eine persönliche Zuschreibung machen, die der technische Nachweis nicht trägt.
+
+### Vorführung in drei Runden
+
+1. **Einstieg.** `01_Eingang.eml`, `02_Sachgrundlage.docx` öffnen. Verfolgt beide Rechnungen vom Eingang bis zum Zahlungslauf. Haltet gesondert fest, welche Zahlung tatsächlich ausgeführt wurde.
+2. **Abgleich.** `03_Stellungnahme.eml`, `04_Datenregister.xlsx` öffnen. Gleicht Rechtsträger, Vertrag, Einsatznachweis und Bankdaten ab. Legt den möglichen Rückrufweg und die Grenzen der Nutzerzuordnung offen.
+3. **Neue Runde.** `06_Nachtrag.pdf`, `12_Ergaenzende_Stellungnahme.eml`, `13_Belegabgleich_und_Sicherungsstand.docx` öffnen. Nehmt die nachgereichten Angaben zur Leistung und zum Konto hinzu. Formuliert eine sichere Zwischenentscheidung und gezielte Rückfragen, ohne einzelne Beschäftigte zu beschuldigen.
+
+**Entscheidung am Ende.** Welche Verbindlichkeit und welcher Zahlungsweg sind ausreichend belegt, um die noch offene Rechnung freizugeben?
+
+**Arbeitsauftrag.** Entwerfen Sie einen verhältnismäßigen Untersuchungsauftrag, ein Belegregister und einen vertraulichen Zwischenbericht mit Alternativerklärungen und Prüfschritten. Nutzt dafür den `08_Arbeitsauftrag.pdf` und die `compliance-hameln-wartungsvertrag-doppelbuchung.docx`. Die Gesamtakte enthält alle Runden.
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
 [Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
 
-Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
 
 > Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
 >
@@ -24,12 +34,12 @@ Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen
 | Was | Format | Quelle |
 | --- | --- | --- |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/compliance-hameln-wartungsvertrag-doppelbuchung_gesamt.pdf`](gesamt-pdf/compliance-hameln-wartungsvertrag-doppelbuchung_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-compliance-hameln-wartungsvertrag-doppelbuchung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/compliance-abteilung-grosskonzern-v445.35.9/testakte-compliance-hameln-wartungsvertrag-doppelbuchung.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-compliance-hameln-wartungsvertrag-doppelbuchung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/compliance-abteilung-grosskonzern-v445.35.9/testakte-compliance-hameln-wartungsvertrag-doppelbuchung-einzelpdfs.zip) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-compliance-hameln-wartungsvertrag-doppelbuchung.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/compliance-hameln-praxis-v1.1.0/testakte-compliance-hameln-wartungsvertrag-doppelbuchung.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-compliance-hameln-wartungsvertrag-doppelbuchung-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/compliance-hameln-praxis-v1.1.0/testakte-compliance-hameln-wartungsvertrag-doppelbuchung-einzelpdfs.zip) |
 
-Die ZIP-Links laden den versionierten Komponentenrelease der Hamelner Compliance-Werkstatt. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
 
-English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the versioned Hameln compliance release.
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -39,6 +49,7 @@ English: The original-format ZIP contains the working files directly at archive 
 >
 > This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
+- [Sachverhalt und Arbeitsauftrag (PDF)](00_Einstieg.pdf)
 - [01_Eingang.eml](01_Eingang.eml)
 - [02_Sachgrundlage.docx](02_Sachgrundlage.docx)
 - [03_Stellungnahme.eml](03_Stellungnahme.eml)

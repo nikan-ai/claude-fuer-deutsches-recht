@@ -5,7 +5,7 @@
 
 [Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
 
-Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
 
 > Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
 >
@@ -14,12 +14,12 @@ Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen
 | Was | Format | Quelle |
 | --- | --- | --- |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/notariat-bautraegerkauf-parkhof-potsdam_gesamt.pdf`](gesamt-pdf/notariat-bautraegerkauf-parkhof-potsdam_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-notariat-bautraegerkauf-parkhof-potsdam.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-notariat-bautraegerkauf-parkhof-potsdam.zip) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-notariat-bautraegerkauf-parkhof-potsdam.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-notariat-bautraegerkauf-parkhof-potsdam.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-notariat-bautraegerkauf-parkhof-potsdam-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-notariat-bautraegerkauf-parkhof-potsdam-einzelpdfs.zip) |
 
-Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
 
-English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -40,6 +40,6 @@ Julia und Martin König möchten eine Neubauwohnung mit Stellplatz erwerben. Ver
 
 ## 3. Formate und Zugriff
 
-Acht getrennte Unterlagen in DOCX, EML und TXT bilden den Arbeitsordner. Das Gesamt-PDF und das Einzel-PDF-ZIP enthalten dieselben Dokumente. Das Originalformat-ZIP enthält die nativen Dateien und das Gesamt-PDF, ohne Unterordner oder Markdown. Beide ZIPs enthalten eine README.txt mit dem vorgeschriebenen Hinweis. Entwürfe, die erst aus diesen Unterlagen erstellt werden sollen, sind nicht als Ergebnis vorgegeben.
+Acht getrennte Unterlagen in DOCX, EML und TXT bilden den Arbeitsordner. Das Gesamt-PDF und das Einzel-PDF-ZIP enthalten dieselben Dokumente. Im Originalformat-ZIP liegen die Eingangsunterlagen im Ordner `Grundakte`. Die PDF-Lesefassung steht als eigener Download bereit. Beide ZIPs enthalten eine README.txt mit dem vorgeschriebenen Hinweis. Entwürfe, die erst aus diesen Unterlagen erstellt werden sollen, sind nicht als Ergebnis vorgegeben.
 
-English: Eight separate source documents for notarial staff preparation. Choose the combined PDF for reading, the individual-PDF ZIP for separate documents or the native-format ZIP for the original working files. Both ZIP archives are flat. Outstanding evidence and pending decisions remain open; the documents do not prescribe an outcome.
+English: Eight separate source documents for notarial staff preparation. Choose the combined PDF for reading, the individual-PDF ZIP for separate documents or the native-format ZIP for the original working files. Start with the `Grundakte` folder inside the native archive. Outstanding evidence and pending decisions remain open; the documents do not prescribe an outcome.
