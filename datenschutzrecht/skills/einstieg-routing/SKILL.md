@@ -26,16 +26,16 @@ Wenn Fristdruck besteht, zuerst Kenntniszeitpunkt, Monatsfrist, 72-Stunden-Frist
 
 ## Fachlandkarte dieses Plugins
 
-- `anwendungsfall-triage` — erste Rollen-, Fristen- und Output-Weiche
-- `dsgvo-auskunft` — Auskunftsersuchen prüfen und beantworten
-- `datenschutz-loeschpflicht-art-17-und-aufbewahrung` — Löschung, Sperrung und Aufbewahrung trennen
-- `datenschutz-beschwerde-art-77-aufsichtsbehoerde` — Beschwerde- und Behördenpfad
-- `datenpanne-meldung` — Meldeentscheidung und 72-Stunden-Timeline
-- `meldung-art-33-pflichtangaben` — Meldung nach Art. 33 DSGVO — Pflichtangaben generisch
-- `avv-art-28-mindestinhalte-checkliste` — Auftragsverarbeitungsvertrag prüfen
-- `avv-art-26-joint-controllership-deutsch` — AVV ART 26 Joint Controllership Deutsch
-- `drittlandstransfer-tia-scc` — Transfer Impact Assessment und Standardklauseln
-- `dokumente-intake` — Unterlagen sortieren und Lücken schließen
+- `datenschutz-aufnahme-grundlagen-bearbeiten` (Fachthema: anwendungsfall-triage) — erste Rollen-, Fristen- und Output-Weiche
+- `betroffenenrechte-auskunft-loeschung-bearbeiten` (Fachthema: dsgvo-auskunft) — Auskunftsersuchen prüfen und beantworten
+- `betroffenenrechte-auskunft-loeschung-bearbeiten` (Fachthema: datenschutz-loeschpflicht-art-17-und-aufbewahrung) — Löschung, Sperrung und Aufbewahrung trennen
+- `aufsicht-beschwerde-kooperation-bearbeiten` (Fachthema: datenschutz-beschwerde-art-77-aufsichtsbehoerde) — Beschwerde- und Behördenpfad
+- `datenpanne-reaktion-meldung-bearbeiten` (Fachthema: datenpanne-meldung) — Meldeentscheidung und 72-Stunden-Timeline
+- `datenpanne-reaktion-meldung-bearbeiten` (Fachthema: meldung-art-33-pflichtangaben) — Meldung nach Art. 33 DSGVO — Pflichtangaben generisch
+- `avv-gemeinsame-verantwortung-bearbeiten` (Fachthema: avv-art-28-mindestinhalte-checkliste) — Auftragsverarbeitungsvertrag prüfen
+- `avv-gemeinsame-verantwortung-bearbeiten` (Fachthema: avv-art-26-joint-controllership-deutsch) — AVV ART 26 Joint Controllership Deutsch
+- `drittlandtransfer-scc-tia-bearbeiten` (Fachthema: drittlandstransfer-tia-scc) — Transfer Impact Assessment und Standardklauseln
+- `datenschutz-akte-qualitaet-bearbeiten` (Fachthema: dokumente-intake) — Unterlagen sortieren und Lücken schließen
 
 ## Arbeitsweg
 
@@ -50,3 +50,23 @@ Wenn Fristdruck besteht, zuerst Kenntniszeitpunkt, Monatsfrist, 72-Stunden-Frist
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Datenschutzrecht:** Was ist tatsächlich bekannt, wer behauptet etwas und welche Daten werden für die Untersuchung benötigt?
+
+**Erste Ansicht:** Zeige einen belegten Ereignisverlauf und die Verbindung zwischen Behauptung, Quelle und noch ungeklärter Frage. Trenne Beobachtung, Schlussfolgerung, Verdacht und widerlegenden Befund.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Zeitraum, Vorgang oder Quelle darf zusammengehörige Belege öffnen. Bei Schwärzungen Original, Arbeitskopie, Zweck und verbleibenden Personenbezug getrennt halten; verdeckter Text ist nicht schon technisch entfernt.
+
+**Datengrundlage:** Ereignis, Herkunft, Rolle der Person, Aussagequalität, Zeitpunkt, Originalfundstelle und zulässiger Bearbeitungsumfang. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** Untersuchungsplan oder belegter Zwischenbericht und die beauftragte Antwort, Befragung oder Maßnahme. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

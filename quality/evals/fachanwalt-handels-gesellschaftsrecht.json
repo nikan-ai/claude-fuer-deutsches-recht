@@ -93,6 +93,12 @@
       "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1",
       "checked_on": "2026-10-01",
       "supports": "Formelle Listenlegitimation und materielle Gesellschafterstellung unterscheiden; bei ernstlichem Bestreiten kann Feststellungsinteresse trotz zutreffender Liste bestehen. Grenze: Kein Nachweis von Einziehungsgrund, Kapitalerhaltung oder Finanzierbarkeit der Abfindung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-10",
+      "supports": "Für die ab 1. Januar 2024 beantragte Umschreibung bei der Alt-GbR zuerst Gesellschaftsregister und danach Voreintragung im Grundbuch prüfen. Registerpublizität zur Vertretung von Grundstückserwerb unterscheiden.",
+      "source_sha256": "03c02ef1fdd24d3051fe5d2392c60648ac96b8d38e99876de5c3a592270d2e73"
     }
   ],
   "mini_review": {
@@ -187,7 +193,7 @@
       "Mitgliedschaftsstreit und Manager-Hinauskündigung in Werkstatt/Mini/Gesellschafterstreitskill verankert; Listeneintrag nicht als abschließenden materiellen Berechtigungsnachweis verwenden.",
       "Einstiegsredaktion 16.10.2026, Batch 2: Beschluss, Abfindung oder Handelsvertrag führen zum konkreten Ergebnis; freies Vermögen bei Einziehung wird zeitlich eingeordnet. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
     ],
-    "sha256": "27abf2ff30955ba600d7f3ca807dfbe6e26ced065546b6ea77bf3967630d324f"
+    "sha256": "f84521a994fef6c1140319d2fef0f48368d428e9b7d618ba3ab3356ecebeb204"
   },
   "prompt_editorial_review": {
     "date": "2026-10-01",
@@ -196,9 +202,11 @@
       "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-hauptproblem.md",
       "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-schnellstart.md",
       "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-werkstatt.md",
-      "fachanwalt-handels-gesellschaftsrecht/skills/gesellschafterstreit/SKILL.md",
+      "fachanwalt-handels-gesellschaftsrecht/skills/gesellschafterstreit/FACHINHALT.md",
       "fachanwalt-handels-gesellschaftsrecht/skills/gmbh-einziehung-abfindung-finanzierbarkeit/SKILL.md",
-      "quality/evals/fachanwalt-handels-gesellschaftsrecht.json"
+      "quality/evals/fachanwalt-handels-gesellschaftsrecht.json",
+      "fachanwalt-handels-gesellschaftsrecht/skills/fachanwalt-handels-gesellschaftsrecht-orientierung/FACHINHALT.md",
+      "fachanwalt-handels-gesellschaftsrecht/skills/einstieg-in-den-skill-verbund-handels-und-gesellschaftsrecht/FACHINHALT.md"
     ],
     "opening_change": "Beschluss, Abfindungsfinanzierung und konkrete Anspruchsrichtung stehen am Anfang; der Schwerpunkt fragt nach freien Mitteln am Beschlusstag und späteren Zahlungssperren. Workflow-Ergänzung: Leer: Beschlussprüfung, Einziehung oder Handelsforderung anbieten. Dateien ohne Aufgabe: Satzung, Beschluss, Finanzierung und Lieferbelege still lesen; Wirksamkeits-, Abfindungs- oder Zahlungsziel klären. Klarer Auftrag: verlangte Stellungnahme oder Vereinbarung unmittelbar erstellen, keine ungefragte Gesellschaftsübersicht.",
     "norms": [
@@ -234,6 +242,13 @@
         "application": "Formelle Listenlegitimation und materielle Gesellschafterstellung unterscheiden; bei ernstlichem Bestreiten kann Feststellungsinteresse trotz zutreffender Liste bestehen.",
         "limit": "Kein Nachweis von Einziehungsgrund, Kapitalerhaltung oder Finanzierbarkeit der Abfindung.",
         "checked_on": "2026-10-01"
+      },
+      {
+        "citation": "BGH, Beschluss vom 03.07.2025 – V ZB 17/24, Rn. 6–11, 17–25 und 30",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-11-10",
+        "application": "Für die ab 1. Januar 2024 beantragte Umschreibung bei der Alt-GbR zuerst Gesellschaftsregister und danach Voreintragung im Grundbuch prüfen. Registerpublizität zur Vertretung von Grundstückserwerb unterscheiden.",
+        "limit": "Der Beschluss betrifft die rechtsgeschäftliche Übertragung des einzigen Grundstücks an die Gesellschafter. Trotz Bewilligung und Auflassung 2023 ging der Antrag erst im Februar 2024 ein. Die Prüfung der Gesamtrechtsnachfolge und des gutgläubigen Erwerbs richtet sich nach dem konkreten Fall. Die Voreintragungspflicht setzt einen Vollzugsanlass voraus."
       }
     ],
     "remaining_limits": [
@@ -261,5 +276,16 @@
     "report": "quality/source-audits/fachanwaltschaft-2026-10-01/fachanwalt-handels-gesellschaftsrecht.json",
     "limits": "Zwei aktuelle oberstgerichtliche Entscheidungen fachlich geprüft; keine Vollprüfung sämtlicher Fachskills oder älterer Quellen und kein neuer Modelllauf.",
     "focus_scope": "Hauptproblem/Fokusskill zur Einziehungsfinanzierung erhalten II ZR50/25 als Mitgliedschaftsvorfrage. Managerbeteiligungsentscheidung bleibt im breiten Gesellschaftsstreit; ältere Kapitalerhaltungs-/Abfindungsanker bleiben tragend."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-hauptproblem.md",
+      "fachanwalt-handels-gesellschaftsrecht/fachanwalt-handels-gesellschaftsrecht-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }

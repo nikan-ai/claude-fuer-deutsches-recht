@@ -11,21 +11,21 @@ Bearbeite die Fluggastforderung anhand von Buchung, Flugverlauf und vorhandener 
 
 ## Fachlandkarte dieses Plugins
 
-- `abtretung-an-fluggastportal-spezial` — Abtretung AN Fluggastportal Spezial
-- `airline-bonitaet-und-vollstreckung` — Airline Bonitaet und Vollstreckung
-- `airline-standardausreden-annullierung` — Airline Standardausreden Annullierung
-- `airline-standardausreden-pruefen` — Airline Standardausreden Prüfen
+- `verfahren-bearbeiten` (Fachthema: abtretung-an-fluggastportal-spezial) — Abtretung AN Fluggastportal Spezial
+- `anspruch-bearbeiten` (Fachthema: airline-bonitaet-und-vollstreckung) — Airline Bonitaet und Vollstreckung
+- `ereignis-und-zeit-bearbeiten` (Fachthema: airline-standardausreden-annullierung) — Airline Standardausreden Annullierung
+- `arbeitsprodukt-bearbeiten` (Fachthema: airline-standardausreden-pruefen) — Airline Standardausreden Prüfen
 - `anlagen-bauen` — Anlagen Bauen
-- `annullierung-oder-verspaetung-einordnen` — Annullierung Oder Verspaetung Einordnen
-- `annullierung-schriftsatz-brief-memo-bausteine` — Annullierung Schriftsatz Brief Memo Bausteine
-- `annullierung-schriftsatz-brief-und-memo-bausteine` — Annullierung Schriftsatz Brief und Memo Bausteine
-- `anschluss-router` — Anschluss Router
-- `anschlussflug-und-reiseplan` — Anschlussflug und Reiseplan
-- `ausgleich-internationaler-bezug-schnittstellen` — Ausgleich Internationaler Bezug Schnittstellen
-- `ausgleich-internationaler-bezug-und-schnittstellen` — Ausgleich Internationaler Bezug und Schnittstellen
-- `ausnahmen-aussergewoehnliche-umstaende` — Ausnahmen Aussergewoehnliche Umstaende
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `ereignis-und-zeit-bearbeiten` (Fachthema: annullierung-oder-verspaetung-einordnen) — Annullierung Oder Verspaetung Einordnen
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: annullierung-schriftsatz-brief-memo-bausteine) — Annullierung Schriftsatz Brief Memo Bausteine
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: annullierung-schriftsatz-brief-und-memo-bausteine) — Annullierung Schriftsatz Brief und Memo Bausteine
+- `buchung-und-reichweite-bearbeiten` (Fachthema: anschluss-router) — Anschluss Router
+- `anspruch-bearbeiten` (Fachthema: anschlussflug-und-reiseplan) — Anschlussflug und Reiseplan
+- `anspruch-bearbeiten` (Fachthema: ausgleich-internationaler-bezug-schnittstellen) — Ausgleich Internationaler Bezug Schnittstellen
+- `anspruch-bearbeiten` (Fachthema: ausgleich-internationaler-bezug-und-schnittstellen) — Ausgleich Internationaler Bezug und Schnittstellen
+- `anspruch-bearbeiten` (Fachthema: ausnahmen-aussergewoehnliche-umstaende) — Ausnahmen Aussergewoehnliche Umstaende
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -52,3 +52,23 @@ Konkret zu prüfen:
 - Einen passenden Spezialskill optional nutzen; sein Aufruf oder seine Benennung ersetzt nicht die Bearbeitung. Kein weiterer Dateizugriff ist Voraussetzung für die Fortsetzung mit den vorliegenden Angaben.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
 - Interne Quellen- und Zugriffshinweise getrennt vom Empfängertext halten. Vollständige Sätze und dezimale Gliederung; für formatierte Dokumente Times New Roman 11 pt, sonst entsprechender Exporthinweis. Versand, Abtretung oder Klageeinreichung nicht eigenmächtig veranlassen.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Fluggastrechte:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

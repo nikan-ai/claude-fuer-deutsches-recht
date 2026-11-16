@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "version": "445.36.6",
+  "tag": "qualitaetsrunde-v445.36.6",
+  "plugins": [
+    {
+      "name": "playbook-pruefer",
+      "variants": [
+        "native"
+      ],
+      "prompts": [
+        "playbook-pruefer-werkstatt.md",
+        "playbook-pruefer-werkstatt.txt",
+        "playbook-pruefer-schnellstart.md",
+        "playbook-pruefer-schnellstart.txt",
+        "playbook-pruefer-hauptproblem.md",
+        "playbook-pruefer-hauptproblem.txt"
+      ]
+    }
+  ]
+}

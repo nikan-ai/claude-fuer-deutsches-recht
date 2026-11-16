@@ -206,6 +206,12 @@
       "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__40-25.pdf?__blob=publicationFile&v=1",
       "checked_on": "2026-09-30",
       "supports": "BGH, Urteil vom 21.01.2026 – IV ZR 40/25, Rn. 9–16, 21, 27–33: Testamentsformstatut nach vorrangigem Haager Übereinkommen entscheidet auch über Folgen territorial überschrittener Amtsbefugnis. Niederländisches Testament im konkreten Fall; keine allgemeine Erlaubnis ausländischer Notare zu Amtstätigkeit in Deutschland."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-10",
+      "supports": "Für die ab 1. Januar 2024 beantragte Umschreibung bei der Alt-GbR zuerst Gesellschaftsregister und danach Voreintragung im Grundbuch prüfen. Registerpublizität zur Vertretung von Grundstückserwerb unterscheiden.",
+      "source_sha256": "03c02ef1fdd24d3051fe5d2392c60648ac96b8d38e99876de5c3a592270d2e73"
     }
   ],
   "mini_review": {
@@ -215,20 +221,23 @@
       "Formsonderfälle und Einreichungsfolge konkretisiert.",
       "Bank-, Register-, Familien- und Vorsorgeantworten in die gesamte betroffene Vorlage weiterführen.",
       "Mini deckt alle Fachbereiche innerhalb 7500 UTF-8-Bytes und Zeichen ab; Werkstatt enthält vollständige Anschreiben und abgegrenzte Klauselbeispiele.",
-      "Redaktion 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+      "Redaktion 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
+      "Quellenprüfung 10.11.2026: V ZB 17/24 für den Vollzug nach MoPeG angewendet."
     ],
-    "sha256": "cb84fea83066bf73a457ee17ca71be3454329b22c8d634e879d317e1379bc78d"
+    "sha256": "176bcb1e7cc034b1e7d43a05676c6dec1eb631ce1b7943b334beaf38ca68389c"
   },
   "workshop_review": {
     "verdict": "revised",
-    "reason": "Individuelle Prüfung aller 20 Arbeitswege; fachliche Form- und Vollzugslücken geschlossen und Fortsetzung bis zum vollständigen Entwurf verbessert. Desk-Review, kein beobachteter Live-Client-Test. Redaktionelle Einstiegslektüre am 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt.",
+    "reason": "Individuelle Prüfung aller 20 Arbeitswege; fachliche Form- und Vollzugslücken geschlossen und Fortsetzung bis zum vollständigen Entwurf verbessert. Desk-Review, kein beobachteter Live-Client-Test. Redaktionelle Einstiegslektüre am 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Die Quellenprüfung vom 16.11.2026 ergänzt die konkret dokumentierte Änderung zum Entscheidungsstichtag 31.10.2026.",
     "changes": [
       "Formsonderfälle und Einreichungsfolge konkretisiert.",
       "Bank-, Register-, Familien- und Vorsorgeantworten in die gesamte betroffene Vorlage weiterführen.",
       "Mini deckt alle Fachbereiche innerhalb 7500 UTF-8-Bytes und Zeichen ab; Werkstatt enthält vollständige Anschreiben und abgegrenzte Klauselbeispiele.",
-      "Redaktion 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Keine neue fachliche Vollprüfung und kein Live-Modelltest."
+      "Redaktion 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
+      "Quellenprüfung 10.11.2026: V ZB 17/24 für den Vollzug nach MoPeG angewendet.",
+      "Fristbeginn zum gemeindlichen Vorkaufsrecht nach III ZR 3/26 an korrekte Mitteilung über den Genehmigungsstand knüpfen."
     ],
-    "sha256": "1ad9e354eb7b4d6d993eac7567f57b4755578675ccf5719086f2ebcf4613ff73"
+    "sha256": "7f35c2ba767291424d43a99a8a38d3ad5b5d168e53fd8e7e41b3c7c2f59a5354"
   },
   "selection": {
     "positive": [
@@ -1148,6 +1157,13 @@
         "checked_on": "2026-09-30",
         "application": "Testamentsformstatut nach vorrangigem Haager Übereinkommen entscheidet auch über Folgen territorial überschrittener Amtsbefugnis.",
         "limit": "Niederländisches Testament im konkreten Fall; keine allgemeine Erlaubnis ausländischer Notare zu Amtstätigkeit in Deutschland."
+      },
+      {
+        "citation": "BGH, Beschluss vom 03.07.2025 – V ZB 17/24, Rn. 6–11, 17–25 und 30",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-11-10",
+        "application": "Für die ab 1. Januar 2024 beantragte Umschreibung bei der Alt-GbR zuerst Gesellschaftsregister und danach Voreintragung im Grundbuch prüfen. Registerpublizität zur Vertretung von Grundstückserwerb unterscheiden.",
+        "limit": "Der Beschluss betrifft die rechtsgeschäftliche Übertragung des einzigen Grundstücks an die Gesellschafter. Trotz Bewilligung und Auflassung 2023 ging der Antrag erst im Februar 2024 ein. Die Prüfung der Gesamtrechtsnachfolge und des gutgläubigen Erwerbs richtet sich nach dem konkreten Fall. Die Voreintragungspflicht setzt einen Vollzugsanlass voraus."
       }
     ],
     "remaining_limits": [
@@ -1234,10 +1250,10 @@
     },
     {
       "path": "notariat-alltag/skills/grundbuchantrag-rangstelle-notarielle/SKILL.md",
-      "sha256": "312a488bd18068ee51a1027daeb99107f2e266ca068afc7028917eb06744a924",
+      "sha256": "6d2da6526ee84d70d3e29ca8f18c26c2f838d818f321d42248bb76dfd34da083",
       "verdict": "revised",
       "method": "desk_review",
-      "reviewed_on": "2026-09-25"
+      "reviewed_on": "2026-11-10"
     },
     {
       "path": "notariat-alltag/skills/grundschuld-buchgrundschuld-treuhand/SKILL.md",
@@ -1248,7 +1264,7 @@
     },
     {
       "path": "notariat-alltag/skills/kaltstart-triage/SKILL.md",
-      "sha256": "eb7d41abffbc29b9808d104182dec5a340ad6655ef08ce42e1df63bc7b139cb4",
+      "sha256": "c925e8b4128d83e08a19ec4a6a4c65644484c8b412ff0b368a6a230c57666beb",
       "verdict": "revised",
       "method": "desk_review",
       "reviewed_on": "2026-09-25"
@@ -1269,10 +1285,10 @@
     },
     {
       "path": "notariat-alltag/skills/nachlassauseinandersetzung-grundbuch/SKILL.md",
-      "sha256": "96b623343d0e0ba56b265ee507293ef7d300d3e7cb2eec725a591628265ee944",
-      "verdict": "retained",
+      "sha256": "33fb351c980c384f6656ac926a808711f24b0b96107ad062f728a9c4909d8822",
+      "verdict": "revised",
       "method": "desk_review",
-      "reviewed_on": "2026-09-25"
+      "reviewed_on": "2026-11-10"
     },
     {
       "path": "notariat-alltag/skills/umwandlung-verschmelzung-kapitalerhoehung/SKILL.md",
@@ -1416,5 +1432,26 @@
     "method": "desk_review",
     "status": "prepared_not_executed",
     "scope": "Zwei ausführliche Anfragen als selbständige Ein-Datei-Prüfaufträge; die zehn ergänzenden Aktenstücke wurden auf Chronologie und Rollen abgeglichen. Keine Live-Modellausführung."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "notariat-alltag/notariat-alltag-werkstatt.md",
+      "notariat-alltag/skills/kaltstart-triage/SKILL.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "werkstatt_stichtagsnachpruefung_2026_10_31": {
+    "checked_on": "2026-11-16",
+    "decision_cutoff": "2026-10-31",
+    "scope": "Gezielte fachliche Nachprüfung der geänderten Passagen; frühere Rechts- und Workflowprüfungen bleiben als eigene Prüfstände dokumentiert.",
+    "report": "quality/source-audits/2026-10-31-werkstatt/README.md",
+    "finding": "Fristbeginn zum gemeindlichen Vorkaufsrecht nach III ZR 3/26 an korrekte Mitteilung über den Genehmigungsstand knüpfen.",
+    "path": "notariat-alltag/notariat-alltag-werkstatt.md",
+    "before_sha256": "d7f3de3fdea37a56a1e6d5605d3fb53a05c249d4e3dfb88d8ff643636247336b",
+    "after_sha256": "7f35c2ba767291424d43a99a8a38d3ad5b5d168e53fd8e7e41b3c7c2f59a5354"
   }
 }

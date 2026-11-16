@@ -51,7 +51,7 @@ Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, G
 
 ### 3.2. KI-Einsatz in Personal- und Kündigungsakten
 
-Nutze bei vertiefter Prüfung den [Fachskill](../ki-einfuehrung-qualifizierung-kuendigung/SKILL.md). Im Einzelprompt bearbeite die Kernfragen direkt. Sichere Zweck, Weisung und Bekanntgabe, Datenfluss, maßgebliche Eingabe und Ausgabe, menschliche Freigabe, Schulungsstand und Prüfzeit. Prüfe unter Paragraf 106 GewO die konkrete Weisung und nach Paragraf 611a, Paragraf 613 und Paragraf 241 Absatz 2 BGB die geschuldete Eigenleistung und zumutbare Kontrolle. Stelle individuelle Verantwortung, Organisationsbeitrag und anwendbare Aufsichtspflicht gesondert dar. Beim Vorstand einer AG prüfe Legalität und Organisation nach Paragraf 93 Absatz 1 Satz 1 AktG und den Entscheidungsspielraum auf angemessener Informationsgrundlage nach Satz 2. Unabhängigen fachkundigen Rechtsrat und ein KI-Ergebnis getrennt würdigen. Bei Paragraf 130 OWiG Inhaberpflicht, konkrete Zuwiderhandlung, schuldhaft unterlassene Aufsicht und deren mögliche Wirkung nachweisen.
+Nutze bei vertiefter Prüfung den [Fachskill](../ki-einfuehrung-qualifizierung-kuendigung/FACHINHALT.md). Im Einzelprompt bearbeite die Kernfragen direkt. Sichere Zweck, Weisung und Bekanntgabe, Datenfluss, maßgebliche Eingabe und Ausgabe, menschliche Freigabe, Schulungsstand und Prüfzeit. Prüfe unter Paragraf 106 GewO die konkrete Weisung und nach Paragraf 611a, Paragraf 613 und Paragraf 241 Absatz 2 BGB die geschuldete Eigenleistung und zumutbare Kontrolle. Stelle individuelle Verantwortung, Organisationsbeitrag und anwendbare Aufsichtspflicht gesondert dar. Beim Vorstand einer AG prüfe Legalität und Organisation nach Paragraf 93 Absatz 1 Satz 1 AktG und den Entscheidungsspielraum auf angemessener Informationsgrundlage nach Satz 2. Unabhängigen fachkundigen Rechtsrat und ein KI-Ergebnis getrennt würdigen. Bei Paragraf 130 OWiG Inhaberpflicht, konkrete Zuwiderhandlung, schuldhaft unterlassene Aufsicht und deren mögliche Wirkung nachweisen.
 
 Trenne fehlerhafte Ausgabe, konkrete Pflichtverletzung, Vorwerfbarkeit, Wiederholungsgefahr und milderes Mittel. Sichere bei vertraulichen Uploads Datenart, Übertragungsnachweis, Anbieterzugriff und einschlägige Weisung. Datenschutzvorfall und arbeitsrechtliche Folgen getrennt prüfen. Bei Paragraf 626 BGB eigenständige Interessenabwägung, Zweiwochenfrist und Anhörung nach Paragraf 102 BetrVG bearbeiten. BAG, Urteil vom 24.03.2011, 2 AZR 282/10, Rn. 22 bis 31, hilft bei der Gewichtung einer vergleichbaren Pflichtverletzung. Der dortige Datenträgerfall entscheidet keinen KI-Upload. [Amtlicher Volltext](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-282-10/)
 
@@ -132,3 +132,23 @@ Ausgangspunkt für dieses Plugin: Arbeitgeber für Vertragsbedingungen, Zeiterfa
 11.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
 11.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
 11.7. Ist das Ergebnis unmittelbar als Vertrag, Personalvermerk, Zeit- oder Vergütungskorrektur, Beteiligungsvorlage, Abmahnung, Feststellungsklage, Vergleich oder Abwicklung verwendbar?
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 12. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Arbeitsrecht:** Welche Ereignisse, Nachweise und nächsten Schritte hängen zeitlich zusammen?
+
+**Erste Ansicht:** Zeige eine Zeitachse mit Ereignisdatum, Zugang oder Kenntnis, belegter Frist und zugehöriger Unterlage; ordne Personen und Zuständigkeiten eindeutig zu.
+
+**Sinnvolle Interaktion:** Bei mehreren Vorgängen kann eine Auswahl auf Person oder Zeitraum fokussieren. Ein abweichendes Zugangsdatum ist ein gekennzeichnetes Szenario; Frist und betroffener Entwurf werden nach erneuter Rechtsprüfung gemeinsam angepasst.
+
+**Datengrundlage:** Datum, Datumsart, Beteiligter, Handlung, Quelle, belegter Fristmaßstab und offene Nachweise. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** Fristenblatt und das beauftragte Schreiben, die Personalmaßnahme oder der begründete Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

@@ -11,21 +11,21 @@ Dieser Einstieg routet **Urteilsbauer Relationsmacher** vom ersten Sachverhalt z
 
 ## Fachlandkarte dieses Plugins
 
-- `aktenintake-schriftsatz-brief-und-memo-bausteine` — Aktenintake Schriftsatz Brief und Memo Bausteine
-- `aktenintake-zivil` — Aktenintake Zivil
-- `amts-aktenintake-zivil-anspruchsgrundlagen` — Amts Aktenintake Zivil Anspruchsgrundlagen
-- `amts-fristen-form-zustaendigkeit` — Amts Fristen Form Zustaendigkeit
-- `anspruchsgrundlagen-pruefen` — Anspruchsgrundlagen Prüfen
-- `berufungsfest-beschluss-bauen-beweisbeschluss` — Berufungsfest Beschluss Bauen Beweisbeschluss
-- `berufungsfest-pruefen` — Berufungsfest Prüfen
-- `beschluss-bauen-zpo` — Beschluss Bauen ZPO
-- `beschluss-tatbestand-beweis-und-belege` — Beschluss Tatbestand Beweis und Belege
-- `beschluss-tatbestandsmerkmale` — Beschluss Tatbestandsmerkmale
-- `beweisbeschluss-vorbereiten` — Beweisbeschluss Vorbereiten
-- `beweiswuerdigung-mit-richter-input` — Beweiswuerdigung mit Richter Input
-- `beweiswuerdigung-quellenkarte` — Beweiswuerdigung Quellenkarte
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: aktenintake-schriftsatz-brief-und-memo-bausteine) — Aktenintake Schriftsatz Brief und Memo Bausteine
+- `aktenaufnahme-bearbeiten` (Fachthema: aktenintake-zivil) — Aktenintake Zivil
+- `aktenaufnahme-bearbeiten` (Fachthema: amts-aktenintake-zivil-anspruchsgrundlagen) — Amts Aktenintake Zivil Anspruchsgrundlagen
+- `aktenaufnahme-bearbeiten` (Fachthema: amts-fristen-form-zustaendigkeit) — Amts Fristen Form Zustaendigkeit
+- `relation-bearbeiten` (Fachthema: anspruchsgrundlagen-pruefen) — Anspruchsgrundlagen Prüfen
+- `beweis-bearbeiten` (Fachthema: berufungsfest-beschluss-bauen-beweisbeschluss) — Berufungsfest Beschluss Bauen Beweisbeschluss
+- `relation-bearbeiten` (Fachthema: berufungsfest-pruefen) — Berufungsfest Prüfen
+- `beweis-bearbeiten` (Fachthema: beschluss-bauen-zpo) — Beschluss Bauen ZPO
+- `beweis-bearbeiten` (Fachthema: beschluss-tatbestand-beweis-und-belege) — Beschluss Tatbestand Beweis und Belege
+- `beweis-bearbeiten` (Fachthema: beschluss-tatbestandsmerkmale) — Beschluss Tatbestandsmerkmale
+- `beweis-bearbeiten` (Fachthema: beweisbeschluss-vorbereiten) — Beweisbeschluss Vorbereiten
+- `beweis-bearbeiten` (Fachthema: beweiswuerdigung-mit-richter-input) — Beweiswuerdigung mit Richter Input
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: beweiswuerdigung-quellenkarte) — Beweiswuerdigung Quellenkarte
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -44,3 +44,23 @@ Unabhängig tragfähige Teile vorläufig ausarbeiten und nach Klärung bis zur b
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Fachskills sind optionale Vertiefungen; ihre Empfehlung ersetzt nicht die Fertigstellung. Interne Quellen- und Prüfnotizen getrennt vom Entscheidungsentwurf halten.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Zivilrichterliche Arbeit: Relation, Verhandlung und Urteil:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

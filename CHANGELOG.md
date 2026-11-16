@@ -1,3 +1,47 @@
+# Vier gemeinsame Fachplugins 445.36.5 – 15. November 2026
+
+Bauträgervertragsprüfung, Arbeitszeugnisprüfung, Sozialversicherungsstatus und Bau-Einkauf erhalten jeweils einen gemeinsamen Einstieg mit 10, 8, 14 und 14 auswählbaren Skills. Die Fachtexte, Vorlagen und beide bisherigen Fallbestände bleiben erhalten. Historische Quellordner führen zum gemeinsamen Plugin; sie bleiben als nachprüfbarer Bestand zugänglich.
+
+Ein Erhaltungsinventar bindet 20.079 Akten- und Anhangsdateien an den Ausgangscommit. Die Prüfung erkennt fehlende oder veränderte Dateien sowie verlorene Fallverweise. Gezielte Korrekturen betreffen unter anderem Zeugnisnoten, Verjährungshemmung und die fachliche Statusansicht. [Übernahme und Prüfgrenzen](quality/plugin-consolidation/2026-11-15/README.md), [Releaseumfang](docs/releases/qualitaetsrunde-v445.36.5.md).
+
+# Insolvenzrecht 445.36.2 – 15. November 2026
+
+Zehn eigenständig einsetzbare Werkstattprompts zu §§ 130–139 InsO vertiefen Tatbestandsmerkmale, Belegkennzeichnung, Beweislast, Gegenposition und ausformulierte Arbeitsergebnisse. Insgesamt 63.479 Wörter und 179 PDF-Seiten; die elf vorhandenen Anfechtungsskills laden jeweils die passende Vertiefung. Große Texte, Einzel-PDFs und Gesamtband sind als gesonderte Downloads verfügbar.
+
+Liquiditätsplanung und Insolvenzreifeprüfer erhalten einen dokumentierten amtlichen Quellenabgleich einschließlich der eng eingeordneten Entscheidungen II ZR 30/25 und IX ZR 150/25. Der Exportprüfer kontrolliert vollständigen Text, Quellenlinks und Seitenfolge; der Releasebau bindet die Pakete an den geprüften Checkout. [Releaseumfang und Prüfgrenzen](docs/releases/qualitaetsrunde-v445.36.2.md).
+
+# Qualitätsrunde 445.36.1 – 15. November 2026
+
+Die 31 noch offenen Dateireviews der Profile Anwaltschaft allgemein, Corporate Contract Law, Gesellschafterstreit und Wirtschaftsanwalt sind vollständig nachgeprüft und mit individuellen Enddatei- und Quellenbelegen abgeschlossen. Frühere Profile bleiben unverändert archiviert. Präzisierungen betreffen insbesondere B2B-Klauseln, Abnahme und Sicherheiten, DSGVO, anwaltliche Verschwiegenheit, Insolvenzreife und Zustellungsnachweise.
+
+Der Releasebau verlangt vollständige, unveränderte Abschlussbelege für die vier richtigen Pluginprofile. Das Komponentenrelease liefert vier Plugin-ZIPs und fünfzehn Promptdateien samt Inventar und Prüfsummen. [Einzelbefunde und Grenzen](quality/source-audits/2026-11-14-nachpruefung/README.md), [Releaseumfang](docs/releases/qualitaetsrunde-v445.36.1.md).
+
+# Qualitätsrunde 445.36.0 – 14. November 2026
+
+Alle 315 Plugins behalten ihre Identität und bieten höchstens 20 auswählbare Skills. 224 bisher größere Plugins wurden in fachlich zusammenhängende Arbeitswege gegliedert. Die vollständigen Fachtexte bleiben als 21.883 zugeordnete Referenzmodule samt Vorlagen und Hilfsdateien erhalten. Insgesamt sind 3.175 Skills auswählbar. Kataloge, Downloads, Rechtsgebietsverzeichnisse und vorhandene Werkzeuge verwenden die tatsächlichen Arbeitswege.
+
+Eine Bestands- und Metadatenprüfung aller Pluginprofile sowie gezielte amtliche Volltextprüfungen führen zu konkreten Korrekturen im Insolvenz-, Datenschutz-, Steuerstraf-, Arbeits-, Verfassungs-, Europa- und Produktrecht. Die [Quellenprüfung](quality/source-audits/2026-11-14/README.md) trennt neue Erkenntnisse von übernommenem Bestand und weiterhin offenen Dateireviews. Das Komponentenrelease liefert 733 Dateien für 226 betroffene Plugins; bestehende Testakten und Releases bleiben erhalten. [Releaseumfang und Prüfgrenzen](docs/releases/qualitaetsrunde-v445.36.0.md).
+
+# Visuelle Werkstattführung und eigenständige PR-Prüfung – 13. November 2026
+
+Alle 315 Plugins erhalten eine ausdrückliche Zuordnung ihrer fachlichen Einstiegsskills und geeigneter Fallansichten. Die großen Werkstatt-Prompts, Hauptskills und vorhandenen Vollprüfungen führen bei passender Aufgabe direkt zu einer Visualisierung oder einem verfügbaren Applet. Belegstellen, Annahmen, lesbare Auswahlübergabe und die Fortsetzung bis zum ausformulierten Dokument bleiben verbunden. Die beiden Angebote ohne eigenständige Prompts behalten ihren Anwendungs- beziehungsweise Dateiworkflow. Es entstehen keine zusätzlichen Skills; die Kurz- und Schwerpunktprompts behalten ihr Größenbudget.
+
+Die Ergänzungen werden aus einer gemeinsamen Quelle synchronisiert; Fachtexte außerhalb des markierten Zusatzes bleiben bytegleich. Bestehende redaktionelle Hashbindungen werden nur bei passendem Ausgangsstand fortgeschrieben. Das ist eine Prüfung der Anweisungen und ihrer Integration, keine Live-Ausführung aller Plugins in ChatGPT oder Cowork. [Arbeitsweise und Prüfgrenzen](docs/werkstatt-visualisierung.md).
+
+Die elf offenen Verbesserungsvorschläge wurden am aktuellen Bestand und anhand der maßgeblichen Quellen unabhängig beurteilt. Berechtigte verbleibende Korrekturen wurden eigenständig umgesetzt; fremde Branches wurden nicht übernommen. [Prüfergebnisse und Quellen](docs/pr-pruefung-2026-11-13.md). Die Überarbeitung betrifft den Repository-Quellstand. Bestehende Versionstags und veröffentlichte ZIP-Dateien bleiben unverändert.
+
+Die Einbindung berücksichtigt besondere Skillgrößen und Klartextstile, erhält vorhandene TXT-Kopien und prüft importierte Fachtexte weiter gegen ihren unveränderten Herkunftsbestand. Außenhandel, CISG und Sanktionen erhalten Ansichten für ihre tatsächlichen Liefer-, Vertrags- und Zahlungsbeziehungen. Eine zuvor nicht erfasste Einzelprüfliste des Notariats wird nur bei nachgewiesen identischem Fachtext und kanonischem Oberflächenanhang fortgeschrieben.
+
+# Zahlungsunfähigkeits- und Überschuldungsprüfer 1.2.0 vom 13. November 2026
+
+Ausfüllbare Wordvorlagen für Anfechtungsschreiben und Klage verbinden die Zahlungsauswertung mit einer fallbezogenen Anspruchsbegründung. Die drei Akten erhalten eigene Zahlungskomplexe für Darlehenszinsen, Verrechnung zwischen verschiedenen Gesellschaften und Lieferantenzahlungen mit Kenntnis- und Bargeschäftsfragen. Eingangsbelege, Verfahrensstücke und Blankovorlagen bleiben getrennt. [Umfang und Prüfgrenzen](docs/releases/zahlungsunfaehigkeits-und-ueberschuldungspruefer-v1.2.0.md).
+
+# Zahlungsunfähigkeits- und Überschuldungsprüfer 1.1.0 vom 13. November 2026
+
+Alle elf Skills und beide Prompts sind an 20 amtlichen BGH-Entscheidungen überprüft. Der Rechner trennt Zahlungseinstellung, Rechenbefund und Beleglücken und behandelt historische Prognosezeiträume gesondert.
+
+Die drei Testakten enthalten 84 zusätzliche Originaldateien und ein eigenes Sammel-ZIP mit ausschließlich den 216 Eingangsunterlagen. Verfahrensstücke und Nachbesprechung bleiben getrennt. [Umfang, Quellenprüfung und Prüfgrenzen](docs/releases/zahlungsunfaehigkeits-und-ueberschuldungspruefer-v1.1.0.md).
+
 # 1. Kündigungsschutzklagewerkstatt 1.1.0 vom 22. Oktober 2026
 
 Das Mandat Muster / Seewerk ist in zwei getrennten Fassungen aufgenommen: vorlagengetreu mit vierzehn logischen Anlagen sowie als ausführliche Lebensakte mit weiteren Originaldokumenten und App-Ansichten. Jede Fassung bietet einen Gesamtband, dokumentweise getrennte Einzel-PDFs, native Originale und einen zusätzlichen Satz mit genau K1 bis K14.
@@ -3478,7 +3522,7 @@ Zwei Themen zusammen ausgeliefert: ein scharfer Bug-Fix am Ausformulierungspflic
 
 ## Vergaberecht-Vollprüfung — Codex-Korrekturen
 
-Drei Befunde aus dem Codex-Review zum neuen Skill `fachanwalt-vergaberecht/skills/vergaberechtliche-pruefung-anwaltlich-vollpruefung/SKILL.md` (eingespielt in PR #292):
+Drei Befunde aus dem Codex-Review zum neuen Skill `fachanwalt-vergaberecht/skills/vergaberechtliche-pruefung-anwaltlich-vollpruefung/FACHINHALT.md` (eingespielt in PR #292):
 
 1. **§ 160 III Satz 1 Nr. 1 GWB**: starre 10-Kalendertage-Frist seit Kenntnis des Vergaberechtsverstoßes — nicht "unverzueglich".
 2. **§ 99 GWB hat keinen Nr. 5**: Sektorenauftraggeber stehen in § 100 GWB, Konzessionsgeber in § 101 GWB, Sektorentaetigkeiten in § 102 GWB. § 99 GWB betrifft öffentliche Auftraggeber (Nr. 1–4).
@@ -3486,7 +3530,7 @@ Drei Befunde aus dem Codex-Review zum neuen Skill `fachanwalt-vergaberecht/skill
 
 ## Vergaberecht-Vollprüfung — Eckdaten
 
-- Skill: `fachanwalt-vergaberecht/skills/vergaberechtliche-pruefung-anwaltlich-vollpruefung/SKILL.md`
+- Skill: `fachanwalt-vergaberecht/skills/vergaberechtliche-pruefung-anwaltlich-vollpruefung/FACHINHALT.md`
 - 783 Zeilen, ~51 KB, 24 Phasen (Intake → Schutzschrift → Wirtschaftliche Kontrolle → Vergabekammer/-senat → Schadensersatz)
 - In `scripts/generate-megaprompt.py` als Position 1 der `priority_first`-Liste eingetragen — taucht damit ganz oben in den generierten Vollprüfungs auf.
 
@@ -3845,7 +3889,7 @@ Damit funktioniert jeder Vollprüfung als Single-File-Drop-In ohne tote Links.
 
 Zwei Skills referenzierten nicht existente lokale `references/`-Dateien:
 
-- `vertragsrecht/skills/nda-durchsetzer/SKILL.md`: drei Verweise auf `references/mindeststandards.md` und `references/analyse-vorlage.md` entfernt (das `references/`-Unterverzeichnis dieses Plugins existiert nicht).
+- `vertragsrecht/skills/nda-durchsetzer/FACHINHALT.md`: drei Verweise auf `references/mindeststandards.md` und `references/analyse-vorlage.md` entfernt (das `references/`-Unterverzeichnis dieses Plugins existiert nicht).
 
 Validatoren in der Folge wieder grün.
 
@@ -6466,12 +6510,12 @@ Drei Codex-Findings zur Testakte `11-co2kostaufg-aufteilungspruefung.md` aus dem
 
 Sechs Codex-Review-Findings aus dem v35-PR systematisch behoben:
 
-- **HeizkostenV-Bandbreite korrekt formuliert** (`weg-hausverwaltung/skills/betriebskosten-nebenkostenabrechnung/SKILL.md`). Die irreführende Formulierung `mindestens 50/30/70 Prozent nach Verbrauch` wurde durch die richtige Regel ersetzt: verbrauchsabhängiger Anteil mindestens 50 Prozent und höchstens 70 Prozent, restlicher Anteil (30 bis 50 Prozent) nach Wohnfläche oder umbautem Raum (§§ 7, 8 HeizkostenV). Der häufige Schlüssel 70/30 ist ausdrücklich als eine zulässige Ausgestaltung innerhalb der Bandbreite gekennzeichnet.
+- **HeizkostenV-Bandbreite korrekt formuliert** (`weg-hausverwaltung/skills/betriebskosten-nebenkostenabrechnung/FACHINHALT.md`). Die irreführende Formulierung `mindestens 50/30/70 Prozent nach Verbrauch` wurde durch die richtige Regel ersetzt: verbrauchsabhängiger Anteil mindestens 50 Prozent und höchstens 70 Prozent, restlicher Anteil (30 bis 50 Prozent) nach Wohnfläche oder umbautem Raum (§§ 7, 8 HeizkostenV). Der häufige Schlüssel 70/30 ist ausdrücklich als eine zulässige Ausgestaltung innerhalb der Bandbreite gekennzeichnet.
 - **§ 55a GmbHG ergänzt** (`corporate-kanzlei/skills/corporate-kanzlei-agio-und-kapitalerhoehungsstruktur/SKILL.md`). Die Authorized-Capital-Zeile in der US-Term-Sheet-Übersetzungstabelle behauptete fälschlich, die GmbH kenne kein genehmigtes Kapital. Korrigiert auf: bei der AG § 202 AktG, bei der GmbH seit MoMiG ausdrücklich § 55a GmbHG (mit Verweis auf den bestehenden Skill `gesellschaftsgruender-genehmigtes-kapital`).
 - **Negatives Agio als rechtlich ausgeschlossen klargestellt** (`corporate-kanzlei/skills/corporate-kanzlei-agio-und-kapitalerhoehungsstruktur/SKILL.md`). Die Down-Round-Passage hatte die wirtschaftliche Verwässerung mit einem "negativen Agio" beschrieben. Das ist juristisch falsch: Ausgabe unter pari verstößt gegen § 9 Abs. 1 GmbHG / § 5 Abs. 2 GmbHG (Verbot der Unter-pari-Emission, nichtige Kapitalerhöhung). Korrigiert auf die drei zulässigen Down-Round-Instrumente: Null-Agio, größere Stückzahl zum reduzierten Preis pro Anteil, flankierende Wandeldarlehen oder Anti-Dilution-Anpassungen.
 - **CO2KostAufG nicht auf WEG-Innenverhältnis anwenden** (`testakten/weg-hausverwaltung-hohenzollernhof/11-co2kostaufg-aufteilungspruefung.md`). Die Testakte hatte den Eindruck vermittelt, das CO2KostAufG-Stufenmodell sei auf die WEG-Jahresabrechnung anzuwenden. Korrigiert: das CO2KostAufG regelt nur das Vermieter-Mieter-Verhältnis (§§ 1, 2 CO2KostAufG); die WEG-interne Hausgeldumlage bleibt bei § 16 Abs. 2 WEG und HeizkostenV. Praxisrelevanz für die WEG: vermietende Eigentümer brauchen aus der Jahresabrechnung Datengrundlagen (Brennstoffmenge, CO2-Emission, Energieträger, gebäudespezifischer CO2-Wert) gemäß § 2 Abs. 2 CO2KostAufG. Beanstandung und Anfechtungsrisiko entsprechend umformuliert.
-- **Gewährleistungsfrist nach Werkart differenziert** (`weg-hausverwaltung/skills/handwerker-beauftragung-vergabe/SKILL.md`). Die pauschale Auswahl `5 / 4 Jahre` ist nur für Bauwerk-Arbeiten korrekt. Ergänzt um die richtige Trias: BGB Bauwerk 5 Jahre (§ 634a Abs. 1 BGB), VOB/B Bauwerk 4 Jahre bei wirksamer Einbeziehung (§ 13 Abs. 4 VOB/B), sonstige Werkleistungen und Wartung 2 Jahre. Im Auftragsbestätigungs-Muster und in der Vergleichstabelle.
-- **Belegeinsicht § 18 Abs. 4 WEG statt § 28 Abs. 4 WEG** (`weg-hausverwaltung/skills/datenschutz-dokumentenfreigabe/SKILL.md`). Die Belegeinsicht in Verwaltungsunterlagen folgt § 18 Abs. 4 WEG; § 28 Abs. 4 WEG regelt nur den Vermögensbericht. Description und Body entsprechend getrennt; beide Rechtsgrundlagen verlinkt.
+- **Gewährleistungsfrist nach Werkart differenziert** (`weg-hausverwaltung/skills/handwerker-beauftragung-vergabe/FACHINHALT.md`). Die pauschale Auswahl `5 / 4 Jahre` ist nur für Bauwerk-Arbeiten korrekt. Ergänzt um die richtige Trias: BGB Bauwerk 5 Jahre (§ 634a Abs. 1 BGB), VOB/B Bauwerk 4 Jahre bei wirksamer Einbeziehung (§ 13 Abs. 4 VOB/B), sonstige Werkleistungen und Wartung 2 Jahre. Im Auftragsbestätigungs-Muster und in der Vergleichstabelle.
+- **Belegeinsicht § 18 Abs. 4 WEG statt § 28 Abs. 4 WEG** (`weg-hausverwaltung/skills/datenschutz-dokumentenfreigabe/FACHINHALT.md`). Die Belegeinsicht in Verwaltungsunterlagen folgt § 18 Abs. 4 WEG; § 28 Abs. 4 WEG regelt nur den Vermögensbericht. Description und Body entsprechend getrennt; beide Rechtsgrundlagen verlinkt.
 
 ## Plugin-Versionsbumps
 
@@ -6531,8 +6575,8 @@ Sechs Codex-Review-Findings aus dem v35-PR systematisch behoben:
 - **Corporate Legal English Testakte massiv ausgebaut.** `testakten/gesellschaftsrecht-legal-english-frankfurt-startup/` von 7 auf 16 Dateien erweitert. Neue Dateien: `00-deal-personen-und-zeitleiste.md` (Cast, Zeitleiste, fiktive Eckdaten), `08-glossar-deutsch-englisch-fallstricke.md` (zwoelf Begriffspaare mit typischen Missverstaendnissen), `09-anfaengerfehler-katalog-mit-partner-rotstift.md` (fuenf Fehlerklassen mit Vorher/Nachher), `10-wandeldarlehen-tante-ermelind.md` (vollständiger Convertible Loan mit Discount 20 Prozent, Cap 10 Mio. EUR, 8 Prozent PIK), `11-investor-counsel-markup-roundtrip.md` (Markup-Email Brackenmuir & Quint LLP, interne Sortierung, 02:14-Uhr-Antwort), `12-notar-checkliste-und-handelsregisterlogik.md` (Notariat Schwartz, § 5 BeurkG, Einheitsdoktrin, § 40 GmbHG), `13-side-letter-und-information-rights.md` (Stahlauge Seed Side Letter, Northbridge Series A Side Letter), `14-board-und-consent-matters-mapping-de-en.md` (zehn Reserved Matters mit DE-Umsetzung), `15-closing-checkliste-cp.md` (30 CPs, Gap-Analyse, Post-Closing). Bestandsdateien 01 bis 07 substantiell ausgebaut (Term Sheet jetzt mit vollständigem Definitions-Set, SHA-Synopse Seed/Series A, DD-Index mit Datenraumstruktur, Associate-Notiz mit Partner-Rotstift, Prüfraster 100 Punkte).
 - **README der Testakte neu strukturiert** mit Lernpfaden A (Begriffsdisziplin, 2 Stunden), B (Mandatsanalyse, 4 Stunden), C (Vertiefung, 4 bis 6 Stunden) und D (Mandantenkommunikation, 1 bis 2 Stunden).
 - **Plugin-Versionsbump.** `gesellschaftsrecht-legal-english` von 24.1.0 auf 25.0.0 in `<plugin>/.claude-plugin/plugin.json` und `.claude-plugin/marketplace.json`.
-- **Codex-PR-Klarstellung Direktwirkung EU-Lohntransparenzrichtlinie** in `fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-bag-equal-pay-paarvergleich/SKILL.md`. Praxishinweis: vertikale Direktwirkung gegenüber öffentlichen Arbeitgebern (Van Duyn 41/74, Becker 8/81, Marshall 152/84) ab 07.06.2026, horizontale Direktwirkung gegenüber privaten Arbeitgebern grundsätzlich ausgeschlossen (Marshall 152/84, Dansk Industri C-441/14); richtlinienkonforme Auslegung (Marleasing C-106/89) und Francovich-Staatshaftung (C-6/90, C-9/90) bleiben.
-- **Codex-PR-Klarstellung BVerfG 1 BvR 183/25** in `mietrecht/skills/mietspiegel-quellen/SKILL.md`. Der Nichtannahmebeschluss vom 08.01.2026 betrifft die 2020er Verlaengerung der Mietpreisbremse (§ 556d BGB in der Fassung vom 19.03.2020) und die Berliner Mietenbegrenzungsverordnung vom 19.05.2020, nicht das Verlaengerungsgesetz vom 17.07.2025 (BGBl. 2025 I Nr. 163, Geltung bis 31.12.2029). Verfassungsgerichtliche Prüfung der 2025er Verlaengerung steht noch aus.
+- **Codex-PR-Klarstellung Direktwirkung EU-Lohntransparenzrichtlinie** in `fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-bag-equal-pay-paarvergleich/FACHINHALT.md`. Praxishinweis: vertikale Direktwirkung gegenüber öffentlichen Arbeitgebern (Van Duyn 41/74, Becker 8/81, Marshall 152/84) ab 07.06.2026, horizontale Direktwirkung gegenüber privaten Arbeitgebern grundsätzlich ausgeschlossen (Marshall 152/84, Dansk Industri C-441/14); richtlinienkonforme Auslegung (Marleasing C-106/89) und Francovich-Staatshaftung (C-6/90, C-9/90) bleiben.
+- **Codex-PR-Klarstellung BVerfG 1 BvR 183/25** in `mietrecht/skills/mietspiegel-quellen/FACHINHALT.md`. Der Nichtannahmebeschluss vom 08.01.2026 betrifft die 2020er Verlaengerung der Mietpreisbremse (§ 556d BGB in der Fassung vom 19.03.2020) und die Berliner Mietenbegrenzungsverordnung vom 19.05.2020, nicht das Verlaengerungsgesetz vom 17.07.2025 (BGBl. 2025 I Nr. 163, Geltung bis 31.12.2029). Verfassungsgerichtliche Prüfung der 2025er Verlaengerung steht noch aus.
 
 ## Qualitätssicherung
 
@@ -6545,12 +6589,12 @@ Sechs Codex-Review-Findings aus dem v35-PR systematisch behoben:
 
 # v29.0.1 — EU-Richtlinien-Nachzug, GVG-Streitwert ab 01.01.2026, Mietpreisbremse-Verlaengerung
 
-- **EU-Lohntransparenzrichtlinie 2023/970 nachgetragen** in `arbeitsrecht/skills/bag-equal-pay-paarvergleich-8azr30024/SKILL.md` und `fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-bag-equal-pay-paarvergleich/SKILL.md`. Neue Bloecke fassen Art. 5 (vorvertragliche Transparenz, Verbot Gehaltshistorie), Art. 7 (Auskunft binnen zwei Monaten), Art. 9 (Berichtspflichten ab 250 / 150 / 100 Beschaeftigten), Art. 10 (gemeinsame Bewertung ab fuenf Prozent Gefälle), Art. 16 (Schadensersatz ohne Obergrenze), Art. 18 (Beweislastumkehr bei Pflichtverletzung) und Art. 21 (Verjaehrung mindestens drei Jahre) zusammen. Umsetzungsfrist 07.06.2026; nationale Umsetzung steht zum Stand Mai 2026 noch aus. Quelle: https://eur-lex.europa.eu/eli/dir/2023/970/oj
-- **EU-Plattformarbeitsrichtlinie 2024/2831 ausgearbeitet** in `arbeitsrecht/skills/arbeitnehmer-status/SKILL.md`. Einzeiler aus v29 ersetzt durch ausgearbeiteten Block mit Vermutungsregel zugunsten des Beschaeftigungsverhaeltnisses, Beweislastumkehr und Umsetzungsfrist 02.12.2026. Quelle: https://eur-lex.europa.eu/eli/dir/2024/2831/oj
-- **Mindestlohn ab 01.01.2026 / 01.01.2027 verifiziert** mit Fundstelle Fuenfte MindestlohnAnpassungsverordnung vom 05.11.2025, BGBl. 2025 I Nr. 268 — in `arbeitsrecht/skills/allgemein/SKILL.md` und `arbeitsrecht/skills/mindestlohn-arbeitszeit-erfassung/SKILL.md`. 13,90 EUR ab 01.01.2026; 14,60 EUR ab 01.01.2027.
+- **EU-Lohntransparenzrichtlinie 2023/970 nachgetragen** in `arbeitsrecht/skills/bag-equal-pay-paarvergleich-8azr30024/FACHINHALT.md` und `fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-bag-equal-pay-paarvergleich/FACHINHALT.md`. Neue Bloecke fassen Art. 5 (vorvertragliche Transparenz, Verbot Gehaltshistorie), Art. 7 (Auskunft binnen zwei Monaten), Art. 9 (Berichtspflichten ab 250 / 150 / 100 Beschaeftigten), Art. 10 (gemeinsame Bewertung ab fuenf Prozent Gefälle), Art. 16 (Schadensersatz ohne Obergrenze), Art. 18 (Beweislastumkehr bei Pflichtverletzung) und Art. 21 (Verjaehrung mindestens drei Jahre) zusammen. Umsetzungsfrist 07.06.2026; nationale Umsetzung steht zum Stand Mai 2026 noch aus. Quelle: https://eur-lex.europa.eu/eli/dir/2023/970/oj
+- **EU-Plattformarbeitsrichtlinie 2024/2831 ausgearbeitet** in `arbeitsrecht/skills/arbeitnehmer-status/FACHINHALT.md`. Einzeiler aus v29 ersetzt durch ausgearbeiteten Block mit Vermutungsregel zugunsten des Beschaeftigungsverhaeltnisses, Beweislastumkehr und Umsetzungsfrist 02.12.2026. Quelle: https://eur-lex.europa.eu/eli/dir/2024/2831/oj
+- **Mindestlohn ab 01.01.2026 / 01.01.2027 verifiziert** mit Fundstelle Fuenfte MindestlohnAnpassungsverordnung vom 05.11.2025, BGBl. 2025 I Nr. 268 — in `arbeitsrecht/skills/allgemein/SKILL.md` und `arbeitsrecht/skills/mindestlohn-arbeitszeit-erfassung/FACHINHALT.md`. 13,90 EUR ab 01.01.2026; 14,60 EUR ab 01.01.2027.
 - **GVG-Streitwertgrenze korrigiert** in `mietrecht/skills/klageentwurf-amtsgericht/SKILL.md`. Frontmatter und Body benennen jetzt das Gesetz zur Staerkung der Amtsgerichte in Zivilsachen (Bundesrat-Billigung 21.11.2025, Inkrafttreten 01.01.2026) statt der falschen "Justizmodernisierung 2024". Anwaltszwang ebenfalls ab zehntausend Euro; Berufungsbeschwer in § 511 Abs. 2 Nr. 1 ZPO von 600 auf 1.000 Euro angehoben. Übergangsregelung: vor 01.01.2026 anhängige Verfahren bleiben bei fünftausend Euro. Quelle: BRAK-Nachrichten 24/2025 vom 26.11.2025.
-- **BGH-Rechtsprechung zur Zahlungsverzugskündigung ergaenzt** in `mietrecht/skills/mahnung-zahlungsverzug-mieter/SKILL.md`: BGH, Urt. v. 01.07.2020 – VIII ZR 323/18 (Schonfristzahlung beseitigt nur die fristlose Kündigung, hilfsweise ordentliche bleibt wirksam; § 574 Abs. 1 Satz 2 BGB ausgeschlossen) und BGH, Beschl. v. 08.12.2021 – VIII ZR 32/20 (Erheblichkeit nach § 573 Abs. 2 Nr. 1 BGB anhand der Gesamthöhe des Rückstands). VIII ZR 287/23 vom 09.07.2025 aus v29 unveraendert erhalten.
-- **Mietpreisbremse-Verlaengerung dokumentiert** in `mietrecht/skills/mietspiegel-quellen/SKILL.md`. Neuer Block zum Verlaengerungsgesetz vom 17.07.2025 (BGBl. 2025 I Nr. 163, § 556d Abs. 2 Satz 4 BGB bis 31.12.2029) sowie BVerfG-Nichtannahmebeschluss vom 08.01.2026 – 1 BvR 183/25 (Verfassungsbeschwerde gegen die Verlaengerung erfolglos; Bestätigung der Linie aus 1 BvL 1/18).
+- **BGH-Rechtsprechung zur Zahlungsverzugskündigung ergaenzt** in `mietrecht/skills/mahnung-zahlungsverzug-mieter/FACHINHALT.md`: BGH, Urt. v. 01.07.2020 – VIII ZR 323/18 (Schonfristzahlung beseitigt nur die fristlose Kündigung, hilfsweise ordentliche bleibt wirksam; § 574 Abs. 1 Satz 2 BGB ausgeschlossen) und BGH, Beschl. v. 08.12.2021 – VIII ZR 32/20 (Erheblichkeit nach § 573 Abs. 2 Nr. 1 BGB anhand der Gesamthöhe des Rückstands). VIII ZR 287/23 vom 09.07.2025 aus v29 unveraendert erhalten.
+- **Mietpreisbremse-Verlaengerung dokumentiert** in `mietrecht/skills/mietspiegel-quellen/FACHINHALT.md`. Neuer Block zum Verlaengerungsgesetz vom 17.07.2025 (BGBl. 2025 I Nr. 163, § 556d Abs. 2 Satz 4 BGB bis 31.12.2029) sowie BVerfG-Nichtannahmebeschluss vom 08.01.2026 – 1 BvR 183/25 (Verfassungsbeschwerde gegen die Verlaengerung erfolglos; Bestätigung der Linie aus 1 BvL 1/18).
 - **Versionsbump.** `arbeitsrecht`, `fachanwalt-arbeitsrecht` und `mietrecht` auf `29.0.1` in `<plugin>/.claude-plugin/plugin.json` und in `.claude-plugin/marketplace.json`.
 
 ## Qualitätssicherung

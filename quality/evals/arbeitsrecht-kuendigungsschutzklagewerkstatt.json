@@ -32,6 +32,11 @@
       "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azn-339-26/",
       "checked_on": "2026-10-22",
       "supports": "Eigenverantwortliche anwaltliche Quellen- und Schriftsatzprüfung vor Einreichung."
+    },
+    {
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-91-24/",
+      "checked_on": "2026-11-10",
+      "supports": "BAG, Urteil vom 30.07.2026 – 2 AZR 91/24, Rn. 10–17. Vorherigen Ausschluss von Annahmeverzugsansprüchen wegen einer unwirksamen oder erst später wirkenden Arbeitgeberkündigung auch bei Rechtswahl am maßgeblichen zwingenden deutschen Schutz messen. Deutscher Schutzstandard nur nach dem einschlägigen Kollisionsrecht. Keine abschließende Zuerkennung, da die Sache zurückverwiesen wurde."
     }
   ],
   "selection": {
@@ -571,13 +576,15 @@
   },
   "workshop_review": {
     "verdict": "revised",
-    "reason": "Individuell redaktionell geprüft: vollständiger Berufungspfad und amtlich abgeglichene Quellenkarten mit unterschiedlichen Veröffentlichungsständen; übrige Verfahrenszweige erhalten.",
+    "reason": "Individuell redaktionell geprüft: vollständiger Berufungspfad und amtlich abgeglichene Quellenkarten mit unterschiedlichen Veröffentlichungsständen; übrige Verfahrenszweige erhalten. Die Quellenprüfung vom 16.11.2026 ergänzt die konkret dokumentierte Änderung zum Entscheidungsstichtag 31.10.2026.",
     "changes": [
       "Jeden selbständig tragenden Urteilsgrund und dessen Erheblichkeit beantworten",
       "Neue Mittel mit bisherigem Vortrag und Verfügbarkeitszeitpunkt nach Paragraf 67 ArbGG verbinden",
-      "Sechs Flyerentscheidungen mit Aussagegrenze und Pressemitteilungsstatus abgleichen"
+      "Sechs Flyerentscheidungen mit Aussagegrenze und Pressemitteilungsstatus abgleichen",
+      "Gezielter amtlicher Quellenabgleich am 10.11.2026. Vorherigen Ausschluss von Annahmeverzug und Rechtswahl anhand des amtlichen Volltexts 2 AZR 91/24 eingeordnet.",
+      "BAG 5 AZR 37/25 in der Werkstatt und der Quellenkarte auf den amtlichen Volltext umstellen. Sekundäre Darlegungslast und selbständigen Auskunftsanspruch unterscheiden."
     ],
-    "sha256": "cdf4195515dfcacff888859e49cbc6a3b74bcd22e6e916a2130caf4ca540ef42"
+    "sha256": "4422aaac3c2554f625a6dd3d328f9dc5989cd6ef6dd92eac23b9b70b07a3af90"
   },
   "focus_review": {
     "method": "desk_review",
@@ -593,7 +600,7 @@
     "prompt_path": "arbeitsrecht-kuendigungsschutzklagewerkstatt/arbeitsrecht-kuendigungsschutzklagewerkstatt-hauptproblem.md",
     "skill_path": "arbeitsrecht-kuendigungsschutzklagewerkstatt/skills/kuendigungsschutzmandat-steuern/SKILL.md",
     "prompt_sha256": "d3047f3d7ea26bed43b95c235e86609e59accc4a6f32e13201a037dd132e5b43",
-    "skill_sha256": "470558b7c821af046f88389227f4c28caa58f6593ce559fb56f255a0dad652c2"
+    "skill_sha256": "8a80ef44b07306d81ac483b45e6e65f5ba71663395260a2aec062fd897ee067d"
   },
   "prompt_editorial_review": {
     "date": "2026-11-01",
@@ -613,7 +620,7 @@
       "Redaktionelle Prüfung; keine behauptete Live-Ausführung in einer bestimmten Oberfläche",
       "Konkrete Zustellverfahren und aktuelle Änderungen am Mandatsstichtag erneut prüfen",
       "Tarifrecht, Personalvertretungsrecht und medizinische Tatsachen fallbezogen ergänzen",
-      "5 AZR 37/25 und 9 AZR 11/26 nur nach amtlicher Pressemitteilung und Sitzungsergebnis; kein Volltext oder Randnummern behauptet",
+      "5 AZR 37/25 als Urteil vom 26.08.2026, dessen amtlicher Volltext erst im November ausgewertet werden konnte. Für 9 AZR 11/26 bleibt es bei amtlicher Mitteilung und Sitzungsergebnis.",
       "Die redaktionelle Prüfung und der Aktenbuild sind keine ausgeführten Modelltests der späteren Berufungsbegründung"
     ],
     "files": [
@@ -764,10 +771,10 @@
       },
       {
         "citation": "BAG, Urteil vom 26.08.2026, 5 AZR 37/25",
-        "url": "https://www.bundesarbeitsgericht.de/presse/annahmeverzugsverguetung-kein-auskunftsanspruch-zu-bewerbungen-auf-stellenangebote/",
-        "source_status": "official_press_release",
-        "application": "Auskunft über Vermittlungsvorschläge von sekundärer Darlegung zu Bewerbungen trennen.",
-        "limit": "Nur amtliche Mitteilung und Sitzungsergebnis; keine Volltext-Randnummern."
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/5-azr-37-25/",
+        "source_status": "official_full_text",
+        "application": "Selbständige Auskunft über Vermittlungsvorschläge von sekundärer Darlegung des Bewerbungsverhaltens trennen. Die Wahrscheinlichkeit einer Anrechnung ist für die Auskunft nicht erforderlich (Rn. 22–36).",
+        "limit": "Entscheidung über Auskunft, keine ausgeurteilte Lohnkürzung. Volltext im November veröffentlicht und retrospektiv für das Augusturteil ausgewertet."
       },
       {
         "citation": "BAG, Urteil vom 06.10.2026, 9 AZR 11/26",
@@ -775,6 +782,13 @@
         "source_status": "official_press_release",
         "application": "Bindung an Elternzeitverlangen trotz Trennung mit gesetzlichen Beendigungswegen.",
         "limit": "Nur amtliche Mitteilung und Sitzungsergebnis; keine pauschale Unbeendbarkeit."
+      },
+      {
+        "citation": "BAG, Urteil vom 30.07.2026 – 2 AZR 91/24, Rn. 10–17",
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-91-24/",
+        "application": "Vorherigen Ausschluss von Annahmeverzugsansprüchen wegen einer unwirksamen oder erst später wirkenden Arbeitgeberkündigung auch bei Rechtswahl am maßgeblichen zwingenden deutschen Schutz messen.",
+        "limit": "Deutscher Schutzstandard nur nach dem einschlägigen Kollisionsrecht. Keine abschließende Zuerkennung, da die Sache zurückverwiesen wurde.",
+        "checked_on": "2026-11-10"
       }
     ]
   },
@@ -789,5 +803,27 @@
     "continuation": "Fachskills liefern konkrete Dokumentteile zurück; Rückfragen ändern den vorhandenen Entwurf und neue Kündigungen erhalten eigene Anträge.",
     "enrichment": "Zugang, Schutzbereich, soziale Rechtfertigung, Beteiligung, Anzeige, Beweisführung und finanzielle Folgen werden anhand der konkreten Unterlagen verzweigt.",
     "limits": "Redaktionelle Prüffälle und technische Archivprüfungen belegen keinen Live-Modelllauf und keine Laufzeitgarantie."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "arbeitsrecht-kuendigungsschutzklagewerkstatt/arbeitsrecht-kuendigungsschutzklagewerkstatt-hauptproblem.md",
+      "arbeitsrecht-kuendigungsschutzklagewerkstatt/arbeitsrecht-kuendigungsschutzklagewerkstatt-werkstatt.md",
+      "arbeitsrecht-kuendigungsschutzklagewerkstatt/skills/kuendigungsschutzmandat-steuern/SKILL.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "werkstatt_stichtagsnachpruefung_2026_10_31": {
+    "checked_on": "2026-11-16",
+    "decision_cutoff": "2026-10-31",
+    "scope": "Gezielte fachliche Nachprüfung der geänderten Passagen; frühere Rechts- und Workflowprüfungen bleiben als eigene Prüfstände dokumentiert.",
+    "report": "quality/source-audits/2026-10-31-werkstatt/README.md",
+    "finding": "BAG 5 AZR 37/25 in der Werkstatt und der Quellenkarte auf den amtlichen Volltext umstellen. Sekundäre Darlegungslast und selbständigen Auskunftsanspruch unterscheiden.",
+    "path": "arbeitsrecht-kuendigungsschutzklagewerkstatt/arbeitsrecht-kuendigungsschutzklagewerkstatt-werkstatt.md",
+    "before_sha256": "b61f8df2c162278470db0618720ceae0820f6c2a6605b8459534d4b4de5326c7",
+    "after_sha256": "4422aaac3c2554f625a6dd3d328f9dc5989cd6ef6dd92eac23b9b70b07a3af90"
   }
 }

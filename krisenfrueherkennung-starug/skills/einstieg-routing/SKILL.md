@@ -11,21 +11,21 @@ Ordne den vorhandenen Krisensachverhalt ein und erstelle den bestellten Prognose
 
 ## Fachlandkarte dieses Plugins
 
-- `ampelsystem-beweislast-und-darlegungslast` — Ampelsystem Beweislast und Darlegungslast
-- `berater-drohende-fruehwarnsystem` — Berater Drohende Fruehwarnsystem
-- `cross-class-cram-down-und-absolute-priority` — Cross Class Cram Down und Absolute Priority
-- `dokumentationspflicht-und-protokollierung-geschaeftsfuehrung` — Dokumentationspflicht und Protokollierung Geschäftsführung
-- `drohende-zahlen-schwellen-und-berechnung` — Drohende Zahlen Schwellen und Berechnung
-- `drohende-zahlungsunfaehigkeit` — Drohende Zahlungsunfaehigkeit
-- `fortbestehensprognose-zweistufig` — Fortbestehensprognose Zweistufig
-- `fruehwarnsystem-architektur-zwei-jahres-horizont` — Fruehwarnsystem Architektur Zwei Jahres Horizont
-- `fruehwarnsystem-behoerden-gericht-und-registerweg` — Fruehwarnsystem Behoerden Gericht und Registerweg
-- `geschaeftsfuehrerhaftung-quellenkarte-check` — Geschäftsführerhaftung Quellenkarte Check
-- `gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg` — GF Haftung Paragraph 43 GMBHG und Paragraph 93 AKTG
-- `insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist` — Insolvenzantragspflicht Paragraph 15A Inso und Drei Wochen Frist
-- `integrierte-interessen-kennzahlenset` — Integrierte Interessen Kennzahlenset
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `fruehwarnsystem-kennzahlen-bearbeiten` (Fachthema: ampelsystem-beweislast-und-darlegungslast) — Ampelsystem Beweislast und Darlegungslast
+- `fruehwarnsystem-kennzahlen-bearbeiten` (Fachthema: berater-drohende-fruehwarnsystem) — Berater Drohende Fruehwarnsystem
+- `restrukturierung-stabilisierung-plan-bearbeiten` (Fachthema: cross-class-cram-down-und-absolute-priority) — Cross Class Cram Down und Absolute Priority
+- `pflichten-warnung-organhaftung-bearbeiten` (Fachthema: dokumentationspflicht-und-protokollierung-geschaeftsfuehrung) — Dokumentationspflicht und Protokollierung Geschäftsführung
+- `prognose-liquiditaet-krisenstadium-bearbeiten` (Fachthema: drohende-zahlen-schwellen-und-berechnung) — Drohende Zahlen Schwellen und Berechnung
+- `prognose-liquiditaet-krisenstadium-bearbeiten` (Fachthema: drohende-zahlungsunfaehigkeit) — Drohende Zahlungsunfaehigkeit
+- `prognose-liquiditaet-krisenstadium-bearbeiten` (Fachthema: fortbestehensprognose-zweistufig) — Fortbestehensprognose Zweistufig
+- `fruehwarnsystem-kennzahlen-bearbeiten` (Fachthema: fruehwarnsystem-architektur-zwei-jahres-horizont) — Fruehwarnsystem Architektur Zwei Jahres Horizont
+- `fruehwarnsystem-kennzahlen-bearbeiten` (Fachthema: fruehwarnsystem-behoerden-gericht-und-registerweg) — Fruehwarnsystem Behoerden Gericht und Registerweg
+- `pflichten-warnung-organhaftung-bearbeiten` (Fachthema: geschaeftsfuehrerhaftung-quellenkarte-check) — Geschäftsführerhaftung Quellenkarte Check
+- `pflichten-warnung-organhaftung-bearbeiten` (Fachthema: gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg) — GF Haftung Paragraph 43 GMBHG und Paragraph 93 AKTG
+- `pflichten-warnung-organhaftung-bearbeiten` (Fachthema: insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist) — Insolvenzantragspflicht Paragraph 15A Inso und Drei Wochen Frist
+- `fruehwarnsystem-kennzahlen-bearbeiten` (Fachthema: integrierte-interessen-kennzahlenset) — Integrierte Interessen Kennzahlenset
+- `krisenakte-kommunikation-qualitaet-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `krisenakte-kommunikation-qualitaet-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -46,3 +46,23 @@ Neue Angaben mit den bisherigen Belegen abgleichen. Weitere entscheidende Lücke
 - Tragende Normen und Entscheidungen anhand überprüfbarer Quellen mit Geltungsstand beziehungsweise Gericht, Datum und Aktenzeichen sichern; die Regeln in `references/quellenhygiene.md` und `references/zitierweise.md` vertiefen dies optional.
 - Spezialskills sind optionale Vertiefungen, kein Ersatz für das bestellte Ergebnis. Schreibe Enddokumente vollständig aus, verwende den gewünschten Dateinamen und bei formatierten Dokumenten Times New Roman 11 Punkt sowie dezimale Gliederung. Technische Prüfnotizen vom Empfängertext trennen.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Sanierung, StaRUG und Krisenfrüherkennung:** Welche belegten Beträge tragen das Ergebnis und welche Annahme verändert es?
+
+**Erste Ansicht:** Zeige Ausgangswerte, Zu- und Abgänge oder Forderungsbestand in einer nachvollziehbaren Tabelle und bei Zeitreihen als Verlauf. Trenne Stichtag, Zeitraum, Fälligkeit und tatsächlichen Geldfluss.
+
+**Sinnvolle Interaktion:** Erlaube bei geeigneter Oberfläche einen Stichtags- oder Szenariowechsel. Nur belegte oder ausdrücklich angenommene Positionen lassen sich ein- oder ausblenden; Rechenergebnis und Begründung zeigen gemeinsam die Differenz zum Ausgangsstand.
+
+**Datengrundlage:** Betrag, Währung, Vorzeichen, Datum, Zuordnungsgrund, Berechnungsregel und Originalfundstelle. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** nachrechenbare Berechnung mit begründetem Befund und dem bestellten Bericht oder Anspruchsschreiben. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

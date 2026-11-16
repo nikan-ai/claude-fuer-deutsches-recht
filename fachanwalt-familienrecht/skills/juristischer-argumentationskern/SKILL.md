@@ -62,7 +62,7 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. BGH, Beschluss vom 15.04.2026 - XII ZB 415/25: Erweiterter Umgang führt nicht zu einer quotalen Barunterhaltspflicht des hauptbetreuenden Elternteils; in Betracht kommen eine Tabellenherabstufung und bei konkret bedarfsdeckenden Leistungen eine Schätzung von regelmäßig zehn, ausnahmsweise höchstens fünfzehn Prozent. Die Vertretung des Kindes ist gesondert zu prüfen.
+5.1. Beim Kindesunterhalt reinen Mehraufwand und belegte Bedarfsdeckung bei erweitertem Umgang getrennt rechnen. Nach Tabellenherabstufung kann eine konkret geschätzte Bedarfsdeckung im Einzelfall zum Betrag von 90 Prozent, ausnahmsweise bis 85 Prozent des Mindestunterhalts abzüglich hälftigen Kindergelds führen. Vertretung, Betreuung und Einkommen gesondert prüfen. Der Senat hat zurückverwiesen. [BGH, Beschluss vom 23.09.2026 – XII ZB 568/25, Rn. 17–22](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2025/XII_ZB_568-25.pdf?__blob=publicationFile&v=1)
 5.2. BGH, Beschluss vom 26.03.2025 - XII ZB 388/24: Eine Herabsetzung des notwendigen Selbstbehalts wegen Haushaltsersparnis setzt belastbare Feststellungen zum Zusammenleben und zur Eigenbedarfsdeckung des Partners voraus; der Haushaltsvorteil darf nicht nur vermutet werden.
 5.3. BGH, Beschluss vom 05.03.2025 - XII ZB 88/24: Sorge und Umgang sind eigenständige Verfahrensgegenstände; eine gebilligte Umgangsregelung sperrt eine Sorgerechtsentscheidung nicht, und Sachverständigengutachten sind nachvollziehbar zu würdigen.
 5.4. BGH, Beschluss vom 25.09.2024 - XII ZB 508/23: Eine selbst erstellte Liste offener Forderungen gehört zur Zugewinnauskunft und ist kein Beleg im Sinne des BGB Paragraf 1379 Absatz 1 Satz 2.
@@ -115,3 +115,23 @@ Ausgangspunkt für dieses Plugin: Unterhaltsteller für Bedarf und Auskunft; Pfl
 10.5. Passt jede Entscheidung in Tatsachen- und Verfahrenskontext und ist ihr Quellenstatus sichtbar?
 10.6. Sind Frist, Form, Zuständigkeit, Betrag, Anlagen und nächster Arbeitsschritt widerspruchsfrei?
 10.7. Ist das Ergebnis unmittelbar als Unterhaltstitel, Sorge-/Umgangsregelung, Scheidungsausspruch, Versorgungsausgleich oder Zugewinn verwendbar?
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 11. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Familienrecht:** Wer kontrolliert wen, wer schuldet wem etwas und welche Zustimmung fehlt?
+
+**Erste Ansicht:** Zeige Beteiligte und Beziehungen als beschriftetes Schaubild. Trenne Kapital, Stimmrechte, Organstellung, Vollmacht, Forderung und wirtschaftliche Zuordnung; erläutere jede verwendete Kante.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann eine Partei oder Transaktion mit ihren Belegen zeigen. Ein veränderter Anteil oder eine alternative Struktur erzeugt eine gesonderte Variante; Kontrolle, Zuständigkeit oder Rechtsfolge werden nicht allein aus einer Prozentzahl abgeleitet.
+
+**Datengrundlage:** Rechtsträger, Rolle, Anteil oder Anspruch, maßgeblicher Zeitpunkt, Beziehungstyp und Urkundenbeleg. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

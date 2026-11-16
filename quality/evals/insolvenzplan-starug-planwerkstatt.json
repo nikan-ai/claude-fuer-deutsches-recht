@@ -81,7 +81,7 @@
       "Einstiegsredaktion 16.10.2026: Planmodul und tragfähige Drittdeckung vorangestellt; alte InsO-Vorprüfung ausdrücklich nicht unmittelbar auf StaRUG übertragen.",
       "Quellenvertiefung 16.10.2026: BGH, Beschluss vom 16.07.2026, IX ZR 71/25"
     ],
-    "sha256": "fcc57c54006b31db5867f2d9176c89b37d94c7daa1de293a7637816abcf3a319"
+    "sha256": "b088b3541afca949a7827e6116c23ec88d2ab93c023595685492327ade5b5b76"
   },
   "selection": {
     "positive": [
@@ -124,7 +124,7 @@
           ]
         }
       ],
-      "target_skill": "abstimmung-mehrheiten-anlagenpaket"
+      "target_skill": "abstimmung-cramdown-minderheit-bearbeiten"
     }
   ],
   "prompt_editorial_review": {
@@ -134,7 +134,7 @@
       "insolvenzplan-starug-planwerkstatt/insolvenzplan-starug-planwerkstatt-schnellstart.md",
       "insolvenzplan-starug-planwerkstatt/README.md",
       "quality/evals/insolvenzplan-starug-planwerkstatt.json",
-      "insolvenzplan-starug-planwerkstatt/skills/gestaltender-teil/SKILL.md"
+      "insolvenzplan-starug-planwerkstatt/skills/gestaltender-teil/FACHINHALT.md"
     ],
     "opening_change": "Geplanten Forderungseingriff, Finanzierung und Abstimmungsfähigkeit des konkreten Plans prüfen.",
     "norms": [
@@ -257,5 +257,15 @@
       }
     ],
     "limits": "Nur bezeichnete Entscheidungszweige und konkret korrigierte Nachbarstellen erneut geprüft. Frühere Prüfzeitpunkte bleiben erhalten. Kein Live-Modelltest und keine Vollverifikation sämtlicher Rechtsaussagen."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "insolvenzplan-starug-planwerkstatt/insolvenzplan-starug-planwerkstatt-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }

@@ -73,7 +73,7 @@
       "Abänderungsbitte, neues Dekret und bloße Eingangsbestätigung unterscheiden; Aussetzung gesondert begründen; Ehewillen im Eheschließungszeitpunkt, Registerberichtigung und kirchliche Beschäftigung in eigene Dokumentwege überführen.",
       "2026-10-16, redaktioneller Einstiegsreview: Rekurs und Urkunden als Ausgang; kanonischen Rechtskreis vom staatlichen Loyalitätsmaßstab getrennt. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
     ],
-    "sha256": "de29a6370b61967d4ba15ffc4997fb5dfa2e1cc19f2a4f4fe3b2c20fb75af6ce",
+    "sha256": "a6890ea0d7d503bd11cf94aeeea014d1f431244d58d4459b7f45b43b7822aa1d",
     "reviewed_on": "2026-10-16",
     "method": "desk_review",
     "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
@@ -119,7 +119,7 @@
           ]
         }
       ],
-      "target_skill": "hierarchischer-rekurs"
+      "target_skill": "rechtsquelle-bearbeiten"
     }
   ],
   "prompt_editorial_review": {
@@ -127,7 +127,7 @@
     "files": [
       "roemisch-katholisches-kirchenrecht/roemisch-katholisches-kirchenrecht-werkstatt.md",
       "roemisch-katholisches-kirchenrecht/roemisch-katholisches-kirchenrecht-schnellstart.md",
-      "roemisch-katholisches-kirchenrecht/skills/kirchliche-arbeitsverhaltnisse-und-loyalitat/SKILL.md"
+      "roemisch-katholisches-kirchenrecht/skills/kirchliche-arbeitsverhaltnisse-und-loyalitat/FACHINHALT.md"
     ],
     "opening_change": "Akt, Rechtsposition und konkreter Antrag oder Rekurs im Mittelpunkt; staatliche Wirkungen separat.",
     "norms": [
@@ -169,7 +169,7 @@
         "roemisch-katholisches-kirchenrecht/roemisch-katholisches-kirchenrecht-schnellstart.md",
         "roemisch-katholisches-kirchenrecht/roemisch-katholisches-kirchenrecht-werkstatt.md",
         "roemisch-katholisches-kirchenrecht/skills/juristischer-argumentationskern/SKILL.md",
-        "roemisch-katholisches-kirchenrecht/skills/kirchliche-arbeitsverhaltnisse-und-loyalitat/SKILL.md"
+        "roemisch-katholisches-kirchenrecht/skills/kirchliche-arbeitsverhaltnisse-und-loyalitat/FACHINHALT.md"
       ],
       "result": "Werkstatt/Mini wahren die Grenzen von Loyalitätsanforderungen, Kirchenaustritt und kanonischem Status. Spezialskill enthielt verkürzte Aussage C-68/17; nun anhand Rn. 53–56 berufsbezogen und einzelfalloffen formuliert.",
       "search_2026": "2026-Suche bestätigte den bereits enthaltenen C-258/24; dessen Volltext und 8 AZR 194/25 (F) nicht erneut vollständig gelesen. Frisch C-68/17-Rn. 53–56 zum konkreten Altfehler nachgelesen.",
@@ -187,5 +187,15 @@
     "continuation": "Ein nachgereichtes Dekret oder Empfangsdatum verändert Rekursgegenstand, Fristweg und Antrag; Registerbelege verändern nur den belegten Statusbefund.",
     "enrichment": "Abänderungsbitte, neues Dekret und bloße Eingangsbestätigung unterscheiden; Aussetzung gesondert begründen; Ehewillen im Eheschließungszeitpunkt, Registerberichtigung und kirchliche Beschäftigung in eigene Dokumentwege überführen.",
     "limits": "desk review; no live client execution"
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "roemisch-katholisches-kirchenrecht/roemisch-katholisches-kirchenrecht-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }

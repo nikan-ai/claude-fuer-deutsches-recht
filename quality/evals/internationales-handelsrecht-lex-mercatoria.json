@@ -81,7 +81,7 @@
           ]
         }
       ],
-      "target_skill": "cisg-ausschluss-und-rechtswahl"
+      "target_skill": "cisg-kaufrecht-bearbeiten"
     }
   ],
   "workshop_review": {
@@ -95,7 +95,7 @@
       "Vertragsfassungen und AGB-Einbeziehung, Waren- gegen Transportschaden, Messwerte gegen Spezifikation, Rüge und Nachfrist sowie Garantieabruf gegen Grundgeschäft getrennt vertieft; Qualität und Härtefall als konkrete Vertragsarbeit.",
       "Einstiegsredaktion 16.10.2026: Warenvertrag und konkrete Anspruchs-/Klauselarbeit verbunden; österreichischen Ausschlussfall nicht als allgemeine CISG-Abwahl dargestellt."
     ],
-    "sha256": "36e03d7b5f4abaca9b56494323314d9bcf68a026c0608405380a53aaeec6b1cc"
+    "sha256": "46aaf76b9b0f0663f3d6c9dbd8eb4f76aa0421527c62ccd250e1d9af9f5f605c"
   },
   "prompt_editorial_review": {
     "date": "2026-09-22",
@@ -103,7 +103,7 @@
       "internationales-handelsrecht-lex-mercatoria/internationales-handelsrecht-lex-mercatoria-schnellstart.md",
       "internationales-handelsrecht-lex-mercatoria/internationales-handelsrecht-lex-mercatoria-werkstatt.md",
       "internationales-handelsrecht-lex-mercatoria/README.md",
-      "internationales-handelsrecht-lex-mercatoria/skills/cisg-ausschluss-und-rechtswahl/SKILL.md",
+      "internationales-handelsrecht-lex-mercatoria/skills/cisg-ausschluss-und-rechtswahl/FACHINHALT.md",
       "quality/evals/internationales-handelsrecht-lex-mercatoria.json"
     ],
     "opening_change": "Rechtswahl, konkrete Lieferpflicht und passende Mängelanzeige statt generischem grenzüberschreitendem Prüfauftrag.",
@@ -185,5 +185,15 @@
         "utf8_bytes": 6004
       }
     ]
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "internationales-handelsrecht-lex-mercatoria/internationales-handelsrecht-lex-mercatoria-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }

@@ -11,21 +11,21 @@ Dieser Einstieg routet **Fachanwalt Gewerblicher Rechtsschutz** vom ersten Sachv
 
 ## Fachlandkarte dieses Plugins
 
-- `abmahnung-formular-portal-und-einreichung` — Abmahnung Bezuege Designg
-- `workflow-chronologie-und-belegmatrix` — Chronologie Belegmatrix Fristen Risikoampel
-- `design-neuheit-offenbarung-pruefen` — Designneuheit und Offenbarung prüfen
-- `eu-design-schutzumfang-gesamteindruck-pruefen` — Schutzumfang eines Unionsdesigns prüfen
-- `designverletzung-fehlerkatalog` — Designverletzung Fehlerkatalog
-- `designverletzung` — Designverletzung Marken Widerspruch
-- `domainrecht-loeschung-und-uebertragung-pruefen` — 1. Domainkonflikt bearbeiten
-- `dpma-mehrparteien-konflikt-und-interessen` — Dpma Interessen Einstweilige Euipo
-- `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme Abmahnung UWG
-- `hashtagmarke-unterscheidungskraft-pruefen` — Hashtagmarke und Unterscheidungskraft prüfen
-- `einstieg-schnelltriage-fallrouting` — FA Gewerblicher RS GR Abmahnung Portfolio
-- `erstpruefung-und-mandatsziel` — Fachanwalt FAO Gebrmg
-- `workflow-redteam-qualitygate` — Faevvollzug Abschlussschreiben Lizenzanaloger
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `verfahrensstrategie-bearbeiten` (Fachthema: abmahnung-formular-portal-und-einreichung) — Abmahnung Bezuege Designg
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: workflow-chronologie-und-belegmatrix) — Chronologie Belegmatrix Fristen Risikoampel
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: design-neuheit-offenbarung-pruefen) — Designneuheit und Offenbarung prüfen
+- `verfahrensstrategie-bearbeiten` (Fachthema: eu-design-schutzumfang-gesamteindruck-pruefen) — Schutzumfang eines Unionsdesigns prüfen
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: designverletzung-fehlerkatalog) — Designverletzung Fehlerkatalog
+- `rechtsposition-bearbeiten` (Fachthema: designverletzung) — Designverletzung Marken Widerspruch
+- `rechtsbestand-und-register-bearbeiten` (Fachthema: domainrecht-loeschung-und-uebertragung-pruefen) — 1. Domainkonflikt bearbeiten
+- `rechtsposition-bearbeiten` (Fachthema: dpma-mehrparteien-konflikt-und-interessen) — Dpma Interessen Einstweilige Euipo
+- `rechtsbestand-und-register-bearbeiten` (Fachthema: erstgespraech-mandatsannahme) — Erstgespraech Mandatsannahme Abmahnung UWG
+- `arbeitsprodukt-bearbeiten` (Fachthema: hashtagmarke-unterscheidungskraft-pruefen) — Hashtagmarke und Unterscheidungskraft prüfen
+- `verfahrensstrategie-bearbeiten` (Fachthema: einstieg-schnelltriage-fallrouting) — FA Gewerblicher RS GR Abmahnung Portfolio
+- `rechtsposition-bearbeiten` (Fachthema: erstpruefung-und-mandatsziel) — Fachanwalt FAO Gebrmg
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: workflow-redteam-qualitygate) — Faevvollzug Abschlussschreiben Lizenzanaloger
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -40,3 +40,23 @@ Dieser Einstieg routet **Fachanwalt Gewerblicher Rechtsschutz** vom ersten Sachv
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Gewerblicher Rechtsschutz:** Welche konkrete Nutzung ist durch welches Recht und welchen Nachweis gedeckt?
+
+**Erste Ansicht:** Zeige Schutzgegenstand, Rechtekette, Nutzung, Gebiet, Zeitraum und vertragliche oder gesetzliche Grundlage in einer Rechteübersicht; markiere die ungeklärte Verbindung.
+
+**Sinnvolle Interaktion:** Wähle Nutzung, Territorium oder Fassung und stelle die betroffenen Rechte und Nachweise dar. Eine fehlende Lizenz wird nicht durch eine grafische Freigabe ersetzt.
+
+**Datengrundlage:** Werk oder Schutzrecht, Inhaber, Übertragung, Nutzungsart, Zeitraum, Gebiet und Belegstelle. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründeter Rechtevermerk und der beauftragte Lizenz-, Anspruchs- oder Antworttext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

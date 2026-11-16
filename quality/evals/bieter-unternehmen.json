@@ -21,7 +21,7 @@
     "changes": [
       "16.10.2026: Angebot und Rechtsschutz vor Skill-Routing gestellt; Routingtabellen vollständig ans Ende verschoben. Verpflichtende Startkarten durch auftragsbezogene interne Prüfhilfen ersetzt, Fachzweige erhalten."
     ],
-    "sha256": "617a1083cd5f9394dcd83ad380c7226c96fc25895d3399ff32696d30e11da5e5",
+    "sha256": "6a56279eb2e2d78b8d33a942628431124ace675c6dc788e598fc8374106038d6",
     "reviewed_on": "2026-10-16",
     "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
   },
@@ -47,9 +47,9 @@
       "vergaberecht-werkstatt/bieter-unternehmen/bieter-unternehmen-schnellstart.md",
       "vergaberecht-werkstatt/bieter-unternehmen/bieter-unternehmen-werkstatt.md",
       "vergaberecht-werkstatt/bieter-unternehmen/skills/vergabe-os-master-orchestrator/SKILL.md",
-      "vergaberecht-werkstatt/bieter-unternehmen/skills/qualitaetsvorsprung-nachweisen/SKILL.md",
-      "vergaberecht-werkstatt/bieter-unternehmen/skills/angebot-in-vorgegebenem-format-erstellen/SKILL.md",
-      "vergaberecht-werkstatt/bieter-unternehmen/skills/18-aufklaerung-niedriges-angebot-paragraf-60/SKILL.md"
+      "vergaberecht-werkstatt/bieter-unternehmen/skills/qualitaetsvorsprung-nachweisen/FACHINHALT.md",
+      "vergaberecht-werkstatt/bieter-unternehmen/skills/angebot-in-vorgegebenem-format-erstellen/FACHINHALT.md",
+      "vergaberecht-werkstatt/bieter-unternehmen/skills/18-aufklaerung-niedriges-angebot-paragraf-60/FACHINHALT.md"
     ],
     "decisions": [
       {
@@ -104,7 +104,7 @@
   "cases": [
     {
       "id": "qualitaetsvorsprung-nur-innerhalb-der-matrix",
-      "target_skill": "qualitaetsvorsprung-nachweisen",
+      "target_skill": "arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten",
       "request": "Kuenstliche Testeingabe: Wir erstellen ein Angebot fuer einen VgV-Dienstleistungsauftrag. Die veroeffentlichte Matrix vergibt 50 Preispunkte nach 50 mal niedrigster Preis geteilt durch Angebotspreis und 50 Qualitaetspunkte. Fuer eine interne Simulation sind 800000 EUR mit 25 Qualitaetspunkten und unser Preis von 1000000 EUR mit 45 Punkten angesetzt. Unsere 45 Punkte sind nur eine noch zu belegende Selbsteinschaetzung. Lebenszykluskosten sind kein weiteres Kriterium. Erstelle eine Punktebruecke und einen Konzeptentwurf mit offenen Nachweisen; versprich keinen Zuschlag.",
       "input_files": [],
       "deliverables": [
@@ -140,7 +140,7 @@
     },
     {
       "id": "freeze-und-quittung-ohne-originaldateien",
-      "target_skill": "angebot-in-vorgegebenem-format-erstellen",
+      "target_skill": "vergabeart-und-schwelle-bearbeiten",
       "request": "Kuenstliche Testeingabe: Das Portal verlangt ein unveraendert strukturiertes XLSX-Preisblatt, ein unterschriebenes PDF und eine native GAEB-Angebotsdatei. Unser uebermittelter Inventartext nennt Preisblatt v3, Konzept als veraenderlichen Cloud-Link und GAEB v2. Die vorliegende textliche Quittung nennt nur Preisblatt v2 und ein PDF; Serverzeit und Hashes fehlen. Binaerdateien und Portalzugriff stehen nicht zur Verfuegung. Die Abgabefrist ist heute 14 Uhr, aktuelle Serverzeit unbekannt. Erstelle ein Freeze-Manifest und eine interne Freigabenotiz mit konkreten Nachforderungen. Lade nichts hoch.",
       "input_files": [],
       "deliverables": [
@@ -175,7 +175,7 @@
     },
     {
       "id": "preisaufklaerung-mit-offener-lohnbelegluecke",
-      "target_skill": "18-aufklaerung-niedriges-angebot-paragraf-60",
+      "target_skill": "vergabeart-und-schwelle-bearbeiten",
       "request": "Kuenstliche Testeingabe: Die Vergabestelle verlangt nach Paragraf 60 VgV Erklaerung unseres unveraenderlichen Gesamtpreises von 720000 EUR netto. Unsere interne Kostenbruecke nennt Personal einschliesslich behaupteter Sozialabgaben 500000 EUR, Material 90000 EUR, Gemeinkosten 60000 EUR sowie Risiko und Gewinn 70000 EUR. Der Sozialabgabennachweis fehlt. Der Vertrieb nennt zusaetzlich 40000 EUR Einkaufsrabatt, hat aber weder Zusage noch nachvollziehbare Zuordnung zur bereits vorgelegten Materialposition. Erstelle einen vorlaeufigen Antwortentwurf und eine interne Beleglueckenliste. Keine tatsaechlichen Lohn- oder Lieferantenbelege sind beigefuegt.",
       "input_files": [],
       "deliverables": [
@@ -230,5 +230,15 @@
         "anchor_or_exception": "Paragrafen 127 GWB und 60 VgV; BGH 31.01.2017 X ZB 10/16: Aufklärungsanlass und Geheimnisabwägung, kein automatischer Ausschluss oder vollständige Kalkulationsoffenlegung."
       }
     ]
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "vergaberecht-werkstatt/bieter-unternehmen/bieter-unternehmen-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }

@@ -116,7 +116,7 @@
       "Die für dieses Gebiet dokumentierten Quellenpassagen vom 30.09.2026 fallbezogen eingearbeitet.",
       "Einstiegsredaktion 16.10.2026, Batch 2: Titel, Behördenentscheidung und beauftragter Antrag eröffnen die Arbeit; Lebensunterhalt wird nach Familienkonstellation und passendem Regelwerk geprüft. Bestehenden Quellenstand wiederverwendet; keine neue Vollprüfung oder Live-Modelltests."
     ],
-    "sha256": "070e0457e1701a1e0f1495bd4ec2b55135211d3c47885c0b4e1c5545d429ce1d",
+    "sha256": "804b2009102c771646376ee5de2ab31f4d2dd98abf63bb1d573c1365efe92528",
     "reviewed_on": "2026-09-30"
   },
   "focus_review": {
@@ -196,7 +196,7 @@
       "fachanwalt-migrationsrecht/fachanwalt-migrationsrecht-werkstatt.md",
       "fachanwalt-migrationsrecht/skills/familiennachzug-haushaltsprognose-belegabgleich/SKILL.md",
       "fachanwalt-migrationsrecht/skills/juristischer-argumentationskern/SKILL.md",
-      "fachanwalt-migrationsrecht/skills/reiseausweis-fluechtling/SKILL.md",
+      "fachanwalt-migrationsrecht/skills/reiseausweis-fluechtling/FACHINHALT.md",
       "quality/evals/fachanwalt-migrationsrecht.json"
     ],
     "opening_change": "Aufenthalts- und Schutzbegehren aus Titeln und Bescheiden prüfen; Hauptproblem auf nachhaltige Haushaltsdeckung und konkrete Behördenabzüge ausgerichtet. Workflow-Ergänzung: Leer: Aufenthaltstitel, Familiennachzug oder Schutzverfahren anbieten. Dateien ohne Aufgabe: Bescheid, Antrag und Haushaltsbelege still lesen; Titel-, Nachweis- oder Rechtsschutzziel klären. Klarer Auftrag: Ergänzung oder Rechtsbehelf direkt ausarbeiten; Frist und Vollzug bei Eile vor Vollständigkeit der Finanzrechnung sichern.",
@@ -242,8 +242,8 @@
         "fachanwalt-migrationsrecht/fachanwalt-migrationsrecht-schnellstart.md",
         "fachanwalt-migrationsrecht/fachanwalt-migrationsrecht-werkstatt.md",
         "fachanwalt-migrationsrecht/skills/familiennachzug-haushaltsprognose-belegabgleich/SKILL.md",
-        "fachanwalt-migrationsrecht/skills/passbeschaffung-zumutbarkeit/SKILL.md",
-        "fachanwalt-migrationsrecht/skills/reiseausweis-fluechtling/SKILL.md"
+        "fachanwalt-migrationsrecht/skills/passbeschaffung-zumutbarkeit/FACHINHALT.md",
+        "fachanwalt-migrationsrecht/skills/reiseausweis-fluechtling/FACHINHALT.md"
       ],
       "result": "Familienbedarf, ausländische Flüchtlingsanerkennung und Passersatzmitwirkung bleiben getrennte Fallgruppen. Der Titel-Ausschluss ist präzise auf § 25 Absatz 2 Satz 1 Alternative 1 begrenzt; Vorprüfung vom 30.09.2026 wiederverwendet.",
       "search_2026": "Die gezielte Suche bestätigte die bereits am 30.09.2026 geprüften 1 C 6.25 und 1 C 27.25; keine zusätzliche neue Entscheidung eingebaut.",
@@ -283,5 +283,16 @@
     ],
     "focus_scope": "Hauptproblem Familiennachzugs-Haushaltsprognose bleibt bei 1 C 20.09. Anerkennungsautomatismus und Passersatz-Mitwirkung werden nicht als Rechenregeln für Lebensunterhalt angeführt.",
     "new_model_tests": false
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "fachanwalt-migrationsrecht/fachanwalt-migrationsrecht-hauptproblem.md",
+      "fachanwalt-migrationsrecht/fachanwalt-migrationsrecht-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }

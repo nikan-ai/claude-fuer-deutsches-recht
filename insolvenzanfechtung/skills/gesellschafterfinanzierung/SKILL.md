@@ -11,6 +11,8 @@ Ordnen Sie die Finanzierung nach ihrer rechtlichen und wirtschaftlichen Funktion
 
 BGH, Urteil vom 10.07.2025, Az. IX ZR 189/24, unterscheidet diese Entstehungsgründe. Der Anker trägt eine differenzierte Untersuchung von Regress und stehen gelassenen Forderungen, keine pauschale Umdeutung jeder kurzfristig offenen Ausgabe. Die geprüften Randnummern und Grenzen stehen in der Rechtsquellenreferenz.
 
+Für eine vertiefte Bearbeitung laden Sie nur die einschlägige vollständige Einzelwerkstatt: [§ 135 InsO](../../werkstattprompts/135-gesellschafterdarlehen.md), [§ 136 InsO](../../werkstattprompts/136-stille-gesellschaft.md), [§ 138 InsO](../../werkstattprompts/138-nahestehende-personen.md). Jede Werkstatt enthält eigenen Auftrag, Merkmalsprüfung, Belegkennzeichnung, Gegenprüfung und ausformulierte Fallvarianten. §§ 138 und 139 sind Zuordnungs- und Fristenregeln; § 137 ist eine Sonderregel, kein allgemeiner zusätzlicher Rückgewährtatbestand.
+
 ## 2. Eingaben
 
 Lesen Sie aktuelle und historische Gesellschafterlisten, Satzung, Beteiligungskette, Geschäftsführerbestellungen, Darlehens- und Sicherungsverträge, Gesellschafterbeschlüsse, Kontoauszüge und Verrechnungskonten. Beteiligung und Geschäftsführungsfunktion werden für den maßgeblichen Zeitraum erhoben, nicht nur nach der heutigen Registerlage.
@@ -103,7 +105,11 @@ Trägt: Fehlt beim Anspruchsgegner die Verbindung von Gesellschafter- und Darleh
 
 Trägt nicht: Ein bloßer Umgehungsvorwurf, persönliche Bekanntschaft, beobachtende Teilnahme an Gesprächen, Einflussmöglichkeit oder ein auffälliger Kaufpreis genügten ohne weitere Tatsachen. Die Entscheidung ersetzt nicht die gesonderte Prüfung einer Abtretung innerhalb der Jahresfrist nach IX ZR 32/12.
 
-### 4.5 Prüfung vor Verwendung
+### 4.5. Rangdurchsetzung und Zinszahlungen bei Auslandsbezug
+
+[BGH, Urteil vom 17.09.2026 – IX ZR 229/23](https://www.rechtsprechung-im-internet.de/jportal/docs/bsjrs/jb-KORE304032026.zip), Rn. 13–16, 24, 28–29 und 37–38, ordnet § 135 Abs. 1 Nr. 2 InsO als Durchsetzung des Gesellschafterdarlehensnachrangs ein. Art. 13 EuInsVO a. F. steht diesem Zugriff nicht entgegen. Prüfen Sie weiterhin die Gläubigerbenachteiligung und jede einzelne Leistung. Vertragliche Zinszahlungen fallen grundsätzlich nicht unter § 135 Abs. 1 Nr. 2 InsO. Prüfen Sie insbesondere Überhöhung gegenüber marktüblichen Zinsen oder eine darlehensgleiche Stundung. Der BGH bestätigte die Beurteilung zu Tilgung und darlehensgleichen Warenlieferungen. Zur Anfechtbarkeit der Zinszahlungen verwies er die Sache zurück, weil Feststellungen fehlten.
+
+### 4.6 Prüfung vor Verwendung
 
 Prüfen Sie die anwendbare Normfassung und jede tragende gerichtliche Aussage anhand der [Rechtsquellen](../../references/rechtsquellen.md) und der [Zitierweise](../../references/zitierweise.md). Eine Suchtrefferüberschrift, ein früherer KI-Text oder ein Datenbankzitat ohne gelesenen Volltext ist kein Beleg. Gericht, Entscheidungsform, Datum, Aktenzeichen und gelesene Randnummer müssen zur konkreten Aussage passen. Dokumentieren Sie, was der Anker trägt und was er nicht trägt. Übernehmen Sie keine allgemeine Bindung aus einem Präzedenzfall.
 

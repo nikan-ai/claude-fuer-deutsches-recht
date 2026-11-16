@@ -26,22 +26,22 @@ Beiratsfragen sind eine Spezialspur. Nutze sie erst, wenn Satzungsgrundlage, Ent
 
 ## Fachlandkarte dieses Plugins
 
-- `agio-und-kapitalruecklage` — Agio und Kapitalruecklage
-- `anmeldungen-verhandlung-vergleich-und-eskalation` — Anmeldungen Verhandlung Vergleich und Eskalation
-- `anpassen` — Anpassen
-- `mandat-triage-gesellschaftsrecht` — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
-- `arbeitsbereich-mandantenentscheidung` — Arbeitsbereich Mandantenentscheidung
-- `aufsichtsrat-protokoll` — Aufsichtsrat Protokoll
-- `gesellschafterbeschluss` — Beschlussweg, Mehrheit, Form und Dokumentation
-- `gesellschafterliste-legitimation-und-widerspruch` — Listenlage, Widerspruch und Legitimationswirkung
-- `gesellschafterstreit-einstweiliger-rechtsschutz` — Eilantrag, Verfügungsgrund und Sicherungsziel
-- `geschaeftsfuehrer-haftung-43-gmbhg` — Organpflicht, Beweislast, Entlastung und Schaden
-- `kapitalerhaltung-verdeckte-ausschuettung` — Kapitalbindung, Rückgewähr und Zahlungsstopp
-- `umwandlung-formwechsel-verschmelzung-spaltung` — Maßnahme, Beschluss, Registerwirkung und Vollzug
-- `liquidation-loeschung-und-nachtragsliquidation` — Abwicklung, Sperrjahr, Nachtragsliquidation
-- `beirat-abgrenzung-aufsichtsrat` — nur bei echter Beirats- oder Aufsichtsratsweiche
-- `dokumente-intake` — Dokumente Intake
-- `quellen-livecheck` — Quellen Livecheck
+- `kapital-und-strukturmassnahmen-bearbeiten` (Fachthema: agio-und-kapitalruecklage) — Agio und Kapitalruecklage
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anmeldungen-verhandlung-vergleich-und-eskalation) — Anmeldungen Verhandlung Vergleich und Eskalation
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: anpassen) — Anpassen
+- `gesellschafter-und-beschlussfassung-bearbeiten` (Fachthema: mandat-triage-gesellschaftsrecht) — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: arbeitsbereich-mandantenentscheidung) — Arbeitsbereich Mandantenentscheidung
+- `organe-und-vertretung-bearbeiten` (Fachthema: aufsichtsrat-protokoll) — Aufsichtsrat Protokoll
+- `gruendung-und-gesellschaftsvertrag-bearbeiten` (Fachthema: gesellschafterbeschluss) — Beschlussweg, Mehrheit, Form und Dokumentation
+- `register-und-vollzug-bearbeiten` (Fachthema: gesellschafterliste-legitimation-und-widerspruch) — Listenlage, Widerspruch und Legitimationswirkung
+- `gruendung-und-gesellschaftsvertrag-bearbeiten` (Fachthema: gesellschafterstreit-einstweiliger-rechtsschutz) — Eilantrag, Verfügungsgrund und Sicherungsziel
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: geschaeftsfuehrer-haftung-43-gmbhg) — Organpflicht, Beweislast, Entlastung und Schaden
+- `kapital-und-strukturmassnahmen-bearbeiten` (Fachthema: kapitalerhaltung-verdeckte-ausschuettung) — Kapitalbindung, Rückgewähr und Zahlungsstopp
+- `kapital-und-strukturmassnahmen-bearbeiten` (Fachthema: umwandlung-formwechsel-verschmelzung-spaltung) — Maßnahme, Beschluss, Registerwirkung und Vollzug
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: liquidation-loeschung-und-nachtragsliquidation) — Abwicklung, Sperrjahr, Nachtragsliquidation
+- `organe-und-vertretung-bearbeiten` (Fachthema: beirat-abgrenzung-aufsichtsrat) — nur bei echter Beirats- oder Aufsichtsratsweiche
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: quellen-livecheck) — Quellen Livecheck
 
 ## Arbeitsweg
 
@@ -56,3 +56,23 @@ Beiratsfragen sind eine Spezialspur. Nutze sie erst, wenn Satzungsgrundlage, Ent
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Gesellschaftsrecht:** Wer kontrolliert wen, wer schuldet wem etwas und welche Zustimmung fehlt?
+
+**Erste Ansicht:** Zeige Beteiligte und Beziehungen als beschriftetes Schaubild. Trenne Kapital, Stimmrechte, Organstellung, Vollmacht, Forderung und wirtschaftliche Zuordnung; erläutere jede verwendete Kante.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann eine Partei oder Transaktion mit ihren Belegen zeigen. Ein veränderter Anteil oder eine alternative Struktur erzeugt eine gesonderte Variante; Kontrolle, Zuständigkeit oder Rechtsfolge werden nicht allein aus einer Prozentzahl abgeleitet.
+
+**Datengrundlage:** Rechtsträger, Rolle, Anteil oder Anspruch, maßgeblicher Zeitpunkt, Beziehungstyp und Urkundenbeleg. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

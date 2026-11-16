@@ -51,7 +51,7 @@
       "Am 30.09.2026 fallbezogene Rechtsprechungsanker 2026 ergänzt; begrenzte Aktualisierung, kein vollständiger Neuabgleich aller Teilmaterien.",
       "16.10.2026: Beantragte beamtenrechtliche Entscheidung und Eilrechtsschutz früh konkretisiert."
     ],
-    "sha256": "a371d5c0fe40facd52dc0c5a7bb46167f19f35c9402721b0fc863c2368403c84",
+    "sha256": "e8a90c6894484921cb2697fca973d405ae16d49f785e30d657a6c476fa0399d3",
     "reviewed_on": "2026-10-16",
     "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
   },
@@ -96,21 +96,22 @@
           ]
         }
       ],
-      "target_skill": "konkurrentenstreit-eilverfahren"
+      "target_skill": "arbeitsprodukt-bearbeiten"
     }
   ],
   "workshop_review": {
     "verdict": "revised",
-    "reason": "Die Werkstatt prüft zusätzlich fiktive Fortschreibung, Vergleichsgruppen und Beförderungsverläufe anhand der entscheidenden Beschlussgründe; allgemeine Entscheidungslisten wurden entfernt. Individuelle Text- und Quellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Redaktionelle Anschlussprüfung 16.10.2026: Beantragte beamtenrechtliche Entscheidung und Eilrechtsschutz früh konkretisiert. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+    "reason": "Die Werkstatt prüft zusätzlich fiktive Fortschreibung, Vergleichsgruppen und Beförderungsverläufe anhand der entscheidenden Beschlussgründe; allgemeine Entscheidungslisten wurden entfernt. Individuelle Text- und Quellenprüfung, kein Live-Modelltest. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Redaktionelle Anschlussprüfung 16.10.2026: Beantragte beamtenrechtliche Entscheidung und Eilrechtsschutz früh konkretisiert. Keine neue fachliche Vollprüfung oder Live-Ausführung. Die Quellenprüfung vom 16.11.2026 ergänzt die konkret dokumentierte Änderung zum Entscheidungsstichtag 31.10.2026.",
     "changes": [
       "Einstieg auf Auswahl-, Status- und Zahlungsbegehren zugeschnitten.",
       "Fiktive Fortschreibung und ernsthafte Auswahlchance fallbezogen verbunden; ungeprüfte Entscheidungsliste entfernt.",
       "Auswahlchance und Vollzugsstand, falscher Beurteilungszeitraum, funktionelle Gesundheitsfragen und konsistente Bescheidrechnung.",
       "Stillhaltezusage ändert Eilgrund; erfolgte Ernennung verlangt neuen Rechtsschutzabgleich; Funktionsbeschränkung ändert Gutachterfragen.",
       "Am 30.09.2026 fallbezogene Rechtsprechungsanker 2026 ergänzt; begrenzte Aktualisierung, kein vollständiger Neuabgleich aller Teilmaterien.",
-      "16.10.2026: Beantragte beamtenrechtliche Entscheidung und Eilrechtsschutz früh konkretisiert."
+      "16.10.2026: Beantragte beamtenrechtliche Entscheidung und Eilrechtsschutz früh konkretisiert.",
+      "Aktuelle amtliche Gründe zur Fortwirkung einer Alimentationsrüge und die Reichweite der Berliner Besoldungsentscheidung einordnen."
     ],
-    "sha256": "5c1642999adbe329e7f6176ae4cb079a11541e243ebb537d0ec1c5298d234437",
+    "sha256": "2959220161ef09098ae7d2a0601a7237eb8e966f66edbd6ddd49fbd4fd63cafa",
     "reviewed_on": "2026-10-16",
     "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
   },
@@ -159,7 +160,7 @@
       "files": [
         "beamtenrecht/beamtenrecht-schnellstart.md",
         "beamtenrecht/beamtenrecht-werkstatt.md",
-        "beamtenrecht/skills/konkurrentenschutz-bestenauslese-art-richter/SKILL.md"
+        "beamtenrecht/skills/konkurrentenschutz-bestenauslese-art-richter/FACHINHALT.md"
       ],
       "result": "Auswahlchance, Vergleichsgruppe und fiktive Fortschreibung werden in Mini, Werkstatt und Konkurrentenschutz-Skill unterschieden. Der historische Übergang wird nicht als aktuelle Beurteilungsgrundlage ausgegeben.",
       "search_2026": "Enger 2026-Suchlauf ohne passenden neuen Auswahl-/Fortschreibungsfall. 2 A 7.24 ist eine Entscheidung vom 11.12.2025 trotz neuer Veröffentlichung; nicht als 2026-Fall verwendet.",
@@ -186,5 +187,25 @@
         "anchor_or_exception": "Artikel 33 Absatz 2 GG, Paragraf 123 VwGO; BVerwG 03.03.2025 2 VR 4.24: realistische Auswahlchance, keine freie Notenverbesserung oder unbesehene Übernahme alter Übergangsregeln."
       }
     ]
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "beamtenrecht/beamtenrecht-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "werkstatt_stichtagsnachpruefung_2026_10_31": {
+    "checked_on": "2026-11-16",
+    "decision_cutoff": "2026-10-31",
+    "scope": "Gezielte fachliche Nachprüfung der geänderten Passagen; frühere Rechts- und Workflowprüfungen bleiben als eigene Prüfstände dokumentiert.",
+    "report": "quality/source-audits/2026-10-31-werkstatt/README.md",
+    "finding": "Aktuelle amtliche Gründe zur Fortwirkung einer Alimentationsrüge und die Reichweite der Berliner Besoldungsentscheidung einordnen.",
+    "path": "beamtenrecht/beamtenrecht-werkstatt.md",
+    "before_sha256": "545607affe487ba41077e58f0f6ea90580a76e1182f3802190731f461b4d369e",
+    "after_sha256": "2959220161ef09098ae7d2a0601a7237eb8e966f66edbd6ddd49fbd4fd63cafa"
   }
 }

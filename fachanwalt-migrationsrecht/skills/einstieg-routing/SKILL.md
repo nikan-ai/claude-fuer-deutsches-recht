@@ -11,21 +11,21 @@ Dieser Einstieg routet **Fachanwalt Migrationsrecht** vom ersten Sachverhalt zu 
 
 ## Fachlandkarte dieses Plugins
 
-- `abschiebehaft-paragraf-62-aufenthg` — Abschiebehaft Paragraf 62 Aufenthg
-- `einstieg-schnelltriage-fallrouting` — Abschiebungsabwehr Sofort Arbeitgeber
-- `arbeitgeberwechsel` — Arbeitgeberwechsel Asyl Anhoerung Asylg
-- `asylantrag-folgeverfahren-paragraf-71-asylg` — Asylantrag Folgeverfahren Paragraf 71 Asylg
-- `aufenthalt-paragraf-25a-aufenthg` — Aufenthalt Paragraf 25A Aufenthg
-- `aufenthaltstitel-antrag` — Aufenthaltstitel
-- `workflow-aufenthaltstitel-router` — Aufenthaltstitel Ausweisung Start
-- `aufenthaltstitel-pruefung` — Aufenthaltstitel Erstgespraech Mandatsannahme
-- `ausweisung-paragrafe-53-55-aufenthg` — Ausweisung Paragrafe 53 55 Aufenthg
-- `ba-zustimmung-beschaeftigung` — BA Zustimmung Beschäftigungsduldung
-- `blaue-karte-eu-mobilitaet` — Blaue Karte Bleiberecht 25A Chancenaufenthalt
-- `workflow-botschaft-visumtermin` — Botschaft Visumtermin Dokumentenstapel
-- `datenschutz-sicherheit-migration` — Datenschutz Sicherheit Daueraufenthalt EU
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `ausreise-und-aufenthaltsbeendigung-bearbeiten` (Fachthema: abschiebehaft-paragraf-62-aufenthg) — Abschiebehaft Paragraf 62 Aufenthg
+- `staatsangehoerigkeit-und-rechtsschutz-bearbeiten` (Fachthema: einstieg-schnelltriage-fallrouting) — Abschiebungsabwehr Sofort Arbeitgeber
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: arbeitgeberwechsel) — Arbeitgeberwechsel Asyl Anhoerung Asylg
+- `asyl-und-schutz-bearbeiten` (Fachthema: asylantrag-folgeverfahren-paragraf-71-asylg) — Asylantrag Folgeverfahren Paragraf 71 Asylg
+- `einreise-aufenthalt-und-erwerbstaetigkeit-bearbeiten` (Fachthema: aufenthalt-paragraf-25a-aufenthg) — Aufenthalt Paragraf 25A Aufenthg
+- `einreise-aufenthalt-und-erwerbstaetigkeit-bearbeiten` (Fachthema: aufenthaltstitel-antrag) — Aufenthaltstitel
+- `einreise-aufenthalt-und-erwerbstaetigkeit-bearbeiten` (Fachthema: workflow-aufenthaltstitel-router) — Aufenthaltstitel Ausweisung Start
+- `einreise-aufenthalt-und-erwerbstaetigkeit-bearbeiten` (Fachthema: aufenthaltstitel-pruefung) — Aufenthaltstitel Erstgespraech Mandatsannahme
+- `ausreise-und-aufenthaltsbeendigung-bearbeiten` (Fachthema: ausweisung-paragrafe-53-55-aufenthg) — Ausweisung Paragrafe 53 55 Aufenthg
+- `staatsangehoerigkeit-und-rechtsschutz-bearbeiten` (Fachthema: ba-zustimmung-beschaeftigung) — BA Zustimmung Beschäftigungsduldung
+- `staatsangehoerigkeit-und-rechtsschutz-bearbeiten` (Fachthema: blaue-karte-eu-mobilitaet) — Blaue Karte Bleiberecht 25A Chancenaufenthalt
+- `einreise-aufenthalt-und-erwerbstaetigkeit-bearbeiten` (Fachthema: workflow-botschaft-visumtermin) — Botschaft Visumtermin Dokumentenstapel
+- `asyl-und-schutz-bearbeiten` (Fachthema: datenschutz-sicherheit-migration) — Datenschutz Sicherheit Daueraufenthalt EU
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -40,3 +40,23 @@ Dieser Einstieg routet **Fachanwalt Migrationsrecht** vom ersten Sachverhalt zu 
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Migrations-, Asyl-, Freizügigkeits- und Staatsangehörigkeitsrecht:** Welche Ereignisse, Nachweise und nächsten Schritte hängen zeitlich zusammen?
+
+**Erste Ansicht:** Zeige eine Zeitachse mit Ereignisdatum, Zugang oder Kenntnis, belegter Frist und zugehöriger Unterlage; ordne Personen und Zuständigkeiten eindeutig zu.
+
+**Sinnvolle Interaktion:** Bei mehreren Vorgängen kann eine Auswahl auf Person oder Zeitraum fokussieren. Ein abweichendes Zugangsdatum ist ein gekennzeichnetes Szenario; Frist und betroffener Entwurf werden nach erneuter Rechtsprüfung gemeinsam angepasst.
+
+**Datengrundlage:** Datum, Datumsart, Beteiligter, Handlung, Quelle, belegter Fristmaßstab und offene Nachweise. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** Fristenblatt und das beauftragte Schreiben, die Personalmaßnahme oder der begründete Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

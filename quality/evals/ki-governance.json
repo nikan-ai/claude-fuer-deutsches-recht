@@ -37,6 +37,16 @@
       "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de",
       "checked_on": "2026-09-23",
       "supports": "Artikel 33 und 34 am 23.09.2026 im amtlichen Text erneut gelesen: Erstmeldung, nachzureichende Einzelheiten und eigenständige Betroffeneninformation. Keine Vollprüfung der KI-Änderungsverordnung."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62022CJ0203",
+      "checked_on": "2026-11-10",
+      "supports": "EuGH, Urteil vom 27.02.2025 – C-203/22, Dun & Bradstreet Austria, Rn. 55–76. Bei einer automatisierten Entscheidung die konkret angewandte Ergebnislogik verständlich erklären. Geschützte Drittdaten und behauptete Geschäftsgeheimnisse sind der zuständigen Aufsicht oder dem Gericht zur Abwägung zugänglich zu machen. An Art. 15 Abs. 1 lit. h und Art. 22 Abs. 1 DSGVO gebunden. Eine bloße mathematische Formel ist als Erklärung unzureichend."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:72023L2225DEU_202603294",
+      "checked_on": "2026-11-10",
+      "supports": "BGBl. 2026 I Nr. 139, Art. 3 Nr. 3 und 4, Art. 16 Abs. 1. § 31 BDSG wird zum 20.11.2026 aufgehoben, gleichzeitig tritt § 37a BDSG in Kraft. Unionsrechtliche Voraussetzungen und datumsbezogene Anwendung gesondert prüfen."
     }
   ],
   "mini_review": {
@@ -47,9 +57,10 @@
       "Neue KI-VO-Regeln nicht als Gegenstand des älteren DSGVO-Urteils dargestellt.",
       "Vier eigenständige Eingabemodi und fachbezogene Antwortfortsetzung ergänzt.",
       "Redaktion 16.10.2026: Menschliche Entscheidungsmöglichkeiten früh von Freigabeklick und KI-Risikoklasse getrennt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
-      "Zweckbezogene HR-Einstufung, menschliche Entscheidungspraxis und den zeitlich eigenen Beschäftigten- und Vertretungshinweis konkretisiert."
+      "Zweckbezogene HR-Einstufung, menschliche Entscheidungspraxis und den zeitlich eigenen Beschäftigten- und Vertretungshinweis konkretisiert.",
+      "Gezielter amtlicher Quellenabgleich am 10.11.2026. Nachvollziehbarkeit automatisierter Entscheidungslogik und Stichtag der BDSG-Neuregelung ergänzt."
     ],
-    "sha256": "5ce181ae03f9e48a21816e9f2e6f8c95480ec4b74a3674f0a8e8b67a6b52778f"
+    "sha256": "4d33000d7095c10eb13ce9eb4e73d851b680bb1ce77b63420b96f58717d67421"
   },
   "selection": {
     "positive": [
@@ -65,7 +76,7 @@
     {
       "id": "agenten-digitalrecht-2026",
       "request": "Ein Agent hat einem Kunden eine nicht vereinbarte Liefergarantie bestätigt. Der Kunde verlangt Ersatz reiner Geschäftseinbußen. Die Leitung meint, das Modell sei selbst verantwortlich, jede Haftung sei versichert und die neue Produkthaftungsrichtlinie entscheide schon im Oktober 2026 den Fall unmittelbar. Erstellen Sie einen internen Haftungsvermerk und eine Deckungsanfrage auf Grundlage des noch anzufordernden Vertrags und der Police. Keine Anerkenntnisse abgeben.",
-      "target_skill": "ki-haftung-und-versicherung",
+      "target_skill": "rolle-und-lieferkette-bearbeiten",
       "input_files": [],
       "deliverables": [
         "Haftungsvermerk.docx",
@@ -128,7 +139,7 @@
           ]
         }
       ],
-      "target_skill": "ki-incident-management-art-73"
+      "target_skill": "rolle-und-lieferkette-bearbeiten"
     }
   ],
   "workshop_review": {
@@ -139,9 +150,10 @@
       "Neue KI-VO-Regeln nicht als Gegenstand des älteren DSGVO-Urteils dargestellt.",
       "Tatsächliche Entscheidungspunkte, drei unterschiedliche Aufsichtslücken, Chronologie ohne Auditstillstand und versions-/datenbezogene Beschlussfassung.",
       "Redaktion 16.10.2026: Menschliche Entscheidungsmöglichkeiten früh von Freigabeklick und KI-Risikoklasse getrennt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
-      "Zweckbezogene HR-Einstufung, menschliche Entscheidungspraxis und den zeitlich eigenen Beschäftigten- und Vertretungshinweis konkretisiert."
+      "Zweckbezogene HR-Einstufung, menschliche Entscheidungspraxis und den zeitlich eigenen Beschäftigten- und Vertretungshinweis konkretisiert.",
+      "Gezielter amtlicher Quellenabgleich am 10.11.2026. Anforderungen an verständliche Ergebnislogik und getrennte Prüfung der stichtagsabhängigen Scoring-Regeln ergänzt."
     ],
-    "sha256": "1e5bda61624ef92b6a6f042d7333a09d0133beedb1949a4442ee5e9092605884"
+    "sha256": "6ee9a4608ba3d4af81edbf394f07471909fac9d22fa9950c1da8cebcea6fe401"
   },
   "prompt_editorial_review": {
     "date": "2026-09-22",
@@ -163,6 +175,13 @@
         "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0634",
         "application": "Bei maßgeblich scoregeleiteter Vertragsentscheidung Artikel 22 DSGVO und echte menschliche Einflussmöglichkeiten prüfen.",
         "limit": "Keine Entscheidung zur KI-VO-Risikoklasse oder zu Artikel 4a; nicht jede Empfehlung ist eine automatisierte Entscheidung."
+      },
+      {
+        "citation": "EuGH, Urteil vom 27.02.2025 – C-203/22, Dun & Bradstreet Austria, Rn. 55–76",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62022CJ0203",
+        "application": "Bei einer automatisierten Entscheidung die konkret angewandte Ergebnislogik verständlich erklären. Geschützte Drittdaten und behauptete Geschäftsgeheimnisse sind der zuständigen Aufsicht oder dem Gericht zur Abwägung zugänglich zu machen.",
+        "limit": "An Art. 15 Abs. 1 lit. h und Art. 22 Abs. 1 DSGVO gebunden. Eine bloße mathematische Formel ist als Erklärung unzureichend.",
+        "checked_on": "2026-11-10"
       }
     ],
     "remaining_limits": [
@@ -190,5 +209,15 @@
     "reference": "ki-governance/references/ki-normen-und-fallpruefung.md",
     "focus": "Verbinden Sie Systemrisiken, Anbieter-QMS, konkrete Betreiberverwendung und Vorfallbearbeitung über gemeinsame Versions- und Zweckangaben. Ein umfassendes Richtlinienpaket ohne ausgeführte Tests beantwortet die materiellen Systemanforderungen nicht.",
     "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-13",
+    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "ki-governance/ki-governance-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
   }
 }
